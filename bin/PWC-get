@@ -1,0 +1,13 @@
+#!/usr/bin/env raku
+## pull weekly challenge code, see if missing any required modules 
+# 2022-01-31 initial version
+
+sub MAIN ( Int $num ) {
+
+shell qq:to/END/;
+bin/PWC-sync ../perlweeklychallenge-club $num
+find $num -name '*pl' -execdir perl -c \{\} \\; > $num/out 2> $num/err
+grep locate $num/err | perl -npe 's/^.*install the/sudo cpanm/;s/module.*//' | sort -u
+END
+
+}

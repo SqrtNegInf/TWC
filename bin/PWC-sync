@@ -1,0 +1,45 @@
+#!/usr/bin/env perl6
+## xxx
+#    2022-01-24
+
+sub MAIN( $dir, $num ) {
+    my @code;
+    my @dirs = "{$dir}/challenge-{$num}".IO.absolute.IO;
+
+    while @dirs {
+        my @files = @dirs.pop;
+        while @files {
+            for @files.pop.dir -> $path {
+                next if $path.f and $path  ~~ rx{ ['leaveme' | 'txt' | 'git' | 'snapshot' | 'version' | '.sh' ] };
+                next if $path.f and $path !~~ rx{ '/' ['perl'|'perl5'|'perl6'|'raku'] '/' };
+                @code.push: $path if $path.f;
+                @dirs.push: $path if $path.d and $path.r;
+            }
+        }
+    }
+
+    mkdir "$num/1";
+    mkdir "$num/2";
+    for @code -> $f {
+        my ($vol, $dir, $fn) = IO::Spec::Unix.splitpath($f);
+        my ($zz, $lang, $author, @xx) = $dir.split('/').reverse;
+        my $ext;
+        $lang = 'raku' if $lang eq 'perl6';
+        $lang = 'perl' if $lang eq 'perl5';
+        if $lang eq 'raku' { $ext = 'raku' }
+        else               { $ext = ($lang eq 'perl' and $fn ~~ /pm$/) ?? 'pm' !! 'pl' }
+        next unless $fn ~~ /^^ ch/ or $ext ~~ /pm $$/;
+
+        if ($ext eq 'pm') {
+            copy $f, "./{$num}/1/$fn";
+            copy $f, "./{$num}/2/$fn";
+        } else {
+            my $n = $fn ~~ /1/ ?? '1' !! '2';
+            my $dest = "./{$num}/$n/{$author}.$ext";
+            warn "exists: $num $dir/$fn" and next if $dest.IO ~~ :e;
+            copy $f, $dest;
+            shell("touch -r $dir/$fn ./{$num}/$n/{$author}.$ext");
+            "./{$num}/$n/{$author}.$ext".IO.chmod: '0o755';
+        }
+    }
+}
