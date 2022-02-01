@@ -1,0 +1,7 @@
+#!/usr/local/bin/perl -i
+## convert line-endings to UNIX style, to make git happy
+
+while (<>) {
+	s/[\r\n]+$/\n/g;
+	print;
+}
