@@ -1,0 +1,19 @@
+#!/usr/bin/env raku
+## run weekly challenge code for a specific task and language
+# 2022-02-02 initial version
+
+sub MAIN ( Int $challenge,
+           Int $task       where { $task == 1|2 },
+           Str $lang       where { $lang eq 'raku'|'perl' } ) {
+
+my $prefix = "$challenge/$task/00-{$lang}";
+my $ext    = $lang eq 'raku' ?? 'raku' !! 'pl';
+my $err    = "$prefix.err";
+
+shell qq:to/END/;
+find $challenge/$task -name '*$ext' -exec echo ' ' \\; -exec echo "===> \{\} <===" \\; -execdir raku \{\} \\; > $prefix.txt 2> $prefix.err
+END
+
+say unlink $err if "$err".IO.e and ! "$err".IO.s;  # typically (hopefully!) empty 
+
+}
