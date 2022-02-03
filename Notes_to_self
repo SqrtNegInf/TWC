@@ -1,0 +1,13 @@
+2022-02-03
+Expanding testing to Perl, basic functions now complete.
+
+2022-02-02
+Expanding testing to JVM.  
+Found a task in weekly #149 that was unreasonably slow in current JVM (crashed in previous)
+
+2022-02-01
+Repository public.
+Surely recent Raku submissions will mostly be fine, but as I work backwards...
+
+2022-01-31
+Getting traction on this finally.  Utilities in Raku this time.
