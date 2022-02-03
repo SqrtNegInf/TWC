@@ -1,7 +1,7 @@
 #!/usr/bin/env raku
 
 sub MAIN($base = 8) { # Int $base where { $base >= 2 } ) {
-say 'not ok'; exit;
+die 'not ok - disabled';  # Just returns 0 for all input?
     my @alphabet = 0 .. min( $base, 9 ) - 1;
     @alphabet.push: |('A' .. 'Z' )[ 0 .. $base - 10 - 1 ] if $base > 10;
 
