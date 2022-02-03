@@ -6,11 +6,12 @@ sub MAIN ( Int $ch,
            Int $task       where { $task == 1|2 },
            Str $lang       where { $lang eq 'raku'|'perl' } ) {
 
+my $ext = $lang eq 'raku' ?? 'raku' !! 'pl';
+
+if $lang eq 'raku' {
+
 my $prefix-m = "$ch/$task/00-{$lang}-moar";
 my $prefix-j = "$ch/$task/00-{$lang}-jvm";
-my $ext    = $lang eq 'raku' ?? 'raku' !! 'pl';
-#my $m-err  = "{$prefix}-moar.err";
-#my $j-err  = "{$prefix}-jvm.err";
 
 shell qq:to/END/;
 rakudobrew switch moar-blead
@@ -20,6 +21,18 @@ find $ch/$task -name '*$ext' -exec echo ' ' \\; -exec echo "===> \{\} <===" \\; 
 rakudobrew switch moar-blead
 END
 
-say .unlink $_ if .IO.e and ! .IO.s for ({$prefix-m}.err, {$prefix-j}.err); # typically (hopefully!) empty 
+.IO.unlink if .IO.e and ! .IO.s for ("{$prefix-m}.err", "{$prefix-j}.err");
+
+} else {
+
+my $prefix = "$ch/$task/00-{$lang}";
+
+shell qq:to/END/;
+find $ch/$task -name '*$ext' -exec echo ' ' \\; -exec echo "===> \{\} <===" \\; -execdir perl \{\} \\; > $prefix.txt 2> $prefix.err
+END
+
+.IO.unlink if .IO.e and ! .IO.s for "{$prefix}.err", "{$prefix}.err";
+
+}
 
 }
