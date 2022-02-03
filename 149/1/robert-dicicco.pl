@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
 
-die 'not ok'; # whence this 'SingleSumOfDigits' routine?
+#die 'not ok - disabled'; # OK now, added the 'SingleSumOfDigits' routine
 
 use strict;
 use warnings;
@@ -25,3 +25,5 @@ while($fibcnt){
 
     $cnt++;
 }
+
+sub SingleSumOfDigits { sum0 split '', $_[0] }
