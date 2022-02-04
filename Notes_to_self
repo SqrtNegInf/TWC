@@ -1,5 +1,10 @@
+2022-02-04
+Currently not handling Raku libraries ('.rakumod', 1st case in challenge 130)
+At some point also have to deal with 'pm6' (far future, only in challenges <= 87)
+
 2022-02-03
 Expanding testing to Perl, basic functions now complete.
+Piggy-backing on ecosystem RC modules via symbolic link 
 
 2022-02-02
 Expanding testing to JVM.  
