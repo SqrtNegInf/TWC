@@ -1,4 +1,4 @@
-Different results for bruce-gray.raku:
+There were different results for bruce-gray.raku:
 
 JVM:
 ((  1   1   1) (  2   2   1) (  3   3   1) (  2   1   4) (  4   4   1))
@@ -7,3 +7,5 @@ JVM:
 MoarVM:
 ((  2   1   5) (  5   2  13) ( 17  18   5) ( 17   9  20) (  8   3  21))
 ((  2   1   5) (  5   2  13) (  8   3  21) ( 17   9  20) ( 17  18   5))
+
+Source of the problem was the '⅓' character, in JVM 2021.11, still evaluates as zero, which throws off the calculations (no duh).

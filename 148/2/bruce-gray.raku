@@ -3,7 +3,7 @@
 
 # Technical definition from the task.
 sub is_Cardano_triplet ( (\a,\b,\c) --> Bool ) {
-    sub cbrt (\n) { n.sign  *  n.abs ** ⅓ }
+    sub cbrt (\n) { n.sign  *  n.abs ** (1/3) } # with JVM, ⅓ evaluates to zero, so code silently gives wrong answers
 
     my \bsc = b * sqrt(c);
     return 1e-14 > abs( cbrt(a + bsc) + cbrt(a - bsc) - 1 );

@@ -1,4 +1,5 @@
 2022-02-04
+That didn't take long: discovered/fix a problem with JVM (character '⅓' in 148/2/bruce-gray.raku)
 Currently not handling Raku libraries ('.rakumod', 1st case in challenge 130)
 At some point also have to deal with 'pm6' (far future, only in challenges <= 87)
 
