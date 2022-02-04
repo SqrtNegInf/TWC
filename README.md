@@ -17,3 +17,4 @@ after updates to Raku (and to a much lesser extent Perl), rerun the code and see
 ## See Also
 
 [Bruce Gray](http://blogs.perl.org/users/bruce_gray/theweeklychallenge/) gloss on his own solutions.
+[Arne Sommer](https://raku-musings.com/eban-cardano.html) gloss on his own solutions.
