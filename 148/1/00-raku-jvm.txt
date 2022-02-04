@@ -1,0 +1,112 @@
+ 
+===> 148/1/2colours.raku <===
+(2 4 6 30 32 34 36 40 42 44 46 50 52 54 56 60 62 64 66)
+ 
+===> 148/1/arne-sommer.raku <===
+2, 4, 6, 30, 32, 34, 36, 40, 42, 44, 46, 50, 52, 54, 56, 60, 62, 64, 66
+ 
+===> 148/1/athanasius.raku <===
+There are 19 Eban numbers <= 100:
+2, 4, 6, 30, 32, 34, 36, 40, 42, 44, 46, 50, 52, 54, 56, 60, 62, 64, 66
+ 
+===> 148/1/bruce-gray.raku <===
+2 4 6 30 32 34 36 40 42 44 46 50 52 54 56 60 62 64 66
+ 
+===> 148/1/colin-crain.raku <===
+two
+four
+six
+thirty
+thirty-two
+thirty-four
+thirty-six
+forty
+forty-two
+forty-four
+forty-six
+fifty
+fifty-two
+fifty-four
+fifty-six
+sixty
+sixty-two
+sixty-four
+sixty-six
+ 
+===> 148/1/jaldhar-h-vyas.raku <===
+2, 4, 6, 30, 32, 34, 36, 40, 42, 44, 46, 50, 52, 54, 56, 60, 62, 64, 66
+ 
+===> 148/1/laurent-rosenfeld.raku <===
+[2 4 6 30 32 34 36 40 42 44 46 50 52 54 56 60 62 64 66]
+ 
+===> 148/1/luca-ferrari.raku <===
+2
+4
+6
+12
+32
+34
+36
+42
+44
+46
+52
+54
+56
+62
+64
+66
+ 
+===> 148/1/mark-anderson.raku <===
+2
+4
+6
+30
+32
+34
+36
+40
+42
+44
+46
+50
+52
+54
+56
+60
+62
+64
+66
+ 
+===> 148/1/mark-senn.raku <===
+ 
+===> 148/1/polettix.raku <===
+2
+4
+6
+30
+32
+34
+36
+40
+42
+44
+46
+50
+52
+54
+56
+60
+62
+64
+66
+ 
+===> 148/1/roger-bell-west.raku <===
+1..1
+ok 1 - example 1
+ 
+===> 148/1/ulrich-rieke.raku <===
+[2 4 6 30 32 34 36 40 42 44 46 50 52 54 56 60 62 64 66]
+ 
+===> 148/1/wambash.raku <===
+(2 4 6 30 32 34 36 40 42 44 46 50 52 54 56 60 62 64 66)

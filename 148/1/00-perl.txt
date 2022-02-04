@@ -1,0 +1,209 @@
+ 
+===> 148/1/abigail.pl <===
+2 4 6 30 32 34 36 40 42 44 46 50 52 54 56 60 62 64 66
+ 
+===> 148/1/adam-russell.pl <===
+2, 4, 6, 30, 32, 34, 36, 40, 42, 44, 46, 50, 52, 54, 56, 60, 62, 64, 66
+ 
+===> 148/1/alexander-pankoff.pl <===
+2, 4, 6, 30, 32, 34, 36, 40, 42, 44, 46, 50, 52, 54, 56, 60, 62, 64, 66
+ 
+===> 148/1/arne-sommer.pl <===
+2, 4, 6, 30, 32, 34, 36, 40, 42, 44, 46, 50, 52, 54, 56, 60, 62, 64, 66
+ 
+===> 148/1/athanasius.pl <===
+There are 19 Eban numbers <= 100:
+2, 4, 6, 30, 32, 34, 36, 40, 42, 44, 46, 50, 52, 54, 56, 60, 62, 64, 66
+ 
+===> 148/1/bruce-gray.pl <===
+2 4 6 30 32 34 36 40 42 44 46 50 52 54 56 60 62 64 66
+ 
+===> 148/1/colin-crain.pl <===
+two
+four
+six
+thirty
+thirty-two
+thirty-four
+thirty-six
+forty
+forty-two
+forty-four
+forty-six
+fifty
+fifty-two
+fifty-four
+fifty-six
+sixty
+sixty-two
+sixty-four
+sixty-six
+
+two
+four
+six
+thirty
+thirty-two
+thirty-four
+thirty-six
+forty
+forty-two
+forty-four
+forty-six
+fifty
+fifty-two
+fifty-four
+fifty-six
+sixty
+sixty-two
+sixty-four
+sixty-six
+ 
+===> 148/1/dave-jacoby.pl <===
+2, 4, 6, 30, 32, 34, 36, 40, 42, 44, 46, 50, 52, 54, 56, 60, 62, 64, 66
+ 
+===> 148/1/duncan-c-white.pl <===
+2,4,6,30,32,34,36,40,42,44,46,50,52,54,56,60,62,64,66
+ 
+===> 148/1/e-choroba.pl <===
+2, 4, 6, 30, 32, 34, 36, 40, 42, 44, 46, 50, 52, 54, 56, 60, 62, 64, 66
+ 
+===> 148/1/jaldhar-h-vyas.pl <===
+2, 4, 6, 30, 32, 34, 36, 40, 42, 44, 46, 50, 52, 54, 56, 60, 62, 64, 66
+ 
+===> 148/1/james-smith.pl <===
+2
+4
+6
+30
+32
+34
+36
+40
+42
+44
+46
+50
+52
+54
+56
+60
+62
+64
+66
+ 
+===> 148/1/laurent-rosenfeld.pl <===
+2 4 6 30 32 34 36 40 42 44 46 50 52 54 56 60 62 64 66
+ 
+===> 148/1/mattneleigh.pl <===
+
+The Eban numbers below 100 are:
+2, 4, 6, 30, 32, 34, 36, 40, 42, 44, 46, 50, 52, 54, 56, 60, 62, 64, 66
+
+ 
+===> 148/1/perlboy1967.pl <===
+2,4,6,30,32,34,36,40,42,44,46,50,52,54,56,60,62,64,66
+ 
+===> 148/1/pete-houston.pl <===
+The Eban numbers less than 101 are: 2, 4, 6, 30, 32, 34, 36, 40, 42, 44, 46, 50, 52, 54, 56, 60, 62, 64 and 66.
+ 
+===> 148/1/peter-campbell-smith.pl <===
+
+All Eban Numbers <= 100
+2 - two
+4 - four
+6 - six
+30 - thirty
+32 - thirty-two
+34 - thirty-four
+36 - thirty-six
+40 - forty
+42 - forty-two
+44 - forty-four
+46 - forty-six
+50 - fifty
+52 - fifty-two
+54 - fifty-four
+56 - fifty-six
+60 - sixty
+62 - sixty-two
+64 - sixty-four
+66 - sixty-six
+ 
+===> 148/1/polettix.pl <===
+2
+4
+6
+30
+32
+34
+36
+40
+42
+44
+46
+50
+52
+54
+56
+60
+62
+64
+66
+ 
+===> 148/1/robert-dicicco.pl <===
+2 4 6 30 32 34 36 40 42 44 46 50 52 54 56 60 62 64 66 
+ 
+===> 148/1/roger-bell-west.pl <===
+1..1
+ok 1 - example 1
+ 
+===> 148/1/steven-wilson.pl <===
+Eban Numbers <= 100:
+2
+4
+6
+30
+32
+34
+36
+40
+42
+44
+46
+50
+52
+54
+56
+60
+62
+64
+66
+ 
+===> 148/1/ulrich-rieke.pl <===
+2,4,6,30,32,34,36,40,42,44,46,50,52,54,56,60,62,64,66
+ 
+===> 148/1/walt-mankowski.pl <===
+2, 4, 6, 30, 32, 34, 36, 40, 42, 44, 46, 50, 52, 54, 56, 60, 62, 64, 66 are the Eban numbers <= 100
+ 
+===> 148/1/wlmb.pl <===
+The Eban numbers up to 100 are
+2 two
+4 four
+6 six
+30 thirty
+32 thirty-two
+34 thirty-four
+36 thirty-six
+40 forty
+42 forty-two
+44 forty-four
+46 forty-six
+50 fifty
+52 fifty-two
+54 fifty-four
+56 fifty-six
+60 sixty
+62 sixty-two
+64 sixty-four
+66 sixty-six
