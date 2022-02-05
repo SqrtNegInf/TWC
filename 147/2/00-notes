@@ -1,0 +1,6 @@
+Two tasks were so slow in MoarVM that I gave up on testing:
+(just imagine how long they'd take with JVM)
+
+polettix.raku
+simon-proctor.raku
+

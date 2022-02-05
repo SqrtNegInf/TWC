@@ -1,0 +1,47 @@
+ 
+===> 147/2/2colours.raku <===
+P(2167)=7042750 and P(1020)=1560090
+ 
+===> 147/2/arne-sommer.raku <===
+1560090 7042750
+ 
+===> 147/2/athanasius.raku <===
+The first pair of Pentagon Numbers whose
+sum and difference are also Pentagon Numbers:
+
+P(1020) + P(2167) =  1560090 + 7042750  = 8602840 = P(2395)
+P(1020) - P(2167) = |1560090 - 7042750| = 5482660 = P(1912)
+ 
+===> 147/2/bruce-gray.raku <===
+7042750 5482660
+ 
+===> 147/2/jaldhar-h-vyas.raku <===
+2167, 1020
+ 
+===> 147/2/laurent-rosenfeld.raku <===
+(1560090 7042750) = Pentagon numbers N° 1020 and 2167
+Sum is 8602840 (Pentagon number 2395)
+Difference is 5482660 (Pentagon number 1912)
+Instant:1644039073.006893
+ 
+===> 147/2/luca-ferrari.raku <===
+P( 1020 ) + P( 2167 ) = 1560090 + 7042750 = 8602840 = P( 2395 )
+P( 1020 ) - P( 2167 ) = 1560090 + 7042750 = 5482660 = P( 1912 )
+ 
+===> 147/2/mark-anderson.raku <===
+7042750, 1560090
+ 
+===> 147/2/mark-senn.raku <===
+The first pair of pentagonal numbers that satisfy
+the conditions is (1560090, 7042750).
+ 
+===> 147/2/polettix.raku <===
+ 
+===> 147/2/roger-bell-west.raku <===
+P(2167) + P(1020) = 7042750 + 1560090 = 8602840 = P(2395)
+P(2167) - P(1020) = 7042750 - 1560090 = 5482660 = P(1912)
+ 
+===> 147/2/simon-proctor.raku <===
+ 
+===> 147/2/ulrich-rieke.raku <===
+(1560090 7042750)
