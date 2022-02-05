@@ -1,4 +1,4 @@
-#!/usr/bin/env perl
+#!/usr/bin/env raku
 
 my $max = 4000;
 my @pentanums = map { (3 * $_² - $_)/2 }, 1..$max;

@@ -1,4 +1,4 @@
-#!/usr/bin/env perl
+#!/usr/bin/env raku
 
 # Where A,B,C,D are all pentagonal numbers:
 # B + C == A      ,  B - C == D     Original problem statement in task 

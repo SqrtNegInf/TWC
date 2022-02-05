@@ -1,4 +1,4 @@
-#!/usr/bin/env perl
+#!/usr/bin/env raku
 
  sub MAIN( Int $limit = 3000 ) {
 

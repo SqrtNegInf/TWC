@@ -1,4 +1,4 @@
-#!/usr/bin/env perl
+#!/usr/bin/env raku
 
 sub isPentagonNumber( $n ) {
   return ((sqrt( 24 * $n + 1 ) + 1) / 6 ) %% 1 ;

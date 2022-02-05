@@ -1,4 +1,4 @@
-#!/usr/bin/env perl
+#!/usr/bin/env raku
 
 sub pentagon(Int $n) {
     return $n * (3 * $n - 1) / 2;

@@ -1,4 +1,4 @@
-#!/usr/bin/env perl
+#!/usr/bin/env raku
 
 # Use the first n pentagonal numbers. The zeroth element is not used so
 # p_1, p_2, ..., p_n will correspond to $p[1], $p[2], ..., $p[n].
