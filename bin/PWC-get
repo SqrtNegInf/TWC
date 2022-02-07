@@ -6,8 +6,15 @@ sub MAIN ( Int $num ) {
 
 shell qq:to/END/;
 bin/PWC-sync ../perlweeklychallenge-club $num
-find $num -name '*pl' -execdir perl -c \{\} \\; > $num/out 2> $num/err
-grep locate $num/err | perl -npe 's/^.*install the/sudo cpanm/;s/module.*//' | sort -u
+(cd $num/1/; ln -s ~/perl6/Rosetta-Code/lib .)
+(cd $num/2/; ln -s ~/perl6/Rosetta-Code/lib .)
+find $num -name '*pl'   -execdir perl -c \{\} \\; > $num/perl.out 2> $num/perl.err
+find $num -name '*raku' -execdir raku -c \{\} \\; > $num/raku.out 2> $num/raku.err
+grep locate $num/perl.err | perl -npe 's/^.*install the/sudo cpanm/;s/module.*//' | sort -u
 END
+#grep xxx $num/raku.err | perl -npe 's/^.*xxx/zef install xxx/' | sort -u # hasn't been an issue
+
+.IO.unlink if .IO.e and ! .IO.s for "$num/" X~ (<perl raku> X~ <.out .err>).flat;
+say "Now check these: less $num/perl* $num/raku*";
 
 }

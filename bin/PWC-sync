@@ -18,26 +18,24 @@ sub MAIN( $dir, $num ) {
         }
     }
 
-    mkdir "$num/1";
-    mkdir "$num/2";
+    mkdir "$num/$_" for 1, 2;
     for @code -> $f {
         my ($vol, $dir, $fn) = IO::Spec::Unix.splitpath($f);
-        my ($zz, $lang, $author, @xx) = $dir.split('/').reverse;
-        my $ext;
+        my ($lang, $author) = ($dir.split('/'))[*-2,*-3];
         $lang = 'raku' if $lang eq 'perl6';
         $lang = 'perl' if $lang eq 'perl5';
-        if $lang eq 'raku' { $ext = 'raku' }
-        else               { $ext = ($lang eq 'perl' and $fn ~~ /pm$/) ?? 'pm' !! 'pl' }
+        my $ext = $lang eq 'raku' ?? 'raku'
+                                  !! ($lang eq 'perl' and $fn ~~ /pm$/) ?? 'pm' !! 'pl';
         next unless $fn ~~ /^^ ch/ or $ext ~~ /pm $$/;
 
         if ($ext eq 'pm') {
-            copy $f, "./{$num}/1/$fn";
-            copy $f, "./{$num}/2/$fn";
+            copy $f, "./{$num}/$_/$fn" for 1, 2;
         } else {
             my $n = $fn ~~ /1/ ?? '1' !! '2';
             my $dest = "./{$num}/$n/{$author}.$ext";
             warn "exists: $num $dir/$fn" and next if $dest.IO ~~ :e;
             copy $f, $dest;
+            shell("perl -i -npe 's%^#!.*%#!/usr/bin/env $lang%' ./{$num}/$n/{$author}.$ext");
             shell("touch -r $dir/$fn ./{$num}/$n/{$author}.$ext");
             "./{$num}/$n/{$author}.$ext".IO.chmod: '0o755';
         }
