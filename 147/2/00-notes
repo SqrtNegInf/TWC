@@ -1,6 +1,12 @@
-Two tasks were so slow in MoarVM that I gave up on testing:
+Some tasks are painfully slow in Raku, so not tested.
+
+Two were so bad in MoarVM that I killed them before they ever finished:
 (just imagine how long they'd take with JVM)
 
 polettix.raku
 simon-proctor.raku
 
+Two others tooks hours in JVM, so were dropped:
+
+jaldhar-h-vyas.raku
+laurent-rosenfeld.raku

@@ -52,7 +52,7 @@ use strict;
     }
 }
 
-use Test2::V0;
+use Test2::V0 -srand => 1234;;
 plan 2;
 
 my $f = 'Fibonacci::Digit::Sum'->new;

@@ -4,7 +4,7 @@ use strict;
 
 use warnings;
 use feature qw(say);
-use Time::HiRes qw(time);
+#use Time::HiRes qw(time);
 
 $|=1;
 
@@ -12,7 +12,7 @@ $|=1;
 
 ## Set up primes
 my( $T, $t0, $index, $N, $c, @primes ) =
-  ( "%6d\t%28d\t%15.6f\n", time, 0, @ARGV ? $ARGV[0] : 20, 5, 3 );
+  ( "%6d\t%28d\t%15.6f\n", 0, 0, @ARGV ? $ARGV[0] : 20, 5, 3 );
 my @tprimes_current = (3,7);
 
 ## The 1-digit primes are 2, 3, 5 and 7.
@@ -32,7 +32,7 @@ my @tprimes_current = (3,7);
 ## We continue around this loop looking at longer and longer primes,
 ## until we have collected enough primes OR @tprimes_current is empty
 
-printf $T, ++$index, $_, time-$t0 for 2,3,5,7;
+#printf $T, ++$index, $_, time-$t0 for 2,3,5,7;
 while(1) {
   @tprimes_current||last; ## Exit if there are no current l-trunc primes
                           ## We are at the end of the list...
@@ -56,7 +56,7 @@ while(1) {
       push @tprimes_new, $p;
 
       ## And output the index/prime/and time taken..
-      printf $T, ++$index, $p, time - $t0;
+      printf $T, ++$index, $p, 0; #time - $t0;
       exit if $index >= $N; ## Stop if we have got to limit set
     }
   }

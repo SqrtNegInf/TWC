@@ -17,7 +17,7 @@ sub squarefree_integers {
     return @sfi
 }
 
-use Test2::V0;
+use Test2::V0 -srand => 1234;
 plan 2;
 
 is  [squarefree_integers(113)],

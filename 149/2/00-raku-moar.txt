@@ -32,7 +32,6 @@ f(8) = 47302651
 ok 1 - 
  
 ===> 149/2/luca-ferrari.raku <===
-not ok
  
 ===> 149/2/mark-anderson.raku <===
 ok 1 - 

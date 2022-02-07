@@ -1,7 +1,7 @@
 #!/usr/bin/env perl -s
 
 use v5.16;
-use Test2::V0;
+use Test2::V0 -srand => 1234;;
 use List::AllUtils qw(max pairvalues);
 use List::MoreUtils qw(frequency);
 use Math::Prime::Util qw(fromdigits todigits todigitstring); # aka 'ntheory'

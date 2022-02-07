@@ -16,13 +16,9 @@ P(1020) - P(2167) = |1560090 - 7042750| = 5482660 = P(1912)
 7042750 5482660
  
 ===> 147/2/jaldhar-h-vyas.raku <===
-2167, 1020
+1020, 2167
  
 ===> 147/2/laurent-rosenfeld.raku <===
-(1560090 7042750) = Pentagon numbers N° 1020 and 2167
-Sum is 8602840 (Pentagon number 2395)
-Difference is 5482660 (Pentagon number 1912)
-Instant:1644039073.006893
  
 ===> 147/2/luca-ferrari.raku <===
 P( 1020 ) + P( 2167 ) = 1560090 + 7042750 = 8602840 = P( 2395 )

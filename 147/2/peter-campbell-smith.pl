@@ -21,7 +21,7 @@ sub first_method {
 	# first method 
 	my ($found, $n, $pentagon, %p, @f, $m, $diff, %queue, $sum, $mm, $nn, $sum2, $start);
 
-	$start = time;
+	#$start = time;
 	$found = 0;
 
 	for ($n = 1; ; $n ++) {
@@ -59,7 +59,7 @@ sub first_method {
 				say qq[Their difference is $diff which is pentagon number $p{$diff}];
 				
 				if (++ $found == $seeking) {  # we've achieved the goal
-					say '' . (time - $start) . qq[ seconds\n];
+					#say '' . (time - $start) . qq[ seconds\n];
 					return;
 				}
 				delete $queue{$sum};
@@ -82,7 +82,7 @@ sub second_method {
 	my ($found, $n, $i, $s, $m, $diff, $sum, %p, @f, $start);
 	
 	$found = 0;
-	$start = time;
+	#$start = time;
 
 	for ($n = 1; ; $n ++) {
 		
@@ -110,7 +110,7 @@ sub second_method {
 			say qq[Their sum is $sum which is pentagon number $s];			
 			say qq[Their difference is $diff which is pentagon number $p{$diff}];
 			if (++ $found == $seeking) {
-				say '' . (time - $start) . qq[ secs\n];
+				#say '' . (time - $start) . qq[ secs\n];
 				return;
 			}
 		}

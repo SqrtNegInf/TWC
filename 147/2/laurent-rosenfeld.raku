@@ -1,5 +1,7 @@
 #!/usr/bin/env raku
 
+die 'not ok - disabled' if $*VM =~ /jvm/; # too slow
+
 my $max = 4000;
 my @pentanums = map { (3 * $_² - $_)/2 }, 1..$max;
 my %penta = map {@pentanums[$_] => $_+1}, 0..$max-1;
@@ -11,4 +13,4 @@ for @pentanums.combinations(2) -> $comb {
     say "Difference is ", $comb[1]-$comb[0], " (Pentagon number ", %penta{$comb[1]-$comb[0]}, ")";
     last;
 }
-say now - INIT now, " seconds";
+#say now - INIT now, " seconds";

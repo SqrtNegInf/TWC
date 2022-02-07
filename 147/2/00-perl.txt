@@ -50,7 +50,7 @@ found pair P[2166], P[1019]: 7042750, 1560090: sum=8602840, diff=5482660
 1560090 7042750
  
 ===> 147/2/jaldhar-h-vyas.pl <===
-1020, 2167
+2167, 1020
  
 ===> 147/2/james-smith.pl <===
 First 2 pents are:
@@ -84,8 +84,6 @@ Pentagon no 2167 is 7042750
 Pentagon no 1020 is 1560090
 Their sum is 8602840 which is pentagon number 2395
 Their difference is 5482660 which is pentagon number 1912
-7 secs
-
  
 ===> 147/2/polettix.pl <===
  

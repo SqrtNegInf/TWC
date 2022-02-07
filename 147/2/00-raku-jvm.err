@@ -1,6 +1,11 @@
+[31m===[0mSORRY![31m===[0m Error while compiling /Users/dhoekman/PWC/147/2/laurent-rosenfeld.raku
+Unsupported use of =~ to do pattern matching.  In Raku please use: ~~.
+at /Users/dhoekman/PWC/147/2/laurent-rosenfeld.raku:3
+------> [32mdie 'not ok - disabled' if $*VM =~[33m⏏[31m /jvm/; # too slow[0m
 not ok - disabled
   in sub MAIN at polettix.raku line 5
   in block <unit> at polettix.raku line 48
 
 not ok - disabled
-  in block <unit> at 147/2/simon-proctor.raku line 3
+  in block <unit> at simon-proctor.raku line 3
+

@@ -21,14 +21,14 @@ use strict;
 # leftmost digit is removed.
 
 my ($seeking, $prime_index, $from, $to, $test, $this, @not_a_prime, $string, $count,
-	$start, $factor, $multiple, $secs);
+	$start, $factor, $multiple); #, $secs);
 
 # initialise
 $seeking = 20;   # how many to find
 $count = 0;      # how many found
 
 # find primes in ranges of 1000
-$secs = time;
+#$secs = time;
 for ($from = 1; ; $from += 1000) {
 	$to = $from + 999;
 

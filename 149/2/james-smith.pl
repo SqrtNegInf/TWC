@@ -17,7 +17,8 @@ for my $N (2..15) {
   my $time = time;
   my ($v,$c) = biggest_perfect_square($N);
   say sprintf '| %2d | %9d | %18d | %15s | %9.6f | %8d |',
-         $N, $v, $v*$v, baseN($v*$v,$N), time-$time, $c;
+         $N, $v, $v*$v, baseN($v*$v,$N),          0, $c;
+         #$N, $v, $v*$v, baseN($v*$v,$N), time-$time, $c;
 }
 
 ## We brute force this - we start at the largest possible square.
