@@ -1,6 +1,6 @@
 #!/usr/bin/env raku
 
-die 'not ok - disabled' if $*VM =~ /jvm/; # too slow
+die 'not ok - disabled' if $*VM ~~ /jvm/; # too slow
 
 sub pentagon(Int $n) {
     return $n * (3 * $n - 1) / 2;

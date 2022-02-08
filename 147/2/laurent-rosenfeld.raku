@@ -1,6 +1,6 @@
 #!/usr/bin/env raku
 
-die 'not ok - disabled' if $*VM =~ /jvm/; # too slow
+die 'not ok - disabled' if $*VM ~~ /jvm/; # too slow
 
 my $max = 4000;
 my @pentanums = map { (3 * $_² - $_)/2 }, 1..$max;
