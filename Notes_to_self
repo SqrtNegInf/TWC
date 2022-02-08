@@ -1,3 +1,9 @@
+2022-02-07
+Deal with trivial changes between runs (Test2::V0, timings)
+
+2022-02-05
+'pentagonal' tasks are slow in Raku (both backends)
+
 2022-02-04
 That didn't take long: discovered/fix a problem with JVM (character '⅓' in 148/2/bruce-gray.raku)
 Currently not handling Raku libraries ('.rakumod', 1st case in challenge 130)
