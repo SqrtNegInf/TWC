@@ -1,0 +1,50 @@
+ 
+===> 146/1/arne-sommer.raku <===
+104743
+ 
+===> 146/1/ash.raku <===
+104743
+ 
+===> 146/1/athanasius.raku <===
+The 10,001st prime number is 104,743
+ 
+===> 146/1/bruce-gray.raku <===
+104743
+ 
+===> 146/1/colin-crain.raku <===
+104743
+ 
+===> 146/1/feng-chang.raku <===
+104743
+ 
+===> 146/1/laurent-rosenfeld.raku <===
+104743
+ 
+===> 146/1/luca-ferrari.raku <===
+104759
+ 
+===> 146/1/mark-anderson.raku <===
+104743
+ 
+===> 146/1/mark-senn.raku <===
+104743
+ 
+===> 146/1/mohammad-anwar.raku <===
+ok 1 - Example
+1..1
+ 
+===> 146/1/polettix.raku <===
+104743
+ 
+===> 146/1/roger-bell-west.raku <===
+1..1
+ok 1 - example 1
+ 
+===> 146/1/simon-proctor.raku <===
+104743
+ 
+===> 146/1/ulrich-rieke.raku <===
+104743
+ 
+===> 146/1/wambash.raku <===
+104743
