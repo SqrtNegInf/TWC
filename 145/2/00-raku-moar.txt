@@ -1,0 +1,62 @@
+ 
+===> 145/2/arne-sommer.raku <===
+r redivider e edivide d divid i ivi v 
+ 
+===> 145/2/jaldhar-h-vyas.raku <===
+r redivider e edivide d divid i ivi v
+ 
+===> 145/2/laurent-rosenfeld.raku <===
+redivider: r redivider e edivide d divid i ivi v  
+deific: d e i ifi f c  
+rotors: r rotor o oto t s  
+challenge: c h a l ll e n g  
+champion: c h a m p i o n  
+christmas: c h r i s t m a  
+ 
+===> 145/2/luca-ferrari.raku <===
+r = redivider
+e = edivide
+d = divid
+i = ivi
+v = 
+ 
+===> 145/2/polettix.raku <===
+digraph {
+   "''" -> "'ee'" [color=black label="e"]
+   "''" -> "«-1»" [color=blue]
+   "'e'" -> "''" [color=blue]
+   "'ee'" -> "'e'" [color=blue]
+   "'eertree'" -> "'ee'" [color=blue]
+   "'ertre'" -> "'e'" [color=blue]
+   "'ertre'" -> "'eertree'" [color=black label="e"]
+   "'r'" -> "''" [color=blue]
+   "'rtr'" -> "'ertre'" [color=black label="e"]
+   "'rtr'" -> "'r'" [color=blue]
+   "'t'" -> "''" [color=blue]
+   "'t'" -> "'rtr'" [color=black label="r"]
+   "«-1»" -> "'e'" [color=black label="e"]
+   "«-1»" -> "'r'" [color=black label="r"]
+   "«-1»" -> "'t'" [color=black label="t"]
+   "«-1»" -> "«-1»" [color=blue]
+}
+ 
+===> 145/2/roger-bell-west.raku <===
+1..6
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ok 4 - example 4
+ok 5 - example 5
+ok 6 - example 6
+ 
+===> 145/2/ulrich-rieke.raku <===
+r redivider e edivide d divid i ivi v
+ 
+===> 145/2/wambash.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ok 4 - 
+ok 5 - 
+ok 6 - 
+1..6
