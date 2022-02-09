@@ -1,0 +1,7 @@
+#!/usr/bin/env raku
+## re-test tasks (just MoarVM for now)
+#  2022-02-09 initial version
+
+(145..150).race(:6degree, :1batch).map: -> $ch {
+     shell "PWC-run $ch 1 moar ; PWC-run $ch 2 moar"
+}
