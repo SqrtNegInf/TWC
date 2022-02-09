@@ -1,5 +1,15 @@
+2022-02-09
+JVM will change far less frequently than MoarVM (and is a dog-slow pain to boot), 
+and Perl changes even less often, so typical test run will be just for MoarVM.
+
+2022-02-08
+Global check for MoarVM/JVM differences:
+find . -name '00-raku-moar.txt' -print -execdir diff ./00-raku-moar.txt ./00-raku-jvm.txt \;
+
 2022-02-07
-Deal with trivial changes between runs (Test2::V0, timings)
+Deal with trivial changes between runs (timings, randomness, hash order)
+One particular fix often needed in e-choroba's code: 
+    use Test2::V0 -srand => 1234;
 
 2022-02-05
 'pentagonal' tasks are slow in Raku (both backends)
