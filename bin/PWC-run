@@ -1,38 +1,44 @@
 #!/usr/bin/env raku
 ## run weekly challenge code for a specific task and language
+# 2022-02-09 run both backends ('raku') or each separately ('moar', 'jvm')
 # 2022-02-02 initial version
 
 sub MAIN ( Int $ch,
-           Int $task       where { $task == 1|2 },
-           Str $lang       where { $lang eq 'raku'|'perl' } ) {
+           Int $task         where { $task == 1|2 },
+           Str $lang is copy where { $lang eq 'raku'|'moar'|'jvm'|'perl' } ) {
 
-my $ext = $lang eq 'raku' ?? 'raku' !! 'pl';
+  my $ext = $lang eq 'raku'|'moar'|'jvm' ?? 'raku' !! 'pl';
 
-if $lang eq 'raku' {
+  if $lang eq 'raku'|'moar'|'jvm' {
 
-my $prefix-m = "$ch/$task/00-{$lang}-moar";
-my $prefix-j = "$ch/$task/00-{$lang}-jvm";
+    my $backend = $lang;
+    $lang = 'raku';
+    my $prefix-m = "$ch/$task/00-{$lang}-moar";
+    my $prefix-j = "$ch/$task/00-{$lang}-jvm";
 
-shell qq:to/END/;
-rakudobrew switch moar-blead
-find $ch/$task -name '*$ext' -exec echo ' ' \\; -exec echo "===> \{\} <===" \\; -execdir raku    -I lib \{\} \\; > $prefix-m.txt 2> $prefix-m.err
-rakudobrew switch jvm-2021.12
-find $ch/$task -name '*$ext' -exec echo ' ' \\; -exec echo "===> \{\} <===" \\; -execdir perl6-j -I lib \{\} \\; > $prefix-j.txt 2> $prefix-j.err
-rakudobrew switch moar-blead
-END
+    shell qq:to/MOAR/ if $backend eq 'raku'|'moar';
+        rakudobrew switch moar-blead
+        find $ch/$task -name '*$ext' -exec echo ' ' \\; -exec echo "===> \{\} <===" \\; -execdir raku    -I lib \{\} \\; > $prefix-m.txt 2> $prefix-m.err
+        MOAR
 
-.IO.unlink if .IO.e and ! .IO.s for ("{$prefix-m}.err", "{$prefix-j}.err");
+    shell qq:to/JVM/ if $backend eq 'raku'|'jvm';
+        rakudobrew switch jvm-2021.12
+        find $ch/$task -name '*$ext' -exec echo ' ' \\; -exec echo "===> \{\} <===" \\; -execdir perl6-j -I lib \{\} \\; > $prefix-j.txt 2> $prefix-j.err
+        rakudobrew switch moar-blead
+        JVM
 
-} else {
+    .IO.unlink if .IO.e and ! .IO.s for ("{$prefix-m}.err", "{$prefix-j}.err");
 
-my $prefix = "$ch/$task/00-{$lang}";
+  } else {
 
-shell qq:to/END/;
-find $ch/$task -name '*$ext' -exec echo ' ' \\; -exec echo "===> \{\} <===" \\; -execdir perl \{\} \\; > $prefix.txt 2> $prefix.err
-END
+    my $prefix = "$ch/$task/00-{$lang}";
 
-.IO.unlink if .IO.e and ! .IO.s for "{$prefix}.err", "{$prefix}.err";
+    shell qq:to/PERL/;
+        find $ch/$task -name '*$ext' -exec echo ' ' \\; -exec echo "===> \{\} <===" \\; -execdir perl \{\} \\; > $prefix.txt 2> $prefix.err
+        PERL
 
-}
+    .IO.unlink if .IO.e and ! .IO.s for "{$prefix}.err", "{$prefix}.err";
+
+  }
 
 }
