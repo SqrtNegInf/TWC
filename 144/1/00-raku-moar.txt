@@ -1,0 +1,78 @@
+ 
+===> 144/1/arne-sommer.raku <===
+4, 6, 9, 10, 14, 15, 21, 22, 25, 26, 33, 34, 35, 38, 39, 46, 49, 51, 55, 57, 58, 62, 65, 69, 74, 77, 82, 85, 86, 87, 91, 93, 94, 95
+ 
+===> 144/1/athanasius.raku <===
+The semiprimes <= 100 are:
+
+4, 6, 9, 10, 14, 15, 21, 22, 25, 26, 33, 34, 35, 38, 39, 46, 49, 51, 55, 57, 58, 62, 65, 69, 74, 77, 82, 85, 86, 87, 91, 93, 94, 95
+ 
+===> 144/1/david-santiago.raku <===
+10 is Semiprime as 10 = 2 x 5
+14 is Semiprime as 14 = 2 x 7
+15 is Semiprime as 15 = 3 x 5
+21 is Semiprime as 21 = 3 x 7
+22 is Semiprime as 22 = 2 x 11
+25 is Semiprime as 25 = 5 x 5
+26 is Semiprime as 26 = 2 x 13
+33 is Semiprime as 33 = 3 x 11
+34 is Semiprime as 34 = 2 x 17
+35 is Semiprime as 35 = 5 x 7
+38 is Semiprime as 38 = 2 x 19
+39 is Semiprime as 39 = 3 x 13
+4 is Semiprime as 4 = 2 x 2
+46 is Semiprime as 46 = 2 x 23
+49 is Semiprime as 49 = 7 x 7
+51 is Semiprime as 51 = 3 x 17
+55 is Semiprime as 55 = 5 x 11
+57 is Semiprime as 57 = 3 x 19
+58 is Semiprime as 58 = 2 x 29
+6 is Semiprime as 6 = 2 x 3
+62 is Semiprime as 62 = 2 x 31
+65 is Semiprime as 65 = 5 x 13
+69 is Semiprime as 69 = 3 x 23
+74 is Semiprime as 74 = 2 x 37
+77 is Semiprime as 77 = 7 x 11
+82 is Semiprime as 82 = 2 x 41
+85 is Semiprime as 85 = 5 x 17
+86 is Semiprime as 86 = 2 x 43
+87 is Semiprime as 87 = 3 x 29
+9 is Semiprime as 9 = 3 x 3
+91 is Semiprime as 91 = 7 x 13
+93 is Semiprime as 93 = 3 x 31
+94 is Semiprime as 94 = 2 x 47
+95 is Semiprime as 95 = 5 x 19
+ 
+===> 144/1/feng-chang.raku <===
+4 6 9 10 14 15 21 22 25 26 33 34 35 39 49 51 55 65 77 85 91 119 121 143 169 187 221 289
+ 
+===> 144/1/jaldhar-h-vyas.raku <===
+4, 6, 9, 10, 14, 15, 21, 22, 25, 26, 33, 34, 35, 38, 39, 46, 49, 51, 55, 57, 58, 62, 65, 69, 74, 77, 82, 85, 86, 87, 91, 93, 94, 95
+ 
+===> 144/1/laurent-rosenfeld.raku <===
+(4 6 9 10 14 15 21 22 25 26 33 34 35 38 39 46 49 51 55 57 58 62 65 69 74 77 82 85 86 87 91 93 94 95)
+ 
+===> 144/1/luca-ferrari.raku <===
+4,6,9,10,14,15,21,22,25,26,33,34,35,38,39,46,49,51,55,57,58,62,65,69,74,77,82,85,86,87,91,93,94,95
+ 
+===> 144/1/mark-anderson.raku <===
+ok 1 - 
+ 
+===> 144/1/mark-senn.raku <===
+(4 6 9 10 14 15 21 22 25 26 33 34 35 38 39 46 49 51 55 57 58 62 65 69 74 77 82 85 86 87 91 93 94 95)
+ 
+===> 144/1/polettix.raku <===
+4, 6, 9, 10, 14, 15, 21, 22, 25, 26, 33, 34, 35, 38, 39, 46, 49, 51, 55, 57, 58, 62, 65, 69, 74, 77, 82, 85, 86, 87, 91, 93, 94, 95
+4, 6, 9, 10, 14, 15, 21, 22, 25, 26, 33, 34, 35, 38, 39, 46, 49, 51, 55, 57, 58, 62, 65, 69, 74, 77, 82, 85, 86, 87, 91, 93, 94, 95
+4, 6, 9, 10, 14, 15, 21, 22, 25, 26, 33, 34, 35, 38, 39, 46, 49, 51, 55, 57, 58, 62, 65, 69, 74, 77, 82, 85, 86, 87, 91, 93, 94, 95
+ 
+===> 144/1/roger-bell-west.raku <===
+1..1
+ok 1 - example 1
+ 
+===> 144/1/ulrich-rieke.raku <===
+[4 6 9 10 14 15 21 22 25 26 33 34 35 38 39 46 49 51 55 57 58 62 65 69 74 77 82 85 86 87 91 93 94 95]
+ 
+===> 144/1/wambash.raku <===
+    4     6     9    10    15    25    14    21    35    49    22    33    55    77    26    39    65    91    34    51
+   85    38    57    95    46    69    58    87    62    93    74    82    86    94
