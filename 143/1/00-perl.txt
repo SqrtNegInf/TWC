@@ -1,0 +1,138 @@
+ 
+===> 143/1/abigail.pl <===
+8
+ 
+===> 143/1/adam-russell.pl <===
+ 
+===> 143/1/alexander-pankoff.pl <===
+8
+ 
+===> 143/1/arne-sommer.pl <===
+8
+ 
+===> 143/1/athanasius.pl <===
+Input:  $s = "3*2+2"
+ 
+===> 143/1/colin-crain.pl <===
+ok 1 - ex-1
+ok 2 - ex-2
+ok 3 - decimal
+1..3
+ 
+===> 143/1/dave-jacoby.pl <===
+    Input:  $i = ( 5 * 10 )  - ( 12 * 3 )
+    Output:  14 
+    BC:     14
+
+    Input:  $i = 10 + 20 - 5
+    Output: 25
+    BC:     25
+
+    Input:  $i = (10 + 20 - 5) * 2
+    Output: 50
+    BC:     50
+
+    Input:  $i = ( ( 10 * 20 ) - 5) * 2
+    Output:   390
+    BC:     390
+
+ 
+===> 143/1/duncan-c-white.pl <===
+8
+ 
+===> 143/1/e-choroba.pl <===
+# Seeded srand with seed '1234' from import arg.
+1..8
+ok 1 - regex Example 1
+ok 2 - marpa Example 1
+ok 3 - regex Example 2
+ok 4 - marpa Example 2
+ok 5 - regex Negative
+ok 6 - marpa Negative
+ok 7 - regex Precedence
+ok 8 - marpa Precedence
+ 
+===> 143/1/jaldhar-h-vyas.pl <===
+8
+ 
+===> 143/1/james-smith.pl <===
+ok 1
+ok 2
+ok 3
+ok 4
+ok 5
+ok 6
+ok 7
+ok 8
+ok 9
+ok 10
+ok 11
+ok 12
+ok 13
+ok 14
+ok 15
+ok 16
+ok 17
+ok 18
+ok 19
+ok 20
+ok 21
+ok 22
+ok 23
+ok 24
+ok 25
+ok 26
+ok 27
+ok 28
+1..28
+ 
+===> 143/1/laurent-rosenfeld.pl <===
+25
+50
+Not a valid arithmetic expression
+42
+ 
+===> 143/1/mattneleigh.pl <===
+Input: $s = "10 + 20 - 5"
+Output: 25.0000
+
+Input: $s = "(10 + 20 - 5) * 2"
+Output: 50.0000
+
+ 
+===> 143/1/mohammad-anwar.pl <===
+ok 1 - Example 1
+ok 2 - Example 2
+1..2
+ 
+===> 143/1/paulo-custodio.pl <===
+12
+ 
+===> 143/1/peter-campbell-smith.pl <===
+
+Input:  $s = 10 + 20 - 5
+Output: 25
+
+Input:  $s = (10 + 20 - 5) * 2
+Output: 50
+
+Input:  $s = (12345 * 6789) / 23 + 1 / 77
+Output: 3643921.96950875
+ 
+===> 143/1/polettix.pl <===
+8
+ 
+===> 143/1/robert-dicicco.pl <===
+Enter a math expression to calculate : 2+2 = 4
+ 
+===> 143/1/roger-bell-west.pl <===
+1..3
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ 
+===> 143/1/sgreen.pl <===
+4
+ 
+===> 143/1/wlmb.pl <===
+2+2=4
