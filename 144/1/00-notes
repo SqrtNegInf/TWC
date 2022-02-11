@@ -1,0 +1,3 @@
+'roger-bell-west.raku' needed a fix, due to attempt to assign to an immutable variable,
+which caused run-time error. At the time he wrote that operation was allowed, but recent 
+Raku development marked this as a bug.

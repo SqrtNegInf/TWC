@@ -1,3 +1,6 @@
+2022-02-10
+'144/1/roger-bell-west.raku' had a run-time error (immutable variable), 2nd buggy bit of Raku uncovered.
+
 2022-02-09
 JVM will change far less frequently than MoarVM (and is a dog-slow pain to boot), 
 and Perl changes even less often, so typical test run will be just for MoarVM.
@@ -15,7 +18,7 @@ One particular fix often needed in e-choroba's code:
 'pentagonal' tasks are slow in Raku (both backends)
 
 2022-02-04
-That didn't take long: discovered/fix a problem with JVM (character '⅓' in 148/2/bruce-gray.raku)
+That didn't take long: discovered/fixed a problem with JVM (character '⅓' in 148/2/bruce-gray.raku)
 Currently not handling Raku libraries ('.rakumod', 1st case in challenge 130)
 At some point also have to deal with 'pm6' (far future, only in challenges <= 87)
 
