@@ -1,0 +1,80 @@
+ 
+===> 141/2/arne-sommer.raku <===
+: Bitmap: 1111
+: Candidate: 1234 AND 0001 -> 4
+: Candidate: 1234 AND 0010 -> 3
+: Candidate: 1234 AND 0011 -> 34
+: Candidate: 1234 AND 0100 -> 2
+: Candidate: 1234 AND 0101 -> 24
+: Candidate: 1234 AND 0110 -> 23
+: Candidate: 1234 AND 0111 -> 234
+: Candidate: 1234 AND 1000 -> 1
+: Candidate: 1234 AND 1001 -> 14
+: Candidate: 1234 AND 1010 -> 13
+: Candidate: 1234 AND 1011 -> 134
+: Candidate: 1234 AND 1100 -> 12
+: Candidate: 1234 AND 1101 -> 124
+: Candidate: 1234 AND 1110 -> 123
+: Candidate: 1234 AND 1111 -> 1234
+: Candidates: 4, 3, 34, 2, 24, 23, 234, 1, 14, 13, 134, 12, 124, 123
+: Divisibles: 4, 34, 2, 24, 234, 14, 134, 12, 124
+9
+ 
+===> 141/2/athanasius.raku <===
+Input:  $m = 24, $n = 2
+Output: 2
+
+2 integers can be created using the digits of 24:
+2, 4
+
+of which 2 are evenly divisible by 2:
+2, 4
+ 
+===> 141/2/david-santiago.raku <===
+9: 2 4 12 14 24 34 124 134 234
+ 
+===> 141/2/feng-chang.raku <===
+9
+ 
+===> 141/2/jaldhar-h-vyas.raku <===
+9
+ 
+===> 141/2/laurent-rosenfeld.raku <===
+1234 2 => 9
+768 4 => 3
+ 
+===> 141/2/luca-ferrari.raku <===
+(2 4 12 14 24 34 124 134 234)
+ 
+===> 141/2/mark-anderson.raku <===
+1..4
+ok 1 - 1234, 2 = (2 4 12 14 24 34 124 134 234)
+ok 2 -  768, 4 = (8 76 68)
+ok 3 - 1008, 2 = (0 8 10 18 100 108)
+ok 4 - 7777, 7 = (7 77 777)
+ 
+===> 141/2/mohammad-anwar.raku <===
+ok 1 - Example 1
+ok 2 - Example 2
+1..2
+ 
+===> 141/2/polettix.raku <===
+9
+ 
+===> 141/2/roger-bell-west.raku <===
+1..2
+ok 1 - example 1
+ok 2 - example 2
+ 
+===> 141/2/simon-proctor.raku <===
+9
+ 
+===> 141/2/ulrich-rieke.raku <===
+9
+ 
+===> 141/2/wambash.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ok 4 - 
+1..4
