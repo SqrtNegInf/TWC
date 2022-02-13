@@ -42,13 +42,13 @@ sub like_num ($m, $n) {
 
 sub run_tests {
     SKIP: {
-        skip "examples" unless $examples;
+        #skip "examples" unless $examples;
         is scalar(like_num(1234, 2)), 9, 'example 1';
         is scalar(like_num(768, 4)), 3, 'example 2';
     }
 
     SKIP: {
-        skip "tests" unless $tests;
+        #skip "tests" unless $tests;
         is scalar(like_num(135, 2)), 0, 'no even subnumber';
         is scalar(like_num(12345, 1)), 2**5 - 2, 'count valid subnumbers';
         is scalar(like_num(2222, 2)), 3, 'count numbers only once';

@@ -40,13 +40,13 @@ sub gen_num_div ($c) {
 
 sub run_tests {
     SKIP: {
-        skip "examples" unless $examples;
+        #skip "examples" unless $examples;
         is gen_num_div(8)->(), 24, 'example 1'
 
     }
 
     SKIP: {
-        skip "tests" unless $tests;
+        #skip "tests" unless $tests;
 
         my $gen_num_div_8 = gen_num_div(8);
         $gen_num_div_8->() for 1 .. 50;

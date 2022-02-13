@@ -58,9 +58,12 @@ ok 2
  
 ===> 141/2/jo-37.pl <===
 # Seeded srand with seed '1234' from import arg.
-ok 1 - skipped test # skip examples
-ok 2 - skipped test # skip tests
-1..2
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - no even subnumber
+ok 4 - count valid subnumbers
+ok 5 - count numbers only once
+1..5
  
 ===> 141/2/kaushik-tunuguntla.pl <===
 divisible_count: [9]
