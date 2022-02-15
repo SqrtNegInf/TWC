@@ -1,0 +1,179 @@
+ 
+===> 140/2/abigail-a.pl <===
+93532
+ 
+===> 140/2/abigail-b.pl <===
+93532
+ 
+===> 140/2/adam-russell.pl <===
+3
+4
+ 
+===> 140/2/alexander-pankoff.pl <===
+3
+ 
+===> 140/2/athanasius.pl <===
+Input:  $i = 2; $j = 3; $k = 4
+Output: 3
+
+Since the multiplication of 2 x 3 is as below:
+    1 2 3
+    2 4 6
+
+The sorted multiplication table:
+
+    1 2 2 3 4 6
+
+Now the 4th element in the table is "3".
+ 
+===> 140/2/cheok-yin-fung.pl <===
+1..3
+ok 1
+ok 2
+ok 3
+ 
+===> 140/2/colin-crain.pl <===
+4
+ 
+===> 140/2/dave-jacoby.pl <===
+    Input:  $i = 2; $j = 3; $k = 4 
+    Output: 3
+
+    Input:  $i = 3; $j = 3; $k = 6 
+    Output: 4
+
+ 
+===> 140/2/duncan-c-white.pl <===
+3
+ 
+===> 140/2/e-choroba.pl <===
+1..4
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Large table
+ok 4 - Large table
+ 
+===> 140/2/jake.pl <===
+3
+ 
+===> 140/2/jaldhar-h-vyas.pl <===
+3
+ 
+===> 140/2/james-smith.pl <===
+ok 1
+ok 2
+ok 3
+ok 4
+ok 5
+ok 6
+ok 7
+ok 8
+ok 9
+ok 10
+ok 11
+ok 12
+ok 13
+ok 14
+1..14
+ 
+===> 140/2/jo-37.pl <===
+# Seeded srand with seed '1234' from import arg.
+ok 1 - skipped test # skip examples
+ok 2 - skipped test # skip tests
+1..2
+ 
+===> 140/2/laurent-rosenfeld.pl <===
+3
+4
+ 
+===> 140/2/lubos-kolouch.pl <===
+ok 1
+ok 2
+1..2
+ 
+===> 140/2/mattneleigh.pl <===
+Input: $i = 2; $j = 3; $k = 4
+Output: 3
+
+Input: $i = 3; $j = 3; $k = 6
+Output: 4
+
+ 
+===> 140/2/mohammad-anwar.pl <===
+ok 1 - Example 1
+ok 2 - Example 2
+1..2
+ 
+===> 140/2/paul-fajman.pl <===
+Using test data. Provide 3 input numbers to test your own numbers.
+
+4 is element number 6 in multiplication table 3 x 3
+ 
+===> 140/2/paulo-custodio.pl <===
+3
+ 
+===> 140/2/perlboy1967.pl <===
+3
+ 
+===> 140/2/pete-houston.pl <===
+3
+ 
+===> 140/2/peter-campbell-smith.pl <===
+Input:  $i = 2, $j = 3, $k = 4
+Output: 3
+
+Input:  $i = 3, $j = 3, $k = 6
+Output: 4
+
+Input:  $i = 20, $j = 30, $k = 599
+Output: 580
+
+Input:  $i = 1000, $j = 999, $k = 314159
+Output: 93532
+
+ 
+===> 140/2/polettix.pl <===
+3
+3
+ 
+===> 140/2/roger-bell-west.pl <===
+1..2
+ok 1 - example 1
+ok 2 - example 2
+ 
+===> 140/2/sgreen.pl <===
+3
+ 
+===> 140/2/steven-wilson.pl <===
+Input: $i = 2, $j = 3, $k = 4
+Output: 3
+
+Since the multiplication of 2 x 3 is as below:
+
+	1 2 3
+	2 4 6
+
+The sorted multiplication table:
+
+	1 2 2 3 4 6
+
+Now the 4th element in the table is "3".
+ 
+===> 140/2/ulrich-rieke.pl <===
+3
+ 
+===> 140/2/wanderdoc.pl <===
+3
+ 
+===> 140/2/wlmb.pl <===
+Input: i=2, j=3, k=4,
+Output=3
+since the 2X3 multiplication table is
+[
+ [1 2 3]
+ [2 4 6]
+]
+which sorted becomes
+[1 2 2 3 4 6],
+whose 4-th element is 3
+
