@@ -1,3 +1,11 @@
+2022-02-12
+Done 10 weeks, look back and see whether any of the 'extras' some authors provide are worth considering.
+Low-hanging fruit: easy to get all the blog links.
+In the future: 't' directorie and/or .t files.
+
+2022-02-11
+Start handling '.rakumod'
+
 2022-02-10
 '144/1/roger-bell-west.raku' had a run-time error (immutable variable), 2nd buggy bit of Raku uncovered.
 
@@ -19,7 +27,7 @@ One particular fix often needed in e-choroba's code:
 
 2022-02-04
 That didn't take long: discovered/fixed a problem with JVM (character '⅓' in 148/2/bruce-gray.raku)
-Currently not handling Raku libraries ('.rakumod', 1st case in challenge 130)
+Currently not handling Raku libraries ('.rakumod', 1st case in challenge 140)
 At some point also have to deal with 'pm6' (far future, only in challenges <= 87)
 
 2022-02-03
