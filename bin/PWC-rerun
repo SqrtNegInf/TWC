@@ -1,7 +1,11 @@
 #!/usr/bin/env raku
 ## re-test tasks (just MoarVM for now)
 #  2022-02-09 initial version
+#  2022-02-11 144-150 system 193% cpu 6:45.74 total
 
-(145..150).race(:6degree, :1batch).map: -> $ch {
-     shell "PWC-run $ch 1 moar ; PWC-run $ch 2 moar"
+sub MAIN ( *@args ) {
+    die 'Challenges?' unless @args.elems;
+    (@args).race(:6degree, :1batch).map: -> $ch {
+        shell "PWC-run $ch 1 moar ; PWC-run $ch 2 moar"
+    }
 }

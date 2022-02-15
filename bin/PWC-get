@@ -11,6 +11,7 @@ bin/PWC-sync ../perlweeklychallenge-club $num
 find $num -name '*pl'   -execdir perl -c \{\} \\; > $num/perl.out 2> $num/perl.err
 find $num -name '*raku' -execdir raku -c \{\} \\; > $num/raku.out 2> $num/raku.err
 grep locate $num/perl.err | perl -npe 's/^.*install the/sudo cpanm/;s/module.*//' | sort -u
+head -1 ../perlweeklychallenge-club/challenge-$num/*/blog* | grep http | sort > $num/00-blogs
 END
 #grep xxx $num/raku.err | perl -npe 's/^.*xxx/zef install xxx/' | sort -u # hasn't been an issue
 

@@ -24,19 +24,18 @@ sub MAIN( $dir, $num ) {
         my ($lang, $author) = ($dir.split('/'))[*-2,*-3];
         $lang = 'raku' if $lang eq 'perl6';
         $lang = 'perl' if $lang eq 'perl5';
-        my $ext = $lang eq 'raku' ?? 'raku'
-                                  !! ($lang eq 'perl' and $fn ~~ /pm$/) ?? 'pm' !! 'pl';
-        next unless $fn ~~ /^^ ch/ or $ext ~~ /pm $$/;
+        my $ext = $lang eq 'raku' ?? $fn ~~ /rakumod$/ ?? 'rakumod' !! 'raku'
+                                  !! $fn ~~ /pm$/ ?? 'pm' !! 'pl';
+        warn "weird: $fn" and next unless $fn ~~ /^^ ch/ or $ext ~~ /['pm'|'rakumod'] $$/;
 
-        if ($ext eq 'pm') {
+        if ($ext eq 'pm' or $ext eq 'rakumod') {
             copy $f, "./{$num}/$_/$fn" for 1, 2;
         } else {
             my $n = $fn ~~ /1/ ?? '1' !! '2';
             my $dest = "./{$num}/$n/{$author}.$ext";
             warn "exists: $num $dir/$fn" and next if $dest.IO ~~ :e;
             copy $f, $dest;
-            shell("perl -i -npe 's%^#!.*%#!/usr/bin/env $lang%' ./{$num}/$n/{$author}.$ext");
-            shell("touch -r $dir/$fn ./{$num}/$n/{$author}.$ext");
+            shell("perl -i -npe 's%^#!.*%#!/usr/bin/env $lang%' $dest; flip -u $dest; touch -r $dir/$fn $dest");
             "./{$num}/$n/{$author}.$ext".IO.chmod: '0o755';
         }
     }
