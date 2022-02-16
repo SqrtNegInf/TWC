@@ -5,7 +5,12 @@
 13
  
 ===> 151/2/arne-sommer.raku <===
-13
+: 2,3 add: 2
+: todo: 2
+: Added candidate: 0 2
+: 2,3 add: 3
+: Candidate indices: [0 2] with sum: 2
+2
  
 ===> 151/2/athanasius.raku <===
 Input:  @valuables = (4, 2, 3, 6, 5, 3)

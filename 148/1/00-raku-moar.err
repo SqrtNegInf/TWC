@@ -1,3 +1,3 @@
-not ok - disabled
+not ok - disabled: @spelled only ends up with 75 elements, was expecting 100 maybe?
   in block <unit> at mark-senn.raku line 3
 
