@@ -1,6 +1,6 @@
 #!/usr/bin/env raku
 
-die 'not ok - disabled'; # @spelled only ends up with 75 elements, was expecting 100 maybe?
+die 'not ok - disabled: @spelled only ends up with 75 elements, was expecting 100 maybe?';
 
 $_ = q:to/END/;
     unused

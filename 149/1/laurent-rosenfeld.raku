@@ -2,7 +2,7 @@
 
 sub MAIN (Int $max = 20) {       # 20: default input value
 
-    die 'not ok - disabled' if $*VM ~~ /jvm/; # JVM 2021.11 does nothing, slowly. At least it used to crash promptly...
+    die 'not ok - disabled: JVM does nothing, slowly. At least it used to crash promptly...' if $*VM ~~ /jvm/; 
 
     my $fibo = set(0, 1, * + * ...^  * > 1000);
     my $count = 0;

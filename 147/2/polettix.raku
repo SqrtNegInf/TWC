@@ -2,7 +2,7 @@
 
 sub MAIN {
 
-   die 'not ok - disabled';  # runs very slowly, why?
+   die 'not ok - disabled: too slow (why exactly?)';
  
    my ($delta, $X, $Y, $sum) = lowest-difference-superpentagonals();
    put '';

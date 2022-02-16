@@ -1,6 +1,6 @@
 #!/usr/bin/env raku
 
-die 'not ok - disabled'; # too slow
+die 'not ok - disabled: too slow';
 
 my @pentagons = (1..*).map( { $_ * ((3 * $_)-1) / 2 });
 
