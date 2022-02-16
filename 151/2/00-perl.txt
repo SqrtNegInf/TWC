@@ -1,0 +1,131 @@
+ 
+===> 151/2/abigail.pl <===
+13
+ 
+===> 151/2/alexander-pankoff.pl <===
+$VAR1 = {
+          'value' => 13,
+          'tour' => [
+                      0,
+                      3,
+                      5
+                    ]
+        };
+ 
+===> 151/2/athanasius.pl <===
+Input:  @valuables = (4, 2, 3, 6, 5, 3)
+Output: 13
+
+Robbing houses (0, 3, 5) yields (4 + 6 + 3) = 13
+ 
+===> 151/2/cheok-yin-fung.pl <===
+1..6
+ok 1
+ok 2
+ok 3
+ok 4
+ok 5
+ok 6
+ 
+===> 151/2/colin-crain.pl <===
+13
+ 
+===> 151/2/dave-jacoby.pl <===
+        Input:  (2, 4, 5)
+        Output: 7
+                0, 2
+
+        Input:  (4, 2, 3, 6, 5, 3)
+        Output: 13
+                0, 3, 5
+
+        Input:  (6, 7, 0, 1, 1, 5, 0, 2, 0, 4)
+        Output: 19
+                1, 3, 5, 7, 9
+
+ 
+===> 151/2/duncan-c-white.pl <===
+max valuables is 13
+ 
+===> 151/2/e-choroba.pl <===
+1..3
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Long
+ 
+===> 151/2/james-smith.pl <===
+ok 1
+ok 2
+ok 3
+ok 4
+ok 5
+ok 6
+ok 7
+1..7
+ 
+===> 151/2/jo-37.pl <===
+# Seeded srand with seed '1234' from import arg.
+ok 1 - skipped test # skip examples
+ok 2 - only one house
+ok 3 - two houses, first is best
+ok 4 - two houses, second is best
+1..4
+ 
+===> 151/2/lubos-kolouch.pl <===
+ok 1
+ok 2
+1..2
+ 
+===> 151/2/mattneleigh.pl <===
+
+The street with houses containing valuables: 2, 4, 5
+    will yield a total of 7 loot.
+
+The street with houses containing valuables: 4, 2, 3, 6, 5, 3
+    will yield a total of 13 loot.
+
+The street with houses containing valuables: 3, 9
+    will yield a total of 3 loot.
+
+The street with houses containing valuables: 4
+    will yield a total of 4 loot.
+
+The street with houses containing valuables: 
+    will yield a total of 0 loot.
+
+The street with houses containing valuables: 1, 50, 2, 3, 7, 4
+    will yield a total of 10 loot.
+
+DISCLAIMER: Do not actually rob houses- it's not nice!
+
+ 
+===> 151/2/peter-campbell-smith.pl <===
+
+Input: 2 4 5
+Output: 7
+
+Input: 4 2 3 6 5 3
+Output: 13
+
+Input: 32 32 8 12 46 28 79 81 84 23 48 88 38 36 44 45 55 74 33 54 49 33 54 50 20 45 79 94 48 94 51 93 88 23 19
+Output: 978
+ 
+===> 151/2/polettix.pl <===
+13
+ 
+===> 151/2/roger-bell-west.pl <===
+1..2
+ok 1 - example 1
+ok 2 - example 2
+ 
+===> 151/2/sgreen.pl <===
+13
+ 
+===> 151/2/ulrich-rieke.pl <===
+Enter some values, separated by blank spaces!
+13
+ 
+===> 151/2/wlmb.pl <===
+Input: 4, 2, 3, 6, 5, 3
+Output: 13
+Houses: 0, 3, 5

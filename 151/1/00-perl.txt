@@ -1,0 +1,150 @@
+ 
+===> 151/1/abigail.pl <===
+3
+ 
+===> 151/1/alexander-pankoff.pl <===
+3
+ 
+===> 151/1/athanasius.pl <===
+Input: "1 | 2 3 | 4 * * 5 | * 6"
+Output: 3
+
+The first leaf node is "5"
+ 
+===> 151/1/colin-crain.pl <===
+3
+ok 1 - ex-1
+ok 2 - deeper
+ok 3 - root
+1..3
+ 
+===> 151/1/dave-jacoby.pl <===
+    Input:  '1 | 2 3 | 4 5'
+    Output: 2
+
+    Input:  '1 | 2 3 | 4 * * 5 | * 6'
+    Output: 3
+
+    Input:  '1 | 3 5 | 7 9 11'
+    Output: 3
+
+    Input:  '1 | 2 | 3 | 4 | 5 6 | * * 7 | * * * * 8'
+    Output: 5
+
+    Input:  '1 | 2 | 3 | 4 | 5 6 | * * 7 | * * * * * * 8'
+    Output: 5
+
+    Input:  '1 | 2 | 3 | 4 | 5 | 6 | 7 | 8'
+    Output: 8
+
+ 
+===> 151/1/duncan-c-white.pl <===
+3
+ 
+===> 151/1/e-choroba.pl <===
+1..15
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Trivial 1-node tree
+ok 4 - Simple 2-node tree
+ok 5 - Simple tree rank 2
+ok 6 - Linear depth 3
+ok 7 - Zigzag
+ok 8 - Zagzig
+ok 9 - Right linear depth 3
+ok 10 - All stars
+ok 11 - Missing left children
+ok 12 - Missing left children
+ok 13 - Missing left children
+ok 14 - Short branch
+ok 15 - Repeated values
+ 
+===> 151/1/james-smith.pl <===
+ok 1
+ok 2
+ok 3
+ok 4
+ok 5
+ok 6
+ok 7
+ok 8
+ok 9
+ok 10
+ok 11
+ok 12
+ok 13
+ok 14
+ok 15
+ok 16
+1..16
+ 
+===> 151/1/jo-37.pl <===
+# Seeded srand with seed '1234' from import arg.
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - empty tree
+ok 4 - single root
+ok 5 - single zero root
+ok 6 - no root
+ok 7 - zero as root label
+ok 8 - zero as child label
+ok 9 - leafs at multiple depths
+1..9
+ 
+===> 151/1/laurent-rosenfeld.pl <===
+1                                          -> depth: 1
+1 |                                        -> depth: 1
+1 | 2 3                                    -> depth: 2
+1 | 2 3 | 4 5                              -> depth: 2
+1 | 2 3 | 4 *  * 5 | * 6                   -> depth: 3
+1 | 2 3 | * *  4 5 | * * 6                 -> depth: 2
+1 | 2 3 | 4 4 5 6 | 7 8 9 10 11 12 13 14   -> depth: 4
+1 | 2 3 | 4 4 5 6 | 7 8 9 10 11 12 13      -> depth: 4
+1 | 2 3 | 4 4 5 6 | 7 8 9 10 11 12         -> depth: 3
+ 
+===> 151/1/lubos-kolouch.pl <===
+ok 1
+ok 2
+ok 3
+1..3
+ 
+===> 151/1/mattneleigh.pl <===
+
+Minimum leaf depth for tree 0 is: 2
+Minimum leaf depth for tree 1 is: 3
+Minimum leaf depth for tree 2 is: 2
+
+ 
+===> 151/1/mohammad-anwar.pl <===
+ok 1 - Example 1
+ok 2 - Example 2
+1..2
+ 
+===> 151/1/peter-campbell-smith.pl <===
+
+Input:  1 | 2 3 | 4 5
+Output: 2
+
+Input:  1 | 2 3 | 4 *  * 5 | * 6
+Output: 3
+
+Input:  1|23|4567|890123456|7
+Output: 4
+ 
+===> 151/1/polettix.pl <===
+2
+ 
+===> 151/1/roger-bell-west.pl <===
+1..2
+ok 1 - example 1
+ok 2 - example 2
+ 
+===> 151/1/sgreen.pl <===
+3
+ 
+===> 151/1/ulrich-rieke.pl <===
+3
+ 
+===> 151/1/wlmb.pl <===
+Input: 1 | 2 3 | 4 * * 5 | * 6
+Output: 3

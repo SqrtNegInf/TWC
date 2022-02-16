@@ -1,0 +1,62 @@
+ 
+===> 151/1/2colours.raku <===
+Output: 3
+ 
+===> 151/1/arne-sommer.raku <===
+3
+ 
+===> 151/1/athanasius.raku <===
+Input: "1 | 2 3 | 4 * * 5 | * 6"
+Output: 3
+
+The first leaf node is "5"
+ 
+===> 151/1/bruce-gray.raku <===
+1..14
+ok 1 - 2 => 1 | 2 3 | 4 5
+ok 2 - 3 => 1 | 2 3 | 4 *  * 5 | * 6
+ok 3 - 2 => 0 | * 2 | |
+ok 4 - 2 => 0 | * 2 | * * * * | * * * * * * * *
+ok 5 - 3 => 0 | * 2 | * * * 6 |
+ok 6 - 3 => 0 | * 2 | * * * 6 | * * * * * * * *
+ok 7 - 4 => 0 | * 2 | * * * 6 | * * * * * * * E
+ok 8 - 4 => 0 | * 2 | * * * 6 | * * * * * * * E
+ok 9 - 4 => 0 | * 2 | * * * 6 | * * * * * * D
+ok 10 - 4 => 0 | * 2 | * * * 6 | * * * * * * D *
+ok 11 - 4 => 0 | * 2 | * * * 6 | * * * * * * D E
+ok 12 - 4 => 0 | * 2 | * * * 6 | * * * * * * D E
+ok 13 - 3 => 0 | * 2 | * * 5 |
+ok 14 - 4 => 0 | 1 2 | 3 4 5 6 | 7 8 9 A B C D E
+ 
+===> 151/1/colin-crain.raku <===
+3
+ok 1 - ex-1
+ok 2 - ex-2
+ok 3 - deeper
+ok 4 - root
+ 
+===> 151/1/laurent-rosenfeld.raku <===
+'1 '                                          -> depth: 1
+'1 |'                                         -> depth: 1
+'1 | 2 3'                                     -> depth: 2
+'1 | 2 3 | 4 5'                               -> depth: 2
+'1 | 2 3 | 4 *  * 5 | * 6'                    -> depth: 3
+'1 | 2 3 | * *  4 5 | * * 6'                  -> depth: 2
+'1 | 2 3 | 4 4 5 6 | 7 8 9 10 11 12 13 14 '   -> depth: 4
+'1 | 2 3 | 4 4 5 6 | 7 8 9 10 11 12 13 '      -> depth: 4
+'1 | 2 3 | 4 4 5 6 | 7 8 9 10 11 12 '         -> depth: 3
+ 
+===> 151/1/mark-anderson.raku <===
+ok 1 - 
+ok 2 - 
+ 
+===> 151/1/polettix.raku <===
+2
+ 
+===> 151/1/roger-bell-west.raku <===
+1..2
+ok 1 - example 1
+ok 2 - example 2
+ 
+===> 151/1/ulrich-rieke.raku <===
+3
