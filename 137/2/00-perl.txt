@@ -1,0 +1,1025 @@
+ 
+===> 137/2/abigail.pl <===
+0
+0
+0
+1
+ 
+===> 137/2/arne-sommer.pl <===
+1
+ 
+===> 137/2/athanasius.pl <===
+Input:  $n = 196
+Output: 1
+
+Explanation: Term 10755470 too large after 9 iterations
+ 
+===> 137/2/bob-lied.pl <===
+ok 1 - P=1
+ok 2 - P=22
+ok 3 - P=27
+ok 4 - P=343
+ok 5 - P=346
+ok 6 - N=56
+ok 7 - N=57
+ok 8 - N=59
+ok 9 - N=196
+1..9
+ 
+===> 137/2/cheok-yin-fung.pl <===
+1..5
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ok 4 - itself palindrome
+ok 5 - famous 196 undetermined
+ 
+===> 137/2/colin-crain.pl <===
+input:  10
+output: 0
+steps: (2)
+	 10
+	 11
+
+input:  11
+output: 0
+11
+
+input:  12
+output: 0
+steps: (2)
+	 12
+	 33
+
+input:  13
+output: 0
+steps: (2)
+	 13
+	 44
+
+input:  14
+output: 0
+steps: (2)
+	 14
+	 55
+
+input:  15
+output: 0
+steps: (2)
+	 15
+	 66
+
+input:  16
+output: 0
+steps: (2)
+	 16
+	 77
+
+input:  17
+output: 0
+steps: (2)
+	 17
+	 88
+
+input:  18
+output: 0
+steps: (2)
+	 18
+	 99
+
+input:  19
+output: 0
+steps: (3)
+	 19
+	 110
+	 121
+
+input:  20
+output: 0
+steps: (2)
+	 20
+	 22
+
+input:  21
+output: 0
+steps: (2)
+	 21
+	 33
+
+input:  22
+output: 0
+22
+
+input:  23
+output: 0
+steps: (2)
+	 23
+	 55
+
+input:  24
+output: 0
+steps: (2)
+	 24
+	 66
+
+input:  25
+output: 0
+steps: (2)
+	 25
+	 77
+
+input:  26
+output: 0
+steps: (2)
+	 26
+	 88
+
+input:  27
+output: 0
+steps: (2)
+	 27
+	 99
+
+input:  28
+output: 0
+steps: (3)
+	 28
+	 110
+	 121
+
+input:  29
+output: 0
+steps: (2)
+	 29
+	 121
+
+input:  30
+output: 0
+steps: (2)
+	 30
+	 33
+
+input:  31
+output: 0
+steps: (2)
+	 31
+	 44
+
+input:  32
+output: 0
+steps: (2)
+	 32
+	 55
+
+input:  33
+output: 0
+33
+
+input:  34
+output: 0
+steps: (2)
+	 34
+	 77
+
+input:  35
+output: 0
+steps: (2)
+	 35
+	 88
+
+input:  36
+output: 0
+steps: (2)
+	 36
+	 99
+
+input:  37
+output: 0
+steps: (3)
+	 37
+	 110
+	 121
+
+input:  38
+output: 0
+steps: (2)
+	 38
+	 121
+
+input:  39
+output: 0
+steps: (3)
+	 39
+	 132
+	 363
+
+input:  40
+output: 0
+steps: (2)
+	 40
+	 44
+
+input:  41
+output: 0
+steps: (2)
+	 41
+	 55
+
+input:  42
+output: 0
+steps: (2)
+	 42
+	 66
+
+input:  43
+output: 0
+steps: (2)
+	 43
+	 77
+
+input:  44
+output: 0
+44
+
+input:  45
+output: 0
+steps: (2)
+	 45
+	 99
+
+input:  46
+output: 0
+steps: (3)
+	 46
+	 110
+	 121
+
+input:  47
+output: 0
+steps: (2)
+	 47
+	 121
+
+input:  48
+output: 0
+steps: (3)
+	 48
+	 132
+	 363
+
+input:  49
+output: 0
+steps: (3)
+	 49
+	 143
+	 484
+
+input:  50
+output: 0
+steps: (2)
+	 50
+	 55
+
+input:  51
+output: 0
+steps: (2)
+	 51
+	 66
+
+input:  52
+output: 0
+steps: (2)
+	 52
+	 77
+
+input:  53
+output: 0
+steps: (2)
+	 53
+	 88
+
+input:  54
+output: 0
+steps: (2)
+	 54
+	 99
+
+input:  55
+output: 0
+55
+
+input:  56
+output: 0
+steps: (2)
+	 56
+	 121
+
+input:  57
+output: 0
+steps: (3)
+	 57
+	 132
+	 363
+
+input:  58
+output: 0
+steps: (3)
+	 58
+	 143
+	 484
+
+input:  59
+output: 0
+steps: (4)
+	 59
+	 154
+	 605
+	 1111
+
+input:  60
+output: 0
+steps: (2)
+	 60
+	 66
+
+input:  61
+output: 0
+steps: (2)
+	 61
+	 77
+
+input:  62
+output: 0
+steps: (2)
+	 62
+	 88
+
+input:  63
+output: 0
+steps: (2)
+	 63
+	 99
+
+input:  64
+output: 0
+steps: (3)
+	 64
+	 110
+	 121
+
+input:  65
+output: 0
+steps: (2)
+	 65
+	 121
+
+input:  66
+output: 0
+66
+
+input:  67
+output: 0
+steps: (3)
+	 67
+	 143
+	 484
+
+input:  68
+output: 0
+steps: (4)
+	 68
+	 154
+	 605
+	 1111
+
+input:  69
+output: 0
+steps: (5)
+	 69
+	 165
+	 726
+	 1353
+	 4884
+
+input:  70
+output: 0
+steps: (2)
+	 70
+	 77
+
+input:  71
+output: 0
+steps: (2)
+	 71
+	 88
+
+input:  72
+output: 0
+steps: (2)
+	 72
+	 99
+
+input:  73
+output: 0
+steps: (3)
+	 73
+	 110
+	 121
+
+input:  74
+output: 0
+steps: (2)
+	 74
+	 121
+
+input:  75
+output: 0
+steps: (3)
+	 75
+	 132
+	 363
+
+input:  76
+output: 0
+steps: (3)
+	 76
+	 143
+	 484
+
+input:  77
+output: 0
+77
+
+input:  78
+output: 0
+steps: (5)
+	 78
+	 165
+	 726
+	 1353
+	 4884
+
+input:  79
+output: 0
+steps: (7)
+	 79
+	 176
+	 847
+	 1595
+	 7546
+	 14003
+	 44044
+
+input:  80
+output: 0
+steps: (2)
+	 80
+	 88
+
+input:  81
+output: 0
+steps: (2)
+	 81
+	 99
+
+input:  82
+output: 0
+steps: (3)
+	 82
+	 110
+	 121
+
+input:  83
+output: 0
+steps: (2)
+	 83
+	 121
+
+input:  84
+output: 0
+steps: (3)
+	 84
+	 132
+	 363
+
+input:  85
+output: 0
+steps: (3)
+	 85
+	 143
+	 484
+
+input:  86
+output: 0
+steps: (4)
+	 86
+	 154
+	 605
+	 1111
+
+input:  87
+output: 0
+steps: (5)
+	 87
+	 165
+	 726
+	 1353
+	 4884
+
+input:  88
+output: 0
+88
+
+input:  89
+output: 1
+number too large: 17735476
+
+input:  90
+output: 0
+steps: (2)
+	 90
+	 99
+
+input:  91
+output: 0
+steps: (3)
+	 91
+	 110
+	 121
+
+input:  92
+output: 0
+steps: (2)
+	 92
+	 121
+
+input:  93
+output: 0
+steps: (3)
+	 93
+	 132
+	 363
+
+input:  94
+output: 0
+steps: (3)
+	 94
+	 143
+	 484
+
+input:  95
+output: 0
+steps: (4)
+	 95
+	 154
+	 605
+	 1111
+
+input:  96
+output: 0
+steps: (5)
+	 96
+	 165
+	 726
+	 1353
+	 4884
+
+input:  97
+output: 0
+steps: (7)
+	 97
+	 176
+	 847
+	 1595
+	 7546
+	 14003
+	 44044
+
+input:  98
+output: 1
+number too large: 17735476
+
+input:  99
+output: 0
+99
+
+input:  100
+output: 0
+steps: (2)
+	 100
+	 101
+
+ 
+===> 137/2/dave-jacoby.pl <===
+        Input:  $n = 10
+        Output: 0
+
+        Input:  $n = 11
+        Output: 0
+
+        Input:  $n = 12
+        Output: 0
+
+        Input:  $n = 13
+        Output: 0
+
+        Input:  $n = 14
+        Output: 0
+
+        Input:  $n = 15
+        Output: 0
+
+        Input:  $n = 16
+        Output: 0
+
+        Input:  $n = 17
+        Output: 0
+
+        Input:  $n = 18
+        Output: 0
+
+        Input:  $n = 19
+        Output: 0
+
+        Input:  $n = 20
+        Output: 0
+
+        Input:  $n = 21
+        Output: 0
+
+        Input:  $n = 22
+        Output: 0
+
+        Input:  $n = 23
+        Output: 0
+
+        Input:  $n = 24
+        Output: 0
+
+        Input:  $n = 25
+        Output: 0
+
+        Input:  $n = 26
+        Output: 0
+
+        Input:  $n = 27
+        Output: 0
+
+        Input:  $n = 28
+        Output: 0
+
+        Input:  $n = 29
+        Output: 0
+
+        Input:  $n = 30
+        Output: 0
+
+        Input:  $n = 31
+        Output: 0
+
+        Input:  $n = 32
+        Output: 0
+
+        Input:  $n = 33
+        Output: 0
+
+        Input:  $n = 34
+        Output: 0
+
+        Input:  $n = 35
+        Output: 0
+
+        Input:  $n = 36
+        Output: 0
+
+        Input:  $n = 37
+        Output: 0
+
+        Input:  $n = 38
+        Output: 0
+
+        Input:  $n = 39
+        Output: 0
+
+        Input:  $n = 40
+        Output: 0
+
+        Input:  $n = 41
+        Output: 0
+
+        Input:  $n = 42
+        Output: 0
+
+        Input:  $n = 43
+        Output: 0
+
+        Input:  $n = 44
+        Output: 0
+
+        Input:  $n = 45
+        Output: 0
+
+        Input:  $n = 46
+        Output: 0
+
+        Input:  $n = 47
+        Output: 0
+
+        Input:  $n = 48
+        Output: 0
+
+        Input:  $n = 49
+        Output: 0
+
+        Input:  $n = 50
+        Output: 0
+
+        Input:  $n = 51
+        Output: 0
+
+        Input:  $n = 52
+        Output: 0
+
+        Input:  $n = 53
+        Output: 0
+
+        Input:  $n = 54
+        Output: 0
+
+        Input:  $n = 55
+        Output: 0
+
+        Input:  $n = 56
+        Output: 0
+
+        Input:  $n = 57
+        Output: 0
+
+        Input:  $n = 58
+        Output: 0
+
+        Input:  $n = 59
+        Output: 0
+
+        Input:  $n = 60
+        Output: 0
+
+        Input:  $n = 61
+        Output: 0
+
+        Input:  $n = 62
+        Output: 0
+
+        Input:  $n = 63
+        Output: 0
+
+        Input:  $n = 64
+        Output: 0
+
+        Input:  $n = 65
+        Output: 0
+
+        Input:  $n = 66
+        Output: 0
+
+        Input:  $n = 67
+        Output: 0
+
+        Input:  $n = 68
+        Output: 0
+
+        Input:  $n = 69
+        Output: 0
+
+        Input:  $n = 70
+        Output: 0
+
+        Input:  $n = 71
+        Output: 0
+
+        Input:  $n = 72
+        Output: 0
+
+        Input:  $n = 73
+        Output: 0
+
+        Input:  $n = 74
+        Output: 0
+
+        Input:  $n = 75
+        Output: 0
+
+        Input:  $n = 76
+        Output: 0
+
+        Input:  $n = 77
+        Output: 0
+
+        Input:  $n = 78
+        Output: 0
+
+        Input:  $n = 79
+        Output: 0
+
+        Input:  $n = 80
+        Output: 0
+
+        Input:  $n = 81
+        Output: 0
+
+        Input:  $n = 82
+        Output: 0
+
+        Input:  $n = 83
+        Output: 0
+
+        Input:  $n = 84
+        Output: 0
+
+        Input:  $n = 85
+        Output: 0
+
+        Input:  $n = 86
+        Output: 0
+
+        Input:  $n = 87
+        Output: 0
+
+        Input:  $n = 88
+        Output: 0
+
+        Input:  $n = 89
+        Output: 0
+
+        Input:  $n = 90
+        Output: 0
+
+        Input:  $n = 91
+        Output: 0
+
+        Input:  $n = 92
+        Output: 0
+
+        Input:  $n = 93
+        Output: 0
+
+        Input:  $n = 94
+        Output: 0
+
+        Input:  $n = 95
+        Output: 0
+
+        Input:  $n = 96
+        Output: 0
+
+        Input:  $n = 97
+        Output: 0
+
+        Input:  $n = 98
+        Output: 0
+
+        Input:  $n = 99
+        Output: 0
+
+        Input:  $n = 100
+        Output: 0
+
+ 
+===> 137/2/duncan-c-white.pl <===
+Input:  196
+Output: 1
+ 
+===> 137/2/e-choroba.pl <===
+# Seeded srand with seed '20220220' from local date.
+1..5
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ok 4 - 24 iterations
+ok 5 - Lychrel number
+ 
+===> 137/2/jaldhar-h-vyas.pl <===
+1
+ 
+===> 137/2/james-smith.pl <===
+ok 1
+ok 2
+ok 3
+ok 4
+ok 5
+ok 6
+ok 7
+ok 8
+1..8
+ 
+===> 137/2/laurent-rosenfeld.pl <===
+10 -> 0
+11 -> 0
+12 -> 0
+13 -> 0
+14 -> 0
+15 -> 0
+16 -> 0
+17 -> 0
+18 -> 0
+19 -> 0
+20 -> 0
+30 -> 0
+50 -> 0
+100 -> 0
+196 -> 196 is a Lychrel candidate. Reached the 1e7 limit
+ 
+===> 137/2/lubos-kolouch.pl <===
+ok 1
+ok 2
+ok 3
+ok 4
+1..4
+ 
+===> 137/2/mattneleigh.pl <===
+
+Input: $n = 56
+Output: 0
+After 1 iteration, we found a palindrome.
+
+Input: $n = 57
+Output: 0
+After 2 iterations, we found a palindrome.
+
+Input: $n = 59
+Output: 0
+After 3 iterations, we found a palindrome.
+
+Input: $n = 1500
+Output: Invalid input
+After 0 iterations, we found that our input was not valid.
+
+Input: $n = 196
+Output: 1
+After 8 iterations, we found no palindromes.
+
+ 
+===> 137/2/paulo-custodio.pl <===
+0
+ 
+===> 137/2/perlboy1967.pl <===
+89 + 98 = 187
+187 + 781 = 968
+968 + 869 = 1837
+1837 + 7381 = 9218
+9218 + 8129 = 17347
+17347 + 74371 = 91718
+91718 + 81719 = 173437
+173437 + 734371 = 907808
+907808 + 808709 = 1716517
+1716517 + 7156171 = 8872688
+8872688 + 8862788 = 17735476
+17735476 => -1
+ok 1
+ok 2
+ok 3
+ok 4
+1..4
+ 
+===> 137/2/pete-houston.pl <===
+1 (Total of 10755470 is above 10000000)
+ 
+===> 137/2/polettix.pl <===
+1
+ 
+===> 137/2/roger-bell-west.pl <===
+1..4
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ok 4 - example 4
+ 
+===> 137/2/steven-wilson.pl <===
+ok 1 - Test 56
+ok 2 - Test 57
+ok 3 - Test 59
+ok 4 - Test 196
+1..4
+ 
+===> 137/2/wlmb.pl <===
+Input: 56
+Output: 0
+as
+56+65=121
+
+Input: 57
+Output: 0
+as
+57+75=132
+132+231=363
+
+Input: 59
+Output: 0
+as
+59+95=154
+154+451=605
+605+506=1111
+
+Input: 196
+Output: 1?
+
