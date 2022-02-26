@@ -1,0 +1,205 @@
+ 
+===> 135/1/abigail.pl <===
+too short
+even number of digits
+345
+ 
+===> 135/1/adam-russell.pl <===
+345
+123
+too short
+even number of digits
+ 
+===> 135/1/arne-sommer.pl <===
+345
+ 
+===> 135/1/athanasius.pl <===
+Input:  $n = 1234567
+Output: 345
+ 
+===> 135/1/bruce-gray.pl <===
+1..4
+ok 1 - middle_three_digits(1234567)
+ok 2 - middle_three_digits(-123)
+ok 3 - middle_three_digits(1)
+ok 4 - middle_three_digits(10)
+ 
+===> 135/1/cheok-yin-fung.pl <===
+1..7
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ok 4 - Example 4
+ok 5 - TC 1
+ok 6 - TC 2
+ok 7 - TC 3
+ 
+===> 135/1/colin-crain.pl <===
+ok 1 - ex-1
+ok 2 - ex-2
+ok 3 - ex-3
+ok 4 - ex-4 variant
+ok 5 - alphanumeric
+1..5
+ 
+===> 135/1/cristian-heredia.pl <===
+345
+ 
+===> 135/1/dave-jacoby.pl <===
+    Input: $n = 1234567
+    Output: 345
+
+    Input: $n = -123
+    Output: 123
+
+    Input: $n = 1
+    Output: too short
+
+    Input: $n = 10
+    Output: even number of digits
+
+ 
+===> 135/1/duncan-c-white.pl <===
+345
+ 
+===> 135/1/e-choroba.pl <===
+# Seeded srand with seed '1234' from import arg.
+1..4
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ok 4 - Example 4
+ 
+===> 135/1/jaldhar-h-vyas.pl <===
+345
+ 
+===> 135/1/james-smith.pl <===
+ok 1
+ok 2
+ok 3
+ok 4
+ok 5
+ok 6
+ok 7
+ok 8
+ok 9
+ok 10
+ok 11
+ok 12
+ok 13
+1..13
+ 
+===> 135/1/jo-37.pl <===
+# Seeded srand with seed '20220226' from local date.
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ok 4 - example 4
+ok 5 - ignore leading zeros
+ok 6 - force float to integer
+ok 7 - force negative float to integer
+1..7
+ 
+===> 135/1/laurent-rosenfeld.pl <===
+1234567 -> 345
+-123 -> 123
+1 -> Too short
+10 -> Even number of digits
+-54321 -> 432
+ 
+===> 135/1/lubos-kolouch.pl <===
+ok 1
+ok 2
+ok 3
+ok 4
+1..4
+ 
+===> 135/1/mattneleigh.pl <===
+Input: $n = 1234567
+Output: 345
+
+
+Input: $n = -123
+Output: 123
+
+
+Input: $n = 1
+Output: Too short
+
+
+Input: $n = 10
+Output: Even number of digits
+
+
+Input: $n = -626.4537
+Output: 645
+
+
+Input: $n = Six and a half
+Output: Not a number
+
+
+ 
+===> 135/1/mohammad-anwar.pl <===
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ok 4 - Example 4
+1..4
+ 
+===> 135/1/paulo-custodio.pl <===
+345
+ 
+===> 135/1/perl.pl <===
+1..6
+ok 1 - Valid SEDOL
+ok 2 - Invalid SEDOL
+ok 3 - Valid SEDOL
+ok 4 - Die when check digit not a digit
+ok 5 - Die when SEDOL not correct length
+ok 6 - Die when invalid character
+ 
+===> 135/1/perlboy1967.pl <===
+ok 1
+ok 2
+ok 3
+ok 4
+ok 5
+ok 6
+1..6
+ 
+===> 135/1/pete-houston.pl <===
+Too few digits to extract 3
+Even number of digits
+345
+ 
+===> 135/1/peter-campbell-smith.pl <===
+n: 
+Input:  1234567
+Output: 345
+ 
+===> 135/1/polettix.pl <===
+345
+ 
+===> 135/1/roger-bell-west.pl <===
+1..4
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ok 4 - example 4
+ 
+===> 135/1/sgreen.pl <===
+345
+ 
+===> 135/1/steven-wilson.pl <===
+345
+ 
+===> 135/1/ulrich-rieke.pl <===
+345
+ 
+===> 135/1/wanderdoc.pl <===
+345
+123
+Too short!
+Even number of digits!
+265

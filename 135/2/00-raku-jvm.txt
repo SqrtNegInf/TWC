@@ -1,0 +1,59 @@
+ 
+===> 135/2/arne-sommer.raku <===
+1
+0
+1
+ 
+===> 135/2/athanasius.raku <===
+Input:  $SEDOL = 'B0YBKL9'
+Output: 1
+ 
+===> 135/2/ben-davies.raku <===
+1
+ 
+===> 135/2/bruce-gray.raku <===
+1..3
+ok 1 - valid_sedol('2936921') == 1
+ok 2 - valid_sedol('1234567') == 0
+ok 3 - valid_sedol('B0YBKL9') == 1
+ 
+===> 135/2/colin-crain.raku <===
+ok 1 - ex-0263494
+ok 2 - too long
+ok 3 - too short
+ok 4 - wrong checksum
+ok 5 - alpha, starts with B
+ 
+===> 135/2/feng-chang.raku <===
+1
+ 
+===> 135/2/jaldhar-h-vyas.raku <===
+1
+ 
+===> 135/2/laurent-rosenfeld.raku <===
+456765: 0
+65AR345: 0
+2936921: 1
+1234567: 0
+B0YBKL9: 1
+ 
+===> 135/2/polettix.raku <===
+1
+ 
+===> 135/2/roger-bell-west.raku <===
+1..5
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ok 4 - example 4
+ok 5 - example 5
+ 
+===> 135/2/ulrich-rieke.raku <===
+1
+ 
+===> 135/2/wambash.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ok 4 - 
+1..4

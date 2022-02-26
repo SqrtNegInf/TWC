@@ -1,0 +1,90 @@
+ 
+===> 135/1/arne-sommer.raku <===
+345
+ 
+===> 135/1/athanasius.raku <===
+Input:  $n = 1234567
+Output: 345
+ 
+===> 135/1/ben-davies.raku <===
+too short
+even number of digits
+345
+ 
+===> 135/1/bruce-gray.raku <===
+1..4
+ok 1 - middle_three_digits(1234567)
+ok 2 - middle_three_digits(-123)
+ok 3 - middle_three_digits(1)
+ok 4 - middle_three_digits(10)
+ 
+===> 135/1/colin-crain.raku <===
+ok 1 - ex-1
+ok 2 - ex-2
+ok 3 - ex-3
+ok 4 - ex-4
+ 
+===> 135/1/feng-chang.raku <===
+too short
+even number of digits
+345
+ 
+===> 135/1/jaldhar-h-vyas.raku <===
+Too short.
+
+Even number of digits
+
+345
+ 
+===> 135/1/laurent-rosenfeld.raku <===
+1234567 -> 345
+-123 -> 123
+1 -> Too short
+10 -> Even number of digits
+-54321 -> 432
+ 
+===> 135/1/mohammad-anwar.raku <===
+ERROR: Too short [1].
+ERROR: Even number of digits [1234].
+345
+ 
+===> 135/1/polettix.raku <===
+345
+ 
+===> 135/1/roger-bell-west.raku <===
+1..4
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ok 4 - example 4
+ 
+===> 135/1/ulrich-rieke.raku <===
+1
+too short
+1234
+even number of digits
+1234567
+345
+ 
+===> 135/1/wambash.raku <===
+ok 1 - 
+ok 2 - 
+# Subtest: fail: too short
+    1..2
+    ok 1 - code returned a Failure
+    # Subtest: Failure threw when sunk
+        1..2
+        ok 1 - code dies
+        ok 2 - right exception type (Str)
+    ok 2 - Failure threw when sunk
+ok 3 - fail: too short
+# Subtest: fail: even number of digits
+    1..2
+    ok 1 - code returned a Failure
+    # Subtest: Failure threw when sunk
+        1..2
+        ok 1 - code dies
+        ok 2 - right exception type (Str)
+    ok 2 - Failure threw when sunk
+ok 4 - fail: even number of digits
+1..4
