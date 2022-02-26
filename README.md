@@ -1,7 +1,7 @@
 ## PWC
 
 The purpose of this repository is to collect Raku and Perl code from the Perl Weekly Challenge site
-to make it easy to compare them, verify they work, etc. Very much a work-in-progress...
+to make it easy to compare them, verify they work, etc. Aiming to add rough one/day until I have them all.
 
 To Be Very Clear: None of the code is mine (I have never submitted anything to the PWC). I am
 merely taking a subset of what's there for examination and testing.

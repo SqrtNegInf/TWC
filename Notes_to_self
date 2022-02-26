@@ -1,3 +1,6 @@
+2022-02-26
+So many duplicative Perl tasks, just dropping any that give me trouble.
+
 2022-02-16
 Make sure the 00*err files show the reason a program was disabled, to ease follow-up.
 

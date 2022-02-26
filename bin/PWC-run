@@ -16,18 +16,19 @@ sub MAIN ( Int $ch,
     my $prefix-m = "$ch/$task/00-{$lang}-moar";
     my $prefix-j = "$ch/$task/00-{$lang}-jvm";
 
+        #rakubrew switch moar-blead
     shell qq:to/MOAR/ if $backend eq 'raku'|'moar';
-        rakubrew switch moar-blead
         find $ch/$task -name '*$ext' -exec echo ' ' \\; -exec echo "===> \{\} <===" \\; -execdir raku    -I lib \{\} \\; > $prefix-m.txt 2> $prefix-m.err
         MOAR
 
+        #rakubrew switch jvm-2021.12
     shell qq:to/JVM/ if $backend eq 'raku'|'jvm';
-        rakubrew switch jvm-2021.12
         find $ch/$task -name '*$ext' -exec echo ' ' \\; -exec echo "===> \{\} <===" \\; -execdir perl6-j -I lib \{\} \\; > $prefix-j.txt 2> $prefix-j.err
-        rakubrew switch moar-blead
         JVM
+        #rakubrew switch moar-blead
 
     .IO.unlink if .IO.e and ! .IO.s for ("{$prefix-m}.err", "{$prefix-j}.err");
+    .IO.unlink if .IO.e and ! .IO.s for ("{$prefix-m}.txt", "{$prefix-j}.txt");  # when the task is skipped entirely
 
   } else {
 
