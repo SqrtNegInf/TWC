@@ -1,0 +1,3 @@
+Some slow tasks, especially for JVM (but even Perl)
+
+'mark-anderson.raku' gives different results MoarVM vs JVM (but stable)
