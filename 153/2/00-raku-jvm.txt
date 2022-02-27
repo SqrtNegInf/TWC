@@ -1,0 +1,58 @@
+ 
+===> 153/2/0rir.raku <===
+1..4
+Input: $n = 1
+Output: 1
+
+    Since 1! => 1 = 1
+ok 1 - is a factorion
+Input: $n = 2
+Output: 1
+
+    Since 2! => 2 = 2
+ok 2 - is a factorion
+Input: $n = 145
+Output: 1
+
+    Since 1! + 4! + 5! => 1 + 24 + 120 = 145
+ok 3 - is a factorion
+Input: $n = 40585
+Output: 1
+
+    Since 4! + 0! + 5! + 8! + 5! => 24 + 1 + 120 + 40320 + 120 = 40585
+ok 4 - is a factorion
+ 
+===> 153/2/2colours.raku <===
+Output: 1
+Since 4! + 0! + 5! + 8! + 5! => 24 + 1 + 120 + 40320 + 120 = 40585
+ 
+===> 153/2/laurent-rosenfeld.raku <===
+yes
+ 
+===> 153/2/luca-ferrari.raku <===
+1
+ 
+===> 153/2/mark-anderson.raku <===
+1
+0
+ 
+===> 153/2/polettix.raku <===
+0
+ 
+===> 153/2/robert-dicicco.raku <===
+Input $n = 145
+1! + 4! + 5! = 145
+Output: 1
+ 
+===> 153/2/roger-bell-west.raku <===
+1..2
+ok 1 - example 1
+ok 2 - example 2
+ 
+===> 153/2/ulrich-rieke.raku <===
+1
+ 
+===> 153/2/wambash.raku <===
+ok 1 - 
+ok 2 - 
+1..2
