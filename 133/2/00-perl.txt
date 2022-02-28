@@ -1,0 +1,142 @@
+ 
+===> 133/2/abigail.pl <===
+4
+22
+27
+58
+85
+94
+121
+166
+202
+265
+ 
+===> 133/2/arne-sommer.pl <===
+4, 22, 27, 58, 85, 94, 121, 166, 202, 265
+ 
+===> 133/2/athanasius.pl <===
+The first 10 Smith numbers: 4, 22, 27, 58, 85, 94, 121, 166, 202, 265
+ 
+===> 133/2/cheok-yin-fung.pl <===
+done
+4
+22
+27
+58
+85
+94
+121
+166
+202
+265
+ 
+===> 133/2/dave-jacoby.pl <===
+4, 22, 27, 58, 85, 94, 121, 166, 202, 265
+ 
+===> 133/2/duncan-c-white.pl <===
+4,22,27,58,85,94,121,166,202,265,
+ 
+===> 133/2/e-choroba.pl <===
+# Seeded srand with seed '1234' from import arg.
+1..1
+ok 1
+ 
+===> 133/2/jaldhar-h-vyas.pl <===
+4, 22, 27, 58, 85, 94, 121, 166, 202, 265
+ 
+===> 133/2/james-smith.pl <===
+4
+22
+27
+58
+85
+94
+121
+166
+202
+265
+ 
+===> 133/2/jo-37.pl <===
+# Seeded srand with seed '1234' from import arg.
+ok 1 - Smith's phone number
+ok 2 - 22(10)
+ok 3 - 22(16)
+ok 4 - counter example
+ok 5 - excluded prime
+1..5
+ 
+===> 133/2/laurent-rosenfeld.pl <===
+4 22 27 58 85 94 121 166 202 265
+ 
+===> 133/2/paul-fajman.pl <===
+4 is a Smith number
+22 is a Smith number
+27 is a Smith number
+58 is a Smith number
+85 is a Smith number
+94 is a Smith number
+166 is a Smith number
+202 is a Smith number
+265 is a Smith number
+274 is a Smith number
+ 
+===> 133/2/paulo-custodio.pl <===
+4
+22
+27
+58
+85
+94
+121
+166
+202
+265
+ 
+===> 133/2/pete-houston.pl <===
+4
+22
+27
+58
+85
+94
+121
+166
+202
+265
+ 
+===> 133/2/peter-campbell-smith.pl <===
+Smith number 1 is 4
+Smith number 2 is 22
+Smith number 3 is 27
+Smith number 4 is 58
+Smith number 5 is 85
+Smith number 6 is 94
+Smith number 7 is 121
+Smith number 8 is 166
+Smith number 9 is 202
+Smith number 10 is 265
+ 
+===> 133/2/polettix.pl <===
+4
+22
+27
+58
+85
+94
+121
+166
+202
+265
+ 
+===> 133/2/roger-bell-west.pl <===
+1..1
+ok 1 - example 1
+ 
+===> 133/2/sgreen.pl <===
+4, 22, 27, 58, 85, 94, 121, 166, 202, 265
+ 
+===> 133/2/ulrich-rieke.pl <===
+4, 22, 27, 58, 85, 94, 121, 166, 202, 265
+ 
+===> 133/2/wlmb.pl <===
+First 10 Smith numbers in base 10: 4 22 27 58 85 94 121 166 202 265

@@ -1,0 +1,63 @@
+ 
+===> 133/1/andinus.raku <===
+3.162277660168379332
+ 
+===> 133/1/arne-sommer.raku <===
+3
+ 
+===> 133/1/athanasius.raku <===
+Input:  $N = 10
+Output: 3 (Newton's method)
+        3 (digit-by-digit algorithm)
+ 
+===> 133/1/ben-davies.raku <===
+3
+ 
+===> 133/1/feng-chang.raku <===
+3
+ 
+===> 133/1/jaldhar-h-vyas.raku <===
+3
+ 
+===> 133/1/james-raspass.raku <===
+3
+ 
+===> 133/1/laurent-rosenfeld.raku <===
+10	3
+27	5
+85	9
+101	10
+200000000	14142
+ 
+===> 133/1/luca-ferrari.raku <===
+3
+ 
+===> 133/1/mark-anderson.raku <===
+1..4
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ok 4 - 
+ 
+===> 133/1/polettix.raku <===
+3
+ 
+===> 133/1/roger-bell-west.raku <===
+1..4
+ok 1 - example 1
+ok 2 - example 1
+ok 3 - example 1
+ok 4 - example 1
+ 
+===> 133/1/simon-proctor.raku <===
+3
+ 
+===> 133/1/ulrich-rieke.raku <===
+3
+ 
+===> 133/1/wambash.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ok 4 - 
+1..4
