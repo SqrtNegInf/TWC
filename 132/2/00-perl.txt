@@ -1,0 +1,104 @@
+ 
+===> 132/2/dave-jacoby.pl <===
+   20,	Alex,	Stewart
+   20,	Alex,	Jones
+   18,	Alex,	Stewart
+   18,	Alex,	Jones
+   28,	Joe,	Root
+   28,	Joe,	Blog
+   38,	Mike,	Gatting
+   18,	Simon,	Duane
+ 
+===> 132/2/e-choroba.pl <===
+# Seeded srand with seed '1234' from import arg.
+1..6
+ok 1 - Limit 1
+ok 2 - Limit 2
+ok 3 - Limit 3
+ok 4 - Limit 4
+ok 5 - Limit 5
+ok 6 - Limit 6
+ 
+===> 132/2/jaldhar-h-vyas.pl <===
+20, "Alex",  "Stewart"
+20, "Alex",  "Jones"  
+18, "Alex",  "Stewart"
+18, "Alex",  "Jones"  
+28, "Joe",   "Root"   
+28, "Joe",   "Blog"   
+38, "Mike",  "Gatting"
+18, "Simon", "Duane"  
+ 
+===> 132/2/james-smith.pl <===
+20             	Alex           	Stewart        
+28             	Joe            	Root           
+28             	Joe            	Blog           
+38             	Mike           	Gatting        
+18             	Alex           	Stewart        
+20             	Alex           	Jones          
+18             	Alex           	Jones          
+18             	Simon          	Duane          
+ 
+===> 132/2/jo-37.pl <===
+# Seeded srand with seed '1234' from import arg.
+ok 1 - example
+ok 2 - nonmatching keys
+1..2
+ 
+===> 132/2/mattneleigh.pl <===
+
+Merged rows:
+      20        Alex     Stewart
+      18        Alex     Stewart
+      28         Joe        Root
+      38        Mike     Gatting
+      28         Joe        Blog
+      20        Alex       Jones
+      18        Alex       Jones
+      18       Simon       Duane
+
+ 
+===> 132/2/mohammad-anwar.pl <===
+20, Alex, Stewart
+20, Alex, Jones
+28, Joe, Root
+28, Joe, Blog
+38, Mike, Gatting
+18, Alex, Stewart
+18, Alex, Jones
+18, Simon, Duane
+ 
+===> 132/2/olivier-delouya.pl <===
+20AlexStewart
+28JoeRoot
+38MikeGatting
+18AlexStewart
+18SimonDuane
+ 
+===> 132/2/paulo-custodio.pl <===
+20, "Alex", "Stewart"
+18, "Alex", "Stewart"
+28, "Joe", "Root"
+38, "Mike", "Gatting"
+28, "Joe", "Blog"
+20, "Alex", "Jones"
+18, "Alex", "Jones"
+18, "Simon", "Duane"
+ 
+===> 132/2/perlboy1967.pl <===
+ok 1
+1..1
+ 
+===> 132/2/roger-bell-west.pl <===
+1..1
+ok 1 - example 1
+ 
+===> 132/2/wanderdoc.pl <===
+20,Alex,Stewart
+18,Alex,Stewart
+20,Alex,Jones
+18,Alex,Jones
+28,Joe,Root
+28,Joe,Blog
+38,Mike,Gatting
+18,Simon,Duane

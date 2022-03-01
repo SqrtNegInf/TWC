@@ -1,0 +1,74 @@
+ 
+===> 132/2/ben-davies.raku <===
+20 Alex Stewart
+20 Alex Jones
+18 Alex Stewart
+18 Alex Jones
+28 Joe Root
+28 Joe Blog
+38 Mike Gatting
+18 Simon Duane
+ 
+===> 132/2/jaldhar-h-vyas.raku <===
+20, "Alex",  "Stewart"
+20, "Alex",  "Jones"  
+18, "Alex",  "Stewart"
+18, "Alex",  "Jones"  
+28, "Joe",   "Root"   
+28, "Joe",   "Blog"   
+38, "Mike",  "Gatting"
+18, "Simon", "Duane"  
+ 
+===> 132/2/laurent-rosenfeld.raku <===
+20 Alex Stewart
+20 Alex Jones
+28 Joe Root
+28 Joe Blog
+38 Mike Gatting
+18 Alex Stewart
+18 Alex Jones
+18 Simon Duane
+ 
+===> 132/2/luca-ferrari.raku <===
+20 AlexStewart
+20 AlexJones
+28 JoeRoot
+28 JoeBlog
+38 MikeGatting
+18 AlexStewart
+18 AlexJones
+18 SimonDuane
+ 
+===> 132/2/mark-anderson.raku <===
+20 Alex  Stewart
+20 Alex  Jones
+18 Alex  Stewart
+18 Alex  Jones
+28 Joe   Root
+28 Joe   Blog
+38 Mike  Gatting
+18 Simon Duane
+ 
+===> 132/2/polettix.raku <===
+20, Alex, Stewart
+18, Alex, Stewart
+28, Joe, Root
+38, Mike, Gatting
+28, Joe, Blog
+20, Alex, Jones
+18, Alex, Jones
+18, Simon, Duane
+ 
+===> 132/2/roger-bell-west.raku <===
+1..1
+ok 1 - example 1
+ 
+===> 132/2/ulrich-rieke.raku <===
+20, Alex, Stewart
+20, Alex, Jones
+18, Alex, Stewart
+18, Alex, Jones
+28, Joe, Root
+28, Joe, Blog
+38, Mike, Gatting
+18, Simon, Duane
