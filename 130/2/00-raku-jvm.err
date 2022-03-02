@@ -1,0 +1,12 @@
+[31m===[0mSORRY![31m===[0m Error while compiling /Users/dhoekman/PWC/130/2/simon-proctor.raku
+Could not find Tree::Binary:ver<0.0.6> in:
+    file#/Users/dhoekman/PWC/130/2/lib
+    inst#/Users/dhoekman/.raku
+    inst#/Users/dhoekman/.rakubrew/versions/jvm-2021.12/install/share/perl6/site
+    inst#/Users/dhoekman/.rakubrew/versions/jvm-2021.12/install/share/perl6/vendor
+    inst#/Users/dhoekman/.rakubrew/versions/jvm-2021.12/install/share/perl6/core
+    ap#
+    nqp#
+    perl5#
+    javart#
+at /Users/dhoekman/PWC/130/2/simon-proctor.raku:3
