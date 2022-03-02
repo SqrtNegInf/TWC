@@ -1,0 +1,31 @@
+ 
+===> 131/2/arne-sommer.raku <===
+"(["
+")]"
+ 
+===> 131/2/colin-crain.raku <===
+input       /* This is a comment (in some languages) */ <could be a tag>
+delimiters  **//<>
+
+opens   /**/<
+closes  /**/>
+
+ 
+===> 131/2/mark-anderson.raku <===
+1..2
+ok 1 - 
+ok 2 - 
+ 
+===> 131/2/polettix.raku <===
+"(["
+")]"
+ 
+===> 131/2/roger-bell-west.raku <===
+1..2
+ok 1 - example 1
+ok 2 - example 2
+ 
+===> 131/2/wambash.raku <===
+ok 1 - 
+ok 2 - 
+1..2

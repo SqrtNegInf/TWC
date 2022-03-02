@@ -1,0 +1,10 @@
+Thought 'ulrich-rieke.raku' showed a MoarVM/JVM difference:
+
+<|[(1 2 3) (6 7 8) (9)]
+>|[(1 2 3 6 7 8) (9)]
+
+But it was just the use of 'rand'...  Removed.
+
+----
+
+'peter-campbell-smith' tasks were 1/2 swapped

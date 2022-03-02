@@ -1,0 +1,16 @@
+#!/usr/bin/env raku
+
+die 'not ok - incomplete code';
+=finish
+sub MAIN( @values where { @values.elems > 1 && @values.grep( * ~~ Int ).elems == @values.elems } ) {
+    my @results;
+    my $current-result = 0;
+
+    @results.push: [ @values[ 0 ] ];
+    for 1 ..^ @values.elems {
+        my $is-consecutive = @results[ * - 1 ][ * - 1 ] - @values[ $_ ] == -1;
+        @results[ * - 1 ].push: @values[ $_ ];
+    }
+
+    @results.say;
+}

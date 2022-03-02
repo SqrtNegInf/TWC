@@ -1,0 +1,50 @@
+ 
+===> 131/1/arne-sommer.raku <===
+([1, 2, 3], [6, 7, 8, 9])
+ 
+===> 131/1/athanasius.raku <===
+Input:  (1, 2, 3, 6, 7, 8, 9)
+Output: ([1, 2, 3], [6, 7, 8, 9])
+ 
+===> 131/1/ben-davies.raku <===
+([1 2 3] [6 7 8 9])
+ 
+===> 131/1/colin-crain.raku <===
+[[11 12] [14] [17 18 19]]
+ 
+===> 131/1/laurent-rosenfeld.raku <===
+[[1 2 3] [6 7 8 9]]
+[[11 12] [14] [17 18 19]]
+[[2] [4] [6] [8]]
+[[1 2 3 4 5]]
+ 
+===> 131/1/luca-ferrari.raku <===
+ 
+===> 131/1/mark-anderson.raku <===
+1..4
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ok 4 - 
+ 
+===> 131/1/polettix.raku <===
+([1 2 3] [6 7 8 9])
+ 
+===> 131/1/roger-bell-west.raku <===
+1..4
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ok 4 - example 4
+ 
+===> 131/1/simon-proctor.raku <===
+[[1 2 3] [6 7 8 9]]
+ 
+===> 131/1/wambash.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ok 4 - 
+ok 5 - 
+ok 6 - 
+1..6
