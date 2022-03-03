@@ -10,7 +10,7 @@ sub MAIN( $dir, $num ) {
         my @files = @dirs.pop;
         while @files {
             for @files.pop.dir -> $path {
-                next if $path.f and $path  ~~ rx{ ['leaveme' | 'txt' | 'git' | 'snapshot' | 'version' | '.sh' ] };
+                next if $path.f and $path  ~~ rx{ ['leaveme' | 'txt' | 'git' | 'snapshot' | 'version' | '.sh' | 'iangoodnight' ] };
                 next if $path.f and $path !~~ rx{ '/' ['perl'|'perl5'|'perl6'|'raku'] '/' };
                 @code.push: $path if $path.f;
                 @dirs.push: $path if $path.d and $path.r;

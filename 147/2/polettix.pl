@@ -4,7 +4,7 @@ use warnings;
 use experimental 'signatures';
 no warnings 'experimental::signatures';
 
-die 'not ok - disabled'; # just hangs
+die 'not ok - disabled: too slow';
 
 $|++;
 my ($delta, $X, $Y, $sum) = lowest_difference_superpentagonals();

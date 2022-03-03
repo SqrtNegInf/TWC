@@ -1,10 +1,13 @@
-not ok - disabled
+not ok - disabled: too slow
+  in block <unit> at jaldhar-h-vyas.raku line 3
+
+not ok - disabled: too slow
   in block <unit> at laurent-rosenfeld.raku line 3
 
-not ok - disabled
+not ok - disabled: too slow (why exactly?)
   in sub MAIN at polettix.raku line 5
   in block <unit> at polettix.raku line 48
 
-not ok - disabled
+not ok - disabled: too slow
   in block <unit> at simon-proctor.raku line 3
 

@@ -13,7 +13,7 @@ sub MAIN() {
         %p{pentagon($n)} = $n;
     }
 
-    for %p.keys.combinations(2) -> @combo {
+    for %p.keys.sort.combinations(2) -> @combo {
         if (%p{@combo[0] + @combo[1]}:exists) && (%p{(@combo[0] - @combo[1]).abs}:exists) {
             (%p{@combo[0]}, %p{@combo[1]})
                 .join(q{, })
