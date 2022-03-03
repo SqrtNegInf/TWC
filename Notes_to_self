@@ -1,3 +1,10 @@
+2022-03-03
+Some cleanup today: PWC-rerun, as intended, helping find task output that varies.
+To fix: '.rakumod' files (in particular Arne Sommer's) get sync'd as 'raku.pl'
+
+2022-02-28
+Over half the tasks in 132/1 deleted, based on current-date, which doesn't test well.
+
 2022-02-26
 So many duplicative Perl tasks, just dropping any that give me trouble.
 
@@ -10,7 +17,7 @@ On hold, while try to get JVM working again (switch to rakubrew)
 2022-02-12
 Done 10 weeks, look back and see whether any of the 'extras' some authors provide are worth considering.
 Low-hanging fruit: easy to get all the blog links.
-In the future: 't' directorie and/or .t files.
+In the future: 't' directories and/or .t files.
 
 2022-02-11
 Start handling '.rakumod'

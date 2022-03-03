@@ -1,9 +1,10 @@
 #!/usr/bin/env raku
 ## re-test tasks (just MoarVM for now)
 #  2022-02-09 initial version
-#  2022-02-11 144-150 193% cpu 6:45.74 total
-#  2022-02-16 140-151 289% cpu 8:42.40 total
+#  2022-02-11 144-150 193% cpu  6:45.74 total
+#  2022-02-16 140-151 289% cpu  8:42.40 total
 #  2022-02-18         215% cpu 14:08.44 total
+#  2022-03-03 128-153 220% cpu 18:21.33 total
 
 sub MAIN ( *@args ) {
     die 'Challenges?' unless @args.elems;
