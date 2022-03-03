@@ -1,0 +1,49 @@
+ 
+===> 129/1/arne-sommer.raku <===
+3
+ 
+===> 129/1/luca-ferrari.raku <===
+Found 6 at distance 3
+ 
+===> 129/1/polettix.raku <===
+o-- 1
+  |
+  o-- 2
+  |
+  o-- 3
+    |
+    o-- 4
+      |
+      o-- 5
+      |
+      o-- 6
+1
+
+o-- 1
+  |
+  o-- 2
+  | |
+  | o-- 4
+  |   |
+  |   o-- 6
+  |     |
+  |     o-- 8
+  |     |
+  |     o-- 9
+  |
+  o-- 3
+    |
+    o-- 5
+      |
+      o-- 7
+1
+ 
+===> 129/1/roger-bell-west.raku <===
+1..7
+ok 1 - example 1a
+ok 2 - example 1b
+ok 3 - example 1c
+ok 4 - example 1d
+ok 5 - example 2a
+ok 6 - example 2b
+ok 7 - example 2c

@@ -1,0 +1,86 @@
+ 
+===> 129/2/adam-russell.pl <===
+    1 -> 2 -> 3 -> 4 -> 5
++
+              6 -> 5 -> 5
+------------------------------
+    1 -> 3 -> 0 -> 0 -> 0
+ 
+===> 129/2/dave-jacoby.pl <===
+L1:      >> 3 -> 2 -> 1 <<
+L2:      >> 1 -> 2 -> 3 <<
+Output:  >> 4 -> 4 -> 4 <<
+
+L1:      >> 5 -> 4 -> 3 -> 2 -> 1 <<
+L2:      >> 5 -> 5 -> 6 <<
+Output:  >> 1 -> 3 -> 0 -> 0 -> 0 <<
+
+ 
+===> 129/2/e-choroba.pl <===
+# Seeded srand with seed '1234' from import arg.
+1..3
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Carry not lost even when both lists are exhausted
+ 
+===> 129/2/jo-37.pl <===
+# Seeded srand with seed '1234' from import arg.
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - single list
+ok 4 - not restricted to two lists
+ok 5 - empty list
+1..5
+ 
+===> 129/2/peter-campbell-smith.pl <===
+L1 =      9 -> 2 -> 0 -> 0 -> 5 -> 0 -> 7 -> 0
+L2 = 7 -> 9 -> 9 -> 0 -> 8 -> 3 -> 9 -> 7 -> 0
+L3 = 8 -> 9 -> 1 -> 0 -> 8 -> 9 -> 0 -> 4 -> 0
+ 
+===> 129/2/polettix.pl <===
+ok 1 -   (1 -> 2 -> 3)
+ok 2 - + (3 -> 2 -> 1)
+ok 3 - = (4 -> 4 -> 4)
+ok 4 -   (1 -> 2 -> 3 -> 4 -> 5)
+ok 5 - + (          6 -> 5 -> 5)
+ok 6 - = (1 -> 3 -> 0 -> 0 -> 0)
+ok 7 -   (     9 -> 8 -> 7)
+ok 8 - + (          1 -> 3)
+ok 9 - = (1 -> 0 -> 0 -> 0)
+1..9
+ 
+===> 129/2/roger-bell-west.pl <===
+1..4
+ok 1 - basics 1
+ok 2 - basics 2
+ok 3 - example 1
+ok 4 - example 2
+ 
+===> 129/2/wanderdoc.pl <===
+1->3->0->0->0
+0<-0<-0<-3<-1
+H 1 3
+1 3 0
+3 0 0
+0 0 0
+0 0 T
+
+
+1->0->0->0->8->8->7
+7<-8<-8<-0<-0<-0<-1
+H 1 0
+1 0 0
+0 0 0
+0 0 8
+0 8 8
+8 8 7
+8 7 T
+
+
+4->4->4
+4<-4<-4
+H 4 4
+4 4 4
+4 4 T
+
+
