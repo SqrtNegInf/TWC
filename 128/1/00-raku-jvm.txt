@@ -1,0 +1,90 @@
+ 
+===> 128/1/arne-sommer.raku <===
+[ 0 0 0 ]
+[ 0 0 0 ]
+ 
+===> 128/1/bruce-gray.raku <===
+---
+{area => 6, depth => 3, i => 0, j => 2, width => 2}
+(0 0)
+(0 0)
+(0 0)
+---
+{area => 6, depth => 3, i => 0, j => 0, width => 2}
+(0 0)
+(0 0)
+(0 0)
+---
+{area => 16, depth => 1, i => 3, j => 1, width => 16}
+(0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0)
+---
+{area => 8, depth => 8, i => 2, j => 4, width => 1}
+(0)
+(0)
+(0)
+(0)
+(0)
+(0)
+(0)
+(0)
+---
+{area => 0, depth => 0, i => (Any), j => (Any), width => 0}
+ 
+===> 128/1/luca-ferrari.raku <===
+6 zeroes starting from <0, 2> to <2, 3>
+6 zeroes starting from <1, 2> to <2, 4>
+ 
+===> 128/1/mark-anderson.raku <===
+1..4
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ok 4 - E Choroba's Matrix
+ 
+===> 128/1/polettix.raku <===
+
+[ 1 0 0 0 1 0 ]
+[ 1 1 0 0 0 1 ]
+[ 1 0 0 0 0 0 ]
+---
+[ 0 0 ]
+[ 0 0 ]
+[ 0 0 ]
+
+--------
+
+
+[ 0 0 1 1 ]
+[ 0 0 0 1 ]
+[ 0 0 1 0 ]
+---
+[ 0 0 ]
+[ 0 0 ]
+[ 0 0 ]
+
+--------
+
+
+[ 0 1 0 1 ]
+[ 1 0 1 0 ]
+[ 0 1 0 1 ]
+[ 1 0 1 0 ]
+---
+[ 0 ]
+
+--------
+
+
+[ 1 0 0 0 1 0 ]
+[ 1 0 1 0 0 1 ]
+[ 1 0 0 0 0 0 ]
+---
+[ 0 0 0 0 0 ]
+
+--------
+
+ 
+===> 128/1/roger-bell-west.raku <===
+1..2
+ok 1 - example 1
+ok 2 - example 2
