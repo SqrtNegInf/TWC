@@ -1,0 +1,146 @@
+ 
+===> 126/2/andinus.raku <===
+x 1 0 1 x 2 x x x x
+1 1 0 2 2 4 3 5 5 x
+0 0 1 3 x 3 x 2 x 2
+1 1 1 x x 4 1 2 2 2
+x 1 1 3 x 2 0 0 1 x
+ 
+===> 126/2/arne-sommer.raku <===
+x 1 0 1 x 2 x x x x 
+1 1 0 2 2 4 3 5 5 x 
+0 0 1 3 x 3 x 2 x 2 
+1 1 1 x x 4 1 2 2 2 
+x 1 1 3 x 2 0 0 1 x 
+ 
+===> 126/2/athanasius.raku <===
+Input from mines.txt:
+    x * * * x * x x x x
+    * * * * * * * * * x
+    * * * * x * x * x *
+    * * * x x * * * * *
+    x * * * x * * * * x
+
+Output:
+    x 1 0 1 x 2 x x x x
+    1 1 0 2 2 4 3 5 5 x
+    0 0 1 3 x 3 x 2 x 2
+    1 1 1 x x 4 1 2 2 2
+    x 1 1 3 x 2 0 0 1 x
+ 
+===> 126/2/colin-crain.raku <===
+* * x
+* * x
+* * *
+0 0 x
+0 0 x
+0 0 0
+0 2 x
+0 2 x
+0 1 1
+ 
+===> 126/2/feng-chang.raku <===
+x 1 0 0 0 0 0 1 x 1 0 1 x 2 x 2 x 3 x
+1 1 0 0 0 0 0 2 2 2 0 2 2 3 1 3 2 4 x
+0 0 0 0 0 1 1 3 x 2 0 1 x 1 0 1 x 2 1
+1 1 0 0 0 1 x 4 x 3 0 1 1 1 0 1 1 2 1
+x 1 0 0 0 1 1 3 x 2 0 0 0 0 0 0 0 1 x
+ 
+===> 126/2/laurent-rosenfeld.raku <===
+x * * * x * x x x x
+* * * * * * * * * x
+* * * * x * x * x *
+* * * x x * * * * *
+x * * * x * * * * x
+
+
+x 1 0 1 x 2 x x x x
+1 1 0 2 2 4 3 5 5 x
+0 0 1 3 x 3 x 2 x 2
+1 1 1 x x 4 1 2 2 2
+x 1 1 3 x 2 0 0 1 x
+ 
+===> 126/2/luca-ferrari.raku <===
+x101x2xxxx
+110224355x
+0013x3x2x2
+111xx41222
+x113x2001x
+ 
+===> 126/2/mark-anderson.raku <===
+[x * * * x * x x x x]
+[* * * * * * * * * x]
+[* * x x * * * x x x]
+[* * * x * * x * * *]
+[* * * * * * * * * *]
+[* x * x * x * * x *]
+ 
+[x 1 0 1 x 2 x x x x]
+[1 2 2 3 2 2 3 5 7 x]
+[0 1 x x 2 1 2 x x x]
+[0 1 3 x 2 1 x 3 3 2]
+[1 1 3 2 3 2 2 2 1 1]
+[1 x 2 x 2 x 1 1 x 1]
+ 
+===> 126/2/mimosinnet.raku <===
+Input:
+    x * * * x * x x x x
+    * * * * * * * * * x
+    * * * * x * x * x *
+    * * * x x * * * * *
+    x * * * x * * * * x
+
+
+Output: 
+x 1 0 1 x 2 x x x x
+1 1 0 2 2 4 3 5 5 x
+0 0 1 3 x 3 x 2 x 2
+1 1 1 x x 4 1 2 2 2
+x 1 1 3 x 2 0 0 1 x
+ 
+===> 126/2/polettix.raku <===
+x * * * x * x x x x
+* * * * * * * * * x
+* * * * x * x * x *
+* * * x x * * * * *
+x * * * x * * * * x
+
+x * * * x * x x x x
+* * * * * * * * * x
+* * * * x * x * x *
+* * * x x * * * * *
+x * * * x * * * * x
+
+x 1 0 1 x 2 x x x x
+1 1 0 2 2 4 3 5 5 x
+0 0 1 3 x 3 x 2 x 2
+1 1 1 x x 4 1 2 2 2
+x 1 1 3 x 2 0 0 1 x
+ 
+===> 126/2/roger-bell-west.raku <===
+x 1 0 1 x 2 x x x x
+1 1 0 2 2 4 3 5 5 x
+0 0 1 3 x 3 x 2 x 2
+1 1 1 x x 4 1 2 2 2
+x 1 1 3 x 2 0 0 1 x
+ 
+===> 126/2/simon-proctor.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ok 4 - 
+1..4
+ 
+===> 126/2/stuart-little.raku <===
+x 1 0 1 x 2 x x x x 
+1 1 0 2 2 4 3 5 5 x 
+0 0 1 3 x 3 x 2 x 2 
+1 1 1 x x 4 1 2 2 2 
+x 1 1 3 x 2 0 0 1 x 
+ 
+===> 126/2/ulrich-rieke.raku <===
+x   0   0   0   x   *   x   x   x   x
+1   0   0   0   2   *   *   *   *   x
+0   0   0   1   x   *   x   *   x   *
+1   0   0   x   x   *   *   *   *   *
+x   0   0   1   x   *   *   *   *   x
