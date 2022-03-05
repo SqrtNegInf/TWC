@@ -1,0 +1,5 @@
+Bitrot in 'simon-proctor.raku'?
+
+Impossible coercion from 'Str' into 'BTree[Any]': method COERCE returned a type object BTree
+  in sub MAIN at simon-proctor.raku line 143
+  in block <unit> at simon-proctor.raku line 84

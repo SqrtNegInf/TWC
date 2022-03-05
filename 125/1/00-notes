@@ -1,0 +1,6 @@
+Tasks take a pretty long time with JVM:
+    'mark-anderson.raku' - skip (hanging after the last test?)
+    'arne-sommer.raku' - just inherently slow, so skip
+
+'laurent-rosenfeld.raku' has a run-time error
+

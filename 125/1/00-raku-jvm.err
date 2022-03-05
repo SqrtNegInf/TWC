@@ -1,0 +1,8 @@
+The iterator of this Seq is already in use/consumed by another Seq (you
+might solve this by adding .cache on usages of the Seq, or by assigning
+the Seq into an array)
+  in block <unit> at laurent-rosenfeld.raku line 18
+
+not ok - disabled for JVM: too slow
+  in block <unit> at mark-anderson.raku line 3
+
