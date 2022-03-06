@@ -2,45 +2,45 @@ Challenge titles and Rosetta-code correspondences
 
 120-1
 120-2
-121-1
-121-2
-122-1
-122-2
+121-1 Invert bit
+121-2 Traveling salesman
+122-1 Average of stream
+122-2 Basketball points
 123-1 Ugly numbers
 123-2 Square points
 124-1 Happy Women Day (Venus symbol)
 124-2 Tug of War
 125-1 Pythagorean Triples                   P/Pythagorean_triples
 125-2 Binary Tree Diameter
-126-1
-126-2
-127-1
-127-2
-128-1
-128-2
-129-1
-129-2
+126-1 No '1'
+126-2 Minesweeper
+127-1 Disjoint sets
+127-2 Conflict intervals
+128-1 Maximum sub-matrix
+128-2 Minimum platforms
+129-1 Tree root distance
+129-2 Add linked lists
 
-130-1
-130-2
-131-1
-131-2
-132-1
-132-2
-133-1
-133-2
-134-1
-134-2
-135-1
-135-2
-136-1
-136-2
-137-1
-137-2
-138-1
-138-2
-139-1
-139-2
+130-1 Odd instance among evens
+130-2 Binary Search Tree
+131-1 Consecutive integers
+131-2 Find pairs                            B/Balanced_brackets
+132-1 Mirror dates
+132-2 Hash join                             H/Hash_join
+133-1 Integer square root                   I/Integer_roots
+133-2 Smith numbers                         S/Smith_numbers
+134-1 Pandigital numbers                    P/Pandigital_prime F/First_perfect_square_in_base_N_with_N_unique_digits
+134-2 Distinct terms in mult. table
+135-1 Middle 3 digits                       M/Middle_three_digits
+135-2 Validate SEDOLs                       S/SEDOLs
+136-1 Two friendly
+136-2 Fibonacci sequence sum
+137-1 Long year                             L/Long_year
+137-2 Lychrel number                        L/Lychrel_numbers
+138-1 Workdays
+138-2 Split number
+139-1 Jortsort                              J/Jortsort
+139-2 Long primes                           L/Long_primes
 
 140-1 Add binary
 140-2 Item from multiplication table
