@@ -1,0 +1,261 @@
+ 
+===> 123/2/abigail.pl <===
+0
+1
+ 
+===> 123/2/arne-sommer.pl <===
+0
+ 
+===> 123/2/athanasius.pl <===
+Input:  x1 = 12, y1 = 24
+        x2 = 16, y2 = 10
+        x3 = 20, y3 = 12
+        x4 = 18, y4 = 16
+Output: 0
+ 
+===> 123/2/bruce-gray.pl <===
+1..4
+ok 1 - SampleA
+ok 2 - SampleB
+ok 3 - NotUnique
+ok 4 - Rectangle
+ 
+===> 123/2/cheok-yin-fung.pl <===
+1..13
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Knight's square
+ok 4 - centre at origin
+ok 5 - centre at origin, inclined
+ok 6 - inclined by arctan(1/5), centre at origin
+ok 7 - arctan(1/5) by atan2(), caught by the equalities
+ok 8 - arctan(1/5) by atan2() of larger size (multipled by 2.7), caught by the equalities
+ok 9 - arctan(1/5) by atan2() of larger size (multipled by 2.8), caught by the equalities
+ok 10 - arctan(1/5) by atan2() of larger size (multipled by 4.0), caught by the equalities
+ok 11
+ok 12
+ok 13
+ 
+===> 123/2/colin-crain.pl <===
+ok 1 - ex-1
+ok 2 - racked 1 ccw
+ok 3 - ex-2
+ok 4 - parallelogram
+ok 5 - regular diamond
+ok 6 - regular diamond around origin
+ok 7 - off-center around origin
+ok 8 - off-center around origin, rotate 2 cw
+1..8
+ 
+===> 123/2/dave-jacoby.pl <===
+[[10,20],[20,20],[20,10],[10,10]]
+1
+
+[[12,24],[16,10],[20,12],[18,16]]
+0
+
+[[40,40],[50,30],[40,20],[30,30]]
+1
+
+[[10,10],[15,15],[20,15],[15,10]]
+0
+
+ 
+===> 123/2/e-choroba.pl <===
+#	. . . . . . . . . . . . . 
+#	. X . . . . . . . . . X . 
+#	. . . . . . . . . . . . . 
+#	. . . . . . . . . . . . . 
+#	. . . . . . . . . . . . . 
+#	. . . . . . . . . . . . . 
+#	. . . . . . . . . . . . . 
+#	. . . . . . . . . . . . . 
+#	. . . . . . . . . . . . . 
+#	. . . . . . . . . . . . . 
+#	. . . . . . . . . . . . . 
+#	. X . . . . . . . . . X . 
+#	. . . . . . . . . . . . . 
+ok 1 - Example 1
+#	. . . . . . . . . . . . . . . . . 
+#	. . . . . . . . . . . . . . . X . 
+#	. . . . . . . . . . . . . . . . . 
+#	. . . . . . . . . . . . . . . . . 
+#	. . . . . . . . . . . . . . . . . 
+#	. X . . . . . . . . . . . . . . . 
+#	. . . . . . . . . . . . . . . . . 
+#	. . . . . . . X . . . . . . . . . 
+#	. . . . . . . . . . . . . . . . . 
+#	. . . X . . . . . . . . . . . . . 
+#	. . . . . . . . . . . . . . . . . 
+ok 2 - Example 2
+#	. . . . . 
+#	. X . X . 
+#	. . . . . 
+#	. X . X . 
+#	. . . . . 
+ok 3 - Horizontal
+#	. . . . 
+#	. X X . 
+#	. X X . 
+#	. . . . 
+ok 4 - Smallest
+#	. . . . . . . 
+#	. . . X . . . 
+#	. . . . . . . 
+#	. X . . . X . 
+#	. . . . . . . 
+#	. . . X . . . 
+#	. . . . . . . 
+ok 5 - Diagonal
+#	. . . . . . . 
+#	. . X . . . . 
+#	. . . . . X . 
+#	. . . . . . . 
+#	. X . . . . . 
+#	. . . . X . . 
+#	. . . . . . . 
+ok 6 - Askew clockwise
+#	. . . . . . . . 
+#	. . . . X . . . 
+#	. . . . . . . . 
+#	. X . . . . . . 
+#	. . . . . . X . 
+#	. . . . . . . . 
+#	. . . X . . . . 
+#	. . . . . . . . 
+ok 7 - Askew counterclockwise
+#	. . . . . . . . . 
+#	. . . . X . . . . 
+#	. X . . . . . X . 
+#	. . . . X . . . . 
+#	. . . . . . . . . 
+ok 8 - Diamond
+#	. . . . 
+#	. . X . 
+#	. X X . 
+#	. . . . 
+ok 9 - Double Point
+#	. . . . 
+#	. X . . 
+#	. . X . 
+#	. . . . 
+ok 10 - Two double points
+#	. . . . 
+#	. X . . 
+#	. . X . 
+#	. . . . 
+ok 11 - Triple point
+#	. . . 
+#	. X . 
+#	. . . 
+ok 12 - Quadruple point
+#	. . . . . . 
+#	. . X . . . 
+#	. X . . X . 
+#	. . . . . . 
+#	. . X . . . 
+#	. . . . . . 
+ok 13 - Isosceles Trapezium
+1..13
+ 
+===> 123/2/jaldhar-h-vyas.pl <===
+0
+ 
+===> 123/2/james-smith.pl <===
+ok 1
+ok 2
+ok 3
+ok 4
+1..4
+ 
+===> 123/2/jaredor.pl <===
+ok 1 - Test description
+ok 2 - Test description
+1..2
+ 
+===> 123/2/jo-37.pl <===
+# Seeded srand with seed '1234' from import arg.
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - e1/e2 not ortogonal
+ok 4 - e2/e3 not ortogonal
+ok 5 - e3/e4 not ortogonal
+ok 6 - e4/e1 not ortogonal
+ok 7 - unequal edge lengths
+ok 8 - rotated
+ok 9 - floating point vertice coordinates
+1..9
+ 
+===> 123/2/kjetillll.pl <===
+1
+1
+0
+ 
+===> 123/2/laurent-rosenfeld.pl <===
+10 20 20 20 20 10 10 10 => 1
+12 24 16 10 20 12 18 18 => 0
+ 
+===> 123/2/mattneleigh.pl <===
+(10, 20), (20, 20), (20, 10), (10, 10) is a square.
+(12, 24), (16, 10), (20, 12), (18, 16) is not a square.
+(0, 10), (10, 0), (0, -10), (-10, 0) is a square.
+(0, 5), (15, 0), (0, -5), (-15, 0) is not a square.
+ 
+===> 123/2/mohammad-anwar.pl <===
+ok 1
+ok 2
+ok 3
+ok 4
+ok 5
+ok 6
+ok 7
+ok 8
+ok 9
+ok 10
+ok 11
+ok 12
+1..12
+ 
+===> 123/2/perlboy1967.pl <===
+ok 1
+ok 2
+ok 3
+ok 4
+ok 5
+ok 6
+ok 7
+ok 8
+1..8
+ 
+===> 123/2/polettix.pl <===
+1
+0
+1
+ 
+===> 123/2/roger-bell-west.pl <===
+1..4
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ok 4 - example 4
+ 
+===> 123/2/stuart-little.pl <===
+0
+1
+ 
+===> 123/2/wanderdoc.pl <===
+1
+0
+1
+1
+0
+ 
+===> 123/2/wlmb.pl <===
+Input: 
+[
+ [12 24]
+ [16 10]
+ [20 12]
+ [18 16]
+]
+ Output: 0

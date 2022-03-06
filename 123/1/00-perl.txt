@@ -1,0 +1,225 @@
+ 
+===> 123/1/abigail.pl <===
+8
+12
+5832
+ 
+===> 123/1/adam-russell.pl <===
+8
+12
+5832
+ 
+===> 123/1/arne-sommer.pl <===
+5832
+ 
+===> 123/1/athanasius.pl <===
+Input:  $n = 150
+Output: 5832
+ 
+===> 123/1/bruce-gray.pl <===
+1..62
+ok 1 - ugly-ith(1) == 1
+ok 2 - ugly-ith(2) == 2
+ok 3 - ugly-ith(3) == 3
+ok 4 - ugly-ith(4) == 4
+ok 5 - ugly-ith(5) == 5
+ok 6 - ugly-ith(6) == 6
+ok 7 - ugly-ith(7) == 8
+ok 8 - ugly-ith(8) == 9
+ok 9 - ugly-ith(9) == 10
+ok 10 - ugly-ith(10) == 12
+ok 11 - ugly-ith(11) == 15
+ok 12 - ugly-ith(12) == 16
+ok 13 - ugly-ith(13) == 18
+ok 14 - ugly-ith(14) == 20
+ok 15 - ugly-ith(15) == 24
+ok 16 - ugly-ith(16) == 25
+ok 17 - ugly-ith(17) == 27
+ok 18 - ugly-ith(18) == 30
+ok 19 - ugly-ith(19) == 32
+ok 20 - ugly-ith(20) == 36
+ok 21 - ugly-ith(21) == 40
+ok 22 - ugly-ith(22) == 45
+ok 23 - ugly-ith(23) == 48
+ok 24 - ugly-ith(24) == 50
+ok 25 - ugly-ith(25) == 54
+ok 26 - ugly-ith(26) == 60
+ok 27 - ugly-ith(27) == 64
+ok 28 - ugly-ith(28) == 72
+ok 29 - ugly-ith(29) == 75
+ok 30 - ugly-ith(30) == 80
+ok 31 - ugly-ith(31) == 81
+ok 32 - ugly-ith(32) == 90
+ok 33 - ugly-ith(33) == 96
+ok 34 - ugly-ith(34) == 100
+ok 35 - ugly-ith(35) == 108
+ok 36 - ugly-ith(36) == 120
+ok 37 - ugly-ith(37) == 125
+ok 38 - ugly-ith(38) == 128
+ok 39 - ugly-ith(39) == 135
+ok 40 - ugly-ith(40) == 144
+ok 41 - ugly-ith(41) == 150
+ok 42 - ugly-ith(42) == 160
+ok 43 - ugly-ith(43) == 162
+ok 44 - ugly-ith(44) == 180
+ok 45 - ugly-ith(45) == 192
+ok 46 - ugly-ith(46) == 200
+ok 47 - ugly-ith(47) == 216
+ok 48 - ugly-ith(48) == 225
+ok 49 - ugly-ith(49) == 240
+ok 50 - ugly-ith(50) == 243
+ok 51 - ugly-ith(51) == 250
+ok 52 - ugly-ith(52) == 256
+ok 53 - ugly-ith(53) == 270
+ok 54 - ugly-ith(54) == 288
+ok 55 - ugly-ith(55) == 300
+ok 56 - ugly-ith(56) == 320
+ok 57 - ugly-ith(57) == 324
+ok 58 - ugly-ith(58) == 360
+ok 59 - ugly-ith(59) == 375
+ok 60 - ugly-ith(60) == 384
+ok 61 - ugly-ith(61) == 400
+ok 62 - ugly-ith(62) == 405
+ 
+===> 123/1/cheok-yin-fung.pl <===
+1..3
+5832
+ok 1 - test case n = 10
+ok 2 - test case n = 33
+ok 3 - test case n = 52
+ 
+===> 123/1/colin-crain.pl <===
+requested index, 1-based count: 10
+sequence value:  12
+sequence computed to 12 known values
+sequence:
+1
+2
+3
+4
+5
+6
+8
+9
+10
+12
+15
+16
+ 
+===> 123/1/dave-jacoby.pl <===
+Input:  $n = 150  Output: 5832
+ 
+===> 123/1/duncan-c-white.pl <===
+5832
+ 
+===> 123/1/e-choroba.pl <===
+1..5
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Large
+ok 4 - Larger
+ok 5 - Largest
+ 
+===> 123/1/jaldhar-h-vyas.pl <===
+12
+ 
+===> 123/1/jo-37.pl <===
+# Seeded srand with seed '20220305' from local date.
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - the largest number given in OEIS
+ok 4 - fast enough for larger numbers
+ok 5 - even larger
+ok 6 - the largest fitting into an uint64
+1..6
+ 
+===> 123/1/kjetillll.pl <===
+5832
+ 
+===> 123/1/laurent-rosenfeld.pl <===
+5832
+ 
+===> 123/1/lubos-kolouch.pl <===
+ok 1
+ok 2
+ok 3
+1..3
+ 
+===> 123/1/mattneleigh.pl <===
+   1 -->     1
+   7 -->     8
+  10 -->    12
+  15 -->    24
+ 100 -->  1536
+ 200 --> 16200
+ 
+===> 123/1/mohammad-anwar.pl <===
+ok 1
+ok 2
+ok 3
+ok 4
+1..4
+ 
+===> 123/1/paulo-custodio.pl <===
+1
+2
+3
+4
+5
+6
+8
+9
+10
+12
+ 
+===> 123/1/perlboy1967.pl <===
+ok 1
+ok 2
+ok 3
+ok 4
+ok 5
+ok 6
+ok 7
+ok 8
+ok 9
+ok 10
+ok 11
+1..11
+ 
+===> 123/1/pete-houston.pl <===
+5832
+ 
+===> 123/1/polettix.pl <===
+5832
+ 
+===> 123/1/roger-bell-west.pl <===
+1..3
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ 
+===> 123/1/sgreen.pl <===
+5832
+ 
+===> 123/1/stuart-little.pl <===
+1
+2
+3
+4
+5
+6
+8
+9
+10
+12
+ 
+===> 123/1/ulrich-rieke.pl <===
+12
+ 
+===> 123/1/wanderdoc.pl <===
+5832
+ 
+===> 123/1/wlmb.pl <===
+Input: 7 Output: 8
+Input: 10 Output: 12
+Input: 150 Output: 5832

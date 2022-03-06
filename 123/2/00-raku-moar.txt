@@ -1,0 +1,75 @@
+ 
+===> 123/2/arne-sommer.raku <===
+: The four edges does not have the same length (14.560219778561036, 4.47213595499958, 4.47213595499958, 10)
+0
+ 
+===> 123/2/athanasius.raku <===
+Input:  x1 = 12, y1 = 24
+        x2 = 16, y2 = 10
+        x3 = 20, y3 = 12
+        x4 = 18, y4 = 16
+Output: 0
+ 
+===> 123/2/bruce-gray.raku <===
+1..4
+ok 1 - SampleA
+ok 2 - SampleB
+ok 3 - NotUnique
+ok 4 - Rectangle
+ 
+===> 123/2/colin-crain.raku <===
+1..8
+ok 1 - ex-1
+ok 2 - racked 1 ccw
+ok 3 - ex-2
+ok 4 - parallelogram
+ok 5 - regular diamond
+ok 6 - regular diamond around origin
+ok 7 - off-center around origin
+ok 8 - off-center around origin, rotate 2 cw
+ 
+===> 123/2/feng-chang.raku <===
+0
+ 
+===> 123/2/laurent-rosenfeld.raku <===
+10 20 20 20 20 10 10 10 => 1
+12 24 16 10 20 12 18 18 => 0
+ 
+===> 123/2/luc65r.raku <===
+0
+ 
+===> 123/2/mark-anderson.raku <===
+1..3
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ 
+===> 123/2/markus-holzer.raku <===
+True
+ 
+===> 123/2/polettix.raku <===
+1
+0
+1
+ 
+===> 123/2/roger-bell-west.raku <===
+1..4
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ok 4 - example 4
+ 
+===> 123/2/simon-proctor.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ok 4 - 
+1..4
+ 
+===> 123/2/stuart-little.raku <===
+0
+ 
+===> 123/2/wambash.raku <===
+ok 1 - 
+ok 2 - 
+1..2
