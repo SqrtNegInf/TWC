@@ -1,10 +1,31 @@
 Challenge titles and Rosetta-code correspondences
 
-120-1
-120-2
+110-1
+110-2
+111-1
+111-2
+112-1
+112-2
+113-1
+113-2
+114-1
+114-2
+115-1
+115-2
+116-1
+116-2
+117-1
+117-2
+118-1
+118-2
+119-1 Swap nibbles
+119-2 No 1-on-1, but 2/3
+
+120-1 Swap even/odd bits
+120-2 Clock angle
 121-1 Invert bit
 121-2 Traveling salesman
-122-1 Average of stream
+122-1 Average of stream                     A/Averages_Simple_moving_average
 122-2 Basketball points
 123-1 Ugly numbers
 123-2 Square points
@@ -12,7 +33,7 @@ Challenge titles and Rosetta-code correspondences
 124-2 Tug of War
 125-1 Pythagorean Triples                   P/Pythagorean_triples
 125-2 Binary Tree Diameter
-126-1 No '1'
+126-1 No 1's sequence
 126-2 Minesweeper
 127-1 Disjoint sets
 127-2 Conflict intervals
@@ -306,26 +327,6 @@ raku -e '.say for ^2 X~ ^10 X~ ^10 X~ <-1 -2>'
 108-2
 109-1
 109-2
-110-1
-110-2
-111-1
-111-2
-112-1
-112-2
-113-1
-113-2
-114-1
-114-2
-115-1
-115-2
-116-1
-116-2
-117-1
-117-2
-118-1
-118-2
-119-1
-119-2
 
 160-1
 160-2
