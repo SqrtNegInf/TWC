@@ -1,0 +1,1 @@
+'adam-russell.pl' and 'wanderdoc.pl' will shows results in different order each time.
