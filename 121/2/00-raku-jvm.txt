@@ -1,0 +1,44 @@
+ 
+===> 121/2/arne-sommer.raku <===
+length = 10
+tour = (0 2 1 3 0)
+ 
+===> 121/2/bruce-gray.raku <===
+{cost => 10, path => (2 1 3)}
+{cost => 10, path => (2 1 3)}
+ 
+===> 121/2/colin-crain.raku <===
+[0 5 2 7]
+[5 0 5 3]
+[3 1 0 6]
+[4 5 4 0]
+
+shortest path 10
+path: 0 → 2 → 1 → 3 → 0
+ 
+===> 121/2/luca-ferrari.raku <===
+[0 2 1 3 0]
+ 
+===> 121/2/mark-anderson.raku <===
+1..4
+ok 1 - Example 1
+ok 2 - https://www.youtube.com/watch?v=cSY82XtVqYg&t=761s
+ok 3 - https://www.youtube.com/watch?v=1FEP_sNb62k
+ok 4 - https://www.youtube.com/watch?v=HjSbaKF8Gi0
+ 
+===> 121/2/polettix.raku <===
+(10 (0 2 1 4 3 0))
+(10 (0 2 1 4 3 0))
+ 
+===> 121/2/stuart-little.raku <===
+Your matrix:
+(0 5 2 7)
+(5 0 5 3)
+(3 1 0 6)
+(4 5 4 0)
+Optimal cost: 10
+Optimal Path: 0 2 1 3 0
+ 
+===> 121/2/wambash.raku <===
+ok 1 - 
+1..1
