@@ -1,0 +1,226 @@
+ 
+===> 120/2/abigail.pl <===
+35
+57.5
+ 
+===> 120/2/adam-russell.pl <===
+35
+120
+ 
+===> 120/2/arne-sommer.pl <===
+35 degree
+ 
+===> 120/2/athanasius.pl <===
+
+Challenge 120, Task #2: Clock Angle (Perl)
+
+Input:  $T = 03:10
+Output: 35°
+ 
+===> 120/2/cheok-yin-fung.pl <===
+1..9
+The clock angle of NOW (03:10): 35 deg Â± 5.5 deg
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - noon
+ok 4 - 6 o'clock
+ok 5 - 9 o'clock
+ok 6 - 11:59
+ok 7 - 12:01
+ok 8 - 09:27
+ok 9 - 16:11
+ 
+===> 120/2/colin-crain.pl <===
+time: 9:49
+0.5 degrees
+ 
+===> 120/2/dave-cross.pl <===
+35
+ 
+===> 120/2/dave-jacoby.pl <===
+	11:20	140
+	11:21	145.5
+	11:22	151
+	11:23	156.5
+	11:24	162
+	11:25	167.5
+	11:26	173
+	11:27	178.5
+	11:28	176
+	11:29	170.5
+	11:30	165
+	11:31	159.5
+	11:32	154
+	11:33	148.5
+	11:34	143
+	11:35	137.5
+	11:36	132
+	11:37	126.5
+	11:38	121
+	11:39	115.5
+	11:40	110
+	11:41	104.5
+	11:42	99
+	11:43	93.5
+	11:44	88
+	11:45	82.5
+	11:46	77
+	11:47	71.5
+	11:48	66
+	11:49	60.5
+	11:50	55
+	11:51	49.5
+	11:52	44
+	11:53	38.5
+	11:54	33
+	11:55	27.5
+	11:56	22
+	11:57	16.5
+	11:58	11
+	11:59	5.5
+	12:00	0
+	12:01	5.5
+	12:02	11
+	12:03	16.5
+	12:04	22
+	12:05	27.5
+ 
+===> 120/2/duncan-c-white.pl <===
+h=3, m=10, hang=95, mang=60, angle=35
+ 
+===> 120/2/e-choroba.pl <===
+# Seeded srand with seed '1234' from import arg.
+1..10
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Midnight/Noon
+ok 4 - One o'clock
+ok 5 - Two o'clock
+ok 6 - Six PM
+ok 7 - Half past 6
+ok 8 - Half past 6
+ok 9 - Smallest angle
+ok 10 - Five to twelve
+ 
+===> 120/2/jaldhar-h-vyas.pl <===
+35 degrees
+ 
+===> 120/2/james-smith.pl <===
+ok 1
+ok 2
+ok 3
+ok 4
+ok 5
+ok 6
+ok 7
+ok 8
+ok 9
+ok 10
+ok 11
+ok 12
+ok 13
+ok 14
+ok 15
+ok 16
+ok 17
+ok 18
+1..18
+ 
+===> 120/2/jaredor.pl <===
+ok 1 - First example: 03:10 is 35 degrees.
+ok 2 - Second example: 04:10 is 120 degrees.
+ok 3 - Twelve o'clock, the hands are coincident.
+ok 4 - Six o'clock, 180 degrees.
+ok 5 - One minute after six o'clock, 174.5 degrees.
+1..5
+ 
+===> 120/2/jo-37.pl <===
+# Seeded srand with seed '1234' from import arg.
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - not a valid time
+ok 4 - not a valid hour
+ok 5 - not a valid minute
+ok 6 - omit leading zero
+ok 7 - zero degrees
+ok 8 - min to hour
+ok 9 - hour to min
+ok 10 - 2:11
+ok 11 - 9:49
+ok 12 - 14:11
+ok 13 - 21:49
+1..13
+ 
+===> 120/2/laurent-rosenfeld.pl <===
+03:10: 35
+04:00: 120
+07:00: 150
+15:10: 35
+18:00: 180
+ 
+===> 120/2/lubos-kolouch.pl <===
+ok 1
+ok 2
+ok 3
+1..3
+ 
+===> 120/2/mattneleigh.pl <===
+03:10 ->   35
+04:00 ->  120
+12:55 ->   57
+06:30 ->   15
+01:05 ->    2
+01:07 ->    8
+ 
+===> 120/2/mohammad-anwar.pl <===
+35
+ 
+===> 120/2/paul-fajman.pl <===
+Input: $T = 03:10
+Output: 35
+ 
+===> 120/2/paulo-custodio.pl <===
+35
+ 
+===> 120/2/perlboy1967.pl <===
+ok 1
+ok 2
+ok 3
+ok 4
+1..4
+ 
+===> 120/2/pete-houston.pl <===
+At 03:10, the angle between the hands is 35° 0'
+ 
+===> 120/2/polettix.pl <===
+35 degree
+120 degree
+ 
+===> 120/2/roger-bell-west.pl <===
+1..2
+ok 1 - example 1
+ok 2 - example 2
+ 
+===> 120/2/sgreen.pl <===
+35Â°
+ 
+===> 120/2/steve-bresson.pl <===
+Task 2: Clock Angle
+IN: 03:10 = 03 : 10
+C-OUT: 30 degree
+F-OUT: 35 degree
+Finito!
+ 
+===> 120/2/stuart-little.pl <===
+35
+ 
+===> 120/2/ulrich-rieke.pl <===
+35 degrees
+ 
+===> 120/2/wanderdoc.pl <===
+03:10 -> 35
+12:55 -> 57.5
+ 
+===> 120/2/wlmb.pl <===
+Input: 03:10, Output: 35
+Input: 12:55, Output: 57

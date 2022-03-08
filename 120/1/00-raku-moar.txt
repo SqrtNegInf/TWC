@@ -1,0 +1,65 @@
+ 
+===> 120/1/arne-sommer.raku <===
+: Binary:  01100101
+: Swapped: 10011010 (binary)
+154
+ 
+===> 120/1/athanasius.raku <===
+Input: $N = 101 (01 10 01 01)
+Output:     154 (10 01 10 10)
+ 
+===> 120/1/colin-crain.raku <===
+154
+ 
+===> 120/1/feng-chang.raku <===
+154
+ 
+===> 120/1/jaldhar-h-vyas.raku <===
+154
+ 
+===> 120/1/laurent-rosenfeld.raku <===
+101 : 154
+154 : 101
+33 : 18
+18 : 33
+ 
+===> 120/1/luc65r.raku <===
+154
+ 
+===> 120/1/mark-anderson.raku <===
+1..9
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ok 4 - 
+ok 5 - 
+ok 6 - 
+ok 7 - 
+ok 8 - 
+ok 9 - 
+ 
+===> 120/1/polettix.raku <===
+154
+33
+ 
+===> 120/1/roger-bell-west.raku <===
+1..2
+ok 1 - example 1
+ok 2 - example 2
+ 
+===> 120/1/simon-proctor.raku <===
+154
+ 
+===> 120/1/stuart-little.raku <===
+154
+ 
+===> 120/1/ulrich-rieke.raku <===
+154
+ 
+===> 120/1/wambash.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ok 4 - 
+ok 5 - 
+1..5
