@@ -67,7 +67,9 @@ sub rob_house (@valuables) {
 
     #print Dumper $best_tour;
     say $$best_tour{value};
-    say "@{$$best_tour{tour}}\n";
+    #say "@{$$best_tour{tour}}\n";
+    say join ' ', %$best_tour{tour}->@*;
+    say '';
 }
 
 sub plan_tour ( $max, $cur = 0 ) {

@@ -65,7 +65,7 @@ MAIN:{
     my @sub_matrix = maximum_sub_matrix(
         [1, 0, 0, 0, 1, 0],
         [1, 1, 0, 0, 0, 1],
-        [1, 0, 0, 0, 0, 0]
+        [1, 0, 0, 0, 1, 0]
     );
     for my $row (@sub_matrix){
         print "[" . join(" ", @{$row}) . "]\n"; 
