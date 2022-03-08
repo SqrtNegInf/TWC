@@ -1,0 +1,177 @@
+ 
+===> 119/2/abigail.pl <===
+13
+32
+2223
+ 
+===> 119/2/adherzog.pl <===
+ok 1
+ok 2
+ok 3
+ok 4
+ok 5
+ok 6
+ok 7
+ok 8
+ok 9
+ok 10
+ok 11
+ok 12
+ok 13
+ok 14
+ok 15
+ok 16
+ok 17
+ok 18
+ok 19
+ok 20
+1..20
+ 
+===> 119/2/arne-sommer.pl <===
+2223
+ 
+===> 119/2/athanasius.pl <===
+Input:  $N = 60
+Output: 2223
+ 
+===> 119/2/bruce-gray.pl <===
+5 ==> 13
+10 ==> 32
+60 ==> 2223
+14410 ==> 1212121212
+ 
+===> 119/2/cheok-yin-fung.pl <===
+1..3
+0
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ 
+===> 119/2/colin-crain.pl <===
+2223
+ 
+===> 119/2/dave-cross.pl <===
+2223
+ 
+===> 119/2/dave-jacoby.pl <===
+	5	13
+	10	32
+	60	2223
+ 
+===> 119/2/duane-powell.pl <===
+2223
+ 
+===> 119/2/duncan-c-white.pl <===
+2223
+ 
+===> 119/2/e-choroba.pl <===
+# Seeded srand with seed '1234' from import arg.
+1..6
+ok 1 - Example 1 naive
+ok 2 - Example 2 naive
+ok 3 - Example 3 naive
+ok 4 - Example 1 matrix
+ok 5 - Example 2 matrix
+ok 6 - Example 3 matrix
+ 
+===> 119/2/jaldhar-h-vyas.pl <===
+2131
+ 
+===> 119/2/james-smith.pl <===
+ok 1
+ok 2
+ok 3
+ok 4
+ok 5
+ok 6
+ok 7
+ok 8
+ok 9
+ok 10
+ok 11
+ok 12
+1..12
+ 
+===> 119/2/jaredor.pl <===
+ok 1 - First Example: 5 -> 13
+ok 2 - Second Example: 10 -> 32
+ok 3 - Third Example: 60 -> 2223
+ok 4 - First 15 in problem description is correct.
+1..4
+ 
+===> 119/2/jo-37.pl <===
+# Seeded srand with seed '1234' from import arg.
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ok 4 - last 2-digit element
+ok 5 - first 3-digit element
+1..5
+ 
+===> 119/2/laurent-rosenfeld.pl <===
+22
+121
+2232
+ 
+===> 119/2/lubos-kolouch.pl <===
+ok 1
+ok 2
+ok 3
+1..3
+ 
+===> 119/2/mattneleigh.pl <===
+   5 ->   13
+  10 ->   32
+  60 -> 2223
+ 
+===> 119/2/mohammad-anwar.pl <===
+2223
+ 
+===> 119/2/paul-fajman.pl <===
+OUTPUT: 2223
+ 
+===> 119/2/paulo-custodio.pl <===
+2223
+ 
+===> 119/2/perlboy1967.pl <===
+ok 1
+ok 2
+ok 3
+ok 4
+ok 5
+ok 6
+1..6
+ 
+===> 119/2/pete-houston.pl <===
+2223
+ 
+===> 119/2/polettix.pl <===
+13
+32
+2223
+ 
+===> 119/2/roger-bell-west.pl <===
+1..3
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ 
+===> 119/2/sgreen.pl <===
+2223
+ 
+===> 119/2/steven-wilson.pl <===
+ok 1 - Input: $N = 5 Output: 13
+ok 2 - Input: $N = 10 Output: 32
+ok 3 - Input: $N = 60 Output: 2223
+1..3
+ 
+===> 119/2/stuart-little.pl <===
+2223
+ 
+===> 119/2/ulrich-rieke.pl <===
+2223
+ 
+===> 119/2/wlmb.pl <===
+Input: 5, Output: 13
+Input: 10, Output: 32
+Input: 60, Output: 2223
