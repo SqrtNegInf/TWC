@@ -69,9 +69,6 @@ ok 50 - Length 49
 ok 51 - Length 50
 ok 52 - Length 51
 ok 53 - Length 52
-       Rate slow fast
-slow 4419/s   -- -27%
-fast 6050/s  37%   --
  
 ===> 150/1/james-smith.pl <===
 ok 1

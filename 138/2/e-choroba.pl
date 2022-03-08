@@ -18,7 +18,7 @@ sub split_number {
     return _split(sqrt $square, $square)
 }
 
-use Test2::V0;
+use Test2::V0 -srand => 1234;
 plan 3;
 
 is split_number(81), 1, 'Example 1';

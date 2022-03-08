@@ -17,5 +17,5 @@ sub tug-of-war (@set) {
          if (!defined($solution_delta)) || ($solution_delta > $subset_delta);
       last if $solution_delta < TOLERANCE;
    }
-   return (@solution, (@set (-) @solution).keys);
+   return (@solution, (@set (-) @solution).keys.sort);
 }

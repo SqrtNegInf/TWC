@@ -4,12 +4,12 @@
  
 ===> 151/2/alexander-pankoff.pl <===
 $VAR1 = {
-          'value' => 13,
           'tour' => [
                       0,
                       3,
                       5
-                    ]
+                    ],
+          'value' => 13
         };
  
 ===> 151/2/athanasius.pl <===
@@ -65,11 +65,12 @@ ok 7
  
 ===> 151/2/jo-37.pl <===
 # Seeded srand with seed '1234' from import arg.
-ok 1 - skipped test # skip examples
-ok 2 - only one house
-ok 3 - two houses, first is best
-ok 4 - two houses, second is best
-1..4
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - only one house
+ok 4 - two houses, first is best
+ok 5 - two houses, second is best
+1..5
  
 ===> 151/2/lubos-kolouch.pl <===
 ok 1

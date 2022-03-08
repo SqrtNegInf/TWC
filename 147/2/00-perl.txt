@@ -50,7 +50,7 @@ found pair P[2166], P[1019]: 7042750, 1560090: sum=8602840, diff=5482660
 1560090 7042750
  
 ===> 147/2/jaldhar-h-vyas.pl <===
-2167, 1020
+1020, 2167
  
 ===> 147/2/james-smith.pl <===
 First 2 pents are:

@@ -14,7 +14,7 @@ sub validate_sedol {
     return $sum % 10 ? 0 : 1
 }
 
-use Test2::V0;
+use Test2::V0 -srand => 1234;
 plan 18;
 
 is validate_sedol('2936921'), 1,

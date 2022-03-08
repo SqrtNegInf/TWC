@@ -16,7 +16,7 @@ sub lychrel_number {
     return 1
 }
 
-use Test2::V0;
+use Test2::V0 -srand => 1234;
 plan 5;
 
 is lychrel_number(56), 0, 'Example 1';

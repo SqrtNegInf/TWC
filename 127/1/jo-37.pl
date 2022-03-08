@@ -2,7 +2,7 @@
 
 use v5.16;
 use PDL;
-use Test2::V0 '!float';
+use Test2::V0 -srand => 1234, '!float';
 use experimental qw(signatures postderef);
 
 our ($tests, $examples, $verbose, $pdl) = (1, 1);

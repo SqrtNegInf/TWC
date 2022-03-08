@@ -170,7 +170,7 @@ Number of Long Years: 36
 2099
  
 ===> 137/1/e-choroba.pl <===
-# Seeded srand with seed '20220220' from local date.
+# Seeded srand with seed '1234' from import arg.
 1..1
 ok 1 - Example
  

@@ -67,7 +67,7 @@ I	PANDIGITAL1	PANDIGITAL2	PANDIGITAL3
 1023456978
  
 ===> 134/1/jo-37.pl <===
-# Seeded srand with seed '20220227' from local date.
+# Seeded srand with seed '1234' from import arg.
 ok 1 - first five decimal pandigital numbers
 ok 2 - first binary pandigital numbers
 ok 3 - smallest five-digit ternary pandigital number

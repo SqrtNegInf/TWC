@@ -1,7 +1,7 @@
 #!/usr/bin/env perl
 
 use v5.16;
-use Test2::V0;
+use Test2::V0 -srand => 1234;
 use Math::Prime::Util 'logint';
 use Memoize;
 #use Benchmark 'cmpthese';

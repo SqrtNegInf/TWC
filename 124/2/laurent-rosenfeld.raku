@@ -6,7 +6,7 @@ sub find_smallest_diff(@in) {
     my $min_seq;
     my $count = @in.elems div 2;
     for @in.combinations: $count -> @c1 {
-        my @c2 = ($inbag (-) @c1.Bag).keys;
+        my @c2 = ($inbag (-) @c1.Bag).keys.sort;
         if abs(@c2.sum - @c1.sum) < $min_val {
             $min_val = abs(@c2.sum - @c1.sum);
             $min_seq = (@c1, " -- ", @c2);

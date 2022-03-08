@@ -110,7 +110,7 @@ Reason: the following 22 subsets sum to 1234
 1,13,233,987
  
 ===> 136/2/e-choroba.pl <===
-# Seeded srand with seed '20220225' from local date.
+# Seeded srand with seed '1234' from import arg.
 1..118
 ok 1 - Example 1
 ok 2 - Example 2

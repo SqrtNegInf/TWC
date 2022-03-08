@@ -3,7 +3,7 @@
 use v5.16;
 use Math::Prime::Util 'fromdigits';
 use Coro::Generator;
-use Test2::V0 '!hash';
+use Test2::V0 -srand => 1234, '!hash';
 no warnings 'recursion';
 use experimental qw(signatures postderef);
 

@@ -22,7 +22,7 @@ sub jort_sort {
     return 1
 }
 
-use Test2::V0;
+use Test2::V0 -srand => 1234;
 plan 2;
 
 is jort_sort(1, 2, 3, 4, 5), 1, 'Example 1';

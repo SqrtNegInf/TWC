@@ -25,5 +25,5 @@
         @anti-solution.push: $_ if ! @solution.grep( $_ );
     }
 
-    say "Sets are { @solution.join( ',' ) } and { @anti-solution.join( ',' ) }";
+    say "Sets are { @solution.sort.join( ',' ) } and { @anti-solution.sort.join( ',' ) }";
 #}

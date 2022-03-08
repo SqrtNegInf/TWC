@@ -58,7 +58,7 @@ ok 12
 1..12
  
 ===> 152/1/jo-37.pl <===
-# Seeded srand with seed '20220219' from local date.
+# Seeded srand with seed '1234' from import arg.
 ok 1 - example 1
 ok 2 - example 2
 ok 3 - square

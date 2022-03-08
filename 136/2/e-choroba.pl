@@ -43,7 +43,7 @@ sub fibonacci_sequence {
     scalar fs_dynamic(@_)
 }
 
-use Test2::V0;
+use Test2::V0 -srand => 1234;
 plan 118;
 
 is fibonacci_sequence(16), 4, 'Example 1';

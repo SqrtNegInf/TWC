@@ -26,7 +26,7 @@ The 10,001st prime number is 104,743
 104743
  
 ===> 146/1/e-choroba.pl <===
-# Seeded srand with seed '20220208' from local date.
+# Seeded srand with seed '1234' from import arg.
 1..6
 ok 1 - 1st prime = 2
 ok 2 - 2nd prime = 3

@@ -14,7 +14,7 @@ sub long_year {
     return \@long
 }
 
-use Test2::V0;
+use Test2::V0 -srand => 1234;
 plan 1;
 
 is long_year(1900, 2100),

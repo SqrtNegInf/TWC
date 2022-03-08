@@ -37,7 +37,7 @@ False
 
  
 ===> 139/1/e-choroba.pl <===
-# Seeded srand with seed '20220217' from local date.
+# Seeded srand with seed '1234' from import arg.
 1..2
 ok 1 - Example 1
 ok 2 - Example 2
@@ -48,7 +48,7 @@ ok 2
 1..2
  
 ===> 139/1/jo-37.pl <===
-# Seeded srand with seed '20220217' from local date.
+# Seeded srand with seed '1234' from import arg.
 ok 1 - example 1
 ok 2 - example 2
 ok 3 - empty lists are sorted

@@ -9,7 +9,7 @@
                .sort(-> (@a,@b) {abs( ([+] @a) - ([+] @b)) } )
                .first;
 
-    "{@res[0].join(',')} <=> {@res[1].join(',')}".say;
+    "{@res[0].sort.join(',')} <=> {@res[1].sort.join(',')}".say;
 
 
 #}

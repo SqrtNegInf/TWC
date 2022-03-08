@@ -890,7 +890,7 @@ Input:  196
 Output: 1
  
 ===> 137/2/e-choroba.pl <===
-# Seeded srand with seed '20220220' from local date.
+# Seeded srand with seed '1234' from import arg.
 1..5
 ok 1 - Example 1
 ok 2 - Example 2

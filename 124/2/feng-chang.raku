@@ -9,7 +9,7 @@ my @N = 10, -15, 20, 30, -25, 0, 5, 40, -5;
     @N.combinations($num).map({
         if abs($sum - 2 * $_.sum) == $min {
             put $_.join(' ');
-            put (@N (-) $_).keys.join(' ');
+            put (@N (-) $_).keys.sort.join(' ');
             put ' = ' x 3;
         }
     });

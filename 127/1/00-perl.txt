@@ -69,7 +69,7 @@ ok 2 - @S1 = (1, 3, 5, 7, 9) & @S2 = (0, 2, 4, 6, 8) are disjoint.
 1..2
  
 ===> 127/1/jo-37.pl <===
-# Seeded srand with seed '20220303' from local date.
+# Seeded srand with seed '1234' from import arg.
 ok 1 - example 1
 ok 2 - example 2
 ok 3 - example 1

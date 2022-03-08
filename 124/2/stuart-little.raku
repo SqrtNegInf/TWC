@@ -14,7 +14,7 @@ my ($low, $high) = @nums.&splt;
 (2*$low.elems > @*ARGS.elems && $low.grep({ $_ == 0}).elems) && do {
     $low = ($low (-) (0)).keys.Array;
 } || (2*$high.elems > @*ARGS.elems && $high.grep({ $_ == 0}).elems) && do {
-    $high = ($high (-) (0)).keys.Array;
+    $high = ($high (-) (0)).keys.sort.Array;
 }
 
 say $low;

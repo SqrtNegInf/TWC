@@ -62,7 +62,7 @@ ok 5 - alpha, starts with B
 1
  
 ===> 135/2/e-choroba.pl <===
-# Seeded srand with seed '20220226' from local date.
+# Seeded srand with seed '1234' from import arg.
 1..18
 ok 1 - Example 1
 ok 2 - Example 2
