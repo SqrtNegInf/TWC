@@ -59,13 +59,13 @@ Merged rows:
 
  
 ===> 132/2/mohammad-anwar.pl <===
-20, Alex, Stewart
 20, Alex, Jones
+20, Alex, Stewart
 28, Joe, Blog
 28, Joe, Root
 38, Mike, Gatting
-18, Alex, Stewart
 18, Alex, Jones
+18, Alex, Stewart
 18, Simon, Duane
  
 ===> 132/2/olivier-delouya.pl <===

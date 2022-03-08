@@ -1,5 +1,6 @@
 #!/usr/bin/env perl
 
+die 'not ok - disabled: output not stable';
 use 5.020;
 use warnings;
 

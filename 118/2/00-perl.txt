@@ -16,10 +16,6 @@ a8 c7 e6 c5 b3 c1 a2 c3 b1 a3 c4 b2
 quest complete!
 
 the knight's quest took 17 steps
-quest path: 
-	a8 - c7 - e6 - d4 - c6 - e5 - c4 - d2 - b3 - d2 - c4 - b2 - d1 - c3 - b1 - c3 - a2
-loot piles found: 
-	e6 - c4 - b3 - b2 - b1 - a2
  
 ===> 118/2/jaldhar-h-vyas.pl <===
 a8 c7 e6 d4 b3 c1 a2 c3 b1 a3 c4 b2
@@ -105,24 +101,8 @@ ok 1 - lined up
 1..1
  
 ===> 118/2/pete-houston.pl <===
-Starting at a8
-Moved to b6
-Moved to c4 and snaffled treasure
-Moved to b2 and snaffled treasure
-Moved to d1
-Moved to c3
-Moved to b1 and snaffled treasure
-Moved to c3
-Moved to a2 and snaffled treasure
-Moved to c1
-Moved to b3 and snaffled treasure
-Moved to c5
-Moved to e6 and snaffled treasure
-
-Made 12 moves visiting 12 squares.
  
 ===> 118/2/polettix.pl <===
-a8.N c7 e6.x c5 b3.x c1 a2.x c3 b1.x a3 c4.x b2.x
 11 moves
  
 ===> 118/2/roger-bell-west.pl <===

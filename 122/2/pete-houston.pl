@@ -20,13 +20,14 @@ use warnings;
 use Algorithm::Knapsack;
 use List::Util 'sum';
 use Math::Combinatorics;
+use feature 'say';
 
 my $n = 4;
 
 my @aoa = combos ($n, 0);
 @aoa = permos (@aoa);
 for my $set (@aoa) {
-	print "@$set\n";
+	say join ' ', sort { $a cmp $b } @$set;
 }
 
 sub combos {

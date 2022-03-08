@@ -1,5 +1,7 @@
 #!/usr/bin/env perl
 
+die 'not ok - disabled: output not stable';
+
 # Challenge 124
 #
 # TASK #2 > Tug of War

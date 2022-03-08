@@ -18,7 +18,7 @@ for my $i (1 .. 100 ) {
   }
 }
 if ( keys %triples ) {
-  map { say '(' . $_ . ')' } keys %triples ;
+  map { say '(' . $_ . ')' } sort keys %triples ;
 }
 else {
   say -1 ;

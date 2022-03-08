@@ -47,7 +47,7 @@ sub hash_join {
     foreach my $player (@$table_1) {
         my $key = $player->[$key_1];
         my $age = $player->[0];
-        foreach my $n (keys %$names) {
+        foreach my $n (sort keys %$names) {
             if ($names->{$n} eq $key) {
                 print "$age, $n\n";
             }

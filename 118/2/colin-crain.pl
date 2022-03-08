@@ -142,8 +142,8 @@ sub search_for_treasure () {
     
     say "quest complete!\n";
     say "the knight's quest took ", scalar $quest->@*, " steps";
-    say "quest path: \n\t", join ' - ', $quest->@*;
-    say "loot piles found: \n\t", join ' - ', $loot->@*;
+    #say "quest path: \n\t", join ' - ', $quest->@*;
+    #say "loot piles found: \n\t", join ' - ', $loot->@*;
 }
 
 ####

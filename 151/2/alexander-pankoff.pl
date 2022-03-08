@@ -29,7 +29,7 @@ no warnings qw'experimental::signatures';
 
 use List::Util qw(all reduce sum0);
 
-use Data::Dumper;
+#use Data::Dumper;
 
 run() unless caller();
 
@@ -65,7 +65,9 @@ sub rob_house (@valuables) {
 
     }, { value => 0, tour => [] }, @tours;
 
-    print Dumper $best_tour;
+    #print Dumper $best_tour;
+    say $$best_tour{value};
+    say "@{$$best_tour{tour}}\n";
 }
 
 sub plan_tour ( $max, $cur = 0 ) {

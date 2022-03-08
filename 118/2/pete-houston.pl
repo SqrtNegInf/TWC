@@ -1,4 +1,6 @@
 #!/usr/bin/env perl
+
+die 'not ok - disabled: output not stable';
 #===============================================================================
 #
 #         FILE: 11802.pl

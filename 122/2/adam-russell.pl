@@ -17,7 +17,7 @@ sub basketball_points{
     $points{"3"} = "3";   
     while((keys %points) > 0){
         my %updated_points = ();
-        for my $points (keys %points){
+        for my $points (sort keys %points){
             my @points = split(/,/, $points); 
             for my $point (1 .. 3){
                 my $point_sum = unpack("%32I*", pack("I*",  (@points, $point))); 
@@ -27,7 +27,7 @@ sub basketball_points{
         }
         %points = %updated_points;    
     }  
-    return @valid_points; 
+    return @valid_points;
 }
 
 

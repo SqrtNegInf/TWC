@@ -5,6 +5,7 @@ use warnings FATAL => qw(all);
 use Math::Combinatorics;
 use Algorithm::Combinatorics qw (subsets);
 use List::MoreUtils qw(first_index);
+use feature 'say';
 
 use Time::HiRes qw(time);
 
@@ -82,7 +83,7 @@ sub multiset_permutations
 
      my %freq;
      $freq{$_}++ for @arr;
-     print "@arr$/" and return 
+     say join " ", sort { $a cmp $b } @arr and return 
           if ( exists $freq{1} and $freq{1} == scalar @arr);
      my $o = Math::Combinatorics->new( 
                     count=> scalar @arr , 
@@ -97,7 +98,7 @@ sub multiset_permutations
                     frequency=>[map{1} @x] );
           while ( my @y = $p->next_string )
           {
-               print "@y$/";
+               say join " ", sort { $a cmp $b } @y and return 
 
           }
      }

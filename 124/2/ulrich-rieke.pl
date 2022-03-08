@@ -28,7 +28,7 @@ my %numbers ;#stores all numbers entered in a hash to allow for complement findi
 map { $numbers{$_}++ } @array ;
 my @minimumPartitions ;#for the subsets with the smallest difference of sums
 #found so far
-my @set = keys %numbers ;
+my @set = sort keys %numbers ;
 my $len = scalar @set ;
 my $limit = int( $len / 2 ) ;#length of one subset
 my $difference = 100000 ;#high starting value to enforce new assignment

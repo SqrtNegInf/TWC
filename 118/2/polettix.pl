@@ -91,7 +91,7 @@ sub print_solution ($solution) {
          @section;
       } $solution->{sections}->@*,
    );
-   say join ' ', @stops;
+   #say join ' ', @stops;
    say scalar(@stops) - 1, ' moves';
 }
 
