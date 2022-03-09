@@ -1,0 +1,93 @@
+ 
+===> 154/1/abigail.pl <===
+LERP
+ 
+===> 154/1/adam-russell.pl <===
+LERP
+ 
+===> 154/1/arne-sommer.pl <===
+LERP
+ 
+===> 154/1/athanasius.pl <===
+Input:  23 possible permutations of the string PERL
+        All of these are valid
+Output: There is 1 missing permutation: LERP
+ 
+===> 154/1/bruce-gray.pl <===
+LERP
+ 
+===> 154/1/cheok-yin-fung.pl <===
+1..5
+ok 1
+ok 2
+ok 3
+ok 4
+ok 5
+ 
+===> 154/1/colin-crain.pl <===
+LERP
+ 
+===> 154/1/dave-jacoby.pl <===
+LERP
+ 
+===> 154/1/e-choroba.pl <===
+LERP
+ 
+===> 154/1/jaldhar-h-vyas.pl <===
+LERP
+ 
+===> 154/1/james-smith.pl <===
+
+Solution - with no assumptions about uniqueness/# missing:
+
+  * LERP
+
+Solution - assuming uniqueness and one missing!
+
+  * LERP
+
+ 
+===> 154/1/jo-37.pl <===
+# Seeded srand with seed '1234' from import arg.
+ok 1 - task 1
+ok 2 - 6!
+ok 3 - non-unique letters
+1..3
+ 
+===> 154/1/laurent-rosenfeld.pl <===
+LERP is missing
+ 
+===> 154/1/lubos-kolouch.pl <===
+ok 1
+1..1
+ 
+===> 154/1/mattneleigh.pl <===
+
+Given permutations: ELPR, ELRP, EPLR, EPRL, ERLP, ERPL, LEPR, LPER, LPRE, LREP, LRPE, PELR, PERL, PLER, PLRE, PREL, PRLE, RELP, REPL, RLEP, RLPE, RPEL, RPLE
+Permutations not found in the list: LERP
+
+ 
+===> 154/1/perlboy1967.pl <===
+Missing permutation(s): (LERP)
+ 
+===> 154/1/peter-campbell-smith.pl <===
+LERP
+ 
+===> 154/1/pokgopun.pl <===
+LERP
+ 
+===> 154/1/polettix.pl <===
+LERP
+ 
+===> 154/1/robert-dicicco.pl <===
+LERP Not Found in given list
+ 
+===> 154/1/roger-bell-west.pl <===
+1..1
+ok 1 - example 1
+ 
+===> 154/1/ulrich-rieke.pl <===
+LERP
+ 
+===> 154/1/wlmb.pl <===
+Missing permutations: LERP

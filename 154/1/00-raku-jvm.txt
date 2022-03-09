@@ -1,0 +1,42 @@
+ 
+===> 154/1/0rir.raku <===
+Missing:  LERP
+ 
+===> 154/1/arne-sommer.raku <===
+LERP
+ 
+===> 154/1/athanasius.raku <===
+Input:  23 possible permutations of the string PERL
+        All of these are valid
+Output: There is 1 missing permutation: LERP
+ 
+===> 154/1/bruce-gray.raku <===
+LERP
+ 
+===> 154/1/colin-crain.raku <===
+LERP
+ 
+===> 154/1/jaldhar-h-vyas.raku <===
+LERP
+ 
+===> 154/1/laurent-rosenfeld.raku <===
+Missing: LERP
+ 
+===> 154/1/luca-ferrari.raku <===
+LERP
+ 
+===> 154/1/mark-anderson.raku <===
+ok 1 - 
+ 
+===> 154/1/mark-senn.raku <===
+LERP
+ 
+===> 154/1/robert-dicicco.raku <===
+LERP Not Found in supplied list
+ 
+===> 154/1/roger-bell-west.raku <===
+1..1
+ok 1 - example 1
+ 
+===> 154/1/ulrich-rieke.raku <===
+Set(LERP)
