@@ -1,4 +1,4 @@
-Challenge titles and Rosetta-code correspondences
+Challenge titles and Rosetta-code correspondences (exact, and otherwise)
 
 110-1
 110-2
@@ -6,23 +6,23 @@ Challenge titles and Rosetta-code correspondences
 111-2
 112-1
 112-2
-113-1
-113-2
-114-1
-114-2
-115-1
-115-2
-116-1
-116-2
-117-1
-117-2
-118-1
-118-2
+113-1 Represent integer
+113-2 Recreate binary tree
+114-1 Next palindrome
+114-2 Higher Integer Set Bits
+115-1 String Loop
+115-2 Largest multiple of 2
+116-1 Intra-number sequential               L/Largest_int_from_concatenated_ints
+116-2 Sum of squares of digits is square
+117-1 Missing row
+117-2 Triangle paths
+118-1 Binary palindrome                     N/Numbers_in_base_10_that_are_palindromic_in_bases_2,_4,_and_16
+118-2 Adventure of knight                   K/Knight%27s_tour
 119-1 Swap nibbles
 119-2 No 1-on-1, but 2/3
 
 120-1 Swap even/odd bits
-120-2 Clock angle
+120-2 Clock angle                           A/Angle_difference_between_two_bearings
 121-1 Invert bit
 121-2 Traveling salesman
 122-1 Average of stream                     A/Averages_Simple_moving_average
@@ -94,8 +94,8 @@ Challenge titles and Rosetta-code correspondences
 153-2 Factorions                            F/Factorions
 154-1 Missing permutation                   F/Find_the_missing_permutation
 154-2 Padovan prime                         P/Padovan_n-step_number_sequences P/Padovan_sequence
-155-1
-155-2
+155-1 Fortunate numbers                     F/Fortunate_numbers
+155-2 Pisano period                         P/Pisano_period
 156-1
 156-2
 157-1

@@ -1,3 +1,9 @@
+2022-03-08
+Now including Perl in the 're-run' testing, fair bit of clean-up required for that.
+
+2022-03-07
+Rather anti-social for a solution to use a module that pulls in Moose, and huge # of supporting tools (114/1/christian-jaeger.pl)
+
 2022-03-03
 Some cleanup today: PWC-rerun, as intended, helping find task output that varies.
 To fix: '.rakumod' files (in particular Arne Sommer's) get sync'd as 'raku.pl'
