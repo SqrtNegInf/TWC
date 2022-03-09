@@ -1,0 +1,48 @@
+ 
+===> 117/1/aaronreidsmith.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ 
+===> 117/1/arne-sommer.raku <===
+Missing row: 12
+ 
+===> 117/1/athanasius.raku <===
+Input:  example.txt
+Output: 12
+ 
+===> 117/1/colin-crain.raku <===
+1 line is missing:
+line 12
+ 
+===> 117/1/feng-chang.raku <===
+the missing number: 12
+ 
+===> 117/1/jaldhar-h-vyas.raku <===
+12
+ 
+===> 117/1/laurent-rosenfeld.raku <===
+Missing number = 12
+ 
+===> 117/1/luc65r.raku <===
+12
+ 
+===> 117/1/luca-ferrari.raku <===
+Missing line 12 !
+ 
+===> 117/1/mark-anderson.raku <===
+12, Line Twelve
+ 
+===> 117/1/polettix.raku <===
+12
+ 
+===> 117/1/roger-bell-west.raku <===
+1..1
+ok 1 - example 1
+ 
+===> 117/1/stuart-little.raku <===
+12
+ 
+===> 117/1/wambash.raku <===
+ok 1 - 
+1..1
