@@ -7,6 +7,8 @@ sub MAIN ( Int $ch,
            Int $task         where { $task == 1|2 },
            Str $lang is copy where { $lang eq 'raku'|'moar'|'jvm'|'perl' } ) {
 
+  exit if 142 == $ch and 2 == $task; # not testable
+
   my $ext = $lang eq 'raku'|'moar'|'jvm' ?? 'raku' !! 'pl';
 
   if $lang eq 'raku'|'moar'|'jvm' {
@@ -38,7 +40,7 @@ sub MAIN ( Int $ch,
         find $ch/$task -name '*$ext' -exec echo ' ' \\; -exec echo "===> \{\} <===" \\; -execdir perl \{\} \\; > $prefix.txt 2> $prefix.err
         PERL
 
-    .IO.unlink if .IO.e and ! .IO.s for "{$prefix}.err", "{$prefix}.err";
+    .IO.unlink if .IO.e and ! .IO.s for "{$prefix}.err"; #, "{$prefix}.err";
 
   }
 
