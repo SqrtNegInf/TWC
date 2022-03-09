@@ -1,14 +1,14 @@
 #!/usr/bin/env perl
 
 use v5.16;
-use Test2::V0;
+use Test2::V0 -srand => 1234;
 use Math::Prime::Util 'divisors';
 use experimental 'signatures';
 
 our ($tests, $examples, $base);
 $base //= 10;
 
-run_tests() if $tests || $examples;	# does not return
+run_tests();
 
 die <<EOS unless @ARGV >= 0;
 usage: $0 [-examples] [-tests] [-base=B] [M N]
