@@ -1,0 +1,141 @@
+ 
+===> 116/1/abigail.pl <===
+9,10,11
+1,2,3,4
+58763
+ 
+===> 116/1/arne-sommer.pl <===
+9,10,11
+ 
+===> 116/1/athanasius.pl <===
+Input:  $N = 91011
+Output: 9,10,11
+ 
+===> 116/1/bob-lied.pl <===
+ok 1 - seqUpToLen 1 2
+ok 2 - seqUpToLen 1 4
+ok 3 - seqUpToLen 11 5
+1
+p=1 seq=(1 2 3 4) 1234
+ok 4 - N=1234
+9
+p=9 seq=(9 10 11) 91011
+ok 5 - N=91011
+1
+p=1 seq=(1 2 3 4 5) 12345
+10
+p=10 seq=(10 11 12) 101112
+ok 6 - N=10203
+1..6
+ 
+===> 116/1/cheok-yin-fung.pl <===
+9,10,11
+ 
+===> 116/1/colin-crain.pl <===
+9,10,11
+ 
+===> 116/1/dave-jacoby.pl <===
+1,2,3,4
+9,10,11
+10203
+ 
+===> 116/1/duncan-c-white.pl <===
+9,10,11
+ 
+===> 116/1/e-choroba.pl <===
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ok 4 - Longer
+ok 5 - Leading zero
+1..5
+ 
+===> 116/1/jaldhar-h-vyas.pl <===
+9,10,11
+ 
+===> 116/1/james-smith.pl <===
+ok 1
+ok 2
+ok 3
+ok 4
+ok 5
+ok 6
+ok 7
+ok 8
+ok 9
+ok 10
+ok 11
+ok 12
+ok 13
+ok 14
+ok 15
+ok 16
+1..16
+ 
+===> 116/1/jo-37.pl <===
+# Seeded srand with seed '1234' from import arg.
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ok 4 - split around 100
+ok 5 - split around 10000
+ok 6 - missing last digit
+ok 7 - out of sequence
+ok 8 - step too high
+ok 9 - would falsely work on strings
+ok 10 - 199 digits in 2 parts
+ok 11 - 199 digits in 101 parts
+1..11
+ 
+===> 116/1/laurent-rosenfeld.pl <===
+1, 2, 3, 4
+9, 10, 11
+10203
+ 
+===> 116/1/paulo-custodio.pl <===
+9,10,11
+ 
+===> 116/1/perlboy1967.pl <===
+ok 1
+ok 2
+ok 3
+ok 4
+ok 5
+ok 6
+1..6
+ 
+===> 116/1/pete-houston.pl <===
+9,10,11
+ 
+===> 116/1/polettix.pl <===
+1,2,3,4
+9,10,11
+10203
+ 
+===> 116/1/roger-bell-west.pl <===
+1..5
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ok 4 - example 4
+ok 5 - example 5
+ 
+===> 116/1/sgreen.pl <===
+9,10,11
+ 
+===> 116/1/stuart-little.pl <===
+9 10 11
+ 
+===> 116/1/ulrich-rieke.pl <===
+9,10,11
+ 
+===> 116/1/wanderdoc.pl <===
+1,2,3,4,5
+9,10,11
+10203
+100,101,102
+9899100102
+ 
+===> 116/1/wlmb.pl <===
+Input: 91011
+Output: 9,10,11

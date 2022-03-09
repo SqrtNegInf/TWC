@@ -1,0 +1,8 @@
+#!/usr/bin/env raku
+
+sub MAIN( Int $N where { $N >= 10 } = 34 ) {
+    
+    my $sum = $N.split( '' ).map( { $_ * $_ } ).sum;
+    say 1 and exit if $sum.sqrt == $sum.sqrt.Int;
+    say 0;
+}
