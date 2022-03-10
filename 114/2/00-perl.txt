@@ -1,0 +1,156 @@
+ 
+===> 114/2/abigail.pl <===
+5
+17
+ 
+===> 114/2/adam-russell.pl <===
+5
+17
+ 
+===> 114/2/arne-sommer.pl <===
+17
+ 
+===> 114/2/athanasius.pl <===
+Input: $N = 12 (2 one-bits:  1100)
+Output:     17 (2 one-bits: 10001)
+ 
+===> 114/2/cheok-yin-fung.pl <===
+2097152
+ 
+===> 114/2/colin-crain.pl <===
+1         2
+2         4
+3         5
+4         8
+5         6
+6         9
+7         11
+8         16
+9         10
+10        12
+11        13
+12        17
+13        14
+14        19
+15        23
+16        32
+17        18
+18        20
+19        21
+20        24
+21        22
+22        25
+23        27
+24        33
+25        26
+26        28
+27        29
+28        35
+29        30
+30        39
+31        47
+32        64
+ 
+===> 114/2/dave-cross.pl <===
+17
+ 
+===> 114/2/dave-jacoby.pl <===
+    Input:  12
+    Output: 17
+
+    Input:  3
+    Output: 5
+
+ 
+===> 114/2/dms061.pl <===
+17
+ 
+===> 114/2/duncan-c-white.pl <===
+Input: $N = 12
+Output: 17
+
+Binary representation of 12 is 1100. There are 2 1 bits. So the next
+higher integer is 17 having the same number of 1 bits, i.e. 10001
+ 
+===> 114/2/e-choroba.pl <===
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - 2^14 + 2^15
+1..3
+ 
+===> 114/2/jaldhar-h-vyas.pl <===
+17
+ 
+===> 114/2/jo-37.pl <===
+# Seeded srand with seed '1234' from import arg.
+ok 1 - example 1
+ok 2 - example 2
+ok 3
+ok 4
+ok 5
+ok 6
+ok 7
+ok 8
+ok 9
+ok 10
+ok 11
+ok 12
+ok 13
+ok 14
+ok 15
+ok 16
+ok 17
+ok 18
+ok 19
+ok 20
+1..20
+ 
+===> 114/2/laurent-rosenfeld.pl <===
+17
+ 
+===> 114/2/mohammad-anwar.pl <===
+17 => 10001
+ 
+===> 114/2/paulo-custodio.pl <===
+17
+ 
+===> 114/2/perlboy1967.pl <===
+ok 1
+ok 2
+ok 3
+ok 4
+1..4
+ 
+===> 114/2/pete-houston.pl <===
+1..9
+ok 1 - 1 becomes 2
+ok 2 - 2 becomes 4
+ok 3 - 3 becomes 5
+ok 4 - 4 becomes 8
+ok 5 - 5 becomes 6
+ok 6 - 6 becomes 9
+ok 7 - 7 becomes 11
+ok 8 - 8 becomes 16
+ok 9 - 12 becomes 17
+ 
+===> 114/2/polettix.pl <===
+17
+ 
+===> 114/2/roger-bell-west.pl <===
+1..2
+ok 1 - example 1
+ok 2 - example 2
+ 
+===> 114/2/sgreen.pl <===
+17
+ 
+===> 114/2/stuart-little.pl <===
+Initial number in base two: 01100
+Next number in base two: 10001
+Next number in base ten: 17
+ 
+===> 114/2/ulrich-rieke.pl <===
+17
+ 
+===> 114/2/wlmb.pl <===
+12 (01100)=>17 (10001)
