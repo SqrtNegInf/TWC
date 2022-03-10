@@ -67,7 +67,7 @@ sub find_ways
 
 
 
-     for my $w ( keys %ways )
+     for my $w ( sort keys %ways )
      {
           my $next_x = $x + $ways{$w}->[0];
           my $next_y = $y + $ways{$w}->[1];
@@ -90,4 +90,4 @@ sub find_ways
 }
 
 find_ways([@triangle], 0, 0, []);
-print "@$_\n" for sort { $a cmp$b } @SOLS;
+print "@$_\n" for sort { $a cmp $b } @SOLS;
