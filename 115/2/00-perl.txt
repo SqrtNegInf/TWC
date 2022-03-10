@@ -1,0 +1,148 @@
+ 
+===> 115/2/abigail.pl <===
+7614
+6210
+ 
+===> 115/2/adam-russell.pl <===
+6210
+8412
+7614
+ 
+===> 115/2/arne-sommer.pl <===
+7614
+ 
+===> 115/2/athanasius.pl <===
+Input:  @N = (4, 1, 7, 6)
+Output: 7614
+ 
+===> 115/2/brtastic.pl <===
+ok 1
+ok 2
+ok 3
+ok 4
+1..4
+ 
+===> 115/2/cheok-yin-fung.pl <===
+8765410
+ 
+===> 115/2/colin-crain.pl <===
+7614
+ok 1 - ex-1
+ok 2 - ex-2
+ok 3 - ex-3
+ok 4 - no multiple
+ok 5 - work for it
+1..5
+ 
+===> 115/2/dave-cross.pl <===
+7614
+ 
+===> 115/2/dave-jacoby.pl <===
+    INPUT:  (1, 0, 2, 6)
+    OUTPUT: 6210
+
+    INPUT:  (1, 4, 2, 8)
+    OUTPUT: 8412
+
+    INPUT:  (4, 1, 7, 6)
+    OUTPUT: 7614
+
+ 
+===> 115/2/duncan-c-white.pl <===
+7614
+ 
+===> 115/2/e-choroba.pl <===
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ok 4 - All digits
+ok 5 - Zero
+ok 6 - Zeros
+ok 7 - Warns
+ok 8 - Exception
+ok 9 - no (unexpected) warnings (via done_testing)
+1..9
+ 
+===> 115/2/jaldhar-h-vyas.pl <===
+7614
+ 
+===> 115/2/james-smith.pl <===
+ok 1
+ok 2
+ok 3
+ok 4
+ok 5
+ok 6
+ok 7
+ok 8
+ok 9
+ok 10
+ok 11
+ok 12
+ok 13
+ok 14
+ok 15
+ok 16
+ok 17
+ok 18
+ok 19
+ok 20
+ok 21
+1..21
+ 
+===> 115/2/jo-37.pl <===
+# Seeded srand with seed '1234' from import arg.
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ok 4 - no even digit
+ok 5 - multiple zeros only
+ok 6 - single zero
+1..6
+ 
+===> 115/2/laurent-rosenfeld.pl <===
+1026: Solution: 6210
+1326: Solution: 6312
+1357: No solution
+1428: Solution: 8412
+ 
+===> 115/2/paulo-custodio.pl <===
+7614
+ 
+===> 115/2/perlboy1967.pl <===
+ok 1
+ok 2
+ok 3
+ok 4
+ok 5
+1..5
+ 
+===> 115/2/pete-houston.pl <===
+7614
+ 
+===> 115/2/polettix.pl <===
+6210
+ 
+===> 115/2/roger-bell-west.pl <===
+1..4
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ok 4 - example 4
+ 
+===> 115/2/sgreen.pl <===
+7614
+ 
+===> 115/2/stuart-little.pl <===
+7614
+ 
+===> 115/2/ulrich-rieke.pl <===
+7614
+ 
+===> 115/2/wlmb.pl <===
+Input: 4176
+Output: 7614
+Input: 1026
+Output: 6210
+Input: 1357
+No even number may be constructed from input

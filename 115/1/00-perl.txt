@@ -1,0 +1,146 @@
+ 
+===> 115/1/abigail.pl <===
+1
+0
+1
+1
+0
+ 
+===> 115/1/adam-russell.pl <===
+1
++-----+     +-----+     +----+
+| dea | ==> | abc | ==> | cd |
++-----+     +-----+     +----+
+ 
+===> 115/1/arne-sommer.pl <===
+1
+ 
+===> 115/1/brtastic.pl <===
+ok 1
+ok 2
+ok 3
+ok 4
+ok 5
+1..5
+ 
+===> 115/1/cheok-yin-fung.pl <===
+1
+ 
+===> 115/1/colin-crain.pl <===
+ok 1 - ex-1
+ok 2 - ex-2
+ok 3 - short loop
+ok 4 - multi first
+ok 5 - repeats
+1..5
+ 
+===> 115/1/dave-cross.pl <===
+1
+ 
+===> 115/1/dave-jacoby.pl <===
+abc | dea | cd
+We can form a circle
+ 
+ade | cbd | fgh
+We cannot for a circle
+ 
+ 
+===> 115/1/duncan-c-white.pl <===
+1
+ 
+===> 115/1/e-choroba.pl <===
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Two circles
+ok 4 - Smaller circle
+ok 5 - Branches
+ok 6 - Repeated
+ok 7 - Many circles
+ok 8 - Many connectable circles
+ok 9 - Example 1
+ok 10 - Example 2
+ok 11 - Two circles
+ok 12 - Smaller circle
+ok 13 - Branches
+ok 14 - Repeated
+ok 15 - Many circles
+ok 16 - Many connectable circles
+1..16
+ 
+===> 115/1/jaldhar-h-vyas.pl <===
+1
+ 
+===> 115/1/james-smith.pl <===
+ok 1
+ok 2
+ok 3
+ok 4
+ok 5
+ok 6
+ok 7
+ok 8
+ok 9
+ok 10
+ok 11
+ok 12
+ok 13
+ok 14
+ok 15
+ok 16
+ok 17
+ok 18
+ok 19
+ok 20
+ok 21
+ok 22
+ok 23
+ok 24
+1..24
+ 
+===> 115/1/jo-37.pl <===
+# Seeded srand with seed '1234' from import arg.
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - has two cycles
+ok 4 - remaining string
+ok 5 - not connected
+ok 6 - weakly connected, nonzero degree
+ok 7 - disconnected self loop
+ok 8 - the whole works: multi-edged, loops, single char, zero vertex
+1..8
+ 
+===> 115/1/paulo-custodio.pl <===
+1
+ 
+===> 115/1/perlboy1967.pl <===
+ok 1
+ok 2
+ok 3
+ok 4
+ok 5
+ok 6
+1..6
+ 
+===> 115/1/polettix.pl <===
+1
+ 
+===> 115/1/roger-bell-west.pl <===
+1..5
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ok 4 - example 4
+ok 5 - example 5
+ 
+===> 115/1/sgreen.pl <===
+1
+ 
+===> 115/1/stuart-little.pl <===
+1
+ 
+===> 115/1/ulrich-rieke.pl <===
+1
+ 
+===> 115/1/wlmb.pl <===
+Input: abc dea cd
+Output: 1

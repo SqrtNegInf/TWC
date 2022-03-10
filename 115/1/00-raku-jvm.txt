@@ -1,0 +1,60 @@
+ 
+===> 115/1/aaronreidsmith.raku <===
+ok 1 - 
+ok 2 - 
+ 
+===> 115/1/arne-sommer.raku <===
+: perm: abc, dea, cd
+: perm: abc, cd, dea
+1
+ 
+===> 115/1/colin-crain.raku <===
+1..5
+ok 1 - ex-1
+ok 2 - ex-2
+ok 3 - short loop
+ok 4 - multi first
+ok 5 - repeats
+ 
+===> 115/1/feng-chang.raku <===
+1
+ 
+===> 115/1/jaldhar-h-vyas.raku <===
+1
+ 
+===> 115/1/laurent-rosenfeld.raku <===
+(abc cd dea)
+1
+ 
+===> 115/1/luca-ferrari.raku <===
+1
+ 
+===> 115/1/mimosinnet.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ok 4 - 
+ok 5 - 
+1..5
+ 
+===> 115/1/polettix.raku <===
+1
+ 
+===> 115/1/roger-bell-west.raku <===
+1..5
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ok 4 - example 4
+ok 5 - example 5
+ 
+===> 115/1/ulrich-rieke.raku <===
+1
+ 
+===> 115/1/wambash.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ok 4 - 
+ok 5 - 
+1..5
