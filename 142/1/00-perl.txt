@@ -50,7 +50,10 @@ ok 5
 1..5
  
 ===> 142/1/jo-37.pl <===
-2
+# Seeded srand with seed '1234' from import arg.
+ok 1 - skipped test # skip examples
+ok 2 - skipped test # skip tests
+1..2
  
 ===> 142/1/laurent-rosenfeld.pl <===
 24 34 -> 2

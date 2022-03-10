@@ -52,7 +52,7 @@ Please enter the name of the file in the command line.
 1..0
  
 ===> 117/1/jo-37.pl <===
-# Seeded srand with seed '20220307' from local date.
+# Seeded srand with seed '1234' from import arg.
 ok 1 - example
 ok 2 - missing first row
 ok 3 - missing last row

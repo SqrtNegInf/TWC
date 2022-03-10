@@ -228,28 +228,28 @@ LLLHHH
 RRR,RRLH,RLRH,RLLHH,RLHR,RLHLH,LRRH,LRLHH,LRHR,LRHLH,LLRHH,LLLHHH,LLHRH,LLHLHH,LLHHR,LLHHLH,LHRR,LHRLH,LHLRH,LHLLHH,LHLHR,LHLHLH
  
 ===> 117/2/wanderdoc.pl <===
-L-L-L-H-H-H
-L-L-H-L-H-H
-L-L-H-H-L-H
-L-L-H-H-R
-L-L-H-R-H
-L-L-R-H-H
-L-H-L-L-H-H
-L-H-L-H-L-H
-L-H-L-H-R
-L-H-L-R-H
-L-H-R-L-H
-L-H-R-R
-L-R-L-H-H
-L-R-H-L-H
-L-R-H-R
-L-R-R-H
-R-L-L-H-H
-R-L-H-L-H
-R-L-H-R
-R-L-R-H
-R-R-L-H
-R-R-R
+R R L H
+R L H L H
+R L H R
+R L L H H
+R L R H
+L H L H L H
+L H L H R
+L H L L H H
+L H L R H
+L H R R
+L R H L H
+L H R L H
+L R H R
+L L H H L H
+L L H L H H
+L R L H H
+L L L H H H
+L L H R H
+L L R H H
+L R R H
+L L H H R
+R R R
  
 ===> 117/2/wlmb.pl <===
 

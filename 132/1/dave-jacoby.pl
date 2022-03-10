@@ -39,7 +39,12 @@ sub mirror_dates ( $date_str ) {
     # any particular time zone. In addition, floating datetimes do not 
     # include leap seconds, since we cannot apply them without knowing the 
     # datetime's time zone.
-    my $now = DateTime->now()->set_time_zone('floating');
+    my $now  = DateTime->new(
+        year      => '2021',
+        month     => '09',
+        day       => '22',
+        time_zone => 'floating'
+    );
 
     my ( $y, $m, $d ) = split m{/}, $date_str;
     my $then = DateTime->new(

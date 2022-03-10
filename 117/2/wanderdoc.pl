@@ -49,7 +49,7 @@ for my $i ( 0 .. $N )
 $counter--; # !
 my %ways = (R => [1, 1], L => [1, 0], H =>[0, 1]);
 
-# my @SOLS; # A way to save output (not recommended by size over 10).
+my @SOLS; # A way to save output (not recommended by size over 10).
 
 
 sub find_ways
@@ -61,7 +61,8 @@ sub find_ways
      {
           my $s = [@$solution];
 
-          print join('-', @$s), $/; # push @SOLS, $s;
+          #print join('-', @$s), $/; 
+          push @SOLS, $s;
      }
 
 
@@ -89,3 +90,4 @@ sub find_ways
 }
 
 find_ways([@triangle], 0, 0, []);
+print "@$_\n" for sort { $a cmp$b } @SOLS;
