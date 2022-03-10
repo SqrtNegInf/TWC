@@ -1,6 +1,9 @@
 #!/usr/bin/env raku
 
+
 unit sub MAIN;
+
+die 'not ok - disabled: too slow' if $*VM ~~ /jvm/;
 
 for 2 .. Inf -> $a
 {

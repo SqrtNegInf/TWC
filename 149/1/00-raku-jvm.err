@@ -1,4 +1,4 @@
-not ok - disabled
+not ok - disabled: JVM does nothing, slowly. At least it used to crash promptly...
   in sub MAIN at laurent-rosenfeld.raku line 5
   in block <unit> at laurent-rosenfeld.raku line 3
 

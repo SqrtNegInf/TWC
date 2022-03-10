@@ -1,4 +1,7 @@
 not ok - disabled: too slow
+  in block <unit> at arne-sommer.raku line 6
+
+not ok - disabled: too slow
   in block <unit> at jaldhar-h-vyas.raku line 3
 
 not ok - disabled: too slow

@@ -3,7 +3,6 @@
 P(2167)=7042750 and P(1020)=1560090
  
 ===> 147/2/arne-sommer.raku <===
-1560090 7042750
  
 ===> 147/2/athanasius.raku <===
 The first pair of Pentagon Numbers whose
