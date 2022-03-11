@@ -1,0 +1,9 @@
+not ok - disabled: synxtax error for JVM
+  in block <unit> at aaronreidsmith.raku line 3
+
+not ok - disabled: JVM cannot do Inline::Perl5
+  in block <unit> at stuart-little.raku line 3
+
+not ok - disabled: synxtax error for JVM
+  in block <unit> at wambash.raku line 3
+
