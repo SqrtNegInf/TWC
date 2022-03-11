@@ -8,6 +8,7 @@ sub MAIN ( Int $ch,
            Str $lang is copy where { $lang eq 'raku'|'moar'|'jvm'|'perl' } ) {
 
   exit if 142 == $ch and 2 == $task; # not testable
+  exit if 108 == $ch and 1 == $task; # not testable
 
   my $ext = $lang eq 'raku'|'moar'|'jvm' ?? 'raku' !! 'pl';
 

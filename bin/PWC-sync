@@ -11,6 +11,7 @@ sub MAIN( $dir, $num ) {
         while @files {
             for @files.pop.dir -> $path {
                 next if $path.f and $path  ~~ rx{ ['leaveme' | 'txt' | 'git' | 'snapshot' | 'version' | '.sh' | 'iangoodnight' ] };
+                next if $path.f and $path  ~~ rx{ '/' ['lib'|'t'] '/' };
                 next if $path.f and $path !~~ rx{ '/' ['perl'|'perl5'|'perl6'|'raku'] '/' };
                 @code.push: $path if $path.f;
                 @dirs.push: $path if $path.d and $path.r;
@@ -26,16 +27,24 @@ sub MAIN( $dir, $num ) {
         $lang = 'perl' if $lang eq 'perl5';
         my $ext = $lang eq 'raku' ?? $fn ~~ /rakumod$/ ?? 'rakumod' !! 'raku'
                                   !! $fn ~~ /pm$/ ?? 'pm' !! 'pl';
-        warn "weird: $fn" and next unless $fn ~~ /^^ ch/ or $ext ~~ /['pm'|'rakumod'] $$/;
+        #warn "weird: $fn" and
+        next unless $fn ~~ /^^ ch/ or $ext ~~ /['pm'|'rakumod'] $$/;
 
         if ($ext eq 'pm' or $ext eq 'rakumod') {
             copy $f, "./{$num}/$_/$fn" for 1, 2;
         } else {
             my $n = $fn ~~ /1/ ?? '1' !! '2';
             my $dest = "./{$num}/$n/{$author}.$ext";
-            warn "exists: $num $dir/$fn" and next if $dest.IO ~~ :e;
+            #warn "exists: $num $dir/$fn" and 
+            next if $dest.IO ~~ :e;
             copy $f, $dest;
-            shell("perl -i -npe 's%^#!.*%#!/usr/bin/env $lang%' $dest; flip -u $dest; touch -r $dir/$fn $dest");
+                #perl -i -npe 's|^(#!\\|use v6).*|#!/usr/bin/env $lang|; s|^use Test2::V0;|use Test2::V0 -srand => 1;|' $dest; 
+            shell qq:to/END/;
+                perl -i -npe 's|^#!.*|#!/usr/bin/env $lang|; s|^use Test2::V0;|use Test2::V0 -srand => 1;|' $dest; 
+                perl -i -0npe 's|^(?!#!)|#!/usr/bin/env $lang\n|' $dest; 
+                flip -u $dest;
+                touch -r $dir/$fn $dest;
+                END
             "./{$num}/$n/{$author}.$ext".IO.chmod: '0o755';
         }
     }
