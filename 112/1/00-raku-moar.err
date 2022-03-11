@@ -1,0 +1,4 @@
+Invalid path /a/../../b/
+  in block  at laurent-rosenfeld.raku line 12
+  in block <unit> at laurent-rosenfeld.raku line 4
+

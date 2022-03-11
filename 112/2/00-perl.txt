@@ -1,0 +1,243 @@
+ 
+===> 112/2/abigail.pl <===
+8
+89
+10946
+ 
+===> 112/2/adam-russell.pl <===
+k = 3
+1 step + 2 steps 
+2 steps + 1 step 
+1 step + 1 step + 1 step 
+
+k = 4
+2 steps + 2 steps 
+1 step + 1 step + 2 steps 
+1 step + 2 steps + 1 step 
+2 steps + 1 step + 1 step 
+1 step + 1 step + 1 step + 1 step 
+
+k = 5
+1 step + 2 steps + 2 steps 
+2 steps + 1 step + 2 steps 
+2 steps + 2 steps + 1 step 
+1 step + 1 step + 1 step + 2 steps 
+1 step + 1 step + 2 steps + 1 step 
+1 step + 2 steps + 1 step + 1 step 
+2 steps + 1 step + 1 step + 1 step 
+1 step + 1 step + 1 step + 1 step + 1 step 
+ 
+===> 112/2/arne-sommer.pl <===
+89
+ 
+===> 112/2/athanasius.pl <===
+Input:  $n = 10
+Output: 89
+ 
+===> 112/2/cheok-yin-fung.pl <===
+For 5 steps to climb, the number of options is 8:
+221
+212
+122
+2111
+1211
+1121
+1112
+11111
+ 
+===> 112/2/colin-crain.pl <===
+For 1 step there is 1 possible way to climb it.
+For 2 steps there are 2 possible ways to climb them.
+For 3 steps there are 3 possible ways to climb them.
+For 4 steps there are 5 possible ways to climb them.
+For 5 steps there are 8 possible ways to climb them.
+For 6 steps there are 13 possible ways to climb them.
+For 7 steps there are 21 possible ways to climb them.
+For 8 steps there are 34 possible ways to climb them.
+For 9 steps there are 55 possible ways to climb them.
+For 10 steps there are 89 possible ways to climb them.
+For 11 steps there are 144 possible ways to climb them.
+For 12 steps there are 233 possible ways to climb them.
+For 13 steps there are 377 possible ways to climb them.
+For 14 steps there are 610 possible ways to climb them.
+For 15 steps there are 987 possible ways to climb them.
+For 16 steps there are 1597 possible ways to climb them.
+For 17 steps there are 2584 possible ways to climb them.
+For 18 steps there are 4181 possible ways to climb them.
+For 19 steps there are 6765 possible ways to climb them.
+For 20 steps there are 10946 possible ways to climb them.
+For 21 steps there are 17711 possible ways to climb them.
+ 
+===> 112/2/dave-jacoby.pl <===
+--------------------
+INPUT:  3
+OUTPUT: 3
+	Option 1: 1 step + 1 step + 1 step
+	Option 2: 1 step + 2 steps
+	Option 3: 2 steps + 1 step
+--------------------
+INPUT:  4
+OUTPUT: 5
+	Option 1: 1 step + 1 step + 1 step + 1 step
+	Option 2: 1 step + 1 step + 2 steps
+	Option 3: 1 step + 2 steps + 1 step
+	Option 4: 2 steps + 1 step + 1 step
+	Option 5: 2 steps + 2 steps
+--------------------
+INPUT:  5
+OUTPUT: 8
+	Option 1: 1 step + 1 step + 1 step + 1 step + 1 step
+	Option 2: 1 step + 1 step + 1 step + 2 steps
+	Option 3: 1 step + 1 step + 2 steps + 1 step
+	Option 4: 1 step + 2 steps + 1 step + 1 step
+	Option 5: 1 step + 2 steps + 2 steps
+	Option 6: 2 steps + 1 step + 1 step + 1 step
+	Option 7: 2 steps + 1 step + 2 steps
+	Option 8: 2 steps + 2 steps + 1 step
+ 
+===> 112/2/dms061.pl <===
+Counts: 1, ways:
+[1] 
+Counts: 2, ways:
+[1 1] [2] 
+Counts: 3, ways:
+[1 2] [1 1 1] [2 1] 
+Counts: 5, ways:
+[1 1 2] [2 2] [1 2 1] [1 1 1 1] [2 1 1] 
+Counts: 8, ways:
+[1 2 2] [1 1 1 2] [2 1 2] [1 1 2 1] [2 2 1] [1 2 1 1] [1 1 1 1 1] [2 1 1 1] 
+Counts: 13, ways:
+[1 1 2 2] [2 2 2] [1 2 1 2] [1 1 1 1 2] [2 1 1 2] [1 2 2 1] [1 1 1 2 1] [2 1 2 1] [1 1 2 1 1] [2 2 1 1] [1 2 1 1 1] [1 1 1 1 1 1] [2 1 1 1 1] 
+Counts: 21, ways:
+[1 2 2 2] [1 1 1 2 2] [2 1 2 2] [1 1 2 1 2] [2 2 1 2] [1 2 1 1 2] [1 1 1 1 1 2] [2 1 1 1 2] [1 1 2 2 1] [2 2 2 1] [1 2 1 2 1] [1 1 1 1 2 1] [2 1 1 2 1] [1 2 2 1 1] [1 1 1 2 1 1] [2 1 2 1 1] [1 1 2 1 1 1] [2 2 1 1 1] [1 2 1 1 1 1] [1 1 1 1 1 1 1] [2 1 1 1 1 1] 
+Counts: 34, ways:
+[1 1 2 2 2] [2 2 2 2] [1 2 1 2 2] [1 1 1 1 2 2] [2 1 1 2 2] [1 2 2 1 2] [1 1 1 2 1 2] [2 1 2 1 2] [1 1 2 1 1 2] [2 2 1 1 2] [1 2 1 1 1 2] [1 1 1 1 1 1 2] [2 1 1 1 1 2] [1 2 2 2 1] [1 1 1 2 2 1] [2 1 2 2 1] [1 1 2 1 2 1] [2 2 1 2 1] [1 2 1 1 2 1] [1 1 1 1 1 2 1] [2 1 1 1 2 1] [1 1 2 2 1 1] [2 2 2 1 1] [1 2 1 2 1 1] [1 1 1 1 2 1 1] [2 1 1 2 1 1] [1 2 2 1 1 1] [1 1 1 2 1 1 1] [2 1 2 1 1 1] [1 1 2 1 1 1 1] [2 2 1 1 1 1] [1 2 1 1 1 1 1] [1 1 1 1 1 1 1 1] [2 1 1 1 1 1 1] 
+Counts: 55, ways ommited
+Counts: 89, ways ommited
+Counts: 144, ways ommited
+ 
+===> 112/2/e-choroba.pl <===
+ok 1
+ok 2
+ok 3
+ok 4
+ok 5
+ok 6
+ok 7
+ok 8
+ok 9
+ok 10
+ok 11
+ok 12
+1..12
+ 
+===> 112/2/james-smith.pl <===
+1
+1
+2
+3
+5
+8
+13
+21
+34
+55
+89
+ 
+===> 112/2/jo-37.pl <===
+89
+ 
+===> 112/2/laurent-rosenfeld.pl <===
+Input: $n = 3
+Output: 3
+	Option 1: 1 step  + 1 step  + 1 step 
+	Option 2: 1 step  + 2 steps
+	Option 3: 2 steps + 1 step 
+
+Input: $n = 4
+Output: 5
+	Option 1: 1 step  + 1 step  + 1 step  + 1 step 
+	Option 2: 1 step  + 1 step  + 2 steps
+	Option 3: 1 step  + 2 steps + 1 step 
+	Option 4: 2 steps + 1 step  + 1 step 
+	Option 5: 2 steps + 2 steps
+
+Input: $n = 5
+Output: 8
+	Option 1: 1 step  + 1 step  + 1 step  + 1 step  + 1 step 
+	Option 2: 1 step  + 1 step  + 1 step  + 2 steps
+	Option 3: 1 step  + 1 step  + 2 steps + 1 step 
+	Option 4: 1 step  + 2 steps + 1 step  + 1 step 
+	Option 5: 1 step  + 2 steps + 2 steps
+	Option 6: 2 steps + 1 step  + 1 step  + 1 step 
+	Option 7: 2 steps + 1 step  + 2 steps
+	Option 8: 2 steps + 2 steps + 1 step 
+
+ 
+===> 112/2/paulo-custodio.pl <===
+89
+ 
+===> 112/2/perlboy1967.pl <===
+ok 1
+ok 2
+ok 3
+1..3
+ 
+===> 112/2/polettix.pl <===
+89
+ 
+===> 112/2/roger-bell-west.pl <===
+1..3
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ 
+===> 112/2/sgreen.pl <===
+Output: 8
+
+Option 1: 1 step + 1 step + 1 step + 1 step + 1 step
+Option 2: 1 step + 1 step + 1 step + 2 steps
+Option 3: 1 step + 1 step + 2 steps + 1 step
+Option 4: 1 step + 2 steps + 1 step + 1 step
+Option 5: 1 step + 2 steps + 2 steps
+Option 6: 2 steps + 1 step + 1 step + 1 step
+Option 7: 2 steps + 1 step + 2 steps
+Option 8: 2 steps + 2 steps + 1 step
+ 
+===> 112/2/stuart-little.pl <===
+8
+----------
+1 1 1 1 1
+1 1 1 2
+1 1 2 1
+1 2 1 1
+1 2 2
+2 1 1 1
+2 1 2
+2 2 1
+ 
+===> 112/2/ulrich-rieke.pl <===
+89
+ 
+===> 112/2/wanderdoc.pl <===
+Option 1: 1 step + 2 steps + 2 steps
+Option 2: 2 steps + 1 step + 2 steps
+Option 3: 2 steps + 2 steps + 1 step
+Option 4: 1 step + 1 step + 1 step + 2 steps
+Option 5: 1 step + 1 step + 2 steps + 1 step
+Option 6: 1 step + 2 steps + 1 step + 1 step
+Option 7: 2 steps + 1 step + 1 step + 1 step
+Option 8: 1 step + 1 step + 1 step + 1 step + 1 step
+ 
+===> 112/2/wlmb.pl <===
+
+Input: 5
+Combinations:
+single,single,single,single,single
+single,single,single,double
+single,single,double,single
+single,double,single,single
+double,single,single,single
+single,double,double
+double,single,double
+double,double,single
