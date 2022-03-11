@@ -1,0 +1,108 @@
+ 
+===> 110/2/abigail.pl <===
+name,Mohammad,Joe,Julie,Cristina
+age,45,20,35,10
+sex,m,m,f,f
+ 
+===> 110/2/arne-sommer.pl <===
+name,Mohammad,Joe,Julie,Cristina
+age,45,20,35,10
+sex,m,m,f,f
+ 
+===> 110/2/athanasius.pl <===
+Input: ./example.csv
+
+  name,age,sex
+  Mohammad,45,m
+  Joe,20,m
+  Julie,35,f
+  Cristina,10,f
+
+Output:
+
+  name,Mohammad,Joe,Julie,Cristina
+  age,45,20,35,10
+  sex,m,m,f,f
+ 
+===> 110/2/cheok-yin-fung.pl <===
+name,Mohammad,Joe,Julie,Cristina
+age,45,20,35,10
+sex,m,m,f,f
+ 
+===> 110/2/colin-crain.pl <===
+name,Mohammad,Joe,Julie,Cristina
+age,45,20,35,10
+sex,m,m,f,f
+ 
+===> 110/2/dave-jacoby.pl <===
+name,Mohammad,Joe,Julie,Cristina
+age,45,20,35,10
+sex,m,m,f,f
+ 
+===> 110/2/e-choroba.pl <===
+1..1
+ok 1
+ 
+===> 110/2/jaldhar-h-vyas.pl <===
+name,Mohammad,Joe,Julie,Cristina
+age,45,20,35,10
+sex,m,m,f,f
+ 
+===> 110/2/jo-37.pl <===
+# Seeded srand with seed '1234' from import arg.
+ok 1 - example
+1..1
+ 
+===> 110/2/laurent-rosenfeld.pl <===
+name,Mohammad,Joe,Julie,Cristina
+age,45,20,35,10
+sex,m,m,f,f
+ 
+===> 110/2/mohammad-anwar.pl <===
+name,Mohammad,Joe,Julie,Cristina
+age,45,20,35,10
+sex,m,m,f,f
+ 
+===> 110/2/paulo-custodio.pl <===
+name,Mohammad,Joe,Julie,Cristina
+age,45,20,35,10
+sex,m,m,f,f
+ 
+===> 110/2/perlboy1967.pl <===
+ok 1
+1..1
+ 
+===> 110/2/polettix.pl <===
+name,Mohammad,Joe,Julie,Cristina
+age,45,20,35,10
+sex,m,m,f,f
+ 
+===> 110/2/ryan-thompson.pl <===
+name,Mohammad,Joe,Julie,Cristina
+age,45,20,35,10
+sex,m,m,f,f
+ 
+===> 110/2/sgreen.pl <===
+name,Mohammad,Joe,Julie,Cristina
+age,45,20,35,10
+sex,m,m,f,f
+ 
+===> 110/2/stuart-little.pl <===
+name,Mohammad,Joe,Julie,Cristina
+age,45,20,35,10
+sex,m,m,f,f
+ 
+===> 110/2/ulrich-rieke.pl <===
+name,Mohammad,Joe,Julie,Cristina
+age,45,20,35,10
+sex,m,m,f,f
+ 
+===> 110/2/wanderdoc.pl <===
+name,Mohammad,Joe,Julie,Cristina
+age,45,20,35,10
+sex,m,m,f,f
+ 
+===> 110/2/wlmb.pl <===
+name,Mohammad,Joe,Julie,Cristina
+age,45,20,35,10
+sex,m,m,f,f

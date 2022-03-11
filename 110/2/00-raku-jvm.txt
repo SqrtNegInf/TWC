@@ -1,0 +1,90 @@
+ 
+===> 110/2/andinus.raku <===
+name,Mohammad,Joe,Julie,Cristina
+age,45,20,35,10
+sex,m,m,f,f
+ 
+===> 110/2/arne-sommer.raku <===
+name,Mohammad,Joe,Julie,Cristina
+age,45,20,35,10
+sex,m,m,f,f
+ 
+===> 110/2/athanasius.raku <===
+Input: ./example.csv
+
+  name,age,sex
+  Mohammad,45,m
+  Joe,20,m
+  Julie,35,f
+  Cristina,10,f
+
+Output:
+
+  name,Mohammad,Joe,Julie,Cristina
+  age,45,20,35,10
+  sex,m,m,f,f
+ 
+===> 110/2/colin-crain.raku <===
+(name age sex)
+(Mohammad 45 m)
+(Joe 20 m)
+(Julie 35 f)
+(Cristina 10 f)
+
+[name Mohammad Joe Julie Cristina]
+[age 45 20 35 10]
+[sex m m f f]
+ 
+===> 110/2/feng-chang.raku <===
+name,Mohammad,Joe,Julie,Cristina
+age,45,20,35,10
+sex,m,m,f,f
+ 
+===> 110/2/jaldhar-h-vyas.raku <===
+name,Mohammad,Joe,Julie,Cristina
+age,45,20,35,10
+sex,m,m,f,f
+ 
+===> 110/2/laurent-rosenfeld.raku <===
+name,Mohammad,Joe,Julie,Cristina
+age,45,20,35,10
+sex,m,m,f,f
+ 
+===> 110/2/luca-ferrari.raku <===
+name,Mohammad,Joe,Julie,Cristina
+age,45,20,35,10
+sex,m,m,f,f
+ 
+===> 110/2/mark-anderson.raku <===
+name,Mohammad,Joe,Julie,Cristina
+age,45,20,35,10
+sex,m,m,f,f
+ 
+===> 110/2/mimosinnet.raku <===
+ok 1 - 
+1..1
+ 
+===> 110/2/roger-bell-west.raku <===
+name,Mohammad,Joe,Julie,Cristina
+age,45,20,35,10
+sex,m,m,f,f
+ 
+===> 110/2/ryan-thompson.raku <===
+name,Mohammad,Joe,Julie,Cristina
+age,45,20,35,10
+sex,m,m,f,f
+ 
+===> 110/2/stuart-little.raku <===
+name,Mohammad,Joe,Julie,Cristina
+age,45,20,35,10
+sex,m,m,f,f
+ 
+===> 110/2/ulrich-rieke.raku <===
+name,Mohammad,Joe,Julie,Cristina
+age,45,20,35,10
+sex,m,m,f,f
+ 
+===> 110/2/wambash.raku <===
+ok 1 - 
+ok 2 - 
+1..2
