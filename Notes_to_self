@@ -1,3 +1,10 @@
+2022-03-10
+With ~1/3rd done, current timing of 18m suggests full Perl+MoarVM re-run will take about an hour, which is very reasonable.
+
+2022-03-09
+Tried including JVM in the 're-run' testing, more clean-up (but not in general, too slow)
+Most of the JVM code failures have to do with 'gather'.
+
 2022-03-08
 Now including Perl in the 're-run' testing, fair bit of clean-up required for that.
 

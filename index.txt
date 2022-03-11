@@ -1,20 +1,41 @@
 Challenge titles and Rosetta-code correspondences (exact, and otherwise)
 
-110-1
-110-2
-111-1
-111-2
-112-1
-112-2
+100-1
+100-2
+101-1
+101-2
+102-1
+102-2
+103-1
+103-2
+104-1
+104-2
+105-1 Nth root                              N/Nth-root
+105-2 Name game/song
+106-1 Maximum gap
+106-2 Decimal string
+107-1 Self-descriptive number               S/Self-describing_numbers
+107-2 List methods of a class               R/Reflection_List_methods
+108-1 Memory Location                       C/Create_an_object_at_a_given_address
+108-2 Bell numbers                          B/Bell_numbers
+109-1 Chowla numbers                        C/Chowla_numbers
+109-2 Four squares_puzzle                   0/4-rings_or_4-squares_puzzle
+
+110-1 Valid phone numbers
+110-2 Transpose CSV                         C/CSV_data_manipulation I/Inverted_index
+111-1 Search structured array
+111-2 Ordered letters
+112-1 Canonical path
+112-2 Climb stairs                          F/Fibonacci_sequence
 113-1 Represent integer
 113-2 Recreate binary tree
 114-1 Next palindrome
-114-2 Higher Integer Set Bits
+114-2 Higher Integer Set Bits               S/Set_right-adjacent_bits
 115-1 String Loop
 115-2 Largest multiple of 2
 116-1 Intra-number sequential               L/Largest_int_from_concatenated_ints
 116-2 Sum of squares of digits is square
-117-1 Missing row
+117-1 Missing row                           F/Find_first_missing_positive
 117-2 Triangle paths
 118-1 Binary palindrome                     N/Numbers_in_base_10_that_are_palindromic_in_bases_2,_4,_and_16
 118-2 Adventure of knight                   K/Knight%27s_tour
@@ -127,6 +148,7 @@ raku -e '.say for ^2 X~ ^10 X~ ^10 X~ <-1 -2>'
 008-2
 009-1
 009-2
+
 010-1
 010-2
 011-1
@@ -147,6 +169,7 @@ raku -e '.say for ^2 X~ ^10 X~ ^10 X~ <-1 -2>'
 018-2
 019-1
 019-2
+
 020-1
 020-2
 021-1
@@ -167,6 +190,7 @@ raku -e '.say for ^2 X~ ^10 X~ ^10 X~ <-1 -2>'
 028-2
 029-1
 029-2
+
 030-1
 030-2
 031-1
@@ -187,6 +211,7 @@ raku -e '.say for ^2 X~ ^10 X~ ^10 X~ <-1 -2>'
 038-2
 039-1
 039-2
+
 040-1
 040-2
 041-1
@@ -207,6 +232,7 @@ raku -e '.say for ^2 X~ ^10 X~ ^10 X~ <-1 -2>'
 048-2
 049-1
 049-2
+
 050-1
 050-2
 051-1
@@ -227,6 +253,7 @@ raku -e '.say for ^2 X~ ^10 X~ ^10 X~ <-1 -2>'
 058-2
 059-1
 059-2
+
 060-1
 060-2
 061-1
@@ -247,6 +274,7 @@ raku -e '.say for ^2 X~ ^10 X~ ^10 X~ <-1 -2>'
 068-2
 069-1
 069-2
+
 070-1
 070-2
 071-1
@@ -267,6 +295,7 @@ raku -e '.say for ^2 X~ ^10 X~ ^10 X~ <-1 -2>'
 078-2
 079-1
 079-2
+
 080-1
 080-2
 081-1
@@ -287,6 +316,7 @@ raku -e '.say for ^2 X~ ^10 X~ ^10 X~ <-1 -2>'
 088-2
 089-1
 089-2
+
 090-1
 090-2
 091-1
@@ -307,26 +337,6 @@ raku -e '.say for ^2 X~ ^10 X~ ^10 X~ <-1 -2>'
 098-2
 099-1
 099-2
-100-1
-100-2
-101-1
-101-2
-102-1
-102-2
-103-1
-103-2
-104-1
-104-2
-105-1
-105-2
-106-1
-106-2
-107-1
-107-2
-108-1
-108-2
-109-1
-109-2
 
 160-1
 160-2
