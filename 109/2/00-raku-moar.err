@@ -1,0 +1,6 @@
+not ok - disabled: "uninitialized" errors
+  in block <unit> at mimosinnet.raku line 4
+
+not ok - disabled: output not stable
+  in block <unit> at ulrich-rieke.raku line 4
+
