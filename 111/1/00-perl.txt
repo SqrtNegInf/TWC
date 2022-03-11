@@ -1,0 +1,123 @@
+ 
+===> 111/1/abigail.pl <===
+0
+1
+0
+1
+ 
+===> 111/1/adam-russell.pl <===
+0
+1
+ 
+===> 111/1/colin-crain.pl <===
+ok 1 - ex-1-rows
+ok 2 - ex-2-rows
+ok 3 - ex-1-rows-mid
+ok 4 - ex-2-rows-mid
+ok 5 - ex-1-flat
+ok 6 - ex-1-flat
+ok 7 - ex-1-divide
+ok 8 - ex-2-divide
+ok 9 - between-rows-rows
+ok 10 - between-rows-rows-mid
+ok 11 - between-rows-flat
+ok 12 - between-rows-divide
+ok 13 - above-top-rows
+ok 14 - above-top-rows-mid
+ok 15 - above-top-flat
+ok 16 - above-top-divide
+ok 17 - below-bot-rows
+ok 18 - below-bot-rows-mid
+ok 19 - below-bot-flat
+ok 20 - below-bot-divide
+ok 21 - negative-rows
+ok 22 - negative-rows-mid
+ok 23 - negative-flat
+ok 24 - negative-divide
+ok 25 - row1-rows
+ok 26 - row1-rows-mid
+ok 27 - row1-flat
+ok 28 - row1-divide
+ok 29 - row5-rows
+ok 30 - row5-rows-mid
+ok 31 - row5-flat
+ok 32 - row5-divide
+1..32
+ 
+===> 111/1/dave-jacoby.pl <===
+ARE THESE CORRECT?
+	0	35	0
+	0	39	1
+	1	35	0
+	1	39	1
+	2	35	0
+	2	39	1
+	3	35	0
+	3	39	1
+
+ 
+===> 111/1/dms061.pl <===
+[1 2 3 4 5]
+[6 7 8 9 10]
+[11 12 13 14 15]
+[16 17 18 19 20]
+[21 22 23 24 25]
+Enter a number to search for: 19 is in the matrix
+ 
+===> 111/1/duncan-c-white.pl <===
+39
+ 
+===> 111/1/e-choroba.pl <===
+1..2
+ok 1 - Missing
+ok 2 - Found
+ 
+===> 111/1/jo-37.pl <===
+# Seeded srand with seed '1234' from import arg.
+ok 1 - example 1, bsearch
+ok 2 - example 1, scan
+ok 3 - example 2, bsearch
+ok 4 - example 2, scan
+ok 5 - first element
+ok 6 - last element
+ok 7 - below min
+ok 8 - above max
+1..8
+ 
+===> 111/1/laurent-rosenfeld.pl <===
+35 => 0
+39 => 1
+ 
+===> 111/1/mohammad-anwar.pl <===
+39 found.
+ 
+===> 111/1/paulo-custodio.pl <===
+1
+ 
+===> 111/1/perlboy1967.pl <===
+ok 1
+ok 2
+1..2
+ 
+===> 111/1/polettix.pl <===
+39 is present
+39 is present
+ 
+===> 111/1/roger-bell-west.pl <===
+1..2
+ok 1 - example 1
+ok 2 - example 2
+ 
+===> 111/1/stuart-little.pl <===
+Found 1?
+1
+Found 35?
+0
+Found 39?
+1
+Found 100?
+0
+ 
+===> 111/1/wanderdoc.pl <===
+35 => 0
+39 => 1

@@ -1,0 +1,45 @@
+ 
+===> 111/2/aaronreidsmith.raku <===
+(billowy)
+()
+ 
+===> 111/2/arne-sommer.raku <===
+billowy
+ 
+===> 111/2/colin-crain.raku <===
+longest word length 7
+
+billowy
+ 
+===> 111/2/feng-chang.raku <===
+billowy
+ 
+===> 111/2/jaldhar-h-vyas.raku <===
+billowy
+ 
+===> 111/2/laurent-rosenfeld.raku <===
+billowy
+ 
+===> 111/2/luca-ferrari.raku <===
+billowy
+ 
+===> 111/2/mark-anderson.raku <===
+[billowy]
+ 
+===> 111/2/mimosinnet.raku <===
+(abc billow billowy)
+ 
+===> 111/2/roger-bell-west.raku <===
+billowy
+ 
+===> 111/2/simon-proctor.raku <===
+billowy
+ 
+===> 111/2/stuart-little.raku <===
+billowy
+ 
+===> 111/2/ulrich-rieke.raku <===
+The longest English word which doesn't change by sorting its letters is billowy!
+ 
+===> 111/2/wambash.raku <===
+billowy

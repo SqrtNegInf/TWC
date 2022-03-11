@@ -1,0 +1,3 @@
+not ok - disabled: JVM cannot do Inline::Perl
+  in block <unit> at stuart-little.raku line 5
+

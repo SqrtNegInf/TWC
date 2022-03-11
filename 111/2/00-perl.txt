@@ -1,0 +1,106 @@
+ 
+===> 111/2/abigail.pl <===
+billowy
+ 
+===> 111/2/adam-russell.pl <===
+billowy
+ 
+===> 111/2/athanasius.pl <===
+Dictionary: /usr/share/dict/words
+
+6 solutions found (each 7 letters in length):
+  Adelops
+  alloquy
+  beefily
+  begorry
+  billowy
+  egilops
+ 
+===> 111/2/cheok-yin-fung.pl <===
+Echinops
+ 
+===> 111/2/colin-crain.pl <===
+max length 7
+
+adelops
+alloquy
+beefily
+begorry
+billowy
+egilops
+ 
+===> 111/2/dave-jacoby.pl <===
+adelops
+alloquy
+beefily
+begorry
+billowy
+egilops
+abbess
+ 
+===> 111/2/dms061.pl <===
+Word(s): adelops alloquy beefily begorry billowy egilops
+ 
+===> 111/2/duncan-c-white.pl <===
+longest word same as it's signature: Echinops
+ 
+===> 111/2/e-choroba.pl <===
+Adelops
+alloquy
+beefily
+begorry
+billowy
+egilops
+ 
+===> 111/2/jaldhar-h-vyas.pl <===
+Adelops
+ 
+===> 111/2/jo-37.pl <===
+adelops
+alloquy
+beefily
+begorry
+billowy
+egilops
+ 
+===> 111/2/laurent-rosenfeld.pl <===
+Echinops
+ 
+===> 111/2/mohammad-anwar.pl <===
+Max word: Adelops
+ 
+===> 111/2/paulo-custodio.pl <===
+adelops
+alloquy
+beefily
+begorry
+billowy
+egilops
+ 
+===> 111/2/pete-houston.pl <===
+Adelops
+alloquy
+beefily
+begorry
+billowy
+egilops
+ 
+===> 111/2/roger-bell-west.pl <===
+billowy
+ 
+===> 111/2/sgreen.pl <===
+Longest words are: Adelops, alloquy, beefily, begorry, billowy, egilops
+ 
+===> 111/2/stuart-little.pl <===
+Adelops
+alloquy
+beefily
+begorry
+billowy
+egilops
+ 
+===> 111/2/ulrich-rieke.pl <===
+The longest English word that doesn't change on sorting is alloquy!
+ 
+===> 111/2/wanderdoc.pl <===
+egilops
