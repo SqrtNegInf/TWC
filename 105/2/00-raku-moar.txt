@@ -1,0 +1,81 @@
+ 
+===> 105/2/aaronreidsmith.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ok 4 - 
+ok 5 - 
+ok 6 - 
+ok 7 - 
+ok 8 - 
+1..8
+ 
+===> 105/2/arne-sommer.raku <===
+David, David, bo-bavid
+Bonana-fanna fo-favid
+Fee fi mo-mavid
+David!
+ 
+===> 105/2/colin-crain.raku <===
+    Katie, Katie, bo-batie,
+    Bonana-fanna fo-fatie
+    Fee fi mo-matie
+    Katie!
+
+ 
+===> 105/2/jaldhar-h-vyas.raku <===
+Katie, Katie, bo-batie
+Bonana-fana fo-fatie
+Fee fi mo-matie
+Katie!
+ 
+===> 105/2/laurent-rosenfeld.raku <===
+Katie, Katie, bo-batie
+Bonana-fanna fo-fatie
+Fee fi mo-matie)
+Katie!
+
+ 
+===> 105/2/luca-ferrari.raku <===
+    Katie, Katie bo-batie
+    Bonana-fanna fo-fatie
+    Fee fi mo-matie
+    Katie !
+
+ 
+===> 105/2/mark-anderson.raku <===
+1..8
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ok 4 - 
+ok 5 - 
+ok 6 - 
+ok 7 - 
+ok 8 - 
+ 
+===> 105/2/mimosinnet.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ok 4 - 
+ok 5 - 
+1..5
+ 
+===> 105/2/roger-bell-west.raku <===
+1..2
+ok 1 - example 1
+ok 2 - example 2
+ 
+===> 105/2/stuart-little.raku <===
+Katie, Katie, bo-batie
+Bonana-fanna fo-fatie
+Fee fi mo-matie
+Katie!    
+
+ 
+===> 105/2/ulrich-rieke.raku <===
+Katie, Katie , bo-batie
+Bonana-fanna fo-fatie
+Fee fi mo-matie
+Katie!

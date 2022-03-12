@@ -1,0 +1,176 @@
+ 
+===> 105/2/abigail.pl <===
+ 
+===> 105/2/adam-russell.pl <===
+        Katie, Katie, bo-batie
+        Banana-fana fo-fatie
+        Fee-fi-mo-matie
+        Katie!
+
+        Adam, Adam, bo-badam
+        Banana-fana fo-fadam
+        Fee-fi-mo-madam
+        Adam!
+
+        Mary, Mary, bo-bary
+        Banana-fana fo-fary
+        Fee-fi-mo-ary
+        Mary!
+ 
+===> 105/2/arne-sommer.pl <===
+Katie, Katie, bo-batie
+Bonana-fanna fo-fatie
+Fee fi mo-matie
+Katie!
+ 
+===> 105/2/colin-crain.pl <===
+    Katie, Katie, bo-batie,
+    Bonana-fanna fo-fatie
+    Fee fi mo-matie
+    Katie!
+
+ 
+===> 105/2/dave-jacoby.pl <===
+        Katie, Katie, bo-Batie
+        Bonanna-fanna fo-Fatie
+        Fee fi mo-Matie
+        Katie!
+
+ 
+===> 105/2/duncan-c-white.pl <===
+Katie Katie bo-batie
+Bonana-fanna fo-fatie
+Fee fi mo-matie
+Katie
+ 
+===> 105/2/e-choroba.pl <===
+1..5
+ok 1 - Katie
+ok 2 - Billy
+ok 3 - Fred
+ok 4 - Marsha
+ok 5 - Anna
+ 
+===> 105/2/jaldhar-h-vyas.pl <===
+Katie, Katie, bo-batie
+Bonana-fana fo-fatie
+Fee fi mo-matie
+Katie!
+ 
+===> 105/2/james-smith.pl <===
+Katie, Katie, bo-batie
+Bonana-fanna fo-fatie
+Fee fi mo-matie
+Katie!
+
+Lucy, Lucy, bo-bucy
+Bonana-fanna fo-fucy
+Fee fi mo-mucy
+Lucy!
+
+James, James, bo-bames
+Bonana-fanna fo-fames
+Fee fi mo-mames
+James!
+
+Bob, Bob, bo-ob
+Bonana-fanna fo-fob
+Fee fi mo-mob
+Bob!
+
+Fred, Fred, bo-bred
+Bonana-fanna fo-red
+Fee fi mo-mred
+Fred!
+
+Mike, Mike, bo-bike
+Bonana-fanna fo-fike
+Fee fi mo-ike
+Mike!
+
+Aaron, Aaron, bo-bon
+Bonana-fanna fo-fon
+Fee fi mo-mon
+Aaron!
+
+Abel, Abel, bo-el
+Bonana-fanna fo-fel
+Fee fi mo-mel
+Abel!
+
+ 
+===> 105/2/jo-37.pl <===
+# Seeded srand with seed '1' from import arg.
+ok 1 - example
+ok 2
+ok 3
+ok 4
+ok 5
+ok 6
+ok 7
+ok 8
+ok 9
+ok 10
+ok 11
+ok 12
+ok 13
+ok 14
+ok 15
+ok 16
+ok 17
+ok 18
+ok 19
+ok 20
+ok 21
+ok 22
+ok 23
+ok 24
+ok 25
+ok 26
+ok 27
+1..27
+ 
+===> 105/2/laurent-rosenfeld.pl <===
+
+Katie, Katie, bo-batie
+Bonana-fanna fo-fatie
+Fee fi mo-matie)
+Katie!
+
+ 
+===> 105/2/paulo-custodio.pl <===
+Katie, Katie, bo-batie,
+Bonana-fanna fo-fatie
+Fee fi mo-matie
+Katie!
+ 
+===> 105/2/pete-houston.pl <===
+Katie, Katie, bo-batie
+Bonana-fanna fo-fatie
+Fee fi mo-matie
+Katie!
+
+ 
+===> 105/2/polettix.pl <===
+Katie, Katie, bo-batie
+Bonana-fanna fo-fatie
+Fee fi mo-matie
+Katie!
+ 
+===> 105/2/roger-bell-west.pl <===
+1..2
+ok 1 - example 1
+ok 2 - example 2
+ 
+===> 105/2/stuart-little.pl <===
+Katie, Katie, bo-batie
+Bonana-fanna fo-fatie
+Fee fi mo-matie
+Katie!    
+
+ 
+===> 105/2/ulrich-rieke.pl <===
+Katie, Katie, bo-batie
+Bonana-fanna fo-fatie
+Fee fi mo-matie
+Katie!
