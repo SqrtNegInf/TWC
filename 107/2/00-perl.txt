@@ -1,0 +1,194 @@
+ 
+===> 107/2/abigail.pl <===
+add
+div
+mul
+new
+BEGIN
+ 
+===> 107/2/cheok-yin-fung.pl <===
+new
+add
+mul
+div
+ 
+===> 107/2/colin-crain.pl <===
+ add
+ div
+ mul
+ new
+ 
+===> 107/2/dave-jacoby.pl <===
+BEGIN
+add
+div
+mul
+new
+ 
+===> 107/2/duncan-c-white.pl <===
+BEGIN
+add
+div
+mul
+new
+ 
+===> 107/2/e-choroba.pl <===
+BEGIN
+add
+div
+mul
+new
+x
+ 
+===> 107/2/jaldhar-h-vyas.pl <===
+BEGIN
+add
+div
+mul
+new
+ 
+===> 107/2/james-smith.pl <===
+Calc_Require:
+  BEGIN
+  add
+  div
+  mul
+  new
+
+Calc_Use:
+  BEGIN
+  add
+  div
+  import
+  mul
+  new
+
+Calc_Require:
+  add
+  div
+  mul
+  new
+
+Calc_Use:
+  add
+  div
+  mul
+  new
+
+ 
+===> 107/2/jo-37.pl <===
+# Seeded srand with seed '1' from import arg.
+ok 1 - example
+ok 2 - skipped test # skip tests
+1..2
+ 
+===> 107/2/mohammad-anwar.pl <===
+BEGIN
+add
+div
+mul
+new
+ 
+===> 107/2/paulo-custodio.pl <===
+add
+div
+mul
+new
+ 
+===> 107/2/perlboy1967.pl <===
+methods = ('add','div','mul','new')
+ 
+===> 107/2/polettix.pl <===
+add
+div
+mul
+new
+ 
+===> 107/2/roger-bell-west.pl <===
+all
+any
+bootstrap
+first
+head
+import
+max
+maxstr
+mesh
+mesh_longest
+mesh_shortest
+min
+minstr
+none
+notall
+pairfirst
+pairgrep
+pairkeys
+pairmap
+pairs
+pairvalues
+product
+reduce
+reductions
+sample
+shuffle
+sum
+sum0
+tail
+uniq
+uniqint
+uniqnum
+uniqstr
+unpairs
+zip
+zip_longest
+zip_shortest
+ 
+===> 107/2/sgreen.pl <===
+add
+div
+mul
+new
+ 
+===> 107/2/stuart-little.pl <===
+Croaker
+__chk
+_bits
+_error_loc
+_expand_bits
+_mkMask
+bits
+enabled
+enabled_at_level
+fatal_enabled
+fatal_enabled_at_level
+import
+register_categories
+unimport
+warn
+warn_at_level
+warnif
+warnif_at_level
+ 
+===> 107/2/wanderdoc.pl <===
+BEGIN
+add
+div
+mul
+new
+Or ... (no 'BEGIN' though)
+add
+div
+mul
+new
+Or better ...(still no 'BEGIN') 
+add
+div
+mul
+new
+ 
+===> 107/2/wlmb.pl <===
+Methods of Calc
+	add
+	div
+	mul
+	new

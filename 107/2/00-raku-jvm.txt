@@ -1,0 +1,120 @@
+ 
+===> 107/2/aaronreidsmith.raku <===
+add
+mul
+div
+BUILDALL
+ 
+===> 107/2/arne-sommer.raku <===
+new
+add
+mul
+div
+BUILDALL
+ 
+===> 107/2/colin-crain.raku <===
+add
+sub
+mul
+div
+BUILDALL
+ 
+===> 107/2/jaldhar-h-vyas.raku <===
+new
+add
+mul
+div
+BUILDALL
+ 
+===> 107/2/luca-ferrari.raku <===
+ACCEPTS
+Submethod+{is-hidden-from-backtrace}.new
+Bool
+Bridge
+Complex
+DUMP
+FatRat
+Int
+Num
+Numeric
+Range
+Rat
+Real
+Str
+WHICH
+abs
+acos
+acosec
+acosech
+acosh
+acotan
+acotanh
+asec
+asech
+asin
+asinh
+atan
+atan2
+atanh
+base
+base-repeating
+ceiling
+cis
+conj
+cos
+cosec
+cosech
+cosh
+cotan
+cotanh
+denominator
+exp
+floor
+gist
+is-prime
+isNaN
+log
+log10
+log2
+narrow
+new
+norm
+nude
+numerator
+polymod
+pred
+raku
+rand
+roots
+round
+sec
+sech
+sign
+sin
+sinh
+sqrt
+succ
+tan
+tanh
+truncate
+unpolar
+ 
+===> 107/2/mark-anderson.raku <===
+(new new-from-daycount today first-date-in-month last-date-in-month truncated-to clone succ pred DateTime Date IO CALL-ME is-leap-year days-in-month daycount day-of-month day-of-week week week-year week-number weekday-of-month day-of-year yyyy-mm-dd dd-mm-yyyy mm-dd-yyyy earlier later WHICH raku ACCEPTS Str gist year month day formatter Submethod+{is-hidden-from-backtrace}.new)
+(new Capture Int sign Num Rat FatRat abs Bridge sqrt base polymod expmod is-prime floor ceiling round lsb msb narrow Range conj rand sin asin cos acos tan atan atan2 sec asec cosec acosec cotan acotan sinh asinh cosh acosh tanh atanh sech asech cosech acosech cotanh acotanh unpolar cis Complex log exp truncate isNaN log2 log10 roots succ pred WHICH ACCEPTS raku Bool Str Real Numeric gist DUMP BUILDALL Method+{is-pure}.new Method+{is-pure}.new Method+{is-pure}.new Method+{is-pure}.new Method+{is-pure}.new)
+(abs conj sqrt sign rand sin asin cos acos tan atan atan2 sec asec cosec acosec cotan acotan sinh asinh cosh acosh tanh atanh sech asech cosech acosech cotanh acotanh cis is-prime log exp round roots log2 log10 unpolar floor ceiling truncate chars codes encode fmt wordcase trans indent uc lc tc fc tclc flip chomp chop samecase samemark samespace starts-with ends-with substr substr-rw substr-eq contains indices index rindex split match comb lines words subst subst-mutate IO sprintf printf trim trim-leading trim-trailing EVAL Int UInt Num Rat FatRat Complex Version Real BUILDALL Method+{is-pure}.new Method+{is-pure}.new Method+{is-pure}.new Method+{is-pure}.new Method+{is-pure}.new Method+{is-pure}.new Method+{is-pure}.new Method+{is-pure}.new ...)
+(BUILD Capture COERCE Int Num Version pred succ match subst-mutate parse-base Date DateTime IO WHY WHICH Bool Str Stringy DUMP ACCEPTS chomp chop starts-with ends-with substr-eq contains indices index rindex Numeric gist raku comb subst lines split samecase samemark samespace trim trim-leading trim-trailing words encode wordcase trans indent substr substr-rw codes chars uc lc tc fc tclc flip Submethod+{is-hidden-from-backtrace}.new Method+{is-pure}.new Method+{is-pure}.new Method+{is-pure}.new Method+{is-pure}.new Method+{is-pure}.new Method+{is-pure}.new Method+{is-pure}.new Method+{is-pure}.new Method+{is-pure}.new Method+{is-pure}.new NFC NFD NFKC NFKD)
+ 
+===> 107/2/mimosinnet.raku <===
+ok 1 - 
+ 
+===> 107/2/stuart-little.raku <===
+(&MONKEY-SEE-NO-EVAL &bail-out &can-ok &cmp-ok &diag &dies-ok &does-ok &done-testing &eval-dies-ok &eval-lives-ok &fails-like &flunk &is &is-approx &is-deeply &is_approx &isa-ok &isnt &like &lives-ok &nok &ok &pass &plan &skip &skip-rest &subtest &throws-like &todo &trait_mod:<is> &unlike &use-ok)
+ 
+===> 107/2/ulrich-rieke.raku <===
+The methods of class Stack are top, pop, push, min, isEmpty, BUILDALL !
+ 
+===> 107/2/wambash.raku <===
+ok 1 - 
+ok 2 - 
+1..2

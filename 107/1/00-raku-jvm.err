@@ -1,0 +1,3 @@
+not ok - disabled: JVM cannot do Promise/await
+  in block <unit> at luca-ferrari.raku line 3
+
