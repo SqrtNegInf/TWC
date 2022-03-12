@@ -1,0 +1,184 @@
+ 
+===> 103/1/abigail.pl <===
+Yang Metal Rat
+Yin Metal Ox
+Yang Water Tiger
+ 
+===> 103/1/adam-russell.pl <===
+Fire Rooster
+Earth Tiger
+ 
+===> 103/1/athanasius.pl <===
+Input:  2022
+Output: Water Tiger
+ 
+===> 103/1/bob-lied.pl <===
+Water Tiger
+ 
+===> 103/1/cheok-yin-fung.pl <===
+Water Tiger
+ 
+===> 103/1/colin-crain.pl <===
+ok 1 - year 1964 -> 41
+ok 2 - year 2021 -> 38
+ok 3 - animal  1964
+ok 4 - element 1964
+ok 5 - energy 1964
+ok 6 - animal  1965
+ok 7 - element 1965
+ok 8 - energy 1965
+ok 9 - animal  1966
+ok 10 - element 1966
+ok 11 - energy 1966
+ok 12 - animal  SY0
+ok 13 - element SY0
+ok 14 - energy SY0
+ok 15 - year 1924 -> SY1
+ok 16 - animal  1924
+ok 17 - element 1924
+ok 18 - energy 1924
+ok 19 - year 1983 -> 60 -> 0
+ok 20 - year 246 BC
+ok 21 - animal  246 BC
+ok 22 - element 246 BC
+ok 23 - energy 246 BC
+ok 24 - zodiac year 1964
+1..24
+ 
+===> 103/1/cristian-heredia.pl <===
+Fire Rooster 
+===> 103/1/dave-jacoby.pl <===
+	 1984 	 Wood Rat
+	 1985 	 Wood Ox
+	 1986 	 Fire Tiger
+	 1987 	 Fire Hare
+	 1988 	 Earth Dragon
+	 1989 	 Earth Snake
+	 1990 	 Metal Horse
+	 1991 	 Metal Sheep
+	 1992 	 Water Monkey
+	 1993 	 Water Fowl
+	 1994 	 Wood Dog
+	 1995 	 Wood Pig
+	 1996 	 Fire Rat
+	 1997 	 Fire Ox
+	 1998 	 Earth Tiger
+	 1999 	 Earth Hare
+	 2000 	 Metal Dragon
+	 2001 	 Metal Snake
+	 2002 	 Water Horse
+	 2003 	 Water Sheep
+	 2004 	 Wood Monkey
+	 2005 	 Wood Fowl
+	 2006 	 Fire Dog
+	 2007 	 Fire Pig
+	 2008 	 Earth Rat
+	 2009 	 Earth Ox
+	 2010 	 Metal Tiger
+	 2011 	 Metal Hare
+	 2012 	 Water Dragon
+	 2013 	 Water Snake
+	 2014 	 Wood Horse
+	 2015 	 Wood Sheep
+	 2016 	 Fire Monkey
+	 2017 	 Fire Fowl
+	 2018 	 Earth Dog
+	 2019 	 Earth Pig
+	 2020 	 Metal Rat
+	 2021 	 Metal Ox
+	 2022 	 Water Tiger
+	 2023 	 Water Hare
+	 2024 	 Wood Dragon
+	 2025 	 Wood Snake
+	 2026 	 Fire Horse
+	 2027 	 Fire Sheep
+	 2028 	 Earth Monkey
+	 2029 	 Earth Fowl
+	 2030 	 Metal Dog
+	 2031 	 Metal Pig
+	 2032 	 Water Rat
+	 2033 	 Water Ox
+	 2034 	 Wood Tiger
+	 2035 	 Wood Hare
+	 2036 	 Fire Dragon
+	 2037 	 Fire Snake
+	 2038 	 Earth Horse
+	 2039 	 Earth Sheep
+	 2040 	 Metal Monkey
+	 2041 	 Metal Fowl
+	 2042 	 Water Dog
+	 2043 	 Water Pig
+ 
+===> 103/1/duncan-c-white.pl <===
+Water Tiger
+ 
+===> 103/1/e-choroba.pl <===
+1..6
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - start of the cycle
+ok 4 - start of the cycle + 1
+ok 5 - end of the cycle - 1
+ok 6 - end of the cycle
+ 
+===> 103/1/james-smith.pl <===
+ok 1
+ok 2
+1..2
+ 
+===> 103/1/jo-37.pl <===
+# Seeded srand with seed '1' from import arg.
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - 1924: Wood Rat
+ok 4 - 1925: Wood Ox
+ok 5 - 1926: Fire Tiger
+ok 6 - 1927: Fire Rabbit
+ok 7 - 1928: Earth Dragon
+ok 8 - 1929: Earth Snake
+ok 9 - 1930: Metal Horse
+ok 10 - 1931: Metal Goat
+ok 11 - 1932: Water Monkey
+ok 12 - 1933: Water Rooster
+ok 13 - 1934: Wood Dog
+ok 14 - 1935: Wood Pig
+1..14
+ 
+===> 103/1/lubos-kolouch.pl <===
+ok 1
+ok 2
+ok 3
+ok 4
+ok 5
+ok 6
+ok 7
+ok 8
+ok 9
+ok 10
+ok 11
+ok 12
+1..12
+ 
+===> 103/1/perlboy1967.pl <===
+Input: 2021
+Output: Metal Ox
+ 
+===> 103/1/pete-houston.pl <===
+Water Tiger
+ 
+===> 103/1/polettix.pl <===
+Water Rat
+ 
+===> 103/1/roger-bell-west.pl <===
+1..2
+ok 1 - example 1
+ok 2 - example 2
+ 
+===> 103/1/sgreen.pl <===
+Water Tiger
+ 
+===> 103/1/stuart-little.pl <===
+Water Tiger
+ 
+===> 103/1/ulrich-rieke.pl <===
+Water Tiger

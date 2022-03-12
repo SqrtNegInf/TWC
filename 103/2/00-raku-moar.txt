@@ -1,0 +1,30 @@
+ 
+===> 103/2/mark-anderson.raku <===
+"Les Miserables Episode 1: The Bishop (broadcast date: 1937-07-23)"
+00:28:28
+"Les Miserables Episode 1: The Bishop (broadcast date: 1937-07-23)"
+00:28:29
+"Les Miserables Episode 2: Javert (broadcast date: 1937-07-30)"
+00:00:00
+"Les Miserables Episode 2: Javert (broadcast date: 1937-07-30)"
+00:00:01
+"Les Miserables Episode 2: Javert (broadcast date: 1937-07-30)"
+00:00:02
+ 
+===> 103/2/mimosinnet.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ok 4 - 
+ok 5 - 
+ 
+===> 103/2/roger-bell-west.raku <===
+1..1
+ok 1 - example 1
+ 
+===> 103/2/wambash.raku <===
+ok 1 - 
+ok 2 - text matches /:s Episode 1/
+ok 3 - 
+ok 4 - text matches /:s Episode 6/
+1..4

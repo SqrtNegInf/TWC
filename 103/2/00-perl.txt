@@ -1,0 +1,54 @@
+ 
+===> 103/2/abigail.pl <===
+"Les Miserables Episode 1: The Bishop (broadcast date: 1937-07-23)"
+10:24
+ 
+===> 103/2/adam-russell.pl <===
+"Les Miserables Episode 1: The Bishop (broadcast date: 1937-07-23)"
+00:10:24
+ 
+===> 103/2/athanasius.pl <===
+Input:
+
+    Start time:   1606134123
+    Current time: 1614591276
+    File list:    filelist.csv
+
+Output:
+
+    Les Miserables Episode 1: The Bishop (broadcast date: 1937-07-23)
+    00:10:24
+ 
+===> 103/2/dave-jacoby.pl <===
+Les Miserables Episode 1: The Bishop (broadcast date: 1937-07-23)
+	10:24
+ 
+===> 103/2/e-choroba.pl <===
+1..6
+ok 1 - Example
+ok 2 - Beginning
+ok 3 - End of the 2nd cycle
+ok 4 - Start of the 2nd track
+ok 5 - One sec before the 3rd track
+ok 6 - Nine minutes into the 3rd track, 11th cycle
+ 
+===> 103/2/james-smith.pl <===
+ok 1
+1..1
+ 
+===> 103/2/lubos-kolouch.pl <===
+"Les Miserables Episode 1: The Bishop (broadcast date: 1937-07-23)" at 0:10:24
+ 
+===> 103/2/perlboy1967.pl <===
+start time  : 1606134123 (Mon Nov 23 04:22:03 2020)
+current time: 1614591276 (Mon Mar  1 01:34:36 2021)
+Playing: 'Les Miserables Episode 1: The Bishop (broadcast date: 1937-07-23)'
+00:10:24
+ 
+===> 103/2/polettix.pl <===
+"Les Miserables Episode 1: The Bishop (broadcast date: 1937-07-23)"
+00:10:24.160
+ 
+===> 103/2/roger-bell-west.pl <===
+1..1
+ok 1 - example 1
