@@ -1,0 +1,71 @@
+ 
+===> 155/1/abigail.pl <===
+3 5 7 13 17 19 23 37
+ 
+===> 155/1/cheok-yin-fung.pl <===
+Answer: 
+3, 5, 7, 13, 17, 19, 23, 37
+ 
+===> 155/1/dave-jacoby.pl <===
+FORTUNATE NUMBERS: 3, 5, 7, 13, 17, 19, 23, 37
+ 
+===> 155/1/e-choroba.pl <===
+3, 5, 7, 13, 17, 19, 23, 37
+ 
+===> 155/1/james-smith.pl <===
+3
+5
+7
+13
+17
+19
+23
+37
+47
+61
+67
+71
+107
+ 
+===> 155/1/jo-37.pl <===
+# Seeded srand with seed '1' from import arg.
+ok 1 - the raw sequence: neither sorted nor distinct
+ok 2 - \#58 according to OEIS
+1..2
+ 
+===> 155/1/lubos-kolouch.pl <===
+ok 1
+1..1
+ 
+===> 155/1/mattneleigh.pl <===
+
+The first 8 unique Fortunate numbers are:
+    3, 5, 7, 13, 17, 19, 23, 37
+
+ 
+===> 155/1/perlboy1967.pl <===
+3, 5, 7, 13, 17, 19, 23, 37
+ 
+===> 155/1/peter-campbell-smith.pl <===
+First 8 Fortunate numbers: 3 5 7 13 17 19 23 37 
+and then: 47 59 61 67 71 79 89 101 103 107 109 127 
+ 
+===> 155/1/pokgopun.pl <===
+3, 5, 7, 13, 17, 19, 23, 37
+ 
+===> 155/1/polettix.pl <===
+3, 5, 7, 13, 17, 19, 23, 37
+ 
+===> 155/1/robert-dicicco.pl <===
+3 5 7 13 17 19 23 37 
+ 
+===> 155/1/roger-bell-west.pl <===
+1..1
+ok 1 - example 1
+ 
+===> 155/1/ulrich-rieke.pl <===
+3,5,7,13,17,19,23,37
+ 
+===> 155/1/wlmb.pl <===
+The 8 lowest distinct Fortunate numbers found are
+3 5 7 13 17 19 23 37

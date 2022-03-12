@@ -1,0 +1,21 @@
+ 
+===> 155/2/2colours.raku <===
+π(3) = 8
+The period is: 0, 1, 1, 2, 0, 2, 2, 1
+ 
+===> 155/2/luca-ferrari.raku <===
+Pisano period 3 is 8
+ 
+===> 155/2/mark-anderson.raku <===
+ok 1 - 
+ 
+===> 155/2/polettix.raku <===
+8
+ 
+===> 155/2/roger-bell-west.raku <===
+1..2
+ok 1 - example 1
+ok 2 - example 2
+ 
+===> 155/2/ulrich-rieke.raku <===
+8
