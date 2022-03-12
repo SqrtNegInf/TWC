@@ -1,0 +1,65 @@
+ 
+===> 106/1/aaronreidsmith.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+1..3
+ 
+===> 106/1/arne-sommer.raku <===
+5
+ 
+===> 106/1/athanasius.raku <===
+Input:  @N = (1, 3, 8, 2, 0)
+Output: 5
+ 
+===> 106/1/ben-davies.raku <===
+5
+ 
+===> 106/1/colin-crain.raku <===
+ok 1 - last
+ok 2 - 1st
+ok 3 - mid
+ 
+===> 106/1/jaldhar-h-vyas.raku <===
+5
+ 
+===> 106/1/laurent-rosenfeld.raku <===
+Max gap: 4
+ 
+===> 106/1/luca-ferrari.raku <===
+5
+ 
+===> 106/1/mark-anderson.raku <===
+1..3
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ 
+===> 106/1/mimosinnet.raku <===
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ 
+===> 106/1/pkmnx.raku <===
+5
+ 
+===> 106/1/roger-bell-west.raku <===
+1..3
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ 
+===> 106/1/simon-proctor.raku <===
+5
+ 
+===> 106/1/stuart-little.raku <===
+5
+ 
+===> 106/1/ulrich-rieke.raku <===
+5
+ 
+===> 106/1/wambash.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+1..3
