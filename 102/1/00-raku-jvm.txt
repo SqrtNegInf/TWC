@@ -1,0 +1,33 @@
+ 
+===> 102/1/aaronreidsmith.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ok 4 - 
+1..4
+ 
+===> 102/1/arne-sommer.raku <===
+65
+ 
+===> 102/1/athanasius.raku <===
+Input:  2
+Output: 65
+ 
+===> 102/1/feng-chang.raku <===
+65
+ 
+===> 102/1/jaldhar-h-vyas.raku <===
+65
+ 
+===> 102/1/mimosinnet.raku <===
+ok 1 - 
+ 
+===> 102/1/roger-bell-west.raku <===
+1..1
+ok 1 - example 1
+ 
+===> 102/1/simon-proctor.raku <===
+65
+ 
+===> 102/1/ulrich-rieke.raku <===
+(65)

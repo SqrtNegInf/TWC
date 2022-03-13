@@ -1,0 +1,83 @@
+ 
+===> 102/2/aaronreidsmith.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ok 4 - 
+ok 5 - 
+1..5
+ 
+===> 102/2/arne-sommer.raku <===
+2#4#6#8#11#14#17#20#
+ 
+===> 102/2/athanasius.raku <===
+Input:  20
+Output: "2#4#6#8#11#14#17#20#"
+ 
+===> 102/2/feng-chang.raku <===
+2#4#6#8#11#14#17#20#
+ 
+===> 102/2/jaldhar-h-vyas.raku <===
+2#4#6#8#11#14#17#20#
+ 
+===> 102/2/mark-anderson.raku <===
+1..21
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ok 4 - 
+ok 5 - 
+ok 6 - 
+ok 7 - 
+ok 8 - 
+ok 9 - 
+ok 10 - 
+ok 11 - 
+ok 12 - 
+ok 13 - 
+ok 14 - 
+ok 15 - 
+ok 16 - 
+ok 17 - 
+ok 18 - 
+ok 19 - 
+ok 20 - 
+ok 21 - 
+ 
+===> 102/2/mimosinnet.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ok 4 - 
+ok 5 - 
+ 
+===> 102/2/roger-bell-west.raku <===
+1..5
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ok 4 - example 4
+ok 5 - example 5
+ 
+===> 102/2/simon-proctor.raku <===
+ok 1 - 1
+ok 2 - 2
+ok 3 - 3
+ok 4 - 10
+ok 5 - 14
+1..5
+ 
+===> 102/2/stuart-little.raku <===
+2#4#6#8#11#14#17#20#
+ 
+===> 102/2/ulrich-rieke.raku <===
+2#4#6#8#11#14#17#20#
+ 
+===> 102/2/wambash.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ok 4 - 
+ok 5 - 
+ok 6 - 
+1..6
