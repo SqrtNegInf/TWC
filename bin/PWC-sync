@@ -38,9 +38,8 @@ sub MAIN( $dir, $num ) {
             #warn "exists: $num $dir/$fn" and 
             next if $dest.IO ~~ :e;
             copy $f, $dest;
-                #perl -i -npe 's|^(#!\\|use v6).*|#!/usr/bin/env $lang|; s|^use Test2::V0;|use Test2::V0 -srand => 1;|' $dest; 
             shell qq:to/END/;
-                perl -i -npe 's|^#!.*|#!/usr/bin/env $lang|; s|^use Test2::V0;|use Test2::V0 -srand => 1;|' $dest; 
+                perl -i -npe 's|^#!.*|#!/usr/bin/env $lang|; s|^use Test2::V0.*\\K;| -srand => 1;|' $dest; 
                 perl -i -0npe 's|^(?!#!)|#!/usr/bin/env $lang\n|' $dest; 
                 flip -u $dest;
                 touch -r $dir/$fn $dest;

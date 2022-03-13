@@ -14,10 +14,10 @@ grep locate $num/perl.err | perl -npe 's/^.*install the/sudo cpanm/;s/module.*//
 head -1 ../perlweeklychallenge-club/challenge-$num/*/blog* | grep http | sort > $num/00-blogs
 echo 'Watch out for:'
 pcregrep Test2::V0 $num/*/*pl | grep -v srand
-pcregrep 'hyper|race' $num/*/*raku
+pcregrep 'hyper|\\brace|Promise|<Perl5>' $num/*/*raku
 true
 END
-#grep xxx $num/raku.err | perl -npe 's/^.*xxx/zef install xxx/' | sort -u # hasn't been an issue
+#grep xxx $num/raku.err | perl -npe 's/^.*xxx/zef install xxx/' | sort -u # hasn't been a big issue
 
 .IO.unlink if .IO.e and ! .IO.s for "$num/" X~ (<perl raku> X~ <.out .err>).flat;
 #say "Now check these: less $num/perl* $num/raku*";
