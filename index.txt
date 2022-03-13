@@ -1,17 +1,17 @@
 Challenge titles and Rosetta-code correspondences (exact, and otherwise)
 
-100-1
-100-2
-101-1
-101-2
-102-1
-102-2
-103-1
-103-2
-104-1
-104-2
+100-1 12/24 conversion
+100-2 Triangle sum                          M/Maximum_triangle_path_sum
+101-1 Pack a spiral                         S/Spiral_matrix
+101-2 Triangle contains origin              F/Find_if_a_point_is_within_a_triangle
+102-1 Rare numbers                          R/Rare_numbers
+102-2 Hash-counting string
+103-1 Chinese zodiac                        C/Chinese_zodiac
+103-2 What's playing
+104-1 FUSC sequence                         F/Fusc_sequence
+104-2 Nim game                              N/Nim_Game
 105-1 Nth root                              N/Nth-root
-105-2 Name game/song
+105-2 Name game                             T/The_Name_Game
 106-1 Maximum gap
 106-2 Decimal string
 107-1 Self-descriptive number               S/Self-describing_numbers
