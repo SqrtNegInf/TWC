@@ -37,7 +37,7 @@ ok 1
 1..1
  
 ===> 103/2/lubos-kolouch.pl <===
-"Les Miserables Episode 1: The Bishop (broadcast date: 1937-07-23)" at 0:10:24
+"Les Miserables Episode 1: The Bishop (broadcast date: 1937-07-23)" at 0:10:24
  
 ===> 103/2/perlboy1967.pl <===
 start time  : 1606134123 (Mon Nov 23 04:22:03 2020)
