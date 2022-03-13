@@ -2,6 +2,9 @@
 ===> 155/1/2colours.raku <===
 3, 5, 7, 13, 17, 19, 23, 37
  
+===> 155/1/arne-sommer.raku <===
+3, 5, 7, 13, 17, 19, 23, 37, 61
+ 
 ===> 155/1/athanasius.raku <===
 The first 8 Fortunate Numbers (unique and sorted):
 3, 5, 7, 13, 17, 19, 23, 37
@@ -21,6 +24,9 @@ The first 8 Fortunate Numbers (unique and sorted):
  
 ===> 155/1/mark-anderson.raku <===
 (3 5 7 13 17 19 23 37)
+ 
+===> 155/1/mark-senn.raku <===
+3, 5, 7, 13, 17, 19, 23, 37
  
 ===> 155/1/polettix.raku <===
 3, 5, 7, 13, 17, 19, 23, 37

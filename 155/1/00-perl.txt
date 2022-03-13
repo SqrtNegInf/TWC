@@ -53,6 +53,9 @@ The first 8 unique Fortunate numbers are:
 ===> 155/1/perlboy1967.pl <===
 3, 5, 7, 13, 17, 19, 23, 37
  
+===> 155/1/pete-houston.pl <===
+3, 5, 7, 13, 17, 19, 23, 37
+ 
 ===> 155/1/peter-campbell-smith.pl <===
 First 8 Fortunate numbers: 3 5 7 13 17 19 23 37 
 and then: 47 59 61 67 71 79 89 101 103 107 109 127 
