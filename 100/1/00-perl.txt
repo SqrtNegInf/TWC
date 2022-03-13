@@ -1,0 +1,326 @@
+ 
+===> 100/1/abigail.pl <===
+05:50pm
+ 
+===> 100/1/alexander-karelas.pl <===
+ok 1 - 05:15 pm
+ok 2 - 05:15pm
+ok 3 - 19:15
+ok 4 - 00:34
+ok 5 - 12:34am
+ok 6 - 12:34
+ok 7 - 12:34pm
+ok 8 - 05:15am
+ok 9 - 05:15
+1..9
+ 
+===> 100/1/alexander-pankoff.pl <===
+1..26
+ok 1 - 05:15 pm converted to 17:15
+ok 2 - 05:15 pm converted to 17:15 with oneliner
+ok 3 - 05:15pm converted to 17:15
+ok 4 - 05:15pm converted to 17:15 with oneliner
+ok 5 - 19:15 converted to 07:15pm
+ok 6 - 19:15 converted to 07:15pm with oneliner
+ok 7 - 19:15 converted to 07:15pm
+ok 8 - 19:15 converted to 07:15pm with oneliner
+ok 9 - 9:15 converted to 09:15am
+ok 10 - 9:15 converted to 09:15am with oneliner
+ok 11 - 9:15am converted to 09:15
+ok 12 - 9:15am converted to 09:15 with oneliner
+ok 13 - 9:1am converted to 09:01
+ok 14 - 9:1am converted to 09:01 with oneliner
+ok 15 - 12:00am converted to 00:00
+ok 16 - 12:00am converted to 00:00 with oneliner
+ok 17 - 00:00 converted to 12:00am
+ok 18 - 00:00 converted to 12:00am with oneliner
+ok 19 - 12:00 converted to 12:00pm
+ok 20 - 12:00 converted to 12:00pm with oneliner
+ok 21 - 00:30 converted to 12:30am
+ok 22 - 00:30 converted to 12:30am with oneliner
+ok 23 - 12:00am converted to 00:00
+ok 24 - 12:00am converted to 00:00 with oneliner
+ok 25 - 12:30am converted to 00:30
+ok 26 - 12:30am converted to 00:30 with oneliner
+ 
+===> 100/1/arne-sommer.pl <===
+05:50 pm
+ 
+===> 100/1/bob-lied.pl <===
+ok 1
+ok 2
+ok 3
+ok 4
+ok 5
+ok 6
+ok 7
+ok 8
+ok 9
+ok 10
+ok 11
+ok 12
+ok 13
+1..13
+ 
+===> 100/1/cheok-yin-fung.pl <===
+05:50 pm
+ 
+===> 100/1/colin-crain.pl <===
+ok 1 - 12->24am
+ok 2 - 12->24am space
+ok 3 - 12->24pm
+ok 4 - 12->24pm space
+ok 5 - 12->24am-mid
+ok 6 - 12->24pm-noon
+ok 7 - 24->12am
+ok 8 - 12->24am
+ok 9 - 24->12-noon
+ok 10 - 24->12-mid
+
+ok 11 - 12->24am
+ok 12 - 12->24am space
+ok 13 - 12->24pm
+ok 14 - 12->24pm space
+ok 15 - 12->24am-mid
+ok 16 - 12->24pm-noon
+ok 17 - 24->12am
+ok 18 - 12->24am
+ok 19 - 24->12-noon
+ok 20 - 24->12-mid
+1..20
+ 
+===> 100/1/dave-jacoby.pl <===
+	05:15 am	 <=> 	05:15
+
+	05:15 pm	 <=> 	17:15
+
+	05:15am	 <=> 	05:15
+
+	05:15pm	 <=> 	17:15
+
+	07:15 pm	 <=> 	19:15
+
+	07:15pm	 <=> 	19:15
+
+	12:00am	 <=> 	12:00
+
+	12:00pm	 <=> 	00:00
+
+	7:7am	 <=> 	7:07
+
+	7:7pm	 <=> 	19:07
+
+	00:00	 <=> 	12:00am
+
+	12:00	 <=> 	12:00pm
+
+	17:15	 <=> 	5:15pm
+
+	19:15	 <=> 	7:15pm
+
+	24:00	 <=> 	12:00pm
+
+	5:14	 <=> 	5:14am
+
+ 
+===> 100/1/deadmarshal.pl <===
+05:50pm
+ 
+===> 100/1/e-choroba.pl <===
+1..15
+ok 1 - plain morning
+ok 2 - morning with a leading zero
+ok 3 - afternoon
+ok 4 - midnight
+ok 5 - noon
+ok 6 - early morning
+ok 7 - early afternoon
+ok 8 - plain am
+ok 9 - leading zero am
+ok 10 - pm
+ok 11 - am midnight
+ok 12 - pm noon
+ok 13 - am early morning
+ok 14 - pm early afternoon
+ok 15 - no space
+ 
+===> 100/1/gustavo-chaves.pl <===
+05:50pm
+ 
+===> 100/1/jaldhar-h-vyas.pl <===
+05:50 pm
+ 
+===> 100/1/james-smith.pl <===
+ok 1
+ok 2
+ok 3
+ok 4
+ok 5
+ok 6
+ok 7
+ok 8
+ok 9
+ok 10
+ok 11
+ok 12
+ok 13
+ok 14
+ok 15
+ok 16
+ok 17
+ok 18
+ok 19
+ok 20
+ok 21
+ok 22
+1..22
+ 
+===> 100/1/jo-37.pl <===
+# Seeded srand with seed '1' from import arg.
+ok 1 - example 1a: 05:15 pm -> 17:15, boring
+ok 2 - example 1a: 05:15 pm -> 17:15, fun
+ok 3 - example 1b: 05:15pm -> 17:15, boring
+ok 4 - example 1b: 05:15pm -> 17:15, fun
+ok 5 - example 2: 19:15 -> 07:15 pm, boring
+ok 6 - example 2: 19:15 -> 07:15 pm, fun
+ok 7 - 12:00 am -> 00:00, boring
+ok 8 - 12:00 am -> 00:00, fun
+ok 9 - 00:00 -> 12:00 am, boring
+ok 10 - 00:00 -> 12:00 am, fun
+ok 11 - 06:15 am -> 06:15, boring
+ok 12 - 06:15 am -> 06:15, fun
+ok 13 - 06:15 -> 06:15 am, boring
+ok 14 - 06:15 -> 06:15 am, fun
+ok 15 - 12:30 pm -> 12:30, boring
+ok 16 - 12:30 pm -> 12:30, fun
+ok 17 - 12:30 -> 12:30 pm, boring
+ok 18 - 12:30 -> 12:30 pm, fun
+ok 19 - 06:45 pm -> 18:45, boring
+ok 20 - 06:45 pm -> 18:45, fun
+ok 21 - 18:45 -> 06:45 pm, boring
+ok 22 - 18:45 -> 06:45 pm, fun
+ok 23 - no space
+ok 24 - one-digit H
+ok 25 - one-digit I
+ok 26 - Not A Time
+1..26
+ 
+===> 100/1/kai-burgdorf.pl <===
+5:50pm
+ 
+===> 100/1/laurent-rosenfeld.pl <===
+5:50 pm
+ 
+===> 100/1/lubos-kolouch.pl <===
+ok 1
+ok 2
+ok 3
+1..3
+ 
+===> 100/1/mohammad-anwar.pl <===
+ok 1
+ok 2
+ok 3
+ok 4
+ok 5
+ok 6
+ok 7
+ok 8
+ok 9
+ok 10
+ok 11
+ok 12
+1..12
+ 
+===> 100/1/paulo-custodio.pl <===
+05:50P
+ 
+===> 100/1/perlboy1967.pl <===
+Input: '05:15 pm'
+Output: '17:15'
+
+Input: '19:15'
+Output: '07:15 PM'
+
+Input: '12:01'
+Output: '12:01 PM'
+
+Input: '0:05'
+Output: '12:05 AM'
+
+Input: '2:03AM'
+Output: '02:03'
+
+ 
+===> 100/1/pete-houston.pl <===
+1..9
+ok 1 - 05:15 pm becomes 17:15
+ok 2 - 05:15pm becomes 17:15
+ok 3 - 05:15am becomes 05:15
+ok 4 - 12:15am becomes 00:15
+ok 5 - 12:15pm becomes 12:15
+ok 6 - 00:15 becomes 12:15am
+ok 7 - 05:59 becomes 05:59am
+ok 8 - 12:15 becomes 12:15pm
+ok 9 - 13:42 becomes 01:42pm
+ 
+===> 100/1/polettix.pl <===
+05:15 am
+ 
+===> 100/1/roger-bell-west.pl <===
+1..7
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ok 4 - example 4
+ok 5 - example 5
+ok 6 - example 6
+ok 7 - example 7
+ 
+===> 100/1/sgreen.pl <===
+05:50 pm
+ 
+===> 100/1/steven-wilson.pl <===
+ok 1 - test 1
+ok 2 - test 2
+ok 3 - test 3
+ok 4 - test 4
+ok 5 - test 5
+ok 6 - test 6
+ok 7 - test 7
+1..7
+ 
+===> 100/1/stuart-little.pl <===
+05:50 pm
+ 
+===> 100/1/vinod-k.pl <===
+Converting time from 24hrs to 12hrs format:
+5:50 PM
+ 
+===> 100/1/wanderdoc.pl <===
+ok 1 - Midnight No.1
+ok 2 - Midnight No.2
+ok 3 - 01:00 No.1
+ok 4 - 01:00 No.2
+ok 5 - 11:59 No.1
+ok 6 - 11:59 No.2
+ok 7 - Midday 1
+ok 8 - Midday 2
+ok 9 - 13:00 No.1
+ok 10 - 13:00 No.2
+ok 11 - 23:59 No.1
+ok 12 - 23:59 No.2
+1..12
+ 
+===> 100/1/wlmb.pl <===
+Input:	17:50
+Output:	05:50 pm
+ 
+===> 100/1/yet-ebreo.pl <===
+13:00 
+00:01 
+12:00 
+00:00 
+01:00pm
+12:00am
+07:15pm

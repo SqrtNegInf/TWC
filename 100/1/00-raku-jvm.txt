@@ -1,0 +1,76 @@
+ 
+===> 100/1/aaronreidsmith.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ok 4 - 
+ok 5 - 
+ok 6 - 
+ok 7 - 
+ok 8 - 
+ok 9 - 
+ok 10 - 
+ok 11 - 
+ok 12 - 
+ok 13 - 
+ok 14 - 
+1..14
+ 
+===> 100/1/andinus.raku <===
+05:50pm
+ 
+===> 100/1/arne-sommer.raku <===
+05:50 pm
+ 
+===> 100/1/colin-crain.raku <===
+1..8
+ok 1 - 12->24am
+ok 2 - 12->24pm
+ok 3 - 12->24am-mid
+ok 4 - 12->24pm-noon
+ok 5 - 24->12am
+ok 6 - 12->24am
+ok 7 - 24->12-noon
+ok 8 - 24->12-mid
+ 
+===> 100/1/jaldhar-h-vyas.raku <===
+05:50 pm
+ 
+===> 100/1/laurent-rosenfeld.raku <===
+5:50 pm
+ 
+===> 100/1/luca-ferrari.raku <===
+05:50 pm
+ 
+===> 100/1/mark-anderson.raku <===
+ 
+===> 100/1/mimosinnet.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ 
+===> 100/1/roger-bell-west.raku <===
+1..7
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ok 4 - example 4
+ok 5 - example 5
+ok 6 - example 6
+ok 7 - example 7
+ 
+===> 100/1/simon-proctor.raku <===
+05:50pm
+ 
+===> 100/1/stuart-little.raku <===
+05:50 pm
+ 
+===> 100/1/ulrich-rieke.raku <===
+05:50 pm
+ 
+===> 100/1/wambash.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ok 4 - 
+1..4
