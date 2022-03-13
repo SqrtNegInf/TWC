@@ -2,6 +2,13 @@
 ===> 155/1/2colours.raku <===
 3, 5, 7, 13, 17, 19, 23, 37
  
+===> 155/1/athanasius.raku <===
+The first 8 Fortunate Numbers (unique and sorted):
+3, 5, 7, 13, 17, 19, 23, 37
+ 
+===> 155/1/laurent-rosenfeld.raku <===
+(3 5 7 13 17 19 23 37)
+ 
 ===> 155/1/luca-ferrari.raku <===
 3
 5

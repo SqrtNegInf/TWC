@@ -3,6 +3,9 @@
 π(3) = 8
 The period is: 0, 1, 1, 2, 0, 2, 2, 1
  
+===> 155/2/athanasius.raku <===
+The 3rd Pisano Period is 8, with cycle: 0112 0221
+ 
 ===> 155/2/luca-ferrari.raku <===
 Pisano period 3 is 8
  
@@ -19,3 +22,10 @@ ok 2 - example 2
  
 ===> 155/2/ulrich-rieke.raku <===
 8
+ 
+===> 155/2/wambash.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ok 4 - 
+1..4

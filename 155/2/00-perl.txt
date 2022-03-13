@@ -2,6 +2,9 @@
 ===> 155/2/abigail.pl <===
 8
  
+===> 155/2/athanasius.pl <===
+The 3rd Pisano Period is 8, with cycle: 0112 0221
+ 
 ===> 155/2/cheok-yin-fung.pl <===
 1..4
 ok 1 - Required Case (Period of Fibonacci numbers mod 3)

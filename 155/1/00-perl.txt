@@ -2,6 +2,10 @@
 ===> 155/1/abigail.pl <===
 3 5 7 13 17 19 23 37
  
+===> 155/1/athanasius.pl <===
+The first 8 Fortunate Numbers (unique and sorted):
+3, 5, 7, 13, 17, 19, 23, 37
+ 
 ===> 155/1/cheok-yin-fung.pl <===
 Answer: 
 3, 5, 7, 13, 17, 19, 23, 37
@@ -32,6 +36,9 @@ FORTUNATE NUMBERS: 3, 5, 7, 13, 17, 19, 23, 37
 ok 1 - the raw sequence: neither sorted nor distinct
 ok 2 - \#58 according to OEIS
 1..2
+ 
+===> 155/1/laurent-rosenfeld.pl <===
+3 5 7 13 17 19 23
  
 ===> 155/1/lubos-kolouch.pl <===
 ok 1
