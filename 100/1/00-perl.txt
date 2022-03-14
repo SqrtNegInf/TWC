@@ -183,27 +183,8 @@ ok 3 - example 1b: 05:15pm -> 17:15, boring
 ok 4 - example 1b: 05:15pm -> 17:15, fun
 ok 5 - example 2: 19:15 -> 07:15 pm, boring
 ok 6 - example 2: 19:15 -> 07:15 pm, fun
-ok 7 - 12:00 am -> 00:00, boring
-ok 8 - 12:00 am -> 00:00, fun
-ok 9 - 00:00 -> 12:00 am, boring
-ok 10 - 00:00 -> 12:00 am, fun
-ok 11 - 06:15 am -> 06:15, boring
-ok 12 - 06:15 am -> 06:15, fun
-ok 13 - 06:15 -> 06:15 am, boring
-ok 14 - 06:15 -> 06:15 am, fun
-ok 15 - 12:30 pm -> 12:30, boring
-ok 16 - 12:30 pm -> 12:30, fun
-ok 17 - 12:30 -> 12:30 pm, boring
-ok 18 - 12:30 -> 12:30 pm, fun
-ok 19 - 06:45 pm -> 18:45, boring
-ok 20 - 06:45 pm -> 18:45, fun
-ok 21 - 18:45 -> 06:45 pm, boring
-ok 22 - 18:45 -> 06:45 pm, fun
-ok 23 - no space
-ok 24 - one-digit H
-ok 25 - one-digit I
-ok 26 - Not A Time
-1..26
+ok 7 - skipped test # skip tests
+1..7
  
 ===> 100/1/kai-burgdorf.pl <===
 5:50pm

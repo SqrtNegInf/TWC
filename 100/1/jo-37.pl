@@ -6,7 +6,7 @@ use DateTime::Format::DateParse;
 use List::Util 'pairs';
 use experimental qw(signatures smartmatch);
 
-our ($tests, $examples, $boring) = (1,1);
+our ($tests, $examples, $boring) = (0,1,0);
 
 run_tests() if $tests || $examples;	# does not return
 
@@ -88,7 +88,7 @@ sub run_tests {
 
         for my $ex (sort keys %times) {
             is $time{$_}->($times{$ex}[0]), $times{$ex}[1],
-                "$ex: $times{$ex}[0] -> $times{$ex}[1], $_" for keys %time;
+                "$ex: $times{$ex}[0] -> $times{$ex}[1], $_" for sort keys %time;
         }
     }
 
