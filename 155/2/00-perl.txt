@@ -2,6 +2,9 @@
 ===> 155/2/abigail.pl <===
 8
  
+===> 155/2/adam-russel.pl <===
+8
+ 
 ===> 155/2/athanasius.pl <===
 The 3rd Pisano Period is 8, with cycle: 0112 0221
  
@@ -11,6 +14,9 @@ ok 1 - Required Case (Period of Fibonacci numbers mod 3)
 ok 2 - Pisano period for mod 2
 ok 3 - Pisano-like period for Padovan numbers mod 3
 ok 4 - Pisano-like period for Padovan numbers mod 7
+ 
+===> 155/2/colin-crain.pl <===
+3, 8, 6, 20, 24, 16, 12, 24, 60, 10, 24, 28, 48, 40, 24, 36, 24, 18, 60, 16, 30, 48, 24, 100, 84, 72, 48, 14, 120, 30, 48, 40, 36, 80, 24, 76, 18, 56, 60, 40, 48, 88, 30, 120, 48, 32, 24, 112, 112, 72, 84, 108, 72, 20, 48, 72, 42, 58, 120, 60
  
 ===> 155/2/dave-jacoby.pl <===
  	2	3	110

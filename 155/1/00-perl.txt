@@ -2,12 +2,18 @@
 ===> 155/1/abigail.pl <===
 3 5 7 13 17 19 23 37
  
+===> 155/1/adam-russel.pl <===
+3, 5, 7, 13, 17, 19, 23, 37
+ 
 ===> 155/1/athanasius.pl <===
 The first 8 Fortunate Numbers (unique and sorted):
 3, 5, 7, 13, 17, 19, 23, 37
  
 ===> 155/1/cheok-yin-fung.pl <===
 Answer: 
+3, 5, 7, 13, 17, 19, 23, 37
+ 
+===> 155/1/colin-crain.pl <===
 3, 5, 7, 13, 17, 19, 23, 37
  
 ===> 155/1/dave-jacoby.pl <===
