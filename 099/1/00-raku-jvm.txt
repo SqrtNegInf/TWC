@@ -1,0 +1,60 @@
+ 
+===> 099/1/aaronreidsmith.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ok 4 - 
+ok 5 - 
+1..5
+ 
+===> 099/1/arne-sommer.raku <===
+1
+ 
+===> 099/1/athanasius.raku <===
+Input:  $S = "abcde" $P = "a*e"
+Output: 1
+ 
+===> 099/1/colin-crain.raku <===
+1..12
+ok 1 - ex-1
+ok 2 - ex-2
+ok 3 - ex-3
+ok 4 - ex-4
+ok 5 - no head
+ok 6 - * cannot be empty
+ok 7 - ? cannot be empty
+ok 8 - no tail
+ok 9 - ? in input
+ok 10 - * in input
+ok 11 - line noise
+ok 12 - password
+ 
+===> 099/1/mark-anderson.raku <===
+1..4
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ok 4 - 
+ 
+===> 099/1/mimosinnet.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ok 4 - 
+ 
+===> 099/1/roger-bell-west.raku <===
+1..4
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ok 4 - example 4
+ 
+===> 099/1/simon-proctor.raku <===
+1
+ 
+===> 099/1/wambash.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ok 4 - 
+1..4
