@@ -1,0 +1,72 @@
+ 
+===> 099/2/aaronreidsmith.raku <===
+ok 1 - 
+ok 2 - 
+1..2
+ 
+===> 099/2/arne-sommer.raku <===
+5
+ 
+===> 099/2/athanasius.raku <===
+Input:  $S = "littleit", $T = "lit"
+Output: 5
+
+    1: [lit] tleit
+    2: [li] t [t] leit
+    3: [li] ttlei [t]
+    4: [l] ittle [it]
+    5: litt [l] e [it]
+ 
+===> 099/2/colin-crain.raku <===
+1..6
+ok 1 - ex-2
+ok 2 - ex-1
+ok 3 - abcs
+ok 4 - repeated letters
+ok 5 - only one letter
+ok 6 - bookkeeping
+ 
+===> 099/2/jaldhar-h-vyas.raku <===
+5
+ 
+===> 099/2/laurent-rosenfeld.raku <===
+littleit lit: [5]
+london lon: [3]
+ 
+===> 099/2/luca-ferrari.raku <===
+5
+ 
+===> 099/2/mark-anderson.raku <===
+1..2
+ok 1 - 
+ok 2 - 
+ 
+===> 099/2/mimosinnet.raku <===
+ok 1 - 
+ok 2 - 
+ 
+===> 099/2/pkmnx.raku <===
+Input: $S = "littleit' $T = 'lit'
+Output: 5
+
+    1: [lit]tleit
+    2: [li]t[t]leit
+    3: [li]ttlei[t]
+    4: [l]ittle[it]
+    5: litt[l]e[it]
+ 
+===> 099/2/roger-bell-west.raku <===
+1..2
+ok 1 - example 1
+ok 2 - example 2
+ 
+===> 099/2/simon-proctor.raku <===
+5
+ 
+===> 099/2/stuart-little.raku <===
+5
+ 
+===> 099/2/wambash.raku <===
+ok 1 - 
+ok 2 - 
+1..2

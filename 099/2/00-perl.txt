@@ -1,0 +1,261 @@
+ 
+===> 099/2/abigail.pl <===
+5
+3
+ 
+===> 099/2/alexander-pankoff.pl <===
+1..2
+ok 1 - littleit contains 5 subsequences matching lit
+ok 2 - london contains 3 subsequences matching lon
+ 
+===> 099/2/arne-sommer.pl <===
+5
+ 
+===> 099/2/athanasius.pl <===
+Input:  $S = "littleit", $T = "lit"
+Output: 5
+
+    1: [lit] tleit
+    2: [li] t [t] leit
+    3: [li] ttlei [t]
+    4: [l] ittle [it]
+    5: litt [l] e [it]
+ 
+===> 099/2/bob-lied.pl <===
+ok 1
+ok 2
+ok 3
+ok 4
+ok 5
+ok 6
+ok 7
+1..7
+ 
+===> 099/2/colin-crain.pl <===
+ok 1 - ex-2
+ok 2 - ex-1
+ok 3 - abcs
+ok 4 - repeated letters
+ok 5 - only one letter
+ok 6 - bookkeeping
+1..6
+ 
+===> 099/2/dave-jacoby.pl <===
+
+  1:  [lit] tleit 
+  2:  [li] t [t] leit 
+  3:  [li] ttlei [t]  
+  4:  [l] ittle [it]  
+  5:  litt [l] e [it]  
+
+  6:  [lon] don 
+  7:  [lo] ndo [n]  
+  8:  [l] ond [on]  
+
+  9:  [abr] acadabr [a]  
+  10:  [abra] cadabra 
+  11:  [abr] ac [a] dabra 
+  12:  [abr] acad [a] bra 
+  13:  [ab] racadab [ra]  
+  14:  [a] bracada [bra]  
+  15:  abr [a] cada [bra]  
+  16:  abrac [a] da [bra]  
+  17:  abracad [abra]  
+
+  18:  [miss] issippi 
+  19:  [mis] si [s] sippi 
+  20:  [mis] sis [s] ippi 
+  21:  [mi] s [s] i [s] sippi 
+  22:  [mi] s [s] is [s] ippi 
+  23:  [mi] ssi [ss] ippi 
+  24:  [m] iss [iss] ippi 
+ 
+===> 099/2/duncan-c-white.pl <===
+ok 1 - ctw(london,lon): matches = 3
+ok 2 - ctw(london,lon): match(pos)=...don
+ok 3 - ctw(london,lon): match(pos)=..ndo.
+ok 4 - ctw(london,lon): match(pos)=.ond..
+ok 5 - explanation(tag=...don,t=lon)=[lon] don
+ok 6 - explanation(tag=..ndo.,t=lon)=[lo] ndo [n]
+ok 7 - explanation(tag=.ond..,t=lon)=[l] ond [on]
+ok 8 - ctw(littleit,lit): matches = 5
+ok 9 - ctw(littleit,lit): match(pos)=...tleit
+ok 10 - ctw(littleit,lit): match(pos)=..t.leit
+ok 11 - ctw(littleit,lit): match(pos)=..ttlei.
+ok 12 - ctw(littleit,lit): match(pos)=.ittle..
+ok 13 - ctw(littleit,lit): match(pos)=litt.e..
+ok 14 - explanation(tag=...tleit,t=lit)=[lit] tleit
+1..14
+ 
+===> 099/2/e-choroba.pl <===
+1..6
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Zero
+ok 4 - Show Example 1
+ok 5 - Show Example 2
+ok 6 - Show Zero
+ 
+===> 099/2/james-smith.pl <===
+ok 1
+ok 2
+ok 3
+ok 4
+ok 5
+ok 6
+ok 7
+ok 8
+ok 9
+ok 10
+ok 11
+ok 12
+ok 13
+ok 14
+ok 15
+ok 16
+ok 17
+ok 18
+ok 19
+ok 20
+ok 21
+ok 22
+ok 23
+ok 24
+ok 25
+ok 26
+ok 27
+ok 28
+ok 29
+ok 30
+1..30
+
+[lit]tleit
+[li]t[t]leit
+[li]ttlei[t]
+[l]ittle[it]
+litt[l]e[it]
+
+[lon]don
+[lo]ndo[n]
+[l]ond[on]
+
+[abc]
+
+[abc]abc
+[ab]cab[c]
+[a]bca[bc]
+abc[abc]
+
+[abc]abcabc
+[ab]cab[c]abc
+[ab]cabcab[c]
+[a]bca[bc]abc
+[a]bca[b]cab[c]
+[a]bcabca[bc]
+abc[abc]abc
+abc[ab]cab[c]
+abc[a]bca[bc]
+abcabc[abc]
+
+[abc]abcabcabc
+[ab]cab[c]abcabc
+[ab]cabcab[c]abc
+[ab]cabcabcab[c]
+[a]bca[bc]abcabc
+[a]bca[b]cab[c]abc
+[a]bca[b]cabcab[c]
+[a]bcabca[bc]abc
+[a]bcabca[b]cab[c]
+[a]bcabcabca[bc]
+abc[abc]abcabc
+abc[ab]cab[c]abc
+abc[ab]cabcab[c]
+abc[a]bca[bc]abc
+abc[a]bca[b]cab[c]
+abc[a]bcabca[bc]
+abcabc[abc]abc
+abcabc[ab]cab[c]
+abcabc[a]bca[bc]
+abcabcabc[abc]
+
+[abc]abcabcabcabc
+[ab]cab[c]abcabcabc
+[ab]cabcab[c]abcabc
+[ab]cabcabcab[c]abc
+[ab]cabcabcabcab[c]
+[a]bca[bc]abcabcabc
+[a]bca[b]cab[c]abcabc
+[a]bca[b]cabcab[c]abc
+[a]bca[b]cabcabcab[c]
+[a]bcabca[bc]abcabc
+[a]bcabca[b]cab[c]abc
+[a]bcabca[b]cabcab[c]
+[a]bcabcabca[bc]abc
+[a]bcabcabca[b]cab[c]
+[a]bcabcabcabca[bc]
+abc[abc]abcabcabc
+abc[ab]cab[c]abcabc
+abc[ab]cabcab[c]abc
+abc[ab]cabcabcab[c]
+abc[a]bca[bc]abcabc
+abc[a]bca[b]cab[c]abc
+abc[a]bca[b]cabcab[c]
+abc[a]bcabca[bc]abc
+abc[a]bcabca[b]cab[c]
+abc[a]bcabcabca[bc]
+abcabc[abc]abcabc
+abcabc[ab]cab[c]abc
+abcabc[ab]cabcab[c]
+abcabc[a]bca[bc]abc
+abcabc[a]bca[b]cab[c]
+abcabc[a]bcabca[bc]
+abcabcabc[abc]abc
+abcabcabc[ab]cab[c]
+abcabcabc[a]bca[bc]
+abcabcabcabc[abc]
+
+ 
+===> 099/2/jo-37.pl <===
+# Seeded srand with seed '1' from import arg.
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - unique sequence
+ok 4 - repetition
+ok 5 - not found
+ok 6 - meta characters
+ok 7 - not matching "regex"
+ok 8 - matching literal dot
+1..8
+ 
+===> 099/2/laurent-rosenfeld.pl <===
+littleit lit: 5
+london lon: 3
+aaaa aa: 6
+ 
+===> 099/2/lubos-kolouch.pl <===
+l(?=.*i(?=.*t(?=.*)))
+l
+l
+2
+ok 1
+1..1
+ 
+===> 099/2/perlboy1967.pl <===
+Input: $S = 'supercalifragilisticexpialidocious', $T = 'uplis'
+Subresult:
+Output: 20
+ 
+===> 099/2/polettix.pl <===
+5
+5
+ 
+===> 099/2/roger-bell-west.pl <===
+1..2
+ok 1 - example 1
+ok 2 - example 2
+ 
+===> 099/2/wanderdoc.pl <===
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example with 0
+1..3
