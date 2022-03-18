@@ -1,0 +1,85 @@
+ 
+===> 098/1/aaronreidsmith.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+1..3
+ 
+===> 098/1/andinus.raku <===
+1234
+5
+ab
+ 
+===> 098/1/arne-sommer.raku <===
+1234
+5
+ab
+cde
+
+ 
+===> 098/1/athanasius.raku <===
+Input:
+  File "digit.txt" contains "1234567890"
+  File "alpha.txt" contains "abcdefghijklmnopqrstuvwxyz"
+
+Output:
+  Read 4 characters from digit.txt: "1234"
+  Read 5 characters from alpha.txt: "abcde"
+  Read 3 characters from digit.txt: "567"
+  Read 3 characters from alpha.txt: "fgh"
+  Read 1 character  from digit.txt: "8"
+  Read 4 characters from alpha.txt: "ijkl"
+  Read 7 characters from digit.txt: "90"
+  Read 4 characters from alpha.txt: "mnop"
+  Read 2 characters from digit.txt: ""
+  Reset and
+  read 3 characters from digit.txt: "123"
+ 
+===> 098/1/colin-crain.raku <===
+1234
+5
+ab
+ 
+===> 098/1/jaldhar-h-vyas.raku <===
+123
+456
+789
+ 
+===> 098/1/laurent-rosenfeld.raku <===
+Taking 3 characters: 123
+Taking 3 characters: 456
+Taking 3 characters: 789
+ 
+===> 098/1/luca-ferrari.raku <===
+123
+456
+ 
+===> 098/1/mark-anderson.raku <===
+1..3
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ 
+===> 098/1/mimosinnet.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ 
+===> 098/1/pkmnx.raku <===
+1234
+5678
+90ab
+1234
+5678
+ 
+===> 098/1/roger-bell-west.raku <===
+1..3
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ 
+===> 098/1/wambash.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+1..3
