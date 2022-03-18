@@ -1,0 +1,95 @@
+ 
+===> 098/2/aaronreidsmith.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ok 4 - 
+1..4
+ 
+===> 098/2/arne-sommer.raku <===
+2
+ 
+===> 098/2/athanasius.raku <===
+Input:  @N = (1, 2, 3, 4) and $N = 3
+Output: 2 since the target 3 is in the array at the index 2
+ 
+===> 098/2/colin-crain.raku <===
+1..17
+ok 1 - ex-1
+ok 2 - ex-2
+ok 3 - ex-3
+ok 4 - ex-4
+ok 5 - long list: target -> 463
+ok 6 - long list: target -> 426
+ok 7 - long list: target -> 389
+ok 8 - long list: target -> 352
+ok 9 - long list: target -> 315
+ok 10 - long list: target -> 278
+ok 11 - long list: target -> 241
+ok 12 - long list: target -> 204
+ok 13 - long list: target -> 167
+ok 14 - long list: target -> 130
+ok 15 - long list: target -> 93
+ok 16 - long list: target -> 56
+ok 17 - long list: target -> 19
+ 
+===> 098/2/jaldhar-h-vyas.raku <===
+2
+ 
+===> 098/2/laurent-rosenfeld.raku <===
+[3 (1 2 3 4)]       :	2
+[6 (1 3 5 7)]       :	3
+[10 (12 14 16 18)]  :	0
+[19 (11 13 15 17)]  :	4
+ 
+===> 098/2/luca-ferrari.raku <===
+2
+ 
+===> 098/2/mark-anderson.raku <===
+1..4
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ok 4 - 
+ 
+===> 098/2/markus-holzer.raku <===
+2
+4
+0
+ 
+===> 098/2/mimosinnet.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ok 4 - 
+ 
+===> 098/2/pkmnx.raku <===
+Input: @N = (11, 13, 15, 17) and $N = 19
+Output: 4 since the target 19 is missing and should be placed at the index 4.
+ 
+===> 098/2/roger-bell-west.raku <===
+1..4
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ok 4 - example 4
+ 
+===> 098/2/simon-proctor.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ok 4 - 
+1..4
+ 
+===> 098/2/stuart-little.raku <===
+2
+ 
+===> 098/2/ulrich-rieke.raku <===
+2
+ 
+===> 098/2/wambash.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ok 4 - 
+1..4

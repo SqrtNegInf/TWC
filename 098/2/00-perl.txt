@@ -1,0 +1,235 @@
+ 
+===> 098/2/abigail.pl <===
+2
+ 
+===> 098/2/adam-russell.pl <===
+2
+3
+0
+4
+ 
+===> 098/2/alexander-pankoff.pl <===
+@N: 1 2 3 4
+$N: 3
+3 since the target 3 is in the array at the index 3.
+ 
+===> 098/2/arne-sommer.pl <===
+2
+ 
+===> 098/2/athanasius.pl <===
+Input:  @N = (1, 2, 3, 4) and $N = 3
+Output: 2 since the target 3 is in the array at the index 2
+ 
+===> 098/2/cheok-yin-fung.pl <===
+1..7
+ok 1 - Test 1
+ok 2 - Test 2
+ok 3 - Test 3
+ok 4 - Example 1
+ok 5 - Example 2
+ok 6 - Example 3
+ok 7 - Example 4
+ 
+===> 098/2/colin-crain.pl <===
+ok 1 - ex-1, exists already
+ok 2 - ex-2, insert into middle
+ok 3 - ex-3, less than first
+ok 4 - ex-4, more than last
+ok 5 - long list: target -> 463
+ok 6 - long list: target -> 426
+ok 7 - long list: target -> 389
+ok 8 - long list: target -> 352
+ok 9 - long list: target -> 315
+ok 10 - long list: target -> 278
+ok 11 - long list: target -> 241
+ok 12 - long list: target -> 204
+ok 13 - long list: target -> 167
+ok 14 - long list: target -> 130
+ok 15 - long list: target -> 93
+ok 16 - long list: target -> 56
+ok 17 - long list: target -> 19
+ok 18 - insert into idx 0
+ok 19 - insert into idx 1
+ok 20 - insert into idx 2
+ok 21 - insert into idx 3
+ok 22 - insert into idx 4
+ok 23 - match idx 0
+ok 24 - match idx 1
+ok 25 - match idx 2
+ok 26 - match idx 3
+1..26
+ 
+===> 098/2/cristian-heredia.pl <===
+4
+ 
+===> 098/2/dave-cross.pl <===
+ok 1
+ok 2
+ok 3
+ok 4
+1..4
+ 
+===> 098/2/dave-jacoby.pl <===
+Input:  $n = 3
+        @n = 1, 2, 3, 4
+Output: $i = 2
+
+Input:  $n = 6
+        @n = 1, 3, 5, 7
+Output: $i = 3
+
+Input:  $n = 10
+        @n = 12, 15, 16, 18
+Output: $i = 0
+
+Input:  $n = 19
+        @n = 11, 13, 15, 17
+Output: $i = 4
+
+ 
+===> 098/2/e-choroba.pl <===
+1..60
+ok 1 - Example 1 index loop
+ok 2 - Example 1 index binary
+ok 3 - Example 1 array loop
+ok 4 - Example 1 array binary
+ok 5 - Example 2 index loop
+ok 6 - Example 2 index binary
+ok 7 - Example 2 array loop
+ok 8 - Example 2 array binary
+ok 9 - Example 3 index loop
+ok 10 - Example 3 index binary
+ok 11 - Example 3 array loop
+ok 12 - Example 3 array binary
+ok 13 - Example 4 index loop
+ok 14 - Example 4 index binary
+ok 15 - Example 4 array loop
+ok 16 - Example 4 array binary
+ok 17 - Find start index loop
+ok 18 - Find start index binary
+ok 19 - Find start array loop
+ok 20 - Find start array binary
+ok 21 - Find end index loop
+ok 22 - Find end index binary
+ok 23 - Find end array loop
+ok 24 - Find end array binary
+ok 25 - Empty index loop
+ok 26 - Empty index binary
+ok 27 - Empty array loop
+ok 28 - Empty array binary
+ok 29 - Find single index loop
+ok 30 - Find single index binary
+ok 31 - Find single array loop
+ok 32 - Find single array binary
+ok 33 - Prepend single index loop
+ok 34 - Prepend single index binary
+ok 35 - Prepend single array loop
+ok 36 - Prepend single array binary
+ok 37 - Append single index loop
+ok 38 - Append single index binary
+ok 39 - Append single array loop
+ok 40 - Append single array binary
+ok 41 - Find pair left index loop
+ok 42 - Find pair left index binary
+ok 43 - Find pair left array loop
+ok 44 - Find pair left array binary
+ok 45 - Find pair right index loop
+ok 46 - Find pair right index binary
+ok 47 - Find pair right array loop
+ok 48 - Find pair right array binary
+ok 49 - Insert pair index loop
+ok 50 - Insert pair index binary
+ok 51 - Insert pair array loop
+ok 52 - Insert pair array binary
+ok 53 - Prepend pair index loop
+ok 54 - Prepend pair index binary
+ok 55 - Prepend pair array loop
+ok 56 - Prepend pair array binary
+ok 57 - Append pair index loop
+ok 58 - Append pair index binary
+ok 59 - Append pair array loop
+ok 60 - Append pair array binary
+ 
+===> 098/2/gustavo-chaves.pl <===
+Input: @N = (11 13 15 17) and $N = 19
+Output: 4
+Input: @N = (1 2 3 4) and $N = 3
+Output: 2
+Input: @N = (1 3 5 7) and $N = 6
+Output: 3
+Input: @N = (12 14 16 18) and $N = 10
+Output: 0
+ 
+===> 098/2/james-smith.pl <===
+ok 1
+ok 2
+ok 3
+ok 4
+1..4
+ 
+===> 098/2/jo-37.pl <===
+# Seeded srand with seed '1' from import arg.
+ok 1 - example 1
+ok 2 - resulting array for example 1
+ok 3 - example 2
+ok 4 - resulting array for example 2
+ok 5 - example 3
+ok 6 - resulting array for example 3
+ok 7 - example 4
+ok 8 - resulting array for example 4
+ok 9 - insert zero into empty list
+ok 10 - find zero
+ok 11 - insert negative value
+1..11
+ 
+===> 098/2/laurent-rosenfeld.pl <===
+3, 1 2 3 4: 2
+6, 1 3 5 7: 3
+10, 12 14 16 18: 0
+19, 11 13 15 17: 4
+ 
+===> 098/2/lubos-kolouch.pl <===
+ok 1
+ok 2
+ok 3
+ok 4
+1..4
+ 
+===> 098/2/nunovieira220.pl <===
+3
+ 
+===> 098/2/perlboy1967.pl <===
+Input: @N = (1,2,3,4) and $N = 3
+Output: 2
+
+Input: @N = (1,3,5,7) and $N = 6
+Output: 3
+
+Input: @N = (12,14,16,18) and $N = 10
+Output: 0
+
+Input: @N = (11,13,15,17) and $N = 19
+Output: 4
+
+ 
+===> 098/2/roger-bell-west.pl <===
+1..4
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ok 4 - example 4
+ 
+===> 098/2/wanderdoc.pl <===
+2
+3
+0
+4
+
+2
+3
+0
+4
+ 
+===> 098/2/wlmb.pl <===
+Input: @N=(1, 2, 3, 4) and $N=3
+Output: 2
