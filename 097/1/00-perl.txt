@@ -1,0 +1,99 @@
+ 
+===> 097/1/abigail.pl <===
+CREY EBPXF
+ 
+===> 097/1/adam-russell.pl <===
+THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG
+QEB NRFZH YOLTK CLU GRJMP LSBO QEB IXWV ALD
+ 
+===> 097/1/alexander-pankoff.pl <===
+QEB NRFZH YOLTK CLU GRJMP LSBO QEB IXWV ALD
+THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG
+ 
+===> 097/1/arne-sommer.pl <===
+QEB NRFZH YOLTK CLU GRJMP LSBO QEB IXWV ALD
+ 
+===> 097/1/athanasius.pl <===
+Input: $S = "PERL ROCKS", $N = 13
+Output:     "CREY EBPXF"
+ 
+===> 097/1/cheok-yin-fung.pl <===
+CREY EBPXF
+ 
+===> 097/1/colin-crain.pl <===
+THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG
+QEB NRFZH YOLTK CLU GRJMP LSBO QEB IXWV ALD
+ 
+===> 097/1/cristian-heredia.pl <===
+QEB NRFZH YOLTK CLU GRJMP LSBO QEB IXWV ALD
+ 
+===> 097/1/dave-jacoby.pl <===
+
+    INPUT:
+        $S = "THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG", $N = 3
+    OUTPUT:
+        "QEB NRFZH YOLTK CLU GRJMP LSBO QEB IXWV ALD"
+    
+    Plain:  ABCDEFGHIJKLMNOPQRSTUVWXYZ
+    cipher: XYZABCDEFGHIJKLMNOPQRSTUVW
+
+
+ 
+===> 097/1/e-choroba.pl <===
+1..3
+ok 1 - Example
+ok 2 - N>26
+ok 3 - N<0
+ 
+===> 097/1/gustavo-chaves.pl <===
+QEB NRFZH YOLTK CLU GRJMP LSBO QEB IXWV ALD
+ 
+===> 097/1/jan-perl.pl <===
+Plain:     ABCDEFGHIJKLMNOPQRSTUVWXYZ
+Cipher:    XYZABCDEFGHIJKLMNOPQRSTUVW
+QEB NRFZH YOLTK CLU GRJMP LSBO QEB IXWV ALD
+ 
+===> 097/1/jo-37.pl <===
+# Seeded srand with seed '1' from import arg.
+ok 1 - example
+ok 2 - cleartext
+ok 3 - wrap positive
+ok 4 - wrap negative
+ok 5 - discard illegal characters
+ok 6 - multiple args
+ok 7 - encode/decode
+1..7
+ 
+===> 097/1/kai-burgdorf.pl <===
+CREY-EBPXF
+ 
+===> 097/1/laurent-rosenfeld.pl <===
+QEB NRFZH YOLTK CLU GRJMP LSBO QEB IXWV ALD
+ 
+===> 097/1/LoneWolfiNTj.pl <===
+
+CreyEbpxf 
+===> 097/1/lubos-kolouch.pl <===
+ok 1
+ok 2
+1..2
+ 
+===> 097/1/nunovieira220.pl <===
+QEB NRFZH YOLTK CLU GRJMP LSBO QEB IXWV ALD 
+===> 097/1/perlboy1967.pl <===
+Input: 'THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG'
+Output: 'QEB NRFZH YOLTK CLU GRJMP LSBO QEB IXWV ALD'
+ 
+===> 097/1/polettix.pl <===
+THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG
+QEB NRFZH YOLTK CLU GRJMP LSBO QEB IXWV ALD
+ 
+===> 097/1/roger-bell-west.pl <===
+1..3
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ 
+===> 097/1/wanderdoc.pl <===
+ok 1 - Example
+1..1

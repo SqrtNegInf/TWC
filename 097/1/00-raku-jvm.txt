@@ -1,0 +1,61 @@
+ 
+===> 097/1/aaronreidsmith.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+1..3
+ 
+===> 097/1/arne-sommer.raku <===
+QEB NRFZH YOLTK CLU GRJMP LSBO QEB IXWV ALD
+ 
+===> 097/1/athanasius.raku <===
+Input: $S = "RAKU ROCKS", $N = 13
+Output:     "ENXH EBPXF"
+ 
+===> 097/1/colin-crain.raku <===
+THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG
+QEB NRFZH YOLTK CLU GRJMP LSBO QEB IXWV ALD
+ 
+===> 097/1/jaldhar-h-vyas.raku <===
+ENXH EBPXF
+ 
+===> 097/1/laurent-rosenfeld.raku <===
+QEB NRFZH YOLTK CLU GRJMP LSBO QEB IXWV ALD
+ 
+===> 097/1/luca-ferrari.raku <===
+QEB NRFZH YOLTK CLU GRJMP LSBO QEB IXWV ALD
+ 
+===> 097/1/mark-anderson.raku <===
+1..4
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ok 4 - 
+ 
+===> 097/1/mimosinnet.raku <===
+ok 1 - 
+ok 2 - 
+ 
+===> 097/1/pkmnx.raku <===
+ENXH EBPXF
+ 
+===> 097/1/roger-bell-west.raku <===
+1..3
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ 
+===> 097/1/simon-proctor.raku <===
+ENXH EBPXF
+ 
+===> 097/1/stuart-little.raku <===
+ENXH EBPXF
+ 
+===> 097/1/ulrich-rieke.raku <===
+ENXH EBPXF
+ 
+===> 097/1/wambash.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+1..3
