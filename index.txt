@@ -10,14 +10,14 @@ Challenge titles and Rosetta-code correspondences (exact, and otherwise)
 093-2
 094-1
 094-2
-095-1
-095-2
-096-1
-096-2
-097-1
-097-2
-098-1
-098-2
+095-1 Palindrome Number                     D/Distinct_Palindromes_Within_Decimal_Numbers
+095-2 Demo Stack                            S/Stack
+096-1 Reverse Words                         R/Reverse_words_in_a_string
+096-2 Edit Distance                         L/Levenshtein_distance J/Jaro-Winkler_Distance
+097-1 Caesar Cipher                         C/Caesar_cipher
+097-2 Binary Substrings                     F/Flipping_bits_game
+098-1 Read N-characters                     R/Read_a_file_character_by_character_UTF8
+098-2 Search Insert Position
 099-1 Pattern match
 099-2 Unique subsequence
 
@@ -138,8 +138,8 @@ Challenge titles and Rosetta-code correspondences (exact, and otherwise)
 154-2 Padovan prime                         P/Padovan_n-step_number_sequences P/Padovan_sequence
 155-1 Fortunate numbers                     F/Fortunate_numbers
 155-2 Pisano period                         P/Pisano_period
-156-1
-156-2
+156-1 Pernicious numbers                    P/Pernicious_numbers
+156-2 Weird numbers                         W/Weird_numbers 
 157-1
 157-2
 158-1
