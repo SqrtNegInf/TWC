@@ -1,0 +1,135 @@
+ 
+===> 095/1/abigail.pl <===
+1
+1
+1
+1
+ 
+===> 095/1/adam-russell.pl <===
+1
+0
+0
+ 
+===> 095/1/arne-sommer.pl <===
+1
+ 
+===> 095/1/athanasius.pl <===
+Input:  2002
+Output: 1
+ 
+===> 095/1/brtastic.pl <===
+ok 1
+ok 2
+ok 3
+ok 4
+1..4
+ 
+===> 095/1/cheok-yin-fung.pl <===
+1
+1991 is the 119th palindrome.
+ 
+===> 095/1/colin-crain.pl <===
+1
+ 
+===> 095/1/cristian-heredia.pl <===
+Output: 1
+ 
+===> 095/1/dave-jacoby.pl <===
+Input:   1221
+Output:  1
+
+Input:   -101
+Output:  0
+
+Input:   90
+Output:  0
+
+Input:   2112
+Output:  1
+
+Input:   9
+Output:  1
+
+Input:   90.09
+Output:  1
+
+ 
+===> 095/1/e-choroba.pl <===
+1..4
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ok 4 - Float
+ 
+===> 095/1/james-smith.pl <===
+ok 1
+ok 2
+ok 3
+ok 4
+ok 5
+ok 6
+ok 7
+ok 8
+1..8
+ 
+===> 095/1/jo-37.pl <===
+# Seeded srand with seed '1' from import arg.
+ok 1 - example 1: 1221 is palindrome
+ok 2 - example 2: -101 is not palindrome
+ok 3 - example 3: 90 is not palindrome
+ok 4 - skipped test # skip tests
+1..4
+ 
+===> 095/1/laurent-rosenfeld.pl <===
+1221: 1
+ 
+===> 095/1/lubos-kolouch.pl <===
+ok 1 - Test 1221
+ok 2 - Test -101
+ok 3 - Test 90
+ok 4 - Test 00001221
+1..4
+ 
+===> 095/1/nunovieira220.pl <===
+1
+ 
+===> 095/1/pavel_kuptsov.pl <===
+ok 1
+ok 2
+ok 3
+ok 4
+ok 5
+ok 6
+ok 7
+ok 8
+1..8
+ 
+===> 095/1/perlboy1967.pl <===
+Input: 1221
+Output: 1
+ 
+===> 095/1/polettix.pl <===
+1
+ 
+===> 095/1/roger-bell-west.pl <===
+1..3
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ 
+===> 095/1/ulrich-rieke.pl <===
+1
+ 
+===> 095/1/wanderdoc.pl <===
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+1..3
+ 
+===> 095/1/wlmb.pl <===
+Input: 101
+Output:1
+Input: 0
+Output:1
+Input: 1991
+Output:1
