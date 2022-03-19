@@ -1,0 +1,214 @@
+ 
+===> 096/2/abigail.pl <===
+3
+ 
+===> 096/2/adam-russell.pl <===
+3
+2
+ 
+===> 096/2/arne-sommer.pl <===
+3
+ 
+===> 096/2/athanasius.pl <===
+Input:  $S1 = "kitten"; $S2 = "sitting"
+Output: 3 (Levenshtein distance)
+
+Operation 1: replace 'k' with 's'
+Operation 2: replace 'e' with 'i'
+Operation 3: insert 'g'
+ 
+===> 096/2/cheok-yin-fung.pl <===
+sunday -> monday
+
+Edit distance: 2
+
+Operation 1: replace the 's' by 'm'
+Operation 2: replace the 'u' by 'o'
+
+DONE!
+ 
+===> 096/2/colin-crain.pl <===
+ok 1 - ex 1
+ok 2 - ex 2
+ok 3 - wiki
+1..3
+ 
+===> 096/2/dave-jacoby.pl <===
+
+    Input: S1: kitten 
+           S2: sitting
+    Change Count:  3
+        Operation 1: replace 'k' with 's'
+        Operation 2: replace 'e' with 'i'
+        Operation 3: insert 'g' at the end
+
+    Input: S1: sunday 
+           S2: monday
+    Change Count:  2
+        Operation 1: replace 's' with 'm'
+        Operation 2: replace 'u' with 'o'
+
+    Input: S1: slight 
+           S2: lights
+    Change Count:  2
+        Operation 1: remove 's' from beginning
+        Operation 2: insert 's' at the end
+
+    Input: S1: fed 
+           S2: feed
+    Change Count:  1
+        Operation 1: insert 'e'
+
+    Input: S1: test 
+           S2: test
+    Change Count:  0
+
+    Input: S1: test 
+           S2: text
+    Change Count:  1
+        Operation 1: replace 's' with 'x'
+ 
+===> 096/2/duncan-c-white.pl <===
+3
+ 
+===> 096/2/e-choroba.pl <===
+1..3
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3
+ 
+===> 096/2/gugod.pl <===
+Input: $S1 = kitten, $S2 = sitting
+Output: 3
+Input: $S1 = sunday, $S2 = monday
+Output: 2
+ 
+===> 096/2/gustavo-chaves.pl <===
+Operation 1: replace 'k' at 0 with 's'
+Operation 2: replace 'e' at 4 with 'i'
+Operation 3: insert 'g' at 6
+ 
+===> 096/2/jaldhar-h-vyas.pl <===
+3
+ 
+===> 096/2/james-smith.pl <===
+
+
+ (0)
+
+ok 1
+ok 2
+
+----
+vvvv (4)
+fred
+ok 3
+ok 4
+
+boat rid-ing
+|^||||||v||| (2)
+b-at ridding
+ok 5
+ok 6
+
+fred
+^^^^ (4)
+----
+ok 7
+ok 8
+
+fred
+   ^ (4)
+bob-
+ok 9
+ok 10
+
+kitten-
+ ||| |v (3)
+sitting
+ok 11
+ok 12
+
+rat-ing
+|||v||| (1)
+ratting
+ok 13
+ok 14
+
+sunday
+  |||| (2)
+monday
+ok 15
+ok 16
+1..16
+Calls: 467, hits: 258 (55.25%), misses: 209 (44.75%)
+ 
+===> 096/2/jo-37.pl <===
+# Seeded srand with seed '1' from import arg.
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example from wikipedia
+ok 4 - another example
+ok 5 - replace all
+ok 6 - insert prefix
+ok 7 - delete prefix
+ok 8 - replace prefix
+ok 9 - insert suffix
+ok 10 - delete suffix
+ok 11 - replace suffix
+ok 12 - insert infix
+ok 13 - delete infix
+ok 14 - replace infix
+1..14
+ 
+===> 096/2/laurent-rosenfeld.pl <===
+3 kitten - sitting 
+3 Monday - Friday 
+3 Sunday - Saturday 
+4 January - February 
+3 November - December 
+6 constitutionally - anticonstitutional 
+11 LMIjkHFSAE - dmqkdjfERZG 
+ 
+===> 096/2/lubos-kolouch.pl <===
+ok 1
+ok 2
+1..2
+ 
+===> 096/2/nunovieira220.pl <===
+Replace 'k' with 's'
+Replace 'i' with 'i'
+Replace 't' with 't'
+Replace 't' with 't'
+Replace 'e' with 'i'
+Replace 'n' with 'n'
+Insert 'g' at the end
+ 
+===> 096/2/polettix.pl <===
+3
+ 
+===> 096/2/roger-bell-west.pl <===
+1..3
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ 
+===> 096/2/ulrich-rieke.pl <===
+3
+ 
+===> 096/2/wanderdoc.pl <===
+ok 1 - Example 1
+ok 2 - Example 2
+1..2
+ 
+===> 096/2/wlmb.pl <===
+Inputs: "kitten" -> "sitting"
+Output: 3
+
+Operation 1: Replace k by s
+Operation 2: (Keep i)
+Operation 3: (Keep t)
+Operation 4: (Keep t)
+Operation 5: Replace e by i
+Operation 6: (Keep n)
+Operation 7: Insert g

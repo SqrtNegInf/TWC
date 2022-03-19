@@ -1,0 +1,88 @@
+ 
+===> 096/2/aaronreidsmith.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ok 4 - 
+1..4
+ 
+===> 096/2/arne-sommer.raku <===
+3
+ 
+===> 096/2/athanasius.raku <===
+Input:  $S1 = "little"; $S2 = "sitting"
+Output: 4 (Levenshtein distance)
+
+Operation 1: replace 'l' with 's'
+Operation 2: insert 'i'
+Operation 3: replace 'l' with 'n'
+Operation 4: replace 'e' with 'g'
+ 
+===> 096/2/ben-davies.raku <===
+3
+ 
+===> 096/2/colin-crain.raku <===
+3
+ 
+===> 096/2/feng-chang.raku <===
+3
+3
+ 
+===> 096/2/gugod.raku <===
+Input: $S1 = kitten, $S2 = sitting
+Output: 3
+Input: $S1 = sunday, $S2 = monday
+Output: 2
+ 
+===> 096/2/jaldhar-h-vyas.raku <===
+3
+ 
+===> 096/2/laurent-rosenfeld.raku <===
+3 kitten - sitting
+3 Monday - Friday
+3 Sunday - Saturday
+4 January - February
+3 November - December
+6 constitutionally - anticonstitutional
+11 LMIjkHFSAE - dmqkdjfERZG
+ 
+===> 096/2/luca-ferrari.raku <===
+Computing distance between 'kitten' and 'sitting' ==> 3
+ 
+===> 096/2/mark-anderson.raku <===
+1..4
+ok 1 - kitten   -> sitting = 3
+ok 2 - sunday   -> monday  = 2
+ok 3 - saturday -> sunday  = 3
+ok 4 - abxcd    -> abcd    = 1
+ 
+===> 096/2/mimosinnet.raku <===
+ok 1 - 
+ok 2 - 
+ 
+===> 096/2/pkmnx.raku <===
+3
+ 
+===> 096/2/roger-bell-west.raku <===
+1..3
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ 
+===> 096/2/simon-proctor.raku <===
+3
+ 
+===> 096/2/ulrich-rieke.raku <===
+3
+ 
+===> 096/2/wambash.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ok 4 - 
+ok 5 - 
+ok 6 - 
+ok 7 - 
+ok 8 - 
+ok 9 - 
+1..9
