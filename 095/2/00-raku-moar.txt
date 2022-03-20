@@ -1,0 +1,222 @@
+ 
+===> 095/2/aaronreidsmith.raku <===
+     Stack after pushing: (1, 2, 3, 4) <-- Top
+     Stack after popping: (1, 2) <-- Top
+    Top element of stack: 2
+Minimum element of stack: 1
+ 
+===> 095/2/ash.raku <===
+push(3)
+	top = 3, min = 3
+push(1)
+	top = 1, min = 1
+push(8)
+	top = 8, min = 1
+push(0)
+	top = 0, min = 0
+push(2)
+	top = 2, min = 0
+push(7)
+	top = 7, min = 0
+push(1)
+	top = 1, min = 0
+push(6)
+	top = 6, min = 0
+push(3)
+	top = 3, min = 0
+push(4)
+	top = 4, min = 0
+pop() = 4
+pop() = 3
+pop() = 6
+pop() = 1
+pop() = 7
+pop() = 2
+pop() = 0
+pop() = 8
+pop() = 1
+pop() = 3
+ 
+===> 095/2/athanasius.raku <===
+New stack:
+Stack: (empty)
+
+push(2):
+Stack: +---+
+       | 2 | <- top
+       +---+
+
+push(-1):
+Stack: +----+
+       | -1 | <- top
+       +----+
+       |  2 |
+       +----+
+
+push(0):
+Stack: +----+
+       |  0 | <- top
+       +----+
+       | -1 |
+       +----+
+       |  2 |
+       +----+
+
+pop(): The popped item is 0
+Stack: +----+
+       | -1 | <- top
+       +----+
+       |  2 |
+       +----+
+
+top(): The top item is -1
+Stack: +----+
+       | -1 | <- top
+       +----+
+       |  2 |
+       +----+
+
+push(0):
+Stack: +----+
+       |  0 | <- top
+       +----+
+       | -1 |
+       +----+
+       |  2 |
+       +----+
+
+min(): The min item is -1
+Stack: +----+
+       |  0 | <- top
+       +----+
+       | -1 |
+       +----+
+       |  2 |
+       +----+
+
+pop(): The popped item is 0
+Stack: +----+
+       | -1 | <- top
+       +----+
+       |  2 |
+       +----+
+
+pop(): The popped item is -1
+Stack: +---+
+       | 2 | <- top
+       +---+
+
+pop(): The popped item is 2
+Stack: (empty)
+
+top(): The top item is (none)
+Stack: (empty)
+
+push(123.4):
+Stack: +-------+
+       | 123.4 | <- top
+       +-------+
+ 
+===> 095/2/colin-crain.raku <===
+
+method 'push 2'
+stack now:            2
+
+method 'push -1'
+stack now:           -1  →   2
+
+method 'push 0'
+stack now:            0  →  -1  →   2
+
+method 'pop'
+stack now:           -1  →   2
+returns: 0
+
+method 'top'
+stack now:           -1  →   2
+returns: -1
+
+method 'push 0'
+stack now:            0  →  -1  →   2
+
+method 'min'
+stack now:            0  →  -1  →   2
+returns: -1
+
+method 'pop'
+stack now:           -1  →   2
+returns: 0
+
+method 'pop'
+stack now:            2
+returns: -1
+
+method 'min'
+stack now:            2
+returns: 2
+
+method 'push 5'
+stack now:            5  →   2
+
+method 'max'
+stack now:            5  →   2
+returns: 5
+ 
+===> 095/2/gugod.raku <===
+-1
+-1
+ 
+===> 095/2/jaldhar-h-vyas.raku <===
+-1
+-1
+ 
+===> 095/2/laurent-rosenfeld.raku <===
+[1 2 3 4 5]
+[1 2 3 4 5 6 7 8]
+Min: 1
+Top: 8
+Take: 8
+[1 2 3 4 5 6 7]
+ 
+===> 095/2/luca-ferrari.raku <===
+-1
+-1
+ 
+===> 095/2/mimosinnet.raku <===
+ok 1 - 
+ok 2 - 
+ 
+===> 095/2/pkmnx.raku <===
+-1
+-1
+ 
+===> 095/2/roger-bell-west.raku <===
+1..3
+ok 1 - test 1
+ok 2 - test 2
+ok 3 - test 3
+ 
+===> 095/2/simon-proctor.raku <===
+0
+-1
+-1
+ 
+===> 095/2/stuart-little.raku <===
+Current stack: 2 -1 0 10 4
+Popping: 4
+Current stack: 2 -1 0 10
+Peeking: 10
+Current stack: 2 -1 0 10
+Stack minimum: -1
+Current stack: 
+ 
+===> 095/2/ulrich-rieke.raku <===
+44
+44
+The top element is -33!
+The minimum element is -33 !
+ 
+===> 095/2/wambash.raku <===
+ok 1 - 
+ok 2 - 
+1..2
