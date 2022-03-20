@@ -1,0 +1,72 @@
+ 
+===> 094/1/aaronreidsmith.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+1..3
+ 
+===> 094/1/arne-sommer.raku <===
+[ ("opt", "pot", "top"),
+("bat", "tab"),
+("saw", "swa", "was") ]
+ 
+===> 094/1/athanasius.raku <===
+1..3
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Wikipedia
+ 
+===> 094/1/colin-crain.raku <===
+[bat tab]
+[opt pot top]
+[saw was]
+ 
+===> 094/1/feng-chang.raku <===
+opt, pot, top
+bat, tab
+saw, was
+ 
+===> 094/1/gugod.raku <===
+{x => [x]}
+{bat => [bat tab], opt => [opt pot top], saw => [saw was]}
+ 
+===> 094/1/laurent-rosenfeld.raku <===
+[bat tab]
+[saw was]
+[tops pots stop opts]
+[opt pot top]
+[x]
+ 
+===> 094/1/luca-ferrari.raku <===
+Valid anagrams: opt pot top - bat tab - saw was
+ 
+===> 094/1/mimosinnet.raku <===
+ok 1 - 
+ok 2 - 
+ 
+===> 094/1/roger-bell-west.raku <===
+1..2
+ok 1 - example 1
+ok 2 - example 2
+ 
+===> 094/1/simon-proctor.raku <===
+bat tab
+opt pot top
+saw was
+ 
+===> 094/1/stuart-little.raku <===
+[bat tab]
+[opt pot top]
+[saw was]
+ 
+===> 094/1/ulrich-rieke.raku <===
+enter a number of words!
+[(bat, tab),
+(opt, pot, top),
+(saw, was),
+]
+ 
+===> 094/1/wambash.raku <===
+ok 1 - 
+ok 2 - 
+1..2
