@@ -35,7 +35,8 @@ sub group_output ( @input ) {
     }
 
     # and the results become an array of arrays.
-    my @array = values %hash;
+    my @array;
+    push @array, $hash{$_} for sort keys %hash;
     return wantarray ? @array : \@array;
 }
 
