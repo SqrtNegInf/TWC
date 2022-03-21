@@ -49,10 +49,11 @@ ok 4 -
  
 ===> 097/2/pkmnx.raku <===
 Input: $B = "101100101", $S = "3"
-Output: 1
+Output: 101
 
-Binary Substrings (aside from self: "100"):
-   "101": 1 flip to make it "100"
+Binary Substrings (aside from self: "101"):
+   "0": 1 flip to make it "101"
+   "100": 101 flips to make it "101"
 
  
 ===> 097/2/roger-bell-west.raku <===

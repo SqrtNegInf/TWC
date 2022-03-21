@@ -13,9 +13,9 @@ sub MAIN(Str $B = '101100101', Int $S = 3) {
       $cost{ $s.join("") }{ $f.join("") } = $df;
    }
 
-   for ($cost.kv) -> $k,$v {
+   for ($cost.kv.sort) -> $k,$v {
       my $tot = 0; 
-      for ($v.kv) -> $kv,$vv {
+      for ($v.kv.sort) -> $kv,$vv {
          $tot += $vv 
       }
       if ( $tot < $min ) {
@@ -28,7 +28,7 @@ sub MAIN(Str $B = '101100101', Int $S = 3) {
       printf("Input: \$B = \"%s\", \$S = \"%d\"\n", $B, $S);
       printf("Output: %d\n\nBinary Substrings (aside from self: \"%s\"):\n", $min, $minh);
          
-      for ( $cost{$minh}.kv ) -> $k,$v {
+      for ( $cost{$minh}.kv.sort ) -> $k,$v {
         if ( $k ne $minh ) {
             printf("   \"%s\": %d flip%s to make it \"%s\"\n", $k, $v, $v>1??"s"!!'', $minh);
         }

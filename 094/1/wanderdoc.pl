@@ -14,7 +14,7 @@ sub group_anagrams
      my @strings = @_;
 
      my %anagrams;
-     push @{$anagrams{_standard($_)}}, $_ for @strings;
+     push @{$anagrams{_standard($_)}}, $_ for sort @strings;
      return sort values %anagrams;
 }
 

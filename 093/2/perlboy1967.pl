@@ -68,7 +68,7 @@ sub treeTotal (\@\@\%) {
   my ($arT, $arN, $hr) = @_;
   my @n = @$arN;
 
-  foreach my $k (keys %$hr) {
+  foreach my $k (sort keys %$hr) {
     if (scalar(keys %{$hr->{$k}})) {
       push(@n, $k);
       treeTotal(@$arT, @n, %{$hr->{$k}});
