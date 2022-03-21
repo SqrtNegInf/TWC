@@ -1,13 +1,14 @@
 #!/usr/local/bin/raku
 ## trivially modified from RC version
-#  2022-03-14
+#  2022-03-15
 #    needs explicit '$fh.close' or doesn't flush the print buffer, truncates AST
 #    concurrency/async boiler-plate from manual
 #    add timings, variable time-out, to aid in fine-tuning 'big lists' vs 'infinite lists'
 
 shell 'rm -f tmp/ast/*';
 
-for '100'..'155' -> $dir {
+#for '100'..'155' -> $dir {
+('100'..'155').race.map: -> $dir {
     for run('find', $dir, :out).out.lines -> $path {
         next if 1 == $path.chars;
         my $file = $path.subst(/^.*\//, '');
@@ -16,7 +17,6 @@ for '100'..'155' -> $dir {
         my $t = now;
         gen-ast $path, $file, 60;
         printf "%5.1f %s\n", now - $t, $path;
-        sleep 5;
     }
 }
 

@@ -9,6 +9,7 @@
 #  2022-03-09 116-154 395% cpu 5:57:45.28 total (all: huge b/c of JVM: 79835u 5040s)
 #  2022-03-10 114-154 431% cpu   17:06.23 total (perl,moar: 3971u 458s)
 #  2022-03-13 100-155 472% cpu   19:29.76 total (perl,moar: 4926u 601s)
+#  2022-03-21 092-155 489% cpu   21:12.15 total (perl,moar: 5525u 696s)
 
 sub MAIN ( *@args ) {
     die 'Challenges?' unless @args.elems;
