@@ -1,0 +1,99 @@
+ 
+===> 092/1/aaronreidsmith.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+1..3
+ 
+===> 092/1/arne-sommer.raku <===
+: Duplicate of a (value: y)
+1
+ 
+===> 092/1/ash.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ok 4 - 
+ok 5 - 
+ok 6 - 
+ok 7 - 
+ok 8 - 
+ok 9 - 
+ok 10 - 
+ok 11 - 
+ok 12 - 
+ok 13 - 
+ok 14 - 
+ok 15 - 
+ok 16 - 
+ 
+===> 092/1/athanasius.raku <===
+Input:  $A = "aab"; $B = "ttz"
+Output: 1
+ 
+===> 092/1/colin-crain.raku <===
+1
+ 
+===> 092/1/gugod.raku <===
+ok - abc vs xyz
+ok - abb vs xyy
+ok - look vs moon
+ok - sum vs abc
+ok - where vs how
+ok - this vs that
+ok - sum vs add
+ok - sun vs moon
+ok - Moose vs Mouse
+ 
+===> 092/1/jaldhar-h-vyas.raku <===
+1
+ 
+===> 092/1/juliodcs.raku <===
+1
+ 
+===> 092/1/laurent-rosenfeld.raku <===
+abc xyz: 1
+abb xyy: 1
+sum add: 0
+ACAB XCXY: 1
+abc uvwxy: 0
+ 
+===> 092/1/mark-anderson.raku <===
+1..4
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ok 4 - Different lengths
+ 
+===> 092/1/mimosinnet.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ok 4 - 
+ok 5 - 
+ok 6 - 
+ 
+===> 092/1/pkmnx.raku <===
+Input: $A = "aab"; $B = "kku"
+Output: 1
+ 
+===> 092/1/roger-bell-west.raku <===
+1..3
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ 
+===> 092/1/stuart-little.raku <===
+1
+ 
+===> 092/1/ulrich-rieke.raku <===
+1
+ 
+===> 092/1/wambash.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ok 4 - 
+ok 5 - 
+ok 6 - 
+1..6

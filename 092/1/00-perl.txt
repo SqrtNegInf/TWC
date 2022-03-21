@@ -1,0 +1,135 @@
+ 
+===> 092/1/abigail.pl <===
+1
+1
+0
+ 
+===> 092/1/alexander-karelas.pl <===
+1
+ 
+===> 092/1/alexander-pankoff.pl <===
+1..3
+ok 1 - 'abc' is isomorpic to 'xyz'
+ok 2 - 'abb' is isomorpic to 'xyy'
+ok 3 - 'sum' is not isomorpic to 'add'
+ 
+===> 092/1/arne-sommer.pl <===
+1
+ 
+===> 092/1/athanasius.pl <===
+Input:  $A = "aab"; $B = "baa"
+Output: 1
+ 
+===> 092/1/cheok-yin-fung.pl <===
+1
+ 
+===> 092/1/colin-crain.pl <===
+ok 1 - ex 1
+ok 2 - ex 2
+ok 3 - ex 3, many to one
+ok 4 - rearrangement
+ok 5 - positions matter
+ok 6 - equality
+ok 7 - one to many
+1..7
+ 
+===> 092/1/cristian-heredia.pl <===
+Output: 1
+ 
+===> 092/1/dave-jacoby.pl <===
+abc	xyz
+1
+
+abb	xyy
+1
+
+sum	add
+1
+
+ 
+===> 092/1/e-choroba.pl <===
+1..6
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ok 4 - Different length
+ok 5 - Inverted example 3
+ok 6 - Special chars
+ 
+===> 092/1/jaldhar-h-vyas.pl <===
+1
+ 
+===> 092/1/james-smith.pl <===
+ok 1
+ok 2
+ok 3
+ok 4
+1..4
+ 
+===> 092/1/jcrosswh.pl <===
+1
+ 
+===> 092/1/jo-37.pl <===
+# Seeded srand with seed '1' from import arg.
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ok 4 - multi-byte vs. numeric
+ok 5 - Take normalized grapheme clusters as the individual characters
+canonical: (0 0 1 1)
+1..5
+ 
+===> 092/1/kordaff.pl <===
+Input: $A = "abc"; "$B" = "xyz"
+Output: 1
+----
+Input: $A = "abb"; "$B" = "xyy"
+Output: 1
+----
+Input: $A = "sum"; "$B" = "add"
+Output: 0
+----
+ 
+===> 092/1/laurent-rosenfeld.pl <===
+abc xyz: 1
+abb xyy: 1
+sum add: 0
+ACAB XCXY: 1
+abc uvwxy: 0
+ 
+===> 092/1/lubos-kolouch.pl <===
+ok 1
+ok 2
+ok 3
+1..3
+ 
+===> 092/1/nunovieira220.pl <===
+1
+ 
+===> 092/1/perlboy1967.pl <===
+Input: ('abc','zyx')
+Output: 1
+ 
+===> 092/1/pete-houston.pl <===
+1
+ 
+===> 092/1/polettix.pl <===
+1
+ 
+===> 092/1/roger-bell-west.pl <===
+1..3
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ 
+===> 092/1/sgreen.pl <===
+1
+ 
+===> 092/1/ulrich-rieke.pl <===
+1
+ 
+===> 092/1/wanderdoc.pl <===
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+1..3
