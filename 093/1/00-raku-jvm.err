@@ -1,0 +1,3 @@
+not ok - disabled: runtime error: java.lang.RuntimeException: No such attribute $!elems for this object
+  in block <unit> at mimosinnet.raku line 3
+
