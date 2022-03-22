@@ -1,0 +1,90 @@
+ 
+===> 091/2/aaronreidsmith.raku <===
+ok 1 - 
+ok 2 - 
+1..2
+ 
+===> 091/2/arne-sommer.raku <===
+1
+ 
+===> 091/2/ash.raku <===
+0
+ 
+===> 091/2/athanasius.raku <===
+
+Challenge 091, Task #2: Jump Game (Raku)
+
+Usage:
+  raku athanasius.raku [--exact] [--verbose] [<N> ...]
+  
+    [<N> ...]    1+ non-negative integers
+    --exact      Allow exact moves only [default: False]
+    --verbose    Show the steps followed [default: False]
+ 
+===> 091/2/colin-crain.raku <===
+1
+ 
+===> 091/2/gugod.raku <===
+@N = [1, 2, 1, 2]
+1
+@N = [2, 1, 0, 0, 2]
+0
+@N = [2, 2, 4, 1, 2, 0, 1, 1]
+1
+ 
+===> 091/2/jaldhar-h-vyas.raku <===
+1
+ 
+===> 091/2/juliodcs.raku <===
+1
+ 
+===> 091/2/laurent-rosenfeld.raku <===
+[1 2 1 2] -> 1
+[2 1 1 0 2] -> 0
+[1 2 1 2 1] -> 0
+ 
+===> 091/2/mark-anderson.raku <===
+1..2
+ok 1 - Example 1
+ok 2 - Example 2
+ 
+===> 091/2/mimosinnet.raku <===
+Input : @N = 1 2 1 2
+Output: 1 (It jumps to the last index) 
+
+Input : @N = 2 1 1 0 2
+Output: 0 (It does not reach) 
+
+Input : @N = 2 2 1 2 0 5 2
+Output: 1 (It jumps over the last index) 
+
+ 
+===> 091/2/pkmnx.raku <===
+Input: @N = (1, 2, 1, 2)
+Output: 1
+
+Reason: 
+at index (0) jump 1
+at index (1) jump 2
+at index (3) jump 2
+and index 3 (value: 2) is the final element in our array!
+ 
+===> 091/2/roger-bell-west.raku <===
+1..2
+ok 1 - example 1
+ok 2 - example 2
+ 
+===> 091/2/simon-proctor.raku <===
+1
+ 
+===> 091/2/stuart-little.raku <===
+1
+ 
+===> 091/2/ulrich-rieke.raku <===
+1
+ 
+===> 091/2/wambash.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+1..3

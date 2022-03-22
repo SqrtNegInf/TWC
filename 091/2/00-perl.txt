@@ -1,0 +1,254 @@
+ 
+===> 091/2/abigail.pl <===
+1
+0
+ 
+===> 091/2/alexander-karelas.pl <===
+0
+ 
+===> 091/2/alexander-pankoff.pl <===
+1
+ 
+===> 091/2/arne-sommer.pl <===
+1
+ 
+===> 091/2/athanasius.pl <===
+Input:  @N = (1, 2, 1, 2)
+Output: 1
+ 
+===> 091/2/cheok-yin-fung.pl <===
+2,1,2,0,2
+1
+ 
+===> 091/2/colin-crain.pl <===
+ok 1 - forward ex 1: success!
+ok 2 - forward ex 2: stuck on 0
+ok 3 - forward: ok, last ele 0
+ok 4 - around ex 1: success!
+ok 5 - around ex 2: stuck on 0
+ok 6 - around: ok, last ele 0
+ok 7 - around: ok: back and forth and home
+ok 8 - around: fail: back too far
+ok 9 - around: fail: forward too far
+1..9
+ 
+===> 091/2/cristian-heredia.pl <===
+Output: 1
+ 
+===> 091/2/dave-jacoby.pl <===
+  1 2 1 2
+1
+  2 1 1 0 2
+0
+  1 9 9 2
+0
+ 
+===> 091/2/duncan-c-white.pl <===
+1
+ 
+===> 091/2/e-choroba.pl <===
+1..8
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Empty
+ok 4 - Single 0
+ok 5 - Sinlge X
+ok 6 - Stuck
+ok 7 - Direct
+ok 8 - Over
+ 
+===> 091/2/jaldhar-h-vyas.pl <===
+1
+ 
+===> 091/2/james-smith.pl <===
+ok 1
+ok 2
+1..2
+ 
+===> 091/2/jo-37.pl <===
+at (1 2 1 2)
+jump 1:
+    at (2 1 2)
+    jump 2:
+    hit the end
+# Seeded srand with seed '1' from import arg.
+ok 1 - Example 1
+at (2 1 1 0 2)
+jump 2:
+    at (1 0 2)
+    avoid jump 1
+    failed
+jump 1:
+    at (1 -1 0 2)
+    avoid jump 1
+    failed
+failed
+ok 2 - Example 2
+at (2 2 0 2 9 3 0 0 0 1)
+avoid jump 2
+jump 1:
+    at (2 0 2 9 3 0 0 0 1)
+    jump 2:
+        at (2 9 3 0 0 0 1)
+        jump 2:
+            at (3 0 0 0 1)
+            avoid jump 3
+            avoid jump 2
+            avoid jump 1
+            failed
+        jump 1:
+            at (9 -3 0 0 0 1)
+            jump 5:
+            hit the end
+ok 3 - step back and jump precise
+at (6 5 4 3 0 0 0 1)
+avoid jump 6
+avoid jump 5
+avoid jump 4
+jump 3:
+    at (3 0 0 0 1)
+    avoid jump 3
+    avoid jump 2
+    avoid jump 1
+    failed
+jump 2:
+    at (4 -3 0 0 0 1)
+    avoid jump 4
+    avoid jump 3
+    avoid jump 2
+    avoid jump 1
+    failed
+jump 1:
+    at (5 -4 -3 0 0 0 1)
+    avoid jump 5
+    avoid jump 4
+    avoid jump 3
+    avoid jump 2
+    avoid jump 1
+    failed
+failed
+ok 4 - track failures
+at (2 8 2 0 1 0 5 2 0 1 0 1)
+jump 2:
+    at (2 0 1 0 5 2 0 1 0 1)
+    jump 2:
+        at (1 0 5 2 0 1 0 1)
+        avoid jump 1
+        failed
+    avoid jump 1
+    failed
+jump 1:
+    at (8 -2 0 -1 0 5 2 0 1 0 1)
+    jump 8:
+        at (1 0 1)
+        avoid jump 1
+        failed
+    avoid jump 7
+    jump 6:
+        at (2 0 -1 0 1)
+        avoid jump 2
+        avoid jump 1
+        failed
+    jump 5:
+        at (5 -2 0 -1 0 1)
+        jump 5:
+        hit the end
+ok 5 - jump game!
+at (2 8 2 0 1 0 4 2 0 1 0 1)
+jump 2:
+    at (2 0 1 0 4 2 0 1 0 1)
+    jump 2:
+        at (1 0 4 2 0 1 0 1)
+        avoid jump 1
+        failed
+    avoid jump 1
+    failed
+jump 1:
+    at (8 -2 0 -1 0 4 2 0 1 0 1)
+    jump 8:
+        at (1 0 1)
+        avoid jump 1
+        failed
+    avoid jump 7
+    jump 6:
+        at (2 0 -1 0 1)
+        avoid jump 2
+        avoid jump 1
+        failed
+    jump 5:
+        at (4 -2 0 -1 0 1)
+        avoid jump 4
+        avoid jump 3
+        avoid jump 2
+        avoid jump 1
+        failed
+    avoid jump 4
+    avoid jump 3
+    avoid jump 2
+    avoid jump 1
+    failed
+failed
+ok 6 - too short
+1..6
+ 
+===> 091/2/juliodcs.pl <===
+1
+ 
+===> 091/2/laurent-rosenfeld.pl <===
+1 2 1 2  -> 1
+2 1 1 0 2  -> 0
+1 2 1 2 1  -> 0
+ 
+===> 091/2/lubos-kolouch.pl <===
+ok 1
+ok 2
+ok 3
+1..3
+ 
+===> 091/2/nunovieira220.pl <===
+0
+ 
+===> 091/2/paulo-custodio.pl <===
+1
+ 
+===> 091/2/perlboy1967.pl <===
+Input: (2,123,4,1,2,99,100)
+
+2 123 4 1 2 99 100
+^
+2 123 4 1 2 99 100
+      ^
+2 123 4 1 2 99 100
+               ^^^
+
+Output: 1
+ 
+===> 091/2/pete-houston.pl <===
+1
+ 
+===> 091/2/polettix.pl <===
+1
+ 
+===> 091/2/roger-bell-west.pl <===
+1..2
+ok 1 - example 1
+ok 2 - example 2
+ 
+===> 091/2/sgreen.pl <===
+1
+ 
+===> 091/2/ulrich-rieke.pl <===
+1
+ 
+===> 091/2/wanderdoc.pl <===
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ok 4 - Example 4
+ok 5 - Example 5
+ok 6 - Example 5
+1..6
+ 
+===> 091/2/wlmb.pl <===
+1 Success
+Path: 0->1->2->3
