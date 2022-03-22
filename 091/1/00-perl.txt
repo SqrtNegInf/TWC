@@ -1,0 +1,136 @@
+ 
+===> 091/1/abigail.pl <===
+21321314
+12332415
+1112131415
+ 
+===> 091/1/alexander-karelas.pl <===
+21321314
+ 
+===> 091/1/alexander-pankoff.pl <===
+21321314
+ 
+===> 091/1/arne-sommer.pl <===
+21321314
+ 
+===> 091/1/athanasius.pl <===
+Input:  $N = 1122234
+Output: 21321314
+ 
+===> 091/1/cheok-yin-fung.pl <===
+input: 1048576
+output: 11101418151716
+one 1, one 0, one 4, one 8, one 5, one 7, one 6.
+
+ 
+===> 091/1/colin-crain.pl <===
+input:               12227786622222222222222222222222222222
+numerically          1132271826292
+now using a regex:         1132271826292
+now as she is spoke: "One one, three twos, two sevens, one eight, two sixes and twenty-nine twos."
+ 
+===> 091/1/cristian-heredia.pl <===
+Output: 1112131415
+ 
+===> 091/1/dave-jacoby.pl <===
+  input: 1122234
+ output: 21321314
+output2: 21321314
+
+  input: 2333445
+ output: 12332415
+output2: 12332415
+
+  input: 12345
+ output: 1112131415
+output2: 1112131415
+
+  input: 90125
+ output: 1011121519
+output2: 1011121519
+
+ 
+===> 091/1/duncan-c-white.pl <===
+21321314
+ 
+===> 091/1/e-choroba.pl <===
+1..2
+ok 1 - Example 1
+ok 2 - Example 2
+ 
+===> 091/1/jaldhar-h-vyas.pl <===
+21321314
+ 
+===> 091/1/james-smith.pl <===
+ok 1
+ok 2
+ok 3
+1..3
+ 
+===> 091/1/jcrosswh.pl <===
+21321314 
+===> 091/1/jo-37.pl <===
+# Seeded srand with seed '1' from import arg.
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ok 4 - "1111" 2
+ok 5 - eleven 1 one 2
+ok 6 - one 1 eleven 2
+ok 7 - "11121" 3
+ok 8 - one 1 "121" 3
+ok 9 - eleven 1 twenty-one 3
+ok 10 - "111" 2, one 3
+ok 11 - one 1 one 2 one 3
+1..11
+ 
+===> 091/1/juliodcs.pl <===
+two 1 three 2 one 3 one 4 
+ 
+===> 091/1/laurent-rosenfeld.pl <===
+1122234    -> 21321314
+2333445    -> 12332415
+12345      -> 1112131415
+ 
+===> 091/1/lubos-kolouch.pl <===
+ok 1
+ok 2
+ok 3
+1..3
+ 
+===> 091/1/nunovieira220.pl <===
+12332415
+ 
+===> 091/1/paulo-custodio.pl <===
+21321314
+ 
+===> 091/1/perlboy1967.pl <===
+Input: 1122234
+Output: 21321314
+ 
+===> 091/1/polettix.pl <===
+21321314
+21321314
+ 
+===> 091/1/roger-bell-west.pl <===
+1..3
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ 
+===> 091/1/sgreen.pl <===
+21321314
+ 
+===> 091/1/ulrich-rieke.pl <===
+21321314
+ 
+===> 091/1/wanderdoc.pl <===
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+1..3
+ 
+===> 091/1/wlmb.pl <===
+Input:	1122234
+Output:	21321314
+
