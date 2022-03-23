@@ -1,0 +1,189 @@
+ 
+===> 090/2/aaronreidsmith.raku <===
+Input: A=238, B=13
+Divide A by 2 (ignoring remainders) until it is 1. Multiply B by 2 as we go:
+238, 13
+119, 26
+59, 52
+29, 104
+14, 208
+07, 416
+03, 832
+01, 1664
+Then, wherever A is odd, we add the Bs together:
+26 + 52 + 104 + 416 + 832 + 1664 = 3094
+ 
+===> 090/2/andinus.raku <===
+Ethopian Multiplication.
+
+Start with 238, 13.
+Divide 238 by 2 & multiple 13 by 2 at each step.
+Continue until 238 equals 1. Drop the remainder, both should be Integer.
+
+238, 13
+119, 26
+59, 52
+29, 104
+14, 208
+7, 416
+3, 832
+1, 1664
+
+Now to find the product, simply add all the numbers on right side of ','.
+But skip those numbers which have an even number on the left side.
+
+- Skipping 13 because 238 is even.
+- Adding 26 to product.
+- Adding 52 to product.
+- Adding 104 to product.
+- Skipping 208 because 14 is even.
+- Adding 416 to product.
+- Adding 832 to product.
+- Adding 1664 to product.
+
+Product: 3094
+ 
+===> 090/2/arne-sommer.raku <===
+3094
+ 
+===> 090/2/ash.raku <===
+14	&	12
+7	&	24	+
+3	&	48	+
+1	&	96	+
+Ethiopian Multiplication: 168
+Regular multiplication: 168
+ 
+===> 090/2/athanasius.raku <===
+238 &   13 --> ignore
+119 &   26 --> add
+ 59 &   52 --> add
+ 29 &  104 --> add
+ 14 &  208 --> ignore
+  7 &  416 --> add
+  3 &  832 --> add
+  1 & 1664 --> add
+
+238 * 13 = 26 + 52 + 104 + 416 + 832 + 1664
+         = 3094
+ 
+===> 090/2/colin-crain.raku <===
+18923
+18923
+ 
+===> 090/2/feng-chang.raku <===
+238 &   13
+119 &   26
+ 59 &   52
+ 29 &  104
+ 14 &  208
+  7 &  416
+  3 &  832
+  1 & 1664
+----------
+26 + 52 + 104 + 416 + 832 + 1664 = 3094
+ 
+===> 090/2/garrett-goebel.raku <===
+        14 &         12 | product:          0
+         7 &         24 | product:          0
+         3 &         48 | product:         24
+         1 &         96 | product:         72
+                        | product:        168
+ 
+===> 090/2/gugod.raku <===
+#	238 × 13
+
+	238	  13
+	119	+ 26
+	59	+ 52
+	29	+ 104
+	14	  208
+	7	+ 416
+	3	+ 832
+	1	+ 1664
+-------------------------
+		  3094
+
+ 
+===> 090/2/jaldhar-h-vyas.raku <===
+3094
+ 
+===> 090/2/juliodcs.raku <===
+Ethiopian multiplication of 238 and 13
+
+Steps:
+(238 13)
+(119 26)
+(59 52)
+(29 104)
+(14 208)
+(7 416)
+(3 832)
+(1 1664)
+
+Kepp odd numbers:
+(119 26)
+(59 52)
+(29 104)
+(7 416)
+(3 832)
+(1 1664)
+
+Keep right values:
+26
+52
+104
+416
+832
+1664
+
+Add the numbers:
+3094
+ 
+===> 090/2/laurent-rosenfeld.raku <===
+3094
+ 
+===> 090/2/mark-anderson.raku <===
+1..2
+ok 1 - 14 * 12 == 168
+ok 2 - 12 * 14 == 168
+ 
+===> 090/2/mihail-iosilevitch.raku <===
+3094
+ 
+===> 090/2/pkmnx.raku <===
+     238        13  
+     119        26 +
+      59        52 +
+      29       104 +
+      14       208  
+       7       416 +
+       3       832 +
+       1      1664 +
+Sum: 3094
+ 
+===> 090/2/roger-bell-west.raku <===
+   13   238 ->   238
+    6   476
+    3   952 ->   952
+    1  1904 ->  1904
+               -----
+                3094
+ 
+===> 090/2/simon-proctor.raku <===
+Given 238 and 13 
+Got 119 and 26 *
+Got 59 and 52 *
+Got 29 and 104 *
+Got 14 and 208 
+Got 7 and 416 *
+Got 3 and 832 *
+Got 1 and 1664 *
+Adding 26,52,104,416,832,1664 to get 3094
+ 
+===> 090/2/ulrich-rieke.raku <===
+3094
+ 
+===> 090/2/wambash.raku <===
+ok 1 - 14 * 12
+1..1
