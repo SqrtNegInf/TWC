@@ -163,11 +163,11 @@ foreach (1 .. 3) {
 	matrix_spiral($matrix);
 }
 
-$matrix = matrix_init('rand', $m, $n);
-	say "\n\nInput:";
-	matrix_print($matrix);
-	say "Output:";
-	matrix_spiral($matrix);
+#$matrix = matrix_init('rand', $m, $n);
+#	say "\n\nInput:";
+#	matrix_print($matrix);
+#	say "Output:";
+#	matrix_spiral($matrix);
 
 __END__
 

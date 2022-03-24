@@ -4,3 +4,5 @@ Tasks take a pretty long time with JVM:
 
 'laurent-rosenfeld.raku' has a run-time error
 
+Rarely, some Perl task in 125/1 varies. Not able to figure out which...
+Keep  '00-perl.txt~' around to help with that.
