@@ -1,5 +1,26 @@
 Challenge titles and Rosetta-code correspondences (exact, and otherwise)
 
+080-1
+080-2
+081-1
+081-2
+082-1
+082-2
+083-1
+083-2
+084-1
+084-2
+085-1
+085-2
+086-1 Pair Difference
+086-2 Sudoku Puzzle                         S/Sudoku-1
+087-1 Longest Consecutive Sequence          L/Longest_increasing_subsequence
+087-2 Largest Rectangle (cf 128/1)
+088-1 Array of Product
+088-2 Spiral Matrix (unwind)
+089-1 GCD Sum
+089-2 Magical Matrix                        M/Magic_squares_Perl_6
+
 090-1 DNA sequence
 090-2 Ethiopian Multiplication              E/Ethiopian_Multiplication
 091-1 Count Number
@@ -79,7 +100,7 @@ Challenge titles and Rosetta-code correspondences (exact, and otherwise)
 126-2 Minesweeper
 127-1 Disjoint sets
 127-2 Conflict intervals
-128-1 Maximum sub-matrix
+128-1 Maximum sub-matrix (cf 087/2)
 128-2 Minimum platforms
 129-1 Tree root distance
 129-2 Add linked lists
@@ -140,8 +161,8 @@ Challenge titles and Rosetta-code correspondences (exact, and otherwise)
 155-2 Pisano period                         P/Pisano_period
 156-1 Pernicious numbers                    P/Pernicious_numbers
 156-2 Weird numbers                         W/Weird_numbers 
-157-1
-157-2
+157-1 Pythagorean Means                     A/Averages_Pythagorean_means
+157-2 Brazilian Number                      B/Brazilian_numbers
 158-1
 158-2
 159-1
@@ -316,27 +337,6 @@ raku -e '.say for ^2 X~ ^10 X~ ^10 X~ <-1 -2>'
 078-2
 079-1
 079-2
-
-080-1
-080-2
-081-1
-081-2
-082-1
-082-2
-083-1
-083-2
-084-1
-084-2
-085-1
-085-2
-086-1
-086-2
-087-1
-087-2
-088-1
-088-2
-089-1
-089-2
 
 =====
 
