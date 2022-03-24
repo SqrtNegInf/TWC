@@ -1,9 +1,11 @@
 #!/usr/bin/env raku
 
-die 'not ok - disabled: run-time error';
+# needed 'cached'
 
-sub peel(@a) { |@a[0], |@a[1..*].map(*.[*-1]) }
-sub core(@a) { @a[1..*].map(*.[0..*-2]) }
+use experimental :cached;
+
+sub peel(@a) is cached { |@a[0], |@a[1..*].map(*.[*-1]) }
+sub core(@a) is cached { @a[1..*].map(*.[0..*-2]) }
 
 sub spiral(@a) { 
     return peel(@a) if min(@a.elems,@a[0].elems) == 1;
@@ -30,3 +32,5 @@ my @a2=[
 
 #for (@a0,@a1,@a2) {.&spiral.say}
 say spiral(@a0);
+say spiral(@a1);
+say spiral(@a2);
