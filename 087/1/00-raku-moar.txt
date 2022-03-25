@@ -1,0 +1,79 @@
+ 
+===> 087/1/arne-sommer.raku <===
+(2, 3, 4)
+ 
+===> 087/1/ash.raku <===
+2 3 4 5
+ 
+===> 087/1/athanasius.raku <===
+Input:  @N = (100, 4, 50, 3, 2)
+Output: (2, 3, 4)
+ 
+===> 087/1/feng-chang.raku <===
+(2 3 4)
+ 
+===> 087/1/gugod.raku <===
+[7 8 9]
+[1 2 3 4]
+[1 2 3 4]
+ 
+===> 087/1/jaldhar-h-vyas.raku <===
+(2, 3, 4)
+ 
+===> 087/1/jeongoon.raku <===
+[2 3 4]
+ 
+===> 087/1/juliodcs.raku <===
+ok 1 - Tricky test: More elements at the end
+ok 2 - Empty list has no sequences
+ok 3 - One element has no sequence
+ok 4 - Two elements
+ok 5 - All elements reversed
+ok 6 - Two elements out of four
+ok 7 - Four elements
+ok 8 - Test 1 from PWC
+ok 9 - Test 2 from PWC
+ok 10 - Test 3 from PWC
+1..10
+ 
+===> 087/1/laurent-rosenfeld.raku <===
+[2 3 4]
+0
+[9 10 11]
+ 
+===> 087/1/mark-anderson.raku <===
+1..3
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ 
+===> 087/1/pjdurai.raku <===
+ok 1 - (100, 4, 50, 3, 2)   =>  [2,3,4]
+ok 2 - (20, 30, 10, 40, 50)   => 0
+ok 3 - (20, 19, 9, 11, 10)  => [9,10,11]
+ok 4 - () => 0
+ 
+===> 087/1/pkmnx.raku <===
+Input: @N = (100, 4, 50, 3, 2)
+Output: (2, 3, 4)
+ 
+===> 087/1/roger-bell-west.raku <===
+1..4
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ok 4 - example 4
+ 
+===> 087/1/simon-proctor.raku <===
+2, 3, 4
+ 
+===> 087/1/stuart-little.raku <===
+(2 3 4)
+ 
+===> 087/1/wambash.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ok 4 - 
+ok 5 - 
+1..5

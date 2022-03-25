@@ -1,0 +1,21 @@
+#!/usr/bin/env raku
+
+my @N = <100 4 50 3 2>;
+    @N .= sort;
+    my ($start, $end) = 0, 0;
+
+    my $i = 1;
+    while $i < @N.elems {
+        my $from = $i - 1;
+        ++$i while $i < @N.elems and @N[$i - 1] + 1 == @N[$i];
+
+        if $i - $from > $end - $start {
+            $start = $from;
+            $end   = $i - 1;
+        }
+
+        ++$i;
+    }
+
+    say @N[$start .. $end] if $end > $start;
+#}

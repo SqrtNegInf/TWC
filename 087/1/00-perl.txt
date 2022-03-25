@@ -1,0 +1,154 @@
+ 
+===> 087/1/abigail.pl <===
+2, 3, 4
+0
+9, 10, 11
+ 
+===> 087/1/adam-russell.pl <===
+2,3,4
+0
+9,10,11
+ 
+===> 087/1/alexander-karelas.pl <===
+(9, 10, 11, 12, 13)
+ 
+===> 087/1/alexander-pankoff.pl <===
+(2, 3, 4)
+ 
+===> 087/1/arne-sommer.pl <===
+(2, 3, 4)
+ 
+===> 087/1/athanasius.pl <===
+Input:  @N = (100, 4, 50, 3, 2)
+Output: (2, 3, 4)
+ 
+===> 087/1/cheok-yin-fung.pl <===
+1..3
+
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ 
+===> 087/1/colin-crain.pl <===
+longest run is 3 elements 2 3 4
+ 
+===> 087/1/dave-jacoby.pl <===
+
+100, 4, 50, 3, 2
+2, 3, 4
+
+20, 30, 10, 40, 50
+0
+
+20, 19, 9, 11, 10
+9, 10, 11
+
+20, 21, 22, 23, 25, 26, 27, 28, 11, 12, 13, 14, 15, 16, 17, 18
+11, 12, 13, 14, 15, 16, 17, 18
+
+21, 20, 21, 0, -2, -1, -3, 1, 0
+-3, -2, -1, 0, 1
+ 
+===> 087/1/duane-powell.pl <===
+2,3,4
+ 
+===> 087/1/duncan-c-white.pl <===
+2,3,4
+ 
+===> 087/1/e-choroba.pl <===
+1..7
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ok 4 - More than one
+ok 5 - Has shorter
+ok 6 - Length 2
+ok 7 - Duplicates
+ 
+===> 087/1/jaldhar-h-vyas.pl <===
+(2, 3, 4)
+ 
+===> 087/1/james-smith.pl <===
+ok 1
+ok 2
+ok 3
+ok 4
+1..4
+ 
+===> 087/1/jeongoon.pl <===
+longest size: 3
+total 1 sequencies found.
+[2, 3, 4]
+ 
+===> 087/1/jo-37.pl <===
+# Seeded srand with seed '1' from import arg.
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ok 4 - max != index
+ok 5 - has duplicate
+ok 6 - works with broken numbers, too
+1..6
+ 
+===> 087/1/juliodcs.pl <===
+ok 1 - Tricky test: More elements at the end
+ok 2 - Empty list has no sequences
+ok 3 - One element has no sequence
+ok 4 - Two elements
+ok 5 - All elements reversed
+ok 6 - Two elements out of four
+ok 7 - Four elements
+ok 8 - Test 1 from PWC
+ok 9 - Test 2 from PWC
+ok 10 - Test 3 from PWC
+1..10
+ 
+===> 087/1/laurent-rosenfeld.pl <===
+2 3 4
+0
+9 10 11
+ 
+===> 087/1/lubos-kolouch.pl <===
+ok 1
+ok 2
+ok 3
+1..3
+ 
+===> 087/1/nunovieira220.pl <===
+9,10,11
+ 
+===> 087/1/paulo-custodio.pl <===
+(2, 3, 4)
+ 
+===> 087/1/pete-houston.pl <===
+2 3 4
+ 
+===> 087/1/polettix.pl <===
+(2, 3, 4)
+(2, 3, 4)
+(2, 3, 4)
+ 
+===> 087/1/roger-bell-west.pl <===
+1..4
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ok 4 - example 4
+ 
+===> 087/1/samir-parikh.pl <===
+Output: (2, 3, 4)
+ 
+===> 087/1/sgreen.pl <===
+Output: (2, 3, 4)
+ 
+===> 087/1/ulrich-rieke.pl <===
+(2 3 4 )
+ 
+===> 087/1/walt-mankowski.pl <===
+2 3 4
+ 
+===> 087/1/wanderdoc.pl <===
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+1..3
