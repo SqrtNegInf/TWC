@@ -1,0 +1,66 @@
+ 
+===> 156/2/0rir.raku <===
+Input: $n = 70
+Output: 1
+
+Since the proper divisors of 70 are 1, 2, 5, 7, 10, 14 and 35 sums to 74 and no subset of divisors sums to 70.
+ 
+===> 156/2/2colours.raku <===
+70
+836
+ 
+===> 156/2/arne-sommer.raku <===
+1
+ 
+===> 156/2/athanasius.raku <===
+Input:  $n = 70
+Output: 1
+
+Explanation:
+The proper divisors of 70 (1, 2, 5, 7, 10, 14, 35) sum to 74,
+and no subset of these proper divisors sums to 70,
+therefore 70 is weird because it is abundant but not semiperfect
+ 
+===> 156/2/colin-crain.raku <===
+70
+836
+ 
+===> 156/2/jaldhar-h-vyas.raku <===
+1
+ 
+===> 156/2/laurent-rosenfeld.raku <===
+Found 70
+Found 836
+ 
+===> 156/2/luca-ferrari.raku <===
+1
+ 
+===> 156/2/mark-anderson.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ok 4 - 
+ok 5 - 
+ok 6 - 
+ok 7 - 
+ok 8 - 
+ok 9 - 
+ 
+===> 156/2/polettix.raku <===
+12 0
+70 1
+ 
+===> 156/2/robert-dicicco.raku <===
+Divisors: 1 2 5 7 35 14 10
+Input: n = 70
+Output: 1
+No subset sums to 70
+ 
+===> 156/2/roger-bell-west.raku <===
+1..3
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ 
+===> 156/2/ulrich-rieke.raku <===
+1
