@@ -52,7 +52,8 @@ unless (scalar keys %triples) {
 	exit;
 }
 
-print "(@$_)\n" for sort values %triples;
+print "(@{$triples{$_}})\n" for sort keys %triples;
+#print "(@$_)\n" for sort values %triples;
 
 sub store_if_sq {
 	my ($tri, $sqdiff, @rest) = @_;
