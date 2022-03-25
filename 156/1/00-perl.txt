@@ -1,0 +1,101 @@
+ 
+===> 156/1/adam-russell.pl <===
+3, 5, 6, 7, 9, 10, 11, 12, 13, 14
+ 
+===> 156/1/athanasius.pl <===
+The first 10 Pernicious Numbers:
+3, 5, 6, 7, 9, 10, 11, 12, 13, 14
+ 
+===> 156/1/cheok-yin-fung.pl <===
+3, 5, 6, 7, 9, 10, 11, 12, 13, 14
+ 
+===> 156/1/colin-crain.pl <===
+3 5 6 7 9 10 11 12 13 14 17 18 19 20 21 22 24 25 26 28 31 33 34 35 36 37 38 40 41 42 44
+ 
+===> 156/1/dave-jacoby.pl <===
+3, 5, 6, 7, 9, 10, 11, 12, 13, 14
+ 
+===> 156/1/duncan-c-white.pl <===
+3,5,6,7,9,10,11,12,13,14
+ 
+===> 156/1/e-choroba.pl <===
+1..1
+ok 1 - 10 pernicious numbers
+ 
+===> 156/1/jaldhar-h-vyas.pl <===
+3, 5, 6, 7, 9, 10, 11, 12, 13, 14
+ 
+===> 156/1/james-smith.pl <===
+3
+5
+6
+7
+9
+10
+11
+12
+13
+14
+ 
+===> 156/1/jo-37.pl <===
+# Seeded srand with seed '1' from import arg.
+ok 1 - task 1
+ok 2 - \#65 from OEIS A052294
+1..2
+ 
+===> 156/1/kueppo-wesley.pl <===
+3, 5, 6, 7, 9, 10, 11, 12, 13, 14, 
+ 
+===> 156/1/laurent-rosenfeld.pl <===
+3, 5, 6, 7, 9, 10, 11, 12, 13, 14
+ 
+===> 156/1/lubos-kolouch.pl <===
+ok 1
+1..1
+ 
+===> 156/1/mattneleigh.pl <===
+
+The first 10 Pernicious Numbers are:
+    3, 5, 6, 7, 9, 10, 11, 12, 13, 14
+
+ 
+===> 156/1/mohammad-anwar.pl <===
+ok 1 - Example
+1..1
+ 
+===> 156/1/perlboy1967.pl <===
+3,5,6,7,9,10,11,12,13,14
+ 
+===> 156/1/pete-houston.pl <===
+3 5 6 7 9 10 11 12 13 14
+ 
+===> 156/1/peter-campbell-smith.pl <===
+3
+5
+6
+7
+9
+10
+11
+12
+13
+14
+ 
+===> 156/1/pokgopun.pl <===
+3, 5, 6, 7, 9, 10, 11, 12, 13, 14
+ 
+===> 156/1/polettix.pl <===
+3, 5, 6, 7, 9, 10, 11, 12, 13, 14
+ 
+===> 156/1/robert-dicicco.pl <===
+3 5 6 7 9 10 11 12 13 14 
+ 
+===> 156/1/roger-bell-west.pl <===
+1..1
+ok 1 - example 1
+ 
+===> 156/1/ulrich-rieke.pl <===
+3,5,6,7,9,10,11,12,13,14
+ 
+===> 156/1/wlmb.pl <===
+The first 10 pernicious numbers are 3, 5, 6, 7, 9, 10, 11, 12, 13, 14
