@@ -1,0 +1,197 @@
+ 
+===> 087/2/arne-sommer.raku <===
+[ 1 1 1 1 1 ]
+[ 1 1 1 1 1 ]
+ 
+===> 087/2/ash.raku <===
+There’s a unit-only rectangle 2✕5 at position (3, 0) with the area 10.
+ 
+===> 087/2/athanasius.raku <===
+Input:
+    [ 0 0 0 1 0 0 ]
+    [ 1 1 1 0 0 0 ]
+    [ 0 0 1 0 0 1 ]
+    [ 1 1 1 1 1 0 ]
+    [ 1 1 1 1 1 0 ]
+
+Output:
+    [ 1 1 1 1 1 ]
+    [ 1 1 1 1 1 ]
+ 
+===> 087/2/feng-chang.raku <===
+1 1 1 1 1
+1 1 1 1 1
+ 
+===> 087/2/gugod.raku <===
+Input:
+[0 0 0 1 0 0]
+[1 1 1 0 0 0]
+[0 0 1 0 0 1]
+[1 1 1 1 1 0]
+[1 1 1 1 1 0]
+Output:
+[1 1 1 1 1 1 1 1 1 1]
+
+Input:
+[0 0 0 1 0 0]
+[1 1 1 0 0 0]
+[0 0 1 0 0 1]
+[1 1 1 1 1 0]
+[1 1 1 1 1 0]
+Output:
+[1 1 1 1 1 1 1 1 1 1]
+
+Input:
+[0 0 0 1 1 1]
+[1 1 1 1 1 1]
+[0 0 1 0 0 1]
+[0 0 1 1 1 1]
+[0 0 1 1 1 1]
+Output:
+[1 1 1 1 1 1 1 1]
+
+Input:
+[0 0 0 1 0 1]
+[0 0 1 0 0 0]
+[1 0 0 0 0 1]
+[0 0 1 0 1 0]
+Output:
+0
+
+ 
+===> 087/2/jaldhar-h-vyas.raku <===
+[ 1 1 1 1 1 ]
+[ 1 1 1 1 1 ]
+ 
+===> 087/2/jeongoon.raku <===
+[1 0 1 0 1 0]
+[0 1 0 1 0 1]
+[0 0 1 0 0 1]
+[▨ ▨ ▨ ▨ ▨ 0]
+[▨ ▨ ▨ ▨ ▨ 0]
+ 
+===> 087/2/juliodcs.raku <===
+
+<<Using algorithm 1>>
+
+ok 1 - Shortest rectangle possible
+ok 2 - Small square
+ok 3 - All ones small
+ok 4 - Beginning rectangle
+ok 5 - None found
+ok 6 - None found again
+ok 7 - Big square
+ok 8 - Several lengths
+ok 9 - Test case 1
+ok 10 - Test case 2
+ok 11 - Test case 3
+ok 12 - Yet another test
+ok 13 - Biggest rectangle has offset
+ 
+===> 087/2/laurent-rosenfeld.raku <===
+[ 0 1 0 1 ]
+[ 0 0 1 0 ]
+[ 1 1 0 1 ]
+[ 1 1 0 1 ]
+
+Rectangle corners: ((2 0) (3 1))
+(1 1)
+(1 1)
+
+[ 1 1 0 1 ]
+[ 1 1 0 0 ]
+[ 0 1 1 1 ]
+[ 1 0 1 1 ]
+
+Rectangle corners: ((2 2) (3 3))
+(1 1)
+(1 1)
+
+[ 0 1 0 1 ]
+[ 1 0 1 0 ]
+[ 0 1 0 0 ]
+[ 1 0 0 1 ]
+
+0
+
+[ 1 1 0 1 1 1 ]
+[ 1 1 1 0 1 0 ]
+[ 1 1 0 1 0 1 ]
+[ 1 1 1 0 0 1 ]
+
+Rectangle corners: ((0 0) (3 1))
+(1 1)
+(1 1)
+(1 1)
+(1 1)
+
+[ 0 0 0 1 0 0 ]
+[ 1 1 1 0 0 0 ]
+[ 0 0 1 0 0 1 ]
+[ 1 1 1 1 1 0 ]
+[ 1 1 1 1 1 0 ]
+
+Rectangle corners: ((3 0) (4 4))
+(1 1 1 1 1)
+(1 1 1 1 1)
+
+[ 0 0 0 1 1 1 ]
+[ 1 1 1 1 1 1 ]
+[ 0 0 1 0 0 1 ]
+[ 0 0 1 1 1 1 ]
+[ 0 0 1 1 1 1 ]
+
+Rectangle corners: ((3 2) (4 5))
+(1 1 1 1)
+(1 1 1 1)
+
+ 
+===> 087/2/mark-anderson.raku <===
+1..4
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ok 4 - Example 4
+ 
+===> 087/2/pjdurai.raku <===
+Problem:
+0 0 0 1 1 1
+1 1 1 1 1 1
+0 0 1 0 0 1
+0 0 1 1 1 1
+0 0 1 1 1 1
+
+Solution :
+1 1 1 1 
+1 1 1 1 
+
+Problem:
+1 0 1 0 1 0
+0 1 0 1 0 1
+1 0 1 0 1 0
+0 1 0 1 0 1
+
+Solution :
+0
+
+Problem:
+0 0 0 1 0 0
+1 1 1 0 0 0
+0 0 1 0 0 1
+1 1 1 1 1 0
+1 1 1 1 1 0
+
+Solution :
+1 1 1 1 1 
+1 1 1 1 1 
+
+ 
+===> 087/2/roger-bell-west.raku <===
+1..3
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ 
+===> 087/2/stuart-little.raku <===
+11111
+11111

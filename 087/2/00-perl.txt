@@ -1,0 +1,330 @@
+ 
+===> 087/2/abigail.pl <===
+1 1 1 1 1
+1 1 1 1 1
+ 
+===> 087/2/adam-russell.pl <===
+[1 1 1 1 1]
+[1 1 1 1 1]
+0
+[1 1 1 1]
+[1 1 1 1]
+ 
+===> 087/2/alexander-karelas.pl <===
+[ 1 1 ]
+[ 1 1 ]
+[ 1 1 ]
+[ 1 1 ]
+ 
+===> 087/2/athanasius.pl <===
+Input:
+    [ 0 0 0 1 0 0 ]
+    [ 1 1 1 0 0 0 ]
+    [ 0 0 1 0 0 1 ]
+    [ 1 1 1 1 1 0 ]
+    [ 1 1 1 1 1 0 ]
+
+Output:
+    [ 1 1 1 1 1 ]
+    [ 1 1 1 1 1 ]
+ 
+===> 087/2/colin-crain.pl <===
+0 0 0 1 1 1
+1 1 1 1 1 1
+0 0 1 0 0 1
+0 0 1 1 1 1
+0 0 1 1 1 1
+
+[ 1 1 1 1 ]
+[ 1 1 1 1 ]
+ 
+===> 087/2/dave-jacoby.pl <===
+====================
+0 0 0 1 0 0
+1 1 1 0 0 0
+0 0 1 0 0 1
+1 1 1 1 1 0
+1 1 1 1 1 0
+----------
+1 1 1 1 1
+1 1 1 1 1
+----------
+
+====================
+1 0 1 0 1 0
+0 1 0 1 0 1
+1 0 1 0 1 0
+0 1 0 1 0 1
+----------
+0
+
+====================
+0 0 0 1 1 1
+1 1 1 1 1 1
+0 0 1 0 0 1
+0 0 1 1 1 1
+0 0 1 1 1 1
+----------
+1 1 1 1
+1 1 1 1
+----------
+
+====================
+0 0 1 1
+0 0 1 1
+0 0 1 1
+0 0 1 1
+0 0 1 1
+0 0 1 1
+0 0 1 1
+0 0 1 1
+----------
+1 1
+1 1
+1 1
+1 1
+1 1
+1 1
+1 1
+1 1
+----------
+
+ 
+===> 087/2/duane-powell.pl <===
+
+Input:
+	[ 0 0 0 1 0 0 ]
+	[ 1 1 1 0 0 0 ]
+	[ 0 0 1 0 0 1 ]
+	[ 1 1 1 1 1 0 ]
+	[ 1 1 1 1 1 0 ]
+
+Output: 10
+	[ 1 1 1 1 1 ]
+	[ 1 1 1 1 1 ]
+
+
+Input:
+	[ 1 0 1 0 1 0 ]
+	[ 0 1 0 1 0 1 ]
+	[ 1 0 1 0 1 0 ]
+	[ 0 1 0 1 0 1 ]
+
+Output: 0
+
+Input:
+	[ 0 0 0 1 1 1 ]
+	[ 1 1 1 1 1 1 ]
+	[ 0 0 1 0 0 1 ]
+	[ 0 0 1 1 1 1 ]
+	[ 0 0 1 1 1 1 ]
+
+Output: 8
+	[ 1 1 1 1 ]
+	[ 1 1 1 1 ]
+
+
+Input:
+	[ 1 1 1 1 0 1 ]
+	[ 1 1 1 1 0 1 ]
+	[ 0 0 1 1 1 0 ]
+	[ 0 0 1 1 1 0 ]
+	[ 1 0 1 1 1 0 ]
+	[ 1 0 0 0 0 0 ]
+
+Output: 10
+	[ 1 1 ]
+	[ 1 1 ]
+	[ 1 1 ]
+	[ 1 1 ]
+	[ 1 1 ]
+
+
+Input:
+	[ 1 1 1 1 ]
+	[ 1 0 1 1 ]
+	[ 1 1 1 1 ]
+	[ 1 1 0 1 ]
+	[ 1 1 1 1 ]
+
+Output: 6
+	[ 1 1 ]
+	[ 1 1 ]
+	[ 1 1 ]
+
+ 
+===> 087/2/e-choroba.pl <===
+ok 1 - Example 1 - details
+ok 2 - Example 2 - details
+ok 3 - Example 3 - details
+ok 4 - Three solutions - details
+ok 5 - 2x6 versus 3x4 - details
+ok 6 - Example 1
+ok 7 - Example 2
+ok 8 - Example 3
+ok 9 - Three solutions
+ok 10 - 2x6 versus 3x4
+1..10
+ 
+===> 087/2/jaldhar-h-vyas.pl <===
+[ 1 1 1 1 1 ]
+[ 1 1 1 1 1 ]
+ 
+===> 087/2/jo-37.pl <===
+# Seeded srand with seed '1' from import arg.
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ok 4 - skipped test # skip additional example
+ok 5 - skipped test # skip additional example
+1..5
+ 
+===> 087/2/juliodcs.pl <===
+ok 1 - Shortest rectangle possible
+ok 2 - Small square
+ok 3 - All ones small
+ok 4 - Beginning rectangle
+ok 5 - None found
+ok 6 - None found again
+ok 7 - Big square
+ok 8 - Several lengths
+ok 9 - Test case 1
+ok 10 - Test case 2
+ok 11 - Test case 3
+ok 12 - Yet another test
+ok 13 - Biggest rectangle has offset
+1..13
+ 
+===> 087/2/laurent-rosenfeld.pl <===
+
+[ 0 1 0 1 ]
+[ 0 0 1 0 ]
+[ 1 1 0 1 ]
+[ 1 1 0 1 ]
+
+Rectangle corners: 
+2 0
+3 1
+
+Rectangle:
+1 1
+1 1
+
+
+[ 1 1 0 1 ]
+[ 1 1 0 0 ]
+[ 0 1 1 1 ]
+[ 1 0 1 1 ]
+
+Rectangle corners: 
+0 0
+1 1
+
+Rectangle:
+1 1
+1 1
+
+
+[ 0 1 0 1 ]
+[ 1 0 1 0 ]
+[ 0 1 0 0 ]
+[ 1 0 0 1 ]
+
+0
+
+[ 1 1 0 1 1 1 ]
+[ 1 1 1 0 1 0 ]
+[ 1 1 0 1 0 1 ]
+[ 1 1 1 0 0 1 ]
+
+Rectangle corners: 
+0 0
+3 1
+
+Rectangle:
+1 1
+1 1
+1 1
+1 1
+
+
+[ 0 0 0 1 0 0 ]
+[ 1 1 1 0 0 0 ]
+[ 0 0 1 0 0 1 ]
+[ 1 1 1 1 1 0 ]
+[ 1 1 1 1 1 0 ]
+
+Rectangle corners: 
+3 0
+4 4
+
+Rectangle:
+1 1 1 1 1
+1 1 1 1 1
+
+
+[ 1 0 1 0 1 0 ]
+[ 0 1 0 1 0 1 ]
+[ 1 0 1 0 1 0 ]
+[ 0 1 0 1 0 1 ]
+
+0
+
+[ 0 0 0 1 1 1 ]
+[ 1 1 1 1 1 1 ]
+[ 0 0 1 0 0 1 ]
+[ 0 0 1 1 1 1 ]
+[ 0 0 1 1 1 1 ]
+
+Rectangle corners: 
+3 2
+4 4
+
+Rectangle:
+1 1 1
+1 1 1
+
+ 
+===> 087/2/lubos-kolouch.pl <===
+[ 1 1 1 1 1 ]
+[ 1 1 1 1 1 ]
+ok 1
+0
+ok 2
+[ 1 1 1 1 ]
+[ 1 1 1 1 ]
+ok 3
+1..3
+ 
+===> 087/2/nunovieira220.pl <===
+Result rectangule is located between (3, 2) and (4, 5) with total area of 8.
+ 
+===> 087/2/polettix.pl <===
+[ 1 1 1 1 1 ]
+[ 1 1 1 1 1 ]
+ 
+===> 087/2/roger-bell-west.pl <===
+1..3
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ 
+===> 087/2/wanderdoc.pl <===
+1 1 1 1 1
+1 1 1 1 1
+
+
+0
+
+1 1 1 1
+1 1 1 1
+
+
+1 1
+1 1
+1 1
+
+1 1 1
+1 1 1
+
+
