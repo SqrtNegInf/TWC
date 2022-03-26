@@ -1,0 +1,83 @@
+ 
+===> 086/1/arne-sommer.raku <===
+1
+ 
+===> 086/1/ash.raku <===
+1
+ 
+===> 086/1/athanasius.raku <===
+Input:  @N = (10, 8, 12, 15, 5) and $A = 7
+Output: 1 as 15 - 8 = 7
+ 
+===> 086/1/colin-crain.raku <===
+1
+ 
+===> 086/1/feng-chang.raku <===
+1
+ 
+===> 086/1/gugod.raku <===
+1
+1
+ 
+===> 086/1/jaldhar-h-vyas.raku <===
+1
+ 
+===> 086/1/juliodcs.raku <===
+ok 1 - test1
+ok 2 - test2
+ok 3 - test3
+1..3
+ 
+===> 086/1/laurent-rosenfeld.raku <===
+Testing: target: 7 and 10 8 12 15 5
+(8 15)
+1
+Testing: target: 6 and 1 5 2 9 7
+(1 7)
+1
+Testing: target: 15 and 10 30 20 50 40
+0
+Testing: target: 9 and 7 20 15 11 12
+(20 11)
+1
+ 
+===> 086/1/mark-anderson.raku <===
+1..3
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ 
+===> 086/1/pjdurai.raku <===
+ok 1 - (1, 5, 2, 9, 7), 6) -> 1
+ok 2 - (10, 8, 12, 15, 5), 7 ) -> 1
+ok 3 - (10, 30, 20, 50, 40), 15) -> 0 
+ 
+===> 086/1/pkmnx.raku <===
+Input: @N = (10 8 12 15 5) and $A = 7
+Output: 1 as
+   12 - 5 = 7
+   15 - 8 = 7
+ 
+===> 086/1/roger-bell-west.raku <===
+1..3
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ 
+===> 086/1/simon-proctor.raku <===
+1
+ 
+===> 086/1/stuart-little.raku <===
+1: 15-8=7
+ 
+===> 086/1/swaggboi.raku <===
+1
+ 
+===> 086/1/ulrich-rieke.raku <===
+1
+ 
+===> 086/1/wambash.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ok 4 - 
