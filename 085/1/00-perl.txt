@@ -1,0 +1,163 @@
+ 
+===> 085/1/abigail.pl <===
+1
+0
+1
+ 
+===> 085/1/adam-russell.pl <===
+1
+ 
+===> 085/1/arne-sommer.pl <===
+1
+ 
+===> 085/1/athanasius.pl <===
+Input:  @R = (1.2, 0.4, 0.1, 2.5)
+Output: 1 as 1 < (1.2 + 0.4 + 0.1 = 1.700000) < 2
+ 
+===> 085/1/cheok-yin-fung.pl <===
+array of positive real numbers: 0.4 0.4 0.5 0.6
+
+  0.4 + 0.4 + 0.5
+= 1.3
+
+1
+  0.1 + 0.4 + 1.2
+= 1.7
+
+ok 1 - Example 1
+ok 2 - Example 2
+  0.3 + 0.5 + 0.7
+= 1.5
+
+ok 3 - Example 3
+  0.33 + 0.33 + 0.44
+= 1.1
+
+ok 4 - My Test Case 1
+1..4
+ 
+===> 085/1/colin-crain.pl <===
+1 
+===> 085/1/cristian-heredia.pl <===
+Output: 1 as 1 < 0.5+ 1.1 + 0.3 < 2
+ 
+===> 085/1/dave-jacoby.pl <===
+1.2, 0.4, 0.1, 2.5
+1.2 + 0.4 + 0.1
+1
+
+0.2, 1.5, 0.9, 1.1
+0
+
+0.5, 1.1, 0.3, 0.7
+0.5 + 1.1 + 0.3
+1
+
+ 
+===> 085/1/duncan-c-white.pl <===
+1
+ 
+===> 085/1/e-choroba.pl <===
+1..6
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ok 4
+ok 5
+ok 6
+ 
+===> 085/1/jaldhar-h-vyas.pl <===
+1
+ 
+===> 085/1/james-smith.pl <===
+ok 1
+ok 2
+ok 3
+1..3
+ 
+===> 085/1/jeongoon.pl <===
+1.0 < ( 0.1 + 0.4 + 1.2 == 1.7 ) < 2.0
+ 
+===> 085/1/juliodcs.pl <===
+ok 1 - Empty array cannot make triplet
+ok 2 - One element cannot make triplet
+ok 3 - Two elements cannot make triplet
+ok 4 - Simple triplet
+ok 5 - Simple triplet with many numbers
+ok 6 - Test case 1
+ok 7 - Test case 2
+ok 8 - Test case 3
+1..8
+ 
+===> 085/1/kai-burgdorf.pl <===
+1 < (1.1+0.3+0.5) < 2
+ 
+===> 085/1/lars-thegler.pl <===
+1
+ 
+===> 085/1/laurent-rosenfeld.pl <===
+Testing: 1.2 0.4 0.1 2.5
+1.2 0.4 0.1
+1
+Testing: 0.2 1.5 0.9 1.1
+0
+Testing: 0.5 1.1 0.3 0.7
+0.5 1.1 0.3
+1
+Testing: 0.7 4.3 -4.1 1.1
+4.3 -4.1 1.1
+1
+ 
+===> 085/1/lubos-kolouch.pl <===
+ok 1
+ok 2
+ok 3
+ok 4
+1..4
+ 
+===> 085/1/nunovieira220.pl <===
+1
+ 
+===> 085/1/paulo-custodio.pl <===
+1
+ 
+===> 085/1/perlboy1967.pl <===
+Triplet (1.2, 0.4, 0.1) 'fits' (1.0 < 1.7 < 2.0)
+ 
+===> 085/1/pete-houston.pl <===
+1
+ 
+===> 085/1/polettix.pl <===
+1
+ 
+===> 085/1/roger-bell-west.pl <===
+1..3
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ 
+===> 085/1/samir-parikh.pl <===
+found triplet such that 1 < 1.2 + 0.4 + 0.1 < 2
+ 
+===> 085/1/sgreen.pl <===
+Output: 1 as 1 < 1.2 + 0.4 + 0.1 < 2
+ 
+===> 085/1/shawn-wagner.pl <===
+1
+0
+1
+ 
+===> 085/1/steve-rogerson.pl <===
+
+ 
+===> 085/1/ulrich-rieke.pl <===
+1
+ 
+===> 085/1/walt-mankowski.pl <===
+1
+ 
+===> 085/1/wanderdoc.pl <===
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+1..3

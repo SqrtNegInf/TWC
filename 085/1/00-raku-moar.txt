@@ -1,0 +1,75 @@
+ 
+===> 085/1/arne-sommer.raku <===
+1
+0
+1
+ 
+===> 085/1/ash.raku <===
+1
+0
+1
+ 
+===> 085/1/athanasius.raku <===
+Input:  @R = (1.2, 0.4, 0.1, 2.5)
+Output: 1 as 1 < (1.2 + 0.4 + 0.1 = 1.700000) < 2
+ 
+===> 085/1/colin-crain.raku <===
+1
+ 
+===> 085/1/jeongoon.raku <===
+1.0 < (1.2 + 0.4 + 0.1) < 2.0
+alternative solution using iterator ...
+1.0 < (0.1 + 0.4 + 1.2) < 2.0
+ 
+===> 085/1/juliodcs.raku <===
+ok 1 - Empty array cannot make triplet
+ok 2 - One element cannot make triplet
+ok 3 - Two elements cannot make triplet
+ok 4 - Simple triplet
+ok 5 - Simple triplet with many numbers
+ok 6 - Test case 1
+ok 7 - Test case 2
+ok 8 - Test case 3
+1..8
+ 
+===> 085/1/laurent-rosenfeld.raku <===
+Testing: 1.2 0.4 0.1 2.5
+(1.2 0.4 0.1)
+1
+Testing: 0.2 1.5 0.9 1.1
+0
+Testing: 0.5 1.1 0.3 0.7
+(0.5 1.1 0.3)
+(0.5 0.3 0.7)
+1
+Testing: 0.7 4.3 -0.1 1.1
+(0.7 -0.1 1.1)
+1
+ 
+===> 085/1/mark-anderson.raku <===
+1..3
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ 
+===> 085/1/roger-bell-west.raku <===
+1..3
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ 
+===> 085/1/simon-proctor.raku <===
+1
+ 
+===> 085/1/stuart-little.raku <===
+1: 1.2 0.4 0.1
+ 
+===> 085/1/ulrich-rieke.raku <===
+1
+ 
+===> 085/1/wambash.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ok 4 - 
+1..4
