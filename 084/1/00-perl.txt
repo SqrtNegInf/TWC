@@ -1,0 +1,222 @@
+ 
+===> 084/1/abigail.pl <===
+4321
+-4321
+0
+2147483647
+0
+0
+-2147483647
+-2147483648
+0
+0
+0
+ 
+===> 084/1/adam-russell.pl <===
+-0071
+ 
+===> 084/1/alexander-pankoff.pl <===
+-0071
+ 
+===> 084/1/arne-sommer.pl <===
+-0071
+ 
+===> 084/1/athanasius.pl <===
+Input:  -1700
+Output: -71
+ 
+===> 084/1/bob-lied.pl <===
+-71
+ 
+===> 084/1/cheok-yin-fung.pl <===
+-1000000
+-0000001
+ 
+===> 084/1/colin-crain.pl <===
+
+=========================
+
+the right way. Reverse the string:
+
+input:  7463847412
+output: 2147483647
+
+=========================
+
+hard mode, done positionally:
+
+starting output = 0
+--> adding 7 x 10^0 =          7
+--> adding 4 x 10^1 =         47
+--> adding 6 x 10^2 =        647
+--> adding 3 x 10^3 =       3647
+--> adding 8 x 10^4 =      83647
+--> adding 4 x 10^5 =     483647
+--> adding 7 x 10^6 =    7483647
+--> adding 4 x 10^7 =   47483647
+--> adding 1 x 10^8 =  147483647
+--> adding 2 x 10^9 = 2147483647
+
+input : 7463847412
+output: 2147483647
+
+=========================
+
+hard mode, done mathematically:
+
+2000000000
+2100000000
+2140000000
+2147000000
+2147400000
+2147480000
+2147483000
+2147483600
+2147483640
+2147483647
+
+input : 7463847412
+output: 2147483647
+ 
+===> 084/1/cristian-heredia.pl <===
+Output: -0071
+ 
+===> 084/1/dave-cross.pl <===
+-71
+ 
+===> 084/1/dave-jacoby.pl <===
+-71
+ 
+===> 084/1/ddobbelaere.pl <===
+-71
+ 
+===> 084/1/duncan-c-white.pl <===
+-0071
+ 
+===> 084/1/e-choroba.pl <===
+1..8
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ok 4 - maxint32
+ok 5 - maxint+1
+ok 6 - minint32
+ok 7 - minint-1
+ok 8 - remove zeroes
+ 
+===> 084/1/gugod.pl <===
+1234 -> 4321
+0 -> 0
+-1700 -> -71
+ 
+===> 084/1/jaldhar-h-vyas.pl <===
+-71
+ 
+===> 084/1/james-smith.pl <===
+-71
+ 
+===> 084/1/jeongoon.pl <===
+Input:
+Sign:  (-)
+Value: 71
+Limt:  2147483648
+Reversed: -71
+ 
+===> 084/1/jluis.pl <===
+-0071
+ 
+===> 084/1/jo-37.pl <===
+# Seeded srand with seed '1' from import arg.
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ok 4 - negative limit
+ok 5 - positive limit
+ok 6 - below negative limit
+ok 7 - above positive limit
+ok 8 - accept octal
+ok 9 - do not generate octal
+ok 10 - accept hex
+ok 11 - ignore part after decimal point
+ok 12 - signless zero
+ok 13 - list input
+1..13
+ 
+===> 084/1/juliodcs.pl <===
+ok 1 - Integer last + 1
+ok 2 - Big number
+ok 3 - Small number
+ok 4 - Zero, no sign
+ok 5 - Zero, with sign is still zero
+ok 6 - 123=321
+ok 7 - 2147483641=1463847412
+ok 8 - -2147483641=-1463847412
+1..8
+ 
+===> 084/1/kai-burgdorf.pl <===
+-0071
+ 
+===> 084/1/lars-thegler.pl <===
+-71
+ 
+===> 084/1/laurent-rosenfeld.pl <===
+-71
+ 
+===> 084/1/lubos-kolouch.pl <===
+ok 1
+ok 2
+ok 3
+ok 4
+ok 5
+ok 6
+ok 7
+1..7
+ 
+===> 084/1/nunovieira220.pl <===
+-71
+ 
+===> 084/1/paulo-custodio.pl <===
+-71
+ 
+===> 084/1/perlboy1967.pl <===
+Input: -1700
+Output: 71
+ 
+===> 084/1/pete-houston.pl <===
+-71
+ 
+===> 084/1/polettix.pl <===
+-0071
+ 
+===> 084/1/rage311.pl <===
+-0071
+ 
+===> 084/1/roger-bell-west.pl <===
+1..4
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ok 4 - example 4
+ 
+===> 084/1/samir-parikh.pl <===
+-0071
+ 
+===> 084/1/sgreen.pl <===
+-0071
+ 
+===> 084/1/shawn-wagner.pl <===
+1234
+-4321
+0
+-0071
+ 
+===> 084/1/walt-mankowski.pl <===
+-0071
+ 
+===> 084/1/wanderdoc.pl <===
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ok 4 - Example with 0
+ok 5 - Example with 0 and minus
+1..5

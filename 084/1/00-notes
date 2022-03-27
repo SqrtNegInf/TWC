@@ -1,0 +1,7 @@
+JVM gives a result when it should fail:
+
+# Failed test 'example 3'
+# at roger-bell-west.raku line 9
+# expected: '0'
+#      got: '2150321321'
+# You failed 1 test of 4
