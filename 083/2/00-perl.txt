@@ -1,0 +1,175 @@
+ 
+===> 083/2/abigail.pl <===
+3
+ 
+===> 083/2/adam-russell.pl <===
+[3, 10, 8] -->  [3, -10, 8] = 1
+[12, 2, 10] -->  [-12, 2, 10] = 0
+ 
+===> 083/2/alexander-pankoff.pl <===
+2
+ 
+===> 083/2/athanasius.pl <===
+  Input:  @A = (2, 13, 10, 8)
+  Output: 2
+
+Explanation:
+  Flipping the sign of 2 elements (2, 13) gives the result 3
+ 
+===> 083/2/cheok-yin-fung.pl <===
+1..4
+2
+ok 1 - ten
+ok 2 - example 1
+ok 3 - one to six
+ok 4 - one to six,arr
+ 
+===> 083/2/colin-crain.pl <===
+input array    : 2 13 10 8
+minimum sum    : 3
+negative values: -2 -13
+
+equation:
+
+10 + 8 - 2 - 13 = 3
+ 
+===> 083/2/dave-cross.pl <===
+2
+ 
+===> 083/2/dave-jacoby.pl <===
+
+1
+1
+3, -10, 8
+
+4
+1
+12, 2, -10
+
+3
+2
+-2, -13, 10, 8
+ 
+===> 083/2/ddobbelaere.pl <===
+2
+ 
+===> 083/2/duncan-c-white.pl <===
+minsum=3, minswaps=2
+ 
+===> 083/2/e-choroba.pl <===
+1..7
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example X
+ok 4 - Example 1
+ok 5 - Example 2
+ok 6 - long
+ok 7 - very long
+ 
+===> 083/2/jaldhar-h-vyas.pl <===
+2
+ 
+===> 083/2/james-smith.pl <===
+ok 1
+ok 2
+ok 3
+ok 4
+ok 5
+ok 6
+1..6
+ 
+===> 083/2/jeongoon.pl <===
+2
+ 
+===> 083/2/jo-37.pl <===
+# Seeded srand with seed '1' from import arg.
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3
+ok 4
+ok 5
+ok 6
+1..6
+ 
+===> 083/2/juliodcs.pl <===
+ok 1 - One element
+ok 2 - Two equal elements
+ok 3 - Two different elements
+ok 4 - Two different elements - unsorted
+ok 5 - turn middle element
+ok 6 - turns one element (8)
+ok 7 - turns two elements (8, 4)
+ok 8 - turns two element (12, 2)
+ok 9 - turns one element (15)
+ok 10 - Equal elements with zeroes
+ok 11 - Three flips
+ok 12 - Example 1
+ok 13 - Example 2
+ok 14 - Example X
+1..14
+ 
+===> 083/2/lars-thegler.pl <===
+1
+ 
+===> 083/2/laurent-rosenfeld.pl <===
+Sum: 3 - digits: -2 -13 10 8
+Number of negative numbers: 2
+ 
+===> 083/2/lubos-kolouch.pl <===
+ok 1
+ok 2
+ok 3
+1..3
+ 
+===> 083/2/nunovieira220.pl <===
+3
+ 
+===> 083/2/paulo-custodio.pl <===
+2
+ 
+===> 083/2/perlboy1967.pl <===
+Input: @A = (2, 13, 10, 8)
+Output: 3
+Evidence: (-2) + (-13) + (10) + (8)
+ 
+===> 083/2/pete-houston.pl <===
+New min 13 for 10
+New min 7 for 13
+New min 3 for 8 10
+Mininum 2 signs flipped for lowest non-negative total of 3.
+ 
+===> 083/2/pkmnx.pl <===
+
+Input: 3 10 8 23 34 52 343 23 123 11 898 238 2 567 98
+Output: 5
+Flipping the sign of just 5 elements (23, 34, 23, 898, 238) gives the result 1.
+ i.e.: (3) + (10) + (8) + (-23) + (-34) + (52) + (343) + (-23) + (123) + (11) + (-898) + (-238) + (2) + (567) + (98)
+
+ 
+===> 083/2/polettix.pl <===
+2
+ 
+===> 083/2/roger-bell-west.pl <===
+1..4
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ok 4 - example X
+ 
+===> 083/2/sgreen.pl <===
+RESULT IS: 2 (-13 -2 8 10)
+ 
+===> 083/2/shawn-wagner.pl <===
+1
+1
+1
+ 
+===> 083/2/steve-rogerson.pl <===
+-2 -13 10 8
+3
+ 
+===> 083/2/ulrich-rieke.pl <===
+13
+ 
+===> 083/2/walt-mankowski.pl <===
+min sum = 3 min num = 2

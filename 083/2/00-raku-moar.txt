@@ -1,0 +1,94 @@
+ 
+===> 083/2/arne-sommer.raku <===
+: Lowest non-negative sum: 13
+1
+ 
+===> 083/2/ash.raku <===
+Number of sign flips: 2; min sum: 3
+ 
+===> 083/2/athanasius.raku <===
+  Input:  @A = (2, 13, 10, 8)
+  Output: 2
+
+Explanation:
+  Flipping the sign of 2 elements (2, 13) gives the result 3
+ 
+===> 083/2/colin-crain.raku <===
+input array    : [2 13 10 8]
+min total      : 3
+negative values:  -2  -13
+
+
+10 + 8 - 2 - 13 = 3
+ 
+===> 083/2/daniel-mita.raku <===
+2
+ 
+===> 083/2/feng-chang.raku <===
+3, 2
+ 
+===> 083/2/gugod.raku <===
+>> 3 = ([+] 2 13 10 8) - 2 * ([+] 2 13)
+2
+ 
+===> 083/2/jaldhar-h-vyas.raku <===
+2
+ 
+===> 083/2/jeongoon.raku <===
+5
+ 
+===> 083/2/juliodcs.raku <===
+ok 1 - One element
+ok 2 - Two equal elements
+ok 3 - Two different elements
+ok 4 - Two different elements - unsorted
+ok 5 - turn middle element
+ok 6 - turns one element (8)
+ok 7 - turns two elements (8, 4)
+ok 8 - turns two element (12, 2)
+ok 9 - turns one element (15)
+ok 10 - Equal elements with zeroes
+ok 11 - Three flips
+ok 12 - Three flips with many zeros
+ok 13 - Example 1
+ok 14 - Example 2
+ok 15 - extra
+1..15
+ 
+===> 083/2/laurent-rosenfeld.raku <===
+Sum: 3 - digits: -2 -13 10 8
+Number of negative numbers: 2
+ 
+===> 083/2/mark-anderson.raku <===
+2
+ 
+===> 083/2/markus-holzer.raku <===
+2
+ 
+===> 083/2/pjdurai.raku <===
+1
+1
+2
+ 
+===> 083/2/roger-bell-west.raku <===
+1..4
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ok 4 - example 4
+ 
+===> 083/2/simon-proctor.raku <===
+2
+ 
+===> 083/2/stuart-little.raku <===
+2
+ 
+===> 083/2/ulrich-rieke.raku <===
+13
+ 
+===> 083/2/wambash.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ok 4 - 
+1..4
