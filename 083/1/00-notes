@@ -1,0 +1,6 @@
+Use a multi-byte string for all tasks, to see which Perl authors skimped on code, assumed plain ASCII input.
+
+Non-slackers are:
+./alexander-pankoff.pl:3:use utf8;
+./ddobbelaere.pl:5:use utf8; #::all;
+./steve-rogerson.pl:4:use utf8;
