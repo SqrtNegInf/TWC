@@ -1,0 +1,225 @@
+ 
+===> 082/2/abigail.pl <===
+1
+ 
+===> 082/2/adam-russell.pl <===
+1
+ 
+===> 082/2/alexander-pankoff.pl <===
+1
+ 
+===> 082/2/athanasius.pl <===
+Input:
+    $A = "XXY"
+    $B = "XXZ"
+    $C = "XXXXZY"
+
+Output: 1
+
+EXPLANATION
+    $A =  XX   Y
+    $B =    XXZ
+    $C =  XXXXZY
+ 
+===> 082/2/bob-lied.pl <===
+1
+ 
+===> 082/2/cheok-yin-fung.pl <===
+1..6
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ok 4 - alphabeta
+ok 5 - alphabealphata
+ok 6 - a..b
+ 
+===> 082/2/colin-crain.pl <===
+A AXXZ 
+B XXYZ 
+C AXXYXZXZ
+
+took A target now XXYXZXZ
+
+A XXZ 
+B XXYZ 
+C XXYXZXZ
+
+took X target now XYXZXZ
+
+A XZ 
+B XXYZ 
+C XYXZXZ
+
+took X target now YXZXZ
+
+A Z 
+B XXYZ 
+C YXZXZ
+
+backtracking...
+took X target now YXZXZ
+
+A XYZ 
+B XZ 
+C YXZXZ
+
+backtracking...
+backtracking...
+took X target now XYXZXZ
+
+A XYZ 
+B XXZ 
+C XYXZXZ
+
+took X target now YXZXZ
+
+A YZ 
+B XXZ 
+C YXZXZ
+
+took Y target now XZXZ
+
+A Z 
+B XXZ 
+C XZXZ
+
+took X target now ZXZ
+
+A XZ 
+B Z 
+C ZXZ
+
+took Z target now XZ
+
+A  
+B XZ 
+C XZ
+
+took X target now Z
+
+A Z 
+B  
+C Z
+
+took Z target now 
+
+A  
+B  
+C 
+
+1
+ 
+===> 082/2/dave-cross.pl <===
+1
+ 
+===> 082/2/dave-jacoby.pl <===
+1
+ 
+===> 082/2/ddobbelaere.pl <===
+1
+1
+1
+1
+1
+ 
+===> 082/2/duncan-c-white.pl <===
+1
+ 
+===> 082/2/e-choroba.pl <===
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ok 4 - ABDBC
+ok 5 - ABCBD
+ok 6 - ABBCD
+ok 7 - ABBDC
+ok 8 - BABCD
+ok 9 - BABDC
+ok 10 - BADBC
+ok 11 - BDABC
+1..11
+ 
+===> 082/2/jaldhar-h-vyas.pl <===
+1
+ 
+===> 082/2/jluis.pl <===
+1
+ 
+===> 082/2/jo-37.pl <===
+# Seeded srand with seed '1' from import arg.
+ok 1 - sanity check fails
+ok 2 - first example
+ok 3 - second example
+ok 4 - third example
+ok 5 - zipper 1
+ok 6 - zipper 2
+ok 7 - blockwise
+1..7
+ 
+===> 082/2/juliodcs.pl <===
+1..15
+ok 1 - missing char from a
+ok 2 - missing char from b
+ok 3 - missing char from a,b
+ok 4 - two letters v1
+ok 5 - two letters v2
+ok 6 - two letters v3
+ok 7 - two letters v4
+ok 8 - a=b
+ok 9 - long a=b
+ok 10 - long a=b, single char
+ok 11 - ACB basket v1
+ok 12 - ACB basket v2
+ok 13 - Example 1
+ok 14 - Example 2
+ok 15 - Example 3
+ 
+===> 082/2/lars-thegler.pl <===
+1
+ 
+===> 082/2/lubos-kolouch.pl <===
+ok 1
+ok 2
+ok 3
+ok 4
+1..4
+ 
+===> 082/2/nunovieira220.pl <===
+1
+ 
+===> 082/2/paulo-custodio.pl <===
+1
+ 
+===> 082/2/perlboy1967.pl <===
+
+Input:
+	$A = "4X"
+	$B = "123X678"
+	$C = "1234XX678"
+
+Output: 1
+
+Interleaving: 123|4X|X678
+ 
+===> 082/2/pete-houston.pl <===
+1
+ 
+===> 082/2/polettix.pl <===
+1
+ 
+===> 082/2/roger-bell-west.pl <===
+1..5
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ok 4 - example 4
+ok 5 - example 5
+ 
+===> 082/2/sgreen.pl <===
+1
+ 
+===> 082/2/ulrich-rieke.pl <===
+1
+ 
+===> 082/2/walt-mankowski.pl <===
+1

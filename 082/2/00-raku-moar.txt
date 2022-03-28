@@ -1,0 +1,142 @@
+ 
+===> 082/2/arne-sommer.raku <===
+1
+ 
+===> 082/2/ash.raku <===
+1
+ 
+===> 082/2/athanasius.raku <===
+Input:
+    $A = "XXY"
+    $B = "XXZ"
+    $C = "XXXXZY"
+
+Output: 1
+
+EXPLANATION
+    $A =  XX   Y
+    $B =    XXZ
+    $C =  XXXXZY
+ 
+===> 082/2/colin-crain.raku <===
+
+A AXXZ 
+B XXYZ 
+C AXXYXZXZ
+took A target now XXYXZXZ
+
+A XXZ 
+B XXYZ 
+C XXYXZXZ
+took X target now XYXZXZ
+
+A XZ 
+B XXYZ 
+C XYXZXZ
+took X target now YXZXZ
+
+A Z 
+B XXYZ 
+C YXZXZ
+took X target now YXZXZ
+
+A XYZ 
+B XZ 
+C YXZXZ
+took X target now XYXZXZ
+
+A XYZ 
+B XXZ 
+C XYXZXZ
+took X target now YXZXZ
+
+A YZ 
+B XXZ 
+C YXZXZ
+took Y target now XZXZ
+
+A Z 
+B XXZ 
+C XZXZ
+took X target now ZXZ
+
+A XZ 
+B Z 
+C ZXZ
+took Z target now XZ
+
+A  
+B XZ 
+C XZ
+took X target now Z
+
+A Z 
+B  
+C Z
+took Z target now 
+
+A  
+B  
+C 
+
+output: 1
+ 
+===> 082/2/feng-chang.raku <===
+1
+ 
+===> 082/2/gugod.raku <===
+1
+ 
+===> 082/2/jaldhar-h-vyas.raku <===
+1
+ 
+===> 082/2/juliodcs.raku <===
+1..15
+ok 1 - missing char from a
+ok 2 - missing char from b
+ok 3 - missing char from a,b
+ok 4 - two letters v1
+ok 5 - two letters v2
+ok 6 - two letters v3
+ok 7 - two letters v4
+ok 8 - a=b
+ok 9 - long a=b
+ok 10 - long a=b, single char
+ok 11 - ACB basket v1
+ok 12 - ACB basket v2
+ok 13 - Example 1
+ok 14 - Example 2
+ok 15 - Example 3
+ 
+===> 082/2/mark-anderson.raku <===
+1
+ 
+===> 082/2/markus-holzer.raku <===
+1
+ 
+===> 082/2/pkmnx.raku <===
+1
+ 
+===> 082/2/roger-bell-west.raku <===
+1..5
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ok 4 - example 4
+ok 5 - example 5
+ 
+===> 082/2/simon-proctor.raku <===
+1
+ 
+===> 082/2/stuart-little.raku <===
+True
+ 
+===> 082/2/ulrich-rieke.raku <===
+1
+ 
+===> 082/2/wambash.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ok 4 - 
+1..4
