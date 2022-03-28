@@ -1,0 +1,77 @@
+ 
+===> 082/1/arne-sommer.raku <===
+(1, 10, 2, 20, 25, 4, 5, 50)
+ 
+===> 082/1/ash.raku <===
+(1 2 4 5 10 20 25 50 100)
+ 
+===> 082/1/athanasius.raku <===
+Input:
+    $M = 100
+    $N = 500
+
+Output:
+    (1, 2, 4, 5, 10, 20, 25, 50, 100)
+
+Explanation:
+    Factors of 100: 1, 2, 4, 5, 10, 20, 25, 50, 100
+    Factors of 500: 1, 2, 4, 5, 10, 20, 25, 50, 100, 125, 250, 500
+
+    Note: the "is a factor of" (or "divides", or "|") relation is here assumed
+          to be reflexive
+ 
+===> 082/1/colin-crain.raku <===
+input  :
+	M = 18
+	N = 36
+output : [1 2 3 6 9 18]
+ 
+===> 082/1/feng-chang.raku <===
+(1 2 4 5 10 20 25 50 100)
+ 
+===> 082/1/gugod.raku <===
+1 2 4 5 10 20 25 50 100
+ 
+===> 082/1/jaldhar-h-vyas.raku <===
+1, 2, 4, 5, 10, 20, 25, 50
+ 
+===> 082/1/jeongoon.raku <===
+(1 2 4 5 10 20 25 50 100)
+ 
+===> 082/1/juliodcs.raku <===
+(1 2 4 5 10 20 25 50 100)
+ 
+===> 082/1/laurent-rosenfeld.raku <===
+[1 2 3 6]
+ 
+===> 082/1/mark-anderson.raku <===
+(1, 2, 4, 5, 10, 20, 25, 50, 100)
+ 
+===> 082/1/markus-holzer.raku <===
+(1, 2, 4, 5, 10, 20, 25, 50, 100)
+ 
+===> 082/1/pkmnx.raku <===
+(1 2 3 6)
+ 
+===> 082/1/roger-bell-west.raku <===
+1..5
+ok 1 - twelve
+ok 2 - eighteen
+ok 3 - twenty-three
+ok 4 - twelve-eighteen
+ok 5 - twelve-twentythree
+ 
+===> 082/1/simon-proctor.raku <===
+(1, 2, 4, 5, 10, 20, 25, 50)
+ 
+===> 082/1/stuart-little.raku <===
+(1 2 4 5 10 20 25 50 100)
+ 
+===> 082/1/ulrich-rieke.raku <===
+(Set(1 10 100 2 20 25 4 5 50))
+ 
+===> 082/1/wambash.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+1..3
