@@ -1,17 +1,17 @@
 Challenge titles and Rosetta-code correspondences (exact, and otherwise)
 
-080-1
-080-2
-081-1
-081-2
-082-1
-082-2
-083-1
-083-2
-084-1
-084-2
-085-1
-085-2
+080-1 Smallest Positive Integer             F/Find_first_missing_positive
+080-2 Count Candies
+081-1 Common Base String
+081-2 Frequency Sort                        W/Word_frequency
+082-1 Common Factors                        G/Greatest_common_divisor
+082-2 Interleave String
+083-1 Words Length
+083-2 Flip Array (min. sum >= 0)
+084-1 Reverse Integer                       F/Find_prime_n_for_that_reversed_n_is_also_prime
+084-2 Find Square (sub-matrix with 1's)
+085-1 Triplet Sum
+085-2 Power of Two Integers
 086-1 Pair Difference
 086-2 Sudoku Puzzle                         S/Sudoku-1
 087-1 Longest Consecutive Sequence          L/Longest_increasing_subsequence
