@@ -1,0 +1,172 @@
+ 
+===> 157/1/athanasius.pl <===
+Input:  @n = (1, 3, 5, 6, 9)
+Output: AM = 4.8, GM = 3.8, HM = 2.8
+ 
+===> 157/1/cheok-yin-fung.pl <===
+1..3
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ 
+===> 157/1/colin-crain.pl <===
+ok 1 - ex-1-am
+ok 2 - ex-1-gm
+ok 3 - ex-1-hm
+ok 4 - ex-2-am
+ok 5 - ex-2-gm
+ok 6 - ex-2-hm
+ok 7 - ex-3-am
+ok 8 - ex-3-gm
+ok 9 - ex-3-hm
+ok 10 - blog-am
+ok 11 - blog-gm
+ok 12 - blog-hm
+1..12
+ 
+===> 157/1/dave-jacoby.pl <===
+        Input:  @n = (1, 3, 5, 6, 9)
+        OUTPUT: AM = 4.8, GM = 3.8, HM = 2.8
+
+        Input:  @n = (2, 4, 6, 8, 10)
+        OUTPUT: AM = 6.0, GM = 5.2, HM = 4.4
+
+        Input:  @n = (1, 2, 3, 4, 5)
+        OUTPUT: AM = 3.0, GM = 2.6, HM = 2.2
+
+ 
+===> 157/1/duncan-c-white.pl <===
+n=5, total=24, prod=810; recipsum=1.81111111111111
+AM = 4.8, GM = 3.8, HM = 2.8
+ 
+===> 157/1/e-choroba.pl <===
+# Seeded srand with seed '1' from import arg.
+1..3
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ 
+===> 157/1/jaldhar-h-vyas.pl <===
+AM = 4.8, GM = 3.8, HM = 2.8
+ 
+===> 157/1/james-smith.pl <===
+AM =        5.000000, GM =        3.936283, HM =        2.797513
+AM =        6.000000, GM =        5.210342, HM =        4.379562
+AM =        3.000000, GM =        2.605171, HM =        2.189781
+AM =       10.000000, GM =        7.928947, HM =        5.355523
+AM =       50.000000, GM =       37.623100, HM =       19.121650
+AM =       85.500000, GM =       63.835670, HM =       29.741325
+AM =       86.000000, GM =             Inf, HM =       29.885698
+AM =      500.000000, GM =             Inf, HM =      133.476370
+AM =     5000.000000, GM =             Inf, HM =     1021.608565
+AM =    50000.000000, GM =             Inf, HM =     8271.122750
+AM =   500000.000000, GM =             Inf, HM =    69479.473121
+
+AM =        5.000000, GM =        3.936283, HM =        2.797513
+AM =        6.000000, GM =        5.210342, HM =        4.379562
+AM =        3.000000, GM =        2.605171, HM =        2.189781
+AM =       10.000000, GM =        7.928947, HM =        5.355523
+AM =       50.000000, GM =       37.623100, HM =       19.121650
+AM =       85.500000, GM =       63.835670, HM =       29.741325
+AM =       86.000000, GM =       64.204572, HM =       29.885698
+AM =      500.000000, GM =      369.123603, HM =      133.476370
+AM =     5000.000000, GM =     3680.459284, HM =     1021.608565
+AM =    50000.000000, GM =    36790.032061, HM =     8271.122750
+AM =   500000.000000, GM =   367881.952583, HM =    69479.473121
+ 
+===> 157/1/jo-37.pl <===
+# Seeded srand with seed '1' from import arg.
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ok 4 - large product
+ok 5 - exact AM
+ok 6 - exact GM with negative product
+1..6
+ 
+===> 157/1/kueppo-wesley.pl <===
+AM = 4.8, GM = 3.8, HM = 2.8
+ 
+===> 157/1/laurent-rosenfeld.pl <===
+1 3 5 6 9  -> AM: 4.8, GM: 3.8, HM: 2.8
+2 4 6 8 10 -> AM: 6.0, GM: 5.2, HM: 4.4
+1 2 3 4 5  -> AM: 3.0, GM: 2.6, HM: 2.2
+ 
+===> 157/1/lubos-kolouch.pl <===
+ok 1 - Test 1 3 5 6 9
+ok 2 - Test 2 4 6 8 10
+ok 3 - Test 1 2 3 4 5
+1..3
+ 
+===> 157/1/mattneleigh.pl <===
+
+Input: @n = (1, 3, 5, 6, 9)
+Output: AM = 4.80, GM = 3.82, HM = 2.76
+
+Input: @n = (2, 4, 6, 8, 10)
+Output: AM = 6.00, GM = 5.21, HM = 4.38
+
+Input: @n = (1, 2, 3, 4, 5)
+Output: AM = 3.00, GM = 2.61, HM = 2.19
+
+ 
+===> 157/1/mohammad-anwar.pl <===
+ok 1 - Example 1 - AM
+ok 2 - Example 1 - GM
+ok 3 - Example 1 - HM
+ok 4 - Example 2 - AM
+ok 5 - Example 2 - GM
+ok 6 - Example 2 - HM
+ok 7 - Example 3 - AM
+ok 8 - Example 3 - GM
+ok 9 - Example 3 - HM
+1..9
+ 
+===> 157/1/paulo-custodio.pl <===
+AM = 4.8, GM = 3.8, HM = 2.8
+ 
+===> 157/1/perlboy1967.pl <===
+AM = 4.800000, GM = 3.816779, HM = 2.760736
+ 
+===> 157/1/pete-houston.pl <===
+AM = 4.8, GM = 3.8, HM = 2.8
+ 
+===> 157/1/peter-campbell-smith.pl <===
+
+Input:  @n = (1, 3, 5, 6, 9)
+Output: AM = 4.8, GM = 3.8, HM = 2.8
+
+Input:  @n = (2, 4, 6, 8, 10)
+Output: AM = 6.0, GM = 5.2, HM = 4.4
+
+Input:  @n = (1, 2, 3, 4, 5)
+Output: AM = 3.0, GM = 2.6, HM = 2.2
+
+Input:  @n = (73, 201, 1, 99, 123, 14, 83, 46, 77)
+Output: AM = 79.7, GM = 44.9, HM = 7.8
+ 
+===> 157/1/pokgopun.pl <===
+Input: @n = (1,3,5,6,9)
+Output: AM = 4.8, GM = 3.8, HM = 2.8
+
+ 
+===> 157/1/polettix.pl <===
+AM = 4.8, GM = 3.8, HM = 2.8
+ 
+===> 157/1/robert-dicicco.pl <===
+AM = 4.8  GM = 3.8  HM = 2.8  
+ 
+===> 157/1/roger-bell-west.pl <===
+1..3
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ 
+===> 157/1/sgreen.pl <===
+AM = 4.8, GM = 3.8, HM = 2.8
+ 
+===> 157/1/ulrich-rieke.pl <===
+AM = 4.8 , GM = 3.8 , HM = 2.8
+ 
+===> 157/1/wlmb.pl <===
+AM=4.80 GM=3.82 HM=2.76
