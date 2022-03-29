@@ -24,10 +24,24 @@ with "input".IO {
 }
 
 # https://dev.to/jeongoon/weekly-challenge-081-task-2-1lbj
-#with "input.txt".IO {
+#with "input".IO {
 #    .r or die "no `input' file";
 #    my %r;
 #    %r{.value}.push(.key).=sort
 #    for bag(.words».subst(/\'s|<[\W]-[-]>|"--"/,'',:g));
 #    %r.sort.join("\n").put;
 #}
+
+=begin off-the-challenge
+
+# credit: mark-anderson
+# thank you :-)
+
+"input".IO.slurp andthen {
+    my %r;
+    %r{.value}.push(.key).=sort
+        for bag(.subst(/\'s|<[,."()]>|"--"/,'',:g).words);
+    %r.sort.join("\n").put;
+}
+
+=end off-the-challenge
