@@ -10,8 +10,8 @@
       for @N.permutations {
          %h{ $_[0] }{ $_[1] }++;
       }
-      for %h.keys -> $k {
-         for %h{$k}.keys -> $kk {
+      for %h.keys.sort -> $k {
+         for %h{$k}.keys.sort -> $kk {
             take [ $k, $kk ] if $k - $kk == $A;
          }
       }

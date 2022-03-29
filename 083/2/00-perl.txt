@@ -135,7 +135,7 @@ Evidence: (-2) + (-13) + (10) + (8)
 ===> 083/2/pete-houston.pl <===
 New min 13 for 10
 New min 7 for 13
-New min 3 for 8 10
+New min 3 for 2 13
 Mininum 2 signs flipped for lowest non-negative total of 3.
  
 ===> 083/2/pkmnx.pl <===
@@ -143,7 +143,7 @@ Mininum 2 signs flipped for lowest non-negative total of 3.
 Input: 3 10 8 23 34 52 343 23 123 11 898 238 2 567 98
 Output: 5
 Flipping the sign of just 5 elements (23, 34, 23, 898, 238) gives the result 1.
- i.e.: (3) + (10) + (8) + (-23) + (-34) + (52) + (343) + (-23) + (123) + (11) + (-898) + (-238) + (2) + (567) + (98)
+ i.e.: (-23) + (-23) + (-238) + (-34) + (-898) + (10) + (11) + (123) + (2) + (3) + (343) + (52) + (567) + (8) + (98)
 
  
 ===> 083/2/polettix.pl <===

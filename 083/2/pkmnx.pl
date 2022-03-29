@@ -55,7 +55,7 @@ print "Output: $nsum\n";
 print "Flipping the sign of just " . ( $nsum < 2 ?"one element " :($nsum . " elements ") ) . "("
    . ( join ", ", map { $_ * -1} grep { $_ < 0 } @output ) .  ") gives the result $sum.\n";
 
-print " i.e.: " . join " + ", map {"(" . $_ . ")" } @output;
+print " i.e.: " . join " + ", map {"(" . $_ . ")" } sort @output;
 print "\n";
 print "\n";
 

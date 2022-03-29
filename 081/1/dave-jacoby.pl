@@ -49,6 +49,6 @@ sub common_base ( @words ) {
         }
 
     }
-    say join ', ', keys %output;
+    say join ', ', sort keys %output;
 }
 

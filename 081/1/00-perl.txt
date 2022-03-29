@@ -36,7 +36,7 @@ agtcagtc
 agtc
  
 ===> 081/1/dave-jacoby.pl <===
-abcdabcd, abcd
+abcd, abcdabcd
 a
  
 ===> 081/1/e-choroba.pl <===
