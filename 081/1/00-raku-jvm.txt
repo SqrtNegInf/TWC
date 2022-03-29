@@ -1,0 +1,71 @@
+ 
+===> 081/1/arne-sommer.raku <===
+("abcd", "abcdabcd")
+ 
+===> 081/1/ash.raku <===
+abcd
+abcdabcd
+ 
+===> 081/1/athanasius.raku <===
+Input:
+    $A = "abcdabcd"
+    $B = "abcdabcdabcdabcd"
+
+Output:
+    ("abcd", "abcdabcd")
+ 
+===> 081/1/colin-crain.raku <===
+aaaaaaaaaaaa
+aaaaaa
+aaaa
+aaa
+aa
+a
+ 
+===> 081/1/feng-chang.raku <===
+[abcdabcd abcd]
+ 
+===> 081/1/gugod.raku <===
+(abcd abcdabcd)
+ 
+===> 081/1/jaldhar-h-vyas.raku <===
+(abcd abcdabcd)
+ 
+===> 081/1/jeongoon.raku <===
+abcd, abcdabcd
+ 
+===> 081/1/juliodcs.raku <===
+(abcd abcdabcd)
+ 
+===> 081/1/mark-anderson.raku <===
+(abcd abcdabcd)
+(a)
+ 
+===> 081/1/markus-holzer.raku <===
+abcd
+abcdabcd
+ 
+===> 081/1/mohammad-anwar.raku <===
+abcd, abcdabcd
+ 
+===> 081/1/roger-bell-west.raku <===
+1..4
+ok 1 - bs-only 1
+ok 2 - bs-only 2
+ok 3 - example 1
+ok 4 - example 2
+ 
+===> 081/1/simon-proctor.raku <===
+abcd
+abcdabcd
+ 
+===> 081/1/stuart-little.raku <===
+(abcd abcdabcd)
+ 
+===> 081/1/ulrich-rieke.raku <===
+(Set(abcd abcdabcd))
+ 
+===> 081/1/wambash.raku <===
+ok 1 - 
+ok 2 - 
+1..2

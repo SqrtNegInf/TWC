@@ -1,0 +1,123 @@
+ 
+===> 081/1/abigail.pl <===
+abcdabcd
+abcd
+ 
+===> 081/1/adam-russell.pl <===
+abcdabcd, abcdabcdabcdabcd --> (abcd abcdabcd )
+aaa, aa --> (a )
+ 
+===> 081/1/alexander-karelas.pl <===
+("abcd", "abcdabcd")
+ 
+===> 081/1/alexander-pankoff.pl <===
+("abcd", "abcdabcd")
+ 
+===> 081/1/andinus.pl <===
+abcd, abcdabcd
+ 
+===> 081/1/athanasius.pl <===
+Input:
+    $A = "abcdabcd"
+    $B = "abcdabcdabcdabcd"
+
+Output:
+    ("abcd", "abcdabcd")
+ 
+===> 081/1/bob-lied.pl <===
+abcd abcdabcd
+ 
+===> 081/1/cheok-yin-fung.pl <===
+abcd abcdabcd
+ 
+===> 081/1/colin-crain.pl <===
+agtcagtcagtcagtc
+agtcagtc
+agtc
+ 
+===> 081/1/dave-jacoby.pl <===
+abcdabcd, abcd
+a
+ 
+===> 081/1/e-choroba.pl <===
+1..4
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Same strings
+ok 4 - No common string
+ 
+===> 081/1/jaldhar-h-vyas.pl <===
+(abcd abcdabcd)
+ 
+===> 081/1/james-smith.pl <===
+ok 1
+ok 2
+ok 3
+ok 4
+1..4
+ 
+===> 081/1/jluis.pl <===
+("abcd","abcdabcd")
+ 
+===> 081/1/jo-37.pl <===
+# Seeded srand with seed '1' from import arg.
+ok 1 - first example
+ok 2 - second example
+ok 3 - no common base strings
+1..3
+ 
+===> 081/1/juliodcs.pl <===
+abcd
+abcdabcd
+ 
+===> 081/1/lubos-kolouch.pl <===
+ok 1
+ok 2
+ok 3
+1..3
+ 
+===> 081/1/mohammad-anwar.pl <===
+Common Base String(s): abcd, abcdabcd
+ 
+===> 081/1/nunovieira220.pl <===
+abcd, abcdabcd 
+===> 081/1/paulo-custodio.pl <===
+("abcd", "abcdabcd")
+ 
+===> 081/1/perlboy1967.pl <===
+Input:
+	$A = 'abcdabcd'
+	$B = 'abcdabcdabcdabcd'
+
+Output:
+	("abcd","abcdabcd")
+ 
+===> 081/1/pete-houston.pl <===
+abcdabcd
+ 
+===> 081/1/polettix.pl <===
+("abcd", "abcdabcd")
+("a")
+ 
+===> 081/1/roger-bell-west.pl <===
+1..4
+ok 1 - bs-only 1
+ok 2 - bs-only 2
+ok 3 - example 1
+ok 4 - example 2
+ 
+===> 081/1/sgreen.pl <===
+abcd abcdabcd
+ 
+===> 081/1/shawn-wagner.pl <===
+abcd abcdabcd
+a
+ 
+===> 081/1/walt-mankowski.pl <===
+abcd
+abcdabcd
+ 
+===> 081/1/wanderdoc.pl <===
+> abcd abcdabcd
+> a
+> abcd abcdabcd abcdabcdabcd
