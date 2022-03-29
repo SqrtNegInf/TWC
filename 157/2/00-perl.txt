@@ -1,0 +1,200 @@
+ 
+===> 157/2/athanasius.pl <===
+Input:  $n = 7
+Output: 1
+
+Since 7 in base 2 is 111
+ 
+===> 157/2/cheok-yin-fung.pl <===
+1..8
+10 is a repdigit in base-4; therefore it's Brazilian.
+ok 1
+ok 2
+ok 3
+ok 4
+ok 5
+ok 6
+ok 7
+ok 8
+ 
+===> 157/2/colin-crain.pl <===
+input:  1993
+output: 0
+1
+ 
+===> 157/2/dave-jacoby.pl <===
+    Input:  $n = 5
+    Output: 0
+
+    Input:  $n = 6
+    Output: 0
+
+    Input:  $n = 7
+    Output: 1
+
+    Input:  $n = 8
+    Output: 1
+
+ 
+===> 157/2/duncan-c-white.pl <===
+Input 7
+Output 1
+ 
+===> 157/2/e-choroba.pl <===
+1..3
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ 
+===> 157/2/jaldhar-h-vyas.pl <===
+1
+ 
+===> 157/2/james-smith.pl <===
+ok 1
+ok 2
+ok 3
+ok 4
+ok 5
+ok 6
+ok 7
+ok 8
+ok 9
+ok 10
+ok 11
+ok 12
+ok 13
+ok 14
+ok 15
+ok 16
+ok 17
+ok 18
+ok 19
+ok 20
+ok 21
+ok 22
+ok 23
+ok 24
+ok 25
+ok 26
+ok 27
+1..27
+ 
+===> 157/2/jo-37.pl <===
+# Seeded srand with seed '1' from import arg.
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ok 4 - aaa(36)
+ok 5 - brazilian beyond base 36
+1..5
+ 
+===> 157/2/kueppo-wesley.pl <===
+Output: 0
+Since 7	in base 2 is 111
+ 
+===> 157/2/laurent-rosenfeld.pl <===
+Brazilian numbers less than or equal to 36 are:
+7 8 10 12 13 14 15 16 18 20 21 22 24 26 27 28 30 31 32 33 34 35 36 
+ 
+===> 157/2/lubos-kolouch.pl <===
+ok 1 - Test 7
+ok 2 - Test 6
+ok 3 - Test 8
+1..3
+ 
+===> 157/2/mattneleigh.pl <===
+
+Input: $n = 7
+Output: 1
+
+Input: $n = 6
+Output: 0
+
+Input: $n = 8
+Output: 1
+
+Input: $n = 89
+Output: 0
+
+Input: $n = 1000
+Output: 1
+
+Input: $n = 131101
+Output: 0
+
+ 
+===> 157/2/paulo-custodio.pl <===
+1
+ 
+===> 157/2/perlboy1967.pl <===
+n=7 is a Brazilian Number :: base2(1|1|1)
+ 
+===> 157/2/pete-houston.pl <===
+1
+ 
+===> 157/2/peter-campbell-smith.pl <===
+
+--- Solution to task: ---
+
+Input:  $n = 7
+Output: 1
+Since 7 in base 2 is 111
+
+Input:  $n = 6
+Output: 0
+Since 6 in base 2 is 110
+      6 in base 3 is 20
+
+Input:  $n = 8
+Output: 1
+Since 8 in base 3 is 22
+
+ --- And some more results: ---
+
+Input:  $n = 9
+Output: 0
+Since 9 in base 2 is 1001
+      9 in base 3 is 100
+      9 in base 4 is 21
+
+Input:  $n = 13
+Output: 1
+Since 13 in base 3 is 111
+ 
+===> 157/2/pokgopun.pl <===
+Input: $n = 7
+Output: 1
+
+Input: $n = 6
+Output: 0
+
+Input: $n = 8
+Output: 1
+
+ 
+===> 157/2/polettix.pl <===
+7 -> 1 # 2
+6 -> 0 # 0
+8 -> 1 # 3
+ 
+===> 157/2/robert-dicicco.pl <===
+Input: 7
+In base 2: 111
+Output: 1
+ 
+===> 157/2/roger-bell-west.pl <===
+1..3
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ 
+===> 157/2/sgreen.pl <===
+1 (base 2)
+ 
+===> 157/2/ulrich-rieke.pl <===
+1
+ 
+===> 157/2/wlmb.pl <===
+7=111 in base 2 is Brazilian
+8=22 in base 3 is Brazilian
+9 is not Brazilian
