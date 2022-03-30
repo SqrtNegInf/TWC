@@ -1,0 +1,68 @@
+ 
+===> 080/1/arne-sommer.raku <===
+1
+ 
+===> 080/1/ash.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ok 4 - 
+ok 5 - 
+ 
+===> 080/1/athanasius.raku <===
+Input: @N = (5, 2, -2, 0)
+Output: 1
+ 
+===> 080/1/colin-crain.raku <===
+input : (5 2 -2 0)
+output:  1
+ 
+===> 080/1/feng-chang.raku <===
+1
+ 
+===> 080/1/gugod.raku <===
+1
+ 
+===> 080/1/jaldhar-h-vyas.raku <===
+1
+ 
+===> 080/1/jeongoon.raku <===
+1
+1
+4
+ 
+===> 080/1/juliodcs.raku <===
+Min slot: 1
+ 
+===> 080/1/laurent-rosenfeld.raku <===
+1
+ 
+===> 080/1/mark-anderson.raku <===
+1
+ 
+===> 080/1/markus-holzer.raku <===
+Smallest missing element is 1
+ 
+===> 080/1/mohammad-anwar.raku <===
+1
+ 
+===> 080/1/roger-bell-west.raku <===
+1..3
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ 
+===> 080/1/simon-proctor.raku <===
+1
+ 
+===> 080/1/stuart-little.raku <===
+1
+ 
+===> 080/1/ulrich-rieke.raku <===
+1
+ 
+===> 080/1/wambash.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+1..3
