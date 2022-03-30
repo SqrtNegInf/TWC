@@ -1,0 +1,155 @@
+ 
+===> 079/1/abigail.pl <===
+5
+4
+9884999
+846928043
+ 
+===> 079/1/adam-russell.pl <===
+5 % 1000000007 = 5
+4 % 1000000007 = 4
+ 
+===> 079/1/alexander-pankoff.pl <===
+5
+ 
+===> 079/1/andinus.pl <===
+5
+ 
+===> 079/1/anton-fedotov.pl <===
+5 % 1000000007 = 5
+ 
+===> 079/1/arne-sommer.pl <===
+5
+ 
+===> 079/1/athanasius.pl <===
+Input:  $N = 4
+Output: $total_count_set_bit % 1000000007 = 5
+ 
+===> 079/1/bob-lied.pl <===
+5
+ 
+===> 079/1/cheok-yin-fung.pl <===
+5
+ 
+===> 079/1/colin-crain.pl <===
+out:  815030
+ 
+===> 079/1/cristian-heredia.pl <===
+output: 5
+ 
+===> 079/1/daniel-mantovani.pl <===
+5
+ 
+===> 079/1/dave-cross.pl <===
+5 % 1000000007 = 5
+ 
+===> 079/1/dave-jacoby.pl <===
+5
+ 
+===> 079/1/e-choroba.pl <===
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Thousand
+ok 4 - Ten thousand
+ok 5 - Two to 26
+ok 6 - Modulo hit
+ok 7 - Max 32bit
+ok 8 - Max 32bit + 1
+ok 9 - Max correct - 1
+ok 10 - Max correct
+1..10
+ 
+===> 079/1/jaldhar-h-vyas.pl <===
+5 % 1000000007 = 5
+ 
+===> 079/1/james-smith.pl <===
+              4               5               5
+              5               7               7
+          10000           64613           64613
+ 
+===> 079/1/jeongoon.pl <===
+5
+ 
+===> 079/1/jo-37.pl <===
+# Seeded srand with seed '1' from import arg.
+ok 1 - first example
+ok 2 - second example
+ok 3 - silver bullet
+1..3
+ 
+===> 079/1/juliodcs.pl <===
+Result: 5
+ 
+===> 079/1/laurent-rosenfeld.pl <===
+5
+ 
+===> 079/1/lubos-kolouch.pl <===
+ok 1 - Test 4
+ok 2 - Test 3
+1..2
+ 
+===> 079/1/manfredi.pl <===
+Input: $N = 4
+	Decimal: 1
+	Binary: 0b00000001
+	Set Bit Count: 1
+
+	Decimal: 2
+	Binary: 0b00000010
+	Set Bit Count: 1
+
+	Decimal: 3
+	Binary: 0b00000011
+	Set Bit Count: 2
+
+	Decimal: 4
+	Binary: 0b00000100
+	Set Bit Count: 1
+
+Total set bit count: (5 % 1000000007) = 5
+ 
+===> 079/1/mohammad-anwar.pl <===
+5
+ 
+===> 079/1/nunovieira220.pl <===
+5
+ 
+===> 079/1/paulo-custodio.pl <===
+5
+ 
+===> 079/1/perlboy1967.pl <===
+Input: 4
+Output: 5 % 1000000007 = 5
+ 
+===> 079/1/polettix.pl <===
+5
+ 
+===> 079/1/roger-bell-west.pl <===
+1..2
+ok 1 - example 1
+ok 2 - example 2
+ 
+===> 079/1/sgreen.pl <===
+4 % 1000000007 = 4
+ 
+===> 079/1/shawn-wagner.pl <===
+5
+4
+ 
+===> 079/1/steven-wilson.pl <===
+5
+ 
+===> 079/1/ted-leahy.pl <===
+5
+ 
+===> 079/1/vinod-k.pl <===
+For 4 Set Bits are: 5
+`5` as `5 % 1000000007` = 5
+ 
+===> 079/1/walt-mankowski.pl <===
+5 5
+ 
+===> 079/1/wanderdoc.pl <===
+ok 1 - Example 1
+ok 2 - Example 2
+1..2
