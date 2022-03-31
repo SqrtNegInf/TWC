@@ -1,0 +1,12 @@
+[31m===[0mSORRY![31m===[0m Error while compiling /Users/dhoekman/PWC/077/1/athanasius.raku
+Could not find List::MoreUtils in:
+    file#/Users/dhoekman/PWC/077/1/lib
+    inst#/Users/dhoekman/.raku
+    inst#/Users/dhoekman/.rakubrew/versions/jvm-2022.03/install/share/perl6/site
+    inst#/Users/dhoekman/.rakubrew/versions/jvm-2022.03/install/share/perl6/vendor
+    inst#/Users/dhoekman/.rakubrew/versions/jvm-2022.03/install/share/perl6/core
+    ap#
+    nqp#
+    perl5#
+    javart#
+at /Users/dhoekman/PWC/077/1/athanasius.raku:91
