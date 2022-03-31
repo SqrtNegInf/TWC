@@ -1,0 +1,73 @@
+ 
+===> 077/2/arne-sommer.raku <===
+1
+ 
+===> 077/2/ash.raku <===
+0 2
+2 3
+ 
+===> 077/2/athanasius.raku <===
+ Input: [ O O X ]
+        [ X O O ]
+        [ X O O ]
+
+ Output: 1
+
+   1. Lonely X found at Row 1 Col 3
+ 
+===> 077/2/colin-crain.raku <===
+O O X O
+X O O O
+X O O X
+O X O O
+
+the X at column → 3, row down ↓ 1 is lonely
+the X at column → 4, row down ↓ 3 is lonely
+ 
+===> 077/2/feng-chang.raku <===
+1
+ 
+===> 077/2/jason-messer.raku <===
+1
+2
+ 
+===> 077/2/jeongoon.raku <===
+Input: (Ctrl-D or Ctrl-Z to finish to input.)
+["O", "O", "X"]
+["X", "O", "O"]
+["X", "O", "O"]
+
+1: Lonely X at Row 1, Col 3
+ 
+===> 077/2/laurent-rosenfeld.raku <===
+[[0 2] [2 3]]
+ 
+===> 077/2/mark-anderson.raku <===
+1 as...
+Lonely-X found at Row 1 and Col 3
+2 as...
+Lonely-X found at Row 1 and Col 3
+Lonely-X found at Row 3 and Col 4
+ 
+===> 077/2/mohammad-anwar.raku <===
+Matrix:
+[ O, O, O ]
+[ O, O, O ]
+[ O, O, O ]
+0
+ 
+===> 077/2/p6steve.raku <===
+1
+2
+ 
+===> 077/2/roger-bell-west.raku <===
+1..2
+ok 1 - example 1
+ok 2 - example 2
+ 
+===> 077/2/shahed-nooshmand.raku <===
+(0 2)
+(2 3)
+ 
+===> 077/2/stuart-little.raku <===
+4

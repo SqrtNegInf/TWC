@@ -1,0 +1,148 @@
+ 
+===> 077/2/abigail.pl <===
+2
+ 
+===> 077/2/adam-russell.pl <===
+O O X 
+X O O 
+X O O 
+1 X found at Row 1 Column 3.
+
+O O X O 
+X O O O 
+X O O X 
+O X O O 
+1st X found at Row 1 Column 3.
+2nd X found at Row 3 Column 4.
+ 
+===> 077/2/ash.pl <===
+0, 3
+2, 3
+ 
+===> 077/2/athanasius.pl <===
+ Input: [ O O X ]
+        [ X O O ]
+        [ X O O ]
+
+ Output: 1
+
+   1. Lonely X found at Row 1 Col 3
+ 
+===> 077/2/bob-lied.pl <===
+1
+ 
+===> 077/2/colin-crain.pl <===
+O  O  X  O
+X  O  O  O
+X  O  O  X
+O  X  O  O
+
+the X at column → 3, row down ↓ 1 is lonely
+the X at column → 4, row down ↓ 3 is lonely
+ 
+===> 077/2/dave-jacoby.pl <===
+
+    O O X
+    X O O
+    X O O
+
+One lonely X was found
+
+    O O X O
+    X O O O
+    X O O X
+    O X O O
+
+2 lonely Xs were found
+ 
+===> 077/2/duncan-c-white.pl <===
+1 lonely Xs in grid: [0, 2]
+ 
+===> 077/2/e-choroba.pl <===
+1..5
+ok 1 - None found
+ok 2 - Example 1
+ok 3 - Example 2
+ok 4 - Five
+ok 5 - Six
+ 
+===> 077/2/jeongoon.pl <===
+Usage: echo "[OOX][XOO][XOO]" | perl ch-2.pl
+Showing matrix again (O -> 1; X -> 0):
+1 1 0 1
+0 1 1 1
+0 1 1 0
+1 0 1 1
+1: Lonely X found at Row 1 Col 3
+2: Lonely X found at Row 3 Col 4
+Total 2 Lonely X(s) found
+ 
+===> 077/2/jo-37.pl <===
+
+[
+ [0 0 1]
+ [1 0 0]
+ [1 0 0]
+]
+lonely one at (0,2)
+
+[
+ [0 0 1 0]
+ [1 0 0 0]
+ [1 0 0 1]
+ [0 1 0 0]
+]
+lonely one at (0,2)
+lonely one at (2,3)
+ 
+===> 077/2/laurent-rosenfeld.pl <===
+0 2
+2 3
+ 
+===> 077/2/lubos-kolouch.pl <===
+ok 1
+ok 2
+1..2
+ 
+===> 077/2/mohammad-anwar.pl <===
+Matrix:
+[ X, X, O ]
+[ X, X, X ]
+[ O, O, O ]
+
+0
+ 
+===> 077/2/nunovieira220.pl <===
+2
+ 
+===> 077/2/perlboy1967.pl <===
+Input:
+[ 0 0 x 0 ]
+[ x 0 0 0 ]
+[ x 0 0 x ]
+[ 0 x 0 0 ]
+
+Output:
+[ 0 0 * 0 ]
+[ x 0 0 0 ]
+[ x 0 0 * ]
+[ 0 x 0 0 ]
+
+2 lonely X's found (marked '*')
+ 
+===> 077/2/roger-bell-west.pl <===
+1..2
+ok 1 - example 1
+ok 2 - example 2
+ 
+===> 077/2/walt-mankowski.pl <===
+1
+ 
+===> 077/2/wanderdoc.pl <===
+1: 0,2
+
+1: 0,2
+2: 2,3
+
+0
+
