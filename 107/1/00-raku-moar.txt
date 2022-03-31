@@ -62,10 +62,6 @@ Number in base 7: 3211000; decimal: 389305
  
 ===> 107/1/luca-ferrari.raku <===
 Starting generation for base 10
-	Batch between 6210001000 and 6219991000
-	Batch between 7210001000 and 7219991000
-	Batch between 8210001000 and 8219991000
-	Batch between 9210001000 and 9219991000
 
 What did we generate?
 

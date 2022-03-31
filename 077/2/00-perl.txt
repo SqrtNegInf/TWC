@@ -106,9 +106,9 @@ ok 2
  
 ===> 077/2/mohammad-anwar.pl <===
 Matrix:
-[ X, X, O ]
 [ X, X, X ]
-[ O, O, O ]
+[ X, X, X ]
+[ X, O, O ]
 
 0
  
