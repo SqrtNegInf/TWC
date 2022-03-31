@@ -12,11 +12,16 @@ find $num -name '*pl'   -execdir perl -c \{\} \\; > $num/perl.out 2> $num/perl.e
 find $num -name '*raku' -execdir raku -c \{\} \\; > $num/raku.out 2> $num/raku.err
 grep locate $num/perl.err | perl -npe 's/^.*install the/sudo cpanm/;s/module.*//' | sort -u
 head -1 ../perlweeklychallenge-club/challenge-$num/*/blog* | grep http | sort > $num/00-blogs
+
 echo 'Watch out for:'
-pcregrep Test2::V0 $num/*/*pl | grep -v srand
-pcregrep 'hyper|\\brace|Promise|<Perl5>' $num/*/*raku
+echo ==perl
+pcregrep 'Dumper|\\brand\\b' $num/*/*pl
+echo ==raku
+pcregrep '\\b(hyper|race|pick|roll|rand)\\b|Promise|<Perl5>' $num/*/*raku
+
 true
 END
+
 #grep xxx $num/raku.err | perl -npe 's/^.*xxx/zef install xxx/' | sort -u # hasn't been a big issue
 
 .IO.unlink if .IO.e and ! .IO.s for "$num/" X~ (<perl raku> X~ <.out .err>).flat;
