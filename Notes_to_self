@@ -1,3 +1,6 @@
+2022-03-30
+'075/2/feng-chang.raku' is a genuine JVM bug.
+
 2022-03-25
 'PWC-rerun' is clean, 085-156. (fixed the exception noted below)
 

@@ -1,5 +1,26 @@
 Challenge titles and Rosetta-code correspondences (exact, and otherwise)
 
+070-1
+070-2
+071-1
+071-2
+072-1
+072-2
+073-1
+073-2
+074-1
+074-2
+075-1 Coins Sum                             C/Count_the_coins F/Find_minimum_number_of_coins_that_make_a_given_value
+075-2 Largest Rectangle Histogram
+076-1 Prime Sum
+076-2 Word Search                           W/Word_search
+077-1 Fibonacci Sum
+077-2 Lonely X
+078-1 Leader Element                        L/Longest_increasing_subsequence
+078-2 Left Rotation                         S/Shift_list_elements_to_left_by_3
+079-1 Count Set Bits                        P/Population_count
+079-2 Trapped Rain Water                    W/Water_collected_between_towers
+
 080-1 Smallest Positive Integer             F/Find_first_missing_positive
 080-2 Count Candies
 081-1 Common Base String
@@ -163,8 +184,8 @@ Challenge titles and Rosetta-code correspondences (exact, and otherwise)
 156-2 Weird numbers                         W/Weird_numbers 
 157-1 Pythagorean Means                     A/Averages_Pythagorean_means
 157-2 Brazilian Number                      B/Brazilian_numbers
-158-1
-158-2
+158-1 Additive Primes                       A/Additive_primes
+158-2 First Series Cuban Primes             C/Cuban_primes
 159-1
 159-2
 
@@ -316,27 +337,6 @@ raku -e '.say for ^2 X~ ^10 X~ ^10 X~ <-1 -2>'
 068-2
 069-1
 069-2
-
-070-1
-070-2
-071-1
-071-2
-072-1
-072-2
-073-1
-073-2
-074-1
-074-2
-075-1
-075-2
-076-1
-076-2
-077-1
-077-2
-078-1
-078-2
-079-1
-079-2
 
 =====
 
