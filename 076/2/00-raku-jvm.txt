@@ -1,0 +1,484 @@
+ 
+===> 076/2/arne-sommer.raku <===
+Found 138 words of length 4 or more: aias, align, alose, anta, ante, antes, arar, argo, arose, benu, bide, blunt, boid, bosc, broad, buff, buri, bute, butea, cart, cess, clove, cloven, coan, cold, cond, constitution, cord, croon, cube, demi, depa, depart, departed, dust, edit, enter, etna, filch, fore, garlic, gaul, gila, ging, goat, gram, grieve, grit, grith, guha, gurr, guss, hazard, heed, ileac, ioni, itea, laic, lath, lien, lifo, lise, lose, lota, love, luge, lune, lunt, mali, malign, malignant, mall, masa, mein, mero, meso, mids, midst, nant, need, neil, nesh, neuma, nevo, oban, odic, ough, ought, ovary, oven, part, parted, pasmo, quash, raia, rare, reif, rine, road, roon, rose, roud, ruse, sara, shed, shrine, sice, slag, slug, snab, social, sola, sora, soya, span, spasm, spasmodic, staun, succor, sugi, taar, tall, talose, taun, terp, theo, theorem, tide, tome, trap, tsar, ulla, vary, virus, visa, wifie, wigged, zing
+ 
+===> 076/2/athanasius.raku <===
+
+Challenge 076, Task #2: Word Search (Raku)
+
+Found 128 different words of length 4 or more:
+
+aias, align, alose, anta, ante, antes, arar, argo, arose, benu, bide, blunt,
+boid, bosc, broad, buff, buri, bute, butea, cart, cess, clove, cloven, coan,
+cold, constitution, cord, croon, demi, depa, depart, departed, dust, edit,
+enter, etna, filch, fore, garlic, gaul, gila, ging(2), goat, gram, grieve,
+grit, grith, guha, gurr, guss, hazard, heed, ileac, ioni, itea, laic, lien,
+lifo, lise, lota, love, lunt, mali, malign, malignant, mall, mein, mero, meso,
+mids, midst, nant, neil, nesh, neuma, nevo, oban, odic, ough, ought, ovary,
+oven, part, parted, pasmo, quash, raia, rare, reif(2), rine, road, rose, roud,
+ruse, sara(2), shed, shrine, sice, slag, slug(2), snab, social, sola, sora,
+soya, span, spasm, spasmodic, staun, succor, taar, tall, talose, taun, terp,
+theo, theorem, tide, tome, trap, tsar, ulla, vary, virus, visa, wifie, wigged,
+zing
+ 
+===> 076/2/colin-crain.raku <===
+B I D E M I A T S U C C O R S T
+L D E G G I W Q H O D E E H D P
+U S E I R U B U T E A S L A G U
+N G N I Z I L A I C O S C N U D
+T G M I D S T S A R A R E I F G
+S R E N M D C H A S I V E E L I
+S C S H A E U E B R O A D M T E
+H W O V L P E D D L A I U L S S
+R Y O N L A S F C S T A O G O T
+I G U S S R R U G O V A R Y O C
+N R G P A T N A N G I L A M O O
+E I H A C E I V I R U S E S E D
+S E T S U D T T G A R L I C N H
+H V R M X L W I U M S N S O T B
+A E A O F I L C H T O D C A E U
+Z S C D F E C A A I I R L N R F
+A R I I A N Y U T O O O U T P F
+R S E C I S N A B O S C N E R A
+D R S M P C U U N E L T E S I L
+
+found 40 words of minimum length 5: 
+
+ALIGN
+ALOSE
+ANTES
+AROSE
+BLUNT
+BROAD
+BUTEA
+CLOVE
+CLOVEN
+CONSTITUTION
+CROON
+DEPART
+DEPARTED
+ENTER
+FILCH
+GARLIC
+GRIEVE
+GRITH
+HAZARD
+ILEAC
+MALIGN
+MALIGNANT
+MIDST
+NEUMA
+OUGHT
+OVARY
+PARTED
+PASMO
+QUASH
+SHRINE
+SOCIAL
+SPASM
+SPASMODIC
+STAUN
+SUCCOR
+TALOSE
+THEOREM
+VIRUS
+WIFIE
+WIGGED
+ 
+===> 076/2/jason-messer.raku <===
+(blunt)
+(cess)
+(lunt)
+(quash)
+(need)
+(meso)
+(shed)
+(mall)
+(depa depart departed)
+(shrine)
+(mein)
+(part parted)
+(rine)
+(ough ought)
+(grieve)
+(spasm spasmodic)
+(roud)
+(nesh)
+(pasmo)
+(trap)
+(gram)
+(enter)
+(ging)
+(guha)
+(argo)
+(coan)
+(hazard)
+(lien)
+(terp)
+(buff)
+(odic)
+(ante antes)
+(cart)
+(lune)
+(neil)
+(cord)
+(etna)
+ 
+===> 076/2/javier-luque.raku <===
+Found 40 words:
+align, alose, antes, arose, blunt, broad, butea, clove, cloven, constitution, croon, depart, departed, enter, filch, garlic, grieve, grith, hazard, ileac, malign, malignant, midst, neuma, ought, ovary, parted, pasmo, quash, shrine, social, spasm, spasmodic, staun, succor, talose, theorem, virus, wifie, wigged
+ 
+===> 076/2/jeongoon.raku <===
+Grid Data:
+B I D E M I A T S U C C O R S T
+L D E G G I W Q H O D E E H D P
+U S E I R U B U T E A S L A G U
+N G N I Z I L A I C O S C N U D
+T G M I D S T S A R A R E I F G
+S R E N M D C H A S I V E E L I
+S C S H A E U E B R O A D M T E
+H W O V L P E D D L A I U L S S
+R Y O N L A S F C S T A O G O T
+I G U S S R R U G O V A R Y O C
+N R G P A T N A N G I L A M O O
+E I H A C E I V I R U S E S E D
+S E T S U D T T G A R L I C N H
+H V R M X L W I U M S N S O T B
+A E A O F I L C H T O D C A E U
+Z S C D F E C A A I I R L N R F
+A R I I A N Y U T O O O U T P F
+R S E C I S N A B O S C N E R A
+D R S M P C U U N E L T E S I L
+
+Total 139 word(s) found.
+ 
+===> 076/2/laurent-rosenfeld.raku <===
+align alose antes arose blunt broad butea clove cloven constitution croon depart departed enter filch garlic grieve grith hazard ileac malign malignant midst neuma ought ovary parted pasmo quash shrine social spasm spasmodic staun succor talose theorem virus wifie wigged
+ 
+===> 076/2/luca-ferrari.raku <===
+Searching words from words.txt into grid grid.txt
+Found 121  words: aias,align,alose,anta,ante,antes,arar,arose,benu,bide,blunt,boid,bosc,broad,buff,buri,bute,butea,cess,coan,cold,cond,constitution,croon,cube,demi,depa,depart,departed,dust,edit,enter,filch,fore,garlic,gaul,gila,ging,goat,gram,grieve,grit,grith,guha,gurr,guss,hazard,heed,ileac,ioni,itea,laic,lath,lien,lifo,lise,lose,lota,luge,lune,lunt,mali,malign,malignant,mall,mero,meso,mids,midst,nant,nesh,oban,odic,ough,ought,ovary,part,parted,pasmo,quash,raia,rare,reif,rine,road,roon,rose,ruse,sara,shed,shrine,sice,slag,slug,snab,social,sola,sora,soya,spasm,spasmodic,staun,succor,sugi,taar,tall,talose,taun,terp,theo,theorem,tide,tome,tsar,ulla,vary,virus,visa,wifie,wigged,zing
+ 
+===> 076/2/mark-anderson.raku <===
+ 
+===> 076/2/mohammad-anwar.raku <===
+Matrix [19 x 16]: 178
+[mall]
+[roud]
+[lune]
+[enter terp]
+[argo]
+[depa depart departed lien part parted]
+[cess]
+[cart need]
+[odic pasmo spasm spasmodic]
+[buff]
+[meso ough ought]
+[neil trap]
+[ging]
+[blunt hazard lunt nesh rine shrine]
+[grieve]
+[quash shed]
+[cord]
+[guha]
+[etna mein]
+[gram]
+[ante antes coan]
+[clove cloven love oven]
+[lifo]
+[garlic]
+[lise]
+[align anta mali malign malignant nant]
+[visa]
+[guss ovary vary]
+[slug]
+[filch]
+[arar mids midst rare reif sara tsar]
+[ruse virus]
+[dust]
+[bute butea slag]
+[bide demi succor]
+[bosc snab]
+[span]
+[gurr sugi]
+[masa neuma nevo]
+[gila]
+[buri]
+[social zing]
+[laic]
+[heed wigged]
+[goat]
+[broad road]
+[oban sice]
+[aias raia]
+[taar]
+[arose rose]
+[grit grith]
+[sora]
+[constitution]
+[wifie]
+[reif]
+[luge slug]
+[ileac]
+[sara]
+[itea]
+[gaul ulla]
+[lota tall]
+[cold]
+[staun taun]
+[cube]
+[ioni]
+[mero]
+[theo theorem]
+[fore]
+[boid]
+[croon roon]
+[sola]
+[alose lose talose]
+[ging]
+ 
+===> 076/2/roger-bell-west.raku <===
+align, alose, antes, arose, blunt, broad, butea, clove, cloven, constitution, croon, depart, departed, enter, filch, garlic, grieve, grith, hazard, ileac, malign, malignant, midst, neuma, ought, ovary, parted, pasmo, quash, shrine, social, spasm, spasmodic, staun, succor, talose, theorem, virus, wifie, wigged
+ 
+===> 076/2/shahed-nooshmand.raku <===
+aias
+align
+alose
+anta
+ante
+antes
+arar
+argo
+arose
+benu
+bide
+blunt
+boid
+bosc
+broad
+buff
+buri
+bute
+butea
+cart
+cess
+clove
+cloven
+coan
+cold
+cond
+constitution
+cord
+croon
+cube
+demi
+depa
+depart
+departed
+dust
+edit
+enter
+etna
+filch
+fore
+garlic
+gaul
+gila
+ging
+goat
+gram
+grieve
+grit
+grith
+guha
+gurr
+guss
+hazard
+heed
+ileac
+ioni
+itea
+laic
+lath
+lien
+lifo
+lise
+lose
+lota
+love
+luge
+lune
+lunt
+mali
+malign
+malignant
+mall
+masa
+mein
+mero
+meso
+mids
+midst
+nant
+need
+neil
+nesh
+neuma
+nevo
+oban
+odic
+ough
+ought
+ovary
+oven
+part
+parted
+pasmo
+quash
+raia
+rare
+reif
+rine
+road
+roon
+rose
+roud
+ruse
+sara
+shed
+shrine
+sice
+slag
+slug
+snab
+social
+sola
+sora
+soya
+spasm
+spasmodic
+staun
+succor
+sugi
+taar
+tall
+talose
+taun
+terp
+theo
+theorem
+tide
+tome
+trap
+tsar
+ulla
+vary
+virus
+visa
+wifie
+wigged
+zing
+om
+ 
+===> 076/2/simon-proctor.raku <===
+B I D E M I A T S U C C O R S T
+L D E G G I W Q H O D E E H D P
+U S E I R U B U T E A S L A G U
+N G N I Z I L A I C O S C N U D
+T G M I D S T S A R A R E I F G
+S R E N M D C H A S I V E E L I
+S C S H A E U E B R O A D M T E
+H W O V L P E D D L A I U L S S
+R Y O N L A S F C S T A O G O T
+I G U S S R R U G O V A R Y O C
+N R G P A T N A N G I L A M O O
+E I H A C E I V I R U S E S E D
+S E T S U D T T G A R L I C N H
+H V R M X L W I U M S N S O T B
+A E A O F I L C H T O D C A E U
+Z S C D F E C A A I I R L N R F
+A R I I A N Y U T O O O U T P F
+R S E C I S N A B O S C N E R A
+D R S M P C U U N E L T E S I L
+align
+alose
+antes
+arose
+blunt
+broad
+butea
+clove
+cloven
+constitution
+croon
+depart
+departed
+enter
+filch
+garlic
+grieve
+grith
+hazard
+ileac
+malign
+malignant
+midst
+neuma
+ought
+ovary
+parted
+pasmo
+quash
+shrine
+social
+spasm
+spasmodic
+staun
+succor
+talose
+theorem
+virus
+wifie
+wigged
+ 
+===> 076/2/stuart-little.raku <===
+align
+alose
+antes
+arose
+blunt
+broad
+butea
+clove
+cloven
+constitution
+croon
+depart
+departed
+enter
+filch
+garlic
+grieve
+grith
+hazard
+ileac
+malign
+malignant
+midst
+neuma
+ought
+ovary
+parted
+pasmo
+quash
+shrine
+social
+spasm
+spasmodic
+staun
+succor
+talose
+theorem
+virus
+wifie
+wigged

@@ -1,0 +1,871 @@
+ 
+===> 076/2/abigail.pl <===
+align
+alose
+antes
+arose
+blunt
+broad
+butea
+cloven
+constitution
+croon
+departed
+enter
+filch
+garlic
+grieve
+grith
+hazard
+ileac
+malignant
+midst
+neuma
+ought
+ovary
+parted
+pasmo
+quash
+shrine
+social
+spasmodic
+staun
+succor
+talose
+theorem
+virus
+wifie
+wigged
+ 
+===> 076/2/adam-russell.pl <===
+Found the following words: align,anta,ante,antes,arar,argo,bide,blunt,bosc,broad,buff,buri,bute,butea,cart,cess,coan,cold,cord,demi,depa,depart,departed,dust,enter,etna,filch,garlic,gila,ging,goat,gram,grieve,grit,grith,guha,gurr,guss,hazard,heed,laic,lien,lifo,lise,luge,lune,lunt,mali,malign,malignant,mall,mein,mero,meso,mids,midst,nant,need,neil,nesh,oban,odic,ough,ought,ovary,part,parted,pasmo,quash,rare,reif,rine,road,roud,ruse,sara,sara,shed,shrine,sice,slag,slug,snab,social,spasm,spasmodic,succor,sugi,terp,theo,theorem,trap,tsar,vary,virus,visa,wigged,zing
+ 
+===> 076/2/alexander-pankoff.pl <===
+Found 146 entries
+ 
+===> 076/2/athanasius.pl <===
+Found 128 different words of length 4 or more:
+
+aias, align, alose, anta, ante, antes, arar, argo, arose, benu, bide, blunt,
+boid, bosc, broad, buff, buri, bute, butea, cart, cess, clove, cloven, coan,
+cold, constitution, cord, croon, demi, depa, depart, departed, dust, edit,
+enter, etna, filch, fore, garlic, gaul, gila, ging(2), goat, gram, grieve,
+grit, grith, guha, gurr, guss, hazard, heed, ileac, ioni, itea, laic, lien,
+lifo, lise, lota, love, lunt, mali, malign, malignant, mall, mein, mero, meso,
+mids, midst, nant, neil, nesh, neuma, nevo, oban, odic, ough, ought, ovary,
+oven, part, parted, pasmo, quash, raia, rare, reif(2), rine, road, rose, roud,
+ruse, sara(2), shed, shrine, sice, slag, slug(2), snab, social, sola, sora,
+soya, span, spasm, spasmodic, staun, succor, taar, tall, talose, taun, terp,
+theo, theorem, tide, tome, trap, tsar, ulla, vary, virus, visa, wifie, wigged,
+zing
+ 
+===> 076/2/bob-lied.pl <===
+Found 40 words of length 5 or longer
+[1] align
+[2] alose
+[3] antes
+[4] arose
+[5] blunt
+[6] broad
+[7] butea
+[8] clove
+[9] cloven
+[10] constitution
+[11] croon
+[12] depart
+[13] departed
+[14] enter
+[15] filch
+[16] garlic
+[17] grieve
+[18] grith
+[19] hazard
+[20] ileac
+[21] malign
+[22] malignant
+[23] midst
+[24] neuma
+[25] ought
+[26] ovary
+[27] parted
+[28] pasmo
+[29] quash
+[30] shrine
+[31] social
+[32] spasm
+[33] spasmodic
+[34] staun
+[35] succor
+[36] talose
+[37] theorem
+[38] virus
+[39] wifie
+[40] wigged
+ 
+===> 076/2/cheok-yin-fung.pl <===
+aias align alose anta ante antes arar argo arose benu bide blunt boid bosc broad buff buri bute butea cart cess clove cloven coan cold cond constitution cord croon cube demi depa depart departed dust edit enter etna filch fore garlic gaul gila ging goat gram grieve grit grith guha gurr guss hazard heed ileac ioni itea laic lath lien lifo lise lose lota love luge lune lunt mali malign malignant mall masa mein mero meso mids midst nant need neil nesh neuma nevo oban odic om ough ought ovary oven part parted pasmo quash raia rare reif rine road roon rose roud ruse sara shed shrine sice slag slug snab social sola sora soya span spasm spasmodic staun succor sugi taar tall talose taun terp theo theorem tide tome trap tsar ulla vary virus visa wifie wigged zing 
+ 
+===> 076/2/colin-crain.pl <===
+B I D E M I A T S U C C O R S T
+L D E G G I W Q H O D E E H D P
+U S E I R U B U T E A S L A G U
+N G N I Z I L A I C O S C N U D
+T G M I D S T S A R A R E I F G
+S R E N M D C H A S I V E E L I
+S C S H A E U E B R O A D M T E
+H W O V L P E D D L A I U L S S
+R Y O N L A S F C S T A O G O T
+I G U S S R R U G O V A R Y O C
+N R G P A T N A N G I L A M O O
+E I H A C E I V I R U S E S E D
+S E T S U D T T G A R L I C N H
+H V R M X L W I U M S N S O T B
+A E A O F I L C H T O D C A E U
+Z S C D F E C A A I I R L N R F
+A R I I A N Y U T O O O U T P F
+R S E C I S N A B O S C N E R A
+D R S M P C U U N E L T E S I L
+
+found 40 words of minimum length 5: 
+
+ALIGN
+ALOSE
+ANTES
+AROSE
+BLUNT
+BROAD
+BUTEA
+CLOVE
+CLOVEN
+CONSTITUTION
+CROON
+DEPART
+DEPARTED
+ENTER
+FILCH
+GARLIC
+GRIEVE
+GRITH
+HAZARD
+ILEAC
+MALIGN
+MALIGNANT
+MIDST
+NEUMA
+OUGHT
+OVARY
+PARTED
+PASMO
+QUASH
+SHRINE
+SOCIAL
+SPASM
+SPASMODIC
+STAUN
+SUCCOR
+TALOSE
+THEOREM
+VIRUS
+WIFIE
+WIGGED
+ 
+===> 076/2/dave-jacoby.pl <===
+There were 111 unique words in this word search
+	AIAS
+	ALIGN
+	ANTA
+	ANTE
+	ANTES
+	ARAR
+	ARGO
+	BIDE
+	BLUNT
+	BOSC
+	BROAD
+	BUFF
+	BURI
+	BUTE
+	BUTEA
+	CART
+	CESS
+	COAN
+	COLD
+	CONSTITUTION
+	CORD
+	CUBE
+	DEMI
+	DEPA
+	DEPART
+	DEPARTED
+	DUST
+	ENTER
+	ETNA
+	FILCH
+	FORE
+	GARLIC
+	GAUL
+	GILA
+	GING
+	GOAT
+	GRAM
+	GRIEVE
+	GRIT
+	GRITH
+	GUHA
+	GURR
+	GUSS
+	HAZARD
+	HEED
+	ITEA
+	LAIC
+	LIEN
+	LIFO
+	LISE
+	LOTA
+	LUGE
+	LUNE
+	LUNT
+	MALI
+	MALIGN
+	MALIGNANT
+	MALL
+	MEIN
+	MERO
+	MESO
+	MIDS
+	MIDST
+	NANT
+	NEED
+	NEIL
+	NESH
+	OBAN
+	ODIC
+	OM
+	OUGH
+	OUGHT
+	OVARY
+	PART
+	PARTED
+	PASMO
+	QUASH
+	RAIA
+	RARE
+	REIF
+	RINE
+	ROAD
+	ROSE
+	ROUD
+	RUSE
+	SARA
+	SHED
+	SHRINE
+	SICE
+	SLAG
+	SLUG
+	SNAB
+	SOCIAL
+	SPAN
+	SPASM
+	SPASMODIC
+	SUCCOR
+	SUGI
+	TALL
+	TERP
+	THEO
+	THEOREM
+	TOME
+	TRAP
+	TSAR
+	ULLA
+	VARY
+	VIRUS
+	VISA
+	WIGGED
+	ZING
+ 
+===> 076/2/duncan-c-white.pl <===
+rows=19, cols=16
+found 139 words in grid: AIAS,ALIGN,ALOSE,ANTA,ANTE,ANTES,ARAR,ARGO,AROSE,BENU,BIDE,BLUNT,BOID,BOSC,BROAD,BUFF,BURI,BUTE,BUTEA,CART,CESS,CLOVE,CLOVEN,COAN,COLD,COND,CONSTITUTION,CORD,CROON,CUBE,DEMI,DEPA,DEPART,DEPARTED,DUST,EDIT,ENTER,ETNA,FILCH,FORE,GARLIC,GAUL,GILA,GING,GOAT,GRAM,GRIEVE,GRIT,GRITH,GUHA,GURR,GUSS,HAZARD,HEED,ILEAC,IONI,ITEA,LAIC,LATH,LIEN,LIFO,LISE,LOSE,LOTA,LOVE,LUGE,LUNE,LUNT,MALI,MALIGN,MALIGNANT,MALL,MASA,MEIN,MERO,MESO,MIDS,MIDST,NANT,NEED,NEIL,NESH,NEUMA,NEVO,OBAN,ODIC,OM,OUGH,OUGHT,OVARY,OVEN,PART,PARTED,PASMO,QUASH,RAIA,RARE,REIF,RINE,ROAD,ROON,ROSE,ROUD,RUSE,SARA,SHED,SHRINE,SICE,SLAG,SLUG,SNAB,SOCIAL,SOLA,SORA,SOYA,SPAN,SPASM,SPASMODIC,STAUN,SUCCOR,SUGI,TAAR,TALL,TALOSE,TAUN,TERP,THEO,THEOREM,TIDE,TOME,TRAP,TSAR,ULLA,VARY,VIRUS,VISA,WIFIE,WIGGED,ZING
+ 
+===> 076/2/e-choroba.pl <===
+aias
+align
+alose
+anta
+ante
+antes
+arar
+argo
+arose
+benu
+bide
+blunt
+boid
+bosc
+broad
+buff
+buri
+bute
+butea
+cart
+cess
+clove
+cloven
+coan
+cold
+cond
+constitution
+cord
+croon
+cube
+demi
+depa
+depart
+departed
+dust
+edit
+enter
+etna
+filch
+fore
+garlic
+gaul
+gila
+ging
+goat
+gram
+grieve
+grit
+grith
+guha
+gurr
+guss
+hazard
+heed
+ileac
+ioni
+itea
+laic
+lath
+lien
+lifo
+lise
+lose
+lota
+love
+luge
+lune
+lunt
+mali
+malign
+malignant
+mall
+masa
+mein
+mero
+meso
+mids
+midst
+nant
+need
+neil
+nesh
+neuma
+nevo
+oban
+odic
+om
+ough
+ought
+ovary
+oven
+part
+parted
+pasmo
+quash
+raia
+rare
+reif
+rine
+road
+roon
+rose
+roud
+ruse
+sara
+shed
+shrine
+sice
+slag
+slug
+snab
+social
+sola
+sora
+soya
+span
+spasm
+spasmodic
+staun
+succor
+sugi
+taar
+tall
+talose
+taun
+terp
+theo
+theorem
+tide
+tome
+trap
+tsar
+ulla
+vary
+virus
+visa
+wifie
+wigged
+zing
+ 
+===> 076/2/javier-luque.pl <===
+Found 40 words:
+align, alose, antes, arose, blunt, broad, butea, clove, cloven, constitution, croon, depart, departed, enter, filch, garlic, grieve, grith, hazard, ileac, malign, malignant, midst, neuma, ought, ovary, parted, pasmo, quash, shrine, social, spasm, spasmodic, staun, succor, talose, theorem, virus, wifie, wigged
+ 
+===> 076/2/jeongoon.pl <===
+Word Search Grid:
+B I D E M I A T S U C C O R S T
+L D E G G I W Q H O D E E H D P
+U S E I R U B U T E A S L A G U
+N G N I Z I L A I C O S C N U D
+T G M I D S T S A R A R E I F G
+S R E N M D C H A S I V E E L I
+S C S H A E U E B R O A D M T E
+H W O V L P E D D L A I U L S S
+R Y O N L A S F C S T A O G O T
+I G U S S R R U G O V A R Y O C
+N R G P A T N A N G I L A M O O
+E I H A C E I V I R U S E S E D
+S E T S U D T T G A R L I C N H
+H V R M X L W I U M S N S O T B
+A E A O F I L C H T O D C A E U
+Z S C D F E C A A I I R L N R F
+A R I I A N Y U T O O O U T P F
+R S E C I S N A B O S C N E R A
+D R S M P C U U N E L T E S I L
+
+Total: 139 word(s) found.
+[aias, align, alose, anta, ante, antes, arar, argo, arose, benu, bide, blunt, boid, bosc, broad, buff, buri, bute, butea, cart, cess, clove, cloven, coan, cold, cond, constitution, cord, croon, cube, demi, depa, depart, departed, dust, edit, enter, etna, filch, fore, garlic, gaul, gila, ging, goat, gram, grieve, grit, grith, guha, gurr, guss, hazard, heed, ileac, ioni, itea, laic, lath, lien, lifo, lise, lose, lota, love, luge, lune, lunt, mali, malign, malignant, mall, masa, mein, mero, meso, mids, midst, nant, need, neil, nesh, neuma, nevo, oban, odic, om, ough, ought, ovary, oven, part, parted, pasmo, quash, raia, rare, reif, rine, road, roon, rose, roud, ruse, sara, shed, shrine, sice, slag, slug, snab, social, sola, sora, soya, span, spasm, spasmodic, staun, succor, sugi, taar, tall, talose, taun, terp, theo, theorem, tide, tome, trap, tsar, ulla, vary, virus, visa, wifie, wigged, zing]
+ 
+===> 076/2/jo-37.pl <===
+SUCCOR
+WIGGED
+BUTEA
+SOCIAL
+MIDST
+BROAD
+OVARY
+MALIGNANT
+VIRUS
+GARLIC
+FILCH
+BLUNT
+SHRINE
+HAZARD
+GRIEVE
+OUGHT
+SPASMODIC
+DEPARTED
+QUASH
+ANTES
+ENTER
+CONSTITUTION
+GRITH
+THEOREM
+AROSE
+CLOVEN
+NEUMA
+WIFIE
+ILEAC
+STAUN
+CROON
+TALOSE
+ 
+===> 076/2/laurent-rosenfeld.pl <===
+align alose antes arose blunt broad butea clove cloven constitution croon depart departed enter filch garlic grieve grith hazard ileac malign malignant midst neuma ought ovary parted pasmo quash shrine social spasm spasmodic staun succor talose theorem virus wifie wigged
+ 
+===> 076/2/lubos-kolouch.pl <===
+ok 1
+1..1
+ 
+===> 076/2/mohammad-anwar.pl <===
+Matrix [19 x 16]: 174 unique records found.
+
+Found 40 unique words:
+align, alose, antes, arose, blunt, broad, butea, clove, cloven, constitution, croon, depart, departed, enter, filch, garlic, grieve, grith, hazard, ileac, malign, malignant, midst, neuma, ought, ovary, parted, pasmo, quash, shrine, social, spasm, spasmodic, staun, succor, talose, theorem, virus, wifie, wigged
+ 
+===> 076/2/neil-bowers.pl <===
+ante
+antes
+argo
+blunt
+buff
+cart
+cess
+coan
+cord
+depa
+depart
+departed
+enter
+etna
+ging
+gram
+grieve
+guha
+hazard
+lien
+lune
+lunt
+mall
+mein
+meso
+need
+neil
+nesh
+odic
+ough
+ought
+part
+parted
+pasmo
+quash
+rine
+roud
+shed
+shrine
+spasm
+spasmodic
+terp
+trap
+ 
+===> 076/2/nunovieira220.pl <===
+aias
+align
+alose
+anta
+antes
+arar
+argo
+arose
+benu
+bide
+blunt
+boid
+bosc
+broad
+buff
+buri
+bute
+butea
+cart
+cess
+clove
+cloven
+coan
+cold
+cond
+constitution
+cord
+croon
+cube
+demi
+depa
+depart
+departed
+dust
+enter
+etna
+filch
+fore
+garlic
+gaul
+gila
+ging
+goat
+gram
+grieve
+grit
+grith
+guha
+gurr
+guss
+hazard
+heed
+ileac
+ioni
+itea
+laic
+lath
+lifo
+lise
+lose
+lota
+love
+luge
+lune
+lunt
+mali
+malign
+malignant
+mall
+mein
+mero
+meso
+mids
+midst
+nant
+need
+neil
+nesh
+neuma
+oban
+odic
+om
+ough
+ought
+ovary
+oven
+parted
+pasmo
+quash
+raia
+rare
+reif
+rine
+road
+roon
+rose
+roud
+ruse
+sara
+shed
+shrine
+sice
+slag
+slug
+snab
+social
+sola
+sora
+soya
+span
+spasm
+spasmodic
+staun
+succor
+sugi
+taar
+tall
+talose
+taun
+terp
+theo
+theorem
+tide
+tome
+trap
+tsar
+ulla
+vary
+virus
+visa
+wifie
+wigged
+zing
+ 
+===> 076/2/paulo-custodio.pl <===
+align, alose, antes, arose, blunt, broad, butea, clove, cloven, constitution, croon, depart, departed, enter, filch, garlic, grieve, grith, hazard, ileac, malign, malignant, midst, neuma, ought, ovary, parted, pasmo, quash, shrine, social, spasm, spasmodic, staun, succor, talose, theorem, virus, wifie, wigged
+ 
+===> 076/2/perlboy1967.pl <===
+
+26 uniq words found in grid of length 5 or more (using dictionary containing 210 words).
+
+Word         | DLRBT | DLRTB | DRLBT | DRLTB |   HLR |   HRL |   VBT |   VTB
+------------ + ----- + ----- + ----- + ----- + ----- + ----- + ----- + -----
+align        |       |       |       |       |       |     1 |     1 |      
+alose        |       |       |       |     1 |       |       |       |      
+arose        |     1 |       |       |       |       |       |       |      
+broad        |       |       |       |       |     1 |       |       |     1
+butea        |       |       |       |       |     1 |       |       |     1
+clove        |     1 |       |       |       |       |       |       |      
+cloven       |     1 |       |       |       |       |       |       |      
+constitution |       |     1 |       |       |       |       |       |      
+croon        |       |       |       |     1 |       |       |       |      
+filch        |       |       |       |       |     1 |       |       |     1
+garlic       |       |       |       |       |     1 |       |       |     1
+grith        |       |     1 |       |       |       |       |       |      
+ileac        |       |       |       |     1 |       |       |       |      
+malign       |       |       |       |       |       |     1 |     1 |      
+malignant    |       |       |       |       |       |     1 |     1 |      
+midst        |       |       |       |       |     1 |       |       |     1
+neuma        |       |       |       |     1 |       |       |       |      
+ovary        |       |       |       |       |     1 |       |       |     1
+social       |       |       |       |       |       |     1 |     1 |      
+staun        |       |       |       |     1 |       |       |       |      
+succor       |       |       |       |       |     1 |       |       |     1
+talose       |       |       |       |     1 |       |       |       |      
+theorem      |       |     1 |       |       |       |       |       |      
+virus        |       |       |       |       |     1 |       |       |     1
+wifie        |       |       |       |     1 |       |       |       |      
+wigged       |       |       |       |       |       |     1 |     1 |      
+------------ + ----- + ----- + ----- + ----- + ----- + ----- + ----- + -----
+
+Legend:
+=======
+
+Key   | Description                               
+----- + ------------------------------------------
+DLRBT | Diagonal (left to right and bottom to top)
+DLRTB | Diagonal (left to right and top to bottom)
+DRLBT | Diagonal (right to left and bottom to top)
+DRLTB | Diagonal (right to left and top to bottom)
+HLR   | Horizontal (left to right)                
+HRL   | Horizontal (right to left)                
+VBT   | Vertical (bottom to top)                  
+VTB   | Vertical (top to bottom)                  
+----- + ------------------------------------------
+ 
+===> 076/2/pete-houston.pl <===
+Found: 40 words of length 5 or more:
+ALIGN ALOSE ANTES AROSE BLUNT BROAD BUTEA CLOVE CLOVEN CONSTITUTION CROON DEPART DEPARTED ENTER FILCH GARLIC GRIEVE GRITH HAZARD ILEAC MALIGN MALIGNANT MIDST NEUMA OUGHT OVARY PARTED PASMO QUASH SHRINE SOCIAL SPASM SPASMODIC STAUN SUCCOR TALOSE THEOREM VIRUS WIFIE WIGGED
+ 
+===> 076/2/roger-bell-west.pl <===
+align, alose, antes, arose, blunt, broad, butea, clove, cloven, constitution, croon, depart, departed, enter, filch, garlic, grieve, grith, hazard, ileac, malign, malignant, midst, neuma, ought, ovary, parted, pasmo, quash, shrine, social, spasm, spasmodic, staun, succor, talose, theorem, virus, wifie, wigged
+ 
+===> 076/2/sgreen.pl <===
+align
+alose
+antes
+arose
+blunt
+broad
+butea
+clove
+cloven
+constitution
+croon
+depart
+departed
+enter
+filch
+garlic
+grieve
+grith
+hazard
+ileac
+malign
+malignant
+midst
+neuma
+ought
+ovary
+parted
+pasmo
+quash
+shrine
+social
+spasm
+spasmodic
+staun
+succor
+talose
+theorem
+virus
+wifie
+wigged
+ 
+===> 076/2/walt-mankowski.pl <===
+align
+alose
+antes
+arose
+blunt
+broad
+butea
+clove
+cloven
+constitution
+croon
+depart
+departed
+enter
+filch
+garlic
+grieve
+grith
+hazard
+ileac
+malign
+malignant
+midst
+neuma
+ought
+ovary
+parted
+pasmo
+quash
+shrine
+social
+spasm
+spasmodic
+staun
+succor
+talose
+theorem
+virus
+wifie
+wigged
+ 
+===> 076/2/wanderdoc.pl <===
+First search:
+1 succor
+2 wigged
+3 butea
+4 social
+5 midst
+6 broad
+7 ovary
+8 malignant
+9 align
+10 malign
+11 virus
+12 garlic
+13 filch
+After 90-Rotation:
+14 hazard
+15 shrine
+16 grieve
+17 ought
+18 spasmodic
+19 pasmo
+20 spasm
+21 parted
+22 departed
+23 depart
+24 quash
+25 antes
+26 enter
+After 45-Rotation:
+27 arose
+28 cloven
+29 clove
+30 neuma
+31 wifie
+32 ileac
+33 staun
+34 talose
+After 135-Rotation:
+35 constitution
+36 grith
+37 theorem
