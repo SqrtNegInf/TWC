@@ -1,0 +1,138 @@
+ 
+===> 075/1/arne-sommer.raku <===
+: Sum: 6
+: Coins: 1, 2, 4
+: Unique coins: 1, 2, 4
+: Source: 1, 1, 1, 1, 1, 1, 2, 2, 2, 4
+2, 4
+1, 1, 4
+2, 2, 2
+1, 1, 2, 2
+1, 1, 1, 1, 2
+1, 1, 1, 1, 1, 1
+ 
+===> 075/1/ash.raku <===
+(2 4)
+(1 1 4)
+(2 2 2)
+(1 1 2 2)
+(1 1 1 1 2)
+(1 1 1 1 1 1)
+ 
+===> 075/1/athanasius.raku <===
+There are 6 possible ways to make the sum 6 from the coins 1, 2, 4
+ 
+===> 075/1/colin-crain.raku <===
+Input:
+    @C = [2 5 10 25]
+    $S = 27
+
+Output: 7
+There are 7 ways to make sum 27
+	a) (5 2 2 2 2 2 2 2 2 2 2 2)
+	b) (5 5 5 2 2 2 2 2 2)
+	c) (5 5 5 5 5 2)
+	d) (10 5 2 2 2 2 2 2)
+	e) (10 5 5 5 2)
+	f) (10 10 5 2)
+	g) (25 2)
+ 
+===> 075/1/feng-chang.raku <===
+[1 1 1 1 1 1]
+[1 1 1 1 2]
+[1 1 2 2]
+[1 1 4]
+[2 2 2]
+[2 4]
+ 
+===> 075/1/jason-messer.raku <===
+6
+ 
+===> 075/1/javier-luque.raku <===
+(1,1,1,1,1,1)
+(1,1,1,1,2)
+(1,1,2,2)
+(1,1,4)
+(2,2,2)
+(2,4)
+Output: 6 solutions
+ 
+===> 075/1/jeongoon.raku <===
+Input:
+@C = [1, 2, 4]
+$S = 6
+Output: 6
+possible ways are:
+[4 2]
+[4 1 1]
+[2 2 2]
+[2 2 1 1]
+[2 1 1 1 1]
+[1 1 1 1 1 1]
+ 
+===> 075/1/laurent-rosenfeld.raku <===
+1 1 1 1 1 1
+1 1 1 1 2
+1 1 2 2
+1 1 4
+2 2 2
+2 4
+ 
+===> 075/1/luca-ferrari.raku <===
+1 1 1 1 1 1
+1 1 2 2
+1 1 4
+1 1 1 1 2
+2 2 2
+2 4
+ 
+===> 075/1/mark-anderson.raku <===
+111111
+11112
+1122
+114
+222
+24
+
+6 combinations
+ 
+===> 075/1/markus-holzer.raku <===
+([1 1 1 1 1 1] [1 1 1 1 2] [1 1 2 2] [1 1 4] [2 2 2] [2 4])
+ 
+===> 075/1/mohammad-anwar.raku <===
+Coins: 1, 2, 4
+Possible ways to achieve the target: 6
+ 
+===> 075/1/noud.raku <===
+[[1 1 1 1 1 1] [1 1 1 1 2] [1 1 2 2] [1 1 4] [2 2 2] [2 4]]
+ 
+===> 075/1/roger-bell-west.raku <===
+1..1
+ok 1 - example
+ 
+===> 075/1/shahed-nooshmand.raku <===
+(2 4)
+(2 2 2)
+(1 1 4)
+(1 1 2 2)
+(1 1 1 1 2)
+(1 1 1 1 1 1)
+ 
+===> 075/1/simon-proctor.raku <===
+6
+ 
+===> 075/1/stuart-little.raku <===
+(1 1 1 1 1 1)
+(1 1 1 1 2)
+(1 1 2 2)
+(1 1 4)
+(2 2 2)
+(2 4)
+(6)
+ 
+===> 075/1/wambash.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ok 4 - 
+1..4
