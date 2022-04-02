@@ -1,0 +1,75 @@
+ 
+===> 073/1/arne-sommer.raku <===
+(0, 0, 0, 2, 3, 3, 4, 4)
+ 
+===> 073/1/ash.raku <===
+0
+0
+0
+2
+3
+3
+4
+4
+ 
+===> 073/1/athanasius.raku <===
+Input: @A = (1, 5, 0, 2, 9, 3, 7, 6, 4, 8) and $S = 3
+Output: (0, 0, 0, 2, 3, 3, 4, 4)
+ 
+===> 073/1/ben-davies.raku <===
+(0 0 0 2 3 3 4 4)
+ 
+===> 073/1/colin-crain.raku <===
+input:   (1 5 0 2 9 3 7 6 4 8)    window size 3
+windows: (1 5 0)(5 0 2)(0 2 9)(2 9 3)(9 3 7)(3 7 6)(7 6 4)(6 4 8)
+output:  [0 0 0 2 3 3 4 4]
+ 
+===> 073/1/jaldhar-h-vyas.raku <===
+0 0 0 2 3 3 4 4
+ 
+===> 073/1/jason-messer.raku <===
+(0 0 0 2 3 3 4 4)
+ 
+===> 073/1/javier-luque.raku <===
+(0, 0, 0, 2, 3, 3, 4, 4)
+ 
+===> 073/1/jeongoon.raku <===
+Input:     [1, 5, 0, 2, 9, 3, 7, 6, 4, 8]
+Correct:   [0, 0, 0, 2, 3, 3, 4, 4]
+My Answer: [0, 0, 0, 2, 3, 3, 4, 4]
+ 
+===> 073/1/laurent-rosenfeld.raku <===
+[0 0 0 2 3 3 4 4]
+ 
+===> 073/1/luca-ferrari.raku <===
+0,0,0,2,3,3,4,4
+ 
+===> 073/1/mark-anderson.raku <===
+(0, 0, 0, 2, 3, 3, 4, 4)
+ 
+===> 073/1/markus-holzer.raku <===
+0 0 0 2 3 3 4 4
+ 
+===> 073/1/mohammad-anwar.raku <===
+1, 5, 0, 2, 9, 3, 7, 6, 4, 8
+0, 0, 0, 2, 3, 3, 4, 4
+ 
+===> 073/1/noud.raku <===
+(0 0 0 2 3 3 4 4)
+ 
+===> 073/1/roger-bell-west.raku <===
+1..1
+ok 1 - example
+ 
+===> 073/1/simon-proctor.raku <===
+(0 0 0 2 3 3 4 4)
+ 
+===> 073/1/stuart-little.raku <===
+(0 0 0 2 3 3 4 4)
+ 
+===> 073/1/ulrich-rieke.raku <===
+[0 0 0 2 3 3 4 4]
+ 
+===> 073/1/wambash.raku <===
+ok 1 - 
+1..1

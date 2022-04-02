@@ -1,0 +1,11 @@
+#!/usr/bin/env perl
+use strict;
+use warnings;
+use feature qw(:5.32);
+use experimental qw(signatures);
+use List::Util qw(min);
+
+my @a =  (1, 5, 0, 2, 9, 3, 7, 6, 4, 8, 3);
+my $s = pop @a;
+my @out = map { min @a[$_..$_+$s-1] } 0..(@a-$s);
+say "@out";

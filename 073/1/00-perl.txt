@@ -1,0 +1,104 @@
+ 
+===> 073/1/arne-sommer.pl <===
+(0, 0, 0, 2, 3, 3, 4, 4)
+ 
+===> 073/1/bob-lied.pl <===
+0, 0, 0, 2, 3, 3, 4, 4
+ 
+===> 073/1/cheok-yin-fung.pl <===
+1..4
+ok 1 - example provided
+ok 2 - eleven random numbers
+ok 3 - ascending sequences
+ok 4 - descending first 10 positive integers
+ 
+===> 073/1/colin-crain.pl <===
+input:   1 5 0 2 9 3 7 6 4 8    window size 3
+output:  0 0 0 2 3 3 4 4
+ 
+===> 073/1/cristian-heredia.pl <===
+0 0 0 2 3 3 4 4
+ 
+===> 073/1/dave-jacoby.pl <===
+[(1  5  0) 2  9  3  7  6  4  8 ] = Min (0)
+[ 1 (5  0  2) 9  3  7  6  4  8 ] = Min (0)
+[ 1  5 (0  2  9) 3  7  6  4  8 ] = Min (0)
+[ 1  5  0 (2  9  3) 7  6  4  8 ] = Min (2)
+[ 1  5  0  2 (9  3  7) 6  4  8 ] = Min (3)
+[ 1  5  0  2  9 (3  7  6) 4  8 ] = Min (3)
+[ 1  5  0  2  9  3 (7  6  4) 8 ] = Min (4)
+[ 1  5  0  2  9  3  7 (6  4  8)] = Min (4)
+ 
+===> 073/1/e-choroba.pl <===
+1..1
+ok 1
+ 
+===> 073/1/jaldhar-h-vyas.pl <===
+0 0 0 2 3 3 4 4
+ 
+===> 073/1/javier-luque.pl <===
+(0, 0, 0, 2, 3, 3, 4, 4)
+ 
+===> 073/1/jo-37.pl <===
+# Seeded srand with seed '1' from import arg.
+ok 1 - example from challenge
+1..1
+ 
+===> 073/1/laurent-rosenfeld.pl <===
+0 0 0 2 3 3 4 4
+ 
+===> 073/1/lubos-kolouch.pl <===
+ok 1
+ok 2
+1..2
+ 
+===> 073/1/mano-chandar.pl <===
+0 0 0 2 3 3 4 4 
+===> 073/1/mohammad-anwar.pl <===
+1, 5, 0, 2, 9, 3, 7, 6, 4, 8
+0, 0, 0, 2, 3, 3, 4, 4
+ 
+===> 073/1/pavel_kuptsov.pl <===
+0,0,0,2,3,3,4,4
+ 
+===> 073/1/perlboy1967.pl <===
+Input:
+	@A = (1, 5, 0, 2, 9, 3, 7, 6, 4, 8)
+	$S = 3
+
+min(1, 5, 0) = 0
+min(5, 0, 2) = 0
+min(0, 2, 9) = 0
+min(2, 9, 3) = 2
+min(9, 3, 7) = 3
+min(3, 7, 6) = 3
+min(7, 6, 4) = 4
+min(6, 4, 8) = 4
+
+Output:
+	@S = (0, 0, 0, 2, 3, 3, 4, 4)
+ 
+===> 073/1/pete-houston.pl <===
+0 0 0 2 3 3 4 4
+ 
+===> 073/1/roger-bell-west.pl <===
+1..1
+ok 1 - example
+ 
+===> 073/1/shawn-wagner.pl <===
+Task 1:	0, 0, 0, 2, 3, 3, 4, 4
+ 
+===> 073/1/steven-wilson.pl <===
+ok 1
+1..1
+ 
+===> 073/1/ulrich-rieke.pl <===
+(0 0 0 2 3 3 4 4 )
+ 
+===> 073/1/walt-mankowski.pl <===
+0 0 0 2 3 3 4 4
+ 
+===> 073/1/wanderdoc.pl <===
+ok 1 - Example 1
+ok 2 - Example 2
+1..2
