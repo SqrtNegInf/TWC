@@ -1,0 +1,82 @@
+ 
+===> 074/2/arne-sommer.raku <===
+abb#cccd
+ 
+===> 074/2/ash.raku <===
+In 'a': a
+In 'ab': b
+In 'aba': b
+In 'abab': #
+In 'ababc': c
+In 'ababca': c
+In 'ababcab': c
+In 'ababcabd': d
+ 
+===> 074/2/athanasius.raku <===
+Input: $S = 'ababcabd'
+Output:     'abb#cccd'
+ 
+===> 074/2/colin-crain.raku <===
+xyzzyxwvuvu
+xyzyx#wvuuw
+ 
+===> 074/2/jaldhar-h-vyas.raku <===
+abb#cccd
+ 
+===> 074/2/jason-messer.raku <===
+a#ba#b##c#c#c#dc#
+x#yx#zyx#yx#x##
+ 
+===> 074/2/javier-luque.raku <===
+ok 1 - ababc
+ok 2 - xyzzyx
+1..2
+ 
+===> 074/2/jeongoon.raku <===
+Input: xyzzyx
+Output: xxyxyzxyzzxyzzyxyzzyx
+ 
+===> 074/2/laurent-rosenfeld.raku <===
+aaabcccccc####
+ 
+===> 074/2/luca-ferrari.raku <===
+abb#cccd
+ 
+===> 074/2/mark-anderson.raku <===
+abb#cccd
+ 
+===> 074/2/markus-holzer.raku <===
+a
+b
+b
+#
+c
+c
+c
+d
+ 
+===> 074/2/mohammad-anwar.raku <===
+abb#cccd
+ 
+===> 074/2/roger-bell-west.raku <===
+1..2
+ok 1 - example 1
+ok 2 - example 2
+ 
+===> 074/2/shahed-nooshmand.raku <===
+abb#cccd
+ 
+===> 074/2/simon-proctor.raku <===
+abb#cccd
+ 
+===> 074/2/stuart-little.raku <===
+(a a b # c c c c)
+ 
+===> 074/2/ulrich-rieke.raku <===
+abb#cccd
+ 
+===> 074/2/wambash.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+1..3

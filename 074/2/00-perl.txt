@@ -1,0 +1,114 @@
+ 
+===> 074/2/athanasius.pl <===
+Input: $S = 'ababcabd'
+Output:     'abb#cccd'
+ 
+===> 074/2/bob-lied.pl <===
+abb#cccd
+ 
+===> 074/2/brtastic.pl <===
+ok 1
+ok 2
+ok 3
+1..3
+ 
+===> 074/2/cheok-yin-fung.pl <===
+1..5
+ok 1 - example1 provided
+ok 2 - example2 provided
+ok 3 - trival
+ok 4 - repeats
+ok 5 - long sentence
+ 
+===> 074/2/colin-crain.pl <===
+abb#cccd
+ 
+===> 074/2/dave-jacoby.pl <===
+Input:   ababc
+Output:  abb#c
+
+Input:   xyzzyx
+Output:  xyzyx#
+
+ 
+===> 074/2/duncan-c-white.pl <===
+fnr: abb#cccd
+ 
+===> 074/2/e-choroba.pl <===
+1..2
+ok 1 - example 1
+ok 2 - example 2
+ 
+===> 074/2/jaldhar-h-vyas.pl <===
+abb#cccd
+ 
+===> 074/2/javier-luque.pl <===
+ok 1 - ababc
+ok 2 - xyzzyx
+1..2
+ 
+===> 074/2/jeongoon.pl <===
+Input:  xyzzyx
+Output: xyzyx#
+ 
+===> 074/2/jo-37.pl <===
+# Seeded srand with seed '1' from import arg.
+ok 1 - first example, lnr
+ok 2 - second example, lnr
+ok 3 - first example, fnr
+ok 4 - second example, fnr
+1..4
+ 
+===> 074/2/laurent-rosenfeld.pl <===
+aaabcccc
+ 
+===> 074/2/lubos-kolouch.pl <===
+ok 1
+ok 2
+1..2
+ 
+===> 074/2/mohammad-anwar.pl <===
+ababcabd => abb#cccd
+ 
+===> 074/2/nunovieira220.pl <===
+xyzyx#
+ 
+===> 074/2/perlboy1967.pl <===
+Input: $S = 'xyzzyx'
+Output:     'xyzyx#'
+ 
+===> 074/2/pete-houston.pl <===
+FNR for 'ababcabd' is abb#cccd
+ 
+===> 074/2/roger-bell-west.pl <===
+1..2
+ok 1 - example 1
+ok 2 - example 2
+ 
+===> 074/2/sgreen.pl <===
+abb#cccd
+ 
+===> 074/2/shawn-wagner.pl <===
+abb#c
+xyzyx#
+ 
+===> 074/2/steven-wilson.pl <===
+ok 1 - test 'ababc'
+ok 2 - test 'xyzzyx'
+1..2
+abb#c
+xyzyx#
+ 
+===> 074/2/ulrich-rieke.pl <===
+abb#cccd
+ 
+===> 074/2/walt-mankowski.pl <===
+abb#cccd
+ 
+===> 074/2/wanderdoc.pl <===
+ok 1 - Example 1
+ok 2 - Example 2
+1..2
+ 
+===> 074/2/yet-ebreo.pl <===
+abb#cabd
