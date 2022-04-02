@@ -1,0 +1,3 @@
+#!/usr/bin/env raku
+# umm...
+(sub { .return if @_.grep(([\,] .comb).map({ .grep({ .grep($^c) == 1 })[*-1] // '#' }).join) > @_/2 for @_; -1 })((1, 2, 2, 3, 2, 4, 2)).say
