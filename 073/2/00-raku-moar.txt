@@ -1,0 +1,72 @@
+ 
+===> 073/2/arne-sommer.raku <===
+(0, 7, 0, 3, 3)
+ 
+===> 073/2/ash.raku <===
+0
+7
+0
+3
+3
+ 
+===> 073/2/athanasius.raku <===
+Input: @A = (7, 8, 3, 12, 10)
+Output:     (0, 7, 0,  3,  3)
+ 
+===> 073/2/colin-crain.raku <===
+[7 8 3 12 10]
+[∅ 7 ∅ 3 3]
+ 
+===> 073/2/jaldhar-h-vyas.raku <===
+0 7 0 3 3
+ 
+===> 073/2/jason-messer.raku <===
+(0 7 0 3 3)
+(0 4 4)
+ 
+===> 073/2/javier-luque.raku <===
+(0, 7, 0, 3, 3)
+(0, 4, 4)
+ 
+===> 073/2/jeongoon.raku <===
+Input: [7, 8, 3, 12, 10]
+Output: [0, 7, 0, 3, 3]
+ 
+===> 073/2/laurent-rosenfeld.raku <===
+[0 7 0 3 3]
+ 
+===> 073/2/luca-ferrari.raku <===
+0,7,0,3,3
+ 
+===> 073/2/mark-anderson.raku <===
+(0, 7, 0, 3, 3)
+ 
+===> 073/2/markus-holzer.raku <===
+0 7 0 3 3
+ 
+===> 073/2/mohammad-anwar.raku <===
+7, 8, 3, 12, 10
+0, 7, 0, 3, 3
+ 
+===> 073/2/noud.raku <===
+(0 7 0 3 3)
+(0 4 4)
+ 
+===> 073/2/roger-bell-west.raku <===
+1..2
+ok 1 - example 1
+ok 2 - example 2
+ 
+===> 073/2/simon-proctor.raku <===
+(0 7 0 3 3)
+ 
+===> 073/2/stuart-little.raku <===
+(0 7 0 3 3)
+ 
+===> 073/2/ulrich-rieke.raku <===
+[0 7 7 3 3]
+ 
+===> 073/2/wambash.raku <===
+ok 1 - 
+ok 2 - 
+1..2

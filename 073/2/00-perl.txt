@@ -1,0 +1,99 @@
+ 
+===> 073/2/arne-sommer.pl <===
+(0, 7, 0, 3, 3)
+ 
+===> 073/2/athanasius.pl <===
+Input: @A = (7, 8, 3, 12, 10)
+Output:     (0, 7, 0,  3,  3)
+ 
+===> 073/2/bob-lied.pl <===
+(0,7,0,3,3)
+ 
+===> 073/2/cheok-yin-fung.pl <===
+0 7 0 3 3
+ 
+===> 073/2/colin-crain.pl <===
+Input:  7 8 -3 12 -10
+Output: ∅, 7, ∅, -3, ∅
+ 
+===> 073/2/cristian-heredia.pl <===
+0 7 0 3 3
+ 
+===> 073/2/dave-jacoby.pl <===
+INPUT:  	7, 8, 3, 12, 10
+OUTPUT: 	0, 7, 0, 3, 3
+
+INPUT:  	4, 6, 5
+OUTPUT: 	0, 4, 4
+
+ 
+===> 073/2/e-choroba.pl <===
+1..2
+ok 1
+ok 2
+ 
+===> 073/2/jaldhar-h-vyas.pl <===
+0 7 0 3 3
+ 
+===> 073/2/javier-luque.pl <===
+(0, 7, 0, 3, 3)
+(0, 4, 4)
+ 
+===> 073/2/jeongoon.pl <===
+@A = (   7   8   3  12  10 )
+@S = (   0   7   0   3   3 )
+ 
+===> 073/2/jo-37.pl <===
+# Seeded srand with seed '1' from import arg.
+ok 1 - first example
+ok 2 - second example
+1..2
+ 
+===> 073/2/laurent-rosenfeld.pl <===
+0 7 0 3 3
+ 
+===> 073/2/lubos-kolouch.pl <===
+ok 1
+ok 2
+1..2
+ 
+===> 073/2/mano-chandar.pl <===
+0 7 0 3 3 
+===> 073/2/mohammad-anwar.pl <===
+7, 8, 3, 12, 10
+0, 7, 0, 3, 3
+ 
+===> 073/2/perlboy1967.pl <===
+Input:
+	@A = (7, 8, 3, 12, 10)
+
+8	min(7) = 7, 8 < 7 ? 7 : 0 => 7
+3	min(7, 8) = 7, 3 < 7 ? 7 : 0 => 0
+12	min(7, 8, 3) = 3, 12 < 3 ? 3 : 0 => 3
+10	min(7, 8, 3, 12) = 3, 10 < 3 ? 3 : 0 => 3
+
+Output:
+	@S = (0, 7, 0, 3, 3)
+ 
+===> 073/2/roger-bell-west.pl <===
+1..2
+ok 1 - example 1
+ok 2 - example 2
+ 
+===> 073/2/sgreen.pl <===
+0, 7, 0, 3, 3
+ 
+===> 073/2/shawn-wagner.pl <===
+Task 2:	0, 7, 0, 3, 3
+Task 2:	0, 4, 4
+ 
+===> 073/2/ulrich-rieke.pl <===
+(0 7 7 3 3 )
+ 
+===> 073/2/walt-mankowski.pl <===
+0 7 0 3 3
+ 
+===> 073/2/wanderdoc.pl <===
+ok 1 - Example 1
+ok 2 - Example 2
+1..2
