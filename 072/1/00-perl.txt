@@ -1,0 +1,178 @@
+ 
+===> 072/1/adam-russell.pl <===
+$N! = 3628800 has 2 trailing zeroes
+ 
+===> 072/1/arne-sommer.pl <===
+2
+ 
+===> 072/1/athanasius.pl <===
+Input:  N = 10
+Output: 2 (because 10! = 3628800 has 2 trailing zeroes)
+ 
+===> 072/1/bob-lied.pl <===
+ok 1 - f( 0)
+ok 2 - f( 1)
+ok 3 - f( 2)
+ok 4 - f( 3)
+ok 5 - f( 4)
+ok 6 - f( 5)
+ok 7 - f( 6)
+ok 8 - f( 7)
+ok 9 - f( 8)
+ok 10 - f( 9)
+ok 11 - f(10)
+ok 12 - f(15)
+ok 13 - f(20)
+ok 14 - for  0
+ok 15 - for  1
+ok 16 - for  2
+ok 17 - for  3
+ok 18 - for  4
+ok 19 - for  5
+ok 20 - for  6
+ok 21 - for  7
+ok 22 - for  8
+ok 23 - for  9
+ok 24 - for 10
+ok 25 - for 20
+1..25
+ 
+===> 072/1/cheok-yin-fung.pl <===
+1..7
+2
+ok 1 - pass test case N=10
+ok 2 - pass test case N=7
+ok 3 - pass test case N=4
+ok 4 - pass test case N=25
+ok 5 - pass test case N=30
+ok 6 - pass test case N=50
+ok 7 - pass test case N=100
+ 
+===> 072/1/colin-crain.pl <===
+there are 0 trailing zeros on  1! = 1
+there are 0 trailing zeros on  2! = 2
+there are 0 trailing zeros on  3! = 6
+there are 0 trailing zeros on  4! = 24
+there is  1 trailing zero  on  5! = 120
+there is  1 trailing zero  on  6! = 720
+there is  1 trailing zero  on  7! = 5040
+there is  1 trailing zero  on  8! = 40320
+there is  1 trailing zero  on  9! = 362880
+there are 2 trailing zeros on 10! = 3628800
+ 
+===> 072/1/cristian-heredia.pl <===
+Please, introduce a number <= 10
+2 as 10! = 3628800 has 2 trailing zero
+ 
+===> 072/1/dave-jacoby.pl <===
+Output: 10 as N! = 3628800 has 2 trailing zeroes
+ 
+===> 072/1/duncan-c-white.pl <===
+fact(n) = 3628800
+trailing zeroes(3628800) = 2
+ 
+===> 072/1/e-choroba.pl <===
+# Subtest: factorial
+    ok 1
+    ok 2
+    ok 3
+    1..3
+ok 1 - factorial
+# Subtest: trailing0s
+    ok 1 - fast 0
+    ok 2 - fast 1
+    ok 3 - fast 2
+    ok 4 - fast 3
+    ok 5 - fast 4
+    ok 6 - fast 5
+    ok 7 - fast 6
+    ok 8 - fast 7
+    ok 9 - fast 8
+    ok 10 - fast 9
+    ok 11 - fast 10
+    ok 12 - fast 11
+    ok 13 - fast 12
+    ok 14 - fast 13
+    ok 15 - fast 14
+    ok 16 - fast 15
+    1..16
+ok 2 - trailing0s
+1..2
+ 
+===> 072/1/jaldhar-h-vyas.pl <===
+2
+ 
+===> 072/1/javier-luque.pl <===
+4 as 20! = 2432902008176640000 has 4 trailing zeroes
+ 
+===> 072/1/jeongoon.pl <===
+Counted:   4
+Caculated: 4
+ 
+===> 072/1/jo-37.pl <===
+# Seeded srand with seed '1' from import arg.
+ok 1 - first example
+ok 2 - second example
+ok 3 - third example
+100! has 24 trailing zeroes
+ok 4 - cross-check 100!
+1000000! has 249998 trailing zeroes
+1..4
+ 
+===> 072/1/mohammad-anwar.pl <===
+2
+ 
+===> 072/1/perlboy1967.pl <===
+Input: 20
+Output: 4
+ 
+===> 072/1/pete-houston.pl <===
+10! has 2 trailing zeros
+12! has 2 trailing zeros
+20! has 4 trailing zeros
+125! has 31 trailing zeros
+ 
+===> 072/1/roger-bell-west.pl <===
+1..5
+ok 1 - ten
+ok 2 - seven
+ok 3 - four
+ok 4 - sixty-nine
+ok 5 - one hundred and twenty-five
+ 
+===> 072/1/sgreen.pl <===
+2
+ 
+===> 072/1/simon-miner.pl <===
+2 (10! = 3628800)
+ 
+===> 072/1/ulrich-rieke.pl <===
+2
+ 
+===> 072/1/walt-mankowski.pl <===
+10 as $N! = 3628800 has 2 trailing zeros
+ 
+===> 072/1/wanderdoc.pl <===
+1->0
+2->0
+3->0
+4->0
+5->1
+6->1
+7->1
+8->1
+9->1
+10->2
+1->0
+2->0
+3->0
+4->0
+5->1
+6->1
+7->1
+8->1
+9->1
+10->2
+ 
+===> 072/1/will-west.pl <===
+3628800 has how many trailing zeroes?   2

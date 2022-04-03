@@ -1,0 +1,100 @@
+ 
+===> 072/1/arne-sommer.raku <===
+0
+0
+0
+0
+1
+1
+1
+1
+1
+2
+ 
+===> 072/1/ash.raku <===
+10! = 3628800
+2
+ 
+===> 072/1/athanasius.raku <===
+Input:  N = 10
+Output: 2 (because 10! = 3628800 has 2 trailing zeroes)
+ 
+===> 072/1/ben-davies.raku <===
+10 as 10! = 3628800 has 2 trailing zeroes
+ 
+===> 072/1/colin-crain.raku <===
+there are 0 trailing zeros on 1! = 1
+there are 0 trailing zeros on 2! = 2
+there are 0 trailing zeros on 3! = 6
+there are 0 trailing zeros on 4! = 24
+there are 1 trailing zeros on 5! = 120
+there are 1 trailing zeros on 6! = 720
+there are 1 trailing zeros on 7! = 5040
+there are 1 trailing zeros on 8! = 40320
+there are 1 trailing zeros on 9! = 362880
+there are 2 trailing zeros on 10! = 3628800
+there are 2 trailing zeros on 11! = 39916800
+ 
+===> 072/1/feng-chang.raku <===
+12! has 2 trailing zeros
+ 
+===> 072/1/jaldhar-h-vyas.raku <===
+2
+ 
+===> 072/1/jason-messer.raku <===
+2
+1
+0
+ 
+===> 072/1/javier-luque.raku <===
+4 as 20! = 2432902008176640000 has 4 trailing zeroes
+ 
+===> 072/1/jeongoon.raku <===
+Where N  = 12
+      N! = 479001600
+Counted: 2
+Reduced: 2
+ 
+===> 072/1/luca-ferrari.raku <===
+12 ! = 479001600 and has 2 trailing zeros
+ 
+===> 072/1/mark-anderson.raku <===
+2 as $N! = 479001600 has 2 trailing zeroes
+ 
+===> 072/1/markus-holzer.raku <===
+2
+ 
+===> 072/1/mohammad-anwar.raku <===
+3628800 => 2
+ 
+===> 072/1/noud.raku <===
+6
+2
+1
+0
+ 
+===> 072/1/roger-bell-west.raku <===
+1..5
+ok 1 - ten
+ok 2 - seven
+ok 3 - four
+ok 4 - sixty-nine
+ok 5 - one hundred and twenty-five
+ 
+===> 072/1/simon-proctor.raku <===
+31
+ 
+===> 072/1/stuart-little.raku <===
+31
+ 
+===> 072/1/ulrich-rieke.raku <===
+31
+ 
+===> 072/1/wambash.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ok 4 - 
+ok 5 - 
+ok 6 - 
+1..6
