@@ -1,0 +1,127 @@
+ 
+===> 070/1/arne-sommer.pl <===
+pndraerlaku
+ 
+===> 070/1/athanasius.pl <===
+Input:
+    $S = 'perlandraku'
+    $C = 3
+    $O = 4
+
+Character Swapping:
+    swap: 1: e <=> n = pnrlaedraku
+    swap: 2: r <=> d = pndlaerraku
+    swap: 3: l <=> r = pndraerlaku
+
+Output:
+    pndraerlaku
+ 
+===> 070/1/bob-lied.pl <===
+pndraerlaku
+pndraerlaku
+pndraerlaku
+ 
+===> 070/1/cheok-yin-fung.pl <===
+1 pnrlaedraku
+2 pndlaerraku
+3 pndraerlaku
+ 
+===> 070/1/colin-crain.pl <===
+Count   3
+Offset  4
+Start   p e r l a n d r a k u
+Result  p n d r a e r l a k u
+ 
+===> 070/1/dave-jacoby.pl <===
+Input:
+    S: perlandroku
+    C: 3
+    O: 4
+
+Character Swapping:
+    swap 1: e <=> n = pnrlaedroku
+    swap 2: r <=> d = pndlaerroku
+    swap 3: l <=> r = pndraerloku
+
+Output:
+    pndraerloku
+ 
+===> 070/1/duncan-c-white.pl <===
+result: pndraerlaku
+ 
+===> 070/1/e-choroba.pl <===
+1..15
+ok 1
+ok 2
+ok 3
+ok 4
+ok 5
+ok 6
+ok 7
+ok 8
+ok 9
+ok 10
+ok 11
+ok 12
+ok 13
+ok 14
+ok 15
+ 
+===> 070/1/jaldhar-h-vyas.pl <===
+pndraerlaku
+ 
+===> 070/1/javier-luque.pl <===
+pndraerlaku
+ 
+===> 070/1/jo-37.pl <===
+# Seeded srand with seed '1' from import arg.
+ok 1 - example from challenge
+ok 2 - hit the end
+ok 3 - swap adjacent blocks
+ok 4 - swap whole string
+1..4
+ 
+===> 070/1/laurent-rosenfeld.pl <===
+pndraerlaku
+ 
+===> 070/1/mohammad-anwar.pl <===
+perlandraku => pndraerlaku
+ 
+===> 070/1/perlboy1967.pl <===
+
+Input:
+  $S = 'perlandraku'
+  $C = 3
+  $O = 4 
+
+Character Swapping:
+  swap: e <=> n = pnrlaedraku
+  swap: r <=> d = pndlaerraku
+  swap: l <=> r = pndraerlaku
+
+Output:
+  pndraerlaku
+ 
+===> 070/1/pete-houston.pl <===
+pndraerlaku
+ 
+===> 070/1/roger-bell-west.pl <===
+1..1
+ok 1 - example 1
+ 
+===> 070/1/sgreen.pl <===
+pndraerlaku
+ 
+===> 070/1/ulrich-rieke.pl <===
+pndraerlaku
+ 
+===> 070/1/walt-mankowski.pl <===
+pndraerlaku
+ 
+===> 070/1/wanderdoc.pl <===
+ok 1 - Example 1
+ok 2 - Example 2
+1..2
+ 
+===> 070/1/x1mandi.pl <===
+Pongmerlers

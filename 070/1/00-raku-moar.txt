@@ -1,0 +1,64 @@
+ 
+===> 070/1/arne-sommer.raku <===
+perlaerlaku
+ 
+===> 070/1/ash.raku <===
+pndraerlaku
+ 
+===> 070/1/athanasius.raku <===
+Input:
+    $S = 'perlandraku'
+    $C = 3
+    $O = 4
+
+Character Swapping:
+    swap: 1: e <=> n = pnrlaedraku
+    swap: 2: r <=> d = pndlaerraku
+    swap: 3: l <=> r = pndraerlaku
+
+Output:
+    pndraerlaku
+ 
+===> 070/1/colin-crain.raku <===
+Count   1
+Offset  7
+Start   a b c d e f g h
+Result  b a c d e f g h
+ 
+===> 070/1/jaldhar-h-vyas.raku <===
+pndraerlaku
+ 
+===> 070/1/javier-luque.raku <===
+pndraerlaku
+ 
+===> 070/1/jeongoon.raku <===
+pndraerlaku
+ 
+===> 070/1/laurent-rosenfeld.raku <===
+pndraerlaku
+ 
+===> 070/1/luca-ferrari.raku <===
+perlandraku with 11 chars, swap counter 3 and offset 4
+pndraerlaku
+ 
+===> 070/1/mark-anderson.raku <===
+pndraerlaku
+ 
+===> 070/1/mohammad-anwar.raku <===
+perlandraku => pndraerlaku
+ 
+===> 070/1/noud.raku <===
+pndraerlaku
+ 
+===> 070/1/roger-bell-west.raku <===
+1..1
+ok 1 - example 1
+ 
+===> 070/1/simon-proctor.raku <===
+pndraerlaku
+ 
+===> 070/1/stuart-little.raku <===
+pndraerlaku
+ 
+===> 070/1/ulrich-rieke.raku <===
+pndraerlaku
