@@ -1,0 +1,82 @@
+ 
+===> 071/2/arne-sommer.raku <===
+1 -> 2 -> 3 -> 4 -> 5 -> 6
+Length: 6
+1 -> 2 -> 3 -> 5 -> 6
+ 
+===> 071/2/ash.raku <===
+Node.new(data => 9, next => Node.new(data => 8, next => Node.new(data => 7, next => Node.new(data => 6, next => Node.new(data => 5, next => Node.new(data => 4, next => Node.new(data => 3, next => Node.new(data => 2, next => Node.new(data => 1, next => Node.new(data => 0, next => Any))))))))))
+Node.new(data => 9, next => Node.new(data => 8, next => Node.new(data => 7, next => Node.new(data => 6, next => Node.new(data => 5, next => Node.new(data => 4, next => Node.new(data => 3, next => Node.new(data => 1, next => Node.new(data => 0, next => Any)))))))))
+ 
+===> 071/2/colin-crain.raku <===
+Usage: ./missing-link.raku location a1 a2 a3 ...
+            location > 0
+ 
+===> 071/2/jaldhar-h-vyas.raku <===
+1 2 4 5 
+ 
+===> 071/2/javier-luque.raku <===
+When $N = 1
+After: 1 → 2 → 3 → 4
+When $N = 2
+After: 1 → 2 → 3 → 5
+When $N = 3
+After: 1 → 2 → 4 → 5
+When $N = 4
+After: 1 → 3 → 4 → 5
+When $N = 5
+After: 2 → 3 → 4 → 5
+When $N = 6
+After: 1 → 2 → 3 → 4
+ 
+===> 071/2/jeongoon.raku <===
+Given List : 1 → 2 → 3 → 4 → 5
+When $N = 1
+Output: 1 → 2 → 3 → 4
+Given List : 1 → 2 → 3 → 4 → 5
+When $N = 2
+Output: 1 → 2 → 3 → 5
+Given List : 1 → 2 → 3 → 4 → 5
+When $N = 3
+Output: 1 → 2 → 4 → 5
+Given List : 1 → 2 → 3 → 4 → 5
+When $N = 4
+Output: 1 → 3 → 4 → 5
+Given List : 1 → 2 → 3 → 4 → 5
+When $N = 5
+Output: 2 → 3 → 4 → 5
+Given List : 1 → 2 → 3 → 4 → 5
+When $N = 6
+Output: 2 → 3 → 4 → 5
+ 
+===> 071/2/laurent-rosenfeld.raku <===
+Original list: 1 -> 2 -> 3 -> 4 -> 5
+New linked list: 1 -> 2 -> 4 -> 5
+ 
+===> 071/2/luca-ferrari.raku <===
+^5
+Size of the list is 5
+0 -> 1 -> 2 -> 3 -> 4
+0 -> 1 -> 3 -> 4
+ 
+===> 071/2/mohammad-anwar.raku <===
+1 -> 2 -> 3 -> 4 -> 5
+1 -> 2 -> 3 -> 5
+ 
+===> 071/2/noud.raku <===
+0 -> 1 -> 2 -> 3 -> 4 -> 5 -> 6 -> 7 -> 8 -> 9 -> 10
+0 -> 1 -> 2 -> 3 -> 4 -> 6 -> 7 -> 8 -> 9 -> 10
+1 -> 2 -> 3 -> 4 -> 6 -> 7 -> 8 -> 9 -> 10
+2 -> 3 -> 4 -> 6 -> 7 -> 8 -> 9 -> 10
+ 
+===> 071/2/simon-proctor.raku <===
+Before: 0 -> 1 -> 2 -> 3 -> 4
+After: 0 -> 1 -> 3 -> 4
+ 
+===> 071/2/stuart-little.raku <===
+Initial list: 0 -> 1 -> 2 -> 3 -> 4 -> 5
+Chopped list: 0 -> 1 -> 2 -> 4 -> 5
+ 
+===> 071/2/ulrich-rieke.raku <===
+[0 1 2 3 4]
+0->1->3->4
