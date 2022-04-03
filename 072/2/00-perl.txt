@@ -1,0 +1,136 @@
+ 
+===> 072/2/arne-sommer.pl <===
+L3
+L4
+L5
+L6
+ 
+===> 072/2/athanasius.pl <===
+L3
+L4
+L5
+L6
+ 
+===> 072/2/bob-lied.pl <===
+ok 1 - first line
+ok 2 - check first line
+ok 3 - head lines
+ok 4 - check head lines
+ok 5 - tail lines
+ok 6 - check tail lines
+ok 7 - last line
+ok 8 - check last lines
+ok 9 - past end
+ok 10 - check past end lines
+ok 11 - outside
+ok 12 - check outside lines
+1..12
+ 
+===> 072/2/cheok-yin-fung.pl <===
+L3
+L4
+L5
+L6
+ 
+===> 072/2/colin-crain.pl <===
+L3
+L4
+L5
+L6
+ 
+===> 072/2/cristian-heredia.pl <===
+L3
+L4
+L5
+L6
+ 
+===> 072/2/dave-jacoby.pl <===
+use strict;
+use warnings;
+use feature qw{ say signatures state };
+no warnings qw{ experimental };
+ 
+===> 072/2/duncan-c-white.pl <===
+L3
+L4
+L5
+L6
+ 
+===> 072/2/e-choroba.pl <===
+L3
+L4
+L5
+L6
+ 
+===> 072/2/jaldhar-h-vyas.pl <===
+L3
+L4
+L5
+L6
+ 
+===> 072/2/javier-luque.pl <===
+L3
+L4
+L5
+L6
+ 
+===> 072/2/jeongoon.pl <===
+L3
+L4
+L5
+L6
+ 
+===> 072/2/mohammad-anwar.pl <===
+L3
+L4
+L5
+L6
+ 
+===> 072/2/perlboy1967.pl <===
+L3
+L4
+L5
+L6
+ 
+===> 072/2/pete-houston.pl <===
+start = 3, end = 6
+L3
+L4
+L5
+L6
+ 
+===> 072/2/roger-bell-west.pl <===
+L3
+L4
+L5
+L6
+ 
+===> 072/2/sgreen.pl <===
+L3
+L4
+L5
+L6
+ 
+===> 072/2/ulrich-rieke.pl <===
+L3
+L4
+L5
+L6
+ 
+===> 072/2/walt-mankowski.pl <===
+L3
+L4
+L5
+L6
+ 
+===> 072/2/wanderdoc.pl <===
+L3
+L4
+L5
+L6
+ 
+===> 072/2/yary-h.pl <===
+L3
+L4
+L5
+L6

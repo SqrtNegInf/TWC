@@ -1,0 +1,114 @@
+ 
+===> 072/2/arne-sommer.raku <===
+L3
+L4
+L5
+L6
+ 
+===> 072/2/ash.raku <===
+L3
+L4
+L5
+L6
+ 
+===> 072/2/athanasius.raku <===
+L3
+L4
+L5
+L6
+ 
+===> 072/2/ben-davies.raku <===
+L3
+L4
+L5
+L6
+ 
+===> 072/2/colin-crain.raku <===
+#       flippity-floppity.raku
+#
+#       2020 colin crain
+## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ##
+ 
+===> 072/2/jaldhar-h-vyas.raku <===
+L3
+L4
+L5
+L6
+ 
+===> 072/2/jason-messer.raku <===
+L3
+L4
+L5
+L6
+ 
+===> 072/2/javier-luque.raku <===
+L3
+L4
+L5
+L6
+ 
+===> 072/2/luca-ferrari.raku <===
+L3
+L4
+L5
+L6
+ 
+===> 072/2/mark-anderson.raku <===
+L3
+L4
+L5
+L6
+ 
+===> 072/2/markus-holzer.raku <===
+L3
+L4
+L5
+L6
+ 
+===> 072/2/mohammad-anwar.raku <===
+L3
+L4
+L5
+L6
+ 
+===> 072/2/noud.raku <===
+L3
+L4
+L5
+L6
+ 
+===> 072/2/roger-bell-west.raku <===
+L3
+L4
+L5
+L6
+ 
+===> 072/2/simon-proctor.raku <===
+L3
+L4
+L5
+L6
+ 
+===> 072/2/stuart-little.raku <===
+L3
+L4
+L5
+L6
+ 
+===> 072/2/ulrich-rieke.raku <===
+L3
+L4
+L5
+L6
+ 
+===> 072/2/wambash.raku <===
+L3
+L4
+L5
+L6
+ 
+===> 072/2/yary-h.raku <===
+L3
+L4
+L5
+L6
