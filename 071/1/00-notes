@@ -1,0 +1,1 @@
+Differences between JVM and MoarVM are to be expected, given the use of rand/pick/roll.
