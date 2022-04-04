@@ -1,0 +1,50 @@
+ 
+===> 068/2/arne-sommer.raku <===
+0 -> 9 -> 1 -> 8 -> 2 -> 7 -> 3 -> 6 -> 4 -> 5
+ 
+===> 068/2/athanasius.raku <===
+Input:  0 -> 1 -> 2 -> 3 -> 4 -> 5 -> 6 -> 7 -> 8 -> 9
+Output: 0 -> 9 -> 1 -> 8 -> 2 -> 7 -> 3 -> 6 -> 4 -> 5
+ 
+===> 068/2/jaldhar-h-vyas.raku <===
+1 4 2 3
+ 
+===> 068/2/javier-luque.raku <===
+Before: 1 → 2 → 3 → 4
+After: 1 → 4 → 2 → 3
+ 
+===> 068/2/jeongoon.raku <===
+1 → 2 → 3 → 4 → 5 → 6 → 7
+1 → 7 → 2 → 6 → 3 → 5 → 4
+ 
+===> 068/2/luca-ferrari.raku <===
+switching elements 0 and 9
+switching elements 1 and 8
+switching elements 2 and 7
+switching elements 3 and 6
+switching elements 4 and 5
+Node.new(value => "L0", next => Node.new(value => "L9", next => Node.new(value => "L1", next => Node.new(value => "L8", next => Node.new(value => "L2", next => Node.new(value => "L7", next => Node.new(value => "L3", next => Node.new(value => "L6", next => Node.new(value => "L4", next => Node.new(value => "L5", next => Node))))))))))
+ 
+===> 068/2/mohammad-anwar.raku <===
+1 -> 5 -> 2 -> 4 -> 3
+ 
+===> 068/2/noud.raku <===
+1 -> 2 -> 3 -> 4 -> 5 -> 6 -> 7 -> 8
+1 -> 8 -> 2 -> 7 -> 3 -> 6 -> 4 -> 5
+ 
+===> 068/2/shahed-nooshmand.raku <===
+1 → 4 → 2 → 3
+ 
+===> 068/2/simon-proctor.raku <===
+Input  : 1 -> 2 -> 3 -> 4 -> 5
+Output : 1 -> 5 -> 2 -> 4 -> 3
+ 
+===> 068/2/stuart-little.raku <===
+Initial list: 1 -> 2 -> 3 -> 4 -> 5
+Folded list: 1 -> 5 -> 2 -> 4 -> 3
+ 
+===> 068/2/ulrich-rieke.raku <===
+The original list:
+0->1->2->3->4->5
+reordered:
+0->5->1->4->2->3
