@@ -1,0 +1,3 @@
+The errors from 'arne-sommer.raku' are generated in 'Math::Matrix', which needs an update for current MoarVM
+
+Differences for JVM and MoarVM are to be expected for 'jeongoon.raku' and 'mohammad-anwar.raku', because of the use of 'rand'.
