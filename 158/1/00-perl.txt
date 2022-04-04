@@ -1,0 +1,110 @@
+ 
+===> 158/1/alexander-pankoff.pl <===
+2, 3, 5, 7, 11, 23, 29, 41, 43, 47, 61, 67, 83, 89
+ 
+===> 158/1/andrezgz.pl <===
+2, 3, 5, 7, 11, 23, 29, 41, 43, 47, 61, 67, 83, 89
+ 
+===> 158/1/arne-sommer.pl <===
+2, 3, 5, 7, 11, 23, 29, 41, 43, 47, 61, 67, 83, 89
+ 
+===> 158/1/athanasius.pl <===
+
+Challenge 158, Task #1: Additive Primes (Perl)
+
+Additive primes <= 100:
+
+ 2, 3, 5, 7, 11, 23, 29, 41, 43, 47, 61, 67, 83, 89
+ 
+===> 158/1/dave-jacoby.pl <===
+2, 3, 5, 7, 11, 23, 29, 41, 43, 47, 61, 67, 83, 89
+ 
+===> 158/1/deadmarshal.pl <===
+2 3 5 7 11 23 29 41 43 47 61 67 83 89  
+===> 158/1/duncan-c-white.pl <===
+2, 3, 5, 7, 11, 23, 29, 41, 43, 47, 61, 67, 83, 89
+ 
+===> 158/1/e-choroba.pl <===
+1..1
+ok 1 - Example
+ 
+===> 158/1/james-smith.pl <===
+2, 3, 5, 7, 11, 23, 29, 41, 43, 47, 61, 67, 83, 89
+2, 3, 5, 7, 11, 23, 29, 41, 43, 47, 61, 67, 83, 89
+2, 3, 5, 7, 11, 23, 29, 41, 43, 47, 61, 67, 83, 89
+2, 3, 5, 7, 11, 23, 29, 41, 43, 47, 61, 67, 83, 89
+           Rate    sum0   split     div div_exp
+sum0     8598/s      --    -61%    -75%    -76%
+split   22222/s    158%      --    -34%    -37%
+div     33898/s    294%     53%      --     -4%
+div_exp 35211/s    310%     58%      4%      --
+ 
+===> 158/1/jo-37.pl <===
+# Seeded srand with seed '1' from import arg.
+ok 1 - task 1
+ok 2 - pernicious primes
+1..2
+ 
+===> 158/1/laurent-rosenfeld.pl <===
+2 3 5 7 11 23 29 41 43 47 61 67 83 89 
+ 
+===> 158/1/lubos-kolouch.pl <===
+ok 1
+1..1
+ 
+===> 158/1/mattneleigh.pl <===
+
+The additive prime numbers less than or equal to 100 are:
+    2, 3, 5, 7, 11, 23, 29, 41, 43, 47, 61, 67, 83, 89
+
+ 
+===> 158/1/mohammad-anwar.pl <===
+ok 1 - Example
+1..1
+ 
+===> 158/1/paulo-custodio.pl <===
+2, 3, 5, 7, 11, 23, 29, 41, 43, 47, 61, 67, 83, 89
+ 
+===> 158/1/perlboy1967.pl <===
+2, 3, 5, 7, 11, 23, 29, 41, 43, 47, 61, 67, 83, 89
+ 
+===> 158/1/pete-houston.pl <===
+2, 3, 5, 7, 11, 23, 29, 41, 43, 47, 61, 67, 83, 89
+ 
+===> 158/1/peter-campbell-smith.pl <===
+2 is an additive prime whose digits sum to 2
+3 is an additive prime whose digits sum to 3
+5 is an additive prime whose digits sum to 5
+7 is an additive prime whose digits sum to 7
+11 is an additive prime whose digits sum to 2
+23 is an additive prime whose digits sum to 5
+29 is an additive prime whose digits sum to 11
+41 is an additive prime whose digits sum to 5
+43 is an additive prime whose digits sum to 7
+47 is an additive prime whose digits sum to 11
+61 is an additive prime whose digits sum to 7
+67 is an additive prime whose digits sum to 13
+83 is an additive prime whose digits sum to 11
+89 is an additive prime whose digits sum to 17
+ 
+===> 158/1/pokgopun.pl <===
+2, 3, 5, 7, 11, 23, 29, 41, 43, 47, 61, 67, 83, 89
+ 
+===> 158/1/polettix.pl <===
+2, 3, 5, 7, 11, 23, 29, 41, 43, 47, 61, 67, 83, 89
+ 
+===> 158/1/robert-dicicco.pl <===
+2 3 5 7 11 23 29 41 43 47 61 67 83 89 
+ 
+===> 158/1/roger-bell-west.pl <===
+1..1
+ok 1 - example 1
+ 
+===> 158/1/sgreen.pl <===
+2, 3, 5, 7, 11, 23, 29, 41, 43, 47, 61, 67, 83, 89
+ 
+===> 158/1/ulrich-rieke.pl <===
+2,3,5,7,11,23,29,41,43,47,61,67,83,89
+ 
+===> 158/1/wlmb.pl <===
+The additive primes up to 100 are 2, 3, 5, 7, 11, 23, 29, 41, 43, 47, 61, 67, 83, 89
