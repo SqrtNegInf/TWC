@@ -1,0 +1,137 @@
+ 
+===> 069/1/arne-sommer.pl <===
+1, 8, 11, 69, 88, 96, 101, 111, 181
+ 
+===> 069/1/athanasius.pl <===
+Input:  A = 1, B = 200
+Output: 1, 8, 11, 69, 88, 96, 101, 111, 181
+ 
+===> 069/1/brtastic.pl <===
+ok 1
+ok 2
+ok 3
+1..3
+ 
+===> 069/1/cheok-yin-fung.pl <===
+1 2 3 4 5 6 7 8 9 11 69 88 96 101 111 181 
+ 
+===> 069/1/colin-crain.pl <===
+1
+8
+11
+69
+88
+96
+101
+111
+181
+ 
+===> 069/1/dave-jacoby.pl <===
+1
+8
+11
+69
+88
+96
+101
+111
+181
+ 
+===> 069/1/duncan-c-white.pl <===
+strobogrammatic numbers between 1 and 200 are:
+1
+8
+11
+69
+88
+96
+101
+111
+181
+ 
+===> 069/1/e-choroba.pl <===
+ok 1
+ok 2
+ok 3
+ok 4
+ok 5
+ok 6
+1..6
+ 
+===> 069/1/javier-luque.pl <===
+1, 8, 11, 69, 88, 96, 101, 111, 181
+ 
+===> 069/1/jo-37.pl <===
+# Seeded srand with seed '1' from import arg.
+ok 1 - example from challenge
+ok 2 - taken from wikipedia
+1..2
+ 
+===> 069/1/laurent-rosenfeld.pl <===
+8
+69
+88
+96
+ 
+===> 069/1/mohammad-anwar.pl <===
+[69, 88, 96]
+ 
+===> 069/1/perlboy1967.pl <===
+Output: 1, 8, 11, 69, 88, 96, 101, 111, 181
+ 
+===> 069/1/rage311.pl <===
+1
+8
+11
+69
+88
+96
+101
+111
+181
+ 
+===> 069/1/roger-bell-west.pl <===
+1..1
+ok 1 - example 1
+ 
+===> 069/1/sgreen.pl <===
+8 69 88 96
+ 
+===> 069/1/simon-miner.pl <===
+1
+8
+11
+69
+88
+96
+101
+111
+181
+ 
+===> 069/1/ulrich-rieke.pl <===
+8
+69
+88
+96
+ 
+===> 069/1/walt-mankowski.pl <===
+1
+8
+11
+69
+88
+96
+101
+111
+181
+ 
+===> 069/1/wanderdoc.pl <===
+1: 1
+2: 8
+3: 11
+4: 69
+5: 88
+6: 96
+7: 101
+8: 111
+9: 181

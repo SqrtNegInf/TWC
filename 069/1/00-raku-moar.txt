@@ -1,0 +1,67 @@
+ 
+===> 069/1/arne-sommer.raku <===
+69, 88, 96
+ 
+===> 069/1/ash.raku <===
+0 1 8 11 69 88 96 101 111 181
+ 
+===> 069/1/athanasius.raku <===
+Input:  A = 1, B = 200
+Output: 1, 8, 11, 69, 88, 96, 101, 111, 181
+ 
+===> 069/1/colin-crain.raku <===
+96
+101
+111
+181
+ 
+===> 069/1/javier-luque.raku <===
+0, 1, 8, 11, 69, 88, 96, 101, 111, 181
+ 
+===> 069/1/laurent-rosenfeld.raku <===
+0
+8
+69
+88
+96
+ 
+===> 069/1/luca-ferrari.raku <===
+Working from 1 to 200
+1, 8, 11, 88, 101, 111, 181
+ 
+===> 069/1/mark-anderson.raku <===
+1
+8
+11
+69
+88
+96
+101
+111
+181
+ 
+===> 069/1/mohammad-anwar.raku <===
+69, 88, 96
+ 
+===> 069/1/roger-bell-west.raku <===
+1..1
+ok 1 - example 1
+ 
+===> 069/1/shahed-nooshmand.raku <===
+(1 8 11 69 88 96 101 111 181)
+ 
+===> 069/1/simon-proctor.raku <===
+8
+69
+88
+96
+ 
+===> 069/1/stuart-little.raku <===
+(1 8 11 69 88 96 101 111 181)
+ 
+===> 069/1/ulrich-rieke.raku <===
+0
+8
+69
+88
+96
