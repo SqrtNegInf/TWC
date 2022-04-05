@@ -1,0 +1,194 @@
+ 
+===> 065/2/arne-sommer.pl <===
+'aabaa'
+'aa', 'baab'
+'aba'
+ 
+===> 065/2/brtastic.pl <===
+ok 1
+ok 2
+ok 3
+1..3
+ 
+===> 065/2/cheok-yin-fung.pl <===
+string: abaaba
+aa
+aba
+abaaba
+baab
+ 
+===> 065/2/colin-crain.pl <===
+aa aa aa
+aa aa aaa
+aa aa aba aa
+aa aaa aa
+aa aaa aaa
+aa aaabaaa
+aa aabaa
+aa aba aa aa
+aa aba aa aaa
+aa aba aaa
+aa aba aabaa
+aa aba aba aa
+aa abaaaba aa
+aa baaab aa
+aa baaab aaa
+aaa aa aa
+aaa aa aaa
+aaa aa aba aa
+aaa aaa aa
+aaa aaa aaa
+aaa aaabaaa
+aaa aabaa
+aaa aba aa
+aaa baaab aa
+aaa baaab aaa
+aaabaaa aa
+aaabaaa aaa
+aaabaaabaaa
+aabaa aa
+aabaa aaa
+aabaa aba aa
+aabaaabaa
+aba aa aa
+aba aa aaa
+aba aaa
+aba aabaa
+aba aba aa
+abaaaba aa
+baaab aa
+baaab aaa
+ 
+===> 065/2/duncan-c-white.pl <===
+abbababba
+aa,bb
+aa,bbababb
+aa,bab
+aa,babab
+aa,aba
+aa,bab
+aa,abba
+aa,bb
+abba,bab
+abba,abba
+abba,bb
+bb,aba
+bb,bab
+bb,abba
+bb,bb
+bab,abba
+bab,bb
+aba,bb
+ 
+===> 065/2/e-choroba.pl <===
+ok 1
+ok 2
+1..2
+ 
+===> 065/2/jaldhar-h-vyas.pl <===
+bbababb, abbababba, abba, babab, aa, bab, bb, aba
+ 
+===> 065/2/javier-luque.pl <===
+Solutions for: aabaab:
+aa, baab
+aa, aa
+aabaa
+aba
+baab
+aa
+
+
+Solutions for: abbaba:
+abba
+bb, aba
+bab
+aba
+ 
+===> 065/2/jo-37.pl <===
+# Seeded srand with seed '1' from import arg.
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Another example
+ok 4 - nothing found
+1..4
+ 
+===> 065/2/mohammad-anwar.pl <===
+aa, aba, bab, babab, bb, bbababb
+abba
+abbababba
+ 
+===> 065/2/perlboy1967.pl <===
+'aabaab' contains the following unique palindromes:
+1)	aa, aa
+2)	aa, baab
+3)	aba
+4)	aabaa
+'abbaba' contains the following unique palindromes:
+1)	bb, aba
+2)	bab
+3)	abba
+'zabcbaz' contains the following unique palindromes:
+1)	bcb
+2)	abcba
+3)	zabcbaz
+'cedzdebaaccaa' contains the following unique palindromes:
+1)	aa, cc, aa
+2)	dzd, aa, cc, aa
+3)	dzd, acca
+4)	dzd, aaccaa
+5)	acca
+6)	edzde, aa, cc, aa
+7)	edzde, acca
+8)	edzde, aaccaa
+9)	aaccaa
+ 
+===> 065/2/ulrich-rieke.pl <===
+There are 2 possible solutions.
+a) aa,bbababb
+b) bab,abba
+ 
+===> 065/2/wanderdoc.pl <===
+a) bb
+b) abba
+c) bab
+d) aba
+e) aba bb
+f) bab
+g) bab bb
+h) bab abba
+i) babab
+j) bb
+k) bb bb
+l) bb abba
+m) bb bab
+n) bb aba
+o) bb aba bb
+p) bbababb
+q) abba
+r) abba bb
+s) abba abba
+t) abba bab
+u) abbababba
+v) aa
+w) aa bb
+x) aa abba
+y) aa bab
+z) aa aba
+aa) aa aba bb
+ab) aa bab
+ac) aa bab bb
+ad) aa bab abba
+ae) aa babab
+af) aa bb
+ag) aa bb bb
+ah) aa bb abba
+ai) aa bb bab
+aj) aa bb aba
+ak) aa bb aba bb
+al) aa bbababb
+ 
+===> 065/2/yet-ebreo.pl <===
+abba
+aba
+bb
+bab

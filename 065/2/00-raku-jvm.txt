@@ -1,0 +1,75 @@
+ 
+===> 065/2/arne-sommer.raku <===
+'aabaa'
+'aa', 'baab'
+'aba'
+ 
+===> 065/2/colin-crain.raku <===
+aaaBBaacXXyz
+ 
+===> 065/2/jaldhar-h-vyas.raku <===
+aa, aabaa, aba, baab
+ 
+===> 065/2/javier-luque.raku <===
+Solutions for: aabaab:
+aa, baab
+aa, aa
+aabaa
+aba
+baab
+aa
+
+
+Solutions for: abbaba:
+abba
+bb, aba
+bab
+aba
+ 
+===> 065/2/luca-ferrari.raku <===
+Searching non overlapping palindrome partitions on abaab
+a b a
+ 
+===> 065/2/mark-anderson.raku <===
+aa bbababb
+aa bb aba bb
+abbababba
+abba bab
+babab
+bab abba
+ 
+===> 065/2/mohammad-anwar.raku <===
+aa, baab
+aabaa
+aba
+ 
+===> 065/2/noud.raku <===
+Weak palindromes:
+([a a baab] [a a b a a b] [a a b a a] [a a b a b] [a a b a] [a a b a b] [a a b a] [a a b b] [a a b aa b] [a a b aa] [a a b b] [a a b] [a a b a b] [a a b a] [a a b b] [a a b] [a a b b] [a a b] [a a b] [a a b] [a a b] [a a] [a baab] [a a a a b] [a a a a] [a a a b] [a a a] [a a a b] [a a a] [a a b] [a a aa b] [a a aa] [a a b] [a a] [a a a b] [a a a] [a a b] [a a] [a a b] [a a] [a b] [a b] [a aba a b] [a aba a] [a aba b] [a aba] [a aba b] [a aba] [a b] [a b] [a] [a baab] [a b a a b] [a b a a] [a b a b] [a b a] [a b a b] [a b a] [a b b] [a b aa b] [a b aa] [a b b] [a b] [a b a b] [a b a] [a b b] [a b] [a b b] [a b] [a b] [a b] [a b] [a] [baab] [a a a b] [a a a] [a a b] [a a] [a a b] [a a] [a b] [a aa b] [a aa] [a b] [a] [a a b] [a a] [a b] [a] [a b] [a] [b] [aa baab] [aa b a a b] [aa b a a] [aa b a b] [aa b a] [aa b a b] [aa b a] [aa b b] ...)
+([a b b aba] [a b b a b a] [a b b a b] [a b b a a] [a b b a] [a b b a a] [a b b a] [a b b a] [a b b a] [a b b] [a b aba] [a b b b a] [a b b b] [a b b a] [a b b] [a b b a] [a b b] [a b a] [a b a] [a b bab a] [a b bab] [a b a] [a b] [a b aba] [a b a b a] [a b a b] [a b a a] [a b a] [a b a a] [a b a] [a b a] [a b a] [a b] [a aba] [a b b a] [a b b] [a b a] [a b] [a b a] [a b] [a a] [a bb aba] [a bb a b a] [a bb a b] [a bb a a] [a bb a] [a bb a a] [a bb a] [a bb a] [a bb a] [a bb] [a aba] [a bb b a] [a bb b] [a bb a] [a bb] [a bb a] [a bb] [a a] [a a] [a a] [a] [a b aba] [a b a b a] [a b a b] [a b a a] [a b a] [a b a a] [a b a] [a b a] [a b a] [a b] [a aba] [a b b a] [a b b] [a b a] [a b] [a b a] [a b] [a a] [a a] [a bab a] [a bab] [a a] [a] [a aba] [a a b a] [a a b] [a a a] [a a] [a a a] [a a] [a a] [a a] [a] [aba] [a b a] [a b] [a a] [a] ...)
+Strong palindromes:
+([a a baab] [a a b a a b] [a a b aa b] [a aba a b] [aa baab] [aa b a a b] [aa b aa b] [aabaa b])
+([a b b aba] [a b b a b a] [a b bab a] [a bb aba] [a bb a b a] [abba b a])
+Weak palindromes (len > 1):
+([baab] [aa baab] [aa] [baab] [aa aa] [aa] [aa] [aa] [aabaa])
+([aba] [aba] [aba] [abba] [abba])
+Strong palindromes (len > 1):
+([aa baab])
+()
+ 
+===> 065/2/simon-proctor.raku <===
+aa, bb, aba, bb
+aa, bbababb
+abba, bab
+abbababba
+bb, aba, bb
+bbababb
+bab, abba
+babab
+aba, bb
+bab
+abba
+bb
+ 
+===> 065/2/stuart-little.raku <===
+2 => [(a abbababba)]
