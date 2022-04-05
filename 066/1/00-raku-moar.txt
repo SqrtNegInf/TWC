@@ -1,0 +1,54 @@
+ 
+===> 066/1/arne-sommer.raku <===
+3
+ 
+===> 066/1/ash.raku <===
+2
+ 
+===> 066/1/athanasius.raku <===
+11 \ 3 = 3
+ 
+===> 066/1/colin-crain.raku <===
+floor 11 ÷ 3 = 3
+ 
+===> 066/1/jaldhar-h-vyas.raku <===
+3
+ 
+===> 066/1/javier-luque.raku <===
+ok 1 - Divide 5 , 2
+ok 2 - Divide -5 , 2
+ok 3 - Divide -5 , -2
+1..3
+ 
+===> 066/1/laurent-rosenfeld.raku <===
+3
+ 
+===> 066/1/luca-ferrari.raku <===
+11 / 3 = 3 (remind 2)
+ 
+===> 066/1/mark-anderson.raku <===
+3
+ 
+===> 066/1/mohammad-anwar.raku <===
+-5 / 2 = -3
+ 
+===> 066/1/noud.raku <===
+2
+-3
+2
+-3
+ 
+===> 066/1/roger-bell-west.raku <===
+1..3
+ok 1 - all positive
+ok 2 - partly negative
+ok 3 - all negative
+ 
+===> 066/1/shahed-nooshmand.raku <===
+3
+ 
+===> 066/1/stuart-little.raku <===
+3
+ 
+===> 066/1/ulrich-rieke.raku <===
+3
