@@ -1,0 +1,115 @@
+ 
+===> 066/2/3ter.pl <===
+2^6
+ 
+===> 066/2/arne-sommer.pl <===
+2^6
+4^3
+8^2
+ 
+===> 066/2/athanasius.pl <===
+8^2  4^3  2^6
+ 
+===> 066/2/brtastic.pl <===
+ok 1
+ok 2
+ok 3
+ok 4
+ok 5
+ok 6
+ok 7
+ok 8
+ok 9
+ok 10
+1..10
+ 
+===> 066/2/cheok-yin-fung.pl <===
+
+2**6
+ 
+===> 066/2/colin-crain.pl <===
+64 = 2^6
+ 
+===> 066/2/craig.pl <===
+8^2
+ 
+===> 066/2/dave-jacoby.pl <===
+63	0
+64	2^6
+65	0
+66	0
+67	0
+68	0
+69	0
+70	0
+71	0
+72	0
+73	0
+74	0
+75	0
+76	0
+77	0
+78	0
+79	0
+80	0
+81	3^4
+82	0
+ 
+===> 066/2/e-choroba.pl <===
+1..3
+ok 1
+ok 2
+ok 3
+ 
+===> 066/2/jaldhar-h-vyas.pl <===
+2^6, 4^3, 8^2
+ 
+===> 066/2/javier-luque.pl <===
+ok 1 - Power: 9
+ok 2 - Power: 16
+ok 3 - Power: 45
+1..3
+ 
+===> 066/2/jo-37.pl <===
+# Seeded srand with seed '1' from import arg.
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+1..3
+9:	3^2
+45:	0
+64:	2^6 4^3 8^2
+ 
+===> 066/2/mohammad-anwar.pl <===
+64 = 2 ^ 6, 4 ^ 3, 8 ^ 2
+ 
+===> 066/2/perlboy1967.pl <===
+The power integers of 64 is/are: 2^6, 4^3, 8^2, 64^1
+ 
+===> 066/2/pete-houston.pl <===
+8^2 4^3 2^6
+ 
+===> 066/2/roger-bell-west.pl <===
+1..3
+ok 1 - nine
+ok 2 - forty-five
+ok 3 - thirty-six
+ 
+===> 066/2/walt-mankowski.pl <===
+2^6
+4^3
+8^2
+ 
+===> 066/2/wanderdoc.pl <===
+ok 1 - 9 can
+ok 2 - 45 cannot
+ok 3 - 387420489 can
+ok 4 - 322687697779 can
+ok 5 - 982451653 cannot
+ok 6 - 312079600999 can
+ok 7 - 100000004987 cannot
+ok 8 - 584318301411328 can
+1..8
+ 
+===> 066/2/yet-ebreo.pl <===
+3^2

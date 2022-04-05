@@ -1,0 +1,65 @@
+ 
+===> 066/2/arne-sommer.raku <===
+2^6
+4^3
+8^2
+ 
+===> 066/2/ash.raku <===
+True
+ 
+===> 066/2/athanasius.raku <===
+8^2  4^3  2^6
+ 
+===> 066/2/colin-crain.raku <===
+324 = 18^2
+ 
+===> 066/2/jaldhar-h-vyas.raku <===
+2^6, 4^3, 8^2
+ 
+===> 066/2/javier-luque.raku <===
+ok 1 - Power: 9
+ok 2 - Power: 16
+ok 3 - Power: 45
+1..3
+ 
+===> 066/2/laurent-rosenfeld.raku <===
+2 ^ 6
+4 ^ 3
+8 ^ 2
+ 
+===> 066/2/luca-ferrari.raku <===
+64 can be expressed as 2 pow( 6 )
+64 can be expressed as 4 pow( 3 )
+64 can be expressed as 8 pow( 2 )
+ 
+===> 066/2/mark-anderson.raku <===
+2^6
+4^3
+8^2
+ 
+===> 066/2/mohammad-anwar.raku <===
+64 = 2 ^ 6, 4 ^ 3, 8 ^ 2
+ 
+===> 066/2/noud.raku <===
+Example 1, N=9:
+3^2
+Example 2, N=45:
+0
+Example 3, N=64:
+2^6
+4^3
+8^2
+ 
+===> 066/2/roger-bell-west.raku <===
+1..3
+ok 1 - nine
+ok 2 - forty-five
+ok 3 - thirty-six
+ 
+===> 066/2/stuart-little.raku <===
+((2 6) (4 3) (8 2))
+ 
+===> 066/2/ulrich-rieke.raku <===
+2^6
+4^3
+8^2
