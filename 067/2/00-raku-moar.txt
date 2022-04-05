@@ -1,0 +1,194 @@
+ 
+===> 067/2/arne-sommer.raku <===
+["agw", "agx", "agy", "agz", "ahw", "ahx", "ahy", "ahz", "aiw", "aix", "aiy", "aiz", "bgw", "bgx", "bgy", "bgz", "bhw", "bhx", "bhy", "bhz", "biw", "bix", "biy", "biz", "cgw", "cgx", "cgy", "cgz", "chw", "chx", "chy", "chz", "ciw", "cix", "ciy", "ciz"]
+ 
+===> 067/2/ash.raku <===
+(agw agx agy agz ahw ahx ahy ahz aiw aix aiy aiz bgw bgx bgy bgz bhw bhx bhy bhz biw bix biy biz cgw cgx cgy cgz chw chx chy chz ciw cix ciy ciz)
+ 
+===> 067/2/athanasius.raku <===
+["agw", "agx", "agy", "agz", "ahw", "ahx", "ahy", "ahz", "aiw", "aix", "aiy", "aiz", "bgw", "bgx", "bgy", "bgz", "bhw", "bhx", "bhy", "bhz", "biw", "bix", "biy", "biz", "cgw", "cgx", "cgy", "cgz", "chw", "chx", "chy", "chz", "ciw", "cix", "ciy", "ciz"]
+ 
+===> 067/2/colin-crain.raku <===
+jap
+jaq
+jar
+jas
+jbp
+jbq
+jbr
+jbs
+jcp
+jcq
+jcr
+jcs
+kap
+kaq
+kar
+kas
+kbp
+kbq
+kbr
+kbs
+kcp
+kcq
+kcr
+kcs
+lap
+laq
+lar
+las
+lbp
+lbq
+lbr
+lbs
+lcp
+lcq
+lcr
+lcs
+ 
+===> 067/2/donald-hunter.raku <===
+["g_p", "g_q", "g_r", "g_s", "g,p", "g,q", "g,r", "g,s", "g@p", "g@q"
+ "g@r", "g@s", "h_p", "h_q", "h_r", "h_s", "h,p", "h,q", "h,r", "h,s"
+ "h@p", "h@q", "h@r", "h@s", "i_p", "i_q", "i_r", "i_s", "i,p", "i,q"
+ "i,r", "i,s", "i@p", "i@q", "i@r", "i@s"]
+ 
+===> 067/2/jaldhar-h-vyas.raku <===
+["agw", "agx", "agy", "agz", "ahw", "ahx", "ahy", "ahz", "aiw", "aix", "aiy", "aiz", "bgw", "bgx", "bgy", "bgz", "bhw", "bhx", "bhy", "bhz", "biw", "bix", "biy", "biz", "cgw", "cgx", "cgy", "cgz", "chw", "chx", "chy", "chz", "ciw", "cix", "ciy", "ciz"]
+ 
+===> 067/2/javier-luque.raku <===
+["agw", "agx", "agy", "agz", "ahw", "ahx", "ahy", "ahz", "aiw", "aix", "aiy", "aiz", "bgw", "bgx", "bgy", "bgz", "bhw", "bhx", "bhy", "bhz", "biw", "bix", "biy", "biz", "cgw", "cgx", "cgy", "cgz", "chw", "chx", "chy", "chz", "ciw", "cix", "ciy", "ciz"]
+ 
+===> 067/2/laurent-rosenfeld.raku <===
+AGW AGX AGY AGZ AHW AHX AHY AHZ AIW AIX AIY AIZ BGW BGX BGY BGZ BHW BHX BHY BHZ BIW BIX BIY BIZ CGW CGX CGY CGZ CHW CHX CHY CHZ CIW CIX CIY CIZ 
+ 
+===> 067/2/luca-ferrari.raku <===
+a g w
+a g x
+a g y
+a g z
+a h w
+a h x
+a h y
+a h z
+a i w
+a i x
+a i y
+a i z
+b g w
+b g x
+b g y
+b g z
+b h w
+b h x
+b h y
+b h z
+b i w
+b i x
+b i y
+b i z
+c g w
+c g x
+c g y
+c g z
+c h w
+c h x
+c h y
+c h z
+c i w
+c i x
+c i y
+c i z
+ 
+===> 067/2/mark-anderson.raku <===
+agw agx agy agz ahw ahx ahy ahz aiw aix
+aiy aiz bgw bgx bgy bgz bhw bhx bhy bhz
+biw bix biy biz cgw cgx cgy cgz chw chx
+chy chz ciw cix ciy ciz
+ 
+===> 067/2/mohammad-anwar.raku <===
+[ 'agw', 'agx', 'agy', 'agz', 'ahw', 'ahx', 'ahy', 'ahz', 'aiw', 'aix', 'aiy', 'aiz', 'bgw', 'bgx', 'bgy', 'bgz', 'bhw', 'bhx', 'bhy', 'bhz', 'biw', 'bix', 'biy', 'biz', 'cgw', 'cgx', 'cgy', 'cgz', 'chw', 'chx', 'chy', 'chz', 'ciw', 'cix', 'ciy', 'ciz' ]
+ 
+===> 067/2/noud.raku <===
+agw
+agx
+agy
+agz
+ahw
+ahx
+ahy
+ahz
+aiw
+aix
+aiy
+aiz
+bgw
+bgx
+bgy
+bgz
+bhw
+bhx
+bhy
+bhz
+biw
+bix
+biy
+biz
+cgw
+cgx
+cgy
+cgz
+chw
+chx
+chy
+chz
+ciw
+cix
+ciy
+ciz
+ 
+===> 067/2/ohmycloud.raku <===
+(agw agx agy agz ahw ahx ahy ahz aiw aix aiy aiz bgw bgx bgy bgz bhw bhx bhy bhz biw bix biy biz cgw cgx cgy cgz chw chx chy chz ciw cix ciy ciz)
+ 
+===> 067/2/simon-proctor.raku <===
+agw
+agx
+agy
+agz
+ahw
+ahx
+ahy
+ahz
+aiw
+aix
+aiy
+aiz
+bgw
+bgx
+bgy
+bgz
+bhw
+bhx
+bhy
+bhz
+biw
+bix
+biy
+biz
+cgw
+cgx
+cgy
+cgz
+chw
+chx
+chy
+chz
+ciw
+cix
+ciy
+ciz
+ 
+===> 067/2/stuart-little.raku <===
+(agw agx agy agz ahw ahx ahy ahz aiw aix aiy aiz bgw bgx bgy bgz bhw bhx bhy bhz biw bix biy biz cgw cgx cgy cgz chw chx chy chz ciw cix ciy ciz)
+ 
+===> 067/2/ulrich-rieke.raku <===
+(agw ahw aiw bgw bhw biw cgw chw ciw agx ahx aix bgx bhx bix cgx chx cix agy ahy aiy bgy bhy biy cgy chy ciy agz ahz aiz bgz bhz biz cgz chz ciz)
