@@ -45,4 +45,4 @@ for my $n (0 .. (length $S) - 1) {
     }
 }
 
-say scalar keys %results ? join q{, }, keys %results : '-1';
+say scalar keys %results ? join q{, }, sort keys %results : '-1';

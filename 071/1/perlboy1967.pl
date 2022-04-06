@@ -1,5 +1,6 @@
 #!/usr/bin/env perl
-srand 1;;
+
+srand 1;
 
 # Perl Weekly Challenge - 071
 #

@@ -157,8 +157,7 @@ Output:
 	3 as the sum of prime numbers (3, 5, 43) is same as input number.
  
 ===> 076/1/pete-houston.pl <===
-3 as sum of 3 prime numbers i.e. 19 and 3 and 29 is same as the input number
-19 + 3 + 29 = 51.
+3
  
 ===> 076/1/roger-bell-west.pl <===
 1..1

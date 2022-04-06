@@ -86,7 +86,7 @@ ok 2
 1..2
  
 ===> 065/2/jaldhar-h-vyas.pl <===
-bbababb, abbababba, abba, babab, aa, bab, bb, aba
+aa, aba, abba, abbababba, bab, babab, bb, bbababb
  
 ===> 065/2/javier-luque.pl <===
 Solutions for: aabaab:

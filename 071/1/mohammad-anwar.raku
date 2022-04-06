@@ -1,8 +1,10 @@
 #!/usr/bin/env raku
-srand 1;;
+
+srand 1;
 
 sub MAIN(Int :$N where { $N > 1 } = 10) {
-    my @random-array  = random-array($N);
+    my @random-array  = [42, 12, 50, 24, 19, 2, 8, 38, 45, 11, 4, 41, 29, 32, 5, 30, 48, 47, 9, 18];
+    #my @random-array  = random-array($N);
     my @peak-elements = find-peak-elements-in(@random-array);
 
     say sprintf("Array: [%s]", join ', ', @random-array);

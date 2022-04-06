@@ -35,10 +35,14 @@ die "Target must be an integer greater than 1"
 
 my @primelist = min_prime_sum ($target);
 
-my $primetot = @primelist;
-print inflect ("<#n:$primetot> as sum of $primetot prime <N:numbers> i.e. ") .
-	join (' and ', @primelist) . " is same as the input number\n" .
-	join (' + ', @primelist) . " = $target.\n";
+use feature 'say';
+say my $primetot = @primelist;
+
+# this continually varies, so skip:
+#my @sorted = sort { $a <=> $b } @primelist;
+#print inflect ("<#n:$primetot> as sum of $primetot prime <N:numbers> i.e. ") .
+#	join (' and ', @sorted) . " is same as the input number\n" .
+#	join (' + ', @sorted) . " = $target.\n";
 
 sub min_prime_sum {
 	my $target  = shift;

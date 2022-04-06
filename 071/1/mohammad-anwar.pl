@@ -1,11 +1,13 @@
 #!/usr/bin/env perl
-srand 1;;
+
+srand 1;
 
 use strict;
 use warnings;
 
 my $N = $ARGV[0] || 20;
-my $random_array  = get_random_array($N);
+my $random_array  = [42, 12, 50, 24, 19, 2, 8, 38, 45, 11, 4, 41, 29, 32, 5, 30, 48, 47, 9, 18];
+#my $random_array  = get_random_array($N);
 my $peak_elements = find_peak_elements_in($random_array);
 
 print sprintf("Array: [%s]\n", join(", ", @$random_array));
@@ -40,6 +42,7 @@ sub find_peak_elements_in {
 }
 
 sub get_random_array {
+
     my ($size) = @_;
 
     my $min = 1;
