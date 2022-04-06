@@ -1,0 +1,16 @@
+#!/usr/local/bin/perl
+## automate routine git archive updates, and push changes to remote
+
+chdir "$ENV{HOME}/PWC";
+
+$num = shift || die;
+
+$git = '/opt/local/bin/git';
+
+$msg1 = "challenge $num task 1, with all task output/error";
+$msg2 = "challenge $num task 2, with all task output/error";
+
+system qq[$git add $num/1 $num/00-blogs; $git commit -m "$msg1"];
+system qq[$git push];
+system qq[$git add $num/2              ; $git commit -m "$msg2"];
+system qq[$git push];

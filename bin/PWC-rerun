@@ -8,11 +8,13 @@
 #  2022-03-13 100-155 472% cpu   19:29.76 total (perl,moar: 4926u 601s)
 #  2022-03-21 092-155 489% cpu   21:12.15 total (perl,moar: 5525u 696s)
 #  2022-03-29 078-157 526% cpu   24:28.02 total (perl,moar: 6829u 898s)
+#  2022-03-31 075-157 497% cpu   27:23.99 total (perl,moar: 7219u 958s)
+#  2022-04-05 065-158
 
 sub MAIN ( *@args ) {
     die 'Challenges?' unless @args.elems;
-    (@args).race(:7degree, :1batch).map: -> $ch { shell "PWC-run $ch 1 perl ; PWC-run $ch 2 perl" }
-    (@args).race(:7degree, :1batch).map: -> $ch { shell "PWC-run $ch 1 moar ; PWC-run $ch 2 moar" }
+    (@args).race(:8degree, :1batch).map: -> $ch { shell "PWC-run $ch 1 perl ; PWC-run $ch 2 perl" }
+    (@args).race(:8degree, :1batch).map: -> $ch { shell "PWC-run $ch 1 moar ; PWC-run $ch 2 moar" }
 #   (@args).race(:7degree, :1batch).map: -> $ch { shell "PWC-run $ch 1 jvm                      " }
 #   (@args).race(:7degree, :1batch).map: -> $ch { shell "                     PWC-run $ch 2 jvm " }
 }
