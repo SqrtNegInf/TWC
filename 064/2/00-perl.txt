@@ -1,0 +1,64 @@
+ 
+===> 064/2/brtastic.pl <===
+ok 1 - string match ok
+ok 2 - string match ok
+ok 3 - string match ok
+ok 4 - string match ok
+ok 5 - string match ok
+ok 6 - string match ok
+1..6
+ 
+===> 064/2/cheok-yin-fung.pl <===
+"theq","uickb","rownf","ox","jumps","over","the","lazy","dog","woo"
+ 
+===> 064/2/dave-jacoby.pl <===
+"perl","weekly","challenge"
+0
+ 
+===> 064/2/e-choroba.pl <===
+1..4
+ok 1
+ok 2
+ok 3
+ok 4
+ 
+===> 064/2/jaldhar-h-vyas.pl <===
+weekly, challenge, perl
+0
+ 
+===> 064/2/javier-luque.pl <===
+perlweeklychallenge
+perl weekly challenge
+
+perlandraku
+0
+ 
+===> 064/2/jo-37.pl <===
+# Seeded srand with seed '1' from import arg.
+1..8
+ok 1 - 1st example
+ok 2 - 2nd example
+ok 3 - start word is missing
+ok 4 - end word is missing
+ok 5 - middle word is missing
+ok 6 - string and words contain regex meta chars
+ok 7 - longer word matches
+ok 8 - backtrack to shorter word
+ 
+===> 064/2/laurent-rosenfeld.pl <===
+perl weekly week challenge
+ 
+===> 064/2/manfredi.pl <===
+perl weekly challenge
+ 
+===> 064/2/mohammad-anwar.pl <===
+perl, weekly, challenge
+ 
+===> 064/2/perlboy1967.pl <===
+"perl", "weekly", "challenge"
+ 
+===> 064/2/roger-bell-west.pl <===
+"perl", "weekly", "challenge"
+ 
+===> 064/2/yet-ebreo.pl <===
+perl weekly challenge

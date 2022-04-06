@@ -1,0 +1,50 @@
+ 
+===> 064/2/arne-sommer.raku <===
+"perl", "weekly", "challenge"
+ 
+===> 064/2/colin-crain.raku <===
+perl
+weekly
+challenge
+ 
+===> 064/2/feng-chang.raku <===
+[perl weekly challenge]
+no match
+ 
+===> 064/2/jaldhar-h-vyas.raku <===
+weekly, challenge, perl
+0
+ 
+===> 064/2/javier-luque.raku <===
+perlweeklychallenge
+perl weekly challenge
+
+perlandraku
+0
+ 
+===> 064/2/laurent-rosenfeld.raku <===
+perl week weekly challenge  
+===> 064/2/luca-ferrari.raku <===
+In the string perlweeklychallenge I found the words perl,weekly,challenge 
+ 
+===> 064/2/mark-anderson.raku <===
+perl, week, weekly, challenge
+ 
+===> 064/2/mohammad-anwar.raku <===
+perl, weekly, challenge
+ 
+===> 064/2/roger-bell-west.raku <===
+"perl", "weekly", "challenge"
+ 
+===> 064/2/sangeet-kar.raku <===
+[(perl weekly challenge)]
+[]
+[(perl and raku) (perland raku)]
+ 
+===> 064/2/simon-proctor.raku <===
+perl
+weekly
+challenge
+ 
+===> 064/2/stuart-little.raku <===
+((perl weekly challenge))
