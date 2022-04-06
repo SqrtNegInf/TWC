@@ -1,15 +1,36 @@
 Challenge titles and Rosetta-code correspondences (exact, and otherwise)
 
-070-1
-070-2
-071-1
-071-2
-072-1
-072-2
-073-1
-073-2
-074-1
-074-2
+060-1
+060-2
+061-1
+061-2
+062-1 Sort Email Addresses
+062-2 N Queens in 3-D
+063-1 Last Word
+063-2 Rotate String
+064-1 Minimum Sum Path                      D/Dijkstra%27s_algorithm
+064-2 Word Break                            W/Word_break_problem
+065-1 Digits Sum                            S/Sum_digits_of_an_integer
+065-2 Palindrome Partition
+066-1 Divide Integers
+066-2 Power Integers                        N/Nth_root
+067-1 Number Combinations                   C/Combinations
+067-2 Letter Combinations                   C/Combinations
+068-1 Zero Matrix
+068-2 Re-order Linked List                  S/Singly-linked_list_Element_insertion
+069-1 Strobogrammatic Number
+069-2 0/1 String
+
+070-1 Character Swapping
+070-2 Gray Code Sequence                    G/Gray_code
+071-1 Peak Element
+071-2 Trimmed Linked List                   S/Singly-linked_list_Element_removal
+072-1 Trailing Zeros (factorial)
+072-2 Lines Range
+073-1 Min Sliding Window
+073-2 Smallest Neighbor
+074-1 Majority Element                      A/Averages_Mode
+074-2 First Non-repeating
 075-1 Coins Sum                             C/Count_the_coins F/Find_minimum_number_of_coins_that_make_a_given_value
 075-2 Largest Rectangle Histogram
 076-1 Prime Sum
@@ -118,9 +139,9 @@ Challenge titles and Rosetta-code correspondences (exact, and otherwise)
 125-1 Pythagorean Triples                   P/Pythagorean_triples
 125-2 Binary Tree Diameter
 126-1 No 1's sequence
-126-2 Minesweeper
-127-1 Disjoint sets
-127-2 Conflict intervals
+126-2 Minesweeper                           M/Minesweeper_game
+127-1 Disjoint sets                         O/Order_disjoint_list_items S/Sort_disjoint_sublist
+127-2 Conflict intervals                    R/Range_consolidation
 128-1 Maximum sub-matrix (cf 087/2)
 128-2 Minimum platforms
 129-1 Tree root distance
@@ -316,27 +337,6 @@ raku -e '.say for ^2 X~ ^10 X~ ^10 X~ <-1 -2>'
 058-2
 059-1
 059-2
-
-060-1
-060-2
-061-1
-061-2
-062-1
-062-2
-063-1
-063-2
-064-1
-064-2
-065-1
-065-2
-066-1
-066-2
-067-1
-067-2
-068-1
-068-2
-069-1
-069-2
 
 =====
 
