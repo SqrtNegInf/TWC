@@ -21,6 +21,6 @@ sub MAIN (
         ~ .substr( 1 .. ( $C + $K*($O+1) ) ) # 4
         ~ .substr( ( $C+$O+1+$K) .. $N -1 );
     }
-    $*ERR.say: "Output:";
+    #$*ERR.say: "Output:";
     $result.say;
 }

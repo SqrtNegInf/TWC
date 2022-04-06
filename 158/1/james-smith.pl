@@ -5,7 +5,6 @@ use strict;
 use warnings;
 use feature qw(say);
 use Math::Prime::Util qw(next_prime is_prime);
-use Benchmark qw(cmpthese);
 use List::Util qw(sum0);
 
 my $N = shift || 100;
@@ -15,13 +14,6 @@ say join ', ', additive_primes_div();
 say join ', ', additive_primes_div_expanded();
 say join ', ', additive_primes_split();
 say join ', ', additive_primes_split_sum0();
-
-cmpthese( $I, {
-  'split'   => sub { additive_primes_split();        },
-  'sum0'    => sub { additive_primes_split_sum0();   },
-  'div'     => sub { additive_primes_div();          },
-  'div_exp' => sub { additive_primes_div_expanded(); },
-} );
 
 sub additive_primes_div_expanded {
   my @res;
