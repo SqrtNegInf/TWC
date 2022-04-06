@@ -1,0 +1,53 @@
+ 
+===> 064/1/arne-sommer.raku <===
+21 ( 1 → 2 → 3 → 6 → 9 )
+ 
+===> 064/1/athanasius.raku <===
+21 ( 1 -> 2 -> 3 -> 6 -> 9 )
+ 
+===> 064/1/colin-crain.raku <===
+minimum sum: 170
+route:
+1 ➔ 13 ➔ 7 ➔ 9 ➔ 6 ➔ 11 ➔ 5 ➔ 36 ➔ 3 ➔ 25 ➔ 2 ➔ 52
+ 
+===> 064/1/feng-chang.raku <===
+21 (1 -> 2 -> 3 -> 6 -> 9)
+ 
+===> 064/1/finanalyst.raku <===
+Matrix is:
+⎡ 41  23  27  41 ⎤
+⎢ 48   5  40  36 ⎥
+⎣ 48  43   0  23 ⎦
+Solution is:
+132: 41->23->5->40->0->23
+ 
+===> 064/1/jaldhar-h-vyas.raku <===
+1 -> 2 -> 3 -> 6 -> 9
+ 
+===> 064/1/javier-luque.raku <===
+21: 1 → 2 → 3 → 6 → 9
+ 
+===> 064/1/laurent-rosenfeld.raku <===
+19 (7 → 1 → 2 → 3 → 6)
+ 
+===> 064/1/luca-ferrari.raku <===
+1, 2, 3, 6, 9 = 21
+ 
+===> 064/1/mark-anderson.raku <===
+1 2 3 6 9 => 21
+ 
+===> 064/1/roger-bell-west.raku <===
+21 ( 1 → 2 → 3 → 6 → 9 )
+ 
+===> 064/1/sangeet-kar.raku <===
+21 : 1 → 2 → 3 → 6 → 9
+27 : 1 → 2 → 2 → 6 → -3 → 2 → 8 → 9
+ 
+===> 064/1/shahed-nooshmand.raku <===
+21 (1 → 2 → 3 → 6 → 9)
+ 
+===> 064/1/simon-proctor.raku <===
+21
+ 
+===> 064/1/stuart-little.raku <===
+21: 1 -> 2 -> 3 -> 6 -> 9
