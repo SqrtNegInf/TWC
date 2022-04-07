@@ -1,0 +1,26 @@
+Modified these to silence 'Nil coerced' warnings:
+
+colin-crain.raku 
+donald-hunter.raku
+noud.raku 
+
+
+----
+
+Differences JVM vs MoarVM:
+
+Not sure what's going on here (and yes the algorithm is also faulty)
+
+ |===> 061/2/colin-crain.raku <===
+ |255.250.113.5
+ |255.250.11.35
+-|255.250.1.135
+
+Probably has to do with gather/take:
+
+ |===> 061/2/noud.raku <===
+ |(255.255.111.35 255.255.11.135)
+<|(127.0.0.1 12.70.0.1 12.7.00.1 12.7.0.01 1.27.00.1 1.27.0.01 1.2.70.01 1.2.7.001)
+>|(127.0.0.1)
+ |(0.0.0.0)
+
