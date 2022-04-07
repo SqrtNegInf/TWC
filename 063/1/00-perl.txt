@@ -1,0 +1,125 @@
+ 
+===> 063/1/arne-sommer.pl <===
+hello
+Chet!
+
+399933
+ 
+===> 063/1/athanasius.pl <===
+ok 1 - Match 'hello'
+ok 2 - Match 'Chet!'
+ok 3 - No match
+ok 4 - Match '399933'
+ok 5 - Match 'pies'
+1..5
+ 
+===> 063/1/brtastic.pl <===
+ok 1
+ok 2
+ok 3
+ok 4
+1..4
+ 
+===> 063/1/cheok-yin-fung.pl <===
+1..3
+ok 1 - Good Hello
+ok 2 - Good Chet
+ok 3 - Nice number
+ 
+===> 063/1/colin-crain.pl <===
+hello
+Chet!
+	«no match found»
+399933
+ 
+===> 063/1/dave-jacoby.pl <===
+string
+hello
+Chet!
+undef
+399933
+ 
+===> 063/1/e-choroba.pl <===
+1..4
+ok 1
+ok 2
+ok 3
+ok 4
+ 
+===> 063/1/jaldhar-h-vyas.pl <===
+hello
+Chet!
+undef
+399933
+ 
+===> 063/1/javier-luque.pl <===
+ok 1 - Hello world
+ok 2 - Chet
+ok 3 - Undef
+ok 4 - Numbers
+1..4
+ 
+===> 063/1/jo-37.pl <===
+# Seeded srand with seed '1' from import arg.
+ok 1 - ex 1
+ok 2 - ex 2
+ok 3 - ex 3
+ok 4 - ex 4
+ok 5 - leading space
+ok 6 - trailing space
+1..6
+ 
+===> 063/1/laurent-rosenfeld.pl <===
+hello
+Chet!
+Not found
+399933
+ 
+===> 063/1/mohammad-anwar.pl <===
+ok 1
+ok 2
+ok 3
+ok 4
+1..4
+ 
+===> 063/1/perlboy1967.pl <===
+hello
+Chet!
+(undef)
+399933
+ 
+===> 063/1/pete-houston.pl <===
+1..4
+ok 1
+ok 2
+ok 3
+ok 4
+ 
+===> 063/1/roger-bell-west.pl <===
+ 
+===> 063/1/saiftynet.pl <===
+hello
+Chet!
+
+399933
+ 
+===> 063/1/sangeet-kar.pl <===
+ok 1 - hello world
+ok 2 - Chet!
+ok 3 - undef
+ok 4 - long list of nums
+1..4
+ 
+===> 063/1/wanderdoc.pl <===
+ok 1 - found <hello>
+ok 2 - found <Chet!>
+ok 3 - rejected space
+ok 4 - found <399933>
+ok 5 - found <1135>
+1..5
+ 
+===> 063/1/yet-ebreo.pl <===
+hello
+Chet!
+
+399933

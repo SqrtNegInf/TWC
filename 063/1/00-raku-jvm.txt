@@ -1,0 +1,93 @@
+ 
+===> 063/1/arne-sommer.raku <===
+hello
+Chet!
+Nil
+399933
+ 
+===> 063/1/athanasius.raku <===
+1..5
+ok 1 - Match 'hello'
+ok 2 - Match 'Chet!'
+ok 3 - No match
+ok 4 - Match '399933'
+ok 5 - Match 'pies'
+ 
+===> 063/1/colin-crain.raku <===
+hello
+Chet!
+«no match found»
+399933
+ 
+===> 063/1/jaldhar-h-vyas.raku <===
+hello
+Chet!
+undef
+399933
+ 
+===> 063/1/javier-luque.raku <===
+ok 1 - Hello world
+ok 2 - Chet
+ok 3 - Undef
+ok 4 - Numbers
+1..4
+ 
+===> 063/1/laurent-rosenfeld.raku <===
+Hello
+Chet!
+Not found
+88899
+ 
+===> 063/1/luca-ferrari.raku <===
+hello
+Chet!
+(Any)
+399933
+hello
+Chet!
+Nil
+399933
+ 
+===> 063/1/mark-anderson.raku <===
+hello
+Chet!
+Nil
+399933
+ 
+===> 063/1/markus-holzer.raku <===
+hello
+Chet!
+Nil
+ 
+===> 063/1/mohammad-anwar.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ok 4 - 
+1..4
+ 
+===> 063/1/noud.raku <===
+hello
+Chet!
+Nil
+399933
+ 
+===> 063/1/roger-bell-west.raku <===
+ 
+===> 063/1/sangeet-kar.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ok 4 - 
+1..4
+ 
+===> 063/1/simon-proctor.raku <===
+hello
+Chet!
+Nil
+399933
+ 
+===> 063/1/ulrich-rieke.raku <===
+Hello
+Chet!
+399933
