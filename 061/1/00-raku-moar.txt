@@ -1,0 +1,49 @@
+ 
+===> 061/1/arne-sommer.raku <===
+[[2 5]]
+ 
+===> 061/1/athanasius.raku <===
+Challenge 061, Task #1: Product SubArray (Raku)
+
+Input:  [2, 5, -1, 3]
+Output: [2, 5] which gives maximum product 10.0
+ 
+===> 061/1/colin-crain.raku <===
+product : 10
+sublist(s): 
+(2 5)
+ 
+===> 061/1/javier-luque.raku <===
+[2, 5] which gives a maximum product of 10
+ 
+===> 061/1/laurent-rosenfeld.raku <===
+Max product is 10 for values 2 and 5
+ 
+===> 061/1/luca-ferrari.raku <===
+Max product is 10  made by 2 x 5
+ 
+===> 061/1/mark-anderson.raku <===
+2 5
+ 
+===> 061/1/markus-holzer.raku <===
+(2 5)
+ 
+===> 061/1/mohammad-anwar.raku <===
+[ 2, 5, -1, 3 ] => [ 2, 5 ]
+ 
+===> 061/1/noud.raku <===
+(2 5)
+ 
+===> 061/1/roger-bell-west.raku <===
+2 * 5 = 10
+ 
+===> 061/1/sangeet-kar.raku <===
+ 
+===> 061/1/simon-proctor.raku <===
+(2 5)
+ 
+===> 061/1/stuart-little.raku <===
+[(2 5)]
+ 
+===> 061/1/ulrich-rieke.raku <===
+The sublist with the biggest product (10)  is [2,5] !

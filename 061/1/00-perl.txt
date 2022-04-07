@@ -1,0 +1,141 @@
+ 
+===> 061/1/alicia-bielsa.pl <===
+[2,5] which gives maximum product 10
+ 
+===> 061/1/athanasius.pl <===
+Input:  [2, 5, -1, 3]
+Output: [2, 5] which gives maximum product 10.0
+ 
+===> 061/1/cheok-yin-fung.pl <===
+[2, 5 ]
+ 
+===> 061/1/colin-crain.pl <===
+product  : 10
+subset(s): 
+2, 5
+ 
+===> 061/1/dave-jacoby.pl <===
+[2,5]
+ 
+===> 061/1/duncan-c-white.pl <===
+maximum product is 10, 2x5
+ 
+===> 061/1/e-choroba.pl <===
+1..1
+ok 1
+ 
+===> 061/1/jaredor.pl <===
+ok 1 - Basic start
+ok 2 - Four Zeroes
+ok 3 - Task Example
+ok 4 - No positive products
+ok 5 - Leading 1, otherwise no positive prodcuts
+ok 6 - Leading -1, first two terms are -1
+ok 7 - Ten factorial
+ok 8 - Ten factorial with a -4 factor instead of +4
+ok 9 - Ten factorial with a -4 & -7 factors instead of +4 & +7
+ok 10 - Ten factorial with a -4 & -7 & -9 factors instead of +4 & +7 & +9
+ok 11 - The [ 2, -1, -1 ] example from INTERPRETATION.
+ok 12 - The [ 2, -1, -1 ] & [ 2 ] example from INTERPRETATION.
+1..12
+ 
+===> 061/1/javier-luque.pl <===
+[2, 5] which gives a maximum product of 10
+ 
+===> 061/1/jo-37.pl <===
+# Seeded srand with seed '1' from import arg.
+ok 1 - prod from challenge
+ok 2 - list from challenge
+ok 3 - an example: max prod
+ok 4 - an example: list
+ok 5 - empty list's prod
+ok 6 - empty list
+ok 7 - right zero is max
+ok 8 - zero
+ok 9 - left zero is max
+ok 10 - zero
+ok 11 - middle zero is max
+ok 12 - zero
+1..12
+ 
+===> 061/1/laurent-rosenfeld.pl <===
+Max product is 10 for values 2 and 5
+ 
+===> 061/1/mohammad-anwar.pl <===
+[ 2, 5, -1, 3 ] => [ 2, 5 ]
+ 
+===> 061/1/perlboy1967.pl <===
+# ------------------------------------------------------------------
+Input: [ 2, 5, -1, 3 ]
+Output: [ 2, 5 ] which gives maximum product 10
+# ------------------------------------------------------------------
+# ------------------------------------------------------------------
+Input: [ 3, 1, 0, 6, 1, 2 ]
+Output: [ 6, 1, 2 ] which gives maximum product 12
+# ------------------------------------------------------------------
+# ------------------------------------------------------------------
+Input: [ 3, -1, -2, -1, 5, 1 ]
+Output: [ -2, -1, 5 ] which gives maximum product 10
+# ------------------------------------------------------------------
+# ------------------------------------------------------------------
+Input: [ -2, 3, 0, 5, -1, -2 ]
+Output: [ 5, -1, -2 ] which gives maximum product 10
+# ------------------------------------------------------------------
+# ------------------------------------------------------------------
+Input: [ -3, 2, 0, 0, -5, -3 ]
+Output: [ -5, -3 ] which gives maximum product 15
+# ------------------------------------------------------------------
+# ------------------------------------------------------------------
+Input: [ -4, -1, -8, 0, 1, 7 ]
+Output: [ -1, -8 ] which gives maximum product 8
+# ------------------------------------------------------------------
+# ------------------------------------------------------------------
+Input: [ 5, -1, 0, 1, 1 ]
+Output: [ 1, 1 ] which gives maximum product 1
+# ------------------------------------------------------------------
+# ------------------------------------------------------------------
+Input: [ 1, -9, 1, -1, 1, 2 ]
+Output: [ -9, 1, -1 ] which gives maximum product 9
+# ------------------------------------------------------------------
+# ------------------------------------------------------------------
+Input: [ 1, -5, 1, 0, -5, 1, 2 ]
+Output: [ 1, 2 ] which gives maximum product 2
+# ------------------------------------------------------------------
+# ------------------------------------------------------------------
+Input: [ 1, -4, 1, 2 ]
+Output: [ 1, 2 ] which gives maximum product 2
+# ------------------------------------------------------------------
+ 
+===> 061/1/roger-bell-west.pl <===
+2 * 5 = 10
+ 
+===> 061/1/saiftynet.pl <===
+
+Initial List :- [1.5, 7.5, 0, 3, -5]
+Maximum contiguous product : - [1.5, 7.5] 
+Giving 11.25 
+
+Initial List :- [9.5, 6, 0, 0, 3.5]
+Maximum contiguous product : - [9.5, 6] 
+Giving 57 
+
+Initial List :- [-4.5, 9, -3, 3.5, -2]
+Maximum contiguous product : - [-4.5, 9, -3, 3.5] 
+Giving 425.25 
+
+Initial List :- [-3, 4, -2, -5, 3.5, 8.5, 0, 8]
+Maximum contiguous product : - [4, -2, -5, 3.5, 8.5] 
+Giving 1190 
+ 
+===> 061/1/sangeet-kar.pl <===
+2, 5
+ 
+===> 061/1/ulrich-rieke.pl <===
+The biggest product ( 10 ) is produced by [ 2, 5 ]!
+ 
+===> 061/1/wanderdoc.pl <===
+<3 -1 2 10 -1 1000> on indexes <3 4 5 6 7 8> makes 60000 as maximal product.
+ 
+===> 061/1/yet-ebreo.pl <===
+Max Product: 10
+[ 2, 5 ]
