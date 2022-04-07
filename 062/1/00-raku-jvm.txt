@@ -1,0 +1,84 @@
+ 
+===> 062/1/arne-sommer.raku <===
+user@alpha.example.org
+rjt@cpan.org
+rjt@CPAN.org
+Name@example.org
+name@example.org
+ 
+===> 062/1/athanasius.raku <===
+user@alpha.example.org
+rjt@cpan.org
+rjt@CPAN.org
+Name@example.org
+name@example.org
+ 
+===> 062/1/colin-crain.raku <===
+user@alpha.example.org
+rjt@cpan.org
+rjt@CPAN.org
+Name@example.org
+name@example.org
+ 
+===> 062/1/javier-luque.raku <===
+user@alpha.example.org
+rjt@cpan.org
+rjt@CPAN.org
+Name@example.org
+name@example.org
+ 
+===> 062/1/laurent-rosenfeld.raku <===
+user@alpha.example.org
+rjt@cpan.org
+rjt@CPAN.org
+Name@example.org
+name@example.org
+ 
+===> 062/1/luca-ferrari.raku <===
+user@alpha.example.org
+rjt@cpan.org
+rjt@CPAN.org
+Name@example.org
+name@example.org
+ 
+===> 062/1/markus-holzer.raku <===
+user@alpha.example.org
+rjt@cpan.org
+rjt@CPAN.org
+Name@example.org
+name@example.org
+ 
+===> 062/1/mohammad-anwar.raku <===
+user@alpha.example.org
+rjt@cpan.org
+rjt@CPAN.org
+Name@example.org
+name@example.org
+ 
+===> 062/1/roger-bell-west.raku <===
+user@alpha.example.org
+rjt@cpan.org
+rjt@CPAN.org
+Name@example.org
+name@example.org
+ 
+===> 062/1/sangeet-kar.raku <===
+user@alpha.example.org
+rjt@cpan.org
+rjt@CPAN.org
+Name@example.org
+name@example.org
+ 
+===> 062/1/simon-proctor.raku <===
+user@alpha.example.org
+rjt@cpan.org
+rjt@CPAN.org
+Name@example.org
+name@example.org
+ 
+===> 062/1/stuart-little.raku <===
+user@alpha.example.org
+rjt@cpan.org
+rjt@CPAN.org
+Name@example.org
+name@example.org

@@ -1,0 +1,137 @@
+ 
+===> 062/1/athanasius.pl <===
+Sorted email addresses:
+
+user@alpha.example.org
+rjt@cpan.org
+rjt@CPAN.org
+Name@example.org
+name@example.org
+ 
+===> 062/1/colin-crain.pl <===
+user@alpha.example.org
+rjt@cpan.org
+rjt@CPAN.org
+Name@example.org
+name@example.org
+ 
+===> 062/1/dave-jacoby.pl <===
+user@alpha.example.org
+rjt@cpan.org
+rjt@CPAN.org
+Name@example.org
+name@example.org
+ 
+===> 062/1/duncan-c-white.pl <===
+user@alpha.example.org
+rjt@cpan.org
+rjt@CPAN.org
+Name@example.org
+name@example.org
+ 
+===> 062/1/e-choroba.pl <===
+ok 1
+ok 2
+ok 3
+1..3
+ 
+===> 062/1/jaredor.pl <===
+ok 1 - Task Example.
+ok 2 - Task Example with two bogus emails added.
+ok 3 - Task Example with two added bogus emails now removed.
+ok 4 - Task Example with regular sort.
+ok 5 - Task Example with unique sort.
+1..5
+ 
+===> 062/1/javier-luque.pl <===
+user@alpha.example.org
+rjt@cpan.org
+rjt@CPAN.org
+Name@example.org
+name@example.org
+ 
+===> 062/1/jo-37.pl <===
+user@alpha.example.org
+rjt@cpan.org
+rjt@CPAN.org
+Name@example.org
+name@example.org
+ 
+===> 062/1/laurent-rosenfeld.pl <===
+user@alpha.example.org
+rjt@cpan.org
+rjt@CPAN.org
+name@example.org
+Name@example.org
+ 
+===> 062/1/manfredi.pl <===
+--- Sort:
+user@alpha.example.org
+rjt@cpan.org
+rjt@CPAN.org
+Name@example.org
+name@example.org
+
+--- Uniq:
+Name@example.org
+name@example.org
+rjt@cpan.org
+user@alpha.example.org
+
+--- Uniq & Sort:
+user@alpha.example.org
+rjt@cpan.org
+Name@example.org
+name@example.org
+
+ 
+===> 062/1/mohammad-anwar.pl <===
+user@alpha.example.org
+rjt@cpan.org
+rjt@CPAN.org
+Name@example.org
+name@example.org
+
+ 
+===> 062/1/perlboy1967.pl <===
+user@alpha.example.org
+rjt@cpan.org
+rjt@CPAN.org
+Name@example.org
+name@example.org
+ 
+===> 062/1/roger-bell-west.pl <===
+user@alpha.example.org
+rjt@cpan.org
+rjt@CPAN.org
+Name@example.org
+name@example.org
+ 
+===> 062/1/saiftynet.pl <===
+user@alpha.example.org
+rjt@cpan.org
+name@example.org
+fred@flintstone.com
+wilma@flintstone.com
+betty@rubble.com
+barney@rubble.org
+ 
+===> 062/1/sangeet-kar.pl <===
+user@alpha.example.org
+rjt@cpan.org
+rjt@CPAN.org
+Name@example.org
+name@example.org 
+===> 062/1/simon-miner.pl <===
+user@alpha.example.org
+rjt@cpan.org
+rjt@CPAN.org
+Name@example.org
+name@example.org
+ 
+===> 062/1/yet-ebreo.pl <===
+user@alpha.example.org
+rjt@cpan.org
+rjt@CPAN.org
+Name@example.org
+name@example.org
