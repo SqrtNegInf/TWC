@@ -1,0 +1,100 @@
+ 
+===> 062/2/arne-sommer.raku <===
+Q q q q q q q q    q q q q Q q q q    q Q q q q q q q    q q q q q Q q q    q q Q q q q q q    q q q q q q Q q    q q q q q q q q    q q q q q q q q    
+q q Q q q q q q    q q q q q q Q q    q q q q q q q q    q q q q q q q Q    q q q q q q q q    q q q q q q q q    q q q q q q q q    q q q q q Q q q    
+q q q q Q q q q    q q q q q q q q    q q q q q q q q    Q q q q q q q q    q q q q q Q q q    q Q q q q q q q    q q q q q q q q    q q q q q q q q    
+q Q q q q q q q    q q q q q q q q    q q q q q q q Q    q q q q q q q q    q q q Q q q q q    q q q q q q q q    q q q q q q q q    q q q q Q q q q    
+q q q Q q q q q    q q q q q Q q q    q q q q q q q q    q q q q q q q q    q Q q q q q q q    q q q q q q q Q    q q Q q q q q q    Q q q q q q q q    
+q q q q q q q q    Q q q q q q q q    q q q q q q q q    q q q q q q Q q    q q q q Q q q q    q q q q q q q q    q q q q q q q q    q q q q q q q q    
+q q q q q q q q    q q Q q q q q q    q q q q q q q q    q q q q q q q q    q q q q q q q q    q q q q q q q q    q q q q q Q q q    q q q q q q q q    
+q q q q q q q q    q q q q q q q Q    Q q q q q q q q    q q q q q q q q    q q q q q q q q    q q Q q q q q q    q q q q q q q q    q q q q q q q q    
+Number of Queens: 32
+ 
+===> 062/2/javier-luque.raku <===
+Best Solution:
+
+z = 0
+|-----------------------|
+|   |   |   | * |   |   |
+| * |   |   |   |   |   |
+|   |   |   |   | * |   |
+|   | * |   |   |   |   |
+|   |   |   |   |   | * |
+|   |   | * |   |   |   |
+|-----------------------|
+
+z = 1
+|-----------------------|
+|   |   |   |   |   |   |
+|   |   |   |   |   |   |
+|   |   |   |   |   |   |
+|   |   |   |   |   |   |
+|   |   |   |   |   |   |
+| * |   |   |   |   |   |
+|-----------------------|
+
+z = 2
+|-----------------------|
+|   |   |   |   |   |   |
+|   |   |   |   |   |   |
+|   |   |   |   |   |   |
+|   |   |   |   |   |   |
+|   |   |   |   |   |   |
+|   |   |   |   |   |   |
+|-----------------------|
+
+z = 3
+|-----------------------|
+|   |   |   |   |   |   |
+|   |   |   |   |   |   |
+|   |   |   |   |   |   |
+|   |   |   |   |   |   |
+|   |   |   |   |   |   |
+|   |   |   |   |   |   |
+|-----------------------|
+
+z = 4
+|-----------------------|
+|   |   |   |   |   |   |
+|   |   |   |   |   |   |
+|   |   |   |   |   |   |
+|   |   |   |   |   |   |
+|   |   |   |   |   |   |
+|   |   |   |   |   |   |
+|-----------------------|
+
+z = 5
+|-----------------------|
+|   |   |   |   |   |   |
+|   |   |   |   |   |   |
+|   |   |   |   |   |   |
+|   |   |   |   |   |   |
+|   |   |   |   |   |   |
+|   |   |   |   |   |   |
+|-----------------------|
+
+
+ 
+===> 062/2/luca-ferrari.raku <===
+Layer 0
+	 QUEEN	  x  	  x  
+	  x  	  x  	 QUEEN
+	  x  	  x  	  x  
+Layer 1
+	  x  	 QUEEN	  x  
+	  x  	  x  	  x  
+	 QUEEN	  x  	  x  
+Layer 2
+	  x  	  x  	 QUEEN
+	 QUEEN	  x  	  x  
+	  x  	  x  	  x  
+ 
+===> 062/2/sangeet-kar.raku <===
+[[[1 0] [0 0]] [[0 0] [0 0]]]
+ 
+===> 062/2/shahed-nooshmand.raku <===
+[[0 0] [0 0]]
+[[0 0] [0 1]]
+ 
+===> 062/2/stuart-little.raku <===
+[(2 0 1) (1 2 0) (0 1 2) (0 0 0)]
