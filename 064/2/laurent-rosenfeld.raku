@@ -11,5 +11,5 @@ for @words -> $word {
 if %location.elems == 0 {
     say "0"
 } else {
-    print "{$_.key} " for %location.sort({.value});
+    print "{$_.key} " for %location.sort({.key});
 }

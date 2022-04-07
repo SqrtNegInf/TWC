@@ -1,5 +1,7 @@
 #!/usr/bin/env raku
 
+srand 2;
+
 sub MAIN(Int :$R is copy where { $R >= 2 } = 3,
          Int :$C is copy where { $C >= 2 } = 3) {
 

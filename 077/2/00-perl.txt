@@ -109,6 +109,7 @@ Matrix:
 [ X, X, O ]
 [ X, O, X ]
 [ O, X, O ]
+
 0
  
 ===> 077/2/nunovieira220.pl <===

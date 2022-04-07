@@ -13,5 +13,6 @@ for my $word (@words) {
 if (%loc == 0) {
     say "0";
 } else {
-    say join " ", sort { $loc{$a} <=> $loc{$b} } keys %loc;
+    #say join " ", sort { $loc{$a} <=> $loc{$b} } keys %loc;
+    say join " ", sort { $a cmp $b } keys %loc;
 }

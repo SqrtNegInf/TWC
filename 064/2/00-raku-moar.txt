@@ -23,7 +23,7 @@ perlandraku
 0
  
 ===> 064/2/laurent-rosenfeld.raku <===
-perl week weekly challenge  
+challenge perl week weekly  
 ===> 064/2/luca-ferrari.raku <===
 In the string perlweeklychallenge I found the words perl,weekly,challenge 
  

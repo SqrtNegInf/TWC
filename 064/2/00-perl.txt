@@ -46,7 +46,7 @@ ok 7 - longer word matches
 ok 8 - backtrack to shorter word
  
 ===> 064/2/laurent-rosenfeld.pl <===
-perl weekly week challenge
+challenge perl week weekly
  
 ===> 064/2/manfredi.pl <===
 perl weekly challenge

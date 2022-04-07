@@ -122,13 +122,6 @@ rjt@cpan.org
 rjt@CPAN.org
 Name@example.org
 name@example.org 
-===> 062/1/simon-miner.pl <===
-user@alpha.example.org
-rjt@cpan.org
-rjt@CPAN.org
-Name@example.org
-name@example.org
- 
 ===> 062/1/yet-ebreo.pl <===
 user@alpha.example.org
 rjt@cpan.org

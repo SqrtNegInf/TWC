@@ -111,11 +111,12 @@ my $hill = narray(5, 5, sub {$_[0] * (4 - $_[0]) + $_[1] * (4 - $_[1])});
 is minpath($hill), 20, 'around the hill';
 print "\n";
 
+# DH - remove as multiple equivalent paths makes output unstable
 # walk though a valley
-my $valley = narray(5, 5, sub {abs($_[0] - $_[1])}
-);
-is minpath($valley), 4, 'through the valley';
-print "\n";
+#my $valley = narray(5, 5, sub {abs($_[0] - $_[1])}
+#);
+#is minpath($valley), 4, 'through the valley';
+#print "\n";
 
 # walk around holes
 my $hole = narray(5, 5, sub {
