@@ -1,0 +1,77 @@
+ 
+===> 063/2/arne-sommer.raku <===
+7 Rotations
+ 
+===> 063/2/athanasius.raku <===
+Challenge 063, Task #2: Rotate String (Raku)
+
+Minimum rotations for 'xyxx': 7
+ 
+===> 063/2/colin-crain.raku <===
+
+rotations required: 6
+ 
+===> 063/2/jaldhar-h-vyas.raku <===
+7
+ 
+===> 063/2/javier-luque.raku <===
+Rotation 1: yxxx
+Rotation 2: xxyx
+Rotation 3: xxxy
+Rotation 4: xxxy
+Rotation 5: xxyx
+Rotation 6: yxxx
+Rotation 7: xyxx
+7 rotations
+ 
+===> 063/2/laurent-rosenfeld.raku <===
+Got original string xyxx after 7 rotations.
+Got original string xxyyy after 4 rotations.
+Got original string abcdefgh after 15 rotations.
+ 
+===> 063/2/luca-ferrari.raku <===
+7
+Rotation 1 the string is: x y x x
+After step 1 the string is: y x x x
+Rotation 2 the string is: y x x x
+After step 2 the string is: x x y x
+Rotation 3 the string is: x x y x
+After step 3 the string is: x x x y
+Rotation 4 the string is: x x x y
+After step 4 the string is: x x x y
+Rotation 5 the string is: x x x y
+After step 5 the string is: x x y x
+Rotation 6 the string is: x x y x
+After step 6 the string is: y x x x
+Rotation 7 the string is: y x x x
+After step 7 the string is: x y x x
+7
+ 
+===> 063/2/mark-anderson.raku <===
+7
+ 
+===> 063/2/markus-holzer.raku <===
+7
+ 
+===> 063/2/mohammad-anwar.raku <===
+7
+ 
+===> 063/2/noud.raku <===
+7
+ 
+===> 063/2/roger-bell-west.raku <===
+ 
+===> 063/2/sangeet-kar.raku <===
+7
+ 
+===> 063/2/shahed-nooshmand.raku <===
+3
+ 
+===> 063/2/simon-proctor.raku <===
+7
+ 
+===> 063/2/stuart-little.raku <===
+7
+ 
+===> 063/2/ulrich-rieke.raku <===
+7

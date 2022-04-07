@@ -1,0 +1,204 @@
+ 
+===> 063/2/alicia-bielsa.pl <===
+Rotation 1: you get yxxx by moving x to the end.
+Rotation 2: you get xxyx by moving yx to the end.
+Rotation 3: you get xxxy by moving xxy to the end.
+Rotation 4: you get xxxy by moving  to the end.
+Rotation 5: you get xxyx by moving x to the end.
+Rotation 6: you get yxxx by moving xx to the end.
+Rotation 7: you get xyxx by moving yxx to the end.
+xyxx  needs 7 rotations
+ 
+===> 063/2/arne-sommer.pl <===
+7 Rotations
+ 
+===> 063/2/athanasius.pl <===
+Minimum rotations for 'xyxx': 7
+ 
+===> 063/2/brtastic.pl <===
+ok 1
+ok 2
+ok 3
+ok 4
+ok 5
+ok 6
+ok 7
+ok 8
+1..8
+ 
+===> 063/2/cheok-yin-fung.pl <===
+1 
+===> 063/2/colin-crain.pl <===
+starting string:      xyxy
+
+move 1   shifting  1 chars:     yxyx
+move 2   shifting  2 chars:     yxyx
+move 3   shifting  3 chars:     xyxy
+
+rotations required: 3
+ 
+===> 063/2/dave-jacoby.pl <===
+xyxx
+7
+ 
+===> 063/2/duncan-c-white.pl <===
+7 rotations needed
+ 
+===> 063/2/e-choroba.pl <===
+ok 1
+1..1
+ 
+===> 063/2/jaldhar-h-vyas.pl <===
+4
+ 
+===> 063/2/javier-luque.pl <===
+Rotation 1: yxxx
+Rotation 2: xxyx
+Rotation 3: xxxy
+Rotation 4: xxxy
+Rotation 5: xxyx
+Rotation 6: yxxx
+Rotation 7: xyxx
+7 rotations
+ 
+===> 063/2/jo-37.pl <===
+# Seeded srand with seed '1' from import arg.
+ok 1 - calc example from challenge
+ok 2 - rot example from challenge
+ok 3 - calc power of 2
+ok 4 - rot power of 2
+ok 5 - calc sequence sum
+ok 6 - rot sequence sum
+ok 7 - calc prime
+ok 8 - rot prime
+ok 9 - calc repeated substring
+ok 10 - rot repeated substring
+ok 11 - too short
+1..11
+ 
+===> 063/2/laurent-rosenfeld.pl <===
+Got original string xyxx after 7 rotations.
+Got original string xxyyy after 4 rotations.
+Got original string abcdefgh after 15 rotations.
+ 
+===> 063/2/mohammad-anwar.pl <===
+[1]: [yxxx]
+[2]: [xxyx]
+[3]: [xxxy]
+[4]: [xxxy]
+[5]: [xxyx]
+[6]: [yxxx]
+[7]: [xyxx]
+Rotation: 7
+ 
+===> 063/2/perlboy1967.pl <===
+rotateWord('xyxx', 8) => 'xyxx'
+ 
+===> 063/2/roger-bell-west.pl <===
+ 
+===> 063/2/saiftynet.pl <===
+
+   7 rotations required.
+
+1 I am spinning around! ->  am spinning around!I
+2  am spinning around!I -> m spinning around!I a
+3 m spinning around!I a -> pinning around!I am s
+4 pinning around!I am s -> ing around!I am spinn
+5 ing around!I am spinn -> round!I am spinning a
+6 round!I am spinning a -> I am spinning around!
+   6 rotations required.
+
+1 Madam I am Adam -> [31madam I am Adam[32mM[0m
+2 adam I am AdamM -> [31mam I am AdamM[32mad[0m
+3 am I am AdamMad -> [31mI am AdamMad[32mam [0m
+4 I am AdamMadam  -> [31m AdamMadam [32mI am[0m
+5  AdamMadam I am -> [31mMadam I am[32m Adam[0m
+   5 rotations required.
+ 
+===> 063/2/sangeet-kar.pl <===
+7 
+===> 063/2/ulrich-rieke.pl <===
+7
+ 
+===> 063/2/wanderdoc.pl <===
+DEBUG: 1: yxxx
+DEBUG: 2: xxyx
+DEBUG: 3: xxxy
+DEBUG: 4: xxxy
+DEBUG: 5: xxyx
+DEBUG: 6: yxxx
+DEBUG: 7: xyxx
+7
+
+DEBUG: 1: yx
+DEBUG: 2: yx
+DEBUG: 3: xy
+3
+
+DEBUG: 1: xyyyyyx
+DEBUG: 2: yyyyxxy
+DEBUG: 3: yxxyyyy
+DEBUG: 4: yyyyxxy
+DEBUG: 5: xyyyyyx
+DEBUG: 6: xxyyyyy
+6
+
+DEBUG: 1: xxyyyyyx
+DEBUG: 2: yyyyyxxx
+DEBUG: 3: yyxxxyyy
+DEBUG: 4: xyyyyyxx
+DEBUG: 5: yxxxyyyy
+DEBUG: 6: yyyxxxyy
+DEBUG: 7: yyyyxxxy
+DEBUG: 8: yyyyxxxy
+DEBUG: 9: yyyxxxyy
+DEBUG: 10: yxxxyyyy
+DEBUG: 11: xyyyyyxx
+DEBUG: 12: yyxxxyyy
+DEBUG: 13: yyyyyxxx
+DEBUG: 14: xxyyyyyx
+DEBUG: 15: xxxyyyyy
+15
+
+DEBUG: 1: yxyxxx
+DEBUG: 2: yxxxyx
+DEBUG: 3: xyxyxx
+3
+
+DEBUG: 1: xxxxxxyx
+DEBUG: 2: xxxxyxxx
+DEBUG: 3: xyxxxxxx
+DEBUG: 4: xxxxxyxx
+DEBUG: 5: yxxxxxxx
+DEBUG: 6: xxyxxxxx
+DEBUG: 7: xxxyxxxx
+DEBUG: 8: xxxyxxxx
+DEBUG: 9: xxyxxxxx
+DEBUG: 10: yxxxxxxx
+DEBUG: 11: xxxxxyxx
+DEBUG: 12: xyxxxxxx
+DEBUG: 13: xxxxyxxx
+DEBUG: 14: xxxxxxyx
+DEBUG: 15: xxxxxxxy
+15
+
+DEBUG: 1: yyyyyyyx
+DEBUG: 2: yyyyyxyy
+DEBUG: 3: yyxyyyyy
+DEBUG: 4: yyyyyyxy
+DEBUG: 5: yxyyyyyy
+DEBUG: 6: yyyxyyyy
+DEBUG: 7: yyyyxyyy
+DEBUG: 8: yyyyxyyy
+DEBUG: 9: yyyxyyyy
+DEBUG: 10: yxyyyyyy
+DEBUG: 11: yyyyyyxy
+DEBUG: 12: yyxyyyyy
+DEBUG: 13: yyyyyxyy
+DEBUG: 14: yyyyyyyx
+DEBUG: 15: xyyyyyyy
+15
+
+ 
+===> 063/2/yet-ebreo.pl <===
+7
