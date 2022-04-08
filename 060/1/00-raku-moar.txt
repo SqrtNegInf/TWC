@@ -1,0 +1,45 @@
+ 
+===> 060/1/arne-sommer.raku <===
+AB
+ 
+===> 060/1/athanasius.raku <===
+The Excel column number 28 is named "AB"
+ 
+===> 060/1/colin-crain.raku <===
+AB
+ 
+===> 060/1/donald-hunter.raku <===
+AB
+ 
+===> 060/1/jaldhar-h-vyas.raku <===
+AB
+ 
+===> 060/1/javier-luque.raku <===
+AB
+ 
+===> 060/1/laurent-rosenfeld.raku <===
+Column 28 = AB
+ 
+===> 060/1/luca-ferrari.raku <===
+Cell 28 is AB
+ 
+===> 060/1/mark-anderson.raku <===
+AB
+ 
+===> 060/1/markus-holzer.raku <===
+AB
+ 
+===> 060/1/mohammad-anwar.raku <===
+28 => AB
+ 
+===> 060/1/roger-bell-west.raku <===
+All tests passed
+ 
+===> 060/1/sangeet-kar.raku <===
+AB
+ 
+===> 060/1/stuart-little.raku <===
+AB
+ 
+===> 060/1/ulrich-rieke.raku <===
+28 : AB !

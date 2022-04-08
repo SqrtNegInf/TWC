@@ -1,0 +1,154 @@
+ 
+===> 060/1/adam-russell.pl <===
+AB
+AAAB
+AD
+1
+26
+28
+104
+ 
+===> 060/1/alicia-bielsa.pl <===
+28 = AB
+ 
+===> 060/1/athanasius.pl <===
+The Excel column number 28 is named "AB"
+ 
+===> 060/1/cheok-yin-fung.pl <===
+AB 
+28
+ 
+===> 060/1/colin-crain.pl <===
+AB
+ 
+===> 060/1/dave-jacoby.pl <===
+--	1	A	1		A	1
+--	2	B	2		B	2
+--	3	C	3		C	3
+--	4	D	4		D	4
+--	5	E	5		E	5
+--	6	F	6		F	6
+--	7	G	7		G	7
+--	8	H	8		H	8
+--	9	I	9		I	9
+--	10	J	10		J	10
+--	11	K	11		K	11
+--	12	L	12		L	12
+--	13	M	13		M	13
+--	14	N	14		N	14
+--	15	O	15		O	15
+--	16	P	16		P	16
+--	17	Q	17		Q	17
+--	18	R	18		R	18
+--	19	S	19		S	19
+--	20	T	20		T	20
+--	21	U	21		U	21
+--	22	V	22		V	22
+--	23	W	23		W	23
+--	24	X	24		X	24
+--	25	Y	25		Y	25
+--	26	Z	26		Z	26
+--	27	AA	27		AA	27
+--	28	AB	28		AB	28
+--	29	AC	29		AC	29
+--	30	AD	30		AD	30
+--	31	AE	31		AE	31
+--	32	AF	32		AF	32
+--	33	AG	33		AG	33
+--	34	AH	34		AH	34
+--	35	AI	35		AI	35
+--	36	AJ	36		AJ	36
+--	37	AK	37		AK	37
+--	38	AL	38		AL	38
+--	39	AM	39		AM	39
+--	40	AN	40		AN	40
+--	100	CV	100		CV	100
+--	1000	ALL	1000		ALL	1000
+--	10000	NTP	10000		NTP	10000
+ 
+===> 060/1/duncan-c-white.pl <===
+AB
+ 
+===> 060/1/e-choroba.pl <===
+ok 1 - A
+ok 2 - Z
+ok 3 - AA
+ok 4 - AZ
+ok 5 - BA
+ok 6 - ADI
+ok 7 - A
+ok 8 - Z
+ok 9 - AA
+ok 10 - AZ
+ok 11 - BA
+ok 12 - ADI
+ok 13 - encode
+ok 14 - decode
+1..14
+ 
+===> 060/1/jaldhar-h-vyas.pl <===
+AB
+ 
+===> 060/1/jaredor.pl <===
+
+Input Number: 28
+Output: AB
+ 
+===> 060/1/javier-luque.pl <===
+AB
+ 
+===> 060/1/jo-37.pl <===
+26 -> Z
+Z -> 26
+702 -> ZZ
+ZZ -> 702
+18278 -> ZZZ
+ZZZ -> 18278
+475254 -> ZZZZ
+ZZZZ -> 475254
+12356630 -> ZZZZZ
+ZZZZZ -> 12356630
+321272406 -> ZZZZZZ
+ZZZZZZ -> 321272406
+8353082582 -> ZZZZZZZ
+ZZZZZZZ -> 8353082582
+217180147158 -> ZZZZZZZZ
+ZZZZZZZZ -> 217180147158
+5646683826134 -> ZZZZZZZZZ
+ZZZZZZZZZ -> 5646683826134
+146813779479510 -> ZZZZZZZZZZ
+ZZZZZZZZZZ -> 146813779479510
+3817158266467286 -> ZZZZZZZZZZZ
+ZZZZZZZZZZZ -> 3817158266467286
+99246114928149462 -> ZZZZZZZZZZZZ
+ZZZZZZZZZZZZ -> 99246114928149462
+2580398988131886038 -> ZZZZZZZZZZZZZ
+ZZZZZZZZZZZZZ -> 2580398988131886038
+67090373691429037014 -> ZZZZZZZZZZZZZZ
+ZZZZZZZZZZZZZZ -> 67090373691429037014
+ 
+===> 060/1/laurent-rosenfeld.pl <===
+Column 28 = AB
+ 
+===> 060/1/manfredi.pl <===
+AB
+ 
+===> 060/1/mohammad-anwar.pl <===
+28 => AB
+ 
+===> 060/1/plis-acm.pl <===
+Output: AB
+ 
+===> 060/1/roger-bell-west.pl <===
+All tests passed. 
+===> 060/1/saiftynet.pl <===
+*      1000 converted is       ALL and again is     1000 
+*         A converted is         1 and again is        A 
+*       KVZ converted is      8008 and again is      KVZ 
+*        12 converted is         L and again is       12 
+*      1337 converted is       AYK and again is     1337 
+*     16384 converted is       XFD and again is    16384 
+*      PERL converted is   285076* and again is    PERL* 
+ 
+===> 060/1/yet-ebreo.pl <===
+EXCEL 
