@@ -1,0 +1,56 @@
+ 
+===> 057/2/arne-sommer.raku <===
+[ "alph" "b" "car" "cadm" "cade" "alpi" ]
+ 
+===> 057/2/colin-crain.raku <===
+alphabet   => alph       
+alpine     => alpi       
+book       => b          
+cadeau     => cade       
+cadmium    => cadm       
+carpet     => car        
+court      => court      
+courtship  => courts     
+ 
+===> 057/2/javier-luque.raku <===
+ 
+===> 057/2/kevin-colyer.raku <===
+ok 1 - example given
+ 
+===> 057/2/laurent-rosenfeld.raku <===
+[alph alpi b car cadm cade foo fox]
+ 
+===> 057/2/luca-ferrari.raku <===
+Prefix cade (length = 4)
+Prefix cadm (length = 4)
+Prefix car (length = 3)
+Prefix alpi (length = 4)
+Prefix alph (length = 4)
+Prefix b (length = 1)
+ 
+===> 057/2/mark-anderson.raku <===
+ 
+===> 057/2/markus-holzer.raku <===
+cade
+cadm
+car
+alpi
+alph
+b
+ 
+===> 057/2/mohammad-anwar.raku <===
+[ alph, b, car, cadm, cade, alpi ]
+ 
+===> 057/2/ruben-westerberg.raku <===
+[alph b car cadm cade alpi]
+ 
+===> 057/2/simon-proctor.raku <===
+alph
+alpi
+b
+cade
+cadm
+car
+ 
+===> 057/2/stuart-little.raku <===
+(alph b car cadm cade alpi)

@@ -1,0 +1,90 @@
+ 
+===> 057/2/andrezgz.pl <===
+alph,b,car,cadm,cade,alpi 
+===> 057/2/athanasius.pl <===
+alphabet --> alph
+book     --> b
+carpet   --> car
+cadmium  --> cadm
+cadeau   --> cade
+alpine   --> alpi
+ 
+===> 057/2/cheok-yin-fung.pl <===
+alph , b , car , cadm , cade , alpi 
+===> 057/2/colin-crain.pl <===
+alphabet   => alph       
+alpine     => alpi       
+book       => b          
+cadeau     => cade       
+cadmium    => cadm       
+carpet     => car        
+court      => court      
+courtship  => courts     
+ 
+===> 057/2/dave-jacoby.pl <===
+["alphabet", "book", "carpet", "cadmium", "cadeau", "alpine"]
+["alph", "b", "car", "cadm", "cade", "alpi"]
+ 
+===> 057/2/dracos.pl <===
+ok 1
+1..1
+ 
+===> 057/2/duncan-c-white.pl <===
+alph
+b
+car
+cadm
+cade
+alpi
+ 
+===> 057/2/e-choroba.pl <===
+1..4
+ok 1 - sample input
+ok 2 - detect duplicate
+ok 3 - common prefix asc
+ok 4 - common prefix desc
+ 
+===> 057/2/jaredor.pl <===
+alph b car cadm cade alpi
+ 
+===> 057/2/javier-luque.pl <===
+alph, b, car, cadm, cade, alpi
+ 
+===> 057/2/laurent-rosenfeld.pl <===
+alph alpi b car cadm cade
+ 
+===> 057/2/manfredi.pl <===
+Input  [ "alphabet", "book", "carpet", "cadmium", "cadeau", "alpine" ]
+Output [ "alph", "b", "car", "cadm", "cade", "alpi" ]
+ 
+===> 057/2/mohammad-anwar.pl <===
+[ alph, b, car, cadm, cade, alpi ]
+ 
+===> 057/2/pete-houston.pl <===
+1..1
+ok 1
+ 
+===> 057/2/roger-bell-west.pl <===
+alph
+alpi
+b
+cade
+cadm
+car
+ 
+===> 057/2/ruben-westerberg.pl <===
+alph, b, car, cadm, cade, alpi
+ 
+===> 057/2/ulrich-rieke.pl <===
+[ alph , b , car , cadm , cade , alpi ]
+ 
+===> 057/2/user-person.pl <===
+[ "alph", "b", "car", "cadm", "cade", "alpi" ]
+ 
+===> 057/2/wanderdoc.pl <===
+alph, b, car, cadm, cade, alpi
+#########################
+alph, alpi, b, car, cadm, cade
+ 
+===> 057/2/yet-ebreo.pl <===
+[alph b car cadm cade alpi]
