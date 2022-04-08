@@ -1,0 +1,93 @@
+ 
+===> 059/2/adam-russell.pl <===
+(2, 3) = 1
+(2, 4) = 2
+(3, 4) = 3
+sum of all bit differences: 6
+ 
+===> 059/2/athanasius.pl <===
+f(2,3) = 1
+ 
+===> 059/2/cheok-yin-fung.pl <===
+1..2
+ok 1
+ok 2
+ 
+===> 059/2/colin-crain.pl <===
+6
+ 
+===> 059/2/dave-jacoby.pl <===
+0
+0
+1
+6
+12
+2
+ 
+===> 059/2/duncan-c-white.pl <===
+at end: sum=6
+ 
+===> 059/2/e-choroba.pl <===
+ok 1 - d 0 0
+ok 2 - d 0 1
+ok 3 - d 0 2
+ok 4 - d 0 3
+ok 5 - d 0 255
+ok 6 - d 255 256
+ok 7 - d 113 68
+ok 8 - chain 2 3 4
+ok 9 - chain 89, 106, 116
+ok 10 - chain 2 3 4
+ok 11 - chain 89, 106, 116
+ok 12 - chain 2 3 4
+ok 13 - chain 89, 106, 116
+1..13
+ 
+===> 059/2/jaldhar-h-vyas.pl <===
+6
+ 
+===> 059/2/jaredor.pl <===
+6
+ 
+===> 059/2/javier-luque.pl <===
+6
+ 
+===> 059/2/jo-37.pl <===
+6
+ 
+===> 059/2/laurent-rosenfeld.pl <===
+6
+ 
+===> 059/2/manfredi.pl <===
+numbers: 2 4 3
+00000000000000000000000000000010 = 2
+00000000000000000000000000000011 = 3
+f(2, 3) = 1
+
+00000000000000000000000000000010 = 2
+00000000000000000000000000000100 = 4
+f(2, 4) = 2
+
+00000000000000000000000000000011 = 3
+00000000000000000000000000000100 = 4
+f(3, 4) = 3
+
+bit sum = 6
+ 
+===> 059/2/mark-anderson.pl <===
+6
+ 
+===> 059/2/mohammad-anwar.pl <===
+6 
+===> 059/2/roger-bell-west.pl <===
+6
+ 
+===> 059/2/saiftynet.pl <===
+6 
+===> 059/2/sangeet-kar.pl <===
+6 
+===> 059/2/wanderdoc.pl <===
+18
+ 
+===> 059/2/yet-ebreo.pl <===
+6

@@ -1,0 +1,56 @@
+ 
+===> 059/2/arne-sommer.raku <===
+6
+ 
+===> 059/2/athanasius.raku <===
+f(2,3) = 1
+ 
+===> 059/2/colin-crain.raku <===
+6
+ 
+===> 059/2/javier-luque.raku <===
+6
+ 
+===> 059/2/kevin-colyer.raku <===
+ok 1 - example
+ok 2 - example 2
+ok 3 - example 2
+ok 4 - example 2
+ok 5 - example 2
+ 
+===> 059/2/laurent-rosenfeld.raku <===
+6
+ 
+===> 059/2/luca-ferrari.raku <===
+Sum is 6
+ 
+===> 059/2/mark-anderson.raku <===
+6
+ 
+===> 059/2/markus-holzer.raku <===
+6
+ 
+===> 059/2/mohammad-anwar.raku <===
+6
+ 
+===> 059/2/noud.raku <===
+1
+6
+12
+18
+25
+42
+60
+78
+ 
+===> 059/2/roger-bell-west.raku <===
+6
+ 
+===> 059/2/simon-proctor.raku <===
+6
+ 
+===> 059/2/stuart-little.raku <===
+6
+ 
+===> 059/2/ulrich-rieke.raku <===
+The sum is 6!
