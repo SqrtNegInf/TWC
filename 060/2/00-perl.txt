@@ -1,0 +1,87 @@
+ 
+===> 060/2/adam-russell.pl <===
+10 11 12 15 20 
+===> 060/2/cheok-yin-fung.pl <===
+10 ,11 ,12 ,15 ,20
+ 
+===> 060/2/colin-crain.pl <===
+10
+11
+12
+15
+20
+ 
+===> 060/2/dave-jacoby.pl <===
+X: 2 
+Y: 21 
+L: 0, 1, 2, 5
+All variations of length 2:
+	0, 1, 2, 5, 10, 11, 12, 15, 20, 21, 22, 25, 50, 51, 52, 55
+All variations of length 2 that are < 21:
+	10, 11, 12, 15, 20
+ 
+===> 060/2/duncan-c-white.pl <===
+10, 11, 12, 15, 20
+ 
+===> 060/2/e-choroba.pl <===
+ok 1
+ok 2
+ok 3
+ok 4
+ok 5
+ok 6
+ok 7
+1..7
+ 
+===> 060/2/jaldhar-h-vyas.pl <===
+10, 11, 12, 15, 20
+ 
+===> 060/2/javier-luque.pl <===
+10, 12, 15, 20
+ 
+===> 060/2/jo-37.pl <===
+# Seeded srand with seed '1' from import arg.
+ok 1 - example from challenge
+ok 2 - avoid too much scanning
+ok 3 - non numeric
+ok 4 - another example
+1..4
+ 
+===> 060/2/laurent-rosenfeld.pl <===
+10
+11
+12
+15
+20
+ 
+===> 060/2/mohammad-anwar.pl <===
+10, 11, 12, 15, 20
+ 
+===> 060/2/plis-acm.pl <===
+10 11 12 15 20
+ 
+===> 060/2/roger-bell-west.pl <===
+10
+11
+12
+15
+20
+ 
+===> 060/2/saiftynet.pl <===
+10, 11, 12, 15, 20 
+===> 060/2/sangeet-kar.pl <===
+10, 11, 12, 15, 20
+ 
+===> 060/2/wanderdoc.pl <===
+10
+11
+12
+15
+20
+ 
+===> 060/2/yet-ebreo.pl <===
+10
+11
+12
+15
+20

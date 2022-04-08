@@ -1,0 +1,55 @@
+ 
+===> 060/2/arne-sommer.raku <===
+10, 11, 12, 15, 20
+ 
+===> 060/2/colin-crain.raku <===
+10
+11
+12
+15
+20
+ 
+===> 060/2/jaldhar-h-vyas.raku <===
+10, 11, 12, 15, 20
+ 
+===> 060/2/javier-luque.raku <===
+10, 12, 15, 20
+ 
+===> 060/2/laurent-rosenfeld.raku <===
+10
+11
+12
+15
+20
+ 
+===> 060/2/luca-ferrari.raku <===
+10, 11, 12, 15, 20
+ 
+===> 060/2/mark-anderson.raku <===
+10, 11, 12, 15, 20
+ 
+===> 060/2/markus-holzer.raku <===
+10
+11
+12
+15
+20
+ 
+===> 060/2/mohammad-anwar.raku <===
+10, 11, 12, 15, 20
+ 
+===> 060/2/roger-bell-west.raku <===
+10
+11
+12
+15
+20
+ 
+===> 060/2/sangeet-kar.raku <===
+10, 11, 12, 15, 20
+ 
+===> 060/2/stuart-little.raku <===
+(10 11 12 15 20)
+ 
+===> 060/2/ulrich-rieke.raku <===
+[10 11 12 15 20]
