@@ -1,0 +1,130 @@
+ 
+===> 058/1/arne-sommer.pl <===
+-1
+ 
+===> 058/1/colin-crain.pl <===
+1 
+===> 058/1/e-choroba.pl <===
+1..5
+ok 1
+ok 2
+ok 3
+ok 4
+ok 5
+ 
+===> 058/1/jaredor.pl <===
+
+    v1   v2     Result
+------- ------- ------
+   0.1 < 1.1      -1
+   2.0 > 1.2       1
+   1.2 < 1.2_5    -1
+ 1.2.1 > 1.2_1     1
+ 1.2.1 = 1.2.1     0
+
+ 
+===> 058/1/javier-luque.pl <===
+   v1   v2    Result
+------ ------ ------
+0.1   < 1.1   -1
+2.0   > 1.2   1
+1.2   < 1.2_5 -1
+1.2.1 > 1.2_1 1
+1.2.1 = 1.2.1 0
+1_0   > 1     1
+10    > 1.0   1
+1.1.1 < 1.2.1 -1
+ 
+===> 058/1/laurent-rosenfeld.pl <===
+1..5
+ok 1 - Two-part version numbers
+ok 2 - Two-part version numbers
+ok 3 - Two-part and three-part version numbers
+ok 4 - With underscore
+ok 5 - Three-part version numbers
+ 
+===> 058/1/lubos-kolouch.pl <===
+ok 1
+ok 2
+ok 3
+ok 4
+1..4
+ 
+===> 058/1/manfredi.pl <===
+        v1             v2  Result
+----------     ----------  ------
+       0.1  <         1.1    -1
+       2.0  >         1.2     1
+       1.2  <       1.2_5    -1
+     1.2.1  >       1.2_1     1
+     1.2.1  =       1.2.1     0
+ 
+===> 058/1/mark-anderson.pl <===
+ok 1 -      0.1 < 1.1      -1
+# 
+ok 2 -      2.0 > 1.2       1
+# 
+ok 3 -      1.2 < 1.2_5    -1
+# 
+ok 4 -    1.2.1 > 1.2_1     1
+# 
+ok 5 -    1.2.1 = 1.2.1     0
+# 
+ok 6 -    1.2.1 < 1.11.1   -1
+# 
+ok 7 -    1.2_2 < 1.2_11   -1
+# 
+ok 8 -  001.2_3 = 1.2_03    0
+# 
+ok 9 -      1.0 < 10       -1
+# 
+1..9
+ 
+===> 058/1/mohammad-anwar.pl <===
+0.1 cmp 1.1 = -1
+ 
+===> 058/1/roger-bell-west.pl <===
+0.1 1.1 -1 -1
+2.0 1.2 1 1
+1.2 1.2_5 -1 -1
+1.2.1 1.2_1 1 1
+1.2.1 1.2.1 0 0
+ 
+===> 058/1/saiftynet.pl <===
+    0.1 < 1.1     -1
+    2.0 > 1.2      1
+    1.2 < 1.2_5   -1
+  1.2.1 > 1.2_1    1
+  1.2.1 = 1.2.1    0
+ 
+===> 058/1/ulrich-rieke.pl <===
+v1: 0.1,  v2:  1.1 ,  result : -1
+v1: 2.0,  v2:  1.2 ,  result : 1
+v1: 1.2,  v2:  1.2_5 ,  result : -1
+v1: 1.2.1,  v2:  1.2_1 ,  result : 1
+v1: 1.2.1,  v2:  1.2.1 ,  result : 0
+ 
+===> 058/1/wanderdoc.pl <===
+ok 1 - Set 1 correct.
+ok 2 - Set 2 correct.
+ok 3 - Set 3 correct.
+ok 4 - Set 4 correct.
+ok 5 - Set 5 correct.
+ok 6 - Set 6 correct.
+ok 7 - Set 7 correct.
+ok 8 - Set 8 correct.
+ok 9 - Set 9 correct.
+ok 10 - Set A correct.
+1..10
+ 
+===> 058/1/yet-ebreo.pl <===
+       0.1 < 1.1        -1
+       2.0 > 1.2         1
+       1.2 < 1.2_5      -1
+     1.2.1 > 1.2_1       1
+     1.2.1 = 1.2.1       0
+       3_3 < 3.3        -1
+    1.01.1 = 1.1.1       0
+       2_0 = 2.0         0
+       1.9 < 1.10       -1
+     1.002 = 1.2         0

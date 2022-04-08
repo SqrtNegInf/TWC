@@ -1,0 +1,77 @@
+ 
+===> 058/1/arne-sommer.raku <===
+1
+ 
+===> 058/1/colin-crain.raku <===
+1
+ 
+===> 058/1/javier-luque.raku <===
+   v1   v2    Result
+------ ------ ------
+0.1   < 1.1   -1
+2.0   > 1.2   1
+1.2   < 1.2_5 -1
+1.2.1 > 1.2_1 1
+1.2.1 = 1.2.1 0
+1_0   > 1     1
+10    > 1.0   1
+1.1.1 < 1.2.1 -1
+ 
+===> 058/1/kevin-colyer.raku <===
+ok 1 -    0.1 < 1.1  
+ok 2 -    2.0 > 1.2  
+ok 3 -    1.2 < 1.2_5
+ok 4 -  1.2.1 > 1.2_1
+ok 5 -  1.2.1 = 1.2.1
+ok 6 - edge case 2 > 1.2.1
+ok 7 - edge case 2 > 1.2_1
+ok 8 - edge case 2.1 > 2_1
+ok 9 - edge case 1 < 2
+ 
+===> 058/1/laurent-rosenfeld.raku <===
+1..5
+ok 1 - Two-part version numbers
+ok 2 - Two-part version numbers
+ok 3 - Two-part and three-part version numbers
+ok 4 - With underscore
+ok 5 - Three-part version numbers
+ 
+===> 058/1/luca-ferrari.raku <===
+Comparing 0.1 vs 1.1 -> -1
+Comparing 2.0 vs 1.2 -> 1
+Comparing 1.2 vs 1.2_5 -> -1
+Comparing 1.2.1 vs 1.2_1 -> 1
+Comparing 1.2.1 vs 1.2.1 -> 0
+ 
+===> 058/1/mark-anderson.raku <===
+ok 1 -      0.1 < 1.1      -1
+# 
+ok 2 -      2.0 > 1.2       1
+# 
+ok 3 -      1.2 < 1.2_5    -1
+# 
+ok 4 -    1.2.1 > 1.2_1     1
+# 
+ok 5 -    1.2.1 = 1.2.1     0
+# 
+ok 6 -    1.2.1 < 1.11.1   -1
+# 
+ok 7 -    1.2_2 < 1.2_11   -1
+# 
+ok 8 -  001.2_3 = 1.2_03    0
+# 
+ok 9 -      1.0 < 10       -1
+# 
+1..9
+ 
+===> 058/1/mohammad-anwar.raku <===
+0.1 cmp 1.1 = -1
+ 
+===> 058/1/shahed-nooshmand.raku <===
+-1
+ 
+===> 058/1/simon-proctor.raku <===
+1.2.1 <=> 1.2_2 : 1
+ 
+===> 058/1/stuart-little.raku <===
+1
