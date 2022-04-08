@@ -1,0 +1,66 @@
+ 
+===> 059/1/arne-sommer.raku <===
+1 → 2 → 2 → 4 → 3 → 5
+ 
+===> 059/1/colin-crain.raku <===
+1 → 2 → 2 → 4 → 3 → 5
+ 
+===> 059/1/jaldhar-h-vyas.raku <===
+1 2 2 3 4 5 
+ 
+===> 059/1/javier-luque.raku <===
+Before: 1 → 4 → 3 → 2 → 5 → 2
+After: 1 → 2 → 2 → 4 → 3 → 5
+
+Duplicate k's
+Before: 1 → 4 → 3 → 2 → 5 → 2 → 3
+After: 1 → 2 → 2 → 4 → 3 → 3 → 5
+ 
+===> 059/1/kevin-colyer.raku <===
+ok 1 - test empty
+ok 2 - test add to tail
+ok 3 - test add to tail
+ok 4 - test add to tail
+ok 5 - test add to head
+ok 6 - test tail remove
+ok 7 - test head remove
+ok 8 - test tail remove
+ok 9 - test head remove
+ok 10 - test add after
+ok 11 - test add after
+ok 12 - before partitioned sort
+ok 13 - after partitioned sort
+1..13
+ 
+===> 059/1/laurent-rosenfeld.raku <===
+1 → 2 → 2 → 4 → 3 → 5
+ 
+===> 059/1/luca-ferrari.raku <===
+Index 3 makes 1 4 3 2 5 2 to become 1 2 2 4 3 5
+ 
+===> 059/1/markus-holzer.raku <===
+ok 1 - 2-5-6-7-13-14-18
+ 
+===> 059/1/mohammad-anwar.raku <===
+Input:  [ 1 -> 4 -> 3 -> 2 -> 5 -> 2 ]
+Output: [ 1 -> 2 -> 2 -> 4 -> 3 -> 5 ]
+ 
+===> 059/1/noud.raku <===
+1 → 2 → 2 → 4 → 3 → 5
+ 
+===> 059/1/richard-park.raku <===
+[2 3 3 1 7 4]
+[1 2 2 4 3 5]
+ 
+===> 059/1/roger-bell-west.raku <===
+1 → 2 → 2 → 4 → 3 → 5
+ 
+===> 059/1/simon-proctor.raku <===
+(1 2 2 4 3 5)
+ 
+===> 059/1/stuart-little.raku <===
+Initial list: 1 -> 4 -> 3 -> 2 -> 5 -> 2
+Final list: 1 -> 2 -> 2 -> 4 -> 3 -> 5
+ 
+===> 059/1/ulrich-rieke.raku <===
+1 -> 2 -> 4 -> 3 -> 5
