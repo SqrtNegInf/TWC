@@ -1,0 +1,95 @@
+ 
+===> 055/1/alicia-bielsa.raku <===
+Binary Number: 100110011
+L=1, R=2, binary: 111110011,  7 1s
+L=1, R=6, binary: 111001111,  7 1s
+L=5, R=6, binary: 100111111,  7 1s
+ 
+===> 055/1/arne-sommer.raku <===
+The highest number of ones: 7
+L=1, R=2 -> 111110011
+L=1, R=6 -> 111001111
+L=5, R=6 -> 100111111
+ 
+===> 055/1/athanasius.raku <===
+The maximum number of 1s obtained by flipping "100110011" is 7,
+obtained with the flip indices: (1, 2), (1, 6), (5, 6)
+ 
+===> 055/1/colin-crain.raku <===
+100110011  binary input
+111110011  result for     L=1, R=2
+111001111  result for     L=1, R=6
+100111111  result for     L=5, R=6
+ 
+===> 055/1/jaldhar-h-vyas.raku <===
+(1,2)
+(1,6)
+(5,6)
+ 
+===> 055/1/javier-luque.raku <===
+ORIGINAL: 101111101111000111010111011
+
+SOLUTIONS length(22):
+L: 12 R: 14 Number: 101111101111111111010111011
+ 
+===> 055/1/laurent-rosenfeld.raku <===
+0-0: 1 1 0 1 1
+0-2: 1 0 1 1 1
+2-2: 0 1 1 1 1
+
+ 
+===> 055/1/luca-ferrari.raku <===
+Number 110011
+Searching for at least 5 ones...
+Found 1 0 1 1 1 1 with L = 1 and R = 3
+Found 1 1 1 0 1 1 with L = 2 and R = 2
+Found 1 1 1 1 1 1 with L = 2 and R = 3
+Found 1 1 1 1 0 1 with L = 2 and R = 4
+Found 1 1 0 1 1 1 with L = 3 and R = 3
+ 
+===> 055/1/mark-anderson.raku <===
+(1, 2) => 7
+(1, 6) => 7
+(5, 6) => 7
+ 
+===> 055/1/markus-holzer.raku <===
+L: 1 R: 2 -> 111110011
+L: 1 R: 6 -> 111001111
+L: 5 R: 6 -> 100111111
+ 
+===> 055/1/mohammad-anwar.raku <===
+100110011 => 100111111 (6,7) | 111001111 (2,7) | 111110011 (2,3)
+ 
+===> 055/1/noud.raku <===
+(L=1, R=1) binary: 100110010
+(L=0, R=0) binary: 100110001
+ 
+===> 055/1/roger-bell-west.raku <===
+(L=0, R=0)
+(L=0, R=2)
+(L=2, R=2)
+ 
+===> 055/1/ruben-westerberg.raku <===
+Testing on: 100110011
+Maximal 1's of count 7 given by L/R pairs:
+1, 2
+1, 6
+5, 6
+ 
+===> 055/1/shahed-nooshmand.raku <===
+0	0
+0	2
+2	2
+ 
+===> 055/1/simon-proctor.raku <===
+Max 1's : 7
+1 -> 2 : 111110011
+1 -> 6 : 111001111
+5 -> 6 : 100111111
+ 
+===> 055/1/stuart-little.raku <===
+[(0 0) (0 2) (2 2)]
+ 
+===> 055/1/ulrich-rieke.raku <===
+101111101111000111010111011
+L 12 , R 15

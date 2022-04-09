@@ -1,0 +1,154 @@
+ 
+===> 055/1/alicia-bielsa.pl <===
+Binary Number :100110011
+L=1, R=2, binary: 111110011,  7 1s
+L=1, R=6, binary: 111001111,  7 1s
+L=5, R=6, binary: 100111111,  7 1s
+ 
+===> 055/1/andrezgz.pl <===
+(L=1, R=2)
+(L=1, R=6)
+(L=5, R=6)
+ 
+===> 055/1/athanasius.pl <===
+The maximum number of 1s obtained by flipping input is 7,
+obtained with the flip indices: (1, 2), (1, 6), (5, 6)
+ 
+===> 055/1/cheok-yin-fung.pl <===
+L = 1, R = 2
+L = 1, R = 6
+L = 5, R = 6
+ 
+===> 055/1/colin-crain.pl <===
+100110011  binary input
+111110011  result for     L=1, R=2
+111001111  result for     L=1, R=6
+100111111  result for     L=5, R=6
+ 
+===> 055/1/dave-jacoby.pl <===
+Base: 010
+I L R String
+============
+2 0 0 110
+2 0 2 101
+2 2 2 011
+ 
+===> 055/1/duncan-c-white.pl <===
+for 100110011, longest no ones=7
+ 1..2: 111110011
+ 1..6: 111001111
+ 5..6: 100111111
+ 
+===> 055/1/e-choroba.pl <===
+ok 1
+ok 2
+ok 3
+ok 4
+ok 5
+ok 6
+ok 7
+ok 8
+ok 9
+ok 10
+ok 11
+ok 12
+ok 13
+1..13
+ 
+===> 055/1/jaldhar-h-vyas.pl <===
+(1,2)
+(1,6)
+(5,6)
+ 
+===> 055/1/jaredor.pl <===
+
+INPUT STRING : 100110011
+
+Maximal Flip Pairs
+..................
+(L=1, R=2) : 111110011
+(L=1, R=6) : 111001111
+(L=5, R=6) : 100111111
+ 
+===> 055/1/javier-luque.pl <===
+ORIGINAL: 10111011
+
+SOLUTIONS length(7):
+L: 1 R: 1 number: 11111011
+L: 5 R: 5 number: 10111111
+ 
+===> 055/1/laurent-rosenfeld.pl <===
+0-0: 1 1 0 1 1
+0-2: 1 0 1 1 1
+2-2: 0 1 1 1 1
+
+ 
+===> 055/1/lubos-kolouch.pl <===
+0 0
+0 2
+2 2
+ 
+===> 055/1/mohammad-anwar.pl <===
+101 => 111 (2,2)
+ 
+===> 055/1/roger-bell-west.pl <===
+(L=0, R=0)
+(L=0, R=2)
+(L=2, R=2)
+ 
+===> 055/1/ruben-westerberg.pl <===
+Testing on: 00101001
+Maximal 1's of count 6 given by L/R pairs:
+0, 6
+ 
+===> 055/1/saiftynet.pl <===
+Flips using string transformation and substitution method
+3 best Flips generated from flips of '0101001001110' giving 9 ones
+(L=0, R=8)
+(L=2, R=8)
+(L=4, R=8)
+Flips using binary operations method
+3 best Flips generated from flips of '0101001001110' giving 9 ones
+(L=0, R=8)
+(L=2, R=8)
+(L=4, R=8)
+ 
+===> 055/1/southpawgeek.pl <===
+L=0, R=0
+010 -> 110
+---------------
+L=0, R=1
+010 -> 100
+---------------
+L=0, R=2
+010 -> 101
+---------------
+L=1, R=1
+010 -> 000
+---------------
+L=1, R=2
+010 -> 001
+---------------
+L=2, R=2
+010 -> 011
+---------------
+max total positive bits: 2
+sets resulting in 2 positive bits
+L=0 R=0
+L=0 R=2
+L=2 R=2
+ 
+===> 055/1/ulrich-rieke.pl <===
+L 12 , R 15
+ 
+===> 055/1/user-person.pl <===
+(L=0, R=0) (L=0, R=2) (L=2, R=2) 
+ 
+===> 055/1/wanderdoc.pl <===
+[1, 2] [1, 6] [5, 6]
+ 
+===> 055/1/yet-ebreo.pl <===
+Pair of L-R (one's = 2):
+0 0
+0 2
+2 2
