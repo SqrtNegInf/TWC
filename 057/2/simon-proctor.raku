@@ -5,7 +5,7 @@ sub MAIN (
 ) {
     my @word-arrays = @words.map( *.comb );
     my %result = prefix-hash( @word-arrays );
-    .say for traverse( %result );
+    .say for sort traverse( %result );
     
 }
 

@@ -1,7 +1,7 @@
 #!/usr/bin/env raku
 my $words = [ "alphabet", "book", "carpet", "cadmium", "cadeau", "alpine" ];
 
-.say for gather shortest-unique-prefixes( $words );
+.say for sort gather shortest-unique-prefixes( $words );
 
 sub shortest-unique-prefixes( Array $words, Int $l = 1 )
 {

@@ -2,7 +2,7 @@
 
 
 sub prefix( @words, $len ) {
-    for @words.classify( *.substr( 0, $len ) ) {
+    for @words.classify( *.substr( 0, $len ) ).sort {
         if $_.value.elems == 1 {
             say "Prefix { $_.key } (length = $len)";    
         }

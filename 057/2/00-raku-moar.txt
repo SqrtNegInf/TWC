@@ -22,23 +22,23 @@ ok 1 - example given
 [alph alpi b car cadm cade foo fox]
  
 ===> 057/2/luca-ferrari.raku <===
-Prefix car (length = 3)
-Prefix cadm (length = 4)
-Prefix cade (length = 4)
 Prefix alph (length = 4)
 Prefix alpi (length = 4)
 Prefix b (length = 1)
+Prefix cade (length = 4)
+Prefix cadm (length = 4)
+Prefix car (length = 3)
  
 ===> 057/2/mark-anderson.raku <===
 [alph alpi b cade cadm car]
  
 ===> 057/2/markus-holzer.raku <===
+alph
+alpi
 b
 cade
 cadm
 car
-alph
-alpi
  
 ===> 057/2/mohammad-anwar.raku <===
 [ alph, b, car, cadm, cade, alpi ]
@@ -50,9 +50,9 @@ alpi
 alph
 alpi
 b
-car
-cadm
 cade
+cadm
+car
  
 ===> 057/2/stuart-little.raku <===
 (alph b car cadm cade alpi)
