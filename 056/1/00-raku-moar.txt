@@ -1,0 +1,83 @@
+ 
+===> 056/1/arne-sommer.raku <===
+2, 1
+ 
+===> 056/1/athanasius.raku <===
+@N = (2, 7, 9)
+ K =  2
+
+Found 1 solution: (2, 1)
+ 
+===> 056/1/colin-crain.raku <===
+input
+-----
+
+ array: 3, 4, 6, 9, 10, 11, 12, 14, 15, 19, 20, 33, 34, 35, 35, 36, 42, 42, 42, 43
+target: 24
+
+solutions
+---------
+
+i = 11, j = 3  --> 33 - 9  = 24
+i = 12, j = 4  --> 34 - 10 = 24
+i = 13, j = 5  --> 35 - 11 = 24
+i = 14, j = 5  --> 35 - 11 = 24
+i = 15, j = 6  --> 36 - 12 = 24
+i = 19, j = 9  --> 43 - 19 = 24
+ 
+===> 056/1/javier-luque.raku <===
+2, 1
+ 
+===> 056/1/kevin-colyer.raku <===
+ok 1 - Example solved
+ok 2 - Example should not solve
+ok 3 - Example modified solved
+ok 4 - Longer Example modified solved
+ 
+===> 056/1/laurent-rosenfeld.raku <===
+Indices 2 and 1 (values: 9, 7)
+ 
+===> 056/1/luca-ferrari.raku <===
+Array 2 7 9 and index 2
+1, 2 ---> 7 <-> 9
+ 
+===> 056/1/mark-anderson.raku <===
+2,1
+ 
+===> 056/1/markus-holzer.raku <===
+(1 2)
+ 
+===> 056/1/mohammad-anwar.raku <===
+@L = [50, 46, 45, 44, 41, 38, 31, 24, 21, 7]
+ 3, 4 => (44 - 41) => 3
+ 4, 5 => (41 - 38) => 3
+ 7, 8 => (24 - 21) => 3
+ 
+===> 056/1/noud.raku <===
+((1 2))
+ 
+===> 056/1/roger-bell-west.raku <===
+2, 1
+ 
+===> 056/1/ruben-westerberg.raku <===
+Input Array:
+3, 6, 7, 0, 1, 1, 5, 8, 4, 2
+Index pairs for difference of 2:
+0, 4
+0, 5
+1, 8
+2, 6
+6, 0
+7, 1
+8, 9
+9, 3
+ 
+===> 056/1/ryan-thompson.raku <===
+[0 2 3 5 6 7 9 10 11 14 15 16 17 18 19 21 22 25 28 29 31 32 33 34 35 37 38 40 41 44 46 47 48 49]
+([21 1] [22 2] [24 3] [25 5] [27 7] [28 8] [29 9] [30 11] [31 12] [32 13] [33 14])
+ 
+===> 056/1/simon-proctor.raku <===
+Given the list 2 7 9 and target 3
+ 
+===> 056/1/stuart-little.raku <===
+((2 1))

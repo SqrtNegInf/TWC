@@ -1,0 +1,100 @@
+ 
+===> 056/1/adam-russell.pl <===
+Matching Pair: (2,1)
+ 
+===> 056/1/alicia-bielsa.pl <===
+Output : 2,1
+ 
+===> 056/1/andrezgz.pl <===
+(2,1)
+ 
+===> 056/1/athanasius.pl <===
+@N = (2, 7, 9)
+ K =  2
+
+Found 1 solution: (2, 1)
+ 
+===> 056/1/colin-crain.pl <===
+input
+-----
+
+ array: 0, 2, 3, 6, 7, 7, 9, 10, 16, 17, 18, 22, 28, 28, 29, 37, 40, 41, 47, 49
+target: 24
+
+solutions
+---------
+
+i = 16, j = 8  --> 40 - 16 = 24
+i = 17, j = 9  --> 41 - 17 = 24
+ 
+===> 056/1/dave-jacoby.pl <===
+2, 1
+ 
+===> 056/1/dracos.pl <===
+ok 1
+ok 2
+ok 3
+ok 4
+ok 5
+1..5
+ 
+===> 056/1/duncan-c-white.pl <===
+2,1
+ 
+===> 056/1/e-choroba.pl <===
+2, 1
+ 
+===> 056/1/javier-luque.pl <===
+2, 1
+ 
+===> 056/1/laurent-rosenfeld.pl <===
+Indices 2 and 1 (values: 9, 7)
+ 
+===> 056/1/lubos-kolouch.pl <===
+ok 1
+ok 2
+ok 3
+1..3
+ 
+===> 056/1/mark-anderson.pl <===
+2,1
+ 
+===> 056/1/mohammad-anwar.pl <===
+@L: [49, 42, 39, 30, 24, 23, 18, 14, 5, 2]
+ 5, 6 => (23 - 18) => 5
+ 
+===> 056/1/roger-bell-west.pl <===
+2, 1
+ 
+===> 056/1/ruben-westerberg.pl <===
+Input Array:
+0, 0, 1, 3, 3, 4, 5, 7, 8, 9
+Index pairs for difference of 8:
+8, 0
+8, 1
+9, 2
+ 
+===> 056/1/ryan-thompson.pl <===
+0 2 3 5 6 7 9 10 11 14 15 16 17 18 19 21 22 25 28 29 31 32 33 34 35 37 38 40 41 44 46 47 48 49
+[21, 1] [22, 2] [24, 3] [25, 5] [27, 7] [28, 8] [29, 9] [30, 11] [31, 12] [32, 13] [33, 14]
+ 
+===> 056/1/saiftynet.pl <===
+2,1
+ 
+===> 056/1/user-person.pl <===
+(2, 1) 
+ 
+===> 056/1/wanderdoc.pl <===
+2, 0
+3, 1
+4, 2
+5, 3
+6, 4
+7, 5
+8, 6
+9, 7
+ 
+===> 056/1/yet-ebreo.pl <===
+0	4
+1	5
+5	6
