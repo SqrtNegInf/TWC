@@ -1,0 +1,72 @@
+ 
+===> 054/1/andrezgz.pl <===
+231
+
+ 
+===> 054/1/athanasius.pl <===
+The 4th permutation of 123 is 231
+ 
+===> 054/1/cheok-yin-fung.pl <===
+231 
+===> 054/1/colin-crain.pl <===
+recursion: the 4th permutation sequence is 2 3 1
+in place : the 4th permutation sequence is 2 3 1
+ 
+===> 054/1/dave-jacoby.pl <===
+[2,3,1]
+ 
+===> 054/1/duncan-c-white.pl <===
+3th perm of 1234 is 1324
+ 
+===> 054/1/e-choroba.pl <===
+231
+ 
+===> 054/1/jaldhar-h-vyas.pl <===
+231
+ 
+===> 054/1/javier-luque.pl <===
+231
+ 
+===> 054/1/laurent-rosenfeld.pl <===
+ 2 3 1
+ 
+===> 054/1/lubos-kolouch.pl <===
+231
+ok 1
+1..1
+ 
+===> 054/1/mohammad-anwar.pl <===
+231 
+===> 054/1/peter-meszaros.pl <===
+ 4 231
+ 
+===> 054/1/roger-bell-west.pl <===
+231
+ 
+===> 054/1/ruben-westerberg.pl <===
+231
+ 
+===> 054/1/ryan-thompson.pl <===
+231
+231
+ 
+===> 054/1/saiftynet.pl <===
+
+Getting all permutations
+1 2 3
+1 3 2
+2 1 3
+2 3 1
+3 2 1
+3 1 2
+
+Getting kth permutation
+2 3 1
+
+Getting selected permutations
+3 1 2
+2 1 3
+2 3 1
+ 
+===> 054/1/yet-ebreo.pl <===
+231

@@ -1,0 +1,58 @@
+ 
+===> 054/1/arne-sommer.raku <===
+231
+ 
+===> 054/1/athanasius.raku <===
+The 4th permutation of 123 is 231
+ 
+===> 054/1/ben-davies.raku <===
+231
+ 
+===> 054/1/colin-crain.raku <===
+using permutations routine:
+2 3 1
+using Algorithm L
+2 3 1
+ 
+===> 054/1/javier-luque.raku <===
+231
+ 
+===> 054/1/kevin-colyer.raku <===
+n=3, k=4 => 231
+ 
+===> 054/1/laurent-rosenfeld.raku <===
+(2 3 1)
+ 
+===> 054/1/luca-ferrari.raku <===
+Computing the 4-th permutation of 3
+(2 3 1)
+ 
+===> 054/1/mark-anderson.raku <===
+(2 3 1)
+ 
+===> 054/1/markus-holzer.raku <===
+(2 3 1)
+ 
+===> 054/1/mohammad-anwar.raku <===
+231
+ 
+===> 054/1/noud.raku <===
+231
+ 
+===> 054/1/roger-bell-west.raku <===
+231
+ 
+===> 054/1/ruben-westerberg.raku <===
+231
+ 
+===> 054/1/ryan-thompson.raku <===
+(2 3 1)
+ 
+===> 054/1/simon-proctor.raku <===
+231
+ 
+===> 054/1/stuart-little.raku <===
+(2 3 1)
+ 
+===> 054/1/ulrich-rieke.raku <===
+(2 3 1)
