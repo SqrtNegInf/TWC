@@ -1,0 +1,267 @@
+ 
+===> 052/1/alicia-bielsa.raku <===
+121
+123
+210
+212
+232
+234
+321
+323
+343
+345
+432
+434
+454
+456
+543
+545
+565
+567
+654
+656
+676
+678
+765
+767
+787
+789
+876
+878
+898
+987
+989
+ 
+===> 052/1/arne-sommer.raku <===
+121, 123, 210, 212, 232, 234, 321, 323, 343, 345, 432, 434, 454, 456, 543, 545, 565, 567, 654, 656, 676, 678, 765, 767, 787, 789, 876, 878, 898, 987, 989
+ 
+===> 052/1/colin-crain.raku <===
+121
+123
+210
+212
+232
+234
+321
+323
+343
+345
+432
+434
+454
+456
+543
+545
+565
+567
+654
+656
+676
+678
+765
+767
+787
+789
+876
+878
+898
+987
+989
+ 
+===> 052/1/jaldhar-h-vyas.raku <===
+101 121 123 210 212 232 234 321 323 343 345 432 434 454 456 543 545 565 567 654 656 676 678 765 767 787 789 876 878 898 987 989
+ 
+===> 052/1/javier-luque.raku <===
+101
+121
+123
+210
+212
+232
+234
+321
+323
+343
+345
+432
+434
+454
+456
+543
+545
+565
+567
+654
+656
+676
+678
+765
+767
+787
+789
+876
+878
+898
+987
+989
+ 
+===> 052/1/kevin-colyer.raku <===
+Stepping numbers between 111 and 999: [123 234 321 345 432 456 543 567 654 678 765 789 876 987]
+ 
+===> 052/1/laurent-rosenfeld.raku <===
+121 is a stepping number.
+123 is a stepping number.
+210 is a stepping number.
+212 is a stepping number.
+232 is a stepping number.
+234 is a stepping number.
+321 is a stepping number.
+323 is a stepping number.
+343 is a stepping number.
+345 is a stepping number.
+432 is a stepping number.
+434 is a stepping number.
+454 is a stepping number.
+456 is a stepping number.
+543 is a stepping number.
+545 is a stepping number.
+565 is a stepping number.
+567 is a stepping number.
+654 is a stepping number.
+656 is a stepping number.
+676 is a stepping number.
+678 is a stepping number.
+765 is a stepping number.
+767 is a stepping number.
+787 is a stepping number.
+789 is a stepping number.
+876 is a stepping number.
+878 is a stepping number.
+898 is a stepping number.
+987 is a stepping number.
+989 is a stepping number.
+ 
+===> 052/1/luca-ferrari.raku <===
+Searching STEPPING NUMBERs between 111 and 333
+123
+121
+234
+232
+212
+323
+321
+-----------------------
+ 
+===> 052/1/mark-anderson.raku <===
+121
+123
+210
+212
+232
+234
+321
+323
+343
+345
+432
+434
+454
+456
+543
+545
+565
+567
+654
+656
+676
+678
+765
+767
+787
+789
+876
+878
+898
+987
+989
+ 
+===> 052/1/markus-holzer.raku <===
+101
+121
+123
+210
+212
+232
+234
+321
+323
+343
+345
+432
+434
+454
+456
+543
+545
+565
+567
+654
+656
+676
+678
+765
+767
+787
+789
+876
+878
+898
+987
+989
+ 
+===> 052/1/mohammad-anwar.raku <===
+123
+210
+234
+321
+345
+432
+456
+543
+567
+654
+678
+765
+789
+876
+987
+ 
+===> 052/1/noud.raku <===
+(101 121 123 210 212 232 234 321 323 343 345 432 434 454 456 543 545 565 567 654 656 676 678 765 767 787 789 876 878 898 987 989)
+(545 565 567 654 656 676 678 765 767 787 789 876 878 898 987)
+ 
+===> 052/1/roger-bell-west.raku <===
+ 
+===> 052/1/ruben-westerberg.raku <===
+Stepping Number: 123
+Stepping Number: 234
+Stepping Number: 345
+Stepping Number: 456
+Stepping Number: 567
+Stepping Number: 678
+Stepping Number: 789
+ 
+===> 052/1/ryan-thompson.raku <===
+(123 210 234 321 345 432 456 543 567 654 678 765 789 876 987)
+ 
+===> 052/1/simon-proctor.raku <===
+123
+234
+345
+456
+567
+678
+789
+ 
+===> 052/1/stuart-little.raku <===
+(101 102 103 104 105 106 107 108 109)
