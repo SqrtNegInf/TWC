@@ -1,0 +1,246 @@
+ 
+===> 054/2/alicia-bielsa.pl <===
+6171	262
+9257	260
+6943	257
+7963	252
+8959	247
+6591	244
+ 
+===> 054/2/andrezgz.pl <===
+23 -> 70 -> 35 -> 106 -> 53 -> 160 -> 80 -> 40 -> 20 -> 10 -> 5 -> 16 -> 8 -> 4 -> 2 -> 16171: 262
+9257: 260
+6943: 257
+7963: 252
+8959: 247
+ 
+===> 054/2/athanasius.pl <===
+The 5 longest Collatz sequences for N up to 10,000:
+
+------------------------------
+         Starting    Sequence
+ Rank   Number (N)    Length
+------------------------------
+   1        6,171       262
+   2        9,257       260
+   3        6,943       257
+   4        7,963       252
+   5        8,959       247
+------------------------------
+ 
+===> 054/2/cheok-yin-fung.pl <===
+23 70 35 106 53 160 80 40 20 10 5 16 8 4 2 1  
+===> 054/2/colin-crain.pl <===
+23, 70, 35, 106, 53, 160, 80, 40, 20, 10, 5, 16, 8, 4, 2, 1
+-----------------------------------
+ count   number   sequence length
+-------+--------+------------------
+   1       6171    262
+   2       9257    260
+   3       6943    257
+   4       7963    252
+   5       8959    247
+   6       6591    244
+   7       9887    242
+   8       9897    242
+   9       7422    239
+  10       7423    239
+  11       3711    238
+  12       5567    236
+  13       8351    234
+  14       9225    229
+  15       6919    226
+  16       7785    221
+  17       5838    218
+  18       5839    218
+  19       2919    217
+  20       8758    216
+-----------------------------------
+largest value found was 27114424
+for number 9663
+ 
+===> 054/2/dave-jacoby.pl <===
+23 → 70 → 35 → 106 → 53 → 160 → 80 → 40 → 20 → 10 → 5 → 16 → 8 → 4 → 2 → 1
+ 
+===> 054/2/duncan-c-white.pl <===
+collatz 23 = 23,70,35,106,53,160,80,40,20,10,5,16,8,4,2,1
+ 
+===> 054/2/e-choroba.pl <===
+6171 262
+9257 260
+6943 257
+7963 252
+8959 247
+6591 244
+ok 1
+1..1
+ 
+===> 054/2/jaldhar-h-vyas.pl <===
+6171: 262
+9257: 260
+6943: 257
+7963: 252
+8959: 247
+ 
+===> 054/2/javier-luque.pl <===
+6171 : Length 261
+9257 : Length 259
+6943 : Length 256
+7963 : Length 251
+8959 : Length 246
+6591 : Length 243
+ 
+===> 054/2/laurent-rosenfeld.pl <===
+23 70 35 106 53 160 80 40 20 10 5 16 8 4 2 1
+ 
+===> 054/2/lubos-kolouch.pl <===
+23 70 35 106 53 160 80 40 20 10 5 16 8 4 2 1
+6171     262
+9257     260
+6943     257
+7963     252
+8959     247
+ok 1
+1..1
+ 
+===> 054/2/markus-holzer.pl <===
+n: 6171, length: 262
+n: 9257, length: 260
+n: 6943, length: 257
+n: 7963, length: 252
+n: 8959, length: 247
+ 
+===> 054/2/mohammad-anwar.pl <===
+23 -> 70 -> 35 -> 106 -> 53 -> 160 -> 80 -> 40 -> 20 -> 10 -> 5 -> 16 -> 8 -> 4 -> 2 -> 1
+ 
+===> 054/2/peter-meszaros.pl <===
+ 1   6171 length:    262 max:       975400
+ 2   9257 length:    260 max:       975400
+ 3   6943 length:    257 max:       975400
+ 4   7963 length:    252 max:       497176
+ 5   8959 length:    247 max:       497176
+ 6   6591 length:    244 max:       975400
+ 
+===> 054/2/roger-bell-west.pl <===
+23, 70, 35, 106, 53, 160, 80, 40, 20, 10, 5, 16, 8, 4, 2, 1
+ 
+===> 054/2/ruben-westerberg.pl <===
+Top 20 Collaz Sequence lengths for starting numbers 1..23
+Starting Number:         18 Sequence Length: 21
+Starting Number:         19 Sequence Length: 21
+Starting Number:          9 Sequence Length: 20
+Starting Number:         14 Sequence Length: 18
+Starting Number:         15 Sequence Length: 18
+Starting Number:          7 Sequence Length: 17
+Starting Number:         22 Sequence Length: 16
+Starting Number:         23 Sequence Length: 16
+Starting Number:         11 Sequence Length: 15
+Starting Number:         17 Sequence Length: 13
+Starting Number:         12 Sequence Length: 10
+Starting Number:         13 Sequence Length: 10
+Starting Number:          6 Sequence Length: 9
+Starting Number:          3 Sequence Length: 8
+Starting Number:         20 Sequence Length: 8
+Starting Number:         21 Sequence Length: 8
+Starting Number:         10 Sequence Length: 7
+Starting Number:          5 Sequence Length: 6
+Starting Number:         16 Sequence Length: 5
+Starting Number:          1 Sequence Length: 4
+ 
+===> 054/2/ryan-thompson.pl <===
+Collatz(837799) has sequence length of 525 steps
+Collatz(626331) has sequence length of 509 steps
+Collatz(939497) has sequence length of 507 steps
+Collatz(704623) has sequence length of 504 steps
+Collatz(910107) has sequence length of 476 steps
+Collatz(927003) has sequence length of 476 steps
+Collatz(511935) has sequence length of 470 steps
+Collatz(767903) has sequence length of 468 steps
+Collatz(796095) has sequence length of 468 steps
+Collatz(970599) has sequence length of 458 steps
+Collatz(546681) has sequence length of 452 steps
+Collatz(820022) has sequence length of 450 steps
+Collatz(818943) has sequence length of 450 steps
+Collatz(820023) has sequence length of 450 steps
+Collatz(410011) has sequence length of 449 steps
+Collatz(615017) has sequence length of 447 steps
+Collatz(922526) has sequence length of 445 steps
+Collatz(922526) has sequence length of 445 steps
+Collatz(886953) has sequence length of 445 steps
+Collatz(906175) has sequence length of 445 steps
+ 
+===> 054/2/shahed-nooshmand.pl <===
+6171    262
+9257    260
+6943    257
+7963    252
+8959    247
+ 
+===> 054/2/ulrich-rieke.pl <===
+23
+70
+35
+106
+53
+160
+80
+40
+20
+10
+5
+16
+8
+4
+2
+1
+16
+The 20 longest Collatz sequences in numbers up to 1000000:
+6171 262
+9257 260
+6943 257
+7963 252
+8959 247
+6591 244
+9887 242
+9897 242
+7422 239
+7423 239
+3711 238
+5567 236
+8351 234
+9225 229
+6919 226
+7785 221
+5838 218
+5839 218
+2919 217
+8758 216
+ 
+===> 054/2/user-person.pl <===
+Starting number: 6171 with sequence length: 261
+Starting number: 9257 with sequence length: 259
+Starting number: 6943 with sequence length: 256
+Starting number: 7963 with sequence length: 251
+Starting number: 8959 with sequence length: 246
+Starting number: 6591 with sequence length: 243
+Starting number: 9897 with sequence length: 241
+Starting number: 9887 with sequence length: 241
+Starting number: 7423 with sequence length: 238
+Starting number: 7422 with sequence length: 238
+Starting number: 3711 with sequence length: 237
+Starting number: 5567 with sequence length: 235
+Starting number: 8351 with sequence length: 233
+Starting number: 9225 with sequence length: 228
+Starting number: 6919 with sequence length: 225
+Starting number: 7785 with sequence length: 220
+Starting number: 5839 with sequence length: 217
+Starting number: 5838 with sequence length: 217
+Starting number: 2919 with sequence length: 216
+Starting number: 8759 with sequence length: 215
+ 
+===> 054/2/wanderdoc.pl <===
+6171: 262
+9257: 260
+6943: 257
+7963: 252
+8959: 247

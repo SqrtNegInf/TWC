@@ -1,0 +1,114 @@
+ 
+===> 054/2/arne-sommer.raku <===
+23, 70, 35, 106, 53, 160, 80, 40, 20, 10, 5, 16, 8, 4, 2, 1
+ 
+===> 054/2/athanasius.raku <===
+ 
+===> 054/2/ben-davies.raku <===
+ 
+===> 054/2/colin-crain.raku <===
+23, 70, 35, 106, 53, 160, 80, 40, 20, 10, 5, 16, 8, 4, 2, 1
+ 
+===> 054/2/jaldhar-h-vyas.raku <===
+6171: 262
+9257: 260
+6943: 257
+7963: 252
+8959: 247
+ 
+===> 054/2/javier-luque.raku <===
+6171 : Length 261
+9257 : Length 259
+6943 : Length 256
+7963 : Length 251
+8959 : Length 246
+6591 : Length 243
+ 
+===> 054/2/kevin-colyer.raku <===
+23 -> 70 -> 35 -> 106 -> 53 -> 160 -> 80 -> 40 -> 20 -> 10 -> 5 -> 16 -> 8 -> 4 -> 2 -> 1
+ 
+===> 054/2/laurent-rosenfeld.raku <===
+Collatz sequence for 23: 23 70 35 106 53 160 80 40 20 10 5 16 8 4 2 1
+ 
+===> 054/2/luca-ferrari.raku <===
+70 → 35 → 106 → 53 → 160 → 80 → 40 → 20 → 10 → 5 → 16 → 8 → 4 → 2 → 1
+Number 6171 produces a Collatz sequence of 261 numbers length
+Number 9257 produces a Collatz sequence of 259 numbers length
+Number 6943 produces a Collatz sequence of 256 numbers length
+Number 7963 produces a Collatz sequence of 251 numbers length
+Number 8959 produces a Collatz sequence of 246 numbers length
+ 
+===> 054/2/mark-anderson.raku <===
+8959 => 247
+7963 => 252
+6943 => 257
+9257 => 260
+6171 => 262
+ 
+===> 054/2/markus-holzer.raku <===
+n: 23, length: 15
+70,35,106,53,160,80,40,20,10,5,16,8,4,2,1
+ 
+===> 054/2/mohammad-anwar.raku <===
+23 -> 70 -> 35 -> 106 -> 53 -> 160 -> 80 -> 40 -> 20 -> 10 -> 5 -> 16 -> 8 -> 4 -> 2 -> 1
+ 
+===> 054/2/noud.raku <===
+[23 70 35 106 53 160 80 40 20 10 5 16 8 4 2 1]
+ 
+===> 054/2/roger-bell-west.raku <===
+23, 70, 35, 106, 53, 160, 80, 40, 20, 10, 5, 16, 8, 4, 2, 1
+ 
+===> 054/2/ruben-westerberg.raku <===
+Top 20 Collaz Sequence lengths for starting numbers 1..10000
+Starting Number:       6171 Sequence Length: 262
+Starting Number:       9257 Sequence Length: 260
+Starting Number:       6943 Sequence Length: 257
+Starting Number:       7963 Sequence Length: 252
+Starting Number:       8959 Sequence Length: 247
+ 
+===> 054/2/ryan-thompson.raku <===
+Start:   6171 has  262 steps
+Start:   9257 has  260 steps
+Start:   6943 has  257 steps
+Start:   7963 has  252 steps
+Start:   8959 has  247 steps
+ 
+===> 054/2/shahed-nooshmand.raku <===
+6171	262
+9257	260
+6943	257
+7963	252
+8959	247
+ 
+===> 054/2/simon-proctor.raku <===
+ 
+===> 054/2/stuart-little.raku <===
+2223 183
+2463 209
+2919 217
+3711 238
+6171 262
+ 
+===> 054/2/ulrich-rieke.raku <===
+23
+70
+35
+106
+53
+160
+80
+40
+20
+10
+5
+16
+8
+4
+2
+1
+The sequence lengths of the longest sequences up to 1000000 are :
+6171  262
+9257  260
+6943  257
+7963  252
+8959  247
