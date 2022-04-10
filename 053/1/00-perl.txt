@@ -1,0 +1,416 @@
+ 
+===> 053/1/alicia-bielsa.pl <===
+Matrix
+[ 1, 2, 3 ]
+[ 4, 5, 6 ]
+[ 7, 8, 9 ]
+Matrix rotated 90 degrees clockwise
+[ 7, 4, 1 ]
+[ 8, 5, 2 ]
+[ 9, 6, 3 ]
+Matrix rotated 180 degrees clockwise
+[ 9, 8, 7 ]
+[ 6, 5, 4 ]
+[ 3, 2, 1 ]
+Matrix rotated 270 degrees clockwise
+[ 3, 6, 9 ]
+[ 2, 5, 8 ]
+[ 1, 4, 7 ]
+ 
+===> 053/1/andrezgz.pl <===
+[ 7 , 4 , 1 ]
+[ 8 , 5 , 2 ]
+[ 9 , 6 , 3 ]
+ 
+===> 053/1/athanasius.pl <===
+Original matrix:
+[1, 2, 3]
+[4, 5, 6]
+[7, 8, 9]
+Rotated 90:
+[7, 4, 1]
+[8, 5, 2]
+[9, 6, 3]
+
+Rotated 180:
+[9, 8, 7]
+[6, 5, 4]
+[3, 2, 1]
+
+Rotated 270:
+[3, 6, 9]
+[2, 5, 8]
+[1, 4, 7]
+
+Rotated 360:
+[1, 2, 3]
+[4, 5, 6]
+[7, 8, 9]
+ 
+===> 053/1/colin-crain.pl <===
+ start:
+
+1, 2, 3
+4, 5, 6
+7, 8, 9
+
+ once:
+
+7, 4, 1
+8, 5, 2
+9, 6, 3
+
+ twice:
+
+9, 8, 7
+6, 5, 4
+3, 2, 1
+
+ thrice:
+
+3, 6, 9
+2, 5, 8
+1, 4, 7
+
+ 180:
+
+9, 8, 7
+6, 5, 4
+3, 2, 1
+
+ 270:
+
+3, 6, 9
+2, 5, 8
+1, 4, 7
+ 
+===> 053/1/cristian-heredia.pl <===
+7 4 1 
+8 5 2 
+9 6 3 
+ 
+===> 053/1/dave-cross.pl <===
+Original matrix:
+[1, 2, 3]
+[4, 5, 6]
+[7, 8, 9]
+Rotating by 90 degrees:
+[7, 4, 1]
+[8, 5, 2]
+[9, 6, 3]
+Rotating by 180 degrees:
+[9, 8, 7]
+[6, 5, 4]
+[3, 2, 1]
+Rotating by 270 degrees:
+[3, 6, 9]
+[2, 5, 8]
+[1, 4, 7]
+ 
+===> 053/1/dave-jacoby.pl <===
+[[1,2,3],[4,5,6],[7,8,9]]
+
+[[7,4,1],[8,5,2],[9,6,3]]
+
+[[9,8,7],[6,5,4],[3,2,1]]
+[[9,6,3],[8,5,2],[7,4,1]]
+
+[[3,6,9],[2,5,8],[1,4,7]]
+[[3,6,9],[2,5,8],[1,4,7]]
+
+[[1,2,3],[4,5,6],[7,8,9]]
+ 
+===> 053/1/duncan-c-white.pl <===
+initmat is 
+1, 2, 3
+4, 5, 6
+7, 8, 9
+
+
+1, 2, 3
+4, 5, 6
+7, 8, 9
+ rotated by 90 is 
+7, 4, 1
+8, 5, 2
+9, 6, 3
+
+
+1, 2, 3
+4, 5, 6
+7, 8, 9
+ rotated by 180 is 
+9, 8, 7
+6, 5, 4
+3, 2, 1
+
+
+1, 2, 3
+4, 5, 6
+7, 8, 9
+ rotated by 270 is 
+3, 6, 9
+2, 5, 8
+1, 4, 7
+
+ 
+===> 053/1/e-choroba.pl <===
+0:
+[
+ [1 2 3]
+ [4 5 6]
+ [7 8 9]
+]
+90:
+[
+ [7 4 1]
+ [8 5 2]
+ [9 6 3]
+]
+180:
+[
+ [9 8 7]
+ [6 5 4]
+ [3 2 1]
+]
+270:
+[
+ [3 6 9]
+ [2 5 8]
+ [1 4 7]
+]
+ 
+===> 053/1/jaldhar-h-vyas.pl <===
+Usage:
+  jaldhar-h-vyas.pl <angle>
+  
+    <angle>    angle to rotate matrix (0, 90, 180, or 270)
+ 
+===> 053/1/javier-luque.pl <===
+Original 
+  1  2  3
+  4  5  6
+  7  8  9
+Rotate 90
+  7  4  1
+  8  5  2
+  9  6  3
+Rotate 180
+  9  8  7
+  6  5  4
+  3  2  1
+Rotate 270
+  3  6  9
+  2  5  8
+  1  4  7
+ 
+===> 053/1/laurent-rosenfeld.pl <===
+Initial matrix:
+[1, 2, 3]
+[4, 5, 6]
+[7, 8, 9]
+
+Matrix rotated 90°
+[7, 4, 1]
+[8, 5, 2]
+[9, 6, 3]
+
+Matrix rotated 180°
+[9, 8, 7]
+[6, 5, 4]
+[3, 2, 1]
+
+Matrix rotated 270°
+[3, 6, 9]
+[2, 5, 8]
+[1, 4, 7]
+
+Rotate 360 (sanity check, should be the initial matrix)
+[1, 2, 3]
+[4, 5, 6]
+[7, 8, 9]
+ 
+===> 053/1/lubos-kolouch.pl <===
+
+[
+ [1 2 3]
+ [4 5 6]
+ [7 8 9]
+]
+90
+
+[
+ [7 4 1]
+ [8 5 2]
+ [9 6 3]
+]
+180
+
+[
+ [9 8 7]
+ [6 5 4]
+ [3 2 1]
+]
+270
+
+[
+ [3 6 9]
+ [2 5 8]
+ [1 4 7]
+]
+ 
+===> 053/1/mohammad-anwar.pl <===
+ok 1 - rotation by 90.
+ok 2 - rotation by 180.
+ok 3 - rotation by 270.
+1..3
+ 
+===> 053/1/roger-bell-west.pl <===
+[ 7, 4, 1 ]
+[ 8, 5, 2 ]
+[ 9, 6, 3 ]
+ 
+===> 053/1/ruben-westerberg.pl <===
+0deg rotation:
+[1, 2, 3]
+[4, 5, 6]
+[7, 8, 9]
+90deg rotation:
+[7, 4, 1]
+[8, 5, 2]
+[9, 6, 3]
+180deg rotation:
+[9, 8, 7]
+[6, 5, 4]
+[3, 2, 1]
+270deg rotation:
+[3, 6, 9]
+[2, 5, 8]
+[1, 4, 7]
+ 
+===> 053/1/ryan-thompson.pl <===
+ok 1
+ok 2
+ok 3
+ok 4
+ok 5
+ok 6
+ok 7
+ok 8
+1..8
+ 
+===> 053/1/saiftynet.pl <===
+
+Rotating/flipping 0
+1 2 3 4 5
+6 7 8 9 0
+A B C D E
+F G H I J
+K L M N O
+
+Rotating/flipping cw
+K F A 6 1
+L G B 7 2
+M H C 8 3
+N I D 9 4
+O J E 0 5
+
+Rotating/flipping ht
+O N M L K
+J I H G F
+E D C B A
+0 9 8 7 6
+5 4 3 2 1
+
+Rotating/flipping ccw
+5 0 E J O
+4 9 D I N
+3 8 C H M
+2 7 B G L
+1 6 A F K
+
+Rotating/flipping h
+5 4 3 2 1
+0 9 8 7 6
+E D C B A
+J I H G F
+O N M L K
+
+Rotating/flipping v
+K L M N O
+F G H I J
+A B C D E
+6 7 8 9 0
+1 2 3 4 5
+
+Rotating/flipping lr
+1 6 A F K
+2 7 B G L
+3 8 C H M
+4 9 D I N
+5 0 E J O
+
+Rotating/flipping rl
+O J E 0 5
+N I D 9 4
+M H C 8 3
+L G B 7 2
+K F A 6 1
+
+Rotating by 0
+---█--
+---░█-
+███░░█
+---░█-
+---█--
+
+Rotating by 90
+--█--
+--█--
+--█--
+█░░░█
+-█░█-
+--█--
+
+Rotating by 180
+--█---
+-█░---
+█░░███
+-█░---
+--█---
+
+Rotating by 270
+--█--
+-█░█-
+█░░░█
+--█--
+--█--
+--█--
+ 
+===> 053/1/user-person.pl <===
+[7, 4, 1]
+[8, 5, 2]
+[9, 6, 3]
+ 
+===> 053/1/wanderdoc.pl <===
+[ 1, 2, 3 ]
+[ 4, 5, 6 ]
+[ 7, 8, 9 ]
+
+[ 7, 4, 1 ]
+[ 8, 5, 2 ]
+[ 9, 6, 3 ]
+
+[ 9, 8, 7 ]
+[ 6, 5, 4 ]
+[ 3, 2, 1 ]
+
+[ 3, 6, 9 ]
+[ 2, 5, 8 ]
+[ 1, 4, 7 ]
+
+ 
+===> 053/1/yet-ebreo.pl <===
+7 4 1
+8 5 2
+9 6 3
