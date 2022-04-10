@@ -1,0 +1,434 @@
+ 
+===> 053/2/alicia-bielsa.raku <===
+aei
+aia
+aie
+aio
+aiu
+eia
+eie
+eio
+eiu
+iae
+iai
+iei
+ioa
+iou
+iua
+iue
+oae
+oai
+oua
+oue
+uae
+uai
+uei
+ 
+===> 053/2/arne-sommer.raku <===
+aei
+aia
+aie
+aio
+aiu
+eia
+eie
+eio
+eiu
+iae
+iai
+iei
+ioa
+iou
+iuo
+iue
+oae
+oai
+ouo
+oue
+uoa
+uou
+uei
+ 
+===> 053/2/athanasius.raku <===
+For N = 3, the 23 possible distinct vowel strings are:
+  aei
+  aia
+  aie
+  aio
+  aiu
+  eia
+  eie
+  eio
+  eiu
+  iae
+  iai
+  iei
+  ioa
+  iou
+  iuo
+  iue
+  oae
+  oai
+  ouo
+  oue
+  uoa
+  uou
+  uei
+ 
+===> 053/2/colin-crain.raku <===
+aei
+aia
+aie
+aio
+aiu
+eia
+eie
+eio
+eiu
+iae
+iai
+iei
+ioa
+iou
+iuo
+iue
+oae
+oai
+ouo
+oue
+uoa
+uou
+uei
+ 
+===> 053/2/jaldhar-h-vyas.raku <===
+aei
+aia
+aie
+aio
+aiu
+eia
+eie
+eio
+eiu
+iae
+iai
+iei
+ioa
+iou
+iue
+iuo
+oae
+oai
+oue
+ouo
+uei
+uoa
+uou
+ 
+===> 053/2/javier-luque.raku <===
+aei
+aia
+aie
+aio
+aiu
+eia
+eie
+eio
+eiu
+iae
+iai
+iei
+ioa
+iou
+iue
+iuo
+oae
+oai
+oue
+ouo
+uei
+uoa
+uou
+ 
+===> 053/2/kevin-colyer.raku <===
+aei
+aia
+aie
+aio
+aiu
+eia
+eie
+eio
+eiu
+iae
+iai
+iei
+ioa
+iou
+iue
+iuo
+oae
+oai
+oue
+ouo
+uei
+uoa
+uou
+ 
+===> 053/2/laurent-rosenfeld.raku <===
+aei
+aia
+aie
+aio
+aiu
+eia
+eie
+eio
+eiu
+iae
+iai
+iei
+ioa
+iou
+iue
+iuo
+oae
+oai
+oue
+ouo
+uei
+uoa
+uou
+ 
+===> 053/2/luca-ferrari.raku <===
+Requested string length is 2 
+Found a a
+Found a e
+Found a i
+Found a o
+Found a u
+Found e a
+Found e e
+Found e i
+Found e o
+Found e u
+Found i a
+Found i e
+Found i i
+Found i o
+Found i u
+Found o a
+Found o e
+Found o i
+Found o o
+Found o u
+Found u a
+Found u e
+Found u i
+Found u o
+Found u u
+ 
+===> 053/2/mark-anderson.raku <===
+aei
+aia
+aie
+aio
+aiu
+eia
+eie
+eio
+eiu
+iae
+iai
+iei
+ioa
+iou
+iuo
+iue
+oae
+oai
+ouo
+oue
+uoa
+uou
+uei
+ 
+===> 053/2/markus-holzer.raku <===
+aei
+aia
+aie
+aio
+aiu
+eia
+eie
+eio
+eiu
+iae
+iai
+iei
+ioa
+iou
+iue
+iuo
+oae
+oai
+oue
+ouo
+uei
+uoa
+uou
+ 
+===> 053/2/mohammad-anwar.raku <===
+aei
+aeo
+aeu
+aio
+aiu
+aou
+eio
+eiu
+eou
+iou
+ 
+===> 053/2/noud.raku <===
+aei
+aia
+aie
+aio
+aiu
+eia
+eie
+eio
+eiu
+iae
+iai
+iei
+ioa
+iou
+iuo
+iue
+oae
+oai
+ouo
+oue
+uoa
+uou
+uei
+ 
+===> 053/2/roger-bell-west.raku <===
+aei
+ aia
+ aie
+ aio
+ aiu
+ eia
+ eie
+ eio
+ eiu
+ iae
+ iai
+ iei
+ ioa
+ iou
+ iuo
+ iue
+ oae
+ oai
+ ouo
+ oue
+ uoa
+ uou
+ uei
+ 
+===> 053/2/ruben-westerberg.raku <===
+aei
+aie
+aio
+aiu
+eia
+eio
+eiu
+iae
+ioa
+iou
+iue
+iuo
+oae
+oai
+oue
+uei
+uoa
+ 
+===> 053/2/ryan-thompson.raku <===
+aei
+aia
+aie
+aio
+aiu
+eia
+eie
+eio
+eiu
+iae
+iai
+iei
+ioa
+iou
+iuo
+iue
+oae
+oai
+ouo
+oue
+uoa
+uou
+uei
+ 
+===> 053/2/simon-proctor.raku <===
+aei
+aia
+aie
+aio
+aiu
+eia
+eie
+eio
+eiu
+iae
+iai
+iei
+ioa
+iou
+iuo
+iue
+oae
+oai
+ouo
+oue
+uoa
+uou
+uei
+ 
+===> 053/2/stuart-little.raku <===
+(aei aia aie aio aiu eia eie eio eiu iae iai iei ioa iou iue iuo oae oai oue ouo uei uoa uou)
+ 
+===> 053/2/ulrich-rieke.raku <===
+aei
+aeo
+aeu
+aio
+aiu
+aou
+eio
+eiu
+eou
+iea
+iou
+oia
+oie
+uea
+uia
+uie
+uoa
+uoe
+uoi
