@@ -1,0 +1,113 @@
+ 
+===> 052/2/colin-crain.pl <===
+draw:
+100, 5, 2, 1, 20, 50, 10, 200
+
+player 0 takes:
+	200
+		player total : 200 
+
+player 1 takes:
+	100
+		player total : 100 
+
+player 0 takes:
+	5
+		player total : 205 
+
+player 1 takes:
+	10
+		player total : 110 
+
+player 0 takes:
+	50
+		player total : 255 
+
+player 1 takes:
+	20
+		player total : 130 
+
+player 0 takes:
+	2
+		player total : 257 
+
+player 1 takes:
+	1
+		player total : 131 
+
+player 0 : 257
+player 1 : 131
+ 
+===> 052/2/dave-cross.pl <===
+Player 1 ...
+... takes £1
+... has £1
+Player 2 ...
+... takes 50p
+... has 50p
+Player 1 ...
+... takes 2p
+... has £1.02
+Player 2 ...
+... takes £2
+... has £2.5
+Player 1 ...
+... takes 20p
+... has £1.22
+Player 2 ...
+... takes 5p
+... has £2.55
+Player 1 ...
+... takes 10p
+... has £1.32
+Player 2 ...
+... takes 1p
+... has £2.56
+Player one has: £1.32
+Player two has: £2.56
+ 
+===> 052/2/jaldhar-h-vyas.pl <===
+Assuming both take the best coin...
+If the player goes first, the computer wins with £3.06.
+If the computer goes first, the player wins with £3.06.
+ 
+===> 052/2/javier-luque.pl <===
+Player 1 total: 132p
+Player 2 total: 256p
+ 
+===> 052/2/ryan-thompson.pl <===
+      Player0 v Player1       |  Wins0 - Wins1 
+--------------------------------------------------
+       ahead1 v ahead3    (W) |    938 - 1062  
+       ahead1 v ahead5    (W) |    920 - 1080  
+(W)    ahead1 v bozo          |   1766 - 234   
+(W)    ahead1 v greedy        |   1149 - 851   
+(W)    ahead1 v worst         |   2000 - 0     
+       ahead3 v ahead5    (W) |    986 - 1014  
+(W)    ahead3 v bozo          |   1765 - 235   
+(W)    ahead3 v greedy        |   1225 - 775   
+(W)    ahead3 v worst         |   1989 - 11    
+(W)    ahead5 v bozo          |   1760 - 240   
+(W)    ahead5 v greedy        |   1209 - 791   
+(W)    ahead5 v worst         |   1992 - 8     
+         bozo v greedy    (W) |    232 - 1768  
+(W)      bozo v worst         |   1729 - 271   
+(W)    greedy v worst         |   2000 - 0     
+
+Leaderboard:
+     ahead5:    7055 wins
+     ahead3:    7027 wins
+     ahead1:    6773 wins
+     greedy:    6185 wins
+       bozo:    2670 wins
+      worst:     290 wins
+ 
+===> 052/2/yet-ebreo.pl <===
+Original Array: 100 50 1 10 5 20 200 2
+
+Optimized Score: 306
+Optimized Moves: >> 100 >> 1 >> 5 >> 200 
+
+Random Score:    82
+Random Moves:    >> 50 >> 10 >> 2 >> 20 
+

@@ -1,0 +1,68 @@
+ 
+===> 052/2/colin-crain.raku <===
+draw:
+100, 20, 1, 10, 50, 200, 2, 5
+
+player 0 takes:   100 
+
+	 player total:   100 
+
+player 1 takes:   20 
+
+	 player total:   20 
+
+player 0 takes:   1 
+
+	 player total:   101 
+
+player 1 takes:   10 
+
+	 player total:   30 
+
+player 0 takes:   5 
+
+	 player total:   106 
+
+player 1 takes:   50 
+
+	 player total:   80 
+
+player 0 takes:   200 
+
+	 player total:   306 
+
+player 1 takes:   2 
+
+	 player total:   82 
+
+player 0 : 306
+player 1 : 82
+ 
+===> 052/2/jaldhar-h-vyas.raku <===
+Assuming both take the best coin...
+If the player goes first, the computer wins with £3.06.
+If the computer goes first, the player wins with £3.06.
+ 
+===> 052/2/javier-luque.raku <===
+Player 1 total: 132p
+Player 2 total: 256p
+ 
+===> 052/2/luca-ferrari.raku <===
+[1 0.5 0.01 0.05 0.2 2 0.02]
+Player wins with 1 2 0.2 0.05 = 3.25 vs 0.02 0.5 0.01 0 = 0.53
+Let's play another random turn
+Computer wins with 1 2 0.01 0 = 3.01 VS 0.02 0.5 0.2 0.05 = 0.77
+ 
+===> 052/2/mohammad-anwar.raku <===
+The lucky winner is Human.
+Human picked coins 50p, £2, 2p, 10p.
+Machine picked coins 5p, 20p, £1, 1p.
+ 
+===> 052/2/noud.raku <===
+Player wins: 306 cents.
+Computer wins: 82 cents.
+Player wins!
+ 
+===> 052/2/stuart-little.raku <===
+Best strategy for player 1 results in winning 3.06
+Player 1 wins
