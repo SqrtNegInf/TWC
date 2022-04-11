@@ -1,0 +1,79 @@
+ 
+===> 050/2/alicia-bielsa.raku <===
+List: 19,11,9,7,20,3,17,16,2,14,1
+Noble Integers: 7
+ 
+===> 050/2/arne-sommer.raku <===
+7
+ 
+===> 050/2/ben-davies.raku <===
+<== [19 11 9 7 20 3 17 16 2 14 1]
+==> (7)
+ 
+===> 050/2/colin-crain.raku <===
+[19 11 9 7 20 3 17 16 2 14 1]
+the integer 7 is Noble
+ 
+===> 050/2/jaldhar-h-vyas.raku <===
+7
+ 
+===> 050/2/javier-luque.raku <===
+List: [19, 11, 9, 7, 20, 3, 17, 16, 2, 14, 1]
+ 
+===> 050/2/kevin-colyer.raku <===
+ok 1 - Nobel int found in example
+ok 2 - Nobel int found
+ok 3 - Nobel int found
+ok 4 - Nobel int found
+1..4
+ 
+===> 050/2/laurent-rosenfeld.raku <===
+[2 6 1 3]
+3 is noble.
+ 
+===> 050/2/luca-ferrari.raku <===
+[7]
+ 
+===> 050/2/mark-anderson.raku <===
+1..7
+ok 1 - (1 .. 8) = 4
+ok 2 - (1, 6, 3, 2) = 2
+ok 3 - (3, 5, 5, 5, 5) = ()
+ok 4 - (4, 5, 5, 5, 5) = 4
+ok 5 - (1, 5, 5, 2, 3, 6) = 3
+ok 6 - (1, 5, 2, 6, 7, 4) = ()
+ok 7 - (1, 2, 4, 5, 6, 7, 8, 9, 22) = 5
+ 
+===> 050/2/markus-holzer.raku <===
+(2)
+(4)
+(2)
+(0)
+(7)
+ 
+===> 050/2/mohammad-anwar.raku <===
+Found noble number [7] in the list [19 11 9 7 20 3 17 16 2 14 1].
+ 
+===> 050/2/noud.raku <===
+[19 11 9 7 20 3 17 16 2 14 1]
+(7)
+ 
+===> 050/2/roger-bell-west.raku <===
+7
+ 
+===> 050/2/ruben-westerberg.raku <===
+Sorted input list: 19 11 9 7 20 3 17 16 2 14 1
+Noble Integers found: 7 2
+ 
+===> 050/2/ryan-thompson.raku <===
+(7)
+PWC test case: (2)
+ 
+===> 050/2/simon-proctor.raku <===
+7
+ 
+===> 050/2/stuart-little.raku <===
+(7)
+ 
+===> 050/2/ulrich-rieke.raku <===
+7
