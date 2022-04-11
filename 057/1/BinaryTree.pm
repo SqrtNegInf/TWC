@@ -1,6 +1,6 @@
 package BinaryTree;
 use Moose;
-use BinaryTreeNode;
+#use BinaryTreeNode;
 use Data::Dumper;
 
 has 'height' => (is => 'rw', isa => 'Int');
