@@ -9,7 +9,8 @@ sub MAIN( Int $from = 100, Int $to = 999,  Bool :$show-all = False )
 	print join ', ', gather for $from..$to -> $n 
 	{
 		my $is-colorful = is-colorful( $n );
-		take colorize( $n, $is-colorful ) 
+		#take colorize( $n, $is-colorful ) 
+		take $n
 			if $is-colorful or $show-all;
 	}
 }
