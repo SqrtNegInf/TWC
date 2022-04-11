@@ -1,0 +1,82 @@
+ 
+===> 051/1/alicia-bielsa.raku <===
+-10 + 2 + 8 = 0
+-7 + -3 + 10 = 0
+ 
+===> 051/1/arne-sommer.raku <===
+Triplet: -10, 2, 8 = 0
+Triplet: -7, -3, 10 = 0
+ 
+===> 051/1/colin-crain.raku <===
+-10, 2, 8
+-7, -3, 10
+ 
+===> 051/1/jaldhar-h-vyas.raku <===
+-7 2 8
+-3 2 4
+ 
+===> 051/1/javier-luque.raku <===
+-10 + 2 + 8 = 0
+-7 + -3 + 10 = 0
+ 
+===> 051/1/kevin-colyer.raku <===
+["-10 + 2 + 8 = 0", "-7 + -3 + 10 = 0"]
+ 
+===> 051/1/laurent-rosenfeld.raku <===
+(-10 2 8)
+(-7 -3 10)
+ 
+===> 051/1/luca-ferrari.raku <===
+Found 2 triplets that sum to 0:
+-10 2 8
+-7 -3 10
+ 
+===> 051/1/mark-anderson.raku <===
+((-10 2 8) (-7 -3 10))
+ 
+===> 051/1/markus-holzer.raku <===
+((-10 2 8) (-7 -3 10))
+ 
+===> 051/1/mohammad-anwar.raku <===
+[-10, 2, 8]
+[-10, 8, 2]
+[-7, -3, 10]
+[-7, 10, -3]
+[-3, -7, 10]
+[-3, 10, -7]
+[2, -10, 8]
+[2, 8, -10]
+[8, -10, 2]
+[8, 2, -10]
+[10, -7, -3]
+[10, -3, -7]
+ 
+===> 051/1/roger-bell-west.raku <===
+-10 + 2 + 8
+-7 + -3 + 10
+ 
+===> 051/1/ruben-westerberg.raku <===
+3 Sum triplet: -10+2+8=0
+3 Sum triplet: -7+-3+10=0
+ 
+===> 051/1/ryan-thompson.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ok 4 - 
+ok 5 - 
+ok 6 - 
+ok 7 - 
+ok 8 - 
+ok 9 - 
+ 
+===> 051/1/simon-proctor.raku <===
+-10,2,8
+-7,-3,10
+ 
+===> 051/1/stuart-little.raku <===
+((-10 2 8) (-7 -3 10))
+ 
+===> 051/1/ulrich-rieke.raku <===
+[-7 2 8]
+[-3 2 4]
