@@ -1,0 +1,73 @@
+ 
+===> 049/1/arne-sommer.raku <===
+Match: 110
+ 
+===> 049/1/colin-crain.raku <===
+110
+ 
+===> 049/1/jaldhar-h-vyas.raku <===
+55 x 2 = 110
+ 
+===> 049/1/javier-luque.raku <===
+Smallest multiple of 55 is 110
+ 
+===> 049/1/kevin-colyer.raku <===
+Smallest multiple of 55 that consists of 0's and 1's is 2 gives 110 (found in 6 iterations)
+ 
+===> 049/1/laurent-rosenfeld.raku <===
+10110001
+ 
+===> 049/1/luca-ferrari.raku <===
+Minor multiple of 55 made up by 0 and 1 only is 110
+ 
+===> 049/1/mark-anderson.raku <===
+110
+ 
+===> 049/1/markus-holzer.raku <===
+110
+ 
+===> 049/1/mohammad-anwar.raku <===
+110
+ 
+===> 049/1/roger-bell-west.raku <===
+110
+10110001
+ 
+===> 049/1/ruben-westerberg.raku <===
+Smallest multiple: 110
+ 
+===> 049/1/ryan-thompson.raku <===
+10
+111
+10
+1001
+11
+1001
+11101
+11001
+110101
+1101101
+111011
+111
+11111
+1101101
+10011
+100011
+11011111
+100101
+1101011
+10011
+10001
+10010011
+101011
+11010101
+11100001
+ 
+===> 049/1/simon-proctor.raku <===
+110
+ 
+===> 049/1/stuart-little.raku <===
+10110001
+ 
+===> 049/1/xkr47.raku <===
+(110)
