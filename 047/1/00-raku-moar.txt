@@ -1,0 +1,39 @@
+ 
+===> 047/1/arne-sommer.raku <===
+XI
+ 
+===> 047/1/jaldhar-h-vyas.raku <===
+XI
+ 
+===> 047/1/javier-luque.raku <===
+XI
+ 
+===> 047/1/kevin-colyer.raku <===
+XI
+ 
+===> 047/1/laurent-rosenfeld.raku <===
+V + VI = XI
+ 
+===> 047/1/luca-ferrari.raku <===
+XI
+ 
+===> 047/1/mark-anderson.raku <===
+XI
+ 
+===> 047/1/markus-holzer.raku <===
+XXX
+ 
+===> 047/1/noud.raku <===
+XI
+ 
+===> 047/1/ruben-westerberg.raku <===
+XI
+ 
+===> 047/1/simon-proctor.raku <===
+V + VI = XI
+ 
+===> 047/1/stuart-little.raku <===
+11
+ 
+===> 047/1/ulrich-rieke.raku <===
+XI

@@ -1,0 +1,57 @@
+ 
+===> 047/1/alicia-bielsa.pl <===
+Result:  XI
+ 
+===> 047/1/andrezgz.pl <===
+XI 
+===> 047/1/athanasius.pl <===
+V + VI = XI
+ 
+===> 047/1/cheok-yin-fung.pl <===
+XI
+ 
+===> 047/1/dave-cross.pl <===
+XI
+ 
+===> 047/1/dave-jacoby.pl <===
+ V + VI = XI 
+ 
+===> 047/1/duane-powell.pl <===
+XI (11)
+ 
+===> 047/1/duncan-c-white.pl <===
+result of V (5) + VI (6): XI (11)
+ 
+===> 047/1/e-choroba.pl <===
+XI
+ 
+===> 047/1/jaldhar-h-vyas.pl <===
+XI
+ 
+===> 047/1/javier-luque.pl <===
+XI
+ 
+===> 047/1/laurent-rosenfeld.pl <===
+V + VI = XI
+ 
+===> 047/1/lubos-kolouch.pl <===
+XI
+ok 1
+1..1
+ 
+===> 047/1/phillip-harris.pl <===
+XI
+ 
+===> 047/1/ruben-westerberg.pl <===
+XI 
+===> 047/1/ryan-thompson.pl <===
+XI
+ 
+===> 047/1/saiftynet.pl <===
+XI
+ 
+===> 047/1/user-person.pl <===
+XI
+ 
+===> 047/1/wanderdoc.pl <===
+XI
