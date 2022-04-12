@@ -1,0 +1,385 @@
+ 
+===> 049/2/arne-sommer.raku <===
+ 
+===> 049/2/jaldhar-h-vyas.raku <===
+3 => 7
+2 => 5
+1 => 3
+5
+2 => 5
+3 => 7
+1 => 3
+3
+1 => 3
+2 => 5
+3 => 7
+-1
+1 => 3
+2 => 5
+3 => 7
+4 => 9
+1 => 3
+2 => 5
+-1
+ 
+===> 049/2/javier-luque.raku <===
+Setting: (1, 3) [LRU] - 1 - [MRU]
+Setting: (2, 5) [LRU] - 1,2 - [MRU]
+Setting: (3, 7) [LRU] - 1,2,3 - [MRU]
+Getting: (2) Value: 5) [LRU] - 1,3,2 - [MRU]
+Getting: (1) Value: 3) [LRU] - 3,2,1 - [MRU]
+Getting: (4) - cache miss [LRU] - 3,2,1 - [MRU]
+Setting: (4, 9) [LRU] - 2,1,4 - [MRU]
+Getting: (3) - cache miss [LRU] - 2,1,4 - [MRU]
+ 
+===> 049/2/kevin-colyer.raku <===
+ok 1 - cache grows correctly
+ok 2 - get item 2
+ok 3 - peep at cache
+ok 4 - get first item
+ok 5 - peep at cache 2
+ok 6 - try to get cache item > capacity
+ok 7 - peep at cache
+ok 8 - get item 3 - but no longer in in cache
+1..8
+ 
+===> 049/2/laurent-rosenfeld.raku <===
+Order: 1
+Cache:
+1	3
+Order: 1 2
+Cache:
+1	3
+2	5
+Order: 1 2 3
+Cache:
+1	3
+2	5
+3	7
+Order: 1 3 2
+Cache:
+1	3
+2	5
+3	7
+should print  5: 5
+Order: 3 2 1
+Cache:
+1	3
+2	5
+3	7
+should print  3: 3
+should print -1: -1
+Order: 2 1 4
+Cache:
+1	3
+2	5
+4	9
+should print -1: -1
+ 
+===> 049/2/luca-ferrari.raku <===
+
+[Capacity: 3]
+[Least Recently Used] -->>>	1 (used 3 times)	2 (used 5 times)	3 (used 7 times) <<<-- [Most Recently Used]
+
+get( 2 ) = 5
+
+[Capacity: 3]
+[Least Recently Used] -->>>	1 (used 3 times)	3 (used 7 times)	2 (used 6 times) <<<-- [Most Recently Used]
+
+get( 1 ) = 3
+
+[Capacity: 3]
+[Least Recently Used] -->>>	3 (used 7 times)	2 (used 6 times)	1 (used 4 times) <<<-- [Most Recently Used]
+
+get( 4 ) = -1
+
+[Capacity: 3]
+[Least Recently Used] -->>>	3 (used 7 times)	2 (used 6 times)	1 (used 4 times) <<<-- [Most Recently Used]
+
+
+[Capacity: 3]
+[Least Recently Used] -->>>	2 (used 6 times)	1 (used 4 times)	4 (used 9 times) <<<-- [Most Recently Used]
+
+get( 3 ) = -1
+
+[Capacity: 3]
+[Least Recently Used] -->>>	2 (used 6 times)	1 (used 4 times)	4 (used 9 times) <<<-- [Most Recently Used]
+
+ 
+===> 049/2/roger-bell-west.raku <===
+5 = 5
+3 = 3
+-1 = -1
+-1 = -1
+ 
+===> 049/2/ruben-westerberg.raku <===
+Inital backing store  contents:
+7, 4, 2, 3, 9, 0, 9, 9, 9, 9
+
+
+Operation: 0
+
+Read Cache: 
+-Miss
+Read backing store
+Updating cache: 5 =>  0
+LRU keys: 5
+
+
+====================
+
+Operation: 1
+
+Write cache: 
+Updating cache: 13 =>  15
+LRU keys: 5, 13
+
+
+====================
+
+Operation: 2
+
+Read Cache: 
+-Miss
+Read backing store
+Updating cache: 2 =>  2
+LRU keys: 5, 13, 2
+
+
+====================
+
+Operation: 3
+
+Read Cache: 
+-Miss
+Read backing store
+LRU keys: 5, 13, 2
+
+
+====================
+
+Operation: 4
+
+Read Cache: 
+-Miss
+Read backing store
+LRU keys: 5, 13, 2
+
+
+====================
+
+Operation: 5
+
+Write cache: 
+Updating cache: 3 =>  1
+LRU keys: 5, 13, 2, 3
+
+
+====================
+
+Operation: 6
+
+Read Cache: 
+-Miss
+Read backing store
+Updating cache: 3 =>  3
+LRU keys: 5, 13, 2, 3
+
+
+====================
+
+Operation: 7
+
+Read Cache: 
+-Miss
+Read backing store
+Updating cache: 7 =>  9
+LRU keys: 5, 13, 2, 3, 7
+
+
+====================
+
+Operation: 8
+
+Read Cache: 
+-Miss
+Read backing store
+LRU keys: 5, 13, 2, 3, 7
+
+
+====================
+
+Operation: 9
+
+Write cache: 
+Updating cache: 2 =>  65
+LRU keys: 5, 13, 3, 7, 2
+
+
+====================
+
+Operation: 10
+
+Write cache: 
+Updating cache: 4 =>  37
+Cache overflow
+Write backing store
+LRU keys: 13, 3, 7, 2, 4
+
+
+====================
+
+Operation: 11
+
+Read Cache: 
+-Miss
+Read backing store
+Updating cache: 8 =>  9
+Cache overflow
+Write backing store
+LRU keys: 3, 7, 2, 4, 8
+
+
+====================
+
+Operation: 12
+
+Write cache: 
+Updating cache: 10 =>  49
+Cache overflow
+Write backing store
+LRU keys: 7, 2, 4, 8, 10
+
+
+====================
+
+Operation: 13
+
+Read Cache: 
+-Miss
+Read backing store
+LRU keys: 7, 2, 4, 8, 10
+
+
+====================
+
+Operation: 14
+
+Read Cache: 
+-Miss
+Read backing store
+LRU keys: 7, 2, 4, 8, 10
+
+
+====================
+
+Operation: 15
+
+Write cache: 
+Updating cache: 13 =>  20
+Cache overflow
+Write backing store
+LRU keys: 2, 4, 8, 10, 13
+
+
+====================
+
+Operation: 16
+
+Write cache: 
+Updating cache: 4 =>  98
+LRU keys: 2, 8, 10, 13, 4
+
+
+====================
+
+Operation: 17
+
+Write cache: 
+Updating cache: 16 =>  16
+Cache overflow
+Write backing store
+LRU keys: 8, 10, 13, 4, 16
+
+
+====================
+
+Operation: 18
+
+Read Cache: 
+-Miss
+Read backing store
+LRU keys: 8, 10, 13, 4, 16
+
+
+====================
+
+Operation: 19
+
+Write cache: 
+Updating cache: 14 =>  50
+Cache overflow
+Write backing store
+LRU keys: 10, 13, 4, 16, 14
+
+
+====================
+Resulting backing store before flush/sync of lru cache
+7, 4, 65, 3, 9, 0, 9, 9, 9, 9, N/A, N/A, N/A, 15
+
+Syncing cache
+Write backing store
+Write backing store
+Write backing store
+Write backing store
+Write backing store
+Resulting backing store after sync 
+7, 4, 65, 3, 98, 0, 9, 9, 9, 9, 49, N/A, N/A, 20, 50, N/A, 16
+
+ 
+===> 049/2/ryan-thompson.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ok 4 - 
+ok 5 - 
+ok 6 - 
+ok 7 - 
+ok 8 - 
+ok 9 - 
+ok 10 - 
+ok 11 - 
+ok 12 - 
+ok 13 - 
+ok 14 - 
+ok 15 - 
+ok 16 - 
+ok 17 - 
+ok 18 - 
+ok 19 - 
+ok 20 - 
+ok 21 - 
+ok 22 - 
+ok 23 - 
+ok 24 - 
+ok 25 - 
+ok 26 - 
+ok 27 - 
+ok 28 - 
+ok 29 - 
+ok 30 - 
+1..30
+ 
+===> 049/2/simon-proctor.raku <===
+ 
+===> 049/2/stuart-little.raku <===
+key: 1,   value: tkf
+key: 2,   value: iza
+key: 3,   value: zyy
+
+Setting new item at key 4..
+
+New cache:
+key: 2,   value: iza
+key: 3,   value: zyy
+key: 4,   value: ykj
