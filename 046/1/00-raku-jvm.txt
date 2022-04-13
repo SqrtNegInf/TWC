@@ -1,0 +1,70 @@
+ 
+===> 046/1/arne-sommer.raku <===
+Hello
+ 
+===> 046/1/javier-luque.raku <===
+PerlRaku
+ 
+===> 046/1/kevin-colyer.raku <===
+ok 1 - unscrambles ok
+ok 2 - unscrambles ok
+ 
+===> 046/1/laurent-rosenfeld.raku <===
+PerlRaku
+ 
+===> 046/1/luca-ferrari.raku <===
+The encoded message was 
+H x l 4 !
+c e - l o
+z e 6 l g
+H W l v R
+q 9 m # o
+resulted into the plain message 
+Hello
+The encoded message was 
+P + 2 l ! a t o
+1 e 8 0 R $ 4 u
+5 - r ] + a > /
+P x w l b 3 k \ 
+2 e 3 5 R 8 y u
+< ! r ^ ( ) k 0
+resulted into the plain message 
+PerlRaku
+
+Done!
+ 
+===> 046/1/mark-anderson.raku <===
+Hello
+PerlRaku
+ 
+===> 046/1/markus-holzer.raku <===
+PerlRaku
+ 
+===> 046/1/mohammad-anwar.raku <===
+PerlRaku
+ 
+===> 046/1/noud.raku <===
+Hello
+PerlRaku
+ 
+===> 046/1/roger-bell-west.raku <===
+PerlRaku
+ 
+===> 046/1/ruben-westerberg.raku <===
+PerlRaku
+ 
+===> 046/1/ryan-thompson.raku <===
+1..3
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ 
+===> 046/1/simon-proctor.raku <===
+PerlRaku
+ 
+===> 046/1/stuart-little.raku <===
+((H) (e) (l) (l) (o))
+((P) (e) (r) (l) (R) (a) (k) (u))
+ 
+===> 046/1/ulrich-rieke.raku <===
+PerlRaku

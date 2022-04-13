@@ -1,0 +1,86 @@
+ 
+===> 046/1/alicia-bielsa.pl <===
+Decrypted Message:PerlRaku
+ 
+===> 046/1/andrezgz.pl <===
+????????
+?????a??
+P??l?a??
+Pe?lRa?u
+PerlRaku
+ 
+===> 046/1/athanasius.pl <===
+
+Decrypted message: PerlRaku
+ 
+===> 046/1/cheok-yin-fung.pl <===
+PerlRaku 
+===> 046/1/cristian-heredia.pl <===
+The message is: PerlRaku 
+===> 046/1/dave-jacoby.pl <===
+Hello
+PerlRaku
+ 
+===> 046/1/duane-powell.pl <===
+Hello
+PerlRaku
+ 
+===> 046/1/e-choroba.pl <===
+Hello
+PerlRaku
+ 
+===> 046/1/jaldhar-h-vyas.pl <===
+PerlRaku
+ 
+===> 046/1/javier-luque.pl <===
+PerlRaku
+ 
+===> 046/1/laurent-rosenfeld.pl <===
+PerlRaku
+ 
+===> 046/1/mohammad-anwar.pl <===
+PerlRaku 
+===> 046/1/rage311.pl <===
+PerlRaku
+ 
+===> 046/1/ruben-westerberg.pl <===
+PerlRaku 
+===> 046/1/ryan-thompson.pl <===
+ok 1
+ok 2
+1..2
+ 
+===> 046/1/saiftynet.pl <===
+First set results   :-H e l l o
+Second set results  :-P e r l R a k u 
+
+Testing decoding of broken messages.  A message is sent repeatedly,
+responses collected and attempt is made to decode based on available
+results.  This continues until the results are stable.  This does not
+always work of course. Randomness is such...
+
+Ho !hgre-m/5.4!
+xiXtbe"e+<I>_i?
+`ibtMe9]PmathZ!
+Ty (:6@yumave>X
+Ei{VB^^e maq'<A
+.idIhW}h mNtrb!
+Ji;[hereSm,tR<!
+BK;CBe~e qktQyL
+7B tafr$ myxlUI
+^itt"%))JXa`ey!
+H"1<heS2wmmtSyZ
+ziVt!eVee)etey!
+
+Final result:- Hi there matey!
+ 
+===> 046/1/ulrich-rieke.pl <===
+PerlRaku
+ 
+===> 046/1/user-person.pl <===
+Hello
+PerlRaku
+ 
+===> 046/1/wanderdoc.pl <===
+PerlRaku
+PerlRaku
