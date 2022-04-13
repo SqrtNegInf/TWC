@@ -1,0 +1,205 @@
+ 
+===> 046/2/alicia-bielsa.pl <===
+Room 1 opened
+Room 4 opened
+Room 9 opened
+Room 16 opened
+Room 25 opened
+Room 36 opened
+Room 49 opened
+Room 64 opened
+Room 81 opened
+Room 100 opened
+Room 121 opened
+Room 144 opened
+Room 169 opened
+Room 196 opened
+Room 225 opened
+Room 256 opened
+Room 289 opened
+Room 324 opened
+Room 361 opened
+Room 400 opened
+Room 441 opened
+Room 484 opened
+ 
+===> 046/2/andrezgz.pl <===
+1,4,9,16,25,36,49,64,81,100,121,144,169,196,225,256,289,324,361,400,441,484 
+===> 046/2/athanasius.pl <===
+There are 22 rooms still open at the end (the square-numbered rooms):
+  1,   4,   9,  16,  25,  36,  49,  64,  81, 100, 121, 144, 169, 196, 225, 256, 289, 324, 361, 400, 441, 484
+ 
+===> 046/2/cheok-yin-fung.pl <===
+1
+4
+9
+16
+25
+36
+49
+64
+81
+100
+121
+144
+169
+196
+225
+256
+289
+324
+361
+400
+441
+484
+ 
+===> 046/2/colin-crain.pl <===
+room   1 is open
+room   4 is open
+room   9 is open
+room  16 is open
+room  25 is open
+room  36 is open
+room  49 is open
+room  64 is open
+room  81 is open
+room 100 is open
+room 121 is open
+room 144 is open
+room 169 is open
+room 196 is open
+room 225 is open
+room 256 is open
+room 289 is open
+room 324 is open
+room 361 is open
+room 400 is open
+room 441 is open
+room 484 is open
+ 
+===> 046/2/dave-jacoby.pl <===
+1 4 9 16 25 36 49 64 81 100 121 144 169 196 225 256 289 324 361 400 441 484
+ 
+===> 046/2/duane-powell.pl <===
+These doors are open after employee turn 500:
+1 4 9 16 25 36 49 64 81 100 121 144 169 196 225 256 289 324 361 400 441 484 
+ 
+===> 046/2/e-choroba.pl <===
+1 4 9 16 25 36 49 64 81 100 121 144 169 196 225 256 289 324 361 400 441 484
+ 
+===> 046/2/jaldhar-h-vyas.pl <===
+1 4 9 16 25 36 49 64 81 100 121 144 169 196 225 256 289 324 361 400 441 484 
+ 
+===> 046/2/javier-luque.pl <===
+Door: 1 is open.
+Door: 4 is open.
+Door: 9 is open.
+Door: 16 is open.
+Door: 25 is open.
+Door: 36 is open.
+Door: 49 is open.
+Door: 64 is open.
+Door: 81 is open.
+Door: 100 is open.
+Door: 121 is open.
+Door: 144 is open.
+Door: 169 is open.
+Door: 196 is open.
+Door: 225 is open.
+Door: 256 is open.
+Door: 289 is open.
+Door: 324 is open.
+Door: 361 is open.
+Door: 400 is open.
+Door: 441 is open.
+Door: 484 is open.
+ 
+===> 046/2/laurent-rosenfeld.pl <===
+1 0 0 1 0 0 0 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 0
+ 
+===> 046/2/mohammad-anwar.pl <===
+1
+4
+9
+16
+25
+36
+49
+64
+81
+100
+121
+144
+169
+196
+225
+256
+289
+324
+361
+400
+441
+484
+ 
+===> 046/2/rage311.pl <===
+Open: 1,4,9,16,25,36,49,64,81,100,121,144,169,196,225,256,289,324,361,400,441,484
+ 
+===> 046/2/roger-bell-west.pl <===
+1
+4
+9
+16
+25
+36
+49
+64
+81
+100
+121
+144
+169
+196
+225
+256
+289
+324
+361
+400
+441
+484
+ 
+===> 046/2/ruben-westerberg.pl <===
+10010000100000010000000010000000000100000000000010000000000000010000000000000000100000000000000000010000000000000000000010000000000000000000000100000000000000000000000010000000000000000000000000010000000000000000000000000000100000000000000000000000000000010000000000000000000000000000000010000000000000000000000000000000000100000000000000000000000000000000000010000000000000000000000000000000000000010000000000000000000000000000000000000000100000000000000000000000000000000000000000010000000000000000 
+===> 046/2/ryan-thompson.pl <===
+1 4 9 16 25 36 49 64 81 100 121 144 169 196 225 256 289 324 361 400 441 484
+1 4 9 16 25 36 49 64 81 100 121 144 169 196 225 256 289 324 361 400 441 484
+ 
+===> 046/2/saiftynet.pl <===
+ 1 4 9 16 25 36 49 64 81 100 121 144 169 196 225 256 289 324 361 400 441 484
+ 1 4 9 16 25 36 49 64 81 100 121 144 169 196 225 256 289 324 361 400 441 484 
+===> 046/2/ulrich-rieke.pl <===
+door 1 is open!
+door 4 is open!
+door 9 is open!
+door 16 is open!
+door 25 is open!
+door 36 is open!
+door 49 is open!
+door 64 is open!
+door 81 is open!
+door 100 is open!
+door 121 is open!
+door 144 is open!
+door 169 is open!
+door 196 is open!
+door 225 is open!
+door 256 is open!
+door 289 is open!
+door 324 is open!
+door 361 is open!
+door 400 is open!
+door 441 is open!
+door 484 is open!
+ 
+===> 046/2/user-person.pl <===
+1 4 9 16 25 36 49 64 81 100 121 144 169 196 225 256 289 324 361 400 441 484 

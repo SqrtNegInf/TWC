@@ -1,0 +1,244 @@
+ 
+===> 046/2/arne-sommer.raku <===
+Open rooms: 1,4,9,16,25,36,49,64,81,100,121,144,169,196,225,256,289,324,361,400,441,484.
+ 
+===> 046/2/colin-crain.raku <===
+room   1 is open
+room   4 is open
+room   9 is open
+room  16 is open
+room  25 is open
+room  36 is open
+room  49 is open
+room  64 is open
+room  81 is open
+room 100 is open
+room 121 is open
+room 144 is open
+room 169 is open
+room 196 is open
+room 225 is open
+room 256 is open
+room 289 is open
+room 324 is open
+room 361 is open
+room 400 is open
+room 441 is open
+room 484 is open
+ 
+===> 046/2/jaldhar-h-vyas.raku <===
+1 4 9 16 25 36 49 64 81 100 121 144 169 196 225 256 289 324 361 400 441 484 
+ 
+===> 046/2/javier-luque.raku <===
+Door: 1 is open.
+Door: 4 is open.
+Door: 9 is open.
+Door: 16 is open.
+Door: 25 is open.
+Door: 36 is open.
+Door: 49 is open.
+Door: 64 is open.
+Door: 81 is open.
+Door: 100 is open.
+Door: 121 is open.
+Door: 144 is open.
+Door: 169 is open.
+Door: 196 is open.
+Door: 225 is open.
+Door: 256 is open.
+Door: 289 is open.
+Door: 324 is open.
+Door: 361 is open.
+Door: 400 is open.
+Door: 441 is open.
+Door: 484 is open.
+ 
+===> 046/2/kevin-colyer.raku <===
+22
+ 
+===> 046/2/laurent-rosenfeld.raku <===
+1 0 0 1 0 0 0 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 0
+ 
+===> 046/2/luca-ferrari.raku <===
+Room 1 is Open
+Room 4 is Open
+Room 9 is Open
+Room 16 is Open
+Room 25 is Open
+Room 36 is Open
+Room 49 is Open
+Room 64 is Open
+Room 81 is Open
+Room 100 is Open
+Room 121 is Open
+Room 144 is Open
+Room 169 is Open
+Room 196 is Open
+Room 225 is Open
+Room 256 is Open
+Room 289 is Open
+Room 324 is Open
+Room 361 is Open
+Room 400 is Open
+Room 441 is Open
+Room 484 is Open
+ 
+===> 046/2/mark-anderson.raku <===
+1
+4
+9
+16
+25
+36
+49
+64
+81
+100
+121
+144
+169
+196
+225
+256
+289
+324
+361
+400
+441
+484
+ 
+===> 046/2/markus-holzer.raku <===
+Open rooms: (1 4 9 16 25 36 49 64 81 100 121 144 169 196 225 256 289 324 361 400 441 484)
+Open rooms: (1 4 9 16 25 36 49 64 81 100 121 144 169 196 225 256 289 324 361 400 441 484)
+Open rooms: (1 4 9 16 25 36 49 64 81 100 121 144 169 196 225 256 289 324 361 400 441 484)
+ 
+===> 046/2/mohammad-anwar.raku <===
+1
+4
+9
+16
+25
+36
+49
+64
+81
+100
+121
+144
+169
+196
+225
+256
+289
+324
+361
+400
+441
+484
+ 
+===> 046/2/noud.raku <===
+Open rooms:
+1
+4
+9
+16
+25
+36
+49
+64
+81
+100
+121
+144
+169
+196
+225
+256
+289
+324
+361
+400
+441
+484
+ 
+===> 046/2/roger-bell-west.raku <===
+1
+4
+9
+16
+25
+36
+49
+64
+81
+100
+121
+144
+169
+196
+225
+256
+289
+324
+361
+400
+441
+484
+ 
+===> 046/2/ruben-westerberg.raku <===
+1 0 0 1 0 0 0 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 
+===> 046/2/ryan-thompson.raku <===
+(1 4 9 16 25 36 49 64 81 100 121 144 169 196 225 256 289 324 361 400 441 484)
+(1 4 9 16 25 36 49 64 81 100 121 144 169 196 225 256 289 324 361 400 441 484)
+ 
+===> 046/2/simon-proctor.raku <===
+1 is Open
+4 is Open
+9 is Open
+16 is Open
+25 is Open
+36 is Open
+49 is Open
+64 is Open
+81 is Open
+100 is Open
+121 is Open
+144 is Open
+169 is Open
+196 is Open
+225 is Open
+256 is Open
+289 is Open
+324 is Open
+361 is Open
+400 is Open
+441 is Open
+484 is Open
+ 
+===> 046/2/stuart-little.raku <===
+(1 4 9 16 25 36 49 64 81 100 121 144 169 196 225 256 289 324 361 400 441 484)
+ 
+===> 046/2/ulrich-rieke.raku <===
+door 1 is open!
+door 4 is open!
+door 9 is open!
+door 16 is open!
+door 25 is open!
+door 36 is open!
+door 49 is open!
+door 64 is open!
+door 81 is open!
+door 100 is open!
+door 121 is open!
+door 144 is open!
+door 169 is open!
+door 196 is open!
+door 225 is open!
+door 256 is open!
+door 289 is open!
+door 324 is open!
+door 361 is open!
+door 400 is open!
+door 441 is open!
+door 484 is open!
