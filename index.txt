@@ -4,14 +4,14 @@ Challenge titles and Rosetta-code correspondences (exact, and otherwise)
 040-2
 041-1
 041-2
-042-1
-042-2
-043-1
-043-2
-044-1
-044-2
-045-1
-045-2
+042-1 Octal Numbers                         C/Count_in_octal
+042-2 Balanced Brackets                     B/Balanced_brackets
+043-1 Olympic Rings                         0/4-rings_or_4-squares_puzzle
+043-2 Self-descriptive Numbers              S/Self-describing_numbers
+044-1 Only 100, please
+044-2 Make it $200
+045-1 Square Secret Code
+045-2 Source Dump                           Q/Quine
 046-1 Cryptic Message
 046-2 Is the Room Open                      0/100_doors
 047-1 Roman Calculator                      R/Roman_numerals_Decode
@@ -249,8 +249,29 @@ Challenge titles and Rosetta-code correspondences (exact, and otherwise)
 157-2 Brazilian Number                      B/Brazilian_numbers
 158-1 Additive Primes                       A/Additive_primes
 158-2 First Series Cuban Primes             C/Cuban_primes
-159-1
-159-2
+159-1 Farey Sequence                        F/Farey_sequence
+159-2 Moebius Number                        M/Moebius_function
+
+160-1 Four is Magic                         F/Four_is_magic
+160-2 Equilibrium Index
+161-1
+161-2
+162-1
+162-2
+163-1
+163-2
+164-1
+164-2
+165-1
+165-2
+166-1
+166-2
+167-1
+167-2
+168-1
+168-2
+169-1
+169-2
 
 =====
 
@@ -340,26 +361,6 @@ raku -e '.say for ^2 X~ ^10 X~ ^10 X~ <-1 -2>'
 
 =====
 
-160-1
-160-2
-161-1
-161-2
-162-1
-162-2
-163-1
-163-2
-164-1
-164-2
-165-1
-165-2
-166-1
-166-2
-167-1
-167-2
-168-1
-168-2
-169-1
-169-2
 170-1
 170-2
 171-1
