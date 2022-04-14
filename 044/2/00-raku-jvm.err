@@ -1,0 +1,7 @@
+[31m===[0mSORRY![31m===[0m Error while compiling /Users/dhoekman/PWC/044/2/noud.raku
+An exception occurred while evaluating a BEGIN
+at /Users/dhoekman/PWC/044/2/noud.raku:3
+Exception details:
+  not ok - disabled: JVM cannot need recursion, get java.lang.StackOverflowError
+    in code  at noud.raku line 3
+

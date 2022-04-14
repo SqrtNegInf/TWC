@@ -1,0 +1,79 @@
+ 
+===> 044/2/arne-sommer.raku <===
+Match: 200 at 9 steps (path: *+***+***).
+ 
+===> 044/2/colin-crain.raku <===
+1, 2, 3, 6, 12, 24, 25, 50, 100, 200
+ 
+===> 044/2/jaldhar-h-vyas.raku <===
+double, add one, double, double, double, add one, double, double, double
+ 
+===> 044/2/javier-luque.raku <===
+Found smallest solution in 10 steps: dadddaddd
+ 
+===> 044/2/jokraft.raku <===
+9
+ 
+===> 044/2/kevin-colyer.raku <===
+1x2+1x2x2x2+1x2x2x2=200 in 9 moves
+ 
+===> 044/2/laurent-rosenfeld.raku <===
+Best solution: 1 +1 +1 *2 *2 *2 *2 *2 *2 +1 +1 +1 +1 +1 +1 +1 +1
+ 
+===> 044/2/luca-ferrari.raku <===
+Start with one buck,
+ then double to get 2 $,
+ then add one buck to get 3 $,
+ then double to get 6 $,
+ then double to get 12 $,
+ then double to get 24 $,
+ then add one buck to get 25 $,
+ then double to get 50 $,
+ then double to get 100 $,
+ then double to get 200 $
+You need 9 operations to get from 1 $ to 200 $!
+ 
+===> 044/2/markus-holzer.raku <===
+1
+2
+3
+6
+12
+24
+25
+50
+100
+200
+ 
+===> 044/2/noud.raku <===
+In 4 moves we can get 10 dollar:
+2*(1+(2*(1+(1))))=10
+In 9 moves we can get 200 dollar:
+2*(2*(2*(1+(2*(2*(2*(1+(1+(1)))))))))=200
+ 
+===> 044/2/roger-bell-west.raku <===
+double, add 1, double, double, double, add 1, double, double, double
+ 
+===> 044/2/ruben-westerberg.raku <===
+Start: 		  1
+Move:	Double:	  2
+Move:	Add 1:	  3
+Move:	Double:	  6
+Move:	Double:	 12
+Move:	Double:	 24
+Move:	Add 1:	 25
+Move:	Double:	 50
+Move:	Double:	100
+Move:	Double:	200
+ 
+===> 044/2/ryan-thompson.raku <===
+[1 2 3 6 12 24 25 50 100 200]
+ 
+===> 044/2/simon-proctor.raku <===
+((((1 * 2) + 1) * 2 * 2 * 2) + 1) * 2 * 2 * 2 == 200
+ 
+===> 044/2/stuart-little.raku <===
+200 /2 /2 /2 -1 /2 /2 /2 -1 /2 =1
+ 
+===> 044/2/ulrich-rieke.raku <===
+The minimum number of moves is 16!
