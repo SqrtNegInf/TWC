@@ -1,0 +1,69 @@
+ 
+===> 045/1/arne-sommer.raku <===
+tbjrd hruto eomhg qwpe unsl ifoa covz kxey 
+ 
+===> 045/1/burkhard-nickels.raku <===
+Original: The quick brown fox jumps over the lazy dog
+Coded   : tbjrd hruto eomhg qwpe unsl ifoa covz kxey 
+ 
+===> 045/1/colin-crain.raku <===
+tbjrd hruto eomhg qwpe unsl ifoa covz kxey
+ 
+===> 045/1/jaldhar-h-vyas.raku <===
+tbjrd hruto eomhg qwpe unsl ifoa covz kxey 
+ 
+===> 045/1/javier-luque.raku <===
+Tbjrd hruto eomhg qwpe unsl ifoa covz kxey
+ 
+===> 045/1/jokraft.raku <===
+Tbjrd hruto eomhg qwpe unsl ifoa covz kxey 
+ 
+===> 045/1/kevin-colyer.raku <===
+ok 1 - Encodes correctly
+1..1
+ 
+===> 045/1/laurent-rosenfeld.raku <===
+ Tbjrd hruto eomhg qwpe unsl ifoa covz kxey 
+===> 045/1/luca-ferrari.raku <===
+Your original message is 
+	The quick brown fox jumps over the lazy dog
+ and encoded results:
+
+t h e q u i c k
+b r o w n f o x
+j u m p s o v e
+r t h e l a z y
+d o g
+
+that leads to
+
+tbjrdhrutoeomhgqwpeunslifoacovzkxey
+
+All done!
+ 
+===> 045/1/mark-anderson.raku <===
+tbjrd hruto eomhg qwpe unsl ifoa covz kxey
+ 
+===> 045/1/markus-holzer.raku <===
+ok 1 - correctly encrypted
+ 
+===> 045/1/noud.raku <===
+tbjrd hruto eomhg qwpe unsl ifoa covz kxey
+ 
+===> 045/1/roger-bell-west.raku <===
+Tkfshd h o eo ebxo g  r vl qojea uwurz inm y c pt 
+ 
+===> 045/1/ruben-westerberg.raku <===
+Tbjr hrut eomh qwpe unsl ifoa covz kxey
+ 
+===> 045/1/ryan-thompson.raku <===
+tbjrd hruto eomhg qwpe unsl ifoa covz kxey
+ 
+===> 045/1/simon-proctor.raku <===
+tbjrd hruto eomhg qwpe unsl ifoa covz kxey
+ 
+===> 045/1/stuart-little.raku <===
+tbjrd hruto eomhg qwpe unsl ifoa covz kxey
+ 
+===> 045/1/ulrich-rieke.raku <===
+[Tbjrd hruto eomhg qwpe unsl ifoa covz kxey]

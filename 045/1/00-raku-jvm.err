@@ -1,0 +1,20 @@
+Use of uninitialized value @c of type Any in string context.
+Methods .^name, .raku, .gist, or .say can be used to stringify it to something meaningful.
+  in sub squareSecretEncode at kevin-colyer.raku line 40
+Use of uninitialized value @c of type Any in string context.
+Methods .^name, .raku, .gist, or .say can be used to stringify it to something meaningful.
+  in sub squareSecretEncode at kevin-colyer.raku line 40
+Use of uninitialized value @c of type Any in string context.
+Methods .^name, .raku, .gist, or .say can be used to stringify it to something meaningful.
+  in sub squareSecretEncode at kevin-colyer.raku line 40
+Use of uninitialized value @c of type Any in string context.
+Methods .^name, .raku, .gist, or .say can be used to stringify it to something meaningful.
+  in sub squareSecretEncode at kevin-colyer.raku line 40
+Use of uninitialized value @c of type Any in string context.
+Methods .^name, .raku, .gist, or .say can be used to stringify it to something meaningful.
+  in sub squareSecretEncode at kevin-colyer.raku line 40
+# Failed test 'Encodes correctly'
+# at kevin-colyer.raku line 11
+# expected: 'tbjrd hruto eomhg qwpe unsl ifoa covz kxey'
+#      got: 'tbjrd hruto eomhg qwpe nsl foa ovz xey '
+# You failed 1 test of 1

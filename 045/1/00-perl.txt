@@ -1,0 +1,75 @@
+ 
+===> 045/1/adam-russell.pl <===
+tbjrd hruto eomhg qwpe unsl ifoa covz kxey 
+ 
+===> 045/1/alicia-bielsa.pl <===
+Input: 'The quick brown fox jumps over the lazy dog'
+
+>>>>>>>>>>>>>>>>Encoded message: Tbjrd hruto eomhg qwpe unsl ifoa covz kxey
+ 
+===> 045/1/andrezgz.pl <===
+tbjrd hruto eomhg qwpe unsl ifoa covz kxey 
+===> 045/1/arne-sommer.pl <===
+tbjrd hruto eomhg qwpe unsl ifoa covz kxey 
+ 
+===> 045/1/athanasius.pl <===
+Original message:
+>Thequickbrownfoxjumpsoverthelazydog<
+
+Encoded message:
+>Tbjrd hruto eomhg qwpe unsl ifoa covz kxey<
+
+Decoded message:
+>Thequickbrownfoxjumpsoverthelazydog<
+ 
+===> 045/1/cheok-yin-fung.pl <===
+tbjrd hruto eomhg qwpe unsl ifoa covz kxey   
+===> 045/1/colin-crain.pl <===
+tbjrd hruto eomhg qwpe unsl ifoa covz kxey
+ 
+===> 045/1/dave-cross.pl <===
+Tbjrd hruto eomhg qwpe unsl ifoa covz kxey 
+ 
+===> 045/1/dave-jacoby.pl <===
+tbjrd hruto eomhg qwpe unsl ifoa covz kxey
+ 
+===> 045/1/duane-powell.pl <===
+Tbjrd hruto eomhg qwpe unsl ifoa covz kxey 
+ 
+===> 045/1/duncan-c-white.pl <===
+Tbjrd hruto eomhg qwpe unsl ifoa covz kxey
+ 
+===> 045/1/e-choroba.pl <===
+1..1
+ok 1 - encode
+ 
+===> 045/1/jaldhar-h-vyas.pl <===
+tbjrd hruto eomhg qwpe unsl ifoa covz kxey
+ 
+===> 045/1/javier-luque.pl <===
+Tbjrd hruto eomhg qwpe unsl ifoa covz kxey
+ 
+===> 045/1/laurent-rosenfeld.pl <===
+Tbjrd hruto eomhg qwpe unsl ifoa covz kxey  
+===> 045/1/maxim-kolodyazhny.pl <===
+tbjrd hruto eomhg qwpe unsl ifoa covz kxey 
+===> 045/1/ndelucca.pl <===
+tbjrd hruto eomhg qwpe unsl ifoa covz kxey  
+ 
+===> 045/1/roger-bell-west.pl <===
+tqbfjotldhurouvhaoeioxmeezg
+ 
+===> 045/1/ruben-westerberg.pl <===
+Tbjrd hruto eomhg qwpe unsl ifoa covz kxey 
+===> 045/1/ryan-thompson.pl <===
+tbjrd hruto eomhg qwpe unsl ifoa covz kxey
+ 
+===> 045/1/saiftynet.pl <===
+Tbjrd hruto eomhg qwpe unsl ifoa covz kxey 
+ 
+===> 045/1/ulrich-rieke.pl <===
+Tbjrd hruto eomhg qwpe unsl ifoa covz kxey
+ 
+===> 045/1/wanderdoc.pl <===
+tbjrd hruto eomhg qwpe unsl ifoa covz kxey
+thequickbrownfoxjumpsoverthelazydog
