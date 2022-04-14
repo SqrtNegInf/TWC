@@ -1,0 +1,171 @@
+ 
+===> 045/2/arne-sommer.raku <===
+#!/usr/bin/env raku
+
+print $?FILE.IO.slurp;
+ 
+===> 045/2/burkhard-nickels.raku <===
+#!/usr/bin/env raku
+
+use strict;
+
+# print "ch-2.p6 - PWC #45 Task #2: Source Dumper\n";
+# print $*PROGRAM, ", ", $*PROGRAM-NAME, "\n";
+
+my $fh = open :r, $*PROGRAM;
+
+my $str;
+while ( ! $fh.eof; ) { 
+	$str = $fh.get;
+	$str.print; print "\n"; 
+}
+$fh.close;
+
+ 
+===> 045/2/colin-crain.raku <===
+#!/usr/bin/env raku
+use v6.d;
+
+#
+#       source_dumper.raku
+#
+#       TASK #2
+#       Source Dumper
+#             Write a script that dumps its own source code. For example, say, the
+#             script name is ch-2.pl then the following command should returns
+#             nothing.
+#
+#                 $ perl ch-2.pl | diff - ch-2.pl
+
+#
+#       2020 colin crain
+## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ##
+
+sub MAIN () {
+
+    print $*PROGRAM.open.slurp.gist;
+
+}
+
+
+ 
+===> 045/2/jaldhar-h-vyas.raku <===
+#!/usr/bin/env raku
+
+open(:r, $*PROGRAM).slurp.print; 
+===> 045/2/javier-luque.raku <===
+#!/usr/bin/env raku
+# Test: perl6 ch-2.p6 | diff - ch-2.p6
+use v6.d;
+
+sub MAIN () {
+    for $*PROGRAM-NAME.IO.lines -> $line {
+        say $line;
+    }
+}
+ 
+===> 045/2/jokraft.raku <===
+#!/usr/bin/env raku
+IO::Path.new($?FILE).open().readchars().print();
+ 
+===> 045/2/kevin-colyer.raku <===
+#!/usr/bin/env raku
+use v6;
+
+=begin pod
+
+TASK #2
+Source Dumper
+Write a script that dumps its own source code. For example, say, the script name is ch-2.pl then the following command should returns nothing.
+
+$ perl ch-2.pl | diff - ch-2.pl
+
+
+=end pod
+
+# $*PROGRAM has the IO.Path object of the program. I use print as this keeps the same number
+# of new lines as in the source (.say would add an extra one)
+slurp($*PROGRAM).print;
+
+ 
+===> 045/2/laurent-rosenfeld.raku <===
+#!/usr/bin/env raku
+use v6;
+
+$?FILE.IO.slurp.say;
+
+ 
+===> 045/2/luca-ferrari.raku <===
+#!/usr/bin/env raku
+
+# Perl Weekly Challenge 45
+#
+# see <https://perlweeklychallenge.org/blog/perl-weekly-challenge-045/>
+#
+# Task 2
+# Write a script that dumps its own source code.
+# For example, say, the script name is ch-2.pl
+# then the following command should returns nothing:
+#
+# $ perl ch-2.pl | diff - ch-2.pl
+
+
+
+sub MAIN {
+    .say for $*PROGRAM.lines;
+}
+ 
+===> 045/2/markus-holzer.raku <===
+#!/usr/bin/env raku
+$*PROGRAM-NAME.IO.slurp.say;
+ 
+===> 045/2/noud.raku <===
+#!/usr/bin/env raku
+# Source Dumper
+#
+# Write a script that dumps its own source code. For example, say, the script
+# name is ch-2.pl then the following command should returns nothing.
+#
+# $ perl ch-2.pl | diff - ch-2.pl
+
+$?FILE.IO.slurp.trim.say;
+ 
+===> 045/2/roger-bell-west.raku <===
+#!/usr/bin/env raku
+
+my $f=open :r,$*PROGRAM-NAME;
+for $f.lines {
+  say $_;
+}
+ 
+===> 045/2/ruben-westerberg.raku <===
+#!/usr/bin/env raku
+$*PROGRAM.IO.lines.map: *.put;
+ 
+===> 045/2/ryan-thompson.raku <===
+#!/usr/bin/env raku
+
+# ch-2.p6 - Not a quine
+#
+# Ryan Thompson <rjt@cpan.org>
+
+$*PROGRAM.lines».say
+ 
+===> 045/2/simon-proctor.raku <===
+#!/usr/bin/env raku
+
+$*PROGRAM.slurp.print;
+ 
+===> 045/2/stuart-little.raku <===
+#!/usr/bin/env raku
+use v6;
+
+print $*PROGRAM-NAME.IO.slurp
+ 
+===> 045/2/ulrich-rieke.raku <===
+#!/usr/bin/env raku
+use v6 ;
+
+my $fh = open $?FILE , :r ;
+.say for $fh.lines ;
+close $fh ;

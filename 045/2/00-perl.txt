@@ -1,0 +1,388 @@
+ 
+===> 045/2/adam-russell.pl <===
+print<<''x2,"\n"
+print<<''x2,"\n"
+
+ 
+===> 045/2/alicia-bielsa.pl <===
+#!/usr/bin/env perl
+#Write a script that dumps its own source code. 
+#For example, say, the script name is ch-2.pl then the following command should returns nothing.
+#perl ch-2.pl | diff - ch-2.pl
+
+use strict;
+use warnings;
+
+open (my $fh_file , '<', $0 ) or die "Error reading file";
+while (my $line = <$fh_file>){
+     print $line;
+}
+close ($fh_file); 
+===> 045/2/andrezgz.pl <===
+#!/usr/bin/env perl
+
+# https://perlweeklychallenge.org/blog/perl-weekly-challenge-045/
+# Task #2
+# Source Dumper
+# Write a script that dumps its own source code.
+# For example, say, the script name is ch-2.pl then the following command should returns nothing.
+#
+# $ perl ch-2.pl | diff - ch-2.pl
+
+use strict;
+use warnings;
+use v5.10;
+
+# This is my quine!
+
+my @s = (
+q&&,
+q&say <<'EOT';&,
+q&#!/usr/bin/perl&,
+q&&,
+q&# https://perlweeklychallenge.org/blog/perl-weekly-challenge-045/&,
+q&# Task #2&,
+q&# Source Dumper&,
+q&# Write a script that dumps its own source code.&,
+q&# For example, say, the script name is ch-2.pl then the following command should returns nothing.&,
+q&#&,
+q&# $ perl ch-2.pl | diff - ch-2.pl&,
+q&&,
+q&use strict;&,
+q&use warnings;&,
+q&use v5.10;&,
+q&&,
+q&# This is my quine!&,
+q&EOT&,
+q&&,
+q&say 'my @s = (';&,
+q&foreach my $line (@s) {&,
+q&    say 'q'.chr(38).$line.chr(38).','&,
+q&}&,
+q&say ');';&,
+q&&,
+q&foreach my $line (@s) {&,
+q&    say $line&,
+q&}&,
+q&&,
+q&say <<'EOT';&,
+q&__END__&,
+q&&,
+q&./ch-2.pl | diff - ch-2.pl&,
+q&EOT&,
+q&&,
+);
+
+say <<'EOT';
+#!/usr/bin/perl
+
+# https://perlweeklychallenge.org/blog/perl-weekly-challenge-045/
+# Task #2
+# Source Dumper
+# Write a script that dumps its own source code.
+# For example, say, the script name is ch-2.pl then the following command should returns nothing.
+#
+# $ perl ch-2.pl | diff - ch-2.pl
+
+use strict;
+use warnings;
+use v5.10;
+
+# This is my quine!
+EOT
+
+say 'my @s = (';
+foreach my $line (@s) {
+    say 'q'.chr(38).$line.chr(38).','
+}
+say ');';
+
+foreach my $line (@s) {
+    say $line
+}
+
+say <<'EOT';
+__END__
+
+./ch-2.pl | diff - ch-2.pl
+EOT
+
+__END__
+
+./ch-2.pl | diff - ch-2.pl
+
+ 
+===> 045/2/arne-sommer.pl <===
+#!/usr/bin/env perl
+
+use strict;
+use warnings;
+
+my $file = $0;
+
+if (open(my $fh, $file))
+{
+  while (my $row = <$fh>)
+  {
+    print $row;
+  }
+  close $fh;
+}
+ 
+===> 045/2/colin-crain.pl <===
+#!/usr/bin/env perl
+#
+#       source_dumper.pl
+#
+#       PWC 45 TASK #2
+#       Source Dumper
+#             Write a script that dumps its own source code. For example, say,
+#             the script name is ch-2.pl then the following command should
+#             returns nothing.
+#
+#                 $ perl ch-2.pl | diff - ch-2.pl
+#
+#       method: Perl, being an interpreted language, needs to know internally
+#           the script file that it is being asked to execute. Thus we need only
+#           find it, open it, read and print it.
+
+#       2020 colin crain
+## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ##
+
+
+
+use warnings;
+use strict;
+use feature ":5.26";
+
+## ## ## ## ## MAIN
+
+local $/ = undef;
+open (my $fh, "<", $0) or die "can't open this script thats running this code to read: $0 : $!";
+print <$fh>;
+
+__DATA__
+
+even prints the data section, see?
+
+
+ 
+===> 045/2/dave-cross.pl <===
+#!/usr/bin/env perl
+
+use strict;
+use warnings;
+
+seek DATA, 0, 0;
+print while <DATA>;
+__END__
+ 
+===> 045/2/dave-jacoby.pl <===
+#!/usr/bin/env perl
+
+use strict;
+use warnings;
+
+use Cwd qw{abs_path};
+
+my $file = abs_path($0);
+if ( -f $file && open my $fh, '<', $file ) {
+    print join '', <$fh>;
+}
+ 
+===> 045/2/duane-powell.pl <===
+#!/usr/bin/env perl
+use warnings;
+use strict;
+
+# https://perlweeklychallenge.org/blog/perl-weekly-challenge-045/ Task #2
+
+system("cat $0");
+
+__END__
+
+./perl ch-2.pl
+#!/usr/bin/env perl
+use warnings;
+use strict;
+system("cat $0");
+
+perl ch-2.pl | diff - ch-2.pl
+
+ 
+===> 045/2/duncan-c-white.pl <===
+#!/usr/bin/env perl
+#
+# Task #2: "Source Dumper:
+# 
+# Write a script that dumps its own source code. For example, say, the
+# script name is ch-2.pl then the following command should returns nothing.
+# 
+# $ perl ch-2.pl | diff - ch-2.pl
+# "
+# 
+# My notes: trivial if we're allowed to use $0.
+# 
+
+use feature 'say';
+use strict;
+use warnings;
+
+
+open( my $fh, '<', $0 ) || die "can't read $0\n";
+while( <$fh> )
+{
+	chomp;
+	say;
+}
+ 
+===> 045/2/e-choroba.pl <===
+$_=q!print'$_=q*'.$_.'*;';s/\52/\41/g;print!;print'$_=q!'.$_.'!;';s/\52/\41/g;print 
+===> 045/2/jaldhar-h-vyas.pl <===
+#!/usr/bin/env perl
+use warnings;
+use strict;
+use 5.010;
+use English qw/ -no_match_vars /;
+
+open my $fh, '<', $PROGRAM_NAME or die "$OS_ERROR\n";
+local $RS = undef;
+print <$fh>;
+ 
+===> 045/2/javier-luque.pl <===
+#!/usr/bin/env perl
+# test: perl ch-2.pl | diff - ch-2.pl
+use strict;
+use warnings;
+use feature qw /say/;
+
+open(my $fh, '<:encoding(UTF-8)', $0) || die "$@";
+while (my $line = <$fh>) {
+    print $line;
+};
+ 
+===> 045/2/laurent-rosenfeld.pl <===
+#!/usr/bin/env perl
+use strict;
+use warnings;
+
+my $progr = "./$0";
+open my $IN, "<", $progr or die "Unable to open $progr $!";
+print while <$IN>;
+close $IN;
+ 
+===> 045/2/maxim-kolodyazhny.pl <===
+#!/usr/bin/env perl
+
+use strict;
+use warnings;
+
+open 0 and print <0>;
+ 
+===> 045/2/ndelucca.pl <===
+#!/usr/bin/env perl
+# Source Dumper
+
+# Write a script that dumps its own source code.
+
+# For example, say, the script name is ch-2.pl then the following command should returns nothing.
+
+# $ perl ch-2.pl | diff - ch-2.pl
+
+use strict;
+use warnings;
+
+# We can add whatever we want, anywhere
+
+open(my $fh, "<", __FILE__) || die "Couldn't open $0 for reading because: $! ";
+
+print <$fh>;
+
+close($fh);
+
+# perl ch-2.pl | diff - ch-2.pl
+#
+ 
+===> 045/2/rage311.pl <===
+#!/usr/bin/env perl
+
+use 5.030;
+use strict;
+use warnings;
+
+die "Unable to open file: $!" unless
+  open my $fh, '<', $0;
+print while <$fh>;
+
+__DATA__
+
+TASK #2
+Source Dumper
+
+Write a script that dumps its own source code. For example, say, the script name is ch-2.pl then the following command should returns nothing.
+
+$ perl ch-2.pl | diff - ch-2.pl
+ 
+===> 045/2/roger-bell-west.pl <===
+#!/usr/bin/env perl
+
+use strict;
+use warnings;
+
+open F,$0;
+print <F>;
+ 
+===> 045/2/ruben-westerberg.pl <===
+#!/usr/bin/env perl
+use strict;
+use warnings;
+open my $f,"<",$0;
+print $_ for ( <$f> );
+ 
+===> 045/2/ryan-thompson.pl <===
+#!/usr/bin/env perl
+#
+# ch-2.pl - Cheaty quine, but passes the challenge test
+#
+# Ryan Thompson <rjt@cpan.org>
+
+open my $fh, '<', __FILE__; # Or $0
+print do { undef $/; <$fh> };
+ 
+===> 045/2/saiftynet.pl <===
+#!/usr/bin/env perl
+#perl 5.22.1 
+# Challenge 045 Task 2
+# Write a script that dumps its own source code. For example, say,
+# the script name is ch-2.pl then the following command should
+# return nothing.
+# $ perl ch-2.pl | diff - ch-2.pl
+
+open (my $fh, '<:encoding(UTF-8)', $0 ) ;
+print while(<$fh>);
+ 
+===> 045/2/ulrich-rieke.pl <===
+#!/usr/bin/env perl
+use strict ;
+use warnings ;
+
+open (FH , "< $0" ) or die "Can't open file $0!\n" ;
+while ( <FH> ) {
+  print ;
+}
+close (FH) ;
+ 
+===> 045/2/wanderdoc.pl <===
+#!/usr/bin/env perl
+
+use strict;
+use warnings FATAL => qw(all);
+
+=prompt
+
+Write a script that dumps its own source code. For example, say, the script name is ch-2.pl then the following command should returns nothing. perl ch-2.pl | diff - ch-2.pl
+
+=cut
+
+open my $in, "<", $0 or die "$!";
+for ( <$in> ) {print $_;}
