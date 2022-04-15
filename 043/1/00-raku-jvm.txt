@@ -1,0 +1,85 @@
+ 
+===> 043/1/arne-sommer.raku <===
+Values: 8 3 7 1 6 4 5 2 9 (from left to right)
+Blue:   8 + 3
+Yellow: 3 + 7 + 1
+Black:  1 + 6 + 4
+Green:  4 + 5 + 2
+Red:    2 + 9
+ 
+===> 043/1/burkhard-nickels.raku <===
+ch-1.p6, PWC #43 Task #1: Olympic Rings
+Values: 9-x-5-x-x-x-7-x-8
+Result: 9-2-5-4-6-1-7-3-8
+ 
+===> 043/1/jaldhar-h-vyas.raku <===
+Black = 6
+Red-Green = 2
+Green-Black = 4
+Black-Yellow = 1
+Yellow-Blue = 3
+ 
+===> 043/1/javier-luque.raku <===
+Slot: black value: 6
+Slot: blackyellow value: 1
+Slot: greenblack value: 4
+Slot: redgreen value: 2
+Slot: yellowblue value: 3
+ 
+===> 043/1/laurent-rosenfeld.raku <===
+Added 2 to red ring
+Added 2 to green ring
+Added 4 to green ring
+Added 3 to blue ring
+Added 3 to yellow ring
+Added 1 to yellow ring
+Added 4 1 6 to black ring
+
+Final ring values:
+black	11
+blue	11
+green	11
+red	11
+yellow	11
+ 
+===> 043/1/luca-ferrari.raku <===
+Ring Blue contains (8 & 3)
+Ring Green contains (5 & 6)
+Ring Red contains (9 & 2)
+Ring Yellow contains (7 & 4)
+ 
+===> 043/1/markus-holzer.raku <===
+1..6
+ok 1 - Red ring sum ok
+ok 2 - Green ring sum ok
+ok 3 - Black ring sum ok
+ok 4 - Yellow ring sum ok
+ok 5 - Blue ring sum ok
+ok 6 - all gap values in m processed
+Black value: 6
+{color => Red, m => 2, n => 0, v => 9}
+{color => Green, m => 4, n => 2, v => 5}
+{color => Black, m => 1, n => 4, v => 6}
+{color => Yellow, m => 3, n => 1, v => 7}
+{color => Blue, m => 0, n => 3, v => 8}
+ 
+===> 043/1/roger-bell-west.raku <===
+1 in yellow/black, 2 in green/red, 3 in blue/yellow, 4 in black/green, 6 in black
+1 in yellow/black, 2 in red, 3 in blue/yellow, 4 in black, 6 in black/green
+1 in black, 2 in red, 3 in blue, 4 in yellow/black, 6 in black/green
+ 
+===> 043/1/ruben-westerberg.raku <===
+red/green      2
+green/black    4
+black          6
+black/yellow   1
+yellow/blue    3
+ 
+===> 043/1/ryan-thompson.raku <===
+{gk => 4, k => 6, ky => 1, rg => 2, yb => 3}
+ 
+===> 043/1/simon-proctor.raku <===
+Before
+Current Sets {:black(0), :black_green(0), :blue(8), :blue_yellow(0), :green(5), :green_red(0), :red(9), :yellow(7), :yellow_black(0)} : Totals : Blue 8 : Yellow 7 : Black 0 : Green 5 : Red 9 : Complete? False
+Solution
+Current Sets {:black(6), :black_green(4), :blue(8), :blue_yellow(3), :green(5), :green_red(2), :red(9), :yellow(7), :yellow_black(1)} : Totals : Blue 11 : Yellow 11 : Black 11 : Green 11 : Red 11 : Complete? True
