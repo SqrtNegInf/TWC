@@ -1,0 +1,1005 @@
+ 
+===> 042/1/adam-russell.pl <===
+Decimal 0 = Octal 0
+Decimal 1 = Octal 1
+Decimal 2 = Octal 2
+Decimal 3 = Octal 3
+Decimal 4 = Octal 4
+Decimal 5 = Octal 5
+Decimal 6 = Octal 6
+Decimal 7 = Octal 7
+Decimal 8 = Octal 10
+Decimal 9 = Octal 11
+Decimal 10 = Octal 12
+Decimal 11 = Octal 13
+Decimal 12 = Octal 14
+Decimal 13 = Octal 15
+Decimal 14 = Octal 16
+Decimal 15 = Octal 17
+Decimal 16 = Octal 20
+Decimal 17 = Octal 21
+Decimal 18 = Octal 22
+Decimal 19 = Octal 23
+Decimal 20 = Octal 24
+Decimal 21 = Octal 25
+Decimal 22 = Octal 26
+Decimal 23 = Octal 27
+Decimal 24 = Octal 30
+Decimal 25 = Octal 31
+Decimal 26 = Octal 32
+Decimal 27 = Octal 33
+Decimal 28 = Octal 34
+Decimal 29 = Octal 35
+Decimal 30 = Octal 36
+Decimal 31 = Octal 37
+Decimal 32 = Octal 40
+Decimal 33 = Octal 41
+Decimal 34 = Octal 42
+Decimal 35 = Octal 43
+Decimal 36 = Octal 44
+Decimal 37 = Octal 45
+Decimal 38 = Octal 46
+Decimal 39 = Octal 47
+Decimal 40 = Octal 50
+Decimal 41 = Octal 51
+Decimal 42 = Octal 52
+Decimal 43 = Octal 53
+Decimal 44 = Octal 54
+Decimal 45 = Octal 55
+Decimal 46 = Octal 56
+Decimal 47 = Octal 57
+Decimal 48 = Octal 60
+Decimal 49 = Octal 61
+Decimal 50 = Octal 62
+ 
+===> 042/1/alicia-bielsa.pl <===
+Decimal 1 = Octal 1
+Decimal 2 = Octal 2
+Decimal 3 = Octal 3
+Decimal 4 = Octal 4
+Decimal 5 = Octal 5
+Decimal 6 = Octal 6
+Decimal 7 = Octal 7
+Decimal 8 = Octal 10
+Decimal 9 = Octal 11
+Decimal 10 = Octal 12
+Decimal 11 = Octal 13
+Decimal 12 = Octal 14
+Decimal 13 = Octal 15
+Decimal 14 = Octal 16
+Decimal 15 = Octal 17
+Decimal 16 = Octal 20
+Decimal 17 = Octal 21
+Decimal 18 = Octal 22
+Decimal 19 = Octal 23
+Decimal 20 = Octal 24
+Decimal 21 = Octal 25
+Decimal 22 = Octal 26
+Decimal 23 = Octal 27
+Decimal 24 = Octal 30
+Decimal 25 = Octal 31
+Decimal 26 = Octal 32
+Decimal 27 = Octal 33
+Decimal 28 = Octal 34
+Decimal 29 = Octal 35
+Decimal 30 = Octal 36
+Decimal 31 = Octal 37
+Decimal 32 = Octal 40
+Decimal 33 = Octal 41
+Decimal 34 = Octal 42
+Decimal 35 = Octal 43
+Decimal 36 = Octal 44
+Decimal 37 = Octal 45
+Decimal 38 = Octal 46
+Decimal 39 = Octal 47
+Decimal 40 = Octal 50
+Decimal 41 = Octal 51
+Decimal 42 = Octal 52
+Decimal 43 = Octal 53
+Decimal 44 = Octal 54
+Decimal 45 = Octal 55
+Decimal 46 = Octal 56
+Decimal 47 = Octal 57
+Decimal 48 = Octal 60
+Decimal 49 = Octal 61
+Decimal 50 = Octal 62
+ 
+===> 042/1/andrezgz.pl <===
+Decimal 0 = Octal 0
+Decimal 1 = Octal 1
+Decimal 2 = Octal 2
+Decimal 3 = Octal 3
+Decimal 4 = Octal 4
+Decimal 5 = Octal 5
+Decimal 6 = Octal 6
+Decimal 7 = Octal 7
+Decimal 8 = Octal 10
+Decimal 9 = Octal 11
+Decimal 10 = Octal 12
+Decimal 11 = Octal 13
+Decimal 12 = Octal 14
+Decimal 13 = Octal 15
+Decimal 14 = Octal 16
+Decimal 15 = Octal 17
+Decimal 16 = Octal 20
+Decimal 17 = Octal 21
+Decimal 18 = Octal 22
+Decimal 19 = Octal 23
+Decimal 20 = Octal 24
+Decimal 21 = Octal 25
+Decimal 22 = Octal 26
+Decimal 23 = Octal 27
+Decimal 24 = Octal 30
+Decimal 25 = Octal 31
+Decimal 26 = Octal 32
+Decimal 27 = Octal 33
+Decimal 28 = Octal 34
+Decimal 29 = Octal 35
+Decimal 30 = Octal 36
+Decimal 31 = Octal 37
+Decimal 32 = Octal 40
+Decimal 33 = Octal 41
+Decimal 34 = Octal 42
+Decimal 35 = Octal 43
+Decimal 36 = Octal 44
+Decimal 37 = Octal 45
+Decimal 38 = Octal 46
+Decimal 39 = Octal 47
+Decimal 40 = Octal 50
+Decimal 41 = Octal 51
+Decimal 42 = Octal 52
+Decimal 43 = Octal 53
+Decimal 44 = Octal 54
+Decimal 45 = Octal 55
+Decimal 46 = Octal 56
+Decimal 47 = Octal 57
+Decimal 48 = Octal 60
+Decimal 49 = Octal 61
+Decimal 50 = Octal 62
+ 
+===> 042/1/colin-crain.pl <===
+Decimal 0  = Octal 0 
+Decimal 1  = Octal 1 
+Decimal 2  = Octal 2 
+Decimal 3  = Octal 3 
+Decimal 4  = Octal 4 
+Decimal 5  = Octal 5 
+Decimal 6  = Octal 6 
+Decimal 7  = Octal 7 
+Decimal 8  = Octal 10
+Decimal 9  = Octal 11
+Decimal 10 = Octal 12
+Decimal 11 = Octal 13
+Decimal 12 = Octal 14
+Decimal 13 = Octal 15
+Decimal 14 = Octal 16
+Decimal 15 = Octal 17
+Decimal 16 = Octal 20
+Decimal 17 = Octal 21
+Decimal 18 = Octal 22
+Decimal 19 = Octal 23
+Decimal 20 = Octal 24
+Decimal 21 = Octal 25
+Decimal 22 = Octal 26
+Decimal 23 = Octal 27
+Decimal 24 = Octal 30
+Decimal 25 = Octal 31
+Decimal 26 = Octal 32
+Decimal 27 = Octal 33
+Decimal 28 = Octal 34
+Decimal 29 = Octal 35
+Decimal 30 = Octal 36
+Decimal 31 = Octal 37
+Decimal 32 = Octal 40
+Decimal 33 = Octal 41
+Decimal 34 = Octal 42
+Decimal 35 = Octal 43
+Decimal 36 = Octal 44
+Decimal 37 = Octal 45
+Decimal 38 = Octal 46
+Decimal 39 = Octal 47
+Decimal 40 = Octal 50
+Decimal 41 = Octal 51
+Decimal 42 = Octal 52
+Decimal 43 = Octal 53
+Decimal 44 = Octal 54
+Decimal 45 = Octal 55
+Decimal 46 = Octal 56
+Decimal 47 = Octal 57
+Decimal 48 = Octal 60
+Decimal 49 = Octal 61
+Decimal 50 = Octal 62
+ 
+===> 042/1/cristian-heredia.pl <===
+Decimal 0 = Octal 0
+Decimal 1 = Octal 1
+Decimal 2 = Octal 2
+Decimal 3 = Octal 3
+Decimal 4 = Octal 4
+Decimal 5 = Octal 5
+Decimal 6 = Octal 6
+Decimal 7 = Octal 7
+Decimal 8 = Octal 10
+Decimal 9 = Octal 11
+Decimal 10 = Octal 12
+Decimal 11 = Octal 13
+Decimal 12 = Octal 14
+Decimal 13 = Octal 15
+Decimal 14 = Octal 16
+Decimal 15 = Octal 17
+Decimal 16 = Octal 20
+Decimal 17 = Octal 21
+Decimal 18 = Octal 22
+Decimal 19 = Octal 23
+Decimal 20 = Octal 24
+Decimal 21 = Octal 25
+Decimal 22 = Octal 26
+Decimal 23 = Octal 27
+Decimal 24 = Octal 30
+Decimal 25 = Octal 31
+Decimal 26 = Octal 32
+Decimal 27 = Octal 33
+Decimal 28 = Octal 34
+Decimal 29 = Octal 35
+Decimal 30 = Octal 36
+Decimal 31 = Octal 37
+Decimal 32 = Octal 40
+Decimal 33 = Octal 41
+Decimal 34 = Octal 42
+Decimal 35 = Octal 43
+Decimal 36 = Octal 44
+Decimal 37 = Octal 45
+Decimal 38 = Octal 46
+Decimal 39 = Octal 47
+Decimal 40 = Octal 50
+Decimal 41 = Octal 51
+Decimal 42 = Octal 52
+Decimal 43 = Octal 53
+Decimal 44 = Octal 54
+Decimal 45 = Octal 55
+Decimal 46 = Octal 56
+Decimal 47 = Octal 57
+Decimal 48 = Octal 60
+Decimal 49 = Octal 61
+Decimal 50 = Octal 62
+ 
+===> 042/1/dave-jacoby.pl <===
+Decimal 0 = Octal 0
+Decimal 1 = Octal 1
+Decimal 2 = Octal 2
+Decimal 3 = Octal 3
+Decimal 4 = Octal 4
+Decimal 5 = Octal 5
+Decimal 6 = Octal 6
+Decimal 7 = Octal 7
+Decimal 8 = Octal 10
+Decimal 9 = Octal 11
+Decimal 10 = Octal 12
+Decimal 11 = Octal 13
+Decimal 12 = Octal 14
+Decimal 13 = Octal 15
+Decimal 14 = Octal 16
+Decimal 15 = Octal 17
+Decimal 16 = Octal 20
+Decimal 17 = Octal 21
+Decimal 18 = Octal 22
+Decimal 19 = Octal 23
+Decimal 20 = Octal 24
+Decimal 21 = Octal 25
+Decimal 22 = Octal 26
+Decimal 23 = Octal 27
+Decimal 24 = Octal 30
+Decimal 25 = Octal 31
+Decimal 26 = Octal 32
+Decimal 27 = Octal 33
+Decimal 28 = Octal 34
+Decimal 29 = Octal 35
+Decimal 30 = Octal 36
+Decimal 31 = Octal 37
+Decimal 32 = Octal 40
+Decimal 33 = Octal 41
+Decimal 34 = Octal 42
+Decimal 35 = Octal 43
+Decimal 36 = Octal 44
+Decimal 37 = Octal 45
+Decimal 38 = Octal 46
+Decimal 39 = Octal 47
+Decimal 40 = Octal 50
+Decimal 41 = Octal 51
+Decimal 42 = Octal 52
+Decimal 43 = Octal 53
+Decimal 44 = Octal 54
+Decimal 45 = Octal 55
+Decimal 46 = Octal 56
+Decimal 47 = Octal 57
+Decimal 48 = Octal 60
+Decimal 49 = Octal 61
+Decimal 50 = Octal 62
+ 
+===> 042/1/duane-powell.pl <===
+0
+1
+2
+3
+4
+5
+6
+7
+10
+11
+12
+13
+14
+15
+16
+17
+20
+21
+22
+23
+24
+25
+26
+27
+30
+31
+32
+33
+34
+35
+36
+37
+40
+41
+42
+43
+44
+45
+46
+47
+50
+51
+52
+53
+54
+55
+56
+57
+60
+61
+62
+ 
+===> 042/1/e-choroba.pl <===
+Decimal 0 = Octal 0
+Decimal 1 = Octal 1
+Decimal 2 = Octal 2
+Decimal 3 = Octal 3
+Decimal 4 = Octal 4
+Decimal 5 = Octal 5
+Decimal 6 = Octal 6
+Decimal 7 = Octal 7
+Decimal 8 = Octal 10
+Decimal 9 = Octal 11
+Decimal 10 = Octal 12
+Decimal 11 = Octal 13
+Decimal 12 = Octal 14
+Decimal 13 = Octal 15
+Decimal 14 = Octal 16
+Decimal 15 = Octal 17
+Decimal 16 = Octal 20
+Decimal 17 = Octal 21
+Decimal 18 = Octal 22
+Decimal 19 = Octal 23
+Decimal 20 = Octal 24
+Decimal 21 = Octal 25
+Decimal 22 = Octal 26
+Decimal 23 = Octal 27
+Decimal 24 = Octal 30
+Decimal 25 = Octal 31
+Decimal 26 = Octal 32
+Decimal 27 = Octal 33
+Decimal 28 = Octal 34
+Decimal 29 = Octal 35
+Decimal 30 = Octal 36
+Decimal 31 = Octal 37
+Decimal 32 = Octal 40
+Decimal 33 = Octal 41
+Decimal 34 = Octal 42
+Decimal 35 = Octal 43
+Decimal 36 = Octal 44
+Decimal 37 = Octal 45
+Decimal 38 = Octal 46
+Decimal 39 = Octal 47
+Decimal 40 = Octal 50
+Decimal 41 = Octal 51
+Decimal 42 = Octal 52
+Decimal 43 = Octal 53
+Decimal 44 = Octal 54
+Decimal 45 = Octal 55
+Decimal 46 = Octal 56
+Decimal 47 = Octal 57
+Decimal 48 = Octal 60
+Decimal 49 = Octal 61
+Decimal 50 = Octal 62
+ 
+===> 042/1/fabrizio-poggi.pl <===
+Decimal 0 = Octal 0 
+Decimal 1 = Octal 1 
+Decimal 2 = Octal 2 
+Decimal 3 = Octal 3 
+Decimal 4 = Octal 4 
+Decimal 5 = Octal 5 
+Decimal 6 = Octal 6 
+Decimal 7 = Octal 7 
+Decimal 8 = Octal 10 
+Decimal 9 = Octal 11 
+Decimal 10 = Octal 12 
+Decimal 11 = Octal 13 
+Decimal 12 = Octal 14 
+Decimal 13 = Octal 15 
+Decimal 14 = Octal 16 
+Decimal 15 = Octal 17 
+Decimal 16 = Octal 20 
+Decimal 17 = Octal 21 
+Decimal 18 = Octal 22 
+Decimal 19 = Octal 23 
+Decimal 20 = Octal 24 
+Decimal 21 = Octal 25 
+Decimal 22 = Octal 26 
+Decimal 23 = Octal 27 
+Decimal 24 = Octal 30 
+Decimal 25 = Octal 31 
+Decimal 26 = Octal 32 
+Decimal 27 = Octal 33 
+Decimal 28 = Octal 34 
+Decimal 29 = Octal 35 
+Decimal 30 = Octal 36 
+Decimal 31 = Octal 37 
+Decimal 32 = Octal 40 
+Decimal 33 = Octal 41 
+Decimal 34 = Octal 42 
+Decimal 35 = Octal 43 
+Decimal 36 = Octal 44 
+Decimal 37 = Octal 45 
+Decimal 38 = Octal 46 
+Decimal 39 = Octal 47 
+Decimal 40 = Octal 50 
+Decimal 41 = Octal 51 
+Decimal 42 = Octal 52 
+Decimal 43 = Octal 53 
+Decimal 44 = Octal 54 
+Decimal 45 = Octal 55 
+Decimal 46 = Octal 56 
+Decimal 47 = Octal 57 
+Decimal 48 = Octal 60 
+Decimal 49 = Octal 61 
+Decimal 50 = Octal 62 
+ 
+===> 042/1/javier-luque.pl <===
+Decimal 1 = Octal 1
+Decimal 2 = Octal 2
+Decimal 3 = Octal 3
+Decimal 4 = Octal 4
+Decimal 5 = Octal 5
+Decimal 6 = Octal 6
+Decimal 7 = Octal 7
+Decimal 8 = Octal 10
+Decimal 9 = Octal 11
+Decimal 10 = Octal 12
+Decimal 11 = Octal 13
+Decimal 12 = Octal 14
+Decimal 13 = Octal 15
+Decimal 14 = Octal 16
+Decimal 15 = Octal 17
+Decimal 16 = Octal 20
+Decimal 17 = Octal 21
+Decimal 18 = Octal 22
+Decimal 19 = Octal 23
+Decimal 20 = Octal 24
+Decimal 21 = Octal 25
+Decimal 22 = Octal 26
+Decimal 23 = Octal 27
+Decimal 24 = Octal 30
+Decimal 25 = Octal 31
+Decimal 26 = Octal 32
+Decimal 27 = Octal 33
+Decimal 28 = Octal 34
+Decimal 29 = Octal 35
+Decimal 30 = Octal 36
+Decimal 31 = Octal 37
+Decimal 32 = Octal 40
+Decimal 33 = Octal 41
+Decimal 34 = Octal 42
+Decimal 35 = Octal 43
+Decimal 36 = Octal 44
+Decimal 37 = Octal 45
+Decimal 38 = Octal 46
+Decimal 39 = Octal 47
+Decimal 40 = Octal 50
+Decimal 41 = Octal 51
+Decimal 42 = Octal 52
+Decimal 43 = Octal 53
+Decimal 44 = Octal 54
+Decimal 45 = Octal 55
+Decimal 46 = Octal 56
+Decimal 47 = Octal 57
+Decimal 48 = Octal 60
+Decimal 49 = Octal 61
+Decimal 50 = Octal 62
+ 
+===> 042/1/kivanc-yazan.pl <===
+Decimal 0 = Octal 0
+Decimal 1 = Octal 1
+Decimal 2 = Octal 2
+Decimal 3 = Octal 3
+Decimal 4 = Octal 4
+Decimal 5 = Octal 5
+Decimal 6 = Octal 6
+Decimal 7 = Octal 7
+Decimal 8 = Octal 10
+Decimal 9 = Octal 11
+Decimal 10 = Octal 12
+Decimal 11 = Octal 13
+Decimal 12 = Octal 14
+Decimal 13 = Octal 15
+Decimal 14 = Octal 16
+Decimal 15 = Octal 17
+Decimal 16 = Octal 20
+Decimal 17 = Octal 21
+Decimal 18 = Octal 22
+Decimal 19 = Octal 23
+Decimal 20 = Octal 24
+Decimal 21 = Octal 25
+Decimal 22 = Octal 26
+Decimal 23 = Octal 27
+Decimal 24 = Octal 30
+Decimal 25 = Octal 31
+Decimal 26 = Octal 32
+Decimal 27 = Octal 33
+Decimal 28 = Octal 34
+Decimal 29 = Octal 35
+Decimal 30 = Octal 36
+Decimal 31 = Octal 37
+Decimal 32 = Octal 40
+Decimal 33 = Octal 41
+Decimal 34 = Octal 42
+Decimal 35 = Octal 43
+Decimal 36 = Octal 44
+Decimal 37 = Octal 45
+Decimal 38 = Octal 46
+Decimal 39 = Octal 47
+Decimal 40 = Octal 50
+Decimal 41 = Octal 51
+Decimal 42 = Octal 52
+Decimal 43 = Octal 53
+Decimal 44 = Octal 54
+Decimal 45 = Octal 55
+Decimal 46 = Octal 56
+Decimal 47 = Octal 57
+Decimal 48 = Octal 60
+Decimal 49 = Octal 61
+Decimal 50 = Octal 62
+ 
+===> 042/1/paulo-custodio.pl <===
+Decimal 0 = Octal 0
+Decimal 1 = Octal 1
+Decimal 2 = Octal 2
+Decimal 3 = Octal 3
+Decimal 4 = Octal 4
+Decimal 5 = Octal 5
+Decimal 6 = Octal 6
+Decimal 7 = Octal 7
+Decimal 8 = Octal 10
+Decimal 9 = Octal 11
+Decimal 10 = Octal 12
+Decimal 11 = Octal 13
+Decimal 12 = Octal 14
+Decimal 13 = Octal 15
+Decimal 14 = Octal 16
+Decimal 15 = Octal 17
+Decimal 16 = Octal 20
+Decimal 17 = Octal 21
+Decimal 18 = Octal 22
+Decimal 19 = Octal 23
+Decimal 20 = Octal 24
+Decimal 21 = Octal 25
+Decimal 22 = Octal 26
+Decimal 23 = Octal 27
+Decimal 24 = Octal 30
+Decimal 25 = Octal 31
+Decimal 26 = Octal 32
+Decimal 27 = Octal 33
+Decimal 28 = Octal 34
+Decimal 29 = Octal 35
+Decimal 30 = Octal 36
+Decimal 31 = Octal 37
+Decimal 32 = Octal 40
+Decimal 33 = Octal 41
+Decimal 34 = Octal 42
+Decimal 35 = Octal 43
+Decimal 36 = Octal 44
+Decimal 37 = Octal 45
+Decimal 38 = Octal 46
+Decimal 39 = Octal 47
+Decimal 40 = Octal 50
+Decimal 41 = Octal 51
+Decimal 42 = Octal 52
+Decimal 43 = Octal 53
+Decimal 44 = Octal 54
+Decimal 45 = Octal 55
+Decimal 46 = Octal 56
+Decimal 47 = Octal 57
+Decimal 48 = Octal 60
+Decimal 49 = Octal 61
+Decimal 50 = Octal 62
+ 
+===> 042/1/roger-bell-west.pl <===
+Decimal 0 = Octal 0
+Decimal 1 = Octal 1
+Decimal 2 = Octal 2
+Decimal 3 = Octal 3
+Decimal 4 = Octal 4
+Decimal 5 = Octal 5
+Decimal 6 = Octal 6
+Decimal 7 = Octal 7
+Decimal 8 = Octal 10
+Decimal 9 = Octal 11
+Decimal 10 = Octal 12
+Decimal 11 = Octal 13
+Decimal 12 = Octal 14
+Decimal 13 = Octal 15
+Decimal 14 = Octal 16
+Decimal 15 = Octal 17
+Decimal 16 = Octal 20
+Decimal 17 = Octal 21
+Decimal 18 = Octal 22
+Decimal 19 = Octal 23
+Decimal 20 = Octal 24
+Decimal 21 = Octal 25
+Decimal 22 = Octal 26
+Decimal 23 = Octal 27
+Decimal 24 = Octal 30
+Decimal 25 = Octal 31
+Decimal 26 = Octal 32
+Decimal 27 = Octal 33
+Decimal 28 = Octal 34
+Decimal 29 = Octal 35
+Decimal 30 = Octal 36
+Decimal 31 = Octal 37
+Decimal 32 = Octal 40
+Decimal 33 = Octal 41
+Decimal 34 = Octal 42
+Decimal 35 = Octal 43
+Decimal 36 = Octal 44
+Decimal 37 = Octal 45
+Decimal 38 = Octal 46
+Decimal 39 = Octal 47
+Decimal 40 = Octal 50
+Decimal 41 = Octal 51
+Decimal 42 = Octal 52
+Decimal 43 = Octal 53
+Decimal 44 = Octal 54
+Decimal 45 = Octal 55
+Decimal 46 = Octal 56
+Decimal 47 = Octal 57
+Decimal 48 = Octal 60
+Decimal 49 = Octal 61
+Decimal 50 = Octal 62
+ 
+===> 042/1/ryan-thompson.pl <===
+Decimal  0 = Octal  0
+Decimal  1 = Octal  1
+Decimal  2 = Octal  2
+Decimal  3 = Octal  3
+Decimal  4 = Octal  4
+Decimal  5 = Octal  5
+Decimal  6 = Octal  6
+Decimal  7 = Octal  7
+Decimal  8 = Octal 10
+Decimal  9 = Octal 11
+Decimal 10 = Octal 12
+Decimal 11 = Octal 13
+Decimal 12 = Octal 14
+Decimal 13 = Octal 15
+Decimal 14 = Octal 16
+Decimal 15 = Octal 17
+Decimal 16 = Octal 20
+Decimal 17 = Octal 21
+Decimal 18 = Octal 22
+Decimal 19 = Octal 23
+Decimal 20 = Octal 24
+Decimal 21 = Octal 25
+Decimal 22 = Octal 26
+Decimal 23 = Octal 27
+Decimal 24 = Octal 30
+Decimal 25 = Octal 31
+Decimal 26 = Octal 32
+Decimal 27 = Octal 33
+Decimal 28 = Octal 34
+Decimal 29 = Octal 35
+Decimal 30 = Octal 36
+Decimal 31 = Octal 37
+Decimal 32 = Octal 40
+Decimal 33 = Octal 41
+Decimal 34 = Octal 42
+Decimal 35 = Octal 43
+Decimal 36 = Octal 44
+Decimal 37 = Octal 45
+Decimal 38 = Octal 46
+Decimal 39 = Octal 47
+Decimal 40 = Octal 50
+Decimal 41 = Octal 51
+Decimal 42 = Octal 52
+Decimal 43 = Octal 53
+Decimal 44 = Octal 54
+Decimal 45 = Octal 55
+Decimal 46 = Octal 56
+Decimal 47 = Octal 57
+Decimal 48 = Octal 60
+Decimal 49 = Octal 61
+Decimal 50 = Octal 62
+Decimal  0 = Octal  0
+Decimal  1 = Octal  1
+Decimal  2 = Octal  2
+Decimal  3 = Octal  3
+Decimal  4 = Octal  4
+Decimal  5 = Octal  5
+Decimal  6 = Octal  6
+Decimal  7 = Octal  7
+Decimal  8 = Octal 10
+Decimal  9 = Octal 11
+Decimal 10 = Octal 12
+Decimal 11 = Octal 13
+Decimal 12 = Octal 14
+Decimal 13 = Octal 15
+Decimal 14 = Octal 16
+Decimal 15 = Octal 17
+Decimal 16 = Octal 20
+Decimal 17 = Octal 21
+Decimal 18 = Octal 22
+Decimal 19 = Octal 23
+Decimal 20 = Octal 24
+Decimal 21 = Octal 25
+Decimal 22 = Octal 26
+Decimal 23 = Octal 27
+Decimal 24 = Octal 30
+Decimal 25 = Octal 31
+Decimal 26 = Octal 32
+Decimal 27 = Octal 33
+Decimal 28 = Octal 34
+Decimal 29 = Octal 35
+Decimal 30 = Octal 36
+Decimal 31 = Octal 37
+Decimal 32 = Octal 40
+Decimal 33 = Octal 41
+Decimal 34 = Octal 42
+Decimal 35 = Octal 43
+Decimal 36 = Octal 44
+Decimal 37 = Octal 45
+Decimal 38 = Octal 46
+Decimal 39 = Octal 47
+Decimal 40 = Octal 50
+Decimal 41 = Octal 51
+Decimal 42 = Octal 52
+Decimal 43 = Octal 53
+Decimal 44 = Octal 54
+Decimal 45 = Octal 55
+Decimal 46 = Octal 56
+Decimal 47 = Octal 57
+Decimal 48 = Octal 60
+Decimal 49 = Octal 61
+Decimal 50 = Octal 62
+ 
+===> 042/1/saiftynet.pl <===
+Converting from decimal to octal (base 8)
+Decimal  1 is  1 in base 8
+Decimal  2 is  2 in base 8
+Decimal  3 is  3 in base 8
+Decimal  4 is  4 in base 8
+Decimal  5 is  5 in base 8
+Decimal  6 is  6 in base 8
+Decimal  7 is  7 in base 8
+Decimal  8 is 10 in base 8
+Decimal  9 is 11 in base 8
+Decimal 10 is 12 in base 8
+Decimal 11 is 13 in base 8
+Decimal 12 is 14 in base 8
+Decimal 13 is 15 in base 8
+Decimal 14 is 16 in base 8
+Decimal 15 is 17 in base 8
+Decimal 16 is 20 in base 8
+Decimal 17 is 21 in base 8
+Decimal 18 is 22 in base 8
+Decimal 19 is 23 in base 8
+Decimal 20 is 24 in base 8
+Decimal 21 is 25 in base 8
+Decimal 22 is 26 in base 8
+Decimal 23 is 27 in base 8
+Decimal 24 is 30 in base 8
+Decimal 25 is 31 in base 8
+Decimal 26 is 32 in base 8
+Decimal 27 is 33 in base 8
+Decimal 28 is 34 in base 8
+Decimal 29 is 35 in base 8
+Decimal 30 is 36 in base 8
+Decimal 31 is 37 in base 8
+Decimal 32 is 40 in base 8
+Decimal 33 is 41 in base 8
+Decimal 34 is 42 in base 8
+Decimal 35 is 43 in base 8
+Decimal 36 is 44 in base 8
+Decimal 37 is 45 in base 8
+Decimal 38 is 46 in base 8
+Decimal 39 is 47 in base 8
+Decimal 40 is 50 in base 8
+Decimal 41 is 51 in base 8
+Decimal 42 is 52 in base 8
+Decimal 43 is 53 in base 8
+Decimal 44 is 54 in base 8
+Decimal 45 is 55 in base 8
+Decimal 46 is 56 in base 8
+Decimal 47 is 57 in base 8
+Decimal 48 is 60 in base 8
+Decimal 49 is 61 in base 8
+Decimal 50 is 62 in base 8
+ 
+===> 042/1/steven-wilson.pl <===
+1..1
+ok 1 - test decimal 1792 is octal 3400
+Decimal 0 = Octal 0
+Decimal 1 = Octal 1
+Decimal 2 = Octal 2
+Decimal 3 = Octal 3
+Decimal 4 = Octal 4
+Decimal 5 = Octal 5
+Decimal 6 = Octal 6
+Decimal 7 = Octal 7
+Decimal 8 = Octal 10
+Decimal 9 = Octal 11
+Decimal 10 = Octal 12
+Decimal 11 = Octal 13
+Decimal 12 = Octal 14
+Decimal 13 = Octal 15
+Decimal 14 = Octal 16
+Decimal 15 = Octal 17
+Decimal 16 = Octal 20
+Decimal 17 = Octal 21
+Decimal 18 = Octal 22
+Decimal 19 = Octal 23
+Decimal 20 = Octal 24
+Decimal 21 = Octal 25
+Decimal 22 = Octal 26
+Decimal 23 = Octal 27
+Decimal 24 = Octal 30
+Decimal 25 = Octal 31
+Decimal 26 = Octal 32
+Decimal 27 = Octal 33
+Decimal 28 = Octal 34
+Decimal 29 = Octal 35
+Decimal 30 = Octal 36
+Decimal 31 = Octal 37
+Decimal 32 = Octal 40
+Decimal 33 = Octal 41
+Decimal 34 = Octal 42
+Decimal 35 = Octal 43
+Decimal 36 = Octal 44
+Decimal 37 = Octal 45
+Decimal 38 = Octal 46
+Decimal 39 = Octal 47
+Decimal 40 = Octal 50
+Decimal 41 = Octal 51
+Decimal 42 = Octal 52
+Decimal 43 = Octal 53
+Decimal 44 = Octal 54
+Decimal 45 = Octal 55
+Decimal 46 = Octal 56
+Decimal 47 = Octal 57
+Decimal 48 = Octal 60
+Decimal 49 = Octal 61
+Decimal 50 = Octal 62
+ 
+===> 042/1/walt-mankowski.pl <===
+Decimal 0 = Octal 0
+Decimal 1 = Octal 1
+Decimal 2 = Octal 2
+Decimal 3 = Octal 3
+Decimal 4 = Octal 4
+Decimal 5 = Octal 5
+Decimal 6 = Octal 6
+Decimal 7 = Octal 7
+Decimal 8 = Octal 10
+Decimal 9 = Octal 11
+Decimal 10 = Octal 12
+Decimal 11 = Octal 13
+Decimal 12 = Octal 14
+Decimal 13 = Octal 15
+Decimal 14 = Octal 16
+Decimal 15 = Octal 17
+Decimal 16 = Octal 20
+Decimal 17 = Octal 21
+Decimal 18 = Octal 22
+Decimal 19 = Octal 23
+Decimal 20 = Octal 24
+Decimal 21 = Octal 25
+Decimal 22 = Octal 26
+Decimal 23 = Octal 27
+Decimal 24 = Octal 30
+Decimal 25 = Octal 31
+Decimal 26 = Octal 32
+Decimal 27 = Octal 33
+Decimal 28 = Octal 34
+Decimal 29 = Octal 35
+Decimal 30 = Octal 36
+Decimal 31 = Octal 37
+Decimal 32 = Octal 40
+Decimal 33 = Octal 41
+Decimal 34 = Octal 42
+Decimal 35 = Octal 43
+Decimal 36 = Octal 44
+Decimal 37 = Octal 45
+Decimal 38 = Octal 46
+Decimal 39 = Octal 47
+Decimal 40 = Octal 50
+Decimal 41 = Octal 51
+Decimal 42 = Octal 52
+Decimal 43 = Octal 53
+Decimal 44 = Octal 54
+Decimal 45 = Octal 55
+Decimal 46 = Octal 56
+Decimal 47 = Octal 57
+Decimal 48 = Octal 60
+Decimal 49 = Octal 61
+Decimal 50 = Octal 62
+ 
+===> 042/1/wanderdoc.pl <===
+Decimal 0 = Octal 0
+Decimal 1 = Octal 1
+Decimal 2 = Octal 2
+Decimal 3 = Octal 3
+Decimal 4 = Octal 4
+Decimal 5 = Octal 5
+Decimal 6 = Octal 6
+Decimal 7 = Octal 7
+Decimal 8 = Octal 10
+Decimal 9 = Octal 11
+Decimal 10 = Octal 12
+Decimal 11 = Octal 13
+Decimal 12 = Octal 14
+Decimal 13 = Octal 15
+Decimal 14 = Octal 16
+Decimal 15 = Octal 17
+Decimal 16 = Octal 20
+Decimal 17 = Octal 21
+Decimal 18 = Octal 22
+Decimal 19 = Octal 23
+Decimal 20 = Octal 24
+Decimal 21 = Octal 25
+Decimal 22 = Octal 26
+Decimal 23 = Octal 27
+Decimal 24 = Octal 30
+Decimal 25 = Octal 31
+Decimal 26 = Octal 32
+Decimal 27 = Octal 33
+Decimal 28 = Octal 34
+Decimal 29 = Octal 35
+Decimal 30 = Octal 36
+Decimal 31 = Octal 37
+Decimal 32 = Octal 40
+Decimal 33 = Octal 41
+Decimal 34 = Octal 42
+Decimal 35 = Octal 43
+Decimal 36 = Octal 44
+Decimal 37 = Octal 45
+Decimal 38 = Octal 46
+Decimal 39 = Octal 47
+Decimal 40 = Octal 50
+Decimal 41 = Octal 51
+Decimal 42 = Octal 52
+Decimal 43 = Octal 53
+Decimal 44 = Octal 54
+Decimal 45 = Octal 55
+Decimal 46 = Octal 56
+Decimal 47 = Octal 57
+Decimal 48 = Octal 60
+Decimal 49 = Octal 61
+Decimal 50 = Octal 62
