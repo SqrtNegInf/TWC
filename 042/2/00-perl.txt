@@ -1,0 +1,176 @@
+ 
+===> 042/2/adam-russell.pl <===
+(()( is not balanced
+ 
+===> 042/2/alicia-bielsa.pl <===
+( - KO
+ 
+===> 042/2/andrezgz.pl <===
+( - NOT OK 
+===> 042/2/colin-crain.pl <===
+(
+IMBALANCED - odd number of parens
+ 
+===> 042/2/cristian-heredia.pl <===
+() - OK
+ 
+===> 042/2/dave-jacoby.pl <===
+)( - NOT OK
+ 
+===> 042/2/duane-powell.pl <===
+Random paren string = ()
+Parens are balanced.
+ 
+===> 042/2/e-choroba.pl <===
+1..4
+ok 1
+ok 2
+ok 3
+ok 4
+()( invalid
+ 
+===> 042/2/fabrizio-poggi.pl <===
+( - NOT OK
+ 
+===> 042/2/jaldhar-h-vyas.pl <===
+)( - NOT OK
+ 
+===> 042/2/javier-luque.pl <===
+)( - NOT OK
+()) - NOT OK
+())( - NOT OK
+)( - NOT OK
+() - OK 
+)()) - NOT OK
+()( - NOT OK
+)(( - NOT OK
+() - OK 
+() - OK 
+)()( - NOT OK
+)( - NOT OK
+(()( - NOT OK
+)(() - NOT OK
+))( - NOT OK
+(( - NOT OK
+()) - NOT OK
+(( - NOT OK
+()(( - NOT OK
+()( - NOT OK
+ 
+===> 042/2/kivanc-yazan.pl <===
+)(
+Not Valid
+ 
+===> 042/2/laurent-rosenfeld.pl <===
+(): OK
+(  ): OK
+(()): OK
+( ( )): OK
+)(: Not OK
+())(): Not OK
+((( ( ())))): OK
+()()()(): OK
+(())(()): OK
+ 
+===> 042/2/ndelucca.pl <===
+Generated: )
+Un-paired brackets: )
+It's NOT balanced
+ 
+===> 042/2/peter-scott.pl <===
+()() - OK
+ 
+===> 042/2/roger-bell-west.pl <===
+()
+Valid.
+ 
+===> 042/2/ruben-westerberg.pl <===
+unbalanced: (
+balanced: ()(())
+unbalanced: ()(
+unbalanced: )
+unbalanced: )
+unbalanced: )(
+balanced: (())
+unbalanced: ))(
+unbalanced: )()(()
+unbalanced: )
+ 
+===> 042/2/ryan-thompson.pl <===
+ - OK
+ - OK
+ - OK
+ - OK
+ - OK
+)( - NOT OK
+)( - NOT OK
+() - OK
+)( - NOT OK
+() - OK
+)()( - NOT OK
+)(() - NOT OK
+()() - OK
+)(() - NOT OK
+())( - NOT OK
+)()(() - NOT OK
+()())( - NOT OK
+)(()() - NOT OK
+(())() - OK
+())()( - NOT OK
+)(((())) - NOT OK
+)((()()) - NOT OK
+()()))(( - NOT OK
+()()())( - NOT OK
+(()(())) - OK
+(()()))()( - NOT OK
+()))(())(( - NOT OK
+)((()))(() - NOT OK
+((())(())) - OK
+()()(()()) - OK
+ 
+===> 042/2/saiftynet.pl <===
+  ()          OK, Balanced brackets
+  )((         Not ok unmatched brackets at )(( 
+  )(()((      Not ok unmatched brackets at )(--(( 
+  ()()()      OK, Balanced brackets
+  ())         Not ok unmatched brackets at --) 
+  ))(         Not ok unmatched brackets at ))( 
+  )()(()      Not ok unmatched brackets at )--(-- 
+  )(          Not ok unmatched brackets at )( 
+  ()(()       Not ok unmatched brackets at --(-- 
+  ))())       Not ok unmatched brackets at ))--) 
+ 
+===> 042/2/walt-mankowski.pl <===
+( - NOT OK
+()(())(() - NOT OK
+() - OK
+)( - NOT OK
+()(())()) - NOT OK
+))() - NOT OK
+( - NOT OK
+()()()(() - NOT OK
+))())()) - NOT OK
+)(() - NOT OK
+ 
+===> 042/2/wanderdoc.pl <===
+()() - OK
+())( - NOT OK
+)(()()()() - NOT OK
+())()) - NOT OK
+))()(()()( - NOT OK
+()(())))())()) - NOT OK
+)(()())))( - NOT OK
+())) - NOT OK
+())))()()()()( - NOT OK
+)))((()()()))( - NOT OK
+)))))( - NOT OK
+)))(((()))()()()(()) - NOT OK
+((()))))((((())()( - NOT OK
+(()())(((( - NOT OK
+)()(()))(()()()()()( - NOT OK
+))(( - NOT OK
+)()())()()()((())))( - NOT OK
+((())))()))) - NOT OK
+))())()()( - NOT OK
+()()(()())(((( - NOT OK
+FAIR BUILD=0 DEBUG_NUM_OK=1 TOTAL=20
