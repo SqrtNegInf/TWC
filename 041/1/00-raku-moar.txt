@@ -1,0 +1,479 @@
+ 
+===> 041/1/arne-sommer.raku <===
+4 is an attractive number (with divisors: 2 2)
+6 is an attractive number (with divisors: 2 3)
+8 is an attractive number (with divisors: 2 2 2)
+9 is an attractive number (with divisors: 3 3)
+10 is an attractive number (with divisors: 2 5)
+12 is an attractive number (with divisors: 2 2 3)
+14 is an attractive number (with divisors: 2 7)
+15 is an attractive number (with divisors: 3 5)
+18 is an attractive number (with divisors: 2 3 3)
+20 is an attractive number (with divisors: 2 2 5)
+21 is an attractive number (with divisors: 3 7)
+22 is an attractive number (with divisors: 2 11)
+25 is an attractive number (with divisors: 5 5)
+26 is an attractive number (with divisors: 2 13)
+27 is an attractive number (with divisors: 3 3 3)
+28 is an attractive number (with divisors: 2 2 7)
+30 is an attractive number (with divisors: 2 3 5)
+32 is an attractive number (with divisors: 2 2 2 2 2)
+33 is an attractive number (with divisors: 3 11)
+34 is an attractive number (with divisors: 2 17)
+35 is an attractive number (with divisors: 5 7)
+38 is an attractive number (with divisors: 2 19)
+39 is an attractive number (with divisors: 3 13)
+42 is an attractive number (with divisors: 2 3 7)
+44 is an attractive number (with divisors: 2 2 11)
+45 is an attractive number (with divisors: 3 3 5)
+46 is an attractive number (with divisors: 2 23)
+48 is an attractive number (with divisors: 2 2 2 2 3)
+49 is an attractive number (with divisors: 7 7)
+50 is an attractive number (with divisors: 2 5 5)
+ 
+===> 041/1/colin-crain.raku <===
+2     --> 2                        
+3     --> 3                        
+4     --> 2, 2                     4 is attractive
+5     --> 5                        
+6     --> 2, 3                     6 is attractive
+7     --> 7                        
+8     --> 2, 2, 2                  8 is attractive
+9     --> 3, 3                     9 is attractive
+10    --> 2, 5                     10 is attractive
+11    --> 11                       
+12    --> 2, 2, 3                  12 is attractive
+13    --> 13                       
+14    --> 2, 7                     14 is attractive
+15    --> 3, 5                     15 is attractive
+16    --> 2, 2, 2, 2               
+17    --> 17                       
+18    --> 2, 3, 3                  18 is attractive
+19    --> 19                       
+20    --> 2, 2, 5                  20 is attractive
+21    --> 3, 7                     21 is attractive
+22    --> 2, 11                    22 is attractive
+23    --> 23                       
+24    --> 2, 2, 2, 3               
+25    --> 5, 5                     25 is attractive
+26    --> 2, 13                    26 is attractive
+27    --> 3, 3, 3                  27 is attractive
+28    --> 2, 2, 7                  28 is attractive
+29    --> 29                       
+30    --> 2, 3, 5                  30 is attractive
+31    --> 31                       
+32    --> 2, 2, 2, 2, 2            32 is attractive
+33    --> 3, 11                    33 is attractive
+34    --> 2, 17                    34 is attractive
+35    --> 5, 7                     35 is attractive
+36    --> 2, 2, 3, 3               
+37    --> 37                       
+38    --> 2, 19                    38 is attractive
+39    --> 3, 13                    39 is attractive
+40    --> 2, 2, 2, 5               
+41    --> 41                       
+42    --> 2, 3, 7                  42 is attractive
+43    --> 43                       
+44    --> 2, 2, 11                 44 is attractive
+45    --> 3, 3, 5                  45 is attractive
+46    --> 2, 23                    46 is attractive
+47    --> 47                       
+48    --> 2, 2, 2, 2, 3            48 is attractive
+49    --> 7, 7                     49 is attractive
+50    --> 2, 5, 5                  50 is attractive
+ 
+===> 041/1/jaldhar-h-vyas.raku <===
+4
+6
+8
+9
+10
+12
+14
+15
+18
+20
+21
+22
+25
+26
+27
+28
+30
+32
+33
+34
+35
+38
+39
+42
+44
+45
+46
+48
+49
+50
+ 
+===> 041/1/javier-luque.raku <===
+4
+6
+8
+9
+10
+12
+14
+15
+18
+20
+21
+22
+25
+26
+27
+28
+30
+32
+33
+34
+35
+38
+39
+42
+44
+45
+46
+48
+49
+50
+ 
+===> 041/1/jo-christian-oterhals.raku <===
+4 / 2 2
+6 / 2 3
+8 / 2 2 2
+9 / 3 3
+10 / 2 5
+12 / 2 2 3
+14 / 2 7
+15 / 3 5
+18 / 2 3 3
+20 / 2 2 5
+21 / 3 7
+22 / 2 11
+25 / 5 5
+26 / 2 13
+27 / 3 3 3
+28 / 2 2 7
+30 / 2 3 5
+32 / 2 2 2 2 2
+33 / 3 11
+34 / 2 17
+35 / 5 7
+38 / 2 19
+39 / 3 13
+42 / 2 3 7
+44 / 2 2 11
+45 / 3 3 5
+46 / 2 23
+48 / 2 2 2 2 3
+49 / 7 7
+50 / 2 5 5
+ 
+===> 041/1/kevin-colyer.raku <===
+List of Attractive Numbers from 1 to 50
+1 => 2
+2 => 4
+3 => 6
+4 => 8
+5 => 9
+6 => 10
+7 => 12
+8 => 14
+9 => 15
+10 => 18
+11 => 20
+12 => 21
+13 => 22
+14 => 25
+15 => 26
+16 => 27
+17 => 28
+18 => 30
+19 => 32
+20 => 33
+21 => 34
+22 => 35
+23 => 38
+24 => 39
+25 => 42
+26 => 44
+27 => 45
+28 => 46
+29 => 48
+30 => 49
+31 => 50
+32 => 51
+33 => 52
+34 => 55
+35 => 57
+36 => 58
+37 => 62
+38 => 63
+39 => 65
+40 => 66
+41 => 68
+42 => 69
+43 => 70
+44 => 72
+45 => 74
+46 => 75
+47 => 76
+48 => 77
+49 => 78
+50 => 80
+ 
+===> 041/1/laurent-rosenfeld.raku <===
+4: 2 2
+6: 2 3
+8: 2 2 2
+9: 3 3
+10: 2 5
+12: 2 2 3
+14: 2 7
+15: 3 5
+18: 2 3 3
+20: 2 2 5
+21: 3 7
+22: 2 11
+25: 5 5
+26: 2 13
+27: 3 3 3
+28: 2 2 7
+30: 2 3 5
+32: 2 2 2 2 2
+33: 3 11
+34: 2 17
+35: 5 7
+38: 2 19
+39: 3 13
+42: 2 3 7
+44: 2 2 11
+45: 3 3 5
+46: 2 23
+48: 2 2 2 2 3
+49: 7 7
+50: 2 5 5
+ 
+===> 041/1/markus-holzer.raku <===
+4
+6
+8
+9
+10
+12
+14
+15
+18
+20
+21
+22
+25
+26
+27
+28
+30
+32
+33
+34
+35
+38
+39
+42
+44
+45
+46
+48
+49
+50
+ 
+===> 041/1/noud.raku <===
+All attractive numbers between 1 and 50:
+4
+6
+8
+9
+10
+12
+14
+15
+18
+20
+21
+22
+25
+26
+27
+28
+30
+32
+33
+34
+35
+38
+39
+42
+44
+45
+46
+48
+49
+50
+ 
+===> 041/1/roger-bell-west.raku <===
+4
+6
+8
+9
+10
+12
+14
+15
+18
+20
+21
+22
+25
+26
+27
+28
+30
+32
+33
+34
+35
+38
+39
+42
+44
+45
+46
+48
+49
+50
+ 
+===> 041/1/ruben-westerberg.raku <===
+Attractive number 4: prime factors 2 2
+Attractive number 6: prime factors 2 3
+Attractive number 8: prime factors 2 2 2
+Attractive number 9: prime factors 3 3
+Attractive number 10: prime factors 2 5
+Attractive number 12: prime factors 2 2 3
+Attractive number 14: prime factors 2 7
+Attractive number 15: prime factors 3 5
+Attractive number 18: prime factors 2 3 3
+Attractive number 20: prime factors 2 2 5
+Attractive number 21: prime factors 3 7
+Attractive number 22: prime factors 2 11
+Attractive number 25: prime factors 5 5
+Attractive number 26: prime factors 2 13
+Attractive number 27: prime factors 3 3 3
+Attractive number 28: prime factors 2 2 7
+Attractive number 30: prime factors 2 3 5
+Attractive number 32: prime factors 2 2 2 2 2
+Attractive number 33: prime factors 3 11
+Attractive number 34: prime factors 2 17
+Attractive number 35: prime factors 5 7
+Attractive number 38: prime factors 2 19
+Attractive number 39: prime factors 3 13
+Attractive number 42: prime factors 2 3 7
+Attractive number 44: prime factors 2 2 11
+Attractive number 45: prime factors 3 3 5
+Attractive number 46: prime factors 2 23
+Attractive number 48: prime factors 2 2 2 2 3
+Attractive number 49: prime factors 7 7
+Attractive number 50: prime factors 2 5 5
+ 
+===> 041/1/ryan-thompson.raku <===
+4
+8
+9
+12
+18
+20
+25
+27
+28
+30
+32
+42
+44
+45
+48
+49
+50
+ 
+===> 041/1/simon-proctor.raku <===
+4 has factors 2,2
+6 has factors 2,3
+8 has factors 2,2,2
+9 has factors 3,3
+10 has factors 2,5
+12 has factors 2,2,3
+14 has factors 2,7
+15 has factors 3,5
+18 has factors 2,3,3
+20 has factors 2,2,5
+21 has factors 3,7
+22 has factors 2,11
+25 has factors 5,5
+26 has factors 2,13
+27 has factors 3,3,3
+28 has factors 2,2,7
+30 has factors 2,3,5
+32 has factors 2,2,2,2,2
+33 has factors 3,11
+34 has factors 2,17
+35 has factors 5,7
+38 has factors 2,19
+39 has factors 3,13
+42 has factors 2,3,7
+44 has factors 2,2,11
+45 has factors 3,3,5
+46 has factors 2,23
+48 has factors 2,2,2,2,3
+49 has factors 7,7
+50 has factors 2,5,5
+ 
+===> 041/1/stuart-little.raku <===
+(4 6 8 9 10 12 14 15 18 20 21 22 25 26 27 28 30 32 33 34 35 38 39 42 44 45 46 48 49 50)
+ 
+===> 041/1/ulrich-rieke.raku <===
+4
+6
+8
+9
+10
+12
+14
+15
+18
+20
+21
+22
+25
+26
+27
+28
+30
+32
+33
+34
+35
+38
+39
+42
+44
+45
+46
+48
+49
+50
