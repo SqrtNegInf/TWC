@@ -1,0 +1,39 @@
+ 
+===> 040/2/arne-sommer.raku <===
+[1 4 3 8 12 10]
+ 
+===> 040/2/burkhard-nickels.raku <===
+ch-2.p6 (Version 1.0) PWC #40 Task #2: SubList
+Before:10 - 4 - 1 - 8 - 12 - 3
+After: 1 - 4 - 3 - 8 - 12 - 10
+ 
+===> 040/2/colin-crain.raku <===
+prechange list  : [ 10, 4, 1, 8, 12, 3 ]
+postchange list : [ 1, 4, 3, 8, 12, 10 ]
+ 
+===> 040/2/jaldhar-h-vyas.raku <===
+1 4 3 8 12 10
+ 
+===> 040/2/javier-luque.raku <===
+[1 4 3 8 12 10]
+ 
+===> 040/2/laurent-rosenfeld.raku <===
+[1 4 3 8 12 10]
+ 
+===> 040/2/noud.raku <===
+[1 4 3 8 12 10]
+ 
+===> 040/2/roger-bell-west.raku <===
+1, 4, 3, 8, 12, 10
+ 
+===> 040/2/ruben-westerberg.raku <===
+1 3 10
+ 
+===> 040/2/ryan-thompson.raku <===
+[1 4 3 8 12 10]
+ 
+===> 040/2/simon-proctor.raku <===
+1 4 3 8 12 10
+ 
+===> 040/2/stuart-little.raku <===
+(1 4 3 8 12 10)

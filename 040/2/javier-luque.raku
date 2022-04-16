@@ -1,0 +1,16 @@
+#!/usr/bin/env raku
+
+sub MAIN () {
+    my @list = (10, 4, 1, 8, 12, 3);
+    my @indices = (0, 2, 5);
+
+    my @sublist = @list[@indices].sort;
+
+    # Override the original array
+    my $i = 0;
+    for (@indices) -> $index {
+        @list[$index] = @sublist[$i++];
+    }
+
+    say @list;
+}
