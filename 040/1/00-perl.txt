@@ -1,0 +1,209 @@
+ 
+===> 040/1/adam-russell.pl <===
+I	2	!	
+L	4	?	
+O	0	£	
+V	3	$	
+E	2	%	
+Y	0	^	
+O	1	&	
+U	9	*	
+ 
+===> 040/1/andrezgz.pl <===
+I 2 ! 
+L 4 ? 
+O 0 � 
+V 3 $ 
+E 2 % 
+Y 0 ^ 
+O 1 & 
+U 9 * 
+ 
+===> 040/1/anton-fedotov.pl <===
+I T T ! 
+L Z W ? 
+O U I £ 
+V Y C $ 
+E U E % 
+Y F   ^ 
+O R   & 
+U O   * 
+  M     
+        
+ 
+===> 040/1/colin-crain.pl <===
+I 2 !
+L 4 ?
+O 0 £
+V 3 $
+E 2 %
+Y 0 ^
+O 1 &
+U 9 *
+=========================
+I 2 !
+L 4 ?
+O 0 £
+V 3 $
+E 2 %
+Y 0 ^
+O 1 &
+U 9 *
+X  
+X  
+X  
+O  
+O  
+O  
+ 
+===> 040/1/duane-powell.pl <===
+I2!
+L4?
+O0$
+V3$
+E2%
+Y0^
+O1&
+U9*
+! @
+  +
+  -
+ 
+===> 040/1/e-choroba.pl <===
+0 I 2 !
+1 L 4 ?
+2 O 0 £
+3 V 3 $
+4 E 2 %
+5 Y 0 ^
+6 O 1 &
+7 U 9 *
+ 
+===> 040/1/jaldhar-h-vyas.pl <===
+I 2 !
+L 4 ?
+O 0 £
+V 3 $
+E 2 %
+Y 0 ^
+O 1 &
+U 9 *
+ 
+===> 040/1/javier-luque.pl <===
+I 2 !
+L 4 ?
+O 0 £
+V 3 $
+E 2 %
+Y 0 ^
+O 1 &
+U 9 *
+ 
+===> 040/1/laurent-rosenfeld.pl <===
+I	244	!	a
+L	42	????	b
+O	0	£	c
+V	1233	$	d
+E	222	%%	e
+Y	0	^	f
+O			g
+U			h
+			i
+			j
+			k
+ 
+===> 040/1/paulo-custodio.pl <===
+I 2 ! 
+L 4 ? 
+O 0 @ 
+V 3 $ 
+E 2 % 
+Y 0 ^ 
+O 1 & 
+U 9 * 
+ 
+===> 040/1/roger-bell-west.pl <===
+I 2 !
+L 4 ?
+O 0 £
+V 3 $
+E 2 %
+Y 0 ^
+O 1 &
+U 9 *
+ 
+===> 040/1/ruben-westerberg.pl <===
+L 4 ?
+O 0 £
+V 3 $
+E 2 %
+ 
+===> 040/1/ryan-thompson.pl <===
+I 2 !
+L 4 ?
+O 0 X
+V 3 $
+E 2 %
+Y 0 ^
+O 1 &
+U 9 *
+ 
+===> 040/1/saiftynet.pl <===
+Without an index list
+I 2 ! 
+L 4 ? 
+O 0 £ 
+V 3 $ 
+E 2 % 
+Y 0 ^ 
+O 1 & 
+U 9 * 
+
+With a single index passed
+Y 0 ^ 
+
+With a multiple indices passed
+V 3 $ 
+O 0 £ 
+L 4 ? 
+E 2 % 
+ 
+===> 040/1/steven-wilson.pl <===
+I 2 ! 
+L 4 ? 
+O 0 £ 
+V 3 $ 
+E 2 % 
+Y 0 ^ 
+O 1 & 
+U 9 * 
+ 
+===> 040/1/ulrich-rieke.pl <===
+8 
+I 2 ! 
+L 4 ? 
+O 0 £ 
+V 3 $ 
+E 2 % 
+Y 0 ^ 
+O 1 & 
+U 9 * 
+ 
+===> 040/1/wanderdoc.pl <===
+I 2 !
+L 4 ?
+O 0 £
+V 3 $
+E 2 %
+Y 0 ^
+O 1 &
+U 9 *
+Now cheating with module: 
+I 2 !
+L 4 ?
+O 0 £
+V 3 $
+E 2 %
+Y 0 ^
+O 1 &
+U 9 *
