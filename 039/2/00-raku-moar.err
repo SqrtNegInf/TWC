@@ -1,0 +1,3 @@
+not ok - disabled: type cannot unbox to a native string: P6opaque, Junction
+  in block <unit> at ryan-thompson.raku line 4
+
