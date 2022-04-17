@@ -1,0 +1,56 @@
+ 
+===> 039/1/adam-russell.pl <===
+1 hours 50 minutes
+ 
+===> 039/1/andrezgz.pl <===
+Periods with lights ON:
+* 09:10 to 11:00 (110 minutes) 
+Light ON for 110 minutes
+ 
+===> 039/1/burkhard-nickels.pl <===
+ch-1.pl (Version 1.0) PWC #39 Task #1: Guest House
+      Alex: 09:10 - 09:45
+    Arnold: 09:15 - 09:33
+       Bob: 09:22 - 09:55
+   Charlie: 09:25 - 10:05
+     Steve: 09:33 - 10:01
+     Roger: 09:44 - 10:12
+     David: 09:57 - 10:23
+      Neil: 10:01 - 10:19
+     Chris: 10:10 - 11:00
+Duration 1:50 (09:10:00 - 11:00:00)
+ 
+===> 039/1/colin-crain.pl <===
+the light was on for 110 minutes
+ 
+===> 039/1/e-choroba.pl <===
+111
+ 
+===> 039/1/javier-luque.pl <===
+Lights on for: 110 minutes
+ 
+===> 039/1/laurent-rosenfeld.pl <===
+Total time on: 410 minutes.
+ 
+===> 039/1/ndelucca.pl <===
+The lights where on for 110 minutes
+ 
+===> 039/1/paulo-custodio.pl <===
+110
+ 
+===> 039/1/roger-bell-west.pl <===
+110
+ 
+===> 039/1/ruben-westerberg.pl <===
+Lights on for 110 minutes
+ 
+===> 039/1/ryan-thompson.pl <===
+167
+ 
+===> 039/1/saiftynet.pl <===
+Lights on between 09:10 and 11:00 (for 110 minutes)
+Lights on between 14:50 and 15:30 (for 40 minutes)
+Total lights on period 150 minutes
+ 
+===> 039/1/steven-wilson.pl <===
+Lights were on for 111 minutes

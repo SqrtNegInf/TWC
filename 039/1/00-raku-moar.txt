@@ -1,0 +1,95 @@
+ 
+===> 039/1/arne-sommer.raku <===
+The light was ON for 110 minutes.
+ 
+===> 039/1/daniel-mita.raku <===
+
+09:10
+Light has been switched on
+Alex has signed in
+
+09:15
+Arnold has signed in
+
+09:22
+Bob has signed in
+
+09:25
+Charlie has signed in
+
+09:33
+Steve has signed in
+Arnold has signed out
+Leave light on for Alex, Bob, Charlie, Steve
+
+09:44
+Roger has signed in
+
+09:45
+Alex has signed out
+Leave light on for Bob, Charlie, Steve, Roger
+
+09:55
+Bob has signed out
+Leave light on for Charlie, Steve, Roger
+
+09:57
+David has signed in
+
+10:01
+Neil has signed in
+Steve has signed out
+Leave light on for Charlie, Roger, David, Neil
+
+10:05
+Charlie has signed out
+Leave light on for Roger, David, Neil
+
+10:10
+Chris has signed in
+
+10:12
+Roger has signed out
+Leave light on for David, Neil, Chris
+
+10:19
+Neil has signed out
+Leave light on for David, Chris
+
+10:23
+David has signed out
+Leave light on for Chris
+
+11:00
+Chris has signed out
+Looks like nobody is here
+Light has been switched off
+
+Light was on for 110 minutes
+ 
+===> 039/1/javier-luque.raku <===
+Lights on for: 110 minutes
+ 
+===> 039/1/kevin-colyer.raku <===
+110 minutes the lights were on
+ 
+===> 039/1/laurent-rosenfeld.raku <===
+Total time on: 410 minutes.
+ 
+===> 039/1/noud.raku <===
+The light was on for 110 minutes
+ 
+===> 039/1/roger-bell-west.raku <===
+110
+ 
+===> 039/1/ruben-westerberg.raku <===
+Lights on for 110 minutes
+ 
+===> 039/1/ryan-thompson.raku <===
+167
+ 
+===> 039/1/stuart-little.raku <===
+110
+ 
+===> 039/1/ulrich-rieke.raku <===
+Longest time lights on is 110 minutes!
