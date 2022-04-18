@@ -1,0 +1,31 @@
+not ok
+  in block <unit> at arne-sommer.raku line 3
+
+not ok
+  in block <unit> at mark-anderson.raku line 5
+
+[31m===[0mSORRY![31m===[0m Error while compiling /Users/dhoekman/PWC/037/2/rnuttall.raku
+Could not find HTML::Parser::XML in:
+    file#/Users/dhoekman/PWC/037/2/lib
+    inst#/Users/dhoekman/.raku
+    inst#/Users/dhoekman/.rakubrew/versions/moar-blead/install/share/perl6/site
+    inst#/Users/dhoekman/.rakubrew/versions/moar-blead/install/share/perl6/vendor
+    inst#/Users/dhoekman/.rakubrew/versions/moar-blead/install/share/perl6/core
+    ap#
+    nqp#
+    perl5#
+at /Users/dhoekman/PWC/037/2/rnuttall.raku:11
+not ok
+  in block <unit> at ruben-westerberg.raku line 3
+
+[31m===[0mSORRY![31m===[0m Error while compiling /Users/dhoekman/PWC/037/2/stuart-little.raku
+Could not find HTTP::Tiny in:
+    file#/Users/dhoekman/PWC/037/2/lib
+    inst#/Users/dhoekman/.raku
+    inst#/Users/dhoekman/.rakubrew/versions/moar-blead/install/share/perl6/site
+    inst#/Users/dhoekman/.rakubrew/versions/moar-blead/install/share/perl6/vendor
+    inst#/Users/dhoekman/.rakubrew/versions/moar-blead/install/share/perl6/core
+    ap#
+    nqp#
+    perl5#
+at /Users/dhoekman/PWC/037/2/stuart-little.raku:5

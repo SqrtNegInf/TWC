@@ -1,0 +1,42 @@
+not ok
+  in block <unit> at arne-sommer.raku line 3
+
+[31m===[0mSORRY![31m===[0m Error while compiling /Users/dhoekman/PWC/037/2/rnuttall.raku
+Could not find HTML::Parser::XML in:
+    file#/Users/dhoekman/PWC/037/2/lib
+    inst#/Users/dhoekman/.raku
+    inst#/Users/dhoekman/.rakubrew/versions/jvm-2022.03/install/share/perl6/site
+    inst#/Users/dhoekman/.rakubrew/versions/jvm-2022.03/install/share/perl6/vendor
+    inst#/Users/dhoekman/.rakubrew/versions/jvm-2022.03/install/share/perl6/core
+    ap#
+    nqp#
+    perl5#
+    javart#
+at /Users/dhoekman/PWC/037/2/rnuttall.raku:11
+[31m===[0mSORRY![31m===[0m Error while compiling /Users/dhoekman/PWC/037/2/roger-bell-west.raku
+Could not find Gumbo in:
+    file#/Users/dhoekman/PWC/037/2/lib
+    inst#/Users/dhoekman/.raku
+    inst#/Users/dhoekman/.rakubrew/versions/jvm-2022.03/install/share/perl6/site
+    inst#/Users/dhoekman/.rakubrew/versions/jvm-2022.03/install/share/perl6/vendor
+    inst#/Users/dhoekman/.rakubrew/versions/jvm-2022.03/install/share/perl6/core
+    ap#
+    nqp#
+    perl5#
+    javart#
+at /Users/dhoekman/PWC/037/2/roger-bell-west.raku:3
+not ok
+  in block <unit> at ruben-westerberg.raku line 3
+
+[31m===[0mSORRY![31m===[0m Error while compiling /Users/dhoekman/PWC/037/2/stuart-little.raku
+Could not find HTTP::Tiny in:
+    file#/Users/dhoekman/PWC/037/2/lib
+    inst#/Users/dhoekman/.raku
+    inst#/Users/dhoekman/.rakubrew/versions/jvm-2022.03/install/share/perl6/site
+    inst#/Users/dhoekman/.rakubrew/versions/jvm-2022.03/install/share/perl6/vendor
+    inst#/Users/dhoekman/.rakubrew/versions/jvm-2022.03/install/share/perl6/core
+    ap#
+    nqp#
+    perl5#
+    javart#
+at /Users/dhoekman/PWC/037/2/stuart-little.raku:5
