@@ -1,0 +1,196 @@
+ 
+===> 038/2/arne-sommer.raku <===
+- Letters: PALKMEN
+- Legal words: P A L K M E N PA AL AK AM AE AN ME EN PAL PAM PAN PEN ALK ALE ALN AKE AME LEN KEN MEN PALM PALE ALME ALEN AMEN
+Most valuable word(s) at 16 points:
+KEN.
+ 
+===> 038/2/daniel-mita.raku <===
+A      : 1
+A      : 1
+AE     : 3
+AK     : 11
+AKE    : 13
+AL     : 3
+AL     : 3
+ALE    : 5
+ALEM   : 10
+ALEN   : 9
+ALK    : 13
+ALME   : 10
+ALN    : 7
+ALP    : 6
+ALPEN  : 12
+AM     : 6
+AME    : 8
+AMEN   : 12
+AMEN   : 12
+AMPLE  : 13
+AN     : 5
+ANKLE  : 19
+APE    : 6
+E      : 2
+E      : 2
+EA     : 3
+EAN    : 7
+EL     : 4
+ELK    : 14
+ELM    : 9
+EM     : 7
+EM     : 7
+EN     : 6
+ENAM   : 12
+K      : 10
+K      : 10
+KA     : 11
+KALE   : 15
+KAME   : 18
+KAMEL  : 20
+KAN    : 15
+KEA    : 13
+KELP   : 17
+KEMAL  : 20
+KEMP   : 20
+KEN    : 16
+KEN    : 16
+KEP    : 15
+KLAM   : 18
+KLAN   : 17
+KNAP   : 18
+KNAPE  : 20
+L      : 2
+L      : 2
+LA     : 3
+LAK    : 13
+LAK    : 13
+LAKE   : 15
+LAM    : 8
+LAME   : 10
+LAMP   : 11
+LAN    : 7
+LANE   : 9
+LANK   : 17
+LAP    : 6
+LEA    : 5
+LEA    : 5
+LEAK   : 15
+LEAM   : 10
+LEAN   : 9
+LEAP   : 8
+LEK    : 14
+LEMAN  : 14
+LEMNA  : 14
+LEN    : 8
+LENA   : 9
+LEPA   : 8
+M      : 5
+M      : 5
+MA     : 6
+MA     : 6
+MAE    : 8
+MAKE   : 18
+MAL    : 8
+MALE   : 10
+MALE   : 10
+MAN    : 10
+MANE   : 12
+MANK   : 20
+MAP    : 9
+MAPLE  : 13
+ME     : 7
+MEAK   : 18
+MEAL   : 10
+MEAN   : 12
+MEL    : 9
+MELA   : 10
+MEN    : 11
+N      : 4
+N      : 4
+NA     : 5
+NAE    : 7
+NAEL   : 9
+NAK    : 15
+NAKE   : 17
+NAM    : 10
+NAME   : 12
+NAP    : 8
+NAPE   : 10
+NE     : 6
+NEA    : 7
+NEAL   : 9
+NEAL   : 9
+NEAP   : 10
+NEMA   : 12
+NEP    : 9
+NEP    : 9
+NEPA   : 10
+NEPAL  : 12
+P      : 3
+P      : 3
+PA     : 4
+PAL    : 6
+PALE   : 8
+PALM   : 11
+PAM    : 9
+PAM    : 9
+PAN    : 8
+PAN    : 8
+PANE   : 10
+PANEL  : 12
+PANK   : 18
+PEA    : 6
+PEAK   : 16
+PEAL   : 8
+PEAN   : 10
+PEKAN  : 20
+PEN    : 9
+PENAL  : 12
+PENK   : 19
+PLAK   : 16
+PLAN   : 10
+PLANE  : 12
+PLANK  : 20
+PLEA   : 8
+Winner: KEMP for 20
+ 
+===> 038/2/jaldhar-h-vyas.raku <===
+SAMAXMQ = AMMA (12)
+ 
+===> 038/2/javier-luque.raku <===
+Picked tiles: P A L K M E N
+Best word: KEMP with score: 20
+ 
+===> 038/2/kevin-colyer.raku <===
+Loading cached wordlist...
+  Loaded 45787 words.
+ok 1 - test
+ok 2 - test removeTiles
+ok 3 - test removeTiles
+ok 4 - test removeTiles
+1..4
+ 
+===> 038/2/laurent-rosenfeld.raku <===
+The best candidate for list PALKMEN is:
+    kemp (score: 20)
+ 
+===> 038/2/noud.raku <===
+Picked tiles: P A L K M E N
+Best word: 20 PLANK
+ 
+===> 038/2/roger-bell-west.raku <===
+AEKLMNP
+20: KAMEL KEMAL KEMP KNAPE MANK PEKAN PLANK
+ 
+===> 038/2/ruben-westerberg.raku <===
+Contenders (word: score):
+YAWP: 9
+ 
+===> 038/2/ryan-thompson.raku <===
+[O O B B Y W S] Best word: BOWBOY, Score: 23
+ 
+===> 038/2/simon-proctor.raku <===
+ 
+===> 038/2/stuart-little.raku <===
+Seven random letters from your bag: [P A L K M E N]
+
+20 => [(Kamel 20) (Kemal 20) (kemp 20) (knape 20) (mank 20) (pekan 20) (plank 20)]

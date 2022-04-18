@@ -1,0 +1,49 @@
+ 
+===> 038/2/adam-russell.pl <===
+LETTERS: P, A, L, K, M, E, N
+KAMEL has a score of 20.
+These letters were used: A, L, K, M, E.
+ 
+===> 038/2/andrezgz.pl <===
+Tiles drawn (quantity in parentheses): 
+C (x1), I (x1), K (x1), O (x1), Q (x1), S (x1), W (x1)
+Best word: sock - 21 points 
+ 
+===> 038/2/colin-crain.pl <===
+tiles:               [P] [A] [L] [K] [M] [E] [N]
+
+best words found:
+                     KAMEL
+                     KEMAL
+                     KEMP
+                     KNAPE
+                     MANK
+                     PEKAN
+                     PLANK
+
+point score:         20
+ 
+===> 038/2/dave-jacoby.pl <===
+a a e h l p v
+-------------
+    hapale (14)
+ 
+===> 038/2/duane-powell.pl <===
+Seven tiles are: A,L,T,E,Y,A,S
+Most valuable word is: ALYTES at 13 points.
+ 
+===> 038/2/duncan-c-white.pl <===
+overall: hand:AAEHLPV, highscore:14, word:HAPALE
+ 
+===> 038/2/e-choroba.pl <===
+20 Kamel Kemal kemp knape mank pekan plank
+ 
+===> 038/2/jaldhar-h-vyas.pl <===
+ALTEFAS = AFETAL (14)
+ 
+===> 038/2/javier-luque.pl <===
+Picked tiles: P, A, L, K, M, E, N
+Best word: KEMP with score: 20
+ 
+===> 038/2/ryan-thompson.pl <===
+Letters: M I E S V F U. Best word: FUME, Score: 11
