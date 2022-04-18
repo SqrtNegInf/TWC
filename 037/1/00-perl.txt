@@ -1,0 +1,275 @@
+ 
+===> 037/1/adam-russell.pl <===
+January: 23 days
+February: 20 days
+March: 21 days
+April: 22 days
+May: 23 days
+June: 20 days
+July: 23 days
+August: 22 days
+September: 21 days
+October: 23 days
+November: 21 days
+December: 22 days
+ 
+===> 037/1/andrezgz.pl <===
+ Jan: 23 days
+ Feb: 20 days
+ Mar: 21 days
+ Apr: 22 days
+ May: 23 days
+ Jun: 20 days
+ Jul: 23 days
+ Aug: 22 days
+ Sep: 21 days
+ Oct: 23 days
+ Nov: 21 days
+ Dec: 22 days
+ 
+===> 037/1/colin-crain.pl <===
+Jan: 23 days
+Feb: 20 days
+Mar: 21 days
+Apr: 22 days
+May: 23 days
+Jun: 20 days
+Jul: 23 days
+Aug: 22 days
+Sep: 21 days
+Oct: 23 days
+Nov: 21 days
+Dec: 22 days
+ 
+===> 037/1/daniel-mita.pl <===
+Jan: 23
+Feb: 20
+Mar: 21
+Apr: 22
+May: 23
+Jun: 20
+Jul: 23
+Aug: 22
+Sep: 21
+Oct: 23
+Nov: 21
+Dec: 22
+ 
+===> 037/1/dave-jacoby.pl <===
+Jan: 23 days
+Feb: 20 days
+Mar: 21 days
+Apr: 22 days
+May: 23 days
+Jun: 20 days
+Jul: 23 days
+Aug: 22 days
+Sep: 21 days
+Oct: 23 days
+Nov: 21 days
+Dec: 22 days
+ 
+===> 037/1/duane-powell.pl <===
+Usage:
+duane-powell.pl year
+        duane-powell.pl 2019
+        duane-powell.pl 2020
+ 
+===> 037/1/duncan-c-white.pl <===
+Jan 2019: 23 weekdays
+Feb 2019: 20 weekdays
+Mar 2019: 21 weekdays
+Apr 2019: 22 weekdays
+May 2019: 23 weekdays
+Jun 2019: 20 weekdays
+Jul 2019: 23 weekdays
+Aug 2019: 22 weekdays
+Sep 2019: 21 weekdays
+Oct 2019: 23 weekdays
+Nov 2019: 21 weekdays
+Dec 2019: 22 weekdays
+ 
+===> 037/1/e-choroba.pl <===
+1..12
+ok 1 - Jan
+ok 2 - Feb
+ok 3 - Mar
+ok 4 - Apr
+ok 5 - May
+ok 6 - Jun
+ok 7 - Jul
+ok 8 - Aug
+ok 9 - Sep
+ok 10 - Oct
+ok 11 - Nov
+ok 12 - Dec
+ 
+===> 037/1/javier-luque.pl <===
+Jan: 23 days
+Feb: 20 days
+Mar: 21 days
+Apr: 22 days
+May: 23 days
+Jun: 20 days
+Jul: 23 days
+Aug: 22 days
+Sep: 21 days
+Oct: 23 days
+Nov: 21 days
+Dec: 22 days
+ 
+===> 037/1/laurent-rosenfeld.pl <===
+01/2019 has  23 week days.
+02/2019 has  20 week days.
+03/2019 has  21 week days.
+04/2019 has  22 week days.
+05/2019 has  23 week days.
+06/2019 has  20 week days.
+07/2019 has  23 week days.
+08/2019 has  22 week days.
+09/2019 has  21 week days.
+10/2019 has  23 week days.
+11/2019 has  21 week days.
+12/2019 has  22 week days.
+ 
+===> 037/1/lubos-kolouch.pl <===
+3: 21
+10: 23
+1: 23
+11: 21
+6: 20
+2: 20
+12: 22
+7: 23
+5: 23
+9: 21
+8: 22
+4: 22
+ 
+===> 037/1/mark-anderson.pl <===
+Jan:23 days
+Feb:20 days
+Mar:21 days
+Apr:22 days
+May:23 days
+Jun:20 days
+Jul:23 days
+Aug:22 days
+Sep:21 days
+Oct:23 days
+Nov:21 days
+Dec:22 days
+ 
+===> 037/1/paulo-custodio.pl <===
+Jan: 23 days
+Feb: 20 days
+Mar: 21 days
+Apr: 22 days
+May: 23 days
+Jun: 20 days
+Jul: 23 days
+Aug: 22 days
+Sep: 21 days
+Oct: 23 days
+Nov: 21 days
+Dec: 22 days
+ 
+===> 037/1/pete-houston.pl <===
+Jan 23
+Feb 20
+Mar 21
+Apr 22
+May 23
+Jun 20
+Jul 23
+Aug 22
+Sep 21
+Oct 23
+Nov 21
+Dec 22
+ 
+===> 037/1/roger-bell-west.pl <===
+Jan: 23 days
+Feb: 20 days
+Mar: 21 days
+Apr: 22 days
+May: 23 days
+Jun: 20 days
+Jul: 23 days
+Aug: 22 days
+Sep: 21 days
+Oct: 23 days
+Nov: 21 days
+Dec: 22 days
+ 
+===> 037/1/ruben-westerberg.pl <===
+January: 23
+February: 20
+March: 21
+April: 22
+May: 23
+June: 20
+July: 23
+August: 22
+September: 21
+October: 23
+November: 21
+December: 22
+ 
+===> 037/1/ryan-thompson.pl <===
+Jan: 21 days
+Feb: 20 days
+Mar: 23 days
+Apr: 21 days
+May: 22 days
+Jun: 22 days
+Jul: 21 days
+Aug: 23 days
+Sep: 22 days
+Oct: 21 days
+Nov: 22 days
+Dec: 22 days
+ 
+===> 037/1/saiftynet.pl <===
+Answer to 1st Challenge of week 37
+In 2019
+Jan has 23 Weekdays 
+Feb has 20 Weekdays 
+Mar has 21 Weekdays 
+Apr has 22 Weekdays 
+May has 23 Weekdays 
+Jun has 20 Weekdays 
+Jul has 23 Weekdays 
+Aug has 22 Weekdays 
+Sep has 21 Weekdays 
+Oct has 23 Weekdays 
+Nov has 21 Weekdays 
+Dec has 22 Weekdays 
+ 
+===> 037/1/steven-wilson.pl <===
+Jan: 23
+Feb: 20
+Mar: 21
+Apr: 22
+May: 23
+Jun: 20
+Jul: 23
+Aug: 22
+Sep: 21
+Oct: 23
+Nov: 21
+Dec: 22
+ 
+===> 037/1/yet-ebreo.pl <===
+Jan: 23 days
+Feb: 20 days
+Mar: 21 days
+Apr: 22 days
+May: 23 days
+Jun: 20 days
+Jul: 23 days
+Aug: 22 days
+Sep: 21 days
+Oct: 23 days
+Nov: 21 days
+Dec: 22 days

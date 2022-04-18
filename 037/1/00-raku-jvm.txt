@@ -1,0 +1,171 @@
+ 
+===> 037/1/arne-sommer.raku <===
+Jan: 23 days
+Feb: 20 days
+Mar: 21 days
+Apr: 22 days
+May: 23 days
+Jun: 20 days
+Jul: 23 days
+Aug: 22 days
+Sep: 21 days
+Oct: 23 days
+Nov: 21 days
+Dec: 22 days
+ 
+===> 037/1/daniel-mita.raku <===
+Jan: 23
+Feb: 20
+Mar: 21
+Apr: 22
+May: 23
+Jun: 20
+Jul: 23
+Aug: 22
+Sep: 21
+Oct: 23
+Nov: 21
+Dec: 22
+ 
+===> 037/1/javier-luque.raku <===
+Jan: 23 days
+Feb: 20 days
+Mar: 21 days
+Apr: 22 days
+May: 23 days
+Jun: 20 days
+Jul: 23 days
+Aug: 22 days
+Sep: 21 days
+Oct: 23 days
+Nov: 21 days
+Dec: 22 days
+ 
+===> 037/1/kevin-colyer.raku <===
+Jan: 23 days
+Feb: 20 days
+Mar: 21 days
+Apr: 22 days
+May: 23 days
+Jun: 20 days
+Jul: 23 days
+Aug: 22 days
+Sep: 21 days
+Oct: 23 days
+Nov: 21 days
+Dec: 22 days
+ 
+===> 037/1/laurent-rosenfeld.raku <===
+01/2019 has 23 week days.
+02/2019 has 20 week days.
+03/2019 has 21 week days.
+04/2019 has 22 week days.
+05/2019 has 23 week days.
+06/2019 has 20 week days.
+07/2019 has 23 week days.
+08/2019 has 22 week days.
+09/2019 has 21 week days.
+10/2019 has 23 week days.
+11/2019 has 21 week days.
+12/2019 has 22 week days.
+ 
+===> 037/1/mark-anderson.raku <===
+ 
+===> 037/1/noud.raku <===
+Jan: 23 days
+Feb: 20 days
+Mar: 21 days
+Apr: 22 days
+May: 23 days
+Jun: 20 days
+Jul: 23 days
+Aug: 22 days
+Sep: 21 days
+Oct: 23 days
+Nov: 21 days
+Dec: 22 days
+ 
+===> 037/1/rnuttall.raku <===
+Jan: 23
+Feb: 20
+Mar: 21
+Apr: 22
+May: 23
+Jun: 20
+Jul: 23
+Aug: 22
+Sep: 21
+Oct: 23
+Nov: 21
+Dec: 22
+ 
+===> 037/1/roger-bell-west.raku <===
+1: 23 days
+2: 20 days
+3: 21 days
+4: 22 days
+5: 23 days
+6: 20 days
+7: 23 days
+8: 22 days
+9: 21 days
+10: 23 days
+11: 21 days
+12: 22 days
+ 
+===> 037/1/ruben-westerberg.raku <===
+January: 23 week days
+February: 20 week days
+March: 21 week days
+April: 22 week days
+May: 23 week days
+June: 20 week days
+July: 23 week days
+August: 22 week days
+September: 21 week days
+October: 23 week days
+November: 21 week days
+December: 22 week days
+ 
+===> 037/1/simon-proctor.raku <===
+Jan : 23 days
+Feb : 20 days
+Mar : 21 days
+Apr : 22 days
+May : 23 days
+Jun : 20 days
+Jul : 23 days
+Aug : 22 days
+Sep : 21 days
+Oct : 23 days
+Nov : 21 days
+Dec : 22 days
+ 
+===> 037/1/stuart-little.raku <===
+2019
+1 => 23
+2 => 20
+3 => 21
+4 => 22
+5 => 23
+6 => 20
+7 => 23
+8 => 22
+9 => 21
+10 => 23
+11 => 21
+12 => 22
+ 
+===> 037/1/ulrich-rieke.raku <===
+Jan: 23 days
+Feb: 20 days
+Mar: 21 days
+Apr: 22 days
+May: 23 days
+Jun: 20 days
+Jul: 23 days
+Aug: 22 days
+Sep: 21 days
+Oct: 23 days
+Nov: 21 days
+Dec: 22 days
