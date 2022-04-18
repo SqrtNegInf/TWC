@@ -1,3 +1,5 @@
+Output from 'dave-jacoby.pl' flips once in a while.
+
 Bitrot in 'simon-proctor.raku'?
 
 Impossible coercion from 'Str' into 'BTree[Any]': method COERCE returned a type object BTree

@@ -10,8 +10,8 @@ Z: 8
  
 ===> 051/1/andrezgz.pl <===
 Triplets for target 0
-(-7,-3,10)
 (-10,2,8)
+(-7,-3,10)
  
 ===> 051/1/cheok-yin-fung.pl <===
 -10 2 8

@@ -38,7 +38,7 @@ for my $i (0 .. $#L - 2) {
 }
 
 print 'Triplets for target '.TARGET."\n";
-printf "(%s,%s,%s)\n", split /#/ foreach keys %$triplets;
+printf "(%s,%s,%s)\n", split /#/ foreach sort keys %$triplets;
 
 __END__
 
