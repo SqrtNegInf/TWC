@@ -1,3 +1,6 @@
+2022-04-18
+A few tasks flip output infrequently. Live with or remove?
+
 2022-04-13
 Try to tame randomness:
 perl -i -np0 -e 's/\n/\n\nsrand 1;\n/' *raku *pl

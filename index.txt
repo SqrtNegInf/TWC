@@ -1,9 +1,30 @@
 Challenge titles and Rosetta-code correspondences (exact, and otherwise)
 
-040-1
-040-2
-041-1
-041-2
+030-1
+030-2
+031-1
+031-2
+032-1
+032-2
+033-1
+033-2
+034-1
+034-2
+035-1
+035-2
+036-1
+036-2
+037-1 Weekdays in Month                     D/Day_of_the_week
+037-2 Daylight
+038-1 Date Finder
+038-2 Word Game
+039-1 Guest Book                            R/Range_consolidation
+039-2 Reverse Polish Notation               P/Parsing_RPN_calculator_algorithm P/Parsing_RPN_to_infix_conversion
+
+040-1 Multiple Arrays Content               L/Loop_over_multiple_arrays_simultaneously (roundrobin)
+040-2 Sort Sublist                          S/Sort_disjoint_sublist
+041-1 Attractive Numbers                    A/Attractive_numbers
+041-2 Leonardo Numbers                      L/Leonardo_numbers
 042-1 Octal Numbers                         C/Count_in_octal
 042-2 Balanced Brackets                     B/Balanced_brackets
 043-1 Olympic Rings                         0/4-rings_or_4-squares_puzzle
@@ -337,27 +358,6 @@ raku -e '.say for ^2 X~ ^10 X~ ^10 X~ <-1 -2>'
 028-2
 029-1
 029-2
-
-030-1
-030-2
-031-1
-031-2
-032-1
-032-2
-033-1
-033-2
-034-1
-034-2
-035-1
-035-2
-036-1
-036-2
-037-1
-037-2
-038-1
-038-2
-039-1
-039-2
 
 =====
 
