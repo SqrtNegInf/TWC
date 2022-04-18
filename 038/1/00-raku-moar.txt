@@ -1,0 +1,44 @@
+ 
+===> 038/1/arne-sommer.raku <===
+1923-01-20
+ 
+===> 038/1/daniel-mita.raku <===
+2023-01-20
+ 
+===> 038/1/jaldhar-h-vyas.raku <===
+1923-01-20
+ 
+===> 038/1/javier-luque.raku <===
+1923-01-20
+ 
+===> 038/1/kevin-colyer.raku <===
+ok 1 - Example given
+ok 2 - Example
+ok 3 - not a Leap year
+ok 4 - only 30 days in june
+ok 5 - only 12 months
+ok 6 - only 7 digits
+1..6
+ 
+===> 038/1/laurent-rosenfeld.raku <===
+2230120 is equivalent to 1923-01-20.
+ 
+===> 038/1/noud.raku <===
+1923-01-20
+ 
+===> 038/1/roger-bell-west.raku <===
+2230120 has invalid day 20
+
+ 
+===> 038/1/ruben-westerberg.raku <===
+Input 2230120 OK
+1923-01-20
+ 
+===> 038/1/ryan-thompson.raku <===
+2023-01-20
+ 
+===> 038/1/simon-proctor.raku <===
+1923-01-20
+ 
+===> 038/1/stuart-little.raku <===
+1923-01-20
