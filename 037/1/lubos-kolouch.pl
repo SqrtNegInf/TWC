@@ -40,7 +40,7 @@ while ($dt->year == 2019) {
    $dt->add(days => 1);
 }
 
-for (keys %month)  {
+for (sort keys %month)  {
     print "$_: $month{$_}\n";
 }
 #warn Dumper \%month;

@@ -49,7 +49,7 @@ my $done;
 
 # DIAMETER refers to the edge count, not the node count, 
 # so the it's the node count minus one
-say join "\n", map { join " ", ( -1 + scalar $_->@* ), ':', $_->@* }
+say join "\n", sort map { join " ", ( -1 + scalar $_->@* ), ':', $_->@* }
 
     @diameters;
 
