@@ -2,6 +2,7 @@
 
 die 'not ok';
 
+#`{{
 use HTTP::Tiny;
 
 sub sec_daylight($month,$year) {
@@ -18,3 +19,4 @@ sub sec_to_hms(Int $sec where * >= 0) {
 say "Nov 2019 seconds of daylight: ", my $nov=sec_daylight(11,2019);
 say "Dec 2019 seconds of daylight: ", my $dec=sec_daylight(12,2019);
 say "Difference: {$dec - $nov} seconds, i.e. {((($dec-$nov).sign == -1) ?? "-" !! "")}(%s hours, %s minutes and %s seconds)".sprintf(|sec_to_hms(abs($dec-$nov))); 
+}}

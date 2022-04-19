@@ -6,26 +6,26 @@ not ok
 
 [31m===[0mSORRY![31m===[0m Error while compiling /Users/dhoekman/PWC/037/2/rnuttall.raku
 Could not find HTML::Parser::XML in:
-    file#/Users/dhoekman/PWC/037/2/lib
-    inst#/Users/dhoekman/.raku
-    inst#/Users/dhoekman/.rakubrew/versions/moar-blead/install/share/perl6/site
-    inst#/Users/dhoekman/.rakubrew/versions/moar-blead/install/share/perl6/vendor
-    inst#/Users/dhoekman/.rakubrew/versions/moar-blead/install/share/perl6/core
-    ap#
-    nqp#
-    perl5#
+    /Users/dhoekman/PWC/037/2/lib
+    /Users/dhoekman/.raku
+    /Users/dhoekman/.rakubrew/versions/moar-blead/install/share/perl6/site
+    /Users/dhoekman/.rakubrew/versions/moar-blead/install/share/perl6/vendor
+    /Users/dhoekman/.rakubrew/versions/moar-blead/install/share/perl6/core
+    CompUnit::Repository::AbsolutePath<140265182135752>
+    CompUnit::Repository::NQP<140265156776232>
+    CompUnit::Repository::Perl5<140265156776272>
 at /Users/dhoekman/PWC/037/2/rnuttall.raku:11
 not ok
   in block <unit> at ruben-westerberg.raku line 3
 
 [31m===[0mSORRY![31m===[0m Error while compiling /Users/dhoekman/PWC/037/2/stuart-little.raku
 Could not find HTTP::Tiny in:
-    file#/Users/dhoekman/PWC/037/2/lib
-    inst#/Users/dhoekman/.raku
-    inst#/Users/dhoekman/.rakubrew/versions/moar-blead/install/share/perl6/site
-    inst#/Users/dhoekman/.rakubrew/versions/moar-blead/install/share/perl6/vendor
-    inst#/Users/dhoekman/.rakubrew/versions/moar-blead/install/share/perl6/core
-    ap#
-    nqp#
-    perl5#
+    /Users/dhoekman/PWC/037/2/lib
+    /Users/dhoekman/.raku
+    /Users/dhoekman/.rakubrew/versions/moar-blead/install/share/perl6/site
+    /Users/dhoekman/.rakubrew/versions/moar-blead/install/share/perl6/vendor
+    /Users/dhoekman/.rakubrew/versions/moar-blead/install/share/perl6/core
+    CompUnit::Repository::AbsolutePath<140244729051592>
+    CompUnit::Repository::NQP<140244753605928>
+    CompUnit::Repository::Perl5<140244753605968>
 at /Users/dhoekman/PWC/037/2/stuart-little.raku:5
