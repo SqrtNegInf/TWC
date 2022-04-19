@@ -1,0 +1,108 @@
+ 
+===> 036/1/adam-russell.pl <===
+1
+ 
+===> 036/1/andrezgz.pl <===
+character validation: OK
+length validation: OK
+model year validation: OK
+VIN JTHBE96S280041733 is valid
+ 
+===> 036/1/colin-crain.pl <===
+result of 1 indicates failure:
+length 17 chars     VALID
+alphanumeric        VALID
+model year encoding VALID
+checksum digit      NOT NORTH AMERICA OR CHINA
+ 
+===> 036/1/duane-powell.pl <===
+JTHBE96S280041733 is valid.
+5YJSA1DP7DFP21717 is valid.
+5XXJSA1DP7DFP217171 is not the expected length
+Checkdigit mismatch; expected 0, got P
+ 
+===> 036/1/e-choroba.pl <===
+1..19
+ok 1 - too long
+ok 2 - too short
+ok 3 - capital O
+ok 4 - capital I
+ok 5 - capital Q
+ok 6 - valid outside NA
+ok 7 - NA vis
+ok 8 - invalid year
+ok 9 - straight-ones
+ok 10 - hypothetical
+ok 11 - hypothetical NA
+ok 12 - valid exmple
+ok 13 - valid NA exmple
+ok 14 - outside NA and China
+ok 15 - invalid check
+ok 16 - outside NA and China
+ok 17 - invalid check
+ok 18 - outside NA and China
+ok 19 - invalid check
+ 
+===> 036/1/jaldhar-h-vyas.pl <===
+VALID
+ 
+===> 036/1/javier-luque.pl <===
+SCFFDAAM4EGA15321 is valid.
+JTHBA30G355101885 is valid.
+1D7HA18P57J602071 is valid.
+WA1LFAFP7EA118600 is valid.
+1NXBU40E39Z155675 is valid.
+3VWSK69MX5M058145 is valid.
+JS3TY92V534101150 is valid.
+WDDHF5KBXEA837164 is valid.
+SCFFDAAM4EGA1$321 is not valid.
+JTHBA30G3Z5101885 is not valid.
+1D7HA18P57J602072 is not valid.
+1NXBU40E79Z15567x is not valid.
+ 
+===> 036/1/laurent-rosenfeld.pl <===
+Correct
+ 
+===> 036/1/lubos-kolouch.pl <===
+valid
+ 
+===> 036/1/petr-roubicek.pl <===
+Country or region code: JT
+VIN: JTHBE96S280041733 > OK 
+===> 036/1/roger-bell-west.pl <===
+JTHBE96S280041733 is valid.
+ 
+===> 036/1/ruben-westerberg.pl <===
+Testing JTHBE96S280041733: OK
+ 
+===> 036/1/saiftynet.pl <===
+2HGFG11628H511085 is a valid VIN
+1HD1FC4107Y692634 is a valid VIN
+1G4CW54K614187447 is a valid VIN
+1FMDU34X7RUB06879 is a valid VIN
+1G1ZB5E06CF321106 is a valid VIN
+1G4CW54K61418Q447 is invalid: Invalid character 'Q' found
+1FMDU34X7RUB0679 is invalid: VIN must be 17 characters
+1G1Z35E06CF321106 is invalid: Invalid CheckDigit 6; calculated X
+ 
+===> 036/1/steven-wilson.pl <===
+1..16
+ok 1 - test valid VIN
+ok 2 - 18 digits is invalid
+ok 3 - invalid digit
+ok 4 - invalid digit 10
+ok 5 - valid Canadian VIN
+ok 6 - invalid Canadian VIN
+ok 7 - valid European VIN
+ok 8 - yr when digit 7 numeric
+ok 9 - yr when digit 7 alphabetic
+ok 10 - yr when digit 10 0
+ok 11 - yr when digit 10 alphabetic
+ok 12 - check digit is X
+ok 13 - check digit is numeric
+ok 14 - check digit 17 x '1' is 1
+ok 15 - check wmi present
+ok 16 - check wmi undef
+ 
+===> 036/1/yet-ebreo.pl <===
+VIN is valid

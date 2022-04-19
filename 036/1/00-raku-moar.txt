@@ -1,0 +1,50 @@
+ 
+===> 036/1/arne-sommer.raku <===
+Not a legal VIN
+ 
+===> 036/1/daniel-mita.raku <===
+｢JTHBE96S280041733｣
+ WMI => ｢JTH｣
+ VDS => ｢BE96S2｣
+ VIS => ｢80041733｣
+ 
+===> 036/1/jaldhar-h-vyas.raku <===
+VALID
+ 
+===> 036/1/javier-luque.raku <===
+SCFFDAAM4EGA15321 is valid.
+JTHBA30G355101885 is valid.
+1D7HA18P57J602071 is valid.
+WA1LFAFP7EA118600 is valid.
+1NXBU40E39Z155675 is valid.
+3VWSK69MX5M058145 is valid.
+JS3TY92V534101150 is valid.
+WDDHF5KBXEA837164 is valid.
+SCFFDAAM4EGA1$321 is not valid.
+JTHBA30G3Z5101885 is not valid.
+1D7HA18P57J602072 is not valid.
+1NXBU40E79Z15567X is not valid.
+ 
+===> 036/1/kevin-colyer.raku <===
+ok 1 - invalid vin character: I,O or Q
+ok 2 - invalid vin length 18
+ok 3 - Vin is valid = all 1's'
+ok 4 - invalid - failed checksum
+ok 5 - Vin is valid = wikipedia example
+1..5
+ 
+===> 036/1/laurent-rosenfeld.raku <===
+Correct
+ 
+===> 036/1/roger-bell-west.raku <===
+JTHBE96S280041733 is valid.
+ 
+===> 036/1/ruben-westerberg.raku <===
+Testing JTHBE96S280041733: OK
+ 
+===> 036/1/simon-proctor.raku <===
+Valid VIN JTHBE96S280041733
+ 
+===> 036/1/ulrich-rieke.raku <===
+JTHBE96S280041733 is valid by European standards!
+ and additionally by North American standards!
