@@ -1,0 +1,55 @@
+ 
+===> 036/2/arne-sommer.raku <===
+B,G,P,R: 8 kg at £ 15.
+ 
+===> 036/2/jaldhar-h-vyas.raku <===
+For 2 boxes, the best combination is BP which weighs 5 kg and is valued £12.
+For 3 boxes, the best combination is BGP which weighs 7 kg and is valued £14.
+For 4 boxes, the best combination is RBGP which weighs 8 kg and is valued £15.
+for 5 boxes, it is not possible to meet the criteria.
+ 
+===> 036/2/javier-luque.raku <===
+Max weight: 15, max boxes: Inf. Boxes in knapsack: PPPBBB 15kg £36
+Max weight: 15, max boxes: 2. Boxes in knapsack: PP 8kg £20
+Max weight: 15, max boxes: 3. Boxes in knapsack: PPP 12kg £30
+Max weight: 15, max boxes: 4. Boxes in knapsack: PPPB 13kg £32
+ 
+===> 036/2/kevin-colyer.raku <===
+(max boxes 5, max weight 15)
+Best boxes are B G P R
+total weight: 8Kg, value: £15
+
+Bonus
+Optimal number of boxes to maximise value for 2 to 4 boxes is: 
+4 with 8Kg, value: £15
+ 
+===> 036/2/laurent-rosenfeld.raku <===
+Max: 15;       B G P R
+ 
+===> 036/2/roger-bell-west.raku <===
+15 in 8
+ 
+===> 036/2/ruben-westerberg.raku <===
+Selected boxes: P P P B B B
+Total cost: 36
+Total weight: 15
+ 
+===> 036/2/simon-proctor.raku <===
+I can take up to 5 boxes weighing up to 15kg from this selection
+1kg worth £1
+1kg worth £2
+2kg worth £2
+12kg worth £4
+4kg worth £10
+I think I'll take :
+1kg worth £1
+1kg worth £2
+2kg worth £2
+4kg worth £10
+Which weighs 8kg and is worth £15
+ 
+===> 036/2/stuart-little.raku <===
+(8 15 B G P R)
+ 
+===> 036/2/ulrich-rieke.raku <===
+The packages R B G P have a weight of 8 kg and a value of 15 pounds !

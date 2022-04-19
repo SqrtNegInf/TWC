@@ -1,0 +1,109 @@
+ 
+===> 036/2/adam-russell.pl <===
+15
+ 
+===> 036/2/andrezgz.pl <===
+Optimal combination: B,G,P,R
+Knapsack weight: 8 kg
+Knapsack amount: £15
+ 
+===> 036/2/colin-crain.pl <===
+(1,0) bounded max payout:   15
+(1,0) bounded knapsack set: BGPR
+ 
+===> 036/2/duncan-c-white.pl <===
+general:
+ Box  Quantity  Unit Weight  Weight  Unit Value  Value
+  P       3         4 kg      12 kg      £ 10    £ 30
+  B       3         1 kg       3 kg      £  2    £  6
+ Total                        15 kg              £ 36
+
+2 boxes:
+ Box  Quantity  Unit Weight  Weight  Unit Value  Value
+  P       2         4 kg       8 kg      £ 10    £ 20
+ Total                         8 kg              £ 20
+
+3 boxes:
+ Box  Quantity  Unit Weight  Weight  Unit Value  Value
+  P       3         4 kg      12 kg      £ 10    £ 30
+ Total                        12 kg              £ 30
+
+4 boxes:
+ Box  Quantity  Unit Weight  Weight  Unit Value  Value
+  P       3         4 kg      12 kg      £ 10    £ 30
+  B       1         1 kg       1 kg      £  2    £  2
+ Total                        13 kg              £ 32
+
+ 
+===> 036/2/e-choroba.pl <===
+1..5
+ok 1
+ok 2
+ok 3
+ok 4
+ok 5
+ 
+===> 036/2/jaldhar-h-vyas.pl <===
+For 2 boxes, the best combination is BP which weighs 5 kg and is valued £12.
+For 3 boxes, the best combination is BGP which weighs 7 kg and is valued £14.
+For 4 boxes, the best combination is RBGP which weighs 8 kg and is valued £15.
+for 5 boxes, it is not possible to meet the criteria.
+ 
+===> 036/2/javier-luque.pl <===
+Max weight: 15. Boxes in knapsack: PPPBBB 15kg £36
+Max weight: 15, max boxes: 2. Boxes in knapsack: PP 8kg £20
+Max weight: 15, max boxes: 3. Boxes in knapsack: PPP 12kg £30
+Max weight: 15, max boxes: 4. Boxes in knapsack: PPPB 13kg £32
+ 
+===> 036/2/laurent-rosenfeld.pl <===
+Max: 15, Boxes:  B-G-P-R
+ 
+===> 036/2/lubos-kolouch.pl <===
+Best combination for 1 boxes is P with value 10
+Best combination for 2 boxes is B P with value 12
+Best combination for 3 boxes is B G P with value 14
+Best combination for 4 boxes is B G P R with value 15
+There is no possible combination for 5 boxes under or equal weight 15
+ 
+===> 036/2/mark-anderson.pl <===
+--------------------------------
+Boxes | Colors | Weight | Amount
+--------------------------------
+1       P        4        10
+2       BP       5        12
+3       BGP      7        14
+4       RBGP     8        15
+ 
+===> 036/2/paulo-custodio.pl <===
+BGPR
+ 
+===> 036/2/petr-roubicek.pl <===
+RBGP => amount = £15, weight =  8kg
+ 
+===> 036/2/roger-bell-west.pl <===
+15 in 8
+ 
+===> 036/2/ruben-westerberg.pl <===
+Selected boxes: P P P B B B
+Total cost: 36
+Total weight 15
+ 
+===> 036/2/saiftynet.pl <===
+With 1 Items in knapsack,
+   Best Combination is p
+   Best amount is £10
+   
+With 2 Items in knapsack,
+   Best Combination is pp
+   Best amount is £20
+   
+With 3 Items in knapsack,
+   Best Combination is ppp
+   Best amount is £30
+   
+ 
+===> 036/2/steven-wilson.pl <===
+With 2 boxes: B (1 kg) P (4 kg) (GBP 12) should be choosen.
+With 3 boxes: B (1 kg) G (2 kg) P (4 kg) (GBP 14) should be choosen.
+With 4 boxes: R (1 kg) B (1 kg) G (2 kg) P (4 kg) (GBP 15) should be choosen.
+With 5 boxes: R (1 kg) B (1 kg) G (2 kg) P (4 kg) (GBP 15) should be choosen.
