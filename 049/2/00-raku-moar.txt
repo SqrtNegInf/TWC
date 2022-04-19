@@ -119,19 +119,20 @@ Inital backing store  contents:
 
 Operation: 0
 
-Write cache: 
-Updating cache: 1 =>  57
-LRU keys: 1
+Read Cache: 
+-Miss
+Read backing store
+Updating cache: 4 =>  1
+LRU keys: 4
 
 
 ====================
 
 Operation: 1
 
-Read Cache: 
--Miss
-Read backing store
-LRU keys: 1
+Write cache: 
+Updating cache: 0 =>  53
+LRU keys: 4, 0
 
 
 ====================
@@ -139,27 +140,28 @@ LRU keys: 1
 Operation: 2
 
 Write cache: 
-Updating cache: 14 =>  38
-LRU keys: 1, 14
+Updating cache: 14 =>  63
+LRU keys: 4, 0, 14
 
 
 ====================
 
 Operation: 3
 
-Write cache: 
-Updating cache: 8 =>  90
-LRU keys: 1, 14, 8
+Read Cache: 
+-Miss
+Read backing store
+Updating cache: 2 =>  8
+LRU keys: 4, 0, 14, 2
 
 
 ====================
 
 Operation: 4
 
-Read Cache: 
--Miss
-Read backing store
-LRU keys: 1, 14, 8
+Write cache: 
+Updating cache: 0 =>  40
+LRU keys: 4, 14, 2, 0
 
 
 ====================
@@ -169,27 +171,26 @@ Operation: 5
 Read Cache: 
 -Miss
 Read backing store
-LRU keys: 1, 14, 8
+LRU keys: 4, 14, 2, 0
 
 
 ====================
 
 Operation: 6
 
-Write cache: 
-Updating cache: 7 =>  12
-LRU keys: 1, 14, 8, 7
+Read Cache: 
+-Miss
+Read backing store
+LRU keys: 4, 14, 2, 0
 
 
 ====================
 
 Operation: 7
 
-Read Cache: 
--Miss
-Read backing store
-Updating cache: 0 =>  8
-LRU keys: 1, 14, 8, 7, 0
+Write cache: 
+Updating cache: 16 =>  30
+LRU keys: 4, 14, 2, 0, 16
 
 
 ====================
@@ -199,37 +200,42 @@ Operation: 8
 Read Cache: 
 -Miss
 Read backing store
-LRU keys: 1, 14, 8, 7, 0
+Updating cache: 7 =>  0
+Cache overflow
+Write backing store
+LRU keys: 14, 2, 0, 16, 7
 
 
 ====================
 
 Operation: 9
 
-Read Cache: 
--Miss
-Read backing store
-LRU keys: 1, 14, 8, 7, 0
+Write cache: 
+Updating cache: 16 =>  64
+LRU keys: 14, 2, 0, 7, 16
 
 
 ====================
 
 Operation: 10
 
-Write cache: 
-Updating cache: 18 =>  31
-Cache overflow
-Write backing store
-LRU keys: 14, 8, 7, 0, 18
+Read Cache: 
+-Miss
+Read backing store
+LRU keys: 14, 2, 0, 7, 16
 
 
 ====================
 
 Operation: 11
 
-Write cache: 
-Updating cache: 18 =>  55
-LRU keys: 14, 8, 7, 0, 18
+Read Cache: 
+-Miss
+Read backing store
+Updating cache: 5 =>  0
+Cache overflow
+Write backing store
+LRU keys: 2, 0, 7, 16, 5
 
 
 ====================
@@ -239,10 +245,8 @@ Operation: 12
 Read Cache: 
 -Miss
 Read backing store
-Updating cache: 5 =>  0
-Cache overflow
-Write backing store
-LRU keys: 8, 7, 0, 18, 5
+Updating cache: 7 =>  0
+LRU keys: 2, 0, 16, 5, 7
 
 
 ====================
@@ -250,19 +254,20 @@ LRU keys: 8, 7, 0, 18, 5
 Operation: 13
 
 Write cache: 
-Updating cache: 16 =>  64
+Updating cache: 18 =>  83
 Cache overflow
 Write backing store
-LRU keys: 7, 0, 18, 5, 16
+LRU keys: 0, 16, 5, 7, 18
 
 
 ====================
 
 Operation: 14
 
-Write cache: 
-Updating cache: 0 =>  14
-LRU keys: 7, 18, 5, 16, 0
+Read Cache: 
+-Miss
+Read backing store
+LRU keys: 0, 16, 5, 7, 18
 
 
 ====================
@@ -272,19 +277,17 @@ Operation: 15
 Read Cache: 
 -Miss
 Read backing store
-Updating cache: 5 =>  0
-LRU keys: 7, 18, 16, 0, 5
+LRU keys: 0, 16, 5, 7, 18
 
 
 ====================
 
 Operation: 16
 
-Write cache: 
-Updating cache: 1 =>  38
-Cache overflow
-Write backing store
-LRU keys: 18, 16, 0, 5, 1
+Read Cache: 
+-Miss
+Read backing store
+LRU keys: 0, 16, 5, 7, 18
 
 
 ====================
@@ -292,10 +295,10 @@ LRU keys: 18, 16, 0, 5, 1
 Operation: 17
 
 Write cache: 
-Updating cache: 17 =>  94
+Updating cache: 19 =>  18
 Cache overflow
 Write backing store
-LRU keys: 16, 0, 5, 1, 17
+LRU keys: 16, 5, 7, 18, 19
 
 
 ====================
@@ -303,10 +306,8 @@ LRU keys: 16, 0, 5, 1, 17
 Operation: 18
 
 Write cache: 
-Updating cache: 7 =>  92
-Cache overflow
-Write backing store
-LRU keys: 0, 5, 1, 17, 7
+Updating cache: 16 =>  50
+LRU keys: 5, 7, 18, 19, 16
 
 
 ====================
@@ -316,13 +317,12 @@ Operation: 19
 Read Cache: 
 -Miss
 Read backing store
-Updating cache: 0 =>  8
-LRU keys: 5, 1, 17, 7, 0
+LRU keys: 5, 7, 18, 19, 16
 
 
 ====================
 Resulting backing store before flush/sync of lru cache
-8, 57, 8, 9, 1, 0, 6, 12, 90, 8, N/A, N/A, N/A, N/A, 38, N/A, 64, N/A, 55
+40, 9, 8, 9, 1, 0, 6, 0, 8, 8, N/A, N/A, N/A, N/A, 63
 
 Syncing cache
 Write backing store
@@ -331,7 +331,7 @@ Write backing store
 Write backing store
 Write backing store
 Resulting backing store after sync 
-8, 38, 8, 9, 1, 0, 6, 92, 90, 8, N/A, N/A, N/A, N/A, 38, N/A, 64, 94, 55
+40, 9, 8, 9, 1, 0, 6, 0, 8, 8, N/A, N/A, N/A, N/A, 63, N/A, 50, N/A, 83, 18
 
  
 ===> 049/2/ryan-thompson.raku <===
@@ -370,13 +370,13 @@ ok 30 -
 ===> 049/2/simon-proctor.raku <===
  
 ===> 049/2/stuart-little.raku <===
-key: 1,   value: nqf
-key: 2,   value: cyz
-key: 3,   value: bep
+key: 1,   value: ath
+key: 2,   value: luw
+key: 3,   value: fdw
 
 Setting new item at key 4..
 
 New cache:
-key: 2,   value: cyz
-key: 3,   value: bep
-key: 4,   value: phy
+key: 2,   value: luw
+key: 3,   value: fdw
+key: 4,   value: xdb
