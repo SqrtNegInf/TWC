@@ -1,3 +1,6 @@
+2022-04-19
+With moar-blead update, many Raku/MoarVM results change, srand 'drift'.  
+
 2022-04-18
 A few tasks flip output infrequently. Live with or remove?
 

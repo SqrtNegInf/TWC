@@ -6,18 +6,18 @@ Challenge titles and Rosetta-code correspondences (exact, and otherwise)
 031-2
 032-1
 032-2
-033-1
-033-2
-034-1
-034-2
-035-1
-035-2
-036-1
-036-2
+033-1 Count Char Frequency                  L/Letter_frequency
+033-2 Mult. Table (UT)                      M/Multiplication_tables
+034-1 Hash/Array Slices                     A/Arrays H/Hash_from_two_arrays
+034-2 Dispatch Table
+035-1 Encode binary Morse
+035-2 Decode binary Morse                   M/Morse_code
+036-1 VIN                                   V/Validate_International_Securities_Identification_Number
+036-2 Knapsack                              K/Knapsack_problem_0_1
 037-1 Weekdays in Month                     D/Day_of_the_week
 037-2 Daylight
 038-1 Date Finder
-038-2 Word Game
+038-2 Word Game (best Scrabble word)
 039-1 Guest Book                            R/Range_consolidation
 039-2 Reverse Polish Notation               P/Parsing_RPN_calculator_algorithm P/Parsing_RPN_to_infix_conversion
 
@@ -275,8 +275,8 @@ Challenge titles and Rosetta-code correspondences (exact, and otherwise)
 
 160-1 Four is Magic                         F/Four_is_magic
 160-2 Equilibrium Index
-161-1
-161-2
+161-1 Abecedarian Words
+161-2 Pangrams                              P/Pangram_checker
 162-1
 162-2
 163-1
