@@ -1,0 +1,56 @@
+ 
+===> 035/1/adam-russell.pl <===
+101010001110111011100010101
+ 
+===> 035/1/andrezgz.pl <===
+101010001110111011100010101 
+===> 035/1/duane-powell.pl <===
+101010001110111011100010101000
+SOS 
+ 
+===> 035/1/e-choroba.pl <===
+1..6
+ok 1 - encode to morse
+ok 2 - encode to binary digits
+ok 3 - encode to binary
+ok 4 - decode to binary digits
+ok 5 - decode to morse
+ok 6 - decode from binary
+ 
+===> 035/1/giuseppe-terlizzi.pl <===
+• • • 
+— — —
+• • • 
+10101000011101110111000101010
+ 
+===> 035/1/jaldhar-h-vyas.pl <===
+101010001110111011100010101
+ 
+===> 035/1/javier-luque.pl <===
+101010001110111011100010101
+ 
+===> 035/1/laurent-rosenfeld.pl <===
+Input string: SOS
+Binary encoded Morse string:
+101010001110111011100010101
+Decoded string: SOS
+ 
+===> 035/1/roger-bell-west.pl <===
+101010001110111011100010101
+ 
+===> 035/1/ruben-westerberg.pl <===
+Original String: sos
+Encoded: 101010001110111011100010101
+Unpacked: 10101000111011101110001010100000
+Decoded: sos 
+ 
+===> 035/1/steven-wilson.pl <===
+1..2
+ok 1 - Test SOS
+ok 2 - Test illegal chars and white space
+ 
+===> 035/1/ulrich-rieke.pl <===
+1110001000101010001110000000101010001110111011100010101
+ 
+===> 035/1/yet-ebreo.pl <===
+Encoded Morse Code: 101010001110111011100010101
