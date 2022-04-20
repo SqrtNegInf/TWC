@@ -1,0 +1,41 @@
+ 
+===> 034/2/arne-sommer.raku <===
+10
+20
+ 
+===> 034/2/jaldhar-h-vyas.raku <===
+A chose Paper.
+B chose Rock.
+Paper covers Rock.  
+A wins.
+ 
+===> 034/2/javier-luque.raku <===
+ 
+===> 034/2/laurent-rosenfeld.raku <===
+ 
+===> 034/2/noud.raku <===
+Hello World
+6765
+ 
+===> 034/2/roger-bell-west.raku <===
+2
+2 3
+6
+ 
+===> 034/2/ruben-westerberg.raku <===
+Hello from function 8
+Hello from function 5
+Hello from function 3
+Hello from function 4
+Hello from function 10
+Hello from function 1
+Hello from function 10
+Hello from function 10
+Hello from function 10
+Hello from function 10
+ 
+===> 034/2/simon-proctor.raku <===
+square( 8 ) => 64
+ 
+===> 034/2/stuart-little.raku <===
+6

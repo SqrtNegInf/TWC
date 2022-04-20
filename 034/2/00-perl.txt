@@ -1,0 +1,71 @@
+ 
+===> 034/2/adam-russell.pl <===
+Hello!
+Goodbye!
+ 
+===> 034/2/colin-crain.pl <===
+   exp: 2 3 *
+ stack: 2 3
+    op: *
+result: 6
+ 
+===> 034/2/duane-powell.pl <===
+
+New deck generated.
+Cards riffle shuffled 234 times.
+Cards reverse cut shuffled.
+Cards reverse cut shuffled.
+Cards cut.
+	TH	6H	6S	JS	KC
+	6C	QC	2H	2S	4H
+	4S	QS	8H	8S	9C
+	9D	9H	4C	5D	AS
+	2D	9S	7C	2C	7H
+5 hands of 5 cards dealt.
+Remaining cards are: 7S,8C,3C,4D,3H,3S,TS,JC,JD,JH,KD,5S,5C,6D,AD,AH,QD,QH,7D,KH,KS,AC,8D,TC,TD,3D,5H
+
+New deck generated.
+Cards riffle shuffled 184 times.
+Cards riffle shuffled 473 times.
+Cards riffle shuffled 338 times.
+Cards riffle shuffled 378 times.
+Cards riffle shuffled 104 times.
+Cards riffle shuffled 146 times.
+Cards reverse cut shuffled.
+Cards riffle shuffled 364 times.
+Cards reverse cut shuffled.
+Cards cut.
+	9H	JS	TH	5D
+	6C	3H	9D	AC
+	QS	TC	7C	8D
+	JD	3D	4D	JC
+	8C	4C	2S	AS
+	4S	2D	KD	QD
+	3S	6S	3C	2C
+4 hands of 7 cards dealt.
+Remaining cards are: 7D,5H,QH,9C,TS,AH,6D,JH,AD,8S,5C,TD,9S,4H,8H,5S,2H,KH,7H,QC,7S,KC,KS,6H
+ 
+===> 034/2/jaldhar-h-vyas.pl <===
+A chose Paper.
+B chose Scissors.
+Scissors cuts Paper.  
+B wins.
+ 
+===> 034/2/javier-luque.pl <===
+2 + 2 = 4
+10 - 4 = 6
+3 x 3 = 9
+25 / 5 = 5
+ 
+===> 034/2/steven-wilson.pl <===
+Bob it!
+ 
+===> 034/2/yet-ebreo.pl <===
+[add]
+49
+[multiply]
+258
+[subtract]
+37
+[divide]
+7.16666666666667
