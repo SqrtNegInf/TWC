@@ -1,0 +1,155 @@
+ 
+===> 034/1/adam-russell.pl <===
+second
+fourth
+ 
+===> 034/1/colin-crain.pl <===
+the generated lookup hash:
+
+	a => 2
+	b => 3
+	c => 5
+	d => 7
+	e => 11
+	f => 13
+	g => 17
+	h => 19
+	i => 23
+	j => 29
+	k => 31
+	l => 37
+	m => 41
+	n => 43
+	o => 47
+	p => 53
+	q => 59
+	r => 61
+	s => 67
+	t => 71
+	u => 73
+	v => 79
+	w => 83
+	x => 89
+	y => 97
+	z => 101
+
+ phrase:   The quick brown fox jumped over the lazy dog
+encoded:   14839 15354455 30696969 54379 354218557 2491423 14839 724978 5593
+decoded:   eht cikqu bnorw fox dejmpu eorv eht alyz dgo
+ 
+===> 034/1/duane-powell.pl <===
+
+New deck generated.
+Cards riffle shuffled 234 times.
+Cards reverse cut shuffled.
+Cards reverse cut shuffled.
+Cards cut.
+	TH	6H	6S	JS	KC
+	6C	QC	2H	2S	4H
+	4S	QS	8H	8S	9C
+	9D	9H	4C	5D	AS
+	2D	9S	7C	2C	7H
+5 hands of 5 cards dealt.
+Remaining cards are: 7S,8C,3C,4D,3H,3S,TS,JC,JD,JH,KD,5S,5C,6D,AD,AH,QD,QH,7D,KH,KS,AC,8D,TC,TD,3D,5H
+
+New deck generated.
+Cards riffle shuffled 184 times.
+Cards riffle shuffled 473 times.
+Cards riffle shuffled 338 times.
+Cards riffle shuffled 378 times.
+Cards riffle shuffled 104 times.
+Cards riffle shuffled 146 times.
+Cards reverse cut shuffled.
+Cards riffle shuffled 364 times.
+Cards reverse cut shuffled.
+Cards cut.
+	9H	JS	TH	5D
+	6C	3H	9D	AC
+	QS	TC	7C	8D
+	JD	3D	4D	JC
+	8C	4C	2S	AS
+	4S	2D	KD	QD
+	3S	6S	3C	2C
+4 hands of 7 cards dealt.
+Remaining cards are: 7D,5H,QH,9C,TS,AH,6D,JH,AD,8S,5C,TD,9S,4H,8H,5S,2H,KH,7H,QC,7S,KC,KS,6H
+ 
+===> 034/1/jaldhar-h-vyas.pl <===
+is u in blvioaeztjdypf?
+No.
+ 
+===> 034/1/javier-luque.pl <===
+Array slice: 0 1 2 3 4 5
+Hash slice: 1 2
+ 
+===> 034/1/laurent-rosenfeld.pl <===
+Array slice :  3 4 5 6 7
+Hash slice 1: b 2 d 4 c 3
+Hash slice 2: b 2 c 3 d 4
+Hash slice 3: 2 3 4
+Hash slice 4: 3 2 3 4
+New array: 
+new_array
+ 
+===> 034/1/mark-anderson.pl <===
+array: JAPH
+hash:  9, 0, 15, 7
+ 
+===> 034/1/paulo-custodio.pl <===
+3, 4
+ 
+===> 034/1/petr-roubicek.pl <===
+# Africa states and capitals
+# https://en.wikipedia.org/wiki/List_of_sovereign_states_and_dependent_territories_in_Africa
+
+                          Algeria  Algiers
+                           Angola  Luanda
+                            Benin  Porto-Novo
+                         Botswana  Gaborone
+                     Burkina Faso  Ouagadougou
+                          Burundi  Gitega
+                       Cabo Verde  Praia
+                         Cameroon  Yaounde
+         Central African Republic  Bangui
+                             Chad  N'Djamena
+                          Comoros  Moroni
+                    Cote d'Ivoire  Yamoussoukro
+ Democratic Republic of the Congo  Kinshasa
+                         Djibouti  Djibouti
+                            Egypt  Cairo
+            Republic of the Congo  Brazzaville
+ 
+===> 034/1/roger-bell-west.pl <===
+ 0.0416303447718782                   
+  0.454492444728629  0.443646669222474
+  0.834817218166915  0.541765231013581
+    0.3359860301452  0.578764217292751
+  0.565489403566136   0.30108078203436
+0.00176691239174431  0.251615277652614
+   0.18758951699996   0.39326350310979
+  0.990434079937664  0.642840243389048
+  0.750497133229519  0.702401617106639
+  0.366273638152734                   
+ 
+===> 034/1/ruben-westerberg.pl <===
+Original Array: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+Slicing Array with a range [0..3]: 0,1,2,3
+Slicing Array with duplicate index [0,0]: 0,0
+Slicing hash into another hash %hash{qw<a b>}: a,0,b,1
+Slicing hash in to value array @hash{qw<a b>}: 0,1 
+===> 034/1/steven-wilson.pl <===
+fry professor leela bender amy hermes zoidberg nibbler zapp kif
+
+fry leela amy
+professor leela bender amy
+fry kif
+amy professor fry
+
+Staff present were: fry professor amy
+Their ages were: 10025 92 23
+ 
+===> 034/1/yet-ebreo.pl <===
+jumps
+brownfox
+brownfoxjumpsoverthe
+4
+480

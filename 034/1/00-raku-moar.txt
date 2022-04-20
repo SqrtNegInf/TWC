@@ -1,0 +1,79 @@
+ 
+===> 034/1/arne-sommer.raku <===
+(zero one twice thrice four fifth VI seventh acht nine X)
+(zero one twice thrice four fifth VI seventh acht nine X (Any) (Any))
+(X nine acht seventh VI fifth four thrice twice one zero)
+(seventh four one)
+0
+(0 6 9)
+ 
+===> 034/1/jaldhar-h-vyas.raku <===
+is h in ykocexnrgadwf?
+No.
+ 
+===> 034/1/javier-luque.raku <===
+Array slice: 0 1 2 3 4 5
+Hash slice: 1 2
+ 
+===> 034/1/laurent-rosenfeld.raku <===
+Array slice :  3 4 5 6 7
+Hash slice 1: 2 4 3
+Hash slice 2: 2 3 4
+Hash slice 3: 2 3 4
+New array: [1 2 6 7]
+New hash: {c => 3, d => 4, e => 5}
+ 
+===> 034/1/noud.raku <===
+{a => 0, b => 1, c => 2, d => 3}
+(0 2)
+(0 1 2)
+(0 1)
+(0 1 2 3 4 5 6 7 8 9)
+(0 1 2 3 4 5 6 7 8 9)
+(0 1 2 3 4 5 6 7 8 9)
+(0 1 2 3 4 5 6 7 8)
+(0 1 2 3 4)
+ 
+===> 034/1/roger-bell-west.raku <===
+[[0.16509327655850514e0, NaN], [0.041801671682500374e0, 0.374731616755291e0], [0.9172999020248674e0, 0.551414226743828e0], [0.6951411065241163e0, 0.7211840022001238e0], [0.5511109980513877e0, 0.5580477725975846e0], [0.42789121321724977e0, 0.6471427423078082e0], [0.9624260156547871e0, 0.6637936561923564e0], [0.6010637397050324e0, 0.601897978131653e0], [0.2422041790351397e0, 0.5283211172750145e0], [0.7416954330848715e0, NaN]]
+ 
+===> 034/1/ruben-westerberg.raku <===
+Original Array: 
+[0 1 2 3 4 5 6 7 8 9]
+Original Hash 
+{a => 0, b => 1, c => 2, e => 3}
+Slicing Array with a range [0..3]: 
+(0 1 2 3)
+Slicing Array with duplicate index [0,0]: 
+(0 0)
+Slicing hash into another hash %hash{qw<a b>}:kv.hash : 
+{a => 0, b => 1}
+Slicing hash in to value array %hash{qw<a b>}: 
+(0 1)
+ 
+===> 034/1/simon-proctor.raku <===
+First five Fibonacci numbers 1,1,2,3,5
+Fibonacci numbers whose index is divisible by 7 1,21,610,17711,514229,14930352,433494437,12586269025,365435296162,10610209857723,308061521170129,8944394323791464,259695496911122585,7540113804746346429,218922995834555169026
+First and last 5 Fibonacci numbers 1,1,2,3,5,51680708854858323072,83621143489848422977,135301852344706746049,218922995834555169026,354224848179261915075
+Sub slices to return sub lists ((1, 2, 3), (5, 8, 13), (21, 34, 55))
+Vowel indexed items 1 5 34 610 10946
+ 
+===> 034/1/steven-wilson.raku <===
+First number in the array is 10
+Last number in the array is 90
+First 4 numbers in the array are: 10 20 30 40
+ 
+===> 034/1/stuart-little.raku <===
+A hash: {:four(4), :one(1), :three(3), :two(2)}
+Slicing the hash to an array: (1 3)
+Slicing the hash to a slice: {:one(1), :three(3)}
+ 
+===> 034/1/ulrich-rieke.raku <===
+The bigger towers:
+record tower has a height of 500 meters.
+elite tower has a height of 250 meters.
+my favourite tower has a height of 102 meters.
+randomly selected DNA bases:
+[(A) (G) (G) (A) (T) (G) (A) (C) (A) (T) (A) (G) (G) (T) (A) (A) (C) (G) (T) (T) (C) (A) (T) (G) (G) (G) (G) (T) (C) (T) (A) (G) (A) (T) (G) (C) (G) (T) (G) (G) (T) (G) (G) (G) (T) (C) (G) (G) (A) (C) (G) (A) (T) (G) (A) (C) (G) (T) (A) (A) (T) (A) (A)]
+...and the corresponding triplet starts:
+[(A) (A) (A) (T) (G) (A) (T) (A) (G) (T) (A) (T) (G) (G) (G) (C) (A) (A) (A) (T) (T)]
