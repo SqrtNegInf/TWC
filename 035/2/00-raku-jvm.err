@@ -1,0 +1,10 @@
+[31m===[0mSORRY![31m===[0m Error while compiling /Users/dhoekman/PWC/035/2/laurent-rosenfeld.raku
+An exception occurred while evaluating a BEGIN
+at /Users/dhoekman/PWC/035/2/laurent-rosenfeld.raku:3
+Exception details:
+  not ok - disabled: JVM has a bug
+    in code  at laurent-rosenfeld.raku line 3
+
+not ok
+  in block <unit> at simon-proctor.raku line 3
+

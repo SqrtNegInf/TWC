@@ -1,0 +1,4 @@
+Input string: The quick brown fox jumps over the lazy dog
+Binary encoded Morse string:
+11100000000000000000000000000000000000000000000000000000000
+Decoded string: T        
