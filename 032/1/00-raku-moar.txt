@@ -1,0 +1,75 @@
+ 
+===> 032/1/adam-russell.raku <===
+apple	3
+cherry	2
+banana	1
+ 
+===> 032/1/arne-sommer.raku <===
+apple  3
+cherry 2
+banana 1
+ 
+===> 032/1/athanasius.raku <===
+apple	3
+cherry	2
+banana	1
+ 
+===> 032/1/jaldhar-h-vyas.raku <===
+apple   3
+banana  1
+cherry  2
+ 
+===> 032/1/javier-luque.raku <===
+apple      3
+banana     1
+cherry     2
+ 
+===> 032/1/joelle-maslak.raku <===
+apple	3
+cherry	2
+banana	1
+ 
+===> 032/1/kevin-colyer.raku <===
+apple	3
+cherry	2
+banana	1
+ 
+===> 032/1/laurent-rosenfeld.raku <===
+apple               3
+cherry              2
+banana              1
+ 
+===> 032/1/markus-holzer.raku <===
+apple  3 
+cherry 2 
+banana 1 
+ 
+===> 032/1/noud.raku <===
+apple:	3
+cherry:	2
+banana:	1
+ 
+===> 032/1/ruben-westerberg.raku <===
+
+ apple| 3
+banana| 1
+cherry| 2
+
+ apple| ###
+banana| #
+cherry| ##
+ 
+===> 032/1/ryan-thompson.raku <===
+banana 1
+cherry 2
+apple  3
+ 
+===> 032/1/simon-proctor.raku <===
+apple     3
+cherry    2
+banana    1
+ 
+===> 032/1/stuart-little.raku <===
+apple => 3
+cherry => 2
+banana => 1

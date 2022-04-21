@@ -1,0 +1,63 @@
+ 
+===> 032/1/andrezgz.pl <===
+Instances count:
+apple	3
+cherry	2
+banana	1
+ 
+===> 032/1/anton-fedotov.pl <===
+apple           3
+cherry          2
+banana          1
+ 
+===> 032/1/athanasius.pl <===
+apple	3
+cherry	2
+banana	1
+ 
+===> 032/1/colin-crain.pl <===
+apple      3
+banana     1
+cherry     2
+ 
+===> 032/1/dave-jacoby.pl <===
+apple	3
+cherry	2
+banana	1
+ 
+===> 032/1/duncan-c-white.pl <===
+apple 3
+cherry 2
+banana 1
+ 
+===> 032/1/fabrizio-poggi.pl <===
+Weekly Challenge 32
+--- Fruits -----------
+               apple    3
+              banana    1
+              cherry    2
+ 
+===> 032/1/giuseppe-terlizzi.pl <===
+apple	3
+cherry	2
+banana	1
+ 
+===> 032/1/jaldhar-h-vyas.pl <===
+apple   3
+banana  1
+cherry  2
+ 
+===> 032/1/javier-luque.pl <===
+apple      3
+banana     1
+cherry     2
+ 
+===> 032/1/joelle-maslak.pl <===
+apple	3
+cherry	2
+banana	1
+ 
+===> 032/1/steven-wilson.pl <===
+apple	3
+cherry	2
+banana	1
