@@ -1,5 +1,9 @@
+2022-04-20
+033/1/athanasius.raku appears to have a real JVM bug, need to open an issue.
+(plus for the ones previously found)
+
 2022-04-19
-With moar-blead update, many Raku/MoarVM results change, srand 'drift'.  
+With moar-blead update, many Raku/MoarVM results change, srand 'drift'.
 
 2022-04-18
 A few tasks flip output infrequently. Live with or remove?

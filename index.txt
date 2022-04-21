@@ -1,15 +1,15 @@
 Challenge titles and Rosetta-code correspondences (exact, and otherwise)
 
-030-1
-030-2
-031-1
-031-2
-032-1
-032-2
+030-1 Sunday Christmas                      F/Find_the_last_Sunday_of_each_month
+030-2 3 sum to 12
+031-1 Divide by Zero check                  D/Detect_division_by_zero
+031-2 Dynamic Variable Name                 D/Dynamic_variable_names
+032-1 Count instances                       B/Bioinformatics_base_count
+032-2 ASCII barchart                        S/Statistics_Basic F/File_size_distribution
 033-1 Count Char Frequency                  L/Letter_frequency
 033-2 Mult. Table (UT)                      M/Multiplication_tables
 034-1 Hash/Array Slices                     A/Arrays H/Hash_from_two_arrays
-034-2 Dispatch Table
+034-2 Dispatch Table                        E/Execute_CopyPasta_Language
 035-1 Encode binary Morse
 035-2 Decode binary Morse                   M/Morse_code
 036-1 VIN                                   V/Validate_International_Securities_Identification_Number
