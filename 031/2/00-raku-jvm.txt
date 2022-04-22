@@ -1,0 +1,44 @@
+ 
+===> 031/2/adam-russell.raku <===
+The value of $foo is 42.
+ 
+===> 031/2/arne-sommer.raku <===
+The value of $a: 12
+ 
+===> 031/2/athanasius.raku <===
+$foo = 42
+ 
+===> 031/2/jaldhar-h-vyas.raku <===
+foo = 42
+ 
+===> 031/2/javier-luque.raku <===
+Dynamic variable name: foo
+Random value: 382055822441
+ 
+===> 031/2/joelle-maslak.raku <===
+$foo is set to: 42
+ 
+===> 031/2/kevin-colyer.raku <===
+variable named foo is foo
+variable named 137 is 137
+ 
+===> 031/2/laurent-rosenfeld.raku <===
+The item is called foo and its value is boo
+ 
+===> 031/2/mark-senn.raku <===
+foo    boo
+boo
+ 
+===> 031/2/noud.raku <===
+$foo = boo
+ 
+===> 031/2/ruben-westerberg.raku <===
+Using Module/eval
+boo
+Variable name: foo Value: boo
+
+Using Hash
+Variable name: foo Value: boo
+ 
+===> 031/2/stuart-little.raku <===
+foo = 42

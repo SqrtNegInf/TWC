@@ -1,0 +1,49 @@
+ 
+===> 031/2/adam-russell.pl <===
+The value of $foo is boo.
+ 
+===> 031/2/andrezgz.pl <===
+worked 
+===> 031/2/anton-fedotov.pl <===
+Variable named foo have value: boo
+ 
+===> 031/2/athanasius.pl <===
+$foo = 42
+ 
+===> 031/2/colin-crain.pl <===
+after setting: $foo is Don't Do This 
+ 
+===> 031/2/dave-cross.pl <===
+The variable is called foo and it has the value boo
+ 
+===> 031/2/dave-jacoby.pl <===
+
+foo = boo
+
+ 
+===> 031/2/e-choroba.pl <===
+$foo: Don't try this at home!
+ 
+===> 031/2/javier-luque.pl <===
+Random variable name: foo
+Random value: 42
+ 
+===> 031/2/joelle-maslak.pl <===
+$foo = boo
+ 
+===> 031/2/lars-balker.pl <===
+42
+ 
+===> 031/2/lubos-kolouch.pl <===
+ok 1
+1..1
+ 
+===> 031/2/paulo-custodio.pl <===
+10
+ 
+===> 031/2/ruben-westerberg.pl <===
+Using symbolic refs
+Variable name: foo Value: boo
+
+Using a hash
+Variable name: foo Value: boo
