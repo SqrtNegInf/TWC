@@ -1,0 +1,69 @@
+ 
+===> 031/1/adam-russell.raku <===
+caught an error: X::Numeric::DivideByZero
+ 
+===> 031/1/arne-sommer.raku <===
+Division by zero detected.
+ 
+===> 031/1/athanasius.raku <===
+1 / 0 = DIVIDE BY ZERO ERROR
+
+Normal exit
+ 
+===> 031/1/jaldhar-h-vyas.raku <===
+no
+yes
+ 
+===> 031/1/javier-luque.raku <===
+divide by 0 error, Attempt to divide by zero when coercing Rational to Str
+0.5
+0
+ 
+===> 031/1/joelle-maslak.raku <===
+Denominator is zero
+ 
+===> 031/1/kevin-colyer.raku <===
+ok 1 - 1/0 IS  div by zero
+ok 2 - 0/0 IS  div by zero (actually indeterminate)
+ok 3 - 1/2 NOT div by zero
+ok 4 - 1/1 NOT div by zero
+ok 5 - 0/1 NOT div by zero
+1..5
+ 
+===> 031/1/laurent-rosenfeld.raku <===
+Houston, we've had a problem here: Attempt to divide by zero when coercing Rational to Str
+ 
+===> 031/1/mark-senn.raku <===
+div1:  /0 or other problem  5
+div2:  /0 or other problem  5
+div3:  /0 or other problem  5
+ 
+===> 031/1/markus-holzer.raku <===
+Division by zero
+Division is okay
+ 
+===> 031/1/noud.raku <===
+0.5
+0.42857142857142855
+NaN
+NaN
+ 
+===> 031/1/ruben-westerberg.raku <===
+Division ok: 42/42 = 1
+ 
+===> 031/1/simon-proctor.raku <===
+42 / 0 safe? No
+42 / 1 safe? Yes
+ 
+===> 031/1/stuart-little.raku <===
+1
+Tried to divide by 0, eh?
+ 
+===> 031/1/tyler-limkemann.raku <===
+can't divide by 0!
+ 
+===> 031/1/yet-ebreo.raku <===
+Division by zero detected
+Division by zero detected
+0
+2.666667

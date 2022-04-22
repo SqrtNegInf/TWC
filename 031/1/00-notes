@@ -1,0 +1,1 @@
+Several Perl tasks output to STDERR, which is fine.

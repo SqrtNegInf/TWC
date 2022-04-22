@@ -1,0 +1,88 @@
+ 
+===> 031/1/adam-russell.pl <===
+caught an error: Illegal division by zero at adam-russell.pl line 8.
+ 
+===> 031/1/andrezgz.pl <===
+Division by zero 
+===> 031/1/anton-fedotov.pl <===
+Division 7 by 3 returns: 2.33333333333333
+Division 7 by 0 returns: Can't divide by zero
+ 
+===> 031/1/athanasius.pl <===
+1 / 0 = DIVIDE BY ZERO ERROR
+
+Normal exit
+ 
+===> 031/1/colin-crain.pl <===
+NAN
+ 
+===> 031/1/dave-jacoby.pl <===
+OK
+Divide by zero
+OK
+ 
+===> 031/1/duncan-c-white.pl <===
+error: Illegal division by zero at duncan-c-white.pl line 17.
+
+ 
+===> 031/1/e-choroba.pl <===
+1..4
+ok 1
+ok 2
+ok 3
+ok 4
+ 
+===> 031/1/javier-luque.pl <===
+1/0 - divide by 0 error
+1/2 - 0.5
+0/100 - 0
+ 
+===> 031/1/joelle-maslak.pl <===
+Denominator is zero
+ 
+===> 031/1/lars-balker.pl <===
+divide by zero error
+1
+ 
+===> 031/1/lars-thegler.pl <===
+divide by zero error
+all good
+all good
+ 
+===> 031/1/laurent-rosenfeld.pl <===
+ 
+===> 031/1/lubos-kolouch.pl <===
+ok 1
+ok 2
+ok 3
+1..3
+ 
+===> 031/1/pete-houston.pl <===
+1..3
+ok 1 - 3 / 5 is fine
+ok 2 - 3.9 / -5.2 is fine
+ok 3 - 6 / 0 is impossible
+ 
+===> 031/1/rage311.pl <===
+5 / 2 = 2.5
+1 / 0 = ERROR
+99 / 999999 = 9.9000099000099e-05
+-1.5 / 2 = -0.75
+-2 / -99999 = 2.0000200002e-05
+0 / 19.991 = 0
+0.123 / 0 = ERROR
+9999999999 / 0 = ERROR
+256 / 8 = 32
+ 
+===> 031/1/steven-wilson.pl <===
+ok 1 - Test zero denominator
+ok 2 - Test non-zero denominator
+1..2
+ 
+===> 031/1/vyacheslav-volgarev.pl <===
+ 
+===> 031/1/yet-ebreo.pl <===
+Division by zero detected
+Division by zero detected
+0
+2.66666666666667
