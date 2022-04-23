@@ -1,0 +1,175 @@
+ 
+===> 029/1/adam-russell.pl <===
+Perl Daily Challenge
+Perl Weekly Challenge
+Perl Monthly Challenge
+Perl Yearly Challenge
+ 
+===> 029/1/andrezgz.pl <===
+Expansion for: 'last{mce,boot,xorg}.log'
+lastboot.log
+lastmce.log
+lastxorg.log
+
+Expansion for: 'file.{2015..2017}.{a..c}.log{,.bak}'
+file.2015.a.log
+file.2015.a.log.bak
+file.2015.b.log
+file.2015.b.log.bak
+file.2015.c.log
+file.2015.c.log.bak
+file.2016.a.log
+file.2016.a.log.bak
+file.2016.b.log
+file.2016.b.log.bak
+file.2016.c.log
+file.2016.c.log.bak
+file.2017.a.log
+file.2017.a.log.bak
+file.2017.b.log
+file.2017.b.log.bak
+file.2017.c.log
+file.2017.c.log.bak
+
+Expansion for: '/home/tom/{temp,tmp{1..4}}/image.{jpg,png}'
+/home/tom/temp/image.jpg
+/home/tom/temp/image.png
+/home/tom/tmp1/image.jpg
+/home/tom/tmp1/image.png
+/home/tom/tmp2/image.jpg
+/home/tom/tmp2/image.png
+/home/tom/tmp3/image.jpg
+/home/tom/tmp3/image.png
+/home/tom/tmp4/image.jpg
+/home/tom/tmp4/image.png
+
+Expansion for: 'Perl {{Dai,Week,Month,Year}ly,Unique} Challenge'
+Perl Daily Challenge
+Perl Monthly Challenge
+Perl Unique Challenge
+Perl Weekly Challenge
+Perl Yearly Challenge
+
+ 
+===> 029/1/colin-crain.pl <===
+Perl Daily Challenge
+Perl Weekly Challenge
+Perl Monthly Challenge
+Perl Yearly Challenge
+ 
+===> 029/1/dave-cross.pl <===
+Perl Daily Challenge
+Perl Weekly Challenge
+Perl Monthly Challenge
+Perl Yearly Challenge
+ 
+===> 029/1/dave-jacoby.pl <===
+Perl {Daily,Weekly,Monthly,Yearly} Challenge
+--------------------------------------------
+Perl Daily Challenge
+Perl Weekly Challenge
+Perl Monthly Challenge
+Perl Yearly Challenge
+--------------------------------------------
+Perl Daily Challenge
+Perl Weekly Challenge
+Perl Monthly Challenge
+Perl Yearly Challenge
+--------------------------------------------
+ 
+===> 029/1/duane-powell.pl <===
+Perl Daily Challenge
+Perl Monthly Challenge
+Perl Weekly Challenge
+Perl Yearly Challenge
+ 
+===> 029/1/duncan-c-white.pl <===
+Perl Daily Challenge
+Perl Weekly Challenge
+Perl Monthly Challenge
+Perl Yearly Challenge
+ 
+===> 029/1/e-choroba.pl <===
+1..5
+ok 1 - Original example
+ok 2 - Empty results excluded
+ok 3 - Multiple brackets
+ok 4 - Nested brackets
+ok 5 - Everything combined
+ 
+===> 029/1/jaldhar-h-vyas.pl <===
+Perl Daily Challenge
+Perl Weekly Challenge
+Perl Monthly Challenge
+Perl Yearly Challenge
+ 
+===> 029/1/joelle-maslak.pl <===
+Perl Daily Challenge
+Perl Monthly Challenge
+Perl Weekly Challenge
+Perl Yearly Challenge
+ 
+===> 029/1/kivanc-yazan.pl <===
+Perl Daily Challenge
+Perl Monthly Challenge
+Perl Weekly Challenge
+Perl Yearly Challenge
+ 
+===> 029/1/lars-thegler.pl <===
+Perl Daily Challenge
+Perl Weekly Challenge
+Perl Monthly Challenge
+Perl Yearly Challenge
+ 
+===> 029/1/laurent-rosenfeld.pl <===
+Perl Daily Challenge
+Perl Weekly Challenge
+Perl Monthly Challenge
+Perl Yearly Challenge
+ 
+===> 029/1/lubos-kolouch.pl <===
+ok 1
+1..1
+ 
+===> 029/1/paulo-custodio.pl <===
+Perl Daily Challenge
+Perl Weekly Challenge
+Perl Monthly Challenge
+Perl Yearly Challenge
+ 
+===> 029/1/prajith-p.pl <===
+Perl Daily Challenge
+Perl Weekly Challenge
+Perl Monthly Challenge
+Perl Yearly Challenge
+ 
+===> 029/1/rage311.pl <===
+Perl Daily Challenge
+Perl Weekly Challenge
+Perl Monthly Challenge
+Perl Yearly Challenge
+ 
+===> 029/1/roger-bell-west.pl <===
+Perl Daily Challenge
+Perl Weekly Challenge
+Perl Monthly Challenge
+Perl Yearly Challenge
+ 
+===> 029/1/ruben-westerberg.pl <===
+Perl Daily Challenge
+Perl Weekly Challenge
+Perl Monthly Challenge
+Perl Yearly Challenge
+ 
+===> 029/1/steven-wilson.pl <===
+The command line argument "Perl {Daily,Weekly,Monthly,Yearly} Challenge" should expand to:
+Perl Daily Challenge
+Perl Weekly Challenge
+Perl Monthly Challenge
+Perl Yearly Challenge
+ 
+===> 029/1/yet-ebreo.pl <===
+Perl Daily Challenge
+Perl Weekly Challenge
+Perl Monthly Challenge
+Perl Yearly Challenge
