@@ -1,0 +1,186 @@
+ 
+===> 030/1/arne-sommer.raku <===
+25 Dec 2022 is Sunday.
+25 Dec 2033 is Sunday.
+25 Dec 2039 is Sunday.
+25 Dec 2044 is Sunday.
+25 Dec 2050 is Sunday.
+25 Dec 2061 is Sunday.
+25 Dec 2067 is Sunday.
+25 Dec 2072 is Sunday.
+25 Dec 2078 is Sunday.
+25 Dec 2089 is Sunday.
+25 Dec 2095 is Sunday.
+ 
+===> 030/1/athanasius.raku <===
+Between 2019 and 2100 (inclusive), Christmas Day (25th December) falls on a
+Sunday in 2022, 2033, 2039, 2044, 2050, 2061, 2067, 2072, 2078, 2089, and 2095
+ 
+===> 030/1/daniel-mita.raku <===
+2022-12-25
+2033-12-25
+2039-12-25
+2044-12-25
+2050-12-25
+2061-12-25
+2067-12-25
+2072-12-25
+2078-12-25
+2089-12-25
+2095-12-25
+ 
+===> 030/1/joelle-maslak.raku <===
+2022-12-25
+2033-12-25
+2039-12-25
+2044-12-25
+2050-12-25
+2061-12-25
+2067-12-25
+2072-12-25
+2078-12-25
+2089-12-25
+2095-12-25
+ 
+===> 030/1/kevin-colyer.raku <===
+2022-12-25
+2033-12-25
+2039-12-25
+2044-12-25
+2050-12-25
+2061-12-25
+2067-12-25
+2072-12-25
+2078-12-25
+2089-12-25
+2095-12-25
+ 
+===> 030/1/laurent-rosenfeld.raku <===
+Christmas of year 2022 falls on a Sunday.
+Christmas of year 2033 falls on a Sunday.
+Christmas of year 2039 falls on a Sunday.
+Christmas of year 2044 falls on a Sunday.
+Christmas of year 2050 falls on a Sunday.
+Christmas of year 2061 falls on a Sunday.
+Christmas of year 2067 falls on a Sunday.
+Christmas of year 2072 falls on a Sunday.
+Christmas of year 2078 falls on a Sunday.
+Christmas of year 2089 falls on a Sunday.
+Christmas of year 2095 falls on a Sunday.
+ 
+===> 030/1/mark-senn.raku <===
+25 Dec 2022
+25 Dec 2033
+25 Dec 2039
+25 Dec 2044
+25 Dec 2050
+25 Dec 2061
+25 Dec 2067
+25 Dec 2072
+25 Dec 2078
+25 Dec 2089
+25 Dec 2095
+ 
+===> 030/1/markus-holzer.raku <===
+2022
+2033
+2039
+2044
+2050
+2061
+2067
+2072
+2078
+2089
+2095
+ 
+===> 030/1/noud.raku <===
+2022
+2033
+2039
+2044
+2050
+2061
+2067
+2072
+2078
+2089
+2095
+ 
+===> 030/1/roger-bell-west.raku <===
+2022
+2033
+2039
+2044
+2050
+2061
+2067
+2072
+2078
+2089
+2095
+ 
+===> 030/1/ruben-westerberg.raku <===
+2022-12-25
+2033-12-25
+2039-12-25
+2044-12-25
+2050-12-25
+2061-12-25
+2067-12-25
+2072-12-25
+2078-12-25
+2089-12-25
+2095-12-25
+ 
+===> 030/1/simon-proctor.raku <===
+2022-12-25
+2033-12-25
+2039-12-25
+2044-12-25
+2050-12-25
+2061-12-25
+2067-12-25
+2072-12-25
+2078-12-25
+2089-12-25
+2095-12-25
+ 
+===> 030/1/stuart-little.raku <===
+25 Dec 2022
+25 Dec 2033
+25 Dec 2039
+25 Dec 2044
+25 Dec 2050
+25 Dec 2061
+25 Dec 2067
+25 Dec 2072
+25 Dec 2078
+25 Dec 2089
+25 Dec 2095
+ 
+===> 030/1/ulrich-rieke.raku <===
+2022-12-25
+2033-12-25
+2039-12-25
+2044-12-25
+2050-12-25
+2061-12-25
+2067-12-25
+2072-12-25
+2078-12-25
+2089-12-25
+2095-12-25
+ 
+===> 030/1/yet-ebreo.raku <===
+12/25/2022
+12/25/2033
+12/25/2039
+12/25/2044
+12/25/2050
+12/25/2061
+12/25/2067
+12/25/2072
+12/25/2078
+12/25/2089
+12/25/2095
