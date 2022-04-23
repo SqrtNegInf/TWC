@@ -1,0 +1,47 @@
+ 
+===> 029/2/andrezgz.pl <===
+4 
+===> 029/2/colin-crain.pl <===
+request #    |     prime
+-------------+-----------
+    1        |       541
+ 
+===> 029/2/dave-cross.pl <===
+Hello, Perl
+ 
+===> 029/2/dave-jacoby.pl <===
+9 + 16 = 25
+9 - 16 = -7
+ 
+===> 029/2/duncan-c-white.pl <===
+sqrt(145)=12.0415945922031 by C, =12.0415945922031 by perl
+ 
+===> 029/2/e-choroba.pl <===
+1..2
+ok 1
+ok 2
+ 
+===> 029/2/joelle-maslak.pl <===
+15! = 1307674368000
+ 
+===> 029/2/kivanc-yazan.pl <===
+2 ** 2 = 4
+2 ** 4 = 16
+4 ** 4 = 256
+ 
+===> 029/2/lars-thegler.pl <===
+Hello, world!
+ 
+===> 029/2/lubos-kolouch.pl <===
+test 
+===> 029/2/rage311.pl <===
+It sure is!
+ 
+===> 029/2/roger-bell-west.pl <===
+a string passed from perl5
+ 
+===> 029/2/ruben-westerberg.pl <===
+User ID: 502
+ 
+===> 029/2/yet-ebreo.pl <===
+1 1 2 3 5 8 13 21 34 55 89 144 233 377 610 987 1597 2584 4181 6765 10946 17711 28657 46368 75025 121393 196418 317811 514229 832040 1346269 2178309 3524578 5702887 9227465 14930352 

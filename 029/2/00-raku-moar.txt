@@ -1,0 +1,36 @@
+ 
+===> 029/2/arne-sommer.raku <===
+Before: foo
+After:  FOO
+ 
+===> 029/2/daniel-mita.raku <===
+ 
+===> 029/2/joelle-maslak.raku <===
+Sleep returned a value of 0
+ 
+===> 029/2/kevin-colyer.raku <===
+ 
+===> 029/2/laurent-rosenfeld.raku <===
+ 
+===> 029/2/markus-holzer.raku <===
+ 
+===> 029/2/noud.raku <===
+ROT13 encryption: uryyb crey jrrxyl punyyratr!
+ROT13 decryption: hello perl weekly challenge!
+ 
+===> 029/2/roger-bell-west.raku <===
+a string passed from perl6
+ 
+===> 029/2/ruben-westerberg.raku <===
+User ID: 502
+ 
+===> 029/2/stuart-little.raku <===
+7
+ 
+===> 029/2/ulrich-rieke.raku <===
+Perl 6 is alphabetically greater than Perl 5!
+ 
+===> 029/2/yet-ebreo.raku <===
+1 1 2 3 5 8 13 21 34 55 89 144 233 377 610 987 1597 2584 4181 6765 
+1 1 2 3 5 8 13 21 34 55 89 144 233 377 610 987 1597 2584 4181 6765 
+1 1 2 3 5 8 13 21 34 55 89 144 233 377 610 987 1597 2584 4181 6765 

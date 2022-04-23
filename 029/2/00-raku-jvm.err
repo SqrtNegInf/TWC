@@ -1,0 +1,84 @@
+[31m===[0mSORRY![31m===[0m Error while compiling /Users/dhoekman/PWC/029/2/arne-sommer.raku
+An exception occurred while evaluating a BEGIN
+at /Users/dhoekman/PWC/029/2/arne-sommer.raku:3
+Exception details:
+  not ok - disabled: JVM cannot handle NativeCall
+    in code  at arne-sommer.raku line 3
+
+[31m===[0mSORRY![31m===[0m Error while compiling /Users/dhoekman/PWC/029/2/daniel-mita.raku
+An exception occurred while evaluating a BEGIN
+at /Users/dhoekman/PWC/029/2/daniel-mita.raku:3
+Exception details:
+  not ok - disabled: JVM cannot handle NativeCall
+    in code  at daniel-mita.raku line 3
+
+[31m===[0mSORRY![31m===[0m Error while compiling /Users/dhoekman/PWC/029/2/joelle-maslak.raku
+An exception occurred while evaluating a BEGIN
+at /Users/dhoekman/PWC/029/2/joelle-maslak.raku:3
+Exception details:
+  not ok - disabled: JVM cannot handle NativeCall
+    in code  at joelle-maslak.raku line 3
+
+[31m===[0mSORRY![31m===[0m Error while compiling /Users/dhoekman/PWC/029/2/kevin-colyer.raku
+An exception occurred while evaluating a BEGIN
+at /Users/dhoekman/PWC/029/2/kevin-colyer.raku:3
+Exception details:
+  not ok - disabled: JVM cannot handle NativeCall
+    in code  at kevin-colyer.raku line 3
+
+[31m===[0mSORRY![31m===[0m Error while compiling /Users/dhoekman/PWC/029/2/laurent-rosenfeld.raku
+An exception occurred while evaluating a BEGIN
+at /Users/dhoekman/PWC/029/2/laurent-rosenfeld.raku:3
+Exception details:
+  not ok - disabled: JVM cannot handle NativeCall
+    in code  at laurent-rosenfeld.raku line 3
+
+[31m===[0mSORRY![31m===[0m Error while compiling /Users/dhoekman/PWC/029/2/markus-holzer.raku
+An exception occurred while evaluating a BEGIN
+at /Users/dhoekman/PWC/029/2/markus-holzer.raku:3
+Exception details:
+  not ok - disabled: JVM cannot handle NativeCall
+    in code  at markus-holzer.raku line 3
+
+[31m===[0mSORRY![31m===[0m Error while compiling /Users/dhoekman/PWC/029/2/noud.raku
+An exception occurred while evaluating a BEGIN
+at /Users/dhoekman/PWC/029/2/noud.raku:3
+Exception details:
+  not ok - disabled: JVM cannot handle NativeCall
+    in code  at noud.raku line 3
+
+[31m===[0mSORRY![31m===[0m Error while compiling /Users/dhoekman/PWC/029/2/roger-bell-west.raku
+An exception occurred while evaluating a BEGIN
+at /Users/dhoekman/PWC/029/2/roger-bell-west.raku:3
+Exception details:
+  not ok - disabled: JVM cannot handle NativeCall
+    in code  at roger-bell-west.raku line 3
+
+[31m===[0mSORRY![31m===[0m Error while compiling /Users/dhoekman/PWC/029/2/ruben-westerberg.raku
+An exception occurred while evaluating a BEGIN
+at /Users/dhoekman/PWC/029/2/ruben-westerberg.raku:3
+Exception details:
+  not ok - disabled: JVM cannot handle NativeCall
+    in code  at ruben-westerberg.raku line 3
+
+[31m===[0mSORRY![31m===[0m Error while compiling /Users/dhoekman/PWC/029/2/stuart-little.raku
+An exception occurred while evaluating a BEGIN
+at /Users/dhoekman/PWC/029/2/stuart-little.raku:3
+Exception details:
+  not ok - disabled: JVM cannot handle NativeCall
+    in code  at stuart-little.raku line 3
+
+[31m===[0mSORRY![31m===[0m Error while compiling /Users/dhoekman/PWC/029/2/ulrich-rieke.raku
+An exception occurred while evaluating a BEGIN
+at /Users/dhoekman/PWC/029/2/ulrich-rieke.raku:3
+Exception details:
+  not ok - disabled: JVM cannot handle NativeCall
+    in code  at ulrich-rieke.raku line 3
+
+[31m===[0mSORRY![31m===[0m Error while compiling /Users/dhoekman/PWC/029/2/yet-ebreo.raku
+An exception occurred while evaluating a BEGIN
+at /Users/dhoekman/PWC/029/2/yet-ebreo.raku:3
+Exception details:
+  not ok - disabled: JVM cannot handle NativeCall
+    in code  at yet-ebreo.raku line 3
+

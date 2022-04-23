@@ -1,0 +1,12 @@
+not ok - disabled: getrandom not found
+  in block <unit> at daniel-mita.raku line 4
+
+not ok - disabled: Linux specific
+  in block <unit> at kevin-colyer.raku line 4
+
+not ok - disabled: as written runs only on Windows
+  in block <unit> at laurent-rosenfeld.raku line 4
+
+not ok - disabled: runs only on Windows
+  in block <unit> at markus-holzer.raku line 4
+
