@@ -1,0 +1,37 @@
+ 
+===> 028/1/arne-sommer.raku <===
+ 
+===> 028/1/athanasius.raku <===
+"athanasius.raku": The file content is text
+ 
+===> 028/1/feng-chang.raku <===
+the file content is ascii
+ 
+===> 028/1/jaldhar-h-vyas.raku <===
+The file content is text.
+ 
+===> 028/1/joelle-maslak.raku <===
+The file content is ascii
+ 
+===> 028/1/kevin-colyer.raku <===
+The file content is ascii.
+ 
+===> 028/1/laurent-rosenfeld.raku <===
+File content is text (ASCII)
+ 
+===> 028/1/markus-holzer.raku <===
+markus-holzer.raku: a raku script text executable
+
+The file content is ascii
+ 
+===> 028/1/ruben-westerberg.raku <===
+ruben-westerberg.raku: The file content is binary
+../00-blogs: The file content is binary
+ 
+===> 028/1/stuart-little.raku <===
+text
+ 
+===> 028/1/ulrich-rieke.raku <===
+The file is ascii.
+ 
+===> 028/1/yet-ebreo.raku <===

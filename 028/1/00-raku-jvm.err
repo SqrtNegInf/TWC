@@ -1,0 +1,20 @@
+not ok - disabled: the module could not be installed
+  in block <unit> at arne-sommer.raku line 3
+
+[31m===[0mSORRY![31m===[0m Error while compiling /Users/dhoekman/PWC/028/1/athanasius.raku
+An exception occurred while evaluating a BEGIN
+at /Users/dhoekman/PWC/028/1/athanasius.raku:3
+Exception details:
+  not ok - disabled: JVM cannot handle Perl5
+    in code  at athanasius.raku line 3
+
+[31m===[0mSORRY![31m===[0m Error while compiling /Users/dhoekman/PWC/028/1/stuart-little.raku
+An exception occurred while evaluating a BEGIN
+at /Users/dhoekman/PWC/028/1/stuart-little.raku:3
+Exception details:
+  not ok - disabled: JVM cannot handle Perl5
+    in code  at stuart-little.raku line 3
+
+not ok - disabled: the module could not be installed
+  in block <unit> at yet-ebreo.raku line 3
+

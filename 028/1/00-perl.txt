@@ -1,0 +1,46 @@
+ 
+===> 028/1/adam-russell.pl <===
+The file content is binary.
+ 
+===> 028/1/andrezgz.pl <===
+The file content is ascii. 
+===> 028/1/athanasius.pl <===
+"athanasius.pl": The file content is text
+ 
+===> 028/1/colin-crain.pl <===
+The file content is most likely text.
+ 
+===> 028/1/dave-cross.pl <===
+dave-cross.pl looks like a text file
+ 
+===> 028/1/dave-jacoby.pl <===
+dave-jacoby.pl
+	The file content is ascii
+ 
+===> 028/1/duane-powell.pl <===
+The file duane-powell.pl content is ascii
+ 
+===> 028/1/duncan-c-white.pl <===
+file duncan-c-white.pl is text
+ 
+===> 028/1/e-choroba.pl <===
+The file content is ascii.
+ 
+===> 028/1/feng-chang.pl <===
+the file content is ascii
+ 
+===> 028/1/joelle-maslak.pl <===
+The file content is ascii
+ 
+===> 028/1/kivanc-yazan.pl <===
+File is an ASCII or UTF-8 text file (heuristic guess).
+ 
+===> 028/1/lubos-kolouch.pl <===
+ok 1
+ok 2
+ok 3
+ok 4
+1..4
+ 
+===> 028/1/steven-wilson.pl <===
+The file contents is text/script
