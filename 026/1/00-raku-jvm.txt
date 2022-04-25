@@ -1,0 +1,52 @@
+ 
+===> 026/1/arne-sommer.raku <===
+8
+ 
+===> 026/1/athanasius.raku <===
+8 of the letters in the Stones string "chancellor"
+      also occur in the Jewels string "chocolate"
+ 
+===> 026/1/donald-hunter.raku <===
+8
+ 
+===> 026/1/joelle-maslak.raku <===
+8
+ 
+===> 026/1/laurent-rosenfeld.raku <===
+chocolate has 8 letters from chancellor
+ 
+===> 026/1/mark-senn.raku <===
+8
+8
+8
+8
+ 
+===> 026/1/markus-holzer.raku <===
+ok 1 - 3 characters of 'beer' are also in 'bottle'
+ok 2 - 8 characters of 'chancellor' are also in 'chocolates'
+ok 3 - These characters are 'chacello'
+ 
+===> 026/1/noud.raku <===
+8
+ 
+===> 026/1/ozzy.raku <===
+[c h a n c e l l o r]
+[c h o c o l a t e]
+8
+ 
+===> 026/1/roger-bell-west.raku <===
+8
+ 
+===> 026/1/ruben-westerberg.raku <===
+Alphabet (stone) word: chancellor
+Test (jewel) word: chocolate
+Number of letters of Alphabet found in Test: 8
+ 
+===> 026/1/simon-proctor.raku <===
+8
+ 
+===> 026/1/stuart-little.raku <===
+2
+ 
+===> 026/1/yet-ebreo.raku <===
+8

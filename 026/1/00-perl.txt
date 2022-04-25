@@ -1,0 +1,54 @@
+ 
+===> 026/1/adam-russell.pl <===
+8
+ 
+===> 026/1/andrezgz.pl <===
+8 
+===> 026/1/athanasius.pl <===
+8 of the letters in the Stones string "chancellor"
+      also occur in the Jewels string "chocolate"
+ 
+===> 026/1/colin-crain.pl <===
+8
+ 
+===> 026/1/daniel-mantovani.pl <===
+chancellor letters found in chocolate are 8 in total
+ 
+===> 026/1/duane-powell.pl <===
+8
+ 
+===> 026/1/duncan-c-white.pl <===
+8
+ 
+===> 026/1/e-choroba.pl <===
+1..6
+ok 1
+ok 2
+ok 3
+ok 4
+ok 5
+ok 6
+ 
+===> 026/1/laurent-rosenfeld.pl <===
+chocolate has 8 letters from chancellor
+ 
+===> 026/1/lubos-kolouch.pl <===
+ok 1
+ok 2
+ok 3
+1..3
+ 
+===> 026/1/paulo-custodio.pl <===
+8
+ 
+===> 026/1/ruben-westerberg.pl <===
+Alphabet (stone) word: chancellor
+Test (jewel) word: chocolate
+Number of letters of Alphabet found in Test: 8
+ 
+===> 026/1/steven-wilson.pl <===
+8
+ 
+===> 026/1/yet-ebreo.pl <===
+8
+8
