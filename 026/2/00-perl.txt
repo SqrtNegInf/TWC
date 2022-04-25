@@ -1,0 +1,60 @@
+ 
+===> 026/2/adam-russell.pl <===
+90
+ 
+===> 026/2/andrezgz.pl <===
+Mean angle: 1.49999999999997 
+===> 026/2/colin-crain.pl <===
+-90.0000000000004
+ 
+===> 026/2/daniel-mantovani.pl <===
+Circular mean is: -90.00
+ 
+===> 026/2/duane-powell.pl <===
+The mean of angles 180,270,360 is -90
+ 
+===> 026/2/duncan-c-white.pl <===
+circular mean of 180 270 360 is -90
+ 
+===> 026/2/e-choroba.pl <===
+ok 1
+1..1
+ 
+===> 026/2/jaldhar-h-vyas.pl <===
+-90
+ 
+===> 026/2/joelle-maslak.pl <===
+270.00
+ 
+===> 026/2/laurent-rosenfeld.pl <===
+1..9
+ok 1 - To rad: 0 degree
+ok 2 - To rad: 90 degrees
+ok 3 - To rad: 180 degrees
+ok 4 - To degrees: 90 degrees
+ok 5 - To degrees: 180 degrees
+ok 6 - Roundtrip rad -> deg -> rad
+ok 7 - Roundtrip deg -> rad -> deg
+ok 8 - Mean of 10, 20, 30 degrees
+ok 9 - Mean of 355, 5, 15 degrees
+ 
+===> 026/2/lubos-kolouch.pl <===
+-90
+ok 1
+1..1
+ 
+===> 026/2/roger-bell-west.pl <===
+-90.0000000102895
+ 
+===> 026/2/ruben-westerberg.pl <===
+Average of angles [ 180 270 360 ] is: 270
+ 
+===> 026/2/steven-wilson.pl <===
+ok 1 - test circular mean
+ok 2 - test mean sines
+ok 3 - test mean cosines
+1..3
+Mean of the angles 180 270 360 is 270
+ 
+===> 026/2/yet-ebreo.pl <===
+-90

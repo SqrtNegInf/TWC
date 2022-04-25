@@ -1,0 +1,61 @@
+ 
+===> 026/2/arne-sommer.raku <===
+mean: 270
+ 
+===> 026/2/athanasius.raku <===
+The circular mean of the angles
+  (180, 270, 360)
+is -90.0
+ 
+===> 026/2/jaldhar-h-vyas.raku <===
+NaN
+ 
+===> 026/2/joelle-maslak.raku <===
+No average
+ 
+===> 026/2/laurent-rosenfeld.raku <===
+1..9
+ok 1 - To rad: 0 degree
+ok 2 - To rad: 90 degrees
+ok 3 - To rad: 180 degrees
+ok 4 - To degrees: 90 degrees
+ok 5 - To degrees: 180 degrees
+ok 6 - Roundtrip rad -> deg -> rad
+ok 7 - Roundtrip deg -> rad -> deg
+ok 8 - Mean of 10, 20, 30 degrees
+ok 9 - Mean of 355, 5, 15 degrees
+ 
+===> 026/2/mark-senn.raku <===
+-90.00000000000001
+ 
+===> 026/2/markus-holzer.raku <===
+ok 1 - The mean of equal angles is the angle
+ok 2 - All angles in one quadrant
+ok 3 - Angles in multiple quadrants
+ok 4 - Angle is not negative
+ 
+===> 026/2/noud.raku <===
+0.2
+0.2
+0.19999999999999973
+20.000000000000018
+20.000000000000018
+19.999999999999993
+ 
+===> 026/2/ozzy.raku <===
+Mean angle = -90.00 degrees
+ 
+===> 026/2/roger-bell-west.raku <===
+-90.00000000000001
+ 
+===> 026/2/ruben-westerberg.raku <===
+Average of [ 180 270 360 ] is: 270
+ 
+===> 026/2/simon-proctor.raku <===
+2.356194490192345
+ 
+===> 026/2/stuart-little.raku <===
+-90.00000000000001
+ 
+===> 026/2/yet-ebreo.raku <===
+-90.00000000000001
