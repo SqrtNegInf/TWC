@@ -1,0 +1,38 @@
+ 
+===> 025/2/adam-russell.pl <===
+GQQGZBGQJGRS
+ATTACKATDAWN
+ 
+===> 025/2/andrezgz.pl <===
+Ciphered text: OAHQHCNYNXTSZJRRHJBYHQKSOUJY
+Deciphered text: WELLDONEISBETTERTHANWELLSAID
+ 
+===> 025/2/duane-powell.pl <===
+OAHQHCNYNXTSZJRRHJBYHQKSOUJY
+ 
+===> 025/2/e-choroba.pl <===
+1..4
+ok 1 - single letter encoded
+ok 2 - long text encoded
+ok 3 - single letter decoded
+ok 4 - long text decoded
+ 
+===> 025/2/joelle-maslak.pl <===
+PHESOLASBCSW
+ 
+===> 025/2/laurent-rosenfeld.pl <===
+1..4
+ok 1 - Left alphabet: PFJRIGTWOBNYQEHXUCZVAMDSLK
+ok 2 - Right alphabet: VZGJRIHWXUMCPKTLNBQDEOYSFA
+ok 3 - Testing enciphering: OAHQHCNYNXTSZJRRHJBYHQKSOUJY
+ok 4 - Roundtrip: WELLDONEISBETTERTHANWELLSAID
+ 
+===> 025/2/paulo-custodio.pl <===
+HMAHTU
+ 
+===> 025/2/roger-bell-west.pl <===
+OAHQHCNYNXTSZJRRHJBYHQKSOUJY
+WELLDONEISBETTERTHANWELLSAID
+ 
+===> 025/2/yet-ebreo.pl <===
+WYZr7dIDE
