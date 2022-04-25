@@ -1,0 +1,13 @@
+not ok - disabled: runs forever
+  in block <unit> at jaldhar-h-vyas.raku line 4
+
+[31m===[0mSORRY![31m===[0m Error while compiling /Users/dhoekman/PWC/025/1/joelle-maslak.raku
+An exception occurred while evaluating a BEGIN
+at /Users/dhoekman/PWC/025/1/joelle-maslak.raku:3
+Exception details:
+  not ok - disabled: JVM cannot concurrency?
+    in code  at joelle-maslak.raku line 3
+
+Exception in thread "Thread-4" java.lang.NullPointerException
+	at org.raku.nqp.runtime.IOOps$SigRunnable.run(IOOps.java:31)
+	at java.base/java.lang.Thread.run(Thread.java:830)

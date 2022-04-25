@@ -1,0 +1,88 @@
+ 
+===> 025/1/arne-sommer.raku <===
+Currently longest path found at 1.
+Currently longest path found at 2.
+Currently longest path found at 3.
+Currently longest path found at 4.
+Currently longest path found at 5.
+5: girafarig gabite exeggcute emolga audino
+Total: 1 solutions.
+ 
+===> 025/1/athanasius.raku <===
+There are 18 different Pokemon names
+ 1:     16
+ 2:     11
+ 3:     10
+ 4:      5
+ 5:      1
+The longest sequences of the 18 given Pokemon names contain 5 elements; e.g.:
+
+girafarig, gabite, exeggcute, emolga, audino
+ 
+===> 025/1/jaldhar-h-vyas.raku <===
+ 
+===> 025/1/joelle-maslak.raku <===
+1 (5 elements): girafarig gabite exeggcute emolga audino
+ 
+===> 025/1/kevin-colyer.raku <===
+Longest sequence is 6 ---> [audino]
+Longest sequence is 6 ---> [audino]
+Longest sequence is 6 ---> [audino]
+Longest sequence is 28 ---> [banette exeggcute emolga audino]
+Longest sequence is 28 ---> [banette exeggcute emolga audino]
+Longest sequence is 28 ---> [banette exeggcute emolga audino]
+Longest sequence is 28 ---> [banette exeggcute emolga audino]
+Longest sequence is 28 ---> [banette exeggcute emolga audino]
+Longest sequence is 28 ---> [banette exeggcute emolga audino]
+Longest sequence is 28 ---> [banette exeggcute emolga audino]
+Longest sequence is 28 ---> [banette exeggcute emolga audino]
+Longest sequence is 28 ---> [banette exeggcute emolga audino]
+Longest sequence is 28 ---> [banette exeggcute emolga audino]
+Longest sequence is 28 ---> [banette exeggcute emolga audino]
+Longest sequence is 28 ---> [banette exeggcute emolga audino]
+Longest sequence is 28 ---> [banette exeggcute emolga audino]
+Longest sequence is 28 ---> [banette exeggcute emolga audino]
+Longest sequence is 36 ---> [girafarig gabite exeggcute emolga audino]
+ 
+===> 025/1/laurent-rosenfeld.raku <===
+BEST SEQUENCES: 
+girafarig
+gabite
+exeggcute
+emolga
+audino
+Number of sequences: 5
+ 
+===> 025/1/ozzy.raku <===
+2,13 -> [banette emboar]
+2,13 -> [banette emolga]
+3,19 -> [banette emolga audino]
+3,22 -> [banette exeggcute emboar]
+3,22 -> [banette exeggcute emolga]
+4,28 -> [banette exeggcute emolga audino]
+4,30 -> [girafarig gabite exeggcute emboar]
+4,30 -> [girafarig gabite exeggcute emolga]
+5,36 -> [girafarig gabite exeggcute emolga audino]
+ 
+===> 025/1/ruben-westerberg.raku <===
+[audino]
+[banette emboar]
+[banette emolga audino]
+[banette exeggcute emolga audino]
+[girafarig gabite exeggcute emolga audino]
+(girafarig gabite exeggcute emolga audino)
+ 
+===> 025/1/simon-proctor.raku <===
+banette
+exeggcute
+emolga
+ 
+===> 025/1/stuart-little.raku <===
+(banette emboar)
+ 
+===> 025/1/yet-ebreo.raku <===
+Sequence:
+> girafarig > gabite > exeggcute > emolga > audino 
+
+Highest chain count: 5
+Number of Sequence found: 1

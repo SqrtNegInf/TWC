@@ -1,0 +1,92 @@
+ 
+===> 025/1/adam-russell.pl <===
+girafarig-gabite-exeggcute-emolga-audino 36
+ 
+===> 025/1/andrezgz.pl <===
+1 longest sequences with unique pokemon names (5)
+* girafarig,gabite,exeggcute,emolga,audino
+ 
+===> 025/1/athanasius.pl <===
+
+There are 18 different Pokémon names
+ 1:     16
+ 2:     11
+ 3:     10
+ 4:      5
+ 5:      1
+The longest sequences of the 18 given Pokémon names contain 5 elements; e.g.:
+
+girafarig, gabite, exeggcute, emolga, audino
+ 
+===> 025/1/colin-crain.pl <===
+from a group of 18 pokemon:
+longest list length: 5 pokemon
+first list found at this length: 
+girafarig, gabite, exeggcute, emolga, audino
+number of lists at this length: 1
+1:	girafarig, gabite, exeggcute, emolga, audino
+one name for a giant monstrosity of a creature composed of an amagamation of all 5 pokemon is: 
+girafarigabitexeggcutemolgaudinaudino
+ 
+===> 025/1/duncan-c-white.pl <===
+Have 11 sequences of length 1
+Have 6 sequences of length 2
+Have 6 sequences of length 3
+Have 4 sequences of length 4
+Have 1 sequences of length 5
+ 
+===> 025/1/e-choroba.pl <===
+girafarig girafarig gabite exeggcute emolga audino
+There are 1 paths of length 6
+ 
+===> 025/1/guillermo-ramos.pl <===
+Longest so far: audino
+Longest so far: banette exeggcute emolga audino
+Longest so far: banette exeggcute emolga audino
+Longest so far: banette exeggcute emolga audino
+Longest so far: banette exeggcute emolga audino
+Longest so far: banette exeggcute emolga audino
+Longest so far: girafarig gabite exeggcute emolga audino
+Longest so far: girafarig gabite exeggcute emolga audino
+Longest so far: girafarig gabite exeggcute emolga audino
+Longest so far: girafarig gabite exeggcute emolga audino
+Longest so far: girafarig gabite exeggcute emolga audino
+Longest so far: girafarig gabite exeggcute emolga audino
+Longest so far: girafarig gabite exeggcute emolga audino
+Longest so far: girafarig gabite exeggcute emolga audino
+Longest so far: girafarig gabite exeggcute emolga audino
+Longest so far: girafarig gabite exeggcute emolga audino
+Longest so far: girafarig gabite exeggcute emolga audino
+Longest so far: girafarig gabite exeggcute emolga audino
+Longest so far: girafarig gabite exeggcute emolga audino
+Longest so far: girafarig gabite exeggcute emolga audino
+Longest so far: girafarig gabite exeggcute emolga audino
+Longest so far: girafarig gabite exeggcute emolga audino
+Longest so far: girafarig gabite exeggcute emolga audino
+Longest so far: girafarig gabite exeggcute emolga audino
+Longest so far: girafarig gabite exeggcute emolga audino
+Longest so far: girafarig gabite exeggcute emolga audino
+ 
+===> 025/1/joelle-maslak.pl <===
+1 (5 elements): girafarig gabite exeggcute emolga audino
+ 
+===> 025/1/laurent-rosenfeld.pl <===
+BEST SEQUENCES: 
+girafarig gabite exeggcute emolga audino
+Number of sequences: 1
+ 
+===> 025/1/roger-bell-west.pl <===
+girafarig gabite exeggcute emolga audino
+ 
+===> 025/1/ruben-westerberg.pl <===
+banette
+banette emolga
+banette exeggcute emolga
+girafarig gabite exeggcute emolga
+girafarig,gabite,exeggcute,emolga 
+===> 025/1/yet-ebreo.pl <===
+Sequence:
+> girafarig > gabite > exeggcute > emolga > audino 
+
+Highest chain count: 5
+Number of Sequence found: 1
