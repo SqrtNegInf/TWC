@@ -1,0 +1,26 @@
+ 
+===> 027/1/andrezgz.pl <===
+Intersection point (2.00,1.00) 
+===> 027/1/e-choroba.pl <===
+ok 1
+ok 2
+ok 3
+ok 4
+ok 5
+ok 6
+ok 7 - threw Regexp ((?^:Not enough points))
+ok 8
+ok 9
+ok 10
+ok 11
+ok 12
+ok 13 - threw Regexp ((?^:Identical lines))
+ok 14 - threw Regexp ((?^:No intersection))
+1..14
+ 
+===> 027/1/lubos-kolouch.pl <===
+ok 1
+ok 2
+ok 3
+ok 4
+1..4
