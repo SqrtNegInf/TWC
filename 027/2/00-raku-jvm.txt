@@ -1,0 +1,68 @@
+ 
+===> 027/2/arne-sommer.raku <===
+15
+(10 20 15)
+ 
+===> 027/2/jaldhar-h-vyas.raku <===
+Storing <10> (was [])
+Storing <20> (was [10])
+Storing <15> (was [20])
+ 
+===> 027/2/joelle-maslak.raku <===
+10
+20
+15
+16
+"Foo!"
+"Foo! Bar!"
+"Baz."
+1 2 3
+ 
+===> 027/2/kevin-colyer.raku <===
+ok 1 - list of first op
+ok 2 - list of ops
+ok 3 - list of ops
+1..3
+ 
+===> 027/2/laurent-rosenfeld.raku <===
+Current: 10
+Current: 15
+Current: 5
+Current: 20
+Past values: [10 15 5]
+ 
+===> 027/2/noud.raku <===
+ 
+===> 027/2/ruben-westerberg.raku <===
+Current  value of variable: 100
+Historical Values: 4 10 100
+ 
+===> 027/2/simon-proctor.raku <===
+Examples
+6
+Historic.from(5,6)
+[5 6]
+18
+18
+Historic.from(9,18)
+4
+[1 2 3 4]
+5
+13
+[5 7 13]
+ 
+===> 027/2/stuart-little.raku <===
+is now: 1
+was: 1;  is now: 2
+was: 1 2;  is now: 3
+was: 1 2 3;  is now: 4
+current: 4
+ 
+===> 027/2/yet-ebreo.raku <===
+10
+20
+15
+3.1416
+a quick brown fox jumps over the lazy dog
+1000
+1732.0508075688772

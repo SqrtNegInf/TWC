@@ -1,0 +1,11 @@
+WARNINGS for /Users/dhoekman/PWC/027/2/laurent-rosenfeld.raku:
+Useless use of "=:=" in expression "$x =:= 20" in sink context (line 24)
+Useless use of "=:=" in expression "$x =:= 15" in sink context (line 20)
+Useless use of "=:=" in expression "$x =:= 5" in sink context (line 22)
+[31m===[0mSORRY![31m===[0m Error while compiling /Users/dhoekman/PWC/027/2/noud.raku
+An exception occurred while evaluating a BEGIN
+at /Users/dhoekman/PWC/027/2/noud.raku:3
+Exception details:
+  not ok - disabled: not sure how to test
+    in code  at noud.raku line 3
+

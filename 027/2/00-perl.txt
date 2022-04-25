@@ -1,0 +1,60 @@
+ 
+===> 027/2/andrezgz.pl <===
+10
+20
+15 
+===> 027/2/colin-crain.pl <===
+x at start: 1
+x is currently: foo
+y at start: 3
+y is currently: bar
+history of x: 1, 2, -1, foo
+history of y: 3, 4, -5, bar
+ 
+===> 027/2/duncan-c-white.pl <===
+Final values:
+x: 45
+y: 240
+Historical values:
+x: 0,10,10,20,20,15,15,45
+y: 0,0,20,20,120,120,240,240
+ 
+===> 027/2/e-choroba.pl <===
+1..2
+ok 1
+ok 2
+ 
+===> 027/2/jaldhar-h-vyas.pl <===
+Storing <10> (was [])
+Storing <20> (was [10])
+Storing <15> (was [20])
+ 
+===> 027/2/joelle-maslak.pl <===
+10
+20
+15
+Foo!
+Baz.
+ 
+===> 027/2/laurent-rosenfeld.pl <===
+Current: 10
+Current: 15
+Current: 20
+Current: 5
+Past: 10 15 20
+ 
+===> 027/2/mark-anderson.pl <===
+10 20 15 16 48 24
+ 
+===> 027/2/paulo-custodio.pl <===
+10 20 15
+ 
+===> 027/2/ruben-westerberg.pl <===
+Current Value of variable: 15
+Historical Values: 10 1 15
+ 
+===> 027/2/trenton-langer.pl <===
+History:
+	->	10
+	->	20
+	->	15
