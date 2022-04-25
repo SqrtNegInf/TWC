@@ -1,3 +1,7 @@
+2022-04-25
+The 'short' program task: mostly nothing to test, skipped.
+Also skipping the 'API' tasks.
+
 2022-04-20
 033/1/athanasius.raku appears to have a real JVM bug, need to open an issue.
 (plus for the ones previously found)
