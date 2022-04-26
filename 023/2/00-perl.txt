@@ -1,0 +1,53 @@
+ 
+===> 023/2/adam-russell.pl <===
+2, 2, 3, 19
+ 
+===> 023/2/andrezgz.pl <===
+2,2,3,19 
+===> 023/2/athanasius.pl <===
+The prime decomposition of 11111 is: 41, 271
+ 
+===> 023/2/colin-crain.pl <===
+41, 271
+ 
+===> 023/2/daniel-mantovani.pl <===
+41, 271
+ 
+===> 023/2/duane-powell.pl <===
+228 = (2^2) x 3 x 19
+864 = (2^5) x (3^3)
+1,008 = (2^4) x (3^2) x 7
+1,024 = (2^10)
+130,321 = (19^4)
+823,543 = (7^7)
+ 
+===> 023/2/duncan-c-white.pl <===
+prime factors of 11111 are: 41,271
+ 
+===> 023/2/e-choroba.pl <===
+41 271
+ 
+===> 023/2/guillermo-ramos.pl <===
+11111 = 41*271
+ 
+===> 023/2/jaldhar-h-vyas.pl <===
+41, 271
+ 
+===> 023/2/joelle-maslak.pl <===
+11111 = 41 * 271
+ 
+===> 023/2/paulo-custodio.pl <===
+41, 271
+ 
+===> 023/2/randy-lauen.pl <===
+41, 271
+ 
+===> 023/2/ruben-westerberg.pl <===
+Prime decomposition of 228: 2 2 3 19 
+===> 023/2/walt-mankowski.pl <===
+11111 = 41*271
+ 
+===> 023/2/yet-ebreo.pl <===
+Using non-backticks solution (trial division/modulo):
+41 271
+

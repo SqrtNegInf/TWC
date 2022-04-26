@@ -1,0 +1,51 @@
+ 
+===> 023/2/arne-sommer.raku <===
+3 * 37
+ 
+===> 023/2/athanasius.raku <===
+The prime decomposition of 11111 is: 41, 271
+ 
+===> 023/2/jaldhar-h-vyas.raku <===
+41, 271
+ 
+===> 023/2/joelle-maslak.raku <===
+11111 = 41 × 271
+ 
+===> 023/2/kevin-colyer.raku <===
+Searching: ..
+[41 271]
+ 
+===> 023/2/laurent-rosenfeld.raku <===
+41 ** 1
+271 ** 1
+ 
+===> 023/2/mark-senn.raku <===
+2
+2
+3
+19
+ 
+===> 023/2/noud.raku <===
+(2 2 3 19)
+ 
+===> 023/2/randy-lauen.raku <===
+1..1
+ok 1 - all prime factors up to 1000 match
+ 
+===> 023/2/roger-bell-west.raku <===
+1111: 11 101
+11111: 41 271
+ 
+===> 023/2/ruben-westerberg.raku <===
+Prime decomposition of 228: 2 2 3 19
+ 
+===> 023/2/simon-proctor.raku <===
+41,271
+ 
+===> 023/2/stuart-little.raku <===
+(41 271)
+ 
+===> 023/2/yet-ebreo.raku <===
+Using non-backticks solution (trial division/modulo):
+41 271
+
