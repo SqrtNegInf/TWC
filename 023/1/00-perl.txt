@@ -1,0 +1,33 @@
+ 
+===> 023/1/adam-russell.pl <===
+4, -7, 6, -7, 5
+ 
+===> 023/1/andrezgz.pl <===
+4,-7,6,-7,5
+ 
+===> 023/1/colin-crain.pl <===
+4, -7, 6, -7, 5
+ 
+===> 023/1/e-choroba.pl <===
+4 -7 6 -7 5
+ 
+===> 023/1/guillermo-ramos.pl <===
+4 -7 6 -7 5
+ 
+===> 023/1/jaldhar-h-vyas.pl <===
+4, -7, 6, -7, 5
+ 
+===> 023/1/kian-meng-ang.pl <===
+order:1 seq:4,-7,6,-7,5
+ 
+===> 023/1/laurent-rosenfeld.pl <===
+1 forward diff of 5 9 2 8 1 6 is: 4 -7 6 -7 5
+ 
+===> 023/1/mark-anderson.pl <===
+4, -7, 6, -7, 5
+ 
+===> 023/1/roger-bell-west.pl <===
+4 -7 6 -7 5
+ 
+===> 023/1/yet-ebreo.pl <===
+4 -7 6 -7 5

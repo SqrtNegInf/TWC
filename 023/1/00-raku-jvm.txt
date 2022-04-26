@@ -1,0 +1,48 @@
+ 
+===> 023/1/arne-sommer.raku <===
+[4 -7 6 -7 5]
+ 
+===> 023/1/athanasius.raku <===
+1st order forward difference series:
+(4, -7, 6, -7, 5)
+ 
+===> 023/1/jaldhar-h-vyas.raku <===
+4, -7, 6, -7, 5
+ 
+===> 023/1/joelle-maslak.raku <===
+4 -7 6 -7 5
+ 
+===> 023/1/kevin-colyer.raku <===
+ok 1 - 0th order = fail
+ok 2 - 5th order on series of 6 = fail
+ok 3 - first order
+ok 4 - second order
+ok 5 - third order
+1..5
+ 
+===> 023/1/laurent-rosenfeld.raku <===
+1th forward diff of 5 9 2 8 1 6 is: 4 -7 6 -7 5
+ 
+===> 023/1/mark-senn.raku <===
+order 1: 4 -7 6 -7 5
+ 
+===> 023/1/noud.raku <===
+(-7 6 -7 5 -6)
+ 
+===> 023/1/randy-lauen.raku <===
+1: 4, -7, 6, -7, 5
+ 
+===> 023/1/roger-bell-west.raku <===
+4 -7 6 -7 5
+ 
+===> 023/1/ruben-westerberg.raku <===
+4 -7 6 -7 5
+ 
+===> 023/1/simon-proctor.raku <===
+4,-7,6,-7,5
+ 
+===> 023/1/stuart-little.raku <===
+(4 -7 6 -7 5)
+ 
+===> 023/1/yet-ebreo.raku <===
+4 -7 6 -7 5
