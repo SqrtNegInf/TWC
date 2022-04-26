@@ -1,0 +1,721 @@
+ 
+===> 024/2/arne-sommer.raku <===
+/:sample.txt,sample1.txt,sample2.txt
+Also:sample.txt,sample1.txt,sample2.txt
+An:sample.txt,sample1.txt,sample2.txt
+Given:sample.txt,sample1.txt,sample2.txt
+The:sample.txt,sample1.txt,sample2.txt
+This:sample.txt,sample1.txt,sample2.txt
+a:sample.txt,sample1.txt,sample2.txt
+an:sample.txt,sample1.txt,sample2.txt
+be:sample.txt,sample1.txt,sample2.txt
+can:sample.txt,sample1.txt,sample2.txt
+contain:sample.txt,sample1.txt,sample2.txt
+create:sample.txt,sample1.txt,sample2.txt
+data:sample.txt,sample1.txt,sample2.txt
+do:sample.txt,sample1.txt,sample2.txt
+done:sample.txt,sample1.txt,sample2.txt
+entirely:sample.txt,sample1.txt,sample2.txt
+files:sample.txt,sample1.txt,sample2.txt
+files,:sample.txt,sample1.txt,sample2.txt
+full:sample.txt,sample1.txt,sample2.txt
+glorp:sample.txt,sample1.txt
+implement:sample.txt,sample1.txt,sample2.txt
+in:sample.txt,sample1.txt,sample2.txt
+index:sample.txt,sample1.txt,sample2.txt
+index.:sample.txt,sample1.txt,sample2.txt
+interface:sample.txt,sample1.txt,sample2.txt
+inverted:sample.txt,sample1.txt,sample2.txt
+is:sample.txt,sample1.txt,sample2.txt
+list:sample.txt,sample1.txt,sample2.txt
+memory.:sample.txt,sample1.txt,sample2.txt
+of:sample.txt,sample1.txt,sample2.txt
+program:sample.txt,sample1.txt,sample2.txt
+query:sample.txt,sample1.txt,sample2.txt
+returns:sample.txt,sample1.txt,sample2.txt
+search:sample.txt,sample1.txt,sample2.txt
+search.:sample.txt,sample1.txt,sample2.txt
+set:sample.txt,sample1.txt,sample2.txt
+snorp:sample.txt
+structure:sample.txt,sample1.txt,sample2.txt
+term:sample.txt,sample1.txt,sample2.txt
+terms.:sample.txt,sample1.txt,sample2.txt
+text:sample.txt,sample1.txt,sample2.txt
+that:sample.txt,sample1.txt,sample2.txt
+the:sample.txt,sample1.txt,sample2.txt
+to:sample.txt,sample1.txt,sample2.txt
+used:sample.txt,sample1.txt,sample2.txt
+user:sample.txt,sample1.txt,sample2.txt
+using:sample.txt,sample1.txt,sample2.txt
+which:sample.txt,sample1.txt,sample2.txt
+yorp:sample.txt
+zizzer:sample1.txt,sample2.txt
+ 
+===> 024/2/fjwhittle.raku <===
+a:0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17
+also:0,1,2
+an:0,1,2,3,4,5
+be:0,1,2
+can:0,1,2
+contain:0,1,2
+create:0,1,2,3,4,5,6,7,8
+data:0,1,2
+do:0,1,2
+done:0,1,2
+entirely:0,1,2
+files:0,1,2,3,4,5
+full:0,1,2
+given:0,1,2
+glorp:0,1
+implement:0,1,2
+in:0,1,2,3,4,5
+index:0,1,2,3,4,5,6,7,8,9,10,11
+interface:0,1,2
+inverted:0,1,2,3,4,5,6,7,8
+is:0,1,2,3,4,5
+list:0,1,2
+memory:0,1,2,3,4,5
+of:0,1,2,3,4,5
+program:0,1,2
+query:0,1,2
+returns:0,1,2
+search:0,1,2,3,4,5,6,7,8
+set:0,1,2
+snorp:0
+structure:0,1,2
+term:0,1,2
+terms:0,1,2
+text:0,1,2,3,4,5
+that:0,1,2,3,4,5
+the:0,1,2,3,4,5
+this:0,1,2
+to:0,1,2,3,4,5,6,7,8
+used:0,1,2
+user:0,1,2
+using:0,1,2
+which:0,1,2
+yorp:0
+zizzer:0,1
+ 
+===> 024/2/jaldhar-h-vyas.raku <===
+/
+ sample.txt - 6
+ sample1.txt - 9
+ sample2.txt - 8
+Also
+ sample.txt - 5
+ sample1.txt - 8
+ sample2.txt - 7
+An
+ sample.txt - 1
+ sample1.txt - 1
+ sample2.txt - 1
+Given
+ sample.txt - 4
+ sample1.txt - 7
+ sample2.txt - 6
+The
+ sample.txt - 6
+ sample1.txt - 9
+ sample2.txt - 8
+This
+ sample.txt - 2
+ sample1.txt - 2
+ sample2.txt - 2
+a
+ sample.txt - 1
+ sample.txt - 4
+ sample.txt - 4
+ sample.txt - 5
+ sample.txt - 5
+ sample.txt - 6
+ sample1.txt - 1
+ sample1.txt - 7
+ sample1.txt - 7
+ sample1.txt - 8
+ sample1.txt - 8
+ sample1.txt - 9
+ sample2.txt - 1
+ sample2.txt - 6
+ sample2.txt - 6
+ sample2.txt - 7
+ sample2.txt - 7
+ sample2.txt - 8
+an
+ sample.txt - 4
+ sample1.txt - 7
+ sample2.txt - 6
+be
+ sample.txt - 7
+ sample1.txt - 10
+ sample2.txt - 9
+can
+ sample.txt - 7
+ sample1.txt - 10
+ sample2.txt - 9
+contain
+ sample.txt - 6
+ sample1.txt - 9
+ sample2.txt - 8
+create
+ sample.txt - 1
+ sample.txt - 4
+ sample.txt - 5
+ sample1.txt - 1
+ sample1.txt - 7
+ sample1.txt - 8
+ sample2.txt - 1
+ sample2.txt - 6
+ sample2.txt - 7
+data
+ sample.txt - 1
+ sample1.txt - 1
+ sample2.txt - 1
+do
+ sample.txt - 5
+ sample1.txt - 8
+ sample2.txt - 7
+done
+ sample.txt - 2
+ sample1.txt - 2
+ sample2.txt - 2
+entirely
+ sample.txt - 2
+ sample1.txt - 2
+ sample2.txt - 2
+files
+ sample.txt - 6
+ sample1.txt - 9
+ sample2.txt - 8
+files,
+ sample.txt - 4
+ sample1.txt - 7
+ sample2.txt - 6
+full
+ sample.txt - 1
+ sample1.txt - 1
+ sample2.txt - 1
+glorp
+ sample.txt - 9
+ sample1.txt - 4
+implement
+ sample.txt - 4
+ sample1.txt - 7
+ sample2.txt - 6
+in
+ sample.txt - 2
+ sample.txt - 7
+ sample1.txt - 2
+ sample1.txt - 10
+ sample2.txt - 2
+ sample2.txt - 9
+index
+ sample.txt - 1
+ sample.txt - 5
+ sample.txt - 7
+ sample1.txt - 1
+ sample1.txt - 8
+ sample1.txt - 10
+ sample2.txt - 1
+ sample2.txt - 7
+ sample2.txt - 9
+index.
+ sample.txt - 4
+ sample1.txt - 7
+ sample2.txt - 6
+interface
+ sample.txt - 5
+ sample1.txt - 8
+ sample2.txt - 7
+inverted
+ sample.txt - 1
+ sample.txt - 4
+ sample.txt - 5
+ sample1.txt - 1
+ sample1.txt - 7
+ sample1.txt - 8
+ sample2.txt - 1
+ sample2.txt - 6
+ sample2.txt - 7
+is
+ sample.txt - 1
+ sample.txt - 2
+ sample1.txt - 1
+ sample1.txt - 2
+ sample2.txt - 1
+ sample2.txt - 2
+list
+ sample.txt - 6
+ sample1.txt - 9
+ sample2.txt - 8
+memory.
+ sample.txt - 2
+ sample.txt - 7
+ sample1.txt - 2
+ sample1.txt - 10
+ sample2.txt - 2
+ sample2.txt - 9
+of
+ sample.txt - 4
+ sample.txt - 6
+ sample1.txt - 7
+ sample1.txt - 9
+ sample2.txt - 6
+ sample2.txt - 8
+program
+ sample.txt - 4
+ sample1.txt - 7
+ sample2.txt - 6
+query
+ sample.txt - 6
+ sample1.txt - 9
+ sample2.txt - 8
+returns
+ sample.txt - 6
+ sample1.txt - 9
+ sample2.txt - 8
+search
+ sample.txt - 5
+ sample.txt - 6
+ sample1.txt - 8
+ sample1.txt - 9
+ sample2.txt - 7
+ sample2.txt - 8
+search.
+ sample.txt - 1
+ sample1.txt - 1
+ sample2.txt - 1
+set
+ sample.txt - 4
+ sample1.txt - 7
+ sample2.txt - 6
+snorp
+ sample.txt - 9
+structure
+ sample.txt - 1
+ sample1.txt - 1
+ sample2.txt - 1
+term
+ sample.txt - 6
+ sample1.txt - 9
+ sample2.txt - 8
+terms.
+ sample.txt - 6
+ sample1.txt - 9
+ sample2.txt - 8
+text
+ sample.txt - 1
+ sample.txt - 4
+ sample1.txt - 1
+ sample1.txt - 7
+ sample2.txt - 1
+ sample2.txt - 6
+that
+ sample.txt - 5
+ sample.txt - 6
+ sample1.txt - 8
+ sample1.txt - 9
+ sample2.txt - 7
+ sample2.txt - 8
+the
+ sample.txt - 6
+ sample1.txt - 9
+ sample2.txt - 8
+to
+ sample.txt - 1
+ sample.txt - 4
+ sample.txt - 5
+ sample1.txt - 1
+ sample1.txt - 7
+ sample1.txt - 8
+ sample2.txt - 1
+ sample2.txt - 6
+ sample2.txt - 7
+used
+ sample.txt - 1
+ sample1.txt - 1
+ sample2.txt - 1
+user
+ sample.txt - 5
+ sample1.txt - 8
+ sample2.txt - 7
+using
+ sample.txt - 5
+ sample1.txt - 8
+ sample2.txt - 7
+which
+ sample.txt - 5
+ sample1.txt - 8
+ sample2.txt - 7
+yorp
+ sample.txt - 9
+zizzer
+ sample1.txt - 5
+ sample2.txt - 4
+ 
+===> 024/2/joelle-maslak.raku <===
+/: sample.txt sample1.txt sample2.txt
+Also: sample.txt sample1.txt sample2.txt
+An: sample.txt sample1.txt sample2.txt
+Given: sample.txt sample1.txt sample2.txt
+The: sample.txt sample1.txt sample2.txt
+This: sample.txt sample1.txt sample2.txt
+a: sample.txt sample1.txt sample2.txt
+an: sample.txt sample1.txt sample2.txt
+be: sample.txt sample1.txt sample2.txt
+can: sample.txt sample1.txt sample2.txt
+contain: sample.txt sample1.txt sample2.txt
+create: sample.txt sample1.txt sample2.txt
+data: sample.txt sample1.txt sample2.txt
+do: sample.txt sample1.txt sample2.txt
+done: sample.txt sample1.txt sample2.txt
+entirely: sample.txt sample1.txt sample2.txt
+files: sample.txt sample1.txt sample2.txt
+files,: sample.txt sample1.txt sample2.txt
+full: sample.txt sample1.txt sample2.txt
+glorp: sample.txt sample1.txt
+implement: sample.txt sample1.txt sample2.txt
+in: sample.txt sample1.txt sample2.txt
+index: sample.txt sample1.txt sample2.txt
+index.: sample.txt sample1.txt sample2.txt
+interface: sample.txt sample1.txt sample2.txt
+inverted: sample.txt sample1.txt sample2.txt
+is: sample.txt sample1.txt sample2.txt
+list: sample.txt sample1.txt sample2.txt
+memory.: sample.txt sample1.txt sample2.txt
+of: sample.txt sample1.txt sample2.txt
+program: sample.txt sample1.txt sample2.txt
+query: sample.txt sample1.txt sample2.txt
+returns: sample.txt sample1.txt sample2.txt
+search: sample.txt sample1.txt sample2.txt
+search.: sample.txt sample1.txt sample2.txt
+set: sample.txt sample1.txt sample2.txt
+snorp: sample.txt
+structure: sample.txt sample1.txt sample2.txt
+term: sample.txt sample1.txt sample2.txt
+terms.: sample.txt sample1.txt sample2.txt
+text: sample.txt sample1.txt sample2.txt
+that: sample.txt sample1.txt sample2.txt
+the: sample.txt sample1.txt sample2.txt
+to: sample.txt sample1.txt sample2.txt
+used: sample.txt sample1.txt sample2.txt
+user: sample.txt sample1.txt sample2.txt
+using: sample.txt sample1.txt sample2.txt
+which: sample.txt sample1.txt sample2.txt
+yorp: sample.txt
+zizzer: sample1.txt sample2.txt
+ 
+===> 024/2/kevin-colyer.raku <===
+ok 1 - Not in database, returns <Nothing>
+ok 2 - Can't remove a document that is not in store
+ok 3 - Document added
+ok 4 - Bad file name - no colons allowed (for now!)
+ok 5 - 4 words indexed
+ok 6 - 1 document indexed
+ok 7 - Document previously added
+ok 8 - Document added
+ok 9 - 5 words indexed - checks normalisation too
+ok 10 - 2 documents indexed
+ok 11 - getDocument not in index
+ok 12 - getDocument return document stored
+ok 13 - Can't remove a document that is not in database
+ok 14 - Two items found
+ok 15 - Three items found
+ok 16 - Remove OK
+ok 17 - Two items found - index pruned after document removal
+ok 18 - [test2,6] Correctly found search item at character pos
+ok 19 - [test2,14] Correctly found search item at character pos
+1..19
+ 
+===> 024/2/laurent-rosenfeld.raku <===
+sample1.txt
+sample2.txt
+ 
+===> 024/2/noud.raku <===
+/: sample2.txt sample1.txt sample.txt
+Also: sample2.txt sample1.txt sample.txt
+An: sample2.txt sample1.txt sample.txt
+Given: sample2.txt sample1.txt sample.txt
+The: sample2.txt sample1.txt sample.txt
+This: sample2.txt sample1.txt sample.txt
+a: sample2.txt sample1.txt sample.txt
+an: sample2.txt sample1.txt sample.txt
+be: sample2.txt sample1.txt sample.txt
+can: sample2.txt sample1.txt sample.txt
+contain: sample2.txt sample1.txt sample.txt
+create: sample2.txt sample1.txt sample.txt
+data: sample2.txt sample1.txt sample.txt
+do: sample2.txt sample1.txt sample.txt
+done: sample2.txt sample1.txt sample.txt
+entirely: sample2.txt sample1.txt sample.txt
+files: sample2.txt sample1.txt sample.txt
+files,: sample2.txt sample1.txt sample.txt
+full: sample2.txt sample1.txt sample.txt
+glorp: sample1.txt sample.txt
+implement: sample2.txt sample1.txt sample.txt
+in: sample2.txt sample1.txt sample.txt
+index: sample2.txt sample1.txt sample.txt
+index.: sample2.txt sample1.txt sample.txt
+interface: sample2.txt sample1.txt sample.txt
+inverted: sample2.txt sample1.txt sample.txt
+is: sample2.txt sample1.txt sample.txt
+list: sample2.txt sample1.txt sample.txt
+memory.: sample2.txt sample1.txt sample.txt
+of: sample2.txt sample1.txt sample.txt
+program: sample2.txt sample1.txt sample.txt
+query: sample2.txt sample1.txt sample.txt
+returns: sample2.txt sample1.txt sample.txt
+search: sample2.txt sample1.txt sample.txt
+search.: sample2.txt sample1.txt sample.txt
+set: sample2.txt sample1.txt sample.txt
+snorp: sample.txt
+structure: sample2.txt sample1.txt sample.txt
+term: sample2.txt sample1.txt sample.txt
+terms.: sample2.txt sample1.txt sample.txt
+text: sample2.txt sample1.txt sample.txt
+that: sample2.txt sample1.txt sample.txt
+the: sample2.txt sample1.txt sample.txt
+to: sample2.txt sample1.txt sample.txt
+used: sample2.txt sample1.txt sample.txt
+user: sample2.txt sample1.txt sample.txt
+using: sample2.txt sample1.txt sample.txt
+which: sample2.txt sample1.txt sample.txt
+yorp: sample.txt
+zizzer: sample2.txt sample1.txt
+ 
+===> 024/2/randy-lauen.raku <===
+Found 2 document(s) for 'one'
+* 'War of the Worlds': 2 occurrence(s)
+* 'Pride and Prejudice': 1 occurrence(s)
+ 
+===> 024/2/ruben-westerberg.raku <===
+Word: Also
+	File: sample.txt	 Count: 1	 Line: 5
+	File: sample1.txt	 Count: 1	 Line: 8
+	File: sample2.txt	 Count: 1	 Line: 7
+Word: An
+	File: sample.txt	 Count: 1	 Line: 1
+	File: sample1.txt	 Count: 1	 Line: 1
+	File: sample2.txt	 Count: 1	 Line: 1
+Word: Given
+	File: sample.txt	 Count: 1	 Line: 4
+	File: sample1.txt	 Count: 1	 Line: 7
+	File: sample2.txt	 Count: 1	 Line: 6
+Word: The
+	File: sample.txt	 Count: 1	 Line: 6
+	File: sample1.txt	 Count: 1	 Line: 9
+	File: sample2.txt	 Count: 1	 Line: 8
+Word: This
+	File: sample.txt	 Count: 1	 Line: 2
+	File: sample1.txt	 Count: 1	 Line: 2
+	File: sample2.txt	 Count: 1	 Line: 2
+Word: a
+	File: sample.txt	 Count: 6	 Line: 1 4 4 5 5 6
+	File: sample1.txt	 Count: 6	 Line: 1 7 7 8 8 9
+	File: sample2.txt	 Count: 6	 Line: 1 6 6 7 7 8
+Word: an
+	File: sample.txt	 Count: 1	 Line: 4
+	File: sample1.txt	 Count: 1	 Line: 7
+	File: sample2.txt	 Count: 1	 Line: 6
+Word: be
+	File: sample.txt	 Count: 1	 Line: 7
+	File: sample1.txt	 Count: 1	 Line: 10
+	File: sample2.txt	 Count: 1	 Line: 9
+Word: can
+	File: sample.txt	 Count: 1	 Line: 7
+	File: sample1.txt	 Count: 1	 Line: 10
+	File: sample2.txt	 Count: 1	 Line: 9
+Word: contain
+	File: sample.txt	 Count: 1	 Line: 6
+	File: sample1.txt	 Count: 1	 Line: 9
+	File: sample2.txt	 Count: 1	 Line: 8
+Word: create
+	File: sample.txt	 Count: 3	 Line: 1 4 5
+	File: sample1.txt	 Count: 3	 Line: 1 7 8
+	File: sample2.txt	 Count: 3	 Line: 1 6 7
+Word: data
+	File: sample.txt	 Count: 1	 Line: 1
+	File: sample1.txt	 Count: 1	 Line: 1
+	File: sample2.txt	 Count: 1	 Line: 1
+Word: do
+	File: sample.txt	 Count: 1	 Line: 5
+	File: sample1.txt	 Count: 1	 Line: 8
+	File: sample2.txt	 Count: 1	 Line: 7
+Word: done
+	File: sample.txt	 Count: 1	 Line: 2
+	File: sample1.txt	 Count: 1	 Line: 2
+	File: sample2.txt	 Count: 1	 Line: 2
+Word: entirely
+	File: sample.txt	 Count: 1	 Line: 2
+	File: sample1.txt	 Count: 1	 Line: 2
+	File: sample2.txt	 Count: 1	 Line: 2
+Word: files
+	File: sample.txt	 Count: 2	 Line: 4 6
+	File: sample1.txt	 Count: 2	 Line: 7 9
+	File: sample2.txt	 Count: 2	 Line: 6 8
+Word: full
+	File: sample.txt	 Count: 1	 Line: 1
+	File: sample1.txt	 Count: 1	 Line: 1
+	File: sample2.txt	 Count: 1	 Line: 1
+Word: glorp
+	File: sample.txt	 Count: 1	 Line: 9
+	File: sample1.txt	 Count: 1	 Line: 4
+Word: implement
+	File: sample.txt	 Count: 1	 Line: 4
+	File: sample1.txt	 Count: 1	 Line: 7
+	File: sample2.txt	 Count: 1	 Line: 6
+Word: in
+	File: sample.txt	 Count: 2	 Line: 2 7
+	File: sample1.txt	 Count: 2	 Line: 2 10
+	File: sample2.txt	 Count: 2	 Line: 2 9
+Word: index
+	File: sample.txt	 Count: 4	 Line: 1 4 5 7
+	File: sample1.txt	 Count: 4	 Line: 1 7 8 10
+	File: sample2.txt	 Count: 4	 Line: 1 6 7 9
+Word: interface
+	File: sample.txt	 Count: 1	 Line: 5
+	File: sample1.txt	 Count: 1	 Line: 8
+	File: sample2.txt	 Count: 1	 Line: 7
+Word: inverted
+	File: sample.txt	 Count: 3	 Line: 1 4 5
+	File: sample1.txt	 Count: 3	 Line: 1 7 8
+	File: sample2.txt	 Count: 3	 Line: 1 6 7
+Word: is
+	File: sample.txt	 Count: 2	 Line: 1 2
+	File: sample1.txt	 Count: 2	 Line: 1 2
+	File: sample2.txt	 Count: 2	 Line: 1 2
+Word: list
+	File: sample.txt	 Count: 1	 Line: 6
+	File: sample1.txt	 Count: 1	 Line: 9
+	File: sample2.txt	 Count: 1	 Line: 8
+Word: memory
+	File: sample.txt	 Count: 2	 Line: 2 7
+	File: sample1.txt	 Count: 2	 Line: 2 10
+	File: sample2.txt	 Count: 2	 Line: 2 9
+Word: of
+	File: sample.txt	 Count: 2	 Line: 4 6
+	File: sample1.txt	 Count: 2	 Line: 7 9
+	File: sample2.txt	 Count: 2	 Line: 6 8
+Word: program
+	File: sample.txt	 Count: 1	 Line: 4
+	File: sample1.txt	 Count: 1	 Line: 7
+	File: sample2.txt	 Count: 1	 Line: 6
+Word: query
+	File: sample.txt	 Count: 1	 Line: 6
+	File: sample1.txt	 Count: 1	 Line: 9
+	File: sample2.txt	 Count: 1	 Line: 8
+Word: returns
+	File: sample.txt	 Count: 1	 Line: 6
+	File: sample1.txt	 Count: 1	 Line: 9
+	File: sample2.txt	 Count: 1	 Line: 8
+Word: search
+	File: sample.txt	 Count: 3	 Line: 1 5 6
+	File: sample1.txt	 Count: 3	 Line: 1 8 9
+	File: sample2.txt	 Count: 3	 Line: 1 7 8
+Word: set
+	File: sample.txt	 Count: 1	 Line: 4
+	File: sample1.txt	 Count: 1	 Line: 7
+	File: sample2.txt	 Count: 1	 Line: 6
+Word: snorp
+	File: sample.txt	 Count: 1	 Line: 9
+Word: structure
+	File: sample.txt	 Count: 1	 Line: 1
+	File: sample1.txt	 Count: 1	 Line: 1
+	File: sample2.txt	 Count: 1	 Line: 1
+Word: term
+	File: sample.txt	 Count: 1	 Line: 6
+	File: sample1.txt	 Count: 1	 Line: 9
+	File: sample2.txt	 Count: 1	 Line: 8
+Word: terms
+	File: sample.txt	 Count: 1	 Line: 6
+	File: sample1.txt	 Count: 1	 Line: 9
+	File: sample2.txt	 Count: 1	 Line: 8
+Word: text
+	File: sample.txt	 Count: 2	 Line: 1 4
+	File: sample1.txt	 Count: 2	 Line: 1 7
+	File: sample2.txt	 Count: 2	 Line: 1 6
+Word: that
+	File: sample.txt	 Count: 2	 Line: 5 6
+	File: sample1.txt	 Count: 2	 Line: 8 9
+	File: sample2.txt	 Count: 2	 Line: 7 8
+Word: the
+	File: sample.txt	 Count: 1	 Line: 6
+	File: sample1.txt	 Count: 1	 Line: 9
+	File: sample2.txt	 Count: 1	 Line: 8
+Word: to
+	File: sample.txt	 Count: 3	 Line: 1 4 5
+	File: sample1.txt	 Count: 3	 Line: 1 7 8
+	File: sample2.txt	 Count: 3	 Line: 1 6 7
+Word: used
+	File: sample.txt	 Count: 1	 Line: 1
+	File: sample1.txt	 Count: 1	 Line: 1
+	File: sample2.txt	 Count: 1	 Line: 1
+Word: user
+	File: sample.txt	 Count: 1	 Line: 5
+	File: sample1.txt	 Count: 1	 Line: 8
+	File: sample2.txt	 Count: 1	 Line: 7
+Word: using
+	File: sample.txt	 Count: 1	 Line: 5
+	File: sample1.txt	 Count: 1	 Line: 8
+	File: sample2.txt	 Count: 1	 Line: 7
+Word: which
+	File: sample.txt	 Count: 1	 Line: 5
+	File: sample1.txt	 Count: 1	 Line: 8
+	File: sample2.txt	 Count: 1	 Line: 7
+Word: yorp
+	File: sample.txt	 Count: 1	 Line: 9
+Word: zizzer
+	File: sample1.txt	 Count: 1	 Line: 5
+	File: sample2.txt	 Count: 1	 Line: 4
+ 
+===> 024/2/simon-proctor.raku <===
+ 
+===> 024/2/stuart-little.raku <===
+a => (sample.txt sample1.txt sample2.txt)
+also => ()
+an => (sample.txt sample1.txt sample2.txt)
+be => (sample.txt sample1.txt sample2.txt)
+can => (sample.txt sample1.txt sample2.txt)
+contain => (sample.txt sample1.txt sample2.txt)
+create => (sample.txt sample1.txt sample2.txt)
+data => (sample.txt sample1.txt sample2.txt)
+do => (sample.txt sample1.txt sample2.txt)
+done => (sample.txt sample1.txt sample2.txt)
+entirely => (sample.txt sample1.txt sample2.txt)
+files => (sample.txt sample1.txt sample2.txt)
+full => (sample.txt sample1.txt sample2.txt)
+given => ()
+glorp => (sample.txt sample1.txt)
+implement => (sample.txt sample1.txt sample2.txt)
+in => (sample.txt sample1.txt sample2.txt)
+index => (sample.txt sample1.txt sample2.txt)
+interface => (sample.txt sample1.txt sample2.txt)
+inverted => (sample.txt sample1.txt sample2.txt)
+is => (sample.txt sample1.txt sample2.txt)
+list => (sample.txt sample1.txt sample2.txt)
+memory => (sample.txt sample1.txt sample2.txt)
+of => (sample.txt sample1.txt sample2.txt)
+program => (sample.txt sample1.txt sample2.txt)
+query => (sample.txt sample1.txt sample2.txt)
+returns => (sample.txt sample1.txt sample2.txt)
+search => (sample.txt sample1.txt sample2.txt)
+set => (sample.txt sample1.txt sample2.txt)
+snorp => (sample.txt)
+structure => (sample.txt sample1.txt sample2.txt)
+term => (sample.txt sample1.txt sample2.txt)
+terms => (sample.txt sample1.txt sample2.txt)
+text => (sample.txt sample1.txt sample2.txt)
+that => (sample.txt sample1.txt sample2.txt)
+the => (sample.txt sample1.txt sample2.txt)
+this => ()
+to => (sample.txt sample1.txt sample2.txt)
+used => (sample.txt sample1.txt sample2.txt)
+user => (sample.txt sample1.txt sample2.txt)
+using => (sample.txt sample1.txt sample2.txt)
+which => (sample.txt sample1.txt sample2.txt)
+yorp => (sample.txt)
+zizzer => (sample1.txt sample2.txt)
+ 
+===> 024/2/yet-ebreo.raku <===
+glorp:	sample.txt sample1.txt
+zizzer:	sample1.txt sample2.txt
