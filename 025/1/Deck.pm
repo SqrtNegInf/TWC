@@ -2,6 +2,7 @@ package Deck;
 
 use boolean;
 
+use lib '.';
 use CypherCard;  
 use Suit qw/DIAMOND HEART SPADE CLUB/;
 use Rank qw/A TWO THREE FOUR FIVE SIX SEVEN EIGHT NINE TEN J Q K/;
