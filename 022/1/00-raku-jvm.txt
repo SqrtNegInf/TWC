@@ -1,0 +1,125 @@
+ 
+===> 022/1/arne-sommer.raku <===
+1: (5,11)
+2: (7,13)
+3: (11,17)
+4: (13,19)
+5: (17,23)
+6: (23,29)
+7: (31,37)
+8: (37,43)
+9: (41,47)
+10: (47,53)
+ 
+===> 022/1/athanasius.raku <===
+The first 10 sexy prime pairs are:
+( 5, 11), ( 7, 13), (11, 17), (13, 19), (17, 23), (23, 29), (31, 37), (37, 43), (41, 47), (47, 53)
+ 
+===> 022/1/joelle-maslak.raku <===
+Primes:
+5 11
+7 13
+11 17
+13 19
+17 23
+23 29
+31 37
+37 43
+41 47
+47 53
+ 
+===> 022/1/kevin-colyer.raku <===
+1th sexy prime pairs are: 5 and 11
+2th sexy prime pairs are: 7 and 13
+3th sexy prime pairs are: 11 and 17
+4th sexy prime pairs are: 13 and 19
+5th sexy prime pairs are: 17 and 23
+6th sexy prime pairs are: 23 and 29
+7th sexy prime pairs are: 31 and 37
+8th sexy prime pairs are: 37 and 43
+9th sexy prime pairs are: 41 and 47
+10th sexy prime pairs are: 47 and 53
+ 
+===> 022/1/laurent-rosenfeld.raku <===
+5 11
+7 13
+11 17
+13 19
+17 23
+23 29
+31 37
+37 43
+41 47
+47 53
+ 
+===> 022/1/mark-senn.raku <===
+(5,11)
+(7,13)
+(11,17)
+(13,19)
+(17,23)
+(23,29)
+(31,37)
+(37,43)
+(41,47)
+(47,53)
+ 
+===> 022/1/randy-lauen.raku <===
+5 11
+7 13
+11 17
+13 19
+17 23
+23 29
+31 37
+37 43
+41 47
+47 53
+ 
+===> 022/1/roger-bell-west.raku <===
+5, 11
+7, 13
+11, 17
+13, 19
+17, 23
+23, 29
+ 
+===> 022/1/ruben-westerberg.raku <===
+Sexy Pair: 5,11
+Sexy Pair: 7,13
+Sexy Pair: 11,17
+Sexy Pair: 13,19
+Sexy Pair: 17,23
+Sexy Pair: 23,29
+Sexy Pair: 31,37
+Sexy Pair: 37,43
+Sexy Pair: 41,47
+Sexy Pair: 47,53
+ 
+===> 022/1/simon-proctor.raku <===
+5,11
+7,13
+11,17
+13,19
+17,23
+23,29
+31,37
+37,43
+41,47
+47,53
+ 
+===> 022/1/stuart-little.raku <===
+((5 11) (7 13) (11 17) (13 19) (17 23) (23 29) (31 37) (37 43) (41 47) (47 53))
+ 
+===> 022/1/yet-ebreo.raku <===
+((5 11) (7 13) (11 17) (13 19) (17 23) (23 29) (31 37) (37 43) (41 47) (47 53))
+(5 11)
+(7 13)
+(11 17)
+(13 19)
+(17 23)
+(23 29)
+(31 37)
+(37 43)
+(41 47)
+(47 53)
