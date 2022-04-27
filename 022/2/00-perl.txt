@@ -1,0 +1,61 @@
+ 
+===> 022/2/adam-russell.pl <===
+64 97 113 96 31 96 257 96 98 96 99 261 258
+Abra abracadabra
+ 
+===> 022/2/duncan-c-white.pl <===
+encode: seq=F, letter=R
+F in dict; but FR is not in dict
+emit 00110 for F @ 6
+adding FR to dict at 27
+encode: seq=R, letter=A
+R in dict; but RA is not in dict
+emit 10010 for R @ 18
+adding RA to dict at 28
+encode: seq=A, letter=B
+A in dict; but AB is not in dict
+emit 00001 for A @ 1
+adding AB to dict at 29
+encode: seq=B, letter=J
+B in dict; but BJ is not in dict
+emit 00010 for B @ 2
+adding BJ to dict at 30
+encode: seq=J, letter=O
+J in dict; but JO is not in dict
+emit 01010 for J @ 10
+adding JO to dict at 31
+encode: seq=O, letter=U
+O in dict; but OU is not in dict
+emit 01111 for O @ 15
+adding OU to dict at 32
+increasing width to 6, transition to 64
+encode: seq=U, letter=S
+U in dict; but US is not in dict
+emit 010101 for U @ 21
+adding US to dict at 33
+encode: seq=S, letter=#
+S in dict; but S# is not in dict
+emit 010011 for S @ 19
+adding S# to dict at 34
+emit 000000 for # @ 0
+00110-10010-00001-00010-01010-01111-010101-010011-000000
+ 
+===> 022/2/e-choroba.pl <===
+1..2
+ok 1
+ok 2
+ 
+===> 022/2/jaldhar-h-vyas.pl <===
+OK
+ 
+===> 022/2/laurent-rosenfeld.pl <===
+84 79 66 69 79 82 78 79 84 256 258 265 259 261 263 267 267 260 262 264 257 69
+TOBEORNOTTOBETOBEORNOTTOBETOBEORNOTTOBE
+ 
+===> 022/2/roger-bell-west.pl <===
+TOBEORNOTTOBEORTOBEORNOT
+ 
+===> 022/2/ruben-westerberg.pl <===
+Input: TOBEORNOTTOBEORTOBEORNOT
+Encoded: 0,1,2,3,1,4,5,1,0,6,8,10,15,9,11,13
+Decoded: TOBEORNOTTOBEORTOBEORNOT

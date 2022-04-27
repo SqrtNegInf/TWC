@@ -1,0 +1,171 @@
+ 
+===> 022/2/arne-sommer.raku <===
+'#Frabjous' 000100100011010001010110011101000
+Frabjous
+ 
+===> 022/2/jaldhar-h-vyas.raku <===
+OK
+ 
+===> 022/2/joelle-maslak.raku <===
+ 
+===> 022/2/kevin-colyer.raku <===
+ok 1 - testing encode
+ok 2 - testing decode
+ok 3 - roundtrip coder and decoder
+[TOBEORNOTTOBEORTOBEORNOT#]
+   uncompressed 200 / compressed 97 = 51% of input
+ok 4 - roundtrip coder and decoder longer
+[THEQUICKBROWNFOZJUMPEDOVERTHELAZYDOGITDIDITSEVERALTIMESWHATFUN#]
+   uncompressed 504 / compressed 371 = 26% of input
+Note: Dictionary initialised length 27, 216 bits
+ 
+===> 022/2/laurent-rosenfeld.raku <===
+[19 14 1 4 14 17 13 14 19 26 28 35 29 31 33 37 37 30 32 34 27 4]
+TOBEORNOTTOBETOBEORNOTTOBETOBEORNOTTOBE
+ 
+===> 022/2/ozzy.raku <===
+Encoding
+String      : Even if they are djinns, I will get djinns that can outdjinn them.
+Code points : [69 118 101 110 32 105 102 32 116 104 101 121 32 97 114 101 32 100 106 105 110 110 115 44 32 73 32 119 105 108 108 32 103 101 116 32 100 106 105 110 110 115 32 116 104 97 116 32 99 97 110 32 111 117 116 100 106 105 110 110 32 116 104 101 109 46]
+
+    Output       Code      New dict. entry
+         E         69            Ev  [256]
+         v        118            ve  [257]
+         e        101            en  [258]
+         n        110            n   [259]
+                   32             i  [260]
+         i        105            if  [261]
+         f        102            f   [262]
+                   32             t  [263]
+         t        116            th  [264]
+         h        104            he  [265]
+         e        101            ey  [266]
+         y        121            y   [267]
+                   32             a  [268]
+         a         97            ar  [269]
+         r        114            re  [270]
+         e        101            e   [271]
+                   32             d  [272]
+         d        100            dj  [273]
+         j        106            ji  [274]
+         i        105            in  [275]
+         n        110            nn  [276]
+         n        110            ns  [277]
+         s        115            s,  [278]
+         ,         44            ,   [279]
+                   32             I  [280]
+         I         73            I   [281]
+                   32             w  [282]
+         w        119            wi  [283]
+         i        105            il  [284]
+         l        108            ll  [285]
+         l        108            l   [286]
+                   32             g  [287]
+         g        103            ge  [288]
+         e        101            et  [289]
+         t        116            t   [290]
+         d        272            dj  [291]
+        ji        274           jin  [292]
+        nn        276           nns  [293]
+         s        115            s   [294]
+         t        263            th  [295]
+         h        104            ha  [296]
+         a         97            at  [297]
+        t         290           t c  [298]
+         c         99            ca  [299]
+         a         97            an  [300]
+        n         259           n o  [301]
+         o        111            ou  [302]
+         u        117            ut  [303]
+         t        116            td  [304]
+        dj        273           dji  [305]
+        in        275           inn  [306]
+        n         259           n t  [307]
+        th        264           the  [308]
+         e        101            em  [309]
+         m        109            m.  [310]
+         .         46
+
+Decoding
+Code points : [69 118 101 110 32 105 102 32 116 104 101 121 32 97 114 101 32 100 106 105 110 110 115 44 32 73 32 119 105 108 108 32 103 101 116 272 274 276 115 263 104 97 290 99 97 259 111 117 116 273 275 259 264 101 109 46]
+
+    Output       Code      New dict. entry
+         E         69
+         v        118             Ev [256]
+         e        101             ve [257]
+         n        110             en [258]
+                   32             n  [259]
+         i        105              i [260]
+         f        102             if [261]
+                   32             f  [262]
+         t        116              t [263]
+         h        104             th [264]
+         e        101             he [265]
+         y        121             ey [266]
+                   32             y  [267]
+         a         97              a [268]
+         r        114             ar [269]
+         e        101             re [270]
+                   32             e  [271]
+         d        100              d [272]
+         j        106             dj [273]
+         i        105             ji [274]
+         n        110             in [275]
+         n        110             nn [276]
+         s        115             ns [277]
+         ,         44             s, [278]
+                   32             ,  [279]
+         I         73              I [280]
+                   32             I  [281]
+         w        119              w [282]
+         i        105             wi [283]
+         l        108             il [284]
+         l        108             ll [285]
+                   32             l  [286]
+         g        103              g [287]
+         e        101             ge [288]
+         t        116             et [289]
+         d        272             t  [290]
+        ji        274             dj [291]
+        nn        276            jin [292]
+         s        115            nns [293]
+         t        263             s  [294]
+         h        104             th [295]
+         a         97             ha [296]
+        t         290             at [297]
+         c         99            t c [298]
+         a         97             ca [299]
+        n         259             an [300]
+         o        111            n o [301]
+         u        117             ou [302]
+         t        116             ut [303]
+        dj        273             td [304]
+        in        275            dji [305]
+        n         259            inn [306]
+        th        264            n t [307]
+         e        101            the [308]
+         m        109             em [309]
+         .         46             m. [310]
+
+Output: Even if they are djinns, I will get djinns that can outdjinn them.
+Success!
+ 
+===> 022/2/ruben-westerberg.raku <===
+Input: TOBEORNOTTOBEORTOBEORNOT
+Encoded: 0,1,2,3,1,4,5,1,0,6,8,10,15,9,11,13
+Decoded: TOBEORNOTTOBEORTOBEORNOT
+ 
+===> 022/2/simon-proctor.raku <===
+31 17 0 1 9 14 20 18
+ 
+===> 022/2/yet-ebreo.raku <===
+Original String has length 445
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+Compressed String has length 290
+Lorem ipsuĄdolā sit amet, consectĖurēdĆiscing elđĘĝd ċĭiusmoĳĠmpĎĪĩĥdunĒuĒlabāeĭĒċčĂ magnaēįqua. UĒeniĄaĳmĪť vţiĔĘŜħ nostruĳexerĩtatiě ulŊmĚ ŊŌrųŤĐƆĒaśuĆĭxĭřĚmĺĵĚĜeŜƂşDƗsēňŎiŹœőŀn ĂpĂhţdžđąƲvČupƁĠŬĮƻesĝęiƈĉĴČōĭu fugůĒnƇŊ paƏƂĢşExceǁeĢďĪĒoccaĞƂęǀidƂǲŵƲƵoǵţėďŅĒĪǳlǝ Ų offiĩřƹĝŹņŔČįƔŤĄǵĭŷƌŋāĉ.
+
+Uncompressed String has length 445
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+Uncompressed string matches original
