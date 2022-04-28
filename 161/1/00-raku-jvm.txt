@@ -1,0 +1,68 @@
+ 
+===> 161/1/0rir.raku <===
+alloquy
+beefily
+begorry
+billowy
+egilops
+ 
+===> 161/1/2colours.raku <===
+egilops
+ 
+===> 161/1/arne-sommer.raku <===
+alloquy
+beefily
+begorry
+billowy
+egilops
+ 
+===> 161/1/athanasius.raku <===
+The 5 abecedarian words in dictionary.txt, sorted from longest to shortest:
+
+alloquy	beefily	begorry	billowy	egilops
+
+An abbot in an abbey abhors a bossy boor.
+ 
+===> 161/1/jaldhar-h-vyas.raku <===
+alloquy
+beefily
+begorry
+billowy
+egilops
+ 
+===> 161/1/laurent-rosenfeld.raku <===
+(egilops billowy begorry beefily alloquy)
+ 
+===> 161/1/luca-ferrari.raku <===
+( 7 ):
+ alloquy,beefily,begorry,billowy,egilops
+ 
+===> 161/1/mark-anderson.raku <===
+alloquy
+beefily
+begorry
+billowy
+egilops
+ 
+===> 161/1/polettix.raku <===
+alloquy beefily begorry billowy egilops
+ 
+===> 161/1/rick-bychowski.raku <===
+egilops    billowy    begorry    beefily    alloquy                                    
+ 
+===> 161/1/roger-bell-west.raku <===
+alloquy
+beefily
+begorry
+billowy
+egilops
+ 
+===> 161/1/ulrich-rieke.raku <===
+alloquy,beefily,begorry,billowy,egilops
+ 
+===> 161/1/wambash.raku <===
+alloquy
+beefily
+begorry
+billowy
+egilops

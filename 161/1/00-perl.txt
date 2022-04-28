@@ -1,0 +1,155 @@
+ 
+===> 161/1/adam-russell.pl <===
+alloquy length: 7
+beefily length: 7
+begorry length: 7
+billowy length: 7
+egilops length: 7
+ 
+===> 161/1/andrezgz.pl <===
+egilops
+billowy
+begorry
+beefily
+alloquy
+ 
+===> 161/1/athanasius.pl <===
+The 5 abecedarian words in dictionary.txt, sorted from longest to shortest:
+
+alloquy	beefily	begorry	billowy	egilops
+
+An abbot in an abbey abhors a bossy boor.
+ 
+===> 161/1/cheok-yin-fung.pl <===
+alloquy
+beefily
+begorry
+billowy
+egilops
+ 
+===> 161/1/dave-jacoby.pl <===
+alloquy
+beefily
+begorry
+billowy
+egilops
+ 
+===> 161/1/duncan-c-white.pl <===
+alloquy
+beefily
+begorry
+billowy
+egilops
+ 
+===> 161/1/e-choroba.pl <===
+alloquy
+beefily
+begorry
+billowy
+egilops
+ 
+===> 161/1/ildar-shaimordanov.pl <===
+alloquy
+beefily
+begorry
+billowy
+egilops
+ 
+===> 161/1/jaldhar-h-vyas.pl <===
+alloquy
+beefily
+begorry
+billowy
+egilops
+ 
+===> 161/1/james-smith.pl <===
+7: alloquy, beefily, begorry, billowy, egilops
+ 
+===> 161/1/jo-37.pl <===
+alloquy
+beefily
+begorry
+billowy
+egilops
+ 
+===> 161/1/julien-fiegehenn.pl <===
+alloquy
+beefily
+begorry
+billowy
+egilops
+ 
+===> 161/1/laurent-rosenfeld.pl <===
+alloquy
+beefily
+begorry
+billowy
+egilops
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+===> 161/1/lubos-kolouch.pl <===
+alloquy is abcdrian 
+beefily is abcdrian 
+begorry is abcdrian 
+billowy is abcdrian 
+egilops is abcdrian 
+ 
+===> 161/1/mohammad-anwar.pl <===
+alloquy
+beefily
+begorry
+billowy
+egilops
+ 
+===> 161/1/perlboy1967.pl <===
+egilops
+billowy
+begorry
+beefily
+alloquy
+ 
+===> 161/1/pete-houston.pl <===
+alloquy
+beefily
+begorry
+billowy
+egilops
+ 
+===> 161/1/pokgopun.pl <===
+alloquy, beefily, begorry, billowy, egilops
+ 
+===> 161/1/polettix.pl <===
+alloquy beefily begorry billowy egilops
+ 
+===> 161/1/robert-dicicco.pl <===
+alloquy beefily begorry billowy egilops 
+ 
+===> 161/1/ryan-thompson.pl <===
+alloquy
+beefily
+begorry
+billowy
+egilops
+ 
+===> 161/1/ulrich-rieke.pl <===
+alloquy,beefily,begorry,billowy,egilops
