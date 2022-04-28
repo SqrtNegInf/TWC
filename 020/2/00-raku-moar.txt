@@ -1,5 +1,6 @@
  
 ===> 020/2/adam-russell.raku <===
+First amicable pair of numbers: 220 284
  
 ===> 020/2/arne-sommer.raku <===
 (220, 284)

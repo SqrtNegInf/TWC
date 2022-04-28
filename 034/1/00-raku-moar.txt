@@ -8,7 +8,7 @@
 (0 6 9)
  
 ===> 034/1/jaldhar-h-vyas.raku <===
-is h in ykocexnrgadwf?
+is v in qdnuglscwbkoi?
 No.
  
 ===> 034/1/javier-luque.raku <===
@@ -35,7 +35,7 @@ New hash: {c => 3, d => 4, e => 5}
 (0 1 2 3 4)
  
 ===> 034/1/roger-bell-west.raku <===
-[[0.16509327655850514e0, NaN], [0.041801671682500374e0, 0.374731616755291e0], [0.9172999020248674e0, 0.551414226743828e0], [0.6951411065241163e0, 0.7211840022001238e0], [0.5511109980513877e0, 0.5580477725975846e0], [0.42789121321724977e0, 0.6471427423078082e0], [0.9624260156547871e0, 0.6637936561923564e0], [0.6010637397050324e0, 0.601897978131653e0], [0.2422041790351397e0, 0.5283211172750145e0], [0.7416954330848715e0, NaN]]
+[[0.07661516483895936e0, NaN], [0.9424138254223312e0, 0.5135347826932679e0], [0.521575357818513e0, 0.6438287285574739e0], [0.4674970024315772e0, 0.35691802377990006e0], [0.08168171108960987e0, 0.22450072501645782e0], [0.12432346152818641e0, 0.130726588185459e0], [0.18617459193858066e0, 0.2470824754675631e0], [0.4307493729359222e0, 0.27508896308703784e0], [0.20834292438661073e0, 0.47631797766411604e0], [0.7898616356698152e0, NaN]]
  
 ===> 034/1/ruben-westerberg.raku <===
 Original Array: 
@@ -70,10 +70,6 @@ Slicing the hash to a slice: {:one(1), :three(3)}
  
 ===> 034/1/ulrich-rieke.raku <===
 The bigger towers:
-record tower has a height of 500 meters.
 elite tower has a height of 250 meters.
 my favourite tower has a height of 102 meters.
-randomly selected DNA bases:
-[(A) (G) (G) (A) (T) (G) (A) (C) (A) (T) (A) (G) (G) (T) (A) (A) (C) (G) (T) (T) (C) (A) (T) (G) (G) (G) (G) (T) (C) (T) (A) (G) (A) (T) (G) (C) (G) (T) (G) (G) (T) (G) (G) (G) (T) (C) (G) (G) (A) (C) (G) (A) (T) (G) (A) (C) (G) (T) (A) (A) (T) (A) (A)]
-...and the corresponding triplet starts:
-[(A) (A) (A) (T) (G) (A) (T) (A) (G) (T) (A) (T) (G) (G) (G) (C) (A) (A) (A) (T) (T)]
+record tower has a height of 500 meters.

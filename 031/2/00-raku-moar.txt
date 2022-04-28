@@ -13,7 +13,7 @@ foo = 42
  
 ===> 031/2/javier-luque.raku <===
 Dynamic variable name: foo
-Random value: 433444264825
+Random value: 47
  
 ===> 031/2/joelle-maslak.raku <===
 $foo is set to: 42

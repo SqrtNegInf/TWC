@@ -1,11 +1,12 @@
  
 ===> 104/2/luca-ferrari.raku <===
-Player1 picks 2, remaining 10
-Player2 picks 2, remaining 8
-Player1 picks 2, remaining 6
+Player1 picks 3, remaining 9
+Player2 picks 2, remaining 7
+Player1 picks 1, remaining 6
 Player2 picks 3, remaining 3
-Player1 picks 3, remaining 0
-Player Player1 won!
+Player1 picks 2, remaining 1
+Player2 picks 1, remaining 0
+Player Player2 won!
  
 ===> 104/2/roger-bell-west.raku <===
 1..3

@@ -4,28 +4,12 @@ not ok
 not ok
   in block <unit> at mark-anderson.raku line 5
 
-[31m===[0mSORRY![31m===[0m Error while compiling /Users/dhoekman/PWC/037/2/rnuttall.raku
-Could not find HTML::Parser::XML in:
-    /Users/dhoekman/PWC/037/2/lib
-    /Users/dhoekman/.raku
-    /Users/dhoekman/.rakubrew/versions/moar-blead/install/share/perl6/site
-    /Users/dhoekman/.rakubrew/versions/moar-blead/install/share/perl6/vendor
-    /Users/dhoekman/.rakubrew/versions/moar-blead/install/share/perl6/core
-    CompUnit::Repository::AbsolutePath<140265182135752>
-    CompUnit::Repository::NQP<140265156776232>
-    CompUnit::Repository::Perl5<140265156776272>
-at /Users/dhoekman/PWC/037/2/rnuttall.raku:11
+not ok
+  in block <unit> at rnuttall.raku line 3
+
 not ok
   in block <unit> at ruben-westerberg.raku line 3
 
-[31m===[0mSORRY![31m===[0m Error while compiling /Users/dhoekman/PWC/037/2/stuart-little.raku
-Could not find HTTP::Tiny in:
-    /Users/dhoekman/PWC/037/2/lib
-    /Users/dhoekman/.raku
-    /Users/dhoekman/.rakubrew/versions/moar-blead/install/share/perl6/site
-    /Users/dhoekman/.rakubrew/versions/moar-blead/install/share/perl6/vendor
-    /Users/dhoekman/.rakubrew/versions/moar-blead/install/share/perl6/core
-    CompUnit::Repository::AbsolutePath<140244729051592>
-    CompUnit::Repository::NQP<140244753605928>
-    CompUnit::Repository::Perl5<140244753605968>
-at /Users/dhoekman/PWC/037/2/stuart-little.raku:5
+not ok
+  in block <unit> at stuart-little.raku line 3
+

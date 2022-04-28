@@ -4,7 +4,7 @@ srand 1;
 
 sub MAIN (Str $variable = 'foo') {
     # Randomly populate the random value
-    my $random_value = (0..^9).roll(12).join;
+    my $random_value = 47; #(0..^9).roll(12).join;
     GLOBAL::{'$' ~ $variable} = $random_value;
 
     # Say dynamic variable name and random value

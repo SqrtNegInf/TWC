@@ -154,7 +154,7 @@ PLEA   : 8
 Winner: KEMP for 20
  
 ===> 038/2/jaldhar-h-vyas.raku <===
-LZDXNYM = LYNX (9)
+EOQVLXT = VOLET (16)
  
 ===> 038/2/javier-luque.raku <===
 Picked tiles: P A L K M E N
@@ -186,7 +186,7 @@ Contenders (word: score):
 YAWP: 9
  
 ===> 038/2/ryan-thompson.raku <===
-[B Q T A A V E] Best word: BATEA, Score: 13
+[Z S L T C Z G] Best word: ST, Score: 6
  
 ===> 038/2/simon-proctor.raku <===
  

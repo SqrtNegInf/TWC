@@ -1,4 +1,7 @@
 #!/usr/bin/env perl
+
+die 'not ok - disabled: results not stable';
+
 #===============================================================================
 #
 #         FILE: ch-2.pl

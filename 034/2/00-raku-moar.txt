@@ -4,10 +4,10 @@
 20
  
 ===> 034/2/jaldhar-h-vyas.raku <===
-A chose Paper.
+A chose Rock.
 B chose Scissors.
-Scissors cuts Paper.  
-B wins.
+Rock smashes Scissors.  
+A wins.
  
 ===> 034/2/javier-luque.raku <===
  
@@ -24,15 +24,15 @@ Hello World
  
 ===> 034/2/ruben-westerberg.raku <===
 Hello from function 6
-Hello from function 9
-Hello from function 5
-Hello from function 10
-Hello from function 10
-Hello from function 6
 Hello from function 1
-Hello from function 6
-Hello from function 9
-Hello from function 6
+Hello from function 8
+Hello from function 8
+Hello from function 5
+Hello from function 4
+Hello from function 3
+Hello from function 3
+Hello from function 10
+Hello from function 1
  
 ===> 034/2/simon-proctor.raku <===
 square( 8 ) => 64

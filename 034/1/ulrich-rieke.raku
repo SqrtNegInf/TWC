@@ -8,10 +8,11 @@ my %towers = "tower 1" => 88 , "my favourite tower" => 102 , "elite tower" => 25
 my @smaller = %towers.keys.grep( { %towers{$_} < 100 } ) ;
 %towers{ @smaller }:delete ;
 say "The bigger towers:" ;
-for %towers.kv -> $tower , $height {
-  say "$tower has a height of $height meters." ;
+for %towers.keys.sort -> $tower {
+  say "$tower has a height of %towers{$tower} meters." ;
 }
 
+=finish
 #...and of array slices :
 my @random_DNA_bases  ;
 for (1..63 ) {

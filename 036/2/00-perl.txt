@@ -59,11 +59,6 @@ Max weight: 15, max boxes: 4. Boxes in knapsack: PPPB 13kg £32
 Max: 15, Boxes:  B-G-P-R
  
 ===> 036/2/lubos-kolouch.pl <===
-Best combination for 1 boxes is P with value 10
-Best combination for 2 boxes is B P with value 12
-Best combination for 3 boxes is B G P with value 14
-Best combination for 4 boxes is B G P R with value 15
-There is no possible combination for 5 boxes under or equal weight 15
  
 ===> 036/2/mark-anderson.pl <===
 --------------------------------

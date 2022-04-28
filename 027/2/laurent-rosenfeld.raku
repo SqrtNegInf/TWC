@@ -1,6 +1,6 @@
 #!/usr/bin/env raku
 
-# makes STDERR
+# made STDERR, kludged
 
 class WatchedValue {
     has Int $.current-value is rw;
@@ -17,10 +17,10 @@ multi sub infix:<=:=> (WatchedValue $y, Int $z) {
 }
 my $x = WatchedValue.new(current-value => 10);
 say "Current: ", $x.current-value;
-$x =:= 15;
+my $tmp1 = $x =:= 15;
 say "Current: ", $x.current-value;
-$x =:= 5;
+my $tmp2 = $x =:= 5;
 say "Current: ", $x.current-value;
-$x =:= 20;
+my $tmp3 = $x =:= 20;
 say "Current: ", $x.current-value;
 say "Past values: ", $x.get-past-values;

@@ -1,4 +1,0 @@
-WARNINGS for /Users/dhoekman/PWC/027/2/laurent-rosenfeld.raku:
-Useless use of "=:=" in expression "$x =:= 15" in sink context (line 20)
-Useless use of "=:=" in expression "$x =:= 5" in sink context (line 22)
-Useless use of "=:=" in expression "$x =:= 20" in sink context (line 24)
