@@ -1,0 +1,69 @@
+ 
+===> 161/2/0rir.raku <===
+Found: [zo za yr yn ym ye xi wy ut us up ug th of od ly ko jo ce by vum quo]
+Improved: [za yr yn xi wy us up ug th of od ly ko jo ce by vum quo]
+ 
+===> 161/2/2colours.raku <===
+aa ad ae ah ai ak al am an ar as at aw ax ay ba bo bu ca fa ga jo pa za ava qua
+ 
+===> 161/2/arne-sommer.raku <===
+naunt ahull hurr sonk vinta ra vasty tunic unbow trush zuza tear puly cinch blan pinch joule doxa weet corn lotto relet no cream octyl crin brute diode feedy hood guild gens aka earl frog derry wanny mail yowt jota ascon leap stoga hie frase jagla boon inurn winer huia waky biped sorn bagel choop zonal hasty tater clame canon arise rosy momme valid idly fist dorab dubba flype purry lyssa homy moha polar kiva wicht refan scuta elmy hives aba haven husk spole maybe mucus clerk woold dock meson sairy brut grame buaze arad grand erg fount swa tat largo peba gemel shree toby gadge proa spary odeon ankus warf olid nares steer kea bendy slote swosh pua peery arend zonic pop flout ephah jurel tanti mana maud mavis stoa gilly scat div bayok vare birse frap kvass mizzy ocher tored foppy husho beef plebe roil spook hasty toral hair paauw drew jam welk pucka milha beat payee fid seah kerry araca abuse octan unbe peepy sign coaly breva cest fub bakal llama moppy poler poco potty vibex zaman lock baler caza lepa jasey exter duhat mend thowt mudir podge lowy font bakli sayer gaspy hocus rice rho tubae nizy kusa rikk viny skift reply yamp nevo gag kirve tax glans fulk fet medic pape blad livid tera koto fain frore rewet comby tent nea getah lauia flank veep umiri liana kirn baken mealy fey jodel scry rompu dory bedip shag dotal craps scap loyal alem urite cauk dew wro nab bogie rubor vitta theb oord alk quite
+ 
+===> 161/2/athanasius.raku <===
+Pangram of 29 letters using words drawn from dictionary.txt:
+
+  azoxy quick fjeld whamp verb st gan
+ 
+===> 161/2/jaldhar-h-vyas.raku <===
+'bijou adz envy klops adfix ablow amort aegis abhor achor' has 47 letters.
+ 
+===> 161/2/laurent-rosenfeld.raku <===
+[aa ad ae ah ai ak al am an ar as at aw ax ay ba bo bu ca fa ga jo pa za ava qua]
+ 
+===> 161/2/luca-ferrari.raku <===
+renal boce daube finer wages agoho taj utsuk tump squib novel fox gappy namaz
+ 
+===> 161/2/mark-anderson.raku <===
+aa              added a
+ad              added d
+ae              added e
+ah              added h
+ai              added i
+ak              added k
+al              added l
+am              added m
+an              added n
+ar              added r
+as              added s
+at              added t
+aw              added w
+ax              added x
+ay              added y
+ba              added b
+bo              added o
+bu              added u
+ca              added c
+fa              added f
+ga              added g
+jo              added j
+pa              added p
+za              added z
+ava             added v
+qua             added q
+ 
+===> 161/2/rick-bychowski.raku <===
+[media bairn leck oofy upget dah ponja squid voice witan ataxy zone]
+ 
+===> 161/2/robert-dicicco.raku <===
+vinta vasty unbow valid flype quite oncia mola cloak spume sot dinic jewel trill bonze runny haft extol arado sabot tyg knee chowk ya phage spann 
+ 
+===> 161/2/roger-bell-west.raku <===
+ 
+===> 161/2/ulrich-rieke.raku <===
+We consider only words in the dictionary without repeated letters in them!
+We add one word per letter, and then a short solution is:
+ad,ba,ca,da,ea,fa,ga,ha,id,jo,ka,la,ma,na,od,pa,qua,ra,sa,ta,ug,vag,wa,xi,ya,za
+This contains 54 letters!
+A solution with long words is:
+azyme,bysen,cyton,dyker,eying,futwa,gyrus,hyson,iztle,juvia,kylix,lytic,mysid,nyxis,ozena,pyxis,quoth,rybat,syrup,typic,uvito,vying,wyver,xysti,yurta,zymin
+This contains 130 letters!

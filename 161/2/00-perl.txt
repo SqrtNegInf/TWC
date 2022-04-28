@@ -1,0 +1,103 @@
+ 
+===> 161/2/adam-russell.pl <===
+ 
+===> 161/2/athanasius.pl <===
+(1) azoxy: a o x y z
+(2) quick: c i k q u
+(3) fjeld: d e f j l
+(4) whamp: h m p w
+(5) verb:  b r v
+(6) st:    s t
+(7) gan:   g n
+
+Pangram of 29 letters using words drawn from dictionary.txt:
+
+  azoxy quick fjeld whamp verb st gan
+ 
+===> 161/2/cheok-yin-fung.pl <===
+a ah hi hid hash spa paal yas ell stey axite inept hippo owly coaxy veldt cause mealy segol murex jag karst scrab quop fur azoch
+ 
+===> 161/2/duncan-c-white.pl <===
+pangram: ist gemul prank howdy vibix cafiz jiqui, length 39
+ 
+===> 161/2/e-choroba.pl <===
+ist befop scray enema di glom wyver updo thud unken jiva quip onza infix
+ 
+===> 161/2/laurent-rosenfeld.pl <===
+aa ad ae ah ai ak al am an ar as at aw ax ay ba bo bu ca fa ga jo pa za ava qua
+ 
+===> 161/2/pokgopun.pl <===
+ad be ca di eh fu go ha in jo ka ly ma na or pa ra st ta ug wa xi ya za ava baa cab dab ean fad gab had iao jab kai lab mac naa oaf pac qua
+=> 41 words, 99 letters and 26 unique letters
+
+ba ce di eh fu go ha in jo ka ly ma na or pa ra st ta ug wa xi ya za baa cab dev ean fad gab had iao jab kai lab mac naa oaf pac qua
+=> 39 words, 94 letters and 26 unique letters
+
+ca de eh fi go ha in jo ka ly mu na or pa ra st ta ug wa xi ya za cab dev ean fad gab had iao jab kai lab mac naa oaf pac qua
+=> 37 words, 89 letters and 26 unique letters
+
+da eh fi go ha in jo ka ly mu na or pa ra st ta ug wa xi ya za dab eve fad gab hic iao jab kai lab mac naa oaf pac qua
+=> 35 words, 84 letters and 26 unique letters
+
+ea fi go ha id jo ka ly mu na or pa ra st ta ug wa xi ya za ebb fad gab hic iva jab kai lab mac naa oaf pac qua
+=> 33 words, 79 letters and 26 unique letters
+
+fa ge hi id jo ka ly mu na or pa ra st ta ug wa xi ya za fib gab hic iva jab kai lab mac naa oaf pac qua
+=> 31 words, 74 letters and 26 unique letters
+
+ga he id jo ka ly mu na of pa ra st ta ug wa xi ya za gab hic iva jab kai lab mac naa oaf pac qua
+=> 29 words, 69 letters and 26 unique letters
+
+ha id jo ka ly me nu of pa ra st ta ug wa xi ya za hic iba jab kai lev mac naa oaf pac qua
+=> 27 words, 64 letters and 26 unique letters
+
+id jo ka ly me nu of pa ra sh ta ug wa xi ya za iba jab kai lac mac naa ova pac qua
+=> 25 words, 59 letters and 26 unique letters
+
+jo ka li me nu od pa ra sh ta ug wy xi ya za jab kef lac mac naa ova pac qua
+=> 23 words, 54 letters and 26 unique letters
+
+ka li me no od pu ra sh ta ug wy xi ya za keb lac mac nef ova pac qua raj
+=> 22 words, 52 letters and 26 unique letters
+
+la me ni od pu ra sh ta ug wy xi ya za lab mac nak oaf pac qua raj sov
+=> 21 words, 50 letters and 26 unique letters
+
+ma ne od pi ra sh tu ug wy xi ya za mac nab oaf pal qua raj ski tav
+=> 20 words, 48 letters and 26 unique letters
+
+na od pi re sh tu ug wy xi ym za nab ock pal qua raj sov taa urf
+=> 19 words, 46 letters and 26 unique letters
+
+od pa re sh ti ug wy xi ym za ock pal qua rab saj tan urf vag
+=> 18 words, 44 letters and 26 unique letters
+
+pa re sh ti ug wo xi ym za pac qua rab sad taj uke van wab yad zel pelf
+=> 20 words, 52 letters and 26 unique letters
+
+ra se th ug wi xi ym zo qua rab sac tad uji van wap yak zel qere raff
+=> 19 words, 51 letters and 26 unique letters
+
+ra se th ug wi xi ym zo rab sac tad uji van wap yak zel raff shoq
+=> 18 words, 48 letters and 26 unique letters
+
+sa te ug wi xi ym zo sab tch urd van wap yak zel safe teju uang vade waag xyla yaba zain sequa
+=> 23 words, 72 letters and 26 unique letters
+
+ta ug we xi ym zo tch urd van wab yak zel taps uang vade waff xyla yaje zain taqua
+=> 20 words, 63 letters and 26 unique letters
+
+ 
+===> 161/2/ryan-thompson.pl <===
+Pangram is 8 words / 47 letters long 
+
+abhor cequi alkyd angst ampyx aflow ajava abaze
+ 
+===> 161/2/ulrich-rieke.pl <===
+If each word solves one letter and contains every letter only once ,
+ a possible short solution is:
+ad,ba,ca,da,ea,fa,ga,ha,id,jo,ka,la,ma,na,od,pa,qua,ra,sa,ta,ug,vag,wa,xi,ya,za
+the total length of this pangram would be 54!
+and the longest words each containing a letter only once:
+azyme,bysen,cyton,dyker,eying,futwa,gyrus,hyson,iztle,juvia,kylix,lytic,mysid,nyxis,ozena,pyxis,quoth,rybat,syrup,typic,uvito,vying,wyver,xysti,yurta,zymin
+Total number of letters in longest words is 130!
