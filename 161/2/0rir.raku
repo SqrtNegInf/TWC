@@ -14,7 +14,8 @@ my $best-size;
 # to fail quickly if there are no pangrams available.
 
 my constant @data =
-     $?FILE.IO.parent(1).add("words").lines(:chomp).sort:
+   #  $?FILE.IO.parent(1).add("words") 
+    'words'.IO.lines(:chomp).sort:
      { $^b.chars <=> $^a.chars };
 
 my constant %alpha = map { $_ => True }, ('a'..'z')[0 .. $A-Z-SIZE -1 ];

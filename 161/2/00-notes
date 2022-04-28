@@ -1,1 +1,4 @@
 Differences between MoarVM and JVM to be expected.
+
+But... What's up with the JVM error for 'roger-bell-west.raku'?
+(started after I tweaked the code to get stable output)
