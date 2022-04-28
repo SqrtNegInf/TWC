@@ -1,0 +1,2 @@
+'kevin-colyer.raku' has 2 failing tests.
+'joelle-maslak.raku' produces an error for JVM (where MoarVM has none)

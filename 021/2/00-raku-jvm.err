@@ -1,0 +1,26 @@
+Invalid percent encoding
+  in block  at joelle-maslak.raku line 73
+  in sub normalize-percent at joelle-maslak.raku line 71
+  in sub normalize at joelle-maslak.raku line 54
+  in sub MAIN at joelle-maslak.raku line 31
+  in block <unit> at joelle-maslak.raku line 61
+
+# Failed test 'normalise d q not nslookup ok'
+# at kevin-colyer.raku line 85
+# expected: 'dns.google'
+#      got: (Any)
+Use of uninitialized value element of type Any in string context.
+Methods .^name, .raku, .gist, or .say can be used to stringify it to something meaningful.
+  in sub stringifyURL at kevin-colyer.raku line 270
+# Failed test 'normalise dotted quad localhost'
+# at kevin-colyer.raku line 88
+# expected: 'http://dns.google/path/'
+#      got: 'http:///path/'
+# You failed 2 tests of 50
+[31m===[0mSORRY![31m===[0m Error while compiling /Users/dhoekman/PWC/021/2/stuart-little.raku
+An exception occurred while evaluating a BEGIN
+at /Users/dhoekman/PWC/021/2/stuart-little.raku:3
+Exception details:
+  not ok - disabled: JVM cannot handle Perl5
+    in code  at stuart-little.raku line 3
+

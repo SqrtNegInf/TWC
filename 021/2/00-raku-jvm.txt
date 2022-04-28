@@ -1,0 +1,86 @@
+ 
+===> 021/2/arne-sommer.raku <===
+Original: http://www.example.com/%2D%2E%5F%7E%41%2D
+New:      http://www.example.com/-._~A-
+ 
+===> 021/2/jaldhar-h-vyas.raku <===
+http://www.example.com/-._~A-
+ 
+===> 021/2/joelle-maslak.raku <===
+ 
+===> 021/2/kevin-colyer.raku <===
+ok 1 - 1 scheme and path test
+ok 2 - 2 scheme and path test
+ok 3 - 2.1 scheme and path test
+ok 4 - 2.3 scheme, authority and trailing slash test
+ok 5 - 3 scheme, authority and path test
+ok 6 - 4 scheme, authority and path test
+ok 7 - 5 scheme, authority and path test
+ok 8 - 5.1 scheme, authority and path test training slash
+ok 9 - 6 scheme, authority and path test
+ok 10 - 7 scheme, authority and path test
+ok 11 - 8 scheme, authority and path test
+ok 12 - 9 scheme, authority and path test
+ok 13 - 10 scheme, authority and path test
+ok 14 - 10.1 scheme, authority and path test
+ok 15 - 10.1 scheme, authority and path test
+ok 16 - 11 scheme, authority and path test
+ok 17 - 12 s,a,p, and query test # TODO can't get trailing slashes to work yet
+ok 18 - 13 s,a,p, multi q test
+ok 19 - 14 s,a,p, multi q test
+ok 20 - 15 s,a,p, and fragment test # TODO can't get trailing delims to work yet
+ok 21 - 16 s,a,p,q and fragment test
+ok 22 - 17 s,a,p, multi q and fragment test
+ok 23 - 7.1 double scheme, authority and path test
+ok 24 - jdbc:mysql://user:password@localhost:3306/pwc?profile=true \#h1 parses ok
+ok 25 - testing <scheme>   is made correctly
+ok 26 - testing <userinfo> is made correctly
+ok 27 - testing <host>     is made correctly
+ok 28 - testing <port>     is made correctly
+ok 29 - testing <path>     is made correctly
+ok 30 - testing <query>    is made correctly
+ok 31 - testing <fragment> is made correctly
+ok 32 - normalise case and port ok
+ok 33 - normalise dotted quad localhost
+ok 34 - normalise dotted quad localhost
+ok 35 - normalise d q localhost
+ok 36 - normalise d q not dotted quad
+ok 37 - normalise d q not dotted quad 2
+not ok 38 - normalise d q not nslookup ok
+not ok 39 - normalise dotted quad localhost
+ok 40 - percent encoding - uppercasing
+ok 41 - unreserved words reduced
+ok 42 - unreserved words reduced
+ok 43 - reserved words ignored
+ok 44 - normalise path segment
+ok 45 - normalise path segment
+ok 46 - Converting the scheme and host to lower case.
+ok 47 - Capitalizing letters in escape sequences.
+ok 48 - Decoding percent-encoded octets of unreserved characters.
+ok 49 - Removing the default port.
+ok 50 - Removing dot-segments. The segments
+1..50
+ 
+===> 021/2/laurent-rosenfeld.raku <===
+1..5
+ok 1 - Test 1
+ok 2 - Test 2
+ok 3 - Test 3
+ok 4 - Test 4
+ok 5 - Test 5
+ 
+===> 021/2/noud.raku <===
+1..7
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ok 4 - 
+ok 5 - 
+ok 6 - 
+ok 7 - 
+ 
+===> 021/2/ruben-westerberg.raku <===
+Original URI:	HTTP://a.uri/with/strange%65characters{}?query=true#frag<>
+Normalized URI:	http://a.uri/with/strangeecharacters%7B%7D?query=true#frag%3C%3E
+ 
+===> 021/2/stuart-little.raku <===

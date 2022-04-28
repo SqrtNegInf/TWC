@@ -1,0 +1,12 @@
+# Failed test 'normalise d q not nslookup ok'
+# at kevin-colyer.raku line 85
+# expected: 'dns.google'
+#      got: (Any)
+Use of uninitialized value element of type Any in string context.
+Methods .^name, .raku, .gist, or .say can be used to stringify it to something meaningful.
+  in sub stringifyURL at kevin-colyer.raku line 270
+# Failed test 'normalise dotted quad localhost'
+# at kevin-colyer.raku line 88
+# expected: 'http://dns.google/path/'
+#      got: 'http:///path/'
+# You failed 2 tests of 50

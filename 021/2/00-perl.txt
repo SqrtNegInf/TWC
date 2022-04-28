@@ -1,0 +1,52 @@
+ 
+===> 021/2/adam-russell.pl <===
+jdbc://user:password@localhost/pwc?profile=true 
+===> 021/2/andrezgz.pl <===
+Original:
+HTTPS://www.Example.com:443/a%c2%b1b/%7Eandrezgz/bar.html?pi=3%2e14#hi%2Dthere
+
+Normalized:
+https://www.example.com/a%C2%B1b/~andrezgz/bar.html?pi=3.14#hi-there
+ 
+===> 021/2/daniel-mantovani.pl <===
+http://www.example.com/a%C2%B1b/~username?
+ 
+===> 021/2/dave-cross.pl <===
+http://www.example.com/
+http://www.example.com/a%C2%B1b
+http://www.example.com/~username/
+http://www.example.com/bar.html
+ 
+===> 021/2/duncan-c-white.pl <===
+normalized url is http://www.example.com/a%C2%B1b/~username
+ 
+===> 021/2/guillermo-ramos.pl <===
+http://www.example.com/a%C2%B1b/~username
+ 
+===> 021/2/joelle-maslak.pl <===
+Scheme:   HTTP
+Userinfo: <not defined>
+Host:     www.example.com
+Port:     80
+Path:     /a%C2%B1b/%7Eusername
+Query:    <not defined>
+Fragment: <not defined>
+http://www.example.com/a%c2%b1b/~username
+ 
+===> 021/2/laurent-rosenfeld.pl <===
+1..5
+ok 1 - Test 1
+ok 2 - Test 2
+ok 3 - Test 3
+ok 4 - Test 4
+ok 5 - Test 5
+ 
+===> 021/2/paulo-custodio.pl <===
+http://www.example.com/a%C2%B1b/~username
+ 
+===> 021/2/roger-bell-west.pl <===
+http://www.example.com/a±b/~username
+ 
+===> 021/2/ruben-westerberg.pl <===
+Original URI:	HTTP://a.uri/with/strange%65characters{}?query=true#frag<>
+Normalized URI:	http://a.uri/with/strangeecharacters%7B%7D?query=true#frag%3C%3E
