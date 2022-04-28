@@ -1,0 +1,87 @@
+ 
+===> 020/1/adam-russell.raku <===
+b
+oo
+kk
+ee
+p
+e
+r
+ 
+===> 020/1/arne-sommer.raku <===
+"b", "oo", "kk", "ee", "p", "e", "r"
+ 
+===> 020/1/athanasius.raku <===
+
+Original string:      "bookkeeper"
+After splitting on
+changes of character: "b", "oo", "kk", "ee", "p", "e", "r"
+ 
+===> 020/1/feng-chang.raku <===
+(b oo kk ee p e r)
+ 
+===> 020/1/fjwhittle.raku <===
+b
+oo
+kk
+ee
+p
+e
+r
+ 
+===> 020/1/joelle-maslak.raku <===
+b
+oo
+kk
+ee
+p
+e
+r
+ 
+===> 020/1/kevin-colyer.raku <===
+b
+oo
+kk
+ee
+p
+e
+r
+ 
+===> 020/1/mark-senn.raku <===
+b oo kk ee p e r
+ 
+===> 020/1/martin-barth.raku <===
+(b oo kk ee p e r)
+ 
+===> 020/1/noud.raku <===
+b
+oo
+kk
+ee
+p
+e
+r
+ 
+===> 020/1/ozzy.raku <===
+b oo kk ee p e r
+ 
+===> 020/1/randy-lauen.raku <===
+b,oo,kk,ee,p,e,r
+ 
+===> 020/1/roger-bell-west.raku <===
+b oo kk ee p e r
+ 
+===> 020/1/ruben-westerberg.raku <===
+b|oo|kk|ee|p|e|r
+ 
+===> 020/1/simon-proctor.raku <===
+b
+oo
+kk
+ee
+p
+e
+r
+ 
+===> 020/1/stuart-little.raku <===
+(b oo kk ee p e r)

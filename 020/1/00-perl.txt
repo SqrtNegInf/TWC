@@ -1,0 +1,107 @@
+ 
+===> 020/1/adam-russell.pl <===
+b
+oo
+kk
+ee
+p
+e
+r
+ 
+===> 020/1/andrezgz.pl <===
+b
+oo
+kk
+ee
+p
+e
+r
+ 
+===> 020/1/athanasius.pl <===
+
+Original string:      "bookkeeper"
+After splitting on
+changes of character: "b", "oo", "kk", "ee", "p", "e", "r"
+ 
+===> 020/1/daniel-mantovani.pl <===
+b
+oo
+kk
+ee
+p
+e
+r
+ 
+===> 020/1/dave-jacoby.pl <===
+"b", "oo", "kk", "ee", "p", "e", "r"
+
+ 
+===> 020/1/duane-powell.pl <===
+b,oo,kk,ee,p,e,r
+ 
+===> 020/1/duncan-c-white.pl <===
+b
+oo
+kk
+ee
+p
+e
+r
+ 
+===> 020/1/e-choroba.pl <===
+1..1
+ok 1
+ 
+===> 020/1/guillermo-ramos.pl <===
+b oo kk ee p e r
+ 
+===> 020/1/gustavo-chaves.pl <===
+b
+oo
+kk
+ee
+p
+e
+r
+ 
+===> 020/1/joelle-maslak.pl <===
+b
+oo
+kk
+ee
+p
+e
+r
+ 
+===> 020/1/kian-meng-ang.pl <===
+"b","oo","kk","ee","p","e","r"
+ 
+===> 020/1/lakpatashi.pl <===
+b oo kk ee p e r 
+===> 020/1/mark-anderson.pl <===
+b oo kk ee p e r
+ 
+===> 020/1/paulo-custodio.pl <===
+"b", "oo", "kk", "ee", "p", "e", "r"
+ 
+===> 020/1/pete-houston.pl <===
+Result is b oo kk ee p e r
+ 
+===> 020/1/roger-bell-west.pl <===
+b oo kk ee p e r
+ 
+===> 020/1/ruben-westerberg.pl <===
+b|oo|kk|ee|p|e|r
+ 
+===> 020/1/steven-wilson.pl <===
+ok 1 - test size of array
+ok 2 - first element is "A"
+ok 3 - fifth element is "EE"
+1..3
+b
+oo
+kk
+ee
+p
+e
+r
