@@ -1,0 +1,48 @@
+ 
+===> 020/2/adam-russell.raku <===
+ 
+===> 020/2/arne-sommer.raku <===
+(220, 284)
+ 
+===> 020/2/athanasius.raku <===
+
+Amicable pair #1: (220, 284)
+ 
+===> 020/2/feng-chang.raku <===
+220 284
+ 
+===> 020/2/fjwhittle.raku <===
+220, 284
+ 
+===> 020/2/jaldhar-h-vyas.raku <===
+(220, 284)
+ 
+===> 020/2/joelle-maslak.raku <===
+220 284
+ 
+===> 020/2/kevin-colyer.raku <===
+(284,220)
+ 
+===> 020/2/laurent-rosenfeld.raku <===
+220 and 284 are amicable numbers
+ 
+===> 020/2/mark-senn.raku <===
+220 284
+ 
+===> 020/2/noud.raku <===
+(220 284)
+ 
+===> 020/2/randy-lauen.raku <===
+220,284
+ 
+===> 020/2/roger-bell-west.raku <===
+220, 284
+ 
+===> 020/2/ruben-westerberg.raku <===
+Smallest Amicable Numbers: (220, 284)
+ 
+===> 020/2/simon-proctor.raku <===
+220, 284
+ 
+===> 020/2/stuart-little.raku <===
+(220 284)

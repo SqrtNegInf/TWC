@@ -1,0 +1,71 @@
+ 
+===> 020/2/adam-russell.pl <===
+First amicable pair of numbers: 220 284 
+ 
+===> 020/2/andrezgz.pl <===
+Smallest pair of Amicable Numbers: (220,284)
+ 
+===> 020/2/athanasius.pl <===
+Amicable pair #1: (220, 284)
+ 
+===> 020/2/daniel-mantovani.pl <===
+Found amicable numbers: 220 & 284
+ 
+===> 020/2/dave-jacoby.pl <===
+220, 284
+ 
+===> 020/2/duane-powell.pl <===
+(220, 284)
+ 
+===> 020/2/duncan-c-white.pl <===
+found amicable pair p=220, q=284 (spd[p]=284, spd[q]=220)
+ 
+===> 020/2/e-choroba.pl <===
+220 284
+ 
+===> 020/2/guillermo-ramos.pl <===
+(220, 284)
+ 
+===> 020/2/gustavo-chaves.pl <===
+220 284
+ 
+===> 020/2/jaldhar-h-vyas.pl <===
+(220, 284)
+ 
+===> 020/2/joelle-maslak.pl <===
+220 284
+ 
+===> 020/2/kian-meng-ang.pl <===
+2 => (220,284)
+ 
+===> 020/2/lakpatashi.pl <===
+found min pair:: (220,284)
+ 
+===> 020/2/laurent-rosenfeld.pl <===
+220 and 284 are amicable numbers
+ 
+===> 020/2/lubos-kolouch.pl <===
+Pair found: 220,284
+ok 1 - Test 2
+ok 2 - Test 3
+ok 3 - Test 4
+ok 4 - Test 5
+1..4
+ 
+===> 020/2/mark-anderson.pl <===
+220, 284
+ 
+===> 020/2/paulo-custodio.pl <===
+(220,284)
+ 
+===> 020/2/roger-bell-west.pl <===
+220, 284
+ 
+===> 020/2/ruben-westerberg.pl <===
+Smallest Amicable Numbers: (220, 284)
+ 
+===> 020/2/steven-wilson.pl <===
+The smallest pair of Amicable Numbers are: (220, 284)
+ 
+===> 020/2/veesh-goldman.pl <===
+220, 284 is your pair
