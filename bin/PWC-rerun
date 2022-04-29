@@ -4,15 +4,17 @@
 #  2022-02-11 144-150 193% cpu    6:45.74 total
 #  2022-03-08 118-153 385% cpu   12:43.44 total
 #  2022-03-09 116-154 395% cpu 5:57:45.28 total (all: huge b/c of JVM: 79835u 5040s)
-#  2022-03-10 114-154 431% cpu   17:06.23 total (perl,moar: 3971u 458s)
-#  2022-03-13 100-155 472% cpu   19:29.76 total (perl,moar: 4926u 601s)
-#  2022-03-21 092-155 489% cpu   21:12.15 total (perl,moar: 5525u 696s)
-#  2022-03-29 078-157 526% cpu   24:28.02 total (perl,moar: 6829u 898s)
-#  2022-03-31 075-157 497% cpu   27:23.99 total (perl,moar: 7219u 958s)
-#  2022-04-05 065-158
+#  2022-03-10 114-154 431% cpu   17:06.23 total (perl,moar:  3971u  458s)
+#  2022-03-13 100-155 472% cpu   19:29.76 total (perl,moar:  4926u  601s)
+#  2022-03-21 092-155 489% cpu   21:12.15 total (perl,moar:  5525u  696s)
+#  2022-03-31 075-157 497% cpu   27:23.99 total (perl,moar:  7219u  958s)
+#  2022-04-18 037-159 517% cpu   36:29.01 total (perl,moar: 10135u 1937s)
+#  2022-04-29 019-161 538% cpu   39:58.81 total (perl,moar: 11530u 1375s)
 
 sub MAIN ( *@args ) {
     die 'Challenges?' unless @args.elems;
+
+    #@args = grep { '018' ne $_ }, @args;
     (@args).race(:8degree, :1batch).map: -> $ch { shell "PWC-run $ch 1 perl ; PWC-run $ch 2 perl" }
     (@args).race(:8degree, :1batch).map: -> $ch { shell "PWC-run $ch 1 moar ; PWC-run $ch 2 moar" }
 #   (@args).race(:7degree, :1batch).map: -> $ch { shell "PWC-run $ch 1 jvm                      " }
