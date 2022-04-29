@@ -1,0 +1,71 @@
+ 
+===> 018/1/adam-russell.pl <===
+abc
+ 
+===> 018/1/andrezgz.pl <===
+Longest common substring(s): ABC
+ 
+===> 018/1/athanasius.pl <===
+
+The longest common substring is: "abc"
+ 
+===> 018/1/daniel-mantovani.pl <===
+Found substring abc with 3 chars in all strings
+ 
+===> 018/1/duane-powell.pl <===
+strings are: hello,world
+longest matching substrings are:
+l
+o
+
+strings are: polar,bears,love,snow
+longest matching substrings are:
+ar
+
+strings are: goodbye,goodyear,goody
+longest matching substrings are:
+goody
+
+strings are: abc,xzy
+no substrings match
+
+strings are: duane,powell,xxxxduanexxxpowellxxx
+longest matching substrings are:
+powell
+
+strings are: abba,bbaa,aaaa,bbbb,baba,abab
+longest matching substrings are:
+aba
+bab
+bba
+
+ 
+===> 018/1/duncan-c-white.pl <===
+longest sub string of strings is abc
+ 
+===> 018/1/jaldhar-h-vyas.pl <===
+ABC
+ 
+===> 018/1/joelle-maslak.pl <===
+Max length: 3; Substrings: abc
+ 
+===> 018/1/lubos-kolouch.pl <===
+TESTS:
+Common string ABC
+ok 1 - Test 1
+1..1
+ 
+===> 018/1/mark-anderson.pl <===
+abc
+ 
+===> 018/1/paulo-custodio.pl <===
+("abc")
+ 
+===> 018/1/roger-bell-west.pl <===
+abc
+ 
+===> 018/1/ruben-westerberg.pl <===
+Longest common substring: abcd
+ 
+===> 018/1/steven-wilson.pl <===
+Longest common substring(s): ABC

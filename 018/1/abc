@@ -1,0 +1,26 @@
+strings are: hello,world
+longest matching substrings are:
+l
+o
+
+strings are: polar,bears,love,snow
+longest matching substrings are:
+ar
+
+strings are: goodbye,goodyear,goody
+longest matching substrings are:
+goody
+
+strings are: abc,xzy
+no substrings match
+
+strings are: duane,powell,xxxxduanexxxpowellxxx
+longest matching substrings are:
+powell
+
+strings are: abba,bbaa,aaaa,bbbb,baba,abab
+longest matching substrings are:
+aba
+bab
+bba
+
