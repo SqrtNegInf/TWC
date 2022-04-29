@@ -1,0 +1,208 @@
+ 
+===> 018/2/arne-sommer.raku <===
+:: AA0 (36)
+:: AA1 (31)
+:: AA2 (83)
+:: AA3 (42)
+:: AA4 (43)
+:: AA5 (41)
+:: AA6 (98)
+:: AA7 (30)
+:: AA8 (62)
+:: AA9 (85)
+AA6
+AA9
+AA2
+AA8
+AA4
+AA3
+AA5
+AA0
+AA1
+AA7
+ 
+===> 018/2/athanasius.raku <===
+
+The quick brown fox jumped over the unfortunate dog. --Snoopy
+There's more than one to way do it. --Perl motto
+ 
+===> 018/2/feng-chang.raku <===
+1..5
+ok 1 - default queue is empty
+end - start should be 0 or 1: 0
+ok 2 - task queue length is 1 after 1 insertion
+ok 3 - task priority is 3
+ok 4 - task is correct
+ok 5 - task queue length is 0 after element is pulled
+ 
+===> 018/2/fjwhittle.raku <===
+1..7
+ok 1 - New queue is empty
+ok 2 - Added three elements, queue is not empty
+ok 3 - Pulled baz, second added with priority 1 first
+ok 4 - Queue is still not empty
+ok 5 - Pulled foo, first added with priority 0 second
+ok 6 - Pulled bar, last added with priority 0 third
+ok 7 - Queue is empty after all elements pulled
+ 
+===> 018/2/jaldhar-h-vyas.raku <===
+one
+YES
+one
+ 
+===> 018/2/joelle-maslak.raku <===
+# Subtest: Start empty
+    ok 1 - 
+    1..1
+ok 1 - Start empty
+# Subtest: One element insert
+    ok 1 - 
+    ok 2 - 
+    ok 3 - 
+    1..3
+ok 2 - One element insert
+# Subtest: With Multiple Priorities
+    ok 1 - 
+    ok 2 - 
+    ok 3 - 
+    ok 4 - 
+    ok 5 - 
+    ok 6 - 
+    ok 7 - 
+    ok 8 - 
+    ok 9 - 
+    1..9
+ok 3 - With Multiple Priorities
+1..3
+ 
+===> 018/2/kevin-colyer.raku <===
+ok 1 - Empty Q
+ok 2 - insert 1
+ok 3 - insert 1.1
+ok 4 - Error too low priority
+ok 5 - insert 2
+ok 6 - insert 2.1
+ok 7 - Remove highest priority
+ok 8 - Remove next highest priority
+ok 9 - Remove next highest priority
+ok 10 - Remove next highest priority
+ok 11 - Empty Q
+ok 12 - No more items to remove
+1..12
+ 
+===> 018/2/laurent-rosenfeld.raku <===
+10
+20
+5
+15
+3
+6
+9
+12
+18
+2
+4
+8
+14
+16
+1
+7
+11
+13
+17
+19
+Empty queue
+ 
+===> 018/2/mark-senn.raku <===
+print_queue
+print_queue
+    5  this is the first priority 5 item
+print_queue
+    5  this is the first priority 5 item
+    5  this is the second priority 5 item
+print_queue
+    5  this is the first priority 5 item
+    5  this is the second priority 5 item
+    4  this is the first priority 4 item
+this is the first priority 5 item
+print_queue
+    5  this is the second priority 5 item
+    4  this is the first priority 4 item
+this is the second priority 5 item
+print_queue
+    4  this is the first priority 4 item
+this is the first priority 4 item
+print_queue
+print_queue
+ 
+===> 018/2/martin-barth.raku <===
+this is the first priority 5 item
+this is the second priority 5 item
+this is the first priority 4 item
+False
+this is the second priority 4 item
+True
+ 
+===> 018/2/noud.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ok 4 - 
+ok 5 - 
+ok 6 - 
+ok 7 - 
+ok 8 - 
+ok 9 - 
+ok 10 - 
+ 
+===> 018/2/randy-lauen.raku <===
+ok 1 - q is empty
+ok 2 - q is not empty
+ok 3 - x is highest
+ok 4 - a is next highest
+ok 5 - b is same priority, but second
+ok 6 - y is lowest
+ok 7 - q is empty
+ 
+===> 018/2/ruben-westerberg.raku <===
+Inserting  Items 
+=========================
+Adding to priority: 10 -> E1,E2,E3
+Adding to priority: 1 -> E4
+Adding to priority: 10 -> E5
+Adding to priority: 2 -> E6
+
+Listing contents of Queue
+=========================
+Prioritory 1:
+    E4
+Prioritory 2:
+    E6
+Prioritory 10:
+    E1, E2, E3, E5
+
+Pulling queue until empty
+==========================
+Pulling: E4
+Pulling: E6
+Pulling: E1
+Pulling: E2
+Pulling: E3
+Pulling: E5
+ 
+===> 018/2/simon-proctor.raku <===
+Top Priority
+Carrot
+Another ten
+Lettuce
+Seven
+Apple
+Pear
+Orange
+Antelope
+ 
+===> 018/2/stuart-little.raku <===
+Is the queue empty initially? True
+Queue after adding some items: [Item.new(val => -1, priority => 0) Item.new(val => 3, priority => 2) Item.new(val => 1, priority => 2) Item.new(val => 10, priority => 5)]
+Is the queue empty now? False
+Highest-priority item: 10

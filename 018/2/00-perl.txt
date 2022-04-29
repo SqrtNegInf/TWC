@@ -1,0 +1,236 @@
+ 
+===> 018/2/adam-russell.pl <===
+eat pizza
+work on perl weekly challenge
+work on blog
+go to the gym
+drink water
+clean dishes
+sleep
+ 
+===> 018/2/athanasius.pl <===
+
+The quick brown fox jumped over the unfortunate dog. --Snoopy
+There's more than one way to do it. --Perl motto
+ 
+===> 018/2/daniel-mantovani.pl <===
+#1 element: el 1, highest priority
+#2 element: el 4, pri = 4
+#3 element: el 2, pri 2, (1st element)
+#4 element: el 3, pri 2, (2nd element)
+#5 element: el 5, pri 2, (3rd element)
+#6 element: el 7, pri 2, (4th element)
+#7 element: el 8, pri 2, (5th element)
+#8 element: el 6, lowest priority
+ 
+===> 018/2/duane-powell.pl <===
+nothing to pop, queue is empty.
+queue print:
+ 500 0 cheeseburgers!
+  300 0 pizza?
+   250 0 steak and eggs!
+    200 0 milkshake!
+popping 500 0 cheeseburgers!
+queue print:
+ 650 0 donuts!
+  600 0 cookies!
+   550 0 pancakces and syrup!
+    350 0 hotdogs?
+     300 0 pizza?
+      250 0 steak and eggs!
+       200 0 milkshake!
+popping 650 0 donuts!
+queue print:
+ 600 0 cookies!
+  550 0 pancakces and syrup!
+   350 0 hotdogs?
+    300 0 pizza?
+     250 0 steak and eggs!
+      200 0 milkshake!
+popping 600 0 cookies!
+popping 550 0 pancakces and syrup!
+queue print:
+ 550 0 pancakces and syrup!
+  500 0 cheeseburgers!
+   350 0 hotdogs?
+    350 0 hotdogs?
+     300 0 pizza?
+      300 0 pizza?
+       250 0 steak and eggs!
+        250 0 steak and eggs!
+         200 0 milkshake!
+          200 0 dr peppers!
+popping 550 0 pancakces and syrup!
+popping 500 0 cheeseburgers!
+popping 350 0 hotdogs?
+popping 350 0 hotdogs?
+popping 300 0 pizza?
+popping 300 0 pizza?
+popping 250 0 steak and eggs!
+popping 250 0 steak and eggs!
+queue print:
+ 200 0 milkshake!
+  200 0 dr peppers!
+queue print:
+ 550 0 pancakces and syrup!
+  350 0 hotdogs?
+   200 0 milkshake!
+    200 0 dr peppers!
+popping 550 0 pancakces and syrup!
+popping 350 0 hotdogs?
+popping 200 0 milkshake!
+popping 200 0 dr peppers!
+nothing to pop, queue is empty.
+queue print:
+ 
+===> 018/2/e-choroba.pl <===
+1..30
+ok 1
+ok 2
+ok 3
+ok 4
+ok 5
+ok 6
+ok 7
+ok 8
+ok 9
+ok 10
+ok 11
+ok 12
+ok 13
+ok 14
+ok 15
+ok 16
+ok 17
+ok 18
+ok 19
+ok 20
+ok 21
+ok 22
+ok 23
+ok 24
+ok 25
+ok 26
+ok 27
+ok 28
+ok 29 - same head - array
+ok 30 - same sorted - array
+ 
+===> 018/2/laurent-rosenfeld.pl <===
+10
+20
+5
+15
+3
+6
+9
+12
+18
+2
+4
+8
+14
+16
+1
+7
+11
+13
+17
+19
+Empty queue
+ 
+===> 018/2/lubos-kolouch.pl <===
+TESTS:
+ok 1 - Testing empty queue
+ok 2 - Testing not empty queue
+ok 3 - Testing added string equal to aaa
+ok 4 - Testing added string not equal to bbb
+ok 5 - is highest priority aaa
+ok 6 - is the queue empty now
+ok 7 - Insert priority 2 element aaa
+ok 8 - Is still priority 2 element aaa
+ok 9 - Insert priority 3 element bbb
+ok 10 - Is still priority 2 element aaa
+ok 11 - Is still priority 3 element bbb
+ok 12 - Is still priority 1 element xxx
+ok 13 - Is priority 1 element not  aaa
+ok 14 - Is still priority 2 element aaa
+ok 15 - Is still priority 3 element bbb
+ok 16 - Is still priority 1 element xxx
+ok 17 - Is now second priority 3 element ccc
+ok 18 - bbb correctly pulled
+ok 19 - ccc correctly pulled
+ok 20 - aaa correctly pulled
+ok 21 - xxx correctly pulled
+ok 22 - is the queue empty now
+1..22
+ 
+===> 018/2/paulo-custodio.pl <===
+ok 1 - is empty
+ok 2 - pull from empty queue
+ok 3 - is not empty
+ok 4 - is not empty
+ok 5 - is not empty
+ok 6 - got element
+ok 7 - is not empty
+ok 8 - got element
+ok 9 - is not empty
+ok 10 - got element
+ok 11 - is empty
+ok 12 - got element
+ok 13 - got element
+ok 14 - got element
+ok 15 - got element
+ok 16 - got element
+ok 17 - got element
+ok 18 - is empty
+1..18
+ 
+===> 018/2/roger-bell-west.pl <===
+1
+2
+3
+4
+5
+ 
+===> 018/2/ruben-westerberg.pl <===
+Inserting  Items 
+=========================
+Adding to priority: 10 -> E1,E2,E3
+Adding to priority: 1 -> E4
+Adding to priority: 10 -> E5
+Adding to priority: 2 -> E6
+
+Listing contents of Queue
+=========================
+Prioritory 1:
+    E4
+Prioritory 2:
+    E6
+Prioritory 10:
+    E1, E2, E3, E5
+
+Pulling queue until empty
+==========================
+Pulling: E4
+Pulling: E6
+Pulling: E1
+Pulling: E2
+Pulling: E3
+Pulling: E5
+ 
+===> 018/2/yozen-hernandez.pl <===
+1..9
+ok 1 - Queue is empty
+   10 => Element
+    8 => 2
+    3 => 10, 2.78
+   -1 => 5
+ok 2 - Queue is not empty
+ok 3 - Next highest element is 'Element'
+ok 4 - Next highest element is '2'
+ok 5 - Next highest element is '10'
+ok 6 - Peek shows next highest element is '2.78'
+ok 7 - Next highest element is '2.78'
+ok 8 - Next highest element is '5'
+ok 9 - No more elements in queue
