@@ -13,7 +13,7 @@ my $best-size;
 # Input words sorted by length decreasing.  A bad idea, except
 # to fail quickly if there are no pangrams available.
 
-my constant @data =
+my @data =
    #  $?FILE.IO.parent(1).add("words") 
     'words'.IO.lines(:chomp).sort:
      { $^b.chars <=> $^a.chars };
