@@ -1,0 +1,1698 @@
+ 
+===> 019/1/arne-sommer.raku <===
+Months with five weekends: 1901-03, 1902-08, 1903-05, 1904-01, 1904-07, 1905-12, 1907-03, 1908-05, 1909-01, 1909-10, 1910-07, 1911-12, 1912-03, 1913-08, 1914-05, 1915-01, 1915-10, 1916-12, 1918-03, 1919-08, 1920-10, 1921-07, 1922-12, 1924-08, 1925-05, 1926-01, 1926-10, 1927-07, 1929-03, 1930-08, 1931-05, 1932-01, 1932-07, 1933-12, 1935-03, 1936-05, 1937-01, 1937-10, 1938-07, 1939-12, 1940-03, 1941-08, 1942-05, 1943-01, 1943-10, 1944-12, 1946-03, 1947-08, 1948-10, 1949-07, 1950-12, 1952-08, 1953-05, 1954-01, 1954-10, 1955-07, 1957-03, 1958-08, 1959-05, 1960-01, 1960-07, 1961-12, 1963-03, 1964-05, 1965-01, 1965-10, 1966-07, 1967-12, 1968-03, 1969-08, 1970-05, 1971-01, 1971-10, 1972-12, 1974-03, 1975-08, 1976-10, 1977-07, 1978-12, 1980-08, 1981-05, 1982-01, 1982-10, 1983-07, 1985-03, 1986-08, 1987-05, 1988-01, 1988-07, 1989-12, 1991-03, 1992-05, 1993-01, 1993-10, 1994-07, 1995-12, 1996-03, 1997-08, 1998-05, 1999-01, 1999-10, 2000-12, 2002-03, 2003-08, 2004-10, 2005-07, 2006-12, 2008-08, 2009-05, 2010-01, 2010-10, 2011-07, 2013-03, 2014-08, 2015-05, 2016-01, 2016-07, 2017-12, 2019-03.
+ 
+===> 019/1/athanasius.raku <===
+1901: March
+1902: August
+1903: May
+1904: January and July
+1905: December
+1907: March
+1908: May
+1909: January and October
+1910: July
+1911: December
+1912: March
+1913: August
+1914: May
+1915: January and October
+1916: December
+1918: March
+1919: August
+1920: October
+1921: July
+1922: December
+1924: August
+1925: May
+1926: January and October
+1927: July
+1929: March
+1930: August
+1931: May
+1932: January and July
+1933: December
+1935: March
+1936: May
+1937: January and October
+1938: July
+1939: December
+1940: March
+1941: August
+1942: May
+1943: January and October
+1944: December
+1946: March
+1947: August
+1948: October
+1949: July
+1950: December
+1952: August
+1953: May
+1954: January and October
+1955: July
+1957: March
+1958: August
+1959: May
+1960: January and July
+1961: December
+1963: March
+1964: May
+1965: January and October
+1966: July
+1967: December
+1968: March
+1969: August
+1970: May
+1971: January and October
+1972: December
+1974: March
+1975: August
+1976: October
+1977: July
+1978: December
+1980: August
+1981: May
+1982: January and October
+1983: July
+1985: March
+1986: August
+1987: May
+1988: January and July
+1989: December
+1991: March
+1992: May
+1993: January and October
+1994: July
+1995: December
+1996: March
+1997: August
+1998: May
+1999: January and October
+2000: December
+2002: March
+2003: August
+2004: October
+2005: July
+2006: December
+2008: August
+2009: May
+2010: January and October
+2011: July
+2013: March
+2014: August
+2015: May
+2016: January and July
+2017: December
+2019: March
+
+Total: 119 months
+ 
+===> 019/1/feng-chang.raku <===
+1901-03 has 5 weekends
+1902-08 has 5 weekends
+1903-05 has 5 weekends
+1904-01 has 5 weekends
+1904-07 has 5 weekends
+1905-12 has 5 weekends
+1907-03 has 5 weekends
+1908-05 has 5 weekends
+1909-01 has 5 weekends
+1909-10 has 5 weekends
+1910-07 has 5 weekends
+1911-12 has 5 weekends
+1912-03 has 5 weekends
+1913-08 has 5 weekends
+1914-05 has 5 weekends
+1915-01 has 5 weekends
+1915-10 has 5 weekends
+1916-12 has 5 weekends
+1918-03 has 5 weekends
+1919-08 has 5 weekends
+1920-10 has 5 weekends
+1921-07 has 5 weekends
+1922-12 has 5 weekends
+1924-08 has 5 weekends
+1925-05 has 5 weekends
+1926-01 has 5 weekends
+1926-10 has 5 weekends
+1927-07 has 5 weekends
+1929-03 has 5 weekends
+1930-08 has 5 weekends
+1931-05 has 5 weekends
+1932-01 has 5 weekends
+1932-07 has 5 weekends
+1933-12 has 5 weekends
+1935-03 has 5 weekends
+1936-05 has 5 weekends
+1937-01 has 5 weekends
+1937-10 has 5 weekends
+1938-07 has 5 weekends
+1939-12 has 5 weekends
+1940-03 has 5 weekends
+1941-08 has 5 weekends
+1942-05 has 5 weekends
+1943-01 has 5 weekends
+1943-10 has 5 weekends
+1944-12 has 5 weekends
+1946-03 has 5 weekends
+1947-08 has 5 weekends
+1948-10 has 5 weekends
+1949-07 has 5 weekends
+1950-12 has 5 weekends
+1952-08 has 5 weekends
+1953-05 has 5 weekends
+1954-01 has 5 weekends
+1954-10 has 5 weekends
+1955-07 has 5 weekends
+1957-03 has 5 weekends
+1958-08 has 5 weekends
+1959-05 has 5 weekends
+1960-01 has 5 weekends
+1960-07 has 5 weekends
+1961-12 has 5 weekends
+1963-03 has 5 weekends
+1964-05 has 5 weekends
+1965-01 has 5 weekends
+1965-10 has 5 weekends
+1966-07 has 5 weekends
+1967-12 has 5 weekends
+1968-03 has 5 weekends
+1969-08 has 5 weekends
+1970-05 has 5 weekends
+1971-01 has 5 weekends
+1971-10 has 5 weekends
+1972-12 has 5 weekends
+1974-03 has 5 weekends
+1975-08 has 5 weekends
+1976-10 has 5 weekends
+1977-07 has 5 weekends
+1978-12 has 5 weekends
+1980-08 has 5 weekends
+1981-05 has 5 weekends
+1982-01 has 5 weekends
+1982-10 has 5 weekends
+1983-07 has 5 weekends
+1985-03 has 5 weekends
+1986-08 has 5 weekends
+1987-05 has 5 weekends
+1988-01 has 5 weekends
+1988-07 has 5 weekends
+1989-12 has 5 weekends
+1991-03 has 5 weekends
+1992-05 has 5 weekends
+1993-01 has 5 weekends
+1993-10 has 5 weekends
+1994-07 has 5 weekends
+1995-12 has 5 weekends
+1996-03 has 5 weekends
+1997-08 has 5 weekends
+1998-05 has 5 weekends
+1999-01 has 5 weekends
+1999-10 has 5 weekends
+2000-12 has 5 weekends
+2002-03 has 5 weekends
+2003-08 has 5 weekends
+2004-10 has 5 weekends
+2005-07 has 5 weekends
+2006-12 has 5 weekends
+2008-08 has 5 weekends
+2009-05 has 5 weekends
+2010-01 has 5 weekends
+2010-10 has 5 weekends
+2011-07 has 5 weekends
+2013-03 has 5 weekends
+2014-08 has 5 weekends
+2015-05 has 5 weekends
+2016-01 has 5 weekends
+2016-07 has 5 weekends
+2017-12 has 5 weekends
+2019-03 has 5 weekends
+ 
+===> 019/1/fjwhittle.raku <===
+March 1901
+August 1902
+May 1903
+January 1904
+July 1904
+December 1905
+March 1907
+May 1908
+January 1909
+October 1909
+July 1910
+December 1911
+March 1912
+August 1913
+May 1914
+January 1915
+October 1915
+December 1916
+March 1918
+August 1919
+October 1920
+July 1921
+December 1922
+August 1924
+May 1925
+January 1926
+October 1926
+July 1927
+March 1929
+August 1930
+May 1931
+January 1932
+July 1932
+December 1933
+March 1935
+May 1936
+January 1937
+October 1937
+July 1938
+December 1939
+March 1940
+August 1941
+May 1942
+January 1943
+October 1943
+December 1944
+March 1946
+August 1947
+October 1948
+July 1949
+December 1950
+August 1952
+May 1953
+January 1954
+October 1954
+July 1955
+March 1957
+August 1958
+May 1959
+January 1960
+July 1960
+December 1961
+March 1963
+May 1964
+January 1965
+October 1965
+July 1966
+December 1967
+March 1968
+August 1969
+May 1970
+January 1971
+October 1971
+December 1972
+March 1974
+August 1975
+October 1976
+July 1977
+December 1978
+August 1980
+May 1981
+January 1982
+October 1982
+July 1983
+March 1985
+August 1986
+May 1987
+January 1988
+July 1988
+December 1989
+March 1991
+May 1992
+January 1993
+October 1993
+July 1994
+December 1995
+March 1996
+August 1997
+May 1998
+January 1999
+October 1999
+December 2000
+March 2002
+August 2003
+October 2004
+July 2005
+December 2006
+August 2008
+May 2009
+January 2010
+October 2010
+July 2011
+March 2013
+August 2014
+May 2015
+January 2016
+July 2016
+December 2017
+March 2019
+ 
+===> 019/1/jaldhar-h-vyas.raku <===
+03/1901
+08/1902
+05/1903
+01/1904
+07/1904
+12/1905
+03/1907
+05/1908
+01/1909
+10/1909
+07/1910
+12/1911
+03/1912
+08/1913
+05/1914
+01/1915
+10/1915
+12/1916
+03/1918
+08/1919
+10/1920
+07/1921
+12/1922
+08/1924
+05/1925
+01/1926
+10/1926
+07/1927
+03/1929
+08/1930
+05/1931
+01/1932
+07/1932
+12/1933
+03/1935
+05/1936
+01/1937
+10/1937
+07/1938
+12/1939
+03/1940
+08/1941
+05/1942
+01/1943
+10/1943
+12/1944
+03/1946
+08/1947
+10/1948
+07/1949
+12/1950
+08/1952
+05/1953
+01/1954
+10/1954
+07/1955
+03/1957
+08/1958
+05/1959
+01/1960
+07/1960
+12/1961
+03/1963
+05/1964
+01/1965
+10/1965
+07/1966
+12/1967
+03/1968
+08/1969
+05/1970
+01/1971
+10/1971
+12/1972
+03/1974
+08/1975
+10/1976
+07/1977
+12/1978
+08/1980
+05/1981
+01/1982
+10/1982
+07/1983
+03/1985
+08/1986
+05/1987
+01/1988
+07/1988
+12/1989
+03/1991
+05/1992
+01/1993
+10/1993
+07/1994
+12/1995
+03/1996
+08/1997
+05/1998
+01/1999
+10/1999
+12/2000
+03/2002
+08/2003
+10/2004
+07/2005
+12/2006
+08/2008
+05/2009
+01/2010
+10/2010
+07/2011
+03/2013
+08/2014
+05/2015
+01/2016
+07/2016
+12/2017
+03/2019
+ 
+===> 019/1/jo-christian-oterhals.raku <===
+1901-03-01
+1902-08-01
+1903-05-01
+1904-01-01
+1904-07-01
+1905-12-01
+1907-03-01
+1908-05-01
+1909-01-01
+1909-10-01
+1910-07-01
+1911-12-01
+1912-03-01
+1913-08-01
+1914-05-01
+1915-01-01
+1915-10-01
+1916-12-01
+1918-03-01
+1919-08-01
+1920-10-01
+1921-07-01
+1922-12-01
+1924-08-01
+1925-05-01
+1926-01-01
+1926-10-01
+1927-07-01
+1929-03-01
+1930-08-01
+1931-05-01
+1932-01-01
+1932-07-01
+1933-12-01
+1935-03-01
+1936-05-01
+1937-01-01
+1937-10-01
+1938-07-01
+1939-12-01
+1940-03-01
+1941-08-01
+1942-05-01
+1943-01-01
+1943-10-01
+1944-12-01
+1946-03-01
+1947-08-01
+1948-10-01
+1949-07-01
+1950-12-01
+1952-08-01
+1953-05-01
+1954-01-01
+1954-10-01
+1955-07-01
+1957-03-01
+1958-08-01
+1959-05-01
+1960-01-01
+1960-07-01
+1961-12-01
+1963-03-01
+1964-05-01
+1965-01-01
+1965-10-01
+1966-07-01
+1967-12-01
+1968-03-01
+1969-08-01
+1970-05-01
+1971-01-01
+1971-10-01
+1972-12-01
+1974-03-01
+1975-08-01
+1976-10-01
+1977-07-01
+1978-12-01
+1980-08-01
+1981-05-01
+1982-01-01
+1982-10-01
+1983-07-01
+1985-03-01
+1986-08-01
+1987-05-01
+1988-01-01
+1988-07-01
+1989-12-01
+1991-03-01
+1992-05-01
+1993-01-01
+1993-10-01
+1994-07-01
+1995-12-01
+1996-03-01
+1997-08-01
+1998-05-01
+1999-01-01
+1999-10-01
+2000-12-01
+2002-03-01
+2003-08-01
+2004-10-01
+2005-07-01
+2006-12-01
+2008-08-01
+2009-05-01
+2010-01-01
+2010-10-01
+2011-07-01
+2013-03-01
+2014-08-01
+2015-05-01
+2016-01-01
+2016-07-01
+2017-12-01
+2019-03-01
+ 
+===> 019/1/joelle-maslak.raku <===
+Mar 1901
+Aug 1902
+May 1903
+Jan 1904
+Jul 1904
+Dec 1905
+Mar 1907
+May 1908
+Jan 1909
+Oct 1909
+Jul 1910
+Dec 1911
+Mar 1912
+Aug 1913
+May 1914
+Jan 1915
+Oct 1915
+Dec 1916
+Mar 1918
+Aug 1919
+Oct 1920
+Jul 1921
+Dec 1922
+Aug 1924
+May 1925
+Jan 1926
+Oct 1926
+Jul 1927
+Mar 1929
+Aug 1930
+May 1931
+Jan 1932
+Jul 1932
+Dec 1933
+Mar 1935
+May 1936
+Jan 1937
+Oct 1937
+Jul 1938
+Dec 1939
+Mar 1940
+Aug 1941
+May 1942
+Jan 1943
+Oct 1943
+Dec 1944
+Mar 1946
+Aug 1947
+Oct 1948
+Jul 1949
+Dec 1950
+Aug 1952
+May 1953
+Jan 1954
+Oct 1954
+Jul 1955
+Mar 1957
+Aug 1958
+May 1959
+Jan 1960
+Jul 1960
+Dec 1961
+Mar 1963
+May 1964
+Jan 1965
+Oct 1965
+Jul 1966
+Dec 1967
+Mar 1968
+Aug 1969
+May 1970
+Jan 1971
+Oct 1971
+Dec 1972
+Mar 1974
+Aug 1975
+Oct 1976
+Jul 1977
+Dec 1978
+Aug 1980
+May 1981
+Jan 1982
+Oct 1982
+Jul 1983
+Mar 1985
+Aug 1986
+May 1987
+Jan 1988
+Jul 1988
+Dec 1989
+Mar 1991
+May 1992
+Jan 1993
+Oct 1993
+Jul 1994
+Dec 1995
+Mar 1996
+Aug 1997
+May 1998
+Jan 1999
+Oct 1999
+Dec 2000
+Mar 2002
+Aug 2003
+Oct 2004
+Jul 2005
+Dec 2006
+Aug 2008
+May 2009
+Jan 2010
+Oct 2010
+Jul 2011
+Mar 2013
+Aug 2014
+May 2015
+Jan 2016
+Jul 2016
+Dec 2017
+Mar 2019
+ 
+===> 019/1/laurent-rosenfeld.raku <===
+1901-03 has 5 weekends
+1902-08 has 5 weekends
+1903-05 has 5 weekends
+1904-01 has 5 weekends
+1904-07 has 5 weekends
+1905-12 has 5 weekends
+1907-03 has 5 weekends
+1908-05 has 5 weekends
+1909-01 has 5 weekends
+1909-10 has 5 weekends
+1910-07 has 5 weekends
+1911-12 has 5 weekends
+1912-03 has 5 weekends
+1913-08 has 5 weekends
+1914-05 has 5 weekends
+1915-01 has 5 weekends
+1915-10 has 5 weekends
+1916-12 has 5 weekends
+1918-03 has 5 weekends
+1919-08 has 5 weekends
+1920-10 has 5 weekends
+1921-07 has 5 weekends
+1922-12 has 5 weekends
+1924-08 has 5 weekends
+1925-05 has 5 weekends
+1926-01 has 5 weekends
+1926-10 has 5 weekends
+1927-07 has 5 weekends
+1929-03 has 5 weekends
+1930-08 has 5 weekends
+1931-05 has 5 weekends
+1932-01 has 5 weekends
+1932-07 has 5 weekends
+1933-12 has 5 weekends
+1935-03 has 5 weekends
+1936-05 has 5 weekends
+1937-01 has 5 weekends
+1937-10 has 5 weekends
+1938-07 has 5 weekends
+1939-12 has 5 weekends
+1940-03 has 5 weekends
+1941-08 has 5 weekends
+1942-05 has 5 weekends
+1943-01 has 5 weekends
+1943-10 has 5 weekends
+1944-12 has 5 weekends
+1946-03 has 5 weekends
+1947-08 has 5 weekends
+1948-10 has 5 weekends
+1949-07 has 5 weekends
+1950-12 has 5 weekends
+1952-08 has 5 weekends
+1953-05 has 5 weekends
+1954-01 has 5 weekends
+1954-10 has 5 weekends
+1955-07 has 5 weekends
+1957-03 has 5 weekends
+1958-08 has 5 weekends
+1959-05 has 5 weekends
+1960-01 has 5 weekends
+1960-07 has 5 weekends
+1961-12 has 5 weekends
+1963-03 has 5 weekends
+1964-05 has 5 weekends
+1965-01 has 5 weekends
+1965-10 has 5 weekends
+1966-07 has 5 weekends
+1967-12 has 5 weekends
+1968-03 has 5 weekends
+1969-08 has 5 weekends
+1970-05 has 5 weekends
+1971-01 has 5 weekends
+1971-10 has 5 weekends
+1972-12 has 5 weekends
+1974-03 has 5 weekends
+1975-08 has 5 weekends
+1976-10 has 5 weekends
+1977-07 has 5 weekends
+1978-12 has 5 weekends
+1980-08 has 5 weekends
+1981-05 has 5 weekends
+1982-01 has 5 weekends
+1982-10 has 5 weekends
+1983-07 has 5 weekends
+1985-03 has 5 weekends
+1986-08 has 5 weekends
+1987-05 has 5 weekends
+1988-01 has 5 weekends
+1988-07 has 5 weekends
+1989-12 has 5 weekends
+1991-03 has 5 weekends
+1992-05 has 5 weekends
+1993-01 has 5 weekends
+1993-10 has 5 weekends
+1994-07 has 5 weekends
+1995-12 has 5 weekends
+1996-03 has 5 weekends
+1997-08 has 5 weekends
+1998-05 has 5 weekends
+1999-01 has 5 weekends
+1999-10 has 5 weekends
+2000-12 has 5 weekends
+2002-03 has 5 weekends
+2003-08 has 5 weekends
+2004-10 has 5 weekends
+2005-07 has 5 weekends
+2006-12 has 5 weekends
+2008-08 has 5 weekends
+2009-05 has 5 weekends
+2010-01 has 5 weekends
+2010-10 has 5 weekends
+2011-07 has 5 weekends
+2013-03 has 5 weekends
+2014-08 has 5 weekends
+2015-05 has 5 weekends
+2016-01 has 5 weekends
+2016-07 has 5 weekends
+2017-12 has 5 weekends
+2019-03 has 5 weekends
+ 
+===> 019/1/markus-holzer.raku <===
+(1901 3)
+(1902 8)
+(1903 5)
+(1904 1)
+(1904 7)
+(1905 12)
+(1907 3)
+(1908 5)
+(1909 1)
+(1909 10)
+(1910 7)
+(1911 12)
+(1912 3)
+(1913 8)
+(1914 5)
+(1915 1)
+(1915 10)
+(1916 12)
+(1918 3)
+(1919 8)
+(1920 10)
+(1921 7)
+(1922 12)
+(1924 8)
+(1925 5)
+(1926 1)
+(1926 10)
+(1927 7)
+(1929 3)
+(1930 8)
+(1931 5)
+(1932 1)
+(1932 7)
+(1933 12)
+(1935 3)
+(1936 5)
+(1937 1)
+(1937 10)
+(1938 7)
+(1939 12)
+(1940 3)
+(1941 8)
+(1942 5)
+(1943 1)
+(1943 10)
+(1944 12)
+(1946 3)
+(1947 8)
+(1948 10)
+(1949 7)
+(1950 12)
+(1952 8)
+(1953 5)
+(1954 1)
+(1954 10)
+(1955 7)
+(1957 3)
+(1958 8)
+(1959 5)
+(1960 1)
+(1960 7)
+(1961 12)
+(1963 3)
+(1964 5)
+(1965 1)
+(1965 10)
+(1966 7)
+(1967 12)
+(1968 3)
+(1969 8)
+(1970 5)
+(1971 1)
+(1971 10)
+(1972 12)
+(1974 3)
+(1975 8)
+(1976 10)
+(1977 7)
+(1978 12)
+(1980 8)
+(1981 5)
+(1982 1)
+(1982 10)
+(1983 7)
+(1985 3)
+(1986 8)
+(1987 5)
+(1988 1)
+(1988 7)
+(1989 12)
+(1991 3)
+(1992 5)
+(1993 1)
+(1993 10)
+(1994 7)
+(1995 12)
+(1996 3)
+(1997 8)
+(1998 5)
+(1999 1)
+(1999 10)
+(2000 12)
+(2002 3)
+(2003 8)
+(2004 10)
+(2005 7)
+(2006 12)
+(2008 8)
+(2009 5)
+(2010 1)
+(2010 10)
+(2011 7)
+(2013 3)
+(2014 8)
+(2015 5)
+(2016 1)
+(2016 7)
+(2017 12)
+(2019 3)
+(2020 5)
+ 
+===> 019/1/noud.raku <===
+1901 March
+1902 August
+1903 May
+1904 January
+1904 July
+1905 December
+1907 March
+1908 May
+1909 January
+1909 October
+1910 July
+1911 December
+1912 March
+1913 August
+1914 May
+1915 January
+1915 October
+1916 December
+1918 March
+1919 August
+1920 October
+1921 July
+1922 December
+1924 August
+1925 May
+1926 January
+1926 October
+1927 July
+1929 March
+1930 August
+1931 May
+1932 January
+1932 July
+1933 December
+1935 March
+1936 May
+1937 January
+1937 October
+1938 July
+1939 December
+1940 March
+1941 August
+1942 May
+1943 January
+1943 October
+1944 December
+1946 March
+1947 August
+1948 October
+1949 July
+1950 December
+1952 August
+1953 May
+1954 January
+1954 October
+1955 July
+1957 March
+1958 August
+1959 May
+1960 January
+1960 July
+1961 December
+1963 March
+1964 May
+1965 January
+1965 October
+1966 July
+1967 December
+1968 March
+1969 August
+1970 May
+1971 January
+1971 October
+1972 December
+1974 March
+1975 August
+1976 October
+1977 July
+1978 December
+1980 August
+1981 May
+1982 January
+1982 October
+1983 July
+1985 March
+1986 August
+1987 May
+1988 January
+1988 July
+1989 December
+1991 March
+1992 May
+1993 January
+1993 October
+1994 July
+1995 December
+1996 March
+1997 August
+1998 May
+1999 January
+1999 October
+2000 December
+2002 March
+2003 August
+2004 October
+2005 July
+2006 December
+2008 August
+2009 May
+2010 January
+2010 October
+2011 July
+2013 March
+2014 August
+2015 May
+2016 January
+2016 July
+2017 December
+2019 March
+ 
+===> 019/1/ozzy.raku <===
+1901/3
+1902/8
+1903/5
+1904/1
+1904/7
+1905/12
+1907/3
+1908/5
+1909/1
+1909/10
+1910/7
+1911/12
+1912/3
+1913/8
+1914/5
+1915/1
+1915/10
+1916/12
+1918/3
+1919/8
+1920/10
+1921/7
+1922/12
+1924/8
+1925/5
+1926/1
+1926/10
+1927/7
+1929/3
+1930/8
+1931/5
+1932/1
+1932/7
+1933/12
+1935/3
+1936/5
+1937/1
+1937/10
+1938/7
+1939/12
+1940/3
+1941/8
+1942/5
+1943/1
+1943/10
+1944/12
+1946/3
+1947/8
+1948/10
+1949/7
+1950/12
+1952/8
+1953/5
+1954/1
+1954/10
+1955/7
+1957/3
+1958/8
+1959/5
+1960/1
+1960/7
+1961/12
+1963/3
+1964/5
+1965/1
+1965/10
+1966/7
+1967/12
+1968/3
+1969/8
+1970/5
+1971/1
+1971/10
+1972/12
+1974/3
+1975/8
+1976/10
+1977/7
+1978/12
+1980/8
+1981/5
+1982/1
+1982/10
+1983/7
+1985/3
+1986/8
+1987/5
+1988/1
+1988/7
+1989/12
+1991/3
+1992/5
+1993/1
+1993/10
+1994/7
+1995/12
+1996/3
+1997/8
+1998/5
+1999/1
+1999/10
+2000/12
+2002/3
+2003/8
+2004/10
+2005/7
+2006/12
+2008/8
+2009/5
+2010/1
+2010/10
+2011/7
+2013/3
+2014/8
+2015/5
+2016/1
+2016/7
+2017/12
+2019/3
+ 
+===> 019/1/randy-lauen.raku <===
+Found 119 months with 5 full weekends
+1901: Mar
+1902: Aug
+1903: May
+1904: Jan, Jul
+1905: Dec
+1907: Mar
+1908: May
+1909: Jan, Oct
+1910: Jul
+1911: Dec
+1912: Mar
+1913: Aug
+1914: May
+1915: Jan, Oct
+1916: Dec
+1918: Mar
+1919: Aug
+1920: Oct
+1921: Jul
+1922: Dec
+1924: Aug
+1925: May
+1926: Jan, Oct
+1927: Jul
+1929: Mar
+1930: Aug
+1931: May
+1932: Jan, Jul
+1933: Dec
+1935: Mar
+1936: May
+1937: Jan, Oct
+1938: Jul
+1939: Dec
+1940: Mar
+1941: Aug
+1942: May
+1943: Jan, Oct
+1944: Dec
+1946: Mar
+1947: Aug
+1948: Oct
+1949: Jul
+1950: Dec
+1952: Aug
+1953: May
+1954: Jan, Oct
+1955: Jul
+1957: Mar
+1958: Aug
+1959: May
+1960: Jan, Jul
+1961: Dec
+1963: Mar
+1964: May
+1965: Jan, Oct
+1966: Jul
+1967: Dec
+1968: Mar
+1969: Aug
+1970: May
+1971: Jan, Oct
+1972: Dec
+1974: Mar
+1975: Aug
+1976: Oct
+1977: Jul
+1978: Dec
+1980: Aug
+1981: May
+1982: Jan, Oct
+1983: Jul
+1985: Mar
+1986: Aug
+1987: May
+1988: Jan, Jul
+1989: Dec
+1991: Mar
+1992: May
+1993: Jan, Oct
+1994: Jul
+1995: Dec
+1996: Mar
+1997: Aug
+1998: May
+1999: Jan, Oct
+2000: Dec
+2002: Mar
+2003: Aug
+2004: Oct
+2005: Jul
+2006: Dec
+2008: Aug
+2009: May
+2010: Jan, Oct
+2011: Jul
+2013: Mar
+2014: Aug
+2015: May
+2016: Jan, Jul
+2017: Dec
+2019: Mar
+ 
+===> 019/1/roger-bell-west.raku <===
+3 1991
+5 1992
+1 1993
+10 1993
+7 1994
+12 1995
+3 1996
+8 1997
+5 1998
+1 1999
+10 1999
+12 2000
+3 2002
+8 2003
+10 2004
+7 2005
+12 2006
+8 2008
+5 2009
+1 2010
+10 2010
+7 2011
+3 2013
+8 2014
+5 2015
+1 2016
+7 2016
+12 2017
+3 2019
+ 
+===> 019/1/ruben-westerberg.raku <===
+1901 March
+1902 August
+1903 May
+1904 January
+1904 July
+1905 December
+1907 March
+1908 May
+1909 January
+1909 October
+1910 July
+1911 December
+1912 March
+1913 August
+1914 May
+1915 January
+1915 October
+1916 December
+1918 March
+1919 August
+1920 October
+1921 July
+1922 December
+1924 August
+1925 May
+1926 January
+1926 October
+1927 July
+1929 March
+1930 August
+1931 May
+1932 January
+1932 July
+1933 December
+1935 March
+1936 May
+1937 January
+1937 October
+1938 July
+1939 December
+1940 March
+1941 August
+1942 May
+1943 January
+1943 October
+1944 December
+1946 March
+1947 August
+1948 October
+1949 July
+1950 December
+1952 August
+1953 May
+1954 January
+1954 October
+1955 July
+1957 March
+1958 August
+1959 May
+1960 January
+1960 July
+1961 December
+1963 March
+1964 May
+1965 January
+1965 October
+1966 July
+1967 December
+1968 March
+1969 August
+1970 May
+1971 January
+1971 October
+1972 December
+1974 March
+1975 August
+1976 October
+1977 July
+1978 December
+1980 August
+1981 May
+1982 January
+1982 October
+1983 July
+1985 March
+1986 August
+1987 May
+1988 January
+1988 July
+1989 December
+1991 March
+1992 May
+1993 January
+1993 October
+1994 July
+1995 December
+1996 March
+1997 August
+1998 May
+1999 January
+1999 October
+2000 December
+2002 March
+2003 August
+2004 October
+2005 July
+2006 December
+2008 August
+2009 May
+2010 January
+2010 October
+2011 July
+2013 March
+2014 August
+2015 May
+2016 January
+2016 July
+2017 December
+ 
+===> 019/1/simon-proctor.raku <===
+Months with 5 Fridays between 1900 and 2019
+1901-03
+1902-08
+1903-05
+1904-01
+1904-07
+1905-12
+1907-03
+1908-05
+1909-01
+1909-10
+1910-07
+1911-12
+1912-03
+1913-08
+1914-05
+1915-01
+1915-10
+1916-12
+1918-03
+1919-08
+1920-10
+1921-07
+1922-12
+1924-08
+1925-05
+1926-01
+1926-10
+1927-07
+1929-03
+1930-08
+1931-05
+1932-01
+1932-07
+1933-12
+1935-03
+1936-05
+1937-01
+1937-10
+1938-07
+1939-12
+1940-03
+1941-08
+1942-05
+1943-01
+1943-10
+1944-12
+1946-03
+1947-08
+1948-10
+1949-07
+1950-12
+1952-08
+1953-05
+1954-01
+1954-10
+1955-07
+1957-03
+1958-08
+1959-05
+1960-01
+1960-07
+1961-12
+1963-03
+1964-05
+1965-01
+1965-10
+1966-07
+1967-12
+1968-03
+1969-08
+1970-05
+1971-01
+1971-10
+1972-12
+1974-03
+1975-08
+1976-10
+1977-07
+1978-12
+1980-08
+1981-05
+1982-01
+1982-10
+1983-07
+1985-03
+1986-08
+1987-05
+1988-01
+1988-07
+1989-12
+1991-03
+1992-05
+1993-01
+1993-10
+1994-07
+1995-12
+1996-03
+1997-08
+1998-05
+1999-01
+1999-10
+2000-12
+2002-03
+2003-08
+2004-10
+2005-07
+2006-12
+2008-08
+2009-05
+2010-01
+2010-10
+2011-07
+2013-03
+2014-08
+2015-05
+2016-01
+2016-07
+2017-12
+2019-03
+ 
+===> 019/1/stuart-little.raku <===
+(1901 3)
+(1902 8)
+(1903 5)
+(1904 1)
+(1904 7)
+(1905 12)
+(1907 3)
+(1908 5)
+(1909 1)
+(1909 10)
+(1910 7)
+(1911 12)
+(1912 3)
+(1913 8)
+(1914 5)
+(1915 1)
+(1915 10)
+(1916 12)
+(1918 3)
+(1919 8)
+(1920 10)
+(1921 7)
+(1922 12)
+(1924 8)
+(1925 5)
+(1926 1)
+(1926 10)
+(1927 7)
+(1929 3)
+(1930 8)
+(1931 5)
+(1932 1)
+(1932 7)
+(1933 12)
+(1935 3)
+(1936 5)
+(1937 1)
+(1937 10)
+(1938 7)
+(1939 12)
+(1940 3)
+(1941 8)
+(1942 5)
+(1943 1)
+(1943 10)
+(1944 12)
+(1946 3)
+(1947 8)
+(1948 10)
+(1949 7)
+(1950 12)
+(1952 8)
+(1953 5)
+(1954 1)
+(1954 10)
+(1955 7)
+(1957 3)
+(1958 8)
+(1959 5)
+(1960 1)
+(1960 7)
+(1961 12)
+(1963 3)
+(1964 5)
+(1965 1)
+(1965 10)
+(1966 7)
+(1967 12)
+(1968 3)
+(1969 8)
+(1970 5)
+(1971 1)
+(1971 10)
+(1972 12)
+(1974 3)
+(1975 8)
+(1976 10)
+(1977 7)
+(1978 12)
+(1980 8)
+(1981 5)
+(1982 1)
+(1982 10)
+(1983 7)
+(1985 3)
+(1986 8)
+(1987 5)
+(1988 1)
+(1988 7)
+(1989 12)
+(1991 3)
+(1992 5)
+(1993 1)
+(1993 10)
+(1994 7)
+(1995 12)
+(1996 3)
+(1997 8)
+(1998 5)
+(1999 1)
+(1999 10)
+(2000 12)
+(2002 3)
+(2003 8)
+(2004 10)
+(2005 7)
+(2006 12)
+(2008 8)
+(2009 5)
+(2010 1)
+(2010 10)
+(2011 7)
+(2013 3)
+(2014 8)
+(2015 5)
+(2016 1)
+(2016 7)
+(2017 12)
+(2019 3)
