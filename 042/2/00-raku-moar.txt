@@ -1,15 +1,15 @@
  
 ===> 042/2/arne-sommer.raku <===
-()( - NOT OK
-))(( - NOT OK
+())))( - NOT OK
+))) - NOT OK
+)) - NOT OK
+) - NOT OK
+()))) - NOT OK
 ( - NOT OK
-)(((( - NOT OK
-))(()) - NOT OK
-(()) - OK
-((( - NOT OK
-((() - NOT OK
-(()) - OK
-(((((( - NOT OK
+)(()) - NOT OK
+))) - NOT OK
+)()( - NOT OK
+() - OK
  
 ===> 042/2/burkhard-nickels.raku <===
 ch-2.p6 (Version 1.0) PWC #42 Task #2: Balanced Brackets
@@ -30,15 +30,16 @@ ch-2.p6 (Version 1.0) PWC #42 Task #2: Balanced Brackets
 () - OK
  
 ===> 042/2/colin-crain.raku <===
-start: ())(((
-val: IMBALANCED - )((( unmatched
+start: )(())
+val: IMBALANCED - odd number of parens
  
 ===> 042/2/daniel-mita.raku <===
 (
 )
 (
 )
-balanced
+)
+close before open
  
 ===> 042/2/feng-chang.raku <===
 ok 1 - () is good
@@ -47,21 +48,16 @@ ok 3 - )( is bad
 ok 4 - ())() is bad
  
 ===> 042/2/jaldhar-h-vyas.raku <===
-)))) - NOT OK
+())) - NOT OK
  
 ===> 042/2/javier-luque.raku <===
-))() - NOT OK
-)(( - NOT OK
-(( - NOT OK
-((( - NOT OK
+(((( - NOT OK
+(((( - NOT OK
 () - OK 
+(( - NOT OK
 )() - NOT OK
-))( - NOT OK
-((( - NOT OK
-)(( - NOT OK
-)) - NOT OK
 ))) - NOT OK
-)(() - NOT OK
+() - OK 
 (() - NOT OK
 ()) - NOT OK
 )) - NOT OK
@@ -70,6 +66,11 @@ ok 4 - ())() is bad
 ))() - NOT OK
 (( - NOT OK
 ())( - NOT OK
+))(( - NOT OK
+)) - NOT OK
+)() - NOT OK
+(( - NOT OK
+)(( - NOT OK
  
 ===> 042/2/kevin-colyer.raku <===
 ok 1 - test matching
@@ -195,7 +196,7 @@ unbalanced: )
 (()))()()( - NOT OK
  
 ===> 042/2/simon-proctor.raku <===
-String to test ()()()()()((
+String to test )))(((()()
 Balanced? False
  
 ===> 042/2/stuart-little.raku <===

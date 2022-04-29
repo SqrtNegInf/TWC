@@ -4,8 +4,8 @@ Potential difficulties:
     at /Users/dhoekman/PWC/068/1/lib/Math/Matrix.rakumod (Math::Matrix):930
     ------> [32mrefix:<MM>(List  $m --> Math::Matrix:D) [33m⏏[31mis tighter(&postcircumfix:<[ ]>) is expo[0m
 Input: 
-[1, 0, 1]
 [1, 1, 1]
-[1, 1, 0]
+[0, 0, 1]
+[1, 1, 1]
 Output: 
 
