@@ -1,0 +1,369 @@
+ 
+===> 017/2/adam-russell.pl <===
+SCHEME:		jdbc
+USER:		user
+PASSWORD:	password
+HOST:		localhost
+PORT:		3306
+PATH:		/pwc
+QUERY:		profile=true
+FRAGMENT:	h1
+ 
+===> 017/2/andrezgz.pl <===
+scheme:   jdbc:mysql
+userinfo: user:password
+host:     localhost
+port:     3306
+path:     /pwc
+query:    profile=true
+fragment: h1
+ 
+===> 017/2/athanasius.pl <===
+
+URL: jdbc://user:password@localhost:3306/pwc?profile=true#h1
+
+Scheme:     jdbc
+Authority:
+  Userinfo: user:********
+  Host:     localhost
+  Port:     3306
+Path:       /pwc
+Query:      profile=true
+Fragment:   h1
+ 
+===> 017/2/daniel-mantovani.pl <===
+scheme: jdbc
+path: mysql://user:password@localhost:3306/pwc
+query: profile=true
+fragment: h1
+ 
+===> 017/2/dave-jacoby.pl <===
+    URL         ftp://ftp.cerias.purdue.edu/pub/dict/README.txt
+    scheme      ftp
+    userinfo    
+    host        ftp.cerias.purdue.edu
+    port        
+    path        /pub/dict/README.txt
+    query       
+    fragment    
+
+    URL         http://slashdot.org/
+    scheme      http
+    userinfo    
+    host        slashdot.org
+    port        
+    path        /
+    query       
+    fragment    
+
+    URL         https://en.wikipedia.org/wiki/URL
+    scheme      https
+    userinfo    
+    host        en.wikipedia.org
+    port        
+    path        /wiki/URL
+    query       
+    fragment    
+
+    URL         https://github.com/manwar/perlweeklychallenge-club/pulse
+    scheme      https
+    userinfo    
+    host        github.com
+    port        
+    path        /manwar/perlweeklychallenge-club/pulse
+    query       
+    fragment    
+
+    URL         https://mail.google.com/mail/u/0/#inbox/FMfcg
+    scheme      https
+    userinfo    
+    host        mail.google.com
+    port        
+    path        /mail/u/0/
+    query       
+    fragment    inbox/FMfcg
+
+    URL         https://perlweeklychallenge.org/blog/perl-weekly-challenge-017/
+    scheme      https
+    userinfo    
+    host        perlweeklychallenge.org
+    port        
+    path        /blog/perl-weekly-challenge-017/
+    query       
+    fragment    
+
+    URL         https://practimer.me:443/#5m0s
+    scheme      https
+    userinfo    
+    host        practimer.me
+    port        443
+    path        /
+    query       
+    fragment    5m0s
+
+    URL         https://www.perlmonks.org/?node_id=818843
+    scheme      https
+    userinfo    
+    host        www.perlmonks.org
+    port        
+    path        /
+    query       node_id=818843
+    fragment    
+
+    URL         jdbc:mysql://user:password@localhost:3306/pwc?profile=true#h1
+    scheme      jdbc:mysql
+    userinfo    user:password
+    host        localhost
+    port        3306
+    path        /pwc
+    query       profile=true
+    fragment    h1
+
+ 
+===> 017/2/duane-powell.pl <===
+uri:      https://john.doe@www.example.com:123/forum/questions/?tag=networking&order=newest
+scheme:   https 
+userinfo: john.doe 
+host:     www.example.com
+port:     123
+path:     /forum/questions/
+query:    tag=networking&order=newest
+fragment: 
+
+uri:      ldap://[2001:db8::7]/c=GB?objectClass?one
+scheme:   ldap 
+userinfo:  
+host:     2001:db8::7
+port:     389
+path:     /c=GB
+query:    objectClass?one
+fragment: 
+
+uri:      mailto:John.Doe@example.com
+scheme:   mailto 
+userinfo:  
+host:     
+port:     
+path:     John.Doe@example.com
+query:    
+fragment: 
+
+uri:      news:comp.infosystems.www.servers.unix
+scheme:   news 
+userinfo:  
+host:     
+port:     119
+path:     comp.infosystems.www.servers.unix
+query:    
+fragment: 
+
+uri:      tel:+1-816-555-1212
+scheme:   tel 
+userinfo:  
+host:     
+port:     
+path:     +1-816-555-1212
+query:    
+fragment: 
+
+uri:      telnet://192.0.2.16:80/
+scheme:   telnet 
+userinfo:  
+host:     192.0.2.16
+port:     80
+path:     /
+query:    
+fragment: 
+
+uri:      urn:oasis:names:specification:docbook:dtd:xml:4.1.2
+scheme:   urn 
+userinfo:  
+host:     
+port:     
+path:     oasis:names:specification:docbook:dtd:xml:4.1.2
+query:    
+fragment: 
+
+uri:      jdbc:mysql://user:password@localhost:3306/pwc?profile=true#h1
+scheme:   jdbc:mysql 
+userinfo: user:password 
+host:     localhost
+port:     3306
+path:     /pwc
+query:    profile=true
+fragment: h1
+
+ 
+===> 017/2/e-choroba.pl <===
+URL: http://choroba:s6cr6t@www.perl.org:80/index.asp?x=12#id
+fragment:	id
+host:	www.perl.org
+password:	s6cr6t
+path:	/index.asp
+port:	80
+query:	x=12
+scheme:	http
+username:	choroba
+
+URL: https://127.0.0.1/
+host:	127.0.0.1
+path:	/
+scheme:	https
+
+URL: ftp://[1:2:3:4:5:6:dead:BEEF]
+host:	1:2:3:4:5:6:dead:BEEF
+path:	
+scheme:	ftp
+
+URL: jdbc:mysql://user:password@localhost:3306/pwc?profile=true#h1
+fragment:	h1
+host:	localhost
+password:	password
+path:	/pwc
+port:	3306
+query:	profile=true
+scheme:	jdbc
+subscheme:	mysql
+username:	user
+
+ 
+===> 017/2/feng-chang.pl <===
+scheme:   jdbc:mysql
+userinfo: user:password
+host:     localhost
+port:     3306
+path:     /pwc
+query:    profile=true
+fragment: h1
+ 
+===> 017/2/jaldhar-h-vyas.pl <===
+scheme: jdbc
+userinfo: 
+host: 
+port: 
+path: mysql://user:password@localhost:3306/pwc
+query: profile=true
+fragment: h1
+ 
+===> 017/2/joelle-maslak.pl <===
+Scheme:   http
+Userinfo: user:password
+Host:     localhost
+Port:     3306
+Path:     /pwc
+Query:    profile=true
+Fragment: h1
+ 
+===> 017/2/laurent-rosenfeld.pl <===
+Matched jdbc:mysql://user:password@localhost:3306/pwc?profile=true#h1:
+   scheme: jdbc:mysql
+   userinfo: user:password
+   host: localhost
+   port: 3306
+   path: /pwc
+   query: profile=true
+   fragment: h1
+Matched https://en.wikipedia.org/wiki/URL:
+   scheme: https
+   host: en.wikipedia.org
+   path: /wiki/URL
+Matched https://perlcon.eu/my:
+   scheme: https
+   host: perlcon.eu
+   path: /my
+Matched https://www.perlmonks.org/?node=Seekers of Perl Wisdom:
+   scheme: https
+   host: www.perlmonks.org
+   path: /
+   query: node=Seekers of Perl Wisdom
+ 
+===> 017/2/lubos-kolouch.pl <===
+Scheme: jdbc
+Path: mysql://user:password@localhost:3306/pwc
+Query: profile=true
+Fragment: h1
+ok 1 - Test scheme
+ok 2 - Test userinfo
+ok 3 - Test host
+ok 4 - Test port
+ok 5 - Test path
+ok 6 - Test query
+ok 7 - Test fragment
+1..7
+ 
+===> 017/2/paulo-custodio.pl <===
+scheme:   http
+userinfo: user:password
+host:     localhost
+port:     3306
+path:     /pwc
+query:    profile=true
+fragment: h1
+ 
+===> 017/2/roger-bell-west.pl <===
+---
+fragment: h1
+host: localhost
+path: /pwc
+port: '3306'
+query: profile=true
+scheme: jdbc:mysql
+userinfo: user:password
+ 
+===> 017/2/ruben-westerberg.pl <===
+Scheme: jdbc
+User: user
+Password: password
+Host: localhost
+Port: 3306
+Path /pwc
+Query: profile=true
+Fragment: h1 
+===> 017/2/steven-wilson.pl <===
+scheme:    jdbc:mysql
+userinfo:  user:password
+host:      localhost
+port:      3306
+path:      /pwc
+query:     profile=true
+fragment:  h1
+ 
+===> 017/2/yozen-hernandez.pl <===
+1..7
+scheme:	jdbc:mysql
+userinfo:	user:password
+host:	localhost
+port:	3306
+path:	/pwc
+query:	profile=true
+fragment:	h1
+
+scheme:	http
+userinfo:	sri:foo
+host:	example.com
+port:	3000
+path:	/foo
+query:	foo=bar
+fragment:	23
+
+scheme:	https
+userinfo:	
+host:	example.com
+port:	
+path:	/
+
+scheme:	http
+userinfo:	
+host:	JP納豆.例.jp
+port:	80
+path:	/dir1/引き割り.html
+query:	q=クエリ
+fragment:	メイン
+
+ok 1 - Mojo and regex sub agree on 'scheme'
+ok 2 - Mojo and regex sub agree on 'userinfo'
+ok 3 - Mojo and regex sub agree on 'host'
+ok 4 - Mojo and regex sub agree on 'port'
+ok 5 - Mojo and regex sub agree on 'path'
+ok 6 - Mojo and regex sub agree on 'query'
+ok 7 - Mojo and regex sub agree on 'fragment'

@@ -1,0 +1,7 @@
+[31m===[0mSORRY![31m===[0m Error while compiling /Users/dhoekman/PWC/017/2/athanasius.raku
+An exception occurred while evaluating a BEGIN
+at /Users/dhoekman/PWC/017/2/athanasius.raku:3
+Exception details:
+  not ok - disabled: JVM cannot handle Perl5
+    in code  at athanasius.raku line 3
+

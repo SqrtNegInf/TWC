@@ -1,0 +1,144 @@
+ 
+===> 017/2/arne-sommer.raku <===
+scheme:   jdbc:mysql
+userinfo: user:password
+host:     localhost
+port:     3306
+path:     /pwc
+query:    profile=true
+fragment: h1
+ 
+===> 017/2/athanasius.raku <===
+
+URL: jdbc://user:password@localhost:3306/pwc?profile=true#h1
+
+Scheme:     jdbc
+Authority:
+  Userinfo: user:********
+  Host:     localhost
+  Port:     3306
+Path:       /pwc
+Query:      profile=true
+Fragment:   h1
+ 
+===> 017/2/feng-chang.raku <===
+scheme:   jdbc
+userinfo: user:password
+host:     localhost
+port:     3306
+path:     /pwc
+query:    profile=true
+fragment: h1
+ 
+===> 017/2/fjwhittle.raku <===
+URL.new(scheme => "jdbc:mysql", userinfo => URL::UserInfo.new(user => "user", password => "password"), host => "localhost", port => 3306, path => "pwc", query => {:profile("true")}, fragment => "h1")
+ 
+===> 017/2/jaldhar-h-vyas.raku <===
+Scheme: jdbc
+Userinfo: mysql:
+Host: mysql
+Path: ://user:password@localhost:3306/pwc
+Query: profile=true
+Fragment: h1
+ 
+===> 017/2/joelle-maslak.raku <===
+Scheme:   http
+Userinfo: user:password
+Host:     localhost
+Port:     3306
+Path:     /pwc
+Query:    profile=true
+Fragment: h1
+ 
+===> 017/2/kevin-colyer.raku <===
+ok 1 - 1 scheme and path test
+ok 2 - 2 scheme and path test
+ok 3 - 3 scheme, authority and path test
+ok 4 - 4 scheme, authority and path test
+ok 5 - 5 scheme, authority and path test
+ok 6 - 6 scheme, authority and path test
+ok 7 - 7 scheme, authority and path test
+ok 8 - 8 scheme, authority and path test
+ok 9 - 9 scheme, authority and path test
+ok 10 - 10 scheme, authority and path test
+ok 11 - 11 scheme, authority and path test
+ok 12 - 12 s,a,p, and query test
+ok 13 - 13 s,a,p, multi q test
+ok 14 - 14 s,a,p, multi q test
+ok 15 - 15 s,a,p, and fragment test
+ok 16 - 16 s,a,p,q and fragment test
+ok 17 - 17 s,a,p, multi q and fragment test
+ok 18 - 7.1 double scheme, authority and path test
+ok 19 - jdbc:mysql://user:password@localhost:3306/pwc?profile=true \#h1 parses ok
+ok 20 - testing <scheme>   is made correctly
+ok 21 - testing <userinfo> is made correctly
+ok 22 - testing <host>     is made correctly
+ok 23 - testing <port>     is made correctly
+ok 24 - testing <path>     is made correctly
+ok 25 - testing <query>    is made correctly
+ok 26 - testing <fragment> is made correctly
+1..26
+ 
+===> 017/2/laurent-rosenfeld.raku <===
+Matched jdbc:mysql://user:password@localhost:3306/pwc?profile=true#h1:
+    scheme         :	 jdbc:mysql:         
+    userinfo       :	 user:password       
+    host           :	 localhost           
+    port           :	 3306                
+    path           :	 /pwc                
+    query          :	 profile=true        
+    fragment       :	 #h1                 
+Matched https://en.wikipedia.org/wiki/URL:
+    scheme         :	 https:              
+    host           :	 en.wikipedia.org    
+    path           :	 /wiki/URL           
+Matched https://perlcon.eu/my:
+    scheme         :	 https:              
+    host           :	 perlcon.eu          
+    path           :	 /my                 
+Matched https://www.perlmonks.org/?node=Seekers of Perl Wisdom:
+    scheme         :	 https:              
+    host           :	 www.perlmonks.org   
+    path           :	 /                   
+    query          :	 node=Seekers of Perl Wisdom
+Matched https://metacpan.org/pod/Test::More:
+    scheme         :	 https:              
+    host           :	 metacpan.org        
+    path           :	 /pod/Test::More     
+ 
+===> 017/2/noud.raku <===
+ok 1 - 
+ 
+===> 017/2/ozzy.raku <===
+｢jdbc://user:password@localhost:3306/pwc?profile=true#h1｣
+ scheme => ｢jdbc｣
+ authority => ｢user:password@localhost:3306｣
+  userinfo => ｢user:password｣
+   user => ｢user｣
+   password => ｢password｣
+  host => ｢localhost｣
+  port => ｢3306｣
+ path => ｢/pwc｣
+ query => ｢profile=true｣
+ fragment => ｢h1｣
+ 
+===> 017/2/ruben-westerberg.raku <===
+Scheme: jdbc
+User: user
+Password: password
+Host: localhost
+Port: 3306
+Path: /pwc
+Query: profile=true
+Fragment: h1
+ 
+===> 017/2/stuart-little.raku <===
+
+scheme: jdbc	   
+userinfo: 
+host: 
+port: 	     
+path: mysql://user:password@localhost:3306/pwc
+query: profile=true
+fragment: h1
+
