@@ -1,0 +1,1 @@
+In several tasks, had to update Raku module call from 'Digest::SHA' to 'Digest::SHA256::Native'.

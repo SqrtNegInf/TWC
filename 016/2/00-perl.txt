@@ -1,0 +1,80 @@
+ 
+===> 016/2/adam-russell.pl <===
+1BvBMSEYstWetqTFn5Au4m4GFg7xJaNVN2 is VALID
+ 
+===> 016/2/athanasius.pl <===
+
+Bitcoin address: "1BvBMSEYstWetqTFn5Au4m4GFg7xJaNVN2"
+  Format is "P2PKH"
+  Checksum validation PASSED
+ 
+===> 016/2/daniel-mantovani.pl <===
+1BvBMSEYstWetqTFn5Au4m4GFg7xJaNVN2 is a valid bitcoin address
+ 
+===> 016/2/duncan-c-white.pl <===
+1BvBMSEYstWetqTFn5Au4m4GFg7xJaNVN2: yes
+ 
+===> 016/2/e-choroba.pl <===
+1..11
+ok 1 - valid 1BvBMSEYstWetqTFn5Au4m4GFg7xJaNVN2
+ok 2 - valid 3J98t1WpEZ73CNmQviecrnyiWrnqRhWNLy
+ok 3 - valid bc1qar0srrr7xfkvy5l643lydnw9re59gtzzwf5mdq
+ok 4 - valid bc1qrp33g0q5c5txsp9arysrx4k6zdkfs4nce4xj0gdcccefvpysxf3qccfmv3
+ok 5 - valid tb1qw508d6qejxtdg4y5r3zarvary0c5xw7kxpjzsx
+ok 6 - valid tb1qrp33g0q5c5txsp9ARYSRX4K6ZDKFS4NCE4XJ0GDCCCEFVPYSXF3Q0SL5K7
+ok 7 - invalid 1BvBMSEYstWetqTFn5Au4m4GFg7xJaNVN3
+ok 8 - invalid bc1qar0srrs7xfkvy5l643lydnw9re59gtzzwf5mdq
+ok 9 - invalid bc1qrp33f0q5c5txsp9arysrx4k6zdkfs4nce4xj0gdcccefvpysxf3qccfmv3
+ok 10 - invalid tb1qw508d6qejytdg4y5r3zarvary0c5xw7kxpjzsx
+ok 11 - invalid tb1qrp33g0q5c5twsp9arysrx4k6zdkfs4nce4xj0gdcccefvpysxf3q0sl5k7
+ 
+===> 016/2/feng-chang.pl <===
+ok
+ 
+===> 016/2/joelle-maslak.pl <===
+# Seeded srand with seed '20220430' from local date.
+ok 1 - 1BvBMSEYstWetqTFn5Au4m4GFg7xJaNVN2 True
+ok 2 - 1BvBMSEYstWetqTFn5Au4m4GFg7xJaNVN211 False
+ok 3 - 1BvBMSEYstWetqTFn5Au4m4GFg0xJaNVN2 False
+ok 4 - 1BvBMSEYstWetqTFn5Au4m4GFg7xJaNVM2 False
+ok 5 - 3J98t1WpEZ73CNmQviecrnyiWrnqRhWNLy True
+ok 6 - 1111111111111111111114oLvT2 True
+ok 7 - 111111111111111111114oLvT2 False
+ok 8 - 11111111111111111111114oLvT2 False
+1..8
+ 
+===> 016/2/laurent-rosenfeld.pl <===
+1..4
+ok 1 - Correct Address 1
+ok 2 - Incorrect Address 1
+ok 3 - Correct Address 2
+ok 4 - Incorrect Address 2
+ 
+===> 016/2/paulo-custodio.pl <===
+1
+ 
+===> 016/2/roger-bell-west.pl <===
+0077bff20c60e522dfaa3350c39b030a5d004e839a
+ 
+===> 016/2/ruben-westerberg.pl <===
+Testing Address: 1BvBMSEYstWetqTFn5Au4m4GFg7xJaNVN2
+Address OK: 1BvBMSEYstWetqTFn5Au4m4GFg7xJaNVN2
+
+Testing Address: 3J98t1WpEZ73CNmQviecrnyiWrnqRhWNLy
+Address OK: 3J98t1WpEZ73CNmQviecrnyiWrnqRhWNLy
+
+ 
+===> 016/2/steven-wilson.pl <===
+ok 1 - test valid address
+ok 2 - test valid address
+ok 3 - test valid address
+ok 4 - test valid address
+ok 5 - test invalid address
+1..5
+ 
+===> 016/2/yozen-hernandez.pl <===
+1..4
+ok 1 - b58 decode works
+ok 2 - b58 decode works
+ok 3 - First test address is valid
+ok 4 - Second test address is valid

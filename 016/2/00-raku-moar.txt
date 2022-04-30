@@ -1,0 +1,50 @@
+ 
+===> 016/2/arne-sommer.raku <===
+Valid
+ 
+===> 016/2/athanasius.raku <===
+
+Bitcoin address: "1BvBMSEYstWetqTFn5Au4m4GFg7xJaNVN2"
+  Format is "P2PKH"
+  Checksum validation PASSED
+ 
+===> 016/2/feng-chang.raku <===
+ok
+ 
+===> 016/2/fjwhittle.raku <===
+Valid bitcoin address.
+ 
+===> 016/2/joelle-maslak.raku <===
+ok 1 - 1BvBMSEYstWetqTFn5Au4m4GFg7xJaNVN2 True
+ok 2 - 1BvBMSEYstWetqTFn5Au4m4GFg7xJaNVN211 False
+ok 3 - 1BvBMSEYstWetqTFn5Au4m4GFg0xJaNVN2 False
+ok 4 - 1BvBMSEYstWetqTFn5Au4m4GFg7xJaNVM2 False
+ok 5 - 3J98t1WpEZ73CNmQviecrnyiWrnqRhWNLy True
+ok 6 - 1111111111111111111114oLvT2 True
+ok 7 - 111111111111111111114oLvT2 False
+ok 8 - 11111111111111111111114oLvT2 False
+1..8
+ 
+===> 016/2/kevin-colyer.raku <===
+Valid
+ 
+===> 016/2/laurent-rosenfeld.raku <===
+1..4
+ok 1 - Correct Address 1
+ok 2 - Incorrect Address 1
+ok 3 - Correct Address 2
+ok 4 - Incorrect Address 2
+ 
+===> 016/2/noud.raku <===
+True
+True
+False
+False
+ 
+===> 016/2/ruben-westerberg.raku <===
+Testing Address: 1BvBMSEYstWetqTFn5Au4m4GFg7xJaNVN2
+Address OK: 1BvBMSEYstWetqTFn5Au4m4GFg7xJaNVN2
+
+Testing Address: 3J98t1WpEZ73CNmQviecrnyiWrnqRhWNLy
+Address OK: 3J98t1WpEZ73CNmQviecrnyiWrnqRhWNLy
+
