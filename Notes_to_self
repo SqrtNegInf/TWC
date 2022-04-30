@@ -1,9 +1,21 @@
+2022-04-30
+Wowza, 016/1/ozzy.raku crashes (most of the time) under MoarVM with a bus error.
+
+2022-04-29
+Lots more 'srand drift', tedious.  Math::Matrix warnings flap.
+
+2022-04-26
+'022/2/ozzy.raku' also has JVM regex letter-case bug (like '033/1/athanasius.raku')
+
 2022-04-25
-The 'short' program task: mostly nothing to test, skipped.
-Also skipping the 'API' tasks.
+For the 'short program' task: Mostly nothing to test, skipped.
+Also skipping the 'API' tasks (3rd weekly option, apparently short-lived).
+
+2022-04-24
+More and more odd 'typos' in Raku code (so it does not compile).
 
 2022-04-20
-033/1/athanasius.raku appears to have a real JVM bug, need to open an issue.
+033/1/athanasius.raku appears to have a real JVM bug with regex letter-case, need to open an issue.
 (plus for the ones previously found)
 
 2022-04-19

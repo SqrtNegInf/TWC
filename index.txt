@@ -1,11 +1,32 @@
 Challenge titles and Rosetta-code correspondences (exact, and otherwise)
 
-020-1
-020-2
-021-1
-021-2
-022-1
-022-2
+010-1
+010-2
+011-1
+011-2
+012-1
+012-2
+013-1
+013-2
+014-1
+014-2
+015-1 Strong and Weak Primes                S/Strong_and_weak_primes
+015-2 Vigenère cipher                       V/Vigen%C3%A8re_cipher
+016-1 Pythagoras Pie Puzzle                 0/6-slices-of-pie
+016-2 Bitcoin address validation            B/Bitcoin_address_validation
+017-1 Ackermann Function                    A/Ackermann_function
+017-2 Parse URL                             U/URL_parser
+018-1 Longest Common Substring              L/Longest_Common_Substring-1
+018-2 Priority Queue                        P/Priority_queue
+019-1 Months with 5 weekends                F/Five_weekends
+019-2 Line wrap                             W/Word_wrap
+
+020-1 Split on Change                       S/Split_a_character_string_based_on_change_of_character
+020-2 Amicable Numbers                      A/Amicable_pairs
+021-1 Euler's Number                        C/Calculating_the_value_of_e
+021-2 URL Normalization                     U/URL_parser
+022-1 Sexy Prime Pairs                      S/Sexy_primes
+022-2 LZW                                   L/LZW_compression
 023-1 Forward Difference                    F/Forward_difference
 023-2 Prime Decomposition                   P/Prime_decomposition
 024-1 Smallest program                      E/Empty_program
@@ -296,10 +317,10 @@ Challenge titles and Rosetta-code correspondences (exact, and otherwise)
 
 160-1 Four is Magic                         F/Four_is_magic
 160-2 Equilibrium Index                     E/Equilibrium_index
-161-1 Abecedarian Words
+161-1 Abecedarian Words                     O/Ordered_words
 161-2 Pangrams                              P/Pangram_checker
-162-1
-162-2
+162-1 ISBN-13 check digit                   I/ISBN13_check_digit
+162-2 Wheatstone-Playfair cipher            P/Playfair_cipher
 163-1
 163-2
 164-1
@@ -337,27 +358,6 @@ raku -e '.say for ^2 X~ ^10 X~ ^10 X~ <-1 -2>'
 008-2
 009-1
 009-2
-
-010-1
-010-2
-011-1
-011-2
-012-1
-012-2
-013-1
-013-2
-014-1
-014-2
-015-1
-015-2
-016-1
-016-2
-017-1
-017-2
-018-1
-018-2
-019-1
-019-2
 
 =====
 
