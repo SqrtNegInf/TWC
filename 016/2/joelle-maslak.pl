@@ -26,7 +26,7 @@ sub test() {
         ['11111111111111111111114oLvT2'         => undef ], # Too long
     );
     
-    use Test2::V0;
+    use Test2::V0 -srand => 1;
 
     for my $test (@tests) {
         is validate($test->[0]), $test->[1], $test->[0] . ' ' . ($test->[1] ? 'True' : 'False');
