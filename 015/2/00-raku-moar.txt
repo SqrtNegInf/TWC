@@ -1,0 +1,48 @@
+ 
+===> 015/2/arne-sommer.raku <===
+ATTACKATDAWN
+ 
+===> 015/2/athanasius.raku <===
+
+With key 'LEMON', 'ATTACKATDAWN' --> 'LXFOPVEFRNHR' --> 'ATTACKATDAWN': Success
+ 
+===> 015/2/feng-chang.raku <===
+LXFOPVEFRNHR
+ATTACKATDAWN
+ 
+===> 015/2/fjwhittle.raku <===
+LXFOPVEFRNHR
+ 
+===> 015/2/jaldhar-h-vyas.raku <===
+LXFOPVEFRNHR
+ 
+===> 015/2/joelle-maslak.raku <===
+LXFOPVEFRNHR 
+===> 015/2/kevin-colyer.raku <===
+Testing
+ok 1 - VigenereCipher encrypts ok
+ok 2 - VigenereCipher decrypts ok
+1..2
+ 
+===> 015/2/laurent-rosenfeld.raku <===
+1..6
+ok 1 - Testing create-code
+ok 2 - Round trip for foo
+ok 3 - Round trip for bar
+ok 4 - Round trip for hello
+ok 5 - Round trip for world
+ok 6 - Message with spaces and punctuation
+ 
+===> 015/2/noud.raku <===
+umwe arjsqr guftqxrkr
+perl weekly challenge
+ok 1 - 
+ 
+===> 015/2/ozzy.raku <===
+LXFOPVEFRNHR
+ 
+===> 015/2/ruben-westerberg.raku <===
+UphRU:?hUSlj
+ 
+===> 015/2/stuart-little.raku <===
+LXFOPVEFRNHR

@@ -1,0 +1,48 @@
+ 
+===> 015/2/adam-russell.pl <===
+ATTACKATDAWN is encoded as pxklroreseny
+PXKLRORESENY is decoded as attackatdawn
+ 
+===> 015/2/athanasius.pl <===
+
+With key 'LEMON', 'ATTACKATDAWN' --> 'LXFOPVEFRNHR' --> 'ATTACKATDAWN': Success
+ 
+===> 015/2/dave-jacoby.pl <===
+    CLEAR:
+        WRITEASCRIPTTOIMPLEMENTVIGENERECIPHERTHESCRIPTSHOULDBEABLEENCODEANDDECODE
+    CYPHER:
+        WKBTGKSVUILGTHBMRVEFHNPIIZXNGBEVLPDRRMAEUMRBSTOUONEDDOAUOEAACHWECXDWHCKQE
+    DECRYPT:
+        WRITEASCRIPTTOIMPLEMENTVIGENERECIPHERTHESCRIPTSHOULDBEABLEENCODEANDDECODE
+
+ 
+===> 015/2/duane-powell.pl <===
+LXFOPVEFRNHR
+ 
+===> 015/2/e-choroba.pl <===
+1..2
+ok 1 - encode
+ok 2 - decode
+ 
+===> 015/2/lakpatashi.pl <===
+plain message: hello World , hello world
+encrypt message: zincs ostch , jvpeg yfvev
+decrypt message: hello world , hello world
+ 
+===> 015/2/laurent-rosenfeld.pl <===
+1..6
+ok 1 - Testing create_code
+ok 2 - Round trip for foo
+ok 3 - Round trip for bar
+ok 4 - Round trip for hello
+ok 5 - Round trip for world
+ok 6 - Message with spaces and punctuation
+ 
+===> 015/2/steven-wilson.pl <===
+ok 1 - encode working
+ok 2 - decode working
+1..2
+ 
+===> 015/2/yozen-hernandez.pl <===
+Encrypted: LXFOPVEFRNHR
+Decrypted: ATTACKATDAWN
