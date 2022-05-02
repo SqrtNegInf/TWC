@@ -1,0 +1,44 @@
+ 
+===> 014/2/aaron-sherman.raku <===
+cacogalactia
+ 
+===> 014/2/arne-sommer.raku <===
+California + Colorado + Georgia + Louisiana + Connecticut + Iowa = CACOGALACTIA
+
+Word length: 12.
+ 
+===> 014/2/athanasius.raku <===
+ 
+===> 014/2/dave-jacoby.raku <===
+cacogalactia
+ 
+===> 014/2/feng-chang.raku <===
+max word length is 12
+[cacogalactia]
+ 
+===> 014/2/fjwhittle.raku <===
+California + Colorado + Georgia + Louisiana + Connecticut + Iowa = CACOGALACTIA
+ 
+===> 014/2/jaldhar-h-vyas.raku <===
+cacogalactia
+ 
+===> 014/2/joelle-maslak.raku <===
+Longest matches: cacogalactia
+ 
+===> 014/2/kevin-colyer.raku <===
+Longest word is: CACOGALACTIA
+ 
+===> 014/2/laurent-rosenfeld.raku <===
+cacogalactia
+ 
+===> 014/2/noud.raku <===
+cacogalactia
+ 
+===> 014/2/ruben-westerberg.raku <===
+
+ 
+===> 014/2/simon-proctor.raku <===
+cacogalactia
+ 
+===> 014/2/stuart-little.raku <===
+[cacogalactia]

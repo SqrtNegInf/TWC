@@ -1,0 +1,50 @@
+ 
+===> 014/2/aaron-sherman.raku <===
+cacogalactia
+ 
+===> 014/2/arne-sommer.raku <===
+California + Colorado + Georgia + Louisiana + Connecticut + Iowa = CACOGALACTIA
+
+Word length: 12.
+ 
+===> 014/2/athanasius.raku <===
+
+235886 words read from file '/usr/share/dict/words', of which
+   380 can be formed from US state abbreviations
+
+The longest of these has 12 letters:
+cacogalactia = California + Colorado + Georgia + Louisiana + Connecticut + Iowa
+ 
+===> 014/2/dave-jacoby.raku <===
+cacogalactia
+ 
+===> 014/2/feng-chang.raku <===
+max word length is 12
+[cacogalactia]
+ 
+===> 014/2/fjwhittle.raku <===
+California + Colorado + Georgia + Louisiana + Connecticut + Iowa = CACOGALACTIA
+ 
+===> 014/2/jaldhar-h-vyas.raku <===
+cacogalactia
+ 
+===> 014/2/joelle-maslak.raku <===
+Longest matches: cacogalactia
+ 
+===> 014/2/kevin-colyer.raku <===
+Longest word is: CACOGALACTIA
+ 
+===> 014/2/laurent-rosenfeld.raku <===
+cacogalactia
+ 
+===> 014/2/noud.raku <===
+cacogalactia
+ 
+===> 014/2/ruben-westerberg.raku <===
+
+ 
+===> 014/2/simon-proctor.raku <===
+cacogalactia
+ 
+===> 014/2/stuart-little.raku <===
+[cacogalactia]

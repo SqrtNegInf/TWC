@@ -1,0 +1,3 @@
+not ok - disabled: fails with short word list, slow with long one
+  in block <unit> at athanasius.raku line 3
+

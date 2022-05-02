@@ -1,0 +1,64 @@
+ 
+===> 014/2/adam-russell.pl <===
+cacogalactia
+ 
+===> 014/2/andrezgz.pl <===
+Longest words: cacogalactia
+
+Sum of states for each word:
+California + Colorado + Georgia + Louisiana + Connecticut + Iowa = cacogalactia
+ 
+===> 014/2/athanasius.pl <===
+
+235886 words read from file '/usr/share/dict/words', of which
+   380 can be formed from US state abbreviations
+
+The longest of these has 12 letters:
+cacogalactia = California + Colorado + Georgia + Louisiana + Connecticut + Iowa
+ 
+===> 014/2/daniel-mantovani.pl <===
+cacogalactia
+ 
+===> 014/2/dave-jacoby.pl <===
+CACOGALACTIA
+ 
+===> 014/2/duncan-c-white.pl <===
+12 letters long
+longest words made up only of US state abbreviations are:
+cacogalactia
+ 
+===> 014/2/e-choroba.pl <===
+cacogalactia
+ 
+===> 014/2/feng-chang.pl <===
+max word length is 12
+cacogalactia
+ 
+===> 014/2/guillermo-ramos.pl <===
+California + Colorado + Georgia + Louisiana + Connecticut + Iowa = cacogalactia
+ 
+===> 014/2/joelle-maslak.pl <===
+Longest matches: cacogalactia
+ 
+===> 014/2/laurent-rosenfeld.pl <===
+cacogalactia
+ 
+===> 014/2/neil-bowers.pl <===
+cacogalactia
+ 
+===> 014/2/paulo-custodio.pl <===
+cacogalactia = California + Colorado + Georgia + Louisiana + Connecticut + Iowa
+ 
+===> 014/2/rob-van-dam.pl <===
+CACOGALACTIA
+ 
+===> 014/2/steven-wilson.pl <===
+Found the words:
+AKAL, AKIA, AKIN, ALAR, ALCA, ALCO, ALGA, ALIN, ALKY, ALMA, ALME, ALMS, ARAR, ARCA, ARIA, ARID, ARIL, ARMS, ARNE, CACA, CADE, CAID, CAIN, CAKY, CAME, CAND, CANE, CANY, CAVA, COAK, COAL, COCA, COCO, CODE, COIL, COIN, COKY, COLA, COMA, COME, COND, CONE, CONY, COOK, COPA, COWY, DEAL, DEAR, DEME, DEMI, DENE, DENY, DEPA, DEVA, DEWY, FLAK, GADE, GAIA, GAIL, GAIN, GALA, GAME, GANE, GAPA, GAUT, HIDE, HIMA, HIND, ILIA, INCA, INDE, INGA, INIA, INKS, INKY, KYAR, LADE, LAID, LAIN, LAKY, LAMA, LAME, LAND, LANE, LARI, LAVA, MACO, MADE, MAGA, MAHI, MAIA, MAID, MAIL, MAIN, MALA, MAMO, MAND, MANE, MANY, MARI, MEAK, MEAL, MEDE, MEIN, MELA, MEMO, MEND, MENY, MICA, MICO, MIDE, MILA, MIMA, MIME, MIMI, MIND, MINE, MINY, MODE, MOIL, MOKY, MOLA, MOME, MOMO, MONE, MOOR, MOUT, NEAL, NEIL, NEMA, NEPA, NERI, OHIA, OKIA, ORAL, ORCA, PAAL, PAAR, PACA, PACO, PACT, PAGA, PAHI, PAIL, PAIN, PALA, PAND, PANE, PAPA, PARI, PAUT, RIAL, RIDE, RIMA, RIME, RIND, RINE, RIPA, RIVA, SCAR, SCUT, VADE, VAIL, VAIN, VANE, VARI, WAAR, WACO, WADE, WAIL, WAIN, WAKY, WAME, WAND, WANE, WANY, WAWA, WIDE, WIME, WIND, WINE, WINY, WYDE, WYND, WYNE, AKAZGA, ALARIA, ALKYNE, ALMAIN, ALMOND, ALNEIN, ALPACA, ARALIA, ARCADE, ARCANE, ARCTIA, ARGALA, ARRIDE, AZILUT, CALADE, CAMACA, CAMAIL, CANCHI, CANCRI, CANDID, CANDOR, CARICA, CARIRI, COCAMA, COLANE, COMOID, CONDOR, CORIAL, CORIIN, COUTIL, DECADE, DECANE, DECOCT, DECODE, DEMAND, DEMOID, DERIDE, FLORAL, FLORIA, FLORID, FLORIN, GALANY, GAMENE, GAMORI, GARIAL, IDALIA, ILIAHI, INCOME, INDENE, INLAID, INLAND, INLAUT, INVADE, INWIND, KYRINE, LACTID, LAMANY, LAMIID, LAMNID, LARIID, LARINE, LASCAR, MACACA, MACACO, MAGAHI, MALAGA, MANDIL, MANJAK, MARINE, MESCAL, MIMINE, MISCUT, MOARIA, MOLALA, MOPANE, MOSCHI, NECTAR, NERINE, NEWARI, ORDEAL, ORMOND, PALAMA, PALAME, PAMELA, PAMIRI, PANDAL, PANELA, PANYAR, PAPAIN, PAPANE, PARIAL, PARINE, PASCAL, PAVANE, RICTAL, RILAWA, SCALAR, SCALMA, SCARID, SCILLA, SCORIA, SCORNY, SCRIDE, SCRIME, SCRINE, SCUTAL, VAHINE, VANDAL, WAHIMA, WAHINE, ALCAMINE, ARCTALIA, ARMORIAL, CALAMINE, COCAMAMA, COCAMINE, COCORICO, COMIAKIN, CONDALIA, CONYRINE, COOKMAID, CORIARIA, FLORALIA, GAINCOME, GALACTIA, GALAGALA, GANYMEDE, HIDELAND, IDRIALIN, INCARIAL, MALACOID, MALARIAL, MANDARIN, MANERIAL, MELAMINE, MEMORIAL, MOCOMOCO, MOORLAND, MORINDIN, MOSCHINE, PATNIDAR, RIKSMAAL, RIPARIAL, SCALARIA, SCILLAIN, SCINCOID, VARICOID, ALKYLAMINE, CALAMONDIN, CASCARILLA, NECTARINIA, CACOGALACTIA, 
+ 
+===> 014/2/walt-mankowski.pl <===
+cacogalactia
+ 
+===> 014/2/yozen-hernandez.pl <===
+Longest word(s) constructed using USPS state codes: cacogalactia
+with a length of 12 alphabetical characters
