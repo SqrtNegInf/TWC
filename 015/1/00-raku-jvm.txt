@@ -1,0 +1,56 @@
+ 
+===> 015/1/arne-sommer.raku <===
+Strong primes: 11, 17, 29, 37, 41, 59, 67, 71, 79, 97.
+Weak primes: 3, 7, 13, 19, 23, 31, 43, 47, 61, 73.
+ 
+===> 015/1/athanasius.raku <===
+
+The first 10 strong primes are: 11, 17, 29, 37, 41, 59, 67, 71, 79, 97
+The first 10 weak   primes are:  3,  7, 13, 19, 23, 31, 43, 47, 61, 73
+ 
+===> 015/1/feng-chang.raku <===
+first 10 strong primes: 11 17 29 37 41 59 67 71 79 97
+first 10 weak   primes: 3 7 13 19 23 31 43 47 61 73
+ 
+===> 015/1/fjwhittle.raku <===
+First 10 strong primes: 11, 17, 29, 37, 41, 59, 67, 71, 79, 97
+  First 10 weak primes:  3,  7, 13, 19, 23, 31, 43, 47, 61, 73
+ 
+===> 015/1/jaldhar-h-vyas.raku <===
+The 1st 10 strong Primes: 11, 17, 29, 37, 41, 59, 67, 71, 79, 97
+The 1st 10 weak Primes: 3, 7, 13, 19, 23, 31, 43, 47, 61, 73
+ 
+===> 015/1/joelle-maslak.raku <===
+Strong: 11,17,29,37,41,59,67,71,79,97
+Weak:   3,7,13,19,23,31,43,47,61,73
+ 
+===> 015/1/kevin-colyer.raku <===
+10 weak primes
+(3 7 13 19 23 31 43 47 61 73)
+10 strong primes
+(11 17 29 37 41 59 67 71 79 97)
+ 
+===> 015/1/laurent-rosenfeld.raku <===
+Strong primes: 11 17 29 37 41 59 67 71 79 97
+Weak primes: 3 7 13 19 23 31 43 47 61 73
+ 
+===> 015/1/noud.raku <===
+First 10 weak primes:
+(3 7 13 19 23 31 43 47 61 73)
+First 10 strong primes:
+(11 17 29 37 41 59 67 71 79 97)
+ 
+===> 015/1/ozzy.raku <===
+Strong primes: 11 17 29 37 41 59 67 71 79 97 
+Weak primes: 3 7 13 19 23 31 43 47 61 73  
+===> 015/1/ruben-westerberg.raku <===
+Week:   3, 7, 13, 19, 23, 31, 43, 47, 61, 73
+Strong: 11, 17, 29, 37, 41, 59, 67, 71, 79, 97
+ 
+===> 015/1/simon-proctor.raku <===
+Strong 11, 17, 29, 37, 41, 59, 67, 71, 79, 97
+Weak 3, 7, 13, 19, 23, 31, 43, 47, 61, 73
+ 
+===> 015/1/stuart-little.raku <===
+(11 17 29 37 41 59 67 71 79 97)
+(3 7 13 19 23 31 43 47 61 73)
