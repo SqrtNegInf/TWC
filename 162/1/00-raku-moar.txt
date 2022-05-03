@@ -1,0 +1,104 @@
+ 
+===> 162/1/0rir.raku <===
+1..56
+ok 1 - &isbn-checksum
+ok 2 - &ISBN_13-from-Str -> 978-nondigit 90-569-1538-4
+ok 3 - &isbn-checksum
+ok 4 - &ISBN_13-from-Str -> 978-nondigital garbage 90-569-1538-4
+ok 5 - &isbn-checksum
+ok 6 - &ISBN_13-from-Str -> 978-nondigit 90-569-1538-4
+ok 7 - &isbn-checksum
+ok 8 - &ISBN_13-from-Str -> 9-7-8-0-9-1-4-9-4-1-8-2-8
+ok 9 - &isbn-checksum
+ok 10 - &ISBN_13-from-Str -> 978-0-306-40615-7
+ok 11 - &isbn-checksum
+ok 12 - &ISBN_13-from-Str -> 978-0-306-40615-7
+ok 13 - &isbn-checksum
+ok 14 - &ISBN_13-from-Str -> 978-1-449-32633-3
+ok 15 - &isbn-checksum
+ok 16 - &ISBN_13-from-Str -> 978905691538-4
+ok 17 - &isbn-checksum
+ok 18 - &ISBN_13-from-Str -> 000000000000-0
+ok 19 - &isbn-checksum
+ok 20 - &ISBN_13-from-Str -> 100000000000-9
+ok 21 - &isbn-checksum
+ok 22 - &ISBN_13-from-Str -> 001000000000-9
+ok 23 - &isbn-checksum
+ok 24 - &ISBN_13-from-Str -> 000010000000-9
+ok 25 - &isbn-checksum
+ok 26 - &ISBN_13-from-Str -> 000000100000-9
+ok 27 - &isbn-checksum
+ok 28 - &ISBN_13-from-Str -> 000000001000-9
+ok 29 - &isbn-checksum
+ok 30 - &ISBN_13-from-Str -> 000000000010-9
+ok 31 - &isbn-checksum
+ok 32 - &ISBN_13-from-Str -> 010000000000-7
+ok 33 - &isbn-checksum
+ok 34 - &ISBN_13-from-Str -> 000100000000-7
+ok 35 - &isbn-checksum
+ok 36 - &ISBN_13-from-Str -> 000001000000-7
+ok 37 - &isbn-checksum
+ok 38 - &ISBN_13-from-Str -> 000000010000-7
+ok 39 - &isbn-checksum
+ok 40 - &ISBN_13-from-Str -> 000000000100-7
+ok 41 - &isbn-checksum
+ok 42 - &ISBN_13-from-Str -> 000000000001-7
+ok 43 - &isbn-checksum
+ok 44 - &ISBN_13-from-Str -> 131313131313-0
+ok 45 - &isbn-checksum
+ok 46 - &ISBN_13-from-Str -> 030000000000-1
+ok 47 - &isbn-checksum
+ok 48 - &ISBN_13-from-Str -> 030300000000-2
+ok 49 - &isbn-checksum
+ok 50 - &ISBN_13-from-Str -> 030303000000-3
+ok 51 - &isbn-checksum
+ok 52 - &ISBN_13-from-Str -> 030303030000-4
+ok 53 - &isbn-checksum
+ok 54 - &ISBN_13-from-Str -> 030303030300-5
+ok 55 - &isbn-checksum
+ok 56 - &ISBN_13-from-Str -> 030303030303-6
+ 
+===> 162/1/2colours.raku <===
+The last digit is: 4.
+ 
+===> 162/1/arne-sommer.raku <===
+The Check Digit is correct
+ 
+===> 162/1/athanasius.raku <===
+Input:  978-2-74839-908-0
+Output: ISBN-13 check digit for '978-2-74839-908-00' is 0
+ 
+===> 162/1/jaldhar-h-vyas.raku <===
+10 (invalid)
+ 
+===> 162/1/laurent-rosenfeld.raku <===
+7
+ 
+===> 162/1/mark-anderson.raku <===
+ok 1 - 
+ok 2 - 
+ 
+===> 162/1/polettix.raku <===
+ISBN-13 check digit for '978-0-306-40615-7' is 7.
+ 
+===> 162/1/rick-bychowski.raku <===
+Your checkdigit '7' matches our calculated digit '7'
+ 
+===> 162/1/robert-dicicco.raku <===
+ISBN-13 check digit for 978-0-306-40615-7 is 7.
+ 
+===> 162/1/roger-bell-west.raku <===
+1..4
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ok 4 - example 4
+ 
+===> 162/1/ulrich-rieke.raku <===
+Enter an ISBN code without the last digit!
+The correct ISBN number is 978-0-306-406157 !
+ 
+===> 162/1/wambash.raku <===
+ok 1 - 
+ok 2 - 
+1..2
