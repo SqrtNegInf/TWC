@@ -1,0 +1,199 @@
+ 
+===> 162/2/0rir.raku <===
+1..4
+# Subtest: Chars mapped to grid
+    1..25
+    ok 1 - char p maps to grid
+    ok 2 - char l maps to grid
+    ok 3 - char a maps to grid
+    ok 4 - char y maps to grid
+    ok 5 - char f maps to grid
+    ok 6 - char i maps to grid
+    ok 7 - char r maps to grid
+    ok 8 - char e maps to grid
+    ok 9 - char x maps to grid
+    ok 10 - char m maps to grid
+    ok 11 - char b maps to grid
+    ok 12 - char c maps to grid
+    ok 13 - char d maps to grid
+    ok 14 - char g maps to grid
+    ok 15 - char h maps to grid
+    ok 16 - char k maps to grid
+    ok 17 - char n maps to grid
+    ok 18 - char o maps to grid
+    ok 19 - char q maps to grid
+    ok 20 - char s maps to grid
+    ok 21 - char t maps to grid
+    ok 22 - char u maps to grid
+    ok 23 - char v maps to grid
+    ok 24 - char w maps to grid
+    ok 25 - char z maps to grid
+ok 1 - Chars mapped to grid
+# Subtest: Uinto.from-Int 5
+    1..37
+    ok 1 - 
+    ok 2 - 
+    ok 3 - 
+    ok 4 - 
+    ok 5 - 
+    ok 6 - 
+    ok 7 - 
+    ok 8 - 
+    ok 9 - 
+    ok 10 - 
+    ok 11 - 
+    ok 12 - 
+    ok 13 - 
+    ok 14 - 
+    ok 15 - 
+    ok 16 - 
+    ok 17 - 
+    ok 18 - 
+    ok 19 - 
+    ok 20 - 
+    ok 21 - 
+    ok 22 - 
+    ok 23 - 
+    ok 24 - 
+    ok 25 - 
+    ok 26 - 
+    ok 27 - 
+    ok 28 - 
+    ok 29 - 
+    ok 30 - 
+    ok 31 - 
+    ok 32 - 
+    ok 33 - 
+    ok 34 - 
+    ok 35 - 
+    ok 36 - 
+    ok 37 - 
+ok 2 - Uinto.from-Int 5
+# Subtest: _pairup()
+    1..10
+    ok 1 - e -> ex
+    ok 2 - 2nd _pairup is noop
+    ok 3 - ex -> ex
+    ok 4 - 2nd _pairup is noop
+    ok 5 - ee -> ex ex
+    ok 6 - 2nd _pairup is noop
+    ok 7 - re ed -> re xe dx
+    ok 8 - 2nd _pairup is noop
+    ok 9 - dove error meet -> do ve xe rx ro rm ex et
+    ok 10 - 2nd _pairup is noop
+ok 3 - _pairup()
+# Subtest: encrypt decrypt
+    1..24
+    ok 1 - encrypt of -> sa
+    ok 2 - decrypt of <- sa
+    ok 3 - encrypt off -> samy
+    ok 4 - decrypt ofxf <- samy
+    ok 5 - encrypt the -> zbxm
+    ok 6 - decrypt thex <- zbxm
+    ok 7 - encrypt dog -> ovqg
+    ok 8 - decrypt dogx <- ovqg
+    ok 9 - encrypt couch -> dnlngm
+    ok 10 - decrypt couchx <- dnlngm
+    ok 11 - encrypt stupid -> kztleb
+    ok 12 - decrypt stupid <- kztleb
+    ok 13 - encrypt adove -> eovaxm
+    ok 14 - decrypt adovex <- eovaxm
+    ok 15 - encrypt read reeds -> exeoexmxho
+    ok 16 - decrypt readrexeds <- exeoexmxho
+    ok 17 - encrypt dove error meet -> ovadmxemeneixmiv
+    ok 18 - decrypt dovexerxrormexet <- ovadmxemeneixmiv
+    ok 19 - encrypt read reeds a books -> exeoexmxhopdqeqnqm
+    ok 20 - decrypt readrexedsaboxoksx <- exeoexmxhopdqeqnqm
+    ok 21 - encrypt theweeklychallenge -> zbxvxmioafdbyaryrodx
+    ok 22 - decrypt thewexeklychalxlenge <- zbxvxmioafdbyaryrodx
+    ok 23 - encrypt hide the gold in the tree stump -> bmodzbxdnabekudmuixmmouvif
+    ok 24 - decrypt hidethegoldinthetrexestump <- bmodzbxdnabekudmuixmmouvif
+ok 4 - encrypt decrypt
+ 
+===> 162/2/2colours.raku <===
+bmodzbxdnabekudmuixmkzzryi
+thewexeklychallengex
+ 
+===> 162/2/arne-sommer-decode.raku <===
+hidethegoldinthetrexestump
+ 
+===> 162/2/arne-sommer.raku <===
+bmodzbxdnabekudmuixmmouvif
+ 
+===> 162/2/athanasius.raku <===
+Input
+-----
+  Key:        'playfair example'
+  Ciphertext: 'bmodzbxdnabekudmuixmmouvif'
+  Mode:        Decrypt
+
+Output
+------
+  Plaintext:  'hidethegoldinthetrexestump'
+ 
+===> 162/2/laurent-rosenfeld.raku <===
+hide the gold in the tree stump -> bmodzbxdnabekudmuixmmouvif
+Round trip: hidethegoldinthetrexestump
+siderwrdulfipaarkcrw -> thewexeklychallengex
+ 
+===> 162/2/luca-ferrari.raku <===
+[[p l a y f] [i r e x m] [b c d g h] [k n o q s] [t u v w z]]
+hi
+[{col => 4, row => 2} {col => 0, row => 1}]
+Hash
+de
+[{col => 2, row => 2} {col => 2, row => 1}]
+Hash
+th
+[{col => 0, row => 4} {col => 4, row => 2}]
+Hash
+eg
+[{col => 2, row => 1} {col => 3, row => 2}]
+Hash
+ol
+[{col => 2, row => 3} {col => 1, row => 0}]
+Hash
+di
+[{col => 2, row => 2} {col => 0, row => 1}]
+Hash
+nt
+[{col => 1, row => 3} {col => 0, row => 4}]
+Hash
+he
+[{col => 4, row => 2} {col => 2, row => 1}]
+Hash
+tr
+[{col => 0, row => 4} {col => 1, row => 1}]
+Hash
+ee
+[{col => 2, row => 1} {col => 2, row => 1}]
+Hash
+st
+[{col => 4, row => 3} {col => 0, row => 4}]
+Hash
+um
+[{col => 1, row => 4} {col => 4, row => 1}]
+Hash
+ 
+===> 162/2/mark-anderson.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ok 4 - 
+ok 5 - 
+ok 6 - 
+ 
+===> 162/2/polettix.raku <===
+bmodzbxdnabekudmuixmmouvif
+thewexeklychallengex
+ 
+===> 162/2/rick-bychowski.raku <===
+'bmodzbxdnabekudmuixmkzzryi'
+ 
+===> 162/2/roger-bell-west.raku <===
+1..2
+ok 1 - example 1
+ok 2 - example 2
+ 
+===> 162/2/ulrich-rieke.raku <===
+The encrypted string is bmodzbxdnabekudmuixmmouvif !

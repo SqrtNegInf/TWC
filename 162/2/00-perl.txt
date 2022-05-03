@@ -1,0 +1,168 @@
+ 
+===> 162/2/alexander-pankoff.pl <===
+bmodzbxdnabekudmuixmmouvif
+thewexeklychallengex
+ 
+===> 162/2/athanasius.pl <===
+Input
+-----
+  Key:        'playfair example'
+  Plaintext:  'hide the gold in the tree stump'
+  Mode:        Encrypt
+
+Output
+------
+  Ciphertext: 'bmodz bxdna bekud muixm mouvi f'
+ 
+===> 162/2/cheok-yin-fung.pl <===
+1..2
+ok 1
+ok 2
+ 
+===> 162/2/colin-crain.pl <===
+
+    input:      hide the gold in the tree stump
+    passphrase: playfair example
+---------------------------------
+
+    cyphertext: 
+    
+        BMODZ BXDNA BEKUD MUIXO MOUVI FBMVI 
+    
+    decoded plaintext:  
+    
+        HIDETHEGOLDINTHETREQESTUMPHITE
+    
+
+ 
+===> 162/2/dave-jacoby.pl <===
+playfair example
+	hide the gold in the tree stump
+	bmodzbxdnabekudmuixmmouvif
+	bmodzbxdnabekudmuixmmouvif
+	hidethegoldinthetrexestump
+	true
+
+perl and raku
+	the weekly challenge
+	siderwrdulfipaarkcrw
+	siderwrdulfipaarkcrw
+	thewexeklychallengex
+	true
+
+ 
+===> 162/2/e-choroba.pl <===
+1..4
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Roundtrip 1
+ok 4 - Roundtrip 2
+ 
+===> 162/2/james-smith.pl <===
+ok 1
+ok 2
+ok 3
+ok 4
+ok 5
+ok 6
+ok 7
+ok 8
+ok 9
+ok 10
+1..10
+ 
+===> 162/2/jo-37.pl <===
+# Seeded srand with seed '1' from import arg.
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - repeated letter
+ok 4 - repeated x
+ok 5 - double x
+1..5
+ 
+===> 162/2/julien-fiegehenn.pl <===
+BMODZBXDNABEKUDMUIXMMOUVIF
+THEWEXEKLYCHALLENGEX
+ 
+===> 162/2/kueppo-wesley.pl <===
+ok 1 - bmodzbxdnabekudmuixmmouvif
+ok 2 - hidethegoldinthetrexestump
+ok 3 - siderwrdulfipaarkcrw
+ok 4 - thewexeklychallengex
+1..4
+ 
+===> 162/2/laurent-rosenfeld.pl <===
+hide the gold in the tree stump -> bmodzbxdnabekudmuixmmouvif
+Round trip: hidethegoldinthetrexestump
+siderwrdulfipaarkcrw -> thewexeklychallengex
+ 
+===> 162/2/mattneleigh.pl <===
+
+Encryption:
+	Plaintext:  Hide the gold in the tree stump
+	Passphrase: playfair example
+	Key:        PLAYFIREXMBCDGHKNOQSTUVWZ
+	Ciphertext: BMODZBXDNABEKUDMUIXMMOUVIF
+
+Decryption:
+	Ciphertext: siderwrdulfipaarkcrw
+	Passphrase: perl and raku
+	Key:        PERLANDKUBCFGHIMOQSTVWXYZ
+	Plaintext:  THEWEXEKLYCHALLENGEX
+
+ 
+===> 162/2/perlboy1967.pl <===
+ok 1
+ok 2
+1..2
+ 
+===> 162/2/peter-campbell-smith.pl <===
+
+Plaintext: hide the gold in the tree stump
+Key: playfair example
+Matrix:
+p l a y f 
+i r e x m 
+b c d g h 
+k n o q s 
+t u v w z 
+Encrypted: bmodzbxdnabekudmuixmmouvif
+Decrypted: hidethegoldinthetrexestump
+
+Plaintext: The Weekly Challenge
+Key: Perl and Raku
+Matrix:
+p e r l a 
+n d k u b 
+c f g h i 
+m o q s t 
+v w x y z 
+Encrypted: siderwrdulfipaarkcrw
+Decrypted: thewexeklychallengex
+
+Plaintext: The curfew tolls the knell of parting day, the lowing herd winds slowly o'er the lea
+Key: the quick brown fox jumps over the lazy dog
+Matrix:
+t h e q u 
+i c k b r 
+o w n f x 
+m p s v l 
+a z y d g 
+Encrypted: hehkrxnqohxmmvheknskglmxwvgiioxygzaeeqmxocxyeqbgocfylnvmwnsgntiueqsugo
+Decrypted: thecurfewtollstheknelxlofpartingdaythelowingherdwindsxslowlyoertheleax
+ 
+===> 162/2/pokgopun.pl <===
+encrypt("playfair example", "hide the gold in the tree stump") = "bmodzbxdnabekudmuixmmouvif"
+
+decrypt("perl and raku", "siderwrdulfipaarkcrw") = "thewexeklychallengex"
+
+ 
+===> 162/2/roger-bell-west.pl <===
+1..2
+ok 1 - example 1
+ok 2 - example 2
+ 
+===> 162/2/ryan-thompson.pl <===
+ok 1
+ok 2
+1..2
