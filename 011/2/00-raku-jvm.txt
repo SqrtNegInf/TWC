@@ -1,0 +1,82 @@
+ 
+===> 011/2/arne-sommer.raku <===
+  1  0  0  0  0
+  0  1  0  0  0
+  0  0  1  0  0
+  0  0  0  1  0
+  0  0  0  0  1
+ 
+===> 011/2/feng-chang.raku <===
+[[1 0 0 0 0] [0 1 0 0 0] [0 0 1 0 0] [0 0 0 1 0] [0 0 0 0 1]]
+ 
+===> 011/2/fjwhittle.raku <===
+(True False False False False)
+(False True False False False)
+(False False True False False)
+(False False False True False)
+(False False False False True)
+ 
+===> 011/2/jaldhar-h-vyas.raku <===
+1 0 0 0 0 
+0 1 0 0 0 
+0 0 1 0 0 
+0 0 0 1 0 
+0 0 0 0 1 
+ 
+===> 011/2/jo-christian-oterhals.raku <===
+True False False False False
+False True False False False
+False False True False False
+False False False True False
+False False False False True
+ 
+===> 011/2/joelle-maslak.raku <===
+1 0 0 0 0
+0 1 0 0 0
+0 0 1 0 0
+0 0 0 1 0
+0 0 0 0 1
+ 
+===> 011/2/khalid.raku <===
+Rows : [[1, 0, 0, 0, 0], [0, 1, 0, 0, 0], [0, 0, 1, 0, 0], [0, 0, 0, 1, 0], [0, 0, 0, 0, 1]]
+Formated Matrix : 
+		|1 0 0 0 0|
+		|0 1 0 0 0|
+		|0 0 1 0 0|
+		|0 0 0 1 0|
+		|0 0 0 0 1|
+ 
+===> 011/2/laurent-rosenfeld.raku <===
+1 0 0 0 0
+0 1 0 0 0
+0 0 1 0 0
+0 0 0 1 0
+0 0 0 0 1
+ 
+===> 011/2/ozzy.raku <===
+  1  0  0  0  0
+  0  1  0  0  0
+  0  0  1  0  0
+  0  0  0  1  0
+  0  0  0  0  1
+ 
+===> 011/2/ruben-westerberg.raku <===
+1 0 0 0 0
+0 1 0 0 0
+0 0 1 0 0
+0 0 0 1 0
+0 0 0 0 1
+ 
+===> 011/2/simon-proctor.raku <===
+1 0 0 0 0
+0 1 0 0 0
+0 0 1 0 0
+0 0 0 1 0
+0 0 0 0 1
+ 
+===> 011/2/stuart-little.raku <===
+(1 0 0 0 0)
+(0 1 0 0 0)
+(0 0 1 0 0)
+(0 0 0 1 0)
+(0 0 0 0 1)
