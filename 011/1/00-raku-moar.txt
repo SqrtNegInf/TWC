@@ -1,0 +1,40 @@
+ 
+===> 011/1/aaron-sherman.raku <===
+F/C cross over at -40
+ 
+===> 011/1/arne-sommer.raku <===
+Fahrenheit (-40) and Celsius (-40) are equal(ish).
+ 
+===> 011/1/feng-chang.raku <===
+-40
+ 
+===> 011/1/fjwhittle.raku <===
+-40
+ 
+===> 011/1/jo-christian-oterhals.raku <===
+Equal point: -40
+ 
+===> 011/1/joelle-maslak.raku <===
+-40
+ 
+===> 011/1/khalid.raku <===
+  233.15K
+  -40C
+  -40F
+  419.67R
+ 
+===> 011/1/laurent-rosenfeld.raku <===
+Fahrenheit and Celsius scales meet at: -40
+ 
+===> 011/1/ozzy.raku <===
+ -40.00 degrees Celcius    is equal to  -40.00 degrees Fahrenheit.
+ -40.00 degrees Fahrenheit is equal to  -40.00 degrees Celcius.
+ 
+===> 011/1/ruben-westerberg.raku <===
+-40
+ 
+===> 011/1/simon-proctor.raku <===
+-40
+ 
+===> 011/1/stuart-little.raku <===
+-40
