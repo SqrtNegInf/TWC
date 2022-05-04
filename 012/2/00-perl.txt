@@ -1,0 +1,38 @@
+ 
+===> 012/2/adam-russell.pl <===
+Path in common is /a/b.
+ 
+===> 012/2/alicia-bielsa.pl <===
+Common Directory path: /a/b/c/d
+ 
+===> 012/2/daniel-mantovani.pl <===
+Common path of /a/b/c/d, /a/b/cd, /a/b/cc, /a/b/c/d/e is /a/b
+ 
+===> 012/2/dave-jacoby.pl <===
+/a/b
+ 
+===> 012/2/e-choroba.pl <===
+/a/b
+ 
+===> 012/2/joelle-maslak.pl <===
+/a/b
+ 
+===> 012/2/kian-meng-ang.pl <===
+/a/b
+ 
+===> 012/2/lakpatashi.pl <===
+base dir:: /a/b/
+ 
+===> 012/2/maxim-nechaev.pl <===
+/a/b
+ 
+===> 012/2/ruben-westerberg.pl <===
+/a/b 
+===> 012/2/shardiwal.pl <===
+/a/b
+ 
+===> 012/2/steven-wilson.pl <===
+The common directory path is /a/b.
+ 
+===> 012/2/yozen-hernandez.pl <===
+Common path is: '/a/b'

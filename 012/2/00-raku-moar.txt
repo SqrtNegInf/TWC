@@ -1,0 +1,65 @@
+ 
+===> 012/2/aaron-sherman.raku <===
+ok 1 - common-prefix infix op
+ok 2 - common-prefix reduction
+ok 3 - common-leading-paths with sep
+ok 4 - puzzle sample
+ 
+===> 012/2/arne-sommer.raku <===
+Common Directory Path: /a/b
+ 
+===> 012/2/athanasius.raku <===
+
+Separator: /
+
+Input paths:
+  /a/b/c/d
+  /a/b/cd
+  /a/b/cc
+  /a/b/c/d/e
+
+Absolute paths:
+  /a/b/c/d
+  /a/b/cd
+  /a/b/cc
+  /a/b/c/d/e
+
+Common directory path:
+  /a/b
+ 
+===> 012/2/feng-chang.raku <===
+common directory path: /a/b
+ 
+===> 012/2/fjwhittle.raku <===
+/a/b
+ 
+===> 012/2/jaldhar-h-vyas.raku <===
+/a/b
+ 
+===> 012/2/joelle-maslak.raku <===
+/a/b
+ 
+===> 012/2/kevin-colyer.raku <===
+ok 1 - Test of shortestCDP
+ok 2 - Test of shortestCDP
+ok 3 - Test of shortestCDP
+1..3
+12.2) shortest path is /a/b
+ 
+===> 012/2/laurent-rosenfeld.raku <===
+/a/b/c
+ 
+===> 012/2/mark-senn.raku <===
+/a/b
+ 
+===> 012/2/ozzy.raku <===
+/a/b/
+ 
+===> 012/2/ruben-westerberg.raku <===
+/a/b/
+ 
+===> 012/2/simon-proctor.raku <===
+/a/b/
+ 
+===> 012/2/stuart-little.raku <===
+/a/b
