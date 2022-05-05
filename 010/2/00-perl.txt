@@ -1,0 +1,52 @@
+ 
+===> 010/2/adam-russell.pl <===
+Jaro-Winkler distance of cats <-> rabbits: 0.364
+ 
+===> 010/2/andrezgz.pl <===
+Jaro-Winkler distance: 0.267
+ 
+===> 010/2/athanasius.pl <===
+
+Between the strings 'DwAyNE' and 'DuANE':
+    the Jaro         similarity is 0.822222
+    the Jaro-Winkler similarity is 0.840000
+    the Jaro-Winkler distance   is 0.160000
+ 
+===> 010/2/daniel-mantovani.pl <===
+Jaro-Winkler distance between crate and trace is: 0.266666666666667
+ 
+===> 010/2/duncan-c-white.pl <===
+jdiff(CRATE,TRACE)=0.266667
+jdiff(MARTHA,MARHTA)=0.072222
+jdiff(DIXON,DICKSONX)=0.280000
+jdiff(JELLYFISH,SMELLYFISH)=0.103704
+ 
+===> 010/2/guillermo-ramos.pl <===
+0.733333333333333
+ 
+===> 010/2/gustavo-chaves.pl <===
+0.266666666666667
+ 
+===> 010/2/jaldhar-h-vyas.pl <===
+0.0666666666666668
+ 
+===> 010/2/joelle-maslak.pl <===
+0.266666666666667
+ 
+===> 010/2/laurent-rosenfeld.pl <===
+Jaro-Winkler distance between FOO and BAR is: 1
+Jaro-Winkler distance between CRATE and TRACE is: 0.266666666666667
+Jaro-Winkler distance between CRATE and CRATE is: 0
+Jaro-Winkler distance between TRACE and CRATE is: 0.266666666666667
+Jaro-Winkler distance between CREATE and TRACT is: 0.3
+Jaro-Winkler distance between DWAYNE and DUANE is: 0.177777777777778
+ 
+===> 010/2/paulo-custodio.pl <===
+0.27
+ 
+===> 010/2/yozen-hernandez.pl <===
+RICK	RICK	0
+DWAYNE	DUANE	0.16
+MARTHA	MARHTA	0.0388888888888889
+DIXON	DICKSONX	0.186666666666667
+JELLYFISH	SMELLYFISH	0.103703703703704

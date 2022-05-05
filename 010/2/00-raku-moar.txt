@@ -1,0 +1,23 @@
+ 
+===> 010/2/feng-chang.raku <===
+0.7333
+ 
+===> 010/2/fjwhittle.raku <===
+0.4
+ 
+===> 010/2/jaldhar-h-vyas.raku <===
+0.066667
+ 
+===> 010/2/joelle-maslak.raku <===
+0.266667
+ 
+===> 010/2/laurent-rosenfeld.raku <===
+Jaro-Winkler distance between FOOB and BARF is: 	1.000
+Jaro-Winkler distance between CRATE and TRACE is: 	0.267
+Jaro-Winkler distance between CRATE and CRATE is: 	0.000
+Jaro-Winkler distance between TRACE and CRATE is: 	0.267
+Jaro-Winkler distance between CREATE and TRACT is: 	0.300
+Jaro-Winkler distance between DWAYNE and DUANE is: 	0.178
+ 
+===> 010/2/stuart-little.raku <===
+0.533333
