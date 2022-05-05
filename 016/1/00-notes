@@ -1,1 +1,6 @@
-'ozzy.raku' works with JVM, but mostly (not always) crashes with MoarVM, 'bus error'.
+'ozzy.raku': 
+Works with JVM, but mostly (not always) crashes with MoarVM, 'bus error'.
+p.s. for now, changed the constant from  '100' to '89', which avoids crashes.
+
+'kevin-colyer.raku':
+Numeric output format flips around, so show only final result.

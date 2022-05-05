@@ -25,7 +25,7 @@ my %hTestSet  = ( 'I' => 1, 'III' => 3, 'IV' => 4,  'IX' => 9,
 				'CM' => 900, 'CMXCIX' => 999,
 				'MMMMM' => 5000);
 			 
-foreach my $roman (keys %hTestSet){
+foreach my $roman (sort keys %hTestSet){
 	my $resultRoman= decimalToRoman( $hTestSet{$roman} );
 	my $resultDecimal= romanToDecimal($roman);
 	

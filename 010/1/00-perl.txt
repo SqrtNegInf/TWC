@@ -1,35 +1,35 @@
  
 ===> 010/1/alicia-bielsa.pl <===
-Test OK for CMXCIX - 999
-Test OK for 999 - CMXCIX
-Test OK for IV - 4
-Test OK for 4 - IV
-Test OK for LXXXIX - 89
-Test OK for 89 - LXXXIX
-Test OK for XIV - 14
-Test OK for 14 - XIV
-Test OK for CM - 900
-Test OK for 900 - CM
-Test OK for IX - 9
-Test OK for 9 - IX
-Test OK for XXXIX - 39
-Test OK for 39 - XXXIX
 Test OK for CCXLVI - 246
 Test OK for 246 - CCXLVI
+Test OK for CDXCIX - 499
+Test OK for 499 - CDXCIX
+Test OK for CM - 900
+Test OK for 900 - CM
+Test OK for CMXCIX - 999
+Test OK for 999 - CMXCIX
 Test OK for I - 1
 Test OK for 1 - I
 Test OK for III - 3
 Test OK for 3 - III
-Test OK for CDXCIX - 499
-Test OK for 499 - CDXCIX
-Test OK for XIX - 19
-Test OK for 19 - XIX
-Test OK for XCIX - 99
-Test OK for 99 - XCIX
-Test OK for XL - 40
-Test OK for 40 - XL
+Test OK for IV - 4
+Test OK for 4 - IV
+Test OK for IX - 9
+Test OK for 9 - IX
+Test OK for LXXXIX - 89
+Test OK for 89 - LXXXIX
 Test OK for MMMMM - 5000
 Test OK for 5000 - MMMMM
+Test OK for XCIX - 99
+Test OK for 99 - XCIX
+Test OK for XIV - 14
+Test OK for 14 - XIV
+Test OK for XIX - 19
+Test OK for 19 - XIX
+Test OK for XL - 40
+Test OK for 40 - XL
+Test OK for XXXIX - 39
+Test OK for 39 - XXXIX
  
 ===> 010/1/andrezgz.pl <===
 LVI

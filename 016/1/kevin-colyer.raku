@@ -13,7 +13,7 @@ multi sub MAIN($guests=100) {
             $fattestGuest=$g;
             $biggestSlice=$slice;
         }
-        say "guest {$g} gets $slice of the pie";
+        #say "guest {$g} gets $slice of the pie";
     }
     say "guest {$fattestGuest} gets the largest slice $biggestSlice";
 
