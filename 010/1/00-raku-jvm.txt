@@ -1,0 +1,89 @@
+ 
+===> 010/1/arne-sommer.raku <===
+56
+LVI
+ 
+===> 010/1/daniel-mita.raku <===
+LVI
+ 
+===> 010/1/donald-hunter.raku <===
+LVI
+56
+ 
+===> 010/1/feng-chang.raku <===
+56
+ 
+===> 010/1/fjwhittle.raku <===
+LVI → 56
+56 → LVI
+ 
+===> 010/1/jaldhar-h-vyas.raku <===
+56
+LVI
+ 
+===> 010/1/joelle-maslak.raku <===
+TEST 0: XXXIX => 39 ok
+TEST 1: XXXIX <= 39 ok
+TEST 2: CCXLVI => 246 ok
+TEST 3: CCXLVI <= 246 ok
+TEST 4: DCCLXXXIX => 789 ok
+TEST 5: DCCLXXXIX <= 789 ok
+TEST 6: MMCDXXI => 2421 ok
+TEST 7: MMCDXXI <= 2421 ok
+TEST 8: CMXCIX => 999 ok
+TEST 9: CMXCIX <= 999 ok
+TEST 10: CMXLIV => 944 ok
+TEST 11: CMXLIV <= 944 ok
+TEST 12: MDCCLXXVI => 1776 ok
+TEST 13: MDCCLXXVI <= 1776 ok
+TEST 14: MMMCMXCIX => 3999 ok
+TEST 15: MMMCMXCIX <= 3999 ok
+ 
+===> 010/1/laurent-rosenfeld.raku <===
+MM	=>	2000
+MCM	=>	1900
+LXXIII	=>	73
+XCIII	=>	93
+IC	=>	99
+XCIX	=>	99
+xv	=>	15
+From Arabic to Roman
+19	=>	XIX
+42	=>	XLII
+67	=>	LXVII
+90	=>	XC
+97	=>	XCVII
+99	=>	XCIX
+429	=>	CDXXIX
+498	=>	CDXCVIII
+687	=>	DCLXXXVII
+938	=>	CMXXXVIII
+949	=>	CMXLIX
+996	=>	CMXCVI
+2145	=>	MMCXLV
+3597	=>	MMMDXCVII
+Some round trips: from Arabic to Roman to Arabic
+19	=>	19
+42	=>	42
+67	=>	67
+90	=>	90
+97	=>	97
+99	=>	99
+429	=>	429
+498	=>	498
+687	=>	687
+938	=>	938
+949	=>	949
+996	=>	996
+2145	=>	2145
+3597	=>	3597
+Sanity check (round trip through the whole range)
+ 
+===> 010/1/martin-barth.raku <===
+46
+ 
+===> 010/1/ruben-westerberg.raku <===
+56
+LVI
+ 
+===> 010/1/simon-proctor.raku <===

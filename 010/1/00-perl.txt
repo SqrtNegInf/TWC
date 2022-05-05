@@ -1,0 +1,287 @@
+ 
+===> 010/1/alicia-bielsa.pl <===
+Test OK for CMXCIX - 999
+Test OK for 999 - CMXCIX
+Test OK for IV - 4
+Test OK for 4 - IV
+Test OK for LXXXIX - 89
+Test OK for 89 - LXXXIX
+Test OK for XIV - 14
+Test OK for 14 - XIV
+Test OK for CM - 900
+Test OK for 900 - CM
+Test OK for IX - 9
+Test OK for 9 - IX
+Test OK for XXXIX - 39
+Test OK for 39 - XXXIX
+Test OK for CCXLVI - 246
+Test OK for 246 - CCXLVI
+Test OK for I - 1
+Test OK for 1 - I
+Test OK for III - 3
+Test OK for 3 - III
+Test OK for CDXCIX - 499
+Test OK for 499 - CDXCIX
+Test OK for XIX - 19
+Test OK for 19 - XIX
+Test OK for XCIX - 99
+Test OK for 99 - XCIX
+Test OK for XL - 40
+Test OK for 40 - XL
+Test OK for MMMMM - 5000
+Test OK for 5000 - MMMMM
+ 
+===> 010/1/andrezgz.pl <===
+LVI
+56
+ 
+===> 010/1/athanasius.pl <===
+
+The Roman numeral number CCXLVI is 246 in decimal
+
+The decimal number 39 is XXXIX in Roman numerals
+ 
+===> 010/1/daniel-mantovani.pl <===
+56 converted is: LVI
+ 
+===> 010/1/duncan-c-white.pl <===
+toroman(56) = LVI
+fromroman(LVI) = 56
+ 
+===> 010/1/e-choroba.pl <===
+ok 1
+ok 2
+ok 3
+ok 4
+ok 5
+ok 6
+ok 7
+ok 8
+ok 9
+ok 10
+ok 11
+ok 12
+ok 13
+ok 14
+ok 15
+ok 16
+ok 17
+ok 18
+ok 19
+ok 20
+ok 21
+ok 22
+ok 23
+ok 24
+ok 25
+ok 26
+ok 27
+ok 28
+ok 29
+ok 30
+1..30
+ 
+===> 010/1/guillermo-ramos.pl <===
+Test successful
+ 
+===> 010/1/gustavo-chaves.pl <===
+LVI
+56
+ 
+===> 010/1/jaldhar-h-vyas.pl <===
+56
+LVI
+ 
+===> 010/1/joelle-maslak.pl <===
+TEST 0: XXXIX => 39 ok
+TEST 1: XXXIX <= 39 ok
+TEST 2: CCXLVI => 246 ok
+TEST 3: CCXLVI <= 246 ok
+TEST 4: DCCLXXXIX => 789 ok
+TEST 5: DCCLXXXIX <= 789 ok
+TEST 6: MMCDXXI => 2421 ok
+TEST 7: MMCDXXI <= 2421 ok
+TEST 8: CMXCIX => 999 ok
+TEST 9: CMXCIX <= 999 ok
+TEST 10: CMXLIV => 944 ok
+TEST 11: CMXLIV <= 944 ok
+TEST 12: MDCCLXXVI => 1776 ok
+TEST 13: MDCCLXXVI <= 1776 ok
+TEST 14: MMMCMXCIX => 3999 ok
+TEST 15: MMMCMXCIX <= 3999 ok
+ 
+===> 010/1/kian-meng-ang.pl <===
+Number to Roman Numerals
+39 = 30 + 9 = XXX + IX = XXXIX
+39 = XXXIX
+
+246 = 200 + 40 + 5 + 1 = CC + XL + V + I = CCXLVI
+246 = CCXLVI
+
+789 = 500 + 200 + 50 + 30 + 9 = D + CC + L + XXX + IX = DCCLXXXIX
+789 = DCCLXXXIX
+
+2421 = 2000 + 400 + 20 + 1 = MM + CD + XX + I = MMCDXXI
+2421 = MMCDXXI
+
+160 = 100 + 50 + 10 = C + L + X = CLX
+160 = CLX
+
+207 = 200 + 5 + 2 = CC + V + II = CCVII
+207 = CCVII
+
+1009 = 1000 + 9 = M + IX = MIX
+1009 = MIX
+
+1066 = 1000 + 50 + 10 + 5 + 1 = M + L + X + V + I = MLXVI
+1066 = MLXVI
+
+1776 = 1000 + 500 + 200 + 50 + 20 + 5 + 1 = M + D + CC + L + XX + V + I = MDCCLXXVI
+1776 = MDCCLXXVI
+
+1954 = 1000 + 900 + 50 + 4 = M + CM + L + IV = MCMLIV
+1954 = MCMLIV
+
+2014 = 2000 + 10 + 4 = MM + X + IV = MMXIV
+2014 = MMXIV
+
+2019 = 2000 + 10 + 9 = MM + X + IX = MMXIX
+2019 = MMXIX
+
+3999 = 3000 + 900 + 90 + 9 = MMM + CM + XC + IX = MMMCMXCIX
+3999 = MMMCMXCIX
+
+4000 = 
+
+
+Roman Numerals to Number
+39 = 10 + 10 + 10 + 9 = X + X + X + IX
+39 = 39
+
+246 = 100 + 100 + 40 + 5 + 1 = C + C + XL + V + I
+246 = 246
+
+789 = 500 + 100 + 100 + 50 + 10 + 10 + 10 + 9 = D + C + C + L + X + X + X + IX
+789 = 789
+
+2421 = 1000 + 1000 + 400 + 10 + 10 + 1 = M + M + CD + X + X + I
+2421 = 2421
+
+160 = 100 + 50 + 10 = C + L + X
+160 = 160
+
+207 = 100 + 100 + 5 + 1 + 1 = C + C + V + I + I
+207 = 207
+
+1009 = 1000 + 9 = M + IX
+1009 = 1009
+
+1066 = 1000 + 50 + 10 + 5 + 1 = M + L + X + V + I
+1066 = 1066
+
+1776 = 1000 + 500 + 100 + 100 + 50 + 10 + 10 + 5 + 1 = M + D + C + C + L + X + X + V + I
+1776 = 1776
+
+1954 = 1000 + 900 + 50 + 4 = M + CM + L + IV
+1954 = 1954
+
+2014 = 1000 + 1000 + 10 + 4 = M + M + X + IV
+2014 = 2014
+
+2019 = 1000 + 1000 + 10 + 9 = M + M + X + IX
+2019 = 2019
+
+3999 = 1000 + 1000 + 1000 + 900 + 90 + 9 = M + M + M + CM + XC + IX
+3999 = 3999
+
+0 =  = 
+4000 = 0
+
+ 
+===> 010/1/kivanc-yazan.pl <===
+LVI
+ 
+===> 010/1/lakpatashi.pl <===
+39 to roman: XXXIX
+xxxix to int: 39
+ 
+===> 010/1/laurent-rosenfeld.pl <===
+From Roman to Arabic
+MM	=>	2000
+MCM	=>	1900
+LXXIII	=>	73
+XCIII	=>	93
+IC	=>	99
+XCIX	=>	99
+xv	=>	15
+From Arabic to Roman
+19	=>	XIX
+42	=>	XLII
+67	=>	LXVII
+90	=>	XC
+97	=>	XCVII
+99	=>	XCIX
+429	=>	CDXXIX
+498	=>	CDXCVIII
+687	=>	DCLXXXVII
+938	=>	CMXXXVIII
+949	=>	CMXLIX
+996	=>	CMXCVI
+2145	=>	MMCXLV
+3597	=>	MMMDXCVII
+Some round trips: from Arabic to Roman to Arabic
+19	=>	19
+42	=>	42
+67	=>	67
+90	=>	90
+97	=>	97
+99	=>	99
+429	=>	429
+498	=>	498
+687	=>	687
+938	=>	938
+949	=>	949
+996	=>	996
+2145	=>	2145
+3597	=>	3597
+Sanity check (round trip through the whole range)
+ 
+===> 010/1/maxim-nechaev.pl <===
+1994
+MMXIX
+ 
+===> 010/1/paulo-custodio.pl <===
+all OK 
+===> 010/1/pavel-jurca.pl <===
+MMXIX
+CDXCV
+CCXLVI
+XCIX
+XXXIX
+2019
+495
+246
+99
+39
+ 
+===> 010/1/ruben-westerberg.pl <===
+56
+LVI
+ 
+===> 010/1/steven-wilson.pl <===
+1..10
+ok 1 - encode 246 to CCXLVI
+ok 2 - encode 39 to XXXIX
+ok 3 - decode CCXLVI to 246
+ok 4 - decode XXXIX to 39
+ok 5 - encode largest number
+ok 6 - decode largest number
+ok 7 - encode current year
+ok 8 - encode zero
+ok 9 - test negative number
+ok 10 - test greater than largest number
+ 
+===> 010/1/yozen-hernandez.pl <===
+LVI = 56
+56 = LVI
+Hey, it worked!
