@@ -1,0 +1,165 @@
+ 
+===> 009/2/arne-sommer.raku <===
+Standard Ranking: 2, 5, 1, 2, 4
+Modified Ranking: 3, 5, 1, 3, 4
+Dense    Ranking: 2, 4, 1, 2, 3
+ 
+===> 009/2/daniel-mita.raku <===
+1: bar
+2: buzz
+3: fizz
+3: foo
+5: baz
+ 
+===> 009/2/fjwhittle.raku <===
+Standard:
+1 => Denita => 10
+2 => Georgina => 9
+2 => Myriam => 9
+4 => Micha => 8
+4 => Romona => 8
+4 => Andrea => 8
+7 => Rosita => 5
+8 => Reginald => 4
+8 => Mose => 4
+8 => Shoshana => 4
+8 => Charis => 4
+8 => Lenore => 4
+13 => Kori => 3
+13 => Gale => 3
+15 => Glinda => 2
+15 => Jolyn => 2
+15 => Isidra => 2
+15 => Rachele => 2
+19 => Marcia => 1
+19 => Coleman => 1
+Modified:
+1 => Denita => 10
+3 => Georgina => 9
+3 => Myriam => 9
+6 => Micha => 8
+6 => Romona => 8
+6 => Andrea => 8
+7 => Rosita => 5
+12 => Reginald => 4
+12 => Mose => 4
+12 => Shoshana => 4
+12 => Charis => 4
+12 => Lenore => 4
+14 => Kori => 3
+14 => Gale => 3
+18 => Glinda => 2
+18 => Jolyn => 2
+18 => Isidra => 2
+18 => Rachele => 2
+20 => Marcia => 1
+20 => Coleman => 1
+Dense:
+1 => Denita => 10
+2 => Georgina => 9
+2 => Myriam => 9
+3 => Micha => 8
+3 => Romona => 8
+3 => Andrea => 8
+4 => Rosita => 5
+5 => Reginald => 4
+5 => Mose => 4
+5 => Shoshana => 4
+5 => Charis => 4
+5 => Lenore => 4
+6 => Kori => 3
+6 => Gale => 3
+7 => Glinda => 2
+7 => Jolyn => 2
+7 => Isidra => 2
+7 => Rachele => 2
+8 => Marcia => 1
+8 => Coleman => 1
+ 
+===> 009/2/jaldhar-h-vyas.raku <===
+1 -> 1
+2 -> 3
+2 -> 3
+3 -> 6
+4 -> 8
+---
+1 -> 1
+3 -> 3
+3 -> 3
+4 -> 6
+5 -> 8
+---
+1 -> 1
+2 -> 3
+2 -> 3
+4 -> 6
+5 -> 8
+ 
+===> 009/2/joelle-maslak.raku <===
+  STD   MOD DENSE SCORE DESCRIPTION
+    1     2     1    67 Quuuux
+    1     2     1    67 Quuux
+    3     3     2    66 Quux
+    4     5     3    40 Bar
+    4     5     3    40 Baz
+    6     6     4    32 Foo
+ 
+===> 009/2/kevin-colyer.raku <===
+Standard: 1 2 2 4
+Modified: 1 3 3 4
+Dense:    1 2 2 3
+ 
+===> 009/2/laurent-rosenfeld.raku <===
+      Standard
+Rank	ID	Score
+1	e	1
+2	c	3
+3	f	4
+3	h	4
+3	a	4
+6	b	5
+6	d	5
+8	g	6
+8	i	6
+
+
+      Modified
+Rank	ID	Score
+1	e	1
+2	c	3
+5	f	4
+5	h	4
+5	a	4
+7	b	5
+7	d	5
+9	g	6
+9	i	6
+
+      Dense
+Rank	ID	Score
+1	e	1
+2	c	3
+3	f	4
+3	h	4
+3	a	4
+4	b	5
+4	d	5
+5	g	6
+5	i	6
+
+ 
+===> 009/2/ruben-westerberg.raku <===
+Inputs: 10 20 20 51
+1224 Ranking: 1 2 2 4
+1334 Ranking: 1 3 3 4
+1223 Ranking: 3 3 3 3
+ 
+===> 009/2/stuart-little.raku <===
+(1 => 0 3 => 1 6 => 2 8 => 3)
+(1 => 0 3 => 2 6 => 3 8 => 4)
+(1 => 0 3 => 1 6 => 3 8 => 4)
+ 
+===> 009/2/uzluisf.raku <===
+Rankings: 1–2–3–4–5
+Rankings: 1–3–5–7–9
+Rankings: 1–2–3–4–5
