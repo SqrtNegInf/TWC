@@ -1,0 +1,32 @@
+ 
+===> 007/2/arne-sommer.raku <===
+("bat","bit","big")
+ 
+===> 007/2/finley.raku <===
+The word 'bat' can be transformed letter by letter to make 'big' transitioning through proper words along the way
+bat ⇒ bag ⇒ big
+ 
+===> 007/2/fjwhittle.raku <===
+[bat bag big]
+ 
+===> 007/2/jaldhar-h-vyas.raku <===
+bat bit big
+ 
+===> 007/2/jo-christian-oterhals.raku <===
+bat -> bit -> big
+ 
+===> 007/2/joelle-maslak.raku <===
+Ladder found!
+bat bag big
+ 
+===> 007/2/laurent-rosenfeld.raku <===
+bat->bag->big
+ 
+===> 007/2/ruben-westerberg.raku <===
+Ladder: (bat bag big)
+ 
+===> 007/2/stuart-little.raku <===
+(bat bit big)
+ 
+===> 007/2/uzluisf.raku <===
+bat → bit → big

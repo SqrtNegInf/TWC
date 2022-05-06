@@ -1,0 +1,26 @@
+ 
+===> 007/2/adam-russell.pl <===
+cold -> cord -> card -> ward -> warm
+ 
+===> 007/2/athanasius.pl <===
+
+Shortest ladder found:
+("bat", "bag", "big")
+ 
+===> 007/2/daniel-mantovani.pl <===
+bat
+bit
+big
+ 
+===> 007/2/jaldhar-h-vyas.pl <===
+slow slot slut glut gaut gast fast
+ 
+===> 007/2/joelle-maslak.pl <===
+Ladder found!
+bat bag big
+ 
+===> 007/2/paulo-custodio.pl <===
+("bat", "bag", "big")
+ 
+===> 007/2/ruben-westerberg.pl <===
+Ladder: (bat bag big)

@@ -1,0 +1,2 @@
+FWIW, some of the Raku tasks can't seem handle simple transforms like slow -> fast
+(that in addition to being slow in general)
