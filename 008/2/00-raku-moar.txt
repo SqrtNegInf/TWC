@@ -1,0 +1,60 @@
+ 
+===> 008/2/arne-sommer.raku <===
+     This
+      is
+ a test of the
+centre function
+ 
+===> 008/2/fjwhittle.raku <===
+     This
+      is
+ a test of the
+centre function
+ 
+===> 008/2/jaldhar-h-vyas.raku <===
+     This
+       is
+  a test of the
+ centre function
+ 
+===> 008/2/james-smith.raku <===
+     This
+      is
+ a test of the
+center function
+ 
+===> 008/2/joelle-maslak.raku <===
+     This
+      is
+ a test of the
+centre function
+ 
+===> 008/2/laurent-rosenfeld.raku <===
+     This
+      is
+ a test of the
+center function
+ 
+===> 008/2/ruben-westerberg.raku <===
+     This
+      is
+ a test of the
+centre function
+ 
+===> 008/2/simon-proctor.raku <===
+     This
+      is
+ a test of the
+centre function
+ 
+===> 008/2/stuart-little.raku <===
+     This
+      is
+ a test of the
+centre function
+ 
+===> 008/2/uzluisf.raku <===
+     This
+      is
+ a test of the
+centre function

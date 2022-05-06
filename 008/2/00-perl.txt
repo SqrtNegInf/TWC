@@ -1,0 +1,196 @@
+ 
+===> 008/2/adam-russell.pl <===
+     This
+      is
+ a test of the
+center function
+ 
+===> 008/2/alicia-bielsa.pl <===
+          **
+         ****
+        ******
+       ********
+      **********
+     ************
+    **************
+   ****************
+  ******************
+ ********************
+**********************
+ ********************
+  ******************
+   ****************
+    **************
+     ************
+      **********
+       ********
+        ******
+         ****
+          **
+ 
+===> 008/2/andrezgz.pl <===
+     This
+      is
+ a test of the
+center function 
+===> 008/2/athanasius.pl <===
+
+       This
+        is
+   a test of the
+  center function
+ 
+===> 008/2/dave-jacoby.pl <===
+Write a function, 'center', whose argument is a list of strings, which will be
+lines of text. The function should insert spaces at the beginning of the lines of
+text so that if they were printed, the text would be centered, and return the
+modified lines.
+
+ Write a function, 'center', whose argument is a list of strings, which will be
+lines of text. The function should insert spaces at the beginning of the lines of
+  text so that if they were printed, the text would be centered, and return the
+                                 modified lines.
+                                        
+ 
+===> 008/2/duncan-c-white.pl <===
+                           #!/usr/bin/env perl
+                                    
+  # Challenge 2: "Write a function, center, whose argument is a list of
+# strings, which will be lines of text. The function should insert spaces
+  # at the beginning of the lines of text so that if they were printed,
+      # the text would be centered, and return the modified lines."
+                                    
+                               use strict;
+                              use warnings;
+                        use Function::Parameters;
+                            use File::Slurp;
+                            use Data::Dumper;
+                                    
+             die "Usage: ch-2.pl [DATAFILE]\n" if @ARGV > 1;
+                     my $datafilename = shift // $0;
+                                    
+                                    
+                                    #
+                   # my $maxlen = maxlength( @data );
+        #       Find and return the maximum length of any string
+                        #       element of @data.
+                                    #
+                         fun maxlength( @data )
+                                    {
+                                 my $maxlen = 0;
+                              foreach my $s (@data)
+                                        {
+                                   my $l = length($s);
+                               $maxlen = $l if $l>$maxlen;
+                                        }
+                                 return $maxlen;
+                                    }
+                                    
+                                    
+                                    #
+                    # my @centred = center( @data );
+             #       Center every element of @data, building
+             #       and returning a new @centred array, in
+           #       which every element is the original element
+       #       of @data, padded with leading spaces to centere it.
+                                    #
+                           fun center( @data )
+                                    {
+                                   my @result;
+                        my $maxlen = maxlength( @data );
+                              foreach my $s (@data)
+                                        {
+                                   my $l = length($s);
+                               my $pad = ($maxlen - $l)/2;
+                              my $centred = (' 'x$pad).$s;
+                                 push @result, $centred;
+                                        }
+                                 return @result;
+                                    }
+                                    
+                                    
+                 my @data = read_file( $datafilename );
+                     my @centered = center( @data );
+                        map { print } @centered;
+ 
+===> 008/2/james-smith.pl <===
+     This
+      is
+ a test of the
+center function
+ 
+===> 008/2/joelle-maslak.pl <===
+                      #!/usr/bin/env perl
+                           use v5.26;
+                          use strict;
+                         use warnings;
+                                
+                  # Turn on method signatures
+                   use feature 'signatures';
+            no warnings 'experimental::signatures';
+                                
+                          use autodie;
+                    use List::Util qw(max);
+                                
+                   my $file = $ARGV[0] // $0;
+                                
+                               #
+               # Copyright (C) 2019 Joelle Maslak
+              # All Rights Reserved - See License
+                               #
+                                
+                    open my $fh, '<', $file;
+                           my @lines;
+                   while (my $line = <$fh>) {
+                            chomp $line;
+                        push @lines, $line;
+                               }
+                           close $fh;
+                                
+                say join("\n", center(@lines));
+                                
+                      sub center(@lines) {
+            my $maxlen = max map { length($_) } @lines;
+    return map { " " x (($maxlen - length($_))/2) . $_ } @lines;
+                               }
+                                
+ 
+===> 008/2/kian-meng-ang.pl <===
+     This      
+      is       
+ a test of the 
+center function
+ 
+===> 008/2/lakpatashi.pl <===
+
+
+      This
+       is
+ a test of the
+center function
+ 
+===> 008/2/laurent-rosenfeld.pl <===
+     This
+      is
+ a test of the
+center function
+ 
+===> 008/2/max-kossek.pl <===
+     This     
+      is      
+ a test of the 
+center function 
+===> 008/2/maxim-nechaev.pl <===
+      This
+       is
+ a test of the
+center function
+ 
+===> 008/2/neil-bowers.pl <===
+     This      is a test of thecenter function
+ 
+===> 008/2/yozen-hernandez.pl <===
+      This
+       is
+ a test of the
+center function
