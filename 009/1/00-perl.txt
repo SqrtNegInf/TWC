@@ -1,0 +1,65 @@
+ 
+===> 009/1/adam-russell.pl <===
+First square with five distinct digits: 12769 (= 113 * 113)
+ 
+===> 009/1/andrezgz.pl <===
+12769 
+===> 009/1/athanasius.pl <===
+
+The first square number that has at least 5 distinct digits is:
+113² = 12769
+ 
+===> 009/1/daniel-mantovani.pl <===
+First square with 5 distinct digits is: 12769
+ 
+===> 009/1/dave-jacoby.pl <===
+12769
+ 
+===> 009/1/e-choroba.pl <===
+12769
+ 
+===> 009/1/feng-chang.pl <===
+12769 = 113 * 113
+ 
+===> 009/1/guillermo-ramos.pl <===
+113 (113**2 = 12769)
+ 
+===> 009/1/gustavo-chaves.pl <===
+114^2 == 12769
+ 
+===> 009/1/jaldhar-h-vyas.pl <===
+12769 (113 * 113)
+ 
+===> 009/1/joelle-maslak.pl <===
+12769
+ 
+===> 009/1/kian-meng-ang.pl <===
+12769
+ 
+===> 009/1/lakpatashi.pl <===
+113**2 ==> 12769
+ 
+===> 009/1/laurent-rosenfeld.pl <===
+113 -> 12769
+ 
+===> 009/1/maxim-nechaev.pl <===
+12769
+ 
+===> 009/1/paulo-custodio.pl <===
+12769
+ 
+===> 009/1/ruben-westerberg.pl <===
+12769
+ 
+===> 009/1/steven-wilson.pl <===
+The square of 113 (12769) is the first square that has at least 5 distinct digits.
+ 
+===> 009/1/veesh-goldman.pl <===
+113
+ 
+===> 009/1/yet-ebreo.pl <===
+First square number that has at least 5 distinct: 12769
+Run Time: 0 sec
+ 
+===> 009/1/yozen-hernandez.pl <===
+12769

@@ -1,0 +1,36 @@
+ 
+===> 009/1/arne-sommer.raku <===
+113 -> 12769
+ 
+===> 009/1/daniel-mita.raku <===
+12769
+ 
+===> 009/1/feng-chang.raku <===
+12769 = 113 * 113
+ 
+===> 009/1/fjwhittle.raku <===
+12769
+ 
+===> 009/1/jaldhar-h-vyas.raku <===
+12769 (113 * 113)
+ 
+===> 009/1/joelle-maslak.raku <===
+12769
+ 
+===> 009/1/kevin-colyer.raku <===
+113 -> 12769
+ 
+===> 009/1/laurent-rosenfeld.raku <===
+12769
+ 
+===> 009/1/ruben-westerberg.raku <===
+12769
+ 
+===> 009/1/simon-proctor.raku <===
+12769
+ 
+===> 009/1/stuart-little.raku <===
+12769
+ 
+===> 009/1/uzluisf.raku <===
+12769 13456 13689 13924 15376
