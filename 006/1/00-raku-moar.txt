@@ -1,0 +1,30 @@
+ 
+===> 006/1/arne-sommer.raku <===
+1-4,9,10,14-16
+ 
+===> 006/1/jaldhar-h-vyas.raku <===
+1-4,9 10,14-16
+ 
+===> 006/1/joelle-maslak.raku <===
+1-4,9-10,14-16
+ 
+===> 006/1/laurent-rosenfeld.raku <===
+1-4,9,10,14-16,3-6,4-7,9,9
+ 
+===> 006/1/ozzy.raku <===
+Compact range representation: 1-4, 9-10, 14-16.
+ 
+===> 006/1/ruben-westerberg.raku <===
+1-4,9-10,14-16
+ 
+===> 006/1/ryan-thompson.raku <===
+[1 1 1 5 1 4 1 1 -15]
+ 
+===> 006/1/simon-proctor.raku <===
+1-4,9,10,14-16
+ 
+===> 006/1/stuart-little.raku <===
+1-4,9,10,14-16
+ 
+===> 006/1/tim-smith.raku <===
+1-4,9-10,14-16
