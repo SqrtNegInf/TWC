@@ -1,0 +1,58 @@
+ 
+===> 005/2/arne-sommer.raku <===
+agnor: 11
+ 
+===> 005/2/doug-schrag.raku <===
+agnor
+  agnor
+  angor
+  argon
+  goran
+  grano
+  groan
+  nagor
+  orang
+  organ
+  rogan
+  ronga
+ 
+===> 005/2/fjwhittle.raku <===
+a,g,n,o,r => SetHash(agnor angor argon goran grano groan nagor orang organ rogan ronga)
+ 
+===> 005/2/jaldhar-h-vyas.raku <===
+agnor angor argon goran grano groan nagor orang organ rogan ronga
+ 
+===> 005/2/jo-christian-oterhals.raku <===
+agnor (11): 
+ 
+===> 005/2/joelle-maslak.raku <===
+Best sequence (11 anagrams): rogan
+ 
+===> 005/2/laurent-rosenfeld.raku <===
+agnor:	 agnor angor argon goran grano groan nagor orang organ rogan ronga
+ 
+===> 005/2/mark-senn.raku <===
+Challenge 1
+print all anagrams for a word
+original word: animal
+anagrams:      lamina manila
+
+Challenge 2
+sequence of letters with most anagrams
+letters:  agnor
+anagrams: agnor angor argon goran grano groan nagor orang organ rogan ronga
+ 
+===> 005/2/rob4t.raku <===
+11: agnor
+ 
+===> 005/2/ruben-westerberg.raku <===
+agnor has 11 anagrams
+ 
+===> 005/2/ryan-thompson.raku <===
+[orang ronga agnor angor argon goran grano groan nagor orang organ rogan ronga]
+ 
+===> 005/2/simon-proctor.raku <===
+agnor
+ 
+===> 005/2/stuart-little.raku <===
+[Orang Ronga agnor angor argon goran grano groan nagor orang organ rogan ronga]

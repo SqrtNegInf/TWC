@@ -1,0 +1,55 @@
+ 
+===> 005/2/adam-russell.pl <===
+a o n r g
+ 
+===> 005/2/andrezgz.pl <===
+Sequence of characters with the most anagrams (13)
+a,g,n,o,r => agnor,angor,argon,goran,grano,groan,nagor,Orang,orang,organ,rogan,Ronga,ronga
+ 
+===> 005/2/daniel-mantovani.pl <===
+Secuence(s) of characters with most anagrams (13):
+agnor
+ 
+===> 005/2/duncan-c-white.pl <===
+signature with most anagrams (13): agnor
+ 
+===> 005/2/jaldhar-h-vyas.pl <===
+agnor angor argon goran grano groan nagor orang organ rogan ronga
+ 
+===> 005/2/joelle-maslak.pl <===
+Best sequence (11 anagrams): rogan
+ 
+===> 005/2/john-barrett.pl <===
+(A) longest anagram set from 'agnor':
+Orang
+Ronga
+agnor
+angor
+argon
+goran
+grano
+groan
+nagor
+orang
+organ
+rogan
+ronga
+ 
+===> 005/2/kian-meng-ang.pl <===
+Total anagrams: 11
+Anagrams: agnor, angor, argon, goran, grano, groan, nagor, orang, organ, rogan, ronga
+
+ 
+===> 005/2/lakpatashi.pl <===
+word with max anagrams:
+120 aedccc
+ 
+===> 005/2/laurent-rosenfeld.pl <===
+agnor:	 agnor angor argon goran grano groan nagor orang organ rogan ronga
+ 
+===> 005/2/paulo-custodio.pl <===
+Maximum of 13 anagrams
+agnor
+ 
+===> 005/2/ruben-westerberg.pl <===
+agnor has 11 anagrams

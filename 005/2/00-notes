@@ -1,0 +1,4 @@
+Full word-list just too fricken slow...
+
+Take results from full list and extract nub:
+cat 00-raku-* | pf 's/\s+/\n/g' | pf 's/[\)\(\]\[,:]+/\n/g' | pg -i '[A-Z]'  | g -v '/'  | sort -u | sortl > words
