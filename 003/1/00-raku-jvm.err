@@ -1,0 +1,6 @@
+Cannot resolve caller grow(Seq:D, Int:D); none of these signatures matches:
+    (Int, Int)
+    (List $a, Int $b --> List(Any))
+  in sub MAIN at doug-schrag.raku line 5
+  in block <unit> at doug-schrag.raku line 17
+
