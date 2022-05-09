@@ -1,0 +1,99 @@
+ 
+===> 004/2/abigail.pl <===
+acert
+caret
+carte
+cater
+crate
+creat
+creta
+react
+recta
+trace
+ 
+===> 004/2/adam-russell.pl <===
+cat
+rabbit
+horse
+sheep
+cow
+ 
+===> 004/2/alicia-bielsa.pl <===
+acert
+caret
+carte
+cater
+crate
+creat
+creta
+react
+recta
+trace
+ 
+===> 004/2/athanasius.pl <===
+
+Words found:
+
+ acert caret carte cater crate creat creta react recta trace 
+===> 004/2/gustavo-chaves.pl <===
+acert
+caret
+carte
+cater
+crate
+creat
+creta
+react
+recta
+trace
+ 
+===> 004/2/jaldhar-h-vyas.pl <===
+acert
+caret
+carte
+cater
+crate
+creat
+creta
+react
+recta
+trace
+ 
+===> 004/2/joelle-maslak.pl <===
+acert
+caret
+carte
+cater
+crate
+creat
+creta
+react
+recta
+trace
+ 
+===> 004/2/neil-bowers.pl <===
+acert
+caret
+carte
+cater
+crate
+creat
+creta
+react
+recta
+trace
+ 
+===> 004/2/nick-logan.pl <===
+acert
+ 
+===> 004/2/yet-ebreo.pl <===
+acert
+caret
+carte
+cater
+crate
+creat
+creta
+react
+recta
+trace

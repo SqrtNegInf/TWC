@@ -1,0 +1,147 @@
+ 
+===> 004/2/arne-sommer.raku <===
+acert
+caret
+carte
+cater
+crate
+creat
+creta
+react
+recta
+trace
+ 
+===> 004/2/doug-schrag.raku <===
+[c r a t e]
+acert
+caret
+carte
+cater
+crate
+creat
+creta
+react
+recta
+trace
+ 
+===> 004/2/fjwhittle.raku <===
+acert, caret, carte, cater, crate, creat, creta, react, recta, trace
+ 
+===> 004/2/jaldhar-h-vyas.raku <===
+acert
+caret
+carte
+cater
+crate
+creat
+creta
+react
+recta
+trace
+ 
+===> 004/2/jo-christian-oterhals.raku <===
+5 letters matches
+	acert
+0 letters remains.
+ 
+===> 004/2/joelle-maslak.raku <===
+acert
+caret
+carte
+cater
+crate
+creat
+creta
+react
+recta
+trace
+ 
+===> 004/2/mark-senn.raku <===
+acert
+caret
+carte
+cater
+crate
+creat
+creta
+react
+recta
+trace
+ 
+===> 004/2/nick-logan.raku <===
+acert
+ 
+===> 004/2/rob4t.raku <===
+acert
+caret
+carte
+cater
+crate
+creat
+creta
+react
+recta
+trace
+ 
+===> 004/2/ruben-westerberg.raku <===
+(acert caret carte cater crate creat creta react recta trace)
+ 
+===> 004/2/ryan-thompson.raku <===
+acert
+caret
+carte
+cater
+crate
+creat
+creta
+react
+recta
+trace
+ 
+===> 004/2/simon-proctor.raku <===
+acert
+caret
+carte
+cater
+crate
+creat
+creta
+react
+recta
+trace
+ 
+===> 004/2/stuart-little.raku <===
+acert
+caret
+carte
+cater
+crate
+creat
+creta
+react
+recta
+trace
+ 
+===> 004/2/tim-smith.raku <===
+acert
+caret
+carte
+cater
+crate
+creat
+creta
+react
+recta
+trace
+ 
+===> 004/2/yary-h.raku <===
+acert
+caret
+carte
+cater
+crate
+creat
+creta
+react
+recta
+trace
