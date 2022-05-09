@@ -1,0 +1,58 @@
+ 
+===> 005/1/adam-russell.pl <===
+animal: lamina almain manila
+ 
+===> 005/1/andrezgz.pl <===
+Almain
+Manila
+almain
+lamina
+manila
+ 
+===> 005/1/duncan-c-white.pl <===
+Almain
+Manila
+almain
+animal
+lamina
+manila
+ 
+===> 005/1/jaldhar-h-vyas.pl <===
+almain lamina manila
+ 
+===> 005/1/joelle-maslak.pl <===
+almain
+manila
+animal
+lamina
+ 
+===> 005/1/john-barrett.pl <===
+Almain
+Manila
+almain
+animal
+lamina
+manila
+ 
+===> 005/1/kian-meng-ang.pl <===
+Word: animal
+Anagrams: almain, lamina, manila
+ 
+===> 005/1/laurent-rosenfeld.pl <===
+ban bane:	False
+post post:	True
+post spot:	True
+post spot:	True
+pots spot:	True
+pots taps:	False
+ 
+===> 005/1/paulo-custodio.pl <===
+almain
+manila
+almain
+animal
+lamina
+manila
+ 
+===> 005/1/ruben-westerberg.pl <===
+Anagrams: almain animal lamina manila 

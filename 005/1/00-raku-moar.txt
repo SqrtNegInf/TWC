@@ -1,0 +1,68 @@
+ 
+===> 005/1/arne-sommer.raku <===
+Anagrams: animal almain manila lamina
+ 
+===> 005/1/doug-schrag.raku <===
+animal
+almain
+manila
+lamina
+ 
+===> 005/1/fjwhittle.raku <===
+Almain, Manila, animal, lamina
+ 
+===> 005/1/jaldhar-h-vyas.raku <===
+almain lamina manila
+ 
+===> 005/1/jo-christian-oterhals.raku <===
+animal	almain
+animal	manila
+animal	lamina
+
+ 
+===> 005/1/joelle-maslak.raku <===
+almain
+manila
+animal
+lamina
+ 
+===> 005/1/laurent-rosenfeld.raku <===
+ban bane:	False
+post stop:	True
+pots stop:	True
+post pots:	True
+pots taps:	False
+ 
+===> 005/1/mark-senn.raku <===
+Challenge 1
+print all anagrams for a word
+original word: animal
+anagrams:      almain lamina manila
+
+Challenge 2
+sequence of letters with most anagrams
+letters:  agnor
+anagrams: agnor angor argon goran grano groan nagor orang organ rogan
+ 
+===> 005/1/rob4t.raku <===
+Almain
+Manila
+almain
+lamina
+manila
+ 
+===> 005/1/ruben-westerberg.raku <===
+Anagrams: almain animal lamina manila
+ 
+===> 005/1/ryan-thompson.raku <===
+[almain manila almain animal lamina manila]
+ 
+===> 005/1/simon-proctor.raku <===
+Almain
+Manila
+almain
+lamina
+manila
+ 
+===> 005/1/stuart-little.raku <===
+(Almain Manila almain animal lamina manila)
