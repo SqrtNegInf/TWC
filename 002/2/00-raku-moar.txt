@@ -1,0 +1,78 @@
+ 
+===> 002/2/alex-daniel.raku <===
+836407881643061
+ALEXDANIEL
+ 
+===> 002/2/arne-sommer.raku <===
+462644
+ 
+===> 002/2/doug-schrag.raku <===
+SRSC
+ 
+===> 002/2/jaldhar-h-vyas.raku <===
+1170605
+ 
+===> 002/2/james-smith.raku <===
+3I
+123
+3I
+ 
+===> 002/2/joelle-maslak.raku <===
+3I
+ 
+===> 002/2/lars-balker.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ok 4 - 
+ok 5 - 
+ok 6 - 
+ok 7 - 
+ok 8 - 
+ok 9 - 
+ok 10 - 
+1..10
+ 
+===> 002/2/laurent-rosenfeld.raku <===
+15
+16
+17
+18
+19
+1A
+1F7
+F8
+FCIC
+ 
+===> 002/2/mark-senn.raku <===
+input  was -37
+base35 is  -12
+output is  -37
+ 
+===> 002/2/nick-logan.raku <===
+1170605
+ 
+===> 002/2/ohmycloud.raku <===
+30262
+OOM
+ 
+===> 002/2/ozzy.raku <===
+123 in decimal notation is 3I in base-35 notation.
+ 
+===> 002/2/ruben-westerberg.raku <===
+Base 35: 3I
+Base 10: 123
+ 
+===> 002/2/ryan-thompson.raku <===
+0
+Y
+10
+1Y
+20
+RAKU
+0
+34
+35
+69
+70
+1170605
