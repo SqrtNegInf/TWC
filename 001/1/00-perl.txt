@@ -1,0 +1,18 @@
+ 
+===> 001/1/abigail.pl <===
+PErl WEEkly ChallEngE
+5
+ 
+===> 001/1/adam-russell.pl <===
+5 PErl WEEkly ChallEngE
+ 
+===> 001/1/andrezgz.pl <===
+PErl WEEkly ChallEngE had 5 e's that were replaced by E's 
+===> 001/1/arne-sommer.pl <===
+PErl WEEkly ChallEngE (with 5 replacements).
+ 
+===> 001/1/jo-christian-oterhals.pl <===
+PErl WEEkly ChallEngE, E=5
+ 
+===> 001/1/nick-logan.pl <===
+PErl WEEkly ChallEngE

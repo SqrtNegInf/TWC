@@ -1,0 +1,68 @@
+ 
+===> 001/1/alex-daniel.raku <===
+5
+PErl WEEkly ChallEngE
+ 
+===> 001/1/antonio-gamiz.raku <===
+There are 5 'e' in PErl WEEkly ChallEngE
+ 
+===> 001/1/arne-sommer.raku <===
+PErl WEEkly ChallEngE (with PErl WEEkly ChallEngE replacements).
+ 
+===> 001/1/doug-schrag.raku <===
+PErl WEEkly ChallEngE
+5
+ 
+===> 001/1/finley.raku <===
+"The Weekly Perl Challenge" string becomes "ThE WEEkly PErl ChallEngE",
+	with 6 e's having been uppercased
+ 
+===> 001/1/jo-christian-oterhals.raku <===
+PErl WEEkly ChallEngE, E=5
+ 
+===> 001/1/joelle-maslak.raku <===
+PErl WEEkly ChallEngE
+Number off 'e' characters: 5
+ 
+===> 001/1/lars-balker.raku <===
+PErl WEEkly ChallEngE
+5
+ 
+===> 001/1/mark-senn.raku <===
+PErl WEEkly ChallEngE
+5
+ 
+===> 001/1/martin-mugeni.raku <===
+PErl WEEkly ChallEngE and count of e is 5
+ 
+===> 001/1/nick-logan.raku <===
+PErl WEEkly ChallEngE 
+===> 001/1/ozzy.raku <===
+PErl WEEkly ChallEngE
+5
+ 
+===> 001/1/ruben-westerberg.raku <===
+Original string: Perl Weekly Challenge
+Total replacements performed: 5
+Modified string: PErl WEEkly ChallEngE
+ 
+===> 001/1/ryan-thompson.raku <===
+PErl WEEkly ChallEngE -> e x 5
+ 
+===> 001/1/sean-meininger.raku <===
+5 is the number of 'e' characters
+PErl WEEkly ChallEngE
+ 
+===> 001/1/simon-proctor.raku <===
+Updated PErl WEEkly ChallEngE
+Number of matches : 5
+ 
+===> 001/1/steve-rogerson.raku <===
+PErl WEEkly ChallEngE: 5
+ 
+===> 001/1/stuart-little.raku <===
+(PErl WEEkly ChallEngE 5)
+ 
+===> 001/1/yet-ebreo.raku <===
+Resulting string: PErl WEEkly ChallEngE
+Replaced e: 5 times
