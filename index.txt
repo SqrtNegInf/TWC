@@ -1,17 +1,17 @@
 Challenge titles and Rosetta-code correspondences (exact, and otherwise)
 
-001-1
-001-2
-002-1
-002-2
-003-1
-003-2
-004-1
-004-2
-005-1
-005-2
-006-1
-006-2
+001-1 Change Character                      C/Change_e_letters_to_i_in_words
+001-2 Fizz-Buzz                             F/FizzBuzz G/General_FizzBuzz
+002-1 Remove leading zeros                  F/Formatted_numeric_output
+002-2 Base 35                               R/Rhonda_numbers
+003-1 5-smooth numbers                      N/N-smooth_numbers
+003-2 Pascal Triangle                       P/Pascal%27s_triangle
+004-1 Pi Matching Script Size
+004-2 Anangrams (in all but name)           A/Anagrams
+005-1 Anagrams of word                      A/Anagrams
+005-2 Most Anagrams                         A/Anagrams_Deranged_anagrams
+006-1 Ranges                                R/Range_extraction
+006-2 Ramanujan’s constant                  R/Ramanujan%27s_constant-1
 007-1 Niven Numbers                         H/Harshad_or_Niven_series
 007-2 Word Ladder                           W/Word_ladder
 008-1 Perfect numbers                       P/Perfect_numbers-1
@@ -342,8 +342,8 @@ Challenge titles and Rosetta-code correspondences (exact, and otherwise)
 162-2 Wheatstone-Playfair cipher            P/Playfair_cipher
 163-1 Sum Bitwise Operator                  B/Bitwise_operations
 163-2 Summations
-164-1
-164-2
+164-1 Palindromic Primes                    P/Palindromic_primes
+164-2 Happy Numbers                         H/Happy_numbers-1
 165-1
 165-2
 166-1
