@@ -1,0 +1,74 @@
+ 
+===> 002/1/alex-daniel.raku <===
+-01
+1
+၄၂
+ 
+===> 002/1/arne-sommer.raku <===
+7
+ 
+===> 002/1/doug-schrag.raku <===
+1
+ 
+===> 002/1/lars-balker.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ok 4 - 
+1..4
+ 
+===> 002/1/laurent-rosenfeld.raku <===
+456
+7865
+8976
+123456
+ 
+===> 002/1/mark-senn.raku <===
+INPUT     OUTPUT
+------    ------
+0         0
++0        +0
++4        +4
++4.4      +4.4
++04.4     +4.4
++--4      +--4
++--4.4    +--4.4
+10        10
+ 
+===> 002/1/nick-logan.raku <===
+-01
+1
+ 
+===> 002/1/ohmycloud.raku <===
+40
+3.5
+.002
+.02
+.3
+.03
+ 
+===> 002/1/ozzy.raku <===
+1
+ 
+===> 002/1/ruben-westerberg.raku <===
+-01 01
+ 
+===> 002/1/sean-meininger.raku <===
+1
+2
+0
+8
+234
+55
+3
+1780
+ 
+===> 002/1/stuart-little.raku <===
+1
+2
+
+8
+234
+55
+3
+1780

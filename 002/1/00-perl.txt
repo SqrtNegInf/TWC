@@ -1,0 +1,49 @@
+ 
+===> 002/1/abigail.pl <===
+-1
+1
+7
+ 
+===> 002/1/adam-russell.pl <===
+123
+ 
+===> 002/1/andrezgz.pl <===
+0.0
+0a
+1
+-01
+0.1
+ 
+===> 002/1/athanasius.pl <===
+12345
++678
+90.123
++456.789
+0.123
+0.123
+0
+0
+.123
+-01 is not a positive number
+ 
+===> 002/1/fred-zinn.pl <===
+(123)
+(-00123)
+(123)
+ 
+===> 002/1/lars-balker.pl <===
+ok 1
+ok 2
+ok 3
+ok 4
+ok 5
+ok 6
+ok 7
+ok 8
+1..8
+ 
+===> 002/1/ruben-westerberg.pl <===
+10, 2, 343 
+===> 002/1/simon-reinhardt.pl <===
+-0123 abcd 001234 00 01 0023 -0123
+-0123 abcd 1234 00 1 23 -0123
