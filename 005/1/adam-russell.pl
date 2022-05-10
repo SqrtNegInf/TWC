@@ -55,7 +55,7 @@ while(<WORDS>){
 }  
 close(WORDS);
 delete($word_product{$test_word}); 
-my @anagrams = grep {$word_product{$_} == $test_word_product} keys(%word_product);   
+my @anagrams = grep {$word_product{$_} == $test_word_product} sort keys(%word_product);   
 if(@anagrams){
     print "$test_word: " . join(" ", @anagrams) . "\n"; 
 }   
