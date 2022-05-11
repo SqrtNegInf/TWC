@@ -8,33 +8,33 @@ Minimum element of stack: 1
 ===> 095/2/ash.raku <===
 push(3)
 	top = 3, min = 3
-push(1)
-	top = 1, min = 1
-push(8)
-	top = 8, min = 1
 push(0)
 	top = 0, min = 0
-push(2)
-	top = 2, min = 0
-push(7)
-	top = 7, min = 0
-push(1)
-	top = 1, min = 0
+push(5)
+	top = 5, min = 0
+push(8)
+	top = 8, min = 0
 push(6)
 	top = 6, min = 0
-push(3)
-	top = 3, min = 0
-push(4)
-	top = 4, min = 0
-pop() = 4
-pop() = 3
-pop() = 6
-pop() = 1
-pop() = 7
-pop() = 2
-pop() = 0
+push(0)
+	top = 0, min = 0
+push(8)
+	top = 8, min = 0
+push(8)
+	top = 8, min = 0
+push(1)
+	top = 1, min = 0
+push(8)
+	top = 8, min = 0
 pop() = 8
 pop() = 1
+pop() = 8
+pop() = 8
+pop() = 0
+pop() = 6
+pop() = 8
+pop() = 5
+pop() = 0
 pop() = 3
  
 ===> 095/2/athanasius.raku <===

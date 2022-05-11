@@ -56,16 +56,17 @@ sub find-lonely-x($matrix) {
 sub get-matrix(Int $rows where { $rows >= 1 },
                Int $cols where { $cols >= 1 }) {
 
-    my $min   = 0;
-    my $max   = 9;
-    my $array = [ 'X', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O' ];
+    my $matrix = ([ 'O', 'O', 'O' ], [ 'O', 'O', 'X' ], [ 'X', 'O', 'X' ]);
 
-    my $matrix  = [];
-    for 0..$rows -> $r {
-        for 0..$cols -> $c {
-            $matrix.[$r][$c] = $array.pick;
-        }
-    }
+    #my $min   = 0;
+    #my $max   = 9;
+    #my $array = [ 'X', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O' ];
+    #my $matrix  = [];
+    #for 0..$rows -> $r {
+    #    for 0..$cols -> $c {
+    #        $matrix.[$r][$c] = $array.pick;
+    #    }
+    #}
 
     display-matrix('Matrix:', $matrix);
     return $matrix;

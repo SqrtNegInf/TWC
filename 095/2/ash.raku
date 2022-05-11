@@ -21,8 +21,9 @@ class Stack {
 my $s = Stack.new;
 # $s.stack; # is unreachable
 
+my @rand_values = <3 0 5 8 6 0 8 8 1 8>;
 for ^10 {
-    my $n = 10.rand.Int;
+    my $n = @rand_values[$_];
     say "push($n)";
     $s.push($n);
 

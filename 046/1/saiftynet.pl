@@ -37,12 +37,12 @@ print "Second set results  :-",collector($messages2),"\n";
 # This solution extends the Task by creating a simulated broken messager
 # and tests the decrypter by repeated sampling until stable.
 
-print "\nTesting decoding of broken messages.  A message is sent repeatedly,
-responses collected and attempt is made to decode based on available
-results.  This continues until the results are stable.  This does not
-always work of course. Randomness is such...\n\n";
-
-tryUntilStable("Hi there matey!");   
+#print "\nTesting decoding of broken messages.  A message is sent repeatedly,
+#responses collected and attempt is made to decode based on available
+#results.  This continues until the results are stable.  This does not
+#always work of course. Randomness is such...\n\n";
+#
+#tryUntilStable("Hi there matey!");   
 
 
 # The routine that works on a collection of mangled messages and returns
