@@ -30,7 +30,8 @@ my %test_numbers = (
     100000 => '2bm5',
 );
 
-while (my ($from, $to) = each (%test_numbers)) {
+for my $from (sort keys %test_numbers) {
+    my $to = $test_numbers{$from};
     is(to_base35($from, 35), $to, qq|expect base 10: $from to base 35: $to match|);
 }
 done_testing;

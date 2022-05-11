@@ -31,12 +31,12 @@
 2u1	3501
  
 ===> 002/2/kian-meng-ang.pl <===
-ok 1 - expect base 10: 1000 to base 35: sk match
-ok 2 - expect base 10: 100 to base 35: 2u match
-ok 3 - expect base 10: 0 to base 35: 0 match
-ok 4 - expect base 10: 100000 to base 35: 2bm5 match
+ok 1 - expect base 10: 0 to base 35: 0 match
+ok 2 - expect base 10: 10 to base 35: a match
+ok 3 - expect base 10: 100 to base 35: 2u match
+ok 4 - expect base 10: 1000 to base 35: sk match
 ok 5 - expect base 10: 10000 to base 35: 85p match
-ok 6 - expect base 10: 10 to base 35: a match
+ok 6 - expect base 10: 100000 to base 35: 2bm5 match
 1..6
  
 ===> 002/2/lars-balker.pl <===
