@@ -8,8 +8,8 @@
 (0 6 9)
  
 ===> 034/1/jaldhar-h-vyas.raku <===
-is n in tkehvazrspgfx?
-No.
+is r in hatodlrfkpcjb?
+Yes.
  
 ===> 034/1/javier-luque.raku <===
 Array slice: 0 1 2 3 4 5
@@ -70,10 +70,6 @@ Slicing the hash to a slice: {:one(1), :three(3)}
  
 ===> 034/1/ulrich-rieke.raku <===
 The bigger towers:
+elite tower has a height of 250 meters.
 my favourite tower has a height of 102 meters.
 record tower has a height of 500 meters.
-elite tower has a height of 250 meters.
-randomly selected DNA bases:
-[(T) (C) (A) (C) (G) (A) (G) (G) (G) (G) (C) (C) (C) (T) (A) (G) (T) (A) (C) (A) (T) (G) (A) (T) (T) (A) (C) (T) (T) (A) (T) (A) (A) (A) (A) (T) (G) (A) (C) (A) (C) (A) (G) (A) (T) (T) (A) (T) (G) (A) (C) (C) (C) (C) (T) (G) (T) (G) (T) (C) (C) (C) (T)]
-...and the corresponding triplet starts:
-[(T) (C) (G) (G) (C) (G) (C) (G) (T) (T) (T) (A) (G) (A) (G) (T) (G) (C) (T) (G) (C)]

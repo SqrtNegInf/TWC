@@ -21,7 +21,7 @@ sub binarySearch(@haystack,  $needle) {
 
 sub MAIN() {
     my @letters = ('a' .. 'z');
-    my @haystack = 'hatodlrfkpcjb';  #@letters.pick(@letters.elems / 2);
+    my @haystack = 'hatodlrfkpcjb'.comb;  #@letters.pick(@letters.elems / 2);
     my $needle = 'r'; #@letters.pick;
 
     say "is $needle in ", @haystack.join, '?';
