@@ -26,7 +26,7 @@ sub text_bar {
     $sort_by_keys = 0;
   }
 
-  my ($width) = GetTerminalSize;
+  my ($width) = 20; #GetTerminalSize;
 
   my $keylen = max map { length } keys %$data;
   my $maxval = max values %$data;

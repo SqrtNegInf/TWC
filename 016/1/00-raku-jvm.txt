@@ -29,7 +29,7 @@ Lucky guest: 10 	Largest share: 0.06281565095552947
 The person that gets the biggest piece is person 10.
  
 ===> 016/1/ozzy.raku <===
-Guest 10 takes the biggest piece: 6.28% of the cake.
+Guest 9 takes the biggest piece: 5.64% of the cake.
  
 ===> 016/1/ruben-westerberg.raku <===
 Guest with largest slice: 10

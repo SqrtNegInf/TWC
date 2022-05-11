@@ -8,8 +8,8 @@
 (0 6 9)
  
 ===> 034/1/jaldhar-h-vyas.raku <===
-is v in qdnuglscwbkoi?
-No.
+is r in hatodlrfkpcjb?
+Yes.
  
 ===> 034/1/javier-luque.raku <===
 Array slice: 0 1 2 3 4 5

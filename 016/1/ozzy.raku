@@ -1,10 +1,12 @@
 #!/usr/bin/env MVM_SPESH_DISABLE=1 raku
 
 # blocking SPESH gets rid of crashes even with max=100
+# p.s. the hash-bang setup doesn't work in batch?
 
+ my $max=80;  # just to get it to run...
 #my $max=89;  # OK, tested to 1000 runs
 #my $max=90;  # crashes start
-my $max=100;  # original
+#my $max=100;  # original
 
 sub s ($j) { $j > 0 ?? r($j-1)*($j / $max) !!   0 };                 #  Mutually recursive share and remainder functions;
 sub r ($k) { $k > 0 ?? r($k-1) - s($k)    !! $max };                 #  $j and $k represent guest numbers

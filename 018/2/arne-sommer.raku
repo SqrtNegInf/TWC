@@ -38,7 +38,9 @@ method pull_highest_priority_element
 
 my $PQ = PriorityQueue.new;
 
-$PQ.insert_with_priority("AA$_", (^99).pick) for ^10;
+#$PQ.insert_with_priority("AA$_", (^99).pick) for ^10;
+my @foo = < 36 68 81 33 57 8 4 63 63 77>;
+$PQ.insert_with_priority("AA$_", @foo[$_]) for ^10;
 
 while ! $PQ.is_empty
 {

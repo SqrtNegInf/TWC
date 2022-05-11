@@ -38,7 +38,8 @@
         die "Chart is too wide.\n" if $self->_bar_width <= 0;
     }
 
-    method _build_width () { $ENV{COLUMNS} || qx{tput cols} || 80 }
+    method _build_width () { 20 }
+    #method _build_width () { $ENV{COLUMNS} || qx{tput cols} || 80 }
 
     method _build__max_length () { max(map length, keys %{ $self->data }) }
 

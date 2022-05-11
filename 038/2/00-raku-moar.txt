@@ -154,7 +154,7 @@ PLEA   : 8
 Winner: KEMP for 20
  
 ===> 038/2/jaldhar-h-vyas.raku <===
-EOQVLXT = VOLET (16)
+QZVMSXI = Q (10)
  
 ===> 038/2/javier-luque.raku <===
 Picked tiles: P A L K M E N
@@ -186,7 +186,7 @@ Contenders (word: score):
 YAWP: 9
  
 ===> 038/2/ryan-thompson.raku <===
-[Z S L T C Z G] Best word: ST, Score: 6
+[U J S H D W A] Best word: JUDAH, Score: 12
  
 ===> 038/2/simon-proctor.raku <===
  

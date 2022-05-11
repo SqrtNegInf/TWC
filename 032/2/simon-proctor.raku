@@ -40,7 +40,7 @@ multi sub MAIN(
 sub draw-graph( %data, SortType $sort-type, SortDir $sort-dir ) {
     my $k-width = %data.keys.map(*.codes).max;
     my $max-val = %data.values.max;
-    my $screen-width = get-screen-width();
+    my $screen-width = 20; #get-screen-width();
 
     my &sorter = make-sorter( $sort-type, $sort-dir );
     

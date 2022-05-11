@@ -1,25 +1,25 @@
  
 ===> 018/2/arne-sommer.raku <===
 :: AA0 (36)
-:: AA1 (31)
-:: AA2 (83)
-:: AA3 (42)
-:: AA4 (43)
-:: AA5 (41)
-:: AA6 (98)
-:: AA7 (30)
-:: AA8 (62)
-:: AA9 (85)
-AA6
-AA9
+:: AA1 (68)
+:: AA2 (81)
+:: AA3 (33)
+:: AA4 (57)
+:: AA5 (8)
+:: AA6 (4)
+:: AA7 (63)
+:: AA8 (63)
+:: AA9 (77)
 AA2
-AA8
-AA4
-AA3
 AA5
-AA0
+AA9
 AA1
 AA7
+AA8
+AA4
+AA6
+AA0
+AA3
  
 ===> 018/2/athanasius.raku <===
 
