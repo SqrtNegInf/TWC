@@ -1,0 +1,118 @@
+ 
+===> 163/1/adam-russell.pl <===
+3
+2
+7
+ 
+===> 163/1/arne-sommer.pl <===
+5
+ 
+===> 163/1/athanasius.pl <===
+Input:  @n = (1, 2, 3, 10)
+Output: 7
+
+Since (1 & 2) + (1 & 3) + (1 & 10) + (2 & 3) + (2 & 10) + (3 & 10) => 0 + 1 + 0 + 2 + 2 + 2 => 7
+ 
+===> 163/1/cheok-yin-fung.pl <===
+1..3
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ 
+===> 163/1/colin-crain.pl <===
+please input a space-separated list of values at command line
+
+ok 1 - ex-1
+ok 2 - ex-2
+ok 3 - ex-3
+1..3
+ 
+===> 163/1/dave-jacoby.pl <===
+    Input:  (1 2 3 10)
+    Output: 7
+
+ 
+===> 163/1/deadmarshal.pl <===
+3
+2
+7
+ 
+===> 163/1/e-choroba.pl <===
+1..4
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ok 4 - Unique pairs with duplicates
+ 
+===> 163/1/jo-37.pl <===
+# Seeded srand with seed '1' from import arg.
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - Ultimate Question to Life, the Universe, and Everything
+ok 4 - asymmetric
+1..4
+ 
+===> 163/1/laurent-rosenfeld.pl <===
+1 2 3 -> 3
+2 3 4 -> 2
+1 2 3 10 -> 5
+ 
+===> 163/1/lubos-kolouch.pl <===
+ok 1
+ok 2
+ok 3
+ok 4
+1..4
+ 
+===> 163/1/luiz-felipe.pl <===
+the sum of bitwise of these numbers are 5
+ 
+===> 163/1/mohammad-anwar.pl <===
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+1..3
+ 
+===> 163/1/perlboy1967.pl <===
+ok 1
+ok 2
+ok 3
+ok 4
+ok 5
+ok 6
+ok 7
+ok 8
+ok 9
+ok 10
+ok 11
+ok 12
+1..12
+ 
+===> 163/1/pete-houston.pl <===
+0
+ 
+===> 163/1/peter-campbell-smith.pl <===
+
+Input:  @n = (1, 2, 3)
+Output: 3
+Since (1 & 2) + (1 & 3) + (2 & 3) => 0 + 1 + 2 => 3
+
+Input:  @n = (2, 3, 4)
+Output: 2
+Since (2 & 3) + (2 & 4) + (3 & 4) => 2 + 0 + 0 => 2
+
+Input:  @n = (12, 32, 43, 72, 34, 99, 6, 50)
+Output: 433
+Since (12 & 32) + (12 & 43) + (12 & 72) + (12 & 34) + (12 & 99) + (12 & 6) + (12 & 50) + (32 & 43) + (32 & 72) + (32 & 34) + (32 & 99) + (32 & 6) + (32 & 50) + (43 & 72) + (43 & 34) + (43 & 99) + (43 & 6) + (43 & 50) + (72 & 34) + (72 & 99) + (72 & 6) + (72 & 50) + (34 & 99) + (34 & 6) + (34 & 50) + (99 & 6) + (99 & 50) + (6 & 50) => 0 + 8 + 8 + 0 + 0 + 4 + 0 + 32 + 0 + 32 + 32 + 0 + 32 + 8 + 34 + 35 + 2 + 34 + 0 + 64 + 0 + 0 + 34 + 2 + 34 + 2 + 34 + 2 => 433
+ 
+===> 163/1/roger-bell-west.pl <===
+1..3
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ 
+===> 163/1/ulrich-rieke.pl <===
+5
+ 
+===> 163/1/wlmb.pl <===
+Input: [1 2 3 10] Output: 7
