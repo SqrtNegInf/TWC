@@ -9,4 +9,4 @@ sub intersect(($a,$b,$c,$d,$p,$q,$r,$s)) {
     return $A.inverted.dot-product($v);
 }
 
-say intersect(<1 1 3 3 1 3 3 1>)
+say quietly intersect(<1 1 3 3 1 3 3 1>)

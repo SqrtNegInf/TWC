@@ -58,7 +58,7 @@ class SomeZeroMatrix {
     }
 
     method print-rows () {
-        $*ERR.say: "Output: ";
+        say "Output: ";
         for @!row-all-zero-flags -> $all-zero {
             if $all-zero {
                 say ( 0 xx $!col-count ).Array.raku;
@@ -67,7 +67,7 @@ class SomeZeroMatrix {
                 say @!col-one-flags.map( *.Int ).Array.raku;
             }
         }
-        $*ERR.say;
+        #say;
         return self;
     }
 
@@ -87,7 +87,7 @@ sub MAIN (
     my SomeZeroMatrix $matrix .= new( :rows($R) :columns($C) );
     while ( $round-- > 0 ) {
         $matrix.
-        print-rows-orig().
+        #print-rows-orig().
         print-rows().
         empty-rows().
         push-random-row( :times( $R ) );
