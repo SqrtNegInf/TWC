@@ -33,4 +33,4 @@ for ^$rows -> $row
   }
 }
 
-say "[{ @($_).join(", ") }]" for $new.list-rows;
+say "[{ @($_).join(", ") }]" for quietly $new.list-rows;
