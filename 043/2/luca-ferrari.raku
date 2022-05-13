@@ -33,7 +33,7 @@ my $m = 6210001000;
 
 
 sub MAIN( :$base? where { (10,4,5,7,8,9,11,12,16,36).grep: $base } = 10 ){
-    say "Starting generation for base $base";
+    #say "Starting generation for base $base";
 
     # I need to do something for other bases!
     die "Not implemented!" if $base > 10;
@@ -55,7 +55,7 @@ sub MAIN( :$base? where { (10,4,5,7,8,9,11,12,16,36).grep: $base } = 10 ){
                  # see <https://medium.com/@divyangrpatel/self-descriptive-number-best-algorithm-95b281e6de05>
                  my $start = '%d21%s1000'.sprintf: $_, '0' x ( $base - 4 - 3 ).Int;
                  my $end   = '%d21%s1000'.sprintf: $_, ( $base - 1 ) x ( $base - 4 - 3 ).Int;
-                 say "\tBatch between $start and $end";
+                 #say "\tBatch between $start and $end";
 
                 my @nums = grep { validate $_.Int, $base }, $start .. $end;
              } );
@@ -69,7 +69,7 @@ sub MAIN( :$base? where { (10,4,5,7,8,9,11,12,16,36).grep: $base } = 10 ){
 
     }
 
-    say "\nBye bye!";
+    #say "\nBye bye!";
 }
 
 
