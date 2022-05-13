@@ -1,15 +1,18 @@
 #!/usr/bin/env raku
 
-srand 1;
 
 # Each of the ranking functions assumes a List of Pairs with scores as values,
 # and outputs the ranked scores as a sorted list of pairs.
 
 # Sample data according to these assumptions.  Roll a d10 for score.
 
-my %scores = <Andrea Charis Coleman Denita Gale Georgina Glinda Isidra Jolyn
-              Kori Lenore Marcia Micha Mose Myriam Rachele Reginald Romona
-              Rosita Shoshana> Z=> (1...10).roll(*);
+#srand 1;
+#my %scores = <Andrea Charis Coleman Denita Gale Georgina Glinda Isidra Jolyn
+##              Kori Lenore Marcia Micha Mose Myriam Rachele Reginald Romona
+#              Rosita Shoshana> Z=> (1...10).roll(*);
+
+# arrange so there are no 'ties', which resolves output listing instability
+my %scores := {:Andrea(18), :Charis(14), :Coleman(1), :Denita(10), :Gale(13), :Georgina(9), :Glinda(12), :Isidra(22), :Jolyn(2), :Kori(3), :Lenore(24), :Marcia(11), :Micha(8), :Mose(34), :Myriam(19), :Rachele(32), :Reginald(4), :Romona(7), :Rosita(5), :Shoshana(6)};
 
 enum RankMode <rank-standard rank-modified rank-dense>;
 
