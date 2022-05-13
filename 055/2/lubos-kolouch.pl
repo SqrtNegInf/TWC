@@ -1,10 +1,8 @@
 #!/usr/bin/env perl
-##!/usr/bin/env perl
 
 use strict;
 use warnings;
 use Math::Combinatorics;
-#use Data::Dumper;
 use feature qw/say/;
 
 sub process_all_waves {
@@ -49,4 +47,3 @@ sub check_wave {
 my $all_waves = process_all_waves( [ 1, 2, 3, 4 ] );
 
 print "@$_\n" for sort { join(' ',@$a) cmp join(' ',@$b)  } @$all_waves;
-#warn Dumper \$all_waves;
