@@ -5,7 +5,7 @@ use warnings;
 use feature qw{ say postderef signatures state };
 no warnings qw{ experimental };
 
-use Term::ReadKey;
+#use Term::ReadKey;
 
 display_pretty( square_free_integers() );
 
@@ -39,7 +39,7 @@ sub factors ( $n ) {
 }
 
 sub display_pretty( @arr ) {
-    my ( $wchar, undef ) = GetTerminalSize();
+    my ( $wchar, undef ) = 80; #GetTerminalSize();
     $wchar //= 80;
     my $line;
 
