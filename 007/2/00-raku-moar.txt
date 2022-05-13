@@ -7,7 +7,7 @@ The word 'bat' can be transformed letter by letter to make 'big' transitioning t
 bat ⇒ bag ⇒ big
  
 ===> 007/2/fjwhittle.raku <===
-[bat bag big]
+[bat bit big]
  
 ===> 007/2/jaldhar-h-vyas.raku <===
 bat bit big
@@ -26,7 +26,7 @@ bat->bag->big
 Ladder: (bat bag big)
  
 ===> 007/2/stuart-little.raku <===
-(bat bit big)
+(bat bag big)
  
 ===> 007/2/uzluisf.raku <===
 bat → bit → big

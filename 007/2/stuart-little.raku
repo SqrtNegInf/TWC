@@ -22,7 +22,7 @@ sub fndpth($s,$t,%conn,%cur,%vis) {
 	(%conn.{%cur.keys}.map(|*) (-) %vis.grep({ $_.value }).Hash.keys) && (! %vis{$t})
     ) {
 	my %next=(%conn.{%cur.keys}.map(|*) (-) %vis.grep({ $_.value }).Hash.keys);
-	for %cur.keys {
+	for %cur.keys.sort {
 	    %conn{$_}.map(-> $node {%vis{$node}||=(|%vis{$_},$node)})
 	}
 	%cur=%next;

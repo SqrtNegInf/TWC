@@ -64,7 +64,7 @@ sub traverse {
             return @{$path};
         }
 
-        for my $v (keys %{$graph->{$vertex}}) {
+        for my $v (sort keys %{$graph->{$vertex}}) {
             if (!exists $visited{$v}) {
                 $visited{$v} = undef;
                 my @next = @{$path};
@@ -81,9 +81,8 @@ sub find_shortest_ladder {
     return traverse(graph($wordlist), $word1, $word2);
 }
 
-my $list = 'words';
-my $startWord = 'slow';
-my $endWord = 'fast';
+my $list = 'words'; my $startWord = 'slow'; my $endWord = 'fast';
+#my $list = 'words3'; my $startWord = 'bat'; my $endWord = 'big';
 
 if ($startWord !~ /^[[:lower:]]+$/ || $endWord !~ /^[[:lower:]]+$/ ||
 length $startWord != length $endWord) {

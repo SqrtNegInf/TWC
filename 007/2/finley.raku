@@ -5,7 +5,6 @@ my $endWord   = 'big';
 my $wordFile = 'words3';
 say "The word '$startWord' can be transformed letter by letter to make '$endWord' transitioning through proper words along the way";
 
-
 my $ladder = FindLadder($startWord, $endWord, $wordFile);
 say $ladder.elems ?? join(' ⇒ ', |$ladder) !! 'no solution';
 
@@ -48,7 +47,7 @@ sub FindLadder (Str $startWord, Str $endWord, Str $wordFile)
     			%rungWords{$thisWord} = 1 if %words{$thisWord};
     		}
     	}
-    	return [keys %rungWords];
+    	return [sort keys %rungWords];
     }
 
     #initialise the first round of found word-rungs
@@ -59,7 +58,7 @@ sub FindLadder (Str $startWord, Str $endWord, Str $wordFile)
 
     loop {
     	#looping, find the next batch of words from the epicenter
-    	my @thisRound = %words.keys.grep(
+    	my @thisRound = %words.keys.sort.grep(
     		#interested in unseen (unprocessed) words
     		{(!%words{$_}<seen>) && (%words{$_}<distance> != Inf)}).sort(
     		#we'll process the words closer to the epicenter (startWord) earlier
