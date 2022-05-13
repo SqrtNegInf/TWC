@@ -4,7 +4,7 @@
  
 ===> 007/2/finley.raku <===
 The word 'bat' can be transformed letter by letter to make 'big' transitioning through proper words along the way
-bat ⇒ bag ⇒ big
+bat ⇒ bit ⇒ big
  
 ===> 007/2/fjwhittle.raku <===
 [bat bit big]
