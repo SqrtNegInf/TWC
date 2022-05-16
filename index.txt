@@ -1,4 +1,5 @@
 Challenge titles and Rosetta-code correspondences (exact, and otherwise)
+# raku -e '.say for ^2 X~ ^10 X~ ^10 X~ <-1 -2>'
 
 001-1 Change Character                      C/Change_e_letters_to_i_in_words
 001-2 Fizz-Buzz                             F/FizzBuzz G/General_FizzBuzz
@@ -344,8 +345,8 @@ Challenge titles and Rosetta-code correspondences (exact, and otherwise)
 163-2 Summations
 164-1 Palindromic Primes                    P/Palindromic_primes
 164-2 Happy Numbers                         H/Happy_numbers-1
-165-1
-165-2
+165-1 SVG                                   P/Pentagram
+165-2 Line of Best Fit                      M/Multiple_regression
 166-1
 166-2
 167-1
@@ -354,12 +355,6 @@ Challenge titles and Rosetta-code correspondences (exact, and otherwise)
 168-2
 169-1
 169-2
-
-=====
-
-raku -e '.say for ^2 X~ ^10 X~ ^10 X~ <-1 -2>'
-
-=====
 
 170-1
 170-2

@@ -1,3 +1,13 @@
+2022-05-13
+Complete run (1-163) took less than 40 minutes. 
+Fixed unstable output from various tasks.
+
+2022-05-12
+Trying harder to surpress those warnings from Math::Matrix.
+
+2022-05-11
+Silenced intermittent warnings from Math::Matrix (Raku)
+
 2022-05-10
 Caught up to week 1, now just to add weekly...
 
