@@ -113,39 +113,39 @@ Dense:    1 2 2 3
       Standard
 Rank	ID	Score
 1	e	1
-2	c	3
-3	f	4
-3	h	4
-3	a	4
-6	d	5
-6	b	5
-8	i	6
-8	g	6
+2	a	2
+3	c	3
+4	h	4
+5	d	5
+6	i	6
+7	b	7
+8	g	8
+9	f	9
 
 
       Modified
 Rank	ID	Score
 1	e	1
-2	c	3
-5	f	4
-5	h	4
-5	a	4
-7	d	5
-7	b	5
-9	i	6
-9	g	6
+2	a	2
+3	c	3
+4	h	4
+5	d	5
+6	i	6
+7	b	7
+8	g	8
+9	f	9
 
       Dense
 Rank	ID	Score
 1	e	1
-2	c	3
-3	f	4
-3	h	4
-3	a	4
-4	d	5
-4	b	5
-5	i	6
-5	g	6
+2	a	2
+3	c	3
+4	h	4
+5	d	5
+6	i	6
+7	b	7
+8	g	8
+9	f	9
 
  
 ===> 009/2/ruben-westerberg.raku <===

@@ -46,7 +46,8 @@ sub dense (%scores) {
     return $rankings;
 }
 
-my %scores = a => 4, b => 5, c => 3, d => 5, e => 1, f => 4, g => 6, h => 4, i =>6;
+my %scores = a => 2, b => 7, c => 3, d => 5, e => 1, f => 9, g => 8, h => 4, i =>6; # no ties
+#my %scores = a => 4, b => 5, c => 3, d => 5, e => 1, f => 4, g => 6, h => 4, i =>6;
 
 my $head = "Rank\tID\tScore";
 .say for  "      Standard", $head, standard(%scores);
