@@ -4,7 +4,7 @@
 
 die 'not ok - disabled: JVM cannot do Inline::Perl' if $*VM ~~ /jvm/;
 
-use  MONKEY-SEE-NO-EVAL;
+use MONKEY-SEE-NO-EVAL;
 
 my @ar = [
     [  1,  12,  3,  5,  7 ],

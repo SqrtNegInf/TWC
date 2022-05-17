@@ -1,6 +1,6 @@
 #!/usr/bin/env raku
 use Test;
-use Data::Dump;
+#use Data::Dump;
 
 my %tests =
 

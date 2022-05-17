@@ -27,7 +27,7 @@ Hofstadter_Female_and_Male_sequences |Hofstadter Female and Male sequences].
 # Copyright © 2019 PerlMonk Athanasius #
 #--------------------------------------#
 
-use Sub::Memoized;					# Memoization produces an enormous speed-up
+#use Sub::Memoized;					# Memoization produces an enormous speed-up
 									# for even moderately-long series
 my Int constant $DEFAULT := 21;
 
@@ -56,7 +56,7 @@ sub seq(Sub:D $func, Non-negative-integer:D $max --> Array)
 
 # F(): Find term n in the "Female" series
 
-sub F(Non-negative-integer:D $n --> Non-negative-integer) is memoized
+sub F(Non-negative-integer:D $n --> Non-negative-integer) # is memoized
 {
     return $n == 0 ?? 1                         # Base case
                    !! $n - M( F($n - 1) );      # Mutual recursion
@@ -64,7 +64,7 @@ sub F(Non-negative-integer:D $n --> Non-negative-integer) is memoized
 
 # M(): Find term n in the "Male" series
 
-sub M(Non-negative-integer:D $n --> Non-negative-integer) is memoized
+sub M(Non-negative-integer:D $n --> Non-negative-integer) # is memoized
 {
     return $n == 0 ?? 0                         # Base case
                    !! $n - F( M($n - 1) );      # Mutual recursion

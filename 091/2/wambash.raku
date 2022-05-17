@@ -11,7 +11,7 @@ sub jump-game(+@n --> Steps) {
 }
 
 #multi MAIN (Bool :$test!) {
-    use  Test;
+    use Test;
     is jump-game(1,2,1,2),       2;
     is jump-game(2,1,1,0,2),     Nil;
     is jump-game(2,0,3,0,0,1,0), 3;
