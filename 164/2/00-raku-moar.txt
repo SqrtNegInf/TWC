@@ -1,0 +1,61 @@
+ 
+===> 164/2/0rir.raku <===
+[1 7 10 13 19 23 28 31]
+ 
+===> 164/2/2colours.raku <===
+1, 7, 10, 13, 19, 23, 28, 31
+ 
+===> 164/2/arne-sommer.raku <===
+1, 7, 10, 13, 19, 23, 28, 31
+ 
+===> 164/2/athanasius.raku <===
+The first 8 10-Happy Numbers:
+1, 7, 10, 13, 19, 23, 28, 31
+ 
+===> 164/2/bruce-gray.raku <===
+(1 7 10 13 19 23 28 31)
+ 
+===> 164/2/colin-crain.raku <===
+1 7 10 13 19 23 28 31
+ 
+===> 164/2/jaldhar-h-vyas.raku <===
+1 7 10 13 19 23 28 31
+ 
+===> 164/2/laurent-rosenfeld.raku <===
+(1 7 10 13 19 23 28 31)
+ 
+===> 164/2/luca-ferrari.raku <===
+10, 13, 19, 23, 28, 31, 32, 44, 49
+ 
+===> 164/2/mark-anderson.raku <===
+ok 1 - 
+ 
+===> 164/2/mark-senn.raku <===
+1 7 10 13 19 23 28 31
+ 
+===> 164/2/massa.raku <===
+(1 7 10 13 19 23 28 31)
+ 
+===> 164/2/polettix.raku <===
+1, 7, 10, 13, 19, 23, 28, 31
+ 
+===> 164/2/rick-bychowski.raku <===
+First 8 Happy Numbers:
+[1 7 10 13 19 23 28 31]
+All Happy Numbers Found:
+(1 7 10 13 19 23 28 31 49 68 82 97 100 130)
+All Sad Numbers Found:
+(2 3 4 5 6 8 9 11 12 14 15 16 17 18 20 21 22 24 25 26 27 29 30 34 36 37 40 41 42 45 50 52 53 58 61 64 65 81 85 89 145)
+ 
+===> 164/2/robert-dicicco.raku <===
+1 7 10 13 19 23 28 31  
+ 
+===> 164/2/roger-bell-west.raku <===
+1..1
+ok 1 - example 1
+ 
+===> 164/2/ulrich-rieke.raku <===
+1,7,10,13,19,23,28,31
+ 
+===> 164/2/wambash.raku <===
+1 7 10 13 19 23 28 31

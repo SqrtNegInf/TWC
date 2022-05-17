@@ -1,0 +1,110 @@
+ 
+===> 164/2/adam-russell.pl <===
+1, 7, 10, 13, 19, 23, 28, 31
+ 
+===> 164/2/arne-sommer.pl <===
+1, 7, 10, 13, 19, 23, 28, 31
+ 
+===> 164/2/athanasius.pl <===
+The first 8 10-Happy Numbers:
+1, 7, 10, 13, 19, 23, 28, 31
+ 
+===> 164/2/cheok-yin-fung.pl <===
+1
+7
+10
+13
+19
+23
+28
+31
+ 
+===> 164/2/colin-crain.pl <===
+1, 7, 10, 13, 19, 23, 28, 31
+ 
+===> 164/2/dave-jacoby.pl <===
+1, 7, 10, 13, 19, 23, 28, 31
+ 
+===> 164/2/deadmarshal.pl <===
+1 7 10 13 19 23 28 31  
+===> 164/2/e-choroba.pl <===
+1..1
+ok 1
+ 
+===> 164/2/jaldhar-h-vyas.pl <===
+1 7 10 13 19 23 28 31
+ 
+===> 164/2/jo-37.pl <===
+# Seeded srand with seed '1' from import arg.
+ok 1 - task 1 according to http://oeis.org/A007770
+ok 2 - From Wiki
+1..2
+ 
+===> 164/2/julien-fiegehenn.pl <===
+1
+7
+10
+13
+19
+23
+28
+31
+ok 1 - 19 is a happy number
+ok 2 - 4 is a sad number :(
+1..2
+ 
+===> 164/2/kjetillll.pl <===
+Found happy number 1: 1
+Found happy number 2: 7
+Found happy number 3: 10
+Found happy number 4: 13
+Found happy number 5: 19
+Found happy number 6: 23
+Found happy number 7: 28
+Found happy number 8: 31
+ 
+===> 164/2/laurent-rosenfeld.pl <===
+1 7 10 13 19 23 28 31 
+ 
+===> 164/2/lubos-kolouch.pl <===
+ok 1
+1..1
+ 
+===> 164/2/perlboy1967.pl <===
+1
+7
+10
+13
+19
+23
+28
+31
+ 
+===> 164/2/pete-houston.pl <===
+1 7 10 13 19 23 28 31
+ 
+===> 164/2/pokgopun.pl <===
+1, 7, 10, 13, 19, 23, 28, 31
+ 
+===> 164/2/polettix.pl <===
+1, 7, 10, 13, 19, 23, 28, 31
+ 
+===> 164/2/roger-bell-west.pl <===
+1..1
+ok 1 - example 1
+ 
+===> 164/2/ryan-thompson.pl <===
+1
+7
+10
+13
+19
+23
+28
+31
+ 
+===> 164/2/ulrich-rieke.pl <===
+1,7,10,13,19,23,28,31
+ 
+===> 164/2/wlmb.pl <===
+The first 8 happy numbers are: 1 7 10 13 19 23 28 31
