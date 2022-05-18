@@ -5,7 +5,7 @@ cold -> cord -> card -> ward -> warm
 ===> 007/2/athanasius.pl <===
 
 Shortest ladder found:
-("bat", "bag", "big")
+("bat", "bit", "big")
  
 ===> 007/2/daniel-mantovani.pl <===
 bat
@@ -17,10 +17,10 @@ slow clow clot coot cost cast fast
  
 ===> 007/2/joelle-maslak.pl <===
 Ladder found!
-bat bag big
+bat bit big
  
 ===> 007/2/paulo-custodio.pl <===
 ("bat", "bag", "big")
  
 ===> 007/2/ruben-westerberg.pl <===
-Ladder: (bat bag big)
+Ladder: (bat bit big)

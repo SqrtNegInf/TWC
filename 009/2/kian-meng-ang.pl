@@ -9,7 +9,7 @@ MAIN: {
     my $data = {
         goldfish => 40,
         bettas => 30,
-        guppes => 40,
+        guppes => 20,
         angelfish => 50,
     };
 

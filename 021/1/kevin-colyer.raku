@@ -67,4 +67,4 @@ say e_continued_fraction(10);
 say e_continued_fraction_faster(10);
 
 # Stochaistic derivation of e;
-say E(100_000);
+#say E(100_000);

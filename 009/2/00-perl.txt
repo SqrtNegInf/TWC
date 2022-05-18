@@ -107,9 +107,9 @@ ok 3
 ===> 009/2/kian-meng-ang.pl <===
 name           count     standard  modified  densed    
 angelfish      50        1         1         1         
-guppes         40        2         3         2         
-goldfish       40        2         3         2         
-bettas         30        4         4         3         
+goldfish       40        2         2         2         
+bettas         30        3         3         3         
+guppes         20        4         4         4         
  
 ===> 009/2/lakpatashi.pl <===
 

@@ -17,16 +17,16 @@ bat -> bit -> big
  
 ===> 007/2/joelle-maslak.raku <===
 Ladder found!
-bat bag big
+bat bit big
  
 ===> 007/2/laurent-rosenfeld.raku <===
-bat->bag->big
+bat->bit->big
  
 ===> 007/2/ruben-westerberg.raku <===
-Ladder: (bat bag big)
+Ladder: (bat bit big)
  
 ===> 007/2/stuart-little.raku <===
-(bat bag big)
+(bat bit big)
  
 ===> 007/2/uzluisf.raku <===
 bat → bit → big
