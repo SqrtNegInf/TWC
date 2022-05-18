@@ -98,11 +98,10 @@ ok 1 - example 1
 ok 2 - example 2
  
 ===> 094/1/wanderdoc.pl <===
-saw, was
 bat, tab
+saw, was
 opt, pot, top
 
-x
  
 ===> 094/1/wlmb.pl <===
 bat tab
