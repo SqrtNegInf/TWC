@@ -31,14 +31,14 @@ my @circleList=(1..50);
 # not accessible, I have adapted an answer from
 # https://stackoverflow.com/questions/197933
 
-my $clearScreen=( $^O=~/Win/)?`cls`:`clear`;
+#my $clearScreen=( $^O=~/Win/)?`cls`:`clear`;
 
-my $animate=1;       # set this to 0 if you dont want to animate.
+my $animate=0;       # set this to 0 if you dont want to animate.
  
 while (scalar @circleList >1){
   if ($animate){     # animation is optional; may not work or be desired
 	 select(undef, undef, undef, 0.25); 
-	 print $clearScreen;
+	 #print $clearScreen;
      circle(\@circleList);
   }
   else{
