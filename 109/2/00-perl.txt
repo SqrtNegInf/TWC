@@ -315,15 +315,6 @@ ok 3 - include negative floating point numbers
 ok 1
 1..1
  
-===> 109/2/paulo-custodio.pl <===
-a = 5
-b = 6
-c = 2
-d = 3
-e = 1
-f = 7
-g = 4
- 
 ===> 109/2/perlboy1967.pl <===
 ok 1
 ok 2

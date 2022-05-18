@@ -236,11 +236,11 @@ R L H R
 L R L H H
 L R R H
 L L L H H H
-L L H L H H
 L R H L H
+L L H L H H
 L L R H H
-L L H R H
 L L H H L H
+L L H R H
 L L H H R
 L R H R
 L H L L H H
