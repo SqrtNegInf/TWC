@@ -326,30 +326,6 @@ Sep 22, 2290
 07-02-2070
 08-02-2080
 09-02-2090
-10-12-2101
-01-12-2110
-11-12-2111
-02-12-2120
-12-12-2121
-03-12-2130
-04-12-2140
-05-12-2150
-06-12-2160
-07-12-2170
-08-12-2180
-09-12-2190
-10-22-2201
-01-22-2210
-11-22-2211
-02-22-2220
-12-22-2221
-03-22-2230
-04-22-2240
-05-22-2250
-06-22-2260
-07-22-2270
-08-22-2280
-09-22-2290
  
 ===> 048/2/duncan-c-white.pl <===
 10022001
@@ -670,30 +646,6 @@ The following dates from 2000-01-01 to 2999-12-31 are palindromes assuming the f
 07022070 is a Palindrome date.
 08022080 is a Palindrome date.
 09022090 is a Palindrome date.
-10122101 is a Palindrome date.
-01122110 is a Palindrome date.
-11122111 is a Palindrome date.
-02122120 is a Palindrome date.
-12122121 is a Palindrome date.
-03122130 is a Palindrome date.
-04122140 is a Palindrome date.
-05122150 is a Palindrome date.
-06122160 is a Palindrome date.
-07122170 is a Palindrome date.
-08122180 is a Palindrome date.
-09122190 is a Palindrome date.
-10222201 is a Palindrome date.
-01222210 is a Palindrome date.
-11222211 is a Palindrome date.
-02222220 is a Palindrome date.
-12222221 is a Palindrome date.
-03222230 is a Palindrome date.
-04222240 is a Palindrome date.
-05222250 is a Palindrome date.
-06222260 is a Palindrome date.
-07222270 is a Palindrome date.
-08222280 is a Palindrome date.
-09222290 is a Palindrome date.
  
 ===> 048/2/peter-scott.pl <===
 10022001
@@ -708,30 +660,6 @@ The following dates from 2000-01-01 to 2999-12-31 are palindromes assuming the f
 07022070
 08022080
 09022090
-10122101
-01122110
-11122111
-02122120
-12122121
-03122130
-04122140
-05122150
-06122160
-07122170
-08122180
-09122190
-10222201
-01222210
-11222211
-02222220
-12222221
-03222230
-04222240
-05222250
-06222260
-07222270
-08222280
-09222290
  
 ===> 048/2/phillip-harris.pl <===
 10022001
