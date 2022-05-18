@@ -6,8 +6,8 @@ sub MAIN ( *@args ) {
     die 'Challenges?' unless @args.elems;
 
     #@args = grep { '018' ne $_ }, @args;
-    (@args).race(:8degree, :1batch).map: -> $ch { shell "PWC-run $ch 1 perl ; PWC-run $ch 2 perl" }
-    (@args).race(:8degree, :1batch).map: -> $ch { shell "PWC-run $ch 1 moar ; PWC-run $ch 2 moar" }
+    (@args).race(:8degree, :1batch).map: -> $ch { shell "bin/PWC-run $ch 1 perl ; bin/PWC-run $ch 2 perl" }
+    (@args).race(:8degree, :1batch).map: -> $ch { shell "bin/PWC-run $ch 1 moar ; bin/PWC-run $ch 2 moar" }
 #   (@args).race(:7degree, :1batch).map: -> $ch { shell "PWC-run $ch 1 jvm                      " }
 #   (@args).race(:7degree, :1batch).map: -> $ch { shell "                     PWC-run $ch 2 jvm " }
 }

@@ -1,0 +1,15 @@
+#!/bin/sh
+## run all tasks, see what shakes out...
+
+source $HOME/.profile
+cd $HOME/PWC
+
+time bin/PWC-rerun 0* 1*
+
+# do this to avoid warnings from Math::Matrix?
+bin/PWC-run 011 2 moar
+bin/PWC-run 027 1 moar
+bin/PWC-run 068 1 moar
+
+echo ' '
+git status
