@@ -66,11 +66,6 @@ opt pot top
 bat tab
 saw was
  
-===> 094/1/pavel_kuptsov.pl <===
-opt pot top
-bat tab
-saw was
- 
 ===> 094/1/perlboy1967.pl <===
 -------------------------------------------
 Input: (opt"),("bat"),("saw"),("tab"),("pot"),("top"),("was)
