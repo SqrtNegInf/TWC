@@ -1,9 +1,16 @@
+2022-05-18
+Now doing nightly runs, seeing what shakes out...
+
+2022-05-17
+Is there no way suppress those warnings from Math::Matrix?
+Seems that 'PWC-rerun' creates them, where 'PWC-run' doesn't?
+
 2022-05-13
 Complete run (1-163) took less than 40 minutes. 
 Fixed unstable output from various tasks.
 
 2022-05-12
-Trying harder to surpress those warnings from Math::Matrix.
+Trying harder to suppress those warnings from Math::Matrix.
 
 2022-05-11
 Silenced intermittent warnings from Math::Matrix (Raku)
