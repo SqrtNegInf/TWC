@@ -64,7 +64,7 @@
     <circle cx="361" cy="82" r="3" />
     <circle cx="363" cy="89" r="3" />
 </g>
-<g id="best-fit-line"  stroke-width="4"  stroke="red"  >
+<g id="best-fit-line"  stroke="red"  stroke-width="4"  >
     <line x1="0" x2="400" y1="200.132272535582" y2="80.1496724310893" />
 </g>
 </svg>

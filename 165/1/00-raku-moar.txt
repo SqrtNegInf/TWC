@@ -84,10 +84,10 @@ xmlns="http://www.w3.org/2000/svg">
 ===> 165/1/polettix.raku <===
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
-<svg height="400" xmlns="http://www.w3.org/2000/svg" width="400" >
-<circle fill="#000000" cx="53" stroke-width="0" cy="10" r="4" />
-<polyline stroke="#ff0000" stroke-width="6" points="53 10 23 30" />
-<circle cx="23" r="4" fill="#000000" cy="30" stroke-width="0" />
+<svg xmlns="http://www.w3.org/2000/svg" height="400" width="400" >
+<circle fill="#000000" r="4" stroke-width="0" cx="53" cy="10" />
+<polyline stroke-width="6" points="53 10 23 30" stroke="#ff0000" />
+<circle r="4" cx="23" fill="#000000" cy="30" stroke-width="0" />
 </svg>
  
 ===> 165/1/rick-bychowski.raku <===

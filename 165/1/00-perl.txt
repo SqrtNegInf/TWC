@@ -6,9 +6,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
 <svg:svg height="100%" width="100%" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-	<svg:line style="fill-opacity: 0; stroke: green" x1="53" x2="23" y1="10" y2="30" />
-	<svg:circle cx="53" cy="10" r="2" style="fill: red" />
-	<svg:circle cx="23" cy="30" r="2" style="fill: red" />
 	<!--
 	Generated using the Perl SVG Module V2.85
 	by Ronan Oger
@@ -22,7 +19,7 @@
     xmlns="http://www.w3.org/2000/svg" 
     xmlns:svg="http://www.w3.org/2000/svg" 
     xmlns:xlink="http://www.w3.org/1999/xlink">
-<g id="lines"  stroke-width="4"  stroke="blue"  >
+<g id="lines"  stroke="blue"  stroke-width="4"  >
 </g>
 <g id="circle"  fill="red"  >
     <circle cx="53" cy="10" r="3" />

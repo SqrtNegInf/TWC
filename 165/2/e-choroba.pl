@@ -3,7 +3,7 @@ use warnings;
 use strict;
 use feature qw{ say };
 
-use ARGV::OrDATA;
+# use ARGV::OrDATA; # not with 'cron'
 use List::Util qw{ sum };
 
 =head1 Usage
@@ -13,7 +13,7 @@ ch-2.pl input_file | ch-1.pl - > out.svg
 =cut
 
 my @points;
-while (<>) {
+while ($_ = <DATA>) {
     push @points, map [split /,/], split;
 }
 

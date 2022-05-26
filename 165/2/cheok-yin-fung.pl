@@ -5,11 +5,11 @@
 use v5.24.0;
 use warnings;
 use List::Util qw/min max sum/;
-use ARGV::OrDATA;
+#use ARGV::OrDATA; # not with 'cron'
 
 my @points;
 
-while (<>) {
+while ($_ = <DATA>) {
     chomp;
     my @new_points = /\S+/g;
     @new_points = map { [split ",", $_]} @new_points;

@@ -1,0 +1,1 @@
+Module 'use ARGV::OrDATA' doesn't seem to work right when tasks called via 'cron'
