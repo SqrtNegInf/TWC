@@ -115,6 +115,12 @@ xmlns="http://www.w3.org/2000/svg">
 </g>
 </svg>
  
+===> 165/2/gfldex-1.raku <===
+[-0.2999565 200.132272536]
+ 
+===> 165/2/gfldex-2.raku <===
+[-0.2999565 200.132272536]
+ 
 ===> 165/2/laurent-rosenfeld.raku <===
 Slope: -0.2999565, intercept = 200.132272536
 The equation of the line of best fit is: y = -0.30 x + 200.13 
