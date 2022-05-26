@@ -3,12 +3,12 @@
 use v5.24.0;
 use warnings;
 use SVG;
-use ARGV::OrDATA;
+#use ARGV::OrDATA;
 
 my $img = SVG->new;
 my @points;
 
-while (<>) {
+while ($_ = <DATA>) {
     chomp;
     my @nums = split ",", $_;
     if (scalar @nums == 2) {
