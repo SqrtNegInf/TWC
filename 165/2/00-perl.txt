@@ -1,0 +1,193 @@
+ 
+===> 165/2/adam-russell.pl <===
+           <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+           <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+           <svg height="100%" width="100%" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<circle cx="333" cy="129" r="1" /><circle cx="39" cy="189" r="1" /><circle cx="140" cy="156" r="1" /><circle cx="292" cy="134" r="1" /><circle cx="393" cy="52" r="1" /><circle cx="160" cy="166" r="1" /><circle cx="362" cy="122" r="1" /><circle cx="13" cy="193" r="1" /><circle cx="341" cy="104" r="1" /><circle cx="320" cy="113" r="1" /><circle cx="109" cy="177" r="1" /><circle cx="203" cy="152" r="1" /><circle cx="343" cy="100" r="1" /><circle cx="225" cy="110" r="1" /><circle cx="23" cy="186" r="1" /><circle cx="282" cy="102" r="1" /><circle cx="284" cy="98" r="1" /><circle cx="205" cy="133" r="1" /><circle cx="297" cy="114" r="1" /><circle cx="292" cy="126" r="1" /><circle cx="339" cy="112" r="1" /><circle cx="327" cy="79" r="1" /><circle cx="253" cy="136" r="1" /><circle cx="61" cy="169" r="1" /><circle cx="128" cy="176" r="1" /><circle cx="346" cy="72" r="1" /><circle cx="316" cy="103" r="1" /><circle cx="124" cy="162" r="1" /><circle cx="65" cy="181" r="1" /><circle cx="159" cy="137" r="1" /><circle cx="212" cy="116" r="1" /><circle cx="337" cy="86" r="1" /><circle cx="215" cy="136" r="1" /><circle cx="153" cy="137" r="1" /><circle cx="390" cy="104" r="1" /><circle cx="100" cy="180" r="1" /><circle cx="76" cy="188" r="1" /><circle cx="77" cy="181" r="1" /><circle cx="69" cy="195" r="1" /><circle cx="92" cy="186" r="1" /><circle cx="275" cy="96" r="1" /><circle cx="250" cy="147" r="1" /><circle cx="34" cy="174" r="1" /><circle cx="213" cy="134" r="1" /><circle cx="186" cy="129" r="1" /><circle cx="189" cy="154" r="1" /><circle cx="361" cy="82" r="1" /><circle cx="363" cy="89" r="1" /><line x1="0" x2="403" y1="200.132272535582" y2="79.2498029303056" style="stroke:#006600;" /></svg> 
+===> 165/2/cheok-yin-fung.pl <===
+13,196.232838032186,393,82.2493679329179
+ 
+===> 165/2/colin-crain.pl <===
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg height="400" width="400" 
+    xmlns="http://www.w3.org/2000/svg" 
+    xmlns:svg="http://www.w3.org/2000/svg" 
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="points"  fill="blue"  >
+    <circle cx="333" cy="129" r="3" />
+    <circle cx="39" cy="189" r="3" />
+    <circle cx="140" cy="156" r="3" />
+    <circle cx="292" cy="134" r="3" />
+    <circle cx="393" cy="52" r="3" />
+    <circle cx="160" cy="166" r="3" />
+    <circle cx="362" cy="122" r="3" />
+    <circle cx="13" cy="193" r="3" />
+    <circle cx="341" cy="104" r="3" />
+    <circle cx="320" cy="113" r="3" />
+    <circle cx="109" cy="177" r="3" />
+    <circle cx="203" cy="152" r="3" />
+    <circle cx="343" cy="100" r="3" />
+    <circle cx="225" cy="110" r="3" />
+    <circle cx="23" cy="186" r="3" />
+    <circle cx="282" cy="102" r="3" />
+    <circle cx="284" cy="98" r="3" />
+    <circle cx="205" cy="133" r="3" />
+    <circle cx="297" cy="114" r="3" />
+    <circle cx="292" cy="126" r="3" />
+    <circle cx="339" cy="112" r="3" />
+    <circle cx="327" cy="79" r="3" />
+    <circle cx="253" cy="136" r="3" />
+    <circle cx="61" cy="169" r="3" />
+    <circle cx="128" cy="176" r="3" />
+    <circle cx="346" cy="72" r="3" />
+    <circle cx="316" cy="103" r="3" />
+    <circle cx="124" cy="162" r="3" />
+    <circle cx="65" cy="181" r="3" />
+    <circle cx="159" cy="137" r="3" />
+    <circle cx="212" cy="116" r="3" />
+    <circle cx="337" cy="86" r="3" />
+    <circle cx="215" cy="136" r="3" />
+    <circle cx="153" cy="137" r="3" />
+    <circle cx="390" cy="104" r="3" />
+    <circle cx="100" cy="180" r="3" />
+    <circle cx="76" cy="188" r="3" />
+    <circle cx="77" cy="181" r="3" />
+    <circle cx="69" cy="195" r="3" />
+    <circle cx="92" cy="186" r="3" />
+    <circle cx="275" cy="96" r="3" />
+    <circle cx="250" cy="147" r="3" />
+    <circle cx="34" cy="174" r="3" />
+    <circle cx="213" cy="134" r="3" />
+    <circle cx="186" cy="129" r="3" />
+    <circle cx="189" cy="154" r="3" />
+    <circle cx="361" cy="82" r="3" />
+    <circle cx="363" cy="89" r="3" />
+</g>
+<g id="best-fit-line"  stroke-width="4"  stroke="red"  >
+    <line x1="0" x2="400" y1="200.132272535582" y2="80.1496724310893" />
+</g>
+</svg>
+
+ 
+===> 165/2/dave-jacoby.pl <===
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg height="200" width="400" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<line style="fill: gray; stroke: gray; stroke-width: 3" x1="0" x2="0" y1="0" y2="200" />
+	<line style="fill: gray; stroke: gray; stroke-width: 3" x1="0" x2="400" y1="0" y2="0" />
+	<line style="fill: gray; stroke: gray; stroke-width: 3" x1="400" x2="0" y1="200" y2="200" />
+	<line style="fill: gray; stroke: gray; stroke-width: 3" x1="400" x2="400" y1="200" y2="0" />
+	<circle cx="333" cy="71" r="0.7" style="fill: red; stroke: red; stroke-width: 2" />
+	<circle cx="39" cy="11" r="0.7" style="fill: red; stroke: red; stroke-width: 2" />
+	<circle cx="140" cy="44" r="0.7" style="fill: red; stroke: red; stroke-width: 2" />
+	<circle cx="292" cy="66" r="0.7" style="fill: red; stroke: red; stroke-width: 2" />
+	<circle cx="393" cy="148" r="0.7" style="fill: red; stroke: red; stroke-width: 2" />
+	<circle cx="160" cy="34" r="0.7" style="fill: red; stroke: red; stroke-width: 2" />
+	<circle cx="362" cy="78" r="0.7" style="fill: red; stroke: red; stroke-width: 2" />
+	<circle cx="13" cy="7" r="0.7" style="fill: red; stroke: red; stroke-width: 2" />
+	<circle cx="341" cy="96" r="0.7" style="fill: red; stroke: red; stroke-width: 2" />
+	<circle cx="320" cy="87" r="0.7" style="fill: red; stroke: red; stroke-width: 2" />
+	<circle cx="109" cy="23" r="0.7" style="fill: red; stroke: red; stroke-width: 2" />
+	<circle cx="203" cy="48" r="0.7" style="fill: red; stroke: red; stroke-width: 2" />
+	<circle cx="343" cy="100" r="0.7" style="fill: red; stroke: red; stroke-width: 2" />
+	<circle cx="225" cy="90" r="0.7" style="fill: red; stroke: red; stroke-width: 2" />
+	<circle cx="23" cy="14" r="0.7" style="fill: red; stroke: red; stroke-width: 2" />
+	<circle cx="282" cy="98" r="0.7" style="fill: red; stroke: red; stroke-width: 2" />
+	<circle cx="284" cy="102" r="0.7" style="fill: red; stroke: red; stroke-width: 2" />
+	<circle cx="205" cy="67" r="0.7" style="fill: red; stroke: red; stroke-width: 2" />
+	<circle cx="297" cy="86" r="0.7" style="fill: red; stroke: red; stroke-width: 2" />
+	<circle cx="292" cy="74" r="0.7" style="fill: red; stroke: red; stroke-width: 2" />
+	<circle cx="339" cy="88" r="0.7" style="fill: red; stroke: red; stroke-width: 2" />
+	<circle cx="327" cy="121" r="0.7" style="fill: red; stroke: red; stroke-width: 2" />
+	<circle cx="253" cy="64" r="0.7" style="fill: red; stroke: red; stroke-width: 2" />
+	<circle cx="61" cy="31" r="0.7" style="fill: red; stroke: red; stroke-width: 2" />
+	<circle cx="128" cy="24" r="0.7" style="fill: red; stroke: red; stroke-width: 2" />
+	<circle cx="346" cy="128" r="0.7" style="fill: red; stroke: red; stroke-width: 2" />
+	<circle cx="316" cy="97" r="0.7" style="fill: red; stroke: red; stroke-width: 2" />
+	<circle cx="124" cy="38" r="0.7" style="fill: red; stroke: red; stroke-width: 2" />
+	<circle cx="65" cy="19" r="0.7" style="fill: red; stroke: red; stroke-width: 2" />
+	<circle cx="159" cy="63" r="0.7" style="fill: red; stroke: red; stroke-width: 2" />
+	<circle cx="212" cy="84" r="0.7" style="fill: red; stroke: red; stroke-width: 2" />
+	<circle cx="337" cy="114" r="0.7" style="fill: red; stroke: red; stroke-width: 2" />
+	<circle cx="215" cy="64" r="0.7" style="fill: red; stroke: red; stroke-width: 2" />
+	<circle cx="153" cy="63" r="0.7" style="fill: red; stroke: red; stroke-width: 2" />
+	<circle cx="390" cy="96" r="0.7" style="fill: red; stroke: red; stroke-width: 2" />
+	<circle cx="100" cy="20" r="0.7" style="fill: red; stroke: red; stroke-width: 2" />
+	<circle cx="76" cy="12" r="0.7" style="fill: red; stroke: red; stroke-width: 2" />
+	<circle cx="77" cy="19" r="0.7" style="fill: red; stroke: red; stroke-width: 2" />
+	<circle cx="69" cy="5" r="0.7" style="fill: red; stroke: red; stroke-width: 2" />
+	<circle cx="92" cy="14" r="0.7" style="fill: red; stroke: red; stroke-width: 2" />
+	<circle cx="275" cy="104" r="0.7" style="fill: red; stroke: red; stroke-width: 2" />
+	<circle cx="250" cy="53" r="0.7" style="fill: red; stroke: red; stroke-width: 2" />
+	<circle cx="34" cy="26" r="0.7" style="fill: red; stroke: red; stroke-width: 2" />
+	<circle cx="213" cy="66" r="0.7" style="fill: red; stroke: red; stroke-width: 2" />
+	<circle cx="186" cy="71" r="0.7" style="fill: red; stroke: red; stroke-width: 2" />
+	<circle cx="189" cy="46" r="0.7" style="fill: red; stroke: red; stroke-width: 2" />
+	<circle cx="361" cy="118" r="0.7" style="fill: red; stroke: red; stroke-width: 2" />
+	<circle cx="363" cy="111" r="0.7" style="fill: red; stroke: red; stroke-width: 2" />
+	<line style="fill: blue; stroke: blue; stroke-width: 0.5" x1="393" x2="13" y1="117.76" y2="3.76" />
+	<!--
+	Generated using the Perl SVG Module V2.85
+	by Ronan Oger
+	Info: http://www.roitsystems.com/
+	-->
+</svg>
+ 
+===> 165/2/e-choroba.pl <===
+13,196.232838032186,393,82.2493679329179
+ 
+===> 165/2/laurent-rosenfeld.pl <===
+Slope: -0.299956500261231, intercept = 200.132272535582
+The equation of the line of best fit is: y = -0.30 x + 200.13 
+ 
+===> 165/2/peter-campbell-smith.pl <===
+The least squares line is y = 200.132272535582 + -0.299956500261231 x
+ 
+===> 165/2/polettix.pl <===
+13,196.232838032186,393,82.2493679329179
+ 
+===> 165/2/saiftynet.pl <===
+<svg  viewBox="5 44 396 159" style="background-color:green" xmlns="http://www.w3.org/2000/svg">
+<g  transform="scale(1,-1) translate(0,-247)">
+  <rect x="8" y="47" width="390" height="153" stroke="blue"  fill="#D5DBDB" />
+  <circle cx="333" cy="129" r="2" stroke="blue" />
+  <circle cx="140" cy="156" r="2" stroke="blue" />
+  <circle cx="393" cy="52" r="2" stroke="blue" />
+  <circle cx="160" cy="166" r="2" stroke="blue" />
+  <circle cx="13" cy="193" r="2" stroke="blue" />
+  <circle cx="341" cy="104" r="2" stroke="blue" />
+  <circle cx="109" cy="177" r="2" stroke="blue" />
+  <circle cx="343" cy="100" r="2" stroke="blue" />
+  <circle cx="23" cy="186" r="2" stroke="blue" />
+  <circle cx="284" cy="98" r="2" stroke="blue" />
+  <circle cx="205" cy="133" r="2" stroke="blue" />
+  <circle cx="292" cy="126" r="2" stroke="blue" />
+  <circle cx="327" cy="79" r="2" stroke="blue" />
+  <circle cx="253" cy="136" r="2" stroke="blue" />
+  <circle cx="61" cy="169" r="2" stroke="blue" />
+  <circle cx="128" cy="176" r="2" stroke="blue" />
+  <circle cx="316" cy="103" r="2" stroke="blue" />
+  <circle cx="65" cy="181" r="2" stroke="blue" />
+  <circle cx="212" cy="116" r="2" stroke="blue" />
+  <circle cx="215" cy="136" r="2" stroke="blue" />
+  <circle cx="390" cy="104" r="2" stroke="blue" />
+  <circle cx="76" cy="188" r="2" stroke="blue" />
+  <circle cx="77" cy="181" r="2" stroke="blue" />
+  <circle cx="69" cy="195" r="2" stroke="blue" />
+  <circle cx="92" cy="186" r="2" stroke="blue" />
+  <circle cx="275" cy="96" r="2" stroke="blue" />
+  <circle cx="250" cy="147" r="2" stroke="blue" />
+  <circle cx="34" cy="174" r="2" stroke="blue" />
+  <circle cx="186" cy="129" r="2" stroke="blue" />
+  <circle cx="361" cy="82" r="2" stroke="blue" />
+  <circle cx="363" cy="89" r="2" stroke="blue" />
+  <line x1="13" y1="197.662102082657" x2="393" y2="80.7642978818043" stroke="green"/>
+
+</g>
+<text x="203" y="72" fill="red">__DATA__</text>
+</svg> 
+===> 165/2/wanderdoc.pl <===
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg height="206" width="403" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><rect width="100%" height="100%" fill="#E5E5E5" /><g fill="#0000CD" id="points"><circle cx="333" cy="77" r="3" /><circle cx="39" cy="17" r="3" /><circle cx="140" cy="50" r="3" /><circle cx="292" cy="72" r="3" /><circle cx="393" cy="154" r="3" /><circle cx="160" cy="40" r="3" /><circle cx="362" cy="84" r="3" /><circle cx="13" cy="13" r="3" /><circle cx="341" cy="102" r="3" /><circle cx="320" cy="93" r="3" /><circle cx="109" cy="29" r="3" /><circle cx="203" cy="54" r="3" /><circle cx="343" cy="106" r="3" /><circle cx="225" cy="96" r="3" /><circle cx="23" cy="20" r="3" /><circle cx="282" cy="104" r="3" /><circle cx="284" cy="108" r="3" /><circle cx="205" cy="73" r="3" /><circle cx="297" cy="92" r="3" /><circle cx="292" cy="80" r="3" /><circle cx="339" cy="94" r="3" /><circle cx="327" cy="127" r="3" /><circle cx="253" cy="70" r="3" /><circle cx="61" cy="37" r="3" /><circle cx="128" cy="30" r="3" /><circle cx="346" cy="134" r="3" /><circle cx="316" cy="103" r="3" /><circle cx="124" cy="44" r="3" /><circle cx="65" cy="25" r="3" /><circle cx="159" cy="69" r="3" /><circle cx="212" cy="90" r="3" /><circle cx="337" cy="120" r="3" /><circle cx="215" cy="70" r="3" /><circle cx="153" cy="69" r="3" /><circle cx="390" cy="102" r="3" /><circle cx="100" cy="26" r="3" /><circle cx="76" cy="18" r="3" /><circle cx="77" cy="25" r="3" /><circle cx="69" cy="11" r="3" /><circle cx="92" cy="20" r="3" /><circle cx="275" cy="110" r="3" /><circle cx="250" cy="59" r="3" /><circle cx="34" cy="32" r="3" /><circle cx="213" cy="72" r="3" /><circle cx="186" cy="77" r="3" /><circle cx="189" cy="52" r="3" /><circle cx="361" cy="124" r="3" /><circle cx="363" cy="117" r="3" /></g><g id="lines" stroke="#CD0000" stroke-width="3"><line x1="13" x2="393" y1="10" y2="124" /></g><text x="10" y="196" fill="#CD0000" style="font: bold 20px sans-serif;">y = -0.29996 * x + 200.13227</text></svg>
