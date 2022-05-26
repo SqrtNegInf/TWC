@@ -1,5 +1,5 @@
 #!/usr/bin/env raku
-# from https://gfldex.wordpress.com/2022/05/21/writing-it-down/
+# from https://gfldex.wordpress.com/2022/05/01/antipairing/
 
 proto sub deepantipairs(@positional, $dimensions --> Positional) {*}
 multi sub deepantipairs(@a, 2) {
