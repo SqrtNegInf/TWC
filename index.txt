@@ -347,8 +347,8 @@ Challenge titles and Rosetta-code correspondences (exact, and otherwise)
 164-2 Happy Numbers                         H/Happy_numbers-1
 165-1 SVG                                   P/Pentagram
 165-2 Line of Best Fit                      M/Multiple_regression
-166-1
-166-2
+166-1 Hexadecimal Words                     H/Hex_words
+166-2 K-Directory Diff                      O/Order_disjoint_list_items
 167-1
 167-2
 168-1
