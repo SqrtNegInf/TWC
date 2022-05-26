@@ -19,7 +19,7 @@
     xmlns="http://www.w3.org/2000/svg" 
     xmlns:svg="http://www.w3.org/2000/svg" 
     xmlns:xlink="http://www.w3.org/1999/xlink">
-<g id="lines"  stroke="blue"  stroke-width="4"  >
+<g id="lines"  stroke-width="4"  >
 </g>
 <g id="circle"  fill="red"  >
     <circle cx="53" cy="10" r="3" />

@@ -125,7 +125,7 @@ $svg->group( "points", $attr);
 $svg->add( $svg->circle($_->@*) ) for @data;
 
 $attr  = { "stroke" => "red",  "stroke-width" => "4" };
-$svg->group( "best-fit-line", $attr );
+#$svg->group( "best-fit-line", $attr );
 $svg->add( $svg->line( best_fit(@data) ) );
 
 ## write to file, ./best-fit.svg

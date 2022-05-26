@@ -146,7 +146,8 @@ while (<$in_fh>) {
 my $svg = new SVG(200,300);
 my $attr;
 
-$attr  = { "stroke" => "blue",  "stroke-width" => "4" };
+$attr  = { "stroke-width" => "4" };
+#$attr  = { "stroke" => "blue",  "stroke-width" => "4" };
 $svg->group( "lines", $attr);
 $svg->add( $svg->line($_->@*) ) for @lines;
 
