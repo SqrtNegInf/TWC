@@ -132,10 +132,6 @@ Input:  $i = 1000, $j = 999, $k = 314159
 Output: 93532
 
  
-===> 140/2/polettix.pl <===
-3
-3
- 
 ===> 140/2/roger-bell-west.pl <===
 1..2
 ok 1 - example 1

@@ -1,3 +1,5 @@
-'laurent-rosenfeld.raku' needed minor syntax fix. Was maybe written with older vesion of Raku?
+'laurent-rosenfeld.raku' needed minor syntax fix. Was maybe written with older vesion of Raku?  
 
-JVM is very slow for most of Raku examples.
+JVM is REALLY slow for many of the Raku tasks.  Is this the 'X' effect?
+
+How did Polettix's 'queue' code get here?  Confused.  Anyhoo, removed.
