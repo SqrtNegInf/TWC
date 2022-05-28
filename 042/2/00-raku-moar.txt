@@ -1,6 +1,6 @@
  
 ===> 042/2/arne-sommer.raku <===
-( - NOT OK
+())( - NOT OK
 ()) - NOT OK
 ))(()( - NOT OK
 )( - NOT OK
@@ -34,7 +34,7 @@ ok 3 - )( is bad
 ok 4 - ())() is bad
  
 ===> 042/2/jaldhar-h-vyas.raku <===
-((((() - NOT OK
+))))(( - NOT OK
  
 ===> 042/2/javier-luque.raku <===
 ()(( - NOT OK
@@ -182,7 +182,7 @@ unbalanced: )()
 ()))())((( - NOT OK
  
 ===> 042/2/simon-proctor.raku <===
-String to test )(
+String to test ))()())(((
 Balanced? False
  
 ===> 042/2/stuart-little.raku <===
