@@ -1,5 +1,6 @@
 #!/usr/bin/env raku
 ## run weekly challenge code for a specific task and language
+# 2022-06-01 '-I lib' over-rides precomp versions? removed from 'moar' alternative
 # 2022-02-09 run both backends ('raku') or each separately ('moar', 'jvm')
 # 2022-02-02 initial version
 
@@ -21,8 +22,9 @@ sub MAIN ( Int $ch,
 
         #rakubrew switch moar-blead
     shell qq:to/MOAR/ if $backend eq 'raku'|'moar';
-        find $ch/$task -name '*$ext' -exec echo ' ' \\; -exec echo "===> \{\} <===" \\; -execdir raku    -I lib \{\} \\; > $prefix-m.txt 2> $prefix-m.err
+        find $ch/$task -name '*$ext' -exec echo ' ' \\; -exec echo "===> \{\} <===" \\; -execdir raku           \{\} \\; > $prefix-m.txt 2> $prefix-m.err
         MOAR
+       #find $ch/$task -name '*$ext' -exec echo ' ' \\; -exec echo "===> \{\} <===" \\; -execdir raku    -I lib \{\} \\; > $prefix-m.txt 2> $prefix-m.err
 
         #rakubrew switch jvm-2021.12
     shell qq:to/JVM/ if $backend eq 'raku'|'jvm';
