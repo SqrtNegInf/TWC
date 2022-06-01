@@ -1,3 +1,13 @@
+2022-06-01
+Cleared all .precomp directories, same corruption as affected RC
+
+2022-05-28
+Added gfldex's PWC code from various blog posts.
+Sometimes works much harder than he needs to. All for the best, I've been there...
+
+2022-05-26
+NB: Module 'ARGV::OrDATA' doesn't work when called from 'cron'.
+
 2022-05-20
 Many, many changes in tasks involving 'srand'.
 
