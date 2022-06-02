@@ -1,0 +1,5306 @@
+ 
+===> 166/1/athanasius.pl <===
+  Word      Hex
+  --------------------
+  Abac      0xAbac      
+  Abas      0xAba5      
+  Abed      0xAbed      
+  Abet      0xAbe7      
+  Able      0xAb1e      
+  Acca      0xAcca      
+  Acid      0xAc1d      
+  Acle      0xAc1e      
+  Acta      0xAc7a      
+  Adad      0xAdad      
+  Adat      0xAda7      
+  Adda      0xAdda      
+  Adet      0xAde7      
+  Adit      0xAd17      
+  Affa      0xAffa      
+  Aide      0xA1de      
+  Aiel      0xA1e1      
+  Aile      0xA11e      
+  Alas      0xA1a5      
+  Alba      0xA1ba      
+  Albe      0xA1be      
+  Alco      0xA1c0      
+  Alec      0xA1ec      
+  Alee      0xA1ee      
+  Alef      0xA1ef      
+  Alfa      0xA1fa      
+  Alif      0xA11f      
+  Alit      0xA117      
+  Alod      0xA10d      
+  Aloe      0xA10e      
+  Also      0xA150      
+  Alto      0xA170      
+  Asci      0xA5c1      
+  Asse      0xA55e      
+  Assi      0xA551      
+  Asta      0xA57a      
+  Atef      0xA7ef      
+  Ates      0xA7e5      
+  Atis      0xA715      
+  Atle      0xA71e      
+  Atta      0xA77a      
+  Baal      0xBaa1      
+  Baba      0xBaba      
+  Babe      0xBabe      
+  Bade      0xBade      
+  Baff      0xBaff      
+  Baft      0xBaf7      
+  Bail      0xBa11      
+  Bait      0xBa17      
+  Bald      0xBa1d      
+  Bale      0xBa1e      
+  Bali      0xBa11      
+  Ball      0xBa11      
+  Base      0xBa5e      
+  Bass      0xBa55      
+  Bast      0xBa57      
+  Bate      0xBa7e      
+  Bats      0xBa75      
+  Batt      0xBa77      
+  Bead      0xBead      
+  Beal      0xBea1      
+  Beat      0xBea7      
+  Beef      0xBeef      
+  Bees      0xBee5      
+  Beet      0xBee7      
+  Bela      0xBe1a      
+  Beld      0xBe1d      
+  Bell      0xBe11      
+  Belt      0xBe17      
+  Besa      0xBe5a      
+  Best      0xBe57      
+  Beta      0xBe7a      
+  Bias      0xB1a5      
+  Bibb      0xB1bb      
+  Bibi      0xB1b1      
+  Bice      0xB1ce      
+  Bide      0xB1de      
+  Biff      0xB1ff      
+  Bile      0xB11e      
+  Bill      0xB111      
+  Bilo      0xB110      
+  Biod      0xB10d      
+  Bios      0xB105      
+  Bite      0xB17e      
+  Biti      0xB171      
+  Bito      0xB170      
+  Bitt      0xB177      
+  Blab      0xB1ab      
+  Blad      0xB1ad      
+  Blae      0xB1ae      
+  Blas      0xB1a5      
+  Blat      0xB1a7      
+  Bleb      0xB1eb      
+  Blee      0xB1ee      
+  Bleo      0xB1e0      
+  Blet      0xB1e7      
+  Blob      0xB10b      
+  Bloc      0xB10c      
+  Blot      0xB107      
+  Boat      0xB0a7      
+  Boba      0xB0ba      
+  Bobo      0xB0b0      
+  Boce      0xB0ce      
+  Bode      0xB0de      
+  Boid      0xB01d      
+  Boil      0xB011      
+  Bola      0xB01a      
+  Bold      0xB01d      
+  Bole      0xB01e      
+  Boll      0xB011      
+  Bolo      0xB010      
+  Bolt      0xB017      
+  Boob      0xB00b      
+  Bood      0xB00d      
+  Boof      0xB00f      
+  Bool      0xB001      
+  Boot      0xB007      
+  Bose      0xB05e      
+  Boss      0xB055      
+  Bota      0xB07a      
+  Bote      0xB07e      
+  Bott      0xB077      
+  Caba      0xCaba      
+  Cade      0xCade      
+  Cadi      0xCad1      
+  Caid      0xCa1d      
+  Calf      0xCa1f      
+  Call      0xCa11      
+  Case      0xCa5e      
+  Cass      0xCa55      
+  Cast      0xCa57      
+  Cate      0xCa7e      
+  Cede      0xCede      
+  Ceil      0xCe11      
+  Cell      0xCe11      
+  Celt      0xCe17      
+  Cess      0xCe55      
+  Cest      0xCe57      
+  Ceti      0xCe71      
+  Cise      0xC15e      
+  Cist      0xC157      
+  Cite      0xC17e      
+  Clad      0xC1ad      
+  Clat      0xC1a7      
+  Cled      0xC1ed      
+  Clee      0xC1ee      
+  Clef      0xC1ef      
+  Clit      0xC117      
+  Clod      0xC10d      
+  Clot      0xC107      
+  Coal      0xC0a1      
+  Coat      0xC0a7      
+  Coca      0xC0ca      
+  Coco      0xC0c0      
+  Coda      0xC0da      
+  Code      0xC0de      
+  Codo      0xC0d0      
+  Coed      0xC0ed      
+  Coff      0xC0ff      
+  Coft      0xC0f7      
+  Coif      0xC01f      
+  Coil      0xC011      
+  Cola      0xC01a      
+  Cold      0xC01d      
+  Cole      0xC01e      
+  Coli      0xC011      
+  Coll      0xC011      
+  Colt      0xC017      
+  Coof      0xC00f      
+  Cool      0xC001      
+  Coot      0xC007      
+  Coss      0xC055      
+  Cost      0xC057      
+  Cote      0xC07e      
+  Coto      0xC070      
+  Dabb      0xDabb      
+  Dace      0xDace      
+  Dada      0xDada      
+  Dade      0xDade      
+  Dado      0xDad0      
+  Daff      0xDaff      
+  Daft      0xDaf7      
+  Dais      0xDa15      
+  Dale      0xDa1e      
+  Dali      0xDa11      
+  Dalt      0xDa17      
+  Dasi      0xDa51      
+  Data      0xDa7a      
+  Date      0xDa7e      
+  Dead      0xDead      
+  Deaf      0xDeaf      
+  Deal      0xDea1      
+  Debt      0xDeb7      
+  Dedo      0xDed0      
+  Deed      0xDeed      
+  Deft      0xDef7      
+  Dele      0xDe1e      
+  Delf      0xDe1f      
+  Dell      0xDe11      
+  Desi      0xDe51      
+  Dess      0xDe55      
+  Dial      0xD1a1      
+  Dibs      0xD1b5      
+  Dice      0xD1ce      
+  Dieb      0xD1eb      
+  Diet      0xD1e7      
+  Dill      0xD111      
+  Dilo      0xD110      
+  Diol      0xD101      
+  Disc      0xD15c      
+  Diss      0xD155      
+  Dita      0xD17a      
+  Dite      0xD17e      
+  Doab      0xD0ab      
+  Doat      0xD0a7      
+  Dobe      0xD0be      
+  Dodd      0xD0dd      
+  Dodo      0xD0d0      
+  Does      0xD0e5      
+  Doff      0xD0ff      
+  Doit      0xD017      
+  Dola      0xD01a      
+  Dole      0xD01e      
+  Doli      0xD011      
+  Doll      0xD011      
+  Dolt      0xD017      
+  Doob      0xD00b      
+  Dool      0xD001      
+  Dosa      0xD05a      
+  Dose      0xD05e      
+  Doss      0xD055      
+  Dote      0xD07e      
+  Ease      0xEa5e      
+  East      0xEa57      
+  Eats      0xEa75      
+  Eboe      0xEb0e      
+  Ecad      0xEcad      
+  Eddo      0xEdd0      
+  Edea      0xEdea      
+  Edit      0xEd17      
+  Elle      0xE11e      
+  Elod      0xE10d      
+  Else      0xE15e      
+  Esca      0xE5ca      
+  Face      0xFace      
+  Fact      0xFac7      
+  Fade      0xFade      
+  Faff      0xFaff      
+  Fail      0xFa11      
+  Fall      0xFa11      
+  Fass      0xFa55      
+  Fast      0xFa57      
+  Fate      0xFa7e      
+  Feal      0xFea1      
+  Feat      0xFea7      
+  Feed      0xFeed      
+  Feel      0xFee1      
+  Feif      0xFe1f      
+  Feil      0xFe11      
+  Feis      0xFe15      
+  Fell      0xFe11      
+  Fels      0xFe15      
+  Felt      0xFe17      
+  Feod      0xFe0d      
+  Fess      0xFe55      
+  Fest      0xFe57      
+  Fiat      0xF1a7      
+  Fice      0xF1ce      
+  Fico      0xF1c0      
+  Fide      0xF1de      
+  Fife      0xF1fe      
+  Fifo      0xF1f0      
+  File      0xF11e      
+  Fill      0xF111      
+  Filo      0xF110      
+  Fils      0xF115      
+  Fisc      0xF15c      
+  Fise      0xF15e      
+  Fist      0xF157      
+  Flat      0xF1a7      
+  Flea      0xF1ea      
+  Fled      0xF1ed      
+  Flee      0xF1ee      
+  Flet      0xF1e7      
+  Flit      0xF117      
+  Flob      0xF10b      
+  Floc      0xF10c      
+  Floe      0xF10e      
+  Flot      0xF107      
+  Foal      0xF0a1      
+  Foci      0xF0c1      
+  Foil      0xF011      
+  Fold      0xF01d      
+  Fole      0xF01e      
+  Food      0xF00d      
+  Fool      0xF001      
+  Foot      0xF007      
+  Ibid      0x1b1d      
+  Ibis      0x1b15      
+  Iced      0x1ced      
+  Idea      0x1dea      
+  Ides      0x1de5      
+  Idic      0x1d1c      
+  Idle      0x1d1e      
+  Idol      0x1d01      
+  Ilia      0x111a      
+  Ilot      0x1107      
+  Iodo      0x10d0      
+  Iota      0x107a      
+  Isba      0x15ba      
+  Isle      0x151e      
+  Lace      0x1ace      
+  Lade      0x1ade      
+  Laet      0x1ae7      
+  Laic      0x1a1c      
+  Laid      0x1a1d      
+  Lall      0x1a11      
+  Lalo      0x1a10      
+  Lasa      0x1a5a      
+  Lass      0x1a55      
+  Last      0x1a57      
+  Lata      0x1a7a      
+  Late      0x1a7e      
+  Lead      0x1ead      
+  Leaf      0x1eaf      
+  Leal      0x1ea1      
+  Leat      0x1ea7      
+  Lede      0x1ede      
+  Leed      0x1eed      
+  Lees      0x1ee5      
+  Leet      0x1ee7      
+  Left      0x1ef7      
+  Less      0x1e55      
+  Lest      0x1e57      
+  Lete      0x1e7e      
+  Lied      0x11ed      
+  Lief      0x11ef      
+  Life      0x11fe      
+  Lifo      0x11f0      
+  Lift      0x11f7      
+  Lile      0x111e      
+  Lill      0x1111      
+  Lilt      0x1117      
+  Liss      0x1155      
+  List      0x1157      
+  Lite      0x117e      
+  Load      0x10ad      
+  Loaf      0x10af      
+  Lobe      0x10be      
+  Lobo      0x10b0      
+  Loca      0x10ca      
+  Loci      0x10c1      
+  Loco      0x10c0      
+  Lode      0x10de      
+  Loft      0x10f7      
+  Loll      0x1011      
+  Lood      0x100d      
+  Loof      0x100f      
+  Loot      0x1007      
+  Lose      0x105e      
+  Loss      0x1055      
+  Lost      0x1057      
+  Lota      0x107a      
+  Lote      0x107e      
+  Lots      0x1075      
+  Oast      0x0a57      
+  Obit      0x0b17      
+  Oboe      0x0b0e      
+  Obol      0x0b01      
+  Odal      0x0da1      
+  Odds      0x0dd5      
+  Odel      0x0de1      
+  Odic      0x0d1c      
+  Odso      0x0d50      
+  Oleo      0x01e0      
+  Olid      0x011d      
+  Olio      0x0110      
+  Olla      0x011a      
+  Ooid      0x001d      
+  Osse      0x055e      
+  Otic      0x071c      
+  Otto      0x0770      
+  Sabe      0x5abe      
+  Saco      0x5ac0      
+  Sade      0x5ade      
+  Sado      0x5ad0      
+  Safe      0x5afe      
+  Saft      0x5af7      
+  Saic      0x5a1c      
+  Said      0x5a1d      
+  Sail      0x5a11      
+  Sale      0x5a1e      
+  Salt      0x5a17      
+  Sasa      0x5a5a      
+  Sate      0x5a7e      
+  Scab      0x5cab      
+  Scad      0x5cad      
+  Scat      0x5ca7      
+  Scob      0x5c0b      
+  Scot      0x5c07      
+  Seal      0x5ea1      
+  Seat      0x5ea7      
+  Sect      0x5ec7      
+  Seed      0x5eed      
+  Seel      0x5ee1      
+  Seit      0x5e17      
+  Sele      0x5e1e      
+  Self      0x5e1f      
+  Sell      0x5e11      
+  Selt      0x5e17      
+  Sess      0x5e55      
+  Seta      0x5e7a      
+  Sett      0x5e77      
+  Sial      0x51a1      
+  Sice      0x51ce      
+  Side      0x51de      
+  Sidi      0x51d1      
+  Sife      0x51fe      
+  Sift      0x51f7      
+  Sile      0x511e      
+  Sill      0x5111      
+  Silo      0x5110      
+  Silt      0x5117      
+  Siol      0x5101      
+  Sise      0x515e      
+  Sisi      0x5151      
+  Siss      0x5155      
+  Sist      0x5157      
+  Site      0x517e      
+  Slab      0x51ab      
+  Slad      0x51ad      
+  Slae      0x51ae      
+  Slat      0x51a7      
+  Sled      0x51ed      
+  Slee      0x51ee      
+  Slid      0x511d      
+  Slit      0x5117      
+  Slob      0x510b      
+  Slod      0x510d      
+  Sloe      0x510e      
+  Sloo      0x5100      
+  Slot      0x5107      
+  Soce      0x50ce      
+  Soco      0x50c0      
+  Soda      0x50da      
+  Sofa      0x50fa      
+  Soft      0x50f7      
+  Soil      0x5011      
+  Sola      0x501a      
+  Sold      0x501d      
+  Sole      0x501e      
+  Soli      0x5011      
+  Solo      0x5010      
+  Sool      0x5001      
+  Soot      0x5007      
+  Soso      0x5050      
+  Soss      0x5055      
+  Sots      0x5075      
+  Stab      0x57ab      
+  Stet      0x57e7      
+  Stib      0x571b      
+  Stid      0x571d      
+  Stoa      0x570a      
+  Stob      0x570b      
+  Stod      0x570d      
+  Stof      0x570f      
+  Stot      0x5707      
+  Tact      0x7ac7      
+  Tade      0x7ade      
+  Tael      0x7ae1      
+  Taft      0x7af7      
+  Tail      0x7a11      
+  Tait      0x7a17      
+  Tala      0x7a1a      
+  Talc      0x7a1c      
+  Tald      0x7a1d      
+  Tale      0x7a1e      
+  Tali      0x7a11      
+  Tall      0x7a11      
+  Tass      0x7a55      
+  Tate      0x7a7e      
+  Tead      0x7ead      
+  Teal      0x7ea1      
+  Teat      0x7ea7      
+  Teca      0x7eca      
+  Teel      0x7ee1      
+  Teet      0x7ee7      
+  Teff      0x7eff      
+  Teil      0x7e11      
+  Tele      0x7e1e      
+  Teli      0x7e11      
+  Tell      0x7e11      
+  Telt      0x7e17      
+  Test      0x7e57      
+  Tete      0x7e7e      
+  Tiao      0x71a0      
+  Tice      0x71ce      
+  Tide      0x71de      
+  Tied      0x71ed      
+  Tiff      0x71ff      
+  Tift      0x71f7      
+  Tile      0x711e      
+  Till      0x7111      
+  Tilt      0x7117      
+  Tite      0x717e      
+  Titi      0x7171      
+  Toad      0x70ad      
+  Toat      0x70a7      
+  Tobe      0x70be      
+  Toco      0x70c0      
+  Tode      0x70de      
+  Toed      0x70ed      
+  Toff      0x70ff      
+  Toft      0x70f7      
+  Toil      0x7011      
+  Toit      0x7017      
+  Told      0x701d      
+  Tole      0x701e      
+  Toll      0x7011      
+  Tolt      0x7017      
+  Tool      0x7001      
+  Toot      0x7007      
+  Toss      0x7055      
+  Tost      0x7057      
+  Tote      0x707e      
+  Toto      0x7070      
+  Tsia      0x751a      
+  --------------------
+  Count: 527
+ 
+===> 166/1/colin-crain.pl <===
+8 characters:
+
+7 characters:
+
+6 characters:
+
+5 characters:
+
+4 characters:
+      abac  =>  abac      
+      abas  =>  aba5      
+      abed  =>  abed      
+      abet  =>  abe7      
+      able  =>  ab1e      
+      acca  =>  acca      
+      acid  =>  ac1d      
+      acle  =>  ac1e      
+      acta  =>  ac7a      
+      adad  =>  adad      
+      adat  =>  ada7      
+      adda  =>  adda      
+      adet  =>  ade7      
+      adit  =>  ad17      
+      affa  =>  affa      
+      aide  =>  a1de      
+      aiel  =>  a1e1      
+      aile  =>  a11e      
+      alas  =>  a1a5      
+      alba  =>  a1ba      
+      albe  =>  a1be      
+      alco  =>  a1c0      
+      alec  =>  a1ec      
+      alee  =>  a1ee      
+      alef  =>  a1ef      
+      alfa  =>  a1fa      
+      alif  =>  a11f      
+      alit  =>  a117      
+      alod  =>  a10d      
+      aloe  =>  a10e      
+      also  =>  a150      
+      alto  =>  a170      
+      asci  =>  a5c1      
+      asse  =>  a55e      
+      assi  =>  a551      
+      asta  =>  a57a      
+      atef  =>  a7ef      
+      ates  =>  a7e5      
+      atis  =>  a715      
+      atle  =>  a71e      
+      atta  =>  a77a      
+      baal  =>  baa1      
+      baba  =>  baba      
+      babe  =>  babe      
+      bade  =>  bade      
+      baff  =>  baff      
+      baft  =>  baf7      
+      bail  =>  ba11      
+      bait  =>  ba17      
+      bald  =>  ba1d      
+      bale  =>  ba1e      
+      bali  =>  ba11      
+      ball  =>  ba11      
+      base  =>  ba5e      
+      bass  =>  ba55      
+      bast  =>  ba57      
+      bate  =>  ba7e      
+      bats  =>  ba75      
+      batt  =>  ba77      
+      bead  =>  bead      
+      beal  =>  bea1      
+      beat  =>  bea7      
+      beef  =>  beef      
+      bees  =>  bee5      
+      beet  =>  bee7      
+      bela  =>  be1a      
+      beld  =>  be1d      
+      bell  =>  be11      
+      belt  =>  be17      
+      besa  =>  be5a      
+      best  =>  be57      
+      beta  =>  be7a      
+      bias  =>  b1a5      
+      bibb  =>  b1bb      
+      bibi  =>  b1b1      
+      bice  =>  b1ce      
+      bide  =>  b1de      
+      biff  =>  b1ff      
+      bile  =>  b11e      
+      bill  =>  b111      
+      bilo  =>  b110      
+      biod  =>  b10d      
+      bios  =>  b105      
+      bite  =>  b17e      
+      biti  =>  b171      
+      bito  =>  b170      
+      bitt  =>  b177      
+      blab  =>  b1ab      
+      blad  =>  b1ad      
+      blae  =>  b1ae      
+      blas  =>  b1a5      
+      blat  =>  b1a7      
+      bleb  =>  b1eb      
+      blee  =>  b1ee      
+      bleo  =>  b1e0      
+      blet  =>  b1e7      
+      blob  =>  b10b      
+      bloc  =>  b10c      
+      blot  =>  b107      
+      boat  =>  b0a7      
+      boba  =>  b0ba      
+      bobo  =>  b0b0      
+      boce  =>  b0ce      
+      bode  =>  b0de      
+      boid  =>  b01d      
+      boil  =>  b011      
+      bola  =>  b01a      
+      bold  =>  b01d      
+      bole  =>  b01e      
+      boll  =>  b011      
+      bolo  =>  b010      
+      bolt  =>  b017      
+      boob  =>  b00b      
+      bood  =>  b00d      
+      boof  =>  b00f      
+      bool  =>  b001      
+      boot  =>  b007      
+      bose  =>  b05e      
+      boss  =>  b055      
+      bota  =>  b07a      
+      bote  =>  b07e      
+      bott  =>  b077      
+      caba  =>  caba      
+      cade  =>  cade      
+      cadi  =>  cad1      
+      caid  =>  ca1d      
+      calf  =>  ca1f      
+      call  =>  ca11      
+      case  =>  ca5e      
+      cass  =>  ca55      
+      cast  =>  ca57      
+      cate  =>  ca7e      
+      cede  =>  cede      
+      ceil  =>  ce11      
+      cell  =>  ce11      
+      celt  =>  ce17      
+      cess  =>  ce55      
+      cest  =>  ce57      
+      ceti  =>  ce71      
+      cise  =>  c15e      
+      cist  =>  c157      
+      cite  =>  c17e      
+      clad  =>  c1ad      
+      clat  =>  c1a7      
+      cled  =>  c1ed      
+      clee  =>  c1ee      
+      clef  =>  c1ef      
+      clit  =>  c117      
+      clod  =>  c10d      
+      clot  =>  c107      
+      coal  =>  c0a1      
+      coat  =>  c0a7      
+      coca  =>  c0ca      
+      coco  =>  c0c0      
+      coda  =>  c0da      
+      code  =>  c0de      
+      codo  =>  c0d0      
+      coed  =>  c0ed      
+      coff  =>  c0ff      
+      coft  =>  c0f7      
+      coif  =>  c01f      
+      coil  =>  c011      
+      cola  =>  c01a      
+      cold  =>  c01d      
+      cole  =>  c01e      
+      coli  =>  c011      
+      coll  =>  c011      
+      colt  =>  c017      
+      coof  =>  c00f      
+      cool  =>  c001      
+      coot  =>  c007      
+      coss  =>  c055      
+      cost  =>  c057      
+      cote  =>  c07e      
+      coto  =>  c070      
+      dabb  =>  dabb      
+      dace  =>  dace      
+      dada  =>  dada      
+      dade  =>  dade      
+      dado  =>  dad0      
+      daff  =>  daff      
+      daft  =>  daf7      
+      dais  =>  da15      
+      dale  =>  da1e      
+      dali  =>  da11      
+      dalt  =>  da17      
+      dasi  =>  da51      
+      data  =>  da7a      
+      date  =>  da7e      
+      dead  =>  dead      
+      deaf  =>  deaf      
+      deal  =>  dea1      
+      debt  =>  deb7      
+      dedo  =>  ded0      
+      deed  =>  deed      
+      deft  =>  def7      
+      dele  =>  de1e      
+      delf  =>  de1f      
+      dell  =>  de11      
+      desi  =>  de51      
+      dess  =>  de55      
+      dial  =>  d1a1      
+      dibs  =>  d1b5      
+      dice  =>  d1ce      
+      dieb  =>  d1eb      
+      diet  =>  d1e7      
+      dill  =>  d111      
+      dilo  =>  d110      
+      diol  =>  d101      
+      disc  =>  d15c      
+      diss  =>  d155      
+      dita  =>  d17a      
+      dite  =>  d17e      
+      doab  =>  d0ab      
+      doat  =>  d0a7      
+      dobe  =>  d0be      
+      dodd  =>  d0dd      
+      dodo  =>  d0d0      
+      does  =>  d0e5      
+      doff  =>  d0ff      
+      doit  =>  d017      
+      dola  =>  d01a      
+      dole  =>  d01e      
+      doli  =>  d011      
+      doll  =>  d011      
+      dolt  =>  d017      
+      doob  =>  d00b      
+      dool  =>  d001      
+      dosa  =>  d05a      
+      dose  =>  d05e      
+      doss  =>  d055      
+      dote  =>  d07e      
+      ease  =>  ea5e      
+      east  =>  ea57      
+      eats  =>  ea75      
+      eboe  =>  eb0e      
+      ecad  =>  ecad      
+      eddo  =>  edd0      
+      edea  =>  edea      
+      edit  =>  ed17      
+      elle  =>  e11e      
+      elod  =>  e10d      
+      else  =>  e15e      
+      esca  =>  e5ca      
+      face  =>  face      
+      fact  =>  fac7      
+      fade  =>  fade      
+      faff  =>  faff      
+      fail  =>  fa11      
+      fall  =>  fa11      
+      fass  =>  fa55      
+      fast  =>  fa57      
+      fate  =>  fa7e      
+      feal  =>  fea1      
+      feat  =>  fea7      
+      feed  =>  feed      
+      feel  =>  fee1      
+      feif  =>  fe1f      
+      feil  =>  fe11      
+      feis  =>  fe15      
+      fell  =>  fe11      
+      fels  =>  fe15      
+      felt  =>  fe17      
+      feod  =>  fe0d      
+      fess  =>  fe55      
+      fest  =>  fe57      
+      fiat  =>  f1a7      
+      fice  =>  f1ce      
+      fico  =>  f1c0      
+      fide  =>  f1de      
+      fife  =>  f1fe      
+      fifo  =>  f1f0      
+      file  =>  f11e      
+      fill  =>  f111      
+      filo  =>  f110      
+      fils  =>  f115      
+      fisc  =>  f15c      
+      fise  =>  f15e      
+      fist  =>  f157      
+      flat  =>  f1a7      
+      flea  =>  f1ea      
+      fled  =>  f1ed      
+      flee  =>  f1ee      
+      flet  =>  f1e7      
+      flit  =>  f117      
+      flob  =>  f10b      
+      floc  =>  f10c      
+      floe  =>  f10e      
+      flot  =>  f107      
+      foal  =>  f0a1      
+      foci  =>  f0c1      
+      foil  =>  f011      
+      fold  =>  f01d      
+      fole  =>  f01e      
+      food  =>  f00d      
+      fool  =>  f001      
+      foot  =>  f007      
+      ibid  =>  1b1d      
+      ibis  =>  1b15      
+      iced  =>  1ced      
+      idea  =>  1dea      
+      ides  =>  1de5      
+      idic  =>  1d1c      
+      idle  =>  1d1e      
+      idol  =>  1d01      
+      ilia  =>  111a      
+      ilot  =>  1107      
+      iodo  =>  10d0      
+      iota  =>  107a      
+      isba  =>  15ba      
+      isle  =>  151e      
+      lace  =>  1ace      
+      lade  =>  1ade      
+      laet  =>  1ae7      
+      laic  =>  1a1c      
+      laid  =>  1a1d      
+      lall  =>  1a11      
+      lalo  =>  1a10      
+      lasa  =>  1a5a      
+      lass  =>  1a55      
+      last  =>  1a57      
+      lata  =>  1a7a      
+      late  =>  1a7e      
+      lead  =>  1ead      
+      leaf  =>  1eaf      
+      leal  =>  1ea1      
+      leat  =>  1ea7      
+      lede  =>  1ede      
+      leed  =>  1eed      
+      lees  =>  1ee5      
+      leet  =>  1ee7      
+      left  =>  1ef7      
+      less  =>  1e55      
+      lest  =>  1e57      
+      lete  =>  1e7e      
+      lied  =>  11ed      
+      lief  =>  11ef      
+      life  =>  11fe      
+      lifo  =>  11f0      
+      lift  =>  11f7      
+      lile  =>  111e      
+      lill  =>  1111      
+      lilt  =>  1117      
+      liss  =>  1155      
+      list  =>  1157      
+      lite  =>  117e      
+      load  =>  10ad      
+      loaf  =>  10af      
+      lobe  =>  10be      
+      lobo  =>  10b0      
+      loca  =>  10ca      
+      loci  =>  10c1      
+      loco  =>  10c0      
+      lode  =>  10de      
+      loft  =>  10f7      
+      loll  =>  1011      
+      lood  =>  100d      
+      loof  =>  100f      
+      loot  =>  1007      
+      lose  =>  105e      
+      loss  =>  1055      
+      lost  =>  1057      
+      lota  =>  107a      
+      lote  =>  107e      
+      lots  =>  1075      
+      oast  =>  0a57      
+      obit  =>  0b17      
+      oboe  =>  0b0e      
+      obol  =>  0b01      
+      odal  =>  0da1      
+      odds  =>  0dd5      
+      odel  =>  0de1      
+      odic  =>  0d1c      
+      odso  =>  0d50      
+      oleo  =>  01e0      
+      olid  =>  011d      
+      olio  =>  0110      
+      olla  =>  011a      
+      ooid  =>  001d      
+      osse  =>  055e      
+      otic  =>  071c      
+      otto  =>  0770      
+      sabe  =>  5abe      
+      saco  =>  5ac0      
+      sade  =>  5ade      
+      sado  =>  5ad0      
+      safe  =>  5afe      
+      saft  =>  5af7      
+      saic  =>  5a1c      
+      said  =>  5a1d      
+      sail  =>  5a11      
+      sale  =>  5a1e      
+      salt  =>  5a17      
+      sasa  =>  5a5a      
+      sate  =>  5a7e      
+      scab  =>  5cab      
+      scad  =>  5cad      
+      scat  =>  5ca7      
+      scob  =>  5c0b      
+      scot  =>  5c07      
+      seal  =>  5ea1      
+      seat  =>  5ea7      
+      sect  =>  5ec7      
+      seed  =>  5eed      
+      seel  =>  5ee1      
+      seit  =>  5e17      
+      sele  =>  5e1e      
+      self  =>  5e1f      
+      sell  =>  5e11      
+      selt  =>  5e17      
+      sess  =>  5e55      
+      seta  =>  5e7a      
+      sett  =>  5e77      
+      sial  =>  51a1      
+      sice  =>  51ce      
+      side  =>  51de      
+      sidi  =>  51d1      
+      sife  =>  51fe      
+      sift  =>  51f7      
+      sile  =>  511e      
+      sill  =>  5111      
+      silo  =>  5110      
+      silt  =>  5117      
+      siol  =>  5101      
+      sise  =>  515e      
+      sisi  =>  5151      
+      siss  =>  5155      
+      sist  =>  5157      
+      site  =>  517e      
+      slab  =>  51ab      
+      slad  =>  51ad      
+      slae  =>  51ae      
+      slat  =>  51a7      
+      sled  =>  51ed      
+      slee  =>  51ee      
+      slid  =>  511d      
+      slit  =>  5117      
+      slob  =>  510b      
+      slod  =>  510d      
+      sloe  =>  510e      
+      sloo  =>  5100      
+      slot  =>  5107      
+      soce  =>  50ce      
+      soco  =>  50c0      
+      soda  =>  50da      
+      sofa  =>  50fa      
+      soft  =>  50f7      
+      soil  =>  5011      
+      sola  =>  501a      
+      sold  =>  501d      
+      sole  =>  501e      
+      soli  =>  5011      
+      solo  =>  5010      
+      sool  =>  5001      
+      soot  =>  5007      
+      soso  =>  5050      
+      soss  =>  5055      
+      sots  =>  5075      
+      stab  =>  57ab      
+      stet  =>  57e7      
+      stib  =>  571b      
+      stid  =>  571d      
+      stoa  =>  570a      
+      stob  =>  570b      
+      stod  =>  570d      
+      stof  =>  570f      
+      stot  =>  5707      
+      tact  =>  7ac7      
+      tade  =>  7ade      
+      tael  =>  7ae1      
+      taft  =>  7af7      
+      tail  =>  7a11      
+      tait  =>  7a17      
+      tala  =>  7a1a      
+      talc  =>  7a1c      
+      tald  =>  7a1d      
+      tale  =>  7a1e      
+      tali  =>  7a11      
+      tall  =>  7a11      
+      tass  =>  7a55      
+      tate  =>  7a7e      
+      tead  =>  7ead      
+      teal  =>  7ea1      
+      teat  =>  7ea7      
+      teca  =>  7eca      
+      teel  =>  7ee1      
+      teet  =>  7ee7      
+      teff  =>  7eff      
+      teil  =>  7e11      
+      tele  =>  7e1e      
+      teli  =>  7e11      
+      tell  =>  7e11      
+      telt  =>  7e17      
+      test  =>  7e57      
+      tete  =>  7e7e      
+      tiao  =>  71a0      
+      tice  =>  71ce      
+      tide  =>  71de      
+      tied  =>  71ed      
+      tiff  =>  71ff      
+      tift  =>  71f7      
+      tile  =>  711e      
+      till  =>  7111      
+      tilt  =>  7117      
+      tite  =>  717e      
+      titi  =>  7171      
+      toad  =>  70ad      
+      toat  =>  70a7      
+      tobe  =>  70be      
+      toco  =>  70c0      
+      tode  =>  70de      
+      toed  =>  70ed      
+      toff  =>  70ff      
+      toft  =>  70f7      
+      toil  =>  7011      
+      toit  =>  7017      
+      told  =>  701d      
+      tole  =>  701e      
+      toll  =>  7011      
+      tolt  =>  7017      
+      tool  =>  7001      
+      toot  =>  7007      
+      toss  =>  7055      
+      tost  =>  7057      
+      tote  =>  707e      
+      toto  =>  7070      
+      tsia  =>  751a      
+
+3 characters:
+
+2 characters:
+
+ 
+===> 166/1/dave-jacoby.pl <===
+ +  abac
+	0xabac 
+ +  abas
+	0xaba5 
+ +  abed
+	0xabed 
+ +  abet
+	0xabe7 
+ +  able
+	0xab1e 
+ +  acca
+	0xacca 
+ +  acid
+	0xac1d 
+ +  acle
+	0xac1e 
+ +  acta
+	0xac7a 
+ +  adad
+	0xadad 
+ +  adat
+	0xada7 
+ +  adda
+	0xadda 
+ +  adet
+	0xade7 
+ +  adit
+	0xad17 
+ +  affa
+	0xaffa 
+ +  aide
+	0xa1de 
+ +  aiel
+	0xa1e1 
+ +  aile
+	0xa11e 
+ +  alas
+	0xa1a5 
+ +  alba
+	0xa1ba 
+ +  albe
+	0xa1be 
+ +  alco
+	0xa1c0 
+ +  alec
+	0xa1ec 
+ +  alee
+	0xa1ee 
+ +  alef
+	0xa1ef 
+ +  alfa
+	0xa1fa 
+ +  alif
+	0xa11f 
+ +  alit
+	0xa117 
+ +  alod
+	0xa10d 
+ +  aloe
+	0xa10e 
+ +  also
+	0xa150 
+ +  alto
+	0xa170 
+ +  asci
+	0xa5c1 
+ +  asse
+	0xa55e 
+ +  assi
+	0xa551 
+ +  asta
+	0xa57a 
+ +  atef
+	0xa7ef 
+ +  ates
+	0xa7e5 
+ +  atis
+	0xa715 
+ +  atle
+	0xa71e 
+ +  atta
+	0xa77a 
+ +  baal
+	0xbaa1 
+ +  baba
+	0xbaba 
+ +  babe
+	0xbabe 
+ +  bade
+	0xbade 
+ +  baff
+	0xbaff 
+ +  baft
+	0xbaf7 
+ +  bail
+	0xba11 
+ +  bait
+	0xba17 
+ +  bald
+	0xba1d 
+ +  bale
+	0xba1e 
+ +  bali
+	0xba11 
+ +  ball
+	0xba11 
+ +  base
+	0xba5e 
+ +  bass
+	0xba55 
+ +  bast
+	0xba57 
+ +  bate
+	0xba7e 
+ +  bats
+	0xba75 
+ +  batt
+	0xba77 
+ +  bead
+	0xbead 
+ +  beal
+	0xbea1 
+ +  beat
+	0xbea7 
+ +  beef
+	0xbeef 
+ +  bees
+	0xbee5 
+ +  beet
+	0xbee7 
+ +  bela
+	0xbe1a 
+ +  beld
+	0xbe1d 
+ +  bell
+	0xbe11 
+ +  belt
+	0xbe17 
+ +  besa
+	0xbe5a 
+ +  best
+	0xbe57 
+ +  beta
+	0xbe7a 
+ +  bias
+	0xb1a5 
+ +  bibb
+	0xb1bb 
+ +  bibi
+	0xb1b1 
+ +  bice
+	0xb1ce 
+ +  bide
+	0xb1de 
+ +  biff
+	0xb1ff 
+ +  bile
+	0xb11e 
+ +  bill
+	0xb111 
+ +  bilo
+	0xb110 
+ +  biod
+	0xb10d 
+ +  bios
+	0xb105 
+ +  bite
+	0xb17e 
+ +  biti
+	0xb171 
+ +  bito
+	0xb170 
+ +  bitt
+	0xb177 
+ +  blab
+	0xb1ab 
+ +  blad
+	0xb1ad 
+ +  blae
+	0xb1ae 
+ +  blas
+	0xb1a5 
+ +  blat
+	0xb1a7 
+ +  bleb
+	0xb1eb 
+ +  blee
+	0xb1ee 
+ +  bleo
+	0xb1e0 
+ +  blet
+	0xb1e7 
+ +  blob
+	0xb10b 
+ +  bloc
+	0xb10c 
+ +  blot
+	0xb107 
+ +  boat
+	0xb0a7 
+ +  boba
+	0xb0ba 
+ +  bobo
+	0xb0b0 
+ +  boce
+	0xb0ce 
+ +  bode
+	0xb0de 
+ +  boid
+	0xb01d 
+ +  boil
+	0xb011 
+ +  bola
+	0xb01a 
+ +  bold
+	0xb01d 
+ +  bole
+	0xb01e 
+ +  boll
+	0xb011 
+ +  bolo
+	0xb010 
+ +  bolt
+	0xb017 
+ +  boob
+	0xb00b 
+ +  bood
+	0xb00d 
+ +  boof
+	0xb00f 
+ +  bool
+	0xb001 
+ +  boot
+	0xb007 
+ +  bose
+	0xb05e 
+ +  boss
+	0xb055 
+ +  bota
+	0xb07a 
+ +  bote
+	0xb07e 
+ +  bott
+	0xb077 
+ +  caba
+	0xcaba 
+ +  cade
+	0xcade 
+ +  cadi
+	0xcad1 
+ +  caid
+	0xca1d 
+ +  calf
+	0xca1f 
+ +  call
+	0xca11 
+ +  case
+	0xca5e 
+ +  cass
+	0xca55 
+ +  cast
+	0xca57 
+ +  cate
+	0xca7e 
+ +  cede
+	0xcede 
+ +  ceil
+	0xce11 
+ +  cell
+	0xce11 
+ +  celt
+	0xce17 
+ +  cess
+	0xce55 
+ +  cest
+	0xce57 
+ +  ceti
+	0xce71 
+ +  cise
+	0xc15e 
+ +  cist
+	0xc157 
+ +  cite
+	0xc17e 
+ +  clad
+	0xc1ad 
+ +  clat
+	0xc1a7 
+ +  cled
+	0xc1ed 
+ +  clee
+	0xc1ee 
+ +  clef
+	0xc1ef 
+ +  clit
+	0xc117 
+ +  clod
+	0xc10d 
+ +  clot
+	0xc107 
+ +  coal
+	0xc0a1 
+ +  coat
+	0xc0a7 
+ +  coca
+	0xc0ca 
+ +  coco
+	0xc0c0 
+ +  coda
+	0xc0da 
+ +  code
+	0xc0de 
+ +  codo
+	0xc0d0 
+ +  coed
+	0xc0ed 
+ +  coff
+	0xc0ff 
+ +  coft
+	0xc0f7 
+ +  coif
+	0xc01f 
+ +  coil
+	0xc011 
+ +  cola
+	0xc01a 
+ +  cold
+	0xc01d 
+ +  cole
+	0xc01e 
+ +  coli
+	0xc011 
+ +  coll
+	0xc011 
+ +  colt
+	0xc017 
+ +  coof
+	0xc00f 
+ +  cool
+	0xc001 
+ +  coot
+	0xc007 
+ +  coss
+	0xc055 
+ +  cost
+	0xc057 
+ +  cote
+	0xc07e 
+ +  coto
+	0xc070 
+ +  dabb
+	0xdabb 
+ +  dace
+	0xdace 
+ +  dada
+	0xdada 
+ +  dade
+	0xdade 
+ +  dado
+	0xdad0 
+ +  daff
+	0xdaff 
+ +  daft
+	0xdaf7 
+ +  dais
+	0xda15 
+ +  dale
+	0xda1e 
+ +  dali
+	0xda11 
+ +  dalt
+	0xda17 
+ +  dasi
+	0xda51 
+ +  data
+	0xda7a 
+ +  date
+	0xda7e 
+ +  dead
+	0xdead 
+ +  deaf
+	0xdeaf 
+ +  deal
+	0xdea1 
+ +  debt
+	0xdeb7 
+ +  dedo
+	0xded0 
+ +  deed
+	0xdeed 
+ +  deft
+	0xdef7 
+ +  dele
+	0xde1e 
+ +  delf
+	0xde1f 
+ +  dell
+	0xde11 
+ +  desi
+	0xde51 
+ +  dess
+	0xde55 
+ +  dial
+	0xd1a1 
+ +  dibs
+	0xd1b5 
+ +  dice
+	0xd1ce 
+ +  dieb
+	0xd1eb 
+ +  diet
+	0xd1e7 
+ +  dill
+	0xd111 
+ +  dilo
+	0xd110 
+ +  diol
+	0xd101 
+ +  disc
+	0xd15c 
+ +  diss
+	0xd155 
+ +  dita
+	0xd17a 
+ +  dite
+	0xd17e 
+ +  doab
+	0xd0ab 
+ +  doat
+	0xd0a7 
+ +  dobe
+	0xd0be 
+ +  dodd
+	0xd0dd 
+ +  dodo
+	0xd0d0 
+ +  does
+	0xd0e5 
+ +  doff
+	0xd0ff 
+ +  doit
+	0xd017 
+ +  dola
+	0xd01a 
+ +  dole
+	0xd01e 
+ +  doli
+	0xd011 
+ +  doll
+	0xd011 
+ +  dolt
+	0xd017 
+ +  doob
+	0xd00b 
+ +  dool
+	0xd001 
+ +  dosa
+	0xd05a 
+ +  dose
+	0xd05e 
+ +  doss
+	0xd055 
+ +  dote
+	0xd07e 
+ +  ease
+	0xea5e 
+ +  east
+	0xea57 
+ +  eats
+	0xea75 
+ +  eboe
+	0xeb0e 
+ +  ecad
+	0xecad 
+ +  eddo
+	0xedd0 
+ +  edea
+	0xedea 
+ +  edit
+	0xed17 
+ +  elle
+	0xe11e 
+ +  elod
+	0xe10d 
+ +  else
+	0xe15e 
+ +  esca
+	0xe5ca 
+ +  face
+	0xface 
+ +  fact
+	0xfac7 
+ +  fade
+	0xfade 
+ +  faff
+	0xfaff 
+ +  fail
+	0xfa11 
+ +  fall
+	0xfa11 
+ +  fass
+	0xfa55 
+ +  fast
+	0xfa57 
+ +  fate
+	0xfa7e 
+ +  feal
+	0xfea1 
+ +  feat
+	0xfea7 
+ +  feed
+	0xfeed 
+ +  feel
+	0xfee1 
+ +  feif
+	0xfe1f 
+ +  feil
+	0xfe11 
+ +  feis
+	0xfe15 
+ +  fell
+	0xfe11 
+ +  fels
+	0xfe15 
+ +  felt
+	0xfe17 
+ +  feod
+	0xfe0d 
+ +  fess
+	0xfe55 
+ +  fest
+	0xfe57 
+ +  fiat
+	0xf1a7 
+ +  fice
+	0xf1ce 
+ +  fico
+	0xf1c0 
+ +  fide
+	0xf1de 
+ +  fife
+	0xf1fe 
+ +  fifo
+	0xf1f0 
+ +  file
+	0xf11e 
+ +  fill
+	0xf111 
+ +  filo
+	0xf110 
+ +  fils
+	0xf115 
+ +  fisc
+	0xf15c 
+ +  fise
+	0xf15e 
+ +  fist
+	0xf157 
+ +  flat
+	0xf1a7 
+ +  flea
+	0xf1ea 
+ +  fled
+	0xf1ed 
+ +  flee
+	0xf1ee 
+ +  flet
+	0xf1e7 
+ +  flit
+	0xf117 
+ +  flob
+	0xf10b 
+ +  floc
+	0xf10c 
+ +  floe
+	0xf10e 
+ +  flot
+	0xf107 
+ +  foal
+	0xf0a1 
+ +  foci
+	0xf0c1 
+ +  foil
+	0xf011 
+ +  fold
+	0xf01d 
+ +  fole
+	0xf01e 
+ +  food
+	0xf00d 
+ +  fool
+	0xf001 
+ +  foot
+	0xf007 
+ +  ibid
+	0x1b1d 
+ +  ibis
+	0x1b15 
+ +  iced
+	0x1ced 
+ +  idea
+	0x1dea 
+ +  ides
+	0x1de5 
+ +  idic
+	0x1d1c 
+ +  idle
+	0x1d1e 
+ +  idol
+	0x1d01 
+ +  ilia
+	0x111a 
+ +  ilot
+	0x1107 
+ +  iodo
+	0x10d0 
+ +  iota
+	0x107a 
+ +  isba
+	0x15ba 
+ +  isle
+	0x151e 
+ +  lace
+	0x1ace 
+ +  lade
+	0x1ade 
+ +  laet
+	0x1ae7 
+ +  laic
+	0x1a1c 
+ +  laid
+	0x1a1d 
+ +  lall
+	0x1a11 
+ +  lalo
+	0x1a10 
+ +  lasa
+	0x1a5a 
+ +  lass
+	0x1a55 
+ +  last
+	0x1a57 
+ +  lata
+	0x1a7a 
+ +  late
+	0x1a7e 
+ +  lead
+	0x1ead 
+ +  leaf
+	0x1eaf 
+ +  leal
+	0x1ea1 
+ +  leat
+	0x1ea7 
+ +  lede
+	0x1ede 
+ +  leed
+	0x1eed 
+ +  lees
+	0x1ee5 
+ +  leet
+	0x1ee7 
+ +  left
+	0x1ef7 
+ +  less
+	0x1e55 
+ +  lest
+	0x1e57 
+ +  lete
+	0x1e7e 
+ +  lied
+	0x11ed 
+ +  lief
+	0x11ef 
+ +  life
+	0x11fe 
+ +  lifo
+	0x11f0 
+ +  lift
+	0x11f7 
+ +  lile
+	0x111e 
+ +  lill
+	0x1111 
+ +  lilt
+	0x1117 
+ +  liss
+	0x1155 
+ +  list
+	0x1157 
+ +  lite
+	0x117e 
+ +  load
+	0x10ad 
+ +  loaf
+	0x10af 
+ +  lobe
+	0x10be 
+ +  lobo
+	0x10b0 
+ +  loca
+	0x10ca 
+ +  loci
+	0x10c1 
+ +  loco
+	0x10c0 
+ +  lode
+	0x10de 
+ +  loft
+	0x10f7 
+ +  loll
+	0x1011 
+ +  lood
+	0x100d 
+ +  loof
+	0x100f 
+ +  loot
+	0x1007 
+ +  lose
+	0x105e 
+ +  loss
+	0x1055 
+ +  lost
+	0x1057 
+ +  lota
+	0x107a 
+ +  lote
+	0x107e 
+ +  lots
+	0x1075 
+ +  oast
+	0x0a57 
+ +  obit
+	0x0b17 
+ +  oboe
+	0x0b0e 
+ +  obol
+	0x0b01 
+ +  odal
+	0x0da1 
+ +  odds
+	0x0dd5 
+ +  odel
+	0x0de1 
+ +  odic
+	0x0d1c 
+ +  odso
+	0x0d50 
+ +  oleo
+	0x01e0 
+ +  olid
+	0x011d 
+ +  olio
+	0x0110 
+ +  olla
+	0x011a 
+ +  ooid
+	0x001d 
+ +  osse
+	0x055e 
+ +  otic
+	0x071c 
+ +  otto
+	0x0770 
+ +  sabe
+	0x5abe 
+ +  saco
+	0x5ac0 
+ +  sade
+	0x5ade 
+ +  sado
+	0x5ad0 
+ +  safe
+	0x5afe 
+ +  saft
+	0x5af7 
+ +  saic
+	0x5a1c 
+ +  said
+	0x5a1d 
+ +  sail
+	0x5a11 
+ +  sale
+	0x5a1e 
+ +  salt
+	0x5a17 
+ +  sasa
+	0x5a5a 
+ +  sate
+	0x5a7e 
+ +  scab
+	0x5cab 
+ +  scad
+	0x5cad 
+ +  scat
+	0x5ca7 
+ +  scob
+	0x5c0b 
+ +  scot
+	0x5c07 
+ +  seal
+	0x5ea1 
+ +  seat
+	0x5ea7 
+ +  sect
+	0x5ec7 
+ +  seed
+	0x5eed 
+ +  seel
+	0x5ee1 
+ +  seit
+	0x5e17 
+ +  sele
+	0x5e1e 
+ +  self
+	0x5e1f 
+ +  sell
+	0x5e11 
+ +  selt
+	0x5e17 
+ +  sess
+	0x5e55 
+ +  seta
+	0x5e7a 
+ +  sett
+	0x5e77 
+ +  sial
+	0x51a1 
+ +  sice
+	0x51ce 
+ +  side
+	0x51de 
+ +  sidi
+	0x51d1 
+ +  sife
+	0x51fe 
+ +  sift
+	0x51f7 
+ +  sile
+	0x511e 
+ +  sill
+	0x5111 
+ +  silo
+	0x5110 
+ +  silt
+	0x5117 
+ +  siol
+	0x5101 
+ +  sise
+	0x515e 
+ +  sisi
+	0x5151 
+ +  siss
+	0x5155 
+ +  sist
+	0x5157 
+ +  site
+	0x517e 
+ +  slab
+	0x51ab 
+ +  slad
+	0x51ad 
+ +  slae
+	0x51ae 
+ +  slat
+	0x51a7 
+ +  sled
+	0x51ed 
+ +  slee
+	0x51ee 
+ +  slid
+	0x511d 
+ +  slit
+	0x5117 
+ +  slob
+	0x510b 
+ +  slod
+	0x510d 
+ +  sloe
+	0x510e 
+ +  sloo
+	0x5100 
+ +  slot
+	0x5107 
+ +  soce
+	0x50ce 
+ +  soco
+	0x50c0 
+ +  soda
+	0x50da 
+ +  sofa
+	0x50fa 
+ +  soft
+	0x50f7 
+ +  soil
+	0x5011 
+ +  sola
+	0x501a 
+ +  sold
+	0x501d 
+ +  sole
+	0x501e 
+ +  soli
+	0x5011 
+ +  solo
+	0x5010 
+ +  sool
+	0x5001 
+ +  soot
+	0x5007 
+ +  soso
+	0x5050 
+ +  soss
+	0x5055 
+ +  sots
+	0x5075 
+ +  stab
+	0x57ab 
+ +  stet
+	0x57e7 
+ +  stib
+	0x571b 
+ +  stid
+	0x571d 
+ +  stoa
+	0x570a 
+ +  stob
+	0x570b 
+ +  stod
+	0x570d 
+ +  stof
+	0x570f 
+ +  stot
+	0x5707 
+ +  tact
+	0x7ac7 
+ +  tade
+	0x7ade 
+ +  tael
+	0x7ae1 
+ +  taft
+	0x7af7 
+ +  tail
+	0x7a11 
+ +  tait
+	0x7a17 
+ +  tala
+	0x7a1a 
+ +  talc
+	0x7a1c 
+ +  tald
+	0x7a1d 
+ +  tale
+	0x7a1e 
+ +  tali
+	0x7a11 
+ +  tall
+	0x7a11 
+ +  tass
+	0x7a55 
+ +  tate
+	0x7a7e 
+ +  tead
+	0x7ead 
+ +  teal
+	0x7ea1 
+ +  teat
+	0x7ea7 
+ +  teca
+	0x7eca 
+ +  teel
+	0x7ee1 
+ +  teet
+	0x7ee7 
+ +  teff
+	0x7eff 
+ +  teil
+	0x7e11 
+ +  tele
+	0x7e1e 
+ +  teli
+	0x7e11 
+ +  tell
+	0x7e11 
+ +  telt
+	0x7e17 
+ +  test
+	0x7e57 
+ +  tete
+	0x7e7e 
+ +  tiao
+	0x71a0 
+ +  tice
+	0x71ce 
+ +  tide
+	0x71de 
+ +  tied
+	0x71ed 
+ +  tiff
+	0x71ff 
+ +  tift
+	0x71f7 
+ +  tile
+	0x711e 
+ +  till
+	0x7111 
+ +  tilt
+	0x7117 
+ +  tite
+	0x717e 
+ +  titi
+	0x7171 
+ +  toad
+	0x70ad 
+ +  toat
+	0x70a7 
+ +  tobe
+	0x70be 
+ +  toco
+	0x70c0 
+ +  tode
+	0x70de 
+ +  toed
+	0x70ed 
+ +  toff
+	0x70ff 
+ +  toft
+	0x70f7 
+ +  toil
+	0x7011 
+ +  toit
+	0x7017 
+ +  told
+	0x701d 
+ +  tole
+	0x701e 
+ +  toll
+	0x7011 
+ +  tolt
+	0x7017 
+ +  tool
+	0x7001 
+ +  toot
+	0x7007 
+ +  toss
+	0x7055 
+ +  tost
+	0x7057 
+ +  tote
+	0x707e 
+ +  toto
+	0x7070 
+ +  tsia
+	0x751a 
+ 
+===> 166/1/duncan-c-white.pl <===
+abac == abac
+abas == aba5
+abed == abed
+abet == abe7
+able == ab1e
+acca == acca
+acid == ac1d
+acle == ac1e
+acta == ac7a
+adad == adad
+adat == ada7
+adda == adda
+adet == ade7
+adit == ad17
+affa == affa
+aide == a1de
+aiel == a1e1
+aile == a11e
+alas == a1a5
+alba == a1ba
+albe == a1be
+alec == a1ec
+alee == a1ee
+alef == a1ef
+alfa == a1fa
+alif == a11f
+alit == a117
+asci == a5c1
+asse == a55e
+assi == a551
+asta == a57a
+atef == a7ef
+ates == a7e5
+atis == a715
+atle == a71e
+atta == a77a
+baal == baa1
+baba == baba
+babe == babe
+bade == bade
+baff == baff
+baft == baf7
+bail == ba11
+bait == ba17
+bald == ba1d
+bale == ba1e
+bali == ba11
+ball == ba11
+base == ba5e
+bass == ba55
+bast == ba57
+bate == ba7e
+bats == ba75
+batt == ba77
+bead == bead
+beal == bea1
+beat == bea7
+beef == beef
+bees == bee5
+beet == bee7
+bela == be1a
+beld == be1d
+bell == be11
+belt == be17
+besa == be5a
+best == be57
+beta == be7a
+bias == b1a5
+bibb == b1bb
+bibi == b1b1
+bice == b1ce
+bide == b1de
+biff == b1ff
+bile == b11e
+bill == b111
+bite == b17e
+biti == b171
+bitt == b177
+blab == b1ab
+blad == b1ad
+blae == b1ae
+blas == b1a5
+blat == b1a7
+bleb == b1eb
+blee == b1ee
+blet == b1e7
+caba == caba
+cade == cade
+cadi == cad1
+caid == ca1d
+calf == ca1f
+call == ca11
+case == ca5e
+cass == ca55
+cast == ca57
+cate == ca7e
+cede == cede
+ceil == ce11
+cell == ce11
+celt == ce17
+cess == ce55
+cest == ce57
+ceti == ce71
+cise == c15e
+cist == c157
+cite == c17e
+clad == c1ad
+clat == c1a7
+cled == c1ed
+clee == c1ee
+clef == c1ef
+clit == c117
+dabb == dabb
+dace == dace
+dada == dada
+dade == dade
+daff == daff
+daft == daf7
+dais == da15
+dale == da1e
+dali == da11
+dalt == da17
+dasi == da51
+data == da7a
+date == da7e
+dead == dead
+deaf == deaf
+deal == dea1
+debt == deb7
+deed == deed
+deft == def7
+dele == de1e
+delf == de1f
+dell == de11
+desi == de51
+dess == de55
+dial == d1a1
+dibs == d1b5
+dice == d1ce
+dieb == d1eb
+diet == d1e7
+dill == d111
+disc == d15c
+diss == d155
+dita == d17a
+dite == d17e
+ease == ea5e
+east == ea57
+eats == ea75
+ecad == ecad
+edea == edea
+edit == ed17
+elle == e11e
+else == e15e
+esca == e5ca
+face == face
+fact == fac7
+fade == fade
+faff == faff
+fail == fa11
+fall == fa11
+fass == fa55
+fast == fa57
+fate == fa7e
+feal == fea1
+feat == fea7
+feed == feed
+feel == fee1
+feif == fe1f
+feil == fe11
+feis == fe15
+fell == fe11
+fels == fe15
+felt == fe17
+fess == fe55
+fest == fe57
+fiat == f1a7
+fice == f1ce
+fide == f1de
+fife == f1fe
+file == f11e
+fill == f111
+fils == f115
+fisc == f15c
+fise == f15e
+fist == f157
+flat == f1a7
+flea == f1ea
+fled == f1ed
+flee == f1ee
+flet == f1e7
+flit == f117
+ibid == 1b1d
+ibis == 1b15
+iced == 1ced
+idea == 1dea
+ides == 1de5
+idic == 1d1c
+idle == 1d1e
+ilia == 111a
+isba == 15ba
+isle == 151e
+lace == 1ace
+lade == 1ade
+laet == 1ae7
+laic == 1a1c
+laid == 1a1d
+lall == 1a11
+lasa == 1a5a
+lass == 1a55
+last == 1a57
+lata == 1a7a
+late == 1a7e
+lead == 1ead
+leaf == 1eaf
+leal == 1ea1
+leat == 1ea7
+lede == 1ede
+leed == 1eed
+lees == 1ee5
+leet == 1ee7
+left == 1ef7
+less == 1e55
+lest == 1e57
+lete == 1e7e
+lied == 11ed
+lief == 11ef
+life == 11fe
+lift == 11f7
+lile == 111e
+lill == 1111
+lilt == 1117
+liss == 1155
+list == 1157
+lite == 117e
+sabe == 5abe
+sade == 5ade
+safe == 5afe
+saft == 5af7
+saic == 5a1c
+said == 5a1d
+sail == 5a11
+sale == 5a1e
+salt == 5a17
+sasa == 5a5a
+sate == 5a7e
+scab == 5cab
+scad == 5cad
+scat == 5ca7
+seal == 5ea1
+seat == 5ea7
+sect == 5ec7
+seed == 5eed
+seel == 5ee1
+seit == 5e17
+sele == 5e1e
+self == 5e1f
+sell == 5e11
+selt == 5e17
+sess == 5e55
+seta == 5e7a
+sett == 5e77
+sial == 51a1
+sice == 51ce
+side == 51de
+sidi == 51d1
+sife == 51fe
+sift == 51f7
+sile == 511e
+sill == 5111
+silt == 5117
+sise == 515e
+sisi == 5151
+siss == 5155
+sist == 5157
+site == 517e
+slab == 51ab
+slad == 51ad
+slae == 51ae
+slat == 51a7
+sled == 51ed
+slee == 51ee
+slid == 511d
+slit == 5117
+stab == 57ab
+stet == 57e7
+stib == 571b
+stid == 571d
+tact == 7ac7
+tade == 7ade
+tael == 7ae1
+taft == 7af7
+tail == 7a11
+tait == 7a17
+tala == 7a1a
+talc == 7a1c
+tald == 7a1d
+tale == 7a1e
+tali == 7a11
+tall == 7a11
+tass == 7a55
+tate == 7a7e
+tead == 7ead
+teal == 7ea1
+teat == 7ea7
+teca == 7eca
+teel == 7ee1
+teet == 7ee7
+teff == 7eff
+teil == 7e11
+tele == 7e1e
+teli == 7e11
+tell == 7e11
+telt == 7e17
+test == 7e57
+tete == 7e7e
+tice == 71ce
+tide == 71de
+tied == 71ed
+tiff == 71ff
+tift == 71f7
+tile == 711e
+till == 7111
+tilt == 7117
+tite == 717e
+titi == 7171
+tsia == 751a
+longest: abac
+ 
+===> 166/1/jo-37.pl <===
+0xAbac
+0xAba5
+0xAbed
+0xAbe7
+0xAb1e
+0xAcca
+0xAc1d
+0xAc1e
+0xAc7a
+0xAdad
+0xAda7
+0xAdda
+0xAde7
+0xAd17
+0xAffa
+0xA1de
+0xA1e1
+0xA11e
+0xA1a5
+0xA1ba
+0xA1be
+0xA1c0
+0xA1ec
+0xA1ee
+0xA1ef
+0xA1fa
+0xA11f
+0xA10d
+0xA10e
+0xA150
+0xA170
+0xA5c1
+0xA55e
+0xA57a
+0xA7ef
+0xA7e5
+0xA71e
+0xA77a
+0xBaa1
+0xBaba
+0xBabe
+0xBade
+0xBaff
+0xBaf7
+0xBa11
+0xBa17
+0xBa1d
+0xBa1e
+0xBa11
+0xBa11
+0xBa5e
+0xBa55
+0xBa57
+0xBa7e
+0xBa75
+0xBa77
+0xBead
+0xBea1
+0xBea7
+0xBeef
+0xBee5
+0xBee7
+0xBe1a
+0xBe1d
+0xBe11
+0xBe17
+0xBe5a
+0xBe57
+0xBe7a
+0xB1a5
+0xB1bb
+0xB1b1
+0xB1ce
+0xB1de
+0xB1ff
+0xB11e
+0xB110
+0xB10d
+0xB105
+0xB17e
+0xB170
+0xB1ab
+0xB1ad
+0xB1ae
+0xB1a5
+0xB1a7
+0xB1eb
+0xB1ee
+0xB1e0
+0xB1e7
+0xB10b
+0xB10c
+0xB107
+0xB0a7
+0xB0ba
+0xB0b0
+0xB0ce
+0xB0de
+0xB01d
+0xB011
+0xB01a
+0xB01d
+0xB01e
+0xB011
+0xB010
+0xB017
+0xB00b
+0xB00d
+0xB00f
+0xB001
+0xB007
+0xB05e
+0xB055
+0xB07a
+0xB07e
+0xB077
+0xCaba
+0xCade
+0xCad1
+0xCa1d
+0xCa1f
+0xCa11
+0xCa5e
+0xCa55
+0xCa57
+0xCa7e
+0xCede
+0xCe11
+0xCe11
+0xCe17
+0xCe55
+0xCe57
+0xCe71
+0xC15e
+0xC17e
+0xC1ad
+0xC1a7
+0xC1ed
+0xC1ee
+0xC1ef
+0xC10d
+0xC107
+0xC0a1
+0xC0a7
+0xC0ca
+0xC0c0
+0xC0da
+0xC0de
+0xC0d0
+0xC0ed
+0xC0ff
+0xC0f7
+0xC01f
+0xC011
+0xC01a
+0xC01d
+0xC01e
+0xC011
+0xC011
+0xC017
+0xC00f
+0xC001
+0xC007
+0xC055
+0xC057
+0xC07e
+0xC070
+0xDabb
+0xDace
+0xDada
+0xDade
+0xDad0
+0xDaff
+0xDaf7
+0xDa15
+0xDa1e
+0xDa11
+0xDa17
+0xDa51
+0xDa7a
+0xDa7e
+0xDead
+0xDeaf
+0xDea1
+0xDeb7
+0xDed0
+0xDeed
+0xDef7
+0xDe1e
+0xDe1f
+0xDe11
+0xDe51
+0xDe55
+0xD1a1
+0xD1b5
+0xD1ce
+0xD1eb
+0xD1e7
+0xD110
+0xD101
+0xD15c
+0xD17a
+0xD17e
+0xD0ab
+0xD0a7
+0xD0be
+0xD0dd
+0xD0d0
+0xD0e5
+0xD0ff
+0xD017
+0xD01a
+0xD01e
+0xD011
+0xD011
+0xD017
+0xD00b
+0xD001
+0xD05a
+0xD05e
+0xD055
+0xD07e
+0xEa5e
+0xEa57
+0xEa75
+0xEb0e
+0xEcad
+0xEdd0
+0xEdea
+0xEd17
+0xE11e
+0xE10d
+0xE15e
+0xE5ca
+0xFace
+0xFac7
+0xFade
+0xFaff
+0xFa11
+0xFa11
+0xFa55
+0xFa57
+0xFa7e
+0xFea1
+0xFea7
+0xFeed
+0xFee1
+0xFe1f
+0xFe11
+0xFe15
+0xFe11
+0xFe15
+0xFe17
+0xFe0d
+0xFe55
+0xFe57
+0xF1a7
+0xF1ce
+0xF1c0
+0xF1de
+0xF1fe
+0xF1f0
+0xF11e
+0xF110
+0xF15c
+0xF15e
+0xF1a7
+0xF1ea
+0xF1ed
+0xF1ee
+0xF1e7
+0xF10b
+0xF10c
+0xF10e
+0xF107
+0xF0a1
+0xF0c1
+0xF011
+0xF01d
+0xF01e
+0xF00d
+0xF001
+0xF007
+0x1b1d
+0x1ced
+0x1dea
+0x1de5
+0x1d1c
+0x1d1e
+0x1d01
+0x10d0
+0x107a
+0x15ba
+0x1ace
+0x1ade
+0x1ae7
+0x1a1c
+0x1a1d
+0x1a10
+0x1a5a
+0x1a7a
+0x1a7e
+0x1ead
+0x1eaf
+0x1ea1
+0x1ea7
+0x1ede
+0x1eed
+0x1ee5
+0x1ee7
+0x1ef7
+0x1e7e
+0x11ed
+0x11ef
+0x11fe
+0x11f0
+0x10ad
+0x10af
+0x10be
+0x10b0
+0x10ca
+0x10c1
+0x10c0
+0x10de
+0x10f7
+0x100d
+0x100f
+0x1007
+0x105e
+0x107a
+0x107e
+0x0a57
+0x0b17
+0x0b0e
+0x0b01
+0x0da1
+0x0dd5
+0x0de1
+0x0d1c
+0x0d50
+0x01e0
+0x011d
+0x0110
+0x011a
+0x001d
+0x055e
+0x071c
+0x0770
+0x5abe
+0x5ac0
+0x5ade
+0x5ad0
+0x5afe
+0x5af7
+0x5a1c
+0x5a1d
+0x5a1e
+0x5a5a
+0x5a7e
+0x5cab
+0x5cad
+0x5ca7
+0x5c0b
+0x5c07
+0x5ea1
+0x5ea7
+0x5ec7
+0x5eed
+0x5ee1
+0x5e1e
+0x5e1f
+0x5e7a
+0x51ce
+0x51de
+0x51fe
+0x51ab
+0x51ad
+0x51ae
+0x51ed
+0x51ee
+0x510b
+0x510d
+0x510e
+0x5100
+0x50ce
+0x50c0
+0x50da
+0x50fa
+0x50f7
+0x501a
+0x501d
+0x501e
+0x5010
+0x5001
+0x5007
+0x5050
+0x57ab
+0x570a
+0x570b
+0x570d
+0x570f
+0x7ac7
+0x7ade
+0x7ae1
+0x7af7
+0x7a1a
+0x7a1c
+0x7a1d
+0x7a1e
+0x7a7e
+0x7ead
+0x7ea1
+0x7ea7
+0x7eca
+0x7ee1
+0x7ee7
+0x7eff
+0x7e1e
+0x7e7e
+0x71a0
+0x71ce
+0x71de
+0x71ed
+0x71ff
+0x70ad
+0x70a7
+0x70be
+0x70c0
+0x70de
+0x70ed
+0x70ff
+0x70f7
+0x701d
+0x701e
+0x7001
+0x7007
+0x707e
+0x7070
+ 
+===> 166/1/laurent-rosenfeld.pl <===
+abac -> 0xabac
+abas -> 0xaba5
+abed -> 0xabed
+abet -> 0xabe7
+able -> 0xab1e
+acca -> 0xacca
+acid -> 0xac1d
+acle -> 0xac1e
+acta -> 0xac7a
+adad -> 0xadad
+adat -> 0xada7
+adda -> 0xadda
+adet -> 0xade7
+adit -> 0xad17
+affa -> 0xaffa
+aide -> 0xa1de
+aiel -> 0xa1e1
+aile -> 0xa11e
+alas -> 0xa1a5
+alba -> 0xa1ba
+albe -> 0xa1be
+alco -> 0xa1c0
+alec -> 0xa1ec
+alee -> 0xa1ee
+alef -> 0xa1ef
+alfa -> 0xa1fa
+alif -> 0xa11f
+alit -> 0xa117
+alod -> 0xa10d
+aloe -> 0xa10e
+also -> 0xa150
+alto -> 0xa170
+asci -> 0xa5c1
+asse -> 0xa55e
+assi -> 0xa551
+asta -> 0xa57a
+atef -> 0xa7ef
+ates -> 0xa7e5
+atis -> 0xa715
+atle -> 0xa71e
+atta -> 0xa77a
+baal -> 0xbaa1
+baba -> 0xbaba
+babe -> 0xbabe
+bade -> 0xbade
+baff -> 0xbaff
+baft -> 0xbaf7
+bail -> 0xba11
+bait -> 0xba17
+bald -> 0xba1d
+bale -> 0xba1e
+bali -> 0xba11
+ball -> 0xba11
+base -> 0xba5e
+bass -> 0xba55
+bast -> 0xba57
+bate -> 0xba7e
+bats -> 0xba75
+batt -> 0xba77
+bead -> 0xbead
+beal -> 0xbea1
+beat -> 0xbea7
+beef -> 0xbeef
+bees -> 0xbee5
+beet -> 0xbee7
+bela -> 0xbe1a
+beld -> 0xbe1d
+bell -> 0xbe11
+belt -> 0xbe17
+besa -> 0xbe5a
+best -> 0xbe57
+beta -> 0xbe7a
+bias -> 0xb1a5
+bibb -> 0xb1bb
+bibi -> 0xb1b1
+bice -> 0xb1ce
+bide -> 0xb1de
+biff -> 0xb1ff
+bile -> 0xb11e
+bill -> 0xb111
+bilo -> 0xb110
+biod -> 0xb10d
+bios -> 0xb105
+bite -> 0xb17e
+biti -> 0xb171
+bito -> 0xb170
+bitt -> 0xb177
+blab -> 0xb1ab
+blad -> 0xb1ad
+blae -> 0xb1ae
+blas -> 0xb1a5
+blat -> 0xb1a7
+bleb -> 0xb1eb
+blee -> 0xb1ee
+bleo -> 0xb1e0
+blet -> 0xb1e7
+blob -> 0xb10b
+bloc -> 0xb10c
+blot -> 0xb107
+boat -> 0xb0a7
+boba -> 0xb0ba
+bobo -> 0xb0b0
+boce -> 0xb0ce
+bode -> 0xb0de
+boid -> 0xb01d
+boil -> 0xb011
+bola -> 0xb01a
+bold -> 0xb01d
+bole -> 0xb01e
+boll -> 0xb011
+bolo -> 0xb010
+bolt -> 0xb017
+boob -> 0xb00b
+bood -> 0xb00d
+boof -> 0xb00f
+bool -> 0xb001
+boot -> 0xb007
+bose -> 0xb05e
+boss -> 0xb055
+bota -> 0xb07a
+bote -> 0xb07e
+bott -> 0xb077
+caba -> 0xcaba
+cade -> 0xcade
+cadi -> 0xcad1
+caid -> 0xca1d
+calf -> 0xca1f
+call -> 0xca11
+case -> 0xca5e
+cass -> 0xca55
+cast -> 0xca57
+cate -> 0xca7e
+cede -> 0xcede
+ceil -> 0xce11
+cell -> 0xce11
+celt -> 0xce17
+cess -> 0xce55
+cest -> 0xce57
+ceti -> 0xce71
+cise -> 0xc15e
+cist -> 0xc157
+cite -> 0xc17e
+clad -> 0xc1ad
+clat -> 0xc1a7
+cled -> 0xc1ed
+clee -> 0xc1ee
+clef -> 0xc1ef
+clit -> 0xc117
+clod -> 0xc10d
+clot -> 0xc107
+coal -> 0xc0a1
+coat -> 0xc0a7
+coca -> 0xc0ca
+coco -> 0xc0c0
+coda -> 0xc0da
+code -> 0xc0de
+codo -> 0xc0d0
+coed -> 0xc0ed
+coff -> 0xc0ff
+coft -> 0xc0f7
+coif -> 0xc01f
+coil -> 0xc011
+cola -> 0xc01a
+cold -> 0xc01d
+cole -> 0xc01e
+coli -> 0xc011
+coll -> 0xc011
+colt -> 0xc017
+coof -> 0xc00f
+cool -> 0xc001
+coot -> 0xc007
+coss -> 0xc055
+cost -> 0xc057
+cote -> 0xc07e
+coto -> 0xc070
+dabb -> 0xdabb
+dace -> 0xdace
+dada -> 0xdada
+dade -> 0xdade
+dado -> 0xdad0
+daff -> 0xdaff
+daft -> 0xdaf7
+dais -> 0xda15
+dale -> 0xda1e
+dali -> 0xda11
+dalt -> 0xda17
+dasi -> 0xda51
+data -> 0xda7a
+date -> 0xda7e
+dead -> 0xdead
+deaf -> 0xdeaf
+deal -> 0xdea1
+debt -> 0xdeb7
+dedo -> 0xded0
+deed -> 0xdeed
+deft -> 0xdef7
+dele -> 0xde1e
+delf -> 0xde1f
+dell -> 0xde11
+desi -> 0xde51
+dess -> 0xde55
+dial -> 0xd1a1
+dibs -> 0xd1b5
+dice -> 0xd1ce
+dieb -> 0xd1eb
+diet -> 0xd1e7
+dill -> 0xd111
+dilo -> 0xd110
+diol -> 0xd101
+disc -> 0xd15c
+diss -> 0xd155
+dita -> 0xd17a
+dite -> 0xd17e
+doab -> 0xd0ab
+doat -> 0xd0a7
+dobe -> 0xd0be
+dodd -> 0xd0dd
+dodo -> 0xd0d0
+does -> 0xd0e5
+doff -> 0xd0ff
+doit -> 0xd017
+dola -> 0xd01a
+dole -> 0xd01e
+doli -> 0xd011
+doll -> 0xd011
+dolt -> 0xd017
+doob -> 0xd00b
+dool -> 0xd001
+dosa -> 0xd05a
+dose -> 0xd05e
+doss -> 0xd055
+dote -> 0xd07e
+ease -> 0xea5e
+east -> 0xea57
+eats -> 0xea75
+eboe -> 0xeb0e
+ecad -> 0xecad
+eddo -> 0xedd0
+edea -> 0xedea
+edit -> 0xed17
+elle -> 0xe11e
+elod -> 0xe10d
+else -> 0xe15e
+esca -> 0xe5ca
+face -> 0xface
+fact -> 0xfac7
+fade -> 0xfade
+faff -> 0xfaff
+fail -> 0xfa11
+fall -> 0xfa11
+fass -> 0xfa55
+fast -> 0xfa57
+fate -> 0xfa7e
+feal -> 0xfea1
+feat -> 0xfea7
+feed -> 0xfeed
+feel -> 0xfee1
+feif -> 0xfe1f
+feil -> 0xfe11
+feis -> 0xfe15
+fell -> 0xfe11
+fels -> 0xfe15
+felt -> 0xfe17
+feod -> 0xfe0d
+fess -> 0xfe55
+fest -> 0xfe57
+fiat -> 0xf1a7
+fice -> 0xf1ce
+fico -> 0xf1c0
+fide -> 0xf1de
+fife -> 0xf1fe
+fifo -> 0xf1f0
+file -> 0xf11e
+fill -> 0xf111
+filo -> 0xf110
+fils -> 0xf115
+fisc -> 0xf15c
+fise -> 0xf15e
+fist -> 0xf157
+flat -> 0xf1a7
+flea -> 0xf1ea
+fled -> 0xf1ed
+flee -> 0xf1ee
+flet -> 0xf1e7
+flit -> 0xf117
+flob -> 0xf10b
+floc -> 0xf10c
+floe -> 0xf10e
+flot -> 0xf107
+foal -> 0xf0a1
+foci -> 0xf0c1
+foil -> 0xf011
+fold -> 0xf01d
+fole -> 0xf01e
+food -> 0xf00d
+fool -> 0xf001
+foot -> 0xf007
+ibid -> 0x1b1d
+ibis -> 0x1b15
+iced -> 0x1ced
+idea -> 0x1dea
+ides -> 0x1de5
+idic -> 0x1d1c
+idle -> 0x1d1e
+idol -> 0x1d01
+ilia -> 0x111a
+ilot -> 0x1107
+iodo -> 0x10d0
+iota -> 0x107a
+isba -> 0x15ba
+isle -> 0x151e
+lace -> 0x1ace
+lade -> 0x1ade
+laet -> 0x1ae7
+laic -> 0x1a1c
+laid -> 0x1a1d
+lall -> 0x1a11
+lalo -> 0x1a10
+lasa -> 0x1a5a
+lass -> 0x1a55
+last -> 0x1a57
+lata -> 0x1a7a
+late -> 0x1a7e
+lead -> 0x1ead
+leaf -> 0x1eaf
+leal -> 0x1ea1
+leat -> 0x1ea7
+lede -> 0x1ede
+leed -> 0x1eed
+lees -> 0x1ee5
+leet -> 0x1ee7
+left -> 0x1ef7
+less -> 0x1e55
+lest -> 0x1e57
+lete -> 0x1e7e
+lied -> 0x11ed
+lief -> 0x11ef
+life -> 0x11fe
+lifo -> 0x11f0
+lift -> 0x11f7
+lile -> 0x111e
+lill -> 0x1111
+lilt -> 0x1117
+liss -> 0x1155
+list -> 0x1157
+lite -> 0x117e
+load -> 0x10ad
+loaf -> 0x10af
+lobe -> 0x10be
+lobo -> 0x10b0
+loca -> 0x10ca
+loci -> 0x10c1
+loco -> 0x10c0
+lode -> 0x10de
+loft -> 0x10f7
+loll -> 0x1011
+lood -> 0x100d
+loof -> 0x100f
+loot -> 0x1007
+lose -> 0x105e
+loss -> 0x1055
+lost -> 0x1057
+lota -> 0x107a
+lote -> 0x107e
+lots -> 0x1075
+oast -> 0x0a57
+obit -> 0x0b17
+oboe -> 0x0b0e
+obol -> 0x0b01
+odal -> 0x0da1
+odds -> 0x0dd5
+odel -> 0x0de1
+odic -> 0x0d1c
+odso -> 0x0d50
+oleo -> 0x01e0
+olid -> 0x011d
+olio -> 0x0110
+olla -> 0x011a
+ooid -> 0x001d
+osse -> 0x055e
+otic -> 0x071c
+otto -> 0x0770
+sabe -> 0x5abe
+saco -> 0x5ac0
+sade -> 0x5ade
+sado -> 0x5ad0
+safe -> 0x5afe
+saft -> 0x5af7
+saic -> 0x5a1c
+said -> 0x5a1d
+sail -> 0x5a11
+sale -> 0x5a1e
+salt -> 0x5a17
+sasa -> 0x5a5a
+sate -> 0x5a7e
+scab -> 0x5cab
+scad -> 0x5cad
+scat -> 0x5ca7
+scob -> 0x5c0b
+scot -> 0x5c07
+seal -> 0x5ea1
+seat -> 0x5ea7
+sect -> 0x5ec7
+seed -> 0x5eed
+seel -> 0x5ee1
+seit -> 0x5e17
+sele -> 0x5e1e
+self -> 0x5e1f
+sell -> 0x5e11
+selt -> 0x5e17
+sess -> 0x5e55
+seta -> 0x5e7a
+sett -> 0x5e77
+sial -> 0x51a1
+sice -> 0x51ce
+side -> 0x51de
+sidi -> 0x51d1
+sife -> 0x51fe
+sift -> 0x51f7
+sile -> 0x511e
+sill -> 0x5111
+silo -> 0x5110
+silt -> 0x5117
+siol -> 0x5101
+sise -> 0x515e
+sisi -> 0x5151
+siss -> 0x5155
+sist -> 0x5157
+site -> 0x517e
+slab -> 0x51ab
+slad -> 0x51ad
+slae -> 0x51ae
+slat -> 0x51a7
+sled -> 0x51ed
+slee -> 0x51ee
+slid -> 0x511d
+slit -> 0x5117
+slob -> 0x510b
+slod -> 0x510d
+sloe -> 0x510e
+sloo -> 0x5100
+slot -> 0x5107
+soce -> 0x50ce
+soco -> 0x50c0
+soda -> 0x50da
+sofa -> 0x50fa
+soft -> 0x50f7
+soil -> 0x5011
+sola -> 0x501a
+sold -> 0x501d
+sole -> 0x501e
+soli -> 0x5011
+solo -> 0x5010
+sool -> 0x5001
+soot -> 0x5007
+soso -> 0x5050
+soss -> 0x5055
+sots -> 0x5075
+stab -> 0x57ab
+stet -> 0x57e7
+stib -> 0x571b
+stid -> 0x571d
+stoa -> 0x570a
+stob -> 0x570b
+stod -> 0x570d
+stof -> 0x570f
+stot -> 0x5707
+tact -> 0x7ac7
+tade -> 0x7ade
+tael -> 0x7ae1
+taft -> 0x7af7
+tail -> 0x7a11
+tait -> 0x7a17
+tala -> 0x7a1a
+talc -> 0x7a1c
+tald -> 0x7a1d
+tale -> 0x7a1e
+tali -> 0x7a11
+tall -> 0x7a11
+tass -> 0x7a55
+tate -> 0x7a7e
+tead -> 0x7ead
+teal -> 0x7ea1
+teat -> 0x7ea7
+teca -> 0x7eca
+teel -> 0x7ee1
+teet -> 0x7ee7
+teff -> 0x7eff
+teil -> 0x7e11
+tele -> 0x7e1e
+teli -> 0x7e11
+tell -> 0x7e11
+telt -> 0x7e17
+test -> 0x7e57
+tete -> 0x7e7e
+tiao -> 0x71a0
+tice -> 0x71ce
+tide -> 0x71de
+tied -> 0x71ed
+tiff -> 0x71ff
+tift -> 0x71f7
+tile -> 0x711e
+till -> 0x7111
+tilt -> 0x7117
+tite -> 0x717e
+titi -> 0x7171
+toad -> 0x70ad
+toat -> 0x70a7
+tobe -> 0x70be
+toco -> 0x70c0
+tode -> 0x70de
+toed -> 0x70ed
+toff -> 0x70ff
+toft -> 0x70f7
+toil -> 0x7011
+toit -> 0x7017
+told -> 0x701d
+tole -> 0x701e
+toll -> 0x7011
+tolt -> 0x7017
+tool -> 0x7001
+toot -> 0x7007
+toss -> 0x7055
+tost -> 0x7057
+tote -> 0x707e
+toto -> 0x7070
+tsia -> 0x751a
+ 
+===> 166/1/peter-campbell-smith.pl <===
+
+As stated in challenge:
+    ABA7E   ABA7ED   ABA7E5    ABB07   ABB075 ABD1CA7E     ABE7    ABE75  ABE77ED    AB1DE
+   AB1DE5     AB1E   AB1E57    AB0DE   AB0DE5  AB5CE55   ACCEDE  ACCEDED  ACCEDE5   ACCE55
+ ACCE55ED ACCE55E5 ACC01ADE   ACC057 ACC057ED  ACC0575      ACE     ACED     ACE5     AC1D
+    AC1D5      AC7    AC7ED     AC75       AD      ADD    ADDED   ADD1C7 ADD1C7ED  ADD1C75
+     ADD5      AD0    AD0BE   AD0BE5      AD5  AFFAB1E   AFFEC7 AFFEC7ED  AFFEC75  AFF11C7
+ AFF11C75   AF1E1D   AF10A7    AF007      A1D     A1DE    A1DED    A1DE5     A1D5      A11
+    A11ED     A115    A151E   A151E5     A1A5   A1BE17      A1E     A1E5    A11A5  A11A5ED
+  A11A5E5    A11B1  A11B1ED   A11B15      A11   A111ED   A111E5 A110CA7E    A1107   A11075
+ A11077ED    A10F7    A100F     A150     A170    A1705       A5 A5BE5705  A5CE71C A5CE71C5
+    A51DE   A51DE5      A55   A55A11 A55A11ED  A55A115    A55E5   A55E55 A55E55ED A55E55E5
+    A55E7   A55E75   A55157 A55157ED  A551575       A7      A7E    A71A5  A71A5E5   A77E57
+ A77E57ED  A77E575    A771C   A771C5   BABB1E  BABB1ED  BABB1E5     BABE    BABE5   BAB1ED
+   BAB1E5  BAB1E57      BAD  BADDE57     BADE   BAFF1E  BAFF1ED  BAFF1E5     BA11   BA11ED
+    BA115     BA17   BA17ED    BA175     BA1D   BA1DED  BA1DE57    BA1D5     BA1E    BA1ED
+    BA1E5     BA11   BA11AD  BA11AD5  BA11A57 BA11A575   BA11ED   BA11E7  BA11E75   BA1107
+ BA1107ED  BA11075    BA115     BA5E BA5EBA11    BA5ED    BA5E5   BA5E57    BA51C   BA51C5
+    BA511    BA515     BA55   BA55E5    BA57E   BA57ED   BA57E5      BA7     BA75   BA77ED
+   BA771E  BA771ED  BA771E5       BE     BEAD   BEADED BEAD1E57    BEAD5    BEA57   BEA575
+     BEA7    BEA75      BED   BEDDED     BED5  BED51DE BED51DE5      BEE     BEEF   BEEFED
+ BEEF1E57    BEEF5     BEE5     BEE7   BEE71E  BEE71ED  BEE71E5    BEE75   BEFA11  BEFA115
+   BEFE11    BEF17   BEF175 BEF177ED  BE1A7ED    BE11E   BE11ED   BE11EF  BE11EF5   BE11E5
+ BE11771E     BE11   BE11ED  BE111ED  BE111E5    BE115     BE17   BE17ED    BE175    BE5E7
+   BE5E75   BE51DE  BE51DE5     BE57   BE57ED  BE571A1    BE575      BE7     BE7A     BE75
+     B1A5   B1A5ED   B1A5E5      B1B    B1B1E B1B11CA1     B1B5      B1D     B1DE    B1DE5
+     B1D5 B1F0CA15     B11E     B111   B111ED B111F01D    B1115   B15EC7 B15EC7ED  B15EC75
+      B17     B17E    B17E5     B175     B1AB  B1ABBED    B1AB5    B1ADE   B1ADE5    B1A57
+  B1A57ED   B1A575    B1EA7  B1EA7ED   B1EA75     B1ED    B1EED   B1EED5    B1E55  B1E55ED
+  B1E55E5    B1155     B10B  B10BBED    B10B5     B10C    B10C5    B100D  B100DED B100D1ED
+ B100D1E5   B100D5     B107    B1075  B1077ED      B0A     B0A5    B0A57  B0A57ED   B0A575
+     B0A7   B0A7ED    B0A75      B0B   B0BBED   B0BCA7  B0BCA75     B0B5  B0B51ED B0B51ED5
+     B0DE    B0DED    B0DE5   B0D1CE  B0D1CE5   B0D1E5     B011   B011ED    B0115     B01D
+  B01DE57     B017   B017ED    B0175      B00    B00ED     B005    B0057  B0057ED   B00575
+     B007   B007ED   B007EE  B007EE5  B0071E5    B0075     B055   B055ED   B055E5 B0551E57
+   B0771E  B0771ED  B0771E5      CAB   CABBED    CAB1E   CAB1ED   CAB1E5  CAB005E CAB005E5
+     CAB5    CACA0   CACA05    CAC71      CAD   CADD1E  CADD1ED  CADD1E5    CADE7   CADE75
+     CA1F   CA11C0 CA11C0E5     CA11 CA11AB1E   CA11ED    CA115  CA5CADE CA5CADED CA5CADE5
+     CA5E    CA5ED    CA5E5 CA55E77E     CA57    CA57E   CA57E5   CA571E  CA571ED  CA571E5
+  CA570FF CA570FF5    CA575      CA7  CA7CA11 CA7CA115     CA75   CA771E       CC    CEA5E
+   CEA5ED   CEA5E5     CEDE    CEDED    CEDE5 CE11BA7E     CE11  CE11157 CE111575    CE110
+   CE1105    CE115     C17E    C17ED    C17E5   C171E5     C1AD    C1A55  C1A55ED  C1A55E5
+  C1A551C C1A551C5    C1EA7   C1EA75     C1EF    C1EF5    C1EF7   C1EF75    C11FF   C11FF5
+     C111     C10D    C10D5    C105E   C105ED   C105E5  C105E57   C105E7 C105E7ED  C105E75
+     C107    C1075  C1077ED     C0A1   C0A1ED C0A1E5CE    C0A15    C0A57  C0A57A1  C0A57ED
+   C0A575     C0A7   C0A7ED    C0A75      C0B   C0BA17   C0BB1E     C0B5    C0C0A   C0C0A5
+      C0D   C0DDED     C0DE    C0DED    C0DE5     C0D5   C0FFEE  C0FFEE5     C011   C011ED
+    C0115      C01     C01D  C01DE57    C01D5    C011C  C011A7E C011A7ED C011A7E5  C011EC7
+ C011EC75  C0111DE C0111DED C0111DE5   C0111E  C0111E5 C01055A1     C017    C0175      C00
+    C00ED     C001   C001ED  C001E57    C0015     C005     C057   C057ED    C0575      C07
+     C075       C5      DAB   DABBED   DABB1E  DABB1ED  DABB1E5     DAB5      DAD  DADD1E5
+     DAD5 DAFF0D11     DAF7  DA111E5     DA15   DA15E5  DA151E5  DA111ED  DA111E5     DA7A
+ DA7ABA5E     DA7E    DA7ED    DA7E5     DEAD  DEADE57     DEAF  DEAFE57     DEA1    DEA15
+    DEA17   DEBA5E  DEBA5ED  DEBA5E5   DEBA7E  DEBA7ED  DEBA7E5    DEB17  DEB17ED   DEB175
+     DEB7    DEB75   DECADE  DECADE5  DECEA5E DECEA5ED DECEA5E5   DECE17  DECE175  DEC1BE1
+ DEC1BE15   DEC1DE  DEC1DED  DEC1DE5   DEC0DE  DEC0DED  DEC0DE5 DED1CA7E     DEED   DEEDED
+    DEED5   DEFACE  DEFACED  DEFACE5   DEFEA7 DEFEA7ED  DEFEA75 DEFECA7E   DEFEC7 DEFEC7ED
+  DEFEC75  DEF1C17 DEF1C175   DEF1ED   DEF1E5   DEF11E  DEF11ED  DEF11E5  DEF1A7E DEF1A7ED
+ DEF1A7E5  DEF1EC7 DEF1EC75     DEF7  DEF7E57  DE1F1ED  DE1F1E5  DE171E5   DE1E7E  DE1E7ED
+  DE1E7E5     DE11 DE11CA7E    DE115    DE17A   DE17A5   DE5157 DE5157ED  DE51575 DE501A7E
+   DE7A11 DE7A11ED  DE7A115   DE7EC7 DE7EC7ED  DE7EC75   DE7E57 DE7E57ED  DE7E575 D1ABE7E5
+ D1ABE71C     D1A1  D1A1EC7 D1A1EC75   D1A1ED    D1A15     D1CE    D1CED    D1CE5  D1C7A7E
+ D1C7A7ED D1C7A7E5      D1D      D1E     D1ED     D1E5   D1E5E1 D1E5E1ED  D1E5E15     D1E7
+   D1E7ED    D1E75   D11A7E  D11A7ED  D11A7E5     D111    D1115  D10CE5E D10CE5E5  D15AB1E
+ D15AB1ED D15AB1E5     D15C D15C105E    D15C0   D15C05    D15C5  D15EA5E D15EA5ED D15EA5E5
+  D155EC7 D155EC75 D157A57E  D157111 D1571115  D1771E5    D1770  D1770ED   D17705       D0
+   D0C11E     D0D0      D0E     D0E5  D0111E5     D01E    D01ED    D01E5     D011   D011ED
+  D0111E5    D0115   D00D1E  D00D1ED  D00D1E5      D05     D05E    D05ED    D05E5      D07
+     D07E    D07ED    D07E5     D075   D077ED     EA5E    EA5ED    EA5E1   EA5E15    EA5E5
+  EA51E57     EA57      EA7     EA75      EBB    EBBED     EBB5 EC1EC71C EC57A71C   EDD1ED
+   EDD1E5   ED1B1E  ED1B1E5    ED1C7   ED1C75  ED1F1CE ED1F1CE5     ED17   ED17ED    ED175
+      EE1     EE15   EFFEC7 EFFEC7ED  EFFEC75  E1A571C E1A571C5   E1DE57    E1EC7  E1EC7ED
+   E1EC75      E1F   E11C17 E11C17ED  E11C175    E117E   E117E5  E117157     E15E E5CA1A7E
+   E57A7E  E57A7E5    FAB1E   FAB1E5   FACADE  FACADE5     FACE    FACED FACE1E55    FACE5
+    FACE7  FACE7ED   FACE75   FAC1A1  FAC1A15   FAC11E     FAC7    FAC75      FAD     FADE
+    FADED    FADE5     FAD5     FA11   FA11ED    FA115     FA11 FA111B1E    FA115    FA15E
+  FA15E57 FA15E770  FA5C157 FA5C1575     FA57   FA57ED  FA57E57    FA575      FA7    FA7A1
+     FA7E    FA7ED    FA7E5     FA75  FA77E57  FA771E5 FA771E57 FEA51B1E    FEA57  FEA57ED
+   FEA575     FEA7    FEA75    FECE5      FED     FED5      FEE   FEEB1E FEEB1E57     FEED
+    FEED5     FEE1    FEE15     FEE5     FEE7     FE11   FE11ED  FE11E57    FE115     FE17
+   FE17ED    FE175    FE7A1    FE7ED    FE71D   F1A5C0 F1A5C0E5      F1B   F1BBED     F1B5
+   F1DD1E  F1DD1ED  F1DD1E5    F1E1D  F1E1DED   F1E1D5   F1E57A  F1E57A5  F1F71E5     F11E
+    F11ED    F11E5    F11E7     F111   F111ED   F111E7 F111E7ED  F111E75  F1111E5    F1115
+   F15CA1  F15CA15     F157    F1575      F17     F175   F177ED  F177E57    F1A11  F1A11ED
+   F1A115     F1A7    F1A75  F1A77ED F1A77E57     F1EA    F1EA5     F1ED     F1EE   F1EECE
+  F1EECED  F1EECE5    F1EE5    F1EE7  F1EE7ED F1EE7E57   F1EE75    F11ED    F11E5   F11E57
+     F117    F1175  F1177ED    F10A7  F10A7ED   F10A75    F100D  F100DED   F100D5    F1055
+  F1055ED  F1055E5 F107111A     F0A1   F0A1ED    F0A15    F0CA1      F0E     F0E5   F01B1E
+  F01B1E5     F011   F011ED    F0115    F0157  F0157ED   F01575     F01D   F01DED    F01D5
+  F0111E5     F00D    F00D5     F001   F001ED    F0015     F007 F007BA11   F007ED    F0075
+   F05511  F055115     FE7E    FE7E5      1CE     1CED     1CE5   1C1C1E  1C1C1E5   1C1E57
+       1D     1DEA    1DEA1 1DEA1157   1DEA15    1DEA5 1D10C1E5    1D107  1D1071C   1D1075
+     1D1E    1D1ED    1D1E5   1D1E57     1D01    1D015       1F      1F5       11      111
+      111  1111C17     1115     107A    107A5       15     151E    151E5  1501A7E 1501A7ED
+ 1501A7E5       17   17A11C  17A11C5      175   175E1F      1AB    1ABE1  1ABE1ED   1ABE15
+     1AB5     1ACE    1ACED    1ACE5  1AC1E57      1AD     1ADE    1ADED    1ADE5   1AD1E5
+    1AD1E   1AD1ED   1AD1E5     1AD5     1A1D     1A55   1A55E5     1A57   1A57ED    1A575
+     1A7E   1A7E57  1A771CE 1A771CE5     1EAD   1EADED    1EAD5     1EAF   1EAFED 1EAF1E57
+  1EAF1E7 1EAF1E75    1EAF5    1EA5E   1EA5ED   1EA5E5    1EA57      1ED      1EE     1EF7
+  1EF7E57    1EF75     1E55     1E57      1E7     1E75   11AB1E    11BE1  11BE1ED   11BE15
+     11CE      11D     11D5      11E     11ED     11E5     11FE 11FEB0A7 11FE1E55     11F7
+   11F7ED    11F75      111    111AC   111AC5   1111E5     1117   1117ED    11175     1157
+   1157ED 11571E55    11575      117   11771E 11771E57     10AD 10ADAB1E   10ADED    10AD5
+     10AF   10AFED    10AF5      10B   10BBED  10BB1ED  10BB1E5     10BE    10BE5     10B5
+    10CA1   10CA1E  10CA1E5   10CA15   10CA7E  10CA7ED  10CA7E5     10F7   10F7ED 10F71E57
+    10F75     1011   1011ED    10115    1005E   1005ED   1005E5  1005E57     1007   1007ED
+    10075     105E    105E5     1055   1055E5     1057      107     1075      0AF     0AF5
+    0A5E5    0A515    0BE5E     0B0E    0B0E5   0B5E55 0B5E55ED 0B5E55E5 0B501E7E 0B57AC1E
+    0C7A1      0DD   0DDE57 0DD171E5     0DD5      0DE     0DE5       0F      0FF  0FFBEA7
+ 0FFBEA75    0FFED   0FF1CE  0FF1CE5 0FF1C1A1  0FF10AD     0FF5   0FF5E7  0FF5E75      011
+    011ED  0111E57     0115      01D   01DE57   00D1E5      5AC     5AC5      5AD  5ADDE57
+   5ADD1E  5ADD1ED  5ADD1E5    5ADE5   5AD157 5AD1571C  5AD1575     5AFE    5AFE5   5AFE57
+ 5AFE71E5     5A1D     5A11 5A11B0A7   5A11ED    5A115  5A1AB1E    5A1AD   5A1AD5     5A1E
+    5A1E5     5A17   5A17ED  5A17E57 5A171E57    5A175 5A551E57      5A7     5CAB  5CABBED
+    5CAB5 5CAFF01D    5CA1D  5CA1DED   5CA1D5    5CA1E   5CA1ED   5CA1E5 5CA11E57    5C0FF
+  5C0FFED   5C0FF5    5C01D  5C01DED   5C01D5    5C007  5C007ED   5C0075      5EA  5EAF00D
+     5EA1   5EA1ED    5EA15     5EA5  5EA51DE 5EA51DE5     5EA7   5EA7ED    5EA75      5EC
+   5ECEDE  5ECEDED  5ECEDE5     5EC7    5EC75   5EDA7E  5EDA7ED  5EDA7E5 5EDA7E57      5EE
+     5EED   5EEDED 5EED1E57    5EED5     5EE5   5E1EC7 5E1EC7ED  5E1EC75     5E1F     5E11
+    5E115      5E7     5E75 5E77AB1E   5E771E  5E771ED  5E771E5      51C     51C5     51DE
+    51DED    51DE5    51D1E   51D1ED   51D1E5   51E57A  51E57A5     51F7   51F7ED    51F75
+     5111  51111E5 51111E57    51115     5110    51105     5117   5117ED    51175  51551E5
+ 51551E57      517     517E    517ED    517E5     5175     51AB  51ABBED    51AB5     51A7
+    51A7E   51A7ED   51A7E5    51A75     51ED  51EDDED    51ED5    51EE7  51EE7ED   51EE75
+    511CE   511CED   511CE5     511D    511DE   511DE5   511E57     5117    51175     510B
+    510B5     5107    51075  51077ED       50      50B   50BBED     50B5 50C1AB1E   50C1A1
+  50C1A15      50D     50DA    50DA5   50DDED     50D5     50FA    50FA5     50F7 50F7BA11
+  50F7E57     5011   5011ED    50115   501ACE  501ACED  501ACE5     501D     501E    501ED
+    501E5  5011C17 5011C175    5011D 5011DE57   5011D5     5010   5010ED  5010157 50101575
+    50105     5007 50071E57     57AB  57ABBED   57AB1E  57AB1ED  57AB1E5 57AB1E57    57AB5
+    57AFF  57AFFED   57AFF5    57A1D 57A1DE57    57A1E   57A1ED   57A1E5  57A1E57    57A11
+  57A11ED   57A115    57A7E   57A7ED   57A7E5   57A71C 57EAD1ED 57EAD1E5    57EA1   57EA15
+    57EE1  57EE1ED   57EE15    571FF  571FFED 571FFE57   571FF5   571F1E  571F1ED  571F1E5
+    57111  57111ED 57111E57   571115  57117ED  5701CA1    5701E   5701E5   57011D    5700D
+    57001   570015      7AB   7ABBED  7ABB1E5    7AB1E   7AB1ED   7AB1E5   7AB1E7  7AB1E75
+  7AB101D 7AB101D5    7AB00  7AB00ED   7AB005     7AB5    7AC17     7AC0    7AC05     7AC7
+   7AC71C 7AC71CA1  7AC71C5 7AC71E55     7A11   7A11ED    7A115     7A1C     7A1E    7A1E5
+     7A11  7A11E57  7A111ED  7A111E5   7A55E1 7A55E1ED  7A55E15    7A57E   7A57ED   7A57E5
+ 7A571E57   7A771E  7A771ED  7A771E5   7A7700 7A7700ED  7A77005      7EA     7EA5    7EA5E
+   7EA5ED   7EA5E5     7EA7    7EA75      7EE     7EED     7EE5 7EE707A1     7E11    7E115
+ 7E117A1E     7E57 7E57AB1E   7E57ED   7E57E5 7E571C1E   7E5715    7E575    71DA1   71DB17
+  71DB175     71DE    71DED    71DE5   71D1ED   71D1E5  71D1E57      71E     71ED     71E5
+     71FF   71FFED    71FF5    711DE     711E    711ED    711E5     7111   7111ED    71115
+     7117   7117ED    71175      717    7171E   7171ED   7171E5     7175       70     70AD
+    70AD5    70A57  70A57ED   70A575  70BACC0 70BACC05   70DD1E  70DD1ED  70DD1E5      70E
+     70ED     70E5   70FFEE  70FFEE5     7011   7011ED   7011E7 7011E7ED  7011E75    70115
+     701D     7011   7011ED    70115      700     7001   7001ED    70015     7007   7007ED
+    70075     7055   7055ED   7055E5      707    707A1  707A1ED   707A15     707E    707ED
+    707E5     7075   7077ED
+1464 words
+
+Omitting l -> 1:
+    ABA7E   ABA7ED   ABA7E5    ABB07   ABB075 ABD1CA7E     ABE7    ABE75  ABE77ED    AB1DE
+   AB1DE5    AB0DE   AB0DE5  AB5CE55   ACCEDE  ACCEDED  ACCEDE5   ACCE55 ACCE55ED ACCE55E5
+   ACC057 ACC057ED  ACC0575      ACE     ACED     ACE5     AC1D    AC1D5      AC7    AC7ED
+     AC75       AD      ADD    ADDED   ADD1C7 ADD1C7ED  ADD1C75     ADD5      AD0    AD0BE
+   AD0BE5      AD5   AFFEC7 AFFEC7ED  AFFEC75    AF007      A1D     A1DE    A1DED    A1DE5
+     A1D5       A5 A5BE5705  A5CE71C A5CE71C5    A51DE   A51DE5      A55    A55E5   A55E55
+ A55E55ED A55E55E5    A55E7   A55E75   A55157 A55157ED  A551575       A7      A7E   A77E57
+ A77E57ED  A77E575    A771C   A771C5     BABE    BABE5   BAB1ED   BAB1E5  BAB1E57      BAD
+  BADDE57     BADE     BA17   BA17ED    BA175     BA5E    BA5ED    BA5E5   BA5E57    BA51C
+   BA51C5    BA515     BA55   BA55E5    BA57E   BA57ED   BA57E5      BA7     BA75   BA77ED
+       BE     BEAD   BEADED BEAD1E57    BEAD5    BEA57   BEA575     BEA7    BEA75      BED
+   BEDDED     BED5  BED51DE BED51DE5      BEE     BEEF   BEEFED BEEF1E57    BEEF5     BEE5
+     BEE7    BEE75    BEF17   BEF175 BEF177ED    BE5E7   BE5E75   BE51DE  BE51DE5     BE57
+   BE57ED    BE575      BE7     BE7A     BE75     B1A5   B1A5ED   B1A5E5      B1B     B1B5
+      B1D     B1DE    B1DE5     B1D5   B15EC7 B15EC7ED  B15EC75      B17     B17E    B17E5
+     B175      B0A     B0A5    B0A57  B0A57ED   B0A575     B0A7   B0A7ED    B0A75      B0B
+   B0BBED   B0BCA7  B0BCA75     B0B5     B0DE    B0DED    B0DE5   B0D1CE  B0D1CE5   B0D1E5
+      B00    B00ED     B005    B0057  B0057ED   B00575     B007   B007ED   B007EE  B007EE5
+  B0071E5    B0075     B055   B055ED   B055E5 B0551E57      CAB   CABBED  CAB005E CAB005E5
+     CAB5    CACA0   CACA05    CAC71      CAD   CADD1E  CADD1ED  CADD1E5    CADE7   CADE75
+  CA5CADE CA5CADED CA5CADE5     CA5E    CA5ED    CA5E5 CA55E77E     CA57    CA57E   CA57E5
+  CA570FF CA570FF5    CA575      CA7     CA75       CC    CEA5E   CEA5ED   CEA5E5     CEDE
+    CEDED    CEDE5     C17E    C17ED    C17E5   C171E5    C0A57  C0A57ED   C0A575     C0A7
+   C0A7ED    C0A75      C0B     C0B5    C0C0A   C0C0A5      C0D   C0DDED     C0DE    C0DED
+    C0DE5     C0D5   C0FFEE  C0FFEE5      C00    C00ED     C005     C057   C057ED    C0575
+      C07     C075       C5      DAB   DABBED     DAB5      DAD  DADD1E5     DAD5     DAF7
+     DA15   DA15E5  DA151E5     DA7A DA7ABA5E     DA7E    DA7ED    DA7E5     DEAD  DEADE57
+     DEAF  DEAFE57   DEBA5E  DEBA5ED  DEBA5E5   DEBA7E  DEBA7ED  DEBA7E5    DEB17  DEB17ED
+   DEB175     DEB7    DEB75   DECADE  DECADE5  DECEA5E DECEA5ED DECEA5E5   DECE17  DECE175
+   DEC1DE  DEC1DED  DEC1DE5   DEC0DE  DEC0DED  DEC0DE5 DED1CA7E     DEED   DEEDED    DEED5
+   DEFACE  DEFACED  DEFACE5   DEFEA7 DEFEA7ED  DEFEA75 DEFECA7E   DEFEC7 DEFEC7ED  DEFEC75
+  DEF1C17 DEF1C175   DEF1ED   DEF1E5     DEF7  DEF7E57  DE1F1ED  DE1F1E5  DE171E5   DE5157
+ DE5157ED  DE51575   DE7EC7 DE7EC7ED  DE7EC75   DE7E57 DE7E57ED  DE7E575 D1ABE7E5 D1ABE71C
+     D1CE    D1CED    D1CE5  D1C7A7E D1C7A7ED D1C7A7E5      D1D      D1E     D1ED     D1E5
+     D1E7   D1E7ED    D1E75  D10CE5E D10CE5E5     D15C    D15C0   D15C05    D15C5  D15EA5E
+ D15EA5ED D15EA5E5  D155EC7 D155EC75 D157A57E  D1771E5    D1770  D1770ED   D17705       D0
+     D0D0      D0E     D0E5      D05     D05E    D05ED    D05E5      D07     D07E    D07ED
+    D07E5     D075   D077ED     EA5E    EA5ED    EA5E5  EA51E57     EA57      EA7     EA75
+      EBB    EBBED     EBB5 EC57A71C   EDD1ED   EDD1E5    ED1C7   ED1C75  ED1F1CE ED1F1CE5
+     ED17   ED17ED    ED175   EFFEC7 EFFEC7ED  EFFEC75   E57A7E  E57A7E5   FACADE  FACADE5
+     FACE    FACED    FACE5    FACE7  FACE7ED   FACE75     FAC7    FAC75      FAD     FADE
+    FADED    FADE5     FAD5  FA5C157 FA5C1575     FA57   FA57ED  FA57E57    FA575      FA7
+     FA7E    FA7ED    FA7E5     FA75  FA77E57  FA771E5 FA771E57    FEA57  FEA57ED   FEA575
+     FEA7    FEA75    FECE5      FED     FED5      FEE     FEED    FEED5     FEE5     FEE7
+    FE7ED    FE71D   F1A5C0 F1A5C0E5      F1B   F1BBED     F1B5   F1E57A  F1E57A5  F1F71E5
+     F157    F1575      F17     F175   F177ED  F177E57      F0E     F0E5    F0157  F0157ED
+   F01575     F00D    F00D5     F007   F007ED    F0075     FE7E    FE7E5      1CE     1CED
+     1CE5   1C1E57       1D     1DEA    1DEA5 1D10C1E5    1D107  1D1071C   1D1075       1F
+      1F5       11      111     107A    107A5       15       17      175      0AF     0AF5
+    0A5E5    0A515    0BE5E     0B0E    0B0E5   0B5E55 0B5E55ED 0B5E55E5      0DD   0DDE57
+ 0DD171E5     0DD5      0DE     0DE5       0F      0FF  0FFBEA7 0FFBEA75    0FFED   0FF1CE
+  0FF1CE5     0FF5   0FF5E7  0FF5E75      5AC     5AC5      5AD  5ADDE57    5ADE5   5AD157
+ 5AD1571C  5AD1575     5AFE    5AFE5   5AFE57 5AFE71E5     5A1D 5A551E57      5A7     5CAB
+  5CABBED    5CAB5    5C0FF  5C0FFED   5C0FF5    5C007  5C007ED   5C0075      5EA  5EAF00D
+     5EA5  5EA51DE 5EA51DE5     5EA7   5EA7ED    5EA75      5EC   5ECEDE  5ECEDED  5ECEDE5
+     5EC7    5EC75   5EDA7E  5EDA7ED  5EDA7E5 5EDA7E57      5EE     5EED   5EEDED 5EED1E57
+    5EED5     5EE5      5E7     5E75      51C     51C5     51DE    51DED    51DE5   51E57A
+  51E57A5     51F7   51F7ED    51F75  51551E5 51551E57      517     517E    517ED    517E5
+     5175       50      50B   50BBED     50B5      50D     50DA    50DA5   50DDED     50D5
+     50FA    50FA5     50F7  50F7E57     5007 50071E57     57AB  57ABBED    57AB5    57AFF
+  57AFFED   57AFF5    57A1D 57A1DE57    57A7E   57A7ED   57A7E5   57A71C 57EAD1ED 57EAD1E5
+    571FF  571FFED 571FFE57   571FF5    5700D      7AB   7ABBED  7ABB1E5    7AB00  7AB00ED
+   7AB005     7AB5    7AC17     7AC0    7AC05     7AC7   7AC71C  7AC71C5    7A57E   7A57ED
+   7A57E5 7A571E57   7A7700 7A7700ED  7A77005      7EA     7EA5    7EA5E   7EA5ED   7EA5E5
+     7EA7    7EA75      7EE     7EED     7EE5     7E57   7E57ED   7E57E5   7E5715    7E575
+   71DB17  71DB175     71DE    71DED    71DE5   71D1ED   71D1E5  71D1E57      71E     71ED
+     71E5     71FF   71FFED    71FF5      717     7175       70     70AD    70AD5    70A57
+  70A57ED   70A575  70BACC0 70BACC05      70E     70ED     70E5   70FFEE  70FFEE5      700
+     7007   7007ED    70075     7055   7055ED   7055E5      707     707E    707ED    707E5
+     7075   7077ED
+693 words
+
+Limiting 'specials' to 3:
+    ABA7E   ABA7ED   ABA7E5    ABB07   ABB075 ABD1CA7E     ABE7    ABE75  ABE77ED    AB1DE
+   AB1DE5    AB0DE   AB0DE5  AB5CE55   ACCEDE  ACCEDED  ACCEDE5   ACCE55 ACCE55ED ACCE55E5
+   ACC057 ACC057ED      ACE     ACED     ACE5     AC1D    AC1D5      AC7    AC7ED     AC75
+       AD      ADD    ADDED   ADD1C7 ADD1C7ED  ADD1C75     ADD5      AD0    AD0BE   AD0BE5
+      AD5   AFFEC7 AFFEC7ED  AFFEC75    AF007      A1D     A1DE    A1DED    A1DE5     A1D5
+       A5  A5CE71C    A51DE   A51DE5      A55    A55E5    A55E7       A7      A7E    A771C
+     BABE    BABE5   BAB1ED   BAB1E5  BAB1E57      BAD  BADDE57     BADE     BA17   BA17ED
+    BA175     BA5E    BA5ED    BA5E5   BA5E57    BA51C   BA51C5    BA515     BA55   BA55E5
+    BA57E   BA57ED   BA57E5      BA7     BA75   BA77ED       BE     BEAD   BEADED BEAD1E57
+    BEAD5    BEA57   BEA575     BEA7    BEA75      BED   BEDDED     BED5  BED51DE BED51DE5
+      BEE     BEEF   BEEFED BEEF1E57    BEEF5     BEE5     BEE7    BEE75    BEF17   BEF175
+ BEF177ED    BE5E7   BE5E75   BE51DE  BE51DE5     BE57   BE57ED    BE575      BE7     BE7A
+     BE75     B1A5   B1A5ED   B1A5E5      B1B     B1B5      B1D     B1DE    B1DE5     B1D5
+   B15EC7 B15EC7ED      B17     B17E    B17E5     B175      B0A     B0A5    B0A57  B0A57ED
+     B0A7   B0A7ED    B0A75      B0B   B0BBED   B0BCA7  B0BCA75     B0B5     B0DE    B0DED
+    B0DE5   B0D1CE  B0D1CE5   B0D1E5      B00    B00ED     B005     B007   B007ED   B007EE
+     B055   B055ED      CAB   CABBED  CAB005E     CAB5    CACA0   CACA05    CAC71      CAD
+   CADD1E  CADD1ED  CADD1E5    CADE7   CADE75  CA5CADE CA5CADED CA5CADE5     CA5E    CA5ED
+    CA5E5     CA57    CA57E   CA57E5  CA570FF    CA575      CA7     CA75       CC    CEA5E
+   CEA5ED   CEA5E5     CEDE    CEDED    CEDE5     C17E    C17ED    C17E5    C0A57  C0A57ED
+     C0A7   C0A7ED    C0A75      C0B     C0B5    C0C0A   C0C0A5      C0D   C0DDED     C0DE
+    C0DED    C0DE5     C0D5   C0FFEE  C0FFEE5      C00    C00ED     C005     C057   C057ED
+      C07     C075       C5      DAB   DABBED     DAB5      DAD  DADD1E5     DAD5     DAF7
+     DA15   DA15E5     DA7A DA7ABA5E     DA7E    DA7ED    DA7E5     DEAD  DEADE57     DEAF
+  DEAFE57   DEBA5E  DEBA5ED  DEBA5E5   DEBA7E  DEBA7ED  DEBA7E5    DEB17  DEB17ED   DEB175
+     DEB7    DEB75   DECADE  DECADE5  DECEA5E DECEA5ED DECEA5E5   DECE17  DECE175   DEC1DE
+  DEC1DED  DEC1DE5   DEC0DE  DEC0DED  DEC0DE5 DED1CA7E     DEED   DEEDED    DEED5   DEFACE
+  DEFACED  DEFACE5   DEFEA7 DEFEA7ED  DEFEA75 DEFECA7E   DEFEC7 DEFEC7ED  DEFEC75  DEF1C17
+   DEF1ED   DEF1E5     DEF7  DEF7E57  DE1F1ED  DE1F1E5   DE7EC7 DE7EC7ED  DE7EC75   DE7E57
+ DE7E57ED D1ABE7E5 D1ABE71C     D1CE    D1CED    D1CE5  D1C7A7E D1C7A7ED      D1D      D1E
+     D1ED     D1E5     D1E7   D1E7ED    D1E75  D10CE5E     D15C    D15C0    D15C5  D15EA5E
+ D15EA5ED       D0     D0D0      D0E     D0E5      D05     D05E    D05ED    D05E5      D07
+     D07E    D07ED    D07E5     D075   D077ED     EA5E    EA5ED    EA5E5     EA57      EA7
+     EA75      EBB    EBBED     EBB5   EDD1ED   EDD1E5    ED1C7   ED1C75  ED1F1CE ED1F1CE5
+     ED17   ED17ED    ED175   EFFEC7 EFFEC7ED  EFFEC75   E57A7E   FACADE  FACADE5     FACE
+    FACED    FACE5    FACE7  FACE7ED   FACE75     FAC7    FAC75      FAD     FADE    FADED
+    FADE5     FAD5     FA57   FA57ED    FA575      FA7     FA7E    FA7ED    FA7E5     FA75
+    FEA57  FEA57ED   FEA575     FEA7    FEA75    FECE5      FED     FED5      FEE     FEED
+    FEED5     FEE5     FEE7    FE7ED    FE71D   F1A5C0      F1B   F1BBED     F1B5   F1E57A
+     F157      F17     F175   F177ED      F0E     F0E5     F00D    F00D5     F007   F007ED
+     FE7E    FE7E5      1CE     1CED     1CE5       1D     1DEA    1DEA5       1F      1F5
+       11      111     107A       15       17      175      0AF     0AF5    0A5E5    0BE5E
+     0B0E    0B0E5      0DD   0DDE57     0DD5      0DE     0DE5       0F      0FF  0FFBEA7
+ 0FFBEA75    0FFED   0FF1CE  0FF1CE5     0FF5   0FF5E7      5AC     5AC5      5AD  5ADDE57
+    5ADE5     5AFE    5AFE5   5AFE57     5A1D      5A7     5CAB  5CABBED    5CAB5    5C0FF
+  5C0FFED   5C0FF5      5EA  5EAF00D     5EA5  5EA51DE     5EA7   5EA7ED    5EA75      5EC
+   5ECEDE  5ECEDED  5ECEDE5     5EC7    5EC75   5EDA7E  5EDA7ED  5EDA7E5      5EE     5EED
+   5EEDED    5EED5     5EE5      5E7     5E75      51C     51C5     51DE    51DED    51DE5
+     51F7   51F7ED      517     517E    517ED       50      50B   50BBED     50B5      50D
+     50DA    50DA5   50DDED     50D5     50FA    50FA5     50F7     57AB  57ABBED    57AB5
+    57AFF  57AFFED   57AFF5    57A1D    57A7E   57A7ED 57EAD1ED    571FF  571FFED      7AB
+   7ABBED  7ABB1E5    7AB00  7AB00ED     7AB5    7AC17     7AC0    7AC05     7AC7   7AC71C
+    7A57E   7A57ED      7EA     7EA5    7EA5E   7EA5ED   7EA5E5     7EA7    7EA75      7EE
+     7EED     7EE5     7E57   7E57ED     71DE    71DED    71DE5   71D1ED      71E     71ED
+     71E5     71FF   71FFED    71FF5      717       70     70AD    70AD5  70BACC0      70E
+     70ED     70E5   70FFEE  70FFEE5      700      707     707E    707ED
+559 words
+ 
+===> 166/1/polettix.pl <===
+0xabac
+0xaba5
+0xabed
+0xabe7
+0xab1e
+0xacca
+0xac1d
+0xac1e
+0xac7a
+0xadad
+0xada7
+0xadda
+0xade7
+0xad17
+0xaffa
+0xa1de
+0xa1e1
+0xa11e
+0xa1a5
+0xa1ba
+0xa1be
+0xa1c0
+0xa1ec
+0xa1ee
+0xa1ef
+0xa1fa
+0xa11f
+0xa117
+0xa10d
+0xa10e
+0xa150
+0xa170
+0xa5c1
+0xa55e
+0xa551
+0xa57a
+0xa7ef
+0xa7e5
+0xa715
+0xa71e
+0xa77a
+0xbaa1
+0xbaba
+0xbabe
+0xbade
+0xbaff
+0xbaf7
+0xba11
+0xba17
+0xba1d
+0xba1e
+0xba11
+0xba11
+0xba5e
+0xba55
+0xba57
+0xba7e
+0xba75
+0xba77
+0xbead
+0xbea1
+0xbea7
+0xbeef
+0xbee5
+0xbee7
+0xbe1a
+0xbe1d
+0xbe11
+0xbe17
+0xbe5a
+0xbe57
+0xbe7a
+0xb1a5
+0xb1bb
+0xb1b1
+0xb1ce
+0xb1de
+0xb1ff
+0xb11e
+0xb111
+0xb110
+0xb10d
+0xb105
+0xb17e
+0xb171
+0xb170
+0xb177
+0xb1ab
+0xb1ad
+0xb1ae
+0xb1a5
+0xb1a7
+0xb1eb
+0xb1ee
+0xb1e0
+0xb1e7
+0xb10b
+0xb10c
+0xb107
+0xb0a7
+0xb0ba
+0xb0b0
+0xb0ce
+0xb0de
+0xb01d
+0xb011
+0xb01a
+0xb01d
+0xb01e
+0xb011
+0xb010
+0xb017
+0xb00b
+0xb00d
+0xb00f
+0xb001
+0xb007
+0xb05e
+0xb055
+0xb07a
+0xb07e
+0xb077
+0xcaba
+0xcade
+0xcad1
+0xca1d
+0xca1f
+0xca11
+0xca5e
+0xca55
+0xca57
+0xca7e
+0xcede
+0xce11
+0xce11
+0xce17
+0xce55
+0xce57
+0xce71
+0xc15e
+0xc157
+0xc17e
+0xc1ad
+0xc1a7
+0xc1ed
+0xc1ee
+0xc1ef
+0xc117
+0xc10d
+0xc107
+0xc0a1
+0xc0a7
+0xc0ca
+0xc0c0
+0xc0da
+0xc0de
+0xc0d0
+0xc0ed
+0xc0ff
+0xc0f7
+0xc01f
+0xc011
+0xc01a
+0xc01d
+0xc01e
+0xc011
+0xc011
+0xc017
+0xc00f
+0xc001
+0xc007
+0xc055
+0xc057
+0xc07e
+0xc070
+0xdabb
+0xdace
+0xdada
+0xdade
+0xdad0
+0xdaff
+0xdaf7
+0xda15
+0xda1e
+0xda11
+0xda17
+0xda51
+0xda7a
+0xda7e
+0xdead
+0xdeaf
+0xdea1
+0xdeb7
+0xded0
+0xdeed
+0xdef7
+0xde1e
+0xde1f
+0xde11
+0xde51
+0xde55
+0xd1a1
+0xd1b5
+0xd1ce
+0xd1eb
+0xd1e7
+0xd111
+0xd110
+0xd101
+0xd15c
+0xd155
+0xd17a
+0xd17e
+0xd0ab
+0xd0a7
+0xd0be
+0xd0dd
+0xd0d0
+0xd0e5
+0xd0ff
+0xd017
+0xd01a
+0xd01e
+0xd011
+0xd011
+0xd017
+0xd00b
+0xd001
+0xd05a
+0xd05e
+0xd055
+0xd07e
+0xea5e
+0xea57
+0xea75
+0xeb0e
+0xecad
+0xedd0
+0xedea
+0xed17
+0xe11e
+0xe10d
+0xe15e
+0xe5ca
+0xface
+0xfac7
+0xfade
+0xfaff
+0xfa11
+0xfa11
+0xfa55
+0xfa57
+0xfa7e
+0xfea1
+0xfea7
+0xfeed
+0xfee1
+0xfe1f
+0xfe11
+0xfe15
+0xfe11
+0xfe15
+0xfe17
+0xfe0d
+0xfe55
+0xfe57
+0xf1a7
+0xf1ce
+0xf1c0
+0xf1de
+0xf1fe
+0xf1f0
+0xf11e
+0xf111
+0xf110
+0xf115
+0xf15c
+0xf15e
+0xf157
+0xf1a7
+0xf1ea
+0xf1ed
+0xf1ee
+0xf1e7
+0xf117
+0xf10b
+0xf10c
+0xf10e
+0xf107
+0xf0a1
+0xf0c1
+0xf011
+0xf01d
+0xf01e
+0xf00d
+0xf001
+0xf007
+0x1b1d
+0x1b15
+0x1ced
+0x1dea
+0x1de5
+0x1d1c
+0x1d1e
+0x1d01
+0x111a
+0x1107
+0x10d0
+0x107a
+0x15ba
+0x151e
+0x1ace
+0x1ade
+0x1ae7
+0x1a1c
+0x1a1d
+0x1a11
+0x1a10
+0x1a5a
+0x1a55
+0x1a57
+0x1a7a
+0x1a7e
+0x1ead
+0x1eaf
+0x1ea1
+0x1ea7
+0x1ede
+0x1eed
+0x1ee5
+0x1ee7
+0x1ef7
+0x1e55
+0x1e57
+0x1e7e
+0x11ed
+0x11ef
+0x11fe
+0x11f0
+0x11f7
+0x111e
+0x1111
+0x1117
+0x1155
+0x1157
+0x117e
+0x10ad
+0x10af
+0x10be
+0x10b0
+0x10ca
+0x10c1
+0x10c0
+0x10de
+0x10f7
+0x1011
+0x100d
+0x100f
+0x1007
+0x105e
+0x1055
+0x1057
+0x107a
+0x107e
+0x1075
+0x0a57
+0x0b17
+0x0b0e
+0x0b01
+0x0da1
+0x0dd5
+0x0de1
+0x0d1c
+0x0d50
+0x01e0
+0x011d
+0x0110
+0x011a
+0x001d
+0x055e
+0x071c
+0x0770
+0x5abe
+0x5ac0
+0x5ade
+0x5ad0
+0x5afe
+0x5af7
+0x5a1c
+0x5a1d
+0x5a11
+0x5a1e
+0x5a17
+0x5a5a
+0x5a7e
+0x5cab
+0x5cad
+0x5ca7
+0x5c0b
+0x5c07
+0x5ea1
+0x5ea7
+0x5ec7
+0x5eed
+0x5ee1
+0x5e17
+0x5e1e
+0x5e1f
+0x5e11
+0x5e17
+0x5e55
+0x5e7a
+0x5e77
+0x51a1
+0x51ce
+0x51de
+0x51d1
+0x51fe
+0x51f7
+0x511e
+0x5111
+0x5110
+0x5117
+0x5101
+0x515e
+0x5151
+0x5155
+0x5157
+0x517e
+0x51ab
+0x51ad
+0x51ae
+0x51a7
+0x51ed
+0x51ee
+0x511d
+0x5117
+0x510b
+0x510d
+0x510e
+0x5100
+0x5107
+0x50ce
+0x50c0
+0x50da
+0x50fa
+0x50f7
+0x5011
+0x501a
+0x501d
+0x501e
+0x5011
+0x5010
+0x5001
+0x5007
+0x5050
+0x5055
+0x5075
+0x57ab
+0x57e7
+0x571b
+0x571d
+0x570a
+0x570b
+0x570d
+0x570f
+0x5707
+0x7ac7
+0x7ade
+0x7ae1
+0x7af7
+0x7a11
+0x7a17
+0x7a1a
+0x7a1c
+0x7a1d
+0x7a1e
+0x7a11
+0x7a11
+0x7a55
+0x7a7e
+0x7ead
+0x7ea1
+0x7ea7
+0x7eca
+0x7ee1
+0x7ee7
+0x7eff
+0x7e11
+0x7e1e
+0x7e11
+0x7e11
+0x7e17
+0x7e57
+0x7e7e
+0x71a0
+0x71ce
+0x71de
+0x71ed
+0x71ff
+0x71f7
+0x711e
+0x7111
+0x7117
+0x717e
+0x7171
+0x70ad
+0x70a7
+0x70be
+0x70c0
+0x70de
+0x70ed
+0x70ff
+0x70f7
+0x7011
+0x7017
+0x701d
+0x701e
+0x7011
+0x7017
+0x7001
+0x7007
+0x7055
+0x7057
+0x707e
+0x7070
+0x751a
+ 
+===> 166/1/robert-dicicco.pl <===
+0x0000abac 
+0x0000aba5 
+0x0000abed 
+0x0000abe7 
+0x0000ab1e 
+0x0000acca 
+0x0000ac1d 
+0x0000ac1e 
+0x0000ac7a 
+0x0000adad 
+0x0000ada7 
+0x0000adda 
+0x0000ade7 
+0x0000ad17 
+0x0000affa 
+0x0000a1de 
+0x0000a1e1 
+0x0000a11e 
+0x0000a1a5 
+0x0000a1ba 
+0x0000a1be 
+0x0000a1c0 
+0x0000a1ec 
+0x0000a1ee 
+0x0000a1ef 
+0x0000a1fa 
+0x0000a11f 
+0x0000a117 
+0x0000a10d 
+0x0000a10e 
+0x0000a150 
+0x0000a170 
+0x0000a5c1 
+0x0000a55e 
+0x0000a551 
+0x0000a57a 
+0x0000a7ef 
+0x0000a7e5 
+0x0000a715 
+0x0000a71e 
+0x0000a77a 
+0x0000baa1 
+0x0000baba 
+0x0000babe 
+0x0000bade 
+0x0000baff 
+0x0000baf7 
+0x0000ba11 
+0x0000ba17 
+0x0000ba1d 
+0x0000ba1e 
+0x0000ba11 
+0x0000ba11 
+0x0000ba5e 
+0x0000ba55 
+0x0000ba57 
+0x0000ba7e 
+0x0000ba75 
+0x0000ba77 
+0x0000bead 
+0x0000bea1 
+0x0000bea7 
+0x0000beef 
+0x0000bee5 
+0x0000bee7 
+0x0000be1a 
+0x0000be1d 
+0x0000be11 
+0x0000be17 
+0x0000be5a 
+0x0000be57 
+0x0000be7a 
+0x0000b1a5 
+0x0000b1bb 
+0x0000b1b1 
+0x0000b1ce 
+0x0000b1de 
+0x0000b1ff 
+0x0000b11e 
+0x0000b111 
+0x0000b110 
+0x0000b10d 
+0x0000b105 
+0x0000b17e 
+0x0000b171 
+0x0000b170 
+0x0000b177 
+0x0000b1ab 
+0x0000b1ad 
+0x0000b1ae 
+0x0000b1a5 
+0x0000b1a7 
+0x0000b1eb 
+0x0000b1ee 
+0x0000b1e0 
+0x0000b1e7 
+0x0000b10b 
+0x0000b10c 
+0x0000b107 
+0x0000b0a7 
+0x0000b0ba 
+0x0000b0b0 
+0x0000b0ce 
+0x0000b0de 
+0x0000b01d 
+0x0000b011 
+0x0000b01a 
+0x0000b01d 
+0x0000b01e 
+0x0000b011 
+0x0000b010 
+0x0000b017 
+0x0000b00b 
+0x0000b00d 
+0x0000b00f 
+0x0000b001 
+0x0000b007 
+0x0000b05e 
+0x0000b055 
+0x0000b07a 
+0x0000b07e 
+0x0000b077 
+0x0000caba 
+0x0000cade 
+0x0000cad1 
+0x0000ca1d 
+0x0000ca1f 
+0x0000ca11 
+0x0000ca5e 
+0x0000ca55 
+0x0000ca57 
+0x0000ca7e 
+0x0000cede 
+0x0000ce11 
+0x0000ce11 
+0x0000ce17 
+0x0000ce55 
+0x0000ce57 
+0x0000ce71 
+0x0000c15e 
+0x0000c157 
+0x0000c17e 
+0x0000c1ad 
+0x0000c1a7 
+0x0000c1ed 
+0x0000c1ee 
+0x0000c1ef 
+0x0000c117 
+0x0000c10d 
+0x0000c107 
+0x0000c0a1 
+0x0000c0a7 
+0x0000c0ca 
+0x0000c0c0 
+0x0000c0da 
+0x0000c0de 
+0x0000c0d0 
+0x0000c0ed 
+0x0000c0ff 
+0x0000c0f7 
+0x0000c01f 
+0x0000c011 
+0x0000c01a 
+0x0000c01d 
+0x0000c01e 
+0x0000c011 
+0x0000c011 
+0x0000c017 
+0x0000c00f 
+0x0000c001 
+0x0000c007 
+0x0000c055 
+0x0000c057 
+0x0000c07e 
+0x0000c070 
+0x0000dabb 
+0x0000dace 
+0x0000dada 
+0x0000dade 
+0x0000dad0 
+0x0000daff 
+0x0000daf7 
+0x0000da15 
+0x0000da1e 
+0x0000da11 
+0x0000da17 
+0x0000da51 
+0x0000da7a 
+0x0000da7e 
+0x0000dead 
+0x0000deaf 
+0x0000dea1 
+0x0000deb7 
+0x0000ded0 
+0x0000deed 
+0x0000def7 
+0x0000de1e 
+0x0000de1f 
+0x0000de11 
+0x0000de51 
+0x0000de55 
+0x0000d1a1 
+0x0000d1b5 
+0x0000d1ce 
+0x0000d1eb 
+0x0000d1e7 
+0x0000d111 
+0x0000d110 
+0x0000d101 
+0x0000d15c 
+0x0000d155 
+0x0000d17a 
+0x0000d17e 
+0x0000d0ab 
+0x0000d0a7 
+0x0000d0be 
+0x0000d0dd 
+0x0000d0d0 
+0x0000d0e5 
+0x0000d0ff 
+0x0000d017 
+0x0000d01a 
+0x0000d01e 
+0x0000d011 
+0x0000d011 
+0x0000d017 
+0x0000d00b 
+0x0000d001 
+0x0000d05a 
+0x0000d05e 
+0x0000d055 
+0x0000d07e 
+0x0000ea5e 
+0x0000ea57 
+0x0000ea75 
+0x0000eb0e 
+0x0000ecad 
+0x0000edd0 
+0x0000edea 
+0x0000ed17 
+0x0000e11e 
+0x0000e10d 
+0x0000e15e 
+0x0000e5ca 
+0x0000face 
+0x0000fac7 
+0x0000fade 
+0x0000faff 
+0x0000fa11 
+0x0000fa11 
+0x0000fa55 
+0x0000fa57 
+0x0000fa7e 
+0x0000fea1 
+0x0000fea7 
+0x0000feed 
+0x0000fee1 
+0x0000fe1f 
+0x0000fe11 
+0x0000fe15 
+0x0000fe11 
+0x0000fe15 
+0x0000fe17 
+0x0000fe0d 
+0x0000fe55 
+0x0000fe57 
+0x0000f1a7 
+0x0000f1ce 
+0x0000f1c0 
+0x0000f1de 
+0x0000f1fe 
+0x0000f1f0 
+0x0000f11e 
+0x0000f111 
+0x0000f110 
+0x0000f115 
+0x0000f15c 
+0x0000f15e 
+0x0000f157 
+0x0000f1a7 
+0x0000f1ea 
+0x0000f1ed 
+0x0000f1ee 
+0x0000f1e7 
+0x0000f117 
+0x0000f10b 
+0x0000f10c 
+0x0000f10e 
+0x0000f107 
+0x0000f0a1 
+0x0000f0c1 
+0x0000f011 
+0x0000f01d 
+0x0000f01e 
+0x0000f00d 
+0x0000f001 
+0x0000f007 
+0x00001b1d 
+0x00001b15 
+0x00001ced 
+0x00001dea 
+0x00001de5 
+0x00001d1c 
+0x00001d1e 
+0x00001d01 
+0x0000111a 
+0x00001107 
+0x000010d0 
+0x0000107a 
+0x000015ba 
+0x0000151e 
+0x00001ace 
+0x00001ade 
+0x00001ae7 
+0x00001a1c 
+0x00001a1d 
+0x00001a11 
+0x00001a10 
+0x00001a5a 
+0x00001a55 
+0x00001a57 
+0x00001a7a 
+0x00001a7e 
+0x00001ead 
+0x00001eaf 
+0x00001ea1 
+0x00001ea7 
+0x00001ede 
+0x00001eed 
+0x00001ee5 
+0x00001ee7 
+0x00001ef7 
+0x00001e55 
+0x00001e57 
+0x00001e7e 
+0x000011ed 
+0x000011ef 
+0x000011fe 
+0x000011f0 
+0x000011f7 
+0x0000111e 
+0x00001111 
+0x00001117 
+0x00001155 
+0x00001157 
+0x0000117e 
+0x000010ad 
+0x000010af 
+0x000010be 
+0x000010b0 
+0x000010ca 
+0x000010c1 
+0x000010c0 
+0x000010de 
+0x000010f7 
+0x00001011 
+0x0000100d 
+0x0000100f 
+0x00001007 
+0x0000105e 
+0x00001055 
+0x00001057 
+0x0000107a 
+0x0000107e 
+0x00001075 
+0x00000a57 
+0x00000b17 
+0x00000b0e 
+0x00000b01 
+0x00000da1 
+0x00000dd5 
+0x00000de1 
+0x00000d1c 
+0x00000d50 
+0x000001e0 
+0x0000011d 
+0x00000110 
+0x0000011a 
+0x0000001d 
+0x0000055e 
+0x0000071c 
+0x00000770 
+0x00005abe 
+0x00005ac0 
+0x00005ade 
+0x00005ad0 
+0x00005afe 
+0x00005af7 
+0x00005a1c 
+0x00005a1d 
+0x00005a11 
+0x00005a1e 
+0x00005a17 
+0x00005a5a 
+0x00005a7e 
+0x00005cab 
+0x00005cad 
+0x00005ca7 
+0x00005c0b 
+0x00005c07 
+0x00005ea1 
+0x00005ea7 
+0x00005ec7 
+0x00005eed 
+0x00005ee1 
+0x00005e17 
+0x00005e1e 
+0x00005e1f 
+0x00005e11 
+0x00005e17 
+0x00005e55 
+0x00005e7a 
+0x00005e77 
+0x000051a1 
+0x000051ce 
+0x000051de 
+0x000051d1 
+0x000051fe 
+0x000051f7 
+0x0000511e 
+0x00005111 
+0x00005110 
+0x00005117 
+0x00005101 
+0x0000515e 
+0x00005151 
+0x00005155 
+0x00005157 
+0x0000517e 
+0x000051ab 
+0x000051ad 
+0x000051ae 
+0x000051a7 
+0x000051ed 
+0x000051ee 
+0x0000511d 
+0x00005117 
+0x0000510b 
+0x0000510d 
+0x0000510e 
+0x00005100 
+0x00005107 
+0x000050ce 
+0x000050c0 
+0x000050da 
+0x000050fa 
+0x000050f7 
+0x00005011 
+0x0000501a 
+0x0000501d 
+0x0000501e 
+0x00005011 
+0x00005010 
+0x00005001 
+0x00005007 
+0x00005050 
+0x00005055 
+0x00005075 
+0x000057ab 
+0x000057e7 
+0x0000571b 
+0x0000571d 
+0x0000570a 
+0x0000570b 
+0x0000570d 
+0x0000570f 
+0x00005707 
+0x00007ac7 
+0x00007ade 
+0x00007ae1 
+0x00007af7 
+0x00007a11 
+0x00007a17 
+0x00007a1a 
+0x00007a1c 
+0x00007a1d 
+0x00007a1e 
+0x00007a11 
+0x00007a11 
+0x00007a55 
+0x00007a7e 
+0x00007ead 
+0x00007ea1 
+0x00007ea7 
+0x00007eca 
+0x00007ee1 
+0x00007ee7 
+0x00007eff 
+0x00007e11 
+0x00007e1e 
+0x00007e11 
+0x00007e11 
+0x00007e17 
+0x00007e57 
+0x00007e7e 
+0x000071a0 
+0x000071ce 
+0x000071de 
+0x000071ed 
+0x000071ff 
+0x000071f7 
+0x0000711e 
+0x00007111 
+0x00007117 
+0x0000717e 
+0x00007171 
+0x000070ad 
+0x000070a7 
+0x000070be 
+0x000070c0 
+0x000070de 
+0x000070ed 
+0x000070ff 
+0x000070f7 
+0x00007011 
+0x00007017 
+0x0000701d 
+0x0000701e 
+0x00007011 
+0x00007017 
+0x00007001 
+0x00007007 
+0x00007055 
+0x00007057 
+0x0000707e 
+0x00007070 
+0x0000751a 
+
+ 
+===> 166/1/ryan-thompson.pl <===
+abac
+aba5
+abed
+abe7
+ab1e
+acca
+ac1d
+ac1e
+ac7a
+adad
+ada7
+adda
+ade7
+ad17
+affa
+a1de
+a1e1
+a11e
+a1a5
+a1ba
+a1be
+a1c0
+a1ec
+a1ee
+a1ef
+a1fa
+a11f
+a117
+a10d
+a10e
+a150
+a170
+a5c1
+a55e
+a551
+a57a
+a7ef
+a7e5
+a715
+a71e
+a77a
+baa1
+baba
+babe
+bade
+baff
+baf7
+ba11
+ba17
+ba1d
+ba1e
+ba11
+ba11
+ba5e
+ba55
+ba57
+ba7e
+ba75
+ba77
+bead
+bea1
+bea7
+beef
+bee5
+bee7
+be1a
+be1d
+be11
+be17
+be5a
+be57
+be7a
+b1a5
+b1bb
+b1b1
+b1ce
+b1de
+b1ff
+b11e
+b111
+b110
+b10d
+b105
+b17e
+b171
+b170
+b177
+b1ab
+b1ad
+b1ae
+b1a5
+b1a7
+b1eb
+b1ee
+b1e0
+b1e7
+b10b
+b10c
+b107
+b0a7
+b0ba
+b0b0
+b0ce
+b0de
+b01d
+b011
+b01a
+b01d
+b01e
+b011
+b010
+b017
+b00b
+b00d
+b00f
+b001
+b007
+b05e
+b055
+b07a
+b07e
+b077
+caba
+cade
+cad1
+ca1d
+ca1f
+ca11
+ca5e
+ca55
+ca57
+ca7e
+cede
+ce11
+ce11
+ce17
+ce55
+ce57
+ce71
+c15e
+c157
+c17e
+c1ad
+c1a7
+c1ed
+c1ee
+c1ef
+c117
+c10d
+c107
+c0a1
+c0a7
+c0ca
+c0c0
+c0da
+c0de
+c0d0
+c0ed
+c0ff
+c0f7
+c01f
+c011
+c01a
+c01d
+c01e
+c011
+c011
+c017
+c00f
+c001
+c007
+c055
+c057
+c07e
+c070
+dabb
+dace
+dada
+dade
+dad0
+daff
+daf7
+da15
+da1e
+da11
+da17
+da51
+da7a
+da7e
+dead
+deaf
+dea1
+deb7
+ded0
+deed
+def7
+de1e
+de1f
+de11
+de51
+de55
+d1a1
+d1b5
+d1ce
+d1eb
+d1e7
+d111
+d110
+d101
+d15c
+d155
+d17a
+d17e
+d0ab
+d0a7
+d0be
+d0dd
+d0d0
+d0e5
+d0ff
+d017
+d01a
+d01e
+d011
+d011
+d017
+d00b
+d001
+d05a
+d05e
+d055
+d07e
+ea5e
+ea57
+ea75
+eb0e
+ecad
+edd0
+edea
+ed17
+e11e
+e10d
+e15e
+e5ca
+face
+fac7
+fade
+faff
+fa11
+fa11
+fa55
+fa57
+fa7e
+fea1
+fea7
+feed
+fee1
+fe1f
+fe11
+fe15
+fe11
+fe15
+fe17
+fe0d
+fe55
+fe57
+f1a7
+f1ce
+f1c0
+f1de
+f1fe
+f1f0
+f11e
+f111
+f110
+f115
+f15c
+f15e
+f157
+f1a7
+f1ea
+f1ed
+f1ee
+f1e7
+f117
+f10b
+f10c
+f10e
+f107
+f0a1
+f0c1
+f011
+f01d
+f01e
+f00d
+f001
+f007
+1b1d
+1b15
+1ced
+1dea
+1de5
+1d1c
+1d1e
+1d01
+111a
+1107
+10d0
+107a
+15ba
+151e
+1ace
+1ade
+1ae7
+1a1c
+1a1d
+1a11
+1a10
+1a5a
+1a55
+1a57
+1a7a
+1a7e
+1ead
+1eaf
+1ea1
+1ea7
+1ede
+1eed
+1ee5
+1ee7
+1ef7
+1e55
+1e57
+1e7e
+11ed
+11ef
+11fe
+11f0
+11f7
+111e
+1111
+1117
+1155
+1157
+117e
+10ad
+10af
+10be
+10b0
+10ca
+10c1
+10c0
+10de
+10f7
+1011
+100d
+100f
+1007
+105e
+1055
+1057
+107a
+107e
+1075
+0a57
+0b17
+0b0e
+0b01
+0da1
+0dd5
+0de1
+0d1c
+0d50
+01e0
+011d
+0110
+011a
+001d
+055e
+071c
+0770
+5abe
+5ac0
+5ade
+5ad0
+5afe
+5af7
+5a1c
+5a1d
+5a11
+5a1e
+5a17
+5a5a
+5a7e
+5cab
+5cad
+5ca7
+5c0b
+5c07
+5ea1
+5ea7
+5ec7
+5eed
+5ee1
+5e17
+5e1e
+5e1f
+5e11
+5e17
+5e55
+5e7a
+5e77
+51a1
+51ce
+51de
+51d1
+51fe
+51f7
+511e
+5111
+5110
+5117
+5101
+515e
+5151
+5155
+5157
+517e
+51ab
+51ad
+51ae
+51a7
+51ed
+51ee
+511d
+5117
+510b
+510d
+510e
+5100
+5107
+50ce
+50c0
+50da
+50fa
+50f7
+5011
+501a
+501d
+501e
+5011
+5010
+5001
+5007
+5050
+5055
+5075
+57ab
+57e7
+571b
+571d
+570a
+570b
+570d
+570f
+5707
+7ac7
+7ade
+7ae1
+7af7
+7a11
+7a17
+7a1a
+7a1c
+7a1d
+7a1e
+7a11
+7a11
+7a55
+7a7e
+7ead
+7ea1
+7ea7
+7eca
+7ee1
+7ee7
+7eff
+7e11
+7e1e
+7e11
+7e11
+7e17
+7e57
+7e7e
+71a0
+71ce
+71de
+71ed
+71ff
+71f7
+711e
+7111
+7117
+717e
+7171
+70ad
+70a7
+70be
+70c0
+70de
+70ed
+70ff
+70f7
+7011
+7017
+701d
+701e
+7011
+7017
+7001
+7007
+7055
+7057
+707e
+7070
+751a
+ 
+===> 166/1/ulrich-rieke.pl <===
+0xabac,0xaba5,0xabed,0xabe7,0xab1e,0xacca,0xac1d,0xac1e,0xac7a,0xadad,0xada7,0xadda,0xade7,0xad17,0xaffa,0xa1de,0xa1e1,0xa11e,0xa1a5,0xa1ba,0xa1be,0xa1c0,0xa1ec,0xa1ee,0xa1ef,0xa1fa,0xa11f,0xa117,0xa10d,0xa10e,0xa150,0xa170,0xa5c1,0xa55e,0xa551,0xa57a,0xa7ef,0xa7e5,0xa715,0xa71e,0xa77a,0xbaa1,0xbaba,0xbabe,0xbade,0xbaff,0xbaf7,0xba11,0xba17,0xba1d,0xba1e,0xba11,0xba11,0xba5e,0xba55,0xba57,0xba7e,0xba75,0xba77,0xbead,0xbea1,0xbea7,0xbeef,0xbee5,0xbee7,0xbe1a,0xbe1d,0xbe11,0xbe17,0xbe5a,0xbe57,0xbe7a,0xb1a5,0xb1bb,0xb1b1,0xb1ce,0xb1de,0xb1ff,0xb11e,0xb111,0xb110,0xb10d,0xb105,0xb17e,0xb171,0xb170,0xb177,0xb1ab,0xb1ad,0xb1ae,0xb1a5,0xb1a7,0xb1eb,0xb1ee,0xb1e0,0xb1e7,0xb10b,0xb10c,0xb107,0xb0a7,0xb0ba,0xb0b0,0xb0ce,0xb0de,0xb01d,0xb011,0xb01a,0xb01d,0xb01e,0xb011,0xb010,0xb017,0xb00b,0xb00d,0xb00f,0xb001,0xb007,0xb05e,0xb055,0xb07a,0xb07e,0xb077,0xcaba,0xcade,0xcad1,0xca1d,0xca1f,0xca11,0xca5e,0xca55,0xca57,0xca7e,0xcede,0xce11,0xce11,0xce17,0xce55,0xce57,0xce71,0xc15e,0xc157,0xc17e,0xc1ad,0xc1a7,0xc1ed,0xc1ee,0xc1ef,0xc117,0xc10d,0xc107,0xc0a1,0xc0a7,0xc0ca,0xc0c0,0xc0da,0xc0de,0xc0d0,0xc0ed,0xc0ff,0xc0f7,0xc01f,0xc011,0xc01a,0xc01d,0xc01e,0xc011,0xc011,0xc017,0xc00f,0xc001,0xc007,0xc055,0xc057,0xc07e,0xc070,0xdabb,0xdace,0xdada,0xdade,0xdad0,0xdaff,0xdaf7,0xda15,0xda1e,0xda11,0xda17,0xda51,0xda7a,0xda7e,0xdead,0xdeaf,0xdea1,0xdeb7,0xded0,0xdeed,0xdef7,0xde1e,0xde1f,0xde11,0xde51,0xde55,0xd1a1,0xd1b5,0xd1ce,0xd1eb,0xd1e7,0xd111,0xd110,0xd101,0xd15c,0xd155,0xd17a,0xd17e,0xd0ab,0xd0a7,0xd0be,0xd0dd,0xd0d0,0xd0e5,0xd0ff,0xd017,0xd01a,0xd01e,0xd011,0xd011,0xd017,0xd00b,0xd001,0xd05a,0xd05e,0xd055,0xd07e,0xea5e,0xea57,0xea75,0xeb0e,0xecad,0xedd0,0xedea,0xed17,0xe11e,0xe10d,0xe15e,0xe5ca,0xface,0xfac7,0xfade,0xfaff,0xfa11,0xfa11,0xfa55,0xfa57,0xfa7e,0xfea1,0xfea7,0xfeed,0xfee1,0xfe1f,0xfe11,0xfe15,0xfe11,0xfe15,0xfe17,0xfe0d,0xfe55,0xfe57,0xf1a7,0xf1ce,0xf1c0,0xf1de,0xf1fe,0xf1f0,0xf11e,0xf111,0xf110,0xf115,0xf15c,0xf15e,0xf157,0xf1a7,0xf1ea,0xf1ed,0xf1ee,0xf1e7,0xf117,0xf10b,0xf10c,0xf10e,0xf107,0xf0a1,0xf0c1,0xf011,0xf01d,0xf01e,0xf00d,0xf001,0xf007,0x1b1d,0x1b15,0x1ced,0x1dea,0x1de5,0x1d1c,0x1d1e,0x1d01,0x111a,0x1107,0x10d0,0x107a,0x15ba,0x151e,0x1ace,0x1ade,0x1ae7,0x1a1c,0x1a1d,0x1a11,0x1a10,0x1a5a,0x1a55,0x1a57,0x1a7a,0x1a7e,0x1ead,0x1eaf,0x1ea1,0x1ea7,0x1ede,0x1eed,0x1ee5,0x1ee7,0x1ef7,0x1e55,0x1e57,0x1e7e,0x11ed,0x11ef,0x11fe,0x11f0,0x11f7,0x111e,0x1111,0x1117,0x1155,0x1157,0x117e,0x10ad,0x10af,0x10be,0x10b0,0x10ca,0x10c1,0x10c0,0x10de,0x10f7,0x1011,0x100d,0x100f,0x1007,0x105e,0x1055,0x1057,0x107a,0x107e,0x1075,0x0a57,0x0b17,0x0b0e,0x0b01,0x0da1,0x0dd5,0x0de1,0x0d1c,0x0d50,0x01e0,0x011d,0x0110,0x011a,0x001d,0x055e,0x071c,0x0770,0x5abe,0x5ac0,0x5ade,0x5ad0,0x5afe,0x5af7,0x5a1c,0x5a1d,0x5a11,0x5a1e,0x5a17,0x5a5a,0x5a7e,0x5cab,0x5cad,0x5ca7,0x5c0b,0x5c07,0x5ea1,0x5ea7,0x5ec7,0x5eed,0x5ee1,0x5e17,0x5e1e,0x5e1f,0x5e11,0x5e17,0x5e55,0x5e7a,0x5e77,0x51a1,0x51ce,0x51de,0x51d1,0x51fe,0x51f7,0x511e,0x5111,0x5110,0x5117,0x5101,0x515e,0x5151,0x5155,0x5157,0x517e,0x51ab,0x51ad,0x51ae,0x51a7,0x51ed,0x51ee,0x511d,0x5117,0x510b,0x510d,0x510e,0x5100,0x5107,0x50ce,0x50c0,0x50da,0x50fa,0x50f7,0x5011,0x501a,0x501d,0x501e,0x5011,0x5010,0x5001,0x5007,0x5050,0x5055,0x5075,0x57ab,0x57e7,0x571b,0x571d,0x570a,0x570b,0x570d,0x570f,0x5707,0x7ac7,0x7ade,0x7ae1,0x7af7,0x7a11,0x7a17,0x7a1a,0x7a1c,0x7a1d,0x7a1e,0x7a11,0x7a11,0x7a55,0x7a7e,0x7ead,0x7ea1,0x7ea7,0x7eca,0x7ee1,0x7ee7,0x7eff,0x7e11,0x7e1e,0x7e11,0x7e11,0x7e17,0x7e57,0x7e7e,0x71a0,0x71ce,0x71de,0x71ed,0x71ff,0x71f7,0x711e,0x7111,0x7117,0x717e,0x7171,0x70ad,0x70a7,0x70be,0x70c0,0x70de,0x70ed,0x70ff,0x70f7,0x7011,0x7017,0x701d,0x701e,0x7011,0x7017,0x7001,0x7007,0x7055,0x7057,0x707e,0x7070,0x751a
