@@ -371,13 +371,13 @@ ok 30 -
 ===> 049/2/simon-proctor.raku <===
  
 ===> 049/2/stuart-little.raku <===
-key: 1,   value: ath
-key: 2,   value: luw
-key: 3,   value: fdw
+key: 1,   value: tja
+key: 2,   value: byw
+key: 3,   value: tyt
 
 Setting new item at key 4..
 
 New cache:
-key: 2,   value: luw
-key: 3,   value: fdw
-key: 4,   value: xdb
+key: 2,   value: byw
+key: 3,   value: tyt
+key: 4,   value: ypp
