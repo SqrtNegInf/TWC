@@ -1,0 +1,139 @@
+ 
+===> 166/2/athanasius.pl <===
+  dir_a          | dir_b           | dir_c           | dir_d      
+  -------------- | --------------- | --------------- | -----------
+  Comic_Sans.ttf | Comic_Sans.ttf  |                 |            
+                 | Courier_New.ttf | Courier_New.ttf |            
+  Georgia.ttf    |                 |                 | Georgia.ttf
+                 |                 | Monaco.ttf      | Monaco.ttf 
+                 | Tahoma.ttf      |                 | Tahoma.ttf 
+ 
+===> 166/2/cheok-yin-fung.pl <===
+           dir_a           dir_b           dir_c           dir_d
+----------------------------------------------------------------
+  Comic_Sans.ttf  Comic_Sans.ttf                                
+     Georgia.ttf                                     Georgia.ttf
+                  Courier_New.**  Courier_New.**                
+                      Tahoma.ttf                      Tahoma.ttf
+                                      Monaco.ttf      Monaco.ttf
+ 
+===> 166/2/colin-crain.pl <===
+ dir_a                | dir_b                | dir_c                
+ -------------------- | -------------------- | -------------------- 
+ Comic_Sans.ttf       | Comic_Sans.ttf       |                      
+                      | Courier_New.ttf      | Courier_New.ttf      
+ Georgia.ttf          |                      |                      
+                      |                      | Monaco.ttf           
+ Old_Fonts/           |                      |                      
+                      | Tahoma.ttf           |                      
+ 
+===> 166/2/dave-jacoby.pl <===
+dir_a           | dir_b           | dir_c           | dir_d          
+--------------- | --------------- | --------------- | ---------------
+Arial.ttf       | Arial.ttf       | Arial.ttf       | Arial.ttf      
+Comic_Sans.ttf  | Comic_Sans.ttf  |                 |                
+                | Courier_New.ttf | Courier_New.ttf |                
+Georgia.ttf     |                 |                 | Georgia.ttf    
+Helvetica.ttf   | Helvetica.ttf   | Helvetica.ttf   | Helvetica.ttf  
+Impact.otf      | Impact.otf      | Impact.otf      | Impact.otf     
+                |                 | Monaco.ttf      | Monaco.ttf     
+                | Tahoma.ttf      |                 | Tahoma.ttf     
+Verdana.ttf     | Verdana.ttf     | Verdana.ttf     | Verdana.ttf    
+ 
+===> 166/2/duncan-c-white.pl <===
+dir_a           | dir_b            | dir_c            | dir_d         
+----------------|------------------|------------------|---------------
+Comic_Sans.ttf  | Comic_Sans.ttf   |                  |               
+                | Courier_New.ttf  | Courier_New.ttf  |               
+Georgia.ttf     |                  |                  | Georgia.ttf   
+                |                  | Monaco.ttf       | Monaco.ttf    
+                | Tahoma.ttf       |                  | Tahoma.ttf    
+ 
+===> 166/2/e-choroba.pl <===
+|dir_a         |dir_b          |dir_c          |dir_d      |
+|--------------|---------------|---------------|-----------|
+|Comic_Sans.ttf|Comic_Sans.ttf |               |           |
+|              |Courier_New.ttf|Courier_New.ttf|           |
+|Georgia.ttf   |               |               |Georgia.ttf|
+|              |               |Monaco.ttf     |Monaco.ttf |
+|              |Tahoma.ttf     |               |Tahoma.ttf |
+ 
+===> 166/2/jo-37.pl <===
+                | dir_a | dir_b | dir_c | dir_d
+----------------+-------+-------+-------+------
+Comic_Sans.ttf  |     X |     X |       |      
+Courier_New.ttf |       |     X |     X |      
+Georgia.ttf     |     X |       |       |     X
+Monaco.ttf      |       |       |     X |     X
+Tahoma.ttf      |       |     X |       |     X
+ 
+===> 166/2/laurent-rosenfeld.pl <===
+Contents of the directories: 
+./test-dir/a: m n q
+./test-dir/b: n o ppp q sssss
+./test-dir/c: o q
+
+Common files: q
+
+Files not common to all directories: 
+./test-dir/a: m n
+./test-dir/b: n o ppp sssss
+./test-dir/c: o
+ 
+===> 166/2/mattneleigh.pl <===
+
+dir_a           | dir_b           | dir_c           | dir_d          
+--------------- | --------------- | --------------- | ---------------
+Comic_Sans.ttf  | Comic_Sans.ttf  |                 |                
+                | Courier_New.ttf | Courier_New.ttf |                
+Georgia.ttf     |                 |                 | Georgia.ttf    
+                |                 | Monaco.ttf      | Monaco.ttf     
+                | Tahoma.ttf      |                 | Tahoma.ttf     
+
+ 
+===> 166/2/perlboy1967.pl <===
+dir_a          | dir_b           | dir_c           | dir_d        
+---------------|-----------------|-----------------|--------------
+Comic_Sans.ttf | Comic_Sans.ttf  |                 |              
+               | Courier_New.ttf | Courier_New.ttf |              
+Georgia.ttf    |                 |                 | Georgia.ttf  
+               |                 | Monaco.ttf      | Monaco.ttf   
+               | Tahoma.ttf      |                 | Tahoma.ttf   
+ 
+===> 166/2/peter-campbell-smith.pl <===
+
+ dir_a           | dir_b           | dir_c           
+ --------------- | --------------- | --------------- 
+ Comic_Sans.ttf  | Comic_Sans.ttf  |                
+                 | Courier_New.ttf | Courier_New.ttf
+ Georgia.ttf     |                 |                
+                 |                 | Monaco.ttf     
+ Old_Fonts/      |                 |                
+                 | Tahoma.ttf      |                
+
+ 
+===> 166/2/polettix.pl <===
+dir_a          | dir_b           | dir_c           | dir_d      
+-------------- | --------------- | --------------- | -----------
+Comic_Sans.ttf | Comic_Sans.ttf  |                 |            
+               | Courier_New.ttf | Courier_New.ttf |            
+Georgia.ttf    |                 |                 | Georgia.ttf
+               |                 | Monaco.ttf      | Monaco.ttf 
+               | Tahoma.ttf      |                 | Tahoma.ttf 
+ 
+===> 166/2/roger-bell-west.pl <===
+dir_a          | dir_b           | dir_c           | dir_d      
+Comic_Sans.ttf | Comic_Sans.ttf  |                 |            
+               | Courier_New.ttf | Courier_New.ttf |            
+Georgia.ttf    |                 |                 | Georgia.ttf
+               |                 | Monaco.ttf      | Monaco.ttf 
+               | Tahoma.ttf      |                 | Tahoma.ttf 
+ 
+===> 166/2/ryan-thompson.pl <===
+dir_a          | dir_b           | dir_c           | dir_d        
+-------------- | --------------- | --------------- | -------------
+Comic_Sans.ttf | Comic_Sans.ttf  |                 |              
+               | Courier_New.ttf | Courier_New.ttf |              
+Georgia.ttf    |                 |                 | Georgia.ttf  
+               |                 | Monaco.ttf      | Monaco.ttf   
+               | Tahoma.ttf      |                 | Tahoma.ttf   

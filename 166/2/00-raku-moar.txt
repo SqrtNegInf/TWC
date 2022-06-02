@@ -1,0 +1,97 @@
+ 
+===> 166/2/0rir.raku <===
+ test-dir/a   | test-dir/b       | test-dir/c   
+--------------|------------------|--------------
+ test-dir/a/m |                  |              
+ test-dir/a/n |                  |              
+ test-dir/a/q |                  |              
+              | test-dir/b/n     |              
+              | test-dir/b/o     |              
+              | test-dir/b/ppp   |              
+              | test-dir/b/q     |              
+              | test-dir/b/sssss |              
+              |                  | test-dir/c/o 
+              |                  | test-dir/c/q 
+ 
+===> 166/2/arne-sommer.raku <===
+test-dir/a | test-dir/b | test-dir/c
+---------------------------------------
+m          |            |           
+n          | n          |           
+           | o          | o         
+           | ppp        |           
+           | sssss      |           
+ 
+===> 166/2/athanasius.raku <===
+  dir_a          | dir_b           | dir_c           | dir_d      
+  -------------- | --------------- | --------------- | -----------
+  Comic_Sans.ttf | Comic_Sans.ttf  |                 |            
+                 | Courier_New.ttf | Courier_New.ttf |            
+  Georgia.ttf    |                 |                 | Georgia.ttf
+                 |                 | Monaco.ttf      | Monaco.ttf 
+                 | Tahoma.ttf      |                 | Tahoma.ttf 
+ 
+===> 166/2/laurent-rosenfeld.raku <===
+Content of the dirs: {a => (m n q), b => (n o ppp q sssss), c => (o q)}
+Files common to all directories: (q)
+a -> (m n)
+b -> (n o ppp sssss)
+c -> (o)
+ 
+===> 166/2/luca-ferrari.raku <===
+|dir_a               |dir_b               |dir_c               |
+|--------------------|--------------------|--------------------|
+|Comic_Sans.ttf      |Comic_Sans.ttf      |                    |
+|                    |Courier_New.ttf     |Courier_New.ttf     |
+|Georgia.ttf         |                    |                    |
+|                    |                    |Monaco.ttf          |
+|                    |Tahoma.ttf          |                    |
+ 
+===> 166/2/mark-anderson.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ 
+===> 166/2/polettix.raku <===
+dir_a          | dir_b           | dir_c          
+-------------- | --------------- | ---------------
+Comic_Sans.ttf | Comic_Sans.ttf  |                
+               | Courier_New.ttf | Courier_New.ttf
+Georgia.ttf    |                 |                
+               |                 | Monaco.ttf     
+               | Tahoma.ttf      |                
+ 
+===> 166/2/rick-bychowski.raku <===
+| dir_a                          | dir_b                          | dir_c                          | dir_d                          |
+| ------------------------------ | ------------------------------ | ------------------------------ | ------------------------------ |
+| Arial.ttf                      | Arial.ttf                      | Arial.ttf                      | Arial.ttf                      |
+| Comic_Sans.ttf                 | Comic_Sans.ttf                 | ---                            | ---                            |
+| Georgia.ttf                    | ---                            | ---                            | Georgia.ttf                    |
+| Helvetica.ttf                  | Helvetica.ttf                  | Helvetica.ttf                  | Helvetica.ttf                  |
+| Impact.otf                     | Impact.otf                     | Impact.otf                     | Impact.otf                     |
+| Verdana.ttf                    | Verdana.ttf                    | Verdana.ttf                    | Verdana.ttf                    |
+| ---                            | Courier_New.ttf                | Courier_New.ttf                | ---                            |
+| ---                            | Tahoma.ttf                     | ---                            | Tahoma.ttf                     |
+| ---                            | ---                            | Monaco.ttf                     | Monaco.ttf                     |
+ 
+===> 166/2/roger-bell-west.raku <===
+dir_a          | dir_b           | dir_c           | dir_d      
+Comic_Sans.ttf | Comic_Sans.ttf  |                 |            
+               | Courier_New.ttf | Courier_New.ttf |            
+Georgia.ttf    |                 |                 | Georgia.ttf
+               |                 | Monaco.ttf      | Monaco.ttf 
+               | Tahoma.ttf      |                 | Tahoma.ttf 
+ 
+===> 166/2/ulrich-rieke.raku <===
+dir_a            |dir_b            |dir_c            |dir_d             
+-----------------|-----------------|-----------------|-----------------
+Comic_Sans.ttf   |Comic_Sans.ttf   |                 |                  
+                 |Courier_New.ttf  |Courier_New.ttf  |                  
+Georgia.ttf      |                 |                 |Georgia.ttf       
+                 |                 |Monaco.ttf       |Monaco.ttf        
+                 |Tahoma.ttf       |                 |Tahoma.ttf        
+ 
+===> 166/2/wambash.raku <===
+ok 1 - 
+ok 2 - 
+1..2
