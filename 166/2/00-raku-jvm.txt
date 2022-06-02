@@ -31,6 +31,16 @@ n          | n          |
                  |                 | Monaco.ttf      | Monaco.ttf 
                  | Tahoma.ttf      |                 | Tahoma.ttf 
  
+===> 166/2/gfldex.raku <===
+dir_a           | dir_b           | dir_c          
+----------------+-----------------+----------------
+Comic_Sans.ttf  | Comic_Sans.ttf  |                
+                | Courier_New.ttf | Courier_New.ttf
+Georgia.ttf     |                 |                
+                |                 | Monaco.ttf     
+Old_Fonts/      |                 |                
+                | Tahoma.ttf      |                
+ 
 ===> 166/2/laurent-rosenfeld.raku <===
 Content of the dirs: {a => (m n q), b => (n o ppp q sssss), c => (o q)}
 Files common to all directories: (q)
