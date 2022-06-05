@@ -70,18 +70,18 @@ Dec: 22 days
 12/2019 has 22 week days.
  
 ===> 037/1/mark-anderson.raku <===
-1:23 days
-2:20 days
-3:21 days
-4:22 days
-5:23 days
-6:20 days
-7:23 days
-8:22 days
-9:21 days
-10:23 days
-11:21 days
-12:22 days
+Jan:23 days
+Feb:20 days
+Mar:21 days
+Apr:22 days
+May:23 days
+Jun:20 days
+Jul:23 days
+Aug:22 days
+Sep:21 days
+Oct:23 days
+Nov:21 days
+Dec:22 days
  
 ===> 037/1/noud.raku <===
 Jan: 23 days
