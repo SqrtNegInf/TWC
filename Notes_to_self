@@ -1,3 +1,14 @@
+2022-06-05
+New Date::Names 2.2.3 release works (maybe Test::META was the problem?), reinstate '037/1/mark-anderson.raku'
+But JVM *still* won't run: You cannot create an instance of this type (null)
+
+2022-06-04
+Dozens of changes due to 'srand drift'.
+
+2022-06-03
+precomp again; for '037/1/mark-anderson.raku' the module 'Date::Names' seems to be a sticky problem, drop for now
+(also: added Date::Names source, but JVM still won't run for above task)
+
 2022-06-01
 Cleared all .precomp directories, same corruption as affected RC
 

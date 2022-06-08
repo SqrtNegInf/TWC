@@ -351,8 +351,8 @@ Challenge titles and Rosetta-code correspondences (exact, and otherwise)
 166-2 K-Directory Diff                      O/Order_disjoint_list_items
 167-1 Circular Primes                       C/Circular_primes
 167-2 Gamma Function                        G/Gamma_function
-168-1
-168-2
+168-1 Perrin Prime
+168-2 Home Prime                            H/Home_primes
 169-1
 169-2
 
