@@ -1,0 +1,90 @@
+ 
+===> 167/2/0rir.raku <===
+1..20
+ok 1 - Γ(1) approximates 1
+ok 2 - Γ(2) approximates 1
+ok 3 - Γ(3) approximates 2
+ok 4 - Γ(4) approximates 6
+ok 5 - Γ(5) approximates 24
+ok 6 - Γ(6) approximates 120
+ok 7 - Γ(7) approximates 720
+ok 8 - Γ(8) approximates 5040
+ok 9 - Γ(9) approximates 40320
+ok 10 - Γ(10) approximates 362880
+ok 11 - Γ(11) approximates 3628800
+ok 12 - Γ(12) approximates 39916800
+ok 13 - Γ(13) approximates 479001600
+ok 14 - Γ(14) approximates 6227020800
+ok 15 - Γ(15) approximates 87178291200
+ok 16 - Γ(16) approximates 1307674368000
+ok 17 - Γ(17) approximates 20922789888000
+ok 18 - Γ(18) approximates 355687428096000
+ok 19 - Γ(19) approximates 6402373705728000
+ok 20 - Γ(20) approximates 121645100408832000
+ 
+===> 167/2/athanasius.raku <===
+ok 1 - gamma(3+0i)
+ok 2 - gamma(5+0i)
+ok 3 - gamma(7+0i)
+ok 4 - gamma(1+0i)
+ok 5 - gamma(2+0i)
+ok 6 - gamma(4+0i)
+ok 7 - gamma(0+0i)
+ok 8 - gamma(-1+0i)
+ok 9 - gamma(-0.5+0i)
+ok 10 - gamma(0.5+0i)
+ok 11 - gamma(1.5+0i)
+ok 12 - gamma(2.5+0i)
+ok 13 - gamma(-0.5+0i)
+ok 14 - gamma(-1.5+0i)
+ok 15 - gamma(-2.5+0i)
+ok 16 - gamma(0+1i)
+ok 17 - gamma(0+1i)
+ok 18 - gamma(0-1i)
+ok 19 - gamma(-0.5+0.5i)
+ok 20 - gamma(-0.5-0.5i)
+ok 21 - gamma(4+3i)
+ok 22 - gamma(4-3i)
+ok 23 - gamma(0.46163214496836+0i)
+ok 24 - gamma(-0.25+0.75i)
+ok 25 - gamma(-0.25-2.75i)
+ok 26 - gamma(2.14159265358979+3.14159265358979i)
+ok 27 - gamma(10+0i)
+ok 28 - gamma(11-11.5i)
+ok 29 - gamma(0.33333333333333+0i)
+ok 30 - gamma(0.14285714285714+0i)
+1..30
+ 
+===> 167/2/jaldhar-h-vyas.raku <===
+2
+24
+720
+ 
+===> 167/2/laurent-rosenfeld.raku <===
+1 -> 1.00000
+3 -> 2.00000
+5 -> 24.00000
+6.2 -> 169.40610
+7 -> 720.00000
+0.4 -> 2.21816
+ 
+===> 167/2/luca-ferrari.raku <===
+1.999999999999995
+23.999999999999986
+719.9999999999977
+ 
+===> 167/2/mark-anderson.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ 
+===> 167/2/polettix.raku <===
+3 -> 2.0000000000000018
+5 -> 24.000000000000014
+7 -> 720.0000000000008
+ 
+===> 167/2/roger-bell-west.raku <===
+1..3
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
