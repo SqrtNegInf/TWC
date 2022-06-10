@@ -75,8 +75,8 @@ ok 30 - gamma(0.14285714285714+0i)
  
 ===> 167/2/mark-anderson.raku <===
 ok 1 - 
-not ok 2 - 
-not ok 3 - 
+ok 2 - 
+ok 3 - 
  
 ===> 167/2/polettix.raku <===
 3 -> 2.0000000000000018

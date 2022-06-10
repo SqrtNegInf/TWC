@@ -1,9 +1,9 @@
 #!/usr/bin/env raku
 
-# JVM treats '½' as zero, known bug, but something else is causing failure too for anything after 1st call?
+# 2022-06-08 JVM treats '½' as zero, known bug, but something else is causing failure too for anything after 1st call?
+# 2022-06-09 found it: '$++' is keeping it's value between calls, put in kludge...
 
-sub Γ($z is copy)
-{
+sub Γ($z is copy) {
     my \ϵ = 1e-7;
 
     my @p = [ 676.5203681218851, 
@@ -27,8 +27,9 @@ sub Γ($z is copy)
     else
     {
         $z--;
+        my $cnt = 0;
         my $x = 0.99999999999980993;
-        $x += $_ / ($z + $++ + 1) for @p;
+        $x += $_ / ($z + $cnt++ + 1) for @p;  # don't use anon '$', JVM doesn't reset 
         my $t = $z + @p - 1/2; # ½;
         $y = sqrt(2 * π) * $t ** ($z + 1/2) * exp(-$t) * $x;
         #$y = sqrt(2 * π) * $t ** ($z + ½) * exp(-$t) * $x;
@@ -41,6 +42,5 @@ sub Γ($z is copy)
 
 use Test;
 is-approx Γ(3), 2;
-#exit if $*VM ~~ /jvm/;
 is-approx Γ(5), 24;
 is-approx Γ(7), 720;
