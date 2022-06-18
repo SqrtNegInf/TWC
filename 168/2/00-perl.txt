@@ -1,0 +1,267 @@
+ 
+===> 168/2/adam-russell.pl <===
+773
+31636373
+ 
+===> 168/2/arne-sommer.pl <===
+773
+ 
+===> 168/2/athanasius.pl <===
+Trajectory: 10 -> 2|5 -> 5|5 -> 5|11 -> 7|73
+
+HP(10) = 773
+ 
+===> 168/2/cheok-yin-fung.pl <===
+1..6
+useful
+  25
+useful
+  55
+useful
+  511
+useful
+  773
+ok 1
+useful
+  2223
+useful
+  331319
+ok 2
+useful
+  22222
+useful
+  241271
+ok 3
+useful
+  2225
+useful
+  5589
+useful
+  3333323
+useful
+  77591153
+useful
+  292675557
+useful
+  3313147049
+useful
+  80910194019
+useful
+  353639502807
+useful
+  3314192745739
+ok 4
+useful
+  2211
+useful
+  31167
+useful
+  333463
+useful
+  13113227
+useful
+  173229331
+useful
+  1115748121
+useful
+  5412062381
+useful
+  11607810553
+useful
+  22815088913
+ok 5
+useful
+  335
+useful
+  567
+useful
+  33337
+useful
+  173753
+useful
+  239727
+useful
+  3411949
+ok 6
+ 
+===> 168/2/dave-jacoby.pl <===
+25 55 511 773 
+-	10	773
+ 
+===> 168/2/e-choroba.pl <===
+1..1
+ok 1
+ 
+===> 168/2/jaldhar-h-vyas.pl <===
+773
+ 
+===> 168/2/james-smith.pl <===
+ok 1
+ok 2
+ok 3
+ok 4
+ok 5
+ok 6
+ok 7
+ok 8
+ok 9
+ok 10
+ok 11
+ok 12
+ok 13
+ok 14
+ok 15
+ok 16
+ok 17
+ok 18
+ok 19
+ok 20
+ok 21
+ok 22
+ok 23
+ok 24
+ok 25
+ok 26
+ok 27
+ok 28
+ok 29
+ok 30
+ok 31
+ok 32
+ok 33
+ok 34
+ok 35
+ok 36
+ok 37
+ok 38
+ok 39
+ok 40
+ok 41
+ok 42
+ok 43
+ok 44
+ok 45
+ok 46
+ok 47
+ok 48
+ok 49
+ok 50
+ok 51
+ok 52
+ok 53
+ok 54
+ok 55
+ok 56
+ok 57
+ok 58
+ok 59
+ok 60
+ok 61
+ok 62
+ok 63
+ok 64
+ok 65
+ok 66
+ok 67
+ok 68
+ok 69
+ok 70
+ok 71
+ok 72
+ok 73
+ok 74
+ok 75
+ok 76
+ok 77
+ok 78
+ok 79
+ok 80
+ok 81
+ok 82
+ok 83
+ok 84
+ok 85
+ok 86
+ok 87
+ok 88
+ok 89
+ok 90
+ok 91
+ok 92
+ok 93
+ok 94
+ok 95
+ok 96
+ok 97
+1..97
+ 
+===> 168/2/julien-fiegehenn.pl <===
+ok 1
+ok 2
+ok 3
+ok 4
+1..4
+ 
+===> 168/2/lubos-kolouch.pl <===
+ok 1
+ok 2
+1..2
+ 
+===> 168/2/perlboy1967.pl <===
+2	=> 2
+3	=> 3
+4	=> 211
+5	=> 5
+6	=> 23
+7	=> 7
+8	=> 3331113965338635107
+9	=> 311
+10	=> 773
+11	=> 11
+12	=> 223
+ 
+===> 168/2/peter-campbell-smith.pl <===
+hp(2) = 2
+hp(3) = 3
+hp(4) = 211
+hp(5) = 5
+hp(6) = 23
+hp(7) = 7
+hp(8) = 3331113965338635107
+hp(9) = 311
+hp(10) = 773
+hp(11) = 11
+hp(12) = 223
+ 
+===> 168/2/polettix.pl <===
+773
+ 
+===> 168/2/robert-dicicco.pl <===
+8 222 2337 31941 33371313 311123771 7149317941 22931219729 112084656339 3347911118189 11613496501723 97130517917327 531832651281459 3331113965338635107 
+ 
+===> 168/2/roger-bell-west.pl <===
+1..2
+ok 1 - example 1
+ok 2 - example 2
+ 
+===> 168/2/ryan-thompson.pl <===
+773
+ 
+===> 168/2/steve-g-lynn.pl <===
+773
+31636373
+3318308475676071413
+6161791591356884791277
+ 
+===> 168/2/wlmb.pl <===
+HP2=2
+HP3=3
+HP4=211
+HP5=5
+HP6=23
+HP7=7
+HP8=3331113965338635107
+HP9=311
+HP10=773
+HP11=11
+HP12=223

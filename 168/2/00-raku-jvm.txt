@@ -1,0 +1,105 @@
+ 
+===> 168/2/0rir.raku <===
+1..48
+ok 1 - NOOP: Tests are on test number.
+ok 2 - hp 2
+ok 3 - hp 3
+ok 4 - hp 211
+ok 5 - hp 5
+ok 6 - hp 23
+ok 7 - hp 7
+ok 8 - hp 3331113965338635107
+ok 9 - hp 311
+ok 10 - hp 773
+ok 11 - hp 11
+ok 12 - hp 223
+ok 13 - hp 13
+ok 14 - hp 13367
+ok 15 - hp 1129
+ok 16 - hp 31636373
+ok 17 - hp 17
+ok 18 - hp 233
+ok 19 - hp 19
+ok 20 - hp 3318308475676071413
+ok 21 - hp 37
+ok 22 - hp 211
+ok 23 - hp 23
+ok 24 - hp 331319
+ok 25 - hp 773
+ok 26 - hp 3251
+ok 27 - hp 13367
+ok 28 - hp 227
+ok 29 - hp 29
+ok 30 - hp 547
+ok 31 - hp 31
+ok 32 - hp 241271
+ok 33 - hp 311
+ok 34 - hp 31397
+ok 35 - hp 1129
+ok 36 - hp 71129
+ok 37 - hp 37
+ok 38 - hp 373
+ok 39 - hp 313
+ok 40 - hp 3314192745739
+ok 41 - hp 41
+ok 42 - hp 379
+ok 43 - hp 43
+ok 44 - hp 22815088913
+ok 45 - hp 3411949
+ok 46 - hp 223
+ok 47 - hp 47
+ok 48 - hp 6161791591356884791277
+ 
+===> 168/2/2colours.raku <===
+773
+ 
+===> 168/2/arne-sommer.raku <===
+773
+ 
+===> 168/2/athanasius.raku <===
+Trajectory: 10 -> 2|5 -> 5|5 -> 5|11 -> 7|73
+
+HP(10) = 773
+ 
+===> 168/2/bruce-gray.raku <===
+1..1
+ok 1 - 
+ 
+===> 168/2/jaldhar-h-vyas.raku <===
+773
+ 
+===> 168/2/luca-ferrari.raku <===
+773
+ 
+===> 168/2/mark-anderson.raku <===
+(2 3 211 5 23 7 3331113965338635107 311 773 11 223)
+ 
+===> 168/2/massa.raku <===
+773
+ 
+===> 168/2/polettix.raku <===
+ 
+===> 168/2/rick-bychowski.raku <===
+773
+ 
+===> 168/2/robert-dicicco.raku <===
+8 222 2337 31941 33371313 311123771 7149317941 22931219729 112084656339 3347911118189 11613496501723 97130517917327 531832651281459 3331113965338635107  
+ 
+===> 168/2/roger-bell-west.raku <===
+1..2
+ok 1 - example 1
+ok 2 - example 2
+ 
+===> 168/2/ryan-thompson.raku <===
+773
+ 
+===> 168/2/steve-g-lynn.raku <===
+773
+31636373
+3318308475676071413
+ 
+===> 168/2/wambash.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+1..3

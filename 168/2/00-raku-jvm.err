@@ -1,0 +1,7 @@
+[31m===[0mSORRY![31m===[0m Error while compiling /Users/dhoekman/PWC/168/2/polettix.raku
+An exception occurred while evaluating a BEGIN
+at /Users/dhoekman/PWC/168/2/polettix.raku:3
+Exception details:
+  Runs forever
+    in code  at polettix.raku line 3
+
