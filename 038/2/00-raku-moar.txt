@@ -154,7 +154,7 @@ PLEA   : 8
 Winner: KEMP for 20
  
 ===> 038/2/jaldhar-h-vyas.raku <===
-VLZTKBJ = K (10)
+LZTQNLA = LANT (12)
  
 ===> 038/2/javier-luque.raku <===
 Picked tiles: P A L K M E N
@@ -186,7 +186,7 @@ Contenders (word: score):
 YAWP: 9
  
 ===> 038/2/ryan-thompson.raku <===
-[O K Z G O I I] Best word: KOZO, Score: 21
+[Q Z G O I I I] Best word: Q, Score: 10
  
 ===> 038/2/simon-proctor.raku <===
  

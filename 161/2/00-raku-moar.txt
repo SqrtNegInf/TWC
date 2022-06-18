@@ -7,7 +7,7 @@ Improved: [za yr yn xi wy us up ug th of od ly ko jo ce by vum quo]
 aa ad ae ah ai ak al am an ar as at aw ax ay ba bo bu ca fa ga jo pa za ava qua
  
 ===> 161/2/arne-sommer.raku <===
-ceder sawed firn droop ski kiley cosh mimeo varan fin unlit ayond gland lungy lush item morin paolo snite mile admix jute patta dux whore buri yeth sally sowan gage ayous minny dwale auto lof rig oxane gazi cooly hi glub cased dunce rote ha chute ria rid coze tupik masty pipi crypt nebby amula molal miqra
+nat pidan firn ski ghazi cosh mimeo varan fin unlit ayond gland lungy lush item morin paolo snite mile admix jute patta dux whore buri sally sowan gage ayous minny dwale auto lof rig oxane gazi decay cooly hi glub cased dunce rote ha chute ria rid coze tupik masty pipi crypt nebby amula molal miqra
  
 ===> 161/2/athanasius.raku <===
 Pangram of 29 letters using words drawn from dictionary.txt:
@@ -21,7 +21,7 @@ Pangram of 29 letters using words drawn from dictionary.txt:
 [aa ad ae ah ai ak al am an ar as at aw ax ay ba bo bu ca fa ga jo pa za ava qua]
  
 ===> 161/2/luca-ferrari.raku <===
-agate baby ronco blind fifie horal jatha lakie impel quail baris caval woozy exit
+sauce lobal blind fifie gobi hau jiva kali femic blip maqui turco nowt sixer muzzy
  
 ===> 161/2/mark-anderson.raku <===
 aa              added a
@@ -52,13 +52,13 @@ ava             added v
 qua             added q
  
 ===> 161/2/rick-bychowski.raku <===
-[huaco nubia sedge fugu ajar wrick clean ammu lapse quis tayer vale adnex zombi]
+[daffy trubu wick neem wodge conch jut ettle pfui quite shin clive axile cafiz]
  
 ===> 161/2/robert-dicicco.raku <===
-forge sahib atmo quack kokan gorge dally canso cess with uvito alibi ferny cyma bogo azofy rile winna sural aint urson glub gaj oxan grief uprun 
+keest zebu nutty yule pinto forge quack vison peaky loach with jours penal bogo axil sosh rhein tue chap slade bund azofy alod unfed blood mela 
  
 ===> 161/2/roger-bell-west.raku <===
-aa yr stod filch gum eke estop wyver ascon banjo moxa zebu equal
+aa chort veiny kudu blend sotie pavan erizo wavey micht whift snug axe judex quack
  
 ===> 161/2/ulrich-rieke.raku <===
 We consider only words in the dictionary without repeated letters in them!
