@@ -353,11 +353,11 @@ Challenge titles and Rosetta-code correspondences (exact, and otherwise)
 167-2 Gamma Function                        G/Gamma_function
 168-1 Perrin Prime
 168-2 Home Prime                            H/Home_primes
-169-1
-169-2
+169-1 Brilliant Numbers                     B/Brilliant_numbers
+169-2 Achilles Numbers                      A/Achilles_numbers
 
-170-1
-170-2
+170-1 Primorial Numbers                     P/Primorial_numbers
+170-2 Kronecker Product                     K/Kronecker_product
 171-1
 171-2
 172-1

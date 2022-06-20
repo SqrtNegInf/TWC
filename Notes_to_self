@@ -1,3 +1,9 @@
+2022-06-18
+A medium number changes due to 'srand drift': 038/2, 161/2
+
+2022-06-17
+A task wanted module List::Gen, but killed the install as it was gobbling memory.
+
 2022-06-05
 New Date::Names 2.2.3 release works (maybe Test::META was the problem?), reinstate '037/1/mark-anderson.raku'
 But JVM *still* won't run: You cannot create an instance of this type (null)
