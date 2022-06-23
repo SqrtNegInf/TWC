@@ -19,7 +19,7 @@ my $count = 0;
 for 1..Inf -> $n {
     my @powers = (prime-factors $n).values;
     if @powers.none < 2 and @powers.elems > 1 and ([gcd] @powers) == 1 {
-        say $n.fmt("%4d"), " -> ", @powers;
+        say $n.fmt("%4d"), " -> ", @powers.sort;
         $count++;
         last if $count >= 20
     }

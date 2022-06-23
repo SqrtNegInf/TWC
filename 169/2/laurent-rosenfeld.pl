@@ -2,7 +2,7 @@
 use strict;
 use warnings;
 use feature qw/say/;
-use Data::Dumper;
+#use Data::Dumper;
 use constant MAX => 500;
 
 my @primes = (2, 3, 5, 7);
@@ -58,7 +58,7 @@ for my $n (1..MAX*MAX) {
     next if grep { $_ < 2} @powers;
     next if scalar @powers < 2;
     if (gcd(@powers) == 1) {
-        printf "%4d -> %s\n", $n,  join " ", @powers;
+        printf "%4d -> %s\n", $n,  join " ", sort @powers;
         $count++;
         last if $count >= 20
     }
