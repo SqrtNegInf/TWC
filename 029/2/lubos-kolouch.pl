@@ -1,4 +1,4 @@
-#!/usr/bin/env perl
+#!/usr/local/bin/perl
 #===============================================================================
 #
 #         FILE: ch-2.pl
@@ -23,6 +23,9 @@
 use strict;
 use warnings;
 use feature qw/say/;
+
+no lib '/usr/local/lib/perl5/site_perl/5.32.1';
+no lib '/usr/local/lib/perl5/site_perl/5.32.0';
 
 use Inline C => << 'END';
 

@@ -1,4 +1,4 @@
-#!/usr/bin/env perl
+#!/usr/local/bin/perl
 
 # Task #2
 # Write a script to demonstrate calling a C function.
@@ -8,6 +8,9 @@
 # and cannot really claim that I wrote this.
 
 # https://metacpan.org/pod/Inline
+
+no lib '/usr/local/lib/perl5/site_perl/5.32.1';
+no lib '/usr/local/lib/perl5/site_perl/5.32.0';
 
 use Inline C;
 

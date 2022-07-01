@@ -1,7 +1,10 @@
-#!/usr/bin/env perl
+#!/usr/local/bin/perl
 use v5.22;
 use strict;
 use warnings;
+
+no lib '/usr/local/lib/perl5/site_perl/5.32.1';
+no lib '/usr/local/lib/perl5/site_perl/5.32.0';
 
 use Inline 'C';
 

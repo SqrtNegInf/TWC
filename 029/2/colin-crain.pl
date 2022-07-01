@@ -1,4 +1,4 @@
-#!/usr/bin/env perl
+#!/usr/local/bin/perl
 #
 #       c_function.pl
 #
@@ -54,6 +54,9 @@
 use warnings;
 use strict;
 use feature ":5.26";
+
+no lib '/usr/local/lib/perl5/site_perl/5.32.1';
+no lib '/usr/local/lib/perl5/site_perl/5.32.0';
 
 ## ## ## ## ## MAIN
 
