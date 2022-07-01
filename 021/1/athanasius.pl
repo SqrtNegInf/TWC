@@ -1,4 +1,5 @@
 #!/usr/bin/env perl
+# /usr/local/bin/perl5.32.1
 
 ################################################################################
 =comment
@@ -19,9 +20,13 @@ E_(mathematical_constant) |page] for more information.
 # Copyright © 2019 PerlMonk Athanasius #
 #--------------------------------------#
 
-use strict;
-use warnings;
-use bignum;
+#use strict;
+#use warnings;
+#use feature 'say';
+
+use Math::BigFloat;
+#use bignum downgrade => "Math::BigInt", upgrade => "Math::BigFloat"; # the old default
+
 use Const::Fast;
 use Getopt::Long;
 
@@ -52,8 +57,10 @@ MAIN:
     while ($e_prev->blt($e_next))
     {
         $e_prev = $e_next->copy;
+        printf "prev %.10f\n", $e_prev;
         my $d   = $n++ * 2;
         $e_next->badd( ($d + 2) / factorial($d + 1) );
+        printf "next %.10f\n", $e_next;
     }
 
      --$n;
