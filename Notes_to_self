@@ -1,3 +1,13 @@
+2022-06-30
+Lots of issues to work through.
+As a start, 'no lib' helps with 'use Inline::C'
+
+2022-06-23
+A large number changes due to 'srand drift', across many tasks.
+
+2022-06-21
+polettix's 'factor' routine makes JVM crawl (168/2, 169/2)
+
 2022-06-18
 A medium number changes due to 'srand drift': 038/2, 161/2
 

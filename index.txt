@@ -358,8 +358,8 @@ Challenge titles and Rosetta-code correspondences (exact, and otherwise)
 
 170-1 Primorial Numbers                     P/Primorial_numbers
 170-2 Kronecker Product                     K/Kronecker_product
-171-1
-171-2
+171-1 Abundant Number                       A/Abundant_odd_numbers
+171-2 First-class Function                  First-class_functions
 172-1
 172-2
 173-1
