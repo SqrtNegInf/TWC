@@ -181,10 +181,9 @@ initmat is
 ]
  
 ===> 053/1/jaldhar-h-vyas.pl <===
-Usage:
-  jaldhar-h-vyas.pl <angle>
-  
-    <angle>    angle to rotate matrix (0, 90, 180, or 270)
+[ 7, 4, 1 ]
+[ 8, 5, 2 ]
+[ 9, 6, 3 ]
  
 ===> 053/1/javier-luque.pl <===
 Original 

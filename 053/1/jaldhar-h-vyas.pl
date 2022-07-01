@@ -46,7 +46,7 @@ sub rotate {
     return @matrix;
 }
 
-my $angle = shift // usage();
+my $angle = 90; #shift // usage();
 
 if ($angle != 90 && $angle != 180 && $angle != 270) {
     usage();
