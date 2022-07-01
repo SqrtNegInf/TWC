@@ -22,8 +22,8 @@ court      => court
 courtship  => courts     
  
 ===> 057/2/dave-jacoby.pl <===
-["alphabet", "book", "carpet", "cadmium", "cadeau", "alpine"]
-["alph", "b", "car", "cadm", "cade", "alpi"]
+["alphabet","book","carpet","cadmium","cadeau","alpine"]
+["alph","b","car","cadm","cade","alpi"]
  
 ===> 057/2/dracos.pl <===
 ok 1

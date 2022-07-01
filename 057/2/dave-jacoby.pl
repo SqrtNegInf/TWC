@@ -1,10 +1,7 @@
 #!/usr/bin/env perl
 
-use strict;
-use warnings;
+use v5.36;
 use utf8;
-use feature qw{ postderef say signatures state switch };
-no warnings qw{ experimental };
 
 use JSON;
 my $json = JSON->new->space_after;

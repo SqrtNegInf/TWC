@@ -10,6 +10,10 @@ my $tree = Tree::DAG_Node.lol_to_tree($lol);
 
 .say for $tree.draw_ascii_tree;
 
+=finish
+
+# this section of code not working with v5.36
+
 $tree.walk_down({callback => &swap-nodes});
 
 .say for $tree.draw_ascii_tree;
