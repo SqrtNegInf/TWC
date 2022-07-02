@@ -1,4 +1,4 @@
-#!/usr/bin/env perl
+#!/usr/bin/env perl5.32.1
 
 use 5.012;
 use warnings;
@@ -30,7 +30,7 @@ sub lonely_ones {
 	# "Lonely ones" are cells that are occupied and that have one "one"
 	# in the surrounding square.  Multiplying the test result with the
 	# cell value itself gives true just for "lonely ones".  Get their
-	# indices inside the matrix and convert these to an ordinary perl
+	# indices inside the matrix and convert these to an ordinary perl5.32.1
 	# array (of arrays).
 	# Note: PDL indices are reversed.
 	local $" = ',';
