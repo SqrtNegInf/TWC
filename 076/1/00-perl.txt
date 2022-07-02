@@ -47,9 +47,9 @@ as 1013 + 11 = 1024.
 57 = ( 53 + 2 + 2 )
  
 ===> 076/1/dave-jacoby.pl <===
-["47", "2", "2"]
+[47,2,2]
 
-["47", "2", "2"]
+[47,2,2]
  
 ===> 076/1/duncan-c-white.pl <===
 looking for an 2-primes sum that is 51
