@@ -1,4 +1,4 @@
-#!/usr/bin/env perl
+#!/usr/bin/env perl5.32.1
 
 # Cracking the nut with a sledgehammer:
 use PDL;

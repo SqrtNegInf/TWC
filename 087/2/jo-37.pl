@@ -1,4 +1,4 @@
-#!/usr/bin/env perl
+#!/usr/bin/env perl5.32.1
 
 use 5.012;
 use PDL;
@@ -122,7 +122,7 @@ sub maxrect_r {
 
 # Convenience wrapper for maxrect_r.  Transform input data into a
 # piddle, set the current maximum to 1 to avoid invalid trivial
-# solutions and return the result as a perl array ref.
+# solutions and return the result as a perl5.32.1 array ref.
 sub maxrect {
 	maxrect_r(1, long(@_))->unpdl;
 }
