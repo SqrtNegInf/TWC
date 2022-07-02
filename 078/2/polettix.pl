@@ -20,6 +20,6 @@ for my $test (
    ],
 ) {
    my ($title, $A, $B) = $test->@*;
-   say {*STDERR} $title;
+   #say {*STDERR} $title;
    say {*STDOUT} '[', join(', ', $_->@*), ']' for shift_left($A, $B);
 }
