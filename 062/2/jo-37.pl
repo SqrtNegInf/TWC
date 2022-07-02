@@ -1,4 +1,4 @@
-#!/usr/bin/env perl
+#!/usr/bin/env perl5.32.1
 
 use v5.16;
 use warnings;
@@ -7,7 +7,6 @@ use Math::Prime::Util qw(forperm todigits);
 use experimental qw(signatures postderef);
 
 our $verbose;
-
 
 # My first attempt to solve this task was a disaster.  Obscure,
 # low-performance and lengthy.  It was not eligible for a PWC
