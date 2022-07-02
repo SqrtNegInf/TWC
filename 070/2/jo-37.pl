@@ -1,4 +1,4 @@
-#!/usr/bin/env perl
+#!/usr/bin/env perl5.32.1
 
 # Deeply impressed by E. Choroba's wonderful solution to task 1 from
 # challenge 068, I realized the ease of performing linear algebra
