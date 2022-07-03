@@ -1,2 +1,1 @@
-Use of uninitialized value in say at cheok-yin-fung.pl line 28.
-not ok - disabled: run-time failure at james-smith.pl line 3.
+not ok - disabled: run-time failure at ./james-smith.pl line 4.

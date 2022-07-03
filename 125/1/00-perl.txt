@@ -40,7 +40,7 @@ summands 36 48
 ===> 125/1/dave-jacoby.pl <===
 
     INPUT: 5
-    OUTPUT: [3, 4, 5], [5, 12, 13]
+    OUTPUT: [3,4,5], [5,12,13]
 
 
  

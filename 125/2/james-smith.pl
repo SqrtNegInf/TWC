@@ -1,6 +1,8 @@
 #!/usr/bin/env perl
 
+# module lacks 'depth' method?
 die 'not ok - disabled: run-time failure';
+
 use strict;
 
 use warnings;
