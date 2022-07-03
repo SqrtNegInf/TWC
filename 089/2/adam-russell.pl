@@ -2,14 +2,15 @@
 use strict;
 use warnings;
 
-die 'not ok - disabled: missing library';
+#die 'not ok - disabled: missing library';
+# fudged GSL to install
 
 ##
 # Write a script to display matrix as below with numbers 1 - 9. 
 # Please make sure numbers are used once.
 ##
 use boolean;
-#use Math::GSL::Permutation q/:all/;
+use Math::GSL::Permutation q/:all/;
 
 sub validate {
     my($a, $b, $c, $d, $e, $f, $g, $h, $i) = @_;

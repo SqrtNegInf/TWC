@@ -1,4 +1,4 @@
-#!/usr/bin/env perl
+#!/usr/bin/env perl5.32.1
 
 use 5.012;
 use PDL;

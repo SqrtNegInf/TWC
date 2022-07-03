@@ -1,0 +1,2 @@
+Use of @_ in list assignment with signatured subroutine is experimental at juliodcs.pl line 14.
+Implicit use of @_ in goto with signatured subroutine is experimental at juliodcs.pl line 18.

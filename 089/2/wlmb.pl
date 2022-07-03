@@ -1,4 +1,4 @@
-#!/usr/bin/env perl
+#!/usr/bin/env perl5.32.1
 # Perl weekly challenge 89
 # Challenge 2.
 # Magical matrix. Build a 3x3 matrix so that the sums of all rows, columns and diagonals is 15
@@ -41,7 +41,7 @@ sub permutations_ancillary {
 
 # Test if a permutation of 1..9 corresponds to a Magic Square
 sub test_magic {
-    use PDL; #Use perl data language to simplify coding matrix operations
+    use PDL; #Use perl5.32.1 data language to simplify coding matrix operations
     use PDL::NiceSlice;
     my $all_flag=shift;
     my $square=pdl(@_)->reshape(3,3); # turn array into pdl square matrix
@@ -61,70 +61,3 @@ say "Generate one magical matrix";
 permutations(\&test_magic, 0, 1..9);
 
 say "Generate all magical matrices";
-#permutations(\&test_magic, 1, 1..9);
-#Output
-
-# Generate one magical matrix
-#
-# [
-#  [2 7 6]
-#  [9 5 1]
-#  [4 3 8]
-# ]
-#
-# Generate all magical matrices
-#
-# [
-#  [2 7 6]
-#  [9 5 1]
-#  [4 3 8]
-# ]
-#
-#
-# [
-#  [2 9 4]
-#  [7 5 3]
-#  [6 1 8]
-# ]
-#
-#
-# [
-#  [4 3 8]
-#  [9 5 1]
-#  [2 7 6]
-# ]
-#
-#
-# [
-#  [4 9 2]
-#  [3 5 7]
-#  [8 1 6]
-# ]
-#
-#
-# [
-#  [6 1 8]
-#  [7 5 3]
-#  [2 9 4]
-# ]
-#
-#
-# [
-#  [6 7 2]
-#  [1 5 9]
-#  [8 3 4]
-# ]
-#
-#
-# [
-#  [8 1 6]
-#  [3 5 7]
-#  [4 9 2]
-# ]
-#
-#
-# [
-#  [8 3 4]
-#  [1 5 9]
-#  [6 7 2]
-# ]

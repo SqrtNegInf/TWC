@@ -1,18 +1,17 @@
-#!/usr/bin/env perl
+#!/usr/bin/env perl5.32.1
 # Perl Weekly Challenge 88 task 2 Spiral Matrix
 # Print elements of matrix along spiral
 use warnings;
 use strict;
 use feature qw(say);
 
+use PDL;
+use PDL::NiceSlice;
+
 say join " ", "Example 1:", spiral_matrix([1,2,3],[4,5,6],[7,8,9]);
 say join " ", "Example 2:", spiral_matrix([1,2,3,4],[5,6,7,8],[9,10,11,12],[13,14,15,16]);
-# output:
-# Example 1: 1 2 3 6 9 8 7 4 5
-# Example 2: 1 2 3 4 8 12 16 15 14 13 9 5 6 7 11 10
+
 sub spiral_matrix {
-    use PDL; #use the perl data language
-    use PDL::NiceSlice;
     my $input =pdl(@_); #input piddle (PDL 2D array)
     my @output;
     return if $input->dim(1)==0; # 0 rows no elements
