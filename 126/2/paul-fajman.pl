@@ -6,6 +6,7 @@
 
 use strict;
 use warnings;
+
 use List::Util qw( shuffle);
 
 # Sample input to test code
@@ -125,7 +126,7 @@ sub create_grid {
 
   for ($i=0;$i<$x;$i++) {
     for ($j=0;$j<$y;$j++) {
-      if ($z ~~ $refmines) { # If counter is in the mine array, it's a mine!
+      if ($z =~ $refmines) { # If counter is in the mine array, it's a mine!
         $return_grid[$i][$j] = 'x';
       }
       else {
