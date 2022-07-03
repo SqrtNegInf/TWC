@@ -1,4 +1,4 @@
-#!/usr/bin/env perl
+#!/usr/bin/env perl5.32.1
 
 use v5.16;
 use Test2::V0 '!float', -srand => 1234;
