@@ -14,7 +14,7 @@ use warnings;
 use Algorithm::Combinatorics qw(variations_with_repetition);
 use List::Util qw(sum);
 use List::MoreUtils qw(uniq);
-use Data::Printer;
+#use Data::Printer;
 
 # Prototypes
 sub getSubstrings($);
@@ -35,13 +35,14 @@ foreach my $arSs (getSubstrings($T)) {
 }
 
 printf "Input: \$S = '%s', \$T = '%s'\n", $S, $T;
-printf "Subresult:\n";
-p @U;
+#printf "Subresult:\n";
+#p @U;
 
 @U = sort(uniq(map { s#\]\[##g; $_} @U));
 
 printf "Output: %d\n", scalar(@U);
-p @U;
+#p @U;
+print join "\n", @U;
 
 sub getSubstrings($) {
  my ($t) = @_;

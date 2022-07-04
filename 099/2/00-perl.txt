@@ -242,9 +242,27 @@ ok 1
  
 ===> 099/2/perlboy1967.pl <===
 Input: $S = 'supercalifragilisticexpialidocious', $T = 'uplis'
-Subresult:
 Output: 20
- 
+s[u]percalifragilisticex[p]ia[l]idoc[i]ou[s]
+s[u]percalifragilisticex[p]ia[li]dociou[s]
+s[up]erca[l]ifrag[i]li[s]ticexpialidocious
+s[up]erca[l]ifrag[i]listicexpialidociou[s]
+s[up]erca[l]ifragil[i]sticexpialidociou[s]
+s[up]erca[l]ifragil[is]ticexpialidocious
+s[up]erca[l]ifragilist[i]cexpialidociou[s]
+s[up]erca[l]ifragilisticexp[i]alidociou[s]
+s[up]erca[l]ifragilisticexpial[i]dociou[s]
+s[up]erca[l]ifragilisticexpialidoc[i]ou[s]
+s[up]erca[li]fragili[s]ticexpialidocious
+s[up]erca[li]fragilisticexpialidociou[s]
+s[up]ercalifragi[l]ist[i]cexpialidociou[s]
+s[up]ercalifragi[l]isticexp[i]alidociou[s]
+s[up]ercalifragi[l]isticexpial[i]dociou[s]
+s[up]ercalifragi[l]isticexpialidoc[i]ou[s]
+s[up]ercalifragi[li]sticexpialidociou[s]
+s[up]ercalifragi[lis]ticexpialidocious
+s[up]ercalifragilisticexpia[l]idoc[i]ou[s]
+s[up]ercalifragilisticexpia[li]dociou[s] 
 ===> 099/2/polettix.pl <===
 5
 5
