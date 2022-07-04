@@ -70,10 +70,18 @@ Nov: 21 days
 Dec: 22 days
  
 ===> 037/1/duane-powell.pl <===
-Usage:
-./duane-powell.pl year
-        ./duane-powell.pl 2019
-        ./duane-powell.pl 2020
+Jan: 23
+Feb: 20
+Mar: 21
+Apr: 22
+May: 23
+Jun: 20
+Jul: 23
+Aug: 22
+Sep: 21
+Oct: 23
+Nov: 21
+Dec: 22
  
 ===> 037/1/duncan-c-white.pl <===
 Jan 2019: 23 weekdays
