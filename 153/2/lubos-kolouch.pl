@@ -1,6 +1,7 @@
+#!/usr/bin/env perl
+
 use strict;
 use warnings;
-
 
 sub calculate_factorial {
     my $what = shift;

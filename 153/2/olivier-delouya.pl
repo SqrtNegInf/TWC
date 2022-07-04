@@ -1,4 +1,4 @@
-# !/bin/perl is_factorion.pl NNN
+#!/usr/bin/env perl
 
 use strict;
 

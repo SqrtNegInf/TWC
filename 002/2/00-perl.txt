@@ -66,13 +66,10 @@ ok 10
 ===> 002/2/philippe-bruhat.pl <===
 0 
 ===> 002/2/shasank-shah.pl <===
-    USAGE: shasank-shah.pl [ to | from ]
-      to - will convert a base10 number to base35
-      from - will convert a base35 number to base10
-
+1170605
  
 ===> 002/2/simon-proctor.pl <===
-0
+1170605
  
 ===> 002/2/simon-reinhardt.pl <===
 30
