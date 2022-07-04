@@ -1,3 +1,9 @@
+2022-07-04
+Caught up on v5.36 updates.
+
+2022-07-02
+Slowly but surely... Also: dealt with old Math::GSL problem, got '089/2/adam-russell.pl' working.
+
 2022-06-30
 Lots of issues to work through.
 As a start, 'no lib' helps with 'use Inline::C'
