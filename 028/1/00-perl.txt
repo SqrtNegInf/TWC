@@ -5,23 +5,23 @@ The file content is binary.
 ===> 028/1/andrezgz.pl <===
 The file content is ascii. 
 ===> 028/1/athanasius.pl <===
-"athanasius.pl": The file content is text
+"./athanasius.pl": The file content is text
  
 ===> 028/1/colin-crain.pl <===
 The file content is most likely text.
  
 ===> 028/1/dave-cross.pl <===
-dave-cross.pl looks like a text file
+./dave-cross.pl looks like a text file
  
 ===> 028/1/dave-jacoby.pl <===
-dave-jacoby.pl
+./dave-jacoby.pl
 	The file content is ascii
  
 ===> 028/1/duane-powell.pl <===
-The file duane-powell.pl content is ascii
+The file ./duane-powell.pl content is ascii
  
 ===> 028/1/duncan-c-white.pl <===
-file duncan-c-white.pl is text
+file ./duncan-c-white.pl is text
  
 ===> 028/1/e-choroba.pl <===
 The file content is ascii.

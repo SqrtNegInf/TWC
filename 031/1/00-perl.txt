@@ -1,6 +1,6 @@
  
 ===> 031/1/adam-russell.pl <===
-caught an error: Illegal division by zero at adam-russell.pl line 8.
+caught an error: Illegal division by zero at ./adam-russell.pl line 8.
  
 ===> 031/1/andrezgz.pl <===
 Division by zero 
@@ -22,7 +22,7 @@ Divide by zero
 OK
  
 ===> 031/1/duncan-c-white.pl <===
-error: Illegal division by zero at duncan-c-white.pl line 17.
+error: Illegal division by zero at ./duncan-c-white.pl line 17.
 
  
 ===> 031/1/e-choroba.pl <===

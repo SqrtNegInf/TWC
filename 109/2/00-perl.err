@@ -1,4 +1,4 @@
-not ok - disabled: what is going on exactly? at adam-russell.pl line 5.
-not ok - disabled: Dumper output not stable at brtastic.pl line 3.
-not ok - disabled: Input a pain at colin-crain.pl line 3.
-not ok - disabled: output not stable at polettix.pl line 3.
+not ok - disabled: what is going on exactly? at ./adam-russell.pl line 5.
+not ok - disabled: Dumper output not stable at ./brtastic.pl line 3.
+not ok - disabled: Input a pain at ./colin-crain.pl line 3.
+not ok - disabled: output not stable at ./polettix.pl line 3.

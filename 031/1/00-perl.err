@@ -1,5 +1,5 @@
-Illegal division by zero at laurent-rosenfeld.pl line 9.
-(1 / 0) Illegal division by zero at rage311.pl line 14.
-(0.123 / 0) Illegal division by zero at rage311.pl line 14.
-(9999999999 / 0) Illegal division by zero at rage311.pl line 14.
-divide by zero error at vyacheslav-volgarev.pl line 9.
+Illegal division by zero at ./laurent-rosenfeld.pl line 9.
+(1 / 0) Illegal division by zero at ./rage311.pl line 14.
+(0.123 / 0) Illegal division by zero at ./rage311.pl line 14.
+(9999999999 / 0) Illegal division by zero at ./rage311.pl line 14.
+divide by zero error at ./vyacheslav-volgarev.pl line 9.
