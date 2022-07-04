@@ -22,7 +22,7 @@ sub largest_square {
     }
 }
 
-use Test::More tests => 5;
+use Test::More tests => 4;
 
 is largest_square(2), '1';
 is largest_square(4), '3201';

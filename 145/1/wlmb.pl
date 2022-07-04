@@ -1,4 +1,4 @@
-#!/usr/bin/env perl
+#!/usr/bin/env perl5.32.1
 # Perl weekly challenge 145
 # Task 1: Dot product
 #

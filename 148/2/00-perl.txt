@@ -91,13 +91,6 @@ The first 5 Cardano Triplets are:
   (8, 3, 21)
 
  
-===> 148/2/perlboy1967.pl <===
-(2,1,5)
-(5,1,52)
-(5,2,13)
-(8,3,21)
-(11,4,29)
- 
 ===> 148/2/peter-campbell-smith.pl <===
 
 First 5 Cardano triplets
