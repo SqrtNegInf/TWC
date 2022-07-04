@@ -71,9 +71,9 @@ Dec: 22 days
  
 ===> 037/1/duane-powell.pl <===
 Usage:
-duane-powell.pl year
-        duane-powell.pl 2019
-        duane-powell.pl 2020
+./duane-powell.pl year
+        ./duane-powell.pl 2019
+        ./duane-powell.pl 2020
  
 ===> 037/1/duncan-c-white.pl <===
 Jan 2019: 23 weekdays

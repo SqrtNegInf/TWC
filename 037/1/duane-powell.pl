@@ -7,7 +7,7 @@ use feature 'say';
 
 # Write a script to calculate the total number of weekdays (Mon-Fri) in each month of the year 2019.
 
-my $year = shift;
+my $year = 2019;
 
 do {
         print <<EOU;
