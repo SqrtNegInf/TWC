@@ -40,8 +40,10 @@ sub MAIN ( Int $ch,
     my $prefix = "$ch/$task/00-{$lang}";
 
     shell qq:to/PERL/;
-        find $ch/$task -name '*$ext' -exec echo ' ' \\; -exec echo "===> \{\} <===" \\; -execdir perl \{\} \\; > $prefix.txt 2> $prefix.err
+        find $ch/$task -name '*$ext' -exec echo ' ' \\; -exec echo "===> \{\} <===" \\; -execdir \{\} \\; > $prefix.txt 2> $prefix.err
         PERL
+        # let '#!' determine which version of Perl to run
+        #find $ch/$task -name '*$ext' -exec echo ' ' \\; -exec echo "===> \{\} <===" \\; -execdir perl \{\} \\; > $prefix.txt 2> $prefix.err
 
     .IO.unlink if .IO.e and ! .IO.s for "{$prefix}.err"; #, "{$prefix}.err";
 
