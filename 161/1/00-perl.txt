@@ -144,12 +144,5 @@ alloquy beefily begorry billowy egilops
 ===> 161/1/robert-dicicco.pl <===
 alloquy beefily begorry billowy egilops 
  
-===> 161/1/ryan-thompson.pl <===
-alloquy
-beefily
-begorry
-billowy
-egilops
- 
 ===> 161/1/ulrich-rieke.pl <===
 alloquy,beefily,begorry,billowy,egilops

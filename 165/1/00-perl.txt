@@ -10,9 +10,9 @@
 	<svg:circle cx="53" cy="10" r="2" style="fill: red" />
 	<svg:circle cx="23" cy="30" r="2" style="fill: red" />
 	<!--
-	Generated using the Perl SVG Module V2.85
+	Generated using the Perl SVG Module V2.87
 	by Ronan Oger
-	Info: http://www.roitsystems.com/
+
 	-->
 </svg:svg> 
 ===> 165/1/colin-crain.pl <===
@@ -42,9 +42,9 @@
 	<line style="fill: black; stroke: black; stroke-width: 0.5" x1="53" x2="23" y1="10" y2="30" />
 	<circle cx="23" cy="30" r="0.5" style="fill: red; stroke: red; stroke-width: 0.5" />
 	<!--
-	Generated using the Perl SVG Module V2.85
+	Generated using the Perl SVG Module V2.87
 	by Ronan Oger
-	Info: http://www.roitsystems.com/
+
 	-->
 </svg>
  
@@ -91,9 +91,9 @@ xmlns:xlink="http://www.w3.org/1999/xlink" width="500" height="500">
 		<circle cx="80" cy="80" id="dot9" r="2" />
 	</g>
 	<!--
-	Generated using the Perl SVG Module V2.85
+	Generated using the Perl SVG Module V2.87
 	by Ronan Oger
-	Info: http://www.roitsystems.com/
+
 	-->
 </svg>
  

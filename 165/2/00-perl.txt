@@ -126,9 +126,9 @@
 	<circle cx="363" cy="111" r="0.7" style="fill: red; stroke: red; stroke-width: 2" />
 	<line style="fill: blue; stroke: blue; stroke-width: 0.5" x1="393" x2="13" y1="117.76" y2="3.76" />
 	<!--
-	Generated using the Perl SVG Module V2.85
+	Generated using the Perl SVG Module V2.87
 	by Ronan Oger
-	Info: http://www.roitsystems.com/
+
 	-->
 </svg>
  
