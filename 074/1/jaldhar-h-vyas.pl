@@ -3,19 +3,7 @@ use 5.020;
 use warnings;
 use English qw/ -no_match_vars /;
 
-sub usage {
-
-    print<<"-USAGE-";
-Usage:
-  $PROGRAM_NAME [<A> ...]
-
-    [<A> ...]    list of integers
--USAGE-
-
-    exit 0;
-}
-
-my @A = @ARGV;
+my @A = (1, 2, 2, 3, 2, 4, 2);
 if (!scalar @A) {
     usage();
 }

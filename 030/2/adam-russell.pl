@@ -1,12 +1,17 @@
-#!/usr/bin/env perl
+#!/usr/bin/env perl5.32.1
+
+# with v5.36 the output is not stable?
+
 use strict;
 use warnings;
+
 ##
 # Write a script to print all possible series 
 # of 3 positive numbers, where in each series 
 # at least one of the number is even and sum 
 # of the three numbers is always 12.
 ##
+
 use boolean; 
 use Math::Combinatorics;
 
