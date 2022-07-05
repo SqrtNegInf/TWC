@@ -138,16 +138,16 @@ ok 7 - test nested matching with alternate chars
 Invalid: ((
  
 ===> 042/2/ruben-westerberg.raku <===
-unbalanced: )())
+unbalanced: )))(
+unbalanced: )))(
+unbalanced: )())(
 unbalanced: ((
-unbalanced: (
-unbalanced: ((
-unbalanced: ()))
-unbalanced: ()())
-unbalanced: ()((((
 balanced: ()()()
 unbalanced: ))
 unbalanced: ))(
+unbalanced: )
+unbalanced: ))((((
+unbalanced: )()
  
 ===> 042/2/ryan-thompson.raku <===
 0 length - OK
