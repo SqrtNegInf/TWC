@@ -96,7 +96,6 @@ ok 2 - example 2
 saw, was
 bat, tab
 opt, pot, top
-
  
 ===> 094/1/wlmb.pl <===
 bat tab

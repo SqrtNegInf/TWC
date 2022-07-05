@@ -4,7 +4,8 @@ use warnings FATAL => qw(all);
 
 my @groups = group_anagrams("opt", "bat", "saw", "tab", "pot", "top", "was");
 print join(", ", @$_), $/ for sort { $a cmp  $b } @groups; 
-print $/;
+#print $/;
+
 #@groups = group_anagrams("x"); 
 #print join(", ", @$_), $/ for @groups;
 
