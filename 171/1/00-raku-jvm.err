@@ -1,0 +1,7 @@
+[31m===[0mSORRY![31m===[0m Error while compiling /Users/dhoekman/PWC/171/1/luca-ferrari.raku
+An exception occurred while evaluating a BEGIN
+at /Users/dhoekman/PWC/171/1/luca-ferrari.raku:3
+Exception details:
+  Runs forever
+    in code  at luca-ferrari.raku line 3
+
