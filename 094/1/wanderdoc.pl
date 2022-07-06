@@ -2,12 +2,12 @@
 use strict;
 use warnings FATAL => qw(all);
 
-my @groups = group_anagrams("opt", "bat", "saw", "tab", "pot", "top", "was");
-print join(", ", @$_), $/ for sort { $a cmp  $b } @groups; 
-#print $/;
+# original tries to produce stable output, but fails, see if I can manage it...
+print join "\n", map { join ', ', sort { $a cmp $b } @$_ } group_anagrams("opt", "bat", "saw", "tab", "pot", "top", "was");
 
-#@groups = group_anagrams("x"); 
-#print join(", ", @$_), $/ for @groups;
+#my @groups = group_anagrams("opt", "bat", "saw", "tab", "pot", "top", "was");
+##print join(", ", @$_), $/ for sort { $a cmp  $b } @groups; 
+#print join "\n", map { sort { $a cmp  $b } $_ } map { join ', ', sort { $a cmp $b } @$_ } @groups; 
 
 sub group_anagrams
 {

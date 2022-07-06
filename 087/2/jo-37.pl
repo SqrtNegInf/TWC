@@ -3,7 +3,6 @@
 use 5.012;
 use PDL;
 use Test2::V0 '!float', -srand => 1;
-#use Digest::xxHash 'xxhash64';
 no warnings 'recursion';
 
 #BEGIN {
@@ -43,8 +42,6 @@ sub maxrect_r {
 	# identification.  Any "good" hashing algorithm may be used.  For
 	# the sake of convenience it is omitted here and the string
 	# representation itself is used.
-#	our $seed;
-#	my $hash = xxhash64 $m, $seed;
 	my $hash = "$m";
 
 	# Avoid reprocessing of the same data.

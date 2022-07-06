@@ -1,10 +1,7 @@
 #!/usr/bin/env perl
 
-use feature qw{say state signatures};
-use strict;
-use warnings;
+use v5.36;
 use utf8;
-no warnings qw{ experimental };
 
 use List::Util qw{ max };
 use JSON;
