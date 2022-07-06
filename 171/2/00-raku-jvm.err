@@ -1,0 +1,3 @@
+Type check failed in binding to parameter '<anon>'; expected Callable but got List ((proto sub infix:</>...)
+  in block <unit> at wambash.raku line 13
+

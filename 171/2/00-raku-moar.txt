@@ -1,0 +1,83 @@
+ 
+===> 171/2/0rir.raku <===
+1..11
+ok 1 - incre requires arg dies
+ok 2 - twice requires arg dies
+ok 3 - both requires arg dies
+ok 4 - incre( 2, 10)
+ok 5 - twice( 2, 10)
+ok 6 - both( 2, 10, 20, 30) ==> 6 22 42 62 hand
+ok 7 - both( 2) ==> 6
+ok 8 - both( 2 10) ==> 6 22
+ok 9 - both( 0 0) ==> 2 2
+ok 10 - both( -2 -10 100) ==> -2 -18 202
+ok 11 - both( -1 1 5 9 11 15 19 23 29) ==> 0 4 12 20 24 32 40 48 60
+ 
+===> 171/2/2colours.raku <===
+21
+ 
+===> 171/2/arne-sommer.raku <===
+130
+140
+121
+131
+ 
+===> 171/2/athanasius.raku <===
+      @in     = 1.1, 2.34, 5, -27.6, 32
+f( g( @in ) ) = -10.5, -4.3, 9, -154, 144
+   h( @in )   = -10.5, -4.3, 9, -154, 144
+
+SUCCESS: The outputs are identical
+ 
+===> 171/2/bruce-gray.raku <===
+Calculating gggg of 15
+Calculating ffff of 5
+10
+ 
+===> 171/2/jaldhar-h-vyas.raku <===
+36
+ 
+===> 171/2/laurent-rosenfeld.raku <===
+3
+ 
+===> 171/2/luca-ferrari.raku <===
+F( G( PWC 171 ) )
+G( PWC 171 )
+F( PWC 171 )
+ 
+===> 171/2/massa.raku <===
+(24.375, 23.625)
+(24.375, 23.625)
+24.375
+ 
+===> 171/2/polettix.raku <===
+5
+ 
+===> 171/2/roger-bell-west.raku <===
+1..10
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ok 4 - example 4
+ok 5 - example 5
+ok 6 - example 6
+ok 7 - example 7
+ok 8 - example 8
+ok 9 - example 9
+ok 10 - example 10
+ 
+===> 171/2/ryan-thompson.raku <===
+385
+ 
+===> 171/2/steve-g-lynn.raku <===
+18
+ 
+===> 171/2/ulrich-rieke.raku <===
+5.477225575051661
+ 
+===> 171/2/wambash.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ok 4 - 
+1..4

@@ -1,0 +1,120 @@
+ 
+===> 171/2/adam-russell.pl <===
+98
+ 
+===> 171/2/athanasius.pl <===
+      @in     = 1.1, 2.34, 5, -27.6, 32
+f( g( @in ) ) = -10.5, -4.3, 9, -154, 144
+   h( @in )   = -10.5, -4.3, 9, -154, 144
+
+SUCCESS: The outputs are identical
+ 
+===> 171/2/brtastic.pl <===
+12, 8, 11, 14, 7, 19, 15, 2, 17, 4, 5, 18, 13, 3, 20, 10, 6, 16, 9, 1
+ 
+===> 171/2/cheok-yin-fung.pl <===
+1..9
+ok 1
+ok 2
+ok 3
+ok 4
+ok 5
+ok 6
+ok 7
+ok 8
+ok 9
+ 
+===> 171/2/colin-crain.pl <===
+25
+ 
+===> 171/2/dave-jacoby.pl <===
+SUB SUB SUB / REFS REFS REFS / ARE ARE ARE / FUN FUN FUN
+ 
+===> 171/2/deadmarshal.pl <===
+12 
+===> 171/2/e-choroba.pl <===
+1..1
+ok 1
+ 
+===> 171/2/jaldhar-h-vyas.pl <===
+36
+ 
+===> 171/2/james-smith.pl <===
+
+Compose simple
+  2-functions: 4 == 4
+  4-functions: 2 == 2
+
+Compose recursive
+  2-functions: 4 == 4
+  4-functions: 2 == 2
+
+ 
+===> 171/2/jo-37.pl <===
+# Seeded srand with seed '1' from import arg.
+ok 1 - (1, 5)
+ok 2 - (9, 4)
+ok 3 - (6, 1)
+ok 4 - (2, 10)
+ok 5 - (8, 4)
+ok 6 - (4, 6)
+ok 7 - (2, 1)
+ok 8 - (10, 2)
+ok 9 - (6, 3)
+ok 10 - (9, 2)
+ok 11 - (6, 2) -> (12, 3) -> (15, 9)
+1..11
+ 
+===> 171/2/kjetillll.pl <===
+oldgold
+ 
+===> 171/2/mohammad-anwar.pl <===
+# Seeded srand with seed '1' from import arg.
+ok 1
+ok 2
+ok 3
+1..3
+ 
+===> 171/2/perlboy1967.pl <===
+12
+12
+27
+27
+ 
+===> 171/2/pokgopun.pl <===
+Sumdigit(19, 29, 39) = (10, 11, 12) => Square(10, 11, 12) = (100, 121, 144)
+=> SqaureAfterSumdigit(19, 29, 39) = (100, 121, 144)
+
+Square(19, 29, 39) = (361, 841, 1521) => Sumdigit(361, 841, 1521) = (10, 13, 9)
+=> SumdigitAfterSquare(19, 29, 39) = (10, 13, 9)
+ 
+===> 171/2/polettix.pl <===
+3
+4
+ 
+===> 171/2/roger-bell-west.pl <===
+1..10
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ok 4 - example 4
+ok 5 - example 5
+ok 6 - example 6
+ok 7 - example 7
+ok 8 - example 8
+ok 9 - example 9
+ok 10 - example 10
+ 
+===> 171/2/ryan-thompson.pl <===
+The sum of squares for 1..10 = 385
+ 
+===> 171/2/steve-g-lynn.pl <===
+compose: 41
+alt_compose: 41
+41
+ 
+===> 171/2/ulrich-rieke.pl <===
+5.47722557505166
+ 
+===> 171/2/walt-mankowski.pl <===
+20
