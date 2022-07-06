@@ -1,5 +1,12 @@
+2022-07-06
+Finish adding modules with zef, update 'Zef-install-all' in RC tools (moar-blead was nuked and rebuilt)
+
+2022-07-05
+Updated to JVM 2022.06, same old bugs...
+
 2022-07-04
 Caught up on v5.36 updates.
+Ugh, late-added entries across all challenges; back-fill in progress...
 
 2022-07-02
 Slowly but surely... Also: dealt with old Math::GSL problem, got '089/2/adam-russell.pl' working.
