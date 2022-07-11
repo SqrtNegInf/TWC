@@ -84,7 +84,3 @@ ok 2 - example 2
 1
  
 ===> 091/2/wambash.raku <===
-ok 1 - 
-ok 2 - 
-ok 3 - 
-1..3
