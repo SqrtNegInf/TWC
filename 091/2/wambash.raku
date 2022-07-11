@@ -1,10 +1,9 @@
 #!/usr/bin/env raku
 
-die 'do not run until Raku bug is fixed';
+#subset Steps of Int; # why, does nothing?  (except help discover a bug, GH4980)
 
-subset Steps of Int; # why?
-
-sub jump-game(+@n --> Steps) {
+#sub jump-game(+@n --> Steps) {
+sub jump-game(+@n) {
     my $end = @n.end;
     my @jump-to = ^∞ Z+ @n;
 
