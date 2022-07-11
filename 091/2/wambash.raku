@@ -1,6 +1,8 @@
 #!/usr/bin/env raku
 
-subset Steps of Int;
+die 'do not run until Raku bug is fixed';
+
+subset Steps of Int; # why?
 
 sub jump-game(+@n --> Steps) {
     my $end = @n.end;
