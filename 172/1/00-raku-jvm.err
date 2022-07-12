@@ -1,0 +1,13 @@
+Exception in thread "main" org.raku.nqp.runtime.UnwindException
+	at org.raku.nqp.runtime.ThreadContext.<init>(ThreadContext.java:127)
+	at org.raku.nqp.runtime.GlobalContext.getCurrentThreadContext(GlobalContext.java:348)
+	at org.raku.nqp.runtime.GlobalContext.<init>(GlobalContext.java:253)
+	at org.raku.nqp.runtime.CompilationUnit.enterFromMain(CompilationUnit.java:56)
+	at perl6.main(gen/jvm/rakudo.nqp)
+[31m===[0mSORRY![31m===[0m Error while compiling /Users/dhoekman/PWC/172/1/steve-g-lynn.raku
+An exception occurred while evaluating a BEGIN
+at /Users/dhoekman/PWC/172/1/steve-g-lynn.raku:3
+Exception details:
+  JVM can handle Native
+    in code  at steve-g-lynn.raku line 3
+
