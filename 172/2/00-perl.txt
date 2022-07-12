@@ -1,0 +1,250 @@
+ 
+===> 172/2/adam-russell.pl <===
+6, 3, 7, 8, 1, 3, 9
+first_quartile: 3
+maximum: 9
+median: 6
+minimum: 1
+third_quartile: 8
+
+
+2, 6, 3, 8, 1, 5, 9, 4
+first_quartile: 2.5
+maximum: 9
+median: 4.5
+minimum: 1
+third_quartile: 7
+
+
+1, 2, 2, 3, 4, 6, 6, 7, 7, 7, 8, 11, 12, 15, 15, 15, 17, 17, 18, 20
+first_quartile: 5
+maximum: 20
+median: 7.5
+minimum: 1
+third_quartile: 15
+ 
+===> 172/2/athanasius.pl <===
+Input: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11
+
+Five-number Summary
+-------------------
+Sample minimum: 0
+Lower quartile: 2.50
+Median:         5.5
+Upper quartile: 8.50
+Sample maximum: 11
+ 
+===> 172/2/cheok-yin-fung.pl <===
+1..13
+ok 1
+ok 2
+ok 3
+ok 4
+ok 5
+ok 6
+ok 7
+ok 8
+ok 9
+ok 10
+ok 11
+ok 12
+ok 13
+ 
+===> 172/2/colin-crain.pl <===
+ Data Values: [ 1 2 3 4 5 6 7 8 9 ]
+
+     Minimum: 1
+1st Quartile: 2.5
+      Median: 5
+3rd Quartile: 7.5
+     Maximum: 9
+ 
+===> 172/2/dario-mazzeo.pl <===
+0.00, 0.50, 7.50, 44.00, 63.00
+ 
+===> 172/2/dave-jacoby.pl <===
+0 0.5 7.5 44 63
+ 
+===> 172/2/e-choroba.pl <===
+1..1
+ok 1
+ 
+===> 172/2/jaldhar-h-vyas.pl <===
+minimum:        0
+lower quartile: 2.5
+median:         5.5
+upper quartile: 8.5
+maximum:        11
+ 
+===> 172/2/james-smith.pl <===
+Input: 0 0 1 2 63 61 27 13
+
+           0       0.75        7.5       35.5         63
+           0          1         13         61         63
+           0      <0-1>     <2-13>    <27-61>         63
+
+Input: 1
+
+           1          1          1          1          1
+           1          1          1          1          1
+           1          1          1          1          1
+
+Input: 1 2
+
+           1       1.25        1.5       1.75          2
+           1          2          2          2          2
+           1      <1-2>      <1-2>      <1-2>          2
+
+Input: 1 2 3
+
+           1        1.5          2        2.5          3
+           1          2          2          3          3
+           1      <1-2>          2      <2-3>          3
+
+Input: 1 2 3 4
+
+           1       1.75        2.5       3.25          4
+           1          2          3          4          4
+           1      <1-2>      <2-3>      <3-4>          4
+
+Input: 1 2 3 4 5
+
+           1          2          3          4          5
+           1          2          3          4          5
+           1          2          3          4          5
+
+Input: 1 2 3 4 5 6
+
+           1       2.25        3.5       4.75          6
+           1          3          4          5          6
+           1      <2-3>      <3-4>      <4-5>          6
+
+Input: 1 2 3 4 5 6 7
+
+           1        2.5          4        5.5          7
+           1          3          4          6          7
+           1      <2-3>          4      <5-6>          7
+
+Input: 1 2 3 4 5 6 7 8
+
+           1       2.75        4.5       6.25          8
+           1          3          5          7          8
+           1      <2-3>      <4-5>      <6-7>          8
+
+Input: 1 2 3 4 5 6 7 8 9
+
+           1          3          5          7          9
+           1          3          5          7          9
+           1          3          5          7          9
+
+Input: 1 2 3 4 5 6 7 8 9 10
+
+           1       3.25        5.5       7.75         10
+           1          4          6          8         10
+           1      <3-4>      <5-6>      <7-8>         10
+
+Input: 1 2 2 3
+
+           1       1.75          2       2.25          3
+           1          2          2          3          3
+           1      <1-2>          2      <2-3>          3
+
+ 
+===> 172/2/jo-37.pl <===
+# Seeded srand with seed '1' from import arg.
+ok 1 - example from Wiki "Five-number summary
+ok 2 - example 1 from Wiki "Quartile"
+ok 3 - example 2 from Wiki "Quartile"
+ok 4 - five numbers
+1..4
+ 
+===> 172/2/kjetillll.pl <===
+ok 1 - 73                             →  73 73 73 73 73
+ok 2 - 73                             →  73 73 73 73 73
+ok 3 - 11 12                          →  11 11 11.5 12 12
+ok 4 - 11 12                          →  11 11 11.5 12 12
+ok 5 - 11 12 13                       →  11 11 12 13 13
+ok 6 - 11 12 13                       →  11 11 12 13 13
+ok 7 - 11 12 13 14                    →  11 11.5 12.5 13.5 14
+ok 8 - 11 12 13 14                    →  11 11.5 12.5 13.5 14
+ok 9 - 11 12 13 14 15                 →  11 11.5 13 14.5 15
+ok 10 - 11 12 13 14 15                 →  11 11.5 13 14.5 15
+ok 11 - 11 12 13 14 15 16              →  11 12 13.5 15 16
+ok 12 - 11 12 13 14 15 16              →  11 12 13.5 15 16
+ok 13 - 17 16 15 14 13 12 11           →  11 12 14 16 17
+ok 14 - 17 16 15 14 13 12 11           →  11 12 14 16 17
+ok 15 - no args, got expected croak
+1..15
+ 
+===> 172/2/laurent-rosenfeld.pl <===
+0 0.5 7.5 44 63
+ 
+===> 172/2/lubos-kolouch.pl <===
+ok 1
+1..1
+ 
+===> 172/2/mohammad-anwar.pl <===
+# Seeded srand with seed '1' from import arg.
+ok 1
+1..1
+ 
+===> 172/2/peter-campbell-smith.pl <===
+
+1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+minimum 1 first quartile 3.25 median 5.5 third quartile 7.75 maximum 10
+
+-3, 0, 8, 21, 42, 66, 99, 100
+minimum -3 first quartile 6 median 31.5 third quartile 74.25 maximum 100
+
+1, 1, 1, 1, 1, 1, 1
+minimum 1 first quartile 1 median 1 third quartile 1 maximum 1
+
+1, 2, 3, 4, 5, 6, 7, 8, 1000
+minimum 1 first quartile 3 median 5 third quartile 7 maximum 1000
+
+1, 2, 3, 4, 4, 5, 5, 6, 6, 6, 9, 10, 12, 14, 14, 16, 19, 20, 24, 24, 25, 26, 27, 27, 27, 29, 31, 34, 36, 38, 39, 40, 40, 41, 45, 45, 45, 47, 47, 48, 49, 49, 51, 51, 51, 51, 52, 52, 53, 54, 54, 54, 54, 55, 55, 56, 57, 58, 58, 59, 59, 59, 60, 64, 64, 65, 65, 67, 67, 68, 68, 69, 71, 73, 76, 77, 77, 78, 78, 79, 81, 82, 83, 84, 85, 85, 85, 86, 88, 88, 89, 90, 90, 92, 92, 93, 93, 95, 97, 98
+minimum 1 first quartile 28.5 median 54 third quartile 76.25 maximum 98
+ 
+===> 172/2/pokgopun.pl <===
+Input: (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11)
+sample_minimum: 0
+lower_quartile: 2.5
+median: 5.5
+upper_quartile: 8.5
+sample_maximum: 11
+ 
+===> 172/2/polettix.pl <===
+(0 0.5 7.5 44 63)
+ 
+===> 172/2/robert-dicicco.pl <===
+( 1 2 5 6 7 9 12 15 18 19 27 )
+min = 1; q1 = 5; median = 9; q3 = 18; max = 27
+ 
+===> 172/2/roger-bell-west.pl <===
+1..1
+ok 1 - example 1
+ 
+===> 172/2/steve-g-lynn.pl <===
+
+[
+ [3.907985e-14]
+ [  0.24969589]
+ [  0.49977626]
+ [  0.75001857]
+ [  0.99999976]
+]
+
+ 
+===> 172/2/ulrich-rieke.pl <===
+Minimum is 0!
+Median is 5.5!
+First quartile is 2.5!
+Third quartile is 8.5!
+Maximum is 11!
+ 
+===> 172/2/walt-mankowski.pl <===
+0 2.5 5.5 8.5 11
+ 
+===> 172/2/wlmb.pl <===
+The five-number summary of  is
+min=0, Q1=2.5, median=5.5, Q3=8.5, max=11

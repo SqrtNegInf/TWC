@@ -1,0 +1,83 @@
+ 
+===> 172/2/0rir.raku <===
+Input:  [0, 0, 1, 2, 63, 61, 27, 13]
+Five-number Summary (TI-83ish):
+        [0, 0.5, 7.5, 44.0, 63]
+ 
+===> 172/2/2colours.raku <===
+(0 2 5 7 10)
+ 
+===> 172/2/arne-sommer.raku <===
+0, 2.5, 5, 7.5, 10
+ 
+===> 172/2/athanasius.raku <===
+Input: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+
+Five-number Summary
+-------------------
+Sample minimum: 0
+Lower quartile: 2.00
+Median:         5.0
+Upper quartile: 8.00
+Sample maximum: 10
+ 
+===> 172/2/bruce-gray.raku <===
+1..8
+ok 1 - fivenum(15, 6, ...)
+ok 2 - fivenum(36, 40, ...)
+ok 3 - fivenum(0.14082834, 0.0974879, ...)
+ok 4 - fivenum(0, 0, ...)
+ok 5 - fivenum(6, 7, ...)
+ok 6 - fivenum(7, 15, ...)
+ok 7 - 16 heads of powers of two, compared against Statistics::fivenum
+ok 8 - 16 skips of powers of two, compared against Statistics::fivenum
+ 
+===> 172/2/jaldhar-h-vyas.raku <===
+minimum:        0
+lower quartile: 2
+median:         5
+upper quartile: 8
+maximum:        10
+ 
+===> 172/2/laurent-rosenfeld.raku <===
+(0 0.5 7.5 44 63)
+ 
+===> 172/2/mark-anderson.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ok 4 - 
+ 
+===> 172/2/mohammad-anwar.raku <===
+ok 1 - 
+1..1
+ 
+===> 172/2/polettix.raku <===
+[0 0.5 7.5 44 63]
+ 
+===> 172/2/robert-dicicco.raku <===
+Unsorted: 9 1 2 5 6 7 12 15 18 19 27
+Sorted:   1 2 5 6 7 9 12 15 18 19 27
+Min= 1  Q1= 5.5  Median= 9  Q3= 16.5  Max= 27
+ 
+===> 172/2/roger-bell-west.raku <===
+1..1
+ok 1 - example 1
+ 
+===> 172/2/steve-g-lynn.raku <===
+(1.976666255343318e-06 0.2499505630495482 0.49951443202279877 0.7498960130575887 0.9999975760138252)
+ 
+===> 172/2/ulrich-rieke.raku <===
+Minimum is 0!
+Median is 5!
+First quartile is  2.5!
+Third quartile is 7.5!
+Maximum is 10!
+ 
+===> 172/2/wambash.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ok 4 - 
+ok 5 - 
+1..5
