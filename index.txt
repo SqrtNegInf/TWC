@@ -361,9 +361,9 @@ Challenge titles and Rosetta-code correspondences (exact, and otherwise)
 171-1 Abundant Odd Number                   A/Abundant_odd_numbers
 171-2 First-class Function                  First-class_functions
 172-1 Prime Partition                       P/Partition_an_integer_X_into_N_primes
-172-2 Five-number summary
-173-1
-173-2
+172-2 Five-number summary                   F/Fivenum
+173-1 Esthetic numbers                      E/Esthetic_numbers
+173-2 Sylvester's sequence                  S/Sylvester%27s_sequence
 174-1
 174-2
 175-1

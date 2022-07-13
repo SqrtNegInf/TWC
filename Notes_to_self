@@ -1,3 +1,9 @@
+2022-07-12
+Between this and RC, over 6,000 Raku programs tested daily. Caveat: A lot of the PWC tasks are VERY similar...
+
+2022-07-11
+091/2/wambash.raku triggered the bug reported as GH4980
+
 2022-07-06
 Finish adding modules with zef, update 'Zef-install-all' in RC tools (moar-blead was nuked and rebuilt)
 
