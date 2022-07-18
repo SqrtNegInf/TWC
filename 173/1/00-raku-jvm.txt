@@ -1,0 +1,89 @@
+ 
+===> 173/1/0rir.raku <===
+ 
+===> 173/1/2colours.raku <===
+True
+ 
+===> 173/1/arne-sommer.raku <===
+1
+ 
+===> 173/1/athanasius.raku <===
+5456 is an esthetic number
+ 
+===> 173/1/bruce-gray.raku <===
+1..2
+ok 1 - https://oeis.org/A033075  Esthetic numbers
+ok 2 - https://oeis.org/A090994  Number of n-digit terms in A033075
+ 
+===> 173/1/habere-et-dispetire.raku <===
+True
+False
+ 
+===> 173/1/jaldhar-h-vyas.raku <===
+5456 is an esthetic number
+ 
+===> 173/1/laurent-rosenfeld.raku <===
+5456     is esthetic
+120      is not esthetic
+121      is esthetic
+23456    is esthetic
+2346     is not esthetic
+7654567  is esthetic
+765467   is not esthetic
+ 
+===> 173/1/luca-ferrari.raku <===
+5456 is esthetic!
+ 
+===> 173/1/mark-anderson.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ok 4 - 
+ok 5 - 
+ok 6 - 
+ok 7 - 
+ok 8 - 
+ok 9 - 
+ 
+===> 173/1/massa.raku <===
+True
+ 
+===> 173/1/mohammad-anwar.raku <===
+ok 1 - Example 1
+ok 2 - Example 2
+1..2
+ 
+===> 173/1/polettix.raku <===
+5456 is esthetic
+120 is NOT esthetic
+121 is esthetic
+23456 is esthetic
+2346 is NOT esthetic
+7654567 is esthetic
+765467 is NOT esthetic
+ 
+===> 173/1/robert-dicicco.raku <===
+101 121 123 210 212 232 234 321 323 343 345 432 434 454 456 543 545 565 567 654 656 676 678 765 767 787 789 876 878 898 987 989 1010 1012 1210 1212 1232 1234 2101 2121 2123 2321 2323 2343 2345 3210 3212 3232 3234 3432 3434 3454 3456 4321 4323 4343 4345 4543 4545 4565 4567 
+ 
+===> 173/1/roger-bell-west.raku <===
+1..5
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ok 4 - example 4
+ok 5 - example 5
+ 
+===> 173/1/simon-proctor.raku <===
+True
+ 
+===> 173/1/steve-g-lynn.raku <===
+True
+False
+ 
+===> 173/1/ulrich-rieke.raku <===
+5456 is esthetic!
+ 
+===> 173/1/wambash.raku <===
+ok 1 - 
+ok 2 - 
+1..2

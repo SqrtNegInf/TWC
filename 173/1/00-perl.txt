@@ -1,0 +1,162 @@
+ 
+===> 173/1/athanasius.pl <===
+5456 is an esthetic number
+ 
+===> 173/1/cheok-yin-fung.pl <===
+1..18
+ok 1
+ok 2
+ok 3
+ok 4
+ok 5
+ok 6
+ok 7
+ok 8
+ok 9
+ok 10
+ok 11
+ok 12
+ok 13
+ok 14
+ok 15
+ok 16
+ok 17
+ok 18
+ 
+===> 173/1/colin-crain.pl <===
+ok 1 - ex-1
+ok 2 - ex-2
+ok 3 - fancy
+ok 4 - short
+ok 5 - very short
+ok 6 - plain
+1..6
+ 
+===> 173/1/dario-mazzeo.pl <===
+1
+ 
+===> 173/1/dave-jacoby.pl <===
+  5456 is an esthetic number 
+  120 is not an esthetic number 
+  123 is an esthetic number 
+ 
+===> 173/1/e-choroba.pl <===
+1..4
+ok 1 - Example 1 positive
+ok 2 - Example 2 positive
+ok 3 - Example 1 negative
+ok 4 - Example 2 negative
+ 
+===> 173/1/jaldhar-h-vyas.pl <===
+5456 is an esthetic number
+ 
+===> 173/1/james-smith.pl <===
+ok 1
+ok 2
+ok 3
+ok 4
+1..4
+ 
+===> 173/1/jo-37.pl <===
+# Seeded srand with seed '1' from import arg.
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - nine to zero to one
+ok 4 - 1230321(4)
+ok 5 - 67076(8)
+ok 6 - saw-toothed
+1..6
+ 
+===> 173/1/laurent-rosenfeld.pl <===
+5456     is esthetic
+120      is not esthetic
+121      is esthetic
+23456    is esthetic
+2346     is not esthetic
+7654567  is esthetic
+765467   is not esthetic
+ 
+===> 173/1/lubos-kolouch.pl <===
+ok 1 - Test 5456
+ok 2 - Test 120
+1..2
+ 
+===> 173/1/mattneleigh.pl <===
+
+5456 is an esthetic number.
+120 is not an esthetic number.
+6 is an esthetic number.
+
+ 
+===> 173/1/mohammad-anwar.pl <===
+# Seeded srand with seed '1' from import arg.
+ok 1 - Example 1
+ok 2 - Example 2
+1..2
+ 
+===> 173/1/peter-campbell-smith.pl <===
+
+Quick result, abandoning search as soon as an unesthetic pair is found
+1234 is an esthetic number
+1235 is not an esthetic number as |3 - 5| != 1
+123345 is not an esthetic number as |3 - 3| != 1
+7654 is an esthetic number
+3210 is an esthetic number
+8642 is not an esthetic number as |8 - 6| != 1
+1345 is not an esthetic number as |1 - 3| != 1
+9090 is not an esthetic number as |9 - 0| != 1
+11111 is not an esthetic number as |1 - 1| != 1
+7654567898765432123456789 is an esthetic number
+7654567898765432123456788 is not an esthetic number as |8 - 8| != 1
+
+Exact result, reproducing Mohammad's output
+1234 is an esthetic number as |1 - 2| = |2 - 3| = |3 - 4| = 1
+1235 is not an esthetic number as |1 - 2| = |2 - 3| != |3 - 5| != 1
+123345 is not an esthetic number as |1 - 2| = |2 - 3| != |3 - 3| != |3 - 4| = |4 - 5| = 1
+7654 is an esthetic number as |7 - 6| = |6 - 5| = |5 - 4| = 1
+3210 is an esthetic number as |3 - 2| = |2 - 1| = |1 - 0| = 1
+8642 is not an esthetic number as |8 - 6| = |6 - 4| = |4 - 2| != 1
+1345 is not an esthetic number as |1 - 3| != |3 - 4| = |4 - 5| = 1
+9090 is not an esthetic number as |9 - 0| = |0 - 9| = |9 - 0| != 1
+11111 is not an esthetic number as |1 - 1| = |1 - 1| = |1 - 1| = |1 - 1| != 1
+7654567898765432123456789 is an esthetic number as |7 - 6| = |6 - 5| = |5 - 4| = |4 - 5| = |5 - 6| = |6 - 7| = |7 - 8| = |8 - 9| = |9 - 8| = |8 - 7| = |7 - 6| = |6 - 5| = |5 - 4| = |4 - 3| = |3 - 2| = |2 - 1| = |1 - 2| = |2 - 3| = |3 - 4| = |4 - 5| = |5 - 6| = |6 - 7| = |7 - 8| = |8 - 9| = 1
+7654567898765432123456788 is not an esthetic number as |7 - 6| = |6 - 5| = |5 - 4| = |4 - 5| = |5 - 6| = |6 - 7| = |7 - 8| = |8 - 9| = |9 - 8| = |8 - 7| = |7 - 6| = |6 - 5| = |5 - 4| = |4 - 3| = |3 - 2| = |2 - 1| = |1 - 2| = |2 - 3| = |3 - 4| = |4 - 5| = |5 - 6| = |6 - 7| = |7 - 8| != |8 - 8| != 1
+ 
+===> 173/1/polettix.pl <===
+5456 is esthetic
+120 is NOT esthetic
+121 is esthetic
+23456 is esthetic
+2346 is NOT esthetic
+7654567 is esthetic
+765467 is NOT esthetic
+ 
+===> 173/1/robert-dicicco.pl <===
+101 121 123 210 212 232 234 321 323 343 345 432 434 454 456 543 545 565 567 654 656 676 678 765 767 787 789 876 878 898 987 989 1010 1012 1210 1212 1232 1234 2101 2121 2123 2321 2323 2343 2345 3210 3212 3232 3234 3432 3434 3454 3456 4321 4323 4343 4345 4543 4545 4565 4567 
+ 
+===> 173/1/roger-bell-west.pl <===
+1..5
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ok 4 - example 4
+ok 5 - example 5
+ 
+===> 173/1/steve-g-lynn.pl <===
+1
+0
+ 
+===> 173/1/ulrich-rieke.pl <===
+5456 is esthetic!
+ 
+===> 173/1/walt-mankowski.pl <===
+5456 is an esthetic number
+ 
+===> 173/1/wlmb.pl <===
+5456 is an esthetic number
+120 is not an esthetic number
+121 is an esthetic number
+23456 is an esthetic number
+2346 is not an esthetic number
+7654567 is an esthetic number
+765467 is not an esthetic number
