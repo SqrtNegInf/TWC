@@ -1,4 +1,17 @@
  
+===> 174/2/0rir.raku <===
+ Permutations to lexicographic rank and back
+
+permutation2rank( [5, 0, 4, 1, 7, 3, 2, 6] ) --> 25580
+rank2permutation( 25580, 8) --> [5 0 4 1 7 3 2 6]
+
+permutation2rank( [-99999, -7, 30, 1900] ) --> 7
+rank2permutation( 7, 4) --> [1 0 3 2]
+
+permutation2rank([905 -720 -9 9]) --> 18
+rank2permutation( 18, [ -720, -9, 9, 905 ]) --> [905 -720 -9 9]
+
+ 
 ===> 174/2/arne-sommer.raku <===
 : 0 -> 0 1 2
 0
