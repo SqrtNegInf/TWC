@@ -1,0 +1,16 @@
+adam-russell.pl was giving incorrect results since when?
+
+===> 015/1/adam-russell.pl <===
+< Ten strong/weak primes were not found in the first 100,000 primes.
+>    Strong        Weak
+>    ======        ====
+>0:    11        3
+>1:    17        7
+>2:    29        13
+>3:    37        19
+>4:    41        23
+>5:    59        31
+>6:    67        43
+>7:    71        47
+>8:    79        61
+>9:    97        73
