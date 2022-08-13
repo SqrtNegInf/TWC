@@ -1,0 +1,54 @@
+ 
+===> 176/1/0rir.raku <===
+Output
+142857
+ 
+===> 176/1/2colours.raku <===
+142857
+ 
+===> 176/1/arne-sommer.raku <===
+142857
+ 
+===> 176/1/athanasius.raku <===
+142857
+ 
+===> 176/1/bruce-gray.raku <===
+142857
+142857
+ 
+===> 176/1/cheok-yin-fung.raku <===
+142857
+ 
+===> 176/1/jaldhar-h-vyas.raku <===
+142857
+ 
+===> 176/1/laurent-rosenfeld.raku <===
+142857
+ 
+===> 176/1/luca-ferrari.raku <===
+ 
+===> 176/1/mark-anderson.raku <===
+142857
+ 
+===> 176/1/mohammad-anwar.raku <===
+ok 1 - 
+1..1
+ 
+===> 176/1/polettix.raku <===
+142857
+ 
+===> 176/1/roger-bell-west.raku <===
+1..1
+ok 1 - example 1
+ 
+===> 176/1/simon-proctor.raku <===
+142857
+ 
+===> 176/1/steve-g-lynn.raku <===
+142857
+ 
+===> 176/1/ulrich-rieke.raku <===
+142857
+ 
+===> 176/1/wambash.raku <===
+142857
