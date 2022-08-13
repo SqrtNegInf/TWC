@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-# Perl weekly challenge 176
-# Task 1: Permuted multiples
-#
-# See https://wlmb.github.io/2022/08/01/PWC176/#task-1-permuted-multiples
+
 use v5.36;
 use List::Util qw(all);
 my $how_many=shift//1;

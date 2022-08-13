@@ -9,7 +9,7 @@ use Coro::Generator;
 
 use experimental qw(signatures postderef);
 
-our ($examples, $verbose, $base);
+our ($examples, $verbose, $base) = (1,1);
 
 $base ||= 10;
 

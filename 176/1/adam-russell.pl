@@ -1,10 +1,7 @@
 #!/usr/bin/env perl
 use strict;
 use warnings;
-##
-# Write a script to find the smallest integer x such 
-# that x, 2x, 3x, 4x, 5x and 6x are permuted multiples of each other.
-##
+
 use boolean;
 
 sub is_permuted{

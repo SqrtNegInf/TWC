@@ -32,7 +32,7 @@ say $t;
 ## "1" followed by p-2 "6"s - faster as we don't need to
 ## big ints...
 
-my($N,$p,$c,@primes) = ($ARGV[0]//20,1,0);
+my($N,$p,$c,@primes) = ($ARGV[0]//10,1,0);
                                      ## $N is the number of long
                                      ## primes to generate....
                                      ## $p is the start for prime

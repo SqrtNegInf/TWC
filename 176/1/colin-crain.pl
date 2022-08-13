@@ -91,7 +91,8 @@ use feature ":5.26";
 use feature qw(signatures);
 no warnings 'experimental::signatures';
 
-use constant  LIMIT => 100_000_000 ;
+use constant  LIMIT => 200_000 ;
+#use constant  LIMIT => 100_000_000 ;
 
 for ( 1..LIMIT ) {
     say $_ if check_multiples( $_ );

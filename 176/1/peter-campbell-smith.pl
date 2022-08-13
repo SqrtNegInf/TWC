@@ -1,17 +1,8 @@
 #!/usr/bin/env perl
 
-# Peter Campbell Smith - 2022-08-01
-# PWC 176 task 1
-
 use v5.28;
 use utf8;
 use warnings;
-
-# Write a script to find the smallest integer x such that x, 2x, 3x, 4x, 5x and 6x are permuted 
-# multiples of each other. For example, the integers 125874 and 251748 are permuted multiples 
-# of each other.
-
-# Blog: 
 
 my ($j, $j_sorted, $j_length, $k, $jk, );
 
