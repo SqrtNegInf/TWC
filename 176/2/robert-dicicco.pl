@@ -3,10 +3,6 @@
 use strict;
 use warnings;
 
-# AUTHOR: Robert DiCicco
-# DATE: 2022-08-01
-# Challenge 176 Reversible Numbers ( Perl )
-
 sub AllDigitsOdd {
 
   my $d = shift;

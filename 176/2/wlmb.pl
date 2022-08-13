@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-# Perl weekly challenge 176
-# Task 2: Reversible numbers
-#
-# See https://wlmb.github.io/2022/08/01/PW176/#task-2-reversible-numbers
+
 use v5.36;
 use List::Util qw(all);
 my @reversible;

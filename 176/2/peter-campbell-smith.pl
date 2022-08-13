@@ -1,16 +1,7 @@
 #!/usr/bin/env perl
 
-# Peter Campbell Smith - 2022-08-01
-# PWC 176 task 2
-
 use v5.28;
-use utf8;
 use warnings;
-
-# Write a script to find out all Reversible Numbers below 100. A number is said to be 
-# reversible if sum of the number and its reverse has only odd digits.
-
-# Blog: 
 
 my ($j, $result);
 

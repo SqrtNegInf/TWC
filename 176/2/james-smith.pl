@@ -5,8 +5,8 @@ use strict;
 use warnings;
 use feature qw(say);
 use Test::More;
-use Benchmark qw(cmpthese timethis);
-use Data::Dumper qw(Dumper);
+#use Benchmark qw(cmpthese timethis);
+#use Data::Dumper qw(Dumper);
 
 ##----------------------------------------------------------------------
 ## Three different versions of code..
@@ -34,9 +34,3 @@ my @res = (
 );
 
 say sprintf '%10s: %5s : %s', $_->[0], $_->[1] eq $ans ? 'pass' : 'fail', $_->[1] for @res;
-
-cmpthese( 20_000,{
-  'maths'   => sub { reversible_maths },
-  'regex'   => sub { reversible_regex },
-});
-

@@ -1,6 +1,4 @@
 #!/usr/bin/env perl
-# The Weekly Challenge 176
-# Task 2 Reversible Numbers
 
 use v5.30.0;
 use warnings;

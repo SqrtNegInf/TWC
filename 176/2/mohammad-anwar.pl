@@ -1,17 +1,5 @@
 #!/usr/bin/env perl
 
-=head1
-
-Week 176:
-
-    https://theweeklychallenge.org/blog/perl-weekly-challenge-176
-
-Task 2: Reversible Numbers
-
-    Write a script to find out all Reversible Numbers below 100.
-
-=cut
-
 use Test2::V0 -srand => 1;
 use v5.36;
 use experimental qw(builtin);

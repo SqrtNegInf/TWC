@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
 
-use 5.36.0;
+use feature 'say';
 
 my @reversible;
 for my $i (10 .. 99) {
