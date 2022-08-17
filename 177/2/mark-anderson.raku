@@ -1,6 +1,8 @@
 #!/usr/bin/env raku
 use Test;
 
+BEGIN die 'not ok - disabled: JVM does not handle gather/take correctly' if $*VM ~~ /jvm/;
+
 # A136098
 is-deeply palindromic-prime-cyclops.head(20), (101, 
                                                16061, 

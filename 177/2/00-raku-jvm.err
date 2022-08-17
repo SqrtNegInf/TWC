@@ -1,3 +1,7 @@
-# Failed test at mark-anderson.raku line 27
-# expected: '3446840486443'
-#      got: '3457160617543'
+[31m===[0mSORRY![31m===[0m Error while compiling /Users/dhoekman/PWC/177/2/mark-anderson.raku
+An exception occurred while evaluating a BEGIN
+at /Users/dhoekman/PWC/177/2/mark-anderson.raku:4
+Exception details:
+  not ok - disabled: JVM does not handle gather/take correctly
+    in code  at mark-anderson.raku line 4
+
