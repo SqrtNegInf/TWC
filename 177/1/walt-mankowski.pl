@@ -1,15 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
 
-# Task 1: Damm Algorithm
-# Submitted by: Mohammad S Anwar
-#
-# You are given a positive number, $n.
-#
-# Write a script to validate the given number against the included
-# check digit.
-
-# from https://en.wikipedia.org/wiki/Damm_algorithm
 my @table = (
     [0,3,1,7,5,9,8,6,4,2],
     [7,0,9,2,1,5,4,8,6,3],
@@ -23,7 +14,7 @@ my @table = (
     [2,5,8,1,4,3,6,7,9,0]
 );
 
-my $n = $ARGV[0];
+my $n = 5724;
 my @digits = split //, $n;
 my $interim = 0;
 $interim = $table[$interim][$digits[$_]] for 0..$#digits-1;

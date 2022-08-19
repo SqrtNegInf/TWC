@@ -1,16 +1,8 @@
 #!/usr/bin/env perl
 
-# Peter Campbell Smith - 2022-08-08
-# PWC 177 task 1
-
 use v5.28;
 use utf8;
 use warnings;
-
-# You are given a positive number, $n.  Write a script to validate the given number 
-# against the included Damm algorithm check digit.
-
-# Blog: https://pjcs-pwc.blogspot.com/2022/08/damm-algorithm-take-care-to-spell-that.html
 
 my (@table, @tests, $test, $interim_digit);
 

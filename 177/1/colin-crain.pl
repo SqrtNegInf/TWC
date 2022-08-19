@@ -67,7 +67,7 @@ use feature qw(signatures);
 no warnings 'experimental::signatures';
 
 
-my $num   = shift @ARGV;
+my $num   = 5724;
 say validate( $num ) if defined $num ;
 
 

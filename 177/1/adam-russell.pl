@@ -1,10 +1,7 @@
 #!/usr/bin/env perl
 use strict;
 use warnings;
-##
-# You are given a positive number, $n. Write a script to validate the given number against 
-# the included check digit.
-##
+
 use boolean; 
 
 my @damm_matrix;

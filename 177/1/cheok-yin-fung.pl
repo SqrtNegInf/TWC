@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-# The Weekly Challenge 177
-# Task 1 Damm Algorithm
+
 use v5.30.0;
 
 say damm_check($ARGV[0] || 5724)? "valid": "invalid";

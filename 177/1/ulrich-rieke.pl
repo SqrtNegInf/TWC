@@ -3,7 +3,7 @@ use strict ;
 use warnings ;
 use feature 'say' ;
 
-my $number = $ARGV[0] ;
+my $number = 5724;
 my @damm_table = ( [0,  3 , 1 , 7 , 5 , 9 , 8 , 6 , 4 , 2 ] ,
           [7 , 0 , 9 , 2 , 1 , 5 , 4 , 8 , 6 , 3 ] ,
           [4 , 2 , 0 , 6 , 8 , 7 , 1 , 3 , 5 , 9 ] ,

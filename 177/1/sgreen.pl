@@ -32,4 +32,4 @@ sub main ($num) {
     say $row_idx== 0 ? 1 : 0;
 }
 
-main(@ARGV);
+main(5724);

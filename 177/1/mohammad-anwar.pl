@@ -1,20 +1,5 @@
 #!/usr/bin/env perl
 
-=head1
-
-Week 177:
-
-    https://theweeklychallenge.org/blog/perl-weekly-challenge-177
-
-Task #1: Damm Algorigthm
-
-    You are given a positive number, $n.
-
-    Write a script to validate the given number against the included
-    check digit.
-
-=cut
-
 use v5.36;
 use Test2::V0 -srand => 1;
 
