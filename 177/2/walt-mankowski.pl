@@ -3,14 +3,6 @@ use v5.36;
 use lib ".";
 use primes qw(primes_to);
 
-# Task 2: Palindromic Prime Cyclops
-# Submitted by: Mohammad S Anwar
-#
-# Write a script to generate first 20 Palindromic Prime Cyclops Numbers.
-#
-#     A cyclops number is a number with an odd number of digits that
-#     has a zero in the center only.
-
 sub is_cyclops($n) {
     return length($n) % 2 == 1 &&
         substr($n, length($n)/2, 1) == 0 &&

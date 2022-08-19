@@ -19,7 +19,6 @@ if($flag & 1 ) {
   for(1..$K) {
     (++$i)!~/0/ && is_prime( $t = $i.'0'.reverse$i ) ? say $t : redo;
   }
-  warn sprintf $template, 'Simple:',time-$t0, $t;
 }
 
 if( $flag & 2 ) {
@@ -35,5 +34,4 @@ if( $flag & 2 ) {
     $ones      *= 10;
     $ones++;
   }
-  warn sprintf $template, 'Optimized:', time-$start, $result;
 }

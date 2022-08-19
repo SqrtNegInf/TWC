@@ -6,10 +6,6 @@ use ntheory qw/is_prime/;
 no warnings 'experimental::smartmatch';
 use 5.30.0;
 
-# AUTHOR: Robert DiCicco
-# DATE: 2022-08-08
-# Challenge 177 Palindromic Prime Cyclops ( Perl )
-
 sub MidChar {
 
   my $str = shift;

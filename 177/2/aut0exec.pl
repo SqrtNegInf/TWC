@@ -1,12 +1,4 @@
 #!/usr/bin/env perl
-# 
-# Write a script to generate first 20 Palindromic Prime Cyclops Numbers.
-# A cyclops number is a number with an odd number of digits that has a zero in the center only.
-#
-# Output
-# 101, 16061, 31013, 35053, 38083, 73037, 74047, 91019, 94049, 1120211, 1150511, 1160611, 1180811, 1190911, 1250521, 1280821, 1360631, 1390931, 1490941, 1520251
-#
-# Definitely want to come back and try to optimize this later...
 
 use strict;
 use warnings;

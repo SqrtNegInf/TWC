@@ -70,21 +70,10 @@ const my $TARGET   => 20;
 const my $USAGE    => "Usage:\n  perl $0\n";
 const my $WIDTH    =>  7;
 
-#------------------------------------------------------------------------------
-BEGIN
-#------------------------------------------------------------------------------
-{
-    $| = 1;
-    print "\nChallenge 177, Task #2: Palindromic Prime Cyclops (Perl)\n\n";
-}
-
 #==============================================================================
 MAIN:
 #==============================================================================
 {
-    my $args = scalar @ARGV;
-       $args == 0 or die 'ERROR: Expected 0 command line arguments, found ' .
-                         "$args\n$USAGE";
 
     my @palindromic_prime_cyclops;
 
