@@ -9,4 +9,7 @@ Stats on 'PWC-rerun':
 2022-03-31 075-157 497% cpu   27:23.99 total (perl,moar:  7219u  958s)
 2022-04-18 037-159 517% cpu   36:29.01 total (perl,moar: 10135u 1937s)
 2022-04-29 019-161 538% cpu   39:58.81 total (perl,moar: 11530u 1375s)
-2022-05-17 001-164 593% cpu   39:10.34 total (perl.moar: 12440u 1509s)
+2022-05-17 001-164 593% cpu   39:10.34 total (perl,moar: 12440u 1509s)
+2022-08-16 001-176            47:41.23 toatl (perl,moar: real:47m41s user:227m3s sys:29m2s)
+
+
