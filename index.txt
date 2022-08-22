@@ -372,10 +372,10 @@ Challenge titles and Rosetta-code correspondences (exact, and otherwise)
 176-2 Reversible Numbers
 177-1 Damm Algorithm                        D/Damm_algorithm
 177-2 Palindromic Prime Cyclops             C/Cyclops_numbers
-178-1
-178-2
-179-1
-179-2
+178-1 Quater-imaginary Base                 I/Imaginary_base_numbers
+178-2 Business Date
+179-1 Ordinal Number Spelling               S/Spelling_of_ordinal_numbers
+179-2 Unicode Sparkline                     S/Sparkline_in_unicode
 180-1
 180-2
 181-1
