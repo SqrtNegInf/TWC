@@ -1,0 +1,192 @@
+ 
+===> 178/1/aecepoglu.raku <===
+-5. (2 0 3), True
+-4. (1 0 0), True
+-3. (1 0 1), True
+-2. (1 0 2), True
+-1. (1 0 3), True
+0. (0), True
+1. (1), True
+2. (2), True
+3. (3), True
+4. (1 0 3 0 0), True
+5. (1 0 3 0 1), True
+6. (1 0 3 0 2), True
+7. (1 0 3 0 3), True
+8. (1 0 2 0 0), True
+9. (1 0 2 0 1), True
+10. (1 0 2 0 2), True
+11. (1 0 2 0 3), True
+12. (1 0 1 0 0), True
+13. (1 0 1 0 1), True
+14. (1 0 1 0 2), True
+15. (1 0 1 0 3), True
+16. (1 0 0 0 0), True
+17. (1 0 0 0 1), True
+18. (1 0 0 0 2), True
+ 
+===> 178/1/arne-sommer.raku <===
+123
+1+2i
+ 
+===> 178/1/luca-ferrari.raku <===
+10300
+ 
+===> 178/1/mark-anderson.raku <===
+ok 1 - quater2decimal(1) == 1
+ok 2 - quater2decimal(2) == 2
+ok 3 - quater2decimal(3) == 3
+ok 4 - quater2decimal(10300) == 4
+ok 5 - quater2decimal(10301) == 5
+ok 6 - quater2decimal(10302) == 6
+ok 7 - quater2decimal(10303) == 7
+ok 8 - quater2decimal(10200) == 8
+ok 9 - quater2decimal(10201) == 9
+ok 10 - quater2decimal(10202) == 10
+ok 11 - quater2decimal(10203) == 11
+ok 12 - quater2decimal(10100) == 12
+ok 13 - quater2decimal(10101) == 13
+ok 14 - quater2decimal(10102) == 14
+ok 15 - quater2decimal(10103) == 15
+ok 16 - quater2decimal(10000) == 16
+ok 17 - quater2decimal(103) == -1
+ok 18 - quater2decimal(102) == -2
+ok 19 - quater2decimal(101) == -3
+ok 20 - quater2decimal(100) == -4
+ok 21 - quater2decimal(203) == -5
+ok 22 - quater2decimal(202) == -6
+ok 23 - quater2decimal(201) == -7
+ok 24 - quater2decimal(200) == -8
+ok 25 - quater2decimal(303) == -9
+ok 26 - quater2decimal(302) == -10
+ok 27 - quater2decimal(301) == -11
+ok 28 - quater2decimal(300) == -12
+ok 29 - quater2decimal(1030003) == -13
+ok 30 - quater2decimal(1030002) == -14
+ok 31 - quater2decimal(1030001) == -15
+ok 32 - quater2decimal(1030000) == -16
+ok 33 - quater2decimal(10.2) == 0+1i
+ok 34 - quater2decimal(10.0) == 0+2i
+ok 35 - quater2decimal(20.2) == 0+3i
+ok 36 - quater2decimal(20.0) == 0+4i
+ok 37 - quater2decimal(30.2) == 0+5i
+ok 38 - quater2decimal(30.0) == 0+6i
+ok 39 - quater2decimal(103000.2) == 0+7i
+ok 40 - quater2decimal(103000.0) == 0+8i
+ok 41 - quater2decimal(103010.2) == 0+9i
+ok 42 - quater2decimal(103010.0) == 0+10i
+ok 43 - quater2decimal(103020.2) == 0+11i
+ok 44 - quater2decimal(103020.0) == 0+12i
+ok 45 - quater2decimal(103030.2) == 0+13i
+ok 46 - quater2decimal(103030.0) == 0+14i
+ok 47 - quater2decimal(102000.2) == 0+15i
+ok 48 - quater2decimal(102000.0) == 0+16i
+ok 49 - quater2decimal(0.2) == -0-1i
+ok 50 - quater2decimal(1030.0) == -0-2i
+ok 51 - quater2decimal(1030.2) == -0-3i
+ok 52 - quater2decimal(1020.0) == -0-4i
+ok 53 - quater2decimal(1020.2) == -0-5i
+ok 54 - quater2decimal(1010.0) == -0-6i
+ok 55 - quater2decimal(1010.2) == -0-7i
+ok 56 - quater2decimal(1000.0) == -0-8i
+ok 57 - quater2decimal(1000.2) == -0-9i
+ok 58 - quater2decimal(2030.0) == -0-10i
+ok 59 - quater2decimal(2030.2) == -0-11i
+ok 60 - quater2decimal(2020.0) == -0-12i
+ok 61 - quater2decimal(2020.2) == -0-13i
+ok 62 - quater2decimal(2010.0) == -0-14i
+ok 63 - quater2decimal(2010.2) == -0-15i
+ok 64 - quater2decimal(2000.0) == -0-16i
+ok 65 - decimal2quater(1) == 1
+ok 66 - decimal2quater(2) == 2
+ok 67 - decimal2quater(3) == 3
+ok 68 - decimal2quater(4) == 10300
+ok 69 - decimal2quater(5) == 10301
+ok 70 - decimal2quater(6) == 10302
+ok 71 - decimal2quater(7) == 10303
+ok 72 - decimal2quater(8) == 10200
+ok 73 - decimal2quater(9) == 10201
+ok 74 - decimal2quater(10) == 10202
+ok 75 - decimal2quater(11) == 10203
+ok 76 - decimal2quater(12) == 10100
+ok 77 - decimal2quater(13) == 10101
+ok 78 - decimal2quater(14) == 10102
+ok 79 - decimal2quater(15) == 10103
+ok 80 - decimal2quater(16) == 10000
+ok 81 - decimal2quater(-1) == 103
+ok 82 - decimal2quater(-2) == 102
+ok 83 - decimal2quater(-3) == 101
+ok 84 - decimal2quater(-4) == 100
+ok 85 - decimal2quater(-5) == 203
+ok 86 - decimal2quater(-6) == 202
+ok 87 - decimal2quater(-7) == 201
+ok 88 - decimal2quater(-8) == 200
+ok 89 - decimal2quater(-9) == 303
+ok 90 - decimal2quater(-10) == 302
+ok 91 - decimal2quater(-11) == 301
+ok 92 - decimal2quater(-12) == 300
+ok 93 - decimal2quater(-13) == 1030003
+ok 94 - decimal2quater(-14) == 1030002
+ok 95 - decimal2quater(-15) == 1030001
+ok 96 - decimal2quater(-16) == 1030000
+ok 97 - decimal2quater(0+1i) == 10.2
+ok 98 - decimal2quater(0+2i) == 10.0
+ok 99 - decimal2quater(0+3i) == 20.2
+ok 100 - decimal2quater(0+4i) == 20.0
+ok 101 - decimal2quater(0+5i) == 30.2
+ok 102 - decimal2quater(0+6i) == 30.0
+ok 103 - decimal2quater(0+7i) == 103000.2
+ok 104 - decimal2quater(0+8i) == 103000.0
+ok 105 - decimal2quater(0+9i) == 103010.2
+ok 106 - decimal2quater(0+10i) == 103010.0
+ok 107 - decimal2quater(0+11i) == 103020.2
+ok 108 - decimal2quater(0+12i) == 103020.0
+ok 109 - decimal2quater(0+13i) == 103030.2
+ok 110 - decimal2quater(0+14i) == 103030.0
+ok 111 - decimal2quater(0+15i) == 102000.2
+ok 112 - decimal2quater(0+16i) == 102000.0
+ok 113 - decimal2quater(-0-1i) == 0.2
+ok 114 - decimal2quater(-0-2i) == 1030.0
+ok 115 - decimal2quater(-0-3i) == 1030.2
+ok 116 - decimal2quater(-0-4i) == 1020.0
+ok 117 - decimal2quater(-0-5i) == 1020.2
+ok 118 - decimal2quater(-0-6i) == 1010.0
+ok 119 - decimal2quater(-0-7i) == 1010.2
+ok 120 - decimal2quater(-0-8i) == 1000.0
+ok 121 - decimal2quater(-0-9i) == 1000.2
+ok 122 - decimal2quater(-0-10i) == 2030.0
+ok 123 - decimal2quater(-0-11i) == 2030.2
+ok 124 - decimal2quater(-0-12i) == 2020.0
+ok 125 - decimal2quater(-0-13i) == 2020.2
+ok 126 - decimal2quater(-0-14i) == 2010.0
+ok 127 - decimal2quater(-0-15i) == 2010.2
+ok 128 - decimal2quater(-0-16i) == 2000.0
+ 
+===> 178/1/polettix.raku <===
+10203
+ 
+===> 178/1/roger-bell-west.raku <===
+1..2
+ok 1 - example 1
+ok 2 - example 2
+ 
+===> 178/1/steve-g-lynn.raku <===
+10300
+1030001
+121003.2
+ 
+===> 178/1/ulrich-rieke.raku <===
+10300 2i
+ 
+===> 178/1/wambash.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ok 4 - 
+ok 5 - 
+ok 6 - 
+ok 7 - 
+ok 8 - 
+ok 9 - 
+ok 10 - 
+1..10
