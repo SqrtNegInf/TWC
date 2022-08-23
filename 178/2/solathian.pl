@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
 
-# Created for perl weekly challenge - 178
-# used strawberry perl 5.32
-
 use strict;
 use warnings;
 
@@ -108,8 +105,8 @@ sub businessDate
 
 
 #sample call 
-# businessDate("2022-08-01 10:30", 4);
+businessDate("2022-08-01 10:30", 4);
 
 #sample call 2
-# businessDate("2022-08-01 17:00", 3.5);
+businessDate("2022-08-01 17:00", 3.5);
 

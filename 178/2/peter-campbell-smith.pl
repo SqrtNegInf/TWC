@@ -1,18 +1,9 @@
 #!/usr/bin/env perl
 
-# Peter Campbell Smith - 2022-08-15
-# PWC 178 task 2
-
 use v5.28;
 use utf8;
 use warnings;
 use Time::Local 'timelocal_posix';
-# use Date::Format;
-
-# Write a script to find the time that occurs $duration business hours after 
-# $timestamp. For the sake of this task, let us assume the working hours is 9am to 6pm, Monday to Friday.
-
-# Blog: 
 
 my (@tests, $test, $start, $duration, $d, $m, $y, $h, $i, $s, $date, $day_of_week, 
 	$whole_weeks, $whole_days, $end, @t);

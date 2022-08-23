@@ -1,0 +1,87 @@
+ 
+===> 178/2/colin-crain.pl <===
+2022-09-30 14:30
+ 
+===> 178/2/e-choroba.pl <===
+1..11
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - over weekend
+ok 4 - start early
+ok 5 - start late
+ok 6 - last sec
+ok 7 - from Saturday
+ok 8 - from Sunday
+ok 9 - 2 weeks+
+ok 10 - almost 1 day
+ok 11 - over midnight
+ 
+===> 178/2/jo-37.pl <===
+# Seeded srand with seed '1' from import arg.
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - over the weekend
+ok 4 - before business start
+ok 5 - after business end
+ok 6 - one business week
+ok 7 - edge case: zero duration after business end
+ok 8 - edge case: zero duration before business start
+1..8
+ 
+===> 178/2/kjetillll.pl <===
+ok 1 - ts: 2022-08-01 10:30   duration: 4   got: 2022-08-01 14:30   expected: 2022-08-01 14:30
+ok 2 - ts: 2022-08-01 17:00   duration: 3.5   got: 2022-08-02 11:30   expected: 2022-08-02 11:30
+ok 3 - ts: 2022-08-01 17:00   duration: 0   got: 2022-08-01 17:00   expected: 2022-08-01 17:00
+ok 4 - ts: 2022-08-15 17:45   duration: 0.0166666666666667   got: 2022-08-15 17:46   expected: 2022-08-15 17:46
+ok 5 - ts: 2022-08-15 17:59   duration: 0.0166666666666667   got: 2022-08-15 18:00   expected: 2022-08-15 18:00
+ok 6 - ts: 2022-08-15 18:00   duration: 0.0166666666666667   got: 2022-08-16 09:01   expected: 2022-08-16 09:01
+ok 7 - ts: 2022-08-15 18:00   duration: 1.01666666666667   got: 2022-08-16 10:01   expected: 2022-08-16 10:01
+ok 8 - ts: 2022-08-15 17:45   duration: 3.5   got: 2022-08-16 12:15   expected: 2022-08-16 12:15
+ok 9 - ts: 2022-08-15 17:45   duration: 3.5   got: 2022-08-16 12:15   expected: 2022-08-16 12:15
+ok 10 - ts: 2022-08-12 17:45   duration: 3.5   got: 2022-08-15 12:15   expected: 2022-08-15 12:15
+ok 11 - ts: 2022-07-15 17:45   duration: 140.666666666667   got: 2022-08-08 14:25   expected: 2022-08-08 14:25
+1..11
+ 
+===> 178/2/peter-campbell-smith.pl <===
+
+timestamp = 2022-08-17 15:00:00
+duration  = 93
+end       = 2022-09-01 09:00:00
+
+timestamp = 2022-08-17 15:00:00
+duration  = 2349
+end       = 2023-08-17 15:00:00
+
+timestamp = 2023-01-02 09:00:00
+duration  = 999999
+end       = 2448-11-24 09:00:00
+
+timestamp = 2022-08-22 18:00:00
+duration  = 0
+end       = 2022-08-23 09:00:00
+
+timestamp = 2022-08-17 12:00:00
+duration  = 1.56
+end       = 2022-08-17 13:33:36
+ 
+===> 178/2/polettix.pl <===
+2022-08-01 14:30
+ 
+===> 178/2/roger-bell-west.pl <===
+1..6
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ok 4 - example 4
+ok 5 - example 5
+ok 6 - example 6
+ 
+===> 178/2/solathian.pl <===
+Given timestamp                      2022-08-01  10:30:00 Given duration is 4
+Then the next business date would be 2022-08-01  14:30:00
+Given timestamp                      2022-08-01  17:00:00 Given duration is 3.5
+Then the next business date would be 2022-08-02  11:30:00
+ 
+===> 178/2/steve-g-lynn.pl <===
+22-08-01 14:30
+22-08-02 11:30

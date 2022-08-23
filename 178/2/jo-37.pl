@@ -6,7 +6,7 @@ use DateTime::Format::Strptime;
 use DateTime::Format::Duration;
 use experimental qw(signatures postderef);
 
-our ($tests, $examples);
+our ($tests, $examples) = (1,1);
 
 run_tests() if $tests || $examples;	# does not return
 
