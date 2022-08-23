@@ -1,0 +1,50 @@
+ 
+===> 178/2/aecepoglu.raku <===
+2022-08-08T12:30:00Z
+ 
+===> 178/2/arne-sommer.raku <===
+2022-08-02 12:00
+ 
+===> 178/2/athanasius.raku <===
+Input
+  Timestamp: 2022-08-01 17:00
+  Duration:  4 hours
+
+Output
+  Timestamp: 2022-08-02 12:00
+ 
+===> 178/2/cheok-yin-fung.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ok 4 - 
+1..4
+ 
+===> 178/2/jaldhar-h-vyas.raku <===
+2022-08-02 12:00
+ 
+===> 178/2/luca-ferrari.raku <===
+2022-08-01T14:30:00Z
+ 
+===> 178/2/mark-anderson.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ok 4 - 
+ok 5 - 
+ok 6 - 
+ok 7 - 
+ok 8 - 
+ok 9 - 
+ 
+===> 178/2/polettix.raku <===
+2022-08-01 14:30
+ 
+===> 178/2/roger-bell-west.raku <===
+1..6
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ok 4 - example 4
+ok 5 - example 5
+ok 6 - example 6
