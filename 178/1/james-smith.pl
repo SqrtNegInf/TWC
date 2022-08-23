@@ -1,15 +1,14 @@
 #!/usr/bin/env perl
 
 use strict;
-
 use warnings;
 use feature qw(say state);
+
 use Test::More;
 use Benchmark qw(cmpthese timethis);
 use Data::Dumper qw(Dumper);
 
 my $q = Complex->new(1);
-
 
 foreach ( -10000 .. 10000 ) { #n16384 ) {
   my $t = Complex->new($_,0);
@@ -17,7 +16,8 @@ foreach ( -10000 .. 10000 ) { #n16384 ) {
   my $c = $q->toComplex;
   say "$t         ->  $q  ->       $c    -> ",$c->toQIB if "$t" ne "$c";
 }
-exit;
+
+say 'No output means round-trip worked in all cases.';
 
 package Complex;
 

@@ -1,0 +1,296 @@
+ 
+===> 178/1/cheok-yin-fung.pl <===
+1..5
+ok 1
+ok 2
+ok 3
+ok 4
+ok 5
+ 
+===> 178/1/colin-crain.pl <===
+ dec : quater-i   : dec 
+-----+------------+-----
+ -16 : 1030000    : -16
+ -15 : 1030001    : -15
+ -14 : 1030002    : -14
+ -13 : 1030003    : -13
+ -12 : 300        : -12
+ -11 : 301        : -11
+ -10 : 302        : -10
+  -9 : 303        : -9
+  -8 : 200        : -8
+  -7 : 201        : -7
+  -6 : 202        : -6
+  -5 : 203        : -5
+  -4 : 100        : -4
+  -3 : 101        : -3
+  -2 : 102        : -2
+  -1 : 103        : -1
+   0 : 0          : 0
+   1 : 1          : 1
+   2 : 2          : 2
+   3 : 3          : 3
+   4 : 10300      : 4
+   5 : 10301      : 5
+   6 : 10302      : 6
+   7 : 10303      : 7
+   8 : 10200      : 8
+   9 : 10201      : 9
+  10 : 10202      : 10
+  11 : 10203      : 11
+  12 : 10100      : 12
+  13 : 10101      : 13
+  14 : 10102      : 14
+  15 : 10103      : 15
+  16 : 10000      : 16
+ 
+===> 178/1/e-choroba.pl <===
+# Seeded srand with seed '1' from import arg.
+1..5
+ok 1
+ok 2
+ok 3
+ok 4
+ok 5
+ 
+===> 178/1/jaldhar-h-vyas.pl <===
+10203
+ 
+===> 178/1/james-smith.pl <===
+No output means round-trip worked in all cases.
+ 
+===> 178/1/jo-37.pl <===
+# Seeded srand with seed '1' from import arg.
+ok 1 - example 1 int -> qi
+ok 2 - example 1 qi -> int
+ok 3 - \#1 from Wiki
+ok 4 - \#2  from Wiki
+ok 5 - \#2  from Wiki
+ok 6 - \#3 from Wiki
+ok 7 - \#4 om Wiki
+ok 8 - \#1 from OEIS
+ok 9 - \#2 from OEIS
+ok 10 - \#3 from OEIS
+ok 11 - \#3 from OEIS
+ok 12 - \#4 from OEIS
+ok 13 - \#5 from OEIS
+ok 14 - 1
+ok 15 - 1+i
+ok 16 - i
+ok 17 - -1+i
+ok 18 - -1
+ok 19 - -1-i
+ok 20 - -i
+ok 21 - 1-i
+ok 22 - 1
+ok 23 - 1+i
+ok 24 - i
+ok 25 - -1+i
+ok 26 - -1
+ok 27 - -1-i
+ok 28 - -i
+ok 29 - 1-i
+1..29
+ 
+===> 178/1/kjetillll.pl <===
+ok    c2q:   0+0i --> 0    (expected 0)
+ok    q2c:   0  --> 0+0i
+ok    c2q:   4+0i --> 10300    (expected 10300)
+ok    q2c:   10300  --> 4+0i
+ok    c2q:   7+0i --> 10303    (expected 10303)
+ok    q2c:   10303  --> 7+0i
+ok    c2q:   5+0i --> 10301    (expected 10301)
+ok    q2c:   10301  --> 5+0i
+ok    c2q:   35+23i --> 121003.2    (expected 121003.2)
+ok    q2c:   121003.2  --> 35+23i
+ok    c2q:   -15+0i --> 1030001    (expected 1030001)
+ok    q2c:   1030001  --> -15+0i
+ok    c2q:   0+15i --> 102000.2    (expected 102000.2)
+ok    q2c:   102000.2  --> 0+15i
+ok    c2q:   0+-15i --> 2010.2    (expected 2010.2)
+ok    q2c:   2010.2  --> 0+-15i
+ok    c2q:   -1+0i --> 103    (expected 103)
+ok    q2c:   103  --> -1+0i
+ok    c2q:   0+-2i --> 1030    (expected 1030)
+ok    q2c:   1030  --> 0+-2i
+ok    c2q:   -3+-2i --> 1131    (expected 1131)
+ok    q2c:   1131  --> -3+-2i
+ok    c2q:   293+-196i --> 120231321    (expected 120231321)
+ok    q2c:   120231321  --> 293+-196i
+ok    c2q:   1+0i --> 1    (expected 1)
+ok    q2c:   1  --> 1+0i
+ok    c2q:   2+0i --> 2    (expected 2)
+ok    q2c:   2  --> 2+0i
+ok    c2q:   3+0i --> 3    (expected 3)
+ok    q2c:   3  --> 3+0i
+ok    c2q:   4+0i --> 10300    (expected 10300)
+ok    q2c:   10300  --> 4+0i
+ok    c2q:   1+0i --> 1    (expected 1)
+ok    q2c:   1  --> 1+0i
+ok    c2q:   2+0i --> 2    (expected 2)
+ok    q2c:   2  --> 2+0i
+ok    c2q:   3+0i --> 3    (expected 3)
+ok    q2c:   3  --> 3+0i
+ok    c2q:   4+0i --> 10300    (expected 10300)
+ok    q2c:   10300  --> 4+0i
+ok    c2q:   5+0i --> 10301    (expected 10301)
+ok    q2c:   10301  --> 5+0i
+ok    c2q:   6+0i --> 10302    (expected 10302)
+ok    q2c:   10302  --> 6+0i
+ok    c2q:   7+0i --> 10303    (expected 10303)
+ok    q2c:   10303  --> 7+0i
+ok    c2q:   8+0i --> 10200    (expected 10200)
+ok    q2c:   10200  --> 8+0i
+ok    c2q:   9+0i --> 10201    (expected 10201)
+ok    q2c:   10201  --> 9+0i
+ok    c2q:   10+0i --> 10202    (expected 10202)
+ok    q2c:   10202  --> 10+0i
+ok    c2q:   11+0i --> 10203    (expected 10203)
+ok    q2c:   10203  --> 11+0i
+ok    c2q:   12+0i --> 10100    (expected 10100)
+ok    q2c:   10100  --> 12+0i
+ok    c2q:   13+0i --> 10101    (expected 10101)
+ok    q2c:   10101  --> 13+0i
+ok    c2q:   14+0i --> 10102    (expected 10102)
+ok    q2c:   10102  --> 14+0i
+ok    c2q:   15+0i --> 10103    (expected 10103)
+ok    q2c:   10103  --> 15+0i
+ok    c2q:   16+0i --> 10000    (expected 10000)
+ok    q2c:   10000  --> 16+0i
+ok    c2q:   -1+0i --> 103    (expected 103)
+ok    q2c:   103  --> -1+0i
+ok    c2q:   -2+0i --> 102    (expected 102)
+ok    q2c:   102  --> -2+0i
+ok    c2q:   -3+0i --> 101    (expected 101)
+ok    q2c:   101  --> -3+0i
+ok    c2q:   -4+0i --> 100    (expected 100)
+ok    q2c:   100  --> -4+0i
+ok    c2q:   -5+0i --> 203    (expected 203)
+ok    q2c:   203  --> -5+0i
+ok    c2q:   -6+0i --> 202    (expected 202)
+ok    q2c:   202  --> -6+0i
+ok    c2q:   -7+0i --> 201    (expected 201)
+ok    q2c:   201  --> -7+0i
+ok    c2q:   -8+0i --> 200    (expected 200)
+ok    q2c:   200  --> -8+0i
+ok    c2q:   -9+0i --> 303    (expected 303)
+ok    q2c:   303  --> -9+0i
+ok    c2q:   -10+0i --> 302    (expected 302)
+ok    q2c:   302  --> -10+0i
+ok    c2q:   -11+0i --> 301    (expected 301)
+ok    q2c:   301  --> -11+0i
+ok    c2q:   -12+0i --> 300    (expected 300)
+ok    q2c:   300  --> -12+0i
+ok    c2q:   -13+0i --> 1030003    (expected 1030003)
+ok    q2c:   1030003  --> -13+0i
+ok    c2q:   -14+0i --> 1030002    (expected 1030002)
+ok    q2c:   1030002  --> -14+0i
+ok    c2q:   -15+0i --> 1030001    (expected 1030001)
+ok    q2c:   1030001  --> -15+0i
+ok    c2q:   -16+0i --> 1030000    (expected 1030000)
+ok    q2c:   1030000  --> -16+0i
+ok    c2q:   0+1i --> 10.2    (expected 10.2)
+ok    q2c:   10.2  --> 0+1i
+ok    c2q:   0+2i --> 10    (expected 10)
+ok    q2c:   10  --> 0+2i
+ok    c2q:   0+3i --> 20.2    (expected 20.2)
+ok    q2c:   20.2  --> 0+3i
+ok    c2q:   0+4i --> 20    (expected 20)
+ok    q2c:   20  --> 0+4i
+ok    c2q:   0+5i --> 30.2    (expected 30.2)
+ok    q2c:   30.2  --> 0+5i
+ok    c2q:   0+6i --> 30    (expected 30)
+ok    q2c:   30  --> 0+6i
+ok    c2q:   0+7i --> 103000.2    (expected 103000.2)
+ok    q2c:   103000.2  --> 0+7i
+ok    c2q:   0+8i --> 103000    (expected 103000)
+ok    q2c:   103000  --> 0+8i
+ok    c2q:   0+9i --> 103010.2    (expected 103010.2)
+ok    q2c:   103010.2  --> 0+9i
+ok    c2q:   0+10i --> 103010    (expected 103010)
+ok    q2c:   103010  --> 0+10i
+ok    c2q:   0+11i --> 103020.2    (expected 103020.2)
+ok    q2c:   103020.2  --> 0+11i
+ok    c2q:   0+12i --> 103020    (expected 103020)
+ok    q2c:   103020  --> 0+12i
+ok    c2q:   0+13i --> 103030.2    (expected 103030.2)
+ok    q2c:   103030.2  --> 0+13i
+ok    c2q:   0+14i --> 103030    (expected 103030)
+ok    q2c:   103030  --> 0+14i
+ok    c2q:   0+15i --> 102000.2    (expected 102000.2)
+ok    q2c:   102000.2  --> 0+15i
+ok    c2q:   0+16i --> 102000    (expected 102000)
+ok    q2c:   102000  --> 0+16i
+ok    c2q:   0+-1i --> 0.2    (expected 0.2)
+ok    q2c:   0.2  --> 0+-1i
+ok    c2q:   0+-2i --> 1030    (expected 1030)
+ok    q2c:   1030  --> 0+-2i
+ok    c2q:   0+-3i --> 1030.2    (expected 1030.2)
+ok    q2c:   1030.2  --> 0+-3i
+ok    c2q:   0+-4i --> 1020    (expected 1020)
+ok    q2c:   1020  --> 0+-4i
+ok    c2q:   0+-5i --> 1020.2    (expected 1020.2)
+ok    q2c:   1020.2  --> 0+-5i
+ok    c2q:   0+-6i --> 1010    (expected 1010)
+ok    q2c:   1010  --> 0+-6i
+ok    c2q:   0+-7i --> 1010.2    (expected 1010.2)
+ok    q2c:   1010.2  --> 0+-7i
+ok    c2q:   0+-8i --> 1000    (expected 1000)
+ok    q2c:   1000  --> 0+-8i
+ok    c2q:   0+-9i --> 1000.2    (expected 1000.2)
+ok    q2c:   1000.2  --> 0+-9i
+ok    c2q:   0+-10i --> 2030    (expected 2030)
+ok    q2c:   2030  --> 0+-10i
+ok    c2q:   0+-11i --> 2030.2    (expected 2030.2)
+ok    q2c:   2030.2  --> 0+-11i
+ok    c2q:   0+-12i --> 2020    (expected 2020)
+ok    q2c:   2020  --> 0+-12i
+ok    c2q:   0+-13i --> 2020.2    (expected 2020.2)
+ok    q2c:   2020.2  --> 0+-13i
+ok    c2q:   0+-14i --> 2010    (expected 2010)
+ok    q2c:   2010  --> 0+-14i
+ok    c2q:   0+-15i --> 2010.2    (expected 2010.2)
+ok    q2c:   2010.2  --> 0+-15i
+ok    c2q:   0+-16i --> 2000    (expected 2000)
+ok    q2c:   2000  --> 0+-16i
+Errors: 0, tests: 160
+ 
+===> 178/1/peter-campbell-smith.pl <===
+5 + 0i = [10301.0]2i
+[10301.0]2i = 5 + 0i
+
+0 + 5i = [30.2]2i
+[30.2]2i = 0 + 5i
+
+4 + 6i = [10330.0]2i
+[10330.0]2i = 4 + 6i
+
+35 + 23i = [121003.2]2i
+[121003.2]2i = 35 + 23i
+
+-7 + -10i = [2231.0]2i
+[2231.0]2i = -7 + -10i
+
+52 + -77i = [113202320.2]2i
+[113202320.2]2i = 52 + -77i
+
+-1 + 4i = [123.0]2i
+[123.0]2i = -1 + 4i
+
+ 
+===> 178/1/polettix.pl <===
+10300
+ 
+===> 178/1/roger-bell-west.pl <===
+1..2
+ok 1 - example 1
+ok 2 - example 2
+ 
+===> 178/1/sgreen.pl <===
+10303
+ 
+===> 178/1/ulrich-rieke.pl <===
+10203 2i
+ 
+===> 178/1/wlmb.pl <===
+11(base ten)= 10203(base 2i)

@@ -1,16 +1,9 @@
 #!/usr/bin/env perl
 
-# Peter Campbell Smith - 2022-08-15
-# PWC 178 task 1
-
 use v5.28;
 use utf8;
 use warnings;
 use POSIX 'floor';
-
-# Write a script to convert a given number (base 10) to quater-imaginary base number and vice-versa. 
-
-# Blog: 
 
 my (@tests, $test, $real_part, $imag_part, $result, $real, $imag, $qib);
 

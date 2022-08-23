@@ -7,7 +7,7 @@ use Math::Complex;
 use List::MoreUtils qw(zip part);
 use experimental 'signatures';
 
-our ($tests, $examples, $fromqi);
+our ($tests, $examples, $fromqi) = (1,1);
 
 run_tests() if $tests || $examples;	# does not return
 

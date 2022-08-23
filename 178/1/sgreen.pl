@@ -31,4 +31,4 @@ sub main ($num) {
     say join( '0', @digits );
 }
 
-main(@ARGV);
+main(11);

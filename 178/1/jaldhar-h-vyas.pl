@@ -23,6 +23,6 @@ sub quaterImaginaryBase {
     return join '0', reverse @result;
 }
 
-my ($n) = shift // die "Need an integer\n";
+my ($n) = 11; #// die "Need an integer\n";
 
 say quaterImaginaryBase($n);

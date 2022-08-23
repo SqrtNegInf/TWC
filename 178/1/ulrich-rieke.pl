@@ -62,8 +62,8 @@ for my $num ( 2 .. 10 ) {
   $powers_of_imaginary{ $num } = reduce { $a * $b } @imaginaries ;
   push @imaginaries , $base  ;
 }
-say "Please enter a number string! If it is quater-imaginary, end with 2i !" ;
-my $numberstring = <STDIN> ;
+#say "Please enter a number string! If it is quater-imaginary, end with 2i !" ;
+my $numberstring = 11;
 chomp $numberstring ;
 if ( $numberstring =~ /2i/ ) {
   my $complex = from_quater_imaginary( $numberstring , \%powers_of_imaginary ) ;

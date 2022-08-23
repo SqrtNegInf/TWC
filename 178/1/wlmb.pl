@@ -1,11 +1,9 @@
 #!/usr/bin/env perl
-# Perl weekly challenge 178
-# Task 1: Quater imaginary base
-#
-# See https://wlmb.github.io/2022/08/15/PWC178/#task-1-quater-imaginary-base
+
 use v5.36;
 use experimental qw(try);
 use List::Util qw(pairmap);
+
 sub st_to_reim($string){ # Parse string as X+Yi (with small variations)
     my $orig=$string;
     my $re= $string=~s/^(\s*([+-]?\d+))\s*(?!(\d|i))//?$2:0;
@@ -27,9 +25,7 @@ sub cmplx_to_qi($X, $Y){    # convert a complex integer number X+Yi to base 2i
     $re+$im;		    # mix both parts together
 }
 
-die "Usage: $0 Z1 [Z2...]\nto convert the complex integers Zn=Xn+Yni (no space) to base 2i\n"
-    unless @ARGV;
-foreach (@ARGV){
+foreach (11){
     say "$_(base ten)= ",
         cmplx_to_qi(do{try {st_to_reim($_);} catch($m){say $m; next;}}),
         "(base 2i)";
