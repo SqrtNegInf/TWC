@@ -1,3 +1,18 @@
+2022-08-29
+A many changes due to 'srand drift':
+034/2 jaldhar-h-vyas.raku
+042/2 5 of them
+042/2 colin-crain.raku
+052/2 luca-ferrari.raku, mohammad-anwar.raku
+056/1 mohammad-anwar.raku, colin-crain.raku
+056/2 ?
+063/2 colin-crain.raku
+064/1 finanalyst.raku
+068/1 jeongoon.raku, mohammad-anwar.raku
+071/1 all of them?
+104/2 luca-ferrari.raku
+161/2 many of them
+
 2022-08-12
 Inline::Perl5 still broken, module author on vacation...
 
