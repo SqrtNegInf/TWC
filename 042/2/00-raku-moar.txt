@@ -1,15 +1,15 @@
  
 ===> 042/2/arne-sommer.raku <===
-)))( - NOT OK
-))((() - NOT OK
-() - OK
-(((() - NOT OK
-(((( - NOT OK
-)))(( - NOT OK
-)( - NOT OK
-(()( - NOT OK
-)) - NOT OK
 (( - NOT OK
+)() - NOT OK
+)())) - NOT OK
+( - NOT OK
+) - NOT OK
+)())) - NOT OK
+(())) - NOT OK
+((() - NOT OK
+()))(( - NOT OK
+)( - NOT OK
  
 ===> 042/2/burkhard-nickels.raku <===
 ch-2.p6 (Version 1.0) PWC #42 Task #2: Balanced Brackets
@@ -23,13 +23,11 @@ ch-2.p6 (Version 1.0) PWC #42 Task #2: Balanced Brackets
 () - OK
  
 ===> 042/2/colin-crain.raku <===
-start: ((())()()(
-val: IMBALANCED - (( unmatched
+start: (
+val: IMBALANCED - odd number of parens
  
 ===> 042/2/daniel-mita.raku <===
 (
-(
-)
 1 unclosed
  
 ===> 042/2/feng-chang.raku <===
@@ -85,11 +83,9 @@ ok 7 - test nested matching with alternate chars
 (())(()) - OK
  
 ===> 042/2/markus-holzer.raku <===
-()(() is unbalanced
-(()( is unbalanced
-)(((( is unbalanced
-()( is unbalanced
-((()( is unbalanced
+)))()( is unbalanced
+)())() is unbalanced
+((())) is BALANCED
 )())( is unbalanced
 ))(( is unbalanced
 )()) is unbalanced
@@ -97,24 +93,26 @@ ok 7 - test nested matching with alternate chars
 ()( is unbalanced
 ((()(( is unbalanced
 (()) is BALANCED
-()) is unbalanced
-(()( is unbalanced
-()(() is unbalanced
-)() is unbalanced
-))))( is unbalanced
-()) is unbalanced
-((( is unbalanced
-)() is unbalanced
-((()( is unbalanced
-)() is unbalanced
-()())( is unbalanced
+)())( is unbalanced
+()()(( is unbalanced
+()((() is unbalanced
+(()(( is unbalanced
+()()( is unbalanced
+()( is unbalanced
+))) is unbalanced
+(())() is unbalanced
+()((( is unbalanced
+())()) is unbalanced
 ())) is unbalanced
-()) is unbalanced
-(()( is unbalanced
-((()) is unbalanced
+)() is unbalanced
+((())( is unbalanced
+()(( is unbalanced
+(() is unbalanced
 ((((( is unbalanced
-())) is unbalanced
-)(())) is unbalanced
+(()) is BALANCED
+))) is unbalanced
+(())( is unbalanced
+()(() is unbalanced
  
 ===> 042/2/noud.raku <===
 ()    - True
@@ -147,16 +145,16 @@ ok 7 - test nested matching with alternate chars
 Invalid: )(((
  
 ===> 042/2/ruben-westerberg.raku <===
-unbalanced: )()
-unbalanced: ))))(
-unbalanced: (((()
+unbalanced: ))(
+unbalanced: ))(((
 unbalanced: (
-unbalanced: ))
-unbalanced: )()))
-unbalanced: )))(((
-unbalanced: )(
+unbalanced: (((()
+balanced: (())()
 unbalanced: )((
 unbalanced: ))(
+unbalanced: )()(()
+unbalanced: ))()(
+unbalanced: ))
  
 ===> 042/2/ryan-thompson.raku <===
 0 length - OK
@@ -187,7 +185,7 @@ unbalanced: ))(
 )(())))((( - NOT OK
  
 ===> 042/2/simon-proctor.raku <===
-String to test ()((())))())
+String to test ())))())))
 Balanced? False
  
 ===> 042/2/stuart-little.raku <===
