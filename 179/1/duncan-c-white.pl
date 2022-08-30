@@ -1,25 +1,4 @@
 #!/usr/bin/env perl
-# 
-# Task 1: Ordinal Number Spelling
-# 
-# You are given a positive number, $n.
-# Write a script to spell the ordinal number.
-# 
-# For example,
-# 
-# 11 => eleventh
-# 62 => sixty-second
-# 99 => ninety-ninth
-# 
-# MY NOTES: ok, sounds pretty easy for n>0; let's arbitrarily deal with
-# n < 1000000 (although millions, billions etc would be pretty easy to add).
-# Let's do this via formwords(n) which converts (eg) n=17 to "seventeen" and
-# then use that to generate the final "seventeeth" by mucking about with the
-# ending (and using some special case rules for English, eg one->first)
-# 
-# GUEST LANGUAGE: As a bonus, I also had a go at translating ch-1.pl
-# into C (look in the C directory for that).
-# 
 
 use strict;
 use warnings;
@@ -30,8 +9,6 @@ use Data::Dumper;
 
 
 my $debug=0;
-die "Usage: nth [--debug] N\n"
-	unless GetOptions( "debug"=>\$debug ) && @ARGV==1;
 
 
 # rules to deal with "formwords"..
@@ -147,7 +124,7 @@ fun nth( $n )
 
 
 
-my $n = shift;
+my $n = 123456;
 die "nth: n ($n) must be > 0 and < 1,000,000\n" if $n<=0 || $n>1000000;
 
 #my $count = formwords( $n );

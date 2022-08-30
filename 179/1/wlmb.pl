@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-# Perl weekly challenge 179
-# Task 1: Ordinal number spelling
-#
-# See https://wlmb.github.io/2022/08/22/PWC179/#task-1-ordinal-number-spelling
+
 use v5.36;
 use experimental qw(try);
 use POSIX qw(floor);
@@ -19,7 +16,7 @@ my (%ordinals, %cardinals);
     thirteen fourteen fifteen sixteen seventeen eighteen nineteen);
 @cardinals{qw(20 30 40 50 60 70 80 90)}=qw(
     twenty thirty forty fifty sixty seventy  eighty ninety);
-for(@ARGV){
+for(123456){
     try {say "$_-th=", ordinal($_);}
     catch($n){say $n;};
 }

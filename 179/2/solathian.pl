@@ -149,6 +149,6 @@ sub main
 # sample calls
 # my @sampleArr = (3,4,5,8,20);
 # my @sampleArr = (1,1,0,5,4,3,6,7,1,7);
-# my @sampleArr = (90 ,80, 70, 60, 50, 40, 30,20, 10, 100);
+ my @sampleArr = (90 ,80, 70, 60, 50, 40, 30,20, 10, 100);
 
-# main(\@sampleArr);
+main(\@sampleArr);

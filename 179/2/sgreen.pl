@@ -22,4 +22,4 @@ sub main (@numbers) {
     say $sparkline;
 }
 
-main(@ARGV);
+main((15,2500,35,-4500,55,65,75,8500));

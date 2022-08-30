@@ -1,7 +1,4 @@
 #!/usr/bin/env perl
-#
-# You are given a positive number, $n.
-# Write a script to spell the ordinal number.
 
 use strict;
 use warnings;
@@ -37,7 +34,7 @@ sub tens {
 	return "$digit{$value}";	
 }
 
-my $ordinal_num = shift;
+my $ordinal_num = 47;
 my @ordinal = split (//,$ordinal_num);
 my $dig_len = length($ordinal_num);
 

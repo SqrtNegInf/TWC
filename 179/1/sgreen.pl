@@ -98,4 +98,4 @@ sub main ($n) {
     say join ' ', @words;
 }
 
-main( $ARGV[0] );
+main( 1234567 );

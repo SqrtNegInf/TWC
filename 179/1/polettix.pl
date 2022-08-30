@@ -4,7 +4,7 @@ use warnings;
 use experimental 'signatures';
 no warnings 'experimental::signatures';
 
-my $n = shift // 99;
+my $n = shift // 123467;
 say spelled_ordinal($n);
 
 sub spelled_ordinal ($n) {

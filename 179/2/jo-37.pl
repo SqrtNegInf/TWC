@@ -4,19 +4,11 @@ use v5.16;
 use List::MoreUtils 'minmax';
 use Math::Utils 'floor';
 
-die <<EOS unless @ARGV;
-usage: $0 N1 N2 ...
-
-N1 N2 ...
-    Numbers to be represented in a sparkline-like bar chart.
-
-EOS
-
 
 ### Input and Output
 
 binmode STDOUT, ':utf8';
-say barchart(@ARGV);
+say barchart((15,2500,35,-4500,55,65,75,8500));
 
 
 ### Implementation

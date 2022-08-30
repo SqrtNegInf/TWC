@@ -60,6 +60,7 @@ References
 use strict;
 use warnings;
 use utf8;
+binmode(STDOUT, ':utf8');
 use Const::Fast;
 use List::Util     qw( max min );
 use Regexp::Common qw( number );
@@ -71,20 +72,11 @@ const my $USAGE =>
 
     [<n> ...]    One or more positive numbers\n";
 
-#------------------------------------------------------------------------------
-BEGIN
-#------------------------------------------------------------------------------
-{
-    $| = 1;
-    binmode(STDOUT, ':utf8');
-    print "\nChallenge 179, Task #2: Unicode Sparkline (Perl)\n\n";
-}
-
 #==============================================================================
 MAIN:
 #==============================================================================
 {
-    my @n = parse_command_line();
+    my @n = (15,2500,35,-4500,55,65,75,8500);
 
     printf "Input:  %s\n\n", join ', ', @n;
 

@@ -6,9 +6,7 @@ use List::Util qw/max min uniq/;
 use POSIX;
 binmode(STDOUT, ":utf8");
 
-my @n = @ARGV;
-
-exit unless defined($ARGV[1]);
+my @n = (15,2500,35,400,55,65,75,800);
 
 my @nn = map {$_ / min(@n)} @n;
 

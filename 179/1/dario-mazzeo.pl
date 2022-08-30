@@ -1,9 +1,6 @@
 #!/usr/bin/env perl
-# THE WEEKLY CHALLENGE - 179
-# Task 1: Ordinal Number Spelling
-# Autore: Dario Mazzeo
 
-my $n=$ARGV[0];
+my $n=47;
 print NumeroInTesto($n);
 exit;
 

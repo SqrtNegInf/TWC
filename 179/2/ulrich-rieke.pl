@@ -24,10 +24,7 @@ sub findOctal {
   }
 }
 
-say "Enter some numbers , separated by blanks!" ;
-my $line = <STDIN> ;
-chomp $line ;
-my @numbers = split( /\s+/ , $line ) ;
+my @numbers = (15,2500,35,-4500,55,65,75,8500);
 my $maximum = max( @numbers ) ;
 my $minimum = min( @numbers ) ;
 my $range = $maximum - $minimum ;
