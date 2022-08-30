@@ -1,0 +1,48 @@
+ 
+===> 179/2/0rir.raku <===
+min:   15  max:  970  data-points: 24 ▆█▅▄▁▁▃▅▄▄▄▂▂▅▆▄
+ 
+===> 179/2/arne-sommer.raku <===
+▁▃▁▄▁▁▁█
+ 
+===> 179/2/athanasius.raku <===
+Output: ▃▅▃▁▃▃▃█
+ 
+===> 179/2/laurent-rosenfeld.raku <===
+2 4 6 8 10 12 10 8 6 4 2; min: 2; max: 12.
+▁▂▄▅▇█▇▅▄▂▁
+
+0 1 19 20; min: 0; max: 20.
+▁▁██
+
+0 999 4000 4999 7000 7999; min: 0; max: 7999.
+▁▁▅▅██
+
+ 
+===> 179/2/luca-ferrari.raku <===
+▁█▁▂▁▁▁
+ 
+===> 179/2/mark-anderson.raku <===
+ok 1 - 
+ 
+===> 179/2/polettix.raku <===
+▁▂▃▄▅▆▇█▇▆▅▄▃▂▁
+ 
+===> 179/2/roger-bell-west.raku <===
+1..2
+ok 1 - example 1
+ok 2 - example 2
+ 
+===> 179/2/simon-proctor.raku <===
+▂█▂▁▂▂▂▄
+ 
+===> 179/2/steve-g-lynn.raku <===
+▁▂▂▂▃▂▂▂▁
+ 
+===> 179/2/ulrich-rieke.raku <===
+▂▃▂▁▂▂▂▇
+ 
+===> 179/2/wambash.raku <===
+ok 1 - 
+ok 2 - 
+1..2
