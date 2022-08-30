@@ -5,9 +5,18 @@
 sub MAIN ( *@args ) {
     die 'Which PWC?' unless @args.elems;
 
-    #@args = grep { '165' eq $_ }, @args; # test just one
-    @args = grep { '170' ne $_ }, @args; # exclude one
-    @args = grep { '171' ne $_ }, @args; # exclude one
+   #@args = grep { '165' eq $_ }, @args; # test just one
+
+    @args = grep { '180' ne $_ }, @args; # exclude one
+    @args = grep { '181' ne $_ }, @args; # exclude one
+    @args = grep { '182' ne $_ }, @args; # exclude one
+    @args = grep { '183' ne $_ }, @args; # exclude one
+    @args = grep { '184' ne $_ }, @args; # exclude one
+    @args = grep { '185' ne $_ }, @args; # exclude one
+    @args = grep { '186' ne $_ }, @args; # exclude one
+    @args = grep { '187' ne $_ }, @args; # exclude one
+    @args = grep { '188' ne $_ }, @args; # exclude one
+    @args = grep { '189' ne $_ }, @args; # exclude one
 
     (@args).race(:8degree, :1batch).map: -> $ch { shell "bin/PWC-run $ch 1 perl ; bin/PWC-run $ch 2 perl" }
     (@args).race(:8degree, :1batch).map: -> $ch { shell "bin/PWC-run $ch 1 moar ; bin/PWC-run $ch 2 moar" }
