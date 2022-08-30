@@ -8,6 +8,14 @@ min:   15  max:  970  data-points: 24 ▆█▅▄▁▁▃▅▄▄▄▂▂▅
 ===> 179/2/athanasius.raku <===
 Output: ▃▅▃▁▃▃▃█
  
+===> 179/2/gfldex-1.raku <===
+▁▂▄▅▇█▇▅▄▂▁
+▁▁██
+▁▂▅▅▇█
+ 
+===> 179/2/gfldex-2.raku <===
+▁▂▄▅▇█▇▅▄▂▁
+ 
 ===> 179/2/laurent-rosenfeld.raku <===
 2 4 6 8 10 12 10 8 6 4 2; min: 2; max: 12.
 ▁▂▄▅▇█▇▅▄▂▁
