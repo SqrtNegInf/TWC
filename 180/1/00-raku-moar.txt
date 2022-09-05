@@ -1,0 +1,89 @@
+ 
+===> 180/1/0rir.raku <===
+1..6
+ok 1 - abcdeA
+ok 2 - abcdeA :i
+ok 3 - abcdeabcD
+ok 4 - abcdeabcD :i
+ok 5 - abcddefabcEfg
+ok 6 - abcddefabcEfg :i
+ 
+===> 180/1/2colours.raku <===
+ 
+===> 180/1/arne-sommer.raku <===
+0
+ 
+===> 180/1/athanasius.raku <===
+Input:  $s = "Raku Yearly Challenge"
+Output: 2 (as "k" is the first unique character)
+ 
+===> 180/1/ben-davies.raku <===
+0
+ 
+===> 180/1/bruce-gray.raku <===
+1..3
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ 
+===> 180/1/cheok-yin-fung.raku <===
+1
+ 
+===> 180/1/deadmarshal.raku <===
+2 as 'k' is the first unique character
+ 
+===> 180/1/jaldhar-h-vyas.raku <===
+2
+ 
+===> 180/1/laurent-rosenfeld.raku <===
+Perl Weekly Challenge: 0
+Long Live Perl: 1
+ 
+===> 180/1/mark-anderson.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ 
+===> 180/1/massa.raku <===
+2
+ 
+===> 180/1/mohammad-anwar.raku <===
+ok 1 - Example 1
+ok 2 - Example 2
+1..2
+ 
+===> 180/1/polettix.raku <===
+2
+ 
+===> 180/1/robert-dicicco.raku <===
+Input: $s = "Long Live Perl"
+Output: 1 as "o" is the first unique character
+
+Input: $s = "Perl Weekly Challenge"
+Output: 0 as "p" is the first unique character
+
+ 
+===> 180/1/roger-bell-west.raku <===
+1..3
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ 
+===> 180/1/simon-proctor.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+1..3
+ 
+===> 180/1/steve-g-lynn.raku <===
+0
+1
+ 
+===> 180/1/ulrich-rieke.raku <===
+2
+ 
+===> 180/1/wambash.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+1..3
