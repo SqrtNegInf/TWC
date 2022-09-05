@@ -4,7 +4,7 @@ use strict;
 use warnings;
 use feature 'say';
 
-my $s = $ARGV[0];
+my $s = 'raku Yearly Challenge';
 my %freq;
 
 map { $freq{$_}++ } split(//, $s);

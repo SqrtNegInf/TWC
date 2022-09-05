@@ -26,7 +26,7 @@ use Encode qw(decode);
 }
 
 my $codeset = langinfo(CODESET);
-my $string = decode($codeset, shift(@ARGV) // 'Perl Weekly Challenge');
+my $string = decode($codeset, shift(@ARGV) // 'raku yearly challenge');
 
 my $order = DoubleLinkedList->new;
 my %dll_element_for;

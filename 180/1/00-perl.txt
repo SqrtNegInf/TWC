@@ -1,0 +1,128 @@
+ 
+===> 180/1/adam-russell.pl <===
+0
+1
+ 
+===> 180/1/arne-sommer.pl <===
+2
+ 
+===> 180/1/athanasius.pl <===
+ok 1 - "Perl Weekly Challenge"
+ok 2 - "Long Live Perl"
+ok 3 - "AaBbCcDdEeFfGgHhIiJj"
+ok 4 - "AaBbCcDdEeFfGgHhIiJjK"
+ok 5 - " abB"
+1..5
+ 
+===> 180/1/aut0exec.pl <===
+The first unique letter is: k at index: 2
+ 
+===> 180/1/bejoy-mathews.pl <===
+The first unique character in 'Perl Weekly Challenge' is 'P'
+ 
+===> 180/1/cheok-yin-fung.pl <===
+1
+ 
+===> 180/1/colin-crain.pl <===
+e
+e
+ 
+===> 180/1/dave-jacoby.pl <===
+        Input: $s = "Perl Weekly Challenge"
+        Output: 0
+
+        Input: $s = "Long Live Perl"
+        Output: 1
+
+        Input: $s = "AA BB CC D"
+        Output: 9
+
+ 
+===> 180/1/e-choroba.pl <===
+1..12
+ok 1 - Example 1
+ok 2 - Example 1
+ok 3 - Example 1
+ok 4 - Example 1
+ok 5 - Example 2
+ok 6 - Example 2
+ok 7 - Example 2
+ok 8 - Example 2
+ok 9 - Everything repeats
+ok 10 - Everything repeats
+ok 11 - Everything repeats
+ok 12 - Everything repeats
+ 
+===> 180/1/jaldhar-h-vyas.pl <===
+3
+ 
+===> 180/1/james-smith.pl <===
+ok 1
+ok 2
+ok 3
+ok 4
+ok 5
+ok 6
+ok 7
+ok 8
+ok 9
+ok 10
+ok 11
+ok 12
+ok 13
+ok 14
+ok 15
+ok 16
+ok 17
+ok 18
+1..18
+ 
+===> 180/1/kueppo-wesley.pl <===
+ok 1
+ok 2
+ok 3
+ok 4
+ok 5
+1..5
+ 
+===> 180/1/mohammad-anwar.pl <===
+# Seeded srand with seed '1' from import arg.
+ok 1 - Example 1
+ok 2 - Example 2
+1..2
+ 
+===> 180/1/perlboy1967.pl <===
+ok 1
+ok 2
+1..2
+ 
+===> 180/1/polettix.pl <===
+2
+ 
+===> 180/1/robert-dicicco.pl <===
+Input: $s = "Long Live Perl"
+Output: 1 as "o" is the first unique character
+
+Input: $s = "raku yearly Challenge"
+Output: 2 as "k" is the first unique character
+
+ 
+===> 180/1/roger-bell-west.pl <===
+1..3
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ 
+===> 180/1/steve-g-lynn.pl <===
+0
+1
+ 
+===> 180/1/steven-wilson.pl <===
+ok 1 - First
+ok 2 - Second
+ok 3 - Last
+ok 4 - None
+1..4
+ 
+===> 180/1/wlmb.pl <===
+The first unique character of 'raku Yearly Challenge' is 2->k

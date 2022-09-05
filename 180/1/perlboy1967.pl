@@ -1,21 +1,5 @@
 #!/usr/bin/env perl
 
-=pod
-
-The Weekly Challenge - 180
- - https://theweeklychallenge.org/blog/perl-weekly-challenge-180/#TASK1
-
-Author: Niels 'PerlBoy' van Dijke
-
-Task 1: First Unique Character
-Submitted by: Mohammad S Anwar
-
-You are given a string, $s.
-
-Write a script to find out the first unique character in the given string and print its index (0-based).
-
-=cut
-
 use v5.16;
 use warnings;
 

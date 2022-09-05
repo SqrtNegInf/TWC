@@ -1,7 +1,4 @@
 #!/usr/bin/env perl
-# Week 180 Task 1
-# Write a script to find out the first unique character in the given string
-# and print its index (0-based).
 
 use strict;
 use warnings;

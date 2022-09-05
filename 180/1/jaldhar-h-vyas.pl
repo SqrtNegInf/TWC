@@ -2,7 +2,7 @@
 use 5.030;
 use warnings;
 
-my $s = shift // die "need a string in quotation marks\n";
+my $s = "need a string in quotation marks";
 my %chars;
 
 my $pos = 0;
