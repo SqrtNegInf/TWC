@@ -46,12 +46,9 @@ use feature qw(signatures);
 no warnings 'experimental::signatures';
 
 
-
 sub trim_low ( $val, $arr ) { 
     return grep { $_ > $val } $arr->@*;
 }
-
-
 
 ## some tests
 say '( ', (join ', ', trim_low( 3, [1,4,2,3,5] )),     ' )';

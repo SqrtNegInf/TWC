@@ -2,10 +2,7 @@
 use v5.36;
 use strict;
 use warnings;
-##
-# You are given list of numbers, @n and an integer $i. Write a script to trim the given 
-# list when an element is less than or equal to the given integer.
-##
+
 sub trimmer{
     my($i) = @_;
     return sub{
