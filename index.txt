@@ -378,8 +378,8 @@ Challenge titles and Rosetta-code correspondences (exact, and otherwise)
 179-2 Unicode Sparkline                     S/Sparkline_in_unicode
 180-1 First Unique Character
 180-2 Trim List
-181-1
-181-2
+181-1 Sentence Order
+181-2 Hot Day
 182-1
 182-2
 183-1
