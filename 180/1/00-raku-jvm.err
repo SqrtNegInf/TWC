@@ -1,3 +1,7 @@
 Does not compute
   in block <unit> at 2colours.raku line 3
 
+java.lang.NullPointerException
+  in block  at gfldex.raku line 6
+  in block <unit> at gfldex.raku line 7
+

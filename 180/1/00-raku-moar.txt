@@ -32,6 +32,10 @@ ok 3 -
 ===> 180/1/deadmarshal.raku <===
 2 as 'k' is the first unique character
  
+===> 180/1/gfldex.raku <===
+P
+o
+ 
 ===> 180/1/jaldhar-h-vyas.raku <===
 2
  
