@@ -1,0 +1,64 @@
+ 
+===> 180/2/adam-russell.pl <===
+4, 5
+9, 6, 8, 5
+ 
+===> 180/2/arne-sommer.pl <===
+(9,6,8,104)
+ 
+===> 180/2/athanasius.pl <===
+Input:  @n = (1, 9, 0, 6, 2, 3, 8, 5, 104) and $i = 5
+Output: (9, 6, 8, 104)
+ 
+===> 180/2/aut0exec.pl <===
+Filtered list is: 9,6,8,104 
+ 
+===> 180/2/bejoy-mathews.pl <===
+9,6,8,5
+ 
+===> 180/2/colin-crain.pl <===
+( 4, 5 )
+( 9, 6, 8, 5 )
+ 
+===> 180/2/dave-jacoby.pl <===
+    Input:  @n = (1,4,2,3,5) and $i = 3
+    Output: (4,5)
+
+    Input:  @n = (9,0,6,2,3,8,5) and $i = 4
+    Output: (9,6,8,5)
+
+ 
+===> 180/2/jaldhar-h-vyas.pl <===
+
+ 
+===> 180/2/jo-37.pl <===
+# Seeded srand with seed '1' from import arg.
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 1 - modified array
+ok 4 - example 2 - modified array
+1..4
+ 
+===> 180/2/mohammad-anwar.pl <===
+# Seeded srand with seed '1' from import arg.
+ok 1 - Example 1
+ok 2 - Example 2
+1..2
+ 
+===> 180/2/perlboy1967.pl <===
+ok 1
+ok 2
+ok 3
+ok 4
+1..4
+ 
+===> 180/2/polettix.pl <===
+(4,5)
+ 
+===> 180/2/robert-dicicco.pl <===
+Input: @n = (1 4 2 3 5) and $i = 3
+4 3 5
+
+Input: @n = (9 0 6 2 3 8 5) and $i = 4
+9 6 8 5
+

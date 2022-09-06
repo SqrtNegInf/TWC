@@ -1,21 +1,5 @@
 #!/usr/bin/env perl
 
-=pod
-
-The Weekly Challenge - 180
- - https://theweeklychallenge.org/blog/perl-weekly-challenge-180/#TASK2
-
-Author: Niels 'PerlBoy' van Dijke
-
-Task 2: Trim List
-Submitted by: Mohammad S Anwar
-
-You are given list of numbers, @n and an integer $i.
-
-Write a script to trim the given list where element is less than or equal to the given integer.
-
-=cut
-
 use v5.16;
 use warnings;
 
