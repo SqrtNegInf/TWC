@@ -1,0 +1,75 @@
+ 
+===> 181/1/0rir.raku <===
+about All all could end he how it think was would. a anyone
+basics bit but equation, for in of see still the the There
+there to uncertainty was were. anywhere be he how it matter
+much No positive, see seen the to to tried wasn't. and be
+coming end going it pretty The to was wasn't.
+ 
+===> 181/1/2colours.raku <===
+about all All could end he how it think was would. a anyone
+    basics bit but equation, for in of see still the the
+    there There to uncertainty was were. anywhere be he how it matter much
+    No positive, see seen the to to tried wasn't. and be coming
+    end going it pretty The to was wasn't.
+ 
+===> 181/1/arne-sommer.raku <===
+about All all could end he how it think was would. a anyone basics bit but equation, for in of see still the the There there to uncertainty was were. anywhere be he how it matter much No positive, see seen the to to tried wasn't. and be coming end going it pretty The to was wasn't. 
+ 
+===> 181/1/athanasius.raku <===
+ok 1 - Example
+ok 2 - Quick brown fox
+ok 3 - Conversation
+ok 4 - Woodchuck
+ok 5 - 5th day of Christmas
+1..5
+ 
+===> 181/1/ben-davies.raku <===
+about All all could end he how it think was would. a anyone basics bit but equation, for in of see still the the There there to uncertainty was were. anywhere be he how it matter much No positive, see seen the to to tried wasn't. and be coming end going it pretty The to was wasn't.
+ 
+===> 181/1/jaldhar-h-vyas.raku <===
+about All all could end he how it think was would. a anyone 
+basics bit but equation, for in of see still the the There 
+there to uncertainty was were. anywhere be he how it matter 
+much No positive, see seen the to to tried wasn't. and be 
+coming end going it pretty The to was wasn't. 
+ 
+===> 181/1/laurent-rosenfeld.raku <===
+about All all could end he how it think was would.  a anyone 
+basics bit but equation, for in of see still the the There 
+there to uncertainty was were.  anywhere be he how it matter 
+much No positive, see seen the to to tried wasn't.  and 
+be coming end going it pretty The to was wasn't. 
+ 
+===> 181/1/mark-anderson.raku <===
+about All all could end he how it think was would. a anyone basics bit but equation, for in of see still the the There there to uncertainty was were. anywhere be he how it matter much No positive, see seen the to to tried wasn't. and be coming end going it pretty The to was wasn't. 
+ 
+===> 181/1/massa.raku <===
+1..1
+ok 1 - 
+ 
+===> 181/1/polettix.raku <===
+about All all could end he how it think was would. a anyone basics bit but equation, for in of see still the the There there to uncertainty was were. anywhere be he how it matter much No positive, see seen the to to tried wasn't. and be coming end going it pretty The to was wasn't. 
+ 
+===> 181/1/robert-dicicco.raku <===
+ about All all could end he how it think was would.
+ a anyone basics bit but equation, for in of see still the the There there to uncertainty was were.
+ anywhere be he how it matter much No positive, see seen the to to tried wasn't.
+ and be coming end going it pretty The to was wasn't.
+.
+ 
+===> 181/1/roger-bell-west.raku <===
+about All all could end he how it think was would. a anyone basics bit
+but equation for in of see still the the There there to uncertainty was
+were. anywhere be he how it matter much No positive see seen the to to
+tried wasn't. and be coming end going it pretty The to was wasn't.
+ 
+===> 181/1/steve-g-lynn.raku <===
+about All all could end he how it think was would. a anyone basics bit but equation, for in of see still the the There there to uncertainty was were. anywhere be he how it matter much No positive, see seen the to to tried wasn't. and be coming end going it pretty. The to was wasn't. 
+ 
+===> 181/1/ulrich-rieke.raku <===
+about All all could end he how it think was would. a anyone
+basics bit but equation, for in of see still the the There
+there to uncertainty was were. anywhere be he how it matter
+much No positive, see seen the to to tried wasn't. and
+be coming end going it pretty The to was wasn't.

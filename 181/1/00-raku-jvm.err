@@ -1,0 +1,24 @@
+[31m===[0mSORRY![31m===[0m Error while compiling /Users/dhoekman/PWC/181/1/0rir.raku
+An exception occurred while evaluating a BEGIN
+at /Users/dhoekman/PWC/181/1/0rir.raku:3
+Exception details:
+  not ok - disabled: JVM cannot handle "uniprop" in module
+    in code  at 0rir.raku line 3
+
+infix coll on JVM not yet implemented. Sorry.
+  in method sentence at 2colours.raku line 15
+  in regex sentence at 2colours.raku line 5
+  in regex TOP at 2colours.raku line 4
+  in block <unit> at 2colours.raku line 32
+
+java.util.regex.PatternSyntaxException: Unknown character property name {In/IsSentence_Terminal} near index 20
+\p{Sentence_Terminal}
+                    ^
+  in regex  at ben-davies.raku line 7
+  in code  at ben-davies.raku line 7
+  in sub MAIN at ben-davies.raku line 5
+  in block <unit> at ben-davies.raku line 3
+
+Unexpected named argument 'width' passed
+  in block <unit> at mark-anderson.raku line 6
+
