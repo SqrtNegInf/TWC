@@ -4,10 +4,6 @@ use strict;
 use warnings;
 use Lingua::EN::Sentence qw/get_sentences/;
 
-# AUTHOR: Robert DiCicco
-# 2022-09-05
-# Challenge # 181 Sentence Order ( Perl )
-
 my $text = q{
 All he could think about was how it would all end.
 There was still a bit of uncertainty in the equation, but the basics were there for anyone to see.

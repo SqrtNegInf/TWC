@@ -1,7 +1,4 @@
 #!/usr/bin/env perl
- # THE WEEKLY CHALLENGE - 181
- # Task 1: Sentence Order
- # Autore: Dario Mazzeo
 
  my $testo="All he could think about was how it would all end. There was
  still a bit of uncertainty in the equation, but the basics

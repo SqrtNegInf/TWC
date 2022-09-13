@@ -1,11 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
-use strict;
-use warnings;
-##
-# You are given a paragraph. Write a script to order each sentence alphanumerically and 
-# print the whole paragraph.
-##
+
 sub sort_paragraph{
     my($paragraph) = @_;
     my @sentences = split(/\./, $paragraph); 

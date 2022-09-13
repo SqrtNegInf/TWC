@@ -1,0 +1,124 @@
+ 
+===> 181/1/adam-russell.pl <===
+about All all could end he how it think was would. a anyone basics bit but equation, for in of see still the the There there to uncertainty was were. anywhere be he how it matter much No positive, see seen the to to tried wasn't. and be coming end going it pretty The to was wasn't. 
+===> 181/1/arne-sommer.pl <===
+about All all could end he how it think was would.  a anyone basics bit but equation, for in of see still the the There there to uncertainty was were.  anywhere be he how it matter much No positive, see seen the to to tried wasn't.  and be coming end going it pretty The to was wasn't. 
+ 
+===> 181/1/athanasius.pl <===
+ok 1 - Example
+ok 2 - Quick brown fox
+ok 3 - Conversation
+ok 4 - Woodchuck
+ok 5 - 5th day of Christmas
+1..5
+ 
+===> 181/1/colin-crain.pl <===
+about All all could end he how it think was would. a anyone basics bit but equation, for in of see still the the There there to uncertainty was were. anywhere be he how it matter much No positive, see seen the to to tried wasn't. and be coming end going it pretty The to was wasn't.
+ 
+===> 181/1/dario-mazzeo.pl <===
+about All all could end he how it think was would. a anyone basics bit but equation, for in of see still the the There there to uncertainty was were. anywhere be he how it matter much No positive, see seen the to to tried wasn't. and be coming end going it pretty The to was wasn't. 
+ 
+===> 181/1/dave-jacoby.pl <===
+All he could think about was how it would all end. There was
+still a bit of uncertainty in the equation, but the basics
+were there for anyone to see. No matter how much he tried to
+see the positive, it wasn't anywhere to be seen. The end was
+coming and it wasn't going to be pretty. 
+
+ 
+about All all could end he how it think was would. a anyone
+basics bit but equation, for in of see still the the There
+there to uncertainty was were. anywhere be he how it matter
+much No positive, see seen the to to tried wasn't. and be
+coming end going it pretty The to was wasn't.
+ 
+===> 181/1/e-choroba.pl <===
+1..1
+ok 1
+ 
+===> 181/1/jaldhar-h-vyas.pl <===
+about All all could end he how it think was would. a anyone 
+basics bit but equation, for in of see still the the There 
+there to uncertainty was were. anywhere be he how it matter 
+much No positive, see seen the to to tried wasn't. and be 
+coming end going it pretty The to was wasn't. 
+ 
+===> 181/1/james-smith.pl <===
+about All all could end he how it think was would. a anyone basics bit but equation, for in of see still the the There there to uncertainty was were. anywhere be he how it matter much No positive, see seen the to to tried wasn't. and be coming end going it pretty The to was wasn't.
+ 
+===> 181/1/jo-37.pl <===
+# Seeded srand with seed '1' from import arg.
+ok 1 - example
+ok 2 - ignore non-alphanumeric characters
+ok 3 - order by case
+ok 4 - alphanumeric
+1..4
+ 
+===> 181/1/laurent-rosenfeld.pl <===
+about All all could end he how it think was would.  a anyone 
+basics bit but equation, for in of see still the the There 
+there to uncertainty was were.  anywhere be he how it matter 
+much No positive, see seen the to to tried wasn't.  and 
+be coming end going it pretty The to was wasn't. 
+ 
+===> 181/1/mohammad-anwar.pl <===
+about All all could end he how it think was would. a anyone basics bit but equation, for in of see still the the There there to uncertainty was were. anywhere be he how it matter much No positive, see seen the to to tried wasn't. and be coming end going it pretty. The to was wasn't.
+ 
+===> 181/1/perlboy1967.pl <===
+Input:
+All he could think about was how it would all end. There was
+still a bit of uncertainty in the equation, but the basics
+were there for anyone to see. No matter how much he tried to
+see the positive, it wasn't anywhere to be seen. The end was
+coming and it wasn't going to be pretty.
+
+Output:
+about All all could end he how it think was would. a anyone
+basics bit but equation, for in of see still the the
+There there to uncertainty was were. anywhere be he how it matter much
+No positive, see seen the to to tried wasn't. and be coming
+end going it pretty The to was wasn't.
+ 
+===> 181/1/peter-campbell-smith.pl <===
+about All all could end he how it think was would. a anyone 
+basics bit but equation for in of see still the the There 
+there to uncertainty was were. anywhere be he how it matter 
+much No positive see seen the to to tried wasn't. and be 
+coming end going it pretty The to was wasn't. 
+ 
+===> 181/1/polettix.pl <===
+about All all could end he how it think was would. a anyone basics bit but equation, for in of see still the the There there to uncertainty was were. anywhere be he how it matter much No positive, see seen the to to tried wasn't. and be coming end going it pretty The to was wasn't.
+
+ 
+===> 181/1/robert-dicicco.pl <===
+about All all could end he how it think was would.
+a anyone basics bit but equation, for in of see still the the There there to uncertainty was were.
+anywhere be he how it matter much No positive, see seen the to to tried wasn't.
+and be coming end going it pretty The to was wasn't.
+ 
+===> 181/1/roger-bell-west.pl <===
+about All all could end he how it think was would. a anyone basics bit
+but equation for in of see still the the There there to uncertainty was
+were. anywhere be he how it matter much No positive see seen the to to
+tried wasn't. and be coming end going it pretty The to was wasn't.
+ 
+===> 181/1/steve-g-lynn.pl <===
+about All all could end he how it think was would. a anyone basics bit but equation, for in of see still the the There there to uncertainty was were. anywhere be he how it matter much No positive, see seen the to to tried wasn't. and be coming end going it pretty. The to was wasn't. 
+ 
+===> 181/1/steven-wilson.pl <===
+about All all could end he how it think was would.  a anyone basics bit but equation, for in of see still the the There there to uncertainty was were.  anywhere be he how it matter much No positive, see seen the to to tried wasn't.  and be coming end going it pretty The to was wasn't.
+ 
+===> 181/1/ulrich-rieke.pl <===
+about All all could end he how it think was would.a anyone
+basics bit but equation, for in of see still the the There
+there to uncertainty was were.anywhere be he how it matter
+much No positive, see seen the to to tried wasn't.and be
+coming end going it pretty The to was wasn't.
+ 
+===> 181/1/wlmb.pl <===
+about All all could end he how it think was would.  a anyone
+basics bit but equation, for in of see still the the There
+there to uncertainty was were.	anywhere be he how it matter
+much No positive, see seen the to to tried wasn't.  and be
+coming end going it pretty The to was wasn't. 
+

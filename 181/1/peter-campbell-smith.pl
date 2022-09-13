@@ -1,16 +1,8 @@
 #!/usr/bin/env perl
 
-# Peter Campbell Smith - 2022-09-05
-# PWC 181 task 1
-
 use v5.28;
 use utf8;
 use warnings;
-
-# You are given a paragraph. Write a script to order each sentence alphanumerically 
-# and print the whole paragraph.
-
-# Blog: https://pjcs-pwc.blogspot.com/2022/09/alphabetical-and-days-hotter-sentences.html
 
 my ($input, $sentence, @words, $line_length, $word, $paragraph);
 

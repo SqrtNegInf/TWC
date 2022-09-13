@@ -1,19 +1,5 @@
 #!/usr/bin/env perl
 
-=head1
-
-Week 181:
-
-    https://theweeklychallenge.org/blog/perl-weekly-challenge-181
-
-Task #1: Sentence Order
-
-    You are given a paragraph.
-
-    Write a script to order each sentence alphanumerically and print the whole paragraph.
-
-=cut
-
 use v5.36;
 
 $_ = <<~ 'PARAGRAPH';

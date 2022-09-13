@@ -118,11 +118,7 @@
 use warnings;
 use strict;
 use utf8;
-use feature ":5.26";
-use feature qw(signatures);
-no warnings 'experimental::signatures';
-
-
+use v5.36;
 
 my $input = q(All he could think about was how it would all end. There was still a bit of uncertainty in the equation, but the basics were there for anyone to see. No matter how much he tried to see the positive, it wasn't anywhere to be seen. The end was coming and it wasn't going to be pretty.);
 
@@ -133,18 +129,3 @@ while (my ($sent, $punct) = splice @sentences, 0, 2) {
     print "@w", $punct;
 }
 say '';
-
-
-
-
-
-
-
-
-
-
-# use Test::More;
-# 
-# is 
-# 
-# done_testing();

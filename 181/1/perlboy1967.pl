@@ -1,23 +1,9 @@
 #!/usr/bin/env perl
 
-=pod
-
-The Weekly Challenge - 181
- - https://theweeklychallenge.org/blog/perl-weekly-challenge-181/#TASK1
-
-Author: Niels 'PerlBoy' van Dijke
-
-Task 2: You are given a paragraph.
-
-Write a script to order each sentence alphanumerically and print the whole paragraph.
-
-=cut
-
 use v5.16;
 use warnings;
 
 use Data::Printer;
-
 
 sub reorderWords ($) {
   my ($s) = @_;
