@@ -1,22 +1,8 @@
 #!/usr/bin/env perl
 
-=head1
-
-Week 181:
-
-    https://theweeklychallenge.org/blog/perl-weekly-challenge-181
-
-Task #2: Hot Day
-
-    You are given file with daily temperature record in random order.
-
-    Write a script to find out days hotter than previous day.
-
-=cut
-
 use v5.36;
 
-my $IN = $ARGV[0];
+my $IN = 'temperature.txt';
 open (my $FILE, "<", $IN) or die "$!\n";
 my @data = <$FILE>;
 close $FILE;

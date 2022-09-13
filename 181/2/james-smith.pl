@@ -12,7 +12,7 @@ my @TESTS = (
   [ 0, 1 ],
 );
 
-say $_ for hot_day( get_file( 'temp.txt' ) );
+say $_ for hot_day( get_file( 'temperature.txt' ) );
 
 sub get_file {
   open my $fh, q(<), $_[0];

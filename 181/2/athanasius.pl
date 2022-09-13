@@ -72,14 +72,6 @@ const my $USAGE =>
 
     <file>    File with daily temperature records\n";
 
-#------------------------------------------------------------------------------
-BEGIN
-#------------------------------------------------------------------------------
-{
-    $| = 1;
-    print "\nChallenge 181, Task #2: Hot Day (Perl)\n\n";
-}
-
 #==============================================================================
 MAIN:
 #==============================================================================
@@ -147,10 +139,7 @@ sub make_date_objects
 sub read_file
 #------------------------------------------------------------------------------
 {
-    my $args = scalar @ARGV;
-       $args == 1 or error( "Found $args command line arguments, expected 1" );
-
-    my $file = $ARGV[ 0 ];
+    my $file = 'temperature.txt';
     -e $file      or error( qq[File "$file" not found] );
 
     open my $fh, '<', $file

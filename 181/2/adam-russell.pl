@@ -1,11 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
-use strict;
-use warnings;
-##
-# You are given file with daily temperature record in random order.
-# Write a script to find out days hotter than previous day.
-##
+
 use DBI;
 use Text::CSV;
 use Time::Piece;

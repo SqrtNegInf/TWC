@@ -9,7 +9,8 @@ use Date::Parse;
 use DateTime;
 
 my %temps;
-while(<>){ # Input data from standard input in format YYYY-MM-DD, Temp
+open my $fh, '<', 'temperature.txt';
+while($_= <$fh>){ # Input data from standard input in format YYYY-MM-DD, Temp
     chomp;
     my ($date, $temp)=split ", ";
     $temps{$date}=$temp;

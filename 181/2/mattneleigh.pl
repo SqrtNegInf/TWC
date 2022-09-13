@@ -4,14 +4,11 @@ use strict;
 use warnings;
 use English;
 
-################################################################################
-# Begin main execution
-################################################################################
-
 my @data;
 
 # Read data from STDIN
-while(<>){
+open my $fh, '<', 'temperature.txt';
+while($_ = <$fh>){
     # Strip trailing newline; skip
     # blank lines
     chomp;
@@ -34,11 +31,3 @@ for my $i (1 .. $#data){
     print($data[$i][0], "\n")
         if($data[$i][1] > $data[$i - 1][1]);
 }
-
-exit(0);
-################################################################################
-# End main execution; subroutines follow
-################################################################################
-
-
-

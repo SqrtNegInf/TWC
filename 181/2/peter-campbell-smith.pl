@@ -1,16 +1,8 @@
 #!/usr/bin/env perl
 
-# Peter Campbell Smith - 2022-09-05
-# PWC 181 task 2
-
 use v5.28;
 use utf8;
 use warnings;
-
-# You are given file with daily temperature record in random order.
-# Write a script to find out days hotter than previous day.
-
-# Blog: https://pjcs-pwc.blogspot.com/2022/09/alphabetical-and-days-hotter-sentences.html
 
 my ($line, %input, $day, $yesterday);
 

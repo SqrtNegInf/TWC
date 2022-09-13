@@ -5,10 +5,6 @@ use warnings;
 use DateTime;
 use feature qw/say/;
 
-# AUTHOR: Robert DiCicco
-# DATE: 2022-09-06
-# Challenge # 181  Hot Day ( Perl )
-
 my %daytemps;
 
 sub setupHashArray {

@@ -3,7 +3,7 @@
 use strict;
 use Date::Manip;
 
-open TEMPERATURE, "../temperature.txt" || die "TEMPERATURE:$!\n";
+open TEMPERATURE, "temperature.txt" || die "TEMPERATURE:$!\n";
 
 my %temperature;
 
