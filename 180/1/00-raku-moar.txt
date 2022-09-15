@@ -33,8 +33,8 @@ ok 3 -
 2 as 'k' is the first unique character
  
 ===> 180/1/gfldex.raku <===
-P
-o
+Nil
+Nil
  
 ===> 180/1/jaldhar-h-vyas.raku <===
 2
