@@ -380,8 +380,8 @@ Challenge titles and Rosetta-code correspondences (exact, and otherwise)
 180-2 Trim List
 181-1 Sentence Order
 181-2 Hot Day
-182-1
-182-2
+182-1 Max Index
+182-2 Common Path                           F/Find_common_directory_path
 183-1
 183-2
 184-1

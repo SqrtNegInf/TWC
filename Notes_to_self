@@ -1,3 +1,6 @@
+2022-09-15
+'180/1/gfldex.raku' breaks with v2022.07-37-gd0ec99a86 (commit d0ec99a861)
+
 2022-08-31
 Thinned the tasks this week pretty aggresively, not much variation in implementation (and not very many submitted to begin with).
 
