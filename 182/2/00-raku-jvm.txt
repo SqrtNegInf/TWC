@@ -1,0 +1,79 @@
+ 
+===> 182/2/0rir.raku <===
+1..15
+ok 1 - longest-common-prefix
+ok 2 - longest-common-prefix
+ok 3 - longest-common-prefix
+ok 4 - longest-common-prefix
+ok 5 - longest-common-prefix
+ok 6 - longest-common-prefix
+ok 7 - longest-common-prefix
+ok 8 - common-path
+ok 9 - common-path
+ok 10 - common-path
+ok 11 - Dies on /a//b/c/e/2/x.pl
+ok 12 - Dies on /a/b/c/e/2/../x.pl
+ok 13 - Dies on /a/b/c/e/2/x.pl
+ok 14 - Dies on /a/b/c/e/2/./x.pl
+ok 15 - Dies on /a/b/c/e/2/..//./x.pl
+ 
+===> 182/2/2colours.raku <===
+/a/b/c
+ 
+===> 182/2/arne-sommer.raku <===
+/a/b/c
+ 
+===> 182/2/athanasius.raku <===
+Input (file "paths.txt"):
+    /a/b/c/1/x.pl
+    /a/b/c/d/e/2/x.pl
+    /a/b/c/d/3/x.pl
+    /a/b/c/4/x.pl
+    /a/b/c/d/5/x.pl
+
+Output:
+    /a/b/c/
+ 
+===> 182/2/jaldhar-h-vyas.raku <===
+/a/b/c
+ 
+===> 182/2/laurent-rosenfeld.raku <===
+/a/b/c
+ 
+===> 182/2/luca-ferrari.raku <===
+/a/b/c
+ 
+===> 182/2/mark-anderson.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ok 4 - 
+ok 5 - 
+ 
+===> 182/2/polettix.raku <===
+/a/b/c
+ 
+===> 182/2/robert-dicicco.raku <===
+Input:
+	/a/b/c/1/x.pl
+	/a/b/c/d/e/2/x.pl
+	/a/b/c/d/3/x.pl
+	/a/b/c/4/x.pl
+	/a/b/c/d/5/x.pl
+Output:
+	/a/b/c
+ 
+===> 182/2/roger-bell-west.raku <===
+1..1
+ok 1 - example 1
+ 
+===> 182/2/steve-g-lynn.raku <===
+/a/b/c/
+ 
+===> 182/2/ulrich-rieke.raku <===
+/a/b/c/
+ 
+===> 182/2/wambash.raku <===
+ok 1 - 
+ok 2 - 
+1..2
