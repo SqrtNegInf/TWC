@@ -1,0 +1,54 @@
+ 
+===> 182/1/0rir.raku <===
+Input: @n = ( 4, 2, 3, 1, 5, 0)
+Output: 4 (as element 5 is the the biggest number)
+ 
+===> 182/1/2colours.raku <===
+Output: 2
+ 
+===> 182/1/arne-sommer.raku <===
+2
+ 
+===> 182/1/athanasius.raku <===
+Input:  @n = (1, 2, 4, 2, 4, 1)
+Output: 2 (as 4, the 3rd element in the list, is the largest)
+ 
+===> 182/1/jaldhar-h-vyas.raku <===
+2
+ 
+===> 182/1/laurent-rosenfeld.raku <===
+5 2 9 1 7 6 : (2 => 9)
+4 2 3 1 5 0 : (4 => 5)
+ 
+===> 182/1/luca-ferrari.raku <===
+4
+ 
+===> 182/1/mark-anderson.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ 
+===> 182/1/massa.raku <===
+2
+2
+ 
+===> 182/1/polettix.raku <===
+2
+ 
+===> 182/1/robert-dicicco.raku <===
+Input: @n = (5 2 9 1 7 6 9)
+Output: 6
+ 
+===> 182/1/roger-bell-west.raku <===
+1..3
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ 
+===> 182/1/ulrich-rieke.raku <===
+2
+ 
+===> 182/1/wambash.raku <===
+ok 1 - 
+ok 2 - 
+1..2
