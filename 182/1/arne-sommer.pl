@@ -4,7 +4,7 @@ use strict;
 use warnings;
 use feature 'say';
 
-my @n = @ARGV;
+my @n = (5, 2, 9, 1, 7, 6, 9);
 
 my $max   = $n[0];
 my $index = 0;

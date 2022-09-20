@@ -1,0 +1,92 @@
+ 
+===> 182/1/adam-russell.pl <===
+2
+4
+ 
+===> 182/1/arne-sommer.pl <===
+2
+ 
+===> 182/1/athanasius.pl <===
+Input:  @n = (5, 2, 9, 1, 7, 6, 9)
+Output: 2 (as 9, the 3rd element in the list, is the largest)
+ 
+===> 182/1/aut0exec.pl <===
+Largest value in @n1 is at position: 2
+Largest value in @n2 is at position: 6
+ 
+===> 182/1/cheok-yin-fung.pl <===
+2
+ 
+===> 182/1/colin-crain.pl <===
+array[3] = 13
+ 
+===> 182/1/dario-mazzeo.pl <===
+2
+ 
+===> 182/1/e-choroba.pl <===
+1..3
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Repeated
+ 
+===> 182/1/james-smith.pl <===
+ok 1
+ok 2
+ok 3
+ok 4
+ok 5
+ok 6
+ok 7
+ok 8
+ok 9
+ok 10
+ok 11
+ok 12
+ok 13
+ok 14
+ok 15
+ok 16
+1..16
+ 
+===> 182/1/kjetillll.pl <===
+2
+ 
+===> 182/1/kueppo-wesley.pl <===
+ok 1 - find the index of the first biggest number in the list
+1..1
+ 
+===> 182/1/laurent-rosenfeld.pl <===
+5 2 9 1 7 6 9 : 2 => 9
+4 2 3 1 5 0 : 4 => 5
+ 
+===> 182/1/mohammad-anwar.pl <===
+# Seeded srand with seed '1' from import arg.
+ok 1 - Example 1
+ok 2 - Example 2
+1..2
+ 
+===> 182/1/peter-campbell-smith.pl <===
+
+Input:  (5, 2, 9, 1, 7, 6, 9)
+Output: 2 (largest value = 9)
+
+Input:  (4, 2, 3, 1, 5, 0)
+Output: 4 (largest value = 5)
+
+Input:  (1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20)
+Output: 19 (largest value = 20)
+
+Input:  (-2, -7, -10, -5, -14)
+Output: 0 (largest value = -2)
+ 
+===> 182/1/polettix.pl <===
+2
+ 
+===> 182/1/roger-bell-west.pl <===
+1..3
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ 
+===> 182/1/solathian.pl <===
+Output: 2 (as 3rd in the list is the greatest number)

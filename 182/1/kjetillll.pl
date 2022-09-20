@@ -1,7 +1,8 @@
 #!/usr/bin/env perl
-#run like: perl ch-1.pl 4 2 3 1 5 0
-use List::Util 'max'; use List::MoreUtils 'firstidx'; use warnings; use strict; use v5.10;
 
-my $max = max(@ARGV);
+use v5.36;
+use List::AllUtils <max firstidx>;
 
-say firstidx { $_ == $max } @ARGV;
+my $max = max(5, 2, 9, 1, 7, 6, 9);
+
+say firstidx { $_ == $max } (5, 2, 9, 1, 7, 6, 9);

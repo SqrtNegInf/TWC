@@ -22,13 +22,6 @@ is( max_index_var(@{$_->[0]}), $_->[1] ) foreach @TESTS;
 
 done_testing();
 
-cmpthese( 10000, { 'index' => sub { max_index(    @{$_->[0]}) for @TESTS[2]; }, 'var'   => sub { max_index_var(@{$_->[0]}) for @TESTS[2]; }, });
-cmpthese( 10000, { 'index' => sub { max_index(    @{$_->[0]}) for @TESTS[3]; }, 'var'   => sub { max_index_var(@{$_->[0]}) for @TESTS[3]; }, });
-cmpthese( 10000, { 'index' => sub { max_index(    @{$_->[0]}) for @TESTS[4]; }, 'var'   => sub { max_index_var(@{$_->[0]}) for @TESTS[4]; }, });
-cmpthese( 10000, { 'index' => sub { max_index(    @{$_->[0]}) for @TESTS[5]; }, 'var'   => sub { max_index_var(@{$_->[0]}) for @TESTS[5]; }, });
-cmpthese( 10000, { 'index' => sub { max_index(    @{$_->[0]}) for @TESTS[6]; }, 'var'   => sub { max_index_var(@{$_->[0]}) for @TESTS[6]; }, });
-cmpthese( 10000, { 'index' => sub { max_index(    @{$_->[0]}) for @TESTS[7]; }, 'var'   => sub { max_index_var(@{$_->[0]}) for @TESTS[7]; }, });
-
 sub max_index {
   return unless @_;
   my $m=0;

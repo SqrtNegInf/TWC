@@ -1,29 +1,8 @@
 #!/usr/bin/env perl
 
-# Created for perl weekly challenge - 182 - 1
-
-# You are given a list of integers.
-
-# Write a script to find the index of the first biggest number in the list.
-
 use strict;
 use warnings;
 use Lingua::EN::Numbers::Ordinate;
-
-# sample calls
-
-# my @sampleArray = (5, 2, 9, 1, 7, 6);
-# maxIndex(\@sampleArray);
-
-# my @sampleArray = (4, 2, 3, 1, 5, 0);
-# maxIndex(\@sampleArray);
-
-# my @sampleArray = (4, 2, 3, 5, 5, 0);
-# maxIndex(\@sampleArray);
-
-# my @sampleArray = (12, 12, 3, 5, 5, 0);
-# maxIndex(\@sampleArray);
-
 
 sub maxIndex
 {
@@ -44,3 +23,6 @@ sub maxIndex
     }
 
 }
+
+my @sampleArray = (5, 2, 9, 1, 7, 6, 9);
+maxIndex(\@sampleArray);
