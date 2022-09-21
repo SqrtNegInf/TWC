@@ -1,16 +1,8 @@
 #!/usr/bin/env perl
 
-# Peter Campbell Smith - 2022-09-15
-# PWC 182 task 2
-
 use v5.28;
 use utf8;
 use warnings;
-
-# Given a list of absolute Linux file paths, determine the deepest path to the directory that 
-# contains all of them.
-
-# Blog: https://pjcs-pwc.blogspot.com/2022/09/find-biggest-and-deepest.html
 
 common_folder(
  qw[/a/b/c/1/x.pl

@@ -2,10 +2,7 @@
 use v5.36;
 use strict;
 use warnings;
-##
-# Given a list of absolute Linux file paths, determine the 
-# deepest path to the directory that contains all of them.
-##
+
 sub deepest_path{
     my(@paths) = @_;
     my @sub_paths = map { [split(/\//, $_)] } @paths; 

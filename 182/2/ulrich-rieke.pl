@@ -3,7 +3,7 @@ use strict ;
 use warnings ;
 use feature 'say' ;
 
-open ( my $fh , '< inputfiles.txt' ) or die "Can't open inputfiles.txt !\n" ;
+open ( my $fh , '< paths.txt' ) or die "Can't open inputfiles.txt !\n" ;
 my @input ;
 while ( my $line = <$fh> ) {
   chomp $line ;

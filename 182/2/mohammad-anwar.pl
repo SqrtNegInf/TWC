@@ -1,18 +1,5 @@
 #!/usr/bin/env perl
 
-=head1
-
-Week 182:
-
-    https://theweeklychallenge.org/blog/perl-weekly-challenge-182
-
-Task #2: Common Path
-
-    Given a list of absolute Linux file paths, determine the deepest
-    path to the directory that contains all of them.
-
-=cut
-
 use v5.36;
 use Test2::V0 -srand => 1;
 

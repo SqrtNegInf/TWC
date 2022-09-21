@@ -1,17 +1,4 @@
 #!/usr/bin/env perl
-#
-# Given a list of absolute Linux file paths, determine the deepest path to the directory that contains all of them.
-# Example
-# Input:
-#    /a/b/c/1/x.pl
-#    /a/b/c/d/e/2/x.pl
-#    /a/b/c/d/3/x.pl
-#    /a/b/c/4/x.pl
-#    /a/b/c/d/5/x.pl
-#
-# Ouput:
-#    /a/b/c
-#
 
 use strict;
 use warnings;

@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
 
-#-- this script uses lexical variables only
-
 use v5.36;
 
 my @input=(

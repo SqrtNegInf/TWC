@@ -66,11 +66,11 @@ use feature qw(signatures);
 no warnings 'experimental::signatures';
 
 my @files = qw(
-                /a/b/c/1/x.pl
-                /a/b/c/d/e/2/x.pl
-                /a/b/c/d/3/x.pl
-                /a/b/c/4/x.pl
-                /a/b/c/d/5/x.pl                 
+                /a/b/c/1/a.pl
+                /a/b/c/d/e/2/b.pl
+                /a/b/c/d/3/c.pl
+                /a/b/c/4/d.pl
+                /a/b/c/d/5/e.pl                 
             );
 
 my $common = '';
@@ -84,6 +84,3 @@ LOOP: while () {
 }
 
 say $common;
-
-
-

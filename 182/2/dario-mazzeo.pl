@@ -1,7 +1,4 @@
 #!/usr/bin/env perl
-# THE WEEKLY CHALLENGE - 182
-# Task 2: Common Path
-# Autore: Dario Mazzeo
 
 my @in = ("/a/b/c/1/x.pl", "/a/b/c/d/e/2/x.pl", "/a/b/c/d/3/x.pl", "/a/b/c/4/x.pl", "/a/b/c/d/5/x.pl");
 

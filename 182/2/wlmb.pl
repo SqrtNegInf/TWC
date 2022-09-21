@@ -1,14 +1,11 @@
 #!/usr/bin/env perl
-# Perl weekly challenge 182
-# Task 2:  Common Path
-#
-# See https://wlmb.github.io/2022/09/12/PWC182/#task-2-common-path
+
 use v5.36;
 use List::Util qw(all);
 use List::MoreUtils qw(zip6);
 use Cwd qw(getcwd);
 my $dirs;
-while(<>){
+while(<DATA>){
     canonical($_);
     my @parts=split '/';
     pop @parts;   # remove non-directory or empty at end
@@ -34,3 +31,10 @@ sub trim($previous, @current){
         zip6 @$previous, @current;
     return \@new;
 }
+
+__DATA__
+/a/b/c/1/x.pl
+/a/b/c/d/e/2/x.pl
+/a/b/c/d/3/x.pl
+/a/b/c/4/x.pl
+/a/b/c/d/5/x.pl

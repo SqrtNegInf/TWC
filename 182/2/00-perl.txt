@@ -1,0 +1,132 @@
+ 
+===> 182/2/adam-russell.pl <===
+/a/b/c
+ 
+===> 182/2/arne-sommer.pl <===
+/a/b/c
+ 
+===> 182/2/athanasius.pl <===
+Input (file "paths.txt"):
+    /a/b/c/1/x.pl
+    /a/b/c/d/e/2/x.pl
+    /a/b/c/d/3/x.pl
+    /a/b/c/4/x.pl
+    /a/b/c/d/5/x.pl
+
+Output:
+    /a/b/c/
+ 
+===> 182/2/aut0exec.pl <===
+Path match is: /a/b/c/
+
+ 
+===> 182/2/cheok-yin-fung.pl <===
+/a/b/c
+ 
+===> 182/2/colin-crain.pl <===
+/a/b/c
+ 
+===> 182/2/dario-mazzeo.pl <===
+/a/b/c/
+ 
+===> 182/2/e-choroba.pl <===
+1..5
+ok 1 - Example
+ok 2 - Prefix boundary not on /
+ok 3 - Empty
+ok 4 - Difference in the final slash
+ok 5 - Same
+ 
+===> 182/2/james-smith.pl <===
+ok 1
+ok 2
+ok 3
+ok 4
+ok 5
+ok 6
+ok 7
+ok 8
+ok 9
+ok 10
+ok 11
+ok 12
+1..12
+ 
+===> 182/2/jo-37.pl <===
+# Seeded srand with seed '1' from import arg.
+ok 1 - example
+ok 2 - common root
+ok 3 - no trailing slahses
+ok 4 - empty file name
+ok 5 - partial name match
+ok 6 - newline in filename
+ok 7 - newline in dirname
+ok 8 - newline in common dirname
+1..8
+ 
+===> 182/2/kjetillll.pl <===
+/a/b/c/
+ 
+===> 182/2/kueppo-wesley.pl <===
+ok 1 - is '/a/b/c' the deepest path?
+1..1
+ 
+===> 182/2/laurent-rosenfeld.pl <===
+/a/b/c
+ 
+===> 182/2/mohammad-anwar.pl <===
+# Seeded srand with seed '1' from import arg.
+ok 1 - Example
+1..1
+ 
+===> 182/2/perlboy1967.pl <===
+/a/b/c
+ 
+===> 182/2/peter-campbell-smith.pl <===
+
+Input:
+    /a/b/c/1/x.pl
+    /a/b/c/d/e/2/x.pl
+    /a/b/c/d/3/x.pl
+    /a/b/c/4/x.pl
+    /a/b/c/d/5/x.pl
+Output:
+    /a/b/c
+
+Input:
+    /a/b/c/x.pl
+    /d/e/f/x.pl
+Output:
+    
+
+Input:
+    /m/n/o/p/xx
+    /m/n/o/p/xx
+Output:
+    /m/n/o/p
+ 
+===> 182/2/polettix.pl <===
+/a/b/c
+ 
+===> 182/2/robert-dicicco.pl <===
+Input:
+	/a/b/c/1/x.pl
+	/a/b/c/d/e/2/x.pl
+	/a/b/c/d/3/x.pl
+	/a/b/c/4/x.pl
+	/a/b/c/d/5/x.pl
+Output:
+	/a/b/c/
+ 
+===> 182/2/roger-bell-west.pl <===
+1..1
+ok 1 - example 1
+ 
+===> 182/2/steve-g-lynn.pl <===
+/a/b/c/
+ 
+===> 182/2/ulrich-rieke.pl <===
+/a/b/c/
+ 
+===> 182/2/wlmb.pl <===
+/a/b/c/

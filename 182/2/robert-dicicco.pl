@@ -4,22 +4,12 @@ use strict;
 use warnings;
 use File::Basename;
 
-# AUTHOR: Robert DiCicco
-# DATE: 2022-09-12
-# Challenge 182 Common Path ch-2.pl ( Perl )
-
 my @dirs = qw(
-
   /a/b/c/1/x.pl
-
   /a/b/c/d/e/2/x.pl
-
   /a/b/c/d/3/x.pl
-
   /a/b/c/4/x.pl
-
   /a/b/c/d/5/x.pl
-
 );
 
 my $dir_cnt = scalar @dirs;         # number of directory entries

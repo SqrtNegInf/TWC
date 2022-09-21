@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-# The Weekly Challenge 182
-# Task 2 Common Path
+
 use v5.30.0;
 use List::Util qw/all/;
 
