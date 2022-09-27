@@ -1,0 +1,7 @@
+[31m===[0mSORRY![31m===[0m Error while compiling /Users/dhoekman/PWC/183/1/2colours.raku
+An exception occurred while evaluating a BEGIN
+at /Users/dhoekman/PWC/183/1/2colours.raku:3
+Exception details:
+  not ok - disabled: JVM cannot handle "Uni"
+    in code  at 2colours.raku line 3
+
