@@ -1,0 +1,208 @@
+ 
+===> 183/2/arne-sommer.pl <===
+2019-02-10 vs 2022-11-01 -> 3 years 264 days
+2020-09-15 vs 2022-03-29 -> 1 year 195 days
+2019-12-31 vs 2020-01-01 -> 1 day
+2019-12-01 vs 2019-12-31 -> 30 days
+2019-12-31 vs 2020-12-31 -> 1 year
+2019-12-31 vs 2021-12-31 -> 2 years
+2020-09-15 vs 2021-09-16 -> 1 year 1 day
+2019-09-15 vs 2021-09-16 -> 2 years 1 day
+2023-01-01 vs 2023-01-01 -> 0 days
+ 
+===> 183/2/e-choroba.pl <===
+1..17
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ok 4 - Example 4
+ok 5 - Example 5
+ok 6 - Example 6
+ok 7 - Example 7
+ok 8 - Example 8
+ok 9 - Zero
+ok 10 - Leap year
+ok 11 - Non-leap year
+ok 12 - Leap year
+ok 13 - Non-leap year
+ok 14 - Leap year
+ok 15 - Leap year
+ok 16 - Leap year
+ok 17 - Leap year, too
+ 
+===> 183/2/james-smith.pl <===
+ok 1
+ok 2
+ok 3
+ok 4
+ok 5
+ok 6
+ok 7
+ok 8
+ok 9
+ok 10
+ok 11
+ok 12
+ok 13
+ok 14
+ok 15
+ok 16
+1..16
+ 
+===> 183/2/jo-37.pl <===
+# Seeded srand with seed '1' from import arg.
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ok 4 - Example 4
+ok 5 - Example 5
+ok 6 - Example 6
+ok 7 - Example 7
+ok 8 - Example 8
+ok 9 - one year
+not ok 10 - one year and a day
+ok 11 - 365 days
+not ok 12 - 1 year
+1..12
+ 
+===> 183/2/kueppo-wesley.pl <===
+ok 1
+1..1
+ 
+===> 183/2/mohammad-anwar.pl <===
+# Seeded srand with seed '1' from import arg.
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ok 4 - Example 4
+ok 5 - Example 5
+ok 6 - Example 6
+ok 7 - Example 7
+ok 8 - Example 8
+1..8
+ 
+===> 183/2/perlboy1967.pl <===
+ok 1
+ok 2
+ok 3
+ok 4
+ok 5
+ok 6
+ok 7
+ok 8
+ok 9
+ok 10
+ok 11
+ok 12
+ok 13
+ok 14
+ok 15
+ok 16
+1..16
+ 
+===> 183/2/peter-campbell-smith.pl <===
+
+Input:  $date1 = 2019-02-10
+        $date2 = 2022-11-01
+Output: 3 years 264 days
+
+Input:  $date1 = 2020-09-15
+        $date2 = 2022-03-29
+Output: 1 year 195 days
+
+Input:  $date1 = 2019-12-31
+        $date2 = 2020-01-01
+Output: 1 day
+
+Input:  $date1 = 2019-12-01
+        $date2 = 2019-12-31
+Output: 30 days
+
+Input:  $date1 = 2019-12-31
+        $date2 = 2020-12-31
+Output: 1 year 
+
+Input:  $date1 = 2019-12-31
+        $date2 = 2021-12-31
+Output: 2 years 
+
+Input:  $date1 = 2020-09-15
+        $date2 = 2021-09-16
+Output: 1 year 1 day
+
+Input:  $date1 = 2019-09-15
+        $date2 = 2021-09-16
+Output: 2 years 1 day
+
+Input:  $date1 = 1926-04-21
+        $date2 = 2022-09-08
+Output: 96 years 140 days
+
+Input:  $date1 = 2022-09-20
+        $date2 = 2022-09-19
+$date2 = 2022-09-19 precedes $date1 = 2022-09-20
+ 
+===> 183/2/polettix.pl <===
+ok 1 - (2019-02-10 vs 2022-11-01) years OK
+ok 2 - (2019-02-10 vs 2022-11-01) days OK
+ok 3 - (2020-09-15 vs 2022-03-29) years OK
+ok 4 - (2020-09-15 vs 2022-03-29) days OK
+ok 5 - (2019-12-31 vs 2020-01-01) years OK
+ok 6 - (2019-12-31 vs 2020-01-01) days OK
+ok 7 - (2019-12-01 vs 2019-12-31) years OK
+ok 8 - (2019-12-01 vs 2019-12-31) days OK
+ok 9 - (2019-12-31 vs 2020-12-31) years OK
+ok 10 - (2019-12-31 vs 2020-12-31) days OK
+ok 11 - (2019-12-31 vs 2021-12-31) years OK
+ok 12 - (2019-12-31 vs 2021-12-31) days OK
+ok 13 - (2020-09-15 vs 2021-09-16) years OK
+ok 14 - (2020-09-15 vs 2021-09-16) days OK
+ok 15 - (2019-09-15 vs 2021-09-16) years OK
+ok 16 - (2019-09-15 vs 2021-09-16) days OK
+ok 17 - (2019-02-28 vs 2020-02-27) years OK
+ok 18 - (2019-02-28 vs 2020-02-27) days OK
+ok 19 - (2019-02-28 vs 2020-02-28) years OK
+ok 20 - (2019-02-28 vs 2020-02-28) days OK
+ok 21 - (2019-02-28 vs 2020-02-29) years OK
+ok 22 - (2019-02-28 vs 2020-02-29) days OK
+ok 23 - (2019-02-28 vs 2020-03-01) years OK
+ok 24 - (2019-02-28 vs 2020-03-01) days OK
+ok 25 - (2019-03-01 vs 2020-02-28) years OK
+ok 26 - (2019-03-01 vs 2020-02-28) days OK
+ok 27 - (2019-03-01 vs 2020-02-29) years OK
+ok 28 - (2019-03-01 vs 2020-02-29) days OK
+ok 29 - (2019-03-01 vs 2020-03-01) years OK
+ok 30 - (2019-03-01 vs 2020-03-01) days OK
+ok 31 - (2020-02-28 vs 2021-02-27) years OK
+ok 32 - (2020-02-28 vs 2021-02-27) days OK
+ok 33 - (2020-02-28 vs 2021-02-28) years OK
+ok 34 - (2020-02-28 vs 2021-02-28) days OK
+ok 35 - (2020-02-28 vs 2021-03-01) years OK
+ok 36 - (2020-02-28 vs 2021-03-01) days OK
+ok 37 - (2020-02-29 vs 2021-02-28) years OK
+ok 38 - (2020-02-29 vs 2021-02-28) days OK
+ok 39 - (2020-02-29 vs 2021-03-01) years OK
+ok 40 - (2020-02-29 vs 2021-03-01) days OK
+1..40
+ 
+===> 183/2/roger-bell-west.pl <===
+1..2
+ok 1 - example 1
+ok 2 - example 2
+ 
+===> 183/2/solathian.pl <===
+Start 2019 	 09 	 15
+Start 2021   	 09   	 16
+Number of days between the two dates: 732
+Number of leapdays in the duration 1
+2 years and 2 days 
+ 
+===> 183/2/steve-g-lynn.pl <===
+Example 1: 3 year(s) 264 day(s)
+Example 2: 1 year(s) 195 day(s)
+Example 3: 0 year(s) 1 day(s)
+Example 4: 0 year(s) 30 day(s)
+Example 5: 1 year(s) 0 day(s)
+Example 6: 2 year(s) 0 day(s)
+Example 7: 1 year(s) 1 day(s)
+Example 8: 2 year(s) 1 day(s)

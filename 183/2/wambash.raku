@@ -7,7 +7,7 @@ sub date-diference (Date() $start, Date() $end) {
     \(:$year, :$day)
 }
 
-multi MAIN (Bool :test($)!) {
+#multi MAIN (Bool :test($)!) {
     use Test;
     is date-diference('2019-02-10','2022-11-01').<year day>, (3, 264);
     is date-diference('2020-09-15','2022-03-29').<year day>, (1, 195);
@@ -19,8 +19,6 @@ multi MAIN (Bool :test($)!) {
     is date-diference('2020-09-15','2021-09-16').<year day>, (1,   1);
     is date-diference('2019-09-15','2021-09-16').<year day>, (2,   1);
     done-testing;
-}
+#}
 
-multi MAIN (Date() $start, Date() $end) {
-    say date-diference $start, $end
-}
+#multi MAIN (Date() $start, Date() $end) { say date-diference $start, $end }

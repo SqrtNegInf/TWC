@@ -1,21 +1,5 @@
 #!/usr/bin/env perl
 
-=pod
-
-The Weekly Challenge - 183
- - https://theweeklychallenge.org/blog/perl-weekly-challenge-183/#TASK2
-
-Author: Niels 'PerlBoy' van Dijke
-
-Task 2: Date Difference
-Submitted by: Mohammad S Anwar
-
-You are given two dates, $date1 and $date2 in the format YYYY-MM-DD.
-
-Write a script to find the difference between the given dates in terms on years and days only.
-
-=cut
-
 use v5.16;
 use warnings;
 

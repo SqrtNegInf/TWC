@@ -1,5 +1,4 @@
 #!/usr/bin/env raku
-use v6 ;
 
 sub format( $var , Str $unit --> Str ) {
   if ( $var == 0 ) {
@@ -13,20 +12,14 @@ sub format( $var , Str $unit --> Str ) {
   }
 }
 
-say "Enter a first date as yyyy-mm-dd!" ;
-my $line = $*IN.get ;
-while ( $line !~~ /^(\d ** 4)'-'(\d ** 2)'-'(\d ** 2 )$/ ) {
-  say "Please enter date as yyyy-mm-dd!" ;
-  $line = $*IN.get ;
-}
+my $line = '2019-02-10';
+$line ~~ /^(\d ** 4)'-'(\d ** 2)'-'(\d ** 2 )$/;
 my $date1 = Date.new( +$0 , +$1 , +$2 ) ;
-say "Enter a second date as yyyy-mm-dd!" ;
-$line = $*IN.get ;
-while ( $line !~~ /^(\d ** 4)'-'(\d ** 2)'-'(\d ** 2 )$/ ) {
-  say "Please enter date as yyyy-mm-dd!" ;
-  $line = $*IN.get ;
-}
+
+$line = '2022-11-01';
+$line ~~ /^(\d ** 4)'-'(\d ** 2)'-'(\d ** 2 )$/;
 my $date2 = Date.new( +$0 , +$1 , +$2 ) ;
+
 #for every full leap year  we have to count
 #1 year as 366 days! So we have to subtract the number of leap years
 #between the 2 days from the number of days between the dates

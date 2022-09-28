@@ -8,8 +8,8 @@ sub parseDate (Str $date) {
 }
 
 sub MAIN(
-    Str $date1, #= date in the form YYYY-MM-DD
-    Str $date2  #= date in the form YYYY-MM-DD
+    Str $date1 = '2019-02-10',
+    Str $date2 = '2022-11-01'
 ) {
     my $dt1 = parseDate($date1);
     my $dt2 = parseDate($date2);

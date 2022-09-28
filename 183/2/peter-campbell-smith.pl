@@ -1,17 +1,9 @@
 #!/usr/bin/env perl
 
-# Peter Campbell Smith - 2022-09-20
-# PWC 183 task 2
-
 use v5.28;
 use utf8;
 use warnings;
 use Time::Local qw(timelocal_posix);
-
-# You are given two dates, $date1 and $date2 in the format YYYY-MM-DD. Write a script to find 
-# the difference between the given dates in terms on years and days only.
-
-# Blog: https://pjcs-pwc.blogspot.com/2022/09/unique-arrays-and-differing-dates.html
 
 my (@tests, $test, $date1, $date2, $days, $years, $anniversary, $month_day);
 

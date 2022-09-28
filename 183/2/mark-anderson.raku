@@ -1,8 +1,6 @@
 #!/usr/bin/env raku
 use Test;
 
-# Disclaimer: This is my interpretation of years/days differences and I could be totally wrong.
-
 is-deeply date-diff('2019-02-10', '2022-11-01'), (3, 264);
 is-deeply date-diff('2020-09-15', '2022-03-29'), (1, 195); 
 is-deeply date-diff('2019-12-31', '2020-01-01'), (0, 1);
