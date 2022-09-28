@@ -1,5 +1,0 @@
-#   Failed test at ./james-smith.pl line 35.
-#     Structures begin differing at:
-#          $got->[1] = Does not exist
-#     $expected->[1] = ARRAY(0x7fa6cd1c3e40)
-# Looks like you failed 1 test of 15.
