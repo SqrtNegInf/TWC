@@ -33,7 +33,7 @@ for my $i (0 .. (scalar @list) - 1 ){
 
 $out_display_list =~ s/\,\s+\[$//;
 
-print($out_display_list);
+print join ' ', sort { $a cmp $b } split ' ', $out_display_list;
 
 print(" )\n");
 
