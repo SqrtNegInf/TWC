@@ -61,7 +61,7 @@ ok 1 - find the index of the first biggest number in the list
  
 ===> 182/1/mohammad-anwar.pl <===
 # Seeded srand with seed '1' from import arg.
-not ok 1 - Example 1
+ok 1 - Example 1
 ok 2 - Example 2
 1..2
  

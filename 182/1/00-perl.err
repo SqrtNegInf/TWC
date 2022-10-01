@@ -1,7 +1,0 @@
-# Failed test 'Example 1'
-# at ./mohammad-anwar.pl line 8.
-# +-----+----+-------+
-# | GOT | OP | CHECK |
-# +-----+----+-------+
-# | 2   | eq | 6     |
-# +-----+----+-------+
