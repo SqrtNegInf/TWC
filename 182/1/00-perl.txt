@@ -59,12 +59,6 @@ ok 1 - find the index of the first biggest number in the list
 5 2 9 1 7 6 9 : 2 => 9
 4 2 3 1 5 0 : 4 => 5
  
-===> 182/1/mohammad-anwar.pl <===
-# Seeded srand with seed '1' from import arg.
-ok 1 - Example 1
-ok 2 - Example 2
-1..2
- 
 ===> 182/1/peter-campbell-smith.pl <===
 
 Input:  (5, 2, 9, 1, 7, 6, 9)
