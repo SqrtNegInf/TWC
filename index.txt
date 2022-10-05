@@ -386,8 +386,8 @@ Challenge titles and Rosetta-code correspondences (exact, and otherwise)
 183-2 Date Difference                       D/Days_between_dates
 184-1 Sequence Number
 184-2 Split Array
-185-1
-185-2
+185-1 MAC Address
+185-2 Mask Code
 186-1
 186-2
 187-1
