@@ -5,11 +5,11 @@
 # See https://wlmb.github.io/2022/02/21/PWC153/#task-1-left-factorials
 use v5.12;
 use warnings;
-use Memoize;
+#use Memoize;
 use bigint;
 use Text::Wrap qw(wrap $columns $break);
 
-memoize qw(left_factorial factorial);
+#memoize qw(left_factorial factorial);
 #die "Usage: ./ch-1.pl N\nto get the first N left factorials" unless @ARGV;
 my $N=10;
 $columns=62; $break=qr/\s/;

@@ -22,7 +22,7 @@ opt, pot, top
 saw, was
  
 ===> 094/1/dave-jacoby.pl <===
-[["bat","tab"],["saw","was"],["new"],["opt","pot","top"]]
+[["bat", "tab"], ["saw", "was"], ["new"], ["opt", "pot", "top"]]
 
 [["x"]]
 

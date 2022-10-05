@@ -7,8 +7,8 @@ use strict;
 use warnings;
 use v5.12;
 use Text::Wrap;
-use Memoize;
-memoize qw(N P);
+#use Memoize;
+#memoize qw(N P);
 my $length=25; # keep this many paths
 foreach(3){
     my @paths=P($_-1,$_-1);
