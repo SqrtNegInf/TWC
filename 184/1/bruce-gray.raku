@@ -1,4 +1,5 @@
 #!/usr/bin/env raku
+
 sub task1 ( @a ) {
     my $seq = '00';
     return @a.map: {

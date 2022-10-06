@@ -1,18 +1,6 @@
 #!/usr/bin/env raku
-use v6 ;
 
-say "Enter strings in the form of aa9999, that is 2 letters and 4 digits!" ;
-say "Enter <return> to end!" ;
-my @strings ;
-my $line = $*IN.get ;
-while ( $line ) {
-  while ( $line !~~ /<[a..z]>**2<[0..9]>**4/ ) {
-      say "string should start with 2 letters and then 4 digits! Re-enter!" ;
-      $line = $*IN.get ;
-  }
-  @strings.push( $line ) ;
-  $line = $*IN.get ;
-}
+my @strings=<ab1234 cd5678 ef1342>;
 my @output ;
 for (0..@strings.elems - 1 ) -> $i {
   say $i ;

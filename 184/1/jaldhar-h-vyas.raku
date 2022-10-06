@@ -1,9 +1,6 @@
 #!/usr/bin/env raku
 
-sub MAIN (
-    *@list
-) {
+    my @list = <ab1234 cd5678 ef1342>;
     my $seq = '00';
     my @output = @list.map({ $_.subst(/^../, $seq++)});
     @output.join(q{ }).say;
-}

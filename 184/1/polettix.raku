@@ -1,10 +1,10 @@
 #!/usr/bin/env raku
-use v6;
-sub MAIN {
+
+#sub MAIN {
    my @l = < ab1234 cd5678 ef1342 >;
    sequence-number(@l);
    .put for @l;
-}
+#}
 
 sub sequence-number (@list) {
    my $n = 0;

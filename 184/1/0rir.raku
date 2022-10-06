@@ -1,27 +1,6 @@
 #!/usr/bin/env raku
-# :vim ft=raku sw=4 expandtab  # ∅ ≡ ∩ ≢
-use v6.d;
+
 use Test;
-
-=begin comment
-184-1: Sequence Number      Submitted by: Mohammad S Anwar
-Given a list of strings in the format aa9999, i.e. the first 2 characters are
-'a-z' followed by 4 digits '0-9'.
-
-Replace the first two characters with sequence starting with '00', '01', '02',
-etc.
-
-Example 1
-Input: @list = ( 'ab1234', 'cd5678', 'ef1342')
-Output: ('001234', '015678', '021342')
-Example 2
-Input: @list = ( 'pq1122', 'rs3334')
-Output: ('001122', '013334')
-=end comment
-
-=begin spec
-The first occurrence of a prefix establishes its place in the order of prefixes.
-=end spec
 
 constant TEST=True;
 if TEST {

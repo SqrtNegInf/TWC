@@ -6,13 +6,11 @@ sub sequence-number (+@list) {
     }
 }
 
-multi MAIN (Bool :test($)!) {
+#multi MAIN (Bool :test($)!) {
     use Test;
     is sequence-number('ab1234', 'cd5678', 'ef1342'),('001234', '015678', '021342');
     is sequence-number('pq1122', 'rs3334'),('001122', '013334');
     done-testing;
-}
+#}
 
-multi MAIN (+@list) {
-    put sequence-number @list
-}
+#multi MAIN (+@list) { put sequence-number @list }

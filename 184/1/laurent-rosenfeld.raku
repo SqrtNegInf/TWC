@@ -1,4 +1,5 @@
 #!/usr/bin/env raku
+
 for <ab1234 cd5678 ef1342>, <pq1122 rs3334> -> @test {
     my $i = 0;
     my @out;

@@ -1,8 +1,7 @@
 #!/usr/bin/env raku
 
-# Perl Weekly Challenge 184
-
-sub MAIN( *@strings where { @strings.grep( $_ ~~ / ^ <[a..z]> ** 2 \d ** 4 $/ ).elems == @strings.elems } ) {
+#sub MAIN( *@strings where { @strings.grep( $_ ~~ / ^ <[a..z]> ** 2 \d ** 4 $/ ).elems == @strings.elems } ) {
+my @strings = <ab1234 cd5678 ef1342>;
     my $counter = 0;
     my @ordered-strings = @strings.map: {
         my $s = $_;
@@ -10,4 +9,4 @@ sub MAIN( *@strings where { @strings.grep( $_ ~~ / ^ <[a..z]> ** 2 \d ** 4 $/ ).
         $s; };
     @ordered-strings.join( "\n" ).say;
 
-}
+#}
