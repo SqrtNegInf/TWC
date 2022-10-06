@@ -1,8 +1,6 @@
 #!/usr/bin/env raku
 
-# Perl Weekly Challenge 184
-
-sub MAIN( *@strings ) {
+sub MAIN( @strings = ( 'a 1 2 b 0', '3 c 4 d') ) {
     my @numbers;
     my @letters;
 

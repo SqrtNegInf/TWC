@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-# The Weekly Challenge 184
-# Task 2 Split Array
+
 use v5.30.0;
 use warnings;
 

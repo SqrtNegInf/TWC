@@ -1,0 +1,90 @@
+ 
+===> 184/2/0rir.raku <===
+1..27
+ok 1 - unbifurcatable: ("",)
+ok 2 - unbifurcatable: (" a",)
+ok 3 - unbifurcatable: ("a ",)
+ok 4 - unbifurcatable: (" 1",)
+ok 5 - unbifurcatable: ("1 ",)
+ok 6 - unbifurcatable: ("1 2", "p q r", "s 3", "4 5 t ")
+ok 7 - unbifurcatable: (",",)
+ok 8 - unbifurcatable: ("a ] c", "d e f")
+ok 9 - unbifurcatable: ("a *",)
+ok 10 - unbifurcatable: ("a 1 2 b 0", "3 c ) d")
+ok 11 - unbifurcatable: ("1 2", "p + r", "s 3", "4 5 t")
+ok 12 - bifurcatable: ()
+ok 13 - Pair [] => []
+ok 14 - bifurcatable: ("a",)
+ok 15 - Pair [] => [["a"],]
+ok 16 - bifurcatable: ("1",)
+ok 17 - Pair [[1],] => []
+ok 18 - bifurcatable: ("a b c", "d e f")
+ok 19 - Pair [] => [["a", "b", "c"], ["d", "e", "f"]]
+ok 20 - bifurcatable: ("1 2 3", "4 5 6")
+ok 21 - Pair [[1, 2, 3], [4, 5, 6]] => []
+ok 22 - bifurcatable: ("a 1",)
+ok 23 - Pair [[1],] => [["a"],]
+ok 24 - bifurcatable: ("a 1 2 b 0", "3 c 4 d")
+ok 25 - Pair [[1, 2, 0], [3, 4]] => [["a", "b"], ["c", "d"]]
+ok 26 - bifurcatable: ("1 2", "p q r", "s 3", "4 5 t")
+ok 27 - Pair [[1, 2], [3], [4, 5]] => [["p", "q", "r"], ["s"], ["t"]]
+Input: @list = ("1 2", "p q r", "s 3", "4 5 t")
+Output: [[1, 2], [3], [4, 5]] and [["p", "q", "r"], ["s"], ["t"]]
+ 
+===> 184/2/2colours.raku <===
+[[1, 2, 0],] and [['a', 'b'],]
+ 
+===> 184/2/arne-sommer.raku <===
+([[1 2 0] [3 4]] [[a b] [c d]])
+([[1 2] [3] [4 5]] [[p q r] [s] [t]])
+ 
+===> 184/2/athanasius.raku <===
+Input: @list = ( 'a 1 2 b 0', '3 c 4 d' )
+Output: [[1,2,0], [3,4]] and [['a','b'], ['c','d']]
+ 
+===> 184/2/bruce-gray.raku <===
+1..2
+ok 1 - 
+ok 2 - 
+ 
+===> 184/2/jaldhar-h-vyas.raku <===
+[[1,2,0], [3,4]] and [['a','b'], ['c','d']]
+ 
+===> 184/2/laurent-rosenfeld.raku <===
+[a b c d]
+[1 2 0 3 4]
+[p q r s t]
+[1 2 3 4 5]
+ 
+===> 184/2/luca-ferrari.raku <===
+1 2 0, 3 4
+a b, c d
+ 
+===> 184/2/mark-anderson.raku <===
+(([1 2 0] [3 4]) ([a b] [c d]))
+(([1 2] [3] [4 5]) ([p q r] [s] [t]))
+ 
+===> 184/2/massa.raku <===
+ok 1 - Example 1
+ok 2 - Example 2
+1..2
+ 
+===> 184/2/polettix.raku <===
+[[1 2] [3] [4 5]]
+[[p q r] [s] [t]]
+ 
+===> 184/2/roger-bell-west.raku <===
+1..2
+ok 1 - example 1
+ok 2 - example 2
+ 
+===> 184/2/steve-g-lynn.raku <===
+[[1 2] [3] [4 5]]
+[[p q r] [s] [t]]
+ 
+===> 184/2/wambash.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ok 4 - 
+1..4

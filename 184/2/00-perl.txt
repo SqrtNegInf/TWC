@@ -1,0 +1,254 @@
+ 
+===> 184/2/arne-sommer.pl <===
+[[1,2,0], [3,4]] and [['a','b'], ['c','d']]
+[[1,2], [3], [4,5]] and [['p','q','r'], ['s'], ['t']]
+ 
+===> 184/2/athanasius.pl <===
+Input: @list = ( 'a 1 2 b 0 3 c 4 d' )
+Output: [[1,2,0,3,4]] and [['a','b','c','d']]
+ 
+===> 184/2/cheok-yin-fung.pl <===
+ok 1
+ok 2
+1..2
+ 
+===> 184/2/colin-crain.pl <===
+[[1,2], [3], [4,5]] and [['p','q','r'], ['s'], ['t']]
+[[1,2], [3], [4,5]] and [['p','q','r'], ['s'], ['t']]
+ 
+===> 184/2/dario-mazzeo.pl <===
+[1,2,0] [3,4] and [a,b] [c,d] 
+ 
+===> 184/2/e-choroba.pl <===
+# Seeded srand with seed '1' from import arg.
+1..2
+ok 1 - Example 1
+ok 2 - Example 2
+ 
+===> 184/2/james-raspass.pl <===
+Input:  ['a 1 2 b 0', '3 c 4 d']
+Output: [[1, 2, 0], [3, 4]] and [[a, b], [c, d]]
+ 
+===> 184/2/james-smith.pl <===
+$VAR1 = [
+          [
+            [
+              '1',
+              '2',
+              '0'
+            ],
+            [
+              '3',
+              '4'
+            ]
+          ],
+          [
+            [
+              'a',
+              'b'
+            ],
+            [
+              'c',
+              'd'
+            ]
+          ]
+        ];
+$VAR1 = [
+          [
+            [
+              '1',
+              '2'
+            ],
+            [
+              '3'
+            ],
+            [
+              '4',
+              '5'
+            ]
+          ],
+          [
+            [
+              'p',
+              'q',
+              'r'
+            ],
+            [
+              's'
+            ],
+            [
+              't'
+            ]
+          ]
+        ];
+$VAR1 = [
+          [
+            [
+              '1',
+              '2',
+              '0'
+            ],
+            [
+              '3',
+              '4'
+            ]
+          ],
+          [
+            [
+              'a',
+              'b'
+            ],
+            [
+              'c',
+              'd'
+            ]
+          ]
+        ];
+$VAR1 = [
+          [
+            [
+              '1',
+              '2'
+            ],
+            [
+              '3'
+            ],
+            [
+              '4',
+              '5'
+            ]
+          ],
+          [
+            [
+              'p',
+              'q',
+              'r'
+            ],
+            [
+              's'
+            ],
+            [
+              't'
+            ]
+          ]
+        ];
+ 
+===> 184/2/julien-fiegehenn.pl <===
+ok 1 - first example
+ok 2 - second example
+1..2
+ 
+===> 184/2/kjetillll.pl <===
+$VAR1 = [
+          [
+            '1',
+            '2'
+          ],
+          [
+            '3'
+          ],
+          [
+            '4',
+            '5'
+          ]
+        ];
+$VAR2 = [
+          [
+            'p',
+            'q',
+            'r'
+          ],
+          [
+            's'
+          ],
+          [
+            't'
+          ]
+        ];
+ 
+===> 184/2/kueppo-wesley.pl <===
+ok 1 - extracted digits?
+ok 2 - extracted characters?
+1..2
+ 
+===> 184/2/laurent-rosenfeld.pl <===
+a b c d 
+1 2 0 3 4
+p q r s t 
+1 2 3 4 5
+ 
+===> 184/2/lubos-kolouch.pl <===
+ok 1
+ok 2
+1..2
+ 
+===> 184/2/mattneleigh.pl <===
+
+Input: @list = ('a 1 2 b 0', '3 c 4 d')
+Output: [[1,2,0], [3,4]] and [['a','b'], ['c','d']]
+
+Input: @list = ('1 2', 'p q r', 's 3', '4 5 t')
+Output: [[1,2], [3], [4,5]] and [['p','q','r'], ['s'], ['t']]
+
+ 
+===> 184/2/mohammad-anwar.pl <===
+# Seeded srand with seed '1' from import arg.
+ok 1 - Example 1
+ok 2 - Example 2
+1..2
+ 
+===> 184/2/perlboy1967.pl <===
+ok 1
+ok 2
+1..2
+ 
+===> 184/2/peter-campbell-smith.pl <===
+
+Input:  'a 1 2 b 0', '3 c 4 d'
+Output: [[1,2,0], [3,4]] and [['a','b'], ['c','d']]
+
+Input:  '1 2', 'p q r', 's 3', '4 5 t'
+Output: [[1,2], [3], [4,5]] and [['p','q','r'], ['s'], ['t']]
+ 
+===> 184/2/polettix.pl <===
+$VAR1 = [
+          [
+            [
+              '1',
+              '2'
+            ],
+            [
+              '3'
+            ],
+            [
+              '4',
+              '5'
+            ]
+          ],
+          [
+            [
+              'p',
+              'q',
+              'r'
+            ],
+            [
+              's'
+            ],
+            [
+              't'
+            ]
+          ]
+        ];
+
+ 
+===> 184/2/roger-bell-west.pl <===
+1..2
+ok 1 - example 1
+ok 2 - example 2
+ 
+===> 184/2/steve-g-lynn.pl <===
+[ [1 2 0] [3 4] ]
+[ [a b] [c d] ]
+ 
+===> 184/2/wlmb.pl <===
+[[1, 2, 0], [3, 4]] and [[a, b], [c, d]]

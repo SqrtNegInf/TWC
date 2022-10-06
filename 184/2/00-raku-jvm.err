@@ -1,0 +1,5 @@
+Array @list-strings = ["a 1 2 b 0", ().Seq]
+uniprop not yet implemented. Sorry.
+  in sub split-array at wambash.raku line 6
+  in block <unit> at wambash.raku line 18
+

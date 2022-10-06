@@ -1,21 +1,5 @@
 #!/usr/bin/env perl
 
-=head1
-
-Week 184:
-
-    https://theweeklychallenge.org/blog/perl-weekly-challenge-184
-
-Task #2: Split Array
-
-    You are given list of strings containing 0-9 and a-z separated by
-    space only.
-
-    Write a script to split the data into two arrays, one for integers
-    and one for alphabets only.
-
-=cut
-
 use v5.36;
 use Test2::V0 -srand => 1;
 

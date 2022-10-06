@@ -1,5 +1,4 @@
 #!/usr/bin/env raku
-use v6d;
 
 ###############################################################################
 =begin comment
@@ -56,19 +55,12 @@ my Set[Str] constant $VALID-DIGITS  = Set[Str].new: '0' .. '9';
 my Set[Str] constant $VALID-LETTERS = Set[Str].new: 'a' .. 'z';
 my Set[Str] constant $VALID-CHARS   = $VALID-DIGITS ∪ $VALID-LETTERS;
 
-#------------------------------------------------------------------------------
-BEGIN
-#------------------------------------------------------------------------------
-{
-    "\nChallenge 184, Task #2: Split Array (Raku)\n".put;
-}
-
 #==============================================================================
 sub MAIN
 (
     #| List of strings: single chars (0-9, a-z), space-separated
 
-    *@list where { .elems > 0 }
+    @list = ( 'a 1 2 b 0', '3 c 4 d')
 )
 #==============================================================================
 {

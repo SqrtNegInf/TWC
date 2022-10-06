@@ -1,5 +1,5 @@
 #!/usr/bin/env raku
-use v6;
+
 sub MAIN {
    my @l = '1 2', 'p q r', 's 3', '4 5 t';
    my ($digits, $letters) = split-array(@l);

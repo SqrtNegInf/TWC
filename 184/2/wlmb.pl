@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-# Perl weekly challenge 184
-# Task 2:  Split Array
-#
-# See https://wlmb.github.io/2022/09/26/PWC184/#task-2-split-array
+
 use v5.36;
 use experimental qw(for_list);
 use List::Util qw(reduce);
@@ -11,6 +8,7 @@ sub arr2str(@X){ # recursively converts array to string
     "[" . join(", ", map{ref $_ eq "ARRAY"? arr2str(@$_):$_} @X) . "]"
 }
 
+my @ARGV = ('a 1 2 b 0', '3 c 4 d');
 die <<EOF unless @ARGV;
 Usage: $0 S1 [S2...]
 to split strings S1, S2... into arrays of numbers and letters.

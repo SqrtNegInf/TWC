@@ -1,8 +1,9 @@
 #!/usr/bin/env raku
 
+# bogus hack
 
-my @list-strings <==
-  prompt '@list = ' andthen
+my @list-strings <== 'a 1 2 b 0', '3 c 4 d'
+#  prompt '@list = ' andthen
   .comb: / "'" <( .*? )> "'" /;
 
 dd @list-strings;

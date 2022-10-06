@@ -1,16 +1,8 @@
 #!/usr/bin/env perl
 
-# Peter Campbell Smith - 2022-09-28
-# PWC 184 task 2
-
 use v5.28;
 use utf8;
 use warnings;
-
-# You are given list of strings containing 0-9 and a-z separated by spaces only.
-# Write a script to split the data into two arrays, one for integers and one for letters only.
-
-# Blog: 
 
 my (@lists, $list, $char, $first, $second, $output, $j);
 

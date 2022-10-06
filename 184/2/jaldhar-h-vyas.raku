@@ -8,7 +8,7 @@ sub printArray(@array) {
 }
 
 sub MAIN(
-    *@list #= strings containing digits and lower case letters
+    @list = ( 'a 1 2 b 0', '3 c 4 d')
 ) {
     my @allInts;
     my @allAlphas;
