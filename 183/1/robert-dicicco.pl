@@ -50,6 +50,7 @@ $out =~ s/\,\s+$//;
 my @s = sort(split(" ",$out));
 
 $out = join(" ", @s);
+$out =~ s/, / /g;
 
 chop($out);
 
