@@ -1,9 +1,7 @@
 #!/usr/bin/env perl
-# The Weekly Challenge 184
-# Task 1 Sequence Number
+
 use v5.30.0;
 use warnings;
-
 
 sub two_digits {
     return $_[0] if length $_[0] == 2;

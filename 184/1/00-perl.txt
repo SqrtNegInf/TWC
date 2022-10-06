@@ -1,0 +1,91 @@
+ 
+===> 184/1/arne-sommer.pl <===
+('001234', '015678', '021342')
+('031122', '043334')
+ 
+===> 184/1/athanasius.pl <===
+Running the test suite
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Same nums
+ok 4 - Same letters
+1..4
+ 
+===> 184/1/cheok-yin-fung.pl <===
+ok 1
+ok 2
+1..2
+ 
+===> 184/1/colin-crain.pl <===
+001234 015678 021342
+ 
+===> 184/1/dario-mazzeo.pl <===
+001234 015678 021342
+ 
+===> 184/1/dave-cross.pl <===
+001234 015678 021342
+ 
+===> 184/1/duncan-c-white.pl <===
+001234,015678,021342
+ 
+===> 184/1/e-choroba.pl <===
+# Seeded srand with seed '1' from import arg.
+1..4
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Last possible element
+ok 4 - Too long
+ 
+===> 184/1/james-smith.pl <===
+ok 1
+ok 2
+ok 3
+ok 4
+ok 5
+ok 6
+1..6
+ 
+===> 184/1/julien-fiegehenn.pl <===
+ok 1 - first example
+ok 2 - second example
+1..2
+ 
+===> 184/1/kjetillll.pl <===
+001234
+015678
+021342
+ 
+===> 184/1/laurent-rosenfeld.pl <===
+ab1234 cd5678 ef1342  =>  001234 015678 021342
+pq1122 rs3334  =>  001122 013334
+ 
+===> 184/1/mohammad-anwar.pl <===
+# Seeded srand with seed '1' from import arg.
+ok 1 - Example 1
+ok 2 - Example 2
+1..2
+ 
+===> 184/1/peter-campbell-smith.pl <===
+
+Input:  ('ab1234', 'cd5678', 'ef1342')
+Output: ('001234', '015678', '021342')
+
+Input:  ('pq1122', 'rs3334')
+Output: ('001122', '013334')
+ 
+===> 184/1/polettix.pl <===
+001234
+015678
+021342
+ 
+===> 184/1/robert-dicicco.pl <===
+Input: @list = ('ab1234' 'cd5678' 'ef1342' )
+Output: (001234 015678 021342 )
+ 
+===> 184/1/roger-bell-west.pl <===
+1..2
+ok 1 - example 1
+ok 2 - example 2
+ 
+===> 184/1/wlmb.pl <===
+001234, 015678, 021342

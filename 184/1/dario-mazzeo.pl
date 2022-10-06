@@ -1,7 +1,4 @@
 #!/usr/bin/env perl
-# THE WEEKLY CHALLENGE - 184
-# Task 1: Sequence Number
-# Autore: Dario Mazzeo
 
 my @list = ( 'ab1234', 'cd5678', 'ef1342');
 

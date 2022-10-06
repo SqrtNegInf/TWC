@@ -5,7 +5,6 @@ use strict;
 use warnings;
 use feature qw(say);
 use Test::More;
-use Benchmark qw(cmpthese timethis);
 use Data::Dumper qw(Dumper);
 
 my @TESTS = (
@@ -17,12 +16,6 @@ is( join( ' ', seq_number_substr(@{$_->[0]})), $_->[1] ) foreach @TESTS;
 is( join( ' ', seq_number_subrep(@{$_->[0]})), $_->[1] ) foreach @TESTS;
 is( join( ' ', seq_number_regexp(@{$_->[0]})), $_->[1] ) foreach @TESTS;
 done_testing();
-
-cmpthese( 1_000_000, {
-  'substr' => sub { seq_number_substr(@{$_->[0]}) foreach @TESTS },
-  'subrep' => sub { seq_number_subrep(@{$_->[0]}) foreach @TESTS },
-  'regexp' => sub { seq_number_regexp(@{$_->[0]}) foreach @TESTS },
-});
 
 sub seq_number_substr { my $s = '00'; return map { ($s++).substr $_,2 }     @_ }
 sub seq_number_subrep { my $s = '00'; return map { substr $_,0,2,$s++; $_ } @_ }

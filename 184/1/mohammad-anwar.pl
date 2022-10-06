@@ -1,21 +1,5 @@
 #!/usr/bin/env perl
 
-=head1
-
-Week 184:
-
-    https://theweeklychallenge.org/blog/perl-weekly-challenge-184
-
-Task #1: Sequence Number
-
-    You are given list of strings in the format aa9999 i.e. first 2
-    characters can be anything 'a-z' followed by 4 digits '0-9'.
-
-    Write a script to replace the first two characters with sequence
-    starting with '00', '01', '02' etc.
-
-=cut
-
 use v5.36;
 use Test2::V0 -srand => 1;
 
@@ -26,10 +10,6 @@ is sequence_number('pq1122', 'rs3334'),
    ['001122', '013334'], 'Example 2';
 
 done_testing;
-
-#
-#
-# METHOD
 
 sub sequence_number(@list) {
     my @sn = ();
