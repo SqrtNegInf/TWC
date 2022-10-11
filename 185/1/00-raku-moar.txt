@@ -1,0 +1,117 @@
+ 
+===> 185/1/0rir.raku <===
+1..48
+ok 1 - dot -> dot
+ok 2 - uc dot -> dot
+ok 3 - dot -> uc dot
+ok 4 - canonic -> canonic
+ok 5 - canonic -> canonic
+ok 6 - uc canonic -> canonic
+ok 7 - integer -> integer
+ok 8 - integer -> uc integer
+ok 9 - dot -> *
+ok 10 - dot -> uc *
+ok 11 - dot -> canonic
+ok 12 - dot -> uc canonic
+ok 13 - uc dot -> uc canonic
+ok 14 - uc dot -> canonic
+ok 15 - canonic -> dot
+ok 16 - uc canonic -> dot
+ok 17 - canonic -> integer
+ok 18 - uc canonic -> integer
+ok 19 - integer -> *
+ok 20 - integer -> canonic
+ok 21 - integer -> uc canonic
+ok 22 - integer -> uc canonic
+ok 23 - integer -> dot
+ok 24 - integer -> dot
+ok 25 - dot -> dot
+ok 26 - uc dot -> dot
+ok 27 - dot -> uc dot
+ok 28 - canonic -> canonic
+ok 29 - canonic -> canonic
+ok 30 - uc canonic -> canonic
+ok 31 - integer -> integer
+ok 32 - integer -> uc integer
+ok 33 - dot -> *
+ok 34 - dot -> uc *
+ok 35 - dot -> canonic
+ok 36 - dot -> uc canonic
+ok 37 - uc dot -> uc canonic
+ok 38 - uc dot -> canonic
+ok 39 - canonic -> dot
+ok 40 - uc canonic -> dot
+ok 41 - canonic -> integer
+ok 42 - uc canonic -> integer
+ok 43 - integer -> *
+ok 44 - integer -> canonic
+ok 45 - integer -> uc canonic
+ok 46 - integer -> uc canonic
+ok 47 - integer -> dot
+ok 48 - integer -> dot
+ 
+===> 185/1/2colours.raku <===
+Output: ab:c1:20:f1:34:5a
+ 
+===> 185/1/andinus.raku <===
+ab:c1:20:f1:34:5a 
+===> 185/1/arne-sommer.raku <===
+ab:c1:20:f1:34:5a
+ 
+===> 185/1/athanasius.raku <===
+Running the test suite
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Capitals
+ok 4 - Digits only
+ok 5 - Mix
+1..5
+ 
+===> 185/1/bruce-gray.raku <===
+1..2
+ok 1 - 
+ok 2 - 
+ 
+===> 185/1/deadmarshal.raku <===
+1a:c2:34:f0:b1:c2
+ab:c1:20:f1:34:5a
+ 
+===> 185/1/laurent-rosenfeld.raku <===
+1a:c2:34:f0:b1:c2
+ab:c1:20:f1:34:5a
+ 
+===> 185/1/luca-ferrari.raku <===
+ab:c1:20:f1:34:5a
+ 
+===> 185/1/mark-anderson.raku <===
+ok 1 - 
+ok 2 - 
+ 
+===> 185/1/massa.raku <===
+ok 1 - Example 1
+ok 2 - Example 2
+1..2
+ 
+===> 185/1/polettix.raku <===
+1a:c2:34:f0:b1:c2
+ 
+===> 185/1/robert-dicicco.raku <===
+1a:c2:34:f0:b1:c2
+ab:c1:20:f1:34:5a
+ 
+===> 185/1/roger-bell-west.raku <===
+1..2
+ok 1 - example 1
+ok 2 - example 2
+ 
+===> 185/1/steve-g-lynn.raku <===
+1a:c2:34:f0:b1:c2
+ab:c1:20:f1:34:5a
+ 
+===> 185/1/ulrich-rieke.raku <===
+ab:c1:20:f1:34:5a
+ 
+===> 185/1/wambash.raku <===
+1..2
+ok 1 - 
+ok 2 - 

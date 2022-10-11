@@ -2,7 +2,7 @@
 
 my token four-hexa { <xdigit> ** 4 }
 
-my $input = prompt 'Input: ';
+my $input = 'abc1.20f1.345a'; # prompt 'Input: ';
 $input .= trim;
 die 'Please provide a valid hhhh.hhhh.hhhh MAC address!' unless $input ~~ / ^ <four-hexa> '.' <four-hexa> '.' <four-hexa> $ /;
 print 'Output: ';

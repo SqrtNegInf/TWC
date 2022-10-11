@@ -1,5 +1,4 @@
 #!/usr/bin/env raku
-use v6d;
 
 ###############################################################################
 =begin comment
@@ -59,13 +58,6 @@ subset Hex of Str where * ~~ / ^ <xdigit> $ /;
 my UInt constant $TOTAL-DIGITS = 12;
 my UInt constant $DIGIT-SET    =  4;
 my UInt constant $TEST-FIELDS  =  3;
-
-#------------------------------------------------------------------------------
-BEGIN
-#------------------------------------------------------------------------------
-{
-    "\nChallenge 185, Task #1: MAC Address (Raku)\n".put;
-}
 
 #==============================================================================
 multi sub MAIN

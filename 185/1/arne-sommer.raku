@@ -1,6 +1,6 @@
 #!/usr/bin/env raku
 
-multi sub MAIN ($mac-dot where /^ <[0..9a..f]> **4 . <[0..9a..f]> **4 . <[0..9a..f]> **4 $/)
+multi sub MAIN ($mac-dot where /^ <[0..9a..f]> **4 . <[0..9a..f]> **4 . <[0..9a..f]> **4 $/ = 'abc1.20f1.345a')
 {
   say $mac-dot.split(".")>>.map({ $_.substr(0,2) ~ ":" ~ $_.substr(2,2) }).join(":");
 }

@@ -1,6 +1,7 @@
 #!/usr/bin/env raku
+
 unit sub MAIN(
-    Str $mac-address, #= MAC address (hhhh.hhhh.hhhh)
+    Str $mac-address = 'abc1.20f1.345a'
 );
 
 # Converts in hh:hh:hh:hh:hh:hh form.
