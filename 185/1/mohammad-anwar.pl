@@ -1,19 +1,5 @@
 #!/usr/bin/env perl
 
-=head1
-
-Week 185:
-
-    https://theweeklychallenge.org/blog/perl-weekly-challenge-185
-
-Task #1: MAC Address
-
-    You are given MAC address in the form i.e. hhhh.hhhh.hhhh.
-
-    Write a script to convert the address in the form hh:hh:hh:hh:hh:hh.
-
-=cut
-
 use v5.36;
 use Test2::V0 -srand => 1;
 

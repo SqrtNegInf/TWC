@@ -1,9 +1,5 @@
 #!/usr/bin/env perl
 
-# AUTHOR: Robert DiCicco
-# DATE: 2022-10-03
-# Challenge 185  Mac Address ( Perl )
-
 use strict;
 use warnings;
 use feature "say";

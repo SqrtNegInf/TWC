@@ -20,16 +20,6 @@ is( mac_regex( $_->[0]), $_->[1] ) foreach @TESTS;
 is( mac_regexg($_->[0]), $_->[1] ) foreach @TESTS;
 is( mac_regex2($_->[0]), $_->[1] ) foreach @TESTS;
 is( mac_split( $_->[0]), $_->[1] ) foreach @TESTS;
-
-cmpthese( 1_000_000, {
-  'pack'   => sub { mac_pack(  $_) for @TESTS; },
-  'submap' => sub { mac_substr($_) for @TESTS; },
-  'substr' => sub { mac_substr($_) for @TESTS; },
-  'regex'  => sub { mac_regex( $_) for @TESTS; },
-  'regexg' => sub { mac_regexg($_) for @TESTS; },
-  'regex2' => sub { mac_regex2($_) for @TESTS; },
-  'split'  => sub { mac_split( $_) for @TESTS; },
-});
 done_testing();
 
 sub mac_split  { join ':', @{[split /(\w\w)/, pop]}[1,3,5,7,9,11] }

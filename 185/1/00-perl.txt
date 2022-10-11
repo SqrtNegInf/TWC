@@ -1,0 +1,125 @@
+ 
+===> 185/1/athanasius.pl <===
+Running the test suite
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Capitals
+ok 4 - Digits only
+ok 5 - Mix
+1..5
+ 
+===> 185/1/cheok-yin-fung.pl <===
+1..2
+ok 1
+ok 2
+ 
+===> 185/1/colin-crain.pl <===
+ok 1 - ex-1
+ok 2 - ex-2
+1..2
+ 
+===> 185/1/dave-jacoby.pl <===
+        Input:  1ac2.34f0.b1c2
+        Output: 1a:c2:34:f0:b1:c2
+
+        Input:  abc1.20f1.345a
+        Output: ab:c1:20:f1:34:5a
+
+ 
+===> 185/1/deadmarshal.pl <===
+1a:c2:34:f0:b1:c2
+ab:c1:20:f1:34:5a
+ 
+===> 185/1/e-choroba.pl <===
+# Seeded srand with seed '1' from import arg.
+1..6
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Case
+ok 4 - Invalid char
+ok 5 - Too short
+ok 6 - Too long
+ 
+===> 185/1/james-smith.pl <===
+ok 1
+ok 2
+ok 3
+ok 4
+ok 5
+ok 6
+ok 7
+ok 8
+ok 9
+ok 10
+ok 11
+ok 12
+ok 13
+ok 14
+1..14
+ 
+===> 185/1/julien-fiegehenn.pl <===
+ok 1 - example 1
+ok 2 - example 2
+1..2
+ 
+===> 185/1/kueppo-wesley.pl <===
+ok 1 - Properly converted mac addresses
+1..1
+ 
+===> 185/1/laurent-rosenfeld.pl <===
+1a:c2:34:f0:b1:c2
+ab:c1:20:f1:34:5a
+ 
+===> 185/1/lubos-kolouch.pl <===
+ok 1
+ok 2
+1..2
+ 
+===> 185/1/mohammad-anwar.pl <===
+# Seeded srand with seed '1' from import arg.
+ok 1 - Example 1
+ok 2 - Example 2
+1..2
+ 
+===> 185/1/perlboy1967.pl <===
+ok 1
+ok 2
+1..2
+ 
+===> 185/1/peter-campbell-smith.pl <===
+
+Input:  1ac2.34f0.b1c2
+Output: 1a:c2:34:f0:b1:c2
+
+Input:  abc1.20f1.345a
+Output: ab:c1:20:f1:34:5a
+ 
+===> 185/1/pokgopun.pl <===
+Input: 1ac2.34f0.b1c2
+Output: 1a:c2:34:f0:b1:c2
+
+Input: abc1.20f1.345a
+Output: ab:c1:20:f1:34:5a
+
+ 
+===> 185/1/polettix.pl <===
+1a:c2:34:f0:b1:c2
+ 
+===> 185/1/robert-dicicco.pl <===
+1a:c2:34:f0:b1:c2
+ab:c1:20:f1:34:5a
+ 
+===> 185/1/roger-bell-west.pl <===
+1..2
+ok 1 - example 1
+ok 2 - example 2
+ 
+===> 185/1/solathian.pl <===
+ 
+===> 185/1/steve-g-lynn.pl <===
+1a:c2:34:f0:b1:c2
+ab:c1:20:f1:34:5a
+ 
+===> 185/1/tyler-wardhaugh.pl <===
+1a:c2:34:f0:b1:c2
+ab:c1:20:f1:34:5a
