@@ -1,5 +1,4 @@
 #!/usr/bin/env raku
-use v6 ;
 
 sub mySubstitution( Str $word is copy ) {
   my $count = 0 ;
@@ -17,8 +16,7 @@ sub mySubstitution( Str $word is copy ) {
   return $word ;
 }
 
-say "Enter some strings, separated by blanks!" ;
-my $line = $*IN.get ;
+my $line = 'ab-cde-123 123.abc.420 3abc-0010.xy';
 my @words = $line.split( /\s/ ) ;
 my @transformed = @words.map( { mySubstitution( $_ ) } ) ;
 say @transformed.join( ',' ) ;

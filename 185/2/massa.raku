@@ -1,21 +1,5 @@
 #!/usr/bin/env raku
 
-=begin head1
-
-Week 185:
-
-    https://theweeklychallenge.org/blog/perl-weekly-challenge-185
-
-Task #2: Mask Code
-
-    You are given a list of codes in many random format.
-
-    Write a script to mask first four characters (a-z,0-9) and keep
-    the rest as it is.
-
-=end head1
-
-use v6;
 use Test;
 
 is-deeply mask-code(<ab-cde-123 123.abc.420 3abc-0010.xy>),

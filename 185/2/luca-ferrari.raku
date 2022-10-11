@@ -1,8 +1,6 @@
 #!/usr/bin/env raku
 
-# Perl Weekly Challenge 185
-
-sub MAIN( *@codes ) {
+sub MAIN( @codes = ('ab-cde-123', '123.abc.420', '3abc-0010.xy') ) {
     my @output-codes;
     for @codes -> $current-code {
         my @current-output;

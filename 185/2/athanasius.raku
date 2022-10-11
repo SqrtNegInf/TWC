@@ -1,5 +1,4 @@
 #!/usr/bin/env raku
-use v6d;
 
 ###############################################################################
 =begin comment
@@ -57,13 +56,6 @@ my Str      constant $MASK-CHAR    = 'x';
 my UInt     constant $MASK-COUNT   =  4;
 my Set[Str] constant $TARGET-CHARS =  Set[Str].new: |('a'..'z'), |('0'..'9');
 my UInt     constant $TEST-FIELDS  =  3;
-
-#------------------------------------------------------------------------------
-BEGIN
-#------------------------------------------------------------------------------
-{
-    "\nChallenge 185, Task #2: Mask Code (Raku)\n".put;
-}
 
 #==============================================================================
 multi sub MAIN

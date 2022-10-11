@@ -1,9 +1,4 @@
 #!/usr/bin/env raku
-use v6;
-
-# AUTHOR: Robert DiCicco
-# DATE: 2022-10-03
-# Challenge 185 Mask Code ( Raku )
 
 my @list = ('ab-cde-123', '123.abc.420', '3abc-0010.xy', '1234567.a', 'a-1234-bc', 'a.b.c.d.e.f');
 

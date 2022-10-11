@@ -1,5 +1,5 @@
 #!/usr/bin/env raku
-use v6;
+
 sub MAIN {
    .put for mask-code(< ab-cde-123 123.abc.420 3abc-0010.xy
    1234567.a a-1234-bc a.b.c.d.e.f >);

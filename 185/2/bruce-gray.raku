@@ -1,6 +1,7 @@
 #!/usr/bin/env raku
 sub task2 ( @a ) {
     # Could have avoided $c and codeblock, and simply use the `:4x` below, but I have not upgrade my Rakudo.
+    # DH - not quite: fails last test
     # return @a.map: *.subst( :4x, /<[a..z0..9]>/, 'x' );
 
     return @a.map: {

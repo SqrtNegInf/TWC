@@ -1,5 +1,5 @@
 #!/usr/bin/env raku
-unit sub MAIN(*@codes);
+unit sub MAIN(@codes = ('ab-cde-123', '123.abc.420', '3abc-0010.xy'));
 
 for @codes -> $code {
     my Int $count;
