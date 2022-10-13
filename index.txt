@@ -388,8 +388,8 @@ Challenge titles and Rosetta-code correspondences (exact, and otherwise)
 184-2 Split Array
 185-1 MAC Address
 185-2 Mask Code
-186-1
-186-2
+186-1 Zip List
+186-2 Unicode Makeover
 187-1
 187-2
 188-1
