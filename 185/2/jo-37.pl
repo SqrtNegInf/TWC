@@ -4,7 +4,8 @@ use v5.16;
 use warnings;
 
 # Mask all given arguments.
-say mask4($_) for @ARGV;
+
+say mask4($_) for 'ab-cde-123', '123.abc.420', '3abc-0010.xy';
 
 sub mask4 {
     my $cnt = 0;

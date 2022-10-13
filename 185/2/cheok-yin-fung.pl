@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-# The Weekly Challenge 185
-# Task 2 Mask Code
+
 use v5.30.0;
 use warnings;
 

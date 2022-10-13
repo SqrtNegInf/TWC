@@ -3,17 +3,6 @@ use strict;
 use warnings;
 use experimental 'regex_sets';
 
-# You are given a list of codes in many random format.
-
-# Write a script to mask first four characters (a-z,0-9) and keep the rest as it is.
-
-# Example 1
-# Input: @list = ()
-# Output: ('xx-xxe-123', 'xxx.xbc.420', 'xxxx-0010.xy')
-# Example 2
-# Input: @list = ('1234567.a', 'a-1234-bc', 'a.b.c.d.e.f')
-# Output: ('xxxx567.a', 'x-xxx4-bc', 'x.x.x.x.e.f')
-
 # breaks if the string has an x in the first four
 sub mask_first_four {
     my $code = shift;

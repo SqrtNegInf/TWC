@@ -1,20 +1,5 @@
 #!/usr/bin/env perl
 
-=head1
-
-Week 185:
-
-    https://theweeklychallenge.org/blog/perl-weekly-challenge-185
-
-Task #2: Mask Code
-
-    You are given a list of codes in many random format.
-
-    Write a script to mask first four characters (a-z,0-9) and keep
-    the rest as it is.
-
-=cut
-
 use v5.36;
 use Test2::V0 -srand => 1;
 

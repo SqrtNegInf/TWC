@@ -1,9 +1,5 @@
 #!/usr/bin/env perl
 
-# AUTHOR: Robert DiCicco
-# DATE: 2022-10-0003
-# Challenge 185 Mask Code ( Perl )
-
 use strict;
 use warnings;
 

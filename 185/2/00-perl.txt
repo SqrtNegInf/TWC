@@ -1,0 +1,143 @@
+ 
+===> 185/2/athanasius.pl <===
+Running the test suite
+ok 1 - Example 1.1
+ok 2 - Example 1.2
+ok 3 - Example 1.3
+ok 4 - Example 2.1
+ok 5 - Example 2.2
+ok 6 - Example 2.3
+ok 7 - Short string
+ok 8 - x unchanged
+1..8
+ 
+===> 185/2/cheok-yin-fung.pl <===
+1..2
+ok 1
+ok 2
+ 
+===> 185/2/colin-crain.pl <===
+ab-cde-123
+xx-xxe-123
+xx-xxe-123
+
+123.abc.420
+xxx.xbc.420
+xxx.xbc.420
+
+3abc-0010.xy
+xxxx-0010.xy
+xxxx-0010.xy
+
+1234567.a
+xxxx567.a
+xxxx567.a
+
+a-1234-bc
+x-xxx4-bc
+x-xxx4-bc
+
+a.b.c.d.e.f
+x.x.x.x.e.f
+x.x.x.x.e.f
+
+ 
+===> 185/2/dave-jacoby.pl <===
+        Input:  (["ab-cde-123","123.abc.420","3abc-0010.xy"])
+        Output: (["xx-xxe-123","xxx.xbc.420","xxxx-0010.xy"])
+
+        Input:  (["1234567.a","a-1234-bc","a.b.c.d.e.f"])
+        Output: (["xxxx567.a","x-xxx4-bc","x.x.x.x.e.f"])
+
+ 
+===> 185/2/deadmarshal.pl <===
+xx-xxe-123 xxx.xbc.420 xxxx-0010.xy 
+xxxx567.a x-xxx4-bc x.x.x.x.e.f  
+===> 185/2/e-choroba.pl <===
+# Seeded srand with seed '1' from import arg.
+1..3
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Shorter
+ 
+===> 185/2/james-smith.pl <===
+[0-9a-z]([^0-9a-z]*)[0-9a-z]([^0-9a-z]*)[0-9a-z]([^0-9a-z]*)[0-9a-z]
+ok 1
+ok 2
+ok 3
+ok 4
+ok 5
+ok 6
+1..6
+ 
+===> 185/2/jo-37.pl <===
+xx-xxe-123
+xxx.xbc.420
+xxxx-0010.xy
+ 
+===> 185/2/julien-fiegehenn.pl <===
+ok 1 - example 1
+ok 2 - example 2
+1..2
+ 
+===> 185/2/kueppo-wesley.pl <===
+ok 1 - Did you mask correctly?
+1..1
+ 
+===> 185/2/lubos-kolouch.pl <===
+ok 1
+ok 2
+1..2
+ 
+===> 185/2/mohammad-anwar.pl <===
+# Seeded srand with seed '1' from import arg.
+ok 1 - Example 1
+ok 2 - Example 2
+1..2
+ 
+===> 185/2/perlboy1967.pl <===
+ok 1
+ok 2
+1..2
+ 
+===> 185/2/peter-campbell-smith.pl <===
+
+Input: @list = (ab-cde-123, 123.abc.420, 3abc-0010.xy)
+Output:        (xx-xxe-123, xxx.xbc.420, xxxx-0010.xy)
+
+Input: @list = (A5h&kP.....z, !"£$%^&*(), xxxx00000, abcd, ǀØΨ£‡⁇ aaaa)
+Output:        (Axx&xP.....x, !"£$%^&*(), xxxx00000, xxxx, ǀØΨ£‡⁇ xxxx)
+ 
+===> 185/2/pokgopun.pl <===
+Input: @list = ('1234567.a', 'a-1234-bc', 'a.b.c.d.e.f')
+Output: ('xxxx567.a', 'x-xxx4-bc', 'x.x.x.x.e.f')
+
+ 
+===> 185/2/polettix.pl <===
+xx-xxe-123
+xxx.xbc.420
+xxxx-0010.xy
+xxxx567.a
+x-xxx4-bc
+x.x.x.x.e.f
+ 
+===> 185/2/robbie-hatley.pl <===
+('xx-xxe-123', 'xxx.xbc.420', 'xxxx-0010.xy')
+ 
+===> 185/2/robert-dicicco.pl <===
+xx-xxe-123
+xxx.xbc.420
+xxxx-0010.xy
+xxxx567.a
+x-xxx4-bc
+x.x.x.x.e.f
+ 
+===> 185/2/roger-bell-west.pl <===
+1..2
+ok 1 - example 1
+ok 2 - example 2
+ 
+===> 185/2/wlmb.pl <===
+ab-cde-123 -> xx-xxe-123
+123.abc.420 -> xxx.xbc.420
+3abc-0010.xy -> xxxx-0010.xy

@@ -1,17 +1,9 @@
 #!/usr/bin/env perl
 
-# Peter Campbell Smith - 2022-10-02
-# PWC 185 task 1
-
 use v5.28;
 use utf8;
 use warnings;
 binmode(STDOUT, ':utf8');
-
-# You are given a list of random strings.
-# Write a script to change the first four characters matching [a-z0-9] to x and keep the rest as it is.
-
-# Blog: https://pjcs-pwc.blogspot.com/2022/10/manipulating-characters.html
 
 my (@tests, $test, @list, $item, $j, $output);
 

@@ -5,8 +5,8 @@ use strict;
 use warnings;
 use feature qw(say);
 use Test::More;
-use Benchmark qw(cmpthese timethis);
-use Data::Dumper qw(Dumper);
+#use Benchmark qw(cmpthese timethis);
+#use Data::Dumper qw(Dumper);
 
 say my $RE = join '([^0-9a-z]*)', ( '[0-9a-z]' ) x 4;
 
@@ -20,11 +20,6 @@ is( "@{[ mask_reghc(@{$_->[0]}) ]}", "@{$_->[1]}" ) for @TESTS;
 is( "@{[ mask_split(@{$_->[0]}) ]}", "@{$_->[1]}" ) for @TESTS;
 
 done_testing();
-cmpthese( 100_000, {
-  'reg'    => sub { mask_reg(   @{$_->[0]} ) for @TESTS; },
-  'reghc'  => sub { mask_reghc( @{$_->[0]} ) for @TESTS; },
-  'split'  => sub { mask_split( @{$_->[0]} ) for @TESTS; },
-});
 
 sub mask_reg   { map { s{$RE}{x$1x$2x$3x}or                                                                 } @_ }
 sub mask_reghc { map { s{[0-9a-z]([^0-9a-z]*)[0-9a-z]([^0-9a-z]*)[0-9a-z]([^0-9a-z]*)[0-9a-z]}{x$1x$2x$3x}r } @_ }
