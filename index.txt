@@ -390,8 +390,8 @@ Challenge titles and Rosetta-code correspondences (exact, and otherwise)
 185-2 Mask Code
 186-1 Zip List
 186-2 Unicode Makeover
-187-1
-187-2
+187-1 Days Together
+187-2 Magical Triplets
 188-1
 188-2
 189-1
