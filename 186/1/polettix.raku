@@ -1,5 +1,5 @@
 #!/usr/bin/env raku
-use v6;
+
 sub MAIN {
    my @a = <1 2 3>;
    my @b = <a b c>;

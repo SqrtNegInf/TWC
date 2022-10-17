@@ -1,4 +1,5 @@
 #!/usr/bin/env raku
+
 sub zip-it (@a, @b) {
     return ~ (@a Z @b).flat;
 }
