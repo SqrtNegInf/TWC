@@ -2,10 +2,7 @@
 use v5.36;
 use strict;
 use warnings;
-##
-# You are given two lists of the same size.
-# Create a subroutine sub zip() that merges the two lists.
-##
+
 sub zip($a, $b){
     return map { $a->[$_], $b->[$_] } 0 .. @$a - 1;
 }

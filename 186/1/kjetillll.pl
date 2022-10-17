@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
 
-#run like: perl ch-1.pl
-
 use Carp;
 
 sub zip(\@\@){

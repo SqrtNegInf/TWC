@@ -1,0 +1,123 @@
+ 
+===> 186/1/adam-russell.pl <===
+1, a, 2, b, 3, c
+a, 1, b, 2, c, 3
+ 
+===> 186/1/arne-sommer.pl <===
+qw/1 a 2 b 3 c/;
+qw/a 1 b 2 c 3/;
+ 
+===> 186/1/athanasius.pl <===
+
+Challenge 186, Task #1: Zip List (Perl)
+
+Running the test suite
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Odd/even
+ok 4 - Sentence
+1..4
+ 
+===> 186/1/cheok-yin-fung.pl <===
+1..2
+ok 1
+ok 2
+ 
+===> 186/1/colin-crain.pl <===
+1 4 2 5 3 6
+ 
+===> 186/1/dario-mazzeo.pl <===
+1a2b
+a1b2
+ 
+===> 186/1/dave-jacoby.pl <===
+    Input:  @a = qw/1 2 3/; @b = qw/a b c/;
+    Output: zip(@a, @b ) returns qw/1 a 2 b 3 c/
+            zip(@b, @a ) returns qw/a 1 b 2 c 3/
+
+ 
+===> 186/1/e-choroba.pl <===
+# Seeded srand with seed '1' from import arg.
+1..5
+ok 1 - Exapmle 1
+ok 2 - Example 2
+ok 3 - Length 6
+ok 4 - Length 4
+ok 5
+ 
+===> 186/1/izem.pl <===
+zipped: 1, a, 2, b, 3, c
+ 
+===> 186/1/jaldhar-h-vyas.pl <===
+1 a 2 b 3 c
+a 1 b 2 c 3
+ 
+===> 186/1/james-smith.pl <===
+ok 1
+ok 2
+ok 3
+1..3
+ 
+===> 186/1/jo-37.pl <===
+# Seeded srand with seed '1' from import arg.
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - three different sizes
+1..3
+ 
+===> 186/1/julien-fiegehenn.pl <===
+ok 1 - first example
+ok 2 - second example
+1..2
+ 
+===> 186/1/kjetillll.pl <===
+qw/1 a 2 b 3 c/
+ 
+===> 186/1/kueppo-wesley.pl <===
+ok 1 - Zipped?
+ok 2 - Zipped?
+1..2
+ 
+===> 186/1/laurent-rosenfeld.pl <===
+1 a 2 b 3 c 
+a 1 b 2 c 3 
+ 
+===> 186/1/lubos-kolouch.pl <===
+ok 1
+1..1
+ 
+===> 186/1/mohammad-anwar.pl <===
+# Seeded srand with seed '1' from import arg.
+ok 1 - example 1
+ok 2 - Example 2
+1..2
+ 
+===> 186/1/peter-campbell-smith.pl <===
+
+Input:  (1,2,3),(a,b,c)
+Output: (1,a,2,b,3,c)
+
+Input:  (c,r,e,t,a,s,e),(o,r,c, ,n,w,r)
+Output: (c,o,r,r,e,c,t, ,a,n,s,w,e,r)
+ 
+===> 186/1/polettix.pl <===
+(1 a 2 b 3 c)
+(a 1 b 2 c 3)
+(a 1 b 2 c 3)
+ 
+===> 186/1/robert-dicicco.pl <===
+1 a 2 b 3 c
+a 1 b 2 c 3
+ 
+===> 186/1/roger-bell-west.pl <===
+1..1
+ok 1 - example 1
+ 
+===> 186/1/steve-g-lynn.pl <===
+1 a 2 b 3 c
+a 1 b 2 c 3
+ 
+===> 186/1/tim-potapov.pl <===
+ok 1 - Zip 123 with abc
+ok 2 - Zip abc with 123
+1..2

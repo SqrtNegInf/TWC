@@ -1,7 +1,4 @@
 #!/usr/bin/env perl
-# THE WEEKLY CHALLENGE - 186
-# Task 1: Zip List
-# Autore: Dario Mazzeo
 
 my @a = (1, 2, 3);
 my @b = ('a', 'b', 'c');

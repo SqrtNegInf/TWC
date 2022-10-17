@@ -16,7 +16,7 @@ sub zip (\@\@) {
    map { ($A->[$_], $B->[$_]) } 0 .. $A->$#*;
 }
 
-sub listy_zip {
+sub lzip {
    my @A = splice @_, 0, @_ / 2;
    map { ($A[$_], $_[$_]) } 0 .. $#_;
 }

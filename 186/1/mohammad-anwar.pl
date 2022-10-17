@@ -1,19 +1,5 @@
 #!/usr/bin/env perl
 
-=head1
-
-Week 186:
-
-    https://theweeklychallenge.org/blog/perl-weekly-challenge-186
-
-Task #1: Zip List
-
-    You are given two list @a and @b of same size.
-
-    Create a subroutine sub zip(@a, @b) that merge the two list.
-
-=cut
-
 use v5.36;
 use Test2::V0 -srand => 1;
 
@@ -24,10 +10,6 @@ is [ zip(\@a, \@b) ], [ qw/1 a 2 b 3 c/ ], 'example 1';
 is [ zip(\@b, \@a) ], [ qw/a 1 b 2 c 3/ ], 'Example 2';
 
 done_testing;
-
-#
-#
-# METHOD
 
 sub zip($a, $b) {
     my @list = (@$a, @$b);

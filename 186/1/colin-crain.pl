@@ -1,4 +1,4 @@
-#!/Users/colincrain/perl5/perlbrew/perls/perl-5.32.0/bin/perl
+#!/usr/bin/env perl
 #
 #       .pl
 #
