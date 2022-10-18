@@ -1,5 +1,7 @@
 #!/usr/bin/env perl
 
+die 'Interesting code, but output is not stable';
+
 srand 1;
 
 use strict;

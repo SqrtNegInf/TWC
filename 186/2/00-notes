@@ -1,1 +1,3 @@
 JVM largely fails for this task.
+
+james-smith.pl: Interesting code, but output is not stable.  Keep around, but don't test.
