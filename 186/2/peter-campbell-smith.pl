@@ -1,18 +1,10 @@
 #!/usr/bin/env perl
 
-# Peter Campbell Smith - 2022-10-10
-# PWC 186 task 2
-
 use v5.28;
 use utf8;
 use warnings;
 use charnames ':full';
 binmode(STDOUT, ':utf8');
-
-# You are given a string containing characters which may have diacritic marks. Create a subroutine 
-# makeover($str) that replaces these characters with their unmarked equivalents.
-
-# Blog: https://pjcs-pwc.blogspot.com/2022/10/merge-like-zip-and-unidecode.html
 
 my (@tests, $test);
 

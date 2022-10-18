@@ -1,0 +1,206 @@
+ 
+===> 186/2/arne-sommer.pl <===
+AEIOU
+aEiOU
+ 
+===> 186/2/athanasius.pl <===
+
+Challenge 186, Task #2: Unicode Makeover (Perl)
+
+Running the test suite
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Finnish
+ok 4 - French 1
+ok 5 - French 2
+ok 6 - German
+ok 7 - Icelandic
+ok 8 - Letter o
+ok 9 - Acute capitals
+ok 10 - Circumflex small
+ok 11 - Double capitals
+ok 12 - Yours truly
+ok 13 - Krio
+1..13
+ 
+===> 186/2/cheok-yin-fung.pl <===
+1..5
+ok 1
+ok 2
+ok 3
+ok 4
+ok 5
+ 
+===> 186/2/colin-crain.pl <===
+input:     âÊíÒÙ
+unidecode: aEiOU
+makeover:  aEiOU
+ok 1 - ex-1
+ok 2 - ex-2
+ok 3 - mixed ascii + unicode
+ok 4 - LATIN CAPITAL LETTER G WITH CEDILLA
+1..4
+ 
+===> 186/2/dave-jacoby.pl <===
+    Input:  AEIOU
+    Output: AEIOU
+
+    Input:  aeiou
+    Output: aeiou
+
+    Input:  ÃÊÍÒÙ
+    Output: AEIOU
+
+    Input:  âÊíÒÙ
+    Output: aEiOU
+
+ 
+===> 186/2/e-choroba.pl <===
+1..2
+ok 1 - Example 1
+ok 2 - Example 2
+ 
+===> 186/2/izem.pl <===
+ÃÊÍÒÙ: 'AEIOU'
+âÊíÒÙ: 'aEiOU'
+ŒőŢų: 'OEoTu'
+ 
+===> 186/2/jaldhar-h-vyas.pl <===
+AEIOU
+aEiOU
+AEDOSSTHaedossthOEoeFf
+ 
+===> 186/2/james-smith.pl <===
+
+Ṯaṥḵ 1: Zíṗ Ḹiṥŧ
+Ṧǖḅꭐîtʇeɗ bỵ: Ɯǫḩǻṁꭐǟd Ș Ǟǹʍảɼ
+Ỷõư äṙe ɡĭⱽȅƞ tⱳớ ĺìșƫ @å ⱥƞd @ḅ ɵƒ ṡẚmḕ sïɀɚ.
+
+Cȓḙảƫḝ â ṣǔbꭊǭųʈįɳë sųḇ ẑįṗ(@ȧ, @b) ⱦʯàť ꭐḙrgɝ ƭⱨɘ tẅớ
+ⱡįšţ ꭤŝ șḫốwṇ ín tɦḛ ɜẋằṃṕľé ḇeḷⱺẃ.
+
+Ṯäŝk 2: Ǚnicoȡe Ɯaḳẽoṿḗṙ
+Šüḃɯĩʇtɘđ ƃy: Ṁǭḥẳḿꭐǻƌ Ŝ Ǟṅⱳår
+Ÿōū ꭤɽē ǧīỽeṅ ɒ ṧṱꭌịȵg ⱳîth ƥöşʂḯḃꬸể uņíꬿȏdế cḥãrẩȼtꬲrʂ.
+
+Ḉꭋɜãƫẹ a şǜḇɾoũƭịɲễ ŝǘɓ ꭑǟⱪɞȱʌꬳꭈ($şƭr) ṯʯȧƫ ɻėṗlꭤćể ȶḧꬲ
+unicōẟɚ ĉẗărɒĉʈeꭊẝ ẁĩṱʮ ặşꬿîi ɘʠǔïṿȧłⱻṋƭ. Fṑṟ ʇḩíꭍ ʇꭤşḱ,
+ḹêṱ ṻs ɒššűɯě ȋŧ önļƴ cọnţắïɲʂ ɑłƥʯáɓḛțś.
+
+
+Ťașḳ 1: Ẕīṕ Ⱡĩẛṱ
+Ȿữḅmiʇtḛȡ ƀẏ: Ɯoɥặṃɯẳd S Ấňŵåꭈ
+Yȣ áŗʚ ɡḯṿęṇ ṯẇỗ ļǐsṱ @a ḁꬻȡ @ḇ oƒ sɐmę šĩẕʚ.
+
+Ƈrɇặƫe ɒ ṥuḅꭇȣtɪṉȇ ẜụɓ ʐiṗ(@à, @b) þat ꬺeꭇʛɛ ṯɦḗ ṱẃo
+ḹıȿṯ ás ṡḣɔwṋ ɨñ þʚ ḛꭖậḿṕȴề ḇeɭőẅ.
+
+Ţașⱪ 2: Ʊnǐcⱺḏḕ Ḿẚʞeȍvɇŗ
+ſůƀmỉṯțěḑ ḅỹ: Mȱḥǡɰmǟđ Ṩ Anẘȁr
+Ẏȣ ẳɾe gɨʌeꭎ a śṭŕḭnꬶ wīþ ṕờꭍṩḯḃļḙ ṵnḯꭄḓě ꬿĥaṛꭤꬿtẹrş.
+
+Ĉȓɘɐṫě a ẝũʙɻȣţĭꭒe sũḇ ɱaḵeóⱱəṙ($ŝṫꭆ) ðáṫ rɇṕlaꭢ þɚ
+ŭnĭcȏḍe cḫǟṟâꬿṫểrș ⱳḯþ ɑẛƈïĩ ḝɋủȉṽaļẻꭒⱦ. Ƒoṛ ðɨs ʈæšķ,
+ɫꬳť ưs aṡsʊṃe ĭṯ ớnľy ꭄꬻțɑǐṉṧ ấlƥⱨãʙɚʦ.
+
+
+# Ţɦȩ Ẉꭂⱪlỷ Čḥǎỻḙɲǵe 186
+
+Ȳȣ ꬿãƞ ꬵînd ḿờrḝ ìꭎḟọrꭑắṱɪon ǟḅȣṭ þiŝ ẘꭂⱪš, ꬰnȡ ṕȑėʋỉȣs wꭂkẝ çḧẩỻeŋꬴŝ aʈ:
+
+  ʜṯƭƥʂ://þėwꭂḳlẙćḣẚḻlⱸŋɛ.ỗꭌg/
+
+Ĩꬵ ȳȣ ɐɽɇ ꭎōƫ ꭤꬷȓèɑđŷ dǫɪꭎḡ ðɘ ɕħaỻeńǥé - ìƭ iṩ ꭤ ʛɵõḏ pŀaꭢ ṭǫ ƥṟȧɕtiŝɛ ꭅớŭr
+**ṗɘȑɬ** ốř **ꭆāḳû**. Ìḟ ɩṭ iṣ ɳöṯ **pȩrɫ** ởṝ **ꭆꭤkử** ýȣ ȡȅvełỏp įŉ - ỵȣ ƈɑꭎ
+șȗʙꭐȋṭ ꭍỏḷừtıòꭏs îꬻ wȟḭćḥeʋëʁ ḽaŋủaģé ỷŏṳ ꬵꭂl ꭄṁfớřṱꬰḃꬸḛ ẅịþ.
+
+Ýȣ čaꭎ fîŉḓ ðɇ ȿỗľữʈỉợns ʯerɘ ợn ģịðṳḃ ât:
+
+ḧțtṗṡ://ǧiðúɓ.ꭄm/ḓɽbąğgỳ/ƥḕřlŵꭂkⱡʏćhaỻeŋẽ-čḽṹb/ṱɽꭂ/ꭑɒsʈër/ɕɦậỻəŋę-186/ɉaṁeṥ-ʂmĭð
+
+-                        ÃÊÍÒÙ! => AEIOU!
+-                         âÊíÒÙ => aEiOU
+-           Ƭȟȩ Ẇḕȅǩȴƴ Ćħąỻḝṅḡể => The Weekly Challenge
+ok 1
+ok 2
+ok 3
+ok 4
+ok 5
+ok 6
+1..6
+ 
+===> 186/2/jo-37.pl <===
+# Seeded srand with seed '1' from import arg.
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - composed, decomposed, unmodified and non-ascii chars
+1..3
+ 
+===> 186/2/julien-fiegehenn.pl <===
+ok 1 - first example
+ok 2 - second example
+1..2
+ 
+===> 186/2/kjetillll.pl <===
+âÊíÒÙ →  aEiOU
+ 
+===> 186/2/kueppo-wesley.pl <===
+ok 1 - is 'AEIOU' its ascii equivalence?
+ok 2 - is 'aEiOU' its ascii equivalence?
+1..2
+ 
+===> 186/2/laurent-rosenfeld.pl <===
+ÃÊÍÒÙ -> 	AEIOU
+âÊíÒÙ -> 	aEiOU
+àçùòîéèûä -> 	acuoieeua
+ 
+===> 186/2/lubos-kolouch.pl <===
+ok 1
+1..1
+ 
+===> 186/2/mattneleigh.pl <===
+
+Input: $str = 'ÃÊÍÒÙ';
+Output: 'AEIOU'
+
+Input: $str = 'âÊíÒÙ';
+Output: 'aEiOU'
+
+Input: $str = '北亰';
+Output: 'Bei Jing '
+
+Input: $str = 'χρονος';
+Output: 'khronos'
+
+ 
+===> 186/2/peter-campbell-smith.pl <===
+
+Input:  ÃÊÍÒÙ
+Output: AEIOU
+
+Input:  âÊíÒÙ
+Output: aEiOU
+
+Input:  ĐđĒēĔĕĖėĘęĚěĜĝĞğĠġĢģĤĥĦħĨĩĪīĬĭĮįİŁłŃńŐőŔŕŖŗŘřŚśŜŝŞş
+Output: DdEeEeEeEeEeGgGgGgGgHhHhIiIiIiIiILlNnOoRrRrRrSsSsSs
+ 
+===> 186/2/polettix.pl <===
+aEiOU whatever123 AEIOU
+ 
+===> 186/2/robert-dicicco.pl <===
+AEIOU
+aEiOU
+ 
+===> 186/2/roger-bell-west.pl <===
+1..2
+ok 1 - example 1
+ok 2 - example 2
+ 
+===> 186/2/tim-potapov.pl <===
+ok 1 - Uppercase
+ok 2 - Mixed case
+ok 3 - Really mixed case
+1..3
+ 
+===> 186/2/wlmb.pl <===
+AEIOU

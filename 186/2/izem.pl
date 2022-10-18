@@ -3,6 +3,7 @@ use strict;
 use warnings;
 use feature 'say';
 use utf8;
+binmode(STDOUT, ':utf8'); # DH added
 use Unicode::UCD qw/charinfo charscript charinrange/;
 
 my $LATIN_RANGE = charscript('Latin');

@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-# Perl weekly challenge 186
-# Task 2:  Unicode Makeover
-#
-# See https://wlmb.github.io/2022/10/10/PWC186/#task-2-unicode-makeover
+
 use v5.36;
 use Encode qw(decode encode);
 use Unicode::Collate;
@@ -17,5 +14,4 @@ sub makeover($string){ # convert string to ascii
     join "", map {char2ascii $_} split "", $string
 }
 
-die "Usage: $0 S1 [S2...]\nto convert strings S1 S2 etc. to ascii" unless @ARGV;
-say encode("UTF-8", makeover(decode("UTF-8", $_))) for(@ARGV);
+say encode("UTF-8", makeover(decode("UTF-8", $_))) for('ÃÊÍÒÙ');

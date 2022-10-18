@@ -6,9 +6,9 @@ use utf8;
 
 use Text::Unidecode;
 
-*unicode_makeover = *Text::Unidecode::unidecode;
+*um = *Text::Unidecode::unidecode;
 
 use Test::More tests => 2;
 
-is unicode_makeover('ÃÊÍÒÙ'), 'AEIOU', 'Example 1';
-is unicode_makeover('âÊíÒÙ'), 'aEiOU', 'Example 2';
+is um('ÃÊÍÒÙ'), 'AEIOU', 'Example 1';
+is um('âÊíÒÙ'), 'aEiOU', 'Example 2';
