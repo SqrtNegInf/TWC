@@ -1,31 +1,6 @@
 #!/usr/bin/env raku
-# :vim ft=raku sw=4 expandtab  # ∅ ≡ ∩ ≢ ∈
-use v6.d;
+
 use Test;
-
-=begin comment
-186-2: Unicode Makeover     Submitted by: Mohammad S Anwar
-Given a string with possible unicode characters, create a subroutine
-'makeover($str)' that replaces the unicode characters with ascii
-equivalent.  For this task, let us assume it only contains alphabeticals.
-
-Example 1
-Input: $str = 'ÃÊÍÒÙ';
-Output: 'AEIOU'
-=end comment
-
-=begin comment
-The above spec offers no prerequisites for "conversion" but the
-examples suggest that, at the least, some Unicode look-a-likes
-to ASCII, with "decorations", can be replaced with what they look like.
-Raku's ':ignoremark' doc is similiarly obscure.  Therefore they must be
-the same.
-=end comment
-
-# sub _asciify( $char )
-# Use the :ignoremark (or :m) adverb to denude, if possible, a Unicode
-# Letter character to create and return an ASCII char. If not possible
-# return the letter.
 
 my @A-z = ( 'a'..'z', 'A'..'Z').flat;
 my %seen;

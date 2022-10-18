@@ -2,5 +2,5 @@
 
 sub makeover($_) { .samemark('a') }
 
-my $str = prompt '$str = ';
+my $str = 'ÃÊÍÒÙ';
 $str.&makeover.say;

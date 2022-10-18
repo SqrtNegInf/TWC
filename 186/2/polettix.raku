@@ -1,5 +1,5 @@
 #!/usr/bin/env raku
-use v6;
+
 sub MAIN {
    put makeover('âÊíÒÙ whatever123 ÃÊÍÒÙ');
 }

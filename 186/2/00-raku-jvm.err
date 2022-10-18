@@ -1,0 +1,41 @@
+samemark not yet implemented. Sorry.
+  in sub makeover at 2colours.raku line 3
+  in block <unit> at 2colours.raku line 6
+
+samemark not yet implemented. Sorry.
+  in sub makeover at arne-sommer.raku line 6
+  in block <unit> at arne-sommer.raku line 3
+
+samemark not yet implemented. Sorry.
+  in sub MAIN at feng-chang.raku line 3
+  in block <unit> at feng-chang.raku line 3
+
+NFD not yet implemented. Sorry.
+  in sub makeover at jaldhar-h-vyas.raku line 4
+  in sub MAIN at jaldhar-h-vyas.raku line 35
+  in block <unit> at jaldhar-h-vyas.raku line 34
+
+[31m===[0mSORRY![31m===[0m Error while compiling /Users/dhoekman/PWC/186/2/kueppo-wesley.raku
+Undeclared name:
+    NFKD used at line 4
+
+samemark not yet implemented. Sorry.
+  in sub makeover at laurent-rosenfeld.raku line 2
+  in block <unit> at laurent-rosenfeld.raku line 5
+
+samemark not yet implemented. Sorry.
+  in block <unit> at mark-anderson.raku line 4
+
+NFD not yet implemented. Sorry.
+  in sub makeover at polettix.raku line 9
+  in sub MAIN at polettix.raku line 3
+  in block <unit> at polettix.raku line 7
+
+NFD not yet implemented. Sorry.
+  in sub makeover at ulrich-rieke.raku line 6
+  in block <unit> at ulrich-rieke.raku line 16
+
+samemark not yet implemented. Sorry.
+  in sub unicode-makeover at wambash.raku line 3
+  in block <unit> at wambash.raku line 9
+

@@ -1,0 +1,52 @@
+ 
+===> 186/2/0rir.raku <===
+Input:  'startᎱ썀ÃÊÍÒÙâÊíÒÙÏĘęଽߗᎭ ᏂߵᎵᎼłǀᎲߺγϯͺʅʄªߺᏐΫάdone'
+Output: 'startᎱ썀AEIOUaEiOUIEeଽߗᎭ ᏂߵᎵᎼłǀᎲߺγϯͺʅʄªߺᏐΫάdone'
+ 
+===> 186/2/2colours.raku <===
+ 
+===> 186/2/arne-sommer.raku <===
+ 
+===> 186/2/athanasius.raku <===
+
+Challenge 186, Task #2: Unicode Makeover (Raku)
+
+Running the test suite
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Finnish
+ok 4 - French 1
+ok 5 - French 2
+ok 6 - German
+ok 7 - Icelandic
+ok 8 - Letter o
+ok 9 - Acute capitals
+ok 10 - Circumflex small
+ok 11 - Double capitals
+ok 12 - Yours truly
+ok 13 - Krio
+1..13
+ 
+===> 186/2/feng-chang.raku <===
+ 
+===> 186/2/jaldhar-h-vyas.raku <===
+ 
+===> 186/2/kueppo-wesley.raku <===
+ 
+===> 186/2/laurent-rosenfeld.raku <===
+ 
+===> 186/2/mark-anderson.raku <===
+ 
+===> 186/2/polettix.raku <===
+ 
+===> 186/2/robert-dicicco.raku <===
+AEIOU 
+aEiOU 
+ 
+===> 186/2/steve-g-lynn.raku <===
+~A^E'I`O`U
+^a^E'i`O`U
+ 
+===> 186/2/ulrich-rieke.raku <===
+ 
+===> 186/2/wambash.raku <===

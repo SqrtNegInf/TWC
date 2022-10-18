@@ -1,5 +1,4 @@
 #!/usr/bin/env raku
-use v6 ;
 
 sub makeover( $str is copy ) {
   my $madeover ;
@@ -9,8 +8,7 @@ sub makeover( $str is copy ) {
   return $madeover ;
 }
 
-say "Enter a string of possible unicode characters!" ;
-my $str = $*IN.get ;
+my $str = 'ÃÊÍÒÙ';
 while ( $str !~~ /^(<:Lu + :Lm>|<:Ll + :Lm>)+$/ ) {
   say "Input should contain non-ASCII characters!" ;
   $str = $*IN.get ;

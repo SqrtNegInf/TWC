@@ -1,9 +1,4 @@
 #!/usr/bin/env raku
-use v6;
-
-# AUTHOR: Robert DiCicco
-# DATE: 2022-10-11
-# Challenge 186 Unicode Makeover ( Raku )
 
 my @arr = ["ÃÊÍÒÙ","âÊíÒÙ"];
 
