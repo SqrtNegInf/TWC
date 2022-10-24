@@ -1,5 +1,5 @@
 #!/usr/bin/env raku
-use v6;
+
 sub MAIN ($foo = '12-01 20-01', $bar = '15-01 18-01') {
    my @foo = $foo.split(/\s+/);
    my @bar = $bar.split(/\s+/);

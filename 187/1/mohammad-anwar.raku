@@ -1,24 +1,5 @@
 #!/usr/bin/env raku
 
-=begin pod
-
-Week 187:
-
-    https://theweeklychallenge.org/blog/perl-weekly-challenge-187
-
-Task #1: Days Together
-
-    Two friends, Foo and Bar gone on holidays seperately to the same
-    city. You are given their schedule i.e. start date and end date.
-
-    To keep the task simple, the date is in the form 'DD-MM' and all
-    dates belong to the  same calendar year i.e. between '01-01' and
-    '31-12'.
-
-    Also the year is non-leap year and both dates are inclusive.
-
-=end pod
-
 use Test;
 
 is days-together('12-01','20-01','15-01','18-01'), 4, 'Example 1';

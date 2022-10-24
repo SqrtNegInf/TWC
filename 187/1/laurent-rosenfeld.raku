@@ -1,4 +1,5 @@
 #!/usr/bin/env raku
+
 my @m = < 0 31 28 31 30 31 30 31 31 30 31 30 31 >;
 my $c = 1;
 my %dates = map { $_ => $c++ },

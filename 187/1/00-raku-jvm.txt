@@ -1,0 +1,83 @@
+ 
+===> 187/1/0rir.raku <===
+  Input: Foo => SD: '30-03' ED: '05-04'
+         Bar => SD: '28-03' ED: '02-04'
+
+  Output: 4 days
+ 
+===> 187/1/arne-sommer.raku <===
+4
+0
+2
+4
+ 
+===> 187/1/athanasius.raku <===
+
+Challenge 187, Task #1: Days Together (Raku)
+
+Running the test suite
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ok 4 - Example 4
+ok 5 - Whole year
+ok 6 - Smallest overlap
+1..6
+ 
+===> 187/1/bruce-gray.raku <===
+1..6
+ok 1 - Example 1: 12-01 20-01 15-01 18-01
+ok 2 - Example 2: 02-03 12-03 13-03 14-03
+ok 3 - Example 3: 02-03 12-03 11-03 15-03
+ok 4 - Example 4: 30-03 05-04 28-03 02-04
+ok 5 - Extra 1: 30-03 05-04
+ok 6 - Extra 2: 30-03 05-04 28-03 02-04 01-04 02-04
+ 
+===> 187/1/laurent-rosenfeld.raku <===
+Number of days together for dates 12-01 20-01 15-01 18-01: 4
+Number of days together for dates 03-03 12-03 13-03 14-03: 0
+Number of days together for dates 02-03 12-03 11-03 15-03: 2
+Number of days together for dates 30-03 05-04 28-03 02-04: 4
+Number of days together for dates 12-01 13-03 09-01 25-04: 61
+ 
+===> 187/1/mark-anderson.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ok 4 - 
+ 
+===> 187/1/massa.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ok 4 - 
+1..4
+ 
+===> 187/1/mohammad-anwar.raku <===
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ok 4 - Example 4
+1..4
+ 
+===> 187/1/polettix.raku <===
+4
+ 
+===> 187/1/robert-dicicco.raku <===
+Output: 4
+Output: 0
+Output: 2
+Output: 4
+ 
+===> 187/1/roger-bell-west.raku <===
+1..4
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ok 4 - example 4
+ 
+===> 187/1/steve-g-lynn.raku <===
+4
+0
+2
+4

@@ -1,39 +1,6 @@
 #!/usr/bin/env raku
-# :vim ft=raku sw=4 expandtab  # 🦋 ∅ ≡ ∩ ≢ ∈
-use v6.d;
+
 use Test;
-
-=begin comment
-187-1: Days Together           Submitted by: Mohammad S Anwar
-Foo and Bar go on holidays seperately to the same city. Given their schedule
-i.e. start and end dates, find out for the given schedule, how many days they
-were both in the city at the same time.
-
-To keep the task simple, the date is in the form DD-MM and all dates belong
-to the same calendar year i.e. between 01-01 and 31-12. Also the year is
-non-leap year and both dates are inclusive.
-
-Example:
-Input: Foo => SD: '30-03' ED: '05-04'
-       Bar => SD: '28-03' ED: '02-04'
-Output: 4 days
-=end comment
-
-=begin comment
-This is a variation of challenge 183-2, with an added comparison.
-
-In Raku, the using 'dd-mm' strings for this task is simplest.  Using
-Dates is quite simple, and trivializes the leap-year and multi-year issues
-that the task spec seeks to avoid.  Using DateTimes has the advantages of
-Dates and also allows timestamping.
-
-I am using DateTimes.  I am holding to the implied input structure as
-part of the spec.  But I am first converting it to a rakuish object.
-This conversion is separated from the work of the task.  It is not
-partitioned to allow ease of reading.
-
-Most of the code will be for this conversion and its tests.
-=end comment
 
 my @Test =
     { Foo => { :SD('12-01'), :ED('20-01'),},
