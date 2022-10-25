@@ -1,8 +1,6 @@
 #!/usr/bin/env raku
 
-# Perl Weekly Challenge 187
-
-sub MAIN( *@n where { @n.grep( * ~~ Int ).elems == @n.elems } ) {
+sub MAIN( @n = (1, 2, 3, 1, 2, 3, 7, 9, 10, 5, 10) ) {
 
     my $max = 0;
     my @triplet;

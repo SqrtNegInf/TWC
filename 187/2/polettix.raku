@@ -1,6 +1,6 @@
 #!/usr/bin/env raku
-use v6;
-sub MAIN (*@args) { put magical-triplets(@args) }
+
+sub MAIN (@args = (1, 2, 3, 1, 2, 3, 7, 9, 10, 5, 10) ) { put magical-triplets(@args) }
 
 sub magical-triplets (@n) {
    my ($best, $best-score);

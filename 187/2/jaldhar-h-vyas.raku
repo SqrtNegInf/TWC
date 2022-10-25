@@ -1,7 +1,9 @@
 #!/usr/bin/env raku
 
+# very inefficient
+
 sub MAIN(
-    *@n
+    @n = (1, 2, 3, 2)
 ) {
     my $maximum = -Inf;
     my @maxima;

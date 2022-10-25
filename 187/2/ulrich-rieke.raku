@@ -1,9 +1,6 @@
 #!/usr/bin/env raku
-use v6 ;
 
-say "Enter a list of positive integers, separated by blanks!" ;
-my $line = $*IN.get ;
-my @numbers = $line.split( /\s/ ) ;
+my @numbers = (1, 2, 3, 1, 2, 3, 7, 9, 10, 5, 10);
 my @combis = @numbers.combinations( 3 ).Array ;
 my @triplets ;
 for @combis -> @combi {

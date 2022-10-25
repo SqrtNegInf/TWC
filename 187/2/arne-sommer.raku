@@ -1,6 +1,6 @@
 #!/usr/bin/env raku
 
-unit sub MAIN (*@n where @n.elems >= 3, :v(:$verbose));
+unit sub MAIN (@n where @n.elems >= 3 = (1, 2, 3, 1, 2, 3, 7, 9, 10, 5, 10), :v(:$verbose));
 
 my $max = @n.combinations(3)>>.sum.max;
 
