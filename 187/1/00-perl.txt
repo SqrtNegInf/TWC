@@ -1,0 +1,213 @@
+ 
+===> 187/1/adam-russell.pl <===
+4
+0
+2
+4
+ 
+===> 187/1/athanasius.pl <===
+
+Challenge 187, Task #1: Days Together (Perl)
+
+Running the test suite
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ok 4 - Example 4
+ok 5 - Whole year
+ok 6 - Smallest overlap
+1..6
+ 
+===> 187/1/cheok-yin-fung.pl <===
+1..4
+ok 1
+ok 2
+ok 3
+ok 4
+ 
+===> 187/1/colin-crain.pl <===
+ok 1 - jan-31
+ok 2 - feb-20
+ok 3 - mar-10
+ok 4 - ex-1
+ok 5 - ex-2
+ok 6 - ex-3
+ok 7 - ex-4
+ok 8 - missing completely
+ok 9 - same day
+ok 10 - one day vacay first friend
+ok 11 - one day vacay second friend
+1..11
+ 
+===> 187/1/dave-jacoby.pl <===
+INPUT:  Foo => SD: '12-01' ED: '20-01'
+        Bar => SD: '15-01' ED: '18-01'
+OUTPUT:     3
+
+
+INPUT:  Foo => SD: '15-01' ED: '18-01'
+        Bar => SD: '12-01' ED: '20-01'
+OUTPUT:     3
+
+
+INPUT:  Foo => SD: '02-03' ED: '12-03'
+        Bar => SD: '13-03' ED: '14-03'
+OUTPUT:     0
+
+
+INPUT:  Foo => SD: '13-03' ED: '14-03'
+        Bar => SD: '02-03' ED: '12-03'
+OUTPUT:     0
+
+
+INPUT:  Foo => SD: '02-03' ED: '12-03'
+        Bar => SD: '11-03' ED: '15-03'
+OUTPUT:     1
+
+
+INPUT:  Foo => SD: '30-03' ED: '05-04'
+        Bar => SD: '28-03' ED: '02-04'
+OUTPUT:     3
+
+
+INPUT:  Foo => SD: '11-11' ED: '12-12'
+        Bar => SD: '01-11' ED: '01-12'
+OUTPUT:     20
+
+
+ 
+===> 187/1/e-choroba.pl <===
+# Seeded srand with seed '1' from import arg.
+1..7
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ok 4 - Example 4
+ok 5 - One day
+ok 6 - Non adjacent 0
+ok 7 - Invalid order
+ 
+===> 187/1/james-smith.pl <===
+ok 1
+ok 2
+ok 3
+ok 4
+1..4
+ 
+===> 187/1/jo-37.pl <===
+# Seeded srand with seed '1' from import arg.
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ok 4 - example 4
+ok 5 - not a leap year
+ok 6 - three friends
+ok 7 - parse HoH
+1..7
+ 
+===> 187/1/mattneleigh.pl <===
+
+Input: Foo => SD: '12-01' ED: '20-01'
+       Bar => SD: '15-01' ED: '18-01'
+Output: 4 days
+
+Input: Foo => SD: '02-03' ED: '12-03'
+       Bar => SD: '13-03' ED: '14-03'
+Output: 0 days
+
+Input: Foo => SD: '02-03' ED: '12-03'
+       Bar => SD: '11-03' ED: '15-03'
+Output: 2 days
+
+Input: Foo => SD: '30-03' ED: '05-04'
+       Bar => SD: '28-03' ED: '02-04'
+Output: 4 days
+
+ 
+===> 187/1/mohammad-anwar.pl <===
+# Seeded srand with seed '1' from import arg.
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ok 4 - Example 4
+1..4
+ 
+===> 187/1/perlboy1967.pl <===
+ok 1
+ok 2
+ok 3
+ok 4
+1..4
+ 
+===> 187/1/peter-campbell-smith.pl <===
+
+Input: Foo => SD: '12-01' ED: '20-01'
+       Bar => SD: '15-01' ED: '18-01'
+Output: 4 days
+
+Input: Foo => SD: '02-03' ED: '12-03'
+       Bar => SD: '13-03' ED: '14-03'
+Output: 0 days
+
+Input: Foo => SD: '02-03' ED: '12-03'
+       Bar => SD: '11-03' ED: '15-03'
+Output: 2 days
+
+Input: Foo => SD: '30-03' ED: '05-04'
+       Bar => SD: '28-03' ED: '02-04'
+Output: 4 days
+
+Input: Foo => SD: '01-01' ED: '31-12'
+       Bar => SD: '01-01' ED: '31-12'
+Output: 365 days
+
+Input: Foo => SD: '01-xx' ED: '02-02'
+       Bar => SD: '03-03' ED: '04-04'
+Invalid data
+
+Input: Foo => SD: '01-01' ED: '01-01'
+       Bar => SD: '01-01' ED: '01-01'
+Output: 1 day
+ 
+===> 187/1/polettix.pl <===
+4
+ 
+===> 187/1/robert-dicicco.pl <===
+Bar: SD  2022-01-12  ED: 2022-01-20
+Bar: SD  2022-01-15  ED: 2022-01-18
+Output: 4
+ 
+Bar: SD  2022-03-02  ED: 2022-03-12
+Bar: SD  2022-03-13  ED: 2022-03-14
+Output: 0
+ 
+Bar: SD  2022-03-02  ED: 2022-03-12
+Bar: SD  2022-03-11  ED: 2022-03-15
+Output: 2
+ 
+Bar: SD  2022-03-30  ED: 2022-04-05
+Bar: SD  2022-03-28  ED: 2022-04-02
+Output: 4
+ 
+ 
+===> 187/1/roger-bell-west.pl <===
+1..4
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ok 4 - example 4
+ 
+===> 187/1/steve-g-lynn.pl <===
+4
+0
+2
+4
+ 
+===> 187/1/tim-potapov.pl <===
+ok 1 - A before B
+ok 2 - A after B
+ok 3 - Same month with overlap
+ok 4 - Same month with no overlap
+ok 5 - Same month with overlap
+ok 6 - Different months with overlap
+1..6

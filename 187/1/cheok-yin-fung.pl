@@ -1,8 +1,7 @@
 #!/usr/bin/env perl
-# The Weekly Challenge 187
-# Task 1 Days Together
+
 use v5.30.0;
-use warnings;
+no warnings;
 
 if ($ARGV[0] ne "") {
     say days_tgt({"SD"=>"".$ARGV[0], "ED"=>"".$ARGV[1]},

@@ -1,19 +1,9 @@
 #!/usr/bin/env perl
 
-# Peter Campbell Smith - 2022-10-19
-# PWC 187 task 1
-
 use v5.28;
 use utf8;
 use warnings;
 binmode(STDOUT, ':utf8');
-
-# Two friends, Foo and Bar have been on holiday separately to the same city. You are given their schedule 
-# ie start date and end date. The date is in the form DD-MM and all dates belong to the same calendar year 
-# ie between 01-01 and 31-12. Also the year is non-leap year and both dates are inclusive.
-# Write a script to find out how many days they spent together in the city, if at all.
-
-# Blog: https://pjcs-pwc.blogspot.com/2022/10/foo-meets-bar-and-wizardly-trio.html
 
 my (@days_in_month, @tests, $test, $j, $day, $month, @day_of_year, 
 	$start_together, $end_together, $time_together);

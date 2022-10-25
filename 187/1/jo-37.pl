@@ -6,7 +6,7 @@ use DateTime;
 use List::Util qw(min max);
 use experimental qw(signatures postderef);
 
-our ($tests, $examples);
+our ($tests, $examples) = (1,1);
 
 run_tests() if $tests || $examples;	# does not return
 

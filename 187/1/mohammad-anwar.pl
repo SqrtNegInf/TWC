@@ -1,24 +1,5 @@
 #!/usr/bin/env perl
 
-=head1
-
-Week 187:
-
-    https://theweeklychallenge.org/blog/perl-weekly-challenge-187
-
-Task #1: Days Together
-
-    Two friends, Foo and Bar gone on holidays seperately to the same
-    city. You are given their schedule i.e. start date and end date.
-
-    To keep the task simple, the date is in the form 'DD-MM' and all
-    dates belong to the  same calendar year i.e. between '01-01' and
-    '31-12'.
-
-    Also the year is non-leap year and both dates are inclusive.
-
-=cut
-
 use v5.36;
 use DateTime;
 use Test2::V0 -srand => 1;
