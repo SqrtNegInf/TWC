@@ -2,25 +2,11 @@
 
 srand 1;
 
-
-# Peter Campbell Smith - 2022-10-19
-# PWC 187 task 2
-
 use v5.28;
 use utf8;
 use warnings;
 binmode(STDOUT, ':utf8');
 use Algorithm::Combinatorics qw[variations];
-
-# You are given a list of positive numbers, @n, having at least 3 numbers.
-# Write a script to find the triplet (a, b, c) from the given list that satisfies the following rules.
-# 1. a + b > c
-# 2. b + c > a
-# 3. a + c > b
-# 4. a + b + c is maximum.
-# 5. If you end up with more than one triplet having the maximum then pick the triplet where a >= b >= c.
-
-# Blog: https://pjcs-pwc.blogspot.com/2022/10/foo-meets-bar-and-wizardly-trio.html
 
 my (@tests, $test, $iter, $triplet, $sum, $max, @triplet, @results, $r, $j, @rand, @this);
 

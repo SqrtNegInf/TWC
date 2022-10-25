@@ -1,29 +1,5 @@
 #!/usr/bin/env perl
 
-=head1
-
-Week 187:
-
-    https://theweeklychallenge.org/blog/perl-weekly-challenge-187
-
-Task #2: Magical Triplets
-
-    You are given a list of positive numbers, @n, having at least
-    3 numbers.
-
-    Write a script to find the triplets (a, b, c) from the given list
-    that satisfies the following rules.
-
-    1. a + b > c
-    2. b + c > a
-    3. a + c > b
-    4. a + b + c is maximum.
-
-    In case, you end up with more than one triplets having the maximum
-    then pick the triplet where a >= b >= c.
-
-=cut
-
 use v5.36;
 use Test2::V0 -srand => 1;
 use Algorithm::Combinatorics qw(variations);

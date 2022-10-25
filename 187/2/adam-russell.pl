@@ -1,16 +1,6 @@
 #!/usr/bin/env perl
+
 use v5.36;
-use strict;
-use warnings;
-##
-# You are given a list of positive numbers, @n, having at least 3 numbers.
-# Write a script to find the triplets (a, b, c) from the given list that satisfies 
-# the following rules.
-#    a + b > c
-#    b + c > a
-#    a + c > b
-#    a + b + c is maximum.
-##
 use Hash::MultiKey;
 use Math::Combinatorics;
 

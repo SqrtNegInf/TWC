@@ -1,0 +1,162 @@
+ 
+===> 187/2/adam-russell.pl <===
+(3, 2, 2)
+()
+()
+(2, 3, 4)
+ 
+===> 187/2/athanasius.pl <===
+Running the test suite
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ok 4 - Example 4
+ok 5 - All ones
+1..5
+ 
+===> 187/2/dave-jacoby.pl <===
+    Input:  @n = (1, 2, 3, 2)
+    Output: (2, 3, 2)
+
+    Input:  @n = (1, 3, 2)
+    Output: ()
+
+    Input:  @n = (1, 1, 2, 3)
+    Output: ()
+
+    Input:  @n = (2, 4, 3)
+    Output: (2, 4, 3)
+
+ 
+===> 187/2/e-choroba.pl <===
+# Seeded srand with seed '1' from import arg.
+1..5
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ok 4 - Example 4
+ok 5 - long list 990434 986934 982326
+ 
+===> 187/2/james-smith.pl <===
+ok 1
+ok 2
+ok 3
+ok 4
+ok 5
+ok 6
+ok 7
+ok 8
+1..8
+ 
+===> 187/2/jo-37.pl <===
+# Seeded srand with seed '1' from import arg.
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ok 4 - example 4
+ok 5 - no triangle from Fibonacci numbers
+ok 6 - F(N) = F(N-2) + F(N-1) - 1
+1..6
+ 
+===> 187/2/mohammad-anwar.pl <===
+# Seeded srand with seed '1' from import arg.
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ok 4 - Example 4
+1..4
+ 
+===> 187/2/perlboy1967.pl <===
+ok 1
+ok 2
+ok 3
+ok 4
+1..4
+ 
+===> 187/2/peter-campbell-smith.pl <===
+
+METHOD 1
+
+Input:  (1, 2, 3, 2)
+Output: (3, 2, 2)
+
+Input:  (1, 3, 2)
+Output: ()
+
+Input:  (1, 1, 2, 3)
+Output: ()
+
+Input:  (2, 4, 3)
+Output: (4, 3, 2)
+
+Input:  (1, 2, 3, 4, 5, 6, 7)
+Output: (7, 6, 5)
+
+Input:  (1, 7, 13, 34, 51, 78, 0, 4, 56, 43, 199, 20)
+Output: (78, 56, 51)
+
+Input:  (1, 0, 0)
+Output: ()
+
+Input:  (41, 454, 834, 335, 565, 1, 187, 990, 750, 366, 351, 573, 132, 64, 950, 153, 584, 216, 806, 140)
+Output: (990, 950, 834)
+
+METHOD 2
+
+Input:  (1, 2, 3, 2)
+Output: (3, 2, 2)
+
+Input:  (1, 3, 2)
+Output: ()
+
+Input:  (1, 1, 2, 3)
+Output: ()
+
+Input:  (2, 4, 3)
+Output: (4, 3, 2)
+
+Input:  (1, 2, 3, 4, 5, 6, 7)
+Output: (7, 6, 5)
+
+Input:  (1, 7, 13, 34, 51, 78, 0, 4, 56, 43, 199, 20)
+Output: (78, 56, 51)
+
+Input:  (1, 0, 0)
+Output: ()
+
+Input:  (41, 454, 834, 335, 565, 1, 187, 990, 750, 366, 351, 573, 132, 64, 950, 153, 584, 216, 806, 140)
+Output: (990, 950, 834)
+ 
+===> 187/2/robert-dicicco.pl <===
+Input: @n = [1 2 3 2]
+Output: [3, 2, 2]
+ 
+Input: @n = [1 3 2]
+Output: []
+ 
+Input: @n = [1 1 2 3]
+Output: []
+ 
+Input: @n = [2 4 3]
+Output: [4, 3, 2]
+ 
+ 
+===> 187/2/roger-bell-west.pl <===
+1..4
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ok 4 - example 4
+ 
+===> 187/2/steve-g-lynn.pl <===
+3 2 2
+
+
+4 3 2
+ 
+===> 187/2/tim-potapov.pl <===
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ok 4 - Example 4
+1..4

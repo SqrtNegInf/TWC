@@ -53,14 +53,3 @@ is magical_triplets(2, 4, 3), [4, 3, 2], 'Example 4';
 my @long_list = map int rand 1_000_000, 1 .. 100;
 is magical_triplets(@long_list), magical_triplets_slow(@long_list),
     "long list @{magical_triplets(@long_list)}";
-
-use Benchmark qw{ cmpthese };
-cmpthese(-3, {
-    fast => sub { magical_triplets(@long_list) },
-    slow => sub { magical_triplets_slow(@long_list) },
-});
-
-__END__
-         Rate    slow    fast
-slow   41.0/s      --   -100%
-fast 205494/s 501180%      --
