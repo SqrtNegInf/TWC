@@ -1,5 +1,7 @@
 #!/usr/bin/env perl
 
+# DH fix sorting of output
+
 use v5.36;
 use Hash::MultiKey;
 use Math::Combinatorics;
@@ -17,7 +19,7 @@ sub magical_triples{
         $triple_sum{[$s, $t, $u]} = $sum if $sum;
     }
     my @triples_sorted = sort {$triple_sum{$b} <=> $triple_sum{$a}} keys %triple_sum; 
-    return ($triples_sorted[0]->[0], $triples_sorted[0]->[1], $triples_sorted[0]->[2]) if @triples_sorted;
+    return sort { $b <=> $a } ($triples_sorted[0]->[0], $triples_sorted[0]->[1], $triples_sorted[0]->[2]) if @triples_sorted;
     return ();
 }
 
