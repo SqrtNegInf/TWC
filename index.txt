@@ -392,8 +392,8 @@ Challenge titles and Rosetta-code correspondences (exact, and otherwise)
 186-2 Unicode Makeover
 187-1 Days Together
 187-2 Magical Triplets
-188-1
-188-2
+188-1 Divisible Pairs
+188-2 Total Zero
 189-1
 189-2
 190-1
