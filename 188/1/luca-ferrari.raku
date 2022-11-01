@@ -1,6 +1,8 @@
 #!/usr/bin/env raku
 
-sub MAIN( Bool :$verbose = False, Int :$k, *@list where { @list.elems == @list.grep( * ~~ Int ).elems } ) {
+#sub MAIN( Bool :$verbose = False, Int :$k, *@list where { @list.elems == @list.grep( * ~~ Int ).elems } ) {
+my $k = 2;
+my @list = (4, 5, 1, 6);
     my @pairs;
     for 0 ..^ @list.elems -> $i {
         for $i ^..^ @list.elems -> $j {
@@ -8,6 +10,6 @@ sub MAIN( Bool :$verbose = False, Int :$k, *@list where { @list.elems == @list.g
         }
     }
 
-    @pairs.join( "\n" ).say if ( $verbose );
+    #@pairs.join( "\n" ).say if ( $verbose );
     @pairs.elems.say;
-}
+#}

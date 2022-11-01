@@ -1,5 +1,4 @@
 #!/usr/bin/env raku
-use v6d;
 
 ###############################################################################
 =begin comment
@@ -78,13 +77,6 @@ subset Result of List where (UInt, Array[Array[Int]]);
 
 my UInt constant $TEST-FIELDS = 4;
 my Bool constant $VERBOSE     = True;
-
-#------------------------------------------------------------------------------
-BEGIN
-#------------------------------------------------------------------------------
-{
-    "\nChallenge 188, Task #1: Divisible Pairs (Raku)\n".put;
-}
 
 #==============================================================================
 multi sub MAIN

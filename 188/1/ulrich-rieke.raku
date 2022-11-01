@@ -1,10 +1,6 @@
 #!/usr/bin/env raku
-use v6 ;
 
-say "Enter some positive integers, separated by a blank!" ;
-say "As last integer, enter a positive integer as divisor!" ;
-my $line = $*IN.get ;
-my @numbers = $line.split( /\s/ ) ;
+my @numbers = (4, 5, 1, 6, 2);
 my $k = @numbers[*-1] ;
 my $len = @numbers.elems ;
 my $count = 0 ;

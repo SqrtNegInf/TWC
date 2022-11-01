@@ -1,34 +1,6 @@
 #!/usr/bin/env raku
-# :vim ft=raku sw=4 expandtab  # 🦋 ∅ ≡ ∩ ≢ ∈
-use v6.d;
-use lib $?FILE.IO.parent(2).add("lib");
+
 use Test;
-
-=begin comment
-188-1: Divisible Pairs         Submitted by: Mohammad S Anwar
-
-Given divisor $k, and a list of integers @list.  Find the count of pairs
-in the list that satisfy the following rules:
-
-The index pair (i, j) is eligible if and only if
-a) 0 <= i < j < len(list)
-b) list[i] + list[j] is evenly divisible by k
-
-Input: @list = (4, 5, 1, 6), $k = 2
-Output: 2
-
-Input: @list = (1, 2, 3, 4), $k = 2
-Output: 2
-
-Input: @list = (1, 3, 4, 5), $k = 3
-Output: 2
-
-Input: @list = (5, 1, 2, 3), $k = 4
-Output: 2
-
-Input: @list = (7, 2, 4, 5), $k = 4
-Output: 1
-=end comment
 
 sub divisible-pairs-count( Int $divisor, List $list --> Int) {
     my $len := $list.elems;

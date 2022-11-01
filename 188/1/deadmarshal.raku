@@ -1,4 +1,5 @@
 #!/usr/bin/env raku
+
 sub divisible_pairs(@arr, $k)
 {
   my $count = 0;

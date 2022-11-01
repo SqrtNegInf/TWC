@@ -1,8 +1,8 @@
 #!/usr/bin/env raku
 
 sub MAIN(
-    Int $k, #= divisor
-    *@list  #= list of integers
+    Int $k = 2, #= divisor
+    @list = (4, 5, 1, 6) #= list of integers
 ) {
     (0 ..^ @list.elems)
         .combinations(2)

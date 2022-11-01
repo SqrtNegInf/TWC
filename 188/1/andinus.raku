@@ -1,6 +1,6 @@
 #!/usr/bin/env raku
 unit sub MAIN(
-    Int $divisor, *@list is copy where *.elems > 0
+    Int $divisor = 2, @list is copy where *.elems > 0 = (4, 5, 1, 6)
 );
 @list = @list>>.Int;
 

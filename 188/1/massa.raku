@@ -1,26 +1,5 @@
 #!/usr/bin/env raku
 
-=begin pod
-
-Week 188:
-
-    https://theweeklychallenge.org/blog/perl-weekly-challenge-188
-
-Task #1: Divisible Pairs
-
-    You are given list of integers C<@list> of size C<$n> and divisor C<$k>.
-
-    Write a script to find out count of pairs in the given list that satisfies
-    the following rules.
-
-=begin code
-    The pair (i, j) is eligible if and only if
-    a) 0 <= i < j < len(list)
-    b) list[i] + list[j] is divisible by k
-=end code
-
-=end pod
-
 use Test;
 
 is 2, divisible-pairs 2, (4, 5, 1, 6);
