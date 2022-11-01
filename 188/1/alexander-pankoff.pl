@@ -11,7 +11,7 @@ use constant DEBUG => $ENV{DEBUG} // 0;
 run() unless caller();
 
 sub run() {
-    my ( $k, @list ) = @ARGV;
+    my ( $k, @list ) = (2, 4, 5, 1, 6);
 
     say divisble_pairs( $k, @list );
 }

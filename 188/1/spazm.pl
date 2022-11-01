@@ -1,25 +1,6 @@
 #!/usr/bin/env perl
 use v5.30.0;
 
-=pod
-
-You are given list of integers @list of size $n and divisor $k.
-
-Write a script to find out count of pairs in the given list that satisfies the following rules.
-
-    The pair (i, j) is eligible if and only if
-    a) 0 <= i < j < len(list)
-    b) list[i] + list[j] is divisible by k
-
-=cut
-
-=pod
-
-Solution uses O(n) space to minimize the use of mod calculation from O(n^2) to O(n).
-This space could be saved by overwriting the input array.
-
-=cut
-
 sub count_matching_pairs
 {
     my ( $input, $size_n, $div_k ) = @_;

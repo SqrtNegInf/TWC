@@ -1,20 +1,9 @@
 #!/usr/bin/env perl
 
-# Peter Campbell Smith - 2022-10-26
-# PWC 188 task 1
-
 use v5.28;
 use utf8;
 use warnings;
 binmode(STDOUT, ':utf8');
-
-# You are given list of integers @list of size $n and divisor $k.
-# Write a script to find out count of pairs in the given list that satisfies the following rules.
-# The pair (i, j) is eligible if and only if
-# a) 0 <= i < j < len(list)
-# b) list[i] + list[j] is divisible by k
-
-# Blog: 
 
 my (@tests, @list, $k, $n, $i, $j, $count, $reason);
 

@@ -4,19 +4,6 @@ use strict;
 use warnings;
 use Test::More;
 
-=pod
-
- TASK #1: Divisible Pairs
- 
- You are given list of integers @list of size $n and divisor $k.
- Write a script to find out count of pairs in the given list that
- satisfies the rules i.e The pair (i, j) is eligible if and only if:
-
-        0 <= i < j < len(list)
-    and list[i] + list[j] is divisible by k
-
-=cut
-
 sub DivisiblePairsCount {
     my ( $list, $divisor ) = @_;
     my $count = 0;

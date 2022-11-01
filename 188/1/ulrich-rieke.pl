@@ -3,11 +3,7 @@ use strict ;
 use warnings ;
 use feature 'say' ;
 
-say "Enter a number of positive integers, separated by a blank!" ;
-say "Enter another positive integer as divisors as last number!" ;
-my $line = <STDIN> ;
-chomp $line ;
-my @numbers = split( /\s/ , $line ) ;
+my @numbers = (4, 5, 1, 6, 2);
 my $k = $numbers[-1] ;
 my $count = 0 ;
 my $len = scalar( @numbers ) ;

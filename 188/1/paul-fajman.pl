@@ -1,14 +1,5 @@
 #!/usr/bin/env perl
 
-# Weekly Challenge 188 Task #1
-# You are given list of integers @list of size $n and divisor $k.
-#
-# Write a script to find out count of pairs in the given list that satisfies the following rules.
-#
-# The pair (i, j) is eligible if and only if
-# a) 0 <= i < j < len(list)
-# b) list[i] + list[j] is divisible by k
-###############################
 use strict;
 use warnings;
 

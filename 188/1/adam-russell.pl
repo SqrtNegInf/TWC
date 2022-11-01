@@ -1,14 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
-use strict;
-use warnings;
-##
-# You are given list of integers @list of size $n and divisor $k.
-# Write a script to find out count of pairs in the given list that satisfies the following rules.
-# The pair (i, j) is eligible if and only if
-#    a) 0 <= i < j < len(list)
-#    b) list[i] + list[j] is divisible by k
-##
+
 sub divisible_pairs{
     my($numbers, $k) = @_;
     my @pairs;

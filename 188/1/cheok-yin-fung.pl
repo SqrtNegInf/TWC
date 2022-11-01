@@ -1,8 +1,4 @@
 #!/usr/bin/env perl
-# The Weekly Challenge 188
-# Task 1 Divisible Pairs
-
-use v5.30.0;
 
 sub divisible_pairs {
     my @list = $_[0]->@*;

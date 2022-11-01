@@ -1,4 +1,5 @@
 #!/usr/bin/env perl
+
 use 5.030;
 use warnings;
 use English;
@@ -24,23 +25,8 @@ sub combinations {
     return @combos;
 }
 
-sub usage {
-print<<"-USAGE-";
-Usage:
-  $PROGRAM_NAME <k> [<list> ...]
-  
-    <k>             divisor
-    [<list> ...]    list of integers
--USAGE-
-    exit(0);
-}
-
-unless (@ARGV) {
-    usage;
-}
-
-my $k = shift;
-my @list = @ARGV;
+my $k = 2;
+my @list = (4, 5, 1, 6);
 
 say scalar grep { ($list[$_->[0]] + $list[$_->[1]]) % $k == 0; }
     combinations([0 .. scalar @list - 1], 2);

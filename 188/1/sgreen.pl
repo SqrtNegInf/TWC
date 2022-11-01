@@ -21,4 +21,4 @@ sub main (@list) {
     say $matches;
 }
 
-main(@ARGV);
+main((4, 5, 1, 6, 2));

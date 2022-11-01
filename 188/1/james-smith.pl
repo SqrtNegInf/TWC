@@ -5,8 +5,6 @@ use strict;
 use warnings;
 use feature qw(say);
 use Test::More;
-use Benchmark qw(cmpthese timethis);
-use Data::Dumper qw(Dumper);
 
 my @TESTS = (
   [ [4,5,1,6], 2, 2 ],
@@ -24,15 +22,6 @@ is( dp(             [@{$_->[0]}],$_->[1]  ), $_->[2] ) for @TESTS;
 is( dp_index(       $_->[0], $_->[1]      ), $_->[2] ) for @TESTS;
 
 done_testing();
-
-cmpthese( 250_000, {
-  'd_pairs' => sub { divisible_pairs($_->[0], $_->[1]    ) for @TESTS },
-  'd_pairx' => sub { divisible_pairs_x($_->[0], $_->[1]    ) for @TESTS },
-  'dp_index'=> sub { dp_index(       $_->[0], $_->[1] ) for @TESTS },
-  'dp_nd'   => sub { dp_nd(          $_->[0], $_->[1] ) for @TESTS },
-  'd_other' => sub { dp_other(       $_->[1], @{$_->[0]}  ) for @TESTS },
-  'dp'      => sub { dp(             [@{$_->[0]}], $_->[1]    ) for @TESTS },
-});
 
 sub divisible_pairs {
   my( $c, $k, @l ) = ( 0, $_[1], @{$_[0]} );
