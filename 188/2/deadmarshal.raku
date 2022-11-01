@@ -1,4 +1,5 @@
 #!/usr/bin/env raku
+
 sub total_zero($x is copy, $y is copy)
 {
   my $c = 0;

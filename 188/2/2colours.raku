@@ -3,8 +3,8 @@
 subset PosInt of Int where * > 0;
 
 sub MAIN(
-  PosInt $x is copy,
-  PosInt $y is copy
+  PosInt $x is copy = 4,
+  PosInt $y is copy = 6
 ) {
   my $total-steps = 0;
   my $current-steps;

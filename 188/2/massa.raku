@@ -1,28 +1,5 @@
 #!/usr/bin/env raku
 
-=begin pod
-
-Week 188:
-
-    https://theweeklychallenge.org/blog/perl-weekly-challenge-188
-
-Task #1: Total Zero
-
-    You are given two positive integers C<$x> and C<$y>.
-
-    Write a script to find out the number of operations needed to make both
-    C<ZERO>. Each operation is made up either of the followings:
-
-=begin code
-    $x = $x - $y if $x >= $y
-
-    or
-
-    $y = $y - $x if $y >= $x (using the original value of $x)
-=end code
-
-=end pod
-
 use Test;
 
 is 5, make-total-zero 5, 4;

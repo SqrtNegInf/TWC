@@ -1,8 +1,8 @@
 #!/usr/bin/env raku
 
 sub MAIN(
-    Int $x is copy, #= a positive integer
-    Int $y is copy  #= a positive integer
+    Int $x is copy = 4, #= a positive integer
+    Int $y is copy = 6  #= a positive integer
 ) {
     my $operations = 0;
 

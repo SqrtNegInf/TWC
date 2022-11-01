@@ -1,0 +1,164 @@
+ 
+===> 188/2/0rir.raku <===
+1..41
+ok 1 - (20, 20) -> 2
+ok 2 - (2, 2) -> 2
+ok 3 - (1, 1) -> 2
+ok 4 - (1, 2) -> 3
+ok 5 - (1, 3) -> 4
+ok 6 - (1, 4) -> 5
+ok 7 - (2, 1) -> 2
+ok 8 - (3, 1) -> 5
+ok 9 - (4, 1) -> 6
+ok 10 - (2, 5) -> 4
+ok 11 - (4, 6) -> 3
+ok 12 - (5, 4) -> 2
+ok 13 - (7, 4) -> 2
+ok 14 - (12, 2) -> 8
+ok 15 - (19, 17) -> 2
+ok 16 - (19, 31) -> 3
+ok 17 - (31, 19) -> 2
+ok 18 - (5, 2) -> dead
+ok 19 - (5, 7) -> dead
+ok 20 - (7, 2) -> dead
+ok 21 - (7, 3) -> dead
+ok 22 - (7, 9) -> dead
+ok 23 - (7, 10) -> dead
+ok 24 - (8, 3) -> dead
+ok 25 - (9, 2) -> dead
+ok 26 - (9, 4) -> dead
+ok 27 - (10, 3) -> dead
+ok 28 - (10, 4) -> dead
+ok 29 - (107, 10) -> dead
+ok 30 - (5, 2) -> 0
+ok 31 - (5, 7) -> 0
+ok 32 - (7, 2) -> 0
+ok 33 - (7, 3) -> 0
+ok 34 - (7, 9) -> 0
+ok 35 - (7, 10) -> 0
+ok 36 - (8, 3) -> 0
+ok 37 - (9, 2) -> 0
+ok 38 - (9, 4) -> 0
+ok 39 - (10, 3) -> 0
+ok 40 - (10, 4) -> 0
+ok 41 - (107, 10) -> 0
+ 
+===> 188/2/2colours.raku <===
+3
+ 
+===> 188/2/arne-sommer.raku <===
+5
+3
+4
+3
+5
+ 
+===> 188/2/athanasius.raku <===
+Running the test suite
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ok 4 - Example 4
+ok 5 - Example 5
+1..5
+ 
+===> 188/2/deadmarshal.raku <===
+5
+3
+4
+3
+5
+ 
+===> 188/2/feng-chang.raku <===
+3
+ 
+===> 188/2/jaldhar-h-vyas.raku <===
+3
+ 
+===> 188/2/laurent-rosenfeld.raku <===
+5 4 -> 5
+4 6 -> 3
+2 5 -> 4
+3 1 -> 3
+7 4 -> 5
+9 1 -> 9
+ 
+===> 188/2/luca-ferrari.raku <===
+3
+ 
+===> 188/2/mark-anderson.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ok 4 - 
+ok 5 - 
+ok 6 - 
+ok 7 - 
+ok 8 - 
+ok 9 - 
+ok 10 - 
+ 
+===> 188/2/massa.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ok 4 - 
+ok 5 - 
+ok 6 - 
+ok 7 - 
+ok 8 - 
+ok 9 - 
+ok 10 - 
+1..10
+ 
+===> 188/2/mohammad-anwar.raku <===
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ok 4 - Example 4
+ok 5 - Example 5
+1..5
+ 
+===> 188/2/robert-dicicco.raku <===
+Input: $x = 5,  $y = 4
+Output: 5
+
+Input: $x = 4,  $y = 6
+Output: 3
+
+Input: $x = 2,  $y = 5
+Output: 4
+
+Input: $x = 3,  $y = 1
+Output: 3
+
+Input: $x = 7,  $y = 4
+Output: 5
+
+ 
+===> 188/2/roger-bell-west.raku <===
+1..5
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ok 4 - example 4
+ok 5 - example 5
+ 
+===> 188/2/steve-g-lynn.raku <===
+5
+3
+4
+3
+5
+ 
+===> 188/2/ulrich-rieke.raku <===
+3
+ 
+===> 188/2/wambash.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ok 4 - 
+ok 5 - 
+ok 6 - 
+1..6

@@ -1,9 +1,6 @@
 #!/usr/bin/env raku
-use v6 ;
 
-say "Enter 2 positive integers, separated by a blank!" ;
-my $line = $*IN.get ;
-my ( $x , $y ) = $line.split( /\s+/ ) ;
+my ( $x , $y ) = 4, 6;
 if ( $x == $y ) {
   say 1 ;
 }

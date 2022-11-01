@@ -1,7 +1,7 @@
 #!/usr/bin/env raku
 
-sub MAIN( Int $x is copy where { $x > 0 },
-          Int $y is copy where { $y > 0 },
+sub MAIN( Int $x is copy where { $x > 0 } = 4,
+          Int $y is copy where { $y > 0 } = 6,
           Bool :$verbose = False ) {
 
     my @status;

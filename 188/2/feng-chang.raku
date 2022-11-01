@@ -1,6 +1,6 @@
 #!/usr/bin/env raku
 
-unit sub MAIN(UInt:D $x is copy, UInt:D $y is copy);
+unit sub MAIN(UInt:D $x is copy = 4, UInt:D $y is copy = 6);
 
 my UInt $cnt = 0;
 while $x and $y {

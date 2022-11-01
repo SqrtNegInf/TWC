@@ -1,26 +1,5 @@
 #!/usr/bin/env raku
 
-=begin pod
-
-Week 188:
-
-    https://theweeklychallenge.org/blog/perl-weekly-challenge-188
-
-Task #2: Total Zero
-
-    You are given two positive integers $x and $y.
-
-    Write a script to find out the number of operations needed to
-    make both ZERO. Each operator is made up either of the following:
-
-        $x = $x - $y if $x >= $y
-
-        or
-
-        $y = $y - $x if $y >= $x
-
-=end pod
-
 use Test;
 
 is total-zero(5, 4), 5, 'Example 1';
