@@ -2,19 +2,6 @@
 
 use v5.30.0;
 
-=pod
-You are given two positive integers $x and $y.
-
-Write a script to find out the number of operations needed to make both ZERO. Each operation is made up either of the followings:
-
-$x = $x - $y if $x >= $y
-
-or
-
-$y = $y - $x if $y >= $x (using the original value of $x)
-
-=cut
-
 sub total_zero
 {
     my ( $x, $y ) = @_;

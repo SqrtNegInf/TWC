@@ -27,4 +27,4 @@ sub main ( $x, $y ) {
     say $count;
 }
 
-main(@ARGV);
+main(4,6);

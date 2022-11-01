@@ -12,7 +12,7 @@ use constant DEBUG => $ENV{DEBUG} // 0;
 run() unless caller();
 
 sub run() {
-    my ( $x, $y ) = @ARGV;
+    my ( $x, $y ) = (4, 6);
 
     say total_zero( $x, $y );
 }
@@ -70,4 +70,3 @@ sub count_gen($gen) {
     }
     return $i;
 }
-

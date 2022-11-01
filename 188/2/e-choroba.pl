@@ -37,14 +37,3 @@ for my $tz (\&total_zero_naive, \&total_zero) {
     is $tz->(7, 7), 1, 'Same';
     is $tz->(1213, 3010), 61, 'Large';
 }
-
-use Benchmark qw{ cmpthese };
-cmpthese(-3, {
-    fast => sub { total_zero(1213, 3010) },
-    slow => sub { total_zero_naive(1213, 3010) },
-});
-
-__END__
-         Rate slow fast
-slow  93177/s   -- -75%
-fast 377500/s 305%   --

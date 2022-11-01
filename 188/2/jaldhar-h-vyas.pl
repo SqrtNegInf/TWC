@@ -2,7 +2,7 @@
 use 5.030;
 use warnings;
 
-my ($x, $y) = @ARGV;
+my ($x, $y) = (4, 6);
 my $operations = 0;
 
 do {

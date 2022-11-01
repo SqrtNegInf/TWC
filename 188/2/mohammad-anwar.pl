@@ -1,28 +1,7 @@
 #!/usr/bin/env perl
 
-=head1
-
-Week 188:
-
-    https://theweeklychallenge.org/blog/perl-weekly-challenge-188
-
-Task #2: Total Zero
-
-    You are given two positive integers $x and $y.
-
-    Write a script to find out the number of operations needed to
-    make both ZERO. Each operator is made up either of the following:
-
-        $x = $x - $y if $x >= $y
-
-        or
-
-        $y = $y - $x if $y >= $x
-
-=cut
-
 use v5.36;
-use Test2::V0 -srand => 1;
+use Test::More;
 
 is total_zero(5, 4), 5, 'example 1';
 is total_zero(4, 6), 3, 'Example 2';

@@ -1,17 +1,5 @@
 #!/usr/bin/env perl
 
-# Weekly Challenge 188 Task #2
-# You are given two positive integers $x and $y.
-# 
-# Write a script to find out the number of operations needed to make both ZERO. Each operation is made up either of the followings:
-#
-# $x = $x - $y if $x >= $y
-# 
-# or
-# 
-# $y = $y - $x if $y >= $x (using the original value of $x)
-###############################
-
 use strict;
 use warnings;
 

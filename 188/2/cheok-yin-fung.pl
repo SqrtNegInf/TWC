@@ -1,8 +1,4 @@
 #!/usr/bin/env perl
-# The Weekly Challenge 188
-# Task 2 Total Zero
-#
-# Comment: Actually I don't very get how the operations run.
 
 use v5.30.0;
 

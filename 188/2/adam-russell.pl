@@ -2,14 +2,7 @@
 use v5.36;
 use strict;
 use warnings;
-##
-# You are given two positive integers $x and $y.
-# Write a script to find out the number of operations needed to make both ZERO. 
-# Each operation is made up either of the followings:
-# $x = $x - $y if $x >= $y
-# or
-# $y = $y - $x if $y >= $x (using the original value of $x)
-##
+
 sub count_zero{
     my($x, $y) = @_;
     my $count = 0;

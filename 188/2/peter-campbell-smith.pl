@@ -1,21 +1,9 @@
 #!/usr/bin/env perl
 
-# Peter Campbell Smith - 2022-10-26
-# PWC 188 task 2
-
 use v5.28;
 use utf8;
 use warnings;
 binmode(STDOUT, ':utf8');
-
-# You are given two positive integers $x and $y. Write a script to find out the number of operations needed to 
-# make both ZERO. Each operation is made up either of the following:
-# $x = $x - $y if $x >= $y -or- $y = $y - $x if $y >= $x 
-
-# Note: I believe the problem as stated is impossible and submit a solution which counts the number of operations
-# until either x or y becomes zero, which matches the supplied examples.
-
-# Blog: 
 
 my (@tests, $x, $y, $ops);
 
