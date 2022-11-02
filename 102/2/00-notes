@@ -1,0 +1,3 @@
+'aaronreidsmith.raku' can generate errors once in a long while:
+
+WARNING: unhandled Failure detected in DESTROY. If you meant to ignore it, you can mark it as handled by calling .Bool, .so, .not, or .defined methods. 
