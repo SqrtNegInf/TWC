@@ -394,8 +394,8 @@ Challenge titles and Rosetta-code correspondences (exact, and otherwise)
 187-2 Magical Triplets
 188-1 Divisible Pairs
 188-2 Total Zero
-189-1
-189-2
+189-1 Greater Character
+189-2 Array Degree
 190-1
 190-2
 191-1
