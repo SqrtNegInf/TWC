@@ -1,3 +1,6 @@
+2022-11-06
+Build v2022.07-86-g64f552f32 changed a lot of random/srand results (over in RC two changed).
+
 2022-10-13
 Comparison with macos/Monterey suggests "find -s" is more portable on PWC-run
 

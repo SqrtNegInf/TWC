@@ -396,8 +396,8 @@ Challenge titles and Rosetta-code correspondences (exact, and otherwise)
 188-2 Total Zero
 189-1 Greater Character
 189-2 Array Degree
-190-1
-190-2
+190-1 Capital Detection
+190-2 Decoded List
 191-1
 191-2
 192-1
