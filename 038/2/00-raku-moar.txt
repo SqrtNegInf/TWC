@@ -154,7 +154,7 @@ PLEA   : 8
 Winner: KEMP for 20
  
 ===> 038/2/jaldhar-h-vyas.raku <===
-WJUZOAP = POW (11)
+OTCXBAA = CABOT (20)
  
 ===> 038/2/javier-luque.raku <===
 Picked tiles: P A L K M E N
@@ -186,7 +186,7 @@ Contenders (word: score):
 TH: 10
  
 ===> 038/2/ryan-thompson.raku <===
-[E S P H G D R] Best word: SHRED, Score: 13
+[Y S P W I V Y] Best word: SWIPY, Score: 10
  
 ===> 038/2/simon-proctor.raku <===
  

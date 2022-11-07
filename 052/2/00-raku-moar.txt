@@ -1,42 +1,42 @@
  
 ===> 052/2/colin-crain.raku <===
 draw:
-10, 1, 5, 200, 2, 50, 100, 20
-
-player 0 takes:   20 
-
-	 player total:   20 
-
-player 1 takes:   100 
-
-	 player total:   100 
+10, 2, 5, 50, 200, 20, 100, 1
 
 player 0 takes:   10 
 
-	 player total:   30 
-
-player 1 takes:   50 
-
-	 player total:   150 
-
-player 0 takes:   1 
-
-	 player total:   31 
-
-player 1 takes:   5 
-
-	 player total:   155 
-
-player 0 takes:   200 
-
-	 player total:   231 
+	 player total:   10 
 
 player 1 takes:   2 
 
-	 player total:   157 
+	 player total:   2 
 
-player 0 : 231
-player 1 : 157
+player 0 takes:   1 
+
+	 player total:   11 
+
+player 1 takes:   100 
+
+	 player total:   102 
+
+player 0 takes:   5 
+
+	 player total:   16 
+
+player 1 takes:   50 
+
+	 player total:   152 
+
+player 0 takes:   200 
+
+	 player total:   216 
+
+player 1 takes:   20 
+
+	 player total:   172 
+
+player 0 : 216
+player 1 : 172
  
 ===> 052/2/jaldhar-h-vyas.raku <===
 Assuming both take the best coin...
@@ -54,9 +54,9 @@ Let's play another random turn
 Computer wins with 0.02 2 0.01 0 = 2.03 VS 1 0.5 0.2 0.05 = 1.75
  
 ===> 052/2/mohammad-anwar.raku <===
-The lucky winner is Machine.
-Human picked coins 5p, 20p, £1, 1p.
-Machine picked coins 50p, £2, 2p, 10p.
+The lucky winner is Human.
+Human picked coins 50p, £2, 2p, 10p.
+Machine picked coins 5p, 20p, £1, 1p.
  
 ===> 052/2/noud.raku <===
 Player wins: 306 cents.
