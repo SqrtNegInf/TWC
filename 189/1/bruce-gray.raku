@@ -1,4 +1,6 @@
 #!/usr/bin/env raku
+# http://blogs.perl.org/users/bruce_gray/2022/11/twc-189-saving-your-degree-by-great-character.html
+
 sub task1 ( @a, Str $target --> Str ) {
     return .elems ?? .min !! $target given @a.grep( * gt $target );
 
