@@ -5,18 +5,6 @@ use warnings;
 use Test::More;
 use List::Util qw( minstr );
 
-=pod
-
- Task 1: Greater Character
- You are given an array of characters (a..z)
- and a target character.
- 
- Write a script to find out the smallest
- character in the given array lexicographically
- greater than the target character.
-
-=cut
-
 sub greater_char {
     my ( $array, $target ) = @_;
     minstr(grep { $_ gt $target } @$array) // $target;

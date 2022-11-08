@@ -1,12 +1,9 @@
 #!/usr/bin/env perl
 
 use strict;
-
 use warnings;
 use feature qw(say);
 use Test::More;
-use Benchmark qw(cmpthese timethis);
-use Data::Dumper qw(Dumper);
 
 my @TESTS = (
   [ [qw(e m u g)], 'b', 'e' ],

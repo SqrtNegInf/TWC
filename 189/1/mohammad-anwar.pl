@@ -1,20 +1,5 @@
 #!/usr/bin/env perl
 
-=head1
-
-Week 189:
-
-    https://theweeklychallenge.org/blog/perl-weekly-challenge-189
-
-Task #1: Greater Character
-
-    You are given an array of characters (a..z) and a target character.
-
-    Write a script to find out the smallest character in the given
-    array lexicographically greater than the target character.
-
-=cut
-
 use v5.36;
 use Test2::V0 -srand => 1;
 

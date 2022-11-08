@@ -1,0 +1,143 @@
+ 
+===> 189/1/adam-russell.pl <===
+e
+c
+r
+c
+v
+ 
+===> 189/1/alexander-pankoff.pl <===
+1..10
+ok 1 - Example 1 (pretty)
+ok 2 - Example 2 (pretty)
+ok 3 - Example 3 (pretty)
+ok 4 - Example 4 (pretty)
+ok 5 - Example 5 (pretty)
+ok 6 - Example 1 (reduce)
+ok 7 - Example 2 (reduce)
+ok 8 - Example 3 (reduce)
+ok 9 - Example 4 (reduce)
+ok 10 - Example 5 (reduce)
+ 
+===> 189/1/athanasius.pl <===
+Running the test suite
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ok 4 - Example 4
+ok 5 - Example 5
+ok 6 - Empty array
+1..6
+ 
+===> 189/1/bruce-gray.pl <===
+1..5
+ok 1 - task1(qw<e m u g>)
+ok 2 - task1(qw<d c e f>)
+ok 3 - task1(qw<j a r>)
+ok 4 - task1(qw<d c a f>)
+ok 5 - task1(qw<t g a l>)
+ 
+===> 189/1/colin-crain.pl <===
+ok 1 - ex-1
+ok 2 - ex-2
+ok 3 - ex-3
+ok 4 - ex-4
+ok 5 - ex-5
+1..5
+ 
+===> 189/1/dave-jacoby.pl <===
+        Input:  @array = (e, m, u, g) , $target = b
+        Output: e
+
+        Input:  @array = (c, d, e, f) , $target = a
+        Output: c
+
+        Input:  @array = (j, a, r) , $target = o
+        Output: r
+
+        Input:  @array = (d, c, e, f) , $target = a
+        Output: c
+
+        Input:  @array = (t, g, a, l) , $target = v
+        Output: v
+
+ 
+===> 189/1/james-smith.pl <===
+ok 1
+ok 2
+ok 3
+ok 4
+ok 5
+1..5
+ 
+===> 189/1/jo-37.pl <===
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ok 4 - Example 4
+ok 5 - Example 5
+1..5
+ 
+===> 189/1/kueppo-wesley.pl <===
+ok 1 - found the correct chars?
+1..1
+ 
+===> 189/1/laurent-rosenfeld.pl <===
+b (e m u g) 	 -> e
+a (d c e f) 	 -> c
+o (j a r) 	 -> r
+a (d c a f) 	 -> c
+v (t g a l) 	 -> 
+ 
+===> 189/1/mohammad-anwar.pl <===
+# Seeded srand with seed '1' from import arg.
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ok 4 - Example 4
+ok 5 - Example 5
+1..5
+ 
+===> 189/1/perlboy1967.pl <===
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ok 4 - Example 4
+ok 5 - Example 5
+1..5
+ 
+===> 189/1/peter-campbell-smith.pl <===
+
+Input:  @array = qw/e m u g/, $target = 'b'
+Output: e
+
+Input:  @array = qw/d c e f/, $target = 'a'
+Output: c
+
+Input:  @array = qw/j a r/, $target = 'o'
+Output: r
+
+Input:  @array = qw/d c a f/, $target = 'a'
+Output: c
+
+Input:  @array = qw/t g a l/, $target = 'v'
+Output: none
+
+Input:  @array = qw/t h e q u i c k b r o w n f o x j u m p s o v e r t h e l a z y d o g/, $target = 'm'
+Output: n
+ 
+===> 189/1/roger-bell-west.pl <===
+1..5
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ok 4 - example 4
+ok 5 - example 5
+ 
+===> 189/1/tim-potapov.pl <===
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ok 4 - Example 4
+ok 5 - Example 5
+1..5
