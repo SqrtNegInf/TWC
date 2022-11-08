@@ -1,4 +1,6 @@
 #!/usr/bin/env raku
+# http://blogs.perl.org/users/bruce_gray/2022/11/twc-189-saving-your-degree-by-great-character.html
+
 sub task2 ( @a ) {
     my $best =
         @a.pairs                         # index => element
