@@ -1,6 +1,6 @@
 #!/usr/bin/env raku
 
-unit sub MAIN(*@C);
+my @C = qw/d c a f a/;
 
 my $c = @C.pop;
 put do given @C.grep(* gt $c).min {

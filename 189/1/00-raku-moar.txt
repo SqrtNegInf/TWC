@@ -1,0 +1,138 @@
+ 
+===> 189/1/0rir.raku <===
+1..6
+ok 1 - b ("e", "m", "u", "g") ->  e
+ok 2 - a ("d", "c", "e", "f") ->  c
+ok 3 - o ("j", "a", "r") ->  r
+ok 4 - a ("d", "c", "a", "f") ->  c
+ok 5 - v ("t", "g", "a", "l") ->  v
+ok 6 - v () ->  v
+ 
+===> 189/1/2colours.raku <===
+c
+ 
+===> 189/1/arne-sommer.raku <===
+:A:[e,m,u,g] T:b F:[e, m, u, g] S:[e, g, m, u]
+e
+:A:[d,c,e,f] T:a F:[d, c, e, f] S:[c, d, e, f]
+c
+:A:[j,a,r] T:o F:[r] S:[r]
+r
+:A:[d,c,a,f] T:a F:[d, c, f] S:[c, d, f]
+c
+:A:[t,g,a,l] T:v F:[] S:[]
+v
+ 
+===> 189/1/athanasius.raku <===
+
+Challenge 189, Task #1: Greater Character (Raku)
+
+Running the test suite
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ok 4 - Example 4
+ok 5 - Example 5
+ok 6 - Empty array
+1..6
+ 
+===> 189/1/bruce-gray.raku <===
+1..5
+ok 1 - task1(<e m u g>)
+ok 2 - task1(<d c e f>)
+ok 3 - task1(<j a r>)
+ok 4 - task1(<d c a f>)
+ok 5 - task1(<t g a l>)
+ 
+===> 189/1/deadmarshal.raku <===
+e
+c
+r
+c
+v
+ 
+===> 189/1/feng-chang.raku <===
+c
+ 
+===> 189/1/jaldhar-h-vyas.raku <===
+c
+ 
+===> 189/1/laurent-rosenfeld.raku <===
+b, (e m u g) 	 -> e
+a, (d c e f) 	 -> c
+o, (j a r) 	 -> r
+a, (d c a f) 	 -> c
+v, (t g a l) 	 -> Inf
+ 
+===> 189/1/luca-ferrari.raku <===
+a
+ 
+===> 189/1/mark-anderson.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ok 4 - 
+ok 5 - 
+ok 6 - 
+ 
+===> 189/1/massa.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ok 4 - 
+ok 5 - 
+1..5
+ 
+===> 189/1/mohammad-anwar.raku <===
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ok 4 - Example 4
+ok 5 - Example 5
+1..5
+ 
+===> 189/1/polettix.raku <===
+c
+ 
+===> 189/1/robert-dicicco.raku <===
+Input: @array = qw(@e m u g), target = b
+e
+ 
+Input: @array = qw(@d c e f), target = a
+c
+ 
+Input: @array = qw(@j a r), target = o
+r
+ 
+Input: @array = qw(@d c a f), target = a
+c
+ 
+Input: @array = qw(@t g a l), target = v
+v
+ 
+ 
+===> 189/1/roger-bell-west.raku <===
+1..5
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ok 4 - example 4
+ok 5 - example 5
+ 
+===> 189/1/steve-g-lynn.raku <===
+e
+c
+r
+c
+Inf
+ 
+===> 189/1/ulrich-rieke.raku <===
+c
+ 
+===> 189/1/wambash.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ok 4 - 
+ok 5 - 
+1..5

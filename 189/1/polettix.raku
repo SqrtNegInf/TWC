@@ -1,6 +1,6 @@
 #!/usr/bin/env raku
-use v6;
-sub MAIN ($target, *@array) { put greater-character(@array, $target) }
+
+sub MAIN ($target = 'a', @array = qw/d c a f/) { put greater-character(@array, $target) }
 
 sub greater-character (@array, $target) {
    (my $after-target = $target)++;

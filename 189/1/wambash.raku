@@ -6,7 +6,7 @@ sub greater-charakter ($target,+@array) {
    andthen .min: *.ord - $target.ord
 }
 
-multi MAIN (Bool :test($)!) {
+#multi MAIN (Bool :test($)!) {
     use Test;
     is greater-charakter('b', <e m u g>), 'e';
     is greater-charakter('a', <d c e f>), 'c';
@@ -14,8 +14,6 @@ multi MAIN (Bool :test($)!) {
     is greater-charakter('a', <d c a f>), 'c';
     is greater-charakter('v', <t g a l>), 'v';
     done-testing;
-}
+#}
 
-multi MAIN ($target, *@array) {
-    say greater-charakter $target, @array
-}
+#multi MAIN ($target, *@array) { say greater-charakter $target, @array }

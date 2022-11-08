@@ -1,4 +1,5 @@
 #!/usr/bin/env raku
+
 sub greater-character(@arr, $target)
 {
   @arr = @arr.sort({.Str});

@@ -1,8 +1,8 @@
 #!/usr/bin/env raku
 
 sub MAIN(
-    $target, #= target character
-    *@array  #= array of characters
+    $target = 'a', #= target character
+    @array  = qw/d c a f/
 ) {
     my $result = $target;
     for @array.sort -> $char {
