@@ -1,5 +1,4 @@
 #!/usr/bin/env raku
-use v6 ;
 
 sub findDegree( @array --> Int) {
   my %frequencies ;
@@ -9,9 +8,7 @@ sub findDegree( @array --> Int) {
   return %frequencies.values.max( ) ;
 }
 
-say "Enter some non-negative integers, separated by blanks!" ;
-my $line = $*IN.get ;
-my @numbers = $line.split( /\s/ ) ;
+my @numbers = (2, 1, 2, 1, 1);
 my @subarrays ;
 my $degree = findDegree( @numbers ) ;
 if ( $degree == 1 ) {

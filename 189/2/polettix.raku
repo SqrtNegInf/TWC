@@ -1,6 +1,6 @@
 #!/usr/bin/env raku
-use v6;
-sub MAIN (*@array) {
+
+sub MAIN (@array = (2, 1, 2, 1, 1)) {
    @array = 2, 1, 2, 1, 1 unless @array;
    my @ad = array-degree(@array);
    put '(', @ad.join(', '), ')';

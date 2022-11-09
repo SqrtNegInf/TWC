@@ -1,9 +1,5 @@
 #!/usr/bin/env raku
 
-#real	0m0.460s
-#user	0m0.657s
-#sys	0m0.061s
-
 use Stats;
 
 say &smallest-slice((1,3,3,2)); #[(3 3)]

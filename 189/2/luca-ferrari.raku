@@ -1,7 +1,7 @@
 #!/usr/bin/env raku
 
-sub MAIN( *@numbers where { @numbers.grep( * ~~ Int ).elems == @numbers.elems
-                                                                && ! @numbers.grep( *.Int < 0 ) } ) {
+sub MAIN( @numbers where { @numbers.grep( * ~~ Int ).elems == @numbers.elems
+                                                                && ! @numbers.grep( *.Int < 0 ) } = (2, 1, 2, 1, 1) ) {
 
     my $degree = Bag.new( @numbers ).values.max;
     say $degree;

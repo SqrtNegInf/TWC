@@ -1,7 +1,7 @@
 #!/usr/bin/env raku
 
 sub MAIN (
-    *@array  where { @array.elems > 1; } #= array of Integers
+    @array  where { @array.elems > 1 } = (2, 1, 2, 1, 1)
 ) {
     my %degrees;
 

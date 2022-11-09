@@ -1,6 +1,6 @@
 #!/usr/bin/env raku
 
-unit sub MAIN (:v(:$verbose));
+#unit sub MAIN (:v(:$verbose));
 
 say array_degree(1, 3, 3, 2);
 say array_degree(1, 2, 1, 3);
@@ -13,7 +13,7 @@ sub array_degree (*@array)
   my $degree = @array.Bag.map( *.value ).max;
   my @candidates;
 
-  say "\n:Array: ", @array, " with degree $degree" if $verbose;
+#  say "\n:Array: ", @array, " with degree $degree" if $verbose;
 
   for 0 .. @array.elems -1 -> $start
   {
@@ -24,15 +24,15 @@ sub array_degree (*@array)
 
       @candidates.push: @slice if $degree == $slice_degree;
 
-      say ":Slice: [$start - $stop] -> @slice[] { $degree == $slice_degree ?? "+" !! ""} " if $verbose;
+      #say ":Slice: [$start - $stop] -> @slice[] { $degree == $slice_degree ?? "+" !! ""} " if $verbose;
     }
   }
 
-  say ":Candidates: ", @candidates if $verbose;
+  #say ":Candidates: ", @candidates if $verbose;
 
   my @sorted = @candidates.sort({ $^a.elems <=> $^b.elems });
 
-  say ":Sorted: ", @sorted  if $verbose;
+  #say ":Sorted: ", @sorted  if $verbose;
 
   return @sorted.first;
 }

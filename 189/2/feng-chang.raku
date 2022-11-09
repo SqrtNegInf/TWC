@@ -12,7 +12,7 @@ sub degree(@N is copy --> UInt:D) {
     $d
 }
 
-unit sub MAIN(*@n);
+unit sub MAIN(@n = (2, 1, 2, 1, 1));
 
 my $d = degree(@n);
 my @candidates = (^@n.elems X ^@n.elems).grep({.[1] ≥ .[0]}).grep({ $d == degree(@n[.minmax]) });
