@@ -1,12 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
-use strict;
-use warnings;
-##
-# You are given an array of 2 or more non-negative integers.
-# Write a script to find out the smallest slice, i.e. contiguous 
-# subarray of the original array, having the degree of the given array.
-##
+
 sub array_degree{
     my(@integers) = @_;
     my @counts;

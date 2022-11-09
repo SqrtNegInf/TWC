@@ -1,16 +1,7 @@
 #!/usr/bin/env perl
 
-# Peter Campbell Smith - 2022-10-31
-# PWC 189 task 2
-
 use v5.28;
-use utf8;
 use warnings;
-binmode(STDOUT, ':utf8');
-
-# You are given an array of 2 or more non-negative integers. Write a script to find out the smallest slice, 
-# ie contiguous subarray of the original array, having the degree of the given array.
-# The degree of an array is the maximum frequency of an element in the array.
 
 # Blog: https://pjcs-pwc.blogspot.com/2022/10/the-smallest-greater-and-shortest-slice.html 
 

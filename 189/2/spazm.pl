@@ -1,7 +1,6 @@
 #!/usr/bin/env perl
 
 use v5.30;
-use Data::Dumper;
 use experimental qw/signatures/;
 
 sub array_degree (@input)

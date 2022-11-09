@@ -5,8 +5,6 @@ use strict;
 use warnings;
 use feature qw(say);
 use Test::More;
-use Benchmark qw(cmpthese timethis);
-use Data::Dumper qw(Dumper);
 
 my @TESTS = (
   [ [1,3,3,2], '3 3'   ],
@@ -20,10 +18,6 @@ is( "@{[ array_degree(        @{$_->[0]} ) ]}", $_->[1] ) for @TESTS;
 
 done_testing();
 
-cmpthese( 80_000, {
-  'n^2' => sub { array_degree(        @{$_->[0]} ) for @TESTS },
-  'n'   => sub { array_degree_linear( @{$_->[0]} ) for @TESTS },
-});
 sub sc {
   my($v,%f)=0;
   $f{$_}++ for @_;

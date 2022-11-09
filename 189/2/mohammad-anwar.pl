@@ -1,23 +1,5 @@
 #!/usr/bin/env perl
 
-=head1
-
-Week 189:
-
-    https://theweeklychallenge.org/blog/perl-weekly-challenge-189
-
-Task #2: Array Degree
-
-    You are given an array of 2 or more non-negative integers.
-
-    Write a script to find out the smallest subarray having the degree
-    of the given array.
-
-    The degree of an array is the maximum frequence of an element in
-    the array.
-
-=cut
-
 use v5.36;
 use Test2::V0 -srand => 1;
 use Algorithm::Combinatorics qw(subsets);
@@ -29,10 +11,6 @@ is array_degree(1, 1, 2, 3, 2), [1, 1],       'Example 4';
 is array_degree(2, 1, 2, 1, 1), [1, 2, 1, 1], 'Example 5';
 
 done_testing;
-
-#
-#
-# METHODS
 
 sub array_degree(@list) {
     my %h;

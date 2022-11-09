@@ -6,21 +6,6 @@ use Test::More;
 use List::Util      qw( max );
 use List::MoreUtils qw( first_index last_index );
 
-=pod
-
- Task 2: Array Degree
- You are given an array of 2 or more
- non-negative integers.
- 
- Write a script to find out the smallest slice,
- i.e. contiguous subarray of the original array,
- having the degree of the given array.
- 
- The degree of an array is the maximum frequency
- of an element in the array.
-
-=cut
-
 sub smallest_slice_of_degree {
     my ( $array ) = @_;
 

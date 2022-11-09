@@ -1,6 +1,4 @@
 #!/usr/bin/env perl
-# The Weekly Challenge 189
-# Task 2 Array Degree
 
 use v5.30.0;
 use warnings;
