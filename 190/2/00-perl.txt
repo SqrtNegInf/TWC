@@ -1,0 +1,157 @@
+ 
+===> 190/2/LoneWolfiNTj.pl <===
+AA, K
+AAAE, AAO, AKE, KAE, KO
+ABG, LG
+ 
+===> 190/2/adam-russell.pl <===
+AA, K
+AAAE, AAO, AKE, KAE, KO
+ABG, LG
+ 
+===> 190/2/alexander-pankoff.pl <===
+1..3
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ 
+===> 190/2/athanasius.pl <===
+Running the test suite
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ok 4 - One zero (1)
+ok 5 - All zeros
+ok 6 - One zero (2)
+1..6
+ 
+===> 190/2/bruce-gray.pl <===
+1..16
+ok 1 - task2(11)
+ok 2 - task2(1115)
+ok 3 - task2(127)
+ok 4 - task2(222)
+ok 5 - task2(2222)
+ok 6 - task2(2333)
+ok 7 - task2(2626)
+ok 8 - task2(2727)
+ok 9 - I have got 
+ok 10 - such a rotten
+ok 11 - little present
+ok 12 - Misbegotten
+ok 13 - and unpleasant
+ok 14 - Learn your lesson
+ok 15 - Try to leave me
+ok 16 - off your list
+ 
+===> 190/2/cheok-yin-fung.pl <===
+  11: K, AA
+1115: KO, KAE, AKE, AAO, AAAE
+ 127: LG, ABG
+ 
+===> 190/2/colin-crain.pl <===
+OFCOURSEILOVEYOUSWEETIE
+ 
+===> 190/2/e-choroba.pl <===
+# Seeded srand with seed '1' from import arg.
+1..7
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ok 4 - Empty
+ok 5 - Initial zero
+ok 6 - Later zero
+ok 7 - Later zeros
+ 
+===> 190/2/james-smith.pl <===
+1 1 2 3 5 8 13 21 34 55 89 144 233 377 610 987 1597 2584 4181 6765 10946 17711 28657 46368 75025 121393 196418 317811 514229 832040 1346269 2178309 3524578 5702887 9227465 14930352 24157817 39088169 63245986 102334155 165580141 267914296 433494437 701408733 1134903170 1836311903 2971215073 4807526976 7778742049 12586269025 20365011074 32951280099ok 1
+ok 2
+ok 3
+ok 4
+ok 5
+ok 6
+ok 7
+ok 8
+ok 9
+ok 10
+ok 11
+ok 12
+ok 13
+ok 14
+ok 15
+ok 16
+ok 17
+ok 18
+ok 19
+ok 20
+ok 21
+1..21
+ 
+===> 190/2/jo-37.pl <===
+# Seeded srand with seed '1' from import arg.
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ok 4 - invalid zero
+ok 5 - valid zero
+ok 6 - long code
+1..6
+ 
+===> 190/2/kueppo-wesley.pl <===
+ok 1 - Did you decode them correctly?
+1..1
+ 
+===> 190/2/laurent-rosenfeld.pl <===
+11 	 -> AA, K
+1115 	 -> AAAE, AAO, AKE, KAE, KO
+5115 	 -> EAAE, EAO, EKE
+127 	 -> ABG, LG
+1207 	 -> ATG
+ 
+===> 190/2/perlboy1967.pl <===
+ok 1
+ok 2
+ok 3
+1..3
+ 
+===> 190/2/peter-campbell-smith.pl <===
+
+Input:  11
+Output: AA, K
+
+Input:  1115
+Output: AAAE, AAO, AKE, KAE, KO
+
+Input:  127
+Output: ABG, LG
+
+Input:  16518122051920
+Output: AFEAHABTEAIT, AFEAHABTEST, AFEAHLTEAIT, AFEAHLTEST, AFERABTEAIT, AFERABTEST, AFERLTEAIT, AFERLTEST, PEAHABTEAIT, PEAHABTEST, PEAHLTEAIT, PEAHLTEST, PERABTEAIT, PERABTEST, PERLTEAIT, PERLTEST
+ 
+===> 190/2/polettix.pl <===
+AAAE, AAO, AKE, KAE, KO
+ 
+===> 190/2/roger-bell-west.pl <===
+1..3
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ 
+===> 190/2/sgreen.pl <===
+AAAE, AAO, AKE, KAE, KO
+ 
+===> 190/2/steve-g-lynn.pl <===
+AA K
+AAAE AAO AKE KAE KO
+ABG LG
+(AAAE AAO AKE KAE KO) (EABG ELG) (G)
+ 
+===> 190/2/tim-potapov.pl <===
+ok 1 - Example 0
+ok 2 - Example 1
+ok 3 - Example 2
+ok 4 - Example 3
+1..4
+ 
+===> 190/2/wlmb.pl <===
+1115 -> AAAE AAO AKE KAE KO 
