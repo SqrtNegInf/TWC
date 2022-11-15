@@ -398,8 +398,8 @@ Challenge titles and Rosetta-code correspondences (exact, and otherwise)
 189-2 Array Degree
 190-1 Capital Detection
 190-2 Decoded List
-191-1
-191-2
+191-1 Twice Largest
+191-2 Cute List
 192-1
 192-2
 193-1
