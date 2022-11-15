@@ -1,0 +1,4 @@
+Results from 'mark-anderson.raku' changed, 'days-in-year' got inserted:
+
+< (new new-from-daycount today first-date-in-month last-date-in-month truncated-to clone succ pred DateTime Date IO is-leap-year days-in-month daycount day-of-month day-of-week week week-year week-number weekday-of-month day-of-year yyyy-mm-dd dd-mm-yyyy mm-dd-yyyy earlier later WHICH raku ACCEPTS Str gist year month day formatter BUILDALL)
+> (new new-from-daycount today first-date-in-month last-date-in-month truncated-to clone succ pred DateTime Date IO is-leap-year days-in-month days-in-year daycount day-of-month day-of-week week week-year week-number weekday-of-month day-of-year yyyy-mm-dd dd-mm-yyyy mm-dd-yyyy earlier later WHICH raku ACCEPTS Str gist year month day formatter BUILDALL)
