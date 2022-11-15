@@ -1,0 +1,8 @@
+java.lang.StackOverflowError
+
+Exception in thread "main" org.raku.nqp.runtime.UnwindException
+	at org.raku.nqp.runtime.ThreadContext.<init>(ThreadContext.java:127)
+	at org.raku.nqp.runtime.GlobalContext.getCurrentThreadContext(GlobalContext.java:348)
+	at org.raku.nqp.runtime.GlobalContext.<init>(GlobalContext.java:253)
+	at org.raku.nqp.runtime.CompilationUnit.enterFromMain(CompilationUnit.java:56)
+	at perl6.main(gen/jvm/rakudo.nqp)

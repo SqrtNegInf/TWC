@@ -1,0 +1,87 @@
+ 
+===> 190/2/0rir.raku <===
+ 
+===> 190/2/2colours.raku <===
+AAAE, AAO, AKE, KAE, KO
+ 
+===> 190/2/arne-sommer.raku <===
+ 
+===> 190/2/athanasius.raku <===
+Running the test suite
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ok 4 - One zero (1)
+ok 5 - All zeros
+ok 6 - One zero (2)
+1..6
+ 
+===> 190/2/bruce-gray.raku <===
+1..16
+ok 1 - task2(11)
+ok 2 - task2(1115)
+ok 3 - task2(127)
+ok 4 - task2(222)
+ok 5 - task2(2222)
+ok 6 - task2(2333)
+ok 7 - task2(2626)
+ok 8 - task2(2727)
+ok 9 - I have got 
+ok 10 - such a rotten
+ok 11 - little present
+ok 12 - Misbegotten
+ok 13 - and unpleasant
+ok 14 - Learn your lesson
+ok 15 - Try to leave me
+ok 16 - off your list
+ 
+===> 190/2/feng-chang.raku <===
+KO
+KAE
+AKE
+AAO
+AAAE
+ 
+===> 190/2/jaldhar-h-vyas.raku <===
+AAAE, AAO, AKE, KAE, KO
+ 
+===> 190/2/laurent-rosenfeld.raku <===
+11 	 -> AA, K
+1115 	 -> AAAE, AAO, AKE, KAE, KO
+5115 	 -> EAAE, EAO, EKE
+127 	 -> ABG, LG
+1207 	 -> ATG
+ 
+===> 190/2/luca-ferrari.raku <===
+AAAE
+ 
+===> 190/2/massa.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+1..3
+ 
+===> 190/2/polettix.raku <===
+AAAE, AAO, AKE, KAE, KO
+ 
+===> 190/2/roger-bell-west.raku <===
+1..3
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ 
+===> 190/2/steve-g-lynn.raku <===
+H
+(AA K)
+(ABG LG)
+(AAAE AAO AKE KAE KO)
+[(AAAE AAO AKE KAE KO) (EABG ELG) G]
+ 
+===> 190/2/wambash.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ok 4 - 
+ok 5 - 
+ok 6 - 
+1..6
