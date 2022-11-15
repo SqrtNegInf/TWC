@@ -2,7 +2,9 @@
 use strict;
 use warnings;
 
-die 'not ok - disabled: what is going on exactly?';
+# this might actually work, but don't have the patience to find out (and think of the carbon footprint!)
+
+die 'not ok - disabled: glacially slow, do not run';
 
 ##
 # You are given four squares as below with numbers named a,b,c,d,e,f,g.
