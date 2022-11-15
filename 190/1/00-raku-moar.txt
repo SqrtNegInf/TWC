@@ -1,0 +1,134 @@
+ 
+===> 190/1/0rir.raku <===
+1..30
+ok 1 - dies: non-Letters, 'Ra ku'
+ok 2 - dies: non-Letters, 'Ra0ku'
+ok 3 - dies: empty Str, ''
+ok 4 - dies: undefined, Str
+ok 5 - U --> TITLE-CASE
+ok 6 - U --> UPPER-CASE
+ok 7 - Raku --> TITLE-CASE
+ok 8 - Raku --> TITLE-CASE
+ok 9 - RAKU --> UPPER-CASE
+ok 10 - RAKU --> UPPER-CASE
+ok 11 - raku --> LOWER-CASE
+ok 12 - raku --> LOWER-CASE
+ok 13 - Ul --> TITLE-CASE
+ok 14 - Ul --> TITLE-CASE
+ok 15 - UU --> UPPER-CASE
+ok 16 - UU --> UPPER-CASE
+ok 17 - l --> LOWER-CASE
+ok 18 - l --> LOWER-CASE
+ok 19 - ll --> LOWER-CASE
+ok 20 - ll --> LOWER-CASE
+ok 21 - Perl --> TITLE-CASE
+ok 22 - Perl --> TITLE-CASE
+ok 23 - lUlU --> FAIL-CASE
+ok 24 - lUlU --> FAIL-CASE
+ok 25 - TPF --> UPPER-CASE
+ok 26 - TPF --> UPPER-CASE
+ok 27 - PyThon --> FAIL-CASE
+ok 28 - PyThon --> FAIL-CASE
+ok 29 - pY --> FAIL-CASE
+ok 30 - pY --> FAIL-CASE
+ 
+===> 190/1/2colours.raku <===
+1
+ 
+===> 190/1/arne-sommer.raku <===
+1
+ 
+===> 190/1/athanasius.raku <===
+Running the test suite
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ok 4 - Example 4
+ok 5 - Single
+1..5
+ 
+===> 190/1/bruce-gray.raku <===
+1..4
+ok 1 - task1('Perl')
+ok 2 - task1('TPF')
+ok 3 - task1('PyThon')
+ok 4 - task1('raku')
+ 
+===> 190/1/feng-chang.raku <===
+1
+ 
+===> 190/1/jaldhar-h-vyas.raku <===
+1
+ 
+===> 190/1/laurent-rosenfeld.raku <===
+Perl     -> 1
+TPF      -> 1
+PyThon   -> 0
+raku     -> 1
+Raku     -> 1
+RAKU     -> 1
+RaKu     -> 0
+raKu     -> 0
+ 
+===> 190/1/luca-ferrari.raku <===
+1
+ 
+===> 190/1/mark-anderson.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ok 4 - 
+ 
+===> 190/1/massa.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ok 4 - 
+1..4
+ 
+===> 190/1/mohammad-anwar.raku <===
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ok 4 - Example 4
+1..4
+ 
+===> 190/1/polettix.raku <===
+1
+ 
+===> 190/1/robert-dicicco.raku <===
+Input: $s = 'Perl'
+Output: 1
+ 
+Input: $s = 'TPF'
+Output: 3
+ 
+Input: $s = 'PyThon'
+Output: 0
+ 
+Input: $s = 'raku'
+Output: 2
+ 
+ 
+===> 190/1/roger-bell-west.raku <===
+1..4
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ok 4 - example 4
+ 
+===> 190/1/steve-g-lynn.raku <===
+Perl:1
+TPF:1
+PyThon:0
+raku:1
+ 
+===> 190/1/ulrich-rieke.raku <===
+1
+ 
+===> 190/1/wambash.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ok 4 - 
+1..4
