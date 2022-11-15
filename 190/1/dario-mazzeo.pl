@@ -1,13 +1,9 @@
 #!/usr/bin/env perl
-# THE WEEKLY CHALLENGE - 190
-# Task 1: Capital Detection
-# Autore: Dario Mazzeo
 
 printf("Perl %d\n", Verifica("Perl"));
 printf("TPF %d\n", Verifica("TPF"));
 printf("PyThon %d\n", Verifica("PyThon"));
 printf("raku %d\n", Verifica("raku"));
-exit;
 
 sub Verifica{
 my $in=$_[0];

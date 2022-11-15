@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-# The Weekly Challenge 190
-# Task 1 Capital Detection
+
 use v5.30.0;
 
 my $c1 = '^[A-Z][a-z]*$';

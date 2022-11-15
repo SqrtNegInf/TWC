@@ -1,4 +1,5 @@
 #!/usr/bin/env perl
+
 use v5.36;
 
 sub task1 ( $s ) {
@@ -15,6 +16,7 @@ my @tests = (
     [ 'PyThon' , 0 ],
     [ 'raku'   , 1 ],
 );
+
 use Test::More;
 plan tests => 0+@tests;
 for (@tests) {

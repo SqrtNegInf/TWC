@@ -1,13 +1,6 @@
 #!/usr/bin/env perl
-package challenge190::ch1;
 
-use strict;
-use warnings;
-use autodie;
-use feature qw'say state signatures';
-no warnings qw'experimental::signatures';
-
-use List::Util qw(reduce minstr);
+use v5.036;
 
 use Test::More tests => 4;
 

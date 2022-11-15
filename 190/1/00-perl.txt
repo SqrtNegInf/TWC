@@ -1,0 +1,176 @@
+ 
+===> 190/1/LoneWolfiNTj.pl <===
+1 - capitalization of Perl is correct.
+1 - capitalization of TPF is correct.
+0 - capitalization of PyThon is incorrect.
+1 - capitalization of raku is correct.
+ 
+===> 190/1/adam-russell.pl <===
+1
+1
+0
+1
+ 
+===> 190/1/alexander-pankoff.pl <===
+1..4
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ok 4 - Example 4
+ 
+===> 190/1/athanasius.pl <===
+Running the test suite
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ok 4 - Example 4
+ok 5 - Single
+1..5
+ 
+===> 190/1/bruce-gray.pl <===
+1..4
+ok 1 - task1('Perl')
+ok 2 - task1('TPF')
+ok 3 - task1('PyThon')
+ok 4 - task1('raku')
+ 
+===> 190/1/cheok-yin-fung.pl <===
+1..4
+ok 1
+ok 2
+ok 3
+ok 4
+ 
+===> 190/1/colin-crain.pl <===
+ok 1 - ex-1
+ok 2 - ex-2
+ok 3 - ex-3
+ok 4 - ex-4
+1..4
+ 
+===> 190/1/dario-mazzeo.pl <===
+Perl 1
+TPF 1
+PyThon 0
+raku 1
+ 
+===> 190/1/jo-37.pl <===
+# Seeded srand with seed '1' from import arg.
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ok 4 - Example 4
+ok 5 - Example 1 greek
+ok 6 - Example 2 greek
+ok 7 - Example 3 greek
+ok 8 - Example 4 greek
+ok 9 - single uppercase
+ok 10 - single lowercase
+ok 11 - not a letter
+1..11
+ 
+===> 190/1/kueppo-wesley.pl <===
+ok 1 - Appropiate usage of Capital letters?
+1..1
+ 
+===> 190/1/laurent-rosenfeld.pl <===
+Perl     -> 1
+TPF      -> 1
+PyThon   -> 0
+raku     -> 1
+Raku     -> 1
+RAKU     -> 1
+RaKu     -> 0
+raKu     -> 0
+ 
+===> 190/1/mattneleigh.pl <===
+
+Input: $s = 'Perl'
+Output: 1
+
+Input: $s = 'TPF'
+Output: 1
+
+Input: $s = 'PyThon'
+Output: 0
+
+Input: $s = 'raku'
+Output: 1
+
+ 
+===> 190/1/mohammad-anwar.pl <===
+# Seeded srand with seed '1' from import arg.
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ok 4 - Example 4
+1..4
+ 
+===> 190/1/perlboy1967.pl <===
+ok 1
+ok 2
+ok 3
+ok 4
+1..4
+ 
+===> 190/1/peter-campbell-smith.pl <===
+
+Input:  Perl
+Output: 1
+
+Input:  PWC
+Output: 1
+
+Input:  PyThon
+Output: 0
+
+Input:  raku
+Output: 1
+
+Input:  Byron
+Output: 1
+
+Input:  ShakesSpeare
+Output: 0
+
+Input:  miltoN
+Output: 0
+
+Input:  KEATS
+Output: 1
+
+Input:  123
+Output: 0
+
+Input:  6-fold
+Output: 0
+
+Input:  Hello!
+Output: 0
+
+Input:  a
+Output: 1
+
+Input:  A
+Output: 1
+ 
+===> 190/1/robert-dicicco.pl <===
+Input: $s = 'Perl'
+Output: 1
+
+Input: $s = 'TPF'
+Output: 3
+
+Input: $s = 'PyThon'
+Output: 0
+
+Input: $s = 'raku'
+Output: 2
+
+ 
+===> 190/1/roger-bell-west.pl <===
+1..4
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ok 4 - example 4
