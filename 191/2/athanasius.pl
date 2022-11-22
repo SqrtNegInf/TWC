@@ -119,7 +119,7 @@ use Const::Fast;
 use List::Util     qw( first min );
 use Regexp::Common qw( number );
 use Test::More;
-use constant TIMER    =>  1;
+use constant TIMER    =>  0;
 use if TIMER, 'Time::HiRes' => qw( gettimeofday tv_interval );
 
 const my $MAX_N       => 15;

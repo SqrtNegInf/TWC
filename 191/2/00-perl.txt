@@ -24,8 +24,6 @@ ok 12 - Twelve
 ok 13 - Thirteen
 ok 14 - Fourteen
 1..14
-
-1.435659 seconds
  
 ===> 191/2/cheok-yin-fung.pl <===
 132
