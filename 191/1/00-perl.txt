@@ -1,0 +1,198 @@
+ 
+===> 191/1/LoneWolfiNTj.pl <===
+(1,2,3,4) -> -1
+(1,2,0,5) ->  1
+(2,6,3,1) ->  1
+(4,5,2,3) -> -1
+ 
+===> 191/1/adam-russell.pl <===
+-1
+1
+1
+-1
+ 
+===> 191/1/alexander-pankoff.pl <===
+1..8
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ok 4 - Example 4
+ok 5 - Example 1
+ok 6 - Example 2
+ok 7 - Example 3
+ok 8 - Example 4
+ 
+===> 191/1/athanasius.pl <===
+Running the test suite
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ok 4 - Example 4
+1..4
+ 
+===> 191/1/cheok-yin-fung.pl <===
+1..4
+ok 1
+ok 2
+ok 3
+ok 4
+ 
+===> 191/1/colin-crain.pl <===
+ok 1 - ex-1
+ok 2 - ex-2
+ok 3 - ex-3
+ok 4 - ex-4
+1..4
+ 
+===> 191/1/dave-jacoby.pl <===
+        Input:  $s = (1, 2, 3, 4)
+        Output: -1
+
+        Input:  $s = (1, 2, 0, 5)
+        Output: 1
+
+        Input:  $s = (2, 6, 3, 1)
+        Output: 1
+
+        Input:  $s = (4, 5, 2, 3)
+        Output: -1
+
+ 
+===> 191/1/deadmarshal.pl <===
+-1
+ 1
+ 1
+-1
+ 
+===> 191/1/e-choroba.pl <===
+1..7
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ok 4 - Example 4
+ok 5 - Single element
+ok 6 - Two elements positive
+ok 7 - Two elements negative
+ 
+===> 191/1/jaldhar-h-vyas.pl <===
+1
+ 
+===> 191/1/james-smith.pl <===
+ok 1
+ok 2
+ok 3
+ok 4
+ok 5
+ok 6
+ok 7
+ok 8
+ok 9
+ok 10
+ok 11
+ok 12
+ok 13
+ok 14
+ok 15
+ok 16
+ok 17
+ok 18
+ok 19
+ok 20
+ok 21
+ok 22
+ok 23
+ok 24
+ok 25
+ok 26
+ok 27
+ok 28
+1..28
+ 
+===> 191/1/laurent-rosenfeld.pl <===
+1 2 3 4 -> -1
+1 2 0 5 -> 1
+2 6 3 1 -> 1
+4 5 2 3 -> -1
+ 
+===> 191/1/mohammad-anwar.pl <===
+# Seeded srand with seed '1' from import arg.
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ok 4 - Example 4
+1..4
+ 
+===> 191/1/perlboy1967.pl <===
+ok 1
+ok 2
+ok 3
+ok 4
+ok 5
+ok 6
+1..6
+ 
+===> 191/1/peter-campbell-smith.pl <===
+
+Input:    @list = (1, 2, 3, 4)
+Output A: -1
+Output B: -1
+
+Input:    @list = (1, 2, 0, 5)
+Output A: 1
+Output B: 1
+
+Input:    @list = (2, 6, 3, 1)
+Output A: 1
+Output B: 1
+
+Input:    @list = (4, 5, 2, 3)
+Output A: -1
+Output B: -1
+
+Input:    @list = (1, 5, 16, 28, 35, 44, 50, 61, 78, 83, 99, 200)
+Output A: 1
+Output B: 1
+ 
+===> 191/1/robert-dicicco.pl <===
+Input: @list = (1 2 3 4)
+Output: -1
+
+Input: @list = (1 2 0 5)
+Output: 1
+
+Input: @list = (2 6 3 1)
+Output: 1
+
+Input: @list = (4 5 2 3)
+Output: -1
+
+ 
+===> 191/1/roger-bell-west.pl <===
+1..4
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ok 4 - example 4
+ 
+===> 191/1/solathian.pl <===
+
+The largest in the given list is 4. However 4 is not greater than twice of every remaining elements.
+
+The largest in the given list is 5. Also 5 is greater than twice of every remaining elements.
+
+The largest in the given list is 6. Also 6 is greater than twice of every remaining elements.
+
+The largest in the given list is 5. However 5 is not greater than twice of every remaining elements.
+ 
+===> 191/1/steve-g-lynn.pl <===
+-1
+1
+1
+-1
+ 
+===> 191/1/tim-potapov.pl <===
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ok 4 - Example 4
+1..4

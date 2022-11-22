@@ -53,11 +53,8 @@
 #       © 2022 colin crain
 ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ##
 
-
-
 use warnings;
 use strict;
-use utf8;
 use feature ":5.26";
 use feature qw(signatures);
 no warnings 'experimental::signatures';
@@ -82,13 +79,9 @@ sub twice_as_big_as_me ( @list ) {
     return $twice;
 }
 
-
-
 use Test::More;
-
 is twice_as_big_as_me(1,2,3,4), -1, 'ex-1';
 is twice_as_big_as_me(1,2,0,5),  1, 'ex-2';
 is twice_as_big_as_me(2,6,3,1),  1, 'ex-3';
 is twice_as_big_as_me(4,5,2,3), -1, 'ex-4';
-
 done_testing();

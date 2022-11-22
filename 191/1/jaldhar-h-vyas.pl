@@ -2,6 +2,6 @@
 use 5.030;
 use warnings;
 
-my @sorted = sort @ARGV;
+my @sorted = sort (2,6,3,1);
 
 say $sorted[-2] * 2 <= $sorted[-1] ? 1 : -1;

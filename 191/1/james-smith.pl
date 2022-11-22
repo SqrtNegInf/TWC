@@ -5,8 +5,6 @@ use strict;
 use warnings;
 use feature qw(say);
 use Test::More;
-use Benchmark qw(cmpthese timethis);
-use Data::Dumper qw(Dumper);
 
 my $N = 200_000;
 
@@ -45,12 +43,6 @@ for my $T ( @TESTS ) {
   is( is_double_sort( @{$_->[0]} ), $_->[1] ) for @{$T};
 }
 done_testing();
-for my $T ( @TESTS ) {
-  cmpthese( -1, {
-    'max'  => sub { is_double(     @{$_->[0]}) for @{$T} },
-    'sort' => sub { is_double_sort(@{$_->[0]}) for @{$T} },
-  });
-}
 
 sub is_double {
   my( $f, $s ) = ( shift, shift );           # First two numbers

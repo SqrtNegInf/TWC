@@ -1,11 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
-use strict;
-use warnings;
-##
-# You are given list of integers, @list. Write a script to find out whether the largest 
-# item in the list is at least twice as large as each of the other items.
-## 
+
 sub twice_largest{
     my(@list_integers) = @_;
     my @sorted_integers = sort {$a <=> $b} @list_integers;

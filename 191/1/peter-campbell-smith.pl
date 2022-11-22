@@ -1,16 +1,8 @@
 #!/usr/bin/env perl
 
-# Peter Campbell Smith - 2022-11-14
-# PWC 191 task 1
-
 use v5.28;
 use utf8;
 use warnings;
-
-# You are given list of integers, @list. Write a script to find out whether the largest item in the list 
-# is at least twice as large as each of the other items.
-
-# Blog: https://pjcs-pwc.blogspot.com/2022/11/the-twice-largest-and-number-of-cuties.html
 
 my (@tests, $test, @sorted, $largest, $second, $this);
 

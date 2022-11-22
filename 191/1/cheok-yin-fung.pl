@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-# The Weekly Challenge 191
-# Task 1 Twice Largest
+
 use v5.30.0;
 use List::Util qw/max all/;
 

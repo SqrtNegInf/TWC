@@ -4,16 +4,6 @@ use strict;
 use warnings;
 use Test::More;
 
-=pod
-
-Task 1: Twice Largest
-You are given list of integers, @list.
-
-Write a script to find out whether the largest item in the list is at
-least twice as large as each of the other items.
-
-=cut
-
 sub twice_as_big {
     my ( $biggest, $next_biggest ) = sort { $b <=> $a } @_;
     $biggest >= 2 * $next_biggest ? 1 : -1;
