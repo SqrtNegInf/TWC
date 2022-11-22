@@ -1,6 +1,6 @@
 #!/usr/bin/env raku
 
-say &cute-list(2); #2
+say &cute-list(8); #2
 
 sub cute-list (Int $n) {
     my @list=(1 .. $n);

@@ -1,6 +1,6 @@
 #!/usr/bin/env raku
 
-unit sub MAIN(UInt:D \n where * > 0);
+unit sub MAIN(UInt:D \n where * > 0 = 8);
 
 sub solve(@S is copy, @s is copy) {
     return 0 if +@S == 0;
@@ -8,7 +8,7 @@ sub solve(@S is copy, @s is copy) {
 
     #return +@S[0] if +@S == 1;
     if +@S == 1 {
-        put ' ', (|@s, |@S[0]).join(' ');
+        #put ' ', (|@s, |@S[0]).join(' ');
         return +@S[0];
     }
 

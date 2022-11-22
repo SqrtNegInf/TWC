@@ -22,7 +22,7 @@ multi count-cutes(%options-left) {
 }
 
 
-sub MAIN(ValidInt $n) {
+sub MAIN(ValidInt $n = 8) {
   my %current-options = generate-options $n;
   %current-options andthen
     .&count-cutes

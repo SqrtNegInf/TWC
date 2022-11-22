@@ -1,30 +1,6 @@
 #!/usr/bin/env raku
-# :vim ft=raku sw=4 expandtab  # 🦋 ∅ ≡ ∩ ≢ ∈ «␤»
-use v6.d;
+
 use Test;
-
-=begin comment
-
-191-2: Cute List            Submitted by: Mohammad S Anwar
-Given an integer, 0 < $n <= 15, find the number of orderings of numbers
-that form a cute list.
-
-With an input @list = (1, 2, 3, .. $n) for positive integer $n, an ordering of @list is cute if for every entry, indexed with a base of 1, either
-
-1) $list[$i] is evenly divisible by $i
-or
-2) $i is evenly divisible by $list[$i]
-Example
-Input: $n = 2
-Ouput: 2
-
-Since $n = 2, the list can be made up of two integers only i.e. 1 and 2.
-Therefore we can have two list i.e. (1,2) and (2,1).
-
-@list = (1,2) is cute since $list[1] = 1 is divisible by 1
-    and $list[2] = 2 is divisible by 2.
-
-=end comment
 
 # naive implementation -- I don't have much math
 sub swap( @a, $l, $r --> Nil ) {
@@ -78,12 +54,11 @@ multi gen-cute( $n --> Int) {
     return $rtn;
 }
 
-say gen-cute( 8);
+#say gen-cute( 8);
 
 
-=finish
 
-multi MAIN ( $t where * = < T t>.any ) {
+#multi MAIN ( $t where * = < T t>.any ) {
     my @Test =
          0 =>   Any,   1 =>   1,   2 =>   2,    3 =>    3,   4 =>    8,
          5 =>    10,   6 =>  36,   7 =>   41,   8 =>  132,   9 =>  250,
@@ -103,7 +78,7 @@ multi MAIN ( $t where * = < T t>.any ) {
         (1,3,2,4,5,6,7,8,9,11,10,12),
         (1,3,2,4,5,6,7,8,9,10,11,12),
     ;
-    plan @Test.elems + @T-is-cute-true + @T-is-cute-false;
+    #plan @Test.elems + @T-is-cute-true + @T-is-cute-false;
 
     for @T-is-cute-true -> @t {
         ok is-cute( @t), " is cute @t[]";
@@ -112,9 +87,8 @@ multi MAIN ( $t where * = < T t>.any ) {
         nok is-cute( @t), "not cute @t[]";
     }
 
-    for @Test -> $p {
-        is @cute-count[ $p.key], $p.value, "$p.key() --> "~ $p.value.raku;
-    }
+    #for @Test -> $p {
+    #    is @cute-count[ $p.key], $p.value, "$p.key() --> "~ $p.value.raku;
+    #}
     done-testing;
-}
-
+#}

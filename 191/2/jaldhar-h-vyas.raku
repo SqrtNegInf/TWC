@@ -13,7 +13,7 @@ sub isCute(@list) {
 }
 
 sub MAIN(
-    Int $n where { $_ ~~ 1 .. 15 } #= integer from 1 to 15 inclusive
+    Int $n where { $_ ~~ 1 .. 15 } = 8
 ) {
     (1 .. $n).permutations.grep({ isCute(@$_); }).elems.say;
 }

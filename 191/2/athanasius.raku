@@ -1,5 +1,4 @@
 #!/usr/bin/env raku
-use v6d;
 
 ###############################################################################
 =begin comment
@@ -125,16 +124,9 @@ use Test;
 
 my UInt constant $MAX-N       = 15;
 my UInt constant $TEST-FIELDS =  3;
-my Bool constant $TIMER       = True;
+my Bool constant $TIMER       = False;
 
 subset N-type of Int where 0 < * <= $MAX-N;
-
-#------------------------------------------------------------------------------
-BEGIN
-#------------------------------------------------------------------------------
-{
-    "\nChallenge 191, Task #2: Cute List (Raku)\n".put;
-}
 
 #==============================================================================
 multi sub MAIN

@@ -1,4 +1,7 @@
 #!/usr/bin/env raku
+
+BEGIN die 'not ok - disabled: JVM cannot handle Perl5' if $*VM ~~ /jvm/;
+
 use Math::Prime::Util:from<Perl5> <numtoperm>;
 use Test;
 
@@ -8,7 +11,7 @@ is cute-list(2),  2;
 is cute-list(3),  3;
 is cute-list(4),  8;
 is cute-list(5),  10;
-is cute-list(10), 700;
+is cute-list(8), 132;
 
 sub cute-list($n)
 {

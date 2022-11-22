@@ -48,10 +48,8 @@ sub task2_fast ( UInt $n --> UInt ) {
     return @A320843[$n];
 }
 
-multi sub MAIN ( @nums ) {
-    say "T($_) = ", (task2(+$_) // 'Unknown') for @nums;
-}
-multi sub MAIN ( Bool :$test! ) {
+#multi sub MAIN ( @nums ) { say "T($_) = ", (task2(+$_) // 'Unknown') for @nums; }
+#multi sub MAIN ( Bool :$test! ) {
     my @tests =
         # Example from task:
         (  2 ,            2 ),
@@ -66,17 +64,17 @@ multi sub MAIN ( Bool :$test! ) {
         (  7 ,           41 ),
         (  8 ,          132 ),
         (  9 ,          250 ),
-        ( 10 ,          700 ),
-        ( 11 ,          750 ),
-        ( 12 ,         4010 ),
-        ( 13 ,         4237 ),
-        ( 14 ,        10680 ),
-        ( 15 ,        24679 ),
-        ( 35 , 207587882368 ),
+#       ( 10 ,          700 ),
+#       ( 11 ,          750 ),
+#       ( 12 ,         4010 ),
+#       ( 13 ,         4237 ),
+#       ( 14 ,        10680 ),
+#       ( 15 ,        24679 ),
+#       ( 35 , 207587882368 ),
     ;
     use Test;
     plan +@tests;
     for @tests -> ( $in, $expected ) {
         is task2($in), $expected, "T($in) = $expected";
     }
-}
+#}

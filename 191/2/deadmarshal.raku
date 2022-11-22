@@ -19,5 +19,5 @@ sub cute-list($n)
   $count;
 }
 
-say cute-list(2);
+say cute-list(8);
 

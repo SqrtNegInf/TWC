@@ -1,8 +1,8 @@
 #!/usr/bin/env raku
 
-# Perl Weekly Challenge 191
+# 2 ??
 
-sub MAIN( Int $n where { 0 < $n <= 15 } ) {
+sub MAIN( Int $n where { 0 < $n <= 15 } = 8) {
 
     my $cute-counter = 0;
     for ( 1 .. $n ).List.permutations -> $current-list {

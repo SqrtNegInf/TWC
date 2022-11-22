@@ -1,6 +1,6 @@
 #!/usr/bin/env raku
-use v6;
-sub MAIN (Int $n where 0 < * <= 15 = 2) { put cute-list($n) }
+
+sub MAIN (Int $n where 0 < * <= 15 = 8) { put cute-list($n) }
 
 sub cute-list ($n) {
    sub cute-list-r ($count is copy, $i, *@items) {

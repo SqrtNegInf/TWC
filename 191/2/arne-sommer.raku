@@ -1,6 +1,6 @@
 #!/usr/bin/env raku
 
-unit sub MAIN (UInt $n where 0 < $n <= 15, :v(:$verbose));
+unit sub MAIN (UInt $n where 0 < $n <= 15 = 8, :v(:$verbose));
 
 my @list = (1 .. $n);
 

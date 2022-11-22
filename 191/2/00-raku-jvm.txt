@@ -1,0 +1,137 @@
+ 
+===> 191/2/0rir.raku <===
+ok 1 -  is cute 1 2 3 4
+ok 2 -  is cute 1 4 3 2
+ok 3 -  is cute 2 1 3 4
+ok 4 -  is cute 2 4 3 1
+ok 5 -  is cute 3 2 1 4
+ok 6 -  is cute 3 4 1 2
+ok 7 -  is cute 4 1 3 2
+ok 8 -  is cute 4 2 3 1
+ok 9 -  is cute 1 8 3 4 10 6 7 2 9 5 11 12
+ok 10 - not cute 1 2 4 3
+ok 11 - not cute 1 3 2 4
+ok 12 - not cute 1 3 4 2
+ok 13 - not cute 1 4 2 3
+ok 14 - not cute 2 1 4 3
+ok 15 - not cute 2 3 1 4
+ok 16 - not cute 2 3 4 1
+ok 17 - not cute 2 4 1 3
+ok 18 - not cute 3 1 2 4
+ok 19 - not cute 3 1 4 2
+ok 20 - not cute 3 2 4 1
+ok 21 - not cute 3 4 2 1
+ok 22 - not cute 4 1 2 3
+ok 23 - not cute 4 2 1 3
+ok 24 - not cute 4 3 1 2
+ok 25 - not cute 4 3 2 1
+ok 26 - not cute 1 3 2 4 5 6 7 8 9 11 10 12
+ok 27 - not cute 1 3 2 4 5 6 7 8 9 10 11 12
+1..27
+ 
+===> 191/2/2colours.raku <===
+132
+ 
+===> 191/2/arne-sommer.raku <===
+132
+ 
+===> 191/2/athanasius.raku <===
+Running the test suite
+ok 1 - One
+ok 2 - Two
+ok 3 - Three
+ok 4 - Four
+ok 5 - Five
+ok 6 - Six
+ok 7 - Seven
+ok 8 - Eight
+ok 9 - Nine
+ok 10 - Ten
+ok 11 - Eleven
+ok 12 - Twelve
+ok 13 - Thirteen
+ok 14 - Fourteen
+ok 15 - Fifteen
+1..15
+ 
+===> 191/2/bruce-gray.raku <===
+1..10
+ok 1 - T(2) = 2
+ok 2 - T(1) = 1
+ok 3 - T(2) = 2
+ok 4 - T(3) = 3
+ok 5 - T(4) = 8
+ok 6 - T(5) = 10
+ok 7 - T(6) = 36
+ok 8 - T(7) = 41
+ok 9 - T(8) = 132
+ok 10 - T(9) = 250
+ 
+===> 191/2/deadmarshal.raku <===
+132
+ 
+===> 191/2/feng-chang.raku <===
+candidates: [[1 2 3 4 5 6 7 8] [1 2 4 6 8] [1 3 6] [1 2 4 8] [1 5] [1 2 3 6] [1 7] [1 2 4 8]]
+132
+ 
+===> 191/2/jaldhar-h-vyas.raku <===
+132
+ 
+===> 191/2/laurent-rosenfeld.raku <===
+1 -> 1
+2 -> 2
+3 -> 3
+4 -> 8
+5 -> 10
+6 -> 36
+7 -> 41
+8 -> 132
+9 -> 250
+ 
+===> 191/2/luca-ferrari.raku <===
+2
+ 
+===> 191/2/mark-anderson.raku <===
+ 
+===> 191/2/massa.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+1..3
+ 
+===> 191/2/polettix.raku <===
+132
+ 
+===> 191/2/robert-dicicco.raku <===
+Input: n = 5
+[1 2 3 4 5] is cute!
+[1 4 3 2 5] is cute!
+[2 1 3 4 5] is cute!
+[2 4 3 1 5] is cute!
+[3 2 1 4 5] is cute!
+[3 4 1 2 5] is cute!
+[4 1 3 2 5] is cute!
+[4 2 3 1 5] is cute!
+[5 2 3 4 1] is cute!
+[5 4 3 2 1] is cute!
+ 
+ 
+===> 191/2/roger-bell-west.raku <===
+1..3
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 2
+ 
+===> 191/2/simon-proctor.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ok 4 - 
+ok 5 - 
+1..5
+ 
+===> 191/2/steve-g-lynn.raku <===
+132
+ 
+===> 191/2/ulrich-rieke.raku <===
+132

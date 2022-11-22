@@ -1,5 +1,4 @@
 #!/usr/bin/env raku
-use v6 ;
 
 sub createPairs( $seq ) {
   my @pairs ;
@@ -16,9 +15,7 @@ sub isCute( @array ) {
   return @array.grep( {($_[0] %% $_[1]) || ($_[1] %% $_[0] ) } ).elems == $len ;
 }
 
-say "Enter an positive integer up to and including 15!" ;
-my $line = $*IN.get ;
-my $number = +$line ;
+my $number = 8;
 my $count = 0 ;
 for (1..$number).permutations -> $aSeq {
   my @pairs = createPairs( $aSeq ) ;

@@ -31,7 +31,8 @@ subset LargeRange of Int where 9 < * <= 15;
 multi sub cute-count( ValidRange $n ) {
     my @list = 1..$n;
     if ( $n >= 10 ) {
-        return [+] ( ^@list ).hyper.map( {
+       #return [+] ( ^@list ).hyper.map( {
+        return [+] ( ^@list ).map( {
             possible-cute( 1, @list[$_], (|@list[0..$_-1], |@list[$_+1..*]) );
         });
     } else {
@@ -45,7 +46,8 @@ multi sub possible-cute( $idx is copy, $val is copy, @rest ) {
     return 0 unless $idx %% $val || $val %% $idx;
     my $next = $idx+1;
     if ( @rest.elems > 10 ) {
-        return [+] ( ^(@rest.elems) ).hyper.map( {
+       #return [+] ( ^(@rest.elems) ).hyper.map( {
+        return [+] ( ^(@rest.elems) ).map( {
           possible-cute( $next, @rest[$_], (|@rest[0..$_-1], |@rest[$_+1..*]) )
         });
     } elsif ( @rest.elems ) {

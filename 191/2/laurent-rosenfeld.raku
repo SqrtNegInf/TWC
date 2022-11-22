@@ -15,6 +15,6 @@ sub count-cute ($k) {
     return $count;
 }
 
-for 1..10 -> $j {
+for 1..9 -> $j {
     say "$j -> ", count-cute $j;
 }
