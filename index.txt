@@ -400,8 +400,8 @@ Challenge titles and Rosetta-code correspondences (exact, and otherwise)
 190-2 Decoded List
 191-1 Twice Largest
 191-2 Cute List
-192-1
-192-2
+192-1 Binary Flip
+192-2 Equal Distribution
 193-1
 193-2
 194-1
