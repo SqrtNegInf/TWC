@@ -1,0 +1,127 @@
+ 
+===> 191/1/0rir.raku <===
+1..7
+ok 1 - Empty --> Bool type object
+ok 2 - $(1, 2, 3, 4) --> False
+ok 3 - $(1, 2, 0, 5) --> True
+ok 4 - $(2, 6, 3, 1) --> True
+ok 5 - $(4, 5, 2, 3) --> False
+ok 6 - $(3,) --> True
+ok 7 - List type object dies
+ 
+===> 191/1/2colours.raku <===
+ 
+===> 191/1/arne-sommer.raku <===
+1
+ 
+===> 191/1/athanasius.raku <===
+Running the test suite
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ok 4 - Example 4
+1..4
+ 
+===> 191/1/bruce-gray.raku <===
+1..5
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ok 4 - 
+ok 5 - 
+ 
+===> 191/1/deadmarshal.raku <===
+-1
+1
+1
+-1
+ 
+===> 191/1/feng-chang.raku <===
+1
+ 
+===> 191/1/jaldhar-h-vyas.raku <===
+1
+ 
+===> 191/1/laurent-rosenfeld.raku <===
+(1 2 3 4) -> -1
+(1 2 0 5) -> 1
+(2 6 3 1) -> 1
+(4 5 2 3) -> -1
+ 
+===> 191/1/luca-ferrari.raku <===
+1
+ 
+===> 191/1/mark-anderson.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ok 4 - 
+ 
+===> 191/1/massa.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ok 4 - 
+1..4
+ 
+===> 191/1/mohammad-anwar.raku <===
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ok 4 - Example 4
+1..4
+ 
+===> 191/1/polettix.raku <===
+1
+ 
+===> 191/1/robert-dicicco.raku <===
+Input: @list = (1 2 3 4)
+Output: -1
+
+Input: @list = (1 2 0 5)
+Output: 1
+
+Input: @list = (2 6 3 1)
+Output: 1
+
+Input: @list = (4 5 2 3)
+Output: -1
+
+ 
+===> 191/1/roger-bell-west.raku <===
+1..4
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ok 4 - example 4
+ 
+===> 191/1/simon-proctor.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ok 4 - 
+ok 5 - 
+ok 6 - 
+ok 7 - 
+ok 8 - 
+ok 9 - 
+ok 10 - 
+ok 11 - 
+ok 12 - 
+1..12
+ 
+===> 191/1/steve-g-lynn.raku <===
+-1
+1
+1
+-1
+ 
+===> 191/1/ulrich-rieke.raku <===
+1
+ 
+===> 191/1/wambash.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ok 4 - 
+1..4

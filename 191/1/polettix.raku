@@ -1,6 +1,6 @@
 #!/usr/bin/env raku
-use v6;
-sub MAIN (*@list) { put twice-largest(@list) }
+
+sub MAIN (@list = (2,6,3,1) ) { put twice-largest(@list) }
 
 sub twice-largest (@list) {
    my ($top, $next) = @list.sort({ $^a <=> $^b }).reverse.flat;

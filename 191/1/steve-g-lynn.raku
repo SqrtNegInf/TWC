@@ -1,6 +1,5 @@
 #!/usr/bin/env raku
 
-
 say &twice-largest([1,2,3,4]); #-1
 say &twice-largest([1,2,0,5]); #1
 say &twice-largest([2,6,3,1]); #1

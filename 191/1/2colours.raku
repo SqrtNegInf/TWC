@@ -1,5 +1,8 @@
 #!/usr/bin/env raku
 
+BEGIN die 'not ok - disabled: JVM cannot handle this code' if $*VM ~~ /jvm/;
+# Use of Nil.Int coerced to empty string, line 15
+
 # why the awkward input requirement?
 
 my rule integer { 0 | '-'? <[1..9]> <[0..9]>* };

@@ -1,8 +1,7 @@
 #!/usr/bin/env raku
-use v6 ;
 
-say "Enter a number of integers, separated by blanks!" ;
-my $line = $*IN.get ;
+
+my $line = '2 6 3 1';
 my @numbers = $line.split( /\s/ ).map( {.Int} ) ;
 my $maximum = @numbers.max ;
 my $retval ;
