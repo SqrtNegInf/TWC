@@ -1,12 +1,10 @@
 #!/usr/bin/env perl
-# The Weekly Challenge 191
-# Task 2 Cute List
-# only workable up to $n = 11
+
 use v5.30.0;
 use warnings;
 use Math::Permutation;
 
-my $n = $ARGV[0] || 1;
+my $n = $ARGV[0] || 8;
 
 sub fac {
     my $ans = 1;

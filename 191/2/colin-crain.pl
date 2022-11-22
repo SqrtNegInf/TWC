@@ -169,7 +169,7 @@ no warnings 'experimental::signatures';
 use Algorithm::Combinatorics qw( permutations );
 
 
-my $limit = shift @ARGV // 15;
+my $limit = shift @ARGV // 8;
 
 for my $n ( 1..$limit ) {
     say "n = $n"; 

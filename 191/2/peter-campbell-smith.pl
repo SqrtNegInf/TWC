@@ -1,18 +1,8 @@
 #!/usr/bin/env perl
 
-# Peter Campbell Smith - 2022-11-14
-# PWC 191 task 1
-
 use v5.28;
 use utf8;
 use warnings;
-
-# You are given an integer, 0 < $n <= 15. Write a script to find the number of orderings of numbers that form 
-# a cute list. With an input @list = (1, 2, 3, .. $n) for positive integer $n, an ordering of @list is cute if for 
-# every entry, indexed with a base of 1, either $list[$i] is evenly divisible by $i or  $i is evenly divisible 
-# by $list[$i]
-
-# Blog: https://pjcs-pwc.blogspot.com/2022/11/the-twice-largest-and-number-of-cuties.html
 
 my ($n, @perm, $nn, $x, $cute);
 

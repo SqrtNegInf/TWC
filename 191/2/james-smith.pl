@@ -5,8 +5,6 @@ use strict;
 use warnings;
 use feature qw(say);
 use Test::More;
-use Benchmark qw(cmpthese timethis);
-use Data::Dumper qw(Dumper);
 use List::Util qw(sum0);
 use Time::HiRes qw(time);
 
@@ -21,7 +19,7 @@ my @RES = (0,
       9_014_369_784,    33_923_638_848,    59_455_553_072,   126_536_289_568, 207_587_882_368, #31-35
   1_495_526_775_088, 1_510_769_105_288, 3_187_980_614_208, 5_415_462_995_568,                  #36-39
 );
-my $N   = 25; # N up to 20 works with all methods...
+my $N   = 15; # N up to 20 works with all methods...
 ## We will use memoization to improve performance!!
 
 is( cute(                    $_ ), $RES[$_] ) for 1..$N;
@@ -38,13 +36,6 @@ done_testing();
 ## Then for ultimate perforance we sort them into a list in
 ## size order - so start with the position with least possible numbers
 ## and work up!!
-
-cmpthese( -5 , {
-  'cache-order'        => sub { cute($_) for 1..$N },
-  'cache-no-order'     => sub { cute_no_order($_) for 1..$N },
-  'no-cache-order'     => sub { cute_no_cache($_) for 1..$N },
-  'no-order-no-cache'  => sub { cute_no_order_no_cache($_) for 1..$N },
-});
 
 sub cute {
     ## Clear cache...

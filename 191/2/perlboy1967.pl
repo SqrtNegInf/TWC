@@ -1,28 +1,5 @@
 #!/usr/bin/env perl
 
-=pod
-
-The Weekly Challenge - 191
- - https://theweeklychallenge.org/blog/perl-weekly-challenge-191/#TASK2
-
-Author: Niels 'PerlBoy' van Dijke
-
-Task 2: Cute List
-Submitted by: Mohammad S Anwar
-
-You are given an integer, 0 < $n <= 15.
-
-Write a script to find the number of orderings of numbers that form a cute list.
-
-With an input @list = (1, 2, 3, .. $n) for positive integer $n, an ordering of @list
-is cute if for every entry, indexed with a base of 1, either
-
-1) $list[$i] is evenly divisible by $i
-or
-2) $i is evenly divisible by $list[$i]
-
-=cut
-
 use v5.16;
 use warnings;
 
@@ -60,7 +37,8 @@ sub nCuteLists {
 
 # Note, testing up to 12 because of time lengthy
 
-for (1..12) {
+for (1..9) {
   my $t0 = [gettimeofday];
-  printf "nCuteLists($_) = %s (in %f seconds)\n", nCuteLists($_), tv_interval ($t0);
+  printf "nCuteLists($_) = %s\n", nCuteLists($_);
+  #printf "nCuteLists($_) = %s (in %f seconds)\n", nCuteLists($_), tv_interval ($t0);
 }

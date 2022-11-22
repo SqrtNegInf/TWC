@@ -40,4 +40,4 @@ sub main ($n) {
     say find_solutions( [], \@possible );
 }
 
-main( $ARGV[0] )
+main( 8 )

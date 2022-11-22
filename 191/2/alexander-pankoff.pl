@@ -1,5 +1,4 @@
 #!/usr/bin/env perl
-package challenge191::ch2;
 
 use strict;
 use warnings;
@@ -11,7 +10,7 @@ use List::Util qw(all);
 
 use constant DEBUG => $ENV{DEBUG} // 0;
 
-for ( 1 .. 15 ) {
+for ( 2,4,8 ) {
     my @cuties = cute_list($_);
     say '$n = ' . sprintf( "%2d", $_ ) . ": " . scalar @cuties;
 

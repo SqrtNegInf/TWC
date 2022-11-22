@@ -2,10 +2,7 @@
 use v5.36;
 use strict;
 use warnings;
-##
-# You are given an integer, 0 < $n <= 15.
-# Write a script to find the number of orderings of numbers that form a cute list.
-##  
+
 use Hash::MultiKey;
 
 sub cute_list{
@@ -37,5 +34,5 @@ sub cute_list{
 }
 
 MAIN:{
-    say cute_list(15) . q//;
+    say cute_list(8) . q//;
 }

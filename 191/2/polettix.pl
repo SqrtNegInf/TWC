@@ -4,7 +4,7 @@ use warnings;
 use experimental 'signatures';
 no warnings 'experimental::signatures';
 
-say cute_list(shift // 2);
+say cute_list(shift // 8);
 
 sub cute_list ($n) {
    state sub cute_list_r ($count, $i, @items) {

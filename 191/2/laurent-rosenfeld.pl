@@ -34,6 +34,6 @@ sub count_cute {
     return $count;
 }
 
-for my $j (1..10) {
+for my $j (1..9) {
     say "$j -> ", count_cute $j;
 }

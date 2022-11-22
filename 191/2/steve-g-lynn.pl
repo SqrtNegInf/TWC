@@ -5,7 +5,7 @@ use warnings;
 
 use Algorithm::Permute qw(permute);
 
-print &cute_list(2),"\n"; #2
+print &cute_list(8),"\n"; #2
 
 sub cute_list {
     my ($n)=@_;

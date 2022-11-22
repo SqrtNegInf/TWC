@@ -18,5 +18,4 @@ sub cute_list{
   $count;
 }
 
-print cute_list(2), "\n";
-
+print cute_list(8), "\n";

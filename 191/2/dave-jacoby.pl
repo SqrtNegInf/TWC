@@ -6,22 +6,8 @@ use experimental qw{ say postderef signatures state };
 
 use Algorithm::Permute;
 use List::Util qw{ uniq };
-# use Memoize;
-# memoize('test');
 
-# before Memoize:
-# real    0m30.866s
-# user    0m10.766s
-# sys     0m1.016s
-
-# after Memoize:
-# real    1m28.003s
-# user    0m30.375s
-# sys     0m1.672s
-
-# to check your work: https://oeis.org/A320843
-
-my @input = 1 .. 15;
+my @input = <2 4 8>;
 for my $i (@input) {
     my @list = cute_list($i);
     my $list = join ",\n\t", @list;
