@@ -43,7 +43,7 @@ sub get_nr_flips {
 
 }
 
-
+print get_nr_flips([2,13,10,8]); print "\n";  # once in a great while flips and gets the right answer?
 
 use Test::More;
 
