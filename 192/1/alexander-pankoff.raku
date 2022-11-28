@@ -6,6 +6,7 @@ is( binary-flip(5), 2, "Example 1" );
 is( binary-flip(4), 3, "Example 2" );
 is( binary-flip(6), 1, "Example 3" );
 is( binary-flip(7), 0, "Example [7 ~= 0b111]" );
+#is( binary-flip(2⁶⁴+1), (2⁶⁴-2), "nope for big num" );
 
 sub binary-flip(Int $n --> Int) {
     return $n +^ ( -1 + 2** ( $n + 1 ).log2.ceiling );

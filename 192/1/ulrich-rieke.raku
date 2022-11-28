@@ -1,12 +1,6 @@
 #!/usr/bin/env raku
-use v6 ;
 
-say "Enter a positive integer!" ;
-my $line = $*IN.get ;
-while ( $line !~~ /^\d+$/ ) {
-  say "Enter a positive integer, re-enter!" ;
-  $line = $*IN.get ;
-}
+my $line = 2⁶⁴ +1;
 my $binaryStr = $line.Int.base( 2 ) ;
 my @digits = $binaryStr.comb ;
 for @digits <-> $digit {

@@ -1,45 +1,6 @@
 #!/usr/bin/env raku
-use v6;
 
-#`{
-
-  AUTHOR: Robert DiCicco
-
-  DATE: 2022-11-21
-
-  Challenge 192 Binary Flip ( Raku )
-
-
-
-  You are given a positive integer, $n.
-
-
-
-  Write a script to find the binary flip.
-
-  Example 1
-
-
-
-  Input: $n = 5
-
-  Output: 2
-
-
-
-  First find the binary equivalent of the given integer, 101.
-
-  Then flip the binary digits 0 -> 1 and 1 -> 0 and we get 010.
-
-  So Binary 010 => Decimal 2.
-
-}
-
-
-
-my @ns = (5,4,6);
-
-
+my @ns = (5,4,6, 2⁶⁴ +1); # doesn't handle big one correctly
 
 for @ns -> $n {
 
@@ -60,33 +21,5 @@ for @ns -> $n {
   my $intval = ":2<$outj>".Int;
 
   say "Output: $intval\n";
-
-}
-
-
-
-#`{
-
-  SAMPLE Output
-
-  raku .\BinaryFlip.rk
-
-
-
-  Input: $n = 5
-
-  Output: 2
-
-
-
-  Input: $n = 4
-
-  Output: 3
-
-
-
-  Input: $n = 6
-
-  Output: 1
 
 }

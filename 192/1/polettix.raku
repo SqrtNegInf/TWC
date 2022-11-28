@@ -1,6 +1,6 @@
 #!/usr/bin/env raku
-use v6;
-sub MAIN ($n = 5) { put binary-flip($n) }
+
+sub MAIN ($n = 2⁶⁴ + 1) { put binary-flip($n) }
 
 sub binary-flip (Int $n is copy where * > 0) {
    my $mask = 0x01;

@@ -5,6 +5,6 @@ sub flip (Int $n) {
     return $bin.parse-base(2);
 }
 
-for 5, 4, 6 -> $test {
+for 5, 4, 6,  2⁶⁴+1 -> $test {
     say "$test => ", flip($test);
 }

@@ -1,4 +1,5 @@
 #!/usr/bin/env raku
+
 # Faster, by about 10x
 sub all_ones ( UInt $n --> UInt ) { ( 1 +< ($n.log2.floor + 1) ) - 1 }
 sub fast1    ( UInt $n --> UInt ) { $n +^ all_ones($n) }
@@ -10,19 +11,22 @@ sub task1    ( UInt $n --> UInt ) {
              .parse-base(2);
 }
 
-
 my @tests =
     ( 5, 2 ),
     ( 4, 3 ),
     ( 6, 1 ),
+    ( 2⁶⁴ +1, 2⁶⁴ -2 ),
 ;
+
 use Test;
-plan +@tests + 1;
-for @tests -> ( $in, $expected ) {
-    is task1($in), $expected, "task1($in) == $expected";
+plan (2*+@tests) + 1;
+for @tests -> ( $in, $expected ) { 
+    is task1($in), $expected, "task1($in) == $expected"; 
+    is fast1($in), $expected, "task1($in) == $expected"; 
 }
-{
+
+#{
     my Range $r  = 1 .. (2 ** 14);
     my Bool  $ok = not defined first { .&task1 != .&fast1 }, $r.list;
     ok $ok, "Two different approaches over {$r.raku}";
-}
+#}

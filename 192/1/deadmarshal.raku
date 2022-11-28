@@ -1,4 +1,5 @@
 #!/usr/bin/env raku
+
 sub binary-flip($n)
 {
   my $binary = $n.base(2);
@@ -9,4 +10,4 @@ sub binary-flip($n)
 say binary-flip(5);
 say binary-flip(4);
 say binary-flip(6);
-
+say binary-flip(2⁶⁴ +1);
