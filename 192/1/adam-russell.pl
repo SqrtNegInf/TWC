@@ -1,9 +1,8 @@
 #!/usr/bin/env perl
 use v5.36;
-##
-# You are given a positive integer, $n.
-# Write a script to find the binary flip.
-##
+
+no warnings;
+
 sub int2bits{
     my($n) = @_;
     my @bits;
@@ -26,4 +25,5 @@ MAIN:{
     say binary_flip(5);
     say binary_flip(4);
     say binary_flip(6);
+    { use bigint; say binary_flip(2**64 +1); }
 }

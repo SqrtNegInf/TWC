@@ -14,4 +14,5 @@ sub main ($n) {
     say $p- $n - 1;
 }
 
-main( $ARGV[0] );
+use bigint;
+main( $_ ) for 4,5,6, 2**64+1; # wrong for bigint

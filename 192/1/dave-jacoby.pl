@@ -6,6 +6,8 @@ use experimental qw{ fc say postderef signatures state };
 
 my @input = 1 .. 20;
 
+{ use bigint; say binary_flip(2**64 +1); } # wrong
+
 for my $i (@input) {
     my $output = binary_flip($i);
     say <<"END";

@@ -1,9 +1,8 @@
 #!/usr/bin/env perl
-# The Weekly Challenge 192
-# Task 1 Binary Flip
+
 use v5.30.0;
 
-say bf($ARGV[0]) if defined($ARGV[0]);
+#say bf($ARGV[0]) if defined($ARGV[0]);
 
 sub bf {
     my $a = sprintf("%b", $_[0]);

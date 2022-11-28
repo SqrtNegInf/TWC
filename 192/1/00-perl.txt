@@ -1,0 +1,176 @@
+ 
+===> 192/1/adam-russell.pl <===
+2
+3
+1
+18446744073709551614
+ 
+===> 192/1/alexander-pankoff.pl <===
+1..4
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ok 4 - Example [7 ~= 0b111]
+NaN
+ 
+===> 192/1/athanasius.pl <===
+Running the test suite
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ok 4 - Power of 2
+ok 5 - Alternating
+ok 6 - Two and one
+1..6
+ 
+===> 192/1/bruce-gray.pl <===
+1..3
+ok 1 - task1(5) == 2
+ok 2 - task1(4) == 3
+ok 3 - task1(6) == 1
+ 
+===> 192/1/cheok-yin-fung.pl <===
+1..3
+ok 1
+ok 2
+ok 3
+ 
+===> 192/1/colin-crain.pl <===
+48385
+ok 1 - ex-1
+ok 2 - ex-2
+ok 3 - ex-3
+ok 4 - extra-1
+ok 5 - extra-2
+ok 6 - extra-3
+ok 7 - extra-7
+ok 8 - extra-8
+ok 9 - extra-9
+1..9
+ 
+===> 192/1/dave-jacoby.pl <===
+0
+        Input:  $s = 1
+        Output: 0
+
+        Input:  $s = 2
+        Output: 1
+
+        Input:  $s = 3
+        Output: 0
+
+        Input:  $s = 4
+        Output: 3
+
+        Input:  $s = 5
+        Output: 2
+
+        Input:  $s = 6
+        Output: 1
+
+        Input:  $s = 7
+        Output: 0
+
+        Input:  $s = 8
+        Output: 7
+
+        Input:  $s = 9
+        Output: 6
+
+        Input:  $s = 10
+        Output: 5
+
+        Input:  $s = 11
+        Output: 4
+
+        Input:  $s = 12
+        Output: 3
+
+        Input:  $s = 13
+        Output: 2
+
+        Input:  $s = 14
+        Output: 1
+
+        Input:  $s = 15
+        Output: 0
+
+        Input:  $s = 16
+        Output: 15
+
+        Input:  $s = 17
+        Output: 14
+
+        Input:  $s = 18
+        Output: 13
+
+        Input:  $s = 19
+        Output: 12
+
+        Input:  $s = 20
+        Output: 11
+
+ 
+===> 192/1/e-choroba.pl <===
+1..5
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ok 4 - 1x8
+ok 5 - 1 . 0x8
+ 
+===> 192/1/perlboy1967.pl <===
+ok 1
+ok 2
+ok 3
+ok 4
+ok 5
+ok 6
+ok 7
+ok 8
+ok 9
+ok 10
+1..10
+ 
+===> 192/1/peter-campbell-smith.pl <===
+
+Input:  5 = 0b101
+Output: 2 = 0b010
+
+Input:  4 = 0b100
+Output: 3 = 0b011
+
+Input:  6 = 0b110
+Output: 1 = 0b001
+
+Input:  127 = 0b1111111
+Output: 0 = 0b0000000
+
+Input:  128 = 0b10000000
+Output: 127 = 0b01111111
+
+Input:  1234 = 0b10011010010
+Output: 813 = 0b01100101101
+
+Input:  999999 = 0b11110100001000111111
+Output: 48576 = 0b00001011110111000000
+
+Input:  7294019678 = 0b110110010110000011110100001011110
+Output: 1295914913 = 0b001001101001111100001011110100001
+ 
+===> 192/1/roger-bell-west.pl <===
+1..3
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ 
+===> 192/1/sgreen.pl <===
+3
+2
+1
+48382
+ 
+===> 192/1/wlmb.pl <===
+4 -> 3
+5 -> 2
+6 -> 1

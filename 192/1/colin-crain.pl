@@ -56,7 +56,7 @@ sub calc_binary_ones ( $n, $bin = 1 ) {
 }
 
 
-
+{ use bigint; say binary_flip(2**64 +1); } # wrong
 
 use Test::More;
 
