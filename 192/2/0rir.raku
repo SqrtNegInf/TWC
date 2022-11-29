@@ -1,29 +1,6 @@
 #!/usr/bin/env raku
-# :vim ft=raku sw=4 expandtab  # 🦋 ∅ ≡ ∩ ≢ ∈ «␤»
-use v6.d;
-use lib $?FILE.IO.parent(2).add("lib");
+
 use Test;
-
-=begin comment
-192-2: Equal Distribution            Submitted by: Mohammad S Anwar
-Given a list of integers greater than or equal to zero, @list, distribute the
-values so that all elements are same.
-If you succeed then print the total moves otherwise print -1.
-
-Please follow the rules (as suggested by Neils van Dijke [2022-11-21 13:00]
-
-1) You can only move a value of '1' per move
-2) You are only allowed to move a value of '1' to a direct neighbor/adjacent cell
-
-Example 1:
-Input: @list = (1, 0, 5)
-Output: 4
-
-Example 2: Input: @list = (0, 2, 0) Output: -1
-Example 3: Input: @list = (0, 3, 0) Output: 2
-=end comment
-
-=comment    Sorry: I am not tapping each circle as I go round the board.
 
 class Equalizer {
     has       @.people is rw;
@@ -99,5 +76,4 @@ multi MAIN ( 'test' ) {
             is $e.redistribution(), %t<exp>, "%t<in> --> %t<exp>.Int.raku()";
    }
    done-testing;
-   exit;
 }

@@ -19,10 +19,10 @@ multi dist-steps(@list) {
   @costs.sum
 }
 
-my token natural-number { 0 | <[1..9]> <[0..9]>* }
-subset NatList of Str where /^ '(' <natural-number>* % [\s* ',' \s*] ')' $/;
-sub MAIN($n) {
-  die 'Please provide a valid list of natural numbers' unless $n ~~ NatList;
-  my @list = $<natural-number>>>.Int;
-  @list.&dist-steps.say;
-}
+#my token natural-number { 0 | <[1..9]> <[0..9]>* }
+#subset NatList of Str where /^ '(' <natural-number>* % [\s* ',' \s*] ')' $/;
+#sub MAIN($n) {
+  #die 'Please provide a valid list of natural numbers' unless $n ~~ NatList;
+  #my @list = $<natural-number>>>.Int;
+   <1 0 5>.&dist-steps.say;
+#}

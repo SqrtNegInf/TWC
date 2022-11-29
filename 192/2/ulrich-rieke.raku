@@ -1,5 +1,4 @@
 #!/usr/bin/env raku
-use v6 ;
 
 sub findIn( @haystack , $needle ) {
   my $pos = 0 ;
@@ -9,9 +8,7 @@ sub findIn( @haystack , $needle ) {
   return $pos ;
 }
 
-say "Please enter some numbers greater than or equal to zero!" ;
-my $line = $*IN.get ;
-my @numbers = $line.split( /\s/ ).map( {.Int} ) ;
+my @numbers = <1 0 5>;
 #if the sum of numbers cannot be evenly divided by the number of elements
 #there is no solution
 #otherwise: find the maximum of the numbers. Add 1 to the smaller of the

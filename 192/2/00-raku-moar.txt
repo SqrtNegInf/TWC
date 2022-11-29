@@ -1,0 +1,159 @@
+ 
+===> 192/2/0rir.raku <===
+Input: @list = [1, 0, 5]
+Output: 4
+ 
+===> 192/2/2colours.raku <===
+4
+ 
+===> 192/2/alexander-pankoff.raku <===
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ok 4 - Example (empty list)
+ok 5 - Example (singleton list)
+ 
+===> 192/2/athanasius.raku <===
+Running the test suite
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ok 4 - Bubble left
+ok 5 - Bubble right
+ok 6 - Middle
+ok 7 - Fully centred
+1..7
+ 
+===> 192/2/bruce-gray.raku <===
+1..44
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ok 4 - 
+ok 5 - 
+ok 6 - 
+ok 7 - 
+ok 8 - 
+ok 9 - 
+ok 10 - 
+ok 11 - 
+ok 12 - 
+ok 13 - 
+ok 14 - 
+ok 15 - 
+ok 16 - 
+ok 17 - 
+ok 18 - 
+ok 19 - 
+ok 20 - 
+ok 21 - 
+ok 22 - 
+ok 23 - 
+ok 24 - 
+ok 25 - 
+ok 26 - 
+ok 27 - 
+ok 28 - 
+ok 29 - 
+ok 30 - 
+ok 31 - 
+ok 32 - 
+ok 33 - 
+ok 34 - 
+ok 35 - 
+ok 36 - 
+ok 37 - 
+ok 38 - 
+ok 39 - 
+ok 40 - 
+ok 41 - 
+ok 42 - 
+ok 43 - 
+ok 44 - 
+ 
+===> 192/2/deadmarshal.raku <===
+4
+-1
+2
+ 
+===> 192/2/jaldhar-h-vyas.raku <===
+4
+ 
+===> 192/2/laurent-rosenfeld.raku <===
+(1 0 5) 	 -> 4
+(0 2 0) 	 -> -1
+(0 3 0) 	 -> 2
+(3 0 3) 	 -> 2
+(2 2 2) 	 -> 0
+(1 0 5 2) 	 -> 4
+(2 5 0 1) 	 -> 4
+(1 0 5 3) 	 -> -1
+(6 0 0) 	 -> 6
+ 
+===> 192/2/luca-ferrari.raku <===
+4
+ 
+===> 192/2/mark-anderson.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ok 4 - 
+ok 5 - 
+ok 6 - 
+ok 7 - 
+ 
+===> 192/2/massa.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+1..3
+ 
+===> 192/2/polettix.raku <===
+4
+ 
+===> 192/2/robert-dicicco.raku <===
+Input: @lst = (1 0 5)
+	(1 1 4)
+	(1 2 3)
+	(1 3 2)
+	(2 2 2)
+Output: 4
+ 
+Input: @lst = (0 2 0)
+Output: -1
+
+Input: @lst = (0 3 0)
+	(1 2 0)
+	(1 1 1)
+Output: 2
+ 
+ 
+===> 192/2/roger-bell-west.raku <===
+1..3
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ 
+===> 192/2/simon-proctor.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+1..3
+ 
+===> 192/2/steve-g-lynn.raku <===
+4
+-1
+2
+5
+ 
+===> 192/2/ulrich-rieke.raku <===
+4
+ 
+===> 192/2/wambash.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ok 4 - 
+ok 5 - 
+ok 6 - 
+1..6

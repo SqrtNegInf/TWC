@@ -1,5 +1,5 @@
 #!/usr/bin/env raku
-#
+
 my sub agg( $ ( :$average, :to-next($from-previous), :$moves, ), $n ) {
     my $to-next = $from-previous + $n - $average;
 
@@ -21,7 +21,7 @@ sub equal-distribution (+@list) {
     andthen .<moves>
 }
 
-multi MAIN (Bool :test($)!) {
+#multi MAIN (Bool :test($)!) {
     use Test;
     is equal-distribution(1,0,5), 4;
     is equal-distribution(1,2,3), 2;
@@ -30,8 +30,6 @@ multi MAIN (Bool :test($)!) {
     is equal-distribution(0,3,0), 2;
     is equal-distribution(1..5), 10;
     done-testing;
-}
+#}
 
-multi MAIN (*@list) {
-    say equal-distribution(@list) // -1
-}
+#multi MAIN (*@list) { say equal-distribution(@list) // -1 }

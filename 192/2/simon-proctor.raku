@@ -1,16 +1,16 @@
 #!/usr/bin/env raku
 
-multi sub MAIN("TEST") is hidden-from-USAGE {
+BEGIN die 'not ok - disabled: JVM cannot handle the code' if $*VM ~~ /jvm/;
+
+#multi sub MAIN("TEST") is hidden-from-USAGE {
     use Test;
     is flatten-moves( [1,0,5] ), 4;
     is flatten-moves( [0,2,0] ), -1;
     is flatten-moves( [0,3,0] ), 2;
     done-testing;
-}
+#}
 
-multi sub MAIN( *@vals ) {
-    flatten-moves( @vals.List ).say;
-}
+#multi sub MAIN( *@vals ) { flatten-moves( @vals.List ).say; }
 
 subset CanAverage of Array where -> @a { my $avg = ( ([+] @a) / @a.elems ); $avg ~~ $avg.Int };
 

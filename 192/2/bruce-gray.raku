@@ -1,4 +1,5 @@
 #!/usr/bin/env raku
+
 # Because I still have 60-characters-worth of residual evil left over from Halloween:
 sub golfed(@a){(@a.sum!%%+@a)??-1!!([\+](@a X-(@a.sum div+@a)))».abs.sum}
 

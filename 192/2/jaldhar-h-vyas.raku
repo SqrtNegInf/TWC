@@ -1,6 +1,6 @@
 #!/usr/bin/env raku
 
-sub MAIN(*@n) {
+sub MAIN(@n= <1 0 5>) {
     my $moves;
 
     if @n.sum !%% @n.elems {

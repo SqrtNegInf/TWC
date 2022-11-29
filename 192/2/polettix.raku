@@ -1,5 +1,5 @@
 #!/usr/bin/env raku
-use v6;
+
 sub MAIN (*@args) {
    my @inputs = @args».split(/<[ \s , ]>+/).Slip.flat;
    @inputs = <1 0 5> unless @inputs;

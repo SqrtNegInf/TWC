@@ -1,0 +1,7 @@
+[31m===[0mSORRY![31m===[0m Error while compiling /Users/dhoekman/PWC/192/2/simon-proctor.raku
+An exception occurred while evaluating a BEGIN
+at /Users/dhoekman/PWC/192/2/simon-proctor.raku:3
+Exception details:
+  not ok - disabled: JVM cannot handle the code
+    in code  at simon-proctor.raku line 3
+

@@ -1,8 +1,6 @@
 #!/usr/bin/env raku
 
-# Perl Weekly Challenge 192
-
-sub MAIN( *@n is copy where { @n.elems == @n.grep( * ~~ Int ).elems }
+sub MAIN( @n is copy where { @n.elems == @n.grep( * ~~ Int ).elems } = <1 0 5> 
 	, :$verbose = False ) {
     my $elem = @n.sum / @n.elems;
     '-1'.say and exit if ( $elem.Int !~~ $elem );
