@@ -1,6 +1,4 @@
 #!/usr/bin/env perl
-# The Weekly Challenge 192
-# Task 2 Equal Distribution
 
 use v5.30.0;
 use List::Util qw/sum/;

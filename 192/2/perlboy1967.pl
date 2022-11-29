@@ -1,27 +1,5 @@
 #!/usr/bin/env perl
 
-=pod
-
-The Weekly Challenge - 192
- - https://theweeklychallenge.org/blog/perl-weekly-challenge-192/#TASK2
-
-Author: Niels 'PerlBoy' van Dijke
-
-Task 2: Equal Distribution
-Submitted by: Mohammad S Anwar
-
-You are given a list of integers greater than or equal to zero, @list.
-
-Write a script to distribute the number so that each members are same. 
-If you succeed then print the total moves otherwise print -1.
-
-Please follow the rules (as suggested by Neils van Dijke [2022-11-21 13:00]
-
-1) You can only move a value of '1' per move
-2) You are only allowed to move a value of '1' to a direct neighbor/adjacent cell
-
-=cut
-
 use v5.16;
 use warnings;
 
@@ -71,7 +49,7 @@ sub equalDistribution {
 
     $_[$i]--; 
 
-    printf "Move %d: [%s]\n", $m, join(',',@_);
+    #printf "Move %d: [%s]\n", $m, join(',',@_);
   }
 
   return $m;

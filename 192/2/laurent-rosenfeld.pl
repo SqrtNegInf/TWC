@@ -3,7 +3,6 @@ use strict;
 use warnings;
 use feature qw/say/;
 
-
 sub equalize {
     my @nums = @{$_[0]};
     my $sum = 0;

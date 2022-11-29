@@ -6,16 +6,6 @@ use Test::More;
 use List::Util qw( sum uniq );
 use feature    qw(say);
 
-=pod
-
-Task 2: Equal Distribution
-You are given a list of integers greater than or equal to zero, @list.
-
-Write a script to distribute the number so that each members are same.
-If you succeed then print the total moves otherwise print -1.
-
-=cut
-
 sub equal_shares {
     my ( $list ) = @_;
     my $sum      = sum @$list;

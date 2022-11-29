@@ -1,13 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
-##
-# You are given a list of integers greater than or equal to zero, @list.
-# Write a script to distribute the number so that each members are same. 
-# If you succeed then print the total moves otherwise print -1.
-# Please follow these rules:
-#    1) You can only move a value of '1' per move
-#    2) You are only allowed to move a value of '1' to a direct neighbor/adjacent cell
-##
+
 use POSIX;
 
 sub equal_distribution{

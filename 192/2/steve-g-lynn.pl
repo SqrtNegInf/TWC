@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
 
-{
 use List::Util qw(sum max min);
 
 local *equal_distribution=sub {
@@ -74,6 +73,3 @@ print &equal_distribution(1,0,5),"\n"; #4
 print &equal_distribution(0,2,0),"\n"; #-1
 print &equal_distribution(0,3,0),"\n"; #2
 print &equal_distribution(5,2,3,1,4),"\n"; #5
-
-}
-

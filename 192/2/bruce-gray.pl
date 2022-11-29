@@ -1,6 +1,8 @@
 #!/usr/bin/env perl
 use v5.36;
+
 use List::Util qw<sum0 reductions>;
+
 sub functional ( @a ) {
     my $s = sum0 @a;
 
@@ -12,6 +14,7 @@ sub functional ( @a ) {
                 map         { $_ - $target }
                 @a;
 }
+
 sub task2 ( @a ) {
     return -1 if sum0(@a) % scalar(@a);
     my $target = sum0(@a) / scalar(@a);

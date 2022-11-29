@@ -218,5 +218,3 @@ $res > -1
 
 say "input :  @array";
 say "output:  $res";
-
-
