@@ -1,3 +1,6 @@
+2022-12-02
+First fix didn't go so well, try something else...
+
 2022-12-01
 With latest release, '102/2/aaronreidsmith.raku' generates 'DESTROY' error, install work-around.
 
