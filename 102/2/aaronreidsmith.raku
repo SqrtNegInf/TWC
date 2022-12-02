@@ -1,14 +1,15 @@
 #!/usr/bin/env raku
 
+# 2022-12-02 'DESTROY' warnings ~1% of runs
+
 sub challenge(Int $N) returns Str {
-    my @output;
+    my @output = 0 xx $N;
     my $index = $N - 1;
     while $index >= 0 {
         @output[$index] = '#';
         my $position = $index + 1; # Position is 1-based while index is 0-based
         for $position.flip.comb.kv -> $offset, $digit {
-            my $foo = $index - ($offset + 1); @output[$foo] = $digit; # 2022-12-01 bug work-around
-            #@output[$index - ($offset + 1)] = $digit;
+            @output[$index - ($offset + 1)] = $digit;
         }
         $index -= ($position.chars + 1);
     }
@@ -23,7 +24,7 @@ multi sub MAIN(Bool :$test) {
     use Test;
 
     my @tests = (
-#       (1, '#'),
+        (1, '#'),
         (2, '2#'),
         (3, '#3#'),
         (10, '#3#5#7#10#'),
