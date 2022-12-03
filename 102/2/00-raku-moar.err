@@ -1,0 +1,7 @@
+WARNING: unhandled Failure detected in DESTROY. If you meant to ignore it, you can mark it as handled by calling .Bool, .so, .not, or .defined methods. The Failure was:
+Index out of range. Is: -1, should be in 0..^Inf
+  in block  at aaronreidsmith.raku line 12
+  in sub challenge at aaronreidsmith.raku line 7
+  in sub MAIN at aaronreidsmith.raku line 35
+  in block <unit> at aaronreidsmith.raku line 5
+
