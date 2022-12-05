@@ -1,19 +1,5 @@
 #!/usr/bin/env perl
 
-=head1
-
-Week 193:
-
-    https://theweeklychallenge.org/blog/perl-weekly-challenge-193
-
-Task #1: Binary String
-
-    You are given an integer, $n > 0.
-
-    Write a script to find all possible binary numbers of size $n.
-
-=cut
-
 use v5.36;
 use Test2::V0 -srand => 1;
 use Math::Combinatorics;

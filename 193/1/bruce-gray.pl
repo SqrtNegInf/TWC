@@ -10,4 +10,4 @@ sub task1 ($n) {
     return @r;
 }
 
-say join " ", task1($_) for 0..3;
+say join " ", task1($_) for 0..4;

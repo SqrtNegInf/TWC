@@ -4,7 +4,7 @@ use warnings ;
 use feature 'say' ;
 use Algorithm::Combinatorics qw ( variations_with_repetition ) ;
 
-my $n = $ARGV[0] ;
+my $n = 4;
 my @seeder = ( 0 , 1 ) ;
 my @combis ;
 my $iter = variations_with_repetition( \@seeder , $n ) ;

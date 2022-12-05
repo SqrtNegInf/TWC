@@ -1,9 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
-##
-# You are given an integer, $n > 0.
-# Write a script to find all possible binary numbers of size $n.
-##
+
 sub binary_numbers_size_n{
     my($n) = @_;
     my @numbers = map {

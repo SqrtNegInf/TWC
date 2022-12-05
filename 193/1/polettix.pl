@@ -5,7 +5,7 @@ use experimental 'signatures';
 no warnings 'experimental::signatures';
 use Math::BigInt;
 
-my $it = binary_strings_iterator(shift // 2);
+my $it = binary_strings_iterator(shift // 4);
 while (defined(my $binary_string = $it->())) {
    say $binary_string;
 }

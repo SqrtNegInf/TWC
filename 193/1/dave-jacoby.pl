@@ -2,7 +2,7 @@
 
 use strict;
 use warnings;
-use experimental qw{ fc say postderef signatures state };
+use experimental qw{ say signatures };
 
 for my $s ( 2 .. 5 ) {
     my @binaries = all_binaries($s);

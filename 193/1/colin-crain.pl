@@ -54,7 +54,7 @@ no warnings 'experimental::signatures';
 
 
 
-my $n = shift @ARGV // 5;
+my $n = shift @ARGV // 4;
 
 ## THREE TECHNIQUES
 
