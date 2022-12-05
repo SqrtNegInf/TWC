@@ -1,0 +1,88 @@
+ 
+===> 193/1/0rir.raku <===
+1..14
+ok 1 - testing 1
+ok 2 - testing 1 strictly
+ok 3 - testing 2
+ok 4 - testing 2 strictly
+ok 5 - testing 3
+ok 6 - testing 3 strictly
+ok 7 - testing 4
+ok 8 - testing 4 strictly
+ok 9 - testing 5
+ok 10 - testing 5 strictly
+ok 11 - testing 6
+ok 12 - testing 6 strictly
+ok 13 - testing 12
+ok 14 - testing 12 strictly
+ 
+===> 193/1/arne-sommer.raku <===
+0000, 0001, 0010, 0011, 0100, 0101, 0110, 0111, 1000, 1001, 1010, 1011, 1100, 1101, 1110, 1111
+ 
+===> 193/1/athanasius.raku <===
+Running the test suite
+ok 1 - Example 1
+ok 2 - Example 2
+1..2
+ 
+===> 193/1/bruce-gray.raku <===
+()
+(0 1)
+(00 01 10 11)
+(000 001 010 011 100 101 110 111)
+(0000 0001 0010 0011 0100 0101 0110 0111 1000 1001 1010 1011 1100 1101 1110 1111)
+ 
+===> 193/1/feng-chang.raku <===
+0000, 0001, 0010, 0011, 0100, 0101, 0110, 0111, 1000, 1001, 1010, 1011, 1100, 1101, 1110, 1111
+ 
+===> 193/1/luca-ferrari.raku <===
+0000, 0001, 0010, 0011, 0100, 0101, 0110, 0111, 1000, 1001, 1010, 1011, 1100, 1101, 1110, 1111
+ 
+===> 193/1/mark-anderson.raku <===
+ok 1 - 
+ok 2 - 
+ 
+===> 193/1/polettix.raku <===
+0000
+0001
+0010
+0011
+0100
+0101
+0110
+0111
+1000
+1001
+1010
+1011
+1100
+1101
+1110
+1111
+ 
+===> 193/1/robert-dicicco.raku <===
+Input: $n = 2
+Output: 00 01 10 11 
+
+Input: $n = 3
+Output: 000 001 010 011 100 101 110 111 
+
+Input: $n = 4
+Output: 0000 0001 0010 0011 0100 0101 0110 0111 1000 1001 1010 1011 1100 1101 1110 1111 
+
+ 
+===> 193/1/roger-bell-west.raku <===
+1..2
+ok 1 - example 1
+ok 2 - example 2
+ 
+===> 193/1/simon-proctor.raku <===
+0000, 0001, 0010, 0011, 0100, 0101, 0110, 0111, 1000, 1001, 1010, 1011, 1100, 1101, 1110, 1111
+ 
+===> 193/1/ulrich-rieke.raku <===
+0000,0001,0010,0011,0100,0101,0110,0111,1000,1001,1010,1011,1100,1101,1110,1111
+ 
+===> 193/1/wambash.raku <===
+ok 1 - 
+ok 2 - 
+1..2

@@ -1,5 +1,4 @@
 #!/usr/bin/env raku
-use v6 ;
 
 sub change( Str $binary , Int $len ) {
   my $changed ;
@@ -12,7 +11,7 @@ sub change( Str $binary , Int $len ) {
   return $changed ;
 }
 
-sub MAIN( $n where $n > 0 ) {
+sub MAIN( $n where $n > 0 = 4) {
   my $limit = ('1' x $n).parse-base( 2 ) ;
   my @combis ;
   for (0..$limit) -> $num {
