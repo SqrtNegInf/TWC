@@ -1,3 +1,6 @@
+2022-12-05
+During code-health check '096/2/laurent-rosenfeld.raku' had a segfault.
+
 2022-12-03
 Changes in 021/2 (Euler's number) due to: GH5113 from salortiz - Avoid loss in precision on FatRat .Str conversion
 102/2 'DESTROY' warnings appear to be here to stay.
