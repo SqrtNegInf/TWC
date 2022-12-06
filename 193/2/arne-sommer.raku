@@ -1,6 +1,6 @@
 #!/usr/bin/env raku
 
-unit sub MAIN (*@s where ( [==] @s>>.chars), :v(:$verbose));
+unit sub MAIN (@s where ( [==] @s>>.chars) = <aaa bob ccc ddd>, :v(:$verbose));
 
 my %diff;
 

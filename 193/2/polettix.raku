@@ -1,5 +1,5 @@
 #!/usr/bin/env raku
-use v6;
+
 sub MAIN (*@args) {
    @args = <adc wzy abc> unless @args;
    my %track;

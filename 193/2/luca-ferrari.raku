@@ -1,8 +1,6 @@
 #!/usr/bin/env raku
 
-# Perl Weekly Challenge 193
-
-sub MAIN( *@s ) {
+sub MAIN( @s = <aaa bob ccc ddd> ) {
     my %translations = ( 'a' .. 'z' ).map( { state $counter = 0; $_ => $counter++ } );
 
     my %strings = @s.map( { $_ => $_.lc.comb.map( { %translations{ $_ }  } ) } );

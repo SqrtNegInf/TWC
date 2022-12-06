@@ -1,4 +1,5 @@
 #!/usr/bin/env raku
+
 use Test;
 
 is odd-string(< adc wzy abc >),         'abc';
@@ -16,7 +17,8 @@ sub odd-string(*@s)
     for @s
     {
         my $diff = .comb.rotor(2 => -1).map({ .[1].ord - .[0].ord }).join(' ');
-        $b.add: $diff;
+        $b{$diff}++;
+        #$b.add: $diff;  # doesn't work with my current JVM (2022.07)
         $h{ $diff } = $_; 
         last if $b.elems == 2 and $b.total > 2;
     }

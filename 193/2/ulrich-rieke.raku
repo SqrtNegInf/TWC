@@ -1,5 +1,5 @@
 #!/usr/bin/env raku
-use v6 ;
+
 #find the final difference in a string
 sub findDifference( Str $word --> Int ) {
   my @posValues = $word.comb.map( { ord( $_ ) - 97  } ) ;
@@ -26,9 +26,7 @@ sub findDifference( Str $word --> Int ) {
 #of under 0 , 0 or over 0, but since I'm far from sure if that is
 #what you mean and whether it is always possible to uniquely identify
 #such a string, I provide a possible result saying precisely this
-say "Enter some strings of equal length, separated by blanks!" ;
-my $line = $*IN.get ;
-my @strings = $line.split( /\s/ ) ;
+my @strings = <aaa bob ccc ddd>;
 my %stringDifferences ;
 for @strings -> $str {
   %stringDifferences{ $str } = findDifference( $str ) ;

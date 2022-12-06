@@ -1,5 +1,4 @@
 #!/usr/bin/env raku
-use v6d;
 
 ###############################################################################
 =begin comment
@@ -93,13 +92,6 @@ subset S-type of Str where * ~~ / ^ <[ a .. z ]>+ $ /;
 
 my UInt constant $TEST-FLDS = 3;
 my Bool constant $VERBOSE   = True;
-
-#------------------------------------------------------------------------------
-BEGIN
-#------------------------------------------------------------------------------
-{
-    "\nChallenge 193, Task #2: Odd String (Raku)\n".put;
-}
 
 #==============================================================================
 multi sub MAIN
@@ -268,8 +260,6 @@ sub test-data( --> Str:D )
 #------------------------------------------------------------------------------
 {
     return S:g/ \\ \n // with q:to/END/;
-        Example 1, adc wzy abc,     abc
-        Example 2, aaa bob ccc ddd, bob
         All same,  adc wzy vyx bed,     \
                    None (all 4 strings have the same difference array)
         Two odd,   mor jlo abc def,     \

@@ -27,7 +27,6 @@ sub task2 (@list) {
     return @o.head;
 }
 
-
 constant @tests =
     ( 'abc', <adc wzy abc    > ),
     ( 'bob', <aaa bob ccc ddd> ),

@@ -1,6 +1,6 @@
 #!/usr/bin/env raku
 
-sub MAIN(*@strings) {
+sub MAIN(@strings = <aaa bob ccc ddd>) {
     my %results;
 
     for (@strings) -> $string {

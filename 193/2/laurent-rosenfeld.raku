@@ -1,4 +1,5 @@
 #!/usr/bin/env raku
+
 my %transco = ("a".."z" Z 0..25).flat; # a => 0, b => 1 ...
 
 sub diff-array ($str) {
