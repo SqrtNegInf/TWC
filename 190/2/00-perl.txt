@@ -140,12 +140,6 @@ ok 3 - example 3
 ===> 190/2/sgreen.pl <===
 AAAE, AAO, AKE, KAE, KO
  
-===> 190/2/steve-g-lynn.pl <===
-AA K
-AAAE AAO AKE KAE KO
-ABG LG
-(AAAE AAO AKE KAE KO) (EABG ELG) (G)
- 
 ===> 190/2/tim-potapov.pl <===
 ok 1 - Example 0
 ok 2 - Example 1
