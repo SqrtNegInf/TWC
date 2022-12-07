@@ -1,5 +1,7 @@
 #!/usr/bin/env perl
+
 use v5.36;
+
 use List::Util       qw<mesh pairvalues>;
 use List::MoreUtils  qw<slide>;
 use List::Categorize qw<categorize>;
@@ -27,6 +29,7 @@ my @tests = (
     [ 'abc', qw<adc wzy abc    > ],
     [ 'bob', qw<aaa bob ccc ddd> ],
 );
+
 use Test::More;
 plan tests => 0+@tests;
 for (@tests) {

@@ -1,17 +1,8 @@
 #!/usr/bin/env perl
 
-# Peter Campbell Smith - 2022-11-28
-# PWC 193 task 2
-
 use v5.28;
 use utf8;
 use warnings;
-
-# You are given a list of strings of same length, @s. Write a script to find the odd string in the given list. 
-# Use positional value of alphabet starting with 0, i.e. a = 0, b = 1, ... z = 25.
-# Find the difference array for each string as shown in the examples. Then pick the odd one out.
-
-# Blog: https://pjcs-pwc.blogspot.com/2022/11/all-binaries-and-find-odd-man-out.html
 
 my (@tests, $test, @s, $i, $j, $diff, %seen, $s, $input);
 

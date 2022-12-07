@@ -1,10 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
-##
-# You are given a list of strings of same length, @s.
-# Write a script to find the odd string in the given list. 
-# Use positional alphabet values starting with 0, i.e. a = 0, b = 1, ... z = 25.
-##
+
 sub odd_string{
     my(@strings) = @_;
     my %differences;

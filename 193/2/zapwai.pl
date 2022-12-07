@@ -2,9 +2,6 @@
 #use v5.30.0;
 use feature 'say';
 no warnings;
-## Task 2, find the odd string in the list of strings.
-## Find the difference array of each string, then pick the strange one.
-# https://gist.github.com/manwar/51d6144d28cf984da81645f779ce2932
 
 my @s = ("adc", "wzy", "abc");
 #my @s = ("aaa", "bob", "ccc", "ddd");
