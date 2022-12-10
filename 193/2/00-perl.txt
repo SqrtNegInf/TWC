@@ -19,8 +19,8 @@ ok 1
 ok 2
  
 ===> 193/2/colin-crain.pl <===
-ray
 bob
+ray
  
 ===> 193/2/dave-jacoby.pl <===
     Input:  @s =  ("adc", "wzy", "abc")

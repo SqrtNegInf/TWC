@@ -191,15 +191,10 @@ use feature ":5.26";
 use feature qw(signatures);
 no warnings 'experimental::signatures';
 
-
-
-
 my @s = @ARGV;
 @s == 0 and @s = ("aaa", "bob", "ccc", "ddd", 'ray');
 
-
-say for odd_man_out( @s );
-
+say for sort { $a cmp $b } odd_man_out( @s );
 
 sub odd_man_out ( @strings ) {
 ## a procedural wrapper for find_unique_strings(), setting up the correct input
