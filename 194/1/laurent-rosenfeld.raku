@@ -1,4 +1,5 @@
 #!/usr/bin/env raku
+
 sub highest-digit ($in) {
     my ($h, $m) = $in.split(/\:/);
     # say $h, " ", $m;

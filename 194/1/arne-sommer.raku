@@ -2,7 +2,7 @@
 
 subset MissingTime where /^<[012\?]><[0..9\?]>\:<[0..5\?]><[0..9\?]>$/;
 
-unit sub MAIN (MissingTime $time where $time.comb.Bag<?> == 1);
+unit sub MAIN (MissingTime $time where $time.comb.Bag<?> == 1 = '2?:00');
 
 die "Illegal time" if $time.substr(0,1) eq "2" && $time.substr(1,1) ne any <0 1 2 3 ?>;
 

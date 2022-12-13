@@ -1,8 +1,6 @@
 #!/usr/bin/env raku
-use v6 ;
 
-say "Enter a time in the format hh::mm , with one missing digit replaced by '?'!" ;
-my $time = $*IN.get ;
+my $time = '2?:00';
 my $hour_regex = / 0 <[0..9]> || 1 <[0..9]> || 2 <[0..3]> / ;
 my $minutes_regex = /<[0..5]> <[0..9]>/ ;
 my $pos = $time.index( '?' ) ;

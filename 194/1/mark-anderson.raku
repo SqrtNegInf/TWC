@@ -1,4 +1,5 @@
 #!/usr/bin/env raku
+
 use Test;
 
 is digital-clock('?5:00'), 1;

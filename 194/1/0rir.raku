@@ -1,35 +1,6 @@
 #!/usr/bin/env raku
-# :vim ft=raku sw=4 expandtab  # 🦋 ∅ ≡ ∩ ≢ ∈ «␤»
-use v6.d;
+
 use Test;
-
-=begin comment
-194-1: Digital Clock                Submitted by: Mohammad S Anwar
-Given time in the format hh:mm with one missing digit.  Find the highest
-digit between 0-9 that makes it valid time.
-
-Example 1
-Input: $time = '?5:00'
-Output: 1
-
-Since 05:00 and 15:00 are valid time and no other digits can fit in
-the missing place.
-Example 2
-Input: $time = '?3:00'
-Output: 2
-Example 3
-Input: $time = '1?:00'
-Output: 9
-Example 4
-Input: $time = '2?:00'
-Output: 3
-Example 5
-Input: $time = '12:?5'
-Output: 5
-Example 6
-Input: $time =  '12:5?'
-Output: 9
-=end comment
 
 # Fix the malformed time to the latest time possible.
 sub extra( Str:D $t --> Str ) {
@@ -60,7 +31,7 @@ sub tick-tock( Str:D $t --> Int ) {
     }
 }
 
-multi MAIN ( 'test') {
+#multi MAIN ( 'test') {
     my @Test =
         { in =>  '?0:00',  exp => '20:00', },
         { in =>  '?3:00',  exp => '23:00', },
@@ -85,11 +56,11 @@ multi MAIN ( 'test') {
     }
     done-testing;
     exit;
-}
+#}
 
-multi MAIN( Str $in = "?4:01") {
-say "Input: \$time = '?4:01'
-Output: ", tick-tock($in);
-}
+#multi MAIN( Str $in = "?4:01") {
+#say "Input: \$time = '?4:01'
+#Output: ", tick-tock($in);
+#}
 
 

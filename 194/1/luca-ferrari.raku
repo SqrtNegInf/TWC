@@ -1,8 +1,6 @@
 #!/usr/bin/env raku
 
-# Perl Weekly Challenge 194
-
-sub MAIN( Str $what ) {
+sub MAIN( Str $what = '2?:00') {
 
     given ( $what ) {
 	when ( / ^ \? \d ':' \d ** 2 $ / )     { 2.say and exit  }

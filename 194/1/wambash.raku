@@ -12,7 +12,7 @@ sub digital-clock ($s) {
     }
 }
 
-multi MAIN (Bool :test($)!) {
+#multi MAIN (Bool :test($)!) {
     use Test;
     is digital-clock('?5:00'),1;
     is digital-clock('?3:00'),2;
@@ -21,8 +21,6 @@ multi MAIN (Bool :test($)!) {
     is digital-clock('12:?5'),5;
     is digital-clock('12:59'),9;
     done-testing;
-}
+#}
 
-multi MAIN ($s) {
-    say digital-clock $s
-}
+#multi MAIN ($s) { say digital-clock $s }
