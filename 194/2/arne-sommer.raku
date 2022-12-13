@@ -2,7 +2,7 @@
 
 subset az where /^<[a..z]>+$/;
 
-unit sub MAIN (az $s, :v(:$verbose));
+unit sub MAIN (az $s = 'xyzyyxz', :v(:$verbose));
 
 my @freq = $s.comb.Bag.values.sort;
 

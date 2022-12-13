@@ -1,4 +1,5 @@
 #!/usr/bin/env raku
+
 sub remove-one ($st) {
     my %histo;
     %histo{$_}++ for $st.comb;

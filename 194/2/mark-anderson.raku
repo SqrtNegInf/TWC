@@ -1,4 +1,5 @@
 #!/usr/bin/env raku
+
 use Test;
 
 ok  freq-equalizer('abbc');
@@ -9,6 +10,7 @@ nok freq-equalizer('aaaabbbcc');
 nok freq-equalizer('aabbcd');
 ok  freq-equalizer('aabbccd');
 ok  freq-equalizer('z');
+ok  freq-equalizer('aaicocciaoouiacio');
 
 sub freq-equalizer($_)
 {

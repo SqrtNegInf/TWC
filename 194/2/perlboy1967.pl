@@ -1,35 +1,16 @@
 #!/usr/bin/env perl
 
-=pod
-
-The Weekly Challenge - 194
- - https://theweeklychallenge.org/blog/perl-weekly-challenge-194/#TASK2
-
-Author: Niels 'PerlBoy' van Dijke
-
-Task 2: Frequency Equalizer
-Submitted by: Mohammad S Anwar
-
-You are given a string made of alphabetic characters only, a-z.
-
-Write a script to determine whether removing only one character can make
-the frequency of the remaining characters the same.
-
-=cut
-
-use v5.16;
+use strict;
 use warnings;
 
 use List::MoreUtils qw(frequency minmax);
-
 use Test::More;
 
-
 sub freqEqual ($) {
-  my ($min,$max) = minmax(keys{reverse frequency(split//,$_[0])});
+  my %foo = reverse frequency split//,$_[0];
+  my ($min,$max) = minmax keys %foo;
   return $min == $max-1 ? 1 : 0;
 }
-
 
 my %t = qw(abbc 1 xyzyyxz 1 xzxz 0);
 

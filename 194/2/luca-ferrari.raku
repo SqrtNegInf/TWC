@@ -1,8 +1,6 @@
 #!/usr/bin/env raku
 
-# Perl Weekly Challenge 194
-
-sub MAIN( Str $what where { $what ~~ / ^ <[a..z]>+ $ / } ) {
+sub MAIN( Str $what where { $what ~~ / ^ <[a..z]>+ $ / } = 'xyzyyxz' ) {
 
     my $counter = Bag.new: $what.comb;
 

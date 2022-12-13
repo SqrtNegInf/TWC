@@ -1,24 +1,6 @@
 #!/usr/bin/env raku
-# :vim ft=raku sw=4 expandtab  # 🦋 ∅ ≡ ∩ ≢ ∈ «␤»
-use v6.d;
+
 use Test;
-
-=begin comment
-194-2: Frequency Equalizer          Submitted by: Mohammad S Anwar
-Given a string made of alphabetic characters only, a-z, determine whether
-removing only one character can make the frequency of the remaining
-characters the same.
-
-Example 1:
-Input: $s = 'abbc'
-Output: 1 since removing one alphabet 'b' will give us 'abc' where each alphabet frequency is the same.
-Example 2:
-Input: $s = 'xyzyyxz'
-Output: 1 since removing 'y' will give us 'xzyyxz'.
-Example 3:
-Input: $s = 'xzxz'
-Output: 0 since removing any one alphabet would not give us string with same frequency alphabet.
-=end comment
 
 # freq -- Take a str return true if one char can be deleted leaving
 #   all remaining letter-values occurring equally.
@@ -102,7 +84,7 @@ sub justify( $s --> Str) {
     $ret;
 }
 
-multi MAIN( 'test') {
+#multi MAIN( 'test') {
     my @Test =
         { in => 'a',        exp => False, single => False },
         { in => 'aa',       exp => False, single => True },
@@ -130,9 +112,9 @@ multi MAIN( 'test') {
         is freq(%t<in>, :SINGLE), %t<single>, " SINGLE %t<single>\t<- %t<in>";
     }
     done-testing;
-}
+#}
 
-multi MAIN( Str $str = 'aaicocciaoouiacio') {
-    say "Input: \$s = $str\n"
-      ~ "Output: ", freq($str).Int(), '   because: ', justify($str);
-}
+#multi MAIN( Str $str = 'aaicocciaoouiacio') {
+#    say "Input: \$s = $str\n"
+#      ~ "Output: ", freq($str).Int(), '   because: ', justify($str);
+#}

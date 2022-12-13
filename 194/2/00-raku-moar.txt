@@ -1,0 +1,132 @@
+ 
+===> 194/2/0rir.raku <===
+1..34
+ok 1 - False	<- a
+ok 2 - False	<- aa
+ok 3 - False	<- ab
+ok 4 - True	<- abc
+ok 5 - False	<- aaabbc
+ok 6 - False	<- aabb
+ok 7 - False	<- abbb
+ok 8 - False	<- aabbcd
+ok 9 - False	<- aabbbb
+ok 10 - False	<- abbcccd
+ok 11 - True	<- aabbc
+ok 12 - True	<- abbc
+ok 13 - True	<- aabbbcc
+ok 14 - True	<- abcdeff
+ok 15 - True	<- aabbccddeefff
+ok 16 - True	<- abb
+ok 17 - False	<- aaabbbcccdddeeeff
+ok 18 -  SINGLE False	<- a
+ok 19 -  SINGLE True	<- aa
+ok 20 -  SINGLE True	<- ab
+ok 21 -  SINGLE True	<- abc
+ok 22 -  SINGLE False	<- aaabbc
+ok 23 -  SINGLE False	<- aabb
+ok 24 -  SINGLE True	<- abbb
+ok 25 -  SINGLE False	<- aabbcd
+ok 26 -  SINGLE False	<- aabbbb
+ok 27 -  SINGLE False	<- abbcccd
+ok 28 -  SINGLE True	<- aabbc
+ok 29 -  SINGLE True	<- abbc
+ok 30 -  SINGLE True	<- aabbbcc
+ok 31 -  SINGLE True	<- abcdeff
+ok 32 -  SINGLE True	<- aabbccddeefff
+ok 33 -  SINGLE True	<- abb
+ok 34 -  SINGLE False	<- aaabbbcccdddeeeff
+ 
+===> 194/2/arne-sommer.raku <===
+1
+ 
+===> 194/2/athanasius.raku <===
+Running the test suite
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ok 4 - Empty string
+ok 5 - Single letter
+ok 6 - Same letters 2
+ok 7 - Same letters 5
+ok 8 - Distinct pair
+1..8
+ 
+===> 194/2/bruce-gray.raku <===
+1..11
+ok 1 - task2(abbc) == 1
+ok 2 - task2(xyzyyxz) == 1
+ok 3 - task2(xzxz) == 0
+ok 4 - task2(abcdefg) == 1
+ok 5 - task2(ab) == 1
+ok 6 - task2(a) == 1
+ok 7 - task2(aabbccdd) == 0
+ok 8 - task2(aa) == 1
+ok 9 - task2(aaabbbcccc) == 1
+ok 10 - task2(aaabbbcc) == 0
+ok 11 - task2(aaicocciaoouiacio) == 1
+ 
+===> 194/2/feng-chang.raku <===
+1
+ 
+===> 194/2/laurent-rosenfeld.raku <===
+abbc       => 1
+xyzyyxz    => 1
+xzxz       => 0
+ 
+===> 194/2/luca-ferrari.raku <===
+1
+ 
+===> 194/2/mark-anderson.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ok 4 - 
+ok 5 - 
+ok 6 - 
+ok 7 - 
+ok 8 - 
+ok 9 - 
+ 
+===> 194/2/polettix.raku <===
+1 -> abbc
+1 -> xyzyyxz
+0 -> xzxz
+0 -> aaicocciaoouiacio
+ 
+===> 194/2/robert-dicicco.raku <===
+Input: $s = 'abbc'
+Output: 1
+
+Input: $s = 'xyzyyxz'
+Output: 1
+
+Input: $s = 'xzxz'
+Output: 0
+
+Input: $s = 'aaicocciaoouiacio'
+Output: 0
+
+ 
+===> 194/2/roger-bell-west.raku <===
+1..3
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ 
+===> 194/2/steve-g-lynn.raku <===
+1
+1
+0
+1
+1
+ 
+===> 194/2/ulrich-rieke.raku <===
+1
+ 
+===> 194/2/wambash.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ok 4 - 
+ok 5 - 
+1..5

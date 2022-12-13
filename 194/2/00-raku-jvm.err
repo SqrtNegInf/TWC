@@ -1,0 +1,12 @@
+[31m===[0mSORRY![31m===[0m Error while compiling /Users/dhoekman/PWC/194/2/robert-dicicco.raku
+Could not find List::UtilsBy in:
+    /Users/dhoekman/PWC/194/2/lib
+    /Users/dhoekman/.raku
+    /Users/dhoekman/.rakubrew/versions/jvm-2022.07/install/share/perl6/site
+    /Users/dhoekman/.rakubrew/versions/jvm-2022.07/install/share/perl6/vendor
+    /Users/dhoekman/.rakubrew/versions/jvm-2022.07/install/share/perl6/core
+    CompUnit::Repository::AbsolutePath<582688683>
+    CompUnit::Repository::NQP<1197333657>
+    CompUnit::Repository::Perl5<942546097>
+    CompUnit::Repository::JavaRuntime<225066011>
+at /Users/dhoekman/PWC/194/2/robert-dicicco.raku:5

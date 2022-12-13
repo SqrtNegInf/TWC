@@ -1,4 +1,5 @@
 #!/usr/bin/env raku
+
 # Best compromise between performance, complexity, reducing chance to "get it wrong",
 # and likelihood of a maintenance programmer to reverse-engineer the original requirements.
 sub task2 ( Str $s --> Bool ) {
@@ -30,6 +31,7 @@ constant @tests =
     
     ( 'aaabbbcccc', 1 ),
     ( 'aaabbbcc'  , 0 ),
+    ( 'aaicocciaoouiacio'  , 1 ), # agrees with 0rir.raku
 ;
 use Test;
 plan +@tests;

@@ -8,7 +8,7 @@ sub frequency-equalizer ($s) {
     andthen .so
 }
 
-multi MAIN (Bool :test($)!) {
+#multi MAIN (Bool :test($)!) {
     use Test;
     is frequency-equalizer('abbc'), True;
     is frequency-equalizer('xyzyyxz'), True;
@@ -16,8 +16,6 @@ multi MAIN (Bool :test($)!) {
     is frequency-equalizer('aabbcccddd'), False;
     is frequency-equalizer('aabbccccdd'), False;
     done-testing;
-}
+#}
 
-multi MAIN ($s) {
-    say +frequency-equalizer $s
-}
+#multi MAIN ($s) { say +frequency-equalizer $s }

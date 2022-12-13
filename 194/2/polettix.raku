@@ -1,7 +1,9 @@
 #!/usr/bin/env raku
-use v6;
+
+# disagrees with 0rir.raku
+
 sub MAIN (*@ARGV) {
-   @ARGV = < abbc xyzyyxz xzxz > unless @ARGV;
+   @ARGV = < abbc xyzyyxz xzxz aaicocciaoouiacio> unless @ARGV;
    put "{frequency-equalizer($_)} -> $_" for @ARGV;
 }
 
