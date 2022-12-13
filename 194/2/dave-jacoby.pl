@@ -4,7 +4,7 @@ use strict;
 use warnings;
 use experimental qw{ say postderef signatures state };
 
-my @examples = qw{ abbc xyzyyxz xzxz };
+my @examples = qw{ abbc xyzyyxz xzxz aaicocciaoouiacio };
 for my $e (@examples) {
     my $o = analyze($e);
     say <<"END";

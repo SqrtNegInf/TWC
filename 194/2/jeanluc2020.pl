@@ -1,8 +1,4 @@
 #!/usr/bin/env perl
-# ch-2.pl
-#
-# You are given a string made of alphabetic characters only, a-z.
-# Write a script to determine whether removing only one character can make the frequency of the remaining characters the same.
 
 use warnings;
 use strict;

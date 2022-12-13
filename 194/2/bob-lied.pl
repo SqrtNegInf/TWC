@@ -1,23 +1,4 @@
 #!/usr/bin/env perl
-# vim:set ts=4 sw=4 sts=4 et ai wm=0 nu:
-#=============================================================================
-# Perl Weekly Challenge Week 194, Task 2: Frequency Equalizer
-#=============================================================================
-# Copyright (c) 2022, Bob Lied
-#=============================================================================
-# You are given a string made of alphabetic characters only, a-z.
-# Write a script to determine whether removing only one character can make the
-# frequency of the remaining characters the same.
-#
-# Example 1: Input: $s = 'abbc' Output: 1
-# removing one 'b' will give us 'abc' where each letter frequency is the same.
-# 
-# Example 2: Input: $s = 'xyzyyxz' Output: 1
-# since removing 'y' will give us 'xzyyxz'.
-#
-# Example 3: Input: $s = 'xzxz' Output: 0
-# since removing any one letter would not give us string with same frequency
-#=============================================================================
 
 use v5.36;
 
@@ -29,7 +10,7 @@ my $Verbose = 0;
 my $DoTest  = 0;
 
 GetOptions("test" => \$DoTest, "verbose" => \$Verbose);
-exit(!runTest()) if $DoTest;
+runTest() and exit; # if $DoTest;
 
 say canEqualize($_) for @ARGV;
 

@@ -1,9 +1,7 @@
 #!/usr/bin/env perl
 
-use strict;
-use warnings;
-use feature 'say';
-use experimental 'signatures';
+use v5.36;
+use List::Util <min max>;
 
 sub main($s) {
     # Calculate the frequency of each letter
@@ -43,4 +41,4 @@ sub main($s) {
     say $solution;
 }
 
-main($ARGV[0])
+main('xyzyyxz')

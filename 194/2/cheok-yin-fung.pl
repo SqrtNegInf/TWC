@@ -22,3 +22,4 @@ ok fe("abbc") == 1;
 ok fe("xyzyyxz") == 1;
 ok fe("xzxz") == 0;
 ok fe("xxyyz") == 2;
+say fe('aaicocciaoouiacio');

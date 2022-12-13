@@ -1,5 +1,4 @@
 #!/usr/bin/env perl
-package challenge194::ch2;
 
 use strict;
 use warnings;

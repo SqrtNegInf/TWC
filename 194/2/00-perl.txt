@@ -1,0 +1,262 @@
+ 
+===> 194/2/alexander-pankoff.pl <===
+1..3
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ 
+===> 194/2/athanasius.pl <===
+Running the test suite
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ok 4 - Empty string
+ok 5 - Single letter
+ok 6 - Same letters 2
+ok 7 - Same letters 5
+ok 8 - Distinct pair
+1..8
+ 
+===> 194/2/bob-lied.pl <===
+# Seeded srand with seed '20221213' from local date.
+ok 1 - EMPTY
+ok 2 - a
+ok 3 - ab
+ok 4 - bb
+ok 5 - abbc
+ok 6 - ffff
+ok 7 - xyzyyxz
+ok 8 - xzxz
+ok 9 - axxxz
+1..9
+ 
+===> 194/2/bruce-gray.pl <===
+1..11
+ok 1 - task2(abbc) == 1
+ok 2 - task2(xyzyyxz) == 1
+ok 3 - task2(xzxz) == 0
+ok 4 - task2(abcdefg) == 1
+ok 5 - task2(ab) == 1
+ok 6 - task2(a) == 1
+ok 7 - task2(aabbccdd) == 0
+ok 8 - task2(aa) == 1
+ok 9 - task2(aaabbbcccc) == 1
+ok 10 - task2(aaabbbcc) == 0
+ok 11 - task2(aaicocciaoouiacio) == 1
+ 
+===> 194/2/cheok-yin-fung.pl <===
+1..4
+ok 1
+ok 2
+ok 3
+ok 4
+12
+ 
+===> 194/2/colin-crain.pl <===
+
+str  : abbc
+freq : char { b } freq 2
+freq : char { a } freq 1
+freq : char { c } freq 1
+f_incidence: freq { 1 } => 2 times
+f_incidence: freq { 2 } => 1 times
+ok 1 - ex-1
+
+str  : xyzyyxz
+freq : char { y } freq 3
+freq : char { x } freq 2
+freq : char { z } freq 2
+f_incidence: freq { 3 } => 1 times
+f_incidence: freq { 2 } => 2 times
+ok 2 - ex-2
+
+str  : xxyyzz
+freq : char { z } freq 2
+freq : char { x } freq 2
+freq : char { y } freq 2
+f_incidence: freq { 2 } => 3 times
+ok 3 - ex-3
+
+str  : aaabbbcccdd
+freq : char { d } freq 2
+freq : char { c } freq 3
+freq : char { a } freq 3
+freq : char { b } freq 3
+f_incidence: freq { 3 } => 3 times
+f_incidence: freq { 2 } => 1 times
+ok 4 - three triples and one two count    - fail
+
+str  : aabbccdddeee
+freq : char { c } freq 2
+freq : char { d } freq 3
+freq : char { b } freq 2
+freq : char { a } freq 2
+freq : char { e } freq 3
+f_incidence: freq { 3 } => 2 times
+f_incidence: freq { 2 } => 3 times
+ok 5 - three doubles and two three counts - fail
+
+str  : aabbccddd
+freq : char { d } freq 3
+freq : char { c } freq 2
+freq : char { b } freq 2
+freq : char { a } freq 2
+f_incidence: freq { 3 } => 1 times
+f_incidence: freq { 2 } => 3 times
+ok 6 - three doubles and one three count  - true
+
+str  : abcd
+freq : char { b } freq 1
+freq : char { a } freq 1
+freq : char { d } freq 1
+freq : char { c } freq 1
+f_incidence: freq { 1 } => 4 times
+ok 7 - unique chars
+
+str  : a
+freq : char { a } freq 1
+f_incidence: freq { 1 } => 1 times
+ok 8 - only one char
+
+str  : aaaaaaa
+freq : char { a } freq 7
+f_incidence: freq { 7 } => 1 times
+ok 9 - many of only one char
+
+str  : aaaabbbb
+freq : char { a } freq 4
+freq : char { b } freq 4
+f_incidence: freq { 4 } => 2 times
+ok 10 - pair of 4s
+1..10
+ 
+===> 194/2/dave-jacoby.pl <===
+    Input:  $s = 'abbc'
+    Output: 1
+
+    Input:  $s = 'xyzyyxz'
+    Output: 1
+
+    Input:  $s = 'xzxz'
+    Output: 0
+
+    Input:  $s = 'aaicocciaoouiacio'
+    Output: 0
+
+ 
+===> 194/2/e-choroba.pl <===
+1..11
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ok 4 - More than two freqs
+ok 5 - Too many instances
+ok 6 - Too many to remove
+ok 7 - Difference too large
+ok 8 - Empty string
+ok 9 - Single character
+ok 10 - Single character repeated
+ok 11 - Many instances
+ 
+===> 194/2/james-smith.pl <===
+ok 1
+ok 2
+ok 3
+1..3
+ 
+===> 194/2/jeanluc2020.pl <===
+abbc -> 1
+xyzyyxz -> 1
+xzxz -> 0
+ 
+===> 194/2/jo-37.pl <===
+# Seeded srand with seed '1' from import arg.
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ok 4 - single frequency
+ok 5 - singleton
+ok 6 - equalize to empty
+1..6
+ 
+===> 194/2/laurent-rosenfeld.pl <===
+abbc       => 1
+xyzyyxz    => 1
+xzxz       => 0
+ 
+===> 194/2/perlboy1967.pl <===
+ok 1 - freqEqual('abbc')
+ok 2 - freqEqual('xyzyyxz')
+ok 3 - freqEqual('xzxz')
+1..3
+ 
+===> 194/2/peter-campbell-smith.pl <===
+
+Input:  abbc
+Output: 1 as removal of one 'b' leaves the remaining frequencies equal
+
+Input:  xyzyyxz
+Output: 1 as removal of one 'y' leaves the remaining frequencies equal
+
+Input:  xzxz
+Output: 0 as no single removal leaves the remaining frequencies equal
+
+Input:  aaaaa
+Output: 1 as removal of one 'a' leaves the remaining frequencies equal
+
+Input:  aaabbcc
+Output: 1 as removal of one 'a' leaves the remaining frequencies equal
+
+Input:  aabbccc
+Output: 1 as removal of one 'c' leaves the remaining frequencies equal
+
+Input:  x
+Output: 1 as removal of one 'x' leaves the remaining frequencies equal
+
+Input:  abbcc
+Output: 1 as removal of 'a' leaves the remaining frequencies equal
+
+Input:  abc
+Output: 1 as removal of 'a' or 'b' or 'c' leaves the remaining frequencies equal
+
+Input:  abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzqabcdefghijklmnopqrstuvwxyz
+Output: 1 as removal of one 'q' leaves the remaining frequencies equal
+ 
+===> 194/2/polettix.pl <===
+1 -> abbc
+1 -> xyzyyxz
+0 -> xzxz
+ 
+===> 194/2/robert-dicicco.pl <===
+Input: $s = abbc
+Output: 1
+------------------------------
+Input: $s = xyzyyxz
+Output: 1
+------------------------------
+Input: $s = xzxz
+Output: 0
+------------------------------
+ 
+===> 194/2/roger-bell-west.pl <===
+1..3
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ 
+===> 194/2/sgreen.pl <===
+1
+ 
+===> 194/2/steve-g-lynn.pl <===
+1
+1
+0
+1
+1
+ 
+===> 194/2/vamsi-meenavilli.pl <===
+# Seeded srand with seed '1' from import arg.
+ok 1 - Test Case 1 Failed.
+ok 2 - Test Case 2 Failed.
+ok 3 - Test Case 3 Failed.
+1..3

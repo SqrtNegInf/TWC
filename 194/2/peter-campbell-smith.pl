@@ -1,16 +1,8 @@
 #!/usr/bin/env perl
 
-# Peter Campbell Smith - 2022-12-06
-# PWC 194 task 2
-
 use v5.28;
 use utf8;
 use warnings;
-
-# You are given a string made of alphabetic characters only, a-z. Write a script to determine whether removing only 
-# one character can make the frequency of the remaining characters the same.
-
-# Blog: https://pjcs-pwc.blogspot.com/2022/12/completing-time-and-levelling-letters.html
 
 my (@tests, $test, @chars, $char, %freq, $max_freq, $max_char, $good, $others_equal, $singles);
 

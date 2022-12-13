@@ -1,4 +1,5 @@
 #!/usr/bin/env perl
+
 use v5.36;
 use List::Util qw<uniq>;
 
@@ -37,6 +38,7 @@ my @tests = (
 
     [ 'aaabbbcccc', 1 ],
     [ 'aaabbbcc'  , 0 ],
+    [ 'aaicocciaoouiacio'  , 1 ],
 );
 use Test::More;
 plan tests => 0+@tests;
