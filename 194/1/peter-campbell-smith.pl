@@ -1,16 +1,8 @@
 #!/usr/bin/env perl
 
-# Peter Campbell Smith - 2022-12-06
-# PWC 194 task 1
-
 use v5.28;
 use utf8;
 use warnings;
-
-# You are given time in the format hh:mm with one missing digit.
-# Write a script to find the highest digit between 0-9 that makes it valid time.
-
-# Blog: https://pjcs-pwc.blogspot.com/2022/12/completing-time-and-levelling-letters.html
 
 my (@tests, $test, @chars, $result);
 

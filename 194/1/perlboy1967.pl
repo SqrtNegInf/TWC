@@ -1,26 +1,8 @@
 #!/usr/bin/env perl
 
-=pod
-
-The Weekly Challenge - 194
- - https://theweeklychallenge.org/blog/perl-weekly-challenge-194/#TASK1
-
-Author: Niels 'PerlBoy' van Dijke
-
-Task 1: Digital Clock
-Submitted by: Mohammad S Anwar
-
-You are given time in the format hh:mm with one missing digit.
-
-Write a script to find the highest digit between 0-9 that makes it valid time.
-
-=cut
-
 use v5.16;
 use warnings;
-
 use Test::More;
-
 
 sub highestDigit ($) {
   if ($_[0] !~ m#^[\d\?][\d\?]:[\d\?][\d\?]$# or 

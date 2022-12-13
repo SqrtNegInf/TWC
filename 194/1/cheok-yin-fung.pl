@@ -1,5 +1,5 @@
 #!/usr/bin/env perl
-use v5.30.0;
+
 use warnings;
 
 sub dc {
@@ -15,7 +15,6 @@ sub dc {
         }
     }
 }
-
 
 use Test::More tests=>6;
 ok dc("?5:00") == 1;

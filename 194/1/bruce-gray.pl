@@ -1,4 +1,5 @@
 #!/usr/bin/env perl
+
 use v5.36;
 use List::Util qw<first>;
 
@@ -8,7 +9,6 @@ sub task1 ($s) {
     return first { $VALID_TIMES{ $s =~ s/\?/$_/r } } reverse 0..9;
 }
 
-
 my @tests = (
     [ '?5:00', 1 ],
     [ '?3:00', 2 ],
@@ -17,6 +17,7 @@ my @tests = (
     [ '12:?5', 5 ],
     [ '12:5?', 9 ],
 );
+
 use Test::More;
 plan tests => 0+@tests;
 for (@tests) {
