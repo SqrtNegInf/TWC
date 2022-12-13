@@ -8,6 +8,6 @@ sub remove-one ($st) {
     return 1 if $largest - 1 == @frequencies.all;
     return 0;
 }
-for <abbc xyzyyxz xzxz> -> $test {
+for <abbc xyzyyxz xzxz aaicocciaoouiacio> -> $test {
     say "$test.fmt("%-10s") => ", remove-one($test);
 }

@@ -1,6 +1,6 @@
 #!/usr/bin/env raku
 
-unit sub MAIN(Str:D \str = 'xyzyyxz' );
+unit sub MAIN(Str:D \str = 'aaicocciaoouiacio' );
 
 my @freq = str.comb.Bag.values;
 my @u = @freq.unique;

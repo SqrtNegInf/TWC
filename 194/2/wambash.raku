@@ -15,6 +15,7 @@ sub frequency-equalizer ($s) {
     is frequency-equalizer('xzxz'), False;
     is frequency-equalizer('aabbcccddd'), False;
     is frequency-equalizer('aabbccccdd'), False;
+    is frequency-equalizer('aaicocciaoouiacio'), False;
     done-testing;
 #}
 

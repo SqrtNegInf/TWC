@@ -2,11 +2,12 @@
 
 use Test;
 
-plan 3;
+plan 4;
 
 is(frequencyequalizer("abbc"), True, 'example 1');
 is(frequencyequalizer("xyzyyxz"), True, 'example 2');
 is(frequencyequalizer("xzxz"), False, 'example 3');
+is(frequencyequalizer('aaicocciaoouiacio'), False, '0rir');
 
 sub frequencyequalizer($s) {
   my %f;

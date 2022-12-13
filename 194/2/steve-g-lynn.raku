@@ -5,6 +5,7 @@ say frequency-equalizer('xyzyyxz'); #1
 say frequency-equalizer('xzxz'); #0
 say frequency-equalizer('abcde'); #1
 say frequency-equalizer('abbbccc'); #1
+say frequency-equalizer('aaicocciaoouiacio'); #1
 
 sub frequency-equalizer( Str $s ) {
     

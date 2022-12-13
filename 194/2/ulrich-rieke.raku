@@ -1,6 +1,6 @@
 #!/usr/bin/env raku
 
-sub MAIN( Str $input = 'xyzyyxz') {
+sub MAIN( Str $input = 'aaicocciaoouiacio') {
   my %letterfrequencies ;
   for $input.comb -> $l {
       %letterfrequencies{$l}++ ;

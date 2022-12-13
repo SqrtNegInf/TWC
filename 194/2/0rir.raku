@@ -103,7 +103,9 @@ sub justify( $s --> Str) {
         { in => 'aabbccddeefff',  exp => True, single => True },
         { in => 'abb',      exp => True, single => True },
         { in => 'aaabbbcccdddeeeff',  exp => False, single => False },
+        { in => 'aaicocciaoouiacio',  exp => True, single => True }
     ;
+
     plan 2 × @Test;
     for @Test -> %t {
         is freq(%t<in>), %t<exp>, "%t<exp>\t<- %t<in>";
@@ -118,3 +120,4 @@ sub justify( $s --> Str) {
 #    say "Input: \$s = $str\n"
 #      ~ "Output: ", freq($str).Int(), '   because: ', justify($str);
 #}
+        # Output: 1   because: aaaa cccc iiii oooo u

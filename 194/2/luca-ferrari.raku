@@ -1,6 +1,6 @@
 #!/usr/bin/env raku
 
-sub MAIN( Str $what where { $what ~~ / ^ <[a..z]>+ $ / } = 'xyzyyxz' ) {
+sub MAIN( Str $what where { $what ~~ / ^ <[a..z]>+ $ / } = 'aaicocciaoouiacio' ) {
 
     my $counter = Bag.new: $what.comb;
 

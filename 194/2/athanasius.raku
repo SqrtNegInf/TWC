@@ -190,6 +190,7 @@ sub test-data( --> Str:D )
         Same letters 2, dd,      1
         Same letters 5, eeeee,   1
         Distinct pair,  ab,      1
+        0rir,           aaicocciaoouiacio,      0
         END
 }
 
