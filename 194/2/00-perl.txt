@@ -17,19 +17,6 @@ ok 7 - Same letters 5
 ok 8 - Distinct pair
 1..8
  
-===> 194/2/bob-lied.pl <===
-# Seeded srand with seed '20221213' from local date.
-ok 1 - EMPTY
-ok 2 - a
-ok 3 - ab
-ok 4 - bb
-ok 5 - abbc
-ok 6 - ffff
-ok 7 - xyzyyxz
-ok 8 - xzxz
-ok 9 - axxxz
-1..9
- 
 ===> 194/2/bruce-gray.pl <===
 1..11
 ok 1 - task2(abbc) == 1
@@ -53,80 +40,15 @@ ok 4
 12
  
 ===> 194/2/colin-crain.pl <===
-
-str  : abbc
-freq : char { b } freq 2
-freq : char { a } freq 1
-freq : char { c } freq 1
-f_incidence: freq { 1 } => 2 times
-f_incidence: freq { 2 } => 1 times
 ok 1 - ex-1
-
-str  : xyzyyxz
-freq : char { y } freq 3
-freq : char { x } freq 2
-freq : char { z } freq 2
-f_incidence: freq { 3 } => 1 times
-f_incidence: freq { 2 } => 2 times
 ok 2 - ex-2
-
-str  : xxyyzz
-freq : char { z } freq 2
-freq : char { x } freq 2
-freq : char { y } freq 2
-f_incidence: freq { 2 } => 3 times
 ok 3 - ex-3
-
-str  : aaabbbcccdd
-freq : char { d } freq 2
-freq : char { c } freq 3
-freq : char { a } freq 3
-freq : char { b } freq 3
-f_incidence: freq { 3 } => 3 times
-f_incidence: freq { 2 } => 1 times
 ok 4 - three triples and one two count    - fail
-
-str  : aabbccdddeee
-freq : char { c } freq 2
-freq : char { d } freq 3
-freq : char { b } freq 2
-freq : char { a } freq 2
-freq : char { e } freq 3
-f_incidence: freq { 3 } => 2 times
-f_incidence: freq { 2 } => 3 times
 ok 5 - three doubles and two three counts - fail
-
-str  : aabbccddd
-freq : char { d } freq 3
-freq : char { c } freq 2
-freq : char { b } freq 2
-freq : char { a } freq 2
-f_incidence: freq { 3 } => 1 times
-f_incidence: freq { 2 } => 3 times
 ok 6 - three doubles and one three count  - true
-
-str  : abcd
-freq : char { b } freq 1
-freq : char { a } freq 1
-freq : char { d } freq 1
-freq : char { c } freq 1
-f_incidence: freq { 1 } => 4 times
 ok 7 - unique chars
-
-str  : a
-freq : char { a } freq 1
-f_incidence: freq { 1 } => 1 times
 ok 8 - only one char
-
-str  : aaaaaaa
-freq : char { a } freq 7
-f_incidence: freq { 7 } => 1 times
 ok 9 - many of only one char
-
-str  : aaaabbbb
-freq : char { a } freq 4
-freq : char { b } freq 4
-f_incidence: freq { 4 } => 2 times
 ok 10 - pair of 4s
 1..10
  

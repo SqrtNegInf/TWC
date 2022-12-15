@@ -99,7 +99,7 @@ use feature ":5.26";
 use feature qw(signatures);
 no warnings 'experimental::signatures';
 
-use constant VERBOSE => 1;
+use constant VERBOSE => 0;
 
 
 sub free_eq ( $str ) {

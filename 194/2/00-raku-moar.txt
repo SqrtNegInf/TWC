@@ -99,6 +99,18 @@ ok 9 -
 0 -> aaicocciaoouiacio
  
 ===> 194/2/robert-dicicco.raku <===
+Input: $s = 'abbc'
+Output: 1
+
+Input: $s = 'xyzyyxz'
+Output: 1
+
+Input: $s = 'xzxz'
+Output: 0
+
+Input: $s = 'aaicocciaoouiacio'
+Output: 0
+
  
 ===> 194/2/roger-bell-west.raku <===
 1..4
