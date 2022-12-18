@@ -1,6 +1,6 @@
 #!/usr/bin/env raku
 
-use Tree::Binary:ver<0.0.6>;
+use Tree::Binary;  #:ver<0.0.6>;
 
 class IntTree does Tree::Binary::Role::BinaryTree[Int] {};
 

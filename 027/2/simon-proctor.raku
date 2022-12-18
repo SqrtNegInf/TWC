@@ -1,5 +1,7 @@
 #!/usr/bin/env raku
 
+BEGIN die 'not ok - disabled: does not work with 2022.12';
+
 class Historic {
     has @!values = [];
 
