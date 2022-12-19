@@ -1,5 +1,7 @@
 #!/usr/bin/env raku
 
+BEGIN die 'not ok - disabled: does not work with blead as of 2022-12-18';
+
 # Travelling Salesman Problem - British Museum algorithm
 sub tsp_short ( @G ) {
     sub cost_of ( @path ) {

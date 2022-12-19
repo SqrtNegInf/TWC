@@ -4,8 +4,6 @@ length = 10
 tour = (0 2 1 3 0)
  
 ===> 121/2/bruce-gray.raku <===
-{cost => 10, path => (2 1 3)}
-{cost => 10, path => (2 1 3)}
  
 ===> 121/2/colin-crain.raku <===
 [0 5 2 7]
