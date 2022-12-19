@@ -406,8 +406,8 @@ Challenge titles and Rosetta-code correspondences (exact, and otherwise)
 193-2 Odd String
 194-1 Digital Clock
 194-2 Frequency Equalizer
-195-1
-195-2
+195-1 Special Integers
+195-2 Most Frequent Even
 196-1
 196-2
 197-1
