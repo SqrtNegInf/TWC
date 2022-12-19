@@ -1,7 +1,5 @@
 #!/usr/bin/env raku
 
-BEGIN die 'not ok - disabled: does not work with 2022.12';
-
 class Historic {
     has @!values = [];
 
@@ -71,7 +69,8 @@ say $a.history;
 
 my $b Δ= 9;
 say $b + 9;
-$b Δ= $b + 9;
+#$b Δ= $b + 9;   # does not work with blead as of 2022-12-18
+$b Δ= ($b + 9);  # account for change in binding strength
 say $b;
 say $b.perl;
 
