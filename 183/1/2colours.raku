@@ -2,9 +2,7 @@
 
 BEGIN die 'not ok - disabled: JVM cannot handle "Uni"' if $*VM ~~ /jvm/;
 
-BEGIN die 'not ok - disabled: does not work with 2022.12';
-
-#use immutable; # 2022-12-18 cannot be installed until ecosystem updates are made
+use immutable;
 use JSON::Fast;
 
 #my $input = prompt '@list = ';
