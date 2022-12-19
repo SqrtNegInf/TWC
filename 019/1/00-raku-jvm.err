@@ -1,0 +1,7 @@
+[31m===[0mSORRY![31m===[0m Error while compiling /Users/dhoekman/PWC/019/1/fjwhittle.raku
+An exception occurred while evaluating a BEGIN
+at /Users/dhoekman/PWC/019/1/fjwhittle.raku:4
+Exception details:
+  not ok - disabled: does not work with blead as of 2022-12-18
+    in code  at fjwhittle.raku line 4
+
