@@ -1,26 +1,5 @@
  
 ===> 153/2/0rir.raku <===
-1..4
-Input: $n = 1
-Output: 1
-
-    Since 1! => 1 = 1
-ok 1 - is a factorion
-Input: $n = 2
-Output: 1
-
-    Since 2! => 2 = 2
-ok 2 - is a factorion
-Input: $n = 145
-Output: 1
-
-    Since 1! + 4! + 5! => 1 + 24 + 120 = 145
-ok 3 - is a factorion
-Input: $n = 40585
-Output: 1
-
-    Since 4! + 0! + 5! + 8! + 5! => 24 + 1 + 120 + 40320 + 120 = 40585
-ok 4 - is a factorion
  
 ===> 153/2/2colours.raku <===
 Output: 1
