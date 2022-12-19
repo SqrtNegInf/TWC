@@ -1,7 +1,11 @@
 #!/usr/bin/env raku
-# :vim ft=raku sw=4 expandtab
+
 use v6.d;
 use MONKEY-SEE-NO-EVAL;
+
+# with 2022.12:
+# the postfix '!' isn't defined in the EVAL'd code
+BEGIN die 'not ok - disabled: does not work with 2022.12';
 
 constant \TEST=True;
 
