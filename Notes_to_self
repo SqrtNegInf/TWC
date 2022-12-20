@@ -1,3 +1,7 @@
+2022-12-19
+Installing 'immutable' required 'zef --force-test install ValueMap'
+019/1/fjwhittle.raku has segfaults with grep/excess data bug
+
 2022-12-18
 Release 2022.12 disrupts a lot of legacy code. Will be cleaning this up for the next few days.
 
