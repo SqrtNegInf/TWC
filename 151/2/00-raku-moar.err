@@ -1,3 +1,6 @@
+Died
+  in block <unit> at bruce-gray.raku line 79
+
 not ok - disabled, run-time error: Index out of range. Is: -2, should be in 0..^Inf
   in sub MAIN at colin-crain.raku line 15
   in block <unit> at colin-crain.raku line 1

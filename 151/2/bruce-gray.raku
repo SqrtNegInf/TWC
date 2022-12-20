@@ -1,5 +1,7 @@
 #!/usr/bin/env raku
 
+# with release 2022.12: dies after 1st test
+
 # One-line solution to problem. Only offers the score.
 sub plot_1line (@h) {
     return (^(2 ** +@h))».base(2).grep({ !/11/ }).map({ [+] @h Z* .flip.comb }).max;
