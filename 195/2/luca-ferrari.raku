@@ -1,8 +1,7 @@
 #!/usr/bin/env raku
 
-# Perl Weekly Challenge 195
-
-sub MAIN( *@list where { @list.grep( * ~~ Int ).elems == @list.elems } ) {
+#sub MAIN( *@list where { @list.grep( * ~~ Int ).elems == @list.elems } ) {
+my @list = (1,1,2,2,6,6);
     my $bag = @list.grep( * %% 2 ).Bag;
     my $most-frequency = $bag.values.max;
     my @most-frequent-evens;
@@ -12,4 +11,4 @@ sub MAIN( *@list where { @list.grep( * ~~ Int ).elems == @list.elems } ) {
     }
 
     @most-frequent-evens.min.say;
-}
+#}

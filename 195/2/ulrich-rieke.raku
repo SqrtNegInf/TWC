@@ -1,9 +1,6 @@
 #!/usr/bin/env raku
-use v6 ;
 
-say "Enter some integers, separated by space!" ;
-my $line = $*IN.get ;
-my @numbers = $line.split( /\s/ ).map( {.Int} ) ;
+my @numbers = (1,1,2,2,6,6); # other tasks return  '2'
 my %frequencies ;
 my @evens = @numbers.grep( { $_ %% 2 } ) ;
 if ( @evens ) {

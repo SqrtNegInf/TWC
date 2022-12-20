@@ -1,6 +1,6 @@
 #!/usr/bin/env raku
-sub task2 (@ns) { @ns.grep( * %% 2 ).Bag.max({ .value, -.key }).?key // -1 }
 
+sub task2 (@ns) { @ns.grep( * %% 2 ).Bag.max({ .value, -.key }).?key // -1 }
 
 my @tests =
     ( (1,1,2,6,2),  2 ), # Of 2 and 6, 2 appears the most.

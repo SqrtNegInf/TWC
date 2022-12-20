@@ -1,8 +1,6 @@
 #!/usr/bin/env raku
 
-sub MAIN(
-    *@list
-) {
+    my @list = (1,1,2,2,6,6);
     say @list
     .grep({ $_ % 2 != 1; })
     .classify({ $_ })
@@ -10,4 +8,3 @@ sub MAIN(
     .first
     .key
     || -1;
-}

@@ -1,6 +1,6 @@
 #!/usr/bin/env raku
-sub most-frequent-even(@arr)
-{
+
+sub most-frequent-even(@arr) {
   return -1 if @arr.none %% 2;
   my %hash;
   %hash{$_}++ for @arr.grep: * %% 2;
