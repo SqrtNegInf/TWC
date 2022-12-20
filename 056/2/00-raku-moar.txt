@@ -3,14 +3,16 @@
 5 -> 4 -> 11 -> 2
  
 ===> 056/2/colin-crain.raku <===
-tree:   1, 2, undef, 8, 5, undef, undef, 2, 1, 3, undef
+tree:   0, 0, 8, undef, 4, 9, 3, undef, undef, 2, 5, undef, 8, 1, 4
 target: 18
 
 paths found:
 
-1 + 2 + 8 + 2 = 13
-1 + 2 + 8 + 1 = 12
-1 + 2 + 5 + 3 = 11
+0 + 0 + 4 + 2 = 6
+0 + 0 + 4 + 5 = 9
+0 + 8 + 9 + 8 = 25
+0 + 8 + 3 + 1 = 12
+0 + 8 + 3 + 4 = 15
 
 solutions:
 

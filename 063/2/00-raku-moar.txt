@@ -9,7 +9,7 @@ Minimum rotations for 'xyxx': 7
  
 ===> 063/2/colin-crain.raku <===
 
-rotations required: 2
+rotations required: 15
  
 ===> 063/2/jaldhar-h-vyas.raku <===
 7
