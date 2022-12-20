@@ -1,16 +1,8 @@
 #!/usr/bin/env perl
 
-# Peter Campbell Smith - 2022-12-12
-# PWC 195 task 1
-
 use v5.28;
 use utf8;
 use warnings;
-
-# You are given a list of numbers, @list. Write a script to find most frequent even numbers in the list. If
-# you get more than one with the same frequency return the smallest. For all other case, return -1.
-
-# Blog: https://pjcs-pwc.blogspot.com/2022/12/some-numbers-are-special-and-others-are.html
 
 my (@tests, $test, @freq, $max_freq, $max_freq_no, $j, @list);
 

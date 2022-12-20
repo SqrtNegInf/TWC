@@ -5,8 +5,11 @@ use List::Util qw(min max);
 use strict;
 
 print &most_frequent_even((1,1,2,6,2)); #2
+print "\n";
 print &most_frequent_even((1,3,5,7)); #-1
+print "\n";
 print &most_frequent_even((6,4,4,6,1)); #4;
+print "\n";
 
 
 sub most_frequent_even {

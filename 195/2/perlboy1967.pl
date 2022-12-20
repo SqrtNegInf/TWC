@@ -1,23 +1,5 @@
 #!/usr/bin/env perl
 
-=pod
-
-The Weekly Challenge - 195
- - https://theweeklychallenge.org/blog/perl-weekly-challenge-195/#TASK2
-
-Author: Niels 'PerlBoy' van Dijke
-
-Task 2: Most Frequent Even
-Submitted by: Mohammad S Anwar
-
-You are given a list of numbers, @list.
-
-Write a script to find most frequent even numbers in the list. In case you
-get more than one even numbers then return the smallest even integer. For
-all other case, return -1.
-
-=cut
-
 use v5.16;
 use common::sense;
 

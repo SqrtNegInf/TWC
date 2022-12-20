@@ -1,5 +1,7 @@
 #!/usr/bin/env perl
+
 use v5.36;
+
 use List::Util    qw<min>;
 use List::UtilsBy qw<max_by>;
 
@@ -10,7 +12,6 @@ sub task2 (@ns) {
 
     return min max_by { $bag{$_} } keys %bag;
 }
-
 
 my @tests = (
     [ [1,1,2,6,2],  2 ], # Of 2 and 6, 2 appears the most.

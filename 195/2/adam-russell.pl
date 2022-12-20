@@ -1,12 +1,7 @@
 #!/usr/bin/env perl
+
 use v5.36;
-##
-# You are given a list of numbers, @list.
-# Write a script to find most frequent even 
-# numbers in the list. In case you get more 
-# than one even numbers then return the smallest even integer. 
-# For all other case, return -1.
-## 
+
 sub most_frequent_even{
     my @list = @_;
     @list = grep { $_ % 2 == 0 } @list; 

@@ -1,9 +1,9 @@
 #!/usr/bin/env perl
-# The Weekly Challenge 195
-# Task 2 Most Frequent Even
+
 use v5.30.0;
 use warnings;
 use List::Util qw/max min/;
+
 sub mfe {
     my @even_list = grep {$_ % 2 == 0} @_;
     return -1 if scalar @even_list == 0;
