@@ -1,6 +1,6 @@
-#!/usr/bin/env raku
+#!/usr/bin/env raku # do-not-check
 
-BEGIN die 'not ok - disabled: does not work with blead as of 2022-12-18';
+BEGIN die 'not ok - disabled: does not work with release 2022.12';
 
 # Travelling Salesman Problem - British Museum algorithm
 sub tsp_short ( @G ) {

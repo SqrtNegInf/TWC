@@ -1,11 +1,9 @@
-#!/usr/bin/env raku
+#!/usr/bin/env raku # do-not-check
 
-use v6.d;
 use MONKEY-SEE-NO-EVAL;
 
-# with 2022.12:
 # the postfix '!' isn't defined in the EVAL'd code
-BEGIN die 'not ok - disabled: does not work with 2022.12';
+BEGIN die 'not ok - disabled: does not work with release 2022.12';
 
 constant \TEST=True;
 

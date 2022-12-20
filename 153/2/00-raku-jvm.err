@@ -1,7 +1,7 @@
 [31m===[0mSORRY![31m===[0m Error while compiling /Users/dhoekman/PWC/153/2/0rir.raku
 An exception occurred while evaluating a BEGIN
-at /Users/dhoekman/PWC/153/2/0rir.raku:8
+at /Users/dhoekman/PWC/153/2/0rir.raku:6
 Exception details:
-  not ok - disabled: does not work with 2022.12
-    in code  at 0rir.raku line 8
+  not ok - disabled: does not work with release 2022.12
+    in code  at 0rir.raku line 6
 

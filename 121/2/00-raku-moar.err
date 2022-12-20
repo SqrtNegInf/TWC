@@ -2,6 +2,6 @@
 An exception occurred while evaluating a BEGIN
 at /Users/dhoekman/PWC/121/2/bruce-gray.raku:3
 Exception details:
-  not ok - disabled: does not work with blead as of 2022-12-18
+  not ok - disabled: does not work with release 2022.12
     in code  at bruce-gray.raku line 3
 
