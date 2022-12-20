@@ -1,6 +1,6 @@
 #!/usr/bin/env raku
 
-unit sub MAIN (Int $n where $n > 0, :v(:$verbose));
+unit sub MAIN (Int $n where $n > 0 = 1000, :v(:$verbose));
 
 my $count = 0;
 

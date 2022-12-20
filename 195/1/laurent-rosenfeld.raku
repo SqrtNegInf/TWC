@@ -5,7 +5,7 @@ sub is-special ($n) {
     return $h.elems == $n.chars;
 }
 
-for 15, |(32..45), 1232, 1233, 1234 -> $m {
+for 15, |(32..45), 1000, 1232, 1233, 1234 -> $m {
     my $count = $m <= 9 ?? $m !!  9;
     for 10..$m -> $i {
         $count++ if is-special $i;

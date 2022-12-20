@@ -1,5 +1,4 @@
 #!/usr/bin/env raku
-use v6 ;
 
 sub isSpecial( Int $n is copy --> Bool ) {
   if ( $n < 10 ) {
@@ -16,7 +15,7 @@ sub isSpecial( Int $n is copy --> Bool ) {
   }
 }
 
-sub MAIN( Int $number ) {
+sub MAIN( Int $number = 1000 ) {
   my $count = 0 ;
   for (1 .. $number ) -> $i {
       if ( isSpecial( $i ) ) {

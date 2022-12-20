@@ -1,0 +1,102 @@
+ 
+===> 195/1/0rir.raku <===
+1..9
+ok 1 -  14 <- 1..15
+ok 2 -  32 <- 1..35
+ok 3 -  90 <- 1..99
+ok 4 -  162 <- 1..200
+ok 5 -  147 <- 1..180
+ok 6 -  738 <- 1..1000
+ok 7 -  5274 <- 1..10000
+ok 8 -  32490 <- 1..100000
+ok 9 -  168570 <- 1..1000000
+ 
+===> 195/1/2colours.raku <===
+738
+ 
+===> 195/1/arne-sommer.raku <===
+738
+ 
+===> 195/1/bruce-gray.raku <===
+1..27
+ok 1 - First 99
+ok 2 - task1(15) == 14
+ok 3 - task1_one_big_skip(15) == 14
+ok 4 - task1(35) == 32
+ok 5 - task1_one_big_skip(35) == 32
+ok 6 - task1(99) == 90
+ok 7 - task1_one_big_skip(99) == 90
+ok 8 - task1(200) == 162
+ok 9 - task1_one_big_skip(200) == 162
+ok 10 - task1(180) == 147
+ok 11 - task1_one_big_skip(180) == 147
+ok 12 - task1(1000) == 738
+ok 13 - task1_one_big_skip(1000) == 738
+ok 14 - task1(10000) == 5274
+ok 15 - task1_one_big_skip(10000) == 5274
+ok 16 - task1(100000) == 32490
+ok 17 - task1_one_big_skip(100000) == 32490
+ok 18 - task1(1000000) == 168570
+ok 19 - task1_one_big_skip(1000000) == 168570
+ok 20 - task1(10000000) == 712890
+ok 21 - task1_one_big_skip(10000000) == 712890
+ok 22 - task1(100000000) == 2345850
+ok 23 - task1_one_big_skip(100000000) == 2345850
+ok 24 - task1(1000000000) == 5611770
+ok 25 - task1_one_big_skip(1000000000) == 5611770
+ok 26 - task1(9876543210) == 8877690
+ok 27 - task1_one_big_skip(9876543210) == 8877690
+ 
+===> 195/1/deadmarshal.raku <===
+14
+32
+738
+ 
+===> 195/1/laurent-rosenfeld.raku <===
+15 	 -> 14
+32 	 -> 30
+33 	 -> 30
+34 	 -> 31
+35 	 -> 32
+36 	 -> 33
+37 	 -> 34
+38 	 -> 35
+39 	 -> 36
+40 	 -> 37
+41 	 -> 38
+42 	 -> 39
+43 	 -> 40
+44 	 -> 40
+45 	 -> 41
+1000 	 -> 738
+1232 	 -> 802
+1233 	 -> 802
+1234 	 -> 803
+ 
+===> 195/1/luca-ferrari.raku <===
+738
+ 
+===> 195/1/mark-anderson.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ 
+===> 195/1/robert-dicicco.raku <===
+Input: $n = 15
+Output: 14
+
+Input: $n = 35
+Output: 32
+
+Input: $n = 1000
+Output: 738
+
+ 
+===> 195/1/roger-bell-west.raku <===
+1..3
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ 
+===> 195/1/ulrich-rieke.raku <===
+738

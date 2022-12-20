@@ -1,4 +1,5 @@
 #!/usr/bin/env raku
+
 sub special-integers($n)
 {
   my $count = 0;
@@ -8,4 +9,4 @@ sub special-integers($n)
 
 say special-integers(15);
 say special-integers(35);
-
+say special-integers(1000);

@@ -23,7 +23,7 @@ multi count-special-until(PosInt $digits, @max, Set() $not-used, Bool :$first-di
 }
 
 sub MAIN(
-  PosInt $n #= upper limit for counting special numbers
+  PosInt $n =  1000 #= upper limit for counting special numbers
 ) {
   $n.&count-special-until.say;
 }

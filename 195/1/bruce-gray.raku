@@ -1,5 +1,6 @@
 #!/usr/bin/env raku
 # https://oeis.org/A073531  Number of n-digit positive integers with all digits distinct.
+
 constant @n-digits-distinct     = 0, 9, |( 9 X* [\*] (9...1) );
 constant @n-digits-distinct-sum = [\+] @n-digits-distinct;
 
@@ -34,6 +35,7 @@ sub task1 ( UInt $n --> UInt ) {
 
     return @totals.sum;
 }
+
 # This version is simpler to understand, but does not perform as well.
 # It does the initial optimization to skip over about .log10 places,
 # then generates all the combinations with the correct leading digit,
@@ -76,14 +78,15 @@ my @tests =
     ( 9_876_543_210, 8_877_690 ),
 ;
 use Test;
-plan 1+@tests;
+plan 1+2*@tests;
 
 is (map &task1, 1..99),
    (flat (1..10,10..20,20..30,30..40,40..50,50..60,60..70,70..80,80..90,90)),
    "First 99";
 
 for @tests -> ($in, $expected) {
-    my $got = task1($in);
-
-    is $got, $expected, "task1($in) == $expected";
+    my $got1 = task1($in);
+    is $got1, $expected, "task1($in) == $expected";
+    my $got2 = task1($in);
+    is $got2, $expected, "task1_one_big_skip($in) == $expected";
 }
