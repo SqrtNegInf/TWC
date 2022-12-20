@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-# The Weekly Challenge 195
-# Task 1 Special Integers
+
 use v5.30.0;
 use warnings;
 use List::Util qw/uniqint/;
@@ -14,7 +13,8 @@ sub si {
     return $ans;
 }
 
-use Test::More tests=>2;
+use Test::More tests=>3;
 ok si(15) == 14;
 ok si(35) == 32;
+ok si(1000) == 738;
 

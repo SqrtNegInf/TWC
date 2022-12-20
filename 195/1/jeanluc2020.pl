@@ -2,7 +2,7 @@
 use strict;
 use warnings;
 
-foreach my $input (1..40) {
+foreach my $input (14,15,1000) {
    print "Input $input, output " . count_specials($input) . "\n";
 }
 

@@ -6,7 +6,6 @@ sub task1 ( $n ) {
     return 0 + grep { length == uniq split '' } 1..$n;
 }
 
-
 my @tests = (
     [ 15, 14 ],
     [ 35, 32 ],

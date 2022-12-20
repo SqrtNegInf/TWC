@@ -4,6 +4,7 @@ use List::MoreUtils qw(uniq);
 
 print &special_integers(15); #14
 print &special_integers(35); #32
+print &special_integers(1000); #32
 
 sub special_integers {
     my ($n)=@_;

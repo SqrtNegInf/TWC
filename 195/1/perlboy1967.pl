@@ -1,23 +1,5 @@
 #!/usr/bin/env perl
 
-=pod
-
-The Weekly Challenge - 195
- - https://theweeklychallenge.org/blog/perl-weekly-challenge-195/#TASK1
-
-Author: Niels 'PerlBoy' van Dijke
-
-Task 1: Special Integers
-Submitted by: Mohammad S Anwar
-
-You are given a positive integer, $n > 0.
-
-Write a script to print the count of all special integers between 1 and $n.
-
-||  An integer is special when all of its digits are unique.
-
-=cut
-
 use v5.16;
 use common::sense;
 

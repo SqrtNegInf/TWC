@@ -176,7 +176,7 @@ use feature qw(signatures);
 no warnings 'experimental::signatures';
 
 
-my  $input = shift @ARGV // 10_000_000_000;          
+my  $input = 1000;  #@ARGV // 10_000_000_000;          
 
 my  $count =  make_special( $input );
 say $count;
@@ -190,6 +190,8 @@ sub make_special ( $max ) {
         for my $base_num ( @prev ) {
             for (0..9) {
                 push @next, $base_num . $_ if allowed_index( $max, $base_num, $_ );
+               #push @next, $base_num . $_ if allowed_regex( $max, $base_num, $_ );
+               #push @next, $base_num . $_ if allowed_bag( $max, $base_num, $_ );
             }
         }
         push @results, @next;

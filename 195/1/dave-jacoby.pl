@@ -4,7 +4,7 @@ use strict;
 use warnings;
 use experimental qw{ fc say postderef signatures state };
 
-my @examples = ( 15, 35 );
+my @examples = ( 15, 35, 1000 );
 for my $n (@examples) {
     my $o = special_list($n);
     say <<"END";

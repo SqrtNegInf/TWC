@@ -8,6 +8,6 @@ sub unique {
   return grep { !$seen{join q{}, $_}++ } @arr;
 }
 
-my $n = shift // die "need an integer greater than 0\n";
+my $n = 1000;
 
 say scalar grep { my @digits = split //, $_; scalar @digits == scalar unique(\@digits); } 1 .. $n;

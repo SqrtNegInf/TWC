@@ -9,4 +9,4 @@ sub specialIntegers {
 
 print specialIntegers(15), "\n"; # Output: 14
 print specialIntegers(35), "\n"; # Output: 32
-
+print specialIntegers(1000), "\n";

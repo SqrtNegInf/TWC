@@ -10,7 +10,7 @@ sub is_special {
     return scalar %h == length $n;
 }
 
-for my $m (15, 32..45, 1232, 1233, 1234) {
+for my $m (15, 32..45, 1000, 1232, 1233, 1234) {
     my $count = $m <= 9 ? $m : 9;
     for my $i (10..$m) {
         $count++ if is_special $i;

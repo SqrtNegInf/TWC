@@ -1,16 +1,9 @@
 #!/usr/bin/env perl
-# Perl weekly challenge 195
-# Task 1:  Special Integers
-#
-# See https://wlmb.github.io/2022/12/12/PWC195/#task-1-special-integers
+
 use v5.36;
 use integer;
 use POSIX qw(lround);
-say(<<"FIN"), exit unless @ARGV;
-Usage: $0 N1 [N2...]
-to get the number of special numbers between 1 and Ni
-FIN
-say "$_->", special($_) for @ARGV;
+say "$_->", special($_) for (14,15,1000);
 sub fact($n){ # factorial
     my $r=1;
     $r*=$_ for (1..$n);
