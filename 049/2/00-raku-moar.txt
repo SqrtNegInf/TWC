@@ -387,13 +387,13 @@ ok 30 -
 ===> 049/2/simon-proctor.raku <===
  
 ===> 049/2/stuart-little.raku <===
-key: 1,   value: nqf
-key: 2,   value: igo
-key: 3,   value: gte
+key: 1,   value: ufe
+key: 2,   value: xso
+key: 3,   value: pgt
 
 Setting new item at key 4..
 
 New cache:
-key: 2,   value: igo
-key: 3,   value: gte
-key: 4,   value: mhl
+key: 2,   value: xso
+key: 3,   value: pgt
+key: 4,   value: sne
