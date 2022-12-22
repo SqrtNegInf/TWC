@@ -373,13 +373,8 @@ ok 30 -
 ===> 049/2/simon-proctor.raku <===
  
 ===> 049/2/stuart-little.raku <===
-key: 1,   value: tkf
-key: 2,   value: iza
-key: 3,   value: zyy
 
 Setting new item at key 4..
 
 New cache:
-key: 2,   value: iza
-key: 3,   value: zyy
-key: 4,   value: ykj
+Nil
