@@ -68,7 +68,7 @@ ok 3 - example 3
 4
  
 ===> 195/2/ulrich-rieke.raku <===
-6
+2
  
 ===> 195/2/wambash.raku <===
 ok 1 - 

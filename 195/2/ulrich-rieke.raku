@@ -1,6 +1,6 @@
 #!/usr/bin/env raku
 
-my @numbers = (1,1,2,2,6,6); # other tasks return  '2'
+my @numbers = (1,1,2,2,5,6);
 my %frequencies ;
 my @evens = @numbers.grep( { $_ %% 2 } ) ;
 if ( @evens ) {
