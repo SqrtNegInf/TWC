@@ -1,3 +1,7 @@
+2022-12-24
+Latest build affected most of 049/2 tasks, hopefully new stable point...
+TIFF library auto-update breaks GD installation (for Raku too)
+
 2022-12-23
 Build v2022.12-813-g02043da92 yields segfaults and compilation errors on many tasks, removing precomp fixes.
 
