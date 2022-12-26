@@ -408,8 +408,8 @@ Challenge titles and Rosetta-code correspondences (exact, and otherwise)
 194-2 Frequency Equalizer
 195-1 Special Integers
 195-2 Most Frequent Even
-196-1
-196-2
+196-1 Pattern 132
+196-2 Range List
 197-1
 197-2
 198-1
