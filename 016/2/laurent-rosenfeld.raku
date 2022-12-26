@@ -1,6 +1,6 @@
 #!/usr/bin/env raku
 
-use Digest::SHA;
+use Digest::SHA256::Native;
 
 use Test;
 plan 4;

@@ -1,6 +1,6 @@
 #!/usr/bin/env raku
 
-use Digest::SHA;
+use Digest::SHA256::Native;
 
 subset BitcoinAddress of Str where  26 <= .chars <= 35 && /^ <[1..9 A..Z a..z]-[IOl]>+$/ && /^[1|3|bc1]/;
 

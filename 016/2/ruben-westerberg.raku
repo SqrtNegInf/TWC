@@ -1,6 +1,6 @@
 #!/usr/bin/env raku
 
-use Digest::SHA;
+use Digest::SHA256::Native;
 
 my @addresses=@*ARGS;
 @addresses= qw<1BvBMSEYstWetqTFn5Au4m4GFg7xJaNVN2

@@ -3,7 +3,7 @@
 # This only supports type 1 & 5 bitcoin addresses on the main net.
 # It does not support test net addresses or Bech32 addresses.
 
-use Digest::SHA;
+use Digest::SHA256::Native;
 
 sub MAIN() {
     use Test;

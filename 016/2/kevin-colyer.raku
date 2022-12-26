@@ -1,6 +1,6 @@
 #!/usr/bin/env raku
 
-use Digest::SHA;#256::Native;
+use Digest::SHA256::Native;
 use Test;
 
 constant $b58chars = '123456789ABCDEFGHJKLMNPQRSTUVWXYZabcdefghijkmnopqrstuvwxyz';
