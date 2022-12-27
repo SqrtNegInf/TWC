@@ -1,8 +1,8 @@
 #!/usr/bin/env raku
 
-# Perl Weekly Challenge 196
 
-sub MAIN( *@list where { @list.grep( * ~~ Int ).elems == @list.elems } )  {
+#   my @list = [3,1,4,2]; # this input doesn't work?
+    my @list = [1,4,6,4,3,5,10];
     my @found;
     my $last = 0;
 
@@ -12,4 +12,3 @@ sub MAIN( *@list where { @list.grep( * ~~ Int ).elems == @list.elems } )  {
     }
 
     @found.join( "\n" ).say;
-}

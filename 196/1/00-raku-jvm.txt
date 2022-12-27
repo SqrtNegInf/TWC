@@ -1,0 +1,149 @@
+ 
+===> 196/1/0rir.raku <===
+1..48
+ok 1 - Test: []
+ok 2 - Test single: []
+ok 3 - Test: [1]
+ok 4 - Test single: [1]
+ok 5 - Test: [1, 2]
+ok 6 - Test single: [1, 2]
+ok 7 - Test: [1, 2, 3]
+ok 8 - Test single: [1, 2, 3]
+ok 9 - Test: [1, 2, 3, 4]
+ok 10 - Test single: [1, 2, 3, 4]
+ok 11 - Test: [1, 2, 3, 4, 5]
+ok 12 - Test single: [1, 2, 3, 4, 5]
+ok 13 - Test: [0, 1, 2, 3, 4, 5]
+ok 14 - Test single: [0, 1, 2, 3, 4, 5]
+ok 15 - Test: [1, 1, 1]
+ok 16 - Test single: [1, 1, 1]
+ok 17 - Test: [1, 1, 2]
+ok 18 - Test single: [1, 1, 2]
+ok 19 - Test: [1, 2, 1]
+ok 20 - Test single: [1, 2, 1]
+ok 21 - Test: [2, 1, 1]
+ok 22 - Test single: [2, 1, 1]
+ok 23 - Test: [2, 2, 1]
+ok 24 - Test single: [2, 2, 1]
+ok 25 - Test: [2, 2, 2]
+ok 26 - Test single: [2, 2, 2]
+ok 27 - Test: [-1, 2, 1]
+ok 28 - Test single: [-1, 2, 1]
+ok 29 - Test: [1, 4, 2]
+ok 30 - Test single: [1, 4, 2]
+ok 31 - Test: [3, 1, 4, 2]
+ok 32 - Test single: [3, 1, 4, 2]
+ok 33 - Test: [3, 1, 4, 2, 5]
+ok 34 - Test single: [3, 1, 4, 2, 5]
+ok 35 - Test: [1, 4, 6, 4, 3, 5, 10]
+ok 36 - Test single: [1, 4, 6, 4, 3, 5, 10]
+ok 37 - Test: [10, 1, 4, 6, 4, 3, 5]
+ok 38 - Test single: [10, 1, 4, 6, 4, 3, 5]
+ok 39 - Test: [10, 1, 4, 6, 4, 3, 5, 10]
+ok 40 - Test single: [10, 1, 4, 6, 4, 3, 5, 10]
+ok 41 - Test: [1, 2, 3, 4]
+ok 42 - Test single: [1, 2, 3, 4]
+ok 43 - Test: [1, 3, 2, 4, 6, 5]
+ok 44 - Test single: [1, 3, 2, 4, 6, 5]
+ok 45 - Test: [1, 1, 3, 4, 2, 1, 1, 1]
+ok 46 - Test single: [1, 1, 3, 4, 2, 1, 1, 1]
+ok 47 - Test: [42, 95, 17, 4, 25, 51, 25, 36, 38, 85, 82, 13, 63, 8]
+ok 48 - Test single: [42, 95, 17, 4, 25, 51, 25, 36, 38, 85, 82, 13, 63, 8]
+ 
+===> 196/1/arne-sommer.raku <===
+(1, 4, 2)
+ 
+===> 196/1/athanasius.raku <===
+Running the test suite
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ok 4 - Example 4
+ok 5 - Negatives
+1..5
+ 
+===> 196/1/bruce-gray.raku <===
+ok 1 - 1 task1
+ok 2 - 1 task1_ak_then_j
+ok 3 - 1 task1_faster
+ok 4 - 1 find132pattern
+ok 5 - 2 task1
+ok 6 - 2 task1_ak_then_j
+ok 7 - 2 task1_faster
+ok 8 - 2 find132pattern
+ok 9 - 3 task1
+ok 10 - 3 task1_ak_then_j
+ok 11 - 3 task1_faster
+ok 12 - 3 find132pattern
+ok 13 - 4 task1
+ok 14 - 4 task1_ak_then_j
+ok 15 - 4 task1_faster
+ok 16 - 4 find132pattern
+ok 17 - 5 task1
+ok 18 - 5 task1_ak_then_j
+ok 19 - 5 task1_faster
+ok 20 - 5 find132pattern
+ok 21 - 6 task1
+ok 22 - 6 task1_ak_then_j
+ok 23 - 6 task1_faster
+ok 24 - 6 find132pattern
+ok 25 - 7 task1
+ok 26 - 7 task1_ak_then_j
+ok 27 - 7 task1_faster
+ok 28 - 7 find132pattern
+ok 29 - 8 task1
+ok 30 - 8 task1_ak_then_j
+ok 31 - 8 task1_faster
+ok 32 - 8 find132pattern
+ok 33 - 9 task1
+ok 34 - 9 task1_ak_then_j
+ok 35 - 9 task1_faster
+ok 36 - 9 find132pattern
+ 
+===> 196/1/feng-chang.raku <===
+(1 4 2)
+ 
+===> 196/1/jaldhar-h-vyas.raku <===
+(1, 4, 2)
+ 
+===> 196/1/laurent-rosenfeld.raku <===
+(3 1 4 2)	=> (1 4 2)
+(1 2 3 4)	=> ()
+(1 3 2 4 6 5)	=> (1 3 2)
+(1 3 4 2)	=> (1 3 2)
+ 
+===> 196/1/luca-ferrari.raku <===
+1 4 6
+ 
+===> 196/1/mark-anderson.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ok 4 - 
+ 
+===> 196/1/polettix.raku <===
+(1 4 3)
+ 
+===> 196/1/robert-dicicco.raku <===
+Input: @n = [3 1 4 2]
+Output: 1 4 2
+
+Input: @n = [1 2 3 4]
+Output: -1
+
+Input: @n = [1 3 2 4 6 5]
+Output: 1 3 2
+
+Input: @n = [1 3 4 2]
+Output: 1 3 2
+
+ 
+===> 196/1/roger-bell-west.raku <===
+1..4
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ok 4 - example 4
+ 
+===> 196/1/ulrich-rieke.raku <===
+(1 4 3)

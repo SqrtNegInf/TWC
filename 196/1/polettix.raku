@@ -1,6 +1,6 @@
 #!/usr/bin/env raku
-use v6;
-sub MAIN (*@args is copy) {
+
+sub MAIN (@args is copy = [1,4,6,4,3,5,10]) {
    @args = 3, 1, 4, 2 unless @args;
    say first-pattern132(@args);
 }

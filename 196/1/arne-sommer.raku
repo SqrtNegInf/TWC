@@ -1,6 +1,7 @@
 #!/usr/bin/env raku
 
-unit sub MAIN (*@list where @list.elems > 0 && all(@list) ~~ /^<[1..9]><[0..9]>*$/);
+#unit sub MAIN (*@list where @list.elems > 0 && all(@list) ~~ /^<[1..9]><[0..9]>*$/);
+my @list = (3,1,4,2);
 
 my $end = @list.elems - 1;
 

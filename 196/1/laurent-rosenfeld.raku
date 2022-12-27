@@ -1,4 +1,5 @@
 #!/usr/bin/env raku
+
 sub find_132 (@input, @part-result) {
     # say @input, " - ", @part-result;
     given @part-result.elems {
