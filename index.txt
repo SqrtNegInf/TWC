@@ -410,8 +410,8 @@ Challenge titles and Rosetta-code correspondences (exact, and otherwise)
 195-2 Most Frequent Even
 196-1 Pattern 132
 196-2 Range List
-197-1
-197-2
+197-1 Move Zero
+197-2 Wiggle Sort
 198-1
 198-2
 199-1

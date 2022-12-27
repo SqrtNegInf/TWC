@@ -1,6 +1,6 @@
 2022-12-26
 My fix merged, rakubrew updated to v32, can return to using moar-blead.
-Update 016/2/*raku tasks to Digest::SHA256::Native, somehow slipped through last pass.
+Updated 016/2/*raku tasks to Digest::SHA256::Native, somehow slipped through last pass.
 
 2022-12-24
 Latest build affected most of 049/2 tasks, hopefully new stable point...
