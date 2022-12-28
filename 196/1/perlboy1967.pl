@@ -1,23 +1,5 @@
 #!/usr/bin/env perl
 
-=pod
-
-The Weekly Challenge - 196
-- https://theweeklychallenge.org/blog/perl-weekly-challenge-195/#TASK1
-
-Author: Niels 'PerlBoy' van Dijke
-
-Task 1: Pattern 132
-Submitted by: Mohammad S Anwar
-
-You are given a list of integers, @list.
-
-Write a script to find out subsequence that respect Pattern 132. Return empty array if none found.
-
-||  Pattern 132 in a sequence (a[i], a[j], a[k]) such that i < j < k and a[i] < a[k] < a[j].
-
-=cut
-
 use v5.16;
 use common::sense;
 

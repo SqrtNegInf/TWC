@@ -1,10 +1,6 @@
 #!/usr/bin/env perl
+
 use v5.36; 
-##
-# You are given a list of integers, @list.
-# Write a script to find the subsequence that respects Pattern 132. 
-# Return an empty array if none found.
-##
 use Data::Dump q/pp/; 
 sub pattern_132{
     # i < j < k and a[i] < a[k] < a[j]  

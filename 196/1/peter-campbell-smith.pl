@@ -1,18 +1,8 @@
 #!/usr/bin/env perl
 
-# Peter Campbell Smith - 2022-12-19
-# PWC 196 task 1
-
 use v5.28;
 use utf8;
 use warnings;
-
-# You are given a list of integers, @list. Write a script to find out subsequence that respects Pattern 132. 
-# Pattern 132 is a sequence (a[i], a[j], a[k]) such that i < j < k and a[i] < a[k] < a[j].
-# Return an empty array if no such sequence is found, or the first if several are found.
-
-
-# Blog: https://pjcs-pwc.blogspot.com/2022/12/pattern-132-and-sequential-runs.html
 
 my (@tests, $test, @list, $j, $last, @hard, $i, $k);
 
@@ -20,11 +10,11 @@ my (@tests, $test, @list, $j, $last, @hard, $i, $k);
 @tests = ([3, 1, 4, 2], [1, 2, 3, 4], [1, 3, 2, 4, 6, 5], [1, 3, 4, 2]);
 
 # a difficult one
-for $j (1 .. 10000) {
-	push @hard, $j;
-}
-push @hard, 9999;
-push @tests, \@hard;
+#for $j (1 .. 10000) {
+#	push @hard, $j;
+#}
+#push @hard, 9999;
+#push @tests, \@hard;
 
 # loop over tests
 TEST: for $test (@tests) {

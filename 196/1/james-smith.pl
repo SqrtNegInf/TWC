@@ -4,10 +4,9 @@ use strict;
 use warnings;
 use feature qw(say);
 use Test::More;
-use Benchmark qw(cmpthese timethis);
 
 my @TESTS = (
-  [ [3,1,4,2],     '3 4 2' ],
+  [ [3,1,4,2],     '1 4 2' ],
   [ [1,2,3,4],     '' ],
   [ [1,3,2,4,6,5], '1 3 2' ],
   [ [1,3,2],       '1 3 2' ] );
