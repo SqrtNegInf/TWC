@@ -1,7 +1,7 @@
 #!/usr/bin/env raku
 
 sub MAIN(
-    *@array #= a list of integers
+    @array =<1 2 3 6 7 9>
 ) {
     my @allranges;
     my $n = 0;

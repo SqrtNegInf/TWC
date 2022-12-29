@@ -1,10 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
-##
-# You are given a sorted unique integer array, @array.
-# Write a script to find all possible Number Range (i.e [x, y]) 
-# represent range all integers from x and y (both inclusive).
-##
+
 use Data::Dump q/pp/;
 sub range_list{
     my @numbers = @_;

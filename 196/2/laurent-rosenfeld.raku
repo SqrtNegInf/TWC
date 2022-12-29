@@ -1,4 +1,5 @@
 #!/usr/bin/env raku
+
 sub find-ranges (@in) {
     my ($start, $curr);
     my @result;

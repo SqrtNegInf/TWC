@@ -1,6 +1,6 @@
 #!/usr/bin/env raku
 
-unit sub MAIN (*@array where @array.elems > 1 && all(@array) ~~ /^<[0..9]>+$/ && [<] @array);
+my @array = <1 2 3 6 7 9>;
 
 my @ranges;
 my $from = @array.shift.Int;

@@ -1,5 +1,4 @@
 #!/usr/bin/env raku
-use v6 ;
 
 sub findEnd( @numbers , $start ) {
   my $current = $start ;
@@ -20,15 +19,8 @@ sub findEnd( @numbers , $start ) {
   }
 }
 
-say "Please enter a sorted array of integers, each unique!" ;
-my $line = $*IN.get ;
-my @numbers = $line.split( /\s/ ).map( {.Int} ) ;
+my @numbers = <1 2 3 6 7 9>;
 my @sorted = @numbers.sort( {$^a <=> $^b} ) ;
-while ( @sorted != @numbers || @numbers.elems != @numbers.Set.elems ) {
-  say "Please enter a sorted array of unique numbers!" ;
-  $line = $*IN.get ;
-  @numbers = $line.split( /\s/ ).map( {.Int} ) ;
-}
 my $pos = 0 ;
 my @subsequences ;
 while ($pos < @numbers.elems - 1) {

@@ -1,4 +1,5 @@
 #!/usr/bin/env raku
+
 sub task2 ( @ns ) {
     return Empty unless @ns;
     die unless @ns.all ~~ Int and [<] @ns;
@@ -18,7 +19,6 @@ sub task2 ( @ns ) {
         take $temp if +$temp;
     }
 }
-
 
 my @tests =
     ( (1,3,4,5,7      ) , ( [3,5],              ) ),

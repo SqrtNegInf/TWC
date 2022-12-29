@@ -1,6 +1,6 @@
 #!/usr/bin/env raku
-use v6;
-sub MAIN (*@args) { say range-list(@args) }
+
+say range-list(<1 2 3 6 7 9>);
 
 sub range-list (@array) {
    gather {
