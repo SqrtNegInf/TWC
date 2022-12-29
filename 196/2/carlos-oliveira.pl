@@ -4,7 +4,6 @@ use warnings;
 use Data::Dump;
 use List::MoreUtils qw(slideatatime);
 
-
 sub intervals {
   my $isRegistering = 0;
   my $begin;

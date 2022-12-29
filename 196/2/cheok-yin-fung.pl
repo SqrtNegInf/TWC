@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-# The Weekly Challenge 196
-# Task 2 Range List
+
 use v5.30.0;
 use warnings;
 

@@ -1,0 +1,119 @@
+ 
+===> 196/2/adam-russell.pl <===
+[3, 5]
+([1, 3], [6, 7])
+([0, 2], [4, 6], [8, 9])
+ 
+===> 196/2/athanasius.pl <===
+Running the test suite
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ok 4 - Negatives
+1..4
+ 
+===> 196/2/carlos-oliveira.pl <===
+[3, 5]
+([1, 3], [6, 7])
+([0, 2], [4, 6], [8, 9])
+ 
+===> 196/2/cheok-yin-fung.pl <===
+1..3
+ok 1
+ok 2
+ok 3
+ 
+===> 196/2/colin-crain.pl <===
+[0,2]
+[4,6]
+[8,9]
+ 
+===> 196/2/dave-jacoby.pl <===
+    Input: @array = (1, 3, 4, 5, 7)
+    Output: [3, 5]
+
+    Input: @array = (1, 2, 3, 6, 7, 9)
+    Output: [1, 3], [6, 7]
+
+    Input: @array = (0, 1, 2, 4, 5, 6, 8, 9)
+    Output: [0, 2], [4, 6], [8, 9]
+
+ 
+===> 196/2/james-smith.pl <===
+ok 1
+ok 2
+ok 3
+ok 4
+ok 5
+ok 6
+ok 7
+ok 8
+1..8
+ 
+===> 196/2/jeanluc2020.pl <===
+(1, 3, 4, 5, 7) has ranges [3,5]
+(1, 2, 3, 6, 7, 9) has ranges [1,3], [6,7]
+(0, 1, 2, 4, 5, 6, 8, 9) has ranges [0,2], [4,6], [8,9]
+ 
+===> 196/2/jo-37.pl <===
+# Seeded srand with seed '1' from import arg.
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ok 4 - none
+1..4
+ 
+===> 196/2/laurent-rosenfeld.pl <===
+1 3 4 5 7 =>             [3 5] 
+1 2 3 6 7 9 =>           [1 3] [6 7] 
+0 1 2 4 5 6 8 9 =>       [0 2] [4 6] [8 9]
+1 3 4 6 7 11 12 13 =>    [3 4] [6 7] [11 13]
+1 3 4 5 7 9 =>           [3 5] 
+1 3 5 =>                 []
+ 
+===> 196/2/perlboy1967.pl <===
+ok 1 - test [1,3,4,5,7]
+ok 2 - test [1,2,3,6,7,9]
+ok 3 - test [0,1,2,4,5,6,8,9]
+1..3
+ 
+===> 196/2/peter-campbell-smith.pl <===
+
+Input:  @array = (1, 3, 4, 5, 7)
+Output: [3, 5]
+
+Input:  @array = (1, 2, 3, 6, 7, 9)
+Output: [1, 3], [6, 7]
+
+Input:  @array = (0, 1, 2, 4, 5, 6, 8, 9)
+Output: [0, 2], [4, 6], [8, 9]
+
+Input:  @array = (1, 3, 5, 7, 9, 11)
+Output: no consecutive sequence found
+ 
+===> 196/2/pip.pl <===
+(1,3,4,5,7      ) => [3,5];
+(1,2,3,6,7,9    ) => [1,3], [6,7];
+(0,1,2,4,5,6,8,9) => [0,2], [4,6], [8,9];
+ 
+===> 196/2/polettix.pl <===
+[3,5]
+ 
+===> 196/2/roger-bell-west.pl <===
+1..3
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ 
+===> 196/2/steve-g-lynn.pl <===
+([3,5])([1,3],[6,7])([0,2],[4,6],[8,9]) 
+===> 196/2/wlmb.pl <===
+1 2 3 6 7 9 -> [1, 3] [6, 7]
+ 
+===> 196/2/zapwai.pl <===
+Input: (1,3,4,5,7)
+Output: [3,5]
+Input: (1,2,3,6,7,9)
+Output: [1,3], [6,7]
+Input: (0,1,2,4,5,6,8,9)
+Output: [0,2], [4,6], [8,9]

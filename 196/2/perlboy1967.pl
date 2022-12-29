@@ -1,23 +1,5 @@
 #!/usr/bin/env perl
 
-=pod
-
-The Weekly Challenge - 196
-- https://theweeklychallenge.org/blog/perl-weekly-challenge-195/#TASK2
-
-Author: Niels 'PerlBoy' van Dijke
-
-Task 2: Range List
-Submitted by: Mohammad S Anwar
-
-You are given a sorted unique integer array, @array.
-
-Write a script to find all possible Number Range i.e [x, y] represent range all integers from x and y (both inclusive).
-
-||  Each subsequence of two or more contiguous integers
-
-=cut
-
 use v5.16;
 use common::sense;
 

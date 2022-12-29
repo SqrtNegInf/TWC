@@ -1,16 +1,8 @@
 #!/usr/bin/env perl
 
-# Peter Campbell Smith - 2022-12-19
-# PWC 196 task 2
-
 use v5.28;
 use utf8;
 use warnings;
-
-# We are given a sorted unique integer array, @array. We are asked to find all the slices of this array
-# which comprise consecutive integers, and output the first and last element in each such slice.
-
-# Blog: https://pjcs-pwc.blogspot.com/2022/12/pattern-132-and-sequential-runs.html
 
 my (@tests, $test, @array, $start, $in_slice, $output, $j);
 
