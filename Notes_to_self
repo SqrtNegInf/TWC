@@ -1,3 +1,7 @@
+2022-12-29
+Some tasks with 'use lib "."' failed, wait and see if goes away:
+    Missing or wrong version of dependency 'gen/moar/BOOTSTRAP/v6c.nqp'
+
 2022-12-26
 My fix merged, rakubrew updated to v32, can return to using moar-blead.
 Updated 016/2/*raku tasks to Digest::SHA256::Native, somehow slipped through last pass.
