@@ -147,3 +147,10 @@ ok 4 - example 4
  
 ===> 196/1/ulrich-rieke.raku <===
 (1 4 3)
+ 
+===> 196/1/wambash.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ok 4 - 
+1..4
