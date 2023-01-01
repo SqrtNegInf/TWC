@@ -1,3 +1,13 @@
+2023-01-01
+Date-based tasks in 013/019/037/103/175 changed output.
+'v6c.nqp' errors remain.
+
+2022-12-31
+Uh oh, it's back.
+
+2022-12-30
+It went away.
+
 2022-12-29
 Some tasks with 'use lib "."' failed, wait and see if goes away:
     Missing or wrong version of dependency 'gen/moar/BOOTSTRAP/v6c.nqp'
