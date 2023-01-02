@@ -53,9 +53,3 @@ while (++$idx < $limit) {
 }
 
 say "output: @input";
-
-
-
-
-
-

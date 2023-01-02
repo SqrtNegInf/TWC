@@ -1,10 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
-##
-# You are given a list of integers, @list.
-# Write a script to remove all zeroes, if any exist, to the end while
-# maintaining the relative order of the non-zero elements.
-##
+
 sub move_zeroes{
     my @list = @_;
     my @zeroes;

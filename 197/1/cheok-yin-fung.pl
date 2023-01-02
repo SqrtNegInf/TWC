@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-# The Weekly Challenge 197
-# Task 1 Move Zero
+
 use v5.30.0;
 use warnings;
 
