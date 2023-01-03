@@ -1,20 +1,6 @@
 #!/usr/bin/env raku
-# :vim ft=raku sw=4 expandtab  # 🦋 ∅ ≡ ∩ ≢ ∈ «␤»
-use v6.d;
+
 use Test;
-
-=begin comment
-197-2: Wiggle Sort          Submitted by: Mohammad S Anwar
-Given a list of integers, @list, perform a Wiggle Sort on it, this will make
-a list where the following is true: list[0] < list[1] > list[2] < list[3]….
-
-Example 1
-Input: @list = (1,5,1,1,6,4)
-Output: (1,6,1,5,1,4)
-Example 2
-Input: @list = (1,3,2,2,3,1)
-Output: (2,3,1,3,1,2)
-=end comment
 
 multi wiggle( [] --> Array) { die 'Nothing to wiggle!' }
 multi wiggle( @a is copy --> Array ) {

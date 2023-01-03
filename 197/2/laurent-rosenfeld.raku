@@ -1,4 +1,5 @@
 #!/usr/bin/env raku
+
 sub wiggle_sort (@in is copy) {
     for 0..^@in.end -> $i {
         if $i %% 2 {

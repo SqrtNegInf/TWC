@@ -1,6 +1,6 @@
 #!/usr/bin/env raku
 
-unit sub MAIN (*@list where @list.elems > 1, :v(:$verbose));
+unit sub MAIN (@list where @list.elems > 1 = ^6, :v(:$verbose));
 
 my $half   = Int(@list.elems / 2);
 my @sorted = @list.sort.reverse;

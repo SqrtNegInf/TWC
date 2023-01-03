@@ -25,6 +25,20 @@ multi sub task2_scsv ( @ns where * !%% 2 ) {
 
     return @r.List;
 }
+
+multi sub task2_scsv-alt ( @ns where * %% 2 ) {
+    return @ns.sort(-*).sort({ ($++).polymod(+@ns div 2) Z* (1,-1) });
+}
+multi sub task2_scsv-alt ( @ns where * !%% 2 ) {
+    my @r = @ns.sort(-*);
+
+    my $z = @r.pop;
+    @r = samewith(@r);
+    @r.push($z);
+
+    return @r.List;
+}
+
 sub task2_feed_by_key ( @ns ) {
     my @s = @ns.sort(-*);
 
@@ -58,10 +72,12 @@ my @subs =
     :&task2_splice_zip,
     :&task2_skip_head_zip,
     :&task2_feed_by_key,
-    :&task2_scsv
+    :&task2_scsv,
+    :&task2_scsv-alt
 ;
 my Set $sub_names_that_can_handle_even_and_odd = set <
     task2_scsv
+    task2_scsv-alt
     task2_feed_by_key
 >;
 

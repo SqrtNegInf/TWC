@@ -1,4 +1,5 @@
 #!/usr/bin/env raku
+
 sub wiggle-sort(@A)
 {
   for 0..@A.elems-2 -> $i

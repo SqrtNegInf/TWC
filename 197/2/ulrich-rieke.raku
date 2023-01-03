@@ -1,5 +1,4 @@
 #!/usr/bin/env raku
-use v6 ;
 
 sub myCondition( @array --> Bool ) {
   my $len = @array.elems ;
@@ -23,14 +22,7 @@ sub myCondition( @array --> Bool ) {
   return True ;
 }
 
-say "Enter some integers, separated by a blank!" ;
-my $line = $*IN.get ;
-my @numbers = $line.split( /\s/ ).map( {.Int} ) ;
-while ( @numbers.elems < 3 ) {
-  say "At least 3 numbers should be entered!" ;
-  $line = $*IN.get ;
-  @numbers = $line.split( /\s/ ).map( {.Int} ) ;
-}
+my @numbers = ^6;
 my %numberfrequencies ;
 for @numbers -> $num {
   %numberfrequencies{ $num }++ ;

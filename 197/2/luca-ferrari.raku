@@ -1,9 +1,8 @@
 #!/usr/bin/env raku
 
-# Perl Weekly Challenge 197
+#sub MAIN( *@list where { @list.grep( * ~~ Int ).elems == @list.elems } ) {
 
-sub MAIN( *@list where { @list.grep( * ~~ Int ).elems == @list.elems } ) {
-    my @sorted = @list;
+    my @sorted = my @list = ^6;
     my $done = False;
 
     #  list[0] < list[1] > list[2] < list[3]….
@@ -35,4 +34,4 @@ sub MAIN( *@list where { @list.grep( * ~~ Int ).elems == @list.elems } ) {
 
     @list.join( ',' ).say;
     @sorted.join(',').say;
-}
+#}
