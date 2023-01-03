@@ -1,0 +1,95 @@
+ 
+===> 197/2/adam-russell.pl <===
+6, 5, 4, 1, 1, 1
+3, 3, 2, 2, 1, 1
+ 
+===> 197/2/athanasius.pl <===
+Running the test suite
+ok 1 - Example 1
+ok 2 - Example 1
+ok 3 - Example 2
+ok 4 - Example 2
+ok 5 - Short
+ok 6 - Short
+ok 7 - Not sortable
+ok 8 - Distinct
+ok 9 - Distinct
+ok 10 - Single
+ok 11 - Single
+ok 12 - Negatives
+ok 13 - Negatives
+1..13
+ 
+===> 197/2/bob-lied.pl <===
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Odd
+1..3
+ 
+===> 197/2/cheok-yin-fung.pl <===
+1,5,1,6,1,4
+1,3,2,3,1,2
+ 
+===> 197/2/colin-crain.pl <===
+input:  6 4 4 7 4 4 1 8 5 4
+sorted: 4 8 4 7 4 6 4 5 1 4
+ 
+===> 197/2/dave-jacoby.pl <===
+    Input:  @list = (1, 5, 1, 1, 6, 4)
+    Output: (1, 6, 1, 5, 1, 4)
+
+    Input:  @list = (1, 3, 2, 2, 3, 1)
+    Output: (2, 3, 1, 2, 1, 3)
+
+ 
+===> 197/2/jeanluc2020.pl <===
+(1, 5, 1, 1, 6, 4) returns (1, 6, 1, 5, 1, 4)
+(1, 3, 2, 2, 3, 1) returns (2, 3, 1, 3, 1, 2)
+(1, 2, 3, 4, 5) returns (3, 5, 2, 4, 1)
+(1, 1, 1, 2, 2, 2, 3, 3, 4, 4) returns (2, 4, 2, 4, 1, 3, 1, 3, 1, 2)
+ 
+===> 197/2/jo-37.pl <===
+# Seeded srand with seed '1' from import arg.
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - odd size
+ok 4 - 1 violates
+ok 5 - 4 violates
+ok 6 - negative
+1..6
+ 
+===> 197/2/laurent-rosenfeld.pl <===
+1 5 1 1 6 4 	=> 1 5 1 6 1 4
+1 3 2 2 3 1 	=> 1 3 2 3 1 2
+8 12 11 13 9 	=> 8 12 11 13 9
+1 2 3 4 5 6 7 	=> 1 3 2 5 4 7 6
+ 
+===> 197/2/perlboy1967.pl <===
+ok 1
+ok 2
+ok 3
+ok 4
+1..4
+ 
+===> 197/2/polettix.pl <===
+(1,4,1,5,1,6)
+ 
+===> 197/2/roger-bell-west.pl <===
+1..8
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ok 4 - example 4
+ok 5 - example 5
+ok 6 - example 6
+ok 7 - example 7
+ok 8 - example 8
+ 
+===> 197/2/wlmb.pl <===
+1 5 1 1 6 4 -> 1 6 1 5 1 4
+ 
+===> 197/2/zapwai.pl <===
+Input: @list: (1,5,1,1,6,4)
+Output: (1,5,1,6,1,4)
+Input: @list: (1,3,2,2,3,1)
+Output: (1,3,2,3,1,2)

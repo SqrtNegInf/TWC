@@ -1,23 +1,5 @@
 #!/usr/bin/env perl
 
-=pod
-
-The Weekly Challenge - 197
-- https://theweeklychallenge.org/blog/perl-weekly-challenge-197/#TASK2
-
-Author: Niels 'PerlBoy' van Dijke
-
-Task 2: Wiggle Sort
-Submitted by: Mohammad S Anwar
-You are given a list of integers, @list.
-
-Write a script to perform Wiggle Sort on the given list.
-
-
-Wiggle sort would be such as list[0] < list[1] > list[2] < list[3]….
-
-=cut
-
 use v5.16;
 use common::sense;
 

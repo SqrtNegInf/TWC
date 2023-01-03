@@ -1,9 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
-##
-# You are given a list of integers, @list.
-# Write a script to perform a Wiggle Sort on the given list.
-##
+
 my $wgl = -1;
 sub wgl{
     my($x, $y) = @_; 
@@ -16,12 +13,15 @@ sub wgl{
 sub wiggle_sort{
     my @list = @_;
     my @wiggle; 
-    #@list = sort {$b <=> $a} @list;
-    #@wiggle = sort wgl @wiggle;
-    for my $i (0 .. $#list){
-	    ($list[$i], $list[$i-1]) = ($list[$i-1], $list[$i]) if $i % 2 == 0 && $list[$i] > $list[$i-1];   
-	    ($list[$i], $list[$i-1]) = ($list[$i-1], $list[$i]) if $i % 2 == 1 && $list[$i] < $list[$i-1];   
-    }
+    @list = sort {$b <=> $a} @list;
+    @wiggle = sort wgl @wiggle;
+
+    # also works
+    #for my $i (0 .. $#list){
+	#    ($list[$i], $list[$i-1]) = ($list[$i-1], $list[$i]) if $i % 2 == 0 && $list[$i] > $list[$i-1];   
+	#    ($list[$i], $list[$i-1]) = ($list[$i-1], $list[$i]) if $i % 2 == 1 && $list[$i] < $list[$i-1];   
+    #}
+
     return @list;  
 }
 

@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-# The Weekly Challenge 197
-# Task 2 Wiggle Sort
+
 use v5.30.0;
 use warnings;
 
