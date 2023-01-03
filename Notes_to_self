@@ -1,6 +1,10 @@
+2023-01-02
+Now only '013/1/ozzy.raku' has date issues.
+'v6c.nqp' errors gone again.
+
 2023-01-01
 Date-based tasks in 013/019/037/103/175 changed output.
-'v6c.nqp' errors remain.
+'v6c.nqp' errors remain. (no similar errors on the RC side)
 
 2022-12-31
 Uh oh, it's back.
