@@ -1,8 +1,7 @@
 #!/usr/bin/env raku
-die 'Requires one argument, a list of numbers ie: "1 2 3 4 5 6"' unless @*ARGS.elems;
-say 0 && die if @*ARGS[0].split(/\s/).elems <= 2;
 
-my @vals = @*ARGS[0].split(/\s/).map(*.Int);
+my @vals = (2,5,8,1);
+
 my $max-dist = -1;
 my @pairs;
 loop (my $i = 0; $i < @vals.elems - 1; $i++) {
@@ -14,5 +13,3 @@ loop (my $i = 0; $i < @vals.elems - 1; $i++) {
 }
 
 say @pairs.raku;
-
-# vim: expandtab shiftwidth=4

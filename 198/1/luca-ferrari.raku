@@ -1,9 +1,7 @@
 #!/usr/bin/env raku
 
-sub MAIN( *@list where { @list.elems == @list.grep( * ~~ Int ).elems } ) {
+sub MAIN( @list where { @list.elems == @list.grep( * ~~ Int ).elems } = (2,5,8,1) ) {
     my @sorted = @list.sort;
-
-
 
     my %pairs;
     for 1 ..^ @sorted.elems - 1 {

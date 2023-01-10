@@ -1,6 +1,6 @@
 #!/usr/bin/env raku
 
-unit sub MAIN (*@list where @list.elems > 0 && all(@list) ~~ /^<[0..9]>*$/, :v(:$verbose));
+unit sub MAIN (@list where @list.elems > 0 && all(@list) ~~ /^<[0..9]>*$/ = (2,5,8,1), :v(:$verbose));
 
 my @sorted = @list.sort;
 my @gap;

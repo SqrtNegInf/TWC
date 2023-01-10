@@ -1,6 +1,8 @@
 #!/usr/bin/env raku
+
 my @list = (2,5,8,1);
 #my @list = (3);
+
 say "Input: (" ~ join(",",@list) ~ ')';
 @list = sort @list;
 my $gap = 0;

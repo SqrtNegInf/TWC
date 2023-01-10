@@ -9,13 +9,11 @@ sub max-gap (+@list) {
     andthen .elems
 }
 
-multi MAIN (Bool :test($)!) {
+#multi MAIN (Bool :test($)!) {
     use Test;
     is max-gap(2,5,8,1),2;
     is max-gap(3),0;
     done-testing;
-}
+##}
 
-multi MAIN (+@list) {
-    say max-gap @list
-}
+#multi MAIN (+@list) { say max-gap @list }

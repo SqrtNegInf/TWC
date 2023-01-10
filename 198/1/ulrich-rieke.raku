@@ -1,13 +1,6 @@
 #!/usr/bin/env raku
-use v6 ;
 
-say "Enter some integers, separated by a blank!" ;
-my $line = $*IN.get ;
-my @numbers = $line.split( /\s/ ).map( {.Int} ) ;
-if ( @numbers.elems < 2 ) {
-  say 0 ;
-}
-else {
+my @numbers = (2,5,8,1);
   my @sorted = @numbers.sort( { $^a <=> $^b } ) ;
   my $len = @sorted.elems ;
   my @differences ;
@@ -22,4 +15,3 @@ else {
       }
   }
   $count.say ;
-}

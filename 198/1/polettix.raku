@@ -1,5 +1,5 @@
 #!/usr/bin/env raku
-use v6;
+
 sub MAIN (*@args) {
    @args = 2, 5, 8, 1 unless @args;
    put max-gap(@args);

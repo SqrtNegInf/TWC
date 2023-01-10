@@ -1,6 +1,5 @@
 #!/usr/bin/env raku
 
-
 say &max-gap([2,5,8,1]); #2
 say &max-gap([3]); #0
 
