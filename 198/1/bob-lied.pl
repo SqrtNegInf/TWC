@@ -1,20 +1,4 @@
 #!/usr/bin/env perl
-# vim:set ts=4 sw=4 sts=4 et ai wm=0 nu:
-#=============================================================================
-# Perl Weekly Challenge Week 198, Task 1 Max Gap
-#=============================================================================
-# Copyright (c) 2023, Bob Lied
-#=============================================================================
-# You are given a list of integers, @list.
-# Write a script to find the total pairs in the sorted list where 2
-# consecutive elements has the max gap. If the list contains less then two
-# elements then return 0.
-#
-# Example 1 Input:  @list = (2,5,8,1) Output: 2
-# Since the sorted list (1,2,5,8) has 2 such pairs (2,5) and (5,8)
-#
-# Example 2 Input: @list = (3) Output: 0
-#=============================================================================
 
 use v5.36;
 
@@ -23,7 +7,7 @@ use List::Util qw/max/;
 
 use Getopt::Long;
 my $Verbose = 0;
-my $DoTest  = 0;
+my $DoTest  = 1;
 
 GetOptions("test" => \$DoTest, "verbose" => \$Verbose);
 exit(!runTest()) if $DoTest;

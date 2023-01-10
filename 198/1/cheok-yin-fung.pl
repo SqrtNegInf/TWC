@@ -1,6 +1,4 @@
 #!/usr/bin/env perl
-# The Weekly Challenge 198
-# Task 1 Max Gap
 
 use v5.30.0;
 use warnings;

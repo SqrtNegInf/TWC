@@ -1,0 +1,105 @@
+ 
+===> 198/1/adam-russell.pl <===
+1, 3, 5, 0, 0, 0
+1, 6, 4
+1, 2, 0, 0, 0
+ 
+===> 198/1/athanasius.pl <===
+Running the test suite
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ok 4 - Negatives
+1..4
+ 
+===> 198/1/bob-lied.pl <===
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ok 4 - Example 3
+1..4
+ 
+===> 198/1/cheok-yin-fung.pl <===
+1..3
+ok 1
+ok 2
+ok 3
+ 
+===> 198/1/colin-crain.pl <===
+input:  1 0 0 4 5 0 7
+output: 1 4 5 7 0 0 0
+ 
+===> 198/1/dave-jacoby.pl <===
+    Input:  @list = (1, 0, 3, 0, 0, 5)
+    Output: (1, 3, 5, 0, 0, 0)
+
+    Input:  @list = (1, 6, 4)
+    Output: (1, 6, 4)
+
+    Input:  @list = (0, 1, 0, 2, 0)
+    Output: (1, 2, 0, 0, 0)
+
+ 
+===> 198/1/deadmarshal.pl <===
+(1,3,5,0,0,0)
+(1,6,4)
+(1,2,0,0,0)
+ 
+===> 198/1/e-choroba.pl <===
+# Seeded srand with seed '1' from import arg.
+1..4
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ok 4 - Nothing but zeros
+ 
+===> 198/1/james-smith.pl <===
+ok 1
+ok 2
+ok 3
+ok 4
+1..4
+ 
+===> 198/1/jeanluc2020.pl <===
+(2, 5, 8, 1) returns 2
+(3) returns 0
+(1, 2, 3, 5, 7, 9, 13, 17) returns 2
+(1, 3, 7, 4, 9, 11) returns 1
+ 
+===> 198/1/laurent-rosenfeld.pl <===
+1 0 3 0 0 5 => 	1 3 5 0 0 0
+1 6 4 => 	1 6 4
+0 1 0 2 0 => 	1 2 0 0 0
+ 
+===> 198/1/perlboy1967.pl <===
+ok 1
+ok 2
+ok 3
+ok 4
+ok 5
+1..5
+ 
+===> 198/1/pip.pl <===
+(2,5,8,1) => 2;
+(3      ) => 0;
+(1,2,4,7) => 1;
+(0,3,6,8) => 2;
+(0,2,4,6) => 3;
+ 
+===> 198/1/polettix.pl <===
+2
+ 
+===> 198/1/roger-bell-west.pl <===
+1..3
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ 
+===> 198/1/solathian.pl <===
+(2, 5)(5, 8)
+(8, 20)
+0
+
+ 
+===> 198/1/steve-g-lynn.pl <===
+20

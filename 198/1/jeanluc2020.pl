@@ -1,27 +1,4 @@
 #!/usr/bin/env perl
-# https://theweeklychallenge.org/blog/perl-weekly-challenge-198/#TASK1
-#
-# You are given a list of integers, @list.
-#
-# Write a script to find the total pairs in the sorted list where 2 consecutive
-# elements has the max gap. If the list contains less then 2 elements then
-# return 0.
-#
-## Example 1
-##
-## Input:  @list = (2,5,8,1)
-## Output: 2
-##
-## Since the sorted list (1,2,5,8) has 2 such pairs (2,5) and (5,8)
-#
-## Example 2
-##
-## Input: @list = (3)
-## Output: 0
-#
-### This is a pretty straightforward problem. Let's just walk the array,
-### calculate the gap of 2 consecutive values, remember this instance, and in
-### the end display the value for the maximum of the gaps
 
 use strict;
 use warnings;
@@ -59,4 +36,3 @@ sub max_gap {
    # return the number of instances for the max gap
    return $gaps->{ max(keys %$gaps) };
 }
-

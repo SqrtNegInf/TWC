@@ -1,11 +1,7 @@
 #!/usr/bin/env perl
+
 use v5.36;
-##
-# You are given a list of integers, @list.
-# Write a script to find the total pairs in the 
-# sorted list where 2 consecutive elements has the max gap. 
-# If the list contains less then 2 elements then return 0.
-##
+
 sub largest_gap{
     my(@numbers) = @_;
     my $gap = -1;

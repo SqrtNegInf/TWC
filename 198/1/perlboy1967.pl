@@ -1,22 +1,5 @@
 #!/usr/bin/env perl
 
-=pod
-
-The Weekly Challenge - 197
-- https://theweeklychallenge.org/blog/perl-weekly-challenge-197/#TASK1
-
-Author: Niels 'PerlBoy' van Dijke
-
-Task 1: Max Gap
-Submitted by: Mohammad S Anwar
-
-You are given a list of integers, @list.
-
-Write a script to find the total pairs in the sorted list where 2 consecutive
-elements has the max gap. If the list contains less then 2 elements then return 0.
-
-=cut
-
 use v5.16;
 use common::sense;
 

@@ -57,22 +57,3 @@ for (0..$#input-1) {
 
 local $" = ',';
 say "output: ", join ', ', map { "($_->@*)" } @max;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# use Test::More;
-# 
-# is 
-# 
-# done_testing();

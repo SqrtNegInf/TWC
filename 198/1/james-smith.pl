@@ -4,7 +4,6 @@ use strict;
 use warnings;
 use feature qw(say);
 use Test::More;
-use Benchmark qw(cmpthese timethis);
 
 my @TESTS = (
   [ [2,5,8,1                         ], 2 ],
@@ -24,12 +23,6 @@ is( max_gap_sort(    @{$_->[0]} ), $_->[1] ) for @TESTS;
 is( max_gap_nosort(  @{$_->[0]} ), $_->[1] ) for @TESTS;
 is( max_gap_nosort_faster(  @{$_->[0]} ), $_->[1] ) for @TESTS;
 done_testing();
-
-cmpthese( -2, {
-  'sort'   => sub { max_gap_sort(   @{$_->[0]} ) for @TESTS }, # 1700/s
-  'nosort' => sub { max_gap_nosort( @{$_->[0]}) for @TESTS },  # 3535/s
-  'nosort_faster' => sub { max_gap_nosort_faster( @{$_->[0]}) for @TESTS },  # 3535/s
-} );
 
 sub max_gap_sort {
   return 0 unless $#_;
