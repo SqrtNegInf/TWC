@@ -4,7 +4,6 @@ use strict;
 use warnings;
 use feature qw(say);
 use Test::More;
-use Benchmark qw(cmpthese timethis);
 
 my @TESTS = (
   [       1,     0 ],
@@ -21,11 +20,6 @@ my @TESTS = (
 is( n_primes_compact( $_->[0] ), $_->[1] ) for @TESTS;
 is( n_primes_fast(    $_->[0] ), $_->[1] ) for @TESTS;
 done_testing();
-
-cmpthese( -10, {
-  'compact' => sub { n_primes_compact( $_->[0] ) for @TESTS },
-  'fast'    => sub { n_primes_fast(    $_->[0] ) for @TESTS },
-} );
 
 sub n_primes_compact { # for all tests 9.28 seconds
   return 0if(my$n=shift)<3;

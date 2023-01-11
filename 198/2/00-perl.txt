@@ -1,0 +1,116 @@
+ 
+===> 198/2/adam-russell.pl <===
+4
+6
+0
+9
+ 
+===> 198/2/athanasius.pl <===
+Running the test suite
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ok 4 - Example 4
+ok 5 - Large n
+ok 6 - Huge n
+1..6
+ 
+===> 198/2/colin-crain.pl <===
+6
+ok 1 - ex-1-mpu
+ok 2 - ex-2-mpu
+ok 3 - ex-3-mpu
+ok 4 - ex-1-sieve
+ok 5 - ex-2-sieve
+ok 6 - ex-3-sieve
+1..6
+ 
+===> 198/2/dave-jacoby.pl <===
+    Input:  $n = 10
+    Output: 4
+
+    Input:  $n = 15
+    Output: 6
+
+    Input:  $n = 1
+    Output: 0
+
+    Input:  $n = 25
+    Output: 9
+
+ 
+===> 198/2/james-smith.pl <===
+ok 1
+ok 2
+ok 3
+ok 4
+ok 5
+ok 6
+ok 7
+ok 8
+ok 9
+ok 10
+ok 11
+ok 12
+ok 13
+ok 14
+ok 15
+ok 16
+1..16
+ 
+===> 198/2/laurent-rosenfeld.pl <===
+10 	 => 4
+15 	 => 6
+1 	 => 0
+25 	 => 9
+ 
+===> 198/2/peter-campbell-smith.pl <===
+
+Input:  10
+Output: 4
+
+Input:  15
+Output: 6
+
+Input:  1
+Output: 0
+
+Input:  25
+Output: 9
+
+Input:  17
+Output: 6
+
+Input:  2
+Output: 0
+
+Input:  1000
+Output: 168
+
+Input:  1000000
+Output: 78498
+ 
+===> 198/2/polettix.pl <===
+4
+ 
+===> 198/2/roger-bell-west.pl <===
+1..4
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ok 4 - example 4
+ 
+===> 198/2/sgreen.pl <===
+25
+ 
+===> 198/2/solathian.pl <===
+The 4 primes which are less than 10 are: 2,3,5,7
+The 6 primes which are less than 15 are: 2,3,5,7,11,13
+0
+The 9 primes which are less than 25 are: 2,3,5,7,11,13,17,19,23
+ 
+===> 198/2/ulrich-rieke.pl <===
+25
+ 
+===> 198/2/wlmb.pl <===
+100 -> 25

@@ -30,4 +30,4 @@ sub main ($n) {
     say $count;
 }
 
-main( $ARGV[0] );
+main( 100 );

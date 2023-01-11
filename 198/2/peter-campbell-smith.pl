@@ -1,15 +1,8 @@
 #!/usr/bin/env perl
 
-# Peter Campbell Smith - 2023-02-03
-# PWC 198 task 2
-
 use v5.28;
 use utf8;
 use warnings;
-
-# Write a script to print the count of primes less than a given $n.
-
-# Blog: https://pjcs-pwc.blogspot.com/2023/01/mind-gap.html
 
 my (@tests, $test, @sieve, $output, $j);
 @tests = (10, 15, 1, 25, 17, 2, 1000, 1000000);

@@ -1,9 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
-##
-# You are given an integer $n > 0.
-# Write a script to print the count of primes less than $n.
-##
+
 use Math::Primality q/is_prime/;
 
 sub prime_count{

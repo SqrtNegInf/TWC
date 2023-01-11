@@ -18,5 +18,5 @@ sub isPrime {
   return 1 ;
 }
 
-my $number = $ARGV[0] ;
+my $number = 100 ;
 say scalar( grep { isPrime( $_ ) } (0..$number - 1 ) ) ;
