@@ -1,0 +1,7 @@
+[31m===[0mSORRY![31m===[0m Error while compiling /Users/dhoekman/PWC/048/2/ruben-westerberg.raku
+An exception occurred while evaluating a BEGIN
+at /Users/dhoekman/PWC/048/2/ruben-westerberg.raku:3
+Exception details:
+  not ok - disabled: does not work with moar-blead as of 2023.01-10
+    in code  at ruben-westerberg.raku line 3
+
