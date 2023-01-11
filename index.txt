@@ -414,8 +414,8 @@ Challenge titles and Rosetta-code correspondences (exact, and otherwise)
 197-2 Wiggle Sort
 198-1 Max Gap
 198-2 Prime Count                           P/Piprimes
-199-1
-199-2
+199-1 Good Pairs
+199-2 Good Triplets
 
 200-1
 200-2
