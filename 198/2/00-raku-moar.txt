@@ -1,0 +1,107 @@
+ 
+===> 198/2/2colours.raku <===
+25
+ 
+===> 198/2/arne-sommer.raku <===
+25
+ 
+===> 198/2/athanasius.raku <===
+Running the test suite
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ok 4 - Example 4
+ok 5 - Large n
+1..5
+ 
+===> 198/2/bruce-gray.raku <===
+1..15
+ok 1 - 1 : task2a
+ok 2 - 2 : task2a
+ok 3 - 3 : task2a
+ok 4 - 4 : task2a
+ok 5 - A230980 : task2a
+ok 6 - 1 : task2b
+ok 7 - 2 : task2b
+ok 8 - 3 : task2b
+ok 9 - 4 : task2b
+ok 10 - A230980 : task2b
+ok 11 - 1 : task2c
+ok 12 - 2 : task2c
+ok 13 - 3 : task2c
+ok 14 - 4 : task2c
+ok 15 - A230980 : task2c
+ 
+===> 198/2/carlos-oliveira.raku <===
+4
+6
+0
+9
+1
+ 
+===> 198/2/deadmarshal.raku <===
+4
+6
+0
+9
+ 
+===> 198/2/laurent-rosenfeld.raku <===
+10 	 => 4
+15 	 => 6
+1 	 => 0
+25 	 => 9
+ 
+===> 198/2/luca-ferrari.raku <===
+25
+ 
+===> 198/2/mark-anderson.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ok 4 - 
+ok 5 - 
+ok 6 - 
+ok 7 - 
+ok 8 - 
+ok 9 - 
+ 
+===> 198/2/polettix.raku <===
+25
+ 
+===> 198/2/rawleyfowler.raku <===
+25
+ 
+===> 198/2/robert-dicicco.raku <===
+Input: $n = 10
+Output: 4
+
+Input: $n = 15
+Output: 6
+
+Input: $n = 1
+Output: 0
+
+Input: $n = 25
+Output: 9
+
+ 
+===> 198/2/roger-bell-west.raku <===
+1..4
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ok 4 - example 4
+ 
+===> 198/2/ulrich-rieke.raku <===
+25
+ 
+===> 198/2/wambash.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ok 4 - 
+1..4
+ 
+===> 198/2/zapwai.raku <===
+Input: $n = 100
+Output: 25

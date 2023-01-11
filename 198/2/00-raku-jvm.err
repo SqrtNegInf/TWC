@@ -1,0 +1,14 @@
+[31m===[0mSORRY![31m===[0m Error while compiling /Users/dhoekman/PWC/198/2/bruce-gray.raku
+An exception occurred while evaluating a BEGIN
+at /Users/dhoekman/PWC/198/2/bruce-gray.raku:3
+Exception details:
+  not ok - disabled: JVM cannot handle Perl5
+    in code  at bruce-gray.raku line 3
+
+[31m===[0mSORRY![31m===[0m Error while compiling /Users/dhoekman/PWC/198/2/deadmarshal.raku
+An exception occurred while evaluating a BEGIN
+at /Users/dhoekman/PWC/198/2/deadmarshal.raku:3
+Exception details:
+  not ok - disabled: JVM cannot handle Native module
+    in code  at deadmarshal.raku line 3
+

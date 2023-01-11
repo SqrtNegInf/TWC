@@ -1,7 +1,9 @@
 #!/usr/bin/env raku
+
 my $n;
-loop {
-    $n = prompt "Please enter a number (or (q)uit): ";
+
+#loop {
+    $n = 100;
     last if ($n eq 'q');
     redo unless ($n ~~ /^\d+$/);
     my $tot = 0;
@@ -10,7 +12,7 @@ loop {
     }
     say "Input: \$n = $n";
     say "Output: $tot";
-}
+#}
 my %primes;
 sub is_prime($n) {
     return True if %primes{$n};

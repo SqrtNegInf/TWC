@@ -1,2 +1,2 @@
 #!/usr/bin/env raku
-(^(+@*ARGS[0] || die 'Invalid number supplied')).grep(*.is-prime).elems.say;
+^100 .grep(*.is-prime).elems.say;

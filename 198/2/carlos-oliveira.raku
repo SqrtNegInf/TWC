@@ -1,4 +1,5 @@
 #!/usr/bin/env raku
+
 sub prime_count (Int $n) {
   return (2..$n).grep(&is-prime).elems;
 }

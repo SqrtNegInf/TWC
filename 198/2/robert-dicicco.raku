@@ -1,15 +1,5 @@
 #!/usr/bin/env raku
 
-#`{
-
-AUTHOR: Robert DiCicco
-
-DATE  : 2023-01-02
-
-Challenge 198 Prime Count ( Raku )
-
-}
-
  
 
 my @arr = [10,15,1,25];
@@ -33,33 +23,5 @@ for (@arr) -> $n {
                 }
 
                 print "Output: $cnt\n\n";
-
-}
-
-#`{
-
-raku .\PrimeCount.rk
-
-Input: $n = 10
-
-Output: 4
-
- 
-
-Input: $n = 15
-
-Output: 6
-
- 
-
-Input: $n = 1
-
-Output: 0
-
- 
-
-Input: $n = 25
-
-Output: 9
 
 }

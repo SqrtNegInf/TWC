@@ -1,6 +1,5 @@
 #!/usr/bin/env raku
-use v6 ;
 
-sub MAIN( Int $number ) {
+sub MAIN( Int $number = 100) {
   say (0..^$number).grep( {.is-prime} ).elems ;
 }

@@ -1,4 +1,7 @@
 #!/usr/bin/env raku
+
+BEGIN die 'not ok - disabled: JVM cannot handle Perl5' if $*VM ~~ /jvm/;
+
 sub task2a ( UInt $n --> UInt ) { return +grep &is-prime, ^$n }
 sub task2b ( UInt $n --> UInt ) {
     constant @A230980 = [\+] map +*.is-prime, ^Inf;
