@@ -45,6 +45,9 @@ ok 15 - A230980 : task2c
 0
 9
  
+===> 198/2/feng-chang.raku <===
+25
+ 
 ===> 198/2/laurent-rosenfeld.raku <===
 10 	 => 4
 15 	 => 6
