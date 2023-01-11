@@ -1,21 +1,22 @@
  
 ===> 042/2/arne-sommer.raku <===
-()(()( - NOT OK
-))((( - NOT OK
-())(() - NOT OK
-))((( - NOT OK
-((((( - NOT OK
+())))( - NOT OK
+))(()( - NOT OK
+)( - NOT OK
+)())( - NOT OK
+(( - NOT OK
+))(()) - NOT OK
+(()) - OK
 ()()( - NOT OK
 (() - NOT OK
 )( - NOT OK
-())()( - NOT OK
-()())) - NOT OK
  
 ===> 042/2/burkhard-nickels.raku <===
 ch-2.p6 (Version 1.0) PWC #42 Task #2: Balanced Brackets
 )())) - NOT OK
-((()()())( - NOT OK
-( - NOT OK
+((((()()(( - NOT OK
+)((()() - NOT OK
+))((( - NOT OK
 ())(()(() - NOT OK
 )(()))((( - NOT OK
 ))(((( - NOT OK
@@ -23,16 +24,10 @@ ch-2.p6 (Version 1.0) PWC #42 Task #2: Balanced Brackets
 () - OK
  
 ===> 042/2/colin-crain.raku <===
-start: ))())()
+start: (()())))(
 val: IMBALANCED - odd number of parens
  
 ===> 042/2/daniel-mita.raku <===
-(
-(
-)
-)
-(
-)
 )
 close before open
  
@@ -43,17 +38,19 @@ ok 3 - )( is bad
 ok 4 - ())() is bad
  
 ===> 042/2/jaldhar-h-vyas.raku <===
-())) - NOT OK
+()()() - OK
  
 ===> 042/2/javier-luque.raku <===
-(( - NOT OK
+)))) - NOT OK
+)( - NOT OK
 () - OK 
-(((( - NOT OK
-() - OK 
-(( - NOT OK
-)() - NOT OK
+((( - NOT OK
+())( - NOT OK
+((( - NOT OK
+)(( - NOT OK
+)) - NOT OK
 ))) - NOT OK
-() - OK 
+)(() - NOT OK
 (() - NOT OK
 ()) - NOT OK
 )) - NOT OK
@@ -64,8 +61,6 @@ ok 4 - ())() is bad
 ())( - NOT OK
 ))(( - NOT OK
 )) - NOT OK
-)() - NOT OK
-(( - NOT OK
  
 ===> 042/2/kevin-colyer.raku <===
 ok 1 - test matching
@@ -125,7 +120,10 @@ ok 7 - test nested matching with alternate chars
 (())  - True
 )(    - False
 ())() - False
-)))) is not balanced.
+)()) is not balanced.
+))() is not balanced.
+)((( is not balanced.
+(((( is not balanced.
 )))) is not balanced.
 )(() is not balanced.
 )()) is not balanced.
@@ -142,9 +140,6 @@ ok 7 - test nested matching with alternate chars
 ())) is not balanced.
 )))( is not balanced.
 )()) is not balanced.
-())( is not balanced.
-)((( is not balanced.
-(()) is balanced.
  
 ===> 042/2/roger-bell-west.raku <===
 (()(
@@ -152,46 +147,46 @@ Invalid: ((
  
 ===> 042/2/ruben-westerberg.raku <===
 unbalanced: )
-unbalanced: ()((((
+unbalanced: ))))(
+unbalanced: )())(
+unbalanced: ((
 balanced: ()()()
 unbalanced: )))))
 unbalanced: ())
 unbalanced: )()
 unbalanced: )
 unbalanced: )))
-balanced: ()
-unbalanced: )(((
  
 ===> 042/2/ryan-thompson.raku <===
 0 length - OK
-)( - NOT OK
-() - OK
 () - OK
 () - OK
 )( - NOT OK
+)( - NOT OK
+() - OK
 )()( - NOT OK
 (()) - OK
-())( - NOT OK
+(()) - OK
 )()( - NOT OK
-())( - NOT OK
+(()) - OK
+(()))( - NOT OK
+)(())( - NOT OK
 ((())) - OK
 )(()() - NOT OK
 )(())( - NOT OK
-((())) - OK
-())(() - NOT OK
-()(()))( - NOT OK
-)(()()() - NOT OK
+((()))() - OK
+)((())() - NOT OK
 ()())(() - NOT OK
-)(())(() - NOT OK
-(()())() - OK
-)))((()()( - NOT OK
-(()(())()) - OK
-()(())(()) - OK
-())()((()) - NOT OK
-))((((())) - NOT OK
+)))()((( - NOT OK
+(()))(() - NOT OK
+))((())()( - NOT OK
+)(()()))(( - NOT OK
+()(()(())) - OK
+()()())()( - NOT OK
+))(()()()( - NOT OK
  
 ===> 042/2/simon-proctor.raku <===
-String to test ())(()))()()
+String to test )())(()()(
 Balanced? False
  
 ===> 042/2/stuart-little.raku <===
