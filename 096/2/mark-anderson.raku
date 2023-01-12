@@ -1,6 +1,4 @@
-#!/usr/bin/env raku # do-not-check
-
-BEGIN die 'not ok - disabled: does not work with release 2022.12';
+#!/usr/bin/env raku
 
 multi MAIN(Str:D $s, Str:D $t)
 {
@@ -26,8 +24,11 @@ sub levenshtein-distance(Str:D $s, Str:D $t --> Int:D)
 
     @d.head = [^$m];
 
-    @d.map: { .head = $++ }         # not with v2022.12-781-g665375bab
-   #@d[$_].head = $_ for ^@d.elems; # fails same way
+   #@d.map: { .head = $++ }         # not with v2022.12-781-g665375bab
+   #@d[$_].head = $_ for ^@d.elems; #               "
+    @d[$_][0] = $_ for ^@d.elems;   # work-around
+   #dd @d; sleep 100;
+
 #`{
   @d = [
     [0, 1, 2, 3, 4, 5, 6], 

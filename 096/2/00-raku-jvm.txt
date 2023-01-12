@@ -50,6 +50,11 @@ Output: 2
 Computing distance between 'kitten' and 'sitting' ==> 3
  
 ===> 096/2/mark-anderson.raku <===
+1..4
+ok 1 - kitten   -> sitting = 3
+ok 2 - sunday   -> monday  = 2
+ok 3 - saturday -> sunday  = 3
+ok 4 - abxcd    -> abcd    = 1
  
 ===> 096/2/mimosinnet.raku <===
 ok 1 - 
