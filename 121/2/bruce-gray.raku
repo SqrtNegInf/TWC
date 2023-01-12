@@ -1,6 +1,4 @@
-#!/usr/bin/env raku # do-not-check
-
-BEGIN die 'not ok - disabled: does not work with release 2022.12';
+#!/usr/bin/env raku
 
 # Travelling Salesman Problem - British Museum algorithm
 sub tsp_short ( @G ) {
@@ -65,5 +63,5 @@ my @tests =
     ),
 
 ;
-say .&tsp_short for @tests.head;
+say .&tsp_short for @tests; # .head;??
 say .&tsp for @tests;
