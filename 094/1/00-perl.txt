@@ -62,9 +62,9 @@ ok 2
 1..2
  
 ===> 094/1/nunovieira220.pl <===
+saw was
 opt pot top
 bat tab
-saw was
  
 ===> 094/1/perlboy1967.pl <===
 -------------------------------------------
