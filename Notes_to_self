@@ -1,3 +1,7 @@
+2023-01-13
+'094/1/nunovieira220.pl' gave results out-of-order.
+Something was very off with previous 198/1/*pl results.
+
 2023-01-11
 '048/2/ruben-westerberg.raku' was at fault, removed from testing.
 
