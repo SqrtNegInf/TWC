@@ -1,10 +1,7 @@
 #!/usr/bin/env perl
+
 use v5.36;
-##
-# You are given a list of integers, @list.
-# Write a script to find the total count of Good Pairs.
-# A pair (i, j) is called good if list[i] == list[j] and i < j.
-##
+
 sub good_pairs{
     my(@numbers) = @_;
     my @pairs;  

@@ -1,16 +1,8 @@
 #!/usr/bin/env perl
 
-# Peter Campbell Smith - 2023-01-09
-# PWC 199 task 1
-
 use v5.28;
 use utf8;
 use warnings;
-
-# You are given a list of integers, @list. Write a script to find the total count of Good Pairs. 
-# A pair (i, j) is called good if list[i] == list[j] and i < j.
-
-# Blog: https://pjcs-pwc.blogspot.com/2023/01/all-good-things.html
 
 my (@tests, $test, @list, $i, $j, $count, $rubric);
 @tests = ([1, 2, 3, 1, 1, 3], [1, 2, 3], [1, 1, 1, 1], [1, 3, 5, 7, 9, 1, 3, 5, 7, 9, 1]);

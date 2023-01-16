@@ -1,23 +1,5 @@
 #!/usr/bin/env perl
 
-=pod
-
-The Weekly Challenge - 199
-- https://theweeklychallenge.org/blog/perl-weekly-challenge-199/#TASK1
-
-Author: Niels 'PerlBoy' van Dijke
-
-Task 1: Good Pairs
-Submitted by: Mohammad S Anwar
-
-You are given a list of integers, @list.
-
-Write a script to find the total count of Good Pairs.
-
-|| A pair (i, j) is called good if list[i] == list[j] and i < j.
-
-=cut
-
 use v5.16;
 use common::sense;
 
