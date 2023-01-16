@@ -1,6 +1,7 @@
 #!/usr/bin/env raku
 
-sub MAIN(*@list) {
+#sub MAIN(*@list) {
+my @list = (1,2,3,1,2,3);
     my @goodpairs;
 
     for 0 .. @list.end -> $i {
@@ -12,4 +13,4 @@ sub MAIN(*@list) {
     }
 
     @goodpairs.elems.say;
-}
+#}

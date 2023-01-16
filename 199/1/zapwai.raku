@@ -1,7 +1,10 @@
 #!/usr/bin/env raku
+
 my @list = (1,2,3,1,1,3);
+
 #my @list=(1,2,3);
 say "Input: (" ~ join(",", @list) ~ ")";
+
 my $cnt = 0 ;
 my $str;
 loop (my $this = 0; $this < @list.elems - 1; $this++) {

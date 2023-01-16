@@ -1,17 +1,4 @@
 #!/usr/bin/env raku
-use v6;
-
-#`{
-
-AUTHOR: Robert DiCicco
-
-DATE  : 2023-01-09
-
-Challenge 199 Good Pairs ( Raku )
-
-}
-
- 
 
 my @lists = ([1,2,3,1,1,3],[1,2,3],[1,1,1,1]);
 

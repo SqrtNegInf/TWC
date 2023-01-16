@@ -1,9 +1,7 @@
 #!/usr/bin/env raku
 
-# Perl Weekly Challenge 199
-
-sub MAIN( Bool :$verbose = False,
-	*@list where { @list.grep( * ~~ Int ).elems == @list.elems } ) {
+sub MAIN(
+	@list where { @list.grep( * ~~ Int ).elems == @list.elems } = (1,2,3,1,2,3) ) {
     my @pair-indexes;
     for 0 ..^ @list.elems - 1 -> $i {
 	for $i + 1 ..^ @list.elems -> $j {
@@ -12,5 +10,5 @@ sub MAIN( Bool :$verbose = False,
     }
 
     @pair-indexes.elems.say;
-    @pair-indexes.map( { 'Idexes ' ~ $_[0] ~ ',' ~ $_[1] ~ ' refer to equal elements ' ~ $_[2] ~ ',' ~ $_[3] } ).join( "\n" ).say if $verbose;
+#    @pair-indexes.map( { 'Idexes ' ~ $_[0] ~ ',' ~ $_[1] ~ ' refer to equal elements ' ~ $_[2] ~ ',' ~ $_[3] } ).join( "\n" ).say if $verbose;
 }

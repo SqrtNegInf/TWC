@@ -1,7 +1,6 @@
 #!/usr/bin/env raku
 use Test;
 
-
 sub good-pairs (Int:D @integers --> List:D[Int:D]) {
   my $list-end = @integers.end;
   my @pairs;

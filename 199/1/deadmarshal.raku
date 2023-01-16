@@ -1,11 +1,9 @@
 #!/usr/bin/env raku
-sub good-pairs(@arr)
-{
+
+sub good-pairs(@arr) {
   my $count = 0;
-  for 0..@arr.end -> $i
-  {
-    for $i+1..@arr.end -> $j
-    {
+  for 0..@arr.end -> $i {
+    for $i+1..@arr.end -> $j {
       $count++ if (@arr[$i] == @arr[$j]);
     }
   }

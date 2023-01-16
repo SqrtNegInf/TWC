@@ -7,14 +7,12 @@ sub good-pairs (+@list) {
    andthen .sum
 }
 
-multi MAIN (Bool :test($)!) {
+#multi MAIN (Bool :test($)!) {
     use Test;
     is good-pairs(1,2,3,1,1,3),4;
     is good-pairs(1,2,3),0;
     is good-pairs(1,1,1,1),6;
     done-testing;
-}
+#}
 
-multi MAIN (*@list) {
-    say good-pairs @list
-}
+#multi MAIN (*@list) { say good-pairs @list }

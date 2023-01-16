@@ -1,4 +1,5 @@
 #!/usr/bin/env raku
+
 sub count_good_pairs (@in) {
     my $cnt = 0;
     for 0..^@in.end -> $i {

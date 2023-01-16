@@ -1,6 +1,8 @@
 #!/usr/bin/env raku
-my @lst = @*ARGS[0].split: /\s/;
-die 'No list provided' unless @lst.elems > 0;
+
+#my @lst = @*ARGS[0].split: /\s/;
+#die 'No list provided' unless @lst.elems > 0;
+my @lst = (1,2,3,1,2,3);
 
 loop (my $i = 0; $i < @lst.elems; $i++) {
   state $count = 0;
