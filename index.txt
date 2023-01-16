@@ -417,8 +417,8 @@ Challenge titles and Rosetta-code correspondences (exact, and otherwise)
 199-1 Good Pairs
 199-2 Good Triplets
 
-200-1
-200-2
+200-1 Arithmetic Slices
+200-2 Seven-Segment 200
 201-1
 201-2
 202-1
