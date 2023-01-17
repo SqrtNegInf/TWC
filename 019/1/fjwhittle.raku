@@ -1,6 +1,6 @@
 #!/usr/bin/env raku # do-not-check
 
-# segfaults with grep/excess data bug
+# segfaults on grep (GH5160)
 BEGIN die 'not ok - disabled: does not work with release 2022.12';
 
 my enum Month «:1January February March April May June July August September October November December»;
