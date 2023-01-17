@@ -1,13 +1,9 @@
 #!/usr/bin/env perl
 
 use v5.36;
-use builtin 'indexed';
-no warnings builtin::indexed;
-
-# Challange 199 - 2 - Good Triplets
-# You are given an array of integers, @array and three integers $x,$y,$z.
-# Write a script to find out total Good Triplets in the given array.
-# A triplet array[i], array[j], array[k] is good if it satisfies the following conditions:
+use experimental qw/for_list/;
+use builtin qw/indexed/;
+no warnings 'experimental::builtin';
 
 goodTriplets([3,0,1,1,9,7], 7, 2, 3);   # 4
 goodTriplets([1,1,2,2,3],   0, 0, 1);   # 0

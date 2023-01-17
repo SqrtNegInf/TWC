@@ -7,7 +7,7 @@ use experimental 'signatures';
 
 use Algorithm::Combinatorics 'combinations';
 
-sub main (@array) {
+my @array = (7,2,3,3,0,1,1,9,7);
     # Get the x, y, and z values from the input
     my ( $x, $y, $z ) = splice( @array, -3 );
 
@@ -28,8 +28,4 @@ sub main (@array) {
         }
     }
 
-    # Display the output
     say $count;
-}
-
-main(@ARGV);

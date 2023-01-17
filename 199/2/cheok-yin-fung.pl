@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-# The Weekly Challenge 199
-# Task 2 Good Triplets
+
 use v5.30.0;
 use warnings;
 

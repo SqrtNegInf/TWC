@@ -1,14 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
-##
-# You are given an array of integers, @array and three integers $x,$y,$z.
-# Write a script to find out total Good Triplets in the given array.
-# A triplet array[i], array[j], array[k] is good if it satisfies the following conditions:
-#    a) 0 <= i < j < k <= n (size of given array)
-#    b) abs(array[i] - array[j]) <= x
-#    c) abs(array[j] - array[k]) <= y
-#    d) abs(array[i] - array[k]) <= z
-##
+
 use Math::Combinatorics;
 sub good_triplets{
     my($numbers, $x, $y, $z) = @_;

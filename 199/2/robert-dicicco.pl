@@ -1,28 +1,10 @@
 #!/usr/bin/env perl
-
-=begin
-
-AUTHOR: Robert DiCicco
-
-DATE  : 2023-01-12
-
-Challenge 199 Good Triplets ( Perl )
-
-=cut
-
 use strict;
-
 use warnings;
-
 use Algorithm::Permute;
-
 use List::MoreUtils qw/indexes/;
 
- 
-
 my %seen = ();
-
- 
 
 my @list = (3,0,1,1,9,7);
 
@@ -32,25 +14,12 @@ my $y = 2;
 
 my $z = 3;
 
- 
-
-# my @list = (1,1,2,2,3);
-
-# my $x = 0;
-
-# my $y = 0;
-
-# my $z = 1;
-
- 
-
- 
 
 my $anchor = 0;
 
 my $cnt = 0;
 
- 
+
 
 sub TestArray {
 
@@ -103,17 +72,3 @@ while (my @res = $p->next) {
                 }
 
 }
-
-=begin
-
-SAMPLE OUTPUT
-
-perl .\GoodTriplets.pl
-
-0, 1, 1
-
-3, 1, 1
-
-3, 0, 1
-
-=cut

@@ -1,4 +1,7 @@
 #!/usr/bin/env perl
+
+use v5.36;
+
 sub count_good_triplets {
     my @in = @{$_[0]};
     my ($x, $y, $z) = @{$_[1]};

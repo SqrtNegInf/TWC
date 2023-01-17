@@ -1,10 +1,9 @@
 #!/usr/bin/env perl
 
 use strict;
-use warnings;
+#use sayings;
 use feature qw(say);
 use Test::More;
-use Benchmark qw(cmpthese timethis);
 
 my @TESTS = (
   [ [3,0,1,1,9,7],                  [7,2,3],  4 ],
@@ -15,23 +14,14 @@ my @TESTS = (
   [ [1..20,1..20,1..20,1..20,1..20],[12,2,7], 22550 ],
 );
 
-warn "naive"; is( good_triples_naive(     @{$_->[1]}, @{$_->[0]}), $_->[2] ) foreach @TESTS;
-warn "opt  "; is( good_triples_opt(       @{$_->[1]}, @{$_->[0]}), $_->[2] ) foreach @TESTS;
-warn "copy 1";is( good_triples_copy_1(    @{$_->[1]}, @{$_->[0]}), $_->[2] ) foreach @TESTS;
-warn "range 1";is( good_triples_range_1(   @{$_->[1]}, @{$_->[0]}), $_->[2] ) foreach @TESTS;
-warn "copy 2";is( good_triples_copy_2(    @{$_->[1]}, @{$_->[0]}), $_->[2] ) foreach @TESTS;
-warn "range "; is( good_triples_range_2(   @{$_->[1]}, @{$_->[0]}), $_->[2] ) foreach @TESTS;
-warn "fastest"; is( good_triples_fastest(   @{$_->[1]}, @{$_->[0]}), $_->[2] ) foreach @TESTS;
+say "naive"; is( good_triples_naive(     @{$_->[1]}, @{$_->[0]}), $_->[2] ) foreach @TESTS;
+say "opt  "; is( good_triples_opt(       @{$_->[1]}, @{$_->[0]}), $_->[2] ) foreach @TESTS;
+say "copy 1";is( good_triples_copy_1(    @{$_->[1]}, @{$_->[0]}), $_->[2] ) foreach @TESTS;
+say "range 1";is( good_triples_range_1(   @{$_->[1]}, @{$_->[0]}), $_->[2] ) foreach @TESTS;
+say "copy 2";is( good_triples_copy_2(    @{$_->[1]}, @{$_->[0]}), $_->[2] ) foreach @TESTS;
+say "range "; is( good_triples_range_2(   @{$_->[1]}, @{$_->[0]}), $_->[2] ) foreach @TESTS;
+say "fastest"; is( good_triples_fastest(   @{$_->[1]}, @{$_->[0]}), $_->[2] ) foreach @TESTS;
 done_testing();
-cmpthese( -2, {
-  'naive'   => sub { good_triples_naive(     @{$_->[1]}, @{$_->[0]}) foreach @TESTS },
-  'opt'     => sub { good_triples_opt(       @{$_->[1]}, @{$_->[0]}) foreach @TESTS },
-  'copy_1'  => sub { good_triples_copy_1(    @{$_->[1]}, @{$_->[0]}) foreach @TESTS },
-  'range_1' => sub { good_triples_range_1(   @{$_->[1]}, @{$_->[0]}) foreach @TESTS },
-  'copy_2'  => sub { good_triples_copy_2(    @{$_->[1]}, @{$_->[0]}) foreach @TESTS },
-  'range_2' => sub { good_triples_range_2(   @{$_->[1]}, @{$_->[0]}) foreach @TESTS },
-  'fastest' => sub { good_triples_fastest(   @{$_->[1]}, @{$_->[0]}) foreach @TESTS },
-});
 
 sub good_triples_opt {
   my($c,$x,$y,$z)=(0,splice@_,0,3);
