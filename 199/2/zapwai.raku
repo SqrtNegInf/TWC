@@ -1,8 +1,10 @@
 #!/usr/bin/env raku
+
 my @list = (3,0,1,1,9,7);
 my ($x, $y, $z) = (7, 2, 3);
 my $cnt = 0;
 my $str;
+
 loop (my $i = 0; $i < @list.elems - 2; $i++) {
     loop (my $j = $i + 1; $j < @list.elems - 1; $j++) {
 	loop (my $k = $j + 1; $k < @list.elems; $k++) {

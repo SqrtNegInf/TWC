@@ -1,6 +1,6 @@
 #!/usr/bin/env raku
-use v6;
-sub MAIN ($x, $y, $z, *@list) { put good-triplets($x, $y, $z, @list) }
+
+sub MAIN ($x=7, $y=2, $z=3, @list = (3,0,1,1,9,7) ) { put good-triplets($x, $y, $z, @list) }
 
 sub good-triplets ($x, $y, $z, *@list) {
    return [+] gather for 0 .. (@list - 3) -> \i {

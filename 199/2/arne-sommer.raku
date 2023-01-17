@@ -1,6 +1,6 @@
 #!/usr/bin/env raku
 
-unit sub MAIN (Int $x, Int $y, Int $z, *@array where @array.elems > 0 && all(@array) ~~ /^<[0..9]>*$/, :v(:$verbose));
+unit sub MAIN (Int $x = 7, Int $y = 2, Int $z = 3, @array = (3,0,1,1,9,7), :v(:$verbose));
 
 my $triplets = 0;
 

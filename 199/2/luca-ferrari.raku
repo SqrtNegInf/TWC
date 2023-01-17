@@ -1,19 +1,11 @@
 #!/usr/bin/env raku
 
-# Perl Weekly Challenge 199
-
 sub MAIN(
-			   Int $x,
-			   Int $y,
-			   Int $z,
-			   Bool :$verbose = False,
-			   *@list where { @list.grep( * ~~ Int ).elems == @list.elems } ) {
+			   Int $x = 7,
+			   Int $y = 2,
+			   Int $z = 3,
+			   @list = (3,0,1,1,9,7) ) { 
 
-
-# a) 0 <= i < j < k <= n (size of given array)
-# b) abs(array[i] - array[j]) <= x
-# c) abs(array[j] - array[k]) <= y
-# d) abs(array[i] - array[k]) <= z
 
     my @triplets;
     for 0 ..^ @list.elems -> $i {

@@ -1,22 +1,6 @@
 #!/usr/bin/env raku
 
-#`{
-
-AUTHOR: Robert DiCicco
-
-DATE  : 2023-01-12
-
-Challenge 199 Good Triplets ( Raku )
-
-}
-
-use v6;
-
- 
-
 my %seen = ();
-
- 
 
 my @list = (3,0,1,1,9,7);
 
@@ -26,23 +10,7 @@ my $y = 2;
 
 my $z = 3;
 
- 
-
-# my @list = (1,1,2,2,3);
-
-# my $x = 0;
-
-# my $y = 0;
-
-# my $z = 1;
-
- 
-
- 
-
 my $cnt = 0;
-
- 
 
 sub TestArray(@arr) {
 
@@ -99,19 +67,5 @@ for @list.combinations: 3 -> @res {
                                 }
 
                 }
-
-}
-
-#`{
-
-SAMPLE OUTPUT
-
-raku .\GoodTriplets.rk
-
-3, 0, 1
-
-3, 1, 1
-
-0, 1, 1
 
 }

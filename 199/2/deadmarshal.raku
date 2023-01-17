@@ -1,14 +1,11 @@
 #!/usr/bin/env raku
-sub good-triplets(@A,$x,$y,$z)
-{
+
+sub good-triplets(@A,$x,$y,$z) {
   my $count = 0;
-  for 0..@A.end -> $i
-  {
-    for 0..@A.end -> $j
-    {
-      for 0..@A.end -> $k
-      {
-	if ((abs(@A[$i] - @A[$j]) <= $x) &&
+  for 0..@A.end -> $i {
+    for 0..@A.end -> $j {
+      for 0..@A.end -> $k {
+    	if ((abs(@A[$i] - @A[$j]) <= $x) &&
 	    (abs(@A[$j] - @A[$k]) <= $y) &&
 	    (abs(@A[$i] - @A[$k]) <= $z) &&
 	    (0 <= $i < $j < $k <= @A.elems)) {$count++}

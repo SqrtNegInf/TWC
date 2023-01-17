@@ -1,4 +1,5 @@
 #!/usr/bin/env raku
+
 sub count_good_triplets (@in, @xyz) {
     my $count = 0;
     my ($x, $y, $z) = @xyz;

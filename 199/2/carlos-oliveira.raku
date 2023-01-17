@@ -1,6 +1,6 @@
 #!/usr/bin/env raku
-use Test;
 
+use Test;
 
 sub good-triplets (Int:D @integers, Int:D :$x!, Int:D :$y!, Int:D :$z! --> List:D[Int:D]) {
   my $end = @integers.end;

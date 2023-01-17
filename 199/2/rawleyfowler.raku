@@ -1,6 +1,6 @@
 #!/usr/bin/env raku
-use v6;
-sub MAIN($lst, $x, $y, $z) {
+
+sub MAIN($lst = '3 0 1 1 9 7' , $x=7, $y=2, $z=3) {
   my @lst = $lst.split(/\s/) || die 'Bad list passed';
   my $n = @lst.elems - 1;
   my $count = 0;

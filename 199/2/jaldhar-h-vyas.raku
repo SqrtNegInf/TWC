@@ -1,8 +1,7 @@
 #!/usr/bin/env raku
 
 sub MAIN(
-    Int :$x, Int :$y, Int :$z, *@array
-    where { defined $x && defined $y && defined $z && @array.elems }
+    Int $x = 7, Int $y = 2, Int $z = 3, @array = (3,0,1,1,9,7) 
 ) {
     my @goodtriplets;
 

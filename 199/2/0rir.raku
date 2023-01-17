@@ -1,34 +1,6 @@
 #!/usr/bin/env raku
-# :vim ft=raku sw=4 expandtab  # 🦋 ∅ ≡ ∩ ≢ ∈ «␤»
-use v6.d;
+
 use Test;
-
-=begin comment
-199-2: Good Triplets            Submitted by: Mohammad S Anwar
-Given an array of integers, @array and three integers $x,$y,$z,
-find the total of Good Triplets in the given array.
-
-Array[i], array[j], and array[k] are a Good Triplet if they satisfies
-the following conditions:
-
-a) 0 <= i < j < k <= n (size of given array)
-b) abs(array[i] - array[j]) <= x
-c) abs(array[j] - array[k]) <= y
-d) abs(array[i] - array[k]) <= z
-
-Example 1
-Input: @array = (3,0,1,1,9,7) and $x = 7, $y = 2, $z = 3
-Output: 4
-
-Good Triplets are as below:
-(3,0,1) where (i=0, j=1, k=2)
-(3,0,1) where (i=0, j=1, k=3)
-(3,1,1) where (i=0, j=2, k=3)
-(0,1,1) where (i=1, j=2, k=3)
-Example 2
-Input: @array = (1,1,2,2,3) and $x = 0, $y = 0, $z = 1
-Output: 0
-=end comment
 
 sub ct-good-triplets( @array, :$x, :$y, :$z --> Int ) {
     my $return = 0;

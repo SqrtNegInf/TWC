@@ -1,4 +1,5 @@
 #!/usr/bin/env raku
+
 use v6.e.PREVIEW;
 
 sub good-triplet (+@ ($a,$b,$c),:$x!,:$y!,:$z!) {
@@ -16,14 +17,12 @@ sub good-triplets (+@list, :$x,:$y,:$z) {
     andthen .elems
 }
 
-multi MAIN (Bool :test($)!) {
+# multi MAIN (Bool :test($)!) {
     use Test;
     is good-triplet(3,0,1,   :7x:2y:3z),  True;
     is good-triplets(3,0,1,1,9,7,:7x:2y:3z), 4;
     is good-triplets(1,1,2,2,3, :0x:0y:1z),  0;
     done-testing;
-}
+#}
 
-multi MAIN (*@list, :$x,:$y,:$z) {
-    say good-triplets @list, :$x,:$y,:$z
-}
+#multi MAIN (*@list, :$x,:$y,:$z) { say good-triplets @list, :$x,:$y,:$z }
