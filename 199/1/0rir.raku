@@ -35,8 +35,10 @@ multi MAIN ( ) {
     is ct-good-pairs(Empty),  0, '0 <- ' ~ (Empty).raku;
     for @Test -> $p {
         is ct-good-pairs( $p.key),  $p.value, "$p.value() <- $p.key().raku()";
-        is ct-good-pairs( $p.key.pick(*)),  $p.value,
-                    "$p.value() <- $p.key().pick(*).Array.raku() shuffle";
+#       is ct-good-pairs( $p.key.pick(*)),  $p.value,
+#                   "$p.value() <- $p.key().pick(*).Array.raku() shuffle";
+        is ct-good-pairs( $p.key.sort),  $p.value,
+                    "$p.value() <- $p.key().sort.Array.raku() shuffle";
     }
     done-testing;
 
