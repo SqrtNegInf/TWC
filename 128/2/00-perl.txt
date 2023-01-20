@@ -97,10 +97,3 @@ At least 2 platforms at: 14:59 - 15:00
 Example 2:
 At least 3 platforms at: 12:20 - 12:40
 At least 2 platforms at: 11:10 - 12:50, 19:00 - 20:20
- 
-===> 128/2/wlmb.pl <===
-Arrivals: 10:20 11:00 11:10 12:20 16:20 19:00
-Departures: 10:30 13:20 12:40 12:50 20:20 21:20
-Output: 3 platforms
-Trains at station: [1 1 1 2 3 3 2 1 1 2 2 1]
-Events: Arrive Depart Arrive Arrive Arrive Depart Depart Depart Arrive Arrive Depart Depart 
