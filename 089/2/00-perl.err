@@ -1,3 +1,3 @@
 not ok - disabled: too slow at ./dave-jacoby.pl line 3.
-Odd number of elements in hash assignment at /usr/local/lib/perl5/site_perl/5.36.0/Memoize.pm line 37.
+Odd number of elements in hash assignment at /usr/local/lib/perl5/site_perl/5.36.0/Memoize.pm line 31.
 not ok - disabled: too slow at ./ulrich-rieke.pl line 3.
