@@ -1,0 +1,11 @@
+
+2023-01-21
+
+Output from 'dave-jacoby.pl' changed, DateTime::Calendar::Chinese
+
+     2022      Metal Ox
+<    2023      Water Tiger
+>    2023      Water Hare
+     2024      Water Hare
+
+Probably due to proximity to NY's date, maybe will flip again?

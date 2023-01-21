@@ -68,7 +68,7 @@ Fire Rooster
 	 2001 	 Metal Dragon
 	 2002 	 Metal Snake
 	 2003 	 Water Horse
-	 2004 	 Water Sheep
+	 2004 	 Wood Monkey
 	 2005 	 Wood Monkey
 	 2006 	 Wood Fowl
 	 2007 	 Fire Dog
@@ -87,7 +87,7 @@ Fire Rooster
 	 2020 	 Earth Pig
 	 2021 	 Metal Rat
 	 2022 	 Metal Ox
-	 2023 	 Water Tiger
+	 2023 	 Water Hare
 	 2024 	 Water Hare
 	 2025 	 Wood Dragon
 	 2026 	 Wood Snake
@@ -106,7 +106,7 @@ Fire Rooster
 	 2039 	 Earth Horse
 	 2040 	 Earth Sheep
 	 2041 	 Metal Monkey
-	 2042 	 Metal Fowl
+	 2042 	 Water Dog
 	 2043 	 Water Dog
  
 ===> 103/1/duncan-c-white.pl <===
