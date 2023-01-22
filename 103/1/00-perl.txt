@@ -57,7 +57,7 @@ Fire Rooster
 	 1990 	 Earth Snake
 	 1991 	 Metal Horse
 	 1992 	 Metal Sheep
-	 1993 	 Water Monkey
+	 1993 	 Water Fowl
 	 1994 	 Water Fowl
 	 1995 	 Wood Dog
 	 1996 	 Wood Pig
