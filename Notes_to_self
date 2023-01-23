@@ -1,3 +1,9 @@
+2023-01-23
+Changed yesterday, and again today. If it doesn't stop, drop it
+
+2023-01-21
+Output from 103/1/dave-jacoby.pl changed, likely a TZ issue when using  DateTime::Calendar::Chinese
+
 2023-01-16
 '013/1/ozzy.raku' failing, why here, why now?
 
