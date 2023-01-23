@@ -76,7 +76,7 @@ Fire Rooster
 	 2009 	 Earth Rat
 	 2010 	 Earth Ox
 	 2011 	 Metal Tiger
-	 2012 	 Metal Hare
+	 2012 	 Water Dragon
 	 2013 	 Water Dragon
 	 2014 	 Water Snake
 	 2015 	 Wood Horse
@@ -95,7 +95,7 @@ Fire Rooster
 	 2028 	 Fire Sheep
 	 2029 	 Earth Monkey
 	 2030 	 Earth Fowl
-	 2031 	 Metal Dog
+	 2031 	 Metal Pig
 	 2032 	 Metal Pig
 	 2033 	 Water Rat
 	 2034 	 Water Ox
