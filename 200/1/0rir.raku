@@ -1,31 +1,6 @@
 #!/usr/bin/env raku
-# :vim ft=raku sw=4 expandtab  # 🦋 ∅ ≡ ∩ ≢ ∈ «␤»
-use v6.d;
-use lib $?FILE.IO.parent(2).add("lib");
+
 use Test;
-
-=begin comment
-Task 1: Arithmetic Slices       Submitted by: Mohammad S Anwar
-
-Given an array of integers, find all Arithmetic Slices it contains.
-
-An integer array is called arithmetic if it has at least 3 elements and the
-differences between any three consecutive elements are the same.
-
-Example 1
-Input: @array = (1,2,3,4)
-Output: (1,2,3), (2,3,4), (1,2,3,4)
-Example 2
-Input: @array = (2)
-Output: () as no slice found.
-=end comment
-
-=begin interpretation
-Not finding anything that seems to authoritatively define an Arithmetic
-Slice.  I see 4 solutions:  Rising: 1,2,3,4,5.
-Falling: 4,3,2,1.  Both: which may have constraints re overlaps 1,2,3,4,3,2.
-And my choice absolute or Wavy: 1,2,1,2,3,2,3,2,1,2,3,4.
-=end interpretation
 
 
 constant MIN-LINKS = 3;

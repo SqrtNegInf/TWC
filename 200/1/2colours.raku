@@ -19,9 +19,9 @@ multi infix:<l?,>(Array $l, Pair $r) {
 }
 
 
-sub MAIN(Str $array) {
-  die 'Please supply a valid list of integers.' unless $array.subst(/\s/, '', :g) ~~ IntList;
-  my Int() @array = $<integer>;
+#sub MAIN(Str $array = ) {
+#  die 'Please supply a valid list of integers.' unless $array.subst(/\s/, '', :g) ~~ IntList;
+  my Int() @array = <9 1 2 3 4 4 3 2 1 9>;
   my @arithmetic-parts <==
     @array.skip Z- @array andthen
     [l?,] .pairs andthen
@@ -36,5 +36,5 @@ sub MAIN(Str $array) {
     }
   }
   @good-slices.map(*[].raku).join(', ').say;
-}
+#}
 

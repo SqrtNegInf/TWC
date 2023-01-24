@@ -1,13 +1,6 @@
 #!/usr/bin/env raku
 
-#
-# Perl Weekly Challenge 200
-# Task 1
-#
-# See <https://perlweeklychallenge.org/blog/perl-weekly-challenge-200/>
-#
-
-sub MAIN( *@list where { @list.elems == @list.grep( * ~~ Int ).elems } ) {
+sub MAIN( @list where { @list.elems == @list.grep( * ~~ Int ).elems } = <9 1 2 3 4 4 3 2 1 9> ) {
     my @slices;
 
     for 0 ^..^ @list.elems - 1 -> $center {

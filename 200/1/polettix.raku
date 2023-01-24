@@ -1,5 +1,5 @@
 #!/usr/bin/env raku
-use v6;
+
 sub MAIN (*@a) {
    put arithmetic-slices(@a ?? @a !! <1 2 3 4>)
       .map({ '(' ~ .join(',') ~ ')' }).join(', ');

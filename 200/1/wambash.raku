@@ -15,15 +15,13 @@ sub arithmetic-slices (+@list) {
    andthen .map: *.[0]».Int
 }
 
-multi MAIN (Bool :test($)!) {
+#multi MAIN (Bool :test($)!) {
     use Test;
     is-deeply arithmetic-slices(1,2,3,4),([1,2,3],[1,2,3,4],[2,3,4]);
     is-deeply arithmetic-slices(2),();
     is-deeply arithmetic-slices(1,2,3,5,7),([1,2,3],[3,5,7]);
     is-deeply arithmetic-slices(1,2,3,5,7,10,14,19,29,39),([1,2,3],[3,5,7],[19,29,39]);
     done-testing;
-}
+#}
 
-multi MAIN (+@list) {
-    say arithmetic-slices +@list
-}
+#multi MAIN (+@list) { say arithmetic-slices +@list }

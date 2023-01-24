@@ -1,25 +1,7 @@
 #!/usr/bin/env raku
-#/usr/bin/env raku
-
-=begin comment
-
-AUTHOR: Robert DiCicco
-
-DATE:   01-18-2023
-
-Challenge #200 Arithmetic Slices ( Raku )
-
-=end comment
-
-use v6;
-
- 
 
 my @out = ();
-
 my @lists = ([1,2,3,4],[2]);
-
- 
 
 sub GetIntervals(@slice) {
 
@@ -100,25 +82,3 @@ for (@lists) -> @list  {
                 print("\n");
 
 }
-
- 
-
- 
-
-=begin comment
-
-SAMPLE OUTPUT
-
-raku .\ArithmeticSlices.rk
-
-Input: @array = [1 2 3 4]
-
-Output: [1 2 3] [2 3 4] [1 2 3 4]
-
- 
-
-Input: @array = [2]
-
-Output: ()
-
-=end comment

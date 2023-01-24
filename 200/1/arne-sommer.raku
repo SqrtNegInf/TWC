@@ -1,6 +1,6 @@
 #!/usr/bin/env raku
 
-unit sub MAIN (*@array where @array.elems && all(@array) ~~ /^<[0..9]>*$/, :v(:$verbose));
+unit sub MAIN (@array where @array.elems && all(@array) ~~ /^<[0..9]>*$/ = <9 1 2 3 4 4 3 2 1 9>, :v(:$verbose));
 
 my @slices;
 

@@ -1,5 +1,4 @@
 #!/usr/bin/env raku
-use v6 ;
 
 sub myCondition( $array ) {
   my $len = $array.elems ;
@@ -11,9 +10,7 @@ sub myCondition( $array ) {
   return $set.elems == 1 ;
 }
 
-say "Please enter some numbers, separated by a blank!" ;
-my $line = $*IN.get ;
-my @numbers = $line.words.map( {.Int} ) ;
+my @numbers = <9 1 2 3 4 4 3 2 1 9>;
 my $len = @numbers.elems ;
 if ( $len < 3 ) {
   say "()" ;
