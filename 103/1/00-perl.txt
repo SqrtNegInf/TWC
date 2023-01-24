@@ -47,68 +47,6 @@ ok 24 - zodiac year 1964
  
 ===> 103/1/cristian-heredia.pl <===
 Fire Rooster 
-===> 103/1/dave-jacoby.pl <===
-	 1984 	 Water Pig
-	 1985 	 Wood Rat
-	 1986 	 Wood Ox
-	 1987 	 Fire Tiger
-	 1988 	 Fire Hare
-	 1989 	 Earth Dragon
-	 1990 	 Earth Snake
-	 1991 	 Metal Horse
-	 1992 	 Metal Sheep
-	 1993 	 Water Fowl
-	 1994 	 Water Fowl
-	 1995 	 Wood Dog
-	 1996 	 Wood Pig
-	 1997 	 Fire Rat
-	 1998 	 Fire Ox
-	 1999 	 Earth Tiger
-	 2000 	 Earth Hare
-	 2001 	 Metal Dragon
-	 2002 	 Metal Snake
-	 2003 	 Water Horse
-	 2004 	 Wood Monkey
-	 2005 	 Wood Monkey
-	 2006 	 Wood Fowl
-	 2007 	 Fire Dog
-	 2008 	 Fire Pig
-	 2009 	 Earth Rat
-	 2010 	 Earth Ox
-	 2011 	 Metal Tiger
-	 2012 	 Water Dragon
-	 2013 	 Water Dragon
-	 2014 	 Water Snake
-	 2015 	 Wood Horse
-	 2016 	 Wood Sheep
-	 2017 	 Fire Monkey
-	 2018 	 Fire Fowl
-	 2019 	 Earth Dog
-	 2020 	 Earth Pig
-	 2021 	 Metal Rat
-	 2022 	 Metal Ox
-	 2023 	 Water Hare
-	 2024 	 Water Hare
-	 2025 	 Wood Dragon
-	 2026 	 Wood Snake
-	 2027 	 Fire Horse
-	 2028 	 Fire Sheep
-	 2029 	 Earth Monkey
-	 2030 	 Earth Fowl
-	 2031 	 Metal Pig
-	 2032 	 Metal Pig
-	 2033 	 Water Rat
-	 2034 	 Water Ox
-	 2035 	 Wood Tiger
-	 2036 	 Wood Hare
-	 2037 	 Fire Dragon
-	 2038 	 Fire Snake
-	 2039 	 Earth Horse
-	 2040 	 Earth Sheep
-	 2041 	 Metal Monkey
-	 2042 	 Water Dog
-	 2043 	 Water Dog
- 
 ===> 103/1/duncan-c-white.pl <===
 Water Tiger
  
