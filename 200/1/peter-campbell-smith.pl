@@ -1,17 +1,8 @@
 #!/usr/bin/env perl
 
-# Peter Campbell Smith - 2023-01-16
-# PWC 200 task 1
-
 use v5.28;
 use utf8;
 use warnings;
-
-# Task: Write a script to find out all Arithmetic Slices for the given array of integers. An integer array is 
-# called arithmetic if it has at least 3 elements and the differences between any three consecutive elements 
-# are the same.
-
-# Blog: 
 
 my (@tests, $test, @array, $rubric, $j, @diff, $last_diff, $run_starts);
 

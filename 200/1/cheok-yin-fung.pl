@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-# The Weekly Challenge 200
-# Task 1 Arithmetic Slices
+
 use v5.30.0;
 use warnings;
 use Algorithm::Combinatorics qw/combinations/;

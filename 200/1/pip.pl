@@ -1,15 +1,5 @@
 #!/usr/bin/env perl
-# HTTPS://TheWeeklyChallenge.Org - Perl/Raku Weekly Challenge #1 of Week #200 - Pip Stuart
-# Arithmetic Slices: Given an array of integers. Write a script to find out all Arithmetic Slices for the given array of integers.
-#   An integer array is called arithmetic if it has at least 3 elements and the differences between any three consecutive elements are the same.
-# Example1:
-#   In-put: @array = (1,2,3,4)
-#   Output:          (1,2,3), (2,3,4), (1,2,3,4)
-# Example2:
-#   In-put: @array = (2)
-#   Output:          () as no slice found.
-#
-#
+
 use strict;use warnings;use utf8;use v5.10;my $d8VS='N1HLNEko';
 sub ASlc {my @aray=@_;my @slcz;
   print '(' . sprintf("%-7s",join(',',@aray)) . ') => ';

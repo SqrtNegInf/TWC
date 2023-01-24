@@ -4,11 +4,9 @@ use strict;
 use Data::Dumper qw(Dumper);
 use List::Util qw(sum);
 use Algorithm::Combinatorics qw(combinations);
+use feature 'say';
 
-print Dumper(arithmetic_slices(1,2,3,4,6,8,10));
-#[1,2,3],[1,2,3,4],[2,3,4],[4,6,8],[4,6,8,10],[6,8,10]
-print Dumper(arithmetic_slices(2)); # []
-
+say join ' ', @$_ for arithmetic_slices(1,2,3,4,6,8,10);
 
 sub arithmetic_slices {
     my (@arry) = @_;

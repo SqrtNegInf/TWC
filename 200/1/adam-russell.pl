@@ -1,9 +1,5 @@
 #!/usr/bin/env perl
 use v5.36;
-##
-# You are given an array of integers.
-# Write a script to find out all Arithmetic Slices for the given array of integers.
-##
 use boolean;
 
 sub is_arithmetic{

@@ -1,21 +1,4 @@
 #!/usr/bin/env perl
-# vim:set ts=4 sw=4 sts=4 et ai wm=0 nu:
-#=============================================================================
-# ch-1.pl Perl Weekly Challenge Week 200 Task 1 Arithmetic Slice
-#=============================================================================
-# Copyright (c) 2023, Bob Lied
-#=============================================================================
-# You are given an array of integers.
-# Write a script to find out all Arithmetic Slices for the given array of
-# integers.  An integer array is called arithmetic if it has at least 3
-# elements and the differences between any three consecutive elements are the same.
-#
-# Example 1 Input: @array = (1,2,3,4) Output: (1,2,3), (2,3,4), (1,2,3,4)
-# Example 2 Input: @array = (2) Output: () as no slice found.
-#
-# Example 1 implies that we should get every sub-slice of length at least 3
-# and that output order should have shorter sequences first
-#=============================================================================
 
 use v5.36;
 
@@ -23,12 +6,12 @@ use List::Util qw/all/;
 
 use Getopt::Long;
 my $Verbose = 0;
-my $DoTest  = 0;
+my $DoTest  = 1;
 
 use constant MINLENGTH => 3;
 
 GetOptions("test" => \$DoTest, "verbose" => \$Verbose);
-exit(!runTest()) if $DoTest;
+runTest() if $DoTest;
 
 die "All args should be numeric" unless all { $_ =~ m/-?\d+/ } @ARGV;
 

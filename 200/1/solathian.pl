@@ -1,18 +1,13 @@
 #!/usr/bin/env perl
 use v5.36;
 
+#use builtin 'indexed';
+#no warnings builtin::indexed;
+
 use builtin 'indexed';
-no warnings builtin::indexed;
+use experimental qw(builtin for_list);
 
-# Challange 200 - 1 - Arithmetic Slices
-# You are given an array of integers.
-
-# Write a script to find out all Arithmetic Slices for the given array of integers.
-
-# An integer array is called arithmetic if it has at least 3 elements and 
-# the differences between any three consecutive elements are the same.
-
-use Data::Dumper;
+#use Data::Dumper;
 
 arithmSlice(1,2,3,4);         # Output: (1,2,3), (2,3,4), (1,2,3,4)
 arithmSlice(1,2,3,4, 7);
