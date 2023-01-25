@@ -1,5 +1,5 @@
 [31m===[0mSORRY![31m===[0m Error while compiling /Users/dhoekman/PWC/048/2/ruben-westerberg.raku
-An exception occurred while evaluating a BEGIN
+An exception X::AdHoc occurred while evaluating a BEGIN: not ok - disabled: does not work with moar-blead as of 2023.01-10
 at /Users/dhoekman/PWC/048/2/ruben-westerberg.raku:3
 Exception details:
   not ok - disabled: does not work with moar-blead as of 2023.01-10

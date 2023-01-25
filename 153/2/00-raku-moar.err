@@ -1,5 +1,5 @@
 [31m===[0mSORRY![31m===[0m Error while compiling /Users/dhoekman/PWC/153/2/0rir.raku
-An exception occurred while evaluating a BEGIN
+An exception X::AdHoc occurred while evaluating a BEGIN: not ok - disabled: does not work with release 2022.12
 at /Users/dhoekman/PWC/153/2/0rir.raku:6
 Exception details:
   not ok - disabled: does not work with release 2022.12
