@@ -1,42 +1,4 @@
 #!/usr/bin/env perl
-# vim:set ts=4 sw=4 sts=4 et ai wm=0 nu:
-#=============================================================================
-# ch-2.pl Perl Weekly Challenge Week 200 Task 2 Seven Segment 200
-#=============================================================================
-# Copyright (c) 2023, Bob Lied
-#=============================================================================
-# A seven segment display is an electronic component, usually used to
-# display digits. The segments are labeled 'a' through 'g' as shown:
-#   
-#    --   <- a
-#  f|  |b
-#    --   <- g
-#  e|  |c
-#    --   <- d
-#
-# The encoding of each digit can be represented compactly as a truth table:
-# 
-# my @truth = qw<abcdef bc abdeg abcdg bcfg acdfg acdefg abc abcdefg abcfg>;
-# 
-# For example, $truth[1] = ‘bc’. The digit 1 would have segments ‘b’ and ‘c’
-# enabled.
-# 
-# Write a program that accepts any decimal number and draws that number
-# as # a horizontal sequence of ASCII seven segment displays, similar to
-# the # following:
-#
-# -------  -------  -------
-#       |  |     |  |     |
-#       |  |     |  |     |
-# -------
-# |        |     |  |     |
-# |        |     |  |     |
-# -------  -------  -------
-#
-# To qualify as a seven segment display, each segment must be drawn (or not
-# drawn) according to your @truth table.
-# The number "200" was of course chosen to celebrate our 200th week!
-#=============================================================================
 
 use v5.36;
 
@@ -74,9 +36,9 @@ my $Verbose = 0;
 my $DoTest  = 0;
 
 GetOptions("test" => \$DoTest, "verbose" => \$Verbose);
-exit(!runTest()) if $DoTest;
+#runTest(); exit; # DH testing was goofed
 
-displayAsSegment($_) for @ARGV;
+displayAsSegment($_) for <1 2 3 4>;
 
 sub displayAsSegment($str)
 {

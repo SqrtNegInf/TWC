@@ -1,7 +1,6 @@
 #!/usr/bin/env raku
-use v6 ;
 
-sub MAIN( Int $number is copy ) {
+sub MAIN( Int $number is copy = 200 ) {
   my @digits ;
   while ( $number != 0 ) {
       @digits.push( $number % 10 ) ;

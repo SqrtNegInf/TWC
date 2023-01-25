@@ -1,6 +1,7 @@
 #!/usr/bin/env raku
 # Generic; works for all 128 shapes of a..g .
 # Returns a 7 element list of 7-character strings.
+
 sub shape-to-segments ( $shape ) {
     sub h ($x) { $shape.contains($x) ?? '-' !! ' ' }
     sub v ($x) { $shape.contains($x) ?? '|' !! ' ' }

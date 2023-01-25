@@ -86,23 +86,15 @@ const my $USAGE            =>
 
     <decimal>    A non-negative integer\n";
 
-#------------------------------------------------------------------------------
-BEGIN
-#------------------------------------------------------------------------------
-{
-    $| = 1;
-    print "\nChallenge 200, Task #2: Seven Segment 200 (Perl)\n\n";
-}
-
 #==============================================================================
 MAIN:
 #==============================================================================
 {
-    my  $args = scalar @ARGV;
+    my  $args = 1; #scalar @ARGV;
 
     if ($args == 1)
     {
-        my $decimal =  $ARGV[ 0 ];
+        my $decimal =  200;
            $decimal =~ / ^ $RE{num}{int} $ /x
                 or error( qq["$_" is not a valid integer] );
 

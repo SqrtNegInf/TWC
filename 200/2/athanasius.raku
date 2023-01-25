@@ -1,5 +1,4 @@
 #!/usr/bin/env raku
-use v6d;
 
 ###############################################################################
 =begin comment
@@ -78,17 +77,10 @@ my UInt constant $MAX-LINE-WIDTH   = $SCREEN-WIDTH -
 my      constant @TRUTH-TABLE      = Array[Str].new:
                  < abcdef bc abdeg abcdg bcfg acdfg acdefg abc abcdefg abcfg >;
 
-#------------------------------------------------------------------------------
-BEGIN
-#------------------------------------------------------------------------------
-{
-    "\nChallenge 200, Task #2: Seven Segment 200 (Raku)\n".put;
-}
-
 #==============================================================================
 sub MAIN
 (
-    UInt:D $decimal                 #= A non-negative integer
+    UInt:D $decimal  = 1234567890              #= A non-negative integer
 )
 #==============================================================================
 {

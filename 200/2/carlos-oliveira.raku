@@ -1,4 +1,5 @@
 #!/usr/bin/env raku
+
 sub draw-number-as-ascii (Int:D $number) {
   my @encodings = $number.comb.map({
     given $_ {
@@ -34,6 +35,5 @@ sub draw-number-as-ascii (Int:D $number) {
 }
 
 draw-number-as-ascii 200;
-draw-number-as-ascii 198;
 draw-number-as-ascii 987654321;
 draw-number-as-ascii 123456789;

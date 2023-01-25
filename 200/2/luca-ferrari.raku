@@ -1,12 +1,5 @@
 #!/usr/bin/env raku
 
-#
-# Perl Weekly Challenge 200
-# Task 2
-#
-# See <https://perlweeklychallenge.org/blog/perl-weekly-challenge-200/>
-#
-
 sub MAIN( Int $value = 200, Bool :$sign = False ) {
 
     my @sign = [

@@ -1,5 +1,5 @@
 #!/usr/bin/env raku
-use v6;
+
 sub MAIN ($number = 200) { put render-seven-segment($number) }
 
 sub render-seven-segment ($number) {

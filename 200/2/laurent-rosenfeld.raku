@@ -1,4 +1,5 @@
 #!/usr/bin/env raku
+
 my %c;                   # ascii coding of digit's slices
 %c<h> = "-" x 7;         # Horizontal line
 %c<l> = "|      ";       # Vertical bar, left
