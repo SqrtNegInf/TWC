@@ -54,4 +54,4 @@ sub main ($n) {
     }
 }
 
-main( $ARGV[0] )
+main( 1234 )

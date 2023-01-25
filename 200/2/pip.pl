@@ -1,23 +1,5 @@
 #!/usr/bin/env perl
-# HTTPS://TheWeeklyChallenge.Org - Perl/Raku Weekly Challenge #2 of Week #200 - Pip Stuart
-# Seven Segment 200: A seven segment display is an electronic component, usually used to display digits. The segments are labeled 'a' through 'g' as shown:
-# Seven Segment image with a starting top && bcdef wrapping around clockwise then g barring the middle.
-# The encoding of each digit can thus be represented compactly as a truth table:
-#   my @truth = qw<abcdef bc abdeg abcdg bcfg acdfg acdefg abc abcdefg abcfg>;
-#   For example, $truth[1] = ‘bc’. The digit 1 would have segments ‘b’ and ‘c’ enabled.
-# Write a program that accepts any decimal number and draws that number as a horizontal sequence of ASCII seven segment displays, similar to the following:
-#           -------  -------  -------
-#                 |  |     |  |     |
-#                 |  |     |  |     |
-#           -------                 # Note: 7-bit ASCII, 7-segment display, 7*7 text character cells
-#           |        |     |  |     |
-#           |        |     |  |     |
-#           -------  -------  -------
-# To qualify as a seven segment display, each segment must be drawn (or not drawn) according to your @truth table.
-# The number "200" was of course chosen to celebrate our 200th week!
-#   Last date to submit the solution 23:59 (UK Time) Sunday 22nd January 2023.
-#
-#
+
 use strict;use warnings;use utf8;use v5.10;my $d8VS='N1ILL1cG';
 sub Seg7 {my $iint=shift(@_);my @tout;
   my  @trth = qw<abcdef bc abdeg abcdg bcfg acdfg acdefg abc abcdefg abcfg>;

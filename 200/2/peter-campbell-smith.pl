@@ -1,16 +1,8 @@
 #!/usr/bin/env perl
 
-# Peter Campbell Smith - 2023-01-16
-# PWC 200 task 2
-
 use v5.28;
 use utf8;
 use warnings;
-
-# Task: Write a program that accepts any positive integer and draws that number as a horizontal sequence of
-# ASCII seven segment displays.
-
-# Blog: 
 
 my (@tests, @truth, $test, @digit, @display, $offset, $points, $row, $column, $segments, $segment);
 
