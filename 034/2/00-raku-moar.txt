@@ -4,10 +4,9 @@
 20
  
 ===> 034/2/jaldhar-h-vyas.raku <===
-A chose Rock.
+A chose Paper.
 B chose Paper.
-Paper covers Rock.  
-B wins.
+It's a draw.
  
 ===> 034/2/javier-luque.raku <===
  
