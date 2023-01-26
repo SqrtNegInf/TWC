@@ -1,5 +1,11 @@
+2023-01-26
+Many tasks got hit with 'srand' change, ozzy.raku persists with odd result.
+
+2023-01-25
+013/1/ozzy.raku again: output truncated to just one line?  Code similar to that of GH5160...
+
 2023-01-23
-Changed yesterday, and again today. If it doesn't stop, drop it
+Changed yesterday, and again today. If it doesn't stop, drop it (p.s. it changed, was dropped)
 
 2023-01-21
 Output from 103/1/dave-jacoby.pl changed, likely a TZ issue when using  DateTime::Calendar::Chinese
