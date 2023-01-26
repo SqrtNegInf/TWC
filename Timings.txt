@@ -14,3 +14,4 @@ Stats on 'PWC-rerun':
 2022-10-26 001-187            44:43 total (perl,moar: user:232m 0s sys:27m59s)
 2022-11-28 001-192            46:41 total (perl,moar: user:235m 0s sys:29m52s)
 2022-12-25 001-195            46:41 total (perl,moar: user:238m48s sys:30m26s)
+2023-01-26 001-200            53:34 total (perl,moar: user 268m22s sys:34m41s)
