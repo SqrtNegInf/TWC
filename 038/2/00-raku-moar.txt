@@ -154,7 +154,7 @@ PLEA   : 8
 Winner: KEMP for 20
  
 ===> 038/2/jaldhar-h-vyas.raku <===
-DUPBIIT = PUTID (13)
+XPBIITG = BITI (11)
  
 ===> 038/2/javier-luque.raku <===
 Picked tiles: P A L K M E N
