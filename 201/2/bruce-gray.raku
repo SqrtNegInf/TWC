@@ -17,8 +17,8 @@ constant @PartitionsP = 1, -> *@P {
 sub task2 ( UInt $n ) { return @PartitionsP[$n] }
 
 
-multi sub MAIN ( Bool :$OEIS ) { say "$_ {.&task2}" for 0..10_000 }
-multi sub MAIN ( UInt $n     ) { say task2($n) }
+#multi sub MAIN ( Bool :$OEIS ) { say "$_ {.&task2}" for 0..10_000 }
+#multi sub MAIN ( UInt $n     ) { say task2($n) }
 multi sub MAIN ( Bool :$test ) {
     use Test;
     plan 3;

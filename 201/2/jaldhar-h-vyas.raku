@@ -35,7 +35,7 @@ sub partitions(Int $n) {
 }
 
 sub MAIN(
-    Int $n where { $n > 0; } #= an integer greater than zero
+    Int $n where { $n > 0; } = 5
 ) {
     say partitions($n).elems;
 }

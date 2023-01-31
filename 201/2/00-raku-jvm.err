@@ -1,0 +1,42 @@
+Exception in thread "main" org.raku.nqp.runtime.UnwindException
+	at org.raku.nqp.runtime.ThreadContext.<init>(ThreadContext.java:127)
+	at org.raku.nqp.runtime.GlobalContext.getCurrentThreadContext(GlobalContext.java:348)
+	at org.raku.nqp.runtime.GlobalContext.<init>(GlobalContext.java:253)
+	at org.raku.nqp.runtime.CompilationUnit.enterFromMain(CompilationUnit.java:56)
+	at perl6.main(gen/jvm/rakudo.nqp)
+[31m===[0mSORRY![31m===[0m Error while compiling /Users/dhoekman/PWC/201/2/deadmarshal.raku
+Could not find Math::Combinatorics in:
+    /Users/dhoekman/PWC/201/2/lib
+    /Users/dhoekman/.raku
+    /Users/dhoekman/.rakubrew/versions/jvm-2022.07/install/share/perl6/site
+    /Users/dhoekman/.rakubrew/versions/jvm-2022.07/install/share/perl6/vendor
+    /Users/dhoekman/.rakubrew/versions/jvm-2022.07/install/share/perl6/core
+    CompUnit::Repository::AbsolutePath<630351494>
+    CompUnit::Repository::NQP<1754478282>
+    CompUnit::Repository::Perl5<1928204491>
+    CompUnit::Repository::JavaRuntime<1941842193>
+at /Users/dhoekman/PWC/201/2/deadmarshal.raku:3
+[31m===[0mSORRY![31m===[0m Error while compiling /Users/dhoekman/PWC/201/2/luca-ferrari.raku
+Could not find Math::Combinatorics in:
+    /Users/dhoekman/PWC/201/2/lib
+    /Users/dhoekman/.raku
+    /Users/dhoekman/.rakubrew/versions/jvm-2022.07/install/share/perl6/site
+    /Users/dhoekman/.rakubrew/versions/jvm-2022.07/install/share/perl6/vendor
+    /Users/dhoekman/.rakubrew/versions/jvm-2022.07/install/share/perl6/core
+    CompUnit::Repository::AbsolutePath<1754478282>
+    CompUnit::Repository::NQP<1928204491>
+    CompUnit::Repository::Perl5<1941842193>
+    CompUnit::Repository::JavaRuntime<1169086390>
+at /Users/dhoekman/PWC/201/2/luca-ferrari.raku:3
+[31m===[0mSORRY![31m===[0m Error while compiling /Users/dhoekman/PWC/201/2/mark-anderson.raku
+Could not find Math::Combinatorics in:
+    /Users/dhoekman/PWC/201/2/lib
+    /Users/dhoekman/.raku
+    /Users/dhoekman/.rakubrew/versions/jvm-2022.07/install/share/perl6/site
+    /Users/dhoekman/.rakubrew/versions/jvm-2022.07/install/share/perl6/vendor
+    /Users/dhoekman/.rakubrew/versions/jvm-2022.07/install/share/perl6/core
+    CompUnit::Repository::AbsolutePath<1754478282>
+    CompUnit::Repository::NQP<1928204491>
+    CompUnit::Repository::Perl5<1941842193>
+    CompUnit::Repository::JavaRuntime<1169086390>
+at /Users/dhoekman/PWC/201/2/mark-anderson.raku:2

@@ -1,33 +1,10 @@
 #!/usr/bin/env raku
-# :vim ft=raku sw=4 expandtab  # 🦋 ∅ ≡ ∩ ≢ ∈ «␤»
-use v6.d;
+
 use Test;
 use Memoize;
 
-
 constant DEBUG = False;                             #?
 sub dsay( **@a --> Bool ) { say "@a[]" if DEBUG;  }
-
-=begin comment
-201-2: Penny Piles              Submitted by: Robbie Hatley
-
-Given an integer, $n > 0, determine the number of ways of putting $n
-pennies in a row of piles of ascending heights from left to right.
-
-Example
-Input: $n = 5
-Output: 7
-
-For $n=5, there are 7 ways of stacking 5 pennies in ascending piles:
-
-    1 1 1 1 1
-    1 1 1 2
-    1 2 2
-    1 1 3
-    2 3
-    1 4
-    5
-=end comment
 
 my @Test =  1, 1, 2, 3, 5, 7,
             11, 15, 22, 30, 42, 56, 77,
@@ -66,13 +43,6 @@ sub p( PosInt $n --> Int ) {
     }
     $psum;
 }
-
-=begin comment
-my $t = 6666;
-my $time = now;
-say "p($t) = ", p($t);
-say "Time: ", now - $time;
-=end comment
 
 for 1..^@Test -> $n {
     is p( $n), @Test[ $n];

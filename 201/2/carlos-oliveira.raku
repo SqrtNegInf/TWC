@@ -1,4 +1,5 @@
 #!/usr/bin/env raku
+
 sub pile-pennies (UInt:D $n) {
   # repeat elements to treat the problem as a combination with repetition
   my @elements-with-repetition = (1..$n).map({ $_ xx $n }).flat;

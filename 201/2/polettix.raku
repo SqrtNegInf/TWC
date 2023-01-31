@@ -1,5 +1,5 @@
 #!/usr/bin/env raku
-use v6;
+
 sub MAIN (Int $n where * > 0 = 5) {
    class PennyPilesIterator { ... }
    my $it = PennyPilesIterator.new($n);

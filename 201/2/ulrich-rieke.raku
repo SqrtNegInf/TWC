@@ -1,7 +1,6 @@
 #!/usr/bin/env raku
-use v6 ;
 
-sub MAIN( Int $num ) {
+sub MAIN( Int $num  = 5) {
 #add every number from 1 to $num as many times as it can be added to be
 #summed up to $num , then find combinations from them
   my @allNumbers ;

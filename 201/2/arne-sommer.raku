@@ -1,6 +1,6 @@
 #!/usr/bin/env raku
 
-unit sub MAIN (UInt $n, :v(:$verbose));
+unit sub MAIN (UInt $n = 5, :v(:$verbose));
 
 my $piles := gather
 {
