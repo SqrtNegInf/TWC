@@ -1,6 +1,6 @@
 #!/usr/bin/env raku
 
-unit sub MAIN (*@array where @array.elems && all(@array) ~~ /^<[0..9]>*$/, :v(:$verbose));
+unit sub MAIN (@array where @array.elems && all(@array) ~~ /^<[0..9]>*$/= (0, 1, 3, 5, 9, 10), :v(:$verbose));
 
 my $n       = @array.elems;
 my @sorted  = @array.sort;

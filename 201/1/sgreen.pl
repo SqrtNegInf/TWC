@@ -15,4 +15,4 @@ sub main (@n) {
     say join ', ', @missing;
 }
 
-main(@ARGV);
+main( (0, 1, 3, 5, 9, 10) );

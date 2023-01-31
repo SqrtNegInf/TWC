@@ -1,6 +1,6 @@
 #!/usr/bin/env raku
-use v6;
-sub MAIN (*@args) { .put for missing-numbers(@args) }
+
+sub MAIN (@args = (0, 1, 3, 5, 9, 10) ) { .put for missing-numbers(@args) }
 
 sub missing-numbers (@array) {
    my $present = @array».Str.Set;

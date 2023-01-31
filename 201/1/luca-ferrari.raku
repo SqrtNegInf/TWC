@@ -1,13 +1,6 @@
 #!/usr/bin/env raku
 
-#
-# Perl Weekly Challenge 201
-# Task 1
-#
-# See <https://perlweeklychallenge.org/blog/perl-weekly-challenge-201/>
-#
-
-sub MAIN( *@n where { @n.grep( * ~~ Int ) == @n.elems } ) {
+sub MAIN( @n where { @n.grep( * ~~ Int ) == @n.elems } = (0, 1, 3, 5, 9, 10) ) {
     my @missing-numbers;
     for 0 ^.. @n.elems {
 	@missing-numbers.push: $_ if ( ! @n.grep( $_ ) );

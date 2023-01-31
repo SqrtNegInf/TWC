@@ -1,16 +1,8 @@
 #!/usr/bin/env perl
 
-# Peter Campbell Smith - 2023-01-23
-# PWC 201 task 1
-
 use v5.28;
 use utf8;
 use warnings;
-
-# Task: You are given an array of unique numbers. Write a script to find out all missing numbers in the range 
-# 0..$n where $n is the array size.
-
-# Blog: https://pjcs-pwc.blogspot.com/2023/01/201-missing-numbers-and-piles-of-pennies.html
 
 my (@tests, $test, $string, $j, $result);
 

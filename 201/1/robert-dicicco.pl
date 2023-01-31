@@ -1,27 +1,10 @@
 #!/usr/bin/env perl
 
-=begin comment
-
-AUTHOR: Robert DiCicco
-
-DATE:   2023-01-23
-
-Challenge 201 Missing Numbers ( Perl )
-
-=cut
-
 use strict;
-
 use warnings;
-
 use feature qw/say/;
 
-
-
 my @arrs = ([0,1,3],[0,1]);
-
-
-
 
 
 for my $arr (@arrs) {
@@ -45,23 +28,3 @@ for my $arr (@arrs) {
     }
 
 }
-
-
-
-=begin comment
-
-SAMPLE OUTPUT
-
-perl .\MissingNumbers.pl
-
-Input: @array = [0 1 3]
-
-Output: 2
-
-
-
-Input: @array = [0 1]
-
-Output: 2
-
-=cut

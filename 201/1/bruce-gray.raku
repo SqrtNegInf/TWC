@@ -1,10 +1,10 @@
 #!/usr/bin/env raku
+
 sub task1 ( @ns ) {
     my Set $s = @ns.Set;
 
     return grep { $_ ∉ $s }, 0 .. @ns.elems;
 }
-
 
 multi sub MAIN (      *@ns   ) { say task1(+«@ns) }
 multi sub MAIN ( Bool :$test ) {

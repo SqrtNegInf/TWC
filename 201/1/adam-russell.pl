@@ -1,11 +1,7 @@
 #!/usr/bin/env perl
 use v5.36;
-##
-# You are given an array of unique numbers.
-# Write a script to find out all missing numbers 
-# in the range 0..$n where $n is the array size.
-##
 use boolean;
+
 sub missing_numbers{
     my @numbers = @_;
     my %h;

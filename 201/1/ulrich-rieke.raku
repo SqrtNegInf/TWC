@@ -1,8 +1,6 @@
 #!/usr/bin/env raku
-use v6 ;
 
-say "Please enter some unique integers, separated by a blank!" ;
-my $line = $*IN.get ;
+my $line = '0 1 3 5 9 10';
 my @numbers = $line.words.map( {.Int} ) ;
 my $numberset = @numbers.Set ;
 my @missingNumbers ;

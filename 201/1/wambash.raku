@@ -5,13 +5,11 @@ sub missing-numbers (+@list) {
     andthen $_ (-) @list
 }
 
-multi MAIN (Bool :test($)!) {
+#multi MAIN (Bool :test($)!) {
     use Test;
     is missing-numbers(0,1,3),2;
     is missing-numbers(0,1),2;
     done-testing;
-}
+#}
 
-multi MAIN (+@list) {
-    say missing-numbers +@list
-}
+#multi MAIN (+@list) { say missing-numbers +@list }

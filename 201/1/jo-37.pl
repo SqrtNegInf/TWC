@@ -4,46 +4,13 @@ use v5.16;
 use Test2::V0 -srand => 1;
 use List::Util 'sum';
 use experimental 'postderef';
-use Benchmark 'cmpthese';
 
-our ($tests, $examples, $benchmark, $single);
+our ($tests, $examples, $benchmark, $single) = (1);
 
 run_tests() if $tests || $examples || $benchmark;	# does not return
 
-die <<EOS unless @ARGV;
-usage: $0 [-examples] [-tests] [-benchmark] [-single] [--] [N...]
-
--examples
-    run the examples from the challenge
- 
--tests
-    run some tests
-
--benchmark
-    benchmark different branches
-
--single
-    assume one single missing value as suggested by the examples
-
-N...
-    list of unique numbers
-
-EOS
-
-
-### Input and Output
-
 say for find_missing($single, @ARGV);
 
-
-### Implementation
-
-# If the given unique numbers were in the range 0 .. N, then exactly one
-# number would be missing and this could easily be found as the
-# difference between the sum over all numbers up to N and the sum over
-# the given numbers.  The examples conform to this pattern but it is not
-# stated explicitly. Therefore the more efficient implementation must be
-# chosen with a 'true' first argument.
 
 sub find_missing {
     # The easy way:
@@ -55,8 +22,6 @@ sub find_missing {
     sort {$a <=> $b} keys %num;
 }
 
-
-### Examples and tests
 
 sub run_tests {
     SKIP: {
