@@ -6,6 +6,7 @@ sub MNum {my @aray=@_;my @mnmz=();my %hash=();
   say join(',',@mnmz) ~ ');';
   return       @mnmz;
 }
+
 if    (@*ARGS) {
   MNum(@*ARGS);
 } else {

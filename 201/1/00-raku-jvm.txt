@@ -29,9 +29,9 @@ ok 2 -
 ok 3 - 
  
 ===> 201/1/deadmarshal.raku <===
+(2)
+(2)
 (6 7 8 2 4)
-(2)
-(2)
  
 ===> 201/1/jaldhar-h-vyas.raku <===
 6, 2, 4

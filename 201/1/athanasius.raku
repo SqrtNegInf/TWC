@@ -62,7 +62,6 @@ use Test;
 multi sub MAIN
 (
     #| A list of 1 or more unique integers
-
     *@array where { .elems >= 1 && .all ~~ Int:D && is-unique( @array ) }
 )
 #==============================================================================

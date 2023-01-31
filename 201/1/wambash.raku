@@ -9,7 +9,7 @@ sub missing-numbers (+@list) {
     use Test;
     is missing-numbers(0,1,3),2;
     is missing-numbers(0,1),2;
-    done-testing;
+    done-testing
 #}
 
 #multi MAIN (+@list) { say missing-numbers +@list }

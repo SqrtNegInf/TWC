@@ -1,6 +1,6 @@
 #!/usr/bin/env raku
 
-unit sub MAIN (@array where @array.elems && all(@array) ~~ /^<[0..9]>*$/= (0, 1, 3, 5, 9, 10), :v(:$verbose));
+unit sub MAIN (@array where @array.elems && all(@array) ~~ /^<[0..9]>*$/= (0, 1, 3, 5, 9, 10) );
 
 my $n       = @array.elems;
 my @sorted  = @array.sort;
@@ -9,7 +9,6 @@ my $current = @sorted.shift;
 
 for 0 .. $n -> $i
 {
-  say ": Checking $i" if $verbose;
 
   $current == $i
     ?? ( $current = @sorted.shift || next )

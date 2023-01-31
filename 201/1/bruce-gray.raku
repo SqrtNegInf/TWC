@@ -7,6 +7,7 @@ sub task1 ( @ns ) {
 }
 
 multi sub MAIN (      *@ns   ) { say task1(+«@ns) }
+
 multi sub MAIN ( Bool :$test ) {
     use Test;
     plan 3;
