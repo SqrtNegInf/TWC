@@ -62,9 +62,7 @@ no warnings 'experimental::signatures';
 
 use Math::Prime::Util qw( forpart partitions );
 
-
-
-my $value = shift @ARGV // 19;
+my $value = shift @ARGV // 5;
 my $count;
 
 forpart { $count++; say "@_" } $value ;

@@ -1,55 +1,4 @@
 #!/usr/bin/env perl
-# vim:set ts=4 sw=4 sts=4 et ai wm=0 nu:
-#=============================================================================
-# ch-2.pl Perl Weekly Challenge Week 201 Task 2 Penny Piles
-#=============================================================================
-# Copyright (c) 2023, Bob Lied
-#=============================================================================
-# You are given an integer, $n > 0.
-# Write a script to determine the number of ways of putting $n pennies
-# in a row of piles of ascending heights from left to right.
-# Example Input: $n = 5 Output: 7
-#   Since $n=5, there are 7 ways of stacking 5 pennies in ascending piles:
-#   1 1 1 1 1
-#   1 1 1 2
-#   1 2 2
-#   1 1 3
-#   2 3
-#   1 4
-#   5
-#=============================================================================
-# This amounts to finding the partitions of a number
-# https://en.wikipedia.org/wiki/Partition_(number_theory)
-# "No closed-form expression for the partition function is known, but it has
-# both asymptotic expansions that accurately approximate it and recurrence
-# relations by which it can be calculated exactly."
-#
-# We will do a recursive expansion and count the results. For each pair of
-# possible sums, recurse if the second term is large enough to have sums
-# where both terms are bigger than the smaller summand.
-# n=7                   n=8
-#   1 6                   1 7
-#   | 1 5                 | 1 6
-#   | | 1 4               | | 1 5
-#   | | | 1 3             | | | 1 4
-#   | | | | 1 2           | | | | 1 3
-#   | | | |   1 1         | | | |   1 2
-#   | | | 2 2             | | | |     1 1
-#   | | 2 3               | | | | 2 2
-#   | 2 4                 | | | 2 3
-#   | | 2 2               | | 2 4
-#   | 3 3                 | | | 2 2
-#   2 5                   | | 3 3
-#   | 2 3                 | 2 5
-#   3 4                   | | 2 3
-#                         | 3 4
-#   Total = 15            2 6       Total = 22
-#                           2 4
-#                             2 2
-#                           3 3
-#                         3 5
-#                         4 4
-#=============================================================================
 
 use v5.36;
 
@@ -58,7 +7,7 @@ my $Verbose = 0;
 my $DoTest  = 0;
 
 GetOptions("test" => \$DoTest, "verbose" => \$Verbose);
-exit(!runTest()) if $DoTest;
+runTest(); 
 
 say pennyPiles($_) for @ARGV;
 
@@ -108,7 +57,7 @@ sub showResult($result)
 
 sub runTest
 {
-    use Test2::V0;
+    use Test2::V0 -srand => 1;
 
     #is( pennyPiles(1),  1, "Test 1");
     #is( pennyPiles(2),  2, "Test 2");

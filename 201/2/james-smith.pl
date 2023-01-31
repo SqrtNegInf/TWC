@@ -4,7 +4,6 @@ use strict;
 use warnings;
 use feature qw(say);
 use Test::More;
-use Benchmark qw(cmpthese timethis);
 use List::Util qw(sum0);
 
 my @TESTS = ([5,7],[10,42],[15,176],[20,627],[25,1958],[30,5604],[35,14883],[40,37338],[45,89134],[50,204226]);
@@ -15,13 +14,6 @@ my %cache;
 (%cache=()), is( piles_2( $_->[0]), $_->[1] ) for @TESTS;
 (%cache=()), is( piles_q( $_->[0]), $_->[1] ) for @TESTS;
 done_testing();
-
-cmpthese( -2, {
-  'piles'   => sub { %cache=();   piles( $_->[0] ) for @TESTS },
-  'piles_0' => sub { %cache=(); piles_0( $_->[0] ) for @TESTS },
-  'piles_2' => sub { %cache=(); piles_2( $_->[0] ) for @TESTS },
-  'piles_q' => sub { %cache=(); piles_q( $_->[0] ) for @TESTS },
-});
 
 sub piles {
   my($count,$n,$m)=(0,@_);

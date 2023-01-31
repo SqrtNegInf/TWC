@@ -1,17 +1,12 @@
 #!/usr/bin/env perl
 use v5.36;
-##
-# You are given an integer, $n > 0.
-# Write a script to determine the number of ways of 
-# putting $n pennies in a row of piles of ascending 
-# heights from left to right.
-##
+
 use AI::Prolog;
 use Hash::MultiKey;
 
 MAIN:{
-    my $S = $ARGV[0];
-    my $C = "[" . $ARGV[1] . "]";
+    my $S = 5;
+    my $C = "[" . '1, 2, 3, 4, 5' . "]";
 
     my $prolog = do{
         local $/;

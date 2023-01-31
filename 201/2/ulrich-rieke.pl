@@ -5,7 +5,7 @@ use feature 'say' ;
 use Algorithm::Combinatorics qw ( combinations_with_repetition ) ;
 use List::Util qw ( sum ) ;
 
-my $number = $ARGV[0] ;
+my $number = 5;
 my $heapSum = 2 ;#$number times 1 and 1 times $number pennies are already there
 my @numbers = (1..$number) ;
 for my $num ( 2..$number - 1 ) {

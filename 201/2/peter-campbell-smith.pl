@@ -1,20 +1,12 @@
 #!/usr/bin/env perl
 
-# Peter Campbell Smith - 2023-01-23
-# PWC 201 task 2
-
 use v5.28;
 use utf8;
 use warnings;
 
-# Task: You are given an integer, $n > 0. Write a script to determine the number of ways of putting $n 
-# pennies in a row of piles such that each pile contains no fewer pennies than the one on its left.
-
-# Blog: https://pjcs-pwc.blogspot.com/2023/01/201-missing-numbers-and-piles-of-pennies.html
-
 my (@tests, $n, $ways, $piles);
 
-@tests = (1, 2, 3, 4, 5, 20);
+@tests = (1, 2, 3, 4, 5, 10);
 
 # loop over tests
 for $n (@tests) {

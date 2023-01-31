@@ -5,13 +5,7 @@ use List::Util qw/sum/;
 use Algorithm::Combinatorics qw[ variations_with_repetition ];
 
 
-print "Please enter a integer number > 0: ";
-my $input = <STDIN>;
-chomp $input;
-die 'input not valid'
-    unless $input =~ /^\d+$/;
-
-my $tot_penny = $input;
+my $tot_penny = 5;
 my $max_piles = $tot_penny;
 my @piles;
 

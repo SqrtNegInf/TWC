@@ -1,11 +1,7 @@
 #!/usr/bin/env perl
-# The Weekly Challenge 201
-# Task 2 Penny Piles
 
 use v5.30.0;
 use warnings;
-
-# algorithm devised by J. Kelleher
 
 my $n = $ARGV[0] || 5;
 

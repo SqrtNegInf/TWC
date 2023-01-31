@@ -3,20 +3,7 @@ use v5.36;
 
 use Storable qw(dclone);
 
-# Challange 201 - 2 - Penny Piles
-
-# You are given an integer, $n > 0.
-
-# Write a script to determine the number of ways of putting $n 
-# pennies in a row of piles of ascending heights from left to right.
-
-
-
-
-
-
-# pennyPiles(5);
-# pennyPiles(7);
+pennyPiles(5);
 
 sub pennyPiles($n)
 {
