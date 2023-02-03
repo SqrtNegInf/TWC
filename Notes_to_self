@@ -1,6 +1,7 @@
 2023-02-02
 Hopefully a one-off error on <use lib> statements:
-wrong version of dependency 'gen/moar/BOOTSTRAP/v6c.nqp
+    wrong version of dependency 'gen/moar/BOOTSTRAP/v6c.nqp
+p.s. Wait, makes no sense that '031/2/MySymbols.pm6' and '031/2/Temp.pm6' are not already tracked by git...
 
 2023-01-29
 A single 'srand' change, 038/2/jaldhar-h-vyas.raku
