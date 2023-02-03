@@ -1,4 +1,4 @@
-#! /usr/bin/env raku do-not-check
+#! /usr/bin/env raku # do-not-check
 
 use lib ".";
 use BinaryNode2;
