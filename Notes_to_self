@@ -1,3 +1,13 @@
+2023-02-02
+Hopefully a one-off error on <use lib> statements:
+wrong version of dependency 'gen/moar/BOOTSTRAP/v6c.nqp
+
+2023-01-29
+A single 'srand' change, 038/2/jaldhar-h-vyas.raku
+
+2023-01-27
+ozzy.raku behaves this time.
+
 2023-01-26
 Many tasks got hit with 'srand' change, ozzy.raku persists with odd result.
 
