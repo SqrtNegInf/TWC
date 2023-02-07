@@ -423,8 +423,8 @@ Challenge titles and Rosetta-code correspondences (exact, and otherwise)
 201-2 Penny Piles
 202-1 Consecutive Odds
 202-2 Widest Valley
-203-1
-203-2
+203-1 Special Quadruplets
+203-2 Copy Directory
 204-1
 204-2
 205-1
