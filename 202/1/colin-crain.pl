@@ -69,13 +69,6 @@ sub odd_triplets ( @arr ) {
 }
 
 
-
-
-
-
-
-
-
 use Test::More;
 
 is odd_triplets(1,5,3,6),     1, 'ex-1, front';

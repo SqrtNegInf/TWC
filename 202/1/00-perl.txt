@@ -1,0 +1,123 @@
+ 
+===> 202/1/adam-russell.pl <===
+1
+0
+0
+1
+ 
+===> 202/1/athanasius.pl <===
+Running the test suite
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ok 4 - Example 4
+1..4
+ 
+===> 202/1/bob-lied.pl <===
+# Seeded srand with seed '20230207' from local date.
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ok 4 - Example 4
+1..4
+ 
+===> 202/1/carlos-oliveira.pl <===
+1
+0
+0
+1
+ 
+===> 202/1/cheok-yin-fung.pl <===
+1..4
+ok 1
+ok 2
+ok 3
+ok 4
+ 
+===> 202/1/colin-crain.pl <===
+ok 1 - ex-1, front
+ok 2 - ex-2, only 2
+ok 3 - ex-3, only 2, separated
+ok 4 - ex-4, tail
+ok 5 - 3 but separated
+ok 6 - head
+ok 7 - mid
+1..7
+ 
+===> 202/1/dave-jacoby.pl <===
+    Input:  @array = (1,5,3,6)
+    Output: 1
+
+    Input:  @array = (2,6,3,5)
+    Output: 0
+
+    Input:  @array = (1,2,3,4)
+    Output: 0
+
+    Input:  @array = (2,3,5,7)
+    Output: 1
+
+    Input:  @array = (2,3,4,7,9,11,13)
+    Output: 1
+
+ 
+===> 202/1/e-choroba.pl <===
+1..4
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ok 4 - Example 4
+ 
+===> 202/1/jaldhar-h-vyas.pl <===
+1
+ 
+===> 202/1/james-smith.pl <===
+ok 1
+ok 2
+ok 3
+ok 4
+1..4
+ 
+===> 202/1/peter-campbell-smith.pl <===
+
+Input:  @array = (1, 5, 3, 6)
+Output: 1
+
+Input:  @array = (2, 6, 3, 5)
+Output: 0
+
+Input:  @array = (1, 2, 3, 4)
+Output: 0
+
+Input:  @array = (2, 3, 5, 7)
+Output: 1
+
+Input:  @array = (1, 11, 111)
+Output: 1
+
+Input:  @array = (2, 22, 222)
+Output: 0
+ 
+===> 202/1/robert-dicicco.pl <===
+Input: @array = [1 5 3 6]
+Output : 1
+
+Input: @array = [2 6 3 5]
+Output : 1
+
+Input: @array = [1 2 3 4]
+Output : 0
+
+Input: @array = [2 3 5 7]
+Output : 1
+
+ 
+===> 202/1/roger-bell-west.pl <===
+1..4
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ok 4 - example 4
+ 
+===> 202/1/wlmb.pl <===
+2 3 5 7 -> 1

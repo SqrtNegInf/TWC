@@ -1,10 +1,6 @@
 #!/usr/bin/env perl
+
 use v5.36;
-##
-# You are given an array of integers.
-# Write a script to print 1 if there are THREE consecutive odds 
-# in the given array otherwise print 0.
-##
 use boolean;
 
 sub three_consecutive_odds{

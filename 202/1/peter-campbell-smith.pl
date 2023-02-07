@@ -1,16 +1,8 @@
 #!/usr/bin/env perl
 
-# Peter Campbell Smith - 2023-01-30
-# PWC 202 task 1
-
 use v5.28;
 use utf8;
 use warnings;
-
-# Task: You are given an array of integers. Write a script to print 1 if there are THREE consecutive odds 
-# in the given array otherwise print 0.
-
-# Blog: https://pjcs-pwc.blogspot.com/
 
 my (@tests, $test, @bits, $string);
 

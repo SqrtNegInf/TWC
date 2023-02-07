@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-# The Weekly Challenge 202
-# Task 1 Consecutive Odds
+
 use v5.30.0;
 use warnings;
 
