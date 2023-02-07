@@ -1,14 +1,14 @@
 #!/usr/bin/env raku
-use v6;
-sub MAIN (*@args) {
+
+sub MAIN (@args = (7,8,7,7,7) ) {
    my ($n-streaks, $longest-streak) = consecutive-odds(@args);
 
    # strict
-   $*ERR.put('(one single streak of exactly three odds, no other odd)');
+   #$*ERR.put('(one single streak of exactly three odds, no other odd)');
    $*OUT.put(($n-streaks == 1 && $longest-streak == 3) ?? 1 !! 0);
 
    # lax
-   $*ERR.put('at least three odds in a row');
+   #$*ERR.put('at least three odds in a row');
    $*OUT.put(($longest-streak >= 3) ?? 1 !! 0);
 }
 

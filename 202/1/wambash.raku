@@ -13,7 +13,7 @@ sub consecutive-odds (+@list) {
     andthen .first: *.elems ≥ 3
 }
 
-multi MAIN (Bool :test($)!) {
+#multi MAIN (Bool :test($)!) {
     use Test;
     is-deeply consecutive-odds-producer( \(:acc(1,3),:result(1,1,3) ), 3 ), \( :acc(1,3,3), :result(Empty) );
     is-deeply consecutive-odds-producer( \(:acc(1,3),:result(Empty) ), 4 ), \( :acc(Empty), :result(1,3  ) );
@@ -23,8 +23,6 @@ multi MAIN (Bool :test($)!) {
     is consecutive-odds(2,3,5,7), (3,5,7);
     is consecutive-odds(1,5,4,5,1,3,2,2,2,3,1,2,1,3), (5,1,3);
     done-testing;
-}
+#}
 
-multi MAIN (+@list) {
-    say +so consecutive-odds @list
-}
+#multi MAIN (+@list) { say +so consecutive-odds @list }

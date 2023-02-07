@@ -1,0 +1,96 @@
+ 
+===> 202/1/0rir.raku <===
+1..16
+ok 1 - 7 --> 0
+ok 2 - 7 7 --> 0
+ok 3 - 7 3 7 --> 1
+ok 4 - 7 7 8 --> 0
+ok 5 - 7 8 7 --> 0
+ok 6 - 8 7 7 --> 0
+ok 7 - 8 7 8 --> 0
+ok 8 - 8 8 7 --> 0
+ok 9 - 7 7 7 7 --> 1
+ok 10 - 7 7 7 8 --> 1
+ok 11 - 7 7 8 7 --> 0
+ok 12 - 8 7 7 7 --> 1
+ok 13 - 7 7 7 8 7 --> 1
+ok 14 - 7 7 8 7 7 --> 0
+ok 15 - 7 8 7 7 7 --> 1
+ok 16 - 8 7 7 7 8 --> 1
+
+Input: @array = 2 3 5 7
+Output: 1
+ 
+===> 202/1/2colours.raku <===
+1
+ 
+===> 202/1/arne-sommer.raku <===
+1
+ 
+===> 202/1/athanasius.raku <===
+Running the test suite
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ok 4 - Example 4
+1..4
+ 
+===> 202/1/jaldhar-h-vyas.raku <===
+1
+ 
+===> 202/1/laurent-rosenfeld.raku <===
+1 5 3 6 => 1
+2 6 3 5 => 0
+1 2 3 4 => 0
+2 3 5 7 => 1
+ 
+===> 202/1/luca-ferrari.raku <===
+0
+ 
+===> 202/1/mark-anderson.raku <===
+ok 1 - 
+ok 2 - 
+ 
+===> 202/1/pip.raku <===
+(1,5,3,6) => 1;
+(2,6,3,5) => 0;
+(1,2,3,4) => 0;
+(2,3,5,7) => 1;
+ 
+===> 202/1/polettix.raku <===
+0
+1
+ 
+===> 202/1/robert-dicicco.raku <===
+Input: @array = [1 5 3 6]
+Output: 1
+
+Input: @array = [2 6 3 5]
+Output: 0
+
+Input: @array = [1 2 3 4]
+Output: 0
+
+Input: @array = [2 3 5 7]
+Output: 1
+
+ 
+===> 202/1/roger-bell-west.raku <===
+1..4
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ok 4 - example 4
+ 
+===> 202/1/ulrich-rieke.raku <===
+1
+ 
+===> 202/1/wambash.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ok 4 - 
+ok 5 - 
+ok 6 - 
+ok 7 - 
+1..7

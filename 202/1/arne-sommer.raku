@@ -1,6 +1,6 @@
 #!/usr/bin/env raku
 
-unit sub MAIN (*@array where @array.elems && all(@array) ~~ /^\-?<[0..9]>*$/, :v(:$verbose));
+unit sub MAIN (@array where @array.elems && all(@array) ~~ /^\-?<[0..9]>*$/ = (7,8,7,7,7), :v(:$verbose));
 
 my $consecutive = 0;
 my $start_index = 0;

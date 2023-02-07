@@ -1,14 +1,8 @@
 #!/usr/bin/env raku
 
-#
-# Perl Weekly Challenge 202
-# Task 1
-#
-# See <https://perlweeklychallenge.org/blog/perl-weekly-challenge-202/>
-#
+# wrong answer?
 
-sub MAIN( Bool :$verbose = False,
-	*@list where { @list.grep( { $_ ~~ Int && $_ > 0 } ).elems == @list.elems } ) {
+sub MAIN( @list where { @list.grep( { $_ ~~ Int && $_ > 0 } ).elems == @list.elems } = (7,8,7,7,7) ) {
     my @odds;
     for @list {
 	next if $_ %% 2;
@@ -18,7 +12,6 @@ sub MAIN( Bool :$verbose = False,
 	@odds.push: $_;
     }
 
-    @odds.join( ', ' ).say if $verbose;
     '1'.say and exit if ( @odds.elems >= 3 );
     '0'.say;
 }

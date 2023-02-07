@@ -1,7 +1,7 @@
 #!/usr/bin/env raku
 
 sub MAIN(
-    *@args
+    @args = (7,8,7,7,7)
 ) {
     my $result = 0;
 
