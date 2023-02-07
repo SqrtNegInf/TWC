@@ -51,6 +51,26 @@ ok 4 - Example 4
 ok 1 - 
 ok 2 - 
  
+===> 202/1/peter-campbell-smith.raku <===
+
+Input: @array = (1, 5, 3, 6)
+True
+
+Input: @array = (2, 6, 3, 5)
+False
+
+Input: @array = (1, 2, 3, 4)
+False
+
+Input: @array = (2, 3, 5, 7)
+True
+
+Input: @array = (1, 11, 111)
+True
+
+Input: @array = (2, 22, 222)
+False
+ 
 ===> 202/1/pip.raku <===
 (1,5,3,6) => 1;
 (2,6,3,5) => 0;
