@@ -1,5 +1,4 @@
 #!/usr/bin/env raku
-use v6 ;
 
 sub findValley( @array, $pos ) {
   my $len = @array.elems ;
@@ -24,9 +23,7 @@ sub findValley( @array, $pos ) {
   return @result ;
 }
 
-say "Enter some digits, separated by blanks!" ;
-my $line = $*IN.get ;
-my @numbers = $line.words.map( {.Int} ) ;
+my @numbers = (2, 1, 2, 1, 3);
 my @positions ;
 my $len = @numbers.elems ;
 for (0..$len - 2) -> $i {

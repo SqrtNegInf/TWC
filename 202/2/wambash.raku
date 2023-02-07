@@ -27,7 +27,7 @@ sub widest-valley (+@list) {
     andthen .max: *.elems
 }
 
-multi MAIN (Bool :test($)!) {
+#multi MAIN (Bool :test($)!) {
     use Test;
     is tail-same(1,3,3,1), 1;
     is tail-same(1,3,3,3),(3,3,3);
@@ -41,8 +41,6 @@ multi MAIN (Bool :test($)!) {
     is widest-valley(2, 1, 2, 1, 3), (2,1,2);
     is widest-valley(1, 3, 3, 2, 1, 2, 3, 3, 2), (3,3,2,1,2,3,3);
     done-testing;
-}
+#}
 
-multi MAIN (*@list) {
-    put widest-valley @list
-}
+#multi MAIN (*@list) { put widest-valley @list }

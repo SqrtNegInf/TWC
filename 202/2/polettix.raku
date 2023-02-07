@@ -1,6 +1,6 @@
 #!/usr/bin/env raku
-use v6;
-sub MAIN (*@args) {
+
+sub MAIN (@args = (2, 1, 2, 1, 3) ) {
    my @valley = widest-valley([@args.map({.comb(/\d+/)}).flat».Int]);
    put @valley.join(', ');
 }

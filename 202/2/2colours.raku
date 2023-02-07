@@ -1,13 +1,15 @@
 #!/usr/bin/env raku
 
+BEGIN die 'not ok - disabled: JVM cannot handle More/Less?' if $*VM ~~ /jvm/;
+
 my token unsigned-integer { 0 | <[1..9]><[0..9]>* };
 my token integer { '-'? <unsigned-integer> };
 subset IntList of Str where /^ '(' <integer>* % ',' ')' $/;
 
 
-sub MAIN(Str $array) { #using only integer altitudes but the algorithm should work on any real numbers as well
-  die 'Please supply a valid list of integers.' unless $array.subst(/\s/, '', :g) ~~ IntList;
-  my Int() @array = $<integer>;
+#sub MAIN(Str $array) { #using only integer altitudes but the algorithm should work on any real numbers as well
+  #die 'Please supply a valid list of integers.' unless $array.subst(/\s/, '', :g) ~~ IntList;
+  my Int() @array = (2, 1, 2, 1, 3);
   my @comparative = @array.rotor(2 => -1).map({ .[0] <=> .[1] });
   enum <START PREFIX DESC >;
   my @candidate-starts = gather for @comparative.kv -> $pos, $comp-to-next {
@@ -54,5 +56,4 @@ sub MAIN(Str $array) { #using only integer altitudes but the algorithm should wo
   }
   my $best-range = @candidate-ranges.max(*.elems);
   @array[|$best-range].join(', ').say;
-}
-
+#}

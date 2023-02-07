@@ -1,6 +1,6 @@
 #!/usr/bin/env raku
 
-unit sub MAIN (*@array where @array.elems && all(@array) ~~ /^<[0..9]>*$/, :v(:$verbose));
+unit sub MAIN (@array where @array.elems && all(@array) ~~ /^<[0..9]>*$/ = (2, 1, 2, 1, 3), :v(:$verbose));
 
 my @valleys;
 

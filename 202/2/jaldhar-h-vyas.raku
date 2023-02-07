@@ -1,7 +1,7 @@
 #!/usr/bin/env raku
 
 sub MAIN(
-    *@args
+    @args= (2, 1, 2, 1, 3)
 ) {
     my @vallies;
 

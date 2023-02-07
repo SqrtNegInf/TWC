@@ -2,7 +2,6 @@
 
 use Test;
 
-#plan 5;
 plan 5;
 
 is-deeply(widestvalley([1, 5, 5, 2, 8]), [5, 5, 2, 8], 'example 1');

@@ -1,13 +1,8 @@
 #!/usr/bin/env raku
 
-#
-# Perl Weekly Challenge 202
-# Task 2
-#
-# See <https://perlweeklychallenge.org/blog/perl-weekly-challenge-202/>
-#
+# different answer...
 
-sub MAIN( *@list where { @list.grep( { $_ > 0 && $_ ~~ Int } ).elems == @list.elems } ) {
+sub MAIN( @list where { @list.grep( { $_ > 0 && $_ ~~ Int } ).elems == @list.elems } = (2, 1, 2, 1, 3) ) {
 
     my %valleys;
 
