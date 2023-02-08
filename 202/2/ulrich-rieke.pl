@@ -26,10 +26,7 @@ sub findValley {
   return $result ;
 }
 
-say "Enter some integers, separated by a blank!" ;
-my $line = <STDIN> ;
-chomp $line ;
-my @numbers = split ( /\s/ , $line ) ;
+my @numbers = (2, 1, 2, 1, 3);
 my $len = scalar( @numbers ) ;
 my @positions ;
 for my $i (0..$len - 2 ) {

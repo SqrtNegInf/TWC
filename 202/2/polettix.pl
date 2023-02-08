@@ -5,7 +5,7 @@ use experimental 'signatures';
 no warnings 'experimental::signatures';
 
 my @valley =
-  widest_valley(grep { defined } map { split m{\D+}mxs, } @ARGV);
+  widest_valley(grep { defined } map { split m{\D+}mxs, } (2, 1, 2, 1, 3) );
 say join ', ', @valley;
 
 sub widest_valley (@altitudes) {

@@ -33,4 +33,4 @@ sub main (@n) {
     say join ', ', @solution;
 }
 
-main(@ARGV);
+main((2, 1, 2, 1, 3));

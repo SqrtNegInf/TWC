@@ -4,18 +4,19 @@ use warnings;
 
 my @vallies;
 
-for my $i (0 .. scalar @ARGV - 1) {
+my @A = (2, 1, 2, 1, 3);
+for my $i (0 .. scalar @A - 1) {
     my @valley;
     my $ascending = undef;
 
-    for my $j ($i .. scalar @ARGV - 1) {
-        if ($ascending && scalar @valley && $ARGV[$j] < $valley[-1]) {
+    for my $j ($i .. scalar @A - 1) {
+        if ($ascending && scalar @valley && $A[$j] < $valley[-1]) {
             $ascending = undef;
             last;
-        } elsif (!$ascending && scalar @valley && $ARGV[$j] > $valley[-1]) {
+        } elsif (!$ascending && scalar @valley && $A[$j] > $valley[-1]) {
             $ascending = 1;
         }
-        push @valley, $ARGV[$j];
+        push @valley, $A[$j];
     }
     push @vallies, [ @valley ];
 }

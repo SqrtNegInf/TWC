@@ -1,11 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
-##
-# Given a profile as a list of altitudes, return the leftmost widest valley. 
-# A valley is defined as a subarray of the profile consisting of two 
-# parts: the first part is non-increasing and the second part is non-decreasing. 
-# Either part can be empty.
-##
+
 use boolean;
 use FSA::Rules;
 

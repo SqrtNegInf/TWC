@@ -1,5 +1,7 @@
 #!/usr/bin/env perl
+
 use v5.30.0;
+
 my @array1 = (1, 5, 5, 2, 8);
 my @array2 = (2,6,8,5);
 my @array3 = (9,8,13,13,2,2,15,17);
