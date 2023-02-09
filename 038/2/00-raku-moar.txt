@@ -154,7 +154,7 @@ PLEA   : 8
 Winner: KEMP for 20
  
 ===> 038/2/jaldhar-h-vyas.raku <===
-XPBIITG = BITI (11)
+XAQBMBW = BAM (10)
  
 ===> 038/2/javier-luque.raku <===
 Picked tiles: P A L K M E N
@@ -186,7 +186,7 @@ Contenders (word: score):
 TH: 10
  
 ===> 038/2/ryan-thompson.raku <===
-[H I I K N S J] Best word: INKISH, Score: 22
+[N P A S B J W] Best word: SPAWN, Score: 12
  
 ===> 038/2/simon-proctor.raku <===
  
