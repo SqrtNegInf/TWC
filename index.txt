@@ -425,8 +425,8 @@ Challenge titles and Rosetta-code correspondences (exact, and otherwise)
 202-2 Widest Valley
 203-1 Special Quadruplets
 203-2 Copy Directory
-204-1
-204-2
+204-1 Monotonic Array
+204-2 Reshape Matrix
 205-1
 205-2
 206-1

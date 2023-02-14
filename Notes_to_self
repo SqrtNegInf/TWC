@@ -1,3 +1,11 @@
+2023-02-13
+Today's 'moar-blead' will likely cause a bunch of failures...
+... yep, it did, too many to detail.
+
+2023-02-09
+Many tasks got hit with 'srand' change, ozzy.raku has truncated results again (seemingly a coincidence?)
+p.s. Confirmed that 'ozzy' suffers from the GH5160 bug
+
 2023-02-04
 Everything went back to normal, go figure.
 
