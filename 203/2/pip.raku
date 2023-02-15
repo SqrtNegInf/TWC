@@ -29,7 +29,7 @@
 #   │       ├── 4
 #   │       └── 5
 # Last date to submit the solution 23:59 (UK Time) Sunday 12th February 2023.
-use v6;my $d8VS='N2AL1TnR';
+
 sub CpDr {my $srcd=shift(@_) || die "!*EROR*! Need a source directory to copy! $!";
           my $trgd=shift(@_) || ''; # deciding to just make absolute paths relative to current-working-directory for testing to avoid using Oper8ngSys root /;
   $srcd ~~ s|^\.?\/*|./|;$srcd ~~ s|([^.])\/+$|$1|;

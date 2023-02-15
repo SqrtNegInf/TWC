@@ -1,23 +1,6 @@
 #!/usr/bin/env raku
-#/usr/bin/env perl
-
-#`{
-
-AUTHOR: Robert DiCicco
-
-DATE  : 2023-02-08
-
-Challenge 203 Copy Directory ( Raku )
-
-}
-
-
 
 use File::Find;
-
-#use IO::Spec::Unix;
-
-
 
 my $startdir = $*CWD;
 

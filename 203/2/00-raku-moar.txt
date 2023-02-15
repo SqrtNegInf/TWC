@@ -1,0 +1,59 @@
+ 
+===> 203/2/0rir.raku <===
+1..2
+not ok 1 - 
+not ok 2 - 
+ 
+===> 203/2/arne-sommer.raku <===
+ 
+===> 203/2/athanasius.raku <===
+
+Challenge 203, Task #2: Copy Directory (Raku)
+
+Usage:
+  raku athanasius.raku <source> <target>
+  
+    <source>    Path to source directory
+    <target>    Path to target directory
+ 
+===> 203/2/barroff.raku <===
+ 
+===> 203/2/laurent-rosenfeld.raku <===
+ 
+===> 203/2/luca-ferrari.raku <===
+ 
+===> 203/2/mark-anderson.raku <===
+ 
+===> 203/2/pip.raku <===
+./a/b/c          => ./x/y;
+./a/b/c/1        => ./x/y/1;
+./a/b/c/2        => ./x/y/2;
+./a/b/c/3        => ./x/y/3;
+./a/b/c/4        => ./x/y/4;
+./a/b/c/5        => ./x/y/5;
+ 
+===> 203/2/polettix.raku <===
+ 
+===> 203/2/robert-dicicco.raku <===
+startdir = /Users/dhoekman/PWC/203/2
+Creating source directory structure
+	created a/b/c
+Creating source files
+	created 1/1.txt
+	created 2/2.txt
+	created 3/3.txt
+	created 5/5.txt
+Creating target directory structure
+	creating x/y/1
+	creating x/y/2
+	creating x/y/3
+	creating x/y/4
+	creating x/y/5
+complete
+ 
+===> 203/2/roger-bell-west.raku <===
+ 
+===> 203/2/wambash.raku <===
+ok 1 - 
+ok 2 - 
+1..2

@@ -10,7 +10,7 @@ sub deep-walk (:$start= '.'.IO, :&deep = *.dir, :&test = *.d --> Supply) {
     supply supply-gen $start;
 }
 
-multi MAIN (Bool :test($)!) {
+#multi MAIN (Bool :test($)!) {
     use Test;
     is-deeply deep-walk(:start(1,(2,(3,4))), :deep(*.list), :test(* !~~ Int) ).grep( * ~~ Int).list, (1,2,3,4);
     my $source = 'a/b/c' => (
@@ -22,8 +22,9 @@ multi MAIN (Bool :test($)!) {
     );
     is-deeply deep-walk( :start($source), :deep(*.value), :test( * ~~ Pair ) ).grep( * ~~ Pair).map(*.key).list, (1,'1.a',2,3,4,5);
     done-testing;
-}
+#}
 
+=finish
 multi MAIN ( IO() $from, IO() $to = '.'.IO, Bool :no-act(:$n) = False, Bool :verbose(:$v) = False  )  {
     deep-walk start => $from
     andthen .grep: *.d

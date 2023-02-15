@@ -1,6 +1,6 @@
 #!/usr/bin/env raku
-use v6;
-sub MAIN ($from, $to) { copy-directory($from, $to) }
+
+sub MAIN ($from = 'a', $to = 'x') { copy-directory($from, $to) }
 
 sub copy-directory (IO::Path() $from, IO::Path() $to) {
    for $from.dir -> $source {
