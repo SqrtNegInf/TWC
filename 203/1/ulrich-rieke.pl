@@ -4,10 +4,7 @@ use warnings ;
 use feature 'say' ;
 use Algorithm::Combinatorics qw ( combinations ) ;
 
-say "Please enter at least 4 integers , separated by blanks!" ;
-my $line = <STDIN> ;
-chomp $line ;
-my @numbers = split( /\s/ , $line ) ;
+my @numbers = <9 0 1 2 3 4 5 6>;
 my $specials = 0 ;
 if ( scalar ( @numbers ) >= 4 ) {
   my $iter = combinations( \@numbers , 4 ) ;

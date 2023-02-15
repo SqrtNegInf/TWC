@@ -5,7 +5,7 @@ use experimental 'signatures';
 no warnings 'experimental::signatures';
 use List::Util 'sum';
 
-say special_quadruplets(@ARGV);
+say special_quadruplets(<9 0 1 2 3 4 5 6>);
 
 sub special_quadruplets (@nums) {
    my $it = combinations_iterator(4, @nums);

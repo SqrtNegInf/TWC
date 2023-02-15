@@ -5,7 +5,7 @@ use Test2::V0 -srand => 1;
 use Math::Prime::Util qw(forcomb vecsum);
 use experimental 'refaliasing';
 
-our ($tests, $examples);
+our ($tests, $examples)= (1,1);
 
 run_tests() if $tests || $examples;	# does not return
 
