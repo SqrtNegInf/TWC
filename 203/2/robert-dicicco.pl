@@ -1,11 +1,4 @@
 #!/usr/bin/env perl
-# /usr/bin/env perl
-
-# AUTHOR: Robert DiCicco
-
-# DATE: 2023-02-08
-
-# Challenge 203 Copy Directory ( Perl )
 
 use strict;
 

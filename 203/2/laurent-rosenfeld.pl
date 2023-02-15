@@ -23,7 +23,7 @@ sub create_size_code_ref {
         printf "%-15s -> %d\n", $file, $size,;
     }, sub {return $total_size;});
 }
-my $dir = shift;
+my $dir = 'a';
 my ($code_ref, $glob_size) = create_size_code_ref();
 traverse_dir ($code_ref, sub {1}, $dir);
 say "Total size = ", $glob_size->();

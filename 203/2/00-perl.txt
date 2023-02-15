@@ -1,0 +1,30 @@
+ 
+===> 203/2/e-choroba.pl <===
+# Seeded srand with seed '1' from import arg.
+1..2
+ok 1 - Example 1
+ok 2 - Recursion
+ 
+===> 203/2/kjetillll.pl <===
+Checking 16 dirs: ok
+Checking 4 files: ok
+ 
+===> 203/2/laurent-rosenfeld.pl <===
+Total size = 0
+ 
+===> 203/2/robert-dicicco.pl <===
+startdir = /Users/dhoekman/PWC/203/2
+Creating source directory structure
+	created a/b/c
+Creating source files
+	created 1/1.txt
+	created 2/2.txt
+	created 3/3.txt
+	created 5/5.txt
+Creating target directory structure
+	creating x/y/1
+	creating x/y/2
+	creating x/y/3
+	creating x/y/4
+	creating x/y/5
+complete
