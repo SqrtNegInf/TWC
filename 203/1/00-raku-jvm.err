@@ -1,0 +1,12 @@
+[31m===[0mSORRY![31m===[0m Error while compiling /Users/dhoekman/PWC/203/1/0rir.raku
+Could not find Array::Sorted::Util in:
+    /Users/dhoekman/PWC/203/1/lib
+    /Users/dhoekman/.raku
+    /Users/dhoekman/.rakubrew/versions/jvm-2022.07/install/share/perl6/site
+    /Users/dhoekman/.rakubrew/versions/jvm-2022.07/install/share/perl6/vendor
+    /Users/dhoekman/.rakubrew/versions/jvm-2022.07/install/share/perl6/core
+    CompUnit::Repository::AbsolutePath<1229121499>
+    CompUnit::Repository::NQP<1125154379>
+    CompUnit::Repository::Perl5<147561600>
+    CompUnit::Repository::JavaRuntime<1266484840>
+at /Users/dhoekman/PWC/203/1/0rir.raku:7
