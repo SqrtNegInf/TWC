@@ -1,5 +1,7 @@
 #!/usr/bin/env raku
 
+BEGIN die 'not ok - disabled: does not work with moar-blead right now.';
+
 #|Given a starting number (default 0) find the first two Amicable numbers following it.
 multi sub MAIN ( Int $start = 0 ) {
     my $current = $start;
