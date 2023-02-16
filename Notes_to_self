@@ -1,3 +1,7 @@
+2023-02-16
+Work on GH5209 (thundergnat++) begins to resolve the failures, but likely not done today.
+'020/2/simon-proctor.raku' remains blocked, still runs forever.
+
 2023-02-13
 Today's 'moar-blead' will likely cause a bunch of failures...
 ... yep, it did, too many to detail.
