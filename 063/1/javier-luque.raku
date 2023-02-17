@@ -9,7 +9,7 @@ sub MAIN() {
     is last_word('  hello world',                rx/[e|a]l/),      'hello',  'Hello world';
     is last_word("Don't match too much, Chet!",  rx:i/ch.t/),      'Chet!',  'Chet';
     is last_word("spaces in regexp won't match", rx/"in re"/),      Nil,     'Undef';
-    is last_word( join(' ', 1..1e6),            rx/^^(3.*?)**3/), '399933',  'Numbers';
+#    is last_word( join(' ', 1..1e6),            rx/^^(3.*?)**3/), '399933',  'Numbers';
     done-testing;
 }
 

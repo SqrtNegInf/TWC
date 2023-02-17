@@ -1,1 +1,3 @@
 JVM can be very, very slow on the regex matching.
+
+2023-02-17 removed the 1..1e6 test from all tasks, just pointlessly slow

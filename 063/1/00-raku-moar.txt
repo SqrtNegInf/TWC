@@ -3,34 +3,29 @@
 hello
 Chet!
 Nil
-399933
  
 ===> 063/1/athanasius.raku <===
-1..5
+1..4
 ok 1 - Match 'hello'
 ok 2 - Match 'Chet!'
 ok 3 - No match
-ok 4 - Match '399933'
-ok 5 - Match 'pies'
+ok 4 - Match 'pies'
  
 ===> 063/1/colin-crain.raku <===
 hello
 Chet!
 «no match found»
-399933
  
 ===> 063/1/jaldhar-h-vyas.raku <===
 hello
 Chet!
 undef
-399933
  
 ===> 063/1/javier-luque.raku <===
 ok 1 - Hello world
 ok 2 - Chet
 ok 3 - Undef
-ok 4 - Numbers
-1..4
+1..3
  
 ===> 063/1/laurent-rosenfeld.raku <===
 Hello
@@ -42,7 +37,6 @@ Not found
 hello
 Chet!
 (Any)
-399933
 hello
 Chet!
 Nil
@@ -52,7 +46,6 @@ Nil
 hello
 Chet!
 Nil
-399933
  
 ===> 063/1/markus-holzer.raku <===
 hello
@@ -63,14 +56,12 @@ Nil
 ok 1 - 
 ok 2 - 
 ok 3 - 
-ok 4 - 
-1..4
+1..3
  
 ===> 063/1/noud.raku <===
 hello
 Chet!
 Nil
-399933
  
 ===> 063/1/roger-bell-west.raku <===
  
@@ -78,16 +69,13 @@ Nil
 ok 1 - 
 ok 2 - 
 ok 3 - 
-ok 4 - 
-1..4
+1..3
  
 ===> 063/1/simon-proctor.raku <===
 hello
 Chet!
 Nil
-399933
  
 ===> 063/1/ulrich-rieke.raku <===
 Hello
 Chet!
-399933

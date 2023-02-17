@@ -68,8 +68,8 @@ sub MAIN() {
     my @pairs =
             ['  hello world', rx/<[ea]>l/],
             ["Don't match too much, Chet!", rx:i/ch.t/],
-            ["spaces in regexp won't match", rx:s/in re/],
-            [(1 .. 1e6).join( ' ' ), rx/^(3.*?) ** 3/];
+            ["spaces in regexp won't match", rx:s/in re/];
+#           [(1 .. 1e6).join( ' ' ), rx/^(3.*?) ** 3/];
     for @pairs -> ($string, $regex) {
         (last_word( $string, $regex ) || '«no match found»').say
     }

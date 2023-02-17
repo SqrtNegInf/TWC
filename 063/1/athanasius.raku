@@ -47,7 +47,7 @@ my constant TESTS = Array[ Test-Type ].new:
             [ '  hello world',                rx/ <[ea]> l/,        'hello'  ],
             [ "Don't match too much, Chet!",  rx:i/ ch.t /,         'Chet!'  ],
             [ "spaces in regexp won't match", rx:s/in re/,          ''       ],
-            [ (1 .. 1e6).join(' '),           rx/ ^ (3 .*?) ** 3 /, '399933' ],
+#           [ (1 .. 1e6).join(' '),           rx/ ^ (3 .*?) ** 3 /, '399933' ],
             [ 'I like ripe pies',             rx:i/ i /,            'pies'   ];
 
 #===============================================================================
