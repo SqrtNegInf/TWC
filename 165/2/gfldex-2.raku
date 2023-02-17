@@ -1,7 +1,7 @@
 #!/usr/bin/env raku
 # from https://gfldex.wordpress.com/2022/05/21/writing-it-down/
 
-# 2023-02-17 GH5209 requires changes
+# 2023-02-17 GH5209 requires changes for x² and xy
 
 my $input = '333,129  39,189 140,156 292,134 393,52  160,166 362,122  13,193
                 341,104 320,113 109,177 203,152 343,100 225,110  23,186 282,102
@@ -11,23 +11,24 @@ my $input = '333,129  39,189 140,156 292,134 393,52  160,166 362,122  13,193
                 275,96  250,147  34,174 213,134 186,129 189,154 361,82  363,89';
 
 sub delayed(&c) is rw {
-        my $p = start { c };
-        Proxy.new: STORE => method (|) {}, FETCH => method { await $p; $p.result }
-    }
+    my $p = start { c };
+    Proxy.new: STORE => method (|) {}, FETCH => method { await $p; $p.result }
+}
 
-    my @points = $input.words».split(',')».Int;
+my @points = $input.words».split(',')».Int;
 
-    my \term:<x²> = delayed { @points[*;0]».&(*²) };
-    my \xy = delayed { @points[*;0] »*« @points[*;1] };
-    my \Σx = delayed { [+] @points[*;0] };
-    my \Σy = delayed { [+] @points[*;1] };
-    my \term:<Σx²> = delayed { sum x² };
-    my \Σxy = delayed { sum xy };
-   #my \term:<Σx²> = delayed { [+] x² };    # no, because: say x².WHAT = (List)
-   #my \Σxy = delayed { [+] xy };           # no, because: say xy.WHAT = (List)
-    my \N = +@points;
+my \term:<x²> = delayed { @points[*;0]».&(*²) };
+my \xy = delayed { @points[*;0] »*« @points[*;1] };
+my \Σx = delayed { [+] @points[*;0] };
+my \Σy = delayed { [+] @points[*;1] };
+my \term:<Σx²> = delayed { sum x² };    # use 'sum' instead of '[+]'
+my \Σxy = delayed { sum xy };           #            "
+#my \term:<Σx²> = delayed { [+] x² };   # no, doesn't decont
+#my \Σxy = delayed { [+] xy };          # no,        "
+#my \Σxy = delayed { [+] xy<> };        # OK, decont the $(List)
+my \N = +@points;
 
-    my $m = (N * Σxy - Σx * Σy) / (N * Σx² - (Σx)²);
-    my $b = (Σy - $m * Σx) / N;
+my $m = (N * Σxy - Σx * Σy) / (N * Σx² - (Σx)²);
+my $b = (Σy - $m * Σx) / N;
 
-    say [$m, $b];
+say [$m, $b];

@@ -8,17 +8,17 @@ my $input = '333,129  39,189 140,156 292,134 393,52  160,166 362,122  13,193
                 215,136 153,137 390,104 100,180  76,188  77,181  69,195  92,186
                 275,96  250,147  34,174 213,134 186,129 189,154 361,82  363,89';
 
-    my @points = $input.words».split(',')».Int;
+my @points = $input.words».split(',')».Int;
 
-    my \term:<x²> := @points[*;0]».&(*²);
-    my \xy = @points[*;0] »*« @points[*;1];
-    my \Σx = [+] @points[*;0];
-    my \Σy = [+] @points[*;1];
-    my \term:<Σx²> = [+] x²;
-    my \Σxy = [+] xy;
-    my \N = +@points;
+my \term:<x²> := @points[*;0]».&(*²);
+my \xy = @points[*;0] »*« @points[*;1];
+my \Σx = [+] @points[*;0];
+my \Σy = [+] @points[*;1];
+my \term:<Σx²> = [+] x²;
+my \Σxy = [+] xy;
+my \N = +@points;
 
-    my $m = (N * Σxy - Σx * Σy) / (N * Σx² - (Σx)²);
-    my $b = (Σy - $m * Σx) / N;
+my $m = (N * Σxy - Σx * Σy) / (N * Σx² - (Σx)²);
+my $b = (Σy - $m * Σx) / N;
 
-    say [$m, $b];
+say [$m, $b];
