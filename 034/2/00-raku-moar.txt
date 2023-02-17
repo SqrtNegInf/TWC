@@ -5,9 +5,8 @@
  
 ===> 034/2/jaldhar-h-vyas.raku <===
 A chose Rock.
-B chose Scissors.
-Rock smashes Scissors.  
-A wins.
+B chose Rock.
+It's a draw.
  
 ===> 034/2/javier-luque.raku <===
  
@@ -23,16 +22,16 @@ Hello World
 6
  
 ===> 034/2/ruben-westerberg.raku <===
-Hello from function 10
+Hello from function 6
+Hello from function 4
+Hello from function 7
+Hello from function 1
+Hello from function 8
+Hello from function 8
+Hello from function 5
 Hello from function 4
 Hello from function 3
 Hello from function 3
-Hello from function 10
-Hello from function 1
-Hello from function 3
-Hello from function 3
-Hello from function 6
-Hello from function 5
  
 ===> 034/2/simon-proctor.raku <===
 square( 8 ) => 64

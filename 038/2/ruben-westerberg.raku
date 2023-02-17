@@ -1,5 +1,7 @@
 #!/usr/bin/env raku
 
+srand 1;
+
 #Input data
 my @l=comb "", "AGISUXZEJLRVYFDPWBNTOHMCKQ";
 my @c=(8,3,5,7,5,2,5,9,3,3,3,3,5,3,3,5,5,5,4,5,3,3,4,4,2,2);
@@ -10,7 +12,6 @@ my BagHash $tileBag.=new-from-pairs((@l Z @c).flat.pairup); #Bag of all tiles
 my %values=(@l Z @v).flat;	#Letter value map
 my BagHash $drawBag;		#Bag of drawn tiles
 
-srand 1;
 #Draw the 7 tiles. Update bag with removed tile
 for 1..7 {
 	my $i=$tileBag.total.rand.Int;
