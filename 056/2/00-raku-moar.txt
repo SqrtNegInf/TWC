@@ -38,7 +38,7 @@ Sum is 22 with the path 5 4 11 2
 5→8→7→2
  
 ===> 056/2/mohammad-anwar.raku <===
-5 -> 4 -> 11 -> 2
+
  
 ===> 056/2/noud.raku <===
 5 -> 4 -> 11 -> 2
