@@ -1,11 +1,14 @@
 #!/usr/bin/env raku
 
+# 2023-02-17 GH5209
+
 my @squares = map { $_² }, 1..Inf;
 my $max = 200;
 my $square-set = @squares[0..$max];
 my @square-triples = gather {
     for (@squares[0..$max]).combinations(2) -> $comb {
-        my $sum = [+] $comb;
+        my $sum = sum $comb;
+       #my $sum = [+] $comb;
         take (|$comb, $sum) if $sum (elem) $square-set;
     }
 }

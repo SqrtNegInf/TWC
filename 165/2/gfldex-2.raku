@@ -18,9 +18,11 @@ sub delayed(&c) is rw {
     my \term:<x²> = delayed { @points[*;0]».&(*²) };
     my \xy = delayed { @points[*;0] »*« @points[*;1] };
     my \Σx = delayed { [+] @points[*;0] };
-    my \Σy = delayed { [+] @points[*;1] }
-    my \term:<Σx²> = delayed { [+] x² };
-    my \Σxy = delayed { [+] xy };
+    my \Σy = delayed { [+] @points[*;1] };
+    my \term:<Σx²> = delayed { sum x² };
+    my \Σxy = delayed { sum xy };
+   #my \term:<Σx²> = delayed { [+] x² };
+   #my \Σxy = delayed { [+] xy };
     my \N = +@points;
 
     my $m = (N * Σxy - Σx * Σy) / (N * Σx² - (Σx)²);
