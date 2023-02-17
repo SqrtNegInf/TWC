@@ -23,8 +23,6 @@ Triplet: -7, -3, 10 = 0
 ["-10 + 2 + 8 = 0", "-7 + -3 + 10 = 0"]
  
 ===> 051/1/laurent-rosenfeld.raku <===
-(-10 2 8)
-(-7 -3 10)
  
 ===> 051/1/luca-ferrari.raku <===
 Found 2 triplets that sum to 0:
