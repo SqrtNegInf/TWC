@@ -1,5 +1,7 @@
 #!/usr/bin/env raku
 
+# 2023-02-16 GH5209
+
 use Test;
 
 is prime-partition(18, 2), [5, 13],    'Example 1';
@@ -14,7 +16,8 @@ done-testing;
 sub prime-partition(Int $m, Int $n) {
     my @primes = (2 .. $m).grep: { .is-prime };
     for @primes.combinations: $n -> $combination {
-        return $combination if ([+] $combination) == $m;
+        return $combination if (sum $combination) == $m;
+       #return $combination if ([+] $combination) == $m;
     }
     return;
 }

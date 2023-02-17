@@ -1,5 +1,7 @@
 #!/usr/bin/env raku
 
+# 2023-02-16 GH5209
+
 =begin pod
 
 Week 136:
@@ -37,7 +39,8 @@ sub fibonacci-sequence(Int $sum where $sum > 0) {
     for 1 .. $sum -> $i {
         last if $i > @fibonacci.elems;
         for @fibonacci.combinations: $i -> $comb {
-            my $_sum = [+] $comb;
+            my $_sum = sum $comb;
+           #my $_sum = [+] $comb;
             @fibonacci_sum.push: $comb if $_sum == $sum;
         }
     }

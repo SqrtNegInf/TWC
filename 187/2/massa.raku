@@ -1,5 +1,7 @@
 #!/usr/bin/env raku
 
+# 2023-02-16 GH5209
+
 use Test;
 
 is <3 2 2>, magical-triplets <1 2 3 2>;
@@ -13,6 +15,7 @@ sub magical-triplets(@n) {
   my @triplets = @n.combinations(3).map( { |.permutations } ).
     grep({ .[0] + .[1] > .[2] && .[1] + .[2] > .[0] && .[0] + .[2] > .[1] }).
     sort({ not( .[0] ≥ .[1] ≥ .[2] ) });
-  @triplets.map({ [+] $_ }).maxpairs.map({ @triplets[.key] }).head
+  @triplets.map({ [+] @$_ }).maxpairs.map({ @triplets[.key] }).head
+ #@triplets.map({ [+] $_ }).maxpairs.map({ @triplets[.key] }).head
 }
 

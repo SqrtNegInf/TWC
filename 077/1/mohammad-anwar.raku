@@ -1,5 +1,7 @@
 #!/usr/bin/env raku
 
+# 2023-02-16 GH5209
+
 sub MAIN(Int :$N where $N > 0= 377) {
     fibonacci-sum($N).join("\n").say;
 }
@@ -15,7 +17,8 @@ sub fibonacci-sum(Int $sum where $sum > 0) {
     for 1 .. $sum -> $i {
         last if $i > @fibonacci.elems;
         for @fibonacci.combinations: $i -> $comb {
-            my $_sum = [+] $comb;
+            my $_sum = sum $comb;
+           #my $_sum = [+] $comb;
             @fibonacci_sum.push: $comb if $_sum == $sum;
         }
     }

@@ -1,5 +1,7 @@
 #!/usr/bin/env raku
 
+# 2023-02-16 GH5209
+
 ###############################################################################
 =begin comment
 
@@ -79,7 +81,8 @@ sub MAIN
 
     for @primes.combinations: $n -> List $comb
     {
-        my UInt $sum = [+] $comb;
+        my UInt $sum = sum $comb;
+       # my UInt $sum = [+] $comb;
 
         @prime-partitions.push: Array[Pos].new: |$comb if $sum == $m;
     }

@@ -1,6 +1,6 @@
-#!/usr/bin/env raku
+#!/usr/bin/env raku # do-not-check
 
-BEGIN die 'not ok - disabled: does not work with moar-blead right now.';
+# 2023-02-16 GH5209 need to use '[+] |' ??
 
 #|Given a starting number (default 0) find the first two Amicable numbers following it.
 multi sub MAIN ( Int $start = 0 ) {
@@ -16,13 +16,15 @@ multi sub MAIN ( Int $start = 0 ) {
 }
 
 sub first-pair( Int $number ) {
-    my $num-total = [+] divisors( $number );
+   #my $num-total = sum divisors( $number );
+    my $num-total = [+] |divisors( $number );
     (1..^$number).first( 
         {
-            my $sum = [+] divisors( $_ );
+            my $sum = sum divisors( $_ );
+           #my $sum = [+] |divisors( $_ );
             ($sum == $number && $num-total == $_) 
         }
-    );
+    )
 }
 
 sub divisors( Int $number ) is pure {

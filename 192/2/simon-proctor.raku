@@ -1,5 +1,7 @@
 #!/usr/bin/env raku
 
+# 2023-02-16 GH5209 
+
 BEGIN die 'not ok - disabled: JVM cannot handle the code' if $*VM ~~ /jvm/;
 
 #multi sub MAIN("TEST") is hidden-from-USAGE {
@@ -19,7 +21,13 @@ multi sub flatten-moves( $ ) { -1 }
 
 multi sub flatten-moves( CanAverage $v ) {
     my $moves = 0;
-    my $avg =  ( ([+] $v) / $v.elems );
+   #my $avg =  ( ([+]  $v) / $v.elems ); # GH5209 no longer
+    my $avg =  ( (sum  $v) / $v.elems ); # OK
+   #my $avg =  ( (sum |$v) / $v.elems ); # OK
+   #my $avg =  ( (sum @$v) / $v.elems ); # OK
+   #my $avg =  ( ([+] |$v) / $v.elems ); # OK
+   #my $avg = (([+]flat $v)/ $v.elems ); # OK
+   #my $avg =  ( ([+] @$v) / $v.elems ); # OK
     my $point = 0;
     while ( (all( $v ) !~~ $avg) ) {
         if ( $v[$point] ~~ $avg ) {
