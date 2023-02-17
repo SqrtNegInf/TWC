@@ -1,5 +1,7 @@
 #!/usr/bin/env raku
 
+# 2023-02-16 GH5209
+
 sub MAIN(Int $SUM where $SUM > 0 = 51) {
     prime-sum($SUM).join("\n").say;
 }
