@@ -10,7 +10,8 @@ sub prime-sum(Int $sum) {
     my @prime-sum = Empty;
     for 1..$sum -> $i {
         for @prime.combinations: $i -> $j {
-            my $_sum = [+] $j;
+            my $_sum = sum $j;
+           #my $_sum = [+] $j;
             @prime-sum.push: $j if $_sum == $sum;
         }
     }
