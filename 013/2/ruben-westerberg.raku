@@ -1,5 +1,7 @@
 #!/usr/bin/env raku
 
+BEGIN die 'not ok - disabled: as of 2023-02-15 is crashing';
+
 sub male ($n) {
 	$n==0??0!!($n - female(male($n-1)));
 }

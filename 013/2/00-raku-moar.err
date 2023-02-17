@@ -1,0 +1,7 @@
+[31m===[0mSORRY![31m===[0m Error while compiling /Users/dhoekman/PWC/013/2/ruben-westerberg.raku
+An exception X::AdHoc occurred while evaluating a BEGIN: not ok - disabled: as of 2023-02-15 is crashing
+at /Users/dhoekman/PWC/013/2/ruben-westerberg.raku:3
+Exception details:
+  not ok - disabled: as of 2023-02-15 is crashing
+    in code  at ruben-westerberg.raku line 3
+
