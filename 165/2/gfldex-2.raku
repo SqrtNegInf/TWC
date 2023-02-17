@@ -1,6 +1,8 @@
 #!/usr/bin/env raku
 # from https://gfldex.wordpress.com/2022/05/21/writing-it-down/
 
+# 2023-02-17 GH5209
+
 my $input = '333,129  39,189 140,156 292,134 393,52  160,166 362,122  13,193
                 341,104 320,113 109,177 203,152 343,100 225,110  23,186 282,102
                 284,98  205,133 297,114 292,126 339,112 327,79  253,136  61,169
@@ -19,6 +21,8 @@ sub delayed(&c) is rw {
     my \xy = delayed { @points[*;0] »*« @points[*;1] };
     my \Σx = delayed { [+] @points[*;0] };
     my \Σy = delayed { [+] @points[*;1] };
+say x².WHAT;
+say xy.WHAT;
     my \term:<Σx²> = delayed { sum x² };
     my \Σxy = delayed { sum xy };
    #my \term:<Σx²> = delayed { [+] x² };
