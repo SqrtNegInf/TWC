@@ -2,7 +2,29 @@
 ## run all tasks, see what shakes out...
 
 source $HOME/.profile
+
+cd $HOME/.rakubrew
+bin/rakubrew mode shim
+bin/rakubrew switch moar-blead
+
+raku -v
+echo ''
+
+#cleanup-precomp
+#(cd $HOME/.rakubrew/versions/moar-blead; rm -rf install/share/perl6/core/precomp/*; ./tools/nuke-precomps.raku)
+#rm -rf $HOME/perl6/Rosetta-Code/lib/.precomp
+
 cd $HOME/PWC
+
+#cd 031/2 
+#raku ./adam-russell.raku
+#raku ./stuart-little.raku
+#cd ../../130/2 
+#raku ./arne-sommer.raku
+#cd ../../129/2 
+#raku ./arne-sommer.raku
+#
+#exit
 
 time bin/PWC-rerun 0* 1*
 
