@@ -1,6 +1,21 @@
+2023-02-19
+Spoke too soon, no.  Errors 'v6c.nqp' blocking everything.
+p.s. But with update v2022.12-1219 maybe things back to normal?
+
+2023-02-18
+Everything fine now with complete reinstall of Raku.
+
+2023-02-17
+GH5209 cleanup complete, 17 tasks updated. But is this end of story yet?
+Had to 'rakubrew nuke moar-blead' as all tasks that have <use lib '.'> had the 'gen/moar/BOOTSTRAP/v6c.nqp' error,
+e.g. ~/PWC/{129,130}/2/arne-sommer.raku
+p.s. 'cleanup-precomp' doesn't find /perl6/Rosetta-Code/lib/.precomp, maybe that's why PWC tasks croaked?
+Probably a lot of pointless updates based on 'srand' flapping...
+
 2023-02-16
-Work on GH5209 (thundergnat++) begins to resolve the failures, but likely not done today.
-'020/2/simon-proctor.raku' remains blocked, still runs forever.
+With GH5209 (thundergnat++) failures being resolved... 
+But changes in code needs because [+] and sum no longer operate the same way on scalar containers?
+Those changes mixed in with 'srand' changes, notate and update separately
 
 2023-02-13
 Today's 'moar-blead' will likely cause a bunch of failures...
