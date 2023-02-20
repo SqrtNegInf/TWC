@@ -20,4 +20,5 @@ mkdir 'TMP';
 shell(qq|cp $modPath ./TMP/{$mod}.rakumod|);
 require ::($mod);
 say ::("{$mod}::EXPORT::ALL").WHO.keys.sort.grep(*.starts-with('&'));
+shell(qq|rm -rf ./TMP/.precomp|);
 shell(qq|rm -rf ./TMP|);
