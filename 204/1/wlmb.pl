@@ -1,14 +1,7 @@
 #!/usr/bin/env perl
-# Perl weekly challenge 204
-# Task 1:  Monotonic Array
-#
-# See https://wlmb.github.io/2023/02/13/PWC204/#task-1-monotonic-array
+
 use v5.36;
-die <<~"FIN" unless @ARGV;
-    Usage: $0 N1 [N2...]
-    to test if the sequence N1 N2... is monotonic
-    FIN
-my @orig=@ARGV;
+my @orig= (1,2,3,4,5,6,7,8,9,10,11,11,11,1,12,13,14,15,15,15,15,16,17,19);
 my $current=shift;
 my ($increasing, $decreasing);
 for(@ARGV){

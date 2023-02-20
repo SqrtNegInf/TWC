@@ -1,26 +1,5 @@
 #!/usr/bin/env perl
 
-=pod
-
-The Weekly Challenge - 204
-- https://theweeklychallenge.org/blog/perl-weekly-challenge-204/#TASK1
-
-Author: Niels 'PerlBoy' van Dijke
-
-Task 1: Monotonic Array
-Submitted by: Mohammad S Anwar
-
-You are given an array of integers.
-
-Write a script to find out if the given array is Monotonic. Print 1 if it is otherwise 0.
-
-|| An array is Monotonic if it is either monotone increasing or decreasing.
-
-Monotone increasing: for i <= j , nums[i] <= nums[j]
-Monotone decreasing: for i <= j , nums[i] >= nums[j]
-
-=cut
-
 use v5.16;
 use common::sense;
 

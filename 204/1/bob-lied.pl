@@ -1,20 +1,4 @@
 #!/usr/bin/env perl
-# vim:set ts=4 sw=4 sts=4 et ai wm=0 nu:
-#=============================================================================
-# ch-1.pl Perl Weekly Challenge Week 204 Task 1 Monotonic Array
-#=============================================================================
-# Copyright (c) 2023, Bob Lied
-#=============================================================================
-# You are given an array of integers.
-# Write a script to find out if the given array is Monotonic.
-# Print 1 if it is otherwise 0.
-# An array is Monotonic if it is either monotone increasing or decreasing.
-# Monotone increasing: for i <= j , nums[i] <= nums[j]
-# Monotone decreasing: for i <= j , nums[i] >= nums[j]
-# Example 1 Input: @nums = (1,2,2,3) Output: 1
-# Example 2 Input: @nums (1,3,2) Output: 0
-# Example 3 Input: @nums = (6,5,5,4) Output: 1
-#=============================================================================
 
 use v5.36;
 
@@ -23,10 +7,10 @@ use List::MoreUtils qw/slide/;
 
 use Getopt::Long;
 my $Verbose = 0;
-my $DoTest  = 0;
+my $DoTest  = 1;
 
 GetOptions("test" => \$DoTest, "verbose" => \$Verbose);
-exit(!runTest()) if $DoTest;
+runTest() if $DoTest;
 
 sub isMonotonic($array)
 {
@@ -43,7 +27,7 @@ sub isMonotonic($array)
 
 sub runTest
 {
-    use Test2::V0;
+    use Test2::V0 -srand => 1;
 
     is( isMonotonic([         ]), 1, "Empty");
     is( isMonotonic([ 7       ]), 1, "One element");

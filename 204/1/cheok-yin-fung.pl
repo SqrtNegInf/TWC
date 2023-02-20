@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-# The Weekly Challenge 204
-# Task 1 Monotonic Array
+
 use v5.30.0;
 use warnings;
 use List::Util qw/all/;

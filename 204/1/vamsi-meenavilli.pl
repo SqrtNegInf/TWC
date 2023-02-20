@@ -4,27 +4,6 @@ use warnings FATAL => 'all';
 
 use Test2::V0 -srand => 1;
 
-=head1 AUTHORS
-
-Vamsi Meenavilli
-
-=head1 DESCRIPTION
-
-     Week 204:
-
-    https://theweeklychallenge.org/blog/perl-weekly-challenge-204
-
-    Task 1: Monotonic Array
-    Submitted by: Mohammad S Anwar
-    You are given an array of integers.
-
-    Write a script to find out if the given array is Monotonic. Print 1 if it is otherwise 0.
-
-    An array is Monotonic if it is either monotone increasing or decreasing.
-
-=cut
-
-
 ok(IsMonotonicArray(1,2,2,3), 'Test Case 1 Failed.');
 ok(!IsMonotonicArray(1,3,2), 'Test Case 2 Failed.');
 ok(IsMonotonicArray(6,5,5,4), 'Test Case 2 Failed.');
