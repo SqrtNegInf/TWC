@@ -15,23 +15,9 @@ echo ''
 #rm -rf $HOME/perl6/Rosetta-Code/lib/.precomp
 
 cd $HOME/PWC
-
-#cd 031/2 
-#raku ./adam-russell.raku
-#raku ./stuart-little.raku
-#cd ../../130/2 
-#raku ./arne-sommer.raku
-#cd ../../129/2 
-#raku ./arne-sommer.raku
-#
-#exit
+rm -rf */*/.precomp 107/2/TMP
 
 time bin/PWC-rerun 0* 1*
-
-# do this to avoid warnings from Math::Matrix?
-#bin/PWC-run 011 2 moar
-#bin/PWC-run 027 1 moar
-#bin/PWC-run 068 1 moar
 
 echo ' '
 git status
