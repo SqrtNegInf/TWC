@@ -1,3 +1,7 @@
+2023-02-20
+D'oh, found .precomp directories everywhere in PWC tree, that was the final problem.
+All errors have been cleared.  Still 'srand' noise though...
+
 2023-02-19
 Spoke too soon, no.  Errors 'v6c.nqp' blocking everything.
 p.s. But with update v2022.12-1219 maybe things back to normal?
