@@ -1,13 +1,6 @@
 #!/usr/bin/env raku
 
-#
-# Perl Weekly Challenge 204
-# Task 1
-#
-# See <https://perlweeklychallenge.org/blog/perl-weekly-challenge-204/>
-#
-
-sub MAIN( *@list where { @list.grep( * ~~ Int ).elems == @list.elems } ) {
+sub MAIN( @list where { @list.grep( * ~~ Int ).elems == @list.elems } = (1,2,3,4,5,6,7,8,9,10,11,11,11,1,12,13,14,15,15,15,15,16,17,19) ) {
     my $monotonic-type;
     for 0 ^..^ @list.elems {
 	if ( ! $monotonic-type ) {

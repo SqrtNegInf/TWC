@@ -17,17 +17,17 @@ sub monotonic-array(Int @elements --> Int) {
 }
 
 #| Run test cases
-multi sub MAIN('test') {
+#multi sub MAIN('test') {
     use Test;
     plan 3;
 
     is monotonic-array(Array[Int].new([1, 2, 2, 3])), 1, 'works for (1, 2, 2, 3)';
     is monotonic-array(Array[Int].new([1, 3, 2])), 0, 'works for (1, 3, 2)';
     is monotonic-array(Array[Int].new([6, 5, 5, 4])), 1, 'works for (6, 5, 5, 4)';
-}
+#}
 
 #| Take user provided list like 1 2 2 3
-multi sub MAIN(*@elements where all(@elements) ~~ /^<[+-]>?<[0..9]>+$/) {
-    my Int @int_elements = @elements;
-    monotonic-array(@int_elements) ?? say 1 !! say 0;
-}
+#multi sub MAIN(*@elements where all(@elements) ~~ /^<[+-]>?<[0..9]>+$/) {
+#    my Int @int_elements = @elements;
+#    monotonic-array(@int_elements) ?? say 1 !! say 0;
+#}

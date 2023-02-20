@@ -1,11 +1,5 @@
 #!/usr/bin/env raku
 # This program has been created by ChatGPT
-#
-# Test run:
-# $ raku ch-1.raku 
-# 1
-# 0
-# 1
 
 sub is_monotonic(@nums) {
     my $increasing = True;

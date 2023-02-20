@@ -1,6 +1,6 @@
 #!/usr/bin/env raku
-sub task1 ( @ns --> Bool ) { ([<=] @ns) || ([>=] @ns) }
 
+sub task1 ( @ns --> Bool ) { ([<=] @ns) || ([>=] @ns) }
 
 my @tests =
     (1,2,2,3) => 1,

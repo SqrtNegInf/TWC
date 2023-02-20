@@ -1,4 +1,5 @@
 #!/usr/bin/env raku
+
 sub is-monotonic (@in) {
     [>=] @in or [<=] @in;
 }
