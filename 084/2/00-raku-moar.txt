@@ -6,16 +6,18 @@
 4
  
 ===> 084/2/colin-crain.raku <===
-(0 1 0 1 1 0)
-(0 1 0 1 0 0)
-(1 0 0 1 1 0)
-(1 1 1 0 1 0)
-(1 1 0 1 0 1)
+(0 0 1 1 0 0)
+(1 1 0 0 1 1)
+(1 1 0 1 0 0)
+(1 1 1 0 1 1)
+(1 1 0 1 0 0)
 
-found 2 squares:
+found 4 squares:
 
+column 1 row 2 from top - square of size 2
+column 1 row 3 from top - square of size 2
 column 1 row 4 from top - square of size 2
-column 2 row 1 from top - square of size 4
+column 2 row 3 from top - square of size 3
  
 ===> 084/2/feng-chang.raku <===
 1

@@ -120,26 +120,26 @@ ok 7 - test nested matching with alternate chars
 (())  - True
 )(    - False
 ())() - False
+())( is not balanced.
 )()) is not balanced.
-))() is not balanced.
-)((( is not balanced.
 (((( is not balanced.
+((() is not balanced.
 )))) is not balanced.
-)(() is not balanced.
+(()) is balanced.
+())) is not balanced.
+()() is balanced.
+()() is balanced.
+()() is balanced.
 )()) is not balanced.
-)()( is not balanced.
-)()( is not balanced.
-)()( is not balanced.
-))() is not balanced.
+(((( is not balanced.
+((() is not balanced.
+((() is not balanced.
 )((( is not balanced.
 (((( is not balanced.
-)((( is not balanced.
-))(( is not balanced.
-(((( is not balanced.
-())) is not balanced.
-())) is not balanced.
 )))( is not balanced.
-)()) is not balanced.
+)))) is not balanced.
+))() is not balanced.
+())( is not balanced.
  
 ===> 042/2/roger-bell-west.raku <===
 (()(
