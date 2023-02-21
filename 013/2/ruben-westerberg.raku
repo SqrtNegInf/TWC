@@ -10,7 +10,7 @@ sub female($n) {
 
 my (@male, @female);
 
-for (0..(@*ARGS[0]//15)) {  # crashes with 19 or above?
+for (0..(@*ARGS[0]//19)) {  # crashes with 19 or above?
 	push @female, female($_);
 	push @male, male($_);
 }
