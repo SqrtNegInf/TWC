@@ -1,16 +1,9 @@
 #!/usr/bin/env raku
 
-#
-# Perl Weekly Challenge 204
-# Task 2
-#
-# See <https://perlweeklychallenge.org/blog/perl-weekly-challenge-204/>
-#
-
 # raku raku/ch-2.p6 -r=3 -c=2 "1 2 3" "4 5 6"
 # [[1 2] [3 4] [5 6]]
 
-sub MAIN( Int :$r, Int :$c, *@matrix ) {
+sub MAIN( Int $r = 3, Int $c = 2, @matrix = ([ 1, 2, 3 ], [ 4, 5, 6 ]) ) {
     my @M = @matrix.map: {  $_.split( ' ' )  };
 
     # if cannot reshape, exit

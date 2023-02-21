@@ -1,7 +1,5 @@
 #!/usr/bin/env raku
 
-use v6.d;
-
 sub can-reshape(List $list, Int $rows, Int $columns --> Bool) {
     $list.elems == $rows × $columns;
 }

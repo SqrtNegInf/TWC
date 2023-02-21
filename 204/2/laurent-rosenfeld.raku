@@ -1,4 +1,5 @@
 #!/usr/bin/env raku
+
 sub reshape (@matrix, $r, $c) {
     my @result;
     my $rows = @matrix.elems;
@@ -10,6 +11,7 @@ sub reshape (@matrix, $r, $c) {
     }
     return @result;
 }
+
 sub display-result (@mat, $rc) {
     say @mat.gist.fmt("%-18s - "), "$rc => ",
         reshape(@mat, | $rc);

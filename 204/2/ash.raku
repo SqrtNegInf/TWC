@@ -1,15 +1,4 @@
 #!/usr/bin/env raku
-# A Raku solution to the Task 2 "Reshape Matrix" of the Weekly Challenge 204
-# https://theweeklychallenge.org/blog/perl-weekly-challenge-204/#TASK2
-# Solved together with ChatGPT. The whole dialogue with the machine is published in my blog:
-# https://andrewshitov.com/2023/02/13/solving-task-2-of-the-weekly-challenge-204-with-the-help-of-chatgpt/
-
-# Test run:
-# $ raku ch-2.raku 
-# [1 2 3 4]
-# [[1 2] [3 4] [5 6]]
-# [[1] [2]]
-# 0
 
 sub reshape-matrix (@matrix, $r, $c) {
     my @flat = @matrix.map(*.flat).flat;

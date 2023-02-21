@@ -1,9 +1,9 @@
 #!/usr/bin/env raku
 
 sub MAIN(
-    $r,
-    $c,
-    *@args
+    $r = 3,
+    $c = 2,
+    @args = ([ 1, 2, 3 ], [ 4, 5, 6 ])
 ) {
     my @input = @args.map({ $_.split(/\s/).map({ $_.Int; }); }).flat;
 

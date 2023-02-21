@@ -1,10 +1,10 @@
 #!/usr/bin/env raku
+
 sub task2 (@matrix, UInt $r, UInt $c) {
     return @matrix.flat.elems == $r * $c
         ?? @matrix.flat.batch($c)
         !! 0;
 }
-
 
 my @tests =
     ( 1, 4, ( ( 1, 2    ) , ( 3, 4    ) ) ) => ( ( 1, 2, 3, 4, ),             ),
