@@ -1,16 +1,9 @@
 #!/usr/bin/env perl
 
-# Peter Campbell Smith - 2023-02-14
-
 use v5.28;
 use utf8;
 use warnings;
 use Time::HiRes qw(time);
-
-# You are given a matrix (m x n) and two integers (r) and (c). Write a script to reshape the given matrix in form 
-# (r x c) with the original values in the given matrix. If you can’t reshape print 0.
-
-# Blog: http://ccgi.campbellsmiths.force9.co.uk/challenge/204/2
 
 my (@linear, $width, $x);
 

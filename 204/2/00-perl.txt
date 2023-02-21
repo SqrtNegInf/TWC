@@ -1,0 +1,196 @@
+ 
+===> 204/2/athanasius.pl <===
+Running the test suite
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ok 4 - Letters 1
+ok 5 - Letters 2
+ok 6 - Letters 3
+1..6
+ 
+===> 204/2/bob-lied.pl <===
+# Seeded srand with seed '1' from import arg.
+ok 1 - Example 3
+ok 2 - Example 1
+ok 3 - Example 2
+1..3
+ 
+===> 204/2/carlos-oliveira.pl <===
+ok 1
+ok 2
+ok 3
+ok 4
+ok 5
+1..5
+ 
+===> 204/2/dave-jacoby.pl <===
+    Input:  $matrix = [[1, 2], [3, 4]]
+            $r = 1
+            $c = 4
+    Output: [[1, 2, 3, 4]]
+
+    Input:  $matrix = [[1, 2, 3], [4, 5, 6]]
+            $r = 3
+            $c = 2
+    Output: [[1, 2], [3, 4], [5, 6]]
+
+    Input:  $matrix = [[1, 2]]
+            $r = 3
+            $c = 2
+    Output: 0
+
+ 
+===> 204/2/laurent-rosenfeld.pl <===
+[1 2][3 4]      - 1 4 => [1 2 3 4]
+[1 2][3 4]      - 4 1 => [1][2][3][4]
+[1 2][3 4]      - 2 2 => [1 2][3 4]
+[1 2][3 4]      - 3 4 => [0]
+[1 2 3][4 5 6]  - 3 2 => [1 2][3 4][5 6]
+[1 2 3][4 5 6]  - 2 3 => [1 2 3][4 5 6]
+[1 2 3][4 5 6]  - 1 6 => [1 2 3 4 5 6]
+[1 2 3][4 5 6]  - 6 1 => [1][2][3][4][5][6]
+[1 2 3][4 5 6]  - 6 3 => [0]
+ 
+===> 204/2/lubos-kolouch.pl <===
+Reshaped matrix:
+1 2 3 4
+ 
+===> 204/2/matthias-muth.pl <===
+Example 1
+[ 1 2 ]
+[ 3 4 ]
+r 1
+c 4
+[ 1 2 3 4 ]
+
+Example 2
+[ 1 2 3 ]
+[ 4 5 6 ]
+r 3
+c 2
+[ 1 2 ]
+[ 3 4 ]
+[ 5 6 ]
+
+Example 3
+[ 1 2 ]
+r 3
+c 2
+0
+
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+1..3
+ 
+===> 204/2/perlboy1967.pl <===
+ok 1
+ok 2
+ok 3
+1..3
+ 
+===> 204/2/peter-campbell-smith.pl <===
+
+Input:  [ 1  2  3 ]
+        [ 4  5  6 ]
+        $r = 2, $c = 3
+
+Output: [ 1  2 ]
+        [ 3  4 ]
+        [ 5  6 ]
+        $r = 3, $c = 2
+
+Input:  [  1   2   3   4   5   6 ]
+        [ 11  12  13  14  15  16 ]
+        $r = 2, $c = 6
+
+Output: [  1   2   3   4 ]
+        [  5   6  11  12 ]
+        [ 13  14  15  16 ]
+        $r = 3, $c = 4
+
+Input:  [ 1  2  3 ]
+        [ 4  5  6 ]
+        $r = 2, $c = 3
+
+Output: 0
+        $r = 3, $c = 7
+
+Input:  [    1    12   123  1234 ]
+        [ 4321   321    21     1 ]
+        $r = 2, $c = 4
+
+Output: [    1    12 ]
+        [  123  1234 ]
+        [ 4321   321 ]
+        [   21     1 ]
+        $r = 4, $c = 2
+ 
+===> 204/2/pip.pl <===
+[ 1 2 ]
+[ 3 4 ]
+$r = 1, $c = 4 => [ [ 1 2 3 4 ] ];
+[ 1 2 3 ]
+[ 4 5 6 ]
+$r = 3, $c = 2 => [ [ 1 2 ], [ 3 4 ], [ 5 6 ] ];
+[ 1 2 ]
+$r = 3, $c = 2 => 0;
+ 
+===> 204/2/polettix.pl <===
+$VAR1 = [
+          [
+            1,
+            2
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            5,
+            6
+          ]
+        ];
+
+ 
+===> 204/2/robbie-hatley.pl <===
+
+Original matrix (2 rows, 2 cols):
+1 2
+3 4
+Reshaped matrix (1 rows, 4 cols):
+1 2 3 4
+
+Original matrix (2 rows, 3 cols):
+1 2 3
+4 5 6
+Reshaped matrix (3 rows, 2 cols):
+1 2
+3 4
+5 6
+
+Original matrix (1 rows, 2 cols):
+1 2
+Reshaped matrix (3 rows, 2 cols):
+0
+(Couldn't reshape.)
+ 
+===> 204/2/roger-bell-west.pl <===
+1..3
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ 
+===> 204/2/vamsi-meenavilli.pl <===
+ok 1 - Test Case 1 Failed.
+ok 2 - Test Case 2 Failed.
+ok 3 - Test Case 2 Failed.
+1..3
+ 
+===> 204/2/zapwai.pl <===
+Input: ($r,$c) = (1,4)
+	[1 2]
+	[3 4]
+Output: 
+	[ 1 2 3 4 ]

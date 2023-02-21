@@ -1,8 +1,7 @@
 #!/usr/bin/env perl
-use v5.24;
-use warnings;
-use experimental 'signatures';
-no warnings 'experimental::signatures';
+
+use v5.36;
+
 use Data::Dumper;
 
 my $reshaped = reshape_matrix([ [ 1 .. 3], [ 4 .. 6] ], 3, 2);
