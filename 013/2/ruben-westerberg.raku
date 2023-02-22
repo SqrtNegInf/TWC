@@ -1,4 +1,4 @@
-#!/usr/bin/env raku # do-not-check
+#!/usr/bin/env raku
 
 sub male ($n) {
 	$n==0??0!!($n - female(male($n-1)));
@@ -10,7 +10,7 @@ sub female($n) {
 
 my (@male, @female);
 
-for (0..(@*ARGS[0]//19)) {  # crashes with 19 or above?
+for (0..(@*ARGS[0]//14)) {  # crashes with 19 or above?
 	push @female, female($_);
 	push @male, male($_);
 }
