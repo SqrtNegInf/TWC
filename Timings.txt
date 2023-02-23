@@ -1,4 +1,4 @@
-Stats on 'PWC-rerun':
+Stats on 'PWC-rerun' cronjob:
 
 2022-02-11 144-150 193% cpu    6:45 total
 2022-03-08 118-153 385% cpu   12:43 total
@@ -13,3 +13,8 @@ Stats on 'PWC-rerun':
 2022-10-26 001-187            44:43 total (perl,moar: user:232m 0s sys:27m59s)
 2022-11-28 001-192            46:41 total (perl,moar: user:235m 0s sys:29m52s)
 2023-01-30 001-200            48:31 total (perl,moar: user 247m09s sys:32m31s)
+
+New pattern: now runs with no CPU competition, will probably affect numbers
+
+2023-02-05 001-200 real 39m07s  user 246m31s  sys 28m26s
+2023-02-22 001-204 real 42m23s  user 248m44s  sys 30m45s
