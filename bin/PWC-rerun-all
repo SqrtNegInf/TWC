@@ -17,7 +17,7 @@ echo ''
 cd $HOME/PWC
 rm -rf */*/.precomp 107/2/TMP
 
-time bin/PWC-rerun 0* 1*
+time bin/PWC-rerun 0* 1* 2*
 
 echo ' '
 git status
