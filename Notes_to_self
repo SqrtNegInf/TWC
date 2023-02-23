@@ -1,6 +1,10 @@
+2023-02-23
+Belatedly added 200-series challenges to nightly testing, bunch of fixes needed.
+
 2023-02-20
 D'oh, found .precomp directories everywhere in PWC tree, that was the final problem.
 All errors have been cleared.  Still 'srand' noise though...
+Restored 'lib' as symbolic link in a few cases where it had become an actual directory.
 
 2023-02-19
 Spoke too soon, no.  Errors 'v6c.nqp' blocking everything.
