@@ -22,7 +22,7 @@ MAIN:{
         my @s = sort @{$result->[1]};
         $h{\@s} = undef;
     }
-    for my $k ( sort { @{$b} <=> @{$a} } keys %h){
+    for my $k ( sort { @{$b} <=> @{$a} } sort keys %h){
         print "(" . join(",", @{$k}) . ")";
         print "\n";
     }
