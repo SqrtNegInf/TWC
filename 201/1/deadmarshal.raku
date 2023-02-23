@@ -2,7 +2,7 @@
 
 sub missing-numbers(@arr)
 {
-  ((0..max(max(@arr),@arr.elems)) (-) @arr).keys;
+  ((0..max(max(@arr),@arr.elems)) (-) @arr).keys.sort;  # add .sort for output stability
 }
 
 say missing-numbers([0,1,3]);
