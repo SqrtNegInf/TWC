@@ -19,6 +19,11 @@ Usage:
 ===> 203/2/barroff.raku <===
  
 ===> 203/2/laurent-rosenfeld.raku <===
+Created ./x/y/1 from ./a/b/c/1.
+Created ./x/y/2 from ./a/b/c/2.
+Created ./x/y/3 from ./a/b/c/3.
+Created ./x/y/4 from ./a/b/c/4.
+Created ./x/y/5 from ./a/b/c/5.
  
 ===> 203/2/luca-ferrari.raku <===
  

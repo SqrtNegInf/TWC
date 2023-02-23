@@ -102,10 +102,5 @@ Usage:
 Usage:
   barroff.raku test -- Rebuild example test case
   barroff.raku <source_dir> <target_dir> -- Call on user provided options
-Path ./x/y/1 already exists. Omitted
-Path ./x/y/2 already exists. Omitted
-Path ./x/y/3 already exists. Omitted
-Path ./x/y/4 already exists. Omitted
-Path ./x/y/5 already exists. Omitted
 Usage:
   luca-ferrari.raku <src> <dst>
