@@ -32,7 +32,7 @@ sub consecOdd($array, $consec=CONSECUTIVE)
 
 sub runTest
 {
-    use Test2::V0;
+    use Test2::V0 -srand => 1;
 
     is( consecOdd([1,5,3,6]), 1, "Example 1");
     is( consecOdd([2,6,3,5]), 0, "Example 2");

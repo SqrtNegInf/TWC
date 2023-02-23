@@ -20,7 +20,7 @@ ok 7 - Unchanging
 1..7
  
 ===> 200/1/bob-lied.pl <===
-# Seeded srand with seed '20230124' from local date.
+# Seeded srand with seed '1' from import arg.
 ok 1 - Example 1
 ok 2 - Example 2
 ok 3 - Bigger list, more diffs

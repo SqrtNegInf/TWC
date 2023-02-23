@@ -37,7 +37,7 @@ sub aslice(@list)
 
 sub runTest
 {
-    use Test2::V0;
+    use Test2::V0 -srand => 1;
 
     is( aslice( 1,2,3,4 ), [ [1,2,3], [2,3,4], [1,2,3,4] ],  "Example 1");
     is( aslice( 2       ), [ ],                              "Example 2");
