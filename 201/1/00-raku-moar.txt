@@ -34,7 +34,7 @@ ok 3 -
 (2 4 6 7 8)
  
 ===> 201/1/jaldhar-h-vyas.raku <===
-2, 6, 4
+2, 4, 6
  
 ===> 201/1/laurent-rosenfeld.raku <===
 0 1 3           => 2
