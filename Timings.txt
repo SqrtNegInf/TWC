@@ -17,4 +17,4 @@ Stats on 'PWC-rerun' cronjob:
 New pattern: now runs with no CPU competition, will probably affect numbers
 
 2023-02-05 001-200 real 39m07s  user 246m31s  sys 28m26s
-2023-02-22 001-204 real 42m23s  user 248m44s  sys 30m45s
+2023-02-25 001-204 real 39m17s  user 245m58s  sys 29m25s
