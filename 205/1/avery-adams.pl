@@ -7,7 +7,7 @@ use Scalar::Util;
 
 my @nums;
 
-foreach (@ARGV) {
+foreach ( (5,4,4,3) ) {
     if (Scalar::Util::looks_like_number($_)) {
         push @nums, $_;
     }

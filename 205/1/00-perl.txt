@@ -1,0 +1,123 @@
+ 
+===> 205/1/athanasius.pl <===
+
+Challenge 205, Task #1: Third Highest (Perl)
+
+Running the test suite
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ok 4 - Negatives
+1..4
+ 
+===> 205/1/avery-adams.pl <===
+3
+ 
+===> 205/1/barroff.pl <===
+1..3
+ok 1 - works for (5, 3, 4)
+ok 2 - works for (5, 6)
+ok 3 - works for (5, 4, 4, 3)
+ 
+===> 205/1/bruce-gray.pl <===
+1..3
+ok 1
+ok 2
+ok 3
+ 
+===> 205/1/cheok-yin-fung.pl <===
+1..5
+ok 1
+ok 2
+ok 3
+ok 4
+ok 5
+ 
+===> 205/1/dave-jacoby.pl <===
+    Input:  @array = (5,3,4)
+    Output: 3
+
+    Input:  @array = (5,6)
+    Output: 6
+
+    Input:  @array = (5,4,4,3)
+    Output: 3
+
+ 
+===> 205/1/deadmarshal.pl <===
+3
+6
+3
+ 
+===> 205/1/e-choroba.pl <===
+1..5
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ok 4 - Single element
+ok 5 - Long list
+ 
+===> 205/1/james-smith.pl <===
+ok 1
+ok 2
+ok 3
+ok 4
+ok 5
+ok 6
+ok 7
+ok 8
+ok 9
+1..9
+ 
+===> 205/1/laurent-rosenfeld.pl <===
+5 3 4        => 3 
+5 6          => 6 
+5 4 4 3      => 4 
+5 6 7 8 2 1  => 6 
+ 
+===> 205/1/perlboy1967.pl <===
+ok 1
+ok 2
+ok 3
+ok 4
+ok 5
+ok 6
+1..6
+ 
+===> 205/1/peter-campbell-smith.pl <===
+
+Input:  @array = (5, 3, 4)
+Output: First highest is 5. Second highest is 4. Third highest is 3.
+
+Input:  @array = (5, 6)
+Output: First highest is 6. Second highest is 5. Third highest is missing so maximum is returned.
+
+Input:  @array = (5, 4, 4, 3)
+Output: First highest is 5. Second highest is 4. Third highest is 3.
+
+Input:  @array = (-3, -2, -1)
+Output: First highest is -1. Second highest is -2. Third highest is -3.
+
+Input:  @array = (1, 1, 1, 1, 1)
+Output: First highest is 1. Second and third highest are missing so maximum is returned.
+
+Input:  @array = ()
+Output: List is empty.
+
+Input:  @array = (41, 454, 834, 335, 565, 1, 187, 990, 750, 366, 351, 573, 132, 64, 950, 153, 584, 216, 806, 140, 622, 210, 6, 573, 932, 340, 891, 593, 392, 899, 694, 228, 962, 12, 110, 884, 116, 750, 296, 646, 426, 500, 314, 436, 660, 702, 774, 813, 319, 982, 679, 150, 876, 696, 377, 564, 474, 272, 939, 259, 540, 647, 569, 509, 203, 88, 280, 704, 759, 670, 607, 375, 512, 552, 658, 937, 195, 593, 81, 569, 267, 953, 229, 801, 338, 584, 945, 643, 903, 368, 242, 489, 913, 329, 827, 313, 934, 593, 986, 388)
+Output: First highest is 990. Second highest is 986. Third highest is 982.
+ 
+===> 205/1/polettix.pl <===
+3
+ 
+===> 205/1/roger-bell-west.pl <===
+1..3
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ 
+===> 205/1/ulrich-rieke.pl <===
+3
+ 
+===> 205/1/wlmb.pl <===
+5 4 4 3 -> 3

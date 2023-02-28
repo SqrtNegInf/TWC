@@ -4,7 +4,7 @@ use warnings ;
 use feature 'say' ;
 
 my %uniques ;
-map { $uniques{$_}++ } @ARGV ;
+map { $uniques{$_}++ } 5,4,4,3 ;
 my @unique = keys %uniques ;
 my @sorted = sort { $b <=> $a } @unique ;
 if ( scalar( @unique ) < 3 ) {

@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-# The Weekly Challenge 205
-# Task 1 Third Highest
+
 use v5.30.0;
 use warnings;
 use List::Util qw/max uniq/;

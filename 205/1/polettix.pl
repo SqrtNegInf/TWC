@@ -3,7 +3,7 @@ use v5.24;
 use warnings;
 use experimental 'signatures';
 
-say third_highest(@ARGV);
+say third_highest((5,4,4,3));
 
 sub third_highest (@array) {
    my @highest;

@@ -3,7 +3,6 @@ use strict;
 use warnings;
 use feature "say";
 
-
 sub third_largest  {
     my @s = sort {$b <=> $a} @_;
     return scalar @s >= 3 ? $s[2] : $s[0];
