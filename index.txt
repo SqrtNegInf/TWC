@@ -429,8 +429,8 @@ Challenge titles and Rosetta-code correspondences (exact, and otherwise)
 204-2 Reshape Matrix
 205-1 Third Highest
 205-2 Maximum XOR
-206-1
-206-2
+206-1 Shortest Time
+206-2 Array Pairings
 207-1
 207-2
 208-1
