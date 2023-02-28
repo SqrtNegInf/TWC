@@ -3,7 +3,7 @@ use v5.24;
 use warnings;
 use experimental qw< bitwise signatures >;
 
-say maximum_xor(@ARGV);
+say maximum_xor((13,13,9,1));
 
 sub maximum_xor (@array) {
    my $max = 0;

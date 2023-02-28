@@ -1,21 +1,5 @@
 #!/usr/bin/env perl
 
-=pod
-
-The Weekly Challenge - 205
-- https://theweeklychallenge.org/blog/perl-weekly-challenge-205
-
-Author: Niels 'PerlBoy' van Dijke
-
-Task 2: Maximum XOR
-Submitted by: Mohammad S Anwar
-
-You are given an array of integers.
-
-Write a script to find the highest value obtained by XORing any two distinct members of the array.
-
-=cut
-
 use v5.16;
 
 use common::sense;

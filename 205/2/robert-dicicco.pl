@@ -1,11 +1,4 @@
 #!/usr/bin/env perl
-=begin comment
--------------------------------
-AUTHOR: Robert DiCicco
-DATE  : 2023-02-20
-Challenge 205 Maximum XOR ( Perl )
--------------------------------
-=cut
 
 use strict;
 use warnings;
@@ -29,19 +22,3 @@ for (@array) {
     $maxv = 0;
     print("\n");
 }
-
-=begin comment
--------------------------------
-SAMPLE OUTPUT
-perl .\MaximumXOR.pl
-Input: @array = (1,2,3,4,5,6,7)
-Output: 7
-
-Input: @array = (2,4,1,3)
-Output: 7
-
-Input: @array = (10,5,7,12,8)
-Output: 15
--------------------------------
-
-

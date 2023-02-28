@@ -1,0 +1,117 @@
+ 
+===> 205/2/athanasius.pl <===
+Running the test suite
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+1..3
+ 
+===> 205/2/bruce-gray.pl <===
+1..3
+ok 1
+ok 2
+ok 3
+ 
+===> 205/2/cheok-yin-fung.pl <===
+1..3
+ok 1
+ok 2
+ok 3
+ 
+===> 205/2/dave-jacoby.pl <===
+    Input:  @array = 7
+    Output: 7
+
+    Input:  @array = 4
+    Output: 7
+
+    Input:  @array = 5
+    Output: 15
+
+ 
+===> 205/2/deadmarshal.pl <===
+7
+7
+15
+ 
+===> 205/2/e-choroba.pl <===
+1..3
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ 
+===> 205/2/james-smith.pl <===
+ok 1
+ok 2
+ok 3
+1..3
+ 
+===> 205/2/kjetillll.pl <===
+12
+12
+ 
+===> 205/2/laurent-rosenfeld.pl <===
+1 2 3 4 5 6 7   => 1 6 -- 7   
+2 4 1 3         => 4 3 -- 7   
+10 5 7 12 8     => 10 5 -- 15 
+ 
+===> 205/2/lubos-kolouch.pl <===
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ok 4 - All elements the same
+1..4
+ 
+===> 205/2/perlboy1967.pl <===
+ok 1
+ok 2
+ok 3
+1..3
+ 
+===> 205/2/peter-campbell-smith.pl <===
+
+Input:  @array = (1, 2, 3, 4, 5, 6, 7)
+Output: 1 xor 6 = 7
+
+Input:  @array = (2, 4, 1, 3)
+Output: 4 xor 3 = 7
+
+Input:  @array = (10, 5, 7, 12, 8)
+Output: 10 xor 5 = 15
+
+Input:  @array = (21, 25)
+Output: 21 xor 25 = 12
+
+Input:  @array = (32, 32, 32, 32)
+Output: 32 xor 32 = 0
+
+Input:  @array = (6, 58, 106, 43, 72, 1, 24, 125, 95, 47, 45, 73, 17, 9, 120, 20, 74, 28, 102, 18)
+Output: 6 xor 120 = 126
+ 
+===> 205/2/polettix.pl <===
+12
+ 
+===> 205/2/robert-dicicco.pl <===
+Input: @array = (1,2,3,4,5,6,7)
+Output: 7
+
+Input: @array = (2,4,1,3)
+Output: 7
+
+Input: @array = (10,5,7,12,8)
+Output: 15
+
+ 
+===> 205/2/roger-bell-west.pl <===
+1..3
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ 
+===> 205/2/solathian.pl <===
+7
+7
+15
+ 
+===> 205/2/wlmb.pl <===
+13 13 9 1 -> 12

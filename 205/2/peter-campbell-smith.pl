@@ -7,11 +7,6 @@ use utf8;
 use warnings;
 use List::Uniq ':all';
 
-# Task: You are given an array of integers. Write a script to find the highest value obtained 
-# by XORing any two distinct members of the array.
-
-# Blog: http://ccgi.campbellsmiths.force9.co.uk/challenge/205/2
-
 my ($j, @test);
 
 max_xor(1, 2, 3, 4, 5, 6, 7);

@@ -1,14 +1,15 @@
 #!/usr/bin/env perl
 
-#----optimize for brevity:
-#print [ sort {$b <=> $a} map {//; map 0+$_ ^ 0+$', @ARGV } @ARGV ]->[0];
-#print "\n";
+my @A = (13,13,9,1);
 
+#----optimize for brevity:
+print [ sort {$b <=> $a} map {//; map 0+$_ ^ 0+$', @A } @A ]->[0];
+print "\n";
 
 #---- or optimize for clarity:
 my $highest;
-for my $a (@ARGV){
-for my $b (@ARGV){
+for my $a (@A){
+for my $b (@A){
     my $xor = 0+$a ^ 0+$b;
     $highest = $xor if not defined $highest
 	            or $xor > $highest;
