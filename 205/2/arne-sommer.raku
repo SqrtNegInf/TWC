@@ -1,6 +1,6 @@
 #!/usr/bin/env raku
 
-unit sub MAIN (*@array where @array.elems >= 2 && all(@array) ~~ /^<[0..9]>*$/, :v(:$verbose));
+unit sub MAIN (@array where @array.elems >= 2 && all(@array) ~~ /^<[0..9]>*$/ = (13,13,9,1), :v(:$verbose));
 
 my @unique = @array.unique;
 my $end    = @unique.end;

@@ -1,4 +1,5 @@
 #!/usr/bin/env raku
+
 sub largest-xor (@in) {
     my $max = 0;
     my $max-i;

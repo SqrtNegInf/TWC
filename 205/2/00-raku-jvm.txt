@@ -1,0 +1,91 @@
+ 
+===> 205/2/0rir.raku <===
+1..10
+ok 1 - Int	<-- 1
+ok 2 - Int	<-- 1 1
+ok 3 - 7	<-- 1 2 3 4 5 6 7
+ok 4 - 7	<-- 2 4 1 3
+ok 5 - 15	<-- 10 5 7 12 8
+ok 6 - -811	<-- -11 800
+ok 7 - 1911	<-- 1 11 111 1111 800
+ok 8 - 12	<-- 13 13 9 1
+ok 9 - -99	<-- -100 1
+ok 10 - -99	<-- -100 1 1
+
+Input: @array = -100 1 1
+Output: -99
+ 
+===> 205/2/arne-sommer.raku <===
+12
+ 
+===> 205/2/athanasius.raku <===
+Running the test suite
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+1..3
+ 
+===> 205/2/barroff.raku <===
+1..3
+ok 1 - works for (1, 2, 3, 4, 5, 6, 7)
+ok 2 - works for (2, 4, 1, 3)
+ok 3 - works for (10, 5, 7, 12, 8)
+ 
+===> 205/2/bruce-gray.raku <===
+1..6
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ok 4 - 
+ok 5 - 
+ok 6 - 
+ 
+===> 205/2/deadmarshal.raku <===
+7
+7
+15
+ 
+===> 205/2/laurent-rosenfeld.raku <===
+1 2 3 4 5 6 7   => 1 6 -- 7
+2 4 1 3         => 4 3 -- 7
+10 5 7 12 8     => 10 5 -- 15
+ 
+===> 205/2/luca-ferrari.raku <===
+12
+ 
+===> 205/2/mark-anderson.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ 
+===> 205/2/pip.raku <===
+(1,2,3,4,5,6,7) => 7;
+(2,4,1,3      ) => 7;
+(10,5,7,12,8  ) => 15;
+ 
+===> 205/2/polettix.raku <===
+12
+12
+ 
+===> 205/2/robert-dicicco.raku <===
+Input: @array = [1 2 3 4 5 6 7]
+Output: 7
+
+Input: @array = [2 4 1 3]
+Output: 7
+
+Input: @array = [10 5 7 12 8]
+Output: 15
+
+ 
+===> 205/2/roger-bell-west.raku <===
+1..3
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ 
+===> 205/2/wambash.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+1..3
