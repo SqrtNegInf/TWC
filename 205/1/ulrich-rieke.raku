@@ -1,9 +1,6 @@
 #!/usr/bin/env raku
-use v6 ;
 
-say "Enter some numbers, separated by a blank!" ;
-my $line = $*IN.get ;
-my @numbers = $line.words.map( {.Int} ) ;
+my @numbers = (5,4,4,3);
 my @uniques = @numbers.unique ;
 if ( @uniques.elems < 3 ) {
   say @uniques.max ;

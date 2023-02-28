@@ -1,25 +1,6 @@
 #!/usr/bin/env raku
-# :vim ft=raku sw=4 expandtab  # 🦋 ∅ ≡ ∩ ≢ ∈ « ␤ » ∴
-use v6.d;
+
 use Test;
-
-=begin comment
-205-1: Third Highest        Submitted by: Mohammad S Anwar
-Given an array of integers, find the Third Highest if existing otherwise
-return the maximum.
-
-Example 1
-Input: @array = (5,3,4)
-Output: 3
-
-Example 2
-Input: @array = (5,6)
-Output: 6
-
-Example 2
-Input: @array = (5,4,4,3)
-Output: 3
-=end comment
 
 my @Test =
     [,],            (Int),

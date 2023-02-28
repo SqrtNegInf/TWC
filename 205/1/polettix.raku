@@ -1,6 +1,6 @@
 #!/usr/bin/env raku
-use v6;
-sub MAIN (*@args) { put third-highest(@args) }
+
+sub MAIN (@args= (5,4,4,3) ) { put third-highest(@args) }
 
 sub third-highest (@array) {
    my @highest;
