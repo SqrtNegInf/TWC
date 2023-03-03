@@ -1,4 +1,4 @@
-#!/usr/bin/env raku # do-not-check
+#!/usr/bin/env raku
 
 # 2023-02-16 GH5209 need to use '[+] |' ??
 
