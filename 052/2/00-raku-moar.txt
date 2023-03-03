@@ -51,7 +51,7 @@ Player 2 total: 256p
 [1 0.5 0.01 0.05 0.2 2 0.02]
 Player wins with 1 2 0.2 0.05 = 3.25 vs 0.02 0.5 0.01 0 = 0.53
 Let's play another random turn
-Computer looses with 0.02 0.5 0.01 0 = 0.53 VS 1 2 0.2 0.05 = 3.25
+Computer looses with 0.02 0.5 0.2 0 = 0.72 VS 1 2 0.01 0.05 = 3.06
  
 ===> 052/2/mohammad-anwar.raku <===
 The lucky winner is Machine.
