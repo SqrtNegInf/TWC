@@ -1,7 +1,5 @@
 #!/usr/bin/env raku
 
-srand 1;
-
 my @moneys = 1, 0.5, 0.01, 0.05, 0.2, 2, 0.02;
 
 @moneys.say;
@@ -30,8 +28,10 @@ say "Let's play another random turn";
 @computer = ();
 @moneys   = 1, 0.5, 0.01, 0.05, 0.2, 2, 0.02;
 
+my $cnt = 0;
 while ( @moneys.elems ) {
-    if 99.rand.Int %% 2 {
+   #if 99.rand.Int %% 2 {  # DH flapping, so make deterministic
+    if ++$cnt %% 2 {
         @player.push:   @moneys.shift || 0;
         @computer.push: @moneys.pop   || 0;
     }
