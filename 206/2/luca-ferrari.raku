@@ -1,13 +1,8 @@
 #!/usr/bin/env raku
 
-#
-# Perl Weekly Challenge 206
-# Task 2
-#
-# See <https://perlweeklychallenge.org/blog/perl-weekly-challenge-206/>
-#
+die 'not ok - disabled, does not work';
 
-sub MAIN( *@list where { @list.elems %% 2 && @list.grep( * ~~ Int ).elems == @list.elems } ) {
+sub MAIN( @list where { @list.elems %% 2 && @list.grep( * ~~ Int ).elems == @list.elems } = [1,2,3,4,5,6] ) {
     my @sums;
 
     for @list.permutations {

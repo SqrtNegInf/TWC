@@ -1,7 +1,5 @@
 #!/usr/bin/env raku
 
-use v6.d;
-
 sub array-pairings(Int @array --> Int) {
     my Int @sorted-array = sort(@array);
     my Int @even-indices = grep({ $_ % 2 == 0 }, 0 ..^ @array.elems);
@@ -9,13 +7,15 @@ sub array-pairings(Int @array --> Int) {
 }
 
 #| Run test cases
-multi sub MAIN('test') {
+#multi sub MAIN('test') {
     use Test;
     plan 2;
 
     is array-pairings(Array[Int].new([1, 2, 3, 4])), 4, 'works for (1, 2, 3, 4)';
     is array-pairings(Array[Int].new([0, 2, 1, 3])), 2, 'works for (0, 2, 1, 3)';
-}
+#}
+
+=finish
 
 #| Take user provided list like 1 2 2 3
 multi sub MAIN(*@elements where

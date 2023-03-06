@@ -1,10 +1,8 @@
 #!/usr/bin/env raku
 
-unit sub MAIN (*@array where @array.elems >= 2 &&  @array.elems %% 2 && all(@array) ~~ /^<[0..9]>*$/, :v($verbose));
+my @permutations = <1 2 3 4 5 6>.permutations;
 
-my @permutations = @array.permutations;
-
-say ": Permutations: { @permutations.join("|") }" if $verbose;
+#say ": Permutations: { @permutations.join("|") }" if $verbose;
 
 my $max = -Inf;
 
@@ -25,18 +23,18 @@ sub max-sum-min-pair (@array is copy)
 {
   my $sum = 0;
 
-  my $echo = $verbose ?? ":Candidate: { @array.join(",") }  Pairs:" !! "";
+  #my $echo = $verbose ?? ":Candidate: { @array.join(",") }  Pairs:" !! "";
 
   while @array.elems
   {
     my $first   = @array.shift;
     my $second  = @array.shift;
     my $minimum = min($first, $second);
-    $echo ~= "[$first,$second -> $minimum]" if $verbose;
+#   $echo ~= "[$first,$second -> $minimum]" if $verbose;
     $sum += $minimum;
   }
 
-  say "$echo -> Sum: $sum" if $verbose;
+# say "$echo -> Sum: $sum" if $verbose;
 
   return $sum;
 }

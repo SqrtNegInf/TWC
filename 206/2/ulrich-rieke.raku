@@ -1,5 +1,4 @@
 #!/usr/bin/env raku
-use v6 ;
 
 #is every first number of a pair not greater than its right neighbour ?
 #to check that, we look at non-overlapping pairs of two
@@ -17,16 +16,8 @@ sub is_valid( $permu ) {
   return True ;
 }
 
-say "Please enter an even number of integers, separated by blanks!" ;
-my $line = $*IN.get ;
-my @numbers = $line.words.map( {.Int} ) ;
+my @numbers = [1,2,3,4,5,6];
 my $len = @numbers.elems ;
-unless ( $len %% 2 ) {
-  say "Please enter an even number of integers!" ;
-  $line = $*IN.get ;
-  @numbers = $line.words.map( {.Int} ) ;
-  $len = @numbers.elems ;
-}
 my @permus = (0..$len - 1).permutations ;#all permutations of positions
 my @valids = @permus.grep( {is_valid( $_ )} ) ;#these are valid
 my $maximum = 0 ;

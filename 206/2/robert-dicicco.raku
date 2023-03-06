@@ -1,13 +1,4 @@
 #!/usr/bin/env raku
-#`{
-----------------------------------------
-AUTHOR: Robert DiCicco
-DATE  : 2023-03-01
-Challenge 206 Array Pairings ( Raku )
-----------------------------------------
-}
-
-use v6;
 
 my @arrs = ([1,2,3,4],[0,2,1,3]);
 my @pairs = ([0,1,2,3], [0,2,1,3], [0,3,1,2]);
@@ -32,16 +23,4 @@ for (@arrs) -> @a {
     say $maxval;
     say " ";
     $maxval = 0;
-}
-
-#`{
-----------------------------------------
-SAMPLE OUTPUT
-raku .\ArrayPairings.rk
-Input: @array = [1 2 3 4]
-4
-
-Input: @array = [0 2 1 3]
-2
-----------------------------------------
 }
