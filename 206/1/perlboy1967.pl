@@ -1,21 +1,5 @@
 #!/usr/bin/env perl
 
-=pod
-
-The Weekly Challenge - 206
-- https://theweeklychallenge.org/blog/perl-weekly-challenge-206
-
-Author: Niels 'PerlBoy' van Dijke
-
-Task 1: Shortest Time
-Submitted by: Mohammad S Anwar
-
-You are given a list of time points, at least 2, in the 24-hour clock format HH:MM.
-
-Write a script to find out the shortest time in minutes between any two time points.
-
-=cut
-
 use v5.16;
 
 use common::sense;

@@ -1,16 +1,8 @@
 #!/usr/bin/env perl
-# Perl weekly challenge 206
-# Task 1:  Shortest Time
-#
-# See https://wlmb.github.io/2023/02/27/PWC206/#task-1-shortest-time
+
 use v5.36;
 use List::Util qw(min);
-die <<~"FIN" unless @ARGV;
-    Usage: $0 T1 [T2...]HH:MM_2...
-    to find the shortest time between the time points T1, T2...,
-    each in the 24h format HH:MM
-    FIN
-my ($current, @rest)=sort {$a <=> $b} map {to_minutes($_)} @ARGV;
+my ($current, @rest)=sort {$a <=> $b} map {to_minutes($_)} ("10:10", "09:30", "09:00", "09:55");
 push @rest, $current + 24*60; # Add first time as last time, next day
 my $min = min map {my $diff=$_-$current; $current=$_; $diff} @rest;
 say join " ", @ARGV, "->", $min;

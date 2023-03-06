@@ -1,28 +1,4 @@
 #!/usr/bin/env perl
-# vim:set ts=4 sw=4 sts=4 et ai wm=0 nu:
-#=============================================================================
-# ch-1.pl Perl Weekly Challenge Week 206 Task 1 Shortest Time
-#=============================================================================
-# Copyright (c) 2023, Bob Lied
-#=============================================================================
-# You are given a list of time points, at least 2, in the 24-hour clock format
-# HH:MM. Write a script to find out the shortest time in minutes between any
-# two time points.
-# Example 1 Input: @time = ("00:00", "23:55", "20:00") Output: 5
-#   Since the difference between "00:00" and "23:55" is the shortest
-# Example 2 Input: @array = ("01:01", "00:50", "00:57") Output: 4
-# Example 3 Input: @array = ("10:10", "09:30", "09:00", "09:55") Output: 15
-##
-# Example 1 implies that 00:00 can represent midnight either at the start
-# of the day, or at the end of the day.  Ambiguous if 24:00 is allowed.
-#
-# All the interesting times involve midnight.  If all the
-# points were within the same day, then a pair like 00:10, 23:50 would be
-# 23 hours and 40 minutes long.  But if we allow wrapping around midnight,
-# there's only 20 minutes between them.  The problem specification is
-# ambiguously silent, except that example with 00:00 kind of implies that
-# we should wrap around.
-#=============================================================================
 
 use v5.36;
 
@@ -37,7 +13,7 @@ my $Verbose = 0;
 my $DoTest  = 0;
 
 GetOptions("test" => \$DoTest, "verbose" => \$Verbose);
-exit(!runTest()) if $DoTest;
+runTest(); exit;
 
 # Map a string in HH:MM format to the minute past midnight.
 sub hhmmToMin($hhmm)

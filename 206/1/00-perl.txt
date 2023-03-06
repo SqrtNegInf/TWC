@@ -1,0 +1,127 @@
+ 
+===> 206/1/bob-lied.pl <===
+# Seeded srand with seed '20230306' from local date.
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ok 4 - 'round midnight
+ok 5 - Zero
+ok 6 - 24:00
+ok 7 - 24:00 again
+1..7
+ 
+===> 206/1/cheok-yin-fung.pl <===
+1..3
+ok 1
+ok 2
+ok 3
+ 
+===> 206/1/dave-jacoby.pl <===
+    Input:  @array = ("00:00","23:55","20:00")
+    Output: 5
+
+    Input:  @array = ("01:01","00:50","00:57")
+    Output: 4
+
+    Input:  @array = ("10:10","09:30","09:00","09:55")
+    Output: 15
+
+    Input:  @array = ("03:00","06:01","09:02")
+    Output: 181
+
+ 
+===> 206/1/e-choroba.pl <===
+1..5
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ok 4 - Zero
+ok 5 - More than 1 hour
+ 
+===> 206/1/james-smith.pl <===
+ok 1
+ok 2
+ok 3
+ok 4
+ok 5
+ok 6
+ok 7
+ok 8
+ok 9
+ok 10
+1..10
+ 
+===> 206/1/kjetillll.pl <===
+Input: 10:10 09:30 09:00 09:55
+Interval in minutes: 15
+ 
+===> 206/1/laurent-rosenfeld.pl <===
+00:00 23:55 20:00         => 5
+01:01 00:50 00:57         => 4
+10:10 09:30 09:00 09:55   => 15
+ 
+===> 206/1/lubos-kolouch.pl <===
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+1..3
+ 
+===> 206/1/paulo-custodio.pl <===
+15
+ 
+===> 206/1/perlboy1967.pl <===
+ok 1
+ok 2
+ok 3
+1..3
+ 
+===> 206/1/peter-campbell-smith.pl <===
+
+Input:  @time = ("00:01", "01:05", "01:12", "23:59")
+Output: 2
+
+Input:  @time = ("01:01", "00:50", "00:57")
+Output: 4
+
+Input:  @time = ("10:10", "09:30", "09:00", "09:55")
+Output: 15
+
+Input:  @time = ("08:59", "21:00")
+Output: 719
+
+Input:  @time = ("09:01", "21:00")
+Output: 719
+
+Input:  @time = ("00:27", "20:20", "13:00", "04:59", "18:21", "08:34", "03:03", "22:09", "14:12", "19:08", "14:12", "00:34", "22:20", "21:35", "09:53", "16:13", "23:00", "02:53", "02:45", "07:38", "10:30")
+Output: 0
+ 
+===> 206/1/polettix.pl <===
+15
+ 
+===> 206/1/robert-dicicco.pl <===
+Input: @time = (00:0023:5520:00)
+Output: 5
+
+Input: @time = (01:0100:5000:57)
+Output: 4
+
+Input: @time = (10:1009:3009:0009:55)
+Output: 15
+
+ 
+===> 206/1/roger-bell-west.pl <===
+1..3
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ 
+===> 206/1/solathian.pl <===
+5
+4
+15
+ 
+===> 206/1/ulrich-rieke.pl <===
+15
+ 
+===> 206/1/wlmb.pl <===
+-> 15

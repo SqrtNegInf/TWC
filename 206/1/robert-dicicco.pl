@@ -1,11 +1,5 @@
 #!/usr/bin/env perl
-=begin pod
----------------------------------------
-AUTHOR: Robert DiCicco
-DATE  : 2023-02-27
-Challenge 206 Shortest Time ( Perl )
----------------------------------------
-=cut
+
 use strict;
 use warnings;
 use feature "say";
@@ -37,20 +31,3 @@ for my $tm (@times) {
     }
     print("Output: $shortest\n\n");
 }
-
-=begin pod
----------------------------------------
-SAMPLE OUTPUT
-perl .\ShortestTime.pl
-Input: @time = (00:0023:5520:00)
-Output: 5
-
-Input: @time = (01:0100:5000:57)
-Output: 4
-
-Input: @time = (10:1009:3009:0009:55)
-Output: 15
----------------------------------------
-
-
-

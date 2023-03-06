@@ -22,10 +22,7 @@ sub findDifference {
   return $diff ;
 }
 
-say "Enter some times in parentheses, hours and minutes separated by ':'!" ;
-my $line = <STDIN> ;
-chomp $line ;
-my @times = split( /\s/ , $line ) ;
+my @times = ("10:10", "09:30", "09:00", "09:55");
 my $len = scalar( @times ) ;
 my $iter = permutations(\@times) ;
 my @differences ;

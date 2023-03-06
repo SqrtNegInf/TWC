@@ -2,7 +2,7 @@
 use v5.24;
 use warnings;
 
-say shortest_time(@ARGV);
+say shortest_time(("10:10", "09:30", "09:00", "09:55"));
 
 sub shortest_time {
    my @times = map { my ($h, $m) = split m{:}mxs; $h * 60 + $m } @_
