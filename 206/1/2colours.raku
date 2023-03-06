@@ -1,6 +1,5 @@
 #!/usr/bin/env raku
 
-
 my token time-hours24 { \d ** 2 <?{$/ < 24}> }
 my token time-minutes { \d ** 2 <?{$/ < 60}> }
 my token time-o-clock { <time-hours24> ':' <time-minutes> }
@@ -11,9 +10,11 @@ sub infix:<t->($lhs is copy, $rhs is copy) {
   ($lhs - $rhs) % 1440
 }
 
-sub MAIN($_) {
-  die 'Please provide a valid list of HH:MM times' unless S:g/\s// ~~ &time-list;
-  given my Str() @time = $<time-o-clock> {
+#ub MAIN( ["10:10", "09:30", "09:00", "09:55"] ) {
+#sub MAIN( '("10:10", "09:30", "09:00", "09:55")' ) {
+#  die 'Please provide a valid list of HH:MM times' unless S:g/\s// ~~ &time-list;
+#  given my Str() @time = $<time-o-clock> {
+   given my Str() @time = ("10:10", "09:30", "09:00", "09:55") {
     .=sort;
     .push: .head;
   }
@@ -23,4 +24,4 @@ sub MAIN($_) {
     .map: { .[1] t- .[0] } andthen
     .min
     .say;
-}
+#}

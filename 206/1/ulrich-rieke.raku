@@ -1,5 +1,4 @@
 #!/usr/bin/env raku
-use v6 ;
 
 sub findDifference( $firstTime is copy , $secondTime is copy ) {
   $firstTime ~~ s/0(\d)\:0(\d)/$0:$1/ ;
@@ -16,9 +15,7 @@ sub findDifference( $firstTime is copy , $secondTime is copy ) {
   return $diff ;
 }
 
-say "Please enter some times, separated by blanks, ':' to separate hours and minutes!" ;
-my $line = $*IN.get ;
-my @times = $line.words ;
+my @times = ("10:10", "09:30", "09:00", "09:55");
 my $len = @times.elems ;
 my @permutedTimes = @times.permutations ;
 my @differences ;

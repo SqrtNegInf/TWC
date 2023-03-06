@@ -19,14 +19,12 @@ sub shortest-time ( Array[Time()]() \times) {
     andthen * / SECONDS-IN-MINUTES
 }
 
-multi MAIN (Bool :test($)!) {
+#multi MAIN (Bool :test($)!) {
     use Test;
     is shortest-time(<00:00 20:00 23:55>), 5;
     is shortest-time(<01:01 00:50 00:57>), 4;
     is shortest-time(<10:10 09:30 09:00 09:55>), 15;
     done-testing;
-}
+#}
 
-multi MAIN (*@times) {
-    say shortest-time @times
-}
+#multi MAIN (*@times) { say shortest-time @times }

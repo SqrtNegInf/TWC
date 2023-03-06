@@ -1,6 +1,6 @@
 #!/usr/bin/env raku
-use v6;
-sub MAIN (*@args) { put shortest-time(@args) }
+
+sub MAIN (@args = ("10:10", "09:30", "09:00", "09:55")) { put shortest-time(@args) }
 
 sub shortest-time (@times) {
    my \period = 24*60;

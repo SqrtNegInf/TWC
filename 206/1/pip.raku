@@ -1,17 +1,5 @@
 #!/usr/bin/env raku
-# HTTPS://TheWeeklyChallenge.Org - Perl/Raku Weekly Challenge #206 - Pip Stuart
-# Task1: Shortest Time:  Submitted by: Mohammad S Anwar;  You are given a list of time points, at least 2, in the 24-hour clock format HH:MM.
-#   Write a script to find out the shortest time in minutes between any two time points.
-# Example1:
-#   In-put: @time = ("00:00", "23:55", "20:00"         )
-#   Output:  5        Since the difference between "00:00" and "23:55" is the shortest (5 minutes).
-# Example2:
-#   In-put: @time = ("01:01", "00:50", "00:57"         )
-#   Output:  4
-# Example3:
-#   In-put: @time = ("10:10", "09:30", "09:00", "09:55")
-#   Output: 15
-use v6;my $d8VS='N35L6TKO';
+
 sub ShTm {my @time = @_;my $shtm = 0;my @tmnz = ();my %tdfz = ();my $sinc = '';
   if     (   @time.elems) {
     for     (    0 .. (@time.elems - 2))          {

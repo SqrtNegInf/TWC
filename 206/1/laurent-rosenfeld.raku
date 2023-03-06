@@ -1,4 +1,7 @@
 #!/usr/bin/env raku
+
+# DH - doesn't produce output
+
 sub shortest ($t1, $t2) {
     my $mod = 60 * 12;    # half a day
     my ($h1, $m1) = split /\:/, $t1;

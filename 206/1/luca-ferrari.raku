@@ -1,11 +1,6 @@
 #!/usr/bin/env raku
 
-#
-# Perl Weekly Challenge 206
-# Task 1
-#
-# See <https://perlweeklychallenge.org/blog/perl-weekly-challenge-206/>
-#
+# given wrong answer
 
 sub diff ( $start, $end ) {
     my ( $start-hours, $start-mins ) = $start.chomp.split( ':' );
@@ -28,11 +23,11 @@ sub diff ( $start, $end ) {
 
 }
 
-sub MAIN( :$verbose = True, *@times where { @times.grep( * ~~ / ^ \d ** 2 ':' \d ** 2 $ /  ).elems == @times.elems } ) {
+sub MAIN( @times = ("10:10", "09:30", "09:00", "09:55") ) {
 
     my %diffs;
     %diffs{ diff( $_[ 1 ], $_[ 0 ] ) } = [ $_[0], $_[1] ] for @times.sort.combinations( 2 );
 
     %diffs.keys.map( *.Int ).min.say;
-    %diffs{ %diffs.keys.map( *.Int ).min }.join( ' - ' ).say if ( $verbose );
+    %diffs{ %diffs.keys.map( *.Int ).min }.join( ' - ' ).say ;#if ( $verbose );
 }

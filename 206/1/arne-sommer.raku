@@ -1,6 +1,6 @@
 #!/usr/bin/env raku
 
-unit sub MAIN (*@time where @time.elems >= 2 && all(@time) ~~ /^<[012]><[0..9]>\:<[0..5]><[0..9]>$/, :v($verbose));
+unit sub MAIN (@time where @time.elems >= 2 && all(@time) ~~ /^<[012]><[0..9]>\:<[0..5]><[0..9]>$/ = ("10:10", "09:30", "09:00", "09:55"), :v($verbose));
 
 class HHMM
 {

@@ -1,12 +1,4 @@
 #!/usr/bin/env raku
-#`{
----------------------------------------
-AUTHOR: Robert DiCicco
-DATE  : 2023-02-27
-Challenge 206 Shortest Time ( Raku )
----------------------------------------
-}
-use v6;
 
 my @times = (["00:00", "23:55", "20:00"],["01:01", "00:50", "00:57"],["10:10", "09:30", "09:00", "09:55"]);
 
@@ -34,19 +26,3 @@ for (@times) -> @tm {
     }
     print("Output: $shortest\n\n");
 }
-
-#`{
----------------------------------------
-SAMPLE OUTPUT
-raku .\ShortestTime.rk
-Input: @time = (00:00 23:55 20:00)
-Output: 5
-
-Input: @time = (01:01 00:50 00:57)
-Output: 4
-
-Input: @time = (10:10 09:30 09:00 09:55)
-Output: 15
-}
-
-

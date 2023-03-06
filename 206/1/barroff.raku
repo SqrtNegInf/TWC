@@ -1,7 +1,5 @@
 #!/usr/bin/env raku
 
-use v6.d;
-
 constant $time-format = /
     $<hours>=(\d ** 2)
     ':'
@@ -27,7 +25,7 @@ sub shortest-time(Str @times --> Int) {
 }
 
 #| Run test cases
-multi sub MAIN('test') {
+#multi sub MAIN('test') {
     use Test;
     plan 3;
 
@@ -37,8 +35,9 @@ multi sub MAIN('test') {
         'works for ("01:01", "00:50", "00:57")';
     is shortest-time(Array[Str].new(["10:10", "09:30", "09:00", "09:55"])), 15,
         'works for ("10:10", "09:30", "09:00", "09:55")';
-}
+#}
 
+=finish
 #| Take user provided list like 12:23 14:31
 multi sub MAIN(*@elements where @elements.elems ≥ 2 && all(@elements) ~~ $time-format) {
     my Str @str-elements = @elements;
