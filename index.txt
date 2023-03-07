@@ -431,8 +431,8 @@ Challenge titles and Rosetta-code correspondences (exact, and otherwise)
 205-2 Maximum XOR
 206-1 Shortest Time
 206-2 Array Pairings
-207-1
-207-2
+207-1 Keyboard Word
+207-2 H-Index
 208-1
 208-2
 209-1
