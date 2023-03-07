@@ -38,14 +38,3 @@ for (1 .. 20) {
     my @arr = map int rand 20, 1 .. 10;
     is array_pairings(@arr), array_pairings_slow(@arr), "Random @arr";
 }
-
-use Benchmark qw{ cmpthese };
-cmpthese(-3, {
-    slow => sub { array_pairings_slow(1 .. 8) },
-    fast => sub { array_pairings(1 .. 8) },
-});
-
-__END__
-         Rate  slow  fast
-slow   7197/s    --  -99%
-fast 649241/s 8921%    --

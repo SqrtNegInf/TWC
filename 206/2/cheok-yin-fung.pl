@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-# The Weekly Challenge 206
-# Task 2 Array Pairings
+
 use v5.30.0;
 use warnings;
 

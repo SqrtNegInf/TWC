@@ -1,17 +1,8 @@
 #!/usr/bin/env perl
 
-# Peter Campbell Smith - 2023-02-27
-
 use v5.28;
 use utf8;
 use warnings;
-
-# Task: You are given an array of integers having even number of elements. Divide the array into
-# all possible pairs of elements. Write a script to find the two pairs whose minima sum to the
-# maximum value.
-
-# Blog: http://ccgi.campbellsmiths.force9.co.uk/challenge/206/1
-
 
 max_min(1, 2, 3, 4);
 max_min(0, 2, 1, 3);

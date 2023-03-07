@@ -11,6 +11,7 @@ my @TESTS = (
 );
 
 is( max_sum_pair_min( @{$_->[0]} ), $_->[1] ) for @TESTS;
+done_testing();
 
 sub max_sum_pair_min {
   my $t = 0, @_ = sort {$a<=>$b} @_;

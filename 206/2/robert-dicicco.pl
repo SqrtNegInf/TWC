@@ -1,9 +1,5 @@
 #!/usr/bin/env perl
-#---------------------------------------
-# AUTHOR: Robert DiCicco
-# DATE  : 2023-03-02
-# Challenge 206 Array P:airings ( Perl )
-#--------------------------------------
+
 use strict;
 use warnings;
 use feature 'say';
@@ -25,15 +21,3 @@ for my $arr (@arrs) {
     print "Output: $maxval\n\n";
     $maxval = 0;
 }
-
-#---------------------------------------
-# SAMPLE OUTPUT
-# perl .\ArrayPairings.pl
-# Input: @array = [1234]
-# Output: 4
-
-# Input: @array = [0213]
-# Output: 2
-#---------------------------------------
-
-

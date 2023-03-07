@@ -1,21 +1,5 @@
 #!/usr/bin/env perl
 
-=pod
-
-The Weekly Challenge - 206
-- https://theweeklychallenge.org/blog/perl-weekly-challenge-206
-
-Author: Niels 'PerlBoy' van Dijke
-
-Task 2: Array Pairings
-Submitted by: Mohammad S Anwar
-
-You are given an array of integers having even number of elements..
-
-Write a script to find the maximum sum of the minimum of each pairs.
-
-=cut
-
 use v5.16;
 
 use common::sense;

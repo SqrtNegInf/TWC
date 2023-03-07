@@ -33,24 +33,15 @@ sub my_min {
       return $second ;
   }
 }
+
 #the basic idea is to create all permutations of the position numbers of the
 #array, that is from 0 to length array - 1. We then create pairs of 2 neighbouring
 #numbers in these arrays. Since the order of the array is conserved, the first
 #number of all of these pairs must not be greater than the second one.
 #We then compute the minima of these pairs, sum them up and compare to the
 #current maximum, replacing it by the sum if needed
-say "Please enter an even number of integers, separated by blanks!" ;
-my $line = <STDIN> ;
-chomp $line ;
-my @numbers = split( /\s/ , $line ) ;
+my @numbers = <1 2 3 4>;
 my $len = scalar( @numbers ) ;
-while ( $len % 2 != 0 ) {
-  say "Please enter an even number of integers!" ;
-  $line = <STDIN> ;
-  chomp $line ;
-  @numbers = split( /\s/ , $line ) ;
-  $len = scalar( @numbers ) ;
-}
 my @positions = (0..$len - 1 ) ;
 my $iter = permutations(\@positions) ;
 my $maximum = 0 ;
