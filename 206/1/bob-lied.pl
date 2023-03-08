@@ -45,7 +45,7 @@ sub shortestTime($moments)
 
 sub runTest
 {
-    use Test2::V0;
+    use Test::More;
 
     is( shortestTime( [ "00:00", "23:55", "20:00" ] ),           5, "Example 1");
     is( shortestTime( [ "01:01", "00:50", "00:57" ] ),           4, "Example 2");
