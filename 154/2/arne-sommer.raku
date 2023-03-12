@@ -1,6 +1,8 @@
 #!/usr/bin/env raku
 
-unit sub MAIN (:c(:$count) = 10);
+# not just primes, so incorrect
+
+unit sub MAIN (:c(:$count) = 20);
 
 my $padovan := ( 1, 1, 1, ( * + * + * * 0 ) ... Inf);
 
