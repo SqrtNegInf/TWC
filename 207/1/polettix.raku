@@ -1,6 +1,6 @@
 #!/usr/bin/env raku
-use v6;
-sub MAIN (*@args) { @args.grep(&is-keyboard-word).put }
+
+sub MAIN (@args = <Hello Alaska Dad Peace>) { @args.grep(&is-keyboard-word).put }
 
 sub is-keyboard-word ($word) {
    state @rows = < qwertyuiop asdfghjkl zxcvbnm >;

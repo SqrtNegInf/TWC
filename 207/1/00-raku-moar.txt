@@ -1,0 +1,87 @@
+ 
+===> 207/1/0rir.raku <===
+1..10
+ok 1 - live
+ok 2 - live
+ok 3 - live
+ok 4 - live
+ok 5 - live
+ok 6 - die
+ok 7 - die
+ok 8 - die
+ok 9 - die
+ok 10 - die
+Set(Alaska Dad)
+Set(Alaska Dad)
+Set(Daff Try XXX)
+Set()
+
+Input: @array = (Raku True add any as do does error for has once or out put queue quit ro rotor rw tie tree trie try type when worry write)
+        Output: (True add as error has or out put queue quit ro rotor rw tie tree trie try type worry write)
+ 
+===> 207/1/2colours.raku <===
+(Alaska Dad)
+ 
+===> 207/1/arne-sommer.raku <===
+("Alaska","Dad")
+ 
+===> 207/1/bruce-gray.raku <===
+1..2
+ok 1 - 
+ok 2 - 
+ 
+===> 207/1/carlos-oliveira.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ 
+===> 207/1/deadmarshal.raku <===
+[alaska dad]
+[]
+ 
+===> 207/1/jaldhar-h-vyas.raku <===
+("Alaska","Dad")
+ 
+===> 207/1/laurent-rosenfeld.raku <===
+[Alaska Dad]
+[]
+[Power Fad Tower Quit True]
+ 
+===> 207/1/luca-ferrari.raku <===
+Alaska
+Dad
+ 
+===> 207/1/mark-anderson.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ 
+===> 207/1/pip.raku <===
+("Hello","Alaska","Dad","Peace") => ("Alaska","Dad");
+("OMG","Bye") => ();
+ 
+===> 207/1/polettix.raku <===
+Alaska Dad
+ 
+===> 207/1/robert-dicicco.raku <===
+Input: @words = [Hello Alaska Dad Peace]
+Output: 
+	alaska
+	dad
+ 
+Input: @words = [OMG Bye]
+Output: 
+ 
+ 
+===> 207/1/roger-bell-west.raku <===
+1..2
+ok 1 - example 1
+ok 2 - example 2
+ 
+===> 207/1/ulrich-rieke.raku <===
+Alaska,Dad
+ 
+===> 207/1/wambash.raku <===
+ok 1 - 
+ok 2 - 
+1..2

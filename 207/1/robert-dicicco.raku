@@ -1,13 +1,4 @@
 #!/usr/bin/env raku
-#`(
---------------------------------------
-AUTHOR: Robert DiCicco
-DATE  : 2023-03-06
-Challenge 207 Keyboard Word ( Raku )
---------------------------------------
-)
-
-use v6;
 
 my @rows = ["qwertyuiop", "asdfghjkl", "zxcvbnm"];
 my @words = [["Hello Alaska Dad Peace"], ["OMG Bye"]];

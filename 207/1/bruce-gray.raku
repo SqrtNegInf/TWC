@@ -26,11 +26,11 @@ sub task1 ( @s --> Seq ) {
     return @s.grep: $all_in_one_row;
 }
 
-
 constant @tests =
     ( <Hello Alaska Dad Peace> , <Alaska Dad> ),
     ( <OMG Bye>                , ().Seq       ),
 ;
+
 use Test;
 plan +@tests;
 for @tests -> ( $in, $expected ) {

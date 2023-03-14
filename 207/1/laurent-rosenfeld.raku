@@ -1,4 +1,5 @@
 #!/usr/bin/env raku
+
 my @rows;
 push @rows, %(map { $_ => True }, $_.comb)
     for "qwertyuiop", "asdfghjkl", "zxcvbnm";

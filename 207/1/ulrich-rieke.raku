@@ -1,12 +1,9 @@
 #!/usr/bin/env raku
-use v6 ;
 
 my $row1 = "qwertyuiop" ;
 my $row2 = "asdfghjkl" ;
 my $row3 = "zxcvbnm" ;
-say "Enter some words separated by blanks!" ;
-my $line = $*IN.get ;
-my @words = $line.words ;
+my @words = 'Hello Alaska Dad Peace'.words ;
 my @output ;
 for @words -> $word {
   my @letters = $word.lc.comb ;

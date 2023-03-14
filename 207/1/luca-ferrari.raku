@@ -1,13 +1,6 @@
 #!/usr/bin/env raku
 
-#
-# Perl Weekly Challenge 207
-# Task 1
-#
-# See <https://perlweeklychallenge.org/blog/perl-weekly-challenge-207/>
-#
-
-sub MAIN( *@words ) {
+sub MAIN( @words = <Hello Alaska Dad Peace>) {
     my @keyboard = qw/ qwertyuiop asdfghjkl zxcvbnm /;
 
     for @words -> $current-word {

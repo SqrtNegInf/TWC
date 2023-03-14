@@ -8,13 +8,11 @@ sub keyboard-word (+@words,:@keyboard=@*keyboard) {
     @words.grep: *.contains:  &keyboard-regex #or @keyboard-rows.any;
 }
 
-multi MAIN (Bool :test($)!) {
+#multi MAIN (Bool :test($)!) {
     use Test;
     is-deeply keyboard-word(<Hello Alaska Dad Peace>),<Alaska Dad>;
     is-deeply keyboard-word(<OMG Bye>), $();
     done-testing;
-}
+#}
 
-multi MAIN (*@words,:$keyboard=@*keyboard) {
-    say keyboard-word @words, :$keyboard
-}
+#multi MAIN (*@words,:$keyboard=@*keyboard) { say keyboard-word @words, :$keyboard }

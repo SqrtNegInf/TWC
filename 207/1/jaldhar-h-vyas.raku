@@ -1,7 +1,7 @@
 #!/usr/bin/env raku
 
 sub MAIN(
-    *@words
+    @words = <Hello Alaska Dad Peace>
 ) {
     my @rows = < qwertyuiop asdfghjkl zxcvbnm >.map({ $_.comb; });
     my @output;
