@@ -433,8 +433,8 @@ Challenge titles and Rosetta-code correspondences (exact, and otherwise)
 206-2 Array Pairings
 207-1 Keyboard Word
 207-2 H-Index
-208-1
-208-2
+208-1 Minimum Index Sum
+208-2 Duplicate and Missing
 209-1
 209-2
 
