@@ -4,8 +4,10 @@ use warnings;
 
 my $hindex = 0;
 
-for my $h (1 .. scalar @ARGV) {
-    if ($ARGV[$h - 1] < $h) {
+my @A = (10,8,5,4,3);
+
+for my $h (1 .. scalar @A) {
+    if ($A[$h - 1] < $h) {
         last;
     }
     $hindex = $h;

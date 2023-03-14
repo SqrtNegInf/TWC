@@ -7,7 +7,6 @@ use experimental qw{ say postderef signatures state };
 use List::Util qw{ max };
 
 my @examples = (
-
     [ 10, 8, 5, 4, 3 ],
     [ 25, 8, 5, 3, 3 ],
 );

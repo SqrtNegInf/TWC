@@ -4,10 +4,7 @@ use warnings ;
 use feature 'say' ;
 use List::Util qw ( max ) ;
 
-say "Enter some integers, separated by a blank!" ;
-my $line = <STDIN> ;
-chomp $line ;
-my @numbers = split( /\s/ , $line ) ;
+my @numbers = (10,8,5,4,3);
 my @sorted = sort { $b <=> $a } @numbers ;
 my @possible_h ;
 for my $i ( 0..scalar( @sorted ) - 1 ) {

@@ -1,0 +1,108 @@
+ 
+===> 207/2/avery-adams.pl <===
+4
+ 
+===> 207/2/bob-lied.pl <===
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 2
+1..3
+ 
+===> 207/2/cheok-yin-fung.pl <===
+1..4
+ok 1
+ok 2
+ok 3
+ok 4
+ 
+===> 207/2/dave-jacoby.pl <===
+    Input:  @array = 10, 8, 5, 4, 3
+    Output: 4
+
+    Input:  @array = 25, 8, 5, 3, 3
+    Output: 3
+
+ 
+===> 207/2/deadmarshal.pl <===
+4
+3
+ 
+===> 207/2/e-choroba.pl <===
+1..5
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Wikipedia
+ok 4 - Single publication
+ok 5 - All ones
+ 
+===> 207/2/jaldhar-h-vyas.pl <===
+4
+ 
+===> 207/2/james-smith.pl <===
+ok 1
+ok 2
+ok 3
+ok 4
+ok 5
+ok 6
+1..6
+ 
+===> 207/2/kjetillll.pl <===
+Input: 10 8 5 4 3             H-Index: 4
+Input: 25 8 5 3 3             H-Index: 3
+Input: 10 8 5 5 5             H-Index: 5
+Input: 25 1 1 1               H-Index: 1
+Input: 25                     H-Index: 1
+Input:                        H-Index: 0
+ 
+===> 207/2/laurent-rosenfeld.pl <===
+10 8 5 4 3      => 4
+25 8 5 3 3      => 3
+12 10 9 5 11    => 5
+ 
+===> 207/2/lubos-kolouch.pl <===
+ok 1 - Test Example 1
+ok 2 - Test Example 2
+1..2
+ 
+===> 207/2/matthias-muth.pl <===
+ok 1 - h_index( 10 8 5 4 3 ) == 4
+ok 2 - h_index( 25 8 5 3 3 ) == 3
+1..2
+ 
+===> 207/2/paulo-custodio.pl <===
+4
+ 
+===> 207/2/peter-campbell-smith.pl <===
+
+Input:  @citations = (10, 8, 5, 4, 3)
+Output: 4
+
+Input:  @citations = (25, 8, 5, 3, 3)
+Output: 3
+
+Input:  @citations = (10, 9, 8, 7, 6, 5, 4, 3, 2, 1)
+Output: 5
+
+Input:  @citations = (0)
+Output: 0
+
+Input:  @citations = ()
+Output: 0
+
+Input:  @citations = (4, 4, 4, 4)
+Output: 4
+ 
+===> 207/2/polettix.pl <===
+4
+ 
+===> 207/2/roger-bell-west.pl <===
+1..2
+ok 1 - example 1
+ok 2 - example 2
+ 
+===> 207/2/ulrich-rieke.pl <===
+4
+ 
+===> 207/2/wlmb.pl <===
+10 8 5 4 3 -> 4

@@ -4,7 +4,7 @@ use strict;
 use v5.10;
 use List::Util "uniqint";
 
-my @list = @ARGV;
+my @list = (10,8,5,4,3);
 my $hindex;
 
 sort { $b <=> $a } @list;

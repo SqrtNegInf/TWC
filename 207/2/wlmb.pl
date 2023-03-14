@@ -1,12 +1,12 @@
 #!/usr/bin/env perl
-# Perl weekly challenge 207
-# Task 2:  H-Index
-#
-# See https://wlmb.github.io/2023/03/06/PWC207/#task-2-h-index
+
 use v5.36;
+
+my @A =(10,8,5,4,3);
+
 my $h=0;
-for(sort{$b<=>$a}@ARGV){
+for(sort{$b<=>$a}@A){
     last if $_<=$h;
     ++$h
 }
-say join " ", @ARGV, "->", $h;
+say join " ", @A, "->", $h;

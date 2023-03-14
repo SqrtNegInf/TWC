@@ -1,13 +1,12 @@
 #!/usr/bin/env perl
-# The Weekly Challenge 207
-# Task 2 H-Index
+
 use v5.30.0;
 use warnings;
 
 sub hi {
     my @citations = @_;
     @citations = sort {$b<=>$a} @citations;
-    $i = 0;
+    my $i = 0;
     while ($i <= $#citations && $citations[$i] >= $i+1) {
         $i++
     }
