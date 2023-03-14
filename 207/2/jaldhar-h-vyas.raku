@@ -1,7 +1,7 @@
 #!/usr/bin/env raku
 
 sub MAIN(
-    *@citations
+    @citations = (10,8,5,4,3)
 ) {
     my $hindex = 0;
 

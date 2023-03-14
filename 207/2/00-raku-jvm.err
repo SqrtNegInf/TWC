@@ -1,0 +1,8 @@
+[31m===[0mSORRY![31m===[0m Error while compiling /Users/dhoekman/PWC/207/2/0rir.raku
+Null regex not allowed
+at /Users/dhoekman/PWC/207/2/0rir.raku:29
+------> [32m    //[33m⏏[31m $r ?? $r + 1 !! 0;[0m
+Type List does not support associative indexing.
+  in sub MAIN at 2colours.raku line 10
+  in block <unit> at 2colours.raku line 8
+

@@ -1,4 +1,5 @@
 #!/usr/bin/env raku
+
 use Test;
 
 is h-index(10, 8, 5, 4, 3), 4;

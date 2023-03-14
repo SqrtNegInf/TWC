@@ -1,6 +1,6 @@
 #!/usr/bin/env raku
-use v6;
-sub MAIN (*@args) { put h-index(@args) }
+
+sub MAIN (@args = [10,8,5,4,3] ) { put h-index(@args) }
 
 sub h-index (@citations) {
    @citations = @citations».Int.grep({.so}).sort.reverse;

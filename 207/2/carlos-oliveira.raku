@@ -1,4 +1,5 @@
 #!/usr/bin/env raku
+
 use Test;
 
 sub h-index (@citations where all($_) ~~ Int:D) {

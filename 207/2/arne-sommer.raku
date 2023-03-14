@@ -1,6 +1,6 @@
 #!/usr/bin/env raku
 
-unit sub MAIN (*@citations where @citations.elems && all(@citations) ~~ /^ 0 || <[1..9]> <[0..9]>* $/, :v($verbose));
+unit sub MAIN (@citations where @citations.elems && all(@citations) ~~ /^ 0 || <[1..9]> <[0..9]>* $/ = (10,8,5,4,3), :v($verbose));
 
 my @sorted = @citations.sort;
 
