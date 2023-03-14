@@ -1,11 +1,5 @@
 #!/usr/bin/env perl
-=begin comment
---------------------------------------
-AUTHOR: Robert DiCicco
-DATE  : 2023-03-06
-Challenge 207 Keyboard Word ( Perl )
---------------------------------------
-=cut
+
 use strict;
 use warnings;
 use feature 'say';
@@ -47,20 +41,3 @@ for my $wds (@words) {
     }
     say " ";
 }
-
-=begin comment
---------------------------------------
-SAMPLE OUTPUT
-perl .\KeyboardWord.pl
-Input: @array = [Hello Alaska Dad Peace]
-Output:
-        alaska
-        dad
-
-Input: @array = [OMG Bye]
-Output:
-
---------------------------------------
-=cut
-
-

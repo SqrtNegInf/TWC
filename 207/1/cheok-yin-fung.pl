@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-# The Weekly Challenge 207
-# Task 1 Keyboard Word
+
 use v5.30.0;
 use warnings;
 use List::Util qw/uniq/;

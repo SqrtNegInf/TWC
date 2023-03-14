@@ -6,10 +6,7 @@ use feature 'say' ;
 my $row1 = "qwertyuiop" ;
 my $row2 = "asdfghjkl" ;
 my $row3 = "zxcvbnm" ;
-say "Enter some words, separated by blanks!" ;
-my $line = <STDIN> ;
-chomp $line ;
-my @words = split( /\s/ , $line ) ;
+my @words = <Hello Alaska Dad Peace>;
 my @output ;
 for my $word ( @words ) {
   my @letters = split // , lc $word ;

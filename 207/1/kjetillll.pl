@@ -1,5 +1,5 @@
 #!/usr/bin/env perl
-#https://theweeklychallenge.org/blog/perl-weekly-challenge-207/
+
 use strict; use warnings; use v5.10;
 
 sub is_one_row_word { pop =~ /^( [qwertyuiop]+ | [asdfghjkl]+ | [zxcvbnm]+ )$/ix }

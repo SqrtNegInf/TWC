@@ -4,7 +4,7 @@ use warnings;
 use experimental 'signatures';
 no warnings 'experimental::signatures';
 
-say join ' ', grep { is_keyboard_word($_) } @ARGV;
+say join ' ', grep { is_keyboard_word($_) } <Hello Alaska Dad Peace>;
 
 sub is_keyboard_word ($word) {
    state $rows = [qw< qwertyuiop asdfghjkl zxcvbnm >];

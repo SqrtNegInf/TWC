@@ -1,0 +1,76 @@
+ 
+===> 207/1/cheok-yin-fung.pl <===
+Alaska Dad
+ 
+===> 207/1/colin-crain.pl <===
+( "Alaska", "dad" )
+ 
+===> 207/1/dave-jacoby.pl <===
+    Input:  @array = ("Hello","Alaska","Dad","Peace")
+    Output: ("Alaska","Dad")
+
+    Input:  @array = ("OMG","Bye")
+    Output: ()
+
+ 
+===> 207/1/deadmarshal.pl <===
+(alaska dad)
+()
+ 
+===> 207/1/e-choroba.pl <===
+# Seeded srand with seed '1' from import arg.
+1..2
+ok 1 - Example 1
+ok 2 - Example 2
+ 
+===> 207/1/jaldhar-h-vyas.pl <===
+("Alaska","Dad")
+ 
+===> 207/1/jo-37.pl <===
+# Seeded srand with seed '1' from import arg.
+ok 1 - example 1
+ok 2 - example 2
+1..2
+ 
+===> 207/1/kjetillll.pl <===
+Input: Hello Alaska Dad Peace
+Output: Alaska Dad
+Input: OMG Bye
+Output: 
+ 
+===> 207/1/laurent-rosenfeld.pl <===
+Alaska Dad
+()
+Power Fad Tower Quit True
+ 
+===> 207/1/lubos-kolouch.pl <===
+ok 1 - Example 1
+ok 2 - Example 2
+1..2
+ 
+===> 207/1/paulo-custodio.pl <===
+Alaska Dad
+ 
+===> 207/1/polettix.pl <===
+Alaska Dad
+ 
+===> 207/1/robert-dicicco.pl <===
+Input: @array = [Hello Alaska Dad Peace]
+Output: 
+	alaska
+	dad
+ 
+Input: @array = [OMG Bye]
+Output: 
+ 
+ 
+===> 207/1/roger-bell-west.pl <===
+1..2
+ok 1 - example 1
+ok 2 - example 2
+ 
+===> 207/1/ulrich-rieke.pl <===
+(Alaska,Dad)
+ 
+===> 207/1/wlmb.pl <===
+Hello Alaska Dad Peace -> Alaska Dad
