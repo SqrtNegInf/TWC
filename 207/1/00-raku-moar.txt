@@ -25,6 +25,11 @@ Input: @array = (Raku True add any as do does error for has once or out put queu
 ===> 207/1/arne-sommer.raku <===
 ("Alaska","Dad")
  
+===> 207/1/barroff.raku <===
+1..2
+ok 1 - works for ("Hello","Alaska","Dad","Peace")
+ok 2 - works for ("OMG","Bye")
+ 
 ===> 207/1/bruce-gray.raku <===
 1..2
 ok 1 - 
