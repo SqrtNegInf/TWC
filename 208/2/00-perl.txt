@@ -1,0 +1,138 @@
+ 
+===> 208/2/athanasius.pl <===
+Running the test suite
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+1..3
+ 
+===> 208/2/bob-lied.pl <===
+# Seeded srand with seed '1' from import arg.
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ok 4 - Start != 1
+ok 5 - Start with dup
+ok 6 - Short sequence dup last
+ok 7 - Short sequence dup first
+ok 8 - Negative sequence
+ok 9 - Dup before missing
+ok 10 - Missing before dup
+1..10
+ 
+===> 208/2/cheok-yin-fung.pl <===
+1..5
+ok 1
+ok 2
+ok 3
+ok 4
+ok 5
+ 
+===> 208/2/dave-jacoby.pl <===
+    Input:  @array = 1, 2, 2, 4
+    Output: 2,3
+
+    Input:  @array = 1, 2, 3, 4
+    Output: -1
+
+    Input:  @array = 1, 2, 3, 3
+    Output: 3,4
+
+ 
+===> 208/2/e-choroba.pl <===
+# Seeded srand with seed '1' from import arg.
+1..7
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ok 4 - Duplicate but not missing
+ok 5 - Missing but not duplicate
+ok 6 - Missing at the beginning
+ok 7 - Triplicate
+ 
+===> 208/2/jo-37.pl <===
+# Seeded srand with seed '1' from import arg.
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+1..3
+ 
+===> 208/2/laurent-rosenfeld.pl <===
+1 2 2 4      => (2, 3)
+1 2 3 4      => -1
+1 2 3 3      => (3, -)
+1 2 4 5      => (-, 3)
+1 1 3 4      => (1, 2)
+1 3 4 5      => (-, 2)
+1 2 2 3 5    => (2, 4)
+ 
+===> 208/2/lubos-kolouch.pl <===
+ok 1 - Test 1 passed
+ok 2 - Test 2 passed
+ok 3 - Test 3 passed
+1..3
+ 
+===> 208/2/matthias-muth.pl <===
+ok 1 - dup_and_missing(1,2,2,4) == (2,3)
+ok 2 - dup_and_missing(1,2,3,4) == -1
+ok 3 - dup_and_missing(1,2,3,3) == (3,4)
+ok 4 - dup_and_missing(11,12,12,13,15,16,17) == (12,14)
+1..4
+ 
+===> 208/2/perlboy1967.pl <===
+ok 1
+ok 2
+ok 3
+ok 4
+1..4
+ 
+===> 208/2/peter-campbell-smith.pl <===
+
+Input:  @nums = (1, 2, 3, 3, 5)
+Output: Duplicate is 3 and Missing is 4.
+
+Input:  @nums = (7, 7, 8, 9, 11)
+Output: Duplicate is 7 and Missing is 10.
+
+Input:  @nums = (7, 8, 9, 11, 11)
+Output: Duplicate is 11 and Missing is 10.
+
+Input:  @nums = (4, 5, 6, 7, 8, 8, 9, 10, 11, 12, 13, 15)
+Output: Duplicate is 8 and Missing is 14.
+
+Input:  @nums = (1, 2, 3, 4, 5)
+Output: -1
+ 
+===> 208/2/pip.pl <===
+(1,2,2,4) => (2,3);
+(1,2,3,4) => -1;
+(1,2,3,3) => (3,4);
+ 
+===> 208/2/robert-dicicco.pl <===
+Input: @nums = (1 2 2 4)
+Output: (2,3)
+ 
+Input: @nums = (1 2 3 4)
+Output: -1
+ 
+Input: @nums = (1 2 3 3)
+Output: (3,4)
+ 
+ 
+===> 208/2/roger-bell-west.pl <===
+1..3
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ 
+===> 208/2/solathian.pl <===
+Duplicate: 2, Missing: 3
+No duplicate and missing found.
+Duplicate: 3, Missing: 4
+ 
+===> 208/2/ulrich-rieke.pl <===
+(2,3)
+ 
+===> 208/2/zapwai.pl <===
+Input: @nums = (1,2,2,4)
+Output: (2,3)

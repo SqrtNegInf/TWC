@@ -1,14 +1,8 @@
 #!/usr/bin/env perl
+
 use v5.36;
 use builtin 'indexed';
 no warnings 'experimental';
-
-
-# Challenge 208 - 2 - Duplicate and Missing
-# You are given an array of integers in sequence with one missing and one duplicate.
-# Write a script to find the duplicate and missing integer in the given array. Return -1 if none found.
-# For the sake of this task, let us assume the array contains no more than one duplicate and missing.
-
 
 duplicateAndMissing(1, 2, 2, 4);    # Duplicate is 2 and Missing is 3.
 duplicateAndMissing(1, 2, 3, 4);    # No duplicate and missing found.

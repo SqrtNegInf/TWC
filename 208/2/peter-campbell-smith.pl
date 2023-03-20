@@ -1,17 +1,8 @@
 #!/usr/bin/env perl
 
-# Peter Campbell Smith - 2023-03-13
-
 use v5.28;
 use utf8;
 use warnings;
-
-# You are given an array of integers in sequence with one missing and one duplicate.
-# Write a script to find the duplicate and missing integer in the given array. 
-# Return -1 if none found. You may assume the array contains no more than one duplicate 
-# and missing.
-
-# Blog: http://ccgi.campbellsmiths.force9.co.uk/challenge/208/2
 
 dup_and_miss(1, 2, 3, 3, 5);
 dup_and_miss(7, 7, 8, 9, 11);

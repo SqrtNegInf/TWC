@@ -1,11 +1,5 @@
 #!/usr/bin/env perl
-=begin comment
-----------------------------------------------
-AUTHOR: Robert DiCicco
-DATE  : 2023-03-15
-Challenge 208 'Duplicate and Missing' ( Perl )
-----------------------------------------------
-=cut
+
 use strict;
 use warnings;
 use feature 'say';
@@ -28,21 +22,3 @@ for (@nums) {
     }
     say " ";
 }
-
-=begin comment
-----------------------------------------------
-SAMPLE OUTPUT
-perl .\DupMissing.pl
-Input: @nums = (1 2 2 4)
-Output: (2,3)
-
-Input: @nums = (1 2 3 4)
-Output: -1
-
-Input: @nums = (1 2 3 3)
-Output: (3,4)
-----------------------------------------------
-=cut
-
-
-

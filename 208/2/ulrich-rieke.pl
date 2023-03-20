@@ -1,12 +1,10 @@
 #!/usr/bin/env perl
+
 use strict ;
 use warnings ;
 use feature 'say' ;
 
-say "Enter some integers, at most one missing and one duplicate, separated by blanks!" ;
-my $line = <STDIN> ;
-chomp $line ;
-my @numbers = split( /\s/ , $line ) ;
+my @numbers = <1 2 2 4>;
 my @sorted = sort { $a <=> $b } @numbers ;
 my $len = scalar( @sorted ) ;
 my @found ;

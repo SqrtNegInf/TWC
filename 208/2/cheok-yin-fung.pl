@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-# The Weekly Challenge 208
-# Task 2 Duplicate and Missing
-# Assume the array has three or more elements.
+
 use v5.30.0;
 use warnings;
 use List::MoreUtils qw/slide/;

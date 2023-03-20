@@ -1,23 +1,5 @@
 #!/usr/bin/env perl
 
-=pod
-
-The Weekly Challenge - 208
-- https://theweeklychallenge.org/blog/perl-weekly-challenge-208
-
-Author: Niels 'PerlBoy' van Dijke
-
-Task 2: Duplicate and Missing
-Submitted by: Mohammad S Anwar
-
-You are given an array of integers in sequence with one missing and one duplicate.
-
-Write a script to find the duplicate and missing integer in the given array. Return -1 if none found.
-
-For the sake of this task, let us assume the array contains no more than one duplicate and missing.
-
-=cut
-
 use v5.16;
 
 use common::sense;

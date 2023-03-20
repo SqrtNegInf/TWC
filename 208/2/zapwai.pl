@@ -1,8 +1,8 @@
 #!/usr/bin/env perl
+
 use v5.30.0;
+
 my @nums = (1, 2, 2, 4);
-#my @nums = (1,2,3,3);
-#my @nums = (1,2,3,4);
 say "Input: \@nums = (".join(",",@nums).")";
 print "Output: ";
 my $catch;			# flag for printing -1
