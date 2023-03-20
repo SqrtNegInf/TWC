@@ -1,13 +1,6 @@
 #!/usr/bin/env raku
 
-#
-# Perl Weekly Challenge 208
-# Task 2
-#
-# See <https://perlweeklychallenge.org/blog/perl-weekly-challenge-208/>
-#
-
-sub MAIN( *@list where { @list.grep( * ~~ Int ).elems == @list.elems } ) {
+sub MAIN( @list where { @list.grep( * ~~ Int ).elems == @list.elems } = <1 2 2 4> ) {
     my %results;
 
     for @list.min .. @list.max {

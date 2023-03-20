@@ -1,28 +1,6 @@
 #!/usr/bin/env raku
-# :vim ft=raku sw=4 expandtab  # 🦋 ∅ ≡ ∩ ≢ ∈ « ␤ » ∴
-use v6.d;
+
 use Test;
-
-=begin comment
-208-2: Duplicate and Missing    Submitted by: Mohammad S Anwar
-
-Given an array of integers in sequence with one missing and one duplicate;
-find the duplicate and missing integer in the given array. Return -1 if none
-found.  Assume the array contains no more than one duplicate and missing.
-
-Example 1:
-
-Input: @nums = (1,2,2,4)
-Output: (2,3)
-
-Duplicate is 2 and Missing is 3.
-Example 2:
-
-Input: @nums = (1,2,3,4)
-Output: -1
-
-No duplicate and missing found.
-=end comment
 
 my @Test-bad = [];
 my @Test =
@@ -97,5 +75,3 @@ my @n = (-7…7),
 for @n -> @num {
     print "\nInput: @num = @num[]\nOutput: ", &dupe-and-miss( @num) // -1;
 }
-
-

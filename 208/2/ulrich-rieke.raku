@@ -1,10 +1,6 @@
 #!/usr/bin/env raku
-use v6 ;
 
-say "Enter some integers, at most one missing and one duplicate!" ;
-say "Separate by blanks!" ;
-my $line = $*IN.get ;
-my @numbers = $line.words.map( {.Int} ).sort( { $^a <=> $^b } ) ;
+my @numbers = <1 2 2 4>;
 my $len = @numbers.elems ;
 my @found ;
 for (0..$len - 2 ) -> $i {

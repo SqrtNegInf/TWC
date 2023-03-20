@@ -1,7 +1,7 @@
 #!/usr/bin/env raku
 
 sub MAIN(
-    *@nums
+    @nums = <1 2 2 4>
 ) {
     my $missing;
     my %count;

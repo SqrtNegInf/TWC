@@ -1,6 +1,6 @@
 #!/usr/bin/env raku
-use v6;
-sub MAIN (*@args) {
+
+sub MAIN (@args = <1 2 2 4>) {
    my @dam = duplicate-and-missing(@args, %*ENV<SHORT_CIRCUIT>);
    put @dam ?? "({@dam.join(',')})" !! -1;
 }
