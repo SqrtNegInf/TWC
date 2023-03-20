@@ -1,11 +1,4 @@
 #!/usr/bin/env perl
-=begin comment
-------------------------------------------
-AUTHOR: Robert DiCicco
-DATE  : 2023-03-14
-Challenge 208 Minimum Index Sum ( Perl )
-------------------------------------------
-=cut
 
 use strict;
 use warnings;
@@ -35,23 +28,3 @@ for (0..$ln - 1) {
     }
     say ")\n";
 }
-
-=begin comment
-------------------------------------------
-perl .\MinIndexSum.pl
-Input: @list1 = Perl Raku Love
-       @list2 = Raku Perl Hate
-Output : ('Perl' 'Raku' )
-
-Input: @list1 = A B C
-       @list2 = C A B
-Output : ('A' 'B' 'C' )
-
-Input: @list1 = A B C
-       @list2 = D E F
-Output : ()
-------------------------------------------
-
-
-
-=cut

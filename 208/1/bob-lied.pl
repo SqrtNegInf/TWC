@@ -1,31 +1,4 @@
 #!/usr/bin/env perl
-# vim:set ts=4 sw=4 sts=4 et ai wm=0 nu:
-#=============================================================================
-# ch-1.pl Perl Weekly Challenge Week 208 Task 1 Minimum Index Sum 
-#=============================================================================
-# Copyright (c) 2023, Bob Lied
-#=============================================================================
-# You are given two arrays of strings.
-# Write a script to find out all common strings in the given two arrays with
-# minimum index sum. If no common strings found returns an empty list.
-# Example 1 Input: @list1 = ("Perl", "Raku", "Love")
-#                  @list2 = ("Raku", "Perl", "Hate")
-#          Output: ("Perl", "Raku")
-#   There are two common strings "Perl" and "Raku".
-#   Index sum of "Perl": 0 + 1 = 1
-#   Index sum of "Raku": 1 + 0 = 1
-# Example 2 Input: @list1 = ("A", "B", "C")
-#                  @list2 = ("D", "E", "F")
-#          Output: ()
-#   No common string found, so no result.
-# Example 3 Input: @list1 = ("A", "B", "C")
-#                  @list2 = ("C", "A", "B")
-#          Output: ("A")
-#   There are three common strings "A", "B" and "C".
-#   Index sum of "A": 0 + 1 = 1
-#   Index sum of "B": 1 + 2 = 3
-#   Index sum of "C": 2 + 0 = 2
-#=============================================================================
 
 use v5.36;
 
@@ -36,7 +9,7 @@ my $Verbose = 0;
 my $DoTest  = 0;
 
 GetOptions("test" => \$DoTest, "verbose" => \$Verbose);
-exit(!runTest()) if $DoTest;
+runTest();exit;
 
 #########
 # Command line 
@@ -85,7 +58,7 @@ sub minIndexSum($list1, $list2)
 
 sub runTest
 {
-    use Test2::V0;
+    use Test2::V0 -srand => 1;
 
     is( minIndexSum( [ qw(Perl Raku Love) ], [ qw(Raku Perl Hate) ] ),
             [ qw(Perl Raku) ], "Example 1");

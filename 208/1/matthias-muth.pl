@@ -1,12 +1,4 @@
 #!/usr/bin/env perl
-#
-#       The Weekly Challenge - Perl & Raku
-#       (https://theweeklychallenge.org)
-#
-#       Challenge 208 Task 1: Minimum Index Sum
-#
-#       Perl solution by Matthias Muth.
-#
 
 use strict;
 use warnings;

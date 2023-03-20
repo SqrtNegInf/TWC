@@ -5,7 +5,7 @@ use Test2::V0 -srand => 1;
 use List::UtilsBy 'min_by';
 use experimental 'signatures';
 
-our ($tests, $examples);
+our ($tests, $examples) = (1);
 
 run_tests() if $tests || $examples;	# does not return
 

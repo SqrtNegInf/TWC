@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-# The Weekly Challenge 208
-# Task 1 Minimum Index Sum
+
 use v5.30.0;
 use warnings;
 use Array::Utils qw/intersect/;
