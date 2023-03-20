@@ -435,8 +435,8 @@ Challenge titles and Rosetta-code correspondences (exact, and otherwise)
 207-2 H-Index
 208-1 Minimum Index Sum
 208-2 Duplicate and Missing
-209-1
-209-2
+209-1 Special Bit Characters
+209-2 Merge Account
 
 210-1
 210-2
