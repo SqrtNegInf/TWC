@@ -1,0 +1,119 @@
+ 
+===> 208/1/0rir.raku <===
+1..12
+ok 1 - $( ) $( ) -> $( )
+ok 2 - "i" $( ) -> $( )
+ok 3 - $( ) "i" -> $( )
+ok 4 - $("A", "B", "C") $("D", "E", "F") -> $( )
+ok 5 - $("P", "R", "L", "P", "P") $("R", "P", "H") -> $("P", "R")
+ok 6 - $("P", "R", "L", "P", "P") $("R", "P", "H") -> $("P", "R")
+ok 7 - $("P", "R", "L", "P", "P") $("X", "X", "X", "R", "P", "H") -> $("P", "R")
+ok 8 - $("P", "R", "L") $("R", "P", "H") -> $("P", "R")
+ok 9 - $("a", "a", "a") $("a", "a", "a") -> "a"
+ok 10 - $("y", "y", "a", "b", "c") $("z", "z", "z", "z", "c", "b", "a") -> $("a", "b", "c")
+ok 11 - $("y", "y", "a", "y", "b", "c") $("z", "z", "z", "z", "b", "c", "a") -> $("a", "b")
+ok 12 - $("y", "c", "a", "y", "b", "y") $("z", "z", "z", "z", "b", "z", "a", "c") -> $("a", "b", "c")
+
+Input: @list1 = y c a y b y
+       @list2 = z z z z b z a c
+Output:  a b c
+ 
+===> 208/1/arne-sommer.raku <===
+("Perl", "Raku")
+ 
+===> 208/1/athanasius.raku <===
+Running the test suite
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+1..3
+ 
+===> 208/1/barroff.raku <===
+1..3
+ok 1 - works for ('Perl', 'Raku')
+ok 2 - works for ()
+ok 3 - works for ("A")
+ 
+===> 208/1/bruce-gray.raku <===
+1..12
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ok 4 - 
+ok 5 - 
+ok 6 - 
+ok 7 - 
+not ok 8 - 
+ok 9 - 
+ok 10 - 
+ok 11 - 
+ok 12 - 
+ 
+===> 208/1/carlos-oliveira.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ok 4 - 
+ 
+===> 208/1/feng-chang.raku <===
+ok 1 - example 1 matches
+ok 2 - example 2 matches
+ok 3 - example 3 matches
+1..3
+ 
+===> 208/1/laurent-rosenfeld.raku <===
+Perl Raku Love - Raku Perl Hate     => (Perl Raku)
+A B C - D E F                       => ()
+A B C - C A B                       => (A)
+ 
+===> 208/1/luca-ferrari.raku <===
+Perl,Raku
+ 
+===> 208/1/mark-anderson.raku <===
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ok 4 - 7 X 5
+ok 5 - Uneven
+ok 6 - 10 X 25
+ok 7 - 25 X 25
+ 
+===> 208/1/pip.raku <===
+("Perl","Raku","Love") ,
+("Raku","Perl","Hate") => ("Perl","Raku");
+("A","B","C") ,
+("D","E","F") => ();
+("A","B","C") ,
+("C","A","B") => ("A");
+ 
+===> 208/1/polettix.raku <===
+[Perl Raku]
+ 
+===> 208/1/robert-dicicco.raku <===
+Input: @list1 = Perl Raku Love
+       @list2 = Raku Perl Hate
+Output: Perl Raku 
+
+Input: @list1 = A B C
+       @list2 = C A B
+Output: A B C 
+
+Input: @list1 = A B C
+       @list2 = D E F
+Output: 
+
+ 
+===> 208/1/roger-bell-west.raku <===
+1..3
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ 
+===> 208/1/ulrich-rieke.raku <===
+(Perl,Raku)
+ 
+===> 208/1/wambash.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+1..3

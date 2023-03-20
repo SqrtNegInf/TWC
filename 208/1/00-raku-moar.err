@@ -1,0 +1,4 @@
+# Failed test at bruce-gray.raku line 65
+# expected: $( )
+#      got: Empty
+# You failed 1 test of 12

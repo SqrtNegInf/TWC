@@ -1,41 +1,6 @@
 #!/usr/bin/env raku
-# :vim ft=raku sw=4 expandtab  # 🦋 ∅ ≡ ∩ ≢ ∈ ∋ « ␤ » ∴
-use v6.d;
+
 use Test;
-
-=begin comment
-208-1: Minimum Index Sum            Submitted by: Mohammad S Anwar
-Given two arrays of strings, find all common strings in the arrays with
-minimum index sum. If no common strings found returns an empty list.
-
-Example 1
-Input: @list1 = ("Perl", "Raku", "Love")
-       @list2 = ("Raku", "Perl", "Hate")
-
-Output: ("Perl", "Raku")
-
-There are two common strings "Perl" and "Raku".
-Index sum of "Perl": 0 + 1 = 1
-Index sum of "Raku": 1 + 0 = 1
-Example 2
-Input: @list1 = ("A", "B", "C")
-       @list2 = ("D", "E", "F")
-
-Output: ()
-
-No common string found, so no result.
-Example 3
-Input: @list1 = ("A", "B", "C")
-       @list2 = ("C", "A", "B")
-
-Output: ("A")
-
-There are three common strings "A", "B" and "C".
-Index sum of "A": 0 + 1 = 1
-Index sum of "B": 1 + 2 = 3
-Index sum of "C": 2 + 0 = 2
-
-=end comment
 
 my @Test =
     ( (),               (),                     (),         ),
@@ -91,5 +56,3 @@ my @list1 = @Test[*-1][0];
 my @list2 = @Test[*-1][1];
 say "\nInput: @list1 = @list1[]\n       @list2 = @list2[]";
 say   "Output:  &min-sum-match( @list1, @list2)";
-
-exit;

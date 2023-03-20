@@ -1,4 +1,7 @@
 #!/usr/bin/env raku
+
+BEGIN die 'not ok - disabled: JVM output order variable so tests fail' if $*VM ~~ /jvm/;
+
 use Test;
 
 sub minimum-index-sum (Str @array1, Str @array2 --> Hash(Seq)) {	

@@ -1,5 +1,4 @@
 #!/usr/bin/env raku
-use v6 ;
 
 sub findIndex( @array , $word ) {
   my $pos = 0 ;
@@ -9,14 +8,14 @@ sub findIndex( @array , $word ) {
   return $pos ;
 }
 
-say "Enter some strings, separated by blanks!" ;
-my $line = $*IN.get ;
-my @firstWords = $line.words ;
+
+my @firstWords = <Perl Raku Love>; 
+
 my $firstSet = set( @firstWords ) ;
-say "Enter some more strings, separated by blanks!" ;
-$line = $*IN.get ;
-my @secondWords = $line.words ;
+
+my @secondWords = <Raku Perl Hate>;
 my $secondSet = set( @secondWords ) ;
+
 my $common = $firstSet (&) $secondSet ;
 if ( $common.elems > 0 ) {
   my @indexlist ;

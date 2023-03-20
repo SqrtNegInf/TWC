@@ -1,12 +1,5 @@
 #!/usr/bin/env raku
 
-#
-# Perl Weekly Challenge 208
-# Task 1
-#
-# See <https://perlweeklychallenge.org/blog/perl-weekly-challenge-208/>
-#
-
 sub MAIN() {
     my @first = < Perl Raku PHP Love >;
     my @second = < Raku Perl Hate >;

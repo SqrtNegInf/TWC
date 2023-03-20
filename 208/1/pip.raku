@@ -1,28 +1,5 @@
 #!/usr/bin/env raku
-# HTTPS://TheWeeklyChallenge.Org - Perl/Raku Weekly Challenge #208 - Pip Stuart
-# Task1: Minimum Index Sum:  Submitted by: Mohammad S Anwar;  You are given two arrays of strings.
-#   Write a script to find out all common strings in the given two arrays with minimum index sum. If no common strings found returns an empty list.
-# Example1:
-#   In-put: @list1 = ("Perl", "Raku", "Love")
-#           @list2 = ("Raku", "Perl", "Hate")
-#   Output: ("Perl", "Raku")
-#     There are two common strings "Perl" and "Raku".
-#       Index sum of "Perl": 0 + 1 = 1
-#       Index sum of "Raku": 1 + 0 = 1
-# Example2:
-#   In-put: @list1 = ("A", "B", "C")
-#           @list2 = ("D", "E", "F")
-#   Output: ()
-#     No common string found, so no result.
-# Example3:
-#   In-put: @list1 = ("A", "B", "C")
-#           @list2 = ("C", "A", "B")
-#   Output: ("A")
-#     There are three common strings "A", "B" and "C".
-#       Index sum of "A": 0 + 1 = 1
-#       Index sum of "B": 1 + 2 = 3
-#       Index sum of "C": 2 + 0 = 2
-use v6;my $d8VS='N3JM6rwn';
+
 sub MInS {my @lst2 = @_;my @lst1 = ();my @mins = ();my @nsmz = ();my %ndxs = ();
   while (@lst2[0] ne ';') {
     push(@lst1,             shift(@lst2));

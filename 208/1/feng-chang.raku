@@ -9,7 +9,7 @@ sub min-index-sum(@list1, @list2) {
     @common.grep({ %hash1{$_} + %hash2{$_} == $min-index }).sort
 }
 
-multi MAIN('test') {
+#multi MAIN('test') {
     use Test;
 
     is-deeply min-index-sum(<Perl Raku Love>, <Raku Perl Hate>), <Perl Raku>, 'example 1 matches';
@@ -17,8 +17,6 @@ multi MAIN('test') {
     is-deeply min-index-sum(<A B C>, <C A B>), ('A',), 'example 3 matches';
 
     done-testing;
-}
+#}
 
-multi MAIN() {
-    put min-index-sum(|$*IN.lines[0, 1].map({ .words.Array }));
-}
+#multi MAIN() { put min-index-sum(|$*IN.lines[0, 1].map({ .words.Array })); }

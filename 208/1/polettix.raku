@@ -1,14 +1,7 @@
 #!/usr/bin/env raku
-use v6;
-sub MAIN (*@items) {
-   my @lists = [], [];
-   my $i = 0;
-   for @items -> $item {
-      if ($item eq '/') { $i = 1 }
-      else { @lists[$i].push: $item }
-   }
-   say minimum-index-sum(@lists[0], @lists[1]);
-}
+
+my @l1 = <Perl Raku Love>; my @l2 = <Raku Perl Hate>;
+say minimum-index-sum(@l1, @l2);
 
 sub minimum-index-sum ($list1, $list2) {
    my %list2-index-for = $list2.kv.reverse; # keeps minimum!

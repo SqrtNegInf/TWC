@@ -1,7 +1,5 @@
 #!/usr/bin/env raku
 
-use v6.d;
-
 sub get-duplicates(Str @strings1, Str @strings2 --> List) {
     (Set(@strings1) (&) Set(@strings2)).keys.List;
 }

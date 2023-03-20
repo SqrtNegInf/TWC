@@ -1,0 +1,11 @@
+# Failed test at bruce-gray.raku line 65
+# expected: $( )
+#      got: Empty
+# You failed 1 test of 12
+[31m===[0mSORRY![31m===[0m Error while compiling /Users/dhoekman/PWC/208/1/carlos-oliveira.raku
+An exception occurred while evaluating a BEGIN
+at /Users/dhoekman/PWC/208/1/carlos-oliveira.raku:3
+Exception details:
+  not ok - disabled: JVM output order variable so tests fail
+    in code  at carlos-oliveira.raku line 3
+

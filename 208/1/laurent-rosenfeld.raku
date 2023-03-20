@@ -1,4 +1,5 @@
 #!/usr/bin/env raku
+
 sub min-sum-idx (@s1, @s2) {
     my $b1 = (map {@s1[$_] => $_ + 1}, 0..@s1.end).Bag;
     my $b2 = (map {@s2[$_] => $_ + 1}, 0..@s2.end).Bag;
