@@ -6,7 +6,7 @@ sub min-sum-idx (@s1, @s2) {
     my $result = (map { $_ =>  $b1{$_} + $b2{$_}},
         ($b1 ∩ $b2).keys).Bag;
     my $min = $result.values.min;
-    return grep {$result{$_} == $min}, $result.keys;
+    return grep {$result{$_} == $min}, $result.keys.sort;
 }
 
 for (<Perl Raku Love>, <Raku Perl Hate>),

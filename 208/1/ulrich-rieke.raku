@@ -32,7 +32,7 @@ if ( $common.elems > 0 ) {
       }
   }
   print "(" ;
-  print join( ',' , @allWords ) ;
+  print join( ',' , @allWords.sort ) ;
   say ")" ;
 }
 else {
