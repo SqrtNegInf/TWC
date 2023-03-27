@@ -438,8 +438,8 @@ Challenge titles and Rosetta-code correspondences (exact, and otherwise)
 209-1 Special Bit Characters
 209-2 Merge Account
 
-210-1
-210-2
+210-1 Kill and Win
+210-2 Number Collision
 211-1
 211-2
 212-1
