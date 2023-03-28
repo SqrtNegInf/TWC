@@ -1,4 +1,5 @@
 #!/usr/bin/env raku
+
 sub ends-with-a (@in) {
     my $i = 0;
     my $end = @in.end;

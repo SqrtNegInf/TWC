@@ -1,12 +1,11 @@
 #!/usr/bin/env raku
 
-
 my token bit { <[01]> };
 subset BitList of Str where /^ '(' <bit>* % ',' ')' $/;
 
-sub MAIN(Str $bits) {
-  die 'Please supply a valid list of bits.' unless $bits.subst(/\s/, '', :g) ~~ BitList;
-  my Str() @bits = $<bit>;
+#sub MAIN(Str $bits) {
+#  die 'Please supply a valid list of bits.' unless $bits.subst(/\s/, '', :g) ~~ BitList;
+  my Str() @bits = <1 1 0 0>;
   die 'The last bit must be zero!' unless @bits[*-1] == 0;
   my $bit-string = @bits.join;
   $bit-string
@@ -14,4 +13,4 @@ sub MAIN(Str $bits) {
     .substr(*-1) eq 'a' andthen
     .Int
     .say;
-}
+#}

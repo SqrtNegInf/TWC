@@ -1,6 +1,6 @@
 #!/usr/bin/env raku
 
-unit sub MAIN (*@bits where @bits.elems > 0 && all(@bits) eq any(0,1) && @bits[*-1] == 0, :v($verbose));
+my @bits = (1,1,1,0);
 
 my $string = "";
 
@@ -23,6 +23,6 @@ while (@bits.elems)
   }
 }
 
-say ":String: $string" if $verbose;
+say ":String: $string";
 
 say + $string.ends-with('a');

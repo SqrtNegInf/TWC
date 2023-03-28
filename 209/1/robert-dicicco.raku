@@ -1,11 +1,4 @@
 #!/usr/bin/env raku
-#`{
------------------------------------------
-AUTHOR: Robert DiCicco
-DATE  : 2023-03-21
-Challenge 209 Special Bit Chars ( Raku )
------------------------------------------
-}
 
 my @bits = ([1, 0, 0],[1, 1, 1, 0]);
 

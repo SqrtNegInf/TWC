@@ -1,0 +1,152 @@
+ 
+===> 209/1/0rir.raku <===
+1..66
+ok 1 - ba to bits and back
+ok 2 - ba -> 1 0 0 -> True
+ok 3 - ca to bits and back
+ok 4 - ca -> 1 1 0 -> True
+ok 5 - baa to bits and back
+ok 6 - baa -> 1 0 0 0 -> True
+ok 7 - bba to bits and back
+ok 8 - bba -> 1 0 1 0 0 -> True
+ok 9 - bca to bits and back
+ok 10 - bca -> 1 0 1 1 0 -> True
+ok 11 - caa to bits and back
+ok 12 - caa -> 1 1 0 0 -> True
+ok 13 - cba to bits and back
+ok 14 - cba -> 1 1 1 0 0 -> True
+ok 15 - cca to bits and back
+ok 16 - cca -> 1 1 1 1 0 -> True
+ok 17 - baaa to bits and back
+ok 18 - baaa -> 1 0 0 0 0 -> True
+ok 19 - baba to bits and back
+ok 20 - baba -> 1 0 0 1 0 0 -> True
+ok 21 - baca to bits and back
+ok 22 - baca -> 1 0 0 1 1 0 -> True
+ok 23 - bbaa to bits and back
+ok 24 - bbaa -> 1 0 1 0 0 0 -> True
+ok 25 - bbba to bits and back
+ok 26 - bbba -> 1 0 1 0 1 0 0 -> True
+ok 27 - bbca to bits and back
+ok 28 - bbca -> 1 0 1 0 1 1 0 -> True
+ok 29 - bcaa to bits and back
+ok 30 - bcaa -> 1 0 1 1 0 0 -> True
+ok 31 - bcba to bits and back
+ok 32 - bcba -> 1 0 1 1 1 0 0 -> True
+ok 33 - bcca to bits and back
+ok 34 - bcca -> 1 0 1 1 1 1 0 -> True
+ok 35 - caaa to bits and back
+ok 36 - caaa -> 1 1 0 0 0 -> True
+ok 37 - caba to bits and back
+ok 38 - caba -> 1 1 0 1 0 0 -> True
+ok 39 - caca to bits and back
+ok 40 - caca -> 1 1 0 1 1 0 -> True
+ok 41 - cbaa to bits and back
+ok 42 - cbaa -> 1 1 1 0 0 0 -> True
+ok 43 - cbba to bits and back
+ok 44 - cbba -> 1 1 1 0 1 0 0 -> True
+ok 45 - cbca to bits and back
+ok 46 - cbca -> 1 1 1 0 1 1 0 -> True
+ok 47 - ccaa to bits and back
+ok 48 - ccaa -> 1 1 1 1 0 0 -> True
+ok 49 - ccba to bits and back
+ok 50 - ccba -> 1 1 1 1 1 0 0 -> True
+ok 51 - ccca to bits and back
+ok 52 - ccca -> 1 1 1 1 1 1 0 -> True
+ok 53 - baaaa to bits and back
+ok 54 - baaaa -> 1 0 0 0 0 0 -> True
+ok 55 - baaba to bits and back
+ok 56 - baaba -> 1 0 0 0 1 0 0 -> True
+ok 57 - baaca to bits and back
+ok 58 - baaca -> 1 0 0 0 1 1 0 -> True
+ok 59 - babaa to bits and back
+ok 60 - babaa -> 1 0 0 1 0 0 0 -> True
+ok 61 - babba to bits and back
+ok 62 - babba -> 1 0 0 1 0 1 0 0 -> True
+ok 63 - babca to bits and back
+ok 64 - babca -> 1 0 0 1 0 1 1 0 -> True
+ok 65 - bacaa to bits and back
+ok 66 - bacaa -> 1 0 0 1 1 0 0 -> True
+
+Input: @bits = 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0
+Output: 1
+ 
+===> 209/1/2colours.raku <===
+1
+ 
+===> 209/1/arne-sommer.raku <===
+:String: cb
+0
+ 
+===> 209/1/athanasius.raku <===
+Running the test suite
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Longer
+1..3
+ 
+===> 209/1/barroff.raku <===
+1..2
+ok 1 - works for (1, 0, 0)
+ok 2 - works for (1, 1, 1, 0)
+ 
+===> 209/1/bruce-gray.raku <===
+1..2
+ok 1 - 
+ok 2 - 
+ 
+===> 209/1/feng-chang.raku <===
+0
+ 
+===> 209/1/laurent-rosenfeld.raku <===
+1 0 0        => 1
+1 1 1 0      => 0
+0 0 0 1 0    => 0
+1 1 0        => 1
+ 
+===> 209/1/luca-ferrari.raku <===
+0
+ 
+===> 209/1/mark-anderson.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ok 4 - 
+ok 5 - 
+ok 6 - 
+ok 7 - 
+ok 8 - 
+ok 9 - 
+ok 10 - 
+ok 11 - 
+ 
+===> 209/1/pip.raku <===
+(1, 0, 0   ) => 1;
+(1, 1, 1, 0) => 0;
+ 
+===> 209/1/polettix.raku <===
+0
+ 
+===> 209/1/robert-dicicco.raku <===
+Input: @list1 = [1 0 0]
+b a  
+Output: 1
+ 
+Input: @list1 = [1 1 1 0]
+c b  
+Output: 0
+ 
+ 
+===> 209/1/roger-bell-west.raku <===
+1..2
+ok 1 - example 1
+ok 2 - example 2
+ 
+===> 209/1/ulrich-rieke.raku <===
+0
+ 
+===> 209/1/wambash.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+1..3

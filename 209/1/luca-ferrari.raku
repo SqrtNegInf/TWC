@@ -1,13 +1,6 @@
 #!/usr/bin/env raku
 
-#
-# Perl Weekly Challenge 209
-# Task 1
-#
-# See <https://perlweeklychallenge.org/blog/perl-weekly-challenge-209/>
-#
-
-sub MAIN( *@bits where { @bits.grep( * ~~ any(1, 0) ).elems == @bits.elems } ) {
+sub MAIN( @bits = <1 1 1 0>) {
     my @chars = @bits.rotor( 2, :partial ).map(
 	                                        {
 						       given ( $_.join ) {

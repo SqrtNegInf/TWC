@@ -1,4 +1,5 @@
 #!/usr/bin/env raku
+
 sub task1 ( @bits --> Bool ) {
     constant %h = 0 => 'a', 10 => 'b', 11 => 'c';
 
@@ -10,11 +11,11 @@ sub task1 ( @bits --> Bool ) {
     return @decoded.tail eq 'a';
 }
 
-
 constant @tests =
     ( (1, 0, 0)    , 1 ),
     ( (1, 1, 1, 0) , 0 ),
 ;
+
 use Test;
 plan +@tests;
 for @tests -> ( $in, $expected ) {

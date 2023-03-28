@@ -1,14 +1,6 @@
 #!/usr/bin/env raku
 
-sub USAGE() {
-    print qq:to/END/;
-    examples:
-        $*PROGRAM-NAME 100
-        $*PROGRAM-NAME 1110
-    END
-}
-
-unit sub MAIN(Str:D $s);
+unit sub MAIN(Str:D $s = '1110');
 
 grammar SBC {
     token TOP       { <Character>* }

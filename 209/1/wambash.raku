@@ -12,14 +12,15 @@ multi special-bit-charakters ($str) {
     $str.contains: /^ [ <A> | <B> | <C> ]* <A> $/
 }
 
-multi MAIN (Bool :test($)!) {
+#multi MAIN (Bool :test($)!) {
     use Test;
     is special-bit-charakters(1,0,0),    True;
     is special-bit-charakters(1,1,1,0), False;
     is special-bit-charakters(1110), False;
     done-testing;
-}
+#}
 
+=finish
 multi MAIN (Str $sbits) {
     say +special-bit-charakters $sbits
 }
