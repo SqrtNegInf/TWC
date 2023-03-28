@@ -1,6 +1,8 @@
 #!/usr/bin/env raku
 
-use Email::Valid; # zef install Email::Valid
+# what does input look like?
+
+use Email::Valid;
 my $email = Email::Valid.new;
 
 # Constraints:
@@ -41,9 +43,13 @@ sub build-account-str($name, @mails) {
 }
 
 sub MAIN(Str $accounts) {
-  die 'Please supply a valid list of accounts.' unless $accounts.subst(/\s/, '', :g) ~~ AccountList;
-  my @accounts <==
-    $<account>.map: { .<name>.Str => .<email>>>.Str };
+  #die 'Please supply a valid list of accounts.' unless $accounts.subst(/\s/, '', :g) ~~ AccountList;
+  my @accounts = [ ["A", "a1@a.com", "a2@a.com"],
+                     ["B", "b1@b.com"],
+                     ["A", "a3@a.com", "a1@a.com"]
+                 ];
+# my @accounts <==
+#   $<account>.map: { .<name>.Str => .<email>>>.Str };
   @accounts
     .classify: *.key, as => *.value andthen
     .duckmap: *.unify-transitive andthen

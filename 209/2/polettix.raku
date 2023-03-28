@@ -1,5 +1,5 @@
 #!/usr/bin/env raku
-use v6;
+
 sub MAIN {
    my @accounts =
       ['A', 'a1@a.com', 'a2@a.com'],

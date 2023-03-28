@@ -1,23 +1,5 @@
 #!/usr/bin/env raku
-# HTTPS://TheWeeklyChallenge.Org - Perl/Raku Weekly Challenge #209 - Pip Stuart
-# Task2: Merge Account:  Submitted by: Mohammad S Anwar;  You are given an array of accounts i.e. name with list of email addresses.
-#   Write a script to merge the accounts where possible. The accounts can only be merged if they have at least one email address in common.
-# Example1:
-#   In-put: @accounts = [ ["A", "a1@a.com", "a2@a.com"],
-#                         ["B", "b1@b.com"],
-#                         ["A", "a3@a.com", "a1@a.com"] ]
-#   Output:             [ ["A", "a1@a.com", "a2@a.com", "a3@a.com"],
-#                         ["B", "b1@b.com"] ]
-# Example2:
-#   In-put: @accounts = [ ["A", "a1@a.com", "a2@a.com"],
-#                         ["B", "b1@b.com"],
-#                         ["A", "a3@a.com"],
-#                         ["B", "b2@b.com", "b1@b.com"] ]
-#   Output:             [ ["A", "a1@a.com", "a2@a.com"],
-#                         ["A", "a3@a.com"],
-#                         ["B", "b1@b.com", "b2@b.com"] ]
-# Last date to submit the solution 23:59 (UK Time) Sunday 26th March 2023.
-use v6;my $d8VS='N3PM9779';
+
 sub MrgA { my @argv = @_;my $actz = []; my $outp = [];
   while   (   @argv.elems) {$actz.push(shift(@argv)); }
   for          ( 0 .. @($actz       ).elems - 1 ) -> $andx { my $cmnf = 0;

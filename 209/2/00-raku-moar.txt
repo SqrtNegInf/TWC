@@ -1,0 +1,111 @@
+ 
+===> 209/2/0rir.raku <===
+Input: @accounts = [
+    $["A01", "a010", "a011", "CCCC"]
+    $["A02", "a020", "a022", "BBBB"]
+    $["A03", "a030"]
+    $["A04"]
+    $["A07", "BBBB"]
+    $["A08", "a070", "a071"]
+    $["A09", "a080", "a081", "CCCC"]
+    $["A10", "a101"]
+    $["A11", "a111", "CCCC"]
+                  ]
+Output: [
+    $["A01", "A11", "A09", "a010", "a011", "CCCC", "a111", "a080", "a081"]
+    $["A02", "A07", "a020", "a022", "BBBB"]
+    $["A03", "a030"]
+    $["A04"]
+    $["A08", "a070", "a071"]
+    $["A10", "a101"]
+        ]
+ 
+===> 209/2/2colours.raku <===
+ 
+===> 209/2/arne-sommer.raku <===
+Example 1:
+[
+  ["A", "a1@a.com", "a2@a.com", "a3@a.com"],
+  ["B", "b1@b.com"],
+]
+
+Example2:
+[
+  ["A", "a1@a.com", "a2@a.com"],
+  ["A", "a3@a.com"],
+  ["B", "b1@b.com", "b2@b.com"],
+]
+ 
+===> 209/2/bruce-gray.raku <===
+1..8
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ok 4 - 
+ok 5 - 
+ok 6 - 
+ok 7 - 
+ok 8 - 
+ 
+===> 209/2/feng-chang.raku <===
+A, a2@a.com, a3@a.com, a1@a.com
+B, b1@b.com
+ 
+===> 209/2/laurent-rosenfeld.raku <===
+((A a1@a.com a2@a.com) (B b1@b.com) (A a3@a.com a1@a.com)) => 
+	[A a1@a.com a2@a.com a3@a.com]
+	[B b1@b.com]
+
+((A a1@a.com a2@a.com) (B b1@b.com) (A a3@a.com) (B b2@b.com b1@b.com)) => 
+	[A a1@a.com a2@a.com a3@a.com]
+	[B b1@b.com b2@b.com]
+
+ 
+===> 209/2/luca-ferrari.raku <===
+B b1@b.com
+A a1@a.com a2@a.com a3@a.com
+ 
+===> 209/2/mark-anderson.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ 
+===> 209/2/pip.raku <===
+[ ['A', 'a1@a.com', 'a2@a.com'],
+  ['B', 'b1@b.com'],
+  ['A', 'a3@a.com', 'a1@a.com'] ] => [ ['A', 'a1@a.com', 'a2@a.com', 'a3@a.com'],
+                                       ['B', 'b1@b.com'] ];
+[ ['A', 'a1@a.com', 'a2@a.com'],
+  ['B', 'b1@b.com'],
+  ['A', 'a3@a.com'],
+  ['B', 'b2@b.com', 'b1@b.com'] ] => [ ['A', 'a1@a.com', 'a2@a.com'],
+                                       ['B', 'b1@b.com', 'b2@b.com'],
+                                       ['A', 'a3@a.com'] ];
+ 
+===> 209/2/polettix.raku <===
+['B', 'b1@b.com', 'b2@b.com']
+['A', 'a8@a.com']
+['A', 'a3@a.com', 'a4@a.com', 'a2@a.com', 'a1@a.com']
+ 
+===> 209/2/robert-dicicco.raku <===
+Input: [[A a1@a.com a2@a.com] [B b1@b.com] [A a3@a.com] [B b2@b.com b1@b.com] ] 
+Output: [[A a1@a.com a2@a.com a3@a.com]
+        [B b1@b.com b2@b.com b1@b.com]]
+ 
+===> 209/2/roger-bell-west.raku <===
+1..2
+ok 1 - example 1
+ok 2 - example 2
+ 
+===> 209/2/wambash.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ok 4 - 
+ok 5 - 
+ok 6 - 
+ok 7 - 
+ok 8 - 
+ok 9 - 
+ok 10 - 
+1..10

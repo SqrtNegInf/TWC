@@ -8,7 +8,7 @@ sub USAGE() {
     END
 }
 
-unit sub MAIN(Str:D $f where *.IO.e);
+unit sub MAIN(Str:D $f where *.IO.e = 'emails01.txt');
 
 my @email-data = $f.IO.lines.map({ .words.Array });
 

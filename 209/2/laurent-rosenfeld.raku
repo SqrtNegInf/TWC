@@ -1,4 +1,5 @@
 #!/usr/bin/env raku
+
 sub merge-account (@in) {
     my %merged;
     for @in -> @part {

@@ -1,0 +1,12 @@
+[31m===[0mSORRY![31m===[0m Error while compiling /Users/dhoekman/PWC/209/2/2colours.raku
+Could not find Email::Valid in:
+    /Users/dhoekman/PWC/209/2/lib
+    /Users/dhoekman/.raku
+    /Users/dhoekman/.rakubrew/versions/jvm-2022.07/install/share/perl6/site
+    /Users/dhoekman/.rakubrew/versions/jvm-2022.07/install/share/perl6/vendor
+    /Users/dhoekman/.rakubrew/versions/jvm-2022.07/install/share/perl6/core
+    CompUnit::Repository::AbsolutePath<1122912802>
+    CompUnit::Repository::NQP<59369851>
+    CompUnit::Repository::Perl5<1843179147>
+    CompUnit::Repository::JavaRuntime<266375868>
+at /Users/dhoekman/PWC/209/2/2colours.raku:5

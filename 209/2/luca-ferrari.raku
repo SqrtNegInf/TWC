@@ -1,12 +1,5 @@
 #!/usr/bin/env raku
 
-#
-# Perl Weekly Challenge 209
-# Task 2
-#
-# See <https://perlweeklychallenge.org/blog/perl-weekly-challenge-209/>
-#
-
 sub MAIN() {
 
     my  @accounts =

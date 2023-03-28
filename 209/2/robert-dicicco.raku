@@ -1,12 +1,4 @@
 #!/usr/bin/env raku
-#`{
------------------------------------------
-AUTHOR: Robert DiCicco
-DATE  : 2023-03-25
-Challenge 209 Merge Account ( Raku )
------------------------------------------
-}
-use v6;
 
 #my @accounts = [ ["A", "a1\@a.com", "a2\@a.com"], ["B", "b1\@b.com"], ["A", "a3\@a.com", "a1\@a.com"] ];
 
