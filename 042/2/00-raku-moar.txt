@@ -186,7 +186,7 @@ unbalanced: )
 ))(()()()( - NOT OK
  
 ===> 042/2/simon-proctor.raku <===
-String to test ())()())()
+String to test ()())()()()(
 Balanced? False
  
 ===> 042/2/stuart-little.raku <===
