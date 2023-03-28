@@ -3,7 +3,7 @@ use v5.24;
 use warnings;
 use experimental 'signatures';
 
-my @bits = map { split m{}mxs } @ARGV;
+my @bits = map { split m{}mxs } <1 1 0>;
 say special_bits_characters(\@bits);
 
 sub special_bits_characters ($bits) {

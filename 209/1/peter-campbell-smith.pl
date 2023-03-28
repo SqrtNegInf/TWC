@@ -1,18 +1,8 @@
 #!/usr/bin/env perl
 
-# Peter Campbell Smith - 2023-03-20
-
 use v5.28;
 use utf8;
 use warnings;
-
-# You are given an array of binary bits that ends with 0. Valid sequences in the bit string are:
-# [0] -decodes-to-> "a"
-# [1, 0] -> "b"
-# [1, 1] -> "c"
-# Write a script to print 1 if the last character is an “a” otherwise print 0.
-
-# Blog: http://ccgi.campbellsmiths.force9.co.uk/challenge/209/1
 
 test_for_a([1, 0, 0]);
 test_for_a([1, 1, 1, 0]);

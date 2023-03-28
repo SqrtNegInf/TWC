@@ -1,11 +1,4 @@
 #!/usr/bin/env perl
-=begin comment
--------------------------------------------
-AUTHOR: Robert DiCicco
-DATE  : 2023-03-21
-Challenge 209 Special Bit Chars ( Perl )
--------------------------------------------
-=cut
 use strict;
 use warnings;
 use feature 'say';

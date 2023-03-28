@@ -54,16 +54,3 @@ for my $string (@strings) {
        special_bit_characters_slow(@bits),
        "same $string";
 }
-
-use Benchmark qw{ cmpthese };
-
-my @inputs = map [encode($_)], @strings;
-cmpthese(-3, {
-    slow => sub { special_bit_characters_slow(@$_) for @inputs },
-    fast => sub { special_bit_characters(@$_) for @inputs }
-});
-
-__END__
-        Rate slow fast
-slow  5103/s   -- -82%
-fast 27748/s 444%   --

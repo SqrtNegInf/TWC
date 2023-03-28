@@ -1,14 +1,6 @@
 #!/usr/bin/env perl
+
 use v5.36;
-
-# Challenge 209 - 1 - Special Bit Characters
-# You are given an array of binary bits that ends with 0.
-
-# Valid sequences in the bit string are:
-
-# [0] -decodes-to-> "a"
-# [1, 0] -> "b"
-# [1, 1] -> "c"
 
 
 # bits();               # error: array is empty

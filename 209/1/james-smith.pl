@@ -4,12 +4,11 @@ use strict;
 use warnings;
 use feature qw(say);
 use Test::More;
-use Benchmark qw(cmpthese timethis);
 
 my @TESTS = (
-  [ [1,0,0]   =>  1 ],
-  [ [1,1,1,0] =>  0 ],
-  [ [1,1,1]   =>  0 ],
+  [1,0,0],   # =>  1 ],
+  [1,1,1,0], # =>  0 ],
+  [1,1,1]    # =>  0 ],
 );
 
 sub special_bit_chars {
@@ -23,3 +22,6 @@ sub special_bit_chars_reverse {
   $f++,pop||last while@_;
   1&$f
 }
+
+say special_bit_chars         @$_ for @TESTS;
+say special_bit_chars_reverse @$_ for @TESTS;

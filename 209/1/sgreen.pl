@@ -29,4 +29,4 @@ sub main (@array) {
     say $last_a;
 }
 
-main(@ARGV);
+main(<1 1 0>);

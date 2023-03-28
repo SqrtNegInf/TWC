@@ -1,5 +1,7 @@
 #!/usr/bin/env perl
+
 use v5.30.0;
+
 my @bits = (1, 0, 0);
 #my @bits = (1, 1, 1, 0);
 say "Input: \@bits = (".join(", ",@bits).")";

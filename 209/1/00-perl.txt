@@ -1,0 +1,225 @@
+ 
+===> 209/1/athanasius.pl <===
+Running the test suite
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Longer
+1..3
+ 
+===> 209/1/carlos-oliveira.pl <===
+ok 1
+ok 2
+1..2
+ 
+===> 209/1/dave-jacoby.pl <===
+    Input:  @bits = (0)
+    Output: 1
+            1
+
+    Input:  @bits = (0, 0)
+    Output: 1
+            1
+
+    Input:  @bits = (1, 0)
+    Output: 0
+            0
+
+    Input:  @bits = (0, 0, 0)
+    Output: 1
+            1
+
+    Input:  @bits = (0, 1, 0)
+    Output: 0
+            0
+
+    Input:  @bits = (1, 0, 0)
+    Output: 1
+            1
+
+    Input:  @bits = (1, 1, 0)
+    Output: 1
+            1
+
+    Input:  @bits = (1, 1, 1, 1, 1, 0)
+    Output: 0
+            0
+
+    Input:  @bits = (1, 1, 1, 1, 1, 1, 0)
+    Output: 1
+            1
+
+    Input:  @bits = (1, 1, 1, 1, 1, 1, 1, 0)
+    Output: 0
+            0
+
+    Input:  @bits = (1, 1, 1, 1, 1, 1, 1, 1, 0)
+    Output: 1
+            1
+
+ 
+===> 209/1/e-choroba.pl <===
+1..74
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - a
+ok 4 - same a
+ok 5 - b
+ok 6 - same b
+ok 7 - aa
+ok 8 - same aa
+ok 9 - ab
+ok 10 - same ab
+ok 11 - ba
+ok 12 - same ba
+ok 13 - bb
+ok 14 - same bb
+ok 15 - ca
+ok 16 - same ca
+ok 17 - cb
+ok 18 - same cb
+ok 19 - aaa
+ok 20 - same aaa
+ok 21 - aab
+ok 22 - same aab
+ok 23 - aba
+ok 24 - same aba
+ok 25 - abb
+ok 26 - same abb
+ok 27 - aca
+ok 28 - same aca
+ok 29 - acb
+ok 30 - same acb
+ok 31 - baa
+ok 32 - same baa
+ok 33 - bab
+ok 34 - same bab
+ok 35 - bba
+ok 36 - same bba
+ok 37 - bbb
+ok 38 - same bbb
+ok 39 - bca
+ok 40 - same bca
+ok 41 - bcb
+ok 42 - same bcb
+ok 43 - caa
+ok 44 - same caa
+ok 45 - cab
+ok 46 - same cab
+ok 47 - cba
+ok 48 - same cba
+ok 49 - cbb
+ok 50 - same cbb
+ok 51 - cca
+ok 52 - same cca
+ok 53 - ccb
+ok 54 - same ccb
+ok 55 - abcbbaaccbbbaacabacabaabcbcbbccacaacacabbbabbcccaccaccbbbacabbbbaaacccbbbbbcababacacbbcbcbabcacacbcba
+ok 56 - same abcbbaaccbbbaacabacabaabcbcbbccacaacacabbbabbcccaccaccbbbacabbbbaaacccbbbbbcababacacbbcbcbabcacacbcba
+ok 57 - bcbbcbcbcbaaaaccbacacbcaacccbabbbcccaabbabcbcabbacacbaaabcbabaabbbabcbcbcacbcbabcaaccbcbbbabbcacbaacb
+ok 58 - same bcbbcbcbcbaaaaccbacacbcaacccbabbbcccaabbabcbcabbacacbaaabcbabaabbbabcbcbcacbcbabcaaccbcbbbabbcacbaacb
+ok 59 - bcabaaaccbcbcbbcbcbbccacababacacbbbabcbbaacacacabbbbbaccbbccccbacbccbbbacaabbbbcbabcaaabacacabbccccaa
+ok 60 - same bcabaaaccbcbcbbcbcbbccacababacacbbbabcbbaacacacabbbbbaccbbccccbacbccbbbacaabbbbcbabcaaabacacabbccccaa
+ok 61 - ababababacbcbaaabbbabcaaccbcbaacabcacbbbbaccaabcaaacbcaccbcccabccbccaaabbacaababacbcabaabacaacbbbbccb
+ok 62 - same ababababacbcbaaabbbabcaaccbcbaacabcacbbbbaccaabcaaacbcaccbcccabccbccaaabbacaababacbcabaabacaacbbbbccb
+ok 63 - bbcabcacaaabababccbbcbabaaabccbaabacbcbcbcbbcbbbaaabcbbbcbaccbaaabcaabcbbacacbaabcbabcbaaccbabccccaba
+ok 64 - same bbcabcacaaabababccbbcbabaaabccbaabacbcbcbcbbcbbbaaabcbbbcbaccbaaabcaabcbbacacbaabcbabcbaaccbabccccaba
+ok 65 - baaccbbbacbcaccacacbcbacabcaaabbabacbccbacbbccaabbccccacabccabcaabbcbabbaaabaacbacaccbbcbcbaaabcaacaa
+ok 66 - same baaccbbbacbcaccacacbcbacabcaaabbabacbccbacbbccaabbccccacabccabcaabbcbabbaaabaacbacaccbbcbcbaaabcaacaa
+ok 67 - abcaacbaaccbacaaaaccacacbbacbcacabcbcbcbabacccccbbbabcaabaabaacbcbbacccbacbbaabbbaaccbcabcbaabbccbbca
+ok 68 - same abcaacbaaccbacaaaaccacacbbacbcacabcbcbcbabacccccbbbabcaabaabaacbcbbacccbacbbaabbbaaccbcabcbaabbccbbca
+ok 69 - cabaabcbcbbbaccabacaaaaacbaaabcaaccccccbbaaaabacbaccacaababababcbccbbabaccacbbcbcbbbacbcbabbbcaaabbcb
+ok 70 - same cabaabcbcbbbaccabacaaaaacbaaabcaaccccccbbaaaabacbaccacaababababcbccbbabaccacbbcbcbbbacbcbabbbcaaabbcb
+ok 71 - bbcccbccccccabbcaccbaccbbacbbcbacbbabacbcaabcbacacbaacccccabaacbbbbaaaacbacbacbbcbbcccbbaacacccccaaba
+ok 72 - same bbcccbccccccabbcaccbaccbbacbbcbacbbabacbcaabcbacacbaacccccabaacbbbbaaaacbacbacbbcbbcccbbaacacccccaaba
+ok 73 - bcbcaccaacbbaaacbabccaaaacbcaabaccaccbabbaaacbacccaccababcacaccbbccccabbcbbcbbbbcabaccaacbbcbaaccabab
+ok 74 - same bcbcaccaacbbaaacbabccaaaacbcaabaccaccbabbaaacbacccaccababcacaccbbccccabbcbbcbbbbcabaccaacbbcbaaccabab
+ 
+===> 209/1/james-smith.pl <===
+1
+0
+0
+1
+0
+0
+ 
+===> 209/1/jo-37.pl <===
+# Seeded srand with seed '1' from import arg.
+ok 1 - skipped test # skip examples
+1..1
+ 
+===> 209/1/laurent-rosenfeld.pl <===
+1 0 0        => 1
+1 1 1 0      => 0
+0 0 0 1 0    => 0
+1 1 0        => 1
+ 
+===> 209/1/lubos-kolouch.pl <===
+ok 1 - Test case 1 - last character is "a"
+ok 2 - Test case 2 - last character is "a" or not
+1..2
+ 
+===> 209/1/perlboy1967.pl <===
+ok 1
+ok 2
+ok 3
+ok 4
+ok 5
+1..5
+ 
+===> 209/1/peter-campbell-smith.pl <===
+
+Input:  @bits = (1, 0, 0)
+Output: 1
+
+Input:  @bits = (1, 1, 1, 0)
+Output: 0
+
+Input:  @bits = (1, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 0)
+Output: 0
+
+Input:  @bits = (1, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 0)
+Output: 1
+
+Input:  @bits = (0)
+Output: 1
+ 
+===> 209/1/polettix.pl <===
+1
+ 
+===> 209/1/robert-dicicco.pl <===
+Input: @list1 = 1 0 0
+b a 
+Output: 1
+
+Input: @list1 = 1 1 1 0
+c b 
+Output: 0
+
+ 
+===> 209/1/roger-bell-west.pl <===
+1..2
+ok 1 - example 1
+ok 2 - example 2
+ 
+===> 209/1/sgreen.pl <===
+1
+ 
+===> 209/1/solathian.pl <===
+1
+1
+0
+0
+1
+1
+1
+1
+ 
+===> 209/1/ulrich-rieke.pl <===
+1
+ 
+===> 209/1/wlmb.pl <===
+ 110 -> ca -> 1
+ 
+===> 209/1/zapwai.pl <===
+Input: @bits = (1, 0, 0)
+Output: 1	(Decodes to ba)

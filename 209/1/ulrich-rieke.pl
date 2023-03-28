@@ -4,10 +4,8 @@ use warnings ;
 use feature 'say' ;
 use List::Util qw ( all ) ;
 
-say "Enter a string of 1 and 0 only!" ;
-my $line = <STDIN> ;
-chomp $line ;
-my $len = length $line ;
+my $line = '110';
+my $len = length $line;
 my @subblocks ;
 my $i = 0 ;
 while ( $i < $len - 2 ) {
