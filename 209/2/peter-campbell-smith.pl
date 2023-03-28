@@ -1,16 +1,8 @@
 #!/usr/bin/env perl
 
-# Peter Campbell Smith - 2023-03-20
-
 use v5.28;
 use utf8;
 use warnings;
-
-# You are given an array of accounts, ie name with list of email addresses.
-# Write a script to merge the accounts where possible. The accounts can only 
-# be merged if they have at least one email address in common.
-
-# Blog: http://ccgi.campbellsmiths.force9.co.uk/challenge/209/2
 
 merge_accounts(['A', 'a1@a.com', 'a2@a.com'],
 	['B', 'b1@b.com'],

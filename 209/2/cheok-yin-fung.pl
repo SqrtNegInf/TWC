@@ -57,6 +57,11 @@ sub merge_acc {
 my @result1 = merge_acc(@accounts1);
 my @result2 = merge_acc(@accounts2);
 
+use Test::More;
+#use DDP; p @result1;
+ok $result1[0][3] =~ /a\d.a.com/;
+done_testing();
+
 =pod From Data::Printer
 @result1;
 

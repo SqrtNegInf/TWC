@@ -82,14 +82,6 @@ const my $USAGE  =>
 
     <file>    Name of accounts file\n";
 
-#-------------------------------------------------------------------------------
-BEGIN
-#-------------------------------------------------------------------------------
-{
-    $| = 1;
-    print "\nChallenge 209, Task #2: Merge Account (Perl)\n\n";
-}
-
 #===============================================================================
 MAIN:
 #===============================================================================
@@ -221,6 +213,7 @@ sub run_tests
         chomp $line;
 
         my ($test_name, $in_file, $out_file) = split / \| /x, $line;
+    $in_file =~ s/ //g;
         my  $got = merge_accounts( read_accounts_file( $in_file  ) );
         my  $expected =            read_accounts_file( $out_file );
 
