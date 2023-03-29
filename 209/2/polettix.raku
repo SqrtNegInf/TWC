@@ -37,7 +37,7 @@ sub merge-accounts (@accounts) {
       @disjoint.push: $new;
       %alternatives_for{$name} = @disjoint;
    }
-   return %alternatives_for.values».Slip.flat
-      .map({[ $_<name>, $_<addresses>.keys.Slip ]})
+   return %alternatives_for.values.sort».Slip.flat
+      .map({[ $_<name>, $_<addresses>.keys.sort.Slip ]})
       .Array;
 }

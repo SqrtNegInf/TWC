@@ -29,8 +29,8 @@ for @email-data -> $list {
     }
 }
 
-for %email-sets.keys -> $name {
+for %email-sets.keys.sort -> $name {
     for %email-sets{$name}.Array -> $list {
-        put $name, ', ', $list.keys.join(', ');
+        put $name, ', ', $list.keys.sort.join(', ');
     }
 }

@@ -48,7 +48,7 @@ ok 7 -
 ok 8 - 
  
 ===> 209/2/feng-chang.raku <===
-A, a2@a.com, a3@a.com, a1@a.com
+A, a1@a.com, a2@a.com, a3@a.com
 B, b1@b.com
  
 ===> 209/2/laurent-rosenfeld.raku <===
@@ -83,9 +83,9 @@ ok 3 -
                                        ['A', 'a3@a.com'] ];
  
 ===> 209/2/polettix.raku <===
-['B', 'b1@b.com', 'b2@b.com']
 ['A', 'a8@a.com']
-['A', 'a3@a.com', 'a4@a.com', 'a2@a.com', 'a1@a.com']
+['A', 'a1@a.com', 'a2@a.com', 'a3@a.com', 'a4@a.com']
+['B', 'b1@b.com', 'b2@b.com']
  
 ===> 209/2/robert-dicicco.raku <===
 Input: [[A a1@a.com a2@a.com] [B b1@b.com] [A a3@a.com] [B b2@b.com b1@b.com] ] 
