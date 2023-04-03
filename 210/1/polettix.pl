@@ -3,7 +3,7 @@ use v5.24;
 use warnings;
 use experimental 'signatures';
 
-say kill_and_win(@ARGV);
+say kill_and_win(<1 1 2 2 2 3 3>);
 
 sub kill_and_win (@args) {
    my $best_score = 0;

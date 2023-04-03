@@ -1,0 +1,32 @@
+ 
+===> 210/1/avery-adams.pl <===
+14
+ 
+===> 210/1/bob-lied.pl <===
+# Seeded srand with seed '20230403' from local date.
+ok 1 - Score for kill 0
+ok 2 - List after kill 0
+ok 3 - Score for kill 1
+ok 4 - List after Kill 1
+ok 5 - Score for kill 2
+ok 6 - List after Kill 2
+ok 7 - Score for long kill 1
+ok 8 - List after long kill 1
+ok 9 - Score for long kill 2
+ok 10 - List after long kill 2
+ok 11 - Example 1
+ok 12 - Example 2
+ok 13 - Example 3
+ok 14 - Example 4
+1..14
+ 
+===> 210/1/paulo-custodio.pl <===
+14
+ 
+===> 210/1/peter-meszaros.pl <===
+ok 1 - [2, 3, 1]
+ok 2 - [1, 1, 2, 2, 2, 3]
+1..2
+ 
+===> 210/1/polettix.pl <===
+14

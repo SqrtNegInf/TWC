@@ -4,7 +4,7 @@ use strict;
 use v5.10;
 
 my %hash;
-$hash{$_}++ for @ARGV;
+$hash{$_}++ for <1 1 2 2 2 3 3>;
 
 my $max;
 for my $int (keys %hash) {

@@ -1,18 +1,4 @@
 #!/usr/bin/env perl
-# Example 1
-# 
-# Input: @int = (2, 3, 1)
-# Output: 6
-# 
-# First we delete 2 and that would also delete 1 and 3. So the maximum points we get is 6.
-# 
-# Example 2
-# 
-# Input: @int = (1, 1, 2, 2, 2, 3)
-# Output: 11
-# 
-# First we delete 2 and that would also delete both the 1's and the 3. Now we have (2, 2).
-# Then we delete another 2 and followed by the third deletion of 2. So the maximum points we get is 11.
 
 use strict;
 use warnings;
