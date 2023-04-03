@@ -1,13 +1,6 @@
 #!/usr/bin/env raku
 
-#
-# Perl Weekly Challenge 210
-# Task 2
-#
-# See <https://perlweeklychallenge.org/blog/perl-weekly-challenge-210/>
-#
-
-sub MAIN( *@list is copy where { @list.grep( * ~~ Int ).elems == @list.elems } ) {
+sub MAIN( @list is copy where { @list.grep( * ~~ Int ).elems == @list.elems } = (2,3,-1)  ) {
 
     my $move = True;
 

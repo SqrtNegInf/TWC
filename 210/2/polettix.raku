@@ -1,6 +1,6 @@
 #!/usr/bin/env raku
-use v6;
-sub MAIN (*@args) { put '(', number-collision(@args).join(', '), ')' }
+
+sub MAIN (@args = (2,3,-1)  ) { put '(', number-collision(@args).join(', '), ')' }
 
 sub number-collision (@list is copy) {
    my (@pre, @post); # safe items on the left and on the right

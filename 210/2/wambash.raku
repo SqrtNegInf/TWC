@@ -20,7 +20,7 @@ sub number-colision (+@list) {
     andthen .reverse
 }
 
-multi MAIN (Bool :test($)!) {
+#multi MAIN (Bool :test($)!) {
     use Test;
     is number-colision-iter((2,), (3,-1)),((3,2),(-1,));
     is number-colision-iter((3, 2), (-1,)),((3,2),());
@@ -32,8 +32,6 @@ multi MAIN (Bool :test($)!) {
     is number-colision(1,-1),();
     is number-colision(3,2,-1,2,-1,-2,5,-4),(3,2,5);
     done-testing;
-}
+#}
 
-multi MAIN (*@list) {
-    put number-colision @list
-}
+#multi MAIN (*@list) { put number-colision @list }

@@ -1,11 +1,10 @@
 #!/usr/bin/env raku
 
-unit sub MAIN (*@list where @list.elems > 0 && @list.all ~~ Int, :v($verbose));
+my @list = (2,3,-1);  my $verbose = False;
 
 my $index = 0;
 
-loop
-{
+loop {
   last unless @list.elems;
   last if $index == @list.end;
 

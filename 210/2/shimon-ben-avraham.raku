@@ -1,9 +1,4 @@
 #!/usr/bin/env raku
-use v6.d;
-
-# The challenge was silent as to whether zero is allowed in the array.
-# If it is, it remains stationary, and can be killed
-# by all other integers that collide with it.
 
 sub Number-Collision (@battlefield is copy) {
     my $index = 0;

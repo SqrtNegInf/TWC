@@ -1,5 +1,4 @@
 #!/usr/bin/env raku
-use v6 ;
 
 #eliminate one of the values if a number > 0 meets a number < 0
 #we assume this to be the case since we checked for this condition
@@ -41,9 +40,7 @@ sub needs_no_collisions( @numbers ) {
       == @indices.elems ;
 }
 
-say "Enter some positive and negative integers, separated by blanks!" ;
-my $line = $*IN.get ;
-my @numbers = $line.words.map( {.Int} ) ;
+my @numbers = (2,3,-1);
 my @after_collision = eliminate_values( @numbers ) ;
 while ( not needs_no_collisions( @after_collision ) ) {
   @after_collision = eliminate_values( @after_collision ) ;
