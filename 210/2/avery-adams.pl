@@ -3,7 +3,7 @@
 use strict;
 use v5.10;
 
-my @list = @ARGV;
+my @list = (2,3,-1);
 for (my $index = 0; $index < $#list; $index++) {
     my $collision = $list[$index] + $list[$index + 1];
     if ($collision > $list[$index]) {next}

@@ -31,6 +31,7 @@ sub collision {
 }
 
 is( "@{[ collision( @{$_->[0]} ) ]}", $_->[1] ) for @TESTS;
+done_testing();
 
 ## Without comments...
 

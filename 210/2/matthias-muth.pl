@@ -1,12 +1,4 @@
 #!/usr/bin/env perl
-#
-#       The Weekly Challenge - Perl & Raku
-#       (https://theweeklychallenge.org)
-#
-#       Challenge 210 Task 2: Number Collision
-#
-#       Perl solution by Matthias Muth.
-#
 
 use strict;
 use warnings;

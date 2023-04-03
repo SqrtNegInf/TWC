@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-# The Weekly Challenge 210
-# Task 2 Number Collision
+
 use v5.30.0;
 use warnings;
 sub nc {

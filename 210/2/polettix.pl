@@ -3,7 +3,7 @@ use v5.24;
 use warnings;
 use experimental 'signatures';
 
-my @nc = number_collision(@ARGV);
+my @nc = number_collision((2,3,-1));
 { local $" = ', '; say "(@nc)" }
 
 sub number_collision (@list) {

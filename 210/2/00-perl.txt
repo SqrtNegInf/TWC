@@ -1,0 +1,89 @@
+ 
+===> 210/2/athanasius.pl <===
+Running the test suite
+ok 1 - Example 1         
+ok 2 - Example 2         
+ok 3 - Example 3         
+ok 4 - No collision      
+ok 5 - Adjacent collision
+ok 6 - Meet in the middle
+ok 7 - Combination       
+1..7
+ 
+===> 210/2/avery-adams.pl <===
+2
+3
+ 
+===> 210/2/bob-lied.pl <===
+# Seeded srand with seed '20230403' from local date.
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ok 4 - Singleton
+ok 5 - No collision positive
+ok 6 - No collision negative
+ok 7 - No collision
+1..7
+ 
+===> 210/2/carlos-oliveira.pl <===
+ok 1
+ok 2
+ok 3
+1..3
+ 
+===> 210/2/cheok-yin-fung.pl <===
+1..4
+ok 1
+ok 2
+ok 3
+ok 4
+ 
+===> 210/2/e-choroba.pl <===
+# Seeded srand with seed '1' from import arg.
+1..6
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ok 4 - Only zeroes
+ok 5 - Zeroes don't move positive
+ok 6 - Zeroes don't move negative
+ 
+===> 210/2/james-smith.pl <===
+ok 1
+ok 2
+ok 3
+1..3
+ 
+===> 210/2/jo-37.pl <===
+# Seeded srand with seed '1' from import arg.
+ok 1 - skipped test # skip examples
+ok 2 - surviving zero
+ok 3 - the big pwc number massacre
+1..3
+ 
+===> 210/2/matthias-muth.pl <===
+ok 1 - number_collision(2,3,-1) == (2,3)
+ok 2 - number_collision(3,2,-4) == (-4)
+ok 3 - number_collision(1,-1) == ()
+1..3
+ 
+===> 210/2/peter-meszaros.pl <===
+ok 1 - [2, 3, -1]
+ok 2 - [3, 2, -4]
+ok 3 - [1, -1]
+1..3
+ 
+===> 210/2/polettix.pl <===
+(2, 3)
+ 
+===> 210/2/roger-bell-west.pl <===
+1..3
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ 
+===> 210/2/sgreen.pl <===
+(2, 3)
+ 
+===> 210/2/wlmb.pl <===
+2 3

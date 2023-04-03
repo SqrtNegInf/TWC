@@ -37,4 +37,4 @@ sub main (@array) {
 
     say '(', join( ', ', @array ), ')';
 }
-main(@ARGV);
+main((2,3,-1));

@@ -1,25 +1,4 @@
 #!/usr/bin/env perl
-# Example 1:
-# 
-# Input: @list = (2, 3, -1)
-# Output: (2, 3)
-# 
-# The numbers 3 and -1 collide and -1 explodes in the end. So we are left with (2, 3).
-# 
-# Example 2:
-# 
-# Input: @list = (3, 2, -4)
-# Output: (-4)
-# 
-# The numbers 2 and -4 collide and 2 explodes in the end. That gives us (3, -4).
-# Now the numbers 3 and -4 collide and 3 explodes. Finally we are left with -4.
-# 
-# Example 3:
-# 
-# Input: @list = (1, -1)
-# Output: ()
-# 
-# The numbers 1 and -1 both collide and explode. Nothing left in the end.
 
 use strict;
 use warnings;
@@ -60,6 +39,4 @@ is(collision($cases->[0]), '(2, 3)', '[2, 3, -1]');
 is(collision($cases->[1]), '(-4)',   '[3, 2, -4]');
 is(collision($cases->[2]), '()',     '[1, -1]');
 done_testing();
-
-exit 0;
 
