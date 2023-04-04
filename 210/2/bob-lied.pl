@@ -43,7 +43,7 @@ sub numberCollision(@list)
 
 sub runTest
 {
-    use Test2::V0;
+    use Test2::V0 -srand => 1;
 
     is( numberCollision(2,3,-1), [2,3], "Example 1");
     is( numberCollision(3,2,-4), [ -4], "Example 2");

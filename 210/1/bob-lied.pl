@@ -71,7 +71,7 @@ sub killAndWin($list)
 
 sub runTest
 {
-    use Test2::V0;
+    use Test2::V0 -srand => 1;
 
     my @list;
     my $newList;
