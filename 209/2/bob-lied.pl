@@ -59,7 +59,7 @@ sub mergeAccount($accounts)
 
 sub runTest
 {
-    use Test2::V0;
+    use Test2::V0 -srand => 1;
     my @accounts = ( ["A", 'a1@a.com', 'a2@a.com'],
                      ["B", 'b1@b.com'],
                      ["A", 'a3@a.com', 'a1@a.com'] );
