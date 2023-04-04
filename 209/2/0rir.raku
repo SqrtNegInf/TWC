@@ -42,7 +42,7 @@ sub combine-accounts( @database --> Array ) {
     # Invert a/c to key by address.
     %by-addr.append: %by-ac.invert;
 
-    for %by-addr.keys -> $k {
+    for %by-addr.keys.sort -> $k {
         when %by-addr{ $k} ~~ Str {      # Address has only one acct so
             %by-addr{$k}:delete;         # no work.
         }
