@@ -3,7 +3,7 @@
 14
  
 ===> 210/1/bob-lied.pl <===
-# Seeded srand with seed '20230404' from local date.
+# Seeded srand with seed '1' from import arg.
 ok 1 - Score for kill 0
 ok 2 - List after kill 0
 ok 3 - Score for kill 1
