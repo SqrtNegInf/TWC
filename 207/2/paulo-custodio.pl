@@ -1,5 +1,5 @@
 #!/usr/bin/env perl
-
+use v5.36;
 use Modern::Perl;
 
 sub h_index {

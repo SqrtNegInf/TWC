@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-use 5.030;
-use warnings;
+use 5.36.0;
 
 my $hindex = 0;
 

@@ -1,4 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
+no warnings 'uninitialized';
 
 sub H_index {
     @_ = sort { $b <=> $a } @_; #sort input array
