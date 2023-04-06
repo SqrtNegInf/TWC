@@ -1,7 +1,7 @@
 #!/usr/bin/env perl
 
 use strict;
-use v5.10;
+use v5.36;
 
 my @list = (2,3,-1);
 for (my $index = 0; $index < $#list; $index++) {
