@@ -1,7 +1,7 @@
 #!/usr/bin/env perl
 
-use strict;
-use v5.10;
+use v5.36;
+no warnings 'uninitialized';
 
 my %hash;
 $hash{$_}++ for <1 1 2 2 2 3 3>;
