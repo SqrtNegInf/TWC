@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use v5.10;
+use v5.36;
 
 my @list1 = ("Perl", "Raku", "Love");
 my @list2 = ("Raku", "Perl", "Hate");

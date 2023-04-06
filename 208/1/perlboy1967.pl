@@ -1,23 +1,6 @@
 #!/usr/bin/env perl
 
-=pod
-
-The Weekly Challenge - 208
-- https://theweeklychallenge.org/blog/perl-weekly-challenge-208
-
-Author: Niels 'PerlBoy' van Dijke
-
-Task 1: Minimum Index Sum
-Submitted by: Mohammad S Anwar
-
-You are given two arrays of strings.
-
-Write a script to find out all common strings in the given two arrays with minimum
-index sum. If no common strings found returns an empty list.
-
-=cut
-
-use v5.16;
+use v5.36;
 
 use common::sense;
 
