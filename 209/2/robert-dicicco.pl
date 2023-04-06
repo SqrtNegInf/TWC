@@ -1,14 +1,5 @@
 #!/usr/bin/env perl
-=begin comment
-----------------------------------------
-AUTHOR: Robert DiCicco
-DATE  : 2023-03-25
-Challenge 209 Merge Account ( Perl )
-----------------------------------------
-=cut
-use strict;
-use warnings;
-use feature "say";
+use v5.36;
 use List::Uniq ':all';
 
 my $accounts = [ ["A", "a1\@a.com", "a2\@a.com"], ["B", "b1\@b.com"], ["A", "a3\@a.com", "a1\@a.com"] ];

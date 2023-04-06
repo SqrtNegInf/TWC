@@ -1,7 +1,6 @@
 #!/usr/bin/env perl
-# The Weekly Challenge 209
-# Task 2 Merge Account
-use v5.30.0;
+
+use v5.36;
 use warnings;
 use Graph::Undirected;
 use Array::Utils qw/unique/;
