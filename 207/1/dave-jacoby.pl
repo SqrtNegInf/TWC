@@ -1,5 +1,5 @@
 #!/usr/bin/env perl
-
+use v5.36;
 use strict;
 use warnings;
 use experimental qw{ fc say postderef signatures state };

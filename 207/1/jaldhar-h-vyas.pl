@@ -1,5 +1,5 @@
 #!/usr/bin/env perl
-use 5.030;
+use 5.36.0;
 use warnings;
 
 sub isSubset {
