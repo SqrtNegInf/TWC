@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
 
-use v5.30.0;
+use v5.36;
 
 my @bits = (1, 0, 0);
 #my @bits = (1, 1, 1, 0);
