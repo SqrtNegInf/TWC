@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
 
-use v5.30.0;
+use v5.36;
 
 my @nums = (1, 2, 2, 4);
 say "Input: \@nums = (".join(",",@nums).")";
