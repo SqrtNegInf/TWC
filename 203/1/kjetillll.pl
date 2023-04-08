@@ -1,4 +1,5 @@
 #!/usr/bin/env perl
+use v5.36.0;
 use strict; use warnings; #yes mom
 
 if( @ARGV ){ printf "Special quadruplets: %d\n", count_special_quad(@ARGV) }

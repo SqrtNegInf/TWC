@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
 
-use v5.22;
+use v5.36.0;
 use Test2::V0 -srand => 1;
 use Math::Prime::Util qw(forcomb vecsum);
 use experimental 'refaliasing';
