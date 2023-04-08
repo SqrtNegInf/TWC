@@ -1,15 +1,6 @@
 #!/usr/bin/env perl
+use v5.36.0;
 use strict; use warnings;
-
-=pod
-
-Run with arguments to use those as the input list or
-run without to run the included tests with this output:
-
-Uses File::Find, a core module (included in all normal Perl installations),
-to traverse down the source directory to get all directories.
-
-=cut
 
 use File::Find qw(find);
 use File::Path qw(make_path remove_tree);
