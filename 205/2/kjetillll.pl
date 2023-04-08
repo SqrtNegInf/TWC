@@ -1,4 +1,5 @@
 #!/usr/bin/env perl
+use v5.36.0;
 
 my @A = (13,13,9,1);
 
