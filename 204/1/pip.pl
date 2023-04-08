@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
-
-use strict;use warnings;use utf8;use v5.12;my $d8VS='N2FLFrPa';
+use v5.36.0;
+use strict;use warnings;use utf8;
 sub Mono {my @nums=@_;my $frsf=0;my $monf=1;my $strt=1;
   $strt++ while (@nums && $strt < $#nums && $nums[$strt-1] == $nums[$strt]);
   if  (@nums   >     1) { $frsf= ($nums[$strt-1] > $nums[$strt]) ? -1 : 1; }
