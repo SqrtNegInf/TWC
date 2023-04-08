@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
-
-use strict;use warnings;use utf8;use v5.10;my $d8VS='N1ILL1cG';
+use v5.36.0;
+use strict;use warnings;use utf8;
 sub Seg7 {my $iint=shift(@_);my @tout;
   my  @trth = qw<abcdef bc abdeg abcdg bcfg acdfg acdefg abc abcdefg abcfg>;
   my  @digz = split('',$iint);

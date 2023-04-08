@@ -1,8 +1,8 @@
 #!/usr/bin/env perl
-
+use v5.36.0;
 use strict;
 use warnings;
-use feature qw(say);
+use feature qw(say bitwise);
 
 ## Our provided truth table...
 my @truth = qw(abcdef bc abdeg abcdg bcfg acdfg acdefg abc abcdefg abcfg);
@@ -21,7 +21,7 @@ sub display {
     my( $d, @dig ) = ( $n%10, @blank );
     ## Use our truth table along with part mapping to generate values for each number
     for my $bar ( map { $parts{$_} } split //, $truth[$d] ) {
-      $dig[ $_ ] |= $parts[ $bar&3 ], $bar >>= 2 for 0 .. $#blank
+      $dig[ $_ ] |.= $parts[ $bar&3 ], $bar >>= 2 for 0 .. $#blank
     }
     ## Add to the display...
     $out[ $_ ] = $dig[ $_ ].' '.$out[ $_ ] for 0..$#blank;

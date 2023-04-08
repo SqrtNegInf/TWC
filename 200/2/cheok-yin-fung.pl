@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
 
-use v5.30.0;
+use v5.36.0;
 use warnings;
 
 my @truth = qw<abcdef bc     abdeg abcdg   bcfg 

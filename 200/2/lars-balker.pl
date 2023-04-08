@@ -1,5 +1,5 @@
 #!/usr/bin/env perl
-use v5.30;
+use v5.36;
 
 my @array = (1,2,3,4);
 # Output: (1,2,3), (2,3,4), (1,2,3,4)
