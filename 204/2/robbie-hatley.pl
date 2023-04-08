@@ -1,7 +1,4 @@
 #!/usr/bin/env perl
-# Robbie Hatley's Solution to PWCC 204-2
-
-# PRELIMINARIES:
 use v5.36;
 $"=" ";
 
