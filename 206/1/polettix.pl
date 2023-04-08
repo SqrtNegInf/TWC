@@ -1,5 +1,5 @@
 #!/usr/bin/env perl
-use v5.24;
+use v5.36.0;
 use warnings;
 
 say shortest_time(("10:10", "09:30", "09:00", "09:55"));
