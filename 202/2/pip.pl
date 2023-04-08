@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
-
-use strict;use warnings;use utf8; use v5.10.1; #my $d8VS='N1ULJEST';
+use v5.36.0;
+use strict;use warnings;use utf8;
 sub WdVl {my @altz=@_;my %valz=();my $wdst=0;my @wdsv=();
   printf "(%-26s) => (", join(', ',@altz);
   for  ( 0..$#altz-1) {my $vwid=0;
