@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-# The Weekly Challenge 201
-# Task 1 Missing Numbers
+use v5.36.0;
 
 sub mn {
     my @arr = @_;
