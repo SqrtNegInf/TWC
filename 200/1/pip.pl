@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
-
-use strict;use warnings;use utf8;use v5.10;my $d8VS='N1HLNEko';
+use v5.36.0;
+use strict;use warnings;use utf8;
 sub ASlc {my @aray=@_;my @slcz;
   print '(' . sprintf("%-7s",join(',',@aray)) . ') => ';
   for    (my     $i=   0;$i < @aray      -2;$i++) {

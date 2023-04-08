@@ -1,5 +1,5 @@
 #!/usr/bin/env perl
-
+use v5.36.0;
 use strict;
 use Data::Dumper qw(Dumper);
 use List::Util qw(sum);
