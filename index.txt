@@ -442,8 +442,8 @@ Challenge titles and Rosetta-code correspondences (exact, and otherwise)
 210-2 Number Collision
 211-1 Toeplitz Matrix
 211-2 Split Same Average
-212-1
-212-2
+212-1 Jumping Letters
+212-2 Rerrange Groups
 213-1
 213-2
 214-1
