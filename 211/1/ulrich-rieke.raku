@@ -1,15 +1,6 @@
 #!/usr/bin/env raku
-use v6 ;
 
-say "Enter some integers as part of a matrix, same number each line, end to end!" ;
-my $line = $*IN.get ;
-my @matrix ;
-while ( $line ne "end" ) {
-  my @numbers = $line.words.map( {.Int} ) ;
-  @matrix.push( @numbers ) ;
-  say "Enter some integers, end to end!" ;
-  $line = $*IN.get ;
-}
+my @matrix  =  <4 3 2 1>, <5 4 3 2>, <6 5 4 3>;
 my @diagonals ;
 my $len = @matrix.elems ;
 for (0..$len - 1 ) -> $i {

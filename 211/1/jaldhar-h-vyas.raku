@@ -1,5 +1,7 @@
 #!/usr/bin/env raku
 
+# added example, needed to be native/shaped array, or problems?
+
 sub diagonal(@matrix, $r, $c, $row, $col) {
     my $i = $row;
     my $j = $col;
@@ -15,11 +17,13 @@ sub diagonal(@matrix, $r, $c, $row, $col) {
     return True;
 }
 
-sub MAIN(
-    $r,
-    $c,
-    *@args
-) {
+#sub MAIN(
+my $r = 3,
+my $c = 4,
+#my @args = [ <4 3 2 1>, <5 4 3 2>, <6 5 4 3> ]; # no
+ my @args[3;4] = [ <4 3 2 1>, <5 4 3 2>, <6 5 4 3> ];
+
+#) {
 
     my @matrix = @args.batch($c);
 
@@ -39,4 +43,4 @@ sub MAIN(
     }
 
    say 'true';
-}
+#}

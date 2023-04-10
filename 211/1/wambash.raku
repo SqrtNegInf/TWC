@@ -7,13 +7,11 @@ sub toeplitz-matrix (+@matrix) {
     andthen .all
 }
 
-multi MAIN (Bool :test($)!) {
+#multi MAIN (Bool :test($)!) {
     use Test;
     is-deeply toeplitz-matrix([4, 3, 2, 1], [5, 4, 3, 2],[6, 5, 4, 3],),True;
     is-deeply toeplitz-matrix([1,2,3],[3, 2, 1],),False;
     done-testing;
-}
+#}
 
-multi MAIN (*@matrix) {
-    say ?toeplitz-matrix @matrix.map: *.comb: /\d+/
-}
+#multi MAIN (*@matrix) { say ?toeplitz-matrix @matrix.map: *.comb: /\d+/ }

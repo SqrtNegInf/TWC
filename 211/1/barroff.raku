@@ -1,7 +1,5 @@
 #!/usr/bin/env raku
 
-use v6.d;
-
 sub get-indices(Int $ystart, Int $ymax, Int $xstart, Int $xmax --> List) {
     my Int $count-indices = min($xmax - $xstart, $ymax - $ystart);
     return (($xstart, $ystart), { $_[0] + 1, $_[1] + 1 } … *)[^$count-indices];
@@ -30,7 +28,7 @@ sub is-toeplitz(@matrix --> Bool) {
 }
 
 #| Run test cases
-multi sub MAIN('test') {
+#multi sub MAIN('test') {
     use Test;
     plan 2;
 
@@ -47,4 +45,4 @@ multi sub MAIN('test') {
 
     is is-toeplitz(@a), True, "works for @a";
     is is-toeplitz(@b), False, "works for @b";
-}
+#}

@@ -1,5 +1,5 @@
 #!/usr/bin/env raku
-use v6;
+
 sub MAIN {
    my $m1 = [ [4, 3, 2, 1],
               [5, 4, 3, 2],

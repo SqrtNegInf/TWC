@@ -1,17 +1,6 @@
 #!/usr/bin/env raku
-# HTTPS://TheWeeklyChallenge.Org - Perl/Raku Weekly Challenge #211 - Pip Stuart
-# Task1: Toeplitz Matrix:  Submitted by: Mohammad S Anwar;  You are given a matrix m x n. Write a script to find out if the given matrix is Toeplitz Matrix.
-#   A matrix is Toeplitz if every diagonal from top-left to bottom-right has the same elements.
-# Example1:
-#   In-put: @matrix = [ [4, 3, 2, 1],
-#                       [5, 4, 3, 2],
-#                       [6, 5, 4, 3], ]
-#   Output:  true
-# Example2:
-#   In-put: @matrix = [ [1, 2, 3],
-#                       [3, 2, 1], ]
-#   Output: false
-use v6;use MONKEY-SEE-NO-EVAL;my $d8VS='N48MAntE';
+
+use v6;use MONKEY-SEE-NO-EVAL;
 sub TpzM {my $mtrx = [];my $tplz = 1;
   push(@($mtrx), shift(@_)) while (@_); # below EVAL Str (ing) that looks like it's exclusively characters of a 2D array-ref matrix, commas, && integerz
   if ($mtrx[0].WHAT.^name eq 'Str' && $mtrx ~~ /^ <[\[\d\,\]\s]>+ $/) { $mtrx =   EVAL("$mtrx"); }
