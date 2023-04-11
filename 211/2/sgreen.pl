@@ -1,10 +1,6 @@
 #!/usr/bin/env perl
 
-use strict;
-use warnings;
-use feature 'say';
-use experimental 'signatures';
-
+use v5.36;
 use List::Util 'sum';
 use Algorithm::Combinatorics 'combinations';
 
@@ -35,4 +31,4 @@ sub main(@n) {
     say 'false';
 }
 
-main(@ARGV);
+main(1..8);

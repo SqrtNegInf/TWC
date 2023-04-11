@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-# The Weekly Challenge 211
-# Task 2 Split Same Average
-use v5.30.0;
-use warnings;
+use v5.36;
 use List::Util qw/sum/;
 
 sub ssa {

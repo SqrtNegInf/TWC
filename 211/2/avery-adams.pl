@@ -5,7 +5,7 @@ use v5.28;
 
 use List::Util 'sum';
 
-if ($#ARGV > 0) {can_split(@ARGV) ? say 'true' : say 'false'};
+can_split(1..8) ? say 'true' : say 'false';
 
 sub can_split {
     my @nums = sort {$b <=> $a} (@_);

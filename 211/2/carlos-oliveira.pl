@@ -2,11 +2,12 @@
 use strict;
 use warnings;
 use v5.36;
+use  builtins;
 
 use Test::More;
 use Algorithm::Combinatorics qw(partitions);
 use List::Util qw(any sum uniqnum);
-use builtin qw(true false);
+#use builtin qw(true false);
 
 sub can_be_split_with_same_average (@array) {
   return any { $_->@* == 1 }

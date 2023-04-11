@@ -1,12 +1,12 @@
 #!/usr/bin/env perl
 
-use v5.16;
+use v5.36;
 use Test2::V0 -srand => 1;
 use Math::Prime::Util qw(forcomb lastfor);
 use List::Util qw(sum);
 use experimental qw(signatures);
 
-our ($tests, $examples);
+our ($tests, $examples) = (1);
 
 run_tests() if $tests || $examples;	# does not return
 

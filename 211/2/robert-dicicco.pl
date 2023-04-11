@@ -1,15 +1,6 @@
 #!/usr/bin/env perl
-=begin pod
-----------------------------------------
-AUTHOR: Robert DiCicco
-DATE  : 2023-04-09
-Challenge 211 Split Same Average ( Perl )
-----------------------------------------
-=cut
 
-use strict;
-use warnings;
-use feature 'say';
+use v5.36;
 use Algorithm::Combinatorics qw(combinations);
 use List::Util qw/sum/;
 
