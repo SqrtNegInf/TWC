@@ -11,7 +11,7 @@ sub split-same-average (+@nums) {
     andthen .first: { .&average  == $average },
 }
 
-multi MAIN (Bool :test($)!) {
+#multi MAIN (Bool :test($)!) {
     use Test;
     is split-same-average(1, 2, 3, 4, 5, 6, 7, 8), (1,8);
     is split-same-average(1,3), Nil;
@@ -30,8 +30,6 @@ multi MAIN (Bool :test($)!) {
         }
     }
     done-testing;
-}
+#}
 
-multi MAIN (*@nums) {
-    say split-same-average @nums
-}
+#multi MAIN (*@nums) { say split-same-average @nums }

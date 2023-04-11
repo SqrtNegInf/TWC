@@ -5,7 +5,7 @@ sub average(@nums) {
 }
 
 sub MAIN(
-    *@nums
+    @nums=(1..8)
 ) {
     for @nums.permutations -> $i {
         for 1 ..^ @$i.elems -> $j {

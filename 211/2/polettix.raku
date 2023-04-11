@@ -1,9 +1,9 @@
 #!/usr/bin/env raku
-use v6;
-sub MAIN (*@args) {
-   @args = 1 .. 8 unless @args;
+
+#sub MAIN (@args) {
+   my @args = 1 .. 8;
    put split-same-average(@args);
-}
+#}
 
 sub split-same-average (@list) {
    (my $min, @list) = @list.sort.Slip;

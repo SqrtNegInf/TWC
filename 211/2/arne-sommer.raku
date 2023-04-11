@@ -1,6 +1,6 @@
 #!/usr/bin/env raku
 
-unit sub MAIN (*@int where @int.elems > 0 && @int.all ~~ UInt && @int.all > 0, :v(:$verbose));
+unit sub MAIN (@int where @int.elems > 0 && @int.all ~~ UInt && @int.all > 0 = (1..8), :v(:$verbose));
 
 for @int.permutations.unique -> @candidate
 {
