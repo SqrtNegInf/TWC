@@ -1,3 +1,8 @@
+2023-04-10
+Hmm, hopefully just a one-off failure, reverting to earlier 'not found'.
+
+2022-08-01
+
 adam-russell.pl was giving incorrect results since when?
 
 ===> 015/1/adam-russell.pl <===

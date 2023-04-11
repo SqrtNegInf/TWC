@@ -1,17 +1,6 @@
  
 ===> 015/1/adam-russell.pl <===
-	Strong		Weak
-	======		====
-0:	11		3
-1:	17		7
-2:	29		13
-3:	37		19
-4:	41		23
-5:	59		31
-6:	67		43
-7:	71		47
-8:	79		61
-9:	97		73
+Ten strong/weak primes were not found in the first 100,000 primes.
  
 ===> 015/1/andrezgz.pl <===
 Strong primes: 11,17,29,37,41,59,67,71,79,97
