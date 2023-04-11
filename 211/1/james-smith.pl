@@ -1,8 +1,6 @@
 #!/usr/bin/env perl
 
-use strict;
-use warnings;
-use feature qw(say);
+use v5.36;
 use Test::More;
 
 my @TESTS = (
@@ -20,3 +18,4 @@ sub toeplitz {
 }
 
 is( toeplitz( @{$_->[0]} ), $_->[1] ) for @TESTS;
+done_testing();

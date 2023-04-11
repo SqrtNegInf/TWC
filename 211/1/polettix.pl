@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-use v5.24;
-use warnings;
-use experimental 'signatures';
+use v5.36;
 
 my $m1 = [ [4, 3, 2, 1],
            [5, 4, 3, 2],

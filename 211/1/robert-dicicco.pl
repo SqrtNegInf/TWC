@@ -1,18 +1,9 @@
 #!/usr/bin/env perl
-=begin pod
--------------------------------------------
-AUTHOR: Robert DiCicco
-DATE  : 2023-04-08
-Challenge 211 Toeplitz Matrix ( Perl )
--------------------------------------------
-=cut
-use strict;
-use warnings;
-use feature 'say';
+use v5.36;
 use List::MoreUtils qw(uniq);
 
-#my @matrix = ([4, 3, 2, 1],[5, 4, 3, 2],[6, 5, 4, 3]);
-my @matrix = ([1,2,3],[3,2,1]);
+my @matrix = ([4, 3, 2, 1],[5, 4, 3, 2],[6, 5, 4, 3]);
+#my @matrix = ([1,2,3],[3,2,1]);
 
 my $cols = scalar @{$matrix[0]};
 my $rows = scalar @matrix;

@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-# The Weekly Challenge 211
-# Task 1 Toeplitz Matrix
-use v5.30.0;
-use warnings;
+use v5.36;
 
 sub tm {
     my $mat = $_[0];

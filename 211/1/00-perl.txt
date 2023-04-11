@@ -1,0 +1,122 @@
+ 
+===> 211/1/athanasius.pl <===
+
+Challenge 211, Task #1: Toeplitz Matrix (Perl)
+
+Running the test suite
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Single element
+ok 4 - Single row
+ok 5 - Single column
+ok 6 - Alternating
+ok 7 - Deceptive 1
+ok 8 - Deceptive 2
+1..8
+ 
+===> 211/1/avery-adams.pl <===
+Is Matrix1 a Toeplitz matrix? : TRUE
+Is Matrix2 a Toeplitz matrix? : FALSE
+ 
+===> 211/1/bob-lied.pl <===
+# Seeded srand with seed '20230410' from local date.
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - One row
+ok 4 - One column
+1..4
+ 
+===> 211/1/carlos-oliveira.pl <===
+ok 1
+ok 2
+1..2
+ 
+===> 211/1/cheok-yin-fung.pl <===
+1..2
+3
+ok 1
+2
+ok 2
+ 
+===> 211/1/e-choroba.pl <===
+1..4
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - 1x1
+ok 4 - Larger
+ 
+===> 211/1/james-smith.pl <===
+ok 1
+ok 2
+1..2
+ 
+===> 211/1/laurent-rosenfeld.pl <===
+[ [4 3 2 1], [5 4 3 2], [6 5 4 3] ]
+true
+
+[ [3 2 1 0], [4 3 2 1], [5 4 3 2] ]
+true
+
+[ [3 2 1 0], [4 3 2 1], [5 5 3 2] ]
+false
+
+[ [1 2 3], [3 2 1] ]
+false
+
+ 
+===> 211/1/manfredi.pl <===
+challenge-211-task1
+4 4
+3 3
+2 2
+5 5
+4 4
+3 3
+Toeplitz Matrix!
+ 
+===> 211/1/peter-campbell-smith.pl <===
+
+Input: @matrix = [ [  4, 3, 2, 1 ]
+                   [  5, 4, 3, 2 ]
+                   [  6, 5, 4, 3 ] ]
+Output: true
+
+Input: @matrix = [ [  4, 3, 2, 1 ]
+                   [  5, 4, 3, 2 ]
+                   [  6, 5, 4, 7 ] ]
+Output: false
+
+Input: @matrix = [ [    37.1,    114,      0, -23.65,      5,      3 ]
+                   [     -40,   37.1,    114,      0, -23.65,      5 ]
+                   [     -19,    -40,   37.1,    114,      0, -23.65 ]
+                   [       3,    -19,    -40,   37.1,    114,      0 ]
+                   [      55,      3,    -19,    -40,   37.1,    114 ]
+                   [       0,     55,      3,    -19,    -40,   37.1 ]
+                   [     999,      0,     55,      3,    -19,    -40 ] ]
+Output: true
+
+Input: @matrix = [ [  6, 0, 0, 0, 6 ]
+                   [  0, 0, 6, 0, 0 ]
+                   [  6, 0, 0, 0, 6 ] ]
+Output: false
+ 
+===> 211/1/polettix.pl <===
+m1: true
+m2: false
+ 
+===> 211/1/robert-dicicco.pl <===
+Input matrix = [ [4321] [5432] [6543] ]
+Output: true
+ 
+===> 211/1/roger-bell-west.pl <===
+1..2
+ok 1 - example 1
+ok 2 - example 2
+ 
+===> 211/1/zapwai.pl <===
+Input: @matrix is
+ 4321
+ 5432
+ 6543
+
+Output: True, the matrix is Toeplitz.

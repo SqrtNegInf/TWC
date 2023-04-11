@@ -1,25 +1,4 @@
 #!/usr/bin/env perl
-# vim:set ts=4 sw=4 sts=4 et ai wm=0 nu:
-#=============================================================================
-# ch-1.pl Perl Weekly Challenge 211 Task 1 Toeplitz Matrix
-#=============================================================================
-# Copyright (c) 2023, Bob Lied
-#=============================================================================
-# You are given a matrix m x n.
-# Write a script to find out if the given matrix is Toeplitz Matrix.
-# A matrix is Toeplitz if every diagonal from top-left to bottom-right has
-# the same elements.
-# Example 1 Input: @matrix = [ [4, 3, 2, 1],
-#                              [5, 4, 3, 2],
-#                              [6, 5, 4, 3],
-#                 ]
-#   Output: true
-#
-# Example 2 Input: @matrix = [ [1, 2, 3],
-#                              [3, 2, 1],
-#                  ]
-#   Output: false
-#=============================================================================
 
 use v5.36;
 
@@ -31,7 +10,7 @@ my $Verbose = 0;
 my $DoTest  = 0;
 
 GetOptions("test" => \$DoTest, "verbose" => \$Verbose);
-exit(!runTest()) if $DoTest;
+runTest();exit;
 
 sub checkDiagonal($matrix, $N, $M, $r, $c)
 {
