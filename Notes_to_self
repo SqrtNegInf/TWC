@@ -1,5 +1,9 @@
+2023-04-11
+Warnings from 102/2/aaronreidsmith.raku, maybe will go away with future releases of Raku?
+
 2023-04-06
-Most authors seems to be using modern coding style, work fine with v5.36
+Most authors seems to be using modern coding style, work fine with Perl 5.36
+But add to new tasks from now on.
 
 2023-02-24
 Tasks in 203/2 ongoing headache (directory structure), may drop most.
