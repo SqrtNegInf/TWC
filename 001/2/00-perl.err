@@ -1,0 +1,2 @@
+Unquoted string "fizz" may clash with future reserved word at ./john-barrett.pl line 11.
+Unquoted string "buzz" may clash with future reserved word at ./john-barrett.pl line 11.

@@ -1,13 +1,13 @@
 #!/usr/bin/env perl
 
-use 5.032;
+use v5.36;
 
-use strict;
-use warnings;
-no  warnings 'syntax';
-
-use experimental 'signatures';
-use experimental 'lexical_subs';
+#use 5.032;
+#use strict;
+#use warnings;
+#no  warnings 'syntax';
+#use experimental 'signatures';
+#use experimental 'lexical_subs';
 
 for (20) {
     foreach my $number (1 .. $_) {

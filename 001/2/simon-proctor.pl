@@ -1,6 +1,8 @@
 #!/usr/bin/env perl
-use v5.10;
-use strict;
+
+use v5.36;
+#use v5.10;
+#use strict;
 
 sub fz { $_[0] % 3 == 0 ? "Fizz" : "" }
 sub bz { $_[0] % 5 == 0 ? "Buzz" : "" }
