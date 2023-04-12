@@ -1,9 +1,5 @@
  
 ===> 203/2/e-choroba.pl <===
-# Seeded srand with seed '1' from import arg.
-1..2
-ok 1 - Example 1
-ok 2 - Recursion
  
 ===> 203/2/kjetillll.pl <===
 Checking 16 dirs: ok

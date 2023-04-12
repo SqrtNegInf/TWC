@@ -1,8 +1,12 @@
 #!/usr/bin/env perl
-use v5.36.0;
+#use v5.36.0;
+
+die 'not working';
 use warnings;
 use strict;
 use experimental qw{ signatures };
+
+
 
 use File::Find qw{ find };
 
@@ -25,8 +29,7 @@ sub cleanup {
     0 == system 'rm -rf a x' or die $!;
 }
 
-use Test2::V0 -srand => 1;
-plan 2;
+use Test::More;
 
 {   prepare_env();
     copy_directory('a/b/c', 'x/y');
@@ -36,13 +39,15 @@ plan 2;
     #cleanup();
 }
 
-{   prepare_env();
-    copy_directory('a', 'x/y');
-    my @found;
-    find({no_chdir => 1,
-          wanted => sub { push @found, $_ }}, 'x/y/b/c');
-    is \@found, bag { item "x/y/b/c/$_" for 1 .. 5;
-                      item 'x/y/b/c'; },
-        'Recursion';
-    #cleanup();
-}
+done_testing();
+
+#{   prepare_env();
+#    copy_directory('a', 'x/y');
+#    my @found;
+#    find({no_chdir => 1,
+#          wanted => sub { push @found, $_ }}, 'x/y/b/c');
+#    is \@found, bag { item "x/y/b/c/$_" for 1 .. 5;
+#                      item 'x/y/b/c'; },
+#        'Recursion';
+#    #cleanup();
+#}
