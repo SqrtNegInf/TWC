@@ -64,7 +64,7 @@ sub combine-accounts( @database --> Array ) {
 
     my @new;
     for %by-ac.keys.sort -> $k {
-        @new.push: [$k, |%by-ac{$k}] ; # | %by-ac{$k} ];
+        @new.push: [$k, |%by-ac{$k}.sort] ; # | %by-ac{$k} ];
     }
     return @new;
 }
