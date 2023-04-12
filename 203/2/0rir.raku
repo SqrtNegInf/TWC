@@ -1,5 +1,7 @@
 #!/usr/bin/env raku
 
+die 'not working';
+
 use Test;
 use File::Directory::Tree;
 

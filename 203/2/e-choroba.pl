@@ -33,7 +33,7 @@ plan 2;
     my @found;
     find({wanted => sub { push @found, $_ unless /^\.{1,2}$/; }}, 'x/y');
     is \@found, bag { item $_ for 1 .. 5 }, 'Example 1';
-    cleanup();
+    #cleanup();
 }
 
 {   prepare_env();
@@ -44,5 +44,5 @@ plan 2;
     is \@found, bag { item "x/y/b/c/$_" for 1 .. 5;
                       item 'x/y/b/c'; },
         'Recursion';
-    cleanup();
+    #cleanup();
 }
