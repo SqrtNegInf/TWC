@@ -7,9 +7,11 @@
 #   Make sure it's positive
 #   Don't remove the last 0 before period.
 
-use v5.10;
-use strict;
-use warnings;
+use v5.36;
+
+#use v5.10;
+#use strict;
+#use warnings;
 use Scalar::Util qw/looks_like_number/; # distributed with perl since 5.8
 
 sub remove_leading_zeros {

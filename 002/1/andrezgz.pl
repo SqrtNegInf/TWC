@@ -1,5 +1,7 @@
 #!/usr/bin/env perl
 
+use v5.36;
+
 # Non-numeric data
 # 0a     -> 0a
 # a      -> a
@@ -24,7 +26,7 @@
 
 # + All the above with a comma instead of a dot
 
-use strict;
-use feature 'say';
+#use strict;
+#use feature 'say';
 
 say s/^0+([1-9]*[0-9]+(:?[.,]\d*)?)$/$1/r for <0.0 0a 01 -01 00.1>;
