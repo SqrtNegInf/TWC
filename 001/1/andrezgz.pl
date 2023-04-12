@@ -1,6 +1,7 @@
 #!/usr/bin/env perl
 
-use strict;
+use v5.36;
+#use strict;
 
 my $str = 'Perl Weekly Challenge';
 

@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
-
-use feature say;
+use v5.36;
+#use feature say;
 
 my $string = $ARGV[0] || 'Perl Weekly Challenge';  # [1]
 
