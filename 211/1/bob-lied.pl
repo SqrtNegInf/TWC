@@ -66,7 +66,7 @@ sub isToeplitz($matrix)
 
 sub runTest
 {
-    use Test2::V0;
+    use Test::More;
     no warnings "experimental::builtin";
     use builtin qw(true false);
 
