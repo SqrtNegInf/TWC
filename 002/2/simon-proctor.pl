@@ -1,6 +1,9 @@
 #!/usr/bin/env perl
-use strict;
-use v5.10;
+
+use v5.36;
+
+#use strict;
+#use v5.10;
 
 my @in = split "", 'RAKU';
 my $out = 0;

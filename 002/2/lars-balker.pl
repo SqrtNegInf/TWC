@@ -1,10 +1,10 @@
 #!/usr/bin/env perl
-# Write a script that can convert integers to and from a base35
-# representation, using the characters 0-9 and A-Y.
 
-use v5.10;
-use strict;
-use warnings;
+use v5.36;
+
+#use v5.10;
+#use strict;
+#use warnings;
 
 my @glyphs = (0..9, 'A'..'Y');
 

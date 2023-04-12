@@ -1,6 +1,7 @@
 #!/usr/bin/env perl
 
-use v5.22;
+use v5.36;
+#use v5.22;
 
 my @to_table = ( 0 .. 9, 'A' .. 'Y');
 my %from_table;

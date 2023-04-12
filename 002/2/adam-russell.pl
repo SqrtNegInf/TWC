@@ -1,6 +1,8 @@
 #!/usr/bin/env perl
-use strict;
-use warnings; 
+
+use v5.36;
+#use strict;
+#use warnings; 
 
 use constant BASE => 35;  
 use constant OFFSET => 87;  
