@@ -19,7 +19,6 @@ Is Matrix1 a Toeplitz matrix? : TRUE
 Is Matrix2 a Toeplitz matrix? : FALSE
  
 ===> 211/1/bob-lied.pl <===
-# Seeded srand with seed '20230411' from local date.
 ok 1 - Example 1
 ok 2 - Example 2
 ok 3 - One row
