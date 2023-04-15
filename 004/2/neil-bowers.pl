@@ -1,4 +1,5 @@
 #!/usr/bin/env perl
+use v5.36;
 use File::Slurper qw/ read_lines /;
 
 my $word_file       = 'words';

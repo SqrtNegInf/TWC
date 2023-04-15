@@ -1,6 +1,7 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
+use v5.36;
+#use strict;
+#use warnings;
 #use Data::Dump qw( pp );
 
 # Usage: perl Challenge_2.pl <filename> <letters>
