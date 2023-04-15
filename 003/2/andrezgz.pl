@@ -1,13 +1,8 @@
 #!/usr/bin/env perl
+use v5.36;
 
-# https://perlweeklychallenge.org/blog/perl-weekly-challenge-003/
-# Challenge #2
-# Create a script that generates Pascal Triangle. Accept number of rows from the command line.
-# The Pascal Triangle should have at least 3 rows.
-# For more information about Pascal Triangle, check this wikipedia page. https://en.wikipedia.org/wiki/Pascal%27s_triangle
-
-use strict;
-use warnings;
+#use strict;
+#use warnings;
 
 my $rows = $ARGV[0] || 10;
 

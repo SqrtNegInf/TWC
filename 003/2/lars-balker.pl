@@ -1,11 +1,8 @@
 #!/usr/bin/env perl
-# Create a script that generates Pascal Triangle. Accept number of
-# rows from the command line. The Pascal Triangle should have at least
-# 3 rows.
 
-use v5.10;
-use strict;
-use warnings;
+use v5.36;
+#use strict;
+#use warnings;
 
 my $rows = 10;
 

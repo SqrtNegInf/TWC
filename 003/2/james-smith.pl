@@ -1,6 +1,8 @@
 #!/usr/bin/env perl
-use strict;
-use feature ':5.10';
+use v5.36;
+#use strict;
+#use feature ':5.10';
+no warnings 'uninitialized';
 
 my @line = ();
 

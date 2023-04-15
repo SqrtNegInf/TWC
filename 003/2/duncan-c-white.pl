@@ -1,11 +1,7 @@
 #!/usr/bin/env perl
-#
-# generate the first N rows of Pascal's triangle, no cleverness, just the
-# basic formula.
-
-
-use strict;
-use warnings;
+use v5.36;
+#use strict;
+#use warnings;
 
 use Function::Parameters;
 

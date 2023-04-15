@@ -1,8 +1,7 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-use v5.32;
+use v5.36;
+#use strict;
+#use warnings;
 
 use experimental qw/ signatures /;
 no warnings "experimental::signatures";

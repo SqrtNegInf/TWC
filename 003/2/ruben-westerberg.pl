@@ -1,5 +1,5 @@
 #!/usr/bin/env perl
-use warnings;
+use v5.36;
 
 my $lines=10;
 my $current=[1];
@@ -9,7 +9,7 @@ foreach  (1 .. $lines)  {
 }
 
 sub printRow {
-	$in=shift;
+	my $in=shift;
 	foreach (@$in) {
 		#TODO: Add centralised format
 		printf "%d ", $_;;
