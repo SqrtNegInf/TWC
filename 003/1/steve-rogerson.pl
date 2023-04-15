@@ -1,9 +1,10 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
+use v5.36;
+#use strict;
+#use warnings;
 use List::Util 'min';
 use Const::Fast;
-use 5.010;
+#use 5.010;
  
 sub hamming {
     my ($arg) = @_;

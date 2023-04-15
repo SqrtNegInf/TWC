@@ -1,9 +1,9 @@
 #!/usr/bin/env perl
-
-use 5.010;
-use warnings;
-use strict;
-no warnings 'uninitialized';
+use v5.36;
+#use 5.010;
+#use warnings;
+#use strict;
+#no warnings 'uninitialized';
 use List::Util qw< min max sum >;
 
 my $limit = 50;

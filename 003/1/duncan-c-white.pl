@@ -1,7 +1,7 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
+use v5.36;
+#use strict;
+#use warnings;
 
 #use Benchmark qw(:all) ;
 
