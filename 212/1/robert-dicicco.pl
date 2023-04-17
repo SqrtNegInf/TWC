@@ -1,14 +1,6 @@
 #!/usr/bin/env perl
-=begin pod
----------------------------------------
-AUTHOR: Robert DiCicco
-DATE  : 2023-04-10
-Challenge 212 Jumping Letters ( Perl )
----------------------------------------
-=cut
-use strict;
-use warnings;
-use feature 'say';
+
+use v5.36;
 use List::MoreUtils qw(first_index);
 
 my $word = 'Perl';
@@ -30,18 +22,3 @@ for my $n (0..length($word) - 1) {
     $ndx += $jump[$n];
     $n == 0 ? print uc(@alphabet[$ndx % 26]) : print @alphabet[$ndx % 26];
 }
-
-=begin pod
----------------------------------------
-SAMPLE OUTPUT
-perl .\Jumping.pl
-Input: $word = Perl and @jump = (2 22 19 9)
-Output: Raku
-
-PS G:\Projects\Perl\Challenges> perl .\Jumping.pl
-Input: $word = Raku and @jump = (24 4 7 17)
-Output: Perl
----------------------------------------
-=cut
-
-

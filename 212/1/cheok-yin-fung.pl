@@ -1,8 +1,6 @@
 #!/usr/bin/env perl
-# The Weekly Challenge 212
-# Task 1 Jumping Letters
-use v5.30.0;
-use warnings;
+use v5.36.0;
+
 use List::Util qw/zip/;
 
 sub map_letter {

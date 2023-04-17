@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use feature "say";
-
+use v5.36;
 sub jump_letter  {
     my ($letter, $val) = @_;
     my $new_ascii = ord($letter) + $val;

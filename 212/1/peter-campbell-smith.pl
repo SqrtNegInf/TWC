@@ -1,9 +1,7 @@
 #!/usr/bin/env perl
 
-use v5.16;    # The Weekly Challenge - 2023-04-10
-use utf8;     # Week 212 task 1 - Jumping letters
-use strict;   # Peter Campbell Smith
-use warnings; # Blog: http://ccgi.campbellsmiths.force9.co.uk/challenge
+use v5.36;
+use utf8;
 
 advance_letters('Perl', [2, 22, 19, 9]);
 advance_letters('Lead', [21, 10, 11, 0]);

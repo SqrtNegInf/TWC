@@ -2,13 +2,6 @@
 
 use v5.36;
 
-say "challenge-212-task1";
-
-# Task 1: Jumping Letters
-# You are given a word having alphabetic characters only, and a list of positive integers of the same length
-# Write a script to print the new word generated after jumping forward each letter in the given word by the integer in the list.
-# The given list would have exactly the number as the total alphabets in the given word.
-
 sub jumping_letters {
     my $word = shift;
     my @jump = @{+shift};

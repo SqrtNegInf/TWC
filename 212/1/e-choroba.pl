@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-use warnings;
-use strict;
-use experimental 'signatures';
-
+use v5.36;
 sub jumping_letters($word, @jump) {
     return join "", map {
         my $r = ord(($_ gt 'Z') ? 'a' : 'A');

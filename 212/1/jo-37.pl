@@ -1,11 +1,11 @@
 #!/usr/bin/env perl
 
-use v5.20;
-use Test2::V0 -srand => 1;
+use v5.36;
+use Test::More;
 use List::MoreUtils qw(zip6);
 use experimental qw(signatures);
 
-our ($tests, $examples);
+our ($tests, $examples) = (1,1);
 
 run_tests() if $tests || $examples;	# does not return
 

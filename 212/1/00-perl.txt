@@ -1,0 +1,83 @@
+ 
+===> 212/1/athanasius.pl <===
+Running the test suite
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - One letter
+ok 4 - Me
+1..4
+ 
+===> 212/1/bob-lied.pl <===
+ok 1 - Example 1
+ok 2 - Example 2
+1..2
+ 
+===> 212/1/carlos-oliveira.pl <===
+ok 1
+ok 2
+1..2
+ 
+===> 212/1/cheok-yin-fung.pl <===
+1..2
+ok 1
+ok 2
+ 
+===> 212/1/e-choroba.pl <===
+1..2
+ok 1 - Example 1
+ok 2 - Example 2
+ 
+===> 212/1/james-smith.pl <===
+ok 1
+ok 2
+1..2
+ 
+===> 212/1/jo-37.pl <===
+ok 1 - example 1
+ok 2 - example 2
+1..2
+ 
+===> 212/1/laurent-rosenfeld.pl <===
+Perl       => Raku 
+Raku       => Perl 
+ 
+===> 212/1/lubos-kolouch.pl <===
+1..2
+ok 1 - Test case 1
+ok 2 - Test case 2
+ 
+===> 212/1/manfredi.pl <===
+Perl, '2 22 19 9': Raku
+Raku, '24 4 7 17': Perl
+ 
+===> 212/1/peter-campbell-smith.pl <===
+
+Input  $word = 'Perl' and @jump = (2, 22, 19, 9)
+Output:        'Raku'
+
+Input  $word = 'Lead' and @jump = (21, 10, 11, 0)
+Output:        'Gold'
+
+Input  $word = 'Failure' and @jump = (13, 20, 20, 17, 10, 1, 14)
+Output:        'Success'
+ 
+===> 212/1/peter-meszaros.pl <===
+ok 1 - per-to-raku
+ok 2 - raku-to-perl
+1..2
+ 
+===> 212/1/robert-dicicco.pl <===
+Input: $word = Perl and @jump = (2 22 19 9)
+Output: Raku 
+===> 212/1/roger-bell-west.pl <===
+1..2
+ok 1 - example 1
+ok 2 - example 2
+ 
+===> 212/1/solathian.pl <===
+Raku
+Perl
+ 
+===> 212/1/spadacciniweb.pl <===
+Raku
+Perl
