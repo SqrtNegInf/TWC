@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-use warnings;
-use strict;
-use experimental qw( signatures );
+use v5.36;
 
 sub rearrange_groups_naive($list, $size) {
     return -1 if @$list % $size;
@@ -48,7 +46,7 @@ sub rearrange_groups($list, $size) {
 }
 
 use Test2::V0 -srand => 1;
-plan 5 + 1;
+plan 5;
 
 is rearrange_groups([1, 2, 3, 5, 1, 2, 7, 6, 3], 3),
     [[1, 2, 3], [1, 2, 3], [5, 6, 7]],
@@ -69,16 +67,3 @@ is rearrange_groups([1, 5, 2, 6, 4, 7], 3),
 is rearrange_groups([1, 2, 3, 1, 2, 3, 2, 3, 4], 3),
     [[1, 2, 3], [1, 2, 3], [2, 3, 4]],
     'More overlap';
-
-use Benchmark qw{ cmpthese };
-my $p = [(1, 2, 3) x 100, (2, 3, 4) x  100, (4, 5, 6) x 100];
-is rearrange_groups_naive($p, 3), rearrange_groups($p, 3), 'same';
-cmpthese(-3, {
-    naive     => sub { rearrange_groups_naive($p, 3) },
-    optimised => sub { rearrange_groups($p, 3) },
-});
-
-__END__
-            Rate     naive optimised
-naive     1812/s        --      -73%
-optimised 6819/s      276%        --

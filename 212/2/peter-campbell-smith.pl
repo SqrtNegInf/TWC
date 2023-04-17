@@ -1,9 +1,6 @@
 #!/usr/bin/env perl
 
-use v5.16;    # The Weekly Challenge - 2023-04-10
-use utf8;     # Week 212 task 2 -
-use strict;   # Peter Campbell Smith
-use warnings; # Blog: http://ccgi.campbellsmiths.force9.co.uk/challenge
+use v5.36;
 
 sequences(3, [8, 7, 3, 5, 2, 1, 0, 4, 6, 9]);
 sequences(3, [1, 2, 3, 1, 2, 3, 2, 3, 4, 4, 5, 6]);

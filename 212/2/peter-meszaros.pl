@@ -1,28 +1,8 @@
 #!/usr/bin/env perl
-# Example 1:
-# 
-# Input: @list = (1,2,3,5,1,2,7,6,3) and $size = 3
-# Output: (1,2,3), (1,2,3), (5,6,7)
-# 
-# Example 2:
-# 
-# Input: @list = (1,2,3) and $size = 2
-# Output: -1
-# 
-# Example 3:
-# 
-# Input: @list = (1,2,4,3,5,3) and $size = 3
-# Output: (1,2,3), (3,4,5)
-# 
-# Example 4:
-# 
-# Input: @list = (1,5,2,6,4,7) and $size = 3
-# Output: -1
 
-use strict;
-use warnings;
+use v5.36;
 use Test::More;
-use Data::Dumper;
+#use Data::Dumper;
 use List::MoreUtils qw/frequency/;
 
 my $cases = [

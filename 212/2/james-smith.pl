@@ -1,8 +1,6 @@
 #!/usr/bin/env perl
 
-use strict;
-use warnings;
-use feature qw(say);
+use v5.36;
 use Test::More;
 
 my @TESTS = (
@@ -30,3 +28,5 @@ sub d {
 }
 
 is( d( rearrange_groups( @{$_->[0]} ) ), $_->[1] ) for @TESTS;
+
+done_testing();

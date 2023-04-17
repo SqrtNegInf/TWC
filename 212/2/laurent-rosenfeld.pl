@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-use warnings;
-use feature "say";
-
+use v5.36;
 sub rearrange {
     my @in = @{$_[0]};
     my $size = $_[1];
