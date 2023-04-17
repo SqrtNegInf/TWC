@@ -10,13 +10,11 @@ sub jumping-letters ($word,+@jump) {
     andthen  .samemark($word).samecase($word)
 }
 
-multi MAIN (Bool :test($)!) {
+#multi MAIN (Bool :test($)!) {
     use Test;
     is jumping-letters('Perl',2,22,19,9),'Raku';
     is jumping-letters('Raku',24,4,7,17),'Perl';
     done-testing;
-}
+#}
 
-multi MAIN ($word,*@jump) {
-    say jumping-letters $word,@jump
-}
+#multi MAIN ($word,*@jump) { say jumping-letters $word,@jump }

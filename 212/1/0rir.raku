@@ -1,27 +1,6 @@
 #!/usr/bin/env raku
-# :vim ft=raku sw=4 expandtab  # 🦋 ∅∪∩∋∈∉ ≡ ≢ «␤ » ∴
-use v6.d;
+
 use Test;
-
-=begin comment
-212-1: Jumping Letters          Submitted by: Mohammad S Anwar
-Given a word having only alphabetic characters and a list of positive
-integers of the same length print the new word generated after jumping
-forward each letter in the given word by the integer in the list.
-
-Example 1
-Input: $word = 'Perl' and @jump = (2,22,19,9)
-Output: Raku
-
-'P' jumps 2 place forward and becomes 'R'.
-'e' jumps 22 place forward and becomes 'a'. (jump is cyclic i.e. after 'z'
-        you go back to 'a')
-'r' jumps 19 place forward and becomes 'k'.
-'l' jumps 9 place forward and becomes 'u'.
-Example 2
-Input: $word = 'Raku' and @jump = (24,4,7,17)
-Output: 'Perl'
-=end comment
 
 my @Test =
     'Perl',     (2,22,19,9),    'Raku',

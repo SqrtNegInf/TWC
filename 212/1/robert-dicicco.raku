@@ -1,11 +1,4 @@
 #!/usr/bin/env raku
-#`{
----------------------------------------
-AUTHOR: Robert DiCicco
-DATE  : 2023-04-10
-Challenge 212 Jumping Letters ( Raku )
----------------------------------------
-}
 
 my $word = 'Perl';
 my @jump = (2,22,19,9);
@@ -24,21 +17,3 @@ for (0..^$word.chars) -> $n {
     $ndx += @jump[$n];
     $n == 0 ?? print @alphabet[$ndx % 26].uc !! print @alphabet[$ndx % 26];
 }
-
-#`{
----------------------------------------
-SAMPLE OUTPUT
-raku .\Jumping.rk
-Input: $word = Perl and @jump = [2 22 19 9]
-Output: Raku
-
-raku .\Jumping.rk
-Input: $word = Raku and @jump = [24 4 7 17]
-Output: Perl
----------------------------------------
-}
-
-
-
-
-

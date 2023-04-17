@@ -1,6 +1,8 @@
 #!/usr/bin/env raku
 
-unit sub MAIN ($word where $word ~~ /^<[a..zA..Z]>+$/, *@jump where @jump.all ~~ UInt && @jump.all < 26 && @jump.elems == $word.chars);
+#unit sub MAIN ($word where $word ~~ /^<[a..zA..Z]>+$/, *@jump where @jump.all ~~ UInt && @jump.all < 26 && @jump.elems == $word.chars);
+my $word = 'Raku';
+my @jump = (24,4,7,17);
 
 for $word.comb -> $letter
 {

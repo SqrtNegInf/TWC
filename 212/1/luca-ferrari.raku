@@ -1,15 +1,8 @@
 #!/usr/bin/env raku
 
-#
-# Perl Weekly Challenge 212
-# Task 1
-#
-# See <https://perlweeklychallenge.org/blog/perl-weekly-challenge-212/>
-#
-
-sub MAIN( *@args ) {
-    my $word = @args[ 0 ];
-    my @jumps = @args[ 1 .. * ];
+#sub MAIN( *@args ) {
+    my $word = 'raku';
+    my @jumps = (24,4,7,17);
     my @alphabet = 'a' .. 'z';
     my @new-world;
     my $index = 0;
@@ -22,4 +15,4 @@ sub MAIN( *@args ) {
     }
 
     @new-world.join.say;
-}
+#}

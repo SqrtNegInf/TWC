@@ -1,8 +1,8 @@
 #!/usr/bin/env raku
 
 sub MAIN(
-    $word,
-    *@jump
+    $word = 'Raku',
+    @jump = (24,4,7,17)
 ) {
     my @letters = $word.comb;
     for 0 .. @letters.end -> $i {
