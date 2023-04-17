@@ -1,15 +1,8 @@
 #!/usr/bin/env raku
 
-#
-# Perl Weekly Challenge 212
-# Task 2
-#
-# See <https://perlweeklychallenge.org/blog/perl-weekly-challenge-212/>
-#
-
-sub MAIN( *@args ) {
-    my $size = @args[ * - 1 ];
-    my @list = @args[ 0 .. * - 2 ];
+#sub MAIN( *@args ) {
+    my $size = 3;
+    my @list = (1,2,3,5,1,2,7,6,3);
 
     # check if the size can be used to split the list
     '-1'.say and exit if ( @list.elems !%% $size );
@@ -34,4 +27,4 @@ sub MAIN( *@args ) {
     }
 
     @batches.join( "\n" ).say;
-}
+#}

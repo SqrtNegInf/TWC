@@ -18,15 +18,13 @@ sub rearrange-group (+@list, :$size) {
     andthen .tail.<acc>
 }
 
-multi MAIN (Bool :test($)!) {
+#multi MAIN (Bool :test($)!) {
     use Test;
     is-deeply rearrange-group((1,2,3,5,1,2,7,6,3),:3size), ((1,2,3), (1,2,3), (5,6,7));
     is-deeply rearrange-group((1,2,3),:2size), Nil;
     is-deeply rearrange-group(1,2,4,3,5,3,:3size), ((1,2,3),(3,4,5));
     is-deeply rearrange-group(1,5,2,6,4,7,:3size), Nil;
     done-testing;
-}
+##}
 
-multi MAIN (*@list,:$size!) {
-    say rearrange-group @list».Int,:$size
-}
+#multi MAIN (*@list,:$size!) { say rearrange-group @list».Int,:$size }

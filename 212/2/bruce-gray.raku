@@ -20,6 +20,7 @@ sub task2 ( UInt $size, @ns --> List ) {
     }
     return @r.List;
 }
+
 # In hindsight, I might have taken a different approach. I like the one-time .sort into an Array of Pairs, but Pairs are immutable, which requires the clumsy reconstruction in line 17, instead of just `.value--`.
 #
 # Note that the Bag will keep its keys untransformed, while a Hash would have (by default) had Str keys, which would have sorted wrong unless otherwise coerced.

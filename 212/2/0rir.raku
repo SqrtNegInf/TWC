@@ -1,30 +1,6 @@
 #!/usr/bin/env raku
-# :vim ft=raku sw=4 expandtab  # 🦋 ∅∪∩∋∈∉ ≡ ≢ «␤ » ∴
-use v6.d;
+
 use Test;
-
-=begin comment
-212-2: Rearrange Groups         Submitted by: Mohammad S Anwar
-
-Given a list of integers and a group size greater than zero, split the list
-into groups of the given size where integers are in sequential order.
-If it can’t be done then print -1.
-
-
-Example 1:
-Input: @list = (1,2,3,5,1,2,7,6,3) and $size = 3
-Output: (1,2,3), (1,2,3), (5,6,7)
-Example 2:
-Input: @list = (1,2,3) and $size = 2
-Output: -1
-Example 3:
-Input: @list = (1,2,4,3,5,3) and $size = 2
-Output: (1,2,3), (3,4,5)
-Example 4:
-Input: @list = (1,5,2,6,4,7) and $size = 3
-Output: -1
-
-=end comment
 
 my @Test =
        #  part-size, list, exp

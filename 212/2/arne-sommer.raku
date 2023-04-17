@@ -1,6 +1,6 @@
 #!/usr/bin/env raku
 
-multi MAIN (UInt $size where $size >= 1, *@list where @list.elems >= 2 && @list.all ~~ Int && @list.elems %% $size, :v(:$verbose))
+multi MAIN (UInt $size where $size >= 1 = 3, @list = (1,2,3,5,1,2,7,6,3), :v(:$verbose))
 {
   say ": size: $size" if $verbose;
 

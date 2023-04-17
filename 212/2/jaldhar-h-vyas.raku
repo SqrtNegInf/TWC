@@ -6,8 +6,8 @@ sub invalid {
 }
 
 sub MAIN(
-    $size,
-    *@list
+    $size = 3,
+    @list = (1,2,3,5,1,2,7,6,3)
 ) {
     unless @list.elems %% $size {
         invalid;
