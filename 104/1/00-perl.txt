@@ -9,7 +9,32 @@
 fusc( 0) =  0	fusc( 1) =  1	fusc( 2) =  1	fusc( 3) =  2	fusc( 4) =  1	fusc( 5) =  3	fusc( 6) =  2	fusc( 7) =  3	fusc( 8) =  1	fusc( 9) =  4	fusc(10) =  3	fusc(11) =  5	fusc(12) =  2	fusc(13) =  5	fusc(14) =  3	fusc(15) =  4	fusc(16) =  1	fusc(17) =  5	fusc(18) =  4	fusc(19) =  7	fusc(20) =  3	fusc(21) =  8	fusc(22) =  5	fusc(23) =  7	fusc(24) =  2	fusc(25) =  7	fusc(26) =  5	fusc(27) =  8	fusc(28) =  3	fusc(29) =  7	fusc(30) =  4	fusc(31) =  5	fusc(32) =  1	fusc(33) =  6	fusc(34) =  5	fusc(35) =  9	fusc(36) =  4	fusc(37) = 11	fusc(38) =  7	fusc(39) = 10	fusc(40) =  3	fusc(41) = 11	fusc(42) =  8	fusc(43) = 13	fusc(44) =  5	fusc(45) = 12	fusc(46) =  7	fusc(47) =  9	fusc(48) =  2	fusc(49) =  9	fusc(50) =  7	
  
 ===> 104/1/bob-lied.pl <===
-0: 01: 12: 13: 24: 15: 36: 27: 38: 19: 410: 311: 512: 213: 514: 315: 416: 117: 518: 419: 720: 321: 822: 523: 724: 225: 726: 527: 828: 329: 730: 431: 532: 133: 634: 535: 936: 437: 1138: 739: 1040: 341: 1142: 843: 1344: 545: 1246: 747: 948: 249: 950: 7
+ok 1 - fusc( 0)
+ok 2 - fusc( 1)
+ok 3 - fusc( 2)
+ok 4 - fusc( 3)
+ok 5 - fusc( 4)
+ok 6 - fusc( 5)
+ok 7 - fusc( 6)
+ok 8 - fusc( 7)
+ok 9 - fusc( 8)
+ok 10 - fusc( 9)
+ok 11 - fusc(10)
+ok 12 - fusc(11)
+ok 13 - fusc(12)
+ok 14 - fusc(13)
+ok 15 - fusc(14)
+ok 16 - fusc(15)
+ok 17 - fusc(16)
+ok 18 - fusc(20)
+ok 19 - fusc(30)
+ok 20 - fusc(40)
+ok 21 - fusc(50)
+ok 22 - fusc(60)
+ok 23 - fusc(70)
+ok 24 - fusc(80)
+ok 25 - fusc(90)
+1..25
  
 ===> 104/1/cheok-yin-fung.pl <===
   0  0
