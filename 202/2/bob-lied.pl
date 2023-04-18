@@ -18,7 +18,7 @@ my $Verbose = 0;
 my $DoTest  = 0;
 
 GetOptions("test" => \$DoTest, "verbose" => \$Verbose);
-exit(!runTest()) if $DoTest;
+runTest();exit;
 
 my $wide = widestValley(\@ARGV);
 say "(", join(",", $wide->@*), ")";
@@ -157,7 +157,7 @@ sub widestValley($profile)
 
 sub runTest
 {
-    use Test2::V0;
+    use Test2::V0 -srand => 1;
 
     is( widestValley([1,5,5,2,8          ]), [5,5,2,8        ], "Example 1");
     is( widestValley([2,6,8,5            ]), [2,6,8          ], "Example 2");

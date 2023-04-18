@@ -1,28 +1,13 @@
 #!/usr/bin/env perl
-# vim:set ts=4 sw=4 sts=4 et ai wm=0 nu:
-#=============================================================================
-# ch-1.pl
-#=============================================================================
-# Copyright (c) 2021, Bob Lied
-#=============================================================================
-# Perl Weekly Challenge 104, Task #1, FUSC Sequence
-# Write a script to generate first 50 members of FUSC Sequence. Please refer
-# to OEIS for more information. The sequence defined as below:
-# 
-# fusc(0) = 0
-# fusc(1) = 1
-# for n > 1:
-# when n is even: fusc(n) = fusc(n / 2),
-# when n is odd: fusc(n) = fusc((n-1)/2) + fusc((n+1)/2)
-# 
-#=============================================================================
 
-use strict;
-use warnings;
-use v5.32;
+use v5.36;
 
-use experimental qw/ signatures /;
-no warnings "experimental::signatures";
+#use strict;
+#use warnings;
+#use v5.32;
+
+#use experimental qw/ signatures /;
+#no warnings "experimental::signatures";
 
 use Memoize;
 
@@ -31,7 +16,7 @@ my $Verbose = 0;
 my $DoTest  = 0;
 
 GetOptions("test" => \$DoTest, "verbose" => \$Verbose);
-exit(!runTest()) if $DoTest;
+runTest();exit;
 
 my $N = shift // 50;
 
