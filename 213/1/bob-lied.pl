@@ -20,9 +20,11 @@ sub funSort(@list)
 sub funSort_part(@list)
 {
     use List::MoreUtils qw/part/;
-    use List::Flatten qw/flat/;
+    #use List::Flatten qw/flat/;
+    sub flat :prototype(@) { return map { ref eq 'ARRAY' ? @$_ : $_ } @_; }
 
     return [ grep { defined } flat part { $_ % 2 } sort { $a <=> $b} @list ];
+
 }
 
 # Partition, then sort each piece
