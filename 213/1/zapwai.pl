@@ -1,5 +1,6 @@
 #!/usr/bin/env perl
-use v5.30.0;
+use v5.36;
+
 my @list = (1,2,3,4,5,6);
 say "Input: \@list = (" . join(",",@list) . ")";
 @list = sort @list;

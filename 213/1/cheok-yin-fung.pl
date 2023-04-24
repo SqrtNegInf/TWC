@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-# The Weekly Challenge 213
-# Task 1 Fun Sort
-use v5.30.0;
-use warnings;
+use v5.36;
 
 sub fs {
     my @list = @_;

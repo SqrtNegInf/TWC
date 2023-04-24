@@ -1,7 +1,6 @@
 #!/usr/bin/env perl
-use warnings;
-use strict;
-use experimental qw( signatures );
+
+use v5.36;
 
 sub fun_sort(@list) {
     [sort { $a % 2 <=> $b % 2 || $a <=> $b } @list]

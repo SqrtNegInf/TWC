@@ -1,17 +1,4 @@
 #!/usr/bin/env perl
-# vim:set ts=4 sw=4 sts=4 et ai wm=0 nu:
-#=============================================================================
-# ch-1.pl Perl Weekly Challenge Week 213 Task 1 Fun Sort 
-#=============================================================================
-# Copyright (c) 2023, Bob Lied
-#=============================================================================
-# You are given a list of positive integers.
-# Write a script to sort the all even integers first then all odds in
-# ascending order.
-# Example 1 Input: @list = (1,2,3,4,5,6) Output: (2,4,6,1,3,5)
-# Example 2 Input: @list = (1,2)         Output: (2,1)
-# Example 3 Input: @list = (1)           Output: (1)
-#=============================================================================
 
 use v5.36;
 
@@ -19,7 +6,7 @@ use Getopt::Long;
 my $DoTest  = 0;
 
 GetOptions("test" => \$DoTest);
-exit(!runTest()) if $DoTest;
+runTest();exit;
 
 say "(", join(",", funSort(@ARGV)->@*), ")";
 

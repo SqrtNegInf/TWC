@@ -1,0 +1,106 @@
+ 
+===> 213/1/athanasius.pl <===
+Running the test suite
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+1..3
+ 
+===> 213/1/avery-adams.pl <===
+246135
+ 
+===> 213/1/bob-lied.pl <===
+# Seeded srand with seed '20230424' from local date.
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ok 4 - Odds
+ok 5 - Evens 1
+ok 6 - Evens 2
+ok 7 - Example 1
+ok 8 - Example 2
+ok 9 - Example 3
+ok 10 - Odds
+ok 11 - Evens 1
+ok 12 - Evens 2
+ok 13 - Example 1
+ok 14 - Example 2
+ok 15 - Example 3
+ok 16 - Odds
+ok 17 - Evens 1
+ok 18 - Evens 2
+1..18
+ 
+===> 213/1/cheok-yin-fung.pl <===
+1..3
+ok 1
+ok 2
+ok 3
+ 
+===> 213/1/e-choroba.pl <===
+# Seeded srand with seed '1' from import arg.
+1..3
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ 
+===> 213/1/james-smith.pl <===
+ok 1
+ok 2
+ok 3
+ok 4
+ok 5
+ok 6
+1..6
+ 
+===> 213/1/lubos-kolouch.pl <===
+Input: @list = (1,2,3,4,5,6)
+Output: (2,4,6,1,3,5)
+ 
+===> 213/1/manfredi.pl <===
+challenge-213-task1
+2 4 6 1 3 5
+2 1
+1
+ 
+===> 213/1/perlboy1967.pl <===
+ok 1
+ok 2
+ok 3
+1..3
+ 
+===> 213/1/polettix.pl <===
+(2,4,6,1,3,5)
+ 
+===> 213/1/robert-dicicco.pl <===
+Input: @list = (1 2 3 4 5 6)
+(2,4,6,1,3,5)
+ 
+Input: @list = (1 2)
+(2,1)
+ 
+Input: @list = (1)
+(1)
+ 
+ 
+===> 213/1/roger-bell-west.pl <===
+1..3
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ 
+===> 213/1/solathian.pl <===
+2,4,6,1,3,5
+2,1
+1
+14,22,76,78,11,25
+ 
+===> 213/1/spadacciniweb.pl <===
+(6,4,2,5,3,1)
+ 
+===> 213/1/wlmb.pl <===
+1 2 3 4 5 6 -> 2 4 6 1 3 5
+ 
+===> 213/1/zapwai.pl <===
+Input: @list = (1,2,3,4,5,6)
+Output: (2,4,6,1,3,5)

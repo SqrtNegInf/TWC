@@ -1,22 +1,6 @@
 #!/usr/bin/env perl
 
-=pod
-
-The Weekly Challenge - 213
-- https://theweeklychallenge.org/blog/perl-weekly-challenge-213
-
-Author: Niels 'PerlBoy' van Dijke
-
-Task 1: Fun Sort
-Submitted by: Mohammad S Anwar
-
-You are given a list of positive integers.
-
-Write a script to sort the all even integers first then all odds in ascending order.
-
-=cut
-
-use v5.16;
+use v5.36;
 
 use common::sense;
 
