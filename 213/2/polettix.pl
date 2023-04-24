@@ -1,9 +1,5 @@
 #!/usr/bin/env perl
-use v5.24;
-use warnings;
-use experimental 'signatures';
-
-use Data::Dumper;
+use v5.36;
 
 my @routes = ([1,2,3], [4,5,6], [3,8,9], [7,8]);
 my $source = 1;

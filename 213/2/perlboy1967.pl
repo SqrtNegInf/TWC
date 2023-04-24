@@ -1,24 +1,6 @@
 #!/usr/bin/env perl
 
-=pod
-
-The Weekly Challenge - 213
-- https://theweeklychallenge.org/blog/perl-weekly-challenge-213
-
-Author: Niels 'PerlBoy' van Dijke
-
-Task 2: Shortest Route
-Submitted by: Mohammad S Anwar
-
-You are given a list of bidirectional routes defining a network of nodes, as well
-as source and destination node numbers.
-
-Write a script to find the route from source to destination that passes through 
-fewest nodes.
-
-=cut
-
-use v5.16;
+use v5.36;
 
 use common::sense;
 

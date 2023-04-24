@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
+
+use v5.36;
 
 sub shortest_route {
     my ($routes, $source, $destination) = @_;

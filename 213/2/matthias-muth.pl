@@ -1,16 +1,6 @@
 #!/usr/bin/env perl
-#
-#       The Weekly Challenge - Perl & Raku
-#       (https://theweeklychallenge.org)
-#
-#       Challenge 213 Task 2: Shortest Route
-#
-#       Perl solution by Matthias Muth.
-#
 
-use strict;
-use warnings;
-use feature 'say';
+use v5.36;
 
 use Data::Dump qw( pp );
 use List::Util qw( sum );
