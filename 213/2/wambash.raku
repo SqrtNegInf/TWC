@@ -1,6 +1,6 @@
 #!/usr/bin/env raku
 
-use v6.e.*;
+#use v6.e.*;
 
 sub make-graph (+@routes) {
     @routes
@@ -24,7 +24,7 @@ sub shortest-route (+@routes,:$source!,:$destination!) {
     andthen .first: *.elems
 }
 
-multi MAIN (Bool :test($)!) {
+#multi MAIN (Bool :test($)!) {
     use Test;
     my %graph :=  make-graph( (1,2,3,5), (2, 4) );
     is %graph.gist, :{1 => [2], 2 => [3,4,1], 3 => [5,2], 4 => [2], 5 => [3]}.gist;
@@ -36,8 +36,6 @@ multi MAIN (Bool :test($)!) {
     is shortest-route((1,2,3),(4,5,6,7),:1source,:7destination),Nil;
     is shortest-route([1,2,3], [4,5,6], [3,8,9], [7,8], :1source,:7destination), (1,2,3,8,7);
     done-testing;
-}
+#}
 
-multi MAIN (*@routes,Str :s(:$source)!,Str :d(:$destination)!) {
-    say shortest-route |@routes.map( *.split(',').cache ), :source($source.Str), :destination($destination.Str)
-}
+#multi MAIN (*@routes,Str :s(:$source)!,Str :d(:$destination)!) { say shortest-route |@routes.map( *.split(',').cache ), :source($source.Str), :destination($destination.Str) }

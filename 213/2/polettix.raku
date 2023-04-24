@@ -1,10 +1,13 @@
 #!/usr/bin/env raku
-use v6;
 
 sub MAIN {
-   my @routes = [1,2,3], [4,5,6], [3,8,9], [7,8];
-   my $source = 1;
-   my $destination = 6;
+    my @routes = ([1,2,6], [5,6,7]);
+    my $source = 1;
+    my $destination = 7;
+# fails, which is boring...
+#   my @routes = [1,2,3], [4,5,6], [3,8,9], [7,8];
+#   my $source = 1;
+#   my $destination = 6;
    my $route = shortest-route(@routes, $source, $destination) // -1;
    say $route;
 }

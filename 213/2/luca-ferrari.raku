@@ -1,17 +1,7 @@
 #!/usr/bin/env raku
 
-#
-# Perl Weekly Challenge 213
-# Task 2
-#
-# See <https://perlweeklychallenge.org/blog/perl-weekly-challenge-213/>
-#
-#
-# raku raku/ch-2.p6 1 7 "1 2 3 |  4 5 6 | 3 8 9 |  7 8 "
-# 1 -> 2 -> 3 -> 8 -> 7
 
-
-sub MAIN( Int $source, Int $destination, $r ) {
+sub MAIN( Int $source = 1, Int $destination = 7, $r = '1 2 6 | 5 6 7' ) {
     my @routes;
     my @current;
     for $r.comb( :skip-empty ) {

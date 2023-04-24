@@ -1,6 +1,6 @@
 #!/usr/bin/env raku
 
-unit sub MAIN ($routes, :s(:$source), :d(:$destination), :v(:$verbose));
+unit sub MAIN ($routes = '1 2 6 | 5 6 7', :s(:$source) = 1, :d(:$destination) = 7, :v(:$verbose));
 
 my @routes = $routes.split("|")>>.words>>.Array;
 my %next;

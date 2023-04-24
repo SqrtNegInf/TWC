@@ -1,0 +1,4 @@
+Type List does not support associative indexing.
+  in sub MAIN at 2colours.raku line 31
+  in block <unit> at 2colours.raku line 26
+

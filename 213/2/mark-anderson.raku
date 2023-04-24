@@ -1,4 +1,5 @@
 #!/usr/bin/env raku
+
 use Test;
 
 is-deeply shortest-route(((1,2,6), (5,6,7)),                              1,7),  (1,2,6,7);

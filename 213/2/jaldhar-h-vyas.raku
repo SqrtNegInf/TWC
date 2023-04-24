@@ -89,7 +89,7 @@ sub findShortestPath(@routes, $source, $destination) {
 }
 
 sub MAIN(
-    $source, $destination, *@list
+        $source = 1, $destination = 7, @list = ([1,2,6], [5,6,7])
 ) {
     my @routes = @list.map({ $_.split(/\s+/) });
 

@@ -1,6 +1,5 @@
 #!/usr/bin/env raku
 
-
 subset Node of Int where * > 0;
 my token node-id { <[1..9]><[0..9]>* }; # The task didn't say how nodes are represented - going with positive integers
 my token route { '[' <node-id> ** 2..* % ',' ']' } # disallowing routes that lead nowhere
@@ -24,7 +23,7 @@ sub BFS(%vertices, $source, $destination) {
   Nil
 }
 
-sub MAIN(Str $routes, Node $source is copy, Node $destination is copy) {
+sub MAIN(Str $routes = '([1,2,6],[5,6,7])', Node $source is copy = 1, Node $destination is copy = 7) {
   $source.=Int;
   $destination.=Int;
   die 'Please supply a valid list of routes.' unless $routes.subst(/\s/, '', :g) ~~ RouteList;

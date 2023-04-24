@@ -1,4 +1,5 @@
 #!/usr/bin/env raku
+
 sub shortest-path-BFS ( $start-node, $stop-node, %adjacency-list --> List ) {
     my @queue = ( $start-node, );
 
@@ -17,6 +18,7 @@ sub shortest-path-BFS ( $start-node, $stop-node, %adjacency-list --> List ) {
     }
     return Nil;
 }
+
 sub make-adjacency-list ( @routes ) {
     my %adj; # Hash of Lists. Any list could contain duplicates.
     for @routes -> @chain-of-routes {
@@ -30,6 +32,7 @@ sub make-adjacency-list ( @routes ) {
     # that actually has multiple possible shortest-paths.
     return %adj.map: { .key => .value.sort.squish };
 }
+
 sub task2 ( $start, $stop, @routes_LoL ) {
     my %aL = make-adjacency-list(@routes_LoL);
     return shortest-path-BFS( $start, $stop, %aL ) // -1;
@@ -62,6 +65,7 @@ my @tests =
     # Same, in single path (but visiting nodes more than once).
     ( 'A', 'H', ( <A B D H J F C A G J G C G D>, ), <A B D H>),
 ;
+
 use Test;
 plan +@tests;
 for @tests -> ( $start, $stop, $routes, $expected ) {
