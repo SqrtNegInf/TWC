@@ -446,8 +446,8 @@ Challenge titles and Rosetta-code correspondences (exact, and otherwise)
 212-2 Rerrange Groups
 213-1 Fun Sort
 213-2 Shorest Route
-214-1
-214-2
+214-1 Rank Score
+214-2 Collect Points
 215-1
 215-2
 216-1
