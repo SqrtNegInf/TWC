@@ -1,14 +1,5 @@
 #!/usr/bin/env perl
-# https://theweeklychallenge.org/blog/perl-weekly-challenge-197/#TASK2
-#
-# You are given a list of integers, @list.
-#
-# Write a script to perform Wiggle Sort on the given list.
-#
-# # Wiggle sort would be such as list[0] < list[1] > list[2] < list[3]...
-
-use strict;
-use warnings;
+use v5.36;
 
 # sample input values
 my $inputs = [

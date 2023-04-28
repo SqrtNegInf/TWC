@@ -1,8 +1,7 @@
 #!/usr/bin/env perl
 
-use strict;
-use warnings;
-use experimental qw{ say postderef signatures state };
+use v5.36;
+
 use Algorithm::Permute;
 
 my @examples = ( [ 1, 5, 1, 1, 6, 4 ], [ 1, 3, 2, 2, 3, 1 ], );

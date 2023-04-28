@@ -1,6 +1,7 @@
 #!/usr/bin/env perl
 
-use v5.30.0;
+use v5.36;
+no warnings 'uninitialized';
 
 my $list1 = [1,5,1,1,6,4];
 my $list2 = [1,3,2,2,3,1];

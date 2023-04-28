@@ -1,8 +1,6 @@
 #!/usr/bin/env perl
 
-use v5.30.0;
-use warnings;
-
+use v5.36;
 sub ws {
     my @a = @_;
     for my $i (0..$#a-1) {

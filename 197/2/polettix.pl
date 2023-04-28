@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-use v5.24;
-use warnings;
-use experimental 'signatures';
-no warnings 'experimental::signatures';
+use v5.36;
 
 my @wiggled = wiggle_sort_sloppy(@ARGV ? @ARGV : (1, 5, 1, 1, 6, 4));
 {local $" = ','; say "(@wiggled)"}

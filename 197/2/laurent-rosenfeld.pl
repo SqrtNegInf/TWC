@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use feature qw/say/;
-
+use v5.36;
 sub wiggle_sort {
     my @in = @_;
     for my $i (0..$#in - 1) {
