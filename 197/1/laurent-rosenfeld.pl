@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use feature qw/say/;
-
+use v5.36;
 sub move_zero {
     return ((grep $_ != 0, @_), grep $_ == 0, @_);
 }

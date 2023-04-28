@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-use warnings;
-use strict;
-use experimental 'signatures';
-
+use v5.36;
 use List::MoreUtils qw{ part };
 
 sub move_zero(@list) {

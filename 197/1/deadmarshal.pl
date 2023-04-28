@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-
+use v5.36;
 sub move_zero{
   my $count = 0;
   my @ret = grep {$_ == 0 ? $count++ && () : $_} @{$_[0]};

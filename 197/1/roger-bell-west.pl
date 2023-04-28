@@ -1,9 +1,6 @@
 #!/usr/bin/env perl
 
-use strict;
-use warnings;
-use experimental 'signatures';
-
+use v5.36;
 use Test::More tests => 3;
 
 is_deeply(movezero([1, 0, 3, 0, 0, 5]), [1, 3, 5, 0, 0, 0], 'example 1');

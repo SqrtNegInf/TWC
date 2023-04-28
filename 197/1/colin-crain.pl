@@ -26,16 +26,7 @@
 #       © 2022 colin crain
 ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ##
 
-
-
-use warnings;
-use strict;
-use utf8;
-use feature ":5.26";
-use feature qw(signatures);
-no warnings 'experimental::signatures';
-
-
+use v5.36;
 
 my @input = (1,0,0,4,5,0,7);
 say "input:  @input";
