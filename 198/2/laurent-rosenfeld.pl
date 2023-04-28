@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use feature qw/say/;
-
+use v5.36;
 sub is_prime {
     my $num = shift;
     for my $i (2 .. $num ** .5) {

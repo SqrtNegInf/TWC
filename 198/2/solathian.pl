@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-use v5.32;
-use warnings;
-
+use v5.36;
 use Math::Prime::Util 'is_prime';  # to import all functions ':all'
 
 use feature 'signatures';

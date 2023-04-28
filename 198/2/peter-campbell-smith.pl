@@ -1,9 +1,6 @@
 #!/usr/bin/env perl
 
-use v5.28;
-use utf8;
-use warnings;
-
+use v5.36;
 my (@tests, $test, @sieve, $output, $j);
 @tests = (10, 15, 1, 25, 17, 2, 1000, 1000000);
 
