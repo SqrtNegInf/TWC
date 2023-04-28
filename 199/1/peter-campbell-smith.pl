@@ -1,8 +1,6 @@
 #!/usr/bin/env perl
 
-use v5.28;
-use utf8;
-use warnings;
+use v5.36;
 
 my (@tests, $test, @list, $i, $j, $count, $rubric);
 @tests = ([1, 2, 3, 1, 1, 3], [1, 2, 3], [1, 1, 1, 1], [1, 3, 5, 7, 9, 1, 3, 5, 7, 9, 1]);
