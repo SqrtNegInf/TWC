@@ -1,10 +1,5 @@
 #!/usr/bin/env perl
-use v5.32;
-use warnings;
-
-use feature 'signatures';
-no  warnings 'experimental';    # signatures, smartmatch
-
+use v5.36;
 maxGap((2,5,8,1));      # (2,5) and (5,8)
 maxGap((2,5,8,1,20));   # (8, 20)
 maxGap((3));            # 0

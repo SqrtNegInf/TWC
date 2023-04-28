@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
 
-use strict;
+use v5.36;
 
 print &max_gap(2,5,8,1); #2
 print &max_gap(3); #0

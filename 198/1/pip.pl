@@ -1,7 +1,7 @@
 #!/usr/bin/env perl
 
-use strict;use warnings;use utf8;use v5.10; 
-#my $d8VS='N14L7YES'; ??
+use v5.36;
+
 sub MxGp {my @list=@_;my $mgap=0;my $gcou=0;
   print '(' . sprintf("%-7s",join(',',@list)) . ') => ';
   for(1..$#list){
