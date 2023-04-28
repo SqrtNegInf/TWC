@@ -1,10 +1,6 @@
 #!/usr/bin/env perl
-
+use v5.36;
 srand 1;
-
-use warnings;
-use strict;
-use experimental 'signatures';
 
 sub good_triplets ($arr, $x, $y, $z) {
     # Optimization: abs can't be < 0.

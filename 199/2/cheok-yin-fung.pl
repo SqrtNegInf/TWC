@@ -1,8 +1,6 @@
 #!/usr/bin/env perl
 
-use v5.30.0;
-use warnings;
-
+use v5.36;
 sub good_triplets {
     my @a = $_[0]->@*;
     my ($x, $y, $z) = ($_[1], $_[2], $_[3]);

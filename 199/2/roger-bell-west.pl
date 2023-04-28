@@ -1,8 +1,6 @@
 #!/usr/bin/env perl
 
-use strict;
-use warnings;
-use experimental 'signatures';
+use v5.36;
 
 use Test::More tests => 2;
 

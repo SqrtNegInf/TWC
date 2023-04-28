@@ -1,10 +1,6 @@
 #!/usr/bin/env perl
 
-use strict;
-use warnings;
-use feature 'say';
-use experimental 'signatures';
-
+use v5.36;
 use Algorithm::Combinatorics 'combinations';
 
 my @array = (7,2,3,3,0,1,1,9,7);

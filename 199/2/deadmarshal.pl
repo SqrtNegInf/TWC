@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-
+use v5.36;
 sub good_triplets{
   my ($A,$x,$y,$z) = @_;
   my $count = 0;

@@ -1,9 +1,6 @@
 #!/usr/bin/env perl
 
-use v5.24;
-use warnings;
-use experimental 'signatures';
-no warnings 'experimental::signatures';
+use v5.36;
 
 my ($x, $y, $z, @list) = @ARGV ? @ARGV : (7, 2, 3, 3, 0, 1, 1, 9, 7);
 say good_triplets($x, $y, $z, @list);

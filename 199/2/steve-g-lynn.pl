@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
 
-use strict;
+use v5.36;
 use Algorithm::Combinatorics qw(combinations);
 
 print &good_triplets( 7,2,3, 3,0,1,1,9,7); #4

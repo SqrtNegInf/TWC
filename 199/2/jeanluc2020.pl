@@ -1,7 +1,6 @@
 #!/usr/bin/env perl
 
-use strict;
-use warnings;
+use v5.36;
 
 my @examples = (
    [[3,0,1,1,9,7], 7, 2, 3],
