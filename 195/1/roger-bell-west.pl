@@ -1,9 +1,6 @@
 #!/usr/bin/env perl
 
-use strict;
-use warnings;
-use experimental 'signatures';
-
+use v5.36;
 use Test::More tests => 3;
 
 is(specialintegers(15), 14, 'example 1');

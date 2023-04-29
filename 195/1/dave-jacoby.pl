@@ -1,8 +1,6 @@
 #!/usr/bin/env perl
 
-use strict;
-use warnings;
-use experimental qw{ fc say postderef signatures state };
+use v5.36;
 
 my @examples = ( 15, 35, 1000 );
 for my $n (@examples) {

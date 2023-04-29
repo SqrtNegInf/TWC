@@ -1,5 +1,5 @@
 #!/usr/bin/env perl
-
+use v5.36;
 use List::MoreUtils qw(uniq);
 
 print &special_integers(15); #14

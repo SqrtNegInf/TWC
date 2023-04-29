@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-
+use v5.36;
 foreach my $input (14,15,1000) {
    print "Input $input, output " . count_specials($input) . "\n";
 }
