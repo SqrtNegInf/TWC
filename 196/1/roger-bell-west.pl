@@ -1,9 +1,6 @@
 #!/usr/bin/env perl
 
-use strict;
-use warnings;
-use experimental 'signatures';
-
+use v5.36;
 use Test::More tests => 4;
 
 is_deeply(pattern132([3, 1, 4, 2]), [1, 4, 2], 'example 1');

@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-use v5.24;
-use warnings;
-use experimental 'signatures';
-no warnings 'experimental::signatures';
+use v5.36;
 
 my @result = first_pattern132(@ARGV ? @ARGV : (3, 1, 4, 2));
 say "(@result)";

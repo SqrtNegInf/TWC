@@ -1,4 +1,5 @@
 #!/usr/bin/env perl
+use v5.36;
 my @list;
 my @testlist = ( [3,1,4,2],
 		 [1,2,3,4],

@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
 
-use strict;
+use v5.36;
 use Data::Dumper qw(Dumper);
 use Algorithm::Combinatorics qw(combinations);
 

@@ -1,8 +1,6 @@
 #!/usr/bin/env perl
 
-use strict;
-use warnings;
-use experimental qw{ fc say postderef signatures state };
+use v5.36;
 
 my @examples =
     ( [ 3, 1, 4, 2 ], [ 1, 2, 3, 4 ], [ 1, 3, 2, 4, 6, 5 ], [ 1, 3, 4, 2 ], );
