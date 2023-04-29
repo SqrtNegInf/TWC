@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-use warnings;
-use strict;
-use experimental 'signatures';
-
+use v5.36;
 sub most_frequent_even ($list) {
     my @even = grep 0 == $_ % 2, @$list;
     my %freq;

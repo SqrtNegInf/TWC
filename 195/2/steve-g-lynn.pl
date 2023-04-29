@@ -1,8 +1,8 @@
 #!/usr/bin/env perl
 
-use List::Util qw(min max);
+use v5.36;
 
-use strict;
+use List::Util qw(min max);
 
 print &most_frequent_even((1,1,2,6,2)); #2
 print "\n";

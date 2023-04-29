@@ -1,9 +1,6 @@
 #!/usr/bin/env perl
 
-use strict;
-use warnings;
-use experimental qw{ say postderef signatures state };
-
+use v5.36;
 use List::Util qw{ min max };
 
 my @examples = ( [ 1, 1, 2, 6, 2 ], [ 1, 3, 5, 7 ], [ 6, 4, 4, 6, 1 ] );

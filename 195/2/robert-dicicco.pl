@@ -1,10 +1,6 @@
 #!/usr/bin/env perl
 
-use strict;
-
-use warnings;
-
-use feature qw/say/;
+use v5.36;
 
 my @nn = ([1,1,2,6,2], [1,3,5,7], [6,4,5,6,1] );
 

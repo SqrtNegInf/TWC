@@ -1,5 +1,5 @@
 #!/usr/bin/env perl
-
+use v5.36;
 my @list = (1,1,2,6,2);
 print "(" . join(",", @list) . ") => " . smallest_even_integer(@list) . "\n";
 @list = (1,3,5,7);
