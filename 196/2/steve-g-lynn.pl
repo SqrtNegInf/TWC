@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
 
-use strict;
+use v5.36;
 
 print &range_list(1,3,4,5,7); #([3,5])
 print &range_list(1,2,3,6,7,9); #([1,3],[6,7])

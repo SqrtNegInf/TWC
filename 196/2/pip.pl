@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
 
-use strict;use warnings;use utf8;use v5.10;
+use v5.36;
 
 sub NumR {my @iary=@_;my $mult=0;my @oary=();my $i=0; # Last week, I treated output comments as to be printed.
   print '(' . sprintf("%-15s",join(',',@iary)) . ') => '; # This week, I just print input.

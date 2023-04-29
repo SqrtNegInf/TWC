@@ -1,9 +1,6 @@
 #!/usr/bin/env perl
 
-use strict;
-use warnings;
-use experimental 'signatures';
-
+use v5.36;
 use Test::More tests => 3;
 
 is_deeply(rangelist([1, 3, 4, 5, 7]), [[3, 5]], 'example 1');
