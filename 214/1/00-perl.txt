@@ -55,9 +55,6 @@ ok 7 - Example 3
 ok 8 - Example 4
 ok 9 - same
  
-===> 214/1/jaldhar-h-vyas.pl <===
-(4,S,4,6,G,S,6)
- 
 ===> 214/1/james-smith.pl <===
 ok 1
 ok 2
@@ -119,7 +116,3 @@ B,G,S,4
  
 ===> 214/1/wlmb.pl <===
 2 5 2 1 7 5 1 -> 4 Silver 4 6 Gold Silver 6
- 
-===> 214/1/zapwai.pl <===
-@scores: 12435
-@ranks : 54SBG

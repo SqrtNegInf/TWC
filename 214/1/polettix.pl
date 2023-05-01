@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-use v5.24;
-use warnings;
-use experimental 'signatures';
+use v5.36;
 
 my @rs = rank_score(@ARGV ? @ARGV : (2, 5, 2, 1, 7, 5, 1));
 say '(', join(',', @rs), ')';

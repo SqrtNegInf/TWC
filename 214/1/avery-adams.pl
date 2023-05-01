@@ -1,13 +1,11 @@
 #!/usr/bin/env perl
-
-use strict;
-use v5.24;
+use v5.36;
 
 my @A = (2,5,2,1,7,5,1);
 my @sorted = reverse sort @A;
 my %hash;
 my @table = ('G', 'S', 'B');
-my $curr;
+my $curr = 0;
 
 foreach (@sorted) {
     if ($curr <= 2) {

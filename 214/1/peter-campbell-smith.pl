@@ -1,9 +1,6 @@
 #!/usr/bin/env perl
 
-use v5.16;    # The Weekly Challenge - 2023-04-24
-use utf8;     # Week 214 task 1 - Rank score
-use strict;   # Peter Campbell Smith
-use warnings; # Blog: http://ccgi.campbellsmiths.force9.co.uk/challenge
+use v5.36;
 
 rank_score(8, 5, 7, 6, 4);
 rank_score(8, 5, 7, 6, 5, 4);
