@@ -1,6 +1,6 @@
 #!/usr/bin/env raku
-use v6;
-sub MAIN (*@scores) { say rank-score(@scores) }
+
+sub MAIN (@scores = (2,5,2,1,7,5,1)) { say rank-score(@scores) }
 
 sub rank-score (@scores) {
    state @lower = <X G S B>;

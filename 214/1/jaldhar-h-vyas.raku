@@ -1,7 +1,7 @@
 #!/usr/bin/env raku
 
 sub MAIN(
-    *@scores
+    @scores = (2,5,2,1,7,5,1)
 ) {
     @scores.classify( { $_ }, :into(my %quantities;) );
     %quantities = %quantities.keys.map({ $_ => %quantities{$_}.elems; });

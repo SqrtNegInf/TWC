@@ -1,0 +1,49 @@
+ 
+===> 214/1/arne-sommer.raku <===
+(4,S,4,6,G,S,6)
+ 
+===> 214/1/athanasius.raku <===
+Running the test suite
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ok 4 - Example 4
+ok 5 - Long tie
+1..5
+ 
+===> 214/1/jaldhar-h-vyas.raku <===
+(4,S,4,6,G,S,6)
+ 
+===> 214/1/mark-anderson.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ok 4 - 
+ok 5 - 
+ 
+===> 214/1/polettix.raku <===
+[4 S 4 6 G S 6]
+ 
+===> 214/1/roger-bell-west.raku <===
+1..4
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ok 4 - example 4
+ 
+===> 214/1/shimon-ben-avraham.raku <===
+ok 1 - Zero not allowed OK
+ok 2 - Non-integers not allowed OK
+ok 3 - Negative numbers not allowed OK
+ok 4 - Example 1 OK
+ok 5 - Example 2 OK
+ok 6 - Example 3 OK
+ok 7 - Example 4 OK
+ 
+===> 214/1/wambash.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ok 4 - 
+ok 5 - 
+1..5
