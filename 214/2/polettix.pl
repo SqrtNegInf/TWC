@@ -1,9 +1,6 @@
 #!/usr/bin/env perl
-use v5.24;
-use warnings;
-use experimental 'signatures';
+use v5.36;
 use Memoize 'memoize';
-use Data::Dumper;
 
 say collect_points(@ARGV ? @ARGV : (2, 4, 4, 3, 4, 4, 3, 3, 3, 3, 5, 3));
 
