@@ -32,7 +32,7 @@ sub removeConsecutive($i, *@numbers) {
 }
 
 sub MAIN(
-    *@numbers
+    @numbers = (2,4,3,3,3,4,5,4,2)
 ) {
     say findHighest(@numbers);
 }

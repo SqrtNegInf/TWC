@@ -1,6 +1,7 @@
 #!/usr/bin/env raku
 
-unit sub MAIN (*@numbers where @numbers.elems > 0 && all(@numbers) ~~ Numeric, :v(:$verbose));
+#unit sub MAIN (*@numbers where @numbers.elems > 0 && all(@numbers) ~~ Numeric, :v(:$verbose));
+my @numbers = (2,4,3,3,3,4,5,4,2);
 
 my $score = 0;
 my %freq;
@@ -23,7 +24,7 @@ while (@numbers.elems)
     {
       sink @numbers.splice($index, $freq);
       $score += $freq * $freq;
-      say ": Removed the value $value ($freq items, at index: $index .. { $index + $freq -1}). New score: $score" if $verbose;
+#     say ": Removed the value $value ($freq items, at index: $index .. { $index + $freq -1}). New score: $score" if $verbose;
     }
   }
 
@@ -32,7 +33,7 @@ while (@numbers.elems)
     my $val = %freq.keys.sort({ %freq{$_} }).first;
     %freq{$val}--;
     $cheat = True;
-    say ": Enable cheat mode on value $val" if $verbose;
+#   say ": Enable cheat mode on value $val" if $verbose;
   }
 }
 

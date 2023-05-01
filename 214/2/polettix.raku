@@ -1,6 +1,6 @@
 #!/usr/bin/env raku
-use v6;
-sub MAIN (*@args) { put collect-points(@args) }
+
+sub MAIN (@args = (2,4,3,3,3,4,5,4,2) ) { put collect-points(@args) }
 
 sub collect-points (@numbers) {
    return 0 unless @numbers;
