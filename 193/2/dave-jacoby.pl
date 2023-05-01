@@ -1,8 +1,6 @@
 #!/usr/bin/env perl
 
-use strict;
-use warnings;
-use experimental qw{ say postderef signatures state };
+use v5.36;
 
 my @examples = ( [ "adc", "wzy", "abc" ], [ "aaa", "bob", "ccc", "ddd" ] );
 

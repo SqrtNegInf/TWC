@@ -1,27 +1,6 @@
 #!/usr/bin/env perl
 
-=pod
-
-The Weekly Challenge - 193
- - https://theweeklychallenge.org/blog/perl-weekly-challenge-193/#TASK2
-
-Author: Niels 'PerlBoy' van Dijke
-
-Task 2: Odd String
-Submitted by: Mohammad S Anwar
-
-You are given a list of strings of same length, @s.
-
-Write a script to find the odd string in the given list. Use positional value
-of alphabet starting with 0, i.e. a = 0, b = 1, ... z = 25.
-
-Find the difference array for each string as shown in the example. Then pick 
-the odd one out.
-
-=cut
-
-use v5.16;
-use warnings;
+use v5.36;
 
 use List::MoreUtils qw(slide);
 use Test::More;

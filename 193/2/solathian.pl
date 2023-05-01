@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-use v5.32;
-use warnings;
-
-use feature 'signatures';
+use v5.36;
 no  warnings 'experimental';
 
 use Clone qw(clone);
