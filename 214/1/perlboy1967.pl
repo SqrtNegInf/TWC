@@ -1,25 +1,5 @@
 #!/usr/bin/env perl
 
-=pod
-
-The Weekly Challenge - 214
-- https://theweeklychallenge.org/blog/perl-weekly-challenge-214
-
-Author: Niels 'PerlBoy' van Dijke
-
-Task 1: Rank Score
-Submitted by: Mohammad S Anwar
-
-You are given a list of scores (>=1).
-
-Write a script to rank each score in descending order. First three will get medals
-i.e. G (Gold), S (Silver) and B (Bronze). Rest will just get the ranking number.
-
-|| Using the standard model of giving equal scores equal rank, then advancing that 
-|| number of ranks.
-
-=cut
-
 use v5.16;
 
 use common::sense;

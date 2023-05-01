@@ -3,7 +3,8 @@
 use strict;
 use v5.24;
 
-my @sorted = reverse sort @ARGV;
+my @A = (2,5,2,1,7,5,1);
+my @sorted = reverse sort @A;
 my %hash;
 my @table = ('G', 'S', 'B');
 my $curr;
@@ -17,4 +18,4 @@ foreach (@sorted) {
     $curr++;
 }
 
-say $hash{$_} for @ARGV;
+say $hash{$_} for @A;

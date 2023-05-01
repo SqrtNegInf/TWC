@@ -39,13 +39,3 @@ for my $rank_score (*rank_score_naive{CODE}, *rank_score{CODE}) {
 my @arr = map int rand 20, 1 .. 100;
 is rank_score_naive(@arr), rank_score(@arr), 'same';
 
-use Benchmark qw{ cmpthese };
-cmpthese(-3, {
-    naive     => sub { rank_score_naive(@arr) },
-    optimised => sub { rank_score(@arr) },
-});
-
-__END__
-             Rate     naive optimised
-naive      2214/s        --      -89%
-optimised 20641/s      832%        --

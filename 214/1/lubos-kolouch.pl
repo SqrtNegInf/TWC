@@ -41,4 +41,4 @@ my @test_cases = (
 for my $test_case (@test_cases) {
     is_deeply(rank_scores(@{ $test_case->{input} }), $test_case->{output});
 }
-
+done_testing();

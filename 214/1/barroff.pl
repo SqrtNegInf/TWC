@@ -1,11 +1,8 @@
-#!/usr/bin/env raku
+#!/usr/bin/env perl
 
 # Ummm, this is Perl
 
-=finish
 use v5.36;
-use strict;
-use warnings;
 
 use experimental 'switch';
 
@@ -34,7 +31,7 @@ sub rank_score (@numbers) {
 #| Run test cases
 sub main() {
 
-    use Test2::V0 qw( is plan );
+    use Test2::V0 -srand => 1; # qw( is plan );
 
     plan 4;
 

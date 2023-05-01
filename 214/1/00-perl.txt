@@ -1,0 +1,125 @@
+ 
+===> 214/1/athanasius.pl <===
+Running the test suite
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ok 4 - Example 4
+ok 5 - Long tie
+1..5
+ 
+===> 214/1/avery-adams.pl <===
+4
+S
+4
+6
+G
+S
+6
+ 
+===> 214/1/barroff.pl <===
+# Seeded srand with seed '1' from import arg.
+1..4
+ok 1 - works for (1,2,4,3,5)
+ok 2 - works for (8,5,6,7,4)
+ok 3 - works for (3,5,4,2)
+ok 4 - works for (2,5,2,1,7,5,1)
+ 
+===> 214/1/bob-lied.pl <===
+# Seeded srand with seed '1' from import arg.
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ok 4 - Example 4
+ok 5 - Gold only
+ok 6 - Two players
+1..6
+ 
+===> 214/1/cheok-yin-fung.pl <===
+1..4
+ok 1
+ok 2
+ok 3
+ok 4
+ 
+===> 214/1/e-choroba.pl <===
+# Seeded srand with seed '1' from import arg.
+1..9
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ok 4 - Example 4
+ok 5 - Example 1
+ok 6 - Example 2
+ok 7 - Example 3
+ok 8 - Example 4
+ok 9 - same
+ 
+===> 214/1/jaldhar-h-vyas.pl <===
+(4,S,4,6,G,S,6)
+ 
+===> 214/1/james-smith.pl <===
+ok 1
+ok 2
+ok 3
+ok 4
+ok 5
+ok 6
+ok 7
+ok 8
+ok 9
+ok 10
+1..10
+ 
+===> 214/1/lubos-kolouch.pl <===
+ok 1
+ok 2
+ok 3
+ok 4
+1..4
+ 
+===> 214/1/perlboy1967.pl <===
+ok 1
+ok 2
+ok 3
+ok 4
+ok 5
+ok 6
+1..6
+ 
+===> 214/1/peter-campbell-smith.pl <===
+
+Input:  8, 5, 7, 6, 4
+Output: G, 4, S, B, 5
+
+Input:   8,  5,  7,  6,  5,  4
+Output:  G, 4=,  S,  B, 4=,  6
+
+Input:   1,  2,  2,  2,  3
+Output:  5, S=, S=, S=,  G
+
+Input:     1,   12,  123, 1234, 1234,    2
+Output:    6,    4,    B,   G=,   G=,    5
+ 
+===> 214/1/polettix.pl <===
+(4,S,4,6,G,S,6)
+ 
+===> 214/1/roger-bell-west.pl <===
+1..4
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ok 4 - example 4
+ 
+===> 214/1/solathian.pl <===
+5,4,S,B,G
+G,4,B,S,5
+B,G,S,4
+4,S,4,6,G,S,6
+ 
+===> 214/1/wlmb.pl <===
+2 5 2 1 7 5 1 -> 4 Silver 4 6 Gold Silver 6
+ 
+===> 214/1/zapwai.pl <===
+@scores: 12435
+@ranks : 54SBG
