@@ -1,29 +1,8 @@
 #!/usr/bin/env perl
-use strict;
-use warnings FATAL => 'all';
+use v5.36;
+
 use Test2::V0 -srand => 1;
 use List::MoreUtils qw(uniq);
-
-=pod
-
-=head1 AUTHORS
-
-Vamsi Meenavilli
-
-=head1 DESCRIPTION
-
-     Week 194:
-
-    https://theweeklychallenge.org/blog/perl-weekly-challenge-194
-
-    Task 2: Frequency Equalizer
-    Submitted by: Mohammad S Anwar
-    You are given a string made of alphabetic characters only, a-z.
-
-    Write a script to determine whether removing only one character can make the frequency of the remaining characters
-    the same.
-
-=cut
 
 is(frequencyEqualizer('abbc'), 1, 'Test Case 1 Failed.');
 is(frequencyEqualizer('xyzyyxz'), 1, 'Test Case 2 Failed.');

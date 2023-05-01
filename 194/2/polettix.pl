@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-use v5.24;
-use warnings;
-use experimental 'signatures';
-no warnings 'experimental::signatures';
+use v5.36;
 
 @ARGV = qw< abbc xyzyyxz xzxz > unless @ARGV;
 say frequency_equalizer($_) . " -> $_" for @ARGV;

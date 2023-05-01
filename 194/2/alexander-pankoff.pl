@@ -1,11 +1,6 @@
 #!/usr/bin/env perl
 
-use strict;
-use warnings;
-use autodie;
-use feature qw'say state signatures';
-no warnings qw'experimental::signatures';
-
+use v5.36;
 use List::Util qw(reduce);
 
 use Test::More tests => 3;

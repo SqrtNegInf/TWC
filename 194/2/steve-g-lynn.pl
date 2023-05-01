@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
+use v5.36;
 
 print frequency_equalizer('abbc'),"\n"; #1
 print frequency_equalizer('xyzyyxz'),"\n"; #1 

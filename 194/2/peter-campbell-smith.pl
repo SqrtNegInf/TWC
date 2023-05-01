@@ -1,8 +1,6 @@
 #!/usr/bin/env perl
 
-use v5.28;
-use utf8;
-use warnings;
+use v5.36;
 
 my (@tests, $test, @chars, $char, %freq, $max_freq, $max_char, $good, $others_equal, $singles);
 

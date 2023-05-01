@@ -1,9 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-use experimental qw{ say postderef signatures state };
-
+use v5.36;
 my @examples = qw{ abbc xyzyyxz xzxz aaicocciaoouiacio };
 for my $e (@examples) {
     my $o = analyze($e);

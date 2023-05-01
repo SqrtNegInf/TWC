@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-use feature qw/say/;
+use v5.36;
 use List::UtilsBy qw(max_by min_by);
 
 my %seen = ();
