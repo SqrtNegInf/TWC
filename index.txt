@@ -448,8 +448,8 @@ Challenge titles and Rosetta-code correspondences (exact, and otherwise)
 213-2 Shorest Route
 214-1 Rank Score
 214-2 Collect Points
-215-1
-215-2
+215-1 Odd One Out
+215-2 Number Placement
 216-1
 216-2
 217-1
