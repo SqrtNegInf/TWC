@@ -1,11 +1,5 @@
 #!/usr/bin/env perl
-# ch-1.pl
-#
-# You are given time in the format hh:mm with one missing digit.
-# Write a script to find the highest digit between 0-9 that makes it valid time.
-
-use warnings;
-use strict;
+use v5.36;
 use Data::Dumper;
 
 my @times = (

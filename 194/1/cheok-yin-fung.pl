@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
 
-use warnings;
+use v5.36;
 
 sub dc {
     for my $d (reverse 0..9) {

@@ -1,8 +1,6 @@
 #!/usr/bin/env perl
-use v5.24;
-use warnings;
-use experimental 'signatures';
-no warnings 'experimental::signatures';
+
+use v5.36;
 
 @ARGV = qw< ?5:00 ?3:00 1?:00 2?:00 12:?5 12:5? > unless @ARGV;
 say "$_ -> ", digital_clock($_) for @ARGV;

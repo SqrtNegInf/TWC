@@ -1,10 +1,10 @@
 #!/usr/bin/env perl
 
-use v5.16;
-use warnings;
+use v5.36;
+
 use Test::More;
 
-sub highestDigit ($) {
+sub highestDigit :prototype($) {
   if ($_[0] !~ m#^[\d\?][\d\?]:[\d\?][\d\?]$# or 
      ($_[0] =~ y/?/?/) != 1) {
     return -1;

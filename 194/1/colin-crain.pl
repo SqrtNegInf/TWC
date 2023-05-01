@@ -58,15 +58,7 @@
 #       © 2022 colin crain
 ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ##
 
-
-
-use warnings;
-use strict;
-use utf8;
-use feature ":5.26";
-use feature qw(signatures);
-no warnings 'experimental::signatures';
-
+use v5.36;
 
 sub last_time ( $time ) {
 ## return the missing digit, substituted with '?', 

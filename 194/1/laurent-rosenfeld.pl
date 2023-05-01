@@ -1,8 +1,6 @@
 #!/usr/bin/env perl
 
-use strict;
-use warnings;
-use feature qw/say/;
+use v5.36;
 
 sub highest_digit  {
     my ($h, $m) = split /\:/, $_[0];
