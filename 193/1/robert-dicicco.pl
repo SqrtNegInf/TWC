@@ -1,9 +1,6 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
+use v5.36;
 use boolean;
-use feature qw/say/;
 
 my @arr = (2,3,4);
 

@@ -1,8 +1,6 @@
 #!/usr/bin/env perl
 
-use strict;
-use warnings;
-use experimental qw{ say signatures };
+use v5.36;
 
 for my $s ( 2 .. 5 ) {
     my @binaries = all_binaries($s);
