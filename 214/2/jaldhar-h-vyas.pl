@@ -34,6 +34,6 @@ sub removeConsecutive {
     return ($quantity * $quantity, @numbers);
 }
 
-my @numbers = @ARGV;
+my @numbers = (2,4,3,3,3,4,5,4,2);
 say findHighest(@numbers);
 

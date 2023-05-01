@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-# The Weekly Challenge 214
-# Task 2 Collect Points
-# a slow but workable method
+
 use v5.30.0;
 use warnings;
 use List::Util qw/max/;
