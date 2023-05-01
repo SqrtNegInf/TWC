@@ -1,5 +1,8 @@
 #!/usr/bin/env raku
 
+# Ummm, this is Perl
+
+=finish
 use v5.36;
 use strict;
 use warnings;
