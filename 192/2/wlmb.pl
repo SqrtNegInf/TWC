@@ -1,7 +1,6 @@
 #!/usr/bin/env perl
 
 use v5.36;
-
 use List::Util qw(sum reduce all);
 
 my @current=(1, 0, 5);

@@ -1,9 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-
-use warnings;
-use feature qw(say);
+use v5.36;
 use Test::More;
 
 my @TESTS = ( [ [1,0,5], 4 ], [ [0,2,0],-1], [ [0,3,0], 2 ] );

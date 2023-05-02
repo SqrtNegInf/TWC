@@ -1,9 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-use experimental qw{ say postderef signatures state };
-
+use v5.36;
 use List::Util qw{ min sum };
 
 my @input = ( [ 1, 1, 1 ], [ 1, 0, 5 ], [ 0, 2, 0 ], [ 0, 3, 0 ], );

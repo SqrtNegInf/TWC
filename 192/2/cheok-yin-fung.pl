@@ -1,6 +1,8 @@
 #!/usr/bin/env perl
 
-use v5.30.0;
+use v5.36;
+no warnings 'uninitialized';
+
 use List::Util qw/sum/;
 
 say eq_dist(@ARGV) if defined($ARGV[0]);
