@@ -1,9 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-use experimental 'signatures';
-
+use v5.36;
 use Test::More tests => 4;
 
 is(twicelargest(1, 2, 3, 4), 0, 'example 1');

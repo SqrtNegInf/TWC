@@ -1,9 +1,5 @@
 #!/usr/bin/env perl
-use v5.32;
-use warnings;
-
-use feature 'signatures';
-no  warnings 'experimental';
+use v5.36;
 
 my $enableTests = 1;
 

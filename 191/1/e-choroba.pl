@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-use warnings;
-use strict;
-use experimental qw( signatures );
-
+use v5.36;
 use constant {
     MAX => 1,
     MAX_BUT_ONE => 0,

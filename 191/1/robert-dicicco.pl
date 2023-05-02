@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-use feature qw/say/;
+use v5.36;
 use List::Util qw( max );
 
 my @arr = ([1,2,3,4],[1,2,0,5],[2,6,3,1],[4,5,2,3]);

@@ -1,5 +1,5 @@
 #!/usr/bin/env perl
-
+use v5.36;
 # Set item separator to "," for printing arrays:
 $, = ',';
 

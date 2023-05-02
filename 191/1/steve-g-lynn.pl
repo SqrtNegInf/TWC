@@ -1,4 +1,5 @@
 #!/usr/bin/env perl
+use v5.36;
 
 print &twice_largest(1,2,3,4),"\n"; #-1
 print &twice_largest(1,2,0,5),"\n"; #1

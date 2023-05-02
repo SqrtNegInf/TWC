@@ -52,13 +52,7 @@
 #
 #       © 2022 colin crain
 ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ##
-
-use warnings;
-use strict;
-use feature ":5.26";
-use feature qw(signatures);
-no warnings 'experimental::signatures';
-
+use v5.36;
 
 sub twice_as_big_as_me ( @list ) {
     return -1 if @list == 0;
