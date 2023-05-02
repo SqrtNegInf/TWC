@@ -1,9 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-use feature qw(state current_sub);
-
+use v5.36;
 use Test::More;
 use Test::Deep;
 

@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use feature qw/say/;
-
+use v5.36;
 my @result;
 my $i = 1;
 my %map = map { $i++ => $_ } 'A'..'Z';

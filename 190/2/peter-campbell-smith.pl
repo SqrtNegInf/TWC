@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-
-use v5.28;
-use warnings;
-
+use v5.36;
 my (@tests, $base, $string, $answer, %answers, $test);
 
 @tests = qw[11 1115 127 16518122051920];

@@ -1,9 +1,5 @@
 #!/usr/bin/env perl
-use v5.24;
-use warnings;
-use experimental 'signatures';
-no warnings 'experimental::signatures';
-
+use v5.36;
 # finds all ways of getting items close or separated. Each run of the
 # iterator provides an array reference with a grouping.
 my $groups_it = all_consecutive_groupings_iterator(shift // '1115');

@@ -1,9 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-
-use warnings;
-use feature qw(say);
+use v5.36;
 use Test::More;
 
 my @fib = (1,1); push @fib,$fib[-2]+$fib[-1] for 1..50;

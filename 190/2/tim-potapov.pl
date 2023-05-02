@@ -1,10 +1,7 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
+use v5.36;
 use Test::More;
 use List::Util qw( uniq );
-use v5.32;
 use Mojo::Util qw( dumper );
 
 my @mapping = (
