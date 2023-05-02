@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-
+use v5.36;
 use Algorithm::Permute qw(permute);
 
 print &cute_list(8),"\n"; #2

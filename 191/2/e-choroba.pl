@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-use warnings;
-use strict;
-use experimental qw( signatures );
-
+use v5.36;
 use Memoize;
 
 memoize('_cute_list', NORMALIZER => sub { "$_[0] @{ $_[1] }" });
