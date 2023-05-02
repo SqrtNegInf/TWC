@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-use warnings;
-use strict;
-use experimental 'signatures';
+use v5.36;
 
 sub binary_flip ($n) { ~ $n & (2 ** (log ($n) / log 2) - 1) }
 

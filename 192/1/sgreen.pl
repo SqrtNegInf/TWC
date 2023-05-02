@@ -1,10 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-use feature 'say';
-use experimental 'signatures';
-
+use v5.36;
 sub main ($n) {
     # Find the first power of two greater than n
     my $p = 1;

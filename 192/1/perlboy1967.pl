@@ -1,16 +1,14 @@
 #!/usr/bin/env perl
 
-use v5.16;
-use warnings;
-
+use v5.36;
 use Test::More;
 
 
-sub binaryFlipString ($) {
+sub binaryFlipString {
   return oct('0b'.sprintf('%b',$_[0]) =~ tr/01/10/r);
 }
 
-sub binaryFlipBinary ($) {
+sub binaryFlipBinary {
   my ($i,$m) = ($_[0],0);
 
   # Create bitmask for 'AND' in 'return'

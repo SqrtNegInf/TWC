@@ -1,7 +1,7 @@
 #!/usr/bin/env perl
 use v5.36;
 
-no warnings;
+no warnings; # Binary number > 0b11111111111111111111111111111111 non-portable at 192/1/adam-russell.pl line 19.
 
 sub int2bits{
     my($n) = @_;

@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
 
-use v5.30.0;
+use v5.36;
 
 #say bf($ARGV[0]) if defined($ARGV[0]);
 
