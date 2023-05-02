@@ -1,5 +1,5 @@
 #!/usr/bin/env perl
-
+use v5.36;
 printf("Perl %d\n", Verifica("Perl"));
 printf("TPF %d\n", Verifica("TPF"));
 printf("PyThon %d\n", Verifica("PyThon"));

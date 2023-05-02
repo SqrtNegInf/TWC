@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use feature qw/say/;
-
+use v5.36;
 sub is_correct_case {
     my $str = shift;
     # All lowercase or all uppercase:

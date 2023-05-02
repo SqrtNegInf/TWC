@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
 
-use v5.30.0;
+use v5.36;
 
 my $c1 = '^[A-Z][a-z]*$';
 my $c2 = '^[a-z]+$';

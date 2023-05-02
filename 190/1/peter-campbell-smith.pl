@@ -1,7 +1,6 @@
 #!/usr/bin/env perl
 
-use v5.28;
-use warnings;
+use v5.36;
 
 my (@tests, $test);
 
