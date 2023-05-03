@@ -1,10 +1,6 @@
 #!/usr/bin/env perl
 
-use v5.28;
-use utf8;
-use warnings;
-binmode(STDOUT, ':utf8');
-
+use v5.36;
 my (@days_in_month, @tests, $test, $j, $day, $month, @day_of_year, 
 	$start_together, $end_together, $time_together);
 

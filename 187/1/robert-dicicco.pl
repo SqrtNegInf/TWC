@@ -1,10 +1,8 @@
 #!/usr/bin/env perl
 
-use strict;
-use warnings;
+use v5.36;
 use Date::Range;
 use Date::Simple qw/date today/;
-use feature qw/say/;
 
 my @dates = qw/2022-01-12 2022-01-20 2022-01-15 2022-01-18
                2022-03-02 2022-03-12 2022-03-13 2022-03-14

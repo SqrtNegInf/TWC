@@ -1,12 +1,10 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use v5.30.0;
-no warnings;
-
-if ($ARGV[0] ne "") {
-    say days_tgt({"SD"=>"".$ARGV[0], "ED"=>"".$ARGV[1]},
-                 {"SD"=>"".$ARGV[2], "ED"=>"".$ARGV[3]});
-}
+#if ($ARGV[0] ne "") {
+#    say days_tgt({"SD"=>"".$ARGV[0], "ED"=>"".$ARGV[1]},
+#                 {"SD"=>"".$ARGV[2], "ED"=>"".$ARGV[3]});
+#}
 
 sub days_tgt {
     my %foo = $_[0]->%*;

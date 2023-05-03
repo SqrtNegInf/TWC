@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-
+use v5.36;
 use Date::Calc qw(Delta_Days);
 
 print &days_together('12-01','20-01','15-01','18-01'),"\n";

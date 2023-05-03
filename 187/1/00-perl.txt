@@ -133,11 +133,6 @@ ok 4 - Example 4
 1..4
  
 ===> 187/1/perlboy1967.pl <===
-ok 1
-ok 2
-ok 3
-ok 4
-1..4
  
 ===> 187/1/peter-campbell-smith.pl <===
 

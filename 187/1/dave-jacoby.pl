@@ -1,9 +1,6 @@
 #!/usr/bin/env perl
 
-use strict;
-use warnings;
-use experimental qw{ fc say postderef signatures state };
-
+use v5.36;
 use DateTime;
 
 # I added a bunch of additional test cases to be sure of the

@@ -1,14 +1,13 @@
 #!/usr/bin/env perl
 
-use v5.16;
-use warnings;
+use v5.36;
 
 use Date::Simple qw(ymd);
 use Date::Range;
 
 use Test::More;
 
-sub daysTogether ($$$$) {
+sub daysTogether {
   # Use 2022 as this not a leap year
   my @d = map { ymd(2022, reverse split /-/, $_) } @_;
   my @r = map { Date::Range->new(shift @d,shift @d) } (1,2);
