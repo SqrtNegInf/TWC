@@ -1,12 +1,5 @@
 #!/usr/bin/env perl
-package challenge188::ch2;
-
-use strict;
-use warnings;
-use autodie;
-use feature qw'say state signatures';
-no warnings qw'experimental::signatures';
-
+use v5.36;
 use constant DEBUG => $ENV{DEBUG} // 0;
 
 run() unless caller();

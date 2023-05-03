@@ -76,16 +76,7 @@
 #       © 2022 colin crain
 ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ##
 
-
-
-use warnings;
-use strict;
-use utf8;
-use feature ":5.26";
-use feature qw(signatures);
-no warnings 'experimental::signatures';
-
-
+use v5.36;
 
 sub count_to_zero ( $x, $y, $count = 0 ) {    
     while ( ($x != 0 and $y != 0)  and ++$count ) {

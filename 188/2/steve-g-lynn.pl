@@ -1,4 +1,5 @@
 #!/usr/bin/env perl
+use v5.36;
 
 print &total_zero(5,4),"\n"; #5
 print &total_zero(6,4),"\n"; #3

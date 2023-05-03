@@ -1,5 +1,5 @@
 #!/usr/bin/env perl
-
+use v5.36;
 use Test::More;
 
 is total_zero(5, 4), 5, 'example 1';

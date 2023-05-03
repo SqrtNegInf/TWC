@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-
+use v5.36;
 my @x = (5,4,2,3,7);
 my @y = (4,6,5,1,4);
 my ($count, $i);

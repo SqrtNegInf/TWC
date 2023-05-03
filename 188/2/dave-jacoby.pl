@@ -1,9 +1,6 @@
 #!/usr/bin/env perl
 
-use strict;
-use warnings;
-use experimental qw{ say postderef signatures state };
-
+use v5.36;
 use Carp;
 
 my @input = ( [ 5, 4 ], [ 4, 6 ], [ 2, 5 ], [ 3, 1 ], [ 7, 4 ], );

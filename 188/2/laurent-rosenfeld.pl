@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use feature qw/say/;
-
+use v5.36;
 sub to_zero  {
     my ($x, $y) = @_;
     return $x >= $y ? ($x - $y, $y) : ($x, $y - $x);

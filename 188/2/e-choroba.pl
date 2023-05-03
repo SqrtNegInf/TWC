@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-use warnings;
-use strict;
-use experimental qw( signatures );
-
+use v5.36;
 sub total_zero_naive ($x, $y) {
     my $count = 0;
     until ($x == 0 || $y == 0) {

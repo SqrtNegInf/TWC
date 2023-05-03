@@ -1,9 +1,6 @@
 #!/usr/bin/env perl
 
-use strict;
-use warnings;
-use feature qw/say/;
-
+use v5.36;
 my @given = ([5,4], [4,6], [2,5], [3,1], [7,4]);
 my $step;
 

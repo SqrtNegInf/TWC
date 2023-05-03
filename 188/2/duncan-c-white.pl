@@ -1,11 +1,6 @@
 #!/usr/bin/env perl
 
-use strict;
-use warnings;
-use feature 'say';
-use Getopt::Long;
-use Data::Dumper;
-
+use v5.36;
 
 my( $x, $y ) = (4,6);
 

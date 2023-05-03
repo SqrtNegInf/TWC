@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-
+use v5.36;
 sub total_zero{
   my ($x, $y) = @_;
   my $c = 0;
