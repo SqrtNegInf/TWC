@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use utf8;
+use v5.36;
 use Unicode::Normalize; # 'NKFD'
 use Encode 'encode';
 

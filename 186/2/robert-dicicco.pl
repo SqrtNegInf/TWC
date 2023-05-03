@@ -1,8 +1,7 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use Text::Unidecode;
+use v5.36;
 use utf8;
+use Text::Unidecode;
 
 my @arr = ("ÃÊÍÒÙ", "âÊíÒÙ");
 

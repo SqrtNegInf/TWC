@@ -1,10 +1,7 @@
 #!/usr/bin/env perl
-use v5.24;
-use warnings;
-use experimental 'signatures';
-no warnings 'experimental::signatures';
-use Unicode::UCD 'charinfo';
+use v5.36;
 use utf8;
+use Unicode::UCD 'charinfo';
 
 say makeover('âÊíÒÙ whatever123 ÃÊÍÒÙ');
 

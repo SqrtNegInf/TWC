@@ -1,13 +1,5 @@
 #! /usr/bin/env perl
-
-use strict;
-use warnings;
-use utf8;
-use feature 'say';
-use feature 'unicode_strings';
-use feature 'signatures';
-no warnings 'experimental::signatures';
-
+use v5.36;
 use Unicode::Normalize;
 
 say makeover('ÃÊÍÒÙ');

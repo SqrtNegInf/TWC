@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
+use v5.36;
 use English;
 
 # Make sure UTF-8 is handled correctly

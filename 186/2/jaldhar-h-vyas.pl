@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-use 5.030;
-use warnings;
+use v5.36;
 use utf8;
 use Unicode::Normalize qw/ normalize /;
 

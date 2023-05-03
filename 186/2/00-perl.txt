@@ -1,7 +1,7 @@
  
 ===> 186/2/arne-sommer.pl <===
-AEIOU
-aEiOU
+AƒAŠAA’A™
+A¢AŠA­A’A™
  
 ===> 186/2/athanasius.pl <===
 
@@ -80,8 +80,8 @@ ok 3 - composed, decomposed, unmodified and non-ascii chars
 1..3
  
 ===> 186/2/julien-fiegehenn.pl <===
-ok 1 - first example
-ok 2 - second example
+not ok 1 - first example
+not ok 2 - second example
 1..2
  
 ===> 186/2/kjetillll.pl <===
