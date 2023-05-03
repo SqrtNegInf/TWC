@@ -1,4 +1,5 @@
 #!/usr/bin/env perl
+use v5.36;
 
 sub divisible_pairs {
     my @list = $_[0]->@*;

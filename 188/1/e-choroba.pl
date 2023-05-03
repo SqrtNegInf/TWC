@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-
-use warnings;
-use strict;
-use experimental 'signatures';
+use v5.36;
 
 sub divisible_pairs ($list, $k) {
     my $found = 0;

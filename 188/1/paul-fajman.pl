@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-
+use v5.36;
 my @sets = ( [4,5,1,6], [1,2,3,4], [1,3,4,5], [5,1,2,3],[7,2,4,5] );
 my @divisors = (2,2,3,4,4);
 my @list;

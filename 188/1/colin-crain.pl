@@ -51,13 +51,7 @@
 #         
 #       © 2022 colin crain
 ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ##
-
-use warnings;
-use strict;
-use utf8;
-use feature ":5.26";
-use feature qw(signatures);
-no warnings 'experimental::signatures';
+use v5.36;
 
 sub count_index_pairs( $arr, $div, $count = 0) {
     for my $i ( 0..$arr->$#* - 1) {

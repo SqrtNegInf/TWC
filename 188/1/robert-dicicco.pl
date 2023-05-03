@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use feature qw/say/;
-
+use v5.36;
 use Algorithm::Permute;
 use List::Util qw/uniq/;
 

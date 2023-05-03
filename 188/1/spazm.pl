@@ -1,5 +1,5 @@
 #!/usr/bin/env perl
-use v5.30.0;
+use v5.36;
 
 sub count_matching_pairs
 {
@@ -34,6 +34,6 @@ my $test_data = [
 for my $test (@$test_data)
 {
     my ( $in, $k, $expected ) = @$test;
-    is count_matching_pairs( $in, length(@$in), $k ), $expected;
+    is count_matching_pairs( $in, length( scalar @$in ), $k ), $expected;  # added 'scalar' as per 5.36 warning
 }
 done_testing;
