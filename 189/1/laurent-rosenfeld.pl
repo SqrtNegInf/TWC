@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use feature qw/say/;
+use v5.36;
 
 sub greater_char  {
     my @eligible_input = grep { $_ gt $_[0]} @{$_[1]};

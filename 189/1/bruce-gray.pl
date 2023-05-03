@@ -1,5 +1,4 @@
 #!/usr/bin/env perl
-# http://blogs.perl.org/users/bruce_gray/2022/11/twc-189-saving-your-degree-by-great-character.html
 
 use v5.36;
 use List::Util qw<minstr>;

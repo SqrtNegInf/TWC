@@ -1,5 +1,4 @@
 #!/usr/bin/env perl
-# mangled for brevity
 
 use v5.36;
 use List::Util 'reduce';

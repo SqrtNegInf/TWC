@@ -1,9 +1,6 @@
 #!/usr/bin/env perl
 
-use strict;
-use warnings;
-use experimental 'signatures';
-
+use v5.36;
 use Test::More tests => 5;
 
 is(greatercharacter(['e', 'm', 'u', 'g'], 'b'), 'e', 'example 1');
