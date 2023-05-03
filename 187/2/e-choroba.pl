@@ -1,11 +1,7 @@
 #!/usr/bin/env perl
+use v5.36;
 
 srand 1;
-
-use warnings;
-use strict;
-use feature qw{ say };
-use experimental 'signatures';
 
 sub magical_triplets (@n) {
     @n = sort { $b <=> $a } @n;

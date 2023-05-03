@@ -1,11 +1,8 @@
 #!/usr/bin/env perl
 
+use v5.36;
 srand 1;
 
-use v5.28;
-use utf8;
-use warnings;
-binmode(STDOUT, ':utf8');
 use Algorithm::Combinatorics qw[variations];
 
 my (@tests, $test, $iter, $triplet, $sum, $max, @triplet, @results, $r, $j, @rand, @this);

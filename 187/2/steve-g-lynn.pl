@@ -1,5 +1,5 @@
 #!/usr/bin/env perl
-
+use v5.36;
 use List::Util qw(sum);
 
 &print_list(&magical_triplet(1,2,3,2));
@@ -20,7 +20,7 @@ sub magical_triplet(@n){
     
 
     #-- find the three biggest elements (Their sum is max)
-    my @candidate = (sort {$b <=> $a} @_)[0 .. 2];
+    my @candidate = (sort {$b <=> $a} @n)[0 .. 2];
     
     #-- test if any element is >= than the sum of the other two
     my $sum=sum @candidate;
