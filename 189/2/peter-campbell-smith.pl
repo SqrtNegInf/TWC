@@ -1,9 +1,6 @@
 #!/usr/bin/env perl
 
-use v5.28;
-use warnings;
-
-# Blog: https://pjcs-pwc.blogspot.com/2022/10/the-smallest-greater-and-shortest-slice.html 
+use v5.36;
 
 my (@tests, $test, @array, $degree, $size, $start, $slice_degree, @slice, $found);
 

@@ -1,8 +1,6 @@
 #!/usr/bin/env perl
 
-use v5.30;
-use experimental qw/signatures/;
-
+use v5.36;
 sub array_degree (@input)
 {
     my %cnt;

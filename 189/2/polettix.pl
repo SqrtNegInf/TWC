@@ -1,9 +1,6 @@
 #!/usr/bin/env perl
 
-use v5.24;
-use warnings;
-use experimental 'signatures';
-no warnings 'experimental::signatures';
+use v5.36;
 
 my @array = @ARGV ? @ARGV : qw< 2 1 2 1 1 > ;
 my $ad = array_degree(\@array);

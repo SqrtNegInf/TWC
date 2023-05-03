@@ -1,10 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-
-use feature qw(say signatures);
-no warnings qw(experimental);
-
+use v5.36;
 my $testsEnabled = 1;
 
 sub getMaxDegree(@array)

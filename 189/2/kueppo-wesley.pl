@@ -1,10 +1,8 @@
 #!/usr/bin/env perl
 
-use strict;
-use warnings;
+use v5.36;
 use experimental qw/for_list/;
 use builtin      qw/indexed/;
-
 no warnings 'experimental::builtin';
 
 use Test::More;

@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
+use v5.36;
 use Test::More;
 use List::Util      qw( max );
 use List::MoreUtils qw( first_index last_index );
