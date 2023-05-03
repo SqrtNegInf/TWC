@@ -1,9 +1,7 @@
 #!/usr/bin/env perl
-use strict;
-
-use warnings;
-use feature qw(say);
+use v5.36;
 use Test::More;
+
 #use Benchmark qw(cmpthese timethis);
 #use Data::Dumper qw(Dumper);
 
@@ -17,7 +15,7 @@ use Test::More;
 ## we loop through 1 and use a pointer to loop through the
 ## other.
 
-sub zip (\@\@) {
+sub zip :prototype(\@\@) {
   my $c = 0;
   map { $_, $_[1][$c++] } @{$_[0]}
 }
@@ -29,7 +27,7 @@ sub zip (\@\@) {
 ##
 ## Good as it is a single line...
 
-sub zipt (\@\@) {
+sub zipt :prototype(\@\@) {
   map { $_[0][$_], $_[1][$_] } 0..@{$_[0]}-1;
 }
 
@@ -41,7 +39,7 @@ sub zipt (\@\@) {
 ## Here we abuse @_ to store the array - to avoid a `my`
 ## but it also means `shift @array` becomes just `shift`.
 
-sub zipx (\@\@) {
+sub zipx :prototype(\@\@) {
   local($_,@_)=(shift,@{shift()});
   map{$_,shift}@$_
 }

@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
+use v5.36;
 use List::Util 'max';
 
 # this only works with exactly two array references

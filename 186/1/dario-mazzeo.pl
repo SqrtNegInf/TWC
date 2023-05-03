@@ -1,4 +1,5 @@
 #!/usr/bin/env perl
+use v5.36;
 
 my @a = (1, 2, 3);
 my @b = ('a', 'b', 'c');

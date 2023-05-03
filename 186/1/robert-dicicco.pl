@@ -1,9 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-use feature qw/say/;
-
+use v5.36;
 my @a = qw/1 2 3/;
 my @b = qw/a b c /;
 

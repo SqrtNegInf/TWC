@@ -1,8 +1,7 @@
 #!/usr/bin/env perl
 
-use v5.16;
+use v5.36;
 use Test2::V0 -srand => 1;
-use experimental 'postderef';
 
 our ($tests, $examples) = (1,1);
 
@@ -23,7 +22,7 @@ ARR ...
 EOS
 
 
-sub zip (\@\@;\@\@\@\@\@\@);
+#sub zip (\@\@;\@\@\@\@\@\@);
 
 
 ### Input and Output
@@ -58,7 +57,7 @@ say "@{[map $_ // 'undef', &zip(map [split /,/, $_], @ARGV)]}";
 # \@\@;\@\@\@\@\@\@\@\@\@\@\@\@\@\@\@\@\@\@\@\@\@\@\@\@\@\@\@\@\@\@
 # to a maximum of eight given arrays.
 #
-sub zip (\@\@;\@\@\@\@\@\@) {
+sub zip :prototype(\@\@;\@\@\@\@\@\@) {
     # For each of the first array's indices build a list of elements
     # from all given arrays at the selected index and concatenate these.
     map {my $i = $_; (map $_->[$i], @_)} 0 .. $_[0]->$#*;

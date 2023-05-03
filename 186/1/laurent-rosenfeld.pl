@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use feature qw/say/;
-
+use v5.36;
 sub zip  {
     my @c = @{$_[0]};
     my @d = @{$_[1]};

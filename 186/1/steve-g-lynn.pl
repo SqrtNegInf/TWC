@@ -1,5 +1,5 @@
 #!/usr/bin/env perl
-
+use v5.36;
 my @c = zip([1,2,3],['a','b','c']);
 print "@c\n";
 
