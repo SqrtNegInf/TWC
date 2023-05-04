@@ -1,9 +1,8 @@
 #!/usr/bin/env perl
+use v5.36;
 
 my $n=47;
 print NumeroInTesto($n);
-exit;
-
 
 sub NumeroInTesto{
 	my $n=$_[0];
@@ -43,7 +42,7 @@ sub NumeroInTesto{
 		elsif ($n1==8){$str="ottanta";}
 		elsif ($n1==9){$str="novanta";}
 		
-		my $str=$str.(NumeroInTesto(substr($n,1,1)));
+		$str=$str.(NumeroInTesto(substr($n,1,1)));
 		$str=~s/[ia]([uo])/$1/;
 		return $str;
 	}

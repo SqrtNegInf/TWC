@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
-
 use v5.36;
+
 use experimental qw(try);
 use POSIX qw(floor);
 my (%ordinals, %cardinals);
