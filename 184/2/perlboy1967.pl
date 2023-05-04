@@ -1,13 +1,11 @@
 #!/usr/bin/env perl
-
-use v5.16;
-use warnings;
+use v5.36;
 
 use Test::More;
 use Test::Deep qw(cmp_deeply);
 
 
-sub splitArray (@) {
+sub splitArray {
   my ($n,$a);
 
   for (@_) {

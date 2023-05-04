@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-use v5.24;
-use warnings;
-use experimental 'signatures';
-no warnings 'experimental::signatures';
+use v5.36;
 use Data::Dumper;
 
 my @l = ('1 2', 'p q r', 's 3', '4 5 t');

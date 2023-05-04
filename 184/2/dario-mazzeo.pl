@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-# THE WEEKLY CHALLENGE - 184
-# Task 2: Split Array
-# Autore: Dario Mazzeo
+use v5.36;
 
 my @list = ( 'a 1 2 b 0', '3 c 4 d');
 

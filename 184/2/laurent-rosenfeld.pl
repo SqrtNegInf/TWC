@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use feature qw/say/;
+use v5.36;
 
 for my $test (['a 1 2 b 0', '3 c 4 d'], ['1 2', 'p q r', 's 3', '4 5 t']) {
     my (@letters, @digits);

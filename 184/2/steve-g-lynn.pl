@@ -1,4 +1,5 @@
 #!/usr/bin/env perl
+use v5.36;
 
 my @list=('a 1 2 b 0', '3 c 4 d');
 

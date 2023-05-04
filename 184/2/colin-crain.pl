@@ -48,15 +48,7 @@
 #       © 2022 colin crain
 ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ##
 
-
-
-use warnings;
-use strict;
-use utf8;
-use feature ":5.26";
-use feature qw(signatures);
-no warnings 'experimental::signatures';
-
+use v5.36;
 
 # my @list = ( 'a 1 2 b 0', '3 c 4 d');
 my @list = ( '1 2', 'p q r', 's 3', '4 5 t');

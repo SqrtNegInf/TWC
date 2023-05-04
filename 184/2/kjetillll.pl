@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-#https://theweeklychallenge.org/blog/perl-weekly-challenge-184/
-#run like: perl ch-2.pl '1 2' 'p q r' 's 3' '4 5 t'
-
+use v5.36;
 
 my @inp = @ARGV ? @ARGV                       #input strings from command line
         : ('1 2', 'p q r', 's 3', '4 5 t');   #else use example data
