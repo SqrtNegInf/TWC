@@ -85,13 +85,7 @@
 
 
 
-use warnings;
-use strict;
-use utf8;
-use feature ":5.26";
-use feature qw(signatures);
-no warnings 'experimental::signatures';
-use open ':std', ':encoding(UTF-8)';
+use v5.36;
 
 use List::MoreUtils qw( minmax );
 

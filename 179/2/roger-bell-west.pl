@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-use experimental 'signatures';
+use v5.36;
 
 use utf8;
 use List::Util qw(min max);

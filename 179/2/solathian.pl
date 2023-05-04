@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-
-# Created for perl weekly challenge - 179
-use strict;
-use warnings;
+use v5.36;
 
 use Math::Round;
 

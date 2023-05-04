@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-use v5.24;
-use warnings;
-use experimental 'signatures';
-no warnings 'experimental::signatures';
+use v5.36;
 
 my @n = @ARGV ? @ARGV : qw<  2 3 4 5 6 7 8 9 8 7 6 5 4 3 2  >;
 binmode STDOUT, ':encoding(UTF-8)';

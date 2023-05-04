@@ -1,7 +1,6 @@
 #!/usr/bin/env perl
-# The Weekly Challenge 179
-# Task 2 Unicode Sparkline
-use v5.30.0;
+use v5.36;
+
 use List::Util qw/max min uniq/;
 use POSIX;
 binmode(STDOUT, ":utf8");

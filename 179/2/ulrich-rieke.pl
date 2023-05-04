@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-use strict ;
-use warnings ;
-use feature 'say' ;
+use v5.36;
 use feature 'unicode_strings' ;
 use List::Util qw ( min max ) ;
 use open ":std", ":encoding(UTF-8)";

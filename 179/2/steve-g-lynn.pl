@@ -1,4 +1,5 @@
 #!/usr/bin/env perl
+use v5.36;
 
 use utf8;
 binmode(STDOUT, ':utf8');

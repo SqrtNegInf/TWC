@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use feature qw/say/;
+use v5.36;
 
 binmode(STDOUT, ":utf8");
 my @bars = map chr, 0x2581 .. 0x2588;
