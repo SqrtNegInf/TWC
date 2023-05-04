@@ -1,9 +1,6 @@
 #!/usr/bin/env perl
 
-use v5.28;
-use utf8;
-use warnings;
-
+use v5.36;
 my (@lists, @list, $separator, $list_ref, $item, $signature, @new_list, %seen);
 
 # inputs

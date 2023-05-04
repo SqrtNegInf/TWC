@@ -1,8 +1,6 @@
 #!/usr/bin/env perl
 
-use v5.16;
-use warnings;
-
+use v5.36;
 use Test::More;
 use Test::Deep qw(cmp_deeply);
 
@@ -14,7 +12,7 @@ use Data::Compare qw();
 # Description: Returns a unique list regardlessly list element types
 # Name: Universal uniq => 'uuniq'
 ####################################################################
-sub uuniq (@) {
+sub uuniq {
   my @r;
   map {
     my $r = $_;

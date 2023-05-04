@@ -1,9 +1,5 @@
 #!/usr/bin/env perl
-use v5.24;
-use warnings;
-use experimental 'signatures';
-no warnings 'experimental::signatures';
-
+use v5.36;
 use JSON::PP;
 
 my @list = ([1,2], [3,4], [5,6], [1,2]);
