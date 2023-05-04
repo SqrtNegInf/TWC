@@ -1,12 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-use feature 'say';
-use v5.20;
-
-use feature 'signatures';
-no warnings 'experimental::signatures';
+use v5.36;
 
 my @list1 = ('ab1234', 'cd5678', 'ef1342');
 my @list2 = ('pq1122', 'rs3334');

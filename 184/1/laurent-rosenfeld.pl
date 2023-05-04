@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use feature qw/say/;
+use v5.36;
 
 for my $test ([<ab1234 cd5678 ef1342>], [<pq1122 rs3334>]) {
     my $i = 0;

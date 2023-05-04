@@ -1,5 +1,7 @@
 #!/usr/bin/env perl
 
+use v5.36;
+
 my @list = ( 'ab1234', 'cd5678', 'ef1342');
 
 my $seq=0;

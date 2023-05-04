@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-use warnings;
-use strict;
-use experimental qw( signatures );
+use v5.36;
 
 sub sequence_number ($list) {
     die "Not enough digit combinations.\n" if @$list > 100;

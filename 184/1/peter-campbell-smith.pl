@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-
-use v5.28;
-use utf8;
-use warnings;
+use v5.36;
 
 my (@lists, $list_ref, @list, $old_show, $new_show, $j);
 

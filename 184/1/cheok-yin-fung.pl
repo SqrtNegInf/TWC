@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-
-use v5.30.0;
-use warnings;
+use v5.36;
 
 sub two_digits {
     return $_[0] if length $_[0] == 2;
