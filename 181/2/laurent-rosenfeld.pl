@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use feature qw/say/;
+use v5.36;
 
 my @daily_temps;
 my $file_in = "./temperature.txt";

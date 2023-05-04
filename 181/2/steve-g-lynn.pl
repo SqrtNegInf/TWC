@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
-
-use strict;
+use v5.36;
+no warnings 'uninitialized';
 use Date::Manip;
 
 open TEMPERATURE, "temperature.txt" || die "TEMPERATURE:$!\n";

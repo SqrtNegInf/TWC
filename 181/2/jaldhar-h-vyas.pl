@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-use 5.030;
-use warnings;
+use v5.36;
 use English;
 
 open my $fh, '<', 'temperature.txt' or die "$OS_ERROR\n";

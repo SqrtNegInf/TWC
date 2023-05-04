@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-
-use v5.30.0;
-use warnings;
+use v5.36;
 use Date::Simple qw/:all/;
 
 my $base_d = date('1900-01-01');

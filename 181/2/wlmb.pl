@@ -1,8 +1,4 @@
 #!/usr/bin/env perl
-# Perl weekly challenge 181
-# Task 2: Hot day
-#
-# See https://wlmb.github.io/2022/09/05/PWC181/#task-2-hot-day
 use v5.36;
 use List::MoreUtils qw(pairwise);
 use Date::Parse;
