@@ -1,4 +1,5 @@
 #!/usr/bin/env perl
+use v5.36;
 
 my @in = ("/a/b/c/1/x.pl", "/a/b/c/d/e/2/x.pl", "/a/b/c/d/3/x.pl", "/a/b/c/4/x.pl", "/a/b/c/d/5/x.pl");
 

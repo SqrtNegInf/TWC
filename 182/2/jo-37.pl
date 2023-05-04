@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-
-use v5.16;
+use v5.36;
 use Test2::V0 -srand => 1;
 use List::Util 'reduce';
 

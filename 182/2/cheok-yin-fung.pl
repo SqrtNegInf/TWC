@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-
-use v5.30.0;
+use v5.36;
 use List::Util qw/all/;
 
 my @files = qw{

@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-use strict ;
-use warnings ;
-use feature 'say' ;
-
+use v5.36;
 open ( my $fh , '< paths.txt' ) or die "Can't open inputfiles.txt !\n" ;
 my @input ;
 while ( my $line = <$fh> ) {

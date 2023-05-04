@@ -1,12 +1,6 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-use feature 'say';
+use v5.36;
 use File::Slurp;
-use feature 'signatures';
-
-no warnings 'experimental::signatures';
 
 my $file  = shift(@ARGV) || "paths.txt";
 my @paths = read_file($file);

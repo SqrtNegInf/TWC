@@ -1,12 +1,7 @@
 #!/usr/bin/env perl
+use v5.36; # use new bit-wise operator
 
-use strict;
-
-use warnings;
-use feature qw(say);
 use Test::More;
-use Benchmark qw(cmpthese timethis);
-use Data::Dumper qw(Dumper);
 
 my @TESTS = (
   [ [qw(/a/b/c/1/x.pl /a/b/c/d/e/2/x.pl /a/b/c/d/3/x.pl /a/b/c/4/x.pl /a/b/c/d/5/x.pl)], '/a/b/c' ],
@@ -30,7 +25,7 @@ done_testing();
 sub common_path {
   my $l = shift;
   ## Compute the common string....
-  $l = substr $l, 0, length( (($_^$l) =~ m{^(\0+)})[0]) for @_;
+  $l = substr $l, 0, length( (($_ ^. $l) =~ m{^(\0+)})[0]) for @_;
   ## Remove the trailing "/"s
   $l=~m{/} ? substr $l, 0, rindex $l, '/' : ''
 }

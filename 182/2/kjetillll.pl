@@ -1,5 +1,6 @@
 #!/usr/bin/env perl
-use List::Util qw(max uniq); use v5.10; use warnings; use strict;
+use v5.36;
+use List::Util qw(max uniq);
 
 my @paths = map s/\n//r, <DATA>;
 

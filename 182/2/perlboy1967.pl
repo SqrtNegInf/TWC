@@ -1,7 +1,6 @@
 #!/usr/bin/env perl
 
-use v5.16;
-use warnings;
+use v5.36;
 
 use List::Util qw(uniq);
 use List::MoreUtils qw(each_arrayref);
@@ -15,7 +14,7 @@ my @l = qw(
 );
 
 
-sub commonPath (@) {
+sub commonPath {
 
   my (@c,@s);
 

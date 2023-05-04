@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-
-use v5.28;
-use utf8;
-use warnings;
+use v5.36;
 
 common_folder(
  qw[/a/b/c/1/x.pl
