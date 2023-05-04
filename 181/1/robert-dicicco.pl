@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
+use v5.36;
 use Lingua::EN::Sentence qw/get_sentences/;
 
 my $text = q{

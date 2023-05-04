@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
-
 use v5.36;
+
 use Text::Wrap qw(wrap $columns $break);
 $columns=62; $break=qr/\s/;
 local $/ = ""; # paragraph mode

@@ -1,11 +1,9 @@
 #!/usr/bin/env perl
-
-use v5.16;
-use warnings;
+use v5.36;
 
 use Data::Printer;
 
-sub reorderWords ($) {
+sub reorderWords {
   my ($s) = @_;
 
   my @w = grep /\S/, sort { uc$a cmp uc$b || $a cmp $b } split /[\s\.]+/, $s;
@@ -14,7 +12,7 @@ sub reorderWords ($) {
   return $s;
 }
 
-sub sentenceOrder ($) {
+sub sentenceOrder {
   my ($s) = @_;
 
   $s =~ s/(.+?\.)/reorderWords($1)/egsm;

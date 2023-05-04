@@ -1,4 +1,5 @@
 #!/usr/bin/env perl
+use v5.36;
 
  my $testo="All he could think about was how it would all end. There was
  still a bit of uncertainty in the equation, but the basics

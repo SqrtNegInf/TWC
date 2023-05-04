@@ -1,9 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-
-use experimental 'signatures';
+use v5.36;
 
 saywrap(reorder("
 All he could think about was how it would all end. There was

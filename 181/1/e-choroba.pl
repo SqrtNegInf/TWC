@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-use warnings;
-use strict;
-use experimental 'signatures';
+use v5.36;
 
 use constant WIDTH => 59;  # Anything up to 63 works.
 
