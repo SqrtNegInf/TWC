@@ -1,4 +1,5 @@
 #!/usr/bin/env perl
+use v5.36;
 
 print &mac('1ac2.34f0.b1c2'),"\n";
 print &mac('abc1.20f1.345a'),"\n"; 

@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-package main;
-use strict;
-use warnings;
-
+use v5.36;
 sub convert_mac {
     my $what = shift;
 

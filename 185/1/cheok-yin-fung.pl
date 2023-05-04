@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-
-use v5.30.0;
-use warnings;
+use v5.36;
 
 sub mac_add {
     if ($_[0] =~ /(\w\w)(\w\w)\.(\w\w)(\w\w)\.(\w\w)(\w\w)/) {

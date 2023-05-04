@@ -1,4 +1,5 @@
 #!/usr/bin/env perl
+use v5.36;
 
 sub MAC_address { join ':', shift =~ m{([a-f0-9]{2})}igmxs }
 

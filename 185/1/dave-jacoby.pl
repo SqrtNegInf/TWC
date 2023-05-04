@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-use experimental qw{ fc say postderef signatures state };
+use v5.36;
 
 my @addresses = qw{
     1ac2.34f0.b1c2

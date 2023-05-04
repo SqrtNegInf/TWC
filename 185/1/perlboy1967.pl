@@ -1,11 +1,10 @@
 #!/usr/bin/env perl
 
-use v5.16;
-use warnings;
+use v5.36;
 
 use Test::More;
 
-sub macFormat ($) {
+sub macFormat {
   state $re = join '\.', ('([0-9a-f]{2})' x 2) x 3;
   join ':',($_[0] =~ /(?i)^$re$/go);
 }

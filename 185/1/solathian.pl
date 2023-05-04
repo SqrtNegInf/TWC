@@ -1,9 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-
-use feature ('say', 'signatures');
-no  warnings 'experimental';
+use v5.36;
 
 sub mac($string)
 {

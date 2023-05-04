@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-use warnings;
-use strict;
-use experimental 'signatures';
+use v5.36;
 
 my $XD4 = qr/[[:xdigit:]]{4}/;
 sub mac_address ($addr) {
