@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-
-use v5.28;
-use utf8;
-use warnings;
+use v5.36;
 use Time::Local qw(timelocal_posix);
 
 my (@tests, $test, $date1, $date2, $days, $years, $anniversary, $month_day);

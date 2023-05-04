@@ -1,14 +1,22 @@
 # Failed test 'one year and a day'
-# at ./jo-37.pl line 92.
+# at ./jo-37.pl line 91.
 # +------+-----+----+-------+
 # | PATH | GOT | OP | CHECK |
 # +------+-----+----+-------+
 # | [1]  | 0   | eq | 1     |
 # +------+-----+----+-------+
 # Failed test '1 year'
-# at ./jo-37.pl line 96.
+# at ./jo-37.pl line 95.
 # +------+-----+----+-------+
 # | PATH | GOT | OP | CHECK |
 # +------+-----+----+-------+
 # | [1]  | 1   | eq | 0     |
 # +------+-----+----+-------+
+Use of @_ in array element with signatured subroutine is experimental at ./perlboy1967.pl line 12.
+Illegal character following sigil in a subroutine signature at ./perlboy1967.pl line 16, near "($"
+syntax error at ./perlboy1967.pl line 16, near "$$) "
+Can't use global $_ in "my" at ./perlboy1967.pl line 17, near "dateToHash $_"
+syntax error at ./perlboy1967.pl line 28, near "}"
+Can't redeclare "my" in "my" at ./perlboy1967.pl line 41, near "foreach my"
+Global symbol "@d" requires explicit package name (did you forget to declare "my @d"?) at ./perlboy1967.pl line 41.
+Execution of ./perlboy1967.pl aborted due to compilation errors.

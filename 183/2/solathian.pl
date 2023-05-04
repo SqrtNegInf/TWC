@@ -1,57 +1,9 @@
 #!/usr/bin/env perl
-
-# Created for perl weekly challenge - 183 - 2
-
-# You are given two dates, $date1 and $date2 in the format YYYY-MM-DD.
-# Write a script to find the difference between the given dates in terms on years and days only.
-
-# The examples are bad since leapdays are not taken into account
-
-use strict;
-use warnings;
-
-use feature 'say';
+use v5.36;
 use DateTime;
-
-
-
-#example inputs 
-
-# my $date1 = "2019-02-10";
-# my $date2 = "2022-11-01";     # Output: 3 years 264 days    ->265
-
-# my $date1 = "2020-09-15";
-# my $date2 = "2022-03-29";     # Output: 1 year 195 days     -> ok
-
-
-# my $date1 = "2019-12-01";
-# my $date2 = "2019-12-31";     # Output: 30 day    -> ok
-
-# my $date1 = "2019-12-31";
-# my $date2 = "2020-12-31";    # Output: 1 year   -> and 1 day
-
-# my $date1 = "2019-12-31";
-# my $date2 = "2021-12-31";    # Output:  2 years   -> and 1 day
-
-# my $date1 = "2020-09-15";
-# my $date2 = "2021-09-16";    # Output:  2 years   -> and 1 day
-
-# my $date1 = "2019-09-15";
-# my $date2 = "2021-09-16";    # Output:  2 years  1day -> and 2day
 
 my $date1 = "2019-09-15";
 my $date2 = "2021-09-16";    # Output:  2 years  1day -> and 2day
-
-
-# my own tests
-# my $date1 = "934-2-10";
-# my $date2 = "934-1-5";    # not valid
-
-# my $date1 = "1932-2-29";
-# my $date2 = "1932-2-29";    #not valid
-
-# my $date1 = "2020-12-32";
-# my $date2 = "2021-2-27";    #not valid
 
 getDuration($date1, $date2);
  

@@ -1,13 +1,7 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-use feature 'say';
+use v5.36;
 use File::Slurp;
 use Date::Calc qw/N_Delta_YMD Delta_Days/;
-use feature 'signatures';
-
-no warnings 'experimental::signatures';
 
 my $file = shift(@ARGV) || "dates.txt";
 my @rows = read_file($file, chomp => 1);

@@ -1,9 +1,5 @@
 #!/usr/bin/env perl
-
-#real	0m0.336s
-#user	0m0.215s
-#sys	0m0.128s
-
+use v5.36;
 use Date::Manip;
 
 print "Example 1: ",diff_in_y_d( '2019-02-10','2022-11-01');
@@ -14,15 +10,6 @@ print "Example 5: ",diff_in_y_d( '2019-12-31','2020-12-31');
 print "Example 6: ",diff_in_y_d( '2019-12-31','2021-12-31');
 print "Example 7: ",diff_in_y_d( '2020-09-15','2021-09-16');
 print "Example 8: ",diff_in_y_d( '2019-09-15','2021-09-16');
-
-#Example 1: 3 year(s) 264 day(s)
-#Example 2: 1 year(s) 195 day(s)
-#Example 3: 0 year(s) 1 day(s)
-#Example 4: 0 year(s) 30 day(s)
-#Example 5: 1 year(s) 0 day(s)
-#Example 6: 2 year(s) 0 day(s)
-#Example 7: 1 year(s) 1 day(s)
-#Example 8: 2 year(s) 1 day(s)
 
 
 sub diff_in_y_d {
