@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-# THE WEEKLY CHALLENGE - 182
-# Task 1: Max Index
-# Autore: Dario Mazzeo
+use v5.36;
 
 my @n = (5, 2, 9, 1, 7, 6, 9);
 #my @n = (4, 2, 3, 1, 5, 0);

@@ -1,9 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-use experimental 'signatures';
-
+use v5.36;
 use Test::More tests => 3;
 
 is(maxindex([5, 2, 9, 1, 7, 6]),2,'example 1');

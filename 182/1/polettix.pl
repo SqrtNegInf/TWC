@@ -1,9 +1,5 @@
 #!/usr/bin/env perl
-use v5.24;
-use warnings;
-use experimental 'signatures';
-no warnings 'experimental::signatures';
-
+use v5.36;
 my @args = @ARGV ? @ARGV : (5, 2, 9, 1, 7, 6, 9);
 say max_index(@args);
 

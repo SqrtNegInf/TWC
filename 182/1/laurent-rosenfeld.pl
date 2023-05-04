@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use feature qw/say/;
-
+use v5.36;
 for my $test ([5, 2, 9, 1, 7, 6, 9], [4, 2, 3, 1, 5, 0]) {
     my @nums = @{$test};
     my ($max_i, $max_n) = (0, 0);

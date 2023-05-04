@@ -1,11 +1,7 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-use feature      qw(signatures);
-use experimental qw(for_list);
-use builtin      qw(indexed);
-no  warnings     qw(experimental::builtin);
+use v5.36;
+use experimental <builtin for_list>;
+use builtins;
 
 use Test::More;
 
