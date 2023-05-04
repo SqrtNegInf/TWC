@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
+use v5.36;
 
 
 my @List = split(/,/, '1,9,0,6,2,3,8,5,104');

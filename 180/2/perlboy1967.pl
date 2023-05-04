@@ -1,15 +1,12 @@
 #!/usr/bin/env perl
-
-use v5.16;
-use warnings;
+use v5.36;
 
 use Data::Printer;
 
 use Test::More;
 use Test::Deep qw(cmp_deeply);
 
-# Prototype(s)
-sub trimList(\@$);
+sub trimList :prototype(\@$);
 
 my @l = (9,0,6,2,3,8,5);
 my $ar = [1,2,3,4,5];
@@ -30,7 +27,7 @@ cmp_deeply($ar,[3,4,5]);
 done_testing();
 
 
-sub trimList (\@$) {
+sub trimList :prototype(\@$) {
   my ($ar,$v) = @_;
 
   if (wantarray) {

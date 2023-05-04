@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-use experimental qw{ say postderef signatures state };
+use v5.36;
 
 my @inputs = (
     [ 3, [ 1, 4, 2, 3, 5 ] ],

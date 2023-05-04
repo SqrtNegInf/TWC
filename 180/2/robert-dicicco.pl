@@ -1,11 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-
-# AUTHOR: Robert DiCicco
-# DATE: 2021-08-30
-# Challenge 180 Trim List ( Perl )
+use v5.36;
 
 my @arr = (
             [1,4,2,3,5],
