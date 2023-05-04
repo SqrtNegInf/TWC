@@ -214,14 +214,8 @@
 #       © 2022 colin crain
 ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ##
 
+use v5.36;
 
-
-use warnings;
-use strict;
-use utf8;
-use feature ":5.26";
-use feature qw(signatures);
-no warnings 'experimental::signatures';
 use constant { MASK_WIDTH => 4 };
 
 my @input = ('ab-cde-123', '123.abc.420', '3abc-0010.xy', 

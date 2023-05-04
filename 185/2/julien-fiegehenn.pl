@@ -1,7 +1,6 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use experimental 'regex_sets';
+use v5.36;
+#use experimental 'regex_sets'; # ???
 
 # breaks if the string has an x in the first four
 sub mask_first_four {

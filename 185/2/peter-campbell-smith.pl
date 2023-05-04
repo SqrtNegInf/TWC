@@ -1,9 +1,6 @@
 #!/usr/bin/env perl
 
-use v5.28;
-use utf8;
-use warnings;
-binmode(STDOUT, ':utf8');
+use v5.36;
 
 my (@tests, $test, @list, $item, $j, $output);
 

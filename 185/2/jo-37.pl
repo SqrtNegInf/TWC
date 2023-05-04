@@ -1,7 +1,6 @@
 #!/usr/bin/env perl
 
-use v5.16;
-use warnings;
+use v5.36;
 
 # Mask all given arguments.
 
