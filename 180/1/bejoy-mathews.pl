@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
+use v5.36;
 
 my $s = "Perl Weekly Challenge";
 my @pwc = split('', $s);

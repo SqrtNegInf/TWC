@@ -1,10 +1,7 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-use experimental 'for_list';
-use builtin      'indexed';
-no  warnings     'experimental::builtin';
+use v5.36;
+use experimental <builtin for_list>;
+use builtins;
 
 use Test::More;
 

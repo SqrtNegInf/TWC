@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-use v5.24;
-use warnings;
-use experimental 'signatures';
-no warnings 'experimental::signatures';
+use v5.36;
 use I18N::Langinfo qw(langinfo CODESET);
 use Encode qw(decode);
 

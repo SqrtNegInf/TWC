@@ -1,10 +1,5 @@
 #!/usr/bin/env perl
-
-use v5.16;
-use warnings;
-
-# Prototype(s)
-sub firstUniqueChar($);
+use v5.36;
 
 use List::MoreUtils qw(singleton);
 
@@ -18,7 +13,7 @@ cmp_deeply(firstUniqueChar('Long Live Perl'),[1,'o']);
 done_testing();
 
 
-sub firstUniqueChar($) {
+sub firstUniqueChar {
   my $re = sprintf '(?i)(.*?)([%s])', join '',singleton split //,lc $_[0];
   my (@r) = $_[0] =~ m#$re#;
 

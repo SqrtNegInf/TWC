@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
+use v5.36;
 use Test::More;
 
 ok(first_unique_character("Perl Weekly Challenge") == 0, "First");
