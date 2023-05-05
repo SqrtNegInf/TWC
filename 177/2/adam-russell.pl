@@ -1,10 +1,8 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-no warnings q/recursion/;
-##
-#  Write a script to generate first 20 Palindromic Prime Cyclops Numbers.
-##
+# very slow, do just a few
+use v5.36;
+no warnings; # deep recursion
+
 use Math::Primality qw/is_prime/;
 
 sub n_cyclops_prime_r{
@@ -26,5 +24,5 @@ sub n_cyclops_primes{
 }
 
 MAIN:{
-    print join(", ", n_cyclops_primes(20)) . "\n";
+    print join(", ", n_cyclops_primes(5)) . "\n";
 }

@@ -1,5 +1,4 @@
 #!/usr/bin/env perl
-
 use v5.36;
 use Math::Prime::Util qw(is_prime);
 my $left=1;

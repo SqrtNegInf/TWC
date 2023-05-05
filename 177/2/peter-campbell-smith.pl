@@ -1,11 +1,5 @@
 #!/usr/bin/env perl
-
-# Peter Campbell Smith - 2022-08-08
-# PWC 177 task 2
-
-use v5.28;
-use utf8;
-use warnings;
+use v5.36;
 use Math::Prime::Util 'is_prime';
 
 # Write a script to generate first 20 Palindromic Prime Cyclops Numbers.

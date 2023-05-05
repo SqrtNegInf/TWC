@@ -1,5 +1,5 @@
 #!/usr/bin/env perl
-use warnings; use strict; use v5.10;
+use v5.36;
 use Math::Prime::Util 'is_prime';
 
 my $want = 20;

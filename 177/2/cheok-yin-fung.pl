@@ -1,9 +1,5 @@
 #!/usr/bin/env perl
-# The Weekly Challenge 177
-# Task 2 Palindromic Prime
-
-use v5.30.0;
-use warnings;
+use v5.36;
 
 sub is_prime {
     my $n = $_[0];

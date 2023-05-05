@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-
-#real	0m1.206s
-#user	0m0.911s
-#sys	0m0.286s
+use v5.36;
 
 use Math::Prime::Util qw(is_prime);
 

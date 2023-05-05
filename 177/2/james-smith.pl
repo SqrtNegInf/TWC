@@ -1,12 +1,6 @@
 #!/usr/bin/env perl
-
-use strict;
-
-use warnings;
-use feature qw(say);
+use v5.36;
 use Test::More;
-use Benchmark qw(cmpthese timethis);
-use Data::Dumper qw(Dumper);
 use Math::Prime::Util qw(is_prime);
 use Time::HiRes qw(time);
 
