@@ -1,13 +1,6 @@
 #!/usr/bin/env perl
-
-use strict;
-
-use warnings;
-use feature qw(say);
+use v5.36;
 use Test::More;
-#use Benchmark qw(cmpthese timethis);
-#use Data::Dumper qw(Dumper);
-
 ##----------------------------------------------------------------------
 ## Three different versions of code..
 ##

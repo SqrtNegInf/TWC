@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-use warnings;
-use strict;
-use experimental qw( signatures );
+use v5.36;
 
 sub reversible_numbers ($below) {
     return [ grep is_reversible_number($_), 1 .. $below - 1 ]

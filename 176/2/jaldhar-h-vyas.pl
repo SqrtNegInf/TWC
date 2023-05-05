@@ -1,4 +1,5 @@
 #!/usr/bin/env perl
+#use v5.36;
 use 5.030;
 use warnings;
 use experimental qw/ smartmatch /;
