@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
-
 use v5.36;
+
 use Test::More;
 use Test::Deep;
 
@@ -8,12 +8,12 @@ use DateTime;
 use DateTime::Duration;
 
 
-sub dateToHash($) {
+sub dateToHash {
   return {year => $1, month => $2, day => $3}
     if ($_[0] =~ /^(\d+)-(\d+)-(\d+)$/);
 }
 
-sub dateDifference($$) {
+sub dateDifference {
   my ($f,$t) = sort map { DateTime->new(dateToHash $_) } @_;
 
   my $year = DateTime::Duration->new(years => 1);
