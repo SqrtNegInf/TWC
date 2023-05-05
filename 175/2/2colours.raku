@@ -16,6 +16,6 @@ sub iterated-totient-sum($n) {
 
 (1 .. *)
   .grep: { .&iterated-totient-sum == $_} andthen
-  .head: 20 andthen
+  .head: 10 andthen
   .join: ', ' andthen
   .say;
