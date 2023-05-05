@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-use strict; use warnings; use v5.10;
-
+use v5.36;
 
 test() and exit if join('',@ARGV) eq '-t';
 

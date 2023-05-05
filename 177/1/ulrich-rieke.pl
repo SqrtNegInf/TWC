@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-use strict ;
-use warnings ;
-use feature 'say' ;
+use v5.36;
 
 my $number = 5724;
 my @damm_table = ( [0,  3 , 1 , 7 , 5 , 9 , 8 , 6 , 4 , 2 ] ,

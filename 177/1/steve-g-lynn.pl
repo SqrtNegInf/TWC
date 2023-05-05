@@ -1,4 +1,5 @@
 #!/usr/bin/env perl
+use v5.36;
 
 our @quasigroup_111 = (
 	'0317598642',

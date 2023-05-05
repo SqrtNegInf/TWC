@@ -1,5 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
+
 use List::Util qw(reduce);
 my @digits= map {split "", $_} # consecutive digits of a Damm table
     qw(0317598642 7092154863 4206871359 1750983426 6123045978

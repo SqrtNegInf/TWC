@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use feature qw/say/;
+use v5.36;
 
 my @damm =  (
     [ qw < 0 3 1 7 5 9 8 6 4 2 > ],
