@@ -1,8 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use strict;
-use warnings;
-use feature qw(say state);
 use Math::Prime::Util qw(factor_exp);
 use List::Util qw(product);
 #use Time::HiRes qw(time);

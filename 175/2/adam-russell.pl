@@ -1,9 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-##
-# Write a script to generate the first 20 Perfect Totient Numbers.
-##
+use v5.36;
 use constant EPSILON => 1e-7;   
 
 sub distinct_prime_factors{

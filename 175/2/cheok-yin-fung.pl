@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use v5.20.0;
 use Math::Prime::Util qw/euler_phi/;
 
 my $p = 0;

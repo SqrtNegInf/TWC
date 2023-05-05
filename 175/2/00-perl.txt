@@ -109,11 +109,6 @@ ok 1
 ===> 175/2/laurent-rosenfeld.pl <===
 3 9 15 27 39 81 111 183 243 255 
  
-===> 175/2/mohammad-anwar.pl <===
-# Seeded srand with seed '1' from import arg.
-ok 1
-1..1
- 
 ===> 175/2/polettix.pl <===
 3
 9

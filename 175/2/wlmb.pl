@@ -1,5 +1,4 @@
 #!/usr/bin/env perl
-
 use v5.36;
 use List::Util qw(sum);
 use Math::Prime::Util qw(euler_phi);

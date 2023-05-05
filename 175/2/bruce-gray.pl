@@ -1,5 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
+
 use ntheory    qw<euler_phi  vecsum>;
 use List::Lazy qw<lazy_range lazy_list>; # Just for fun, to mimic Raku
 
