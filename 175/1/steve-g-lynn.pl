@@ -1,4 +1,5 @@
 #!/usr/bin/env perl
+use v5.36;
 
 use Date::Manip::Recur;
 
@@ -10,7 +11,7 @@ foreach my $date (@$dates) {
 
 sub last_sunday {
 	my ($year)=@_;
-	my $recur = new Date::Manip::Recur;
+	my $recur = Date::Manip::Recur->new();
 
 	$recur -> parse("last Sunday of every month in $year");
 	my @dates=$recur->dates();

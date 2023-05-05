@@ -1,9 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use v5.28;
-use utf8;
-use warnings;
-binmode(STDOUT, ':utf8');
 use Time::Local qw(timelocal_posix);
 
 my (@years, $year, $m, $month, $time, @t, $back, $y);

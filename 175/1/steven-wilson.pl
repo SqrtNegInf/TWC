@@ -1,9 +1,6 @@
 #!/usr/bin/env perl
-# Week 175 Task 1
-# Write a script to list Last Sunday of every month in the given year.
+use v5.36;
 
-use strict;
-use warnings;
 use DateTime;
 
 my $year = 2022;

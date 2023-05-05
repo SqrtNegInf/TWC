@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-use feature qw(say state);
+use v5.36;
 use DateTime;
 
 my @L = (31,31,28,31,30,31,30,31,31,30,31,30,31);

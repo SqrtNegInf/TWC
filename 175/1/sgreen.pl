@@ -1,9 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-use feature 'say';
-use experimental 'signatures';
+use v5.36;
 
 use Date::Calc (qw(This_Year Days_in_Month Day_of_Week));
 

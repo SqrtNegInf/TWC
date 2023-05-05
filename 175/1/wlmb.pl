@@ -1,5 +1,4 @@
 #!/usr/bin/env perl
-
 use v5.36;
 use DateTime;
 foreach my $year(2022){

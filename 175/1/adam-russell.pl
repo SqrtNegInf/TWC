@@ -1,9 +1,6 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-##
-# Write a script to list the last sunday of every month in the given year.
-##
+use v5.36;
+
 use Time::Piece; 
 
 sub last_sunday_month{

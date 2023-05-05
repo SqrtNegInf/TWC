@@ -1,5 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
+
 use DateTime;
 
 sub last_sundays_in ( $year ) {

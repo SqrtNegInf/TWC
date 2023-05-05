@@ -1,4 +1,7 @@
 #!/usr/bin/env perl
+use v5.36;
+no warnings 'uninitialized';
+
 use Time::Local;
 my $y = shift || 1900+(localtime)[5];
 for my $m (1..12){

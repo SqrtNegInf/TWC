@@ -1,7 +1,6 @@
 #!/usr/bin/env perl
-# The Weekly Challenge 175
-# Task 1 Last Sunday
-use v5.30.0;
+use v5.36;
+
 use Time::Local qw'timegm_nocheck';
 use Time::gmtime;
 
