@@ -1,8 +1,7 @@
 #!/usr/bin/env perl
-# The Weekly Challenege 178
-# Task 1 Quater-imaginary base
-use v5.30.0;
-no warnings;  # Deep recursion often happens
+use v5.36;
+no warnings; # deep recursion
+
 use List::Util qw/max reduce/;
 
 my $N = $ARGV[0] || "";

@@ -1,12 +1,7 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-use feature qw(say state);
+use v5.36;
 
 use Test::More;
-use Benchmark qw(cmpthese timethis);
-use Data::Dumper qw(Dumper);
 
 my $q = Complex->new(1);
 

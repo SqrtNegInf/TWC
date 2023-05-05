@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-use 5.030;
-use warnings;
+use v5.36;
 use Math::Prime::Util qw/ todigits /;
 use POSIX qw/ floor /;
 

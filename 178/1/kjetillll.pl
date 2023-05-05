@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-#https://theweeklychallenge.org/blog/perl-weekly-challenge-178/
-#https://en.wikipedia.org/wiki/Quater-imaginary_base
-use strict; use warnings; use v5.10;
+use v5.36;
 
 sub c2q {                       #complex to quater-imaginary
     my($r,$i) = @_;             #real and imaginary part

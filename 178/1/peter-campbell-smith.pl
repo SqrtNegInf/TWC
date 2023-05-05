@@ -1,8 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use v5.28;
-use utf8;
-use warnings;
 use POSIX 'floor';
 
 my (@tests, $test, $real_part, $imag_part, $result, $real, $imag, $qib);
