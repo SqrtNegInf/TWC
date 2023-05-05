@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
-#https://theweeklychallenge.org/blog/perl-weekly-challenge-178/
-use strict; use warnings; use v5.10; use Time::Local;
+use v5.36;
+use Time::Local;
 
 # I could have used Business::Hours::add_seconds() but wanted
 # to try out my own ineffective but succinct algorithm instead:

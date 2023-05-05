@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-
-use v5.28;
-use utf8;
-use warnings;
+use v5.36;
 use Time::Local 'timelocal_posix';
 
 my (@tests, $test, $start, $duration, $d, $m, $y, $h, $i, $s, $date, $day_of_week, 

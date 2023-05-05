@@ -1,7 +1,8 @@
 #!/usr/bin/env perl
 
+use v5.36;
+
 use Date::Manip;
-#https://metacpan.org/pod/Date::Manip
 
 print &print_date_plus_duration('2022-08-01 10:30','in 4 business hours'),"\n";
 
@@ -13,7 +14,7 @@ print &print_date_plus_duration('2022-08-01 17:00','in 3.5 business hours'),"\n"
 
 sub print_date_plus_duration {
 	my ($datestr,$deltastr)=@_;
-	my $date = new Date::Manip::Date;
+	my $date = Date::Manip::Date->new(); # 'new' as prefix no longer works
 	my $delta = $date->new_delta();
 	$date->parse($datestr);
 	$delta->parse($deltastr);

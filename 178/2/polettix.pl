@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-use v5.24;
-use warnings;
-use experimental 'signatures';
-no warnings 'experimental::signatures';
+use v5.36;
 use Time::Local 'timegm';
 
 my $ts       = shift // '2022-08-01 10:30';
