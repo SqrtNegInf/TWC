@@ -1,5 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
+
 use List::Util qw<all first>;
 
 sub is_permuted_multiple ( $n ) {

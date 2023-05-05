@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
-
 use v5.36;
+
 use List::Util qw(all);
 my $how_many=shift//1;
 my $current=1;

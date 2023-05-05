@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-use warnings;
-use strict;
-
+use v5.36;
 sub permuted_multiples {
     my $candidate = 1;
 

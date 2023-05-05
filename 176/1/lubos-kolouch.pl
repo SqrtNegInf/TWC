@@ -1,8 +1,8 @@
 #!/usr/bin/env perl
+#use v5.36;
 package main;
 use strict;
-use warnings;
-use Data::Dumper;
+no warnings;
 
 sub get_permuted_multiple {
 

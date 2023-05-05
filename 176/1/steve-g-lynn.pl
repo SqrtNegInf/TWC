@@ -1,4 +1,5 @@
 #!/usr/bin/env perl
+use v5.36;
 
 for $i (1 .. 200_000)  {
 	my $comb_sort_i = &comb_sort($i);

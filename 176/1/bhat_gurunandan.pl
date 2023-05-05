@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-
-use 5.36.0;
-
+use v5.36;
 sub is_permutation ($this, $that) {
 
 	# Checks if $this and $that are permutations of one another

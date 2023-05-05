@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-
-use v5.28;
-use utf8;
-use warnings;
+use v5.36;
 
 my ($j, $j_sorted, $j_length, $k, $jk, );
 

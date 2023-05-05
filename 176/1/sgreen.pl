@@ -1,9 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-use feature 'say';
-use experimental 'signatures';
+use v5.36;
 
 sub sort_number ($num) {
     # Sort the digits numerically. Returns a string
