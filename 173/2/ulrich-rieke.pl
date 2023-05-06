@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-use strict ;
-use warnings ;
-use feature 'say' ;
+use v5.36;
 use Math::BigInt ;
 
 my $x = Math::BigInt->new( "2" ) ;

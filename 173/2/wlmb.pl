@@ -1,5 +1,4 @@
 #!/usr/bin/env perl
-
 use v5.36;
 use bigint;
 my $N=10;
