@@ -1,18 +1,5 @@
 #!/usr/bin/env perl
-
-# Peter Campbell Smith - 2022-07-11
-# PWC 173 task 1
-
-use v5.28;
-use strict;
-use warnings;
-use utf8;
-binmode(STDOUT, ':utf8');
-
-# You are given a positive integer, $n. Write a script to find out if the given number is 
-# an Esthetic Number. An esthetic number is one where successive digits differ by 1.
-
-# Blog: https://pjcs-pwc.blogspot.com/2022/07/aesthetics-and-fast-growing-sequence.html
+use v5.36;
 
 my (@tests, $test, $not, $j, $digit, $next, $as, $diff, $old_diff);
 

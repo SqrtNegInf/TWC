@@ -1,4 +1,5 @@
 #!/usr/bin/env perl
+use v5.36;
 
 #my $num=$ARGV[0];
 my $num=5456;

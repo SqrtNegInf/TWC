@@ -1,4 +1,5 @@
 #!/usr/bin/env perl
+use v5.36;
 
 print is_esthetic(5_456),"\n";   #1
 print is_esthetic(120),"\n";	#0

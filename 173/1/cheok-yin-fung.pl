@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use v5.30.0;
 use List::Util qw/product all/;
 use List::MoreUtils qw/slide/;
 

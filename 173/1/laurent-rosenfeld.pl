@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use feature "say";
+use v5.36;
 
 sub is_esthetic {
     my @d = split //, shift;     # get an array of digits

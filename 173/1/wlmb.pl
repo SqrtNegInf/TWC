@@ -1,5 +1,4 @@
 #!/usr/bin/env perl
-
 use v5.36;
 use List::Util qw(all);
 foreach(<5456 120 121 23456 2346 7654567 765467>){
