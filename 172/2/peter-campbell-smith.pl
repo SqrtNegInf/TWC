@@ -1,16 +1,5 @@
 #!/usr/bin/env perl
-
-use v5.28;
-use strict;
-use warnings;
-use utf8;
-binmode(STDOUT, ':utf8');
-
-# You are given an array of integers.  Write a script to compute the five-number 
-# summary (FNS) of the given set of integers.  Wikipedia tells us that the FNS
-# comprises the minimum, 1st quartile, median, 3rd quartile and maximum of the set.
-
-# Blog: https://pjcs-pwc.blogspot.com/2022/07/tricky-partitions-and-easy-stats.html
+use v5.36;
 
 my (@tests, $test, @sorted, $count, $median, $first_quartile, $third_quartile);
 

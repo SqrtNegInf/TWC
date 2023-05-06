@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-package main;
-use strict;
-use warnings;
+use v5.36;
 use Statistics::Descriptive;
 
 sub get_five_nums_summary {

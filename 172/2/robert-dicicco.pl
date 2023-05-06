@@ -1,7 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use strict;
-use warnings;
 use List::Util qw(min max);
 use Statistics::Basic qw(median);
 use List::MoreUtils qw(first_index);

@@ -1,9 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use v5.24;
-use warnings;
-use experimental 'signatures';
-no warnings 'experimental::signatures';
 
 my @values = (0, 0, 1, 2, 63, 61, 27, 13);
 my @fives = five_number_summary(@values);

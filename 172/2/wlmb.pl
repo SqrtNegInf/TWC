@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
-
 use v5.36;
+
 my @data=sort {$a<=>$b} 0..11;
 my ($min, $max)=($data[0], $data[-1]);
 my $median=median(@data);

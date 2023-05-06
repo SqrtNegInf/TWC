@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-
-use v5.24.0;
-use feature qw(signatures);
-no warnings qw(experimental::signatures);
+use v5.36;
 use POSIX qw/floor/;
 
 if (defined $ARGV[1]) {

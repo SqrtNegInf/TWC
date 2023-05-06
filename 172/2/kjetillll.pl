@@ -1,9 +1,6 @@
 #!/usr/bin/env perl
-# https://theweeklychallenge.org/blog/perl-weekly-challenge-172/
-# perl ch-2.pl 13 5 9 7 15            #run with unsorted list of numbers to their five-number summary
-# perl ch-2.pl                        #run without args to run tests
-
-use strict; use warnings; use Carp; use Test::More;
+use v5.36;
+use Carp; use Test::More;
 
 if( @ARGV ){                          #if there are command line arguments
     my @f = five(@ARGV);
