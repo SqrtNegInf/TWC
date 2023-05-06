@@ -32,6 +32,7 @@ ok 1 - task 1
 1..1
  
 ===> 176/1/kjetillll.pl <===
+142857
  
 ===> 176/1/laurent-rosenfeld.pl <===
 142857
@@ -60,6 +61,7 @@ ok 1 - example 1
 142857
  
 ===> 176/1/steve-g-lynn.pl <===
+142857
  
 ===> 176/1/ulrich-rieke.pl <===
 142857
