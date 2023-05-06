@@ -1,20 +1,5 @@
 #!/usr/bin/env perl
-
-# Peter Campbell Smith - 2022-07-07
-# PWC 171 task 1
-
-use v5.28;
-use strict;
-use warnings;
-use utf8;
-binmode(STDOUT, ':utf8');
-
-# You are given two positive integers, $m and $n.
-# Write a script to find out the Prime Partition of the given number. No duplicates allowed.
-
-# I assume (from the examples) this means $n distinct prime numbers which sum to $m.
-
-# Blog: https://pjcs-pwc.blogspot.com/2022/07/tricky-partitions-and-easy-stats.html
+use v5.36;
 
 my (@tests, @is_prime, $test, $m, $n, @is_used, @parts, $or, $output, $start);
 

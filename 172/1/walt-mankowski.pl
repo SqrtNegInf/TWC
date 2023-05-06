@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use feature 'say';
 use lib ".";
 use Algorithm::Combinatorics qw(combinations);
 use primes qw(primes_to);

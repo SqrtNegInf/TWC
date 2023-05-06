@@ -1,10 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use strict;
-
-use warnings;
-use feature qw(say);
-#use Data::Dumper qw(Dumper);
 use Math::Prime::Util qw(is_prime primes);
 
 my @TESTS = (

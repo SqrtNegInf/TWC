@@ -1,5 +1,6 @@
 #!/usr/bin/env perl
-use strict; use warnings; use v5.10;
+use v5.36;
+
 use Math::Prime::Util 'forpart', 'is_prime';
 use List::Util 'any', 'uniq';
 
