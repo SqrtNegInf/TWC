@@ -1,9 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-##
-# Write a script to generate the first 19 Disarium Numbers.
-##
+use v5.36;
 use POSIX;
 
 sub disarium_n{

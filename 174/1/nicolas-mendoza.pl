@@ -1,9 +1,5 @@
 #!/usr/bin/env perl
-
-use v5.34;
-
-use strict;
-use warnings;
+use v5.36;
 
 my $limit = 10**10; # Should be within a 10 digit bumber
 my @found = (); # store found numbers

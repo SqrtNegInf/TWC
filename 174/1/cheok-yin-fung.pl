@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-# The Weekly Challenge 174
-# Task 1 Disarium Numbers
-use v5.30.0;
-use warnings;
+use v5.36;
 
 my $d = 0;
 my $n = 0;

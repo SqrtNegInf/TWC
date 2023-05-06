@@ -1,5 +1,6 @@
 #!/usr/bin/env perl
-use List::Util 'sum'; use v5.10; use strict; use warnings;
+use v5.36;
+use List::Util 'sum';
 
 my $want = 18;
 my $n = 0;

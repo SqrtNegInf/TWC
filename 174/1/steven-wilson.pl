@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-use feature qw/ say /;
+use v5.36;
 
 my $number = 0;
 my @disarium_numbers;

@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-
-use 5.36.0;
+use v5.36;
 
 # The 20th number takes a huge amount of time and requires bigint
 # which sadly slows it down further. So since we want 19 only...

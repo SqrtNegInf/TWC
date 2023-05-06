@@ -1,12 +1,7 @@
 #!/usr/bin/env perl
+use v5.36;
 
 # pretty fast
-
-use v5.28;
-use strict;
-use warnings;
-use utf8;
-binmode(STDOUT, ':utf8');
 
 # Write a script to generate first 19 Disarium Numbers. A disarium number is an integer where the 
 # sum of each digit raised to the power of its position in the number, is equal to the number.

@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-use warnings;
-use strict;
-use experimental 'signatures';
-
+use v5.36;
 sub is_disarium_number($n) {
     my $sum = 0;
     for my $pos (1 .. length $n) {
