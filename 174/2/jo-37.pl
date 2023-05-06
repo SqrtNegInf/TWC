@@ -1,9 +1,8 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use v5.16;
 use Test2::V0 -srand => 1;
 use Math::Prime::Util qw(permtonum numtoperm);
-use experimental qw(signatures postderef);
 
 our ($tests, $examples, $verbose, $rank) = (1,1);
 

@@ -1,11 +1,5 @@
 #!/usr/bin/env perl
-
-use v5.28;
-use strict;
-use warnings;
-use utf8;
-binmode(STDOUT, ':utf8');
-
+use v5.36;
 my (@tests, $test, $rank, $max, $perm);
 
 # permutation must be some ordering of 0 .. $n - 1

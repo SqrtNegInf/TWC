@@ -1,5 +1,6 @@
 #!/usr/bin/env perl
-use List::MoreUtils 'indexes'; use v5.10; use strict; use warnings;
+use v5.36;
+use List::MoreUtils 'indexes';
 
 say permutation2rank( [1,0,2] );
 

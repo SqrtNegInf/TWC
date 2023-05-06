@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-use warnings;
-use strict;
-use experimental 'signatures';
-
+use v5.36;
 sub factorial ($n) {
     my $f = 1;
     $f *= $_ for 2 .. $n;

@@ -1,9 +1,7 @@
 #!/usr/bin/env perl
-package main;
-use strict;
-no warnings;
+use v5.36;
+no warnings; # smartmatch
 use Algorithm::Combinatorics qw(permutations);
-use Data::Dumper;
 
 sub permutation2rank {
     my ( $list, $what ) = @_;

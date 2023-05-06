@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
+use v5.36;
 
 package PermutationRanking{
     use Mars::Class;
@@ -15,7 +14,7 @@ package PermutationRanking{
         my $self = shift;
         my @permutations;
         my %permutations_ranked;
-        my $permutor = new List::Permutor(@{$self->list()});
+        my $permutor = List::Permutor->new(@{$self->list()});
         while(my @set = $permutor->next()) {
             push @permutations, join(":", @set);
         }
@@ -42,7 +41,7 @@ package PermutationRanking{
 }
 
 package main{
-    my $ranker = new PermutationRanking(list => [0, 1, 2]);
+    my $ranker = PermutationRanking->new(list => [0, 1, 2]);
     print "[1, 0, 2] has rank " . $ranker->permutation2rank([1, 0, 2]) . "\n";
     print "[" . join(", ", @{$ranker->list()}) . "]"  . " has permutation at rank 1 --> " . $ranker->rank2permutation(1) . "\n";
 }

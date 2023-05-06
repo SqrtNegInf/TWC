@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
+use v5.36;
 use re 'eval';
 
 # Just using regex engine for fun with a pure perl solution.

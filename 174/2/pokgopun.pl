@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
+use v5.36;
 
 foreach my $p ([1,0,2], [0,2,1], [@ARGV]){
 	my $n = @$p;
@@ -14,8 +13,7 @@ sub factorial{
 	return $n ? $n * factorial($n-1) : 1;
 }
 
-sub rank_permutation(){
-	my ($n,$r) = @_;
+sub rank_permutation ($n,$r) {
 	my $fact = &factorial($n-1);			# compute (n-1) factorial
     	my @digits =  0..$n-1;				# all yet unused digits
     	my @p;						# build permutation

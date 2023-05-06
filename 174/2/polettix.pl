@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-use v5.24;
-use warnings;
-use experimental 'signatures';
-no warnings 'experimental::signatures';
+use v5.36;
 use List::Util qw< reduce sum >;
 
 say permutation2rank([qw< a b c d >]);

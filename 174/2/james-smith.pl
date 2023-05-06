@@ -1,12 +1,7 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use strict;
-
-#use sayings;
-use feature qw(say);
 use Test::More;
-#use Benchmark qw(cmpthese timethis);
-#use Data::Dumper qw(Dumper);
 
 say '[0..2] - [1,0,2]           : ', permutation2rank( [0..2], [1,0,2]           );
 say '[0..2] - [0,3,1]           : ', permutation2rank( [0..2], [0,3,1]           );
