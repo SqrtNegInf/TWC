@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-
-use v5.16;
-use warnings;
+use v5.36;
 
 use List::Util qw(max);
 use List::MoreUtils qw(arrayify);
@@ -9,8 +7,8 @@ use List::MoreUtils qw(arrayify);
 use Test::More;
 use Test::Deep;
 
-sub kroneckerProduct($$);
-sub printMatrix ($$);
+sub kroneckerProduct :prototype($$);
+sub printMatrix  :prototype($$);
 
 is_deeply(kroneckerProduct([[1,2],[3,4]], 
                            [[5,6],[7,8]]),
@@ -60,7 +58,7 @@ is_deeply(kroneckerProduct([[1,2,3],[4,5,6],[7,8,9]],
 
 done_testing;
 
-sub kroneckerProduct($$) {
+sub kroneckerProduct :prototype($$) {
   my ($arA, $arB) = @_;
 
   printMatrix('A', $arA);
@@ -87,7 +85,7 @@ sub kroneckerProduct($$) {
   return $r;
 }
 
-sub printMatrix ($$) {
+sub printMatrix  :prototype($$) {
   my ($label, $matrix) = @_;
 
   my $w = max(map{length($_)} arrayify $matrix);

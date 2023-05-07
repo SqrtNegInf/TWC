@@ -1,9 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-
-use warnings;
-use feature qw(say);
+use v5.36;
 
 my $m1=[[1,2],[3,4]];
 my $m2=[[5,6],[7,8]];

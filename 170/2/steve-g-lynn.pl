@@ -1,4 +1,5 @@
 #!/usr/bin/env perl
+#use v5.36; # too much work to fix
 
 # Old-fashioned perl4-style approach modelling a matrix as a hash:
 # item at m'th row and n'th column of matrix M represented as $M{'m,n'}
@@ -104,4 +105,3 @@ sub kron {
 	return  %C;
 
 }
-

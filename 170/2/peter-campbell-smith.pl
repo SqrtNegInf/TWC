@@ -1,9 +1,5 @@
 #!/usr/bin/env perl
-
-use v5.28;
-use strict;
-use warnings;
-use utf8;
+use v5.36;
 
 # You are given 2 matrices.
 # Write a script to generate the Kronecker Product of the given 2 matrices.

@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-package main;
-use strict;
-use warnings;
+use v5.36;
 
 sub get_kronecker_product {
     my $matrix = shift;

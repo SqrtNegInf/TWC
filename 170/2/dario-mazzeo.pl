@@ -1,4 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
+no warnings 'uninitialized';
 
 # Separare le righe della matrica con il carattere ";"
 my $inputA="1,2;3,4";
@@ -51,7 +53,7 @@ my $ss=1;
 my @valori=split(/[,;]/, $arr);
 my @separatori=split(/-?\d*/, $arr);
 foreach my $v (@valori){
-	$tmp.=($mul*$v).@separatori[$ss];
+	$tmp.=($mul*$v).$separatori[$ss];
 	$ss++;
 }
 

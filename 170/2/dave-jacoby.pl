@@ -1,9 +1,5 @@
 #!/usr/bin/env perl
-
 use v5.36;
-#use strict;
-#use warnings;
-#use experimental qw{ say postderef signatures state };
 
 my @pairs;
 push @pairs, [ [ [ 1, 2 ], [ 3, 4 ] ], [ [ 5, 6 ], [ 7, 8 ] ], ];

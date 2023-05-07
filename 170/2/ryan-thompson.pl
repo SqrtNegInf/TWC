@@ -1,9 +1,6 @@
 #!/usr/bin/env perl
-
-use 5.010;
-use warnings;
-use strict;
-no warnings 'uninitialized';
+use v5.36;
+#no warnings 'uninitialized';
 
 # Implementing the requested specific 2x2 case,
 # but both subs work with arbitrary matrices.
