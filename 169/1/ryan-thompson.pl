@@ -1,12 +1,5 @@
 #!/usr/bin/env perl
-#
-# ch-1.pl - 2-Brilliant numbers
-#
-# 2022 Ryan Thompson <rjt@cpan.org>
-
-use 5.010;
-use warnings;
-use strict;
+use v5.36;
 no warnings 'uninitialized';
 
 say for brilliant($ARGV[0] // 20);

@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
+use v5.36;
 use Math::Prime::Util qw/is_semiprime factor/;
 #
 # By its definition, 1st Brilliant number is square of 1st prime numbers

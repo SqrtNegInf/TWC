@@ -1,9 +1,5 @@
 #!/usr/bin/env perl
-
-use v5.28;
-use strict;
-use warnings;
-use utf8;
+use v5.36;
 use Math::Prime::Util qw[factor];
 
 # Write a script to generate first 20 Brilliant Numbers, which are numbers having just two prime factors,

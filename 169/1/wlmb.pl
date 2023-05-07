@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-
-use v5.12;
-use warnings;
+use v5.36;
 use Math::Prime::Util qw(primes);
 use Math::Cartesian::Product;
 my $N=20;

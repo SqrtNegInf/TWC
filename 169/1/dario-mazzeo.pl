@@ -1,7 +1,6 @@
 #!/usr/bin/env perl
-# Autore: Dario Mazzeo (dmazzeo@ingele.com)
-# THE WEEKLY CHALLENGE - 169
-# Task 1: Brilliant Numbers
+use v5.36;
+no warnings 'uninitialized';
 
 my @primi=(2,3,5,7,11,13,17,19,23);
 my %ris=();

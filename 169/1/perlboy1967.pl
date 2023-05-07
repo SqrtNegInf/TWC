@@ -1,12 +1,7 @@
 #!/usr/bin/env perl
-
-use v5.16;
-use warnings;
+use v5.36;
 
 use Math::Factor::XS qw(prime_factors);
-
-# Prototype(s)
-sub isBrilliantNumber($\@);
 
 my ($n,$b,@f) = (0,1);
 
@@ -19,7 +14,7 @@ while ($n < 20) {
 }
 
 
-sub isBrilliantNumber($\@) {
+sub isBrilliantNumber {
   my ($n,$arF) = @_;
 
   my @f = prime_factors($n);

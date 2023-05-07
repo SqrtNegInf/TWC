@@ -1,14 +1,15 @@
 #!/usr/bin/env perl
+use v5.36;
 
 use Math::Prime::Util qw(primes);
 
 my @brilliants = ();
 
-for $i (1,2) { # get 1 or 2 digit primes with each iteration
-	my $ra=primes(10**($i-1), 10**($i)); 
+for my $n (1,2) { # get 1 or 2 digit primes with each iteration
+	my $ra=primes(10**($n-1), 10**($n)); 
 		
-	for $i (0 .. @$ra-1) {
-		for $j ($i .. @$ra-1) {
+	for my $i (0 .. @$ra-1) {
+		for my $j ($i .. @$ra-1) {
 			push (@brilliants, 
 			$$ra[$i] * $$ra[$j] );
 		}

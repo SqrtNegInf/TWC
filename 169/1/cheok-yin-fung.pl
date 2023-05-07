@@ -1,19 +1,5 @@
 #!/usr/bin/env perl
-# The Weekly Challenge 169
-# Task 1 Brilliant Numbers Version 3.0
-# See https://e7-87-83.github.io/coding/challenge_169.html
-#     for a simpler version, up to first 241 brilliant numbers
-
-=pod DATA
-    number of 1-digit primes =    4
-    number of 2-digit primes =   21
-    number of 3-digit primes =  143
-    number of 4-digit primes = 1061
-    number of brilliant numbers from 1-digit primes =      10
-    number of brilliant numbers from 2-digit primes =     231
-    number of brilliant numbers from 3-digit primes =   10296  #OEIS limit
-    number of brilliant numbers from 4-digit primes =  563391
-=cut
+#use v5.36; # not compatiblle, 'given' 
 
 use v5.24.0;
 no warnings;
