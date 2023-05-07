@@ -1,9 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use v5.28;
-use strict;
-use warnings;
-use utf8;
 use Math::Prime::Util qw[factor];
 
 my ($test, @pf, $f, $result, $count, $dpf, %seen, $p, $rarest_factor, $good);

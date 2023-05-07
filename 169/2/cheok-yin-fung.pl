@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-# The Weekly Challenge 169
-# Task 2 Achilles Numbers
-use v5.24.0;
-use warnings;
+use v5.36;
 
 my $req = $ARGV[0] || 20;
 

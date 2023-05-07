@@ -1,11 +1,10 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use v5.16;
 use Test2::V0 -srand => 1;
 use Math::Prime::Util qw(gcd factor_exp euler_phi);
 use List::Util 'all'; # only "all"
 use Coro::Generator;
-use experimental 'signatures';
 
 our ($tests, $examples, $strong) = (1,1,1);
 

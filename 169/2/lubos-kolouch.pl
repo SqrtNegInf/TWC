@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-package main;
-use strict;
-use warnings;
+use v5.36;
 use Math::Prime::Util qw/factor_exp gcd/;
 use List::Util qw/min/;
 

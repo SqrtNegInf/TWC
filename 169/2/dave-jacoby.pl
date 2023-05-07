@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-use experimental qw{ say postderef signatures state };
+use v5.36;
 
 my $iter = make_iterator(2);
 my @achilles;
@@ -14,7 +11,6 @@ while ( my $i = $iter->() ) {
 }
 
 say join ', ', @achilles;
-exit;
 
 sub is_achilles( $n ) {
     return 0 if is_prime($n);

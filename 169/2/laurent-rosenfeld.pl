@@ -1,8 +1,6 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use feature qw/say/;
-#use Data::Dumper;
+use v5.36;
+
 use constant MAX => 500;
 
 my @primes = (2, 3, 5, 7);

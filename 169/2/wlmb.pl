@@ -1,7 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use v5.12;
-use warnings;
 use Math::Utils qw(gcd);
 use Math::Prime::Util qw(factor_exp);
 use List::Util qw(all);

@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
+use v5.36;
 use Math::Prime::Util qw/is_prime factor gcd/;
 
 my ($i,$count) = (72,0);
