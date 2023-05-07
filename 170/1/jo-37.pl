@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-
-use v5.16;
-use warnings;
+use v5.36;
 use Math::Prime::Util 'prime_iterator';
 use List::Util 'reductions';
 

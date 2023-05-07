@@ -1,9 +1,6 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
+use v5.36;
 use ntheory qw/is_prime/;
-use feature qw/say/;
 
 my $count = 1;
 

@@ -1,9 +1,5 @@
 #!/usr/bin/env perl
-# The Weekly Challenge 170
-# Task 1 Primorial Numbers
-
-use v5.24.0;
-use warnings;
+use v5.36;
 
 my @prime = (2, 3, 5, 7, 11, 13, 17, 19, 23);
 

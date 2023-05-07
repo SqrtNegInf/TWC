@@ -1,9 +1,5 @@
 #!/usr/bin/env perl
-
-use v5.28;
-use strict;
-use warnings;
-use utf8;
+use v5.36;
 
 my (@primes, $j, $p, @pm, $k);
 

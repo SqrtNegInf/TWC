@@ -1,4 +1,5 @@
 #!/usr/bin/env perl
+# old-style, cf -alt version
 
 use Math::Prime::Util::GMP qw(next_prime);
 

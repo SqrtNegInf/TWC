@@ -1,13 +1,7 @@
 #!/usr/bin/env perl
-
-use strict;
-
-use warnings;
-use feature qw(say);
+use v5.36;
 use Test::More;
-#use Benchmark qw(cmpthese timethis);
 use Math::Prime::Util qw(nth_prime forprimes);
-#use Data::Dumper qw(Dumper);
 use bignum;
 
 my @x = (1); forprimes { push @x, $x[-1] * $_ } nth_prime($ARGV[0]//10)-1;

@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-
 use v5.16;
-use warnings;
 
 use Math::Primality qw(next_prime);
 

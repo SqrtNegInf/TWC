@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-use boolean;
+use v5.36;
 use constant N => 10;
 use Math::Primality qw/is_prime/;
 

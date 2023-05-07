@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-
-use 5.030;
-use warnings;
+use v5.36;
 
 sub isPrime {
     my ($n) = @_;

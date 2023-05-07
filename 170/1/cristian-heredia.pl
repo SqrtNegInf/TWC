@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-#use Data::Dumper;
+use v5.36;
 
 my $max = 10;
 my $valor = 1;
