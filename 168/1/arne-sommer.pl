@@ -1,14 +1,8 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use strict;
-use warnings;
-use feature 'say';
-use feature 'signatures';
-use feature 'state';
 use bigint;
 use Math::Prime::Util 'is_prime';
-
-no warnings qw(experimental::signatures);
 
 my $count = $ARGV[0] || 13;
 

@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-# The Weekly Challenge 168
-# Task 1 Perrin Prime 
-use v5.24.0;
-use warnings;
+use v5.36;
 use List::Util qw/none/;
 use Math::Prime::Util qw/is_prime/;
 

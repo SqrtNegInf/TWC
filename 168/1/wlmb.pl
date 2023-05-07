@@ -1,9 +1,9 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use v5.12;
-use warnings;
 use bigint;
 use Math::Prime::Util qw(is_prime);
+
 my $N=13;
 my @last_perrins=(3,0,2);
 my @perrin_primes;

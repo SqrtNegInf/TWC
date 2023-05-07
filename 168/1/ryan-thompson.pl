@@ -1,10 +1,8 @@
 #!/usr/bin/env perl
-
-use 5.010;
-use warnings;
-use strict;
-use Math::Prime::Util qw< is_prime >;
+use v5.36;
 no warnings 'uninitialized';
+
+use Math::Prime::Util qw< is_prime >;
 
 say for perrin(13);
 

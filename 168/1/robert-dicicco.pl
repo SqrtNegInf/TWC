@@ -1,8 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use strict;
-use warnings;
-use feature qw/say/;
 use ntheory qw/is_prime/;
 use List::MoreUtils qw(uniq);
 

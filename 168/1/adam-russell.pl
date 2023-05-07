@@ -1,7 +1,6 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-no warnings q/recursion/;
+use v5.36;
+no warnings; # deep recursion
 
 use boolean;
 use Math::Primality qw/is_prime/;

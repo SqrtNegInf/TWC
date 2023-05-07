@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-use warnings;
-use strict;
+use v5.36;
 use Syntax::Construct qw{ // };
 
 use Math::Prime::Util qw{ is_prime };

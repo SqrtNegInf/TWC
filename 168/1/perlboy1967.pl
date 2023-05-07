@@ -1,12 +1,6 @@
 #!/usr/bin/env perl
-
-use v5.16;
-use warnings;
-
+use v5.36;
 use Math::Prime::XS qw(is_prime);
-
-# Prototype(s)
-sub perrin ($);
 
 my %p;
 my ($n,$p) = (0,1);
@@ -17,7 +11,7 @@ while ($n < 13) {
   }
 }
   
-sub perrin ($) {
+sub perrin {
   my ($n) = @_;
 
   state $p = [3, 0, 2];
