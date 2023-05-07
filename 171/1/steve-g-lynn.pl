@@ -1,4 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
+no warnings 'uninitialized';
 
 use Math::Factor::XS qw(factors);
 

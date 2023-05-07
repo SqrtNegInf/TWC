@@ -1,11 +1,6 @@
 #!/usr/bin/env perl
-
-use v5.28;
-use strict;
-use warnings;
-use utf8;
+use v5.36;
 use Math::Prime::Util qw(divisors);
-binmode(STDOUT, ':utf8');
 
 my ($count, $i, @divisors, $sum);
 

@@ -1,10 +1,8 @@
 #!/usr/bin/env perl
-
-use v5.16;
+use v5.36;
 use Test2::V0 -srand => 1;
 use Math::Prime::Util qw(divisor_sum foroddcomposites);
 use Coro::Generator;
-use experimental 'signatures';
 
 our ($tests, $examples, $div) = (1,1);
 $div ||= 2;

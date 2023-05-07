@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
+use v5.36;
 
 sub isAbundant{
 	### default potential divisor starts with 2 and increases by 1, sum default to 1 as 1 is always a proper divisor

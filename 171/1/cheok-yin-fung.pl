@@ -1,7 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use v5.30.0;
-use warnings;
 use Math::Prime::Util qw/divisor_sum/;
 
 my $N = $ARGV[0] || 20;

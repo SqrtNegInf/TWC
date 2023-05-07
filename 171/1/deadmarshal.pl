@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
+use v5.36;
 use ntheory qw(divisor_sum);
 
 sub abundant_odd_numbers{

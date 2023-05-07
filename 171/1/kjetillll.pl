@@ -1,4 +1,5 @@
 #!/usr/bin/env perl
+use v5.36;
 
 use Math::Prime::Util 'divisor_sum';
 my $want = shift // 20;
