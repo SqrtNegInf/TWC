@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-use experimental qw{ say postderef signatures state };
+use v5.36;
 
 my $f = sub ( $sub ) {
     return sub ( $x ) { return uc $sub->($x) }

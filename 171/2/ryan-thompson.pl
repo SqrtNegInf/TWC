@@ -1,9 +1,6 @@
 #!/usr/bin/env perl
-
-use 5.010;
-use warnings;
-use strict;
-no warnings 'uninitialized';
+use v5.36;
+#no warnings 'uninitialized';
 
 use List::Util qw< sum0 >;
 

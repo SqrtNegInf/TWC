@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
+use v5.36;
 
 my $f = sub{shift() + 2};
 my $g = sub{shift() * 2};

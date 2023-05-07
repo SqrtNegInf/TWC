@@ -1,9 +1,5 @@
 #!/usr/bin/env perl
-
-use v5.24;
-use warnings;
-use experimental 'signatures';
-no warnings 'experimental::signatures';
+use v5.36;
 
 my $h1 = compose(sub { $_[0] + 1 }, sub { $_[0] * 2 });
 say $h1->(1);

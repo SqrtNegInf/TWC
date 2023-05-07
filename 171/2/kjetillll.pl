@@ -1,4 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
+
 sub compose {
     my($f,$g)=@_;
     sub { $f->($g->(@_)) }
