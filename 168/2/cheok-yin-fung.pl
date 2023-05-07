@@ -1,7 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use warnings;
-use feature 'say';
 use Math::Prime::Util qw/is_prime next_prime/;
 use Math::BigInt;
 

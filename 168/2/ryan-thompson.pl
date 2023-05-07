@@ -1,10 +1,6 @@
 #!/usr/bin/env perl
-
-use 5.010;
-use warnings;
-use strict;
+use v5.36;
 use Math::Prime::Util qw< factor >;
-no warnings 'uninitialized';
 
 # Home prime, iterative implementation is ~20% faster on my system
 #sub home_prime {
