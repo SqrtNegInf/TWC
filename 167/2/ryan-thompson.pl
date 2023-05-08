@@ -1,17 +1,7 @@
 #!/usr/bin/env perl
-#
-# ch-2.pl - Gamma function, Lanczos approximation
-#
-# 2022 Ryan Thompson <rjt@cpan.org>
-
-use 5.026;
-use warnings;
-use strict;
+use v5.36;
 use List::Util qw< sum >;
 use Math::Complex;
-
-use experimental 'signatures';
-no warnings 'uninitialized';
 
 use constant {
     g   => 7,    # Arbitrary

@@ -1,10 +1,5 @@
 #!/usr/bin/env perl
-# The Weekly Challenge 167
-# Task 2 Gamma Function
-# simplified "translation" from Maxima code: 
-#     https://mrob.com/pub/ries/lanczos-gamma.html
-use v5.24.0;
-use warnings;
+use v5.36;
 
 say l_gamma($ARGV[0]) if defined($ARGV[0]);
 

@@ -1,9 +1,9 @@
 #!/usr/bin/env perl
-use 5.030;
-use warnings;
-use utf8;
+use v5.36;
+
 use Math::Complex qw/ Im Re pi /;
 use Math::Round qw/ nearest /;
+use utf8;
 use constant ε => 1e-7;
 
 sub dropImaginary {

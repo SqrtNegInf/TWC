@@ -1,9 +1,6 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-##
-# Implement a subroutine gamma() using the Lanczos approximation method.
-##
+use v5.36;
+
 use POSIX;
 use Math::Complex;
 
@@ -13,7 +10,7 @@ sub lanczos{
     my($z) = @_;
     my @p = (676.5203681218851, -1259.1392167224028, 771.32342877765313, -176.61502916214059, 12.507343278686905, -0.13857109526572012, 9.9843695780195716e-6, 1.5056327351493116e-7);
     my $y;
-    $z = new Math::Complex($z);
+    $z = Math::Complex->new($z);
     if(Re($z) < 0.5){
         $y = M_PI / (sin(M_PI * $z) * lanczos(1 - $z));
     }
