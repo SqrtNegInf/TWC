@@ -11,6 +11,7 @@ sub task1 { +@^words.grep: { not [le] .comb } }
 #       that are not alphabetically sorted.
 # That `remove` is not reflected in the example output,
 # but I did it here wanyway, for maximum exactitude (or something).
+
 sub task1_more_correct ( @words --> UInt ) { # Also modifies the @words input array!!!
 
     # Locate the positions of the unwanted elements.
@@ -31,6 +32,7 @@ my @tests =
 
     ( <aaa bbb ccc> , 0 ),
 ;
+
 use Test;
 plan 2 * @tests;
 for @tests -> (@in,  $expected) {

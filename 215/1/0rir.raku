@@ -1,36 +1,4 @@
 #!/usr/bin/env raku
-# :vim ft=raku sw=4 expandtab  # 🦋 ∅∪∩∋∈∉ ≡ ≢ «␤ » ∴
-use v6.d;
-use Test;
-
-=begin comment
-215 1: Odd one Out          Submitted by: Mohammad S Anwar
-Given a list of words (alphabetic characters only) of same size, remove all
-words not sorted alphabetically and print the number of words in the list
-that are not alphabetically sorted.
-
-Input: @words = ('abc', 'xyz', 'tsu')
-Output: 1
-
-The words 'abc' and 'xyz' are sorted and can't be removed.
-The word 'tsu' is not sorted and hence can be removed.
-Example 2
-Input: @words = ('rat', 'cab', 'dad')
-Output: 3
-
-None of the words in the given list are sorted.
-Therefore all three needs to be removed.
-Example 3
-Input: @words = ('x', 'y', 'z')
-Output: 0
-
-=end comment
-
-=begin hmmm
-   The spec can be read as dealing with words with characters out of order,
-   or with the words that are out of order.
-   Solutions for both are below.
-=end hmmm
 
 # Return count of words in @a whose chars are not in alphabetic order.
 sub disorderly-char( @a -->Int) {
@@ -74,6 +42,7 @@ my @Test =
 
 my @Dead = [(),];
 
+use Test;
 plan 2 × @Test/3 + 2 × @Dead;
 
 for @Dead -> @in {

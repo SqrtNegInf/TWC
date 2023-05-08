@@ -1,7 +1,7 @@
 #!/usr/bin/env raku
 
 sub MAIN(
-    *@words
+    @words = ('abc', 'xyz', 'tsu')
 ) {
     my $removals = 0;
 

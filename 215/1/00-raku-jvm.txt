@@ -1,0 +1,131 @@
+ 
+===> 215/1/0rir.raku <===
+1..32
+ok 1 - () by chars dies
+ok 2 - () by words dies
+ok 3 - by chars: 0 <= x y z
+ok 4 - by words: 0 <= x y z
+ok 5 - by chars: 1 <= abc xyz tsu
+ok 6 - by words: 1 <= abc xyz tsu
+ok 7 - by chars: 3 <= rat cab dad
+ok 8 - by words: 2 <= rat cab dad
+ok 9 - by chars: 0 <= a
+ok 10 - by words: 0 <= a
+ok 11 - by chars: 0 <= b a
+ok 12 - by words: 1 <= b a
+ok 13 - by chars: 0 <= b b
+ok 14 - by words: 0 <= b b
+ok 15 - by chars: 0 <= abc
+ok 16 - by words: 0 <= abc
+ok 17 - by chars: 1 <= cba
+ok 18 - by words: 0 <= cba
+ok 19 - by chars: 3 <= za za ab az xa
+ok 20 - by words: 3 <= za za ab az xa
+ok 21 - by chars: 1 <= az za
+ok 22 - by words: 0 <= az za
+ok 23 - by chars: 0 <= a a b b b
+ok 24 - by words: 0 <= a a b b b
+ok 25 - by chars: 0 <= uv wx yz aa
+ok 26 - by words: 1 <= uv wx yz aa
+ok 27 - by chars: 1 <= uv wx yz aa cb
+ok 28 - by words: 2 <= uv wx yz aa cb
+ok 29 - by chars: 0 <= uv wx aa
+ok 30 - by words: 1 <= uv wx aa
+ok 31 - by chars: 1 <= uv wx aa cb
+ok 32 - by words: 2 <= uv wx aa cb
+
+Input: @word = xyz abc tsu
+Output: 1                   # by chars
+
+Input: @word = xyz abc tsu
+Output: 2                   # by words
+ 
+===> 215/1/arne-sommer.raku <===
+1
+ 
+===> 215/1/athanasius.raku <===
+Running the test suite
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ok 4 - Repeats
+ok 5 - Capitals
+ok 6 - Mixed case
+1..6
+ 
+===> 215/1/barroff.raku <===
+1..3
+ok 1 - works for ('abc', 'xyz', 'tsu')
+ok 2 - works for ('rat', 'cab', 'dad')
+ok 3 - works for ('x', 'y', 'z')
+ 
+===> 215/1/bruce-gray.raku <===
+1..8
+ok 1 - task1 abc xyz tsu
+ok 2 - task1 rat cab dad
+ok 3 - task1 x y z
+ok 4 - task1 aaa bbb ccc
+ok 5 - task1_more_correct abc xyz
+ok 6 - task1_more_correct 
+ok 7 - task1_more_correct x y z
+ok 8 - task1_more_correct aaa bbb ccc
+ 
+===> 215/1/deadmarshal.raku <===
+1
+3
+0
+ 
+===> 215/1/feng-chang.raku <===
+1
+ 
+===> 215/1/jaldhar-h-vyas.raku <===
+1
+ 
+===> 215/1/laurent-rosenfeld.raku <===
+abc xyz tsu     => [abc xyz]
+1
+rat cab dad     => [rat dad]
+1
+x y z           => [x y z]
+0
+ 
+===> 215/1/luca-ferrari.raku <===
+1
+ 
+===> 215/1/mark-anderson.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ok 4 - 
+ 
+===> 215/1/polettix.raku <===
+1
+ 
+===> 215/1/robert-dicicco.raku <===
+Input: @words = (abc xyz tsu)
+Output: 1
+ 
+Input: @words = (rat cab dad)
+Output: 3
+ 
+Input: @words = (x y z)
+Output: 0
+ 
+ 
+===> 215/1/roger-bell-west.raku <===
+1..3
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ 
+===> 215/1/ulrich-rieke.raku <===
+1
+ 
+===> 215/1/wambash.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ok 4 - 
+ok 5 - 
+ok 6 - 
+1..6

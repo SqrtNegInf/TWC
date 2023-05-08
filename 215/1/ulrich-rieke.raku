@@ -1,12 +1,9 @@
 #!/usr/bin/env raku
-use v6 ;
 
 sub is_sorted( $aWord ) {
   my $sorted = $aWord.comb.sort.join ;
   return $sorted eq $aWord ;
 }
 
-say "Enter some words, separated by blanks!" ;
-my $line = $*IN.get ;
-my @words = $line.words ;
+my @words = ('abc', 'xyz', 'tsu');
 say @words.grep( { not ( is_sorted( $_ ) ) } ).elems ;
