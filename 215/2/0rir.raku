@@ -1,6 +1,5 @@
 #!/usr/bin/env raku
-# :vim ft=raku sw=4 expandtab  # 🦋 ∅∪∩∋∈∉ ≡ ≢ «␤ » ∴
-use v6.d;
+
 use Test;
 
 =begin comment
@@ -87,4 +86,3 @@ my @number = 1,0,0,0,0,0,0,0,1;
 my $count = 3;
 put "\n\nInput: @number = @number[], \$count = $count\nOutput: ",
         intersperseQ( @number, $count).Int;
-exit;

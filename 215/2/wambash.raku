@@ -6,7 +6,7 @@ sub number-placement (+@numbers, :$count) {
     andthen $count ≤ .elems
 }
 
-multi MAIN (Bool :test($)!) {
+#multi MAIN (Bool :test($)!) {
     use Test;
     plan 4;
     is number-placement(1,0,0,0,1,:1count),True;
@@ -14,8 +14,6 @@ multi MAIN (Bool :test($)!) {
     is number-placement(1,0,0,0,0,0,0,1,:3count),False;
     is number-placement(1,0,0,0,0,0,0,0,1,:3count),True;
     done-testing;
-}
+#}
 
-multi MAIN (*@numbers, :$count) {
-    say +number-placement @numbers, :$count
-}
+#multi MAIN (*@numbers, :$count) { say +number-placement @numbers, :$count }

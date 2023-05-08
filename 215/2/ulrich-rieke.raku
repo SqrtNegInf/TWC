@@ -1,11 +1,7 @@
 #!/usr/bin/env raku
-use v6 ;
 
-say "Enter only 1's and 0's in a row, separated by blanks!" ;
-my $line = $*IN.get ;
-my @numbers = $line.words.map( {.Int} ) ;
-say "How many zeroes would you like to replace?" ;
-my $count = $*IN.get.Int ;
+my @numbers = (1, 0, 0, 0, 1);
+my $count = 1;
 my $len = @numbers.elems ;
 my $necessary_row ;
 if ( $count = 1 ) {

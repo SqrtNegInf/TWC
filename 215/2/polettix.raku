@@ -1,10 +1,10 @@
 #!/usr/bin/env raku
-use v6;
-sub MAIN (*@args) {
+
+#sub MAIN (
+my @args = (1, 0, 0, 0, 1);
    my $count = @args.shift;
    put number-placement-sequential(@args, $count);
    put number-placement-parallel(@args, $count);
-}
 
 sub number-placement-sequential (@numbers, $count) {
    my $av = zero-streaks-count(@numbers)

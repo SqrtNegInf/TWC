@@ -1,7 +1,7 @@
 #!/usr/bin/env raku
 
 sub MAIN(
-    *@ARGS
+    @ARGS = (1, 0, 0, 0, 1)
 ) {
     my ($count, @numbers) = @ARGS;
     my $replaced = 0;

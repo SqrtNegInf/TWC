@@ -1,6 +1,7 @@
 #!/usr/bin/env raku
 
-unit sub MAIN(*@numbers where @numbers.head(*-1).all == 0|1);
+#unit sub MAIN(*@numbers where @numbers.head(*-1).all == 0|1);
+my @numbers = <1 0 0 0 1>;
 
 @numbers .= map: *.Int;
 my $count = @numbers.pop;

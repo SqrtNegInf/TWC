@@ -1,0 +1,163 @@
+ 
+===> 215/2/0rir.raku <===
+1..26
+ok 1 - False	<= 1 into 1
+ok 2 - False	<= 1 into 1 1
+ok 3 - False	<= 1 into 1 1 1
+ok 4 - True	<= 1 into 0 0 0
+ok 5 - True	<= 1 into 0 0 0 0
+ok 6 - False	<= 2 into 0 0 0 0
+ok 7 - True	<= 1 into 0 0 0 0 0
+ok 8 - True	<= 2 into 0 0 0 0 0
+ok 9 - False	<= 3 into 0 0 0 0 0
+ok 10 - True	<= 1 into 1 0 0 0
+ok 11 - True	<= 1 into 0 0 0 1
+ok 12 - True	<= 1 into 1 0 0 0 1
+ok 13 - False	<= 2 into 1 0 0 0 1
+ok 14 - True	<= 1 into 1 0 0 0 0 0 0 0 1
+ok 15 - True	<= 2 into 1 0 0 0 0 0 0 0 1
+ok 16 - True	<= 3 into 1 0 0 0 0 0 0 0 1
+ok 17 - False	<= 4 into 1 0 0 0 0 0 0 0 1
+ok 18 - False	<= 4 into 1 0 0 0 0 0 0 0 1
+ok 19 - dies 'Int' into 'List'
+ok 20 - dies '1' into 'List'
+ok 21 - dies 'Int' into 'Array'
+ok 22 - dies '1' into 'Array'
+ok 23 - dies 'Any' into '()'
+ok 24 - dies '5' into '()'
+ok 25 - dies '2' into '[]'
+ok 26 - dies '0' into '(1, 0, 0, 0, 1)'
+
+
+Input: @number = 1 0 0 0 0 0 0 0 1, $count = 3
+Output: 1
+ 
+===> 215/2/arne-sommer.raku <===
+1
+ 
+===> 215/2/athanasius.raku <===
+Running the test suite
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ok 4 - Beginning
+ok 5 - Ending
+ok 6 - Start and end
+ok 7 - One too many
+1..7
+ 
+===> 215/2/barroff.raku <===
+1..4
+ok 1 - works for (1,0,0,0,1), 1
+ok 2 - works for (1,0,0,0,1), 2
+ok 3 - works for (1,0,0,0,0,0,0,0,1), 3
+ok 4 - works for (1,0,0,0,0,0,0,0,1,0,0,0,1), 4
+ 
+===> 215/2/bruce-gray.raku <===
+1..24
+ok 1 -  task2 : 10001
+ok 2 -  task2 : 10001
+ok 3 -  task2 : 100000001
+ok 4 -  task2 : 1001
+ok 5 -  task2 : 1001
+ok 6 -  task2 : 100000001
+ok 7 -  task2 : 10001000100000001
+ok 8 -  task2 : 10001000100000001
+ok 9 -  task2_with_early_return : 10001
+ok 10 -  task2_with_early_return : 10001
+ok 11 -  task2_with_early_return : 100000001
+ok 12 -  task2_with_early_return : 1001
+ok 13 -  task2_with_early_return : 1001
+ok 14 -  task2_with_early_return : 100000001
+ok 15 -  task2_with_early_return : 10001000100000001
+ok 16 -  task2_with_early_return : 10001000100000001
+ok 17 -  task2_without_join : 10001
+ok 18 -  task2_without_join : 10001
+ok 19 -  task2_without_join : 100000001
+ok 20 -  task2_without_join : 1001
+ok 21 -  task2_without_join : 1001
+ok 22 -  task2_without_join : 100000001
+ok 23 -  task2_without_join : 10001000100000001
+ok 24 -  task2_without_join : 10001000100000001
+ 
+===> 215/2/deadmarshal.raku <===
+True
+False
+True
+ 
+===> 215/2/feng-chang.raku <===
+1
+ 
+===> 215/2/jaldhar-h-vyas.raku <===
+1
+ 
+===> 215/2/laurent-rosenfeld.raku <===
+0 - 0 0 0 1          => 0
+1 - 0 0 0 1          => 1
+2 - 0 0 0 1          => 1
+3 - 0 0 0 1          => 0
+4 - 0 0 0 1          => 0
+5 - 0 0 0 1          => 0
+0 - 0 0              => 0
+1 - 0 0              => 1
+2 - 0 0              => 1
+3 - 0 0              => 0
+4 - 0 0              => 0
+5 - 0 0              => 0
+0 - 1 0 0 1          => 0
+1 - 1 0 0 1          => 0
+2 - 1 0 0 1          => 0
+3 - 1 0 0 1          => 0
+4 - 1 0 0 1          => 0
+5 - 1 0 0 1          => 0
+0 - 1 0 0 0 1        => 0
+1 - 1 0 0 0 1        => 1
+2 - 1 0 0 0 1        => 0
+3 - 1 0 0 0 1        => 0
+4 - 1 0 0 0 1        => 0
+5 - 1 0 0 0 1        => 0
+0 - 1 0 0 0 0 0 0 1  => 0
+1 - 1 0 0 0 0 0 0 1  => 1
+2 - 1 0 0 0 0 0 0 1  => 1
+3 - 1 0 0 0 0 0 0 1  => 1
+4 - 1 0 0 0 0 0 0 1  => 1
+5 - 1 0 0 0 0 0 0 1  => 0
+ 
+===> 215/2/luca-ferrari.raku <===
+1
+ 
+===> 215/2/mark-anderson.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ok 4 - 
+ok 5 - 
+ok 6 - 
+ 
+===> 215/2/polettix.raku <===
+1
+1
+ 
+===> 215/2/robert-dicicco.raku <===
+Input: @numbers = [1 0 0 0 1]
+Count = 1
+Output: 1 = [1 0 1 0 1]
+ 
+===> 215/2/roger-bell-west.raku <===
+1..3
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ 
+===> 215/2/ulrich-rieke.raku <===
+1,0,0
+1,0,0
+1,0,0
+1
+ 
+===> 215/2/wambash.raku <===
+1..4
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ok 4 - 
