@@ -1,10 +1,8 @@
 #!/usr/bin/env perl
-
-use v5.16;
+use v5.36;
 use Test2::V0 -srand => 1;
 use Math::Prime::Util qw(prime_iterator fromdigits todigits is_prime);
 use Coro::Generator;
-use experimental 'signatures';
 
 our ($tests, $examples, $base, $minlen) = (1, 1);
 

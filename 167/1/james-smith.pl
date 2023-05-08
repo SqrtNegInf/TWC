@@ -1,9 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-
-use warnings;
-use feature qw(say);
+use v5.36;
 use Math::Prime::Util qw(next_prime is_prime);
 
 my($p,$N,$t,@res) = (1,19);

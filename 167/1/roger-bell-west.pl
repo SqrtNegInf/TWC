@@ -1,9 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use strict;
-use warnings;
-
-use experimental 'signatures';
 use List::Util qw(max);
 
 use Test::More tests => 2;

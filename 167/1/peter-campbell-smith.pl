@@ -1,12 +1,5 @@
 #!/usr/bin/env perl
-
-# Peter Campbell Smith - 2022-05-30
-# PWC 167 task 1
-
-use v5.28;
-use strict;
-use warnings;
-use utf8;
+use v5.36;
 
 my (@sieve, $count, $j, $c, $results, @seen);
 

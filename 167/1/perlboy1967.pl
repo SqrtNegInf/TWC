@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-
-use v5.16;
+use v5.36;
 
 use IO::File;
 use Math::Primality qw(next_prime);
@@ -19,7 +18,7 @@ while ($n < 19) {
   }
 }
 
-sub isCircularPrime ($) {
+sub isCircularPrime {
   my $p = $_[0];
 
   state $circularPrimes = {};

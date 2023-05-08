@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-
-use 5.010;
-use warnings;
-use strict;
+use v5.36;
 no warnings 'uninitialized';
 
 # Just built a sieve a few weeks ago.

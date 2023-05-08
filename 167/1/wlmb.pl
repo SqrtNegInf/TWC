@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-
-use v5.12;
-use warnings;
+use v5.36;
 use Math::Prime::Util qw(next_prime is_prime);
 use List::Util qw(all);
 my $count=0;

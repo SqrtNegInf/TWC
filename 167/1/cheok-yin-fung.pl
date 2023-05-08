@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-
-use v5.24.0;
-use warnings;
+use v5.36;
 use List::Util qw/min reduce pairmap any all/;
 
 my @c_prime = ("-1", 2, 3, 5, 7, 11, 13, 17, 31, 37, 71, 73, 79, 97);

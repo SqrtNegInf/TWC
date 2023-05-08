@@ -1,9 +1,9 @@
 #!/usr/bin/env perl
-use warnings;
-use feature "say";
+use v5.36;
 use constant MAX => 10;
 
 my @primes = (2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31); #Init small primes
+my %seen; # global, unfortunately
 
 sub is_prime {
    my $n = shift;
@@ -32,7 +32,7 @@ while (1) {
     $n += 2;
     next unless is_prime $n;
     next if $seen{$n};
-    next unless rotate_and_test $n;
+    next unless rotate_and_test($n);
     print "$n ";
     $count++;
     last if $count >= MAX;
