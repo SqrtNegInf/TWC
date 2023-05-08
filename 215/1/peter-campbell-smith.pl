@@ -1,9 +1,5 @@
 #!/usr/bin/env perl
-
-use v5.16;    # The Weekly Challenge - 2023-05-01
-use utf8;     # Week 215 task 1 - Odd one out
-use strict;   # Peter Campbell Smith
-use warnings; # Blog: http://ccgi.campbellsmiths.force9.co.uk/challenge
+use v5.36;
 
 odd_one_out('abc', 'xyz', 'tsu');
 odd_one_out('rat', 'cab', 'dad');

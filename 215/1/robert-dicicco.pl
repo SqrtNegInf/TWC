@@ -1,11 +1,4 @@
 #!/usr/bin/env perl
-=begin pod
-----------------------------------------
-AUTHOR: Robert DiCicco
-DATE  : 2023-05-01
-Challenge 215 Odd One Out ( Perl )
-----------------------------------------
-=cut
 use strict;
 use warnings;
 use feature 'say';
@@ -21,21 +14,3 @@ for my $wds (@words) {
     }
     say "Output: $cnt\n";
 }
-
-=begin pod
-----------------------------------------
-SAMPLE OUTPUT
-perl .\OddOneOut.pl
-Input: @words = (abc xyz tsu)
-Output: 1
-
-Input: @words = (rat cab dad)
-Output: 3
-
-Input: @words = (x y z)
-Output: 0
-----------------------------------------
-=cut
-
-
-
