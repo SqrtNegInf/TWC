@@ -1,9 +1,5 @@
 #!/usr/bin/env perl
-
-use v5.16;    # The Weekly Challenge - 2023-05-01
-use utf8;     # Week 215 task 2 - Number placement
-use strict;   # Peter Campbell Smith
-use warnings; # Blog: http://ccgi.campbellsmiths.force9.co.uk/challenge
+use v5.36;
 
 number_placement([1, 0, 0, 0, 1], 1);
 number_placement([1, 0, 0, 0, 1], 2);

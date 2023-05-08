@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
+use v5.36;
 
 sub can_replace_zeroes {
     my ( $numbers_ref, $count ) = @_;

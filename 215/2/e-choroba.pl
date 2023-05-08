@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-use warnings;
-use strict;
-use experimental qw( signatures );
+use v5.36;
 
 sub number_placement($list, $count) {
     (() = "@$list" =~ /0 0(?= 0)/g) >= $count ? 1 : 0

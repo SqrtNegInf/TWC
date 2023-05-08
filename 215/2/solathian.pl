@@ -1,5 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
+use v5.36;
 
 numberPlacement(1, (1,0,0,0,1));
 numberPlacement(2, (1,0,0,0,1));

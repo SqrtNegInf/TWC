@@ -1,5 +1,6 @@
 #!/usr/bin/env perl
-use v5.30.0;
+use v5.36;
+
 my @numbers = (1,0,0,0,1);
 my $count = 1;
 say "Input: \@numbers = (" . join(",", @numbers) . "), \$count = $count";

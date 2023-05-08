@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-
 use v5.36;
-use strict;
-use warnings;
 
 sub count_places ($zeros) {
     return int( ( length($zeros) - 1 ) / 2 );
