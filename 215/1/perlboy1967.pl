@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-
-use v5.16;
-
+use v5.36;
 use common::sense;
 
 use Test::More;

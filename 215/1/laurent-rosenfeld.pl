@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use feature 'say';
-
+use v5.36;
 sub find_non_sorted {
     my @in = @_;
     my @out = $in[0];

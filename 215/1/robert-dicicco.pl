@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use feature 'say';
-
+use v5.36;
 my @words = (["abc", "xyz", "tsu"],["rat", "cab", "dad"],["x", "y", "z"]);
 
 for my $wds (@words) {

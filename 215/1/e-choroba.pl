@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-use warnings;
-use strict;
-use experimental qw( signatures );
+use v5.36;
 
 sub odd_one_out(@words) {
     scalar grep {
