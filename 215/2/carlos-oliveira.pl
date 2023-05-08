@@ -1,8 +1,7 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
 use v5.36;
 use builtin qw(true false);
+no warnings "experimental::builtin";
 
 use Test::More;
 use List::Util qw(all);

@@ -4,7 +4,7 @@ use warnings;
 use experimental 'signatures';
 use List::Util 'sum';
 
-my @args = map { split m{[\s,]*}mxs } @ARGV;
+my @args = map { split m{[\s,]*}mxs } (1, 0, 0, 0, 1);
 @args = (1, 1, 0, 0, 0, 1) unless @args;
 say number_placement_sequential(@args);
 say number_placement_parallel(@args);

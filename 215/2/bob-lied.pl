@@ -1,19 +1,4 @@
 #!/usr/bin/env perl
-# vim:set ts=4 sw=4 sts=4 et ai wm=0 nu:
-#=============================================================================
-# ch-2.pl Perl Weekly Challenge Task 2 Number Placement 
-#=============================================================================
-# Copyright (c) 2023, Bob Lied
-#=============================================================================
-# You are given a list of numbers having just 0 and 1. You are also given
-# placement count (>=1).
-# Write a script to find out if it is possible to replace 0 with 1 in the
-# given list. The only condition is that you can only replace when there is
-# no 1 on either side. Print 1 if it is possible otherwise 0.
-# Example 1: Input: @numbers = (1,0,0,0,1), $count = 1 Output: 1
-# Example 2: Input: @numbers = (1,0,0,0,1), $count = 2 Output: 0
-# Example 3: Input: @numbers = (1,0,0,0,0,0,0,0,1), $count = 3 Output: 1
-#=============================================================================
 
 use v5.36;
 
