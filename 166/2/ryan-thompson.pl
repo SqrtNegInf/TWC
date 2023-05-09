@@ -1,12 +1,5 @@
 #!/usr/bin/env perl
-#
-# dirdiff - Compare two or more directories and report differences
-#
-# 2003-2021 Ryan Thompson <rjt@cpan.org>
-
-use 5.010;
-use warnings;
-use strict;
+use v5.36;
 no warnings 'uninitialized';
 
 use File::Slurp qw< read_dir >;

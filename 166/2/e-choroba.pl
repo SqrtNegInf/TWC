@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-use warnings;
-use strict;
+use v5.36;
 
 use Path::Tiny qw{ path };
 use Text::Table;

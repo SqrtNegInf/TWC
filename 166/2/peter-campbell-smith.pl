@@ -1,12 +1,5 @@
 #!/usr/bin/env perl
-
-# Peter Campbell Smith - 2022-05-23
-# PWC 166 task 2
-
-use v5.28;
-use strict;
-use warnings;
-use utf8;
+use v5.36;
 
 # Given a few (three or more) directories (non-recursively), display a side-by-side 
 # difference of files that are missing from at least one of the directories. Do not 

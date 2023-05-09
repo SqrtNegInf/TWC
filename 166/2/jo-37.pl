@@ -1,10 +1,6 @@
 #!/usr/bin/env perl
-
-use v5.16;
-use warnings;
-use autodie;
+use v5.36;
 use List::Util qw(max pairgrep);
-use experimental 'signatures';
 
 
 my @D  = <dir_a dir_b dir_c dir_d>;

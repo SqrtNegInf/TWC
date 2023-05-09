@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-use v5.24;
-use warnings;
-use experimental 'signatures';
-no warnings 'experimental::signatures';
+use v5.36;
 use File::Spec::Functions qw< splitpath catpath >;
 
 k_directory_diff(qw< dir_a dir_b dir_c dir_d >);

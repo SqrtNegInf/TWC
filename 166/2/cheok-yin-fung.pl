@@ -1,4 +1,5 @@
 #!/usr/bin/env perl
+use v5.36;
 # The Weekly Challenge 166
 # Task 2: K-Directory Diff
 use v5.24.0;

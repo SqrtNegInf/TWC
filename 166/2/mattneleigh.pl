@@ -1,7 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use strict;
-use warnings;
 use English;
 
 my @dirs = <dir_a dir_b dir_c dir_d>;

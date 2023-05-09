@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-
-use v5.16;
-
+use v5.36;
 use List::Util qw(max);
 use Data::Printer;
 
@@ -9,7 +7,7 @@ use Data::Printer;
 
 kDirDiff(<dir_a dir_b dir_c dir_d>);
 
-sub kDirDiff (@) {
+sub kDirDiff {
   my (@dirs) = sort @_;
 
   my %dirEntries;
