@@ -1,10 +1,9 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use v5.16;
 use Test2::V0 -srand => 1;
 use Math::Prime::Util qw(fromdigits todigits prime_iterator);
 use Syntax::Keyword::Gather;
-use experimental 'signatures';
 
 our ($tests, $examples, $base) = (1,1);
 $base ||= 10;

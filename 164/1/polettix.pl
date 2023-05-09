@@ -1,9 +1,5 @@
 #!/usr/bin/env perl
-
-use v5.24;
-use warnings;
-use experimental 'signatures';
-no warnings 'experimental::signatures';
+use v5.36;
 
 my $max = shift // 989;
 say join ' ', grep {is_prime($_) && is_palindrome($_)} 2 .. $max;

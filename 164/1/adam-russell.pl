@@ -1,10 +1,6 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-##
-# Write a script to find all prime numbers less than 1000, which
-# are also palindromes in base 10.
-##
+use v5.36;
+
 use Math::Primality qw/is_prime/;
 
 sub palindrome_primes_under{

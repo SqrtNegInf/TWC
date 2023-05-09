@@ -58,8 +58,29 @@ The 20 prime numbers less than 1000 which are also palindromes in base 10:
 ok 1
  
 ===> 164/1/james-marquis.pl <===
-You entered 
-The range requested was  10 to .
+Reverse of 19 is 91 has factors 7 13 .
+Reverse of 103 is 301 has factors 7 43 .
+Reverse of 109 is 901 has factors 17 53 .
+Reverse of 127 is 721 has factors 7 103 .
+Reverse of 137 is 731 has factors 17 43 .
+Reverse of 139 is 931 has factors 7 7 19 .
+Reverse of 163 is 361 has factors 19 19 .
+Reverse of 173 is 371 has factors 7 53 .
+Reverse of 193 is 391 has factors 17 23 .
+Reverse of 197 is 791 has factors 7 113 .
+Reverse of 307 is 703 has factors 19 37 .
+Reverse of 317 is 713 has factors 23 31 .
+Reverse of 331 is 133 has factors 7 19 .
+Reverse of 349 is 943 has factors 23 41 .
+Reverse of 367 is 763 has factors 7 109 .
+Reverse of 379 is 973 has factors 7 139 .
+Reverse of 397 is 793 has factors 13 61 .
+Reverse of 719 is 917 has factors 7 131 .
+Reverse of 773 is 377 has factors 13 29 .
+Reverse of 911 is 119 has factors 7 17 .
+Reverse of 947 is 749 has factors 7 107 .
+Reverse of 977 is 779 has factors 19 41 .
+Reverse of 997 is 799 has factors 17 47 .
  
 ===> 164/1/james-smith.pl <===
 2

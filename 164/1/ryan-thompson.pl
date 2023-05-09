@@ -1,9 +1,5 @@
 #!/usr/bin/env perl
-
-use 5.010;
-use warnings;
-use strict;
-
+use v5.36;
 no warnings 'uninitialized';
 
 say for grep { $_ eq scalar reverse $_ } primes_under( pop // 1000 );
