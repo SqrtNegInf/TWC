@@ -1,13 +1,8 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use strict;
-use warnings;
-use feature 'say';
 use Getopt::Long;
 use List::Util qw(sum);
-use feature 'signatures';
-
-no warnings qw(experimental::signatures);
 
 my $limit   =   8;
 my $delta   = 100,

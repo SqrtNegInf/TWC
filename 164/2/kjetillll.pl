@@ -1,5 +1,6 @@
 #!/usr/bin/env perl
-use List::Util 'sum'; use strict; use warnings;
+use v5.36;
+use List::Util 'sum'; 
 
 sub is_happy {
     my $n = shift;

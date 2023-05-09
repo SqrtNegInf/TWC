@@ -1,7 +1,6 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use List::Util qw(sum0);
+use v5.36;
+use List::Util 'sum0';
 
 sub is_happy{
   my ($n) = @_;

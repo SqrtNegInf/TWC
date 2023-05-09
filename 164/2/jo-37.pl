@@ -1,12 +1,9 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use v5.16;
 use Test2::V0 -srand => 1;
 use Math::Prime::Util qw(todigits vecreduce);
 use Coro::Generator;
-use Data::Dump;
-
-use experimental 'signatures';
 
 our ($tests, $examples, $base, $power) = (1,1);
 $base ||= 10;

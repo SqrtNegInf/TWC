@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use v5.16;
 use List::Util qw(sum);
 
 my ($i,$j) = (0,0);
@@ -8,7 +8,7 @@ while ($i < 8) {
   (say $j and $i++) if isHappy(++$j);
 }
 
-sub isHappy ($) {
+sub isHappy {
   my ($n) = @_;
 
   my %seen;

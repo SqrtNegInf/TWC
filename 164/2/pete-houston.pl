@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
+use v5.36;
 
 my $n = shift // 8;
 die "Argument must be natural number.\n" unless $n =~ /^[1-9][0-9]*$/;

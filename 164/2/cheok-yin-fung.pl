@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-use v5.22.0;
-use warnings;
+use v5.36;
 use List::Util qw/sum any/;
 
 my $happiness = $ARGV[0] || 8;

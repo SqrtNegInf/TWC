@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
+use v5.36;
 
 my %happy;
 my $n = @ARGV && $ARGV[0] =~ /^\d+$/ ? $ARGV[0]: 8;

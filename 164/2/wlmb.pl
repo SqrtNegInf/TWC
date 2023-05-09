@@ -1,7 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use v5.12;
-use warnings;
 use List::Util qw(sum);
 
 my $desired=8;
