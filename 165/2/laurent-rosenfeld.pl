@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use feature "say";
+use v5.36;
 
 my $input =
    '333,129  39,189 140,156 292,134 393,52  160,166 362,122  13,193

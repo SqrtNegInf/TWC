@@ -1,12 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-# Peter Campbell Smith - 2022-05-16
-# PWC 165 task 2
-
-use v5.28;
-use strict;
-use warnings;
-use utf8;
 use SVG;
 
 # Calculate the least-squares best linear fit of the supplied set of points

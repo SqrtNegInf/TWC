@@ -1,9 +1,6 @@
 #!/usr/bin/env perl
-# The Weekly Challenge 165
-# Task 2 Line of Best Fit
-# Usage: $ ch-2.pl
-use v5.24.0;
-use warnings;
+use v5.36;
+
 use List::Util qw/min max sum/;
 #use ARGV::OrDATA; # not with 'cron'
 

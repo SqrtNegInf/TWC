@@ -1,16 +1,8 @@
 #!/usr/bin/env perl
-use warnings;
-use strict;
-use feature qw{ say };
+use v5.36;
 
 # use ARGV::OrDATA; # not with 'cron'
 use List::Util qw{ sum };
-
-=head1 Usage
-
-ch-2.pl input_file | ch-1.pl - > out.svg
-
-=cut
 
 my @points;
 while ($_ = <DATA>) {

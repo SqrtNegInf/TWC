@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-use v5.24;
-use warnings;
-use experimental 'signatures';
-no warnings 'experimental::signatures';
+use v5.36;
 
 my @points = map {[split m{\D+}]} grep { /\S/ } split m{\s+}mxs, '
    333,129  39,189 140,156 292,134 393,52  160,166 362,122  13,193
