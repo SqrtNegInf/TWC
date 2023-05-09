@@ -1,4 +1,8 @@
 #!/usr/bin/env perl
+#use v5.36;
+### 2023-05-09 could not get this working, between export/import, Moo
+#
+
 #
 #       scriving-pictures.pl
 #

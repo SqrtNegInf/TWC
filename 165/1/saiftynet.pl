@@ -1,11 +1,5 @@
 #!/usr/bin/env perl
-
-# Usage:  ch-1or2.pl   Default...just does challenge 2 using data in __DATA__
-#         ch-1or2.pl <-i inputFile> <-o outputfile> specify input and output files
-#         ch-1or2.pl -l 0   Disables line of best fit
-
-use strict;
-use warnings;
+use v5.36;
 
 my %params=@ARGV; # read command line params as hash 
 # input data

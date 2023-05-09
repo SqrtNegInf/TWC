@@ -1,7 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use v5.24.0;
-use warnings;
 use SVG;
 #use ARGV::OrDATA;
 

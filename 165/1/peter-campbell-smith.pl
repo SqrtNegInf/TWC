@@ -1,9 +1,6 @@
 #!/usr/bin/env perl
-
-use v5.28;
-use strict;
-use warnings;
-use utf8;
+use v5.36;
+#use utf8;
 use SVG;
 
 # Your task is to accept a series of points and lines in the following format, 
