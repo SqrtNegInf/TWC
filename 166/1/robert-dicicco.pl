@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-use feature qw/say/;
+use v5.36;
 
 my %letters = ( 'a'=>'a','b'=>'b','c'=>'c','d'=>'d','e'=>'e','f'=>'f','o'=>0,'l'=>1,'i'=>1,'s'=>5,'t'=>7);
 my $found = 0;

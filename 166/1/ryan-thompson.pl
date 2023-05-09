@@ -1,10 +1,6 @@
 #!/usr/bin/env perl
-#
-# pwc_hexwords.pl - Hexwords for PWC
-#
-# 2022 Ryan Thompson <rjt@cpan.org>
+use v5.36;
 
-use 5.010;
 use File::Slurper qw< read_lines >;
 
 my $dict = $ARGV[0] // 'dictionary.txt';

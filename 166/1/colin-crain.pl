@@ -34,13 +34,7 @@
 #       © 2022 colin crain
 ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ##
 
-use warnings;
-use strict;
-use utf8;
-use feature ":5.26";
-use feature qw(signatures);
-no warnings 'experimental::signatures';
-use List::Util qw( sum0 );
+use v5.36;
 
 my $dict = './words.txt';
 open my $fh, '<', $dict or die "can't open dict $dict: $!\n";

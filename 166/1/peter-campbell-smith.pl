@@ -1,12 +1,5 @@
 #!/usr/bin/env perl
-
-# Peter Campbell Smith - 2022-05-23
-# PWC 166 task 1
-
-use v5.28;
-use strict;
-use warnings;
-use utf8;
+use v5.36;
 
 # Write a program that will read from a dictionary and find 2- to 8-letter words 
 # that can be “spelled” in hexadecimal, with the addition of the following letter substitutions:

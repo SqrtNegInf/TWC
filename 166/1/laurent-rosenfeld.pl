@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use feature "say";
+use v5.36;
 
 my $file_in = "words.txt";
 open my $IN, "<", $file_in or die "unable to open $file_in";
