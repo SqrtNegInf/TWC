@@ -1,12 +1,5 @@
 #!/usr/bin/env perl
-
-# Peter Campbell Smith - 2022-04-25
-# PWC 162 task 2
-
-use v5.28;
-use strict;
-use warnings;
-use utf8;
+use v5.36;
 
 my ($c, $j, $key, $letter, $matrix, $r, %used, @key, @letters, @plain,
 	$plain, $fixed, $prev, %locate, $encrypted, $decrypted);

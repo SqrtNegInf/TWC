@@ -80,10 +80,6 @@ ok 4 - repeated x
 ok 5 - double x
 1..5
  
-===> 162/2/julien-fiegehenn.pl <===
-BMODZBXDNABEKUDMUIXMMOUVIF
-THEWEXEKLYCHALLENGEX
- 
 ===> 162/2/kueppo-wesley.pl <===
 ok 1 - bmodzbxdnabekudmuixmmouvif
 ok 2 - hidethegoldinthetrexestump
@@ -95,21 +91,6 @@ ok 4 - thewexeklychallengex
 hide the gold in the tree stump -> bmodzbxdnabekudmuixmmouvif
 Round trip: hidethegoldinthetrexestump
 siderwrdulfipaarkcrw -> thewexeklychallengex
- 
-===> 162/2/mattneleigh.pl <===
-
-Encryption:
-	Plaintext:  Hide the gold in the tree stump
-	Passphrase: playfair example
-	Key:        PLAYFIREXMBCDGHKNOQSTUVWZ
-	Ciphertext: BMODZBXDNABEKUDMUIXMMOUVIF
-
-Decryption:
-	Ciphertext: siderwrdulfipaarkcrw
-	Passphrase: perl and raku
-	Key:        PERLANDKUBCFGHIMOQSTVWXYZ
-	Plaintext:  THEWEXEKLYCHALLENGEX
-
  
 ===> 162/2/perlboy1967.pl <===
 ok 1

@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use feature "say";
-
+use v5.36;
 sub make_cipher_table {
     my $key = lc $_[0];
     $key =~ s/j/i/g; # we can handle 25 letters, replace J's with I's

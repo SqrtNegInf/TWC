@@ -1,13 +1,6 @@
 #!/usr/bin/env perl
-#
-# ch-2.pl - Playfair Cipher
-#
-# 2022 Ryan Thompson <rjt@cpan.org>
+use v5.36;
 
-use 5.010;
-use warnings;
-use strict;
-no warnings 'uninitialized';
 use Test::More;
 use List::Util qw< pairmap >;
 

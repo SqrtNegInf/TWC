@@ -1,25 +1,5 @@
 #!/usr/bin/env perl
-
-=pod
-Task 2: Wheatstone-Playfair
-Submitted by: Roger Bell_West
-
-Implement encryption and decryption using the Wheatstone-Playfair cipher.
-
-Examples:
-
-  (These combine I and J, and use X as padding.)
- 
-  encrypt("playfair example", "hide the gold in the tree stump") = "bmodzbxdnabekudmuixmmouvif"
- 
-  decrypt("perl and raku", "siderwrdulfipaarkcrw") = "thewexeklychallengex"
-=cut
-
-use strict;
-use warnings;
-use autodie;
-use feature qw'say state signatures';
-no warnings qw'experimental::signatures';
+use v5.36;
 
 #use FindBin    ();
 #use File::Spec ();

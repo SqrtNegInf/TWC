@@ -1,13 +1,6 @@
 #!/usr/bin/env perl
-# The Weekly Challenge 162
-# Task 2 Wheatstone-Playfair cipher
-# Usage:
-# $ ch-1.pl 1 "$key" "$text_to_be_encrypted"
-# $ ch-1.pl 0 "$key" "$text_to_be_decrypted"
+use v5.36;
 
-use v5.22.0;
-use warnings;
-use Data::Dumper;
 use List::Util qw/pairmap uniqstr first/;
 
 if (defined($ARGV[2])) {

@@ -18,12 +18,8 @@
 
 srand 1;
 
-use warnings;
-use strict;
-use utf8;
-use feature ":5.26";
-use feature qw(signatures);
-no warnings 'experimental::signatures';
+use v5.36;
+
 use constant { PAD => 'Q' };
 
 my $phrase    = shift @ARGV // 'playfair example';

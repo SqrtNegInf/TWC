@@ -1,20 +1,5 @@
 #!/usr/bin/env perl
-
-=pod
-
-The Weekly Challenge - 162
- - https://perlweeklychallenge.org/blog/perl-weekly-challenge-162/#TASK2
-
-Author: Niels 'PerlBoy' van Dijke
-
-Task 2: Wheatstone-Playfair
-Submitted by: Roger Bell_West
-
-Implement encryption and decryption using the Wheatstone-Playfair cipher.
-
-=cut
-
-use v5.16;
+use v5.36;
 
 use constant WP_ENCRYPT => 1;
 use constant WP_DECRYPT => -1;
@@ -27,17 +12,17 @@ is(decrypt('perl and raku', 'siderwrdulfipaarkcrw'), 'thewexeklychallengex');
 done_testing();
 
 
-sub encrypt ($$) {
+sub encrypt {
   _wpCrypt($_[0],$_[1],WP_ENCRYPT);
 }
 
 
-sub decrypt ($$) {
+sub decrypt {
   _wpCrypt($_[0],$_[1],WP_DECRYPT);
 }
 
 
-sub _wpCrypt ($$$) {
+sub _wpCrypt {
   my ($key,$text,$mode) = (lc $_[0], lc $_[1], $_[2]);
 
   my ($hrC2L,$arL2C,@return);
@@ -75,7 +60,7 @@ sub _wpCrypt ($$$) {
     if $mode == WP_ENCRYPT;
 
   # Process per 2 chars of plaintext
-  while ($text =~ s#^(.)(.)?##c) {
+  while ($text =~ s#^(.)(.)?##) {              # 'c' modifier no longer needed
     my ($char1,$char2) = ($1, $2 // 'x');
 
     my ($c1,$c2) = ($hrC2L->{$char1},$hrC2L->{$char2});

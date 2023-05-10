@@ -1,9 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-
-use warnings;
-use feature qw(say state);
+use v5.36;
 use Test::More;
 
 is( encrypt('playfair example', 'hide the gold in the tree stump'), 'bmodzbxdnabekudmuixmmouvif' );

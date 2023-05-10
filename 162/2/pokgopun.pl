@@ -1,8 +1,7 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-my $debug = 0;
+use v5.36;
 
+my $debug = 0;
 my($key,$msg2encrypt) = @ARGV ? @ARGV : ("playfair example", "hide the gold in the tree stump"); 
 $key = lc($key);
 $msg2encrypt = lc($msg2encrypt);
