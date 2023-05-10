@@ -1,7 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use v5.22.0;
-use warnings;
 use List::Util qw/sum pairmap first/;
 
 if (defined($ARGV[0])) {

@@ -1,10 +1,7 @@
 #!/usr/bin/env perl
+use v5.36;
 
 # as with .raku, answer differs from others
-
-use strict;
-use warnings;
-use feature 'say';
 
 use Getopt::Long;
 use Perl6::Junction 'all';

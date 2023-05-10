@@ -1,12 +1,5 @@
 #!/usr/bin/env perl
-
-# Peter Campbell Smith - 2022-05-03
-# PWC 163 task 1
-
-use v5.28;
-use strict;
-use warnings;
-use utf8;
+use v5.36;
 
 # You are given list positive numbers, @n.
 # Write a script to calculate the sum of bitwise & operator for all unique pairs.

@@ -1,10 +1,6 @@
 #!/usr/bin/env perl
-use strict;
-use warnings; 
-##
-# You are given a list of numbers. Write a script to calculate
-# the sum of the bitwise & operator for all unique pairs.  
-##
+use v5.36;
+
 sub sum_bitwise{
     my $sum = 0;
     for my $i (0 .. @_ - 2){

@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-package main;
-use strict;
-use warnings;
+use v5.36;
 use List::Util qw/uniq/;
 use Algorithm::Combinatorics qw /combinations/;
 

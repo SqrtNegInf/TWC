@@ -5,7 +5,7 @@
 7
  
 ===> 163/1/arne-sommer.pl <===
-5
+7
  
 ===> 163/1/athanasius.pl <===
 Input:  @n = (1, 2, 3, 10)
@@ -55,7 +55,7 @@ ok 4 - asymmetric
 ===> 163/1/laurent-rosenfeld.pl <===
 1 2 3 -> 3
 2 3 4 -> 2
-1 2 3 10 -> 5
+1 2 3 10 -> 7
  
 ===> 163/1/lubos-kolouch.pl <===
 ok 1
@@ -65,7 +65,7 @@ ok 4
 1..4
  
 ===> 163/1/luiz-felipe.pl <===
-the sum of bitwise of these numbers are 5
+the sum of bitwise of these numbers are 7
  
 ===> 163/1/mohammad-anwar.pl <===
 ok 1 - Example 1
@@ -112,7 +112,7 @@ ok 2 - example 2
 ok 3 - example 3
  
 ===> 163/1/ulrich-rieke.pl <===
-5
+7
  
 ===> 163/1/wlmb.pl <===
 Input: [1 2 3 10] Output: 7

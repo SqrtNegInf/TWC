@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-
-use v5.16;
+use v5.36;
 
 use List::Util qw(sum);
 use List::MoreUtils qw(singleton duplicates uniq);
