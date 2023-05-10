@@ -1,18 +1,10 @@
 #!/usr/bin/env perl
-#
-# ch-2.pl - Pangram generator
-#
-# 2022 Ryan Thompson <rjt@cpan.org>
-
-use 5.010;
-use warnings;
-use strict;
+use v5.36;
+no warnings 'uninitialized';
 
 use List::Util    qw< uniq >;
 use File::Slurper qw< read_lines >;
 use Getopt::Long;
-
-no warnings 'uninitialized';
 
 my %o = (dict => 'dictionary.txt', min => 4);
 GetOptions(\%o, qw< dict=s min=i >)

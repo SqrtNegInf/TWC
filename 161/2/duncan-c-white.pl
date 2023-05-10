@@ -1,4 +1,5 @@
 #!/usr/bin/env perl
+use v5.36;
  
 srand 1;
 # TASK #2 - Pangrams
@@ -40,9 +41,7 @@ srand 1;
 # but anything more constrained sounds pretty hard.
 # 
 
-use strict;
-use warnings;
-use feature 'say';
+
 use Getopt::Long;
 use Function::Parameters;
 use List::Util qw(min max);

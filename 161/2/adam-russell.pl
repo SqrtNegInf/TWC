@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
+use v5.36;
 
 die 'not ok - disabled: got much slower?';
 
@@ -11,7 +10,7 @@ use Lingua::EN::Tagger;
 
 sub pangram{
     my %tagged_words;
-    my $tagger = new Lingua::EN::Tagger;
+    my $tagger = Lingua::EN::Tagger->new();
     for my $word (@_){
         chomp($word);
         my $tagged_text = $tagger->add_tags($word);

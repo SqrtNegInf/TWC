@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-# The Weekly Challenge 161
-# Task 2 Pangrams
+use v5.36;
 
 srand 1;
 # BONUS: Doing The 3rd Suggestion, 
@@ -8,11 +7,7 @@ srand 1;
 # For example, such a pangram might begin with:
 #    a ah hi hid die ice tea ..."
 
-use v5.22.0;
-use warnings;
 use List::Util qw/uniqstr all shuffle/;
-use Data::Dumper;
-
 
 # Import Word List
 
