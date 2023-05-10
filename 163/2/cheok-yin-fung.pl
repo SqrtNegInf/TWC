@@ -1,10 +1,5 @@
 #!/usr/bin/env perl
-# The Weekly Challenge 163
-# Task 2 Summation
-# Usage: $ ch-2.pl @n
-use v5.22.0;
-use warnings;
-
+use v5.36;
 
 say compute(@ARGV) if defined($ARGV[0]);
 

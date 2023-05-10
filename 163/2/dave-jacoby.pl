@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-use experimental qw{ say postderef signatures state };
+use v5.36;
 
 my @n = @ARGV;
 @n = ( 1, 2, 3, 4, 5 ) unless scalar @n;

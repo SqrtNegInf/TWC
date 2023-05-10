@@ -1,10 +1,8 @@
 #!/usr/bin/env perl
-
-use 5.010;
-use warnings;
-use strict;
-use List::Util qw< sum >;
+use v5.36;
 no warnings 'uninitialized';
+
+use List::Util qw< sum >;
 
 say sum_rec((1,3,5,7,9));
 

@@ -1,9 +1,6 @@
 #!/usr/bin/env perl
-use strict;
-use  warnings;
-##
-# Given a list of numbers @n,  generate the skip summations.
-##
+use v5.36;
+
 sub skip_summations{
     my @lines = ([@_]);
     for my $i (1 .. @_ - 1){
