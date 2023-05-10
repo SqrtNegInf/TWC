@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-# The Weekly Challenge 161
-# Task 1 Abecedarian Words
-use v5.22.0;
-use warnings;
+use v5.36;
 
 open DICT, "dictionary.txt" or die "unable to get the dictionary.\n";
 

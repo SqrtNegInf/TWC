@@ -1,7 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use v5.16;
-use warnings;
 use constant DICT => 'dictionary.txt';
 use List::Util 'reduce';
 use Syntax::Keyword::Gather;

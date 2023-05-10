@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-use 5.030;
-use warnings;
+use v5.36;
 use English qw/ -no_match_vars /;
 
 # Boy abhors forty cent eggs; cost is crux. Cops chip in, buy a box for him.

@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-package main;
-use strict;
-use warnings;
-
+use v5.36;
 # glory for best belly boy!
 
 sub is_abcd {

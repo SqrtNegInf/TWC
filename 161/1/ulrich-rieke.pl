@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-use strict ;
-use warnings ;
-use feature 'say' ;
+use v5.36;
 
 my $file = "dictionary.txt" ;
 open ( FH , "< $file" ) or die "Can't find input file!\n" ;

@@ -1,5 +1,7 @@
 #!/usr/bin/env perl
-use feature 'say';;
+use v5.36;
+no warnings 'uninitialized';
+
 my @abecedarian;
 my $dict = "dictionary.txt";
 open my $IN, "<", $dict or die "Cannot open $dict $!";

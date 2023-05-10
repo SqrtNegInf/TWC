@@ -1,10 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-use experimental qw{ say postderef signatures state };
-
-# Accept chintz effort
+use v5.36;
 
 my @dict = get_dict();
 say join "\n", sort { length $b <=> length $a }

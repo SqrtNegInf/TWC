@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
+use v5.36;
 
 my $dict = @ARGV ? shift : "dictionary.txt";
 printf "%s\n", join(", ",abc($dict));

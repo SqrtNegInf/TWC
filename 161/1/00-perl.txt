@@ -34,13 +34,6 @@ begorry
 billowy
 egilops
  
-===> 161/1/duncan-c-white.pl <===
-alloquy
-beefily
-begorry
-billowy
-egilops
- 
 ===> 161/1/e-choroba.pl <===
 alloquy
 beefily
@@ -140,9 +133,6 @@ alloquy, beefily, begorry, billowy, egilops
  
 ===> 161/1/polettix.pl <===
 alloquy beefily begorry billowy egilops
- 
-===> 161/1/robert-dicicco.pl <===
-alloquy beefily begorry billowy egilops 
  
 ===> 161/1/ulrich-rieke.pl <===
 alloquy,beefily,begorry,billowy,egilops

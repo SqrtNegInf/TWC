@@ -1,7 +1,6 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-##
+use v5.36;
+
 # An abecedarian word is a word whose letters are arranged in alphabetical order. 
 # For example, “knotty” is an abecedarian word, but “knots” is not. Output or 
 # return a list of all abecedarian words in the dictionary, sorted in decreasing 
