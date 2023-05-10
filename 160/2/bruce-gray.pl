@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
-use Modern::Perl;
-use experimental qw<signatures>;
+use v5.36;
+#use Modern::Perl; #  DH see note for #1 task
 use List::Util   qw<sum0 reductions>;
 
 sub eq_index (@list) {

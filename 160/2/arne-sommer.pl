@@ -1,8 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use strict;
-use warnings;
-use feature 'say';
 use List::Util 'sum';
 use Getopt::Long;
 use Perl6::Junction 'all';

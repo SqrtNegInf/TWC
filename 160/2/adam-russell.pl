@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-
+use v5.36;
 
 sub equilibrium_index{
     for my $i (0 .. @_ - 1){

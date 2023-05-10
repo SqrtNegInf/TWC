@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
+use v5.36;
 use List::Util qw/sum/;
 
 my @samples = @ARGV > 3 && join("",@ARGV) =~ /^\d+$/ ? ([@ARGV]) : ([1,3,5,7,9],[1,2,3,4,5],[2,4,2]);
