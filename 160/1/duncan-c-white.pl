@@ -1,11 +1,7 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-use feature 'say';
+use v5.36;
 use Getopt::Long;
 use List::Util qw(sum0);
-#use Data::Dumper;
 
 my $n = shift // 9;
 die "four-is-magic: n ($n) must be < 10\n" if $n>9;

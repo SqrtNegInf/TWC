@@ -1,4 +1,5 @@
 #!/usr/bin/env perl
+use v5.36;
 
 ###############################################################################
 =comment
@@ -74,8 +75,6 @@ algorithm ends by printing "four is magic."
 =cut
 #==============================================================================
 
-use strict;
-use warnings;
 use Const::Fast;
 use Regexp::Common qw( number );
 

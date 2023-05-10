@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
+use v5.36;
 use Test::More;
 
 is four_magic(5), 'Five is four, four is magic.', 'Example 1';

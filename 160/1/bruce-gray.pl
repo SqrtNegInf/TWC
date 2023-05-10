@@ -1,6 +1,10 @@
 #!/usr/bin/env perl
-use Modern::Perl;
-use experimental qw<signatures>;
+
+use v5.36;
+
+# DH interacts badly with v5.36 if it follows after? (but moot, don't need it anyhow)
+# Illegal character in prototype for main::magic_four :  $n  at 160/1/bruce-gray.pl
+#use Modern::Perl;  
 
 sub magic_four ( $n ) {
     die unless $n =~ /^[0-9]$/;

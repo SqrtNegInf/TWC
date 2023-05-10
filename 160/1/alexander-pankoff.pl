@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use feature qw'say state signatures';
-no warnings qw'experimental::signatures';
+use v5.36;
 
 run() unless caller();
 

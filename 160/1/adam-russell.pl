@@ -1,13 +1,6 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-##
-# You are given a positive number, $n < 10.
-# Write a script to generate english text sequence starting with the English cardinal 
-# representation of the given number, the word ‘is’ and then the English cardinal 
-# representation of the count of characters that made up the first word, followed by a 
-# comma. Continue until you reach four.
-##
+use v5.36;
+
 my %cardinals = (
     1 => "one",
     2 => "two",

@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-
-use v5.20;
+use v5.36;
 
 $_ = 9;
 
