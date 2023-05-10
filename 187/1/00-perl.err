@@ -1,8 +1,0 @@
-Use of uninitialized value $ARGV[0] in string ne at ./cheok-yin-fung.pl line 4.
-Illegal character following sigil in a subroutine signature at ./perlboy1967.pl line 10, near "($"
-syntax error at ./perlboy1967.pl line 10, near "$$"
-Can't use global $_ in "my" at ./perlboy1967.pl line 12, near ", $_"
-Global symbol "@d" requires explicit package name (did you forget to declare "my @d"?) at ./perlboy1967.pl line 13.
-Global symbol "@d" requires explicit package name (did you forget to declare "my @d"?) at ./perlboy1967.pl line 13.
-syntax error at ./perlboy1967.pl line 20, near "}"
-Execution of ./perlboy1967.pl aborted due to compilation errors.
