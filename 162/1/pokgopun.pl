@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
+use v5.36;
 
 ### Each argument being passed to script must contain 13 or 12 decimal digits (i.e. ISBN-13 with 13 digits or 12 digits for 13th to be computed
 ### If not, deault to the ISBN-13 given in the pwc162's task#3 example

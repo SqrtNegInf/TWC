@@ -1,8 +1,6 @@
 #!/usr/bin/env perl
-use v5.24;
-use warnings;
-use experimental 'signatures';
-no warnings 'experimental::signatures';
+use v5.36;
+
 use List::Util qw< pairmap sum >;
 
 my $input = shift // '978-0-306-40615-7';

@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
-
-use v5.16;
+use v5.36;
+no warnings 'uninitialized';
 
 use List::Util qw(sum0);
 use List::MoreUtils qw(pairwise);

@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-
-use v5.22.0;
-use warnings;
+use v5.36;
 use List::Util qw/sum pairmap first/;
 
 say valid('978-0-306-40615-7') ? "Correct check digit." 

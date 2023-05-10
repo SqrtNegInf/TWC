@@ -56,13 +56,7 @@
 ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ##
 
 
-
-use warnings;
-use strict;
-use utf8;
-use feature ":5.26";
-use feature qw(signatures);
-no warnings 'experimental::signatures';
+use v5.36;
 
 my @tests = ( '978-0-306-40615-7',  ## Error-Correction Coding 
                                     ##   for Digital Communications   

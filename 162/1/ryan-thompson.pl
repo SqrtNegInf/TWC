@@ -1,9 +1,7 @@
 #!/usr/bin/env perl
-
-use 5.010;
-use warnings;
-use strict;
+use v5.36;
 no warnings 'uninitialized';
+
 use Carp qw< croak carp >;
 use List::Util qw< sum pairs pairmap >;
 
