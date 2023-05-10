@@ -60,7 +60,8 @@ sub _wpCrypt {
     if $mode == WP_ENCRYPT;
 
   # Process per 2 chars of plaintext
-  while ($text =~ s#^(.)(.)?##) {              # 'c' modifier no longer needed
+# while ($text =~ s#^(.)(.)?##c) {              # DH 'c' modifier doesn't make sense without 'g'
+  while ($text =~ s#^(.)(.)?##) {
     my ($char1,$char2) = ($1, $2 // 'x');
 
     my ($c1,$c2) = ($hrC2L->{$char1},$hrC2L->{$char2});
