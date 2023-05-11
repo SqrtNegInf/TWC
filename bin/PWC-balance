@@ -1,12 +1,16 @@
 #!/usr/local/bin/perl
-#    2023-05-11
+#  2023-05-11 count/ratio of Perl/Raku solutions (when over 2:1)
 
 use strict;
 use warnings;
 
-my  $last = `ls -1d 2* | tail -1`;
+my $current = `ls -1d 2* | tail -1`;
+my $single  = shift;
 
-for my $task (1..$last) {
+my($a,$z);
+if ($single) { $a = $z = $single } else { $a = 1; $z = $current }
+
+for my $task ($a..$z) {
   for my $num (1,2) {
     my $tz = sprintf '%03d', $task;
     my @r = `ls -1 $tz/$num/*u`; my $r = scalar @r;
