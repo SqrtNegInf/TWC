@@ -1,14 +1,7 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use strict;
-
-use warnings;
 use ntheory qw/is_prime/;
-use feature qw/say/;
-
-# AUTHOR: Robert DiCicco
-# DATE: 28-MAR-2022
-# Challenge 158 Cuban Primes ( Perl )
 
 my $TARGET = 1000;
 my $i = 1;

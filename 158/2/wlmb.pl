@@ -1,10 +1,6 @@
 #!/usr/bin/env perl
-# Perl weekly challenge 158
-# Task 1: First series cuban primes
-#
-# See https://wlmb.github.io/2022/03/28/PWC158/#task-2-first-series-cuban-primes
-use v5.12;
-use warnings;
+use v5.36;
+
 use Math::Prime::Util qw(is_prime);
 my $N=shift//1000;
 die "N should be positive" unless $N>0;

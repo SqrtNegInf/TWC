@@ -2,9 +2,6 @@
 ===> 158/2/alexander-pankoff.pl <===
 7, 19, 37, 61, 127, 271, 331, 397, 547, 631, 919
  
-===> 158/2/andrezgz.pl <===
-7, 19, 37, 61, 127, 271, 331, 397, 547, 631, 919
- 
 ===> 158/2/arne-sommer.pl <===
 7, 19, 37, 61, 127, 271, 331, 397, 547, 631, 919
  
@@ -37,9 +34,6 @@ series | sequence
  
 ===> 158/2/deadmarshal.pl <===
 7 19 37 61 127 271 331 397 547 631 919  
-===> 158/2/duncan-c-white.pl <===
-7, 19, 37, 61, 127, 271, 331, 397, 547, 631, 919
- 
 ===> 158/2/e-choroba.pl <===
 1..1
 ok 1 - Example
@@ -67,14 +61,6 @@ Second series
 769
 
  
-===> 158/2/jo-37.pl <===
-# Seeded srand with seed '1' from import arg.
-ok 1 - example 1
-ok 2 - first series from Wikipedia
-ok 3 - second series from Wikipedia
-ok 4 - fourth series, see http://oeis.org/A201477
-1..4
- 
 ===> 158/2/laurent-rosenfeld.pl <===
 7, 19, 37, 61, 127, 271, 331, 397, 547, 631, 919,  
  
@@ -82,20 +68,8 @@ ok 4 - fourth series, see http://oeis.org/A201477
 ok 1
 1..1
  
-===> 158/2/mattneleigh.pl <===
-
-The cuban prime numbers less than or equal to 1000 are:
-    7, 19, 37, 61, 127, 271, 331, 397, 547, 631, 919
-
- 
 ===> 158/2/paulo-custodio.pl <===
 7, 19, 37, 61, 127, 271, 331, 397, 547, 631, 919
- 
-===> 158/2/perlboy1967.pl <===
-7, 19, 37, 61, 127, 271, 331, 397, 547, 631, 919
- 
-===> 158/2/pete-houston.pl <===
-7 19 37 61 127 271 331 397 547 631 919
  
 ===> 158/2/peter-campbell-smith.pl <===
 The terms of the first Cuban series <= 1000 are:
@@ -110,15 +84,8 @@ The terms of the first Cuban series <= 1000 are:
 ===> 158/2/robert-dicicco.pl <===
 7 19 37 61 127 271 331 397 547 631 919 
  
-===> 158/2/roger-bell-west.pl <===
-1..1
-ok 1 - example 1
- 
 ===> 158/2/sgreen.pl <===
 7, 19, 37, 61, 127, 271, 331, 397, 547, 631, 919
- 
-===> 158/2/ulrich-rieke.pl <===
-7,19,37,61,127,271,331,397,547,631,919
  
 ===> 158/2/wlmb.pl <===
 The cuban primes up to 1000 are 7, 19, 37, 61, 127, 271, 331, 397, 547, 631, 919

@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-use v5.24;
-use FindBin '$Bin';
-use lib "$Bin/local/lib/perl5";
+use v5.36;
 use ntheory 'is_prime';
 
 my $M = shift // 1000;

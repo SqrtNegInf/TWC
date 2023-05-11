@@ -1,8 +1,6 @@
 #!/usr/bin/env perl
-use warnings;
-use strict;
+use v5.36;
 
-use experimental 'signatures';
 use Math::Prime::Util qw{ is_prime };
 
 sub cuban_primes ($n) {

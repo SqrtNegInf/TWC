@@ -1,12 +1,5 @@
 #!/usr/bin/env perl
-
-# Peter Campbell Smith - 2022-03-30
-# PWC 158 task 2
-
-use v5.28;
-use strict;
-use warnings;
-use utf8;
+use v5.36;
 use Math::Prime::Util 'is_prime';
 
 my ($y, $test, $result);
