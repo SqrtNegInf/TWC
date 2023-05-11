@@ -1,0 +1,17 @@
+#!/usr/local/bin/perl
+#    2023-05-11
+
+use strict;
+use warnings;
+
+my  $last = `ls -1d 2* | tail -1`;
+
+for my $task (1..$last) {
+  for my $num (1,2) {
+    my $tz = sprintf '%03d', $task;
+    my @r = `ls -1 $tz/$num/*u`; my $r = scalar @r;
+    my @p = `ls -1 $tz/$num/*l`; my $p = scalar @p;
+    printf "$tz/$num %2d/%2d %3.1f\n", $p, $r, $p/$r
+        if $r and $p and $p/$r > 1.5;
+  }
+}
