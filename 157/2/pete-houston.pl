@@ -1,21 +1,5 @@
 #!/usr/bin/env perl
-#===============================================================================
-#
-#         FILE: 15702.pl
-#
-#        USAGE: ./15702.pl N 
-#
-#  DESCRIPTION: Output 1 if N is a Brazilian number, 0 otherwise
-#
-# REQUIREMENTS: Math::NumberBase
-#       AUTHOR: Pete Houston (pete), cpan@openstrike.co.uk
-# ORGANIZATION: Openstrike
-#      VERSION: 1.0
-#      CREATED: 21/03/22
-#===============================================================================
-
-use strict;
-use warnings;
+use v5.36;
 
 use Math::NumberBase;
 

@@ -1,12 +1,7 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use strict;
-
-use warnings;
-use feature qw(say);
 use Test::More;
-use Benchmark qw(cmpthese timethis);
-use Data::Dumper qw(Dumper);
 
 ## List of brazillian numbers... for testing...
 my %T = map { $_ => 1 } qw(

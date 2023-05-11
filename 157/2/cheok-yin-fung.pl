@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-# The Weekly Challenge 157
-# Task 2 Brazilian Number
-use v5.22.0;
-use warnings;
+use v5.36;
 
 my $N = $ARGV[0] || 10;
 

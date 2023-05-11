@@ -1,12 +1,6 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
+use v5.36;
 use Math::NumberBase qw/from_decimal/;
-use feature qw/say/;
-
-# AUTHOR: Robert DiCicco
-# DATE: 22-MAR-2022
-# Challenge 157 Brazilian Number ( Perl )
 
 my $num = 7;
 

@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use feature qw /say/;
+use v5.36;
 use constant DIGITS => ('0'..'9', 'A'..'Z');
 
 sub to_base_b { # Converts decimal number to base b string

@@ -1,10 +1,5 @@
 #!/usr/bin/env perl
-# Perl weekly challenge 157
-# Task 2: Brazilian number
-#
-# See https://wlmb.github.io/2022/03/21/PWC157/#task-2-brazilian-number
-use v5.12;
-use warnings;
+use v5.36;
 use POSIX qw(ceil floor);
 N:
     for my $n(7,8,9) {

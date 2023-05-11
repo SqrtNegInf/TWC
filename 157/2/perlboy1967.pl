@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-
-use v5.16;
+use v5.36;
 
 my $n = shift // 7;
 

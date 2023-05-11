@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-use v5.24;
-use warnings;
-use experimental 'signatures';
-no warnings 'experimental::signatures';
+use v5.36;
 
 my @candidates = @ARGV ? @ARGV : (7, 6, 8);
 for my $candidate (@candidates) {
