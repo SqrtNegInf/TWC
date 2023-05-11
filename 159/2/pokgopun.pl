@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
+use v5.36;
 use Math::Factoring qw/factor/;
 
 my @n = join("",@ARGV) =~ /^\d+$/ ? @ARGV : (5,10,20);

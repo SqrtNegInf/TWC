@@ -1,7 +1,6 @@
 #!/usr/bin/env perl
-package main;
-use strict;
-use warnings;
+use v5.36;
+
 use Math::Prime::Util qw/factor/;
 
 sub get_moebius_nr {

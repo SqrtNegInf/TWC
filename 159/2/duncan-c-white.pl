@@ -1,11 +1,8 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use strict;
-use warnings;
-use feature 'say';
 use Getopt::Long;
 use Function::Parameters;
-#use Data::Dumper;
 
 use lib qw(.);
 use MakePrimes;

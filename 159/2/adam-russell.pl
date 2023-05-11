@@ -1,10 +1,6 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-##
-# You are given a positive number $n. Write a script 
-# to generate the Moebius Number for the given number. 
-##
+use v5.36;
+
 use POSIX;
 use Math::Complex;
 

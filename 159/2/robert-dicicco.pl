@@ -1,8 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use strict;
-use warnings;
-use feature qw/say/;
 use ntheory qw/factor is_prime is_square_free/;
 
 sub checkSquareFree {           # return 1 if number is squae free, 0 if not

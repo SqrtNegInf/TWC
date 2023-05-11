@@ -1,9 +1,6 @@
 #!/usr/bin/env perl
-# The Weekly Challenge 159
-# Task 2 Moebius Function
-# Usage: ch-2.pl $N
-use v5.22.0;
-use warnings;
+use v5.36;
+
 use Math::Complex;
 use List::Util qw/any/;
 use POSIX;
