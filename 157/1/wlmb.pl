@@ -1,11 +1,8 @@
 #!/usr/bin/env perl
-# Perl weekly challenge 157
-# Task 1: Pythagorean means
-# See https://wlmb.github.io/2022/03/21/PWC157/#task-1-pythagorean-means
+use v5.36;
 
-use v5.12;
-use warnings;
 use List::Util qw(sum0 product any);
+
 #die "Usage: ./ch-1.pl N1 N2 N3 ... to get the means of the numbers Ni..." unless @ARGV;
 my @ARGV = (1,3,5,6,9);
 #say "In: ", join ", ", @ARGV;

@@ -1,22 +1,6 @@
 #!/usr/bin/env perl
-#===============================================================================
-#
-#         FILE: 15701.pl
-#
-#        USAGE: ./15701.pl N [ N ... ] 
-#
-#  DESCRIPTION: Output the three means of the argument list
-#
-# REQUIREMENTS: List::Util
-#        NOTES: Means given to 1DP as per the sample output
-#       AUTHOR: Pete Houston (pete), cpan@openstrike.co.uk
-# ORGANIZATION: Openstrike
-#      VERSION: 1.0
-#      CREATED: 24/03/22
-#===============================================================================
+use v5.36;
 
-use strict;
-use warnings;
 use List::Util qw/sum product/;
 
 my @ARGV=(1,3,5,6,9);

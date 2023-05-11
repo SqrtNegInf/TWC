@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-use v5.24;
-use warnings;
-use experimental 'signatures';
-no warnings 'experimental::signatures';
+use v5.36;
 use List::Util qw< sum product >;
 
 my @inputs = @ARGV ? @ARGV : (1, 3, 5, 6, 9);

@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
+use v5.36;
 use Test::More;
 
 is am(1, 3, 5, 6, 9),  '4.8', 'Example 1 - AM';

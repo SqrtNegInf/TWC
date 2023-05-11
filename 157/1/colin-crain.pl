@@ -34,15 +34,8 @@
 ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ##
 
 
-
-use warnings;
-use strict;
-use utf8;
-use feature ":5.26";
-use feature qw(signatures);
-no warnings 'experimental::signatures';
-use List::Util qw( sum product );
-
+use v5.36;
+use List::Util <sum product>;
 
 
 sub am ( @list ) {

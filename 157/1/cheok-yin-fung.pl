@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-# The Weekly Challenge 157
-# Task 1 Pythagorean Means
-use v5.22.0;
-use warnings;
+use v5.36;
 use List::Util qw/sum product/;
 
 if (defined($ARGV[0])) {
