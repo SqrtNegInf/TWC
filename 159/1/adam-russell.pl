@@ -1,10 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-##
-# You are given a positive number, $n. Write a script 
-# to compute the Farey Sequence of the order $n.
-##
+use v5.36;
 use POSIX;
 
 sub farey{

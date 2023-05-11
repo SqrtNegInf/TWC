@@ -1,11 +1,5 @@
 #!/usr/bin/env perl
-# The Weekly Challenge 159
-# Task 1 Farey Sequence
-# Usage: ch-1.pl $N
-# https://en.wikipedia.org/wiki/Farey_sequence#Next_term
-
-use v5.22.0;
-use warnings;
+use v5.36;
 use POSIX;
 
 my $N = $ARGV[0] if defined($ARGV[0]); 

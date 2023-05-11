@@ -1,49 +1,15 @@
 #!/usr/bin/env perl
-# 
-# TASK #1 - Farey Sequence
-# 
-# You are given a positive number, $n.
-# 
-# Write a script to compute the Farey Sequence of the order $n, defined as:
-# is the sequence of completely reduced fractions, between 0 and 1,
-# which have numerators and denominators less than or equal to n,
-# arranged in order of increasing size).
-# 
-# Example 1:
-# 
-# 	Input: $n = 5
-# 	Output: 0/1, 1/5, 1/4, 1/3, 2/5, 1/2, 3/5, 2/3, 3/4, 4/5, 1/1.
-# 
-# Example 2:
-# 
-# 	Input: $n = 7
-# 	Output: 0/1, 1/7, 1/6, 1/5, 1/4, 2/7, 1/3, 2/5, 3/7, 1/2, 4/7,
-# 	        3/5, 2/3, 5/7, 3/4, 4/5, 5/6, 6/7, 1/1.
-# 
-# Example 3:
-# 
-# 	Input: $n = 4
-# 	Output: 0/1, 1/4, 1/3, 1/2, 2/3, 3/4, 1/1.
-# 
-# MY NOTES: ok.  Pretty easy.  Will need a way to reduce fractions,
-# and a way of storing that reduced fraction in a set (storing "Num/Denom"
-# should do it).
-# 
+use v5.36;
 
-use strict;
-use warnings;
-use feature 'say';
 use Getopt::Long;
 use List::Util qw(sum0);
-#use Data::Dumper;
 
 #
 # my( $redn, $redd ) = reduce_fraction( $num, $denom );
 #	Reduce the fraction $num/$denom to it's reduced fractional
 #	form, eg reduce_fraction(9,12) == (3,4).
 #
-sub reduce_fraction ($$)
-{
+sub reduce_fraction {
 	my( $num, $denom ) = @_;
 	foreach my $i (2..$denom)
 	{

@@ -1,20 +1,5 @@
 #!/usr/bin/env perl
-#===============================================================================
-#
-#         FILE: 15901.pl
-#
-#        USAGE: ./15901.pl N 
-#
-#  DESCRIPTION: Print the Farey Sequence of order N
-#
-#       AUTHOR: Pete Houston (pete), cpan@openstrike.co.uk
-# ORGANIZATION: Openstrike
-#      VERSION: 1.0
-#      CREATED: 06/04/22
-#===============================================================================
-
-use strict;
-use warnings;
+use v5.36;
 
 my $n = 7;
 die "Argument must be natural number.\n"

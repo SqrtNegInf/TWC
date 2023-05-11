@@ -1,10 +1,6 @@
 #!/usr/bin/env perl
-# Perl weekly challenge 159
-# Task 1: Farey sequence
-#
-# See https://wlmb.github.io/2022/04/05/PWC159/#task-1-farey-sequence
-use v5.12;
-use warnings;
+use v5.36;
+
 use POSIX qw(floor);
 use Text::Wrap qw(wrap $columns $break);
 

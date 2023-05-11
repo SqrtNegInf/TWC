@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-#use Algorithm::Combinatorics qw/combinations/;
-#use Math::Prime::Util qw/is_prime/; 
+use v5.36;
 
 my @n = join("",@ARGV) =~ /^\d+$/ ? @ARGV : (5,7,4);
 
