@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-use warnings;
-use strict;
-use experimental 'signatures';
+use v5.36;
 
 use List::Util qw{ sum };
 use Math::Prime::Util qw{ is_prime nth_prime };

@@ -1,13 +1,7 @@
 #!/usr/bin/env perl
+use v5.36;
 
-# AUTHOR: Robert DiCicco
-# DATE: 28-MAR-2022
-# Challenge 158 Additive Primes ( Perl )
-
-use strict;
-use warnings;
 use ntheory qw/is_prime/;
-use feature qw/say/;
 
 sub sum_of_digits {
   my $num = shift;

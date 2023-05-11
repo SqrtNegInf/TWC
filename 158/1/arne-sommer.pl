@@ -1,9 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use strict;
-use warnings;
-use feature 'say';
-use feature 'state';
 use Math::Prime::Util 'is_prime';
 use List::Util 'sum';
 

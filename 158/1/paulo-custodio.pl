@@ -1,17 +1,5 @@
 #!/usr/bin/env perl
-
-# Challenge 158
-#
-# TASK #1 › Additive Primes
-# Submitted by: Mohammad S Anwar
-# Write a script to find out all Additive Primes <= 100.
-#
-# Additive primes are prime numbers for which the sum of their decimal digits
-# are also primes.
-#
-#
-# Output
-# 2, 3, 5, 7, 11, 23, 29, 41, 43, 47, 61, 67, 83, 89
+use v5.36;
 
 use Modern::Perl;
 use List::Util qw( sum );
