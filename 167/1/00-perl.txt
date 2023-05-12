@@ -19,9 +19,6 @@ ok 1 - Example
 ok 2 - Shorter CPs
 ok 3 - Longer CP
  
-===> 167/1/jaldhar-h-vyas.pl <===
-113, 197, 199, 337, 1193, 3779, 11939, 19937, 193939, 199933
- 
 ===> 167/1/james-smith.pl <===
 2
 3
@@ -96,18 +93,8 @@ ok 7 - Generate primes
 193939
 199933
  
-===> 167/1/peter-campbell-smith.pl <===
-
-The following are circular primes:
-113, 197, 199, 337, 1193, 3779, 11939, 19937, 193939, 199933
- 
 ===> 167/1/polettix.pl <===
 113, 197, 199, 337, 1193, 3779, 11939, 19937, 193939, 199933
- 
-===> 167/1/roger-bell-west.pl <===
-1..2
-ok 1 - example 1
-ok 2 - example 2
  
 ===> 167/1/ryan-thompson.pl <===
 113
