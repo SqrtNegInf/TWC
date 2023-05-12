@@ -1,11 +1,6 @@
 #!/usr/bin/env perl
-use v5.24;
-use warnings;
-use experimental 'signatures';
-no warnings 'experimental::signatures';
+use v5.36;
 
-use FindBin '$Bin';
-use lib "$Bin/local/lib/perl5";
 use ntheory 'is_prime';
 
 my $N = shift // 10;

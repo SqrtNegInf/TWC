@@ -15,9 +15,6 @@ The first 10 Pernicious Numbers:
 ===> 156/1/dave-jacoby.pl <===
 3, 5, 6, 7, 9, 10, 11, 12, 13, 14
  
-===> 156/1/duncan-c-white.pl <===
-3,5,6,7,9,10,11,12,13,14
- 
 ===> 156/1/e-choroba.pl <===
 1..1
 ok 1 - 10 pernicious numbers
@@ -53,15 +50,7 @@ ok 2 - \#65 from OEIS A052294
 ok 1
 1..1
  
-===> 156/1/mattneleigh.pl <===
-
-The first 10 Pernicious Numbers are:
-    3, 5, 6, 7, 9, 10, 11, 12, 13, 14
-
- 
 ===> 156/1/mohammad-anwar.pl <===
-ok 1 - Example
-1..1
  
 ===> 156/1/perlboy1967.pl <===
 3,5,6,7,9,10,11,12,13,14
@@ -86,9 +75,6 @@ ok 1 - Example
  
 ===> 156/1/polettix.pl <===
 3, 5, 6, 7, 9, 10, 11, 12, 13, 14
- 
-===> 156/1/robert-dicicco.pl <===
-3 5 6 7 9 10 11 12 13 14 
  
 ===> 156/1/roger-bell-west.pl <===
 1..1

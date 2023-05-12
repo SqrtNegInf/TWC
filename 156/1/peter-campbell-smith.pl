@@ -1,12 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-# Peter Campbell Smith - 2022-03-17
-# PWC 156 task 1
-
-use v5.28;
-use strict;
-use warnings;
-use utf8;
 use Math::Prime::Util 'is_prime';
 
 # Write a script to permute (compute?) first 10 Pernicious Numbers. A pernicious number is a positive 

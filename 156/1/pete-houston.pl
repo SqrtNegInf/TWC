@@ -1,25 +1,5 @@
 #!/usr/bin/env perl
-#===============================================================================
-#
-#         FILE: 15601.pl
-#
-#        USAGE: ./15601.pl [ N ] 
-#
-#  DESCRIPTION: Output the first N pernicious numbers
-#
-#      OPTIONS: N defaults to 10
-# REQUIREMENTS: Perl 5.6.0 or newer
-#         BUGS: ---
-#        NOTES: Version 1.0 used Math::Prime::Util but this version uses
-#               no modules and doesn't require a modern perl release either.
-#       AUTHOR: Pete Houston (pete), cpan@openstrike.co.uk
-# ORGANIZATION: Openstrike
-#      VERSION: 1.1
-#      CREATED: 14/03/22
-#===============================================================================
-
-use strict;
-use warnings;
+use v5.36;
 
 my @pern;
 my $max    = shift // 10;

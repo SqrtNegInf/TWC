@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use feature "say";
+use v5.36;
 
 my $count = 0;
 my %primes = map { $_ => 1 } (2, 3, 5, 7, 11, 13, 17, 19);

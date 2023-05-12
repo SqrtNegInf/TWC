@@ -1,10 +1,6 @@
 #!/usr/bin/env perl
-# The Weekly Challenge 156
-# Task 1 Pernicious Number
-# Usage: 
-# ch-1.pl [$N, for an output with the first $N pernicious number]
-use v5.22.0;
-use warnings;
+use v5.36;
+
 use Math::Prime::Util qw /next_prime/;
 use Algorithm::Combinatorics qw/combinations/;
 

@@ -1,9 +1,6 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-##
-# Write a script to generate the first 10 Pernicious Numbers.
-## 
+use v5.36;
+
 use Math::Primality qw/is_prime/;
 
 sub count_bits{
