@@ -40,17 +40,12 @@ ok 1 - task 1
 ok 2 - \#65 from OEIS A052294
 1..2
  
-===> 156/1/kueppo-wesley.pl <===
-3, 5, 6, 7, 9, 10, 11, 12, 13, 14, 
- 
 ===> 156/1/laurent-rosenfeld.pl <===
 3, 5, 6, 7, 9, 10, 11, 12, 13, 14
  
 ===> 156/1/lubos-kolouch.pl <===
 ok 1
 1..1
- 
-===> 156/1/mohammad-anwar.pl <===
  
 ===> 156/1/perlboy1967.pl <===
 3,5,6,7,9,10,11,12,13,14
@@ -79,9 +74,6 @@ ok 1
 ===> 156/1/roger-bell-west.pl <===
 1..1
 ok 1 - example 1
- 
-===> 156/1/ulrich-rieke.pl <===
-3,5,6,7,9,10,11,12,13,14
  
 ===> 156/1/wlmb.pl <===
 The first 10 pernicious numbers are 3, 5, 6, 7, 9, 10, 11, 12, 13, 14
