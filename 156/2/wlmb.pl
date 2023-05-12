@@ -1,10 +1,5 @@
 #!/usr/bin/env perl
-# Perl weekly challenge 156
-# Task 2: Weird number
-#
-# See https://wlmb.github.io/2022/03/14/PWC156/#task-2-weird-number
-use v5.12;
-use warnings;
+use v5.36;
 use Math::Prime::Util qw(divisors);
 use Algorithm::Combinatorics qw(subsets);
 use List::Util qw(sum0);

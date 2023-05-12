@@ -1,10 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-##
-# You are given number, $n > 0. Write a script to find out if 
-# the given number is a Weird Number.
-##
+use v5.36;
 use boolean;
 use Data::PowerSet q/powerset/;
 

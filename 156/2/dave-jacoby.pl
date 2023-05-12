@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-use feature qw{ say postderef signatures state };
+use v5.36;
 no warnings qw{ experimental };
 
 use Carp;

@@ -1,16 +1,5 @@
 #!/usr/bin/env perl
-
-# Peter Campbell Smith - 2022-03-17
-# PWC 156 task 2
-
-# Write a script to find out if a number is a Weird Number, defined as:
-# The sum of the proper divisors (divisors including 1 but not itself) of 
-# a weird number is greater than the number, but no subset of those divisors 
-# sums to the number itself.
-
-# blog: https://pjcs-pwc.blogspot.com/2022/03/pernicious-and-weird.html
-
-use v5.28;
+use v5.36;
 
 my (@tests, $test, $sum, @divisors, $divisor, $num_subsets, $bit, $j, $bad, $num_divisors);
 

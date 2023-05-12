@@ -1,12 +1,6 @@
 #!/usr/bin/env perl
-# The Weekly Challenge 156
-# Task 2 Weird Number 
-# references on subset sum:
-# https://www.geeksforgeeks.org/subset-sum-problem-dp-25/
-# Usage: $ ch-2.pl $N
+use v5.36;
 
-use v5.22.0;
-use warnings;
 use List::Util qw/uniqint sum/;
 use Math::Prime::Util qw/next_prime/;
 
