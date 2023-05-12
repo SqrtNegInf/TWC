@@ -74,36 +74,8 @@ ok 1 - is '/a/b/c' the deepest path?
 ===> 182/2/laurent-rosenfeld.pl <===
 /a/b/c
  
-===> 182/2/mohammad-anwar.pl <===
-# Seeded srand with seed '1' from import arg.
-ok 1 - Example
-1..1
- 
 ===> 182/2/perlboy1967.pl <===
 /a/b/c
- 
-===> 182/2/peter-campbell-smith.pl <===
-
-Input:
-    /a/b/c/1/x.pl
-    /a/b/c/d/e/2/x.pl
-    /a/b/c/d/3/x.pl
-    /a/b/c/4/x.pl
-    /a/b/c/d/5/x.pl
-Output:
-    /a/b/c
-
-Input:
-    /a/b/c/x.pl
-    /d/e/f/x.pl
-Output:
-    
-
-Input:
-    /m/n/o/p/xx
-    /m/n/o/p/xx
-Output:
-    /m/n/o/p
  
 ===> 182/2/polettix.pl <===
 /a/b/c
@@ -121,9 +93,6 @@ Output:
 ===> 182/2/roger-bell-west.pl <===
 1..1
 ok 1 - example 1
- 
-===> 182/2/steve-g-lynn.pl <===
-/a/b/c/
  
 ===> 182/2/ulrich-rieke.pl <===
 /a/b/c/
