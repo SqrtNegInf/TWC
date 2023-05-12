@@ -59,15 +59,8 @@ ok 13
 3rd Quartile: 7.5
      Maximum: 9
  
-===> 172/2/dario-mazzeo.pl <===
-0.00, 0.50, 7.50, 44.00, 63.00
- 
 ===> 172/2/dave-jacoby.pl <===
 0 0.5 7.5 44 63
- 
-===> 172/2/e-choroba.pl <===
-1..1
-ok 1
  
 ===> 172/2/jaldhar-h-vyas.pl <===
 minimum:        0
@@ -223,27 +216,6 @@ min = 1; q1 = 5; median = 9; q3 = 18; max = 27
 ===> 172/2/roger-bell-west.pl <===
 1..1
 ok 1 - example 1
- 
-===> 172/2/steve-g-lynn.pl <===
-
-[
- [3.907985e-14]
- [  0.24969589]
- [  0.49977626]
- [  0.75001857]
- [  0.99999976]
-]
-
- 
-===> 172/2/ulrich-rieke.pl <===
-Minimum is 0!
-Median is 5.5!
-First quartile is 2.5!
-Third quartile is 8.5!
-Maximum is 11!
- 
-===> 172/2/walt-mankowski.pl <===
-0 2.5 5.5 8.5 11
  
 ===> 172/2/wlmb.pl <===
 The five-number summary of  is
