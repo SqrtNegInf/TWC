@@ -1,15 +1,7 @@
 #!/usr/bin/env perl
-# Perl weekly challenge 151
-# Task 1: Binary tree depth
-#
-# See https://wlmb.github.io/2022/02/07/PWC151/#task-1-binary-tree-depth
-use v5.12;
-use warnings;
+use v5.36;
 use Try::Tiny;
-#die "Usage: ./ch-1.pl T1 [T2]...\n"
-##    . "where Ti are trees of the form 'R1 | R2...'\n"
-#    . "and each row consists of nodes (strings) or an asterisk * (empty node)\n"
-#    unless @ARGV;
+
 for my $tree ('1 | 2 3 | 4 * * 5 | * 6'){
     my @rows=split /\s*\|\s*/, $tree; # separate into rows.
     my $depth=0;   # Depth of first row is 1. This is above the first row

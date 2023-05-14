@@ -2,9 +2,6 @@
 ===> 151/1/abigail.pl <===
 3
  
-===> 151/1/alexander-pankoff.pl <===
-3
- 
 ===> 151/1/athanasius.pl <===
 Input: "1 | 2 3 | 4 * * 5 | * 6"
 Output: 3
@@ -17,29 +14,6 @@ ok 1 - ex-1
 ok 2 - deeper
 ok 3 - root
 1..3
- 
-===> 151/1/dave-jacoby.pl <===
-    Input:  '1 | 2 3 | 4 5'
-    Output: 2
-
-    Input:  '1 | 2 3 | 4 * * 5 | * 6'
-    Output: 3
-
-    Input:  '1 | 3 5 | 7 9 11'
-    Output: 3
-
-    Input:  '1 | 2 | 3 | 4 | 5 6 | * * 7 | * * * * 8'
-    Output: 5
-
-    Input:  '1 | 2 | 3 | 4 | 5 6 | * * 7 | * * * * * * 8'
-    Output: 5
-
-    Input:  '1 | 2 | 3 | 4 | 5 | 6 | 7 | 8'
-    Output: 8
-
- 
-===> 151/1/duncan-c-white.pl <===
-3
  
 ===> 151/1/e-choroba.pl <===
 1..15
@@ -78,19 +52,6 @@ ok 15
 ok 16
 1..16
  
-===> 151/1/jo-37.pl <===
-# Seeded srand with seed '1234' from import arg.
-ok 1 - example 1
-ok 2 - example 2
-ok 3 - empty tree
-ok 4 - single root
-ok 5 - single zero root
-ok 6 - no root
-ok 7 - zero as root label
-ok 8 - zero as child label
-ok 9 - leafs at multiple depths
-1..9
- 
 ===> 151/1/laurent-rosenfeld.pl <===
 1                                          -> depth: 1
 1 |                                        -> depth: 1
@@ -107,29 +68,6 @@ ok 1
 ok 2
 ok 3
 1..3
- 
-===> 151/1/mattneleigh.pl <===
-
-Minimum leaf depth for tree 0 is: 2
-Minimum leaf depth for tree 1 is: 3
-Minimum leaf depth for tree 2 is: 2
-
- 
-===> 151/1/mohammad-anwar.pl <===
-ok 1 - Example 1
-ok 2 - Example 2
-1..2
- 
-===> 151/1/peter-campbell-smith.pl <===
-
-Input:  1 | 2 3 | 4 5
-Output: 2
-
-Input:  1 | 2 3 | 4 *  * 5 | * 6
-Output: 3
-
-Input:  1|23|4567|890123456|7
-Output: 4
  
 ===> 151/1/polettix.pl <===
 2

@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-use v5.24;
-use warnings;
-use experimental 'signatures';
-no warnings 'experimental::signatures';
+use v5.36;
 
 my $input = shift // '1 | 2 3 | 4 5';
 my @levels = map { [ split m{\s+}mxs ] } split m{\s*\|\s*}mxs, $input;

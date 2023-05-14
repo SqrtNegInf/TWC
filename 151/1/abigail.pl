@@ -1,21 +1,5 @@
 #!/usr/bin/env perl
-
-use 5.032;
-
-use strict;
-use warnings;
-no  warnings 'syntax';
-
-use experimental 'signatures';
-use experimental 'lexical_subs';
-
-#
-# See https://theweeklychallenge.org/blog/perl-weekly-challenge-151
-#
-
-#
-# Run as: perl ch-1.pl < input-file
-#
+use v5.36;
 
 #
 # We'll store the tree in a triangular 2-d array, with
@@ -25,6 +9,7 @@ use experimental 'lexical_subs';
 # Finding the first node without children is trivial.
 #
 #TREE: while (<>) {
+
 $_ = '1 | 2 3 | 4 * * 5 | * 6';
 TREE: {
     chomp;

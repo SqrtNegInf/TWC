@@ -1,9 +1,6 @@
 #!/usr/bin/env perl
-use strict ;
-use warnings ;
-use feature 'say' ;
+use v5.36;
 
-#say "Enter a tree , separate levels by a |" ;
 my $tree = '1 | 2 3 | 4 * * 5 | * 6'; #<STDIN> ;
 chomp $tree ;
 my $len = length $tree ;
