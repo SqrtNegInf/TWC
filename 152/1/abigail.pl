@@ -1,21 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use 5.032;
-
-use strict;
-use warnings;
-no  warnings 'syntax';
-
-use experimental 'signatures';
-use experimental 'lexical_subs';
-
-#
-# See https://theweeklychallenge.org/blog/perl-weekly-challenge-152
-#
-
-#
-# Run as: perl ch-1.pl < input-file
-#
 # We expect the entire triangle to be given as whitespace separated
 # numbers, all on one line. Give it's a triangle, we don't need to
 # know where the next row starts.

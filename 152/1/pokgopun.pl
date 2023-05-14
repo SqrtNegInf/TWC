@@ -1,24 +1,5 @@
 #!/usr/bin/env perl
-
-### Providing no argument, the script will use sample data similar to the examples in the challenge's task
-###
-### Example of usage: perl %scripl% 1 5,3 2,3,4 7,1,0,2 6,4,5,2,8
-### Input: $triangle = [ [1], [5,3], [2,3,4], [7,1,0,2], [6,4,5,2,8] ]
-### 
-### 	     1
-### 	    5 3
-### 	   2 3 4
-### 	  7 1 0 2
-### 	 6 4 5 2 8
-### 
-### Output: 8
-### 
-### 	Minimum Sum Path = 1 + 3 + 2 + 0 + 2 => 8
-##
-#
-use strict;
-use warnings;
-use Data::Dumper;
+use v5.36;
 
 my @sample;
 ### If scripts' arguments present, convert them to triangle array
