@@ -1,10 +1,5 @@
 #!/usr/bin/env perl
-# Perl weekly challenge 153
-# Task 2: Factorions
-#
-# See https://wlmb.github.io/2022/02/21/PWC153/#task-2-factorions
-use v5.12;
-use warnings;
+use v5.36;
 use Memoize;
 use List::Util qw(sum0);
 memoize qw(factorial);

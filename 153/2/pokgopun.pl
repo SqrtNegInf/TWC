@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
+use v5.36;
 
 my @n;
 push @n, @ARGV ? @ARGV : (145,123);

@@ -1,21 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-=head1
-
-Week 153:
-
-    https://theweeklychallenge.org/blog/perl-weekly-challenge-153
-
-Task #2: Factorions
-
-    You are given an integer, $n.
-
-    Write a script to figure out if the given integer is factorion.
-
-=cut
-
-use strict;
-use warnings;
 use Test::More;
 
 is(factorion(145), 1, 'Example 1');

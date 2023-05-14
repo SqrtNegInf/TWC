@@ -15,17 +15,6 @@ ok 3
 ok 4
 ok 5
  
-===> 153/2/jo-37.pl <===
-# Seeded srand with seed '1234' from import arg.
-ok 1 - example 1
-ok 2 - example 2
-ok 3 - one more from WolframAlpha
-ok 4
-ok 5 - 25 = 41(6) = 4! + 1!
-ok 6 - 26 = 42(6) = 4! + 2!
-ok 7 - 49 = 144(5) = 1! + 4! + 4!
-1..7
- 
 ===> 153/2/laurent-rosenfeld.pl <===
 1
 2
@@ -37,16 +26,6 @@ ok 1
 ok 2
 1..2
  
-===> 153/2/mattneleigh.pl <===
-
-Input: $n = 145
-Output: 1
-
-
-Input: $n = 125
-Output: 0
-
- 
 ===> 153/2/mohammad-anwar.pl <===
 ok 1 - Example 1
 ok 2 - Example 2
@@ -56,32 +35,6 @@ ok 2 - Example 2
 1 
 ===> 153/2/pete-houston.pl <===
 0
- 
-===> 153/2/peter-campbell-smith.pl <===
-
-Input:  1
-Output: 1 since 1! => 1 = 1
-
-Input:  2
-Output: 1 since 2! => 2 = 2
-
-Input:  3
-Output: 0 since 3! => 6 = 6 <> 3
-
-Input:  4
-Output: 0 since 4! => 24 = 24 <> 4
-
-Input:  125
-Output: 0 since 1! + 2! + 5! => 1 + 2 + 120 = 123 <> 125
-
-Input:  145
-Output: 1 since 1! + 4! + 5! => 1 + 24 + 120 = 145
-
-Input:  40585
-Output: 1 since 4! + 0! + 5! + 8! + 5! => 24 + 1 + 120 + 40320 + 120 = 40585
-
-Input:  57778
-Output: 0 since 5! + 7! + 7! + 7! + 8! => 120 + 5040 + 5040 + 5040 + 40320 = 55560 <> 57778
  
 ===> 153/2/pokgopun.pl <===
 Input: $n = 145
@@ -94,19 +47,6 @@ Output: 0
 
 	Since 1! + 2! + 3! => 1 + 2 + 6 <> 123
 
- 
-===> 153/2/polettix.pl <===
-1
-9999999 2540160
-1
-2
-145
-40585
- 
-===> 153/2/robert-dicicco.pl <===
-Input $n = 145
-1! + 4! + 5!  = 145
-Output: 1
  
 ===> 153/2/roger-bell-west.pl <===
 1..2
