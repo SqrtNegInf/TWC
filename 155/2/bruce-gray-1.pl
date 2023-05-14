@@ -1,7 +1,8 @@
 #!/usr/bin/env perl
 
-use Modern::Perl;
-use experimental qw<signatures>;
+use v5.36;
+#use Modern::Perl;
+#use experimental qw<signatures>;
 use List::Lazy   qw<lazy_list>;
 use List::Util   qw<all>;
 
