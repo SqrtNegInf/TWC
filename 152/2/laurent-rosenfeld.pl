@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use feature "say";
+use v5.36;
 
 sub min {          # min of 2 values
     return $_[0] < $_[1] ? $_[0] : $_[1];

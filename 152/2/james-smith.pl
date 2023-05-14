@@ -1,12 +1,6 @@
 #!/usr/bin/env perl
-
-use strict;
-
-use warnings;
-use feature qw(say);
+use v5.36;
 use Test::More;
-use Benchmark qw(cmpthese timethis);
-use Data::Dumper qw(Dumper);
 
 my @TESTS = (
   [ [ [ -1,  0], [  2,  2], [  0, -1], [  4,  4] ], 22 ],

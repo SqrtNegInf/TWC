@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-use v5.24;
-use warnings;
-use experimental 'signatures';
-no warnings 'experimental::signatures';
+use v5.36;
 use List::Util qw< min max >;
 
 say rectangle_area([[-1, 0], [2, 2]], [[0, -1], [4, 4]]);
