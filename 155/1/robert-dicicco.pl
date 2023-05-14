@@ -1,12 +1,7 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
+use v5.36;
 use ntheory qw/pn_primorial is_prime/;
 use List::Util qw/uniq/;
-
-# Author: Robert DiCicco
-# Date: 7-MAR-2022
-# Challenge #155 Fortunate Numbers ( Perl )
 
 my @out;  # array to hold final output
 my $howmany = 8;

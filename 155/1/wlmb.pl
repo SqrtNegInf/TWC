@@ -1,10 +1,5 @@
 #!/usr/bin/env perl
-# Perl weekly challenge 155
-# Task 1: Fortunate numbers
-#
-# See https://wlmb.github.io/2022/03/07/PWC155/#task-1-fortunate-numbers
-use v5.12;
-use warnings;
+use v5.36;
 use bigint;
 use Math::Prime::Util qw(next_prime pn_primorial);
 use Getopt::Lazy

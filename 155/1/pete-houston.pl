@@ -1,22 +1,7 @@
 #!/usr/bin/env perl 
-#===============================================================================
-#
-#         FILE: 15501.pl
-#
-#        USAGE: ./15501.pl [ N ] 
-#
-#  DESCRIPTION: Output the first N fortunate numbers
-#
-#      OPTIONS: If N is omitted, defaults to 8
-# REQUIREMENTS: Math::Prime::Util
-#       AUTHOR: Pete Houston (pete), cpan@openstrike.co.uk
-# ORGANIZATION: Openstrike
-#      VERSION: 1.0
-#      CREATED: 09/03/22
-#===============================================================================
 
-use strict;
-use warnings;
+use v5.36;
+
 use Math::Prime::Util qw/pn_primorial next_prime/;
 
 my %fortunate;

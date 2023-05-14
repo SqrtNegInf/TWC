@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
+use v5.36;
 use Math::Prime::Util qw/is_prime next_prime/;
 use List::Util qw/uniqint/;
 use bignum;

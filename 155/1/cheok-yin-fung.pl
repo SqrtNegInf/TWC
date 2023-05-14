@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-# The Weekly Challenge 155
-# Task 1 Fortunate Numbers
-use v5.22.0;
-use warnings;
+use v5.36;
 use List::Util qw 'uniqint';
 use Math::BigInt;
 use Math::Prime::Util 'is_prime';

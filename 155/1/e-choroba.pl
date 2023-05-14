@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-use warnings;
-use strict;
-use feature qw{ say };
+use v5.36;
 
 use List::Util qw{ product };
 use Math::Prime::Util qw{ nth_prime next_prime primes };
