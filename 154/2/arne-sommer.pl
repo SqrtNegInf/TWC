@@ -1,12 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-use feature 'say';
-use feature 'signatures';
-use feature 'state';
-
-no warnings qw(experimental::signatures);
+use v5.36;
 
 # all #s, not primes
 my $count = $ARGV[0] || 20;

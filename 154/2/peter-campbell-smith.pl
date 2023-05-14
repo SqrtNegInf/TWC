@@ -1,11 +1,5 @@
 #!/usr/bin/env perl
-
-# Peter Campbell Smith - 2022-02-28
-# PWC 154 task 2
-
-use v5.28;
-use strict;
-use utf8;
+use v5.36;
 use Math::Prime::Util 'is_prime';
 use Math::BigInt lib => 'GMP';
 

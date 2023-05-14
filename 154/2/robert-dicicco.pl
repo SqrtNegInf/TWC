@@ -1,10 +1,8 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use strict;
-use warnings;
 use ntheory qw/is_prime/;
 use List::MoreUtils qw/uniq/;
-use feature qw/say/;
 
 # Author: Robert DiCicco
 # Date: 28-FEB-2022

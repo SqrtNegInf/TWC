@@ -1,10 +1,5 @@
 #!/usr/bin/env perl
-# Perl weekly challenge 154
-# Task 2: Padovan Prime
-#
-# See https://wlmb.github.io/2022/02/28/PWC154/#task-2-padovan-prime
-use v5.12;
-use warnings;
+use v5.36;
 use Memoize;
 use bigint;
 use Math::Prime::Util qw(is_prime);

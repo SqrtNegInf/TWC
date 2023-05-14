@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
+use v5.36;
 use Math::Prime::XS qw/is_prime/;
 
 my @nums_cache = ( 1, 1, 1 );

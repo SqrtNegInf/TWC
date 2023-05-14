@@ -1,9 +1,5 @@
 #!/usr/bin/env perl
-# The Weekly Challenge 154
-# Task 2 Padovan Prime
-
-use v5.22.0;
-use warnings;
+use v5.36;
 use Math::BigInt;
 
 use Math::Prime::Util qw/prime_precalc is_prime/;

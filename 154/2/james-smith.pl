@@ -1,9 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use strict;
-
-use warnings;
-use feature qw(say);
 use Time::HiRes qw(time);
 use Math::Prime::Util qw(is_prime);
 

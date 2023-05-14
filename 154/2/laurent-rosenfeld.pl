@@ -1,8 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use strict;
-use warnings;
-use feature "say";
 use constant MAX => 10000; # MAX must be an even number
 
 my @primes = prime_list(MAX);

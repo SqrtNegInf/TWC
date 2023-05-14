@@ -1,10 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use strict;
-use warnings;
-##
-# Write a script to compute the first 10 distinct Padovan Primes.
-##
 use Math::Primality qw/is_prime/;
 
 sub first_n_padovan_primes{

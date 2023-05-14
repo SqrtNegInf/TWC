@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-
-use v5.16;
-use strict;
+use v5.36;
 
 use Math::Primality qw(is_prime);
 
