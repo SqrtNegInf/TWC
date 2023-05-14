@@ -1,15 +1,5 @@
 #!/usr/bin/env perl
-
-# Peter Campbell Smith - 2022-02-21
-# PWC 153 task 1
-
-use v5.28;
-use strict;
-use utf8;
-
-# Write a script to compute Left Factorials of 1 to 10. Please refer OEIS A003422 for more information.
-# The OEIS reference says !n = Sum_{k=0..n-1} k!
-# So !n = !(n-1) + (n-1)!
+use v5.36;
 
 my ($n, $string, @lf, @fac);
 

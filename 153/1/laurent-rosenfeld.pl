@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-use feature "say";
+use v5.36;
 
 my @a = (0, 1);
 for my $n (2..10) {

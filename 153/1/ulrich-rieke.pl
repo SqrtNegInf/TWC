@@ -1,8 +1,6 @@
 #!/usr/bin/env perl
-use strict ;
-use warnings ;
+use v5.36;
 use List::Util qw (product ) ;
-use feature 'say' ;
 
 sub factorial {
   my $number = shift ;

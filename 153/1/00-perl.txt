@@ -5,49 +5,8 @@
 ===> 153/1/dave-jacoby.pl <===
 1, 2, 4, 10, 34, 154, 874, 5914, 46234, 409114
  
-===> 153/1/e-choroba.pl <===
-1..22
-ok 1
-ok 2
-ok 3
-ok 4
-ok 5
-ok 6
-ok 7
-ok 8
-ok 9
-ok 10
-ok 11
-ok 12
-ok 13
-ok 14
-ok 15
-ok 16
-ok 17
-ok 18
-ok 19
-ok 20
-ok 21
-ok 22
- 
-===> 153/1/jo-37.pl <===
-# Seeded srand with seed '1234' from import arg.
-ok 1 - task 1
-ok 2 - from OEIS
-1..2
- 
 ===> 153/1/laurent-rosenfeld.pl <===
 1 2 4 10 34 154 874 5914 46234 409114
- 
-===> 153/1/lubos-kolouch.pl <===
-ok 1
-1..1
- 
-===> 153/1/mattneleigh.pl <===
-
-The first 10 Left Factorials are:
-    1, 2, 4, 10, 34, 154, 874, 5914, 46234, 409114
-
  
 ===> 153/1/mohammad-anwar.pl <===
 ok 1 - Example

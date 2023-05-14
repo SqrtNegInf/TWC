@@ -1,19 +1,5 @@
 #!/usr/bin/env perl
-
-=head1
-
-Week 153:
-
-    https://theweeklychallenge.org/blog/perl-weekly-challenge-153
-
-Task #1: Left Factorials
-
-    Write a script to compute Left Factorials of 1 to 10.
-
-=cut
-
-use strict;
-use warnings;
+use v5.36;
 use Test::More;
 
 is_deeply(left_factorials(0, 9), [1, 2, 4, 10, 34, 154, 874, 5914, 46234, 409114], 'Example');

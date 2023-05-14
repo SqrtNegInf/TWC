@@ -1,12 +1,7 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use strict;
-use warnings;
 use ntheory qw/factorial/;
-
-# Author: Robert DiCicco
-# Date:   21-FEB-2022
-# Challenge #153 Left Factorials ( Perl )
 
 my $prevval = 0;
 

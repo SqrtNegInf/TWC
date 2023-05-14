@@ -1,11 +1,5 @@
 #!/usr/bin/env perl
-# Perl weekly challenge 153
-# Task 1: Left factorials
-#
-# See https://wlmb.github.io/2022/02/21/PWC153/#task-1-left-factorials
-use v5.12;
-use warnings;
-#use Memoize;
+use v5.36;
 use bigint;
 use Text::Wrap qw(wrap $columns $break);
 
