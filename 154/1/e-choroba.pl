@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-use warnings;
-use strict;
-use feature qw{ say };
-use experimental 'signatures';
+use v5.36;
 
 use Math::Combinatorics qw{ permute };
 

@@ -1,12 +1,7 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use strict;
-
-use warnings;
-use feature qw(say);
 use Test::More;
-use Benchmark qw(cmpthese timethis);
-use Data::Dumper qw(Dumper);
 
 my @s;
 my @words = qw(
@@ -60,7 +55,7 @@ say 'Solution - assuming uniqueness and one missing!';
 say '';
 
 my $r ='';
-$r^=$_ for @words;
+$r ^.= $_ for @words;
 say "  * $r";
 
 # You might ask how this works! Every time you XOR a word. It

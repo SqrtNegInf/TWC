@@ -1,10 +1,5 @@
 #!/usr/bin/env perl
-# Perl weekly challenge 154
-# Task 1: Missing permutation
-#
-# See https://wlmb.github.io/2022/02/28/PWC154/#task-1-missing-permutation
-use v5.12;
-use warnings;
+use v5.36;
 use Algorithm::Combinatorics qw(permutations);
 use Text::Wrap qw(wrap $columns $break);
 

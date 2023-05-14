@@ -1,11 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-##
-# You are given possible permutations of the string "PERL".
-# Write a script to find any permutations missing from the list.
-##
+use v5.36;
 use Algorithm::Loops q/NestedLoops/;
 
 sub factorial{

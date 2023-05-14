@@ -64,13 +64,8 @@
 ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ##
 
 
+use v5.36;
 
-use warnings;
-use strict;
-use utf8;
-use feature ":5.26";
-use feature qw(signatures);
-no warnings 'experimental::signatures';
 use Algorithm::Combinatorics qw( permutations );
 
 my @pool = qw(  PELR  PREL  PERL  PRLE  PLER  

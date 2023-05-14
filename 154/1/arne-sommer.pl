@@ -1,8 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use strict;
-use warnings;
-use feature 'say';
 use Algorithm::Combinatorics 'permutations';
 use List::Util 'uniq';
 use Getopt::Long;

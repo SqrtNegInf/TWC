@@ -1,10 +1,9 @@
 #!/usr/bin/env perl
 use v5.36;
 
-sub permute :prototype(&@) {
-    my $code = shift;
-    my @idx = 0..$#_;
-    while ( $code->(@_[@idx]) ) {
+sub permute ($code, @words) {
+    my @idx = 0..$#words;
+    while ( $code->(@words[@idx]) ) {
         my $p = $#idx;
         --$p while $idx[$p-1] > $idx[$p];
         my $q = $p or return;
@@ -19,7 +18,8 @@ RPEL RPLE REPL RELP RLPE RLEP LPER LPRE LEPR LRPE LREP /;
 
 my @permutations;
 
-permute { push @permutations, \@_; } split //, "PERL";
+permute sub { push @permutations, \@_; }, split //, "PERL";
+
 my %full = map { $_ => undef } map { join q{}, @{$_}; } @permutations;
 
 for my $part (@partial) {

@@ -1,11 +1,6 @@
 #!/usr/bin/env perl
-# The Weekly Challenge 154
-# Task 1 Missing Permutation
-# Usage: 
-# $ ch-1.pl [permutations of alphabets] 
+use v5.36;
 
-use v5.22.0;
-use warnings;
 use Algorithm::Permute qw/permute/;
 use List::Util qw/uniqstr/;
 

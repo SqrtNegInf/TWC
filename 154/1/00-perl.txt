@@ -33,6 +33,9 @@ LERP
 ===> 154/1/e-choroba.pl <===
 LERP
  
+===> 154/1/jaldhar-h-vyas-alt.pl <===
+LERP
+ 
 ===> 154/1/jaldhar-h-vyas.pl <===
 LERP
  
@@ -57,36 +60,10 @@ ok 3 - non-unique letters
 ===> 154/1/laurent-rosenfeld.pl <===
 LERP is missing
  
-===> 154/1/lubos-kolouch.pl <===
-ok 1
-1..1
- 
-===> 154/1/mattneleigh.pl <===
-
-Given permutations: ELPR, ELRP, EPLR, EPRL, ERLP, ERPL, LEPR, LPER, LPRE, LREP, LRPE, PELR, PERL, PLER, PLRE, PREL, PRLE, RELP, REPL, RLEP, RLPE, RPEL, RPLE
-Permutations not found in the list: LERP
-
- 
-===> 154/1/perlboy1967.pl <===
-Missing permutation(s): (LERP)
- 
-===> 154/1/peter-campbell-smith.pl <===
-LERP
- 
 ===> 154/1/pokgopun.pl <===
 LERP
  
 ===> 154/1/polettix.pl <===
-LERP
- 
-===> 154/1/robert-dicicco.pl <===
-LERP Not Found in given list
- 
-===> 154/1/roger-bell-west.pl <===
-1..1
-ok 1 - example 1
- 
-===> 154/1/ulrich-rieke.pl <===
 LERP
  
 ===> 154/1/wlmb.pl <===
