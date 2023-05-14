@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-use feature "say";
+use v5.36;
 
 my @fibmod = (1, 1);
 $fibmod[$_] = ($fibmod[$_-1] + $fibmod[$_-2]) % 3 for 2..30;

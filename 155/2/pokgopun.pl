@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
+use v5.36;
 
 ## Take n from argument if specified when running the script otherwise assign 3 which is the number the challenge's task asked to solve
 

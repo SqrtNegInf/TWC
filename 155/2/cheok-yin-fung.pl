@@ -1,34 +1,6 @@
 #!/usr/bin/env perl
-# The Weekly Challenge 155
-# Task 2 Pisano Period
-
-use v5.22.0;
-use warnings;
+use v5.36;
 use List::Util qw/any sum/;
-
-=pod
-for command-line input:
-
-# https://oeis.org/wiki/Index_to_OEIS:_Section_Rec
-
-ch-2.pl $N 2   1 1       0 1   # Fibonacci numbers
-
-ch-2.pl $N 2   1 1       2 1   # Lucas numbers    #OEIS:A000032
-
-ch-2.pl $N 2   1 2       0 1   # Pell numbers     #OEIS:A000129
-
-ch-2.pl $N 3   1 1 0  1 1 1 # Padovan numbers     #OEIS:A000931
-
-ch-2.pl $N 3   1 1 1  0 0 1 # Tribonacci numbers  #OEIS:A000073
-
-ch-2.pl $N 3   1 0 1  1 1 1 # Narayana's cows sequence #A000930
-
-ch-2.pl $N 6  -1 -1 0 -1 2 1   1 2 2 4 5 9             #A001224
-
-ch-2.pl $N 6   1 -1 -1 0 1 1   1 1 2 3 4 5             #A001399
-=cut
-
-
 
 if (check_commandline_args()) {
     my $iN = $ARGV[0];

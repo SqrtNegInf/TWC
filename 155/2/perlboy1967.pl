@@ -1,13 +1,9 @@
 #!/usr/bin/env perl
-
-use v5.16;
-
-use strict;
-use warnings;
+use v5.36;
 use bigint;
 
 # Prototype(s)
-sub fibModN($;$);
+sub fibModN :prototype($;$);
 
 my (@fibMod,@fModLh,@fModUh);
 
@@ -27,7 +23,7 @@ do {
 printf "%dth Pisano Period: %d (%s)\n",$N,scalar @fModLh,join(',',@fModLh);
 
 
-sub fibModN($;$) {
+sub fibModN :prototype($;$) {
   my ($i,$n) = @_;
   state $fN = [0,1];
   $fN->[$i] //= fibModN($i-2) + fibModN($i-1);

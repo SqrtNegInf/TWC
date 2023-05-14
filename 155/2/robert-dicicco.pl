@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use 5.30.0;
+use v5.36;
 
 # Author: Robert DiCicco
 # Date: 7-MAR-2022
