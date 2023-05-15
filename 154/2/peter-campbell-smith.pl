@@ -2,6 +2,7 @@
 use v5.36;
 use Math::Prime::Util 'is_prime';
 use Math::BigInt lib => 'GMP';
+no warnings 'uninitialized';
 
 # In number theory, the Padovan sequence is the sequence of integers P(n) defined by the initial values
 # P(0) = P(1) = P(2) = 1 and then followed by P(n) = P(n-2) + P(n-3).

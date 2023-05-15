@@ -3,21 +3,18 @@ use v5.36;
 
 use Math::Primality qw(is_prime);
 
-sub PadovanN($);
-
 my ($n, $i) = (0, 0);
 my %padovanPrimes;
 
 while ($i < 10) {
-  my $p = PadovanN $n++;
+  my $p = PadovanN($n++);
   if (is_prime $p  and !exists $padovanPrimes{$p}) {
     $padovanPrimes{$p}++;
     say $p; $i++;
   }
 }
 
-
-sub PadovanN($) {
+sub PadovanN {
   my ($n) = @_;
   state $p = [1,1,1];
 
