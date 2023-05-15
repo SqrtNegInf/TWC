@@ -63,4 +63,4 @@ sub main (@words) {
     say $min_stickers;
 }
 
-main(@ARGV);
+main('peon', 'perl','raku','python');

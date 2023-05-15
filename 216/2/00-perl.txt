@@ -1,0 +1,84 @@
+ 
+===> 216/2/e-choroba.pl <===
+1..5
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ok 4 - Example 4
+ok 5 - a- ab -b bc c c
+ 
+===> 216/2/james-smith.pl <===
+ok 1
+ok 2
+ok 3
+ok 4
+1..4
+ 
+===> 216/2/lubos-kolouch.pl <===
+2
+3
+4
+-1
+ 
+===> 216/2/peter-campbell-smith.pl <===
+
+Input:  @stickers = ('perl', 'raku', 'python'), $word = 'peon'
+Output: 2
+   'ep' from 'perl'
+   'on' from 'python'
+
+Input:  @stickers = ('love', 'hate', 'angry'), $word = 'goat'
+Output: 3
+   'o' from 'love'
+   'ta' from 'hate'
+   'g' from 'angry'
+
+Input:  @stickers = ('come', 'nation', 'delta'), $word = 'accommodation'
+Output: 4
+   'omc' from 'come'
+   'aonit' from 'nation'
+   'ad' from 'delta'
+   'omc' from 'come*'
+   * indicates duplicated sticker
+
+Input:  @stickers = ('nail', 'sited', 'belt', 'marsh'), $word = 'antidisestablishmentarianism'
+Output: 9
+   'nial' from 'nail'
+   'eitds' from 'sited'
+   'etb' from 'belt'
+   'rmhas' from 'marsh'
+   'mas' from 'marsh*'
+   'nia' from 'nail*'
+   'ni' from 'nail*'
+   'i' from 'nail*'
+   'ts' from 'sited*'
+   * indicates duplicated sticker
+ 
+===> 216/2/polettix.pl <===
+4
+ 
+===> 216/2/ribtips.pl <===
+Output: 2
+Output: 3
+Output: 4
+Output: 0
+ 
+===> 216/2/roger-bell-west.pl <===
+1..4
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ok 4 - example 4
+ 
+===> 216/2/sgreen.pl <===
+0
+ 
+===> 216/2/wlmb.pl <===
+Word: peon, stickers: perl raku python, result: 2
+ 
+===> 216/2/zapwai.pl <===
+Input: @stickers = (perl,raku,python), $word = peon
+Output: 2
+One solution is: 
+1 from 'perl'
+1 from 'python'

@@ -30,4 +30,3 @@ say "One solution is: ";
 foreach (0 .. $#stickers) {
     say "$bin{$_} from '$stickers[$_]'" if ($bin{$_});
 }
-# Not the most efficient solution.

@@ -1,9 +1,8 @@
 #!/usr/bin/env perl
 
-use v5.16;    # The Weekly Challenge - 2023-05-08
-use utf8;     # Week 216 task 2 - Word stickers
-use strict;   # Peter Campbell Smith
-use warnings; # Blog: http://ccgi.campbellsmiths.force9.co.uk/challenge
+use v5.16;
+use strict;
+use warnings;
 
 word_stickers(['perl','raku','python'], 'peon');
 word_stickers(['love','hate','angry'], 'goat');
