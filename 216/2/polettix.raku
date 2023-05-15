@@ -1,6 +1,6 @@
 #!/usr/bin/env raku
-use v6;
-sub MAIN (Str :$word, *@stickers) { put word-stickers($word, @stickers) }
+
+put word-stickers('peon', ('perl','raku','python'));
 
 sub word-stickers ($word, @stickers) {
    my %needed = letters-histogram($word);

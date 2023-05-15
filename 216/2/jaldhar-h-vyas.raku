@@ -1,7 +1,7 @@
 #!/usr/bin/env raku
 
 sub MAIN(
-    $word, *@stickers
+    $word = 'peon', @stickers = ('perl','raku','python')
 ) {
 
     if $word.comb.unique ⊈ @stickers.join.comb.unique {

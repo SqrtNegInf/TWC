@@ -1,13 +1,6 @@
 #!/usr/bin/env raku
 
-#
-# Perl Weekly Challenge 216
-# Task 2
-#
-# See <https://perlweeklychallenge.org/blog/perl-weekly-challenge-216/>
-#
-
-sub MAIN( *@strings is copy ) {
+sub MAIN( @strings is copy = ('perl','raku','python','peon') ) {
     my $letters = BagHash.new: @strings.pop.comb;
     my %stickers;
     my $loop = 0;

@@ -1,0 +1,41 @@
+ 
+===> 216/2/arne-sommer.raku <===
+2
+ 
+===> 216/2/bruce-gray.raku <===
+1..5
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ok 4 - 
+ok 5 - 
+ 
+===> 216/2/feng-chang.raku <===
+2
+ 
+===> 216/2/jaldhar-h-vyas.raku <===
+2
+ 
+===> 216/2/luca-ferrari.raku <===
+perl used 1 times
+python used 1 times
+ 
+===> 216/2/mark-anderson.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ok 4 - 
+ok 5 - 
+ok 6 - 
+ok 7 - 
+ok 8 - 
+ 
+===> 216/2/polettix.raku <===
+2
+ 
+===> 216/2/roger-bell-west.raku <===
+1..4
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ok 4 - example 4

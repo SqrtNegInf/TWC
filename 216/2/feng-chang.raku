@@ -1,8 +1,7 @@
 #!/usr/bin/env raku
 
-unit sub MAIN(*@stickers);
-
-my %word-bag = @stickers.pop.comb.Bag;
+my @stickers = ('perl','raku','python'); 
+my %word-bag = 'peon'.comb.Bag; #@stickers.pop.comb.Bag;
 my %bags = @stickers.map({ $_ => .comb.Bag });
 
 if %word-bag.Set (-) ([(|)] %bags.values».Set) {
