@@ -1,13 +1,4 @@
 #!/usr/bin/env raku
-=begin comment
---------------------------------------------
-AUTHOR: Robert DiCicco
-DATE  : 2023-05-08
-Challenge 216 Registration Number ( Raku )
---------------------------------------------
-=end comment
-
-use v6;
 
 my @words = ('abc', 'abcd', 'bcd', 'AB1 2CD'), ('job', 'james', 'bjorg', '007 JB'), ('crack', 'road', 'rac', 'C7 RA2');
 my @out = ();

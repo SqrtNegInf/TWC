@@ -1,13 +1,6 @@
 #!/usr/bin/env raku
 
-#
-# Perl Weekly Challenge 216
-# Task 1
-#
-# See <https://perlweeklychallenge.org/blog/perl-weekly-challenge-216/>
-#
-
-sub MAIN( *@strings is copy ) {
+sub MAIN( @strings is copy  = ('abc', 'abcd', 'bcd') ) {
     my @registration-code = @strings.pop.comb;
 
     # first implementation

@@ -11,6 +11,7 @@ my @tests =
     ( <job james bjorg> , '007 JB'  , <job bjorg> ),
     ( <crack road rac>  , 'C7 RA2'  , <crack rac> ),
 ;
+
 use Test;
 plan +@tests;
 for @tests -> ( $in_words, $in_reg, $expected ) {

@@ -1,8 +1,6 @@
 #!/usr/bin/env raku
 
-sub MAIN(
-    $reg, *@words
-) {
+    my $reg = 'AB1 2CD'; my @words = ('abc', 'abcd', 'bcd');
     my @registration = $reg.comb.grep({$_ ~~ /<alpha>/}).unique.map({ $_.lc });
     my @results;
 
@@ -14,4 +12,3 @@ sub MAIN(
     }
 
     say q{(}, @results.map({"'$_'"}).join(q{, }), q{)};
-}

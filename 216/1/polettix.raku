@@ -1,6 +1,6 @@
 #!/usr/bin/env raku
-use v6;
-sub MAIN (Str :$code, *@words) {
-   my @code = $code.lc.subst(/ <-[ a..z ]>/, '', :g).comb.Set;
-   @words.grep({ @code ⊆ .lc.comb }).join(', ').put;
-}
+
+my $code = 'AB1 2CD'; 
+my @words = ('abc', 'abcd', 'bcd');
+my @code = $code.lc.subst(/ <-[ a..z ]>/, '', :g).comb.Set;
+@words.grep({ @code ⊆ .lc.comb }).join(', ').put;
