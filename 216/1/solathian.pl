@@ -1,11 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
 
-
-# Challenge 216 - 1 - Registration Number
-# You are given a list of words and a random registration number.
-# Write a script to find all the words in the given list that has every letter in the given registration number.
-
 regNum('AB1 2CD', ('abc', 'abcd', 'bcd'));      # abcd
 regNum('007 JB',  ('job', 'james', 'bjorg'));   # ('job', 'bjorg')
 regNum('C7 RA2',  ('crack', 'road', 'rac'));    # ('crack', 'rac')

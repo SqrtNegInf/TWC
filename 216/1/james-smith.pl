@@ -4,7 +4,6 @@ use strict;
 use warnings;
 use feature qw(say);
 use Test::More;
-use Benchmark qw(cmpthese);
 
 my @TESTS = (
  [ ['AB1 2CD', qw(abc   abcd  bcd  )], 'abcd'      ],

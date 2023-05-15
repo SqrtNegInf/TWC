@@ -4,22 +4,6 @@ use v5.36;
 
 say "challenge-216-task1";
 
-# Task 1: Registration Number
-# You are given a list of words and a random registration number.
-# Write a script to find all the words in the given list that has every letter in the given registration number.
-
-# Example 1
-# Input: @words = ('abc', 'abcd', 'bcd'), $reg = 'AB1 2CD'
-# Output: ('abcd')
-
-# Example 2
-# Input: @words = ('job', 'james', 'bjorg'), $reg = '007 JB'
-# Output: ('job', 'bjorg')
-
-# Example 3
-# Input: @words = ('crack', 'road', 'rac'), $reg = 'C7 RA2'
-# Output: ('crack', 'rac')
-
 sub registration_number {
     my $reg = shift;
     my @words = @{+shift};

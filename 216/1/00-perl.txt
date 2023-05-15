@@ -1,0 +1,99 @@
+ 
+===> 216/1/avery-adams.pl <===
+abcd
+ 
+===> 216/1/e-choroba.pl <===
+# Seeded srand with seed '1' from import arg.
+1..3
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ 
+===> 216/1/jaldhar-h-vyas.pl <===
+('abcd')
+ 
+===> 216/1/james-smith.pl <===
+ok 1
+ok 2
+ok 3
+1..3
+ 
+===> 216/1/jo-37.pl <===
+# Seeded srand with seed '1' from import arg.
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+1..3
+ 
+===> 216/1/laurent-rosenfeld.pl <===
+abc abcd bcd - AB1 2CD =>     abcd
+job james bjorg - 007 JB =>   job bjorg
+crack road rac - C7 RA2 =>    crack rac
+ 
+===> 216/1/lubos-kolouch.pl <===
+('job', 'bjorg')
+ 
+===> 216/1/manfredi.pl <===
+challenge-216-task1
+Input: @words = (abc abcd bcd) , $reg = 'AB1 2CD'
+Output: (abcd)
+
+Input: @words = (job james bjorg) , $reg = '007 JB'
+Output: (job bjorg)
+
+Input: @words = (crack road rac) , $reg = 'C7 RA2'
+Output: (crack rac)
+
+ 
+===> 216/1/perlboy1967.pl <===
+ok 1
+ok 2
+ok 3
+ok 4
+ok 5
+1..5
+ 
+===> 216/1/peter-campbell-smith.pl <===
+
+Input:  @words = ('job', 'james', 'bjorg'), $reg = '007 JB'
+Output: ('job', 'bjorg')
+
+Input:  @words = ('crack', 'road', 'rac'), $reg = 'C7 RA2'
+Output: ('crack', 'rac')
+
+Input:  @words = ('superlative', 'reply', 'parallel', 'ppeerrll', 'pert', 'earl'), $reg = 'PERL 216'
+Output: ('superlative', 'reply', 'parallel', 'ppeerrll')
+
+Input:  @words = ('none', 'of', 'these', 'should', 'work'), $reg = '12345'
+Output: ()
+ 
+===> 216/1/ribtips.pl <===
+Test 1: ('abcd')
+Test 2: ('job', 'bjorg')
+Test 3: ('crack', 'rac')
+ 
+===> 216/1/robert-dicicco.pl <===
+Input: abc abcd bcd,  $reg = AB1 2CD
+Output: abcd
+
+Input: job james bjorg,  $reg = 007 JB
+Output: job bjorg
+
+Input: crack road rac,  $reg = C7 RA2
+Output: crack rac
+
+ 
+===> 216/1/roger-bell-west.pl <===
+1..3
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ 
+===> 216/1/solathian.pl <===
+abcd
+job, bjorg
+crack, rac
+ 
+===> 216/1/zapwai.pl <===
+Input: @words = (abc,abcd,bcd), $reg = 'AB1 2CD'
+Output: (abcd)

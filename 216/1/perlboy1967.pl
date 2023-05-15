@@ -1,22 +1,5 @@
 #!/usr/bin/env perl
 
-=pod
-
-The Weekly Challenge - 216
-- https://theweeklychallenge.org/blog/perl-weekly-challenge-216
-
-Author: Niels 'PerlBoy' van Dijke
-
-Task 1: Registration Number
-Submitted by: Mohammad S Anwar
-
-You are given a list of words and a random registration number.
-
-Write a script to find all the words in the given list that has every letter in the
-given registration number.
-
-=cut
-
 use v5.16;
 
 use common::sense;

@@ -34,7 +34,7 @@ sub combGrepUniqueLc {
     return keys %unique;
 }
 
-my ($reg, @words) = @ARGV;
+my ($reg, @words) = ('AB1 2CD', 'abc', 'abcd', 'bcd');
 
 my @registration = combGrepUniqueLc($reg);
 my @results;

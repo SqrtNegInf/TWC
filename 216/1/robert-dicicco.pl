@@ -1,11 +1,4 @@
 #!/usr/bin/env perl
-=begin comment
---------------------------------------------
-AUTHOR: Robert DiCicco
-DATE  : 2023-05-08
-Challenge 216 Registration Number ( Perl )
---------------------------------------------
-=cut
 use strict;
 use warnings;
 use feature 'say';
