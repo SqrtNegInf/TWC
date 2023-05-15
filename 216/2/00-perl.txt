@@ -25,33 +25,33 @@ ok 4
 Input:  @stickers = ('perl', 'raku', 'python'), $word = 'peon'
 Output: 2
    'ep' from 'perl'
-   'on' from 'python'
+   'no' from 'python'
 
 Input:  @stickers = ('love', 'hate', 'angry'), $word = 'goat'
 Output: 3
    'o' from 'love'
-   'ta' from 'hate'
+   'at' from 'hate'
    'g' from 'angry'
 
 Input:  @stickers = ('come', 'nation', 'delta'), $word = 'accommodation'
 Output: 4
-   'omc' from 'come'
-   'aonit' from 'nation'
-   'ad' from 'delta'
-   'omc' from 'come*'
+   'com' from 'come'
+   'iaont' from 'nation'
+   'da' from 'delta'
+   'com' from 'come*'
    * indicates duplicated sticker
 
 Input:  @stickers = ('nail', 'sited', 'belt', 'marsh'), $word = 'antidisestablishmentarianism'
 Output: 9
-   'nial' from 'nail'
-   'eitds' from 'sited'
-   'etb' from 'belt'
-   'rmhas' from 'marsh'
-   'mas' from 'marsh*'
-   'nia' from 'nail*'
-   'ni' from 'nail*'
-   'i' from 'nail*'
-   'ts' from 'sited*'
+   'lina' from 'nail'
+   'sidte' from 'sited'
+   'teb' from 'belt'
+   'smhar' from 'marsh'
+   'sit' from 'sited*'
+   'si' from 'sited*'
+   'ina' from 'nail*'
+   'na' from 'nail*'
+   'm' from 'marsh*'
    * indicates duplicated sticker
  
 ===> 216/2/polettix.pl <===

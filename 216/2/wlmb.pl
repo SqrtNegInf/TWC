@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
-
 use v5.36;
+
 use List::Util qw(min);
 my ($word, @stickers)= ('peon', 'perl','raku','python');
 # Map letters to stickers

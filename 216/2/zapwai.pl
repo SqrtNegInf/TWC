@@ -1,5 +1,7 @@
 #!/usr/bin/env perl
-use v5.30.0;
+use v5.36;
+no warnings 'uninitialized';
+
 my @stickers = ('perl','raku','python');my $word = 'peon';
 #my @stickers = ('love','hate','angry');my $word = 'goat';
 #my @stickers = ('come','nation','delta');my $word = 'accommodation';

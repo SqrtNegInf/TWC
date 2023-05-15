@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-
-use v5.16;
-use strict;
-use warnings;
+use v5.36;
 
 word_stickers(['perl','raku','python'], 'peon');
 word_stickers(['love','hate','angry'], 'goat');
