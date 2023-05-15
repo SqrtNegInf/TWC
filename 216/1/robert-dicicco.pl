@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use feature 'say';
+use v5.36;
 
 my @words = (['abc', 'abcd', 'bcd', 'AB1 2CD'], ['job', 'james', 'bjorg', '007 JB'], ['crack', 'road', 'rac', 'C7 RA2']);
 

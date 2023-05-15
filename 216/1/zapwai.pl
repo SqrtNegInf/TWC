@@ -1,5 +1,6 @@
 #!/usr/bin/env perl
-use v5.30.0;
+use v5.36;
+
 my @words = ('abc', 'abcd', 'bcd');
 my $reg = "AB1 2CD";
 my @letters = split("",lc $reg);

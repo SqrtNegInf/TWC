@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-use v5.24;
+use v5.36;
 
 my @A = ('AB1 2CD', 'abc', 'abcd', 'bcd');
 
