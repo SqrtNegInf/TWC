@@ -1,15 +1,8 @@
 #!/usr/bin/env perl
-# Perl weekly challenge 151
-# Task 2: Rob the house
-#
-# See https://wlmb.github.io/2022/02/07/PWC151/#task-2-rob-the-house
-use v5.12;
-use warnings;
+use v5.36;
 use Memoize;
 memoize("optimize");
-#die "Usage: ./ch-1.pl V0 [V1]...\n"
-#    . "to optimize the robery of houses 0, 1,... with valuables V0, V1..."
-#    unless @ARGV;
+
 my @values = (4, 2, 3, 6, 5, 3);
 my ($value,@houses)=optimize(0);
 say "Input: ", join ", ", @values;

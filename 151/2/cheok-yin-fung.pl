@@ -1,14 +1,10 @@
 #!/usr/bin/env perl
-
-# The Weekly Challenge 151
-# Task 2 Rob the House
-# Usage: $ ch-2.pl @valuables 
-use strict;
-use v5.22.0;
+use v5.36;
+#use v5.22.0;
+no warnings; # Use of reference "ARRAY(0x7ff0c38388a8)" as array index at 151/2/cheok-yin-fung.pl line 60.
 use List::Util qw/max/;
 
 {   # BEGIN of package Chain
-    use strict;
     package Chain;
 
     sub new {

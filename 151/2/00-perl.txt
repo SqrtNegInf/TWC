@@ -39,9 +39,6 @@ ok 6
                 1, 3, 5, 7, 9
 
  
-===> 151/2/duncan-c-white.pl <===
-max valuables is 13
- 
 ===> 151/2/e-choroba.pl <===
 1..3
 ok 1 - Example 1
@@ -71,29 +68,6 @@ ok 5 - two houses, second is best
 ok 1
 ok 2
 1..2
- 
-===> 151/2/mattneleigh.pl <===
-
-The street with houses containing valuables: 2, 4, 5
-    will yield a total of 7 loot.
-
-The street with houses containing valuables: 4, 2, 3, 6, 5, 3
-    will yield a total of 13 loot.
-
-The street with houses containing valuables: 3, 9
-    will yield a total of 3 loot.
-
-The street with houses containing valuables: 4
-    will yield a total of 4 loot.
-
-The street with houses containing valuables: 
-    will yield a total of 0 loot.
-
-The street with houses containing valuables: 1, 50, 2, 3, 7, 4
-    will yield a total of 10 loot.
-
-DISCLAIMER: Do not actually rob houses- it's not nice!
-
  
 ===> 151/2/peter-campbell-smith.pl <===
 

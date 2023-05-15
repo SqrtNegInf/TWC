@@ -1,15 +1,5 @@
 #!/usr/bin/env perl
-
-# Peter Campbell Smith - 2022-01-31
-# PWC 150 task 2
-
-use v5.28;
-use strict;
-use utf8;
-
-# You are planning to rob a row of houses, always starting with the first 
-# and moving in the same direction. However, you can’t rob two adjacent houses.
-# Write a script to find the highest possible gain that can be achieved.
+use v5.36;
 
 my (@tests, $test, @houses, $last, $best);
 
