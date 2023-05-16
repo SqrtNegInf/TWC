@@ -1,11 +1,6 @@
 #!/usr/bin/env perl
-# Week 147 Task 1
-# Truncatable Prime
-# Write a script to generate first 20 left-truncatable prime numbers in base 10.
+use v5.36;
 
-use strict;
-use warnings;
-use feature qw/ say /;
 use Math::Prime::Util qw/ next_prime is_prime /;
 
 my @ltp          = qw/ 2 /;

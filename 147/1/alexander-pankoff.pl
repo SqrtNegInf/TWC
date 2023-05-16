@@ -1,11 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use strict;
-use warnings;
-use feature qw'say signatures';
-no warnings qw'experimental::signatures';
-
-use Data::Dumper;
 use List::Util qw(all);
 
 run() unless caller();

@@ -1,10 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-##
-# Write a script to generate first 20 left-truncatable prime numbers in base 10.
-##
+use v5.36;
 use boolean;
 use constant N => 10_000; 
 

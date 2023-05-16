@@ -1,14 +1,5 @@
 #!/usr/bin/env perl
-
-# The Weekly Challenge 147
-# Task 1 Truncatable Prime
-# version 0: Thursday, January 13, 2022 PM04:18:51 HKT
-# version 1: Friday, January 14, 2022 PM12:34 HKT
-
-use v5.12.0;
-use warnings;
-
-
+use v5.36;
 
 my @ltp = ();
 my @recent_ltp = (2,3,5,7);

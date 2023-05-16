@@ -1,9 +1,5 @@
 #!/usr/bin/env perl
-
-use v5.24;
-use warnings;
-use experimental 'signatures';
-no warnings 'experimental::signatures';
+use v5.36;
 
 print ' ' . nth_left_truncatable($_) for 1 .. shift // 20;
 print "\n";

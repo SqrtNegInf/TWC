@@ -1,7 +1,7 @@
 #!/usr/bin/env perl
-
 use Modern::Perl;
-use experimental qw<signatures>;
+use v5.36;
+
 use List::Util   qw<first>;
 use ntheory      qw<is_prime>;
 

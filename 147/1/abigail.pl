@@ -1,21 +1,5 @@
 #!/usr/bin/env perl
-
-use 5.032;
-
-use strict;
-use warnings;
-no  warnings 'syntax';
-
-use experimental 'signatures';
-use experimental 'lexical_subs';
-
-#
-# See https://theweeklychallenge.org/blog/perl-weekly-challenge-147
-#
-
-#
-# Run as: perl ch-1.pl
-#
+use v5.36;
 
 #
 # This is asking for the first 20 terms of A024785, which we can just

@@ -1,23 +1,6 @@
 #!/usr/bin/env perl 
+use v5.36;
 
-#===============================================================================
-#
-#         FILE: 14701.pl
-#
-#        USAGE: ./14701.pl
-#
-#  DESCRIPTION: Output the first 20 left-truncatable prime numbers in
-#               base 10.
-#
-# REQUIREMENTS: Math::Prime::Util
-#       AUTHOR: Pete Houston (pete), cpan@openstrike.co.uk
-# ORGANIZATION: Openstrike
-#      VERSION: 1.0
-#      CREATED: 10/01/22
-#===============================================================================
-
-use strict;
-use warnings;
 use Math::Prime::Util qw/next_prime/;
 
 my $count = 20;
