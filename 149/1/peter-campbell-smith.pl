@@ -1,4 +1,5 @@
 #!/usr/bin/env perl
+use v5.36;
 
 # Peter Campbell Smith - 2022-01-24
 # PWC 149 task 2

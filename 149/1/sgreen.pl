@@ -1,8 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use strict;
-use warnings;
-use feature qw(say state);
 use List::Util qw(any sum);
 
 sub is_sum_fib {

@@ -1,28 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-#       fib-sums.pl
-#
-#       Fibonacci Digit Sum
-# 
-#         Submitted by: Roger Bell_West
-# 
-#         Given an input $N, generate the first $N numbers for which the
-#         sum of their digits is a Fibonacci number.
-# 
-#         Example
-#         f(20)=[0, 1, 2, 3, 5, 8, 10, 11, 12, 14, 17, 20, 21, 23, 26, 30, 32, 35, 41, 44]
-#           6591     <-- 1,000th value
-#           13380892 <-- 1,000,000th value
-#
-#
-#       © 2022 colin crain
-## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ##
-use warnings;
-use strict;
-use utf8;
-use feature ":5.26";
-use feature qw(signatures);
-no warnings 'experimental::signatures';
 my $N = shift // 20;  #1081;
 my $candidate;
 my @out = (0);

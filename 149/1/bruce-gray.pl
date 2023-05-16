@@ -1,5 +1,6 @@
 #!/usr/bin/env perl
-#
+use v5.36;
+
 use Modern::Perl;
 use List::Util      qw<sum>;
 use Math::Fibonacci qw<isfibonacci>;

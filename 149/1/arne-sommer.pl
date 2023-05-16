@@ -1,15 +1,8 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-use feature 'say';
-use feature 'signatures';
-use feature 'state';
+use v5.36;
 
 use Getopt::Long;
 use List::Util 'sum';
-
-no warnings qw(experimental::signatures);
 
 my $verbose =  0;
 
