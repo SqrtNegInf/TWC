@@ -1,10 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use strict;
-use warnings;
-##
-# Write a script to generate all Eban Numbers <= 100.
-##
 use boolean;
 
 sub eban{

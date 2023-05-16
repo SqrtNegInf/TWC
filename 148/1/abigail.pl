@@ -1,25 +1,5 @@
 #!/usr/bin/env perl
-
-use 5.032;
-
-use strict;
-use warnings;
-no  warnings 'syntax';
-
-use experimental 'signatures';
-use experimental 'lexical_subs';
-
-#
-# See https://theweeklychallenge.org/blog/perl-weekly-challenge-148
-#
-
-#
-# Run as: perl ch-1.pl
-#
-
-#
-# This is sequence A006933 in the OEIS
-#
+use v5.36;
 
 #
 #   Number       English       Contains e

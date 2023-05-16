@@ -1,8 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use strict;
-use warnings;
-use feature 'say';
 use Lingua::EN::Numbers qw/num2en/;
 
 my $limit = int($ARGV[0] || 100);

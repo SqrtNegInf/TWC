@@ -1,21 +1,7 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use feature qw'say signatures';
-no warnings qw'experimental::signatures';
+use v5.36;
 
 run() unless caller();
-
-# Write a script to generate all Eban Numbers <= 100.
-#
-#     An Eban number is a number that has no letter ‘e’ in it when the number is spelled in English (American or British).
-#
-# Example
-#
-# 2, 4, 6, 30, 32 are the first 5 Eban numbers.
-
-# one two three four five six seven eight nine ten eleven twelve thirteen
-# ten twenty thirty fourty fifty sixty seventy eighty ninety
 
 sub run() {
     say join( ", ", eban_numbers() );

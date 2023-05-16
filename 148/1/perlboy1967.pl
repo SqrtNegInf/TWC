@@ -1,32 +1,5 @@
 #!/usr/bin/env perl
-
-=pod
-
-The Weekly Challenge - 148
- - https://perlweeklychallenge.org/blog/perl-weekly-challenge-148/#TASK1
-
-Author: Niels 'PerlBoy' van Dijke
-
-TASK #1 › Eban Numbers
-Submitted by: Mohammad S Anwar
-
-Write a script to generate all Eban Numbers <= 100.
-
- || An Eban number is a number that has no letter ‘e’ in it when the 
- || number is spelled in English (American or British).
-
-NOTE: 
-  Oops, misread the challenge. I thought it was: "generate the first 100".
-  (which is more fun to do efficiently and not bute force)
-
-  The challenge can be done by:
-
-  use Lingua::EN::Numbers qw(num2en);
-  say join',',grep/\d/,map{num2en($_)=~/e/?'':$_}(2..100);
-     
-=cut
-
-use v5.16;
+use v5.36;
 
 # Eban is just a funny 20 base number system with 
 # some odd encoding of each 20 numbers :-)
