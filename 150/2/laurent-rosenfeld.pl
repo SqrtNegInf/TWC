@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-use feature "say";
+use v5.36;
 
 my @squares = map { $_ * $_ } 2, 3, 5, 7, 11, 13;
 # say "@squares"; # 4 9 25 49 121 169 - squares of prime integers

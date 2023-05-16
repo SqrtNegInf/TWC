@@ -1,11 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-use feature qw{ say postderef signatures state };
-no warnings qw{ experimental };
-
-#use Term::ReadKey;
+use v5.36;
 
 display_pretty( square_free_integers() );
 

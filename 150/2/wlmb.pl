@@ -1,8 +1,5 @@
 #!/usr/bin/env perl5.32.1
-# Perl weekly challenge 150
-# Task 2: square-free integer
-#
-# See https://wlmb.github.io/2022/01/31/PWC150/#task-2-square-free-integer
+
 use v5.12;
 use warnings;
 use PDL;

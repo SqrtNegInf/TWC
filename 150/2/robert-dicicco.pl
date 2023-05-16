@@ -1,13 +1,7 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use strict;
-use warnings;
 use ntheory qw/ factor /;
-use 5.30.0;
-
-# Author: Robert DiCicco
-# Date: 31-JAN-2022
-# Challenge 150 Square-Free Integer (Perl)
 
 my @sqfnums = ();
 

@@ -1,9 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-
-use warnings;
-use feature qw(say);
+use v5.36;
 
 my($N,@p2) = (@ARGV?$ARGV[0]:500,4);
 

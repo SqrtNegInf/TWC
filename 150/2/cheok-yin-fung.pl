@@ -1,12 +1,5 @@
 #!/usr/bin/env perl
-
-# The Weekly Challenge 150
-# Task 2 Square-Free Numbers
-# Usage: $ ch-2.pl [upper_bound]
-
-#use v5.22.0;
-use warnings;
-use feature 'say';
+use v5.36;
 
 my $N = $ARGV[0] || 500;
 

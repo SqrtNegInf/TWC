@@ -1,14 +1,5 @@
 #!/usr/bin/env perl
-
-# Peter Campbell Smith - 2022-01-31
-# PWC 150 task 2
-
-use v5.28;
-use strict;
-use warnings;
-use utf8;
-
-# Write a script to generate all square-free integers <= 500.
+use v5.36;
 
 # In mathematics, a square-free integer (or squarefree integer) is an integer 
 # which is divisible by no perfect square other than 1. That is, its prime 

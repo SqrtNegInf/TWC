@@ -1,7 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use strict;
-use warnings;
 use Math::Prime::Util qw/factor/;
 
 sub get_sq_free_int{
