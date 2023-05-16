@@ -1,10 +1,7 @@
 #!/usr/bin/env perl
+use v5.36;
 
 # 'die' to exit, really?
-
-use strict;
-use warnings;
-use feature qw(say);
 
 my %q = map { $_=>$_ } (my @p = (0,1));
 for(my $o=2;;$o++) {

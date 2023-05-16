@@ -1,21 +1,5 @@
 #!/usr/bin/env perl 
 
-#===============================================================================
-#  DESCRIPTION: Find the first pair of Pentagon Numbers whose sum and
-#               difference are also themselves Pentagon Numbers.
-#
-#         BUGS: O(n^2) - could use some optimisation
-#       AUTHOR: Pete Houston (pete), cpan@openstrike.co.uk
-# ORGANIZATION: Openstrike
-#      VERSION: 1.0
-#      CREATED: 10/01/22
-#===============================================================================
-
-use strict;
-use warnings;
-
-# Pentagon numbers can be defined as P(n) = n(3n - 1)/2
-
 my $limit = 1_000_000;
 my (%seen, @pns);
 

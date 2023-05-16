@@ -1,11 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use strict;
-use warnings;
-##
-# Write a sript to find the first pair of Pentagon Numbers 
-# whose sum and difference are also a Pentagon Number.
-##
 use constant N => 10_000;
 
 sub n_pentagon_numbers{

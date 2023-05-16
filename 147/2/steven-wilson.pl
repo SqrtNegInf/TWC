@@ -1,13 +1,6 @@
 #!/usr/bin/env perl
-# Week 147 Task 2
-# Pentagon Numbers
-# Write a sript to find the first pair of Pentagon Numbers
-# whose sum and difference are also a Pentagon Number.
-# Answer: First pair is 1560090 and 7042750
+use v5.36;
 
-use strict;
-use warnings;
-use feature qw/ say /;
 use POSIX qw/ fmod /;
 
 my @pentagonal_numbers = qw/ 1 /;

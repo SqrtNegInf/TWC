@@ -1,8 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use strict;
-use warnings;
-use feature "say";
 use constant MAX => 4000;
 
 my @pentanums = map { $_ * (3 * $_ - 1)/2 } 1..MAX;

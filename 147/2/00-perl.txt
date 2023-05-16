@@ -43,13 +43,8 @@ diff is 5482660
         abs( 7042750 - 1560090 ) = 5482660
 
  
-===> 147/2/duncan-c-white.pl <===
-found pair P[2166], P[1019]: 7042750, 1560090: sum=8602840, diff=5482660
- 
 ===> 147/2/e-choroba.pl <===
 1560090 7042750
- 
-===> 147/2/jaldhar-h-vyas.pl <===
  
 ===> 147/2/james-smith.pl <===
 First 2 pents are:
@@ -63,28 +58,12 @@ First 2 pents are:
 First pair of pentagon numbers is 1560090 (rank 1020) and 7042750 (rank 2167)
 Sum is 8602840 (rank 2395) and difference is 5482660 (rank 1912)
  
-===> 147/2/mattneleigh.pl <===
-
-The first two qualifying Pentagonal Numbers are:
-P(1020) + P(2167) =  1560090 + 7042750  = 8602840 = P(2395)
-P(1020) - P(2167) = |1560090 - 7042750| = 5482660 = P(1912)
-
- 
 ===> 147/2/perlboy1967.pl <===
 P(2167) + P(1020) = 7042750 + 1560090 = 8602840 = P(2395)
 P(2167) - P(1020) = 7042750 - 1560090 = 5482660 = P(1912)
  
 ===> 147/2/pete-houston.pl <===
 7042750 and 1560090 are the first pair
- 
-===> 147/2/peter-campbell-smith.pl <===
-Second method: 
-Pentagon no 2167 is 7042750
-Pentagon no 1020 is 1560090
-Their sum is 8602840 which is pentagon number 2395
-Their difference is 5482660 which is pentagon number 1912
- 
-===> 147/2/polettix.pl <===
  
 ===> 147/2/roger-bell-west.pl <===
 P(2167) + P(1020) = 7042750 + 1560090 = 8602840 = P(2395)
@@ -99,9 +78,3 @@ First pair is 1560090 and 7042750
  
 ===> 147/2/ulrich-rieke.pl <===
 1560090, 7042750
- 
-===> 147/2/wlmb.pl <===
-p2167=7042750
-p1020=1560090
-p2167-p1020=5482660=p1912
-p2167+p1020=8602840=p2395

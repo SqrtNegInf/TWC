@@ -1,26 +1,7 @@
 #!/usr/bin/env perl
+use v5.36;
 
-=pod
-
-The Weekly Challenge - 147
- - https://perlweeklychallenge.org/blog/perl-weekly-challenge-147/#TASK2
-
-Author: Niels 'PerlBoy' van Dijke
-
-TASK #2 › Pentagon Numbers
-Submitted by: Mohammad S Anwar
-
-Write a sript to find the first pair of Pentagon Numbers whose sum and difference
-are also a Pentagon Number.
-
- || Pentagon numbers can be defined as P(n) = n(3n - 1)/2.
-
-
-=cut
-
-use v5.16;
-
-sub pentagonNumber($) {
+sub pentagonNumber {
   $_[0]*(3*$_[0]-1) >> 1;
 }
 

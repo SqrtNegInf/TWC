@@ -1,7 +1,7 @@
 #!/usr/bin/env perl
+use v5.36;
 
 use Modern::Perl;
-use experimental qw<signatures>;
 
 # Where A,B,C,D are all pentagonal numbers:
 # B + C == A      ,  B - C == D     Original problem statement in task 

@@ -1,9 +1,5 @@
 #!/usr/bin/env perl
-
-use v5.32;
-use warnings;
-
-use experimental 'signatures';
+use v5.36;
 
 my @cache;
 my %cache;

@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-
-use warnings;
-use strict;
-use feature qw{ say };
+use v5.36;
 
 my @pentagon_numbers;
 my %pentagon_numbers;

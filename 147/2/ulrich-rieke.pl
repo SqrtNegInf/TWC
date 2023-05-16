@@ -1,9 +1,7 @@
 #!/usr/bin/env perl
-use strict ;
-use warnings ;
+use v5.36;
 use Algorithm::Combinatorics qw ( combinations ) ;
 use POSIX ;
-use feature 'say' ;
 
 sub isPentagonNumber {
   my $num = shift ;
