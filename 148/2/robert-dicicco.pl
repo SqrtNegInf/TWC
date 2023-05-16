@@ -1,12 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-use 5.30.0;
-
-### Author: Robert DiCicco
-### Date: 17-JAN-2022
-### Challenge 148 Cardano Triplets
+use v5.36;
 
 use constant MAX => 100;
 

@@ -1,9 +1,6 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-##
-# Write a script to generate first 5 Cardano Triplets.
-##
+use v5.36;
+
 use POSIX;
 use Algorithm::Combinatorics q/tuples/;
 

@@ -1,14 +1,8 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-use feature 'say';
-use feature 'signatures';
+use v5.36;
 
 use Getopt::Long;
 use Math::BigFloat;
-
-no warnings qw(experimental::signatures);
 
 die 'not ok - disabled'; # redonkulously slow
 

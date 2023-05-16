@@ -1,13 +1,6 @@
 #!/usr/bin/env perl
-# Week 148 Task 2
-# Cardano Triplets
-# Write a script to generate first 5 Cardano Triplets.
-#    A triplet of positive integers (a,b,c) is called
-#    a Cardano Triplet if it satisfies the below condition.
+use v5.36;
 
-use strict;
-use warnings;
-use feature qw/ say /;
 use POSIX qw/ cbrt sqrt /;
 
 my $max     = 117;

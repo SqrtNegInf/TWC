@@ -1,8 +1,6 @@
 #!/usr/bin/env perl
 use Modern::Perl;
-use experimental qw<signatures>;
-
-# See README for analysis common to Perl and Raku.
+use v5.36;
 
 # Uses WolframAlpha solution for `c`.
 # Empty return if c would be non-integer, otherwise aref of all three.

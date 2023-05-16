@@ -1,21 +1,5 @@
 #!/usr/bin/env perl
-
-use 5.032;
-
-use strict;
-use warnings;
-no  warnings 'syntax';
-
-use experimental 'signatures';
-use experimental 'lexical_subs';
-
-#
-# See https://theweeklychallenge.org/blog/perl-weekly-challenge-148
-#
-
-#
-# Run as: perl ch-2.pl
-#
+use v5.36;
 
 #
 # Cardona Triplets are also subject of Project Euler, task 251
