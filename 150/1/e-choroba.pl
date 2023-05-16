@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-use warnings;
-use strict;
+use v5.36;
 
 use constant GOAL => 51;
 
@@ -80,21 +79,3 @@ for my $l (1 .. GOAL + 1) {
         fibonacci_words($w1, $w2),
         "Length $l";
 }
-
-#use Benchmark qw{ cmpthese };
-##cmpthese(-3, {
-#    slow => sub {
-#        for my $l (1 .. 100) {
-#            my $w1 = substr $W, 0, $l;
-#            my $w2 = substr $W, -$l;
-#            fibonacci_words_slow($w1, $w2)
-#        }
-#    },
-#    fast => sub {
-#        for my $l (1 .. 100) {
-#            my $w1 = substr $W, 0, $l;
-#            my $w2 = substr $W, -$l;
-#            fibonacci_words($w1, $w2)
-#        }
-#    }
-#});

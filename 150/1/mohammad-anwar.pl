@@ -1,21 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-=head1
-
-Week 150:
-
-    https://theweeklychallenge.org/blog/perl-weekly-challenge-150
-
-Task #1: Fibonacci Words
-
-    You are given two strings having same number of digits, $a and $b.
-
-    Write a script to generate Fibonacci Words by concatenation of the previous two strings. Finally print 51st digit of the first term having at least 51 digits.
-
-=cut
-
-use strict;
-use warnings;
 use Test::More;
 
 is(fibonacci_words('1234', '5678', 51), 7, 'Example');

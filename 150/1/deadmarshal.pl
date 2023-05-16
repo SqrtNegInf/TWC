@@ -1,9 +1,6 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
+use v5.36;
 
-#print "No args provided!\n" unless @ARGV == 2;
-#my ($s1, $s2) = @ARGV;
 my ($s1, $s2) = (1234, 5678);
 
 sub fibonacci_words{

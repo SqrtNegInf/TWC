@@ -1,21 +1,5 @@
 #!/usr/bin/env perl
-
-use 5.032;
-
-use strict;
-use warnings;
-no  warnings 'syntax';
-
-use experimental 'signatures';
-use experimental 'lexical_subs';
-
-#
-# See https://theweeklychallenge.org/blog/perl-weekly-challenge-150
-#
-
-#
-# Run as: perl ch-1.pl < input-file
-#
+use v5.36;
 
 #
 # Not sure what the restriction that both numbers are of the same

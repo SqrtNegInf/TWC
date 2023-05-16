@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
+use v5.36;
 
 sub get_fib_word {
     my ($word1, $word2) = @_;

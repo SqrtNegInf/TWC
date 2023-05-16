@@ -1,12 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-use 5.30.0;
-
-# Author: Robert DiCicco
-# Date: 31-JAN-2022
-# Challenge 150 Fibonacci Words (Perl)
+use v5.36;
 
 my $a = '1234';
 my $b = '5678';

@@ -1,16 +1,5 @@
 #!/usr/bin/env perl
-
-# Peter Campbell Smith - 2022-01-31
-# PWC 150 task 1
-
-use v5.28;
-use strict;
-use warnings;
-use utf8;
-
-# You are given two strings having same number of digits, $a and $b.
-# Write a script to generate Fibonacci Words by concatenation of the previous two 
-# strings. Finally print 51st digit of the first term having at least 51 digits.
+use v5.36;
 
 my ($a, $b, $index, $j, $test, @fib, @tests);
 

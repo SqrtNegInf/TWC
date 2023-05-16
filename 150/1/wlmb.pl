@@ -1,15 +1,6 @@
 #!/usr/bin/env perl
-# Perl weekly challenge 150
-# Task 1: fibonacci words
-#
-# See https://wlmb.github.io/2022/01/31/PWC150/#task-1-fibonacci-words
-use v5.12;
-use warnings;
-#die "Usage: ./ch-1.pl word word [N]" .
-#    "to get the N-th (default=51) character of a fibonacci word"
-#    unless @ARGV>=2;
-#my ($x, $y, $N)=@ARGV;
-#$N//=51; # default
+use v5.36;
+
 my ($x, $y, $N) = (1234, 5678, 51);
 my ($l,$m)=map {length $_} ($x, $y); # last two lengths
 die "Words should not be empty" unless $l > 0 && $m > 0;
