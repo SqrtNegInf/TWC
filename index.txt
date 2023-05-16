@@ -452,8 +452,8 @@ Challenge titles and Rosetta-code correspondences (exact, and otherwise)
 215-2 Number Placement
 216-1 Registration Number
 216-2 Word Stickers
-217-1
-217-2
+217-1 Sorted Matrix
+217-2 Max Number
 218-1
 218-2
 219-1
