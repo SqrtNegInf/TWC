@@ -1,10 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-# The Weekly Challenge 149
-# Task 2 Largest Square
-
-use v5.22.0;
-use warnings;
 use Math::BigInt;
 use List::Util qw/uniq/;
 use Test::More tests => 5;

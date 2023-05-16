@@ -1,15 +1,9 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-use feature 'say';
-use feature 'signatures';
+use v5.36;
 
 use Getopt::Long;
 use Algorithm::Combinatorics 'permutations';
 use Math::Base::Convert;
-
-no warnings qw(experimental::signatures);
 
 my $verbose =  0;
 
@@ -22,7 +16,7 @@ die "Illegal base. Use 2..36 only" if $base < 2 or $base > 36;
 
 my @digits = ( 0..9,'A'..'Z' )[0 .. $base -1];
 
-my $converter = new Math::Base::Convert(\@digits, 10);
+my $converter = Math::Base::Convert->new(\@digits, 10);
 
 for my $permutation (reverse permutations(\@digits))
 {

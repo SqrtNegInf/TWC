@@ -1,28 +1,9 @@
 #!/usr/bin/env perl
-
-=pod
-
-The Weekly Challenge - 149
- - https://perlweeklychallenge.org/blog/perl-weekly-challenge-149/#TASK2
-
-Author: Niels 'PerlBoy' van Dijke
-
-TASK #2 › Largest Square
-Submitted by: Roger Bell_West
-
-Given a number base, derive the largest perfect square with no repeated digits and return it as a string.
-(For base>10, use ‘A’..‘Z’.)
-
-=cut
-
-use v5.16;
+use v5.36;
 
 use bigint;
 use List::MoreUtils qw(duplicates);
 use POSIX qw(floor);
-
-sub convertBase10toBaseN($$);
-sub convertBaseNtoBase10($$);
 
 my @digits = (0 .. 9, 'A' .. 'Z');
 
@@ -41,7 +22,7 @@ foreach my $base (2 .. 12) {
   }
 }
 
-sub convertBase10toBaseN ($$) {
+sub convertBase10toBaseN {
   my ($n, $base) = @_;
 
   state $digits = [@digits];
@@ -57,7 +38,7 @@ sub convertBase10toBaseN ($$) {
   return join('', reverse map {$digits->[$_]} @nMod);
 }
 
-sub convertBaseNtoBase10 ($$) {
+sub convertBaseNtoBase10 {
   my ($n, $base) = @_;
 
   my ($res, $i) = (0, 0);

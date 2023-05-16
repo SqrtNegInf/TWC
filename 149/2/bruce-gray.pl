@@ -1,8 +1,7 @@
 #!/usr/bin/env perl
 use Modern::Perl;
-use experimental qw<signatures>;
+use v5.36;          # must follow
 use List::Util   qw<uniq>;
-#use Math::BigInt;
 use Math::BigInt only => 'GMP,Pari';
 
 sub largest_rep_free_square_in_base ($base) {

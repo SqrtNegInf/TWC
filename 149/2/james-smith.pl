@@ -1,11 +1,8 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use strict;
-
-use warnings;
-use feature qw(say);
 use Test::More;
-use Time::HiRes qw(time);
+#use Time::HiRes qw(time);
 
 my @MAP = ( 0..9,'A'..'Z' );
 
@@ -14,7 +11,7 @@ say '|  N | v         | v^2                | v^2 (base N)    | Time      | Evals
 say '| -: | --------: | -----------------: | --------------: | --------: | -------: |';
 
 for my $N (2..15) {
-  my $time = time;
+  #my $time = time;
   my ($v,$c) = biggest_perfect_square($N);
   say sprintf '| %2d | %9d | %18d | %15s | %9.6f | %8d |',
          $N, $v, $v*$v, baseN($v*$v,$N),          0, $c;
