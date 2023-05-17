@@ -1,22 +1,5 @@
 #!/usr/bin/env perl
-
-# Peter Campbell Smith - 2022-01-04
-# PWC 146 task 1
-
-use v5.28;
-use warnings;
-use strict;
-
-# Write a script to generate the 10001st prime number.
-	
-# The sieve of Eratosthenes is a quick way to generate all the primes up to
-# some maximum number.  However, that's not today's question.  This script
-# therefore generates the sieve in 1000 blocks (ie 1-1000, then 1001 to 2000 
-# and so on), counting the number of primes found in each block and stopping
-# when that reaches or exceeds 10001.
-
-# It takes less than 1 second to run on my machine. And to find the 1000001st
-# prime takes only 28 seconds.  I haven't found a faster method.
+use v5.36;
 
 my ($seeking, $prime_index, $from, $to, $test, $factor, $multiple, @not_a_prime,
 	@prime, $time, $start);

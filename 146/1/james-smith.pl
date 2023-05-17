@@ -1,9 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-
-use warnings;
-use feature qw(say);
+use v5.36;
 
 my($c,@p)=(5,3);
 for(;@p<10000;$c+=2){

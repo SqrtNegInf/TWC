@@ -1,20 +1,5 @@
 #!/usr/bin/env perl
-
-=pod
-
-The Weekly Challenge - 146
- - https://perlweeklychallenge.org/blog/perl-weekly-challenge-146/#TASK1
-
-Author: Niels 'PerlBoy' van Dijke
-
-TASK #1 › 10001st Prime Number
-Submitted by: Mohammad S Anwar
-
-Write a script to generate the 10001st prime number.
-
-=cut
-
-use v5.16;
+use v5.36;
 
 use Math::Primality qw(next_prime);
 

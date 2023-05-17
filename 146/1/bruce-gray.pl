@@ -1,5 +1,5 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use Modern::Perl;
 use ntheory qw<nth_prime>;
 say nth_prime(10_001);

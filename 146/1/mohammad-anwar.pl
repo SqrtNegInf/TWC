@@ -1,19 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-=head1
-
-Week 146:
-
-    https://theweeklychallenge.org/blog/perl-weekly-challenge-146
-
-Task #1: 10001st Prime Number
-
-    Write a script to generate the 10001st prime number.
-
-=cut
-
-use strict;
-use warnings;
 use Test::More;
 
 is(find_prime(10_001), 104743, 'Example');

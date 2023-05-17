@@ -1,32 +1,12 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use strict;
-use warnings;
-##
-# Write a script to generate the 10001st prime number.
-##
+# removed option to get primes over network
+
 use boolean; 
 use Getopt::Long;
-use LWP::UserAgent;
 
 use constant N => 10_001;   
-use constant PRIME_URL => "http://primes.utm.edu/lists/small/100000.txt";
-
-sub get_primes{
-    my @primes;
-    my $ua = new LWP::UserAgent(
-        ssl_opts => {verify_hostname => 0}
-    );
-    my $response = $ua->get(PRIME_URL);
-    my @lines = split(/\n/,$response->decoded_content);
-    foreach my $line (@lines){
-        my @p = split(/\s+/, $line);
-        unless(@p < 10){
-            push @primes, @p[1..(@p - 1)];
-        }
-    }
-    return @primes;
-}
 
 sub sieve_atkin{
     my($n) = @_;
@@ -80,14 +60,9 @@ sub sieve_atkin{
 }
 
 sub get_nth_prime{
-    my($n, $generate) = @_; 
+    my($n) = @_; 
     my @primes;
-    unless($generate){
-        @primes = get_primes;
-    }
-    else{
-        @primes = sieve_atkin($n);
-    }
+    @primes = sieve_atkin($n);
     return $primes[$n - 1]; 
 }
 

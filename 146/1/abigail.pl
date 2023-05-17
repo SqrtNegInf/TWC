@@ -1,21 +1,5 @@
 #!/usr/bin/env perl
-
-use 5.032;
-
-use strict;
-use warnings;
-no  warnings 'syntax';
-
-use experimental 'signatures';
-use experimental 'lexical_subs';
-
-#
-# See Project Euler, task 7.
-#
-
-#
-# Run as: perl ch-1.pl
-#
+use v5.36;
 
 #
 # Math::Prime::Util::PrimeArray gives us a tied array, so that it's

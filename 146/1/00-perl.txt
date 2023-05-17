@@ -7,9 +7,6 @@
  
 ===> 146/1/andrezgz.pl <===
 104743 
-===> 146/1/arne-sommer.pl <===
-104743
- 
 ===> 146/1/athanasius.pl <===
 The 10,001st prime number is 104,743
  
@@ -22,9 +19,6 @@ The 10,001st prime number is 104,743
 ===> 146/1/dave-jacoby.pl <===
 10001	104743
  
-===> 146/1/duncan-c-white.pl <===
-104743
- 
 ===> 146/1/e-choroba.pl <===
 # Seeded srand with seed '1234' from import arg.
 1..6
@@ -35,9 +29,6 @@ ok 4 - 10th prime = 29
 ok 5 - 5th prime (breaking the order) = 11
 ok 6 - 10001st Prime Number
  
-===> 146/1/iangoodnight.pl <===
-The [33m10001st[0m prime number is [32m104743[0m
- 
 ===> 146/1/jaldhar-h-vyas.pl <===
 104743
  
@@ -47,10 +38,6 @@ The [33m10001st[0m prime number is [32m104743[0m
 ===> 146/1/laurent-rosenfeld.pl <===
 104743
  
-===> 146/1/mattneleigh.pl <===
-The n'th prime number, where n = 10001, is: 104743
-
- 
 ===> 146/1/mohammad-anwar.pl <===
 ok 1 - Example
 1..1
@@ -58,17 +45,11 @@ ok 1 - Example
 ===> 146/1/perlboy1967.pl <===
 10001'th prime = 104743
  
-===> 146/1/pete-houston.pl <===
-104743
- 
 ===> 146/1/peter-campbell-smith.pl <===
 Prime no 10001 is 104743
  
 ===> 146/1/polettix.pl <===
 104743
- 
-===> 146/1/robert-dicicco.pl <===
-Count = 10001 : prime = 104743
  
 ===> 146/1/roger-bell-west.pl <===
 1..1
@@ -79,6 +60,3 @@ ok 1 - example 1
  
 ===> 146/1/ulrich-rieke.pl <===
 104743
- 
-===> 146/1/wlmb.pl <===
-The 10001-th prime is 104743
