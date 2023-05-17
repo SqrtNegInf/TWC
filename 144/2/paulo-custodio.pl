@@ -1,22 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-# Challenge 144
-#
-# TASK #2 > Ulam Sequence
-# Submitted by: Mohammad S Anwar
-# You are given two positive numbers, $u and $v.
-#
-# Write a script to generate Ulam Sequence having at least 10 Ulam numbers
-# where $u and $v are the first 2 Ulam numbers.
-#
-# For more information about Ulam Sequence, please checkout the website.
-#
-# The standard Ulam sequence (the (1, 2)-Ulam sequence) starts with U1 = 1 and
-# U2 = 2. Then for n > 2, Un is defined to be the smallest integer that is the
-# sum of two distinct earlier terms in exactly one way and larger than all
-# earlier terms.
-
-use Modern::Perl;
 use Math::Combinatorics;
 use List::Util 'sum';
 

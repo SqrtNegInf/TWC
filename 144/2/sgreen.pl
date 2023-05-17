@@ -1,8 +1,7 @@
 #!/usr/bin/env perl
+use v5.36; 
 
-use strict;
-use warnings;
-use feature 'say';
+use Modern::Perl; # where is 'raise' from?  This gets it in any case...
 use POSIX 'ceil';
 use List::Util 'any';
 

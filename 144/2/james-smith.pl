@@ -1,12 +1,7 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use strict;
-
-use warnings;
-use feature qw(say);
 use Test::More;
-use Benchmark qw(cmpthese timethis);
-use Data::Dumper qw(Dumper);
 
 #say "@{[ ulam_expanded(1,2,1000) ]}";
 #say "@{[ ulam_map(1,2,1000) ]}";
@@ -18,12 +13,6 @@ say "@{[ ulam(2,3,100) ]}";
 say "@{[ ulam(2,5,100) ]}";
 say "@{[ ulam_map(1,2,100) ]}";
 say "@{[ ulam_expanded(1,2,100) ]}";
-
-#cmpthese( 200, {
-#  'u' => sub { ulam(1,2,1000) },
-##  'm' => sub { ulam_map(1,2,1000) },
-#  'e' => sub { ulam_expanded(1,2,1000) },
-#} );
 
 sub ulam {
   my%h=map{$_,$_}my@s=($_[0],my$n=$_[1]);
