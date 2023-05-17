@@ -1,11 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use strict;
-use warnings;
-##
-# You are given 2 arrays of the same size, @a and @b.
-# Write a script to implement the Dot Product.
-##
 sub dot_product{
     my($s, $t) = @_;
     return $s->[0] * $t->[0] if(@{$s} == 1 && @{$t} == 1);

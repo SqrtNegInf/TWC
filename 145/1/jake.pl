@@ -1,8 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use warnings;
-use strict;
-use feature 'say';
 use List::Util qw(sum);
 use List::MoreUtils qw(pairwise);
 

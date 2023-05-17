@@ -1,10 +1,5 @@
 #!/usr/bin/env perl
-# Week 145 Task 1
-# Dot Product
-
-use strict;
-use warnings;
-use feature qw/ say /;
+use v5.36;
 
 my @a = ( 1, 2, 3 );
 my @b = ( 4, 5, 6 );

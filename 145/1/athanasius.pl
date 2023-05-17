@@ -1,4 +1,5 @@
 #!/usr/bin/env perl
+use v5.36;
 
 use Const::Fast;
 use List::Util 1.56 qw( mesh pairmap sum0 );

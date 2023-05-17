@@ -1,14 +1,5 @@
 #!/usr/bin/env perl
-
-# Peter Campbell Smith - 2021-12-27
-# PWC 145 task 1
-
-use v5.20;
-use warnings;
-use strict;
-
-# You are given 2 arrays of same size, @a and @b.
-# Write a script to implement Dot Product.
+use v5.36;
 
 my (@tests, $test, @a, @b, $j, $p, $dp, $string1, $string2);
 

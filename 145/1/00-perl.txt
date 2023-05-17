@@ -8,12 +8,6 @@
 ===> 145/1/alexander-pankoff.pl <===
 32
  
-===> 145/1/andrezgz.pl <===
-32
- 
-===> 145/1/arne-sommer.pl <===
-32
- 
 ===> 145/1/athanasius.pl <===
 Output: 32
  
@@ -31,20 +25,12 @@ Output: 32
         $dot_product = 112
 
  
-===> 145/1/duncan-c-white.pl <===
-32
- 
 ===> 145/1/e-choroba.pl <===
 # Seeded srand with seed '1234' from import arg.
 1..1
 ok 1 - Example 1
  
-===> 145/1/iangoodnight.pl <===
- 
 ===> 145/1/jake.pl <===
-32
- 
-===> 145/1/jaldhar-h-vyas.pl <===
 32
  
 ===> 145/1/james-smith.pl <===
@@ -64,32 +50,7 @@ ok 8
 ===> 145/1/laurent-rosenfeld.pl <===
 32
  
-===> 145/1/mattneleigh.pl <===
-@a = (1, 2, 3);
-@b = (4, 5, 6);
-Dot product = 32
-
-@a = (1, 2, 3, 4, 5, 6, 7, 8, 9);
-@b = (10, 11, 12, 13, 14, 15, 16, 17, 18);
-Dot product = 690
-
-@a = (1, 2, 3, 4, 5);
-@b = (1, 2, 3, 4);
-Dot product = Undefined due to error
-
- 
-===> 145/1/mohammad-anwar.pl <===
-ok 1 - Validate
-ok 2 - Example
-1..2
- 
 ===> 145/1/paulo-custodio.pl <===
-32
- 
-===> 145/1/perlboy1967.pl <===
-dotProduct of (1,2,3) and (2,3,4) = 20
- 
-===> 145/1/pete-houston.pl <===
 32
  
 ===> 145/1/peter-campbell-smith.pl <===
@@ -109,12 +70,6 @@ Not the same length
 ===> 145/1/polettix.pl <===
 32
  
-===> 145/1/robert-dicicco.pl <===
-ok 1 - dot product of (1 2 3) and (4 -5 6)
-ok 2 - dot product of (-4 -9) and (-1 2)
-ok 3 - dot product of (6 -1 3) and (4 18 -2)
-1..3
- 
 ===> 145/1/roger-bell-west.pl <===
 1..1
 ok 1 - example 1
@@ -124,9 +79,3 @@ ok 1 - example 1
  
 ===> 145/1/steven-wilson.pl <===
 32
- 
-===> 145/1/ulrich-rieke.pl <===
-32
- 
-===> 145/1/wlmb.pl <===
-x=[1 2 3], y=[4 5 6], x.y=32
