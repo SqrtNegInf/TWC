@@ -17,14 +17,6 @@ G
 S
 6
  
-===> 214/1/barroff.pl <===
-# Seeded srand with seed '1' from import arg.
-1..4
-ok 1 - works for (1,2,4,3,5)
-ok 2 - works for (8,5,6,7,4)
-ok 3 - works for (3,5,4,2)
-ok 4 - works for (2,5,2,1,7,5,1)
- 
 ===> 214/1/bob-lied.pl <===
 # Seeded srand with seed '1' from import arg.
 ok 1 - Example 1
@@ -68,13 +60,6 @@ ok 9
 ok 10
 1..10
  
-===> 214/1/lubos-kolouch.pl <===
-ok 1
-ok 2
-ok 3
-ok 4
-1..4
- 
 ===> 214/1/perlboy1967.pl <===
 ok 1
 ok 2
@@ -107,12 +92,6 @@ ok 1 - example 1
 ok 2 - example 2
 ok 3 - example 3
 ok 4 - example 4
- 
-===> 214/1/solathian.pl <===
-5,4,S,B,G
-G,4,B,S,5
-B,G,S,4
-4,S,4,6,G,S,6
  
 ===> 214/1/wlmb.pl <===
 2 5 2 1 7 5 1 -> 4 Silver 4 6 Gold Silver 6

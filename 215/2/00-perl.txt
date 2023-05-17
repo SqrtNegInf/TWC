@@ -14,7 +14,7 @@ ok 7 - One too many
 1..7
  
 ===> 215/2/barroff.pl <===
-# Seeded srand with seed '20230508' from local date.
+# Seeded srand with seed '1' from import arg.
 1..4
 ok 1 - works for 1, (1,0,0,0,1)
 ok 2 - works for 2, (1,0,0,0,1)

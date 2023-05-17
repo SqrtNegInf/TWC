@@ -15,7 +15,7 @@ sub number_placement ( $count, @numbers ) {
 
 #| Run test cases
 sub MAIN() {
-    use Test2::V0 qw( is plan );
+    use Test2::V0 -srand => 1;
     plan 4;
 
     is number_placement( 1, ( 1, 0, 0, 0, 1 ) ), 1, 'works for 1, (1,0,0,0,1)';
