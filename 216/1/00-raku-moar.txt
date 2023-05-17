@@ -17,6 +17,11 @@ ok 3 -
 ===> 216/1/feng-chang.raku <===
 'abcd'
  
+===> 216/1/gfldex.raku <===
+(abcd)
+(job bjorg)
+(crack rac)
+ 
 ===> 216/1/jaldhar-h-vyas.raku <===
 ('abcd')
  

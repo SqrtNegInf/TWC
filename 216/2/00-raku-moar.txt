@@ -13,12 +13,18 @@ ok 5 -
 ===> 216/2/feng-chang.raku <===
 2
  
+===> 216/2/gfldex.raku <===
+"peon" can be made with "perl python"
+"goat" can be made with "love hate angry"
+"accommodation" can be made with "come nation delta"
+"accommodation" can not be made, "i" is missing
+ 
 ===> 216/2/jaldhar-h-vyas.raku <===
 2
  
 ===> 216/2/luca-ferrari.raku <===
-python used 1 times
 perl used 1 times
+python used 1 times
  
 ===> 216/2/mark-anderson.raku <===
 ok 1 - 
