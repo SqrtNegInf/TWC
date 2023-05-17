@@ -17,8 +17,8 @@ ok 5 -
 2
  
 ===> 216/2/luca-ferrari.raku <===
-perl used 1 times
 python used 1 times
+perl used 1 times
  
 ===> 216/2/mark-anderson.raku <===
 ok 1 - 

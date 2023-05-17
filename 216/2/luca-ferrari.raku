@@ -23,5 +23,5 @@ sub MAIN( @strings is copy = ('perl','raku','python','peon') ) {
 	}
     }
 
-    "$_ used { %stickers{ $_ }.keys.elems } times".say for %stickers.keys;
+    "$_ used { %stickers{ $_ }.keys.elems } times".say for %stickers.keys.sort;
 }
