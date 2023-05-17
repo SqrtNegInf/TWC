@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-use v5.24;
-use warnings;
-use experimental 'signatures';
-no warnings 'experimental::signatures';
+use v5.36;
 
 my $limit = shift // 100;
 say join ', ', semiprimes_upto_constructive_tight($limit);

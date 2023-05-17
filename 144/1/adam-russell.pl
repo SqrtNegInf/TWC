@@ -1,9 +1,8 @@
 #!/usr/bin/env perl
+use v5.36;
 
 # bonkers way to get some primes
 
-use strict;
-use warnings;
 ##
 # Write a script to generate all Semiprime numbers <= 100.  
 ##

@@ -1,20 +1,7 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use strict;
-
-use warnings;
-use feature qw(say);
 use Test::More;
-use Benchmark qw(cmpthese timethis);
-use Data::Dumper qw(Dumper);
-
-#my($C,$I) = (100,100_000);
-##say foreach sp_loop(100);exit;
-#cmpthese( 100, {
-#  'sp' => sub { semiprimes($I); },
-#  'sl' => sub { sp_loop(   $I); },
-#  'sm' => sub { sp_map(    $I); },
-#});
 
 print join ' ', semiprimes(100); print "\n";
 print join ' ', sp_loop(100); print "\n";

@@ -1,29 +1,8 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use strict;
-use warnings;
 use ntheory qw/ primes divisors is_prime /;
 use Test::More;
-
-=head1 NAME
-
-Semiprime.pl  - Challenge #144
-
-=head1 DESCRIPTION
-
-In mathematics, a semiprime is a natural number that is the product
-of exactly two prime numbers. The two primes in the product may
-equal each other, so the semiprimes include the squares of prime numbers.
-
-=head1 AUTHOR
-
-Robert DiCicco
-
-=head1 DATE
-
-22-DEC-2021
-
-=cut
 
 my @results = ();
 my $res;
