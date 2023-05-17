@@ -1,9 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-use feature qw{ say postderef signatures state };
-no warnings qw{ experimental };
+use v5.36;
 
 my @examples;
 push @examples, 'redivider';

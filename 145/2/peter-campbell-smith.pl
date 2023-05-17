@@ -1,19 +1,5 @@
 #!/usr/bin/env perl
-
-# Peter Campbell Smith - 2021-12-27
-# PWC 145 task 2
-
-use v5.20;
-use warnings;
-use strict;
-
-# You are given a string $s.
-# Write a script to create a Palindromic Tree for the given string.
-
-# This produces the desired output, but not by explicitly using a palindromic tree,
-# but the 'very_long' test is 1000 characters long and takes < 10sec on my 
-# (quite slow) Raspberry Pi. The optimisation of is_palindromic to return false as 
-# soon as it finds a mismatch helps a lot.
+use v5.36;
 
 my (@strings, $string, $length, $sub_length, $start_at, $test, %seen, $very_long, $j);
 

@@ -1,4 +1,5 @@
 #!/usr/bin/env perl
+use v5.36;
 #
 #       a-palindrome-grows-in-brooklyn.pl
 #
@@ -35,13 +36,6 @@ use Moo;
 
 
 ### ### ### main body
-
-use warnings;
-use strict;
-use utf8;
-use feature ":5.26";
-use feature qw(signatures);
-no warnings 'experimental::signatures';
 
 package main;
 my $input = shift // 'amanaplanacanalpanama';  ## <-- input here

@@ -59,65 +59,6 @@ reverse
 r rever e eve v s
 
  
-===> 145/2/duncan-c-white.pl <===
-r redivider e edivide d divid i ivi v
- 
-===> 145/2/e-choroba.pl <===
-# Seeded srand with seed '1234' from import arg.
-ok 1 - size
-ok 2 - edge -1->a
-ok 3 - link a->1
-ok 4 - string a
-ok 5 - size
-ok 6 - edge -1->a
-ok 7 - edge 0->aa
-ok 8 - string a
-ok 9 - link
-ok 10 - string aa
-ok 11 - link aa->a
-ok 12 - size
-ok 13 - edges from -1
-ok 14 - edge from 0
-ok 15 - no edges from e
-ok 16 - link e->0
-ok 17 - pos e
-ok 18 - string e
-ok 19 - no edges from "ee"
-ok 20 - link ee->e
-ok 21 - pos ee
-ok 22 - string ee
-ok 23 - no edges from r
-ok 24 - link r->0
-ok 25 - pos r
-ok 26 - string r
-ok 27 - edge t->rtr
-ok 28 - link t->0
-ok 29 - pos t
-ok 30 - string t
-ok 31 - edge rtr->ertre
-ok 32 - link rtr->r
-ok 33 - pos rtr
-ok 34 - string rtr
-ok 35 - edge ertre->eertree
-ok 36 - link ertre->e
-ok 37 - pos ertre
-ok 38 - string ertre
-ok 39 - no edges from eertree
-ok 40 - link eertree->ee
-ok 41 - pos eertree
-ok 42 - string eertree
-ok 43 - Example 1
-ok 44 - Example 2
-ok 45 - Example 3
-ok 46 - Example 4
-ok 47 - Example 5
-ok 48 - Example 6
-ok 49 - Example 7
-ok 50 - Example 8
-1..50
- 
-===> 145/2/iangoodnight.pl <===
- 
 ===> 145/2/jaldhar-h-vyas.pl <===
 r redivider e edivide d divid i ivi v
  
@@ -133,14 +74,6 @@ ok 8
 ok 9
 ok 10
 1..10
- 
-===> 145/2/laurent-rosenfeld.pl <===
-redivider: r redivider e edivide d divid i ivi v  
-deific: d e i ifi f c  
-rotors: r rotor o oto t s  
-challenge: c h a l ll e n g  
-champion: c h a m p i o n  
-christmas: c h r i s t m a  
  
 ===> 145/2/paulo-custodio.pl <===
 r redivider e edivide d divid i ivi v
@@ -174,29 +107,6 @@ Output: a n t i idi d s ses e b l h m r
 Input:  abcdedcbfffffgfffffzz
 Output: a b bcdedcb c cdedc d ded e f ff fff ffff fffff fffffgfffff ffffgffff fffgfff ffgff fgf g z zz 
  
-===> 145/2/polettix.pl <===
-digraph {
-   "''" -> "'ee'" [color=black label="e"]
-   "''" -> "«-1»" [color=blue]
-   "'e'" -> "''" [color=blue]
-   "'ee'" -> "'e'" [color=blue]
-   "'eertree'" -> "'ee'" [color=blue]
-   "'ertre'" -> "'e'" [color=blue]
-   "'ertre'" -> "'eertree'" [color=black label="e"]
-   "'r'" -> "''" [color=blue]
-   "'rtr'" -> "'ertre'" [color=black label="e"]
-   "'rtr'" -> "'r'" [color=blue]
-   "'t'" -> "''" [color=blue]
-   "'t'" -> "'rtr'" [color=black label="r"]
-   "«-1»" -> "'e'" [color=black label="e"]
-   "«-1»" -> "'r'" [color=black label="r"]
-   "«-1»" -> "'t'" [color=black label="t"]
-   "«-1»" -> "«-1»" [color=blue]
-}
- 
-===> 145/2/robert-dicicco.pl <===
-r redivider e edivide d divid i ivi v 
- 
 ===> 145/2/roger-bell-west.pl <===
 1..6
 ok 1 - example 1
@@ -205,9 +115,6 @@ ok 3 - example 3
 ok 4 - example 4
 ok 5 - example 5
 ok 6 - example 6
- 
-===> 145/2/sgreen.pl <===
- r redivider e edivide d divid i ivi v
  
 ===> 145/2/ulrich-rieke.pl <===
 r redivider e edivide d divid i ivi v

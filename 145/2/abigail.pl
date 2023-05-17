@@ -1,52 +1,5 @@
 #!/usr/bin/env perl
-
-use 5.032;
-
-use strict;
-use warnings;
-no  warnings 'syntax';
-
-use experimental 'signatures';
-use experimental 'lexical_subs';
-
-#
-# See ../README.md
-#
-
-#
-# Run as: perl ch-2.pl < input-file
-#
-
-#
-# Once again, there is a choice to be made. The maker of the challenge
-# gives us two, conflicting, options:
-#
-#    "Do as I say"
-#
-# and
-#
-#    "Do as I do"
-#
-#
-# The challenge *description* asks us to create a *Palindromic Tree*,
-# linking to a blog describing the elaborate graph structure (and the
-# algorithm to create it) which is a Palindromic Tree.
-#
-# The challenge *examples* complete ignores the requirement of a 
-# palindromic tree, heck, doesn't even bother to create anything 
-# which even remotely looks like any kind of graph or other form of
-# datastructure, and just outputs all palindromic substrings of
-# the input, with duplicates removed.
-#
-# Sigh.
-#
-# Conflicting challenges like this push me ever further to the point
-# of abandoning the weekly challenges. I'm very close to the edge.
-#
-
-#
-# We'll be doing the "do as I do" option.
-#
+use v5.36;
 
 #
 # Please see the section "Unicode and Combining Characters" at

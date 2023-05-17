@@ -1,11 +1,6 @@
 #!/usr/bin/env perl
-# Perl weekly challenge 145
-# Task 2: Palindromic tree. Object based
-#
-# See https://wlmb.github.io/2021/12/27/PWC145/#task-1-palindromic-tree
-use v5.26;
-use warnings;
-use utf8;
+use v5.36;
+
 use Object::Pad;
 
 class PNode {
