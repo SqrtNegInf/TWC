@@ -1,20 +1,5 @@
 #!/usr/bin/env perl
-
-# Peter Campbell Smith - 2022-01-04
-# PWC 146 task 2
-
-use v5.28;
-use warnings;
-use strict;
-
-# You are given a fraction, a member of the curious fraction tree (CFT).
-# Write a script to find out the parent and grandparent of the given member.
-
-# The left child of parent a/b in the CFT is a/(a+b) and the right
-# child is (a+b)/b.  If a member is < 1 then it is a left child
-# of its parent, if > 1 then a right child.
-
-# So given a member a/b ...
+use v5.36;
 
 my (@given, $given, $a, $b, $pa, $pb, $ga, $gb);
 

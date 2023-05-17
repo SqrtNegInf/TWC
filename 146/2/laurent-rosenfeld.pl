@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-use feature "say";
+use v5.36;
 
 # for a node x/y less than 1, parent is x/(y-x)
 # for a node x/y larger than 1, parent is (x-y)/x

@@ -1,12 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-use 5.30.0;
-
-### AUTHOR: Robert DiCicco
-### DATE:   05-JAN-2022
-### Challenge #145 Curious Fraction Tree
+use v5.36;
 
 my $pval = '';
 my $gpar = '';

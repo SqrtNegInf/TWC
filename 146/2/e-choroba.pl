@@ -1,11 +1,5 @@
 #!/usr/bin/env perl
-use warnings;
-use strict;
-
-#      a/b
-#     /  \
-#    /    \
-# a/(a+b) (a+b)/b
+use v5.36;
 
 sub parent {
     my ($x, $y) = @_;

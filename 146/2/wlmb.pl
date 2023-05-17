@@ -1,11 +1,8 @@
 #!/usr/bin/env perl
-# Perl weekly challenge 146
-# Task 2: Curious Fraction Tree
-#
-# See https://wlmb.github.io/2022/01/03/PWC146/#task-2-curious-fraction-tree
-use v5.12;
-use warnings;
+use v5.36;
+
 use Try::Tiny;
+
 foreach('3/5'){
     try {
 	my($n, $d)=($1,$2) if m{^\s*(\d+)\s*/\s*(\d+)\s*$};

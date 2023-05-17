@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 use Modern::Perl;
-use experimental qw<signatures>;
 use File::Slurp;
 use Test::More;
 

@@ -1,11 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use strict;
-use warnings;
-##
-# Given a fraction return the parent and grandparent of
-# the fraction from the Curious Fraction Tree.
-##
 use Graph;
 
 use constant ROOT => "1/1";

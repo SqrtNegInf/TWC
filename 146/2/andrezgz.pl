@@ -1,22 +1,5 @@
 #!/usr/bin/env perl
-
-# https://theweeklychallenge.org/blog/perl-weekly-challenge-146/
-# Task #2 > Curious Fraction Tree
-#
-# You are given a fraction, member of the tree created similar to the above sample.
-#
-# Write a script to find out the parent and grandparent of the given member.
-#
-# Example 1:
-#     Input: $member = '3/5';
-#     Output: parent = '3/2' and grandparent = '1/2'
-# Example 2:
-#     Input: $member = '4/3';
-#     Output: parent = '1/3' and grandparent = '1/2'
-
-use strict;
-use warnings;
-use feature 'say';
+use v5.36;
 
 my $member = '3/5'; #shift || die "Argument member is missing e.g. 5/3 \n";
 
