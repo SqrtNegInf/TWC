@@ -1,12 +1,9 @@
 #!/usr/bin/env perl
-# Perl weekly challenge 143
-# Task 1: calculator
-#
-# See https://wlmb.github.io/2021/12/13/PWC143/#task-1-calculator
-use v5.12;
-use warnings;
+use v5.36;
+
 use Scalar::Util qw(looks_like_number);
 use Try::Tiny;
+
 my $original_string;
 my $previous;
 my $current;

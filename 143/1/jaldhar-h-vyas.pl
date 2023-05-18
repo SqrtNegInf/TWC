@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
-use 5.020;
-use warnings;
+use v5.36;
+
 use Parse::RecDescent;
 
 # $RD_HINT = 1;
@@ -35,5 +35,5 @@ my $calculator = <<'-EOT-';
 -EOT-
 
 my ($expression) = shift @ARGV // '3*2+2';
-my $parser = new Parse::RecDescent ($calculator);
+my $parser = Parse::RecDescent->new($calculator);
 say $parser->expression($expression) // die "Parse error.\n";

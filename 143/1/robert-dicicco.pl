@@ -1,11 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-
-### Author: Robert DiCicco
-### Date: 13-DEC-2021
-### Challenge #143 Calculator
+use v5.36;
 
 use Math::Calc::Parser 'calc';
 use utf8;

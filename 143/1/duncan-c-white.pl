@@ -1,37 +1,7 @@
 #!/usr/bin/env perl
-# 
-# TASK #1 - Calculator
-# 
-# You are given a string, $s, containing mathematical expression.
-# 
-# Write a script to print the result of the mathematical expression. To
-# keep it simple, please only accept + - * ().
-# 
-# Example 1:
-# 
-#     Input: $s = "10 + 20 - 5"
-#     Output: 25
-# 
-# Example 2:
-# 
-#     Input: $s = "(10 + 20 - 5) * 2"
-#     Output: 50
-# 
-# MY NOTES: Ok, so a mini parser of a string in one or more command
-#    line arguments.   What's the easiest way?
-#    - use Parse::RecDescent?
-#    - hand write a recursive descent parser?
-#    - convert to RPN and evaluate RPN?
+use v5.36;
+
 #   Let's try handwriting a RD parser..
-# 
-
-use strict;
-use warnings;
-use feature 'say';
-use Getopt::Long;
-use Data::Dumper;
-use feature 'say';
-
 
 #
 # my $val = factor( $inputref );
@@ -130,8 +100,6 @@ sub parseexpr
 
 
 my $debug=0;
-#die "Usage: calculator [--debug] expr\n" unless
-#	GetOptions( "debug"=>\$debug ) && @ARGV>0;
 
 my $expr = join( ' ', '3*2+2' );
 

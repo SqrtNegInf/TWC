@@ -2,14 +2,6 @@
 ===> 143/1/abigail.pl <===
 8
  
-===> 143/1/adam-russell.pl <===
- 
-===> 143/1/alexander-pankoff.pl <===
-8
- 
-===> 143/1/arne-sommer.pl <===
-8
- 
 ===> 143/1/athanasius.pl <===
 Input:  $s = "3*2+2"
  
@@ -85,42 +77,6 @@ ok 26
 ok 27
 ok 28
 1..28
- 
-===> 143/1/laurent-rosenfeld.pl <===
-25
-50
-Not a valid arithmetic expression
-42
- 
-===> 143/1/mattneleigh.pl <===
-Input: $s = "10 + 20 - 5"
-Output: 25.0000
-
-Input: $s = "(10 + 20 - 5) * 2"
-Output: 50.0000
-
- 
-===> 143/1/mohammad-anwar.pl <===
-ok 1 - Example 1
-ok 2 - Example 2
-1..2
- 
-===> 143/1/paulo-custodio.pl <===
-12
- 
-===> 143/1/peter-campbell-smith.pl <===
-
-Input:  $s = 10 + 20 - 5
-Output: 25
-
-Input:  $s = (10 + 20 - 5) * 2
-Output: 50
-
-Input:  $s = (12345 * 6789) / 23 + 1 / 77
-Output: 3643921.96950875
- 
-===> 143/1/polettix.pl <===
-8
  
 ===> 143/1/robert-dicicco.pl <===
 Enter a math expression to calculate : 2+2 = 4
