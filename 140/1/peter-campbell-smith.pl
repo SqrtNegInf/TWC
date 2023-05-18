@@ -1,16 +1,5 @@
 #!/usr/bin/env perl
-
-# Peter Campbell Smith - 2021-11-22
-# PWC 140 task 1
-
-use v5.20;
-use warnings;
-use strict;
-
-# You are given two decimal-coded binary numbers, $a and $b.
-
-# Write a script to simulate the addition of the given binary numbers.
-# The script should simulate something like $a + $b. (operator overloading)
+use v5.36;
 
 my (@tests, $a, $b);
 

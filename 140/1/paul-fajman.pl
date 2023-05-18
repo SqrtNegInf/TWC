@@ -1,14 +1,6 @@
 #!/usr/bin/env perl
-
-# Weekly Challenge 140 Task 1
-#
-# You are given two decimal-coded binary numbers, $a and $b.
-#
-# Write a script to simulate the addition of the given binary numbers.
-#
-# The script should simulate something like $a + $b. (operator overloading)
-
-use strict;
+use v5.36;
+no warnings;
 
 my ($a, $b, $c, $final);
 my @test = qw (11 1 101 1 100 11);

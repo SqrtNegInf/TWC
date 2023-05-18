@@ -1,19 +1,5 @@
 #!/usr/bin/env perl
-
-## user input should be binary numbers(1,0)
-## Find the lenght of two input numbers and traverse from LSB
-## ## intially carry =0  
-## sum =  carry+ n1+n2; 
-## when we add the numbers sum possiblity is {3,2,0,1} then set the carry if sum is greater than 1; if we use modulse we can find the actuall result of sum
-## if sum is 3 -> 1(actual result)
-## if sum is 2 -> 0
-## if sum is 1 -> 1
-## if sum is 0 -> 0
-
-
-use strict;
-use warnings;
-
+use v5.36;
 
 my($input1,$input2) = ('11', '1');
 my($i,$j,$result,$carry,$sum);

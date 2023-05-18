@@ -1,11 +1,8 @@
 #!/usr/bin/env perl
-# Perl weekly challenge 140
-# Task 1: Add Binary
-#
-# See https://wlmb.github.io/2021/11/23/PWC140/#task-1-add-binary
-use v5.12;
-#use warnings;
+use v5.36;
+no warnings;
 use integer;
+
 use List::Util qw(all max);
 
 my $word_size=8; # finite number of bits, to allow for negative 2s-complement numbers.

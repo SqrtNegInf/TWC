@@ -1,18 +1,5 @@
 #!/usr/bin/env perl
-
-=head1
-
-Week 140:
-
-    https://theweeklychallenge.org/blog/perl-weekly-challenge-140
-
-Task #1: Add Binary
-
-    You are given two decimal-coded binary numbers, $a and $b.
-
-    Write a script to simulate the addition of the given binary numbers.
-
-=cut
+use v5.36;
 
 package Binary;
 

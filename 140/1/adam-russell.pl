@@ -1,11 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-##
-# You are given two decimal coded binary numbers $a and $b.
-# Write a script to simulate the addition of the binary numbers. 
-##
+use v5.36;
 
 sub add_binary{
     my($x, $y) = @_;
