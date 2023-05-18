@@ -1,14 +1,7 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use strict;
-use warnings;
 use ntheory qw/divisors/;
-use IO::Prompter;
-use 5.30.0;
-
-### Author: Robert DiCicco
-### Date: 15-DEC-2021
-### Challenge #143 Stealthy Number v 2.0
 
 # initialize vars
 # array to hold list of divisors
