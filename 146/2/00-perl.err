@@ -1,9 +1,182 @@
-Bareword found where operator expected at ./adam-russell.pl line 11, near "new Graph"
-	(Do you need to predeclare new?)
-syntax error at ./adam-russell.pl line 11, near "new Graph"
-Global symbol "$graph" requires explicit package name (did you forget to declare "my $graph"?) at ./adam-russell.pl line 12.
-Execution of ./adam-russell.pl aborted due to compilation errors.
-Illegal character in prototype for main::task2 :  $s  at ./bruce-gray.pl line 12.
-Global symbol "$s" requires explicit package name (did you forget to declare "my $s"?) at ./bruce-gray.pl line 13.
-Execution of ./bruce-gray.pl aborted due to compilation errors.
+#   Failed test 'task2(1/65) == 1/64, 1/63'
+#   at ./bruce-gray.pl line 35.
+#     Structures begin differing at:
+#          $got->[0] = '64/63'
+#     $expected->[0] = '1/64'
+#   Failed test 'task2(65/64) == 1/64, 1/63'
+#   at ./bruce-gray.pl line 35.
+#     Structures begin differing at:
+#          $got->[0] = '64/63'
+#     $expected->[0] = '1/64'
+#   Failed test 'task2(64/65) == 64/1, 63/1'
+#   at ./bruce-gray.pl line 35.
+#     Structures begin differing at:
+#          $got->[1] = '64/63'
+#     $expected->[1] = '63/1'
+#   Failed test 'task2(65/1) == 64/1, 63/1'
+#   at ./bruce-gray.pl line 35.
+#     Structures begin differing at:
+#          $got->[1] = '64/63'
+#     $expected->[1] = '63/1'
+#   Failed test 'task2(1/66) == 1/65, 1/64'
+#   at ./bruce-gray.pl line 35.
+#     Structures begin differing at:
+#          $got->[0] = '64/1'
+#     $expected->[0] = '1/65'
+#   Failed test 'task2(66/65) == 1/65, 1/64'
+#   at ./bruce-gray.pl line 35.
+#     Structures begin differing at:
+#          $got->[0] = '64/1'
+#     $expected->[0] = '1/65'
+#   Failed test 'task2(65/66) == 65/1, 64/1'
+#   at ./bruce-gray.pl line 35.
+#     Structures begin differing at:
+#          $got->[0] = '1/66'
+#     $expected->[0] = '65/1'
+#   Failed test 'task2(66/1) == 65/1, 64/1'
+#   at ./bruce-gray.pl line 35.
+#     Structures begin differing at:
+#          $got->[0] = '1/66'
+#     $expected->[0] = '65/1'
+#   Failed test 'task2(1/67) == 1/66, 1/65'
+#   at ./bruce-gray.pl line 35.
+#     Structures begin differing at:
+#          $got->[1] = '64/1'
+#     $expected->[1] = '1/65'
+#   Failed test 'task2(67/66) == 1/66, 1/65'
+#   at ./bruce-gray.pl line 35.
+#     Structures begin differing at:
+#          $got->[1] = '64/1'
+#     $expected->[1] = '1/65'
+#   Failed test 'task2(66/67) == 66/1, 65/1'
+#   at ./bruce-gray.pl line 35.
+#     Structures begin differing at:
+#          $got->[0] = '1/67'
+#     $expected->[0] = '66/1'
+#   Failed test 'task2(67/1) == 66/1, 65/1'
+#   at ./bruce-gray.pl line 35.
+#     Structures begin differing at:
+#          $got->[0] = '1/67'
+#     $expected->[0] = '66/1'
+#   Failed test 'task2(67/68) == 67/1, 66/1'
+#   at ./bruce-gray.pl line 35.
+#     Structures begin differing at:
+#          $got->[0] = '1/68'
+#     $expected->[0] = '67/1'
+#   Failed test 'task2(68/1) == 67/1, 66/1'
+#   at ./bruce-gray.pl line 35.
+#     Structures begin differing at:
+#          $got->[0] = '1/68'
+#     $expected->[0] = '67/1'
+#   Failed test 'task2(68/69) == 68/1, 67/1'
+#   at ./bruce-gray.pl line 35.
+#     Structures begin differing at:
+#          $got->[0] = '1/69'
+#     $expected->[0] = '68/1'
+#   Failed test 'task2(69/1) == 68/1, 67/1'
+#   at ./bruce-gray.pl line 35.
+#     Structures begin differing at:
+#          $got->[0] = '1/69'
+#     $expected->[0] = '68/1'
+#   Failed test 'task2(69/70) == 69/1, 68/1'
+#   at ./bruce-gray.pl line 35.
+#     Structures begin differing at:
+#          $got->[0] = '1/70'
+#     $expected->[0] = '69/1'
+#   Failed test 'task2(70/1) == 69/1, 68/1'
+#   at ./bruce-gray.pl line 35.
+#     Structures begin differing at:
+#          $got->[0] = '1/70'
+#     $expected->[0] = '69/1'
+#   Failed test 'task2(101/102) == 101/1, 100/1'
+#   at ./bruce-gray.pl line 35.
+#     Structures begin differing at:
+#          $got->[0] = '1/102'
+#     $expected->[0] = '101/1'
+#   Failed test 'task2(102/1) == 101/1, 100/1'
+#   at ./bruce-gray.pl line 35.
+#     Structures begin differing at:
+#          $got->[0] = '1/102'
+#     $expected->[0] = '101/1'
+#   Failed test 'task2(1001/1002) == 1001/1, 1000/1'
+#   at ./bruce-gray.pl line 35.
+#     Structures begin differing at:
+#          $got->[0] = '1/1002'
+#     $expected->[0] = '1001/1'
+#   Failed test 'task2(1002/1) == 1001/1, 1000/1'
+#   at ./bruce-gray.pl line 35.
+#     Structures begin differing at:
+#          $got->[0] = '1/1002'
+#     $expected->[0] = '1001/1'
+#   Failed test 'task2(1/10002) == 1/10001, 1/10000'
+#   at ./bruce-gray.pl line 35.
+#     Structures begin differing at:
+#          $got->[0] = 'Inf/Inf'
+#     $expected->[0] = '1/10001'
+#   Failed test 'task2(10002/10001) == 1/10001, 1/10000'
+#   at ./bruce-gray.pl line 35.
+#     Structures begin differing at:
+#          $got->[0] = 'Inf/Inf'
+#     $expected->[0] = '1/10001'
+#   Failed test 'task2(10001/10002) == 10001/1, 10000/1'
+#   at ./bruce-gray.pl line 35.
+#     Structures begin differing at:
+#          $got->[0] = 'Inf/Inf'
+#     $expected->[0] = '10001/1'
+#   Failed test 'task2(10002/1) == 10001/1, 10000/1'
+#   at ./bruce-gray.pl line 35.
+#     Structures begin differing at:
+#          $got->[0] = 'Inf/Inf'
+#     $expected->[0] = '10001/1'
+#   Failed test 'task2(1548008755920/2504730781961) == 1548008755920/956722026041, 591286729879/956722026041'
+#   at ./bruce-gray.pl line 35.
+#     Structures begin differing at:
+#          $got->[1] = '484654147533/398386576261'
+#     $expected->[1] = '591286729879/956722026041'
+#   Failed test 'task2(2504730781961/1548008755920) == 956722026041/1548008755920, 956722026041/591286729879'
+#   at ./bruce-gray.pl line 35.
+#     Structures begin differing at:
+#          $got->[0] = '550556707731/464289136459'
+#     $expected->[0] = '956722026041/1548008755920'
+#   Failed test 'task2(72723460248141/117669030460994) == 72723460248141/44945570212853, 27777890035288/44945570212853'
+#   at ./bruce-gray.pl line 35.
+#     Structures begin differing at:
+#          $got->[0] = '86267571272/1261062288981'
+#     $expected->[0] = '72723460248141/44945570212853'
+#   Failed test 'task2(117669030460994/72723460248141) == 44945570212853/72723460248141, 44945570212853/27777890035288'
+#   at ./bruce-gray.pl line 35.
+#     Structures begin differing at:
+#          $got->[0] = '86267571272/1240697277907'
+#     $expected->[0] = '44945570212853/72723460248141'
+#   Failed test 'task2(3416454622906707/5527939700884757) == 3416454622906707/2111485077978050, 1304969544928657/2111485077978050'
+#   at ./bruce-gray.pl line 35.
+#     Structures begin differing at:
+#          $got->[0] = '86267571272/1951202859157'
+#     $expected->[0] = '3416454622906707/2111485077978050'
+#   Failed test 'task2(5527939700884757/3416454622906707) == 2111485077978050/3416454622906707, 2111485077978050/1304969544928657'
+#   at ./bruce-gray.pl line 35.
+#     Structures begin differing at:
+#          $got->[0] = '86267571272/1930837848083'
+#     $expected->[0] = '2111485077978050/3416454622906707'
+#   Failed test 'task2(160500643816367088/259695496911122585) == 160500643816367088/99194853094755497, 61305790721611591/99194853094755497'
+#   at ./bruce-gray.pl line 35.
+#     Structures begin differing at:
+#          $got->[0] = '86267571272/2641343429333'
+#     $expected->[0] = '160500643816367088/99194853094755497'
+#   Failed test 'task2(259695496911122585/160500643816367088) == 99194853094755497/160500643816367088, 99194853094755497/61305790721611591'
+#   at ./bruce-gray.pl line 35.
+#     Structures begin differing at:
+#          $got->[0] = '86267571272/2620978418259'
+#     $expected->[0] = '99194853094755497/160500643816367088'
+#   Failed test 'task2(7540113804746346429/12200160415121876738) == 7540113804746346429/4660046610375530309, 2880067194370816120/4660046610375530309'
+#   at ./bruce-gray.pl line 35.
+#     Structures begin differing at:
+#          $got->[0] = '86267571272/3331483999509'
+#     $expected->[0] = '7540113804746346429/4660046610375530309'
+#   Failed test 'task2(12200160415121876738/7540113804746346429) == 4660046610375530309/7540113804746346429, 4660046610375530309/2880067194370816120'
+#   at ./bruce-gray.pl line 35.
+#     Structures begin differing at:
+#          $got->[0] = '86267571272/3311118988435'
+#     $expected->[0] = '4660046610375530309/7540113804746346429'
+# Looks like you failed 36 tests of 202.
 Use of @_ in list assignment with signatured subroutine is experimental at ./perlboy1967.pl line 11.

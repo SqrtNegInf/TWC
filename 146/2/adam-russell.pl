@@ -8,7 +8,7 @@ use constant SEPARATOR => "/";
 
 sub initialize{
     my($member) = @_;
-    my $graph = new Graph();
+    my $graph = Graph->new();
     $graph->add_vertex(ROOT);
     my @next = (ROOT);
     my @changes = ([0, 1], [1, 0]);
