@@ -1,12 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use strict;
-use warnings;
-##
-# You are given 3 positive integersm $i, $j, $k.
-# Write a script to print the $kth element in the
-# sorted multiplication table of $i x $j.    
-##
 sub nth_from_table{
     my($i, $j, $k) = @_;
     my @table;

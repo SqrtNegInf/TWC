@@ -1,10 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-# The Weekly Challenge 140
-# Task 2 Multiplication Table
-# Usage: $ ch-2.pl $i $j $k
-use v5.12.0;
-use warnings;
 use Test::More tests => 3;
 
 my ($i,$j,$k) = (2, 3, 4); #($ARGV[0], $ARGV[1], $ARGV[2]);

@@ -1,22 +1,5 @@
 #!/usr/bin/env perl
-
-use 5.032;
-
-#!/usr/bin/env perl
-use strict;
-use warnings;
-no  warnings 'syntax';
-
-use experimental 'signatures';
-use experimental 'lexical_subs';
-
-#
-# See https://theweeklychallenge.org/blog/perl-weekly-challenge-140/#TASK2
-#
-
-#
-# Run as: perl ch-2a.pl < input-file
-#
+use v5.36;
 
 #
 # This solution scans the multiplication table in order, only generating

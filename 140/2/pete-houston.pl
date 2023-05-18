@@ -1,21 +1,5 @@
 #!/usr/bin/env perl
-#===============================================================================
-#
-#         FILE: 14002.pl
-#
-#        USAGE: ./14002.pl I J K
-#
-#  DESCRIPTION: Print the Kth element of the sorted multiplication table
-#               of I and J.
-#
-#       AUTHOR: Pete Houston (pete), cpan@openstrike.co.uk
-# ORGANIZATION: Openstrike
-#      VERSION: 1.0
-#      CREATED: 22/11/21
-#===============================================================================
-
-use strict;
-use warnings;
+use v5.36;
 
 my ($i, $j, $k) = <2 3 4>; #@ARGV;
 die "$k is greater than $i * $j\n" if $k > $i * $j;
