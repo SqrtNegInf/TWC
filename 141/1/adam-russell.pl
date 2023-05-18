@@ -1,11 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-##
-# Write a script to find lowest 10 positive integers 
-# having exactly 8 divisors.
-##
+use v5.36;
 
 sub factor{
     my($n) = @_;

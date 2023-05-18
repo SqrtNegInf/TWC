@@ -1,25 +1,6 @@
 #!/usr/bin/env perl
-#===============================================================================
-#
-#         FILE: 14101.pl
-#
-#        USAGE: ./14101.pl [ -v ] [ -d N ] [ -n COUNT ]
-#
-#  DESCRIPTION: Print the 10 lowest positive integers having exactly 8
-#               divisors.
-#
-#      OPTIONS: -v for verbose output
-#      OPTIONS: -d to set the number of divisors [ default is 8 ]
-#      OPTIONS: -n to set the number of integers found [ default is 10 ]
-# REQUIREMENTS: Getopt::Long::Modern
-#       AUTHOR: Pete Houston (pete), cpan@openstrike.co.uk
-# ORGANIZATION: Openstrike
-#      VERSION: 1.0
-#      CREATED: 29/11/21
-#===============================================================================
+use v5.36;
 
-use strict;
-use warnings;
 use Getopt::Long::Modern;
 
 my $divno = 8;

@@ -1,9 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-use feature qw{ say state postderef signatures };
-no warnings qw{ experimental };
+use v5.36;
 
 my @num_divisors = get_number_divisors( 1, 10, 8 );
 

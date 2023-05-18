@@ -1,19 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-=head1
-
-Week 141:
-
-    https://theweeklychallenge.org/blog/perl-weekly-challenge-141
-
-Task #1: Number Divisors
-
-    Write a script to find lowest 10 positive integers having exactly 8 divisors.
-
-=cut
-
-use strict;
-use warnings;
 use Test::More;
 use Test::Deep;
 

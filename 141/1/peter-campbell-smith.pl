@@ -1,17 +1,5 @@
 #!/usr/bin/env perl
-
-# Peter Campbell Smith - 2021-11-29
-# PWC 141 task 1
-
-use v5.20;
-use warnings;
-use strict;
-
-# Write a script to find lowest 10 positive integers having exactly 8 divisors.
-# Example: 24 is the first such number having exactly 8 divisors:
-# 1, 2, 3, 4, 6, 8, 12 and 24.
-
-# Some thoughts on this challenge: https://pjcs-pwc.blogspot.com/2021/12/perl-weekly-challenge-141-task-1-reads.html
+use v5.36;
 
 my ($test, @tests, $try, $divisor, $dividend, $key, $count, $string, $num, $how_many, $num_divisors,
 	$max_try, $z);

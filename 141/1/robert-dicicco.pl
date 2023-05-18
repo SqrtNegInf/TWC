@@ -1,12 +1,7 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use strict;
-use warnings;
 use ntheory qw/ divisors /;
-
-### Author: Robert DiCicco
-### Date: 29-NOV-2021
-### Challenge #141 Number Divisors
 
 my $FACNUM = 8;
 my $LIMIT = 10;
