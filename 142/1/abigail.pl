@@ -1,4 +1,5 @@
 #!/usr/bin/env perl
+use v5.36;
 
 # This is the third week in a row where me need the divisors
 # of a number. Kind of boring....
@@ -11,6 +12,6 @@
 #perl -MMath::Prime::Util=divisors -pale '$_ = grep {/$F[1]$/} divisors $F[0]'
 
 use Math::Prime::Util 'divisors';
-@F= <24 2>;
+my @F= <24 2>;
 print "$_ " for grep {/$F[1]$/} divisors $F[0];
 print "\n";

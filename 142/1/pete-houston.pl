@@ -1,22 +1,6 @@
 #!/usr/bin/env perl
-#===============================================================================
-#
-#         FILE: 14201.pl
-#
-#        USAGE: ./14201.pl [ -v ] M N 
-#
-#  DESCRIPTION: Output total count of divisors of M having last digit N.
-#
-#      OPTIONS: -v for verbose output
-# REQUIREMENTS: Getopt::Long::Modern, Params::Util
-#       AUTHOR: Pete Houston (pete), cpan@openstrike.co.uk
-# ORGANIZATION: Openstrike
-#      VERSION: 1.0
-#      CREATED: 06/12/21
-#===============================================================================
+use v5.36;
 
-use strict;
-use warnings;
 use Getopt::Long::Modern;
 use Params::Util '_POSINT';
 

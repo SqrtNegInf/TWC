@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-use strict ;
-use warnings ;
-use feature 'say' ;
+use v5.36;
 
 my $m = $ARGV[ 0 ] // 24;
 my $n = $ARGV[ 1 ] //  2;

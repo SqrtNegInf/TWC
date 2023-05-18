@@ -1,12 +1,6 @@
 #!/usr/bin/env perl
-# Perl weekly challenge 142
-# Task 1: divisor last digit
-#
-# See https://wlmb.github.io/2021/12/09/PWC142/#task-1-divisor-last-digit
-use v5.12;
-use warnings;
+use v5.36;
 
-#say("Usage: ./ch-1.pl m n\nto count divisors of m ending in n"), exit unless @ARGV==2;
 my ($m,$n)= (24, 2); # @ARGV;
 my $q=sqrt($m);
 my @divisors_ending_in_n=grep {$_=~/$n$/}
