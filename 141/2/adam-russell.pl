@@ -1,13 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use strict;
-use warnings;
-##
-# You are given positive integers, $m and $n.
-# Write a script to find total count of integers 
-# created using the digits of $m which is also 
-# divisible by $n.
-##
 use Data::PowerSet q/powerset/;
 
 sub like_numbers{

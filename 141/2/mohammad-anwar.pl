@@ -1,21 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-=head1
-
-Week 141:
-
-    https://theweeklychallenge.org/blog/perl-weekly-challenge-141
-
-Task #2: Like Numbers
-
-    You are given positive integers, $m and $n.
-
-    Write a script to find total count of integers created using the digits of $m which is also divisible by $n.
-
-=cut
-
-use strict;
-use warnings;
 use Test::More;
 use Test::Deep;
 use Algorithm::Combinatorics qw(combinations);

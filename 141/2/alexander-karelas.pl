@@ -1,11 +1,7 @@
 #!/usr/bin/env perl
-
-use v5.32;
-use warnings;
+use v5.36;
 
 use List::Util 'any';
-
-use experimental 'signatures';
 
 sub find_like ($m, $n) {
     my @digits = split //, $m;

@@ -1,19 +1,7 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use strict;
-use warnings;
-use IO::Prompter;
 use List::MoreUtils qw / uniq /;
-
-### Author: Robert DiCicco
-### Date: 29-NOV-2021
-### Challenge 141 Like Numbers
-
-##my $inp = prompt 'Input a 3 or 4 digit number : ', -integer => [100..9999];
-#$inp = int($inp);
-#
-#my $dd = prompt 'Enter divisor : ', -integer => [2..99];
-#$dd = int($dd);
 
 my ($inp,$dd) = (1234, 2);
 

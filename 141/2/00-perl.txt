@@ -38,10 +38,6 @@ integers found  : 7722, 7865
 ===> 141/2/dave-jacoby.pl <===
 2 4 12 14 24 34 124 134 234
  
-===> 141/2/duncan-c-white.pl <===
-Input: m=1234, n=2
-Output: 9
- 
 ===> 141/2/e-choroba.pl <===
 # Seeded srand with seed '1234' from import arg.
 1..2
@@ -65,9 +61,6 @@ ok 4 - count valid subnumbers
 ok 5 - count numbers only once
 1..5
  
-===> 141/2/kaushik-tunuguntla.pl <===
-divisible_count: [9]
- 
 ===> 141/2/laurent-rosenfeld.pl <===
 2 1234 => 9
 4 768 => 3
@@ -82,40 +75,8 @@ ok 1 - Example 1
 ok 2 - Example 2
 1..2
  
-===> 141/2/paul-fajman.pl <===
-Using test data. Provide 2 input numbers to test your own numbers.
-Possible integers created using the digits of 1234 are:
-1 2 3 4 12 13 14 23 24 34 123 124 134 234.
-
-There are 9 integers divisible by 2 such as:
-2 4 12 14 24 34 124 134 234.
-
- 
 ===> 141/2/paulo-custodio.pl <===
 9
- 
-===> 141/2/perlboy1967.pl <===
-9 => (2,4,12,14,24,34,124,134,234)
- 
-===> 141/2/pete-houston.pl <===
-9
- 
-===> 141/2/peter-campbell-smith.pl <===
-Possible integers created using the digits of 1234 are:
-1, 2, 3, 4, 12, 13, 14, 23, 24, 34, 123, 124, 134, 234
-There are 9 integers divisible by 2 which are:
-2, 4, 12, 14, 24, 34, 124, 134, 234
-
-Possible integers created using the digits of 768 are:
-7, 6, 8, 76, 78, 68
-There are 3 integers divisible by 4 which are:
-8, 76, 68
-
-Possible integers created using the digits of 1234567 are:
-1, 2, 3, 4, 5, 6, 7, 12, 13, 14, 15, 16, 17, 23, 24, 25, 26, 27, 34, 35, 36, 37, 45, 46, 47, 56, 57, 67, 123, 124, 125, 126, 127, 134, 135, 136, 137, 145, 146, 147, 156, 157, 167, 234, 235, 236, 237, 245, 246, 247, 256, 257, 267, 345, 346, 347, 356, 357, 367, 456, 457, 467, 567, 1234, 1235, 1236, 1237, 1245, 1246, 1247, 1256, 1257, 1267, 1345, 1346, 1347, 1356, 1357, 1367, 1456, 1457, 1467, 1567, 2345, 2346, 2347, 2356, 2357, 2367, 2456, 2457, 2467, 2567, 3456, 3457, 3467, 3567, 4567, 12345, 12346, 12347, 12356, 12357, 12367, 12456, 12457, 12467, 12567, 13456, 13457, 13467, 13567, 14567, 23456, 23457, 23467, 23567, 24567, 34567, 123456, 123457, 123467, 123567, 124567, 134567, 234567
-There are 4 integers divisible by 31 which are:
-124, 1457, 2356, 23467
-
  
 ===> 141/2/polettix.pl <===
 9
@@ -131,10 +92,3 @@ ok 2 - example 2
  
 ===> 141/2/sgreen.pl <===
 9
- 
-===> 141/2/ulrich-rieke.pl <===
-9
- 
-===> 141/2/wlmb.pl <===
-m=1234, n=2, Out=9
-as multiples=[2 4 12 14 24 34 124 134 234]

@@ -1,9 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-use feature qw'say signatures';
-no warnings 'experimental::signatures';
+use v5.36;
 
 use List::Util qw(reduce);
 

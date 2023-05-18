@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-use v5.24;
-use warnings;
-use experimental 'signatures';
-no warnings 'experimental::signatures';
+use v5.36;
 
 sub like_numbers ($m = 1234, $n = 2) {
    my @m = split m{}mxs, $m;

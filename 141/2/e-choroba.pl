@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-use warnings;
-use strict;
-use experimental qw{ signatures bitwise };
+use v5.36;
 
 my @MASK = ("\x00", "\xFF");
 sub like_numbers ($digits, $divisor) {
