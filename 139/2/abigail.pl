@@ -1,21 +1,5 @@
 #!/usr/bin/env perl
-
-use 5.032;
-
-use strict;
-use warnings;
-no  warnings 'syntax';
-
-use experimental 'signatures';
-use experimental 'lexical_subs';
-
-#
-# See ../README.md
-#
-
-#
-# Run as: perl ch-2.pl
-#
+use v5.36;
 
 #
 # A prime p in base b is a long prime if ((b^(p - 1) - 1) / p) isn't repetitive.

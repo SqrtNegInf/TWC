@@ -1,11 +1,7 @@
 #!/usr/bin/env perl
-# The Weekly Challenge 139
-# Task 2: Long Primes
-# Usage: $ ch-2.pl
-use 5.12.0;
-use warnings;
-use Math::BigInt;
+use v5.36;
 
+use Math::BigInt;
 use ntheory 'primes';
 
 my $num = $ARGV[0] || 5;

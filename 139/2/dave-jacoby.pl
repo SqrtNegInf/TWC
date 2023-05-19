@@ -1,13 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-use feature qw{ say postderef signatures state };
-no warnings qw{ experimental };
-
-# https://en.wikipedia.org/wiki/Full_reptend_prime
-
-#  The first five long primes are: 7, 17, 19, 23, 29
+use v5.36;
 
 use Math::BigFloat;
 Math::BigFloat->accuracy(200);

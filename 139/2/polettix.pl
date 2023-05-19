@@ -1,8 +1,6 @@
 #!/usr/bin/env perl
-use v5.24;
-use warnings;
-use experimental 'signatures';
-no warnings 'experimental::signatures';
+use v5.36;
+
 my $N = shift || 5;
 my $p = 2;
 while ($N > 0) {

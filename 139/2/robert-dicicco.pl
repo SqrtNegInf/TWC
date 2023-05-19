@@ -1,13 +1,7 @@
 #!/usr/bin/env perl
+use v5.36;
 
-## Author: Robert DiCicco
-## Date: 17-NOV-2021
-## Challenge 139 Long Primes
-
-use strict;
-use warnings;
 use ntheory qw/divisors powmod is_prime/;
-use 5.30.0;
 
 my $cnt        = 0;
 my $test_prime = 1;
