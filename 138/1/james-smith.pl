@@ -1,12 +1,7 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use strict;
-
-use warnings;
-use feature qw(say);
 use Test::More;
-#use Benchmark qw(cmpthese timethis);
-use Data::Dumper qw(Dumper);
 
 my @EXTRA_WORKDAYS = ( [qw(0 1 1 1 1 1 0)], [qw(1 2 2 2 2 1 0)] );
 my @TESTS = (

@@ -1,15 +1,5 @@
 #!/usr/bin/env perl
-
-# Peter Campbell Smith - 2021-11-08
-# PWC 138 task 1
-
-use v5.20;
-use warnings;
-use strict;
-
-# You are given a year in 4-digits form.
-# Write a script to calculate the total number of workdays in the given year.
-# For the task, we consider, Monday - Friday as workdays.
+use v5.36;
 
 # Discussion: A non-leap year contains 52 weeks and one day (52 * 7 + 1 = 365).
 # 52 weeks between 1 January and 30 December will contain 52 * 5 = 260 working days.

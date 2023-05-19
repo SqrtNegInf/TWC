@@ -1,8 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use Modern::Perl;
-use 5.026;
-use experimental qw<signatures>;
 use DateTime;
 
 sub is_working_day ($date) {

@@ -1,24 +1,7 @@
 #!/usr/bin/env perl
-# vim:set ts=4 sw=4 sts=4 et ai wm=0 nu:
-#=============================================================================
-# ch-1.pl
-#=============================================================================
-# Copyright (c) 2021, Bob Lied
-#=============================================================================
-# Perl Weekly Challenge, Week 138, Task #1 Workdays
-# You are given a year, $year in 4-digits form.  Write a script to calculate
-# the total number of workdays in the given year.  For the task, we consider,
-# Monday - Friday as workdays.
-#=============================================================================
-
-use strict;
-use warnings;
-use v5.32;
+use v5.36;
 
 use DateTime;
-
-use experimental qw/ signatures /;
-no warnings "experimental::signatures";
 
 use Getopt::Long;
 my $Verbose = 0;

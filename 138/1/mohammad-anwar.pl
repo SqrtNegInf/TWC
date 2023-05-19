@@ -1,19 +1,5 @@
 #!/usr/bin/env perl
-
-=head1
-
-Week 138:
-
-    https://theweeklychallenge.org/blog/perl-weekly-challenge-138
-
-Task #1: Workdays
-
-    You are given a year in 4-digits form. Write a script to calculate the total number of workdays in the given year.
-
-=cut
-
-use strict;
-use warnings;
+use v5.36;
 
 use Test::More;
 use Date::Calc qw(Day_of_Week Add_Delta_Days);

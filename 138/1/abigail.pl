@@ -1,23 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use 5.028;
-
-use strict;
-use warnings;
-no  warnings 'syntax';
-
-use experimental 'signatures';
-use experimental 'lexical_subs';
-
-#
-# See ../README.md
-#
-
-#
-# Run as: perl ch-1.pl < input-file
-#
-
-#
 # A year can have 260, 261 or 262 workdays. 
 #
 # Regular years start and end on the same day of the week. Which means

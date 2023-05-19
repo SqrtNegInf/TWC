@@ -59,76 +59,15 @@ ok 1
 ok 2
 1..2
  
-===> 138/1/jo-37.pl <===
-# Seeded srand with seed '1234' from import arg.
-ok 1 - example 1
-ok 2 - example 2
-ok 3 - same day
-ok 4 - Mon to Fri
-ok 5 - Mon to Sat
-ok 6 - Mon to Sun
-ok 7 - two full weeks
-ok 8 - Thu to Sat
-ok 9 - Thu to Sun
-ok 10 - Thu to Mon
-ok 11 - Fri to Sat
-ok 12 - Fri to Sun
-ok 13 - Fri to Mon
-ok 14 - Sat to Mon
-ok 15 - Sun to Mon
-ok 16 - Sun to Sat
-ok 17 - end before start
-1..17
- 
 ===> 138/1/laurent-rosenfeld.pl <===
 2020 -> 262
 2021 -> 261
 2022 -> 260
  
-===> 138/1/lubos-kolouch.pl <===
-ok 1
-ok 2
-1..2
- 
-===> 138/1/mattneleigh.pl <===
-Input: $year = 2021
-Output: 261
-
-Input: $year = 2020
-Output: 262
-
- 
 ===> 138/1/mohammad-anwar.pl <===
 ok 1 - Example 1
 ok 2 - Example 2
 1..2
- 
-===> 138/1/paulo-custodio.pl <===
-260
- 
-===> 138/1/perlboy1967.pl <===
-ok 1 - year=2020
-ok 2 - year=2021
-ok 3 - year=2022
-ok 4 - year=2023
-1..4
- 
-===> 138/1/pete-houston.pl <===
-1..14
-ok 1 - Non-leap year ending on a Sat has 260 working days
-ok 2 - Non-leap year ending on a Sun has 260 working days
-ok 3 - Non-leap year ending on a Mon has 261 working days
-ok 4 - Non-leap year ending on a Tue has 261 working days
-ok 5 - Non-leap year ending on a Wed has 261 working days
-ok 6 - Non-leap year ending on a Thu has 261 working days
-ok 7 - Non-leap year ending on a Fri has 261 working days
-ok 8 - Leap year ending on a Sat has 261 working days
-ok 9 - Leap year ending on a Sun has 260 working days
-ok 10 - Leap year ending on a Mon has 261 working days
-ok 11 - Leap year ending on a Tue has 262 working days
-ok 12 - Leap year ending on a Wed has 262 working days
-ok 13 - Leap year ending on a Thu has 262 working days
-ok 14 - Leap year ending on a Fri has 262 working days
  
 ===> 138/1/peter-campbell-smith.pl <===
 Input: $year = 2020
@@ -144,31 +83,8 @@ Output: 260
 ===> 138/1/polettix.pl <===
 260
  
-===> 138/1/robert-dicicco.pl <===
-Output: 260
- 
 ===> 138/1/roger-bell-west.pl <===
 1..3
 ok 1 - example 1
 ok 2 - example 2
 ok 3 - example 3
- 
-===> 138/1/sgreen.pl <===
-260
- 
-===> 138/1/steven-wilson.pl <===
-260
- 
-===> 138/1/ulrich-rieke.pl <===
-260
- 
-===> 138/1/wanderdoc.pl <===
-ok 1 - Test 2020
-ok 2 - Test 2021
-ok 3 - Test 2022
-1..3
- 
-===> 138/1/wlmb.pl <===
-Year: 2020 Workdays: 262
-Year: 2021 Workdays: 261
-Year: 2022 Workdays: 260
