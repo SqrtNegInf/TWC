@@ -1,10 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-# The Weekly Challenge 138
-# Task 2 Split Number
-# Usage: ch-2.pl $N
-use v5.12.0;
-use warnings;
 use List::Util qw/ any sum all /;
 use Integer::Partition;
 use Algorithm::Combinatorics qw / permutations /;

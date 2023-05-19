@@ -1,21 +1,5 @@
 #!/usr/bin/env perl
-
-use 5.028;
-
-use strict;
-use warnings;
-no  warnings 'syntax';
-
-use experimental 'signatures';
-use experimental 'lexical_subs';
-
-#
-# See ../README.md
-#
-
-#
-# Run as: perl ch-2.pl < input-file
-#
+use v5.36;
 
 #
 # We solve this with a recursive function. "can_split" gets two arguments,

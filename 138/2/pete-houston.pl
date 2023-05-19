@@ -1,21 +1,5 @@
 #!/usr/bin/env perl
-#===============================================================================
-#
-#         FILE: 13802.pl
-#
-#        USAGE: ./13802.pl N
-#
-#  DESCRIPTION: Given a square N, output 1 if the root can be a sum of 2
-#               or more "splits" of N.
-#
-#       AUTHOR: Pete Houston (pete), cpan@openstrike.co.uk
-# ORGANIZATION: Openstrike
-#      VERSION: 1.0
-#      CREATED: 08/11/21
-#===============================================================================
-
-use strict;
-use warnings;
+use v5.36;
 
 my $n    = 9801;
 my $root = sqrt $n;

@@ -1,13 +1,10 @@
 #!/usr/bin/env perl
-# Perl weekly challenge 138
-# Task 2: Split number
-#
-# See https://wlmb.github.io/2021/11/09/PWC138/#task-2-split-number
-use v5.12;
-use warnings;
+use v5.36;
+
 use integer;
 use List::Util qw(sum0);
 use POSIX qw(floor);
+
 foreach( (81, 9801, 36) ){
     my $sqrt=floor sqrt($_);
     say("$_ is not a perfect square"),next unless $sqrt**2==$_;
