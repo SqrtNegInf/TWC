@@ -1,9 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-
-use warnings;
-use feature qw(say);
+use v5.36;
 
 my $start_day = 1; ## Jan 1st 1900 was a Monday.
 

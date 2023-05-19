@@ -1,20 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings FATAL => qw(all);
-
-=prompt
-Write a script to find all the years between 1900 and 2100 which is a Long Year. A year is Long if it has 53 weeks.
-
-Expected Output
-
-1903, 1908, 1914, 1920, 1925, 1931, 1936, 1942, 1948, 1953, 1959, 1964, 1970, 1976, 1981, 1987, 1992, 1998, 2004, 2009, 2015, 2020, 2026, 2032, 2037, 2043, 2048, 2054, 2060, 2065, 2071, 2076, 2082, 2088, 2093, 2099
-=cut
-
-
-
-
-
-
+use v5.36;
 
 use Time::Piece;
 

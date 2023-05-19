@@ -1,10 +1,6 @@
 #!/usr/bin/env perl
-# Perl weekly challenge 137
-# Task 1: Long year
-#
-# See https://wlmb.github.io/2021/11/02/PWC137/#task-1-long-year
-use v5.12;
-use warnings;
+use v5.36;
+
 use Text::Wrap qw(wrap $columns);
 use integer;
 $columns=62;

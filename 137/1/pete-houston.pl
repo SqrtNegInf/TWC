@@ -1,21 +1,5 @@
 #!/usr/bin/env perl
-#===============================================================================
-#
-#         FILE: 13701.pl
-#
-#        USAGE: ./13701.pl  
-#
-#  DESCRIPTION: List years between 1900 and 2100 which have 53 weeks.
-#
-# REQUIREMENTS: Time::Piece
-#       AUTHOR: Pete Houston (pete), cpan@openstrike.co.uk
-# ORGANIZATION: Openstrike
-#      VERSION: 1.0
-#      CREATED: 01/11/21
-#===============================================================================
-
-use strict;
-use warnings;
+use v5.36;
 
 use Time::Piece ();
 

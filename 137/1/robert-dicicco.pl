@@ -1,14 +1,7 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-use 5.30.0;
+use v5.36;
 
 use Date::Calc qw (leap_year Day_of_Week);
-
-# Author: Robert DiCicco
-# Date: 01-NOV-2021
-# Challenge 137
 
 # ISO-8601
 # An ISO calendar year is long if and only if the corresponding Gregorian

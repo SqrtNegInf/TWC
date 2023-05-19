@@ -1,10 +1,6 @@
 #!/usr/bin/env perl
-# The Weekly Challenge 137
-# Task 1 Long Year
-# Usage: ch-1.pl
-# modified: 14th Nov 2021
-use v5.12.0;
-use warnings;
+use v5.36;
+
 use Time::gmtime;
 use Time::Local qw 'timegm_nocheck';
 
