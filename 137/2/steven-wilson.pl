@@ -1,9 +1,5 @@
 #!/usr/bin/env perl
-# Week 135 Task 2
-# Lychrel Number
-
-use strict;
-use warnings;
+use v5.36;
 use Test::More;
 
 ok( is_lychrel_number(56) == 0,  "Test 56" );

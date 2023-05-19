@@ -1,23 +1,6 @@
 #!/usr/bin/env perl
-#===============================================================================
-#
-#         FILE: 13702.pl
-#
-#        USAGE: ./13702.pl [-v] N
-#
-#  DESCRIPTION: Print 1 if N is a Lychrel number, 0 otherwise 
-#
-#      OPTIONS: -v gives verbose output
-# REQUIREMENTS: Getopt::Long::Modern
-#        NOTES: Values of $maxn and $maxiter are as specified in the task
-#       AUTHOR: Pete Houston (pete), cpan@openstrike.co.uk
-# ORGANIZATION: Openstrike
-#      VERSION: 1.0
-#      CREATED: 01/11/21
-#===============================================================================
+use v5.36;
 
-use strict;
-use warnings;
 use Getopt::Long::Modern;
 
 GetOptions (v => \my $verbose);

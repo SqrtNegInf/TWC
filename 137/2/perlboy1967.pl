@@ -1,43 +1,10 @@
 #!/usr/bin/env perl
-
-=pod
-
-Perl Weekly Challenge - 137
- - https://perlweeklychallenge.org/blog/perl-weekly-challenge-137/#TASK2
-
-Author: Niels 'PerlBoy' van Dijke
-
-TASK #2 › Lychrel Number
-Submitted by: Mohammad S Anwar
-
-You are given a number, 10 <= $n <= 1000.
-
-Write a script to find out if the given number is Lychrel number. 
-To keep the task simple, we impose the following rules:
-
-a. Stop if the number of iterations reached 500.
-b. Stop if you end up with number >= 10_000_000.
-
-According to wikipedia:
-
-  || A Lychrel number is a natural number that cannot form a palindrome through 
-  || the iterative process of repeatedly reversing its digits and adding the 
-  || resulting numbers.
-
-=cut
-
-use v5.16;
-use strict;
-use warnings;
+use v5.36;
 
 use constant MAX_ITER => 500;
 use constant MAX_VALUE => 10_000_000;
 
 use Test::More;
-
-# Prototype(s)
-sub isLychrelNumber($$$;$);
-
 
 my $N = shift // 89;
 
@@ -50,7 +17,7 @@ foreach my $n (keys %tests) {
 done_testing();
 
 
-sub isLychrelNumber($$$;$) {
+sub isLychrelNumber {
   my ($n, $maxIter, $maxVal, $print) = @_;
   $print //= 0;
 

@@ -48,15 +48,7 @@
 ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ##
 
 
-
-use warnings;
-use strict;
-use utf8;
-use feature ":5.26";
-use feature qw(signatures);
-no warnings 'experimental::signatures';
-use integer;
-
+use v5.36;
 
 for my $num ( 10..100 ) {
     say "input:  $num";

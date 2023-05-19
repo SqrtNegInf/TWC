@@ -1,10 +1,6 @@
 #!/usr/bin/env perl
-# Perl weekly challenge 137
-# Task 2: Lychrel number
-#
-# See https://wlmb.github.io/2021/11/02/PWC137/#task-2-lychrel-number
-use v5.12;
-use warnings;
+use v5.36;
+
 my ($lower, $upper, $maxcount, $largest)=(10,1000,500,10_000_000); #bounds
 foreach((56, 57, 59, 196) ){
     my @why=lychrel($_);

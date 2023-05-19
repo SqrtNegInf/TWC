@@ -1,9 +1,6 @@
 #!/usr/bin/env perl
-# The Weekly Challenge 137
-# Task 2 Lychrel Number
-# Usage: $ ch-2.pl $n
-use v5.12.0;
-use warnings;
+use v5.36;
+
 use Test::More tests => 5;
 
 say lych($ARGV[0]) if defined($ARGV[0]);

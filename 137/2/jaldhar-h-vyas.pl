@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-use 5.020;
-use warnings;
+use v5.36;
 
 sub usage {
     say 'Need an integer between 10 and 1000';

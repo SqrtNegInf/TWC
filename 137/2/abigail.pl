@@ -1,21 +1,5 @@
 #!/usr/bin/env perl
-
-use 5.032;
-
-use strict;
-use warnings;
-no  warnings 'syntax';
-
-use experimental 'signatures';
-use experimental 'lexical_subs';
-
-#
-# See ../README.md
-#
-
-#
-# Run as: perl ch-2.pl < input-file
-#
+use v5.36;
 
 #
 # Note that the challenge says we can terminate the process of iterating

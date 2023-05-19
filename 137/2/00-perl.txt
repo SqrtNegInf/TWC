@@ -885,10 +885,6 @@ steps: (2)
         Output: 0
 
  
-===> 137/2/duncan-c-white.pl <===
-Input:  196
-Output: 1
- 
 ===> 137/2/e-choroba.pl <===
 # Seeded srand with seed '1234' from import arg.
 1..5
@@ -900,17 +896,6 @@ ok 5 - Lychrel number
  
 ===> 137/2/jaldhar-h-vyas.pl <===
 1
- 
-===> 137/2/james-smith.pl <===
-ok 1
-ok 2
-ok 3
-ok 4
-ok 5
-ok 6
-ok 7
-ok 8
-1..8
  
 ===> 137/2/laurent-rosenfeld.pl <===
 10 -> 0
@@ -935,29 +920,6 @@ ok 2
 ok 3
 ok 4
 1..4
- 
-===> 137/2/mattneleigh.pl <===
-
-Input: $n = 56
-Output: 0
-After 1 iteration, we found a palindrome.
-
-Input: $n = 57
-Output: 0
-After 2 iterations, we found a palindrome.
-
-Input: $n = 59
-Output: 0
-After 3 iterations, we found a palindrome.
-
-Input: $n = 1500
-Output: Invalid input
-After 0 iterations, we found that our input was not valid.
-
-Input: $n = 196
-Output: 1
-After 8 iterations, we found no palindromes.
-
  
 ===> 137/2/paulo-custodio.pl <===
 0

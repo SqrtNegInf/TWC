@@ -1,37 +1,5 @@
 #!/usr/bin/env perl
-# vim:set ts=4 sw=4 sts=4 et ai wm=0 nu:
-#=============================================================================
-# ch-2.pl
-#=============================================================================
-# Copyright (c) 2021, Bob Lied
-#=============================================================================
-# Perl Weekly Challenge week 137, Task #2, Lychrel number 
-#
-# You are given a number, 10 <= $n <= 1000.
-# Write a script to find out if the given number is Lychrel number. To keep
-# the task simple, we impose the following rules:
-#   a. Stop if the number of iterations reached 500.
-#   b. Stop if you end up with number >= 10_000_000.
-#
-# According to wikipedia:
-# A Lychrel number is a natural number that cannot form a palindrome through
-# the iterative process of repeatedly reversing its digits and adding the
-# resulting numbers.
-#
-# Example 1: Input $n = 56, Output = 0
-#   56+65 = 121, found palindrome after 1 iteration
-#
-# Example 2: Input $n = 57, Output = 0
-#   57+75 = 132
-#   132+231 = 363, found palindrome after 2 iterations
-#=============================================================================
-
-use strict;
-use warnings;
-use v5.32;
-
-use experimental qw/ signatures /;
-no warnings "experimental::signatures";
+use v5.36;
 
 use Getopt::Long;
 my $Verbose = 0;
