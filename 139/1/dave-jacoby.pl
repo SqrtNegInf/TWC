@@ -1,11 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-use feature qw{ say state postderef signatures };
-no warnings qw{ experimental };
-
-# JortSort - https://jort.technology/ - https://github.com/jennschiffer/jortsort
+use v5.36;
 
 my @examples;
 push @examples, [ 1 .. 5 ];

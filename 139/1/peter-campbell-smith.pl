@@ -1,16 +1,5 @@
 #!/usr/bin/env perl
-
-# Peter Campbell Smith - 2021-11-15
-# PWC 139 task 1
-
-use v5.20;
-use warnings;
-use strict;
-
-# You are given a list of numbers.
-
-# Write a script to implement JortSort. It should return true/false depending 
-# if the given list of numbers are already sorted.
+use v5.36;
 
 my ($lists, $list, $this, $result, $prev);
 

@@ -1,9 +1,5 @@
 #!/usr/bin/env perl
-# The Weekly Challenge 139
-# Task 1: JortSort
-# Usage: $ ch-1.pl [@n]
-use v5.12.0;
-use warnings;
+use v5.36;
 use Test::More tests => 5;
 
 die "Input error.\n" if !defined([@ARGV]) || $#ARGV == 0;
