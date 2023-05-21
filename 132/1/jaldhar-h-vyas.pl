@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-use 5.020;
-use warnings;
+use v5.36;
 use DateTime;
 
 my $birthday = DateTime->new(year => 1971, month => 3, day => 22);

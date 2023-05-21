@@ -1,10 +1,6 @@
 #!/usr/bin/env perl
-# The Weekly Challenge 132
-# Task 1 Mirror Dates
-# Usage: ch-1.pl YYYY/MM/DD
-# modified: 14th Nov 2021
-use v5.24.0;
-use warnings;
+use v5.36;
+
 use Time::Local qw'timegm_nocheck';
 use Time::gmtime;
 use Test::More tests => 3;

@@ -1,25 +1,11 @@
 #!/usr/bin/env perl
-
-# Perl Weekly Challenge - 132
-# - https://perlweeklychallenge.org/blog/perl-weekly-challenge-132/#TASK1
-#
-# Task 1 - Mirror Dates
-#
-# Author: Niels 'PerlBoy' van Dijke
-
-use v5.16;
-use strict;
-use warnings;
+use v5.36;
 
 use Date::Calc qw(Delta_Days Add_Delta_Days);
 use POSIX qw(strftime);
 
 use Test::More;
 use Test::Deep;
-
-# Prototype(s)
-sub mirrorDates($$);
-
 
 my $date = '2021/09/22';
 
@@ -36,7 +22,7 @@ foreach $date (@ARGV) {
 }
 
 
-sub mirrorDates($$) {
+sub mirrorDates {
   my @d;
 
   foreach (@_) {

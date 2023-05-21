@@ -1,15 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use strict;
-use warnings;
-use feature qw{ say postderef signatures };
-no warnings qw{ experimental };
-
-# Do Not Write Your Own Date and Time Manipulation Code!
-# Do Not Write Your Own Date and Time Manipulation Code!
-# Do Not Write Your Own Date and Time Manipulation Code!
-# Do Not Write Your Own Date and Time Manipulation Code!
-# Do Not Write Your Own Date and Time Manipulation Code!
 use DateTime;
 
 my @examples;
