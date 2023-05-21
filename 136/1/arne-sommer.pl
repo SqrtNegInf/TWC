@@ -1,9 +1,6 @@
-#!/usr/bin/env perl5.32.1
+#!/usr/bin/env perl
 
-use strict;
-use feature 'say';
-use feature 'signatures';
-no warnings qw(experimental::signatures);
+use v5.36;
 
 # use List::MoreUtils 'duplicates';
 use Getopt::Long;
@@ -49,11 +46,11 @@ sub divisors ($number)
   return @divisors;
 }
 
-sub duplicates (@)
+sub duplicates (@A)
 {
     my %seen = ();
     my $k;
     my $seen_undef;
     return grep { 1 < (defined $_ ? $seen{$k = $_} : $seen_undef) }
-      grep { defined $_ ? not $seen{$k = $_}++ : not $seen_undef++ } @_;
+      grep { defined $_ ? not $seen{$k = $_}++ : not $seen_undef++ } @A;
 }

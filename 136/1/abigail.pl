@@ -1,27 +1,5 @@
 #!/usr/bin/env perl
-
-use 5.032;
-
-use strict;
-use warnings;
-no  warnings 'syntax';
-
-use experimental 'signatures';
-use experimental 'lexical_subs';
-
-#
-# See ../README.md
-#
-
-#
-# Run as: perl ch-1.pl < input-file
-#
-
-#
-# We need the GCD of two numbers. We did this in the past a few times,
-# for instance in weeks 82, 89 and 93.
-# So, we copy-and-pasted some code.
-#
+use v5.36;
 
 #
 # Find the GCD, using Stein's algorithm
@@ -60,7 +38,7 @@ sub is_power_of_2 ($number) {
 #
 while (<DATA>) {
     my ($n, $m) = split;
-    say (0), next if ($n % 2) || ($m % 2);
+    say 0 and next if ($n % 2) || ($m % 2);
     my  $r = gcd $n, $m;
     say $r > 1 && is_power_of_2 ($r) ? 1 : 0
 }

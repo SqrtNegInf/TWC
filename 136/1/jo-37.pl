@@ -1,9 +1,8 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use v5.16;
 use Test2::V0 -srand => 1234;
 use Math::Prime::Util qw(gcd logint);
-use experimental 'signatures';
 
 our ($tests, $examples) = (1, 1);
 

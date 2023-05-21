@@ -1,4 +1,5 @@
 #!/usr/bin/env perl
+use v5.36;
 
 # Challenge 136
 #
@@ -29,7 +30,6 @@
 #
 #     Reason: gcd(4,10) = 2 => 2 ^ 1
 
-use Modern::Perl;
 use ntheory 'gcd';
 
 say is_power_2(gcd( (8, 24) ));

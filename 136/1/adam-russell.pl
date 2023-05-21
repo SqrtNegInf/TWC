@@ -1,11 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use strict;
-use warnings;
-##
-# You are given 2 positive numbers, $m and $n.
-# Write a script to find out if the given two numbers are Two Friendly.
-##
 use POSIX;
 use boolean;
 

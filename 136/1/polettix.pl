@@ -1,9 +1,5 @@
 #!/usr/bin/env perl
-use v5.24;
-use warnings;
-use experimental 'signatures';
-no warnings 'experimental::signatures';
-
+use v5.36;
 say two_friendly(@ARGV ? @ARGV[0, 1] : (8, 24)) ? 1 : 0;
 sub two_friendly ($m, $n) { positive_power2(gcd($m, $n)) }
 sub positive_power2 ($x) { $x > 1 && is_power2($x) }

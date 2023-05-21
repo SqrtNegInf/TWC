@@ -1,8 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use 5.24.0;
-use warnings;
-use experimental qw<signatures>;
 use Test::More;
 
 sub gcd ( $x, $y ) {
