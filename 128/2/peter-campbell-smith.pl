@@ -1,18 +1,5 @@
 #!/usr/bin/env perl
-
-# Peter Campbell Smith - 2021-08-30
-# PWC 128 task 2
-
-use strict;
-use warnings;
-
-# You are given two arrays of arrival and departure times of trains at a railway station.
-# Write a script to find out the minimum number of platforms needed so that no train needs 
-# to wait.
-#
-# Example 2:
-# Input: @arrivals   = (10:20, 11:00, 11:10, 12:20, 16:20, 19:00)
-#        @departures = (10:30, 13:20, 12:40, 12:50, 20:20, 21:20)
+use v5.36;
 
 my (@arrivals, @departures, $train, %trains, $max_platforms, $now_platforms, $event);
 

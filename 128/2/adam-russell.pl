@@ -1,20 +1,13 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use strict;
-use warnings;
-##
-# You are given two arrays of arrival and departure 
-# times of trains at a railway station.
-# Write a script to find out the minimum number of 
-# platforms needed so that no train needs to wait.
-##
 use Date::Parse;
 use Heap::MinMax;
 
 sub number_platforms{
     my($arrivals, $departures) = @_;
     my $platforms = 0; 
-    my $heap = new Heap::MinMax();
+    my $heap = Heap::MinMax->new();
     $heap->insert(str2time(shift @{$departures}));  
     for my $i (0 .. @{$departures}){
         $platforms++ if str2time($arrivals->[$i]) < $heap->min();  

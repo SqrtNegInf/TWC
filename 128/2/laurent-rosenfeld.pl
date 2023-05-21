@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-use feature qw/say/;
+use v5.36;
 
 my @arrivals   = qw<10:20 11:00 11:10 12:20 16:20 19:00>;
 my @departures = qw<10:30 13:20 12:40 12:50 20:20 21:20>;

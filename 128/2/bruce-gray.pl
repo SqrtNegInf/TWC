@@ -1,9 +1,5 @@
 #!/usr/bin/env perl
-# Translation of my Raku solution.
-use strict;
-use warnings;
-use 5.026;
-use experimental    qw<signatures>;
+use v5.36;
 use List::Util 1.56 qw<max zip>;
 
 sub time_to_offset ( $hh_mm_time ) {

@@ -63,20 +63,6 @@ ok 5 - no simultaneous arrival and departure at the same platform
 ===> 128/2/laurent-rosenfeld.pl <===
 3
  
-===> 128/2/mattneleigh.pl <===
-Arrivals:   11:20, 14:30
-Departures: 11:50, 15:00
-Platforms required: 1
-
-Arrivals:   10:20, 11:00, 11:10, 12:20, 16:20, 19:00
-Departures: 10:30, 13:20, 12:40, 12:50, 20:20, 21:20
-Platforms required: 3
-
-Arrivals:   09:00, 10:30, 10:45, 17:30, 23:30, 00:00, 00:00
-Departures: 09:15, 10:50, 11:00, 17:35, 00:10, 00:20, 01:30
-Platforms required: 3
-
- 
 ===> 128/2/peter-campbell-smith.pl <===
 Arrivals:   10:20 11:00 11:10 12:20 16:20 19:00
 Departures: 10:30 13:20 12:40 12:50 20:20 21:20
@@ -90,10 +76,3 @@ We need 3 platforms
 1..2
 ok 1 - example 1
 ok 2 - example 2
- 
-===> 128/2/wanderdoc.pl <===
-Example 1 (modified):
-At least 2 platforms at: 14:59 - 15:00
-Example 2:
-At least 3 platforms at: 12:20 - 12:40
-At least 2 platforms at: 11:10 - 12:50, 19:00 - 20:20

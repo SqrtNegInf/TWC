@@ -1,11 +1,7 @@
 #!/usr/bin/env perl
-# The Weekly Challenge 128
-# Task 2 Minimum Platforms
-# Usage: $ ch-2.pl arrival timetable x departure timetable
-use v5.12.0;
-use warnings;
+use v5.36;
+
 use List::Util qw/any/;
-use Data::Dumper;
 use Test::More tests => 2;
 
 my (@a, @a1, @a2);
