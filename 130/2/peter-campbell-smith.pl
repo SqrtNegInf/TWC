@@ -1,11 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-
-# PWC 130 task 2 - Peter Campbell Smith - 2021-09-14
-
-# You are given a tree. Write a script to find out if the given tree is a Binary 
-# Search Tree (BST).
+use v5.36;
 
 # The solution shown below expects the input to be a
 # file with one line per node, containing

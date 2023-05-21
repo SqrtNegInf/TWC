@@ -32,12 +32,6 @@ tree1: 1
 
 tree2: 0
  
-===> 130/2/mattneleigh.pl <===
-Tree 0 is a BST
-
-Tree 1 is not a BST
-
- 
 ===> 130/2/peter-campbell-smith.pl <===
 This is a valid binary search tree
  

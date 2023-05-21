@@ -1,11 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use strict;
-use warnings;
-##
-# You are given a tree.
-# Write a script to find out if the given tree is Binary Search Tree (BST).
-##
 package Tree130{
     use boolean;      
     use Class::Struct; 
@@ -79,11 +74,11 @@ package Tree130{
     sub insert{
         my($self, $source, $target, $left_right) = @_;   
         if(!$self->root()){      
-            $self->root(new Node(value => $source));   
+            $self->root(Node->new(value => $source));   
             push @{$self->nodes()},  $self->root();      
         }   
         my $source_node = [grep {$_->value() == $source} @{$self->nodes()}]->[0];
-        my $target_node = new Node(value => $target);
+        my $target_node = Node->new(value => $target);
         if($source_node){
             $source_node->left($target_node) if $left_right == LEFT;
             $source_node->right($target_node) if $left_right == RIGHT;
@@ -97,13 +92,13 @@ package main{
     use constant LEFT => 0;
     use constant RIGHT => 1;
     
-    my $tree = new Tree130(); 
+    my $tree = Tree130->new(); 
     $tree->insert(8, 5, LEFT); 
     $tree->insert(8, 9, RIGHT); 
     $tree->insert(5, 4, LEFT); 
     $tree->insert(5, 6, RIGHT); 
     print $tree->is_bst($tree->root()) . "\n";
-    $tree = new Tree130(); 
+    $tree = Tree130->new(); 
     $tree->insert(5, 4, LEFT); 
     $tree->insert(5, 7, RIGHT); 
     $tree->insert(4, 3, LEFT); 

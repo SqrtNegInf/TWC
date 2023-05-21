@@ -1,15 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings FATAL => qw(all);
-
-=prompt
-You are given a tree. Write a script to find out if the given tree is Binary Search Tree (BST).
-A binary search tree is a rooted binary tree, whose internal nodes each store a key (and optionally, an associated value), and each has two distinguished sub-trees, commonly denoted left and right. The tree additionally satisfies the binary search property: the key in each node is greater than or equal to any key stored in the left sub-tree, and less than or equal to any key stored in the right sub-tree. The leaves (final nodes) of the tree contain no key and have no structure to distinguish them from one another.
-
-=cut
-
-
-
+use v5.36;
 
 
 use Struct::Dumb;
@@ -34,18 +24,12 @@ $root->left->right = createNode(6);
 print isBST($root, 0, 1e6), $/;
 
 
-
-
-
-
 sub createNode
 {
      my $value = $_[0];
      my $node = Node(value => $value, left => undef, right => undef);
      return $node;
 }
-
-
 
 sub isBST # wikipedia
 {
