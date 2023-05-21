@@ -37,13 +37,6 @@ I	PANDIGITAL1	PANDIGITAL2	PANDIGITAL3
 3	1023456897	1023456897	1023456897
 4	1023456978	1023456978	1023456978
  
-===> 134/1/duncan-c-white.pl <===
-1023456789
-1023456798
-1023456879
-1023456897
-1023456978
- 
 ===> 134/1/e-choroba.pl <===
 1023456789
 1023456798
@@ -56,28 +49,12 @@ I	PANDIGITAL1	PANDIGITAL2	PANDIGITAL3
 1023457869
 1023457896
  
-===> 134/1/jaldhar-h-vyas.pl <===
-1023456789 1023456798 1023456879 1023456897 1023456978 1023456987 1023457689 1023457698 1023457869 1023457896
- 
 ===> 134/1/james-smith.pl <===
 1023456789
 1023456798
 1023456879
 1023456897
 1023456978
- 
-===> 134/1/jo-37.pl <===
-# Seeded srand with seed '1234' from import arg.
-ok 1 - first five decimal pandigital numbers
-ok 2 - first binary pandigital numbers
-ok 3 - smallest five-digit ternary pandigital number
-ok 4 - smallest hexatrigesimal pandigital number, see Wiki
-ok 5 - largest non-redundant octal pandigital number
-ok 6 - all tuples
-ok 7 - all permutations
-ok 8 - too many required items
-ok 9 - three of two
-1..9
  
 ===> 134/1/laurent-rosenfeld.pl <===
 1023456789
@@ -90,29 +67,7 @@ ok 9 - three of two
 ok 1
 1..1
  
-===> 134/1/mattneleigh.pl <===
-The first 5 pandigital numbers in Base 10 are:
-  1023456789
-  1023456798
-  1023456879
-  1023456897
-  1023456978
- 
-===> 134/1/mohammad-anwar.pl <===
-1023456789
-1023456798
-1023456879
-1023456897
-1023456978
- 
 ===> 134/1/paulo-custodio.pl <===
-1023456789
-1023456798
-1023456879
-1023456897
-1023456978
- 
-===> 134/1/pete-houston.pl <===
 1023456789
 1023456798
 1023456879
@@ -144,10 +99,6 @@ The first 5 pandigital numbers in Base 10 are:
 1023457698
 1023457869
 1023457896
- 
-===> 134/1/roger-bell-west.pl <===
-1..1
-ok 1 - example 1
  
 ===> 134/1/ulrich-rieke.pl <===
 1023456789, 1023456978, 1023456978, 1023456978, 1023456978

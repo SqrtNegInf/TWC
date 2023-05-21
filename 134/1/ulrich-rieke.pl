@@ -1,11 +1,7 @@
 #!/usr/bin/env perl
-use strict ;
-use warnings ;
-use feature 'say' ;
-use Math::BigInt ;
+use v5.36;
 
-#the smallest pandigit 10-based number must begin with "10" , the rest of
-#the other digits must follow in numerical order ;
+use Math::BigInt ;
 
 sub isPandigital {
   my $number = shift ;

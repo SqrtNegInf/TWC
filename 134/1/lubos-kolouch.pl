@@ -1,7 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use strict;
-use warnings;
 use Algorithm::Combinatorics qw/permutations/;
 
 sub get_10_pandigital {

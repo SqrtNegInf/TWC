@@ -1,11 +1,8 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-use feature 'say';
+use v5.36;
 
 use Algorithm::Combinatorics 'permutations';
-use Array::Utils 'array_minus';  ## Debian/Ubuntu: libarray-utils-perl
+use Array::Utils 'array_minus';
 
 my $n = $ARGV[0] // 5;
 

@@ -1,20 +1,5 @@
 #!/usr/bin/env perl
-
-# Peter Campbell Smith - 2021-10-13
-# PWC 134 task 1
-
-use v5.20;
-use warnings;
-
-# Write a script to generate first 5 Pandigital Numbers in base 10.
-# A pandigital number is an integer that in a given base has among its significant 
-# digits each digit used in the base at least once.
-
-# The first such number is 1023456789 as we can't start with 0 which isn't 'significant'.
-#
-# The simplest way to find the next 4 is simply to test every subsequent integer
-# until all 5 are found.  Even if you are looking for the first 1000 pandigitals
-# this completes in a few seconds.
+use v5.36;
 
 my ($test, $count, $limit);
 

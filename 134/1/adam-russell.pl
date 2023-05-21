@@ -1,12 +1,8 @@
 #!/usr/bin/env perl
+use v5.36;
 
 # slow!
 
-use strict;
-use warnings;
-##
-# Write a script to generate first 5 Pandigital Numbers in base 10.
-##
 use boolean;
 
 sub first_n_pandigitals {
