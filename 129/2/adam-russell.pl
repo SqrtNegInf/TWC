@@ -1,13 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use strict;
-use warnings;
-##
-# You are given two linked list having single digit positive numbers.
-# Write a script to add the two linked list and create a new linked 
-# representing the sum of the two linked list numbers. The two linked 
-# lists may or may not have the same number of elements.
-##
 package LinkedList129{
     use boolean;
     use Class::Struct;
@@ -60,7 +53,7 @@ package LinkedList129{
     sub insert{
         my($self, $value) = @_;
         if(!$self->head()){
-            $self->head(new Node(value => $value, previous => undef, next => undef));
+            $self->head(Node->new(value => $value, previous => undef, next => undef));
             $self->tail($self->head());
             $self->length(1);
         }
@@ -69,7 +62,7 @@ package LinkedList129{
             my $inserted = false;
             do{
                 if(!$current->next()){
-                    $current->next(new Node(value => $value, previous => $current, next => undef));
+                    $current->next(Node->new(value => $value, previous => $current, next => undef));
                     $inserted = true; 
                 }
                 $current = $current->next();
@@ -84,7 +77,7 @@ package LinkedList129{
         my($self, $list) = @_;
         my $shortest = [sort {$a <=> $b} ($self->length(), $list->length())]->[0];
         my($x, $y) = ($self->tail(), $list->tail());
-        my $sum = new LinkedList129();
+        my $sum = LinkedList129->new();
         my $carry = 0;
         do{
             my $z;
@@ -116,13 +109,13 @@ package LinkedList129{
 }
 
 package main{
-    my $l0 = new LinkedList129();
+    my $l0 = LinkedList129->new();
     $l0->insert(1);
     $l0->insert(2);
     $l0->insert(3);
     $l0->insert(4);
     $l0->insert(5);
-    my $l1 = new LinkedList129();
+    my $l1 = LinkedList129->new();
     $l1->insert(6);
     $l1->insert(5);
     $l1->insert(5);

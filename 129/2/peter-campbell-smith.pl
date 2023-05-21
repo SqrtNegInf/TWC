@@ -1,16 +1,5 @@
 #!/usr/bin/env perl
-
-# Peter Campbell Smith - 2021-09-06
-# Perl weekly challenge 129 task #2
-
-# You are given two linked list having single digit positive numbers.
-
-# Write a script to add the two linked list and create a new linked 
-# representing the sum of the two linked list numbers. The two linked 
-# lists may or may not have the same number of elements.
-
-use strict;
-use warnings;
+use v5.36;
 
 my ($L1, $L1_left, $L2, $L2_left, $L3, $one, $two, $carry, $sum, $units, $blanks1, $blanks2);
 

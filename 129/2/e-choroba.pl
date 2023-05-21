@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-use warnings;
-use strict;
+use v5.36;
 
 sub add_linked_lists {
     my ($l1, $l2) = @_;
