@@ -1,22 +1,5 @@
 #!/usr/bin/env perl
-
-=head1
-
-Week 130:
-
-    https://theweeklychallenge.org/blog/perl-weekly-challenge-130/
-
-Task #1: Odd Number
-
-    You are given an array of positive integers, such that all the
-    numbers appear even number of times except one number.
-
-    Write a script to find that integer.
-
-=cut
-
-use strict;
-use warnings;
+use v5.36;
 
 use Test::More;
 

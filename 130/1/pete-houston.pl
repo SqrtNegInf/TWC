@@ -1,21 +1,5 @@
 #!/usr/bin/env perl
-#===============================================================================
-#
-#         FILE: 13001.pl
-#
-#        USAGE: ./13001.pl N [ N ... ]
-#
-#  DESCRIPTION: Output the one argument which appears an odd number of
-#               times.
-#
-#       AUTHOR: Pete Houston (pete), cpan@openstrike.co.uk
-# ORGANIZATION: Openstrike
-#      VERSION: 1.0
-#      CREATED: 13/09/21
-#===============================================================================
-
-use strict;
-use warnings;
+use v5.36;
 
 my %freq;
 # Count up the occurrences of each positive integer

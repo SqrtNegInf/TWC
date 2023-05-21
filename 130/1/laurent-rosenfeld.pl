@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use feature qw/say/;
+use v5.36;
 
 my %histo;
 $histo{$_}++ for (2, 5, 4, 4, 5, 5, 2);

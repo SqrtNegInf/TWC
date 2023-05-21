@@ -1,11 +1,7 @@
 #!/usr/bin/env perl
-# The Weekly Challenge 130
-# Task 1 Odd Number
-# Usage: $ ch-1.pl @N
-use constant BIGN => 1024;
+use v5.36;
 
-use v5.12.0;
-use warnings;
+use constant BIGN => 1024;
 use Test::More tests => 2;
 
 my @N = @ARGV;

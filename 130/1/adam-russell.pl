@@ -1,12 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use strict;
-use warnings;
-##
-# You are given an array of positive integers, such 
-# that all the numbers appear even number of times except one number.
-# Write a script to find that integer.
-##
 sub find_odd_occurring{
     my %counts;
     for my $x (@_){
