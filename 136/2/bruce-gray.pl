@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-
-use 5.24.0;
-use warnings;
-use experimental qw<signatures>;
+use v5.36;
 use Test::More;
 
 # From https://oeis.org/A000119 :

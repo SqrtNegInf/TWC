@@ -1,22 +1,6 @@
 #!/usr/bin/env perl
-#===============================================================================
-#
-#         FILE: 13602.pl
-#
-#        USAGE: ./13602.pl N
-#
-#  DESCRIPTION: How many distinct sums of unique Fibonacci numbers total N?
-#
-# REQUIREMENTS: Algorithm::Knapsack, Params::Util, List::Util
-#        NOTES: Essentially the same as 7701.pl, just different output
-#       AUTHOR: Pete Houston (pete), cpan@openstrike.co.uk
-# ORGANIZATION: Openstrike
-#      VERSION: 1.0
-#      CREATED: 31/10/21
-#===============================================================================
+use v5.36;
 
-use strict;
-use warnings;
 use Algorithm::Knapsack;
 use Params::Util '_POSINT';
 use List::Util 'sum';

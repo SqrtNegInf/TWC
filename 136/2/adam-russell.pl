@@ -1,7 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use strict;
-use warnings;
 ##
 # You are given a positive number $n.
 # Write a script to find how many different 

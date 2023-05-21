@@ -1,12 +1,11 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use v5.16;
 use Math::Prime::Util qw(todigits lucasu);
 use List::MoreUtils 'reduce_0';
 use Memoize qw(memoize flush_cache);
 use Benchmark 'cmpthese';
 use Test2::V0 -srand => 1234;
-use experimental 'signatures';
 
 our ($tests, $examples, $benchmark) = (1, 1, 0);
 memoize('count_fib_seq');

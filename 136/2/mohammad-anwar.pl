@@ -1,21 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-=head1
-
-Week 136:
-
-    https://theweeklychallenge.org/blog/perl-weekly-challenge-136
-
-Task #2: Fibonacci Sequence
-
-    You are given a positive number $n.
-
-    Write a script to find how many different sequences you can create using Fibonacci numbers where the sum of unique numbers in each sequence are the same as the given number.
-
-=cut
-
-use strict;
-use warnings;
 use Test::More;
 use Algorithm::Combinatorics qw(combinations);
 

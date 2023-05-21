@@ -1,9 +1,5 @@
 #!/usr/bin/env perl
-# Perl weekly challenge 136
-# Task 1: Fibonacci sequence
-#
-# See https://wlmb.github.io/2021/10/25/PWC136/#task-2-fibonacci-sequence
-use v5.12;
+use v5.36;
 foreach((16, 9, 15, 1243)){
     my $count=my @sequences=fib($_,1,1);
     say "Input: $_\nOutput: $count",
