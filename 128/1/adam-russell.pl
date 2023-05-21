@@ -1,11 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use strict;
-use warnings;
-## 
-# You are given m x n binary matrix having 0 or 1.
-# Write a script to find out maximum sub-matrix having only 0.
-##
 use Tree::Suffix; 
 
 sub maximum_sub_matrix{
@@ -16,7 +11,7 @@ sub maximum_sub_matrix{
     my @indices_maximum;
     my $indices_previous = "";
     my $indices_current = "";
-    my $tree = new Tree::Suffix(); 
+    my $tree = Tree::Suffix->new(); 
     for my $i (0 .. @matrix - 1){
         $indices_current = "";
         for my $j (0 .. @{$matrix[0]} - 1){

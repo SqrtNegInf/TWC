@@ -1,9 +1,6 @@
 #!/usr/bin/env perl
-# The Weekly Challenge 128
-# Task 1 Maximum Sub-Matrix
-# Usage: $ ch-1.pl 
-use v5.12.0;
-use warnings;
+use v5.36;
+
 use List::Util qw/max/;
 use Test::More tests => 5;
 use Test::Deep;

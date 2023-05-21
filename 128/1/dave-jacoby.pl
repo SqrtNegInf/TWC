@@ -1,11 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use strict;
-use warnings;
-use feature qw{ say postderef signatures };
-no warnings qw{ experimental };
-
-use utf8;
 use JSON;
 use List::Util qw{ sum0 };
 

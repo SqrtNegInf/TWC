@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-use v5.24;
-use warnings;
-use experimental 'signatures';
-no warnings 'experimental::signatures';
+use v5.36;
 
 sub maximum_submatrix_at ($M, $y, $x) {
    my $target = $M->[$y][$x];

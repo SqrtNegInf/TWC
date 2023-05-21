@@ -66,14 +66,7 @@
 ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ##
 
 
-
-use warnings;
-use strict;
-use utf8;
-use feature ":5.26";
-use feature qw(signatures);
-no warnings 'experimental::signatures';
-
+use v5.36;
 
 my @input = (   [ 1, 0, 0, 0, 1, 0, ],
                 [ 1, 1, 0, 0, 0, 1, ],
