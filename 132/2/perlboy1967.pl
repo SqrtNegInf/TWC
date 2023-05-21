@@ -1,20 +1,14 @@
 #!/usr/bin/env perl
+use v5.36;
 
-# Perl Weekly Challenge - 132
-# - https://perlweeklychallenge.org/blog/perl-weekly-challenge-132/#TASK1
-#
-# Task 1 - Mirror Dates
-#
-# Author: Niels 'PerlBoy' van Dijke
-
-use v5.16;
-use strict;
-use warnings;
+#use v5.16;
+#use strict;
+#use warnings;
 
 use Test::More;
 use Test::Deep;
 
-sub hashJoin(\@\@);
+sub hashJoin :prototype(\@\@);
 
 my  @player_ages = (
   [20, "Alex"  ],
@@ -51,7 +45,7 @@ is_deeply(
  
 done_testing;
 
-sub hashJoin(\@\@) {
+sub hashJoin :prototype(\@\@) {
   return 
     [map { my $r = $_; map { [$_->[0], @$r] } grep { $_->[1] eq $r->[0] } @{$_[0]} } @{$_[1]}];
 }

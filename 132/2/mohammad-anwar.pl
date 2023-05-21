@@ -1,19 +1,5 @@
 #!/usr/bin/env perl
-
-=head1
-
-Week 132:
-
-    https://theweeklychallenge.org/blog/perl-weekly-challenge-132
-
-Task #2: Hash Join
-
-    Write a script to implement Hash Join algorithm as suggested by wikipedia.
-
-=cut
-
-use strict;
-use warnings;
+use v5.36;
 
 my @player_ages = (
     [20, "Alex"  ],

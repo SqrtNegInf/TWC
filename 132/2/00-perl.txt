@@ -45,19 +45,6 @@ ok 1 - example
 ok 2 - nonmatching keys
 1..2
  
-===> 132/2/mattneleigh.pl <===
-
-Merged rows:
-      20        Alex     Stewart
-      18        Alex     Stewart
-      28         Joe        Root
-      38        Mike     Gatting
-      28         Joe        Blog
-      20        Alex       Jones
-      18        Alex       Jones
-      18       Simon       Duane
-
- 
 ===> 132/2/mohammad-anwar.pl <===
 20, Alex, Jones
 20, Alex, Stewart

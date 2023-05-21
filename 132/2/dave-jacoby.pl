@@ -1,9 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-use feature qw{ say postderef signatures };
-no warnings qw{ experimental };
+use v5.36;
 
 my @player_ages = (
     [ 20, "Alex" ],

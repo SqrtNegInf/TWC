@@ -1,4 +1,5 @@
 #!/usr/bin/env perl
+use v5.36;
 
 my @player_ages = (
         [20, "Alex"  ],
