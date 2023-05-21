@@ -1,29 +1,7 @@
 #!/usr/bin/env perl
-
-=pod
-
-Perl Weekly Challenge - 135
- - https://perlweeklychallenge.org/blog/perl-weekly-challenge-135/#TASK1
-
-Author: Niels 'PerlBoy' van Dijke
-
-TASK #1 › Middle 3-digits
-Submitted by: Mohammad S Anwar
-
-You are given an integer.
-
-Write a script find out the middle 3-digits of the given integer, if possible otherwise throw sensible error.
-
-=cut
-
-use v5.16;
-use strict;
-use warnings;
+use v5.36;
 
 use Test::More;
-
-# Prototype(s)
-sub middle3numbers($);
 
 is middle3numbers(1234567),345;
 is middle3numbers(1020304050607),'040';
@@ -35,7 +13,7 @@ is middle3numbers('Perl5'),'not an integer number';
 done_testing;
 
 
-sub middle3numbers($) {
+sub middle3numbers {
   my $n = $_[0];
 
   return 'not an integer number'  if  $n !~ m#^[-]?\d+$#;

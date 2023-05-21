@@ -1,10 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings FATAL => qw(all);
-
-=prompt
-You are given an integer. Write a script find out the middle 3-digits of the given integer, if possible otherwise throw sensible error.
-=cut
+use v5.36;
 
 sub middle_three
 {

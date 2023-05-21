@@ -1,20 +1,5 @@
 #!/usr/bin/env perl
-#===============================================================================
-#
-#         FILE: 13501.pl
-#
-#        USAGE: ./13501.pl N [ N ... ] 
-#
-#  DESCRIPTION: Print the middle 3 digits of each given integer
-#
-#       AUTHOR: Pete Houston (pete), cpan@openstrike.co.uk
-# ORGANIZATION: Openstrike
-#      VERSION: 1.0
-#      CREATED: 18/10/21
-#===============================================================================
-
-use strict;
-use warnings;
+use v5.36;
 
 for my $n ( (1, 1234, 1234567) ) {
     $_ = $n;

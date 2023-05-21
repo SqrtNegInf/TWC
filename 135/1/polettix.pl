@@ -1,8 +1,6 @@
 #!/usr/bin/env perl
-use v5.24;
-use warnings;
-use experimental 'signatures';
-no warnings 'experimental::signatures';
+use v5.36;
+
 sub middle_three_digits ($x) {
    die "not an integer\n" unless $x =~ m{\A(?: 0 | -? [1-9]\d* )\z}mxs;
    $x = -$x if $x < 0;
