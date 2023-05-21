@@ -1,9 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-
-use warnings;
-use feature qw(say);
+use v5.36;
 
 my(@sum_pf,@primes); ## Caches of digit sums of factors of $N
 

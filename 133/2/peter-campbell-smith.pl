@@ -1,15 +1,5 @@
 #!/usr/bin/env perl
-
-# Peter Campbell Smith - 2021-10-05
-# PWC 133 task 2
-
-use strict;
-use warnings;
-
-# Find the first 10 Smith numbers.
-
-# A Smith number is not prime and the sum of its digits equals the sum of
-# the digits of its prime factors.
+use v5.36;
 
 my ($j, $sd_of_number, @prime_factors, $k, $sd_of_prime_factors, $count, @sieve);
 

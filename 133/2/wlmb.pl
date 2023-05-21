@@ -1,10 +1,6 @@
 #!/usr/bin/env perl
-# Perl weekly challenge 133
-# Task 2: Smith numbers
-#
-# See https://wlmb.github.io/2021/10/06/PWC133/#task-2-smith-numbers
-use v5.12;
-use warnings;
+use v5.36;
+
 use POSIX qw(floor);
 use Math::Prime::Util qw(is_prime factor);
 use List::Util qw(sum0);

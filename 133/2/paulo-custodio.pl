@@ -1,19 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-# Challenge 133
-#
-# TASK #2 > Smith Numbers
-# Submitted by: Mohammad S Anwar
-# Write a script to generate first 10 Smith Numbers in base 10.
-#
-# According to Wikipedia:
-#
-# In number theory, a Smith number is a composite number for which, in a given
-# number base, the sum of its digits is equal to the sum of the digits in its
-# prime factorization in the given number base.
-#
-
-use Modern::Perl;
 use ntheory 'factor', 'is_prime';
 use List::Util 'sum';
 

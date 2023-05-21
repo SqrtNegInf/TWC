@@ -1,9 +1,6 @@
 #!/usr/bin/env perl
-# The Weekly Challenge 133
-# Task 2: Find the first 10 base-10 Smith number
-# an example from Wikipedia: 4937775 = 3^1 5^2 658371
-use v5.12.0;
-use warnings;
+use v5.36;
+
 use List::Util qw/sum/;
 
 my $max_search = $ARGV[0] || 999;

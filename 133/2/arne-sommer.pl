@@ -1,13 +1,7 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-use feature 'say';
-use feature 'signatures';
+use v5.36;
 
 use Math::Prime::Util qw/is_prime/;
-
-no warnings qw(experimental::signatures);
 
 my $n = $ARGV[0] // 10;
 

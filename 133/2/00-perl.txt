@@ -33,16 +33,10 @@ done
 ===> 133/2/dave-jacoby.pl <===
 4, 22, 27, 58, 85, 94, 121, 166, 202, 265
  
-===> 133/2/duncan-c-white.pl <===
-4,22,27,58,85,94,121,166,202,265,
- 
 ===> 133/2/e-choroba.pl <===
 # Seeded srand with seed '1234' from import arg.
 1..1
 ok 1
- 
-===> 133/2/jaldhar-h-vyas.pl <===
-4, 22, 27, 58, 85, 94, 121, 166, 202, 265
  
 ===> 133/2/james-smith.pl <===
 4
@@ -55,15 +49,6 @@ ok 1
 166
 202
 265
- 
-===> 133/2/jo-37.pl <===
-# Seeded srand with seed '1234' from import arg.
-ok 1 - Smith's phone number
-ok 2 - 22(10)
-ok 3 - 22(16)
-ok 4 - counter example
-ok 5 - excluded prime
-1..5
  
 ===> 133/2/laurent-rosenfeld.pl <===
 4 22 27 58 85 94 121 166 202 265
@@ -81,18 +66,6 @@ ok 5 - excluded prime
 274 is a Smith number
  
 ===> 133/2/paulo-custodio.pl <===
-4
-22
-27
-58
-85
-94
-121
-166
-202
-265
- 
-===> 133/2/pete-houston.pl <===
 4
 22
 27
@@ -133,9 +106,6 @@ Smith number 10 is 265
 ok 1 - example 1
  
 ===> 133/2/sgreen.pl <===
-4, 22, 27, 58, 85, 94, 121, 166, 202, 265
- 
-===> 133/2/ulrich-rieke.pl <===
 4, 22, 27, 58, 85, 94, 121, 166, 202, 265
  
 ===> 133/2/wlmb.pl <===

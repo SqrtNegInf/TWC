@@ -1,11 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-# Weekly Challenge 131 Task #2
-# Write a script to generate first 10 Smith Numbers in base 10.
-
-
-use strict;
-use warnings;
 use List::Util 'sum';
 
 my $number; 
