@@ -1,15 +1,5 @@
 #!/usr/bin/env perl
-
-# Challenge 134
-#
-# TASK #2 > Distinct Terms Count
-# Submitted by: Mohammad S Anwar
-# You are given 2 positive numbers, $m and $n.
-#
-# Write a script to generate multiplication table and display count of distinct
-# terms.
-
-use Modern::Perl;
+use v5.36;
 
 my($m, $n) = (5, 5);
 my %terms;

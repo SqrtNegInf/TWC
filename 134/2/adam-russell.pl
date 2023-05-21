@@ -1,11 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use strict;
-use warnings;
-##
-# You are given 2 positive numbers, $m and $n.
-# Write a script to generate multiplcation table and display count of distinct terms.
-##
 sub compute_print {
     my ( $m, $n ) = @_;
     my $distinct = {};

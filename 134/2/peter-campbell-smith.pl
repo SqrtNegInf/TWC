@@ -1,15 +1,5 @@
 #!/usr/bin/env perl
-
-# Peter Campbell Smith - 2021-10-13
-# PWC 134 task 2
-
-# You are given 2 positive numbers, $m and $n.
-# Write a script to generate multiplication table and display count of distinct terms.
-
-# Formatting the output is probably the hardest aspect of this challenge!
-
-use strict;
-use warnings;
+use v5.36;
 
 my ($m, $n, $col_width, $j, $k, $term, %terms, $line, $count) = (5, 5);
 

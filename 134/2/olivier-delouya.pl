@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use strict;
 my ($m, $n)= (5, 5);
 my $w = length($m*$n)+1;
 print 'x | 1';

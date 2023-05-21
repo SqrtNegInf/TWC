@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-use v5.24;
-use warnings;
-use experimental 'signatures';
-no warnings 'experimental::signatures';
+use v5.36;
 
 sub distinct_terms_count ($m = 5, $n = 5) {
    my $width          = length($n * $m);

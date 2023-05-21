@@ -1,9 +1,5 @@
 #!/usr/bin/env perl
-# The Weekly Challenge 134
-# Task 2 Distinct Terms Count
-# Usage: $ ch-2.pl m n [optional linewidth, default:256]
-use v5.12.0;
-use warnings;
+use v5.36;
 
 my $m = $ARGV[0] || 5;
 my $n = $ARGV[1] || 5;

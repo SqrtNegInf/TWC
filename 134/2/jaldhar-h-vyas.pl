@@ -1,15 +1,6 @@
 #!/usr/bin/env perl
-use 5.020;
-use warnings;
+use v5.36;
 use English qw/ -no_match_vars /;
-
-sub usage {
-    print<<"-USAGE-";
-Usage:
-  $PROGRAM_NAME <m> <n>
--USAGE-
-    exit 0;
-}
 
 my ($m, $n) = (5, 5);
 

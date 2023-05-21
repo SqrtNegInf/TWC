@@ -1,20 +1,5 @@
 #!/usr/bin/env perl
-#===============================================================================
-#
-#         FILE: 13402.pl
-#
-#        USAGE: ./13402.pl ROWS COLUMNS 
-#
-#  DESCRIPTION: Multiplication table and count of distinct products
-#
-#       AUTHOR: Pete Houston (pete), cpan@openstrike.co.uk
-# ORGANIZATION: Openstrike
-#      VERSION: 1.0
-#      CREATED: 11/10/21
-#===============================================================================
-
-use strict;
-use warnings;
+use v5.36;
 
 my ($r, $c) = (5, 5);
 
