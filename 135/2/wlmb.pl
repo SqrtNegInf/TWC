@@ -1,12 +1,9 @@
 #!/usr/bin/env perl
-# Perl weekly challenge 135
-# Task 2: Validate SEDOL
-#
-# See https://wlmb.github.io/2021/10/20/PWC135/#task-2-validate-sedol
-use v5.12;
-use warnings;
+use v5.36;
+
 use List::Util qw(all sum0);
 use List::MoreUtils qw(pairwise);
+
 my @weights=(1,3,1,7,3,9,1);
 my $i=0;
 my %values=map {$_=> $i++} 0..9,"A".."Z"; # compute weights

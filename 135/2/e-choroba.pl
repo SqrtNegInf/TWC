@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-use warnings;
-use strict;
+use v5.36;
 use experimental 'regex_sets';
 
 my $LENGTH = my @WEIGHTS = (1, 3, 1, 7, 3, 9, 1);

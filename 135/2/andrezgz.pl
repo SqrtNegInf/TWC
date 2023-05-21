@@ -1,27 +1,5 @@
 #!/usr/bin/env perl
-
-# https://theweeklychallenge.org/blog/perl-weekly-challenge-135/
-# Task #2 > Validate SEDOL
-#
-# You are given 7-characters alphanumeric SEDOL.
-#
-# Write a script to validate the given SEDOL. Print 1 if it is a valid SEDOL otherwise 0.
-#
-# For more information about SEDOL, please checkout the wikipedia page (https://en.wikipedia.org/wiki/SEDOL)
-#
-# Example 1
-# Input: $SEDOL = '2936921'
-# Output: 1
-# Example 2
-# Input: $SEDOL = '1234567'
-# Output: 0
-# Example 3
-# Input: $SEDOL = 'B0YBKL9'
-# Output: 1
-
-use strict;
-use warnings;
-use feature 'say';
+use v5.36;
 
 my $sedol = 'B0YBKL9';
 say is_valid($sedol);
@@ -43,14 +21,3 @@ sub is_valid {
 
     return $check == (10 - $sum % 10) % 10 ? 1 : 0;
 }
-
-__END__
-
-./ch-2.pl 2936921
-1
-
-./ch-2.pl 1234567
-0
-
-./ch-2.pl B0YBKL9
-1

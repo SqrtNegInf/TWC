@@ -1,12 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use strict;
-use warnings;
-##
-# You are given 7-characters alphanumeric SEDOL.
-# Write a script to validate the given SEDOL. 
-# Print 1 if it is a valid SEDOL otherwise 0.
-##
 use boolean;
 
 sub is_sedol{

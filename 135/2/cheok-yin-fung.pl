@@ -1,10 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-# The Weekly Challenge 135
-# Task 2 Validate SEDOL
-# Usage: ch-2.pl [SEDOL]
-use v5.12.0;
-use warnings;
 use Test::More tests => 4;
 
 say sedol('B0YBKL9') ? 1 : 0;

@@ -58,9 +58,6 @@ ok 5 - alpha, starts with B
     Output: 1
 
  
-===> 135/2/duncan-c-white.pl <===
-1
- 
 ===> 135/2/e-choroba.pl <===
 # Seeded srand with seed '1234' from import arg.
 1..18
@@ -82,9 +79,6 @@ ok 15 - Rosetta B0YBKR5
 ok 16 - Rosetta 5852842
 ok 17 - Rosetta B0YBKT7
 ok 18 - Rosetta B000300
- 
-===> 135/2/jaldhar-h-vyas.pl <===
-1
  
 ===> 135/2/james-smith.pl <===
 ok 1
@@ -136,13 +130,6 @@ ok 28 - anchor at end / new
 ok 29 - exclude non-ASCII
 1..29
  
-===> 135/2/laurent-rosenfeld.pl <===
-456765: 0
-65AR345: 0
-2936921: 1
-1234567: 0
-B0YBKL9: 1
- 
 ===> 135/2/lubos-kolouch.pl <===
 ok 1
 ok 2
@@ -152,26 +139,6 @@ ok 5
 ok 6
 1..6
  
-===> 135/2/mattneleigh.pl <===
-Input: $SEDOL = '2936921'
-Output: 1
-
-Input: $SEDOL = '1234567'
-Output: 0
-
-Input: $SEDOL = 'B0YBKL9'
-Output: 1
-
-Input: $SEDOL = 'ZZZZZZ0'
-Output: 1
-
-Input: $SEDOL = 'ABCDEF0'
-Output: 0
-
- 
-===> 135/2/paulo-custodio.pl <===
-1
- 
 ===> 135/2/perlboy1967.pl <===
 ok 1
 ok 2
@@ -180,80 +147,10 @@ ok 4
 ok 5
 1..5
  
-===> 135/2/pete-houston.pl <===
-1
- 
-===> 135/2/peter-campbell-smith.pl <===
-
---- VALID ---
-
-Input:  $SEDOL = 0263494
-Output: 1
-
-Input:  $SEDOL = B7S9G98
-Output: 1
-
-Input:  $SEDOL = B1VZ0M2
-Output: 1
-
-Input:  $SEDOL = B12WC93
-Output: 1
-
-Input:  $SEDOL = B6T5S47
-Output: 1
-
-Input:  $SEDOL = BDZWB75
-Output: 1
-
-Input:  $SEDOL = BLGZ986
-Output: 1
-
-Input:  $SEDOL = 0798059
-Output: 1
-
---- INVALID ---
-
-Input:  $SEDOL = BBBBBBB
-Output: 0 (wrong length or invalid chars)
-
-Input:  $SEDOL = CCCCCC
-Output: 0 (wrong length or invalid chars)
-
-Input:  $SEDOL = ZZZZAZ0
-Output: 0 (wrong length or invalid chars)
-
-Input:  $SEDOL = BCDFGH*
-Output: 0 (wrong length or invalid chars)
-
-Input:  $SEDOL = BDZWB76
-Output: 0 (checksum is 411 - not a multiple of 10)
-
-Input:  $SEDOL = 1798059
-Output: 0 (checksum is 141 - not a multiple of 10)
- 
 ===> 135/2/polettix.pl <===
 1
  
-===> 135/2/roger-bell-west.pl <===
-1..5
-ok 1 - example 1
-ok 2 - example 2
-ok 3 - example 3
-ok 4 - example 4
-ok 5 - example 5
- 
-===> 135/2/sgreen.pl <===
-1
- 
-===> 135/2/steven-wilson.pl <===
-1
- 
 ===> 135/2/ulrich-rieke.pl <===
-1
- 
-===> 135/2/wanderdoc.pl <===
-1
-0
 1
  
 ===> 135/2/wlmb.pl <===

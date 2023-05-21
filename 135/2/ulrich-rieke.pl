@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-use strict ;
-use warnings ;
-use feature 'say' ;
+use v5.36;
 
 my $sedol = $ARGV[0] // 'B0YBKL9';
 my $teststring = uc( $sedol ) ;

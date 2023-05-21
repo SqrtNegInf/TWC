@@ -1,10 +1,8 @@
 #!/usr/bin/env perl
+use v5.36;
 
 use strict;
 use warnings;
-
-# just a rewrite of the wiki JS code
-#
 
 sub get_letter_value {
     my $what = shift;

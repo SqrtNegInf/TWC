@@ -1,9 +1,8 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use v5.18;
 use Test2::V0 -srand => 1234;
 use List::MoreUtils 'reduce_0';
-use experimental qw(postderef regex_sets);
 
 our ($tests, $examples) = (1,1);
 
