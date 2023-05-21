@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
+use v5.36;
 
 use Test::More tests => 7;
 use List::Util qw(max);

@@ -1,12 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use strict;
-use warnings;
-##
-# You are given a tree and a node of the given tree.
-# Write a script to find out the distance of the 
-# given node from the root.   
-##
 package Tree129{
     use boolean;  
     use Tie::RefHash;
@@ -69,20 +63,20 @@ package Tree129{
     sub insert{
         my($self, $source, $target) = @_;   
         if(!$self->root()){      
-            $self->root(new Node(value => $source));  
+            $self->root(Node->new(value => $source));  
             tie %{$self->edges()}, "Tie::RefHash";
-            $self->edges($self->root() => [new Node(value => $target)]);          
+            $self->edges($self->root() => [Node->new(value => $target)]);          
         }   
         else{
             my $found = false;
             for my $edge_source (keys %{$self->edges()}){
                 if($edge_source->value() == $source){
-                    push @{$self->edges()->{$edge_source}}, new Node(value => $target);
+                    push @{$self->edges()->{$edge_source}}, Node->new(value => $target);
                     $found = true;
                 }
             }
             if(!$found){
-                $self->edges()->{new Node(value => $source)} = [new Node(value => $target)];
+                $self->edges()->{Node->new(value => $source)} = [Node->new(value => $target)];
             }
         }
     }  
@@ -90,7 +84,7 @@ package Tree129{
 }
 
 package main{
-    my $tree = new Tree129(); 
+    my $tree = Tree129->new(); 
     $tree->insert(1, 2); 
     $tree->insert(1, 3); 
     $tree->insert(3, 4); 

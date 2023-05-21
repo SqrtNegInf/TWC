@@ -93,21 +93,6 @@ ok 9 - no path from a node to the root
 ok 10 - no path between non-root nodes
 1..10
  
-===> 129/1/mattneleigh.pl <===
-Tree 0:
-    Node    Depth
-       6        3
-       5        3
-       2        1
-       4        2
-
-Tree 1:
-    Node    Depth
-       7        3
-       8        4
-       6        3
-
- 
 ===> 129/1/roger-bell-west.pl <===
 1..7
 ok 1 - example 1a

@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-use warnings;
-use strict;
-
-# In a tree. the "root distance" is usually called a "rank".
+use v5.36;
 
 {   package Tree;
     use Moo;
