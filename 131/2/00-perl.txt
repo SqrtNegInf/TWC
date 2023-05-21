@@ -42,26 +42,6 @@ ok 1
 ok 2
 1..2
  
-===> 131/2/mattneleigh.pl <===
-Input:
-    Delimiter pairs: ""[]()
-    Search String: "I like (parens) and the Apple ][+" they said.
-
-Output:
-    "(["
-    ")]"
-
-
-Input:
-    Delimiter pairs: **//<>
-    Search String: /* This is a comment (in some languages) */ <could be a tag>
-
-Output:
-    /**/<
-    /**/>
-
-
- 
 ===> 131/2/peter-campbell-smith.pl <===
 
 Delimiter pairs: ""[]()

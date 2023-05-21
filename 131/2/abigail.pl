@@ -1,24 +1,5 @@
 #!/usr/bin/env perl
-
-use 5.032;
-
-use strict;
-use warnings;
-no  warnings 'syntax';
-
-use experimental 'signatures';
-use experimental 'lexical_subs';
-
-#
-# See ../README.md
-#
-
-#
-# Run as: perl ch-2.pl < input-file
-#
-# First line of input: delimiters
-# Second line of input: string to search
-#
+use v5.36;
 
 #
 # What a strange way of phrasing the exercise. We're given a string

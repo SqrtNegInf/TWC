@@ -1,12 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use v5.10;
-
-# PWC 131 task 1 - Peter Campbell Smith - 2021-09-20
-
-# You are given a sorted list of unique positive integers.
-# Write a script to return list of arrays where the arrays are consecutive integers.
+use v5.36;
 
 my ($delimiter_pairs, $search_string, $openers, $closers);
 

@@ -1,36 +1,7 @@
 #!/usr/bin/env perl
-use strict;
-use warnings FATAL => qw(all);
+use v5.36;
 
-=prompt
-You are given a string of delimiter pairs and a string to search.Write a script to return two strings, the first with any characters matching the “opening character” set, the second with any matching the “closing character” set.
-
-Example 1:
-
-Input:
-    Delimiter pairs: ""[]()
-    Search String: "I like (parens) and the Apple ][+" they said.
-
-Output:
-    "(["
-    ")]"
-
-Example 2:
-
-Input:
-    Delimiter pairs: **//<>
-    Search String: /* This is a comment (in some languages) */ <could be a tag>
-Output:
-    /**/<
-    /**/>
-
-=cut
 use utf8; 
-# The problem is probably to call a string function with a string that can 
-# contain delimiters itself. A possible solution: to have a delimiter at 
-# the quote-like operator that would not occur in the string.
-# Here, the delimiter in the function call is \N{CYRILLIC CAPITAL LETTER HARD SIGN},
-# which is highly unlikely to occur in the following text. :-)
 
 my @pair = find_delimiter(q Ъ""[]()Ъ, q Ъ"I like (parens) and the Apple ][+" they said.Ъ);
 print join($/, @pair), $/;
