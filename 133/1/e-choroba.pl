@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-
-use warnings;
-use strict;
+use v5.36;
 
 sub naive_isqr {
     my ($n) = @_;

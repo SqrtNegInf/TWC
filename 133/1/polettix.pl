@@ -1,8 +1,6 @@
 #!/usr/bin/env perl
-use v5.24;
-use warnings;
-use experimental 'signatures';
-no warnings 'experimental::signatures';
+use v5.36;
+
 sub integer_square_root ($n) {
    return $n if $n < 2;
    my $x = $n >> 1;  # first estimate

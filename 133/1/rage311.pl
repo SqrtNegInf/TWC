@@ -1,9 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use 5.032;
-use warnings;
-use feature 'signatures';
-no warnings 'experimental::signatures';
 use Test::Simple tests => 4;
 
 # TASK #1 › Integer Square Root

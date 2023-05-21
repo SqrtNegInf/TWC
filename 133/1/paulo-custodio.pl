@@ -1,31 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-# Challenge 133
-#
-# TASK #1 > Integer Square Root
-# Submitted by: Mohammad S Anwar
-# You are given a positive integer $N.
-#
-# Write a script to calculate the integer square root of the given number.
-#
-# Please avoid using built-in function. Find out more about it here.
-#
-# Examples
-# Input: $N = 10
-# Output: 3
-#
-# Input: $N = 27
-# Output: 5
-#
-# Input: $N = 85
-# Output: 9
-#
-# Input: $N = 101
-# Output: 10
-
-# solution: https://en.wikipedia.org/wiki/Integer_square_root
-
-use Modern::Perl;
 my $n = shift || 10;
 say isqrt($n);
 

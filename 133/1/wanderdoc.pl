@@ -1,9 +1,7 @@
 #!/usr/bin/env perl
-use strict;
-use warnings FATAL => qw(all);
+use v5.36;
 
 use List::Util qw(reduce);
-
 
 sub nthroot # newton algorithm ch.105
 {

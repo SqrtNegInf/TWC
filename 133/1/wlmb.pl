@@ -1,12 +1,6 @@
 #!/usr/bin/env perl
-# Perl weekly challenge 133
-# Task 1:  integer square root
-#
-# See https://wlmb.github.io/2021/10/06/PWC133/#task-1-integer-square-root
+use v5.36;
 
-use v5.12;
-use warnings;
-use integer;
 say "√$_=", int_sqrt($_) foreach( (10, 9, 5) );
 sub int_sqrt{
     my $x0=my $N=shift;

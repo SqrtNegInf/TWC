@@ -24,9 +24,6 @@ Output: 3 (Newton's method)
 	85	9	9
 	101	10	10
  
-===> 133/1/duncan-c-white.pl <===
-3
- 
 ===> 133/1/e-choroba.pl <===
 # Seeded srand with seed '1234' from import arg.
 1..13
@@ -44,9 +41,6 @@ ok 11 - Same 25
 ok 12 - Same 24
 ok 13 - Same 123456
  
-===> 133/1/jaldhar-h-vyas.pl <===
-3
- 
 ===> 133/1/james-smith.pl <===
 ok 1
 ok 2
@@ -55,47 +49,10 @@ ok 4
 ok 5
 1..5
  
-===> 133/1/jo-37.pl <===
-# Seeded srand with seed '1234' from import arg.
-ok 1 - example 1
-ok 2 - example 2
-ok 3 - example 3
-ok 4 - example 4
-ok 5 - cross check
-1..5
- 
 ===> 133/1/laurent-rosenfeld.pl <===
 85	9
 101	10
 200000000	14142
- 
-===> 133/1/lubos-kolouch.pl <===
-ok 1
-ok 2
-ok 3
-ok 4
-1..4
- 
-===> 133/1/mattneleigh.pl <===
-Input: $N = 10
-Output: 3
-
-Input: $N = 27
-Output: 5
-
-Input: $N = 85
-Output: 9
-
-Input: $N = 101
-Output: 10
-
- 
-===> 133/1/mohammad-anwar.pl <===
-ok 1
-ok 2
-ok 3
-ok 4
-1..4
  
 ===> 133/1/paul-fajman.pl <===
 Integer square root of 10 is 3.
@@ -112,12 +69,6 @@ Integer square root of 101 is 10.
  
 ===> 133/1/pete-houston.pl <===
 Integer square root of 10 is 3
- 
-===> 133/1/peter-campbell-smith.pl <===
-123456 input
-351 answer
-123201 = answer**2
-123904 = (answer + 1)**2
  
 ===> 133/1/polettix.pl <===
 3
@@ -136,19 +87,6 @@ ok 2 - example 1
 ok 3 - example 1
 ok 4 - example 1
  
-===> 133/1/sgreen.pl <===
-3
- 
-===> 133/1/steven-wilson.pl <===
-ok 1 - test 1
-ok 2 - test 2
-ok 3 - test 3
-ok 4 - test 4
-1..4
- 
-===> 133/1/ulrich-rieke.pl <===
-3
- 
 ===> 133/1/wanderdoc.pl <===
 3
 5
@@ -157,6 +95,6 @@ ok 4 - test 4
 18
  
 ===> 133/1/wlmb.pl <===
-√10=3
+√10=3.16227766016838
 √9=3
-√5=2
+√5=2.23606797749979

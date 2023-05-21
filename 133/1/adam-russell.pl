@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-    
-        use strict;
-        use warnings;
-    
+use v5.36;
     
         sub nth_root{
             my($n, $k) = @_;

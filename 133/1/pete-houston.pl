@@ -1,25 +1,7 @@
 #!/usr/bin/env perl
-#===============================================================================
-#
-#         FILE: 13301.pl
-#
-#        USAGE: ./13301.pl N [ N ... ] 
-#
-#  DESCRIPTION: Print the integer square root(s) of the argument(s)
-#
-#       AUTHOR: Pete Houston (pete), cpan@openstrike.co.uk
-# ORGANIZATION: Openstrike
-#      VERSION: 1.0
-#      CREATED: 04/10/21
-#===============================================================================
+use v5.36;
 
-use strict;
-use warnings;
-
-#while (my $sq = shift) {
-#	next if $sq =~ /[^0-9]/;
-	print "Integer square root of 10 is " . isqrt (10) . "\n";
-#
+print "Integer square root of 10 is " . isqrt (10) . "\n";
 
 # Woo's Abacus method
 sub isqrt {
