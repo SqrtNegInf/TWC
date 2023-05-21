@@ -1,15 +1,5 @@
 #!/usr/bin/env perl
-
-# Perl Weekly Challenge - 131
-# - https://perlweeklychallenge.org/blog/perl-weekly-challenge-131/#TASK1
-#
-# Task 1 - Consecutive Arrays
-#
-# Author: Niels 'PerlBoy' van Dijke
-
-use v5.16;
-use strict;
-use warnings;
+use v5.36;
 
 use List::MoreUtils qw(slide);
 
@@ -28,7 +18,7 @@ done_testing;
 sub consecutiveArrays {
   my @r = ([]);
 
-  no warnings 'once';
+  #no warnings 'once';
   slide { 
     push(@{$r[-1]}, $a);
     push(@r, []) if ($a != $b - 1);

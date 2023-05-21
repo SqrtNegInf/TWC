@@ -1,14 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use v5.10;
-
-# PWC 131 task 2 - Peter Campbell Smith - 2021-09-20
-
-# You are given a string of delimiter pairs and a string to search.
-
-# Write a script to return two strings, the first with any characters matching
-# the “opening character” set, the second with any matching the “closing character” set.
+use v5.36;
 
 my $input;
 

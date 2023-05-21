@@ -1,9 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-use feature qw{ say postderef signatures };
-no warnings qw{ experimental };
+use v5.36;
 
 my @examples;
 push @examples, [ 1,  2,  3,  6,  7,  8, 9 ];

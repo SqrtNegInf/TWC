@@ -1,12 +1,7 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use strict;
-
-use warnings;
-use feature qw(say);
 use Test::More;
-use Benchmark qw(cmpthese timethis);
-use Data::Dumper qw(Dumper);
 
 my @TESTS = (
   [ [qw(1 2 3 6 7 8 9)] ,    '([1, 2, 3], [6, 7, 8, 9])'      ],

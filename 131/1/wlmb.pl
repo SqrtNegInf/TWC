@@ -1,10 +1,6 @@
 #!/usr/bin/env perl
-# Perl weekly challenge 131
-# Task 1:  Consecutive arrays
-#
-# See https://wlmb.github.io/2021/09/21/PWC131/#task-1-consecutive-arrays
-use v5.12;
-use warnings;
+use v5.36;
+
 my @A = (1, 2, 3, 6, 7, 8, 9);
 
 say "Input: (", join(", ", @A),")\nOutput: ([",

@@ -3,12 +3,6 @@
 1 2 3
 6 7 8 9
  
-===> 131/1/adam-russell.pl <===
-([1, 2, 3], [6 .. 9])
-([11, 12], [14], [17, 18, 19])
-([2], [4], [6], [8])
-[1 .. 5]
- 
 ===> 131/1/arne-sommer.pl <===
 ([1, 2, 3], [6, 7, 8, 9])
  
@@ -42,21 +36,6 @@ output ([1, 2, 3, 4, 5])
 
 
  
-===> 131/1/cybersnyder.pl <===
-$VAR1 = [
-          [
-            1,
-            2,
-            3
-          ],
-          [
-            6,
-            7,
-            8,
-            9
-          ]
-        ];
- 
 ===> 131/1/dave-jacoby.pl <===
     Input:  ( 1, 2, 3, 6, 7, 8, 9 )
     Output: ( [1, 2, 3], [6, 7, 8, 9] )
@@ -71,17 +50,6 @@ $VAR1 = [
     Output: ( [1, 2, 3, 4, 5] )
 
  
-===> 131/1/duncan-c-white.pl <===
-([1, 2, 3], [6, 7, 8, 9])
- 
-===> 131/1/e-choroba.pl <===
-# Seeded srand with seed '1234' from import arg.
-1..4
-ok 1 - Example 1
-ok 2 - Example 2
-ok 3 - Example 3
-ok 4 - Example 4
- 
 ===> 131/1/james-smith.pl <===
 ok 1
 ok 2
@@ -93,47 +61,11 @@ ok 4
   2 4 6 9            -> ([2], [4], [6], [9])
   1 2 3 4 5          -> ([1, 2, 3, 4, 5])
  
-===> 131/1/jo-37.pl <===
-# Seeded srand with seed '1234' from import arg.
-ok 1 - example 1
-ok 2 - example 2
-ok 3 - example 3
-ok 4 - example 4
-ok 5 - single value
-1..5
- 
-===> 131/1/laurent-rosenfeld.pl <===
-( [1 2 3] [6 7 8 9] )
-( [11 12] [14] [17 18 19] )
-( [2] [4] [6] [8] )
-( [1 2 3 4 5] )
- 
 ===> 131/1/lubos-kolouch.pl <===
 ok 1
 ok 2
 ok 3
 ok 4
-1..4
- 
-===> 131/1/mattneleigh.pl <===
-Input: (1, 2, 3, 6, 7, 8, 9)
-Output: ([1, 2, 3], [6, 7, 8, 9])
-
-Input: (11, 12, 14, 17, 18, 19)
-Output: ([11, 12], [14], [17, 18, 19])
-
-Input: (2, 4, 6, 8)
-Output: ([2], [4], [6], [8])
-
-Input: (1, 2, 3, 4, 5)
-Output: ([1, 2, 3, 4, 5])
-
- 
-===> 131/1/mohammad-anwar.pl <===
-ok 1 - Example 1
-ok 2 - Example 2
-ok 3 - Example 3
-ok 4 - Example 4
 1..4
  
 ===> 131/1/paulo-custodio.pl <===
@@ -173,67 +105,6 @@ ok 2 - example 2
 ok 3 - example 3
 ok 4 - example 4
  
-===> 131/1/sgreen.pl <===
-([1, 2, 3], [6, 7, 8, 9])
- 
-===> 131/1/wanderdoc.pl <===
-[1, 2, 3], [6, 7, 8, 9]
-[2], [4], [6], [8], [10]
-[11, 12], [14], [17, 18, 19]
-[1, 2, 3, 4, 5]
- 
 ===> 131/1/wlmb.pl <===
 Input: (1, 2, 3, 6, 7, 8, 9)
 Output: ([1, 2, 3], [6, 7, 8, 9])
- 
-===> 131/1/ziruzavar.pl <===
-$VAR1 = [
-          [
-            1,
-            2,
-            3
-          ],
-          [
-            6,
-            7,
-            8,
-            9
-          ]
-        ];
-$VAR1 = [
-          [
-            11,
-            12
-          ],
-          [
-            14
-          ],
-          [
-            17,
-            18,
-            19
-          ]
-        ];
-$VAR1 = [
-          [
-            2
-          ],
-          [
-            4
-          ],
-          [
-            6
-          ],
-          [
-            8
-          ]
-        ];
-$VAR1 = [
-          [
-            1,
-            2,
-            3,
-            4,
-            5
-          ]
-        ];

@@ -1,20 +1,11 @@
 #!/usr/bin/env perl
-# The Weekly Challenge 131
-# Task 1 Consecutive Arrays
-# Usage: ch-1.pl @array
-use warnings;
-use v5.24.0;
-use Data::Dumper;
+use v5.36;
+
 use Test::More tests => 4;
 use Test::Deep;
 
 my @arr = (1, 2, 3, 5, 6, 7, 9, 10, 11, 13, 15);
 @arr = @ARGV if defined($ARGV[0]);
-
-# $Data::Dumper::Indent = 0;
-# $Data::Dumper::Terse = 1;
-# say Dumper @{consec(@arr)};
-#   DEFAULT OUTPUT: [1,2,3][5,6,7][9,10,11][13][15]
 
 my @ans_str;
 for (@{consec(@arr)}) {

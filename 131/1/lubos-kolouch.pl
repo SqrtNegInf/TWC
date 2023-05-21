@@ -1,19 +1,5 @@
 #!/usr/bin/env perl
-#===============================================================================
-#
-#         FILE: ch-1.pl
-#
-#        USAGE: ./ch-1.pl  
-#
-#  DESCRIPTION: The Weekly Challenge 131
-#               Task 1 - Consecutive Arrays
-#
-#       AUTHOR: Lubos Kolouch
-#      CREATED: 09/25/2021 10:07:38 AM
-#===============================================================================
-
-use strict;
-use warnings;
+use v5.36;
 
 sub get_arrays {
     my @what = @_;
