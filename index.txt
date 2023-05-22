@@ -454,8 +454,8 @@ Challenge titles and Rosetta-code correspondences (exact, and otherwise)
 216-2 Word Stickers
 217-1 Sorted Matrix
 217-2 Max Number
-218-1
-218-2
+218-1 Maximum Product
+218-2 Matrix Score
 219-1
 219-2
 
