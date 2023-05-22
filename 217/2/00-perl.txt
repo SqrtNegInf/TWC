@@ -1,0 +1,189 @@
+ 
+===> 217/2/aut0exec.pl <===
+Output: 65341511320
+ 
+===> 217/2/bob-lied.pl <===
+ 
+===> 217/2/bruce-gray.pl <===
+1..10
+ok 1
+ok 2
+ok 3
+ok 4
+ok 5
+ok 6
+ok 7
+ok 8
+ok 9
+ok 10
+ 
+===> 217/2/deadmarshal.pl <===
+231
+3210
+431210
+542111
+110
+ 
+===> 217/2/e-choroba.pl <===
+1..27
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ok 4 - Example 4
+ok 5 - Example 5
+ok 6 - t 53 531
+ok 7 - t 531 53
+ok 8 - t 53 535
+ok 9 - t 535 53
+ok 10 - t 53 536
+ok 11 - t 536 53
+ok 12 - t 4567+3
+ok 13 - t 4567+4
+ok 14 - t 4567+5
+ok 15 - t 4567+3 rev
+ok 16 - t 4567+4 rev
+ok 17 - t 4567+5 rev
+ok 18 - recursion <
+ok 19 - recursion =
+ok 20 - recursion >
+ok 21 - recursion < rev
+ok 22 - recursion = rev
+ok 23 - recursion > rev
+ok 24 - repeated <
+ok 25 - repeated =
+ok 26 - repeated >
+ok 27 - bug
+ 
+===> 217/2/james-smith.pl <===
+ok 1
+ok 2
+ok 3
+ok 4
+ok 5
+ok 6
+ok 7
+ok 8
+ok 9
+ok 10
+ok 11
+ok 12
+ok 13
+ok 14
+1..14
+ 
+===> 217/2/jo-37.pl <===
+# Seeded srand with seed '1' from import arg.
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ok 4 - example 4
+ok 5 - example 5
+1..5
+ 
+===> 217/2/laurent-rosenfeld.pl <===
+1 23            => 231
+10 3 2          => 3210
+31 2 4 10       => 431210
+5 11 4 1 2      => 542111
+1 10            => 110
+10 1            => 110
+1 10            => 110
+1 100           => 1100
+100 1           => 1100
+ 
+===> 217/2/lubos-kolouch.pl <===
+231
+3210
+431210
+542111
+110
+ 
+===> 217/2/manfredi.pl <===
+Input: @list = (1, 23)
+Output: 231
+
+Input: @list = (10, 3, 2)
+Output: 3210
+
+Input: @list = (31, 2, 4, 10)
+Output: 431210
+
+Input: @list = (5, 11, 4, 1, 2)
+Output: 542111
+
+Input: @list = (1, 10)
+Output: 101
+
+ 
+===> 217/2/perlboy1967.pl <===
+ok 1
+ok 2
+ok 3
+ok 4
+ok 5
+1..5
+ 
+===> 217/2/peter-campbell-smith.pl <===
+
+Input: (1, 23)
+Output: 231
+
+Input: (10, 3, 2)
+Output: 3210
+
+Input: (31, 2, 4, 10)
+Output: 431210
+
+Input: (5, 11, 4, 1, 2)
+Output: 542111
+
+Input: (1, 10)
+Output: 110
+
+Input: (9900, 1, 99, 88)
+Output: 999900881
+
+Input: (47, 53, 99, 82, 9, 21, 36, 76, 77)
+Output: 99982777653473621
+ 
+===> 217/2/ribtips.pl <===
+Output: 231
+Output: 3210
+Output: 431210
+Output: 542111
+Output: 110
+ 
+===> 217/2/robert-dicicco.pl <===
+Input: @list = [5 11 4 1 2]
+Output: 542111
+
+Input: @list = [31 2 4 10]
+Output: 431210
+
+Input: @list = [10 3 2]
+Output: 3210
+
+Input: @list = [1 23]
+Output: 231
+
+Input: @list = [1 10]
+Output: 110
+
+ 
+===> 217/2/roger-bell-west.pl <===
+1..5
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ok 4 - example 4
+ok 5 - example 5
+ 
+===> 217/2/rozcovo.pl <===
+431210
+ 
+===> 217/2/solathian.pl <===
+231
+3210
+431210
+542111
+110

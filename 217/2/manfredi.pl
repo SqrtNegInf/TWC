@@ -2,24 +2,6 @@
 
 use v5.36;
 
-say "challenge-217-task2";
-
-# Task 2: Max Number
-# You are given a list of positive integers.
-# Write a script to concatenate the integers to form the highest possible value.
-
-# Example 1
-# Input: @list = (1, 23)
-# Output: 231
-
-# Example 2
-# Input: @list = (10, 3, 2)
-# Output: 3210
-
-# Example 3
-# Input: @list = (31, 2, 4, 10)
-# Output: 431210
-
 sub max_number {
     my @list = @{+shift};
     $" = ', ';

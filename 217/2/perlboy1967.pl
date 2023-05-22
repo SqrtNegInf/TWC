@@ -1,21 +1,5 @@
 #!/usr/bin/env perl
 
-=pod
-
-The Weekly Challenge - 217
-- https://theweeklychallenge.org/blog/perl-weekly-challenge-217
-
-Author: Niels 'PerlBoy' van Dijke
-
-Task 2: Max Number
-Submitted by: Mohammad S Anwar
-
-You are given a list of positive integers.
-
-Write a script to concatenate the integers to form the highest possible value.
-
-=cut
-
 use v5.16;
 
 use common::sense;

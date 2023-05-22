@@ -1,14 +1,4 @@
 #!/usr/bin/env perl
-#
-# Author:   Aut0exec
-#
-# You are given a list of positive integers.
-# Write a script to concatenate the integers to form the highest possible value.
-# Example 1:
-#	Input: @list = (1, 23)
-#	Output: 231
-#
-########################################################################
 
 use strict;
 use warnings;

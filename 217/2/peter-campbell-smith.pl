@@ -1,9 +1,8 @@
 #!/usr/bin/env perl
 
-use v5.16;    # The Weekly Challenge - 2023-05-15
-use utf8;     # Week 217 task 2 - Max number
-use strict;   # Peter Campbell Smith
-use warnings; # Blog: http://ccgi.campbellsmiths.force9.co.uk/challenge
+use v5.16;
+use strict;
+use warnings;
 
 max_number(1, 23);
 max_number(10, 3, 2);

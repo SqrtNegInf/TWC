@@ -4,8 +4,6 @@ use strict;
 use warnings;
 use feature qw(say);
 use Test::More;
-use Benchmark qw(cmpthese);
-use Data::Dumper qw(Dumper);
 
 my @TESTS = (
  [ [1,23],231],
@@ -24,9 +22,3 @@ sub max_number_n    { join '', sort { $b.$a <=> $a.$b } @_ }
 is( max_number( @{$_->[0]} )       , $_->[1] ) for @TESTS;
 is( max_number_n( @{$_->[0]} )       , $_->[1] ) for @TESTS;
 done_testing();
-
-cmpthese( 5_000_000, {
-  'cmp' => sub { max_number(    @{$_->[0]} ) for @TESTS },
-  '<=>' => sub { max_number_n(  @{$_->[0]} ) for @TESTS },
-});
-

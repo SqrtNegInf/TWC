@@ -1,10 +1,9 @@
 #!/usr/bin/env perl
-# https://theweeklychallenge.org/blog/perl-weekly-challenge-217/#TASK2
 use v5.36;
+
 sub task2 ( @integers ) {
     return join '', sort { "$b$a" <=> "$a$b" } @integers;
 }
-
 
 my @tests = (
     [    231, [1, 23]          ],

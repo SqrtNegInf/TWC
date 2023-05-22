@@ -1,18 +1,4 @@
 #!/usr/bin/env perl
-# vim:set ts=4 sw=4 sts=4 et ai wm=0 nu:
-#=============================================================================
-# ch-2.pl Perl Weekly Challenge Task 2 Max Number 
-#=============================================================================
-# Copyright (c) 2023, Bob Lied
-#=============================================================================
-# You are given a list of positive integers.
-# Write a script to concatenate the integers to form the highest possible value.
-# Example 1: Input: @list = (1, 23), 231
-# Example 2: Input: @list = (10, 3, 2), 3210
-# Example 3: Input: @list = (31, 2, 4, 10), 431210
-# Example 4: Input: @list = (5, 11, 4, 1, 2), 542111
-# Example 5: Input: @list = (1, 10), 110
-#=============================================================================
 
 use v5.36;
 
