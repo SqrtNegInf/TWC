@@ -1,4 +1,5 @@
 #!/usr/bin/env raku
+
 sub task1 ( @m ) { @m[*;*].sort.[2] }
 
 sub task1_alternate ( @m ) {
@@ -24,6 +25,8 @@ plan +@tests;
 for @tests -> ( $expected, @in ) {
     is task1(@in), $expected;
 }
+
+=finish
 
 {
     my @ones = (1 xx 1000) xx 1000;

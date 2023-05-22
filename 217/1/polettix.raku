@@ -1,9 +1,8 @@
 #!/usr/bin/env raku
-use v6;
-sub MAIN (*@rows) {
-   my @matrix = @rows.map({ [ .split(/ \s* \, \s* /)».Int ] });
-   put third-smallest(@matrix);
-}
+
+
+my @matrix = ([3, 1, 2], [5, 2, 4], [0, 1, 3]);
+put third-smallest(@matrix);
 
 sub third-smallest (@matrix) {
    my @three-smallest;

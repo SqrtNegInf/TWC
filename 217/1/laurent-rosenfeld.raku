@@ -1,4 +1,5 @@
 #!/usr/bin/env raku
+
 sub find-third-smallest (@matrix) {
     return (flat map {.flat}, @matrix).sort[2];
 }
