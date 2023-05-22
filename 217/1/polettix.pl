@@ -1,6 +1,7 @@
 #!/usr/bin/env perl
 use v5.24;
 use warnings;
+no warnings 'uninitialized';
 
 my @matrix = map { [ split m{\s*,\s*}mxs ] } @ARGV;
 say third_smallest(@matrix);

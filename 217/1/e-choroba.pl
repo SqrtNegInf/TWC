@@ -37,21 +37,4 @@ use Test::More tests => 3 + 1;
 is sorted_matrix([[3, 1, 2], [5, 2, 4], [0, 1, 3]]), 1, 'Example 1';
 is sorted_matrix([[2, 1], [4, 5]]), 4, 'Example 2';
 is sorted_matrix([[1, 0, 3], [0, 0, 0], [1, 2, 1]]), 0, 'Example 3';
-
-use Benchmark qw{ cmpthese };
-my $size = 1000;
-my @m = map [map int rand 1_000_000, 1 .. $size], 1 .. $size;
-
-is sorted_matrix(\@m), sorted_matrix_sliding_window(\@m), 'same';
-
-cmpthese(-10, {
-    window => sub { sorted_matrix_sliding_window(\@m) },
-    sorted => sub { sorted_matrix(\@m) },
-});
-
-__END__
-Interestingly, sorting the whole array is faster than using the sliding window.
-
-         Rate window sorted
-window 3.04/s     --   -31%
-sorted 4.44/s    46%     --
+is sorted_matrix_sliding_window([[1, 0, 3], [0, 0, 0], [1, 2, 1]]), 0, 'Example 3x';

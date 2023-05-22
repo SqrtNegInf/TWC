@@ -1,14 +1,4 @@
 #!/usr/bin/env perl
-# vim:set ts=4 sw=4 sts=4 et ai wm=0 nu:
-#=============================================================================
-# ch-1.pl Perl Weekly Challenge Task 1 Sorted Matrix 
-#=============================================================================
-# Copyright (c) 2023, Bob Lied
-#=============================================================================
-# You are given a n x n matrix where n >= 2.
-# Write a script to find 3rd smallest element in the sorted matrix. 
-#=============================================================================
-
 use v5.36;
 
 use Getopt::Long;
@@ -16,7 +6,7 @@ my $Verbose = 0;
 my $DoTest  = 0;
 
 GetOptions("test" => \$DoTest, "verbose" => \$Verbose);
-exit(!runTest()) if $DoTest;
+runTest(); exit;
 
 sub thirdSmallest($matrix)
 {

@@ -1,9 +1,8 @@
 #!/usr/bin/env perl
 
-use v5.16;    # The Weekly Challenge - 2023-05-15
-use utf8;     # Week 216 task 1 - Sorted matrix
-use strict;   # Peter Campbell Smith
-use warnings; # Blog: http://ccgi.campbellsmiths.force9.co.uk/challenge
+use v5.16;
+use strict;
+use warnings;
 
 sorted_matrix([3, 1, 2], [5, 2, 4], [0, 1, 3]);
 sorted_matrix([2, 1], [4, 5]);

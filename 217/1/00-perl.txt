@@ -1,0 +1,122 @@
+ 
+===> 217/1/athanasius.pl <===
+
+Challenge 217, Task #1: Sorted Matrix (Perl)
+
+Running the test suite
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ok 4 - Negatives
+1..4
+ 
+===> 217/1/aut0exec.pl <===
+The sorted list of the given matrix: 0 1 2 2 3 3 3 4 4 5 6 9
+The 3rd smallest of the sorted list is 2
+ 
+===> 217/1/avery-adams.pl <===
+1
+4
+0
+ 
+===> 217/1/bob-lied.pl <===
+# Seeded srand with seed '20230522' from local date.
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+1..3
+ 
+===> 217/1/bruce-gray.pl <===
+1..3
+ok 1
+ok 2
+ok 3
+ 
+===> 217/1/deadmarshal.pl <===
+1
+4
+0
+ 
+===> 217/1/e-choroba.pl <===
+1..4
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ok 4 - Example 3x
+ 
+===> 217/1/james-smith.pl <===
+ok 1
+ok 2
+ok 3
+ok 4
+ok 5
+ok 6
+ok 7
+ok 8
+ok 9
+ok 10
+ok 11
+ok 12
+ok 13
+ok 14
+ok 15
+ok 16
+ok 17
+ok 18
+ok 19
+ok 20
+ok 21
+ok 22
+ok 23
+ok 24
+1..24
+ 
+===> 217/1/laurent-rosenfeld.pl <===
+[3 1 2] [5 2 4] [0 1 3]  => 1
+[2 1] [4 5]  => 4
+[1 0 3] [0 0 0] [1 2 1]  => 0
+ 
+===> 217/1/lubos-kolouch.pl <===
+1
+4
+0
+ 
+===> 217/1/perlboy1967.pl <===
+ok 1
+ok 2
+ok 3
+ok 4
+ok 5
+1..5
+ 
+===> 217/1/peter-campbell-smith.pl <===
+
+Input:  @matrix = ([3, 1, 2], [5, 2, 4], [0, 1, 3])
+Output: 1
+
+Input:  @matrix = ([2, 1], [4, 5])
+Output: 4
+
+Input:  @matrix = ([1, 0, 3], [0, 0, 0], [1, 2, 1])
+Output: 0
+
+Input:  @matrix = ([1, 2, 3, 4, 5], [3, 4, 5, 6, 7], [9, 8, 7, 6, 5], [0, 2, 4, 6, 8], [9, 7, 5, 3, 1])
+Output: 1
+ 
+===> 217/1/peter-meszaros.pl <===
+ok 1 - [[3, 1, 2], [5, 2, 4], [0, 1, 3]]
+ok 2 - [[2, 1], [4, 5]]
+ok 3 - [[1, 0, 3], [0, 0, 0], [1, 2, 1]]
+1..3
+ 
+===> 217/1/polettix.pl <===
+
+ 
+===> 217/1/robert-dicicco.pl <===
+Input: @matrix = 312524013 
+Output: 1
+ 
+===> 217/1/solathian.pl <===
+1
+4
+0

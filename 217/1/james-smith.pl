@@ -4,8 +4,6 @@ use strict;
 use warnings;
 use feature qw(say);
 use Test::More;
-use Benchmark qw(cmpthese);
-use Data::Dumper qw(Dumper);
 
 my @TESTS = (
  [ [[2,1],[4,5]],4],
@@ -123,46 +121,3 @@ is( sorted_matrix_x(  @{$_->[0]} ) , $_->[1] ) for @TESTS;
 is( sorted_matrix_xx( @{$_->[0]} ) , $_->[1] ) for @TESTS;
 
 done_testing();
-
-warn "ALL";
-cmpthese( -2, {
-  'sort' => sub { sorted_matrix(    @{$_->[0]} ) for @TESTS },
-  'cmp'  => sub { sorted_matrix_x(  @{$_->[0]} ) for @TESTS },
-  'nest' => sub { sorted_matrix_xx( @{$_->[0]} ) for @TESTS },
-});
-warn "30";
-cmpthese( -2, {
-  'sort' => sub { sorted_matrix(    @{$_->[0]} ) for @TESTS[6] },
-  'cmp'  => sub { sorted_matrix_x(  @{$_->[0]} ) for @TESTS[6] },
-  'nest' => sub { sorted_matrix_xx( @{$_->[0]} ) for @TESTS[6] },
-});
-warn "20";
-cmpthese( -2, {
-  'sort' => sub { sorted_matrix(    @{$_->[0]} ) for @TESTS[7] },
-  'cmp'  => sub { sorted_matrix_x(  @{$_->[0]} ) for @TESTS[7] },
-  'nest' => sub { sorted_matrix_xx( @{$_->[0]} ) for @TESTS[7] },
-});
-warn "10";
-cmpthese( -2, {
-  'sort' => sub { sorted_matrix(    @{$_->[0]} ) for @TESTS[5] },
-  'cmp'  => sub { sorted_matrix_x(  @{$_->[0]} ) for @TESTS[5] },
-  'nest' => sub { sorted_matrix_xx( @{$_->[0]} ) for @TESTS[5] },
-});
-warn "7";
-cmpthese( -2, {
-  'sort' => sub { sorted_matrix(    @{$_->[0]} ) for @TESTS[4] },
-  'cmp'  => sub { sorted_matrix_x(  @{$_->[0]} ) for @TESTS[4] },
-  'nest' => sub { sorted_matrix_xx( @{$_->[0]} ) for @TESTS[4] },
-});
-warn "5";
-cmpthese( -2, {
-  'sort' => sub { sorted_matrix(    @{$_->[0]} ) for @TESTS[3] },
-  'cmp'  => sub { sorted_matrix_x(  @{$_->[0]} ) for @TESTS[3] },
-  'nest' => sub { sorted_matrix_xx( @{$_->[0]} ) for @TESTS[3] },
-});
-warn "2/3";
-cmpthese( -2, {
-  'sort' => sub { sorted_matrix(    @{$_->[0]} ) for @TESTS[0..2] },
-  'cmp'  => sub { sorted_matrix_x(  @{$_->[0]} ) for @TESTS[0..2] },
-  'nest' => sub { sorted_matrix_xx( @{$_->[0]} ) for @TESTS[0..2] },
-});

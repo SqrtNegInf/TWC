@@ -1,21 +1,5 @@
 #!/usr/bin/env perl
 
-=pod
-
-The Weekly Challenge - 217
-- https://theweeklychallenge.org/blog/perl-weekly-challenge-217
-
-Author: Niels 'PerlBoy' van Dijke
-
-Task 1: Sorted Matrix
-Submitted by: Mohammad S Anwar
-
-You are given a n x n matrix where n >= 2.
-
-Write a script to find 3rd smallest element in the sorted matrix.
-
-=cut
-
 use v5.16;
 
 use common::sense;
