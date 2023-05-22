@@ -1,5 +1,3 @@
 #!/usr/bin/env raku
 
-unit sub MAIN(*@N);
-
-put @N.permutations».join.max;
+put (31, 2, 4, 10).permutations».join.max;

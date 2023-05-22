@@ -1,2 +1,2 @@
 #!/usr/bin/env raku
-@*ARGS.sort({"$^b$^a".Int <=> "$^a$^b".Int}).join('').put;
+(31, 2, 4, 10).sort({"$^b$^a".Int <=> "$^a$^b".Int}).join('').put;

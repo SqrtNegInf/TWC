@@ -1,29 +1,5 @@
 #!/usr/bin/env raku
-# :vim ft=raku sw=4 expandtab  # 🦋 ∅∪∩∋∈∉ ≡ ≢ «␤ » ∴
-use v6.d;
 use Test;
-
-=begin comment
-217-2: Max Number       Submitted by: Mohammad S Anwar
-
-Given a list of positive integers, concatenate the integers to form the highest possible value.
-
-Example 1:
-Input: @list = (1, 23)
-Output: 231
-Example 2:
-Input: @list = (10, 3, 2)
-Output: 3210
-Example 3:
-Input: @list = (31, 2, 4, 10)
-Output: 431210
-Example 4:
-Input: @list = (5, 11, 4, 1, 2)
-Output: 542111
-Example 5:
-Input: @list = (1, 10)
-Output: 110
-=end comment
 
 my @Test-cmp =
     (1      , 1  ),     Same,

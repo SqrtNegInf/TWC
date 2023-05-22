@@ -9,7 +9,7 @@ sub max-number (+@list) {
     andthen .join
 }
 
-multi MAIN (Bool :test($)!) {
+#multi MAIN (Bool :test($)!) {
     use Test;
     is max-number(1, 12, 101), '121101';
     is max-number(1, 23), '231';
@@ -18,8 +18,6 @@ multi MAIN (Bool :test($)!) {
     is max-number(5, 11, 4, 1, 2), '542111';
     is max-number(1,10), '110';
     done-testing;
-}
+#}
 
-multi MAIN (*@list) {
-    say max-number @list
-}
+#multi MAIN (*@list) { say max-number @list }

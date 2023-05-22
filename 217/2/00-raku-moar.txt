@@ -1,0 +1,139 @@
+ 
+===> 217/2/0rir.raku <===
+1..39
+ok 1 - Same <-- cat-cmp 1 1
+ok 2 - Same <-- cat-cmp 1 1
+ok 3 - Same <-- cat-cmp 12 12
+ok 4 - Same <-- cat-cmp 12 12
+ok 5 - Same <-- cat-cmp 123 123
+ok 6 - Same <-- cat-cmp 123 123
+ok 7 - More <-- cat-cmp 1231234 123
+ok 8 - Less <-- cat-cmp 123 1231234
+ok 9 - More <-- cat-cmp 123133 123
+ok 10 - Less <-- cat-cmp 123 123133
+ok 11 - More <-- cat-cmp 12313 123
+ok 12 - Less <-- cat-cmp 123 12313
+ok 13 - Less <-- cat-cmp 123111 123
+ok 14 - More <-- cat-cmp 123 123111
+ok 15 - Less <-- cat-cmp 12311 123
+ok 16 - More <-- cat-cmp 123 12311
+ok 17 - Less <-- cat-cmp 1231 123
+ok 18 - More <-- cat-cmp 123 1231
+ok 19 - Less <-- cat-cmp 1 23
+ok 20 - More <-- cat-cmp 23 1
+ok 21 - Less <-- cat-cmp 10 3
+ok 22 - More <-- cat-cmp 3 10
+ok 23 - More <-- cat-cmp 31 2
+ok 24 - Less <-- cat-cmp 2 31
+ok 25 - Less <-- cat-cmp 2 4
+ok 26 - More <-- cat-cmp 4 2
+ok 27 - More <-- cat-cmp 4 10
+ok 28 - Less <-- cat-cmp 10 4
+ok 29 - More <-- cat-cmp 5 11
+ok 30 - Less <-- cat-cmp 11 5
+ok 31 - Less <-- cat-cmp 11 4
+ok 32 - More <-- cat-cmp 4 11
+ok 33 - More <-- cat-cmp 1 10
+ok 34 - Less <-- cat-cmp 10 1
+ok 35 - 231 <-- (1, 23)
+ok 36 - 3210 <-- (10, 3, 2)
+ok 37 - 431210 <-- (31, 2, 4, 10)
+ok 38 - 542111 <-- (5, 11, 4, 1, 2)
+ok 39 - 110 <-- (1, 10)
+
+Input: @list = 5 11 4 1 2
+Output: 542111
+ 
+===> 217/2/arne-sommer.raku <===
+431210
+ 
+===> 217/2/bruce-gray.raku <===
+1..10
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ok 4 - 
+ok 5 - 
+ok 6 - 
+ok 7 - 
+ok 8 - 
+ok 9 - 
+ok 10 - 
+ 
+===> 217/2/deadmarshal.raku <===
+231
+3210
+431210
+542111
+110
+ 
+===> 217/2/feng-chang.raku <===
+431210
+ 
+===> 217/2/laurent-rosenfeld.raku <===
+1 23            => 231
+10 3 2          => 3210
+31 2 4 10       => 431210
+5 11 4 1 2      => 542111
+1 10            => 110
+10 1            => 110
+1 10            => 110
+1 100           => 1100
+100 1           => 1100
+ 
+===> 217/2/luca-ferrari.raku <===
+431210
+ 
+===> 217/2/mark-anderson.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ok 4 - 
+ok 5 - 
+ 
+===> 217/2/polettix.raku <===
+431210
+ 
+===> 217/2/robert-dicicco.raku <===
+Input: @list = 5 11 4 1 2
+Output: 542111
+
+Input: @list = 31 2 4 10
+Output: 431210
+
+Input: @list = 10 3 2
+Output: 3210
+
+Input: @list = 1 23
+Output: 231
+
+Input: @list = 1 10
+Output: 110
+
+ 
+===> 217/2/roger-bell-west.raku <===
+1..5
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ok 4 - example 4
+ok 5 - example 5
+ 
+===> 217/2/shimon-ben-avraham.raku <===
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ok 4 - Example 4
+ok 5 - Example 5
+ 
+===> 217/2/ulrich-rieke.raku <===
+431210
+ 
+===> 217/2/wambash.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ok 4 - 
+ok 5 - 
+ok 6 - 
+1..6

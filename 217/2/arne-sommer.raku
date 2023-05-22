@@ -1,6 +1,6 @@
 #!/usr/bin/env raku
 
-unit sub MAIN (*@list where @list.elems > 0 && all(@list) ~~ /^<[1..9]><[0..9]>*$/, :v(:$verbose));
+unit sub MAIN (@list where @list.elems > 0 && all(@list) ~~ /^<[1..9]><[0..9]>*$/ = (31, 2, 4, 10), :v(:$verbose));
 
 my @permutations = @list.permutations;
 my @values       = @permutations>>.join;
