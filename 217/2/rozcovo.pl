@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-use 5.36.0;
-use strict;
+use v5.36;
 
 my @list = (31, 2, 4, 10);
 say join('', sort { $b cmp $a } @list);

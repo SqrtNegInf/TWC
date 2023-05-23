@@ -1,7 +1,6 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use feature 'say';
+use v5.36;
+
 use Algorithm::Permute;
 
 my @list = ([5,11,4,1,2],[31, 2, 4,10],[10,3,2],[1, 23],[1,10]);

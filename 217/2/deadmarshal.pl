@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
+use v5.36;
 
 sub max_number{
   join '',sort {"$b$a" cmp "$a$b"} @{$_[0]};

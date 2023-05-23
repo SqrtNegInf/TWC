@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-
-use v5.16;
-use strict;
-use warnings;
+use v5.36;
 
 max_number(1, 23);
 max_number(10, 3, 2);

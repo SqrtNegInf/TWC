@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
+use v5.36;
 
 my @list = (11, 2, 34, 65, 15, 3, 0);
 my @sorted = sort {$a <= $b} (sort { $a <=> $b} @list);
