@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
+use v5.36;
 
 sub sorted_matrix{
   (sort {$a <=> $b} map{@$_} @{$_[0]})[2];

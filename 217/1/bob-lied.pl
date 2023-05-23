@@ -33,7 +33,7 @@ sub thirdSmallest($matrix)
 
 sub runTest
 {
-    use Test2::V0;
+    use Test::More;
 
     is(thirdSmallest( [[3,1,2], [5,2,4], [0,1,3] ] ),  1, "Example 1");
     is(thirdSmallest( [[2, 1],  [4, 5]] ),             4, "Example 2");

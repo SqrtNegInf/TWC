@@ -20,7 +20,6 @@ The 3rd smallest of the sorted list is 2
 0
  
 ===> 217/1/bob-lied.pl <===
-# Seeded srand with seed '20230522' from local date.
 ok 1 - Example 1
 ok 2 - Example 2
 ok 3 - Example 3

@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-use v5.24;
-use warnings;
+use v5.36;
 no warnings 'uninitialized';
 
 my @matrix = map { [ split m{\s*,\s*}mxs ] } @ARGV;

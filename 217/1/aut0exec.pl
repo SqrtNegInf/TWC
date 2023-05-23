@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
+use v5.36;
 
 sub flatten {
 	my @matrix = ([3, 1, 2], [5, 2, 4], [0, 6, 3], [3, 4, 9]);

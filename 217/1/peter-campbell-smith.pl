@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-
-use v5.16;
-use strict;
-use warnings;
+use v5.36;
 
 sorted_matrix([3, 1, 2], [5, 2, 4], [0, 1, 3]);
 sorted_matrix([2, 1], [4, 5]);

@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use feature 'say';
+use v5.36;
 
 sub find_third_smallest {
     return (sort { $a <=> $b } map { @$_ } @_)[2];

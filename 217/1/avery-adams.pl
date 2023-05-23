@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use v5.24;
+use v5.36;
 
 my @matrix1 = ([3, 1, 2], [5, 2, 4], [0, 1, 3]);
 my @list1;
