@@ -1,9 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use strict;
-use warnings;
-use 5.026;
-use experimental qw<signatures>;
 use List::Util   qw<first>;
 use Test::More;
 

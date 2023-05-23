@@ -19,61 +19,9 @@ ok 1
 ok 2
 ok 3
  
-===> 127/2/cheok-yin-fung.pl <===
-1..4
-No conflicts found.
-ok 1 - Example 1
-ok 2 - Example 2
-ok 3 - Test 1
-ok 4 - Test 2
- 
 ===> 127/2/colin-crain.pl <===
 conflicts found:
 [25,60]
- 
-===> 127/2/dave-jacoby.pl <===
-INPUT:  [1, 4] [3, 5] [6, 8] [12, 13] [3, 20]
-OUTPUT: [3, 5] [3, 20]
-
-INPUT:  [3, 4] [5, 7] [6, 9] [10, 12] [13, 15]
-OUTPUT: [6, 9]
-
-INPUT:  [3, 4] [1, 5]
-OUTPUT: [1, 5]
-
-INPUT:  [1, 4] [2, 3]
-OUTPUT: [2, 3]
-
-INPUT:  [3, 6] [1, 5]
-OUTPUT: [1, 5]
-
-INPUT:  [1, 3] [5, 7]
-OUTPUT: 
-
- 
-===> 127/2/e-choroba.pl <===
-# Seeded srand with seed '1234' from import arg.
-1..2
-ok 1 - Interval::Conflict::Naive {
-    1..7
-    ok 1 - Example 1
-    ok 2 - Example 2
-    ok 3 - Cover all
-    ok 4 - Cover some
-    ok 5 - Cover single
-    ok 6 - Inside
-    ok 7 - Exact
-}
-ok 2 - Interval::Conflict::Binary {
-    1..7
-    ok 1 - Example 1
-    ok 2 - Example 2
-    ok 3 - Cover all
-    ok 4 - Cover some
-    ok 5 - Cover single
-    ok 6 - Inside
-    ok 7 - Exact
-}
  
 ===> 127/2/james-smith.pl <===
 ok 1
@@ -86,46 +34,6 @@ ok 4
 [ (3,5), (3,20) ]
 [ (6,9) ]
  
-===> 127/2/jo-37.pl <===
-# Seeded srand with seed '1234' from import arg.
-ok 1 - example 1
-ok 2 - example 2
-ok 3 - i = k
-ok 4 - i ≤ k
-ok 5 - i ≥ k
-ok 6 - i < k
-ok 7 - i > k
-ok 8 - i ⊂ k
-ok 9 - i ⊃ k
-ok 10 - i ⊂ k, i₀ = k₀
-ok 11 - i ⊃ k, i₀ = k₀
-ok 12 - i ⊂ k, i₁ = k₁
-ok 13 - i ⊃ k, i₁ = k₁
-ok 14 - i = ∅
-ok 15 - k = ∅
-ok 16 - k = ∅
-ok 17 - i = ∅
-ok 18 - i = ∅, i > k
-ok 19 - k = ∅, i < k
-ok 20 - i = ∅, i < k
-ok 21 - k = ∅, i > k
-ok 22 - conflict: i ⊈ k, i ≰ k, i ⊉ k, i ≱ k
-ok 23 - conflict: i ⊈ k, i ≰ k, i ⊉ k, i ≱ k
-ok 24 - example 1 without the conflicting (1, 4)
-ok 25 - lined up
-ok 26 - contained
-ok 27 - non conflicting empty interval
-ok 28 - non conflicting empty interval
-1..28
- 
-===> 127/2/kostas-giannakakis.pl <===
-- The 1 interval (3,4) do not have any previous intervals to compare with, so skip it.
-- The 2 interval (5,7) do not conflicts with any of the previous intervals so skip it.
-- The 3 interval (6,9) does conflict with some of the previous intervals.
-- The 4 interval (10,12) do not conflicts with any of the previous intervals so skip it.
-- The 5 interval (13,15) do not conflicts with any of the previous intervals so skip it.
-[ (6,9) ]
- 
 ===> 127/2/laurent-rosenfeld.pl <===
 3, 5
 3, 20
@@ -134,28 +42,6 @@ ok 28 - non conflicting empty interval
 ok 1
 ok 2
 1..2
- 
-===> 127/2/mattneleigh.pl <===
-Input: @Intervals = [ (1, 4), (3, 5), (6, 8), (12, 13), (3, 20) ]
-Output: [ (3, 5), (3, 20) ]
-
-Input: @Intervals = [ (3, 4), (5, 7), (6, 9), (10, 12), (13, 15) ]
-Output: [ (6, 9) ]
-
- 
-===> 127/2/paul-fajman.pl <===
-The 1st interval (1,4) do not have any previous intervals to compare with, so skip it.
-The 2nd interval (3,5) does conflict with the previous interval (1,4).
-The 3rd interval (6,8) do not conflict with any of the previous intervals (1,4), (3,5) so skip it.
-The 4th interval (12,13) do not conflict with any of the previous intervals (1,4), (3,5), (6,8) so skip it.
-The 5th interval (3,20) does conflict with the previous interval (1,4).
-
-The 1st interval (3,4) do not have any previous intervals to compare with, so skip it.
-The 2nd interval (5,7) do not conflict with any of the previous intervals (3,4) so skip it.
-The 3rd interval (4,6) does conflict with the previous interval (5,7).
-The 4th interval (10,12) do not conflict with any of the previous intervals (3,4), (5,7), (4,6) so skip it.
-The 5th interval (13,15) do not conflict with any of the previous intervals (3,4), (5,7), (4,6), (10,12) so skip it.
-
  
 ===> 127/2/perlboy1967.pl <===
 ok 1

@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-use feature qw/say/;
+use v5.36;
 
 my @intervals = ([1,4], [3,5], [6,8], [12, 13], [3,20]);
 my %vals;

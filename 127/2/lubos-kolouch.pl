@@ -1,20 +1,5 @@
 #!/usr/bin/env perl
-#===============================================================================
-#
-#         FILE: ch-2.pl
-#
-#        USAGE: ./ch-2.pl  
-#
-#  DESCRIPTION: The Weekly Challenge #127
-#               Task 2 - Conflict Intervals
-#
-#       AUTHOR: Lubos Kolouch
-#      CREATED: 08/27/2021 11:45:07 AM
-#===============================================================================
-
-use strict;
-use warnings;
-
+use v5.36;
 
 sub check_intervals {
     my $what = shift;

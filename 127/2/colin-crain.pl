@@ -102,13 +102,7 @@
 ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ##
 
 
-
-use warnings;
-use strict;
-use utf8;
-use feature ":5.26";
-use feature qw(signatures);
-no warnings 'experimental::signatures';
+use v5.36;
 
 my @input;
 # @input = ( [1,4], [3,5], [6,8], [12, 13], [3,20]  );  ## ex-1

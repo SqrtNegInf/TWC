@@ -1,10 +1,6 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-##
-# You are given a list of intervals. Write a script 
-# to determine conflicts between the intervals. 
-##
+use v5.36;
+
 sub conflicts{
     my @intervals = @_;
     my @conflicts;  
