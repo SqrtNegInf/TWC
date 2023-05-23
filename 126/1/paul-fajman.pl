@@ -1,11 +1,5 @@
 #!/usr/bin/env perl
-
-# Weekly Challenge 126 Task #1
-# You are given a positive integer $N.
-# Write a script to print count of numbers from 1 to $N that don’t contain digit 1.
-
-use strict;
-use warnings;
+use v5.36;
 
 #die "\nPlease provide positive integer for input\n" if (!@ARGV);
 my $number = $ARGV[0] // 200;

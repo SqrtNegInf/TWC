@@ -1,12 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use strict;
-use warnings;
-##
-# You are given a positive integer $N.
-# Write a script to print count of numbers 
-# from 1 to $N that don't contain digit 1.   
-##
 sub has_1{
     my($x) = @_;
     return 1 if $x =~ tr/1//d > 0;

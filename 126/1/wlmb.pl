@@ -1,15 +1,7 @@
 #!/usr/bin/env perl
-# Perl weekly challenge 126
-# Task 1:  Count numbers. Recursive solution
-#
-# See https://wlmb.github.io/2021/08/20/PWC126/#task-1-count-numbers
-use warnings;
-use strict;
-use v5.12;
+use v5.36;
 use POSIX qw(floor);
 
-#die "Usage: ./ch-1.pl N1 N2... to count numbers up to Ni with no 1's"
-#    unless @ARGV;
 foreach( (25, 200) ){
     my $N=floor($_); # check non-negative integer arguments
     warn("Expected natural: $_"), next unless $N>=0 and $N==$_;

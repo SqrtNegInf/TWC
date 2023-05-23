@@ -1,9 +1,5 @@
 #!/usr/bin/env perl
-use v5.24;
-use warnings;
-use experimental 'signatures';
-no warnings 'experimental::signatures';
-use Benchmark 'cmpthese';
+use v5.36;
 
 my $N = shift || 200;
 say 'brute force: ', count_like_no_ones_bf($N) if $N < 1000;

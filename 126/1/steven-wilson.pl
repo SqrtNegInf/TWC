@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-use feature qw/ say /;
+use v5.36;
 
 my $input          = $ARGV[0] // 200;
 my $count          = 0;

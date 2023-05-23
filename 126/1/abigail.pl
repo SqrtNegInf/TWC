@@ -1,29 +1,5 @@
 #!/usr/bin/env perl
-
-use 5.032;
-
-use strict;
-use warnings;
-no  warnings 'syntax';
-
-use experimental 'signatures';
-use experimental 'lexical_subs';
-
-#
-# See ../README.md
-#
-
-#
-# Run as: perl ch-1.pl < input-file
-#
-# We will be reading from standard input, assuming an input number
-# on each line of the input.
-#
-
-#
-# For a description of the algorithm see:
-# https://abigail.github.io/HTML/Perl-Weekly-Challenge/week-126-1.html 
-#
+use v5.36;
 
 while (my $n = <DATA>) {
     chomp $n;
