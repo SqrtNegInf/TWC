@@ -1,8 +1,6 @@
 #!/usr/bin/env perl
-# Disjointed Sets
+use v5.36;
 
-use strict;
-use warnings;
 use Test::More;
 
 my @S1 = ( 1, 2, 5, 3, 4 );

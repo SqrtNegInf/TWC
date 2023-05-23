@@ -1,23 +1,5 @@
 #!/usr/bin/env perl
-#===============================================================================
-#
-#         FILE: ch-1.pl
-#
-#        USAGE: ./ch-1.pl  
-#
-#  DESCRIPTION: The Weekly Challenge #127
-#               Task 1 - Disjoint Sets
-#
-#       AUTHOR: Lubos Kolouch
-#      CREATED: 08/27/2021 11:45:07 AM
-#===============================================================================
-
-use strict;
-use warnings;
-
-
-# Why Perl does not have a set type like Python?
-# then it is an one-liner using set unions... 
+use v5.36;
 
 sub compare_sets {
     my $what = shift;

@@ -1,12 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-# The Weekly Challenge 127
-# Task 1 Disjoint Sets
-# Usage: 
-# $ ch-1.pl $a1[0] $a1[1] ... $a1[$#a1] x $a2[0] ... $a2[$#a2]
-use v5.12.0;
-no warnings;
-use experimental qw/signatures/;
 use Test::More tests => 6;
 
 my (@a, @a1, @a2);

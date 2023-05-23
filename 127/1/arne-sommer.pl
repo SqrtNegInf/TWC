@@ -1,11 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use strict;
-use warnings;
-use feature 'say';
-
-#my $S1 = $ARGV[0] // die 'Please specify @S1';
-#my $S2 = $ARGV[1] // die 'Please specify @S2';
 my $S1 = '1 2 5 3 4', my $S2 = '4 6 7 8 9';
 
 my @S1 = split(/\s+/, $S1);

@@ -1,11 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
- use strict;
-use warnings;
-##
-# You are given two sets with unique numbers.
-# Write a script to figure out if they are disjoint.
-##
 use boolean;
 
 sub disjoint{

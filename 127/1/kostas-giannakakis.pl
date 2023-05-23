@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
+use v5.36;
 
 my @S1 = (1, 2, 5, 3, 4);
 my @S2 = (4, 2, 7, 8, 9);
