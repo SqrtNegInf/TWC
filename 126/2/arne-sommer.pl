@@ -1,12 +1,7 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use strict;
-use warnings;
-use feature 'say';
-use feature 'signatures';
 use Perl6::Junction qw/all any/;
-
-no warnings qw(experimental::signatures);
 
 my $string = $ARGV[0] // "x * * * x * x x x x | * * * * * * * * * x | * * * * x * x * x * | * * * x x * * * * * | x * * * x * * * * x";
 

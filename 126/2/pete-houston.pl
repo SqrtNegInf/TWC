@@ -1,26 +1,5 @@
 #!/usr/bin/env perl
-#===============================================================================
-#
-#         FILE: 12602.pl
-#
-#        USAGE: ./12602.pl < INFILE
-#
-#  DESCRIPTION: Output minesweeper grid based on INFILE.
-#
-# REQUIREMENTS: Input must be on STDIN
-#        NOTES: Input file should consist of a rectangular grid with
-#               values of "x" or "*" only. Any other characters will be
-#               ignored, so use as much/little in-line whitespace as you
-#               like. Each line of input must have the same number of
-#               valid characters otherwise an exception will be thrown.
-#       AUTHOR: Pete Houston (pete), cpan@openstrike.co.uk
-# ORGANIZATION: Openstrike
-#      VERSION: 1.0
-#      CREATED: 16/08/21
-#===============================================================================
-
-use strict;
-use warnings;
+use v5.36;
 
 my @grid;
 my $len;

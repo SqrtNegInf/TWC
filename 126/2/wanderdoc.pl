@@ -1,31 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings FATAL => qw(all);
-
-=prompt
-You are given a rectangle with points marked with either x or *. Please consider the x as a land mine.
-
-Write a script to print a rectangle with numbers and x as in the Minesweeper game.
-
-    A number in a square of the minesweeper game indicates the number of mines within the neighbouring squares (usually 8), also implies that there are no bombs on that square.
-
-Example
-
-Input:
-    x * * * x * x x x x
-    * * * * * * * * * x
-    * * * * x * x * x *
-    * * * x x * * * * *
-    x * * * x * * * * x
-
-Output:
-    x 1 0 1 x 2 x x x x
-    1 1 0 2 2 4 3 5 5 x
-    0 0 1 3 x 3 x 2 x 2
-    1 1 1 x x 4 1 2 2 2
-    x 1 1 3 x 2 0 0 1 x
-
-=cut
+use v5.36;
 
 my %ways =     ('n' => [-1, 0], 'ne' => [-1,  1], 'e' => [0,  1], 'se' =>  [1, 1],
                 's' => [ 1, 0], 'sw' => [ 1, -1], 'w' => [0, -1], 'nw' => [-1, -1]);

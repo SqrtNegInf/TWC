@@ -1,14 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use strict;
-use warnings;
-##
-# You are given a rectangle with points 
-# marked with either x or *. Consider 
-# the x as a land mine. Write a script 
-# to print a rectangle with numbers 
-# and x as in the Minesweeper game.
-##
 sub initialize_grid{
     my($m, $n) = @_;
     my @grid; 

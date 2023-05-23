@@ -1,9 +1,5 @@
 #!/usr/bin/env perl
-use warnings;
-use strict;
-use feature 'say';
-
-# Problem: https://perlweeklychallenge.org/blog/perl-weekly-challenge-126/ TASK #2
+use v5.36;
 
 my $field = <<'EOD';
 x * * * x * x x x x

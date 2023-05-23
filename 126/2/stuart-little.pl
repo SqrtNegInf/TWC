@@ -1,11 +1,5 @@
 #!/usr/bin/env perl
-use warnings;
-use v5.12;
-
-# run <script>
-
-use feature qw(signatures);
-no warnings qw(experimental::signatures);
+use v5.36;
 
 sub nbrs($mat, $i, $j) {
     my @pairs = grep {$_->[0] >= 0 && $_->[0] < scalar @{$mat} && $_->[1] >= 0 && $_->[1] < scalar @{$mat->[0]} && ($_->[0] != $i || $_->[1] != $j)}

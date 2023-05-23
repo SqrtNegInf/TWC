@@ -1,9 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-use feature qw/say/;
-#use Data::Dumper;
+use v5.36;
 
 my (@mine_field, $max_i, $max_j);
 
