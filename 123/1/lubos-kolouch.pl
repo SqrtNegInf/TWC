@@ -1,38 +1,8 @@
 #!/usr/bin/env perl
-#===============================================================================
-#
-#         FILE: ch-1.pl
-#
-#        USAGE: ./ch-1.pl  
-#
-#  DESCRIPTION: The Weekly Challenge #123
-#               Task 1 - Ugly Numbers
-#  
-#       AUTHOR: Lubos Kolouch
-#      CREATED: 07/30/2021 01:24:00 PM
-#===============================================================================
+use v5.36;
 
-use strict;
-use warnings;
 use List::Util qw/min/;
 use Data::Dumper;
-
-
-# So, I spent a lot of time on this... the reason is that I got sidetracked by
-# the sentence "Ugly numbers are those number whose prime factors are 2, 3 or
-# 5".
-#
-# So means that if I take number 14, it fits into this as 14 = 2 * 7, meaning
-# that prime factor 2 meets the condition "2, 3 or 5".
-#
-# It even passed the tests suggested in the excercise as the biggest number
-# returned (12) is below 14.
-#
-# Then I added more tests and realized, that the sentence should read something
-# like "...whose prime factors are 2, 3 or 5 ONLY".
-#
-# Anyway, finally I just implemented the alghoritm from
-# https://www.geeksforgeeks.org/ugly-numbers/
 
 sub get_n_ugly {
     my $what = shift;

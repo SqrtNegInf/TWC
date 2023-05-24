@@ -1,12 +1,6 @@
 #!/usr/bin/env perl
-# Perl weekly challenge 123
-# Task 1: Ugly numbers
-#
-# See https://wlmb.github.io/2021/07/27/PWC123/#task-1-ugly-numbers
+use v5.36;
 
-use warnings;
-use strict;
-use v5.12;
 my @uglies=(1); #known uglies
 my @u_id=(0,0,0); # indices into uglies array corresponding to
 my @factors=(2,3,5); # prime factors of uglies

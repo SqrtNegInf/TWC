@@ -1,11 +1,5 @@
 #!/usr/bin/env perl
-use warnings;
-use v5.12;
-
-# run as <script> <number $n> to return the first $n ugly numbers
-
-use feature qw(signatures);
-no warnings qw(experimental::signatures);
+use v5.36;
 
 use List::Util qw(first);
 

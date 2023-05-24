@@ -109,9 +109,6 @@ sequence:
 ===> 123/1/dave-jacoby.pl <===
 Input:  $n = 150  Output: 5832
  
-===> 123/1/duncan-c-white.pl <===
-5832
- 
 ===> 123/1/e-choroba.pl <===
 1..5
 ok 1 - Example 1
@@ -119,9 +116,6 @@ ok 2 - Example 2
 ok 3 - Large
 ok 4 - Larger
 ok 5 - Largest
- 
-===> 123/1/jaldhar-h-vyas.pl <===
-12
  
 ===> 123/1/jo-37.pl <===
 # Seeded srand with seed '1234' from import arg.
@@ -133,9 +127,6 @@ ok 5 - even larger
 ok 6 - the largest fitting into an uint64
 1..6
  
-===> 123/1/kjetillll.pl <===
-5832
- 
 ===> 123/1/laurent-rosenfeld.pl <===
 5832
  
@@ -144,21 +135,6 @@ ok 1
 ok 2
 ok 3
 1..3
- 
-===> 123/1/mattneleigh.pl <===
-   1 -->     1
-   7 -->     8
-  10 -->    12
-  15 -->    24
- 100 -->  1536
- 200 --> 16200
- 
-===> 123/1/mohammad-anwar.pl <===
-ok 1
-ok 2
-ok 3
-ok 4
-1..4
  
 ===> 123/1/paulo-custodio.pl <===
 1
@@ -191,12 +167,6 @@ ok 11
  
 ===> 123/1/polettix.pl <===
 5832
- 
-===> 123/1/roger-bell-west.pl <===
-1..3
-ok 1 - example 1
-ok 2 - example 2
-ok 3 - example 3
  
 ===> 123/1/sgreen.pl <===
 5832

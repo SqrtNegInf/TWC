@@ -1,10 +1,5 @@
 #!/usr/bin/env perl
-# The Weekly Challenge 123
-# Task 1 Ugly Numbers
-# Usage: ch-1.pl $n
-use strict;
-use warnings;
-use v5.10.0;
+use v5.36;
 use Test::More tests => 3;
 
 my $n = $ARGV[0] || 150;

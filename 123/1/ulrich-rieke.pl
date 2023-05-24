@@ -1,13 +1,6 @@
 #!/usr/bin/env perl
-use strict ;
-use warnings ;
-use feature 'say' ;
+use v5.36;
 
-#we keep dividing the number passed as argument until it is equal to 1
-#we start with the divisor 2
-#in the end we check if only 2 , 3 or 5 occurred as divisors
-#after joining the divisors into a string we apply a regular expression
-#to it
 sub isUgly {
   my $num = shift ;
   my %divisors ;

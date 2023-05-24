@@ -1,11 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use strict;
-use warnings;
-##
-# You are given an integer $n >= 1.
-# Write a script to find the $nth Ugly Number.   
-##
 use boolean;
 
 sub prime_factor{

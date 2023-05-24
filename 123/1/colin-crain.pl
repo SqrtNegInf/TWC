@@ -102,13 +102,7 @@
 ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ##
 
 
-
-use warnings;
-use strict;
-use utf8;
-use feature ":5.26";
-use feature qw(signatures);
-no warnings 'experimental::signatures';
+use v5.36;
 
 use Algorithm::Combinatorics qw( combinations_with_repetition );
 use List::Util               qw( product );

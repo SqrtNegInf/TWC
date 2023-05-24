@@ -1,23 +1,9 @@
 #!/usr/bin/env perl
-
-# Perl Weekly Challenge - 123
-# - https://perlweeklychallenge.org/blog/perl-weekly-challenge-123/#TASK1
-#
-# Task 1 - Ugly Numbers
-#
-# Author: Niels 'PerlBoy' van Dijke
-
-use v5.16;
-use strict;
-use warnings;
+use v5.36;
 
 use List::Util qw(min);
 
 use Test::More;
-
-# Prototype(s)
-sub uglyNumberN($);
-
 
 my $tests = [ 
    [  1, 1 ],
@@ -44,8 +30,8 @@ done_testing();
 # Blatently 'borrowed' solution using Dynamic Programming from:
 # https://www.codesdope.com/blog/article/ugly-numbers/
 #
-sub uglyNumberN($) {
-  my ($n) = @_;
+sub uglyNumberN {
+  my ($n) = shift;
 
   my @uN = (1);
 

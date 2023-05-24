@@ -1,10 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-use feature 'say';
-use feature 'signatures';
-no warnings qw(experimental::signatures);
+use v5.36;
 
 use Getopt::Long;
 use Math::Prime::Util qw/is_prime/;
