@@ -1,9 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-use 5.024;
-use experimental qw<signatures>;
+use v5.36;
 
 sub bball_ways ( $S ) {
     use constant SHOT_VALUES => [ 1, 2, 3 ];

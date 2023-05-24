@@ -1,26 +1,9 @@
 #!/usr/bin/env perl
-#===============================================================================
-#
-#         FILE: 12202.pl
-#
-#        USAGE: ./12202.pl N 
-#
-#  DESCRIPTION: Print all permutations of 1, 2, 3 to sum to N.
-#
-# REQUIREMENTS: Algorithm::Knapsack, List::Util, Math::Combinatorics
-#        NOTES: Although this works, it is inelegant.
-#       AUTHOR: Pete Houston (pete), cpan@openstrike.co.uk
-# ORGANIZATION: Openstrike
-#      VERSION: 1.0
-#      CREATED: 19/07/21
-#===============================================================================
+use v5.36;
 
-use strict;
-use warnings;
 use Algorithm::Knapsack;
 use List::Util 'sum';
 use Math::Combinatorics;
-use feature 'say';
 
 my $n = 4;
 

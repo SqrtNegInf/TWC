@@ -1,9 +1,6 @@
 #!/usr/bin/env perl
-# The Weekly Challenge 122
-# Task 2 Basketball Points
-use strict;
-use warnings;
-use v5.10.0;
+use v5.36;
+
 use Algorithm::Combinatorics qw /combinations/;
 
 my $S = $ARGV[0] || 4;

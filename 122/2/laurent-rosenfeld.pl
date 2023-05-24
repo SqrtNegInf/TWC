@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-use feature "say";
+use v5.36;
 
 my $target = shift // 4;
 my @vals = (1, 2, 3);

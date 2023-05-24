@@ -1,11 +1,6 @@
 #!/usr/bin/env perl
-# Perl weekly challenge 122
-# Task 2:
-#  Basketball Points
-# See https://wlmb.github.io/2021/07/19/PWC122/#task-2-basketball-points
-use strict;
-use warnings;
-use v5.12;
+use v5.36;
+
 use Memoize;
 memoize("points");
 

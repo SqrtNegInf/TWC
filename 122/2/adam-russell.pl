@@ -1,12 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-##
-# You are given a score $S.
-# You can win basketball points e.g. 1 point, 2 points and 3 points.
-# Write a script to find out the different ways you can score $S.  
-##    
+use v5.36;
 
 sub basketball_points{
     my($total) = @_; 

@@ -1,9 +1,5 @@
 #!/usr/bin/env perl
-
-use v5.24;
-use warnings;
-use experimental 'signatures';
-no warnings 'experimental::signatures';
+use v5.36;
 
 sub int_sums_iterator ($N, $max = undef) {
    if ($N < 1) {

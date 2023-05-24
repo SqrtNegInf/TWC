@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-use 5.020;
-use warnings;
+use v5.36;
 
 sub arrange {
     my ($ones, $twos, $threes) = @_;
@@ -21,7 +20,7 @@ sub arrange {
     return @arranged;
 }
 
-sub permute (&@) {
+sub permute :prototype(&@) {
     my $code = shift;
     my @idx = 0..$#_;
     while ( $code->(@_[@idx]) ) {

@@ -1,9 +1,6 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
+use v5.36;
 use List::Util qw/sum/;
-use feature qw/say/;
-# Perl weekly challenge 122 Task 2 - Basketball Points
 
 my $iter_count = 0;
 

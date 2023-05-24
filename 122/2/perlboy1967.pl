@@ -1,25 +1,10 @@
 #!/usr/bin/env perl
-
-# Perl Weekly Challenge - 122
-# - https://perlweeklychallenge.org/blog/perl-weekly-challenge-122/#TASK2
-#
-# Task 1 - Basketball Points
-#
-# Author: Niels 'PerlBoy' van Dijke
-
-use v5.16;
-use strict;
-use warnings;
+use v5.36;
 
 use List::Util qw(sum);
 
 use Test::More;
 use Test::Deep qw(cmp_deeply);
-
-# Prototype(s)
-sub basketballPoints($);
-sub _bp($$$);
-
 
 my $tests = [ 
    [ 3, [1,1,1],[1,2],[2,1],[3] ],
@@ -35,7 +20,7 @@ foreach my $t (@$tests) {
 done_testing();
 
 
-sub basketballPoints($) {
+sub basketballPoints {
   my ($n) = @_;
 
   if ($n == 1) {
@@ -48,7 +33,7 @@ sub basketballPoints($) {
   return _bp($n,$res,[]);
 }  
 
-sub _bp ($$$) {
+sub _bp {
   my ($n,$arRes,$arTmp) = @_;
 
   for my $i (1 .. ($n > 3 ? 3 : $n)) {

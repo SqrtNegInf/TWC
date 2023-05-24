@@ -1,7 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use v5.16;
-use warnings;
 use Math::Prime::Util 'forcomp';
 
 # The task is to list all compositions of N where each part is limited
