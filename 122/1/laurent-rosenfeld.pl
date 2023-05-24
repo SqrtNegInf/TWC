@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-use feature "say";
+use v5.36;
 
 my @n = (10, 20, 30, 40, 50, 60, 70, 80, 90, 100);
 my @mvg_avg = ($n[0]);

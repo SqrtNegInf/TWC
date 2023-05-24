@@ -145,10 +145,6 @@ Fibonacci
 250
 255
  
-===> 122/1/jaredor.pl <===
-ok 1 - Test description
-1..1
- 
 ===> 122/1/jo-37.pl <===
 10
 20

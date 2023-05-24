@@ -1,12 +1,7 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use strict;
-
-use warnings;
-use feature qw(say state);
 use Test::More;
-use Benchmark qw(cmpthese timethis);
-use Data::Dumper qw(Dumper);
 
 stream( map {$_*10} 1..50 );           ## Push values into stream...
 

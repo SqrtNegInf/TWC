@@ -1,10 +1,7 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use feature 'say';
-
-#
-# Run as: perl -pl ch-1.pl < input-file
-#
+$;=0; # silence warning under 5.36
 
 while (<DATA>) {
 say $_=($;+=$_)/$.

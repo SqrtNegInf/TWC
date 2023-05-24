@@ -1,19 +1,5 @@
 #!/usr/bin/env perl
-#===============================================================================
-#
-#         FILE: ch-1.pl
-#
-#        USAGE: ./ch-1.pl  
-#
-#  DESCRIPTION: The Weekly Challenge 122
-#               Task 1 - Average of Stream
-#
-#       AUTHOR: Lubos Kolouch
-#      CREATED: 07/24/2021 10:27:06 AM
-#===============================================================================
-
-use strict;
-use warnings;
+use v5.36;
 
 sub print_moving_average {
     my @what = @_;

@@ -1,7 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use v5.16;
-use warnings;
 $| = 1;
 
 # Provide a stream of numbers.

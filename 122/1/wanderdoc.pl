@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings FATAL => qw(all);
-
-use feature 'state';
+use v5.36;
 
 sub stream_avg
 {

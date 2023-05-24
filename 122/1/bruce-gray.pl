@@ -1,9 +1,5 @@
 #!/usr/bin/env  perl
-
-use strict;
-use warnings;
-use 5.020;
-use experimental qw<signatures>;
+use v5.36;
 
 sub make_arithmetic_generator ( $start, $increment ) {
     my $last = $start - $increment;

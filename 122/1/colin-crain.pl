@@ -35,15 +35,7 @@
 ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ##
 
 
-
-use warnings;
-use strict;
-use utf8;
-use feature ":5.26";
-use feature qw(signatures);
-no warnings 'experimental::signatures';
-
-
+use v5.36;
 
 my @stream = (10, 20, 30, 40, 50, 60, 70, 80, 90);
 
