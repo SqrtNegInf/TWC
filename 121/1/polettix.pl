@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-use v5.24;
-use warnings;
-use experimental 'signatures';
-no warnings 'experimental::signatures';
+use v5.36;
 
 sub invert_bit ($m, $n) { $m ^ (1 << --$n) }
 say "m=12 n=3 -> " . invert_bit(12, 3);

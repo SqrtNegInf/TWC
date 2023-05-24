@@ -22,16 +22,8 @@ And the decimal equivalent of 00001000 = 8
 8
 26
  
-===> 121/1/colin-crain.pl <===
-26
- 
-===> 121/1/cristian-heredia.pl <===
-Output: 26 
 ===> 121/1/dave-jacoby.pl <===
     m 12    n 3    o 8
- 
-===> 121/1/duncan-c-white.pl <===
-8
  
 ===> 121/1/e-choroba.pl <===
 ok 1 - Example 1
@@ -44,14 +36,6 @@ ok 2
 ok 3
 ok 4
 1..4
- 
-===> 121/1/jaredor.pl <===
-ok 1 - Example 1
-ok 2 - Example 2
-1..2
- 
-===> 121/1/jdos22.pl <===
-New binary number is: 8
  
 ===> 121/1/jo-37.pl <===
 # Seeded srand with seed '1234' from import arg.
@@ -70,10 +54,6 @@ ok 4 - not limited to M < 256
 ok 1
 ok 2
 1..2
- 
-===> 121/1/mattneleigh.pl <===
-m =  12    n = 3  ->    8
-m =  18    n = 4  ->   26
  
 ===> 121/1/mohammad-anwar.pl <===
 ok 1
@@ -98,12 +78,6 @@ m=18 n=4 -> 26
 1..2
 ok 1 - example 1
 ok 2 - example 2
- 
-===> 121/1/sgreen.pl <===
-8
- 
-===> 121/1/ulrich-rieke.pl <===
-8
  
 ===> 121/1/wlmb.pl <===
 Number: 12, Bit: 3, Output: 8

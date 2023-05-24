@@ -1,15 +1,5 @@
 #!/usr/bin/env perl
-#===============================================================================
-#  DESCRIPTION: Perl Weekly Challenge #121
-#               Task 1 -Invert Bit
-#
-#       AUTHOR: Lubos Kolouch
-#      CREATED: 20210717 04:44:33 PM
-#===============================================================================
-
-use strict;
-use warnings;
-use Data::Dumper;
+use v5.36;
 
 sub bin2dec {
     # shamelessly copied from The Perl Cookbook

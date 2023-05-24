@@ -1,14 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use strict;
-use warnings;
-##
-# You are given integers 0 <= $m <= 255 and 1 <= $n <= 8.
-# Write a script to invert $n bit from the end of the binary 
-# representation of $m and print the decimal representation 
-# of the new binary number.
-##
- 
 sub flip_bit_n{
     my($x, $n) = @_;
     my $bits = substr(unpack("B32", pack("N", $x)), 24, 8);
