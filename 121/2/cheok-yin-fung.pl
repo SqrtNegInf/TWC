@@ -1,4 +1,5 @@
 #!/usr/bin/env perl
+use v5.36;
 # The Weekly Challenge - 121
 # Task 2 The Travelling Salesman
 # a brute-force solution via permutations again
