@@ -27,9 +27,6 @@ Diameter: 8
 6 : 3 2 1 5 7 8 9
 6 : 4 2 1 5 7 8 9
  
-===> 125/2/duncan-c-white.pl <===
-6: 3,2,1,5,7,8,9
- 
 ===> 125/2/e-choroba.pl <===
 # Seeded srand with seed '1234' from import arg.
 1..3
@@ -47,14 +44,6 @@ ok 2 - single root node, (here: the empty graph)
  
 ===> 125/2/mark-anderson.pl <===
 6
- 
-===> 125/2/mattneleigh.pl <===
-Diameter: 7
-Path: 3, 2, 1, 5, 7, 8, 9
-
-Diameter: 8
-Path: 6, 5, 4, 3, 7, 8, 9, 10
-
  
 ===> 125/2/polettix.pl <===
 6

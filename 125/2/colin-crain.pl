@@ -139,6 +139,7 @@
 
 
 
+use v5.36;
 
 
 package Node;
@@ -152,13 +153,10 @@ use Moo;
         
 package BTree;
 use Moo;
-use feature ":5.26";
-use feature qw(signatures);
-no warnings 'experimental::signatures';
 
     has root => (
         is => 'rw',
-        default => sub { Node->new() }
+        default => sub { Node->new }
     );
     
     has diameter => (
@@ -350,11 +348,6 @@ no warnings 'experimental::signatures';
 
     
 package main;
-use warnings;
-use strict;
-use feature ":5.26";
-use feature qw(signatures);
-no warnings 'experimental::signatures';
 
                         
 my @data = (1, 
@@ -370,7 +363,7 @@ my @data = (1,
             );
 
 
-my $tree = new BTree;
+my $tree = BTree->new;
 $tree->load_serial(\@data);
 
 say "Diameter: ", $tree->get_diameter;

@@ -1,31 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings FATAL => qw(all);
-
-=prompt
-You are given binary tree as below:
-
-    1
-   / \
-  2   5
- / \ / \
-3  4 6  7
-       / \
-      8  10
-     /
-    9
-
-Write a script to find the diameter of the given binary tree. The diameter of a binary tree is the length of the longest path between any two nodes in a tree. It doesn’t have to pass through the root.
-For the above given binary tree, possible diameters (6) are:
-3, 2, 1, 5, 7, 8, 9
-or
-4, 2, 1, 5, 7, 8, 9
-The length of a path is the number of its edges, not the number of the vertices it connects. So the diameter should be 6, not 7.
-
-=cut
-
-
-
+use v5.36;
 
 use Struct::Dumb;
 use List::Util qw(max); 
