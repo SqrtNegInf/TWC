@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-
-use utf8;
-use strict;
-use warnings;
+use v5.36;
 
 my $N = 13;
 

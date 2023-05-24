@@ -1,21 +1,5 @@
 #!/usr/bin/env perl
-
-use 5.032;
-
-use strict;
-use warnings;
-no  warnings 'syntax';
-
-use experimental 'signatures';
-use experimental 'lexical_subs';
-
-#
-# See ../README.md
-#
-
-#
-# Run as: perl ch-1.pl < input-file
-#
+use v5.36;
 
 sub introot ($square) {
     #
@@ -29,7 +13,7 @@ sub introot ($square) {
 
 while (my $n = <DATA>) {
     chomp ($n);
-    say (-1), next if $n <= 2;
+    say (-1) and next if $n <= 2;
     #
     # First case, $n is not the hypothenuse; wlog, assume n = a.
     #

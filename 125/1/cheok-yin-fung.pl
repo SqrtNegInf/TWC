@@ -1,11 +1,6 @@
 #!/usr/bin/env perl
-# The Weekly Challenge 125
-# Task 1: Pythagorean Triples
-# Usage: ch-1.pl $n
-use strict;
-use warnings;
-use v5.10.0;
-use experimental 'signatures';
+use v5.36;
+
 use List::Util qw/max/;
 use Test::More tests => 8;
 

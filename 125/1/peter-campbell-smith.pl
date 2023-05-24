@@ -1,20 +1,5 @@
 #!/usr/bin/env perl
-
-# Peter Campbell Smith - 2021-08-08
-# PWC 125 task 1
-
-use strict;
-use warnings;
-
-# A Pythagorean triple consist of 3 positive integers such that
-# a**2 + b**2 = c**2. Note that a cannot equal b as sqrt(2a**2) =
-# a * sqrt(2) which cannot be integer.
- 
-# We are asked to find all the triples where one of a, b, c equals
-# a given number n.
-
-# Clearly a < c and b < c, and we can require a < b to avoid 
-# duplicates such a 3, 4, 5 and 4, 3, 5.
+use v5.36;
 
 my ($a, $b, $c, $n, $s, @solutions);
 

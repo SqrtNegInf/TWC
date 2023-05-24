@@ -1,22 +1,6 @@
 #!/usr/bin/env perl
-#===============================================================================
-#
-#         FILE: 12501.pl
-#
-#        USAGE: ./12501.pl N
-#
-#  DESCRIPTION: Given a positive integer, print all unique Pythagorean
-#               triples in which it features, or just "-1" if there are none.
-#
-# REQUIREMENTS: Math::Prime::Util
-#       AUTHOR: Pete Houston (pete), cpan@openstrike.co.uk
-# ORGANIZATION: Openstrike
-#      VERSION: 1.0
-#      CREATED: 09/08/21
-#===============================================================================
+use v5.36;
 
-use strict;
-use warnings;
 use Math::Prime::Util qw/is_square/;
 
 my $n  = shift // 60;

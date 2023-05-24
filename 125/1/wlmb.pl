@@ -1,16 +1,9 @@
 #!/usr/bin/env perl
-# Perl weekly challenge 125
-# Task 1:  Pythagorean triplets
-#
-# See https://wlmb.github.io/2021/08/10/PWC125/#task-1-pythagorean-triples
-use warnings;
-use strict;
-use v5.12;
+use v5.36;
+
 use POSIX qw(floor);
 use List::Util qw(uniq);
 
-#die "Usage: ./ch-1.pl N1 N2... to search for pythagorean triplets containing Ni"
-#    unless @ARGV;
 foreach( (5, 13, 60) ){
     my $N=floor($_); # check non-negative integer arguments
     warn("Expected natural"), next unless $N>=0 and $N==$_;
