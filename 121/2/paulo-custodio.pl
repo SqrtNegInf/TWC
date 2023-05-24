@@ -1,26 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
 
-# Challenge 121
-#
-# TASK #2 › The Travelling Salesman
-# Submitted by: Jorg Sommrey
-# You are given a NxN matrix containing the distances between N cities.
-#
-# Write a script to find a round trip of minimum length visiting all N cities
-# exactly once and returning to the start.
-#
-# Example
-# Matrix: [0, 5, 2, 7]
-#         [5, 0, 5, 3]
-#         [3, 1, 0, 6]
-#         [4, 5, 4, 0]
-#
-# Output:
-#         length = 10
-#         tour = (0 2 1 3 0)
-
-use Modern::Perl;
 my @dist = #read_dist();
 ([0, 5, 2, 7],
 [5, 0, 5, 3],

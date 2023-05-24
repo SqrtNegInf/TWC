@@ -1,10 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
 
-use strict;
-use warnings;
-use 5.010;
-
 sub tsp {
     die if @_ != 1;
     my @G = @{+shift};

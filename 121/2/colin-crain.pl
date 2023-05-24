@@ -1,5 +1,4 @@
 #!/usr/bin/env perl
-use v5.36;
 #
 #       door-to-door.pl
 #
@@ -29,13 +28,8 @@ use v5.36;
 ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ##
 
 
+use v5.36;
 
-use warnings;
-use strict;
-use utf8;
-use feature ":5.26";
-use feature qw(signatures);
-no warnings 'experimental::signatures';
 use Algorithm::Combinatorics qw( permutations );
 use List::Util               qw( min first );
 

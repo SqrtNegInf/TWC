@@ -1,23 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
 
-# Perl Weekly Challenge - 121
-# - https://perlweeklychallenge.org/blog/perl-weekly-challenge-121/#TASK1
-#
-# Task 2 - The Travelling Salesman
-#
-# Author: Niels 'PerlBoy' van Dijke
-#
-
-use v5.16;
-use strict;
-use warnings;
-
-# Prototype(s)
-sub theTravellingSalesman($);
-sub genMatrix($);
-sub printMatrix($);
-
 use Data::Printer output => 'stdout';
 
 use MCE;
@@ -49,7 +32,7 @@ foreach my $n (3 .. 5) {
 }
 
 
-sub theTravellingSalesman($) {
+sub theTravellingSalesman {
   my ($arM) = @_;
 
   my $min;
@@ -106,14 +89,14 @@ sub theTravellingSalesman($) {
 }
 
 
-sub genMatrix($) {
+sub genMatrix {
   my ($n) = @_;
 
   return [ map { $a = $_; [ map { $_ == $a ? 0 : int(1+rand(9)) } 0 .. $n -1 ] } 0 .. $n - 1];
 }
 
 
-sub printMatrix($) {
+sub printMatrix {
   my ($arM) = @_;
 
   print "Matrix:";
