@@ -1,19 +1,9 @@
 #!/usr/bin/env perl
-use 5.020;
-use warnings;
+use v5.36;
+
 use English qw/ -no_match_vars /;
 
-sub usage {
-    print <<"-USAGE-";
-Usage:
-  $PROGRAM_NAME [<n> ...]
-
-    [<n> ...]  a list of integers
--USAGE-
-    exit;
-}
-
-sub permute (&@) {
+sub permute :prototype(&@) {
     my $code = shift;
     my @idx = 0..$#_;
     while ( $code->(@_[@idx]) ) {

@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
+use v5.36;
 
 sub sum{my$s;map$s+=$_,@_;$s}
 

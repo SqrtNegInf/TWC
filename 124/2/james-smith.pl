@@ -1,10 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-
-use warnings;
-use feature qw(say);
-#use Benchmark qw(cmpthese timethis);
+use v5.36;
 
 say match_teams( map { $_*10 } 1..15 );
 say match_teams( map { $_*10 } 1..10 );

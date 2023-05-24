@@ -1,15 +1,9 @@
 #!/usr/bin/env perl
-# Perl weekly challenge 124
-# Task 2: Tug of war. Exchanges with neighbors
-#
-# See https://wlmb.github.io/2021/08/02/PWC124/#task-2-tug-of-war
-use strict;
-use warnings;
-use v5.12;
+use v5.36;
+
 use POSIX qw(floor);
 use List::Util qw(sum0);
 
-#die 'Usage ./ch-2b.pl n1 n2 n3...' unless @ARGV>=2;
 my @set=sort {$a <=> $b} (10, -15, 20, 30, -25, 0, 5, 40, -5);
 my $N=@set;
 my $k=floor $N/2;

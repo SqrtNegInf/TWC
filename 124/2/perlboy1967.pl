@@ -1,15 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-# Perl Weekly Challenge - 124
-# - https://perlweeklychallenge.org/blog/perl-weekly-challenge-124/#TASK2
-#
-# Task 1 - Tug of War
-#
-# Author: Niels 'PerlBoy' van Dijke
-
-use v5.16;
-use strict;
-use warnings;
 use POSIX qw(ceil);
 
 use List::Util qw(min sum);
@@ -20,7 +11,7 @@ use Test::More;
 use Test::Deep;
 
 # Prototype(s)
-sub tugOfWar(\@);
+sub tugOfWar :prototype(\@);
 
 my $tests = [ 
    [ 
@@ -53,8 +44,8 @@ foreach my $t (@$tests) {
 done_testing();
 
 
-sub tugOfWar(\@) {
-  my ($ar) = @_;
+sub tugOfWar :prototype(\@) {
+  my ($ar) = shift;
 
   my @ret;
   my ($min,$sum1,$sum2);

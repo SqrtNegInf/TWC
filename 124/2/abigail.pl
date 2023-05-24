@@ -1,23 +1,7 @@
 #!/usr/bin/env perl
-
-use 5.032;
-
-use strict;
-use warnings;
-no  warnings 'syntax';
-
-use experimental 'signatures';
-use experimental 'lexical_subs';
+use v5.36;
 
 use List::Util qw [sum];
-
-#
-# See ../README.md
-#
-
-#
-# Run as: perl ch-2.pl < input-file
-#
 
 #
 # This is an NP-hard problem. So, we aren't going to bother with

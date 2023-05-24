@@ -1,10 +1,5 @@
 #!/usr/bin/env perl
-
-# Peter Campbell Smith : 2021-08-02
-
-use strict;
-use utf8;
-use warnings;
+use v5.36;
 
 use Algorithm::Combinatorics qw(combinations);
 

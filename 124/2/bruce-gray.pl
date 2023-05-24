@@ -1,9 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use strict;
-use warnings;
-use 5.020;
-use experimental qw<signatures>;
 use List::Util   qw<sum0>;
 use ntheory      qw<forcomb>;
 

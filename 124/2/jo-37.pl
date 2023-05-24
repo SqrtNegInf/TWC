@@ -1,13 +1,11 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use v5.16;
 use Test2::V0 -srand => 1234;
-use warnings;
 use List::Util qw(sum0 sum max reduce shuffle);
 use List::MoreUtils qw(binsert firstidx bsearchidx);
 use Math::Prime::Util qw(forcomb lastfor);
 use Time::HiRes qw(gettimeofday tv_interval);
-use experimental qw(signatures postderef);
 
 our ($tests, $examples, $scan, $approx) = (1,1);
 

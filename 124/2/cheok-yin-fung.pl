@@ -1,14 +1,10 @@
 #!/usr/bin/env perl
-# The Weekly Challenge - 124
-# Task 2 Tug of War
-# Usage: ch-2.pl @input
-use strict;
-use warnings;
+use v5.36;
+
 use List::Util qw/sum any max min first/;
-use v5.10.0;
-use Test::More tests => 7;
-use Data::Dumper;
 use experimental 'switch';
+
+use Test::More tests => 7;
 
 my @in = @ARGV;
 @in = (1, 2, 4, 5, 7, 8) if !defined($ARGV[0]);
