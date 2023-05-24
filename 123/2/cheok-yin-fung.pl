@@ -1,14 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
-# The Weekly Challenge 123
-# Task 2 Square Points
-# Usage: ch-2.pl (optional)$D
-# Then input the coordinates of the points 
-# $D: 2 or above, either the plane or space, default is 2
 
-use strict;
-use warnings;
-use v5.10.0;
 use Test::More tests => 13; 
 
 #my $D = $ARGV[0] || 2;

@@ -168,11 +168,6 @@ ok 3
 ok 4
 1..4
  
-===> 123/2/jaredor.pl <===
-ok 1 - Test description
-ok 2 - Test description
-1..2
- 
 ===> 123/2/jo-37.pl <===
 # Seeded srand with seed '1234' from import arg.
 ok 1 - example 1
@@ -194,12 +189,6 @@ ok 9 - floating point vertice coordinates
 ===> 123/2/laurent-rosenfeld.pl <===
 10 20 20 20 20 10 10 10 => 1
 12 24 16 10 20 12 18 18 => 0
- 
-===> 123/2/mattneleigh.pl <===
-(10, 20), (20, 20), (20, 10), (10, 10) is a square.
-(12, 24), (16, 10), (20, 12), (18, 16) is not a square.
-(0, 10), (10, 0), (0, -10), (-10, 0) is a square.
-(0, 5), (15, 0), (0, -5), (-15, 0) is not a square.
  
 ===> 123/2/mohammad-anwar.pl <===
 ok 1
