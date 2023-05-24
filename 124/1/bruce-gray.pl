@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-use 5.010;
+use v5.36;
 use open qw<:std :utf8>;
 no warnings qw<portable>;
 

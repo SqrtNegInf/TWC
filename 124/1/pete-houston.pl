@@ -1,22 +1,6 @@
 #!/usr/bin/env perl
-#===============================================================================
-#
-#         FILE: 12401.pl
-#
-#        USAGE: ./12401.pl  
-#
-#  DESCRIPTION: Output a big female symbol
-#
-# REQUIREMENTS: Text::Banner
-#         BUGS: Not the most circular of circles
-#       AUTHOR: Pete Houston (pete), cpan@openstrike.co.uk
-# ORGANIZATION: Openstrike
-#      VERSION: 1.0
-#      CREATED: 03/08/21
-#===============================================================================
+use v5.36;
 
-use strict;
-use warnings;
 use Text::Banner;
 
 my $size = 4;

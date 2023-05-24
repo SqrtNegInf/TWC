@@ -1,12 +1,5 @@
 #!/usr/bin/env perl
-# The Weekly Challenge 124
-# Task 1 Happy International Women's Day
-# Usage: $ ch-1.pl height width
-use strict;
-use warnings;
-
-#die "Enter height(2-15 and width(1-15) as command-line parameters\n"
-#     if !$ARGV[0] || !$ARGV[1];
+use v5.36;
 
 print_venus(10,10);
 

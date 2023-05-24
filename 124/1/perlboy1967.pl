@@ -1,15 +1,5 @@
 #!/usr/bin/env perl
-
-# Perl Weekly Challenge - 124
-# - https://perlweeklychallenge.org/blog/perl-weekly-challenge-124/#TASK1
-#
-# Task 1 - Happy Women Day
-#
-# Author: Niels 'PerlBoy' van Dijke
-
-use v5.16;
-use strict;
-use warnings;
+use v5.36;
 
 use Compress::Zlib;
 use MIME::Base64;

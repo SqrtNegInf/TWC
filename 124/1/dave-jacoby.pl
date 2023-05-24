@@ -1,10 +1,7 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use feature qw{say state signatures};
-use strict;
-use warnings;
 use utf8;
-no warnings qw{ experimental };
 
 use constant pi => 3.14159;
 

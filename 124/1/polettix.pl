@@ -1,4 +1,5 @@
 #!/usr/bin/env perl
+#use v5.36; # no, for some reason
 
 eval eval '"'.
 
