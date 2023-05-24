@@ -1,4 +1,5 @@
 #!/usr/bin/env perl
+use v5.36;
 # The Weekly Challenge 123
 # Task 2 Square Points
 # Usage: ch-2.pl (optional)$D

@@ -1,4 +1,5 @@
 #!/usr/bin/env perl
+use v5.36;
 
 #Returns true if four points form a square.
 

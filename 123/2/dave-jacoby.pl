@@ -1,4 +1,5 @@
 #!/usr/bin/env perl
+use v5.36;
 
 use feature qw{say state signatures};
 use strict;
