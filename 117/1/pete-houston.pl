@@ -1,21 +1,6 @@
 #!/usr/bin/env perl
-#===============================================================================
-#
-#         FILE: 11701.pl
-#
-#        USAGE: ./11701.pl INFILE 
-#
-#  DESCRIPTION: Find the missing numbered row out of 15 in INFILE
-#
-# REQUIREMENTS: Path::Tiny
-#       AUTHOR: Pete Houston (pete), cpan@openstrike.co.uk
-# ORGANIZATION: Openstrike
-#      VERSION: 1.0
-#      CREATED: 14/06/21
-#===============================================================================
+use v5.36;
 
-use strict;
-use warnings;
 use Path::Tiny;
 
 my %rows = map { $_ => 1 } 1..15;

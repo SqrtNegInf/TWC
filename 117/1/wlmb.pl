@@ -1,11 +1,5 @@
 #!/usr/bin/env perl
-# Perl weekly challenge 117
-# Task 1: Missing row
-#
-# See https://wlmb.github.io/2021/06/15/PWC117/#task-1-missing-row
-use strict;
-use warnings;
-use v5.12;
+use v5.36;
 
 my %rows;
 @rows{1..15}=map {"Line $_"} qw(one two three four five six seven eight nine

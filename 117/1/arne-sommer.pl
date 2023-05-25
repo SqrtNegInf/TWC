@@ -1,8 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use strict;
-use warnings;
-use feature 'say';
 use File::Slurp;
 use List::Compare;
 
@@ -16,5 +14,3 @@ my $lc = List::Compare->new('--unsorted', \@ids, \@all);
 my @difference = $lc->get_symmetric_difference();
 
 say join(", ", @difference);
-
-# Ubuntu/Debian: liblist-compare-perl

@@ -1,12 +1,6 @@
 #!/usr/bin/env  perl
+use v5.36;
 
-use strict;
-use warnings;
-##
-# You are given text file with rows numbered 1-15 in 
-# random order but there is a catch one row in missing in the file.
-# Write a script to find the missing row number.
-##   
 sub find_missing{
     my(@numbers) = sort {$a <=> $b} @_;
     for(my $i=0; $i< @numbers - 1; $i++){

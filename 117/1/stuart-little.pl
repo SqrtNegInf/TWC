@@ -1,11 +1,5 @@
 #!/usr/bin/env perl
-use warnings;
-use v5.12;
-
-# run <script> <path-to-file>
-
-use feature qw(signatures);
-no warnings qw(experimental::signatures);
+use v5.36;
 
 use File::Slurp qw(read_file);
 use List::AllUtils qw(sum);

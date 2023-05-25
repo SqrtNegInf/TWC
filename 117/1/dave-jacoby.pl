@@ -1,13 +1,5 @@
 #!/usr/bin/env perl
-
-# use generate_files.pl to create test files
-# where the missing line number is _not_ 
-# _necessarily_ the same as the file number.
-
-use strict;
-use warnings;
-use feature qw{ postderef say signatures state };
-no warnings qw{ experimental };
+use v5.36;
 
 use List::Util qw{ sum };
 

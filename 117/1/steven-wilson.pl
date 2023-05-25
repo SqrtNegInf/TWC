@@ -1,9 +1,6 @@
 #!/usr/bin/env perl
-# usage: $ ./ch-1.pl file_with_missing_row.txt
+use v5.36;
 
-use strict;
-use warnings;
-use feature qw/ say /;
 use List::Util qw/ sum /;
 
 my $filename = $ARGV[0]// 'example.txt';

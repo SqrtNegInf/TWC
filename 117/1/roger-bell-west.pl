@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-
+use v5.36;
 use Test::More tests => 1;
 
 is(mr('example.txt'),12,'example 1');

@@ -1,20 +1,7 @@
 #!/usr/bin/env perl
+use v5.36;
+no warnings;
 
-use 5.032;
-
-use strict;
-no  warnings; # Yeah.
-
-use experimental 'signatures';
-use experimental 'lexical_subs';
-
-#
-# See ../README.md
-#
-
-#
-# Run as: perl ch-1.pl < input-file
-#
 # The first 15 numbers sum to 120. So, if we sum the numbers from the
 # input, and subtract that from 120, we get the missing number.
 #
