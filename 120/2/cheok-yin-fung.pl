@@ -1,9 +1,6 @@
 #!/usr/bin/env perl
-# The Weekly Challenge - 120
-# Task 2 Clock Angle
-# Usage: $ ch-2.pl "hh:mm"
-use strict;
-use warnings;
+use v5.36;
+
 use Test::More tests => 9;
 
 my @now = localtime(time);

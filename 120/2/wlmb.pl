@@ -1,11 +1,5 @@
 #!/usr/bin/env perl
-# Perl weekly challenge 120
-# Task 2: Clock angle
-#
-# See https://wlmb.github.io/2021/07/07/PWC120/#task-2-clock-angle
-use strict;
-use warnings;
-use v5.12;
+use v5.36;
 
 for( ('03:10', '12:55') ){
     say "Wrong format: $_", next

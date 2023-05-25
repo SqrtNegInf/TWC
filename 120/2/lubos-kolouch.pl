@@ -1,19 +1,5 @@
 #!/usr/bin/env perl
-#===============================================================================
-#
-#         FILE: ch-2.pl
-#
-#        USAGE: ./ch-2.pl  
-#
-#  DESCRIPTION: Perl Weekly Challenge #120
-#               Task 2 - Clock Angle
-#
-#       AUTHOR: Lubos Kolouch
-#      CREATED: 20210710 04:44:33 PM
-#===============================================================================
-
-use strict;
-use warnings;
+use v5.36;
 
 sub calc_angle{
     my $what = shift;

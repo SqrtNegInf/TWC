@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings FATAL => qw(all);
+use v5.36;
 
 my %MINUTES;
 @MINUTES{0 .. 59} = map $_ * 6, 0 .. 59;
@@ -8,9 +7,7 @@ my %MINUTES;
 my %HOURS;
 @HOURS{0 .. 11} = map $_ * 30, 0 .. 11;
 
-
-sub clock_angle
-{
+sub clock_angle {
      my $time = $_[0];
      my ($hour, $min) = map $_ * 1, split(/:/, $time);
      $hour = $hour >= 12 ? $hour - 12 : $hour; 
@@ -20,8 +17,6 @@ sub clock_angle
      $angle = $angle > 180 ? 360 - $angle : $angle;
      return $angle;
 }
-
-
 
 #for my $time ( '0000' .. '2359' )
 for my $time ( '0310', '1255' )

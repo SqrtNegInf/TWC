@@ -1,9 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-use feature qw{ postderef say signatures state };
-no warnings qw{ experimental };
+use v5.36;
 
 my @times = qw{ 3:10 4:00 4:20 6:00 11:59 12:00 3:21 };
 @times = map { "11:$_" } 20 .. 65;

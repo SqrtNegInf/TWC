@@ -1,11 +1,5 @@
 #!/usr/bin/env perl
-
-# Weekly Challenge 120 Task #2
-# You are given time $T in the format hh:mm.
-# Write a script to find the smaller angle formed by the hands of an analog clock at a given time.
-
-use strict;
-use warnings;
+use v5.36;
 
 my $input = $ARGV[0]//  '03:10';
 my $output;

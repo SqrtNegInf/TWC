@@ -1,17 +1,9 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-use feature 'say';
+use v5.36;
 
 sub main {
     my $time = shift //  '03:10';
     my ( $hour, $minute ) = ( $time =~ /^([0-9]+):([0-9]+)$/ );
-
-    # Sanity check
-#    die "You must specify an hour and minte value (HH:MM)" unless defined $hour and defined $minute;
-#    die "The hour must be between 1 and 12"                unless $hour >= 1    and $hour <= 12;
-#    die "The minute must be between 0 and 59"              unless $minute >= 0  and $minute <= 59;
 
     # Telling time is silly. If the hour value is 12, make it zero.
     $hour = 0 if $hour == 12;

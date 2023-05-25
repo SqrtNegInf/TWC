@@ -1,21 +1,7 @@
 #!/usr/bin/env perl
-
-# Perl Weekly Challenge - 120
-# - https://perlweeklychallenge.org/blog/perl-weekly-challenge-120/#TASK2
-#
-# Task 2 - Clock Angle
-#
-# Author: Niels 'PerlBoy' van Dijke
-#
-
-use v5.16;
-use strict;
-use warnings;
+use v5.36;
 
 use List::Util qw(min);
-
-# Prototype(s)
-sub clockAngle($);
 
 use Test::More;
 
@@ -32,8 +18,7 @@ foreach my $t (@$tests) {
 
 done_testing();
 
-
-sub clockAngle($) {
+sub clockAngle {
   my @t = split(/:/, $_[0]);
 
   $t[0] = ($t[0] % 12 + $t[1]/60) * 30;

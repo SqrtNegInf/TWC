@@ -1,5 +1,6 @@
 #!/usr/bin/env perl
-use v5.24;
+use v5.36;
+
 sub clock_angle {
    my ($hrs, $mins) = split m{:}mxs, $_[0];
    my $angle = ($mins * 6) - (($hrs % 12) * 30 + $mins / 2);
