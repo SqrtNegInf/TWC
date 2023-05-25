@@ -14,8 +14,6 @@
 Input: $N = 101 (01 10 01 01)
 Output:     154 (10 01 10 10)
  
-===> 120/1/belmark-caday.pl <===
-154 
 ===> 120/1/cheok-yin-fung.pl <===
 1..4
 2
@@ -30,17 +28,9 @@ output: 33
 
 
  
-===> 120/1/cristian-heredia.pl <===
-Output: 154 
-===> 120/1/dave-cross.pl <===
-154
- 
 ===> 120/1/dave-jacoby.pl <===
 	18	33
 	101	154
- 
-===> 120/1/duncan-c-white.pl <===
-154
  
 ===> 120/1/e-choroba.pl <===
 # Seeded srand with seed '1234' from import arg.
@@ -48,23 +38,6 @@ Output: 154
 ok 1 - Example 1
 ok 2 - Example 2
 ok 3 - Large value
- 
-===> 120/1/jaldhar-h-vyas.pl <===
-154
- 
-===> 120/1/james-smith.pl <===
-ok 1
-ok 2
-ok 3
-ok 4
-1..4
- 
-===> 120/1/jaredor.pl <===
-ok 1 - First example: 101 -> 154
-ok 2 - Second example: 18 -> 33
-ok 3 - Identity for numbers with 'twinned bits': 51.
-ok 4 - Identity for numbers with 'twinned bits': 65535.
-1..4
  
 ===> 120/1/jo-37.pl <===
 # Seeded srand with seed '1234' from import arg.
@@ -82,32 +55,8 @@ ok 6 - even to odd
 33: 18
 18: 33
  
-===> 120/1/lubos-kolouch.pl <===
-ok 1
-ok 2
-1..2
- 
-===> 120/1/mattneleigh.pl <===
- 101 ->  154
-  18 ->   33
- 
-===> 120/1/mohammad-anwar.pl <===
-154 
-===> 120/1/paul-fajman.pl <===
-Input: $N = 101
-Output: 154
-
-Binary representation of the given number is 01 10 01 01 
-The new binary representation after the odd/even swap is 10 01 10 10 
-The decimal equivalent of 10011010 is 154
- 
 ===> 120/1/paulo-custodio.pl <===
 154
- 
-===> 120/1/perlboy1967.pl <===
-ok 1
-ok 2
-1..2
  
 ===> 120/1/pete-houston.pl <===
 154
@@ -119,39 +68,9 @@ ok 2
 154
 33
  
-===> 120/1/roger-bell-west.pl <===
-1..2
-ok 1 - example 1
-ok 2 - example 2
- 
-===> 120/1/sgreen.pl <===
-154
- 
-===> 120/1/steve-bresson.pl <===
-Task 1: Swap Odd/Even bits on an 8 bit value
-IN:  101 = 0x65
-OUT: 154 = 0x9a
-Task 2: Clock Angle
-IN: 03:18 = 03 : 18
-C-OUT: 18 degree
-F-OUT: 9 degree
-Finito!
- 
-===> 120/1/steven-wilson.pl <===
-ok 1 - Input: $N = 101 Output: 154
-ok 2 - Input: $N = 18 Output: 33
-1..2
- 
 ===> 120/1/stuart-little.pl <===
-154
- 
-===> 120/1/ulrich-rieke.pl <===
 154
  
 ===> 120/1/wanderdoc.pl <===
 101 -> 154
 18 -> 33
- 
-===> 120/1/wlmb.pl <===
-Input: 101, Output: 154
-Input: 18, Output: 33

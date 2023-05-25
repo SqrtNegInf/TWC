@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-use 5.016;
-use warnings;
+use v5.36;
 
 my $x = shift // 101;
 my $y = 0;

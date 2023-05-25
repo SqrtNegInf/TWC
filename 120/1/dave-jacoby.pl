@@ -1,10 +1,5 @@
 #!/usr/bin/env perl
-
-use feature qw{say state signatures};
-use strict;
-use warnings;
-use utf8;
-no warnings qw{ experimental };
+use v5.36;
 
 for my $n ( 18, 101 ) {
     say join "\t", '', $n, swap_bits($n);

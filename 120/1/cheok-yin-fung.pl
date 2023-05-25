@@ -1,21 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-=pod
-https://en.wikipedia.org/wiki/Bitwise_operation
- #Truth_table_for_all_binary_logical_operators
-
-11 -> 11  3->3 | 1 1  
-10 -> 01  2->1 | 0 1
-01 -> 10  1->2 | 1 0
-00 -> 00  0->0 | 0 0
-pq               q p
-=cut
-
-# The Weekly Challenge - 120
-# Task 1 Swap Odd/Even Bits
-# Usage: $ ch-1.pl N 
-use strict;
-use warnings;
 use Test::More tests => 4;
 
 my $N = $ARGV[0] // 1;

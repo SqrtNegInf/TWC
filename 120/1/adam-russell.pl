@@ -1,12 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use strict;
-use warnings;
-##
-# You are given a positive integer $N less than or equal to 255.
-# Write a script to swap the odd positioned bits with the even 
-# positioned bits and print the decimal equivalent of the new binary representation.
-##
 sub swap_bits{
     my($n) = @_;
     my $bits = substr(unpack("B32", pack("N", shift)), 24, 8);
