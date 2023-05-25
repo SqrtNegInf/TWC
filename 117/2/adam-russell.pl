@@ -1,11 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use strict;
-use warnings;
-##
-# You are given size of a triangle.
-# Write a script to find all possible paths from top to the bottom right corner.
-##
 use constant FINAL => "end"; 
 use constant DEADEND => "-1"; 
 use constant TRIANGLE_TOP => q|/\\| ;

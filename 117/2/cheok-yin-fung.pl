@@ -1,14 +1,7 @@
 #!/usr/bin/env perl
-# The Weekly Challenge 117
-# Task 2 Find Possible Paths
-# Usage: ch-2.pl [size of triangle]
-use strict;
-use warnings;
+use v5.36;
 
-my $N = 3; #$ARGV[0];
-
-#die "Usage: ch-2.pl [size of triangle]\n" 
-#    unless $ARGV[0] && $ARGV[0] =~ /^\d+$/;
+my $N = 3;
 
 my @newarr = (1);
 

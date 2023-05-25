@@ -1,13 +1,9 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use strict;
-
-use warnings;
-use feature qw(say);
 use utf8;
 
 use Test::More;
-use Benchmark qw(cmpthese);
 
 my @TESTS = ( [1,2],[2,6],[3,22],[4,90],[5,394],[6,1806],[7,8558],[8,41586],[9,206098],[10,1037718] );
 my $N = @ARGV ? shift @ARGV : 0;

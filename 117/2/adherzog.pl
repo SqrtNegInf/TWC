@@ -1,25 +1,5 @@
 #!/usr/bin/env perl
-
-##############################################################################
-# Perl Weekly Challenge #117
-##############################################################################
-#
-# Task #2 - Find Possible Paths
-#
-# You are given size of a triangle.
-#
-# Write a script to find all possible paths from top to the bottom right
-# corner.
-#
-# In each step, we can either move horizontally to the right (H), or move
-# downwards to the left (L) or right (R).
-#
-# BONUS: Try if it can handle triangle of size 10 or 20.
-#
-##############################################################################
-
-use strict;
-use warnings;
+use v5.36;
 
 use Test::More;
 

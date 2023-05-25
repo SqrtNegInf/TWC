@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-use strict ;
-use warnings ;
-use feature 'say' ;
+use v5.36;
 
 #strategy and algorithm: the number $N denotes the number of levels
 #at each level apart from the last one you can either descend to the next

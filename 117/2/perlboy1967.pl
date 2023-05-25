@@ -1,21 +1,8 @@
 #!/usr/bin/env perl
-
-# Perl Weekly Challenge - 117
-# - https://perlweeklychallenge.org/blog/perl-weekly-challenge-117/#TASK2
-#
-# Task 2 - Find Possible Paths
-#
-# Author: Niels 'PerlBoy' van Dijke
-
-use v5.16;
-use strict;
-use warnings;
+use v5.36;
 
 use Test::More;
 use Test::Deep;
-
-# Prototype(s)
-sub findPossiblePaths($);
 
 my %tests = (
    1 => [qw(R LH)],
@@ -40,7 +27,7 @@ done_testing;
 #}
 
 
-sub findPossiblePaths($) {
+sub findPossiblePaths {
   my ($size) = @_;
 
   my ($arRes,$arPath) = ([],[]);

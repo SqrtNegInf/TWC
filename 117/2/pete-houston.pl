@@ -1,23 +1,5 @@
 #!/usr/bin/env perl
-#===============================================================================
-#
-#         FILE: 11702.pl
-#
-#        USAGE: ./11702.pl N
-#
-#  DESCRIPTION: For an equilateral triangle of sides N units, find all
-#  possible paths from the apex to lower right vertex travelling
-#  down-left, down-right and/or flat-right only.
-#
-#        NOTES: A size of 10 takes under 2s on my machine. YMMV.
-#       AUTHOR: Pete Houston (pete), cpan@openstrike.co.uk
-# ORGANIZATION: Openstrike
-#      VERSION: 1.0
-#      CREATED: 14/06/21
-#===============================================================================
-
-use strict;
-use warnings;
+use v5.36;
 
 my $n = 3;
 die "Bad argument - must be a small natural number.\n" unless $n && $n < 21;

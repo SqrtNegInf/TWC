@@ -1,14 +1,8 @@
 #!/usr/bin/env perl
-# Perl weekly challenge 117
-# Task 2: Find possible paths
-#
-# See https://wlmb.github.io/2021/06/15/PWC117/#task-2-find-possible-paths
-use strict;
-use warnings;
-use v5.12;
+use v5.36;
+
 use Text::Wrap;
-#use Memoize;
-#memoize qw(N P);
+
 my $length=25; # keep this many paths
 foreach(3){
     my @paths=P($_-1,$_-1);
