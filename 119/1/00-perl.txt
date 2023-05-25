@@ -7,9 +7,6 @@
 86
 33
  
-===> 119/1/adherzog.pl <===
-86
- 
 ===> 119/1/arne-sommer.pl <===
 86
  
@@ -46,9 +43,6 @@ OK
 ===> 119/1/colin-crain.pl <===
 86
  
-===> 119/1/dave-cross.pl <===
-86
- 
 ===> 119/1/dave-jacoby.pl <===
 	0	0
 	1	16
@@ -76,20 +70,11 @@ OK
 	18	33
 	33	18
  
-===> 119/1/duane-powell.pl <===
-86
- 
-===> 119/1/duncan-c-white.pl <===
-86
- 
 ===> 119/1/e-choroba.pl <===
 # Seeded srand with seed '1234' from import arg.
 1..2
 ok 1 - Example 1
 ok 2 - Example 2
- 
-===> 119/1/jaldhar-h-vyas.pl <===
-86
  
 ===> 119/1/james-smith.pl <===
 ok 1
@@ -97,14 +82,6 @@ ok 2
 ok 3
 ok 4
 1..4
- 
-===> 119/1/jaredor.pl <===
-ok 1 - First example: 101 -> 86
-ok 2 - Second example: 18 -> 33
-ok 3 - Composition is identity.
-ok 4 - Bytes of twin nybbles are unchanged.
-ok 5 - Handles a special 770 digit number.
-1..5
  
 ===> 119/1/jo-37.pl <===
 # Seeded srand with seed '1234' from import arg.
@@ -123,31 +100,12 @@ ok 8 - 64 bit
 86
 33
  
-===> 119/1/lubos-kolouch.pl <===
-ok 1
-ok 2
-1..2
- 
-===> 119/1/mattneleigh.pl <===
- 101 ->   86
-  18 ->   33
- 
-===> 119/1/mohammad-anwar.pl <===
-86
- 
 ===> 119/1/paul-fajman.pl <===
 Input: $N = 101
 Output: 86
  
 ===> 119/1/paulo-custodio.pl <===
 86
- 
-===> 119/1/perlboy1967.pl <===
-ok 1
-ok 2
-ok 3
-ok 4
-1..4
  
 ===> 119/1/polettix.pl <===
 86
@@ -161,18 +119,8 @@ ok 2 - example 2
 ===> 119/1/sgreen.pl <===
 86
  
-===> 119/1/steven-wilson.pl <===
-86
-33
- 
 ===> 119/1/stuart-little.pl <===
 86
- 
-===> 119/1/ulrich-rieke.pl <===
-86
- 
-===> 119/1/vinod-k.pl <===
-Output:86
  
 ===> 119/1/wanderdoc.pl <===
 101	86

@@ -1,10 +1,7 @@
 #!/usr/bin/env perl
-use strict;
-use warnings FATAL => qw(all);
+use v5.36;
 
-
-sub swap_nibbles
-{
+sub swap_nibbles {
      my $bin = sprintf("%b",$_[0]);
      my $swapped = $bin;
      if ( length($bin) > 4 )
@@ -23,12 +20,6 @@ sub swap_nibbles
      return oct("0b" . $swapped);
 }
 
-
-
-
-
-for my $num ( 101, 18 )
-{
-
+for my $num ( 101, 18 ) {
      print join("\t", $num, swap_nibbles($num)), $/;
 }

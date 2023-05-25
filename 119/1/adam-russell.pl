@@ -1,13 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use strict;
-use warnings;
-##
-# You are given a positive integer $N.
-# Write a script to swap the two nibbles 
-# of the binary representation of the 
-# given number and print the decimal 
-# number of the new binary representation.
 sub swap_nibbles{
     my($n) = @_;
     my $bits = substr(unpack("B32", pack("N", shift)), 24, 8);  

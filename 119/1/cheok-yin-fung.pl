@@ -1,4 +1,5 @@
 #!/usr/bin/env perl
+use v5.36;
 
 print oct ("0x". scalar reverse sprintf("%02x", 101)) ,"\n";
 

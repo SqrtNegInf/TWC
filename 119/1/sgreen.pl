@@ -1,18 +1,5 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use strict;
-use warnings;
-use feature 'say';
-
-#sub main {
-    my $number = shift // 101;
-
-    # Sanity check
-    die "You must specify a positive integer\n"               unless defined $number;
-    die "The value doesn't appear to be a positive integer\n" unless $number =~ /^[1-9][0-9]*$/;
-    die "The value has to be less than 256\n"                 unless $number < 256;
-
-    say +( $number >> 4 ) + ( $number & 15 ) * 16;
-#}
-
-#main(@ARGV);
+my $n = shift // 101;
+say +( $n >> 4 ) + ( $n & 15 ) * 16;
