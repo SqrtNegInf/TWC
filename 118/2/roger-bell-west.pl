@@ -1,12 +1,8 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
+use v5.36;
 
 use Algorithm::Permute;
 use Memoize;
-
-use Data::Dumper;
 
 memoize("findroute");
 

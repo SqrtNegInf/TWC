@@ -1,39 +1,7 @@
 #!/usr/bin/env perl
-# The Weekly Challenge 118
-# Task 2 Adventure of Knight
-# Pre-processing file
-use strict;
-use warnings;
-
-
-=pod
-    z  a  b  c  d  e  f  g  h  
-X|  ~  ~  ~  ~  ~  ~  ~  ~  ~  
-0|  ~  0  *  *  *  *  *  *  *  
-1|  ~  *  *  1  *  *  *  *  *
-2|  ~  *  1  *  *  *  *  *  *
-3|  ~  *  *  *  *  *  *  *  *
-4|  ~  *  *  *  *  *  *  *  *
-5|  ~  *  *  *  *  *  *  *  *
-6|  ~  *  *  *  *  *  *  *  *
-7|  ~  *  *  *  *  *  *  *  *
-
-    z  a  b  c  d  e  f  g  h  
-X|  ~  ~  ~  ~  ~  ~  ~  ~  ~  
-0|  ~  0  *  *  *  2  *  *  *  
-1|  ~  *  2^ 1  *  *  *  *  *
-2|  ~  *  1  *  *  2  *  *  *
-3|  ~  *  *  *  2  *  *  *  *
-4|  ~  2  *  2  *  *  *  *  *
-5|  ~  *  *  *  *  *  *  *  *
-6|  ~  *  *  *  *  *  *  *  *
-7|  ~  *  *  *  *  *  *  *  *
-
-=cut
-
+use v5.36;
 
 my $board;
-
 
 for my $k (1..63) {
     $board->[int $k / 8][$k % 8] = -1;
@@ -73,4 +41,3 @@ for my $i (0..7) {
   }
   print "\n";
 }
-

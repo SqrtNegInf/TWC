@@ -1,12 +1,11 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use v5.16;
 use Test2::V0 -srand => 1234;
 use Graph;
 use Graph::Undirected;
 use List::Util 'reduce';
 use Math::Prime::Util qw(forperm forsetproduct vecsum);
-use experimental 'signatures';
 
 our ($examples, $tests, $start) =  (1,1,1);
 $start //= 'a8';

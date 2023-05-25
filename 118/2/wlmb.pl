@@ -4,7 +4,6 @@
 #
 # See https://wlmb.github.io/2021/06/21/PWC118/#task-2-adventure-of-knight
 
-
 use strict;
 use warnings;
 use PDL;

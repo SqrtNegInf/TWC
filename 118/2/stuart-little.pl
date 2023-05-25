@@ -1,12 +1,5 @@
 #!/usr/bin/env perl
-use warnings;
-use v5.12;
-
-# run <script> <space-separated treasure spots, encoded as letter-digit>
-# e.g. <script> a2 b1 b2 b3 c4 e6
-
-use feature qw(signatures);
-no warnings qw(experimental::signatures);
+use v5.36;
 
 use List::Util qw(max zip);
 

@@ -1,21 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use 5.032;
-
-use strict;
-use warnings;
-no  warnings 'syntax';
-
-use experimental 'signatures';
-use experimental 'lexical_subs';
-
-#
-# See ../README.md
-#
-
-#
-# Run as: perl ch-2a.pl < input-file
-#
 # Second solution; this time we actually read a challenge from 
 # STDIN. Each line of input stands for another challenge, 
 # Each line consists of 2 or more chess squares; the first is 
