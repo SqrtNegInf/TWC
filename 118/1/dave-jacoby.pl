@@ -1,9 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-use feature qw{ postderef say signatures state };
-no warnings qw{ experimental };
+use v5.36;
 
 for my $n ( 0 .. 100 ) {
     say join "\t", '', $n, is_binary_palindrome($n);

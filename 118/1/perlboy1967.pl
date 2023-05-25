@@ -1,22 +1,9 @@
 #!/usr/bin/env perl
-
-# Perl Weekly Challenge - 118
-# - https://perlweeklychallenge.org/blog/perl-weekly-challenge-118/#TASK1
-#
-# Task 1 - Binary Palindrome
-#
-# Author: Niels 'PerlBoy' van Dijke
-
-use v5.16;
-use strict;
-use warnings;
+use v5.36;
 
 use Math::BigInt;
 
 use Test::More;
-
-# Prototype(s)
-sub isBinaryPalindrome($);
 
 my %tests = (
   5 => 1,
@@ -37,7 +24,7 @@ foreach my $test (sort keys %tests) {
 
 done_testing;
 
-sub isBinaryPalindrome($){
+sub isBinaryPalindrome {
   my ($i) = @_;
 
   # Only binary numbers with their LSB set can be a binary palindrome

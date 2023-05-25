@@ -13,22 +13,8 @@ Input:  $N = 99
 Output: 1 as the binary representation of 99 is 1100011
           which is a palindrome
  
-===> 118/1/cheok-yin-fung.pl <===
-1..7
-1
-ok 1 - test target: 3
-ok 2 - test target: 4
-ok 3 - test target: 6
-ok 4 - test target 1023
-ok 5 - the 5th test
-ok 6 - the 6th test
-ok 7 - the 7th test
- 
 ===> 118/1/colin-crain.pl <===
 1
- 
-===> 118/1/cristian-heredia.pl <===
-Output: 1
  
 ===> 118/1/dave-jacoby.pl <===
 	0	1
@@ -133,12 +119,6 @@ Output: 1
 	99	1
 	100	0
  
-===> 118/1/duane-powell.pl <===
-1
- 
-===> 118/1/duncan-c-white.pl <===
-1
- 
 ===> 118/1/e-choroba.pl <===
 ok 1 - Example 1
 ok 2 - Example 2
@@ -150,76 +130,6 @@ ok 7 - 0b101101
 ok 8 - 0b10101
 ok 9 - 0b11010111001011101011
 1..9
- 
-===> 118/1/jaldhar-h-vyas.pl <===
-1
- 
-===> 118/1/james-smith.pl <===
-ok 1
-ok 2
-ok 3
-ok 4
-ok 5
-ok 6
-ok 7
-ok 8
-ok 9
-ok 10
-ok 11
-ok 12
-ok 13
-ok 14
-ok 15
-ok 16
-ok 17
-ok 18
-ok 19
-ok 20
-ok 21
-ok 22
-ok 23
-ok 24
-ok 25
-ok 26
-ok 27
-ok 28
-ok 29
-ok 30
-ok 31
-ok 32
-ok 33
-ok 34
-ok 35
-ok 36
-1..36
- 
-===> 118/1/jo-37.pl <===
-# Seeded srand with seed '1234' from import arg.
-ok 1 - example 1
-ok 2 - example 2
-ok 3 - random 4096 bit binary palindrome
-ok 4 - one off random binary palindrome
-1..4
- 
-===> 118/1/laurent-rosenfeld.pl <===
-1 -> 1
-2 -> 0
-3 -> 1
-4 -> 0
-5 -> 1
-6 -> 0
-7 -> 1
-8 -> 0
-9 -> 1
-10 -> 0
-11 -> 0
-12 -> 0
- 
-===> 118/1/mohammad-anwar.pl <===
-1
- 
-===> 118/1/paulo-custodio.pl <===
-1
  
 ===> 118/1/perlboy1967.pl <===
 ok 1 - test: 1850 digits
@@ -277,56 +187,8 @@ ok 2 - example 2
 ===> 118/1/sgreen.pl <===
 1
  
-===> 118/1/steven-wilson.pl <===
-ok 1 - Output: 1 as binary representation of 5 is 101 which is Palindrome.
-ok 2 - Output: 0 as binary representation of 4 is 100 which is NOT Palindrome.
-1..2
- 
 ===> 118/1/stuart-little.pl <===
 1
  
 ===> 118/1/ulrich-rieke.pl <===
 1
- 
-===> 118/1/vinod-k.pl <===
-1 as binary representation of 99 is 1100011 which is Palindrome
- 
-===> 118/1/wanderdoc.pl <===
-1	1	1
-2	10	0
-3	11	1
-4	100	0
-5	101	1
-6	110	0
-7	111	1
-8	1000	0
-9	1001	1
-10	1010	0
-11	1011	0
-12	1100	0
-13	1101	0
-14	1110	0
-15	1111	1
-16	10000	0
-17	10001	1
-18	10010	0
-19	10011	0
-20	10100	0
-21	10101	1
-22	10110	0
-23	10111	0
-24	11000	0
-25	11001	0
-26	11010	0
-27	11011	1
-28	11100	0
-29	11101	0
-30	11110	0
-31	11111	1
-32	100000	0
- 
-===> 118/1/wlmb.pl <===
-Input: 4, Output: 0
-Input: 5, Output: 1
-Input: 98, Output: 0
-Input: 99, Output: 1
