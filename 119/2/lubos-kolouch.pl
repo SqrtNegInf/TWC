@@ -1,19 +1,5 @@
 #!/usr/bin/env perl
-#===============================================================================
-#
-#         FILE: ch-2.pl
-#
-#        USAGE: ./ch-2.pl  
-#
-#  DESCRIPTION: Perl Weekly Challenge #119
-#               Task 2 - Sequence without 1-1
-#
-#       AUTHOR: Lubos Kolouch
-#      CREATED: 07/04/2021 04:44:33 PM
-#===============================================================================
-
-use strict;
-use warnings;
+use v5.36;
 
 sub get_nth_number {
     my $what = shift;

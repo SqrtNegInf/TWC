@@ -1,12 +1,7 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use strict;
-
-use warnings;
-use feature qw(say);
 use Test::More;
-#use Benchmark qw(cmpthese timethis);
-#use Data::Dumper qw(Dumper);
 
 my @TESTS = ( [5,13],[10,32],[60,2223] );
 
@@ -14,13 +9,6 @@ is( no_11_filter(       $_->[0] ), $_->[1] ) foreach @TESTS;
 is( no_11_filter_regex( $_->[0] ), $_->[1] ) foreach @TESTS;
 is( no_11_array(        $_->[0] ), $_->[1] ) foreach @TESTS;
 is( no_11_object(       $_->[0] ), $_->[1] ) foreach @TESTS;
-
-#cmpthese(10_000,{
-#  'filter' => sub { no_11_filter(       $_->[0] ) foreach @TESTS; },
-#  'regex'  => sub { no_11_filter_regex( $_->[0] ) foreach @TESTS; },
-#  'object' => sub { no_11_object(       $_->[0] ) foreach @TESTS; },
-#  'array'  => sub { no_11_array(        $_->[0] ) foreach @TESTS; },
-#});
 
 done_testing();
 

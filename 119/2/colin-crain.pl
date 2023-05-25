@@ -25,14 +25,7 @@
 #       © 2021 colin crain
 ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ##
 
-use 5.32.0;
-
-use warnings;
-use strict;
-use utf8;
-use feature qw(signatures);
-no warnings 'experimental::signatures';
-
+use v5.36;
 
 my $ele = shift // 60;
 

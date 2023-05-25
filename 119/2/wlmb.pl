@@ -1,13 +1,7 @@
 #!/usr/bin/env perl
-# Perl weekly challenge 119
-# Task 2: sequence without 1-on-1
-#
-# See https://wlmb.github.io/2021/06/28/PWC119/#task-2-sequence-without-1-on-1
+use v5.36;
 
-use strict;
-use warnings;
-use v5.12;
-use integer;
+#use integer;
 
 map {say "Input: $_, Output: ", get($_)} <5 10 60>;
 sub get {

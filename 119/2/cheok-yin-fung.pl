@@ -1,9 +1,6 @@
 #!/usr/bin/env perl
-# The Weekly Challenge - 119
-# Task 2 Sequence without 1-on-1
-# Usage: $ ch-2.pl N 
-use strict;
-use warnings;
+use v5.36;
+
 use Test::More tests => 3;
 
 my $N = $ARGV[0] || 0;

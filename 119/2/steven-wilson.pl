@@ -1,9 +1,6 @@
 #!/usr/bin/env perl
-# TASK #2 > Sequence without 1-on-1
-# 1, 2, 3, 12, 13, 21, 22, 23, 31, 32, 33, 121, 122, 123, 131, ...
+use v5.36;
 
-use strict;
-use warnings;
 use Test::More;
 
 ok( get_nth_element(5) == 13,    'Input: $N = 5 Output: 13' );

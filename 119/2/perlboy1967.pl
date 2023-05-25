@@ -1,19 +1,5 @@
 #!/usr/bin/env perl
-
-# Perl Weekly Challenge - 119
-# - https://perlweeklychallenge.org/blog/perl-weekly-challenge-119/#TASK1
-#
-# Task 2 - Sequence without 1-on-1
-#
-# Author: Niels 'PerlBoy' van Dijke
-#
-
-use v5.16;
-use strict;
-use warnings;
-
-# Prototype(s)
-sub close2Base3Seq($);
+use v5.36;
 
 use Test::More;
 
@@ -33,7 +19,7 @@ foreach my $t (@$tests) {
 done_testing();
 
 
-sub close2Base3Seq($) {
+sub close2Base3Seq {
   my ($n) = @_;
 
   state @cache; $cache[1] //= 1;

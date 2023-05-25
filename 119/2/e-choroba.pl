@@ -1,7 +1,5 @@
 #!/usr/bin/env perl5.32.1
 use warnings;
-use strict;
-use feature qw{ say };
 
 sub seq_naive {
     my ($n) = @_;
@@ -59,15 +57,6 @@ is seq_naive(60), 2223, 'Example 3 naive';
 is seq_matrix(5),    13, 'Example 1 matrix';
 is seq_matrix(10),   32, 'Example 2 matrix';
 is seq_matrix(60), 2223, 'Example 3 matrix';
-
-#my @inputs = (1 .. 20, 100, 250, 500, 750, 1000);
-#is seq_matrix($_), seq_naive($_), "same $_" for @inputs;
-
-#use Benchmark qw{ cmpthese };
-#cmpthese(-3, {
-#    naive  => sub { seq_naive($_) for @inputs },
-#    matrix => sub { seq_matrix($_) for @inputs },
-#});
 
 =head1 Sequence without 1-on-1
 

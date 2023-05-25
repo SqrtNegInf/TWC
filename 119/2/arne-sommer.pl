@@ -1,13 +1,7 @@
 #! /usr/bin/env perl
-
-use strict;
-use warnings;
-use feature 'say';
+use v5.36;
 
 my $N = $ARGV[0] // 60;
-
-
-die "Please specify a positive integer" if $N !~ /^[1-9]\d*$/;
 
 my $count   = 1;
 my $current = 1;

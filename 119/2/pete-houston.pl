@@ -1,23 +1,5 @@
 #!/usr/bin/env perl
-#===============================================================================
-#
-#         FILE: 11902.pl
-#
-#        USAGE: ./11902.pl [-v] N
-#
-#  DESCRIPTION: Print the nth member of the increasing sequence with
-#               only digits 1, 2 and 3 and no double 1s.
-#
-#      OPTIONS: -v will additionally list all values up to the Nth
-# REQUIREMENTS: List::Util, Getopt::Std (both in core)
-#       AUTHOR: Pete Houston (pete), cpan@openstrike.co.uk
-# ORGANIZATION: Openstrike
-#      VERSION: 1.0
-#      CREATED: 28/06/21
-#===============================================================================
-
-use strict;
-use warnings;
+use v5.36;
 
 use List::Util 'max';
 use Getopt::Std 'getopts';

@@ -1,11 +1,7 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use 5.010;
-use experimental qw<signatures>;
-use List::Util qw<sum0 first>;
+use v5.36;
 
-# use bigint; # Uncomment for command-line arguments bigger than 309 digits.
+use List::Util qw<sum0 first>;
 
 # Translation of my O(log N) Raku solution.
 sub s2 ( $n ) {
