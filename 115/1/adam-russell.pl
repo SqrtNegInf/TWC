@@ -1,22 +1,13 @@
 #!/usr/bin/env perl
 use v5.36;
 
-use strict;
-use warnings;
-##
-# You are given an array of strings.
-# Write a script to find out if the given strings can be chained to form a circle. 
-# Print 1 if found otherwise 0.
-# A string $S can be put before another string $T in circle if the last character 
-# of $S is same as first character of $T.
-##
 use Graph;
 use Graph::Easy::Parser;
 
 sub build_graph{ 
     my @words; 
     my %first_letter_name; 
-    my $graph = new Graph(); 
+    my $graph = Graph->new; 
     while(my $s = <DATA>){
         chomp($s);
         my $first_letter = substr($s, 0, 1);      
@@ -50,7 +41,7 @@ sub display_graph{
         push @lines, "[ $a[0] ] => [ ]" if @a == 1;
         push @lines, "[ $a[0] ] => [ $a[1] ]" if @a > 1;
     }
-    my $parser = new Graph::Easy::Parser();
+    my $parser = Graph::Easy::Parser->new();
     my $graph_viz = $parser->from_text(join("", @lines));
     print $graph_viz->as_ascii();
 }

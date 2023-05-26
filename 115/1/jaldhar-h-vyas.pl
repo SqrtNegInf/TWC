@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
 use v5.36;
-use 5.020;
-use warnings;
 
 my (%first, %last);
 

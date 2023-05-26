@@ -1,15 +1,8 @@
 #!/usr/bin/env perl
 use v5.36;
-# The Weekly Challenge 115
-# Task 1 String Chain
-# Usage: ch-1.pl @S
-use strict;
-use warnings;
 
 my @S = @ARGV;
 @S = ('abc', 'dea', 'cd') if !@S;
-
-
 
 if (consistent_degrees(@S) && is_connected(@S)) {
     print 1;
@@ -18,8 +11,6 @@ else {
     print 0;
 }
 print "\n";
-
-
 
 sub consistent_degrees {
     my @edges = @_;
@@ -43,7 +34,6 @@ sub consistent_degrees {
     }
     return 1;
 }
-
 
 sub is_connected {
     my @edges = @_;

@@ -1,9 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
 
-use strict;
-use warnings;
-
 use Test::More tests => 5;
 
 is(sc(qw(abc dea cd)),1,'example 1');

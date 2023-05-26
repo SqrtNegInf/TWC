@@ -1,29 +1,12 @@
 #!/usr/bin/env perl
 use v5.36;
 
-use 5.032;
-
-use strict;
-use warnings;
-no  warnings 'syntax';
-
-use experimental 'signatures';
-use experimental 'lexical_subs';
-
 #
 # I usually don't use stuff from CPAN which implements most or
 # all of the challenge, but I do make an exception for modules
 # I authored myself. Even if it's from 1998.
 #
 use Algorithm::Graphs::TransitiveClosure qw [floyd_warshall];
-
-#
-# See ../README.md
-#
-
-#
-# Run as: perl ch-1.pl < input-file
-#
 
 #
 # The challenge description doesn't make it clear whether we're

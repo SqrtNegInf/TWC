@@ -45,9 +45,6 @@ ade | cbd | fgh
 We cannot for a circle
  
  
-===> 115/1/duncan-c-white.pl <===
-1
- 
 ===> 115/1/e-choroba.pl <===
 ok 1 - Example 1
 ok 2 - Example 2
@@ -70,33 +67,6 @@ ok 16 - Many connectable circles
 ===> 115/1/jaldhar-h-vyas.pl <===
 1
  
-===> 115/1/james-smith.pl <===
-ok 1
-ok 2
-ok 3
-ok 4
-ok 5
-ok 6
-ok 7
-ok 8
-ok 9
-ok 10
-ok 11
-ok 12
-ok 13
-ok 14
-ok 15
-ok 16
-ok 17
-ok 18
-ok 19
-ok 20
-ok 21
-ok 22
-ok 23
-ok 24
-1..24
- 
 ===> 115/1/jo-37.pl <===
 # Seeded srand with seed '1234' from import arg.
 ok 1 - example 1
@@ -111,15 +81,6 @@ ok 8 - the whole works: multi-edged, loops, single char, zero vertex
  
 ===> 115/1/paulo-custodio.pl <===
 1
- 
-===> 115/1/perlboy1967.pl <===
-ok 1
-ok 2
-ok 3
-ok 4
-ok 5
-ok 6
-1..6
  
 ===> 115/1/polettix.pl <===
 1

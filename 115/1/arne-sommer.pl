@@ -1,14 +1,8 @@
 #!/usr/bin/env perl
 use v5.36;
 
-use strict;
-use warnings;
-use feature 'say';
 use Getopt::Long;
 use Algorithm::Combinatorics 'permutations';
-use feature 'signatures';
-
-no warnings qw(experimental::signatures);
 
 my $verbose = 0;
 

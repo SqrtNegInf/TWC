@@ -1,9 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
 
-use v5.32;
-use warnings;
-
 use Algorithm::Permute;
 use List::Util qw(zip all);
 

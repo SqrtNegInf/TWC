@@ -1,5 +1,4 @@
 #!/usr/bin/env perl
-use v5.36;
 #
 #       string_cheese.pl
 #
@@ -64,12 +63,8 @@ use v5.36;
 ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ##
 
 
+use v5.36;
 
-use warnings;
-use strict;
-use feature ":5.26";
-use feature qw(signatures);
-no warnings 'experimental::signatures';
 use List::Util qw( first );
 
 my @str = @ARGV;

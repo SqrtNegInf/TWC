@@ -1,12 +1,5 @@
 #!/usr/bin/env perl
 use v5.36;
-use warnings;
-use v5.12;
-
-# run <script> <space-separated strings>
-
-use feature qw(signatures);
-no warnings qw(experimental::signatures);
 
 use List::AllUtils qw(any);
 

@@ -1,14 +1,12 @@
 #!/usr/bin/env perl
 use v5.36;
 
-use v5.16;
 use Test2::V0 -srand => 1234;
 use Graph;
 use List::Util 'first';
 use List::MoreUtils 'firstidx';
 use utf8;
 use Unicode::Normalize;
-use experimental qw(signatures postderef);
 
 our ($tests, $examples, $verbose) = (1,1);
 
