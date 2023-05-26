@@ -1,4 +1,5 @@
 #!/usr/bin/env perl
+use v5.36;
 # The Weekly Challenge 115
 # Task 2 Largest Multiple
 # Usage: ch-2.pl [digits from 0-9]

@@ -1,4 +1,5 @@
 #!/usr/bin/env perl
+use v5.36;
 # Perl weekly challenge 115
 # Task 2: Largest Multiple
 #
