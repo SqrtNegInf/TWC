@@ -1,6 +1,7 @@
 #!/usr/bin/env perl
 use v5.36;
 
+my %arr;
 while(<DATA>) {/^\s*(\d+)/; $arr{$1} = 1;} for (1..15) {print ($_, "\n") unless $arr{$_};}
 
 __END__

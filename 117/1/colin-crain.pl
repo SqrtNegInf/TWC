@@ -28,6 +28,7 @@
 
 
 use v5.36;
+use List::Util 'max';
 
 my %lookup  = map  { split /,/, $_, 2 } <DATA>;
 
@@ -51,6 +52,7 @@ __END__
 9, Line Nine
 13, Line Thirteen
 2, Line Two
+4, Line Four
 6, Line Six
 8, Line Eight
 10, Line Ten

@@ -1,4 +1,0 @@
-Global symbol "%arr" requires explicit package name (did you forget to declare "my %arr"?) at ./cheok-yin-fung.pl line 4.
-Global symbol "%arr" requires explicit package name (did you forget to declare "my %arr"?) at ./cheok-yin-fung.pl line 4.
-Execution of ./cheok-yin-fung.pl aborted due to compilation errors.
-Undefined subroutine &main::max called at ./colin-crain.pl line 34, <DATA> line 13.

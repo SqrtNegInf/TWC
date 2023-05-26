@@ -13,8 +13,26 @@ Input:  example.txt
 Output: 12
  
 ===> 117/1/cheok-yin-fung.pl <===
+12
  
 ===> 117/1/colin-crain.pl <===
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+1 line is missing:
+line 12
  
 ===> 117/1/dave-jacoby.pl <===
 12	example.txt
