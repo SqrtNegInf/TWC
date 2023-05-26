@@ -1,10 +1,5 @@
 #!/usr/bin/env perl
-use warnings;
-use strict;
-
-# Uncomment the following line to suppress warnings on 64 bit integers. You can
-# than set MAX to 2 ** 64 (at least on some platforms).
-#
+use v5.36;
 # no warnings 'portable';
 
 use constant MAX => 2 ** 32;

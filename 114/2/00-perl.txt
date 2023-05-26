@@ -62,16 +62,6 @@ Output:     17 (2 one-bits: 10001)
     Output: 5
 
  
-===> 114/2/dms061.pl <===
-17
- 
-===> 114/2/duncan-c-white.pl <===
-Input: $N = 12
-Output: 17
-
-Binary representation of 12 is 1100. There are 2 1 bits. So the next
-higher integer is 17 having the same number of 1 bits, i.e. 10001
- 
 ===> 114/2/e-choroba.pl <===
 ok 1 - Example 1
 ok 2 - Example 2
@@ -108,18 +98,8 @@ ok 20
 ===> 114/2/laurent-rosenfeld.pl <===
 17
  
-===> 114/2/mohammad-anwar.pl <===
-17 => 10001
- 
 ===> 114/2/paulo-custodio.pl <===
 17
- 
-===> 114/2/perlboy1967.pl <===
-ok 1
-ok 2
-ok 3
-ok 4
-1..4
  
 ===> 114/2/pete-houston.pl <===
 1..9

@@ -1,14 +1,6 @@
 #!/usr/bin/env perl
-# The Weekly Challenge 114
-# Task 2 Higher Integer Set Bits
-# Usage: ch-2.pl [positive integer]
-# case I: bitstrings having the form 1..10..0
-# case II : bitstring having the form 1..1
-# case III: bitstrings ends with 1(s) and there exists 0 in the string
-# case IV : bitstring ends with 0(s) and 
-#                   there exists 0 besides the trailing zero(s)
-use strict;
-use warnings;
+use v5.36;
+
 use experimental 'switch';
 
 my $N = $ARGV[0] || 1048576; 

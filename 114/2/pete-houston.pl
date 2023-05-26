@@ -1,25 +1,6 @@
 #!/usr/bin/env perl
-#===============================================================================
-#
-#         FILE: 11402.pl
-#
-#        USAGE: ./11402.pl [ N ]
-#
-#  DESCRIPTION: Output the next higher integer having the same number of
-#               1 bits in binary representation as $N.
-#
-#      OPTIONS: If N is not supplied (or zero) then the test suite is
-#               run instead
-# REQUIREMENTS: Test::More for the test suite
-#         BUGS: N is not checked to be a natural number. GIGO.
-#       AUTHOR: Pete Houston (pete), cpan@openstrike.co.uk
-# ORGANIZATION: Openstrike
-#      VERSION: 1.0
-#      CREATED: 24/05/21
-#===============================================================================
+use v5.36;
 
-use strict;
-use warnings;
 use Test::More;
 
 sub nextint {

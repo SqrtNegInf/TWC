@@ -1,11 +1,5 @@
 #!/usr/bin/env perl
-use warnings;
-use v5.12;
-
-# run <script> <number>
-
-use feature qw(signatures);
-no warnings qw(experimental::signatures);
+use v5.36;
 
 my @ARGV = 12;
 say "Initial number in base two: ", my $binNr = sprintf("0%b", $ARGV[0]);

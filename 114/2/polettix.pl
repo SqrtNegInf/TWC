@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-use 5.024;
-use warnings;
-use experimental qw< postderef signatures >;
-no warnings qw< experimental::postderef experimental::signatures >;
+use v5.36;
 
 sub higher_integer_set_bits ($N) {
    sub n_bits ($x) { sprintf('%b', $x) =~ tr/1/1/ };

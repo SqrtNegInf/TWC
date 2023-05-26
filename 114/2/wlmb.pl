@@ -1,11 +1,6 @@
 #!/usr/bin/env perl
-# Perl weekly challenge 114
-# Task 2: Higher integer set bits
-#
-# See https://wlmb.github.io/2021/05/24/PWC114/#task-2-next-palindrome-number
-use strict;
-use warnings;
-use v5.12;
+use v5.36;
+
 use Scalar::Util qw(looks_like_number);
 use POSIX qw(floor);
 

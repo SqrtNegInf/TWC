@@ -1,12 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use strict;
-use warnings;
-##
-# You are given a positive integer $N.
-# Write a script to find the next higher integer 
-# having the same number of 1 bits in binary representation as $N.
-##
 sub count_bits{
     my($n) = @_;
     my $total_count_set_bit = 0;
