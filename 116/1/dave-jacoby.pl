@@ -1,9 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-use feature qw{ postderef say signatures state };
-no warnings qw{ experimental };
+use v5.36;
 
 my @numbers = qw{ 1234 91011 10203 };
 
@@ -11,19 +7,10 @@ for my $n (@numbers) {
     say base($n);
 }
 
-# we are asked to return the sequence 
-# or the given number, and accounting 
-# for that makes recursion difficult,
-# so we pass to base to determine that
-
 sub base ( $n ) {
     my $s = get_sequence($n);
     return $s//$n;
 }
-
-# test for success and return if successful
-# then add commas within (a copy of) the 
-# string
 
 sub get_sequence ( $n ) {
     my $t = test($n);

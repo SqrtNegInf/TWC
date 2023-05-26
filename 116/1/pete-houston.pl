@@ -1,22 +1,5 @@
 #!/usr/bin/env perl
-#===============================================================================
-#
-#         FILE: 11601.pl
-#
-#        USAGE: ./11601.pl N 
-#
-#  DESCRIPTION: Can this number be split into a sequence of ascending
-#               continguous smaller numbers?
-#
-#        NOTES: N must be a decimal integer of 2 digits or more
-#       AUTHOR: Pete Houston (pete), cpan@openstrike.co.uk
-# ORGANIZATION: Openstrike
-#      VERSION: 1.0
-#      CREATED: 07/06/21
-#===============================================================================
-
-use strict;
-use warnings;
+use v5.36;
 
 my $n = shift // 91011;
 

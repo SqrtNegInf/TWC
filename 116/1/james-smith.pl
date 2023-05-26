@@ -1,9 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use strict;
-
-use warnings;
-use feature qw(say);
 use Test::More;
 
 my $nspace = join '', 1..1000;

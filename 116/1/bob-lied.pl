@@ -1,29 +1,5 @@
 #!/usr/bin/env perl
-# vim:set ts=4 sw=4 sts=4 et ai wm=0 nu:
-#=============================================================================
-# ch-1.pl
-#=============================================================================
-# Copyright (c) 2021, Bob Lied
-#=============================================================================
-# Perl Weekly Challenge 116, Task #1 Number Sequence 
-# You are given a number $N >= 10.
-# Write a script to split the given number such that the difference between
-# two consecutive numbers is always 1 and it shouldn’t have leading 0.
-# Print the given number if it impossible to split the number.
-# Example
-# Input: $N = 1234  Output: 1,2,3,4
-# Input: $N = 91011 Output: 9,10,11
-# Input: $N = 10203 Output: 10203 as it is impossible to split satisfying the conditions.
-#=============================================================================
-
-use strict;
-use warnings;
-use v5.30;
-
-use experimental qw/ signatures /;
-no warnings "experimental::signatures";
-
-sub usage() { "Usage: $0 N, N>=10" };
+use v5.36;
 
 use Getopt::Long;
 my $Verbose = 0;

@@ -1,18 +1,9 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-use feature 'say';
-use feature 'signatures';
-
-no warnings qw(experimental::signatures);
+use v5.36;
 
 my $verbose = 0;
 
 my $N = shift // 91011;
-
-die "Specify a positive integer with at least two digits"
-  unless $N =~ /^[1-9]\d+$/;
 
 my @result;
 
