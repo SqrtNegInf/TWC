@@ -1,4 +1,5 @@
 #!/usr/bin/env perl
+use v5.36;
 # The Weekly Challenge 115
 # Task 1 String Chain
 # Usage: ch-1.pl @S

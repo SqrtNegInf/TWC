@@ -1,4 +1,5 @@
 #!/usr/bin/env perl
+use v5.36;
 
 # Perl Weekly Challenge - 115
 # - https://perlweeklychallenge.org/blog/perl-weekly-challenge-115/#TASK1
