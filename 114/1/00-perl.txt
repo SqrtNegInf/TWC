@@ -32,9 +32,6 @@ Output: 35053
     Output: 1001
 
  
-===> 114/1/dms061.pl <===
-1331
- 
 ===> 114/1/duncan-c-white.pl <===
 1331
  
@@ -42,9 +39,6 @@ Output: 35053
 ok 1 - Example 1
 ok 2 - Example 2
 1..2
- 
-===> 114/1/jaldhar-h-vyas.pl <===
-1331
  
 ===> 114/1/james-smith.pl <===
 ok 1
@@ -111,17 +105,8 @@ ok 25 - increment, even, carry
 ===> 114/1/laurent-rosenfeld.pl <===
 1331
  
-===> 114/1/mohammad-anwar.pl <===
-1331
- 
 ===> 114/1/paulo-custodio.pl <===
 1331
- 
-===> 114/1/perlboy1967.pl <===
-ok 1
-ok 2
-ok 3
-1..3
  
 ===> 114/1/pete-houston.pl <===
 1331
@@ -134,13 +119,7 @@ ok 3
 ok 1 - example 1
 ok 2 - example 2
  
-===> 114/1/sgreen.pl <===
-1331
- 
 ===> 114/1/stuart-little.pl <===
-1331
- 
-===> 114/1/ulrich-rieke.pl <===
 1331
  
 ===> 114/1/wanderdoc.pl <===

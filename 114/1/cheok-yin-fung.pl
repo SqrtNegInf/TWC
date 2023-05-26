@@ -1,9 +1,5 @@
 #!/usr/bin/env perl
-# The Weekly Challenge 114
-# Task 1 Next Palindrome Number
-# Usage: ch-1.pl [positive integer]
-use strict;
-use warnings;
+use v5.36;
 
 my $integer = $ARGV[0] || 123454320;
 die "Please input a decimal positive integer.\n"

@@ -1,22 +1,5 @@
 #!/usr/bin/env perl
-
-# Challenge 114
-#
-# TASK #1 - Next Palindrome Number
-# Submitted by: Mohammad S Anwar
-# You are given a positive integer $N.
-#
-# Write a script to find out the next Palindrome Number higher than the given
-# integer $N.
-#
-# Example
-# Input: $N = 1234
-# Output: 1331
-#
-# Input: $N = 999
-# Output: 1001
-
-use Modern::Perl;
+use v5.36;
 
 my $N = shift || 1234;
 say next_palindrome($N);

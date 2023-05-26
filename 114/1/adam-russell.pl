@@ -1,12 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use strict;
-use warnings;
-##
-# You are given a positive integer $N.
-# Write a script to find out the next Palindrome Number 
-# higher than the given integer $N.
-##
 sub next_palindrome{
     my($n) = @_;
     {

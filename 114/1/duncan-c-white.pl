@@ -1,10 +1,7 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use strict;
-use warnings;
-use feature 'say';
 use Function::Parameters;
-#use Data::Dumper;
 
 #
 # my $ispal = ispalindromic( $n );

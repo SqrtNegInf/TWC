@@ -1,21 +1,6 @@
 #!/usr/bin/env perl
-#===============================================================================
-#
-#         FILE: 11401.pl
-#
-#        USAGE: ./11401.pl N 
-#
-#  DESCRIPTION: Output the next palindromic number above natural number N
-#
-# REQUIREMENTS: POSIX
-#       AUTHOR: Pete Houston (pete), cpan@openstrike.co.uk
-# ORGANIZATION: Openstrike
-#      VERSION: 1.0
-#      CREATED: 24/05/21
-#===============================================================================
+use v5.36;
 
-use strict;
-use warnings;
 use POSIX 'ceil';
 
 my $n = shift //1234;

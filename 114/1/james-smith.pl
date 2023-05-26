@@ -1,9 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use strict;
-
-use warnings;
-use feature qw(say);
 use Test::More;
 
 my @tests = ([1,2],[9,11],[99,101],[989,999],[999,1001],[10,11],[11,22],[12,22],
