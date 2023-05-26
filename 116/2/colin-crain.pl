@@ -25,38 +25,13 @@
 ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ##
 
 
+use v5.36;
 
-use warnings;
-use strict;
-use utf8;
-use feature ":5.26";
-use feature qw(signatures);
-no warnings 'experimental::signatures';
 use List::Util qw( sum );
 
-#die "usage:\n ./that-cats-some-square.pl positive-integer \n" unless @ARGV && $ARGV[0] > 0;
 my $num = $ARGV[0] // 34;
 
 my $sum = sum map { $_ ** 2 } split //, $num;
 (int(sqrt($sum)))**2 == $sum 
     ? say 1
     : say 0 ;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# use Test::More;
-# 
-# is 
-# 
-# done_testing();

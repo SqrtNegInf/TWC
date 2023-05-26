@@ -1,7 +1,6 @@
 #!/usr/bin/env perl
-use strict ;
-use warnings ;
-use feature 'say' ;
+use v5.36;
+
 use POSIX qw ( floor ) ;
 use List::Util qw ( sum ) ;
 
