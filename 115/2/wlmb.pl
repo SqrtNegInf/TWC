@@ -1,12 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
-# Perl weekly challenge 115
-# Task 2: Largest Multiple
-#
-# See https://wlmb.github.io/2021/06/01/PWC115/#task-2-largest-multiple
-use strict;
-use warnings;
-use v5.12;
+
 use List::MoreUtils qw(first_index);
 my @ARGV = <4176 1026 1357>;
 foreach(@ARGV){

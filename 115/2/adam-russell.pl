@@ -1,12 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
 
-use strict;
-use warnings;
-##
-# You are given a list of positive integers (0-9), single digit.
-# Write a script to find the largest multiple of 2 that can be formed from the list.
-##
 sub largest_multiple_2{
     my @numbers = @_;
     return unless grep { $_ % 2 == 0 } @numbers;  

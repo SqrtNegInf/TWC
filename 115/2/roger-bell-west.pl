@@ -1,9 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
 
-use strict;
-use warnings;
-
 use Test::More tests => 4;
 
 is(lm(1,0,2,6),6210,'example 1');

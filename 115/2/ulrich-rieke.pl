@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
 use v5.36;
-use strict ;
-use warnings ;
-use feature 'say' ;
 
 my @numbers = (4, 1, 7, 6);
 my @sorted = sort { $b <=> $a } @numbers ;

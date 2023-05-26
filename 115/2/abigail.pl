@@ -1,23 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
 
-use 5.032;
-
-use strict;
-use warnings;
-no  warnings 'syntax';
-
-use experimental 'signatures';
-use experimental 'lexical_subs';
-
-#
-# See ../README.md
-#
-
-#
-# Run as: perl ch-2.pl < input-file
-#
-
 my @DIGITS = (0 .. 9);
 my @EVENS  = grep {$_ % 2 == 0} @DIGITS;
 

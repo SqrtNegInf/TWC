@@ -1,10 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
 
-use strict;
-use warnings;
-use feature 'say';
-
 # The naive approach is to just sort the input integers
 # in reverse order and print the result. But this doesn't
 # guarantee that the output is an even number.

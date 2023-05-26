@@ -1,10 +1,5 @@
 #!/usr/bin/env perl
 use v5.36;
-# The Weekly Challenge 115
-# Task 2 Largest Multiple
-# Usage: ch-2.pl [digits from 0-9]
-use strict;
-use warnings;
 
 my @digits; # = (4, 1, 7, 6);
 

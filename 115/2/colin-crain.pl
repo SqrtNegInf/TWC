@@ -1,5 +1,4 @@
 #!/usr/bin/env perl
-use v5.36;
 #
 #       list-one-perl-two.pl
 # 
@@ -31,13 +30,7 @@ use v5.36;
 ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ##
 
 
-
-use warnings;
-use strict;
-use feature ":5.26";
-use feature qw(signatures);
-no warnings 'experimental::signatures';
-
+use v5.36;
 
 my @arr = (4, 1, 7, 6);
 scalar @arr == 0 and @arr = ( 1, 0, 2, 6);

@@ -1,10 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
 
-use strict;
-use warnings;
-use feature "say";
-
 sub find_largest {
     my @sorted = reverse sort @_;
     return @sorted if $sorted[-1] % 2 == 0;

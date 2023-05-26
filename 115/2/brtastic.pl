@@ -1,9 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
 
-use v5.32;
-use warnings;
-
 use List::Util qw(first);
 
 sub largest_multiple

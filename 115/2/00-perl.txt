@@ -48,9 +48,6 @@ ok 5 - work for it
     OUTPUT: 7614
 
  
-===> 115/2/duncan-c-white.pl <===
-7614
- 
 ===> 115/2/e-choroba.pl <===
 ok 1 - Example 1
 ok 2 - Example 2
@@ -108,14 +105,6 @@ ok 6 - single zero
  
 ===> 115/2/paulo-custodio.pl <===
 7614
- 
-===> 115/2/perlboy1967.pl <===
-ok 1
-ok 2
-ok 3
-ok 4
-ok 5
-1..5
  
 ===> 115/2/pete-houston.pl <===
 7614

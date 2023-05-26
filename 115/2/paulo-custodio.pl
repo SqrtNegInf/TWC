@@ -1,27 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
 
-# Challenge 115
-#
-# TASK #2 - Largest Multiple
-# Submitted by: Mohammad S Anwar
-# You are given a list of positive integers (0-9), single digit.
-#
-# Write a script to find the largest multiple of 2 that can be formed from the
-# list.
-#
-# Examples
-# Input: @N = (1, 0, 2, 6)
-# Output: 6210
-#
-# Input: @N = (1, 4, 2, 8)
-# Output: 8412
-#
-# Input: @N = (4, 1, 7, 6)
-# Output: 7614
-
-use Modern::Perl;
-
 my @nums = (4, 1, 7, 6);
 @nums or die "Usage: ch-1.pl words...\n";
 say largest_mult2(@nums);
