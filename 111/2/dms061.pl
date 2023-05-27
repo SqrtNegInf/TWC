@@ -1,15 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-
-# Question 2: Given a word, you can sort its letters alphabetically (case insensitive). 
-# For example, “beekeeper” becomes “beeeeekpr” and “dictionary” becomes “acdiinorty”.
-
-# Write a script to find the longest English words that don’t change when their letters are sorted.
-
-# The question is trying to be misleading. If the word doesn't change when it is sorted, then 
-# all we have to check is if the word is sorted (no need to reverse it)
+use v5.36;
 
 open(my $dict, "<", "/usr/share/dict/words");
 

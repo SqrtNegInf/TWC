@@ -1,20 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use v5.16;
-use warnings;
-use experimental 'postderef';
-
-# The task states "find the longest English words".  This could be meant
-# as "all words having the maximum length".  My local dictionary has
-# only one longest word of this kind, which does not qualify as "longest
-# words" - a plural.
-# Therefore I'll interpret the term "the longest words" in a way that
-# multiple words may be found.
-#
-# Here $n defines "the longest words".  In addition to the word(s)
-# having the maximum length, all lengths down to max_len - $n are
-# considered as "long", resulting in a larger set of "longest words" if
-# $n > 0.
 our $n;
 $n //= 1;
 

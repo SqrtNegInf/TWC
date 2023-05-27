@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
+use v5.36;
 
 my $dict = '/usr/share/dict/words';
 die "ERROR: Missing dictionary file.\n" unless defined $dict;

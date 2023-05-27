@@ -1,11 +1,5 @@
 #!/usr/bin/env perl
-use warnings;
-use v5.12;
-
-# run <script> <path-to-dict-file, one word per line>
-
-use feature qw(signatures);
-no warnings qw(experimental::signatures);
+use v5.36;
 
 use List::AllUtils qw(zip_by all);
 

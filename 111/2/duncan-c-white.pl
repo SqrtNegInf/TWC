@@ -1,25 +1,7 @@
 #!/usr/bin/env perl
-# 
-# Task 2: "Ordered Letters
-#
-# Given a word, you can sort its letters alphabetically (case
-# insensitive). For example, "beekeeper" becomes "beeeeekpr" and
-# "dictionary" becomes "acdiinorty".
-# 
-# Write a script to find the longest English words that don't change when
-# their letters are sorted.
-# "
-# 
-# My notes: nice!
-# 
+use v5.36;
 
-use strict;
-use warnings;
-use feature 'say';
-use Function::Parameters;
 use Text::CSV;
-#use Data::Dumper;
-
 
 my $wordfile = "/usr/share/dict/words";
 die "Usage: longest-sort-letters [wordfile]\n" if @ARGV>1;

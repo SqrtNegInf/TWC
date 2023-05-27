@@ -1,29 +1,7 @@
 #!/usr/bin/env perl
-#===============================================================================
-#
-#         FILE: 11102.pl
-#
-#        USAGE: ./11102.pl WORDFILE [ INENC [ OUTENC ] ]
-#
-#  DESCRIPTION: Output the longest English alpha-sorted words
-#
-#      OPTIONS: Dictionary defaults to /usr/share/dict/words if WORDFILE
-#               is not supplied.
-#               Input encoding defaults to us-ascii if unspecified
-#               Output encoding defaults to input encoding if unspecified
-# REQUIREMENTS: Perl 5.16 for 'fc'
-#        NOTES: WORDFILE must have one word only per line.
-#         BUGS: The supplied words are only assumed to be English words: GIGO.
-#       AUTHOR: Pete Houston (pete), cpan@openstrike.co.uk
-# ORGANIZATION: Openstrike
-#      VERSION: 1.0
-#      CREATED: 04/05/21
-#===============================================================================
+use v5.36;
 
-use strict;
-use warnings;
-use feature 'fc';
-use feature 'say';
+#use feature 'fc';
 
 my $dict    = shift // '/usr/share/dict/words';
 my $enc_in  = shift // 'us-ascii';

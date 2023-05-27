@@ -1,11 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use strict;
-use warnings;
-##
-# Write a script to find the longest English words that don't change 
-# when their letters are sorted.
-##
 sub max_sorted{
     my($words) = @_;
     my $max = -1;

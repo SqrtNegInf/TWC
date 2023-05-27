@@ -1,10 +1,5 @@
 #!/usr/bin/env perl
-# The Weekly Challenge 111
-# Ordered Letters
-# Default Word List: 
-# http://www-personal.umich.edu/~jlawler/wordlist.html
-use strict;
-use warnings;
+use v5.36;
 
 my $dictfile;
 
