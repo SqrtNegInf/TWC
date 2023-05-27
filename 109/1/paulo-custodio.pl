@@ -1,19 +1,5 @@
 #!/usr/bin/env perl
-
-# Challenge 109
-#
-# TASK #1 - Chowla Numbers
-# Submitted by: Mohammad S Anwar
-# Write a script to generate first 20 Chowla Numbers, named after,
-# Sarvadaman D. S. Chowla, a London born Indian American mathematician.
-# It is defined as:
-#
-# C(n) = sum of divisors of n except 1 and n
-# NOTE: Updated the above definition as suggested by Abigail [2021/04/19 18:40].
-# Output:
-# 0, 0, 0, 2, 0, 5, 0, 6, 3, 7, 0, 15, 0, 9, 8, 14, 0, 20, 0, 21
-
-use Modern::Perl;
+use v5.36;
 
 first_chowla(shift || 20);
 

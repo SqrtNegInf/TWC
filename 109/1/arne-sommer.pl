@@ -1,12 +1,7 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use strict;
-use warnings;
-use feature 'say';
-use feature 'signatures';
 use List::Util 'sum';
-
-no warnings "experimental::signatures";
 
 my $limit = $ARGV[0] // 20;
 my @chowla;

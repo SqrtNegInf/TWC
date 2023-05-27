@@ -1,10 +1,6 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-##
-# Write a script to generate first 20 Chowla Numbers.
-# C(n) = sum of divisors of n except 1 and n
-##
+use v5.36;
+
 use constant CHOWLA_COUNT => 20;
 sub factor{
     my($n) = @_;

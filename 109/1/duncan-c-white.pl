@@ -1,4 +1,5 @@
 #!/usr/bin/env perl
+use v5.36;
 # 
 # Task 1: "Chowla Numbers
 # 
@@ -18,10 +19,7 @@
 # My notes: easy and fun.
 # 
 
-use strict;
-use warnings;
-use feature 'say';
-use Function::Parameters;
+#use Function::Parameters;
 #use Data::Dumper;
 
 
@@ -30,7 +28,7 @@ use Function::Parameters;
 #	Compute and return the $n'th Chowla number:
 #	the sum of the divisors of $n except 1 and $n.
 #
-fun chowla( $n )
+sub chowla( $n )
 {
 	my $sum = 0;
 	foreach my $div (2..$n-1)

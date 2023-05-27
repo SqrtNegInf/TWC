@@ -1,11 +1,7 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use strict;
-
-use warnings;
-use feature qw(say);
 use Test::More;
-#use Benchmark qw(cmpthese);
 
 my @answer = qw(9999
   0  0  0  2  0  5  0  6  3  7

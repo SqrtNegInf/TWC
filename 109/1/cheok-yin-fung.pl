@@ -1,8 +1,6 @@
 #!/usr/bin/env perl
-# The Weekly Challenge - 109 
-# Task 1 Chowla Numbers
-use strict;
-use warnings;
+use v5.36;
+
 my $F = $ARGV[0] || 20;
 my @chowla_seq = (0,0,0);
 for my $n (4..$F) {
