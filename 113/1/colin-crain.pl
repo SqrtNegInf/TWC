@@ -182,13 +182,7 @@
 ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ##
 
 
-
-use warnings;
-no warnings qw( recursion );
-use strict;
-use feature ":5.26";
-use feature qw(signatures);
-no warnings 'experimental::signatures';
+use v5.36;
 
 @ARGV = (55, 7, 1) if @ARGV == 0;
 

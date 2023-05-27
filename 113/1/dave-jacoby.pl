@@ -1,9 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-use feature qw{ say state postderef signatures };
-no warnings qw{ experimental };
+use v5.36;
 
 for my $d ( 7 .. 7 ) {
     for my $n ( 20 .. 30 ) {

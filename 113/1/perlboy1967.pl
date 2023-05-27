@@ -1,22 +1,9 @@
 #!/usr/bin/env perl
-
-# Perl Weekly Challenge - 113
-# - https://perlweeklychallenge.org/blog/perl-weekly-challenge-113/#TASK1
-#
-# Task 1 - Represent Integer
-#
-# Author: Niels 'PerlBoy' van Dijke
-
-use v5.16;
-use strict;
-use warnings;
+use v5.36;
 
 use List::Util qw(sum0 sum);
 
 use Test::More;
-
-# Prototype(s)
-sub isRepresentInteger($$);
 
 my @tests = (
   [13,1,0], [ 1,1,1],
@@ -37,7 +24,7 @@ foreach my $test (@tests) {
 
 done_testing;
 
-sub isRepresentInteger($$) {
+sub isRepresentInteger {
   my ($n,$d) = @_;
 
   return ($n == sum0(grep /$d/, ($d .. $n)) ? 1 : 0);

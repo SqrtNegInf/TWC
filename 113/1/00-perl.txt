@@ -10,9 +10,6 @@
 ===> 113/1/arne-sommer.pl <===
 1
  
-===> 113/1/cheok-yin-fung.pl <===
-1
- 
 ===> 113/1/colin-crain.pl <===
 Target: 55
 Digit:  7
@@ -54,191 +51,11 @@ Output: 1
     OUTPUT: 0
 
  
-===> 113/1/dms061.pl <===
-Input: n = 10, d = 1 --> Output: 1
-Input: n = 10, d = 2 --> Output: 1
-Input: n = 10, d = 3 --> Output: 0
-Input: n = 10, d = 4 --> Output: 0
-Input: n = 10, d = 5 --> Output: 1
-Input: n = 10, d = 6 --> Output: 0
-Input: n = 10, d = 7 --> Output: 0
-Input: n = 10, d = 8 --> Output: 0
-Input: n = 10, d = 9 --> Output: 0
-Input: n = 11, d = 1 --> Output: 1
-Input: n = 11, d = 2 --> Output: 0
-Input: n = 11, d = 3 --> Output: 0
-Input: n = 11, d = 4 --> Output: 0
-Input: n = 11, d = 5 --> Output: 0
-Input: n = 11, d = 6 --> Output: 0
-Input: n = 11, d = 7 --> Output: 0
-Input: n = 11, d = 8 --> Output: 0
-Input: n = 11, d = 9 --> Output: 0
-Input: n = 12, d = 1 --> Output: 1
-Input: n = 12, d = 2 --> Output: 1
-Input: n = 12, d = 3 --> Output: 1
-Input: n = 12, d = 4 --> Output: 1
-Input: n = 12, d = 5 --> Output: 0
-Input: n = 12, d = 6 --> Output: 1
-Input: n = 12, d = 7 --> Output: 0
-Input: n = 12, d = 8 --> Output: 0
-Input: n = 12, d = 9 --> Output: 0
-Input: n = 13, d = 1 --> Output: 1
-Input: n = 13, d = 2 --> Output: 0
-Input: n = 13, d = 3 --> Output: 0
-Input: n = 13, d = 4 --> Output: 0
-Input: n = 13, d = 5 --> Output: 0
-Input: n = 13, d = 6 --> Output: 0
-Input: n = 13, d = 7 --> Output: 0
-Input: n = 13, d = 8 --> Output: 0
-Input: n = 13, d = 9 --> Output: 0
-Input: n = 14, d = 1 --> Output: 1
-Input: n = 14, d = 2 --> Output: 1
-Input: n = 14, d = 3 --> Output: 0
-Input: n = 14, d = 4 --> Output: 0
-Input: n = 14, d = 5 --> Output: 0
-Input: n = 14, d = 6 --> Output: 0
-Input: n = 14, d = 7 --> Output: 1
-Input: n = 14, d = 8 --> Output: 0
-Input: n = 14, d = 9 --> Output: 0
-Input: n = 15, d = 1 --> Output: 1
-Input: n = 15, d = 2 --> Output: 0
-Input: n = 15, d = 3 --> Output: 1
-Input: n = 15, d = 4 --> Output: 0
-Input: n = 15, d = 5 --> Output: 1
-Input: n = 15, d = 6 --> Output: 0
-Input: n = 15, d = 7 --> Output: 0
-Input: n = 15, d = 8 --> Output: 0
-Input: n = 15, d = 9 --> Output: 0
-Input: n = 16, d = 1 --> Output: 1
-Input: n = 16, d = 2 --> Output: 1
-Input: n = 16, d = 3 --> Output: 1
-Input: n = 16, d = 4 --> Output: 1
-Input: n = 16, d = 5 --> Output: 0
-Input: n = 16, d = 6 --> Output: 0
-Input: n = 16, d = 7 --> Output: 0
-Input: n = 16, d = 8 --> Output: 1
-Input: n = 16, d = 9 --> Output: 0
-Input: n = 17, d = 1 --> Output: 1
-Input: n = 17, d = 2 --> Output: 0
-Input: n = 17, d = 3 --> Output: 0
-Input: n = 17, d = 4 --> Output: 0
-Input: n = 17, d = 5 --> Output: 0
-Input: n = 17, d = 6 --> Output: 0
-Input: n = 17, d = 7 --> Output: 0
-Input: n = 17, d = 8 --> Output: 0
-Input: n = 17, d = 9 --> Output: 0
-Input: n = 18, d = 1 --> Output: 1
-Input: n = 18, d = 2 --> Output: 1
-Input: n = 18, d = 3 --> Output: 1
-Input: n = 18, d = 4 --> Output: 1
-Input: n = 18, d = 5 --> Output: 0
-Input: n = 18, d = 6 --> Output: 1
-Input: n = 18, d = 7 --> Output: 0
-Input: n = 18, d = 8 --> Output: 0
-Input: n = 18, d = 9 --> Output: 1
-Input: n = 19, d = 1 --> Output: 1
-Input: n = 19, d = 2 --> Output: 0
-Input: n = 19, d = 3 --> Output: 1
-Input: n = 19, d = 4 --> Output: 0
-Input: n = 19, d = 5 --> Output: 0
-Input: n = 19, d = 6 --> Output: 0
-Input: n = 19, d = 7 --> Output: 0
-Input: n = 19, d = 8 --> Output: 0
-Input: n = 19, d = 9 --> Output: 0
-Input: n = 20, d = 1 --> Output: 1
-Input: n = 20, d = 2 --> Output: 1
-Input: n = 20, d = 3 --> Output: 0
-Input: n = 20, d = 4 --> Output: 1
-Input: n = 20, d = 5 --> Output: 1
-Input: n = 20, d = 6 --> Output: 0
-Input: n = 20, d = 7 --> Output: 0
-Input: n = 20, d = 8 --> Output: 0
-Input: n = 20, d = 9 --> Output: 0
-Input: n = 21, d = 1 --> Output: 1
-Input: n = 21, d = 2 --> Output: 0
-Input: n = 21, d = 3 --> Output: 1
-Input: n = 21, d = 4 --> Output: 0
-Input: n = 21, d = 5 --> Output: 0
-Input: n = 21, d = 6 --> Output: 0
-Input: n = 21, d = 7 --> Output: 1
-Input: n = 21, d = 8 --> Output: 0
-Input: n = 21, d = 9 --> Output: 0
-Input: n = 22, d = 1 --> Output: 1
-Input: n = 22, d = 2 --> Output: 1
-Input: n = 22, d = 3 --> Output: 1
-Input: n = 22, d = 4 --> Output: 1
-Input: n = 22, d = 5 --> Output: 0
-Input: n = 22, d = 6 --> Output: 1
-Input: n = 22, d = 7 --> Output: 0
-Input: n = 22, d = 8 --> Output: 0
-Input: n = 22, d = 9 --> Output: 0
-Input: n = 23, d = 1 --> Output: 1
-Input: n = 23, d = 2 --> Output: 1
-Input: n = 23, d = 3 --> Output: 0
-Input: n = 23, d = 4 --> Output: 0
-Input: n = 23, d = 5 --> Output: 0
-Input: n = 23, d = 6 --> Output: 0
-Input: n = 23, d = 7 --> Output: 0
-Input: n = 23, d = 8 --> Output: 0
-Input: n = 23, d = 9 --> Output: 0
-Input: n = 24, d = 1 --> Output: 1
-Input: n = 24, d = 2 --> Output: 1
-Input: n = 24, d = 3 --> Output: 1
-Input: n = 24, d = 4 --> Output: 1
-Input: n = 24, d = 5 --> Output: 0
-Input: n = 24, d = 6 --> Output: 1
-Input: n = 24, d = 7 --> Output: 1
-Input: n = 24, d = 8 --> Output: 1
-Input: n = 24, d = 9 --> Output: 0
-Input: n = 25, d = 1 --> Output: 1
-Input: n = 25, d = 2 --> Output: 1
-Input: n = 25, d = 3 --> Output: 1
-Input: n = 25, d = 4 --> Output: 0
-Input: n = 25, d = 5 --> Output: 1
-Input: n = 25, d = 6 --> Output: 0
-Input: n = 25, d = 7 --> Output: 0
-Input: n = 25, d = 8 --> Output: 0
-Input: n = 25, d = 9 --> Output: 0
- 
 ===> 113/1/duncan-c-white.pl <===
 total=24, correct=1
  
-===> 113/1/e-choroba.pl <===
-1..2
-ok 1
-ok 2
- 
 ===> 113/1/jaldhar-h-vyas.pl <===
 1
- 
-===> 113/1/james-smith.pl <===
-ok 1
-ok 2
-ok 3
-ok 4
-ok 5
-ok 6
-ok 7
-ok 8
-ok 9
-ok 10
-ok 11
-ok 12
-ok 13
-ok 14
-ok 15
-ok 16
-ok 17
-ok 18
-ok 19
-ok 20
-1..20
- 
-===> 113/1/jo-37.pl <===
-# Seeded srand with seed '1234' from import arg.
-ok 1 - example 1
-ok 2 - example 2
-1..2
  
 ===> 113/1/paulo-custodio.pl <===
 1
@@ -264,9 +81,6 @@ ok 17
 ok 18
 1..18
  
-===> 113/1/pete-houston.pl <===
-1
- 
 ===> 113/1/polettix.pl <===
 0
  
@@ -275,13 +89,7 @@ ok 18
 ok 1 - example 1
 ok 2 - example 2
  
-===> 113/1/sgreen.pl <===
-Output: 1 (17 + 7)
- 
 ===> 113/1/stuart-little.pl <===
-1
- 
-===> 113/1/ulrich-rieke.pl <===
 1
  
 ===> 113/1/wlmb.pl <===

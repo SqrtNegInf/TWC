@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use feature 'say';
+use v5.36;
 
 use Algorithm::Combinatorics 'combinations';
 use List::Util 'sum';

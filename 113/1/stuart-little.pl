@@ -1,11 +1,5 @@
 #!/usr/bin/env perl
-use warnings;
-use v5.12;
-
-# run <script> <number> <digit>
-
-use feature qw(signatures);
-no warnings qw(experimental::signatures);
+use v5.36;
 
 sub lastDigSumm($nr,$dig,$nrSummands) {
     return (($nr - $nrSummands * $dig) % 10 == 0) && ($nrSummands * $dig <= $nr) && ($nrSummands * (($dig -1) * 10 + $dig) >= $nr);

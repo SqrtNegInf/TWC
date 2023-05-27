@@ -1,11 +1,6 @@
 #!/usr/bin/env perl
-# Perl weekly challenge 113
-# Task 1: Represent integer. Even faster, recursive with cutoff.
-#
-# See https://wlmb.github.io/2021/05/22/PWC113/#task-1-represent-integer
-use strict;
-use warnings;
-use v5.12;
+use v5.36;
+
 use List::Util qw(sum0);
 use POSIX qw(floor);
 
