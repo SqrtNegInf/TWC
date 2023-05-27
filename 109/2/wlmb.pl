@@ -1,11 +1,6 @@
 #!/usr/bin/env perl
-# Perl weekly challenge 109
-# Task 2: Four squares puzzle
-#
-# See https://wlmb.github.io/2021/04/19/PWC109/#task-2-four-squares-puzzle
-use strict;
-use warnings;
-use v5.12;
+use v5.36;
+
 use List::Util qw(sum0);
 use List::MoreUtils qw(uniq pairwise);
 

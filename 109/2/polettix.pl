@@ -1,4 +1,5 @@
 #!/usr/bin/env perl
+use v5.36;
 
 die 'not ok - disabled: output not stable';
 use 5.024;

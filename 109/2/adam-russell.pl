@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
+use v5.36;
 
 # this might actually work, but don't have the patience to find out (and think of the carbon footprint!)
 
@@ -32,7 +31,7 @@ my $prolog = do{
     local $/;
     <DATA>;
 }; 
-$prolog = new AI::Prolog($prolog); 
+$prolog = AI::Prolog->new($prolog); 
 $prolog->query("sums_in_squares([1,2,3,4,5,6,7], Squares).");
 
 my $result;

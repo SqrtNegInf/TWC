@@ -1,4 +1,5 @@
 #!/usr/bin/env perl
+use v5.36;
 # 
 # Task 2: "Four Squares Puzzle
 # 
@@ -49,10 +50,7 @@
 # permutations myself via Rosetta Stone code..
 # 
 
-use strict;
-use warnings;
-use feature 'say';
-use Function::Parameters;
+#use Function::Parameters;
 use Getopt::Long;
 #use Data::Dumper;
 
@@ -68,7 +66,7 @@ my @v = 1..7;
 #	calling eachpermcallback for each permutation found.
 #	Adapted from Rosetta Stone..
 #
-fun allpermutations( $cb, $perm, @v )
+sub allpermutations( $cb, $perm, @v )
 {
 	if( @v == 0 )
 	{
@@ -89,7 +87,7 @@ fun allpermutations( $cb, $perm, @v )
 #	check whether @perm (7 values) is a four-square solution;
 #	print it if so.
 #
-fun printifsolution( @perm )
+sub printifsolution( @perm )
 {
 	die unless @perm==7;
 	my( $a, $b, $c, $d, $e, $f, $g ) = @perm;

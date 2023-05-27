@@ -1,9 +1,8 @@
 #!/usr/bin/env perl
+use v5.36;
 
 die 'not ok - disabled: Dumper output not stable';
 
-use v5.30;
-use warnings;
 use List::Util qw(all sum0);
 
 use constant EL_COUNT => 7;
