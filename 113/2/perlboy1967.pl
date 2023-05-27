@@ -1,15 +1,5 @@
 #!/usr/bin/env perl
-
-# Perl Weekly Challenge - 113
-# - https://perlweeklychallenge.org/blog/perl-weekly-challenge-113/#TASK2
-#
-# Task 2 - Recreate Binary Tree
-#
-# Author: Niels 'PerlBoy' van Dijke
-
-use v5.16;
-use strict;
-use warnings;
+use v5.36;
 
 use Test::More;
 use Test::Deep;

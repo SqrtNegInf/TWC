@@ -1,7 +1,6 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use feature qw/say/;
+use v5.36;
+
 use Data::Dumper;
 
 sub children { my $i = shift; 2*$i+1, 2*$i+2 }

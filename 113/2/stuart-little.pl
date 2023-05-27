@@ -1,9 +1,5 @@
 #!/usr/bin/env perl
-use warnings;
-use v5.12;
-
-use feature qw(signatures);
-no warnings qw(experimental::signatures);
+use v5.36;
 
 use List::AllUtils qw(first sum);
 use Tree::DAG_Node;

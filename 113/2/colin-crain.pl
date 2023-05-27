@@ -1,4 +1,5 @@
 #!/usr/bin/env perl
+use v5.36;
 #
 #       image-is-the-difference.pl
 #
@@ -107,12 +108,10 @@ use Moo;
 
 package BTree;
 use Moo;
-use feature qw(signatures);
-no warnings 'experimental::signatures';
 
     has root => (
         is => 'rw',
-        default => sub { Node->new() }
+        default => sub { Node->new }
     );
 
     has sum => (
@@ -183,11 +182,6 @@ no warnings 'experimental::signatures';
 
 
 package main;
-use warnings;
-use strict;
-use feature ":5.32";
-use feature qw(signatures);
-no warnings 'experimental::signatures';
 
 my @data = (6, 
             8, 6, 
@@ -195,7 +189,7 @@ my @data = (6,
             undef, 3, undef, undef, 5, 1, undef, 1);
 
 
-my $tree = new BTree;
+my $tree = BTree->new;
 $tree->load_serial(\@data);
 
 $tree->descend_and_sum;

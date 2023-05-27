@@ -1,53 +1,7 @@
 #!/usr/bin/env perl
+use v5.36;
 
-=pod
-
-=head1 Question 2
-
-You are given a Binary Tree.
-
-Write a script to replace each node of the tree with the sum of all the remaining nodes.
-
-Example
-Input Binary Tree
-
-        1
-       / \
-      2   3
-     /   / \
-    4   5   6
-     \
-      7
-
-Output Binary Tree
-
-        27
-       /  \
-      26  25
-     /   /  \
-    24  23  22
-     \
-     21
-
-NOTE: the example output has the new values as the total_sum - node_value, so remaining nodes in the
-question does not mean nodes in the subtrees, it means all the other nodes in the tree
-
-=head1 Approach
-
-Do a preorder iteration, summing values to get the sum
-Then do another preorder iteration, and update values (sum - node val) -> done!
-
-Issue: how should we encode the tree? 
-(val, ref_branch1, ref_branch2)?
-or should we try working with objects in perl?
-Going to use references to hashes to build a quick tree out of references (and make it look like an object XD)
-
-=cut
-
-use strict;
-use warnings;
-
-#sub preorder (&@);
+sub preorder :prototype(&@);
 
 sub new {
 	my ($val, $lref, $rref) = @_;
@@ -55,7 +9,7 @@ sub new {
 	return $node;
 }
 
-sub preorder (&@) {
+sub preorder :prototype(&@) {
 	my ($expr, $node) = @_;
 	$_ = $node->{"val"};
 	$node->{"val"} = &$expr;

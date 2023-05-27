@@ -1,11 +1,6 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-##
-# You are given a Binary Tree.
-# Write a script to replace each node of the tree with 
-# the sum of all the remaining nodes.
-##
+use v5.36;
+
 use Graph;
 use Graph::Easy::Parser;
 
@@ -38,14 +33,14 @@ sub display_graph{
         my @a = split(/-/, $n);
         push @lines, "[ $a[0] ] => [ $a[1] ]";  
     } 
-    my $parser = new Graph::Easy::Parser(); 
+    my $parser = Graph::Easy::Parser->new; 
     my $graph_viz = $parser->from_text(join("", @lines));
     print $graph_viz->as_ascii(); 
 }
 
 MAIN:{
-    my $graph = new Graph();
-    my $graph_updated = new Graph();
+    my $graph = Graph->new;
+    my $graph_updated = Graph->new;
     my $root = 1;
     $graph->add_edge($root, 2); 
     $graph->add_edge($root, 3); 
