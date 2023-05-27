@@ -1,8 +1,6 @@
 #! /usr/bin/env perl
+use v5.36;
 
-use strict;
-use warnings;
-use feature 'say';
 use File::Slurp;
 
 my $csv_file  = $ARGV[0] // 'persons.csv';

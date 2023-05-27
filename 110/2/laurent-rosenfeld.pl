@@ -1,10 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use strict;
-use warnings;
-use feature "say";
-
-# Note: input array simulated with a string
 my $in_string = "name,age,sex  Mohammad,45,m
          Joe,20,m Julie,35,f  Cristina,10,f";
 my @input = split /\s+/, $in_string;

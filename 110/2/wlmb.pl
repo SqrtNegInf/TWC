@@ -1,12 +1,6 @@
 #!/usr/bin/env perl
-# Perl weekly challenge 110
-# Task 2: Transpose file
-#
-# CSV version
-# See https://wlmb.github.io/2021/04/27/PWC110/#task-2-transpose-file
-use strict;
-use warnings;
-use v5.12;
+use v5.36;
+
 use List::Util qw(max);
 use Text::CSV qw(csv);
 my $input=csv(in=>'example.csv');

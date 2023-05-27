@@ -1,8 +1,6 @@
 #!/usr/bin/env perl
-# The Weekly Challenge #110 Task 2
-# Transpose File
-use strict;
-use warnings;
+use v5.36;
+
 use Text::CSV_XS qw/csv/;
 
 my $file_name = 'example.csv';
