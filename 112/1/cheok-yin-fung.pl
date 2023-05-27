@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-# The Weekly Challenge 112
-# Task 1 Canonical Path
-use strict;
-use warnings;
+use v5.36;
 
 my $origin = $ARGV[0] || "/a//b/c/../../";
 

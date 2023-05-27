@@ -1,15 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use strict;
-use warnings;
-##
-# Write a script to convert the given absolute path to the simplified canonical path.
-# The canonical path format:
-#     - The path starts with a single slash '/'.
-#     - Any two directories are separated by a single slash '/'.
-#     - The path does not end with a trailing '/'.
-#     - The path only contains the directories on the path from the root directory to the target file or directory
-##
 sub leading_slash{
     my($path) = @_;
     $path = "/" . $path if substr($path, 0, 1) ne "/";

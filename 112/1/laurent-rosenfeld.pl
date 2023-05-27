@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-use feature "say";
+use v5.36;
 
 my @tests = ('/a/', '/a/b//c/', '/a/b/c/../..', '/a/../../b/', '/a/././b/');
 TEST: for my $path (@tests) {
