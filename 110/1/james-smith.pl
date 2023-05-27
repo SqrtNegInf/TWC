@@ -1,9 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use strict;
-
-use warnings;
-use feature qw(say);
 use Test::More;
 
 print grep { is_valid_phone_number($_) } <DATA>;

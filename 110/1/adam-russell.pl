@@ -1,10 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use strict;
-use warnings;
-##
-# Write a script to display all valid phone numbers in a given text file.     
-##
 use Capture::Tiny q/capture_stdout/;
 
 {
@@ -228,7 +224,7 @@ sub parse{
 }
 
 MAIN:{
-    my $parser = new PhoneNumberParser();
+    my $parser = PhoneNumberParser->new;
     while(my $line = <DATA>){
         $line =~ s/^\s+|\s+$//g;
         my $syntax_error = capture_stdout {

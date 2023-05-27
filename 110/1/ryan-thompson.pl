@@ -1,12 +1,5 @@
 #!/usr/bin/env perl
-#
-# ch-1.pl - Parse phone numbers using templates
-#
-# 2021 Ryan Thompson <rjt@cpan.org>
-
-use 5.010;
-use warnings;
-no warnings 'uninitialized';
+use v5.36;
 
 # Valid phone number templates, where n is a digit.
 # Internal whitespace is squashed, leading/trailing is trimmed.

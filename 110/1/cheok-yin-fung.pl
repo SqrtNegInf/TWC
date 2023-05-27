@@ -1,9 +1,5 @@
 #!/usr/bin/env perl
-# The Weekly Challenge 110 
-# Task 1 Phone Number
-# Usage:  perl ch-1.pl < [file]
-use strict;
-use warnings;
+use v5.36;
 
 my $s;
 while ($s = <DATA>) {

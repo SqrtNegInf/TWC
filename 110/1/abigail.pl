@@ -1,22 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use 5.032;
-
-use strict;
-use warnings;
-no  warnings 'syntax';
-
-use experimental 'signatures';
-use experimental 'lexical_subs';
-
-#
-# See ../README.md
-#
-
-#
-# Run as: perl ch-1.pl < input-file
-#
-#
 # The examples show we should not take the specification as a specification;
 # just a rough guideline. According to the specification, 
 # " +44 1148820341" fails the criteria not once, but twice: it contains

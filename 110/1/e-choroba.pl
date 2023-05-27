@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-use warnings;
-use strict;
+use v5.36;
 
 my $VALID = qr/^\s* (?: \([0-9]{2}\)
                       | \+[0-9]{2}

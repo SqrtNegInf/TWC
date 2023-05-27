@@ -1,12 +1,5 @@
 #!/usr/bin/env perl
-use warnings;
-use v5.12;
-
-# run <script> <path-to-file or nothing>
-# defaults to text at the bottom if no file is entered
-
-use feature qw(signatures);
-no warnings qw(experimental::signatures);
+use v5.36;
 
 sub getNrs($data) {
     my @nrs = $data =~ m/((?:\+\d{2}|\(\d{2}\)|\d{4})\s+\d{10})/gsm;

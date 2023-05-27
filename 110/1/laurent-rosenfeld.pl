@@ -1,8 +1,5 @@
 #!/usr/bin//env perl
-
-use strict;
-use warnings;
-use feature "say";
+use v5.36;
 
 # simulate a text file with an array of strings
 my @tests = (" 0044 1148820341 42 ", "  +44 1148820342 abc",

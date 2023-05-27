@@ -1,29 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings FATAL => qw(all);
-
-=prompt
-You are given a text file. 
-Write a script to display all valid phone numbers in the given text file.
-
-Acceptable Phone Number Formats
-+nn  nnnnnnnnnn (nn) nnnnnnnnnn nnnn nnnnnnnnnn
-
-Input File
-
-0044 1148820341
- +44 1148820341
-  44-11-4882-0341
-(44) 1148820341
-  00 1148820341
-
-Output
-
-0044 1148820341
- +44 1148820341
-(44) 1148820341
-=cut
-
+use v5.36;
 
 sub valid_phone_number
 {
