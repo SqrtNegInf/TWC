@@ -1,21 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-use feature qw{ say state postderef signatures };
-no warnings qw{ experimental };
-
-#use Benchmark qw(:all);
-
-# You are given 5x5 matrix filled with integers such that
-# each row is sorted from left to right and the first
-# integer of each row is greater than the last integer of
-# the previous row.
-
-# Write a script to find a given integer in the matrix
-# using an efficient search algorithm.
-
-# But how do we know what's efficient?
+use v5.36;
 
 my $matrix = [
     [ 1,  2,  3,  5,  7 ],

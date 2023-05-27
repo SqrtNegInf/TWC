@@ -1,15 +1,5 @@
 #!/usr/bin/env perl
-
-# Perl Weekly Challenge - 111
-# - https://perlweeklychallenge.org/blog/perl-weekly-challenge-111/#TASK1
-#
-# Task 1 - Search Matrix
-#
-# Author: Niels 'PerlBoy' van Dijke
-
-use v5.16;
-use strict;
-use warnings;
+use v5.36;
 
 use List::BinarySearch qw(binsearch_pos);
 
@@ -17,7 +7,7 @@ use Data::Printer;
 use Test::More;
 
 # Prototype(s)
-sub searchMatrix(\@$);
+sub searchMatrix :prototype(\@$);
 
 my @m = (
   [  1,  2,  3,  5,  7 ],
@@ -33,7 +23,7 @@ is (searchMatrix(@m,39),1);
 done_testing;
 
 
-sub searchMatrix(\@$) {
+sub searchMatrix :prototype(\@$) {
   my ($arM,$i) = @_;
 
   # Flatten matrix to ordered list

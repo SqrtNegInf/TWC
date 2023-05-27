@@ -1,43 +1,5 @@
 #!/usr/bin/env perl
-
-use 5.032;
-
-use strict;
-use warnings;
-no  warnings 'syntax';
-
-use experimental 'signatures';
-use experimental 'lexical_subs';
-
-#
-# See ../README.md
-#
-
-#
-# Run as: perl ch-1.pl [bsearch] < input-file
-#
-
-#
-# This challenge confuses me. We're basically asked to find a number
-# in a sorted list. Which in languages without hashes one would solve
-# with binary search (yielding an O (log N) solution), and in languages
-# with hashes you'd use a hash (yielding an O (1) (expected) time solution).
-# Sure, the hash takes linear preprocessing time, but since we're asked
-# to write a script, we're spending linear time reading in the data
-# anyway.
-#
-# Perhaps the intend was a subroutine which takes a matrix and a target
-# number, but that was not what is being asked. The challenge explicitly
-# asks for *a script*, which means we have to spend a linear amount of 
-# time reading data anyway.
-#
-# Just to cover our bases, we'll do two implementation. Without arguments,
-# we'll do that fast, hash bases, implementation. If the program is
-# given the 'bsearch' argument, we will make use of a subroutine which
-# takes a 2-d matrix and a target number as parameters, and which uses
-# a bog standard binary search implementation to find out whether the
-# target exists.
-#
+use v5.36;
 
 my $MATRIX_SIZE = 5;
 

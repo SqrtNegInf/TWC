@@ -97,12 +97,7 @@
 ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ##
 
 
-
-use warnings;
-use strict;
-use feature ":5.26";
-use feature qw(signatures);
-no warnings 'experimental::signatures';
+use v5.36;
 
 our $mat = [  [  1,  2,  3,  5,  7 ],
               [  9, 11, 15, 19, 20 ],

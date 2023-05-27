@@ -1,14 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use strict;
-use warnings;
-##
-# You are given 5x5 matrix filled with integers such that each row 
-# is sorted from left to right and the first integer of each row is 
-# greater than the last integer of the previous row.
-# Write a script to find a given integer in the matrix using an efficient 
-# search algorithm.
-##
 use boolean;      
 use constant MATRIX_SIZE => 5;   
 
