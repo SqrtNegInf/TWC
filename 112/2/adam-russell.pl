@@ -1,12 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use strict;
-use warnings;
-##
-# You are given $n steps to climb
-# Write a script to find out the distinct ways to climb to the top. 
-# You are allowed to climb either 1 or 2 steps at a time.
-##
 use Array::Compare;
 use Algorithm::Combinatorics q/variations_with_repetition/;
 
@@ -14,7 +8,7 @@ sub steps{
     my($k) = @_; 
     my @data = (0, 1, 2);
     my @steps;  
-    my $comparison = new Array::Compare();
+    my $comparison = Array::Compare->new;
     my $iterator = variations_with_repetition(\@data, $k);
     while(my $combination = $iterator->next()){
         if(unpack("%32C*", pack("C*", @{$combination})) == $k){

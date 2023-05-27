@@ -1,8 +1,6 @@
 #!/usr/bin/env perl
-# The Weekly Challenge 112
-# Task 2 Climb Stairs
-use strict;
-use warnings;
+use v5.36;
+
 use Algorithm::Combinatorics qw /combinations/;
 
 my $n = $ARGV[0] || 5;

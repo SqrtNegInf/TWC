@@ -1,7 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use v5.16;
-use warnings;
 use Math::Prime::Util 'lucasu';
 
 # Are Abigail and Abigail the same person?  See perlsecret.

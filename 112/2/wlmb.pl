@@ -1,13 +1,9 @@
 #!/usr/bin/env perl
-# Perl weekly challenge 112
-# Task 2: Climb stairs. List ways, second attempt try.
-#
-# See https://wlmb.github.io/2021/05/12/PWC112/#task-2-climb-stairs
-  use strict;
-  use warnings;
-  use v5.12;
-  use List::Util qw(sum0 first);
-  foreach my $n(5){  # Number of steps from @ARGV
+use v5.36;
+
+use List::Util qw(sum0 first);
+
+foreach my $n(5){  # Number of steps from @ARGV
       say "\nInput: $n\nCombinations:";
       foreach my $n2(0..$n/2){
 	  my $n1=$n-2*$n2;
@@ -17,9 +13,9 @@
 	      say join ",", map {$_==0?"double":"single"} @combination;
 	  }
       }
-  }
+}
 
-  sub combinator { # produces combinations of n taken k at a time
+sub combinator { # produces combinations of n taken k at a time
       my ($n,$k)=@_;
       my @number=((1) x $k, (0) x ($n-$k)); # binary $n-bit number as array
       my $done=0;
@@ -32,7 +28,7 @@
 	  $done=1;
 	  return;
       }
-  }
+}
 
 sub following {
     my @number=@_;
