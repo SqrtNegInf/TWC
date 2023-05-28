@@ -1,7 +1,4 @@
  
-===> 107/1/abigail.pl <===
-1210, 2020, 21200
- 
 ===> 107/1/adam-russell.pl <===
 Base 4:1210
 Base 4:2020
@@ -101,11 +98,6 @@ assembled numbers:
 	1210
 	2020
 	21200
- 
-===> 107/1/duncan-c-white.pl <===
-1210
-2020
-21200
  
 ===> 107/1/jaldhar-h-vyas.pl <===
 1210, 2020, 21200

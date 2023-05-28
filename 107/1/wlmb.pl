@@ -1,16 +1,8 @@
 #!/usr/bin/env perl
-# Perl weekly challenge 107
-# Task 1: Self-descriptive Numbers
-# Use some properties to accelerate their generation
-# Use letter to go beyond base 10
-#
-# See https://wlmb.github.io/2021/04/05/PWC107/#task-1-self-descriptive-numbers
-use strict;
-use warnings;
-use v5.12;
+use v5.36;
+
 use List::Util qw(all);
 
-#die 'Use: ./ch1.pl howmany' unless @ARGV;
 my $howmany=shift // 3;
 exit unless $howmany > 0;
 my @results;

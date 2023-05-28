@@ -1,7 +1,6 @@
 #!/usr/bin/env perl
-no warnings;
-use strict;
-use feature ":5.26";
+use v5.36;
+no warnings 'uninitialized';
 
 use bigint;
 

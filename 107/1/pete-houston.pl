@@ -1,22 +1,6 @@
 #!/usr/bin/env perl
-#===============================================================================
-#
-#         FILE: 10701.pl
-#
-#        USAGE: ./10701.pl  
-#
-#  DESCRIPTION: Outputs the first 3 self-descriptive numbers
-#
-# REQUIREMENTS: Perl 5.10, List::Util
-#       AUTHOR: Pete Houston (pete), cpan@openstrike.co.uk
-# ORGANIZATION: Openstrike
-#      VERSION: 1.0
-#      CREATED: 06/04/21
-#===============================================================================
+use v5.36;
 
-use strict;
-use warnings;
-use 5.010;
 use List::Util 'sum';
 
 my $x = 0;

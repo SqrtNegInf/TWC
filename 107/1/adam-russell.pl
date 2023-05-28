@@ -1,9 +1,6 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-##
-# Write a script to generate self-descriptive numbers.
-##
+use v5.36;
+
 use Thread; 
 use boolean;
 use constant SDN_COUNT => 3;

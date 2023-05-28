@@ -1,21 +1,11 @@
 #!/usr/bin/env perl
-
-# Perl Weekly Challenge - 107
-# - https://perlweeklychallenge.org/blog/perl-weekly-challenge-107/#TASK1
-#
-# Task 1 - Self-descriptive Numbers
-#
-# Author: Niels 'PerlBoy' van Dijke
-
-use v5.16;
-use strict;
-use warnings;
+use v5.36;
 
 use List::Util qw(min);
 
 # Prototypes
-sub incBaseNnumber ($\@);
-sub isSelfDescriptiveBaseNnumber ($\@);
+sub incBaseNnumber :prototype($\@);
+sub isSelfDescriptiveBaseNnumber :prototype($\@);
 
 my ($found, $base) = (0, 1);
 
@@ -32,7 +22,7 @@ while ($found < 3) {
 
 
 # This subroutine will only work up to base 26
-sub incBaseNnumber ($\@) {
+sub incBaseNnumber :prototype($\@) {
   my ($b,$arDigits) = @_;
 
   my ($overflow,$d,$dMax) = (0,0,scalar(@$arDigits));
@@ -51,7 +41,7 @@ sub incBaseNnumber ($\@) {
 
 
 # This subroutine will only work up to base 10
-sub isSelfDescriptiveBaseNnumber ($\@) {
+sub isSelfDescriptiveBaseNnumber :prototype($\@) {
   my ($b,$arDigits) = @_;
 
   my @checkDigit;

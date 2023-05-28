@@ -1,11 +1,6 @@
 #!/usr/bin/env perl
-# The Weekly Challenge 
-# Task 1 Self-descriptive numbers
-# Usage: $ ch-1.pl N
-#        first N self-descriptive numbers
+use v5.36;
 
-use strict;
-use warnings;
 use Algorithm::Combinatorics qw(permutations combinations);
 use Integer::Partition;
 
