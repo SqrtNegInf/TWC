@@ -1,16 +1,5 @@
 #!/usr/bin/env perl
-
-# Perl Weekly Challenge - 106
-# - https://perlweeklychallenge.org/blog/perl-weekly-challenge-106/#TASK1
-#
-# Task 1 - Maximum Gap
-#
-# Author: Niels 'PerlBoy' van Dijke
-#
-
-use v5.16;
-use strict;
-use warnings;
+use v5.36;
 
 use List::Util qw(max);
 use List::MoreUtils qw(pairwise);

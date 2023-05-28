@@ -1,12 +1,6 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-##
-# You are given an array of integers @N.
-# Write a script to display the maximum 
-# difference between two successive elements 
-# once the array is sorted.
-##
+use v5.36;
+
 sub max_difference_sorted{
     my(@sorted) = @_;
     return 0 if(@sorted == 1);

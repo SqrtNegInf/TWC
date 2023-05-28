@@ -1,12 +1,6 @@
 #!/usr/bin/env perl
-# Perl weekly challenge 106
-# Task 1: Maximum gap
-#
-# See https://wlmb.github.io/2021/03/29/PWC106/#task-1-maximum-gap
+use v5.36;
 
-use strict;
-use warnings;
-use v5.12;
 use List::Util qw(reduce);
 
 my @sorted=sort {$a<=>$b} (1, 3, 8, 2, 0);

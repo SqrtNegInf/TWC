@@ -1,10 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-
-use strict;
-use warnings;
-
-#Input
 my @N = (2, 9, 3, 5);
 
 my $result = 0;

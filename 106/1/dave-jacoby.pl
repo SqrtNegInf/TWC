@@ -1,12 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-use feature qw{ postderef say signatures state };
-no warnings qw{ experimental };
-
-use JSON;
-my $json = JSON->new->pretty;
+use v5.36;
 
 my $inputs = [
 

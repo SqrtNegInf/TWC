@@ -1,10 +1,5 @@
 #!/usr/bin/env perl
-# The Weekly Challenge 106
-# Task 1 Maximum Gap
-# Usage: ch-1.pl @N
-
-use strict;
-use warnings;
+use v5.36;
 
 my @N = <1 3 8 2 0>;
 

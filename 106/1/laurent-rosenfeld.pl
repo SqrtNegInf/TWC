@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use feature "say";
+use v5.36;
 
 my @input = (2, 9, 3, 5);
 my @sorted = sort { $a <=> $b} @input;

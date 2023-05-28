@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-use warnings;
-use strict;
+use v5.36;
 
 sub maximum_gap {
     my @arr = sort { $a <=> $b } @_;

@@ -26,12 +26,8 @@
 ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ##
 
 
+use v5.36;
 
-use warnings;
-use strict;
-use feature ":5.26";
-use feature qw(signatures);
-no warnings 'experimental::signatures';
 use List::Util qw(reduce max);
 
 my @input =  (2, 19, 13, 15);

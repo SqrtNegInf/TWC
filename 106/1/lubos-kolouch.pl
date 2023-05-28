@@ -1,22 +1,5 @@
 #!/usr/bin/env perl
-#===============================================================================
-#
-#         FILE: ch-1.pl
-#
-#        USAGE: ./ch-1.pl  
-#
-#  DESCRIPTION: Perl Weekly Challenge 106
-#               Task 1 - Maximum Gap
-#
-#       AUTHOR: Lubos Kolouch
-# ORGANIZATION: 
-#      VERSION: 1.0
-#      CREATED: 04/03/2021 12:59:25 PM
-#     REVISION: ---
-#===============================================================================
-
-use strict;
-use warnings;
+use v5.36;
 
 sub get_max_diff {
     my $what = shift;
