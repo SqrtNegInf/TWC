@@ -1,9 +1,5 @@
 #!/usr/bin/env perl
-use warnings;
-use v5.12;
-
-# run <script> <path-to-package>
-# defaults to warnings.pm
+use v5.36;
 
 use File::Basename;
 no strict 'refs';

@@ -1,9 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-no strict 'refs';
-use warnings;
-use feature 'say';
+use v5.36;
 
 sub _inc_filename {
     my $name = shift;

@@ -1,4 +1,5 @@
 #!/usr/bin/env perl
+use v5.36;
 
 package Calc
 {
@@ -12,8 +13,6 @@ package Calc
      1;
 }
 package main;
-use 5.020;
-use warnings;
 
 for my $key (sort keys %Calc::) {
     say $key;

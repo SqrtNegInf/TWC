@@ -1,21 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use 5.032;
-
-use strict;
-use warnings;
-no  warnings 'syntax';
-
-use experimental 'signatures';
-use experimental 'lexical_subs';
-
-#
-# See ../README.md
-#
-
-#
-# Run as: perl ch-2.pl module
-#
 # where 'module' is the name of the module to be inspected, and 
 # this module is to be found in a file named 'module.pm' (with ::
 # replaced by '/'), somewhere in @INC.

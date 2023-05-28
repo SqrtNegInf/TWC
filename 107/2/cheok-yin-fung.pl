@@ -1,15 +1,6 @@
 #!/usr/bin/env perl
-# The Weekly Challenge 107 
-# Task 2 List Methods
-# ---
-# Note: I would like to check the syntax of the program first. But
-# my $test_return = `perl -c $program`; 
-# Why is $test_return empty? Where can I get the return of perl -c ?
-# ---
-# Usage:  ch-2.pl [complete name of the script]
+use v5.36;
 
-
-#die "Please input Perl scripts you want to check.\n" if !defined($ARGV[0]);
 
 my $program = $ARGV[0] // 'Calc.pm';
 

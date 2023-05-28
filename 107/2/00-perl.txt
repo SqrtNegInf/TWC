@@ -25,13 +25,6 @@ div
 mul
 new
  
-===> 107/2/duncan-c-white.pl <===
-BEGIN
-add
-div
-mul
-new
- 
 ===> 107/2/e-choroba.pl <===
 BEGIN
 add
@@ -83,7 +76,6 @@ ok 2 - skipped test # skip tests
 1..2
  
 ===> 107/2/mohammad-anwar.pl <===
-BEGIN
 add
 div
 mul
@@ -104,50 +96,7 @@ div
 mul
 new
  
-===> 107/2/roger-bell-west.pl <===
-all
-any
-bootstrap
-first
-head
-import
-max
-maxstr
-mesh
-mesh_longest
-mesh_shortest
-min
-minstr
-none
-notall
-pairfirst
-pairgrep
-pairkeys
-pairmap
-pairs
-pairvalues
-product
-reduce
-reductions
-sample
-shuffle
-sum
-sum0
-tail
-uniq
-uniqint
-uniqnum
-uniqstr
-unpairs
-zip
-zip_longest
-zip_shortest
- 
 ===> 107/2/sgreen.pl <===
-add
-div
-mul
-new
  
 ===> 107/2/stuart-little.pl <===
 Croaker
