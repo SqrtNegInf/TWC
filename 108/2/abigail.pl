@@ -1,21 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use 5.032;
-
-use strict;
-use warnings;
-no  warnings 'syntax';
-
-use experimental 'signatures';
-use experimental 'lexical_subs';
-
-#
-# See ../README.md
-#
-
-#
-# Run as: perl ch-2.pl [plain|fetch|compute]
-#
 #
 # Three solutions, depending on the command line argument:
 #   1) We just print the first 10 Bell numbers. The simplest solution.

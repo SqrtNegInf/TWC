@@ -1,9 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use strict;
-
-use warnings;
-use feature qw(say);
 use Test::More;
 
 my $ANSWER_10 = '1 1 2 5 15 52 203 877 4140 21147';

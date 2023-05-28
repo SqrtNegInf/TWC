@@ -1,12 +1,5 @@
 #!/usr/bin/env perl
-# Perl weekly challenge 108
-# Task 2: Bell numbers
-# Complete enumeration.
-#
-# See https://wlmb.github.io/2021/04/12/PWC108/#task-2-bell-numbers
-use warnings;
-use strict;
-use v5.12;
+use v5.36;
 
 use Memoize;
 memoize('bell');

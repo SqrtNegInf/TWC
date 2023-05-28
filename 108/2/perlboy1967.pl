@@ -1,17 +1,5 @@
 #!/usr/bin/env perl
-
-# Perl Weekly Challenge - 108
-# - https://perlweeklychallenge.org/blog/perl-weekly-challenge-108/#TASK2
-#
-# Task 2 - Bell Numbers
-#
-# Author: Niels 'PerlBoy' van Dijke
-#
-# Using the 'Bell triangle' algorithm
-
-use v5.16;
-use strict;
-use warnings;
+use v5.36;
 
 # To have integer results over nB > 26 on my machine:
 use bigint;

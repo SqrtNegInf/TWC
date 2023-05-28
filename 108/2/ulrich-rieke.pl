@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-use strict ;
-use warnings ;
-use feature 'say' ;
+use v5.36;
 
 my @bellnumbers = ( 1 ) ;
 my @current_row ; #for the row we collect numbers in

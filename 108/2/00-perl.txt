@@ -41,19 +41,6 @@ The first 10 Bell numbers:
     B8: 4140
     B9: 21147
  
-===> 108/2/cheok-yin-fung.pl <===
- 0          1 
- 1          1 
- 2          2 
- 3          3 
- 4          4 
- 5          6 
- 6          9 
- 7         12 
- 8         17 
- 9         23 
-10         30 
- 
 ===> 108/2/colin-crain.pl <===
       B(0) 1
       B(1) 1
@@ -94,9 +81,6 @@ The first 10 Bell numbers:
 6 - 0 - 203 - 203 - a,b,c,d,e,f
 
  
-===> 108/2/duncan-c-white.pl <===
-1,1,2,5,15,52,203,877,4140,21147
- 
 ===> 108/2/jaldhar-h-vyas.pl <===
 1 1 2 5 15 52 203 877 4140 21147 
  
@@ -118,9 +102,6 @@ ok 8
 ok 9
 ok 10
 1..10
- 
-===> 108/2/laurent-rosenfeld.pl <===
-1 1 2 5 15 52 203 877 4140 21147
  
 ===> 108/2/mohammad-anwar.pl <===
 ok 1

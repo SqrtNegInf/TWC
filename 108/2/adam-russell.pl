@@ -1,9 +1,6 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-##
-# Write a script to display the first 10 Bell Numbers.
-##
+use v5.36;
+
 sub bell_triangle{
     my($n) = @_; 
     my @bell_numbers = ([]);

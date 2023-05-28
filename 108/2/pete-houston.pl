@@ -1,21 +1,5 @@
 #!/usr/bin/env perl
-#===============================================================================
-#
-#         FILE: 10802.pl
-#
-#        USAGE: ./10802.pl  
-#
-#  DESCRIPTION: Bell numbers 0 to 9 via triangle method
-#               https://en.wikipedia.org/wiki/Bell_triangle
-#
-#       AUTHOR: Pete Houston (pete), cpan@openstrike.co.uk
-# ORGANIZATION: Openstrike
-#      VERSION: 1.0
-#      CREATED: 12/04/21
-#===============================================================================
-
-use strict;
-use warnings;
+use v5.36;
 
 my $max = 9;
 my @t = ([1]);
