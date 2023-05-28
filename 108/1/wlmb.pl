@@ -1,11 +1,5 @@
 #!/usr/bin/env perl
-# Perl weekly challenge 108
-# Task 1: Locate Memory
-#
-# See https://wlmb.github.io/2021/04/12/PWC108/#task-1-locate-memory
-use strict;
-use warnings;
-use v5.12;
+use v5.36;
 
 use constant PI=>3.14;
 

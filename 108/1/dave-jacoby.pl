@@ -1,9 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-use feature qw{ postderef say signatures state };
-no warnings qw{ experimental };
+use v5.36;
 
 # I am not 100% sure I understand this task
 

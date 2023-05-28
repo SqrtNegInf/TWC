@@ -1,10 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings FATAL => qw(all);
-
-=prompt
-Write a script to declare a variable or constant and print its location in the memory.
-=cut
+use v5.36;
 
 my $var = 'Test';
 my $address = sprintf("%p", $var);

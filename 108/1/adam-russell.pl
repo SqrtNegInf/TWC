@@ -1,9 +1,6 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-##
-# Write a script to declare a variable or constant and print its location in memory.
-##
+use v5.36;
+
 use Devel::Peek;
 use Capture::Tiny q/capture_stderr/;
 use constant A => "test";

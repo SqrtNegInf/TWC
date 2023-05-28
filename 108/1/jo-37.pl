@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-
-use v5.16;
-use warnings;
-use experimental qw(signatures);
+use v5.36;
 
 my $scalar;
 say addr(\$scalar);

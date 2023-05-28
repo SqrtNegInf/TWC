@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-use 5.024;
-use warnings;
+use v5.36;
 
 use Scalar::Util 'refaddr';
 sub locate_memory { refaddr(ref($_[0]) ? $_[0] : \$_[0]) }

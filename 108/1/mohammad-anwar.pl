@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
+use v5.36;
 
 my $n = 1;
 \$n =~ /SCALAR\((.*)\)/ and print "$1\n";

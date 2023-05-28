@@ -1,11 +1,7 @@
 #!/usr/bin/env perl
-use warnings;
-use strict;
-use feature ":5.26";
-use feature qw(signatures);
-no  warnings 'experimental::signatures';
-use Devel::Peek qw(Dump);
+use v5.36;
 
+use Devel::Peek qw(Dump);
 
 my $foo = "this is a string";
 my $foo_ref = \$foo;
