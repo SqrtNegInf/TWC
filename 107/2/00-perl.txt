@@ -96,8 +96,6 @@ div
 mul
 new
  
-===> 107/2/sgreen.pl <===
- 
 ===> 107/2/stuart-little.pl <===
 Croaker
 __chk
