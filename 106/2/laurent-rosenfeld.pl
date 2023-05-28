@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use feature "say";
-
+use v5.36;
 sub compute_dec_str {
     my ($num, $den) = @_;
     die "Please provide positive numbers" if $num < 0 or $den <= 0;

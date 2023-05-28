@@ -37,12 +37,7 @@
 ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ##
 
 
-
-use warnings;
-use strict;   
-use feature ":5.26";
-use feature qw(signatures);             
-no warnings 'experimental::signatures';
+use v5.36;
 
 sub get_decimal_string ($num, $den) {
     ## fraction is numerator over denominator

@@ -15,9 +15,6 @@
 Input:  $N = 2, $D = 24
 Output: "0.08(3)"
  
-===> 106/2/cheok-yin-fung.pl <===
-0.08(3)
- 
 ===> 106/2/colin-crain.pl <===
 ok 1 - 2/1
 ok 2 - 2/2
@@ -70,9 +67,6 @@ Output: 0.75
 Input:  $N = 5, $D = 66, 
 Output: 0.0(75)
 
- 
-===> 106/2/duncan-c-white.pl <===
-0.08(3)
  
 ===> 106/2/e-choroba.pl <===
 1..6

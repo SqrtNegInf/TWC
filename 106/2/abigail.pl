@@ -1,26 +1,5 @@
 #!/usr/bin/env perl
-
-use 5.032;
-
-use strict;
-use warnings;
-no  warnings 'syntax';
-
-use experimental 'signatures';
-use experimental 'lexical_subs';
-
-#
-# See ../README.md
-#
-
-#
-# Run as: perl ch-2.pl < input-file
-#
-
-#
-# We are assuming the input consists of pairs of non-negative 
-# integers, with the denominator greater than 0.
-#
+use v5.36;
 
 #
 # To determine the repeating digits of a fraction, it's very tempting

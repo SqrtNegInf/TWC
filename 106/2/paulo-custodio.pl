@@ -1,4 +1,5 @@
 #!/usr/bin/env perl
+use v5.36;
 
 # Challenge 106
 #
@@ -19,7 +20,6 @@
 # Input: $N = 5, $D = 66
 # Output: "0.0(75)"
 
-use Modern::Perl;
 use Math::BigFloat;
 
 my($N, $D) = (2,24);

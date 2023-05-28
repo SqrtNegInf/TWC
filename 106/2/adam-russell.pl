@@ -1,11 +1,6 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-##
-# You are given numerator and denominator i.e. $N and $D.
-# Write a script to convert the fraction into decimal string. 
-# If the fractional part is recurring then put it in parenthesis.
-##
+use v5.36;
+
 use boolean;
 
 sub divide{

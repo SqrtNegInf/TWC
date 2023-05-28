@@ -1,17 +1,5 @@
 #!/usr/bin/env perl
-
-# Perl Weekly Challenge - 106
-# - https://perlweeklychallenge.org/blog/perl-weekly-challenge-106/#TASK2
-#
-# Task 1 - Decimal String
-#
-# Author: Niels 'PerlBoy' van Dijke
-#
-# See: https://en.wikipedia.org/wiki/Repeating_decimal
-
-use v5.16;
-use strict;
-use warnings;
+use v5.36;
 
 @ARGV = (1, 46)
   unless scalar(@ARGV) >= 2;

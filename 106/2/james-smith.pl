@@ -1,9 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use strict;
-
-use warnings;
-use feature qw(say);
 use Test::More;
 
 is( decimal_string(1,97), '0.(010309278350515463917525773195876288659793814432989690721649484536082474226804123711340206185567)' );

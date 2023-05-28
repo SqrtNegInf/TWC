@@ -1,11 +1,5 @@
 #!/usr/bin/env perl
-use warnings;
-use v5.12;
-
-# run <script> <numerator> <denominator>
-
-use feature qw(signatures);
-no warnings qw(experimental::signatures);
+use v5.36;
 
 use bigint;
 use List::Util qw(max);
