@@ -1,5 +1,5 @@
 #!/usr/bin/env raku
-use v6;
+
 sub MAIN {
    my @tests =
       [[0, 0, 1, 1], [1, 0, 1, 0], [1, 1, 0, 0]],

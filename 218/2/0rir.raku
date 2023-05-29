@@ -1,36 +1,5 @@
 #!/usr/bin/env raku
-# :vim ft=raku sw=4 expandtab  # 🦋 ∅∪∩∋∈∉ ≡ ≢ «␤ » ∴
-use v6.d;
 use Test;
-
-=begin comment
-Task 2: Matrix Score                Submitted by: Mohammad S Anwar
-Given a m x n binary matrix i.e. having only 1 and 0, make as many
-moves as you want to get the highest score.
-
-A move can be either toggling all values in a row or column.
-
-To get the score, convert each row's binary value to decimal and
-return the sum.
-
-Example 1:
-Input: @matrix = [ [0,0,1,1], [1,0,1,0], [1,1,0,0], ]
-Output: 39
-
-Move #1: convert row #1 => 1100
-         [ [1,1,0,0], [1,0,1,0], [1,1,0,0], ]
-
-Move #2: convert col #3 => 101
-         [ [1,1,1,0], [1,0,0,0], [1,1,1,0], ]
-
-Move #3: convert col #4 => 111
-         [ [1,1,1,1], [1,0,0,1], [1,1,1,1], ]
-
-Score: 0b1111 + 0b1001 + 0b1111 => 15 + 9 + 15 => 39
-Example 2:
-Input: @matrix = [ [0] ]
-Output: 1
-=end comment
 
 my @Test =
     [ [0,0,0,1], [0,0,0,1], [0,0,0,1],], 45,

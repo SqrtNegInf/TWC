@@ -1,4 +1,5 @@
 #!/usr/bin/env raku
+
 sub task2 ( @m_original ) {
     my @m = @m_original.map: *.clone.Array;
     sub flip_col ( $c ) { @m[$_][$c] = + ! @m[$_][$c] for    @m.keys }
@@ -22,6 +23,7 @@ my @tests =
     (  1, ( (0,),                           ) ),
     (  1, ( (1,),                           ) ),
 ;
+
 use Test;
 plan +@tests;
 for @tests -> ( $expected, @in ) {

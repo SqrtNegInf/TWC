@@ -1,12 +1,14 @@
 #!/usr/bin/env raku
 
-sub MAIN(
-    *@args
-) {
-    my @matrix;
-    for 0 .. @args.end -> $i {
-        @matrix[$i].push(| @args[$i].split(/','/));
-    }
+# wrong answer?
+
+#sub MAIN(
+    my @matrix = ([0,0,1,1], [1,0,1,0], [1,1,0,0]);
+#) {
+#    my @matrix;
+#    for 0 .. @args.end -> $i {
+#        @matrix[$i].push(| @args[$i].split(/','/));
+#    }
     my $m = @matrix.elems;
     my $n = @matrix[0].elems;
 
@@ -28,4 +30,4 @@ sub MAIN(
     }
 
     @matrix.map({ '0b' ~ @$_.join(q{}) }).sum.say;
-}
+#}

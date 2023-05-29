@@ -1,10 +1,4 @@
 #!/usr/bin/env raku
-#---------------------------------------------
-# AUTHOR: Robert DiCicco
-# DATE  : 2023-05-26
-# Challenge 218 MatrixScore.py ( Raku )
-#---------------------------------------------
-use v6;
 
 my @matrix = [ [0,0,1,1],
            [1,0,1,0],

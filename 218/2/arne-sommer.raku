@@ -10,9 +10,10 @@ die "The rows must have the same size" unless [==] @rows;
 die "Must contain 0 and 1 only" unless all(@matrix[*;*]) eq any(0,1);
 
 my $cols = @matrix[0].elems;
+my $rows = @rows.elems;
 
 say ": Matrix: { @matrix.raku } " if $verbose;
-say ": - Size: rows:$rows cols:$cols" if $verbose;
+#say ": - Size: rows:$rows cols:$cols" if $verbose;
 
 for ^$rows -> $row-id
 {
