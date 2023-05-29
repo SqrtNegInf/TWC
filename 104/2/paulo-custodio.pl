@@ -1,6 +1,8 @@
 #!/usr/bin/env perl
+use v5.36;
 
 srand 1;
+
 # Challenge 104
 #
 # TASK #2 › NIM Game
@@ -18,8 +20,6 @@ srand 1;
 
 # A plays to win, B plays randomly, A wins 91% of the time
 # If both play to win, the second player to play always wins
-
-use Modern::Perl;
 
 sub play_to_win {
     my($T) = @_;

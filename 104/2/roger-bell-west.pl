@@ -1,8 +1,7 @@
 #!/usr/bin/env perl
+use v5.36;
 
 srand 1;
-use strict;
-use warnings;
 
 use Test::More tests => 3;
 
