@@ -1,9 +1,6 @@
 #!/usr/bin/env perl
-use 5.024;
-use warnings;
-use experimental qw< postderef signatures >;
-no warnings qw< experimental::postderef experimental::signatures >;
-use autodie;
+use v5.36;
+
 use File::Spec::Functions qw< splitpath catpath >;
 
 sub what_s_playing ($start, $now, $file) {

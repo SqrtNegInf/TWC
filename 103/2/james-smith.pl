@@ -1,11 +1,7 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use strict;
-
-use warnings;
-use feature qw(say);
 use Test::More;
-use Data::Dumper qw(Dumper);
 
 is( position( 1606134123, 1614591276, 'filelist.csv'),
   'Les Miserables Episode 1: The Bishop (broadcast'.

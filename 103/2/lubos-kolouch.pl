@@ -1,19 +1,5 @@
 #!/usr/bin/env perl
-#===============================================================================
-#
-#         FILE: ch-2.pl
-#
-#        USAGE: ./ch-2.pl  
-#
-#  DESCRIPTION: Perl Weekly Challenge 103
-#               Task 1 - What's Playing?
-#
-#       AUTHOR: Lubos Kolouch 
-#      CREATED: 03/13/2021 11:06:43 AM
-#===============================================================================
-
-use strict;
-use warnings;
+use v5.36;
 
 sub now_playing {
     my $what = shift;

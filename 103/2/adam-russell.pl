@@ -1,9 +1,6 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-##
-# Write a program to output which file is currently playing.
-##
+use v5.36;
+
 sub song_times{
     my($file_name) = @_; 
     my %song_times;
