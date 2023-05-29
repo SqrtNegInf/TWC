@@ -456,8 +456,8 @@ Challenge titles and Rosetta-code correspondences (exact, and otherwise)
 217-2 Max Number
 218-1 Maximum Product
 218-2 Matrix Score
-219-1
-219-2
+219-1 Sorted Squares
+219-2 Travel Expenditure
 
 220-1
 220-2
