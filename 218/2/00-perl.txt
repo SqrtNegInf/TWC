@@ -1,0 +1,59 @@
+ 
+===> 218/2/cheok-yin-fung.pl <===
+1..2
+ok 1
+ok 2
+ 
+===> 218/2/e-choroba.pl <===
+1..5
+ok 1 - score
+ok 2 - flip column
+ok 3 - flip row
+ok 4 - Example 1
+ok 5 - Example 2
+ 
+===> 218/2/lubos-kolouch.pl <===
+39
+1 
+===> 218/2/perlboy1967.pl <===
+ok 1
+1..1
+ 
+===> 218/2/peter-campbell-smith.pl <===
+
+Input:  [ 0, 0, 1, 1 ]
+        [ 1, 0, 1, 0 ]
+        [ 1, 1, 0, 0 ]
+
+Output: [ 1, 1, 1, 1 ]
+        [ 1, 0, 0, 1 ]
+        [ 1, 1, 1, 1 ]
+        sum = 39
+
+Input:  [ 0 ]
+
+Output: [ 1 ]
+        sum = 1
+
+Input:  [ 0, 0, 0, 0, 1 ]
+        [ 0, 1, 0, 0, 0 ]
+        [ 0, 0, 0, 1, 0 ]
+        [ 0, 0, 1, 0, 0 ]
+
+Output: [ 1, 1, 1, 1, 0 ]
+        [ 1, 0, 1, 1, 1 ]
+        [ 1, 1, 1, 0, 1 ]
+        [ 1, 1, 0, 1, 1 ]
+        sum = 109
+ 
+===> 218/2/polettix.pl <===
+39
+1
+ 
+===> 218/2/roger-bell-west.pl <===
+1..2
+ok 1 - example 1
+ok 2 - example 2
+ 
+===> 218/2/steve-g-lynn.pl <===
+391

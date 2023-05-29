@@ -1,4 +1,4 @@
-#!/usr/bin/env perl
+#!/usr/bin/env perl5.32.1
 
 #-- algorithm from https://leetcode.com/problems/score-after-flipping-matrix/solutions/2563853/easy-to-understand-basic-python-solution-with-explanation/
 

@@ -2,6 +2,7 @@
 use v5.24;
 use warnings;
 use experimental 'signatures';
+
 use List::Util 'sum';
 
 say matrix_score($_) for test_matrixes();

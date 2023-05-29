@@ -1,9 +1,8 @@
 #!/usr/bin/env perl
-# The Weekly Challenge 218
-# Task 2 Matrix Score
 
 use v5.30.0;
 use warnings;
+
 use List::Util qw/max sum/;
 
 sub toggle_or_not {

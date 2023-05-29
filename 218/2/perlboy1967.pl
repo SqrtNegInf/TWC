@@ -1,25 +1,5 @@
 #!/usr/bin/env perl
 
-=pod
-
-The Weekly Challenge - 217
-- https://theweeklychallenge.org/blog/perl-weekly-challenge-217
-
-Author: Niels 'PerlBoy' van Dijke
-
-Task 2: Matrix Score
-Submitted by: Mohammad S Anwar
-
-You are given a m x n binary matrix i.e. having only 1 and 0.
-
-You are allowed to make as many moves as you want to get the highest score.
-
-|| A move can be either toggling each value in a row or column.
-
-To get the score, convert the each row binary to dec and return the sum.
-
-=cut
-
 use v5.16;
 
 use common::sense;

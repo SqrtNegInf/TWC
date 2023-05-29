@@ -1,7 +1,6 @@
 #!/usr/bin/env perl
 
 use v5.16;    # The Weekly Challenge - 2023-05-22
-use utf8;     # Week 218 task 2 - Matrix score
 use strict;   # Peter Campbell Smith
 use warnings; # Blog: http://ccgi.campbellsmiths.force9.co.uk/challenge
 
