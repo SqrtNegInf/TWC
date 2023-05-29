@@ -1,10 +1,6 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-##
-# You are given positive numbers $N and $k.
-# Write a script to find out the $Nth root of $k. 
-##
+use v5.36;
+
 sub nth_root{
     my($n, $k) = @_;
     my $x_i = int(rand(10) + 1); 

@@ -9,13 +9,6 @@
 ===> 105/1/arne-sommer.pl <===
 2.02439745849989
  
-===> 105/1/cheok-yin-fung.pl <===
-WARN: Recommend to take the result from Newton's method if two methods dispute
-By lazy method:
-2.02
-By Newton's method:
-2.02
- 
 ===> 105/1/colin-crain.pl <===
 ok 1 - ex-1
 ok 2 - ex-2
@@ -27,9 +20,6 @@ ok 3 - 5^3
  
 ===> 105/1/dave-jacoby.pl <===
 5th root of 34 = 2.02439745849989
- 
-===> 105/1/duncan-c-white.pl <===
-5th root of 34 is 2.02439745849989
  
 ===> 105/1/e-choroba.pl <===
 1..2
@@ -43,14 +33,6 @@ ok 2
 ok 1
 ok 2
 1..2
- 
-===> 105/1/jo-37.pl <===
-# Seeded srand with seed '1' from import arg.
-ok 1 - example 1
-ok 2 - example 2
-ok 3
-ok 4
-1..4
  
 ===> 105/1/laurent-rosenfeld.pl <===
  1	248832.000

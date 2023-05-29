@@ -1,10 +1,7 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
+use v5.36;
 
 
-#Inputs
 my $N = 5;
 my $k = 34;
 

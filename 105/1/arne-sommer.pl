@@ -1,13 +1,7 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use strict;
-use warnings;
-
-use feature 'signatures';
-use feature 'say';
 use Getopt::Long;
-
-no warnings qw(experimental::signatures);
 
 my $N          = 5;
 my $k          = 34;

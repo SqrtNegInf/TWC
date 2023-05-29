@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use feature "say";
+use v5.36;
 
 my $input = $ARGV[0] // 248832;
 for my $i (1..10) {

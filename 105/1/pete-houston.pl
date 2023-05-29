@@ -1,21 +1,5 @@
 #!/usr/bin/env perl
-#===============================================================================
-#
-#         FILE: 10501.pl
-#
-#        USAGE: ./10501.pl ROOT OPERAND
-#
-#  DESCRIPTION: Display the ROOTth root of OPERAND
-#
-#        NOTES: This sems trivial. Have I missed something?
-#       AUTHOR: Pete Houston (pete), cpan@openstrike.co.uk
-# ORGANIZATION: Openstrike
-#      VERSION: 1.0
-#      CREATED: 27/03/21
-#===============================================================================
-
-use strict;
-use warnings;
+use v5.36;
 
 my ($n, $k) = (5,34);
 die "Root ($n) must be more than 1\n" unless $n > 1;
