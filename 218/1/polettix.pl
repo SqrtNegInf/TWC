@@ -3,7 +3,7 @@ use v5.24;
 use warnings;
 use experimental 'signatures';
 
-say maximum_product(@ARGV);
+say maximum_product( ( -8,  2, -9,  0, -4, 3) );
 
 sub maximum_product (@list) {
    @list = sort { $a <=> $b } @list;

@@ -1,9 +1,6 @@
 #!/usr/bin/env perl
-# Perl weekly challenge 218
-# Task 1:  Maximum Product
-#
-# See https://wlmb.github.io/2023/05/22/PWC218/#task-1-maximum-product
 use v5.36;
+
 use List::Util qw(all product);
 say <<~"FIN" unless @ARGV >= 3;
     Usage: $0 N1 N2 N3 [N4...]

@@ -1,9 +1,8 @@
 #!/usr/bin/env perl
-# You are given a list of 3 or more integers.
-# Write a script to find the 3 integers whose product is the maximum and return it.
 
 use strict;
 use warnings;
+
 use Test::More;
 use List::Util qw/ product /;
 

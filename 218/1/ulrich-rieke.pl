@@ -2,13 +2,14 @@
 use strict ;
 use warnings ;
 use feature 'say' ;
+
 use Algorithm::Combinatorics qw ( combinations ) ;
 use List::Util qw ( product max ) ;
 
-say "Enter at least 3 integers, separated by blanks!" ;
-my $line = <STDIN> ;
-chomp $line ;
-my @numbers = split( /\s/ , $line ) ;
+#say "Enter at least 3 integers, separated by blanks!" ;
+#my $line = <STDIN> ;
+#chomp $line ;
+my @numbers = ( -8,  2, -9,  0, -4, 3);
 if ( scalar( @numbers ) == 3 ) {
   say product( @numbers ) ;
 }

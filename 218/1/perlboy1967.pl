@@ -1,21 +1,5 @@
 #!/usr/bin/env perl
 
-=pod
-
-The Weekly Challenge - 217
-- https://theweeklychallenge.org/blog/perl-weekly-challenge-217
-
-Author: Niels 'PerlBoy' van Dijke
-
-Task 1: Maximum Product
-Submitted by: Mohammad S Anwar
-
-You are given a list of 3 or more integers.
-
-Write a script to find the 3 integers whose product is the maximum and return it.
-
-=cut
-
 use v5.16;
 
 use common::sense;

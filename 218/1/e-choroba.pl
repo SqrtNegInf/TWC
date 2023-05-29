@@ -3,7 +3,7 @@ use warnings;
 use strict;
 use experimental qw( signatures );
 
-sraand 1;
+srand 1;
 
 # Optimisation: Select the 3 least and 3 greatest numbers and build
 # the maximum product from them by trying all the possibilities. The
