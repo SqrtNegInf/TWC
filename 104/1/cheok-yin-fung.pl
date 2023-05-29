@@ -1,13 +1,9 @@
 #!/usr/bin/env perl
-# The Weekly Challenge 104
-# FUSC Sequence
-
-use strict;
-use warnings;
+use v5.36;
 
 my @a = (0,1);
 
-for my $i (2..50) {   #fixed on 08:33 BST
+for my $i (2..50) {
     $a[$i] = $i % 2 == 0 ? $a[$i/2] : $a[($i-1)/2]+$a[($i+1)/2];
 }
 

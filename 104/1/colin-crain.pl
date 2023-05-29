@@ -1,5 +1,5 @@
 #!/usr/bin/env perl
-#
+
 #       fusc-yuo-too.pl
 #
 #         TASK #1 › FUSC Sequence
@@ -19,12 +19,8 @@
 ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ##
 
 
+use v5.36;
 
-use warnings;
-use strict;
-use feature ":5.26";
-use feature qw(signatures);
-no warnings 'experimental::signatures';
 use Memoize;
 
 memoize qw(fusc);

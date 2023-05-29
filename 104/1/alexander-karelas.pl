@@ -1,9 +1,5 @@
 #!/usr/bin/env perl
-
-use v5.30;
-use warnings;
-
-use experimental 'signatures';
+use v5.36;
 
 sub fusc ($n) {
     return $n if $n <= 1;

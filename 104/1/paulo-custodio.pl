@@ -1,21 +1,5 @@
 #!/usr/bin/env perl
-
-# Challenge 104
-#
-# TASK #1 › FUSC Sequence
-# Submitted by: Mohammad S Anwar
-# Write a script to generate first 50 members of FUSC Sequence. Please refer to
-# OEIS for more information.
-#
-# The sequence defined as below:
-#
-# fusc(0) = 0
-# fusc(1) = 1
-# for n > 1:
-# when n is even: fusc(n) = fusc(n / 2),
-# when n is odd: fusc(n) = fusc((n-1)/2) + fusc((n+1)/2)
-
-use Modern::Perl;
+use v5.36;
 
 my $N = shift // 50;
 for my $i (0 .. $N-1) {

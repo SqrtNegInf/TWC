@@ -1,19 +1,5 @@
 #!/usr/bin/env perl
-#===============================================================================
-#
-#         FILE: ch-1.pl
-#
-#        USAGE: ./ch-1.pl  
-#
-#  DESCRIPTION: Perl Weekly Challenge 104
-#               Task1 - FUSC fuscuence
-#       AUTHOR: Lubos Kolouch
-#      VERSION: 1.0
-#      CREATED: 03/20/2021 10:42:13 AM
-#===============================================================================
-
-use strict;
-use warnings;
+use v5.36;
 
 sub get_fusc {
     my $what = shift;

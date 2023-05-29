@@ -1,18 +1,5 @@
 #!/usr/bin/env perl
-#1perl
-use strict;
-use warnings FATAL => qw(all);
-
-=prompt
-Write a script to generate first 50 members of FUSC Sequence. The sequence defined as below:
-fusc(0) = 0 fusc(1) = 1
-for n > 1:
-when n is even: fusc(n) = fusc(n / 2),
-when n is odd: fusc(n) = fusc((n-1)/2) + fusc((n+1)/2)
-=cut
-
-
-
+use v5.36;
 
 
 sub generate_fusc

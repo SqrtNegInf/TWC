@@ -1,23 +1,5 @@
 #!/usr/bin/env perl
-#===============================================================================
-#
-#         FILE: 10401.pl
-#
-#        USAGE: ./10401.pl [ N ]
-#
-#  DESCRIPTION: Output first N (or 50) FUSC numbers
-#               There are 2 algorithms here and it outputs both results
-#               to show they give the same answers
-#
-#      OPTIONS: If N is not provided, defaults to 50
-#       AUTHOR: Pete Houston (pete), cpan@openstrike.co.uk
-# ORGANIZATION: Openstrike
-#      VERSION: 1.0
-#      CREATED: 15/03/21
-#===============================================================================
-
-use strict;
-use warnings;
+use v5.36;
 
 my $target = $ARGV[0] ? $ARGV[0] - 1 : 49;
 
