@@ -1,6 +1,6 @@
 #!/usr/bin/env raku
-use v6;
-sub MAIN (*@args) { say maximum-product(@args) }
+
+say maximum-product( ( -8,  2, -9,  0, -4, 3) );
 
 sub maximum-product (@args) {
    my @sorted = @args».Int.sort;

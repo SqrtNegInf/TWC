@@ -1,4 +1,5 @@
 #!/usr/bin/env raku
+
 use Test;
 
 is max-product(3,1,2),            6;

@@ -1,9 +1,6 @@
 #!/usr/bin/env raku
-use v6 ;
 
-say "Please enter at least 3 integers, separated by blanks!" ;
-my $line = $*IN.get ;
-my @numbers = $line.words.map( {.Int} ) ;
+my @numbers = ( -8,  2, -9,  0, -4, 3);
 if ( @numbers.elems == 3 ) {
   say [*] @numbers ;
 }
