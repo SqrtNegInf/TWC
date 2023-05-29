@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-use strict ;
-use warnings ;
-use feature 'say' ;
+use v5.36;
 
 my $name = 'Katie';
 my $y ; #has to be affixed to the rhyme

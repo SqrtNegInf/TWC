@@ -1,9 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use strict;
-
-use warnings;
-use feature qw(say);
 use Test::More;
 
 my $TEMPLATE = '%1$s, %1$s, bo-%3$s%2$s

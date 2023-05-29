@@ -1,11 +1,5 @@
 #!/usr/bin/env perl
-use warnings;
-use v5.12;
-
-# run <script> <name>
-
-use feature qw(signatures);
-no warnings qw(experimental::signatures);
+use v5.36;
 
 sub ellis($c,$name) {
     qq|${\ do{$c}}o-| . (($c eq substr(lc $name,0,1)) ? (substr($name,1)) : ($c . substr($name,1)));

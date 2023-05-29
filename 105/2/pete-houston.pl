@@ -1,25 +1,6 @@
 #!/usr/bin/env perl
-#===============================================================================
-#
-#         FILE: 10502.pl
-#
-#        USAGE: ./10502.pl NAME
-#
-#  DESCRIPTION: Output "The Name Game" lyrics based upon the given name.
-#
-# REQUIREMENTS: Text::Unidecode, Encode
-#         BUGS: Assumes the encoding of NAME is utf-8
-#               Relies on Text::Unidecode
-#               Assumes a consonant is anything which is not a vowel
-#        NOTES: Tested with Roman and Greek alphabets only. YMMV.
-#       AUTHOR: Pete Houston (pete), cpan@openstrike.co.uk
-# ORGANIZATION: Openstrike
-#      VERSION: 1.0
-#      CREATED: 22/03/21
-#===============================================================================
+use v5.36;
 
-use strict;
-use warnings;
 use Encode 'decode';
 use Text::Unidecode;
 

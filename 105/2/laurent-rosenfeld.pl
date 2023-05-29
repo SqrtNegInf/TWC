@@ -1,9 +1,6 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use feature "say";
+use v5.36;
 
-#say "Please enter the name: ";
 my $name = 'Katie';;
 chomp $name;
 my %vowels = map { $_ => 1} qw<a e i o u>;

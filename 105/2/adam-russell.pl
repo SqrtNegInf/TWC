@@ -1,11 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-##
-# You are given a $name.
-# Write a script to display the lyrics to 
-# the Shirley Ellis song The Name Game.
-##
+use v5.36;
 
 sub name_game{
     my($name) = @_;

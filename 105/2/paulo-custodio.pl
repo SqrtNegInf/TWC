@@ -1,24 +1,5 @@
 #!/usr/bin/env perl
-
-# Challenge 105
-#
-# TASK #2 › The Name Game
-# Submitted by: Mohammad S Anwar
-# You are given a $name.
-#
-# Write a script to display the lyrics to the Shirley Ellis song The Name Game.
-# Please checkout the wiki page for more information.
-#
-# Example
-# Input: $name = "Katie"
-# Output:
-#
-#     Katie, Katie, bo-batie,
-#     Bonana-fanna fo-fatie
-#     Fee fi mo-matie
-#     Katie!
-
-use Modern::Perl;
+use v5.36;
 
 my $name = 'Katie';
 my $end = $name =~ s/^[bcdfghjklmnpqrstvwxyz]//ir;

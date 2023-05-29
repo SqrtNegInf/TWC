@@ -33,13 +33,7 @@
 #       © 2021 colin crain
 ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ##
 
-
-
-use warnings;
-use strict;
-use feature ":5.26";
-use feature qw(signatures);
-no warnings 'experimental::signatures';
+use v5.36;
 
 my $name = shift @ARGV || "Katie";
 make_song($name, chop_syl($name));
