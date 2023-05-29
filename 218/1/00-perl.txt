@@ -52,9 +52,6 @@ ok 6 - Example 2
 ok 7 - Example 3
 ok 8 - Example 4
 ok 9 - same -46 -5 33 -17 6 -50 -32 49 25 -14 -15 7 -37 -44 45 -35 8 -29 30 -36
-             Rate    simple preselect
-simple     2177/s        --      -93%
-preselect 32667/s     1401%        --
  
 ===> 218/1/jo-37.pl <===
 # Seeded srand with seed '1' from import arg.

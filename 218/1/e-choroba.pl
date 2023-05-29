@@ -48,14 +48,3 @@ for my $maximum_product (*maximum_product{CODE},
 
 my @long = map int(rand 100) - 50, 1 .. 20;
 is maximum_product(@long), maximum_product_simple(@long), "same @long";
-
-use Benchmark qw{ cmpthese };
-cmpthese(-3, {
-    simple    => sub { maximum_product_simple(@long) },
-    preselect => sub { maximum_product(@long) },
-});
-
-__END__
-              Rate    simple preselect
-simple      8665/s        --      -94%
-preselect 140390/s     1520%        --
