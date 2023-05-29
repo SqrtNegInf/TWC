@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-use v5.24;
-use warnings;
-use experimental 'signatures';
+use v5.36;
 
 say maximum_product( ( -8,  2, -9,  0, -4, 3) );
 

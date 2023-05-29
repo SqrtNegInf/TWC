@@ -1,7 +1,6 @@
 #!/usr/bin/env perl
-
-use strict;
-use v5.24;
+use v5.36;
+no warnings 'uninitialized';
 
 my @sorted = sort {abs($b) <=> abs($a)} @ARGV;
 my $complete;
