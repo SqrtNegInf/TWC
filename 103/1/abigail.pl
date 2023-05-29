@@ -1,21 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use 5.032;
-
-use strict;
-use warnings;
-no  warnings 'syntax';
-
-use experimental 'signatures';
-use experimental 'lexical_subs';
-
-#
-# See ../README.md
-#
-
-#
-# Run as: perl ch-1.pl < input-file
-#
 # We're reading years from standard input, one year per line, outputting
 # years from the sexagenary cycle [1]. This is slightly more than what
 # the challenge ask; the challenge asks to output the heavenly stem [2],

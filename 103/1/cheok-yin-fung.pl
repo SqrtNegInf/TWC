@@ -1,9 +1,5 @@
 #!/usr/bin/env perl
-# The Weekly Challenge #103
-# Task 1 Chinese Zodiac
-# Usage: ch-1.pl YEAR
-use strict;
-use warnings;
+use v5.36;
 
 my $yr = 2022;
 

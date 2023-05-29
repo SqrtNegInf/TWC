@@ -1,10 +1,5 @@
 #!/usr/bin/env perl
-
-#Firt year to start: 1924 wood rat
-
-use strict;
-use warnings;
-use Data::Dumper;
+use v5.36;
 
 my @animals = qw(Rat Ox Tiger Rabbit Dragon Snake Horse Goat Monkey Rooster Dog Pig);
 

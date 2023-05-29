@@ -1,10 +1,9 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use v5.16;
 use Test2::V0 -srand => 1;
 use List::Util 'pairmap';
 use List::MoreUtils 'natatime';
-use experimental qw(signatures postderef);
 
 our ($tests, $examples) = (1,1);
 

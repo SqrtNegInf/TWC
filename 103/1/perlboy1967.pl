@@ -1,17 +1,5 @@
 #!/usr/bin/env perl
-
-# Perl Weekly Challenge - 103
-# - https://perlweeklychallenge.org/blog/perl-weekly-challenge-103/#TASK1
-#
-# Task 1 - Chinese zodiac
-#
-# Author: Niels 'PerlBoy' van Dijke
-#
-# Note: Assuming to print the Zodiac sign for Jan 1st
-
-use v5.16;
-use strict;
-use warnings;
+use v5.36;
 
 my @animalCycle = qw(
   Rat Ox Tiger Rabbit Dragon Snake

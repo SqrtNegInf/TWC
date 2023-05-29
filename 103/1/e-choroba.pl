@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-use warnings;
-use strict;
+use v5.36;
 
 my @ANIMALS  = qw( Rat Ox Tiger Rabbit Dragon Snake Horse Goat Monkey
                    Rooster Dog Pig );

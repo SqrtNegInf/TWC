@@ -47,9 +47,6 @@ ok 24 - zodiac year 1964
  
 ===> 103/1/cristian-heredia.pl <===
 Fire Rooster 
-===> 103/1/duncan-c-white.pl <===
-Water Tiger
- 
 ===> 103/1/e-choroba.pl <===
 1..6
 ok 1 - Example 1

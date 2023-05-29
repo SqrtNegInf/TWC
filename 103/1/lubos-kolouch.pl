@@ -1,20 +1,5 @@
 #!/usr/bin/env perl
-#===============================================================================
-#
-#         FILE: ch-1.pl
-#
-#        USAGE: ./ch-1.pl  
-#
-#  DESCRIPTION: Perl Weekly Challenge 103
-#               Task 1 - Chinese Zodiac
-#
-#       AUTHOR: Lubos Kolouch 
-#      CREATED: 03/13/2021 11:06:43 AM
-#===============================================================================
-
-use strict;
-use warnings;
-
+use v5.36;
 
 sub get_zodiac {
     my $year = shift;
