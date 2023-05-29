@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-
-use v5.16;    # The Weekly Challenge - 2023-05-22
-use strict;   # Peter Campbell Smith
-use warnings; # Blog: http://ccgi.campbellsmiths.force9.co.uk/challenge
+use v5.36;
 
 matrix_score( [ [0,0,1,1],
                 [1,0,1,0],
