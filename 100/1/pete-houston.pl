@@ -1,23 +1,6 @@
 #!/usr/bin/env perl
-#===============================================================================
-#
-#         FILE: 10001.pl
-#
-#        USAGE: ./10001.pl [ STRING ]
-#
-#  DESCRIPTION: Analyses input to determine if it is 12 or 24 hour clock
-#               and converts to the other. Runs tests if no argument.
-#
-# REQUIREMENTS: Test::More for the test suite.
-#        NOTES: The leading zero pad comes from the spec examples.
-#       AUTHOR: Pete Houston (pete), cpan@openstrike.co.uk
-# ORGANIZATION: Openstrike
-#      VERSION: 1.0
-#      CREATED: 15/02/21
-#===============================================================================
+use v5.36;
 
-use strict;
-use warnings;
 use Test::More;
 
 if (0 < @ARGV) {

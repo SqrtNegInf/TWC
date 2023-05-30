@@ -1,11 +1,6 @@
 #!/usr/bin/env perl
-use warnings;
-use v5.12;
+use v5.36;
 
-# run <script> <time in format hh:mm[am/pm]; 'am' or 'pm' can be capitalized or surrounded by spaces> 
-
-use feature qw(signatures);
-no warnings qw(experimental::signatures);
 use List::MoreUtils qw(any);
 
 sub convTime ($time) {

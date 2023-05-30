@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-use 5.024;
-use warnings;
-use experimental 'signatures';
-no warnings 'experimental::signatures';
+use v5.36;
 
 sub fun_time ($t) {
    my ($h, $m, $ampm) = $t =~ m{\A(\d\d):(\d\d)(?:\s*(am|pm))?\z}mxs;

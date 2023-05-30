@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-# The Weekly Challenge #100 
-# Task 1 Fun Time
-# Usage: $ perl ch-1.pl "XX:XX"
+use v5.36;
 
 $_ = '17:50';
 

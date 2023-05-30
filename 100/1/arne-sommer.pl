@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
+use v5.36;
 
 '17:50' =~ /^(\d\d)\:(\d\d)\s?(am|pm)?$/ && length($3)
    ? ($3 eq "pm"

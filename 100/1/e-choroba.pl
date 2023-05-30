@@ -1,9 +1,5 @@
 #!/usr/bin/env perl
-use warnings;
-use strict;
-
-# Following The American Heritage Dictionary of the English Language
-# and United States Government Printing Office: midnight is 12:00 am.
+use v5.36;
 
 sub fun_time {
     my ($h, $m, $p) = $_[0] =~ /([0-9]+):([0-9]+)\s*([ap]m)?/i;

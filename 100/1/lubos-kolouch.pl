@@ -1,18 +1,6 @@
 #!/usr/bin/env perl
-#===============================================================================
-#
-#         FILE: ch-1.pl
-#
-#        USAGE: ./ch-1.pl  
-#
-#  DESCRIPTION: Perl Weekly Challenge #100
-#               Task 1
-#       AUTHOR: Lubos Kolouch
-#      CREATED: 02/20/2021 10:16:51 AM
-#===============================================================================
+use v5.36;
 
-use strict;
-use warnings;
 use DateTime::Format::DateParse;
 
 sub convert_time {

@@ -1,11 +1,6 @@
 #!/usr/bin/env perl
-# You are given a time (12 hour / 24 hour).
-# Write a script to convert the given time from 12 hour format to 24 hour 
-# format and vice versa.
-# Ideally we expect a one-liner.
+use v5.36;
 
-use strict;
-use warnings;
 use Test::More;
 
 my @input  = ( "05:15 pm", "19:15", "12:01", "12:00 am", "00:00", "12:01 pm", "05:15 am" );

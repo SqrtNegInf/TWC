@@ -1,32 +1,5 @@
 #!/usr/bin/env perl
-#
-#       fun-time-ta-go-go.pl
-#
-#         TASK #1 Ý Fun Time
-#         Submitted by: Mohammad S Anwar
-#         You are given a time (12 hour / 24 hour).
-# 
-#         Write a script to convert the given time from 12 hour format to 24
-#         hour format and vice versa.
-# 
-#         Ideally we expect a one-liner.
-# 
-#         Example 1:
-#             Input: 05:15 pm or 05:15pm
-#             Output: 17:15
-#         Example 2:
-#             Input: 19:15
-#             Output: 07:15 pm or 07:15pm
-#
-#       © 2021 colin crain
-## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ##
-
-
-
-use warnings;
-use strict;
-use feature ":5.26";
-
+use v5.36;
 
 sub timef {
     local $_= shift;

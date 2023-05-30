@@ -1,15 +1,5 @@
 #!/usr/bin/env perl
-
-# Perl Weekly Challenge - 100
-# - https://perlweeklychallenge.org/blog/perl-weekly-challenge-100/
-#
-# Task 1 - Fun Time
-#
-# Author: Niels 'PerlBoy' van Dijke
-
-use v5.16;
-use strict;
-use warnings;
+use v5.36;
 
 @ARGV = ('05:15 pm', '19:15', '12:01', '0:05', '2:03AM')
   unless scalar(@ARGV);

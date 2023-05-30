@@ -1,9 +1,4 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use feature qw(say);
-
-#die "No argument provided, arg should be a string. " unless @ARGV == 1;
 
 '17:50' =~ m{(?<hour>\d{2}):(?<minute>\d{2})(?:\s+)?(?<am_pm>am|pm)?};
 
