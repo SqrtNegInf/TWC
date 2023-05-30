@@ -1,21 +1,5 @@
 #!/usr/bin/env perl
-
-# Challenge 102
-#
-# TASK #1 › Rare Numbers
-# Submitted by: Mohammad S Anwar
-#
-# You are given a positive integer $N.
-#
-# Write a script to generate all Rare numbers of size $N if exists. Please
-# checkout the page for more information about it.
-# Examples
-#
-# (a) 2 digits: 65
-# (b) 6 digits: 621770
-# (c) 9 digits: 281089082
-
-use Modern::Perl;
+use v5.36;
 
 my($N) = 2;
 print_rare($N);

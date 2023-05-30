@@ -1,10 +1,6 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-##
-# You are given a positive integer $N.
-# Write a script to generate all Rare Numbers of size $N, if any exist.
-##
+use v5.36;
+
 use Thread;
 use constant THREAD_COUNT => 4;
 

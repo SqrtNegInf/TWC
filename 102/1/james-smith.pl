@@ -1,9 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use strict;
-
-use warnings;
-use feature qw(say state);
 use Test::More;
 
 my @rare_ends = ( [2,[2]], [4,[0]], [6,[0,5]], [8,[2,3,7,8]] );

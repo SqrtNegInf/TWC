@@ -106,10 +106,7 @@
 ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ##
 
 
-
-use warnings;
-use strict;
-use feature ":5.26";
+use v5.36;
 
 my $then = time;
 

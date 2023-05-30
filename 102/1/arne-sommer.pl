@@ -1,9 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use strict;
-use feature 'say';
-use feature 'signatures';
-no warnings 'experimental::signatures';
 use Getopt::Long;
 
 my $verbose = 0;

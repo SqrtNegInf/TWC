@@ -1,19 +1,5 @@
 #!/usr/bin/env perl
-#===============================================================================
-#
-#         FILE: ch-1.pl
-#
-#        USAGE: ./ch-1.pl  
-#
-#  DESCRIPTION: Perl Weekly Challenge #102
-#               Task 1 - Rare Numbers
-#
-#       AUTHOR: Lubos Kolouch
-#      CREATED: 03/06/2021 11:18:30 AM
-#===============================================================================
-
-use strict;
-use warnings;
+use v5.36;
 
 sub get_rare_numbers {
     my $what = shift;
