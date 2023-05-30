@@ -1,4 +1,5 @@
 #!/usr/bin/env perl
+use v5.36;
 
 '17:50' =~ m{(?<hour>\d{2}):(?<minute>\d{2})(?:\s+)?(?<am_pm>am|pm)?};
 

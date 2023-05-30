@@ -1,5 +1,5 @@
 #!/usr/bin/env perl
-use v5.36;
+#use v5.36;  # not compatible with something in the golf'd Perl
 
 ($h,$m,$a) = '17:50'=~/\A\s*((?:2[0-4])|(?:1\d)|(?:0*\d))\:([0-5]*\d)\s*([ap]m)?\s*/i;
 
