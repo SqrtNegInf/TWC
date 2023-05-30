@@ -1,9 +1,6 @@
 #!/usr/bin/env perl
-# The Weekly Challenge #102
-# Task 2 Hash-counting String
-# Usage: ch-2.pl [positive integer]
-use strict;
-use warnings;
+use v5.36;
+
 use Test::Simple tests => 5;
 
 sub hcs {

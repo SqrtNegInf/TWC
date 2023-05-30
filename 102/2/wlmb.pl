@@ -1,11 +1,5 @@
 #!/usr/bin/env perl
-# Perl weekly challenge 102
-# Task 2: Hash-counting string
-#
-# See https://wlmb.github.io/2021/03/01/PWC102/#task-2-hash-counting-string
-use strict;
-use warnings;
-use v5.12;
+use v5.36;
 
 foreach my $length(2,20,120){
     my $remaining=$length;

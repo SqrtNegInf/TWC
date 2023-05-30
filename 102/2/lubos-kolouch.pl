@@ -1,19 +1,5 @@
 #!/usr/bin/env perl
-#===============================================================================
-#
-#         FILE: ch-2.pl
-#
-#        USAGE: ./ch-2.pl  
-#
-#  DESCRIPTION: Perl Weekly Challenge #102
-#               Task 2 - Hash-counting String
-#
-#       AUTHOR: Lubos Kolouch
-#      CREATED: 03/06/2021 11:18:30 AM
-#===============================================================================
-
-use strict;
-use warnings;
+use v5.36;
 
 sub get_hash {
     my $what = shift;

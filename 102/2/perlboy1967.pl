@@ -1,18 +1,5 @@
 #!/usr/bin/env perl
-
-# Perl Weekly Challenge - 102
-# - https://perlweeklychallenge.org/blog/perl-weekly-challenge-102/#TASK2
-#
-# Task 2 - Hash-counting String
-#
-# Author: Niels 'PerlBoy' van Dijke
-
-use v5.16;
-use strict;
-use warnings;
-
-#@ARGV = (<>)
-#  unless (scalar @ARGV);
+use v5.36;
 
 foreach my $n (2,20,120) {
   printf "hashCountingString(%d) = '%s'\n",
