@@ -1,20 +1,5 @@
 #!/usr/bin/env perl
-#===============================================================================
-#
-#         FILE: ch-1.pl
-#
-#        USAGE: ./ch-1.pl  
-#
-#  DESCRIPTION: Perl Weekly Challenge
-#               https://www.perlweeklychallenge.org
-#               Task 1 - Pattern Match
-#
-#       AUTHOR: YOUR NAME (), 
-#      CREATED: 02/13/2021 12:22:27 PM
-#===============================================================================
-
-use strict;
-use warnings;
+use v5.36;
 
 sub pattern_match {
     my $what = shift;

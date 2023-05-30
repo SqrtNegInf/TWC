@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use feature "say";
+use v5.36;
 
 my $input = "abcde";
 my @test_patterns = qw/a*e a*d ?b*d a*c?e/;

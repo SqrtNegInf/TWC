@@ -1,23 +1,5 @@
 #!/usr/bin/env perl
-# vim:set ts=4 sw=4 sts=4 et ai wm=0 nu:
-#=============================================================================
-# ch-1.pl
-#=============================================================================
-# Copyright (c) 2021, Bob Lied
-#=============================================================================
-#  Perl Weekly Challeng 99, TASK #1 › Pattern Match
-# You are given a string $S and a pattern $P.
-# Write a script to check if given pattern validate the entire string.
-# Print 1 if pass otherwise 0.
-# The patterns can also have the following characters:
-# ? - Match any single character.
-# * - Match any sequence of characters. 
-#=============================================================================
-
-use strict;
-use warnings;
-use 5.020;
-use experimental qw/ signatures /;
+use v5.36;
 
 use Getopt::Long;
 my $doTest =1;

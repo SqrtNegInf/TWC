@@ -4,15 +4,6 @@
 0
 1
  
-===> 099/1/alexander-pankoff.pl <===
-1..6
-ok 1 - abcde does match a*e
-ok 2 - abcde does not match A*e
-ok 3 - abcde does not match a*d
-ok 4 - abcde does not match ?b*d
-ok 5 - abcde does match a*c?e
-ok 6 - acde does not match a*c?e
- 
 ===> 099/1/arne-sommer.pl <===
 1
  
@@ -43,9 +34,6 @@ ok 10 - * in input
 ok 11 - line noise
 ok 12 - password
 1..12
- 
-===> 099/1/cristian-heredia.pl <===
-1
  
 ===> 099/1/dave-jacoby.pl <===
 abcde
@@ -79,26 +67,6 @@ ok 3
 ok 4
 1..4
  
-===> 099/1/jo-37.pl <===
-# Seeded srand with seed '1' from import arg.
-ok 1 - example 1
-ok 2 - example 2
-ok 3 - example 3
-ok 4 - example 4
-ok 5 - literal dot matches
-ok 6 - literal dot only matches dot
-ok 7 - literal asterisk matches
-ok 8 - literal asterisk required
-ok 9 - literal charclass matches
-ok 10 - literal charclass required
-ok 11 - escaped characters
-ok 12 - escaped backslash
-ok 13 - matching consecutive meta chars
-ok 14 - non-matching consecuteive meta chars
-ok 15 - handle multi-byte characters
-ok 16 - incomplete quoting sequence
-1..16
- 
 ===> 099/1/laurent-rosenfeld.pl <===
 a*e: 1
 a*d: 0
@@ -112,32 +80,8 @@ ok 3
 ok 4
 1..4
  
-===> 099/1/nunovieira220.pl <===
-1
- 
-===> 099/1/perlboy1967.pl <===
-Input: $S = 'abcde', $P = 'a*c?e'
-Output: 1
- 
-===> 099/1/pete-houston.pl <===
-1..7
-ok 1 - Matched abcde against a*e
-ok 2 - Matched abcde against a*c?e
-ok 3 - Matched abcde against ?b*e
-ok 4 - No match for abcde against a*d
-ok 5 - No match for abcde against ?b*d
-ok 6 - No match for abcde against *b?e
-ok 7 - No match for abcde against a.c?e
- 
 ===> 099/1/polettix.pl <===
 1
- 
-===> 099/1/roger-bell-west.pl <===
-1..4
-ok 1 - example 1
-ok 2 - example 2
-ok 3 - example 3
-ok 4 - example 4
  
 ===> 099/1/wanderdoc.pl <===
 ok 1 - Example 1

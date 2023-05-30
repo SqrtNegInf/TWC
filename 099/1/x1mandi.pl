@@ -1,10 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use strict;
-use warnings;
-use diagnostics;
-use utf8;
-use 5.20.0;
 #use re "debug";
 
 my $s = $ARGV[0];

@@ -64,13 +64,7 @@
 ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ##
 
 
-
-use warnings;
-use strict;
-use feature ":5.26";
-use feature qw(say signatures);
-no warnings 'experimental::signatures';
-
+use v5.36;
 
 my ($str, $exp) = @_;
 if (defined $str and defined $exp) {
