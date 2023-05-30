@@ -1,34 +1,5 @@
 #!/usr/bin/env perl
-# vim:set ts=4 sw=4 sts=4 et ai wm=0 nu:
-#=============================================================================
-# ch-2.pl
-#=============================================================================
-# Copyright (c) 2021, Bob Lied
-#=============================================================================
-#  Perl Weekly Challeng 99, TASK #2 › Unique Subsequence
-# You are given two strings $S and $T.
-# Write a script to find out count of different unique subsequences matching
-# $T without changing the position of characters.
-# Example 1: Input: $S = "littleit', $T = 'lit'
-# Output: 5
-# 1: [lit] tleit
-# 2: [li] t [t] leit
-# 3: [li] ttlei [t]
-# 4: litt [l] e [it]
-# 5: [l] ittle [it]
-#
-# Example 2: Input: $S = "london', $T = 'lon'
-# Output: 3
-# 1: [lon] don
-# 2: [lo] ndo [n]
-# 3: [l] ond [on]
-# 
-#=============================================================================
-
-use strict;
-use warnings;
-use 5.020;
-use experimental qw/ signatures /;
+use v5.36;
 
 use Getopt::Long;
 my $doTest=1;

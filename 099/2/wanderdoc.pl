@@ -1,22 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings FATAL => qw(all);
-
-=prompt
-You are given two strings $S and $T. Write a script to find out count of different unique subsequences matching $T without changing the position of characters.
-Example 1: Input: $S = "littleit', $T = 'lit' Output: 5
-    1: [lit] tleit
-    2: [li] t [t] leit
-    3: [li] ttlei [t]
-    4: litt [l] e [it]
-    5: [l] ittle [it]
-
-Example 2: Input: $S = "london', $T = 'lon' Output: 3
-    1: [lon] don
-    2: [lo] ndo [n]
-    3: [l] ond [on]
-=cut
-use Test::More;
+use v5.36;
 
 sub find_subsequence
 {

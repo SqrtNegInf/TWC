@@ -1,10 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-use utf8;
-use feature qw{say state signatures };
-no warnings qw{experimental};
+use v5.36;
 
 my @arr;
 

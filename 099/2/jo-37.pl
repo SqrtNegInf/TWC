@@ -1,9 +1,9 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use v5.16;
 use Test2::V0 -srand => 1;
 use experimental 'signatures';
-use charnames ':full';
+#use charnames ':full';
 
 our ($tests, $examples, $verbose) = (1,1);
 

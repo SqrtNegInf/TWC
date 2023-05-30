@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use feature "say";
+use v5.36;
 
 my @input_tests = ( [ "littleit", "lit"], ["london", "lon"], ["aaaa", "aa"]);
 my $count;

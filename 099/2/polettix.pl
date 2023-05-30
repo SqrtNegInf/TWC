@@ -1,8 +1,4 @@
 #!/usr/bin/env perl
-use 5.024;
-use warnings;
-use experimental qw< postderef signatures >;
-no warnings qw< experimental::postderef experimental::signatures >;
 
 sub unique_subsequence ($S, $T) {
    my $lenT = length $T or return 1;

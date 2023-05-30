@@ -1,52 +1,8 @@
 #!/usr/bin/env perl
-# 
-# Task 2: "Unique Subsequence
-# 
-# You are given two strings $S and $T.
-# 
-# Write a script to find out count of different unique subsequences
-# in $S matching $T without changing the position of characters.  UPDATE:
-# 2021-02-08 09:00AM (UK TIME) suggested by Jonas Berlin, missing entry [5].
-# 
-# Example 1:
-#   Input: $S = "littleit', $T = 'lit'
-#   Output: 5
-#   
-#       1: [lit] tleit
-#       2: [li] t [t] leit
-#       3: [li] ttlei [t]
-#       4: litt [l] e [it]
-#       5: [l] ittle [it]
-#   
-# Example 2:
-#   Input: $S = "london', $T = 'lon'
-#   Output: 3
-# 
-#     1: [lon] don
-#     2: [lo] ndo [n]
-#     3: [l] ond [on]
-# "
-# 
-# My notes: nice question.  Of course one could do this by translating $T
-# into a Task-1-style pattern, so lit becomes *l*i*t* and figuring out
-# how many different ways that pattern can apply.  But as $T has no meta-chars,
-# an easier approach may be possible:
-#  - locate all positions in $S where head($T) appears, for each of them
-#    recursively match subtr($S,pos+1) against tail($T))
-# However, if we want to produce the "[lo] ndo [n]" explanation of each match,
-# that's slightly trickier to code.  Suppose we represent a specific match
-# by a "match tag" like "..ndo.", representing the explanation "[lo] ndo [n]".
-# it's easy enough to produce the match tags while counting matches, and easy
-# enough to convert match tag "..ndo." (and t="lon") into "[lo] ndo [n]" after.
-# NB: Also added test suite [invoke with --test]
-# 
+use v5.36;
 
-use strict;
-use warnings;
-use feature 'say';
 use Getopt::Long;
-use Function::Parameters;
-use Data::Dumper;
+#use Function::Parameters;
 
 my $debug=0;
 my $test=1;
@@ -79,7 +35,7 @@ foreach my $mn (0..$#match)
 #	char in $t replaced with a '.'.
 #	Return a list of all different completed matchtags.
 #
-fun find_the_ways( $s, $t )
+sub find_the_ways( $s, $t )
 {
 	return consider_her_ways( $s, 0, $t, $s );
 }
@@ -94,7 +50,7 @@ fun find_the_ways( $s, $t )
 #	char from $t has been replaced with a '.'.
 #	Return a list of all different completed matchtags.
 #
-fun consider_her_ways( $s, $spos, $t, $matchtag )
+sub consider_her_ways( $s, $spos, $t, $matchtag )
 {
 	return ( $matchtag ) if $t eq '';
 	my $firstlet = substr($t,0,1);
@@ -126,7 +82,7 @@ fun consider_her_ways( $s, $spos, $t, $matchtag )
 #	Given a $t str like "lon", and a match tag like "..ndo.",
 #	build a pretty explanation string "[lon] ndo [n]".
 #
-fun explain_matchtag( $t, $tag )
+sub explain_matchtag( $t, $tag )
 {
 	my @let = split(//,$t);	# split t into letters eg 'l', 'o', 'n'..
 	my $result = $tag;
@@ -147,7 +103,7 @@ fun explain_matchtag( $t, $tag )
 # dotests();
 #	Do a load of tests.
 #
-fun dotests()
+sub dotests()
 {
 	eval "use Test::More"; die $@ if $@;
 
