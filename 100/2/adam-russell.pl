@@ -1,12 +1,6 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-##
-# Given a triangle array write a script to find
-# the minimum path sum from top to bottom.
-# When you are on index i on you may only
-# move to either index i or i+1 on the next row.
-#
+use v5.36;
+
 sub minimum_sum{
     my(@triangle) = @_;
     my($i, $j) = (0, 0);

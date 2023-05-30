@@ -1,9 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-use feature qw{ say postderef signatures state };
-no warnings qw{ experimental::postderef experimental::signatures };
+use v5.36;
 
 use List::Util qw{sum};
 use JSON;

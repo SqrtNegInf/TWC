@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use feature "say";
+use v5.36;
 
 my $triangle = [ [1], [2,4], [6,4,9], [5,1,7,2] ];
 # $triangle = [ [1], [2,4], [6,30,9], [30,30,30,2] ];

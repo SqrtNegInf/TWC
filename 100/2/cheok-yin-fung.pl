@@ -1,9 +1,6 @@
 #!/usr/bin/env perl
-# The Weekly Challenge #100
-# Task 2 Triangle Sum
+use v5.36;
 
-use strict;
-use warnings;
 use Test::Simple tests => 3; 
 
 sub go_upper_layer {

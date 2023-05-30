@@ -62,23 +62,6 @@ ok 2 - ex-2
   
 
  
-===> 100/2/duane-powell.pl <===
-Output: 8
-
-Explanation: The given triangle
-
-    1 
-   2  4 
-  6  4  9 
- 5  1  7  2 
-
-The minimum path sum from top to bottom: 1 + 2 + 4 + 1 = 8
-
-   [1]
-  [2] 4 
-  6 [4] 9 
- 5 [1] 7  2 
- 
 ===> 100/2/e-choroba.pl <===
 ok 1 - Example 1
 ok 2 - Example 2
@@ -188,80 +171,6 @@ ok 2
 ok 1
 ok 2
 1..2
- 
-===> 100/2/perlboy1967.pl <===
-Input: Triangle = 
-
-	    1
-	   4 2
-	  2 4 9
-	 5 5 7 5
-	9 2 2 4 8
-
-Output: 14
-
-Number of solutions: 5
-
-Solution 1:
-================
-The minimum path sum from top to bottom: 1 + 4 + 2 + 5 + 2 = 14
-
-Explanation:
-
-	    [1]
-	   [4] 2
-	  [2] 4 9
-	 [5] 5 7 5
-	9 [2] 2 4 8
-
-Solution 2:
-================
-The minimum path sum from top to bottom: 1 + 4 + 2 + 5 + 2 = 14
-
-Explanation:
-
-	    [1]
-	   [4] 2
-	  [2] 4 9
-	 5 [5] 7 5
-	9 [2] 2 4 8
-
-Solution 3:
-================
-The minimum path sum from top to bottom: 1 + 4 + 2 + 5 + 2 = 14
-
-Explanation:
-
-	    [1]
-	   [4] 2
-	  [2] 4 9
-	 5 [5] 7 5
-	9 2 [2] 4 8
-
-Solution 4:
-================
-The minimum path sum from top to bottom: 1 + 2 + 4 + 5 + 2 = 14
-
-Explanation:
-
-	    [1]
-	   4 [2]
-	  2 [4] 9
-	 5 [5] 7 5
-	9 [2] 2 4 8
-
-Solution 5:
-================
-The minimum path sum from top to bottom: 1 + 2 + 4 + 5 + 2 = 14
-
-Explanation:
-
-	    [1]
-	   4 [2]
-	  2 [4] 9
-	 5 [5] 7 5
-	9 2 [2] 4 8
-
  
 ===> 100/2/polettix.pl <===
 8

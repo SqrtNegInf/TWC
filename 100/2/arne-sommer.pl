@@ -1,13 +1,8 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use strict;
-use warnings;
-use feature 'say';
-use feature 'signatures';
 use String::Util 'trim';
 use List::Util 'min';
-
-no warnings "experimental::signatures";
 
 my $tree = shift(@ARGV) // "1 | 2 4 | 6 4 9 | 5 1 7 2";
 my @tree;

@@ -1,20 +1,7 @@
 #!/usr/bin/env perl
-#===============================================================================
-#
-#         FILE: ch_2.pl
-#
-#        USAGE: ./ch_2.pl
-#
-#  DESCRIPTION: Perl Weekly Challenge #100
-#               https://perlweeklychallenge.org/blog/perl-weekly-challenge-100/
-#               Triangle Sum
-#
-#       AUTHOR: Lubos Kolouch
-#      CREATED: 2/20/2021 02:39:16 PM
-#===============================================================================
+use v5.36;  
 
-use strict;
-use warnings;
+use feature 'multidimensional'; # otherwise confused by 'Multidimensional hash lookup'
 
 sub min_sums {
     my $what = shift;

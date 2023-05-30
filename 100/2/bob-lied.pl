@@ -1,34 +1,5 @@
 #!/usr/bin/env perl
-# vim:set ts=4 sw=4 sts=4 et ai wm=0 nu:
-#=============================================================================
-# ch-2.pl
-#=============================================================================
-# Copyright (c) 2021, Bob Lied
-#=============================================================================
-# Perl Weekly Challenge 100, Task #2 › Triangle Sum
-#
-# You are given triangle array.
-# Write a script to find the minimum path sum from top to bottom.
-#
-# When you are on index i on the current row then you may move to either index
-# i or index i + 1 on the next row.
-#
-# Example 1: Input: Triangle = [ [1], [2,4], [6,4,9], [5,1,7,2] ]
-#            Output: 8
-#
-# Explanation: The given triangle
-#
-#           1
-#          2 4
-#         6 4 9
-#        5 1 7 2
-# The minimum path sum from top to bottom:  1 + 2 + 4 + 1 = 8
-#=============================================================================
-
-use strict;
-use warnings;
-use 5.020;
-use experimental qw/ signatures /;
+use v5.36;
 
 use Getopt::Long;
 my $DoTest = 1;

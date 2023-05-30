@@ -1,10 +1,5 @@
 #!/usr/bin/env perl
-
-# https://perlweeklychallenge.org/blog/perl-weekly-challenge-100/
-# TASK #2 › Triangle Sum
-
-use 5.030;
-use warnings;
+use v5.36;
 
 my @triangles = (
     [ [1], [2,4], [6,4,9], [5,1,7,2] ],

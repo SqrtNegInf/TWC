@@ -1,11 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use strict;
-use warnings;
-
-#Example 1:
-#my @triangle = ( [1], [ 2, 4 ], [ 6, 4, 9 ], [ 5, 1, 7, 2 ] ); #output 8
-#Example 2:
 my @triangle = ( [3], [ 3, 1 ], [ 5, 2, 3 ], [ 4, 3, 1, 3 ] );    #output 7
 
 my $lowest_sum;
