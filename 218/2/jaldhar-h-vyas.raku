@@ -1,6 +1,6 @@
 #!/usr/bin/env raku
 
-# wrong answer?
+die 'not ok - disabled: answer varies 34/37';
 
 #sub MAIN(
     my @matrix = ([0,0,1,1], [1,0,1,0], [1,1,0,0]);
