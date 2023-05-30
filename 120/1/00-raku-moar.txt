@@ -23,9 +23,6 @@ Output:     154 (10 01 10 10)
 33 : 18
 18 : 33
  
-===> 120/1/luc65r.raku <===
-154
- 
 ===> 120/1/mark-anderson.raku <===
 1..9
 ok 1 - 
@@ -55,11 +52,3 @@ ok 2 - example 2
  
 ===> 120/1/ulrich-rieke.raku <===
 154
- 
-===> 120/1/wambash.raku <===
-ok 1 - 
-ok 2 - 
-ok 3 - 
-ok 4 - 
-ok 5 - 
-1..5
