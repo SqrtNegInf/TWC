@@ -1,34 +1,5 @@
 #!/usr/bin/env perl
-# vim:set ts=4 sw=4 sts=4 et ai wm=0 nu:
-#=============================================================================
-# ch-1.pl
-#=============================================================================
-# Copyright (c) 2021, Bob Lied
-#=============================================================================
-# Perl Weekly Challenge 101, Task #1  Pack a Spiral
-# You are given an array @A of items (integers say, but they can be anything).
-# Your task is to pack that array into an MxN matrix spirally counterclockwise,
-# as tightly as possible.
-# ‘Tightly’ means the absolute value |M-N| of the difference has to be as small
-# as possible.
-#
-# Example 1: Input: @A = (1,2,3,4)
-# Output: 4 3
-#         1 2
-# Since the given array is already a 1x4 matrix on its own, but that's not as
-# tight as possible. Instead, you'd spiral it counterclockwise into
-#
-# Example 2: Input: @A = (1..6)
-# Output: 6 5 4  OR  5 4
-#         1 2 3      6 3
-#                    1 2
-# Either will do as an answer, because they're equally tight.
-#=============================================================================
-
-use strict;
-use warnings;
-use 5.020;
-use experimental qw/signatures/;
+use v5.36;
 
 use Getopt::Long;
 my $doTest = 1;

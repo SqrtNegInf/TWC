@@ -1,9 +1,5 @@
 #!/usr/bin/env perl
-use 5.024;
-use warnings;
-use experimental qw< postderef signatures >;
-no warnings qw< experimental::postderef experimental::signatures >;
-use Data::Dumper;
+use v5.36;
 
 sub pack_a_spiral (@A) {
    my $N = scalar @A;

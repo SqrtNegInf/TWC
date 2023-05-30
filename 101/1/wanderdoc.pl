@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings FATAL => qw(all);
+use v5.36;
 
 my @COUNTER_CLOCK = ('e', 'n', 'w', 's');
 my %DIRECTIONS = ('n' => [-1,  0], 's' => [ 1,  0], 

@@ -1,15 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-use feature qw{ postderef say signatures state };
-no warnings qw{ experimental };
-
-# You are given an array @A of items (integers say,
-# but they can be anything).
-#
-# Your task is to pack that array into an MxN matrix
-# spirally counterclockwise, as tightly as possible.
+use v5.36;
 
 if (@ARGV) {
     spiral(@ARGV);

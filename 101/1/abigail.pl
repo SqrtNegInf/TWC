@@ -1,23 +1,7 @@
 #!/usr/bin/env perl
-
-use 5.032;
-
-use strict;
-use warnings;
-no  warnings 'syntax';
-
-use experimental 'signatures';
-use experimental 'lexical_subs';
+use v5.36;
 
 use List::Util 'max';
-
-#
-# See ../README.md
-#
-
-#
-# Run as: perl ch-1.pl < input-file
-#
 
 my $RIGHT = 0;
 my $UP    = 1;

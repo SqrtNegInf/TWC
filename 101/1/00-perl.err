@@ -1,0 +1,4 @@
+./gustavo-chaves.pl: line 5: use: command not found
+./gustavo-chaves.pl: line 6: use: command not found
+./gustavo-chaves.pl: line 7: syntax error near unexpected token `('
+./gustavo-chaves.pl: line 7: `use Math::Pari qw(:number);'

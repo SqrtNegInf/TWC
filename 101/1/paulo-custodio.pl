@@ -1,19 +1,5 @@
 #!/usr/bin/env perl
-
-# Challenge 101
-#
-# TASK #1 › Pack a Spiral
-# Submitted by: Stuart Little
-#
-# You are given an array @A of items (integers say, but they can be anything).
-#
-# Your task is to pack that array into an MxN matrix spirally counterclockwise,
-# as tightly as possible.
-#
-# ‘Tightly’ means the absolute value |M-N| of the difference has to be as small
-# as possible.
-
-use Modern::Perl;
+use v5.36;
 
 my @list =1..12;
 

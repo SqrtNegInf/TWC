@@ -1,11 +1,6 @@
 #!/usr/bin/env perl
-# Perl weekly challenge 101
-# Task 1: Pack a spiral
-#
-# See https://wlmb.github.io/2021/02/22/PWC101/#task-1-pack-a-spiral
-use strict;
-use warnings;
-use v5.12;
+use v5.36;
+
 use POSIX qw(floor);
 use List::Util qw(first);
 
