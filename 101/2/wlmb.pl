@@ -1,4 +1,5 @@
 #!/usr/bin/env perl
+use v5.36;
 # Perl weekly challenge 101
 # Task 2: Origin containing triangle
 #
