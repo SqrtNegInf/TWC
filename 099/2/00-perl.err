@@ -1,7 +1,0 @@
-Bareword found where operator expected at ./polettix.pl line 26, near "say unique_subsequence"
-	(Do you need to predeclare say?)
-Bareword found where operator expected at ./polettix.pl line 27, near "say unique_subsequence_rx"
-	(Do you need to predeclare say?)
-syntax error at ./polettix.pl line 26, near "say unique_subsequence"
-Execution of ./polettix.pl aborted due to compilation errors.
-Undefined subroutine &main::is called at ./wanderdoc.pl line 38.

@@ -233,6 +233,8 @@ london lon: 3
 aaaa aa: 6
  
 ===> 099/2/polettix.pl <===
+5
+5
  
 ===> 099/2/roger-bell-west.pl <===
 1..2
@@ -240,3 +242,7 @@ ok 1 - example 1
 ok 2 - example 2
  
 ===> 099/2/wanderdoc.pl <===
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example with 0
+1..3

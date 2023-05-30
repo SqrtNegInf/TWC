@@ -1,4 +1,5 @@
 #!/usr/bin/env perl
+use v5.36;
 
 sub unique_subsequence ($S, $T) {
    my $lenT = length $T or return 1;
