@@ -1,12 +1,5 @@
 #!/usr/bin/env perl
-use warnings;
-use strict;
-
-=head1 Search Insert Position
-
-For larger arrays, binary search is much faster.
-
-=cut
+use v5.36;
 
 sub loop {
     my ($array, $value) = @_;

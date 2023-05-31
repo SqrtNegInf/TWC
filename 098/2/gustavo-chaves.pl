@@ -1,10 +1,5 @@
 #!/usr/bin/env perl
-
-# https://perlweeklychallenge.org/blog/perl-weekly-challenge-098/
-# TASK #2 › Search Insert Position
-
-use 5.030;
-use warnings;
+use v5.36;
 
 my %inputs = (
     3 => [1, 2, 3, 4],

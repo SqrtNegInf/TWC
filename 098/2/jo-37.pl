@@ -1,10 +1,8 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use v5.16;
 use Test2::V0 -srand => 1;
-use warnings FATAL => 'all';
 use List::MoreUtils 'lower_bound';
-use experimental 'signatures';
 
 our ($tests, $examples, $verbose, $value) = (1,1);
 

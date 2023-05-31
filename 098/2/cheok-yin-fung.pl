@@ -1,12 +1,9 @@
 #!/usr/bin/env perl
-# The Weekly Challenge 098
-# Task 2 Search Insert Position
-use strict;
-use warnings;
+use v5.36;
+
 use Test::Simple tests => 7;
 
 {  # modified from codes in The Weekly Challenge 094
-use strict;
 package BTNode;
 
 sub new {

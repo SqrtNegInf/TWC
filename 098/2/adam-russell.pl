@@ -1,11 +1,6 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-##
-# You are given a sorted array of distinct integers @N and a target $N.
-# Write a script to return the index of the given target if found otherwise 
-# place the target in the sorted array and return the index.
-##
+use v5.36;
+
 sub find_insert{
     my($list, $n) = @_;
     if($n < $list->[0]){

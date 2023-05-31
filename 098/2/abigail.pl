@@ -1,21 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use 5.032;
-
-use strict;
-use warnings;
-no  warnings 'syntax';
-
-use experimental 'signatures';
-use experimental 'lexical_subs';
-
-#
-# See ../README.md
-#
-
-#
-# Run as: perl ch-2.pl < input-file
-#
 # Each line is assumed to be a white space separated list of
 # numbers. The first number is the target number (`$N`), the rest of
 # the numbers is the array (`@N`).

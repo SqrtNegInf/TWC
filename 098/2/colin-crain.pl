@@ -82,10 +82,7 @@
 ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ##
 
 
-
-use warnings;
-use strict;
-use feature ":5.32";
+use v5.36;
 
 sub insert {
     my ($num, $arr) = @_;
