@@ -1,9 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-##
-# Write a script to demonstrate Stack operations.
-##
+use v5.36;
 
 package Stack{
     use boolean;
@@ -36,7 +32,7 @@ package Stack{
     true;
 }   
 
-my $stack = new Stack();
+my $stack = Stack->new;
 $stack->push(2);
 $stack->push(-1);
 $stack->push(0);

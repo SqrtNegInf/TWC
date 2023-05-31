@@ -1,12 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-use feature qw{ say signatures state };
-no warnings qw{ experimental };
-
-# I use `say` instead of `print` because the newlines
-# improve readability in the output
+use v5.36;
 
 my $stack = Stack->new;
 $stack->push(2);

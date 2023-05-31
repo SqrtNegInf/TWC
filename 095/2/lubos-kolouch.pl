@@ -1,20 +1,5 @@
 #!/usr/bin/env perl
-#===============================================================================
-#
-#         FILE: ch_2.pl
-#
-#        USAGE: ./ch_2.pl  
-#
-#  DESCRIPTION: Perl Weekly Challenge #095
-#               https://perlweeklychallenge.org/blog/perl-weekly-challenge-095/
-#               Demo Stack
-#
-#       AUTHOR: Lubos Kolouch
-#      CREATED: 01/13/2021 02:39:16 PM
-#===============================================================================
-
-use strict;
-use warnings;
+use v5.36;
 
 {
 package Stack;

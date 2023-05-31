@@ -1,23 +1,5 @@
 #!/usr/bin/env perl
-#===============================================================================
-#
-#         FILE: 9502.pl
-#
-#        USAGE: ./9502.pl  
-#
-#  DESCRIPTION: Stack demo as a test script
-#
-# REQUIREMENTS: List::Util and Test::More (which are in core)
-#        NOTES: Since a stack is a list, we will use an arrayref object
-#               instead of the traditional hashref.
-#       AUTHOR: Pete Houston (pete), cpan@openstrike.co.uk
-# ORGANIZATION: Openstrike
-#      VERSION: 1.0
-#      CREATED: 11/01/21
-#===============================================================================
-
-use strict;
-use warnings;
+use v5.36;
 
 package Stack;
 

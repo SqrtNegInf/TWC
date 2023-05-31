@@ -52,13 +52,9 @@ Size: 3
 -1
 DONE
  
-===> 095/2/duncan-c-white.pl <===
-top = -1
-min = -1
- 
 ===> 095/2/e-choroba.pl <===
 1..5
-ok 1 - threw Regexp ((?^:Can't pop empty stack))
+ok 1 - threw Regexp ((?^u:Can't pop empty stack))
 ok 2 - Removes 0
 ok 3 - Top
 ok 4 - min

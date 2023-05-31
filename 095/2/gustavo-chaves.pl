@@ -1,10 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-# https://perlweeklychallenge.org/blog/perl-weekly-challenge-095/
-# TASK #2 › Demo Stack
-
-use 5.030;
-use warnings;
 use List::Util;
 
 package Stack {

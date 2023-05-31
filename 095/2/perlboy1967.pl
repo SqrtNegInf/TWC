@@ -1,17 +1,5 @@
 #!/usr/bin/env perl
-
-# Perl Weekly Challenge - 095
-# - https://perlweeklychallenge.org/blog/perl-weekly-challenge-095/
-#
-# Task 1 - Palindrome Number
-#
-# Author: Niels 'PerlBoy' van Dijke
-
-use v5.16;
-use strict;
-use warnings;
-
-#use Data::Printer;
+use v5.36;
 
 # Unbuffered STDOUT
 $|++;

@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-# The Weekly Challenge 095 Task 2 Demo Stack
-
-use strict;
-use warnings;
+use v5.36;
 
 {
 use strict;
