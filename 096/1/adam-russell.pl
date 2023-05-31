@@ -1,11 +1,6 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-##
-# You are given a string $S.
-# Write a script to reverse the 
-# order of words in the given string.
-##
+use v5.36;
+
 sub reverse_words{
     my($words) = @_; 
     if(@{$words}){

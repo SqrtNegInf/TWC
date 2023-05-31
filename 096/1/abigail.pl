@@ -1,25 +1,5 @@
 #!/usr/bin/env perl
-
-#
-# See ../README.md
-#
-
-#
-# Run as: perl ch-1.pl < input-file
-#
-
-use 5.032;
-
-use strict;
-use warnings;
-no  warnings 'syntax';
-
-use experimental 'signatures';
-use experimental 'lexical_subs';
-
-#
-# For the challenge description, see ../README.md
-#
+use v5.36;
 
 #
 # The challenge doesn't describe what a word is, or what to

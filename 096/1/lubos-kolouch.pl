@@ -1,21 +1,5 @@
 #!/usr/bin/env perl
-#===============================================================================
-#
-#         FILE: ch-1.pl
-#
-#        USAGE: ./ch-1.pl  
-#
-#  DESCRIPTION: Perl Weekly Challenge #096
-#               https://perlweeklychallenge.org/blog/perl-weekly-challenge-096/
-#               Task 1 - Reverse Words
-#  
-#       AUTHOR: Lubos Kolouch
-#      VERSION: 1.0
-#      CREATED: 01/23/2021 11:20:18 AM
-#===============================================================================
-
-use strict;
-use warnings;
+use v5.36;
 
 sub reverse_words {
     my $what = shift;

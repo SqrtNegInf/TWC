@@ -1,14 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-use feature qw{ say signatures state };
-no warnings qw{ experimental };
-
-# I suppose I'm commenting instead of blogging, or pre-blogging, 
-# but the key questions with this challenge are:
-#   * "What is a word?"
-#   * "What is a word boundary?"
+use v5.36;
 
 # Mohammad gives us an easy one with "The Weekly Challenge", 
 # where we can easily split on spaces and reverse, but padding

@@ -36,9 +36,6 @@ ok 1 - Single word
 ok 2 - Example 1
 ok 3 - Example 2
  
-===> 096/1/gustavo-chaves.pl <===
-Challenge Weekly The
- 
 ===> 096/1/james-smith.pl <===
 ok 1
 ok 2
@@ -65,9 +62,6 @@ ok 2
 ===> 096/1/nunovieira220.pl <===
 family same the of part are Raku and Perl
  
-===> 096/1/paulo-custodio.pl <===
-Challenge Weekly The
- 
 ===> 096/1/polettix.pl <===
 <family same the of part are Raku and Perl>
  
@@ -86,6 +80,3 @@ Challenge Weekly The
 ok 1 - Example 1
 ok 2 - Example 2
 1..2
- 
-===> 096/1/wlmb.pl <===
-"Challenge Weekly The"

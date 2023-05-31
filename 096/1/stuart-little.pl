@@ -1,5 +1,4 @@
 #!/usr/bin/env perl
-use warnings;
-use v5.12;
+use v5.36;
 
 say join " ", (reverse grep /\w/, (split /\s+/, 'The Weekly Challenge'))
