@@ -1,11 +1,5 @@
 #!/usr/bin/env perl
-# Perl weekly challenge 097
-# Task 1: Binary substrings
-#
-# See https://wlmb.github.io/2021/01/25/PWC097/#task-2-binary-substrings
-use warnings;
-use strict;
-use v5.12;
+use v5.36;
 
 use List::Util qw(all reduce);
 use Scalar::Util qw(looks_like_number);

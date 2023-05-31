@@ -1,11 +1,5 @@
 #!/usr/bin/env perl
-use warnings;
-use v5.12;
-
-# run <script> <binary string> <number>
-
-use feature qw(signatures);
-no warnings qw(experimental::signatures);
+use v5.36;
 
 use List::MoreUtils qw(each_arrayref part);
 

@@ -1,9 +1,5 @@
 #!/usr/bin/env perl
-# The Weekly Challenge 097 Task 2
-# Binary Substrings
-# Usage: $ perl ch-2.pl $B $S
-use strict;
-use warnings;
+use v5.36;
 
 my $B = $ARGV[0] //  '101100101';
 my $S = $ARGV[1] //  3;

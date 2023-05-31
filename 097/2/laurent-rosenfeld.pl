@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use feature qw/say/;
+use v5.36;
 
 my ($in_string, $size) = ('101100101',3);
 my $sub_str_len = length($in_string) / $size;

@@ -1,11 +1,6 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-##
-# You are given a binary string $B and an integer $S.
-# Write a script to split the binary string $B of size $S 
-# and then find the minimum number of flips required to make 
-# it all the same.
+use v5.36;
+
 use feature "bitwise";
 
 sub substrings{

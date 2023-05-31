@@ -1,18 +1,7 @@
 #!/usr/bin/env perl
-
-# Perl Weekly Challenge - 097
-# - https://perlweeklychallenge.org/blog/perl-weekly-challenge-097/
-#
-# Task 2 - Binary Substrings
-#
-# Author: Niels 'PerlBoy' van Dijke
-
-use v5.16;
-use strict;
-use warnings;
+use v5.36;
 
 use List::Util qw(sum);
-use Data::Printer;
 
 # Unbuffered STDOUT
 $|++;

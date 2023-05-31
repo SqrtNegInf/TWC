@@ -77,62 +77,6 @@ ok 15
 ===> 097/2/gustavo-chaves.pl <===
 1 to make all substrings equal to '101' (2)
  
-===> 097/2/james-smith.pl <===
-ok 1
-ok 2
-ok 3
-ok 4
-ok 5
-ok 6
-ok 7
-ok 8
-ok 9
-ok 10
-ok 11
-ok 12
-ok 13
-ok 14
-ok 15
-ok 16
-ok 17
-ok 18
-ok 19
-ok 20
-ok 21
-ok 22
-ok 23
-ok 24
-ok 25
-ok 26
-ok 27
-ok 28
-ok 29
-ok 30
-ok 31
-ok 32
-ok 33
-ok 34
-ok 35
-ok 36
-1..36
- 
-===> 097/2/jan-perl.pl <===
-
-101100101,3
-Output: 1
-Reference: 0: 101
-Binary Substrings:
-"101": 0 flips
-"100": 1 flips tot make it "101"
-"101": 0 flips
-
-10110111,4
-Output: 2
-Reference: 0: 1011
-Binary Substrings:
-"1011": 0 flips
-"0111": 2 flips tot make it "1011"
- 
 ===> 097/2/jo-37.pl <===
 # Seeded srand with seed '1' from import arg.
 ok 1 - example 1 split
@@ -149,15 +93,6 @@ ok 11 - incomplete last chunk
 ok 12 - unusual zero padding
 1..12
  
-===> 097/2/kai-burgdorf.pl <===
-Input: $B = 101100101, $S = 3
-Output: 1
-
-Binary Substrings:
-"101": 0 flip 
-"100": 1 flip to make it 101
-"101": 0 flip 
- 
 ===> 097/2/laurent-rosenfeld.pl <===
 1
  
@@ -167,7 +102,7 @@ ok 2
 1..2
  
 ===> 097/2/nunovieira220.pl <===
-2
+3
  
 ===> 097/2/perlboy1967.pl <===
 Input: $B = '101100101', $S = 3
@@ -198,10 +133,7 @@ Initial strings:
 
 Target string: 101
 
-Have to flip: 1
- 
-===> 097/2/ulrich-rieke.pl <===
-1
+Have to flip: 3
  
 ===> 097/2/wanderdoc.pl <===
 ok 1 - Example 1

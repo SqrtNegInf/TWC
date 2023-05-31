@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-use warnings;
-use strict;
+use v5.36;
 
 use List::Util qw{ sum };
 
@@ -12,7 +11,7 @@ sub brute_force {
     my $same = 0 x $size;
     my $best = $size * @strings;
     until ($size < length $same) {
-        my $flips = sum(map { ($_ ^ $same) =~ tr/\x01// } @strings);
+        my $flips = sum(map { ($_ ^. $same) =~ tr/\x01// } @strings);
         $best = $flips if $flips < $best;
         $same = sprintf "%0${size}b", 1 + oct "b$same";
     }

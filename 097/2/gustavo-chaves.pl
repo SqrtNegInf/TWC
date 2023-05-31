@@ -1,10 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-# https://perlweeklychallenge.org/blog/perl-weekly-challenge-097/
-# TASK #2 › Binary Substrings
-
-use 5.030;
-use warnings;
 use List::AllUtils qw(sum0 pairwise reduce);
 
 my ($B, $S) = @ARGV;

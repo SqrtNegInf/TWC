@@ -1,34 +1,5 @@
 #!/usr/bin/env perl
-=begin
-
-TASK #2 › Binary Substings
-Submitted by: Mohammad S Anwar
-You are given a binary string $B and an integer $S.
-
-Write a script to split the binary string $B of size $S and then find the minimum number of flips required to make it all the same.
-
-    Example 1:
-        Input: $B = “101100101”, $S = 3
-        Output: 1
-        
-        Binary Substrings:
-            "101": 0 flip
-            "100": 1 flip to make it "101"
-            "101": 0 flip
-    Example 2:
-        Input $B = “10110111”, $S = 4
-        Output: 2
-        
-        Binary Substrings:
-            "1011": 0 flip
-            "0111": 2 flips to make it "1011"
-
-=end
-=cut
-
-use strict;
-use warnings;
-use Data::Dumper;
+use v5.36;
 
 my $B = 101100101;
 my $S = 3;

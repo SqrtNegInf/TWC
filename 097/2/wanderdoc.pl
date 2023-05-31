@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings FATAL => qw(all);
-
+use v5.36;
 
 use List::Util qw(min sum);
 use Test::More;
@@ -21,7 +19,7 @@ sub count_flips
      for my $idx ( 0 .. $#arr )
      {
           my $comparing = $arr[$idx];
-          my $sum = sum( map { unpack '%32b*', $comparing ^ $_ } 
+          my $sum = sum( map { unpack '%32b*', $comparing ^. $_ } 
                          @arr[grep $_ != $idx, 0 .. $#arr] ); 
           $min = $sum if $sum < $min;
      }

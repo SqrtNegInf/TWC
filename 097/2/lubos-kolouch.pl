@@ -1,22 +1,6 @@
 #!/usr/bin/env perl
-#===============================================================================
-#
-#         FILE: ch-2.pl
-#
-#        USAGE: ./ch-2.pl  
-#
-#  DESCRIPTION: Perl Weekly Challenge 097
-#               Task 2
-#               Binary Substrings
-#
-#       AUTHOR: Lubos Kolouch
-#      CREATED: 01/30/2021 10:11:26 AM
-#===============================================================================
+use v5.36;
 
-use strict;
-use warnings;
-use feature qw/say/;
-use Data::Dumper;
 use List::Util qw/min/;
 
 sub binary_substrings {
