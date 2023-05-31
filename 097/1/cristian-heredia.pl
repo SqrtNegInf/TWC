@@ -1,4 +1,5 @@
 #!/usr/bin/env perl
+use v5.36;
 =begin
 
 TASK #1 › Caesar Cipher

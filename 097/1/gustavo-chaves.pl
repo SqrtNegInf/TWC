@@ -1,4 +1,5 @@
 #!/usr/bin/env perl
+use v5.36;
 
 # https://perlweeklychallenge.org/blog/perl-weekly-challenge-097/
 # TASK #1 › Caesar Cipher

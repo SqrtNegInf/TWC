@@ -1,4 +1,5 @@
 #!/usr/bin/env perl
+use v5.36;
 use v5.20;
 use utf8;
 use strict;

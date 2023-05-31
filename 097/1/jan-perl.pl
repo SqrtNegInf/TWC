@@ -1,8 +1,7 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use warnings;
-
-sub inittrs($) {
+sub inittrs {
   my ($shift) = @_;
   my $p1=" ";
   my $p2=" ";
@@ -13,10 +12,10 @@ sub inittrs($) {
   return ($p1,$p2);
 }
 
-$S = "THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG";
-$N = 3;
+my $S = "THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG";
+my $N = 3;
 
-($plain,$cipher)= inittrs($N);
+my ($plain,$cipher)= inittrs($N);
 print "Plain:    $plain\n";
 print "Cipher:   $cipher\n";
 

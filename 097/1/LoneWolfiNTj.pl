@@ -1,4 +1,5 @@
 #!/usr/bin/env perl
+use v5.36;
 #  caesar-cipher.pl
 use v5.30;
 sub error;
