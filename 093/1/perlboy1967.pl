@@ -1,15 +1,5 @@
 #!/usr/bin/env perl
-
-# Perl Weekly Challenge - 093
-# - https://perlweeklychallenge.org/blog/perl-weekly-challenge-093/
-#
-# Task 1 - Max Points
-#
-# Author: Niels 'PerlBoy' van Dijke
-
-use v5.16;
-use strict;
-use warnings;
+use v5.36;
 
 use List::Util qw(max);
 use Algorithm::Combinatorics qw(combinations);

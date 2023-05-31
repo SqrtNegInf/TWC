@@ -1,37 +1,8 @@
 #!/usr/bin/env perl
-use strict;
-use warnings FATAL => qw(all);
-
-=prompt
-You are given set of co-ordinates @N. Write a script to count maximum points on a straight line when given co-ordinates plotted on 2-d plane.
-Example 1:
-|
-|     x
-|   x
-| x
-+ _ _ _ _
-
-Input: (1,1), (2,2), (3,3)
-Output: 3
-
-Example 2:
-|
-|
-| x       x
-|   x
-| x   x
-+ _ _ _ _ _
-Input: (1,1), (2,2), (3,1), (1,3), (5,3)
-Output: 3
-
-=cut
+use v5.36;
 
 use List::Util qw(min max);
 use Test::More;
-
-
-
-
 
 sub max_points
 {

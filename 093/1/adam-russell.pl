@@ -1,12 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-##
-# You are given set of co-ordinates @N.
-# Write a script to count maximum points 
-# on a straight line when given co-ordinates 
-# plotted on 2-d plane.
-##
+
 sub triangle_area{
     my($i, $j, $k) = @_;
     return ($i->[0] * ($j->[1] - $k->[1])) 

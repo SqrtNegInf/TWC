@@ -1,4 +1,5 @@
 #!/usr/bin/env perl
+use v5.36;
 #
 #       acme.pl
 #
@@ -75,9 +76,6 @@
 
 
 
-use warnings;
-use strict;
-use feature ":5.26";
 use Algorithm::Combinatorics qw( combinations );
 use List::Util qw( max );
 use POSIX qw( ceil );

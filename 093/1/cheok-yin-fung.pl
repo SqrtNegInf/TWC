@@ -1,15 +1,6 @@
 #!/usr/bin/env perl
-# The Weekly Challenge 093
-# Task 1 Max Points
-# I choose to interpret the task as only integer 
-# coordinates are allowed and the "lines" are only the 
-# diagonals, horizontals or verticals because
-# I find it fun to show it can inplement as an O(n log n) solution,
-# instead of O(n^2) solution of BF for a more general case.
-# ref: https://stackoverflow.com/questions/4179581/what-is-the
-# -most-efficient-algorithm-to-find-a-straight-line-that-goes-through-m
-use strict;
-use warnings;
+use v5.36;
+
 use List::Util qw/max/;
 use Test::More tests => 2 ;
 

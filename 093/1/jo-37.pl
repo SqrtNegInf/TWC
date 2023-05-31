@@ -1,13 +1,12 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use v5.16;
 use Math::Utils qw(gcd flipsign);
 use List::Util qw(none first);
 use List::MoreUtils 'pairwise';
 use Data::Dump qw(dd pp);
 use Carp;
 use Test2::V0 -srand => 1;
-use experimental qw(signatures postderef);
 
 # The task does not specify the data type of the given points.  Since
 # the examples use integers, this implementation presumes integer

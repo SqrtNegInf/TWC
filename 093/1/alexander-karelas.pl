@@ -1,10 +1,5 @@
 #!/usr/bin/env perl
-#
-# You are given set of co-ordinates @N. Write a script to count maximum points on a straight line when given
-# co-ordinates plotted on 2-d plane.
-
-use v5.30;
-use warnings;
+use v5.36;
 
 use Test::More;
 use List::Util 'max';

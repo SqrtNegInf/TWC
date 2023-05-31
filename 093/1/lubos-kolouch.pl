@@ -1,23 +1,7 @@
 #!/usr/bin/env perl
-#===============================================================================
-#
-#         FILE: ch_1.pl
-#
-#        USAGE: ./ch_1.pl  
-#
-#  DESCRIPTION: Perl Weekly Challenge #093
-#               https://perlweeklychallenge.org/blog/perl-weekly-challenge-093/
-#               Max Points 
-#
-#       AUTHOR: Lubos Kolouch
-#      CREATED: 12/30/2020 02:39:16 PM
-#===============================================================================
+use v5.36;
 
-use strict;
-use warnings;
-use feature qw/say/;
 use List::Util qw/max/;
-use Data::Dumper;
 
 sub get_max_lines {
     my $what = shift;

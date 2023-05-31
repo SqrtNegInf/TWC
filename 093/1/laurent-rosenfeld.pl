@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use feature "say";
+use v5.36;
 
 my @tests = ( [[1,1], [2,2], [5, 5], [5,2], [3,3], [3,1], [2,7], [4, 4]],
               [[1,1], [2,2], [3,1], [1,3], [5,3]],
