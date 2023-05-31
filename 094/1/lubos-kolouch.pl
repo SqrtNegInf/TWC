@@ -1,22 +1,5 @@
 #!/usr/bin/env perl
-#===============================================================================
-#
-#         FILE: ch-1.pl
-#
-#        USAGE: ./ch-1.pl  
-#
-#  DESCRIPTION: Perl Weekly Challenge 094
-#               Task 1
-#               Group Anagrams
-#
-#       AUTHOR: Lubos Kolouch
-#      VERSION: 1.0
-#      CREATED: 01/06/2021 08:43:01 PM
-#===============================================================================
-
-use strict;
-use warnings;
-
+use v5.36;
 
 sub get_anagrams {
     my $what = shift;

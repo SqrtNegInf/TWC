@@ -1,11 +1,6 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-##
-# You are given an array of strings @S.
-# Write a script to group Anagrams together 
-# in any random order.
-##   
+use v5.36;
+
 my %letter_factor = (
     e => 2,
     t => 3,

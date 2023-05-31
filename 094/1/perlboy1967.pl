@@ -1,17 +1,5 @@
 #!/usr/bin/env perl
-
-# Perl Weekly Challenge - 094
-# - https://perlweeklychallenge.org/blog/perl-weekly-challenge-094/
-#
-# Task 1 - Group Anagrams
-#
-# Author: Niels 'PerlBoy' van Dijke
-
-use v5.16;
-use strict;
-use warnings;
-
-#use List::Util qw(shuffle);
+use v5.36;
 
 # Unbuffered STDOUT
 $|++;

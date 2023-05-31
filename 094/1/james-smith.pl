@@ -1,9 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use strict;
-
-use warnings;
-use feature qw(say);
 use Test::More;
 
 is( render(group_anagrams(qw(opt bat saw tab pot top was))), '[bat tab] [saw was] [opt pot top]'  );

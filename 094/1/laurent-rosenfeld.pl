@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use feature "say";
+use v5.36;
 
 my @test = @ARGV > 0 ? @ARGV : qw < tops opt bat pots saw tab pot top stop opts was x>;
 

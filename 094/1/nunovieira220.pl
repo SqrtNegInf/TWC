@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-#use Data::Dumper::OneLine;
+use v5.36;
 
 # Input
 my @words = ("opt", "bat", "saw", "tab", "pot", "top", "was");
