@@ -1,9 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use strict;
-
-use warnings;
-use feature qw(say);
 use Test::More;
 
 ## We represent the tree as a nested array.

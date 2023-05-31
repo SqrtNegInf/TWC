@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-use warnings;
-use strict;
+use v5.36;
 
 # Each node in the tree is represented as
 #   [ value ( , first child ( , second child ) ) ]

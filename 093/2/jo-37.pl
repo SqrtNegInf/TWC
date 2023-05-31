@@ -1,8 +1,7 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use v5.16;
 use Test2::V0 -srand => 1;
-use experimental qw(signatures postderef);
 use Data::Dump qw(dd pp);
 
 our ($verbose, $examples, $tests) = (0,1,1);

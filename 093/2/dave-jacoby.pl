@@ -1,9 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-use feature qw{ say signatures state };
-no warnings qw{ experimental };
+use v5.36;
 
 # separate blocks so I can copy and paste a bit more
 # without the compiler barking at me

@@ -1,4 +1,5 @@
 #!/usr/bin/env perl
+use v5.36;
 use strict;
 use warnings;
 ##
@@ -38,14 +39,14 @@ sub build_paths {
 
 MAIN:{
     my $Tree;
-    $Tree = new Graph();
+    $Tree = Graph->new;
     $Tree->add_vertices(1, 2, 3, 4);
     $Tree->add_edge(1, 2);
     $Tree->add_edge(2, 3);
     $Tree->add_edge(2, 4);
     print travserse_sum($Tree) . "\n";
     
-    $Tree = new Graph();
+    $Tree = Graph->new;
     $Tree->add_vertices(1, 2, 3, 4, 5, 6);
     $Tree->add_edge(1, 2);
     $Tree->add_edge(1, 3);

@@ -1,9 +1,6 @@
 #!/usr/bin/env perl
-# The Weekly Challenge 093
-# Task 2 Sum Path
-use strict;
-use warnings;
-use Data::Dumper;
+use v5.36;
+
 use Test::More tests => 3;
 
 sub jumptoLc {

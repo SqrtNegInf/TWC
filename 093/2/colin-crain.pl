@@ -1,4 +1,5 @@
 #!/usr/bin/env perl
+use v5.36;
 #
 #       sumpath.pl
 #
@@ -82,10 +83,6 @@
 ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ##
 
 
-
-use warnings;
-use strict;
-use feature ":5.26";
 
 ## ## ## ## ## MAIN:
 

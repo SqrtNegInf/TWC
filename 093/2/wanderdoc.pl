@@ -1,28 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings FATAL => qw(all);
-
-=prompt
-You are given binary tree containing numbers 0-9 only. Write a script to sum all possible paths from root to leaf.
-Example 1: Input: 
-     1
-    /
-   2
-  / \
- 3   4
-
-Output: 13 as sum two paths (1->2->3) and (1->2->4)
-
-
-Example 2: Input:
-     1
-    / \
-   2   3
-  /   / \
- 4   5   6
-Output: 26 as sum three paths (1->2->4), (1->3->5) and (1->3->6)
-
-=cut
+use v5.36;
 
 use Struct::Dumb;
 use List::Util qw(sum);
