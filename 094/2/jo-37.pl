@@ -1,9 +1,5 @@
 #!/usr/bin/env perl
-
-use v5.16;
-use warnings FATAL => 'all';
-no warnings 'recursion';
-use experimental qw(postderef signatures);
+use v5.36;
 use Data::Dump;
 
 our ($mode, $examples, $verbose) = ('NLR', 1);

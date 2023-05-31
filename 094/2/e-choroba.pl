@@ -1,22 +1,5 @@
 #!/usr/bin/env perl
-use warnings;
-use strict;
-use feature qw{ say };
-
-=head1 Binary Tree to Linked List
-
-As I understand it, the linked list should correspond to the
-depth-first traversal of the tree.
-
-Let's represent each node in a tree by an array reference where the
-elements are VALUE, FIRST CHILD, SECOND CHILD, only the first one is
-required. A tree is represented by its root.
-
-Let's represent each element of a linked list by an array reference
-where the elements are VALUE and NEXT. A linked list is represented by
-its first element.
-
-=cut
+use v5.36;
 
 use enum qw( VALUE FIRST_CHILD SECOND_CHILD NEXT=1 );
 

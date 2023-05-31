@@ -1,9 +1,5 @@
 #!/usr/bin/env perl
-
-# https://perlweeklychallenge.org/blog/perl-weekly-challenge-094/
-
-use 5.030;
-use warnings;
+use v5.36;
 
 sub flatten_tree {
     my ($list, $tree) = @_;

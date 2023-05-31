@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use feature qw/say/;
-#use Data::Dumper;
+use v5.36;
 
 my @tests = ( [1, [2, [3,], [4,]]],
               [1, [2, [4,]], [3, [5], [6, ]]],

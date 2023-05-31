@@ -1,20 +1,6 @@
 #!/usr/bin/env perl
-use strict;
-use warnings FATAL => qw(all);
+use v5.36;
 
-=prompt
-You are given a binary tree. Write a script to represent the given binary tree as an object and flatten it to a linked list object. Finally print the linked list object.
-Example: Input:
-        1
-       / \
-      2   3
-     / \
-    4   5
-       / \
-      6   7
-    Output:
-        1 -> 2 -> 4 -> 5 -> 6 -> 7 -> 3
-=cut
 use Struct::Dumb; # for LL below.
 
 package treeNode # Tree should be an object. OOP by Conway ch.4.2.

@@ -1,9 +1,5 @@
 #!/usr/bin/env perl
-# The Weekly Challenge 094
-# Task 2: Binary Tree to Linked List
-use strict;
-use warnings;
-#use Data::Dumper;
+use v5.36;
 
 {
 use strict;

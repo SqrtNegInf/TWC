@@ -1,20 +1,9 @@
 #!/usr/bin/env perl
-
-# Perl Weekly Challenge - 093
-# - https://perlweeklychallenge.org/blog/perl-weekly-challenge-093/
-#
-# Task 2 - Binary Tree to Linked List
-#
-# Author: Niels 'PerlBoy' van Dijke
-
-use v5.16;
-use strict;
-use warnings;
+use v5.36;
 
 use List::Util qw(sum);
-#use Data::Printer;
 
-sub treeToList(\@\@);
+sub treeToList :prototype(\@\@);
 
 # Unbuffered STDOUT
 $|++;
@@ -67,7 +56,7 @@ foreach my $case (sort keys %tree) {
   printf "===============================\n\n";
 }
 
-sub treeToList (\@\@) {
+sub treeToList :prototype(\@\@) {
   my ($arN, $ar) = @_;
 
   foreach my $a (@$ar) {
