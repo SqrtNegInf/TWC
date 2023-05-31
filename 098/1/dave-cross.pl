@@ -1,9 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-use feature qw[signatures say state];
-no warnings 'experimental::signatures';
+use v5.36;
 
 say readN('input.txt', 4) for 1 .. 3;
 

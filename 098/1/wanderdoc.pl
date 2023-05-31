@@ -1,18 +1,12 @@
 #!/usr/bin/env perl
-use strict;
-use warnings FATAL => qw(all);
+use v5.36;
 
-
-use FindBin qw($Bin); # Windows.
 use IO::File; 
-use feature 'state';
-
-
 
 sub readN
 {
      my ($file, $num) = @_;
-     state $handle = (IO::File->new("$Bin/$file", "r") or die "$!");
+     state $handle = (IO::File->new("./$file", "r") or die "$!");
      my $into;
      read($handle, $into, $num);
      return $into;

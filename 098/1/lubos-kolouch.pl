@@ -1,20 +1,5 @@
 #!/usr/bin/env perl
-#===============================================================================
-#
-#         FILE: ch-1.pl
-#
-#        USAGE: ./ch-1.pl  
-#
-#  DESCRIPTION: Perl Weekly Challenge 098
-#               Read N-characters
-#               https://www.perlweeklychallenge.org
-#
-#       AUTHOR: Lubos Kolouch
-#      CREATED: 02/06/2021 10:10:41 AM
-#===============================================================================
-
-use strict;
-use warnings;
+use v5.36;
 
 my $offset = 0;
 

@@ -1,11 +1,6 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-##
-# You are given file $FILE.
-# Create subroutine readN($FILE, $number) returns the 
-# first n-characters and moves the pointer to the (n+1)th character.
-##
+use v5.36;
+
 sub read_maker0{
     my $n = 0;
     return sub{

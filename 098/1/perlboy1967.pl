@@ -1,20 +1,10 @@
 #!/usr/bin/env perl
-
-# Perl Weekly Challenge - 098
-# - https://perlweeklychallenge.org/blog/perl-weekly-challenge-098/
-#
-# Task 1 - Read N-characters
-#
-# Author: Niels 'PerlBoy' van Dijke
+use v5.36;
 
 BEGIN {
   use File::Basename qw(dirname);
   chdir(dirname($0));
 }
-
-use v5.16;
-use strict;
-use warnings;
 
 #use readN qw(readN); # in-line the package
 
@@ -26,7 +16,7 @@ use Time::HiRes qw(usleep);
 my %FH;
 my %EOF;
 
-sub readN ($$) {
+sub readN {
   my ($fileName, $length) = @_;
 
   # Close the file when eof is reached

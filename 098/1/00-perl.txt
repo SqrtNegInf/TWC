@@ -63,9 +63,6 @@ ab'
 	'input1.txt'	4	'cde
 '
  
-===> 098/1/duncan-c-white.pl <===
-readN(input.txt,4) = 1234
- 
 ===> 098/1/e-choroba.pl <===
 1..3
 ok 1
@@ -95,9 +92,6 @@ ok 1
 ok 2
 ok 3
 1..3
- 
-===> 098/1/nunovieira220.pl <===
-1234
  
 ===> 098/1/perlboy1967.pl <===
 input1.txt |1|
