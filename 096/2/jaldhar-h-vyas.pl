@@ -1,22 +1,9 @@
 #!/usr/bin/env perl
-use 5.020;
-use warnings;
+use v5.36;
+
 use English qw/ -no_match_vara /;
 
-sub usage {
-    print<<"-USAGE-";
-Usage:
-  $PROGRAM_NAME <from> <to>
-  
-    <from>    string to convert from
-    <to>      string to convert to
--USAGE-
-    exit 0;
-}
-
-sub min {
-    return (sort { $a <=> $b } @_)[0];
-}
+use List::Util 'min';
 
 sub levenshtein {
     my ($from, $to) = @_;

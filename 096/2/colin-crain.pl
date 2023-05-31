@@ -30,10 +30,8 @@
 ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ##
 
 
+use v5.36;
 
-use warnings;
-use strict;
-use feature ":5.26";
 use List::Util qw( min );
 
 sub levenshtein {

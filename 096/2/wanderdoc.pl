@@ -1,11 +1,8 @@
 #!/usr/bin/env perl
-use strict;
-use warnings FATAL => qw(all);
-
+use v5.36;
 
 use List::Util qw(min);
 use Test::More;
-
 
 # Wikipedia: https://en.wikipedia.org/wiki/Damerau%E2%80%93Levenshtein_distance
 sub LevenshteinDistance 

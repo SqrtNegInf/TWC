@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-use 5.024;
-use warnings;
-use experimental qw< postderef signatures >;
-no warnings qw< experimental::postderef experimental::signatures >;
+use v5.36;
 
 # Wikipedia: .../Levenshtein_distance#Iterative_with_two_matrix_rows
 sub levenshtein {

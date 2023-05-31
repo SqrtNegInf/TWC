@@ -1,13 +1,7 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use strict;
-use warnings;
 use List::Util 'min';
-
-use feature 'say';
-use feature 'signatures';
-
-no warnings qw(experimental::signatures);
 
 my $S1 = shift(@ARGV) // 'kitten';
 my $S2 = shift(@ARGV) // 'sitting';

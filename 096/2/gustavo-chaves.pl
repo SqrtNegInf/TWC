@@ -1,10 +1,5 @@
 #!/usr/bin/env perl
-
-# https://perlweeklychallenge.org/blog/perl-weekly-challenge-096/
-# TASK #2 › Edit Distance
-
-use 5.030;
-use warnings;
+use v5.36;
 
 my ($S1, $S2) = ('kitten', 'sitting');
 

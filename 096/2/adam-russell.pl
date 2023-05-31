@@ -1,12 +1,6 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-##
-# You are given two strings $S1 and $S2.
-# Write a script to find out the minimum operations 
-# required to convert $S1 into $S2. The operations 
-# can be insert, remove or replace a character.
-##
+use v5.36;
+
 use Memoize;
 memoize("edit_distance");
 

@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-no warnings;
+use v5.36;
 use experimental 'switch';
 
 my $S1 = $ARGV[0] ? $ARGV[0] : "sunday";
@@ -137,7 +136,7 @@ sub edit_dis {
             when (/delete/) {
                 if ($B[$abcB_op[$k]] ne "|") {
                     my $bef;
-                    $bef = ($abcA_op[$k] => $abcB_op[$k]) ? "after" : "before";
+                    $bef = ($abcA_op[$k] >= $abcB_op[$k]) ? "after" : "before";
                     print "delete the \'$A[$abcA_op[$k]]\' $bef the \'$B[$abcB_op[$k]]\'";
                 } 
                 else {
