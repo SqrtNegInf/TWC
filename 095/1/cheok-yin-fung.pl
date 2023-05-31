@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-# The Weekly Challenge 095 Task 1 Palindrome Number
-use strict;
+use v5.36;
 use experimental 'switch';
 
 sub check_pal {

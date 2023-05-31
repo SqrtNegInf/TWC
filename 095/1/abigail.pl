@@ -1,18 +1,5 @@
 #!/usr/bin/env perl
-
-use 5.032;
-
-use strict;
-use warnings;
-no  warnings 'syntax';
-
-use experimental 'signatures';
-use experimental 'lexical_subs';
-
-#
-# Run as "perl ch-1.pl < input-file"
-# with one or more possible palidromes, each on their own line.
-#
+use v5.36;
 
 #
 # A recursive definition of a palindrome:
@@ -37,10 +24,11 @@ use experimental 'lexical_subs';
 # As the latter mixes digits from two different scripts.
 #
 
-binmode *STDIN, ':utf8';
+# Unicode case not working on DATA handle
+#binmode *STDIN, ':utf8';
+
 say /^(*sr: (?<PAL> \.?(?=\d) | \d | (\d) (?&PAL) \g{-1}))$/x ? 1 : 0 while <DATA>;
 
-# Unicode case not working on DATA handle
 
 __END__
 2002

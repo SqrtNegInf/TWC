@@ -1,21 +1,5 @@
 #!/usr/bin/env perl
-#===============================================================================
-#
-#         FILE: ch_1.pl
-#
-#        USAGE: ./ch_1.pl  
-#
-#  DESCRIPTION: Perl Weekly Challenge 095
-#               Task1
-#               Palindrome Number
-#
-#       AUTHOR: Lubos Kolouch
-#      CREATED: 01/16/2021 10:12:20 AM
-#===============================================================================
-
-use strict;
-use warnings;
-use 5.010;
+use v5.36;
 
 sub is_palindrome {
     my $what = shift;

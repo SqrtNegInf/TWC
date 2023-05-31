@@ -1,11 +1,6 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-##
-# You are given a number $N.
-# Write a script to figure out if the given number is Palindrome. 
-# Print 1 if true otherwise 0.
-##
+use v5.36;
+
 use boolean;
 
 sub is_palindrome{

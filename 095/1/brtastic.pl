@@ -1,4 +1,5 @@
 #!/usr/bin/env perl
+use v5.36;
 use v5.24;
 use warnings;
 use Scalar::Util qw(looks_like_number);

@@ -1,10 +1,8 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use v5.16;
 use Test2::V0 -srand => 1;
-use warnings FATAL => 'all';
 use Scalar::Util 'looks_like_number';
-use experimental 'signatures';
 
 our ($tests, $examples, $verbose) =  (0,1);
 

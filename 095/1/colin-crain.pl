@@ -1,4 +1,5 @@
 #!/usr/bin/env perl
+use v5.36;
 #
 #       palindrome.pl
 #
@@ -28,12 +29,6 @@
 #       © 2021 colin crain
 #
 ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ##
-
-
-
-use warnings;
-use strict;
-use feature ":5.26";
 
 ## ## ## ## ## MAIN:
 my @ARGV = 2002;

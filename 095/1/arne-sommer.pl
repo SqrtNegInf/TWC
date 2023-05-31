@@ -1,8 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use strict;
-use warnings;
-use feature 'say';
 use Scalar::Util qw(looks_like_number);
 
 my $N = $ARGV[0] // 2002;

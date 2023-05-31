@@ -93,17 +93,6 @@ ok 4 - Test 00001221
 ===> 095/1/nunovieira220.pl <===
 1
  
-===> 095/1/pavel_kuptsov.pl <===
-ok 1
-ok 2
-ok 3
-ok 4
-ok 5
-ok 6
-ok 7
-ok 8
-1..8
- 
 ===> 095/1/perlboy1967.pl <===
 Input: 1221
 Output: 1
