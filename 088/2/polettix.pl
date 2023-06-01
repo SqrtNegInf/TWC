@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-use 5.024;
-#use warnings;
-use experimental qw< postderef signatures >;
-no warnings qw< experimental::postderef experimental::signatures >;
+use v5.36;
 
 $|++;
 
@@ -33,7 +30,7 @@ sub spiral_matrix ($M) {
 
 sub read_matrix ($fh) {
    local $/ = ''; # read by "paragraph"
-   my $text = <$fh> or return;
+   my $text = defined <$fh> or return; # DH added 'defined' for v5.36
    return [ map { [grep /\d/, split m{\D+}mxs] } split m{\n+}mxs, $text ];
 }
 

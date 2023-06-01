@@ -1,18 +1,5 @@
 #!/usr/bin/env perl
-
-# Perl Weekly Challenge - 088
-# - https://perlweeklychallenge.org/blog/perl-weekly-challenge-088/
-#
-# Task 2 - Spiral Matrix
-#
-# Author: Niels 'PerlBoy' van Dijke
-
-use strict;
-use warnings;
-
-#use Data::Printer;
-
-sub matrix($);
+use v5.36;
 
 # Unbuffered STDOUT
 $|++;
@@ -66,7 +53,7 @@ while (1) {
 #p @O;
 print "@O\n";
 
-sub matrix($) {
+sub matrix {
   my ($ar) = @_;
 
   my $m;

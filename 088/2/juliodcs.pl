@@ -1,9 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use feature 'say';
-use experimental 'signatures';
-use Data::Dumper;
+use v5.36;
 
 sub spiral_matrix($matrix, $acc = []) {
     return $acc if $matrix->@* == 0;

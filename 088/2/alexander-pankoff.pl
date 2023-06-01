@@ -1,10 +1,5 @@
 #!/usr/bin/env perl
-use v5.20;
-use utf8;
-use strict;
-use warnings;
-use feature qw(say signatures);
-no warnings 'experimental::signatures';
+use v5.36;
 
 {
     my $MATRIX = [

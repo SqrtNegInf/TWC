@@ -1,15 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-#use Test::Deep;
-#use Test::More tests => 4;
-# Task statement:
-# You are given m x n matrix of positive integers.
-# Write a script to print spiral matrix as list.
-# Usage: ch-2.pl [matrix height] [matrix width] [matrix entries]
-# Example
-#  input: $ ch-2.pl 2 2 A B C D
-# output: A, B, D, C 
+use v5.36;
 
 sub print_matrix {
     my @mat = @{$_[0]};  

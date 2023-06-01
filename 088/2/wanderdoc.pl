@@ -1,27 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings FATAL => qw(all);
-
-=prompt
-You are given m x n matrix of positive integers. Write a script to print spiral matrix as list.
-Example 1:
-Input:
-    [ 1, 2, 3 ]
-    [ 4, 5, 6 ]
-    [ 7, 8, 9 ]
-Output: [ 1, 2, 3, 6, 9, 8, 7, 4, 5 ]
-
-Example 2:
-Input:
-    [  1,  2,  3,  4 ]
-    [  5,  6,  7,  8 ]
-    [  9, 10, 11, 12 ]
-    [ 13, 14, 15, 16 ]
-Output: [ 1, 2, 3, 4, 8, 12, 16, 15, 14, 13, 9, 5, 6, 7, 11, 10 ]
-=cut
-
-
-
+use v5.36;
 
 
 use List::Util qw(first);

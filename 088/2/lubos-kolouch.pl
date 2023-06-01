@@ -1,21 +1,5 @@
 #!/usr/bin/env perl
-#===============================================================================
-#
-#         FILE: ch-2.pl
-#
-#        USAGE: ./ch-2.pl  
-#
-#  DESCRIPTION: https://perlweeklychallenge.org/blog/perl-weekly-challenge-088/
-#  				Task 2
-#  				Spiral Matrix
-#
-#       AUTHOR: Lubos Kolouch 
-#      VERSION: 1.0
-#      CREATED: 11/28/2020 01:02:17 PM
-#===============================================================================
-
-use strict;
-use warnings;
+use v5.36;
 
 sub get_spiral{
 	my $in_arr = shift;

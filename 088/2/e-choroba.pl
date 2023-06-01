@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-use warnings;
-use strict;
+use v5.36;
 
 my @DIRECTIONS = ([1, 0], [0, 1], [-1, 0], [0, -1]);
 sub spiral_matrix {

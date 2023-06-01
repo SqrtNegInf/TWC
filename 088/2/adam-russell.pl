@@ -1,10 +1,6 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-##
-# You are given m x n matrix of positive integers.
-# Write a script to print spiral matrix as a list.
-##
+use v5.36;
+
 sub print_remove_top{
     my(@matrix) = @_;
     print join(", ", @{$matrix[0]}) . ", ";

@@ -1,9 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-use v5.30;
-use Data::Dumper;
+use v5.36;
 
 
 

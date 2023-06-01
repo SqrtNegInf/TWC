@@ -1,4 +1,5 @@
 #!/usr/bin/env perl
+use v5.36;
 #
 #       spiral.pl
 #
@@ -29,10 +30,6 @@
 ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ##
 
 
-
-use warnings;
-use strict;
-use feature ":5.26";
 
 use POSIX qw( ceil floor );
 
