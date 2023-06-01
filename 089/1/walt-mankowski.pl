@@ -1,15 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use feature qw(:5.32);
-use experimental qw(signatures);
-
-# TASK #1 › GCD Sum
-# Submitted by: Mohammad S Anwar
-#
-# You are given a positive integer $N.
-#
-# Write a script to sum GCD of all possible unique pairs between 1 and $N.
+use v5.36;
 
 sub gcd($a, $b) {
     return $b == 0 ? $a : gcd($b, $a % $b);

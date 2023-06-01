@@ -1,13 +1,7 @@
 #!/usr/bin/env perl
-# Perl weekly challenge 89
-# Challenge 1.
-# Given $N, calculate the sum of the greatest common divisors of all
-# unique pairs of numbers between 1 and $N
+use v5.36;
+no warnings 'recursion';
 
-# Load packages
-#use warnings;
-use strict;
-use v5.10;
 use List::Util qw(sum0);
 
 # I use a straight forward approach

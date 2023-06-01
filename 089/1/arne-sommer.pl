@@ -1,9 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use feature 'say';
-use feature 'signatures';
-no warnings qw(experimental::signatures);
+use v5.36;
 
 use Algorithm::Combinatorics 'combinations';
 use List::MoreUtils 'duplicates';

@@ -1,17 +1,5 @@
 #!/usr/bin/env perl
-
-# Challenge 089
-
-# TASK #1 › GCD Sum
-# Submitted by: Mohammad S Anwar
-# You are given a positive integer $N.
-#
-# Write a script to sum GCD of all possible unique pairs between 1 and $N.
-
-# This solution uses a recursive algorithm to compute the GCD.
-
-use strict;
-use warnings;
+use v5.36;
 
 sub gcd {
     my($a, $b) = @_;

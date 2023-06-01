@@ -1,14 +1,5 @@
 #!/usr/bin/env perl
-
-# Perl Weekly Challenge - 089
-# - https://perlweeklychallenge.org/blog/perl-weekly-challenge-089/
-#
-# Task 1 - GCD Sum
-#
-# Author: Niels 'PerlBoy' van Dijke
-
-use strict;
-use warnings;
+use v5.36;
 
 # Unbuffered STDOUT
 $|++;

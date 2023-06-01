@@ -1,10 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-##
-# You are given a positive integer $N. Write a script to sum GCD of all possible 
-# unique pairs between 1 and $N.
-##
+use v5.36;
 
 sub all_unique_pairs{
     my($n) = @_;

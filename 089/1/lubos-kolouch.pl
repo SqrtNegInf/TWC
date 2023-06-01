@@ -1,20 +1,6 @@
 #!/usr/bin/env perl
-#===============================================================================
-#
-#         FILE: ch_1.pl
-#
-#        USAGE: ./ch_1.pl
-#
-#  DESCRIPTION: Perl Weekly Challenge 089
-#               Task 1
-#               GCD Sum
-#
-#       AUTHOR: Lubos Kolouch
-#      CREATED: 12/04/2020 09:40:19 PM
-#===============================================================================
+use v5.36;
 
-use strict;
-use warnings;
 use Math::Utils qw/gcd/;
 use Math::Combinatorics;
 

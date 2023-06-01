@@ -1,10 +1,6 @@
 #!/usr/bin/env perl
-# The Weekly Challenge - Perl & Raku - 089
-# Task 1: GCD Sum
-# Usage: ch-1.pl $N
+use v5.36;
 
-use strict;
-use warnings;
 use Test::More tests => 4;
 
 sub gcd {

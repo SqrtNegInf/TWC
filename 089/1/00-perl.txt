@@ -1,11 +1,16 @@
  
-===> 089/1/abigail.pl <===
+===> 089/1/abigail-cache.pl <===
 3
 7
 13015
 1974690
 222693
 464812
+ 
+===> 089/1/abigail.pl <===
+3
+7
+13015
  
 ===> 089/1/adam-russell.pl <===
 gcd(1, 2) + gcd(1, 3) + gcd(2, 3) = 3
@@ -18,9 +23,6 @@ gcd(1, 2) + gcd(1, 3) + gcd(1, 4) + gcd(2, 3) + gcd(2, 4) + gcd(3, 4) = 7
 13015
  
 ===> 089/1/arne-sommer.pl <===
-13015
- 
-===> 089/1/ash.pl <===
 13015
  
 ===> 089/1/athanasius.pl <===
@@ -44,9 +46,6 @@ sum   13015
     INPUT:  100
     OUTPUT: 13015
 
- 
-===> 089/1/duncan-c-white.pl <===
-13015
  
 ===> 089/1/e-choroba.pl <===
 1..8
@@ -75,9 +74,6 @@ ok 9
 ok 10
 ok 11
 1..11
- 
-===> 089/1/jcrosswh.pl <===
-13015
  
 ===> 089/1/jo-37.pl <===
 # Seeded srand with seed '1' from import arg.
@@ -121,12 +117,6 @@ Output: 6
  
 ===> 089/1/polettix.pl <===
 13015
- 
-===> 089/1/roger-bell-west.pl <===
-1..3
-ok 1 - example 1
-ok 2 - example 2
-ok 3 - example 3
  
 ===> 089/1/sgreen.pl <===
 13015
