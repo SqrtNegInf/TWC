@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings FATAL => qw(all);
-
+use v5.36;
 
 my $strand_1 = 'GTAAACCCCTTTTCATTTAGACAGATCGACTCCTTATCCATTCTCAGAGATGTGTTGCTGGTCGCCG';
 my %compl = (T => 'A', A => 'T', G => 'C', C => 'G');

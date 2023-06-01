@@ -1,10 +1,5 @@
 #!/usr/bin/env perl
-# The Weekly Challenge - Perl & Raku - 090
-# Task 1: DNA seq
-# Usage: ch-1.pl $S
-
-use strict;
-use warnings;
+use v5.36;
 
 sub dna {
     my $seq = $_[0];

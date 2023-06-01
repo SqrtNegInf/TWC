@@ -1,14 +1,5 @@
 #!/usr/bin/env perl
-
-# Perl Weekly Challenge - 090
-# - https://perlweeklychallenge.org/blog/perl-weekly-challenge-090/
-#
-# Task 1 - DNA Sequence
-#
-# Author: Niels 'PerlBoy' van Dijke
-
-use strict;
-use warnings;
+use v5.36;
 
 # Unbuffered STDOUT
 $|++;

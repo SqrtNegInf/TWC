@@ -1,13 +1,7 @@
 #!/usr/bin/env perl
-# For sequences of DNA get nucleotide counts and its complement
-# See https://wlmb.github.io/2020/12/07/PWC90/#task-1-dna-sequence
-use strict;
-use warnings;
-use v5.10;
+use v5.36;
 
 use List::Util qw(sum0);
-
-#say('Usage: ch-1.pl sequence1 sequence2 ...'), exit 1 unless @ARGV;
 
 my %complement_of; # Map dna nucleotide to its complement
 @complement_of{my @nucleotides=qw(T A G C)}=qw(A T C G); #initialize
