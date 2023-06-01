@@ -1,9 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use strict;
-use warnings;
-
-use feature 'say';
 use List::Util qw(product);
 
     my @N = <5 2 1 4 3>;

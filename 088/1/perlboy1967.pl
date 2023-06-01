@@ -1,16 +1,5 @@
 #!/usr/bin/env perl
-
-# Perl Weekly Challenge - 088
-# - https://perlweeklychallenge.org/blog/perl-weekly-challenge-088/
-#
-# Task 1 - Array of Product
-#
-# Author: Niels 'PerlBoy' van Dijke
-
-use strict;
-use warnings;
-
-#use Data::Printer;
+use v5.36;
 
 # Unbuffered STDOUT
 $|++;

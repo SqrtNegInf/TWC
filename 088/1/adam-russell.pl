@@ -1,11 +1,6 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-##
-# You are given an array of positive integers @N.
-# Write a script to return an array @M where $M[i] 
-# is the product of all elements of @N except the index $N[i].
-##
+use v5.36;
+
 sub list_product{
     my @numbers = @_;
     my $product = 1;

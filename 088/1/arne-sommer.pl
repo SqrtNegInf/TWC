@@ -1,7 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use strict;
-use feature 'say';
 use List::Util qw/reduce all/;
 
 my @N = <5 2 1 4 3>;
