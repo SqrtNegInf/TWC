@@ -1,8 +1,7 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use v5.16;
 use Test2::V0 -srand => 1;
-use experimental 'postderef';
 use List::MoreUtils 'minmax';
 
 # Intervals are represented here by refs to two-element arrays

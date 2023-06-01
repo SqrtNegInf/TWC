@@ -1,8 +1,6 @@
 #!/usr/bin/env perl
-# The Weekly Challenge 092
-# Task 2 Insert Interval
-use strict;
-use warnings;
+use v5.36;
+
 use Test::More tests => 3;
 use Test::Deep;
 

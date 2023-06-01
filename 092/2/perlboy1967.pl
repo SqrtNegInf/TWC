@@ -1,15 +1,5 @@
 #!/usr/bin/env perl
-
-# Perl Weekly Challenge - 092
-# - https://perlweeklychallenge.org/blog/perl-weekly-challenge-092/
-#
-# Task 2 - Insert Interval
-#
-# Author: Niels 'PerlBoy' van Dijke
-
-use v5.16;
-use strict;
-use warnings;
+use v5.36;
 
 
 use List::Util qw(min max);

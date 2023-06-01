@@ -1,9 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use strict;
-
-use warnings;
-use feature qw(say);
 use Test::More;
 
 is_deeply( int_insert( [[2,6]], [[1,4], [8,10]]        ), [[1,6],[8,10]] );  ## Simple overlap
