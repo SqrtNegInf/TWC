@@ -1,21 +1,5 @@
 #!/usr/bin/env perl
-#===============================================================================
-#
-#         FILE: ch_1.pl
-#
-#        USAGE: ./ch_1.pl  
-#
-#  DESCRIPTION: Perl Weekly Challenge #092
-#               Task 1 Isomorphic Strings
-#
-#       AUTHOR: Lubos Kolouch
-#      VERSION: 1.0
-#      CREATED: 12/25/2020 09:01:26 PM
-#===============================================================================
-
-use strict;
-use warnings;
-use Data::Dumper;
+use v5.36;
 
 sub is_isomorphic {
     my $what = shift;

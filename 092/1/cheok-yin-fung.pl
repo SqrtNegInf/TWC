@@ -1,10 +1,5 @@
 #!/usr/bin/env perl
-# The Weekly Challenge 092
-# Task 1 
-# main idea: hash of arrays 
-use strict;
-use warnings;
-use Data::Dumper;
+use v5.36;
 
 sub learn_pattern {
     my %pattern;

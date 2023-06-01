@@ -1,7 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use strict;
-use feature 'say';
 use List::Util 'uniq';
 use Getopt::Long;
 
@@ -21,14 +20,15 @@ if (length($A) != length($B))
 
 my %A;
 
-for my $index (0 .. length $A -1)
+#for my $index (0 .. length $A -1) # worked prior to v5.36
+for my $index (0 .. length($A) -1) # parens disambiguate precedence 
 {
   my $pair0 = substr($A, $index, 1);
   my $pair1 = substr($B, $index, 1);
     
   say ": Pair: $pair0 -> $pair1" if $verbose;
 
-  if (defined %A{$pair0})
+  if (defined $A{$pair0})
   {
     if ($A{$pair0} eq $pair1)
     {

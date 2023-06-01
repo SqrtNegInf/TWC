@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
+use v5.36;
+
 my @data=('abc','xyz','abb','xyy','sum','add');
 
 if ($#ARGV < 0 )

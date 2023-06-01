@@ -1,15 +1,5 @@
 #!/usr/bin/env perl
-
-# Perl Weekly Challenge - 092
-# - https://perlweeklychallenge.org/blog/perl-weekly-challenge-092/
-#
-# Task 1 - Isomorphic Strings
-#
-# Author: Niels 'PerlBoy' van Dijke
-
-use v5.16;
-use strict;
-use warnings;
+use v5.36;
 
 use Data::Printer;
 

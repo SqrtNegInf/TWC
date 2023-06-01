@@ -1,21 +1,5 @@
 #!/usr/bin/env perl
-#===============================================================================
-#
-#         FILE: 9201.pl
-#
-#        USAGE: ./9201.pl  
-#
-#  DESCRIPTION: ./9201.pl "STRING" "STRING"
-#
-#      OPTIONS: Output 1 if the 2 strings are isomorphic, zero otherwise
-#       AUTHOR: Pete Houston (pete), cpan@openstrike.co.uk
-# ORGANIZATION: Openstrike
-#      VERSION: 1.0
-#      CREATED: 22/12/20
-#===============================================================================
-
-use strict;
-use warnings;
+use v5.36;
 
 print isomorphic(<aab ccd>) . "\n";
 

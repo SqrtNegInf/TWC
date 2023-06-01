@@ -66,9 +66,6 @@ ok 3
 ok 4
 1..4
  
-===> 092/1/jcrosswh.pl <===
-1
- 
 ===> 092/1/jo-37.pl <===
 # Seeded srand with seed '1' from import arg.
 ok 1 - Example 1

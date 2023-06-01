@@ -1,17 +1,6 @@
 #!/usr/bin/env perl
-use 5.020;
-use warnings;
+use v5.36;
 use English qw/ -no_match_vars /;
-
-sub usage {
-    print<<"-USAGE-";
-  $PROGRAM_NAME <A> <B>
-  
-    <A>    a string
-    <B>    another string
--USAGE-
-    exit 0;
-}
 
 sub isIsomorphic {
     my ($A, $B) = @_;

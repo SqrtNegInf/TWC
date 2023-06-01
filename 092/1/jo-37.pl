@@ -1,8 +1,7 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use v5.16;
-use utf8;
-use charnames qw(:full :short);
+#use charnames qw(:full :short);
 use Unicode::Normalize;
 use Digest;
 use Test2::V0 -srand => 1;

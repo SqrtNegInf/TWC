@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use feature "say";
+use v5.36;
 
 my @tests = ( [qw< abc xyz >], [qw< abb xyy >], [qw< sum add >],
     [qw< ACAB XCXY >], [qw< abc uvwxy >] );
