@@ -1,19 +1,6 @@
 #!/usr/bin/env perl
-#===============================================================================
-#
-#         FILE: ch-2.pl
-#
-#        USAGE: ./ch-2.pl  
-#
-#  DESCRIPTION: Perl Weekly Challenge 088 
-#  				Task 2 - Largest Rectangle
-#
-#       AUTHOR: Lubos Kolouch
-#      CREATED: 11/22/2020 04:34:38 PM
-#===============================================================================
+use v5.36;
 
-use strict;
-use warnings;
 use List::Util qw/min/;
 
 sub get_rectangle {

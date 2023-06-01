@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use feature "say";
-use Data::Dumper;
+use v5.36;
 
 my @matrices =
     ( [ [ qw <0 1 0 1> ], [ qw <0 0 1 0> ],

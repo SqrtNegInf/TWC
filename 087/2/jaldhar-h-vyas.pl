@@ -1,17 +1,7 @@
 #!/usr/bin/env perl
-use 5.020;
-use warnings;
-use English qw/ -no_match_vars /;
+use v5.36;
 
-sub usage {
-    print<<"-USAGE-";
-Usage:
-  $PROGRAM_NAME <file>
-  
-    <file>    a file describing a matrix of 1's and 0's where every line is a row in the matrix.
--USAGE-
-    exit 0;
-}
+use English qw/ -no_match_vars /;
 
 sub all {
     my @array = @_;

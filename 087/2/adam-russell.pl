@@ -1,11 +1,6 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-##
-# You are given matrix m x n with 0 and 1.
-# Write a script to find the largest rectangle 
-# containing only 1. Print 0 if none found.
-##
+use v5.36;
+
 use boolean;
 
 sub print_solution{

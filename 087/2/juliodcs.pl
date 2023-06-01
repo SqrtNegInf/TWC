@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use experimental 'signatures';
-use feature 'say';
+use v5.36;
 
 sub largest_rectangle($matrix) {
     my $max = q();
