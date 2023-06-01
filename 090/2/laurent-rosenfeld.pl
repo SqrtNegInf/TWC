@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use feature "say";
+use v5.36;
 
 my ($c, $d) = (238, 13);
 my $result = $c % 2 ? $d : 0;

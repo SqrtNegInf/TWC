@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-# The Weekly Challenge 090
-# Task 2: Ethiopian Multiplication
-use strict;
-use warnings;
+use v5.36;
 
 my ($a,$b) = (14, 16);   # default value
 ($a, $b) = ($ARGV[0], $ARGV[1]) if $ARGV[1];

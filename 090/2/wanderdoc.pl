@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings FATAL => qw(all);
+use v5.36;
 
 use Test::More;
 use Scalar::Util qw(looks_like_number);

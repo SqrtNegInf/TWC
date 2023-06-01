@@ -1,9 +1,6 @@
 #!/usr/bin/env perl
-# Multiply two numbers using the Ethiopian Multiplication
-# See https://wlmb.github.io/2020/12/07/PWC90/#task-2-ethiopian-multiplication
-use strict;
-use warnings;
-use v5.10;
+use v5.36;
+
 use integer;
 use List::Util qw(all);
 

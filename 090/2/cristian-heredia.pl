@@ -1,17 +1,5 @@
 #!/usr/bin/env perl
-=begin
-
-    TASK #2 › Ethiopian Multiplication
-    Submitted by: Mohammad S Anwar
-    You are given two positive numbers $A and $B.
-    
-    Write a script to demonstrate Ethiopian Multiplication using the given numbers.
-
-=end
-=cut
-
-use strict;
-use warnings;
+use v5.36;
 
 #variables:
 my $A = 14;

@@ -1,4 +1,5 @@
 #!/usr/bin/env perl
+use v5.36;
 
 use integer;
 use Test2::V0 -srand => 1;

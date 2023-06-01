@@ -1,7 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use strict;
-use feature 'say';
 use Getopt::Long;
 
 my $verbose = 0;

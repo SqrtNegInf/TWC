@@ -1,11 +1,6 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-##
-# You are given two positive numbers $A and $B.
-# Write a script to demonstrate Ethiopian Multiplication 
-# using the given numbers.
-##
+use v5.36;
+
 sub ethiopian_multiplication{
     my($a, $b) = @_;
     my @steps;

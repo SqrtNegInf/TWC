@@ -1,20 +1,5 @@
 #!/usr/bin/env perl
-#===============================================================================
-#
-#         FILE: ch_2.pl
-#
-#        USAGE: ./ch_2.pl  
-#
-#  DESCRIPTION: Perl Weekly Challenge #090
-#               Task 2
-#               Ethiopian Multiplication 
-#
-#       AUTHOR: Lubos Kolouch
-#      CREATED: 12/13/2020 02:07:44 PM
-#===============================================================================
-
-use strict;
-use warnings;
+use v5.36;
 
 
 sub multiply {

@@ -103,9 +103,6 @@ The result for 14 * 12 is: 168
 646
 646
  
-===> 090/2/duncan-c-white.pl <===
-3094
- 
 ===> 090/2/e-choroba.pl <===
 238 13	skip
 119 26	add 26
@@ -187,27 +184,6 @@ ok 1
  
 ===> 090/2/perlboy1967.pl <===
 231 x 13 = 3003
- 
-===> 090/2/pete-houston.pl <===
-Starting with 238 and 13 we iterate by halving and doubling
-  238,    13
-  238 is even so ignore this value of 13
-  119,    26
-  119 is odd so add this value of 26 to give a running total of 26
-   59,    52
-  59 is odd so add this value of 52 to give a running total of 78
-   29,   104
-  29 is odd so add this value of 104 to give a running total of 182
-   14,   208
-  14 is even so ignore this value of 208
-    7,   416
-  7 is odd so add this value of 416 to give a running total of 598
-    3,   832
-  3 is odd so add this value of 832 to give a running total of 1430
-    1,  1664
-  1 is odd so add this value of 1664 to give a running total of 3094
-  n is 1, so we are finished and the result is 3094
-238 * 13 = 3094
  
 ===> 090/2/polettix.pl <===
 # Let's multiply A = 14 and B = 12, the Ethiopian way!
