@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-# The Weekly Challenge 091
-# Task 2 Jump Game
-use strict;
-use warnings;
+use v5.36;
 
 my @N = @ARGV;
 @N = (2,1,2,0,2) if !$ARGV[0];

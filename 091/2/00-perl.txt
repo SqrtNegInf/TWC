@@ -43,9 +43,6 @@ Output: 1
   1 9 9 2
 0
  
-===> 091/2/duncan-c-white.pl <===
-1
- 
 ===> 091/2/e-choroba.pl <===
 1..8
 ok 1 - Example 1
@@ -224,7 +221,6 @@ Input: (2,123,4,1,2,99,100)
 Output: 1
  
 ===> 091/2/pete-houston.pl <===
-1
  
 ===> 091/2/polettix.pl <===
 1

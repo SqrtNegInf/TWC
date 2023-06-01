@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use 5.012;
 use Test2::V0 -srand => 1;
 
 # Enable trace output:

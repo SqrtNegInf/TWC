@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-use feature qw(say);
+use v5.36;
 
 # Input
 my @A = (2, 1, 1, 0, 2);

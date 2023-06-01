@@ -1,21 +1,5 @@
 #!/usr/bin/env perl
-#===============================================================================
-#
-#         FILE: ch_2.pl
-#
-#        USAGE: ./ch_2.pl  
-#
-#  DESCRIPTION: Perl Weekly Challenge #091
-#               Task 2 - Jump Game
-#               www.perlweeklychallenge.org
-#
-#       AUTHOR: Lubos Kolouch
-#      VERSION: 1.0
-#      CREATED: 12/20/2020 10:27:07 AM
-#===============================================================================
-
-use strict;
-use warnings;
+use v5.36;
 
 sub jump {
     my $in_arr = shift;

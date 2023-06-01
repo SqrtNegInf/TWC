@@ -1,14 +1,5 @@
 #!/usr/bin/env perl
-
-# Perl Weekly Challenge - 091
-# - https://perlweeklychallenge.org/blog/perl-weekly-challenge-091/
-#
-# Task 2 - Jump Game
-#
-# Author: Niels 'PerlBoy' van Dijke
-
-use strict;
-use warnings;
+use v5.36;
 
 # Unbuffered STDOUT
 $|++;

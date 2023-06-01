@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use feature "say";
+use v5.36;
 
 my @tests = ([ qw<1 2 1 2 > ], [ qw< 2 1 1 0 2 > ], [ qw<1 2 1 2 1 > ]);
 say "@{$_}  -> ", jump($_) for @tests;

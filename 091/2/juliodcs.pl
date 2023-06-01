@@ -1,9 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use Lingua::EN::Numbers 'num2en';
-use feature 'say';
-use experimental 'signatures';
+use v5.36;
 
 my @ARGV = <1 2 1 2>;
 

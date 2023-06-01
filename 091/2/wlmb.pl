@@ -1,12 +1,6 @@
 #!/usr/bin/env perl
-# Perl weekly challenge 091
-# Task 2: Jump Game
-# Test if you can reach last element of an array by succesive jumps of bounded lengths.
-# See https://wlmb.github.io/2020/12/14/PWC91/#task-2-jump-game
+use v5.36;
 
-use strict;
-use warnings;
-use v5.10;
 use List::Util qw(all);
 use Scalar::Util::Numeric qw(isint);
 

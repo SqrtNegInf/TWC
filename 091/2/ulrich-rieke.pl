@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-use strict ;
-use warnings ;
+use v5.36;
 
 my @array = <1 2 1 2>;
 my $len = scalar @array ;
