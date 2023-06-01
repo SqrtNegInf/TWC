@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
+use v5.36;
 
 #die 'not ok - disabled: missing library';
 # fudged GSL to install
@@ -33,7 +32,7 @@ sub print_matrix {
 }    
 
 MAIN:{
-    my $permutation = new Math::GSL::Permutation(9);
+    my $permutation = Math::GSL::Permutation->new(9);
     while(gsl_permutation_next($permutation->raw) == 0){
         my @values =  $permutation->as_list();
         @values = map { $_ + 1 } @values;

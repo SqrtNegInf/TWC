@@ -1,16 +1,8 @@
 #!/usr/bin/env perl
 
-# Perl Weekly Challenge - 089
-# - https://perlweeklychallenge.org/blog/perl-weekly-challenge-089/
-#
-# Task 2 - Magical Matrix
-#
-# Author: Niels 'PerlBoy' van Dijke
+use v5.36;
 
 srand 1;
-
-use strict;
-use warnings;
 
 # Unbuffered STDOUT
 $|++;
@@ -19,8 +11,8 @@ use List::Util qw(sum shuffle);
 use Memoize;
 
 # Prototype
-sub checkSolution(\@);
-sub printSolution (\@);
+sub checkSolution :prototype(\@);
+sub printSolution  :prototype(\@);
 
 memoize('sum', 'checkSolution');
 
@@ -41,7 +33,7 @@ while (1) {
 printSolution(@s);
 
 
-sub checkSolution (\@) {
+sub checkSolution  :prototype(\@) {
   my ($ar) = @_;
 
   return 1 if (
@@ -60,7 +52,7 @@ sub checkSolution (\@) {
 }
 
 
-sub printSolution (\@) {
+sub printSolution  :prototype(\@) {
   my ($ar) = @_;
 
   for my $r (0..2) {

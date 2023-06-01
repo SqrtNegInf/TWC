@@ -1,12 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use feature qw(:5.32);
-use experimental qw(signatures);
-
-# TASK #2 › Magical Matrix
-#
-# Write code to produce a 3x3 magic square
+use v5.36;
 
 my @m;
 my $m = 3;

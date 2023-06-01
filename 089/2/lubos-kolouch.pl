@@ -1,22 +1,7 @@
 #!/usr/bin/env perl
-#===============================================================================
-#
-#         FILE: ch_2.pl
-#
-#        USAGE: ./ch_2.pl
-#
-#  DESCRIPTION: Perl Weekly Challenge 089
-#               Task 2
-#               Magical Matrix
-#
-#       AUTHOR: Lubos Kolouch
-#      CREATED: 12/04/2020 09:40:19 PM
-#===============================================================================
+use v5.36;
 
-use strict;
-use warnings;
 use List::Util qw/sum/;
-#use Data::Dumper;
 
 sub is_complete {
     my $matrix = shift;

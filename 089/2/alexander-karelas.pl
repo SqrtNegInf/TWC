@@ -1,14 +1,5 @@
 #!/usr/bin/env perl
-
-use v5.30;
-use warnings;
-
-# 0 1 2
-# 3 4 5
-# 6 7 8
-
-# x y
-# z w
+use v5.36;
 
 my @winning_rows = (
     [0, 1, 2],

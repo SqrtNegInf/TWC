@@ -1,16 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings FATAL => qw(all);
-
-=prompt
-Write a script to display matrix as below with numbers 1 - 9. Please make sure numbers are used once.
-[ a b c ]
-[ d e f ]
-[ g h i ]
-So that it satisfies the following: a + b + c = 15 d + e + f = 15  + h + i = 15 a + d + g = 15 b + e + h = 15
-c + f + i = 15 a + e + i = 15 c + e + g = 15
-=cut
-
+use v5.36;
 
 use List::Util qw(sum all);
 

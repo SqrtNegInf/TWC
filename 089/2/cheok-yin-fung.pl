@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-# The Weekly Challenge 089
-# Task 2: Magical Matrix
-use strict;
-use warnings;
+use v5.36;
 
 my $number_of_ans = 0;
 my ($a, $b, $c, $d, $e, $f, $g, $h, $i);
