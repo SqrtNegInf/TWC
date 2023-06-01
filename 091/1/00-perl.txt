@@ -50,9 +50,6 @@ output2: 1112131415
 output2: 1011121519
 
  
-===> 091/1/duncan-c-white.pl <===
-21321314
- 
 ===> 091/1/e-choroba.pl <===
 1..2
 ok 1 - Example 1

@@ -1,11 +1,5 @@
 #!/usr/bin/env perl
-# The Weekly Challenge - Perl & Raku - 090
-# Task 1: Count Number
-# Usage: ch-1.pl $N
-
-use strict;
-use warnings;
-#use Test::More tests => 3;
+use v5.36;
 
 my $N = $ARGV[0] ? $ARGV[0] : 1048576 ;
 my @NAME = qw/zero one two three four five six seven eight nine/;

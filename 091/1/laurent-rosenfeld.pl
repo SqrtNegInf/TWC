@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use feature "say";
+use v5.36;
 
 my @tests = qw<1122234 2333445 12345>;
 say  sprintf( "%-10d -> ", $_), count_numbers($_) for @tests;

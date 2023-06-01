@@ -1,17 +1,5 @@
 #!/usr/bin/env perl
-
-# Challenge 091
-#
-# TASK #1: Count Number
-#
-# You are given a positive number $N. Write a script to count number and
-# display as you read it.
-
-# Solution with regular expressions:
-# Just match the first digit and a sequence of equal matches, capture the
-# results and show them.
-use strict;
-use warnings;
+use v5.36;
 
 my $N = 1122234;
 while ($N ne '') {

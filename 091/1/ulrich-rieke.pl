@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-use strict ;
-use warnings ;
+use v5.36;
 
 my $N = 1122234;
 die "Wrong entry" unless ( $N =~ /\b\d+\b/ ) ;

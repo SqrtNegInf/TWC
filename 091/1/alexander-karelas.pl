@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-
-use v5.30;
-use warnings;
+use v5.36;
 
 my $number = $ARGV[0] // 1122234;
 defined $number or die "Usage: $0 <number>";

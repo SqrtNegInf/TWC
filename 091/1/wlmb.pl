@@ -1,11 +1,6 @@
 #!/usr/bin/env perl
-# Perl weekly challenge 091
-# Task 1: Count Number
-# Simple RLE encoding of a sequence of digits.
-# See https://wlmb.github.io/2020/12/14/PWC91/#task-1-count-number
-use warnings;
-use strict;
-use v5.10;
+use v5.36;
+
 use List::Util qw(all);
 use Scalar::Util::Numeric qw(isint);
 
