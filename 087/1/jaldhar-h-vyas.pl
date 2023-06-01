@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-use 5.020;
-use warnings;
+use v5.36;
 
 my @N = sort { $a <=> $b } (100, 4, 50, 3, 2);
 

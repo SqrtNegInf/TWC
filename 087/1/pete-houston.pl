@@ -1,20 +1,5 @@
 #!/usr/bin/env perl
-#===============================================================================
-#
-#         FILE: 8701.pl
-#
-#        USAGE: ./8701.pl N N [ ... ]
-#
-#  DESCRIPTION: Output longest sequence of incrementing integers
-#
-#       AUTHOR: Pete Houston (pete), cpan@openstrike.co.uk
-# ORGANIZATION: Openstrike
-#      VERSION: 1.0
-#      CREATED: 18/11/20
-#===============================================================================
-
-use strict;
-use warnings;
+use v5.36;
 
 my @n      = sort { $a <=> $b } my @N = (100, 4, 50, 3, 2);
 my @maxseq = 0;

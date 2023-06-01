@@ -1,19 +1,5 @@
 #!/usr/bin/env perl
-#===============================================================================
-#
-#         FILE: ch-1.pl
-#
-#        USAGE: ./ch-1.pl  
-#
-#  DESCRIPTION: Perl Weekly Challenge 087 
-#  				Task 1 - Longest Consecutive Sequence
-#
-#       AUTHOR: Lubos Kolouch
-#      CREATED: 11/17/2020 04:34:38 PM
-#===============================================================================
-
-use strict;
-use warnings;
+use v5.36;
 
 sub get_sequence {
 	my $input = shift;

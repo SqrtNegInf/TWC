@@ -1,11 +1,6 @@
 #!/usr/bin/env perl
-
-use strict;
-
-use warnings;
-use feature qw(say);
+use v5.36;
 use Test::More;
-use Data::Dumper qw(Dumper);
 
 is( display_lcf( lcf(qw(100 4 50 3 2)) ),   '(2, 3, 4)' );
 is( display_lcf( lcf(qw(20 30 10 40 50)) ), '0' );

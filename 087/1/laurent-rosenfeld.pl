@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use feature "say";
-#use Data::Dumper;
+use v5.36;
 
 my @tests = ( [ 100, 4, 50, 3, 2 ],
               [ 20, 30, 10, 40, 50 ],

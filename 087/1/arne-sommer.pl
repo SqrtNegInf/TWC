@@ -1,12 +1,8 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use strict;
-use feature 'say';
 use List::Util qw(all uniq);
  
-#die "At least 1 value" unless @ARGV;
-#die "Integers only" unless all { $ ~= /^\-?\d+$/ } @ARGV;
-
 my @sorted = uniq sort { $a <=> $b } (100, 4, 50, 3, 2);
 
 my @longest;

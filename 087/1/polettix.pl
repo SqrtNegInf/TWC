@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-use 5.024;
-use warnings;
-use experimental qw< postderef signatures >;
-no warnings qw< experimental::postderef experimental::signatures >;
+use v5.36;
 
 my @N = @ARGV ? @ARGV : (100, 4, 50, 3, 2);
 local $" = ', ';

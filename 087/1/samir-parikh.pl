@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-
-use warnings;
-use strict;
-use feature 'say';
+use v5.36;
 
 # run program as:
 # $ ./ch-1.pl "100, 4, 50, 3, 2"

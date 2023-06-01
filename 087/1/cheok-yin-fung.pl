@@ -1,10 +1,6 @@
 #!/usr/bin/env perl
-# The Weekly Challenge - Perl & Raku - 087
-# Task: Longest Consecutive Sequence
-# Usage: ch-1.pl @N
+use v5.36;
 
-use strict;
-use warnings;
 use Test::More tests => 3;
 use Test::Deep;
 

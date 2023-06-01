@@ -9,9 +9,6 @@
 0
 9,10,11
  
-===> 087/1/alexander-karelas.pl <===
-(9, 10, 11, 12, 13)
- 
 ===> 087/1/alexander-pankoff.pl <===
 (2, 3, 4)
  
@@ -52,19 +49,6 @@ longest run is 3 elements 2 3 4
 ===> 087/1/duane-powell.pl <===
 2,3,4
  
-===> 087/1/duncan-c-white.pl <===
-2,3,4
- 
-===> 087/1/e-choroba.pl <===
-1..7
-ok 1 - Example 1
-ok 2 - Example 2
-ok 3 - Example 3
-ok 4 - More than one
-ok 5 - Has shorter
-ok 6 - Length 2
-ok 7 - Duplicates
- 
 ===> 087/1/jaldhar-h-vyas.pl <===
 (2, 3, 4)
  
@@ -75,11 +59,6 @@ ok 3
 ok 4
 1..4
  
-===> 087/1/jeongoon.pl <===
-longest size: 3
-total 1 sequencies found.
-[2, 3, 4]
- 
 ===> 087/1/jo-37.pl <===
 # Seeded srand with seed '1' from import arg.
 ok 1 - Example 1
@@ -89,19 +68,6 @@ ok 4 - max != index
 ok 5 - has duplicate
 ok 6 - works with broken numbers, too
 1..6
- 
-===> 087/1/juliodcs.pl <===
-ok 1 - Tricky test: More elements at the end
-ok 2 - Empty list has no sequences
-ok 3 - One element has no sequence
-ok 4 - Two elements
-ok 5 - All elements reversed
-ok 6 - Two elements out of four
-ok 7 - Four elements
-ok 8 - Test 1 from PWC
-ok 9 - Test 2 from PWC
-ok 10 - Test 3 from PWC
-1..10
  
 ===> 087/1/laurent-rosenfeld.pl <===
 2 3 4

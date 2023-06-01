@@ -1,15 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use feature qw(:5.32);
-use experimental qw(signatures);
-
-# TASK #1 › Longest Consecutive Sequence
-# Submitted by: Mohammad S Anwar
-#
-# You are given an unsorted array of integers @N.
-#
-# Write a script to find the longest consecutive sequence. Print 0 if none sequence found.
+use v5.36;
 
 my @n = sort {$a <=> $b} my @N = (100, 4, 50, 3, 2);
 

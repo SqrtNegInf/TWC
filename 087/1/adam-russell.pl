@@ -1,11 +1,6 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-##
-# You are given an unsorted array of integers @N.
-# Write a script to find the longest consecutive sequence. 
-# Print 0 if no sequence found.
-##
+use v5.36;
+
 sub min_max{
     my @a = @_;
     my($min, $max) = ($a[0], $a[0]);

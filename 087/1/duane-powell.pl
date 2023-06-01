@@ -1,11 +1,5 @@
 #!/usr/bin/env perl
-use warnings;
-use strict;
-use feature 'say';
-
-# Problem: https://perlweeklychallenge.org/blog/perl-weekly-challenge-087/ TASK #1
-# You are given an unsorted array of integers @N.
-# Write a script to find the longest consecutive sequence. Print 0 if none sequence found
+use v5.36;
 
 my @N = (100, 4, 50, 3, 2);
 unless (scalar @N) {

@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-use strict ;
-use warnings ;
+use v5.36;
 
 my @array = my @N = (100, 4, 50, 3, 2);
 my @sorted = sort { $a <=> $b } @array ;#sort to possibly get consecutive number

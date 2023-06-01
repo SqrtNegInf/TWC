@@ -1,10 +1,5 @@
 #!/usr/bin/env perl
-
-use 5.032;
-
-use strict;
-use warnings;
-no  warnings 'syntax';
+use v5.36;
 
 #
 # Challenge

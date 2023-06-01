@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-use feature qw(say);
+use v5.36;
 
 # Input
 my @N = (20, 19, 9, 11, 10);
