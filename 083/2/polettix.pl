@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-use 5.024;
-use warnings;
-use experimental qw< postderef signatures >;
-no warnings qw< experimental::postderef experimental::signatures >;
+use v5.36;
 
 sub flip_array_basic (@A) {
    my $n = scalar(@A); # number of signs that can be flipped

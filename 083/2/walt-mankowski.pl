@@ -1,22 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use feature qw(:5.32);
-use experimental qw(signatures);
-
-# TASK #2 › Flip Array
-# Submitted by: Mohammad S Anwar
-#
-# You are given an array @A of positive numbers.
-#
-# Write a script to flip the sign of some members of the given array
-# so that the sum of the all members is minimum non-negative.
-#
-# Given an array of positive elements, you have to flip the sign of
-# some of its elements such that the resultant sum of the elements of
-# array should be minimum non-negative(as close to zero as
-# possible). Return the minimum no. of elements whose sign needs to be
-# flipped such that the resultant sum is minimum non-negative.
+use v5.36;
 
 my @a = (2,13,10,8);
 

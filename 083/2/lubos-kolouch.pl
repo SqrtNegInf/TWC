@@ -1,21 +1,6 @@
 #!/usr/bin/env perl
-#===============================================================================
-#
-#         FILE: ch-2.pl
-#
-#        USAGE: ./ch-2.pl  
-#
-#  DESCRIPTION:Perl Weekly Challenege 083
-#  			   https://perlweeklychallenge.org/
-#  			   Task 2 - Flip Array
-#
-#       AUTHOR:Lubos Kolouch
-#      CREATED: 10/25/2020 01:26:15 PM
-#===============================================================================
+use v5.36;
 
-use strict;
-use warnings;
-#use Data::Dumper;
 use List::Util qw/sum/;
 
 sub get_nr_flips {

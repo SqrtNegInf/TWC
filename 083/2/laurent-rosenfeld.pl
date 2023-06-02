@@ -1,9 +1,7 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use feature "say";
+use v5.36;
+
 use constant INF => 10 ** 12;
-#use Data::Dumper;
 
 my @a = (defined $ARGV[0]) ? @ARGV : (2,13,10,8);
 my %result;

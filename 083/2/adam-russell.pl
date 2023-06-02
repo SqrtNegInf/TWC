@@ -1,12 +1,6 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-##
-# You are given an array @A of positive numbers.
-# Write a script to flip the sign of some members 
-# of the given array so that the sum of the all 
-# members is minimum non-negative.
-##
+use v5.36;
+
 sub try_all_flips{
     my(@a) = @_;
     my @minimum = (undef, undef, []); 

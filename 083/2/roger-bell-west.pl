@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-use integer;
+use v5.36;
 
 use List::Util qw(sum);
 

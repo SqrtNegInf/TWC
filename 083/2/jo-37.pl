@@ -1,10 +1,10 @@
 #!/usr/bin/env perl
+use v5.36;
 
 use Test2::V0 -srand => 1;
 use List::Util 'sum';
 use List::MoreUtils 'pairwise';
 use Math::Utils 'copysign';
-use Benchmark 'cmpthese';
 
 # Count the minimum number of sign flips to achieve the mimimum signed
 # sum.  The efford to find the solution with this brute-force

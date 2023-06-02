@@ -1,13 +1,12 @@
 #!/usr/bin/env perl
-
-use v5.30;
-use warnings;
+use v5.36;
 
 # Note: this naive implementation has exponential time complexity (in terms of the list length)!
 # For heuristic algorithms with lower average running time, see https://www.ijcai.org/Proceedings/09/Papers/096.pdf.
 # However, note that even those have worst case exponential time complexity (in terms of the list length).
 #
 # Also note that multiple solutions might exist, but in that case only one possible solution is returned.
+
 sub flip_count_minimum_non_negative {
     my @A = @_;
 

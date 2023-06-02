@@ -1,16 +1,11 @@
 #!/usr/bin/env perl
-
-use warnings;
-use strict;
+use v5.36;
 
 # efficient algorithm
 my @A = ( 3, 10, 8, 23, 34, 52, 343, 23, 123, 11, 898, 238, 2, 567, 98 );
 
 # can also handle this
 #my @A = <20 20 20 19 18 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1>;
-
-#my @A = (3, 10, 8);
-#my @A = (12, 2, 10);
 
 my $sza = scalar @A;
 

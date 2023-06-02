@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
+use v5.36;
+
 use Test::More tests => 4;
 
 print fliparray([2,13,10,8]), "\n";

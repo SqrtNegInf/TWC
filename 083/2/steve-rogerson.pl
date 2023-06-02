@@ -1,19 +1,9 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use utf8;
-use 5.028;
+use v5.36;
+
 use Scalar::Util 'looks_like_number';
 use List::Util qw{sum};
 use List::MoreUtils qw{pairwise};
-#
-# We get a list of positive numbers from the command line and "do the flip"
-#
-# I tried to think of nifty algorithm and failed, so going for brute force.
-# One observation though is that if we change every sign, then the sign
-# of the total will change, we only need 2^(N-1) values, look for
-# the lowest non-zero absolute value and flip all signs if it's less than 0.
-#
 
 my @NUMBERS = (2,13,10,8);
 

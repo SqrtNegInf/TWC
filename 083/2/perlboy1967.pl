@@ -1,22 +1,8 @@
 #!/usr/bin/env perl
-
-# Perl Weekly Challenge - 083
-# - https://perlweeklychallenge.org/blog/perl-weekly-challenge-083/
-#
-# Task 2 - Flip Array
-#
-# Author: Niels 'PerlBoy' van Dijke
-
-use 5.16.3; # CentOS 7 distro
-
-use strict;
-use warnings;
+use v5.36;
 
 use List::Util qw(sum);
 use Scalar::Util qw(looks_like_number);
-
-#@ARGV = (1 .. 10)
-#  unless @ARGV;
 
 my (@A) = (2,13,10,8);
 
