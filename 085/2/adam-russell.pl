@@ -1,15 +1,9 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-##
-# You are given a positive integer $N.
-# Write a script to find if it can be expressed
-# as a ^ b where a > 0 and b > 1. 
-# Print 1 if you succeed otherwise 0.
-##
+use v5.36;
+
 use boolean;
 
-sub log_a{
+sub log_a {
     my($a, $n) = @_;
     return log($n)/log($a);
 }

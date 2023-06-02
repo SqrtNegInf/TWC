@@ -1,9 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-use feature qw{ say signatures state };
-no warnings qw{ experimental };
+use v5.36;
 
 for my $n ( 8, 15, 125 ) {
     say join "\t", $n, two_ints($n),"\n";

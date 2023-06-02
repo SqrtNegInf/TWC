@@ -1,15 +1,10 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use strict;
-use feature 'say';
-
-use Getopt::Long;
 use Math::Prime::Util 'factor';
 use List::MoreUtils 'duplicates';
 
 my $verbose = 0;
-
-#GetOptions("verbose"  => \$verbose);
 
 my $N = 125;
 

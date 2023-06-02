@@ -1,19 +1,5 @@
 #!/usr/bin/env perl
-#===============================================================================
-#
-#         FILE: ch-2.pl
-#
-#        USAGE: ./ch-2.pl  
-#
-#  DESCRIPTION: The weekly challenge #085
-#  				https://perlweeklychallenge.org/blog/perl-weekly-challenge-085/
-#  				Task 2 - Power of two integers
-#
-#       AUTHOR: Lubos Kolouch
-#===============================================================================
-
-use strict;
-use warnings;
+use v5.36;
 
 sub is_power_two_integers {
 	my $what = shift;

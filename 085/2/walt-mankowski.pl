@@ -1,24 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use feature qw(:5.32);
-use experimental qw(signatures);
-
-# TASK #2 › Power of Two Integers
-# Submitted by: Mohammad S Anwar
-#
-# You are given a positive integer $N.
-#
-# Write a script to find if it can be expressed as a ** b where a > 0
-# and b > 1. Print 1 if you succeed otherwise 0.
-
-# Note: I'm assuming that a and b must be integers, because otherwise
-# there are trivial solutions:
-# sqrt(n) ** 2 or (n**(2/3))**(3/2)
-#
-# Algorithm: If a**b = n and a and b are integers, then log(n)/log(a) = b
-# must also be an integer. is_whole() accounts for floating point
-# roundoff errors.
+use v5.36;
 
 my $EPS = 1e-6;
 my $n = 125;

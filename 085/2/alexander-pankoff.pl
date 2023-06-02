@@ -1,16 +1,8 @@
 #!/usr/bin/env perl
-use v5.20;
-use utf8;
-use strict;
-use warnings;
-use feature qw(say signatures);
-no warnings 'experimental::signatures';
+use v5.36;
 
 use Carp qw(croak);
 use Scalar::Util qw(looks_like_number);
-
-use Getopt::Long qw(:config auto_help);
-use Pod::Usage;
 
 say power_of_two($_) ? 1 : 0 for 8, 15, 125;
 
@@ -69,24 +61,3 @@ sub mk_number_gen ( $start, $end ) {
         return $cur <= $end ? $cur++ : undef;
     };
 }
-
-=pod
-
-=head1 NAME
-
-wk-085 ch-2 - Triplet Sum
-
-=head1 SYNOPSIS
-
-ch-2.pl [options] <N>
-
-  This program will print 1 if N can be expressed as a^b with a > 0
-  and b > 1
-
-  Arguments:
-    <N>          a positive integer
-
-  Options:
-    --help       print this help text
-
-=cut

@@ -1,10 +1,9 @@
 #!/usr/bin/env perl
-use strict ;
-use warnings ;
-use feature 'say' ;
+use v5.36;
 
 #the basic idea is : the integers must be between 2 and the square root of n
 #so we cycle through that range
+
 my $N = 125 ;
 my $powerlimit = 0 ;
 my $upperlimit = int( sqrt( $N ) ) ;
