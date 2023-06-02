@@ -1,20 +1,8 @@
 #!/usr/bin/env perl
-
-# Perl Weekly Challenge - 085
-# - https://perlweeklychallenge.org/blog/perl-weekly-challenge-085/
-#
-# Task 1 - Triplet Sum
-#
-# Author: Niels 'PerlBoy' van Dijke
-
-use strict;
-use warnings;
+use v5.36;
 
 # Unbuffered STDOUT
 $|++;
-
-# Prototype
-sub between ($$$);
 
 use Algorithm::Combinatorics qw(combinations);
 use List::Util qw(sum);
@@ -38,6 +26,6 @@ while (my $ar = $iter->next) {
 }
 print "No triplets found!\n" unless ($tripletsFound);
 
-sub between ($$$) {
+sub between {
   return $_[0] > $_[1] && $_[0] < $_[2];
 }

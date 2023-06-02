@@ -1,17 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use 5.032;
-
-use strict;
-use warnings;
-no  warnings 'syntax';
-
-use experimental 'signatures';
-use experimental 'lexical_subs';
-
-#
-# Challenge
-#
 # You are given an array of real numbers greater than zero.
 #
 # Write a script to find if there exists a triplet (a,b,c) such

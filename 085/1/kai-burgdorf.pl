@@ -1,16 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-
-#Input: @R = (1.2, 0.4, 0.1, 2.5)
-#Output: 1 as 1 < 1.2 + 0.4 + 0.1 < 2
-
-#Input: @R = (0.2, 1.5, 0.9, 1.1)
-#Output: 0
-
-#Input: @R = (0.5, 1.1, 0.3, 0.7)
-#Output: 1 as 1 < 0.5 + 1.1 + 0.3 < 2
+use v5.36;
 
 #my @R = ( 1.2, 0.4, 0.1, 2.5 );
 #my @R = ( 0.2, 1.5, 0.9, 1.1 );

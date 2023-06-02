@@ -1,11 +1,6 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-##
-# You are given an array of real numbers greater than zero.
-# Write a script to find if there exists a triplet (a,b,c) 
-# such that 1 < a+b+c < 2. Print 1 if you succeed otherwise 0.
-##
+use v5.36;
+
 use boolean;
 use Math::Combinatorics;
 

@@ -1,10 +1,5 @@
 #!/usr/bin/env perl
-# The Weekly Challenge 085 - Task 1 Triplet Sum
-# Usage: ch-1.pl (array of numbers)
-# Example: ch-1.pl 0.44 0.6 1
-use strict;
-use warnings;
-#use Test::More tests => 4;
+use v5.36;
 
 sub diff {
     my ($a, $b, $c) = @_;

@@ -1,21 +1,5 @@
 #!/usr/bin/env perl
-#===============================================================================
-#
-#         FILE: 8501.pl
-#
-#        USAGE: ./8501.pl N1 N2 ...
-#
-#  DESCRIPTION: Given an array of positive floats determine if a sum
-#  of any three of them may fall between 1 and 2
-#
-#       AUTHOR: Pete Houston (pete), cpan@openstrike.co.uk
-# ORGANIZATION: Openstrike
-#      VERSION: 1.0
-#      CREATED: 04/11/20
-#===============================================================================
-
-use strict;
-use warnings;
+use v5.36;
 
 my $ge = 1;
 my $lt = 2;

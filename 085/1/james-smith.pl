@@ -1,7 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use strict;
-use warnings;
 use Test::More;
 
 is( trip_sum(qw(1.2 0.4 0.1 2.5)), 1 );

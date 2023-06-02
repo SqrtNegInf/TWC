@@ -1,19 +1,6 @@
 #!/usr/bin/env perl
-#===============================================================================
-#
-#         FILE: ch-1.pl
-#
-#        USAGE: ./ch-1.pl  
-#
-#  DESCRIPTION: The weekly challenge #085
-#  				https://perlweeklychallenge.org/blog/perl-weekly-challenge-085/
-#  				Task 1 - Triplet Sum
-#
-#       AUTHOR: Lubos Kolouch
-#===============================================================================
+use v5.36;
 
-use strict;
-use warnings;
 use List::Util qw/sum/;
 use Math::Combinatorics;
 

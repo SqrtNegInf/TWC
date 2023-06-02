@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use feature "say";
+use v5.36;
 
 my @tests = ([1.2, 0.4, 0.1, 2.5],
              [0.2, 1.5, 0.9, 1.1],
