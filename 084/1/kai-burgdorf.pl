@@ -1,9 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-
-#use Data::Dumper;
+use v5.36;
 
 my $N = $ARGV[0] // -1700;
 my $output;

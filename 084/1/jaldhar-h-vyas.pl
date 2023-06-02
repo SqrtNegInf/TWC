@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-use 5.020;
-use warnings;
+use v5.36;
 
 my $num = -1700;
 my $sign = 0;

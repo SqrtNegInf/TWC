@@ -1,21 +1,5 @@
 #!/usr/bin/env perl
-#===============================================================================
-#
-#         FILE: 8401.pl
-#
-#        USAGE: ./8401.pl N 
-#
-#  DESCRIPTION: Reverse a valid 32-bit signed integer N
-#
-#       AUTHOR: Pete Houston (pete), cpan@openstrike.co.uk
-# ORGANIZATION: Openstrike
-#      VERSION: 1.0
-#      CREATED: 26/10/20
-#===============================================================================
-
-use strict;
-use warnings;
-use 5.014; # for /a
+use v5.36;
 
 my $ans    = 0;
 my $in     = -1700;

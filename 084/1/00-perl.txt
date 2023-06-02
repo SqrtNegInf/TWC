@@ -15,9 +15,6 @@
 ===> 084/1/adam-russell.pl <===
 -0071
  
-===> 084/1/alexander-pankoff.pl <===
--0071
- 
 ===> 084/1/arne-sommer.pl <===
 -0071
  
@@ -27,10 +24,6 @@ Output: -71
  
 ===> 084/1/bob-lied.pl <===
 -71
- 
-===> 084/1/cheok-yin-fung.pl <===
--1000000
--0000001
  
 ===> 084/1/colin-crain.pl <===
 
@@ -78,9 +71,6 @@ hard mode, done mathematically:
 input : 7463847412
 output: 2147483647
  
-===> 084/1/cristian-heredia.pl <===
-Output: -0071
- 
 ===> 084/1/dave-cross.pl <===
 -71
  
@@ -89,9 +79,6 @@ Output: -0071
  
 ===> 084/1/ddobbelaere.pl <===
 -71
- 
-===> 084/1/duncan-c-white.pl <===
--0071
  
 ===> 084/1/e-choroba.pl <===
 1..8
@@ -104,23 +91,11 @@ ok 6 - minint32
 ok 7 - minint-1
 ok 8 - remove zeroes
  
-===> 084/1/gugod.pl <===
-1234 -> 4321
-0 -> 0
--1700 -> -71
- 
 ===> 084/1/jaldhar-h-vyas.pl <===
 -71
  
 ===> 084/1/james-smith.pl <===
 -71
- 
-===> 084/1/jeongoon.pl <===
-Input:
-Sign:  (-)
-Value: 71
-Limt:  2147483648
-Reversed: -71
  
 ===> 084/1/jluis.pl <===
 -0071
@@ -172,23 +147,13 @@ ok 6
 ok 7
 1..7
  
-===> 084/1/nunovieira220.pl <===
--71
- 
 ===> 084/1/paulo-custodio.pl <===
 -71
- 
-===> 084/1/perlboy1967.pl <===
-Input: -1700
-Output: 71
  
 ===> 084/1/pete-houston.pl <===
 -71
  
 ===> 084/1/polettix.pl <===
--0071
- 
-===> 084/1/rage311.pl <===
 -0071
  
 ===> 084/1/roger-bell-west.pl <===
@@ -197,9 +162,6 @@ ok 1 - example 1
 ok 2 - example 2
 ok 3 - example 3
 ok 4 - example 4
- 
-===> 084/1/samir-parikh.pl <===
--0071
  
 ===> 084/1/sgreen.pl <===
 -0071

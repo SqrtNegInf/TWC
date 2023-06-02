@@ -1,13 +1,8 @@
 #!/usr/bin/env perl
-use warnings;
-use strict;
-use feature qw/say/;
+use v5.36;
+
 use POSIX qw/:limits_h/;
 use Config;
-
-BEGIN {
-  die "Must be run on a 64-bit perl" unless $Config{use64bitint};
-}
 
 sub task1 {
   my $N = shift;

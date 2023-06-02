@@ -1,11 +1,6 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-##
-# You are given an integer $N.
-# Write a script to reverse the given integer and print the result. 
-# Print 0 if the result doesn’t fit in 32-bit signed integer.
-##
+use v5.36;
+
 use Config;
 use boolean;
 use constant MAX_32BIT_SIGNED => 2_147_483_647;

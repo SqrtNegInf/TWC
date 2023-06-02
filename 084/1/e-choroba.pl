@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-use warnings;
-use strict;
+use v5.36;
 
 use constant {
     MAX_INT32 => (unpack 'l', pack 'H8', 'ffffff7f'),

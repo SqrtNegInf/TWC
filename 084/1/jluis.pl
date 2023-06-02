@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-use 5.010;
+use v5.36;
 
 my $N = -1700   ;
 

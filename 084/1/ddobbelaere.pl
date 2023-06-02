@@ -1,10 +1,5 @@
 #!/usr/bin/env perl
-
-use v5.20;
-use strict;
-use warnings;
-use feature qw(signatures);
-no warnings qw(experimental::signatures);
+use v5.36;
 
 #<<<
 sub reverse_integer($N) {
@@ -15,12 +10,7 @@ sub reverse_integer($N) {
 
 my $int = qr/-?\d+/;
 
-#if ( @ARGV && $ARGV[0] =~ /^$int$/ ) {
     say reverse_integer( -1700    );
-#}
-#else {
-#    say "Usage: $0 <Integer>";
-#}
 
 # Tests.
 while ($_ = <DATA>) {

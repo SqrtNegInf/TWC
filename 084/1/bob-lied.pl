@@ -1,29 +1,7 @@
 #!/usr/bin/env perl
-# vim:set ts=4 sw=4 sts=4 et ai wm=0 nu:
-#=============================================================================
-# ch-1.pl
-#=============================================================================
-# Copyright (c) 2020, Bob Lied
-#=============================================================================
-# Perl Weekly Challenge 084 Task #1 > Reverse Integer
-#=============================================================================
-# You are given an integer $N.
-# Write a script to reverse the given integer and print the result.
-# Print 0 if the result doesn’t fit in 32-bit signed integer.
-# The number 2,147,483,647 is the maximum positive value for a 32-bit signed binary integer in computing.
-
-use strict;
-use warnings;
-use v5.30;
-
-use experimental qw/ signatures /;
-
-
-sub Usage { "Usage: $0 args" };
+use v5.36;
 
 my $N = -1700;
-
-die Usage() unless $N;
 
 my $sign = 1;
 if ( $N < 0 )

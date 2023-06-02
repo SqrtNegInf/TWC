@@ -1,7 +1,6 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use feature "say";
+use v5.36;
+
 use constant MAX => 2 ** 31 - 1; # i.e. 2_147_483_647
 
 my $input = shift  // -1700;

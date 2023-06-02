@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings FATAL => qw(all);
+use v5.36;
 
 use Test::More;
 use constant {MAX_INT => 2_147_483_647};

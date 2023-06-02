@@ -1,20 +1,6 @@
 #!/usr/bin/env perl
-#===============================================================================
-#
-#         FILE: ch-1.pl
-#
-#        USAGE: ./ch-1.pl  
-#
-#  DESCRIPTION: Perl Weekly Challenge #84
-#               https://perlweeklychallenge.org/blog/perl-weekly-challenge-084/
-#               Task 1 - Reverse Integer
-#
-#       AUTHOR: Lubos Kolouch
-#      CREATED: 10/28/2020 08:48:14 PM
-#===============================================================================
+use v5.36;
 
-use strict;
-use warnings;
 use Math::BigInt;
 
 sub get_reverse_int {

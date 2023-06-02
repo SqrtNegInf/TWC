@@ -1,8 +1,6 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use feature 'say';
-use experimental 'signatures';
+use v5.36;
+
 use bigint;
 
 use constant INT_LAST => 2_147_483_647;
