@@ -1,12 +1,8 @@
 #!/usr/bin/env perl
 use v5.36;
-use strict;
-use warnings FATAL => qw(all);
 
 use List::Util qw(min);
 use Test::More;
-
-
 
 sub find_squares
 {

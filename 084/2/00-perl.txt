@@ -81,13 +81,6 @@ evaluated 40 squares
 1
 ----------
  
-===> 084/2/ddobbelaere.pl <===
-1
-4
-0
-1
-2
- 
 ===> 084/2/e-choroba.pl <===
 1..5
 ok 1 - Example 1
@@ -236,26 +229,6 @@ Output: 4
 0 1 1 1
 1 0 1 1
 4
- 
-===> 084/2/rage311.pl <===
-4x4 @ 0,0 to 3,3
-2x2 @ 0,0 to 1,1
-3x3 @ 0,1 to 2,3
-2x2 @ 2,2 to 3,3
-one squares: 4
-5x5 @ 0,0 to 4,4
-4x4 @ 0,0 to 3,3
-2x2 @ 0,0 to 1,1
-3x3 @ 0,1 to 2,3
-4x4 @ 1,1 to 4,4
-4x4 @ 2,1 to 5,4
-4x4 @ 2,2 to 5,5
-2x2 @ 2,2 to 3,3
-3x3 @ 3,2 to 5,4
-4x4 @ 0,3 to 3,6
-2x2 @ 2,3 to 3,4
-one squares: 11
-one squares: 0
  
 ===> 084/2/roger-bell-west.pl <===
 1..3

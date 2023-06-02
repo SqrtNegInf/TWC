@@ -87,10 +87,6 @@ use v5.36;
 
 
 
-use warnings;
-use strict;
-use feature ":5.26";
-
 ## ## ## ## ## MAIN:
 
 our $squarecount = 0;

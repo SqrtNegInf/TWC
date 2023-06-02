@@ -1,9 +1,5 @@
 #!/usr/bin/env perl
 use v5.36;
-use strict;
-use warnings;
-#use Test::More tests => 4;
-#use Data::Dumper;
 
 if ($ARGV[0]) {
     my @f = @ARGV;

@@ -1,11 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
 
-use strict;
-use warnings;
-use feature qw[signatures say];
-no warnings 'experimental::signatures';
-
 use List::Util 'min';
 
 my $matrix = [#get_matrix();

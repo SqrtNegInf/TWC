@@ -1,24 +1,7 @@
 #!/usr/bin/env perl
 use v5.36;
 
-# Perl Weekly Challenge - 084
-# - https://perlweeklychallenge.org/blog/perl-weekly-challenge-084/
-#
-# Task 2 - Find Square
-#
-# Author: Niels 'PerlBoy' van Dijke
-
-use 5.16.3; # Matching the CentOS 7 distro I'm using
-
-use strict;
-use warnings;
-
 use List::Util qw(min first sum);
-use Data::Printer;
-
-sub checkMatrix($);
-sub findNumberOfSquares($);
-sub printMatrix($);
 
 my $M = [
   [qw(1 1 0 1)],
@@ -31,7 +14,7 @@ printf "Input:\n%s\n", printMatrix($M);
 printf "\n";
 printf "Output: %d\n", findNumberOfSquares($M);
 
-sub checkMatrix($) {
+sub checkMatrix {
   my ($ar) = @_;
 
   my ($dx, $dy) = (scalar @{$ar->[0]}, scalar @$ar);
@@ -47,7 +30,7 @@ sub checkMatrix($) {
 } 
 
 
-sub findNumberOfSquares($) {
+sub findNumberOfSquares {
   my ($ar) = @_;
 
   my ($dX, $dY) = checkMatrix($M);
@@ -72,7 +55,7 @@ sub findNumberOfSquares($) {
 }
 
 
-sub printMatrix($) {
+sub printMatrix {
   my ($ar) = @_;
 
   return join("\n", map { '[ '.join(' ', @{$_}).' ]' } @$ar);

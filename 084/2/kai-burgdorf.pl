@@ -1,9 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
 
-use strict;
-use warnings;
-
 #Example 1 - Output: 1
 my @input = ( [ 0, 1, 0, 1 ], [ 0, 0, 1, 0 ], [ 1, 1, 0, 1 ], [ 1, 0, 0, 1 ] );
 

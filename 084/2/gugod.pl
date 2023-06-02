@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
-use v5.32;
+
 use List::Util qw(sum min);
 
 sub find_squares {

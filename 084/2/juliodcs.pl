@@ -1,9 +1,5 @@
 #!/usr/bin/env perl
 use v5.36;
-use strict;
-use warnings;
-use feature qw(say state);
-use experimental 'signatures';
 
 sub count_squares($matrix) {
     my $h = @{ $matrix };

@@ -1,8 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
 
-use strict;
-use warnings;
 use Test::More;
 
 is( squares([ [qw(0 1 0 1)], [qw(0 0 1 0)], [qw(1 1 0 1)], [qw(1 0 0 1)], ]), 1 );
