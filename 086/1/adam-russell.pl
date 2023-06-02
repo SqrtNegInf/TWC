@@ -1,12 +1,8 @@
 #!/usr/bin/env perl
+use v5.36;
 use strict;
 use warnings;
-##
-# You are given an array of integers @N and an integer $A.
-# Write a script to find find if there exists a pair of elements 
-# in the array whose difference is $A.
-# Print 1 if exists otherwise 0.
-##
+
 use boolean;
 use Math::Combinatorics;
 

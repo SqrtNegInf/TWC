@@ -1,10 +1,5 @@
 #!/usr/bin/env perl
-use v5.20;
-use utf8;
-use strict;
-use warnings;
-use feature qw(say signatures);
-no warnings 'experimental::signatures';
+use v5.36;
 
 use List::Util qw(any first pairfirst);
 use Scalar::Util qw(looks_like_number);
@@ -68,24 +63,3 @@ sub slurp($fh) {
     my $out = <$fh>;
     return $out;
 }
-
-=pod
-
-=head1 NAME
-
-wk-086 ch-1 - Pair Difference
-
-=head1 SYNOPSIS
-
-ch-1.pl [options]
-
-  This programm will print '1' if there is a pair in `numbers` whose difference is `target`
-
-  Options:
-    --numbers    a list of integer numbers (e.g. "10, 8, 12, 15, 5")
-    --target     the target value
-    --help       print this help text
-
-    If --numbers is omitted input will be read from stdin instead
-
-=cut

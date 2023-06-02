@@ -1,19 +1,7 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use feature qw(:5.32);
-use experimental qw(signatures);
-use Algorithm::Combinatorics qw(combinations);
+use v5.36;
 
-# TASK #1 › Pair Difference
-# Submitted by: Mohammad S Anwar
-#
-# You are given an array of integers @N and an integer $A.
-#
-# Write a script to find find if there exists a pair of elements in
-# the array whose difference is $A.
-#
-# Print 1 if exists otherwise 0.
+use Algorithm::Combinatorics qw(combinations);
 
 my @n = (10, 8, 12, 15, 5);
 my $a = 7;;

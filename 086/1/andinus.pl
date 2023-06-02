@@ -1,10 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-
-#die "usage: ./ch-1.pl <integers \@N> <integer \$A>\n"
-#    unless scalar @ARGV >= 3;
+use v5.36;
 
 my $A = 7;
 my @N = (10, 8, 12, 15, 5);

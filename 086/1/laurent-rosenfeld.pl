@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use feature "say";
+use v5.36;
 
 my @tests = ( [ 7, [10, 8, 12, 15, 5]],
               [ 6, [1, 5, 2, 9, 7]],

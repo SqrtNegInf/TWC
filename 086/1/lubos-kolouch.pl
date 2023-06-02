@@ -1,21 +1,5 @@
 #!/usr/bin/env perl
-#===============================================================================
-#
-#         FILE: ch-1.pl
-#
-#        USAGE: ./ch-1.pl  
-#
-#  DESCRIPTION: Perl Weekly Challenge 086
-#  				Task 1
-#  				Pair Difference 
-#
-#       AUTHOR: Lubos Kolouch
-#      CREATED: 11/14/2020 01:27:06 PM
-#===============================================================================
-
-use strict;
-use warnings;
-use Data::Dumper;
+use v5.36;
 
 sub is_pair_difference {
     my $data = shift;

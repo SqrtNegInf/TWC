@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use v5.30;
+use v5.36;
 
 sub pair_diff {
     my $ref = abs(shift);

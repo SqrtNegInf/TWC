@@ -1,8 +1,6 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use feature 'say';
-use experimental 'signatures';
+use v5.36;
+
 use List::Util 'any';
 
 sub diff_pair($a, $n, $i = 0) {

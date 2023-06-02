@@ -1,19 +1,7 @@
 #!/usr/bin/env perl
-use 5.020;
-use warnings;
+use v5.36;
+
 use English qw/ -no_match_vars /;
-
-sub usage {
-    print << "-USAGE-";
-Usage:
-  $PROGRAM_NAME <A> [<N> ...]
-  
-    <A>          difference between any pair from <N>
-    [<N> ...]    array of integers
--USAGE-
-
-    exit(0);
-}
 
 sub combinations {
     my @list = @{$_[0]};

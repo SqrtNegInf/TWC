@@ -43,9 +43,6 @@ Output: 1 as 12 - 5  = 7
       15 -- 10 30 20 50 40
 0
  
-===> 086/1/duncan-c-white.pl <===
-1
- 
 ===> 086/1/e-choroba.pl <===
 ok 1 - Example 1
 ok 2 - Example 2
@@ -65,22 +62,6 @@ ok 6 - Zero with duplicate
  
 ===> 086/1/jaldhar-h-vyas.pl <===
 1
- 
-===> 086/1/james-smith.pl <===
-ok 1
-ok 2
-ok 3
-1..3
- 
-===> 086/1/jo-37.pl <===
-# Seeded srand with seed '1' from import arg.
-ok 1 - Example 1
-ok 2 - Example 2
-ok 3 - Example 3
-ok 4 - zero diff exists
-ok 5 - zero diff does not exist
-ok 6 - negative diff
-1..6
  
 ===> 086/1/juliodcs.pl <===
 ok 1

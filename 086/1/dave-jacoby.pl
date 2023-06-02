@@ -1,9 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-use feature qw{ say signatures state };
-no warnings qw{ experimental };
+use v5.36;
 
 say pair_difference( 7,  ( 10, 8,  12, 15, 5 ) );
 say pair_difference( 6,  ( 1,  5,  2,  9,  7 ) );

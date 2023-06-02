@@ -1,9 +1,6 @@
 #!/usr/bin/env perl
-# The Weekly Challenge - Perl & Raku - 086
-# Task: Pair Difference 
+use v5.36;
 
-use strict;
-use warnings;
 use Test::More tests => 3;
 
 pair_diff(@ARGV) if $ARGV[0];
