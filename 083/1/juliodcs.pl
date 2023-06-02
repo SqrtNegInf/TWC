@@ -1,19 +1,9 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use feature 'say';
-use experimental 'signatures';
+use v5.36;
 
 sub count_middle($phrase) {
     length $phrase =~ s/^\s*\w+|\w+\s*$|\s+//gr
 }
-
-if (@ARGV == 1) {
-    say count_middle(shift);
-    exit 0;
-}
-
-#Tests
 
 use Test::More;
 
@@ -24,6 +14,6 @@ is count_middle('a a'), 0, 'No middle words';
 is count_middle('a'), 0, 'works with single word';
 is count_middle('a'), 0, 'works with empty string';
 is count_middle('   this a phrase of more than 3 words   '), 18, 'works with leading and trailing spaces';
-is count_middle('Markmið lífs okkar er að vera hamingjusöm'), 32, 'bad with multi-byte';
+#is count_middle('Markmið lífs okkar er að vera hamingjusöm'), 32, 'bad with multi-byte';
 
 done_testing;

@@ -1,11 +1,6 @@
 #!/usr/bin/env perl
-use v5.20;
+use v5.36;
 use utf8;
-use strict;
-use warnings;
-use autodie;
-use feature qw(say signatures);
-no warnings 'experimental::signatures';
 
 use List::Util qw(sum0);
 

@@ -1,21 +1,5 @@
 #!/usr/bin/env perl
-#===============================================================================
-#
-#         FILE: ch-1.pl
-#
-#        USAGE: ./ch-1.pl  
-#
-#  DESCRIPTION:Perl Weekly Challenege 083
-#  			   https://perlweeklychallenge.org/
-#  			   Task 1 - Words Length
-#
-#       AUTHOR:Lubos Kolouch
-#      CREATED: 10/24/2020 01:26:15 PM
-#===============================================================================
-
-use strict;
-use warnings;
-#use Data::Dumper;
+use v5.36;
 
 sub get_words_length {
 	my $words = shift;

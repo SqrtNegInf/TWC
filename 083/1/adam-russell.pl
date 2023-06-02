@@ -1,11 +1,6 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-##
-# You are given a string $S with 3 or more words.
-# Write a script to find the length of the string 
-# except the first and last words ignoring whitespace.
-##
+use v5.36;
+
 sub count_most_words{
     my ($s) = @_;
     my $count = 0;

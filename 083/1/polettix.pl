@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-use 5.024;
-use warnings;
-use experimental qw< postderef signatures >;
-no warnings qw< experimental::postderef experimental::signatures >;
+use v5.36;
 
 say words_length(shift || 'Markmið lífs okkar er að vera hamingjusöm');
 

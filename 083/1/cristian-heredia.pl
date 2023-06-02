@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-use Data::Dumper;
+use v5.36;
 
 #Variables
 my $S = "Markmið lífs okkar er að vera hamingjusöm";

@@ -1,22 +1,5 @@
 #!/usr/bin/env perl
-#===============================================================================
-#
-#         FILE: 8301.pl
-#
-#        USAGE: ./8301.pl "string"
-#
-#  DESCRIPTION: Given a string with 3 or more words, display the number
-#  of non-space characters excepting the first and last words.
-#
-#        NOTES: Assumes whitespace is just space, tab and linefeed
-#       AUTHOR: Pete Houston (pete), cpan@openstrike.co.uk
-# ORGANIZATION: Openstrike
-#      VERSION: 1.0
-#      CREATED: 19/10/20
-#===============================================================================
-
-use strict;
-use warnings;
+use v5.36;
 
 my @ARGV = 'Markmið lífs okkar er að vera hamingjusöm';
 my ($str) = $ARGV[0] =~ /^\S*(.*?)\S*$/s; # Drop first and last words
