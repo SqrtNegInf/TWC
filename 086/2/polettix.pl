@@ -1,10 +1,7 @@
 #!/usr/bin/env perl
-use 5.024;
-use warnings;
-use experimental qw< postderef signatures >;
-no warnings qw< experimental::postderef experimental::signatures >;
+use v5.36;
+
 use Storable qw< dclone >;
-use autodie;
 
 sub sudoku_puzzle ($puzzle) {
    $puzzle = dclone($puzzle); # don't mess with the original!

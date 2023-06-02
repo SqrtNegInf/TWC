@@ -1,12 +1,8 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use strict;
-use feature 'say';
-use feature 'signatures';
 use Getopt::Long;
 use List::MoreUtils qw(uniq singleton);
-
-no warnings qw(experimental::signatures);
 
 my $verbose = 0;
 my $very_verbose = 0;
@@ -131,7 +127,7 @@ LOOP: while (1)
       if (@missing == 1) # .elems is for Raku...
       {
         $unknown--;
-	say ":: [$row,$col] => @missing[0] (replacing unknown $unknown)" if $very_verbose;
+	say ":: [$row,$col] => $missing[0] (replacing unknown $unknown)" if $very_verbose;
         $sudoku[$row][$col] = $missing[0];
         if ($very_verbose) { say ":: ", join(" ", @$_) for @sudoku; }
       }

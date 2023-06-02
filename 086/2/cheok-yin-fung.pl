@@ -1,17 +1,5 @@
 #!/usr/bin/env perl
-# The Weekly Challenge - Perl & Raku - 086
-# Task: Sudoku
-# print one of the possible solutions for the given hints
-# print -1 if impossible
-# Usage: capable for generating 16 x 16 Sudoku SOMETIMES,  try: perl ch-2.pl 4
-# capable for generating 25 x 25 Sudoku in very FEW cases, try: perl ch-2.pl 5
-# Caution: The part for declaring impossibility hasn't been tested.
-# Caution: The subroutine "come_bk_after_fail_attempt" 
-#          is not logically complete 
-# version date: 2020-11-15 HKT afternoon
-
-use strict;
-use warnings;
+use v5.36;
 
 my @tree;
 my @board;

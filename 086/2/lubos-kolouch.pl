@@ -1,22 +1,6 @@
 #!/usr/bin/env perl
-#===============================================================================
-#
-#         FILE: ch-2.pl
-#
-#        USAGE: ./ch-2.pl  
-#
-#  DESCRIPTION: Perl Weekly Challenge 086
-#  				Task 2
-#  				Sudoku Puzzle	
-#
-#  				Uses backtrack algorithm
-#
-#       AUTHOR: Lubos Kolouch
-#      CREATED: 11/15/2020 01:27:06 PM
-#===============================================================================
+use v5.36;
 
-use strict;
-use warnings;
 use Storable qw/dclone/; # for deep copy of the puzzle...
 
 sub load_puzzle {

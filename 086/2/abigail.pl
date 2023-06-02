@@ -1,4 +1,5 @@
 #!/usr/bin/env perl
+#use v5.36; # this triggers the 'multidimensional hash' error: $$cache {$x, $y} //= do {
 
 use 5.032;
 

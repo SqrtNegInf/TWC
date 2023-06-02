@@ -1,11 +1,7 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use strict;
-
-use warnings;
-use feature qw(say);
 use Test::More;
-#use Data::Dumper qw(Dumper);
 
 my @input = (
   [qw( _ _ _ 2 6 _ 7 _ 1 )],
