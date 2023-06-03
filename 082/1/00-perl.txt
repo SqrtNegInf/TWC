@@ -101,9 +101,6 @@ input :
 	M = 1440
 output: ( 1 2 3 5 6 9 10 15 18 30 45 90 )
  
-===> 082/1/cristian-heredia.pl <===
-Output: (1, 2, 3, 6)
- 
 ===> 082/1/dave-cross.pl <===
 (1, 10, 100, 2, 20, 25, 4, 5, 50)
  
@@ -111,15 +108,6 @@ Output: (1, 2, 3, 6)
 MIN: 12
 MAX: 18
 1,2,3,6
- 
-===> 082/1/ddobbelaere.pl <===
-1 2 3 6
-1 2 3 6
-1
-1
- 
-===> 082/1/duncan-c-white.pl <===
-(1,2,4,5,10,20,25,50)
  
 ===> 082/1/e-choroba.pl <===
 ok 1 - Example 1
@@ -130,12 +118,6 @@ ok 4 - no duplicates
  
 ===> 082/1/jaldhar-h-vyas.pl <===
 1, 10, 2, 20, 25, 4, 5, 50
- 
-===> 082/1/jeongoon.pl <===
-(1, 2, 4, 5, 10, 20, 25, 50, 100)
- 
-===> 082/1/jluis.pl <===
-("1","2","4","5","10","20","25","50")
  
 ===> 082/1/jo-37.pl <===
 # Seeded srand with seed '1' from import arg.
@@ -149,9 +131,6 @@ ok 5 - square gcd
 ===> 082/1/juliodcs.pl <===
 1, 10, 100, 2, 20, 25, 4, 5, 50
  
-===> 082/1/lars-thegler.pl <===
-(1, 10, 2, 20, 25, 4, 5, 50)
- 
 ===> 082/1/laurent-rosenfeld.pl <===
 1 2 4 5 10 20 25 50 100
  
@@ -161,20 +140,8 @@ ok 2
 ok 3
 1..3
  
-===> 082/1/nunovieira220.pl <===
-1, 2, 3, 6 
 ===> 082/1/paulo-custodio.pl <===
 (1, 2, 4, 5, 10, 20, 25, 50, 100)
- 
-===> 082/1/perlboy1967.pl <===
-$N = 16
-$M = 128
-
-The 5 factors of $N (16) are: 1, 2, 4, 8, 16
-The 8 factors of $M (128) are: 1, 2, 4, 8, 16, 32, 64, 128
-
-The 5 common factors of $N (16) and $M (128) are: 1, 2, 4, 8, 16
-
  
 ===> 082/1/pete-houston.pl <===
 100 50 25 20 10 5 4 2 1
@@ -192,26 +159,6 @@ ok 5 - twelve-twentythree
  
 ===> 082/1/sgreen.pl <===
 1, 2, 4, 5, 10, 20, 25, 50, 100
- 
-===> 082/1/steven-wilson.pl <===
-ok 1 - example 1
-ok 2 - example 2
-1..2
- 
-===> 082/1/ulrich-rieke.pl <===
-1 2 4 5 10 20 25 50 100
- 
-===> 082/1/vinod-k.pl <===
-Common factors in 100 and 500 are:
-1
-2
-4
-5
-10
-20
-25
-50
-100
  
 ===> 082/1/walt-mankowski.pl <===
 (1 10 2 20 25 4 5 50)

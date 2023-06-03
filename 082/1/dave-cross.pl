@@ -1,9 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-
-use feature 'say';
+use v5.36;
 
 my (@in) = grep { ! /\D/ } (100, 500);
 die "Give me exactly two integers\n" unless @in == 2;

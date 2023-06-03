@@ -1,9 +1,7 @@
 #!/usr/bin/env perl
-use 5.024;
-use warnings;
+use v5.36;
+
 use English qw< -no_match_vars >;
-use experimental qw< postderef signatures >;
-no warnings qw< experimental::postderef experimental::signatures >;
 
 sub gcd ($A, $B) { ($A, $B) = ($B % $A, $A) while $A; return $B }
 

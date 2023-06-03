@@ -1,20 +1,5 @@
 #!/usr/bin/env perl
-#===============================================================================
-#
-#         FILE: ch-1.pl
-#
-#        USAGE: ./ch-1.pl  
-#
-#  DESCRIPTION: Perl Weekly Challenge 082
-#               http://www.perlweeklychallenge.org
-#               Task 1 - Common Factors
-#               
-#       AUTHOR: Lubos Kolouch 
-#      CREATED: 10/14/2020 07:25:23 PM
-#===============================================================================
-
-use strict;
-use warnings;
+use v5.36;
 
 sub get_common_factors {
     my $numbers = shift;

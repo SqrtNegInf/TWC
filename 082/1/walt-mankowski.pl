@@ -1,16 +1,7 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use feature qw(:5.32);
-use experimental qw(signatures);
-use Set::Scalar;
+use v5.36;
 
-# TASK #1 › Common Factors
-# Submitted by: Niels van Dijke
-#
-# You are given 2 positive numbers $M and $N.
-#
-# Write a script to list all common factors of the given numbers.
+use Set::Scalar;
 
 my ($m, $n) = (100, 500);
 local $, = ", ";

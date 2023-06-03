@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use experimental 'signatures';
-use feature 'say';
+use v5.36;
 
 sub factors_to_hash($num) {
     map { $_ => undef } (grep { $num % $_ == 0 } (1 .. $num/2), $num)

@@ -1,10 +1,6 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-##
-# You are given 2 positive numbers $M and $N.
-# Write a script to list all common factors of the given numbers.
-##
+use v5.36;
+
 sub factor{
     my($n) = @_;
     my @factors = (1);
