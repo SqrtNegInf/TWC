@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-use strict; use warnings;
-use v5.26;
-
-# tested with: perl perl/ch-1.pl --debug 5 2 -2 0
+use v5.36;
 
 our $d = 0;
 

@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-use strict ;
-use warnings ;
-use feature 'say' ;
+use v5.36;
 
 my @array = (5, 2, -2, 0);
 my @positives = grep { $_ > 0 } @array ;

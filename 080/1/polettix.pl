@@ -1,9 +1,7 @@
 #!/usr/bin/env perl
-use 5.024;
-use warnings;
+use v5.36;
+
 use English qw< -no_match_vars >;
-use experimental qw< postderef >;
-no warnings qw< experimental::postderef >;
 
 sub spnb {
    my @Np = (0, sort(grep { $_ > 0 } @_));

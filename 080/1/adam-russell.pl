@@ -1,10 +1,6 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-##
-# You are given an unsorted list of integers @N.
-# Write a script to find out the smallest positive number missing.
-##
+use v5.36;
+
 sub least_missing{
     my(@numbers) = @_;
     @numbers = sort @numbers;

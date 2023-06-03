@@ -1,15 +1,5 @@
 #!/usr/bin/env perl
-use v5.28;
-
-=head1 Usage
-
-    # perl ./challenge-080/gugod/perl/ch-1.pl 5 2 -2 0
-    1
-
-    # perl ./challenge-080/gugod/perl/ch-1.pl 5 2 -2 0 1
-    3
-
-=cut
+use v5.36;
 
 my @N = grep { $_ > 0 } map { int($_) } (5, 2, -2, 0);
 

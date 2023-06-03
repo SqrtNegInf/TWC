@@ -1,9 +1,7 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
+use v5.36;
+
 use List::MoreUtils qw(uniq);
-use feature 'say';
-use bigint;
 
 sub min_slot {
     my $expected = 1;

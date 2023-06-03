@@ -1,22 +1,8 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use 5.032;
-
-use strict;
-use warnings;
-no  warnings 'syntax';
-
-use experimental 'signatures';
-use experimental 'lexical_subs';
-
-
-#
-# Challenge 1:
-#
 #     You are given unsorted list of integers @N.
-# 
 #     Write a script to find out the smallest positive number missing.
-#
 
 while (<DATA>) {
     #

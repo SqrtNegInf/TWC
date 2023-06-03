@@ -1,9 +1,7 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use strict;
-use warnings;
 use List::Util qw/min max/;
-use feature qw/say/;
 
 sub get_smallest_missing {
     my $arr = shift;

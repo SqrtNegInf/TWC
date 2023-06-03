@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use feature qw /say/;
+use v5.36;
 
 my @nums = @ARGV > 1 ? @ARGV : (5, 2, -2, 0);
 my @sorted = sort { $a <=> $b } grep $_ >= 0, @nums;

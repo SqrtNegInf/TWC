@@ -1,14 +1,5 @@
 #!/usr/bin/env perl
-
-# Perl Weekly Challenge - 080
-# - https://perlweeklychallenge.org/blog/perl-weekly-challenge-080/
-#
-# Task 1 - Smallest Positive Number Bits
-#
-# Author: Niels 'PerlBoy' van Dijke
-
-use strict;
-use warnings;
+use v5.36;
 
 use List::MoreUtils qw(uniq each_array);
 

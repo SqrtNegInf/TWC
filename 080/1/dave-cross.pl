@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-use feature 'say';
+use v5.36;
 
 my @in = grep { /-?\d+/ } (5, 2, -2, 0);
 

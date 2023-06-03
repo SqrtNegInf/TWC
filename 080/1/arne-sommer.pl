@@ -1,10 +1,9 @@
 #!/usr/bin/env perl
+use v5.36;
 
 use Perl6::Junction 'all';
 use List::MoreUtils qw(uniq);
 use Getopt::Long;
-use feature 'say';
-use strict;
 
 my $verbose = 0;
 
