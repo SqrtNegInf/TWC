@@ -1,9 +1,6 @@
 #!/usr/bin/env perl
-# -*- Mode: cperl; cperl-indent-level:4 tab-width: 8; indent-tabs-mode: nil -*-
-# -*- coding: utf-8 -*-
+use v5.36;
 
-use strict; use warnings;
-use v5.26;
 use List::Util 1.39 qw(pairs);
 
 my ( $file_path, @words ) = "input";

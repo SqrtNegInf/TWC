@@ -1,7 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use strict;
-use warnings;
 use List::Util qw(uniqnum pairgrep pairkeys);
 
 # Use the input data provided by the DATA filehandle if no file name is given.

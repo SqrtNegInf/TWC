@@ -1,13 +1,6 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-##
-# You are given file named input.
-# Write a script to find the frequency of all the words.
-# It should print the result as first column of each line should be the frequency of the 
-# word followed by all the words of that frequency arranged in lexicographical order. Also 
-# sort the words in the ascending order of frequency.
-##
+use v5.36;
+
 MAIN:{
     my %counts;
     my %count_words;

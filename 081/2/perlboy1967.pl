@@ -1,14 +1,5 @@
 #!/usr/bin/env perl
-
-# Perl Weekly Challenge - 081
-# - https://perlweeklychallenge.org/blog/perl-weekly-challenge-081/
-#
-# Task 2 - Frequency Sort
-#
-# Author: Niels 'PerlBoy' van Dijke
-
-use strict;
-use warnings;
+use v5.36;
 
 use List::Util qw(min max);
 use List::MoreUtils qw(uniq);

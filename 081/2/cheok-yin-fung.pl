@@ -1,10 +1,5 @@
 #!/usr/bin/env perl
-# The Weekly Challenge - Perl & Raku #081 Task 2
-# Frequency Sort
-
-use strict;
-use warnings;
-#use Data::Dumper;
+use v5.36;
 
 open LITERATURE, "<", "input";
 
@@ -26,6 +21,3 @@ foreach my $word (sort keys %wordcount) {
 foreach my $i (sort keys %wordfreq) {
     print $i,$wordfreq{$i},"\n\n";
 }
-
-#print Dumper(%wordfreq);
-#print Dumper(%wordcount);

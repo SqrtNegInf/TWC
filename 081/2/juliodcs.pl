@@ -1,10 +1,9 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
+use v5.36;
+
 use File::Slurp;
 use List::AllUtils qw(reduce uniq);
 use Const::Fast;
-use experimental 'signatures';
 
 const my $rx_words => qr/
     (?<!\p{L}')            # Don't match if preceded by word + ｢'｣

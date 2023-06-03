@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-
-use v5.30;
-use warnings;
+use v5.36;
 
 # read file into string var
 open my $fh, "input";

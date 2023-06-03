@@ -1,22 +1,5 @@
 #!/usr/bin/env perl
-#===============================================================================
-#
-#         FILE: 8102.pl
-#
-#        USAGE: ./8102.pl [ infile ] 
-#
-#  DESCRIPTION: Word frequencies
-#
-#      OPTIONS: Read data from STDIN if input filename is missing
-# REQUIREMENTS: List::MoreUtils 0.42 or newer
-#       AUTHOR: Pete Houston (pete), cpan@openstrike.co.uk
-# ORGANIZATION: Openstrike
-#      VERSION: 1.0
-#      CREATED: 05/10/20
-#===============================================================================
-
-use strict;
-use warnings;
+use v5.36;
 
 use List::MoreUtils 0.420 'occurrences';
 
