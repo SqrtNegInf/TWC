@@ -1,49 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-# Challenge 079
-#
-# TASK #2 > Trapped Rain Water
-# Submitted by: Mohammad S Anwar
-# You are given an array of positive numbers @N.
-#
-# Write a script to represent it as Histogram Chart and find out how much water
-# it can trap.
-#
-# Example 1:
-# Input: @N = (2, 1, 4, 1, 2, 5)
-# The histogram representation of the given array is as below.
-#      5           #
-#      4     #     #
-#      3     #     #
-#      2 #   #   # #
-#      1 # # # # # #
-#      _ _ _ _ _ _ _
-#        2 1 4 1 2 5
-# Looking at the above histogram, we can see, it can trap 1 unit of rain water
-# between 1st and 3rd column. Similary it can trap 5 units of rain water
-# between 3rd and last column.
-#
-# Therefore your script should print 6.
-#
-# Example 2:
-# Input: @N = (3, 1, 3, 1, 1, 5)
-# The histogram representation of the given array is as below.
-#      5           #
-#      4           #
-#      3 #   #     #
-#      2 #   #     #
-#      1 # # # # # #
-#      _ _ _ _ _ _ _
-#        3 1 3 1 1 5
-# Looking at the above histogram, we can see, it can trap 2 units of rain water
-# between 1st and 3rd column. Also it can trap 4 units of rain water between
-# 3rd and last column.
-#
-# Therefore your script should print 6.
-
-use Modern::Perl;
-
-#@ARGV or die "Usage: ch-2.pl list\n";
 my @N = (2,1,4,1,2,5);
 
 # draw histogram

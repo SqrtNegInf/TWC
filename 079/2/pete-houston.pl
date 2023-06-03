@@ -1,21 +1,6 @@
 #!/usr/bin/env perl
-#===============================================================================
-#
-#         FILE: 7902.pl
-#
-#        USAGE: ./7902.pl N ...
-#
-#  DESCRIPTION: Histogram capacity
-#
-# REQUIREMENTS: List::Util
-#       AUTHOR: Pete Houston (pete), cpan@openstrike.co.uk
-# ORGANIZATION: Openstrike
-#      VERSION: 1.0
-#      CREATED: 22/09/20
-#===============================================================================
+use v5.36;
 
-use strict;
-use warnings;
 use List::Util 'max';
 
 my @ARGV = (2,1,4,1,2,5);

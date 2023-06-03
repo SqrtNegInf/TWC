@@ -1,17 +1,7 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use feature qw(:5.32);
-use experimental qw(signatures);
-use List::Util qw(max);
+use v5.36;
 
-# TASK #2 › Trapped Rain Water
-# Submitted by: Mohammad S Anwar
-#
-# You are given an array of positive numbers @N.
-#
-# Write a script to represent it as Histogram Chart and find out how
-# much water it can trap.
+use List::Util qw(max);
 
 my @a = (2,1,4,1,2,5);
 

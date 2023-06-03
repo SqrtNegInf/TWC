@@ -1,9 +1,7 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use strict;
-use warnings;
 use List::Util qw(min max);
-use 5.10.1;
 
 sub _display_histogram {
     my ( $array, $fills ) = @_;

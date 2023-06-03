@@ -1,18 +1,6 @@
 #!/usr/bin/env perl
-#===============================================================================
-#
-#         FILE: ch-2.py
-#
-#        USAGE: ./ch-2.py
-#
-#  DESCRIPTION: Perl Weekly Challenge Task 2
-#               https://perlweeklychallenge.org/blog/perl-weekly-challenge-079/
-#               Trapper Rain Water
-#
-#       AUTHOR: Lubos Kolouch
-#==============================================================================
-use strict;
-use warnings;
+use v5.36;
+
 use List::Util qw/max min/;
 
 sub trapWater{

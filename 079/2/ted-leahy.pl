@@ -1,13 +1,5 @@
 #!/usr/bin/env perl
-# # Trapped Rain Water # #
-# You are given an array of positive numbers @N.
-# Write a script to represent it as Histogram Chart and find out how much 
-# water it can trap.
-# #
-
-use strict;
-use warnings;
-use feature 'say';
+use v5.36;
 
 use List::Util qw(min max);
 

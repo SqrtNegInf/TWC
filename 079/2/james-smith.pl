@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use feature qw(say);
-use warnings;
+use v5.36;
 
 say trapped_rain_water( qw(2 1 4 1 2 5) );
 

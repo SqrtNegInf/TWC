@@ -1,23 +1,12 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use 5.032;
-
-#
-# Challenge:
-#
 #    You are given an array of positive numbers @N.
 #    Write a script to represent it as Histogram Chart and find out
 #    how much water it can trap.
 #
 
-use strict;
-use warnings;
-no  warnings 'syntax';
-
 use List::Util qw [max];
-
-use experimental 'signatures';
-use experimental 'lexical_subs';
 
 #
 # Read the input, extract the numbers, store them in @N, and find the maximum.

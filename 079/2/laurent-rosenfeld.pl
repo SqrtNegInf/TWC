@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use feature "say";
+use v5.36;
 
 my @a = @ARGV > 1 ? @ARGV : ( 2, 1, 4, 5, 3, 7);
 draw_histo(@a);

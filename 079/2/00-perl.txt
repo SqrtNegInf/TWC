@@ -52,10 +52,6 @@ Histogram representation:
 
 This histogram can trap 6 units of rain water
  
-===> 079/2/bob-lied.pl <===
------
-6
- 
 ===> 079/2/colin-crain.pl <===
 histogram:
 
@@ -147,28 +143,6 @@ ok 9 - long reversed
 
 6
  
-===> 079/2/jeongoon.pl <===
-Total capacity: 6
- 5│          [30;43m  [0m
- 4│    [30;43m  [0m[30;46m ≈[0m[30;46m ≈[0m[30;43m  [0m
- 3│    [30;43m  [0m[30;46m ≈[0m[30;46m ≈[0m[30;43m  [0m
- 2│[30;43m  [0m[30;46m ≈[0m[30;43m  [0m[30;46m ≈[0m[30;43m  [0m[30;43m  [0m
- 1│[30;43m  [0m[30;43m  [0m[30;43m  [0m[30;43m  [0m[30;43m  [0m[30;43m  [0m
-  └────────────
-    2 1 4 1 2 5
- 
-===> 079/2/jo-37.pl <===
-# Seeded srand with seed '1' from import arg.
-ok 1 - first example
-ok 2 - second example
-ok 3 - bucket
-ok 4 - gorge
-ok 5 - hill
-ok 6 - uphill
-ok 7 - downhill
-ok 8 - plain
-1..8
- 
 ===> 079/2/juliodcs.pl <===
 
 
@@ -212,45 +186,8 @@ _ _ _ _ _ _ _
 
 Trapped Rain Water: 6
  
-===> 079/2/nunovieira220.pl <===
-6
- 
 ===> 079/2/paulo-custodio.pl <===
 6
- 
-===> 079/2/perlboy1967.pl <===
-Input:
-10 |         #                          
- 9 |         #                          
- 8 |         #                          
- 7 |         #         #                
- 6 |         #         #                
- 5 |         #         #                
- 4 |         #   #     #     #          
- 3 |         # # #     #     #       #  
- 2 |   #     # # #   # # # # #   #   # #
- 1 | # # # # # # # # # # # # # # # # # #
-   +-------------------------------------
-     1 2 1 1 1 3 4 1 2 7 2 2 4 1 2 1 3 2
-             0                          
-
-Output:
-10 |         #                          
- 9 |         #                          
- 8 |         #                          
- 7 |         # . . . . #                
- 6 |         # . . . . #                
- 5 |         # . . . . #                
- 4 |         # . # . . # . . #          
- 3 |         # # # . . # . . # . . . #  
- 2 |   # . . # # # . # # # # # . # . # #
- 1 | # # # # # # # # # # # # # # # # # #
-   +-------------------------------------
-     1 2 1 1 1 3 4 1 2 7 2 2 4 1 2 1 3 2
-             0                          
-
-Amount of trapped waterdrops: 29 (marked with '.' in histogram).
-
  
 ===> 079/2/pete-houston.pl <===
      5           #

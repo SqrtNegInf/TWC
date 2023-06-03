@@ -1,15 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-#
-# Perl Weekly Challenge - 079
-#
-# Task #2: Trapped Rain Water
-#
-# https://perlweeklychallenge.org/blog/perl-weekly-challenge-079
-#
-
-use strict;
-use warnings;
 use List::Util qw(min max);
 
 my $L = $ARGV[0] || "2, 1, 4, 1, 2, 5";

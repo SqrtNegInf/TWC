@@ -1,13 +1,8 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use v5.20;
-
-# get input array from command line
+use v5.36;
 
 my @N = (2,1,4,1,2,5);
 
-die "usage: perl $0 <space separate numbers (at least 3)>" unless @N > 2;
 
 # check that all  numbers are positive, and find max value
 

@@ -1,11 +1,6 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-##
-# You are given an array of positive numbers @N.
-# Write a script to represent it as Histogram Chart 
-# and find out how much water it can trap.
-##
+use v5.36;
+
 sub print_histogram{
     my($values) = @_;
     my @sorted_values = sort @{$values};
