@@ -1,14 +1,5 @@
 #!/usr/bin/env perl
-
-# Perl Weekly Challenge - 081
-# - https://perlweeklychallenge.org/blog/perl-weekly-challenge-081/
-#
-# Task 1 - Common Base String
-#
-# Author: Niels 'PerlBoy' van Dijke
-
-use strict;
-use warnings;
+use v5.36;
 
 @ARGV = qw(abcdabcd abcdabcdabcdabcd)
   unless (scalar @ARGV >= 2);

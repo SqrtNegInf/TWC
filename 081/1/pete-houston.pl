@@ -1,21 +1,6 @@
 #!/usr/bin/env perl
-#===============================================================================
-#
-#         FILE: 8101.pl
-#
-#        USAGE: ./8101.pl string1 string2 
-#
-#  DESCRIPTION: Find complete common substrings
-#
-# REQUIREMENTS: Math::Prime::Util
-#       AUTHOR: Pete Houston (pete), cpan@openstrike.co.uk
-# ORGANIZATION: Openstrike
-#      VERSION: 1.0
-#      CREATED: 05/10/20
-#===============================================================================
+use v5.36;
 
-use strict;
-use warnings;
 use Math::Prime::Util 'gcd';
 
 # Find longest possible substring

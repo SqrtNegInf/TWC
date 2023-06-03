@@ -1,15 +1,5 @@
 #!/usr/bin/env perl
-
-#
-# Perl Weekly Challenge - 081
-#
-# Task #1: Common Base String
-#
-# https://perlweeklychallenge.org/blog/perl-weekly-challenge-081
-#
-
-use strict;
-use warnings;
+use v5.36;
 
 my $S1 = $ARGV[0] || "abcdabcd";
 my $S2 = $ARGV[1] || "abcdabcdabcdabcd";

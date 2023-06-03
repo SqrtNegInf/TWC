@@ -1,22 +1,5 @@
 #!/usr/bin/env perl
-#===============================================================================
-#
-#         FILE: ch-1.pl
-#
-#        USAGE: ./ch-1.pl  
-#
-#  DESCRIPTION: Perl Weekly Challenge 081
-#  				https://perlweeklychallenge.org/blog/perl-weekly-challenge-081/
-#  				Task 1 - Common base string 
-#
-#       AUTHOR: Lubos Kolouch
-#      VERSION: 1.0
-#      CREATED: 10/09/2020 10:43:10 AM
-#===============================================================================
-
-use strict;
-use warnings;
-
+use v5.36;
 
 sub get_common_strings {
 	my $arg = shift;

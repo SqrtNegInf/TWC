@@ -1,4 +1,5 @@
 #!/usr/bin/env perl
+use v5.36;
 
 #
 # You are given 2 strings, $A and $B.
@@ -9,20 +10,11 @@
 #   concatenation of the substring results in the string.
 #
 
-use 5.032;
-
-use strict;
-use warnings;
-no  warnings 'syntax';
-
-use experimental 'signatures';
-use experimental 'lexical_subs';
-
 chomp (my $A = <DATA>);
 chomp (my $B = <DATA>);
 
 #
-# Sort the strings by lenght, so $A isn't longer than $B.
+# Sort the strings by length, so $A isn't longer than $B.
 #
 ($A, $B) = ($B, $A) if length $B < length $A;
 

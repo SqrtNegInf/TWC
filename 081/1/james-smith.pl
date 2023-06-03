@@ -1,13 +1,7 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-
-use feature qw(say);
+use v5.36;
 
 use Test::More;
-
-## Run tests....
 
 is( "@{common_base_string( qw(abcdabcd abcdabcdabcdabcd) )}", 'abcd abcdabcd' );
 is( "@{common_base_string( qw(aaa aa) )                   }", 'a' );

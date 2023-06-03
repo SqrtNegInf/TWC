@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-# The Weekly Challenge - Perl & Raku #081 Task 1
-# Common Base String
-use strict;
-use warnings;
+use v5.36;
 
 sub factors {
     my $n = $_[0];

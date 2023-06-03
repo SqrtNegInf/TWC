@@ -1,34 +1,7 @@
 #!/usr/bin/env perl
+use v5.36;
 
-# Challenge 081
-#
-# TASK #1 > Common Base String
-# Submitted by: Mohammad S Anwar
-# You are given 2 strings, $A and $B.
-#
-# Write a script to find out common base strings in $A and $B.
-#
-# A substring of a string $S is called base string if repeated concatenation
-# of the substring results in the string.
-#
-# Example 1:
-# Input:
-#     $A = "abcdabcd"
-#     $B = "abcdabcdabcdabcd"
-#
-# Output:
-#     ("abcd", "abcdabcd")
-# Example 2:
-# Input:
-#     $A = "aaa"
-#     $B = "aa"
-#
-# Output:
-#     ("a")
-
-use Modern::Perl;
 use Array::Utils 'intersect';
-
 
 my $A = 'abcdabcd'; my $B = 'abcdabcdabcdabcd';
 my @base_a = base_strings($A);

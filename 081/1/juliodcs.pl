@@ -1,7 +1,6 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use feature 'say';
+use v5.36;
+
 use List::MoreUtils 'uniq';
 
 say for uniq map { /^(.+)\1+$/; $1 // () } <abcdabcd abcdabcdabcdabcd>

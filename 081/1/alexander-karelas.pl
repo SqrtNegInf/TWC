@@ -1,9 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use v5.30;
-use warnings;
-
-#my ($A, $B) = @ARGV[0, 1];
 my $A = 'abcdabcd'; my $B = 'abcdabcdabcdabcd';
 
 my $shorter = length $A;

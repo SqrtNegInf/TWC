@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-use 5.020;
-use warnings;
+use v5.36;
 
 my $A = 'abcdabcd'; my $B = 'abcdabcdabcdabcd';
 

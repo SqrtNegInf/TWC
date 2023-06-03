@@ -13,9 +13,6 @@ aaa, aa --> (a )
 ===> 081/1/alexander-pankoff.pl <===
 ("abcd", "abcdabcd")
  
-===> 081/1/andinus.pl <===
-abcd, abcdabcd
- 
 ===> 081/1/athanasius.pl <===
 Input:
     $A = "abcdabcd"
@@ -23,9 +20,6 @@ Input:
 
 Output:
     ("abcd", "abcdabcd")
- 
-===> 081/1/bob-lied.pl <===
-abcd abcdabcd
  
 ===> 081/1/cheok-yin-fung.pl <===
 abcd abcdabcd
@@ -55,9 +49,6 @@ ok 2
 ok 3
 ok 4
 1..4
- 
-===> 081/1/jluis.pl <===
-("abcd","abcdabcd")
  
 ===> 081/1/jo-37.pl <===
 # Seeded srand with seed '1' from import arg.
@@ -108,10 +99,6 @@ ok 4 - example 2
  
 ===> 081/1/sgreen.pl <===
 abcd abcdabcd
- 
-===> 081/1/shawn-wagner.pl <===
-abcd abcdabcd
-a
  
 ===> 081/1/walt-mankowski.pl <===
 abcd

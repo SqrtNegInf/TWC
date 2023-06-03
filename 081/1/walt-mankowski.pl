@@ -1,16 +1,7 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use feature qw(:5.32);
-use experimental qw(signatures);
-use List::Util qw(min);
+use v5.36;
 
-# You are given 2 strings, $A and $B.
-#
-# Write a script to find out common base strings in $A and $B.
-#
-#     A substring of a string $S is called base string if repeated
-#     concatenation of the substring results in the string.
+use List::Util qw(min);
 
 my $A = 'abcdabcd'; my $B = 'abcdabcdabcdabcd';
 my $max_base_len = min(length($A), length($B));

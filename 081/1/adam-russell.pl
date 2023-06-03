@@ -1,10 +1,6 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-##
-# You are given 2 strings, $A and $B.
-# Write a script to find out common base strings in $A and $B.
-## 
+use v5.36;
+
 use boolean;
 
 sub contains{
