@@ -1,10 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-use feature 'say';
-
-#die "Give me three strings\n" unless @ARGV == 3;
+use v5.36;
 
 my ($bit1, $bit2, $result) = ('XXY', 'XXZ', 'XXXXZY');
 

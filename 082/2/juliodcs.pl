@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use experimental 'signatures';
-use feature 'say';
+use v5.36;
 
 sub interleaved($a, $b, $c) {
     ($a, $b) = ($b, $a) if length $a < length $b;

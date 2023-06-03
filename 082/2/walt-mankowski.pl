@@ -1,17 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use feature qw(:5.32);
-use experimental qw(signatures);
-
-# TASK #2 › Interleave String
-# Submitted by: Mohammad S Anwar
-#
-# You are given 3 strings; $A, $B and $C.
-#
-# Write a script to check if $C is created by interleave $A and $B.
-#
-# Print 1 if check is success otherwise 0.
+use v5.36;
 
 my ($A, $B, $C) = ('XXY', 'XXZ', 'XXXXZY');
 

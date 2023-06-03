@@ -1,4 +1,5 @@
 #!/usr/bin/env perl
+use v5.36;
 #
 #       ab_interneg.pl
 #
@@ -81,11 +82,6 @@
 ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ##
 
 
-
-use warnings;
-use strict;
-use feature ":5.26";
-no warnings 'recursion';
 
 ## ## ## ## ## MAIN:
 

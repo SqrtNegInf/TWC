@@ -1,11 +1,5 @@
 #!/usr/bin/env perl
-# common divisors 
-#
-
-use strict;
-use warnings;
-
-use 5.010;
+use v5.36;
 
 my ($A,$B,$C) = ('XXY', 'XXZ', 'XXXXZY');
 

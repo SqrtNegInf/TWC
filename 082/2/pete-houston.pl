@@ -1,21 +1,5 @@
 #!/usr/bin/env perl
-#===============================================================================
-#
-#         FILE: 8202.pl
-#
-#        USAGE: ./8202.pl substr1 substr2 str
-#
-#  DESCRIPTION: Report if str can be made by "interleaving" the substrs
-#
-#        NOTES: Prints 1 if the string can be made, otherwise 0
-#       AUTHOR: Pete Houston (pete), cpan@openstrike.co.uk
-# ORGANIZATION: Openstrike
-#      VERSION: 1.0
-#      CREATED: 17/10/20
-#===============================================================================
-
-use strict;
-use warnings;
+use v5.36;
 
 my @sub = ('XXY', 'XXZ', 'XXXXZY');
 my $str = pop @sub;

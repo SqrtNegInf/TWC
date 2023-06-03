@@ -1,14 +1,5 @@
 #!/usr/bin/env perl
-
-# Perl Weekly Challenge - 082
-# - https://perlweeklychallenge.org/blog/perl-weekly-challenge-082/
-#
-# Task 2 - Interleave String
-#
-# Author: Niels 'PerlBoy' van Dijke
-
-use strict;
-use warnings;
+use v5.36;
 
 @ARGV = qw(4X 123X678 1234XX678)
   unless (scalar @ARGV >= 3);

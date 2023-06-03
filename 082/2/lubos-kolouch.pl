@@ -1,21 +1,5 @@
 #!/usr/bin/env perl
-#===============================================================================
-#
-#         FILE: ch-2.pl
-#
-#        USAGE: ./ch-2.pl  
-#
-#  DESCRIPTION: Perl Weekly Challenge 082
-#               http://www.perlweeklychallenge.org
-#               Task 2 - Interleave String
-#               
-#       AUTHOR: Lubos Kolouch 
-#      CREATED: 10/16/2020 07:25:23 PM
-#===============================================================================
-
-use strict;
-use warnings;
-use 5.022;
+use v5.36;
 
 sub InterLeave {
 

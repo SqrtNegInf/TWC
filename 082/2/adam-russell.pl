@@ -1,11 +1,6 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-##
-# You are given 3 strings; $A, $B and $C.
-# Write a script to check if $C is created by interleave $A and $B.
-# Print 1 if check is success otherwise 0.
-##
+use v5.36;
+
 sub find_remove{
     my($s, $x) = @_;
     my $i = index($s, $x);
