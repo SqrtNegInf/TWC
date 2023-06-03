@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
+use v5.36;
 
 # Input
 my @A = @ARGV || (1, 4, 3, 2);

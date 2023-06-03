@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-use 5.020;
-use warnings;
+use v5.36;
 
 my @N = (1, 4, 3, 2);
 my @candies = map{ 1; } @N;

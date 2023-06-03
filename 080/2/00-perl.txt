@@ -10,9 +10,6 @@ The number of candies for (1,4,3,2) is 7
 ===> 080/2/alexander-pankoff.pl <===
 7
  
-===> 080/2/andinus.pl <===
-7
- 
 ===> 080/2/arne-sommer.pl <===
 7
  
@@ -23,17 +20,6 @@ Total candies needed: 7
  
 ===> 080/2/bob-lied.pl <===
 7
- 
-===> 080/2/cheok-yin-fung.pl <===
-1..7
-4
-ok 1 - pass test case Example 1
-ok 2 - pass test case Example 2
-ok 3 - pass test case 1 2 3
-ok 4 - pass test case 2
-ok 5 - pass test case 3
-ok 6 - pass test case 4
-ok 7 - pass test case 5
  
 ===> 080/2/colin-crain.pl <===
 input:  1 9 5 2 6 8 9 10 2 5 1
@@ -55,21 +41,6 @@ Output = 7
 
 7
  
-===> 080/2/duncan-c-white.pl <===
-7
- 
-===> 080/2/e-choroba.pl <===
-ok 1
-ok 2
-ok 3
-ok 4
-ok 5
-ok 6
-ok 7
-ok 8
-ok 9 - Colin
-1..9
- 
 ===> 080/2/gugod.pl <===
 7
  
@@ -83,9 +54,6 @@ ok 3
 ok 4
 ok 5
 1..5
- 
-===> 080/2/jeongoon.pl <===
-7
  
 ===> 080/2/jo-37.pl <===
 (1, 2, 2)
@@ -114,9 +82,6 @@ ok 7 - left peak
 (1, 2, 3, 1, 3, 2, 1)
 ok 8 - the unlucky fellow
 1..8
- 
-===> 080/2/juliodcs.pl <===
-7
  
 ===> 080/2/laurent-rosenfeld.pl <===
 Total candies required for [1 2 2]: 4.
@@ -155,25 +120,8 @@ ok 2 - example 2
 4
 6
  
-===> 080/2/steven-wilson.pl <===
-ok 1 - example 1
-ok 2 - example 2
-ok 3 - last ranking higher
-ok 4 - first ranking higher
-1..4
- 
 ===> 080/2/ted-leahy.pl <===
 4
- 
-===> 080/2/ulrich-rieke.pl <===
- 
-7
- 
-===> 080/2/vinod-k.pl <===
-Total candies: 7
- 
-===> 080/2/walt-mankowski.pl <===
-7
  
 ===> 080/2/wanderdoc.pl <===
 ok 1 - Example 1

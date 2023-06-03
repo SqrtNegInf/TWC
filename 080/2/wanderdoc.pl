@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings FATAL => qw(all);
+use v5.36;
 
 use Test::More;
 
@@ -10,9 +9,6 @@ is(count_candies(1, 4, 3, 2), 6,  'Example 2');
 is(count_candies(2, 0, 2), 5,     'New Example');
 
 done_testing();
-
-
-
 
 sub count_candies
 {

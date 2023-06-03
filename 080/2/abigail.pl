@@ -1,19 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use 5.032;
-
-use strict;
-use warnings;
-no  warnings 'syntax';
-
-use experimental 'signatures';
-use experimental 'lexical_subs';
-
-
-#
-#
-# Challenge 2:
-#
 #   You are given rankings of @N candidates.
 #
 #   Write a script to find out the total candies needed for all candidates.

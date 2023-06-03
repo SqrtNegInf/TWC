@@ -1,15 +1,13 @@
 #!/usr/bin/env perl
+use v5.36;
+no warnings 'uninitialized';
 
-use strict;
 use bigrat;   # -> inf
-use feature 'signatures';
 
 use Perl6::Junction 'all';
 use List::Util qw/sum max/;
 use Getopt::Long;
-use feature 'say';
 
-no warnings qw(experimental::signatures);
 
 my $verbose = 0;
 

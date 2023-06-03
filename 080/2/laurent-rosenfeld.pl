@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use feature qw /say/;
+use v5.36;
 
 my @n = ([1, 2, 2], [1, 4, 3, 2], [qw<3 1 5 8 7 4 2>]);
 for my $num_ref (@n) {

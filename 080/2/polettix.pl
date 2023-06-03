@@ -1,9 +1,7 @@
 #!/usr/bin/env perl
-use 5.024;
-use warnings;
+use v5.36;
+
 use English qw< -no_match_vars >;
-use experimental qw< postderef signatures >;
-no warnings qw< experimental::postderef experimental::signatures >;
 use List::Util qw< max sum >;
 
 sub candies_for_candidates (@N) {

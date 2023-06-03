@@ -1,13 +1,5 @@
 #!/usr/bin/env perl
-#
-#       dinner_for_dictators.pl
-
-use warnings;
-use strict;
-use feature ":5.26";
-
-## ## ## ## ## MAIN:
-
+use v5.36;
 
 my @input  = scalar @ARGV   ? @ARGV 
                             : (1, 9, 5, 2, 6, 8, 9, 10, 2, 5, 1);

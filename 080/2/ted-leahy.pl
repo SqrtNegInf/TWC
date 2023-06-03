@@ -1,15 +1,5 @@
 #!/usr/bin/env perl
-# # Count Candies # #
-# - You are given rankings of @N candidates.
-# - Write a script to find out the total candies needed for all candidates. 
-#   You are asked to follow the rules below:
-#     a) You must given at least one candy to each candidate.
-#     b) Candidates with higher rankings get more candies than their immediate neighbors on either side.
-# #
-
-use strict;
-use warnings;
-use feature 'say';
+use v5.36;
 
 my @N = @ARGV || (1, 2, 2);
 

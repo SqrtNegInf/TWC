@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-
-use Modern::Perl;
+use v5.36;
 
 say candies((1, 4, 3, 2));
 
