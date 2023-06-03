@@ -12,9 +12,6 @@
 ===> 079/1/alexander-pankoff.pl <===
 5
  
-===> 079/1/andinus.pl <===
-5
- 
 ===> 079/1/anton-fedotov.pl <===
 5 % 1000000007 = 5
  
@@ -25,12 +22,6 @@
 Input:  $N = 4
 Output: $total_count_set_bit % 1000000007 = 5
  
-===> 079/1/bob-lied.pl <===
-5
- 
-===> 079/1/cheok-yin-fung.pl <===
-5
- 
 ===> 079/1/colin-crain.pl <===
 out:  815030
  
@@ -39,9 +30,6 @@ output: 5
  
 ===> 079/1/daniel-mantovani.pl <===
 5
- 
-===> 079/1/dave-cross.pl <===
-5 % 1000000007 = 5
  
 ===> 079/1/dave-jacoby.pl <===
 5
@@ -59,29 +47,12 @@ ok 9 - Max correct - 1
 ok 10 - Max correct
 1..10
  
-===> 079/1/jaldhar-h-vyas.pl <===
-5 % 1000000007 = 5
- 
-===> 079/1/james-smith.pl <===
-              4	              5	              5
-              5	              7	              7
-          10000	          64613	          64613
- 
-===> 079/1/jeongoon.pl <===
-5
- 
 ===> 079/1/jo-37.pl <===
 # Seeded srand with seed '1' from import arg.
 ok 1 - first example
 ok 2 - second example
 ok 3 - silver bullet
 1..3
- 
-===> 079/1/juliodcs.pl <===
-Result: 5
- 
-===> 079/1/laurent-rosenfeld.pl <===
-5
  
 ===> 079/1/lubos-kolouch.pl <===
 ok 1 - Test 4
@@ -111,12 +82,6 @@ Total set bit count: (5 % 1000000007) = 5
 ===> 079/1/mohammad-anwar.pl <===
 5
  
-===> 079/1/nunovieira220.pl <===
-5
- 
-===> 079/1/paulo-custodio.pl <===
-5
- 
 ===> 079/1/perlboy1967.pl <===
 Input: 4
 Output: 5 % 1000000007 = 5
@@ -132,19 +97,8 @@ ok 2 - example 2
 ===> 079/1/sgreen.pl <===
 4 % 1000000007 = 4
  
-===> 079/1/shawn-wagner.pl <===
-5
-4
- 
 ===> 079/1/steven-wilson.pl <===
 5
- 
-===> 079/1/ted-leahy.pl <===
-5
- 
-===> 079/1/vinod-k.pl <===
-For 4 Set Bits are: 5
-`5` as `5 % 1000000007` = 5
  
 ===> 079/1/walt-mankowski.pl <===
 5 5

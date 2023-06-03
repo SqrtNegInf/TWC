@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
+use v5.36;
 
 my $N = $ARGV[0] || 4;
 my $one = 0;

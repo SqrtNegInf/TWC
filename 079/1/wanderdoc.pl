@@ -1,20 +1,6 @@
 #!/usr/bin/env perl
-use strict;
-use warnings FATAL => qw(all);
+use v5.36;
 
-=prompt
-You are given a positive number $N.
-
-Write a script to count the total numbrer of set bits of the binary representations of all numbers from 1 to $N and return $total_count_set_bit % 1000000007.
-
-Example 1: Input: $N = 4 Total set bit count: 1 + 1 + 2 + 1 = 5
-Output: Your script should print `5` as `5 % 1000000007 = 5`.
-
-
-Example 2: Input: $N = 3 Total set bit count: 1 + 1 + 2 = 4
-Output: Your script should print `4` as `4 % 1000000007 = 4`.
-
-=cut
 use Test::More;
 
 sub count_set_bits

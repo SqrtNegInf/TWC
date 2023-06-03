@@ -1,23 +1,9 @@
 #!/usr/bin/env perl
-
-#
-# Perl Weekly Challenge - 079
-#
-# Task #1: Count Set Bits
-#
-# https://perlweeklychallenge.org/blog/perl-weekly-challenge-079
-#
-
-use strict;
-use warnings;
+use v5.36;
 
 my $N = $ARGV[0] || 4;
 die "ERROR: Invalid number [$N].\n" unless ($N =~ /^\d+$/);
 print count_set_bits($N), "\n";
-
-#
-#
-# SUBROUTINE
 
 sub count_set_bits {
     my $c = 0;

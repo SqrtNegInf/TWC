@@ -1,7 +1,7 @@
 #!/usr/bin/env perl
+use v5.36;
 
 use Test2::V0 -srand => 1;
-no warnings 'recursion';
 use bigint;
 use Memoize;
 use constant MOD => 1000000007;

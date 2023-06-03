@@ -1,14 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use 5.032;
-
-use strict;
-use warnings;
-no  warnings 'syntax';
-
-#
-# Challenge:
-#
 #   You are given a positive number $N.
 #
 #   Write a script to count the total numbrer of set bits of the binary

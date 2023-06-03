@@ -1,19 +1,5 @@
 #!/usr/bin/env perl
-#===============================================================================
-#
-#         FILE: ch-1.pl
-#
-#        USAGE: ./ch-1.pl  
-#
-#  DESCRIPTION: Perl Weekly Challenge Task 1
-#               https://perlweeklychallenge.org/blog/perl-weekly-challenge-079/
-#               Count set bits
-#
-#       AUTHOR: Lubos Kolouch
-#===============================================================================
-
-use strict;
-use warnings;
+use v5.36;
 
 sub get_dec2bin {
     my $what = shift;

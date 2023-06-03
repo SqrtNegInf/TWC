@@ -1,14 +1,5 @@
 #!/usr/bin/env perl
-
-# Perl Weekly Challenge - 079
-# - https://perlweeklychallenge.org/blog/perl-weekly-challenge-079/
-#
-# Task 1 - Count Set Bits
-#
-# Author: Niels 'PerlBoy' van Dijke
-
-use strict;
-use warnings;
+use v5.36;
 
 use constant SOME_VALUE => 1000000007;
 

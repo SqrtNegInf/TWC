@@ -1,12 +1,6 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-##
-# You are given a positive number $N.
-# Write a script to count the total number of set bits 
-# of the binary representations of all numbers 
-# from 1 to $N and return $total_count_set_bit % 1000000007.
-##
+use v5.36;
+
 sub count_bits{
     my($n) = @_;
     my $total_count_set_bit = 0;

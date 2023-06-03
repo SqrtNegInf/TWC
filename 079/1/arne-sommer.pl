@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use feature 'say';
 use List::Util qw/sum/;
 
 my $N = $ARGV[0] // 4;
