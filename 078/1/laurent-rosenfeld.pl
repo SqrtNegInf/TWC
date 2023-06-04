@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use feature "say";
+use v5.36;
 
 my @in = ([9, 10, 7, 5, 6, 1], [3, 4, 5]);
 for my $aref (@in) {

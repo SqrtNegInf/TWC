@@ -1,11 +1,7 @@
 #!/usr/bin/env perl
-
-use strict; use warnings;
-use v5.26;
+use v5.36;
 
 use List::Util qw(any min);
-
-# tested with: perl ch-1.pl 9 10 7 5 6 1
 
 sub leaderElement {
     @_ > 0 or return (0); # this is the only case of result [0]

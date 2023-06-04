@@ -1,5 +1,5 @@
 #!/usr/bin/env perl
-use Modern::Perl;
+use v5.36;
 
 my @ARGV = <9 10 7 5 6 1>;
 

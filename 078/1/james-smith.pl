@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
+use v5.36;
 
 print "@{[ leader( qw(9 10 7 5 6 1) ) ]}\n"; ## Example from challenge
 print "@{[ leader( qw(3 4 5)        ) ]}\n"; ## Example from challenge

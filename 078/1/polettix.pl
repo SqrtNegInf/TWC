@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-use 5.024;
-use warnings;
+use v5.36;
 
 # This problem is easier to tackle if moving from the *end* of the array
 # back to the beginning. So, we reverse the input array to analyze it

@@ -1,14 +1,5 @@
 #!/usr/bin/env perl
-
-# Perl Weekly Challenge - 078
-# - https://perlweeklychallenge.org/blog/perl-weekly-challenge-078/
-#
-# Task 1 - Leader Element
-#
-# Author: Niels 'PerlBoy' van Dijke
-
-use strict;
-use warnings;
+use v5.36;
 
 use List::Util qw(max);
 

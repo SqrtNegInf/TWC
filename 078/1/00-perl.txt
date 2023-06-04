@@ -11,9 +11,6 @@ Leaders = (5)
 ===> 078/1/alexander-pankoff.pl <===
 (10, 7, 6, 1)
  
-===> 078/1/andinus.pl <===
-10, 7, 6, 1
- 
 ===> 078/1/anton-fedotov.pl <===
 10,7,6,1
  
@@ -89,9 +86,6 @@ ok 3 - test empty
 9> 10> 7> 5> 6> 1
 10, 7, 6, 1
  
-===> 078/1/nunovieira220.pl <===
-10, 7, 6, 1
- 
 ===> 078/1/paulo-custodio.pl <===
 (10, 7, 6, 1)
  
@@ -122,23 +116,9 @@ ok 2 - example 2
 (10 7 6 1)
 (5)
  
-===> 078/1/steven-wilson.pl <===
-Input: @A = (9, 10, 7, 5, 6, 1)
-Output: (10, 7, 6, 1)
-ok 1
-Input: @A = (3, 4, 5)
-Output: (5)
-ok 2
-Input: @A = ()
-Output: (0)
-ok 3
-1..3
- 
 ===> 078/1/ulrich-rieke.pl <===
 (10 , 7 , 6 , 1)
  
-===> 078/1/vinod-k.pl <===
-Leaders: 10 7 6 1 
 ===> 078/1/walt-mankowski.pl <===
 10 7 6 1
  

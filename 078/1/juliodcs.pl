@@ -1,9 +1,7 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use strict;
-use warnings;
 use List::Util qw(reduce);
-use experimental 'signatures';
 
 sub get_leaders {
     my @A           =               ( 9, 10, 7, 5, 6, 1 );

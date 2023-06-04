@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-# The Weekly Challenge - Perl & Raku
-#          #078 Task 1 Leader Element
-# Usage: ch-1.pl @A
+use v5.36;
 
 my @A;
 
@@ -12,7 +10,7 @@ my @CA = @A;
 my $max = -10000;
 
 for (reverse @CA) {
-    $s = pop @CA;
+    my $s = pop @CA;
     if ($s > $max) {
         unshift @ans, $s;
         $max = $s;

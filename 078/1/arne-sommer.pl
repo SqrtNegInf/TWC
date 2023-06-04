@@ -1,7 +1,7 @@
 #!/usr/bin/env perl
+use v5.36;
 
 use Perl6::Junction 'all';
-use feature 'say';
 
 my @A = <9 10 7 5 6 1>;
 

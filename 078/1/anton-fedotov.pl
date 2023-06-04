@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-use v5.30;
+use v5.36;
 
 my @A = <9 10 7 5 6 1>;
 @A = (9, 10, 7, 5, 6, 1) unless @A;

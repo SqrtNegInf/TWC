@@ -1,11 +1,6 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-##
-# You are given an array @A containing distinct integers.
-# Write a script to find all leader elements in the array @A. 
-# Print (0) if none found.
-##
+use v5.36;
+
 use boolean; 
 sub is_leader{
     my(@a) = @_;

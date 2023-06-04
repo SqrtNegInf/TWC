@@ -1,4 +1,5 @@
 #!/usr/bin/env perl
+use v5.36;
 
 #
 # Exercise:
@@ -8,27 +9,13 @@
 #    than all the elements to its right side.
 #
 
-#
-# Note:
-#    - The only way no leader element can be found is if the array is empty.
-#    - We will read the array from STDIN.
-#
-
-use 5.032;
-
-use strict;
-use warnings;
-no  warnings 'syntax';
-
-use experimental 'signatures';
-
 my $max;
 
 #
 # Read the input, extract integers, and store them in @A.
 # If the input is empty, print 0 and exit.
 #
-say (0), exit unless my @A = <DATA> =~ /[0-9]+/g;
+say 0, exit unless my @A = <DATA> =~ /[0-9]+/g;
 
 local $, = " ";
 
