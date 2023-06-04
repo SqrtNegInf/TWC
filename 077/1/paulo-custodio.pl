@@ -1,31 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-# Challenge 077
-#
-# TASK #1 > Fibonacci Sum
-# Submitted by: Mohammad S Anwar
-# You are given a positive integer $N.
-#
-# UPDATE: 2020-09-07 09:00:00
-# Write a script to find out all possible combination of Fibonacci Numbers
-# required to get $N on addition.
-#
-# You are NOT allowed to repeat a number. Print 0 if none found.
-#
-# Example 1:
-# Input: $N = 6
-#
-# Output:
-#     1 + 2 + 3 = 6
-#     1 + 5 = 6
-# Example 2:
-# Input: $N = 9
-#
-# Output:
-#     1 + 8 = 9
-#     1 + 3 + 5 = 9
-
-use Modern::Perl;
 use Math::Combinatorics;
 
 my($N) = 377;

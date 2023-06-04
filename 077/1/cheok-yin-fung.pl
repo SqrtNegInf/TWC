@@ -1,22 +1,5 @@
 #!/usr/bin/env perl
-# The Weekly Challenge - Perl & Raku
-#          #077 Task 1 Fibonacci Sum
-# task statement: 
-# Write a script to find how many ways you make 
-# sum $S from the Fibb numbers.
-# You are NOT allowed to repeat a number. 
-# Print 0 if none found. 
-# 
-# Usage: ch-1.pl $N
-#
-# Additional Usage: ch-1.pl $N -r  
-#     for displaying terms from large to small
-#
-# verify code aided by this page by Dr Ron Knott:
-# http://www.maths.surrey.ac.uk/hosted-sites/
-# R.Knott/Fibonacci/fibrep.html#section3.2
-use strict;
-use warnings;
+use v5.36;
 
 my $N;
 if ($ARGV[0]) {$N = $ARGV[0];} else {$N = 1015;}

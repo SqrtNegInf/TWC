@@ -1,21 +1,6 @@
 #!/usr/bin/env perl
-#===============================================================================
-#
-#         FILE: 7701.pl
-#
-#        USAGE: ./7701.pl N 
-#
-#  DESCRIPTION: Outputs all sums of unique Fibonacci numbers to make N
-#
-# REQUIREMENTS: Algorithm::Knapsack, Params::Util, List::Util
-#       AUTHOR: Pete Houston (pete), cpan@openstrike.co.uk
-# ORGANIZATION: Openstrike
-#      VERSION: 1.0
-#      CREATED: 07/09/20
-#===============================================================================
+use v5.36;
 
-use strict;
-use warnings;
 use Algorithm::Knapsack;
 use Params::Util '_POSINT';
 use List::Util 'sum';

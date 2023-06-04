@@ -1,12 +1,6 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-##
-# You are given a positive integer $N.
-# Write a script to find out all possible combination 
-# of Fibonacci Numbers required to get $N on addition.
-# Repeated numbers are not allowed. Print 0 if none found.
-##
+use v5.36;
+
 sub nearest_fibonacci{
     my($n) = @_;
     my @f = (1, 1);

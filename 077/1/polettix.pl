@@ -1,8 +1,7 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
+use v5.36;
+
 use English qw< -no_match_vars >;
-use autodie;
 
 main(shift || 377);
 

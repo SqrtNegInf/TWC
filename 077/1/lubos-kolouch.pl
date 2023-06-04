@@ -1,10 +1,6 @@
 #!/usr/bin/env perl
-#""" Perl Weekly challenge 077 Task 1 """
-#""" https://perlweeklychallenge.org/blog/perl-weekly-challenge-077/ """
-#""" Solution Lubos Kolouch """
-use strict;
-use warnings;
-#use Data::Dumper;
+use v5.36;
+
 use List::Util qw/sum/;
 
 my @all_fibs;

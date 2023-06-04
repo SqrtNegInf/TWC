@@ -1,14 +1,5 @@
 #!/usr/bin/env perl
-
-# Perl Weekly Challenge - 077
-# - https://perlweeklychallenge.org/blog/perl-weekly-challenge-077/
-#
-# Task 1 - Fibonacci Sum
-#
-# Author: Niels 'PerlBoy' van Dijke
-
-use strict;
-use warnings;
+use v5.36;
 
 # Unbuffered STDOUT
 $|++;
@@ -18,9 +9,9 @@ use List::Util qw(sum);
 use Memoize;
 
 # Prototypes
-sub fibonacci ($);
-sub getFibonacciNumbersSmallerN ($);
-sub findFibonacciSumSolutions ($\@\@);
+sub fibonacci :prototype($);
+sub getFibonacciNumbersSmallerN :prototype($);
+sub findFibonacciSumSolutions :prototype($\@\@);
 
 memoize('fibonacci');
 
@@ -47,7 +38,7 @@ if (scalar @solutions) {
 }
 
 
-sub fibonacci ($) {
+sub fibonacci :prototype($) {
   my ($n) = @_;
 
   return 1 if ($n == 1 or $n == 2);
@@ -56,7 +47,7 @@ sub fibonacci ($) {
 }
 
 
-sub getFibonacciNumbersSmallerN ($) {
+sub getFibonacciNumbersSmallerN :prototype($) {
   my ($n) = @_;
 
   my @fib;
@@ -72,7 +63,7 @@ sub getFibonacciNumbersSmallerN ($) {
 }
 
 
-sub findFibonacciSumSolutions($\@\@) {
+sub findFibonacciSumSolutions :prototype($\@\@) {
    my ($n, $arSol, $arFib) = @_;
 
    foreach my $level (1 .. scalar @$arFib) {

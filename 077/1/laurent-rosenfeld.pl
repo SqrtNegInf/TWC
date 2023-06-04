@@ -1,9 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use feature "say";
-
-# Original task
+use v5.36;
 
 my $target = shift // 377;
 my @fib = (1, 2);

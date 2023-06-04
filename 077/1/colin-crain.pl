@@ -1,4 +1,5 @@
 #!/usr/bin/env perl
+use v5.36;
 #
 #     your_pasta_lies_add_up.pl
 #
@@ -28,11 +29,6 @@
 #       2020 colin crain
 ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ##
 
-
-
-use warnings;
-use strict;
-use feature ":5.26";
 
 use Algorithm::Combinatorics qw(combinations);
 use List::Util qw(sum);

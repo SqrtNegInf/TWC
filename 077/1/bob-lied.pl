@@ -1,23 +1,5 @@
 #!/usr/bin/env perl
-# vim:set ts=4 sw=4 sts=4 et ai wm=0 nu:
-#=============================================================================
-# ch-1.pl
-#=============================================================================
-# Copyright (c) 2020, Bob Lied
-#=============================================================================
-# Perl Weekly Challenge 077 Task #1 > Fibonacci Sum
-#=============================================================================
-# You are given a positive integer $N.
-# Write a script to find out all possible combination of Fibonacci Numbers
-# required to get $N on addition.
-# You are NOT allowed to repeat a number. Print 0 if none found.
-
-use strict;
-use warnings;
-use v5.30;
-
-use feature qw/ signatures /;
-no warnings qw/ experimental::signatures /;
+use v5.36;
 
 use lib ".";
 use FibSum qw(_fib);

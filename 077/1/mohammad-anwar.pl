@@ -1,15 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-#
-# Perl Weekly Challenge - 077
-#
-# Task #1: Fibonacci Sum
-#
-# https://perlweeklychallenge.org/blog/perl-weekly-challenge-077
-#
-
-use strict;
-use warnings;
 use Algorithm::Combinatorics qw(combinations);
 
 my $N = 377;

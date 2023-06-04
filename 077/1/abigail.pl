@@ -1,4 +1,5 @@
 #!/usr/bin/env perl
+use v5.36;
 
 #
 # Exercise:
@@ -18,15 +19,6 @@
 #    distinct Fibonacci numbers in such a way that the sum does not
 #    include any two consecutive Fibonacci numbers")
 #
-
-use 5.032;
-
-use strict;
-use warnings;
-no  warnings 'syntax';
-
-use experimental 'signatures';
-use experimental 'lexical_subs';
 
 chomp (my $N = <DATA>);
 

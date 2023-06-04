@@ -84,7 +84,7 @@ BEGIN {
     *::dprint = $::debugging ? $dprint : sub {};
 }
 
-sub fibs ($) { # excluding first 1 for challenge purpose
+sub fibs :prototype($) { # excluding first 1 for challenge purpose
     my $limit = shift;
     $limit <= 1 and return (1);
     $limit <= 2 and return (1,2);
@@ -96,14 +96,14 @@ sub fibs ($) { # excluding first 1 for challenge purpose
     @fibs
 }
 
-sub rfibs ($) { reverse (fibs shift) }
+sub rfibs :prototype($) { reverse (fibs shift) }
 
 # return the all possible ways a fib number can be expressed
 #   which includes the fib number itself
 # ex) f(55) -> [55], [34, 21], [34, 13, 8], [34, 13, 5, 3], [34, 13, 5, 2, 1]
 # return as array of arrayref
 
-sub allCasesSubFibs ($$) {
+sub allCasesSubFibs :prototype($$) {
     # assume allRevFibsRef is sorted desc.
     my ( $afib, $allRevFibsRef )  = @_;
     my @allRevFibs = @{$allRevFibsRef}; # copy: no side effect
@@ -125,7 +125,7 @@ sub allCasesSubFibs ($$) {
     @allCases;
 }
 
-sub productCases ($$) {
+sub productCases :prototype($$) {
     my ( $casesRef, $validate_code, @pos, $csr ) = @_[0,1];
     my @cases = @{$casesRef}; # side note: this is copy method
     @pos = (0) x scalar @cases;
@@ -172,7 +172,7 @@ sub productCases ($$) {
 }
 
 # product all cases of each fib numbers
-sub productRevFibCombination ($$) {
+sub productRevFibCombination :prototype($$) {
     my ( $aRevFibCombiRef, $allRevFibsRef ) = @_;
 
     my @rcases = map {
@@ -193,8 +193,8 @@ sub productRevFibCombination ($$) {
     };
 }
 
-sub minRevFibSumCombination ($$);
-sub minRevFibSumCombination ($$) { # find a case tally the target sum.
+sub minRevFibSumCombination :prototype($$);
+sub minRevFibSumCombination :prototype($$) { # find a case tally the target sum.
     my ( $targetSum, $allRevFibRef ) = @_;
     #my @allRevFib = grep { $_ <= $targetSum } @{$allRevFibRef};
     my @allRevFib = @{$allRevFibRef}; # assuming it's already sieved.
@@ -214,7 +214,7 @@ sub minRevFibSumCombination ($$) { # find a case tally the target sum.
 }
 
 # final solution form
-sub allCombiFibSum ($) {
+sub allCombiFibSum :prototype($) {
     my $targetSum = shift;
     my @reversedFibNumbers = rfibs $targetSum;
 
