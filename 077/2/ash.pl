@@ -1,10 +1,5 @@
 #!/usr/bin/env perl
-use v5.12;
-
-# Task 2 from
-# https://perlweeklychallenge.org/blog/perl-weekly-challenge-077/
-
-# Comments: https://andrewshitov.com/2020/09/08/lonely-x-the-weekly-challenge-77-task-2/
+use v5.36;
 
 my @matrix = (
     [qw( O O O X)],

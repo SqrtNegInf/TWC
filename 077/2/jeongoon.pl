@@ -1,18 +1,7 @@
 #!/usr/bin/env perl
-# -*- Mode: cperl; cperl-indent-level:4 tab-width: 8; indent-tabs-mode: nil -*-
-# -*- coding: utf-8 -*-
+use v5.36;
 
-use strict; use warnings;
-use v5.26;
 use List::Util qw(sum);
-
-=pod
-
-=head1 Test
-
-echo "[OOX][XOO][XOO]" | perl ch-2.pl
-
-=cut
 
 sub readBinaryMatrixFromStdin () {
     local $/ = '';
@@ -23,7 +12,7 @@ sub readBinaryMatrixFromStdin () {
                   else { () } } split //, $_ ] } grep { $_ ne '' } @lines;
 }
 
-sub showMatrix ($) {
+sub showMatrix :prototype($) {
     my $mat = shift;
     say "@{$$mat[$_]}" for ( 0 .. $#$mat );
 }
@@ -38,7 +27,7 @@ sub SUM { 3 }
 #             column,
 #             sum around (r,c) )
 
-sub getLonelyStatusAround ($$$) {
+sub getLonelyStatusAround :prototype($$$) {
     my ( $mat, $r, $c ) = @_;
     ( 0 <= $r && $r < @$mat && 0 <= $c && $c < @{$$mat[0]})
         or return (-1,$r,$c,-1);

@@ -1,12 +1,7 @@
 #!/usr/bin/env perl
+use v5.36;
 
 srand 1;
-
-use strict;
-use warnings;
-
-print "USAGE: perl $0 <row> <col>\n" and exit
-    if (defined $ARGV[0] && ($ARGV[0] eq '-h'));
 
 my $R = $ARGV[0] || 3;
 my $C = $ARGV[1] || 3;

@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings FATAL => qw(all);
+use v5.36;
 
 for my $test ( [[ qw(O O X) ], [ qw(X O O) ], [ qw(X O O) ]],
      [[ qw(O O X O) ], [ qw(X O O O) ], [ qw(X O O X) ], [ qw(O X O O) ]],

@@ -1,10 +1,5 @@
 #!/usr/bin/env perl
-#""" Perl Weekly challenge 077 Task 2 """
-#""" https://perlweeklychallenge.org/blog/perl-weekly-challenge-077/ """
-#""" Solution Lubos Kolouch """
-use strict;
-use warnings;
-use feature qw/say/;
+use v5.36;
 
 sub is_position_lone {
     my ($args) = shift;

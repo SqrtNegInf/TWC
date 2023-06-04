@@ -1,11 +1,6 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-##
-# You are given m x n character matrix consists of O and X only.
-# Write a script to count the total number of X surrounded by O only. 
-# Print 0 if none found.
-## 
+use v5.36;
+
 use boolean;
 use Lingua::EN::Numbers::Ordinate;
 

@@ -1,18 +1,7 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use feature qw(:5.32);
-use experimental qw(signatures);
-use List::Util qw(sum);
-use autodie;
+use v5.36;
 
-# TASK #2 › Lonely X
-# Submitted by: Mohammad S Anwar
-#
-# You are given m x n character matrix consists of O and X only.
-#
-# Write a script to count the total number of X surrounded by O
-# only. Print 0 if none found.
+use List::Util qw(sum);
 
 # read in the matrix and add a layer of 0s around the outside
 sub parse_input($fname) {

@@ -1,4 +1,5 @@
 #!/usr/bin/env perl
+use v5.36;
 
 #
 # Exercise:
@@ -6,15 +7,6 @@
 #    Write a script to count the total number of X surrounded by O only.
 #    Print 0 if none found.
 #
-
-use 5.032;
-
-use strict;
-use warnings;
-no  warnings 'syntax';
-
-use experimental 'signatures';
-use experimental 'lexical_subs';
 
 #
 # Read in the board. Use 1 for an X, and 0 for an 0. Add a band

@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use feature "say";
+use v5.36;
 
 my @matrix = ([ 0, 0, 'X'], [ 'X', 0, 0], [ 'X', 0, 0 ]);
 
