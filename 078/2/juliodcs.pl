@@ -1,9 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-use experimental 'signatures';
-use feature 'say';
+use v5.36;
 
 sub rotate {
     my @A = (7, 4, 2, 6, 3);

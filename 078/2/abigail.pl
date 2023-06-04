@@ -1,4 +1,5 @@
 #!/usr/bin/env perl
+use v5.36;
 
 #
 # Exercise:
@@ -15,14 +16,6 @@
 # We will be reading the arrays from STDIN -- @A is one the first
 # line, @B is on the second line.
 #
-
-use 5.032;
-
-use strict;
-use warnings;
-no  warnings 'syntax';
-
-use experimental 'signatures';
 
 #
 # Read @A and @B

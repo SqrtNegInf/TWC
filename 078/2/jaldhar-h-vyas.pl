@@ -1,21 +1,7 @@
 #!/usr/bin/env perl
-use 5.020;
-use warnings;
+use v5.36;
+
 use English qw/ -no_match_vars /;
-use Getopt::Std;
-
-sub usage {
-
-    print<<"-USAGE-";
-Usage:
-  $PROGRAM_NAME [-A=<" ... ">] [-B=<" ... ">]
-  
-    -A=<" ... ">    A string consisting of integers separated by spaces.
-    -B=<" ... ">    A string consisting of integers separated by spaces.
--USAGE-
-
-    exit 0;
-}
 
 sub rotate {
     my ($n, $arr) = @_;

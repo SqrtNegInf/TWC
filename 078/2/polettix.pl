@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-use 5.024;
-use warnings;
-use experimental qw< postderef signatures >;
-no warnings qw< experimental::postderef experimental::signatures >;
+use v5.36;
 
 sub shift_left_by ($n, @A) { (@A[$n..$#A], @A[0..($n-1)]) }
 sub shift_left ($A, $B) { map { [shift_left_by($_, $A->@*)] } $B->@* }

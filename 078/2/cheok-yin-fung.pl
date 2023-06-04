@@ -1,15 +1,6 @@
 #!/usr/bin/env perl
-# The Weekly Challenge - Perl & Raku #078 Task 2
-# learn the usage of Struct::Dumb to create a linked list 
-# use Struct to make the circular list
-# ref: by Wanderdoc, ch-2.pl for challenge #071
-# (A nested hash was used by me for 
-# solving the singly linked list in #071
-# but this method cannot port as a circular linked list )
-# Usage ch-2.pl [size of @A] [@A] [size of @B] [@B]
+use v5.36;
 
-use strict;
-use warnings;
 use Struct::Dumb qw( -named_constructors );
 use Scalar::Util qw(refaddr);
 

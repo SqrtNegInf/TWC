@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
+use v5.36;
 
 rotate( [qw(10 20 30 40 50)], 3, 4    ); ## example from challenge
 rotate( [qw( 7  4  2  6  3)], 1, 3, 4 ); ## example from challenge
@@ -17,9 +16,4 @@ sub rotate {
 
   print "  [@{[ @{$a}[ $_..(@{$a}-1), 0..($_-1) ] ]}]\n" foreach @_;
 
-  ## Let us use the @{[ ]} trick to embed content into the print
-  ## statement - this is a very useful and often under used feature
-  ## of perl which makes for simpler code when rendering output...
-  ## this is nice because print "@A" an print @A are subtly different
-  ## with the "@A" putting spaces (default value of $")
 }

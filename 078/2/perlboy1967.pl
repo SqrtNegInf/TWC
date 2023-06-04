@@ -1,15 +1,5 @@
 #!/usr/bin/env perl
 
-# Perl Weekly Challenge - 078
-# - https://perlweeklychallenge.org/blog/perl-weekly-challenge-078/
-#
-# Task 2 - Left Rotation
-#
-# Author: Niels 'PerlBoy' van Dijke
-
-use strict;
-use warnings;
-
 my @A = qw(7 4 2 6 3);
 my @B = qw(1 3 4);
 

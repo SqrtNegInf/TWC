@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
+use v5.36;
 
 # Input
 my @A = (7, 4, 2, 6, 3);

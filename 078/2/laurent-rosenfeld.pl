@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use feature "say";
+use v5.36;
 
 my @a = ( [[10, 20, 30, 40, 50],[3, 4]],
           [[7, 4, 2, 6, 3], [1, 3, 4]] );

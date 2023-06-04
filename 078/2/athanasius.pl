@@ -1,8 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-                                    # Exports:
-use strict;
-use warnings;
 use Const::Fast;                    # const()
 use Getopt::Long;                   # GetOptions()
 use Regexp::Common qw( number );    # %RE{num}

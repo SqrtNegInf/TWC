@@ -1,15 +1,5 @@
 #!/usr/bin/env perl
-
-#
-# Perl Weekly Challenge - 078
-#
-# Task #2: Left Rotation
-#
-# https://perlweeklychallenge.org/blog/perl-weekly-challenge-078
-#
-
-use strict;
-use warnings;
+use v5.36;
 
 my $A = $ARGV[0] || "10, 20, 30, 40, 50";
 my $B = $ARGV[1] || "3, 4";

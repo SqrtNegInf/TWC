@@ -1,10 +1,5 @@
 #!/usr/bin/env perl
-
-use warnings;
-use strict;
-use feature ":5.26";
-
-## ## ## ## ## MAIN:
+use v5.36;
 
 
 my @array = (7, 4, 2, 6, 3);
@@ -23,13 +18,3 @@ say "index list: (", (join ', ', @idxs ), ")\n";
 
 say "[", (join ' ', $_->@*), "]" for @output;
 
-
-
-
-
-
-
-
-
-
-## ## ## ## ## SUBS:

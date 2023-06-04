@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-
-use Modern::Perl;
+use v5.36;
 
 my @A = (10,20,30,40,50); my @B = (3,4);
 

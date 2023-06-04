@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-use Modern::Perl;
-use feature qw(signatures);
-no warnings qw(experimental::signatures);
+use v5.36;
 
 my @A = (10, 20, 30, 40, 50);
 my @B = (3, 13, -2, 0);

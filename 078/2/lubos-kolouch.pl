@@ -1,10 +1,5 @@
 #!/usr/bin/env perl
-# """ https://perlweeklychallenge.org/blog/perl-weekly-challenge-078/
-#    Task 2
-#   Left Rotation
-#    19.9.2020 Lubos Kolouch """
-use strict;
-use warnings;
+use v5.36;
 
 sub rotate_arr {
     # """ Process the list and fill in leaders """

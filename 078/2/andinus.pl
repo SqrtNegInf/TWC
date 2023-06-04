@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
+use v5.36;
 
 my @A = qw(10 20 30 40 50);
 my @B = qw(3 4);
