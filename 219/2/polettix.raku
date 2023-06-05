@@ -1,8 +1,10 @@
 #!/usr/bin/env raku
-use v6;
-sub MAIN (*@days is copy) {
-   put travel-expenditure(@days.splice(0, 3), @days);
-}
+
+#sub MAIN (*@days is copy) {
+#   put travel-expenditure(@days.splice(0, 3), @days);
+#}
+
+put travel-expenditure([2, 7, 25], [1, 5, 6, 7, 9, 15]);
 
 sub travel-expenditure (@costs, @days) {
    state @spans = 1, 7, 30;

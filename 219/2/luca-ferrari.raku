@@ -1,12 +1,5 @@
 #!/usr/bin/env raku
 
-#
-# Perl Weekly Challenge 219
-# Task 2
-#
-# See <https://perlweeklychallenge.org/blog/perl-weekly-challenge-219/>
-#
-
 sub MAIN() {
 
     my @days  = 1, 5, 6, 7, 9, 15;

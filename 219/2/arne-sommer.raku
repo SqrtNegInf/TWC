@@ -1,17 +1,16 @@
 #!/usr/bin/env raku
 
-unit sub MAIN ($costs, $days, :v(:$verbose));
+#unit sub MAIN ($costs, $days, :v(:$verbose));
 
-my @costs = $costs.words>>.Numeric;
-
-die "Specify three costs" unless @costs.elems == 3;
-die "Costs must be numeric" unless all(@costs) ~~ Numeric;
-
+my @costs = <2 7 25>;
 my %costs = ( 1 => @costs[0], 7 => @costs[1], 30 => @costs[2] ); 
+#my @costs = $costs.words>>.Numeric;
+#die "Specify three costs" unless @costs.elems == 3;
+#die "Costs must be numeric" unless all(@costs) ~~ Numeric;
 
-my @days  = $days.words>>.UInt;
-
-die "The days must be positive integers (1..366)" unless all(@days) ~~ UInt && 1 <= all(@days) <= 366;
+my @days = <1 5 6 7 9 15>;
+#my @days  = $days.words>>.UInt;
+#die "The days must be positive integers (1..366)" unless all(@days) ~~ UInt && 1 <= all(@days) <= 366;
 
 my @res = gather
 {
@@ -22,26 +21,18 @@ my $lowest = Inf;
 
 for @res -> $row
 {
-  print ": Cost: $row{'cost'}" if $verbose;
+  #print ": Cost: $row{'cost'}" if $verbose;
 
   if $row{'cost'} < $lowest
   {
     $lowest = $row{'cost'};
-    say " - new lowest" if $verbose;
+    #say " - new lowest" if $verbose;
   }
-  elsif $verbose
-  {
-    say "";
-  }
+  #elsif $verbose
+  #{
+  #  say "";
+  #}
 
-  if $verbose
-  {
-    for @($row{'log'}) -> $log
-    {
-      say ": - $log";
-    }
-    say "";
-  }
 }
 
 say $lowest;

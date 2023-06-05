@@ -1,6 +1,7 @@
 #!/usr/bin/env raku
 # This is just my translation of https://leetcode.com/problems/minimum-cost-for-tickets/editorial/
 # into Raku. I should receive reduced street-cred for it. :^)
+
 sub task2 ( @costs, @days ) {
     constant @duration = 1, 7, 30;
     die if   @costs != @duration;
@@ -22,7 +23,6 @@ sub task2 ( @costs, @days ) {
 
     return dp(1);
 }
-
 
 my @tests = map { %( <expected costs days> Z=> .list ) },
     ( 11, (2, 7, 25), (1, 5, 6, 7, 9, 15) ),
