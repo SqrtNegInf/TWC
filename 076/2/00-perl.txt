@@ -283,10 +283,6 @@ There were 111 unique words in this word search
 	WIGGED
 	ZING
  
-===> 076/2/duncan-c-white.pl <===
-rows=19, cols=16
-found 139 words in grid: AIAS,ALIGN,ALOSE,ANTA,ANTE,ANTES,ARAR,ARGO,AROSE,BENU,BIDE,BLUNT,BOID,BOSC,BROAD,BUFF,BURI,BUTE,BUTEA,CART,CESS,CLOVE,CLOVEN,COAN,COLD,COND,CONSTITUTION,CORD,CROON,CUBE,DEMI,DEPA,DEPART,DEPARTED,DUST,EDIT,ENTER,ETNA,FILCH,FORE,GARLIC,GAUL,GILA,GING,GOAT,GRAM,GRIEVE,GRIT,GRITH,GUHA,GURR,GUSS,HAZARD,HEED,ILEAC,IONI,ITEA,LAIC,LATH,LIEN,LIFO,LISE,LOSE,LOTA,LOVE,LUGE,LUNE,LUNT,MALI,MALIGN,MALIGNANT,MALL,MASA,MEIN,MERO,MESO,MIDS,MIDST,NANT,NEED,NEIL,NESH,NEUMA,NEVO,OBAN,ODIC,OM,OUGH,OUGHT,OVARY,OVEN,PART,PARTED,PASMO,QUASH,RAIA,RARE,REIF,RINE,ROAD,ROON,ROSE,ROUD,RUSE,SARA,SHED,SHRINE,SICE,SLAG,SLUG,SNAB,SOCIAL,SOLA,SORA,SOYA,SPAN,SPASM,SPASMODIC,STAUN,SUCCOR,SUGI,TAAR,TALL,TALOSE,TAUN,TERP,THEO,THEOREM,TIDE,TOME,TRAP,TSAR,ULLA,VARY,VIRUS,VISA,WIFIE,WIGGED,ZING
- 
 ===> 076/2/e-choroba.pl <===
 aias
 align
@@ -432,31 +428,6 @@ zing
 Found 40 words:
 align, alose, antes, arose, blunt, broad, butea, clove, cloven, constitution, croon, depart, departed, enter, filch, garlic, grieve, grith, hazard, ileac, malign, malignant, midst, neuma, ought, ovary, parted, pasmo, quash, shrine, social, spasm, spasmodic, staun, succor, talose, theorem, virus, wifie, wigged
  
-===> 076/2/jeongoon.pl <===
-Word Search Grid:
-B I D E M I A T S U C C O R S T
-L D E G G I W Q H O D E E H D P
-U S E I R U B U T E A S L A G U
-N G N I Z I L A I C O S C N U D
-T G M I D S T S A R A R E I F G
-S R E N M D C H A S I V E E L I
-S C S H A E U E B R O A D M T E
-H W O V L P E D D L A I U L S S
-R Y O N L A S F C S T A O G O T
-I G U S S R R U G O V A R Y O C
-N R G P A T N A N G I L A M O O
-E I H A C E I V I R U S E S E D
-S E T S U D T T G A R L I C N H
-H V R M X L W I U M S N S O T B
-A E A O F I L C H T O D C A E U
-Z S C D F E C A A I I R L N R F
-A R I I A N Y U T O O O U T P F
-R S E C I S N A B O S C N E R A
-D R S M P C U U N E L T E S I L
-
-Total: 139 word(s) found.
-[aias, align, alose, anta, ante, antes, arar, argo, arose, benu, bide, blunt, boid, bosc, broad, buff, buri, bute, butea, cart, cess, clove, cloven, coan, cold, cond, constitution, cord, croon, cube, demi, depa, depart, departed, dust, edit, enter, etna, filch, fore, garlic, gaul, gila, ging, goat, gram, grieve, grit, grith, guha, gurr, guss, hazard, heed, ileac, ioni, itea, laic, lath, lien, lifo, lise, lose, lota, love, luge, lune, lunt, mali, malign, malignant, mall, masa, mein, mero, meso, mids, midst, nant, need, neil, nesh, neuma, nevo, oban, odic, om, ough, ought, ovary, oven, part, parted, pasmo, quash, raia, rare, reif, rine, road, roon, rose, roud, ruse, sara, shed, shrine, sice, slag, slug, snab, social, sola, sora, soya, span, spasm, spasmodic, staun, succor, sugi, taar, tall, talose, taun, terp, theo, theorem, tide, tome, trap, tsar, ulla, vary, virus, visa, wifie, wigged, zing]
- 
 ===> 076/2/jo-37.pl <===
 SUCCOR
 WIGGED
@@ -497,12 +468,6 @@ align alose antes arose blunt broad butea clove cloven constitution croon depart
 ===> 076/2/lubos-kolouch.pl <===
 ok 1
 1..1
- 
-===> 076/2/mohammad-anwar.pl <===
-Matrix [19 x 16]: 174 unique records found.
-
-Found 40 unique words:
-align, alose, antes, arose, blunt, broad, butea, clove, cloven, constitution, croon, depart, departed, enter, filch, garlic, grieve, grith, hazard, ileac, malign, malignant, midst, neuma, ought, ovary, parted, pasmo, quash, shrine, social, spasm, spasmodic, staun, succor, talose, theorem, virus, wifie, wigged
  
 ===> 076/2/neil-bowers.pl <===
 ante
@@ -686,55 +651,6 @@ zing
  
 ===> 076/2/paulo-custodio.pl <===
 align, alose, antes, arose, blunt, broad, butea, clove, cloven, constitution, croon, depart, departed, enter, filch, garlic, grieve, grith, hazard, ileac, malign, malignant, midst, neuma, ought, ovary, parted, pasmo, quash, shrine, social, spasm, spasmodic, staun, succor, talose, theorem, virus, wifie, wigged
- 
-===> 076/2/perlboy1967.pl <===
-
-26 uniq words found in grid of length 5 or more (using dictionary containing 210 words).
-
-Word         | DLRBT | DLRTB | DRLBT | DRLTB |   HLR |   HRL |   VBT |   VTB
------------- + ----- + ----- + ----- + ----- + ----- + ----- + ----- + -----
-align        |       |       |       |       |       |     1 |     1 |      
-alose        |       |       |       |     1 |       |       |       |      
-arose        |     1 |       |       |       |       |       |       |      
-broad        |       |       |       |       |     1 |       |       |     1
-butea        |       |       |       |       |     1 |       |       |     1
-clove        |     1 |       |       |       |       |       |       |      
-cloven       |     1 |       |       |       |       |       |       |      
-constitution |       |     1 |       |       |       |       |       |      
-croon        |       |       |       |     1 |       |       |       |      
-filch        |       |       |       |       |     1 |       |       |     1
-garlic       |       |       |       |       |     1 |       |       |     1
-grith        |       |     1 |       |       |       |       |       |      
-ileac        |       |       |       |     1 |       |       |       |      
-malign       |       |       |       |       |       |     1 |     1 |      
-malignant    |       |       |       |       |       |     1 |     1 |      
-midst        |       |       |       |       |     1 |       |       |     1
-neuma        |       |       |       |     1 |       |       |       |      
-ovary        |       |       |       |       |     1 |       |       |     1
-social       |       |       |       |       |       |     1 |     1 |      
-staun        |       |       |       |     1 |       |       |       |      
-succor       |       |       |       |       |     1 |       |       |     1
-talose       |       |       |       |     1 |       |       |       |      
-theorem      |       |     1 |       |       |       |       |       |      
-virus        |       |       |       |       |     1 |       |       |     1
-wifie        |       |       |       |     1 |       |       |       |      
-wigged       |       |       |       |       |       |     1 |     1 |      
------------- + ----- + ----- + ----- + ----- + ----- + ----- + ----- + -----
-
-Legend:
-=======
-
-Key   | Description                               
------ + ------------------------------------------
-DLRBT | Diagonal (left to right and bottom to top)
-DLRTB | Diagonal (left to right and top to bottom)
-DRLBT | Diagonal (right to left and bottom to top)
-DRLTB | Diagonal (right to left and top to bottom)
-HLR   | Horizontal (left to right)                
-HRL   | Horizontal (right to left)                
-VBT   | Vertical (bottom to top)                  
-VTB   | Vertical (top to bottom)                  
------ + ------------------------------------------
  
 ===> 076/2/pete-houston.pl <===
 Found: 40 words of length 5 or more:

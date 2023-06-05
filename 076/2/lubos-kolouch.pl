@@ -1,10 +1,7 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use strict;
-use warnings;
 use File::Slurp;
-use feature qw/say/;
-
 
 sub get_words {
     my ($grid, $words, $min_count)  = @_;

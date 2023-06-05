@@ -1,11 +1,9 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use feature "say";
+use v5.36;
 
 my $dict = "words.txt";
 my $min_length = shift // 5;
-open my $IN, "<", $dict or die unable to open $dict;
+open my $IN, "<", $dict or die "unable to open $dict";
 my %words = map { $_ => 1 } grep { length $_ >= $min_length }
     map { chomp; $_ } <$IN>;
 close $IN;

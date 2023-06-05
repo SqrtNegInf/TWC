@@ -1,16 +1,5 @@
 #!/usr/bin/env perl
-# Perl Weekly Challenge #076 Task 2 Word Search
-# task statements:
-# Write a script that takes two file names. 
-# The first file would contain word search grid 
-# as shown [below]. The second file contains list of words, 
-# one word per line. You could even use 
-# local dictionary file.
-# Usage: ch-2.pl gridfile dictfile 
-
-use strict;
-use warnings;
-#use Data::Dumper;
+use v5.36;
 
 my @matrix;
 my @dictwords;

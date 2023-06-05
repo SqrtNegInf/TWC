@@ -1,15 +1,7 @@
 #!/usr/bin/env perl
-#
-# solve-wordsearch - search for words (from a word list) in a wordsearch grid
-#
-use strict;
-use warnings;
-use v5.20;
-use feature       qw/ signatures /;
-no warnings       qw/ experimental::signatures /;
-use File::Slurper qw/ read_lines /;
+use v5.36;
 
-#die "usage: $0 <grid-file> <word-list>\n" unless @ARGV == 2;
+use File::Slurper qw/ read_lines /;
 
 my @grid      = map { [split('',lc($_))] } read_lines('grid.txt');
 my %is_a_word = map { lc($_) => 1        } read_lines('words.txt');

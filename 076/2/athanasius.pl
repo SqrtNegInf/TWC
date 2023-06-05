@@ -1,8 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-                                    # Exports:
-use strict;
-use warnings;
 use Const::Fast;                    # const()
 use FindBin        qw( $RealBin );
 use Getopt::Long;                   # GetOptions

@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use Modern::Perl;
 use Path::Tiny;
 
 my($grid_file, $words_file) = ('grid.txt', 'words.txt');

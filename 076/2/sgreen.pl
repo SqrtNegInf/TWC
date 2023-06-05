@@ -1,9 +1,7 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use strict;
-use warnings;
 use List::Util qw(uniq);
-use 5.10.1;
 
 sub _read_grid_file {
     my $grid_file = shift;

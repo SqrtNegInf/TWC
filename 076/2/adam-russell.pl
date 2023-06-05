@@ -1,9 +1,6 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-##
-# Word Search
-##
+use v5.36;
+
 my @word_grid = (
     ["B","I","D","E","M","I","A","T","S","U","C","C","O","R","S","T"],
 	["L","D","E","G","G","I","W","Q","H","O","D","E","E","H","D","P"],

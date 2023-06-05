@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-# Test: ./ch-2.pl
-use Modern::Perl;
-#use Data::Dumper;
+use v5.36;
 
 my $matrix = letters_to_matrix('grid.txt');
 my $words  = dictionary_to_hash('words.txt');

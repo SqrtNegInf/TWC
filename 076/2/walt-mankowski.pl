@@ -1,9 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use feature qw(:5.32);
-use experimental qw(signatures);
-use autodie;
+use v5.36;
 
 my $MIN_LEN = 5;
 my ($grid_name, $dict_name) = ('grid.txt', 'words.txt');

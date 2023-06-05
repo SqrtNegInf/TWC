@@ -1,25 +1,5 @@
 #!/usr/bin/env perl
-# vim:set ts=4 sw=4 sts=4 et ai wm=0 nu:
-#=============================================================================
-# ch-2.pl
-#=============================================================================
-# Copyright (c) 2020, Bob Lied
-#=============================================================================
-# Perl Weekly Challenge 076 Task #2 > Word Search
-# Write a script that takes two file names.  The first file would contain word
-# search grid as shown below.  The second file contains list of words, one
-# word per line.  You could even use local dictionary file.
-#
-# Print out a list of all words seen on the grid, looking both orthogonally
-# and diagonally, backwards as well as forwards.
-#=============================================================================
-
-use strict;
-use warnings;
-use v5.30;
-
-use feature qw/ signatures /;
-no warnings qw/ experimental::signatures /;
+use v5.36;
 
 use Getopt::Long;
 
