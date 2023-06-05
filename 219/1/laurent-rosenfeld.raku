@@ -1,4 +1,5 @@
 #!/usr/bin/env raku
+
 sub sorted-squares (@in) {
     return sort map {$_²}, @in;
 }
