@@ -1,13 +1,8 @@
 #!/usr/bin/env perl
-#Tries to solve https://perlweeklychallenge.org/blog/perl-weekly-challenge-075/ as perl coding practice.
+use v5.36;
 
-use strict;
-use warnings;
-use feature qw(say);
-use utf8;
 use Getopt::Long;
 use List::Util qw(sum first max min);
-#use Data::Dumper;
 
 my $target;
 my @coins;

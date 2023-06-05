@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-use warnings;
-use strict;
+use v5.36;
 
 # Visible impact for tests #2 and #3.
 use Memoize;

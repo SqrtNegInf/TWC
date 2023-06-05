@@ -1,7 +1,6 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use feature 'say';
+use v5.36;
+
 use Algorithm::Combinatorics 'combinations_with_repetition';
 use List::Util 'sum';
 

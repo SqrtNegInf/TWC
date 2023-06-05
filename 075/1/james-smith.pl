@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use feature qw(say);
+use v5.36;
 
 my %mem; ## Used to cache results of CSM to speed things up for large cases...
 

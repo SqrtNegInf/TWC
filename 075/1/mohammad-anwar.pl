@@ -1,15 +1,5 @@
 #!/usr/bin/env perl
-
-#
-# Perl Weekly Challenge - 075
-#
-# Task #1: Coins Sum
-#
-# https://perlweeklychallenge.org/blog/perl-weekly-challenge-075
-#
-
-use strict;
-use warnings;
+use v5.36;
 
 my $DEBUG = 0;
 my $COINS = $ARGV[0] || "1, 2, 4";

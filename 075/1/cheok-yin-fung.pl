@@ -1,15 +1,5 @@
 #!/usr/bin/env perl
-# Perl Weekly Challenge #075 Task 1 Coins Sum
-# task statement: 
-# You are given a set of coins @C, assuming you have 
-# infinite amount of each coin in the set.
-# Write a script to find how many ways you make 
-# sum $S using the coins from the set @C.
-# Usage: ch-1a.pl $S @C
-use strict;
-use warnings;
-#use Data::Dumper;
-#use Test::More tests => 4;
+use v5.36;
 
 my $S;
 my @C;

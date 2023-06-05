@@ -1,7 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use strict;
-use warnings;
 use List::Util qw(sum);
 
 use Test::More tests => 1;

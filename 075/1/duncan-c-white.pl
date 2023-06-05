@@ -1,38 +1,5 @@
 #!/usr/bin/env perl
-#
-# Task 1: "Coins Sum
-#
-# You are given a set of coins @C, assuming you have infinite amount of each coin in the set.
-# 
-# Write a script to find how many ways you make sum $S using the coins from the set @C.
-#
-# Example:
-# 
-# Input:
-#     @C = (1, 2, 4)
-#     $S = 6
-# 
-# Output: 6
-# There are 6 possible ways to make sum 6.
-# a) (1, 1, 1, 1, 1, 1)
-# b) (1, 1, 1, 1, 2)
-# c) (1, 1, 2, 2)
-# d) (1, 1, 4)
-# e) (2, 2, 2)
-# f) (2, 4)
-# "
-# 
-# My notes: ok.  Reasonably easy: bag of coins shows what coins we've used,
-# at every stage explore 2 paths: 1). add another instance of each possible coin,
-# 2). don't add another instance..
-#
-#
-
-use strict;
-use warnings;
-use feature 'say';
-use Function::Parameters;
-#use Data::Dumper;
+use v5.36;
 
 my $s = 6; my @list = <1 2 4>;
 
@@ -42,7 +9,7 @@ my $s = 6; my @list = <1 2 4>;
 #	is the bag of all coins used so far.  Returns @ways, an array of
 #	each complete %$used bag.
 #
-fun findall( $s, $coins, $used )
+sub findall( $s, $coins, $used )
 {
 	my @result;
 	foreach my $c (@$coins)
@@ -72,7 +39,7 @@ fun findall( $s, $coins, $used )
 # my $csv = h2c( %h );
 #	Turn a bag %h into a CSV string of (c1) x n1, (c2) x n2..
 #
-fun h2c( %h )
+sub h2c( %h )
 {
 	my @result;
 	foreach my $c (sort keys %h)

@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
+use v5.36;
 
 use AI::Prolog;
 use Hash::MultiKey;
@@ -17,7 +16,7 @@ MAIN:{
     }; 
     $prolog =~ s/_COINS_/$C/g;
     $prolog =~ s/_SUM_/$S/g;
-    $prolog = new AI::Prolog($prolog); 
+    $prolog = AI::Prolog->new($prolog); 
     $prolog->query("sum(Coins).");
     my %h;
     tie %h, "Hash::MultiKey";

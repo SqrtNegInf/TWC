@@ -1,9 +1,5 @@
 #!/usr/bin/env perl
-# -*- Mode: cperl; cperl-indent-level:4 tab-width: 8; indent-tabs-mode: nil -*-
-# -*- coding: utf-8 -*-
-
-use strict; use warnings;
-use feature qw(say);
+use v5.36;
 
 # solution
 sub combiCoinSum {

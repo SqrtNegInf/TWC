@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use feature "say";
+use v5.36;
 
 my $target_sum = 6; my @coins = <1 2 4>;
 my $prev = 0;

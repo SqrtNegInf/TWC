@@ -1,23 +1,13 @@
 #!/usr/bin/env perl
-
-# Perl Weekly Challenge - 075
-# - https://perlweeklychallenge.org/blog/perl-weekly-challenge-075/
-#
-# Task 1 - Coins Sum
-#
-# Author: Niels 'PerlBoy' van Dijke
-
-
-use strict;
-use warnings;
+use v5.36;
 
 use List::Util qw(sum max);
 use List::MoreUtils qw(uniq);
 
 
 # Prototypes
-sub getCSsolutions($$\@$\@);
-sub printCSsolutions($\@$);
+sub getCSsolutions :prototype($$\@$\@);
+sub printCSsolutions :prototype($\@$);
 
 
 @ARGV = qw(6 1 2 4)
@@ -43,7 +33,7 @@ getCSsolutions($csSolutions, $SUM, @COINS, $leftover, @dummy);
 printCSsolutions($SUM, @COINS, $csSolutions);
 
 
-sub getCSsolutions($$\@$\@) {
+sub getCSsolutions :prototype($$\@$\@) {
   my ($hrCS, $sum, $arCoins, $leftover, $arWorkingCoins) = @_;
 
   my @coins = @{$arCoins};
@@ -72,7 +62,7 @@ sub getCSsolutions($$\@$\@) {
 }
 
 
-sub printCSsolutions($\@$) {
+sub printCSsolutions :prototype($\@$) {
   my ($sum, $arCoins, $hrCS) = @_;
 
   printf "Input:\n";

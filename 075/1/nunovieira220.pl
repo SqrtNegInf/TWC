@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
+use v5.36;
 
 # Get coin sum
 sub get_coin_sum {

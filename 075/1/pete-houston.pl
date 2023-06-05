@@ -1,21 +1,6 @@
 #!/usr/bin/env perl
-#===============================================================================
-#
-#         FILE: 7501.pl
-#
-#        USAGE: ./7501.pl TARGET COIN [ ... ] 
-#
-#  DESCRIPTION: Report how many ways to make a total from a coin set
-#
-# REQUIREMENTS: Algorithm::Knapsack, Lingua::EN::Inflexion
-#       AUTHOR: Pete Houston (pete), cpan@openstrike.co.uk
-# ORGANIZATION: Openstrike
-#      VERSION: 1.0
-#      CREATED: 24/08/20
-#===============================================================================
+use v5.36;
 
-use strict;
-use warnings;
 use Algorithm::Knapsack;
 use Lingua::EN::Inflexion;
 

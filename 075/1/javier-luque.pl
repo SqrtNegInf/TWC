@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
-# Test: ./ch-1.pl
-use Modern::Perl;
+use v5.36;
+
 use List::Util qw /sum0/;
 use Algorithm::Combinatorics qw(combinations_with_repetition);
 
