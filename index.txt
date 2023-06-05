@@ -459,8 +459,8 @@ Challenge titles and Rosetta-code correspondences (exact, and otherwise)
 219-1 Sorted Squares
 219-2 Travel Expenditure
 
-220-1
-220-2
+220-1 Common Characters
+220-2 Squareful
 221-1
 221-2
 222-1
