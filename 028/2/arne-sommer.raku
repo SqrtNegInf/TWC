@@ -2,7 +2,7 @@
 
 die 'not ok - disabled: not testable';
 
-use Readline;
+use Readline; # DH 'Code-health' gripes if not installed
 
 my %a;
 
@@ -139,7 +139,7 @@ for 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, ":" -> $id
 
 for 1..3
 {
-  #shell 'clear';
+  shell 'clear';
   
   my @chars = DateTime.now.hh-mm-ss.comb;
 
