@@ -1,0 +1,64 @@
+ 
+===> 219/2/e-choroba.pl <===
+1..8
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Cheapest 30
+ok 4 - Cheapest 30 twice
+ok 5 - Cheapest 7
+ok 6 - Cheapest 7
+ok 7 - 1+30
+ok 8 - Large
+ 
+===> 219/2/jeanluc2020.pl <===
+Input: @costs = (2, 7, 25)
+       @days  = (1, 5, 6, 7, 9, 15)
+Output: 11
+Input: @costs = (2, 7, 25)
+       @days  = (1, 2, 3, 5, 7, 10, 11, 12, 14, 20, 30, 31)
+Output: 20
+ 
+===> 219/2/lubos-kolouch.pl <===
+11
+20
+ 
+===> 219/2/peter-campbell-smith.pl <===
+
+Input:  @costs   = (2, 7, 25)
+        @periods = (1, 7, 30)
+        @days    = (1, 5, 6, 7, 9, 15)
+Output: 11 = 7 day ticket on day 1, 1 day ticket on day 9, 1 day ticket on day 15
+
+Input:  @costs   = (2, 7, 25)
+        @periods = (1, 7, 30)
+        @days    = (1, 2, 3, 5, 7, 10, 11, 12, 14, 20, 30, 31)
+Output: 20 = 7 day ticket on day 1, 7 day ticket on day 10, 1 day ticket on day 20, 1 day ticket on day 30, 1 day ticket on day 31
+
+Input:  @costs   = (2, 7, 13)
+        @periods = (1, 7, 14)
+        @days    = (1, 2, 3, 5, 7, 10, 11, 12, 14, 20, 30, 31)
+Output: 19 = 14 day ticket on day 1, 1 day ticket on day 20, 1 day ticket on day 30, 1 day ticket on day 31
+
+Input:  @costs   = (2, 7, 13)
+        @periods = (1, 7, 14)
+        @days    = (1, 4, 6, 7, 10, 11, 13, 14, 16, 18, 20, 22, 23, 26, 29, 32, 34, 35, 37, 39, 43, 49, 52, 55, 58, 60, 65, 66, 67, 72, 77, 79, 81, 83, 85, 90, 91, 94, 96, 100)
+Output: 71 = 7 day ticket on day 1, 14 day ticket on day 10, 14 day ticket on day 26, 1 day ticket on day 43, 1 day ticket on day 49, 1 day ticket on day 52, 1 day ticket on day 55, 1 day ticket on day 58, 1 day ticket on day 60, 1 day ticket on day 65, 1 day ticket on day 66, 1 day ticket on day 67, 1 day ticket on day 72, 7 day ticket on day 77, 1 day ticket on day 85, 7 day ticket on day 90, 1 day ticket on day 100
+ 
+===> 219/2/polettix.pl <===
+0
+ 
+===> 219/2/roger-bell-west.pl <===
+1..2
+ok 1 - example 1
+ok 2 - example 2
+ 
+===> 219/2/sgreen.pl <===
+0
+ 
+===> 219/2/wlmb.pl <===
+Costs: 1 5 6, Days: 7 9 15, Expenditure: 3
+ 
+===> 219/2/zapwai.pl <===
+Input:  @costs = (2,7,25)
+	@days = (1,2,3,5,7,10,11,12,14,20,30,31)
+Output: $20 using 3 days, 2 weeks, and 0 months.
