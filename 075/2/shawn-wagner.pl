@@ -1,9 +1,8 @@
 #!/usr/bin/env perl
-use warnings;
-use strict;
+use v5.36;
+
 use utf8;
 use open qw/:std encoding(UTF-8)/;
-use feature qw/say/;
 use List::Util qw/max/;
 
 # Fancy unicode histogram printer

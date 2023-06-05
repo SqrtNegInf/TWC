@@ -1,9 +1,7 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use strict;
-use warnings;
 use List::Util qw(min max);
-use 5.10.1;
 
 sub _format_val {
     # Return something like "row 1" or "rows 1 - 3"

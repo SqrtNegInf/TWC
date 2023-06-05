@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use feature qw(say);
+use v5.36;
 
 say q();
 say lrh(qw(2 1 4 5 3 7));

@@ -1,4 +1,5 @@
 #!/usr/bin/env perl
+use v5.36;
 
 
 # A tailor-made class for this task.
@@ -94,7 +95,7 @@ sub hist_chars {
 # Generate a format string. Produces $size + 1 items of equal
 # length $len that are separated by one blank. The first item has
 # conversion $first, the rest have conversion $rest.
-sub gen_fmt ($$$$) {
+sub gen_fmt :prototype($$$$) {
 	my ($len, $first, $rest, $size) = @_;
 
 	"%${len}${first}" . " %${len}${rest}" x $size . "\n";

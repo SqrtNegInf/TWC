@@ -1,19 +1,15 @@
 #!/usr/bin/env perl
-# -*- Mode: cperl; cperl-indent-level:4 tab-width: 8; indent-tabs-mode: nil -*-
-# -*- coding: utf-8 -*-
 
+use v5.14; # say, switch
 use utf8;
 use strict; use warnings;
 no warnings "experimental::smartmatch";
-use v5.14; # say, switch
 
 use Getopt::Long qw(:config gnu_compat);
 use Pod::Usage;
 use Term::ANSIColor;
 use List::Util qw(min max);
 
-#use FindBin;
-#use lib ( $FindBin::Bin );
 use lib '.';
 use CombinationsIndex qw(combinationsIndex);
 

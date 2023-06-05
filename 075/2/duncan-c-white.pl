@@ -1,10 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use strict;
-use warnings;
-use feature 'say';
-use Function::Parameters;
-#use Data::Dumper;
 use List::Util qw(max);
 
 #die "Usage: largest-histogram-rect values\n" if @ARGV==0;
@@ -15,7 +11,7 @@ use List::Util qw(max);
 #	Find all rectangle areas of height $h in @value. Returns an array of
 #	one or more numbers (each area).
 #
-fun rectangleareasofheight( $h, @value )
+sub rectangleareasofheight( $h, @value )
 {
 	# want to locate runs of adjacent values >= $h, each such run has
 	# a width, that w * h is the area.  use a 2-state state machine:
@@ -58,7 +54,7 @@ fun rectangleareasofheight( $h, @value )
 #	Find all rectangle areas of @value.  Works by checking each height
 #	separately.
 #
-fun allrectangleareas( @value )
+sub allrectangleareas( @value )
 {
 	my @result;
 	my $maxv = max @value;

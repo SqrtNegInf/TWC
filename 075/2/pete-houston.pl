@@ -1,22 +1,6 @@
 #!/usr/bin/env perl
-#===============================================================================
-#
-#         FILE: 7502.pl
-#
-#        USAGE: ./7502.pl N ...
-#
-#  DESCRIPTION: Report the area of the biggest rectangle in the historgram.
-#
-# REQUIREMENTS: List::Util, List::MoreUtils
-#        NOTES: Each N must be a natural number.
-#       AUTHOR: Pete Houston (pete), cpan@openstrike.co.uk
-# ORGANIZATION: Openstrike
-#      VERSION: 1.0
-#      CREATED: 24/08/20
-#===============================================================================
+use v5.36;
 
-use strict;
-use warnings;
 use List::Util 'max';
 use List::MoreUtils 'uniq';
 

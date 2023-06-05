@@ -1,17 +1,8 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-use feature qw(signatures say);
-no warnings qw(experimental::signatures);
+use v5.36;
 
 use Scalar::Util qw(looks_like_number);
 use List::Util qw(any min max);
-
-# You are given an array of positive numbers @A.
-#
-# Write a script to find the larget rectangle histogram created by the given array.
-# BONUS: Try to print the histogram as shown in the example, if possible.
 
 my ( @A ) = @ARGV;
 

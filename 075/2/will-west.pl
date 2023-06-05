@@ -1,22 +1,7 @@
 #!/usr/bin/env perl
-use 5.28.1;
-use warnings;
+use v5.36;
+
 use List::Util 'max';
-#use Data::Dumper;
-
-
-
-#TASK #2 › Largest Rectangle Histogram
-#Submitted by: Mohammad S Anwar
-#
-#You are given an array of positive numbers @A.
-#
-#Write a script to find the largest rectangle histogram created by the given array.
-
-
-#my solution takes advantage of the fact that a chart like what we're working with never has vertical gaps. So, we just need to find contiguous horizontal lines and square them with the distance from the chart's base.
-
-#I promise to try to do proper testing for the next one!
 
 
 my @chart = getchart();

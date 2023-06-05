@@ -1,12 +1,7 @@
 #!/usr/bin/env perl
-
-use warnings;
-use strict;
-use feature ":5.26";
+use v5.36;
 
 use List::Util qw( min sample );
-
-## ## ## ## ## MAIN:
 
 my @A = <2 1 4 5 3 7>; #sample 12, (1..24);
 my @windows;
@@ -35,6 +30,3 @@ rectangle found at:
     area        $rect->[0]
 __EOD__
 }
-
-
-

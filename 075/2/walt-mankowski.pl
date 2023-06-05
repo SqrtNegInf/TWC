@@ -1,8 +1,6 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use feature qw(:5.32);
-use experimental qw(signatures);
+use v5.36;
+
 use List::Util qw(max sum);
 
 my @a = <2 1 4 5 3 7>;

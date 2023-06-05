@@ -1,15 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-#
-# Perl Weekly Challenge - 075
-#
-# Task #2: Largest Rectangle Histogram
-#
-# https://perlweeklychallenge.org/blog/perl-weekly-challenge-075
-#
-
-use strict;
-use warnings;
 use List::Util qw(min max);
 
 my $L = $ARGV[0] || "2, 1, 4, 5, 3, 7";

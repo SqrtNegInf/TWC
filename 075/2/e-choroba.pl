@@ -1,9 +1,7 @@
 #!/usr/bin/env perl
-use warnings;
-use strict;
-use feature qw{ say };
-use Syntax::Construct qw{ // };
+use v5.36;
 
+use Syntax::Construct qw{ // };
 use List::Util qw{ max };
 
 sub draw_histogram {

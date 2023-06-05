@@ -1,7 +1,6 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use feature 'say';
+use v5.36;
+
 use List::Util 'max';
 
 my @R =  (2, 1, 4, 5, 3, 7);

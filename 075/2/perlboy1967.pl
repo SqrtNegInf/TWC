@@ -1,24 +1,11 @@
 #!/usr/bin/env perl
-
-# Perl Weekly Challenge - 075
-# - https://perlweeklychallenge.org/blog/perl-weekly-challenge-075/
-#
-# Task 2 - Largest Rectangle Histogram
-#
-# Author: Niels 'PerlBoy' van Dijke
-
-# Try:
-#  1) Without command line arguments
-#  2) With arguments: 1 2 3 4
-
-use strict;
-use warnings;
+use v5.36;
 
 use List::Util qw(max);
 use List::MoreUtils qw(uniq);
 
-sub getLRH(\@); 
-sub printHistogram (\@$$\@);
+sub getLRH :prototype(\@); 
+sub printHistogram :prototype(\@$$\@);
 
 
 my @A = @ARGV;
@@ -32,7 +19,7 @@ my ($surface, $surfaceHeight, @indexes) = getLRH(@A);
 printHistogram(@A, $surface, $surfaceHeight, @indexes);
 
 
-sub getLRH (\@) {
+sub getLRH :prototype(\@) {
   my ($arA) = @_;
 
   my %areas;
@@ -83,7 +70,7 @@ sub getLRH (\@) {
 }
 
 
-sub printHistogram (\@$$\@) {
+sub printHistogram :prototype(\@$$\@) {
   my ($arA, $surface, $surfaceHeight, $arIndexes) = @_;
 
   if (defined $surfaceHeight) {

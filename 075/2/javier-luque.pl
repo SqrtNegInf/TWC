@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
-# Test: ./ch-2.pl
-use Modern::Perl;
+use v5.36;
+
 use List::Util qw /max/;
 
 histogram(2, 1, 4, 5, 3, 7);

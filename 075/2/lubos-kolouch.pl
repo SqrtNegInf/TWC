@@ -1,10 +1,7 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use List::Util qw/max/;
-use feature qw/say/;
-# Perl Weekly challenge 075 Task 2 - Largest histogram 
+use v5.36;
 
+use List::Util qw/max/;
 
 sub printHistogram {
     my $histogram = shift;
