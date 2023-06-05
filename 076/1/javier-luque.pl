@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
-# Test: ./ch-1.pl
-use Modern::Perl;
+use v5.36;
+
 use Math::Prime::Util qw /factor is_prime/;
 
 my $N = shift // 51;

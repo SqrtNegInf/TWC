@@ -1,17 +1,5 @@
 #!/usr/bin/env perl
-# Perl Weekly Challenge #076 Task 1 Prime Sum
-# task statement:
-# You are given a number $N. Write a script 
-# to find the minimum number of prime numbers 
-# required, whose summation gives you $N.
-# Usage: ch-1.pl $N
-
-# Given the Goldbach's conjecture is verified 
-# for n < 4 000 000 000 000 000 000 
-# ( source: mathworld.wolfram.com )
-
-use strict;
-use warnings;
+use v5.36;
 
 sub is_prime {
     my $ans = 1; 

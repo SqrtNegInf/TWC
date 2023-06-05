@@ -1,9 +1,7 @@
 #!/usr/bin/env perl
-use strict;
-use warnings FATAL => qw(all);
+use v5.36;
 
 use ntheory qw(primes);
-
 
 my %primes;
 my $sorted_primes = primes(1000);

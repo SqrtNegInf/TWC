@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-use 5.10.1;
+use v5.36;
 
 sub _is_prime {
     my $value = shift;

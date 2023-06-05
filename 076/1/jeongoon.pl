@@ -1,10 +1,7 @@
 #!/usr/bin/env perl
-# -*- Mode: cperl; cperl-indent-level:4 tab-width: 8; indent-tabs-mode: nil -*-
-# -*- coding: utf-8 -*-
+use v5.36;
 
-use strict; use warnings;
 use List::Util qw(min);
-use v5.26;
 
 # solution
 sub combiPrimeSum { # dejavu !
@@ -28,7 +25,7 @@ sub combiPrimeSum { # dejavu !
     @result;
 }
 
-sub pnumbers ($) { # a poor brute forced prime number generator
+sub pnumbers { # a poor brute forced prime number generator
     my @p = (3);
     my $limit = shift;
     my $candi = 3;

@@ -1,13 +1,8 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-use feature 'say';
+use v5.36;
 
 my $input = 51;
 chomp $input;
-
-die "Invalid input, enter numbers greater than 1.\n" if $input <= 1;
 
 say $input and exit 0 if is_prime($input) == 1;
 

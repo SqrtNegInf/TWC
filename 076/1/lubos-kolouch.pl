@@ -1,19 +1,6 @@
 #!/usr/bin/env perl
-#===============================================================================
-#
-#         FILE: ch-1.pl
-#
-#        USAGE: ./ch-1.pl  
-#
-#  DESCRIPTION: https://perlweeklychallenge.org/blog/perl-weekly-challenge-076/
-#
-#              Task 1 - Prime Sum
-#
-#       AUTHOR: Lubos Kolouch
-#===============================================================================
+use v5.36;
 
-use strict;
-use warnings;
 use Math::Prime::Util qw/is_prime/;
 
 sub get_nr_primes {

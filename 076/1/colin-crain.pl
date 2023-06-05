@@ -1,4 +1,5 @@
 #!/usr/bin/env perl
+use v5.36;
 #
 #       goldbach_variations.pl
 #
@@ -36,13 +37,6 @@
 ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ##
 
 
-
-use warnings;
-use strict;
-use feature ":5.26";
-use DDP;
-
-## ## ## ## ## MAIN:
 
 my $num = shift @ARGV // 57;
 my ($primes, $lookup, $result);

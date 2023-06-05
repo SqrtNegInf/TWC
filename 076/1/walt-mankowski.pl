@@ -1,27 +1,8 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use feature qw(:5.32);
-use experimental qw(signatures);
+use v5.36;
+
 use List::Util qw(sum);
 use Algorithm::Combinatorics qw(combinations_with_repetition);
-
-# TASK #1 › Prime Sum
-# Submitted by: Mohammad S Anwar
-# Reviewed by: Ryan Thompson
-#
-# You are given a number $N. Write a script to find the minimum number
-# of prime numbers required, whose summation gives you $N.
-#
-# For the sake of this task, please assume 1 is not a prime number.
-# Example:
-#
-# Input:
-#     $N = 9
-#
-# Ouput:
-#     2 as sum of 2 prime numbers i.e. 2 and 7 is same as the input number.
-#     2 + 7 = 9.
 
 # compute primes up to $n using the Sieve of Eratosthenes
 sub primes_upto($n) {

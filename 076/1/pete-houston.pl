@@ -1,29 +1,5 @@
 #!/usr/bin/env perl
-#===============================================================================
-#
-#         FILE: 7601.pl
-#
-#        USAGE: ./7601.pl N
-#
-#  DESCRIPTION: Find the sum of fewest primes to equal the target N
-#
-# REQUIREMENTS: Math::Prime::Util, Lingua::EN::Inflexion, Math::Combinatorics,
-#               List::Util
-#        NOTES: N must be an integer greater than 1.
-#               1 is not considered prime.
-#
-#               This is as fast as I could make it for fairly large N.
-#               Completes in < 1 sec for N < 10^6 without requiring
-#               crazy amounts of RAM.
-#
-#       AUTHOR: Pete Houston (pete), cpan@openstrike.co.uk
-# ORGANIZATION: Openstrike
-#      VERSION: 1.0
-#      CREATED: 03/09/20
-#===============================================================================
-
-use strict;
-use warnings;
+use v5.36;
 
 use Math::Prime::Util 'primes';
 use Lingua::EN::Inflexion;

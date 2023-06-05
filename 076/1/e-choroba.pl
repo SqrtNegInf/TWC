@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-use warnings;
-use strict;
-use feature qw{ say };
+use v5.36;
 
 my %prime = (1 => 0, 2 => 1, 3 => 1);
 sub is_prime {

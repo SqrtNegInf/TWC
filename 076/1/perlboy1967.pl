@@ -1,14 +1,5 @@
 #!/usr/bin/env perl
-
-# Perl Weekly Challenge - 076
-# - https://perlweeklychallenge.org/blog/perl-weekly-challenge-076/
-#
-# Task 1 - Prime Sum
-#
-# Author: Niels 'PerlBoy' van Dijke
-
-use strict;
-use warnings;
+use v5.36;
 
 # Unbuffered STDOUT
 $|++;

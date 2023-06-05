@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use feature qw(signatures say state);
-no warnings qw(experimental::signatures);
+use v5.36;
 
 use Scalar::Util qw(looks_like_number);
 use List::Util qw(any first);
