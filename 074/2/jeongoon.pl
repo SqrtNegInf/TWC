@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-# -*- Mode: cperl; cperl-indent-level:4 tab-width: 8; indent-tabs-mode: nil -*-
-# -*- coding: utf-8 -*-
-
-use strict; use warnings;
+use v5.36;
 
 sub unique {
     scalar @_ or return ();
@@ -28,8 +25,7 @@ sub printLNR {
     print $/;
 }
 
-# posted on 20th of Aug
-sub printLNR_by_split ($) {
+sub printLNR_by_split {
     my $str = shift;
 
     for my $last_idx ( 1 .. length $str ) {
@@ -59,3 +55,6 @@ my $sample = $ARGV[0] ||'xyzzyx';
 print "Input:  $sample\n";
 print "Output: ";
 printFNR( $sample );
+printLNR_by_split( $sample );
+printFNR( 'ababc' );
+printLNR_by_split( 'ababc' );

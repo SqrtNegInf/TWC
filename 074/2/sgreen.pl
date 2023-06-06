@@ -1,10 +1,7 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use strict;
-use warnings;
-use 5.10.1;
-
-sub main (@) {
+sub main {
     # Get the string, and separate it by letter
     my $string  = shift;
     my @letters = split //, $string;

@@ -1,9 +1,6 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use feature qw/say/;
+use v5.36;
 
-# Note: IMHO, FNR is ill-defined. I'll use my own rules.
 my $S = 'ababcbad';
 my @chars = split //, $S;
 my $result = "";

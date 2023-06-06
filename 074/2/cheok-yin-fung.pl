@@ -1,15 +1,6 @@
 #!/usr/bin/env perl
-# Perl Weekly Challenge #074 Task 2 FNR character
-# task statement:
-# You are given a string $S.
-# Write a script to print the series of
-#  first non-repeating character 
-# (left -> right) for the given string. 
-#  Print # if none found.
-# Usage: ch-2.pl [string]
+use v5.36;
 
-use strict;
-use warnings;
 use Test::More tests => 5;
 
 sub fnr {

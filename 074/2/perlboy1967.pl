@@ -1,16 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-# Perl Weekly Challenge - 074
-# - https://perlweeklychallenge.org/blog/perl-weekly-challenge-074/
-#
-# Task 2 - FNR Character 
-#
-# Author: Niels 'PerlBoy' van Dijke
-
-use strict;
-use warnings;
-
-use Data::Dumper;
 use Tie::IxHash;
 
 my @test = qw(ababc xyzzyx abcabdeabefaf);

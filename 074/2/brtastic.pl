@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
-use v5.30;
-use warnings;
+use v5.36;
+
 use List::Util qw(first);
 
 # the solution is based on my own module Quantum::Superpositions::Lazy from CPAN

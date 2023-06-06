@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
-# Test: ./ch-2.pl
-use Modern::Perl;
+use v5.36;
+
 use Test::More;
 
 is fnr('ababc'),  'abb#c', 'ababc';

@@ -1,10 +1,7 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use strict;
-use warnings;
 use List::MoreUtils qw/firstidx/;
-use feature qw/say/;
-use Data::Dumper;
 
 sub get_fnr {
     my $input = shift;

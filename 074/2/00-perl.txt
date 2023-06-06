@@ -31,9 +31,6 @@ Input:   xyzzyx
 Output:  xyzyx#
 
  
-===> 074/2/duncan-c-white.pl <===
-fnr: abb#cccd
- 
 ===> 074/2/e-choroba.pl <===
 1..2
 ok 1 - example 1
@@ -50,6 +47,9 @@ ok 2 - xyzzyx
 ===> 074/2/jeongoon.pl <===
 Input:  xyzzyx
 Output: xyzyx#
+xyzyx#
+abb#c
+abb#c
  
 ===> 074/2/jo-37.pl <===
 # Seeded srand with seed '1' from import arg.

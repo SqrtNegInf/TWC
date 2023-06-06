@@ -1,19 +1,7 @@
 #!/usr/bin/env perl
-use 5.020;
-use warnings;
+use v5.36;
+
 use English qw/ -no_match_vars /;
-
-sub usage {
-
-    print<<"-USAGE-";
-Usage:
-  $PROGRAM_NAME <S>
-
-    <S>    a string
--USAGE-
-
-    exit 0;
-}
 
 my $S = shift // 'ababcabd';
 

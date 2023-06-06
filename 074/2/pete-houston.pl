@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-use 5.010;
+use v5.36;
 
 sub fnr {
 	# Given a string, return a string of last non-repeating chars for

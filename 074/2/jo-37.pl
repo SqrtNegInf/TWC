@@ -1,28 +1,10 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use v5.16;
 use Test2::V0 -srand => 1;
 use warnings FATAL => 'all';
 
 use List::Util qw(first);
-
-# The description of the task and the given examples are - to my
-# understanding - not consistent.
-# 
-# "Write a script to print the series of first non-repeating character
-# (left -> right) for the given string."
-#
-# Input: $S = 'ababc'
-# Output: 'abb#c'
-# Pass 1: "a", the FNR character is 'a'
-# Pass 2: "ab", the FNR character is 'b'
-#
-# The characters chosen in the examples are apparently the "first
-# non-repeating character (right -> left). I'd rather call this
-# the "last non-repeating" character (LNR).
-#
-# Maybe this little ambiguity is intentional.  At least it adds a nice
-# new aspect.  So this sub provides both variants.
 
 sub nr_char {
 	my @arr = split //, shift;
