@@ -1,12 +1,10 @@
  
 ===> 104/2/luca-ferrari.raku <===
-Player1 picks 3, remaining 9
-Player2 picks 2, remaining 7
-Player1 picks 1, remaining 6
-Player2 picks 2, remaining 4
-Player1 picks 1, remaining 3
-Player2 picks 1, remaining 2
-Player1 picks 1, remaining 1
+Player1 picks 2, remaining 10
+Player2 picks 3, remaining 7
+Player1 picks 2, remaining 5
+Player2 picks 2, remaining 3
+Player1 picks 2, remaining 1
 Player2 picks 1, remaining 0
 Player Player2 won!
  

@@ -1,42 +1,42 @@
  
 ===> 052/2/colin-crain.raku <===
 draw:
-20, 1, 100, 50, 2, 200, 10, 5
-
-player 0 takes:   20 
-
-	 player total:   20 
-
-player 1 takes:   5 
-
-	 player total:   5 
-
-player 0 takes:   1 
-
-	 player total:   21 
-
-player 1 takes:   100 
-
-	 player total:   105 
-
-player 0 takes:   50 
-
-	 player total:   71 
-
-player 1 takes:   10 
-
-	 player total:   115 
+2, 1, 100, 20, 50, 5, 10, 200
 
 player 0 takes:   200 
 
-	 player total:   271 
+	 player total:   200 
 
-player 1 takes:   2 
+player 1 takes:   10 
 
-	 player total:   117 
+	 player total:   10 
 
-player 0 : 271
-player 1 : 117
+player 0 takes:   5 
+
+	 player total:   205 
+
+player 1 takes:   50 
+
+	 player total:   60 
+
+player 0 takes:   2 
+
+	 player total:   207 
+
+player 1 takes:   20 
+
+	 player total:   80 
+
+player 0 takes:   100 
+
+	 player total:   307 
+
+player 1 takes:   1 
+
+	 player total:   81 
+
+player 0 : 307
+player 1 : 81
  
 ===> 052/2/jaldhar-h-vyas.raku <===
 Assuming both take the best coin...

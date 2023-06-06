@@ -4,9 +4,9 @@
 20
  
 ===> 034/2/jaldhar-h-vyas.raku <===
-A chose Paper.
-B chose Rock.
-Paper covers Rock.  
+A chose Rock.
+B chose Scissors.
+Rock smashes Scissors.  
 A wins.
  
 ===> 034/2/javier-luque.raku <===

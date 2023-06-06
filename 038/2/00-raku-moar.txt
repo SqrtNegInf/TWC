@@ -154,7 +154,7 @@ PLEA   : 8
 Winner: KEMP for 20
  
 ===> 038/2/jaldhar-h-vyas.raku <===
-ZCBWQTV = Q (10)
+XAQBMBW = BAM (10)
  
 ===> 038/2/javier-luque.raku <===
 Picked tiles: P A L K M E N
@@ -183,10 +183,10 @@ AEKLMNP
  
 ===> 038/2/ruben-westerberg.raku <===
 Contenders (word: score):
-BEGET: 14
+WHEY: 12
  
 ===> 038/2/ryan-thompson.raku <===
-[H P F N R J D] Best word: H, Score: 5
+[N P A S B J W] Best word: SPAWN, Score: 12
  
 ===> 038/2/simon-proctor.raku <===
  
