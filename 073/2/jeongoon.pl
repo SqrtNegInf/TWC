@@ -1,14 +1,12 @@
 #!/usr/bin/env perl
-# -*- Mode: cperl; cperl-indent-level:4 tab-width: 8; indent-tabs-mode: nil -*-
-# -*- coding: utf-8 -*-
+use v5.36;
 
-use strict; use warnings;
 use boolean qw(:all);
 
-sub unsort ( @ ) { sort { (-1,1)[(rand 1)+0.46] } @_; }
+sub unsort       { sort { (-1,1)[(rand 1)+0.46] } @_; }
 sub map_ssprintf { map { sprintf "%#$_[0]d", $_ } @_[1..$#_]; }
 
-sub gen_smallest_( $$ ) {
+sub gen_smallest_ {
     my ( $s, $c ) = @_;         # (s)mallest (c)urrent
     # return true               if we couldn't find the smallest
     #                                   because we found new one
@@ -23,7 +21,7 @@ sub gen_smallest_( $$ ) {
     }
 }
 
-sub processSmallest ( @ ) {
+sub processSmallest {
     my $smallest = boolean( not 'given' );
     map {
         my $current_is_smallest_or_just = gen_smallest_ $smallest, $_;

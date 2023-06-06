@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use feature qw(:5.32);
-use experimental qw(signatures);
+use v5.36;
 
 my @A = (7, 8, 3, 12, 10);
 my @output = (0);

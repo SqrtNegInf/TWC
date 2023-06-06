@@ -1,7 +1,6 @@
 #!/usr/bin/env perl
-use warnings;
-use strict;
-use feature qw/say/;
+use v5.36;
+
 use DBI;
 
 # This is really just a thin layer of perl over SQLite to solve the

@@ -1,22 +1,5 @@
 #!/usr/bin/env perl
-# Perl Weekly Challenge #073 Task 2 Smallest Neighbour
-# task statement:
-#    You are given an array of integers @A.
-#    Write a script to create an array that 
-#    represents the smallest element to the 
-#    left of each corresponding index. 
-#    If none found then use 0.
-# Usage: ch-2.pl @A
-# for input: (2, 2, 2, 3, 2, 4), should it be (0, 0, 0, 2, 0, 2) or (0, 2, 2, 2, 2, 2)...?
-# I choose the former here.
-
-# Or, the task statement should be clarified as: 
-# ... smallest element to the left of ..., while that element is smaller than the indexed number
-# (verbose...)
-
-use strict;
-use warnings;
-#use Test::More tests => 6;
+use v5.36;
 
 my @A;
 

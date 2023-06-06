@@ -1,12 +1,5 @@
 #!/usr/bin/env perl
-
-
-
-use warnings;
-use strict;
-use feature ":5.26";
-
-## ## ## ## ## MAIN:
+use v5.36;
 
 my @input = @ARGV;
 @input = (7, 8, -3, 12, -10);
