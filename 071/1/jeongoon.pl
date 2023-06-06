@@ -1,8 +1,7 @@
 #!/usr/bin/env perl
-srand 1;;
+use v5.36;
+srand 1;
 
-use utf8;
-use strict; use warnings;
 use Getopt::Long qw(:config no_ignore_case gnu_compat);
 use Pod::Usage;
 use Term::ANSIColor;
@@ -21,8 +20,8 @@ BEGIN {
               ) or pod2usage(2);
 
     our $dbuff_ = '';
-    our $dprint = sub ( @ ) { ++$|;  print STDERR @_;  };
-    our $dpush  = sub ( @ ) {  $dbuff_ .= join "", @_; };
+    our $dprint = sub { ++$|;  print STDERR @_;  };
+    our $dpush  = sub {  $dbuff_ .= join "", @_; };
 
     if ( $::utf8 ) {
         binmode( STDERR, ':utf8' );
@@ -55,7 +54,7 @@ Write a script to create an array of size $N with random unique elements between
 
 =cut
 
-sub make_random_array_ ( @ ) { # note: this function does not validate parameters
+sub make_random_array_ { # note: this function does not validate parameters
     my %args = @_;
     my $narray = $args{'number-of-array'};
     my $members =$args{'elements'};
@@ -86,7 +85,7 @@ In the end it should print peak elements in the array, if found.
 
 =cut
 
-sub get_peak_from_array ( @ ) {
+sub get_peak_from_array {
     my $n     =  0;
     my $l     =  1;
     my $pasc  =  1 << 1; # previous ascend value

@@ -1,7 +1,6 @@
 #!/usr/bin/env perl
-srand 1;;
-use warnings;
-use strict;
+use v5.36;
+srand 1;
 
 use List::Util qw{ shuffle };
 

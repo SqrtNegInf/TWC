@@ -1,16 +1,9 @@
 #!/usr/bin/env perl
-srand 1;;
-
-use strict;
-use warnings;
-use feature qw{ say signatures state };
-no warnings qw{ experimental };
+use v5.36;
+srand 1;
 
 use Carp;
 use Getopt::Long;
-#use JSON;
-
-#my $json = JSON->new->space_after;
 
 # a few interesting things before the solving actual
 # things

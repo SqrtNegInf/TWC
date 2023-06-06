@@ -1,8 +1,6 @@
 #!/usr/bin/env perl
-srand 1;;
-
-use strict;
-use warnings;
+use v5.36;
+srand 1;
 
 my $N;
 my @seq = ();

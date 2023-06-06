@@ -1,8 +1,6 @@
 #!/usr/bin/env perl
-srand 1;;
-
-use strict;
-use feature 'say';
+use v5.36;
+srand 1;
 
 my $N = shift(@ARGV) // 20;
 my $verbose;
@@ -29,7 +27,7 @@ unshift(@array, -1);
 for my $index (1 .. $N)
 {
   say ": Checking at position $index: (left:" . $array[$index-1] . ", value: " . $array[$index] . ", right:" . $array[$index+1] . ")" if $verbose;
-  push(@peak, @array[$index]) if $array[$index] > $array[$index-1] && $array[$index] > $array[$index+1];
+  push(@peak, $array[$index]) if $array[$index] > $array[$index-1] && $array[$index] > $array[$index+1];
 }
 
 say "[ ", join(", ", @peak), " ]";

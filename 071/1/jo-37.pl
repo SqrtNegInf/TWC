@@ -1,8 +1,7 @@
 #!/usr/bin/env perl
-srand 1;;
+use v5.36;
+srand 1;
 
-use strict;
-use warnings;
 use List::Util qw(shuffle);
 
 # map3 is some kind of mixture and extension of map and reduce:
@@ -14,7 +13,8 @@ use List::Util qw(shuffle);
 # and returning the the results of each invocation of the code block.
 # The block is never called with $_ set to the first or last element
 # of the list.
-sub map3 (&@) {
+
+sub map3 :prototype(&@) {
 	my $code = shift;
 
 	my ($prev, $current, $next, $i);

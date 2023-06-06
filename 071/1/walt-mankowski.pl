@@ -1,9 +1,7 @@
 #!/usr/bin/env perl
-srand 1;;
-use strict;
-use warnings;
-use feature qw(:5.32);
-use experimental qw(signatures);
+use v5.36;
+srand 1;
+
 use List::Util qw(shuffle);
 
 my $N = 20;

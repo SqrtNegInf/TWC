@@ -1,7 +1,7 @@
 #!/usr/bin/env perl
-srand 1;;
-use 5.020;
-use warnings;
+use v5.36;
+srand 1;
+
 use English qw/ -no_match_vars /;
 
 sub pick {
@@ -21,20 +21,7 @@ sub pick {
     return wantarray ? @picked : $picked[0];
 }
 
-sub usage {
-    print<<"-USAGE-";
-Usage:
-  $PROGRAM_NAME <N>
-
-    <N>    > 1
--USAGE-
-    exit 0;
-}
-
 my $N = shift // 20;
-if ($N < 2) {
-    usage();
-}
 
 my @arr = pick([1 .. 50], $N);
 my @peak;

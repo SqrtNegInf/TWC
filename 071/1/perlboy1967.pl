@@ -1,15 +1,7 @@
 #!/usr/bin/env perl
+use v5.36;
 
 srand 1;
-
-# Perl Weekly Challenge - 071
-#
-# Task 1 - Peak Element
-#
-# Author: Niels 'PerlBoy' van Dijke
-
-use strict;
-use warnings;
 
 my ($N) = 20;
 

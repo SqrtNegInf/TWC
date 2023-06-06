@@ -1,11 +1,8 @@
 #!/usr/bin/env perl
-srand 1;;
-
-use Modern::Perl;
+use v5.36;
+srand 1;
 
 my $N = shift // 20;
-die ("N needs to be greated than 1 ")
-	unless ($N > 1);
 
 # Store answers
 my @values;

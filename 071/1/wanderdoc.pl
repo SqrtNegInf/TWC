@@ -1,7 +1,6 @@
 #!/usr/bin/env perl
-srand 1;;
-use strict;
-use warnings FATAL => qw(all);
+use v5.36;
+srand 1;
 
 use List::Util qw(shuffle);
 

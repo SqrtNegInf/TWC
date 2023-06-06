@@ -1,15 +1,8 @@
 #!/usr/bin/env perl
-srand 1;;
-
-use warnings;
-use strict;
-use feature ":5.26";
-
-## ## ## ## ## MAIN:
+use v5.36;
+srand 1;
 
 my $n = shift @ARGV // 10;
-
-die "cannot create more than 50 unique elements" if $n > 50;
 
 ## make a list of n unique numbers
 ## --> encapsulating the arr in 0s  

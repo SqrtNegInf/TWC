@@ -1,9 +1,6 @@
 #!/usr/bin/env perl
-
+use v5.36;
 srand 1;
-
-use strict;
-use warnings;
 
 my $N = $ARGV[0] || 20;
 my $random_array  = [42, 12, 50, 24, 19, 2, 8, 38, 45, 11, 4, 41, 29, 32, 5, 30, 48, 47, 9, 18];
