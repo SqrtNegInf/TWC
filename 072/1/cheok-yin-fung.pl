@@ -1,8 +1,6 @@
 #!/usr/bin/env perl
-# Perl Weekly Challenge #072 Task 1
-# Usage:  ch-1.pl $N  
-use strict;
-use warnings;
+use v5.36;
+
 use Test::More tests => 7;
 
 my $N;

@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings FATAL => qw(all);
-
+use v5.36;
 
 # Variant #1. A factorial number gets a trailing zero after 4*5 and 9*10.
 use List::Util qw(max);

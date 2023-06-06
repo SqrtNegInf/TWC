@@ -1,14 +1,8 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
+use v5.36;
 
 my $N = 10;
 print trailing_zeroes($N), "\n";
-
-#
-#
-# METHOD
 
 sub trailing_zeroes {
     my ($n) = @_;

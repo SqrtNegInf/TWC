@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use feature 'say';
+use v5.36;
 
 my $N = shift(@ARGV) // 10;
 my $verbose;

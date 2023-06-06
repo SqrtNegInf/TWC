@@ -1,9 +1,7 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
+use v5.36;
 
 my $n = 10;
-die "Please specify a number between 1 and 10.\n" unless $n =~ m/^\d+$/ && $n <= 10;
 
 my $fact = 1;
 $fact *= $_ for ( 1 .. $n );

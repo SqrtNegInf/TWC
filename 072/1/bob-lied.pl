@@ -1,19 +1,5 @@
 #!/usr/bin/env perl
-# vim:set ts=4 sw=4 sts=4 et ai wm=0 nu:
-#=============================================================================
-# ch-1.pl
-#=============================================================================
-# Copyright (c) 2020, Bob Lied
-#=============================================================================
-# Perl Weekly Challenge 72  Task 1 Trailing Zeroes 
-#=============================================================================
-#
-# You are given a positive integer $N (<= 10).
-# Write a script to print number of trailing zeroes in $N!.
-
-use strict;
-use warnings;
-use feature qw(say);
+use v5.36;
 
 use Getopt::Long;
 

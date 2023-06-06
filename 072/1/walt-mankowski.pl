@@ -1,8 +1,6 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use feature qw(:5.32);
-use experimental qw(signatures);
+use v5.36;
+
 use Lingua::EN::Inflect qw(PL);
 
 sub fact($n) {

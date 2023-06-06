@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use v5.14;
 use Test2::V0 -srand => 1;
 
 # First off: The limitation to N <= 10 kills all joy with this task.

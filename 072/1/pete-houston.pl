@@ -1,7 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use strict;
-use warnings;
 use Math::GMP;
 use Params::Util '_POSINT';
 use Lingua::EN::Inflexion;

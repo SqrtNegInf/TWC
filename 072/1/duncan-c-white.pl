@@ -1,10 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-use feature 'say';
-#use Function::Parameters;
-#use Data::Dumper;
+use v5.36;
 
 my( $n ) = 10;
 

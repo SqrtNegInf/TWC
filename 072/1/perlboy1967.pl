@@ -1,10 +1,5 @@
 #!/usr/bin/env perl
-
-# Perl Weekly Challenge - 072
-#
-# Task 1 - Trailing Zeroes
-#
-# Author: Niels 'PerlBoy' van Dijke
+use v5.36;
 
 use Math::BigInt;
 

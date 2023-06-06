@@ -1,9 +1,6 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
+use v5.36;
 
-
-#variables
 my $N;
 my $result = 1;
 my $count = 0;

@@ -1,7 +1,6 @@
 #!/usr/bin/env perl
-use 5.28.1;
-use warnings;
-use Data::Dumper;
+use v5.36;
+
 use Scalar::Util "looks_like_number";
 
 say int numberoftrailingzeroesfrom (afactorialof (anumberoftenorless (frominput())));

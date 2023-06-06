@@ -1,10 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-##
-# You are given a positive integer $N (<= 10).
-# Write a script to print the number of trailing zeroes in $N!.
-##
+use v5.36;
 
 sub factorial{
     my($n) = @_;

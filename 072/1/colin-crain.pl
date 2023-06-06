@@ -1,47 +1,8 @@
 #!/usr/bin/env perl
-#
-#       trail_of_zeros.pl
-#
-#         TASK #1 › Trailing Zeroes
-#         Submitted by: Mohammad S Anwar
-#         You are given a positive integer $N (<= 10).
-# 
-#         Write a script to print number of trailing zeroes in $N!.
-# 
-#         Example 1
-#         Input: $N = 10
-#         Output: 2 as $N! = 3628800 has 2 trailing zeroes
-# 
-#         Example 2
-#         Input: $N = 7
-#         Output: 1 as $N! = 5040 has 1 trailing zero
-# 
-#         Example 3
-#         Input: $N = 4
-#         Output: 0 as $N! = 24 has 0 trailing zero
-#
-#         Notes:      
-#         Heh. First misread this as just exhuberance on the part of Mohammad, then 
-#         understood it to be n-factorial. Oops. 
-#         
-#         So we're going to need a factorial function. The variable is less than ten so a simple
-#         recursion will serve. Then a regex, count the zeros and we're good. 
-#
-#       2020 colin crain
-## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ##
+use v5.36;
 
-
-
-use warnings;
-use strict;
-use feature ":5.26";
 
 use bigint;
-
-## ## ## ## ## MAIN:
-
-## we're going to ignore the directive and just print them all
-## from 1 to $n 
 
 my $n = shift @ARGV // 10;
 

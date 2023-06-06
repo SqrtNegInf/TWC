@@ -1,10 +1,7 @@
 #!/usr/bin/env perl
-# Test: ./ch-1.pl
-use Modern::Perl;
+use v5.36;
 
 my $N = shift // 20;
-die ("N needs to be greated than 1 ")
-	unless ($N > 10);
 
 my ($factorial, $zeros) = processN($N);
 say "$zeros as $N! = $factorial has $zeros trailing zeroes";
