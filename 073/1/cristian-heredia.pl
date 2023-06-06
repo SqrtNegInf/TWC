@@ -1,8 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use strict;
-use warnings;
-#use Data::Dumper;
 use List::Util qw(min);
 
 #Input

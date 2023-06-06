@@ -1,7 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use strict;
-use feature 'say';
 use Getopt::Long;
 use List::Util 'min';
 use Perl6::Junction 'all';
@@ -9,8 +8,6 @@ use Perl6::Junction 'all';
 my $verbose = 0;
 
 GetOptions("verbose"  => \$verbose);
-
-#die 'Specify $S and @A' unless @ARGV;
 
 my ($S, @A) =  (3, 1, 5, 0, 2, 9, 3, 7, 6, 4, 8);
 

@@ -1,12 +1,6 @@
 #!/usr/bin/env perl
-# Perl Weekly Challenge #073 Task 1 Sliding Windows
-# task statement:
-# You are given an array of integers @A and sliding window size $S.
-# Write a script to create an array of min from each sliding window.
-# Usage:  ch-1.pl $S $A[0] $A[1]  ... $A[-1]
+use v5.36;
 
-use strict;
-use warnings;
 use List::Util qw/min/;
 use Test::More tests => 4;
 

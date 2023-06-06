@@ -1,20 +1,7 @@
 #!/usr/bin/env perl
-use 5.020;
-use warnings;
+use v5.36;
+
 use English qw/ -no_match_vars /;
-
-sub usage {
-
-    print<<"-USAGE-";
-Usage:
-  $PROGRAM_NAME <S> [<A> ...]
-
-    <S>          size of sliding window
-    [<A> ...]    list of integers
--USAGE-
-
-    exit 0;
-}
 
 sub min {
     my @A = @{ $_[0] };
@@ -31,10 +18,6 @@ sub min {
 
 my $S = shift // 3;
 my @A =  (1, 5, 0, 2, 9, 3, 7, 6, 4, 8);
-
-if (!scalar @A) {
-    usage();
-}
 
 my @output;
 

@@ -1,8 +1,6 @@
 #!/usr/bin/env perl
-use warnings;
-use strict;
-use feature qw/signatures say/;
-no warnings qw/experimental/;
+use v5.36;
+
 use DBI;
 
 # This is really just a thin layer of perl over SQLite to solve the

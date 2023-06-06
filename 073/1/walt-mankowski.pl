@@ -1,8 +1,6 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use feature qw(:5.32);
-use experimental qw(signatures);
+use v5.36;
+
 use List::Util qw(min);
 
 my @a =  (1, 5, 0, 2, 9, 3, 7, 6, 4, 8, 3);

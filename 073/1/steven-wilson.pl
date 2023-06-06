@@ -1,13 +1,6 @@
 #!/usr/bin/env perl
-#
-# Week 073 task 1
-# Min Sliding Window
-# You are given an array of integers @A and sliding window size $S.
-# Write a script to create an array of min from each sliding window.
+use v5.36;
 
-use strict;
-use warnings;
-use feature qw/ say /;
 use Test::More;
 
 my @array_test = ( 1, 5, 0, 2, 9, 3, 7, 6, 4, 8 );

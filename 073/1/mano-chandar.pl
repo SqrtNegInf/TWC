@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
+use v5.36;
 
 my @A = (1, 5, 0, 2, 9, 3, 7, 6, 4, 8) ; #given array
 my $S = 3; #sliding window size

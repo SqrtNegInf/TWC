@@ -1,11 +1,5 @@
 #!/usr/bin/env perl
-
-use warnings;
-use strict;
-use feature ":5.26";
-
-## ## ## ## ## MAIN:
-
+use v5.36;
 
 my ($S, @A) = @ARGV;
 

@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use v5.26;
-#use DDP;
+use v5.36;
 
 my @A = (1, 5, 0, 2, 9, 3, 7, 6, 4, 8);
 my $S = 3;

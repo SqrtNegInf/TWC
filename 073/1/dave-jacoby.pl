@@ -1,28 +1,7 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-use feature qw{ say signatures state };
-no warnings qw{ experimental };
+use v5.36;
 
 use List::Util qw{ min };
-
-# You are given an array of integers @A and sliding window size $S.
-
-# Write a script to create an array of min from each sliding window.
-
-# Example
-# Input: @A = (1, 5, 0, 2, 9, 3, 7, 6, 4, 8) and $S = 3
-# Output: (0, 0, 0, 2, 3, 3, 4, 4)
-
-# [(1 5 0) 2 9 3 7 6 4 8] = Min (0)
-# [1 (5 0 2) 9 3 7 6 4 8] = Min (0)
-# [1 5 (0 2 9) 3 7 6 4 8] = Min (0)
-# [1 5 0 (2 9 3) 7 6 4 8] = Min (2)
-# [1 5 0 2 (9 3 7) 6 4 8] = Min (3)
-# [1 5 0 2 9 (3 7 6) 4 8] = Min (3)
-# [1 5 0 2 9 3 (7 6 4) 8] = Min (4)
-# [1 5 0 2 9 3 7 (6 4 8)] = Min (4)
 
 my @array = ( 1, 5, 0, 2, 9, 3, 7, 6, 4, 8 );
 my $s = 3;
