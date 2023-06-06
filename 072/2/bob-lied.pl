@@ -1,23 +1,7 @@
 #!/usr/bin/env perl
-# vim:set ts=4 sw=4 sts=4 et ai wm=0 nu:
-#=============================================================================
-# ch-2.pl
-#=============================================================================
-# Copyright (c) 2020, Bob Lied
-#=============================================================================
-# Perl Weekly Challenge 72 Task#2 Lines Range
-#=============================================================================
-# You are given a text file name $file and range $A - $B where $A <= $B.
-# Write a script to display lines range $A and $B in the given file.
-
-use strict;
-use warnings;
-use feature qw(say);
+use v5.36;
 
 use Getopt::Long;
-
-sub Usage { "Usage: $0 FILE A B\n\tA <= B" }
-
 
 sub runTests
 {
@@ -65,15 +49,9 @@ my $infh;
 
 exit(!runTests()); # if $doTest;
 
-die Usage unless scalar(@ARGV) == 3;
-
 my ($File, $A, $B) = @ARGV;
 
-die Usage . "\n$!" unless defined $File;
-die Usage unless defined $A && $A > 0;
-die Usage unless defined $B && $B >= $A;
-
-open($infh, "<", $File) || die Usage . "\n$1";
+open($infh, "<", $File) || die;
 
 linesRange($infh, *STDOUT, $A, $B);
 

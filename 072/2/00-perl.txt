@@ -45,10 +45,10 @@ L5
 L6
  
 ===> 072/2/dave-jacoby.pl <===
-use strict;
-use warnings;
-use feature qw{ say signatures state };
-no warnings qw{ experimental };
+
+use Carp;
+use Getopt::Long;
+
  
 ===> 072/2/duncan-c-white.pl <===
 L3

@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-# -*- Mode: cperl; cperl-indent-level:4 tab-width: 8; indent-tabs-mode: nil -*-
-# -*- coding: utf-8 -*-
-
-use strict; use warnings;
+use v5.36;
 
 my ( $filePath, $from, $to ) = ('input.txt',3,6);
 $filePath ||= "<not given>";

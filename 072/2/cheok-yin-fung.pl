@@ -1,9 +1,5 @@
 #!/usr/bin/env perl
-# Perl Weekly Challenge #072 Task 2
-# Lines Range
-# Usage: ch-2.pl $file $A $B
-use strict;
-use warnings;
+use v5.36;
 
 my ($file, $A, $B) = ('input.txt', 3, 6);
 

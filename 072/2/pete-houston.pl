@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-use autodie;
+use v5.36;
 
 my $start = 3;
 my $end   = 6;

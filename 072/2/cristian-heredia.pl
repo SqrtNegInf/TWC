@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
+use v5.36;
 
 my $file_name = 'input.txt';
 my $A = $ARGV[1] // 3;

@@ -1,19 +1,7 @@
 #!/usr/bin/env perl
-use 5.020;
-use warnings;
-use English qw/ -no_match_vars /;
+use v5.36;
 
-sub usage {
-    print<<"-USAGE-";
-Usage:
-  $PROGRAM_NAME <A> <B> <file>
-  
-    <A>       start line
-    <B>       end line
-    <file>    file name
--USAGE-
-    exit 0;
-}
+use English qw/ -no_match_vars /;
 
 my ($A, $B, $file) = (3, 6, 'input.txt');
 my $linenumber = 0;

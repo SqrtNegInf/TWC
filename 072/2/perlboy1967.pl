@@ -1,4 +1,5 @@
 #!/usr/bin/env perl
+use v5.36;
 
 my ($file, $A, $B) = ('input.txt',3,6);
 

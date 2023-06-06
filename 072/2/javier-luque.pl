@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-# Test: ./ch-2.pl
-use Modern::Perl;
+use v5.36;
 
 my $A = shift // 3;
 my $B = shift // 6;

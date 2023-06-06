@@ -1,10 +1,7 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use strict;
-use warnings;
-use 5.10.1;
-
-sub main (@) {
+sub main {
     my ( $file, $start, $end ) = @_;
 
     # Sanity check

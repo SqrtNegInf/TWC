@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-# Run as:
-# range.pl 4 10 < input.txt
-# or
-# range.pl 4 10 input.txt
+use v5.36;
 
 my ($begin_line, $end_line)=(3,6);
 
