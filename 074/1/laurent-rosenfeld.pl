@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use feature qw/say/;
+use v5.36;
 
 my @A = (1, 2, 2, 3, 2, 4, 2, 7, 8, 9, 10);
 my %histogram;

@@ -1,21 +1,5 @@
 #!/usr/bin/env perl
-#===============================================================================
-#
-#         FILE: ch-1.pl
-#
-#        USAGE: ./ch-1.pl
-#
-#  DESCRIPTION: https://perlweeklychallenge.org/blog/perl-weekly-challenge-074/
-#
-#               TASK #1 › Majority Element
-#
-#       AUTHOR: Lubos Kolouch
-#      VERSION: 1.0
-#      CREATED: 08/22/2020 12:40:09 PM
-#===============================================================================
-
-use strict;
-use warnings;
+use v5.36;
 
 sub get_majority_element {
     my $arr = shift;

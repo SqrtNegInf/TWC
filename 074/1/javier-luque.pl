@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
-# Test: ./ch-1.pl
-use Modern::Perl;
+use v5.36;
+
 use POSIX qw/ floor /;
 use Test::More;
 

@@ -1,10 +1,7 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use strict;
-use warnings;
-use 5.10.1;
-
-sub main (@) {
+sub main {
     my @list = @_;
 
     # Count the number of times each values appear

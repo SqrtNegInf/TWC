@@ -1,14 +1,5 @@
 #!/usr/bin/env perl
-
-# Perl Weekly Challenge - 074
-# - https://perlweeklychallenge.org/blog/perl-weekly-challenge-074/
-#
-# Task 1 - Majority Element
-#
-# Author: Niels 'PerlBoy' van Dijke
-
-use strict;
-use warnings;
+use v5.36;
 
 use List::Util qw(max);
 use POSIX q(floor);

@@ -1,22 +1,9 @@
 #!/usr/bin/env perl
+use v5.36;
 
-#
-# Perl Weekly Challenge - 074
-#
-# Task #1: Majority Element
-#
-# https://perlweeklychallenge.org/blog/perl-weekly-challenge-074
-#
-
-use strict;
-use warnings;
 use POSIX qw(floor);
 
 print find_majority_element(prepare_list($ARGV[0])), "\n";
-
-#
-#
-# METHODS
 
 sub find_majority_element {
     my ($list) = @_;

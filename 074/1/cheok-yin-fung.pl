@@ -1,13 +1,6 @@
 #!/usr/bin/env perl
-# ref:
-# https://en.wikipedia.org/wiki/Boyer%E2%80%93Moore_majority_vote_algorithm
-# Perl Weekly Challenge #074 Task 1 Majority Element
-# task statement: 
-# Write a script to find the majority element. 
-# If none found then print -1.
-# Usage: ch-1.pl [ARRAY]
-use strict;
-use warnings;
+use v5.36;
+
 use Test::More tests => 3;
 
 

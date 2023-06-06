@@ -1,13 +1,7 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-use feature qw{ say signatures state };
-no warnings qw{ experimental };
+use v5.36;
 
 use List::Util qw{ first };
-#use JSON;
-#my $json = JSON->new->pretty->canonical;
 
 my @array;
 push @array, [ 1, 2, 2, 3, 2, 4, 2 ];

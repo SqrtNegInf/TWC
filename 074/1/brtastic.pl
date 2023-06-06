@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-use v5.30;
-use warnings;
+use v5.36;
 
 # the solution is based on my own module Quantum::Superpositions::Lazy from CPAN
 use Quantum::Superpositions::Lazy;

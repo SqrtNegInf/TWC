@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-use strict ;
-use warnings ;
-use feature 'say' ;
+use v5.36;
 
 my @array = (1, 2, 2, 3, 2, 4, 2);
 my %frequencies ;

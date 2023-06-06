@@ -1,4 +1,5 @@
 #!/usr/bin/env perl
+use v5.36;
 # Week74 Task 1
 # You are given an array of integers of size $N.
 #

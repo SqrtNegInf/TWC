@@ -1,10 +1,5 @@
 #!/usr/bin/env perl
-use warnings;
-use strict;
-
-# int can be used instead of floor as
-# floor($x) == int($x) for $x >= 0,
-# and size of an array can never be negative.
+use v5.36;
 
 sub majority_element {
     my @arr = @_;

@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
-use 5.020;
-use warnings;
+use v5.36;
+
 use English qw/ -no_match_vars /;
 
 my @A = (1, 2, 2, 3, 2, 4, 2);
