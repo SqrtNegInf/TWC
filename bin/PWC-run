@@ -20,8 +20,8 @@ sub MAIN ( Int $ch,
     my $prefix-m = "$ch/$task/00-{$lang}-moar";
     my $prefix-j = "$ch/$task/00-{$lang}-jvm";
 
+    #   rakubrew switch moar-2023.04
     shell qq:to/MOAR/ if $backend eq 'raku'|'moar';
-        rakubrew switch moar-2023.04
         find -s $ch/$task -name '*$ext' -exec echo ' ' \\; -exec echo "===> \{\} <===" \\; -execdir raku           \{\} \\; > $prefix-m.txt 2> $prefix-m.err
         MOAR
        #find -s $ch/$task -name '*$ext' -exec echo ' ' \\; -exec echo "===> \{\} <===" \\; -execdir raku    -I lib \{\} \\; > $prefix-m.txt 2> $prefix-m.err
