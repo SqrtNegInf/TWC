@@ -25,7 +25,6 @@ ok 2 -
 ok 3 - 
  
 ===> 218/2/jaldhar-h-vyas.raku <===
-37
  
 ===> 218/2/mark-anderson.raku <===
 ok 1 - 
