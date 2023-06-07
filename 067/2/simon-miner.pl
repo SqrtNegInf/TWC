@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
+use v5.36;
 
 my @letters = (
     ['+'],    # Need some way to track 0 to avoid colliding strings.

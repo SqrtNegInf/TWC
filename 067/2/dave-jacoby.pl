@@ -1,24 +1,15 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-use utf8;
-use feature qw{ postderef say signatures state switch };
-no warnings qw{ experimental };
+use v5.36;
 
 use Carp;
 use Getopt::Long;
-#use JSON;
 use List::Util qw{ uniq };
-
-#my $json = JSON->new->pretty->canonical;
 
 my $phone = '249'; 
 GetOptions( 'phone=i' => \$phone )
   or croak 'bad number';
 
 my $ref = letter_phone($phone);
-#say $json->encode($ref);
 say "@$ref\n";
 exit;
 

@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-# Test: ./ch-2.pl
-use Modern::Perl;
+use v5.36;
 
 # Default $m and $n
 my $S = shift // '249';

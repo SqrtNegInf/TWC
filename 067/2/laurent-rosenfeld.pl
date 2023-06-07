@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use feature qw /say/;
+use v5.36;
 
 my %nums = (0 => ['-'], 1 => ['_', ',', '@'], 2 => [qw <A B C>],
            3 => [qw <D E F>], 4 => [qw <G H I>], 5 => [qw <J K L>],

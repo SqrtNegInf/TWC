@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-use warnings;
-use strict;
+use v5.36;
 
 my %keyboard = (2 => [qw[ a b c   ]],
                 3 => [qw[ d e f   ]],

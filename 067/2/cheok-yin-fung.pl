@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-
-# Usage: ch-2.pl [digit string]
+use v5.36;
 
 my $INPUT = '249';
 

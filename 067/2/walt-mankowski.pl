@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use feature qw(:5.30);
-use experimental qw(signatures);
+use v5.36;
 
 # store the letters for each digit as a hash of arraryrefs
 my %key = (1 => [qw(_ @)],

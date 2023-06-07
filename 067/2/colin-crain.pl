@@ -1,13 +1,8 @@
 #!/usr/bin/env perl
-
-
-use warnings;
-use strict;
-use feature ":5.26";
-
-## ## ## ## ## MAIN:
+use v5.36;
 
 my $input = $ARGV[0] // '249';
+
 $input =~ s/\W//g;       ## tolerate phone number formats, strip punct chars
 ($input =~ /[^2-9]/) and
     die "only numbers between 2 through 9 can be alphabetized\n";
@@ -26,8 +21,6 @@ my $list = $encode{(shift @digits)};
 
 my @list = make_strings(\%encode, \@digits, $list)->@*;
 say $_ for @list;
-
-## ## ## ## ## SUBS:
 
 sub make_strings {
     my ($encode, $digits, $list) = @_;

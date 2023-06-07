@@ -1,10 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-use feature 'say';
-use Function::Parameters;
-use Data::Dumper;
+use v5.36;
 
 my $numstring = '249';
 
@@ -26,7 +21,7 @@ my %data = (1 => '_@',
 #	of all those letters.
 #	eg. cross( 'DEF', 'GHI' ) = ( 'DG', DH', 'DI', 'EG'..)
 #
-fun cross( @str )
+sub cross( @str )
 {
 	my $first = shift @str;
 	my @x = split(//,$first);
@@ -45,7 +40,7 @@ fun cross( @str )
 #	element of @x with every letter in $next appended.
 #	eg cross_one( 'DEF', 'X', 'Y' ) gives 'XD', 'XE', 'XF', 'YD'..
 #
-fun cross_one( $next, @x )
+sub cross_one( $next, @x )
 {
 	my @out;
 	my @letters = split(//,$next);

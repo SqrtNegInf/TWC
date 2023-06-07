@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
+use v5.36;
 
 binmode STDOUT, 'encoding(UTF-8)';
 print join "\n", phone_letters('249'), '';
