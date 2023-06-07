@@ -1,15 +1,5 @@
 #!/usr/bin/env perl
-
-#
-# Perl Weekly Challenge - 069
-#
-# Task #2: 0/1 String
-#
-# https://perlweeklychallenge.org/blog/perl-weekly-challenge-069
-#
-
-use strict;
-use warnings;
+use v5.36;
 
 my $string = 'S7';
 print sprintf("%s\n%s\n", $string, string_0_1($string));

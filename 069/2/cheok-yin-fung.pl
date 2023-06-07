@@ -1,16 +1,5 @@
 #!/usr/bin/env perl
-#
-# Perl Weekly Challenge #069 Task 2
-# Usage: ch-2.pl $N
-
-# SN = SN-1 + “0” + switch(reverse(SN-1))
-# SN = SN-2 + “0” + switch(reverse(SN-2)) + "0" + SN-2 + "1" + switch(reverse(SN-2))
-# on my computer, ordinary action goes "out of memory" when $N>26.
-# Therefore I write a roundabout to tackle $N=30
-
-
-use strict;
-use warnings;
+use v5.36;
 
 my $N = 7;
 

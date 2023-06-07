@@ -1,9 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-use feature qw{ say signatures state };
-no warnings qw{ experimental::signatures };
+use v5.36;
 
 my $val = '';
 my $m;

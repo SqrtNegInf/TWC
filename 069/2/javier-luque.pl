@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
-# Test: ./ch-2.pl
-use Modern::Perl;
+use v5.36;
+
 use Test::More;
 
 is (s_thousand(''),            '0',      'Test: Empty string');

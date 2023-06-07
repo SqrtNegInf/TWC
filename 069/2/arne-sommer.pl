@@ -1,11 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-use feature 'say';
-use feature 'signatures';
-
-no warnings "experimental::signatures";
+use v5.36;
 
 my $limit = $ARGV[0] // 7;
 
