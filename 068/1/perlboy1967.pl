@@ -1,12 +1,10 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
+use v5.36;
 
 use List::Util qw(min);
 
-sub zeroMatrix (\@);
-sub printMatrix ($\@);
+sub zeroMatrix :prototype(\@);
+sub printMatrix :prototype($\@);
 
 my @matrixes = (
   [
@@ -27,13 +25,13 @@ foreach my $matrix (@matrixes) {
   printMatrix('Output', @$matrix);
 }
 
-sub zeroMatrix (\@) {
+sub zeroMatrix :prototype(\@) {
   my ($matrix) = @_;
 
   map { $_ = [map {0} @$_] if (!min @$_); } @$matrix;
 }
 
-sub printMatrix ($\@) {
+sub printMatrix :prototype($\@) {
   my ($label, $matrix) = @_;
 
   print "$label:\n";

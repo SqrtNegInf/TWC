@@ -1,10 +1,7 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use strict;
-use warnings;
-use 5.10.1;
-
-sub _ask_input ($$) {
+sub _ask_input {
     my ( $m, $n ) = @_;
     die "\$M is not a postive number" unless $m >= 1;
     die "\$N is not a postive number" unless $n >= 1;
@@ -30,7 +27,7 @@ sub _ask_input ($$) {
     return @rows;
 }
 
-sub main (@) {
+sub main {
     my ( $M, $N ) = @_;
 
     # Get the data from the user input

@@ -1,12 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-
-
-use warnings;
-use strict;
-use feature ":5.26";
-
-## ## ## ## ## MAIN:
 
 ## as by challenge definition we only use 1s and 0s,
 ## concatenate individual rows into strings

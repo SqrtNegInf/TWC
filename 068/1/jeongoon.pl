@@ -1,5 +1,6 @@
 #!/usr/bin/env perl
-use strict; use warnings;
+use v5.36;
+
 use Getopt::Long qw(:config no_ignore_case);
 use Pod::Usage;
 
@@ -17,7 +18,7 @@ sub get_row_ {
     shift @{$buffer};
 }
 
-sub gen_rows_of_string ($$) {
+sub gen_rows_of_string {
     my ( $R, $C ) = @_;
 
     # note: as the name of subroutine say
@@ -89,7 +90,7 @@ if ( $use_random ) {
     ( $row_some_zero_str = $row_raw[0] ) =~ s/0/1/g;
 
     while ( defined( my $r_raw = get_row_( \@row_raw ) ) ) {
-        my $new_row_some_zero_str = $row_some_zero_str & $r_raw;
+        my $new_row_some_zero_str = $row_some_zero_str &. $r_raw;
         push @row_whole_zero_flag, !!( index( $r_raw, "0" ) > 0 );
         $row_some_zero_str = $new_row_some_zero_str;
         read_row_( \@row_raw ) unless $use_random;
@@ -104,35 +105,3 @@ if ( $use_random ) {
     print $/;
     redo if ( --$round ) > 0;
 }
-
-__END__
-
-=head1 NAME
-
-CHALLENGE 68 Task #1 - Zero Matrix
-
-=head1 SYNOPSIS
-
-perl ch-1.pl [--round=N] [--stdin] [--rows=N] [--columns=N]
-
-  Options:
-    --round:    the number of execution of task 1 [ default: 1 ]
-    --stdin:    read data from the stdin,
-                not from automatically genrated matrix
-    --rows:     number of rows of matrix    [ > 2; default: 3 ]
-    --columns:  number of columns of matrix [ > 2; default: 3 ]
-
-=head1 DESCRIPTION
-
-  Task:
-    You are given a matrix of size M x N having only 0s and 1s.
-    Write a script to set the entire row and column to 0 if an element is 0.
-
-  My Solution:
-    We can classify all the rows into only two types.
-      1. the row we found at least one 'zero'   -> all elements become 'zero'
-         or
-      2. the row we couldn't find any  'zero' but all of this kind of row
-         must have the same list of numbers.
-
-=cut

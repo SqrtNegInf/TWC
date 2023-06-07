@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-use v5.26;
-use warnings;
+use v5.36;
 
 use constant ROW => 0;
 use constant COL => 1;

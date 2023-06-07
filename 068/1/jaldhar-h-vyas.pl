@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
-use 5.020;
-use warnings;
+use v5.36;
+
 use English qw/ -no-match-vars /;
 
 my $M = shift // 3;

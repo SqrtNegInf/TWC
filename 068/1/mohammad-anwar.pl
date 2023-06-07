@@ -1,9 +1,7 @@
 #!/usr/bin/env perl
+use v5.36;
 
 srand 1;
-
-use strict;
-use warnings;
 
 my $R = $ARGV[0];
 my $C = $ARGV[1];

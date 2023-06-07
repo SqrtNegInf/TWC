@@ -1,9 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-
-# Usage: ch-1.pl M N a_(1,1) a_(1,2) ... a(M,N) 
-# Perl Weekly Challenge #068 Task 1 Zero Matrix
+use v5.36;
 
 my @matrix;
 my ($M, $N);
