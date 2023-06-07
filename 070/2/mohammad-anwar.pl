@@ -1,15 +1,5 @@
 #!/usr/bin/env perl
-
-#
-# Perl Weekly Challenge - 070
-#
-# Task #2: Gray Code Sequence
-#
-# https://perlweeklychallenge.org/blog/perl-weekly-challenge-070
-#
-
-use strict;
-use warnings;
+use v5.36;
 
 my $N = $ARGV[0] || 4;
 

@@ -1,20 +1,7 @@
 #!/usr/bin/env perl
-
-# Perl Weekly Challenge - 070
-#
-# Task 2 - Gray Code Sequence
-#
-# Author: Niels 'PerlBoy' van Dijke
-
-use strict;
-use warnings;
-
-sub genGrayCodeSequence($);
+use v5.36;
 
 my ($N) = 4;
-
-die "Argument must be a positive number"
-  unless ($N =~ m#^\d+$#);
 
 my @g = genGrayCodeSequence($N);
 
@@ -23,7 +10,7 @@ Input: $N = %d
 Output: [%s]
 }, $N, join(', ', @g);
 
-sub genGrayCodeSequence($) {
+sub genGrayCodeSequence {
   my ($N) = @_;
 
   my @g = (0, 1);

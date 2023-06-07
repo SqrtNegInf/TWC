@@ -1,9 +1,5 @@
 #!/usr/bin/env perl
-# Perl Weekly Challenge #070 Task 2 Gray Code Sequence
-# Usage: ch-2.pl [order of Gray code wanted to generate]
-
-use strict;
-use warnings;
+use v5.36;
 
 my @a = (0,1);
 my $N = 4;

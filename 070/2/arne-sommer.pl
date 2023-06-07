@@ -1,9 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use feature 'say';
-use feature 'signatures';
-no warnings 'experimental::signatures';
+use v5.36;
 
 my $verbose = 0;
 

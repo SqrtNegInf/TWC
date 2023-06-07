@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-use strict ;
-use warnings ;
-use feature 'say' ;
+use v5.36;
 
 #function to convert a binary string to a decimal number!
 #Of course, we have pack and unpack, but this seems less unwieldy...
