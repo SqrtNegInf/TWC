@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-
-#use Data::Dumper;
-use strict;
-use warnings;
+use v5.36;
 
 my @input;
 my $N;

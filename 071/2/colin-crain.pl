@@ -1,8 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use warnings;
-use strict;
-use feature ":5.26";
 use Moo;
 
 ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## CLASSES:
@@ -46,7 +44,7 @@ use Moo;
         my ($node, $next);
         while (scalar @input > 0) {
             my $value =  pop @input;
-            $node = new Node(value => $value, next => $next);
+            $node = Node->new(value => $value, next => $next);
             $next = $node;
         }
         $self->start_node($node);
@@ -95,7 +93,7 @@ target $n
 ----------------------------------
 ";
 
-my $list = new LinkedList;
+my $list = LinkedList->new;
 $list->populate_from_array(@input);
 $list->arrow_print;
 

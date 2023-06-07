@@ -1,7 +1,7 @@
 #!/usr/bin/env perl
+use v5.36;
+no warnings; # 'uninitialized';
 
-use strict;
-no warnings;
 use LinkedList::Single;
 
 # Print the node data from a linked list.
