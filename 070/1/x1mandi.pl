@@ -1,11 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-use diagnostics;
-use utf8;
-use 5.26.0;
-#promt for a string from user (keyboard input)
+use v5.36;
 
 my $S = $ARGV[0] || "Perlmongers";
 my $C = $ARGV[1] || 3;

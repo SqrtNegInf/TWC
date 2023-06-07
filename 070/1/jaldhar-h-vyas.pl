@@ -1,20 +1,7 @@
 #!/usr/bin/env perl
-use 5.020;
-use warnings;
+use v5.36;
+
 use English qw/ -no_match_vars- /;
-
-sub usage {
-    print<<"-USAGE-";
-Usage:
-  $PROGRAM_NAME <C> <O> <S>
-
-    <C>    swap count
-    <O>    offset
-    <S>    string (length <= count + offset)
--USAGE-
-
-    exit(0);
-}
 
 
 my ($C, $O, $S) = (3, 4, 'perlandraku');

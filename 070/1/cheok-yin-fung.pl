@@ -1,9 +1,5 @@
 #!/usr/bin/env perl
-# Perl Weekly Challenge #070 Task 1 Character Swapping
-# Usage: ch-1.pl [string] [swap count] [offset]
-
-use strict;
-use warnings;
+use v5.36;
 
 my $s = 'perlandraku';
 my $C = 3;

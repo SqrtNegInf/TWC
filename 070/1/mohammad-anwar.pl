@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
+use v5.36;
 
 my $S = $ARGV[0] || 'perlandraku';
 my $C = $ARGV[1] || 3;

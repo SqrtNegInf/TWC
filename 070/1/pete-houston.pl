@@ -1,20 +1,5 @@
 #!/usr/bin/env perl
-#===============================================================================
-#
-#        FILE: 7001.pl
-#
-#        USAGE: ./7001.pl [ string count offset ]
-#
-#  DESCRIPTION: Swap "count" characters in string with their offests
-#
-# REQUIREMENTS: Params::Util
-#      AUTHOR: Pete Houston (pete), cpan@openstrike.co.uk
-# ORGANIZATION: Openstrike
-#===============================================================================
-
-use strict;
-use warnings;
-use Params::Util '_POSINT';
+use v5.36;
 
 my ($str, $count, $offset) = ('perlandraku', 3, 4);
 print chswap($str, $count, $offset) . "\n";

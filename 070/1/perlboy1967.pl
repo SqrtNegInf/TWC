@@ -1,15 +1,5 @@
 #!/usr/bin/env perl
-
-# Perl Weekly Challenge - 070
-#
-# Task 1 - Character Swapping
-#
-# Author: Niels 'PerlBoy' van Dijke
-
-use strict;
-use warnings;
-
-sub characterSwapping($$$);
+use v5.36;
 
 my ($S, $C, $O) = ('perlandraku', 3, 4);
 my $N = length($S);
@@ -37,7 +27,7 @@ Output:
 };
 
 
-sub characterSwapping($$$) {
+sub characterSwapping {
   my ($S, $C, $O) = @_;
 
   my @s = split(//, $S);

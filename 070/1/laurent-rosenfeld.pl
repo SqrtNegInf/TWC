@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use feature qw /say/;
+use v5.36;
 
 my ($s, $c, $o) = ('perlandraku', 3, 4);
 my $n = length $s;
