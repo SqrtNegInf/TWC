@@ -1,9 +1,5 @@
 #!/usr/bin/env perl
-
-use 5.032;
-use warnings;
-use feature 'signatures';
-no warnings 'experimental::signatures';
+use v5.36;
 
 use constant INVERTED => {
   0 => 0,

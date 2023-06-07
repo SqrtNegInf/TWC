@@ -1,9 +1,5 @@
 #!/usr/bin/env perl
-use v5.32;
-use warnings;
-
-use feature qw(signatures);
-no warnings qw(experimental::signatures);
+use v5.36;
 
 use constant MIRRORED => {qw(
 	6 9

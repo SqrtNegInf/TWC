@@ -1,12 +1,7 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use strict;
-use warnings;
-use feature 'say';
-use feature 'signatures';
 use List::Util qw(all any);
-
-no warnings "experimental::signatures";
 
 my $verbose; 
 my $calculator;

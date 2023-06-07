@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
+use v5.36;
 
 my $upper = 1_000;
 my ( $min, $max ) = (1,200);

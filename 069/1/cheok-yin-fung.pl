@@ -1,12 +1,7 @@
 #!/usr/bin/env perl
-#
-# Perl Weekly Challenge #069 Task 1 - Strobogrammatic Number
-# Usage: ch-1.pl $A $B,  where 1 <= $A <= $B <= 10^15
-# the following code goes "out of memory" around $B >= 10^11
+use v5.36;
 
 use Algorithm::Combinatorics qw/variations_with_repetition/;
-use strict;
-use warnings;
 
 sub rt180 {
     my @digits = split // , $_[0];

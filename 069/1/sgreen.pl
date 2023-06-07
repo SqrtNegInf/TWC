@@ -1,10 +1,7 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use strict;
-use warnings;
-use 5.10.1;
-
-sub _generate_number ($$) {
+sub _generate_number {
     # Given the first half of a number, generate the whole number
     my ( $number, $length ) = @_;
     my %switch = ( 0 => 0, 6 => 9, 8 => 8, 9 => 6 );
@@ -23,13 +20,13 @@ sub _generate_number ($$) {
     return $number;
 }
 
-sub _half_length ($) {
+sub _half_length {
     # Calculate the minimum number of digits to generate at least half
     #  the number of digits
     return int( ( shift() + 1 ) / 2 );
 }
 
-sub main (@) {
+sub main {
     my ( $a, $b ) = @_;
     my @numbers = ();
 

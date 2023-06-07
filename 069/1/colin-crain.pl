@@ -1,32 +1,6 @@
 #!/usr/bin/env perl
-#
-#       stroboscope.pl
-#
-#         TASK #1 › Strobogrammatic Number
-#         Submitted by: Mohammad S Anwar
-#             A strobogrammatic number is a number that looks the same
-#             when looked at upside down.
-#
-#             You are given two positive numbers $A and $B such that
-#                 1 <= $A <= $B <= 10^15.
-#
-#             Write a script to print all strobogrammatic numbers
-#             between the given two numbers.
-#
-#         Example
-#             Input:  $A = 50, $B = 100
-#             Output: 69, 88, 96
-#
-#       2020 colin crain
-## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ##
+use v5.36;
 
-
-
-use warnings;
-use strict;
-use feature ":5.26";
-
-## ## ## ## ## MAIN:
 
 my ($A, $B) = (1,200);              ## low, high bounds
 

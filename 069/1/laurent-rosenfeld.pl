@@ -1,9 +1,6 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use feature qw /say/;
+use v5.36;
 
-# ???
 for my $k (1..200) {
     next unless $k =~ /^[0689]+$/;
     my $i = reverse $k;

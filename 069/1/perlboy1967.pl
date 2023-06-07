@@ -1,9 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-
-sub isStrobogrammaticNumber($);
+use v5.36;
 
 my %stroboMap = (
   0 => 0,
@@ -21,7 +17,7 @@ foreach my $i (1..200) {
 
 printf "Output: %s\n", join(', ', @l);
 
-sub isStrobogrammaticNumber($) {
+sub isStrobogrammaticNumber {
   my ($i) = @_;
 
   return 0 if ($i =~ m#[23457]#);

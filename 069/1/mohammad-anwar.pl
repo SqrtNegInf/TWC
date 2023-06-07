@@ -1,4 +1,5 @@
 #!/usr/bin/env perl
+use v5.36;
 
 my $A = $ARGV[0] || 1;
 my $B = $ARGV[1] || 200;

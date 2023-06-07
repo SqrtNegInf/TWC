@@ -1,14 +1,9 @@
 #!/usr/bin/env perl
-# Test: ./ch-1.pl 50 100
-use Modern::Perl;
+use v5.36;
 
 my $a = 1;
 my $b = 200;
 my @answers;
-
-die "Invalid inputs"
-    if ( !$a || !$b || $a > $b ||
-         $a < 0 || $b > 10e15 );
 
 # Process each number
 for my $i ($a .. $b) {
