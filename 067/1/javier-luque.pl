@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
-# Test: ./ch-1.pl
-use Modern::Perl;
+use v5.36;
+
 use Algorithm::Combinatorics qw(combinations);
 
 # Default $m and $n

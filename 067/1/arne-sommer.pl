@@ -1,7 +1,7 @@
 #!/usr/bin/env perl
+use v5.36;
 
 use Algorithm::Combinatorics qw(combinations);
-use feature 'say';
 
 my $m = 5;
 my $n = 3;

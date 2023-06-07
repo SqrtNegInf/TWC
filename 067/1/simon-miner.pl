@@ -1,11 +1,7 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
+use v5.36;
 
 my ( $m, $n ) = (5,3);
-die "Max number $m is must be an integer.\n" if $m =~ m/\D/;
-die "Combination length $n is must be an integer.\n" if $n =~ m/\D/;
 
 my @combinations = get_combinations( 1, $m, $n - 1 );
 print join( "\n", @combinations ) . "\n";

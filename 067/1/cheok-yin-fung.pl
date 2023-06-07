@@ -1,9 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use Data::Dumper;
-
-# Usage:   ch-1.pl [m] [n (also size of the combinations)]
-# Main Idea: use the combinatorical identity  C(n-1,r)+C(n-1,r-1)==C(n,r)
+use v5.36;
 
 my $m = 5;
 my $n = 3;

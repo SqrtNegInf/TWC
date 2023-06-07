@@ -1,8 +1,7 @@
 #!/usr/bin/env perl
-use strict;
-use warnings FATAL => qw(all);
-use Algorithm::Combinatorics qw(combinations);
+use v5.36;
 
+use Algorithm::Combinatorics qw(combinations);
 
 my $m = shift // 5;
 my $n = shift // 3;

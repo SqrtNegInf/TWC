@@ -1,18 +1,7 @@
 #!/usr/bin/env perl
-use 5.030;
-use warnings;
-use English qw/ -no_match_vars /;
+use v5.36;
 
-sub usage {
-    print<<"-USAGE-";
-Usage:
-  $PROGRAM_NAME <m> <n>
-  
-    <m>    range
-    <n>    length of combination
--USAGE-
-    exit(0);
-}
+use English qw/ -no_match_vars /;
 
 sub combinations {
     my @list = @{$_[0]};

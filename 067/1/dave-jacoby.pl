@@ -1,15 +1,7 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-use utf8;
-use feature qw{ postderef say signatures state switch };
-no warnings qw{ experimental };
+use v5.36;
 
 use Getopt::Long;
-#use JSON;
-
-#my $json = JSON->new;
 
 my ( $m, $n ) = ( 5, 3 );
 GetOptions(
@@ -18,8 +10,6 @@ GetOptions(
 );
 
 my $output = number_combos( $m, $n );
-
-#say $json->encode($output);
 
 say "@$output\n";
 exit;
