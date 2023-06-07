@@ -1,12 +1,5 @@
 #!/usr/bin/env perl
-
-#
-# Perl Weekly Challenge - 068
-#
-# Task #2: Reorder List
-#
-# https://perlweeklychallenge.org/blog/perl-weekly-challenge-068/
-#
+use v5.36;
 
 package Node;
 

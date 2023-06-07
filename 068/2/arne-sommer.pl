@@ -1,11 +1,8 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use strict;
 use List::SomeUtils qw/zip/;
 use POSIX;
-use feature 'say';
-
-#die "Please specify a list of values" unless @ARGV;
 
 my @ARGV = 1..10;
 my $last   = $#ARGV;

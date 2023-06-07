@@ -1,4 +1,5 @@
 #!/usr/bin/env perl
+use v5.36;
 
 package Node;
 use Moo;
@@ -42,7 +43,7 @@ sub print {
     print "\n";
 }
 
-sub reorder() {
+sub reorder {
     my ($self) = @_;
 
     my $current = $self;

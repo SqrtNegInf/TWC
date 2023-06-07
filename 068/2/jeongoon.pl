@@ -1,7 +1,8 @@
 #!/usr/bin/env perl
-use utf8;
-use open ':std', ':encoding(UTF-8)';
-use strict; use warnings;
+use v5.36;
+#use utf8;
+#use open ':std', ':encoding(UTF-8)';
+#use strict; use warnings;
 use Getopt::Long;
 use Pod::Usage;
 
@@ -17,7 +18,7 @@ BEGIN {
 
     pod2usage( -exitval => 0, -verbose => 2 ) if $help;
 
-    our $dprint = sub( @ ) {
+    our $dprint = sub {
         ++$|;
         print "[DEBUG] ",@_;
     };
@@ -86,10 +87,10 @@ sub new {
     bless $obj, ( blessed $class || $class );
 }
 
-sub next_itr   () { $_[0]->[1]; }
-sub value      () { $_[0]->[0]; }
+sub next_itr   { $_[0]->[1]; }
+sub value      { $_[0]->[0]; }
 
-sub push_back_value ( $ ) {
+sub push_back_value {
     if ( not defined $_[0]->[0] and not defined $_[0]->[1] ) {
         # first iterator
         $_[0]->[0] = $_[1];
@@ -104,7 +105,7 @@ sub push_back_value ( $ ) {
     1;
 }
 
-sub push_back ( $ ) {
+sub push_back {
     my $friend_class = blessed( $_[1] );
     if ( not defined $friend_class
          or
@@ -121,7 +122,7 @@ sub push_back ( $ ) {
     return 1;
 }
 
-sub pop_back  () {
+sub pop_back  {
     if ( not defined $_[0]->[1] ) {
         return undef;
     }
@@ -138,9 +139,9 @@ sub DESTROY {
 package main;
 
 our $sep_str;
-sub separator () { $main::sep_str || " → " }
+sub separator { $main::sep_str || " → " }
 
-sub print_all_values ($) {
+sub print_all_values {
     my $itr = shift;
     print $itr->value;
     while ( $itr = $itr->next_itr ) {

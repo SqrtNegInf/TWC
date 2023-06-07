@@ -32,27 +32,15 @@ Before: 1 → 2 → 3 → 4
 After: 1 → 4 → 2 → 3
  
 ===> 068/2/jeongoon.pl <===
-1 → 7 → 2 → 6 → 3 → 5 → 4
+1  → 7�� 2 → 6 → 3 → 5 → 4 �
  
 ===> 068/2/jo-37.pl <===
-orig:	n1 -> n2 -> n3 -> 
-reord:	n1 -> n2 -> n3
-
-orig:	n1 -> n2 -> n3 -> n4 -> 
-reord:	n1 -> n2 -> n3
-
-orig:	n1 -> n2 -> n3 -> n4 -> n5 -> 
-reord:	n1 -> n2 -> n3 -> n4
-
-orig:	n1 -> n2 -> n3 -> n4 -> n5 -> n6 -> 
-reord:	n1 -> n2 -> n3 -> n4
-
-orig:	n1 -> n2 -> n3 -> n4 -> n5 -> n6 -> n7 -> 
-reord:	n1 -> n2 -> n3 -> n4 -> n5
-
-orig:	n1 -> n2 -> n3 -> n4 -> n5 -> n6 -> n7 -> n8 -> 
-reord:	n1 -> n2 -> n3 -> n4 -> n5
-
+orig:	n1 -> n2 -> n3 -> reord:	n1 -> n2 -> 
+orig:	n1 -> n2 -> n3 -> n4 -> reord:	n1 -> n2 -> 
+orig:	n1 -> n2 -> n3 -> n4 -> n5 -> reord:	n1 -> n2 -> n3 -> 
+orig:	n1 -> n2 -> n3 -> n4 -> n5 -> n6 -> reord:	n1 -> n2 -> n3 -> 
+orig:	n1 -> n2 -> n3 -> n4 -> n5 -> n6 -> n7 -> reord:	n1 -> n2 -> n3 -> n4 -> 
+orig:	n1 -> n2 -> n3 -> n4 -> n5 -> n6 -> n7 -> n8 -> reord:	n1 -> n2 -> n3 -> n4 -> 
  
 ===> 068/2/mohammad-anwar.pl <===
 1 -> 5 -> 2 -> 4 -> 3

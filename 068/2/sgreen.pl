@@ -1,10 +1,7 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use strict;
-use warnings;
-use 5.10.1;
-
-sub main (@) {
+sub main {
     # Get the list as specified
     my @l              = @_;
     my @reordered_list = ();

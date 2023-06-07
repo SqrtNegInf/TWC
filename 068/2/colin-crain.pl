@@ -1,10 +1,5 @@
 #!/usr/bin/env perl
-
-use warnings;
-use strict;
-use feature ":5.26";
-
-## ## ## ## ## MAIN:
+use v5.36;
 
 my @input = 1..5;
 
@@ -13,7 +8,7 @@ my @input = 1..5;
 my ($node, $next);
 while (scalar @input > 0) {
     my $value =  pop @input;
-    $node = new Node($value, $next);
+    $node = Node->new($value, $next);
     $next = $node;
 }
 

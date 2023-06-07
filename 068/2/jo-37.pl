@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-
-#use strict;
-#use warnings;
+use v5.36;
 
 use LinkedList::Single;
 
@@ -78,15 +76,13 @@ sub list_gen {
 }
 
 # Print node data from linked list.
-sub list_print {
-	my ($label, $list) = @_;
-
+sub list_print ($label, $list) {
 	local $" = '';
 	print "$label:\t";
 	for ($list->head; $list->has_next; $list->next) {
 		print "@{$list->node_data->[0]} -> ";
 	}
-	print "@{$list->node_data->[0]}\n";
+	#print "@{$list->node_data->[0]}\n";
 }
 
 # main
