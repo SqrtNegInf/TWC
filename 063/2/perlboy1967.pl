@@ -1,17 +1,5 @@
 #!/usr/bin/env perl
 
-# Perl Weekly Challenge - 063
-#
-# Task 2 - Rotate String
-#
-# Author: Niels 'PerlBoy' van Dijke
-
-use strict;
-use warnings;
-
-# Prototype
-sub rotateWord ($$);
-
 while ($_ = <DATA>) {
   my ($word, $n) = $_ =~ /(\S+)\s+(\d+)/;
 
@@ -19,7 +7,7 @@ while ($_ = <DATA>) {
          $word, $n, rotateWord($word, $n);
 }
   
-sub rotateWord ($$) {
+sub rotateWord {
   my ($word, $rotateNtimes) = @_;
 
   my @chars = split(//, $word);
@@ -28,5 +16,6 @@ sub rotateWord ($$) {
 
   return join('', @chars);
 }
+
 __END__
 xyxx 8

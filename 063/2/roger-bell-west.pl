@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
+use v5.36;
 
 if (rotate('xyxx') != 7) {
   die "wrong answer";

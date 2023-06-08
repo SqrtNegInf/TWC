@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-
-use feature 'say';
+use v5.36;
 
 use Getopt::Long;
 
@@ -8,7 +7,7 @@ my $verbose;
 
 GetOptions ("verbose"  => \$verbose);
 
-my $string = @ARGV[0] || 'xyxx';
+my $string = $ARGV[0] || 'xyxx';
 
 die "Illegal input string" unless $string =~ /^[xy]+$/;
 

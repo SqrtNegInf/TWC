@@ -1,30 +1,5 @@
 #!/usr/bin/env perl
-# Task 2 Challenge 063 Solution by saiftynet
-#  › Rotate String
-# Submitted by: Mohammad S Anwar
-# Reviewed by: Ryan Thompson
-# Given a word made up of an arbitrary number of x and y 
-# characters, that word can be rotated as follows: For the ith rotation 
-# (starting at i = 1), i % length(word) characters are moved from 
-# the front of the string to the end. Thus, for the string xyxx, 
-# the initial (i = 1) % 4 = 1 character (x) is moved to the end, 
-# forming yxxx. On the second rotation, (i = 2) % 4 = 2 characters 
-# (yx) are moved to the end, forming xxyx, and so on. See below 
-# for a complete example.
-# Your task is to write a function that takes a string of xs and 
-# ys and returns the minimum non-zero number of rotations required 
-# to obtain the original string. You may show the individual rotations 
-# if you wish, but that is not required.
-
-
-# Fairly straight forward to rotate a string using substr
-# to demonstrate the transforms that are occuring the routine
-# offers an optional verbose mode allowing outputing of each
-# transform.  Further clarity may be obtained by using the
-# optional colour parameter suitable for ANSI capable terminals.
-# Call using `rotateString($string,[$verbose],[$colour])`
-# There does not appear any need to confine the string to 
-# just "x" and "y"....this works with any string.
+use v5.36;
 
 # demos 3 modes
 # 1) without commentary

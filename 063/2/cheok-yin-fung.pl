@@ -1,5 +1,6 @@
 #!/usr/bin/env perl
-use strict;
+use v5.36;
+no warnings 'uninitialized';
 
 my $word = 'xyxx';
 my $wordlen = length $word;

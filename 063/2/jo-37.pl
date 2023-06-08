@@ -1,29 +1,5 @@
 #!/usr/bin/env perl
-
-# This program provides two implementations for the challenge.
-# 
-# - "num_rotate_do" performs the described rotation without any
-#   optimizations.
-# - "num_rotate_calc" does not rotate, but calculates the number
-#   of rotations.
-#
-# Both will be compared on a few edge cases, based on strings with
-# specific lengths:
-# - a power of 2: This is a worst case for rotations,
-#   but easy to catch in the computation.
-# - a sequence sum: This is a best case for rotations and a
-#   standard case for computation.
-# - a prime number: This is a standard case for rotations,
-#   but a worst case for the computation.
-# - a product of a power of 2 and two primes: a standard case for both
-# These comparisons are not fair, as there is no optimization on the
-# rotation side.  However, it shows where rotation has its strength.
-#
-# The computational approach can be much faster than an actual rotation
-# but falls behind e.g. on sequence sums.  The reason is the
-# regex match to detect a repeated substring.  It's too expensive to
-# catch up with the best cases for rotation.  However, the loss in
-# these cases is much smaller than the gain in other cases.
+use v5.36;
 
 use Test2::V0 -srand => 1;
 

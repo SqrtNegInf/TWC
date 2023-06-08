@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use feature 'say';
+use v5.36;
 
 sub rotate_once {
     my ($str, $num) = @_;

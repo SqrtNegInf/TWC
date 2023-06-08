@@ -1,4 +1,5 @@
 #!/usr/bin/env perl
+use v5.36;
 #
 #       chopped_and_screwed.pl
 #
@@ -122,10 +123,6 @@
 ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ##
 
 srand 1;
-
-use warnings;
-use strict;
-use feature ":5.26";
 
 ## ## ## ## ## MAIN:
 

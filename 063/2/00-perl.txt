@@ -41,9 +41,6 @@ rotations required: 3
 xyxx
 7
  
-===> 063/2/duncan-c-white.pl <===
-7 rotations needed
- 
 ===> 063/2/e-choroba.pl <===
 ok 1
 1..1
