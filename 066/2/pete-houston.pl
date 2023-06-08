@@ -1,21 +1,5 @@
 #!/usr/bin/env perl
-#===============================================================================
-#
-#        FILE: 6602.pl
-#
-#        USAGE: ./6602.pl NNN
-#
-#  DESCRIPTION: Express the provided number as positive integer powers
-#
-# REQUIREMENTS: perl v5.14.0
-#        NOTES: Argument must be a natural number or script will die
-#      AUTHOR: Pete Houston (pete), cpan@openstrike.co.uk
-#
-#===============================================================================
-
-use strict;
-use warnings;
-use 5.014;
+use v5.36;
 
 my $n  = 64;
 
@@ -41,17 +25,3 @@ sub power {
     }
     return @ans ? join ' ', @ans : 0;
 }
-
-__END__
-$ ./6602.pl 27
-3^3
-$ ./6602.pl 625
-25^2 5^4
-$ ./6602.pl 65536
-256^2 16^4 4^8 2^16
-$ ./6602.pl 4.2
-Argument must be a natural number
-$ ./6602.pl -3
-Argument must be a natural number
-$ ./6602.pl 1
-0

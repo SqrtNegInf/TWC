@@ -1,19 +1,7 @@
 #!/usr/bin/env perl
-
-# Perl Weekly Challenge - 066
-#
-# Task 2 - Power Integers
-#
-# Author: Niels 'PerlBoy' van Dijke
-
-use strict;
-use warnings;
-use Data::Dumper;
+use v5.36;
 
 my ($N) = 64;
-die "Only posive number allowed" if (defined $N and $N < 1);
-
-sub findPowers ($);
 
 my @test;
 
@@ -28,7 +16,7 @@ foreach my $t (@test) {
     $t, join(', ', findPowers($t));
 }
 
-sub findPowers ($) {
+sub findPowers {
   my ($n) = @_;
 
   my @p;

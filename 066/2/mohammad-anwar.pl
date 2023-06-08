@@ -1,15 +1,5 @@
 #!/usr/bin/env perl
-
-#
-# Perl Weekly Challenge - 066
-#
-# Task #2: Power Integers
-#
-# https://perlweeklychallenge.org/blog/perl-weekly-challenge-066/
-#
-
-use strict;
-use warnings;
+use v5.36;
 
 my $N = 64;
 print sprintf("%d = %s\n", $N, join(", ", @{get_power_integers($N)}));

@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use Modern::Perl   qw( 2018 );
 use Const::Fast;
 use Regexp::Common qw( number );
 

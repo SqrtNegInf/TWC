@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
-# Test: ./ch-2.pl
-use Modern::Perl;
+use v5.36;
+
 use Test::More;
 
 is (powers(9),   '3^2',      'Power: 9');

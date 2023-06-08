@@ -1,11 +1,7 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use v5.30;
+use v5.36;
 
 my ($int) = 64;
-die 'Please provide one integer e.g. \'ch-2.pl 9\''
-  if ( !defined($int) );
 
 say power_integers($int);
 

@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use feature 'say';
+use v5.36;
 
 my ($n,$e,$d) = ($ARGV[0] || 9 , 0, 2);
 

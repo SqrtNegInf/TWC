@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-use v5.24;
-use warnings;
-use utf8;
+use v5.36;
 
 my @superscripts = qw(
 	⁰ ¹ ² ³ ⁴ ⁵ ⁶ ⁷ ⁸ ⁹

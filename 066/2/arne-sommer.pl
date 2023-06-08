@@ -1,13 +1,9 @@
 #!/usr/bin/env perl
-
-use feature 'say';
+use v5.36;
 
 my $one = 0;
 
 my $N = 64;
-
-die '$N is not an integer' unless int($N) == $N;
-die '$N must be an integer larger than 1' unless $N > 1;
 
 my $match = 0;
 

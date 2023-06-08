@@ -1,9 +1,7 @@
 #!/usr/bin/env perl
-use strict;
-use v5.16;
+use v5.36;
 
 my $n = 64;
-die "\nMust provide positive integer.\n" if !$n || $n < 0;
 my $exp = 1;
 my $result;
 

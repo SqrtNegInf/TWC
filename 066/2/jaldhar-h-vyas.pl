@@ -1,17 +1,7 @@
 #!/usr/bin/env perl
-use 5.030;
-use warnings;
-use English qw/ -no_match_vars /;
+use v5.36;
 
-sub usage {
-    print<<"-USAGE-";
-Usage:
-  $PROGRAM_NAME <N>
-  
-    <N>    number to check
--USAGE-
-    exit(1);
-}
+use English qw/ -no_match_vars /;
 
 sub isPower {
     my ($num) = @_;
