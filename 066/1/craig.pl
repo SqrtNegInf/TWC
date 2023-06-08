@@ -1,11 +1,8 @@
 #!/usr/bin/env perl
-use strict;
-use v5.16;
+use v5.36;
 
 my $m = 11;
 my $n =  3;
-
-die "\nDivide by zero not allowed.\n" if $n == 0;
 
 my $count = 0;
 my $multiplier = ($m < 0 xor $n < 0) ? -1 : 1;

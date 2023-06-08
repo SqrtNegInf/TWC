@@ -1,18 +1,8 @@
 #!/usr/bin/env perl
-use 5.030;
-use warnings;
+use v5.36;
+
 use English qw/ -no_match_vars /;
 
-sub usage {
-    print<<"--USAGE--";
-Usage:
-  $PROGRAM_NAME <M> <N>
-  
-    <M>    dividend
-    <N>    divisor
---USAGE--
-    exit(1);
-}
 my ($M, $N) = (11,3);
 
 my $negative = ($M < 0) ^ ($N < 0);

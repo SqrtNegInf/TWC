@@ -1,10 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-use Data::Dumper;
-
-sub altDivide ($$);
+use v5.36;
 
 my ($M, $N) = (11,3);
 die "Can't devide by zero" if (defined $N and $N == 0);
@@ -31,7 +26,7 @@ foreach my $t (@test) {
 }
 
 
-sub altDivide ($$) {
+sub altDivide {
   my ($M, $N) = @_;
 
   my ($D, $R) = (0, 0);

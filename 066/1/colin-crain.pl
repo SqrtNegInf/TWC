@@ -1,4 +1,5 @@
 #!/usr/bin/env perl
+use v5.36;
 #
 #       sewing_division_with_stone_tools.pl
 #
@@ -27,18 +28,10 @@
 ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ##
 
 
-use warnings;
-use strict;
-use feature ":5.26";
-
-## ## ## ## ## MAIN:
-
 my ($n, $d) = (11,3);
 
 my $qf = divide_to_floor( $n, $d );
 printf "floor %d ÷ %d = %d\n", $n, $d, $qf;
-
-## ## ## ## ## SUBS:
 
 sub absolute {
 ## return array: (absolute value of $num, bool is negative)

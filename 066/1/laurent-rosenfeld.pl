@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use feature qw /say/;
+use v5.36;
 
 my ($m, $n) = (11,3);
 die "Second argument cannot be 0" if $n == 0;

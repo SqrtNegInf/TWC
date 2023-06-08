@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use v5.30;
+use v5.36;
 
 my ( $num, $den ) = (11,3);
 die 'Please provide two integers e.g. \'ch-1.pl 5 2\''

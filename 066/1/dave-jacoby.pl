@@ -1,13 +1,5 @@
 #!/usr/bin/env perl
-
-# NOT ORIGINAL WORK! code adapted from
-#   https://www.geeksforgeeks.org/division-without-using-operator/
-
-use strict;
-use warnings;
-use utf8;
-use feature qw{ postderef say signatures state switch };
-no warnings qw{ experimental };
+use v5.36;
 
 use Getopt::Long;
 use List::Util qw{sum};

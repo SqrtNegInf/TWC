@@ -1,10 +1,5 @@
 #!/usr/bin/env perl
-# Author: Steven Wilson
-# Date: 27 June 2020
 
-use strict;
-use warnings;
-use feature qw/ say /;
 use Test::More tests => 3;
 
 ok( divide( 5,  2 ) == 2 );

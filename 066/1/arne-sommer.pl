@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-
-use feature 'say';
-use feature 'signatures';
-no warnings qw(experimental::signatures);
+use v5.36;
 
 my $verbose = 0;
 
