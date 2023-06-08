@@ -1,18 +1,10 @@
 #!/usr/bin/env perl
+use v5.36;
 
-# Perl Weekly Challenge - 064
-#
-# Task 1 - Word Break
-#
-# Author: Niels 'PerlBoy' van Dijke
-
-
-use strict;
 use List::MoreUtils qw(uniq);
 
 my $s = "perlweeklychallenge";
-my  @w = ("weekly", "challenge", "perl");
-
+my @w = ("weekly", "challenge", "perl");
 
 my $re = '('.join('|', @w).')';
 

@@ -9,7 +9,7 @@ ok 6 - string match ok
 1..6
  
 ===> 064/2/cheok-yin-fung.pl <===
-"theq","uickb","rownf","ox","jumps","over","the","lazy","dog","woo"
+"perl","weekly","challenge"
  
 ===> 064/2/dave-jacoby.pl <===
 "perl","weekly","challenge"

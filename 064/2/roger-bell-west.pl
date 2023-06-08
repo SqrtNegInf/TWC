@@ -1,13 +1,8 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
+use v5.36;
 
 my $S="perlweeklychallenge";
 my @W = ("weekly", "challenge", "perl");
-
-#$S="perlandraku";
-#@W = (qw(python ruby haskell));
 
 my $sl=length($S);
 

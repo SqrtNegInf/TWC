@@ -1,12 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-# Perl Week Challenge 064 - Task #2
-# You are given a string $S and an array of words @W.
-# Write a script to find out if $S can be split into
-# sequence of one or more words as in the given @W.
-# Print the all the words if found otherwise print 0.
-
-use strict;
 my (@words, $words, $string, %pos);
 
 $string = 'perlweeklychallenge';

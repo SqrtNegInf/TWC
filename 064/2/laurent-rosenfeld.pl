@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use feature qw/say/;
+use v5.36;
 
 my $string = "perlweeklychallenge";
 my @words = <weekly challenge week perl>;
