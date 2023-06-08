@@ -1,10 +1,7 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use feature 'say';
-use feature 'signatures';
-no warnings qw(experimental::signatures);
-
-my $verbose = (@ARGV && @ARGV[0] eq "--verbose");
+my $verbose = (@ARGV && $ARGV[0] eq "--verbose");
 
 sub last_word ($string, $regex)
 {

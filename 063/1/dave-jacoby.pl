@@ -1,18 +1,8 @@
 #!/usr/bin/env perl
-
-# USAGE: ch-1.pl [-u] [file ...]
-
-use strict;
-use warnings;
-use utf8;
-use feature qw{ fc postderef say signatures state switch };
-no warnings qw{ experimental };
+use v5.36;
 
 use Getopt::Long;
 use Carp;
-use JSON;
-
-my $json = JSON->new->canonical->allow_nonref->pretty->space_after;
 
 say last_word();
 say last_word( '  hello world',                qr/[ea]l/ ) || 'undef'; # 'hello'

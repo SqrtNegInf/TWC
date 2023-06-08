@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 use Test::Simple tests => 3;
-use strict;
 
 sub last_word {
     my $qr = $_[1];

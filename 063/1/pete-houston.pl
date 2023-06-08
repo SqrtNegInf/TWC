@@ -1,17 +1,5 @@
 #!/usr/bin/env perl
-#
-#===============================================================================
-#
-#        FILE: 6301.t
-#
-#  DESCRIPTION: Last word test cases with solution
-#
-#      AUTHOR: Pete Houston
-#
-#===============================================================================
-
-use strict;
-use warnings;
+use v5.36;
 
 use List::MoreUtils 'lastval';
 use Test::More tests => 4;

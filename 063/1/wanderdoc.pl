@@ -1,13 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings FATAL => qw(all);
-
-=prompt
-Define sub last_word($string, $regexp) that returns the last word matching $regexp found in the given string, or undef if the string does not contain a word matching $regexp.
-For this challenge, a "word" is defined as any character sequence consisting of non-whitespace characters (\S) only. That means punctuation and other symbols are part of the word.
-The $regexp is a regular expression. Take care that the regexp can only match individual words! 
-=cut
-
+use v5.36;
 
 use Test::More;
 

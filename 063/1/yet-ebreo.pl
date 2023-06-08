@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use feature 'say';
+use v5.36;
 
 sub last_word { say ((grep  /$_[1]/ , $_[0] =~ /\S+/g)[-1]) }
 

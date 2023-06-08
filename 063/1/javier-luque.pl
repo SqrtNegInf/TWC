@@ -1,8 +1,6 @@
 #!/usr/bin/env perl
-# Test: ./ch-1.pl -u
-use strict;
-use warnings;
-use feature qw /say/;
+use v5.36;
+
 use Test::More;
 
 is (last_word('  hello world',                qr/[ea]l/),      'hello',  'Hello world');

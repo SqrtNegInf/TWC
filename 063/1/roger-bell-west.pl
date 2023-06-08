@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
+use v5.36;
 
 if (last_word('  hello world',                qr/[ea]l/) ne 'hello') {
   die 1;
