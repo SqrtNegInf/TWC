@@ -1,17 +1,7 @@
 #!/usr/bin/env perl
-
-# Perl Weekly Challenge - 065
-#
-# Task 2 - Palindrome Partition
-#
-# Author: Niels 'PerlBoy' van Dijke
-
-use strict;
-use warnings;
+use v5.36;
 
 use List::Util qw(max);
-
-sub getPalindromes ($);
 
 my @input = (
   'aabaab',
@@ -46,7 +36,7 @@ for my $input (@input) {
   }
 }
 
-sub getPalindromes ($) {
+sub getPalindromes {
   my ($input) = @_;
   
   my @p; 

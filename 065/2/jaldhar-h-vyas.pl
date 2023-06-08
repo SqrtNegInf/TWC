@@ -1,19 +1,7 @@
 #!/usr/bin/env perl
-use warnings;
-use strict;
-use 5.010;
+use v5.36;
+
 use English qw/ -no_match_vars /;
-
-sub usage() {
-    print<<"-USAGE-";
-Usage:
-  $PROGRAM_NAME <S>
-  
-    <S>    string to search for palindromes
--USAGE-
-
-    exit(1);
-}
 
 sub is_palindrome {
     my ($s) = @_;

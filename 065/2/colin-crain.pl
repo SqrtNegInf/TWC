@@ -1,10 +1,5 @@
 #!/usr/bin/env perl
-
-use warnings;
-use strict;
-use feature ":5.26";
-
-## ## ## ## ## MAIN:
+use v5.36;
 
 my $string = prepare_input( @ARGV );
 $string ||= "aaabaaabaaa";
@@ -17,8 +12,6 @@ get_lists( $string, [], $solutions, \@palins);
 for ($solutions->@*) {
     say "$_->@*";
 }
-
-## ## ## ## ## SUBS:
 
 sub all_palindromes {
 ## extract every possible palindrome from the input string

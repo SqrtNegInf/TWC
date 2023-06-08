@@ -1,15 +1,5 @@
 #!/usr/bin/env perl
-
-#
-# Perl Weekly Challenge - 065
-#
-# Task #2: Palindrome Partition
-#
-# https://perlweeklychallenge.org/blog/perl-weekly-challenge-065/
-#
-
-use strict;
-use warnings;
+use v5.36;
 
 use Algorithm::Combinatorics qw(partitions);
 

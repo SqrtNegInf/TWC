@@ -1,7 +1,6 @@
 #!/usr/bin/env perl
-use strict;
-
-#Usage: ch-2.pl STRING
+use v5.36;
+no warnings 'uninitialized';
 
 sub is_pali {
     my $w = $_[0];           #word

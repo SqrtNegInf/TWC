@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
-use v5.24;
-use warnings;
+use v5.36;
+
 use constant PALINDROME_MIN_SIZE => 2;
 
 sub finder

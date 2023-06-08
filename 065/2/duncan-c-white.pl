@@ -1,10 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-use feature 'say';
-use Function::Parameters;
-use Data::Dumper;
+use v5.36;
 
 my $string = 'aabbababba';
 
@@ -12,7 +7,7 @@ my $string = 'aabbababba';
 # my $ispal = ispalindrome($string);
 #	Return 1 iff $string is a palindrome; 0 otherwise.
 #
-fun ispalindrome( $string )
+sub ispalindrome( $string )
 {
 	my $r = reverse($string);
 	return $string eq $r ? 1 : 0;
@@ -24,7 +19,7 @@ fun ispalindrome( $string )
 #	Find all single substrings of length>1 of $string that are palindromes.
 #	Return the list of singleton palindromic substrings.
 #
-fun p1( $string )
+sub p1( $string )
 {
 	my @result;
 	my $l = length($string);
@@ -48,7 +43,7 @@ fun p1( $string )
 #	Find all pairs of non-overlapping substrings of length>1 of
 #	$string that are palindomes.  Return a list of pairs.
 #
-fun p2( $string )
+sub p2( $string )
 {
 	my @result;
 	my $l = length($string);
