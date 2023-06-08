@@ -1,12 +1,5 @@
 #!/usr/bin/env perl
-
-# USAGE: ch-1.pl [-u] [file ...]
-
-use strict;
-use warnings;
-use utf8;
-use feature qw{ fc postderef say signatures state switch };
-no warnings qw{ experimental };
+use v5.36;
 
 use List::Util qw{sum};
 

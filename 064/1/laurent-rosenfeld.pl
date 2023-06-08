@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use feature qw/say/;
+use v5.36;
 
 my @mat = ([qw<7 8 9>], [qw<1 2 3>],  [qw<4 5 6>] );
 my @best_path;

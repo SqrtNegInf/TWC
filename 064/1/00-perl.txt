@@ -75,7 +75,7 @@ Minimum Sum Path: 21
 Path: 1 => 2 => 3 => 6 => 9
  
 ===> 064/1/roger-bell-west.pl <===
-21 ( 1 → 2 → 3 → 6 → 9 )
+21 ( 1 â 2 â 3 â 6 â 9 )
  
 ===> 064/1/wanderdoc.pl <===
 The path with minimal sum of 21 is 1->2->3->6->9.

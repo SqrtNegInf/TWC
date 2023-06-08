@@ -1,10 +1,7 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
+use v5.36;
 
 use List::Util qw(sum);
-use utf8;
 
 my @in=(
   [qw(1 2 3)],

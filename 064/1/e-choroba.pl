@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-use warnings;
-use strict;
-
-use utf8;
+use v5.36;
 
 sub _mins {
     my @matrix = @_;

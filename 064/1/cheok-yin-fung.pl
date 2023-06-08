@@ -1,15 +1,8 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use strict;
-use Data::Dumper;
 use List::Util qw/sum/;
 
-#  $steps : a string looks like DDDDRRRR,  DDRRRR, RDRDRD... 
-
-# my @ms = ([1,2,3], [4,5,6], [7,8,9]); # ms = shorthand of  matrixrows 
-# ans = 21
-# my @ms = ([1, 4, 7], [2, 0, 8], [3, 6, 9]); 
-# ans = 21
  my @ms = ([1, 4, 7, 12], [2, 0, 8, 9], [3, 6, 9, 8]); 
 # ans = 26
 

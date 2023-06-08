@@ -1,4 +1,5 @@
 #!/usr/bin/env perl
+use v5.36;
 
 # Use Dijkstra's algorithm to find a minimum weighted path
 # through a matrix.

@@ -1,28 +1,7 @@
 #!/usr/bin/env perl
-use strict;
-use warnings FATAL => qw(all);
-
-=prompt
-Given an m × n matrix with non-negative integers, write a script to find a path from top left to bottom right which minimizes the sum of all numbers along its path.
-You can only move either down or right at any point in time.
-Example
-Input:
-[ 1 2 3 ]
-[ 4 5 6 ]
-[ 7 8 9 ]
-
-The minimum sum path looks like this:
-1→2→3
-    ↓
-    6
-    ↓
-    9
-Thus, your script could output: 21 ( 1 → 2 → 3 → 6 → 9 )
-=cut
+use v5.36;
 
 use List::Util qw(sum);
-
-
 
 my $matrix = [ [ 1, 2, 3 ], [ 4, 5, 6 ], [ 7, 8, 9 ] ];
 my $M = $#$matrix;

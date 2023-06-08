@@ -1,10 +1,5 @@
 #!/usr/bin/env perl
-
-use warnings;
-use strict;
-use feature ":5.26";
-
-## ## ## ## ## MAIN:
+use v5.36;
 
 my $graph = [   [  1,  16,  12,  43,  48,  19 ],
                 [ 13,   7,   9,  16,  26,  8  ],

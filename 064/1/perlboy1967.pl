@@ -1,17 +1,9 @@
 #!/usr/bin/env perl
-
-# Perl Weekly Challenge - 064
-#
-# Task 1 - Minimum Sum Path
-#
-# Author: Niels 'PerlBoy' van Dijke
-
-use strict;
+use v5.36;
 
 use List::Util qw(min);
-use Data::Dumper;
 
-sub findMinSumPath($$\@\@);
+sub findMinSumPath :prototype($$\@\@);
 
 my @msp;
 
@@ -28,7 +20,7 @@ printf "\nMinimum Sum Path: %d\n", $minSumPath;
 printf "Path: %s\n", join(' => ', @msp);
 
 
-sub findMinSumPath ($$\@\@) {
+sub findMinSumPath :prototype($$\@\@) {
   my ($x, $y, $arMatrix, $arMsp) = @_;
 
   my $return;
