@@ -1,15 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use strict;
-use feature 'say';
-
-my $verbose = 0;
-
-if ($ARGV[0] eq "--verbose")
-{
-  $verbose = 1;
-  shift @ARGV;
-}
 
 my $N     = 2;
 my $S     = 10;
@@ -21,8 +12,6 @@ my $start = 10 ** ($N - 1);
 my $stop  = (10 ** $N) -1;
 my @all   = ($start .. $stop);
 my @some  = grep { get_sum($_) == $S } @all;
-
-say ": Max Range ($start .. $stop)" if $verbose;
 
 say join(", ", @some);
 

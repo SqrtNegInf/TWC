@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
-# Test: ./ch-1.pl
-use Modern::Perl;
+use v5.36;
+
 use List::Util qw/sum/;
 
 # Store the answers

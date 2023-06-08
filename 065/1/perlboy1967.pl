@@ -1,13 +1,5 @@
 #!/usr/bin/env perl
-
-# Perl Weekly Challenge - 065
-#
-# Task 1 - Digit Sum 
-#
-# Author: Niels 'PerlBoy' van Dijke
-
-use strict;
-use warnings;
+use v5.36;
 
 use List::Util qw(sum);
 

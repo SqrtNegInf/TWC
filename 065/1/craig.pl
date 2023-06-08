@@ -1,8 +1,7 @@
 #!/usr/bin/env perl
-use strict;
-use v5.16;
+use v5.36;
+
 use Integer::Partition;
-use Data::Dumper;
 
 my $n = shift // 2;
 my $s = shift // 10;
