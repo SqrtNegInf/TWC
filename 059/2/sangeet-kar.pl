@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-use 5.30.0;
-use warnings;
+use v5.36;
 
 use List::Util qw(sum);
 use Algorithm::Combinatorics qw(combinations);

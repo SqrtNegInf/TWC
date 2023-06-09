@@ -1,14 +1,9 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use v5.012;
-use warnings;
 use bigint;
 use Config;
 use List::Util qw(all sum);
-
-# PWC 059, TASK #2 : Bit Sum
-
-# Answer based on perl doc for unpack and www.perlmonks.org/?node_id=407933
 
 my @ARGV = (2,3,4);
 
@@ -35,6 +30,6 @@ my @nums = map { num2bitstr $_ } @ARGV;
 
 my ( @diffbits, $num );
 while ( $num = pop @nums ) {
-    push @diffbits, unpack( "%${LL}b*", $num ^ $_ ) for @nums;
+    push @diffbits, unpack( "%${LL}b*", $num ^. $_ ) for @nums;
 }
 say @diffbits ? sum @diffbits : 0;

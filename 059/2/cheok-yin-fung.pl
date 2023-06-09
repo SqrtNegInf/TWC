@@ -1,10 +1,8 @@
 #!/usr/bin/env perl
-use strict;
+use v5.36;
+
 use Test::Simple tests => 2;
 use List::Util qw/max sum/;
-
-#reference: https://www.tutorialspoint.com/perl/bitwise_operators_example.htm
-
 
 sub f {  # compare two bit-strings by xor
     my $hint = ($_[0] ^ $_[1]) ;
@@ -25,7 +23,7 @@ sub conclude {
 }
 
 
-ok (conclude(3,2,3,4) == 6), "bad";
-ok (conclude(2,1,3)==1), "too bad";
+ok (conclude(3,2,3,4) == 6);
+ok (conclude(2,1,3)==1);
 
 

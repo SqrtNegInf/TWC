@@ -1,13 +1,6 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-##
-# Write a function which returns the count of 
-# different bits of the binary representation of 
-# positive numbers a and b. The script should 
-# accept n positive numbers and sum the result 
-# for every pair of numbers given.  
-##
+use v5.36;
+
 sub count_different_bits{
     my($a, $b) = @_;
     my $bits = 0;
