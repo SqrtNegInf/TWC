@@ -1,20 +1,9 @@
 #!/usr/bin/env perl
-
-# Perl Weekly Challenge - 062 
-#
-# Task 1 - Sort Email Addresses
-#
-# Author: Niels 'PerlBoy' van Dijke
-
-
-use strict;
-use warnings;
+use v5.36;
+no warnings;
 
 my @emailInput;
 my @emailOutput;
-
-# Prototype for 'by reference' variables (speed)
-sub sortEmail ($$);
 
 my $uniq = 0;
 #shift(@ARGV) if $uniq;
@@ -40,7 +29,7 @@ foreach (@ARGV) {
 
 print join("\n", @emailOutput, '');
 
-sub sortEmail ($$) {
+sub sortEmail {
   my ($r1, $d1) = $_[0] =~ m#^([^@]+)@(.*)#;
   my ($r2, $d2) = $_[1] =~ m#^([^@]+)@(.*)#;
 

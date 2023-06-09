@@ -1,8 +1,6 @@
 #!/usr/bin/env perl
-# Test: ./ch-1.pl -u
-use strict;
-use warnings;
-use feature qw /say/;
+use v5.36;
+
 use Getopt::Long;
 
 # Unique flag

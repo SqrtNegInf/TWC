@@ -1,8 +1,7 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use strict;
-
-sub sort_mail (;+) {
+sub sort_mail :prototype(;+) {
    my @addrs = @{shift()};
    my @sort = map { $_->[0] } 
               sort { lc($a->[1][1]) cmp lc($b->[1][1]) or $a->[1][0] cmp $b->[1][0] } 
@@ -10,7 +9,7 @@ sub sort_mail (;+) {
               @addrs;
 }
 
-sub uniq_mail (;+) {
+sub uniq_mail :prototype(;+) {
    my @addrs = @{shift()};
    my %uniq = map { $_ => $_ } 
               map { $_->[0] . '@' . lc ($_->[1]) } 

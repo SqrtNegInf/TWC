@@ -94,11 +94,11 @@ name@example.org
 
  
 ===> 062/1/perlboy1967.pl <===
-user@alpha.example.org
-rjt@cpan.org
-rjt@CPAN.org
-Name@example.org
 name@example.org
+rjt@cpan.org
+Name@example.org
+rjt@CPAN.org
+user@alpha.example.org
  
 ===> 062/1/roger-bell-west.pl <===
 user@alpha.example.org

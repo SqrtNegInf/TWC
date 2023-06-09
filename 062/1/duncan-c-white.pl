@@ -1,9 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use strict;
-use warnings;
-use feature 'say';
-use Function::Parameters;
 use Getopt::Long;
 
 my $unique = 0;
@@ -44,7 +41,7 @@ sub compare
 #	- lowercasing every domain, because domains are case insensitive
 #	- lowercasing every name IF $caseinsensitive
 #
-fun sanitize( $in )
+sub sanitize( $in )
 {
 	my( $name, $dom ) = split( /@/, $in, 2 );
 	$dom = lc($dom);

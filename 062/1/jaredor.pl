@@ -1,10 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-# PWC 062, TASK #1 : Sort Email Addresses
-
-use v5.012;
-use warnings;
-use autodie;
 use Getopt::Long;
 use Pod::Usage;
 use List::Util qw(first uniq);

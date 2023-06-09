@@ -1,7 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use strict;use warnings;
-use 5.10.0;
 my @list=();
 my %option=(
    unique=>0,
