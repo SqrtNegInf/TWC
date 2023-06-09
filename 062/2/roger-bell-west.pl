@@ -1,10 +1,7 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
+use v5.36;
 
 use List::Util qw(max);
-#use Data::Dumper;
 
 my $n=$ARGV[0] || 3;
 

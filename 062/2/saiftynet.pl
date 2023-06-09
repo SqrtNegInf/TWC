@@ -1,29 +1,6 @@
 #!/usr/bin/env perl
-# Task 2 Challenge 062 Solution by saiftynet
-#  › N QueensSubmitted by: Ryan ThompsonA standard 8×8 chessboard 
-# has 64 squares. The Queen is a chesspiece that can attack in 8 
-# directions, as shown by the green shaded squares below:
-# 
-# It is possible to place 8 queens on to a single chessboard such 
-# that none of the queens can attack each other (i.e., their shaded 
-# squares would not overlap). In fact, there are multiple ways to 
-# do so, and this is a favourite undergraduate assignment in computer 
-# science.
-# But here at PWC, we&rsquo;re going to take it into the next dimension!
-# Your job is to write a script to work with a three dimensional 
-# chess cube, M×M×M in size, and find a solution that maximizes 
-# the number of queens that can be placed in that cube without attacking 
-# each other. Output one possible solution.
+use v5.36;
 
-
-# This was a Bugger.
-# Calculating all possibilities and then establishing the highest possible 
-# number of queens was taking me too long and I gave up.  Instead here
-# is a solution that produces a possible answer, without verifying that 
-# it is indeed the highest possible number of queens in the 3D grid.
-
-
-use strict;use warnings;
 my $side=4;                               # number of squares per side 
 my @grid;
 $grid[$side-1][$side-1][$side-1]=undef;   # initialise 3d grid

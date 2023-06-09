@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use feature 'say';
-use Data::Dumper;
+use v5.36;
 
 my $m = $ARGV[0] || 4;
 my %qp;

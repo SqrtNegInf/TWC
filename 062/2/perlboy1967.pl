@@ -1,26 +1,14 @@
 #!/usr/bin/env perl
-
-# Perl Weekly Challenge - 062
-#
-# Task 2 - N Queens
-#
-# Author: Niels 'PerlBoy' van Dijke
-#
-# Usage: perl ch-2.pl <dimension>
-#
-# Note: Up to dimension 8 a random setup is searched
-#       Above 8 a standard output is produced
+use v5.36;
 
 srand 1;
 
-use strict;
-use warnings;
 use List::Util qw(first shuffle);
 use IO::Handle;
 use Time::HiRes qw(gettimeofday tv_interval);
 
 # Prototype
-sub tryPlaceQueen (\%$$$);
+sub tryPlaceQueen :prototype(\%$$$);
 
 #my $t0 = [gettimeofday];
 
@@ -137,7 +125,7 @@ sub printBoard {
 }
 
  
-sub tryPlaceQueen (\%$$$) {
+sub tryPlaceQueen :prototype(\%$$$) {
   my ($cc, $z, $y, $x) = @_;
 
   my %d;

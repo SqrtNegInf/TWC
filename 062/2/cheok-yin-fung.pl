@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use Data::Dumper;
+use v5.36;
 
 my $M = 3; #$ARGV[0];
 my $maxans = $M;  #starting point

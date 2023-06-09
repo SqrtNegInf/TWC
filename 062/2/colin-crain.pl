@@ -1,18 +1,8 @@
 #!/usr/bin/env perl
-#
-#       62_2_spacequeen.pl
-#
-#
-#
-#       2020 colin crain
-## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ##
+use v5.36;
 
 
 srand 1;
-
-use warnings;
-use strict;
-use feature ":5.26";
 
 use POSIX qw( ceil );
 use List::Util qw( all );
