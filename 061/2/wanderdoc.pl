@@ -1,12 +1,9 @@
 #!/usr/bin/env perl
-use strict;
-use warnings FATAL => qw(all);
+use v5.36;
 
 my $string = shift || 25525511135;
 
 find_address($string);
-
-
 
 sub find_address
 {

@@ -1,8 +1,6 @@
 #!/usr/bin/env perl
-# Test: ./ch-2.pl
-use strict;
-use warnings;
-use feature qw /say/;
+use v5.36;
+
 use Algorithm::Combinatorics qw(combinations);
 
 my $ip_address = $ARGV[0] || '25525511135';

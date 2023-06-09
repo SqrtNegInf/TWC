@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
+use v5.36;
 
 my $S = $ARGV[0] || "25525511135";
 my @V = ipv4_partition($S);

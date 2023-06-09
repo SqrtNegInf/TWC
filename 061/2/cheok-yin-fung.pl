@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-#use Array::Compare, List::Compare;
-#use Test::Simple tests => 7;
+use v5.36;
 
 sub threesum {
     my $len = $_[0];

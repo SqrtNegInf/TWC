@@ -1,10 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-use utf8;
-use feature qw{ postderef say signatures state switch };
-no warnings qw{ experimental };
+use v5.36;
 
 my $input = '25525511135';
 ($input) = $ARGV[0] =~ /(\d+)/ if defined $ARGV[0];

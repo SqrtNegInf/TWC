@@ -1,35 +1,5 @@
 #!/usr/bin/env perl
-
-# Perl Weekly Challenge - 061 - Task 2
-#
-# Author: Niels 'PerlBoy' van Dijke
-#
-# Note:
-#   The input should be one 'ip number' per line
-#
-# Challenge:
-#
-# You are given a string containing only digits (0..9). The string should have between 4 and 12 digits.
-# 
-# Write a script to print every possible valid IPv4 address that can be made by partitioning the input string.
-#
-# For the purpose of this challenge, a valid IPv4 address consists of four “octets” i.e. A, B, C and D, 
-# separated by dots (.).
-#
-# Each octet must be between 0 and 255, and must not have any leading zeroes. (e.g., 0 is OK, but 01 is not.)
-#
-# Example
-#
-# Input: 25525511135,
-# 
-# Output:
-#
-# 255.255.11.135
-# 255.255.111.35
-
-
-use strict;
-use warnings;
+use v5.36;
 
 # Define octet regexp options
 my %d = (

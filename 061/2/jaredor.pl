@@ -1,19 +1,11 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use v5.012;
-use warnings;
 use integer;
 use Getopt::Long;
 use Pod::Usage;
 
-# PWC 061, TASK #2 : IPv4 Partition
-
-# Validate Input
-
 test();
-exit;    # End of main script.
-
-# The main algorithm.
 
 sub get_octets {
 
