@@ -1,11 +1,8 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use v5.012;
-use warnings;
 use integer;
 use List::Util qw(reduce all);
-
-# PWC 060, TASK #1 : Excel Column
 
 my ( @alpha, %trans ) = ( 'A' .. 'Z', );
 @trans{ @alpha, keys @alpha } = ( keys(@alpha), @alpha, );

@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-# test a number of possible inputs
 foreach my $test (qw/1000 A KVZ 12 1337 16384 PERL/){
    printf "*  %8s converted is  %8s and again is %8s \n",
          $test, xlcolumn($test),  xlcolumn(xlcolumn($test));

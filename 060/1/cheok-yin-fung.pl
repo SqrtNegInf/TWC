@@ -1,12 +1,7 @@
 #!/usr/bin/env perl
-use strict;
-
-#usage: 
-#Input: ch-1.pl -e NUMBER      Output: corresponding Excel Column
-#Input: ch-1.pl -n ALPHABETAS  Output: corresponding number
+use v5.36;
 
 my $MAX = 16384;
-
 
 print numtoExcelCol(28)," \n";
 print excelcoltoNum('AB'),"\n";

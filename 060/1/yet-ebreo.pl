@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use feature 'say';
+use v5.36;
 
 sub to_num  {
     (ord) - 64 + 26 * (&to_num||0) if $_ = chop @_
@@ -20,38 +18,3 @@ if ($excelcol=~/\D/) {
 } else {
     say to_exl($excelcol);
 }
-=begin
-perl .\ch-1.pl 2708874 
-EXCEL
-
-perl .\ch-1.pl 1
-A
-
-perl .\ch-1.pl A
-1
-
-perl .\ch-1.pl 26
-Z
-
-perl .\ch-1.pl Z
-26
-
-perl .\ch-1.pl 661
-YK
-
-perl .\ch-1.pl YK
-661
-
-perl .\ch-1.pl 16384
-XFD
-
-perl .\ch-1.pl XFD
-16384
-
-perl .\ch-1.pl 214358502
-RABBIT
-
-perl .\ch-1.pl RABBIT
-214358502
-
-=cut

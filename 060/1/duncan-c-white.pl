@@ -1,9 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-use feature 'say';
-
+use v5.36;
 
 my $n = 28;
 die "excel-column: N should be 1..16384\n" unless $n>0 && $n<=16384;

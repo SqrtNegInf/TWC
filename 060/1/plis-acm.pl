@@ -1,9 +1,5 @@
 #!/usr/bin/env perl
-
-use 5.018;
-use utf8;
-use warnings;
-use diagnostics;
+use v5.36;
 
 my $input = 28;
 if ($input eq "") {

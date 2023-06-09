@@ -1,16 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-# Input: column numbers (>=1) or column labels ([A-Z]+),
-# output: column labels or column numbers
-# Without arguments, converts some example values
-
-# The numbering schema differs from the usual base(k) in the absence
-# of a digit "zero".  I.e. there are digits for 1 .. k instead of
-# 0 .. (k -1).  This results in the off-by-one modifications
-# from the known formulae
-
-use strict;
-use warnings;
 use bigint;
 use constant BASE => 26;
 

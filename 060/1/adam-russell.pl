@@ -1,10 +1,6 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-##
-# Write a script that accepts a number and returns 
-# the Excel Column Name it represents and vice-versa.
-## 
+use v5.36;
+
 sub number_to_column{
     my($n) = @_;
     my $s = "";

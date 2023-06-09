@@ -1,5 +1,6 @@
 #!/usr/bin/env perl
-use strict;
+use v5.36;
+
 my (%cols, @cols, %nums, @nums);
 @cols = ('A'..'ZZZ'); 
 @cols{1..scalar(@cols)} = @cols;
