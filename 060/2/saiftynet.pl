@@ -1,24 +1,5 @@
 #!/usr/bin/env perl
-# Task 2 Challenge 060 Solution by saiftynet
-# Find NumbersReviewed by: Ryan Thompson
-# Write a script that accepts list of positive
-# numbers (@L) and two positive numbers $X and 
-# $Y.
-# The script should print all possible numbers made by concatenating 
-# the numbers from @L, whose length is exactly $X but value is less 
-# than $Y.
-# Example
-# Input:
-# @L = (0, 1, 2, 5);
-# $X = 2;
-# $Y = 21;
-# Output:
-# 10, 11, 12, 15, 20
-
-# NOTES: Example indicates 1) duplicates are allowed
-#  2) leading zeroes do not count. 
-
-use strict; use warnings;
+use v5.36;
 
 my @L = (0, 1, 2, 5);
 my $X = 2;

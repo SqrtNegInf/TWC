@@ -1,5 +1,6 @@
 #!/usr/bin/env perl
-use strict;
+use v5.36;
+
 use List::MoreUtils qw(uniq);
 use Math::Combinatorics;
 

@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
-use 5.30.0;
-use warnings;
+use v5.36;
+
 use Algorithm::Combinatorics qw(variations_with_repetition);
 
 sub solve {

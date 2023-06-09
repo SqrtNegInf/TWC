@@ -1,9 +1,6 @@
 #!/usr/bin/env perl
-# Test: ./ch-2.pl
+use v5.36;
 
-use strict;
-use warnings;
-use feature qw /say/;
 use Algorithm::Combinatorics qw /variations/;
 
 my @L = (0, 1, 2, 5);

@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings FATAL => qw(all);
+use v5.36;
 
 my @numbers = (0, 1, 2, 5);
 my $X = 2;

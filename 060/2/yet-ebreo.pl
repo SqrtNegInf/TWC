@@ -1,7 +1,6 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use feature 'say';
+use v5.36;
+
 use Algorithm::Combinatorics qw(variations_with_repetition);
 
 my @L = (0, 1, 2, 5);

@@ -1,13 +1,5 @@
 #!/usr/bin/env perl
-
-# sub create_numbers generates numbers
-# - of length $X
-# - that are smaller than $Y
-# - from the parts in @L.
-# See below.
-#
-# Though data has been described as numeric, processing is
-# strictly string based. (Example provided.)
+use v5.36;
 
 use Test2::V0 -srand => 1;
 

@@ -1,17 +1,7 @@
 #!/usr/bin/env perl
-use 5.020;
-use warnings;
-use English qw/ -no_match_vars /;
-sub usage {
-    say<<"-USAGE-";
-  $PROGRAM_NAME <X> <Y> [<L> ...]
+use v5.36;
 
-    <X>          number of digits in output numbers
-    <Y>          output numbers must be less than this amount
-    [<L> ...]    list of input numbers
--USAGE-
-    exit 0;
-}
+use English qw/ -no_match_vars /;
 
 sub combinations {
     my @list = @{$_[0]};

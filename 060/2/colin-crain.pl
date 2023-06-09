@@ -1,4 +1,5 @@
 #!/usr/bin/env perl
+use v5.36;
 #
 #       gathering_digits_down_under.pl
 #
@@ -111,12 +112,6 @@
 #
 #       2020 colin crain
 ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ##
-
-use warnings;
-use strict;
-use feature ":5.26";
-
-## ## ## ## ## MAIN:
 
 my ($x, $y, @array) = (2, 21, 0, 1, 2, 5);
 

@@ -1,14 +1,6 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-##
-# Write a script that accepts list of positive numbers 
-# and two positive numbers, a number of digits and a 
-# maximum value. The script should print all possible 
-# numbers made by concatenating the numbers from the 
-# list whose length is exactly the number of digits
-# and value is less than the maximum.
-##
+use v5.36;
+
 use List::MoreUtils q/uniq/;
 use Math::Prime::Util q/forperm/;;
 use Algorithm::Combinatorics q/combinations_with_repetition/;
