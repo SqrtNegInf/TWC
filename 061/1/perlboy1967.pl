@@ -1,25 +1,5 @@
 #!/usr/bin/env perl
-
-# Perl Weekly Challenge - 061 - Task 1
-#
-# Author: Niels 'PerlBoy' van Dijke
-#
-# Usage:
-#   perl ch-1.pl < number_list_file
-#
-# Challenge:
-# Given a list of 4 or more numbers, write a script to find the contiguous sublist 
-# that has the maximum product. The length of the sublist is irrelevant; 
-# your job is to maximize the product.
-#
-# Example
-#
-# Input: [ 2, 5, -1, 3 ]
-#
-# Output: [ 2, 5 ] which gives maximum product 10.
-
-use strict;
-use warnings;
+use v5.36;
 
 my @listOfLists;
 

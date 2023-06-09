@@ -1,6 +1,7 @@
 #!/usr/bin/env perl
-#/usr/bin/perl
-use strict;
+use v5.36;
+no warnings 'uninitialized';
+
 my @original = ( 2, 5, -1, 3 );
 #my @original = (9, 3,0, -1, 3, 9, -1);
 

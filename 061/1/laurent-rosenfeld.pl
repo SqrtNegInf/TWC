@@ -1,7 +1,6 @@
 #!/usr/bin/env perl
-use strict;
-no warnings;
-use feature qw /say/;
+use v5.36;
+no warnings 'uninitialized';
 
 my @input = ( 2, 5, -1, 3 );
 die "please supply at least two integers" if @input < 2;

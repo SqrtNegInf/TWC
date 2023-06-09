@@ -1,24 +1,5 @@
 #!/usr/bin/env perl
-#
-# Task 1: "Product SubArray
-# 
-# Given a list of 4 or more numbers, write a script to find the contiguous
-# sublist that has the maximum product. The length of the sublist is
-# irrelevant; your job is to maximize the product.
-# 
-# Example
-# 
-# Input: [ 2, 5, -1, 3 ]
-# 
-# Output: [ 2, 5 ] which gives maximum product 10.
-# "
-# 
-# My notes: very straightforward.
-#
-
-use strict;
-use warnings;
-use feature 'say';
+use v5.36;
 
 my @l = ( 2, 5, -1, 3 );
 my $max = $l[0];

@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-# Test: ./ch-1.pl 30
-use strict;
-use warnings;
-use feature qw /say/;
+use v5.36;
 
 say max_product([ 2, 5, -1, 3 ]);
 

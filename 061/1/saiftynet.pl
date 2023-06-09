@@ -1,20 +1,7 @@
 #!/usr/bin/env perl
-# Task 1 Challenge 061 Solution by saiftynet
-# Product SubArray Reviewed by: Ryan ThompsonGiven a list of 4 
-# or more numbers, write a script to find the contiguous sublist 
-# that has the maximum product. The length of the sublist is irrelevant; 
-# your job is to maximize the product.
-# Example
-# Input: [ 2, 5, -1, 3 ]
-# Output: [ 2, 5 ] which gives maximum product 10.
-
-# brute force method trying every possible contiguous segments of
-# the list provided.  Choose a start and multiply every subsequent
-# number in list, recording starts ands and result for each find if
-# better than the best found so far.
+use v5.36;
 
 srand 1;
-use strict;use warnings;
 
 maxProductSubArray(randList())  foreach (0..3);
 

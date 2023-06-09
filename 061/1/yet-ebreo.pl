@@ -1,11 +1,6 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use feature 'say';
+use v5.36;
 
-# Given a list of 4 or more numbers, write a script to find the 
-# contiguous sublist that has the maximum product. 
-# The length of the sublist is irrelevant; your job is to maximize the product.
 my @input = @ARGV ? @ARGV:(2, 5, -1, 3);
 my $max = 0;
 my @ret;

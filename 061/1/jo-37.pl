@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-
-# the challange says: you are given a list of 4 or more numbers.
-# It is not clear if these are integers.
-# In this implementation integers are presumed.
+use v5.36;
 
 use Test2::V0 -srand => 1;
 use bigint;

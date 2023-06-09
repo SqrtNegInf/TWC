@@ -1,7 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use strict;
-use warnings;
 use List::Util qw/max pairvalues pairfirst/;
 
 sub maximise_product {
@@ -22,6 +21,3 @@ sub maximise_product {
 }
 
 print join(', ', maximise_product([2, 5, -1, 3])->@*), "\n";
-
-## Trying some other examples
-# say join(', ', maximise_product([0.5, 2, 3, -2, -1, 0])->@*);

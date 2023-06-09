@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
+use v5.36;
 
 my $n = [ 2, 5, -1, 3 ];
 print sprintf("[ %s ] => %s\n", join(", ", @$n), max_product_subarray($n));

@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-use warnings;
-use strict;
-
-# use List::Util qw{ product };
+use v5.36;
 
 sub product {
     my @list = @_;

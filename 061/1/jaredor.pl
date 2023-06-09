@@ -1,19 +1,14 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use v5.012;
-use warnings;
 use integer;
 use Getopt::Long;
 use Pod::Usage;
 use List::Util qw(product all);
 use Scalar::Util qw(looks_like_number);
 
-# PWC 061, TASK #1 : Product SubArray
 
 test();
-exit;    # End of main script.
-
-# The main algorithm.
 
 sub get_maximal_product_sublists {
 
