@@ -1,36 +1,5 @@
 #!/usr/bin/env perl
-#
-# Task 1: "Linked List
-#
-# You are given a linked list and a value k. Write a script to partition
-# the linked list such that all nodes less than k come before nodes greater
-# than or equal to k. Make sure you preserve the original relative order
-# of the nodes in each of the two partitions.
-# 
-# For example:
-# 
-# Linked List: 1 -> 4 -> 3 -> 2 -> 5 -> 2
-# 
-# k = 3
-# 
-# Expected Output: 1 -> 2 -> 2 -> 4 -> 3 -> 5.
-# "
-# 
-# My notes: why a linked list not an array, it would be so simple with an
-# array.  Ok, ok, a linked list: but the question is: do we want to reuse
-# the existing nodes or build fresh.  Building fresh would make it a "pure"
-# functional-style implementation.  But let's try reusing the existing
-# nodes..
-# Build two lists (reusing the existing nodes), one "before", the other "after".
-# Unlink each node, append it to whichever list is appropriate. Repeat.
-#
-
-use strict;
-use warnings;
-use feature 'say';
-use Function::Parameters;
-use Data::Dumper;
-
+use v5.36;
 
 my( $k, @el ) = <3 1 4 3 2 5 2>;
 
@@ -39,10 +8,10 @@ my( $k, @el ) = <3 1 4 3 2 5 2>;
 
 # how to represent the list?  [] for nil, [h,t] for cons(h,t)
 
-fun nil() { return [] }
-fun cons($h,$t) { return [$h,$t] }
-fun single($h) { return [$h,[]] }
-fun isnil($l) { return @$l==0?1:0 }
+sub nil() { return [] }
+sub cons($h,$t) { return [$h,$t] }
+sub single($h) { return [$h,[]] }
+sub isnil($l) { return @$l==0?1:0 }
 
 
 #
@@ -50,7 +19,7 @@ fun isnil($l) { return @$l==0?1:0 }
 #	Convert a plain Perl array @el into a nil/cons list.
 #	Return the generated list.
 #
-fun a2l( @el )
+sub a2l( @el )
 {
 	return nil() unless @el;
 	my $first = shift @el;
@@ -71,7 +40,7 @@ fun a2l( @el )
 # my $str = l2s($l);
 #	Generate printable (string) format of list $l.
 #
-fun l2s( $l )
+sub l2s( $l )
 {
 	return "nil" unless @$l;
 	( my $h, $l ) = @$l;
@@ -96,7 +65,7 @@ fun l2s( $l )
 #	in $l) followed by all elements from $l are >= $k
 #	(also in the same order as found in $l).
 #
-fun partition( $l, $k )
+sub partition( $l, $k )
 {
 	return if isnil($l);
 

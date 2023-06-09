@@ -1,5 +1,6 @@
 #!/usr/bin/env perl
-# Test: ./ch-1.pl
+use v5.36;
+
 package LinkedList::Node; # Linked list
 use Mouse;
 

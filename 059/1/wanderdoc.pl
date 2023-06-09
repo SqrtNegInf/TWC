@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings FATAL => qw(all);
-
+use v5.36;
 
 my $K = shift || 3;
 my @input = (1, 4, 3, 2, 5, 2);

@@ -1,9 +1,5 @@
 #!/usr/bin/env perl
-use warnings;
-use strict;
-use feature ":5.26";
-
-## ## ## ## ## MAIN:
+use v5.36;
 
 ## acquire the locus value and the array representation
 ## of the linked list
@@ -14,7 +10,7 @@ my $node;
 ## 1. convert the input commandline array into a linked list
 while (scalar @input > 0) {
     my $value =  pop @input;
-    $node = new Node($value, $next);
+    $node = Node->new($value, $next);
     $next = $node
 }
 ## $node currently points to beginning of the list

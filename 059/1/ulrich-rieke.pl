@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-use strict ;
-use warnings ;
+use v5.36;
 
 #create 2 partitions of elements less than or greater than k by "grepping"
 #through the array. Shifting from the second array preserves the relative

@@ -1,5 +1,5 @@
 #!/usr/bin/env perl
-use strict;
+use v5.36;
 
 { package item;
 

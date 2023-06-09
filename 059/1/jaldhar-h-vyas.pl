@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-use 5.020;
-
+use v5.36;
 
 package LinkedList {
     use Moo;

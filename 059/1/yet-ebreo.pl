@@ -1,11 +1,9 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use feature 'say';
+use v5.36;
 
 my @arr  = ( 1, 4, 3, 2, 5, 2 );
 my $k    = 3;
-my $link = new LinkedList;
+my $link = LinkedList->new;
 
 #Add items in linked list
 for my $i (@arr) {
@@ -13,8 +11,8 @@ for my $i (@arr) {
 }
 
 #Declare two linked list for partitions
-my $uplink = new LinkedList;
-my $dnlink = new LinkedList;
+my $uplink = LinkedList->new;
+my $dnlink = LinkedList->new;
 
 #Print original list
 say "Original List:";

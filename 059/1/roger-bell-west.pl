@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-use utf8;
+use v5.36;
 
 my $k=3;
 my @list=(1,4,3,2,5,2);

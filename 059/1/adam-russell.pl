@@ -1,15 +1,11 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-##
-# Write a script to partition a linked list such that 
-# all nodes less than k come before nodes greater than or equal to k.
-##
+use v5.36;
+
 use lib '.';
 use LinkedList;
 
 MAIN:{
-    my $ll = new LinkedList();
+    my $ll = LinkedList->new();
     my $next = $ll->insert(1, undef);
     $next = $ll->insert(4, $next);
     $next = $ll->insert(3, $next);

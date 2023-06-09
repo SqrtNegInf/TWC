@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
+use v5.36;
 
 my $L = [ 1, 4, 3, 2, 5, 2 ];
 my $K = 3;
