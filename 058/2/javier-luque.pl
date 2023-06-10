@@ -1,9 +1,5 @@
 #!/usr/bin/env perl
-# Test: ./ch-2.pl
-
-use strict;
-use warnings;
-use feature qw /say/;
+use v5.36;
 
 # Heights
 my @H = (27, 21, 37,  4, 19, 52, 23, 64,

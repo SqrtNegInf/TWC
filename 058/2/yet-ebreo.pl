@@ -1,10 +1,6 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use feature 'say';
-use Time::HiRes 'time';
+use v5.36;
 
-#Main Code / Function
 sub arrange {
     my ($heights,$taller,%hash) = @_;
 
@@ -177,9 +173,6 @@ if (@ARGV>1) {
     say join " ", arrange(\@heights,\@taller);
 } else {
     for my $test (@tests) {
-        my $start_time = time;
         say join " ", arrange($test->[0],$test->[1]);
-        my $elapsed = time - $start_time;
-        #printf ("Execution Time: %.6f seconds\n\n",$elapsed);
     }
 }

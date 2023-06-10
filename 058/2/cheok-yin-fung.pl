@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-
-# reference: 
-# http://mathonline.wikidot.com/generating-permutations-with-inversion-sequences
+use v5.36;
 
 # begin: from the question statement
 # Heights

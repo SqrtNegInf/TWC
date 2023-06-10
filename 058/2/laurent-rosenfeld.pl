@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use feature qw /say/;
+use v5.36;
 
 # Heights
 my @H = qw/27 21 37 4 19 52 23 64 1 7 51 17 24 50 3 2

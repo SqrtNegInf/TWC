@@ -1,18 +1,9 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use strict;
-use warnings;
 use Getopt::Long;
 use List::Util qw(all any);
 use List::MoreUtils qw(uniq indexes last_index);
-
-# PWC 058, TASK #2 : Ordered Lineup
-
-# Write a script to arrange people in a lineup according to how many taller
-# people are in front of each person in line. You are given two arrays. @H is a
-# list of unique heights, in any order. @T is a list of how many taller people
-# are to be put in front of the corresponding person in @H. The output is the
-# final ordering of people’s heights, or an error if there is no solution.
 
 sub procedural_ordered_lineup {
     return sub {

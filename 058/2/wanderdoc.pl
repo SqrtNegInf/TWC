@@ -1,15 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings FATAL => qw(all);
-
-=prompt
-Write a script to arrange people in a lineup according to how many taller people are in front of each person in line. You are given two arrays. @H is a list of unique heights, in any order. @T is a list of how many taller people are to be put in front of the corresponding person in @H. The output is the final ordering of people's heights, or an error if there is no solution.
-Here is a small example:
-    @H = (2, 6, 4, 5, 1, 3) # Heights
-    @T = (1, 0, 2, 0, 1, 2) # Number of taller people in front
-The ordering of both arrays lines up, so H[i] and T[i] refer to the same person. For example, there are 2 taller people in front of the person with height 4, and there is 1 person in front of the person with height 1.
-As per the last diagram, your script would then output the ordering (5, 1, 2, 6, 3, 4) in this case. (The leftmost element is the "front" of the array.)
-=cut
+use v5.36;
 
 
 use Struct::Dumb qw(readonly_struct);
@@ -30,13 +20,6 @@ my %DATA =
                [35, 23,  5, 64, 37,  9, 13, 25, 16, 44, 50, 40,  2, 27, 36,  6, 18, 54, 20, 39, 56, 45, 12, 47, 17, 33, 55, 30, 26, 51, 42, 53, 49, 41, 32, 15, 22, 60, 14, 46, 24, 59, 10, 28, 62, 38, 58, 63, 8, 48,  4,  7, 31, 19, 61, 43, 57, 11,  1, 34, 21, 52, 29,  3]
           ]
 );
-
-
-
-
-
-
-
 
 for my $set ( sort keys %DATA )
 {
@@ -79,12 +62,3 @@ for my $set ( sort keys %DATA )
      is_deeply (\@MY_A, \@A, "Set ${set} ordered correctly.");
 }
 done_testing( scalar keys %DATA );
-
-
-=output
-
-ok 1 - Set 1 ordered correctly.
-ok 2 - Set 2 ordered correctly.
-1..2
-
-=cut

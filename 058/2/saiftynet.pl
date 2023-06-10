@@ -1,26 +1,5 @@
 #!/usr/bin/env perl
-# Task 2 Challenge 058 Solution by saiftynet
-
-# A very interesting problem, demonstrating even virtual people
-# can be discriminated according to their height. (A rather touchy
-# subject for me as I am fairly short).  It may be solved by sorting
-# people by height first and inserting to our final list one at a time
-# going from tallest to shortest.  The tallest could be at any poition,
-# and has no people taller...the next tallest would be either to his front
-# (positon 0) if he/she has no taller people ahead, or to behind
-# (position 1).  In fact at the point of insertion each person is going
-# to be shorter than those already placed. So at the point of insertion
-# his/her position is at an index matching his taller-in-front data.
-# Thus three steps are required 
-# 1. create a list of people containing  height and taller-in-front data
-# 2. sort the list according to height (tallest first)
-# 3. insert into a new growing new list at index given by taller-in-front 
-
-# How do we know the result works?...set up a validity test. Generally
-# big errors would require an insertion out of the bounds of the array
-# would cause an error to be reported if warnings are enabled
-
-use strict;use warnings;
+use v5.36;
 
 # Heights
 my @H = (27, 21, 37,  4, 19, 52, 23, 64,  1,  7, 51, 17, 24, 50,  3,  2,

@@ -1,4 +1,5 @@
 #!/usr/bin/env perl
+use v5.36;
 #
 #     law_and_order_lineup.pl
 #
@@ -116,12 +117,6 @@
 ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ##
 
 
-
-use warnings;
-use strict;
-use feature ":5.26";
-
-## ## ## ## ## MAIN:
 
 ## @heights elems are unique
 my @heights = (
