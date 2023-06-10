@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-use warnings;
-use strict;
-use feature qw{ say };
+use v5.36;
 
 my @N = (2, 7, 9);
 my $k = 2;

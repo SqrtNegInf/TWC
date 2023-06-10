@@ -1,14 +1,10 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
+use v5.36;
 
 srand 1;
 use List::Util 1.54 qw(sample);
 
 my $K = 5;
-die "ERROR: Missing non-negative number (k).\n" unless defined $K;
-die "ERROR: Invalid k received [$K].\n"         unless $K > 0;
 
 my $S = 10;
 my @L = sort { $b <=> $a } sample ($S, (1 .. 50));

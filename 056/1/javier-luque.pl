@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-# Test: ./ch-1.pl
-use strict;
-use warnings;
-use feature qw /say/;
+use v5.36;
 
 my @N = (2, 7, 9);
 my $k = 2;

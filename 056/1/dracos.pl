@@ -1,13 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-=head1 diffk
-
-A solution to task 1 of week 56 of the Perl Weekly Challenge.
-
-=cut
-
-use strict;
-use warnings;
 use Test::More;
 
 is(diffk_print(k => 2, N => [2, 7, 9]), "2,1");
@@ -17,15 +10,6 @@ is(diffk_print(k => 0, N => [2, 7, 7, 9]), "2,1");
 is(diffk_print(k => 5, N => [2, 3, 5, 8, 13, 21, 34]), "3,1\n4,3");
 
 done_testing;
-
-=over
-
-=item diffk
-
-Given an arrayref N of positive integers (sorted) and another non-negative
-integer k, returns a list of arrayref pairs of indices where A[i] - A[j] = k.
-
-=cut
 
 sub diffk {
     my %p = @_;

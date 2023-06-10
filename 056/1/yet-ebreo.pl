@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use feature 'say';
+use v5.36;
 
 my @N = (1, 6, 8, 2, 4, 9, 12);
 my $k = 3;
@@ -16,9 +14,3 @@ for my $x (0..$#N) {
         } 
     }
 }
-=begin
-perl .\ch-1.pl
-0       4
-1       5
-5       6
-=cut

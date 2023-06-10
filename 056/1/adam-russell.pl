@@ -1,12 +1,6 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-##
-# You are given an array @N of positive 
-# integers (sorted) and another non negative integer k.
-# Write a script to find if there exists two indices 
-# i and j such that A[i] - A[j] = k and i != j.
-# Print the pairs of indices, if any such pairs exist.
+use v5.36;
+
 my @N = (2, 7, 9);
 my $k = 2;
 my @pairs; 
