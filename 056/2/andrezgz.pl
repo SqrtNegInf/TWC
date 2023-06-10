@@ -1,30 +1,5 @@
 #!/usr/bin/env perl
-
-# https://perlweeklychallenge.org/blog/perl-weekly-challenge-056/
-# Task #2
-#
-# Path Sum
-# You are given a binary tree and a sum, write a script to find
-# if the tree has a path such that adding up all the values along the path
-# equals the given sum. Only complete paths (from root to leaf node)
-# may be considered for a sum.
-#
-# Example
-# Given the below binary tree and sum = 22,
-#
-#           5
-#          / \
-#         4   8
-#        /   / \
-#       11  13  9
-#      /  \      \
-#     7    2      1
-# For the given binary tree, the partial path sum 5 -> 8 -> 9 = 22 is not valid.
-#
-# The script should return the path 5 -> 4 -> 11 -> 2 whose sum is 22.
-
-use strict;
-use warnings;
+use v5.36;
 
 my $sum = shift || 22;
 

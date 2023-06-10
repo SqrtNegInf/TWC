@@ -1,28 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings FATAL => qw(all);
-
-
-
-=prompt
-You are given a binary tree and a sum, write a script to find if the tree has a path such that adding up all the values along the path equals the given sum. Only complete paths (from root to leaf node) may be considered for a sum.
-
-Example:
-
-Given the below binary tree and sum = 22,
-
-          5
-         / \
-        4   8
-       /   / \
-      11  13  4
-     /  \      \
-    7    2      1
-
-For the given binary tree, the partial path sum 5 → 4 → 11 = 20 is not valid.
-The script should return the path 5 → 4 → 11 → 2 which sum is 22.
-
-=cut
+use v5.36;
 
 use Tree::DAG_Node;
 use List::Util qw(sum);

@@ -1,4 +1,5 @@
 #!/usr/bin/env perl
+use v5.36;
 
 srand 2;
 
@@ -154,12 +155,6 @@ srand 2;
 ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ##
 
 
-
-use warnings;
-use strict;
-use feature ":5.26";
-
-## ## ## ## ## MAIN:
 our $depth = 4;
 our @tree = generate_tree($depth);
 say "tree:   ", join ', ', map {defined $_? $_ : "undef"} @tree;

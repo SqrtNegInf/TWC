@@ -1,9 +1,7 @@
 #!/usr/bin/env perl
-use Modern::Perl;
+use v5.36;
 use List::Util qw/sum/;
 use Tree::DAG_Node;
-use feature qw/signatures/;
-no warnings qw/experimental::signatures/;
 
 my $lol = [ [ [ [7], [2], 11 ], 4 ], [ [13], [ [1], 9 ], 8 ], 5 ];
 

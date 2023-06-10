@@ -1,10 +1,9 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
+use v5.36;
 
+# for 'given'
 use feature ":all";
 no warnings "experimental";
-
 
 my $tree={
 	v=>5,

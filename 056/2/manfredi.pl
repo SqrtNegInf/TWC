@@ -1,14 +1,11 @@
 #!/usr/bin/env perl
-
-# use v5.24;
-use strict;
-use Data::Dumper;
+use v5.36;
 
 binmode STDOUT, ":utf8";
 
 my $sum_ok = 22;
 
-sub preorder($$) {
+sub preorder {
     my $t = shift or return;
     my @path = @{+shift};
     
@@ -30,8 +27,6 @@ sub preorder($$) {
 
 # [Node-Left-Right]
 my $tree = [ 5, [ 4, [ 11, [7], [2] ] ], [ 8, [13], [ 9, [1] ] ] ];
-
-#print Dumper($tree);
 
 preorder($tree, []);
 

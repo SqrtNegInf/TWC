@@ -1,16 +1,7 @@
 #!/usr/bin/env perl
+use v5.36;
 
 srand 1;
-
-#
-# ch-2.pl - Path Sum
-#
-# 2020 Ryan Thompson <rjt@cpan.org>
-
-use 5.010;
-use warnings;
-use strict;
-no warnings 'uninitialized';
 
 my $tree = make_random_tree(degree => 3, height => 4);
 print_tree($tree);

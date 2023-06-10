@@ -1,4 +1,5 @@
 #!/usr/bin/env perl
+use v5.36;
 
 package BTree::Node; # Binary Tree
 use Mouse;

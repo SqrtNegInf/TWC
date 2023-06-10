@@ -1,13 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-=head1 pathsum
-
-A solution to task 2 of week 56 of the Perl Weekly Challenge.
-
-=cut
-
-use strict;
-use warnings;
 use List::Util qw(sum);
 use Tree::Binary;
 use Test::More;
@@ -28,15 +21,6 @@ my $tree = Tree::Binary->new(5)
 is_deeply(pathsum($tree, 22), [5, 4, 11, 2]);
 
 done_testing;
-
-=over
-
-=item pathsum
-
-Given a Tree::Binary tree of numbers and a total, see if there is a complete
-path that sums to the total.
-
-=cut
 
 sub pathsum {
     my ($tree, $sum) = @_;

@@ -1,33 +1,8 @@
 #!/usr/bin/env perl
-#===============================================================================
-#
-#         FILE: ch-2.pl
-#
-#        USAGE: ./ch-2.pl  
-#
-#  DESCRIPTION: https://perlweeklychallenge.org/blog/perl-weekly-challenge-056/
-#
-#               Task 2
-#
-#               You are given a binary tree and a sum, write a script to find if the tree has a path such that adding up all the values along the path equals the given sum. Only complete paths (from root to leaf node) may be considered for a sum.
-#
-#
-#      OPTIONS: ---
-# REQUIREMENTS: ---
-#         BUGS: ---
-#        NOTES: ---
-#       AUTHOR: YOUR NAME (), 
-# ORGANIZATION: 
-#      VERSION: 1.0
-#      CREATED: 04/18/2020 02:22:24 PM
-#     REVISION: ---
-#===============================================================================
+use v5.36;
 
-use strict;
-use warnings;
 use Graph::Directed;
 use List::Util qw/sum/;
-use feature qw/say/;
 
 my $g = Graph::Directed->new;
 

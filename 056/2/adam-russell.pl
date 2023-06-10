@@ -1,17 +1,6 @@
 #!/usr/bin/env perl
-use strict;
-no strict 'refs'; # needed this to run
-use warnings;
+use v5.36;
 
-die 'not ok - disabled: output not stable';
-
-##
-# You are given a binary tree and a sum, write 
-# a script to find if the tree has a path such 
-# that adding up all the values along the path 
-# Only complete paths (from root to leaf node)
-# may be considered for a sum.
-##
 use Graph;
 use boolean; 
 use Graph::Easy::Parser;

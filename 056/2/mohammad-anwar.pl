@@ -1,19 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-
-=head1 TREE
-
-              5
-             / \
-            4   8
-           /   / \
-          11  13  9
-         /  \      \
-        7    2      1
-
-=cut
+use v5.36;
 
 my $SUM  = 22;
 my $TREE = {
