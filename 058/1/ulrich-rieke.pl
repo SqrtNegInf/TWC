@@ -1,10 +1,5 @@
 #!/usr/bin/env perl
-use strict ;
-use warnings ;
-
-#lexicographically compare the strings by first removing any leading
-#zeroes and the periods and underscores , then conditionally check
-#for underscores to decide the ordering
+use v5.36;
 
 sub compareElementwise {
   my $v1 = shift ;

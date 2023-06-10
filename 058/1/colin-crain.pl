@@ -1,4 +1,5 @@
 #!/usr/bin/env perl
+use v5.36;
 #
 #       versions_of_you.pl
 #
@@ -89,13 +90,6 @@
 #       2020 colin crain
 ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ##
 
-
-
-use warnings;
-use strict;
-use feature ":5.26";
-
-## ## ## ## ## MAIN
 
 my $one = '1.02.1';
 my $two = '1.2_1';

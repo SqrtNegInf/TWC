@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
+use v5.36;
 
 my $v1 = $ARGV[0] // '0.1';
 my $v2 = $ARGV[1] // '1.1';

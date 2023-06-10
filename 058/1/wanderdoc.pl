@@ -1,31 +1,9 @@
 #!/usr/bin/env perl
-use strict;
-use warnings FATAL => qw(all);
-
-=prompt
-Compare two given version number strings v1 and v2 such that:
-
-    If v1 > v2 return 1
-    If v1 < v2 return -1
-    Otherwise, return 0
-
-The version numbers are non-empty strings containing only digits, and the dot (".") and underscore ("_") characters. ("_" denotes an alpha/development version, and has a lower precedence than a dot, "."). Here are some examples:
-
-   v1   v2    Result
------- ------ ------
-  0.1 < 1.1     -1
-  2.0 > 1.2      1
-  1.2 < 1.2_5   -1
-1.2.1 > 1.2_1    1
-1.2.1 = 1.2.1    0
-
-Version numbers may also contain leading zeros. You may handle these how you wish, as long as it's consistent.
-=cut
-
-
+use v5.36;
 
 use Struct::Dumb;
 use Test::More;
+
 my %DATA =
 (
        1 => ['0.1',   '1.1',    -1], 6 => ['1.2.1',   '1.2.1_2',   -1],
@@ -110,21 +88,3 @@ sub parse_version
      } 
      return $version;
 }
-
-
-
-
-
-=output
-ok 1 - Set 1 correct.
-ok 2 - Set 2 correct.
-ok 3 - Set 3 correct.
-ok 4 - Set 4 correct.
-ok 5 - Set 5 correct.
-ok 6 - Set 6 correct.
-ok 7 - Set 7 correct.
-ok 8 - Set 8 correct.
-ok 9 - Set 9 correct.
-ok 10 - Set A correct.
-1..10
-=cut

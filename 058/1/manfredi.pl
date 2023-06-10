@@ -1,9 +1,7 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
+use v5.36;
 
-
-sub compare($$) {
+sub compare {
     my ($v1, $v2) = @_;
     my $cmp = 0;
     

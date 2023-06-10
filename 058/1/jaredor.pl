@@ -1,10 +1,7 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use v5.012;    # Using keys on arrays
-use warnings;
 use List::Util qw(max min uniq);
-
-# PWC 058, Task #1 : Compare Version
 
 sub vercmp {
 

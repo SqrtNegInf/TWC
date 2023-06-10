@@ -1,10 +1,7 @@
 #!/usr/bin/env perl
-# Test: ./ch-1.pl
-use strict;
-use warnings;
-use feature qw /say/;
+use v5.36;
+
 use version;
-use Data::Dumper;
 
 say '   v1   v2    Result';
 say '------ ------ ------';

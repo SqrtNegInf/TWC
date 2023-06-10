@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use feature 'say';
+use v5.36;
 
 sub compare {
     0+eval "@_"=~s/\S+/\"$&\"/gr =~s/ / cmp /r =~ s/[._]0+\"/\"/gr =~s/_/!/gr =~ s/\d+/sprintf "%09d",$&/gre;
@@ -27,17 +25,3 @@ for my $num (@num_set) {
     my $c = compare(@{$num});
     printf "%10s %s %-10s %2s\n", $num->[0], qw(< = >)[$c+1], $num->[1], $c;
 }
-
-=begin
-perl .\ch-1.pl
-       0.1 < 1.1        -1
-       2.0 > 1.2         1
-       1.2 < 1.2_5      -1
-     1.2.1 > 1.2_1       1
-     1.2.1 = 1.2.1       0
-       3_3 < 3.3        -1
-    1.01.1 = 1.1.1       0
-       2_0 = 2.0         0
-       1.9 < 1.10       -1
-     1.002 = 1.2         0
-=cut

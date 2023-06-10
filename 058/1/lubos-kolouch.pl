@@ -1,32 +1,5 @@
 #!/usr/bin/env perl
-#===============================================================================
-#
-#         FILE: ch-1.pl
-#
-#        USAGE: ./ch-1.pl  
-#
-#  DESCRIPTION: https://perlweeklychallenge.org/blog/perl-weekly-challenge-058/
-#
-#  Compare two given version number strings v1 and v2 such that:
-#
-#    If v1 > v2 return 1
-#    If v1 < v2 return -1
-#    Otherwise, return 0
-#
-#
-#      OPTIONS: ---
-# REQUIREMENTS: ---
-#         BUGS: ---
-#        NOTES: ---
-#       AUTHOR: Lubos Kolouch
-# ORGANIZATION: 
-#      VERSION: 1.0
-#      CREATED: 05/02/2020 12:57:10 PM
-#     REVISION: ---
-#===============================================================================
-
-use strict;
-use warnings;
+use v5.36;
 
 sub compare_versions {
     my ($ver1, $ver2) = @_;
