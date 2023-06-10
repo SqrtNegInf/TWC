@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
+use v5.36;
 
 my $words  = [ "alphabet", "book", "carpet", "cadmium", "cadeau", "alpine" ];
 my $unique = shortest_unique_prefix($words);

@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
+use v5.36;
 
 my @input=qw(alphabet book carpet cadmium cadeau alpine);
 

@@ -1,13 +1,7 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
+use v5.36;
+
 use List::Util qw(uniq);
-
-# PWC 057 Task #2: Shortest Unique Prefix
-
-# Run on the command line. Give the words as arguments, e.g.,
-
-# ./ch-2.pl alphabet book carpet cadmium cadeau alpine
 
 sub get_abvmap {
     my ( @strings, %abbv ) = @_;

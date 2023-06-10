@@ -1,9 +1,7 @@
 #!/usr/bin/env perl
+use v5.36;
 # Test: ./ch-2.pl
 
-use strict;
-use warnings;
-use feature qw /say/;
 use Tree::Trie;
 
 my @words = qw[

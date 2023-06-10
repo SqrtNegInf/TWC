@@ -1,19 +1,5 @@
 #!/usr/bin/env perl
-
-# https://perlweeklychallenge.org/blog/perl-weekly-challenge-057/
-# Task #2
-#
-# Shortest Unique Prefix
-# Write a script to find the shortest unique prefix for each each word
-# in the given list. The prefixes will not necessarily be of the same length.
-#
-# Sample Input
-#     [ "alphabet", "book", "carpet", "cadmium", "cadeau", "alpine" ]
-# Expected Output
-#     [ "alph", "b", "car", "cadm", "cade", "alpi" ]
-
-use strict;
-use warnings;
+use v5.36;
 
 my $input = [ "alphabet", "book", "carpet", "cadmium", "cadeau", "alpine" ];
 my $l = @$input -1;
@@ -33,13 +19,3 @@ for my $i (0 .. $l){
 
 print join ',', @output;
 
-__END__
-
-./ch-2.pl alphabet book carpet cadmium cadeau alpine
-alph,b,car,cadm,cade,alpi
-
-./ch-2.pl just another perl hacker
-j,a,p,h
-
-./ch-2.pl use uses user
-N/A,uses,user

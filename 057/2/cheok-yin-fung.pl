@@ -1,13 +1,9 @@
 #!/usr/bin/env perl
-use strict;
+use v5.36;
+
 use Scalar::Util qw/dualvar/;
 
-#Usage: $   ch-2.pl [list of words]
-#e.g. ch-2.pl alphabet book carpet cadmium cadeau alpine
-#output: alph , b , car , cadm , cade , alpi
-
 my @data = ( "alphabet", "book", "carpet", "cadmium", "cadeau", "alpine");
-
 
 
 my $N = $#data + 1;

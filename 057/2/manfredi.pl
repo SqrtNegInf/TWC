@@ -1,8 +1,7 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
+use v5.36;
 
-sub count($$) {
+sub count {
     my ($instr, $sub) = @_;
     my $pos = 0;
     my $cnt = 0;

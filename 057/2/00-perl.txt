@@ -29,14 +29,6 @@ courtship  => courts
 ok 1
 1..1
  
-===> 057/2/duncan-c-white.pl <===
-alph
-b
-car
-cadm
-cade
-alpi
- 
 ===> 057/2/e-choroba.pl <===
 1..4
 ok 1 - sample input
@@ -77,9 +69,6 @@ alph, b, car, cadm, cade, alpi
  
 ===> 057/2/ulrich-rieke.pl <===
 [ alph , b , car , cadm , cade , alpi ]
- 
-===> 057/2/user-person.pl <===
-[ "alph", "b", "car", "cadm", "cade", "alpi" ]
  
 ===> 057/2/wanderdoc.pl <===
 alph, b, car, cadm, cade, alpi

@@ -1,10 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-
-use feature ":all";
-no warnings "experimental";
-
+use v5.36;
 
 my @words= qw<alphabet book carpet cadmium cadeau alpine>;
 

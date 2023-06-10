@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use feature qw/say/;
-use Data::Dumper;
+use v5.36;
 
 my @words = qw /alphabet book carpet cadmium cadeau alpine/;
 my @prefixes;

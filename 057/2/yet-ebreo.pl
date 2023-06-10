@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use feature 'say';
+use v5.36;
 
 sub uniq_prefix {
     my ($words) = @_;
@@ -26,13 +24,3 @@ sub uniq_prefix {
 my @words = @ARGV?@ARGV:qw(alphabet book carpet cadmium cadeau alpine);
 my @unique_prefix = uniq_prefix(\@words);
 say "[@unique_prefix]";
-
-=begin
-perl .\ch-2.pl alphabet book carpet cadmium cadeau alpine
-[alph b car cadm cade alpi]
-
-#Example of input where there is longer match in the end. 
-#alphabet .. alpine .. alphanumeric
-perl .\ch-2.pl alphabet book alpine carpet cadmium cadeau alphanumeric
-[alphab b alpi car cadm cade alphan]
-=cut
