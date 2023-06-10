@@ -1,47 +1,7 @@
 #!/usr/bin/env perl
-
-# https://perlweeklychallenge.org/blog/perl-weekly-challenge-057/
-# Task #1
-#
-# Invert Tree
-# You are given a full binary tree of any height, similar to the one below:
-# https://web.cecs.pdx.edu/~sheard/course/Cs163/Doc/FullvsComplete.html
-#
-#        1
-#       /  \
-#      2    3
-#     / \  / \
-#    4   5 6  7
-#
-# Write a script to invert the tree, by mirroring the children of every node,
-# from left to right. The expected output from the tree above would be:
-#
-#        1
-#       /  \
-#      3    2
-#     / \  / \
-#    7   6 5  4
-#
-# The input can be any sensible machine-readable binary tree format
-# of your choosing, and the output should be the same format.
-#
-# BONUS
-# In addition to the above, you may wish to pretty-print your binary tree
-# in a human readable text-based format similar to the following:
-#
-#        1
-#       /  \
-#      3    2
-#     / \  / \
-#    7   6 5  4
-
-use strict;
-use warnings;
+use v5.36;
 
 my $tree = eval "[1,[[2,[4,5]],[3,[6,7]]]]";
-
-die 'Not a valid arrayref'
-    unless ref $tree eq 'ARRAY';
 
 # insert code here to check for a valid arrayref full binary tree #
 

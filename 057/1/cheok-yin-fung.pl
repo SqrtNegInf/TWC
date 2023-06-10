@@ -1,22 +1,22 @@
 #!/usr/bin/env perl
-use strict;
+use v5.36;
 use Data::Dumper;
 
 my @ro_tree1;
 
 sub array_transform_rowform {
     my ($h, $val, @kids) = @_;
-    if (! defined(@ro_tree1[$h])) {    
+    if (! defined($ro_tree1[$h])) {    
         @{$ro_tree1[$h]} = ();
     }
     push @{$ro_tree1[$h]}, $val; 
 
     if ($kids[0]) {
-        my ($temp, @smallkids) = @{kids[0]};
+        my ($temp, @smallkids) = @{$kids[0]};  # was @{kids[0]}, how did that even work?
         array_transform_rowform($h+1, shift @{$kids[0]}, @{$kids[0]});
     } 
     if ($kids[1]) {
-        my ($temp, @smallkids) = @{kids[1]};
+        my ($temp, @smallkids) = @{$kids[1]};  # "
         array_transform_rowform($h+1, shift @{$kids[1]}, @{$kids[1]});
     }
 }

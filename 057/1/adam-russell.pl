@@ -1,9 +1,6 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-##
-# Write a script to invert a binary tree.
-##
+use v5.36;
+
 use Graph;
 use boolean; 
 use Graph::Reader::Dot;
@@ -80,14 +77,14 @@ sub display{
             push @lines, "[ $u ] -- right --> [ $v ]";
         }
     }
-    my $parser = new Graph::Easy::Parser();
+    my $parser = Graph::Easy::Parser->new;
     my $graph_viz = $parser->from_text(join("", @lines));
     print $graph_viz->as_ascii();
     #print $graph_viz->as_graphviz();
 }
 
 MAIN:{
-    my $graph = new Graph(multivertexed => true);
+    my $graph = Graph->new(multivertexed => true);
     my @a = (11, 6, 8, 19, 4, 10, 5, 17, 43, 49, 31);
     my $root;
     for my $a (@a){

@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use feature 'say';
+use v5.36;
 
 my @tree = (1, [2, [4],[5]], [3, [6] ,[7]]);
 sub treverse {
@@ -26,14 +24,3 @@ sub treverse {
 treverse(\@tree, 0, 1);
 #print in a not so pretty way :D
 treverse(\@tree, 0, 0);
-
-=begin
-perl .\ch-1.pl
-  001
-   |---  003
-      |------  007
-      |------  006
-   |---  002
-      |------  005
-      |------  004
-=cut

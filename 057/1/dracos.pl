@@ -1,13 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-=head1 invert_tree
-
-A solution to task 1 of week 57 of the Perl Weekly Challenge.
-
-=cut
-
-use strict;
-use warnings;
 use Tree::DAG_Node;
 use Test::More;
 

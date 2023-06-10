@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use feature qw/say/;
-use Data::Dumper;
+use v5.36;
 
 sub children { my $i = shift; 2*$i+1, 2*$i+2 }
 sub parent { my $i = shift; ($i-1)/2; }  # not needed here

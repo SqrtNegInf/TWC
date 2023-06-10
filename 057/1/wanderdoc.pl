@@ -1,26 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings FATAL => qw(all);
-
-=prompt
-You are given Binary Tree like below:
-
-          1
-        /   \
-       2     3
-      / \   / \
-     4   5 6   7
-
-Write a script to invert and return like below:
-
-          1
-        /   \
-       3     2
-      / \   / \
-     7   6 5   4
-
-It would be nice if you could print the Binary Tree as shown above.
-=cut
+use v5.36;
 
 use Tree::DAG_Node;
 

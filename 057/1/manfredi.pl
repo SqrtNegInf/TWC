@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
+use v5.36;
 
 # breadth-first search
 sub bfs {
@@ -42,7 +41,7 @@ print "Full Binary Tree Inverted: [@inverted]\n";
 
 
 # Geometric series, Power of two:
-sub pretty_print($) {
+sub pretty_print {
 	my @tree = @{+shift};
 	my $i = 0;
 	while(1) {
@@ -53,15 +52,3 @@ sub pretty_print($) {
 		$i++;
 	}
 }
-
-
-__END__
-$ ./ch-1.pl
-Full Binary Tree: [1 2 3 4 5 6 7]
-| 1
-| 2 3
-| 4 5 6 7
-Full Binary Tree Inverted: [1 3 2 7 6 5 4]
-| 1
-| 3 2
-| 7 6 5 4
