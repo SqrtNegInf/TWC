@@ -142,13 +142,6 @@ use v5.36;
 ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ##
 
 
-
-use warnings;
-use strict;
-use feature ":5.26";
-
-## ## ## ## ## MAIN:
-
 my $length = shift @ARGV || 3;
 
 my @output = qw( a e i o u );

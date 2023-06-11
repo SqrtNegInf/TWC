@@ -1,9 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
-# Test: ./ch-2.pl 3
-use strict;
-use warnings;
-use feature qw /say/;
+
 use Algorithm::Combinatorics qw(variations_with_repetition);
 
 my $size = $ARGV[0] || 3;

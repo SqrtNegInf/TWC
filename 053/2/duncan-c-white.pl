@@ -1,12 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
 
-use strict;
-use warnings;
-use feature 'say';
-use Function::Parameters;
-#use Data::Dumper;
-
 my $n = 3;
 die "vowel-strings: N ($n) should be 1..5\n" unless $n>=1 && $n<=5;
 
@@ -18,7 +12,7 @@ my @vow = qw(a e i o u);
 #	and taking $moresteps more generative steps, applying
 #	the above rules at each step to extend the prefix.
 #
-fun generate( $prefix, $moresteps )
+sub generate( $prefix, $moresteps )
 {
 	if( $moresteps==0 )
 	{

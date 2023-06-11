@@ -1,20 +1,7 @@
 #!/usr/bin/env perl
 use v5.36;
-use warnings;
-use strict;
-use 5.010;
+
 use English qw/ -no_match_vars /;
-
-sub usage {
-    print <<"-usage-";
-Usage:
-  $PROGRAM_NAME <n>
-  
-    <n>    length of vowel string to be generated from 1 to 5
--usage-
-
-    exit(1);
-}
 
 sub generate {
     my ($n) = @_;

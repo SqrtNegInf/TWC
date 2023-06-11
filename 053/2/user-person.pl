@@ -1,10 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
 
-use strict;
-use warnings;
-use diagnostics;
-
 use Math::Int2Base qw( int2base base2int );
 
 my $num = 3;

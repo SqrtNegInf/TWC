@@ -411,25 +411,6 @@ uoa
 uou
 uei
  
-===> 053/2/ruben-westerberg.pl <===
-aei
-aie
-aio
-aiu
-eia
-eio
-eiu
-iae
-ioa
-iou
-iue
-iuo
-oae
-oai
-oue
-uei
-uoa
- 
 ===> 053/2/ryan-thompson.pl <===
 aiu
 aio

@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
 use v5.36;
-use strict;
-use warnings FATAL => qw(all);
 
 use Algorithm::Combinatorics qw(variations);
 use Getopt::Std;

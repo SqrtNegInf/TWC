@@ -1,7 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
-use Modern::Perl;
-use feature qw( signatures postderef switch );
+use feature qw( switch );
 no warnings qw( experimental );
 
 my %rules = (

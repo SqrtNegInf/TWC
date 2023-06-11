@@ -1,9 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
 
-use strict;
-use warnings;
-
 my %tree=(
   '' => [qw(a e i o u)],
   a => [qw(e i)],

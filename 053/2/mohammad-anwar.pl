@@ -1,9 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
 
-use strict;
-use warnings;
-
 use Algorithm::Combinatorics qw(combinations);
 
 my $count = $ARGV[0] // 3;

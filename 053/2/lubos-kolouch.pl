@@ -1,10 +1,7 @@
 #!/usr/bin/env perl
 use v5.36;
 
-use strict;
-use warnings;
 use List::Permute::Limit qw(permute_iter permute);
-use feature qw/say/;
 
 my @ok_rules = ( 'ae', 'ai', 'ei', 'ia', 'ie', 'io', 'iu', 'oa', 'ou', 'uo', 'ue' );
 my %ok_hash = map { $_ => 1} @ok_rules;

@@ -3,8 +3,6 @@ use v5.36;
 
 use Tree; 
 use Switch;
-use strict;
-use warnings;
 
 my $N = 3;
 

@@ -1,13 +1,5 @@
 #!/usr/bin/env perl
 use v5.36;
-#
-# ch-2.pl - Vowel strings
-#
-# Ryan Thompson <rjt@cpan.org>
-
-use 5.010;
-use warnings;
-use strict;
 
 # Follow rules. Basically graph edges.
 my %edges = ( a => ['i','e'],  e => ['i'],    i => ['u','o','e','a'],

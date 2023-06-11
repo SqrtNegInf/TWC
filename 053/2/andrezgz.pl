@@ -1,9 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
 
-use strict;
-use warnings;
-
 my $n = 3;
 
 my %vowels = (
@@ -28,29 +25,3 @@ sub add_vowel {
 
     return @output
 }
-
-__END__
-./ch-2.pl 3
-aeiS
-aia
-aie
-aio
-aiu
-eia
-eie
-eio
-eiu
-iae
-iai
-iei
-ioa
-iou
-iue
-iuo
-oae
-oai
-oue
-ouo
-uei
-uoa
-uou

@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
 use v5.36;
-use strict;
-use warnings;
-#use Data::Dumper;
 
 my $size = 3;
 unless (defined($size) && $size =~ /^[1-5]{1}$/ ) {

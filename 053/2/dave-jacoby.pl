@@ -1,11 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
 
-use strict;
-use warnings;
-use feature qw{ say postderef signatures state };
-no warnings qw{ experimental::postderef experimental::signatures };
-
 my $l = 3;
 
 my @strings = vowel_strings($l);
