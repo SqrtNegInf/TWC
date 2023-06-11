@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
-use Modern::Perl;
 use v5.36;
+
 use File::Slurp;
 use Test::More;
 

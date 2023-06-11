@@ -1,7 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
 
-use Modern::Perl;
 use List::Util 'min';
 
 # return an iterator to generate the sequence

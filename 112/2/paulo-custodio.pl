@@ -1,8 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
 
-use Modern::Perl;
-
 my $n = shift || 10;
 say count($n);
 

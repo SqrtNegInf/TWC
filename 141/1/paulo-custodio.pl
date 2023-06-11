@@ -1,8 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
 
-use Modern::Perl;
-
 use constant NUM_DIVISORS => 8;
 
 sub divisors {

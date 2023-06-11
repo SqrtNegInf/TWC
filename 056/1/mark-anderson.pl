@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
-use Modern::Perl;
+
 use Algorithm::Combinatorics 'combinations';
 use List::Util 'all';
 

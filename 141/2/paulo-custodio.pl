@@ -1,8 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
 
-use Modern::Perl;
-
 sub numbers {
     my($num) = @_;
     my @ret;

@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
-use Modern::Perl;
-use v5.36;          # must follow
+use v5.36;
+
 use List::Util   qw<uniq>;
 use Math::BigInt only => 'GMP,Pari';
 

@@ -1,8 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
 
-use Modern::Perl;
-
 # Where A,B,C,D are all pentagonal numbers:
 # B + C == A      ,  B - C == D     Original problem statement in task 
 #     C == A - B  ,  B - C == D     Rearranged as two differences

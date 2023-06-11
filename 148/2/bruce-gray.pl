@@ -1,5 +1,4 @@
 #!/usr/bin/env perl
-use Modern::Perl;
 use v5.36;
 
 # Uses WolframAlpha solution for `c`.
