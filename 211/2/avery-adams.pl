@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use v5.28;
+use v5.36;
 
 use List::Util 'sum';
 
@@ -15,32 +13,32 @@ sub can_split {
 
     for (my $i = 0; $i < $maxindex; $i++) {
         if (scalar @list1 == 0) {
-            push @list1, @nums[0];
-            $sum1 += @nums[0];
+            push @list1, $nums[0];
+            $sum1 += $nums[0];
             splice @nums, 0, 1;
         } elsif (scalar @list2 == 0) {
-            push @list2, @nums[0];
-            $sum2 += @nums[0];
+            push @list2, $nums[0];
+            $sum2 += $nums[0];
             splice @nums, 0, 1;
         } else {
             if (abs(($sum1 / @list1) - $avg) >= abs(($sum2 / @list2) - $avg)) {
                 if ($sum1 / @list1 <= $avg) {
-                    push @list1, @nums[0];
-                    $sum1 += @nums[0];
+                    push @list1, $nums[0];
+                    $sum1 += $nums[0];
                     splice @nums, 0, 1;
                 } else {
-                    push @list1, @nums[$#nums];
-                    $sum1 += @nums[$#nums];
+                    push @list1, $nums[$#nums];
+                    $sum1 += $nums[$#nums];
                     splice @nums, $#nums, 1;
                 }
             } else {
                 if ($sum2 / @list2 <= $avg) {
-                    push @list2, @nums[0];
-                    $sum2 += @nums[0];
+                    push @list2, $nums[0];
+                    $sum2 += $nums[0];
                     splice @nums, 0, 1;
                 } else {
-                    push @list2, @nums[$#nums];
-                    $sum2 += @nums[$#nums];
+                    push @list2, $nums[$#nums];
+                    $sum2 += $nums[$#nums];
                     splice @nums, $#nums, 1;
                 }
             }

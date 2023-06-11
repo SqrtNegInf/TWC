@@ -1,7 +1,7 @@
 #!/usr/bin/env perl
+use v5.36;
+no warnings 'uninitialized';
 
-use strict;
-use v5.24;
 use List::Util 'min';
 
 my @routes = ([1, 2, 6], [5, 6, 7]);

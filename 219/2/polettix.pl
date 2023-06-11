@@ -1,10 +1,7 @@
 #!/usr/bin/env perl
-use v5.24;
+use v5.36;
 
-use experimental 'signatures';
-
-use warnings;
-no warnings 'recursion';
+#no warnings 'recursion';
 
 use Memoize;
 

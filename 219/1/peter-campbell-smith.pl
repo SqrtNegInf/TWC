@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-
-use v5.16;
-use strict;
-use warnings;
+use v5.36;
 
 sorted_squares(-2, -1, 0, 3, 4);
 sorted_squares(5, -4, -1, 3, 6);

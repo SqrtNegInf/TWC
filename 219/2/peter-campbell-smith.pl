@@ -1,10 +1,7 @@
 #!/usr/bin/env perl
+use v5.36;
 
 srand 1;
-
-use v5.16;
-use strict;
-use warnings;
 
 my (@costs, @periods, @days, $best_cost, $best_explain);
 
@@ -13,11 +10,11 @@ travel_exps([2, 7, 25], [1, 7, 30], [1, 2, 3, 5, 7, 10, 11, 12, 14, 20, 30, 31])
 travel_exps([2, 7, 13], [1, 7, 14], [1, 2, 3, 5, 7, 10, 11, 12, 14, 20, 30, 31]);
 
 # generate longer example
-my ($j, @daysx);
-for $j (1 .. 100) {
-	push @daysx, $j if rand(1) < 0.4;
-}
-travel_exps([2, 7, 13], [1, 7, 14], \@daysx);
+#my ($j, @daysx);
+#for $j (1 .. 100) {
+#	push @daysx, $j if rand(1) < 0.4;
+#}
+#travel_exps([2, 7, 13], [1, 7, 14], \@daysx);
 
 
 sub travel_exps {

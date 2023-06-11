@@ -38,11 +38,6 @@ Input:  @costs   = (2, 7, 13)
         @periods = (1, 7, 14)
         @days    = (1, 2, 3, 5, 7, 10, 11, 12, 14, 20, 30, 31)
 Output: 19 = 14 day ticket on day 1, 1 day ticket on day 20, 1 day ticket on day 30, 1 day ticket on day 31
-
-Input:  @costs   = (2, 7, 13)
-        @periods = (1, 7, 14)
-        @days    = (1, 4, 6, 7, 10, 11, 13, 14, 16, 18, 20, 22, 23, 26, 29, 32, 34, 35, 37, 39, 43, 49, 52, 55, 58, 60, 65, 66, 67, 72, 77, 79, 81, 83, 85, 90, 91, 94, 96, 100)
-Output: 71 = 7 day ticket on day 1, 14 day ticket on day 10, 14 day ticket on day 26, 1 day ticket on day 43, 1 day ticket on day 49, 1 day ticket on day 52, 1 day ticket on day 55, 1 day ticket on day 58, 1 day ticket on day 60, 1 day ticket on day 65, 1 day ticket on day 66, 1 day ticket on day 67, 1 day ticket on day 72, 7 day ticket on day 77, 1 day ticket on day 85, 7 day ticket on day 90, 1 day ticket on day 100
  
 ===> 219/2/polettix.pl <===
 0
