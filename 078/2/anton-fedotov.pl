@@ -1,10 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
 
-use strict;
-use warnings;
-use v5.30;
-
 my @A = (7, 4, 2, 6, 3);
 my @B = (1, 3, 4);
 

@@ -1,12 +1,5 @@
 #!/usr/bin/env perl
 use v5.36;
-use warnings;
-use v5.12;
-
-# run <script> <score>
-
-use feature qw(signatures);
-no warnings qw(experimental::signatures);
 
 sub comp($nr,$bd) {
     my $tab=[[[],],];

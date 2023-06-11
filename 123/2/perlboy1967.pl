@@ -1,21 +1,10 @@
 #!/usr/bin/env perl
 use v5.36;
 
-# Perl Weekly Challenge - 123
-# - https://perlweeklychallenge.org/blog/perl-weekly-challenge-123/#TASK2
-#
-# Task 1 - Square Points
-#
-# Author: Niels 'PerlBoy' van Dijke
-
-use v5.16;
-use strict;
-use warnings;
-
 use Test::More;
 
 # Prototype(s)
-sub areSquarePoints(\@);
+sub areSquarePoints :prototype(\@);
 
 
 my $tests = [ 
@@ -37,7 +26,7 @@ foreach my $t (@$tests) {
 done_testing();
 
 
-sub areSquarePoints(\@) {
+sub areSquarePoints :prototype(\@) {
   my ($ar) = @_;
 
   my %dP;
@@ -57,4 +46,3 @@ sub areSquarePoints(\@) {
 
   return ($v[0] == 8 && $v[1] == 4 ? 1 : 0);
 }
-

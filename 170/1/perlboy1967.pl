@@ -1,4 +1,6 @@
 #!/usr/bin/env perl
+#use v5.36;   # runs, but no meaningly results
+
 use v5.16;
 
 use Math::Primality qw(next_prime);

@@ -1,5 +1,4 @@
 #!/usr/bin/env perl
-
 use v5.36;
 
 ###############################################################################
@@ -59,9 +58,6 @@ If no command-line arguments are given, the test suite is run.
 =cut
 #==============================================================================
 
-use v5.32;
-use strict;
-use warnings;
 use Const::Fast;
 use Regexp::Common qw( number );
 use Test::More;

@@ -1,12 +1,8 @@
 #!/usr/bin/env perl
 use v5.36;
-use v5.24;
-use warnings;
-use experimental 'signatures';
-no warnings 'experimental::signatures';
+
 use constant False => 0;
 use constant True  => 1;
-
 use constant tolerance => 1e-7;
 
 package Vector2D {

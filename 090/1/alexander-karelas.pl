@@ -1,11 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
 
-use v5.30;
-use warnings;
-
-#use Data::Dumper;
-
 my $input = "GTAAACCCCTTTTCATTTAGACAGATCGACTCCTTATCCATTCTCAGAGATGTGTTGCTGGTCGCCG";
 
 my %numbers;

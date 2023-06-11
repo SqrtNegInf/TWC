@@ -1,12 +1,5 @@
 #!/usr/bin/env perl
 use v5.36;
-use warnings;
-use v5.12;
-
-# run <script> <x1 y1 x2 y2 ..>
-
-use feature qw(signatures);
-no warnings qw(experimental::signatures);
 
 sub sqDist($x1, $y1, $x2, $y2) {
     return ($x2-$x1)**2 + ($y2-$y1)**2;

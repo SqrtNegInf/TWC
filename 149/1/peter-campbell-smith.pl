@@ -1,19 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
 
-# Peter Campbell Smith - 2022-01-24
-# PWC 149 task 2
-
-use v5.28;
-use strict;
-use warnings;
-use utf8;
-
-# Given an input $n, generate the first $n numbers for which the sum of their digits is a Fibonacci number.
-
-# Note: eval(join('+', split(//, $i))) splits $i into individual digits, joins them with '+' signs and 
-# evaluates the resulting sum of the digits.
-
 my ($n, $i, @fibs, @results);
 
 $n = 20;

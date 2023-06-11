@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
 
-use v5.30.0;
-
 sub total_zero {
     my $t = 0;
     my $x = $_[0];
