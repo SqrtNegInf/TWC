@@ -42,11 +42,6 @@ Assumptions
    ment" and so should normally not start at zero. The elements in a sparkline
    range in value between the minimum and maximum data points only.
 
-Note
-----
-Script output tested under Windows 8.1 using Perl v5.22.4 running under Cygwin
-2.8.2-1.
-
 References
 ----------
 [1] "Misleading graph", Wikipedia,
