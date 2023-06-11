@@ -1,64 +1,6 @@
 #!/usr/bin/env perl
-# -*- Mode: cperl; cperl-indent-level:4 tab-width: 8; indent-tabs-mode: nil -*-
-# -*- coding: utf-8 -*-
+use v5.36;
 
-=pod Fibonacci Sum
-
-=head1 SYNOPSIS
-
-perl ch-1.pl <sum>
-# perl ch-1.pl 99999 # finished within 11 secs on my laptop
-
-=head1 Solution
-
-1. find a minimum number of fibonacci combination which tally "target sum"
-   ex) 89 + 8 + 3 = 100
-2. figure out how many ways to express each fibonacci in the combination
-   which must be not duplicated or overlaped with other numbers
-
-   ex) 89 -> [ 89 ], [ 55, 34 ], [ 55, 21, 13 ] ...
-        8 -> [ 8 ], [ 5, 3 ], [ 5, 2, 1 ]
-        3 -> [ 3 ], [ 2, 1 ]
-
-3. Product all the cases shown above with filtering when a fib. duplicated
-
-=head1 About Sub-cases For Each Fibonacci Number
-
-if we have fibonacci number like below (in a reversed order)
-
- a b c d e f g h   (`a' is largest number)
-
- 1. a = b + c
- 2. c = d + e
- therefore an easy way to find sub cases is that
- a = b + (d + e)
-
- but if we're trying to change the number between `a', 'c' e.g `b'
- 1'. a = b + c -> a = (c+d) + c
- `c' is duplicated
- (repeated) a = (c+d) + c = 2c + d
- if we can find `2c' where c <= `2c' <= a, this is True
- e.g) 2c == b which is impossible in any case
- because b = c + d, and of course `d' != `c'
-
-so I concluded that chaging the fibonacci number into two lower
-fibonacci numbers (right next to the current) until not overlapping
-is the only way to make sub cases.
-
-the sequence definitely looks like
-
-      a b c -> a b _ (d e) -> a b _ (d _ (f g)) -> a b _ d _ f _ h i -> ...
- cmp: a b c -> a b c  d e  -> a b c  d e  f g      a b c d e f g h i -> ...
-
-=head1 But We may have not a fibonacci number
-
-Basically... explanation above only works when N is a fibonacci number.
-so I had to fix the codes
-
-=cut
-
-use strict; use warnings;
-use v5.26;
 use Getopt::Long qw(:config gnu_compat);
 use Pod::Usage;
 use List::Util qw{product};
@@ -76,7 +18,7 @@ BEGIN {
     pod2usage( -exitval => 0, -verbose => 2 ) if $help;
 
 
-    our $dprint = sub( @ ) {
+    our $dprint = sub {
         ++$|;
         print @_;
     };

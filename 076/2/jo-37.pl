@@ -1,12 +1,5 @@
-#!/usr/bin/perl
-
-# Usage: ch-2.pl [grid [words]]
-# Defaults: grid from challenge, local dictionary
-
-use v5.16;
-use warnings;
-use autodie;
-use utf8;
+#!/usr/bin/env perl
+use v5.36;
 
 use List::Util qw(min max);
 
@@ -40,7 +33,7 @@ sub read_dict {
 # specify the grid positions forming a string to be examined.
 # [0, 0] is top left, [$rows - 1, $cols - 1] is bottom right.
 # Returns an array of subs that create a specific indexing.
-sub indexing ($$) {
+sub indexing {
 	my ($rows, $cols) = @_;
 
 	# Helper to calculate the end index for the traversal of a diagonal:
@@ -114,7 +107,7 @@ local $\ = "\n";
 
 # Apply each indexing to the grid data and match the retrieved strings
 # forward and reversed against the dictionary.
-for my $index (indexing @grid, @{$grid[0]}) {
+for my $index (indexing scalar(@grid), scalar@{$grid[0]}) {
 	print foreach map /($words)/g, map {($_, scalar reverse)}
 		map {join '', map $grid[$_->[0]][$_->[1]], @$_} $index->();
 }

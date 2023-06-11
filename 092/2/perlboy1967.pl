@@ -1,18 +1,10 @@
 #!/usr/bin/env perl
 use v5.36;
 
-
 use List::Util qw(min max);
-
-# Task 2 - Insert Interval - 'Interval class'
-# Author: Niels 'PerlBoy' van Dijke
 
 {
 package Interval;
-
-use v5.16;
-use strict;
-use warnings;
 
 use Scalar::Util qw(looks_like_number);
 use Carp qw(confess);

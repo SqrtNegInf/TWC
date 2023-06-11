@@ -1,17 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
 
-# Perl Weekly Challenge - 098
-# - https://perlweeklychallenge.org/blog/perl-weekly-challenge-098/
-#
-# Task 2 - Search Insert Position
-#
-# Author: Niels 'PerlBoy' van Dijke
-
-use v5.16;
-use strict;
-use warnings;
-
 use List::MoreUtils qw(firstidx);
 
 # Unbuffered STDOUT

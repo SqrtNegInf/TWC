@@ -11,7 +11,7 @@ use v5.36;
 # but a space character isn't a word boundary. I asked and brian d foy
 # gave me good advice about word boundaries. I mean, I asked the Internet
 # and found his blog post:
-#   https://www.effectiveperlprogramming.com/2016/06/perl-v5-22-adds-fancy-unicode-word-boundaries/
+#   https://www.effectiveperlprogramming.com/2016/06/perl-5-22-adds-fancy-unicode-word-boundaries/
 
 # I threw in the line from Buffalo Springfield's "For What It's Worth"
 # because it adds an apostrophe, which confounds the pre-5.22 default 

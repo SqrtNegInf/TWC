@@ -1,17 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
 
-# Perl Weekly Challenge - 097
-# - https://perlweeklychallenge.org/blog/perl-weekly-challenge-097/
-#
-# Task 1 - Caesar Cipher
-#
-# Author: Niels 'PerlBoy' van Dijke
-
-use v5.16;
-use strict;
-use warnings;
-
 # Unbuffered STDOUT
 $|++;
 
