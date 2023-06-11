@@ -1,9 +1,7 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use strict;
-use warnings;
 use Math::Combinatorics;
-use feature qw/say/;
 
 sub process_all_waves {
 

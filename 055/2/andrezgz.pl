@@ -1,23 +1,5 @@
 #!/usr/bin/env perl
-
-# https://perlweeklychallenge.org/blog/perl-weekly-challenge-055/
-# Task #2
-#
-# Wave Array
-# Any array N of non-unique, unsorted integers can be arranged into a wave-like array such that
-# n1 >= n2 <= n3 >= n4 <= n5 and so on.
-#
-# For example, given the array [1, 2, 3, 4], possible wave arrays include [2, 1, 4, 3] or [4, 1, 3, 2],
-# since 2 >= 1 <= 4 >= 3 and 4 >= 1 <= 3 >= 2. This is not a complete list.
-#
-# Write a script to print all possible wave arrays for an integer array N of arbitrary length.
-#
-# Notes:
-# When considering N of any length, note that the first element is always greater than or equal to the second,
-# and then the <=, >=, <=, ... sequence alternates until the end of the array.
-
-use strict;
-use warnings;
+use v5.36;
 
 my @initial = grep { /^\d+$/ } (1,2,3,4);
 

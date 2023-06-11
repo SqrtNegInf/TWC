@@ -1,6 +1,7 @@
 #!/usr/bin/env perl
+use v5.36;
 use List::Util;
-use v5.26;
+
 my $n=$ARGV[0]//4;
 my @number=1..$n;
 my @waves=grep {

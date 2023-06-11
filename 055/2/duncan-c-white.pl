@@ -1,40 +1,5 @@
 #!/usr/bin/env perl
-#
-# Task 2: "Wave Array
-#
-# Any array N of non-unique, unsorted integers can be arranged into a
-# wave-like array such that n1 >= n2 <= n3 >= n4 <= n5 and so on.
-# 
-# For example, given the array [1, 2, 3, 4], possible wave arrays include
-# [2, 1, 4, 3] or [4, 1, 3, 2], since 2 >= 1 <= 4 >= 3 and 4 >= 1 <= 3 >= 2.
-# This is not a complete list.
-# 
-# Write a script to print all possible wave arrays for an integer array
-# N of arbitrary length.
-# 
-# Notes:
-# 
-# When considering N of any length, note that the first element is
-# always greater than or equal to the second, and then the >=, <=, >=
-# sequence alternates until the end of the array.
-# "
-# 
-# My notes: sounds cute.  How to get started? possible values of n1 are any
-# value in the array APART FROM THE SMALLEST ONE, eg given 1..4, n1=2..4
-# Then n2 is any other value of the array <= n1; given n1 and n2 and list of
-# unused elements @u, n3 is any element in @u that is >= n2.
-# eg given 1..4, and n1=2, n2=1, n3 is 3 or 4.  Some sort of recursion should
-# do the trick (initially I thought 2 mutually recursive functions, one to
-# extend with a value LESS than or equal, the other to extend with a value
-# GREATER than or equal, but then I collapsed that via the parameter $less).
-# 
-
-use strict;
-use warnings;
-use feature 'say';
-use Function::Parameters;
-#use Data::Dumper;
-
+use v5.36;
 
 my @list = 1..4;
 
@@ -61,7 +26,7 @@ foreach my $n1pos (1..$#list)
 #	elements from @left that are (LESS THAN if $less, GREATER THAN if !
 #	$less) or equal to $curr.  Print all wave arrays as we find them.
 #
-fun findwaves( $less, $curr, $wavesofar, @left )
+sub findwaves( $less, $curr, $wavesofar, @left )
 {
 	my @possnext = grep
 		{ ($less && $_ <= $curr) || (!$less && $_ >= $curr) }

@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
+use v5.36;
 
 use List::Permutor;
 
@@ -29,7 +27,7 @@ if (@ARGV) {
     #print STDERR "No arguments given. Using example data: [1, 2, 3, 4]\n";
 }
 
-my $perm = new List::Permutor @n;
+my $perm = List::Permutor->new(@n);
 
 ARRAY_LOOP:
 while (my @set = $perm->next) {

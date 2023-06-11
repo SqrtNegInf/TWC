@@ -1,19 +1,8 @@
 #!/usr/bin/env perl
-use strict;
+use v5.36;
+
 use Algorithm::Combinatorics qw/combinations/;
 use integer;
-
-# Usage: ch-2.pl N (LIST of N integers)
-# e.g. ch-2.pl 4 1 2 3 4
-# 4 2 3 1
-# 4 1 3 2
-# 3 2 4 1
-# 3 1 4 2
-# 2 1 4 3
-#
-# BUG!!!: need to fix when   number_of_elements_of_median >= number_of_all_elements/2 
-#      for example, input: 1 2 2 2 2 3
-#      in those situation, it will repeat some arrays.
 
 my $oN = 4;
 my @userinput = sort {$a<=>$b} 1..4;
