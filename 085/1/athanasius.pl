@@ -117,10 +117,7 @@ sub search_for_triplet
         {
             my $sum = $R->[$i] + $R->[$i + 1] + $R->[$i + 2];
 
-            # Note: From Perl v5.32.0, this can be simplified to:
-            #       if (1 < $sum < 2)
-
-            if (1 < $sum && $sum < 2)
+            if (1 < $sum < 2)
             {
                 $idx = $i;
                 last;

@@ -1,6 +1,7 @@
 #!/usr/bin/env perl
-use v5.30.0;
-no warnings;
+use v5.36;
+use Modern::Perl;
+no warnings 'experimental';
 
 use Algorithm::Permute;
 

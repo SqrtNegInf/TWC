@@ -1,11 +1,5 @@
 #!/usr/bin/env perl
 use v5.36;
-#
-# You are given binary tree containing numbers 0-9 only.
-# Write a script to sum all possible paths from root to leaf.
-
-use v5.30;
-use warnings;
 
 use Test::More;
 

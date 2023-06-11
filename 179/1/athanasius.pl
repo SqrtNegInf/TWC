@@ -43,10 +43,6 @@ Interface
 If $n is not supplied on the command line, the in-file test suite is run
 instead.
 
-Note
-----
-Script output tested under Windows 8.1 using Perl v5.32.1.
-
 Reference
 ---------
 [1] "Long and short scales", Wikipedia,

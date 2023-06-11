@@ -1,5 +1,5 @@
 #!/usr/bin/env perl
-use v5.30.0;
+use v5.36;
 
 my @list = (-2, -1, 0, 3, 4);
 @list = (5, -4, -1, 3, 6);
