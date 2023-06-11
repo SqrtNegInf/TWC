@@ -1,21 +1,47 @@
 The good, the bad and the ugly of 'use v5.36'
+---------------------------------------------
 
-use Modern::Perl mostly obsolete, except:
-'given' requires no warnings 'experimental'
-'switch' must be explicitly enabled: use feature 'switch';
+JK, almost all good, but here are some possible gothcha's
 
-Function::Parameters 
-obsolete for in-line subroutine args
-still needed for 'method' (053/1/duncan-c-white.pl)
+Common Issues
+=============
 
 subroutine signatures:
-sub foo(&@) ==> sub :prototype(&@)
-
-bit-wise operators: 
-^ ==> ^.
+    sub foo(&@) ==> sub foo :prototype(&@)
 
 classes:
-new Foo ==> Foo->new
+    new Foo ==> Foo->new
+
+bit-wise operators: 
+    ^ ==> ^.
 
 hash initialization:
-%specialcase = {0=>0, 1=>0} ==> %specialcase = (0=>0, 1=>0) 
+    %Foo = {0=>0, 1=>0} ==> %Foo = (0=>0, 1=>0) 
+
+Rare Issues
+===========
+
+Filehandles can be undef: [088/2/polettix.pl]
+    my $text = defined <$fh> or return
+
+Parens needed to disambiguate precedence: [092/1/arne-sommer.pl]
+    (0 .. length $A -1) ==> (0 .. length($A) -1) 
+
+Module Issues
+=============
+
+Function::Parameters 
+    obsolete for in-line subroutine args (no need for 'fun')
+    still needed for 'method' [053/1/duncan-c-white.pl]
+
+use Modern::Perl mostly obsolete, except:
+    given  - probably want to use:        no warnings 'experimental'
+    switch - must be explicitly enabled:  use feature 'switch';
+
+use Modern::Perl [this is the 'ugly']
+    can interact badly with regard to prototypes [160/1/bruce-gray.pl]
+
+Unresolved Issues
+================
+
+$$cache { $blah } //=  ...  [136/2/abigail.pl]
