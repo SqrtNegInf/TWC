@@ -1,15 +1,7 @@
 #!/usr/bin/env perl
-#
-# ch-2.pl - Collatz sequence
-#
-# Ryan Thompson <rjt@cpan.org>
+use v5.36;
 
-use 5.010;
-use warnings;
-use strict;
-no warnings 'uninitialized';
 use List::Util qw/first shuffle/;
-use Data::Dump qw/pp dd/;
 
 use Getopt::Long;
 

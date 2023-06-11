@@ -1,35 +1,5 @@
 #!/usr/bin/env perl
-#
-# Task 2: "Collatz Conjecture
-#
-# It is thought that the following sequence will always reach 1:
-# 
-#     $n = $n / 2 when $n is even
-#     $n = 3*$n + 1 when $n is odd
-# 
-# For example, if we start at 23, we get the following sequence:
-# 
-# 	23 -> 70 -> 35 -> 106 -> 53 -> 160 -> 80 -> 40 -> 20 -> 10 -> 5 -> 16 -> 8 -> 4 -> 2 -> 1
-# 
-# Write a function that finds the Collatz sequence for any positive
-# integer. Notice how the sequence itself may go far above the
-# original starting number.
-# 
-# Extra Credit
-# 
-# Have your script calculate the sequence length for all starting numbers
-# up to 1000000 (1e6), and output the starting number and sequence length
-# for the longest 20 sequences."
-# 
-# My notes: Sounds interesting!
-# 
-
-use strict;
-use warnings;
-use feature 'say';
-use Function::Parameters;
-use Data::Dumper;
-
+use v5.36;
 
 my $n = 23;
 
@@ -70,7 +40,7 @@ if( $n>0 )
 #		$n = 3*$n + 1 when $n is odd
 # 
 #
-fun collatz( $n )
+sub collatz( $n )
 {
 	my @seq = ( $n );
 	while( $n != 1 )

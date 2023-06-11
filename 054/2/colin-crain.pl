@@ -1,4 +1,5 @@
 #!/usr/bin/env perl
+use v5.36;
 #
 #       call_me_collatz.pl
 #
@@ -62,12 +63,6 @@
 ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ##
 
 
-
-use warnings;
-use strict;
-use feature ":5.26";
-
-## ## ## ## ## MAIN:
 my $start        = shift @ARGV // 23;
 my $METAANALYSIS = shift @ARGV // 1;
 

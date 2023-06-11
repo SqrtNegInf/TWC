@@ -1,11 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-use utf8;
-use feature qw{ postderef say signatures state switch };
-no warnings qw{ experimental recursion };
-binmode( STDOUT, ":utf8" ) ;
+use v5.36;
 
 use Carp;
 

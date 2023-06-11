@@ -1,9 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-use diagnostics;
-use FindBin;
+use v5.36;
 
 ++$|;
 

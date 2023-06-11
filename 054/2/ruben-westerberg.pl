@@ -1,7 +1,6 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use feature qw<say switch>;
+use v5.36;
+use feature qw<switch>;
 no warnings qw<experimental recursion>;
 
 my $max=$ARGV[0]//23; 		#sane default without cmd line args

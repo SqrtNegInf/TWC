@@ -1,11 +1,7 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
+use v5.36;
 
 my $n = 23;
-die "ERROR: Missing collatz starting number."    unless defined $n;
-die "ERROR: Invalid collatz starting number $n." unless $n > 0;
 
 my @collatz = ($n);
 while ($n != 1) {

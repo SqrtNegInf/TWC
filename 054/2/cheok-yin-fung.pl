@@ -1,19 +1,5 @@
 #!/usr/bin/env perl
-# Perl Weekly Challenge #054 Task 2
-
-# Normal Usage: ch-2.pl [TARGET]
-# It returns the Collatz sequence beginning with the target number.
-
-# For the display of the sequence length from 1 to 1000000: 
-# Usage: ch-2.pl
-# it creates a file "ch-2_logfile" saving the seqence length.
-
-# For the extra credit (the 20 numbers which have the largest seq length):
-# I wanna write a selection algorithm (trying a binary heap) for getting 
-# the extra credit seq length), but I have no time, ooops
-
-use strict;
-use integer;
+use v5.36;
 
 my $MAX_U = 333334;  
 # Laurent's codes and explanations on blog teach me that
@@ -29,7 +15,7 @@ my $TARGET_END = 10000;
 
 #space allocation
 my @seqlength; 
-my %SeqlengthLargeInt = {1 =>1};
+my %SeqlengthLargeInt = (1=>1);
 
 $seqlength[1] = 1;
 

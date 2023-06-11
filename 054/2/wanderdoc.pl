@@ -1,9 +1,7 @@
 #!/usr/bin/env perl
-use strict;
-use warnings FATAL => qw(all);
+use v5.36;
 
 use List::Util qw(max min);
-use Time::HiRes qw(time);
 
 my %collatz_mem;
 
