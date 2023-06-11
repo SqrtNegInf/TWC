@@ -1,4 +1,5 @@
 #!/usr/bin/env perl
+use v5.36;
 use Modern::Perl;
 use feature qw( signatures postderef switch );
 no warnings qw( experimental );

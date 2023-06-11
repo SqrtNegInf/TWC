@@ -1,4 +1,5 @@
 #!/usr/bin/env perl
+use v5.36;
 # Task 2 Challenge 053 Solution by saiftynet
 # Vowel Strings
 # Write a script to accept an integer 1 > N > 5 that would 
