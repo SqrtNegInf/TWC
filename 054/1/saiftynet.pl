@@ -1,29 +1,5 @@
 #!/usr/bin/env perl
-# Task 1 Challenge 054 Solution by saiftynet
-# kth Permutation Sequence
-# Write a script to accept two integers n (&gt;=1) and k (&gt;=1). 
-# It should print the kth permutation of n integers. For more information, 
-# please follow the wiki page.
-# For example, n=3 and k=4, the possible permutation sequences are 
-# listed below:
-# 123,132,213,231,312,321 The script should print the 4th permutation 
-# sequence 231.
-
-# This is polymorphic solution
-# KPermutation() can be called with the number of digits (N) from
-# the task and an optional parameter.  If this parameter is omitted
-# then all permutations are returned.  If the parameter is a
-# single number then only that k'th permutation is returned.  If
-# the parameter is a listref (e.g [1,5,7]) the permutations in
-# those positions are returned.  The return value is in all cases a 
-# list of arrayrefs 
-
-print "\nGetting all permutations\n";
-print join (" ",@$_), "\n" foreach kPermutation(3);
-print "\nGetting kth permutation\n";
-print join (" ",@$_), "\n" foreach kPermutation(3,4);
-print "\nGetting selected permutations\n";
-print join (" ",@$_), "\n" foreach kPermutation(3,[5,2,3]);
+use v5.36;
 
 sub kPermutation{
    my $n=shift;

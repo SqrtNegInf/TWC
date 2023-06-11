@@ -1,8 +1,6 @@
 #!/usr/bin/env perl
-# Test: ./ch-1.pl 3 4
-use strict;
-use warnings;
-use feature qw /say/;
+use v5.36;
+
 use Algorithm::Combinatorics qw(permutations);
 
 my ($n,$k) = (3,4);

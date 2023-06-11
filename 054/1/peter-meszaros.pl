@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-use v5.28;
+use v5.36;
 
 sub perm
 {
@@ -17,8 +14,6 @@ sub perm
         return 1 if perm($k, $perm.$set[$_], @set[0..$_-1], @set[$_+1..$#set]);
     }
 }
-
-#----------------------------------
 
 my @inp = 1..3;
 my $k = 4;

@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-use warnings;
-use strict;
-use feature qw{ say };
+use v5.36;
 
 use List::Util qw{ product };
 
@@ -25,8 +23,6 @@ sub kth_perm { perm_recurse($_[1], 1 .. $_[0]) }
 
 my ($n, $k) = (3,4);
 say kth_perm($n, $k);
-
-__END__
 
 use Test::More;
 

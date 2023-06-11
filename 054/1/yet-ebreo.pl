@@ -1,10 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use feature 'say';
-
-#kth Permutation Sequence
-#https://perlweeklychallenge.org/blog/perl-weekly-challenge-054/
+use v5.36;
 
 my @r;
 my $n = $ARGV[0] || 3;
@@ -35,17 +30,3 @@ my @x = 1..$n;
 generate(\@x,$n);
 @r = sort @r;
 say $r[$k-1];
-
-=begin
-perl .\ch-1.pl      
-231
-
-perl .\ch-1.pl 7 2653
-4615237
-
-perl .\ch-1.pl 8 29805
-68327415
-
-perl .\ch-1.pl 9 345
-123695748
-=cut

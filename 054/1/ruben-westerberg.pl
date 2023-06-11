@@ -1,8 +1,8 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use feature qw(switch say);
+use v5.36;
+use feature 'switch';
 no warnings 'experimental';
+
 use List::Util;
 
 

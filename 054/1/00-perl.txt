@@ -20,6 +20,16 @@ in place : the 4th permutation sequence is 2 3 1
  
 ===> 054/1/e-choroba.pl <===
 231
+ok 1
+ok 2
+ok 3
+ok 4
+ok 5
+ok 6
+ok 7
+ok 8
+ok 9
+1..9
  
 ===> 054/1/jaldhar-h-vyas.pl <===
 231
@@ -51,22 +61,6 @@ ok 1
 231
  
 ===> 054/1/saiftynet.pl <===
-
-Getting all permutations
-1 2 3
-1 3 2
-2 1 3
-2 3 1
-3 2 1
-3 1 2
-
-Getting kth permutation
-2 3 1
-
-Getting selected permutations
-3 1 2
-2 1 3
-2 3 1
  
 ===> 054/1/yet-ebreo.pl <===
 231

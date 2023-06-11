@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use feature "say";
+use v5.36;
 
 my ($n, $k) = (3,4);
 my $err_msg = "Please supply two integer parameters freater than 0\n";

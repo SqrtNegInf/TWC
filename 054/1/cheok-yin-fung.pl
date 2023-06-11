@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use integer;
-
+use v5.36;
 
 sub knot {
     if ($_[0]) {$_[0] = 0;} else {$_[0] = 1};
@@ -95,7 +93,7 @@ while ( $n <= $noofperm-1  ) {
 
 }
 
-my @result = sort {$a <=> $b} @result;
+@result = sort {$a <=> $b} @result;
 
 print $result[$k-1];
 
