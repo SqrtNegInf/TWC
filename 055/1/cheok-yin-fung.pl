@@ -1,5 +1,5 @@
 #!/usr/bin/env perl
-use strict;
+use v5.36;
 
 {
 package lr;
@@ -29,7 +29,8 @@ if ($binaryint[0]==0) {
    } else {@block = (1,) ;}
 
 #begin: special case of 1111..
-my %specialcase = {0=>0, 1=>0};
+my %specialcase = (0=>0, 1=>0);
+#my %specialcase = {0=>0, 1=>0}; # no longer
 $specialcase{$_}++ foreach @binaryint;
 if ($specialcase{1} == $#binaryint + 1) {
 	print "L = ", $_, ", R = ", $_, "\n" foreach (0.. $#binaryint);

@@ -1,10 +1,5 @@
 #!/usr/bin/env perl
-##!/usr/bin/env perl
-
-use strict;
-use warnings;
-use Data::Dumper;
-use feature qw/say/;
+use v5.36;
 
 sub process_all_flips {
     my $binary = shift;

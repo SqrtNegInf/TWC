@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings FATAL => qw(all);
-
-
+use v5.36;
 
 my $string = shift // '100110011';
 my $max_idx = find_max_pair($string);

@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
 use warnings;
-use strict;
+
 use feature qw<:all>;
 no warnings "experimental";
 

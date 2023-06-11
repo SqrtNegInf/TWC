@@ -101,18 +101,6 @@ Testing on: 00101001
 Maximal 1's of count 6 given by L/R pairs:
 0, 6
  
-===> 055/1/saiftynet.pl <===
-Flips using string transformation and substitution method
-3 best Flips generated from flips of '0101001001110' giving 9 ones
-(L=0, R=8)
-(L=2, R=8)
-(L=4, R=8)
-Flips using binary operations method
-3 best Flips generated from flips of '0101001001110' giving 9 ones
-(L=0, R=8)
-(L=2, R=8)
-(L=4, R=8)
- 
 ===> 055/1/southpawgeek.pl <===
 L=0, R=0
 010 -> 110

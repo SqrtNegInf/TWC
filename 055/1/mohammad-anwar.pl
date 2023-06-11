@@ -1,15 +1,9 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
+use v5.36;
 
 my $binary_str = $ARGV[0] // "101";
 
 print "$binary_str => ", flip_binary($binary_str), "\n";
-
-#
-#
-# METHOD
 
 sub flip_binary {
     my ($binary_str) = @_;

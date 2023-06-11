@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-#use warnings;
-use feature qw/say/;
+use v5.36;
 
 my $B = "010";
 my @LR =(
@@ -35,7 +33,7 @@ sub flip {
 
     my $x = ("@N" =~ tr/1/1/);
     push @{$max1s[$x]}, $LR;
-    $pos = $x if $x > $pos;
+    $pos = $x if ! defined $pos or $x > $pos;
 }
 
 say "max total positive bits: $pos";
