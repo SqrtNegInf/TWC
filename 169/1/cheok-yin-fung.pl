@@ -1,8 +1,8 @@
 #!/usr/bin/env perl
-#use v5.36; # not compatiblle, 'given' 
+use v5.36;
+use Modern::Perl;
+no warnings 'experimental';
 
-use v5.24.0;
-no warnings;
 use Math::Prime::Util qw/forprimes/;
 use POSIX;
 

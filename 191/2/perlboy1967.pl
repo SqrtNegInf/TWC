@@ -1,14 +1,11 @@
 #!/usr/bin/env perl
-
-use v5.16;
-use warnings;
+use v5.36;
 
 use Time::HiRes qw(gettimeofday tv_interval);
 use Algorithm::Permute;
 use List::MoreUtils qw(firstidx);
 
-
-sub isCuteEntry ($$) {
+sub isCuteEntry {
   state $c;
 
   my $idx = $_[0].'|'.$_[1];

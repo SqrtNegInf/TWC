@@ -1,12 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
-# Perl weekly challenge 101
-# Task 2: Origin containing triangle
-#
-# See https://wlmb.github.io/2021/02/22/PWC101/#task-2-origin-containing-triangle
-use strict;
-use warnings;
-use v5.12;
+
 use POSIX qw(floor);
 use List::Util qw(all any pairs);
 use Scalar::Util qw(looks_like_number);

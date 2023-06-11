@@ -1,10 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
 
-use v5.24;
-use warnings;
-use experimental 'signatures';
-no warnings 'experimental::signatures';
 use List::Util 'sum';
 sub validate_SEDOL ($s) {
    state $weights = [1, 3, 1, 7, 3, 9, 1];

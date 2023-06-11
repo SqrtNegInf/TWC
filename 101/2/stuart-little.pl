@@ -1,12 +1,5 @@
 #!/usr/bin/env perl
 use v5.36;
-use warnings;
-use v5.12;
-
-# run <script> <x1 y1 x2 y2 x3 y3>
-
-use feature qw(signatures);
-no warnings qw(experimental::signatures);
 
 sub areaTr2($x1,$y1,$x2,$y2,$x3,$y3) {
     abs(($y3-$y1)*($x2-$x1) - ($y2-$y1)*($x3-$x1))
