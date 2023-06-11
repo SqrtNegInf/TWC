@@ -1,0 +1,21 @@
+The good, the bad and the ugly of 'use v5.36'
+
+use Modern::Perl mostly obsolete, except:
+'given' requires no warnings 'experimental'
+'switch' must be explicitly enabled: use feature 'switch';
+
+Function::Parameters 
+obsolete for in-line subroutine args
+still needed for 'method' (053/1/duncan-c-white.pl)
+
+subroutine signatures:
+sub foo(&@) ==> sub :prototype(&@)
+
+bit-wise operators: 
+^ ==> ^.
+
+classes:
+new Foo ==> Foo->new
+
+hash initialization:
+%specialcase = {0=>0, 1=>0} ==> %specialcase = (0=>0, 1=>0) 
