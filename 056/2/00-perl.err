@@ -1,15 +1,4 @@
-Bareword found where operator expected at ./adam-russell.pl line 82, near "new Graph::Easy::Parser"
-	(Do you need to predeclare new?)
-Bareword found where operator expected at ./adam-russell.pl line 89, near "new Graph"
-	(Do you need to predeclare new?)
-syntax error at ./adam-russell.pl line 82, near "new Graph::Easy::Parser"
-Global symbol "$parser" requires explicit package name (did you forget to declare "my $parser"?) at ./adam-russell.pl line 83.
-syntax error at ./adam-russell.pl line 89, near "new Graph"
-Execution of ./adam-russell.pl aborted due to compilation errors.
-Bareword found where operator expected at ./dave-jacoby.pl line 5, near "new Node"
-	(Do you need to predeclare new?)
-syntax error at ./dave-jacoby.pl line 5, near "new Node"
-Execution of ./dave-jacoby.pl aborted due to compilation errors.
+Can't use string ("") as an ARRAY ref while "strict refs" in use at ./adam-russell.pl line 53.
 Use of uninitialized value $depth in repeat (x) at ./ryan-thompson.pl line 39.
 Use of uninitialized value $depth in addition (+) at ./ryan-thompson.pl line 40.
 Use of uninitialized value $depth in addition (+) at ./ryan-thompson.pl line 40.

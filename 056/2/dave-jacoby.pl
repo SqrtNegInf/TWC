@@ -2,7 +2,7 @@
 use v5.36;
 
 # make the tree
-my $hash->%* = map { $_ => new Node($_) } 1 .. 13;
+my $hash->%* = map { $_ => Node->new($_) } 1 .. 13;
 $hash->{5}->add_child( $hash->{4} );
 $hash->{5}->add_child( $hash->{8} );
 $hash->{4}->add_child( $hash->{11} );
