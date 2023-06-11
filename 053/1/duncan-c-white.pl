@@ -1,10 +1,7 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use feature 'say';
-use strict;
-use warnings;
 use Function::Parameters;
-#use Data::Dumper;
 
 package Matrix;
 
@@ -44,7 +41,7 @@ method new( $class: $matrixstr )
 # my $str = $mat->as_str();
 #	Matrix as string: return a printable form of matrix $mat.
 #
-sub as_str ($)
+sub as_str 
 {
 	my( $self ) = @_;
 

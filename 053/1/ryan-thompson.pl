@@ -1,13 +1,5 @@
 #!/usr/bin/env perl
-#
-# ch-1.pl - Rotate matrix
-#
-# 2020 Ryan Thompson <rjt@cpan.org>
-
-use 5.010;
-use warnings;
-use strict;
-no warnings 'uninitialized';
+use v5.36;
 
 # Rotate a matrix clockwise
 sub rotate90_cw {

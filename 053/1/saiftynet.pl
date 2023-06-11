@@ -1,21 +1,5 @@
 #!/usr/bin/env perl
-# Task 1 Challenge 053 Solution by saiftynet
-# Rotate Matrix
-# Write a script to rotate the followin matrix by given 90/180/270 
-# degrees clockwise.
-# [ 1, 2, 3 ][ 4, 5, 6 ][ 7, 8, 9 ]For example, if you rotate by 
-# 90 degrees then expected result should be like below
-# [ 7, 4, 1 ][ 8, 5, 2 ][ 9, 6, 3 ]
-
-# This script allows 7 different rotations and flips
-# 90 (or "cw"...clockwise), 180 (or "ht" ...half turn),
-# 270 (or "ccw"...counter clockwise), 0 returns original matrix.
-# It also understands flips "v"ertical and "h"orizontal,
-# and diagonal "lr" (flip on topleft to bottomright diagonal)
-# and  "rl" (flip on topright to bottomleft diagonal).
-# flip() can work  with 2d square or rectangular matrices
-# of any size. of course the matrix does not require just
-# numeric contents.
+use v5.36;
 
 # square matrix made of alphanumeric characters
 my $matrix1=[[qw{1 2 3 4 5}],

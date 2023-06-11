@@ -1,10 +1,8 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use Data::Dumper;
+use v5.36;
+
 use Math::Trig ':pi';
 use POSIX qw<round>;
-use v5.28;
 
 my $matrix=[
 	[ 1, 2, 3 ],

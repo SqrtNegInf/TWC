@@ -1,24 +1,4 @@
 #!/usr/bin/env perl5.32.1
-#===============================================================================
-#
-#         FILE: ch-1.pl
-#
-#        USAGE: ./ch-1.pl  
-#
-#  DESCRIPTION: https://perlweeklychallenge.org/blog/perl-weekly-challenge-053/
-#
-#  Rotate Matrix
-#
-#      OPTIONS: ---
-# REQUIREMENTS: ---
-#         BUGS: ---
-#        NOTES: ---
-#       AUTHOR: Lubos Kolouch
-# ORGANIZATION: 
-#      VERSION: 1.0
-#      CREATED: 03/26/2020 08:19:01 PM
-#     REVISION: ---
-#===============================================================================
 
 use strict;
 use warnings;

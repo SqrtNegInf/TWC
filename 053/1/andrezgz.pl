@@ -1,9 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-
-use 5.0024; # Postfix dereferencing is stable is v5.24
+use v5.36;
 
 use constant ROTATION_STEP => 90;
 

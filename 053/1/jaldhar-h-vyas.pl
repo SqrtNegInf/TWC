@@ -1,19 +1,7 @@
 #!/usr/bin/env perl
-use warnings;
-use strict;
-use 5.010;
+use v5.36;
+
 use English qw/ -no_match_vars /;
-
-sub usage {
-    print <<"-usage-";
-Usage:
-  $PROGRAM_NAME <angle>
-  
-    <angle>    angle to rotate matrix (0, 90, 180, or 270)
--usage-
-
-    exit(1);
-}
 
 sub rotate {
     my ($angle) = @_;

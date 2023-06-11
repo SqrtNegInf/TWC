@@ -1,18 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-
-#Rotate Matrix
-#Write a script to rotate the followin matrix by given 90/180/270 degrees clockwise.
-#
-#[ 1, 2, 3 ]
-#[ 4, 5, 6 ]
-#[ 7, 8, 9 ]
-#For example, if you rotate by 90 degrees then expected result should be like below
-#
-#[ 7, 4, 1 ]
-#[ 8, 5, 2 ]
-#[ 9, 6, 3 ]
+use v5.36;
 
 my @array = (  
         [1, 2, 3],  

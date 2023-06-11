@@ -1,34 +1,5 @@
 #!/usr/bin/env perl
-
-###########################################################################
-# script name: ch-1.pl                                                    #
-#                                                                         #
-# https://github.com/user-person                                          #
-#                                                                         #
-# https://perlweeklychallenge.org/blog/perl-weekly-challenge-053/         #
-#                                                                         #
-# Rotate Matrix                                                           #
-# Write a script to rotate the followin matrix by given 90/180/270        #
-# degrees clockwise.                                                      #
-#                                                                         #
-# [ 1, 2, 3 ]                                                             #
-# [ 4, 5, 6 ]                                                             #
-# [ 7, 8, 9 ]                                                             #
-#                                                                         #
-# For example, if you rotate by 90 degrees then expected result should    #
-# be like below                                                           #
-#                                                                         #
-# [ 7, 4, 1 ]                                                             #
-# [ 8, 5, 2 ]                                                             #
-# [ 9, 6, 3 ]                                                             #
-#                                                                         #
-###########################################################################
-
-use strict;
-use warnings;
-use diagnostics;
-
-use FindBin;
+use v5.36;
 
 sub flat {
     return map { ref eq 'ARRAY' ? flat(@$_) : $_ } @_;
@@ -38,24 +9,6 @@ my @matrix = [[1,2,3],
               [4,5,6],
               [7,8,9]];
 
-#______________________________________
-# 0 start  |   90   |   180  |   270  |
-# 1 [0][0] | [0][2] | [2][2] | [2][0] |
-# 2 [0][1] | [1][2] | [2][1] | [1][0] |
-# 3 [0][2] | [2][2] | [2][0] | [0][0] |
-# 4 [1][0] | [0][1] | [1][2] | [2][1] |
-# 5 [1][1] | [1][1] | [1][1] | [1][1] |
-# 6 [1][2] | [2][1] | [1][0] | [0][1] |
-# 7 [2][0] | [0][0] | [0][2] | [2][2] |
-# 8 [2][1] | [1][0] | [0][1] | [1][2] |
-# 9 [2][2] | [2][0] | [0][0] | [0][2] |
-#__________|________|________|________|
-
-#     inner   outer
-#   0 row 0 + col 0 +
-#  90 col 2 - row 0 +
-# 180 row 2 - col 2 -
-# 270 col 2 - row 0 +
 
 my $width = 0;
 my @rawNums = ();
