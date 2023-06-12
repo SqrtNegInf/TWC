@@ -1,4 +1,0 @@
-Can't use string ("") as an ARRAY ref while "strict refs" in use at ./adam-russell.pl line 53.
-Use of uninitialized value $depth in repeat (x) at ./ryan-thompson.pl line 39.
-Use of uninitialized value $depth in addition (+) at ./ryan-thompson.pl line 40.
-Use of uninitialized value $depth in addition (+) at ./ryan-thompson.pl line 40.

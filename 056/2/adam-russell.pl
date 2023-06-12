@@ -1,5 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
+no strict 'refs';
 
 use Graph;
 use boolean; 
