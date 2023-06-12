@@ -1,7 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use strict;
-use warnings;
 use Test::More;
 
 my $cases = [
@@ -30,5 +29,3 @@ sub common_characters
 is_deeply(common_characters($cases->[0]), ["r"],           '["Perl", "Rust", "Raku"]');
 is_deeply(common_characters($cases->[1]), ["e", "l", "v"], '["love", "live", "leave"]');
 done_testing();
-
-exit 0;

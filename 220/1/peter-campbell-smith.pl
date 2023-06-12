@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-
-use v5.16;
-use strict;
-use warnings;
+use v5.36;
 
 common_characters('Perl', 'Rust', 'Raku');
 common_characters('mouse', 'house', 'esoteric', 'some', 'mesolithic', 'Thames', 'semibreve'); 

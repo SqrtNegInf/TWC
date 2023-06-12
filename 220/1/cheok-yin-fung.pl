@@ -1,7 +1,6 @@
 #!/usr/bin/env perl
-use v5.30.0;
+use v5.36;
 
-use warnings;
 use Set::Scalar;
 
 sub cc {

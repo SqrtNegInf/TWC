@@ -1,4 +1,5 @@
 #!/usr/bin/env perl
+use v5.36;
 
 my @words = (["Perl", "Rust", "Raku"], ["love", "live", "leave"]);
 
