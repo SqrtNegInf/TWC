@@ -1,10 +1,12 @@
 #!/usr/bin/env perl
 use v5.36;
 
+use feature 'switch';
 no warnings 'experimental';
+use boolean;
 
 use Algorithm::Combinatorics qw(permutations);
-use builtin qw(true false);
+#use builtin qw(true false);
 
 squareful(1,17,8);
 squareful(2, 2, 2);
