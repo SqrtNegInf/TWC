@@ -461,8 +461,8 @@ Challenge titles and Rosetta-code correspondences (exact, and otherwise)
 
 220-1 Common Characters
 220-2 Squareful
-221-1
-221-2
+221-1 Good Strings
+221-2 Arithmetic Subsequence
 222-1
 222-2
 223-1
