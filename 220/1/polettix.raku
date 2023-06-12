@@ -1,6 +1,6 @@
 #!/usr/bin/env raku
-use v6;
-sub MAIN (*@words) { say common-characters(@words) }
+
+sub MAIN (@words = ("love", "live", "leave")) { say common-characters(@words) }
 
 sub common-characters (@words) {
    return [] unless @words;

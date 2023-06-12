@@ -1,19 +1,5 @@
 #!/usr/bin/env raku
-# :vim ft=raku sw=4 expandtab  # 🦋 ∅∪∩∋∈∉ ≡ ≢ «␤ » ∴
-use v6.d;
 use Test;
-
-=begin comment
-220-1: Common Characters        Submitted by: Mohammad S Anwar
-Given a list of words, return the list of characters (sorted alphabeticall) found in every word of the given list.
-
-Example 1
-Input: @words = ("Perl", "Rust", "Raku")
-Output: ("r")
-Example 2
-Input: @words = ("love", "live", "leave")
-Output: ("e", "l", "v")
-=end comment
 
 my @Test =
     < r >,          ("Perl", "Rust", "Raku"),

@@ -7,13 +7,11 @@ sub common-characters (+@words) {
     andthen .keys.sort
 }
 
-multi MAIN (Bool :test($)!) {
+#multi MAIN (Bool :test($)!) {
     use Test;
     is common-characters(<Perl Rust Raku>), <r>;
     is common-characters(<love live leave>), <e l v>;
     done-testing;
-}
+#}
 
-multi MAIN (*@words) {
-    put common-characters @words
-}
+#multi MAIN (*@words) { put common-characters @words }

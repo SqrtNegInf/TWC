@@ -1,4 +1,5 @@
 #!/usr/bin/env raku
+
 sub common-char (@in) {
     return sort keys ([∩] map {.lc.comb}, @in);
 }

@@ -1,13 +1,4 @@
 #!/usr/bin/env raku
-=begin comment
-------------------------------------------------
-AUTHOR: Robert DiCicco
-DATE  : 2023-06-05
-Challenge 220 Task 1 common Characters ( Raku )
-------------------------------------------------
-=end comment
-
-use v6;
 
 my @words = <Perl Rust Raku>, <love live leave>;
 
@@ -40,20 +31,3 @@ for (@words) -> @wds {
     say "Output: ",@out.sort;           # and say the results
     say " ";
 }
-
-=begin comment
-------------------------------------------------
-SAMPLE OUTPUT
-raku .\CommonChars.rk
-
-Input: @words = (Perl Rust Raku)
-Output: (r)
-
-Input: @words = (love live leave)
-Output: (e l v)
-
-------------------------------------------------
-=end comment
-
-
-
