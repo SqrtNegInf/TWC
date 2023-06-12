@@ -1,9 +1,9 @@
 #!/usr/bin/env perl
+use v5.16;
 
-use v5.16;    # The Weekly Challenge - 2023-06-05
-use utf8;     # Week 220 task 2 - Squareful
-use strict;   # Peter Campbell Smith
-use warnings; # Blog: http://ccgi.campbellsmiths.force9.co.uk/challenge
+use utf8;
+use strict;
+use warnings;
 
 use Algorithm::Loops 'NextPermuteNum';
 my (@squares);
@@ -11,8 +11,8 @@ $squares[0] = 0;
 
 squareful(1, 17, 8);
 squareful(2, 2, 2);
-squareful(63, 1, 24, 12, 13, 3, 141, 28, 8, 1, 3);
-squareful(1, 2, 3, 4, 5, 6, 7, 8, 9);
+#squareful(63, 1, 24, 12, 13, 3, 141, 28, 8, 1, 3);
+#squareful(1, 2, 3, 4, 5, 6, 7, 8, 9);
 
 sub squareful {
 	

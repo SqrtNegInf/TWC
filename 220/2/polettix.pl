@@ -2,6 +2,7 @@
 use v5.24;
 use warnings;
 use experimental 'signatures';
+
 use JSON::PP;
 
 my $sit = squareful_iterator(@ARGV);

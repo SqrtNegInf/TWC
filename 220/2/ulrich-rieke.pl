@@ -2,6 +2,7 @@
 use strict ;
 use warnings ;
 use feature 'say' ;
+
 use Algorithm::Combinatorics qw( permutations ) ;
 use POSIX ;
 
@@ -19,10 +20,7 @@ sub condition {
   return 1 ;
 }
 
-say "Enter some integers, separated by blanks!" ;
-my $line = <STDIN> ;
-chomp $line ;
-my @numbers = split( /\s/ , $line ) ;
+my @numbers = (3,6,10,15);
 my $len = scalar( @numbers ) ;
 my $iter = permutations( \@numbers ) ;
 print "(" ;

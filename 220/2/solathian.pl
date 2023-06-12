@@ -1,17 +1,10 @@
 #!/usr/bin/env perl
 use v5.36;
 
-# Challenge 220 - 2 - Squareful
-use Algorithm::Combinatorics qw(permutations);
-use builtin qw(true false);
-
 no warnings 'experimental';
 
-# Challenge 220 - 1 - Squareful
-
-# You are given an array of integers, @ints.
-# An array is squareful if the sum of every pair of adjacent elements is a perfect square.
-# Write a script to find all the permutations of the given array that are squareful.
+use Algorithm::Combinatorics qw(permutations);
+use builtin qw(true false);
 
 squareful(1,17,8);
 squareful(2, 2, 2);

@@ -1,6 +1,8 @@
 #!/usr/bin/env perl
 use v5.30.0;
+
 use Algorithm::Permute;
+
 my @ints = (1, 17, 8);
 #my @ints = (2,2,2);
 say "Input: \@ints = (" . join(",",@ints) . ")";

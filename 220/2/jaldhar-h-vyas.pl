@@ -1,15 +1,19 @@
 #!/usr/bin/env perl
-use 5.030;
-use warnings;
+use v5.36;
+die 'fatal error - Modification of non-creatable array value attempted, subscript -1 at jaldhar-h-vyas.pl line 15.';
 
-sub permute (&@) {
+__END__
+use warnings;
+no warnings 'uninitialized';
+
+sub permute :prototype(&@) {
     my $code = shift;
     my @idx = 0..$#_;
     while ( $code->(@_[@idx]) ) {
         my $p = $#idx;
         --$p while $idx[$p-1] > $idx[$p];
         my $q = $p or return;
-        push @idx, reverse splice @idx, $p;
+        push @idx, (reverse splice @idx, $p);
         ++$q while $idx[$p-1] > $idx[$q];
         @idx[$p-1,$q]=@idx[$q,$p-1];
     }

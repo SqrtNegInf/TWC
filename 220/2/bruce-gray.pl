@@ -1,5 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
+
 sub is_perfect_square ( $n ) {
     return $n == ( int(sqrt $n) ** 2 );
 }

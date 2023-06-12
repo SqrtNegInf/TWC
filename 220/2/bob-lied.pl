@@ -1,23 +1,4 @@
 #!/usr/bin/env perl
-# vim:set ts=4 sw=4 sts=4 et ai wm=0 nu:
-#=============================================================================
-# ch-2.pl Perl Weekly Challenge 220 Task 2 Squareful 
-#=============================================================================
-# Copyright (c) 2023, Bob Lied
-#=============================================================================
-# You are given an array of integers, @ints.
-# An array is squareful if the sum of every pair of adjacent elements is a
-# perfect square. Write a script to find all the permutations of the given
-# array that are squareful.
-# Example 1: Input: @ints = (1, 17, 8)
-#           Output: (1, 8, 17), (17, 8, 1)
-#   (1, 8, 17) since 1 + 8 => 9, and also 8 + 17 => 25 are perfect squares.
-#   (17, 8, 1) since 17 + 8 = 25 and 8 + 1 = 9 are squares.
-# Example 2: Input: @ints = (2, 2, 2)
-#           Output: (2, 2, 2)
-#   Only one permutation with 2+2=4 and 2+2=4 (two different pairs).
-#=============================================================================
-
 use v5.36;
 
 use Algorithm::Permute;

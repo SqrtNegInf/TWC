@@ -48,7 +48,7 @@ sub squareful_bruteforce(@ints) {
 }
 
 use Test2::V0 -srand => 1;
-plan 9;
+plan 8;
 
 for my $s (*squareful{CODE}, *squareful_bruteforce{CODE}) {
     is $s->(1, 17, 8), bag { item $_ for [1, 8, 17], [17, 8, 1] }, 'Example 1';
@@ -65,16 +65,3 @@ for my $s (*squareful{CODE}, *squareful_bruteforce{CODE}) {
         'Longer';
 }
 
-use Benchmark qw{ cmpthese };
-my @l = (1, 3, 9, 0, 16, 9, 27, 22, 14, 11);
-is squareful(@l), bag { item $_ for @{ squareful_bruteforce(@l) } }, 'same';
-
-cmpthese(5, {
-    bruteforce => sub { squareful_bruteforce(@l) },
-    optimised  => sub { squareful(@l) },
-});
-
-__END__
-           s/iter bruteforce  optimised
-bruteforce   19.0         --       -99%
-optimised   0.244      7667%         --

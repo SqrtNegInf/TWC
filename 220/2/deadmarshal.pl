@@ -1,9 +1,10 @@
 #!/usr/bin/env perl
 use strict;
 use warnings;
+
 use Algorithm::Combinatorics qw(permutations);
 use List::MoreUtils qw(slide all);
-use Data::Show;
+#use Data::Show; # goes to STDERR
 
 sub is_perfect_square{
   do{
@@ -29,6 +30,6 @@ sub squareful{
   @ret;
 }
 
-print show squareful([1,17,8]);
-print show squareful([2,2,2]);
-
+use Data::Dumper;
+print Dumper squareful([1,17,8]);
+#print squareful([2,2,2]);

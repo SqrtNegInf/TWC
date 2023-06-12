@@ -1,0 +1,121 @@
+ 
+===> 220/2/athanasius.pl <===
+
+Challenge 220, Task #2: Squareful (Perl)
+
+Running the test suite
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - No solution
+ok 4 - Negative
+ok 5 - Out-of-order
+1..5
+ 
+===> 220/2/bob-lied.pl <===
+ 
+===> 220/2/bruce-gray.pl <===
+1..14
+ok 1
+ok 2
+ok 3
+ok 4
+ok 5
+ok 6
+ok 7
+ok 8
+ok 9
+ok 10
+ok 11
+ok 12
+ok 13
+ok 14
+ 
+===> 220/2/deadmarshal.pl <===
+$VAR1 = [
+          1,
+          8,
+          17
+        ];
+$VAR2 = [
+          17,
+          8,
+          1
+        ];
+ 
+===> 220/2/e-choroba.pl <===
+# Seeded srand with seed '1' from import arg.
+1..8
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Empty
+ok 4 - Longer
+ok 5 - Example 1
+ok 6 - Example 2
+ok 7 - Empty
+ok 8 - Longer
+ 
+===> 220/2/jaldhar-h-vyas.pl <===
+ 
+===> 220/2/jo-37.pl <===
+# Seeded srand with seed '1' from import arg.
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - negative numbers
+ok 4 - alt negative numbers
+ok 5 - alt example 1
+ok 6 - alt example 2
+ok 7 - skipped test # skip benchmark
+1..7
+ 
+===> 220/2/lubos-kolouch.pl <===
+17, 8, 1
+1, 8, 17
+2, 2, 2
+ 
+===> 220/2/perlboy1967.pl <===
+ok 1
+ok 2
+1..2
+ 
+===> 220/2/peter-campbell-smith.pl <===
+
+Input:  @ints = (1, 17, 8)
+Output: (1, 8, 17), (17, 8, 1)
+
+Input:  @ints = (2, 2, 2)
+Output: (2, 2, 2)
+ 
+===> 220/2/peter-meszaros.pl <===
+ok 1 - [1, 17, 8]
+ok 2 - [2, 2, 2]
+1..2
+ 
+===> 220/2/polettix.pl <===
+ 
+===> 220/2/robert-dicicco.pl <===
+Input: @ints = 1 8 17
+Output: (17 8 1) (1 8 17) 
+ 
+===> 220/2/roger-bell-west.pl <===
+1..2
+ok 1 - example 1
+ok 2 - example 2
+ 
+===> 220/2/sgreen.pl <===
+()
+ 
+===> 220/2/solathian.pl <===
+1,8,17
+17,8,1
+2,2,2
+ 
+===> 220/2/ulrich-rieke.pl <===
+((3,6,10,15) (15,10,6,3) )
+ 
+===> 220/2/wlmb.pl <===
+    3 6 10 15
+    15 10 6 3
+ 
+===> 220/2/zapwai.pl <===
+Input: @ints = (1,17,8)
+Output: (17,8,1), (1,8,17)

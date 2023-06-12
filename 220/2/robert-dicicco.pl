@@ -1,11 +1,5 @@
 #!/usr/bin/env perl
-=begin comment
-------------------------------------------
-AUTHOR: Robert DiCicco
-DATE  : 2023-0-6-07
-Challenge 220 Task 2 Squareful ( Perl )
-------------------------------------------
-=cut
+
 use strict;
 use warnings;
 use feature 'say';
@@ -45,16 +39,3 @@ while ( my @perm = $p->next ) {
 }
 
 print("\n");
-
-=begin comment
-------------------------------------------
-SAMPLE OUTPUT
-perl .\Squareful.pl
-
-Input: @ints = 1 8 17
-Output: (17 8 1) (1 8 17)
-
-Input: @ints = 1 8 17 19
-Output: (19 17 8 1) (1 8 17 19)
-------------------------------------------
-=cut

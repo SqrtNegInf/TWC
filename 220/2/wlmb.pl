@@ -1,19 +1,14 @@
 #!/usr/bin/env perl
-# Perl weekly challenge 220
-# Task 2:  Squareful
-#
-# See https://wlmb.github.io/2023/06/05/PWC220/#task-2-squareful
 use v5.36;
+
 use POSIX qw(floor);
 use List::Util qw(all);
 use Algorithm::Combinatorics qw(permutations);
-die <<~"FIN" unless @ARGV>=2;
-     Usage: $0 N1 N2 [N3...]
-     to print all squarefull permutations of N1 N2...
-     FIN
-say "@ARGV ->";
+
+my @A = (3,6,10,15);
+
 my %seen;
-for(permutations[@ARGV]){
+for(permutations[@A]){
     my @permutation=@$_;
     next if $seen{"@permutation"};
     $seen{"@permutation"}++;

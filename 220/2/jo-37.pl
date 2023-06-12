@@ -1,14 +1,15 @@
 #!/usr/bin/env perl
-
 use v5.24;
+
+use experimental 'signatures';
+
 use Test2::V0 -srand => 1;
 use Math::Prime::Util qw(is_square formultiperm forsetproduct vecsum);
 use List::Util 'all';
 use List::MoreUtils 'slide';
 use Benchmark 'cmpthese';
-use experimental 'signatures';
 
-our ($tests, $examples, $benchmark, $perm);
+our ($tests, $examples, $benchmark, $perm) = (1,1);
 
 run_tests() if $tests || $examples || $benchmark;	# does not return
 

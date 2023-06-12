@@ -1,23 +1,4 @@
 #!/usr/bin/env perl
-
-=pod
-
-The Weekly Challenge - 220
-- https://theweeklychallenge.org/blog/perl-weekly-challenge-220
-
-Author: Niels 'PerlBoy' van Dijke
-
-Task 2: Squareful
-Submitted by: Mohammad S Anwar
-
-You are given an array of integers, @ints.
-
-|| An array is squareful if the sum of every pair of adjacent elements is a perfect square.
-
-Write a script to find all the permutations of the given array that are squareful.
-
-=cut
-
 use v5.16;
 
 use common::sense;

@@ -1,6 +1,8 @@
 #!/usr/bin/env perl
+
 use strict;
 use warnings;
+
 use Math::Complex;
 use Algorithm::Permute;
 
