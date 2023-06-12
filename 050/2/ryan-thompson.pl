@@ -1,12 +1,5 @@
 #!/usr/bin/env perl
-#
-# ch-2.pl - Noble Integers
-#
-# Ryan Thompson <rjt@cpan.org>
-
-use 5.010;
-use warnings;
-use strict;
+use v5.36;
 
 sub noble {
     my @L = sort { $a <=> $b } @_;

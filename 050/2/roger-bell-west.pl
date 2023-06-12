@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
+use v5.36;
 
 my @l=(2,6,1,3);
 #  @l=(19,11,9,7,20,3,17,16,2,14,1); # can't handle this?

@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-use feature 'say';
+use v5.36;
 
 my @list = sort {$a - $b } (19,11,9,7,20,3,17,16,2,14,1);
 

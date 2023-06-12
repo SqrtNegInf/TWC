@@ -1,10 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-use feature 'say';
-use Function::Parameters;
-#use Data::Dumper;
+use v5.36;
 
 my @ARGV = (19,11,9,7,20,3,17,16,2,14,1);
 foreach my $i (@ARGV)
@@ -31,7 +26,7 @@ say "noble: $_" for @noble;
 #	"A Noble Integer is an integer N in @L,
 #	such that there are exactly N integers greater than N in @L"
 #
-fun find_all_noble( @l )
+sub find_all_noble( @l )
 {
 	my @noble;
 	foreach my $element (@l)

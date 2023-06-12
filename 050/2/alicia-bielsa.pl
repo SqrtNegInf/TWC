@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
+use v5.36;
 
 my @aListIntegers = (19,11,9,7,20,3,17,16,2,14,1);
 my @aNobleIntegers = findNobleIntegers(@aListIntegers);

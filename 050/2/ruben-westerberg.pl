@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-#noble integers
-use warnings;
-use strict;
+use v5.36;
 
 my $size=$ARGV[0]//3;
 my @list= sort {$a > $b} (19,11,9,7,20,3,17,16,2,14,1);

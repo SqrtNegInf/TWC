@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use feature "say";
+use v5.36;
 
 #my $list_size = int(rand 10) + 3;
 #my @list = map {int(rand 50) + 1 } 1..$list_size;
