@@ -1,5 +1,4 @@
 #!/usr/bin/env raku
-use v6 ;
 
 sub condition( $aSeq , $len ) {
   for (0..$len - 2 ) -> $i {
@@ -16,9 +15,8 @@ sub printSeq( $aSeq ) {
   print "(" ~ join( ',' , $aSeq.Array ) ~ ")" ;
 }
 
-say "Enter some integers, separated by blanks!" ;
-my $line = $*IN.get ;
-my @numbers = $line.words.map( {.Int} ) ;
+#say "Enter some integers, separated by blanks!" ;
+my @numbers = (3,6,10,15);
 my $len = @numbers.elems ;
 my @permus = @numbers.permutations( ) ;
 my @solution = @permus.grep( {condition( $_ , $len) } ) ;

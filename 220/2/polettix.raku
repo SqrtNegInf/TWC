@@ -1,6 +1,6 @@
 #!/usr/bin/env raku
-use v6;
-sub MAIN (*@ints) {
+
+sub MAIN (@ints = (3,6,10,15) ) {
    .say for squarefuls(@ints);
 }
 

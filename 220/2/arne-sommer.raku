@@ -1,6 +1,7 @@
 #!/usr/bin/env raku
 
-unit sub MAIN (*@ints where @ints.elems > 1 && all(@ints) ~~ Int);
+#unit sub MAIN (*@ints where @ints.elems > 1 && all(@ints) ~~ Int);
+my @ints = (3,6,10,15);
 
 my $length = @ints.elems;
 my @squareful;

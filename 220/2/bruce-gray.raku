@@ -1,4 +1,5 @@
 #!/usr/bin/env raku
+
 sub is-perfect-square ( UInt $n --> Bool ) {
     return $n.sqrt.round.² == $n;
 }
@@ -81,6 +82,7 @@ my @tests =
         (22, 14, 2, 23, 13, 3, 1, 8, 17, 19, 6, 10, 15, 21, 4, 12, 24, 25, 11, 5, 20, 16, 9, 7, 18),
         (23, 2, 14, 22, 3, 13, 12, 4, 21, 15, 10, 6, 19, 17, 8, 1, 24, 25, 11, 5, 20, 16, 9, 7, 18), ) ),
 ;
+
 use Test;
 plan 2+@tests;
 for @tests.head(2) -> ( @in, @expected ) {

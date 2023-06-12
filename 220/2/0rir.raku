@@ -1,27 +1,5 @@
 #!/usr/bin/env raku
-# :vim ft=raku sw=4 expandtab  # 🦋 ∅∪∩∋∈∉ ≡ ≢ «␤ » ∴
-use v6.d;
 use Test;
-
-=begin comment
-220-2: Squareful        Submitted by: Mohammad S Anwar
-Given an array of integers, @ints, find all permutations of the array
-that are squareful.
-
-An array is squareful if the sum of every pair of adjacent elements is a perfect square.
-
-Example 1:
-Input: @ints = (1, 17, 8)
-Output: (1, 8, 17), (17, 8, 1)
-
-(1, 8, 17) since 1 + 8 => 9, a perfect square and also 8 + 17 => 25 is perfect square too.
-(17, 8, 1) since 17 + 8 => 25, a perfect square and also 8 + 1 => 9 is perfect square too.
-Example 2:
-Input: @ints = (2, 2, 2)
-Output: (2, 2, 2)
-
-There is only one permutation possible.
-=end comment
 
 my @Test =
     # exp               in

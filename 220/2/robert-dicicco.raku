@@ -1,12 +1,4 @@
 #!/usr/bin/env raku
-use v6;
-=begin comment
-------------------------------------------
-AUTHOR: Robert DiCicco
-DATE  : 2023-06-08
-Challenge 220 Task 2 Squareful ( Raku )
-------------------------------------------
-=end comment
 
 my @ints = <1 8 17>,<1 8 17 19>;
 

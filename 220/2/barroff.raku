@@ -1,7 +1,5 @@
 #!/usr/bin/env raku
 
-use v6.d;
-
 sub is-perfect-square(Int $number --> Bool) {
     return sqrt($number).narrow.^name eq 'Int';
 }
@@ -16,7 +14,7 @@ sub squareful(Int:D @numbers --> List) {
 }
 
 #| Run test cases
-multi sub MAIN('test') {
+#multi sub MAIN('test') {
     use Test;
     plan 2;
 
@@ -24,10 +22,10 @@ multi sub MAIN('test') {
         'works for (1, 17, 8)';
     is squareful(Array[Int:D].new(2, 2, 2)), [(2, 2, 2)],
         'works for (2, 2, 2)';
-}
+#}
 
 #| Take user provided list like 1 17 8
-multi sub MAIN(*@numbers where @numbers.elems ≥ 1) {
-    my Int @int-nums = @numbers;
-    say squareful(@int-nums);
-}
+#multi sub MAIN(*@numbers where @numbers.elems ≥ 1) {
+#    my Int @int-nums = @numbers;
+#    say squareful(@int-nums);
+#}
