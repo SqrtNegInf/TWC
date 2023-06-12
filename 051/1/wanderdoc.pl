@@ -1,15 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings FATAL => qw(all);
-
-=prompt
-Given an array @L of integers. Write a script to find all unique triplets such that a + b + c is same as the given target T. Also make sure a <= b <= c.
-Example: @L = (-25, -10, -7, -3, 2, 4, 8, 10);
-One such triplet for target 0 i.e. -10 + 2 + 8 = 0.
-=cut
-
-
-
+use v5.36;
 
 my @L = (-25, -10, -7, -3, 2, 4, 8, 10);
 my $target = 0;

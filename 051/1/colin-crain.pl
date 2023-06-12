@@ -1,4 +1,5 @@
 #!/usr/bin/env perl
+use v5.36;
 #
 #       tripleplay.pl
 #
@@ -72,14 +73,6 @@
 #
 #       2020 colin crain
 ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ##
-
-
-
-use warnings;
-use strict;
-use feature ":5.26";
-
-## ## ## ## ## MAIN:
 
 ## 1000 random elements between -9999..10000
 my @L;

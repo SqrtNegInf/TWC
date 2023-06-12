@@ -1,11 +1,6 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-##
-# Given an array @L of integers. Write a script 
-# to find all unique triplets such that a + b + c is 
-# the same as the given target T. Also make sure a <= b <= c.
-##
+use v5.36;
+
 use AI::Prolog;
 use constant TARGET => 0; 
 use constant NUMBERS => "-25, -10, -7, -3, 2, 4, 8, 10"; 
@@ -15,7 +10,7 @@ my $prolog = do{
 }; 
 my $numbers = NUMBERS; 
 $prolog =~ s/NUMBER_LIST/$numbers/; 
-$prolog = new AI::Prolog($prolog); 
+$prolog = AI::Prolog->new($prolog); 
 $prolog->query("unique_triplets(X, Y, Z, " . TARGET . ").");
 my $result = $prolog->results;
 my($x, $y, $z) = @{$result}[1 .. @{$result} - 1];

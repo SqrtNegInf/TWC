@@ -1,9 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-use feature qw{ say postderef signatures };
-no warnings qw{ experimental::postderef experimental::signatures };
+use v5.36;
 
 my @L = ( -25, -10, -7, -3, 2, 4, 8, 10 );
 

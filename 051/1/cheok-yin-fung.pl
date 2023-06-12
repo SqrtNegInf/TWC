@@ -1,5 +1,6 @@
 #!/usr/bin/env perl
-use strict;
+use v5.36;
+
 use Math::Combinatorics;
 use List::Util qw{sum};
 

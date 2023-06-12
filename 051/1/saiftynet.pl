@@ -1,19 +1,5 @@
 #!/usr/bin/env perl
-# Task 1 Challenge 051 Solution by saiftynet
-# 3 Sum
-# Given an array @L of integers. Write a script to find all unique 
-# triplets such that a + b + c is same as the given target T. Also 
-# make sure a <= b <= c.
-# Here is wiki page for more information.
-# Example:
-# @L = (-25, -10, -7, -3, 2, 4, 8, 10);
-# One such triplet for target 0 i.e. -10 + 2 + 8 = 0.
-
-use strict;use warnings;
-
-# one key word in this task appears to be the word "unique". So if list
-# contains duplicated elements one should not generate identical triplets.
-# The task list has been modified therefore to test duplicate rejection
+use v5.36;
 
 my @L = (-25, -10, -7, -3, -3, 2, 4, 8, 10, -7);
 my $T=0;

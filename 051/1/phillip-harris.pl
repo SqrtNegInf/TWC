@@ -1,18 +1,5 @@
 #!/usr/bin/env perl
-# Task 1 Challenge 051 Solution by phillip-harris
-# 3 Sum
-# Given an array @Lof integers. Write a script to find all unique
-# triplets such that a + b + c is same as the given target T. Also
-# make sure a &lt;= b &lt;= c.
-# Here is wiki page for more information.
-# Example:
-# @L = (-25, -10, -7, -3, 2, 4, 8, 10);
-# One such triplet for target 0 i.e. -10 + 2 + 8 = 0.
-
-# I read about the "two pointer trick" and decided to try to implement it
-# instead of just brute forcing it.
-
-use strict;
+use v5.36;
 
 my @L = ( -25, -10, -7, -3, 2, 4, 8, 10 );
 my $target = 0;

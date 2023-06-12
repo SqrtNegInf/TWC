@@ -1,29 +1,5 @@
 #!/usr/bin/env perl
-
-###########################################################################
-# script name: ch-1.pl                                                    #
-#                                                                         #
-# https://github.com/user-person                                          #
-#                                                                         #
-# https://perlweeklychallenge.org/blog/perl-weekly-challenge-051/         #
-#                                                                         #
-# 3 Sum                                                                   #
-# Given an array @L of integers. Write a script to find all unique        #
-# triplets such that a + b + c is same as the given target T. Also make   #
-# sure a <= b <= c.                                                       #
-#                                                                         #
-# https://en.wikipedia.org/wiki/3SUM                                      #
-#                                                                         #
-# Example:                                                                #
-#                                                                         #
-# @L = (-25, -10, -7, -3, 2, 4, 8, 10);                                   #
-#                                                                         #
-# One such triplet for target 0 i.e. -10 + 2 + 8 = 0.                     #
-#                                                                         #
-###########################################################################
-
-use strict;
-use warnings;
+use v5.36;
 
 my @L = (-25, -10, -7, -3, 2, 4, 8, 10);
 my $T = 0;

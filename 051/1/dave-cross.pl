@@ -1,11 +1,5 @@
 #!/usr/bin/env perl
-#
-# Note: As $a and $b are special variables in Perl, I've used
-# $x, $y and $z instead of $a, $b and $c.
-
-use strict;
-use warnings;
-use feature 'say';
+use v5.36;
 
 my $target = 0;
 
