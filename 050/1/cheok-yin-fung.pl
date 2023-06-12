@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-
-# Caution: The following codes work for distinct interval heads only. 
+use v5.36;
 
 my @L = (0) x 100;
 $L[100] = 1;

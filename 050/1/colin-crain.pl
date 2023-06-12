@@ -1,4 +1,5 @@
 #!/usr/bin/env perl
+use v5.36;
 #
 #       ch-1.pl
 #
@@ -58,12 +59,6 @@
 #       2020 colin crain
 ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ##
 
-
-use warnings;
-use strict;
-use feature ":5.26";
-
-## ## ## ## ## MAIN:
 
 ## sort and order the data before commencing
 my @intervals   = ([2,7], [3,9], [19,15], [18,22], [10,12]);

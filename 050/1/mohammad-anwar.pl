@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
+use v5.36;
 
 use Test::More;
 use Test::Deep;
@@ -22,11 +20,6 @@ cmp_deeply( merge_intervals( [ [2, 3], [2, 5] ] ),
             [ [2, 5] ] );
 cmp_deeply( merge_intervals( [ [2, 5], [2, 3] ] ),
             [ [2, 5] ] );
-
-#
-#
-# Test case borrowed from E. Choroba contributions.
-# https://github.com/manwar/perlweeklychallenge-club/blob/master/challenge-050/e-choroba/perl/ch-1.pl
 
 cmp_deeply( merge_intervals([[1,2]]), [[1,2]]);
 cmp_deeply( merge_intervals([[1,2],[3,4]]), [[1,2],[3,4]]);
@@ -167,6 +160,7 @@ sub __order_intervals {
 
     # Borrowed with input from E. Choroba
     # https://stackoverflow.com/questions/27089498/sorting-arrays-of-intervals-in-perl
+use v5.36;
     my @_sorted = sort {
         my ($a1, $a2) = $a =~ /-?\d+/g;
         my ($b1, $b2) = $b =~ /-?\d+/g;

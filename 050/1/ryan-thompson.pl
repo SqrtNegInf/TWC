@@ -1,12 +1,6 @@
 #!/usr/bin/env perl
-#
-# ch-1.pl - Merge intervals
-#
-# Ryan Thompson <rjt@cpan.org>
+use v5.36;
 
-use 5.010;
-use warnings;
-use strict;
 use List::Util qw/reduce/;
 
 sub merge_int {

@@ -1,8 +1,6 @@
 #!/usr/bin/env perl
-# Test: ./ch-1.pl "[2,7], [3,9], [10,12], [15,19], [18,22]"
-use strict;
-use warnings;
-use feature qw /say/;
+use v5.36;
+
 use List::Util qw /min max /;
 
 my $arg_string = join '', "[2,7], [3,9], [10,12], [15,19], [18,22]";

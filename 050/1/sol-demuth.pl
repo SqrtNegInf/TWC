@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
+use v5.36;
 
 my @sets = (
     [2,7], [3,9], [10,12], [15,19], [18,22],

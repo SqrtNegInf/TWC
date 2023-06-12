@@ -1,17 +1,6 @@
 #!/usr/bin/env perl
-# Task 1 Challenge 050 Solution by phillip-harris
-# Merge Intervals
-# Write a script to merge the given intervals where ever possible.
-# [2,7], [3,9], [10,12], [15,19], [18,22]
-# The script should merge [2, 7] and [3, 9] together to return [2,
-# 9].
-# Similarly it should also merge [15, 19] and [18, 22] together
-# to return [15, 22].
-# The final result should be something like below:
-# [2, 9], [10, 12], [15, 22]
-# This seemed so easy at first but took me longer than I care to admit
+use v5.36;
 
-use strict;
 use Data::Dumper;
 
 my @in =

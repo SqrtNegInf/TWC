@@ -1,11 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use feature qw( say );
-
-
-# Perl Weekly Challenge 050 - Task 1
-# Write a script to merge the given intervals where ever possible.
-# [2,7], [3,9], [10,12], [15,19], [18,22]
+use v5.36;
 
 # Assumption: Input numbers, similarlily to example are in order:
 #              - the first number in a pair is <= the first number in the next  pair

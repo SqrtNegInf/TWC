@@ -1,30 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-###########################################################################
-# script name: ch-1.pl                                                    #
-#                                                                         #
-# https://github.com/user-person                                          #
-#                                                                         #
-# https://perlweeklychallenge.org/blog/perl-weekly-challenge-050/         #
-#                                                                         #
-# Merge Intervals                                                         #
-# Write a script to merge the given intervals where ever possible.        #
-#                                                                         #
-# [2,7], [3,9], [10,12], [15,19], [18,22]                                 #
-#                                                                         #
-# The script should merge [2, 7] and [3, 9] together to return [2, 9].    #
-#                                                                         #
-# Similarly it should also merge [15, 19] and [18, 22] together to        #
-# return [15, 22].                                                        #
-#                                                                         #
-# The final result should be something like below:                        #
-#                                                                         #
-# [2, 9], [10, 12], [15, 22]                                              #
-#                                                                         #
-###########################################################################
-
-use strict;
-use warnings;
 use List::MoreUtils qw( minmax );
 
 my $input = "[2,7], [3,9], [10,12], [15,19], [18,22]";

@@ -1,11 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-use utf8;
-use feature qw{ postderef say signatures state switch };
-no warnings
-  qw{ experimental::postderef experimental::smartmatch experimental::signatures };
+use v5.36;
 
 use JSON;
 my $json = JSON->new;
@@ -35,19 +29,3 @@ LOOP: while (1) {
     say $json->encode( \@array );
     exit;
 }
-
-__DATA__
-
-TASK #1
-Merge Intervals
-Write a script to merge the given intervals where ever possible.
-
-[2,7], [3,9], [10,12], [15,19], [18,22]
-
-The script should merge [2, 7] and [3, 9] together to return [2, 9].
-
-Similarly it should also merge [15, 19] and [18, 22] together to return [15, 22].
-
-The final result should be something like below:
-
-[2, 9], [10, 12], [15, 22]

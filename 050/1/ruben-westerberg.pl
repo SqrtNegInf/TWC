@@ -1,8 +1,8 @@
 #!/usr/bin/env perl
-use warnings;
-use strict;
+use v5.36;
+
 use List::Util;
-use Data::Dumper;
+
 my $input=join "", @ARGV;
 $input="[2,7], [3,9], [10,12], [15,19], [18,22]" unless @ARGV;
 

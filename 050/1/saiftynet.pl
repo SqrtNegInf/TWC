@@ -1,21 +1,5 @@
 #!/usr/bin/env perl
-# Task 1 Challenge 050 Solution by saiftynet
-# Merge Intervals
-# Write a script to merge the given intervals where ever possible.
-# [2,7], [3,9], [10,12], [15,19], [18,22]
-# The script should merge [2, 7] and [3, 9] together to return [2, 
-# 9].
-# Similarly it should also merge [15, 19] and [18, 22] together 
-# to return [15, 22].
-# The final result should be something like below:
-# [2, 9], [10, 12], [15, 22]
-
-# 1st part generates random intervals. Intervals are pairs of numbers.
-# $start is smaller than the $end. Because these are random, they are
-# also unsorted unlike the example shown above.  The merging is more
-# efficient if the list is sorted.  This is similar to challenge 039
-# mergeIntervals() subroutine contains the sub merge() which merges
-# adjacent of intervals
+use v5.36;
 
 srand 1;
 
