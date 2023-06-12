@@ -1,7 +1,4 @@
  
-===> 214/2/cheok-yin-fung.pl <===
-23
- 
 ===> 214/2/e-choroba.pl <===
 1..6
 ok 1 - Example 1
