@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-
-use v5.036;
+use v5.36;
 
 use Test::More tests => 4;
 

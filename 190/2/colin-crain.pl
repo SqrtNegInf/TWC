@@ -78,7 +78,7 @@
 #       © 2022 colin crain
 ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ##
 
-use v5.036;
+use v5.36;
 
 ## example: 24,000 partitionings possible # DH just showing last one
 decode_partitions( "1563152118195912152252515211923552095" );

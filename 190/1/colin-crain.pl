@@ -43,7 +43,7 @@
 ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ##
 
 
-use v5.036;
+use v5.36;
 
 sub valdate_capitalization ( $str ) {
     $str =~ /^[A-Z]([A-Z]*$|[a-z]*$)|^[a-z]+$/ 
