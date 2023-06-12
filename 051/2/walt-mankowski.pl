@@ -1,17 +1,7 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use feature qw(:5.30);
-use experimental qw(signatures);
-use List::Util qw(product);
+use v5.36;
 
-# Colourful Number
-# Write a script to display all Colorful Number with 3 digits.
-#
-# A number can be declare Colorful Number where all the products of
-# consecutive subsets of digit are different.
-#
-# For example, 263 is a Colorful Number since 2, 6, 3, 2x6, 6x3, 2x6x3 are unique.
+use List::Util qw(product);
 
 sub is_colorful($n) {
     my %prods;

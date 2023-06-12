@@ -1,12 +1,8 @@
 #!/usr/bin/env perl
-use strict;
+use v5.36;
+
 use Algorithm::Permute;
 use List::Util qw{product any}; 
-
-# after observation on the defintion: 
-# 0 and 1 won't appear in the digits of any colourful numbers.
-# following from the above, we also know every colourful numbers < 10^9.
-# In addition, digits have to be distinct.
 
 my $digits = 3;#can be changed to 2, 4 or 5, 
                #both produce colourful numbers within reasonable waiting time 

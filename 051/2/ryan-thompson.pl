@@ -1,12 +1,5 @@
 #!/usr/bin/env perl
-
-# ch-2.p6 - Colourful numbers with 3 digits
-#
-# Ryan Thompson <rjt@cpan.org>
-
-use 5.010;
-use warnings;
-use strict;
+use v5.36;
 
 sub is_colourful3 {
     my ($x, $y, $z) = split //, $_[0];

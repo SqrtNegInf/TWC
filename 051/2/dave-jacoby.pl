@@ -1,20 +1,7 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use strict;
-use warnings;
-use feature qw{ say postderef signatures };
-no warnings qw{ experimental::postderef experimental::signatures };
-
-for my $i ( 100 ... 999 ) {
-    say $i if is_colorful($i);
-}
-
-# the important part is splitting the 3-digit number into separate
-# digits, then comparing the parts alone and multiplied in combination
-
-# making another function that tests color of an abstractly-large
-# number, rather than hard-coding for three digits is a topic for
-# another time.
+say join ' ', grep {  is_colorful($_) } 100 .. 999;
 
 sub is_colorful( $d ) {
     my %test;

@@ -1,16 +1,7 @@
 #!/usr/bin/env perl
-use strict;
-use warnings FATAL => qw(all);
-
-=prompt
-Write a script to display all Colorful Number with 3 digits.
-A number can be declare Colorful Number where all the products of consecutive subsets of digit are different.
-For example, 263 is a Colorful Number since 2, 6, 3, 2x6, 6x3, 2x6x3 are unique.
-=cut
+use v5.36;
 
 use List::Util qw(reduce uniq);
-
-
 
 my %DEBUG_STORE;
 

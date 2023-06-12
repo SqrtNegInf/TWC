@@ -1,4 +1,5 @@
 #!/usr/bin/env perl
+use v5.36;
 #
 #       colorful.pl
 #
@@ -27,14 +28,6 @@
 #
 #       2020 colin crain
 ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ##
-
-
-
-use warnings;
-use strict;
-use feature ":5.26";
-
-## ## ## ## ## MAIN:
 
 for (100..999) {
     say $_ if colorful3($_);

@@ -1,17 +1,5 @@
 #!/usr/bin/env perl
-# Task 2 Challenge 051 Solution by saiftynet
-# Colourful Number
-# Write a script to display all Colorful Number with 3 digits.
-# A number can be declare Colorful Number where all the products 
-# of consecutive subsets of digit are different.
-# For example, 263 is a Colorful Number since 2, 6, 3, 2x6, 6x3, 
-# 2x6x3 are unique.
-
-# Relatively easy to get colourful for 3 digit numbers...only 6 
-# possible consecutive products possible.
-# uniqueness is obtained most easily by setting products as
-# keys of hash.  if the number of keys equals the number of products
-# then all products are unique 
+use v5.36;
 
 # for all 3 digit colourful numbers...
 print "3 digit colourful numbers \n";
