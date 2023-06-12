@@ -1,9 +1,7 @@
 #!/usr/bin/env perl
-# Test: ./ch-2.pl --optimal
-use strict;
-use warnings;
+use v5.36;
+
 use Getopt::Long;
-use feature qw /say/;
 
 # Optimal flag
 my $optimal = 0;

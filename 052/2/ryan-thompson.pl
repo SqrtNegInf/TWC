@@ -1,16 +1,7 @@
 #!/usr/bin/env perl
-#
-# perl/ch-2.pl - Lucky Winner
-#
-# Ryan Thompson <rjt@cpan.org>
+use v5.36;
 
 srand 1;
-
-use 5.016;
-use warnings;
-use strict;
-use utf8;
-no warnings 'uninitialized';
 
 use List::Util qw/max min sum/;
 use Getopt::Long;
@@ -24,7 +15,7 @@ my %o = ( coins => 8, maxcoin => 200, help => sub { pod2usage( verbose => 2 ) } 
 GetOptions(\%o, qw< verbose! count=i maxcoin=i coins=i human=s seed=i help >)
     or pod2usage( -exit => 2, -verbose => 0 );
 
-sub verbose($;@) { printf shift.$/, @_ if $o{verbose} } # Verbose ouput
+sub verbose { printf shift.$/, @_ if $o{verbose} } # Verbose ouput
 
 srand $o{seed} if $o{seed};
 my %alg = get_algorithms();

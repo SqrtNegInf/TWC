@@ -1,12 +1,7 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-use feature 'say';
+use v5.36;
 
 srand 1;
-
-# http://projectbritain.com/money.html
 
 my @money = qw(£1 50p 1p 10p 5p 20p £2 2p);
 

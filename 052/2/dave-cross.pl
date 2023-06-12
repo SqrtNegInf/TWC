@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-use feature 'say';
+use v5.36;
 
 my @coins = qw[£1 50p 1p 10p 5p 20p £2 2p];
 my @amts  = map { coin2amt($_) } @coins;
