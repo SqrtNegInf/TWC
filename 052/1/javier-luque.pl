@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-# Test: ./ch-1.pl 100 999
-use strict;
-use warnings;
-use feature qw /say/;
+use v5.36;
 
 my $start = 111;
 my $end   = 999;

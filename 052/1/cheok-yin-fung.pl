@@ -1,5 +1,5 @@
 #!/usr/bin/env perl
-use strict;
+use v5.36;
 
 sub diff {
     if (($_[0]-$_[1] == 1) or ($_[0]-$_[1] == -1)) {

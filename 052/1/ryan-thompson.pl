@@ -1,12 +1,5 @@
 #!/usr/bin/env perl
-#
-# ch-1.pl - Stepping numbers
-#
-# 2020 Ryan Thompson <rjt@cpan.org>
-
-use 5.010;
-use warnings;
-use strict;
+use v5.36;
 
 my @step;
 for my $n (1..9) {

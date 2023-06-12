@@ -1,18 +1,8 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
+use v5.36;
 
 my $start = $ARGV[0] || 100;
 my $stop  = $ARGV[1] || 999;
-
-die "ERROR: Invalid start number [$start]\n"
-    unless ($start >= 100 &&
-            $start <= 999);
-die "ERROR: Invalid stop  number [$stop]\n"
-    unless ($start <= $stop &&
-            $stop  >= 100   &&
-            $stop  <= 999);
 
 while ($start <= $stop) {
     my ($d1, $d2, $d3) = split //, $start, 3;

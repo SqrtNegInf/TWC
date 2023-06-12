@@ -1,13 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-use feature qw{ say postderef signatures state };
-no warnings qw{ experimental::postderef experimental::signatures };
-
-# A number is called a stepping number if the adjacent digits
-# have a difference of 1. For example, 456 is a stepping number
-# but 129 is not.
+use v5.36;
 
 say $_ for get_stepping_numbers(111,999);
 

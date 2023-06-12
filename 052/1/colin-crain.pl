@@ -1,4 +1,5 @@
 #!/usr/bin/env perl
+use v5.36;
 #
 #       stepping.pl
 #
@@ -73,20 +74,12 @@
 #       2020 colin crain
 ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ##
 
-use warnings;
-use strict;
-use feature ":5.26";
-
-## ## ## ## ## MAIN:
-
 my ($low, $high) = sort {$a <=> $b} (111,999);
 
 my @output = grep { stepping($_) } ($low..$high);
 
 say for @output;
 
-
-## ## ## ## ## SUBS:
 
 sub stepping {
     my $num = shift;
