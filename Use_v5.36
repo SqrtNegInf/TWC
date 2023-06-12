@@ -38,9 +38,9 @@ Function::Parameters
     obsolete for in-line subroutine args (no need for 'fun')
     still needed for 'method' [053/1/duncan-c-white.pl]
 
-use Modern::Perl mostly obsolete, except:
-    given  - probably want to use:        no warnings 'experimental'
-    switch - must be explicitly enabled:  use feature 'switch';
+use Modern::Perl mostly obsolete, except for given/smartmatch (which are deprecated in any case):
+    If using module for those, probably want:    no warnings 'experimental'
+    If not using module, must explicitly enable: use feature 'switch';
     can interact badly with regard to prototypes [160/1/bruce-gray.pl]
 
 Unresolved Issues
