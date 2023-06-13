@@ -1,9 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
 
-use strict;
-use warnings;
-
 my @rooms = map { 1 } (0..500);
 foreach my $employee (2 .. 500) {
     my $room_number = $employee;

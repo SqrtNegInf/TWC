@@ -1,14 +1,5 @@
 #!/usr/bin/env perl
 use v5.36;
-#
-# ch-2.pl - 500 Doors
-#
-# 2020 Ryan Thompson <rjt@cpan.org>
-
-use 5.010;
-use warnings;
-use strict;
-no warnings 'uninitialized';
 
 my $doors = shift || 500;
 

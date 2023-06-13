@@ -1,10 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
 
-use 5.030;
-use strict;
-use warnings;
-
 my @rooms = (0) x 501;
 
 for my $emp (1..500) {

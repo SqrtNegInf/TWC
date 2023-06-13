@@ -1,11 +1,5 @@
 #!/usr/bin/env perl
 use v5.36;
-use warnings;
-use strict;
-use feature qw( say );
-
-# Problem: https://perlweeklychallenge.org/blog/perl-weekly-challenge-046/ Task #2
-# Solution: Iterate over doors and employees until we reach the final state
 
 my $EMPLOYEE = shift || 500; # pass in $EMPLOYEE if you want to step thru the solution
 use constant {

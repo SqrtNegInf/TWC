@@ -1,9 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
-use strict;
-use warnings;
-use feature "say";
-use Data::Dumper;
+
 use constant MAX => 50;
 
 # 1 => open, 0 => closed

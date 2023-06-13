@@ -1,9 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
 
-use strict;
-use warnings;
-
 my @rooms=(1) x 500;
 
 foreach my $n (2..500) {

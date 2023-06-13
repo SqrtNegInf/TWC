@@ -1,10 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
 
-use strict;
-use warnings;
-use diagnostics;
-
 my @doors = ();
 my $MAX = 500;
 
@@ -33,8 +29,3 @@ for ( my $k = 1; $k <= $MAX; ++$k ) {
     print "$k " if $doors[$k] eq "OPENED";
 }
 print "\n";
-
-__END__
-ch-2.pl output:
-
-1 4 9 16 25 36 49 64 81 100 121 144 169 196 225 256 289 324 361 400 441 484 

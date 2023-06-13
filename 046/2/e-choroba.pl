@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
 use v5.36;
-use warnings;
-use strict;
-use feature qw{ say };
 
 my $MAX = 500;
 
