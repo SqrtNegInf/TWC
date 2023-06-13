@@ -1,4 +1,5 @@
 #!/usr/bin/env perl
+use v5.36;
 #
 #       ugandan_firing_squad.pl
 #
@@ -86,12 +87,6 @@
 ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ##
 
 
-
-use warnings;
-use strict;
-use feature ":5.26";
-
-## ## ## ## ## MAIN
 my $victims = 50;  ## I think the last person standing still qualifies as a victim in this
                    ## psychopath's fever-dream battle royal
 my @circle = (0..$victims-1);

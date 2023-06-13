@@ -1,9 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-use feature qw{ say state postderef signatures };
-no warnings qw{ experimental::postderef experimental::signatures };
+use v5.36;
 
 my @x = 1 .. 50;
 
@@ -22,16 +18,3 @@ while ( scalar @x > 1 ) {
     shift @x; # killer gets next
 }
 say join ',', @x;
-
-__DATA__
-
-
-Survivor
-There are 50 people standing in a circle in position 1 to 50. 
-The person standing at position 1 has a sword. He kills the next 
-person i.e. standing at position 2 and pass on the sword to the 
-immediate next i.e. person standing at position 3. Now the person 
-at position 3 does the same and it goes on until only one survives.
-
-Write a script to find out the survivor.
-

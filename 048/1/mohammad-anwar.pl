@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
+use v5.36;
 
 my @people = (1 ..50);
 while (scalar(@people) > 1) {

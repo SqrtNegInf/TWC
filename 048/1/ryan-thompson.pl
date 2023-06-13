@@ -1,14 +1,7 @@
 #!/usr/bin/env perl
-#
-# ch-1.pl - Survivor
-#
-# Ryan Thompson <rjt@cpan.org>
+use v5.36;
 
-use 5.010;
-use warnings;
-use strict;
-
-say survivor(50); exit;
+say survivor(50); 
 
 # Linked list solution
 sub survivor {
@@ -25,17 +18,7 @@ sub analytic {
     2 * ($N - 2**int( log($N) / log(2) )) + 1;
 }
 
-#
-# Benchmarking and Tests
-#
-
-use Benchmark qw/cmpthese/;
 use Test::More;
-
-cmpthese(-5, {
-    linked      => sub { survivor($_) for 1..100 },
-    analytic    => sub { analytic($_) for 1..100 },
-});
 
 is survivor(100), 73;
 is survivor(50), 37;

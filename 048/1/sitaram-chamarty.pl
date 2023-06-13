@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-
-use warnings;
-use strict;
-use 5.10.0;
+use v5.36;
 
 my $str = join(" ", 1..50);
 

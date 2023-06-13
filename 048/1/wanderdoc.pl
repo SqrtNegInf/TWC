@@ -1,15 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings FATAL => qw(all);
-
-=prompt
-There are 50 people standing in a circle in position 1 to 50. The person standing at position 1 has a sword. He kills the next person i.e. standing at position 2 and pass on the sword to the immediate next i.e. person standing at position 3. Now the person at position 3 does the same and it goes on until only one survives.
-Write a script to find out the survivor.
-=cut
-
-=notes
-This is a special case of the Josephus problem. I already had an array solution for it (rotate per modulo and shift in a loop). The recent solution preserves the initial structure and modifies the elements only. At the same time I tried to make it general (for the different numbers). The 1-indexed data structure is assumed so there would be off by one differences with the 0-indexed solutions.
-=cut
+use v5.36;
 
 use Getopt::Long; 
 use List::Util qw(first);

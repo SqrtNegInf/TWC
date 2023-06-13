@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-
-# Survivor (OEIS:A006257) 
+use v5.36;
 
 my $n = 50;
 
@@ -13,7 +11,7 @@ $swordposition = 0;
 sub nextalive {
 	my $temp = $_[0];
 	do {
-		$temp = ($temp+1) % $n;
+		$temp = (($temp//0)+1) % $n;
 	} until ($ppl[$temp] == 1);
 
 	$temp;
