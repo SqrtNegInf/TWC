@@ -1,11 +1,5 @@
 #!/usr/bin/env perl
-use warnings;
-use strict;
-
-# Problem: https://perlweeklychallenge.org/blog/perl-weekly-challenge-046/ Task #1
-
-# Solution: The message is being repeated with noise, so count the frequency of the chars 
-# and report the highest occurring chars as the message.
+use v5.36;
 
 my $m1 = <<'MESSAGE1';
 H x l 4 !

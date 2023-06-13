@@ -1,11 +1,9 @@
 #!/usr/bin/env perl
-#
-# ch-1.pl - Cryptic Message
-#
-# Ryan Thompson <rjt@cpan.org>
+#use v5.36 PITA!
 
-use warnings;
 use strict;
+use warnings;
+
 use List::MoreUtils qw< frequency >;
 use List::Util      qw< reduce >;
 

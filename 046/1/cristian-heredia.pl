@@ -1,9 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use strict;
-use warnings;
-
-#First, we write the message into arrays:
 my @array1 = ('P',  '+',  '2',  'l',  '!',  'a',  't',  'o' );
 my @array2 = ('1',  'e',  '8',  '0',  'R',  '$',  '4',  'u' );
 my @array3 = ('5',  '-',  'r',  ']',  '+',  'a',  '>',  '/' );

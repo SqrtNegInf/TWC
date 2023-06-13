@@ -1,5 +1,5 @@
 #!/usr/bin/env perl
-use strict;
+use v5.36;
 
 my $numberoflines = 6;
 my $msglength = 8;

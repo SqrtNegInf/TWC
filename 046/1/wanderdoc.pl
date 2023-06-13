@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings FATAL => qw(all);
-
+use v5.36;
 
 my $message = <<'EOF';
 P + 2 l ! a t o

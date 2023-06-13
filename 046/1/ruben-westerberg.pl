@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
+use v5.36;
 
 my @inComming=(
 	[qw"P + 2 l ! a t o"],

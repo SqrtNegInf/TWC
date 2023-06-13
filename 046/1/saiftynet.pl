@@ -1,22 +1,7 @@
 #!/usr/bin/env perl
+use v5.36;
 
 srand 1;
-
-#  TASK #1 Cryptic Message
-# The communication system of an office is broken and message received
-# are not completely reliable. Write a script to decrypt the provided
-# repeated message (one message repeated 6 times).
-# HINT: Look for characters repeated in a particular position
-# in all six messages received.
-
-# The broken messager replaces some characters of the message
-# with other characters.  By repeatedly using the messager, we can
-# collect the most frequent characters at a given position and thereby
-# deal with the broken-ness.  Multiple sampling reduces errors.
-# We can simulate such a messenger and test it
-
-use strict;use warnings;
-use Time::HiRes qw{sleep};
 
 my $messages1=[  'H x l 4 !',
                  'c e - l o',

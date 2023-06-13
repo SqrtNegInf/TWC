@@ -1,10 +1,6 @@
 #!/usr/bin/env perl
-# Test: ./ch-1.pl
-use strict;
-use warnings;
-use feature qw /say/;
+use v5.36;
 
-# The message
 my $message =
 'P + 2 l ! a t o
 1 e 8 0 R $ 4 u

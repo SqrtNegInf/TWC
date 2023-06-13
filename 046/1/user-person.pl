@@ -1,15 +1,5 @@
 #!/usr/bin/env perl
-
-###########################################################################
-# script name: ch-1.pl                                                    #
-#                                                                         #
-# https://perlweeklychallenge.org/blog/perl-weekly-challenge-046/         #
-#                                                                         #
-###########################################################################
-
-use strict;
-use warnings;
-use diagnostics;
+use v5.36;
 
 sub decode {
     my $message       = $_[0];
@@ -50,8 +40,3 @@ EOM
 print decode($message1), "\n";
 print decode($message2), "\n";
 
-__END__
-ch-1.pl output:
-
-Hello
-PerlRaku
