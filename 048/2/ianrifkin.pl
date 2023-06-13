@@ -1,15 +1,7 @@
 #!/usr/bin/env perl
-use strict;
+use v5.36;
+
 use Date::Simple;
-
-# Write a script to print all Palindrome Dates between 
-# 2000 and 2999. The format of date is mmddyyyy. For 
-# example, the first one was on October 2, 2001 as it 
-# is represented as 10022001.
-
-# Solution by ianrifkin
-
-# Assumption: between 2000 and 2999 is from Jan 1st 2000 through the last day in 2999.
 
 my $check_date = Date::Simple->new('2000-01-01');
 my $end_date = Date::Simple->new('2999-12-31');

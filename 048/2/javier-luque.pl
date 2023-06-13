@@ -1,10 +1,8 @@
 #!/usr/bin/env perl
-# test: perl ch-2.pl
-use strict;
-use warnings;
+use v5.36;
+
 use Time::Piece;
 use Time::Seconds;
-use feature qw /say/;
 
 my $current_date = Time::Piece->strptime('01-01-2000', '%m-%d-%Y');
 my $end_date     = Time::Piece->strptime('12-31-2999', '%m-%d-%Y');

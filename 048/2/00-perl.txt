@@ -313,20 +313,6 @@ Sep 22, 2290
 08-22-2280
 09-22-2290
  
-===> 048/2/duane-powell.pl <===
-10-02-2001
-01-02-2010
-11-02-2011
-02-02-2020
-12-02-2021
-03-02-2030
-04-02-2040
-05-02-2050
-06-02-2060
-07-02-2070
-08-02-2080
-09-02-2090
- 
 ===> 048/2/duncan-c-white.pl <===
 10022001
 01022010
@@ -647,58 +633,6 @@ The following dates from 2000-01-01 to 2999-12-31 are palindromes assuming the f
 08022080 is a Palindrome date.
 09022090 is a Palindrome date.
  
-===> 048/2/peter-scott.pl <===
-10022001
-01022010
-11022011
-02022020
-12022021
-03022030
-04022040
-05022050
-06022060
-07022070
-08022080
-09022090
- 
-===> 048/2/phillip-harris.pl <===
-10022001
-01022010
-11022011
-02022020
-12022021
-03022030
-04022040
-05022050
-06022060
-07022070
-08022080
-09022090
-10122101
-01122110
-11122111
-02122120
-12122121
-03122130
-04122140
-05122150
-06122160
-07122170
-08122180
-09122190
-10222201
-01222210
-11222211
-02222220
-12222221
-03222230
-04222240
-05222250
-06222260
-07222270
-08222280
-09222290
- 
 ===> 048/2/roger-bell-west.pl <===
 10022001
 01022010
@@ -736,44 +670,6 @@ The following dates from 2000-01-01 to 2999-12-31 are palindromes assuming the f
 07222270
 08222280
 09222290
- 
-===> 048/2/ruben-westerberg.pl <===
-Date is a palindrone: Tue, 02 Oct 2001 00:01:00 UTC
-Date is a palindrone: Sat, 02 Jan 2010 00:01:00 UTC
-Date is a palindrone: Wed, 02 Nov 2011 00:01:00 UTC
-Date is a palindrone: Sun, 02 Feb 2020 00:01:00 UTC
-Date is a palindrone: Thu, 02 Dec 2021 00:01:00 UTC
-Date is a palindrone: Sat, 02 Mar 2030 00:01:00 UTC
-Date is a palindrone: Mon, 02 Apr 2040 00:01:00 UTC
-Date is a palindrone: Mon, 02 May 2050 00:01:00 UTC
-Date is a palindrone: Wed, 02 Jun 2060 00:01:00 UTC
-Date is a palindrone: Wed, 02 Jul 2070 00:01:00 UTC
-Date is a palindrone: Fri, 02 Aug 2080 00:01:00 UTC
-Date is a palindrone: Sat, 02 Sep 2090 00:01:00 UTC
-Date is a palindrone: Wed, 12 Oct 2101 00:01:00 UTC
-Date is a palindrone: Sun, 12 Jan 2110 00:01:00 UTC
-Date is a palindrone: Thu, 12 Nov 2111 00:01:00 UTC
-Date is a palindrone: Mon, 12 Feb 2120 00:01:00 UTC
-Date is a palindrone: Fri, 12 Dec 2121 00:01:00 UTC
-Date is a palindrone: Sun, 12 Mar 2130 00:01:00 UTC
-Date is a palindrone: Tue, 12 Apr 2140 00:01:00 UTC
-Date is a palindrone: Tue, 12 May 2150 00:01:00 UTC
-Date is a palindrone: Thu, 12 Jun 2160 00:01:00 UTC
-Date is a palindrone: Thu, 12 Jul 2170 00:01:00 UTC
-Date is a palindrone: Sat, 12 Aug 2180 00:01:00 UTC
-Date is a palindrone: Sun, 12 Sep 2190 00:01:00 UTC
-Date is a palindrone: Thu, 22 Oct 2201 00:01:00 UTC
-Date is a palindrone: Mon, 22 Jan 2210 00:01:00 UTC
-Date is a palindrone: Fri, 22 Nov 2211 00:01:00 UTC
-Date is a palindrone: Tue, 22 Feb 2220 00:01:00 UTC
-Date is a palindrone: Sat, 22 Dec 2221 00:01:00 UTC
-Date is a palindrone: Mon, 22 Mar 2230 00:01:00 UTC
-Date is a palindrone: Wed, 22 Apr 2240 00:01:00 UTC
-Date is a palindrone: Wed, 22 May 2250 00:01:00 UTC
-Date is a palindrone: Fri, 22 Jun 2260 00:01:00 UTC
-Date is a palindrone: Fri, 22 Jul 2270 00:01:00 UTC
-Date is a palindrone: Sun, 22 Aug 2280 00:01:00 UTC
-Date is a palindrone: Mon, 22 Sep 2290 00:01:00 UTC
  
 ===> 048/2/ryan-thompson.pl <===
 10-02-2001
@@ -851,44 +747,6 @@ M 07, D 22, Y 2270 :  07222270
 M 08, D 22, Y 2280 :  08222280 
 M 09, D 22, Y 2290 :  09222290 
  
-===> 048/2/sol-demuth.pl <===
-10022001
-01022010
-11022011
-02022020
-12022021
-03022030
-04022040
-05022050
-06022060
-07022070
-08022080
-09022090
-10122101
-01122110
-11122111
-02122120
-12122121
-03122130
-04122140
-05122150
-06122160
-07122170
-08122180
-09122190
-10222201
-01222210
-11222211
-02222220
-12222221
-03222230
-04222240
-05222250
-06222260
-07222270
-08222280
-09222290
- 
 ===> 048/2/southpawgeek.pl <===
 10022001 is a palindrome
 01022010 is a palindrome
@@ -926,44 +784,6 @@ M 09, D 22, Y 2290 :  09222290
 07222270 is a palindrome
 08222280 is a palindrome
 09222290 is a palindrome
- 
-===> 048/2/steven-wilson.pl <===
-10022001
-01022010
-11022011
-02022020
-12022021
-03022030
-04022040
-05022050
-06022060
-07022070
-08022080
-09022090
-10122101
-01122110
-11122111
-02122120
-12122121
-03122130
-04122140
-05122150
-06122160
-07122170
-08122180
-09122190
-10222201
-01222210
-11222211
-02222220
-12222221
-03222230
-04222240
-05222250
-06222260
-07222270
-08222280
-09222290
  
 ===> 048/2/user-person.pl <===
 10-02-2001

@@ -1,10 +1,8 @@
 #!/usr/bin/env perl
-use strict;
-use warnings FATAL => qw(all);
+use v5.36;
 
 use Time::Piece;
 use Time::Seconds;
-
 
 my $START = "01.01.2000";
 my $STOP  = "12.31.2999";

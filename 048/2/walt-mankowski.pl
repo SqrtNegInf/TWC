@@ -1,16 +1,7 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use feature qw(:5.30);
-use experimental qw(signatures);
+use v5.36;
+
 use DateTime;
-
-# TASK #2
-# Palindrome Dates
-
-# Write a script to print all Palindrome Dates between 2000 and
-# 2999. The format of date is mmddyyyy. For example, the first one was
-# on October 2, 2001 as it is represented as 10022001.
 
 for my $year (2000..2999) {
     my $month = reverse(substr($year, 2, 2));

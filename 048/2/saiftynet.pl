@@ -1,28 +1,5 @@
 #!/usr/bin/env perl
-# Task 2 Challenge 048 Solution by saiftynet
-# 
-# Palindrome Dates
-# 
-# Write a script to print all Palindrome Dates between 2000 and 2999. The 
-# format of date is mmddyyyy. For example, the first one was on October 2, 
-# 2001 as it is represented as 10022001.
-
-# With Palindromic dates, the year contains the digits of the month
-# and date, so can be easiy derived from the year using substr.
-# The MMDDYYY format is a requirement of the task, but is probably the
-# most illogical date format (and therefore naturally favoured by
-# Americans).
-# DDMMYYY (the most common worldwide) and YYYYMMDD (ISO 8601, the most
-# logical and least ambiguous format) also can produce different
-# palindromic dates. This script can yield these formats too.
-
-# There are many better ways of getting valid dates via modules.
-# Much more interesting to roll-your-own, so didn't use them.
-
-
-# Changing this string will show palindromes in other formats
-# valid formats are MDY, DMY and YMD.  The format can also be
-# passed from the command line using e.g. perl ch-2.pl DMY
+use v5.36;
 
 my $format = $ARGV[0] // "MDY";  # valid strings "MDY", "DMY" and "YMD".
 die 'Invalid string, must be "MDY", "DMY" or "YMD"' if $format !~/^MDY|DMY|YMD\b/;
@@ -35,7 +12,7 @@ foreach my $yyyy (2000..2999){
    
    next if ($mm >12 or $mm ==0);               # Discard invalid months
    if ($mm =~/02/){                            # February is special case
-       $notLeapYear=($y % 4)||(!($y%100)&&($y%400));
+       my $notLeapYear=($yyyy % 4)||(!($yyyy%100)&&($yyyy%400));
        my $FebDays=(28+($notLeapYear?0:1))."";
        next if ($dd gt $FebDays or $dd eq "00")
    }

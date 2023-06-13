@@ -1,21 +1,8 @@
 #!/usr/bin/env perl
-#
-# Task #2: "Palindrome Dates
-# 
-# Write a script to print all Palindrome Dates between 2000 and 2999. The
-# format of date is mmddyyyy. For example, the first one was on October 2,
-# 2001 as it is represented as 10022001.
-# "
-# 
-# My notes: cute, but why American date format?  Let's let the user choose..
-# 
+use v5.36;
 
-use feature 'say';
-use strict;
-use warnings;
 use Getopt::Long;
 use Date::Manip;
-use Function::Parameters;
 
 my $format    = "US";
 my %valid     = map { $_ => 1 } qw(UK ISO US);
@@ -34,7 +21,7 @@ say join("\n",@palindromes);
 # my $ispal = palindromic( $s );
 #	Returns 1 iff the string $s is palindromic.
 #
-fun palindromic( $s )
+sub palindromic( $s )
 {
 	return $s eq reverse($s) ? 1 : 0;
 }
@@ -46,7 +33,7 @@ fun palindromic( $s )
 #	month $month (1..12) and year $year, in the given format $format,
 #	which is either UK (ddmmyyyy) or US (mmddyyyy) or ISO (yyymmdd).
 #
-fun formdate( $day, $month, $year, $format )
+sub formdate( $day, $month, $year, $format )
 {
 	my $y = sprintf( "%04d", $year );
 	my $m = sprintf( "%02d", $month );
@@ -63,7 +50,7 @@ fun formdate( $day, $month, $year, $format )
 #	Find and return all palindromic dates in any year between $startyear
 #	and $endyear in date format $format (UK or US or ISO).
 #
-fun palindromicdates( $startyear, $endyear, $format )
+sub palindromicdates( $startyear, $endyear, $format )
 {
 	my @palindrome;
 	foreach my $year ($startyear..$endyear)

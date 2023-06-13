@@ -1,11 +1,5 @@
 #!/usr/bin/env perl
-#
-# The original question appears to contain a typo as it suggests we use
-# the illogical 'mmddyyyy' date format. My solution uses 'ddmmyyyy' instead.
-
-use strict;
-use warnings;
-use feature 'say';
+use v5.36;
 
 use Time::Piece;
 use Time::Seconds;

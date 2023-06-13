@@ -1,9 +1,7 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use strict;
-use warnings;
 use DateTime;
-use feature qw/say/;
 
 sub is_palindrome {
     my $dt = shift;

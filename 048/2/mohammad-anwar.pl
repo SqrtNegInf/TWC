@@ -1,7 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use strict;
-use warnings;
 use Date::Tiny;
 
 my $date = Date::Tiny->new(year => 2000, month => 1, day => 1);

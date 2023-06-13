@@ -1,4 +1,5 @@
 #!/usr/bin/env perl
+use v5.36;
 #
 # ch-2.pl - Palindrome Dates (mm/dd/yyyy)
 #

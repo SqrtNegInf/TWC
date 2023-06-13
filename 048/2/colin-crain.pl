@@ -1,4 +1,5 @@
 #!/usr/bin/env perl
+use v5.36;
 #
 #       palindrome_dates.pl
 #
@@ -28,14 +29,6 @@
 #
 #       2020 colin crain
 ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ##
-
-
-
-use warnings;
-use strict;
-use feature ":5.26";
-
-## ## ## ## ## MAIN
 
 
 ## palindrome date format is m1m2d1d2y1y2y3y4 <-/-> y4y3y2y1d2d1m2m1

@@ -1,7 +1,6 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use feature qw/say/;
+use v5.36;
+
 use Date::Calc qw/check_date/;
 
 my $yyyy = 2000;

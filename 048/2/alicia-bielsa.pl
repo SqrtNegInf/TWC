@@ -1,14 +1,9 @@
 #!/usr/bin/env perl
-#Palindrome Dates
-#Write a script to print all Palindrome Dates between 2000 and 2999. 
-#The format of date is mmddyyyy. For example, the first one was on October 2, 2001 as it is represented as 10022001.  
+use v5.36;
 
-use strict;
-use warnings;
 use DateTime;
 use Try::Tiny;
 use English;
-
 
 foreach my $date (2000..2999){
     my $palindromeDate = reverse($date).$date;
