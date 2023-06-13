@@ -1,57 +1,7 @@
 #!/usr/bin/env perl
-
-# https://perlweeklychallenge.org/blog/perl-weekly-challenge-049/
-# Task #2
-#
-# LRU Cache
-# Write a script to demonstrate LRU Cache feature.
-# It should support operations get and set.
-# Accept the capacity of the LRU Cache as command line argument.
-#
-# Definition of LRU: An access to an item is defined as a get or
-# a set operation of the item.
-# "Least recently used" item is the one with the oldest access time.
-#
-# For example:
-#
-# capacity = 3
-# set(1, 3)
-# set(2, 5)
-# set(3, 7)
-#
-# Cache at this point:
-# [Least recently used] 1,2,3 [most recently used]
-#
-# get(2)      # returns 5
-#
-# Cache looks like now:
-# [Least recently used] 1,3,2 [most recently used]
-#
-# get(1)      # returns 3
-#
-# Cache looks like now:
-# [Least recently used] 3,2,1 [most recently used]
-#
-# get(4)      # returns -1
-#
-# Cache unchanged:
-# [Least recently used] 3,2,1 [most recently used]
-#
-# set(4, 9)
-#
-# Cache is full, so pushes out key = 3:
-# [Least recently used] 2,1,4 [most recently used]
-#
-# get(3)      # returns -1
-#
-# I found this amazing post talking about LRU Cache.
-# https://www.interviewcake.com/concept/java/lru-cache
-
-use strict;
-use warnings;
+use v5.36;
 
 my $c = 3;
-die "Capacity of the LRU Cache must be a positive number" unless ( $c =~ /\d+/ && $c > 0);
 
 print "Capacity = $c\n\n";
 

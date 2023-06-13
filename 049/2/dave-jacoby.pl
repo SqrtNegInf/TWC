@@ -1,11 +1,7 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use strict;
-use warnings;
 use utf8;
-use feature qw{ postderef say signatures state switch };
-no warnings
-  qw{ experimental::postderef experimental::smartmatch experimental::signatures };
 
 my $lru = LRU->new(3);
 
@@ -29,15 +25,7 @@ $lru->set( 'key', 'val' );
 $lru->list();
 $lru->dump();
 
-exit;
-
 package LRU;
-use strict;
-use warnings;
-use utf8;
-use feature qw{ postderef say signatures state switch };
-no warnings
-  qw{ experimental::postderef experimental::smartmatch experimental::signatures };
 
 use Carp;
 use JSON;
@@ -93,48 +81,3 @@ sub dump ($self) {
         }
     );
 }
-
-__DATA__
-LRU Cache
-
-Write a script to demonstrate LRU Cache feature. It should support 
-operations get and set. Accept the capacity of the LRU Cache as 
-command line argument.
-
-    Definition of LRU: An access to an item is defined as a 
-    get or a set operation of the item. “Least recently used” 
-    item is the one with the oldest access time.
-
-For example:
-
-capacity = 3
-set(1, 3)
-set(2, 5)
-set(3, 7)
-
-Cache at this point:
-[Least recently used] 1,2,3 [most recently used]
-
-get(2)      # returns 5
-
-Cache looks like now:
-[Least recently used] 1,3,2 [most recently used]
-
-get(1)      # returns 3
-
-Cache looks like now:
-[Least recently used] 3,2,1 [most recently used]
-
-get(4)      # returns -1
-
-Cache unchanged:
-[Least recently used] 3,2,1 [most recently used]
-
-set(4, 9)
-
-Cache is full, so pushes out key = 3:
-[Least recently used] 2,1,4 [most recently used]
-
-get(3)      # returns -1
-
-I found this amazing post talking about LRU Cache.

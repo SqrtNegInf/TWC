@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
+use v5.36;
 
 my $q=Local::LRU->new($ARGV[0] || 3);
 $q->set(1,3);

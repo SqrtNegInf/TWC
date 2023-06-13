@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use feature "say";
-#use Data::Dumper;
+use v5.36;
 
 sub create_lru {
     my $capacity = shift;

@@ -1,12 +1,12 @@
 #!/usr/bin/env perl
+use v5.36;
+use feature 'switch';
+no warnings 'experimental';
 
 srand 1;
 
-use strict;
-use warnings;
-no warnings 'experimental';
 use Time::HiRes;
-use v5.24;
+
 my ($GET_CMD,$SET_CMD,$SYNC_CMD,$UPDATE_CMD,$DUMP_CMD)=0..4;
 
 

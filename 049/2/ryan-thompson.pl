@@ -1,13 +1,5 @@
 #!/usr/bin/env perl
-#
-# ch-2.pl - LRU Cache
-#
-# Ryan Thompson <rjt@cpan.org>
-
-use 5.010;
-use warnings;
-use strict;
-no warnings 'uninitialized';
+use v5.36;
 
 package Local::LRU {
     use Carp;

@@ -1,18 +1,5 @@
 #!/usr/bin/env perl
-# Task 2 Challenge 049 Solution by saiftynet
-# LRU Cache
-# Write a script to demonstrate LRU Cache feature. It should support 
-# operations get and set. Accept the capacity of the LRU Cache as 
-# command line argument.
-# Definition of LRU: An access to an item is defined as a get or 
-# a set operation of the item. “Least recently used” item is the 
-# one with the oldest access time.
-#
-# In order to demonstrate the LRU... 1) a test sequence is performed
-# that replicates example in description, and 2) an interactive shell
-# is opened that allows the user to interact with the LRU Cache
-
-use strict;use warnings;
+use v5.36;
 
 my (%cache,@recency,$capacity);
 

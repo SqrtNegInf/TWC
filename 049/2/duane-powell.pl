@@ -1,10 +1,5 @@
 #!/usr/bin/env perl
-use warnings;
-use strict;
-use feature 'say';
-
-# Problem: https://perlweeklychallenge.org/blog/perl-weekly-challenge-049/ TASK #2
-# This one is easy to write but I fear will be hard to read later. Needs to be polished.
+use v5.36;
 
 my $capacity = shift || 3;
 my $verbose  = shift; 
@@ -27,7 +22,7 @@ $q->get(3);
 #exit;
 
 package LRU_Cache;
-#use Data::Dumper;
+
 use constant {
 	EVICTED => '-1',
 	VERBOSE => 1,

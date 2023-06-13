@@ -1,4 +1,5 @@
 #!/usr/bin/env perl
+use v5.36;
 
 package Data::LRUCache;
 use Moo;
@@ -46,7 +47,7 @@ sub set {
     $self->{_index}->{$key} = $value;
 }
 
-sub print() {
+sub print {
     my ($self) = @_;
 
     for my $e (@{ $self->{_cache} }) {
@@ -57,9 +58,6 @@ sub print() {
 1;
 
 package main;
-use warnings;
-use strict;
-use 5.010;
 
 my $capacity = shift // 3;
 
