@@ -1,4 +1,5 @@
 #!/usr/bin/env perl
+use v5.36;
 # test: perl ch-2.pl
 use strict;
 use warnings;

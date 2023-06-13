@@ -1,4 +1,5 @@
 #!/usr/bin/env perl
+use v5.36;
 
 # TASK #2 Is the room open?
 # There are 500 rooms in a hotel with 500 employees having keys to all

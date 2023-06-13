@@ -1,4 +1,5 @@
 #!/usr/bin/env perl
+use v5.36;
 #
 # ch-2.pl - 500 Doors
 #
