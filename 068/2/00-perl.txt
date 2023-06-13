@@ -31,9 +31,6 @@ ok 2
 Before: 1 → 2 → 3 → 4
 After: 1 → 4 → 2 → 3
  
-===> 068/2/jeongoon.pl <===
-1→  7→  2→  6→  3→  5→  4
- 
 ===> 068/2/jo-37.pl <===
 orig:	n1 -> n2 -> n3 -> reord:	n1 -> n2 -> 
 orig:	n1 -> n2 -> n3 -> n4 -> reord:	n1 -> n2 -> 
