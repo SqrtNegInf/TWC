@@ -1,9 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use integer;
-
-# All integers with the pattern _ABAB_ is gapful(_AB_*101) and there are 10*9/2 + 9 = 54 (A runs from 0 to 9, B runs from 0 to 9, 0000 is not counted) such integers. In short, all 20 first >= 100 gapful numbers are larger than 99 and smaller than 9999.
-
+use v5.36;
 
 my $th;
 

@@ -1,10 +1,5 @@
 #!/usr/bin/env perl
-#
-# Write a script to print first 20 Gapful Numbers
-
-use strict;
-use warnings;
-use feature 'say';
+use v5.36;
 
 my @gapful;
 $_ = 100;

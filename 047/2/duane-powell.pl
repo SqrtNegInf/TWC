@@ -1,9 +1,5 @@
 #!/usr/bin/env perl
-use warnings;
-use strict;
-use feature qw( say );
-
-# Problem:  https://perlweeklychallenge.org/blog/perl-weekly-challenge-047/ TASK #2
+use v5.36;
 
 my @gap;
 my $n = 100;
@@ -15,9 +11,3 @@ while (scalar @gap < 20) {
 	$n++;
 }
 say join(',',@gap);
-
-__END__
-
-./ch-2.pl
-100,105,108,110,120,121,130,132,135,140,143,150,154,160,165,170,176,180,187,190
-

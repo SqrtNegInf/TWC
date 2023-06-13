@@ -1,16 +1,5 @@
 #!/usr/bin/env perl
-# Steven Wilson
-# Challenge 047 Task #2
-# 12 Feb 2020
-
-# Gapful Number
-# Write a script to print first 20 Gapful Numbers greater than or equal
-# to 100. Please check out the page for more information about Gapful
-# Numbers.
-
-use strict;
-use warnings;
-use feature qw/ say /;
+use v5.36;
 
 my @gapful_numbers;
 my $current_number = 100;

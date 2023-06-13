@@ -1,16 +1,8 @@
 #!/usr/bin/env perl
-use strict;
-use warnings FATAL => qw(all);
-
-=prompt
-Write a script to print first 20 Gapful Numbers greater than or equal to 100.
-Gapful Numbers are numbers  that are divisible by the number formed by their first and last digit.
-=cut
-
+use v5.36;
 
 my $number = 100;
 my $counter = 0;
-
 
 while ( $counter < 20 )
 {

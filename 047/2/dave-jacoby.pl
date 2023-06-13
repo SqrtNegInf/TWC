@@ -1,27 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-use utf8;
-use feature qw{ postderef say signatures state switch };
-no warnings qw{ experimental::postderef experimental::smartmatch experimental::signatures };
-
-# Write a script to print first 20 Gapful Numbers
-# greater than or equal to 100.
-
-# a Gapful Number is a number where
-#   a second number is formed by the first and last digit of the number
-#   which is a factor in that number.
-# for example, 100 forms 10 and 100/10 = 10
-# while 101 forms 11 and 101/11 = 9.181818...
-
-# When I'm trying to be readable,
-#   I declare an array to push things into
-#   I use a while loop based on the size of that array
-#   I iterate through numbers with ++
-#   I split the number into an array with the easiest regex
-#     and I join with an empty string
-#   I push to the array if $n % $i == 0
+use v5.36;
 
 my @x;
 my $n = 100;
