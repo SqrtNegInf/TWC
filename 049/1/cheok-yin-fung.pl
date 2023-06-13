@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
-use strict;
-# use Math::BigInt;  could be for fun
+use v5.36;
+no warnings 'uninitialized';
 
 sub max {
 	$_[0]>$_[1] ? $_[0] : $_[1];

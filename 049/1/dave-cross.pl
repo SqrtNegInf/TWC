@@ -1,13 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-use feature 'say';
-
-# Input checking
-# * We've got an argument
-# * It only contains digits
-# * It's not zero
+use v5.36;
 
 my $num = 55;
 my $x   = 1;

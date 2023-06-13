@@ -1,21 +1,5 @@
 #!/usr/bin/env perl
-# Steven Wilson
-# Challenge 049 Task #1
-# 24 Feb 2020
-
-# Smallest Multiple
-
-# Write a script to accept a positive number as command line argument
-# and print the smallest multiple of the given number consists of digits
-# 0 and 1.
-
-# For example:
-# For given number 55, the smallest multiple is 110 consisting of digits
-# 0 and 1.
-
-use strict;
-use warnings;
-use feature qw/ say /;
+use v5.36;
 
 my $number     = 55;
 my $mulitplier = 1;

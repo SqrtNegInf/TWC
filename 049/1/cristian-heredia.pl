@@ -1,12 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-no warnings 'recursion';
-
-#Smallest Multiple
-#Write a script to accept a positive number as command line argument and print the smallest multiple of the given number consists of digits 0 and 1.
-
-#For example:
+use v5.36;
 
 #For given number 55, the smallest multiple is 110 consisting of digits 0 and 1.
 my $number = 55;

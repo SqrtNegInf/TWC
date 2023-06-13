@@ -25,17 +25,8 @@ The smallest multiple of 55 containing just 0 and 1 is 110
 ===> 049/1/duane-powell.pl <===
 55 x 2 = 110
  
-===> 049/1/duncan-c-white.pl <===
-smallest multiple of 50 (50 x 2) consisting of only 1s and 0s: 100
- 
 ===> 049/1/e-choroba.pl <===
 110
- 
-===> 049/1/ianrifkin.pl <===
-
-
-The smallest multiple of 55 with only digits 0 and 1 is: 110
-
  
 ===> 049/1/jaldhar-h-vyas.pl <===
 55 x 2 = 110
@@ -51,21 +42,16 @@ Smallest multiple of 55 is 110
 ok 1
 1..1
  
-===> 049/1/mohammad-anwar.pl <===
-55 => 110
- 
 ===> 049/1/roger-bell-west.pl <===
 110
 10110001
- 
-===> 049/1/ruben-westerberg.pl <===
-Smallest multiple: 110
  
 ===> 049/1/ryan-thompson.pl <===
  55 x                2 =                110
 743 x            13607 =           10110001
  
 ===> 049/1/saiftynet.pl <===
+Input: 55, Multiplier: 2 Result: 110
 Input: 55, Multiplier: 2  Result: 110
  
 ===> 049/1/southpawgeek.pl <===

@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-# Test: ./ch-1.pl 55
-use strict;
-use warnings;
-use feature qw /say/;
+use v5.36;
 
 my $number = join '', 55;
 

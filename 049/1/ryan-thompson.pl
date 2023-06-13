@@ -1,11 +1,5 @@
 #!/usr/bin/env perl
-#
-# ch-1.pl - Smallest base-10 multiple of $n using only 1 and 0
-#
-# Ryan Thompson <rjt@cpan.org>
-
-use warnings;
-use strict;
+use v5.36;
 
 # For... illustrative purposes only
 sub mult_brute {

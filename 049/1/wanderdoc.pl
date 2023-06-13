@@ -1,16 +1,11 @@
 #!/usr/bin/env perl
-use strict;
-use warnings FATAL => qw(all);
-
+use v5.36;
 
 use Math::BigInt;
 Math::BigInt->accuracy(30);
-use Time::HiRes qw[ time ];
-
 
 
 my $NUM = 55;
-my $start = time;
 
 my $FLAG_2_5 = ($NUM % 2 == 0 or $NUM % 5 == 0) ? 1 : 0;
 
@@ -41,4 +36,3 @@ for my $i (1  .. 1_000_000_000)
      }
 }
 
-#print "Used time: ", time() - $start, $/;
