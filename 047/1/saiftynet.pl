@@ -1,21 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-# Roman Calculator
-# Write a script that accepts two roman numbers and operation.
-# It should then perform the operation on the given roman
-# numbers and print the result.
-
-# There are several modules to hadle conversions to and from
-# roman numerals  Math::Roman, Number::Convert::Roman, Roman etc.
-# But this script does it much more simply than those modules.
-#
-# For more info enter '?' as an argument.
-# Without input the script enters interactive mode
-
-use strict; use warnings;
-
-# The script will try overlines in Linux consoles. This can be disabled
-# by setting $disableANSI  to nonzero.
 my $disableANSI=0;      
 
 # Initialise the convertor array (not hash, as sequence is key)

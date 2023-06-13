@@ -1,27 +1,6 @@
 #!/usr/bin/env perl
-#===============================================================================
-#
-#         FILE: ch-1.pl
-#
-#        USAGE: ./ch-1.pl  
-#
-#  DESCRIPTION: https://perlweeklychallenge.org/blog/perl-weekly-challenge-047/
-#
-#               Roman Calculator
-#
-#      OPTIONS: ---
-# REQUIREMENTS: ---
-#         BUGS: ---
-#        NOTES: ---
-#       AUTHOR: Lubos Kolouch
-# ORGANIZATION: 
-#      VERSION: 1.0
-#      CREATED: 02/13/2020 02:23:28 PM
-#     REVISION: ---
-#===============================================================================
+use v5.36;
 
-use strict;
-use warnings;
 use Roman;
 
 sub roman_magic {

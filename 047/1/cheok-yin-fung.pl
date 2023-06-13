@@ -1,14 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-
-# Roman Calculator
-# sample input: V + VI
-# expected output: XI
-# 
-# allow only non-negative integers
-# allowable operations of this script: +, -, *
-# learn to use eval $string
-# positive integers only
+use v5.36;
 
 my %sk = (
 	"I" => 1,

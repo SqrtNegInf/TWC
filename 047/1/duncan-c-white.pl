@@ -1,28 +1,5 @@
 #!/usr/bin/env perl
-#
-# 
-# Task 1: "Roman Calculator
-# 
-# Write a script that accepts two roman numbers and operation. It should
-# then perform the operation on the give roman numbers and print the result.
-# 
-# For example,
-# 
-# perl ch-1.pl V + VI
-# 
-# should print
-# 
-# XI
-# "
-# 
-# My notes: cute, especially given that we did Roman->Int and Int->Roman in challenge 10:-).
-# So convert Roman->Int, Do Op, Int->Roman for the result.
-# 
-
-use feature 'say';
-use strict;
-use warnings;
-use Data::Dumper;
+use v5.36;
 
 use lib qw(.);
 use Roman;

@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-use warnings;
-use strict;
-use feature qw{ say };
+use v5.36;
 
 use lib '.';
 use MyRoman qw{ to_roman from_roman }; # Extracted from PWC010/1.

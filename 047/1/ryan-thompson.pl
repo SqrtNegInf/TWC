@@ -1,13 +1,6 @@
 #!/usr/bin/env perl
-#
-# ch-1.pl - Roman calculator
-#
-# Ryan Thompson <rjt@cpan.org>
+use v5.36;
 
-use 5.010;
-use warnings;
-use strict;
-no warnings 'uninitialized';
 use List::Util qw<sum first>;
 use Test::More;
 

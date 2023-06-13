@@ -1,18 +1,7 @@
 #!/usr/bin/env perl
-use strict;
-use warnings FATAL => qw(all);
-
-=prompt
-Write a script that accepts two roman numbers and operation. It should then perform the operation on the give roman numbers and print the result.
-For example, perl ch-1.pl V + VI should print XI.
-=cut
-
+use v5.36;
 
 use List::Util qw(sum); 
-
-
-
-# Some basic data.
 
 my %romans = (I => 1, V => 5, X => 10, 
               L => 50, C => 100, D => 500, 

@@ -1,9 +1,9 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
+use v5.36;
+
 use List::Util;
-use v5.26;
-no warnings qw<experimental>;
+use Modern::Perl;
+no warnings 'experimental';
 
 my @ARGV = <V + VI>;
 my ($operand1,$operator, $operand2)=@ARGV;

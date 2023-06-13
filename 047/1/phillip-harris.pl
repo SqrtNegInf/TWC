@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
-
-# For multiplication, the asterisk must be escaped \*.
+use v5.36;
+no warnings 'uninitialized';
 
 use strict;
 

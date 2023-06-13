@@ -1,20 +1,7 @@
 #!/usr/bin/env perl
-use warnings;
-use strict;
-use 5.010;
-use English qw/ -no_match_vars /;
+use v5.36;
 
-sub usage {
-print STDERR <<"-END-";
-Usage:
-  $PROGRAM_NAME <num1> <op> <num2>
-  
-    <num1>    Number in Roman numerals
-    <op>      Arithmetic operation (+ or -)
-    <num2>    Number in Roman numerals
--END-
-    exit(1);
-}
+use English qw/ -no_match_vars /;
 
 sub unprefix {
     my ($num) = @_;

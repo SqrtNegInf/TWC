@@ -1,10 +1,5 @@
 #!/usr/bin/env perl
-use warnings;
-use strict;
-use feature qw( say );
-use Data::Dumper;
-
-# Problem:  https://perlweeklychallenge.org/blog/perl-weekly-challenge-047/ TASK #1
+use v5.36;
 
 my @ARGV = <V + VI>;
 my ($r1, $op, $r2) = @ARGV;

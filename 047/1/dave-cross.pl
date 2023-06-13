@@ -1,11 +1,5 @@
 #!/usr/bin/env perl
-#
-# Write a script that accepts two roman numbers and operation. It should
-# then perform the operation on the given Roman numbers and print the result.
-
-use strict;
-use warnings;
-use feature 'say';
+use v5.36;
 
 use Roman;
 

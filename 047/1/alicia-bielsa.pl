@@ -1,20 +1,8 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use strict;
-use warnings;
-use Data::Dumper;
 use integer;
 
-#Roman Calculator
-#Write a script that accepts two roman numbers and operation. 
-#It should then perform the operation on the give roman numbers and print the result.
-#
-#For example,
-#
-#perl ch-1.pl V + VI
-#It should print
-#
-#XI
 use Readonly;
 
 Readonly::Hash my   %HASH_ROMAN_DECIMAL => ('I' => 1, 

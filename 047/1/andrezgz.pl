@@ -1,21 +1,5 @@
 #!/usr/bin/env perl
-
-# https://perlweeklychallenge.org/blog/perl-weekly-challenge-047/
-# Task #1
-# Roman Calculator
-#
-# Write a script that accepts two roman numbers and operation.
-# It should then perform the operation on the give roman numbers and print the result.
-#
-# For example,
-#
-# perl ch-1.pl V + VI
-# It should print
-#
-# XI
-
-use strict;
-use warnings;
+use v5.36;
 
 my %roman_table = (
     'I'  => 1,

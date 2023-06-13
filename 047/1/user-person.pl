@@ -1,26 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-###########################################################################
-# script name: ch-1.pl                                                    #
-#                                                                         #
-# https://perlweeklychallenge.org/blog/perl-weekly-challenge-047/         #
-#                                                                         #
-# Write a script that accepts two roman numbers and operation. It should  #
-# then perform the operation on the give roman numbers and print the      #
-# result.                                                                 #
-#                                                                         #
-# e.g.                                                                    #
-#         ch-1.pl V + VI                                                  #
-#                                                                         #
-# output:                                                                 #
-#         XI                                                              #
-#                                                                         #
-###########################################################################
-
-use strict;
-use warnings;
-
-use FindBin;
 use Roman;
 
 my @ARGV = <V + VI>;
