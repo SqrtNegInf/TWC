@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-use v5.26;
+use v5.36;
 
 my $base=$ARGV[0]||4;
 my $i=baseToDec($base,"1"."0"x($base-1));#6210001000;

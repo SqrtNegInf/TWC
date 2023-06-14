@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
+use v5.36;
 
 my $base = shift || 10;
 die "No self-descriptive numbers in base $base" if ($base <4 || $base == 6);
@@ -20,18 +18,3 @@ else{
         print $n.$/ if ($n eq join '',@count[0..$base-1]);
     }
 }
-
-__END__
-
-./ch-2.pl 4
-1210
-2020
-
-./ch-2.pl 6
-No self-descriptive numbers in base 6
-
-./ch-2.pl 10
-6210001000
-
-./ch-2.pl 16
-C210000000001000

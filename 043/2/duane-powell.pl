@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-use warnings;
-use strict;
-use feature qw( say );
+use v5.36;
 
 my $base = 5;
 die "$base must be between 0 and 11, ie 1-10" unless ($base > 0 and $base < 11);
@@ -33,35 +31,3 @@ sub SDN {
 	}
 	return 1; # All digits matched the counts, this is an SDN
 }
-
-__END__
-
-
-./ch-2.pl 4
-1210
-2020
-
-./ch-2.pl 5
-21200
-
-./ch-2.pl 7
-3211000
-
-time ./ch-2.pl 8
-42101000
-
-real    8m15.640s
-user    8m15.348s
-sys     0m0.028s
-
-time ./ch-2.pl 9
-521001000
-
-real    57m54.980s
-user    57m53.948s
-sys     0m0.092s
-
-time ./ch-2.pl 10
-6210001000 
-
-

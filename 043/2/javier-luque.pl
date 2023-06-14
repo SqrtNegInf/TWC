@@ -1,8 +1,6 @@
 #!/usr/bin/env perl
-# test: ./ch-2.pl
-use strict;
-use warnings;
-use feature qw /say/;
+use v5.36;
+
 use bignum;
 
 our @NUMS = (0..9,'A' .. 'Z');

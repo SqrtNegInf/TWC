@@ -1,14 +1,7 @@
 #!/usr/bin/env perl
-# Perl Challenge 043 Task 2
-# Write a script to generate Self-descriptive Numbers in a given base.
-# In mathematics, a self-descriptive number is an integer m that in a
-# given base b is b digits long in which each digit d at position n
-# (the most significant digit being at position 0 and the least
-# significant at position b - 1) counts how many instances of digit
-# n are in m.
+use v5.36;
 
 srand 1;
-use strict; use warnings;
 
 # sets up array to simplify conversions of decimal to  baseN
 my @decToBase=(0..9,"A".."Z","?");

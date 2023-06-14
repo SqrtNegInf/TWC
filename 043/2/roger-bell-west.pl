@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
+use v5.36;
 
 my $base=$ARGV[0] || 10;
 if ($base<4 || $base==6) {

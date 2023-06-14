@@ -1,8 +1,6 @@
 #!/usr/bin/env perl
-use strict;
-use warnings FATAL => qw(all);
+use v5.36;
 
-# https://en.wikipedia.org/wiki/List_of_numeral_systems
 my %digits; @digits{0 .. 63} = ('0'..'9', 'A'..'Z', 'a' .. 'z', '-', '_');
 
 sub descr_create

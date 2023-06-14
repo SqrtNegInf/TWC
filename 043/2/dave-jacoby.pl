@@ -1,25 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-use utf8;
-use feature qw{ postderef say signatures state switch };
-no warnings
-  qw{ experimental::postderef experimental::smartmatch experimental::signatures };
-
-# Instead of finding all the self-descriptive numbers in a given set,
-# we generate them, knowing that, for 7 or more, there will be
-#   * 2 uses of the number 1 
-#       + 2
-#       + n - 4
-#   * 1 use of the number 2, being the count of 1s
-#   * n - 4 uses of 0
-#       + -1 because n in base-n will always be represented as 10
-#       + -1 from 0
-#       + -1 from 1
-#       + -1 from 2
-
-# I would combine this and ch-2a, but nah.
+use v5.36;
 
 my @base      = ( 0 .. 9, 'a' ... 'z' );
 my %to_base   = map { state $c = 0; $_ => $c++ } @base;

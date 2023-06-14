@@ -1,13 +1,6 @@
 #!/usr/bin/env perl
-#
-# ch-2.pl - Self-descriptive numbers
-#
-# Ryan Thompson <rjt@cpan.org>
+use v5.36;
 
-use 5.010;
-use warnings;
-use strict;
-no warnings 'uninitialized';
 use List::Util qw< all sum >;
 
 my @base = (0..9, 'a'..'z');
