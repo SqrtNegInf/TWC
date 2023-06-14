@@ -1,4 +1,5 @@
 #!/usr/bin/env perl
+use v5.36;
 #
 #       octal.pl
 #
@@ -65,19 +66,7 @@
 #       2020 colin crain
 ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ##
 
-
-
-use warnings;
-use strict;
-use feature ":5.26";
-
-## ## ## ## ## MAIN
-
 printf "Decimal %-2d = Octal %-2d\n", $_, octal($_) for (0..50);
-
-
-
-## ## ## ## ## SUBS
 
 sub octal {
     my $num = shift;

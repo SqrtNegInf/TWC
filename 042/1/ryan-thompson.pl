@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-#
-# ch-1.pl - Print octal numbers from 0..50
-#
-# Ryan Thompson <rjt@cpan.org>
+use v5.36;
 
 # The following is a polyglot (runs in Perl and Raku):
 printf "Decimal %2d = Octal %2o\n", $_, $_ for 0..50;

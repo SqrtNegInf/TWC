@@ -1,9 +1,5 @@
 #!/usr/bin/env perl
-use warnings;
-use strict;
-use feature qw( say );
-
-# Write a script to print decimal number 0 to 50 in Octal Number System.
+use v5.36;
 
 my $decimal_no = shift;
 if ($decimal_no) {

@@ -1,12 +1,5 @@
 #!/usr/bin/env perl
-# Perl Weekly Challenge 42-1 Script
-# Octal Number System Write a script to print decimal number 0 to 50
-# in Octal Number System.
-# Task extended to allow conversion into any base
-# from 2 to 36 (using A-Z), and also converts back from any base 
-# back to decimal
-
-use strict; use warnings;
+use v5.36;
 
 my $base=8;
 
