@@ -1,26 +1,2 @@
-Variable "$validate" is not imported at ./cristian-heredia.pl line 84.
-Global symbol "$q" requires explicit package name (did you forget to declare "my $q"?) at ./cristian-heredia.pl line 8.
-Global symbol "$c" requires explicit package name (did you forget to declare "my $c"?) at ./cristian-heredia.pl line 8.
-Global symbol "$c" requires explicit package name (did you forget to declare "my $c"?) at ./cristian-heredia.pl line 9.
-Global symbol "$d" requires explicit package name (did you forget to declare "my $d"?) at ./cristian-heredia.pl line 9.
-Global symbol "$d" requires explicit package name (did you forget to declare "my $d"?) at ./cristian-heredia.pl line 10.
-Global symbol "$valor" requires explicit package name (did you forget to declare "my $valor"?) at ./cristian-heredia.pl line 71.
-Global symbol "$valor" requires explicit package name (did you forget to declare "my $valor"?) at ./cristian-heredia.pl line 74.
-Global symbol "$validate" requires explicit package name (did you forget to declare "my $validate"?) at ./cristian-heredia.pl line 84.
-Global symbol "$valor" requires explicit package name (did you forget to declare "my $valor"?) at ./cristian-heredia.pl line 85.
-Global symbol "$valor" requires explicit package name (did you forget to declare "my $valor"?) at ./cristian-heredia.pl line 88.
-Execution of ./cristian-heredia.pl aborted due to compilation errors.
-Array found where operator expected at ./jaldhar-h-vyas.pl line 36, near "} @numbers"
-	(Missing operator before  @numbers?)
-A signature parameter must start with '$', '@' or '%' at ./jaldhar-h-vyas.pl line 4, near "(&"
-syntax error at ./jaldhar-h-vyas.pl line 4, near "(&"
-Can't redeclare "my" in "my" at ./jaldhar-h-vyas.pl line 6, near "my"
-syntax error at ./jaldhar-h-vyas.pl line 15, near "}"
-Can't redeclare "my" in "my" at ./jaldhar-h-vyas.pl line 24, near "my"
-syntax error at ./jaldhar-h-vyas.pl line 36, near "permute { "
-Execution of ./jaldhar-h-vyas.pl aborted due to compilation errors.
-Bareword "TARGET" not allowed while "strict subs" in use at ./laurent-rosenfeld.pl line 21.
-Bareword "TARGET" not allowed while "strict subs" in use at ./laurent-rosenfeld.pl line 29.
-Execution of ./laurent-rosenfeld.pl aborted due to compilation errors.
 Downgrading a use VERSION declaration to below v5.11 is deprecated, and will become fatal in Perl 5.40 at ./ryan-thompson.pl line 6.
 not ok - disabled: works fine, just crazy over-kill at ./ryan-thompson.pl line 4.

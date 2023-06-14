@@ -1,6 +1,8 @@
 #!/usr/bin/env perl
 use v5.36;
 
+use constant TARGET => 11;
+
 my %nums = map { $_ => 1 } qw/1 2 3 4 6/;
 my %rings = (
     blue   => 8,

@@ -1,7 +1,7 @@
 #!/usr/bin/env perl
 use v5.36;
 
-sub permute (&@) {
+sub permute :prototype(&@) {
     my $code = shift;
     my @idx = 0..$#_;
     while ( $code->(@_[@idx]) ) {
