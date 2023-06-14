@@ -38,21 +38,6 @@ Black-Green  = 4
 Green-Red    = 2
  
 ===> 043/1/cristian-heredia.pl <===
-The number 2 is one of the given.
-Valors of red:
-9,2,
-The number 4 is one of the given.
-Valors of green:
-2,5,4,
-The number 3 is one of the given.
-Valors of blue:
-3,8,
-The number 1 is one of the given.
-Valors of yellow:
-1,7,3,
-The number 6 is one of the given.
-Valors of black:
-4,6,1,
  
 ===> 043/1/dave-jacoby.pl <===
         red/green:      2
@@ -69,11 +54,6 @@ Valors of black:
 2 4 6 1 3
  
 ===> 043/1/jaldhar-h-vyas.pl <===
-Black = 6
-Red-Green = 2
-Green-Black = 4
-Black-Yellow = 1
-Yellow-Blue = 3
  
 ===> 043/1/javier-luque.pl <===
 Slot: black value: 6
@@ -83,20 +63,6 @@ Slot: redgreen value: 2
 Slot: yellowblue value: 3
  
 ===> 043/1/laurent-rosenfeld.pl <===
-Added 2 to red ring
-Added 2 to green ring, 
-Added 4 to green ring
-Added 3 to blue ring
-Added 3 to yellow ring, 
-Added 1 to yellow ring
-Added 4 1 6 to black ring
-
-Final ring values:
-black	11
-blue	11
-green	11
-red	11
-yellow	11
  
 ===> 043/1/roger-bell-west.pl <===
 1 in yellow/black, 2 in green/red, 3 in blue/yellow, 4 in black/green, 6 in black

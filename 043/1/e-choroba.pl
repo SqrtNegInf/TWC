@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-use warnings;
-use strict;
-use feature qw{ say };
+use v5.36;
 
 my ($red, $green, $yellow, $blue) = (9, 5, 7, 8);
 

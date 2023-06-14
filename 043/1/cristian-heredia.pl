@@ -1,4 +1,5 @@
 #!/usr/bin/env perl
+use v5.36;
 
 #Array with posibles values
 my @values = (1, 2, 3, 4, 6);

@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use feature qw /say/;
-use constant TARGET => 11;
+use v5.36;
 
 my %nums = map { $_ => 1 } qw/1 2 3 4 6/;
 my %rings = (

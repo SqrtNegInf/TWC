@@ -1,19 +1,13 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-##
-# You are given the numbers 1, 2, 3, 4 and 6. 
-# Write a script to place these numbers in the 
-# rings so that the sum of numbers in each ring 
-# is exactly 11.       
-##
+use v5.36;
+
 use AI::Prolog;
 use Data::Dump q/pp/; 
 my $prolog = do{
     local $/;
     <DATA>;
 }; 
-$prolog = new AI::Prolog($prolog); 
+$prolog = AI::Prolog->new($prolog); 
 $prolog->query("colors(Red, Green, Black, Yellow, Blue).");
 my $result = $prolog->results;
 my($red, $green, $black, $yellow, $blue) = @{$result}[1 .. @{$result} - 1];

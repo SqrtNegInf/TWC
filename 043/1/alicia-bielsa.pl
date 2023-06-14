@@ -1,22 +1,5 @@
 #!/usr/bin/env perl
-# Olympic Rings
-# There are 5 rings in the Olympic Logo as shown below. They are color coded as in Blue, Black, Red, Yellow and Green.
-
-# Olympic Rings
-
-# We have allocated some numbers to these rings as below:
-
-# Blue: 8
-# Yellow: 7
-# Green: 5
-# Red: 9
-# The Black ring is empty currently. You are given the numbers 1, 2, 3, 4 and 6. 
-#Write a script to place these numbers in the rings so that the sum of numbers in each ring is exactly 11.
-
-use strict;
-use warnings;
-use Data::Dumper;
-
+use v5.36;
 
 my $TOTALSUM = 11;
 my @aAvailableNumbers =(1, 2, 3, 4 ,6);

@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-#
-# perl5/ch-1.pl - Olympic rings
-#
-# Ryan Thompson <rjt@cpan.org>
+use v5.36;
 
 die 'not ok - disabled: works fine, just crazy over-kill';
 

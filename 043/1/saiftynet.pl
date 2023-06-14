@@ -1,9 +1,5 @@
 #!/usr/bin/env perl
-# Perl Challenge Script
-# Olympics 5 intersecting rings have  some numbers allocated as below:
-# Blue: 8, Yellow: 7, Green: 5, Red: 9, Back "?". Write a script to
-# place numbers in the intersections and in the black ring so that
-# the sum of numbers in each ring is exactly 11.
+use v5.36;
 
 # list of known numbers in a chain of rings.
 my @list=(9,"?",5,"?","?","?",7,"?",8);

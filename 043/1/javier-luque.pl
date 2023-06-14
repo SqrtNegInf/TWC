@@ -1,8 +1,6 @@
 #!/usr/bin/env perl
-# Test: ./ch1.pl
-use strict;
-use warnings;
-use feature qw /say/;
+use v5.36;
+
 use Algorithm::Combinatorics qw(permutations);
 
 my @numbers = (1, 2, 3, 4, 6);

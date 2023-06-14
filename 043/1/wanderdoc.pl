@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings FATAL => qw(all);
-
+use v5.36;
 
 use constant { BLUE => 8, YELLOW => 7, GREEN => 5, RED => 9, SUM => 11};
 use List::Util qw(reduce all);

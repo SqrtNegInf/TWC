@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
+use v5.36;
 
 my %rings=(red=>9,green=>5,black=>0,yellow=>7,blue=>8);
 my @y= map {11- $_} @rings{qw<red green black yellow blue>}; 
