@@ -1,11 +1,7 @@
 #!/usr/bin/env perl
+use v5.36;
 
 srand 1;
-
-use strict;
-use warnings;
-use feature qw{ say signatures };
-no warnings qw{ experimental::signatures };
 
 # generate the string of braces
 my $string;

@@ -1,19 +1,7 @@
 #!/usr/bin/env perl
+use v5.36;
 
 srand 1;
-# Perl Weekly Challenge 42-2 Script
-# Write a script to generate a string with random number
-# of ( and ) brackets. Then make the script validate the
-# string if it has balanced brackets.
-
-# This contains two subroutines, 1 to generate random strings, 
-# (random in both length and sequence) and one to test whether
-# the brackets are balanced or not.  The script also shows which
-# are the unmtached brackets.
-#
-# With random strings, unbalanced strings are far more common
-# so 100 are generated and tested
-use strict; use warnings;
 
 for (1..10){
 	my $testString=randomString();          # generate random string

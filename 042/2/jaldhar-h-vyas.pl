@@ -1,9 +1,7 @@
 #!/usr/bin/env perl
+use v5.36;
 
 srand 1;
-use warnings;
-use strict;
-use 5.010;
 
 sub isBalanced {
     my ($brackets) = @_; 

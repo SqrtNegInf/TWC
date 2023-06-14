@@ -1,10 +1,7 @@
 #!/usr/bin/env perl
+use v5.36;
 
 srand 1;
-use strict;
-use warnings;
-use feature qw(:5.30);
-use experimental qw(signatures);
 
 my $MAX_LEN = 10;
 

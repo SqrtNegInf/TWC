@@ -1,12 +1,9 @@
 #!/usr/bin/env perl
+use v5.36;
 
 srand 1;
-use warnings;
-use strict;
-use List::Util qw/shuffle/;
 
-# Write a script to generate a string with random number of ( and ) brackets.
-# Then make the script validate the string if it has balanced brackets.
+use List::Util qw/shuffle/;
 
 # Let's make sure we have equal number of ( and ) to increase chances
 my $count = rand(10)+1; # Could be as low as 1, as high as 10

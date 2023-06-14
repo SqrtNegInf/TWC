@@ -1,4 +1,5 @@
 #!/usr/bin/env perl
+use v5.36;
 
 srand 1;
 #
@@ -60,13 +61,6 @@ srand 1;
 ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ##
 
 
-
-use warnings;
-use strict;
-use feature ":5.26";
-
-## ## ## ## ## MAIN
-
 my $upper = shift @ARGV // 10;
 $upper = int(rand($upper)) + 1;
 
@@ -74,8 +68,6 @@ my $str = make_string($upper);
 say $str;
 say validate( $str );
 
-
-## ## ## ## ## SUBS
 
 sub make_string {
     return join '', map { ['(',')']->[int(rand(2))] } (1..$_[0]);

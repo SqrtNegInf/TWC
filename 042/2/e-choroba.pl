@@ -1,9 +1,7 @@
 #!/usr/bin/env perl
+use v5.36;
 
 srand 1;
-use warnings;
-use strict;
-use feature qw{ say };
 
 sub generate {
     return join "", map +('(', ')')[rand 2], 1 .. int rand 80

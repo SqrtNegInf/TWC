@@ -1,10 +1,8 @@
 #!/usr/bin/env perl
+use v5.36;
 
 srand 1;
-# test: ./ch2.pl
-use strict;
-use warnings;
-use feature qw /say/;
+
 use constant {
     MAX_STRING_LENGTH => 4
 };

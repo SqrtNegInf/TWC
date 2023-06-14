@@ -1,9 +1,8 @@
 #!/usr/bin/env perl
+use v5.36;
 
 srand 1;
 use strict;
-use warnings;
-use feature qw/say/;
 
 sub check_parens {
     my $expr = shift;

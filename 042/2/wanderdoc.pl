@@ -1,9 +1,7 @@
 #!/usr/bin/env perl
+use v5.36;
 
 srand 1;
-use strict;
-use warnings FATAL => qw(all);
-
 
 use constant { OB => '(', CB => ')' , WEIGHT => 0.25};
 my $FAIR = shift() ? 1 : 0; 

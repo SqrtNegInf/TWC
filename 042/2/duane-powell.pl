@@ -1,11 +1,7 @@
 #!/usr/bin/env perl
+use v5.36;
 
 srand 1;
-use warnings;
-use strict;
-use feature qw( say );
-
-# Write a script to generate a string with random number of ( and ) brackets. Then make the script validate the string if it has balanced brackets
 
 use constant {
         L_PAREN => '(',

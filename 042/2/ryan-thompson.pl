@@ -1,10 +1,7 @@
 #!/usr/bin/env perl
+#use v5.36; # PITA!
 
 srand 1;
-#
-# ch-2.pl - Validate balanced brackets
-#
-# Ryan Thompson <rjt@cpan.org>
 
 use 5.010;
 use warnings;

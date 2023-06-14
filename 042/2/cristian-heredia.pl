@@ -1,8 +1,7 @@
 #!/usr/bin/env perl
+use v5.36;
 
 srand 1;
-
-use strict;
 
 #Variables
 my $random;
@@ -11,12 +10,9 @@ my $i = 0;
 my $text;
 my $code = 0;
 
-
 generateString();
 validation();
 result();
-
-#Fuctions
 
 #Create the string of parenthesis by generates random numbers between 0-2 (0 = '(', 1 = ')' and 2 = end).
 sub generateString {
@@ -32,12 +28,12 @@ sub generateString {
 sub convertParenthesis{
 
 		if ($random == '0') {
-			@array[$i] = $random; 
+			$array[$i] = $random; 
 			$text .= '(';
 			$i++;
 		}
 		elsif ($random == '1') {
-			@array[$i] = $random; 
+			$array[$i] = $random; 
 			$text .= ')';
 			$i++;
 		}
@@ -48,10 +44,10 @@ sub convertParenthesis{
 sub validation {
 	my $length = @array;
 	for (my $j = 0; $j < $length; $j++) {
-		if (@array[$j] == 0) {
+		if ($array[$j] == 0) {
 			$code++;
 		}
-		elsif (@array[$j] == 1 and $code != 0) {
+		elsif ($array[$j] == 1 and $code != 0) {
 			$code--;
 		}
 		else {

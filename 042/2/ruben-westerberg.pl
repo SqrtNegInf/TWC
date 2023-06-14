@@ -1,8 +1,8 @@
 #!/usr/bin/env perl
+use v5.36;
 
 srand 1;
-use strict;
-use warnings;
+
 use POSIX qw<round>;
 
 my $maxLength=$ARGV[0]//6; #If no max on command line use 20

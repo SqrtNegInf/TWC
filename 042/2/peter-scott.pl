@@ -1,7 +1,7 @@
 #!/usr/bin/env perl
+use v5.36;
 
 srand 1;
-use 5.016;
 
 my ($MIN_STR_LEN, $MAX_STR_LEN) = (4,10);
 my $string_length = int( rand( $MAX_STR_LEN - $MIN_STR_LEN ) ) + $MIN_STR_LEN;

@@ -1,9 +1,7 @@
 #!/usr/bin/env perl
+use v5.36;
 
 srand 1;
-
-use strict;
-use warnings;
 
 my $s='';
 foreach (-1..2*(int(rand()*4))) {

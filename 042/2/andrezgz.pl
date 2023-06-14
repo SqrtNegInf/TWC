@@ -1,23 +1,7 @@
 #!/usr/bin/env perl
+use v5.36;
 
 srand 1;
-
-# https://perlweeklychallenge.org/blog/perl-weekly-challenge-042/
-# Task #2
-# Balanced Brackets
-# Write a script to generate a string with random number of ( and ) brackets.
-# Then make the script validate the string if it has balanced brackets.
-#
-# For example:
-#
-# () - OK
-# (()) - OK
-# )( - NOT OK
-# ())() - NOT OK
-
-
-use strict;
-use warnings;
 
 my $brackets = int rand(10) + 1;
 

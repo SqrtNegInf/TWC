@@ -1,13 +1,8 @@
 #!/usr/bin/env perl
+use v5.36;
 
 srand 1;
-use strict;
-use warnings;
-##
-# Write a script to generate a string with a random 
-# number of ( and ) parentheses. Make the script validate 
-# the string for balanced parentheses.
-##
+
 use boolean; 
 use constant LENGTH => 4;
 use constant OPEN => "(";
