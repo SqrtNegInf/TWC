@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
-use strict;
-use integer;
+use v5.36;
+no warnings 'uninitialized';
 
 my $i = 0;
 
@@ -15,7 +15,7 @@ $msg =~ s/\t//g;
 
 # print $msg, "\n"; #TESTING
 
-my $i = 0;
+#$i = 0;
 
 my $j = 0;
 

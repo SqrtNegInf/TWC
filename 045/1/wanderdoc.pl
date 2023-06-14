@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings FATAL => qw(all);
+use v5.36;
 
 use Const::Fast; # To use the constant in the regex.
 

@@ -1,11 +1,6 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-##
-# Write a script that accepts a message from the 
-# command line and prints the equivalent square secret 
-# coded message.
-##
+use v5.36;
+
 use constant SQUARE_SIZE => 8;
 sub encode{
     my($message) = @_;

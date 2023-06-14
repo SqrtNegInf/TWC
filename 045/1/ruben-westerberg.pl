@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-use warnings;
-use strict;
+use v5.36;
 
 my $string="The quick brown fox jumps over the lazy dog";
 my $padded=$string =~ tr/ //dr;

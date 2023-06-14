@@ -10,7 +10,7 @@ Input: 'The quick brown fox jumps over the lazy dog'
 ===> 045/1/andrezgz.pl <===
 tbjrd hruto eomhg qwpe unsl ifoa covz kxey 
 ===> 045/1/arne-sommer.pl <===
-tbjrd hruto eomhg qwpe unsl ifoa covz kxey 
+hruto eomh qwpe unsl ifoa covz kxey bjrd 
  
 ===> 045/1/athanasius.pl <===
 Original message:
@@ -45,9 +45,6 @@ ok 1 - encode
  
 ===> 045/1/jaldhar-h-vyas.pl <===
 tbjrd hruto eomhg qwpe unsl ifoa covz kxey
- 
-===> 045/1/javier-luque.pl <===
-Tbjrd hruto eomhg qwpe unsl ifoa covz kxey
  
 ===> 045/1/laurent-rosenfeld.pl <===
 Tbjrd hruto eomhg qwpe unsl ifoa covz kxey  

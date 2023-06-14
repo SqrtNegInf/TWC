@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use feature "say";
+use v5.36;
 
 my $msg = shift // "The quick brown fox jumps over the lazy dog";
 $msg =~ s/\s+//g;

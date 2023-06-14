@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-use warnings;
-use strict;
-use 5.010;
+use v5.36;
 
 my $input = lc join q{ }, <The quick brown fox jumps over the lazy dog>;
 $input =~ s/\s+//gmx;

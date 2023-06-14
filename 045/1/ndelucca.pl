@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
+use v5.36;
 
 my $message = "The quick brown fox jumps over the lazy dog";
 my $columns = shift || 8;
@@ -31,13 +29,3 @@ for (0..$columns){
 }
 
 print "$code\n";
-
-# perl ch-1.pl "The quick brown fox jumps over the lazy dog"
-# tbjrd hruto eomhg qwpe unsl ifoa covz kxey
-
-# perl ch-1.pl "The quick brown fox jumps over the lazy dog" 15
-# txz hjy eud qmo upg is co kv be rr ot wh ne fl oa
-
-# perl ch-1.pl "Maybe this code could be better?"
-# msle acdr yob? bde eeb tce hot iut
-

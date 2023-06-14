@@ -1,12 +1,5 @@
 #!/usr/bin/env perl
-#
-# ch-1.pl - Square secret code
-#
-# Ryan Thompson <rjt@cpan.org>
-
-use 5.010;
-use warnings;
-use strict;
+use v5.36;
 
 use constant COLUMNS => 8;
 

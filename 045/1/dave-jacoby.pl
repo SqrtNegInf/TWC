@@ -1,9 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-use feature qw{ say postderef signatures };
-no warnings qw{ experimental::postderef experimental::signatures };
+use v5.36;
 
 my $string = 'The quick brown fox jumps over the lazy dog';
 

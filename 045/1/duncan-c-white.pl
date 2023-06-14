@@ -1,39 +1,5 @@
 #!/usr/bin/env perl
-#
-# Task 1: "Square Secret Code:
-#
-# The square secret code mechanism first removes any space from the original
-# message. Then it lays down the message in a row of 8 columns. The coded
-# message is then obtained by reading down the columns going left to right.
-#
-# For example, the message is "The quick brown fox jumps over the lazy dog".
-#
-# Then the message would be laid out as below:
-#
-#   thequick
-#   brownfox
-#   jumpsove
-#   rthelazy
-#   dog
-#
-# The code message would be as below:
-#
-#   tbjrd hruto eomhg qwpe unsl ifoa covz kxey
-#
-# Write a script that accepts a message from command line and prints the
-# equivalent coded message.
-# "
-#
-# My notes: sounds trivial, let's write the decoder as well.  Let's also
-# make it easy to change the "8 columns", and let the user do encoding
-# or decoding for any number of columns.
-#
-
-use feature 'say';
-use strict;
-use warnings;
-use Function::Parameters;
-#use Data::Dumper;
+use v5.36;
 
 my $ncolumns = 8;
 
@@ -43,7 +9,7 @@ my $ncolumns = 8;
 #	Encode $text according to the above "Square Secret Code" rules.
 #	Return the encoded text.
 #
-fun encode( $text )
+sub encode( $text )
 {
 	my @columns;
 	$text =~ s/\s+//g;		# remove all whitespace
@@ -65,7 +31,7 @@ fun encode( $text )
 #	Decode $text according to the above "Square Secret Code" rules.
 #	Return the decoded text.
 #
-fun decode( $text )
+sub decode( $text )
 {
 	my @columns = split( /\s+/, $text );
 	my $ncols = @columns;

@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
+use v5.36;
 
 my @in = qw(the quick brown fox jumps over the lazy dog);
 
