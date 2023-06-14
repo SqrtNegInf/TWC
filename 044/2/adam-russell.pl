@@ -1,16 +1,8 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
+use v5.36;
 
-die 'not ok - disabled - slow and unstable output';
+die 'not ok - disabled - unstable output';
 
-##
-# You have only $1 left at the start of the week. 
-# You have been given an opportunity to make it $200. 
-# The rule is simple: with every move you can either
-# double what you have or add another $1. Write a script 
-# to help you get $200 with the smallest number of moves.
-##
 use boolean;
 use AI::Genetic;
 
@@ -68,7 +60,7 @@ sub terminate{
 }
 
 MAIN:{
-    my $aig = new AI::Genetic(
+    my $aig = AI::Genetic->new(
         -fitness    => \&fitness,
         -type       => "listvector",
         -population => 5000,

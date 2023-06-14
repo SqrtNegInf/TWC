@@ -1,13 +1,5 @@
 #!/usr/bin/env perl
-# Perl Weekly Challenge             Challenge 044 Task 2
-# You have only $1 left at the start of the week. You have been given an
-# opportunity to make it $200. The rule is simple with every move you
-# can either double what you have or add another $1. Write a script to
-# help you get $200 with the smallest number of moves.
-#
-# This soloution extends to allow any start and any target
-
-use strict; use warnings;
+use v5.36;
 
 doubleOrAdd(1,200);     # The main call: Give a start and the target,   
                         # returns the results to console

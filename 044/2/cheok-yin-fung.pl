@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-#/usr/bin/perl -w
-use integer;
-use strict;
+use v5.36;
 
 sub min {
 	if ($_[0] < $_[1]) {

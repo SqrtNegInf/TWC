@@ -1,4 +1,5 @@
 #!/usr/bin/env perl
+use v5.36;
 
 my $total;
 my $number = 200;
@@ -23,7 +24,7 @@ sub remove {
 		print "$total\n";
 		print 'And they are: ';
 		foreach (my $i = 0; $i < @moves; $i++) {
-			print "@moves[$i]";
+			print "$moves[$i]";
 		}
 	}
 	else {

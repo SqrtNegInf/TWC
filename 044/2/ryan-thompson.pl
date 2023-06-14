@@ -1,13 +1,5 @@
 #!/usr/bin/env perl
-#
-# ch-2.pl - Double or +1
-#
-# Ryan Thompson <rjt@cpan.org>
-
-use warnings;
-use strict;
-use feature qw< signatures current_sub say >;
-no warnings 'experimental::signatures';
+use v5.36;
 
 say "@{[ double_or_plus(1, 200) ]}";
 say "@{[ exhaustive(1, 200, 9) ]}";

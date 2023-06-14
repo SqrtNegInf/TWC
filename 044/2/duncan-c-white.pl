@@ -1,24 +1,5 @@
 #!/usr/bin/env perl
-#
-# Task #2: "Make it $200
-# 
-# You have only $1 left at the start of the week. You have been given an
-# opportunity to make it $200. The rule is simple with every move you can
-# either double what you have or add another $1. Write a script to help
-# you get $200 with the smallest number of moves.
-# "
-# 
-# My notes: doubling sounds like the way to go..  exhaustive breadth first
-# search "try both options at every move" seems obvious but combinatorial
-# growth could be a problem again. Is there a clever way?
-# 
-
-use feature 'say';
-use strict;
-use warnings;
-use Function::Parameters;
-use Data::Dumper;
-
+use v5.36;
 
 my $goal = shift // 200;
 my $seq = search( 1, $goal );
@@ -50,7 +31,7 @@ say "result: $curr, goal: $goal";
 #
 #	Do this using a todo list of ( $dollars, $sequence ) pairs.
 #
-fun search( $initial, $goal )
+sub search( $initial, $goal )
 {
 	my $seq = "";
 	my @todo = ( [$initial, ""] );

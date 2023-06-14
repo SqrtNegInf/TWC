@@ -1,7 +1,6 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use feature "say";
+use v5.36;
+
 use constant { START_VAL => 1, TARGET => 200};
 use constant HALF_TARGET => TARGET /2;
 
