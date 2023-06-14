@@ -1,12 +1,5 @@
 #!/usr/bin/env perl
-#
-# ch-1.pl - Add + and - to 123456789 so it sums to 100
-#
-# 2020 Ryan Thompson <rjt@cpan.org>
-
-use 5.010;
-use warnings;
-use strict;
+use v5.36;
 no warnings 'uninitialized';
 
 # @ops can contain any Perl binary numeric operator

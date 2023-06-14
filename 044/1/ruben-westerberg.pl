@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use Data::Dumper;
-use v5.26;
+use v5.36;
 
 my $string="123456789";
 print "Input string to split and combine to 100: $string\n";

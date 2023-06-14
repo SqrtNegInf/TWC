@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-use warnings;
-use strict;
-use 5.010;
+use v5.36;
 
 my @digits = ('1', '2', '3', '4', '5', '6', '7', '8', '9');
 my @ops = (' + ', ' - ', q{});

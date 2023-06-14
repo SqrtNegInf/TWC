@@ -1,14 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-# just trying to be different or something?
-
-use strict;
-use warnings;
-##
-# You are given a string "123456789". Write a script 
-# that would insert "+" or "-" in between digits so
-# that when you evaluate, the result should be 100.
-##
 use boolean;
 use AI::Genetic;
 
@@ -117,10 +109,10 @@ sub terminate{
 }
 
 MAIN:{
-    my $aig = new AI::Genetic(
+    my $aig = AI::Genetic->new(
         -fitness    => \&fitness,
         -type       => "listvector",
-        -population => 50000,
+        -population => 5000,
         -crossover  => 0.9,
         -mutation   => 0.1,
         -terminate  => \&terminate,
@@ -132,5 +124,5 @@ MAIN:{
     $aig->init(
         $genes
     );
-    $aig->evolve("tournamentUniform", 1000);
+    $aig->evolve("tournamentUniform", 100);
 }

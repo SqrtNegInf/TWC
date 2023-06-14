@@ -1,13 +1,5 @@
 #!/usr/bin/env perl
-# Perl Weekly Challenge             Challenge 044 Task 1
-# You are given a string “123456789”. Write a script that would
-# insert ”+” or ”-” in between digits so that when you evaluate,
-# the result should be 100.
-#
-# This soloution extends to allow any start string and any target#
-# anf prints all possible answers
-
-use strict; use warnings;
+use v5.36;
 
 tryInsert("123456789",100); # main call: provide intial string and target.
 
@@ -32,17 +24,3 @@ sub tryInsert{
 	    }
 	}
 }
-
-
-##     Output
-# 1+2+3-4+5+6+78+9
-# 1+2+34-5+67-8+9
-# 1+23-4+5+6+78-9
-# 1+23-4+56+7+8+9
-# 12+3+4+5-6-7+89
-# 12+3-4+5+67+8+9
-# 12-3-4+5-6+7+89
-# 123+4-5+67-89
-# 123+45-67+8-9
-# 123-4-5-6-7+8-9
-# 123-45-67+89

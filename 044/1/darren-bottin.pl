@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
+use v5.36;
 
 my $numlist = $ARGV[1]||'123456789'; # Command line overide, default to 1-9
 my @numarray = split('',$numlist);
@@ -19,7 +18,8 @@ while(1) {
 
     my $sum =0;
     my @blend_nums = split(',',$blend);
-    $sum += $_ foreach @blend_nums;
+    say "blend: $_" foreach @blend_nums; 
+    $_ ne '' and $sum += $_ foreach @blend_nums; # DH work-around 'not numeric'
     my $sumstr = join ('+',@blend_nums);
     $sumstr =~ s/\+-/-/g; # Remove + before -
     # warn "$sumstr == $sum";
@@ -46,21 +46,3 @@ sub next_combination() {
     }
     return $digit;
 }
-
-__END__
-Output from perl c-44.pl
-
-1+2+34-5+67-8+9 = 100
-1+2+3-4+5+6+78+9 = 100
-1+23-4+5+6+78-9 = 100
-1+23-4+56+7+8+9 = 100
-12+3+4+5-6-7+89 = 100
-12+3-4+5+67+8+9 = 100
-123+45-67+8-9 = 100
-123+4-5+67-89 = 100
-123-45-67+89 = 100
-123-4-5-6-7+8-9 = 100
-12-3-4+5-6+7+89 = 100
--1+2-3+4+5+6+78+9 = 100
-12 solutions found
-

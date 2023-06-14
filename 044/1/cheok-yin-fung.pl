@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use integer;
+use v5.36;
 
 my @digits = 1..9;
 

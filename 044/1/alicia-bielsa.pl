@@ -1,11 +1,5 @@
 #!/usr/bin/env perl
-#Only 100, please.
-#You are given a string “123456789”.
-#Write a script that would insert ”+” or ”-” in between digits so that when you evaluate, the result should be 100.
-
-use strict;
-use warnings;
-use Data::Dumper;
+use v5.36;
 
 my @aNumbers = (1..9);
 my @aOperators = ('+', '-');

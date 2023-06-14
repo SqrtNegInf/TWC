@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-# Test: ./ch-1.pl
-use strict;
-use warnings;
-use feature qw /say/;
+use v5.36;
 
 my $numbers = '123456789';
 check_numbers('', $numbers, 100);

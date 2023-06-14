@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings FATAL => qw(all);
+use v5.36;
 
 use Algorithm::Combinatorics qw(variations_with_repetition);
 use List::MoreUtils qw(zip);

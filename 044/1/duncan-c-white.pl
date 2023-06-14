@@ -1,20 +1,5 @@
 #!/usr/bin/env perl
-#
-# Task 1: "Only 100, please.
-#
-# You are given a string "123456789". Write a script that would insert "+"
-# or "-" in between digits so that when you evaluate, the result should
-# be 100."
-# "
-# 
-# My notes: hmm.. looks like it might be combinatorial.  Is there a clever way?
-# It's almost like a version of Countdown's number game (without * and /).
-# 
-
-use feature 'say';
-use strict;
-use warnings;
-use Function::Parameters;
+use v5.36;
 
 
 my $goal = shift // 100;
@@ -35,7 +20,7 @@ mutate( $str, 1, 8, $goal );
 #	then recursing.  Search for cases where eval(mutatedstr)==$goal,
 #	printing them out.
 #
-fun mutate( $str, $ip, $nleft, $goal )
+sub mutate( $str, $ip, $nleft, $goal )
 {
 	foreach my $a (@ch)
 	{
