@@ -1,7 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use strict;
-use warnings;
 use Math::Factor::XS qw/count_prime_factors/;
 use Math::Prime::XS qw/is_prime/;
 

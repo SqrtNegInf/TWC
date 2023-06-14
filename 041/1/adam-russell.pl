@@ -1,9 +1,6 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-##
-# Write a script to display attractive numbers between 1 and 50.
-##
+use v5.36;
+
 sub prime_factor{
     my $x = shift(@_); 
     my @factors;    

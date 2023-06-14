@@ -1,7 +1,6 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use feature qw/say/;
+use v5.36;
+
 use constant PRIMES => (2, 3, 5, 7);
 
 sub prime_factors {

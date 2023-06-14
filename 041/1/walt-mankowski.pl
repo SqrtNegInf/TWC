@@ -1,16 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use feature qw(:5.30);
-use experimental qw(signatures);
-
-# Write a script to display attractive number between 1 and 50.
-#
-# A number is an attractive number if the number of its prime factors is
-# also prime number.
-#
-# The number 20 is an attractive number, whose prime factors are 2, 2
-# and 5. The total prime factors is 3 which is also a prime number.
+use v5.36;
 
 my $N = 50;
 

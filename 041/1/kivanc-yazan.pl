@@ -1,9 +1,7 @@
 #!/usr/bin/env perl
-use warnings;
-use strict;
-use Math::Prime::Util qw/is_prime factor/;
+use v5.36;
 
-# Problem: Write a script to display attractive number between 1 and 50.
+use Math::Prime::Util qw/is_prime factor/;
 
 for my $i (1..50){
   my @factors = factor($i);

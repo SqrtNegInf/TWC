@@ -381,6 +381,8 @@ Attractive number 50: prime factors 2 5 5
 48
 49
 50
+ok 1 - Matches published sequence
+1..1
  
 ===> 041/1/ulrich-rieke.pl <===
 1 4 6 8 9 10 12 14 15 18 20 21 22 25 26 27 28 30 32 33 34 35 38 39 42 44 45 46 48 49 50 
