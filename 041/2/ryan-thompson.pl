@@ -1,12 +1,6 @@
 #!/usr/bin/env perl
-#
-# ch-2.pl - Leonardo numbers
-#
-# Ryan Thompson <rjt@cpan.org>
+use v5.36;
 
-use 5.010;
-use warnings;
-use strict;
 use Memoize; # This is a core module
 
 # Use core Perl module "Memoize" to store results of previous calls

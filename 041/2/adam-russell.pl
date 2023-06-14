@@ -1,9 +1,6 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-##
-# Write a script to display the first 20 Leonardo Numbers.
-##
+use v5.36;
+
 use constant NUMBERS => 20; 
 my $numbers = NUMBERS;
 my @leonardo = (1, 1); 

@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-use warnings;
-use strict;
-use feature qw{ say };
+use v5.36;
 
 my @last2 = (1, 1);
 for my $n (0 .. 20) {

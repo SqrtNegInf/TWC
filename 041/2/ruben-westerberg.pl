@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use v5.26;
+use v5.36;
 
 print map { "n: $_ l: ".l($_)."\n"} 0..19;
 

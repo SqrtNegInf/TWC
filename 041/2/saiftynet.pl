@@ -1,21 +1,5 @@
 #!/usr/bin/env perl
-
-# PerlWeeklyChallenge 41-2
-# Leonardo Numbers:  - A sequence of numbers given by the recurrence:
-# L(N) where L(0)=1, L(1)=1, and L(n)=L(n-1) + L(n-1) + 1
-#
-# This definition describes a recursive way to retrieve, and rapidly
-# becomes processor intensive.  If one caches the the numbers however
-# as they are found, then the task is much easier.  Furthermore 
-# https://en.wikipedia.org/wiki/Leonardo_number describes a non-recursive
-# closed form method of deriving leonardo numbers.
-#
-# This solution describes all three methods l() ,L(), and closedForm()
-# l() does no caching, L() caches, and closedForm is non-recursive.
-
-use strict;
-use warnings;
-use feature 'say';
+use v5.36;
 
 # hash containing known Leornado numbers.  It is prepopulated with 
 # L(0) and L(1), but more added as discovered by L().

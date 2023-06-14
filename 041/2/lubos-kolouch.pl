@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-#use Data::Dumper;
+use v5.36;
 
 my @l = (1,1);
 
@@ -11,4 +8,3 @@ for (2..19) {
 }
 
 print "@l\n";
-#warn Dumper @l;

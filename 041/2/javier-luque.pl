@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-# test: ./ch-2.pl
-use strict;
-use warnings;
-use feature qw /say/;
+use v5.36;
 
 for my $i (1..20) {
     say "L($i) = " . leonardo($i);

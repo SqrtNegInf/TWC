@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use feature qw /say/;
+use v5.36;
 
 my @leonardo = (1, 1);
 for my $i (1..18) {
