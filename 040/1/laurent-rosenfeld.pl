@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use feature qw/say/;
+use v5.36;
 
 my @a = ( [ qw /I L O V E Y O U / ],
           [ qw /244 42 0 1233 222 0 / ],

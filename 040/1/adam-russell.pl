@@ -1,9 +1,6 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-##
-# Show multiple arrays content.
-##
+use v5.36;
+
 use Readonly;
 Readonly::Array my @A => qw/I L O V E Y O U/;
 Readonly::Array my @B => qw/2 4 0 3 2 0 1 9/;

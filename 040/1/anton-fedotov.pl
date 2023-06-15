@@ -1,12 +1,5 @@
 #!/usr/bin/env perl
-
-##################################################
-#     Perl Weekle Challenge 040 -> Chapter 1     #
-##################################################
-
-use v5.10;
-use strict;
-use warnings;
+use v5.36;
 
 my @arr1 = qw( I L O V E Y O U );
 my @arr2 = qw( T Z U Y U F R O M);

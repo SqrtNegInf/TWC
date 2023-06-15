@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-# Test: ./ch1.pl
-use strict;
-use warnings;
-use feature qw /say/;
+use v5.36;
 
 my $arrays = [
     [ qw (I L O V E Y O U) ],

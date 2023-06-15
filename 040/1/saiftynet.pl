@@ -1,8 +1,6 @@
 #!/usr/bin/env perl
-# Perl Challenge 040 Task 1
-# Non-destructively print contents of two or more arrays at a given index.
+use v5.36;
 
-use feature "say";
 my @arraysList=(                  # array containing 2 or more arrays (as anon array refs)
     [qw{I L O V E Y O U }],
     [qw{2 4 0 3 2 0 1 9 }],

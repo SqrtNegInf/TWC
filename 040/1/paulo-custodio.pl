@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-
-use Modern::Perl;
+use v5.36;
 
 show_multiple([qw( I L O V E Y O U )],
               [qw( 2 4 0 3 2 0 1 9 )],

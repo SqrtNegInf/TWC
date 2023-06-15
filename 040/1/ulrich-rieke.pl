@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-use strict ;
-use warnings ;
+use v5.36;
 
 sub printListItems {
   my $minlength = @{$_[0]} + 0 ;
