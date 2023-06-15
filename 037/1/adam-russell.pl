@@ -1,10 +1,6 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-##
-# Write a script to calculate the total number of 
-# weekdays (Monday-Friday) in each month of the year 2019.
-##
+use v5.36;
+
 use constant YEAR => 2019; 
 
 use constant JANUARY => 1;

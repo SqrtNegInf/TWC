@@ -1,31 +1,7 @@
 #!/usr/bin/env perl
-#
-# Challenge 1: "Write a script to calculate the total number of weekdays (Mon-Fri) in each month of the year 2019.
-# Jan: 23 days
-# Feb: 20 days
-# Mar: 21 days
-# Apr: 22 days
-# May: 23 days
-# Jun: 20 days
-# Jul: 23 days
-# Aug: 22 days
-# Sep: 21 days
-# Oct: 23 days
-# Nov: 21 days
-# Dec: 22 days
-# "
-# 
-# My notes: sounds rather straightforward, with or without date manipulation
-# modules.  This first version uses Date::Manip's Date_DaysInMonth(m,y) and
-# Date_DayOfWeek(m,d,y) functions.
-# 
+use v5.36;
 
-use v5.10;	# to get "say"
-use strict;
-use warnings;
-use Function::Parameters;
 use Date::Manip;
-
 
 my @month = qw(X Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec);
 
@@ -35,7 +11,7 @@ my @month = qw(X Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec);
 #	Find how many week days (Monday..Friday) there are in month $month
 #	(1..12) in year $y.
 #
-fun countweekdays( $year, $month )
+sub countweekdays( $year, $month )
 {
 	my $n = 0;
 	my $ndays = Date_DaysInMonth( $month,$year );

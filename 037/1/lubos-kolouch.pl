@@ -1,27 +1,6 @@
 #!/usr/bin/env perl
-#===============================================================================
-#
-#         FILE: ch-1.pl
-#
-#        USAGE: ./ch-1.pl
-#
-#  DESCRIPTION: https://perlweeklychallenge.org/blog/perl-weekly-challenge-037/
-#
-#
-#      OPTIONS: ---
-# REQUIREMENTS: ---
-#         BUGS: ---
-#        NOTES: ---
-#       AUTHOR: Lubos Kolouch
-# ORGANIZATION:
-#      VERSION: 1.0
-#      CREATED: 20.10.2019
-#     REVISION: ---
-#===============================================================================
+use v5.36;
 
-use strict;
-use warnings;
-use feature qw/say/;
 use DateTime;
 use Data::Dumper;
 

@@ -1,18 +1,5 @@
 #!/usr/bin/env perl
-#===============================================================================
-#
-#        FILE: ch-1.pl
-#
-#        USAGE: ./ch-1.pl [ YEAR ]
-#
-#  DESCRIPTION: Given a year as argument prints a chronological list of
-#  the total weekdays in each month of that year. Defaults to current year
-#  if argument is missing or invalid
-#
-#===============================================================================
-
-use strict;
-use warnings;
+use v5.36;
 
 use Time::Piece;
 use Time::Seconds;

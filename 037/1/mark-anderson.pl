@@ -1,5 +1,6 @@
 #!/usr/bin/env perl
-use Modern::Perl '2018';
+use v5.36;
+
 use Time::Moment;
 
 my $tm = Time::Moment->new(

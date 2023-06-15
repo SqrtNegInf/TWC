@@ -1,4 +1,5 @@
 #!/usr/bin/env perl
+use v5.36;
 #
 #       workdays.pl
 #
@@ -51,17 +52,9 @@
 #       2019 colin crain
 ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ##
 
-
-
-use warnings;
-use strict;
-use feature ":5.26";
-
-## ## ## ## ## MAIN
-
 use Date::Manip;
 
-my $recur   = new Date::Manip::Recur;
+my $recur   = Date::Manip::Recur->new;
 $recur->parse("0:0:0:1*0:0:0*IBD","Jan 1  2019","Jan 1  2019","Dec 31 2019");
 my @date    = $recur->dates();
 

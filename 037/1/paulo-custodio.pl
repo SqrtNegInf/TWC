@@ -1,24 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-# Challenge 037
-#
-# TASK #1
-# Write a script to calculate the total number of weekdays (Mon-Fri) in each
-# month of the year 2019.
-# Jan: 23 days
-# Feb: 20 days
-# Mar: 21 days
-# Apr: 22 days
-# May: 23 days
-# Jun: 20 days
-# Jul: 23 days
-# Aug: 22 days
-# Sep: 21 days
-# Oct: 23 days
-# Nov: 21 days
-# Dec: 22 days
-
-use Modern::Perl;
 use DateTime;
 
 say_work_days(2019);

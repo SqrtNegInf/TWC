@@ -1,7 +1,6 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use feature qw/say/;
+use v5.36;
+
 use Time::Local;
 
 my $yr = shift // 2019;

@@ -1,8 +1,6 @@
 #!/usr/bin/env perl
-# Test: ./ch1.pl 2019
-use strict;
-use warnings;
-use feature qw /say/;
+use v5.36;
+
 use DateTime;
 use DateTime::Event::Recurrence;
 

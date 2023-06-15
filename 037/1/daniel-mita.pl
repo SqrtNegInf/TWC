@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-
-use v5.30;
-use warnings;
+use v5.36;
 
 use List::Util qw<all>;
 use Time::Piece;

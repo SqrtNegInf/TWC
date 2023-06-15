@@ -1,14 +1,6 @@
 #!/usr/bin/env perl
-# Author: Steven Wilson
-# Date: 2019-12-02
-# Week: 037
-# Task #1
-# Write a script to calculate the total number of weekdays (Mon-Fri) in
-# each month of the year 2019.
+use v5.36;
 
-use strict;
-use warnings;
-use feature qw/ say /;
 use DateTime;
 
 my @months = qw/ Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec /;

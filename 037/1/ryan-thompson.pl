@@ -1,13 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-# ch-1.pl - Count weekdays (per month) in specified year (or current year)
-#           Done here with only core modules.
-#
-# Ryan Thompson <rjt@cpan.org>
-
-use 5.010;
-use warnings;
-use strict;
 use Time::localtime;    # Named interface to localtime().
 
 my @Mon = qw< Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec >;

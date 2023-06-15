@@ -1,23 +1,10 @@
 #!/usr/bin/env perl
-use warnings;
-use strict;
+use v5.36;
+
 use DateTime;
 use DateTime::Duration;
-use feature 'say';
-
-# Write a script to calculate the total number of weekdays (Mon-Fri) in each month of the year 2019.
 
 my $year = 2019;
-
-do {
-        print <<EOU;
-Usage:
-$0 year
-        $0 2019
-        $0 2020
-EOU
-        exit;
-} unless $year;
 
 use constant {
         SATURDAY => 6,
@@ -42,40 +29,3 @@ do {
 	$weekday_count = 0;
 
 } until ($dt->year != $year);
-
-
-__END__
-
-./ch-1.pl
-Usage:
-./ch-1.pl year
-        ./ch-1.pl 2019
-        ./ch-1.pl 2020
-
-./ch-1.pl 2019
-Jan: 23
-Feb: 20
-Mar: 21
-Apr: 22
-May: 23
-Jun: 20
-Jul: 23
-Aug: 22
-Sep: 21
-Oct: 23
-Nov: 21
-Dec: 22
-
-./ch-1.pl 2020
-Jan: 23
-Feb: 20
-Mar: 22
-Apr: 22
-May: 21
-Jun: 22
-Jul: 23
-Aug: 21
-Sep: 22
-Oct: 22
-Nov: 21
-Dec: 23
