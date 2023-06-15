@@ -1,14 +1,6 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
+use v5.36;
 
-die 'not ok';
-
-##
-# Write a script to find out the DayLight gain/loss 
-# in the month of December 2019 as compared to 
-# November 2019 in the city of London.
-##
 use LWP::UserAgent;
 use HTML::TableExtract;
 use DateTime::Duration;
@@ -17,18 +9,18 @@ use constant DECEMBER_URL => "https://www.timeanddate.com/sun/uk/london?month=12
 
 sub get_daytime{
     my ($url) = @_; 
-    my $daytime = new DateTime::Duration; 
-    my $ua = new LWP::UserAgent(
+    my $daytime = DateTime::Duration->new; 
+    my $ua = LWP::UserAgent->new(
         ssl_opts => {verify_hostname => 0}
     );
     my $response = $ua->get($url);
-    my $parser = new HTML::TableExtract(headers => [qw/Daylength/]);
+    my $parser = HTML::TableExtract->new(headers => [qw/Daylength/]);
     $parser->parse($response->decoded_content);  
     for my $t ($parser ->tables){
         for my $row ($t->rows){ 
             if($row->[0] && $row->[0]=~m/[0-9]/){ 
                 my @fields = split(/:/, $row->[0]);
-                my $d = new DateTime::Duration(
+                my $d = DateTime::Duration->new(
                     hours   => $fields[0], 
                     minutes => $fields[1],   
                     seconds => $fields[2] 

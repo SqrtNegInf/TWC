@@ -1,10 +1,7 @@
 #!/usr/bin/env perl
-use Modern::Perl '2018';
-use Mojo::UserAgent;
-use feature 'signatures';
-no warnings 'experimental::signatures';
+use v5.36;
 
-die 'not ok';
+use Mojo::UserAgent;
 
 # make a date from the seconds difference and print the hh:mm:ss
 my $hms = (split /\s/, Mojo::Date->new(secs(11) - secs(12)))[4];
@@ -24,6 +21,3 @@ sub secs($month) {
     # sum the seconds in the collection
     $c->reduce(sub { $a + $b });
 }
-
-# Output:
-# Dec has 21:15:39 less daylight

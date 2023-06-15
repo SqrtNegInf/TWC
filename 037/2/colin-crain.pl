@@ -1,4 +1,5 @@
 #!/usr/bin/env perl
+use v5.36;
 #
 #        dimming_of_the_day.pl
 #
@@ -51,12 +52,6 @@
 #
 #        2019 colin crain
 ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ##
-
-
-
-use warnings;
-use strict;
-use feature ':5.26';
 
 ## ## ## ## ## MAIN
 my $month;

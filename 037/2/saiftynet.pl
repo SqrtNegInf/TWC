@@ -1,11 +1,5 @@
 #!/usr/bin/env perl
-# Daylight Hours
-# Challenge 2 Week 37
-
-use strict;
-use warnings;
-
-die 'not ok';
+use v5.36;
 
 use LWP::Simple qw(get); 
 

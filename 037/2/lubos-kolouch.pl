@@ -1,28 +1,8 @@
 #!/usr/bin/env perl
-## Please see file perltidy.ERR
-#!/usr/bin/env perl
-#===============================================================================
-#
-#         FILE: ch-2.pl
-#
-#        USAGE: ./ch-2.pl
-#
-#  DESCRIPTION: Perl weekly challenge 37 task 2
-#
-#      OPTIONS: ---
-# REQUIREMENTS: ---
-#         BUGS: ---
-#        NOTES: ---
-#       AUTHOR: YOUR NAME (),
-# ORGANIZATION:
-#      VERSION: 1.0
-#      CREATED: 12/06/2019 04:49:02 PM
-#     REVISION: ---
-#===============================================================================
+use v5.36;
 
-use strict;
-use warnings;
-use feature qw/say/;
+## Please see file perltidy.ERR
+
 use DateTime::Event::Sunrise;
 
 my $sun_London = DateTime::Event::Sunrise->new( longitude => -0.118092, latitude => +51.509865 );

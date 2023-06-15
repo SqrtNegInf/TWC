@@ -1,15 +1,5 @@
 #!/usr/bin/env perl
-
-# https://perlweeklychallenge.org/blog/perl-weekly-challenge-037/
-# Task #2
-# Write a script to find out the DayLight gain/loss in the month of December 2019
-# as compared to November 2019 in the city of London.
-# You can find out sunrise and sunset data for November 2019 and December 2019 for London.
-# https://www.timeanddate.com/sun/uk/london?month=11&year=2019
-# https://www.timeanddate.com/sun/uk/london?month=12&year=2019
-
-use strict;
-use warnings;
+use v5.36;
 
 my $diff = daylight('december.csv') - daylight('november.csv');
 print 'The daylight difference is ', int $diff/60, ':', abs($diff) % 60, $/;

@@ -1,13 +1,5 @@
 #!/usr/bin/env perl
-
-# Challenge 037
-#
-# TASK #2
-# Write a script to find out the DayLight gain/loss in the month of December
-# 2019 as compared to November 2019 in the city of London. You can find out
-# sunrise and sunset data for November 2019 and December 2019 for London.
-
-use Modern::Perl;
+use v5.36;
 
 my $november_data = <<'END';
 2019    Sunrise/Sunset  Daylength   Astronomical Twilight   Nautical Twilight   Civil Twilight  Solar Noon

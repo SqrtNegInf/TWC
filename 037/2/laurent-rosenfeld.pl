@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use feature qw/say/;
+use v5.36;
 
 sub hrs2sec {
     my ($hrs, $min, $sec) = split /:/, shift;

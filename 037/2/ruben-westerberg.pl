@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-
-die 'not ok';
+use v5.36;
 
 use HTTP::Tiny;
 

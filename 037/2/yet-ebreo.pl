@@ -1,11 +1,6 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use feature 'say';
+use v5.36;
 
-# Write a script to find out the DayLight gain/loss in the month of December 2019
-# as compared to November 2019 in the city of London. 
-# You can find out sunrise and sunset data for November 2019 and December 2019 for London.
 my @hour_delta;
 while (<DATA>) {
     chomp;

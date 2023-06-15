@@ -1,5 +1,6 @@
  
 ===> 037/2/adam-russell.pl <===
+loss of 19 hours 48 minutes 77 seconds
  
 ===> 037/2/andrezgz.pl <===
 The daylight difference is -21:20
@@ -98,6 +99,7 @@ Average change between Nov and Dec: - 0:58:20
 -29.1941666666667 hours
  
 ===> 037/2/mark-anderson.pl <===
+Dec has 21:15:34 less daylight
  
 ===> 037/2/paulo-custodio.pl <===
 -1750.0 minutes gained
@@ -106,8 +108,22 @@ Average change between Nov and Dec: - 0:58:20
 delta -71148 s
  
 ===> 037/2/ruben-westerberg.pl <===
+Downloading November Data...
+Downloading December Data...
+December gained -21:15:34 (H:M:S) compared to November
  
 ===> 037/2/saiftynet.pl <===
+According to 
+  https://www.timeanddate.com/sun/uk/london?month=11&year=2019 
+  There are 11 days 3:00:41 of daylight in
+  London during month 11, year 2019
+According to 
+  https://www.timeanddate.com/sun/uk/london?month=12&year=2019 
+  There are 10 days 5:45:07 of daylight in
+  London during month 12, year 2019
+
+
+The difference in daylight is 21:15:34(Hours:Minutes:Seconds)
  
 ===> 037/2/yet-ebreo.pl <===
 Day 01: Δ = 01:29
