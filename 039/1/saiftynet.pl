@@ -1,10 +1,5 @@
 #!/usr/bin/env perl
-# Perl Challenge 39 Task 1
-# hotel lights.  Code detects non-contiguous stays
-# and also allows for out-of-sequence data entry
-# The data has been modified to test these
-
-use strict;use warnings;
+use v5.36;
 
 #initialise the intervals and time sums
 my @intervals=();my $ptr=0; my $totalOn=0;    

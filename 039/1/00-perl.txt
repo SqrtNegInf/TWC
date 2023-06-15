@@ -8,7 +8,6 @@ Periods with lights ON:
 Light ON for 110 minutes
  
 ===> 039/1/burkhard-nickels.pl <===
-ch-1.pl (Version 1.0) PWC #39 Task #1: Guest House
       Alex: 09:10 - 09:45
     Arnold: 09:15 - 09:33
        Bob: 09:22 - 09:55

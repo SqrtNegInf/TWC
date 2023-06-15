@@ -1,15 +1,9 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-##
-# A guest house had a policy that the light remain ON as 
-# long as the at least one guest is in the house. There 
-# is guest book which tracks all guest in/out time. 
-# Write a script to find out how long in minutes the light were ON.
-##
+use v5.36;
+
 use DateTime;
 use DateTime::Duration;
-my $lights_on = new DateTime::Duration(
+my $lights_on = DateTime::Duration->new(
                     hours   => 0, 
                     minutes => 0,
                     seconds => 0   

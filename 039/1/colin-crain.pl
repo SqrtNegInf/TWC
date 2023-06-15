@@ -1,4 +1,5 @@
 #!/usr/bin/env perl
+use v5.36;
 #
 #       ch-1.pl
 #
@@ -84,10 +85,6 @@
 ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ##
 
 
-
-use warnings;
-use strict;
-use feature ":5.26";
 
 ## ## ## ## ## CONFIG
 ## times in hh:mm notation are normalized to the number of minutes from the start of the day

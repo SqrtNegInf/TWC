@@ -1,7 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use strict;
-use warnings;
 use List::Util qw<min max>;
 
 my @times=map { my @o;while(/(\d{2}):(\d{2})/g){ push @o,$1*60+$2}; @o} <DATA>;

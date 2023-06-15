@@ -1,14 +1,5 @@
 #!/usr/bin/env perl
-#
-# ch-1.pl - Light tracker
-#
-# Ryan Thompson <rjt@cpan.org>
-#
-# Assumption: All times are in the same 00:00 - 23:59 day
-
-use 5.010;
-use warnings;
-use strict;
+use v5.36;
 
 my %on; # Minutes during which the lights were definitely on
 
