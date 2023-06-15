@@ -9,7 +9,7 @@ Common Issues
 =============
 
 subroutine signatures:
-    sub foo(&@) ==> sub foo :prototype(&@)
+    sub foo($@) ==> sub foo :prototype($@)
 
 classes:
     new Foo ==> Foo->new
@@ -20,23 +20,31 @@ bit-wise operators:
 hash initialization:
     %Foo = {0=>0, 1=>0} ==> %Foo = (0=>0, 1=>0) 
 
-Passing a code reference needs explicit 'sub': [057/1/mark-anderson.raku]
-    permute { push @permutations, \@_; } ==>  permute sub { push @permutations, \@_; }
-
 Argument "" isn't numeric [044/1/darren-bottin.pl]
-    $sum += $_ ==> $sum += $_ if $ ne ''
-
-'Useless use' warnings: [?]
-    xxx
+    $sum += $_ ==> $sum += $_ if $_ ne ''
 
 Rare Issues
 ===========
+
+"my $a" used in sort comparison [040/1/colin-crain.pl]
+    Global $a/$b prompt this warning; take heed, results are likely to be different!
 
 Filehandles can be undef: [088/2/polettix.pl]
     my $text = defined <$fh> or return
 
 Parens needed to disambiguate precedence: [092/1/arne-sommer.pl]
     (0 .. length $A - 1) ==> (0 .. length($A) - 1) 
+
+'Useless use' warnings: [?]
+    xxx
+
+Pass a reference to array if not using prototypes: [170/1/perlboy1967.pl]
+    sub foo($\@) ==>  sub foo
+    foo($a, @b)  ==>  foo($a, \@b)
+
+Passing a code reference needs explicit 'sub': [043/1/jaldhar-h-vyas.pl]
+(if dropping signatures; also works to add ':prototype', as above)
+    permute { push @permutations, \@_; } @n ==>  permute sub { push @permutations, \@_; }, @numbers;
 
 Module Issues
 =============
@@ -56,7 +64,3 @@ Unresolved Issues
 $$cache { $blah } //=  ...  [136/2/abigail.pl]
 
 unstable output [058/1/mark-anderson*pl]
-
-Seeing a CODE ref where there is none?  [170/1/perlboy1967.pl]
-    Invalid CODE attribute: protoype($\@) at line 7.
-
