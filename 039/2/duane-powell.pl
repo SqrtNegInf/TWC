@@ -1,12 +1,5 @@
 #!/usr/bin/env perl
-use warnings;
-use strict;
-use feature qw( say );
-
-# Problem: Write a script to demonstrate Reverse Polish notation(RPN). 
-# Checkout the wiki page, https://en.wikipedia.org/wiki/Reverse_Polish_notation for more information about RPN.
-
-# Solution: Simply port the psudo code on the wiki to Perl!
+use v5.36;
 
 my @expression = qw(15 7 1 1 + - / 3 * 2 1 1 + + -);
 my $expression = join(' ',@expression);

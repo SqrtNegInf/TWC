@@ -1,18 +1,9 @@
 #!/usr/bin/env perl
-# Perl Challenge 39 Task 2
-# a reverse polish notation calculator delivering over 50 operators
-# including arithmetic, trigonometric, string, and stack operations
-# in about 100 lines of Perl including comments, and is partly coded
-# using RPN. 
+use v5.36;
 
 srand 1;
 
-use strict;
-use warnings;
 my (@stack,%operators,$quiet);
-
-# Perl's built-in operations allow conventional notation mathematics 
-# simply use eval to perform these operations on the stacks contents
 
 # binary built-in operators 22
 foreach my $op(qw{+ - * / % . ** == != <=> > < >= <= lt gt le ge eq ne cmp x}){

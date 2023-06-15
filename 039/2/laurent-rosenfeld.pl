@@ -1,7 +1,6 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use utf8;
+use v5.36;
+
 use Test::More tests => 5;
 
 my %operations = (

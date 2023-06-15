@@ -1,12 +1,6 @@
  
 ===> 039/2/andrezgz.pl <===
  
-===> 039/2/burkhard-nickels.pl <===
-ch-2.pl (Version 1.0) PWC #39 Task #2: RPN
-IN: 2,3,+,10,+,5,-
-Result: 10
-Array: 10
- 
 ===> 039/2/colin-crain.pl <===
 2 7 2 3 4 + * ^ - = -678223072847
 

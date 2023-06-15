@@ -1,13 +1,5 @@
 #!/usr/bin/env perl
-
-# https://perlweeklychallenge.org/blog/perl-weekly-challenge-039/
-# Task #2
-# Write a script to demonstrate Reverse Polish notation(RPN).
-# Checkout the wiki page for more information about RPN.
-# https://en.wikipedia.org/wiki/Reverse_Polish_notation
-
-use strict;
-use warnings;
+use v5.36;
 
 @ARGV = '15 7 1 1 + - / 3 * 2 1 1 + + -';
 

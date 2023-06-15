@@ -1,16 +1,6 @@
 #!/usr/bin/env perl
-#
-# ch-2.pl - Extensible RPN calculator
-#
-# Usage: ch-2.pl '5 r= 2 r ^ 4 ×' # Calculate area of circle with r=5
-#        ch-2.pl 'π cos'          # Calculate cos(π)
-#
-# Ryan Thompson <rjt@cpan.org>
+use v5.36;
 
-use 5.010;
-use warnings;
-use strict;
-no warnings 'uninitialized';
 use Scalar::Util 'looks_like_number'; # Core
 
 # Support UTF8 on output, input (@ARGV), and within the source itself
@@ -26,9 +16,9 @@ my %op;     # Operators dispatch
 my %vars;   # User-defined namespace
 
 # Convenience subs to install operations with commonly desired arity
-sub nullary(&$) { my ($code, $op) = @_; op_install($code, $op, 0) }
-sub   unary(&$) { my ($code, $op) = @_; op_install($code, $op, 1) }
-sub  binary(&$) { my ($code, $op) = @_; op_install($code, $op, 2) }
+sub nullary :prototype(&$) { my ($code, $op) = @_; op_install($code, $op, 0) }
+sub   unary :prototype(&$) { my ($code, $op) = @_; op_install($code, $op, 1) }
+sub  binary :prototype(&$) { my ($code, $op) = @_; op_install($code, $op, 2) }
 
 # Install binary and unary operators.
 # Easy to add more.

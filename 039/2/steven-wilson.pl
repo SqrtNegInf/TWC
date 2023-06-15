@@ -1,16 +1,6 @@
 #!/usr/bin/env perl
-# Author: Steven Wilson
-# Date: 2019-12-16
-# Week: 039
+use v5.36;
 
-# TASK #2
-# Contributed by Andrezgz
-# Write a script to demonstrate Reverse Polish notation(RPN). Checkout
-# the wiki page for more information about RPN.
-# https://en.wikipedia.org/wiki/Reverse_Polish_notation
-
-use strict;
-use warnings;
 use Test::More tests => 2;
 
 my %dt = (

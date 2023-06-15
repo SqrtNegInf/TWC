@@ -1,4 +1,5 @@
 #!/usr/bin/env perl
+use v5.36;
 
 my $expression=$ARGV[0]//"15 7 1 1 + - / 3 * 2 1 1 + + -";
 my @stack;

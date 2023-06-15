@@ -1,13 +1,5 @@
 #!/usr/bin/env perl
-
-# Challenge 039
-#
-# TASK #2
-# Contributed by Andrezgz
-# Write a script to demonstrate Reverse Polish notation(RPN). Checkout the wiki
-# page for more information about RPN.
-
-use Modern::Perl;
+use v5.36;
 
 # simple rpn calculator
 my @stack;

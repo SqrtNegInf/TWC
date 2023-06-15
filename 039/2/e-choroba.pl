@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-use warnings;
-use strict;
-use feature qw{ say };
-use utf8;
+use v5.36;
 
 my %op = ( '+' => sub { $_[0] + $_[1] },
            '−' => sub { $_[0] - $_[1] },

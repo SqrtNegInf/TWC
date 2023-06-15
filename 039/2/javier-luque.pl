@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-# test: ./ch-2.pl "15 7 1 1 + − ÷ 3 × 2 1 1 + + −"
-use strict;
-use warnings;
-use feature qw /say/;
+use v5.36;
 
 say evaluate_stack('15 7 1 1 + - / 3 * 2 1 1 + + -');
 
