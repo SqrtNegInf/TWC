@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
+use v5.36;
 
 my $d= qr(@{[join "|", map { sprintf "%02d", $_} 1..31]});
 my $m= qr(@{[join "|", map { sprintf "%02d", $_} 1..12]});

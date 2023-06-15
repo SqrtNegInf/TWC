@@ -1,13 +1,5 @@
 #!/usr/bin/env perl
-
-# ch-1.pl - Weird dates
-#
-# Ryan Thompson <rjt@cpan.org>
-
-use 5.010;
-use warnings;
-use strict;
-no warnings 'uninitialized';
+use v5.36;
 
 # This regex is the real star of the show
 '2230120' =~ /^

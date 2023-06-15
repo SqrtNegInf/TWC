@@ -1,8 +1,7 @@
 #!/usr/bin/env perl
+use v5.36;
 
 use Time::Piece;
-use strict;
-use warnings;
 
 my $str = '2230120';
 die "Format Error: A 7-digit string is expected." if length $str != 7;

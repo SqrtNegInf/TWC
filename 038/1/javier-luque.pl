@@ -1,8 +1,6 @@
 #!/usr/bin/env perl
-# Test: ./ch-1.pl 2230120
-use strict;
-use warnings;
-use feature qw /say/;
+use v5.36;
+
 use Date::Manip;
 
 say parse_date('2230120');
