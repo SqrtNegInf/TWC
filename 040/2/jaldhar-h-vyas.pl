@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-use warnings;
-use strict;
-use 5.010;
+use v5.36;
 
 my @list = ( 10, 4, 1, 8, 12, 3 );
 my @indices = ( 0, 2, 5 );

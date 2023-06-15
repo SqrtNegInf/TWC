@@ -1,11 +1,6 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-##
-# You are given a list of numbers and a set of indices 
-# belonging to the list. Write a script to sort the values 
-# that belong to the indices.
-##
+use v5.36;
+
 use Readonly;
 Readonly::Array my @A => qw/10 4 1 8 12 3/;
 Readonly::Array my @INDICES => qw/0 2 5/;

@@ -1,9 +1,5 @@
 #!/usr/bin/env perl
-# Perl Challenge 040 Task 2
-# You are given a list of numbers and set of indices belong to the list.
-# Write a script to sort the values belongs to the indices
-
-use feature 'say';
+use v5.36;
 
 my @list= ( 10, 4, 1, 8, 12, 3 );               # list for selective sorting
 my @Indices=(0,2,5);                            # list of indices to sort

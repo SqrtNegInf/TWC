@@ -1,12 +1,5 @@
 #!/usr/bin/env perl
-
-##################################################
-#      Perl Weekly Challenge 040, Chapter 2      #
-##################################################
-
-use strict;
-use warnings;
-use v5.10;
+use v5.36;
 
 my @numbers = (10, 4, 1, 8, 12, 3);
 my @indices = (0, 2, 5);

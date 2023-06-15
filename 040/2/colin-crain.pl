@@ -1,4 +1,5 @@
 #!/usr/bin/env perl
+use v5.36;
 #
 #       subsort.pl
 #
@@ -43,14 +44,6 @@
 #
 #       2019 colin crain
 ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ##
-
-
-
-use warnings;
-use strict;
-use feature ":5.26";
-
-## ## ## ## ## MAIN
 
 my $list    = [ 10, 4, 1, 8, 12, 3 ];
 my $indices = [ 0, 5, 2 ];

@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use feature qw/say/;
-use Data::Dumper;
+use v5.36;
 
 my @numbers = (10, 4, 1, 8, 12, 3);
 my @indices = (0, 2, 5);

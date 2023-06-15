@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-
-use 5.010;
-use warnings;
-use strict;
+use v5.36;
 
 my @list = (10, 4, 1, 8, 12, 3);
 my @idx  = (0, 2, 5);

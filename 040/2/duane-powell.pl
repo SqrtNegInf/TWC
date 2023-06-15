@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-use warnings;
-use strict;
-use feature qw( say );
+use v5.36;
 
 my @a = qw( 10 4 1 8 12 3 );
 my @i = qw( 0 2 5);
@@ -17,9 +15,3 @@ foreach (@i) {
 	$a[$_] = shift @temp;
 }
 say join(',',@a);
-
-__END__
-
-./ch-2.pl
-10,4,1,8,12,3
-1,4,3,8,12,10
