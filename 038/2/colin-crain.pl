@@ -1,4 +1,7 @@
 #!/usr/bin/env perl
+use v5.36;
+no warnings 'uninitialized';
+
 #
 #        wordgame.pl
 #
@@ -148,11 +151,6 @@
 #        2019 colin crain
 ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ##
 
-
-
-# use warnings;
-use strict;
-use feature ":5.26";
 
 use Algorithm::Permute;
 

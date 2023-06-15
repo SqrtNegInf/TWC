@@ -1,13 +1,7 @@
 #!/usr/bin/env perl
+use v5.36;
 
 srand 1;
-
-use strict;
-use warnings;
-use utf8;
-use feature qw{ postderef say signatures state switch };
-no warnings
-  qw{ experimental::postderef experimental::smartmatch experimental::signatures };
 
 use List::Util qw{ sum0 uniq };
 use Getopt::Long;

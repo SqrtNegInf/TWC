@@ -1,18 +1,9 @@
 #!/usr/bin/env perl
-use warnings;
-use strict;
-use feature 'say';
+use v5.36;
+
 use Math::Combinatorics 'permute';
 
 srand 1;
-
-# Word Game Problem:
-# Lets assume we have tiles as listed below, with an alphabet (A..Z) printed on them. Each tile has a value, e.g. A (1 point), 
-# B (4 points) etc. You are allowed to draw 7 tiles from the lot randomly. Then try to form a word using the 7 tiles with maximum points 
-# altogether. You dont have to use all the 7 tiles to make a word. You should try to use as many tiles as possible to get the maximum points.
-
-# Solution: Generate every permutation from 7 random tiles, find all words that match a permutation, find the highest value word and print it
-# We need three data structures, 1) an array of tiles @TILE 2) a hash of tile values %$POINT 3) a hash of all words less than 8 chars, %SEVEN_LETTER_WORD
 
 my $verbose = 0;
 

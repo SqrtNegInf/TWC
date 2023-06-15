@@ -1,17 +1,7 @@
 #!/usr/bin/env perl
-
-# ch-2.pl - Scrabble word finder
-#
-# Ryan Thompson <rjt@cpan.org>
+use v5.36;
 
 srand 1;
-
-use 5.010;
-use warnings;
-use autodie;
-use strict;
-use utf8;
-no warnings 'uninitialized';
 
 use File::Slurper qw< read_lines >;
 use List::Util    qw< shuffle uniq sum max >;

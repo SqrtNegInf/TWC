@@ -1,34 +1,7 @@
 #!/usr/bin/env perl
+use v5.36;
 
 srand 1;
-
-# Challenge 2: "Word Game
-# 
-# Lets assume we have tiles as listed below, with an alphabet (A..Z)
-# printed on them. Each tile has a value, e.g. A (1 point), B (4 points)
-# etc. You are allowed to draw 7 tiles from the lot randomly. Then try
-# to form a word using the 7 tiles with maximum points altogether. You
-# don't have to use all the 7 tiles to make a word. You should try to
-# use as many tiles as possible to get the maximum points.
-# 
-# For example, A (x8) means there are 8 tiles with letter A.
-# 
-# 1 point: A (x8), G (x3), I (x5), S (x7), U (x5), X (x2), Z (x5)
-# 2 points: E (x9), J (x3), L (x3), R (x3), V (x3), Y (x5)
-# 3 points: F (x3), D (x3), P (x5), W (x5)
-# 4 points: B (x5), N (x4)
-# 5 points: T (x5), O (x3), H (x3), M (x4), C (x4)
-# 10 points: K (x2), Q (x2)
-# "
-# 
-# My notes: Sounds rather like Scrabble without the board.
-#
-
-use v5.10;	# to get "say"
-use strict;
-use warnings;
-use Function::Parameters;
-use Data::Dumper;
 
 my %tilebag = (
 	A => 8, G => 3, I => 5, S => 7,
@@ -78,7 +51,7 @@ my %value = (
 #	Select $n random tiles from $alltiles.  Return
 #	an $n-letter sorted sequence of those random tiles.
 #
-fun randomtiles( $n )
+sub randomtiles( $n )
 {
 	my $at = $alltiles;
 	my @result;
@@ -96,7 +69,7 @@ fun randomtiles( $n )
 # my @words = readdict( $filename );
 #	Read the given wordlist $filename.  Return the list of words.
 #
-fun readdict( $filename )
+sub readdict( $filename )
 {
 	open( my $fh, '<', $filename ) || die;
 	my @result;
@@ -116,7 +89,7 @@ fun readdict( $filename )
 # my $score = score( $word );
 #	Score the letters of $word using the %value. Return the score.
 #
-fun score( $word )
+sub score( $word )
 {
 	my $score = 0;
 	foreach my $letter (split(//,$word))
@@ -142,7 +115,7 @@ my $highscore_word;
 #	that are dictionary words, score each one, and find
 #	the highest scored word.
 #
-fun findall( $prefix, $hand )
+sub findall( $prefix, $hand )
 {
 	#say "debug: prefix=$prefix, hand=$hand";
 	my $l = length($hand);

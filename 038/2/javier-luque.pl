@@ -1,10 +1,8 @@
 #!/usr/bin/env perl
-# Test: ./ch-2.pl
+use v5.36;
 
 srand 1;
-use strict;
-use warnings;
-use feature qw /say/;
+
 use Algorithm::Combinatorics qw(variations);
 use List::Util qw(shuffle);
 

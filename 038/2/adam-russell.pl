@@ -1,14 +1,6 @@
 #!/usr/bin/env perl
-use strict; 
-use warnings;
-##
-# Lets assume we have tiles with an alphabet (A..Z) printed on them. 
-# Each tile has a value, e.g. A (1 point), B (4 points) etc. You are 
-# allowed to draw 7 tiles from the lot randomly. Then try to form a 
-# word using the 7 tiles with maximum points altogether. You don’t 
-# have to use all the 7 tiles to make a word. You should try to use 
-# as many tiles as possible to get the maximum points.
-##
+use v5.36;
+
 use constant DICTIONARY => "/usr/share/dict/words";
 use Readonly; 
 Readonly::Hash my %CHAR_VALUES => (
