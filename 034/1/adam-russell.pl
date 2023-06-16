@@ -1,9 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-##
-# Write a program that demonstrates using hash slices and/or array slices.
-##
+
 my %h = (
     1 => "first", 
     2 => "second", 

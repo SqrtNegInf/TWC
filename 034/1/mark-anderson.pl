@@ -1,5 +1,5 @@
 #!/usr/bin/env perl
-use Modern::Perl '2018';
+use v5.36;
 
 my @indices = (0 .. 25);
 my @letters = ('A' .. 'Z');

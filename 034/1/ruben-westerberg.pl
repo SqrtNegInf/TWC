@@ -1,4 +1,5 @@
 #!/usr/bin/env perl
+use v5.36;
 
 #Demonstate array and hash slicing
 my @array=(0,1,2,3,4,5,6,7,8,9);

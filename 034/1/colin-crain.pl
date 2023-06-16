@@ -1,4 +1,5 @@
 #!/usr/bin/env perl
+use v5.36;
 #
 #       deli_slicer.pl
 #
@@ -73,15 +74,7 @@
 #       2019 colin crain
 ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ##
 
-
-
-use warnings;
-use strict;
-use feature ":5.26";
-
 use List::Util qw(product);
-
-## ## ## ## ## MAIN
 
 my %lookup;
 

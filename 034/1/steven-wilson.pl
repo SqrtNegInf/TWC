@@ -1,11 +1,5 @@
 #!/usr/bin/env perl
-# Perl Weekly Challenge Week 034 Task 1
-# Write a program that demonstrates using hash slices and/or array
-# slices.
-
-use strict;
-use warnings;
-use feature qw/ say /;
+use v5.36;
 
 # Array slices
 my @all_staff =

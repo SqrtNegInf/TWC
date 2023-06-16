@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use feature qw /say/;
-#use Data::Dumper;
+use v5.36;
 
 my @array = (0..10);
 my $count = 0;
@@ -19,15 +16,3 @@ my @new_array = (1, 2);
 @new_array[2, 3] = @array[6, 7];
 say "New array: ";
 print "new_array\n";
-#say Dumper \@new_array;
-
-__END__
-# Hash slice as l-value:
-my @keys = qw/c d e/;
-my %new_hash = %hash{@keys}; # Perl 5.20 and above
-say "New hash: ";
-#say Dumper \%new_hash;
-my %new_hash2;
-@new_hash2{@keys} = @hash{@keys};
-say "New hash2: ";
-#say Dumper \%new_hash2;
