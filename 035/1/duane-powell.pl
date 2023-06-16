@@ -1,9 +1,5 @@
 #!/usr/bin/env perl
-use warnings;
-use strict;
-use feature qw( say );
-
-# Write a program to encode text into binary encoded morse code.
+use v5.36;
 
 my $input = shift || "SOS";
 

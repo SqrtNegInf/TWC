@@ -1,16 +1,5 @@
 #!/usr/bin/env perl
-
-# https://perlweeklychallenge.org/blog/perl-weekly-challenge-035/
-
-# dot: 1
-# dash: 111
-# intra-character gap: 0
-# character gap: 000
-# word gap: 0000000
-
-use strict;
-use warnings;
-use v5.10;
+use v5.36;
 
 
 my %morse = (

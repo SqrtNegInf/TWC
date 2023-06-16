@@ -1,15 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-use feature 'say';
-
-# Morse Code Char Set
-# dot: 1
-# dash: 111
-# intra-character gap: 0
-# character gap: 000
-# word gap: 0000000
+use v5.36;
 
 my %m_encode = ( 
     0=>489335,

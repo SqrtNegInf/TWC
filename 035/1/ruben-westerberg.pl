@@ -1,8 +1,7 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
+use v5.36;
+
 use experimental qw<switch>;
-use v5.26;
 
 my %forwardTable=map { join "0",split "",$_}(
 	a=>".-",

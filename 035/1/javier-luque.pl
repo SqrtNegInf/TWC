@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-# Test: ./ch1.pl 'string to test'
-use strict;
-use warnings;
-use feature qw /say/;
+use v5.36;
 
 say encode('SOS');
 

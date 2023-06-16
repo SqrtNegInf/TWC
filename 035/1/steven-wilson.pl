@@ -1,25 +1,6 @@
 #!/usr/bin/env perl
-# Author: Steven Wilson
-# Date: 2019-11-18
-# Week: 035
-# Task #1
-# Contributed by Paul Johnson
-# Write a program to encode text into binary encoded morse code.
-# Pay attention to any changes which might need to be made to the text
-# to make it valid morse code.
-# Morse code consists of dots, dashes and gaps. It can be encoded in
-# binary in the following fashion:
-# dot: 1
-# dash: 111
-# intra-character gap: 0
-# character gap: 000
-# word gap: 0000000
-# An intra-character gap is inserted between the dots and dashes in a
-# character.
+use v5.36;
 
-use strict;
-use warnings;
-use feature qw/ say /;
 use Test::More tests => 2;
 
 my %binary_morse_code = (
