@@ -11,30 +11,6 @@ Knapsack amount: £15
 (1,0) bounded max payout:   15
 (1,0) bounded knapsack set: BGPR
  
-===> 036/2/duncan-c-white.pl <===
-general:
- Box  Quantity  Unit Weight  Weight  Unit Value  Value
-  P       3         4 kg      12 kg      £ 10    £ 30
-  B       3         1 kg       3 kg      £  2    £  6
- Total                        15 kg              £ 36
-
-2 boxes:
- Box  Quantity  Unit Weight  Weight  Unit Value  Value
-  P       2         4 kg       8 kg      £ 10    £ 20
- Total                         8 kg              £ 20
-
-3 boxes:
- Box  Quantity  Unit Weight  Weight  Unit Value  Value
-  P       3         4 kg      12 kg      £ 10    £ 30
- Total                        12 kg              £ 30
-
-4 boxes:
- Box  Quantity  Unit Weight  Weight  Unit Value  Value
-  P       3         4 kg      12 kg      £ 10    £ 30
-  B       1         1 kg       1 kg      £  2    £  2
- Total                        13 kg              £ 32
-
- 
 ===> 036/2/e-choroba.pl <===
 1..5
 ok 1
@@ -59,6 +35,10 @@ Max weight: 15, max boxes: 4. Boxes in knapsack: PPPB 13kg £32
 Max: 15, Boxes:  B-G-P-R
  
 ===> 036/2/lubos-kolouch.pl <===
+Best combination for 1 boxes is P with value 10
+Best combination for 3 boxes is B G P with value 14
+Best combination for 4 boxes is B G P R with value 15
+There is no possible combination for 5 boxes under or equal weight 15
  
 ===> 036/2/mark-anderson.pl <===
 --------------------------------

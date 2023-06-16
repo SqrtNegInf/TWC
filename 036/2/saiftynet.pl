@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-# Knapsack Problem
-use strict;
-use warnings;
+use v5.36;
 
 #converts the table provided to a hash tolookup
 my %boxes=(  r=>{weight=>1 ,amount=>1 },

@@ -1,22 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-# Challenge 036
-#
-# TASK #2
-# Write a program to solve Knapsack Problem.
-# There are 5 color coded boxes with varying weights and amounts in GBP. Which
-# boxes should be choosen to maximize the amount of money while still keeping
-# the overall weight under or equal to 15 kgs?
-#
-# R: (weight = 1 kg, amount = £1)
-# B: (weight = 1 kg, amount = £2)
-# G: (weight = 2 kg, amount = £2)
-# Y: (weight = 12 kg, amount = £4)
-# P: (weight = 4 kg, amount = £10)
-# Bonus task, what if you were allowed to pick only 2 boxes or 3 boxes or
-# 4 boxes? Find out which combination of boxes is the most optimal?
-
-use Modern::Perl;
 use Math::Combinatorics;
 use List::Util qw( sum );
 

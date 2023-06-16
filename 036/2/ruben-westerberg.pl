@@ -1,8 +1,8 @@
 #!/usr/bin/env perl
-use warnings;
-use strict;
+use v5.36;
+
 use List::Util;
-use v5.26;
+
 my $limit=15;
 my %boxes;
 @boxes{qw<R B G Y P>}=({c=>1,w=>1,},{c=>2, w=>1},{c=>2,w=>2},{c=>4,w=>12},{c=>10,w=>4});

@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use feature qw/say/;
+use v5.36;
 
 my %boxes = (
     "R" => { "w" => 1,  val => 1  },

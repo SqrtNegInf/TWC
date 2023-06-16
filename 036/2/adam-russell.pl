@@ -1,9 +1,6 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-##
-# Write a program to solve the Knapsack Problem.
-##
+use v5.36;
+
 use Readonly;
 Readonly::Array my @weights => (1, 1, 2, 12, 4); 
 Readonly::Array my @values  => (1, 2, 2, 4, 10); 

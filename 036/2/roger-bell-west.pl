@@ -1,10 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-
-# Write a program to solve Knapsack Problem.
-# (specifically 0-1 knapsack)
+use v5.36;
 
 my %box=(
   R => {w => 1, v => 1},

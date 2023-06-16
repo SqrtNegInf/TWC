@@ -1,4 +1,5 @@
 #!/usr/bin/env perl
+use v5.36;
 #
 #       knapsack.pl
 #
@@ -58,13 +59,6 @@
 #
 #       2019 colin crain
 ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ##
-
-
-
-use warnings;
-use strict;
-# use diagnostics;
-use feature ":5.26";
 
 ## ## ## ## ## CONFIG
 

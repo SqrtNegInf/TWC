@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-# Test: ./ch2.pl
-use strict;
-use warnings;
+use v5.36;
 
 # Box configurations
 my $boxes = {

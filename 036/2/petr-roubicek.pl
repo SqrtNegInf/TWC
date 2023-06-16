@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use Data::Dumper;
+use v5.36;
 
 my $m_item = 5;
 my %comb;

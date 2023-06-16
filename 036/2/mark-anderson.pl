@@ -1,5 +1,6 @@
 #!/usr/bin/env perl
-use Modern::Perl             '2018';
+use v5.36;
+
 use List::Util               'sum';
 use Algorithm::Combinatorics 'combinations';
 
