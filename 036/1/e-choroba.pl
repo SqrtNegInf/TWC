@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
-use warnings;
-use strict;
+use v5.36;
+
 use Syntax::Construct qw{ // };
 
 use List::Util qw{ sum };

@@ -1,9 +1,6 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-##
-# Write a program to validate Vehicle Identification Numbers (VINs).    
-##
+use v5.36;
+
 use boolean; 
 use Readonly; 
 Readonly::Hash my %CHAR_VALUES => (

@@ -1,4 +1,5 @@
 #!/usr/bin/env perl
+use v5.36;
 #
 #       vin_verify.pl
 #
@@ -27,14 +28,6 @@
 #       2019 colin crain
 ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ##
 
-
-
-# use warnings;
-use strict;
-# use diagnostics;
-use feature ":5.26";
-
-## ## ## ## ## MAIN
 
 my $vin = 'JTHBE96S280041733';
 

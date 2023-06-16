@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-# Test: ./ch-1.pl
-use strict;
-use warnings;
-use feature qw /say/;
+use v5.36;
 
 # Check a bunch of different world VIN's
 # These should be valid

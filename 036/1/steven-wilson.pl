@@ -1,15 +1,6 @@
 #!/usr/bin/env perl
-# Author: Steven Wilson
-# Date: 2019-11-25
-# Week: 036
-# Task #1
-# Write a program to validate given Vehicle Identification Number (VIN).
-# For more information, please checkout wikipedia.
-# https://en.wikipedia.org/wiki/Vehicle_identification_number
+use v5.36;
 
-use strict;
-use warnings;
-use feature qw/ say /;
 use List::MoreUtils qw/ first_index /;
 use Test::More tests => 16;
 

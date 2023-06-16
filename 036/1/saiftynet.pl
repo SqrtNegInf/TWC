@@ -1,13 +1,5 @@
 #!/usr/bin/env perl
-# VIN translator Problem
-use strict;
-use warnings;
-
-# usage: VINValidator($VINundertest,[verbosity]);
-# 1st parameter is VIN to test, second parameter if verbosity required
-# returns 1 for valid or 0 for invalid
-# if verbose parameter resolves to true, the success or failure (with reason) 
-# is printed to console 
+use v5.36;
 
 sub VINValidator{
 	my ($input,$verbose)=@_;   

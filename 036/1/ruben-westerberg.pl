@@ -1,10 +1,7 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use warnings;
-use strict;
 use List::Util  qw<sum>;
-
-use v5.26;
 
 my @vins='JTHBE96S280041733';
 my %keys;

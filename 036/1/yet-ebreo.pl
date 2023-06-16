@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-use feature 'say';
+use v5.36;
 
     my $vin = 'JTHBE96S280041733';
     if ($vin =~ /[OIQ]/i) {

@@ -1,13 +1,5 @@
 #!/usr/bin/env perl
-
-# https://perlweeklychallenge.org/blog/perl-weekly-challenge-036/
-# Task #1
-# Write a program to validate given Vehicle Identification Number (VIN).
-# For more information, please checkout wikipedia.
-# https://en.wikipedia.org/wiki/Vehicle_identification_number
-
-use strict;
-use warnings;
+use v5.36;
 
 my $vin = 'JTHBE96S280041733';
 
