@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-use strict ;
-use warnings ;
-
+use v5.36;
 my %morsecode = ("A" => "._" , "B" => "-...", "C" => "-.-." ,
                 "D" => "-..", "E" => "." , "F" => "..-." ,
         "G" => "--.", "H" => "....", "I" => ".." ,

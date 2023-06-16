@@ -1,9 +1,6 @@
 #!/usr/bin/env perl
-use strict;
-use warnings; 
-##
-# Write a program to decode binary morse code.
-##
+use v5.36;
+
 use constant DOT            => "1";
 use constant DASH           => "111";
 use constant CHAR_GAP       => "000";

@@ -1,15 +1,5 @@
 #!/usr/bin/env perl
-
-# https://perlweeklychallenge.org/blog/perl-weekly-challenge-035/
-# Task #2
-# Write a program to decode binary morse code.
-# Consider how it might be possible to recover from badly formed morse code.
-#
-# a) by splitting the morse code on gaps
-# b) without looking further than one digit ahead
-
-use strict;
-use warnings;
+use v5.36;
 
 my %morse = (
     A => '.-',      N => '-.',

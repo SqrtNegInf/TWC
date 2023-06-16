@@ -1,11 +1,7 @@
 #!/usr/bin/env perl
-# Test: ./ch1.pl 'string to test' | ./ch2.pl
+use v5.36;
 
 srand 1;
-
-use strict;
-use warnings;
-use feature qw /say/;
 
 say decode('101010001110111011100010101');
 

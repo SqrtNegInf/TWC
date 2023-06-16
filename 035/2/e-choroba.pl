@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-use warnings;
-use strict;
+use v5.36;
 
 my %to_morse = qw( a .-   b -... c -.-. d -..  e .    f ..-. g --.  h ....
                    i ..   j .--- k -.-  l .-.. m --   n -.   o ---  p .--.

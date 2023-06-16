@@ -1,16 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-# Challenge 035
-#
-# TASK #2
-# Contributed by Paul Johnson
-# Write a program to decode binary morse code.
-# Consider how it might be possible to recover from badly formed morse code.
-#
-# a) by splitting the morse code on gaps
-# b) without looking further than one digit ahead
-
-use Modern::Perl;
 use Text::Morse;
 
 sub decode_bin_morse {

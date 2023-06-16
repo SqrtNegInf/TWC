@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use feature qw/say/;
-use Data::Dumper;
+use v5.36;
 
 my %bin_chars = ( '.' => 1, '_' => 111);
 my $morse_codes_file = "morse.dat";
