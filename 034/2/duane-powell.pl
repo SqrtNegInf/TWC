@@ -1,12 +1,7 @@
 #!/usr/bin/env perl
-use warnings;
-use strict;
-use feature qw( say );
+use v5.36;
 
 srand 1;
-
-# Write a program that demonstrates using hash slices and/or array slices.
-# Write a program that demonstrates a dispatch table.
 
 my @CARD; # Global deck of 52 playing cards
 sub new_deck {

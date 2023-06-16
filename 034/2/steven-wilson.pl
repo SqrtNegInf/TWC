@@ -1,15 +1,7 @@
 #!/usr/bin/env perl
-# Author: Steven Wilson
-# Date: 2019-11-13
-# Week: 034
-# Task #2
-# Contributed by Dave Cross
-# Write a program that demonstrates a dispatch table.
+use v5.36;
 
 srand 1;
-use strict;
-use warnings;
-use feature qw/ say /;
 
 my %dispatch_table = (
     0 => \&bop_it,

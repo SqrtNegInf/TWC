@@ -1,4 +1,5 @@
 #!/usr/bin/env perl
+use v5.36;
 #
 #       dispatches.pl
 #
@@ -68,13 +69,6 @@
 #       2109 colin crain
 ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ##
 
-
-
-#use warnings;
-use strict;
-use feature ":5.26";
-
-## ## ## ## ## MAIN
 
 ## first let us establish our dispatch table, and a few arrays to handle our lists of operators and operands
 my $operator_dispatch = {
