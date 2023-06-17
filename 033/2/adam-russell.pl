@@ -1,11 +1,8 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-##
-# Write a script to print 11x11 multiplication 
-# table, only the top half triangle.
-##
+use v5.36;
+
 use Perl6::Form; 
+
 sub print_table11{
     my($x,$x1,$x2,$x3,$x4,$x5,$x6,$x7,$x8,$x9,$x10,$x11); 
     my $header = form  

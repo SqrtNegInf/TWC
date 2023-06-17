@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
+use v5.36;
 
 my $limit=$ARGV[0]//11;
 my $maxWidth=1+length $limit**2;

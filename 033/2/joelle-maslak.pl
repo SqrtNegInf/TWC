@@ -1,9 +1,6 @@
 #!/usr/bin/env perl
-use v5.16;
-use strict;
-use warnings;
+use v5.36;
 
-die "Only one argument allowed" if @ARGV > 1;
 my $max = @ARGV ? int( +$ARGV[0] ) : 11;    # Default to 11
 die "Max must be >= 1" if $max < 1;
 

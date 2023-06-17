@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-
-use v5.10;	# for "say"
-use strict;
-use warnings;
+use v5.36;
 
 sub line
 {

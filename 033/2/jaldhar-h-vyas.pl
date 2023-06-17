@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-use warnings;
-use strict;
-use 5.010;
+use v5.36;
 
 print '  x|', (join q{}, map { sprintf('% 4s', $_); } 1 .. 11), "\n",
     '---+', '----' x 11, "\n";

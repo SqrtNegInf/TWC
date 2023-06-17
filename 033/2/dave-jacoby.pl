@@ -1,10 +1,5 @@
 #!/usr/bin/env perl
-
-use strict ;
-use warnings ;
-use utf8 ;
-use feature qw{ postderef say signatures state } ;
-no warnings qw{ experimental::postderef experimental::signatures } ;
+use v5.36;
 
 my $done ;
 

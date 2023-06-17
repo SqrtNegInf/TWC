@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-use strict ;
-use warnings ;
+use v5.36;
 
 printf("%4s" , "x|") ;
 foreach my $num (1..11) {

@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
+use v5.36;
 
 printf( "  x| %3d %3d %3d %3d %3d %3d %3d %3d %3d %3d %3d\n", 1 .. 11 );
 printf("---+--------------------------------------------\n");

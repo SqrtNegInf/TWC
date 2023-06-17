@@ -1,12 +1,5 @@
 #!/usr/bin/env perl
-
-# challenge-033/ch-2.pl - Print multiplication table up to $max * $max
-#
-# Ryan Thompson <rjt@cpan.org>
-
-use 5.010;
-use strict;
-use warnings;
+use v5.36;
 
 my $max   = shift // 11;
 my $width = length $max * $max; # Widest possible number for printf

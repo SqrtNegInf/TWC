@@ -1,11 +1,6 @@
 #!/usr/bin/env perl
-
-use strict;
-use feature 'say';
-
-## This solves more than the puzzle - but thought I would make it more generic!
-
-## This gets the size of the square that we want to display...
+use v5.36;
+no warnings 'uninitialized';
 
 my $N  = shift =~ s{\D}{}gr || 11;        ## Default to 11 - but use first parameter as size of square!
 my @R  = 1..$N;                           ## Create a "range array" - we use this 4 times!!!

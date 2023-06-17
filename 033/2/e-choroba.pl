@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-use warnings;
-use strict;
-use utf8;
+use v5.36;
 
 use open OUT => ':encoding(UTF-8)', ':std';
 

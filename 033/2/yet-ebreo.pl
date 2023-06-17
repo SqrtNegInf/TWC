@@ -1,9 +1,5 @@
 #!/usr/bin/env perl
-# Write a script to print 11x11 multiplication table, only the top half triangle.
-
-use strict;
-use warnings;
-use feature 'say';
+use v5.36;
 
 my $n = $ARGV[0] || 11;
 printf "  x|";

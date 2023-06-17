@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-
-use feature qw<say>;
+use v5.36;
 
 my $start = 1;
 my $end   = shift // 11;
