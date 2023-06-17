@@ -1,23 +1,5 @@
 #!/usr/bin/env perl
-
-# Write a function that takes a hashref where the keys are labels and the values are integer or floating point values.
-# Generate a bar graph of the data and display it to stdout.
-
-# The input could be something like:
-
-# $data = { apple => 3, cherry => 2, banana => 1 };
-# generate_bar_graph($data);
-
-# And would then generate something like this:
-
-# apple  | ############
-# cherry | ########
-# banana | ####
-
-# If you fancy then please try this as well: (a) the function could let you specify whether the chart should be ordered by (1) the labels, or (2) the values.
-
-use strict;
-use warnings;
+use v5.36;
 
 sub generate_bar_graph{
 
@@ -51,17 +33,8 @@ generate_bar_graph({
     banana => 60.9
 });
 
-# banana  ############################################################
-# apple   ##################################
-# cherry  ###########
-
 generate_bar_graph({
     apple => 35.5,
     cherry => 12,
     banana => 60.9
 },1);
-
-# By Label
-# apple   ##################################
-# banana  ############################################################
-# cherry  ###########

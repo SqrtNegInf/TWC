@@ -1,9 +1,5 @@
 #!/usr/bin/env perl
-
-use 5.18.4; # for fc  [lowest possible value is '5.16.0']
-#use Modern::Perl; # doesn't do 'fc'
-use strict;
-use warnings;
+use v5.36;
 
 my $data   = { apple => 3, cherry => 2, banana => 1 };
 my $params = { order_by => 'name' };

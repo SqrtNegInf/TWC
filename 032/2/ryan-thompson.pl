@@ -1,15 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-# ASCII Bar Chart
-#
-# I've added the optional "sort by" option, and then I went and added
-# negative numbers and auto-scaling to a user-specified --width for fun.
-#
-# Ryan Thompson <rjt@cpan.org>
-
-use 5.010;
-use strict;
-use warnings;
 use List::Util qw/min max/;
 use Math::Round;
 

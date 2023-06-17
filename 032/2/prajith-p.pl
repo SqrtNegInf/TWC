@@ -1,11 +1,9 @@
 #!/usr/bin/env perl
-
-# https://alexwlchan.net/2018/05/ascii-bar-charts
+use v5.36;
 
 use List::Util qw<max>;
-use utf8;
-use feature qw<say>;
 
+use utf8;
 binmode STDOUT, ":utf8";
 
 sub divmod {

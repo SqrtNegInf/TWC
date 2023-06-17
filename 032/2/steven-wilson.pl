@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-use feature qw/ say /;
+use v5.36;
 
 my $data = { apple => 3, cherry => 2, banana => 1 };
 

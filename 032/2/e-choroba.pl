@@ -1,4 +1,5 @@
 #!/usr/bin/env perl
+use v5.36;
 {   package My::BarChart;
     use Moo;
 
@@ -52,10 +53,6 @@
     method _by_value      () { $self->data->{$a} <=> $self->data->{$b} }
     method _by_value_desc () { $self->data->{$b} <=> $self->data->{$a} }
 }
-
-use warnings;
-use strict;
-use feature qw{ say };
 
 my $data = { apple => 3, cherry => 2, banana => .5 };
 my $chart = 'My::BarChart'->new(data => $data);

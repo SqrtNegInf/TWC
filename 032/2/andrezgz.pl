@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
+use v5.36;
 
 use List::Util qw/max/;
 
@@ -38,17 +36,3 @@ sub generate_bar_graph {
     print "\n";
     return;
 }
-
-__END__
-
-./ch-2.pl
-Sorted by name
-apple     | ##################################################
-banana    | ################
-cherry    | #################################
-orange    | #########################################
-Sorted by value
-apple     | ##################################################
-orange    | #########################################
-cherry    | #################################
-banana    | ################
