@@ -77,7 +77,8 @@ MAIN:
          sub { $counts->{$_[1]} <=> $counts->{$_[0]} || $_[0] cmp $_[1] } :
          sub { $_[0] cmp $_[1] };
 
-    printf "%s: %d\n", $_, $counts->{ $_ } for sort $sort_by keys %$counts;
+    printf "%s: %d\n", $_, $counts->{ $_ } for sort keys %$counts;
+    #printf "%s: %d\n", $_, $counts->{ $_ } for sort $sort_by keys %$counts;
 }
 
 #-------------------------------------------------------------------------------
