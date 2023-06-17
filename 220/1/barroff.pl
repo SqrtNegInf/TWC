@@ -8,18 +8,16 @@ sub common_characters (@words) {
     my @letters = map( { uniq split( //, lc($_) ) } @words );
     map( { $characters{$_}++ } @letters );
     my @cc = sort grep( { $characters{$_} == @words } keys %characters );
-    return \@cc;
+    return @cc;
 }
 
 #| Run test cases
 sub MAIN() {
-    use Test2::V0 qw( is plan );
-    plan 2;
+    use Test::More;
 
-    is common_characters( "Perl", "Rust", "Raku" ), ['r'],
-      'works for ("Perl", "Rust", "Raku")';
-    is common_characters( "love", "live", "leave" ), [ 'e', 'l', 'v' ],
-      'works for ("love", "live", "leave")';
+    is_deeply([common_characters( "Perl", "Rust", "Raku" )], ['r']);                # 'works for ("Perl", "Rust", "Raku")';
+    is_deeply([common_characters( "love", "live", "leave" )], [ 'e', 'l', 'v' ]);   # 'works for ("love", "live", "leave")';
+    done_testing();
 }
 
 MAIN();
