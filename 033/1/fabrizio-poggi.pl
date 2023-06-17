@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
+use v5.36;
 
 my ($tota, $totb, $totc, $totd, $tote, $totf, $totg, $toth, $toti, $totj, $totk, $totl, $totm, $totn, $toto, $totp, $totq, $totr, $tots, $tott, $totu, $totv, $totx, $toty, $totw, $totz) = 0;
 

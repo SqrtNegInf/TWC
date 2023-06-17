@@ -1,5 +1,6 @@
 #!/usr/bin/env perl
-use strict;
+use v5.36;
+
 my @file_list = '../00-blogs';
 @file_list = 'sample.txt' unless @file_list;
 my %letter_freq;

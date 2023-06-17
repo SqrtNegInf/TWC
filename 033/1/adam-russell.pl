@@ -1,11 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-##
-# Create a script that accepts one or more files 
-# specified on the command-line and count the 
-# number of times letters appeared in the files.
-##
+
 MAIN:{
     my %letter_count; 
     while(<DATA>){

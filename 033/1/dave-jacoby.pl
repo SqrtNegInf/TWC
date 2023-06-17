@@ -1,14 +1,5 @@
 #!/usr/bin/env perl
-
-use strict ;
-use warnings ;
-use utf8 ;
-use feature qw{ postderef say signatures state } ;
-no warnings qw{ experimental::postderef experimental::signatures } ;
-
-# Create a script that accepts one or more files specified
-# on the command-line and count the number of times letters
-# appeared in the files.
+use v5.36;
 
 for my $file ( '../00-blogs') {
 

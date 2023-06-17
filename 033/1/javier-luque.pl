@@ -1,7 +1,6 @@
 #!/usr/bin/env perl
-# Test: ./ch1.pl example1.txt example2.txt
-use strict;
-use warnings;
+use v5.36;
+
 binmode STDOUT, ':utf8';
 my %counts;
 

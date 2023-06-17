@@ -1,11 +1,5 @@
 #!/usr/bin/env perl
-# Author: Steven Wilson
-# Date: 2019-11-05
-# Week: 033
-
-use strict;
-use warnings;
-use feature qw/ say /;
+use v5.36;
 
 my @files = '../00-blogs';
 my %letters_count;

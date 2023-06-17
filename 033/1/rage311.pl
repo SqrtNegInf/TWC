@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-
-use 5.030;
-use warnings;
-use strict;
+use v5.36;
 
 undef $/;
 

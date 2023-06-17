@@ -1,17 +1,12 @@
 #!/usr/bin/env perl
-
-no warnings;
-use strict;
-use feature ":5.26";
-
-## ## ## ## ## MAIN
+use v5.36;
 
 my @args = '../00-blogs';
 my $counter = {};
 
 for my $file ( @args ) {
     if (! -f $file) { die "argument $file is not a valid file "};
-    open (my $fh, "<", $file) || die;  { "file read error: \'$file\' cannot be opened" };
+    open (my $fh, "<", "$file") || die "file read error: \'$file\' cannot be opened";
     local $/ = undef;       ## locally set the line separator to undef so we slurp the entire file
     my $text = <$fh>;
     close $fh;

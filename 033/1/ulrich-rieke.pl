@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-use strict ;
-use warnings ;
+use v5.36;
 
 for my $file ( '../00-blogs' ) {
   if ( -e $file && -f $file ) {

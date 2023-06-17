@@ -1,4 +1,5 @@
 #!/usr/bin/env perl
+use v5.36;
 
 ################################################################################
 =comment
@@ -69,11 +70,12 @@ MAIN:
 #===============================================================================
 {
     my ($count, $help);
+    no warnings 'uninitialized';
 
     my $counts  = read_data();
     my $sort_by = $count ?
-         sub ($$) { $counts->{$_[1]} <=> $counts->{$_[0]} || $_[0] cmp $_[1] } :
-         sub ($$) { $_[0] cmp $_[1] };
+         sub { $counts->{$_[1]} <=> $counts->{$_[0]} || $_[0] cmp $_[1] } :
+         sub { $_[0] cmp $_[1] };
 
     printf "%s: %d\n", $_, $counts->{ $_ } for sort $sort_by keys %$counts;
 }

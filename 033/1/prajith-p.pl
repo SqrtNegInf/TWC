@@ -1,8 +1,6 @@
 #!/usr/bin/env perl
-
-use strict;
-no warnings;
-use feature qw<say>;
+use v5.36;
+no warnings 'uninitialized';
 
 my %c = ();
 
