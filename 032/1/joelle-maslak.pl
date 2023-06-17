@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-use v5.14;
-use strict;
-use warnings;
+use v5.36;
 
 my $csv;
 if (@ARGV and $ARGV[0] eq '--csv') {

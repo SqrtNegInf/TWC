@@ -1,12 +1,5 @@
 #!/usr/bin/env perl
-
-#########################
-# Challenge 032, part 1 #
-#########################
-
-use strict;
-use warnings;
-use v5.10;
+use v5.36;
 
 my $encoding = ':encoding(UTF-8)';
 

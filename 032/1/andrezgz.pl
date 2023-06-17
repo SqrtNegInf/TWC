@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
+use v5.36;
 
 my %entries;
 chomp, $entries{$_}++ while (<DATA>); # count instances

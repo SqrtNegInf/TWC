@@ -1,8 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use v5.10;	# to get "say"
-use strict;
-use warnings;
 use Getopt::Long;
 
 my $sep = ' ';

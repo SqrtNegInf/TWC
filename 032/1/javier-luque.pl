@@ -1,8 +1,6 @@
 #!/usr/bin/env perl
-# Test: cat example.txt | ./ch1.pl
+use v5.36;
 
-use strict;
-use warnings;
 use Getopt::Long;
 
 my $use_csv = 0;
