@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-use v5.10;
+use v5.36;
 
 sub check_div_zero {
     my ( $numerator, $denominator ) = @_;

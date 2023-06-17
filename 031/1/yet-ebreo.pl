@@ -1,9 +1,5 @@
 #!/usr/bin/env perl
-#Create a function to check divide by zero error 
-#without checking if the denominator is zero.
-use strict;
-use warnings;
-use feature 'say';
+use v5.36;
 
 sub div_zero_check {
     my @div =  @_;

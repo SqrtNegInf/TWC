@@ -1,10 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-use utf8;
-use feature qw{ say state };
-use experimental qw{ postderef signatures switch };
+use v5.36;
 
 use Try::Tiny;
 

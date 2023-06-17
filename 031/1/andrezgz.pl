@@ -1,12 +1,5 @@
 #!/usr/bin/env perl
-
-# https://perlweeklychallenge.org/blog/perl-weekly-challenge-031/
-# Task #1
-# Create a function to check divide by zero error
-# without checking if the denominator is zero.
-
-use strict;
-use warnings;
+use v5.36;
 
 sub is_division_by_zero {
     my ($num,$den) = @_;

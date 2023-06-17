@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-
-use feature 'say';
+use v5.36;
 
 sub div {
 	my ($num, $denom) = @_; 

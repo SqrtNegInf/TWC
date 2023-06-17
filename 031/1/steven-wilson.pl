@@ -1,15 +1,6 @@
 #!/usr/bin/env perl
-# Author: Steven Wilson
-# Date: 2019-10-22
-# Week: 031
+use v5.36;
 
-# Task #1
-# Create a function to check divide by zero error without checking if
-# the denominator is zero.
-
-use strict;
-use warnings;
-use feature qw/ say /;
 use Test::More;
 
 ok( is_divide_by_zero( 1, 0 ) == 1, "Test zero denominator" );

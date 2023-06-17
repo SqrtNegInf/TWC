@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use feature qw/ say /;
+use v5.36;
 
 # A few test cases
 for my $statement ('1/0', '1/2', '0/100') {
