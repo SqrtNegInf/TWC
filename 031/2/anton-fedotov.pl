@@ -1,7 +1,6 @@
 #!/usr/bin/env perl
-
-use warnings;
-use v5.10;
+use v5.36;
+no strict 'refs';
 
 my $name = 'foo';
 my $value = 'boo';

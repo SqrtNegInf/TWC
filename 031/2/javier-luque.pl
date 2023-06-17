@@ -1,7 +1,6 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use feature qw/ say /;
+use v5.36;
+
 no strict "refs";
 
 our $test; # for testing this

@@ -1,4 +1,7 @@
 #!/usr/bin/env perl
+use v5.36;
+no strict 'refs';
+
 #
 #       dynamic_variable.pl
 #
@@ -37,14 +40,6 @@
 #
 #       2019 colin crain
 ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ##
-
-
-
-# use warnings;
-# use strict;
-use feature ":5.26";
-
-## ## ## ## ## MAIN
 
 ## get our proposed new variable
 my $varname = validate( 'foo' )  ;

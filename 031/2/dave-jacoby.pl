@@ -1,19 +1,7 @@
 #!/usr/bin/env perl
+use v5.36;
 
-# use strict;
-# use warnings;
-use utf8;
-
-# TASK #2
-
-# Create a script to demonstrate creating dynamic variable name,
-# assign a value to the variable and finally print the variable.
-# The variable name would be passed as command line argument.
-
-# because variable set as command-line argument, we:
-#   * stick with $ARGV[0], to avoid collisions with user input
-#   * use Encode to allow Unicode values
-#   * set $ARGV[0] if it isn't assigned
+no strict 'refs';
 
 use Encode qw{decode_utf8};
 $ARGV[0] = 'foo';

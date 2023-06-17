@@ -1,7 +1,7 @@
 #!/usr/bin/env perl
-use v5.14;
+use v5.36;
+
 no strict 'refs';
-use warnings;
 
 # Note all sorts of bad things can still be done with this code - like a
 # user might pass in the name of an existing variable, might start a

@@ -1,13 +1,5 @@
 #!/usr/bin/env perl
-
-# https://perlweeklychallenge.org/blog/perl-weekly-challenge-031/
-# Task #2
-# Create a script to demonstrate creating dynamic variable name,
-# assign a value to the variable and finally print the variable.
-# The variable name would be passed as command line argument.
-
-use strict;
-use warnings;
+use v5.36;
 
 my $var_name = 'foo';
 

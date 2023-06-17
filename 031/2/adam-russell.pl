@@ -1,9 +1,8 @@
 #!/usr/bin/env perl
-##
-# Create a script to demonstrate creating dynamic variable 
-# name, assign a value to the variable and finally print 
-# the variable. The variable name would be passed as command 
-# line argument.
+#use v5.36;
+
+no strict 'refs';
+use warnings;
 
 $variable_name ='foo';
 $variable = $variable_name;

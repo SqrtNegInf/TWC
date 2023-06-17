@@ -1,11 +1,8 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
+use v5.36;
 
 # Because this is *literally* the point of this code
 no strict 'refs';
-
 
 my $varname = 'foo';
 
