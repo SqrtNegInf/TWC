@@ -1,33 +1,6 @@
 #!/usr/bin/env perl
-#===============================================================================
-#
-#         FILE: ch-1.pl
-#
-#        USAGE: ./ch-1.pl  
-#
-#  DESCRIPTION: https://perlweeklychallenge.org/blog/perl-weekly-challenge-030/
-#
-#  Write a script to list dates for Sunday Christmas between 2019 and 2100. For example, 25 Dec 2022 is Sunday.
-#
-#      OPTIONS: ---
-# REQUIREMENTS: ---
-#         BUGS: ---
-#        NOTES: ---
-#       AUTHOR: Lubos Kolouch 
-# ORGANIZATION: 
-#      VERSION: 1.0
-#      CREATED: 20.10.2019
-#     REVISION: ---
-#===============================================================================
+use v5.36;
 
-
-# This script has a problem - Christmas is celebrated on different days in
-# different countries. For example in CZ the main day is 24.12. in the evening
-# and there are public holidays 24-25-26. But let's stick to 25...
-
-use strict;
-use warnings;
-use feature qw/say/;
 use DateTime;
 
 sub is_sunday_date {

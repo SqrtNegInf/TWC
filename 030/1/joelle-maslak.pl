@@ -1,9 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-
-use v5.22;
+use v5.36;
 
 use POSIX qw(mktime strftime);
 

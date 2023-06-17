@@ -1,4 +1,5 @@
 #!/usr/bin/env perl
+use v5.36;
 #
 #        sunday_xmas.pl
 #
@@ -42,15 +43,7 @@
 ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ##
 
 use Date::Manip::Date;
-
-
-use warnings;
-use strict;
-use feature ":5.26";
-
 use POSIX qw( floor );                ## to translate Gauss as exactly as possible
-
-## ## ## ## ## MAIN
 
 my %decode  =  (0 => 'Sunday',
                 1 => 'Monday',
@@ -83,7 +76,7 @@ for my $year ( 2019..2100 ) {
 
 sub date_manip {
     my ($year, $month, $day) = @_;
-    my $date = new Date::Manip::Date;
+    my $date = Date::Manip::Date->new;
     $date->parse("$year/$month/$day");
     return ($date->printf("%w")) % 7;
 }

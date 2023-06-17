@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-use 5.012;
-use warnings;
+use v5.36;
 
 use Time::Piece;
 

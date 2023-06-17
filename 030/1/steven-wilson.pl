@@ -1,15 +1,6 @@
 #!/usr/bin/env perl
-# Author: Steven Wilson
-# Date: 2019-10-14
-# Week: 030
+use v5.36;
 
-# Task #1
-# Write a script to list dates for Sunday Christmas between 2019 and
-# 2100. For example, 25 Dec 2022 is Sunday.
-
-use strict;
-use warnings;
-use feature qw/ say /;
 use DateTime;
 
 my $start_year = 2019;

@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use v5.10;
+use v5.36;
 
 my %dweeks = ( Sunday => 1, Monday => 2, Tuesday => 3, Wednesday => 4, 
                 Thursday => 5, Friday => 6, Saturday => 7 );

@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-use 5.010;
+use v5.36;
 
 my $week_day = 2;
 for (2019 .. 2099) {

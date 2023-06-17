@@ -1,9 +1,6 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-##
-# Write a script to list dates for Sunday Christmas between 2019 and 2100.
-## 
+use v5.36;
+
 sub day_of_week{
     my($year, $month, $day) = @_;
     my @month_value = (0, 3, 2, 5, 0, 3, 5, 1, 4, 6, 2, 4); 

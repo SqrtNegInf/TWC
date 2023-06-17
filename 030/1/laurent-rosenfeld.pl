@@ -1,7 +1,6 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use feature qw/say/;
+use v5.36;
+
 use Time::Local;
 
 say "Years during which Christmas falls on a Sunday:";
