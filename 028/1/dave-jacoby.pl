@@ -1,16 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-use utf8;
-use feature qw{ postderef say signatures state switch };
-no warnings
-    qw{ experimental::postderef experimental::smartmatch experimental::signatures };
-
-# Write a script to check the file content without explicitly
-# reading the content. It should accept file name with path as
-# command line argument and print "The file content is binary."
-# or else "The file content is ascii." accordingly.
+use v5.36;
 
 use Cwd 'abs_path';
 

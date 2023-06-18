@@ -1,28 +1,5 @@
 #!/usr/bin/env perl
-#===============================================================================
-#
-#         FILE: ch-1.pl
-#
-#        USAGE: ./ch-1.pl  
-#
-#  DESCRIPTION: https://perlweeklychallenge.org/blog/perl-weekly-challenge-028/
-#
-#  Write a script to check the file content without explicitly reading the content. It should accept file name with path as command line argument and print “The file content is binary.” or else “The file content is ascii.” accordingly.
-#
-#      OPTIONS: ---
-# REQUIREMENTS: ---
-#         BUGS: ---
-#        NOTES: ---
-#       AUTHOR: Lubos Kolouch 
-# ORGANIZATION: 
-#      VERSION: 1.0
-#      CREATED: 09/30/2019 01:20:02 PM
-#     REVISION: ---
-#===============================================================================
-
-use strict;
-use warnings;
-use feature qw/say/;
+use v5.36;
 
 sub get_file_status {
     my $file = shift;

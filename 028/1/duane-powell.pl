@@ -1,9 +1,5 @@
 #!/usr/bin/env perl
-use Modern::Perl;
-
-# Write a script to check the file content without explicitly reading the content. 
-# It should accept file name with path as command line argument and print 
-# "The file content is binary." or else "The file content is ascii." accordingly.
+use v5.36;
 
 my $file = $0;
 if ($file) {

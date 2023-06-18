@@ -1,13 +1,5 @@
 #!/usr/bin/env perl
-
-# https://perlweeklychallenge.org/blog/perl-weekly-challenge-028/
-# Task #1
-# Write a script to check the file content without actually reading the content.
-# It should accept file name with path as command line argument and
-# print "The file content is binary." or else "The file content is ascii." accordingly.
-
-use strict;
-use warnings;
+use v5.36;
 
 my $file = $0;
 die "'$file' is not a file" unless (-f $file );

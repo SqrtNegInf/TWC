@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-
-use Modern::Perl;
+use v5.36;
 
 open(my $fh, '<', $0) or die "cannot open file for read\n";
 my $buf;

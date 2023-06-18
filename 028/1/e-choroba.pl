@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-use warnings;
-use strict;
-use feature qw{ say };
+use v5.36;
 
 say 'The file content is ', (-T $0) ? 'ascii' : 'binary', '.';
 
