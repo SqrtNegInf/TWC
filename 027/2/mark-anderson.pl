@@ -1,4 +1,5 @@
 #!/usr/bin/env perl
+#v5.36  # leave as-is
 
 package XHistory;
 require Tie::Scalar;

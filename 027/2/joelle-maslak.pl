@@ -1,14 +1,5 @@
 #!/usr/bin/env perl
-use v5.22;
-use strict;
-use warnings;
-
-# Turn on method signatures
-use feature 'signatures';
-no warnings 'experimental::signatures';
-
-# Limitation - this only tracks the scalar container, not changes to
-# nested objects.
+use v5.36;
 
 package History {
     use Moose;

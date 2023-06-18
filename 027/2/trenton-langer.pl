@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-no warnings;
+use v5.36;
 
 tie my $x, 'HistoricalScalar';
 $x = 10;

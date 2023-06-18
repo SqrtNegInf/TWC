@@ -1,39 +1,12 @@
 #!/usr/bin/env perl
-#
-# Challenge 2: "Write a script that allows you to capture/display historical
-# data. It could be an object or a scalar. For example
-# 
-#         my $x = 10; $x = 20; $x -= 5;
-#
-# After the above operations, it should list $x historical value in order."
-# 
-# My notes: The idea is easy, but we're not told the API to implement.  I'm
-# certainly not going to introspect into Perl to find out whenever a scalar
-# variable is assigned to!  I have chosen to implement this for numeric
-# variables, using an input sequence of VARNAME OP VALUE triples (where OP='=',
-# '+=', '-=', '*=', '/=' or '%='), and track the historic value of each
-# variable over time.
-#
-# So let's try to do that, using __DATA__ (at the end of this file) for the
-# default sequence, or the contents of a named input file if given.
-#
-# Let's also graph the time-series results via Gnuplot as I seem to be having
-# a Gnuplot kick this week:-)
-#
-
-use v5.10;	# for "say"
-use strict;
-use warnings;
-use Function::Parameters;
-#use Data::Dumper;
-
+use v5.36;
 
 #
 # my $val = combine( $op, $oldval, $newval );
 #	Combine an optional old value $oldval (or undefined)
 #	and a new value $newval, under operation $op ('=',
 #
-fun combine( $op, $oldval, $newval )
+sub combine( $op, $oldval, $newval )
 {
 	return $newval if $op eq "=";
 	return $oldval + $newval if $op eq "+=";
@@ -52,7 +25,7 @@ fun combine( $op, $oldval, $newval )
 #	variables named in that input file, and an array @$input of
 #	all [VARNAME,OP,VALUE] decoded triples.
 #
-fun process( $infh )
+sub process( $infh )
 {
 	my %vars;
 	my @input;
@@ -98,7 +71,7 @@ foreach my $var (keys %$varset)
 #	(where OP='=', '+=', '-=', '*=', '/=' or '%='),
 #	and update %currv and %track..
 #
-fun update( $triple )
+sub update( $triple )
 {
 	my( $var, $op, $value ) = @$triple;
 	$currv{$var} = combine( $op, $currv{$var}, $value );
@@ -139,7 +112,7 @@ foreach my $var (sort keys %track)
 #	and the command file will continue instuctions to plot
 #	each column as a separate named variable.
 #
-fun prepare_gnuplot()
+sub prepare_gnuplot()
 {
 	# prepare the data file..
 	open( my $outfh, '>', '2.dat' ) || die;
