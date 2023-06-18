@@ -1,17 +1,7 @@
 #!/usr/bin/env perl
-use warnings;
-use strict;
-use List::Util qw/any none/;
+use v5.36;
 
-# Fun Tests:
-# perl ch-1.pl "Perl {Daily,Weekly,Monthly,Yearly} Challenge" # 4
-# perl ch-1.pl "{The,A} Perl {Daily,Weekly,Monthly,Yearly} Challenge" # 8
-# perl ch-1.pl "{The ,A ,}Perl {Daily,Weekly,Monthly,Yearly} Challenge" # 12
-# perl ch-1.pl "{The ,A ,}Perl {,Daily ,Weekly ,Monthly ,Yearly }Challenge" # 15
-# perl ch-1.pl "{The ,A ,}Perl {,Daily ,Weekly ,Monthly ,Yearly }Challenge {1,2,3}" # 45
-# perl ch-1.pl "Your blood type is: {A{A,B,0},B{A,B,0},0{A,B,0}} \o/"
-# perl ch-1.pl "P{erl {5,6},ython} Challenge"
-# perl ch-1.pl "{0{,0{,0{,0{,0,1}}}}}"
+use List::Util qw/any none/;
 
 my @input = 'Perl {Daily,Weekly,Monthly,Yearly} Challenge';
 my $i = 0;

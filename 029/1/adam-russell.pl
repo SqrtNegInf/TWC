@@ -1,9 +1,6 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-##
-# Write a script to demonstrate brace expansion.
-##
+use v5.36;
+
 my $statement = 'Perl {Daily,Weekly,Monthly,Yearly} Challenge';
 $statement =~ m/(.*)\{(.*)\}(.*)/;
 for my $brace (split(/,/, $2)){

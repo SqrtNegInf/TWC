@@ -1,22 +1,5 @@
 #!/usr/bin/env perl
-use v5.22;
-use strict;
-use warnings;
-
-# This handles the following:
-#
-#   a{1,2}
-#   a{1,2{3,4}}{5,6}b
-# 
-# And similar versions.  So, yes, you can nest and have multiple
-# curlies. Note there is no way to "quote" commas or curlies at this
-# time, but they would be reasonably straightforward to add.  I have to
-# admit Parse:RecDescent is awesome just as Perl 6 grammars are.
-#
-
-# Turn on method signatures
-use feature 'signatures';
-no warnings 'experimental::signatures';
+use v5.36;
 
 use List::Util qw(uniqstr);
 use Parse::RecDescent 1.511;

@@ -1,5 +1,6 @@
 #!/usr/bin/env perl
-use Modern::Perl;
+use v5.36;
+
 use Text::Glob::Expand;
 
 my $glob = Text::Glob::Expand->parse('Perl {Daily,Weekly,Monthly,Yearly} Challenge');

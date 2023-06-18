@@ -1,27 +1,7 @@
 #!/usr/bin/env perl
-#
-# Challenge 1: "Write a script to demonstrate brace expansion. For example,
-# script would take command line argument Perl {Daily,Weekly,Monthly,Yearly}
-# Challenge and should expand it and print like below:
-# 
-#   Perl Daily Challenge
-#   Perl Weekly Challenge
-#   Perl Monthly Challenge
-#   Perl Yearly Challenge
-# 
-# My notes: Nested braces may be slightly tricky, first I tried a recursive
-# function to find and expand the innermost {}, but that produced the
-# right output in a weird order, with duplicates.
-# Instead, try a state machine to track the locations of the outer level
-# elements {,}.  Extract $before, $after and an array of alternatives @alt,
-# then recombine them, until there are no { left.
-# 
+use v5.36;
 
-use v5.10;	# to get "say"
-use strict;
-use warnings;
 use Function::Parameters;
-#use Data::Dumper;
 
 my $string = 'Perl {Daily,Weekly,Monthly,Yearly} Challenge';
 
@@ -35,7 +15,7 @@ say for @strings;
 # my @strings = expand_braces( $string );
 #	Expand brace pairs in $string, giving an array of strings.
 #
-fun expand_braces( $string )
+sub expand_braces( $string )
 {
 	my @pos = find_outermost_posns( $string );
 	#say Dumper \@pos;
@@ -57,7 +37,7 @@ fun expand_braces( $string )
 #	Extract the before part of $string, and the after
 #	part, and the array of altneratives.
 #
-fun extract_pieces( $string, @pos )
+sub extract_pieces( $string, @pos )
 {
 	my( $p, $c ) = @{shift @pos};
 	die "extrace_pieces: first pos $p, char $c not {\n" unless $c eq '{';
@@ -103,7 +83,7 @@ fun extract_pieces( $string, @pos )
 #	s2: N++ when '{'
 #	    N--; enter s1 if N==0 when '}'
 # 
-fun find_outermost_posns( $string )
+sub find_outermost_posns( $string )
 {
 	my @result;
 	my $state = 0;

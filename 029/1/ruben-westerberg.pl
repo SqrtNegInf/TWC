@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-use warnings;
-use strict;
-use v5.26;
+use v5.36;
 
 $_='Perl {Daily,Weekly,Monthly,Yearly} Challenge';
 

@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
+use v5.36;
 
 foreach my $text ('Perl {Daily,Weekly,Monthly,Yearly} Challenge') {
   my %r;

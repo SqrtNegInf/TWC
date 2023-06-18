@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-
-use 5.028;
-use strict;
-use warnings;
+use v5.36;
 
 my $input = 'Perl {Daily,Weekly,Monthly,Yearly} Challenge';
 

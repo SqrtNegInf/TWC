@@ -1,13 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-use feature 'say';
-
-#Note(s):
-#   - The script needs exactly one string enclosed with ""
-#   - Unmatched braces will not be expanded
-#   - The words will be printed in order that they appear inside the {}
+use v5.36;
 
 #Remove empty braces before processing using substitution
 #    The /r returns the result without modifying the $ARGV[0] variable
@@ -40,47 +32,3 @@ sub expand {
         say $string;
     }
 }
-=begin
-perl ch-1.pl "Perl {Daily,Weekly,Monthly,Yearly} Challenge"
-Perl Daily Challenge
-Perl Weekly Challenge
-Perl Monthly Challenge
-Perl Yearly Challenge
-
-perl ch-1.pl "{The,A} quick {brown,gray} fox jumps over the lazy {dog,cow}"
-The quick brown fox jumps over the lazy dog
-The quick brown fox jumps over the lazy cow
-The quick gray fox jumps over the lazy dog
-The quick gray fox jumps over the lazy cow
-A quick brown fox jumps over the lazy dog
-A quick brown fox jumps over the lazy cow
-A quick gray fox jumps over the lazy dog
-A quick gray fox jumps over the lazy cow
-
---------------------------
-#Some edge/tricky cases
---------------------------
-#No brace
-perl ch-1.pl "Perl Challenge"
-Perl Challenge
-
-#Nested braces
-perl ch-1.pl "Perl {{Daily,Weekly},Monthly,Yearly} Challenge"
-Perl Daily Challenge
-Perl Monthly Challenge
-Perl Yearly Challenge
-Perl Weekly Challenge
-Perl Monthly Challenge
-Perl Yearly Challenge
-
-#Unmatched brace
-perl ch-1.pl "Perl {daily,monthly Challenge"
-Perl {daily,monthly Challenge
-perl ch-1.pl "Perl daily,monthly} Challenge"
-Perl daily,monthly} Challenge
-
-#Empty braces
-perl .\ch-1.pl "Perl {}Weekly{} Challenges"
-Perl Weekly Challenges
-=cut
-

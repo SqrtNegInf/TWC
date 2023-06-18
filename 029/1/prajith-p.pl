@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-
-use feature qw<say>;
+use v5.36;
 
 my $arg = 'Perl {Daily,Weekly,Monthly,Yearly} Challenge';
 
