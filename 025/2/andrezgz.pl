@@ -1,22 +1,10 @@
 #!/usr/bin/env perl
-
-# https://perlweeklychallenge.org/blog/perl-weekly-challenge-025/
-# Task #2
-# Create script to implement Chaocipher. Please checkout wiki page for more information.
-# https://en.wikipedia.org/wiki/Chaocipher
-
-use strict;
-use warnings;
+use v5.36;
 
 my $plain = shift || 'WELLDONEISBETTERTHANWELLSAID';
 
 print "Ciphered text: ".encipher($plain).$/;
 print "Deciphered text: ".decipher(encipher($plain)).$/;
-
-# OUTPUT
-# $ ./ch-2.pl
-# Ciphered text: OAHQHCNYNXTSZJRRHJBYHQKSOUJY
-# Deciphered text: WELLDONEISBETTERTHANWELLSAID
 
 sub encipher {
     return chao($_[0],0);

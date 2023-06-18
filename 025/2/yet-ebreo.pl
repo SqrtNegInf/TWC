@@ -1,11 +1,5 @@
 #!/usr/bin/env perl
-# Create script to implement Chaocipher. Please checkout wiki page for more information
-# Visualizing it using rotating disk is a bit difficult, here's a video illustration of the algo
-# https://www.youtube.com/watch?v=0tL9A69olRc , that helped me understand it
-
-use strict;
-use warnings;
-use 5.010;
+use v5.36;
 
 my $encrypt     = 1;
 my $text_string = 'WOOPDEDOO';

@@ -1,9 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-##
-# Create script to implement Chaocipher.
-##
+use v5.36;
 
 srand 1;
 
@@ -23,7 +19,7 @@ sub split_deck{
         } 
         $card = $deck->deal_one();
     }
-    return(new Deck(\@red), new Deck(\@black)); 
+    return(Deck->new(\@red), Deck->new(\@black)); 
 }
 
 sub encrypt_letter{
@@ -68,7 +64,7 @@ sub decrypt_letter{
 MAIN:{
     my $message = <DATA>; 
     chomp($message); 
-    my $deck = new Deck();
+    my $deck = Deck->new;
     $deck->shuffle(); 
     my ($left, $right) = split_deck($deck); 
     my @letters = split(//, $message);

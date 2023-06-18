@@ -1,9 +1,5 @@
 #!/usr/bin/env perl
-use Modern::Perl;
-
-# Create script to implement Chaocipher.
-# http://www.chaocipher.com/ActualChaocipher/Chaocipher-Revealed-Algorithm.pdf
-# I remained true to "The Algorithm Revealed" as described in the above .pdf
+use v5.36;
 
 my $p_msg   = "WELLDONEISBETTERTHANWELLSAID";
 my $c_msg   = "OAHQHCNYNXTSZJRRHJBYHQKSOUJY";

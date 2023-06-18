@@ -1,13 +1,6 @@
 #!/usr/bin/env perl
-use v5.26;
-use strict;
-use warnings;
+use v5.36;
 
-# Turn on method signatures
-use feature 'signatures';
-no warnings 'experimental::signatures';
-
-use autodie;
 use Getopt::Long;
 
 MAIN: {
