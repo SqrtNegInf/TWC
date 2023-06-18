@@ -1,28 +1,16 @@
 #!/usr/local/bin/perl
-#
-# Challenge 2: "Write a script to demonstrate calling a C function. It
-# could be any user defined or standard C function."
-# 
-# My notes: Hmm, either XS or Inline::C.  I've never used either:-)
-# Wrote simple sqrt routine (algorithm: squaring the rectangle) in C,
-# wrote the same in Perl, then used Benchmark to benchmark both versions.
-#
-
-use v5.10;	# for "say"
-use strict;
-use warnings;
+use v5.36;
 
 no lib '/usr/local/lib/perl5/site_perl/5.32.1';
 no lib '/usr/local/lib/perl5/site_perl/5.32.0';
 
 #use Data::Dumper;
-use Function::Parameters;
 use Benchmark qw(:all);
 
 use Inline 'C';
 
 
-fun perl_sqrt( $x )
+sub perl_sqrt( $x )
 {
   my $EPSILON = 0.00001;
   my $w=1.0;

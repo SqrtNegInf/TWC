@@ -1,8 +1,5 @@
 #!/usr/local/bin/perl
-
-use 5.028;
-use strict;
-use warnings;
+use v5.36;
 
 use FFI::Platypus;
 

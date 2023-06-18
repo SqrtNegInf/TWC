@@ -1,6 +1,5 @@
 #!/usr/local/bin/perl
-use warnings;
-use strict;
+use v5.36;
 
 no lib '/usr/local/lib/perl5/site_perl/5.32.1';
 no lib '/usr/local/lib/perl5/site_perl/5.32.0';
