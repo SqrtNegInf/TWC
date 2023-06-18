@@ -1,15 +1,5 @@
 #!/usr/bin/env perl
-
-# https://perlweeklychallenge.org/blog/perl-weekly-challenge-027/
-# Task #1
-# Write a script to find the intersection of two straight lines.
-# The co-ordinates of the two lines should be provided as command line parameter. For example:
-# The two ends of Line 1 are represented as co-ordinates (a,b) and (c,d).
-# The two ends of Line 2 are represented as co-ordinates (p,q) and (r,s).
-# The script should print the co-ordinates of point of  intersection of the above two lines.
-
-use strict;
-use warnings;
+use v5.36;
 
 my @foo = ('1,1', '5,1', '2,0', '2,6');
 

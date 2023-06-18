@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-use warnings;
-use strict;
+use v5.36;
 
 sub line {
     my ($x1, $y1, $x2, $y2) = @_;
