@@ -1,7 +1,6 @@
 #!/usr/bin/env perl
-#
-use strict;
-use warnings;
+use v5.36;
+
 use List::Util qw<all none any>;
 
 my @pokemon = <audino bagon baltoy banette bidoof braviary bronzor carracosta charmeleon cresselia croagunk darmanitan deino emboar emolga exeggcute gabite girafarig>;

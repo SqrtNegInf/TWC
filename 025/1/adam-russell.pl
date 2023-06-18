@@ -1,15 +1,12 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-##
-# Generate a longest sequence of "English Pokemon" names.
-##
+use v5.36;
+
 use Graph;
 
 sub build_pokegraph{ 
     my @pokemon;
     my %first_letter_name; 
-    my $graph = new Graph(); 
+    my $graph = Graph->new; 
     while(my $pokemon = <DATA>){
         $pokemon = lc($pokemon);
         chomp($pokemon);

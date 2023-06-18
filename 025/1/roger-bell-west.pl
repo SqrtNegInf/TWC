@@ -1,11 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-
-# "Generate a longest sequence of the following English Pokeman names where each name starts with the last letter of previous name."
-# I assume without reuse of a name, otherwise it's trivially (exeggcute) × ∞
-# and for simplicity I keep only the first longest sequence, not all of them
+use v5.36;
 
 use Storable qw(dclone);
 

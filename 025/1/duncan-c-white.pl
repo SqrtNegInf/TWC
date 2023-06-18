@@ -1,10 +1,5 @@
 #!/usr/bin/env perl
-
-use v5.10;	# to get "say"
-use strict;
-use warnings;
-use Function::Parameters;
-use Data::Dumper;
+use v5.36;
 
 my $debug = @ARGV>0;
 
@@ -85,7 +80,7 @@ exit 0;
 #	Delivers the list of all maximal-length sequences, each sequence is
 #	a comma-separated string of word numbers.
 #
-fun findall()
+sub findall()
 {
 	my $currpaths = [];	# list of all paths for sequences of length N
 				# each path entry is now a triple:
@@ -147,7 +142,7 @@ fun findall()
 # my $set = availset( $wno );
 #	Form a set in which all word nos are available, except $wno.
 #
-fun availset( $wno )
+sub availset( $wno )
 {
 	my $set = 1 x scalar(@words);
 	substr( $set, $wno, 1 ) = 0;
@@ -159,7 +154,7 @@ fun availset( $wno )
 # show_paths( @paths );
 #	Show the sequences (as words, not word nos) contained in @paths
 #
-fun show_paths( @paths )
+sub show_paths( @paths )
 {
 	foreach my $p (@paths)
 	{
@@ -173,7 +168,7 @@ fun show_paths( @paths )
 # show_seqs( @seqs );
 #	Show the sequence of word numbers (as words, not word nos)
 #
-fun show_seqs( @seqs )
+sub show_seqs( @seqs )
 {
 	foreach my $s (@seqs)
 	{
