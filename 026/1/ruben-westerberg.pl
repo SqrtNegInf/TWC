@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
+use v5.36;
+
 use List::Util qw(uniqstr);
 
 my ($stones, $jewels)= @ARGV?@ARGV: qw(chancellor chocolate);

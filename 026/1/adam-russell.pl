@@ -1,10 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-##
-# Create a script that accepts two strings, let us call it them "stones" and "jewels".
-# It should print the count of the "alphabet" from "stones" found in "jewels". 
-##
+use v5.36;
 
 sub contains_remove{
     my($c) = @_;  

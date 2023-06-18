@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-use v5.10;
+use v5.36;
 
 my $a = 'chancellor'; my $b = 'chocolate';
 say eval "\$b=~y/$a//";

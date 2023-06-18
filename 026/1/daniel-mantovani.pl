@@ -1,13 +1,5 @@
 #!/usr/bin/env perl
-# Create a script that accepts two strings, let us call it, “stones” and “jewels”.
-# It should print the count of “alphabet” from the string “stones” found in the
-# string “jewels”. For example, if your stones is “chancellor” and “jewels” is
-# “chocolate”, then the script should print “8”. To keep it simple, only A-Z,a-z
-# characters are acceptable. Also make the comparison case sensitive.
-
-use strict;
-use warnings;
-use v5.20;
+use v5.36;
 
 # let's read the two strings from command line
 my ( $stones, $jewels ) = ('chancellor', 'chocolate');

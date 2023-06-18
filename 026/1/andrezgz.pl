@@ -1,17 +1,5 @@
 #!/usr/bin/env perl
-
-# https://perlweeklychallenge.org/blog/perl-weekly-challenge-026/
-# Task #1
-# Create a script that accepts two strings, let us call it,
-# "stones" and "jewels". It should print the count of "alphabet"
-# from the string "stones" found in the string "jewels".
-# For example, if your stones is "chancellor" and "jewels" is "chocolate",
-# then the script should print "8". To keep it simple,
-# only A-Z,a-z characters are acceptable.
-# Also make the comparison case sensitive.
-
-use strict;
-use warnings;
+use v5.36;
 
 my ($w1, $w2) = ('chancellor', 'chocolate');
 

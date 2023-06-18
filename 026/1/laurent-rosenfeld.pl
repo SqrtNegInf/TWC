@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use feature qw/say/;
+use v5.36;
 
 my ($str1, $str2) = ('chancellor', 'chocolate');
 my %letters = map {$_ => 1} grep /[A-Za-z]/, split "", $str1;
