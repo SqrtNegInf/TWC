@@ -1,11 +1,9 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use feature qw/say/;
+use v5.36;
+
 use constant PI => atan2(1, 0) * 2;
 use Test::More;
 plan tests => 9;
-
 
 sub deg2rad { return $_[0] * PI /180; }
 sub rad2deg { return $_[0] * 180 / PI }

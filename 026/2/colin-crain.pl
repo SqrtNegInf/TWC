@@ -1,17 +1,5 @@
 #!/usr/bin/env perl
-#
-#       mean_angles.pl
-#
-#       task: Create a script that prints mean angles of the given list of angles in degrees.
-#
-#       usage: mean_angles.pl angle1 angle2 angle3
-#
-#       2019 colin crain
-## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ##
-
-use warnings;
-use strict;
-use feature ":5.26";
+use v5.36;
 
 use List::Util qw( reduce );
 

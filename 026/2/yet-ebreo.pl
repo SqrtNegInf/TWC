@@ -1,11 +1,5 @@
 #!/usr/bin/env perl
-# Create a script that prints mean angles of the given list of angles in degrees. 
-# Please read wiki(https://en.wikipedia.org/wiki/Mean_of_circular_quantities) page 
-# that explains the formula in details with an example.
-
-use strict;
-use warnings;
-use v5.10;
+use v5.36;
 
 use Math::Trig;
 

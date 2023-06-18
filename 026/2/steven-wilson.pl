@@ -1,19 +1,6 @@
 #!/usr/bin/env perl
-# Author: Steven Wilson
-# Date: 2019-09-16
-# Week: 026
+use v5.36;
 
-# Task #2
-# Create a script that prints mean angles of the given list of angles in
-# degrees. Please read wiki page that explains the formula in details
-# with an example.
-# https://en.wikipedia.org/wiki/Mean_of_circular_quantities
-# usage: perl ch-2.pl 355 5 15
-# output: Mean of the angles 355 5 15 is 5
-
-use strict;
-use warnings;
-use feature qw/ say /;
 use Test::More;
 use List::Util qw/ sum /;
 use Math::Trig;

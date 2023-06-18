@@ -1,17 +1,8 @@
 #!/usr/bin/env perl
+use v5.36;
 
-# https://perlweeklychallenge.org/blog/perl-weekly-challenge-026/
-# Task #2
-# Create a script that prints mean angles of the given list of angles in degrees.
-# Please read wiki page that explains the formula in details with an example.
-# https://en.wikipedia.org/wiki/Mean_of_circular_quantities
-
-use strict;
-use warnings;
 use Math::Trig qw/rad2deg deg2rad/;
 
-#die "Usage: $0 angle-deg [angle-deg..]" if @ARGV < 1;
-#die "Angles should be numbers (in degrees)" if grep { $_ !~ /\d+/ } @ARGV;
 my @angles = map {deg2rad $_} (181,182);
 
 my ($sin_sum,$cos_sum) = (0,0);

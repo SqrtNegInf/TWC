@@ -1,18 +1,6 @@
 #!/usr/bin/env perl
-#
-# Challenge 2: "Create a script that prints mean angles of the given list
-# of angles in degrees. Please read 
-# https://en.wikipedia.org/wiki/Mean_of_circular_quantities
-# that explains the formula in details with an example."
-# 
-# My notes: So, means of circular quantities as applied to angles, in short
-#   meanangle = atan2( average(sin(ai)), average(cos(ai)) )
-# (where ai are the input angles a1..aN).  Ok, that seems trivial.
-# 
+use v5.36;
 
-use v5.10;	# for "say"
-use strict;
-use warnings;
 use Math::Trig;
 
 my @angle = (180,270,360);

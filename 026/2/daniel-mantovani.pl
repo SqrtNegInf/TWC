@@ -1,10 +1,5 @@
 #!/usr/bin/env perl
-# Create a script that prints mean angles of the given list of angles in degrees.
-# Please read wiki page that explains the formula in details with an example.
-
-use strict;
-use warnings;
-use v5.20;
+use v5.36;
 
 # first we define constant pi as twice a 90 degrees angle:
 

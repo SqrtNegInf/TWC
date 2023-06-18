@@ -1,9 +1,6 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-##
-# Create a script that prints mean angles of the given list of angles in degrees.
-##
+use v5.36;
+
 use constant PI => atan2(1,1) * 4; 
 
 sub deg2rad {
