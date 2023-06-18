@@ -1,28 +1,5 @@
 #!/usr/bin/env perl
-#===============================================================================
-#
-#         FILE: ch-2.pl
-#
-#        USAGE: ./ch-2.pl
-#
-#  DESCRIPTION: https://perlweeklychallenge.org/blog/perl-weekly-challenge-030/
-#
-#  Write a script to print all possible series of 3 positive numbers, where in each series at least one of the number is even and sum of the three numbers is always 12. For example, 3,4,5.
-#
-#      OPTIONS: ---
-# REQUIREMENTS: ---
-#         BUGS: ---
-#        NOTES: ---
-#       AUTHOR: Lubos Kolouch
-# ORGANIZATION:
-#      VERSION: 1.0
-#      CREATED: 10/20/2019 10:30:56 AM
-#     REVISION: ---
-#===============================================================================
-
-use strict;
-use warnings;
-use feature qw/say/;
+use v5.36;
 
 sub is_ok_triple {
     my ( $x, $y, $z ) = @_;

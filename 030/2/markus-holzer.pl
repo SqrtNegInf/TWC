@@ -1,5 +1,6 @@
 #!/usr/bin/env perl
-use Modern::Perl;
+use v5.36;
+
 use List::Util qw( sum );
 use Set::Product qw( product );
 use Algorithm::Combinatorics qw( variations_with_repetition );

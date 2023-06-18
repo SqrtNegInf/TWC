@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-use feature qw[say state];
+use v5.36;
 
 use List::Util 'sum';
 

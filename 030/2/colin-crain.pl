@@ -1,4 +1,5 @@
 #!/usr/bin/env perl
+use v5.36;
 #
 #        series_triplets.pl
 #
@@ -71,13 +72,6 @@
 #        2019 colin crain
 ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ##
 
-
-
-use warnings;
-use strict;
-use feature ":5.26";
-
-## ## ## ## ## MAIN
 
 
 ## it's only maximally 13^3 combinations, and we can just look at them all

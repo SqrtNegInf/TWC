@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-use warnings;
-use strict;
-use feature qw{ say };
+use v5.36;
 
 for my $i (1 .. 10) {
     for my $j ($i .. 10) {

@@ -1,18 +1,6 @@
 #!/usr/bin/env perl
-# Author: Steven Wilson
-# Date: 2019-10-14
-# Week: 030
+use v5.36;
 
-# Task #2
-# Write a script to print all possible series of 3 positive numbers,
-# where in each series at least one of the number is even and sum of the
-# three numbers is always 12. For example, 3,4,5.
-
-# Assumptions: 3,4,5 and 4,3,5 are distinct 'series'.
-
-use strict;
-use warnings;
-use feature qw/ say /;
 use List::Util qw/ sum any /;
 
 my %series = ();

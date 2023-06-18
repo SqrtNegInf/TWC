@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use v5.10;
-use Data::Dumper;
+use v5.36;
 
 my $sum = 12;
 my @numbers = ( 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 );

@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
+use v5.36;
 
 # I'll assume 0 is considered unsigned in this case, so it doesn't enter the "positive" category
 # Could've used only 1 "random" array, but it is more clear using two
