@@ -1,10 +1,6 @@
 #!/usr/bin/env perl
-# vi:et:sw=4 ts=4 ft=perl
+use v5.36;
 
-use strict;
-use warnings;
-use utf8;
-use feature qw(say);
 use constant USAGE => qq|USAGE: perl $0 <order> <n1,n2,...,nN>|;
 use Carp;
 

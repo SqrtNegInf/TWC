@@ -1,21 +1,5 @@
 #!/usr/bin/env perl
-#
-#       nth_order_forward_difference.pl
-#
-#       prints nth order forward difference series.
-#
-#       usage - first argument order depth of difference
-#       further arguments represent the series to be evaluated
-#       example: 2 5 9 2 8 1 7  will produce the 2nd order difference on the sequence (5, 9, 2, 8, 1, 7)
-#
-#       2019 colin crain
-## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ##
-
-use warnings;
-use strict;
-use feature ":5.26";
-
-## ## ## ## ## MAIN
+use v5.36;
 
 my ($depth, @series)  = (1, 5, 9, 2, 8, 1, 6);
 

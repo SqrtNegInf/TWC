@@ -1,9 +1,6 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-##
-# Create a script that prints nth order forward difference series.
-##
+use v5.36;
+
 sub forward_difference{
     my($order, $numbers) = @_;
     if(!$order || @{$numbers} == 1){
