@@ -1,4 +1,5 @@
 #!/usr/bin/env raku
+
 sub is-arithmetic ( @ns --> Bool ) {
     @ns.rotor(2 => -1).map({ [-] .list }).Set == 1;
 }
@@ -14,7 +15,6 @@ sub task2 (@ns --> UInt) {
 # Would pass the three tests in the task, by cheating:
 # sub task2(@ns){ 1 + @ns.combinations(2).map({[-] .list}).Bag.values.max }
 
-
 my @tests =
     ( (  9, 4,  7,  2, 10        ), 3 ),
     ( (  3, 6,  9, 12            ), 4 ),
@@ -24,6 +24,7 @@ my @tests =
     ( ( 1, 1, 2, 3, 5, 8, 13, 21 ), 3 ), # Fibonacci
     ( ( 1, 2, 4, 8, 16, 32       ), 2 ), # Geometric
 ;
+
 use Test;
 plan +@tests;
 for @tests -> ( @in, $expected ) {

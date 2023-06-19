@@ -1,5 +1,4 @@
 #!/usr/bin/env raku
-use v6 ;
 
 sub is_arithmetic ( @array ) {
   my $len = @array.elems ;
@@ -48,15 +47,8 @@ sub pad_zeroes( $binstr , $desired_len ) {
   }
   return $padded ;
 }
-#there are as many subsets in the set of integers that were input as
-#given by (2 to the power of length of input) - 1
-#so we create the binary numbers of all integers from 0 to this upper
-#limit that is denoted by the power of 2
-#we can then extract elements of the number array that correspond to
-#the ones in the binary numbers
-say "Enter some integers, separated by blanks!" ;
-my $line = $*IN.get ;
-my @numbers = $line.words.map( {.Int} ) ;
+
+my @numbers = (9, 4, 7, 2, 10);
 if ( is_arithmetic( @numbers ) ) {
   say @numbers.elems ;
 }

@@ -1,6 +1,6 @@
 #!/usr/bin/env raku
-use v6;
-sub MAIN (*@ints) { put arithmetic-subsequence(@ints) }
+
+sub MAIN (@ints = (9, 4, 7, 2, 10) ) { put arithmetic-subsequence(@ints) }
 
 sub arithmetic-subsequence (@ints) {
    my $n-inputs = @ints.elems;

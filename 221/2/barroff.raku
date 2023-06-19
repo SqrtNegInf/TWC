@@ -1,7 +1,5 @@
 #!/usr/bin/env raku
 
-use v6.d;
-
 sub is-arithmetic(@numbers --> Bool) {
     my Int @diffs = map({ @numbers[$_ - 1] - @numbers[$_] }, 1..@numbers.elems - 1);
     return so @diffs[0] == @diffs.all;
@@ -19,7 +17,7 @@ sub arithmetic-subsequence(Int:D @numbers where @numbers.elems ≥ 1 --> Int) {
 }
 
 #| Run test cases
-multi sub MAIN('test') {
+#multi sub MAIN('test') {
     use Test;
     plan 3;
 
@@ -29,12 +27,12 @@ multi sub MAIN('test') {
         4, "works for (3, 6, 9, 12)";
     is arithmetic-subsequence(Array[Int].new(20, 1, 15, 3, 10, 5, 8)),
         4, "works for (20, 1, 15, 3, 10, 5, 8)";
-}
+#}
 
 #| Take user provided list like 1 2 3
-multi sub MAIN(*@numbers where @numbers.elems ≥ 2) {
-    my Int @int-numbers = @numbers;
-    say arithmetic-subsequence(@int-numbers);
-}
+#multi sub MAIN(*@numbers where @numbers.elems ≥ 2) {
+#    my Int @int-numbers = @numbers;
+#    say arithmetic-subsequence(@int-numbers);
+#}
 
 

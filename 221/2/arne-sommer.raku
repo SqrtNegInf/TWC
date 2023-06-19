@@ -1,6 +1,7 @@
 #!/usr/bin/env raku
 
-unit sub MAIN (*@ints where @ints.elems > 1 && all(@ints) ~~ Int, :v(:$verbose));
+#unit sub MAIN (*@ints where @ints.elems > 1 && all(@ints) ~~ Int, :v(:$verbose));
+my @ints = (9, 4, 7, 2, 10);
 
 my $last  = @ints.end;
 my $score = 0;
@@ -34,11 +35,11 @@ for 0 .. $last -1 -> $first
       @seq   = @sub;
       $score = $count;
 
-      say ": New Longest Sequence: ({ @seq.join(",") }) with size $score" if $verbose;
+#     say ": New Longest Sequence: ({ @seq.join(",") }) with size $score" if $verbose;
     }
   }
 }
 
-say ": Sequence: ({@seq.join(",") })" if $verbose;
+#say ": Sequence: ({@seq.join(",") })" if $verbose;
 
 say $score;

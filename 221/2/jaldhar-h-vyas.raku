@@ -1,7 +1,7 @@
 #!/usr/bin/env raku
 
 sub MAIN(
-    *@ints
+    @ints = (9, 4, 7, 2, 10)
 ) {
     my $longest = 0;
 

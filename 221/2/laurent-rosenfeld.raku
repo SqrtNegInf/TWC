@@ -1,4 +1,5 @@
 #!/usr/bin/env raku
+
 sub longest-subseq (@in) {
     my @pairs = @in.combinations: 2;
     my %gaps;
