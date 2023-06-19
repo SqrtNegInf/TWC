@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
+use v5.36;
 
 arithmetic_subsequence(9, 4, 7, 2, 10);
 arithmetic_subsequence(3, 6, 9, 12);

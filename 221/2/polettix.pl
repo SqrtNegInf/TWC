@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-use v5.24;
-use warnings;
-use experimental 'signatures';
+use v5.36;
 
 say arithmetic_subsequence( (9, 4, 7, 2, 10) );
 

@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
+use v5.36;
 
 sub longest_arithmetic_subsequence {
     my @ints = @_;

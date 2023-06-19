@@ -1,9 +1,5 @@
 #!/usr/bin/env perl
-
-use v5.16;
-use utf8;
-use strict;
-use warnings;
+use v5.36;
 
 srand 1;
 
