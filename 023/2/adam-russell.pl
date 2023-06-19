@@ -1,9 +1,6 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-##
-# Create a script that prints Prime Decomposition of a given number. 
-##
+use v5.36;
+
 sub prime_factor{
     my $x = shift(@_); 
     my @factors;    

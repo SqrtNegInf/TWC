@@ -1,20 +1,5 @@
 #!/usr/bin/env perl
-#
-# Challenge 2: "Create a script that prints Prime Decomposition of a
-# given number. The prime decomposition of a number is defined as a list
-# of prime numbers which when all multiplied together, are equal to that
-# number. For example, the Prime decomposition of 228 is 2,2,3,19 as 228 =
-# 2 * 2 * 3 * 19."
-# 
-# My notes: So, prime factors then.  Very easy again.  In fact, haven't I
-# already solved this in one of the other prime-based questions?
-# 
-
-use v5.10;	# for "say"
-use strict;
-use warnings;
-use Function::Parameters;
-#use Data::Dumper;
+use v5.36;
 
 use lib qw(.);	# I hate this!
 use MakePrimes;
@@ -33,7 +18,7 @@ say "prime factors of $n are: ", join(',',@factors);
 #	Return the list of prime factors, smallest first.
 #	eg. factorise( 228 ) = 2,2,3,19
 #
-fun factorise( $n, @primes )
+sub factorise( $n, @primes )
 {
 	die "factorise: n ($n) must be >1\n" if $n<=1;
 	my @result;

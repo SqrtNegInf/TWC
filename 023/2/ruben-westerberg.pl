@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use v5.26;
+use v5.36;
 
 my $i=0;
 my @primes;

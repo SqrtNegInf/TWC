@@ -1,14 +1,5 @@
 #!/usr/bin/env perl
-# Create a script that prints Prime Decomposition of a given number.
-# The prime decomposition of a number is defined as a list of prime
-# numbers which when all multiplied together, are equal to that number.
-# For example, the Prime decomposition of 228 is 2,2,3,19 as 228 = 2 * 2 * 3 * 19.
-
-use strict;
-use warnings;
-use v5.10;
-
-# we will read the number from command line, like:
+use v5.36;
 
 my $number = 11111;
 

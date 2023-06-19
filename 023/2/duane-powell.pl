@@ -1,7 +1,8 @@
 #!/usr/bin/env perl
-use Modern::Perl;
+use v5.36;
+
 use Math::Prime::Util qw(is_prime);
-use bigint;
+#use bigint;
 
 # Create a script that prints Prime Decomposition of a given number. 
 # The prime decomposition of a number is defined as a list of prime 
@@ -10,7 +11,6 @@ use bigint;
 
 my @num = (228,864,1008,1024,130321,823543);
 prime_fact($_) foreach (@num);
-exit;
 
 sub prime_fact {
 	my $p = shift;

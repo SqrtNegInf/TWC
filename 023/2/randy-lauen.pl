@@ -1,18 +1,12 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-use feature 'say';
+use v5.36;
 
 my $num = 11111;
-die "Must pass an integer > 0 as the first argument\n" unless $num && $num =~ /^\d+$/;
 
 say $num == 1
     ? "No prime factors for 1"
     : join(', ', prime_factors( $num ) )
 ;
-
-exit 0;
 
 sub prime_factors {
     my $n = shift;
