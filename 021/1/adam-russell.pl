@@ -1,9 +1,6 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-##
-# Write a script to calculate the value of e. 
-## 
+use v5.36;
+
 sub e_calculation{   
     my($n) = @_; 
     my @d; 

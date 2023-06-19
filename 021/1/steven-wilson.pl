@@ -1,18 +1,6 @@
 #!/usr/bin/env perl
-# Author: Steven Wilson
-# Date: 2019-08-12
-# Week: 021
-#
-# Task #1
-#
-# Write a script to calculate the value of e, also known as Euler’s
-# number and Napier’s constant. Please checkout wiki page for more
-# information.
-# https://en.wikipedia.org/wiki/E_(mathematical_constant)
+use v5.36;
 
-use strict;
-use warnings;
-use feature qw/ say /;
 use Math::BigFloat;
 
 my $number     = 0;

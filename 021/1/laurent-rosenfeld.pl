@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use feature qw /say signatures/;
-no warnings 'experimental::signatures';
+use v5.36;
 
 sub fact ($n) {
     my $fact = 1;

@@ -69,12 +69,6 @@ with a precision of 50 decimal places.
 
 
  
-===> 021/1/duane-powell.pl <===
-2.71828182845904523536028747135266249775724709369995 e constant from wiki
-2.71828182845904523536028747135266249775700000000000 e from perl module bignum
-2.71828182845904523536028747135266249775724709369992 e calculated from 40 factorial
-2.71828182845904523536028747135266249775724709369997 e calculated from brothers, 20 steps
- 
 ===> 021/1/duncan-c-white.pl <===
 e=2.71828182845905
  
@@ -90,9 +84,6 @@ ok 1
  
 ===> 021/1/kian-meng-ang.pl <===
 2.71828046909575
- 
-===> 021/1/lakpatashi.pl <===
-value of e after 100 iteration => 2.71828182845905
  
 ===> 021/1/laurent-rosenfeld.pl <===
 2.71828182845905

@@ -1,12 +1,8 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use strict;
-use warnings;
-use v5.26;
 use bignum (a=>100);
-#use Math::BigRat;
-#compute Euler's number to the nth term
-#
+
 my $degree=$ARGV[0]//10;
 my $i=1;
 my $sum=1;#Math::BigRat->new(1/1);

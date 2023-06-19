@@ -1,11 +1,5 @@
 #!/usr/bin/env perl
-#
-# Write a script to calculate the value of e, also known as Euler’s number and
-# Napier’s constant. Please checkout wiki page for more information.
-################################################################################
-
-use strict;
-use warnings;
+use v5.36;
 
 my $ITERS = 100;  #shift or die "Usage: $0 <iterations>";
 

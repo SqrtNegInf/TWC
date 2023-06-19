@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-use v5.22;
-use strict;
-use warnings;
-
+use v5.36;
 
 use Math::BigRat;
 

@@ -1,12 +1,5 @@
 #!/usr/bin/env perl
-
-# Challenge 021
-#
-# Task #1
-# Write a script to calculate the value of e, also known as Euler's number and
-# Napier's constant. Please checkout wiki page for more information.
-
-use Modern::Perl;
+use v5.36;
 
 sub calc_e {
     my $e = 1;
