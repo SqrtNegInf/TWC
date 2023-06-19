@@ -1,6 +1,7 @@
 #!/usr/bin/env raku
 
-unit sub MAIN ($chars, *@words where @words.elems > 0, :s(:$single-use), :v(:$verbose));
+#unit sub MAIN ($chars, *@words where @words.elems > 0, :s(:$single-use), :v(:$verbose));
+my @words = ("cat", "bt", "hat", "tree");  my $chars="atach";
 
 my $chars-bag = $chars.comb.Bag;
 my @matches;
@@ -12,17 +13,17 @@ for @words -> $word
   if $word-bag (<=) $chars-bag
   {
     @matches.push: $word;
-    $chars-bag (-)= $word-bag if $single-use;
+    #$chars-bag (-)= $word-bag if $single-use;
 
-    say ": Good word: $word" if $verbose && !$single-use;
-    say ": Good word: $word (chars left: { $chars-bag.raku })" if $verbose && $single-use;
+    #say ": Good word: $word" if $verbose && !$single-use;
+    #say ": Good word: $word (chars left: { $chars-bag.raku })" if $verbose && $single-use;
   }
-  elsif $verbose
-  {
-    say ": Non-good word: $word";
-  }
+  #elsif $verbose
+  #{
+  #  say ": Non-good word: $word";
+  #}
 }
 
-say ": Matches: @matches[]" if $verbose;
+#say ": Matches: @matches[]" if $verbose;
 
 say @matches>>.chars.sum;

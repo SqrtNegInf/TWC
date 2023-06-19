@@ -1,16 +1,12 @@
 #!/usr/bin/env raku
 
-#|( Given a string of the avaliable letters and a series of
-words print the total length of all the words that can be
-made from the letters only
-)
-multi sub MAIN( $valid-letters, #= All the available letters as a string
-                *@words #= The words list
-              ) {
-    say [+] valid-strings( $valid-letters, |@words ).map( *.comb.elems );
-}
+#multi sub MAIN( $valid-letters, #= All the available letters as a string
+#                *@words #= The words list
+#              ) {
+#    say [+] valid-strings( $valid-letters, |@words ).map( *.comb.elems );
+#}
 
-multi sub MAIN('TEST') is hidden-from-USAGE {
+#multi sub MAIN('TEST') is hidden-from-USAGE {
     use Test;
     is valid-string('atach','cat'), True;
     is valid-string('atach','bt'), False;
@@ -21,7 +17,7 @@ multi sub MAIN('TEST') is hidden-from-USAGE {
     
 
     done-testing;
-}
+#}
 
 sub valid-string( $valid, $string ) {
     my $bh = $valid.comb.BagHash;

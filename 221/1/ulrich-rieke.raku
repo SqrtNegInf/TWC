@@ -1,5 +1,4 @@
 #!/usr/bin/env raku
-use v6 ;
 
 sub lettercount( $word ) {
   my %wordHash ;
@@ -20,11 +19,8 @@ sub condition( $aWord, %compCount ) {
   return True ;
 }
 
-say "Enter some words, separated by blanks!" ;
-my $line = $*IN.get ;
-my @words = $line.words ;
-say "Enter a word to take the letters from!" ;
-my $comparator = $*IN.get ;
+my @words = ("cat", "bt", "hat", "tree");
+my $comparator = "atach";
 my %compHash ;
 for $comparator.comb -> $letter {
   %compHash{$letter}++ ;

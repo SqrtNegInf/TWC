@@ -1,11 +1,4 @@
 #!/usr/bin/env raku
-=begin comment
--------------------------------------
-AUTHOR: Robert DiCicco
-DATE  : 2023-06-12
-Challenge 221 Task 1 Good Strings ( Raku )
--------------------------------------
-=end comment
 
 my $total_score = 0;
 
@@ -37,22 +30,3 @@ for (@words) -> @word {
      say "";
      $cnt++;
 }
-
-=begin comment
--------------------------------------
-SAMPLE OUTPUT
-raku .\GoodStrings.rk
-
-Input: @words = [cat bt hat tree]
-cat
-hat
-        Total: 6
-
-Input: @words = [hello world challenge]
-hello
-world
-        Total: 10
--------------------------------------
-=end comment
-
-

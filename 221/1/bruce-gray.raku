@@ -1,4 +1,5 @@
 #!/usr/bin/env raku
+
 sub task1 ( @words, $chars --> UInt ) {
     my Bag $b = $chars.lc.comb.Bag;
 
@@ -10,6 +11,7 @@ my @tests =
     ( <cat bt hat tree>       , 'atach'          ,  6 ),
     ( <hello world challenge> , 'welldonehopper' , 10 ),
 ;
+
 use Test;
 plan +@tests;
 for @tests -> ( @in_words, $in_chars, $expected ) {

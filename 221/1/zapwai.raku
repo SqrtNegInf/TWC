@@ -1,4 +1,5 @@
 #!/usr/bin/env raku
+
 my @words2 = ("hello", "world", "challenge");
 my $chars2 = "welldonehopper";
 my @words1 = ("cat", "bt", "hat", "tree");
