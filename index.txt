@@ -463,8 +463,8 @@ Challenge titles and Rosetta-code correspondences (exact, and otherwise)
 220-2 Squareful
 221-1 Good Strings
 221-2 Arithmetic Subsequence
-222-1
-222-2
+222-1 Matching Members
+222-2 Last Member
 223-1
 223-2
 224-1
