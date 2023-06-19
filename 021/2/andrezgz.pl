@@ -1,15 +1,5 @@
 #!/usr/bin/env perl
-
-# https://perlweeklychallenge.org/blog/perl-weekly-challenge-021/
-# Task #2
-# Write a script for URL normalization based on rfc3986. This task was shared by Anonymous Contributor.
-# https://en.wikipedia.org/wiki/URL_normalization
-# According to Wikipedia, URL normalization is the process by which URLs are modified and standardized
-# in a consistent manner. The goal of the normalization process is to transform a URL into a normalized URL
-# so it is possible to determine if two syntactically different URLs may be equivalent.
-
-use strict;
-use warnings;
+use v5.36;
 
 my $url_in = $ARGV[0]
   || 'HTTPS://www.Example.com:443/a%c2%b1b/%7Eandrezgz/bar.html?pi=3%2e14#hi%2Dthere';

@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-
-use Modern::Perl;
+use v5.36;
 
 sub decode_triplets {
     my($hex) = @_;

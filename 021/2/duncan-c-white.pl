@@ -1,26 +1,5 @@
 #!/usr/bin/env perl
-#
-# Challenge 2: "Write a script for URL normalization based on rfc3986.
-#
-# According to Wikipedia, URL normalization is the process by which URLs
-# are modified and standardized in a consistent manner. The goal of the
-# normalization process is to transform a URL into a normalized URL so
-# it is possible to determine if two syntactically different URLs may
-# be equivalent.
-# 
-# My notes: The RFC link points to a long list of regex-syle changes,
-# not all of which have to be implemented.  Easy to implement most.
-# Later thought: many of the changes only apply to parts of the URL,
-# so I'll reuse part of my solution to challenge 017, part 2.. url splitting
-#
-# ./ch-2.pl HTTP://ed@mit.edu:800/../%7e%64%75%6e%63%61%6e/%5d%20%ff/a/../../b/../c/../default.asp
-# normalized url is http://ed@mit.edu:800/~duncan/
-# 
-
-use strict;
-use warnings;
-use Function::Parameters;
-#use Data::Dumper;
+use v5.36;
 
 my $url = "HTTP://www.example.com:80/a%C2%B1b/%7Eusername";
 
@@ -43,7 +22,7 @@ print "normalized url is $url\n";
 #        query:    profile=true
 #        fragment: h1
 #
-fun parse_url( $url )
+sub parse_url( $url )
 {
 	$url =~ s/^([^:]+):// || return ();
 
@@ -69,7 +48,7 @@ fun parse_url( $url )
 #	we were descending a directory tree, and also remove trailing
 #	inde.html and similar entries.
 #
-fun sanitize_path( $path )
+sub sanitize_path( $path )
 {
 	my @x = split( m|/|, $path );
 
@@ -89,7 +68,7 @@ fun sanitize_path( $path )
 		}
 	}
 
-	my $path = '/'. join('/', @p );
+	$path = '/'. join('/', @p );
 
 	# remove trailing index.htm[l]? if present
 	$path =~ s|/index.html?$|/|;
@@ -108,7 +87,7 @@ fun sanitize_path( $path )
 # my $normalizedurl = normalize( $url );
 #	Normalize $url according to RFC3986
 #
-fun normalize( $url )
+sub normalize( $url )
 {
 	# 1. lowercase whole url
 	$url = lc($url);

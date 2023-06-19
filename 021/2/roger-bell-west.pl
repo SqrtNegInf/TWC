@@ -1,7 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use strict;
-use warnings;
 use URI::Escape;
 
 foreach my $url ("HTTP://www.example.com:80/a%C2%B1b/%7Eusername") {

@@ -1,17 +1,5 @@
 #!/usr/bin/env perl
-#
-# Write a script for URL normalization based on rfc3986
-#
-# According to Wikipedia, URL normalization is the process by which URLs are
-# modified and standardized in a consistent manner. The goal of the
-# normalization process is to transform a URL into a normalized URL so it is
-# possible to determine if two syntactically different URLs may be equivalent.
-#
-# (https://en.wikipedia.org/wiki/URL_normalization).
-################################################################################
-
-use strict;
-use warnings;
+use v5.36;
 
 my $url = "HTTP://www.example.com:80/a%C2%B1b/%7Eusername";
 

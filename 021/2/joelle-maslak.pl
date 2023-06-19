@@ -1,13 +1,5 @@
 #!/usr/bin/env perl
-use v5.22;
-use strict;
-use warnings;
-
-# We only do the operations gauranteed to preserve semantics.
-
-# Turn on method signatures
-use feature 'signatures';
-no warnings 'experimental::signatures';
+use v5.36;
 
 use Parse::RecDescent 1.511;
 
