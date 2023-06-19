@@ -16,10 +16,7 @@ sub is_arithmetic {
   return 1 ;
 }
 
-say "Enter some integers, separated by blanks!" ;
-my $line = <STDIN> ;
-chomp $line ;
-my @numbers = split( /\s/ , $line ) ;
+my @numbers = (9, 4, 7, 2, 10);
 my $len = scalar ( @numbers ) ;
 my $iter = subsets( \@numbers ) ;
 my $maxlen = 0 ;

@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-# The Weekly Challenge 221
-# Task 2 Arithmetic Subsequence
-# Brute-force approach, just hope the number of lines is minimalist
+
 use v5.30.0;
 use warnings;
 use List::Util qw/all sum uniqint/;

@@ -1,7 +1,9 @@
 #!/usr/bin/env perl
+
 use warnings;
 use strict;
 use experimental qw( signatures );
+no warnings 'experimental';
 
 srand 1;
 
@@ -63,26 +65,7 @@ is arithmetic_subsequence(9, 4, 7, 2, 10), 3, 'Example 1';
 is arithmetic_subsequence(3, 6, 9, 12), 4, 'Example 2';
 is arithmetic_subsequence(20, 1, 15, 3, 10, 5, 8), 4, 'Example 3';
 
-use Benchmark qw{ cmpthese };
-
 my @l = map int rand 100, 1 .. 200;
 is arithmetic_subsequence_naive(@l),
     arithmetic_subsequence_optimised(@l),
     'same';
-
-cmpthese(-3, {
-    short_naive => sub { arithmetic_subsequence_naive(@l[0..10]) },
-    short_opt   => sub { arithmetic_subsequence_optimised(@l[0..10]) },
-});
-cmpthese(-3, {
-    long_naive => sub { arithmetic_subsequence_naive(@l) },
-    long_opt   => sub { arithmetic_subsequence_optimised(@l) },
-});
-
-__END__
-               Rate   short_opt short_naive
-short_opt   12948/s          --        -49%
-short_naive 25447/s         97%          --
-             Rate long_naive   long_opt
-long_naive 11.2/s         --       -42%
-long_opt   19.5/s        74%         --

@@ -23,7 +23,7 @@ sub combinations {
     return @combos;
 }
 
-my @ints = @ARGV;
+my @ints = (9, 4, 7, 2, 10);
 
 my $longest = 0;
 

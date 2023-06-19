@@ -1,12 +1,5 @@
 #!/usr/bin/env perl
 
-# You are given an array of integers, @ints.  Write a script to find the
-# length of the longest Arithmetic Subsequence in the given array.  A
-# subsequence is an array that can be derived from another array by deleting
-# some or none elements without changing the order of the remaining elements.
-# A subsequence is arithmetic if ints[i + 1] - ints[i] are all the same value
-# (for 0 <= i < ints.length - 1).
-
 use 5.036;
 use utf8;
 

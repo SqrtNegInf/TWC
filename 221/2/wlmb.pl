@@ -1,15 +1,9 @@
 #!/usr/bin/env perl
-# Perl weekly challenge 221
-# Task 2:  Arithmetic Subsequence
-#
-# See https://wlmb.github.io/2023/06/12/PWC221/#task-2-arithmetic-subsequence
 use v5.36;
+
 use List::Util qw(max first);
-die <<~"FIN" unless @ARGV;
-    Usage: $0 N1 [N2...]
-    to find the longest arithmetic subsequence of the integers N1 N2...
-    FIN
-my @set=@ARGV;
+
+my @set=(9, 4, 7, 2, 10);
 # Search longest subsequence, remove leading element and repeat. Keep max.
 say "@set -> ", max map {test(@set[$_..@set-1])} 0..@set-1;
 
