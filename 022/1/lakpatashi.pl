@@ -1,9 +1,10 @@
 #!/usr/bin/env perl
-use POSIX;
-use strict;
-no warnings;
-use List::Util qw( min max sum);
+use v5.36;
 use feature qw(switch);
+no warnings 'experimental';
+
+use POSIX;
+use List::Util qw( min max sum);
 
 my $m = 1000;			# max value for prime list
 my @primes = buildPrimes($m);

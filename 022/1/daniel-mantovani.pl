@@ -1,26 +1,5 @@
 #!/usr/bin/env perl
-# Write a script to print first 10 Sexy Prime Pairs.
-# Sexy primes are prime numbers that differ from each other by 6.
-# For example, the numbers 5 and 11 are both sexy primes, because 11 - 5 = 6.
-# The term “sexy prime” is a pun stemming from the Latin word for six: sex.
-# For more information, please checkout wiki page.
-
-use strict;
-use warnings;
-
-# just reusing comments and code from previous challenges:
-
-# we will need a function to test primality. As this is a
-# challenge and so far not very concerned about performance,
-# I will go for the "regex" primality test.
-# you can find more information at
-# https://iluxonchik.github.io/regular-expression-check-if-number-is-prime/
-# but let just say that to test if some n number is prime, we build a string
-# of n characters (with <char> x n), and let the regex engine try to divide
-# it in more than one equal parts of at least 2 chars. So if
-# we are not successful on that it means it is prime.
-# we use a digit as the char as we don't have to quote it. Any digit will
-# do, so we just pick "7"
+use v5.36;
 
 sub is_prime {
     return ( 7 x shift ) !~ /^(77+)\1+$/;

@@ -1,16 +1,5 @@
 #!/usr/bin/env perl
-#
-# Write a script to print first 10 Sexy Prime Pairs. Sexy primes are prime
-# numbers that differ from each other by 6. For example, the numbers 5 and 11
-# are both sexy primes, because 11 - 5 = 6. The term “sexy prime” is a pun
-# stemming from the Latin word for six: sex. For more information, please
-# checkout wiki page.
-#
-# (https://en.wikipedia.org/wiki/Sexy_prime).
-################################################################################
-
-use strict;
-use warnings;
+use v5.36;
 
 use List::Util qw<any>;
 

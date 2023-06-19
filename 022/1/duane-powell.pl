@@ -1,9 +1,8 @@
 #!/usr/bin/env perl
-use Modern::Perl;
+use v5.36;
+
 use Math::Prime::Util qw(is_prime);
 
-# Write a script to print first 10 Sexy Prime Pairs
-#
 my $limit = shift || 10;
 my $SEXY = 6;
 my $p = 3;

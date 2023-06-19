@@ -1,9 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use v5.26;
-
-#Find the first 10 sexy primes
+use v5.36;
 
 my $i=1;
 my $count=10;

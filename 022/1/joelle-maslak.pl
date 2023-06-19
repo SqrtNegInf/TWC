@@ -1,13 +1,5 @@
 #!/usr/bin/env perl
-use v5.22;
-use strict;
-use warnings;
-
-# Turn on method signatures
-use feature 'signatures';
-no warnings 'experimental::signatures';
-
-use autodie;
+use v5.36;
 
 use Memoize;
 

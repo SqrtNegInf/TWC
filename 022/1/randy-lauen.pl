@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-
-use v5.26;
-use strict;
-use warnings;
+use v5.36;
 
 use Math::Prime::Util qw( prime_iterator is_prime );
 

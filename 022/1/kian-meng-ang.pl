@@ -1,10 +1,6 @@
 #!/usr/bin/env perl
-# vi:et:sw=4 ts=4 ft=perl
+use v5.36;
 
-use strict;
-use warnings;
-use utf8;
-use feature qw(say);
 use constant SEXY_PAIRS => 10;
 use constant SEXY_DIFF => 6;
 use Math::Prime::Util qw(is_prime);
