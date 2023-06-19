@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-use Data::Dumper;
+use v5.36;
 
 good_strings( ["cat", "bt", "hat", "tree"], "atach" );
 good_strings( ["hello", "world", "challenge"], "welldonehopper" );

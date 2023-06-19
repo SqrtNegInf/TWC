@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-use v5.24;
-use warnings;
-use experimental 'signatures';
-
+use v5.36;
 
 my $chars = 'atach'; my @words = <cat bt hat tree>;
    my %available;

@@ -1,12 +1,11 @@
 #!/usr/bin/env perl
-
-use v5.16;
+use v5.36;
 
 use common::sense;
 
 use Test::More;
 
-sub goodStrings ($@) {
+sub goodStrings {
   my ($c,$s) = (shift,0);
 
   my %c; $c{$_}++ for (split //,$c);

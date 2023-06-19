@@ -1,9 +1,10 @@
 #!/usr/bin/env perl
 use v5.36;
-use Algorithm::Combinatorics qw(permutations);
-use builtin qw(true false);
 
+use builtin qw(true false);
 no warnings 'experimental';
+
+use Algorithm::Combinatorics qw(permutations);
 
 goodStrMain("atach",          ["cat", "bt", "hat", "tree"]);
 # The good strings that can be formed are "cat" and "hat" so the answer is 3 + 3 = 6.

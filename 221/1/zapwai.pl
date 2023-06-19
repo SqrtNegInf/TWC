@@ -1,5 +1,6 @@
 #!/usr/bin/env perl
-use v5.30;
+use v5.36;
+
 my @words1 = ("cat", "bt", "hat", "tree");
 my $chars1 = "atach";
 my @words2 = ("hello", "world", "challenge");

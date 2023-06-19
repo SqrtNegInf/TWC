@@ -1,14 +1,12 @@
 #!/usr/bin/env perl
-
-use strict;
-use v5.24;
+use v5.36;
 
 my %chars;
-$chars{$_}++ for (split(//, shift));
+$chars{$_}++ for (split(//, 'atach'));
 
 my $total;
 
-foreach (@ARGV) {
+foreach ( <cat bt hat tree> ) {
     my @currWordChars = split(//, $_);
     my %list = %chars;
     my $notFound;

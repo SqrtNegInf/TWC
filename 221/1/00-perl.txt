@@ -15,7 +15,7 @@ ok 4 - Example 2
 1..4
  
 ===> 221/1/avery-adams.pl <===
-
+6
  
 ===> 221/1/deadmarshal.pl <===
 6
