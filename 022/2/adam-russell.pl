@@ -1,10 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
-use strict;
-use warnings;
-##
-# Write a script to implement Lempel–Ziv–Welch (LZW) compression algorithm.
-##
+
 use constant TABLE_SIZE => 256;
 
 sub initialize_table{

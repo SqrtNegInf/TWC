@@ -1,8 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
-use warnings;
-use strict;
-use 5.018;
+
 use English qw/ -no_match_vars /;
 
 sub init_dict {

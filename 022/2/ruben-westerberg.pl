@@ -1,11 +1,8 @@
 #!/usr/bin/env perl
 use v5.36;
-use strict;
-use warnings;
-use List::Util qw<uniq first>;
-use v5.26;
 
-# implement LZW 
+use List::Util qw<uniq first>;
+
 my @input=split "", $ARGV[0]//"TOBEORNOTTOBEORTOBEORNOT";
 my @decoded;
 my @encoded;

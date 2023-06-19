@@ -1,18 +1,5 @@
 #!/usr/bin/env perl
 use v5.36;
-#
-# Challenge 2: "Write a script to implement Lempel-Ziv-Welch (LZW)
-# compression algorithm. The script should have method to encode/decode
-# algorithm. The wiki page
-# https://en.wikipedia.org/wiki/Lempel%E2%80%93Ziv%E2%80%93Welch
-# explains the compression algorithm very nicely."
-# 
-# My notes: I read the wiki page, perhaps without concentrating enough.
-# Looks complicated, especially the decoding part.  My code is in LZW.pm
-# 
-
-use strict;
-use warnings;
 
 use lib qw(.);	# I hate this!
 use LZW;

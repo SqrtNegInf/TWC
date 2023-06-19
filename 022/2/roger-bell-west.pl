@@ -1,9 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
 
-use strict;
-use warnings;
-
 my $lzw=Local::LZW->new('A'..'Z');
 
 my $bitstr=$lzw->encode('TOBEORNOTTOBEORTOBEORNOT');

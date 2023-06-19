@@ -1,10 +1,8 @@
 #!/usr/bin/env perl
 use v5.36;
-use strict;
-use warnings;
-use feature qw /say/;
-use constant start_dict_size => 256;
 use utf8;
+
+use constant start_dict_size => 256;
 
 sub encode {
     my $in = shift;
