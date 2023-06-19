@@ -1,4 +1,5 @@
 #!/usr/bin/env perl
+use v5.36;
 #
 # Challenge 2: "Write a script to implement Lempel-Ziv-Welch (LZW)
 # compression algorithm. The script should have method to encode/decode
