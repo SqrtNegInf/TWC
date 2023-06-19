@@ -1,11 +1,5 @@
 #!/usr/bin/env perl
-=begin comment
--------------------------------------
-AUTHOR: Robert DiCicco
-DATE  : 2023-06-12
-Challenge 221 Task 1 Good Strings ( Perl )
--------------------------------------
-=cut
+
 use strict;
 use warnings;
 use feature 'say';
@@ -41,20 +35,3 @@ for my $word (@words) {
      say "";
      $cnt++;
 }
-
-=begin comment
--------------------------------------
-SAMPLE OUTPUT
-perl .\GoodStrings.pl
-
-Input: @words = (cat bt hat tree)
-cat
-hat
-        Total: 6
-
-Input: @words = (hello world challenge)
-hello
-world
-        Total: 10
--------------------------------------
-=cut

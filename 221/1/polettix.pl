@@ -3,9 +3,8 @@ use v5.24;
 use warnings;
 use experimental 'signatures';
 
-say good_strings(@ARGV);
 
-sub good_strings ($chars, @words) {
+my $chars = 'atach'; my @words = <cat bt hat tree>;
    my %available;
    $available{$_}++ for split m{}mxs, $chars;
    my $retval = 0;
@@ -18,5 +17,4 @@ sub good_strings ($chars, @words) {
       }
       $retval += length($word);
    }
-   return $retval;
-}
+   say $retval;

@@ -5,9 +5,6 @@ use builtin qw(true false);
 
 no warnings 'experimental';
 
-# Challenge 221 - 1 - Good Strings
-# A string is good if it can be formed by characters from $chars, each character can be used only once.
-
 goodStrMain("atach",          ["cat", "bt", "hat", "tree"]);
 # The good strings that can be formed are "cat" and "hat" so the answer is 3 + 3 = 6.
 

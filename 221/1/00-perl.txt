@@ -1,0 +1,105 @@
+ 
+===> 221/1/andreas-voegele.pl <===
+6
+10
+ 
+===> 221/1/athanasius.pl <===
+
+Challenge 221, Task #1: Good Strings (Perl)
+
+Running the test suite
+ok 1 - Example 1
+ok 2 - Example 1
+ok 3 - Example 2
+ok 4 - Example 2
+1..4
+ 
+===> 221/1/avery-adams.pl <===
+
+ 
+===> 221/1/deadmarshal.pl <===
+6
+10
+ 
+===> 221/1/e-choroba.pl <===
+1..3
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Zero
+ 
+===> 221/1/jeanluc2020.pl <===
+Input: (cat, bt, hat, tree); "atach"
+Output: 6
+Input: (hello, world, challenge); "welldonehopper"
+Output: 10
+ 
+===> 221/1/jo-37.pl <===
+# Seeded srand with seed '1' from import arg.
+ok 1 - example 1
+ok 2 - example 2
+1..2
+ 
+===> 221/1/laurent-rosenfeld.pl <===
+atach           - cat bt hat tree        => 6
+atach           - cat bt hat tree cata   => 10
+atach           - cat bt hat tree ataca  => 6
+welldonehopper  - hello world challenge  => 10
+ 
+===> 221/1/lubos-kolouch.pl <===
+6
+10
+ 
+===> 221/1/perlboy1967.pl <===
+ok 1
+ok 2
+ok 3
+1..3
+ 
+===> 221/1/peter-campbell-smith.pl <===
+
+Input:  @words = ('cat', 'bt', 'hat', 'tree'), $chars = 'atach'
+Output: 6 = cat + hat 
+
+Input:  @words = ('hello', 'world', 'challenge'), $chars = 'welldonehopper'
+Output: 10 = hello + world 
+
+Input:  @words = ('A', 'string', 'is', 'good', 'if', 'it', 'can', 'be', 'formed', 'by', 'characters', 'from', 'chars', 'each', 'character', 'can', 'be', 'used', 'only', 'once'), $chars = 'abcdefghijklmnopqrstuvwxyz'
+Output: 56 = A + string + is + if + it + can + be + formed + by + from + chars + each + can + be + used + only + once 
+
+Input:  @words = ('one', 'two', 'three'), $chars = 'xyz'
+Output: 0 = 
+ 
+===> 221/1/polettix.pl <===
+6
+ 
+===> 221/1/robert-dicicco.pl <===
+Input: @words = (cat bt hat tree)
+cat
+hat
+	Total: 6
+
+Input: @words = (hello world challenge)
+hello
+world
+	Total: 10
+
+ 
+===> 221/1/roger-bell-west.pl <===
+1..2
+ok 1 - example 1
+ok 2 - example 2
+ 
+===> 221/1/solathian.pl <===
+cat,hat : 6
+hello,world : 10
+ 
+===> 221/1/ulrich-rieke.pl <===
+6
+ 
+===> 221/1/zapwai.pl <===
+Input: @words = (cat,bt,hat,tree)
+       $chars = atach
+Output: 6
+Input: @words = (hello,world,challenge)
+       $chars = welldonehopper
+Output: 10

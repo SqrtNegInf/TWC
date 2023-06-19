@@ -1,9 +1,9 @@
 #!/usr/bin/env perl
 
-use v5.16;    # The Weekly Challenge - 2023-06-12
-use utf8;     # Week 221 task 1 - Good strings
-use strict;   # Peter Campbell Smith
-use warnings; # Blog: http://ccgi.campbellsmiths.force9.co.uk/challenge
+use v5.16;
+use utf8;
+use strict;
+use warnings;
 
 good_strings(['cat', 'bt', 'hat', 'tree'], 'atach');
 good_strings(['hello', 'world', 'challenge'], 'welldonehopper');

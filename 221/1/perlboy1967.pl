@@ -1,25 +1,5 @@
 #!/usr/bin/env perl
 
-=pod
-
-The Weekly Challenge - 221
-- https://theweeklychallenge.org/blog/perl-weekly-challenge-221
-
-Author: Niels 'PerlBoy' van Dijke
-
-Task 1: Good Strings
-Submitted by: Mohammad S Anwar
-
-You are given a list of @words and a string $chars.
-
-|| A string is good if it can be formed by characters from $chars, each character
-|| can be used only once.
-
-
-Write a script to return the sum of lengths of all good strings in words.
-
-=cut
-
 use v5.16;
 
 use common::sense;

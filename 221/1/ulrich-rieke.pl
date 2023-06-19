@@ -20,12 +20,9 @@ sub condition {
   return 1 ;
 }
 
-say "Enter some words, separated by blanks!" ;
-my $line = <STDIN> ;
-chomp $line ;
-my @words = split( /\s/ , $line ) ;
-say "Enter a word to take the letters from!" ;
-my $comparator = <STDIN> ;
+my @words = <cat bt hat tree>;
+
+my $comparator = 'atach';
 chomp $comparator ;
 my %compLetters ;
 for my $letter( split( // , $comparator ) ) {

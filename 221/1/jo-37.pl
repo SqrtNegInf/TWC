@@ -4,7 +4,7 @@ use v5.24;
 use Test2::V0 -srand => 1;
 use List::MoreUtils qw(frequency reduce_0 all);
 
-our ($tests, $examples, $chars);
+our ($tests, $examples, $chars) = (1,1);
 
 run_tests() if $tests || $examples;	# does not return
 

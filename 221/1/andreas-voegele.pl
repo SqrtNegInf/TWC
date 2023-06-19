@@ -1,10 +1,5 @@
 #!/usr/bin/env perl
 
-# You are given a list of @words and a string $chars.  A string is good if it
-# can be formed by characters from $chars, each character can be used only
-# once.  Write a script to return the sum of lengths of all good strings in
-# words.
-
 use 5.036;
 use utf8;
 
