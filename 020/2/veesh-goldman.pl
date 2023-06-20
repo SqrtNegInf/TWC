@@ -1,5 +1,5 @@
 #!/usr/bin/env perl
-use v5.22;
+use v5.36;
 
 sub sum_of_proper_divisors {
   #start with one, because that is always a divisor

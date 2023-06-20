@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
+use v5.36;
 
 use Math::BigInt lib => 'GMP';
 use Math::Prime::Util qw(divisors);

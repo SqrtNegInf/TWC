@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-
-use warnings;
-use strict;
-#use Data::Dumper;
+use v5.36;
 
 my %hash;
 

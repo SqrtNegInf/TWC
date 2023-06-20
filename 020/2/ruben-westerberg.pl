@@ -1,7 +1,6 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use v5.26;
+use v5.36;
+
 use List::Util qw<sum>;
 
 my ($n1,$n2)=(1,0);

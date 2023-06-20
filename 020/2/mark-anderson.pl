@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use Modern::Perl '2018';
 use List::Util 'sum';
 use Math::Factor::XS 'factors';
 

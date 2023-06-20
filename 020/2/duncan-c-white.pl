@@ -1,8 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use strict;
-use warnings;
-use Function::Parameters;
 use Data::Dumper;
 
 my $upper = 1000;
@@ -16,7 +14,7 @@ my @spd;	# spd[i] == sum of proper divisors of i
 #	INCLUDING 1 and EXCLUDING $n ITSELF.  eg the proper divisors of
 #	$n==6 are 1,2 and 3, and their sum is 6.
 #
-fun sum_proper_divisors( $n )
+sub sum_proper_divisors( $n )
 {
 	my $sum = 0;
 	for( my $f=1; $f<$n; $f++ )

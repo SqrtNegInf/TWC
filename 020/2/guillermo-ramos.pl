@@ -1,13 +1,5 @@
 #!/usr/bin/env perl
-#
-# Write a script to print the smallest pair of Amicable Numbers. For more
-# information, please checkout wikipedia page.
-#
-# (https://en.wikipedia.org/wiki/Amicable_numbers).
-################################################################################
-
-use strict;
-use warnings;
+use v5.36;
 
 sub sum_divisors {
     my $n = shift;

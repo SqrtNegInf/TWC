@@ -1,12 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-# Write a script to print the smallest pair of Amicable Numbers. For more
-# information, please checkout wikipedia page:
-# https://en.wikipedia.org/wiki/Amicable_numbers.
-
-use 5.026;
-use strict;
-use warnings;
 use Math::Prime::Util qw/divisor_sum/;
 use Memoize;
 

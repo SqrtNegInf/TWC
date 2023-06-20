@@ -1,7 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use strict;
-use warnings;
 use List::Util qw/ sum /;
 
 my $first_amicable_pair_found = 0;

@@ -1,17 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-
-# Smallest pair is a confusing term.  Is it (A, B) where a is the
-# smallest A, or is it where A+B is the smallest A+B?  I'm going with
-# the smallest A.
-
-use v5.22;
-
-# Turn on method signatures
-use feature 'signatures';
-no warnings 'experimental::signatures';
+use v5.36;
 
 use List::Util qw(max sum);
 use integer;
