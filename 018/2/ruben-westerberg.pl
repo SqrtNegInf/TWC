@@ -1,12 +1,7 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use List::Util qw<max min>;
-use v5.26;
+use v5.36;
 
-#######
-#Priority Queue IMPLEMENTATION
-#######
+use List::Util qw<max min>;
 
 #Returns true if no elements present in queue
 #Requires a hash reference.

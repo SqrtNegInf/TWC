@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
+use v5.36;
 
 my $q=Local::PriorityQueue->new;
 $q->insert_with_priority(4,1);

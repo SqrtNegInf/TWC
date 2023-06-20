@@ -1,11 +1,8 @@
 #!/usr/bin/env perl
+use v5.36;
 
 package Queue::Priority;
-use v5.24;
-use strict;
-use warnings;
-use feature qw(signatures);
-no warnings "experimental::signatures";
+
 use Scalar::Util qw(looks_like_number);
 use List::Util qw(max);
 use Carp;

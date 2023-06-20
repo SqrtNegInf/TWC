@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-use Modern::Perl;
-
-# Write a script to implement Priority Queue. It is like regular queue except each element has a priority associated with it. 
-# In a priority queue, an element with high priority is served before an element with low priority.
+use v5.36;
 
 my $p = PriorityQueue->new();
 $p->pull_highest_priority_element();

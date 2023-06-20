@@ -1,8 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use Modern::Perl;
-
-# implement a Priority-queue as an ordered list of [priority, list of elements]
 {
     package PQueue;
 

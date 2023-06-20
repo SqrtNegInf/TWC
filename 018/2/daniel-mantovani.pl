@@ -1,33 +1,5 @@
 #!/usr/bin/env perl
-# Write a script to implement Priority Queue.
-# It is like regular queue except each element has a priority associated
-# with it. In a priority queue, an element with high priority is served
-# before an element with low priority. Please check this wiki page for
-# more informations. It should serve the following operations:
-#
-# 1) is_empty: check whether the queue has no elements.
-#
-# 2) insert_with_priority: add an element to the queue with an
-# associated priority.
-#
-# 3) pull_highest_priority_element: remove the element from the queue
-# that has the highest priority, and return it. If two elements have the
-# same priority, then return element added first.
-
-use strict;
-use warnings;
-use v5.10;
-
-# For the porpouse of the challenge, we will go for a "naive" implementation,
-# not using any external modules.
-# However note that if performance is an issue,  a more recommended approach
-# would be to use a Heap::xx perl module.
-# That would allow us to use partially ordered lists, obtaining a much better
-# performance in real life situations
-#
-# Now back to the challenge.
-# First we will need a "max" function, (in practice it would be much better
-# just to use PEVANS' List::Utils module)
+use v5.36;
 
 sub max {    # numerical max
     my $max = shift;    # initialices with first element

@@ -1,7 +1,9 @@
 #!/usr/bin/env perl
+use v5.36;
+
 use lib '.';
 use PriorityQueue;
-my $pq = new PriorityQueue();
+my $pq = PriorityQueue->new;
 $pq->initialize();
 $pq->insert_with_priority(7, "sleep");  
 $pq->insert_with_priority(4, "go to the gym");  
