@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use Modern::Perl;
 use Date::Manip;
 
 for my $year (1900 .. 2019) {

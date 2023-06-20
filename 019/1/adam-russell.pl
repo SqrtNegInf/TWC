@@ -1,10 +1,6 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-##
-# Write a script to display months from the 
-# year 1900 to 2019 where you find five weekends.
-##
+use v5.36;
+
 use constant YEAR_START => 1900; 
 use constant YEAR_END => 2019; 
 

@@ -1,10 +1,9 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
+use v5.36;
+
 use Time::Piece;
 use Time::Seconds;
 use List::Util qw<any>;
-use v5.26;
 
 my $s= Time::Piece->strptime("1900","%Y");
 my $e= Time::Piece->strptime("2019","%Y");

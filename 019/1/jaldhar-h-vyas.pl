@@ -1,7 +1,6 @@
 #!/usr/bin/env perl
-use warnings;
-use strict;
-use 5.010;
+use v5.36;
+
 use constant FEBRUARY => 2;
 use constant FRIDAY => 4; # 1/1/1900 is a Monday so offset of 4 for Friday.
 use constant WEEK => 7;

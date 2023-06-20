@@ -1,10 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-
-# Write a script to display months from the year 1900 to 2019 where
-# you find 5 weekends i.e. 5 Friday, 5 Saturday and 5 Sunday.
+use v5.36;
 
 use Time::Local;
 use POSIX qw(strftime);

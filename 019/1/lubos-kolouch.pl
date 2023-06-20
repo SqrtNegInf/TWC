@@ -1,9 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use strict;
-use warnings;
-use feature qw{ say };
-#use Data::Dumper;
 use Date::Calc qw/check_date Day_of_Week Days_in_Month/;
 
 sub has_5_weekends {

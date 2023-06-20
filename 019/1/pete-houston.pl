@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
+use v5.36;
+
 use Time::Piece;
 
 my $month = Time::Piece->strptime ('1900-01-01', '%Y-%m-%d');

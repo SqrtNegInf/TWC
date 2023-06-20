@@ -1,18 +1,6 @@
 #!/usr/bin/env perl
-#
-# Challenge 1: "Write a script to display months from the year 1900 to 2019
-# where you find 5 weekends i.e. 5 Friday, 5 Saturday and 5 Sunday."
-# 
-# My notes:
-# 
-# Clearly defined, although Friday isn't normally considered part of the
-# weekend is it?  Anyway, it's clear here that Friday - Sunday is the weekend
-# for the purposes of this question.  Date::Manip can do this easily enough.
-# 
+use v5.36;
 
-use strict;
-use warnings;
-use Function::Parameters;
 use List::Util qw(min);
 use Date::Manip;
 use Data::Dumper;
@@ -25,7 +13,7 @@ my $endyear = shift // 2019;
 #	Find how many three day weekends (Friday, Saturday and Monday)
 #	there are in month $month (1..12) in year $year.
 #
-fun threedayweekends( $year, $month )
+sub threedayweekends( $year, $month )
 {
 	my $nfri = 0;
 	my $nsat = 0;

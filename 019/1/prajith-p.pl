@@ -1,10 +1,7 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
+use v5.36;
 
 use DateTime;
-use feature qw<say>;
 
 for my $year (1900..2019) {
     for my $month ( 1 , 3 , 5 , 7 , 8 , 10 , 12 )  {

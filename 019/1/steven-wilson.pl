@@ -1,16 +1,7 @@
 #!/usr/bin/env perl
-# Author: Steven Wilson
-# Date: 2019-07-30
-# Week: 019
-#
-# Task #1
-# Write a script to display months from the year 1900 to 2019 where you
-# find 5 weekends i.e. 5 Friday, 5 Saturday and 5 Sunday.
+use v5.36;
 
-use strict;
-use warnings;
 use DateTime;
-use feature qw/ say /;
 
 # If there are 31 days in a month and the first day of the month is a Friday
 # then there are 5 weekends in a month.

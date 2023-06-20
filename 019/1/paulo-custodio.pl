@@ -1,16 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-# Challenge 019
-#
-# Task #1
-# Write a script to display months from the year 1900 to 2019 where you find
-# 5 weekends i.e. 5 Friday, 5 Saturday and 5 Sunday.
-#
-# Solution: 4 weeks are 28 days, to have 5 week-ends we need additional 3 days
-# (29,30,31),
-# therefore 31st must be a Sunday
-
-use Modern::Perl;
 use constant Sunday => 7;
 
 sub is_leap {

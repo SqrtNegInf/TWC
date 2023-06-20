@@ -1,12 +1,5 @@
 #!/usr/bin/env perl
-
-# https://perlweeklychallenge.org/blog/perl-weekly-challenge-019/
-# Task #1
-# Write a script to display months from the year 1900 to 2019
-# where you find 5 weekends i.e. 5 Friday, 5 Saturday and 5 Sunday.
-
-use strict;
-use warnings;
+use v5.36;
 
 use DateTime;
 
