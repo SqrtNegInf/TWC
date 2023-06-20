@@ -1,9 +1,6 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-##
-# Write a script to accept a string from command line and split it on change of character.
-##
+use v5.36;
+
 my $string = 'bookkeeper';
 my @letters = split(//, $string);
 my $letter;
