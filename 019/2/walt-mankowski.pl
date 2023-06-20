@@ -1,16 +1,5 @@
 #!/usr/bin/env perl
-
-# Perl Weekly Challenge 019-2
-# https://perlweeklychallenge.org/blog/perl-weekly-challenge-019/
-#
-# Write a script that can wrap the given paragraph at a specified
-# column using the greedy algorithm specifed at
-# https://en.wikipedia.org/wiki/Line_wrap_and_word_wrap#Minimum_number_of_lines
-
-use strict;
-use warnings;
-use feature qw(:5.30);
-use experimental qw(signatures);
+use v5.36;
 
 my $txt = <<EOT;
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do

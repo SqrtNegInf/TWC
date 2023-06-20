@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-use Modern::Perl;
-
-# A script that can wrap the given paragraph at a specified column using the greedy algorithm
+use v5.36;
 
 my ($max_col,$text) = @ARGV;
 $max_col  ||= 45;

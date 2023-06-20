@@ -1,18 +1,5 @@
 #!/usr/bin/env perl
-# Write a script that can wrap the given paragraph
-# at a specified column using the greedy algorithm.
-
-use strict;
-use warnings;
-use v5.10;
-use utf8;
-use open qw(:std :utf8);
-
-# greedy algorithm basically means put as many words
-# on a line as possible
-#
-# let's start by defining a "fmt" function, that
-# you will call with the text and the desired line width
+use v5.36;
 
 sub fmt {
     my ( $text, $line_width ) = @_;

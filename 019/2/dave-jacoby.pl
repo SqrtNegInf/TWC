@@ -1,23 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-use utf8;
-use feature qw{ postderef say signatures state switch };
-no warnings
-    qw{ experimental::postderef experimental::smartmatch experimental::signatures };
-
-# Write a script that can wrap the given paragraph
-# at a specified column using the greedy algorithm.
-#   https://en.wikipedia.org/wiki/Line_wrap_and_word_wrap#Minimum_number_of_lines
-
-##      SpaceLeft := LineWidth
-##      for each Word in Text
-##          if (Width(Word) + SpaceWidth) > SpaceLeft
-##              insert line break before Word in Text
-##              SpaceLeft := LineWidth - Width(Word)
-##          else
-##              SpaceLeft := SpaceLeft - (Width(Word) + SpaceWidth)
+use v5.36;
 
 my $text = q{
     Let me announce the winner of Perl Weekly Challenge - 018 and the 

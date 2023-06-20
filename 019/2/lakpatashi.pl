@@ -1,10 +1,7 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use warnings;
-use strict;
-#use Data::Dumper;
 use List::Util qw(sum);
-#use feature qw(switch);
 
 #part 2
 my $str = "This is random string to be formatted and wrap to given length";

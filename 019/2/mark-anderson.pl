@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-
-use Modern::Perl '2018';
+use v5.36;
 
 my $line_break  = $/;
 my $space_width = 1;

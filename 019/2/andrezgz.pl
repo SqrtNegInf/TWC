@@ -1,13 +1,5 @@
 #!/usr/bin/env perl
-
-# https://perlweeklychallenge.org/blog/perl-weekly-challenge-019/
-# Task #2
-# Write a script that can wrap the given paragraph at a specified
-# column using the greedy algorithm.
-# https://en.wikipedia.org/wiki/Line_wrap_and_word_wrap#Minimum_number_of_lines
-
-use strict;
-use warnings;
+use v5.36;
 
 my $columns = $ARGV[0] || 40;
 my $text = $ARGV[1] || example_text();

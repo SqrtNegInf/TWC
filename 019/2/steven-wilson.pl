@@ -1,14 +1,5 @@
 #!/usr/bin/env perl
-# Author: Steven Wilson
-# Date: 2019-07-30
-# Week: 019
-#
-# Task #2
-# Write a script that can wrap the given paragraph at a specified column
-# using the greedy algorithm.
-
-use strict;
-use warnings;
+use v5.36;
 
 my $text = "I saw the best minds of my generation destroyed by madness,
 starving hysterical naked, dragging themselves through the negro streets

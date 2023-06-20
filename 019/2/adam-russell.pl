@@ -1,10 +1,6 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-##
-# Write a script that can wrap the given paragraph at a specified column 
-# using the greedy algorithm approach.
-##
+use v5.36;
+
 use constant LINE_LENGTH => 72; 
 
 MAIN:{
