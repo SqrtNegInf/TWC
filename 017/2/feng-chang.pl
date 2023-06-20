@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-
-use Modern::Perl;
+use v5.36;
 
 my $s = 'jdbc:mysql://user:password@localhost:3306/pwc?profile=true#h1';
 

@@ -1,31 +1,9 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use v5.24;
-use strict;
-use warnings;
-use feature qw(signatures);
-no warnings "experimental::signatures";
 use Carp;
 use utf8;
 use open ':std', ':encoding(UTF-8)';
-
-=for comment
-
-Create a script to parse URL and print the components of URL. According to Wiki page, the URL syntax is as below:
-
-scheme:[//[userinfo@]host[:port]]path[?query][#fragment]
-
-For example: jdbc:mysql://user:password@localhost:3306/pwc?profile=true#h1
-
-  scheme:   jdbc:mysql
-  userinfo: user:password
-  host:     localhost
-  port:     3306
-  path:     /pwc
-  query:    profile=true
-  fragment: h1
-
-=cut
 
 sub parse_url_regex($url) {
     my %parsed;

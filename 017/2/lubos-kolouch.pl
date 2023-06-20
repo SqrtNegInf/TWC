@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-
-use warnings;
-use strict;
-use feature qw{ say };
+use v5.36;
 
 # I looked at jusr URI but it did not seem to work properly for the complex URL
 use Mojo::URL;

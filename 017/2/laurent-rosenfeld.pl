@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use feature qw/say/;
+use v5.36;
 
 for my $url ( 'jdbc:mysql://user:password@localhost:3306/pwc?profile=true#h1',
     'https://en.wikipedia.org/wiki/URL',

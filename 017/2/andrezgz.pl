@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
+use v5.36;
 
 my $uri = shift || 'jdbc:mysql://user:password@localhost:3306/pwc?profile=true#h1';
 

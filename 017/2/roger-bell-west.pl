@@ -1,7 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use strict;
-use warnings;
 use YAML::XS qw(Dump);
 
 foreach my $url ('jdbc:mysql://user:password@localhost:3306/pwc?profile=true#h1') {

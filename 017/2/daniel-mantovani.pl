@@ -1,22 +1,5 @@
 #!/usr/bin/env perl
-# Create a script to parse URL and print the components of URL.
-# According to Wiki page, the URL syntax is as below:
-
-# scheme:[//[userinfo@]host[:port]]path[?query][#fragment]
-
-# For example: jdbc://user:password@localhost:3306/pwc?profile=true#h1
-
-#   scheme:   jdbc
-#   userinfo: user:password
-#   host:     localhost
-#   port:     3306
-#   path:     /pwc
-#   query:    profile=true
-#   fragment: h1
-
-use strict;
-use warnings;
-use v5.10;
+use v5.36;
 
 my $url = 'jdbc:mysql://user:password@localhost:3306/pwc?profile=true#h1';
 die "Usage: perl $0 <url>" unless $url;

@@ -1,16 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-use utf8;
-use feature qw{ postderef say signatures state switch };
-no warnings
-    qw{ experimental::postderef experimental::smartmatch experimental::signatures };
-
-# Create a script to parse URL and print the components of URL.
-# According to Wiki page, the URL syntax is as below:
-
-# scheme:[//[userinfo@]host[:port]]path[?query][#fragment]
+use v5.36;
 
 my @list;
 push @list, 'ftp://ftp.cerias.purdue.edu/pub/dict/README.txt';

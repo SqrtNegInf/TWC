@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-
-use Modern::Perl;
+use v5.36;
 
 my $url = 'http://user:password@localhost:3306/pwc?profile=true#h1';
 my $word = qr{ [a-z_] [a-z_0-9+.-]* }ix;

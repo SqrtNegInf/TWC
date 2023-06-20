@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-use warnings;
-use strict;
-use 5.010;
+use v5.36;
 
 my $dec_octet = qr / \d | [1-9]\d | 1\d\d | 2[0-4]\d | 25[0-5] /x;
 my $hex_octet = qr /  [ 0-9 A-F a-f ]{2} /x;
