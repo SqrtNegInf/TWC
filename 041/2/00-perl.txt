@@ -23,28 +23,6 @@ L(19) = 13529
  
 ===> 041/2/andrezgz.pl <===
 1 1 3 5 9 15 25 41 67 109 177 287 465 753 1219 1973 3193 5167 8361 13529  
-===> 041/2/burkhard-nickels.pl <===
-Function leonardo1() with recursive function call ...
-L(0) = 1 (1)
-L(1) = 1 (1)
-L(2) = 3 (3)
-L(3) = 5 (5)
-L(4) = 9 (9)
-L(5) = 15 (15)
-L(6) = 25 (25)
-L(7) = 41 (41)
-L(8) = 67 (67)
-Function leonardo2() with storing values in Array ...
-L(0) = 1 (1)
-L(1) = 1 (1)
-L(2) = 3 (1)
-L(3) = 5 (1)
-L(4) = 9 (1)
-L(5) = 15 (1)
-L(6) = 25 (1)
-L(7) = 41 (1)
-L(8) = 67 (1)
- 
 ===> 041/2/colin-crain.pl <===
 the first 20 Leonardo numbers:
 
