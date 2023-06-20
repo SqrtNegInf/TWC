@@ -1,8 +1,7 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
+use v5.36;
+
 use List::Util qw<sum>;
-use v5.26;
 
 my $s1=$ARGV[0]//"dfasabcdef";
 my $s2=$ARGV[1]//"dfabcd";

@@ -1,16 +1,13 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use strict;
-use warnings;
-use Function::Parameters;
-#use Data::Dumper;
 
 #
 # my $is = substr_of_all( $s, @str );
 #	Calculate whether or not $s is a substr of every string in @str.
 #	Return true iff it is; false otherwise.
 #
-fun substr_of_all( $s, @str )
+sub substr_of_all( $s, @str )
 {
 	foreach my $str (@str)
 	{
@@ -24,7 +21,7 @@ fun substr_of_all( $s, @str )
 # my $longestsubstr = find_longest_substr( @str );
 #	Find and return the longest substring of an array of strings @str.
 #
-fun find_longest_substr( @str )
+sub find_longest_substr( @str )
 {
 	# find the shortest string
 	my $shortest;

@@ -1,11 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-use feature qw/ say /;
-
-# my @input_strings = @ARGV;
-# print_longest_common_string(@input_strings);
+use v5.36;
 
 my @input_strings = qw/ ABABC BABCA ABCBA /;
 print_longest_common_string(@input_strings);

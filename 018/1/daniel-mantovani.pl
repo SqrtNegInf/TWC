@@ -1,15 +1,5 @@
 #!/usr/bin/env perl
-# Write a script that takes 2 or more strings as command line parameters
-# and print the longest common substring. For example, the longest common
-# substring of the strings “ABABC”, “BABCA” and “ABCBA” is string “ABC”
-# of length 3. Other common substrings are “A”, “AB”, “B”, “BA”, “BC”
-# and “C”. Please check this wiki page for details.
-
-use strict;
-use warnings;
-use v5.10;
-use utf8;
-use open qw(:std :utf8);
+use v5.36;
 
 use Encode 'decode_utf8';    # ¡Porque hay otros idiomas! :)
 

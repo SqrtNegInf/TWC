@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
+use v5.36;
 
 use lib '.';
 use SuffixArray; 
@@ -35,9 +34,9 @@ sub compare{
 
 sub lcs{
     my($s, $t) = @_;
-    my $suffix_array0 = new SuffixArray(); 
+    my $suffix_array0 = SuffixArray->new; 
     $suffix_array0->create($s); 
-    my $suffix_array1 = new SuffixArray(); 
+    my $suffix_array1 = SuffixArray->new; 
     $suffix_array1->create($t); 
     my $lcs = "";
     my($i, $j) = (0, 0);

@@ -1,9 +1,7 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use Modern::Perl '2018';
 use List::Util 'all';
-
-# Find the longest common substring.
 
 my @strings =  <zabc xabcy abcd>;
 my $pattern = pop @strings;
