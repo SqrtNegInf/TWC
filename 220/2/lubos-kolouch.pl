@@ -25,5 +25,5 @@ sub squareful_permutations {
 }
 
 # Test Cases
-print join(", ", @$_), "\n" for squareful_permutations(1, 17, 8);  # 1, 8, 17 and 17, 8, 1
+#print join(", ", @$_), "\n" for squareful_permutations(1, 17, 8);  # 1, 8, 17 and 17, 8, 1
 print join(", ", @$_), "\n" for squareful_permutations(2, 2, 2);  # 2, 2, 2

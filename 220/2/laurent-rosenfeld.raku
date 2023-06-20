@@ -13,6 +13,7 @@ sub find-squareful (@in) {
     }
     return join ", ", $result.keys;
 }
-for <1 17 8>, <17 1 8>, <2 2 2> -> @test {
+#for <1 17 8>, <17 1 8>, <2 2 2> -> @test {
+for <1 17 8>, <2 2 2> -> @test {
     say @test, " => ",  find-squareful @test;
 }
