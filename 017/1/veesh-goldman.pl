@@ -1,8 +1,7 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use v5.22;
 use bigint;
-#good luck getting (4, 2) to print, it's 2 ** 65533...
 
 sub ackermann {
   my ($m, $n) = @_;

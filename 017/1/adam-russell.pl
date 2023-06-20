@@ -1,9 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-##
-# Create a script to demonstrate Ackermann function.
-##
+use v5.36;
 
 sub A{
     my($m, $n) = @_;

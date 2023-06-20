@@ -1,5 +1,5 @@
 #!/usr/bin/env perl
-use Modern::Perl;
+use v5.36;
 
 sub ackermann {
 	my ($m, $n) = @_;

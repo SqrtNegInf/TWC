@@ -1,10 +1,8 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-use Memoize;
+use v5.36;
 no warnings 'recursion';
-use feature qw/ say /;
+
+use Memoize;
 use Test::More;
 
 ok( A( 1, 2 ) == 4, 'Test A(1, 2) == 4' );

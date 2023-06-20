@@ -74,12 +74,6 @@ ok 1 - A(0, 0) equal 1
 ok 2 - A(1, 2) equal 4
 1..2
  
-===> 017/1/lakpatashi.pl <===
-1
-2
-3
-4
- 
 ===> 017/1/laurent-rosenfeld.pl <===
 125
  
@@ -136,11 +130,3 @@ A(3, 3) is 61
 ===> 017/1/veesh-goldman.pl <===
 4
 11
- 
-===> 017/1/yozen-hernandez.pl <===
-1..5
-ok 1 - A(1,2) == 4
-ok 2 - A(2,2) == 7
-ok 3 - A(2,4) == 11
-ok 4 - A(3,3) == 61
-ok 5 - A(3,4) == 125

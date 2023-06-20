@@ -1,8 +1,7 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
+use v5.36;
+
 use List::Util qw<min>;
-use v5.26;
 
 my ($m,$n)=(1,2);
 

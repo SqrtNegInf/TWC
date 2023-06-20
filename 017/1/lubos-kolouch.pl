@@ -1,8 +1,8 @@
 #!/usr/bin/env perl
+use v5.36;
 
-no warnings;
-use strict;
-use feature qw{ say };
+no warnings 'uninitialized';
+
 use Getopt::Long;
 
 sub get_ack {

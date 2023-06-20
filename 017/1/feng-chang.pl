@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-
-use Modern::Perl;
+use v5.36;
 
 say "A(0,$_) ", A(0, $_) for 0..2;
 say "A(1,$_) ", A(1, $_) for 0..2;

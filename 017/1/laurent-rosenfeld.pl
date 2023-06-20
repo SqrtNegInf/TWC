@@ -1,8 +1,6 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
+use v5.36;
 no warnings 'recursion';
-use feature qw/say/;
 
 sub ack {
     my ($m, $n) = @_;
