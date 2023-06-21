@@ -1,13 +1,6 @@
-#!/usr/bin/env perl5.32.1
-use v5.22;
-use strict;
-use warnings;
+#!/usr/bin/env perl
+use v5.36;
 
-# Turn on method signatures
-use feature 'signatures';
-no warnings 'experimental::signatures';
-
-use autodie;
 use bigint;
 
 sub A($m, $n) {
@@ -29,7 +22,7 @@ sub up_arrow($m, $num_arrows, $n) {
     return 1 unless $n;
     return $m ** $n if $num_arrows == 1;
 
-    @_ = ($m, $num_arrows-1, up_arrow($m, $num_arrows, $n-1));
+    @_ = ($m, $num_arrows-1, up_arrow($m, $num_arrows, $n-1));  # DH warning with v5.36
     goto &up_arrow;
 }
 
