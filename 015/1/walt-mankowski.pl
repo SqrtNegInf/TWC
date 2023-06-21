@@ -1,26 +1,5 @@
 #!/usr/bin/env perl
-
-# Write a script to generate first 10 strong and weak prime numbers.
-#
-# For example, if the nth prime number is represented by p(n):
-#
-# p(1) = 2
-# p(2) = 3
-# p(3) = 5
-# p(4) = 7
-# p(5) = 11
-#
-# Strong Prime number p(n) when p(n) > [ p(n-1) + p(n+1) ] / 2
-# Weak   Prime number p(n) when p(n) < [ p(n-1) + p(n+1) ] / 2
-#
-# In other words, a prime is "strong" if it's closer to the next
-# larger prime than the next smaller prime, and it's "weak" if it's
-# closer to the next smaller prime than the next larger prime.
-
-use strict;
-use warnings;
-use feature 'say';
-use experimental qw(signatures);
+use v5.36;
 
 my @primes = (2, 3);
 my @strong;

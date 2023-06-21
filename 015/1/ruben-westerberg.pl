@@ -1,8 +1,7 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
+use v5.36;
+
 use List::Util qw<sum>;
-use v5.24;
 
 my (@week, @balanced, @strong); #Store the results here
 my @p=\(@week,@balanced,@strong); #Make indexable

@@ -1,10 +1,5 @@
 #!/usr/bin/env perl
-
-# Write a script to generate first 10 strong and weak prime numbers.
-
-use 5.026;
-use strict;
-use warnings;
+use v5.36;
 
 my @primes = (2, 3);
 

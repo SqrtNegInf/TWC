@@ -1,22 +1,5 @@
 #!/usr/bin/env perl
-
-use v5.24;
-use strict;
-use warnings;
-use feature qw(say state signatures);
-no warnings "experimental::signatures";
-
-# Write a script to generate first 10 strong and weak prime numbers.
-# For example, the nth prime number is represented by p(n).
-#
-#   p(1) = 2
-#   p(2) = 3
-#   p(3) = 5
-#   p(4) = 7
-#   p(5) = 11
-#
-#   Strong Prime number p(n) when p(n) > [ p(n-1) + p(n+1) ] / 2
-#   Weak   Prime number p(n) when p(n) < [ p(n-1) + p(n+1) ] / 2
+use v5.36;
 
 sub is_prime ($n) {
     return 0 if grep { $n % $_ == 0 } ( 2 .. sqrt($n) );

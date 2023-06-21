@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use 5.18.0;
 use lib '.';
 use GetPrime;
 use integer;

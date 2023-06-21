@@ -1,21 +1,5 @@
 #!/usr/bin/env perl
-
-# https://perlweeklychallenge.org/blog/perl-weekly-challenge-015/
-# Challenge #1
-# Write a script to generate first 10 strong and weak prime numbers.
-# For example, the nth prime number is represented by p(n).
-#
-# p(1) = 2
-# p(2) = 3
-# p(3) = 5
-# p(4) = 7
-# p(5) = 11
-#
-# Strong Prime number p(n) when p(n) > [ p(n-1) + p(n+1) ] / 2
-# Weak   Prime number p(n) when p(n) < [ p(n-1) + p(n+1) ] / 2
-
-use strict;
-use warnings;
+use v5.36;
 
 use constant LIMIT => 10;
 

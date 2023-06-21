@@ -1,24 +1,5 @@
 #!/usr/bin/env perl
-# Write a script to generate first 10 strong and weak prime numbers.
-
-#   For example, the nth prime number is represented by p(n).
-
-#   p(1) = 2
-#   p(2) = 3
-#   p(3) = 5
-#   p(4) = 7
-#   p(5) = 11
-
-#   Strong Prime number p(n) when p(n) > [ p(n-1) + p(n+1) ] / 2
-#   Weak   Prime number p(n) when p(n) < [ p(n-1) + p(n+1) ] / 2
-
-use strict;
-use warnings;
-use v5.10;
-
-# we sart by using the same prime test used to solve challenge 12 - 1
-# (the regexp prime tester)
-#
+use v5.36;
 
 sub is_prime {
     return ( 7 x shift ) !~ /^(77+)\1+$/;

@@ -1,21 +1,7 @@
 #!/usr/bin/env perl
-use Modern::Perl;
-use Math::Prime::Util qw(is_prime);
+use v5.36;
 
-# https://perlweeklychallenge.org/blog/perl-weekly-challenge-015/
-# Write a script to generate first 10 strong and weak prime numbers.
-#
-# For example, the nth prime number is represented by p(n).
-#
-# p(1) = 2
-# p(2) = 3
-# p(3) = 5
-# p(4) = 7
-# p(5) = 11
-#
-# Strong Prime number p(n) when p(n) > [ p(n-1) + p(n+1) ] / 2
-# Weak   Prime number p(n) when p(n) < [ p(n-1) + p(n+1) ] / 2
-#
+use Math::Prime::Util qw(is_prime);
 
 my $limit = shift || 10;
 

@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
+use v5.36;
 
 my $type = shift @ARGV || 'strong';
 my @primes = grep( { ( 1 x $_ ) !~ /^1?$|^(11+?)\1+$/ } 1 .. 101 );
