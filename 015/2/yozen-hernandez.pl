@@ -1,14 +1,7 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use v5.24;
-use strict;
-use warnings;
-use feature qw(say state signatures);
-no warnings "experimental::signatures";
 use Carp;
-
-# Write a script to implement Vigenère cipher. The script should be able encode
-# and decode. Checkout wiki page for more information.
 
 my %tabula;
 @tabula{ "A" .. "Z" } = ( 0 .. 25 );

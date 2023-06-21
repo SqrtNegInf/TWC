@@ -1,15 +1,5 @@
 #!/usr/bin/env perl
-use Modern::Perl;
-
-#https://perlweeklychallenge.org/blog/perl-weekly-challenge-015/
-#Write a script to implement Vigenère cipher. The script should be able encode and decode. 
-#Checkout wiki page https://en.wikipedia.org/wiki/Vigen%C3%A8re_cipher for more information.
-#
-#Make it easy for the next coder to modify, just translate the wiki formula into perl
-#encryption
-#Ci = Mi + Ki mod 26
-#decryption
-#Mi = Ci - Ki mod 26
+use v5.36;
 
 my $text = shift || "ATTACKATDAWN";
 my $key = shift  || "LEMON";

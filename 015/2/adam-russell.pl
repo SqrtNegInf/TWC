@@ -1,10 +1,6 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-##
-# Write a script to implement Vigenère cipher. 
-# The script should be able to encode and decode.
-##
+use v5.36;
+
 use constant KEYWORD => "perl";  
 
 sub encode{

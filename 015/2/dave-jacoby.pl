@@ -1,9 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-use feature qw{ postderef say signatures state fc };
-no warnings qw{ experimental::postderef experimental::signatures };
+use v5.36;
 
 my $keyword   = 'ATTACKATDAWN';
 my $cleartext = <<'END';

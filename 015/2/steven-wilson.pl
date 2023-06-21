@@ -1,8 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use strict;
-use warnings;
-use feature qw / say /;
 use Test::More;
 
 my ( $operation, $keyword, $in_text ) = ( $ARGV[0], $ARGV[1], $ARGV[2] );
