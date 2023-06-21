@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
+use v5.36;
+
 use Digest::SHA qw/sha256/;
 use Test::More tests => 4;
 

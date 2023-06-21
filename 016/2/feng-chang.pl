@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use Modern::Perl;
 use bigint;
 use Getopt::Long;
 use Crypt::Digest::SHA256 qw(sha256);

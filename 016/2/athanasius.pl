@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
+use v5.36;
+
 use Const::Fast;
 use Crypt::Misc qw( decode_b58b );
 use Digest::SHA;

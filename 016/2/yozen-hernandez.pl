@@ -1,10 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use v5.24;
-use strict;
-use warnings;
-use feature qw(signatures);
-no warnings "experimental::signatures";
 use Carp;
 use Digest::SHA qw(sha256);
 use Math::BigInt try => 'GMP';

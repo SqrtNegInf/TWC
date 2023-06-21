@@ -1,7 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use strict;
-use warnings;
 use Digest::SHA qw/sha256 sha256_hex/;
 
 # we start by defining an array with the ordered symbols of the

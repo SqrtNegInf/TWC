@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
+use v5.36;
 
 use Encode::Base58::GMP;
 use Math::GMPz qw(:mpz);

@@ -1,9 +1,6 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-## 
-# Write a script to validate a given bitcoin address.
-## 
+use v5.36;
+
 use boolean; 
 use Digest::SHA q/sha256/;
 

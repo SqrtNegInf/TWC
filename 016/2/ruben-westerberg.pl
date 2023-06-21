@@ -1,10 +1,9 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
+use v5.36;
+
 use bigint;
 use Digest::SHA qw(sha256);
 use List::Util qw(all any first);
-use v5.26;
 
 my @addresses=@ARGV;
 @addresses= qw<1BvBMSEYstWetqTFn5Au4m4GFg7xJaNVN2

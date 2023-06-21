@@ -11,9 +11,6 @@ Bitcoin address: "1BvBMSEYstWetqTFn5Au4m4GFg7xJaNVN2"
 ===> 016/2/daniel-mantovani.pl <===
 1BvBMSEYstWetqTFn5Au4m4GFg7xJaNVN2 is a valid bitcoin address
  
-===> 016/2/duncan-c-white.pl <===
-1BvBMSEYstWetqTFn5Au4m4GFg7xJaNVN2: yes
- 
 ===> 016/2/e-choroba.pl <===
 1..11
 ok 1 - valid 1BvBMSEYstWetqTFn5Au4m4GFg7xJaNVN2

@@ -1,7 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use strict;
-use warnings;
 use bigint;
 use Crypt::Digest::SHA256 qw/ sha256 sha256_hex /;
 use Test::More;
