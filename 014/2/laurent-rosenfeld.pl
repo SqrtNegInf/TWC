@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use feature qw/say/;
+use v5.36;
 
 my %codes = map { $_ => 1 } qw /
     AL AK AZ AR CA CO CT DE FL GA

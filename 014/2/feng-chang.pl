@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-
-use Modern::Perl;
+use v5.36;
 
 my @aUSPS = qw(
     al ak az ar ca co ct de fl ga

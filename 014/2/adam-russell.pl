@@ -1,11 +1,6 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-##
-# Using only the official postal (2-letter) abbreviations for 
-# the 50 U.S. states, write a script to find the longest English 
-# word you can spell.
-##
+use v5.36;
+
 my %word_product;
 my %letter_factor = (
     AL => 2,

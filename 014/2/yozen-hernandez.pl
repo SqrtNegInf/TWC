@@ -1,11 +1,7 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use v5.24;
-use strict;
-use warnings;
-use feature qw(say state);
 use List::Util qw(all);
-#use JSON;
 
 my @us_states = qw( AL AK AZ AR CA
     CO CT DE FL GA

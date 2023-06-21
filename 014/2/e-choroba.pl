@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-use warnings;
-use strict;
-use feature qw{ say };
+use v5.36;
 
 my %states;
 @states{qw(AL AK AZ AR CA CO CT DE DC FL GA HI ID IL IN IA KS KY LA ME

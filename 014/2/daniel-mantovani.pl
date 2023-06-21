@@ -1,21 +1,5 @@
 #!/usr/bin/env perl
-# Using only the official postal (2-letter) abbreviations for the 50 U.S. states,
-# write a script to find the longest English word you can spell?
-# Here is the list of U.S. states abbreviations as per wikipedia page.
-# This challenge was proposed by team member Neil Bowers.
-
-# For example,
-# Pennsylvania + Connecticut = PACT
-# Wisconsin + North Dakota = WIND
-# Maine + Alabama = MEAL
-# California + Louisiana + Massachusetts + Rhode Island = Calamari
-
-use strict;
-use warnings;
-use v5.10;
-
-# We will use list of 50 US states from http://www.softschools.com/social_studies/state_abbreviations/
-# pasted after __DATA__
+use v5.36;
 
 my %states;
 /(\w.+)\t(\w{2})$/, $states{$2} = $1 for <DATA>;

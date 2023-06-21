@@ -1,10 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-use feature qw(:5.30);
-use experimental qw(signatures);
-use autodie;
+use v5.36;
 
 # create map of state abbreviations
 my %abbrevs = map {$_ => 1} qw(al ak az ar ca co ct de fl ga

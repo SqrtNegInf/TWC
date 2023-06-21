@@ -1,29 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-# Challenge 2: "Using only the official postal (2-letter) abbreviations
-# for the 50 U.S. states, write a script to find the longest English word
-# you can spell? Here is the list of U.S. states abbreviations as per
-# wikipedia page. This challenge was proposed by team member Neil Bowers.
-# 
-# For example,
-# Pennsylvania + Connecticut = PACT
-# Wisconsin + North Dakota = WIND
-# Maine + Alabama = MEAL
-# California + Louisiana + Massachusetts + Rhode Island = Calamari
-# "
-# 
-# My notes:
-# 
-# Well, at first glance that looks like an interesting search problem,
-# but on second thoughts isn't that just.. a regex?
-#
-# After I did the basic thing, I added a "--territories" flag to include
-# US territories such as "AS" for American Samoa.
-
-use strict;
-use warnings;
-use Function::Parameters;
-use Data::Dumper;
 use Getopt::Long;
 
 my $territories = 0;
@@ -39,7 +16,7 @@ $states .= "|as|dc|fm|gu|mh|mp|pw|pr|vi" if $territories;
 #	Read a dictionary, build a set of all words.
 #	ONLY THOSE OF EVEN LENGTH.
 #
-fun readdict( $filename )
+sub readdict( $filename )
 {
 	open( my $in, '<', $filename ) || die;
 	my %dict;

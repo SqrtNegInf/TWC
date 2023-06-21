@@ -1,9 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use strict;
-use warnings;
-use autodie qw / open close /;
-use feature qw / say /;
 use List::MoreUtils qw(uniq);
 
 my %states = (

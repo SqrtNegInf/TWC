@@ -1,12 +1,5 @@
 #!/usr/bin/env perl
-#
-# Using only the official postal (2-letter) abbreviations for the 50
-# U.S. states, write a script to find the longest English word you can spell?
-# (https://en.wikipedia.org/wiki/List_of_U.S._state_abbreviations)
-################################################################################
-
-use strict;
-use warnings;
+use v5.36;
 
 use List::Util qw<max>;
 my $DICTPATH = '/usr/share/dict/words';

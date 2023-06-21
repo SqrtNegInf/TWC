@@ -1,14 +1,5 @@
 #!/usr/bin/env perl
-
-use feature qw{ say };
-use strict;
-use warnings;
-
-# Using only the official postal (2-letter) abbreviations for the
-# 50 U.S. states, write a script to find the longest English word
-# you can spell? Here is the list of U.S. states abbreviations as
-# per wikipedia page. This challenge was proposed by team member
-# Neil Bowers.
+use v5.36;
 
 # using the %states hash makes for easy testing
 my %states = map { $_ => 1 } qw{
