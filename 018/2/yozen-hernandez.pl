@@ -55,9 +55,6 @@ sub print {
 
 package main;
 
-use v5.24;
-use strict;
-use warnings;
 use Test::More tests => 9;
 
 my $queue = Queue::Priority->new;
