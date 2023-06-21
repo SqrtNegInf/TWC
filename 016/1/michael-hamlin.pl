@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
-#
-use 5.18.0;
+use v5.36;
+
 use List::Util qw<sum>;
 use Getopt::Std;
 

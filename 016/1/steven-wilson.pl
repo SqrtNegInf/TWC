@@ -1,21 +1,5 @@
 #!/usr/bin/env perl
-# Author: Steven Wilson
-# Date: 2019-07-08
-# Week: 016
-#
-# Task #1
-# Pythagoras Pie Puzzle, proposed by Jo Christian Oterhals.
-#
-# At a party a pie is to be shared by 100 guest. The first guest gets 1%
-# of the pie, the second guest gets 2% of the remaining pie, the third
-# gets 3% of the remaining pie, the fourth gets 4% and so on.
-#
-# Write a script that figures out which guest gets the largest piece of
-# pie.
-
-use strict;
-use warnings;
-use feature qw/ say /;
+use v5.36;
 
 my $pie                  = 360;
 my $current_guest        = 1;

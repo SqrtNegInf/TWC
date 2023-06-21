@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-use warnings;
-use strict;
-use 5.010;
+use v5.36;
 
 my %shares;
 my $pie = 100.0;

@@ -1,30 +1,5 @@
 #!/usr/bin/env perl
-#===============================================================================
-#
-#         FILE: 2019_16_1.pl
-#
-#        USAGE: ./2019_65_1.pl
-#
-#  DESCRIPTION: Perl Weekly challenge w16 #1
-#
-#               At a party a pie is to be shared by 100 guest. The first guest gets 1% of the pie, the second guest gets 2% of the remaining pie, the third gets 3% of the remaining pie, the fourth gets 4% and so on.
-#
-#               Write a script that figures out which guest gets the largest piece of pie.
-#               Write a script to generate first 10 strong and weak prime numbers.
-#
-#      OPTIONS: ---
-# REQUIREMENTS: ---
-#         BUGS: ---
-#        NOTES: ---
-#       AUTHOR: Lubos Kolouch
-# ORGANIZATION:
-#      VERSION: 1.0
-#     REVISION: ---
-#===============================================================================
-
-use warnings;
-use strict;
-use feature qw{ say };
+use v5.36;
 
 my $pie_left    = 1;
 my $max_portion = 0;

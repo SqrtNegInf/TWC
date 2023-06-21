@@ -1,20 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-use utf8;
-use feature qw{ postderef say signatures state switch };
-no warnings
-    qw{ experimental::postderef experimental::smartmatch experimental::signatures };
-
-# Pythagoras Pie Puzzle, proposed by Jo Christian Oterhals.
-#
-# At a party a pie is to be shared by 100 guest.
-# The first guest gets 1% of the pie, the second guest gets 2% of the
-# remaining pie, the third gets 3% of the remaining pie, the fourth gets
-# 4% and so on.
-#
-# Write a script that figures out which guest gets the largest piece of pie.
+use v5.36;
 
 my $max_id    = 0;
 my $max_slice = 0;
@@ -47,10 +32,3 @@ say <<"END";
 ID:     $max_id
 Slice:  $max_slice
 END
-
-__DATA__
-
-$ ./ch-1.pl 
-ID:     10
-Slice:  6.28156509555295
-

@@ -1,7 +1,6 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use feature qw/say/;
+use v5.36;
+
 use constant SHARE_FACT => 0.01;
 
 my $rest_of_the_pie = 1;
