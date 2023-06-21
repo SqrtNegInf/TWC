@@ -1,15 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-# Write a script to generate Van Eck’s sequence starts with 0. For more
-# information, please check out wikipedia page
-# (https://en.wikipedia.org/wiki/Van_Eck%27s_sequence). This challenge was
-# proposed by team member Andrezgz.
-
-# This is a recursive implementation.
-
-use 5.026;
-use strict;
-use warnings;
 use Memoize;
 
 my $sequence_size = 20;

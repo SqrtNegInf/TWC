@@ -1,10 +1,8 @@
 #!/usr/bin/env perl
-
-use warnings;
-use strict;
-use Data::Dumper;
-use List::Util qw(sum);
+use v5.36;
 use feature qw(switch);
+
+use List::Util qw(sum);
 
 #part 1
 my $max = 100;

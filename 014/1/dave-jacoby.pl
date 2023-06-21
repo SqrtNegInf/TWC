@@ -1,18 +1,8 @@
 #!/usr/bin/env perl
-
-use strict ;
-use warnings ;
-use feature qw{ postderef say signatures state } ;
-no warnings qw{ experimental::postderef experimental::signatures } ;
+use v5.36;
 
 use Carp;
 
-# Write a script to generate Van Eck’s sequence starts with 0. 
-# For more information, please check out wikipedia page. 
-# This challenge was proposed by team member Andrezgz.
-
-
-# 0, 0, 1, 0, 2, 0, 2, 2, 1, 6, 0, 5, 0, 2, 6, 5, 4, 0, 5 ... [1]
 
 # let a[0] = 0 
 my @a ;

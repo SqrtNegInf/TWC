@@ -1,11 +1,5 @@
 #!/usr/bin/env perl
-#
-# Write a script to generate Van Eck’s sequence starts with 0
-# (https://en.wikipedia.org/wiki/Van_Eck%27s_sequence)
-################################################################################
-
-use strict;
-use warnings;
+use v5.36;
 
 my $iterations = 20;
 

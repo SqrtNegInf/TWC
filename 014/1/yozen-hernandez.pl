@@ -1,31 +1,11 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use v5.24;
-use strict;
-use warnings;
-use feature qw(say state signatures);
-no warnings "experimental::signatures";
 use Memoize;
 use List::Util qw(first);
-
-# Write a script to generate Van Eck’s sequence starts with 0. For more
-# information, please check out wikipedia page. This challenge was proposed by
-# team member Andrezgz.
  
 # Use Memoize to cache intermediate values in this function
 memoize('van_eck_seq');
-
-=over
-
-=item get_workflow_type_row($n, $init = 0) : @sequence
-
-Return a list of the first $n+1 terms in van Eck's sequence.
-Supplying a value for $init changes the initial (0th) term.
-By default, $init = 0.
-
-=back
-
-=cut
 
 sub van_eck_seq ( $n, $init = 0 ) {
 

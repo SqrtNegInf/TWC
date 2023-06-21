@@ -1,15 +1,5 @@
 #!/usr/bin/env perl
-
-# Perl Weekly Challenge 014-1
-# https://perlweeklychallenge.org/blog/perl-weekly-challenge-014/
-
-# Write a script to generate Van Eck's sequence starting with 0. For
-# more information, please check out wikipedia page at
-# https://en.wikipedia.org/wiki/Van_Eck%27s_sequence
-
-use strict;
-use warnings;
-use feature 'say';
+use v5.36;
 
 my $N = shift @ARGV || 19;
 my @vals;

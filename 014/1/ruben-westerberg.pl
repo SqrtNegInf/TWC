@@ -1,4 +1,5 @@
 #!/usr/bin/env perl
+use v5.36;
 use List::Util qw<max>;
 
 my $nn = $ARGV[0]//19;

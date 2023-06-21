@@ -1,11 +1,5 @@
 #!/usr/bin/env perl
-# Write a script to generate Van Eck’s sequence starts with 0.
-# For more information, please check out wikipedia page.
-# This challenge was proposed by team member Andrezgz.
-
-use strict;
-use warnings;
-use v5.10;
+use v5.36;
 
 my $end = 20;
 
