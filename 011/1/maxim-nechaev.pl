@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use feature 'say';
+use v5.36;
 
 # function to find root
 sub f {

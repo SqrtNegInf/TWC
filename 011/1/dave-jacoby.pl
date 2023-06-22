@@ -1,21 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-use utf8;
-use feature qw{ say };
-
-# Write a script that computes the equal point in the
-# Fahrenheit and Celsius scales, knowing that the
-# freezing point of water is 32 °F and 0 °C,
-# and that the boiling point of water is 212 °F and 100 °C.
-# This challenge was proposed by Laurent Rosenfeld.
-
-# 32  F == 0 C -> F' = F - 32
-# 100 C == 212F == 180F'
-# 5   C == 9 F'
-# Therefore, C = ( 5/9 ( F - 32 ) )
-# And        F = 32 + ( 9/5 C )
+use v5.36;
 
 # We're talking computing, so brute force is allowed
 

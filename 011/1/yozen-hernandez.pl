@@ -1,15 +1,7 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use strict;
-use warnings;
-use feature 'say';
 use Carp;
-
-# Write a script that computes the equal point in the Fahrenheit and Celsius
-# scales, knowing that the freezing point of water is 32 °F and 0 °C, and that
-# the boiling point of water is 212 °F and 100 °C. This challenge was proposed
-# by Laurent Rosenfeld.
-
 
 # Solve a linear equation (form of y = mx + b)
 # where x = y. Needs slope and y-intercept of

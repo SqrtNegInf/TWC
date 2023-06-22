@@ -1,8 +1,7 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
+use v5.36;
+
 use POSIX;
- 
 
 my $pointCelsius = 0;
 my $equalPoint = 0;

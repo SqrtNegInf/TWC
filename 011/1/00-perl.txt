@@ -17,17 +17,7 @@ This is confirmed by conversion from Fahrenheit to Celsius
 Solution found: -40.000 Centigrades is -40.000 Farenheit
  
 ===> 011/1/dave-jacoby.pl <===
--40 °C == -40 °F 
- 
-===> 011/1/duncan-c-white.pl <===
-c=-39, diff=0.799999999999997, delta=3
-c=-39.9, diff=0.0800000000000125, delta=0.3
-c=-39.99, diff=0.00799999999999557, delta=0.03
-c=-39.999, diff=0.000799999999998136, delta=0.003
-c=-39.9999, diff=7.9999999989866e-05, delta=0.0003
-c=-39.99999, diff=7.9999999940128e-06, delta=3e-05
-c=-39.999999, diff=7.99999988032596e-07, delta=3e-06
-c=-39.999999
+-40 Â°C == -40 Â°F 
  
 ===> 011/1/e-choroba.pl <===
 ok 1
@@ -62,9 +52,6 @@ Fahrenheit and Celsius scales meet at: -40
  
 ===> 011/1/pete-houston.pl <===
 Intersection at -40
- 
-===> 011/1/ruben-westerberg.pl <===
--40
  
 ===> 011/1/steven-wilson.pl <===
 The equal point in the Fahrenheit and Celsius scales is -40.

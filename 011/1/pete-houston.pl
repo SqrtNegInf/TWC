@@ -1,17 +1,5 @@
 #!/usr/bin/env perl
-#===============================================================================
-#
-#        FILE: simul.pl
-#
-#        USAGE: ./simul.pl
-#
-#  DESCRIPTION: Solve a set of linear simultaneous equations.
-#              In this case y = x and two points on the other line
-#
-#===============================================================================
-
-use strict;
-use warnings;
+use v5.36;
 
 my @eqpoints  = ([32, 0], [212, 100]);
 my $intersect = get_intersect (@eqpoints);

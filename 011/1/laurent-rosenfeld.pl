@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use feature qw/say/;
+use v5.36;
 
 my %freeze = (F => 32, C => 0);
 my %boil = (F => 212, C => 100);

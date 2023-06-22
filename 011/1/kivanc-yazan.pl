@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-use warnings;
-use strict;
+use v5.36;
 
 # Solution:
 # We are going to build a line where X = C and Y = F.

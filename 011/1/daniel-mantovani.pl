@@ -1,12 +1,5 @@
 #!/usr/bin/env perl
-# Write a script that computes the equal point in the Fahrenheit and Celsius scales,
-# knowing that the freezing point of water is 32 °F and 0 °C,
-# and that the boiling point of water is 212 °F and 100 °C.
-# This challenge was proposed by Laurent Rosenfeld.
-
-use strict;
-use warnings;
-use v5.10;
+use v5.36;
 
 # we start by writing a function (to_f) that converts from
 # celcius to farenheit. As it is a linear function, we
