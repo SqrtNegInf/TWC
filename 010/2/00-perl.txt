@@ -15,12 +15,6 @@ Between the strings 'DwAyNE' and 'DuANE':
 ===> 010/2/daniel-mantovani.pl <===
 Jaro-Winkler distance between crate and trace is: 0.266666666666667
  
-===> 010/2/duncan-c-white.pl <===
-jdiff(CRATE,TRACE)=0.266667
-jdiff(MARTHA,MARHTA)=0.072222
-jdiff(DIXON,DICKSONX)=0.280000
-jdiff(JELLYFISH,SMELLYFISH)=0.103704
- 
 ===> 010/2/guillermo-ramos.pl <===
 0.733333333333333
  

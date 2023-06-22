@@ -1,11 +1,5 @@
 #!/usr/bin/env perl
 use v5.36;
-# Write a script to find Jaro-Winkler distance between two strings.
-# For more information check wikipedia page.
-
-use strict;
-use warnings;
-use v5.10;
 
 # we start by reading both strings
 

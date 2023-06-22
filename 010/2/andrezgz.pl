@@ -1,13 +1,8 @@
 #!/usr/bin/env perl
 use v5.36;
 
-use strict;
-use warnings;
-
 my $dw = 1 - simw(map {lc} <crate trace>);;
 print 'Jaro-Winkler distance: '.sprintf("%.3f",$dw).$/;
-
-exit 0;
 
 #Jaro-Winkler similarity
 sub simw {

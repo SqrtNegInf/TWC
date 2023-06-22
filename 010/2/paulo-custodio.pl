@@ -1,8 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
 
-use Modern::Perl;
-
 sub jaro_similarity {
     my($s1, $s2) = @_;
 

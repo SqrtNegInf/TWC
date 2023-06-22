@@ -1,10 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
 
-use 5.026;
-use strict;
-use autodie;
-use warnings;
 use List::Util qw(min max);
 
 sub main {

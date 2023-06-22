@@ -1,12 +1,5 @@
 #!/usr/bin/env perl
 use v5.36;
-use v5.24;
-use strict;
-use warnings;
-
-# Turn on method signatures
-use feature 'signatures';
-no warnings 'experimental::signatures';
 
 use List::Util qw(first max min);
 

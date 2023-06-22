@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
 use v5.36;
-use strict;
-use warnings;
-use feature qw/say/;
 
 sub max { $_[0] > $_[1] ? $_[0] : $_[1] }
 sub min { $_[0] > $_[1] ? $_[1] : $_[0] }

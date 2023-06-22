@@ -1,13 +1,7 @@
 #!/usr/bin/env perl
 use v5.36;
 
-use strict;
-use warnings;
-use feature qw(say signatures);
-no warnings 'experimental::signatures';
 use List::Util qw(sum);
-
-# Write a script to find Jaro-Winkler distance between two strings.
 
 sub max ( $a, $b ) { ( $a > $b ) ? $a : $b }
 sub min ( $a, $b ) { ( $a < $b ) ? $a : $b }
