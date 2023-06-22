@@ -1,12 +1,5 @@
 #!/usr/bin/env perl
-# Write a script to encode/decode Roman numerals.
-# For example, given Roman numeral CCXLVI, it should return 246.
-# Similarly, for decimal number 39, it should return XXXIX.
-# Checkout wikipedia page for more informaiton.
-
-use strict;
-use warnings;
-use v5.10;
+use v5.36;
 
 # %patterns are all patterns you can find in roman numbers
 # order of patterns are important for matching, as for instance

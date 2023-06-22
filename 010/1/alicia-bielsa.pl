@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-use Data::Dumper;
+use v5.36;
 
 use Readonly;
 

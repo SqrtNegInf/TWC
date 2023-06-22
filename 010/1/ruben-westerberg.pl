@@ -1,8 +1,7 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
+use v5.36;
+
 use List::Util;
-use v2.26;
 
 print romanToDecimal('LVI')."\n";
 print decimalToRoman(56)."\n";

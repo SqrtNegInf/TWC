@@ -44,10 +44,6 @@ The decimal number 39 is XXXIX in Roman numerals
 ===> 010/1/daniel-mantovani.pl <===
 56 converted is: LVI
  
-===> 010/1/duncan-c-white.pl <===
-toroman(56) = LVI
-fromroman(LVI) = 56
- 
 ===> 010/1/e-choroba.pl <===
 ok 1
 ok 2
@@ -81,16 +77,9 @@ ok 29
 ok 30
 1..30
  
-===> 010/1/guillermo-ramos.pl <===
-Test successful
- 
 ===> 010/1/gustavo-chaves.pl <===
 LVI
 56
- 
-===> 010/1/jaldhar-h-vyas.pl <===
-56
-LVI
  
 ===> 010/1/joelle-maslak.pl <===
 TEST 0: XXXIX => 39 ok
@@ -280,8 +269,3 @@ ok 7 - encode current year
 ok 8 - encode zero
 ok 9 - test negative number
 ok 10 - test greater than largest number
- 
-===> 010/1/yozen-hernandez.pl <===
-LVI = 56
-56 = LVI
-Hey, it worked!

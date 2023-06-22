@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-use 5.010.1;
- 
-use strict;
-use warnings;
+use v5.36;
  
 my %roman = reverse qw/
   I   1

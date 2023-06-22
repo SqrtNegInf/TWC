@@ -1,13 +1,5 @@
 #!/usr/bin/env perl
-
-# Challenge 010
-#
-# Challenge #1
-# Write a script to encode/decode Roman numerals. For example, given Roman
-# numeral CCXLVI, it should return 246. Similarly, for decimal number 39, it
-# should return XXXIX. Checkout wikipedia page for more information.
-
-use Modern::Perl;
+use v5.36;
 
 my %ROMAN = ( M => 1000, D => 500, C => 100, L => 50, X => 10, V => 5, I => 1 );
 my $RE = qr/[MDCLXVI]/i;

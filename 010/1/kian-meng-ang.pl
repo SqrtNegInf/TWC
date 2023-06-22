@@ -1,12 +1,5 @@
 #!/usr/bin/env perl
-# vi:et:sw=4 ts=4 ft=perl
-#!/usr/bin/env perl
-
-use 5.010;
-use strict;
-use warnings;
-use utf8;
-use Data::Dumper;
+use v5.36;
 
 use constant LARGEST_ROMAN_NUMBER => 3_999;
 

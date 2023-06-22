@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
-use strict;
-use feature 'say';
+use v5.36;
+
 use List::Util qw/first/;
 
 sub lat2dec {

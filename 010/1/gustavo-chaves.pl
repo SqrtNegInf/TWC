@@ -1,9 +1,5 @@
 #!/usr/bin/env perl
-
-use 5.026;
-use strict;
-use autodie;
-use warnings;
+use v5.36;
 
 my %powers = (
     M => 1000,

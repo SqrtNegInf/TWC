@@ -1,11 +1,9 @@
 #!/usr/bin/env perl
-
-no warnings;
-use strict;
-
-#use Data::Dumper;
-use List::Util qw(sum);
+use v5.36;
 use feature qw(switch);
+no warnings 'experimental';
+
+use List::Util qw(sum);
 my $num = 39;
 my $roman = 'xxxix';
 print "$num to roman: ",intToRoman($num),"\n";
