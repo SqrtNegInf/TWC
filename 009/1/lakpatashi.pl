@@ -1,9 +1,5 @@
 #!/usr/bin/env perl
-
-use warnings;
-use strict;
-
-#part 1
+use v5.36;
 
 my ($i,$count) = (1,0);
 for (;;){

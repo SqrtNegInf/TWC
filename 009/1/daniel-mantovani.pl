@@ -1,9 +1,5 @@
 #!/usr/bin/env perl
-# Write a script that finds the first square number that has at least 5 distinct digits.
-# This was proposed by Laurent Rosenfeld.
-use strict;
-use warnings;
-use v5.10;
+use v5.36;
 
 # we start by defining a sub that checks how many different digits a number has:
 

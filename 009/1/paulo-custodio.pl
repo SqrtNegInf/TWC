@@ -1,12 +1,5 @@
 #!/usr/bin/env perl
-
-# Challenge 009
-#
-# Challenge #1
-# Write a script that finds the first square number that has at least 5 distinct
-# digits. This was proposed by Laurent Rosenfeld.
-
-use Modern::Perl;
+use v5.36;
 
 sub num_diff_digits {
     my($n) = @_;

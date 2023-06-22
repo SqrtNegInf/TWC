@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use feature qw/say/;
+use v5.36;
 
 for my $integer (100..1000) {
     my $square = $integer ** 2;

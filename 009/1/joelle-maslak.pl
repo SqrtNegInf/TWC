@@ -1,16 +1,5 @@
 #!/usr/bin/env perl
-use v5.24;
-use strict;
-use warnings;
-
-#
-# Copyright (C) 2019 Joelle Maslak
-# All Rights Reserved - See License
-#
-
-# Turn on method signatures
-use feature 'signatures';
-no warnings 'experimental::signatures';
+use v5.36;
 
 use List::Util qw(uniqnum);
 

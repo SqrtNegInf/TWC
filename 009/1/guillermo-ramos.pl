@@ -1,9 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use strict;
-use warnings;
-
-# Compute distinct digits of the given number
 sub distinct {
     my $n = shift;
     my %uniq; # Poor man's set

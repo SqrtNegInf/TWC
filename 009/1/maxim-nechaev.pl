@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use feature 'say';
+use v5.36;
 
 my $n = 0;
 for ( my ($k, %d) = 1; keys %d != 5; $k++ ) {

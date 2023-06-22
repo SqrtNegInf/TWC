@@ -1,12 +1,5 @@
 #!/usr/bin/env perl
-
-# https://perlweeklychallenge.org/blog/perl-weekly-challenge-009/
-# Challenge #1
-# Write a script that finds the first square number that has at least 5 distinct digits.
-# This was proposed by Laurent Rosenfeld.
-
-use strict;
-use warnings;
+use v5.36;
 
 my $n = 100; #any less won't give a 5 digit number when squared
 my @digits;

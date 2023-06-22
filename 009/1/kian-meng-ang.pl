@@ -1,9 +1,5 @@
 #!/usr/bin/env perl
-
-use 5.010;
-use strict;
-use warnings;
-use utf8;
+use v5.36;
 
 use constant MAX_DISTINCT_DIGITS => 5;
 
@@ -22,11 +18,3 @@ while ($n) {
 
     $n++;
 }
-
-1;
-
-__END__
-$ perl ch1.pl
-12769
-
-# vi:et:sw=4 ts=4 ft=perl

@@ -1,13 +1,10 @@
  
-===> 009/1/adam-russell.pl <===
-First square with five distinct digits: 12769 (= 113 * 113)
- 
 ===> 009/1/andrezgz.pl <===
 12769 
 ===> 009/1/athanasius.pl <===
 
 The first square number that has at least 5 distinct digits is:
-113² = 12769
+113Â² = 12769
  
 ===> 009/1/daniel-mantovani.pl <===
 First square with 5 distinct digits is: 12769
@@ -51,15 +48,9 @@ First square with 5 distinct digits is: 12769
 ===> 009/1/ruben-westerberg.pl <===
 12769
  
-===> 009/1/steven-wilson.pl <===
-The square of 113 (12769) is the first square that has at least 5 distinct digits.
- 
 ===> 009/1/veesh-goldman.pl <===
 113
  
 ===> 009/1/yet-ebreo.pl <===
 First square number that has at least 5 distinct: 12769
 Run Time: 0 sec
- 
-===> 009/1/yozen-hernandez.pl <===
-12769

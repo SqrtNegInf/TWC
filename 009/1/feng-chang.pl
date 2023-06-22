@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use Modern::Perl;
 use List::Uniq ':all';
 
 my $n = 101;
