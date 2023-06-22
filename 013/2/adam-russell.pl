@@ -1,9 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-##
-# Using mutually recursive methods, generate Hofstadter Female and Male sequences.
-##
+use v5.36;
 
 sub F{
     my($n) = @_;

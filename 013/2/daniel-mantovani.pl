@@ -1,16 +1,5 @@
 #!/usr/bin/env perl
-# Write a script to demonstrate Mutually Recursive methods.
-# Two methods are mutually recursive if the first method
-# calls the second and the second calls first in turn.
-# Using the mutually recursive methods, generate
-# Hofstadter Female and Male sequences.
-
-#  F ( 0 ) = 1   ;   M ( 0 ) = 0
-#  F ( n ) = n − M ( F ( n − 1 ) ) , n > 0
-#  M ( n ) = n − F ( M ( n − 1 ) ) , n > 0.
-use strict;
-use warnings;
-use v5.10;
+use v5.36;
 
 # we just write the required functions as Perl subs:
 

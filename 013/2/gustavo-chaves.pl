@@ -1,15 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-# Write a script to demonstrate Mutually Recursive methods. Two methods are
-# mutually recursive if the first method calls the second and the second calls
-# first in turn. Using the mutually recursive methods, generate Hofstadter
-# Female and Male sequences
-# (https://en.wikipedia.org/wiki/Hofstadter_sequence#Hofstadter_Female_and_Male_sequences).
-
-use 5.026;
-use strict;
-use autodie;
-use warnings;
 use Memoize;
 
 my $n = 19;

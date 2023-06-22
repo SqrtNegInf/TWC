@@ -1,15 +1,12 @@
 #!/usr/bin/env perl
-use warnings;
-use strict;
-
-use Function::Parameters;
+use v5.36;
 
 use Memoize;
 memoize('F');
 memoize('M');
 
-fun F ($n) { $n ? $n - M(F($n - 1)) : 1 }
-fun M ($n) { $n ? $n - F(M($n - 1)) : 0 }
+sub F ($n) { $n ? $n - M(F($n - 1)) : 1 }
+sub M ($n) { $n ? $n - F(M($n - 1)) : 0 }
 
 use Test::More;
 

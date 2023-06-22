@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use feature 'say';
+use v5.36;
 no warnings 'recursion';
 
 sub F { my $n=shift; $n>0? $n - M(F($n-1)) : 1 }

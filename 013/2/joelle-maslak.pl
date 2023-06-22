@@ -1,17 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use strict;
-use warnings;
-
-use v5.22;
-
-# Turn on method signatures
-use feature 'signatures';
-no warnings 'experimental::signatures';
-
-# If you try computing say 1000 of these, you get a mess without
-# caching.  It gives deep recursion warnings and slowness.  So we use
-# Memoize to speed this up.
 use Memoize;
 
 memoize('F');

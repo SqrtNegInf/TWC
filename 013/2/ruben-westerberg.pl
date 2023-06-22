@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
-use warnings;
-use strict;
+use v5.36;
+
 sub male {
 	my $n=shift;
 	$n==0?0:($n-female(male($n-1)));

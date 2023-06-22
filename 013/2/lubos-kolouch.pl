@@ -1,8 +1,6 @@
 #!/usr/bin/env perl
-
-use strict;
-no warnings;
-use 5.020;
+use v5.36;
+no warnings 'uninitialized';
 
 my $max = 19;
 

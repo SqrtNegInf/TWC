@@ -1,14 +1,7 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use strict;
-use warnings;
-use feature qw(say state);
 use Carp;
-
-# Write a script to demonstrate Mutually Recursive methods. Two methods are
-# mutually recursive if the first method calls the second and the second calls
-# first in turn. Using the mutually recursive methods, generate Hofstadter
-# Female and Male sequences.
 
 sub hofstadter_F {
     my $n = shift;
