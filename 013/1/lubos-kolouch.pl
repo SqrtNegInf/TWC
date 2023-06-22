@@ -1,9 +1,7 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use strict;
-use warnings;
 use Date::Calc qw/check_date Day_of_Week/;
-use 5.020;
 
 my $year = 2019;
 

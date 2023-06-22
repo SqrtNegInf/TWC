@@ -1,14 +1,8 @@
 #!/usr/bin/env perl
-# The Weekly Challenge - 013
-# Task 1 Last Friday
-# attempt: May 09th, 2021
-# from: C.-Y. Fung
-# Usage: ch-1.pl [year]
-# Java correspondence: LastFriday.java
+use v5.36;
+
 use Time::Piece;
 use Time::Seconds;
-use strict;
-use warnings;
 
 my $year = $ARGV[0] || 2019;
 die "Sorry, it's too long ago." if $year < 1900;

@@ -1,29 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-# Perl Weekly Challenge 013-1
-# https://perlweeklychallenge.org/blog/perl-weekly-challenge-013/
-#
-# Write a script to print the date of last Friday of every month of a
-# given year. For example, if the given year is 2019 then it should
-# print the following:
-#
-# 2019/01/25
-# 2019/02/22
-# 2019/03/29
-# 2019/04/26
-# 2019/05/31
-# 2019/06/28
-# 2019/07/26
-# 2019/08/30
-# 2019/09/27
-# 2019/10/25
-# 2019/11/29
-# 2019/12/27
-
-use strict;
-use warnings;
-use feature qw(:5.30);
-use experimental qw(signatures);
 use Time::Local;
 
 my $year = shift @ARGV || current_year();

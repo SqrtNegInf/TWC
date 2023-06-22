@@ -1,24 +1,5 @@
 #!/usr/bin/env perl
-# Write a script to print the date of last Friday of every month of a given year.
-# For example, if the given year is 2019 then it should print the following:
-
-use strict;
-use warnings;
-use v5.10;
-
-# To find last Friday of each month we will go to the next month
-# first Friday and then back a whole week. First week of a month
-# is easy to identify because "month day" of it will be 1 to 7.
-#
-# So we will go from first week of February to first week of
-# January next year to get all values form corresponding
-# previous week.
-#
-# We start by reading year value, and calculating epoch of
-# first day of February at noon for that year.
-#
-# We are going to use the core Time::Local module for that,
-# and we will always use GMT/UTC variant.
+use v5.36;
 
 use Time::Local;
 my $year   = 2019;

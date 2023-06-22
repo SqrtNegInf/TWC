@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
+use v5.36;
 
 use constant YEAR => 2019; 
 use constant FRIDAY => 5; 

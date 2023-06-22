@@ -1,19 +1,5 @@
 #!/usr/bin/env perl
-
-# Perl Weekly Challenge 013-1
-
-# Write a script to print the date of last Friday of every month 
-# of a given year. For example, if the given year is 2019 
-# then it should print the following:
-
-# I should not have read the challenge during the start of TPC
-
-use strict;
-use warnings;
-use utf8;
-use feature qw{ postderef say signatures state switch };
-no warnings
-    qw{ experimental::postderef experimental::smartmatch experimental::signatures };
+use v5.36;
 
 use DateTime;
 

@@ -1,13 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-
-use v5.22;
-
-# Turn on method signatures
-use feature 'signatures';
-no warnings 'experimental::signatures';
+use v5.36;
 
 use POSIX qw(mktime strftime);
 

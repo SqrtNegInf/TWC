@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use Modern::Perl;
 use Date::Manip;
 
 sub is_leap_year {

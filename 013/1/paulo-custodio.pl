@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use Modern::Perl;
 use constant Friday => 5;
 
 sub is_leap {

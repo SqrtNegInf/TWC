@@ -1,10 +1,5 @@
 #!/usr/bin/env perl
-#
-# Write a script to print the date of last Friday of every month of a given year
-################################################################################
-
-use strict;
-use warnings;
+use v5.36;
 
 use Time::Local qw<timelocal>;
 

@@ -1,14 +1,7 @@
 #!/usr/bin/env perl
+use v5.36;
 
-# Challenge 1: "Write a script to print the date of last Friday of every
-# month of a given year. For example, if the given year is 2019 then it
-# should print the following:
-
-use strict;
-use warnings;
-use Function::Parameters;
 use Date::Manip;
-#use Data::Dumper;
 
 my $year = 2019;
 
@@ -17,7 +10,7 @@ my $year = 2019;
 #	Find the day number (1..31) of the last Friday in
 #	month $month (1..12) in year $year.
 #
-fun findlasstfriday( $year, $month )
+sub findlasstfriday( $year, $month )
 {
 	my $ndays = Date_DaysInMonth $month,$year;
 	my $lastfriday = -1;
