@@ -1,13 +1,7 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use strict;
-use warnings;
-use feature 'say';
 use Carp;
-
-# Write a script that finds the common directory path, given a collection of
-# paths and directory separator. For example, if the following paths are
-# supplied.
 
 sub find_common_path {
     my ( $path_sep, $paths_ref ) = @_;

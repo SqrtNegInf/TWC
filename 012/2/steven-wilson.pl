@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-use feature qw / say /;
+use v5.36;
 
 my @paths = qw# /a/b/c/d /a/b/cd /a/b/cc /a/b/c/d/e #;
 my @path_dirs;

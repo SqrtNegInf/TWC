@@ -1,8 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use strict;
-use warnings;
-use v5.26;
 my $separator='/';
 my @list=</a/b/c/d /a/b/cd /a/b/cc /a/b/c/d/e>;
 my @path=map { [ (split $separator, $_)]} @list;

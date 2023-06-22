@@ -1,7 +1,7 @@
 #!/usr/bin/env perl
+use v5.36;
+
 use POSIX;
-use strict;
-use warnings;
 use List::Util qw( min max sum);
 
 my @arr = qw(/a/b/c/d /a/b/cd /a/b/cc /a/b/c/d/e);

@@ -1,10 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-use utf8;
-use feature qw{ postderef say state };
-no warnings qw{ experimental::postderef };
+use v5.36;
 
 my @paths;
 push @paths, '/a/b/c/d';

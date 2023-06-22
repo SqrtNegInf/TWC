@@ -1,13 +1,5 @@
 #!/usr/bin/env perl
-
-use warnings;
-use strict;
-use feature qw(say);
-use Data::Dumper;
-
-# Write a script that finds the common directory path, given a collection
-# of paths and directory separator. For example, if the following paths
-# are supplied.
+use v5.36;
 
 my @path_list = qw(
 	/a/b/c/d

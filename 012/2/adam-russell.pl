@@ -1,15 +1,8 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-##
-# Write a script that finds the common directory path, 
-# given a collection of paths and directory separator.
-##
+use v5.36;
+
 use boolean;  
 
-##
-# Main
-##
 my @paths; 
 my $common_path; 
 my $seperator = <DATA>;  
