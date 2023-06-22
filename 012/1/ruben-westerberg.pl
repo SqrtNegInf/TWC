@@ -1,7 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use strict;
-use warnings;
 my $searchFlag=1;
 my @primes;
 my $i=2;

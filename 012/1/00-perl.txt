@@ -23,15 +23,6 @@ First not prime Euclid is 30031
 2,3,5,7,11,13
 1,59,509
  
-===> 012/1/duncan-c-white.pl <===
-prime=2, prod=2, euclid=3: is prime
-prime=3, prod=6, euclid=7: is prime
-prime=5, prod=30, euclid=31: is prime
-prime=7, prod=210, euclid=211: is prime
-prime=11, prod=2310, euclid=2311: is prime
-prime=13, prod=30030, euclid=30031: is not prime
-factors of 30031 are: 59,509
- 
 ===> 012/1/e-choroba.pl <===
 ok 1
 ok 2

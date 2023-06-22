@@ -1,23 +1,7 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-use utf8;
-use feature qw{ postderef say signatures state switch };
-no warnings
-    qw{ experimental::postderef experimental::smartmatch experimental::signatures };
+use v5.36;
 
 use List::Util qw{reduce};
-
-use JSON;
-my $json = JSON->new->pretty->canonical->utf8;
-
-# The numbers formed by adding one to the products of the
-# smallest primes are called the Euclid Numbers (see wiki).
-# Write a script that finds the smallest Euclid Number that
-# is not prime. This challenge was proposed by Laurent Rosenfeld.
-
-#  E6 = 13# + 1 = 30031 = 59 � 509 is the first composite Euclid number.
 
 my @primes;
 

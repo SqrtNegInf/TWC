@@ -1,14 +1,5 @@
 #!/usr/bin/env perl
-
-# Challenge 012
-#
-# Challenge #1
-# The numbers formed by adding one to the products of the smallest primes are
-# called the Euclid Numbers (see wiki). Write a script that finds the smallest
-# Euclid Number that is not prime. This challenge was proposed by
-# Laurent Rosenfeld.
-
-use Modern::Perl;
+use v5.36;
 
 # check if number is prime
 sub is_prime {

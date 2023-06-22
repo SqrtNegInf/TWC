@@ -1,4 +1,5 @@
 #!/usr/bin/env perl
+use v5.36;
 
 sub is_prime { # is a given positive integer an odd prime?
     my ($n) = @_;

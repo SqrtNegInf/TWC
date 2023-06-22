@@ -1,7 +1,6 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use feature "say";
+use v5.36;
+
 use constant largest_num => 1000;
 
 sub find_primes {

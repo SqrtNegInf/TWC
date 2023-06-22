@@ -1,31 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-
-use v5.22;
-
-# Turn on method signatures
-use feature 'signatures';
-no warnings 'experimental::signatures';
-
-# Well, let's optimize for speed.  But not force the user to use Inline
-# if they can't use it for some reason. So we need a fallback to a pure
-# Perl implementation.
-#
-# This is a trivial enough problem we don't need to optimize for speed,
-# but let's do so anyhow.
-#
-# This line will use lib/Prime.pm if it can be required (it'll require
-# Inline::C to compile the C code), but if that fails, we'll fall back
-# to the perl_isprime function.
-#
-# And, yes, it's actually slower running the "fast" int_isprime method
-# because of the overhead to load it, but if we had to look at lots of
-# primes, it would be faster.  ;)
-#
-use FindBin;
-use lib "$FindBin::Bin/lib";
+use v5.36;
 
 my $is_prime = eval { require Prime } ? \&Prime::int_isprime : \&perl_isprime;
 

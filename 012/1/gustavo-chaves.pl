@@ -1,15 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-# The numbers formed by adding one to the products of the smallest primes are
-# called the Euclid Numbers (see
-# https://en.wikipedia.org/wiki/Euclid_number). Write a script that finds the
-# smallest Euclid Number that is not prime. This challenge was proposed by
-# Laurent Rosenfeld.
-
-use 5.026;
-use strict;
-use autodie;
-use warnings;
 use List::Util qw(product);
 
 sub main {
