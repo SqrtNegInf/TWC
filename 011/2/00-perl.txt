@@ -30,13 +30,6 @@ Identity Matrix of size 5:
 |0 0 0 1 0|
 |0 0 0 0 1|
  
-===> 011/2/duncan-c-white.pl <===
-10000
-01000
-00100
-00010
-00001
- 
 ===> 011/2/e-choroba.pl <===
 
 [

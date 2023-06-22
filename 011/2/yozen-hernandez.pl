@@ -1,13 +1,8 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use strict;
-use warnings;
-use feature 'say';
 use Carp;
 
-# Identity matrices In exist for all nxn square matrices where n > 0
-# Simply take an n and generate a matrix with 1's along the diagonal
-# ie, 1 @ position i for 0 ≤ i < n (in 0-indexed arrays)
 sub ident_mat {
     my $n = shift or croak "Must supply an value for size of square matrix";
 

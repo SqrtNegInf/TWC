@@ -1,10 +1,5 @@
 #!/usr/bin/env perl
-#Write a script to create an Indentity Matrix for the given size.
-#For example, if the size is 4, then create Identity Matrix 4x4. 
-#For more information about Indentity Matrix, please read the wiki page.
-
-use strict;
-use warnings;
+use v5.36;
 
 my $size = 5;
 

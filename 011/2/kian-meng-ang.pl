@@ -1,8 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use v5.10;
-use strict;
-use warnings;
 use Math::MatrixReal;
 
 my $n = 5;

@@ -1,4 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
+
 my $s=5;
 my @r;
 for(my $i=0; $i<$s; $i++){

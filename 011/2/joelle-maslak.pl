@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-use v5.24;
-use strict;
-use warnings;
+use v5.36;
 
 # Get the size of the matrix
 my $size = 5;

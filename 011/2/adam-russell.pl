@@ -1,10 +1,6 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-##
-# Write a script to create an Identity Matrix for the given size. 
-# For example, if the size is 4, then create Identity Matrix 4x4. 
-##
+use v5.36;
+
 use constant SIZE => 5;
 
 my @a;
