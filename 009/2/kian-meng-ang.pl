@@ -1,9 +1,5 @@
 #!/usr/bin/env perl
-
-use 5.010;
-use strict;
-use warnings;
-use utf8;
+use v5.36;
 
 MAIN: {
     my $data = {
@@ -109,3 +105,4 @@ goldfish       40        2         3         2
 bettas         30        4         4         3
 
 # vi:et:sw=4 ts=4 ft=perl
+use v5.36;

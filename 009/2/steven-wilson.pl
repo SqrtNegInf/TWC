@@ -1,21 +1,6 @@
 #!/usr/bin/env perl
-# Author: Steven Wilson
-# Date: 2019-05-22
-# Challenge #2
-# Write a script to perform different types of ranking as described below:
-# 1. Standard Ranking (1224): Items that compare equal receive the
-# same ranking number, and then a gap is left in the ranking numbers.
-# 2. Modified Ranking (1334): It is done by leaving the gaps in the
-# ranking numbers before the sets of equal-ranking items.
-# 3. Dense Ranking    (1223): Items that compare equally receive the
-# same ranking number, and the next item(s) receive the immediately
-# following ranking number.
-# For more information, please refer to wiki page.
-# https://en.wikipedia.org/wiki/Ranking
+use v5.36;
 
-use warnings;
-use strict;
-use feature qw/ say /;
 use Test::More tests => 3;
 
 my @sorted_values = ( 1, 2, 2, 2, 3, 5, 5, 6, 6, 7, 7, 8, 8, 8, 8, 9, 9, 10 );

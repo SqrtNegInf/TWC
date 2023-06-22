@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use v5.26;
+use v5.36;
 
 my @inputs=@ARGV > 0 ? @ARGV : (10,20,20,51);
 @inputs =sort @inputs;

@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use feature qw/say/;
+use v5.36;
 
 die 'not ok - disabled: equal-value rankings not stable in output';
 

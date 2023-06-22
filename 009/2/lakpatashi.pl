@@ -1,11 +1,9 @@
 #!/usr/bin/env perl
+use v5.36;
 
-no warnings;
-use strict;
-
-#part 2
-use Data::Dumper;
 use feature qw(switch);
+no warnings 'experimental';
+
 print "\n\n";
 my @points = (20,10,40,20);
 print "Points List: ",join(' ', @points), "\n";

@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
+use v5.36;
+
 use boolean;
 use Tie::RefHash;
 
@@ -140,7 +140,7 @@ my @characters = ("A".."Z");
 for(0..9){
     my $string;
     $string .= $characters[rand @characters] for 1..3; 
-    push @things, new Thing({score => int(rand(10)+1), name => $string});  
+    push @things, Thing->new({score => int(rand(10)+1), name => $string});  
 }  
 @things = sort {sorter($a, $b, \&Thing::get_score)} @things; 
 $rankings = standard_rank(\@things, \&Thing::get_score); 
