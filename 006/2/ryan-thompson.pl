@@ -1,11 +1,10 @@
 #!/usr/bin/env perl
+use v5.36;
 
 # not quite right...
 
-use 5.010;
-use warnings;
-use strict;
 use utf8;
+use bignum;
 
 use constant π => 3.14159265359;
 use constant 𝑒 => 2.71828182846;

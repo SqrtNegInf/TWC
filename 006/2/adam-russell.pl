@@ -1,12 +1,9 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-##
-# Create a script to calculate Ramanujan’s constant with at least 32 digits of precision.
-## 
+use v5.36;
+
 use Math::BigFloat;  
-my $accuracy = $ARGV[0];  
-my $x = new Math::BigFloat(163);
+my $accuracy = 128;
+my $x = Math::BigFloat->new(163);
 $x -> bsqrt();
 $x -> bmul(Math::BigFloat->bpi());  
 $x -> bexp($accuracy); 
