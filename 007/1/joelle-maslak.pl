@@ -1,19 +1,8 @@
 #!/usr/bin/env perl
-use v5.26;
-use strict;
-use warnings;
-
-# Turn on method signatures
-use feature 'signatures';
-no warnings 'experimental::signatures';
+use v5.36;
 
 if ( @ARGV > 1 )      { die("Provide letters to use and (optionally) filename") }
 my $MAX = $ARGV[0] // 50;
-
-#
-# Copyright (C) 2019 Joelle Maslak
-# All Rights Reserved - See License
-#
 
 
 MAIN: {

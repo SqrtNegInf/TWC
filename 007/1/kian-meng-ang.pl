@@ -1,9 +1,5 @@
 #!/usr/bin/env perl
-
-use 5.010;
-use strict;
-use warnings;
-use utf8;
+use v5.36;
 
 sub generate_niven_sequence {
     my %args = @_;
@@ -24,11 +20,3 @@ sub generate_niven_sequence {
 }
 
 say join q/|/, @{generate_niven_sequence(from => 0, to =>50)};
-
-1;
-
-__END__
-$ perl ch1-1.pl
-1|2|3|4|5|6|7|8|9|10|12|18|20|21|24|27|30|36|40|42|45|48|50
-# vi:et:sw=4 ts=4 ft=perl
-

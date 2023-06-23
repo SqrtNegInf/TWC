@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-#Print all the niven numbers from 0 to 50 inclusive, each on their own line. 
-#A niven number is a non-negative number that is divisible by the sum of its digits.
-use strict;
-use warnings;
+use v5.36;
 
 foreach my $i (0..50){
 	if (isNiven($i)){
