@@ -35,6 +35,10 @@ Filehandles can be undef: [088/2/polettix.pl]
 Parens needed to disambiguate precedence: [092/1/arne-sommer.pl]
     (0 .. length $A - 1) ==> (0 .. length($A) - 1) 
 
+
+Bareword not allowed while "strict subs" in use [029/2/dave-jacoby.pl]
+    use Inline C ==> use Inline 'C'
+
 'Useless use' warnings: [?]
     xxx
 
