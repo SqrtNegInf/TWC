@@ -1,4 +1,5 @@
 #!/usr/bin/env perl
+use v5.36;
 
 use 5.028.1;
 use List::Util qw(sum);

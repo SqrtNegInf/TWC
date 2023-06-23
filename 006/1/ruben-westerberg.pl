@@ -1,4 +1,5 @@
 #!/usr/bin/env perl
+use v5.36;
 
 my @a=split ',' , '1,2,3,4,9,10,14,15,16';
 my %bag;
