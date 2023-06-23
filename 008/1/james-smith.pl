@@ -1,5 +1,6 @@
 #!/usr/bin/env perl
-use feature qw(say);
+use v5.36;
+
 use List::Util qw(notall);
 my $q = 1;
 foreach(1..7) {

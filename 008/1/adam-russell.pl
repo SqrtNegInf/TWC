@@ -1,11 +1,6 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-##  
-# Write a script that computes the first five perfect numbers. 
-# A perfect number is an integer that is the sum of its positive 
-# proper divisors (all divisors except itself). 
-##
+use v5.36;
+
 use constant PERFECT_COUNT => 3;
 
 sub factor{

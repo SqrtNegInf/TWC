@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-
-use warnings;
-use strict;
+use v5.36;
 
 # part 1
 # withIteration takes so much time to produce 5th element 

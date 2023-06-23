@@ -1,4 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
+
 my $count=0;
 my $number=1;
 my @perlfect;

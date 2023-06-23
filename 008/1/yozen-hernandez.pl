@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
+use v5.36;
 
 use constant mersenne_exps => (
     2,        3,        5,        7,        13,       17,
