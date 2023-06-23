@@ -1,15 +1,7 @@
 #!/usr/bin/env perl
+use v5.36;
 
-# Challenge 2: "Write a function, center, whose argument is a list of
-# strings, which will be lines of text. The function should insert spaces
-# at the beginning of the lines of text so that if they were printed,
-# the text would be centered, and return the modified lines."
-
-use strict;
-use warnings;
-use Function::Parameters;
 use File::Slurp;
-use Data::Dumper;
 
 die "Usage: ch-2.pl [DATAFILE]\n" if @ARGV > 1;
 my $datafilename = shift // $0;
@@ -20,7 +12,7 @@ my $datafilename = shift // $0;
 #       Find and return the maximum length of any string
 #       element of @data.
 #
-fun maxlength( @data )
+sub maxlength( @data )
 {
         my $maxlen = 0;
         foreach my $s (@data)
@@ -39,7 +31,7 @@ fun maxlength( @data )
 #       which every element is the original element
 #       of @data, padded with leading spaces to centere it.
 #
-fun center( @data )
+sub center( @data )
 {
         my @result;
         my $maxlen = maxlength( @data );

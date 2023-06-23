@@ -1,10 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-
-
-#my @aLinesCentered = center("This", "is", "a test of the", "center function");
+use v5.36;
 
 # we generate some strings with a character of our choice to draw a diamond
 my @aStrings =();

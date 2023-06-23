@@ -1,21 +1,9 @@
 #!/usr/bin/env perl
-use v5.26;
-use strict;
-use warnings;
+use v5.36;
 
-# Turn on method signatures
-use feature 'signatures';
-no warnings 'experimental::signatures';
-
-use autodie;
 use List::Util qw(max);
 
 my $file = $ARGV[0] // $0;
-
-#
-# Copyright (C) 2019 Joelle Maslak
-# All Rights Reserved - See License
-#
 
 open my $fh, '<', $file;
 my @lines;

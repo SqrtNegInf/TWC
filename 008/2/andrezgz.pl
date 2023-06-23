@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
+use v5.36;
 
 print join $/, center("This", "is", "a test of the", "center function");
 
