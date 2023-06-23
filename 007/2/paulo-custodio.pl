@@ -1,8 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
 
-use Modern::Perl;
-
 # get arguments
 sub get_args {
     @ARGV==2 or die "Usage: ch-2.pl word1 word2\n";

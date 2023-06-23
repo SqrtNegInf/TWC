@@ -3,17 +3,13 @@ use v5.36;
 
 # fragile
 
-use utf8; 
-use strict;
-use warnings;
-
 use Graph;
 use boolean;
 use constant OO => "∞";
 
 sub build_graph{
     my($words) = @_;  
-    my $graph = new Graph(undirected => true);
+    my $graph = Graph->new(undirected => true);
     foreach my $w0 (@{$words}){
         my $length_w0 = do{
             $w0 =~ tr/[a-z]//;

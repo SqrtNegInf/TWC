@@ -1,16 +1,12 @@
 #!/usr/bin/env perl
 use v5.36;
 
-use warnings;
-use strict;
-use FindBin;
-
 my @start=split '', 'bat';
 my @end=split '', 'big';
 my $wordPath= 'words3';
 
 die "Words not the same length: Ladder: ()\n" if (@start != @end);
-#my $wordsFile= $FindBin::Bin."/../words_alpha.txt";
+
 open my $wfh, "<" , $wordPath;
 my @words;
 my $ok=0;

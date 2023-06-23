@@ -1,14 +1,5 @@
 #!/usr/bin/env perl
 use v5.36;
-use v5.26;
-use strict;
-use warnings;
-
-# Turn on method signatures
-use feature 'signatures';
-no warnings 'experimental::signatures';
-
-use autodie;
 
 my $src  = 'bat';
 my $dst  = 'big';

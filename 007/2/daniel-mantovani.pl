@@ -1,12 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
-
-use strict;
-no warnings;
-use utf8;
-use v5.10;
-
-# before entering the problem, we will get the input data
+no warnings 'uninitialized';
 
 my ( $word1, $word2 ) = ( 'bat', 'big' );
 my @wordlist = <bat big bit bog>;
