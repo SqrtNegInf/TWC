@@ -1,4 +1,5 @@
 #!/usr/bin/env perl
+#use v5.36;
 # WARNING: this polyglot breaks best practices of both Perl 5 and Perl 6 in order to run on both
 
 sub eval($_)      { &EVAL($_) };

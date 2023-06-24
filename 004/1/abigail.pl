@@ -1,34 +1,5 @@
 #!/usr/bin/env perl
-
-use 5.032;
-
-use strict;
-use warnings;
-no  warnings 'syntax';
-
-use experimental 'signatures';
-use experimental 'lexical_subs';
-
-#
-# See https://theweeklychallenge.org/blog/perl-weekly-challenge-004
-#
-
-#
-# Run as: perl ch-1.pl
-#
-
-################################################################################
-#
-# We have encoded the digits of perl. We're grouping the digits (after
-# the decimal dot), in groups of 9, considering this as a base-10 number,
-# and then we turn this into a base-91 number. To represent the base-91
-# number, we are using ASCII characters, starting from "#", up to "~",
-# *BUT* skipping "\".
-#
-# We can encode a 9 digit base-10 number with 5 characters in base-91,
-# giving us a 44.44% reduction in size.
-#
-################################################################################
+use v5.36;
 
 my $first_ord  = 1 + ord ('"');
 my $skip_ord   = ord ("\\");
@@ -52,10 +23,6 @@ while (<DATA>) {
     }
 }
 print "\n";
-
-#
-# FODDER FODDER FODDER FODDER FODDER FODDER FODDER!!
-#
 
 __DATA__
 %(uP7+Y`ME)gy(7')v?;%s^qc(Mj1}16idp'ONGs'2m.o,1HLY'}~P61@@Y-

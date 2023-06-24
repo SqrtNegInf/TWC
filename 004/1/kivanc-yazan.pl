@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
-use warnings;
-use strict;
+use v5.36;
+
 use Math::Prime::Util qw/Pi/;
 
 open(my $fh, "<", $0);
