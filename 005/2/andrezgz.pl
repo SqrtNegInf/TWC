@@ -1,14 +1,5 @@
 #!/usr/bin/env perl
-
-# https://perlweeklychallenge.org/blog/perl-weekly-challenge-005/
-# Challenge #2
-# Write a program to find the sequence of characters that has the most anagrams.
-
-# An anagram may be a phrase, but I limit this code only to words of the same length as the given one,
-# because even if I can make a phrase (string of words using the considered letters) it may not have sense.
-
-use strict;
-use warnings;
+use v5.36;
 
 my $words_file = 'words';
 

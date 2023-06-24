@@ -1,10 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use 5.010;
-use autodie;
-use strict;
-use warnings;
-use utf8;
 use Carp;
 use List::Util qw(max);
 

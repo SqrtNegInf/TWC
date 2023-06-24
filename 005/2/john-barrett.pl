@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-use autodie;
+use v5.36;
 
 sub sortedlc { join '', sort { $a cmp $b } split '', lc $_[0] }
 

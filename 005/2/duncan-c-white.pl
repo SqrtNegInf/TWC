@@ -1,17 +1,5 @@
 #!/usr/bin/env perl
-
-# Find which word (from a wordlist) has the most anagrams.  Print out that
-# word and all it's anagrams.
-# 
-# Calculate the signature of every word in the dictionary, building %anag:
-# signature -> list of words with that signature, keeping track of the
-# longest list (i.e. the biggest anagram set so far) as we go.
-
-use strict;
-use warnings;
-#use Data::Dumper;
-
-# "Usage: ch-2.pl [word list filename, default /u/s/d/words\n"
+use v5.36;
 
 my $wordfile = shift // "words";
 

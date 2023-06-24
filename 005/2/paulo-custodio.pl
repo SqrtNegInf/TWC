@@ -1,14 +1,5 @@
 #!/usr/bin/env perl
-
-# Challenge 005
-#
-# Challenge #2
-# Write a program to find the sequence of characters that has the most anagrams.
-#
-# create a hash of all words in dictionary where key is sorted list of letters
-# therefore two anagrams have the same key
-
-use Modern::Perl;
+use v5.36;
 
 # read dictionary, count number of keys, i.e. anagrams
 my %anagrams;

@@ -1,15 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use v5.10;
-use utf8;
-use open qw(:std :utf8);
-use FindBin;
-
-# Challenge #2
-# Write a program to find the sequence of characters that has the most anagrams.
-
-# The solution is based on challenge 1, using the same "canonical" function.
+use v5.36;
 
 sub canonical {
     my $inp = lc shift;

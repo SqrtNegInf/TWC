@@ -1,10 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use strict;
-use warnings;
-
-#	PART 2
-#use Data::Dumper;
 my %anaCount;
 my @wordList = ('abc','aabb','aedccc','aabbcc');
 

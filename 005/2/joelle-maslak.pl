@@ -1,32 +1,7 @@
 #!/usr/bin/env perl
-use v5.26;
-use strict;
-use warnings;
-
-# Turn on method signatures
-use feature 'signatures';
-no warnings 'experimental::signatures';
-
-use autodie;
+use v5.36;
 
 if ( @ARGV > 1 )      { die("Provide (optionally) filename and nothing else") }
-
-# To call this application:
-#
-# perl ch-2.pl <filename>
-#
-# If you want to use words as the word list, you can
-# omit the filename.
-#
-# Example:
-#
-#   perl ch-2.pl
-#
-# which is equivilent to:
-#
-#   perl ch-2.pl words
-#
-# With my Unix dictionary (English), it returns teals
 
 my $filename = $ARGV[0] // 'words';
 

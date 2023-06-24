@@ -1,9 +1,6 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;  
-##
-# Write a program to find the sequence of characters that has the most anagrams.
-##
+use v5.36;
+
 my %word_product;
 my %letter_factor = (
     e => 2,
