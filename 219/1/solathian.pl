@@ -1,5 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
+use v5.36;
 
 sortedSquares(-2, -1,  0, 3, 4);     # (0, 1, 4, 9, 16)
 sortedSquares( 5, -4, -1, 3, 6);     # (1, 9, 16, 25, 36)

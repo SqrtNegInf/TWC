@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use feature 'say';
+use v5.36;
 
 sub sorted_squares {
     return sort {$a <=> $b} map $_ * $_, @_;

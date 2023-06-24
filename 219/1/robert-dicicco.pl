@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use feature 'say';
+use v5.36;
 
 my @list = ([-2, -1, 0, 3, 4],
             [5, -4, -1, 3, 6]

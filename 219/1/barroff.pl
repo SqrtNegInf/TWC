@@ -1,9 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
 
-use strict;
-use warnings;
-
 sub sorted_power ( $k, @numbers ) {
     my @sn = sort { $a > $b } map( { $_**$k } @numbers );
     return \@sn;

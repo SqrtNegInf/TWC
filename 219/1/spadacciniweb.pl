@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
+use v5.36;
 
 my @input = (-2,-1,0,3,4);
 die "Input error\n"
