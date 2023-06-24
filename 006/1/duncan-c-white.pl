@@ -1,10 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
 
-use strict;
-use warnings;
-use Data::Dumper;
-
 my $minlen = 3;
 my @in = <1 2 3 4 9 10 14 15 16>;
 

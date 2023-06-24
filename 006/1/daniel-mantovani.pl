@@ -1,9 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
 
-use strict;
-use warnings;
-
 my $inp = '1,2,3,4,9,10,14,15,16';
 
 # for all numbers, calculate adjacency as:

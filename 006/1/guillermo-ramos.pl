@@ -1,9 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
 
-use strict;
-use warnings;
-
 sub compact {
 	my @ns = split(/,/, shift);
 	my $from = my $to = shift @ns; # The first interval is the first number

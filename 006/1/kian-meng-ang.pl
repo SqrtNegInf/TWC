@@ -1,11 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
 
-use 5.010;
-use strict;
-use warnings;
-use utf8;
-
 my ($series) = '1,2,3,4,9,10,14,15,16';
 my @numbers =  split /,/, $series;
 

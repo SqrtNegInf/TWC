@@ -1,7 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
 
-use 5.028.1;
 use List::Util qw(sum);
 
 say '1,2,3,4,9,10,14,15,16' =~ s{

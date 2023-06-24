@@ -1,10 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
 
-use strict;
-use warnings;
-use Data::Dumper;
-
 my $askForInput = 1;
 my $errorMessage = '';
 my $compactedNumbers = '';

@@ -1,9 +1,5 @@
 #!/usr/bin/env perl
 use v5.36;
-
-use 5.010;
-use warnings;
-use strict;
 no warnings 'uninitialized';
 
 my @list = split /[, ]+/, join(',', '1,2,3,4,9,10,14,15,16'); # Be flexible. 1,2, 3 4 ,,5 is OK
