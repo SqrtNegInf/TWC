@@ -1,14 +1,7 @@
 #!/usr/bin/env perl
-
 use v5.36;
 
-#use 5.020;
-#use warnings;
-#use strict;
-
 use integer;
-
-## Problem2
 
 sub b35_digit {
     my $num = shift; # 0..34

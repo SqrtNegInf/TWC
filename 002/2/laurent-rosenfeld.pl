@@ -1,10 +1,6 @@
 #!/usr/bin/env perl
-
 use v5.36;
 
-#use strict;
-#use warnings;
-#use feature "say";
 use constant lookup => ('0'..'9','A'..'Z');
 
 sub convert_base {

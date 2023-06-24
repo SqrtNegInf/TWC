@@ -1,8 +1,6 @@
 #!/usr/bin/env perl
-
 use v5.36;
 
-use Modern::Perl;
 use Test::More;
 
 sub to_base35 {

@@ -1,9 +1,5 @@
 #!/usr/bin/env perl
-
 use v5.36;
-#use strict;
-#use warnings;
-#use 5.010;
 
 my %base35;
 my $counter = 0; # this is the counter.

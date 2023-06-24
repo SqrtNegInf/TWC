@@ -1,10 +1,5 @@
 #!/usr/bin/env perl
-
 use v5.36;
-
-#use v5.10;
-#use strict;
-#use warnings;
 
 my @glyphs = (0..9, 'A'..'Y');
 
