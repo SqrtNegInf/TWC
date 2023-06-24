@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
 use v5.36;
-#use strict;
-#use warnings;
-#use feature "say";
 
 my $nb_rows = 10;
 my @row = (1);

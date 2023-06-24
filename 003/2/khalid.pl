@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
-#use strict;
+
 sub pascal {
     my $row_count = shift;
     my @next = (1);

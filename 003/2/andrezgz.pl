@@ -1,9 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
 
-#use strict;
-#use warnings;
-
 my $rows = $ARGV[0] || 10;
 
 if ($rows < 3) {

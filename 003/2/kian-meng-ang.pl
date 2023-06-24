@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
 use v5.36;
-#use strict;
-#use warnings;
-use utf8;
 
 sub generate_pascal_row {
     my $n = shift;

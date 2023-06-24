@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
 use v5.36;
-#use strict;
-#use warnings;
 
 my @out=([1],[1,1]);
 

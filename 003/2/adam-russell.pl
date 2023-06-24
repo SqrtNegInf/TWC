@@ -1,15 +1,5 @@
 #!/usr/bin/env perl
 use v5.36;
-#use strict;
-#use warnings;
-
-##
-# How to compute Pascal's Triangle. 
-# After the inital row(s) with 1 entries, the entry for the n-th row and k-th column is defined as
-#                             (n-1)!             (n-1)!                             
-#                       -------------------- + ------------
-#                       (k-1)!((n-1)-(k-1))!   k!((n-1)-k)!  
-##
 
 sub compute_entry{
     my($row, $column) = @_;

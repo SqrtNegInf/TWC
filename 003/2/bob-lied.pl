@@ -1,10 +1,5 @@
 #!/usr/bin/env perl
 use v5.36;
-#use strict;
-#use warnings;
-
-use experimental qw/ signatures /;
-no warnings "experimental::signatures";
 
 use Getopt::Long;
 my $Verbose = 0;
