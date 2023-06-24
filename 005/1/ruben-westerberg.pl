@@ -1,7 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 #
-use warnings;
-use strict;
 my $wordsFile= 'words';
 open my $wfh, "<" , $wordsFile;
 my @words;

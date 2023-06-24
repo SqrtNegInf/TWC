@@ -1,19 +1,5 @@
 #!/usr/bin/env perl
-
-# https://perlweeklychallenge.org/blog/perl-weekly-challenge-005/
-# Challenge #1
-# Write a program which prints out all anagrams for a given word.
-# For more information about Anagram, please check this wikipedia page.
-# https://en.wikipedia.org/wiki/Anagram
-
-# An anagram may be a phrase, but I limit this code only to words of the same length as the given one,
-# because even if I can make a phrase (string of words using the considered letters) it may not have sense.
-
-# I've reused code from the previous challenge
-# https://github.com/manwar/perlweeklychallenge-club/blob/master/challenge-004/andrezgz/perl5/ch-2.pl
-
-use strict;
-use warnings;
+use v5.36;
 
 my $words_file = 'words';
 my $given_word = 'animal';

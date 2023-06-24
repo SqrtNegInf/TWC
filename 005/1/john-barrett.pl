@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-use autodie;
+use v5.36;
 
 my $word = sortedlc( 'animal' );
 my $wordlength = length $word;

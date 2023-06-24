@@ -1,10 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use 5.010;
-use autodie;
-use strict;
-use warnings;
-use utf8;
 use Carp;
 
 my ($word, $dict) = <animal words>;
@@ -27,13 +23,3 @@ close $fh;
 
 say sprintf 'Word: %s', $word;
 say sprintf 'Anagrams: %s', join q|, |, @anagrams;
-
-1;
-
-__END__
-
-$ perl ch-1.pl elbow words
-Word: elbow
-Anagrams: below, bowel
-
-# vi:et:sw=4 ts=4 ft=perl

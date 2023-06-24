@@ -1,34 +1,5 @@
 #!/usr/bin/env perl
-use v5.26;
-use strict;
-use warnings;
-
-# Turn on method signatures
-use feature 'signatures';
-no warnings 'experimental::signatures';
-
-use autodie;
-
-# To call this application:
-#
-# perl ch-1.pl; <letters> <filename>
-#
-# If you want to use words as the word list, you can
-# omit the filename.
-#
-# Example:
-#
-#   perl ch-1.pl binary
-#
-# which is equivilent to:
-#
-#   perl ch-1.pl binary words
-#
-# With my Unix dictionary (English), it returns binary and brainy
-#
-# Yes, this is a VERY tiny modification of Week 4 problem 2 but not
-# quite as tiny as the modification is in the P6 version!
-#
+use v5.36;
 
 my $match = 'animal';
 my %dedupe;

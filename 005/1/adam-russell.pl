@@ -1,9 +1,6 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-##
-# Write a program which prints out all anagrams for a given word.
-##
+use v5.36;
+
 use constant DICTIONARY => "words";  
 my %word_product;
 my %letter_factor = (
