@@ -1,8 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
-#use strict;
-#use warnings;
-#use 5.10.0;
+
 sub is_hamming { 
     my $num =shift;
     $num = $num / 2 while $num % 2 == 0 ;

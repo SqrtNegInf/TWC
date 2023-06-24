@@ -1,21 +1,5 @@
 #!/usr/bin/env perl
-
 use 5.36.0;
-
-#use strict;
-#use warnings;
-#no  warnings 'syntax';
-
-#use experimental 'signatures';
-#use experimental 'lexical_subs';
-
-#
-# See https://theweeklychallenge.org/blog/perl-weekly-challenge-003
-#
-
-#
-# Run as: perl ch-1.pl < input-file
-#
 
 use List::Util qw [min];
 my @ugly   = (1);

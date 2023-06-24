@@ -1,9 +1,5 @@
 #!/usr/bin/env perl
 use v5.36;
-#use 5.010;
-#use strict;
-#use warnings;
-use utf8;
 
 sub is_five_smooth_number {
     my $number = shift;

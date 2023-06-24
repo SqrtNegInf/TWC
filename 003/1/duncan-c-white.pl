@@ -1,11 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
-#use strict;
-#use warnings;
 
-#use Benchmark qw(:all) ;
-
-#
 # my @result = firstn_regnos_v1( $n );
 #	Generate the first N regular numbers via basic GENERATE AND TEST:
 #	generate every integer, then check "is it 2^i.3^j.5^k for any i,j,k"?

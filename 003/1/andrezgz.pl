@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-
 use v5.36;
-
-#use strict;
 
 my $last = shift || 45;
 

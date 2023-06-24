@@ -1,7 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
-#use strict;
-#use warnings;
+
 use constant limit => 50;
 my @raw_hamming;
 for my $pow2 (0..6) {
