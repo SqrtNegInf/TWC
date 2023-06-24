@@ -1,9 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-use feature 'say';
-use experimental 'signatures';
+use v5.36;
 
 sub buy_pass ( $passes, $travel_on ) {
     if ( scalar(@$travel_on) == 0 ) {

@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
+use v5.36;
 
 travel_expenditure( [2, 7, 25], [1, 5, 6, 7, 9, 15] );
 travel_expenditure( [2, 7, 25], [1, 2, 3, 5, 7, 10, 11, 12, 14, 20, 30, 31] );

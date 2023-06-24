@@ -1,8 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
 
-#no warnings 'recursion';
-
 use Memoize;
 
 my @days = @ARGV;
