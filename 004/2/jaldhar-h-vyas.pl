@@ -1,8 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
-#use warnings;
-#use strict;
-#use 5.010;
+
 use English qw/ -no_match_vars /;
 
 my $letters = 'crate';

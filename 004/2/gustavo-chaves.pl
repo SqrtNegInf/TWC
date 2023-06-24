@@ -1,9 +1,5 @@
 #!/usr/bin/env perl
-
 use v5.36;
-#use strict;
-#use autodie;
-#use warnings;
 
 my $file    = 'words';
 my $letters = 'crate';

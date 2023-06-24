@@ -1,13 +1,5 @@
 #!/usr/bin/env perl
 use v5.36;
-#use strict;
-#use warnings;
-#use Data::Dump qw( pp );
-
-# Usage: perl Challenge_2.pl <filename> <letters>
-#
-# <letters> may be given in "words" separated by whitespace; the whitespace will
-# be ignored
 
 my ($filename, @letters) = <words c r a t e>;
 

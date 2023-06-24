@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
 use v5.36;
-#use strict;
-#use warnings;
-#use 5.010;
 
 my $filename = 'words';
 my @letters = 'crate' =~/./g;
