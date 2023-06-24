@@ -1,17 +1,6 @@
 #!/usr/bin/env perl
-# Write a script or one-liner to remove leading zeros from positive
-# numbers.
-
-# I chose to solve this in the strictest interpretation of the challenge:
-#   Make sure it's a number
-#   Make sure it's positive
-#   Don't remove the last 0 before period.
-
 use v5.36;
 
-#use v5.10;
-#use strict;
-#use warnings;
 use Scalar::Util qw/looks_like_number/; # distributed with perl since 5.8
 
 sub remove_leading_zeros {

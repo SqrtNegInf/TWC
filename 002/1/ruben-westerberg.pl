@@ -1,7 +1,7 @@
 #!/usr/bin/env perl
-
 use v5.36; 
-no warnings 'uninitialized'; # Use of uninitialized value $1 in string ne at ruben-westerberg.pl line 7.
+
+no warnings 'uninitialized';
 
 $_= "010, 02, 0343";
 
