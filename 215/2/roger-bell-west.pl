@@ -1,10 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
 
-use strict;
-use warnings;
-use experimental 'signatures';
-
 use Test::More tests => 3;
 
 is(numberplacement([1, 0, 0, 0, 1], 1), 1, 'example 1');

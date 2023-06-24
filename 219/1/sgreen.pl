@@ -1,11 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
 
-use strict;
-use warnings;
-use feature 'say';
-use experimental 'signatures';
-
 sub main (@array) {
     @array = sort { $a <=> $b } map { $_**2 } @array;
     say join ', ', @array;

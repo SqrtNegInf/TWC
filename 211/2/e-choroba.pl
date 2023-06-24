@@ -3,10 +3,6 @@ use v5.36;
 
 srand 1;
 
-use warnings;
-use strict;
-use experimental qw( signatures );
-
 use List::Util qw{ sum };
 
 sub split_same_average_brute_force(@list) {

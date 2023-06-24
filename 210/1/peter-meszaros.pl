@@ -1,9 +1,6 @@
 #!/usr/bin/env perl
-
 use v5.36;
 
-use strict;
-use warnings;
 use List::MoreUtils qw(uniq);
 use List::Util qw(sum0);
 use Test::More;

@@ -1,6 +1,4 @@
 #!/usr/bin/env perl
-
-use strict;
 use v5.36;
 
 my @list = (2,3,-1);

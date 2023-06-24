@@ -1,7 +1,6 @@
 #!/usr/bin/env perl
-
 use v5.36.0;
-use warnings;
+
 sub nc {
     my @a = $_[0]->@*;
     my $num_of_coll;

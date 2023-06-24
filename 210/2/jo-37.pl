@@ -1,9 +1,9 @@
 #!/usr/bin/env perl
-
 use v5.36;
+use experimental 'refaliasing';
+
 use Test2::V0 -srand => 1;
 use List::MoreUtils 'zip6';
-use experimental 'refaliasing';
 
 our ($tests, $examples) = (1);
 

@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use strict;use warnings;use utf8;use v5.36;
 sub ShrR { my @rtez = @_;my $dest = pop(@rtez);my $srce = pop(@rtez);my $cmar = '';my @srte = ();my @xrtz = ([],[],[]);my %nodz = ();my $ncnt = 0;my $dpth = 2;
   for   (@rtez) { $cmar .= '[' . join(',', @{$_}) . '], '; }
   printf("routes:%-34ssource:$srce, destination:$dest => ", $cmar);

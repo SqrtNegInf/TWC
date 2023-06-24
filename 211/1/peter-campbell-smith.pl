@@ -1,9 +1,5 @@
 #!/usr/bin/env perl
-
-use v5.36;    # The Weekly Challenge - 2023-04-03
-use utf8;     # Week 211 task 1 - Toeplitz matrix
-use strict;   # Peter Campbell Smith
-use warnings; # Blog: http://ccgi.campbellsmiths.force9.co.uk/challenge
+use v5.36;
 
 toeplitz_matrix( [[4, 3, 2, 1],
 				  [5, 4, 3, 2],

@@ -1,12 +1,5 @@
 #!/usr/bin/env perl
 use v5.36;
-use warnings;
-use strict;
-use experimental qw( signatures );
-
-# What happens to zeroes? They don't move, but I interpret the rules
-# in the following way: if any number tries to move into a zero, the
-# zero explodes (see the additional tests).
 
 sub number_collision(@list) {
     while (1) {

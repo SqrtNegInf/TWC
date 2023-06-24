@@ -1,12 +1,7 @@
 #!/usr/bin/env perl
-
-use v5.36;    # The Weekly Challenge - 2023-04-03
+use v5.36;
 
 srand 1;
-
-use utf8;     # Week 211 task 2 - Split same average
-use strict;   # Peter Campbell Smith
-use warnings; # Blog: http://ccgi.campbellsmiths.force9.co.uk/challenge
 
 use Algorithm::Combinatorics ('combinations');
 
