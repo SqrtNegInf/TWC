@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
 use v5.36.0;
-use feature qw( say );
 
 use Data::Dump qw( pp );
 use List::Util qw( reduce );

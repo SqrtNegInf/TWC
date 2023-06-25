@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-
 use v5.36;
-use common::sense;
 
 use List::MoreUtils qw(arrayify);
 
@@ -9,7 +7,7 @@ use Test::More;
 use Test::Deep qw(cmp_deeply);
 
 
-sub reshapeMatrix ($$\@) {
+sub reshapeMatrix :prototype($$\@) {
   my ($r,$c,$ar) = @_;
 
   my @l = arrayify($ar);

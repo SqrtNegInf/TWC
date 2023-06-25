@@ -1,9 +1,5 @@
 #!/usr/bin/env perl
-
 use v5.36;
-use warnings;
-use feature qw( signatures );
-no warnings qw( experimental::signatures );
 
 sub reshape( $matrix, $r, $c ) {
     my @all_elements = map @$_, @$matrix;

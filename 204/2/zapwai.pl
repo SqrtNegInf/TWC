@@ -1,5 +1,4 @@
 #!/usr/bin/env perl
-
 use v5.36.0;
 
 my $matrix = [ [ 1, 2 ], [ 3, 4 ] ];

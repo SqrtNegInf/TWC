@@ -1,10 +1,6 @@
 #!/usr/bin/env perl
-
 use v5.36.0;
-use strict;
-use warnings;
 
-# function to check if an array is monotonic
 sub is_monotonic {
   my @nums = @_;
   my $increasing = 1;

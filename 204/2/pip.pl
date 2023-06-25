@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
 use v5.36.0;
-use strict;use warnings;use utf8;
 
 sub Rshp {my $mtrx=shift(@_);my $rrow=shift(@_);my $rclm=shift(@_);my @m1mn=();my $rsar=0; # ReShape ArrayRef just zero if haven't reshaped yet;
   if    (ref($mtrx) ne 'ARRAY' && $mtrx =~ /^[\[0-9,\] ]+$/) { $mtrx=eval("$mtrx"); } # take '[[1,2],[3,4]]' string scalar && eval it into matrix array-ref;

@@ -1,11 +1,9 @@
 #!/usr/bin/env perl
-
 use v5.36;
-use common::sense;
 
 use Test::More;
 
-sub isMonotonicArray (@) {
+sub isMonotonicArray {
   return if (scalar @_ < 2);
 
   my @arr = @_;

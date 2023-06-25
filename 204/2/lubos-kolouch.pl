@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
 use v5.36.0;
-use strict;
-use warnings;
 
 sub reshape {
     my ($matrix, $r, $c) = @_;

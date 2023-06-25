@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
 use v5.36.0;
-use warnings;
-use strict;
-use experimental 'signatures';
 
 sub monotonic_array($arr) {
     my $first_cmp;

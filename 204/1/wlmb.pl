@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
-
 use v5.36;
+
 my @orig= (1,2,3,4,5,6,7,8,9,10,11,11,11,1,12,13,14,15,15,15,15,16,17,19);
 my $current=shift;
 my ($increasing, $decreasing);

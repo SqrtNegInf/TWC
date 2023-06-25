@@ -1,8 +1,7 @@
 #!/usr/bin/env perl
 use v5.36;
-$"=" ";
 
-# SUBROUTINES:
+$"=" ";
 
 sub shape {
    my $r = shift @_;
