@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
 use v5.36.0;
-use warnings;
-use experimental 'signatures';
-no warnings 'experimental::signatures';
 
 my @valley =
   widest_valley(grep { defined } map { split m{\D+}mxs, } (2, 1, 2, 1, 3) );

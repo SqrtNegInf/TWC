@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
 use v5.36.0;
-use strict;
-use warnings;
-use feature qw/say/;
 
 my @arrays = ([1,5,3,6],[2,6,3,5],[1,2,3,4],[2,3,5,7]);
 

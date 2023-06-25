@@ -1,7 +1,6 @@
 #!/usr/bin/env perl
-
 use v5.36;
-no warnings;
+no warnings 'uninitialized';
 
 my @A = (2,3,5,7);
 

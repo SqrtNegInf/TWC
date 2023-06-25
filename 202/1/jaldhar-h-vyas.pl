@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
 use v5.36.0;
-use warnings;
 
 my $result = 0;
 my @A = (2,3,5,7);

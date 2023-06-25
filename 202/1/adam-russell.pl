@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
-
 use v5.36;
+
 use boolean;
 
 sub three_consecutive_odds{

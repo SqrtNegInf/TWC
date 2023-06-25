@@ -1,9 +1,5 @@
 #!/usr/bin/env perl
 use v5.36.0;
-use strict;
-use warnings;
-use feature 'say';
-use experimental 'signatures';
 
 sub main (@n) {
     # This stores the current widest (leftmost) valley

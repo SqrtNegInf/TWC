@@ -1,5 +1,4 @@
 #!/usr/bin/env perl
-
 use v5.36.0;
 
 my @array1 = (1, 5, 5, 2, 8);
