@@ -1,7 +1,6 @@
 #!/usr/bin/env perl
 use v5.36.0;
-use strict;
-use warnings;
+
 use Test::More;
 
 sub shortest_time_in_minutes {

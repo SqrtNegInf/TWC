@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-
 use v5.36.0;
-use warnings;
 
 sub ap {
     my @arr = sort {$a <=> $b} @_;

@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
-
 use v5.36;
+
 use List::Util qw(min);
 my ($current, @rest)=sort {$a <=> $b} map {to_minutes($_)} ("10:10", "09:30", "09:00", "09:55");
 push @rest, $current + 24*60; # Add first time as last time, next day

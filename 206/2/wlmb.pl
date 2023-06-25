@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
-
 use v5.36;
+
 use List::Util qw(sum);
 
 my @A = <1 2 3 4>;

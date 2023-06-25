@@ -1,10 +1,7 @@
 #!/usr/bin/env perl
+use v5.36.0;
 
 srand  1;
-
-use v5.36.0;
-use utf8;
-use warnings;
 
 my (@time, $j);
 

@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
 use v5.36.0;
-use strict;
-use warnings;
 
 # Use List::Util module
 use List::Util qw(min max sum);

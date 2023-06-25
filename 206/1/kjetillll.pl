@@ -1,6 +1,7 @@
 #!/usr/bin/env perl
 use v5.36.0;
-use warnings; use strict; use List::Util 'reduce';
+
+use List::Util 'reduce';
 
 my @time = @ARGV;                                          #input from command line args
 @time = ("10:10", "09:30", "09:00", "09:55") if not @time; #...or use test case

@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
 use v5.36.0;
-use warnings;
-use strict;
-use experimental qw( signatures );
 
 sub shortest_time(@timestamps) {
     @timestamps = sort @timestamps;

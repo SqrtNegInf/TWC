@@ -1,8 +1,6 @@
 #!/usr/bin/env perl
 use v5.36.0;
-use strict;
-use warnings;
-use feature 'say';
+
 use List::Util qw/min/;
 
 my @arrs = ([1,2,3,4],[0,2,1,3]);

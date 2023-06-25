@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-
 use v5.36;
-use utf8;
-use warnings;
 
 max_min(1, 2, 3, 4);
 max_min(0, 2, 1, 3);

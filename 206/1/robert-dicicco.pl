@@ -1,8 +1,6 @@
 #!/usr/bin/env perl
 use v5.36.0;
-use strict;
-use warnings;
-use feature "say";
+
 use Algorithm::Combinatorics qw(permutations combinations);
 
 my @times = (["00:00", "23:55", "20:00"],["01:01", "00:50", "00:57"],["10:10", "09:30", "09:00", "09:55"]);
