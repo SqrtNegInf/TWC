@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
 use v5.36.0;
-use strict;
-use warnings;
-use feature "say";
 
 my %c;                   # ascii coding of digit's slices
 $c{'h'} = "-" x 7;       # Horizontal line

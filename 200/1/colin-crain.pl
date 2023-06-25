@@ -1,5 +1,6 @@
 #!/usr/bin/env perl
-#
+use v5.36.0;
+
 #       arithmetic-sequences.pl
 #
 #       Arithmetic Slices
@@ -44,15 +45,6 @@
 # 
 #       © 2022 colin crain
 ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ##
-
-
-use v5.36.0;
-use warnings;
-use strict;
-use utf8;
-#use feature ":5.26";
-use feature qw(signatures);
-no warnings 'experimental::signatures';
 
 
 my @arr = @ARGV;

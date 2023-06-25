@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
 use v5.36.0;
-use strict;
-use warnings;
-use feature qw(say bitwise);
 
 ## Our provided truth table...
 my @truth = qw(abcdef bc abdeg abcdg bcfg acdfg acdefg abc abcdefg abcfg);

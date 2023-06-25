@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
 use v5.36;
-use warnings;
-use experimental 'signatures';
-no warnings 'experimental::signatures';
 
 say render_seven_segment(shift // 200);
 

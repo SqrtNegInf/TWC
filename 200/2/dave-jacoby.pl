@@ -1,8 +1,6 @@
 #!/usr/bin/env perl
 use v5.36.0;
-use strict;
-use warnings;
-use experimental qw{ say postderef signatures state };
+
 use Algorithm::Permute;
 
 my @examples = ( 1, 27, 190 .. 200 );

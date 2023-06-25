@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
-
 use v5.36;
+
 use List::Util qw(uniq);
 
 my @in= <9 1 2 3 4 4 3 2 1 9>;

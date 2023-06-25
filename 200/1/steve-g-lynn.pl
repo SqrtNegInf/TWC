@@ -1,10 +1,8 @@
 #!/usr/bin/env perl
 use v5.36.0;
-use strict;
-use Data::Dumper qw(Dumper);
+
 use List::Util qw(sum);
 use Algorithm::Combinatorics qw(combinations);
-use feature 'say';
 
 say join ' ', @$_ for arithmetic_slices(1,2,3,4,6,8,10);
 

@@ -1,13 +1,8 @@
 #!/usr/bin/env perl
 use v5.36;
 
-#use builtin 'indexed';
-#no warnings builtin::indexed;
-
 use builtin 'indexed';
 use experimental qw(builtin for_list);
-
-#use Data::Dumper;
 
 arithmSlice(1,2,3,4);         # Output: (1,2,3), (2,3,4), (1,2,3,4)
 arithmSlice(1,2,3,4, 7);

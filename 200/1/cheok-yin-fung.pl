@@ -1,7 +1,6 @@
 #!/usr/bin/env perl
-
 use v5.36.0;
-use warnings;
+
 use Algorithm::Combinatorics qw/combinations/;
 
 my @a = @ARGV;

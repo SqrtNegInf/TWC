@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
 use v5.36;
-use warnings;
-use experimental 'signatures';
-no warnings 'experimental::signatures';
 
 say join ', ', map { '(' . join(',', $_->@*) . ')' }
    arithmetic_slices(@ARGV ? @ARGV : qw< 1 2 3 4 >);

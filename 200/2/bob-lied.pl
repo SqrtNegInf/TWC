@@ -1,5 +1,4 @@
 #!/usr/bin/env perl
-
 use v5.36;
 
 # Which segments are on for each digit?

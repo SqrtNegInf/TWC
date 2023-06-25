@@ -1,5 +1,6 @@
 #!/usr/bin/env perl
-#
+use v5.36.0;
+
 #       seven-seconds.pl
 #
 #       Seven Segment 200
@@ -46,15 +47,6 @@
 #       © 2022 colin crain
 ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ##
 
-
-use v5.36.0;
-use warnings;
-use strict;
-use utf8;
-#use feature ":5.26";
-use feature qw(signatures);
-no warnings 'experimental::signatures';
-use open ':std', ':encoding(UTF-8)';
 
 ## given encoding method
 my @truth = qw( abcdef bc abdeg abcdg bcfg acdfg acdefg abc abcdefg abcfg );

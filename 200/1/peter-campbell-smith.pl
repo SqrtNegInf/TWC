@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-
 use v5.36;
-use utf8;
-use warnings;
 
 my (@tests, $test, @array, $rubric, $j, @diff, $last_diff, $run_starts);
 

@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
 use v5.36.0;
-use warnings;
-use strict;
-use experimental 'signatures';
 
 my @digit = qw( abcdef bc abdeg abcdg bcfg acdfg acdefg abc abcdefg abcfg );
 my @segments = (['a'], (['f', 'b']) x 2, ['g'], (['e', 'c']) x 2, ['d']);
