@@ -2,11 +2,6 @@
 #use v5.36.0;
 
 die 'not working';
-use warnings;
-use strict;
-use experimental qw{ signatures };
-
-
 
 use File::Find qw{ find };
 

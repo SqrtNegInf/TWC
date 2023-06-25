@@ -1,8 +1,6 @@
 #!/usr/bin/env perl
 use v5.36.0;
-use strict ;
-use warnings ;
-use feature 'say' ;
+
 use Algorithm::Combinatorics qw ( combinations ) ;
 
 my @numbers = <9 0 1 2 3 4 5 6>;

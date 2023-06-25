@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
 use v5.36.0;
-use strict;
-use warnings;
-use feature "say";
 
 sub traverse_dir {
     my ($code_f, $code_d, $path) = @_;

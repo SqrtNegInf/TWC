@@ -1,18 +1,10 @@
 #!/usr/bin/env perl
 use v5.36.0;
-use strict;
-
-use warnings;
 
 use Path::Class;
-
 use File::Basename;
-
 use Cwd qw(cwd);
-
 use File::Path qw(make_path);
-
-
 
 my $startdir = cwd;                 # record our start point
 

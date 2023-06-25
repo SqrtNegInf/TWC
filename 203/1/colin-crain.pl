@@ -1,4 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
+
 #
 #       quads.pl
 #
@@ -87,17 +89,6 @@
 #
 #       © 2022 colin crain
 ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ##
-
-
-use v5.36.0;
-use warnings;
-use strict;
-use utf8;
-#use feature ":5.26";
-use feature qw(signatures);
-no warnings 'experimental::signatures';
-
-
 
 
 my @arr = (1,1,1,3,5);

@@ -1,9 +1,9 @@
 #!/usr/bin/env perl
-
 use v5.36.0;
+
 use Test2::V0 -srand => 1;
 use Math::Prime::Util qw(forcomb vecsum);
-use experimental 'refaliasing';
+use experimental 'refaliasing';             # DH must follow after 'Test2::V0'
 
 our ($tests, $examples)= (1,1);
 
