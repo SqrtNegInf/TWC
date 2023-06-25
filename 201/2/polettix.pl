@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
 use v5.36;
-use warnings;
-use experimental 'signatures';
-no warnings 'experimental::signatures';
 
 my $n = shift // 5;
 say scalar penny_piles_recursive($n)->@*;

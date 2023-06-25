@@ -1,7 +1,6 @@
 #!/usr/bin/env perl
 use v5.36.0;
-use strict;
-use warnings;
+
 use List::Util qw/sum/;
 use Algorithm::Combinatorics qw[ variations_with_repetition ];
 

@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
 use v5.36.0;
-use strict;
-use warnings;
 
 my ($count,@arr) =(0,(0) x 5);
 penny_piles(\@arr,0,5,5);

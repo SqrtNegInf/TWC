@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
 use v5.36.0;
-use strict;
-use warnings;
-use experimental 'signatures';
 
 use Math::Prime::Util qw(partitions);
 

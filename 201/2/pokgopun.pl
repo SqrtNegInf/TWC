@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
 use v5.36.0;
-use strict;
-use warnings;
 
 my $n = $ARGV[0] && $ARGV[0] =~ /^\d+$/ ? $ARGV[0] : 5; ### n default to 5 unless a number is provided as an argument
 my %seen; ### hash to put "number of ways" as keys

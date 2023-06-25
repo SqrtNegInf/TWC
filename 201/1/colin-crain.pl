@@ -1,5 +1,6 @@
 #!/usr/bin/env perl
-#
+use v5.36.0;
+
 #       complemenary-my-dear-watson.pl
 #
 #       Missing Numbers
@@ -27,15 +28,6 @@
 #       © 2022 colin crain
 ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ##
 
-
-
-use v5.36.0;
-use warnings;
-use strict;
-use utf8;
-#use feature ":5.26";
-use feature qw(signatures);
-no warnings 'experimental::signatures';
 
 my @in = @ARGV;
 scalar @in == 0 and @in = (6,9,13,27);

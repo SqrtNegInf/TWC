@@ -1,8 +1,9 @@
 #!/usr/bin/env perl
-
 use v5.36;
+
 use List::Util qw(min sum);
 use Memoize;
+
 memoize "rows";
 say "$_->", rows($_, $_) for 5;
 sub rows($coins,$max){

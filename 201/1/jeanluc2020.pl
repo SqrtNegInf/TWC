@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
 use v5.36.0;
-use strict;
-use warnings;
 
 my @examples = (
    [0, 1, 3],

@@ -1,9 +1,5 @@
 #!/usr/bin/env perl
-
 use v5.36;
-use warnings;
-use experimental 'signatures';
-no warnings 'experimental::signatures';
 
 say for missing_numbers( (0, 1, 3, 5, 9, 10) );
 

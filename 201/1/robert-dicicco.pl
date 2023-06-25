@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
 use v5.36.0;
-use strict;
-use warnings;
-use feature qw/say/;
 
 my @arrs = ([0,1,3],[0,1]);
 

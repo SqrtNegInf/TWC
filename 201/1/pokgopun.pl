@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
 use v5.36.0;
-use strict;
-use warnings;
 
 @ARGV = (0,1,3) unless join("",@ARGV) =~ /^\d+$/; ### default array to example1 if not provided via arguments
 
