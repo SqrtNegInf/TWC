@@ -1,10 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
 
-use warnings;
-use strict;
-use experimental qw( signatures );
-
 sub minimum_index_sum($list1, $list2) {
     my %index;
     $index{ $list2->[$_] } //= $_ for 0 .. $#$list2;

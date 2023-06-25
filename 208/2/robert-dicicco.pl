@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
 use v5.36;
-use strict;
-use warnings;
-use feature 'say';
 
 my @nums = ([1,2,2,4],[1,2,3,4],[1,2,3,3]);
 

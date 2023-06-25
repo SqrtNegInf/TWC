@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
-
 use v5.36;
+
 sub MInS {my @lst2 = @_;my @lst1 = ();my @mins = ();my @nsmz = ();my %ndxs = ();
   while ($lst2[0] ne ';') {
     push(@lst1,             shift(@lst2));

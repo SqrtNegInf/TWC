@@ -1,5 +1,4 @@
 #!/usr/bin/env perl
-
 use v5.36;
 
 sub DpaM {my @nums = sort { $a <=> $b } @_;my @dpam = ();my %hasn = ();

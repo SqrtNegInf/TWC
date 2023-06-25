@@ -1,7 +1,6 @@
 #!/usr/bin/env perl
-
 use v5.36;
-use warnings;
+
 use Array::Utils qw/intersect/;
 
 sub aindex {

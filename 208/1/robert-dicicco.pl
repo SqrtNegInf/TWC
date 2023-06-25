@@ -1,9 +1,5 @@
 #!/usr/bin/env perl
-
 use v5.36;
-use strict;
-use warnings;
-use feature 'say';
 
 my @list1 = (["Perl", "Raku", "Love"],["A","B","C"], ["A", "B", "C"]);
 my @list2 = (["Raku", "Perl", "Hate"],["C","A","B"], ["D", "E", "F"]);

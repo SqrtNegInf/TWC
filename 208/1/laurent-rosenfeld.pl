@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
 use v5.36;
-use strict;
-use warnings;
-use feature "say";
 
 sub min_sum_idx {
     my @s1 = @{$_[0]};

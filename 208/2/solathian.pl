@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
-
 use v5.36;
+
 use builtin 'indexed';
 no warnings 'experimental';
 
