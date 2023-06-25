@@ -1,12 +1,7 @@
 #!/usr/bin/env perl
-
 use v5.36;
-use warnings;
-use strict;
 
 use Test2::V0 -srand => 1;
-
-use experimental qw( signatures );
 
 use Graph::Undirected;
 

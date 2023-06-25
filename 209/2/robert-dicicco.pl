@@ -1,5 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
+
 use List::Uniq ':all';
 
 my $accounts = [ ["A", "a1\@a.com", "a2\@a.com"], ["B", "b1\@b.com"], ["A", "a3\@a.com", "a1\@a.com"] ];

@@ -1,12 +1,7 @@
 #!/usr/bin/env perl
-
 use v5.36;
 
 srand 1;
-
-use warnings;
-use strict;
-use experimental qw( signatures );
 
 sub special_bit_characters(@bits) {
     my $pos = $#bits - 1;

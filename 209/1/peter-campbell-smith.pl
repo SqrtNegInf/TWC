@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-
 use v5.36;
-use utf8;
-use warnings;
 
 test_for_a([1, 0, 0]);
 test_for_a([1, 1, 1, 0]);

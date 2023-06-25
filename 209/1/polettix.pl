@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
 use v5.36;
-use warnings;
-use experimental 'signatures';
 
 my @bits = map { split m{}mxs } <1 1 0>;
 say special_bits_characters(\@bits);

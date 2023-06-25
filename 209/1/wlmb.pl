@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
-
 use v5.36;
+
 my @A = '110';
 
 my %patterns;

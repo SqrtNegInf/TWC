@@ -1,8 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
-use strict;
-use warnings;
-use feature 'say';
+
 use Switch::Plain;
 
 my @bits = ([1, 0, 0],[1, 1, 1, 0]);

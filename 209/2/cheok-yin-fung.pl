@@ -1,7 +1,6 @@
 #!/usr/bin/env perl
-
 use v5.36;
-use warnings;
+
 use Graph::Undirected;
 use Array::Utils qw/unique/;
 

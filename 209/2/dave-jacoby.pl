@@ -1,13 +1,7 @@
 #!/usr/bin/env perl
-
 use v5.36;
-#use strict;
-#use warnings;
-#use experimental qw{ say postderef signatures state };
 
 use List::Compare;
-use JSON;
-my $json = JSON->new->pretty;
 
 my @examples = (
 

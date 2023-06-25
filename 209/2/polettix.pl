@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
 use v5.36;
-use warnings;
-use experimental 'signatures';
 
 use constant TRUE  => (!0);
 use constant FALSE => (!!0);

@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-
 use v5.36;
-use utf8;
-use warnings;
 
 merge_accounts(['A', 'a1@a.com', 'a2@a.com'],
 	['B', 'b1@b.com'],

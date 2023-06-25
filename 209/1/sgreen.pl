@@ -1,10 +1,5 @@
 #!/usr/bin/env perl
-
 use v5.36;
-use strict;
-use warnings;
-use feature 'say';
-use experimental 'signatures';
 
 sub main (@array) {
     # Is the last thing we found an 'a'
