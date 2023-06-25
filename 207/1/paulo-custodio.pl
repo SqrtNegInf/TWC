@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
-use Modern::Perl;
+
 use List::Util qw( any );
 
 my @keys = qw( qwertyuiop asdfghjkl zxcvbnm );

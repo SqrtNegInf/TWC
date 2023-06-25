@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-
-use strict; use warnings; use v5.36;
+use v5.36;
 
 sub is_one_row_word { pop =~ /^( [qwertyuiop]+ | [asdfghjkl]+ | [zxcvbnm]+ )$/ix }
 

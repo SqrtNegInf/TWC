@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-
 use v5.36;
-use utf8;
-use warnings;
 
 h_index(10, 8, 5, 4, 3);
 h_index(25, 8, 5, 3, 3);

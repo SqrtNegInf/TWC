@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
 use v5.36;
-use strict;
-use warnings;
-use feature "say";
 
 my @rows;
 push @rows, {map {$_ => 1} split //, $_}

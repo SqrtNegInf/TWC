@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
 use 5.36.0;
-use warnings;
 
 sub isSubset {
     my @subset = @{$_[0]};

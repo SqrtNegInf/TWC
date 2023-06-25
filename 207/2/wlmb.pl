@@ -1,5 +1,4 @@
 #!/usr/bin/env perl
-
 use v5.36;
 
 my @A =(10,8,5,4,3);

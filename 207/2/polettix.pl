@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
 use v5.36;
-use warnings;
-use experimental 'signatures';
 
 say h_index((10,8,5,4,3));
 

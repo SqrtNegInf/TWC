@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
-
 use v5.36;
+
 use List::Util qw ( max ) ;
 
 my @numbers = (10,8,5,4,3);

@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
 use v5.36;
-use strict;
-use warnings;
-use feature 'say';
 
 my @rows = ("qwertyuiop", "asdfghjkl", "zxcvbnm");
 my @words = ("Hello Alaska Dad Peace", "OMG Bye");

@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
-#
+
 #       207-1-hot-key-lime.pl
 #
 #       Keyboard Word
@@ -215,14 +215,6 @@ use v5.36;
 #       © 2022 colin crain
 ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ##
 
-
-
-use warnings;
-use strict;
-use utf8;
-use feature ":5.26";
-use feature qw(signatures);
-no warnings 'experimental::signatures';
 
 ## the middle three keyboard rows
 my @top = qw( q w e r t y u i o p       );

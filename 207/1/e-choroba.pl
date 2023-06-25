@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
 use v5.36;
-use warnings;
-use strict;
-use experimental 'signatures';
 
 my $i = 0;
 my %ROW = map { ++$i; map { $_ => $i } split // }

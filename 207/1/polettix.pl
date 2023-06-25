@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
 use v5.36;
-use warnings;
-use experimental 'signatures';
-no warnings 'experimental::signatures';
 
 say join ' ', grep { is_keyboard_word($_) } <Hello Alaska Dad Peace>;
 

@@ -1,5 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
+
 use Test::More;
 
 sub h_index {

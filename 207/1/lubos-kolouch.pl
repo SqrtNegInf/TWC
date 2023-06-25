@@ -1,7 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
-use strict;
-use warnings;
+
 use Test::More;
 
 my @keyboard_rows = qw(qwertyuiop asdfghjkl zxcvbnm);
