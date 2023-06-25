@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
 use v5.36;
-use warnings;
-use experimental 'signatures';
 
 my @args = @ARGV ? @ARGV : 1 .. 8;
 say split_same_average(@args) ? 'true' : 'false';

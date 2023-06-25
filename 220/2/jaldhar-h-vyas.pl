@@ -3,7 +3,6 @@ use v5.36;
 die 'fatal error - Modification of non-creatable array value attempted, subscript -1 at jaldhar-h-vyas.pl line 15.';
 
 __END__
-use warnings;
 no warnings 'uninitialized';
 
 sub permute :prototype(&@) {

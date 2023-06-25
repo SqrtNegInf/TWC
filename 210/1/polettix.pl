@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
 use v5.36;
-use warnings;
-use experimental 'signatures';
 
 say kill_and_win(<1 1 2 2 2 3 3>);
 

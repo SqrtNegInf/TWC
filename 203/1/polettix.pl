@@ -1,8 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
-use warnings;
-use experimental 'signatures';
-no warnings 'experimental::signatures';
+
 use List::Util 'sum';
 
 say special_quadruplets(<9 0 1 2 3 4 5 6>);

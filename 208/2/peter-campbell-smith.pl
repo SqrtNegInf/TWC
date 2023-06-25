@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-
 use v5.36;
-use utf8;
-use warnings;
 
 dup_and_miss(1, 2, 3, 3, 5);
 dup_and_miss(7, 7, 8, 9, 11);
