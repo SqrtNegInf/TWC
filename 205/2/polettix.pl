@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
 use v5.36;
-use warnings;
 use experimental qw< bitwise signatures >;
 
 say maximum_xor((13,13,9,1));

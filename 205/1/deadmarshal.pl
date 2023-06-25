@@ -1,7 +1,6 @@
 #!/usr/bin/env perl
 use v5.36.0;
-use strict;
-use warnings;
+
 use List::Util qw(uniq);
 
 sub third_highest{

@@ -1,10 +1,7 @@
 #!/usr/bin/env perl
 use v5.36.0;
-use strict;
-use warnings;
-use feature qw(say);
+
 use Test::More;
-use Benchmark qw(cmpthese timethis);
 
 my @TESTS = (
   [ [1..7], 7 ],

@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
 use v5.36.0;
-use strict ;
-use warnings ;
-use feature 'say' ;
 
 my %uniques ;
 map { $uniques{$_}++ } 5,4,4,3 ;

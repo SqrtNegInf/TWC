@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
 use v5.36;
-use warnings;
-use experimental 'signatures';
 
 say third_highest((5,4,4,3));
 

@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
-
 use v5.36;
+
 use List::Util qw(uniqint);
 
 my @A = (5,4,4,3);

@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
 use v5.36.0;
-use strict;
-use warnings;
-use feature "say";
 
 sub largest_xor {
     my $max = 0;

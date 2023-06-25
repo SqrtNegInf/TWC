@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
 use v5.36.0;
-use strict;
-use warnings;
-use experimental qw{ say postderef signatures state };
 
 use List::Util qw{ uniq max };
 

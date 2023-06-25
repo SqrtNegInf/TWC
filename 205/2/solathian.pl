@@ -1,5 +1,4 @@
 #!/usr/bin/env perl
-
 use v5.36;
 
 maXor(1,2,3,4,5,6,7);       # 7

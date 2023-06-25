@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
-
 use v5.36;
+
 use ntheory    qw<forcomb>;
 use List::Util qq<max>;
 
