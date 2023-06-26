@@ -1,16 +1,13 @@
 #!/usr/bin/env perl
+use v5.36;
 
-die 'Interesting code, but output is not stable';
+#die 'Interesting code, but output is not stable';
 
 srand 1;
-
-use strict;
 use utf8;
-
-use warnings;
-use feature qw(say);
-use Test::More;
 binmode(STDOUT, "encoding(UTF-8)");
+
+use Test::More;
 
 ## Firstly we get information about the UNICODE blocks
 ##

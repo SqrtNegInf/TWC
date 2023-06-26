@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-use experimental qw{ say postderef signatures state };
+use v5.36;
 
 use utf8;    # so we can use UTF8 chars within the code
 binmode STDOUT, ":encoding(UTF-8)";    # so they print OK

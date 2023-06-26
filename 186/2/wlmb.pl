@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
-
 use v5.36;
+
 use Encode qw(decode encode);
 use Unicode::Collate;
 sub char2ascii($char){ # Convert single char to ascii

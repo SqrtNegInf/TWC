@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
 use v5.36;
-use strict;
-use warnings;
 
 sub zip($a, $b){
     return map { $a->[$_], $b->[$_] } 0 .. @$a - 1;

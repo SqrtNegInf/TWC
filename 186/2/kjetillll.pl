@@ -1,12 +1,6 @@
 #!/usr/bin/env perl
-#run like: perl ch-2.pl
-#run like: perl ch-2.pl âÊíÒÙ
-#run like: perl ch-2.pl æøå ÆØÅ
-#run like: perl ch-2.pl '\x{5317}\x{4EB0}'
-#run like: perl ch-2.pl '\N{DROMEDARY CAMEL}' '\N{MONKEY}'
-#run like: perl ch-2.pl 🐪 🐒
-
 use v5.36;
+
 use utf8;
 use Text::Unidecode;    # ubuntu: sudo apt install libtext-unidecode-perl
 

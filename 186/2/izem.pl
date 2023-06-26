@@ -1,7 +1,6 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use feature 'say';
+use v5.36;
+
 use utf8;
 binmode(STDOUT, ':utf8'); # DH added
 use Unicode::UCD qw/charinfo charscript charinrange/;
