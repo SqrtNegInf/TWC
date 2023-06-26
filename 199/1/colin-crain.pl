@@ -1,7 +1,6 @@
 #!/usr/bin/env perl
-
 use v5.36;
-#
+
 #       not-a-bad-couple.pl
 
 #         ... but there's always room for one more.
@@ -93,17 +92,6 @@ use v5.36;
 
 #       © 2022 colin crain
 ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ##
-
-
-
-use warnings;
-use strict;
-use utf8;
-use feature ":5.26";
-use feature qw(signatures);
-no warnings 'experimental::signatures';
-
-
 
 my @list =  @ARGV;
    @list == 0 and @list = (1,1,1,1);

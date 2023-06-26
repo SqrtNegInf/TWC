@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
-#
+
 #       room-for-one-more.pl
 #
 #         Good Triplets
@@ -79,16 +79,6 @@ use v5.36;
 #
 #       © 2022 colin crain  
 ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ##
-
-
-
-use warnings;
-use strict;
-use utf8;
-use feature ":5.26";
-use feature qw(signatures);
-no warnings 'experimental::signatures';
-
 
 my ($x, $y, $z, @list) =  @ARGV;
 say count_trips($x, $y, $z, \@list) if @list;
