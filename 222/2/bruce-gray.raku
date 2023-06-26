@@ -1,4 +1,5 @@
 #!/usr/bin/env raku
+
 sub task2  ( @ns_original --> Int ) {
     my @ns = @ns_original;
 

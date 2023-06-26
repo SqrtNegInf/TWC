@@ -9,13 +9,11 @@
 ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ##
 
 
-unit sub MAIN ( *@arr ) ;
+my @arr = (2, 7, 4, 1, 8, 1);
 
-my $VERBOSE = 1;  ## show progress of array reduction?
 @arr .= sort;
 
 while @arr.elems > 1 {
-    $VERBOSE && say @arr;
     $_ = [-] (@arr.splice(*-2).reverse) || next;
     @arr.splice( ((|@arr, $_).first: * >= $_, :k), 0, $_ );     
 }

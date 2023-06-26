@@ -1,18 +1,17 @@
 #!/usr/bin/env raku
 
-unit sub MAIN (*@ints where @ints.elems > 0 && all(@ints) ~~ Int && all(@ints) > 0, :v(:$verbose));
+#unit sub MAIN (*@ints where @ints.elems > 0 && all(@ints) ~~ Int && all(@ints) > 0, :v(:$verbose));
+my @ints = (2, 7, 4, 1, 8, 1);
 
 @ints = @ints>>.Int.sort.reverse; 
 
 while @ints.elems > 1
 {
-  say ":Sorted: @ints[]" if $verbose;
   
   my $y    = @ints.shift;
   my $x    = @ints.shift;
   my $diff = $y - $x;
 
-  say ":List:   @ints[] { $diff ?? "| add $diff (source: $y - $x)" !! "| no add (source $y == $x)" }" if $verbose;
 
   if $diff
   {

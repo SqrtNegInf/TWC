@@ -12,15 +12,13 @@ sub last-member (+@ints) {
     andthen .tail
 }
 
-multi MAIN (Bool :test($)!) {
+#multi MAIN (Bool :test($)!) {
     use Test;
     is last-member(2,7,4,1,8,1),1;
     is last-member(1),1;
     is last-member(1,1),0;
     is last-member(9,2,5),2;
     done-testing;
-}
+#}
 
-multi MAIN (*@ints) {
-    put last-member @ints
-}
+#multi MAIN (*@ints) { put last-member @ints }

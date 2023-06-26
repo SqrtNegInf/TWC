@@ -2,20 +2,9 @@
 
 srand 1;
 
-use Getopt::Std;
+my $method = 's';
 my @ints = (2, 7, 4, 1, 8, 1);
-my %opts = getopts('bsriph', @*ARGS);
-CATCH { when X::Getopt::Std { .message.note; usage } };
-if %opts.keys.elems > 1 or %opts.keys.elems == 0 {
-    usage();
-    die("Please choose one option.");
-}
-my $method = %opts.keys[0];
-say "\tUsing method $method";
-if $method eq 'h' {
-    usage();
-    exit;
-}
+
 say " Input: " ~ @ints;
 if @ints > 2 {
     repeat {

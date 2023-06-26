@@ -1,7 +1,7 @@
 #!/usr/bin/env raku
 
 sub MAIN(
-    *@ints
+    @ints = (2, 7, 4, 1, 8, 1)
 ) {
     my @sorted = @ints.sort({ $^b <=> $^a });
 

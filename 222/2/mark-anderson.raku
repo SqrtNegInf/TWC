@@ -1,14 +1,12 @@
 #!/usr/bin/env raku
 
-srand 1;
-
 use Test;
 
 is last-member(2,7,4,1,8,1), 1;
 is last-member(1),           1;
 is last-member(1,1),         0;
 
-say last-member((^1000).roll(100_000).Array);
+#say last-member((^1000).roll(100_000).Array);
 
 sub last-member(+@a)
 {

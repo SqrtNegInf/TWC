@@ -1,13 +1,8 @@
 #!/usr/bin/env raku
-=begin comment
------------------------------------------------
-AUTHOR: Robert DiCicco
-DATE  : 2023-06-22
-Challenge 222 Task 2 Last Member ( Raku )
------------------------------------------------
-=end comment
 
-unit sub MAIN (*@allints where @allints.elems > 0) {
+#unit sub MAIN (*@allints where @allints.elems > 0) {
+my @allints = (2, 7, 4, 1, 8, 1);
+
     say "Input: \@ints = ",@allints;
     loop {
         my @srt = @allints.sort;
@@ -30,23 +25,3 @@ unit sub MAIN (*@allints where @allints.elems > 0) {
             }
         }
     }
-}
-
-=begin comment
------------------------------------------------
-SAMPLE OUTPUT
-raku .\LastMember.rk 2 7 4 1 8
-Input: @ints = [2 7 4 1 8]
-Output: 1
-
-raku .\LastMember.rk 1 1
-Input: @ints = [1 1]
-Output: 1
-
-raku .\LastMember.rk 1
-Input: @ints = [1]
-Output: 0
------------------------------------------------
-=end comment
-
-

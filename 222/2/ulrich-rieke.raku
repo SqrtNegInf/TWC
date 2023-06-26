@@ -1,5 +1,4 @@
 #!/usr/bin/env raku
-use v6 ;
 
 sub find_position( @array , $value ) {
   my $pos = 0 ;
@@ -9,9 +8,7 @@ sub find_position( @array , $value ) {
   return $pos ;
 }
 
-say "Enter some integers, separated by blanks!" ;
-my $line = $*IN.get ;
-my @numbers = $line.words.map( {.Int} ) ;
+my @numbers = (2, 7, 4, 1, 8, 1);
 my $len = @numbers.elems ;
 if ( $len == 1 ) {
   say @numbers[ 0 ] ;
