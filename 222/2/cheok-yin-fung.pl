@@ -1,8 +1,9 @@
 #!/usr/bin/env perl
-# The Weekly Challenge
-# Task 2 Last Member
 use v5.30.0;
+
+use strict;
 use warnings;
+
 use List::Util qw/max first/;
 
 sub lm {

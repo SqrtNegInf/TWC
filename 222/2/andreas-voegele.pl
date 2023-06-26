@@ -1,16 +1,5 @@
 #!/usr/bin/env perl
-
-# You are given an array of positive integers, @ints.  Write a script to find
-# the last member if found otherwise return 0.  Each turn pick the two biggest
-# members (x, y) then decide based on the following conditions, continue this
-# until you are left with one member or none.
-#
-# a) if x == y then remove both members
-#
-# b) if x != y then remove both members and add new member (y - x)
-
 use 5.036;
-use utf8;
 
 sub last_member (@ints) {
     my @sorted_ints = sort { $b <=> $a } @ints;

@@ -2,6 +2,7 @@
 use strict ;
 use warnings ;
 use feature 'say' ;
+
 use List::Util qw ( min any ) ;
 
 sub findPosition {
@@ -14,10 +15,7 @@ sub findPosition {
   return $pos ;
 }
 
-say "Enter some digits, separated by blanks!" ;
-my $line = <STDIN> ;
-chomp $line ;
-my @numbers = split( /\s/ , $line ) ;
+my @numbers = (2, 7, 4, 1, 8, 1);
 my $len = scalar( @numbers ) ;
 if ( $len == 1 ) {
   say $numbers[ 0 ] ;

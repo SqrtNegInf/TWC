@@ -1,21 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
 
-=Challenge 220 - 2 - Last Member=
-
-
-You are given an array of positive integers, @ints.
-
-Write a script to find the last member if found otherwise return 0. 
-Each turn pick 2 biggest members (x, y) then decide based on the following conditions, 
-continue this until you are left with 1 member or none.
-
-a) if x == y then remove both members
-b) if x != y then remove both members and add new member (y-x)
-
-=cut
-
-
 lastMember(2, 7, 4, 1, 8, 1);       # 1
 lastMember(1);                      # 1
 lastMember(1, 1);                   # 0

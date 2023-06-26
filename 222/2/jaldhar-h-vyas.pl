@@ -1,8 +1,9 @@
 #!/usr/bin/env perl
 use 5.030;
+
 use warnings;
 
-my @ints = @ARGV;
+my @ints = (2, 7, 4, 1, 8, 1);
 
 my @sorted = sort { $b <=> $a } @ints;
 

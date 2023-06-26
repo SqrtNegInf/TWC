@@ -1,17 +1,12 @@
 #!/usr/bin/env perl
-=begin comment
------------------------------------------------
-AUTHOR: Robert DiCicco
-DATE  : 2023-06-22
-Challenge 222 Task 2 Last Member ( Perl )
------------------------------------------------
-=cut
+
 use strict;
 use warnings;
 use feature 'say';
+
 use List::MoreUtils qw(first_index);
 
-my @allints = @ARGV[0..$#ARGV];
+my @allints = (2, 7, 4, 1, 8, 1);
 
 say "Input: \@ints = @allints";
 while (1) {
@@ -32,20 +27,3 @@ while (1) {
              }
         }
 }
-
-=begin comment
------------------------------------------------
-SAMPLE OUTPUT
-perl .\LastMember.pl 2 7 4 1 8 1
-Input: @ints = 2 7 4 1 8 1
-Output: 1
-
-PS G:\Projects\Perl\Challenges> perl .\LastMember.pl 1
-Input: @ints = 1
-Output: 1
-
-PS G:\Projects\Perl\Challenges> perl .\LastMember.pl 1 1
-Input: @ints = 1 1
-Output: 0
------------------------------------------------
-=cut
