@@ -1,13 +1,5 @@
 #!/usr/bin/env perl
-
-# Created for perl weekly challenge - 183 - 1
-
-# You are given list of arrayrefs.
-# Write a script to remove the duplicate arrayrefs from the given list.
-
-use strict;
-use warnings;
-use feature 'say';
+use v5.36;
 
 no warnings 'experimental::smartmatch';
 

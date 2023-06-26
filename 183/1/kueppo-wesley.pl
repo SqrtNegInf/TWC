@@ -1,9 +1,7 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use strict;
-use warnings;
 use experimental qw(smartmatch);
-use feature      qw(say);
 
 use Test::More;
 
