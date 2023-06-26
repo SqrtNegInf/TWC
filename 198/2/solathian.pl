@@ -2,14 +2,6 @@
 use v5.36;
 use Math::Prime::Util 'is_prime';  # to import all functions ':all'
 
-use feature 'signatures';
-no  warnings 'experimental';    # signatures, smartmatch
-
-# Challange 198 - 2 - Prime Count
-# You are given an integer $n > 0.
-# Write a script to print the count of primes less than $n.
-
-
 primeCount(10);     # 4
 primeCount(15);     # 6
 primeCount(1);      # 0
