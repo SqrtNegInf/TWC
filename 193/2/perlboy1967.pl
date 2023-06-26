@@ -1,5 +1,4 @@
 #!/usr/bin/env perl
-
 use v5.36;
 
 use List::MoreUtils qw(slide);
@@ -14,7 +13,6 @@ sub oddString {
   for (@_) {
     no warnings 'once';
     my $k = join('|',slide { $c->{$b} - $c->{$a}} split //); 
-    use warnings;
 
     $h{$k} = $_;
     $freq{$k}++;
