@@ -1,8 +1,9 @@
 #!/usr/bin/env perl
-
 use v5.36;
+no warnings 'uninitialized';
+
 use List::Util qw(all pairmap);
-no warnings;
+
 
 my @input=my @rest=sort {$a <=> $b} <1 2 3 6 7 9>; # make sure list is sorted and make copies
 my $previous=my $first=shift @rest;
