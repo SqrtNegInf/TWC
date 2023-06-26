@@ -1,7 +1,6 @@
 #!/usr/bin/env perl
-
 use v5.36;
-use warnings;
+
 use Test::More;
 
 sub greaterCharacter ($t, @list) { (grep {$_ gt $t} sort @list)[0] // $t }
