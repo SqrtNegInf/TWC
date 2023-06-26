@@ -16,4 +16,4 @@ sub main (@ints) {
     say $count;
 }
 
-main(@ARGV);
+main( (1, 1, 4, 2, 1, 3) );

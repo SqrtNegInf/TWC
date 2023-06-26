@@ -1,8 +1,9 @@
 #!/usr/bin/env perl
-# The Weekly Challenge 222
-# Task 1 Matching Members
 use v5.30.0;
+
+use strict;
 use warnings;
+
 use List::Util qw/zip/;
 
 sub mm {

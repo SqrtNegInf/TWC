@@ -2,7 +2,7 @@
 use 5.030;
 use warnings;
 
-my @ints = @ARGV;
+my @ints = (1, 1, 4, 2, 1, 3);
 my @sorted = sort { $a <=> $b} @ints;
 my $matches = 0;
 

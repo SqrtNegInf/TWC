@@ -1,8 +1,4 @@
 #!/usr/bin/env raku
 
-#| Given a list of integer print the number of times the list and the sorted list match
-sub MAIN (
-    *@list where { @list.all ~~ Int() } #= List of Integers
-) {
-    say [+] (@list Z== @list.sort);
-}
+my @list = (1, 1, 4, 2, 1, 3);
+say [+] (@list Z== @list.sort);

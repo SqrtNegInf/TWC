@@ -1,10 +1,6 @@
 #!/usr/bin/env perl
 
-# You are given a list of positive integers, @ints.  Write a script to find
-# the total matching members after sorting the list in increasing order.
-
 use 5.036;
-use utf8;
 
 use List::Util qw(zip);
 

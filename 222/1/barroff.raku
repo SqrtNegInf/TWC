@@ -1,7 +1,5 @@
 #!/usr/bin/env raku
 
-use v6.d;
-
 multi sub last-member(*@numbers where @numbers.elems == 0 --> Int) {
     0;
 }
@@ -34,7 +32,7 @@ sub last-member2(*@numbers where {$_.all ~~ Int:D}  --> Int) {
 }
 
 #| Run test cases
-multi sub MAIN('test') {
+#multi sub MAIN('test') {
     use Test;
     plan 6;
 
@@ -45,9 +43,7 @@ multi sub MAIN('test') {
     is last-member2(2, 7, 4, 1, 8, 1), 1, 'works for (2, 7, 4, 1, 8, 1)';
     is last-member2(1), 1, 'works for (1)';
     is last-member2(1, 1), 0, 'works for (1, 1)';
-}
+#}
 
 #| Take user provided list like 1 17 8
-multi sub MAIN(*@numbers where @numbers.elems ≥ 1) {
-    say last-member(@numbers);
-}
+#multi sub MAIN(*@numbers where @numbers.elems ≥ 1) { say last-member(@numbers); }

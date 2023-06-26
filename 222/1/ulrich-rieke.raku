@@ -1,9 +1,6 @@
 #!/usr/bin/env raku
-use v6 ;
 
-say "Enter some integers, separated by blanks!" ;
-my $line = $*IN.get ;
-my @numbers = $line.words.map( {.Int} ) ;
+my @numbers = (1, 1, 4, 2, 1, 3);
 my @sorted = @numbers.sort( {$^a <=> $^b } ) ;
 my $samepos = 0 ;
 for ( 0..@numbers.elems - 1 ) -> $i {

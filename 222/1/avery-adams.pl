@@ -1,7 +1,9 @@
 #!/usr/bin/env perl
-use strict;
 use v5.24;
-my @sorted = sort @ARGV;
+use strict;
+use warnings;
+my @A = (1, 1, 4, 2, 1, 3);
+my @sorted = sort @A;
 my $matches;
-for (my $i = 0; $i <= $#ARGV; $i++) {$matches++ if $ARGV[$i] == $sorted[$i]}
+for (my $i = 0; $i <= $#A; $i++) {$matches++ if $A[$i] == $sorted[$i]}
 say $matches // 0;

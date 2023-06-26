@@ -1,21 +1,5 @@
 #!/usr/bin/env perl
 
-=pod
-
-The Weekly Challenge - 222
-- https://theweeklychallenge.org/blog/perl-weekly-challenge-222
-
-Author: Niels 'PerlBoy' van Dijke
-
-Task 1: Matching Members
-Submitted by: Mohammad S Anwar
-
-You are given a list of positive integers, @ints.
-
-Write a script to find the total matching members after sorting the list increasing order.
-
-=cut
-
 use v5.16;
 
 use common::sense;
