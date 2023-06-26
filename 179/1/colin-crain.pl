@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
-#
+
 #       ordinary_number_rules.pl
 #
 #       Ordinal Number Spelling
@@ -42,16 +42,6 @@ use v5.36;
 #
 #       © 2022 colin crain
 ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ##
-
-
-
-use warnings;
-use strict;
-use utf8;
-use feature ":5.26";
-use feature qw(signatures);
-no warnings 'experimental::signatures';
-
 
 use Lingua::EN::Numbers qw (num2en_ordinal);
 
