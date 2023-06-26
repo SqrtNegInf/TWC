@@ -1,9 +1,10 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
+use v5.36;
+
+use feature 'switch';
+no warnings 'experimental';
+
 use ntheory qw/is_prime/;
-no warnings 'experimental::smartmatch';
-use 5.30.0;
 
 sub MidChar {
 
