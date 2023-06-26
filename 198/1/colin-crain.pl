@@ -1,8 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
-#
-#       .pl
-#
+
 #       Max Gap
 #         Submitted by: Mohammad S Anwar
 #         You are given a list of integers, @list.
@@ -25,16 +23,6 @@ use v5.36;
 #
 #       © 2022 colin crain
 ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ##
-
-
-
-use warnings;
-use strict;
-use utf8;
-use feature ":5.26";
-use feature qw(signatures);
-no warnings 'experimental::signatures';
-
 
 my @input = scalar @ARGV 
     ? @ARGV
