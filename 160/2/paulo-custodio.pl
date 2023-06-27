@@ -1,7 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
 
-use Modern::Perl;
 use List::Util qw( sum );
 
 say equilibrium_index((1, 3, 5, 7, 9));

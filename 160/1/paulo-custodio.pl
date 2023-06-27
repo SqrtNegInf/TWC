@@ -1,7 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
 
-use Modern::Perl;
 use Lingua::EN::Numbers qw(num2en);
 
 say sequence(shift||9);
