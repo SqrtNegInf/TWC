@@ -1,10 +1,8 @@
 #!/usr/bin/env perl
-#use v5.36;
-use 5.030;
-use warnings;
+use v5.36;
 use experimental qw/ smartmatch /;
 
-sub permute (&@) {
+sub permute :prototype(&@) {
     my $code = shift;
     my @idx = 0..$#_;
     while ( $code->(@_[@idx]) ) {
