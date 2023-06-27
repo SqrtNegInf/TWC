@@ -16,7 +16,6 @@ use Capture::Tiny q/capture_stdout/;
 ####################################################################
 package PhoneNumberParser;
 use vars qw ( @ISA );
-use strict;
 
 @ISA= qw ( Parse::Yapp::Driver );
 use Parse::Yapp::Driver;
