@@ -1,7 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
 
-use Modern::Perl;
 use List::Util qw<uniq head>;
 use List::Lazy qw<lazy_list>;
 use ntheory    qw<is_prime>;
