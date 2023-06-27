@@ -1,4 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
+
 #
 #       222-2-last-element-standing.pl
 #
@@ -69,15 +71,6 @@
 #
 #       © 2022 colin crain
 ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ##
-
-
-
-use warnings;
-use strict;
-use utf8;
-use feature ":5.26";
-use feature qw(signatures);
-no warnings 'experimental::signatures';
 
 use constant { VERBOSE => 1};
 

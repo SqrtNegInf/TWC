@@ -1,9 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
 
-#use FindBin qw($Bin);
-#use lib "$FindBin::Bin";
-
 use Getopt::Long;
 my $Verbose = 0;
 my $DoTest  = 0;
