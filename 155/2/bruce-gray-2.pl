@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-
 use v5.36;
-#use Modern::Perl;
-#use experimental qw<signatures>;
 
 # Using two key insights from https://wlmb.github.io/2022/03/07/PWC155/ ,
 # this version only takes 4.4 seconds to recreate https://oeis.org/A001175/b001175.txt .
