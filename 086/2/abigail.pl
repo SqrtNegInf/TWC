@@ -1,14 +1,7 @@
 #!/usr/bin/env perl
-#use v5.36; # this triggers the 'multidimensional hash' error: $$cache {$x, $y} //= do {
+use v5.36;
 
-use 5.032;
-
-use strict;
-use warnings;
-no  warnings 'syntax';
-
-use experimental 'signatures';
-use experimental 'lexical_subs';
+no warnings 'uninitialized';
 
 ################################################################################
 #
@@ -261,7 +254,7 @@ if ($clue_count < $SIZE) {
 
 sub sees ($x, $y) {
     state $cache;
-    $$cache {$x, $y} //= do {
+    $$cache {$x . $y} //= do {
         my $out;
         foreach my $i (@INDICES) {
             foreach my $j (@INDICES) {
@@ -279,7 +272,7 @@ sub sees ($x, $y) {
         }
         $out;
     };
-    @{$$cache {$x, $y}};
+    @{$$cache {$x . $y}};
 }
 
 
@@ -298,7 +291,7 @@ my $unsolved;
 foreach my $x (@INDICES) {
     foreach my $y (@INDICES) {
         if ($sudoku [$x] [$y]) {  # Clue, hence solved
-            $$solved {$x, $y} = $sudoku [$x] [$y];
+            $$solved {$x . $y} = $sudoku [$x] [$y];
             next;
         }
         #
@@ -312,7 +305,7 @@ foreach my $x (@INDICES) {
             $set &= ~(1 << ($sudoku [$see_x] [$see_y] - 1));
         }
 
-        $$unsolved {$x, $y} = $set;
+        $$unsolved {$x . $y} = $set;
     }
 }
 
@@ -424,13 +417,13 @@ sub solve ($solved, $unsolved) {
             #
             foreach my $can_see (sees ($x, $y)) {
                 my ($x1, $y1) = @$can_see;
-                if ($$new_unsolved {$x1, $y1} &&
-                    $$new_unsolved {$x1, $y1} & $mask) {
-                    $$new_unsolved {$x1, $y1} &= ~ $mask;
+                if ($$new_unsolved {$x1 . $y1} &&
+                    $$new_unsolved {$x1 . $y1} & $mask) {
+                    $$new_unsolved {$x1 . $y1} &= ~ $mask;
                     my $nr_of_elements =
-                        nr_of_elements $$new_unsolved {$x1, $y1};
+                        nr_of_elements $$new_unsolved {$x1 . $y1};
                     return               if $nr_of_elements == 0;
-                    $todo {$x1, $y1} = 1 if $nr_of_elements == 1;
+                    $todo {$x1 . $y1} = 1 if $nr_of_elements == 1;
                 }
             }
 
@@ -471,7 +464,7 @@ sub solve ($solved, $unsolved) {
         #
         # Set the guess as solved.
         #
-        $$new_solved {$x, $y} = $guess;
+        $$new_solved {$x . $y} = $guess;
 
         #
         # Remove the guess from the set of unsolved cells.
@@ -484,8 +477,8 @@ sub solve ($solved, $unsolved) {
         #
         foreach my $can_see (sees ($x, $y)) {
             my ($x1, $y1) = @$can_see;
-            if ($$new_unsolved {$x1, $y1}) {
-                $$new_unsolved {$x1, $y1} &= ~ $mask;
+            if ($$new_unsolved {$x1 . $y1}) {
+                $$new_unsolved {$x1 . $y1} &= ~ $mask;
             }
         }
 
@@ -518,7 +511,7 @@ if (my $r = solve ($solved, $unsolved)) {
     foreach my $x (@INDICES) {
         foreach my $y (keys @INDICES) {
             print " " if $y;
-            printf "%${w}s" => $value2clue {$$r {$x, $y}};
+            printf "%${w}s" => $value2clue {$$r {$x . $y}};
         }
         print "\n";
     }
