@@ -1,9 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
 
-use strict;
-use warnings;
-
 use Test::More;
 
 is summations([1, 2, 3, 4, 5]), 42, 'Example 1';

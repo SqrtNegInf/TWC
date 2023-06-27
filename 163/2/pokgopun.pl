@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
 use v5.36;
-use strict;
-use warnings;
 
 my @sample = @ARGV > 0 && join("",@ARGV) =~ /^\d+$/ ? ([@ARGV]) : ([1,2,3,4,5],[1,3,5,7,9]);
 foreach (@sample){
