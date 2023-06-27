@@ -1,8 +1,7 @@
 #!/usr/bin/env perl
-#use v5.36;
-package main;
-use strict;
-no warnings;
+use v5.36;
+
+use experimental qw/ smartmatch /;
 
 sub get_permuted_multiple {
 
@@ -32,4 +31,3 @@ use Test::More;
 
 is( get_permuted_multiple(), 142857 );
 done_testing;
-1;
