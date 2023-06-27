@@ -26,12 +26,6 @@ sub toString {
 }
 
 package main;
-use 5.020;
-use warnings;
-
-#if (scalar @ARGV != 2) {
-#    die "Need two binary numbers.\n";
-#}
 
 my $a = Binary->new(11);
 my $b = Binary->new(1);

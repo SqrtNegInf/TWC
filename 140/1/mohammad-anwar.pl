@@ -3,9 +3,6 @@ use v5.36;
 
 package Binary;
 
-use strict;
-use warnings;
-
 use overload '+' => 'add', '""' => 'stringify';
 
 sub new {
