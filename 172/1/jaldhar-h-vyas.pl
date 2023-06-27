@@ -1,5 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
+
 use English qw/ -no_match_vars /;
 
 sub combinations {

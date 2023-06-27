@@ -5,14 +5,9 @@ die 'do not run';
 
 package main;
 
-use strict;
-use warnings;
 use Math::Prime::Util qw/next_prime/;
 use Math::Combinatorics;
 use List::Util qw/sum/;
-#Dumper \@result;
-#    return \@result;
-#}
 
 use Test::More;
 

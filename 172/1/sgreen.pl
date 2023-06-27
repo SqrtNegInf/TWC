@@ -1,11 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
 
-use strict;
-use warnings;
-use feature 'say';
-use experimental 'signatures';
-
 use List::Util 'sum';
 use Algorithm::Combinatorics 'combinations';
 

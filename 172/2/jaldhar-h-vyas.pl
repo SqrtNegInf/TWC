@@ -1,9 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
 
-use 5.030;
-use warnings;
-
 my @nums = sort { $a <=> $b } 0..11;
 my $e = scalar @nums;
 
