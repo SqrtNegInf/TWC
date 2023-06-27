@@ -1,7 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
 
-
 my $program = $ARGV[0] // 'Calc.pm';
 
 open(SCRIPT, $program) or die "Fail to read $program\n";

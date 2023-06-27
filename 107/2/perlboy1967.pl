@@ -32,5 +32,3 @@ printf "methods = ('%s')\n",
 if ($evade // 0) {
   &{"${lib}::thatIsAllFolks"}();
 }
-
-use strict 'refs';
