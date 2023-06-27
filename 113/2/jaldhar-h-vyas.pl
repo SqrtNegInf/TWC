@@ -27,8 +27,6 @@ package Node {
 }
 
 package main;
-use 5.020;
-use warnings;
 
 sub totalFrom {
     my ($node) = @_;
