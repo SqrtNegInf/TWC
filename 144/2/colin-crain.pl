@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
-#
+
 #       ulam.pl
 #
 #       Ulam Sequence
@@ -71,14 +71,6 @@ use v5.36;
 #       © 2021 colin crain
 ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ##
 
-
-
-use warnings;
-use strict;
-use utf8;
-use feature ":5.26";
-use feature qw(signatures);
-no warnings 'experimental::signatures';
 
 my $u   = shift // 17;
 my $v   = shift // 13;

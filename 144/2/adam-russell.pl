@@ -1,13 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
 
-use strict;
-use warnings;
-##
-# You are given two positive numbers, $u and $v. Write a script to generate the
-# Ulam Sequence having at least 10 Ulam numbers where $u and $v are the first two 
-# Ulam numbers.    
-##
 use constant ULAM_LIMIT => 10;   
 
 sub ulam{
