@@ -5,7 +5,6 @@ use Algorithm::Combinatorics qw/permutations/;
 
 { 
     package Point;
-    use strict;
 
     sub new {
         my ($class) = @_;
@@ -22,7 +21,6 @@ use Algorithm::Combinatorics qw/permutations/;
 
 {
     package Box;
-    use strict;
 
     sub new {
         my ($class) = @_;

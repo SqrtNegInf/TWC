@@ -1,16 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
 
-# Perl Weekly Challenge - 109
-# - https://perlweeklychallenge.org/blog/perl-weekly-challenge-109/#TASK2
-#
-# Task 2 - Four Squares Puzzle
-#
-# Author: Niels 'PerlBoy' van Dijke
-
-use strict;
-use warnings;
-
 use List::Util qw(sum);
 use List::MoreUtils qw(minmax);
 use Algorithm::Combinatorics qw(permutations);

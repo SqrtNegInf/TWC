@@ -2,10 +2,7 @@
 use v5.36;
 
 die 'not ok - disabled: output not stable';
-use 5.024;
-use warnings;
-use experimental qw< postderef signatures >;
-no warnings qw< experimental::postderef experimental::signatures >;
+
 use List::Util 'shuffle';
 
 sub four_squares_puzzle (@values) {

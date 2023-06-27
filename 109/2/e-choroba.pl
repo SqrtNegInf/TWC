@@ -69,8 +69,6 @@ sub valid {
 #    ok valid(@fs), "valid result" if @fs;
 #}
 
-use Benchmark qw{ cmpthese };
-
 my @S = 1 .. 7;
 my @U = (0, 1, 2, 5, 6, 8, 9);
 ok valid(four_squares(@S));
@@ -79,33 +77,3 @@ ok ! four_squares(@U);
 ok ! slow_fs(@U);
 
 done_testing();
-
-=head1 Benchmark
-
-                    Rate slow_unsolvable slow_solvable fast_unsolvable fast_solvable
- slow_unsolvable   577/s              --          -85%            -98%          -99%
- slow_solvable    3915/s            578%            --            -87%          -93%
- fast_unsolvable 30817/s           5238%          687%              --          -47%
- fast_solvable   57985/s           9944%         1381%             88%            --
-
-=head1 Interesting cases
-
-For some inputs, there are at least 2 different solutions with different sums.
-Examples follow:
-
-=over 2
-
-=item 1 2 3 5 5 7 9
-
-
-  5 5 3 2 7 1 9  (sum 10)
-  3 9 1 2 5 5 7  (sum 12)
-
-=item 1 2 3 4 5 8 9
-
-  9 1 4 5 3 2 8  (sum 10)
-  4 9 1 3 2 8 5  (sum 13)
-
-=back
-
-=cut

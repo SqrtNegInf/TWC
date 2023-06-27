@@ -49,14 +49,6 @@ die 'not ok - disabled: Input a pain';
 #       © 2021 colin crain
 ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ##
 
-
-
-use warnings;
-use strict;
-use feature ":5.26";
-use feature qw(signatures);
-no  warnings 'experimental::signatures';
-
 use Algorithm::Combinatorics qw(permutations);
 use List::Util 1.56 qw(sum zip);   ## need 1.56 for zip
 
