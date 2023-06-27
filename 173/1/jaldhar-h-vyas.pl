@@ -1,7 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
-use 5.030;
-use warnings;
+
 use English qw/ -no_match_vars /;
 
 sub isEsthetic {
