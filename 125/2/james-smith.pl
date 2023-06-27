@@ -1,13 +1,11 @@
 #!/usr/bin/env perl
+use v5.36;
 
 # module lacks 'depth' method?
 die 'not ok - disabled: run-time failure';
 
-use strict;
-
-use warnings;
-use feature qw(say);
 use Test::More;
+
 use lib '.';
 use BinaryTree;
 

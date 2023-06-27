@@ -2,7 +2,6 @@
 use v5.36;
 
 use Tree::Binary;
-use Modern::Perl;
 use List::Util 'max';
 
 =begin example1

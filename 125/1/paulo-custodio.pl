@@ -1,7 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
 
-use Modern::Perl;
 use ntheory 'gcd';
 use constant MAX_GEN => 100;
 
