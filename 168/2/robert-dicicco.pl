@@ -1,8 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
 
-use strict;
-use warnings;
 use ntheory qw/is_prime factor divisors/;
 
 my $hp = 8;
