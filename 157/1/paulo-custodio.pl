@@ -1,7 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
 
-use Modern::Perl;
 use List::Util qw( sum product );
 
 my @n = (1,3,5,6,9);
