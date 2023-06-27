@@ -1,10 +1,6 @@
 #!/usr/bin/env perl 
 use v5.36;
 
-use strict; 
-use warnings; 
-use feature 'say';
-
 sub isdisjoint { 
     my ($s1, $s2) = @_;
     my %h1 = map { $_ => 1 } @$s1; 
