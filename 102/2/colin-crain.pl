@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
-#
+
 #       puzzlehash.pl
 #
 #         TASK #2 › Hash-counting String
@@ -88,14 +88,6 @@ use v5.36;
 #
 #       © 2021 colin crain
 ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ##
-
-
-
-use warnings;
-use strict;
-use feature ":5.26";
-use feature qw(signatures);
-no warnings 'experimental::signatures';
 
 for (1..32) {
     say sprintf "%2d -> %s", $_, get_hash_string( $_ );
