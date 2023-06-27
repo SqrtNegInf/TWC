@@ -2,10 +2,6 @@
 
 use v5.36;
 
-#use 5.010;
-#use warnings;
-#use strict;
-
 use List::Util qw< sum >;
 
 #sub is_happy(_); # passing $_ by default, big whoop
