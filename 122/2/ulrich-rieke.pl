@@ -1,8 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
-use strict ;
-use warnings ;
-use feature 'say' ;
+
 use Algorithm::Combinatorics qw ( variations_with_repetition ) ;
 use List::Util qw ( sum ) ;
 use POSIX qw ( floor ) ;
