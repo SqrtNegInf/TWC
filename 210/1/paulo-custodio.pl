@@ -1,7 +1,6 @@
 #!/usr/bin/env perl
-
 use v5.36;
-use Modern::Perl;
+
 use List::Util 'sum';
 
 sub kill_and_win {

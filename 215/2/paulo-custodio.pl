@@ -1,8 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
 
-use Modern::Perl;
-
 sub can_place {
     my($nums, $count) = @_;
     my $str = join '', @$nums;
