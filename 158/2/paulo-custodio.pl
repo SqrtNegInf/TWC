@@ -1,7 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
 
-use Modern::Perl;
 use ntheory qw( is_prime );
 
 say join(", ", cuban_primes(1000));

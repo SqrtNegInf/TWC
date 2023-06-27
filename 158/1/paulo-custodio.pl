@@ -1,7 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
 
-use Modern::Perl;
 use List::Util qw( sum );
 use ntheory qw( is_prime next_prime );
 
