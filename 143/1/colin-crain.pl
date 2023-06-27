@@ -1,5 +1,6 @@
 #!/usr/bin/env perl
-#
+use v5.36;
+
 #       recalc.pl
 #
 #       Calculator
@@ -38,8 +39,6 @@
 ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ##
 
 
-use v5.36;
-
 sub evaluate( $expr ) { 
     $expr =~ s/ \( \s* ([^(]*) \s* \) / evaluate($1) /exg ;
     do {1} while $expr =~ s/ ([\d.-]+) \s* \* \s* ([\d.-]+) / $1 * $2 /ex ;
@@ -47,20 +46,6 @@ sub evaluate( $expr ) {
     $expr =~ s/\A\s*|\s*\Z//g;
     return $expr;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 use Test::More;
 

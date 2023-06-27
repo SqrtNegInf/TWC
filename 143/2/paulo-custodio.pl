@@ -1,8 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
 
-use Modern::Perl;
-
 sub is_stealthy {
     my($n) = @_;
     for my $a (1..$n) {

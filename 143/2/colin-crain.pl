@@ -1,5 +1,6 @@
 #!/usr/bin/env perl
-#
+use v5.36;
+
 #     stealthy.pl
 #
 #     Stealthy Number
@@ -92,9 +93,6 @@
 #
 #       © 2021 colin crain
 ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ##
-
-
-use v5.36;
 
 
 sub nd_brute ( $num, @div ) {

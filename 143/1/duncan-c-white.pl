@@ -1,8 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
 
-#   Let's try handwriting a RD parser..
-
 #
 # my $val = factor( $inputref );
 #	Parse the input string $$inputref, an integer expression factor,
