@@ -1,9 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
 
-use Modern::Perl;
-
-# https://rosettacode.org/wiki/Eertree#Perl
 sub build_eertree {
     my($str) = @_;
 

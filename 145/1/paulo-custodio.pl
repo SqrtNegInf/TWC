@@ -1,8 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
 
-#use Modern::Perl;
-
 sub dot_product {
     my(@ab) = @_;
     my $n = int(@ab/2);
