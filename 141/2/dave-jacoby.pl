@@ -1,11 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
 
-use strict;
-use warnings;
-use feature qw{ say postderef signatures state };
-no warnings qw{ experimental };
-
 use Carp;
 use Getopt::Long;
 

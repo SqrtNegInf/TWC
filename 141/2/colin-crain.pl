@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
-#
+
 #       i-lk-u.pl
 #
 #       Like Numbers
@@ -41,15 +41,6 @@ use v5.36;
 #
 #       © 2021 colin crain
 ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ##
-
-
-
-use warnings;
-use strict;
-use utf8;
-use feature ":5.26";
-use feature qw(signatures);
-no warnings 'experimental::signatures';
 
 my $m = shift @ARGV // 76876522;
 my $n = shift @ARGV // 143;
