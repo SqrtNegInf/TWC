@@ -26,10 +26,8 @@ sub str {
 1;
 
 package main;
-use 5.020;
-use warnings;
 
-sub permute (&@) {
+sub permute :prototype(&@) {
     my $code = shift;
     my @idx = 0..$#_;
     while ( $code->(@_[@idx]) ) {
