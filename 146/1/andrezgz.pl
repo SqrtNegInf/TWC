@@ -1,10 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
 
-use strict;
-use warnings;
-use feature 'say';
-
 my $n = 1;
 my $count = 0;
 

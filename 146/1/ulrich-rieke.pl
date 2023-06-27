@@ -2,10 +2,6 @@
 use v5.36;
 # super in-efficient!
 
-use strict ;
-use warnings ;
-use feature 'say' ;
-
 sub isPrime {
   my $number = shift ;
   return 1 if ( $number == 2 ) ;
