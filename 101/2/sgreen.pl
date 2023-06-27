@@ -1,10 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
 
-use strict;
-use warnings;
-use feature 'say';
-
 sub main {
     my ($x1, $y1, $x2, $y2, $x3, $y3) = ( join( ' ', @_ ) =~ /(-?\d+)/g );
 

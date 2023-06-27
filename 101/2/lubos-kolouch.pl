@@ -1,11 +1,5 @@
 #!/usr/bin/env perl
 use v5.36;
-# I solved this some time ago for Project Euler #102, copying
-
-#
-use strict;
-use bigrat;
-
 
 sub has_origin {
     my $what = shift;

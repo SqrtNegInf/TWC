@@ -1,24 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
-#===============================================================================
-#
-#         FILE: 10102.pl
-#
-#        USAGE: ./10102.pl x1 y1 x2 y2 x3 y3 
-#
-#  DESCRIPTION: Check if point (0, 0) lies within given triangle
-#               Output 1 if it is inside (including on the line),
-#               0 otherwise
-#
-# REQUIREMENTS: List::Util (Core module)
-#       AUTHOR: Pete Houston (pete), cpan@openstrike.co.uk
-# ORGANIZATION: Openstrike
-#      VERSION: 1.0
-#      CREATED: 22/02/21
-#===============================================================================
 
-use strict;
-use warnings;
 use List::Util 'pairs';
 
 my @vertices = map { /([0-9.-]+)/ and $1 } (1,1,-1,1,0,-3);

@@ -1,9 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
 
-use strict;
-use warnings;
-
 use Test::More tests => 3;
 
 is_deeply(ot([0,1],[1,0],[2,2]),0,'example 1');

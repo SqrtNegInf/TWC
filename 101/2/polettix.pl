@@ -1,9 +1,5 @@
 #!/usr/bin/env perl
 use v5.36;
-use 5.024;
-use warnings;
-use experimental qw< postderef signatures >;
-no warnings qw< experimental::postderef experimental::signatures >;
 
 use Math::Polygon;
 

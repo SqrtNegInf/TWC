@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
 use v5.36;
-use warnings;
-use strict;
 
 use constant THRESHOLD => 1e-10;
 

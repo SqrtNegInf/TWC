@@ -1,12 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
 
-# https://perlweeklychallenge.org/blog/perl-weekly-challenge-101/
-# TASK #2 › Origin-containing Triangle
-
-use 5.030;
-use warnings;
-
 #my ($x1, $y1, $x2, $y2, $x3, $y3) = @ARGV;
 #my ($x1, $y1, $x2, $y2, $x3, $y3, $x, $y) = (0, 1, 1, 0, 2, 2);
 my ($x1, $y1, $x2, $y2, $x3, $y3, $x, $y) = (1, 1, -1, 1, 0, -3);

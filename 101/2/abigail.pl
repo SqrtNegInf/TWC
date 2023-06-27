@@ -1,27 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
 
-use 5.032;
-
-use strict;
-use warnings;
-no  warnings 'syntax';
-
-use experimental 'signatures';
-use experimental 'lexical_subs';
-
-#
-# See ../README.md
-#
-
-#
-# Run as: perl ch-2.pl < input-file
-#
-
-#
-# See https://stackoverflow.com/questions/2049582/
-#
-
 #
 # This determines on which side of the line through ($x1, $y1) and
 # ($x2, $y2) the origin lies. If > 0, then the origin lies to the left

@@ -1,15 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
 
-use strict;
-use warnings;
-use feature 'say';
-use feature 'signatures';
-
-no warnings "experimental::signatures";
-
-#die "Specify 6 or 8 values" unless @ARGV == 6 || @ARGV == 8;
-
 my ($x1, $y1, $x2, $y2, $x3, $y3, $x, $y) = (1,1,-1,1,0,-3,0,0);
 
 $x = 0 unless defined $x;

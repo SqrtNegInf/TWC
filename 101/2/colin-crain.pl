@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
-#
+
 #       three-walls-around-me.pl
 #
 #         TASK #2 › Origin-containing Triangle
@@ -44,17 +44,7 @@ use v5.36;
 #       © 2021 colin crain
 ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ##
 
-
-
-use warnings;
-use strict;
-use feature ":5.26";
-
-
 package main;
-use feature qw(signatures);
-no warnings 'experimental::signatures';
-
 
 @ARGV = (0,-4, 0,4, - 4,0);
 
