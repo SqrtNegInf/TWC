@@ -1,13 +1,7 @@
 #!/usr/bin/env perl
 use v5.36;
 
-use strict;
-use warnings;
 use Number::Fraction qw/:constants/;
-
-# Author: Robert DiCicco
-# DATE: 4-APR-2022
-# Challenge 159 Farey Sequence ( Perl )
 
 my $n = 7;
 

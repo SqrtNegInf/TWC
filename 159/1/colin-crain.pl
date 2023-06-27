@@ -1,5 +1,6 @@
 #!/usr/bin/env perl
-#
+use v5.36;
+
 #       fareys-wear-boots.pl
 #
 #         Farey Sequence
@@ -53,18 +54,7 @@
 #       © 2022 colin crain
 ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ##
 
-
-
-use warnings;
-use strict;
-use utf8;
-use feature ":5.26";
-use feature qw(signatures);
-no warnings 'experimental::signatures';
-
-
-package Rat;
-{
+{ package Rat;
     use Moo;
     use feature qw(signatures);
     no warnings 'experimental::signatures';
@@ -106,15 +96,14 @@ package Rat;
 }
 
 
-
-package main;
+#package main;
 
 my $order = shift @ARGV // 7;
 
 my @rats;
 for my $den (1..$order) {
     for my $num ( 0..$den) {
-        push @rats, new Rat($num, $den);    
+        push @rats, Rat->new($num, $den);    
     }
 }
 
