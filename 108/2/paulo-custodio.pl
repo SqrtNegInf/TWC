@@ -38,9 +38,6 @@ use v5.36;
 #    {c}{a,b,d}
 #    {d}{a,b,c}
 
-use Modern::Perl;
-#use Data::Dump 'dump';
-
 my $N = shift || 10;
 my $bell = bell();
 for (1..$N) {
