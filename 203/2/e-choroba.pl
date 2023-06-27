@@ -3,6 +3,7 @@
 
 die 'not working';
 
+__END__
 use File::Find qw{ find };
 
 sub copy_directory($source, $target) {
