@@ -96,53 +96,53 @@ sub makeunder {
   $res;
 }
 
-say makeunder_nolig( '
-Task 1: Zip List
-Submitted by: Mohammad S Anwar
-You are given two list @a and @b of same size.
-
-Create a subroutine sub zip(@a, @b) that merge the two
-list as shown in the example below.
-
-Task 2: Unicode Makeover
-Submitted by: Mohammad S Anwar
-You are given a string with possible unicode characters.
-
-Create a subroutine sub makeover($str) that replace the
-unicode characters with ascii equivalent. For this task,
-let us assume it only contains alphabets.
-');
-say makeunder( '
-Task 1: Zip List
-Submitted by: Mohammad S Anwar
-You are given two list @a and @b of same size.
-
-Create a subroutine sub zip(@a, @b) that merge the two
-list as shown in the example below.
-
-Task 2: Unicode Makeover
-Submitted by: Mohammad S Anwar
-You are given a string with possible unicode characters.
-
-Create a subroutine sub makeover($str) that replace the
-unicode characters with ascii equivalent. For this task,
-let us assume it only contains alphabets.
-');
-say makeunder('
-# The Weekly Challenge 186
-
-You can find more information about this weeks, and previous weeks challenges at:
-
-  https://theweeklychallenge.org/
-
-If you are not already doing the challenge - it is a good place to practise your
-**perl** or **raku**. If it is not **perl** or **raku** you develop in - you can
-submit solutions in whichever language you feel comfortable with.
-
-You can find the solutions here on github at:
-
-https://github.com/drbaggy/perlweeklychallenge-club/tree/master/challenge-186/james-smith
-');
+#say makeunder_nolig( '
+#Task 1: Zip List
+#Submitted by: Mohammad S Anwar
+#You are given two list @a and @b of same size.
+#
+#Create a subroutine sub zip(@a, @b) that merge the two
+#list as shown in the example below.
+#
+#Task 2: Unicode Makeover
+#Submitted by: Mohammad S Anwar
+#You are given a string with possible unicode characters.
+#
+#Create a subroutine sub makeover($str) that replace the
+#unicode characters with ascii equivalent. For this task,
+#let us assume it only contains alphabets.
+#');
+#say makeunder( '
+#Task 1: Zip List
+#Submitted by: Mohammad S Anwar
+#You are given two list @a and @b of same size.
+#
+#Create a subroutine sub zip(@a, @b) that merge the two
+#list as shown in the example below.
+#
+#Task 2: Unicode Makeover
+#Submitted by: Mohammad S Anwar
+#You are given a string with possible unicode characters.
+#
+#Create a subroutine sub makeover($str) that replace the
+#unicode characters with ascii equivalent. For this task,
+#let us assume it only contains alphabets.
+#');
+#say makeunder('
+## The Weekly Challenge 186
+#
+#You can find more information about this weeks, and previous weeks challenges at:
+#
+#  https://theweeklychallenge.org/
+#
+#If you are not already doing the challenge - it is a good place to practise your
+#**perl** or **raku**. If it is not **perl** or **raku** you develop in - you can
+#submit solutions in whichever language you feel comfortable with.
+#
+#You can find the solutions here on github at:
+#
+#https://github.com/drbaggy/perlweeklychallenge-club/tree/master/challenge-186/james-smith
+#');
 
 ## These strings are UTF-8 as we have a `use utf8;` statement at
 ## the start of the code..
