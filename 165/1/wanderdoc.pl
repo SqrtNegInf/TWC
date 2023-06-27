@@ -1,8 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
 
-#use warnings FATAL => qw(all);
-
 use lib '.';
 use my_svg;
 

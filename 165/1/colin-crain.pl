@@ -1,9 +1,6 @@
 #!/usr/bin/env perl
-#use v5.36;
-### 2023-05-09 could not get this working, between export/import, Moo
-#
+use v5.36;
 
-#
 #       scriving-pictures.pl
 #
 #       Scalable Vector Graphics (SVG)
@@ -55,23 +52,9 @@
 ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ##
 
 
-
-use warnings;
-use strict;
-use utf8;
-use feature ":5.26";
-use feature qw(signatures);
-no warnings 'experimental::signatures';
-
-
-
-
 ## SVG package
-package SVG;
-use Moo;
-use feature qw(signatures);
-no warnings 'experimental::signatures';
-{
+{ package SVG;
+    use Moo;
     has groups        => ( 
         is      => 'rw' ,
         default => sub { return [] } );
@@ -130,7 +113,7 @@ no warnings 'experimental::signatures';
     }
 }
 
-package main;
+#package main;
 
 ## read input from file
 my $filename = shift @ARGV || 'example1.txt';
@@ -147,7 +130,7 @@ while (<$in_fh>) {
 }
 
 ## construct SGV formatted data string
-my $svg = new SVG(200,300);
+my $svg = SVG->new(200,300);
 my $attr;
 
 $attr  = { "stroke-width" => "4" };

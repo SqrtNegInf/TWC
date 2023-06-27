@@ -1,9 +1,6 @@
 #!/usr/bin/env perl
-#use v5.36;
-### 2023-05-09 could not get this working, between export/import, Moo
-#
+use v5.36;
 
-#
 #       white-line-fever.pl
 #
 #       Line of Best Fit
@@ -29,21 +26,9 @@
 #       © 2022 colin crain
 ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ##
 
-
-
-use warnings;
-use strict;
-use utf8;
-use feature ":5.26";
-use feature qw(signatures);
-no warnings 'experimental::signatures';
-
 ## SVG package
-package SVG;
-use Moo;
-use feature qw(signatures);
-no warnings 'experimental::signatures';
-{
+{ package SVG;
+    use Moo;
     has groups        => ( 
         is      => 'rw' ,
         default => sub { return [] } );
@@ -105,7 +90,7 @@ no warnings 'experimental::signatures';
 
 ##/SVG
 
-package main;
+#package main;
 
 ## input data
 my @data = (
@@ -122,7 +107,7 @@ my @data = (
 
 ## make SVG format data string 
 my $attr;    
-my $svg = new SVG(400,400);
+my $svg = SVG->new(400,400);
 
 $attr = { "fill"=>"blue" };
 $svg->group( "points", $attr);
