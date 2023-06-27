@@ -1,34 +1,5 @@
 #!/usr/bin/env perl
 use v5.36;
-#===============================================================================
-#
-#         FILE: 13902.pl
-#
-#        USAGE: ./13902.pl  
-#
-#  DESCRIPTION: Output the first 5 long primes
-#
-# REQUIREMENTS: bignum, Math::Prime::Util
-#        NOTES: This produces results consistent with the definition
-#               given in the task viz:
-#
-#                   A prime number (p) is called Long Prime if (1/p) has
-#                   an infinite decimal expansion repeating every (p-1)
-#                   digits.
-#
-#               eg. 3 is considered a long prime because the sequence '33' 
-#               is repeated ad infinitum.
-#               This appears to differ from the generally accepted Number
-#               Theory definition which suggests that this sequence must
-#               not internally repeat.
-#       AUTHOR: Pete Houston (pete), cpan@openstrike.co.uk
-# ORGANIZATION: Openstrike
-#      VERSION: 1.0
-#      CREATED: 15/11/21
-#===============================================================================
-
-use strict;
-use warnings;
 
 use bignum;
 use Math::Prime::Util 'next_prime';

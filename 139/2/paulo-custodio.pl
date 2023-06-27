@@ -1,27 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
 
-# Challenge 139
-#
-# TASK #2 > Long Primes
-# Submitted by: Mohammad S Anwar
-# Write a script to generate first 5 Long Primes.
-#
-# A prime number (p) is called Long Prime if (1/p) has an infinite decimal
-# expansion repeating every (p-1) digits.
-#
-# Example
-# 7 is a long prime since 1/7 = 0.142857142857...
-# The repeating part (142857) size is 6 i.e. one less than the prime number 7.
-#
-# Also 17 is a long prime since 1/17 = 0.05882352941176470588235294117647...
-# The repeating part (0588235294117647) size is 16 i.e. one less than the
-# prime number 17.
-#
-# Another example, 2 is not a long prime as 1/2 = 0.5.
-# There is no repeating part in this case.
-
-use Modern::Perl;
 use Math::BigFloat;
 use ntheory 'next_prime';
 
