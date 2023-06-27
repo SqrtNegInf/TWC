@@ -1,15 +1,6 @@
 #!/usr/bin/env perl
-#use v5.36; # line 42 hard to handle
-use 5.032;
+use v5.36;
 
-use strict;
-use warnings;
-no  warnings 'syntax';
-
-use experimental 'signatures';
-use experimental 'lexical_subs';
-
-#
 # We will use a simple recursive function.
 # The function takes three arguments:
 #    - The target number we like to sum to ($target)
@@ -31,7 +22,7 @@ use experimental 'lexical_subs';
 sub count;
 sub count ($target, $this_fib = 1, $prev_fib = 1) {
       state $cache = {};
-      $$cache {$target, $this_fib} //=
+      $$cache {$target . $this_fib} //=
           $this_fib >  $target ? 0
         : $this_fib == $target ? 1
         : count ($target - $this_fib, $this_fib + $prev_fib, $this_fib) +
@@ -40,6 +31,7 @@ sub count ($target, $this_fib = 1, $prev_fib = 1) {
 
 
 say count $_ while <DATA>;
+
 __END__
 16
 9
