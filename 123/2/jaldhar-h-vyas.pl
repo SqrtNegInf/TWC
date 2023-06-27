@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
 use v5.36;
-use 5.020;
-use warnings;
 
 my ($x1, $y1, $x2, $y2, $x3, $y3, $x4, $y4) = (12,24, 16,10, 20,12, 18,16);
 

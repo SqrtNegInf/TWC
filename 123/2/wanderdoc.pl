@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
 use v5.36;
-use strict;
-use warnings FATAL => qw(all);
 
 use Struct::Dumb;
 struct Point => [qw( x y )];

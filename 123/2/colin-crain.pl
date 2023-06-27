@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
-#
+
 #       no-room-for-squares.pl
 #
 #         Square Points
@@ -110,16 +110,6 @@ use v5.36;
 #
 #       © 2021 colin crain
 ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ##
-
-
-
-use warnings;
-use strict;
-use utf8;
-use feature ":5.26";
-use feature qw(signatures);
-no warnings 'experimental::signatures';
-
 
 sub is_square ($pts) {
     my @pts = $pts->@*;

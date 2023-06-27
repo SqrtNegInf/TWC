@@ -1,10 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
 
-use strict;
-use warnings;
-use feature qw/say/;
-use Data::Dumper;
 
 sub dist {
     my ($p1, $p2) = @_;

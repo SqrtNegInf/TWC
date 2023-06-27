@@ -1,22 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
 
-use 5.032;
-
-use strict;
-use warnings;
-no  warnings 'syntax';
-
-use experimental 'signatures';
-use experimental 'lexical_subs';
-
-#
-# See ../README.md
-#
-
-#
-# Run as: perl ch-2.pl < input-file
-#
 # If a quadrilateral has four equal sides, it's a rhombus. 
 # A rhombus in which the diagonals are equal is a square.
 #

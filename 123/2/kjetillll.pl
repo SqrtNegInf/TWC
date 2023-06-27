@@ -1,10 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
 
-#Returns true if four points form a square.
-
-use feature 'say';
-
 say is_square( [10,20], [20,20], [20,10], [10,10] );  #return 1 (true)
 say is_square( [2,6], [5,1], [0,-2], [-3,3] )      ;  #return 1 (true)
 say is_square( [12,24], [16,10], [20,12], [18,163]);  #return 0 (false)

@@ -1,12 +1,8 @@
 #!/usr/bin/env perl
 use v5.36;
 
-use strict;
-use warnings;
-
 use Test::More;
 
-# Examples from the task.
 ok  is_square([10,20],[20,20],[20,10],[10,10]);
 ok !is_square([12,24],[16,10],[20,12],[18,16]);
 
