@@ -1,5 +1,5 @@
 #!/usr/bin/env perl
-# line 43 hard to make work with v5.36
+#use v5.36; # line 42 hard to handle
 use 5.032;
 
 use strict;
@@ -8,14 +8,6 @@ no  warnings 'syntax';
 
 use experimental 'signatures';
 use experimental 'lexical_subs';
-
-#
-# See ../README.md
-#
-
-#
-# Run as: perl ch-2.pl < input-file
-#
 
 #
 # We will use a simple recursive function.
