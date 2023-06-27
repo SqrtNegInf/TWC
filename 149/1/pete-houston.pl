@@ -1,23 +1,5 @@
 #!/usr/bin/env perl 
-#===============================================================================
-#
-#         FILE: 14901.pl
-#
-#        USAGE: ./14901.pl N
-#
-#  DESCRIPTION: Output the first N whole numbers for which the sum of their
-#               digits is a Fibonacci number.
-#
-#      OPTIONS: N defaults to 20 if missing
-# REQUIREMENTS: List::Util
-#       AUTHOR: Pete Houston (pete), cpan@openstrike.co.uk
-# ORGANIZATION: Openstrike
-#      VERSION: 1.0
-#      CREATED: 24/01/22
-#===============================================================================
-
-use strict;
-use warnings;
+use v5.36;
 
 use List::Util 'sum';
 

@@ -1,20 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
 
-=head1
-
-Week 149:
-
-    https://theweeklychallenge.org/blog/perl-weekly-challenge-149
-
-Task #1: Fibonacci Digit Sum
-
-    Given an input $N, generate the first $N numbers for which the sum of their digits is a Fibonacci number.
-
-=cut
-
-use strict;
-use warnings;
 use Test::More;
 
 is_deeply(
