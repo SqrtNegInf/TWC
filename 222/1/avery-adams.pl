@@ -1,7 +1,6 @@
 #!/usr/bin/env perl
-use v5.24;
-use strict;
-use warnings;
+use v5.36;
+
 my @A = (1, 1, 4, 2, 1, 3);
 my @sorted = sort @A;
 my $matches;

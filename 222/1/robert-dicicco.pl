@@ -1,5 +1,5 @@
 #!/usr/bin/env perl
-use feature 'say';
+use v5.36;
 
 my @allints = ([1, 1, 4, 2, 1, 3],[5, 1, 2, 3, 4],[1, 2, 3, 4, 5]);
 

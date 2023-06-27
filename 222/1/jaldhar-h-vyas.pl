@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-use 5.030;
-use warnings;
+use v5.36;
 
 my @ints = (1, 1, 4, 2, 1, 3);
 my @sorted = sort { $a <=> $b} @ints;

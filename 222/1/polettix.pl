@@ -1,10 +1,5 @@
 #!/usr/bin/env perl
-use v5.24;
-
-use strict;
-use warnings;
-no warnings 'uninitialized';
-use experimental 'signatures';
+use v5.36;
 
 use List::Util 'sum';
 
