@@ -1,13 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
-use strict;
-use warnings;
-##
-# You are given a binary tree containing 
-# only the numbers 0-9.
-# Write a script to sum all possible paths 
-# from root to leaf.
-##
+
 use Graph;
 
 sub travserse_sum{
