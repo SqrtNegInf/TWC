@@ -1,10 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
 
-use strict;
-
-use warnings;
-use feature qw(say);
 use Test::More;
 
 ## This is ripe for bit operators - as it is about multiplying/diving by 2...
