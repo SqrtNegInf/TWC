@@ -35,12 +35,11 @@ Filehandles can be undef: [088/2/polettix.pl]
 Parens needed to disambiguate precedence: [092/1/arne-sommer.pl]
     (0 .. length $A - 1) ==> (0 .. length($A) - 1) 
 
+Attempt to put comments in qw() list at [074/2/steven-wilson.pl]
+    qw/ # / ==> '#'
 
 Bareword not allowed while "strict subs" in use [029/2/dave-jacoby.pl]
     use Inline C ==> use Inline 'C'
-
-'Useless use' warnings: [?]
-    xxx
 
 Pass a reference to array if not using prototypes: [170/1/perlboy1967.pl]
     sub foo($\@) ==>  sub foo
@@ -50,8 +49,14 @@ Passing a code reference needs explicit 'sub': [043/1/jaldhar-h-vyas.pl]
 (if dropping signatures; also works to add ':prototype', as above)
     permute { push @permutations, \@_; } @n ==>  permute sub { push @permutations, \@_; }, @numbers;
 
+'Useless use' warnings: [?]
+    (could swear I saw this once...)
+
 Module Issues
 =============
+
+use Test2::V0
+    Some pragmas like <use experimental 'refaliasing'> must follow after 'use Test2::V0' [203/1/jo-37.pl]
 
 Function::Parameters 
     obsolete for in-line subroutine args (no need for 'fun')
@@ -64,7 +69,5 @@ use Modern::Perl mostly obsolete, except for given/smartmatch (which are depreca
 
 Unresolved Issues
 ================
-
-$$cache { $blah } //=  ...  [136/2/abigail.pl]
 
 unstable output [058/1/mark-anderson*pl]
