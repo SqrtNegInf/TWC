@@ -1,12 +1,9 @@
 #!/usr/bin/env perl
 use v5.36;
 
-
 # A tailor-made class for this task.
 package Rectangle;
 
-use strict;
-use warnings;
 use List::Util qw(min);
 use overload
 	'<=>' => \&cmp_rect,	# compare by size
@@ -57,8 +54,6 @@ sub contains {
 
 package main;
 
-use strict;
-use warnings;
 use List::Util qw(max reduce);
 
 # Find the largest rectangle inside a histogram.
