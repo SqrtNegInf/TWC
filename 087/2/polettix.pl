@@ -68,7 +68,6 @@ sub is_full_rectangle ($M, $rs, $rl, $cs, $cl) {
 }
 
 package PriorityQueue;  # Adapted from https://algs4.cs.princeton.edu/24pq/
-use strict;
 
 sub contains    { return $_[0]->contains_id($_[0]{id_of}->($_[1])) }
 sub contains_id { return exists $_[0]{item_of}{$_[1]} }
