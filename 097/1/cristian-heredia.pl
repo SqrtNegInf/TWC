@@ -1,29 +1,5 @@
 #!/usr/bin/env perl
 use v5.36;
-=begin
-
-TASK #1 › Caesar Cipher
-Submitted by: Mohammad S Anwar
-You are given string $S containing alphabets A..Z only and a number $N.
-
-Write a script to encrypt the given string $S using Caesar Cipher with left shift of size $N.
-
-    Example
-        Input: $S = "THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG", $N = 3
-        Output: "QEB NRFZH YOLTK CLU GRJMP LSBO QEB IXWV ALD"
-        
-        Plain:    ABCDEFGHIJKLMNOPQRSTUVWXYZ
-        Cipher:   XYZABCDEFGHIJKLMNOPQRSTUVW
-        
-        Plaintext:  THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG
-        Ciphertext: QEB NRFZH YOLTK CLU GRJMP LSBO QEB IXWV ALD
-
-=end
-=cut
-
-use strict;
-use warnings;
-use Data::Dumper;
 
 my $input = "THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG";
 my $N = 3;

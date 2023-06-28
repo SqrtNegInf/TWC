@@ -1,13 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
 
-use strict;
-use warnings;
-use feature 'say';
-use feature 'signatures';
-
-no warnings "experimental::signatures";
-
 my $S = shift(@ARGV) // 'THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG';
 
 die "Illegal characters" unless $S =~ /^[A-Z\s]+$/;

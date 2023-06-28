@@ -1,11 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
 
-use strict;
-use warnings;
-use feature qw{ say signatures state };
-no warnings qw{ experimental };
-
 use Getopt::Long;
 
 my $n = 3;

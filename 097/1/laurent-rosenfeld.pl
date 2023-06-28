@@ -1,8 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
-use strict;
-use warnings;
-use feature "say";
+
 use constant MIN => ord 'A';
 
 my $in_string = shift // "THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG";

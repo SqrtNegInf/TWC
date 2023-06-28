@@ -1,9 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
 
-use strict;
-use warnings;
-
 my $S = $ARGV[0] || 'PERL ROCKS';
 my $N = $ARGV[1] || 13;
 

@@ -1,22 +1,5 @@
 #!/usr/bin/env perl
 use v5.36;
-#===============================================================================
-#
-#         FILE: ch-1.pl
-#
-#        USAGE: ./ch-1.pl  
-#
-#  DESCRIPTION: Perl Weekly Challenge 097
-#               Task 1
-#               Caesar Cipher
-#
-#       AUTHOR: Lubos Kolouch
-#      CREATED: 01/30/2021 10:11:26 AM
-#===============================================================================
-
-use strict;
-use warnings;
-use feature qw/say/;
 
 sub caesar_cipher {
     my $what = shift;

@@ -1,9 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
 
-use strict;
-use warnings;
-
 use Test::More tests => 3;
 
 is(cc('THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG',3),'QEB NRFZH YOLTK CLU GRJMP LSBO QEB IXWV ALD','example 1');

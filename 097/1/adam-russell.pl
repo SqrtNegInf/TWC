@@ -1,12 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
-use strict;
-use warnings;
-##
-# You are given string $S containing alphabets A..Z only 
-# and a number $N. Write a script to encrypt the given 
-# string $S using Caesar Cipher with left shift of size $N.
-##
+
 sub caesar_cypher{
     my($s, $n) = @_;
     my @cypher = map { unless(ord($_) == ord(' ')){

@@ -1,23 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
 
-use 5.032;
-
-use strict;
-use warnings;
-no  warnings 'syntax';
-
-use experimental 'signatures';
-use experimental 'lexical_subs';
-
-#
-# See ../README.md
-#
-
-#
-# Run as: perl ch-1.pl -s SHIFT < input-file
-#
-
 my $NR_OF_LETTERS = 26;
 my $ORD_A         = ord ('A');
 

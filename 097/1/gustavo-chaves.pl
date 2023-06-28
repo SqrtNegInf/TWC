@@ -1,12 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
 
-# https://perlweeklychallenge.org/blog/perl-weekly-challenge-097/
-# TASK #1 › Caesar Cipher
-
-use 5.030;
-use warnings;
-
 my ($N, $S) = @ARGV;
 
 ($N, $S) = (3, "THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG");

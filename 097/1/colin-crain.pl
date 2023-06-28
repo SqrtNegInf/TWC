@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
-#
+
 #       et-tu-brute.pl
 #
 #         TASK #1 › Caesar Cipher
@@ -154,12 +154,6 @@ use v5.36;
 #             
 #       © 2021 colin crain
 ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ##
-
-
-
-use warnings;
-use strict;
-use feature ":5.26";
 
 
 my $n   = shift // 3;

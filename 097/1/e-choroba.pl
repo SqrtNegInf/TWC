@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
 use v5.36;
-use warnings;
-use strict;
 
 my $ALPHABET = join "", 'A' .. 'Z';
 sub caesar_cipher {
