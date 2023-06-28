@@ -1,31 +1,10 @@
 #!/usr/bin/env perl
-
-use 5.032;
-
-use strict;
-use warnings;
-no  warnings 'syntax';
-
-use experimental 'signatures';
-use experimental 'lexical_subs';
-
-#
-# Challenge:
-#
-# You are given a positive integer $N.
-#
-# Write a script to sum GCD of all possible unique pairs between 1 and $N.
-#
-
-#
-# Back in challenge 82, we needed a GCD subroutine as well.
-# We copied that one, and added caching.
-#
+use v5.36;
 
 #sub stein;
 sub stein ($u, $v) {
     state $cache;
-    $$cache {$u, $v} //= sub ($u, $v) {
+    $$cache {$u . $v} //= sub ($u, $v) {
         return $u if $u == $v || !$v;
         return $v if             !$u;
         my $u_odd = $u % 2;
