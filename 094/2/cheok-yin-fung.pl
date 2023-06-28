@@ -2,7 +2,6 @@
 use v5.36;
 
 {
-use strict;
 package SLL::Node;
 
 sub new {
@@ -35,7 +34,6 @@ sub print_linked_list {
 
 
 {
-use strict;
 package BinaryTreeNode;
 
 our @ISA = qw/ SLL::Node /;
