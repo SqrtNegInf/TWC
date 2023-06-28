@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
 use v5.36;
-use strict;
-use warnings;
-use feature "say";
 
 my @mat = ( [ [ qw<0 1 0 1> ], [ qw<0 0 1 0> ], [ qw<1 1 0 1> ],
               [ qw<1 0 0 1> ] ],

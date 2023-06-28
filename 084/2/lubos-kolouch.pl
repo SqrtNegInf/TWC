@@ -1,23 +1,7 @@
 #!/usr/bin/env perl
 use v5.36;
-#===============================================================================
-#
-#         FILE: ch-1.pl
-#
-#        USAGE: ./ch-1.pl  
-#
-#  DESCRIPTION: Perl Weekly Challenge #84
-#               https://perlweeklychallenge.org/blog/perl-weekly-challenge-084/
-#               Task 2 - Find Square
-#
-#       AUTHOR: Lubos Kolouch
-#      CREATED: 10/30/2020 08:48:14 PM
-#===============================================================================
 
-use strict;
-use warnings;
 use List::Util qw/min/;
-use feature qw/say/;
 
 sub get_square_count {
 
