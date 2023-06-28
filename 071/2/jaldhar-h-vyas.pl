@@ -100,19 +100,8 @@ package LinkedList {
 }
 
 package main;
-use 5.020;
-use warnings;
+
 use English qw/ -no_match_vars /;
-
-sub usage {
-    print<<"-USAGE-";
-Usage:
-  $PROGRAM_NAME <N>
-
-    <N>    > 0
--USAGE-
-    exit 0;
-}
 
 my $N = shift // 3;
 if ($N < 1) {
