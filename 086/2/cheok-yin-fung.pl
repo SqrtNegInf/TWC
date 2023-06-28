@@ -23,7 +23,6 @@ for my $i (0..$E_LEN-1) {
 }
 
 {package node;
-use strict;
 
 sub new
 {
