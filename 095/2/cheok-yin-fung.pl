@@ -2,7 +2,6 @@
 use v5.36;
 
 {
-use strict;
 package Stack;
 
 sub new {

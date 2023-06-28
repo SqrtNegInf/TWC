@@ -3,9 +3,6 @@ use v5.36;
 
 package MyStack
 {
-     use strict;
-     use warnings FATAL => qw(all);
-
      sub new
      {
           my ($class,@data) = @_;
