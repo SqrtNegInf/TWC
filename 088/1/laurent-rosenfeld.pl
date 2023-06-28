@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
 use v5.36;
-use strict;
-use warnings;
-use feature "say";
 
 my @tests = ([5, 2, 1, 4, 3], [2, 1, 4, 3]);
 for my $array_ref (@tests) {

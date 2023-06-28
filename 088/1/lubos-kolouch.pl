@@ -1,22 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
-#===============================================================================
-#
-#         FILE: ch-1.pl
-#
-#        USAGE: ./ch-1.pl  
-#
-#  DESCRIPTION: https://perlweeklychallenge.org/blog/perl-weekly-challenge-088/
-#  				Task 1
-#  				Array of Product
-#
-#       AUTHOR: Lubos Kolouch 
-#      VERSION: 1.0
-#      CREATED: 11/28/2020 01:02:17 PM
-#===============================================================================
 
-use strict;
-use warnings;
 use List::Util qw/product/;
 
 sub get_product{
