@@ -1,22 +1,5 @@
 #!/usr/bin/env perl
 use v5.36;
-#===============================================================================
-#
-#         FILE: ch-2.pl
-#
-#        USAGE: ./ch-2.pl  
-#
-#  DESCRIPTION: Perl Weekly Challenge 098
-#               Task 2 - Search Insert Position
-#               https://www.perlweeklychallenge.org
-#
-#       AUTHOR: Lubos Kolouch
-#      CREATED: 02/06/2021 10:10:41 AM
-#===============================================================================
-
-use strict;
-use warnings;
-use feature qw/say/;
 
 sub search_position {
     my $what = shift;

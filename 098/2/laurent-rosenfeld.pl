@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
 use v5.36;
-use strict;
-use warnings;
-use feature "say";
 
 my @tests = ( [3,  qw < 1  2  3  4>],
               [6,  qw < 1  3  5  7>],

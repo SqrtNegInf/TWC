@@ -1,10 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
 
-use strict;
-use warnings;
-use feature qw(say);
-
 # Input
 my @A = (1, 3, 5, 7);
 my $N = 6;

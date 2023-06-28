@@ -1,9 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
 
-use strict;
-use warnings;
-
 use Test::More tests => 4;
 
 is(sip([1,2,3,4],3),2,'example 1');

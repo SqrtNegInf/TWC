@@ -1,5 +1,6 @@
 #!/usr/bin/env perl
-#
+use v5.36;
+
 #       know-your-place.pl
 #
 #         TASK #2 › Search Insert Position
@@ -82,7 +83,6 @@
 ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ##
 
 
-use v5.36;
 
 sub insert {
     my ($num, $arr) = @_;
