@@ -1,8 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
 
-use strict;
-use warnings;
 use List::Util 'min';
 
 my ($size, @a) =  (3, 1, 5, 0, 2, 9, 3, 7, 6, 4, 8);

@@ -1,20 +1,7 @@
 #!/usr/bin/env perl
 use v5.36;
-use 5.020;
-use warnings;
+
 use English qw/ -no_match_vars /;
-
-sub usage {
-
-    print<<"-USAGE-";
-Usage:
-  $PROGRAM_NAME [<A> ...]
-
-    [<A> ...]    list of integers
--USAGE-
-
-    exit 0;
-}
 
 sub min {
     my @A = @{ $_[0] };

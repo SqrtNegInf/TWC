@@ -1,22 +1,9 @@
 #!/usr/bin/env perl
 use v5.36;
 
-# Perl Weekly Challenge - 073
-# - https://perlweeklychallenge.org/blog/perl-weekly-challenge-073/
-#
-# Task 1 - Min Sliding Window
-#
-# Author: Niels 'PerlBoy' van Dijke
-
-use strict;
-use warnings;
-
 use List::Util qw(min);
 
 my ($S) = 3;
-
-die "S must be a positive integer"
- unless (defined $S and $S =~ m#^[1-9][0-9]*$#);
 
 my @S;
 
