@@ -1,8 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
-use warnings;
-use strict;
-use feature qw/say/;
+
 use POSIX qw/floor/;
 
 # Basic strategy: Use a hash to keep track of the number of occurences

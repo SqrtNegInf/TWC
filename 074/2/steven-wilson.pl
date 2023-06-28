@@ -1,9 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
 
-use strict;
-no warnings;
-use feature qw/ say /;
 use List::MoreUtils qw/ first_index /;
 use Test::More;
 
@@ -36,7 +33,8 @@ sub first_non_repeating_characters {
         }
         scalar @non_repeating > 0
           ? ( $result .= $non_repeating[-1] )
-          : ( $result .= qw/ # / );
+          : ( $result .= '#' );
+         #: ( $result .= qw/ # / );
     }
     return $result;
 }

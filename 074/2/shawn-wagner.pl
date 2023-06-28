@@ -1,8 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
-use warnings;
-use strict;
-use feature qw/say/;
+
 use Tie::IxHash;
 
 # Iterate over the string in reverse order, dropping the last character each time.

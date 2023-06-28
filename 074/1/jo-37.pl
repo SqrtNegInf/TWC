@@ -2,7 +2,6 @@
 use v5.36;
 
 use Test2::V0 -srand => 1;
-use warnings FATAL => 'all';
 
 use List::MoreUtils qw(frequency);
 use List::Util qw(pairfirst);
