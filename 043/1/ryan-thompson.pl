@@ -3,9 +3,6 @@ use v5.36;
 
 die 'not ok - disabled: works fine, just crazy over-kill';
 
-use 5.010;
-use warnings;
-use strict;
 no warnings 'uninitialized';
 use List::Util qw< sum all any none notall first >;
 use Time::HiRes qw< sleep >;
