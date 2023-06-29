@@ -2,8 +2,6 @@
 use v5.36;
 no warnings 'uninitialized';
 
-use strict;
-
 my @ARGV = <V + VI>;
 my $input = join( " ", @ARGV );
 

@@ -1,10 +1,5 @@
 #!/usr/bin/env perl
 use v5.36;
-use strict;
-use warnings;
-
-#Gapful Number
-#Write a script to print first 20 Gapful Numbers greater than or equal to 100. Please check out the page for more information about Gapful Numbers.
 
 my $max = 20;
 my $counter = 0;

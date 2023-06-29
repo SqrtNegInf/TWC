@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
 use v5.36;
-#
-#       gapful.pl
-#
 
 #       PWC 47 - TASK #2
 #       Gapful Number
@@ -24,11 +21,6 @@ use v5.36;
 #       2020 colin crain
 ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ##
 
-
-
-use warnings;
-use strict;
-use feature ":5.26";
 
 ## ## ## ## ## MAIN
 
