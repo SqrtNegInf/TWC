@@ -4,10 +4,6 @@ use v5.36;
 package FileInfo;
 use Moose;
 
-# Turn on method signatures
-use feature 'signatures';
-no warnings 'experimental::signatures';
-
 my @print_default;
 push @print_default, 7;     # Backspace is considered a printable for this routine's purposes
 push @print_default, 9;     # Horizontal tab
@@ -73,8 +69,6 @@ sub possibly_ascii_printable($self) {
 }
 
 package main;
-use strict;
-use warnings;
 
 MAIN: {
     my $fn = $0;
