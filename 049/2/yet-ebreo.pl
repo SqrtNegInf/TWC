@@ -1,10 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
 
-use strict;
-use warnings;
-use feature 'say';
-
 my $cache = lru->new(3);
 $cache->set(1,3);
 $cache->set(2,5);
