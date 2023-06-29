@@ -3,7 +3,6 @@ use v5.36;
 
 srand 1;
 
-use strict; use warnings;
 my @list=();
 foreach (0..10){                              # random interval generator
     my $start=int(80*rand());
