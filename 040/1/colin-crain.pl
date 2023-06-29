@@ -88,23 +88,15 @@ no warnings 'uninitialized';
 #       2019 colin crain
 ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ##
 
-
-# use warnings;
-use strict;
-use feature ":5.26";
-
-#use Data::Dumper;
-## ## ## ## ## MAIN
-
 ## the given data:
-my $a = ["I", "L", "O", "V", "E", "Y", "O", "U"];
-my $b = [ 2, 4, 0, 3, 2, 0, 1, 9 ];
-my $c = ['!', '?', '£', '$', '%', '^', '&', '*'];
+my $A = ["I", "L", "O", "V", "E", "Y", "O", "U"];
+my $B = [ 2, 4, 0, 3, 2, 0, 1, 9 ];
+my $C = ['!', '?', '£', '$', '%', '^', '&', '*'];
 
 ## add an element to @a to show truncation
-push $a->@*, 'X';
+push $A->@*, 'X';
 
-my $zipped = zip( $a, $b, $c );
+my $zipped = zip( $A, $B, $C );
 
 for my $list ( $zipped->@* ) {
     say join ' ', $list->@*;
@@ -113,9 +105,9 @@ for my $list ( $zipped->@* ) {
 say '=' x 25;
 
 ## add more elements to @a to show the new behavior
-push $a->@*, ('X') x 2, ('O') x 3;
+push $A->@*, ('X') x 2, ('O') x 3;
 
-my $zipped_undef = zip_undef( $a, $b, $c );
+my $zipped_undef = zip_undef( $A, $B, $C );
 
 for my $list ( $zipped_undef->@* ) {
     say join ' ', $list->@*;
