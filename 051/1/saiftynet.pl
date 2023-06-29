@@ -1,5 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
+no warnings 'experimental';
 
 my @L = (-25, -10, -7, -3, -3, 2, 4, 8, 10, -7);
 my $T=0;
@@ -18,7 +19,6 @@ sub findTriplet{
       unshift @found,[$list[$i],$list[$j],$list[$k]]
                 if $list[$i]+$list[$j]+$list[$k]==$target;
       
-      no warnings;  # smartmatch is experimental:  suppress warnings
       # dump duplicates using smartmatch (only check if 2 or more triplets found)
       shift @found if (@found>=2 and @{$found[0]}~~@{$found[1]});
       }

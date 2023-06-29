@@ -1,9 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
 
-use strict;
-use warnings;
-
 my @L = (-25, -10, -7, -3, 2, 4, 8, 10);
 my $S = $#L;
 my $T = 0;

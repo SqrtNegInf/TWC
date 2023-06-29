@@ -17,12 +17,6 @@ use v5.36;
 # answers is to sort @L.
 # 
 
-use feature 'say';
-use strict;
-use warnings;
-#use Function::Parameters;
-#use Data::Dumper;
-
 my $t = 0;
 my @l = (-25, -10, -7, -3, 2, 4, 8, 10);
 

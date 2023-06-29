@@ -1,9 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
 
-use strict;
-use warnings;
-
 for my $n (100 .. 999) {
     my %unique;
     my ($f,$s,$t) = split //, $n;

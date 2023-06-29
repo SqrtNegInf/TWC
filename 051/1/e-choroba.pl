@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
 use v5.36;
-use warnings;
-use strict;
-use feature qw{ say };
 
 my @L = (-25, -10, -7, -3, 2, 4, 8, 10);
 my $target = 0;

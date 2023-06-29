@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
-#
+
 #       colorful.pl
 #
 #         TASK #2
