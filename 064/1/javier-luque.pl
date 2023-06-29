@@ -1,9 +1,5 @@
 #!/usr/bin/env perl
 use v5.36;
-# Test: ./ch-1.pl
-use strict;
-use warnings;
-use feature qw /say/;
 
 my @path;
 my $matrix = [
