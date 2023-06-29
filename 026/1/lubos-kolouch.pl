@@ -1,10 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
 
-use strict;
-use warnings;
-use feature qw/say/;
-
 sub get_common_chars {
     my ( $word1, $word2 ) = @_;
 
