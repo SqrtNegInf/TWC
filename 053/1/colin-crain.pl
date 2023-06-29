@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
-#
+
 #     rotator.pl
 #
 #     TASK #1
@@ -60,14 +60,6 @@ use v5.36;
 #       2020 colin crain
 ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ##
 
-
-
-use warnings;
-use strict;
-use feature ":5.26";
-
-
-## ## ## ## ## MAIN:
 
 my $matrix = [  [ 1, 2, 3 ],
                 [ 4, 5, 6 ],
