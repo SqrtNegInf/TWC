@@ -1,12 +1,11 @@
 #!/usr/bin/env perl
-use warnings;
-
-use feature qw<:all>;
-no warnings "experimental";
+use v5.36;
+use experimental 'switch';
 
 srand 1;
 
 use POSIX qw<round>;
+
 my $n=$ARGV[0]//8;
 my $number=join "",map { round rand 1 } 1..$n;
 say "Testing on: $number";
