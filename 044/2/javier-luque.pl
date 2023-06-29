@@ -1,9 +1,5 @@
 #!/usr/bin/env perl
 use v5.36;
-# test: ./ch-2.pl
-use strict;
-use warnings;
-use feature qw /say/;
 
 my $min_steps = 15;
 my $min_solution;
