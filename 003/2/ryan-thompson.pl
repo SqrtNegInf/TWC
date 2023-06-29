@@ -1,8 +1,6 @@
 #!/usr/bin/env perl
-
 use v5.36;
-#use warnings;
-#use strict;
+
 no warnings 'uninitialized';
 
 my $height = 10;
