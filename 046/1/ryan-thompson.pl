@@ -1,9 +1,6 @@
 #!/usr/bin/env perl
 #use v5.36 PITA!
 
-use strict;
-use warnings;
-
 use List::MoreUtils qw< frequency >;
 use List::Util      qw< reduce >;
 
