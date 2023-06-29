@@ -1,8 +1,7 @@
 #!/usr/bin/env perl
-#use v5.36;
+#use v5.36; # this kind of trickery harder now
 
 no strict 'refs';
-use warnings;
 
 $variable_name ='foo';
 $variable = $variable_name;
