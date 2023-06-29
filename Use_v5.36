@@ -3,16 +3,19 @@ The Good, the Bad and the Ugly of 'use v5.36'
 ---------------------------------------------
 
 JK, almost all good, but here are some possible gotcha's...
-(drawn from TWC code examples)
+(drawn from TWC code examples, YMMV)
 
-Common Issues
-=============
+Ubiquitous Issues
+=================
 
 subroutine signatures:
     sub foo($@) ==> sub foo :prototype($@)
 
 classes:
     new Foo ==> Foo->new
+
+Common Issues
+=============
 
 bit-wise operators: 
     ^ ==> ^.
@@ -23,11 +26,19 @@ hash initialization:
 Argument "" isn't numeric [044/1/darren-bottin.pl]
     $sum += $_ ==> $sum += $_ if $_ ne ''
 
-Rare Issues
-===========
-
 "my $a" used in sort comparison [040/1/colin-crain.pl]
     Global $a/$b prompt this warning; take heed, results are likely to be different!
+
+Pass a reference to array if not using prototypes: [170/1/perlboy1967.pl]
+    sub foo($\@) ==>  sub foo
+    foo($a, @b)  ==>  foo($a, \@b)
+
+Passing a code reference needs explicit 'sub': [043/1/jaldhar-h-vyas.pl]
+(if dropping signatures; also works to add ':prototype', as above)
+    permute { push @permutations, \@_; } @n ==>  permute sub { push @permutations, \@_; }, @numbers;
+
+Infrequent Issues
+=================
 
 Filehandles can be undef: [088/2/polettix.pl]
     my $text = defined <$fh> or return
@@ -40,14 +51,6 @@ Attempt to put comments in qw() list at [074/2/steven-wilson.pl]
 
 Bareword not allowed while "strict subs" in use [029/2/dave-jacoby.pl]
     use Inline C ==> use Inline 'C'
-
-Pass a reference to array if not using prototypes: [170/1/perlboy1967.pl]
-    sub foo($\@) ==>  sub foo
-    foo($a, @b)  ==>  foo($a, \@b)
-
-Passing a code reference needs explicit 'sub': [043/1/jaldhar-h-vyas.pl]
-(if dropping signatures; also works to add ':prototype', as above)
-    permute { push @permutations, \@_; } @n ==>  permute sub { push @permutations, \@_; }, @numbers;
 
 'Useless use' warnings: [?]
     (could swear I saw this once...)
