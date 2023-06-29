@@ -72,7 +72,6 @@ sub reorder {
 
 package main;
 use 5.020;
-use warnings;
 
 my $linked_list = Node->new(value => 1);
 $linked_list->add(2);
