@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
 use v5.36;
-use strict;
-use warnings;
-use feature qw/say/;
 
 my $tree = [5, [4, [11, [7], [2]]], [8, [13], [9, [1]]]] ;
 

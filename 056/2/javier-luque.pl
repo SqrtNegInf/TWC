@@ -26,10 +26,6 @@ __PACKAGE__->meta->make_immutable();
 
 package main;
 
-use strict;
-use warnings;
-use feature qw /say/;
-
 # Create the tree
 my $root =
     BTree::Node->new(
