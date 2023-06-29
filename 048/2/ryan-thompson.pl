@@ -1,12 +1,5 @@
 #!/usr/bin/env perl
 use v5.36;
-#
-# ch-2.pl - Palindrome Dates (mm/dd/yyyy)
-#
-# Ryan Thompson <rjt@cpan.org>
-
-use warnings;
-use strict;
 
 # All of the 2-digit years must also be months
 my @yy = sort map { chop . ($_||0) } 1..12;
