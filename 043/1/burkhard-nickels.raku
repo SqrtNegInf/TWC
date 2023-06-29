@@ -1,7 +1,5 @@
 #!/usr/bin/env raku
 
-use strict;
-
 print "ch-1.p6, PWC #43 Task #1: Olympic Rings\n";
 
 my @a = (9,'x',5,'x','x','x',7,'x',8);

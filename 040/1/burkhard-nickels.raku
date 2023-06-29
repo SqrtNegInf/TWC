@@ -1,7 +1,5 @@
 #!/usr/bin/env raku
 
-use strict;
-
 print "ch-1.p6 (Version 1.0) PWC #40 Task #1: Show multiple arrays content.\n";
 
 my @a1 = ('I','L','O','V','E','Y','O','U');

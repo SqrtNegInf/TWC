@@ -1,7 +1,5 @@
 #!/usr/bin/env raku
 
-use strict;
-
 my @C = (0..9,"a".."z").flat;
 print "ch-2.p6, PWC #43 Task #2: Self-descriptive Numbers\n";
 

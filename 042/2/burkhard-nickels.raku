@@ -2,8 +2,6 @@
 
 srand 1;
 
-use strict;
-
 print "ch-2.p6 (Version 1.0) PWC #42 Task #2: Balanced Brackets\n";
 
 sub create_brackets {

@@ -1,7 +1,5 @@
 #!/usr/bin/env raku
 
-use strict;
-
 print "ch-1.p6 (Version 1.0) PWC #42 Task #1: Octal Numbers\n";
 
 # Version 1: foreach loop with printf
