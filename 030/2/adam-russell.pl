@@ -1,6 +1,5 @@
 #!/usr/bin/env perl5.32.1
-
-# with v5.36 the output is not stable?
+#use v5.36; # the output is not stable?
 
 use strict;
 use warnings;
