@@ -25,7 +25,6 @@ __PACKAGE__->meta->make_immutable();
 package LinkedList;
 
 use Mouse;
-use feature qw /say/;
 use LinkedList::Node;
 
 has 'first'  => (
@@ -121,8 +120,6 @@ __PACKAGE__->meta->make_immutable();
 
 package main;
 
-use strict;
-use warnings;
 use LinkedList;
 
 my $ll = LinkedList->new();

@@ -131,8 +131,6 @@ package LinkedList {
 }
 
 package main;
-use 5.020;
-use warnings;
 
 my $linked_list = LinkedList->new();
 $linked_list->add(1);
