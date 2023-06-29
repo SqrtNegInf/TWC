@@ -1,9 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
 
-use strict;
-use warnings;
-
 my @L = (0, 1, 2, 5);
 my $X = 2;
 my $Y = 21;

@@ -1,9 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
 
-use 5.018;
-use warnings;
-
 my @nums = (0, 1, 2, 5);
 
 my $x = 2;

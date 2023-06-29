@@ -1,9 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
 
-use strict;
-use warnings;
-
 use Algorithm::Combinatorics qw(variations_with_repetition);
 
 my @numbers = find_numbers([0, 1, 2, 5], 2, 21);
