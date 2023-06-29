@@ -1,11 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
 
-use strict;
-use warnings;
-
-# Create script to implement Chaocipher.
-
 print cipher([[split '','HXUCZVAMDSLKPEFJRIGTWOBNYQ'],
         [split '','PTLNBQDEOYSFAVZKGJRIHWXUMC']],
        'WELLDONEISBETTERTHANWELLSAID',
