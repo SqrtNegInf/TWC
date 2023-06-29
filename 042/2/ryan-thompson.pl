@@ -1,11 +1,10 @@
 #!/usr/bin/env perl
-#use v5.36; # PITA!
+use v5.36;
+
+no warnings 'uninitialized';
 
 srand 1;
 
-use 5.010;
-use warnings;
-use strict;
 use List::Util 'shuffle';
 
 # To have any hope of being balanced, the string must be of even length,
@@ -13,10 +12,10 @@ use List::Util 'shuffle';
 sub gen_str { join '', shuffle map { ($_) x $_[0] } qw<( )> }
 
 # This type of balance checking is trivial with a regex
-sub balanced_tiny(_) { $_[0] =~ /^(\((?1)*\))*$/ }
+sub balanced_tiny { $_[0] =~ /^(\((?1)*\))*$/ }
 
 # Same sub, less line noise
-sub balanced(_) { 
+sub balanced { 
     $_[0] =~ /^         # Start of string
         (               # Match group 1
             \(          # Opening bracket

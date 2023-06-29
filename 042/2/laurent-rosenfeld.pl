@@ -2,7 +2,6 @@
 use v5.36;
 
 srand 1;
-use strict;
 
 sub check_parens {
     my $expr = shift;
