@@ -1,2 +1,1 @@
-Downgrading a use VERSION declaration to below v5.11 is deprecated, and will become fatal in Perl 5.40 at ./ryan-thompson.pl line 6.
 not ok - disabled: works fine, just crazy over-kill at ./ryan-thompson.pl line 4.
