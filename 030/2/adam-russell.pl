@@ -1,17 +1,7 @@
-#!/usr/bin/env perl5.32.1
-#use v5.36; # the output is not stable?
+#!/usr/bin/env perl
+use v5.36;
 
-use strict;
-use warnings;
-
-##
-# Write a script to print all possible series 
-# of 3 positive numbers, where in each series 
-# at least one of the number is even and sum 
-# of the three numbers is always 12.
-##
-
-use boolean; 
+use enum qw<false true>;
 use Math::Combinatorics;
 
 sub has_even{
@@ -33,7 +23,7 @@ sub sums_12{
 }
 
 MAIN:{
-    my $combinations = new Math::Combinatorics(count => 3,
+    my $combinations = Math::Combinatorics->new(count => 3,
                                                data  => [-10 .. 10]  
     );
     my @combination = $combinations->next_combination();
