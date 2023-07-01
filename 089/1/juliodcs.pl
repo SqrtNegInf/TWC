@@ -1,10 +1,7 @@
-#!/usr/bin/env perl5.32.1
-#use v5.36;
+#!/usr/bin/env perl
+use v5.36;
 
-use strict;
-use warnings;
-use experimental 'signatures';
-use feature 'say';
+no warnings 'recursion';
 
 sub _gcd($a, $b) {
     return $b ? _gcd($b, $a % $b) : $a
@@ -13,18 +10,16 @@ sub _gcd($a, $b) {
 sub _gcd_sum($list, $i, $j, $acc) {
     return $acc if $i == $list->@*;
 
-    @_ = $j == $list->@*
+    my @args = $j == $list->@*
         ? ($list, $i + 1, $i + 2, $acc)
         : ($list, $i, $j + 1, $acc + _gcd($list->[$i], $list->[$j]));
 
-    goto &_gcd_sum;
+    _gcd_sum(@args);
 }
 
 sub gcd_sum($n) {
     _gcd_sum [ 1 .. $n ], 0, 1, 0
 }
-
-######## MAIN and TESTS ########
 
 if (@ARGV == 1) {
     say gcd_sum(shift);
