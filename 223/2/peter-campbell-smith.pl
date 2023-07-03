@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-
-use v5.16;
-use strict;
-use warnings;
+use v5.36;
 
 my ($max_cash, $best_explain);
 

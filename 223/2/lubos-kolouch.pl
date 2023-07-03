@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
+use v5.36;
 no warnings 'uninitialized';
 
 use List::Util qw(max);

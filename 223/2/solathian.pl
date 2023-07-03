@@ -8,18 +8,6 @@ use Algorithm::Combinatorics qw(permutations);
 boxCoins(1, 5);             # 10
 boxCoins(3, 1, 5, 8);       # according to the example 167 but there is better solution 189
 
-=Note
-
-5,3,1,8                 target 2        24  = 3 * 1 * 8
-5,3,8                   target 1        120 = 5 * 3 * 8
-5,8                     target 1        40  = 5 * 8 * 1
-5                       target 0        5   = 1 * 5 * 1
-
-120 + 24 + 40 + 5
-Overall:189
-=cut
- 
-
 sub boxCoins(@inputArray)
 {
     

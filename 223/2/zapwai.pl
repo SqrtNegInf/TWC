@@ -1,5 +1,5 @@
 #!/usr/bin/env perl
-use v5.30;
+use v5.36;
 
 my @box = (3, 1, 5, 8);
 say "Input: \@box = [@box]";
@@ -25,8 +25,8 @@ for my $s (@arr) {
 say "Output: $max";
 say "\tChoose indices: @soln";
 say $out_string;
-sub fill() {
-    my ($r, $n) = @_;
+
+sub fill($r, $n) {
     push @$r, "0";
     for my $i (2 .. $n) {
 	for my $j (0 .. $i-1) {
@@ -40,8 +40,8 @@ sub fill() {
 	splice(@$r, $i, 1) if (length ${$r}[$i] < $n);
     }
 }
-sub spl_sum() {
-    my ($ref, $i) = @_;
+
+sub spl_sum($ref, $i) {
     my $val = splice(@$ref, $i, 1);
     my $l = ($i >= 1) ? ${$ref}[$i - 1] : 1;
     my $r = ($i < scalar @$ref) ? ${$ref}[$i] : 1;

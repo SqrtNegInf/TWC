@@ -1,10 +1,6 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
+use v5.36;
 no warnings 'uninitialized';
-use feature 'say';
-use experimental 'signatures';
 
 use List::Util 'max';
 

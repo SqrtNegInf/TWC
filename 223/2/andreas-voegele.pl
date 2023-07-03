@@ -1,5 +1,5 @@
 #!/usr/bin/env perl
-use 5.036;
+use v5.36;
 
 use List::Util qw(product);
 
