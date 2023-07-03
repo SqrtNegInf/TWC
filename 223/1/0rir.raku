@@ -1,28 +1,6 @@
 #!/usr/bin/env raku
-# :vim ft=raku sw=4 expandtab  # 🦋 ∅∪∩∋∈∉ ≡ ≢ «␤ » ∴
-use v6.d;
+
 use Test;
-
-=begin comment
-
-223-1: Count Primes         Submitted by: Mohammad S Anwar
-You are given a positive integer, $n, find the total count of primes less
-than or equal to the given integer.
-
-Example 1
-Input: $n = 10
-Output: 4
-
-Since there are 4 primes (2,3,5,7) less than or equal to 10.
-Example 2
-Input: $n = 1
-Output: 0
-Example 3
-Input: $n = 20
-Output: 8
-
-Since there are 4 primes (2,3,5,7,11,13,17,19) less than or equal to 20.
-=end comment
 
 my @Test =
     1,         0,

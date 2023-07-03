@@ -1,5 +1,5 @@
 #!/usr/bin/env raku
-use v6;
+
 my $n = 20;
 say "Input: \$n = $n";
 print "Output: ";

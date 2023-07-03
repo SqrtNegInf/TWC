@@ -1,5 +1,5 @@
 #!/usr/bin/env raku
-# https://en.wikipedia.org/wiki/Prime-counting_function
+
 sub π ( UInt $n --> UInt ) {
     # Too slow:
     # state @π = lazy [\+] map &is-prime, 0..Inf;
@@ -22,7 +22,7 @@ my @tests =
     ( 10⁵,       9592),
     ( 10⁶,      78498),
     ( 10⁷,     664579),
-    ( 10⁸,    5761455),     # 100 seconds to calc.
+   #( 10⁸,    5761455),     # 100 seconds to calc.  # DH Too big for JVM
 
     # No time this week to implement https://en.wikipedia.org/wiki/Prime-counting_function#The_Meissel%E2%80%93Lehmer_algorithm
     # ( 10⁹,   50847534),

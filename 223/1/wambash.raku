@@ -8,14 +8,12 @@ sub count-primes ($n) {
     andthen .elems
 }
 
-multi MAIN (Bool :test($)!) {
+#multi MAIN (Bool :test($)!) {
     use Test;
     is count-primes(10), 4;
     is count-primes(1), 0;
     is count-primes(20), 8;
     done-testing;
-}
+#}
 
-multi MAIN ($n) {
-    say count-primes $n
-}
+#multi MAIN ($n) { say count-primes $n }
