@@ -467,8 +467,8 @@ Challenge titles and Rosetta-code correspondences (exact, and otherwise)
 222-2 Last Member
 223-1 Count Primes
 223-2 Box Coins
-224-1
-224-2
+224-1 Special Notes
+224-2 Additive Numbers
 225-1
 225-2
 226-1
