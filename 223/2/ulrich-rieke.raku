@@ -1,13 +1,4 @@
 #!/usr/bin/env raku
-use v6 ;
-
-#the solution algorithm is: if only 1 integer is entered, it is the solution
-#if 2 ints are entered, select the smaller of the 2 and form a product with
-#the neighbours correspondingly
-#if 3 integers are entered, remove the middle one and continue as above
-#if more than 3 integers, remove the smallest of them and form products with
-#the neighbours. If the smallest integers occurs more than once, select the
-#one with the biggest product with the neighbours
 
 sub findPos( @array ) {
   my $len = @array.elems ;
@@ -59,9 +50,7 @@ sub find( @anArray , $number ) {
   return @found.elems ;
 }
 
-say "Enter some integers, separated by blanks!" ;
-my $line = $*IN.get ;
-my @numbers = $line.words.map( {.Int} ) ;
+my @numbers = (3, 1, 5, 8);
 my $len = @numbers.elems ;
 if ( $len == 1 ) {
   say @numbers[ 0 ] ;

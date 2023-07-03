@@ -1,7 +1,8 @@
 #!/usr/bin/env raku
 
-unit sub MAIN (*@box where @box.elems > 0 && all(@box) ~~ UInt && all(@box) > 0,
-               :v(:$verbose));
+#unit sub MAIN (*@box where @box.elems > 0 && all(@box) ~~ UInt && all(@box) > 0,
+#               :v(:$verbose));
+my @box = (3, 1, 5, 8);
 
 my $coins = 0;
 
@@ -22,7 +23,7 @@ while (@box.elems)
     $i = 1 if @box[1] < @box[0];
   }
   
-  print ":Box: @box[] | I:$i" if $verbose;
+#  print ":Box: @box[] | I:$i" if $verbose;
 
   my $left  = $i > 0 ?? @box[$i -1] !! 1;
   my $curr  = @box[$i];
@@ -33,7 +34,7 @@ while (@box.elems)
 
   @box.splice($i,1);
 
-  say " -> box: @box[] | coins: $add | total: $coins" if $verbose;
+#  say " -> box: @box[] | coins: $add | total: $coins" if $verbose;
 }
 
 say $coins;

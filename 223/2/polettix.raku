@@ -1,6 +1,6 @@
 #!/usr/bin/env raku
-use v6;
-sub MAIN (*@args) { put box-coins(@args) }
+
+put box-coins( (3, 1, 5, 8) );
 
 sub box-coins ($box) {
    return 0 unless $box.elems;

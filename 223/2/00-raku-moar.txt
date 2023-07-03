@@ -1,0 +1,55 @@
+ 
+===> 223/2/0rir.raku <===
+1..10
+ok 1 - 0 <- (0,)
+ok 2 - 1 <- (1,)
+ok 3 - 4 <- (1, 2)
+ok 4 - 10 <- (1, 5)
+ok 5 - 1 <- (0, 1, 0)
+ok 6 - 4 <- (0, 1, 2)
+ok 7 - 15 <- (1, 5, 1)
+ok 8 - 167 <- (3, 1, 5, 8)
+ok 9 - 4 <- (0, 1, 0, 0, 2, 0, 0)
+ok 10 - 65 <- (1, 5, 1, 5, 1)
+
+Input: @box = 1 5 1 8 1
+Output: 104
+ 
+===> 223/2/arne-sommer.raku <===
+167
+ 
+===> 223/2/bruce-gray.raku <===
+1..2
+ok 1 - 
+ok 2 - 
+ 
+===> 223/2/jaldhar-h-vyas.raku <===
+167
+ 
+===> 223/2/laurent-rosenfeld.raku <===
+3 1 5 8    => 167
+1 5        => 10
+ 
+===> 223/2/polettix.raku <===
+167
+ 
+===> 223/2/roger-bell-west.raku <===
+1..2
+ok 1 - example 1
+ok 2 - example 2
+ 
+===> 223/2/simon-proctor.raku <===
+ok 1 - 
+ok 2 - 
+1..2
+ 
+===> 223/2/ulrich-rieke.raku <===
+167
+ 
+===> 223/2/zapwai.raku <===
+Output: 167
+	Choose indices: 1 1 0 0
+	3 x 1 x 5 => 15, Current Box: 3 5 8
+	3 x 5 x 8 => 120, Current Box: 3 8
+	1 x 3 x 8 => 24, Current Box: 8
+	1 x 8 x 1 => 8

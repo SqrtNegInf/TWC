@@ -1,6 +1,7 @@
 #!/usr/bin/env raku
+
 my @box = (3, 1, 5, 8);
-say "Input: \@box = [@box[]]";
+#say "Input: \@box = [@box[]]";
 my ($sum, $max) = (0, 0);
 my (@soln, @arr, $out_string, $current_string);
 my $n = @box.elems();

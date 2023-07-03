@@ -1,4 +1,5 @@
 #!/usr/bin/env raku
+
 sub collect (@box is copy) {
     my $collected = 0;
     while @box.elems > 3 {
@@ -11,6 +12,7 @@ sub collect (@box is copy) {
     $collected +=  max @box;
     return $collected;
 }
+
 my @tests = (3, 1, 5, 8), (1, 5);
 for @tests -> @test {
     print "@test[]".fmt("%-10s => ");

@@ -1,7 +1,7 @@
 #!/usr/bin/env raku
 
 sub MAIN(
-    *@args
+    @args  = (3, 1, 5, 8)
 ) {
     my @q;
     @q.push({ coins => 0, box => @args });

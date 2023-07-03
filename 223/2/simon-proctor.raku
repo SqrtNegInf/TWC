@@ -1,16 +1,14 @@
 #!/usr/bin/env raku
 
-multi sub MAIN('TEST') is hidden-from-USAGE {
+#jmulti sub MAIN('TEST') is hidden-from-USAGE {
     use Test;
     is max-value( ( 3,1,5,8 ) ), 167;
     is max-value( ( 1,5 ) ), 10;    
     done-testing;
-}
+#}
 
 #| Given a list of values work out the max value based on the challenge
-multi sub MAIN( *@values ) {
-    max-value( @values ).say;
-}
+#multi sub MAIN( *@values ) { max-value( @values ).say; }
 
 multi sub max-value( @a where *.elems == 1 ) { @a[0] }
 multi sub max-value( @a ) {
