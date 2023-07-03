@@ -1,22 +1,14 @@
 #!/usr/bin/env perl
 use v5.36;
 
-
-# Challenge 223 - 1 - Count Primes
-# You are given a positive integer, $n.
-# Write a script to find the total count of primes less than or equal to the given integer.
-
-=Original version by Anonymous Monk on May 27, 2014 at 21:25 UTC    https://www.perlmonks.org/?node_id=143755
-#!/usr/bin/env perl
-s;;
-;x;
-while() { print if (1 x++ $\) !~ m }
-{
-   $|^(..+)\1+$|^$\$}
-}
-
-Note: I do not know how and why it works, but it works! Also some tweaks are made so it will not spam the console
-=cut
+#Original version by Anonymous Monk on May 27, 2014 at 21:25 UTC    https://www.perlmonks.org/?node_id=143755
+#s;;
+#;x;
+#while() { print if (1 x++ $\) !~ m }
+#{
+#   $|^(..+)\1+$|^$\$}
+#}
+# Note: I do not know how and why it works, but it works! Also some tweaks are made so it will not spam the console
 
 sub primes($end)
 {  
@@ -42,11 +34,3 @@ sub primes($end)
 say scalar( @{ primes(10)   });     # 4
 say scalar( @{ primes(1)    });     # 0
 say scalar( @{ primes(20)   });     # 8
-
-
-
-
-
-
-
-

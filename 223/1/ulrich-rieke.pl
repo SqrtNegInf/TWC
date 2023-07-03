@@ -1,4 +1,5 @@
 #!/usr/bin/env perl
+
 use strict ;
 use warnings ;
 use feature 'say' ;
@@ -20,7 +21,6 @@ sub isPrime {
   return 1 ;
 }
 
-say "Enter an integer!" ;
-my $number = <STDIN> ;
-chomp $number ;
-say scalar( grep { isPrime( $_ ) } (2..$number) ) ;
+for my $number (10, 1, 20) {
+    say scalar( grep { isPrime( $_ ) } (2..$number) )
+}

@@ -1,7 +1,9 @@
 #!/usr/bin/env perl
-
-use strict;
 use v5.24;
+use strict;
+
 use Math::Prime::Util 'primes';
 
-say scalar @{primes(shift)};
+for my $n (<10 1 20>) {
+    say scalar @{primes($n)}
+}

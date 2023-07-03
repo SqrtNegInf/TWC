@@ -1,6 +1,7 @@
 #!/usr/bin/env perl
 use 5.030;
 use warnings;
+no warnings 'uninitialized';
 
 sub isPrime {
     my ($n) = @_;
@@ -22,4 +23,4 @@ sub isPrime {
     return 1;
 }
 
-say scalar grep { isPrime($_) } 1 .. shift;
+say scalar grep { isPrime($_) } 1 .. 20;

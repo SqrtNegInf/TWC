@@ -1,10 +1,5 @@
 #!/usr/bin/env perl
-
-# You are given a positive integer, $n.  Write a script to find the total
-# count of primes less than or equal to the given integer.
-
-use 5.036;
-use utf8;
+use v5.36;
 
 # The Sieve of Eratosthenes marks the multiples of all prime numbers in an
 # array.  The remaining unmarked numbers are prime numbers.

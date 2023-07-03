@@ -1,15 +1,14 @@
 #!/usr/bin/env perl
 
-use v5.16;    # The Weekly Challenge - 2023-06-26
-use utf8;     # Week 222 task 1 - Count primes
-use strict;   # Peter Campbell Smith
-use warnings; # Blog: http://ccgi.campbellsmiths.force9.co.uk/challenge
+use v5.16;
+use strict;
+use warnings;
 
 count_primes(10);
 count_primes(1);
 count_primes(20);
 count_primes(17);
-count_primes(1000000);
+#count_primes(1000000);
 
 sub count_primes {
 	

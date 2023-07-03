@@ -2,6 +2,7 @@
 
 use strict;
 use warnings;
+no warnings 'uninitialized';
 use feature 'say';
 use experimental 'signatures';
 
