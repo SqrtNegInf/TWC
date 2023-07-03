@@ -1,9 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
 
-# The Sieve of Eratosthenes marks the multiples of all prime numbers in an
-# array.  The remaining unmarked numbers are prime numbers.
-
 sub prime_numbers ($n) {
     my @numbers = (0, 0, 2 .. $n);
     for my $i (2 .. sqrt $n) {

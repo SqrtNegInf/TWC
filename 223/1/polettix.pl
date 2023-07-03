@@ -1,9 +1,6 @@
 #!/usr/bin/env perl
-
-use v5.24;
-use warnings;
+use v5.36;
 no warnings 'uninitialized';
-use experimental 'signatures';
 
 say count_primes(shift);
 sub count_primes ($n) { return scalar grep { is_prime($_) } 2 .. $n }

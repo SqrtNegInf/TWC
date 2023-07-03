@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-
-use v5.16;
-use strict;
-use warnings;
+use v5.36;
 
 count_primes(10);
 count_primes(1);

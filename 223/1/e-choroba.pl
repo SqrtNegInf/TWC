@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-use warnings;
-use strict;
+use v5.36;
 
 # See 198/2: we had less than, here we have less than or equal to.
 
