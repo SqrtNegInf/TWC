@@ -1,9 +1,8 @@
 #!/usr/bin/env perl
 
-use v5.16;    # The Weekly Challenge - 2023-06-26
-use utf8;     # Week 222 task 1 - Box coins
-use strict;   # Peter Campbell Smith
-use warnings; # Blog: http://ccgi.campbellsmiths.force9.co.uk/challenge
+use v5.16;
+use strict;
+use warnings;
 
 my ($max_cash, $best_explain);
 

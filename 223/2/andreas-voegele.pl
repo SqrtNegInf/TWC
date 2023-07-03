@@ -1,12 +1,5 @@
 #!/usr/bin/env perl
-
-# You are given an array representing box coins, @box.  Write a script to
-# collect the maximum coins until you took out all boxes.  If we pick box[i]
-# then we collect the coins $box[i-1] * $box[i] * $box[i+1].  If $box[i+1] or
-# $box[i-1] is out of bound then treat it as 1 coin.
-
 use 5.036;
-use utf8;
 
 use List::Util qw(product);
 

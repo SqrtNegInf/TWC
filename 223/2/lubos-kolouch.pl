@@ -1,6 +1,8 @@
 #!/usr/bin/env perl
 use strict;
 use warnings;
+no warnings 'uninitialized';
+
 use List::Util qw(max);
 
 sub max_coins {

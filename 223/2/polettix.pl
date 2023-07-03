@@ -2,10 +2,10 @@
 use v5.24;
 use warnings;
 use experimental 'signatures';
-use Data::Dumper;
+#use Data::Dumper;
 
-my ($best, $trail) = box_coins(@ARGV);
-say {*STDERR} Dumper($trail);
+my ($best, $trail) = box_coins( (3, 1, 5, 8) );
+#say {*STDERR} Dumper($trail);
 say $best;
 
 sub box_coins (@box) {

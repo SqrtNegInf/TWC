@@ -1,5 +1,6 @@
 #!/usr/bin/env perl
 use v5.30;
+
 my @box = (3, 1, 5, 8);
 say "Input: \@box = [@box]";
 my ($sum, $max) = (0, 0);

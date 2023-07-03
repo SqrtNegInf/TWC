@@ -1,6 +1,7 @@
 #!/usr/bin/env perl
-use warnings;
+
 use strict;
+use warnings;
 use experimental qw( signatures );
 
 srand 1;

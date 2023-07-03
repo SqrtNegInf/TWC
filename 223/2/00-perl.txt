@@ -1,0 +1,120 @@
+ 
+===> 223/2/andreas-voegele.pl <===
+Input:  @box = (3, 1, 5, 8)
+Output: 167
+Step 1: pick box [i=1] and collect coins 3 * 1 * 5 => 15
+Step 2: pick box [i=1] and collect coins 3 * 5 * 8 => 120
+Step 3: pick box [i=0] and collect coins 1 * 3 * 8 => 24
+Step 4: pick box [i=0] and collect coins 1 * 8 * 1 => 8
+
+Input:  @box = (1, 5)
+Output: 10
+Step 1: pick box [i=0] and collect coins 1 * 1 * 5 => 5
+Step 2: pick box [i=0] and collect coins 1 * 5 * 1 => 5
+
+Input:  @box = (3, 8, 6, 9, 2, 4, 5, 9, 2)
+Output: 2016
+Step 1: pick box [i=2] and collect coins 8 * 6 * 9 => 432
+Step 2: pick box [i=3] and collect coins 9 * 2 * 4 => 72
+Step 3: pick box [i=3] and collect coins 9 * 4 * 5 => 180
+Step 4: pick box [i=3] and collect coins 9 * 5 * 9 => 405
+Step 5: pick box [i=2] and collect coins 8 * 9 * 9 => 648
+Step 6: pick box [i=1] and collect coins 3 * 8 * 9 => 216
+Step 7: pick box [i=1] and collect coins 3 * 9 * 2 => 54
+Step 8: pick box [i=1] and collect coins 3 * 2 * 1 => 6
+Step 9: pick box [i=0] and collect coins 1 * 3 * 1 => 3
+ 
+===> 223/2/dave-jacoby.pl <===
+    INPUT: @box =  (3, 1, 5, 8)
+    Output: 167
+
+    INPUT: @box =  (1, 5)
+    Output: 10
+
+ 
+===> 223/2/e-choroba.pl <===
+1..2
+ok 1 - Example 1
+ok 2 - Example 2
+ 
+===> 223/2/jaldhar-h-vyas.pl <===
+0
+ 
+===> 223/2/laurent-rosenfeld.pl <===
+3 1 5 8         => 167
+1 5             => 10
+ 
+===> 223/2/lubos-kolouch.pl <===
+167 
+===> 223/2/peter-campbell-smith.pl <===
+
+Input:  @box = (3, 1, 5, 8)
+Output: 167
+Step 1: pick box [i=1] and collect coins 3 * 1 * 5 => 15.
+   Boxes remaining (3, 5, 8).
+Step 2: pick box [i=1] and collect coins 3 * 5 * 8 => 120.
+   Boxes remaining (3, 8).
+Step 3: pick box [i=0] and collect coins 1 * 3 * 8 => 24.
+   Boxes remaining (8).
+Step 4: pick box [i=0] and collect coins 1 * 8 * 1 => 8.
+   No boxes remaining.
+
+Input:  @box = (1, 5)
+Output: 10
+Step 1: pick box [i=0] and collect coins 1 * 1 * 5 => 5.
+   Boxes remaining (5).
+Step 2: pick box [i=0] and collect coins 1 * 5 * 1 => 5.
+   No boxes remaining.
+
+Input:  @box = (3, 8, 6, 9, 2, 4, 5, 9, 2)
+Output: 2016
+Step 1: pick box [i=2] and collect coins 8 * 6 * 9 => 432.
+   Boxes remaining (3, 8, 9, 2, 4, 5, 9, 2).
+Step 2: pick box [i=3] and collect coins 9 * 2 * 4 => 72.
+   Boxes remaining (3, 8, 9, 4, 5, 9, 2).
+Step 3: pick box [i=3] and collect coins 9 * 4 * 5 => 180.
+   Boxes remaining (3, 8, 9, 5, 9, 2).
+Step 4: pick box [i=3] and collect coins 9 * 5 * 9 => 405.
+   Boxes remaining (3, 8, 9, 9, 2).
+Step 5: pick box [i=2] and collect coins 8 * 9 * 9 => 648.
+   Boxes remaining (3, 8, 9, 2).
+Step 6: pick box [i=1] and collect coins 3 * 8 * 9 => 216.
+   Boxes remaining (3, 9, 2).
+Step 7: pick box [i=1] and collect coins 3 * 9 * 2 => 54.
+   Boxes remaining (3, 2).
+Step 8: pick box [i=1] and collect coins 3 * 2 * 1 => 6.
+   Boxes remaining (3).
+Step 9: pick box [i=0] and collect coins 1 * 3 * 1 => 3.
+   No boxes remaining.
+ 
+===> 223/2/peter-meszaros.pl <===
+ok 1 - [3, 1, 5, 8]
+ok 2 - [1, 5]
+1..2
+ 
+===> 223/2/polettix.pl <===
+167
+ 
+===> 223/2/roger-bell-west.pl <===
+1..2
+ok 1 - example 1
+ok 2 - example 2
+ 
+===> 223/2/sgreen.pl <===
+
+ 
+===> 223/2/solathian.pl <===
+10
+189
+ 
+===> 223/2/wlmb.pl <===
+ -> 167
+ 
+===> 223/2/zapwai.pl <===
+Input: @box = [3 1 5 8]
+Output: 167
+	Choose indices: 1 1 0 0
+	3 x 1 x 5 => 15, Current Box: 3 5 8
+	3 x 5 x 8 => 120, Current Box: 3 8
+	1 x 3 x 8 => 24, Current Box: 8
+	1 x 8 x 1 => 8

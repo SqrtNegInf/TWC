@@ -1,15 +1,9 @@
 #!/usr/bin/env perl
-# Perl weekly challenge 223
-# Task 2:  Box Coins
-#
-# See https://wlmb.github.io/2023/06/27/PWC223/#task-2-box-coins
 use v5.36;
+
 use List::UtilsBy qw(min_by);
-die <<~"FIN" unless @ARGV;
-    Usage: $0 N1 [N2...]
-    to collect the maximum amount of coins from boxes with N1 N2... coins
-    FIN
-my @extended=(1,@ARGV,1); # input args with guards on either side
+
+my @extended = (1, 3, 1, 5, 8 ,1);
 my $total;
 my $amount;
 $total += $amount while(defined ($amount=next_amount())); # pick coins while they last
