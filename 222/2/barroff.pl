@@ -10,12 +10,11 @@ sub matching_members (@numbers) {
 
 #| Run test cases
 sub MAIN() {
-    use Test2::V0 qw( is plan );
-    plan 3;
-
+    use Test::More;
     is matching_members( 1, 1, 4, 2, 1, 2 ), 3, 'works for (1, 1, 4, 2, 1, 2)';
     is matching_members( 5, 1, 2, 3, 4 ), 0, 'works for (5, 1, 2, 3, 4)';
     is matching_members( 1, 2, 3, 4, 5 ), 5, 'works for (1, 2, 3, 4, 5)';
+    done_testing;
 }
 
 MAIN();
