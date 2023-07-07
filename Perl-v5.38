@@ -1,0 +1,9 @@
+Examples of errors and warnings under v5.38
+
+005/1
+Bareword filehandle "WORDS" not allowed under 'no feature "bareword_filehandles"' at ./adam-russell.pl line 43.
+
+009/2
+given is deprecated at ./lakpatashi.pl line 30.
+when is deprecated at ./lakpatashi.pl line 31.
+
