@@ -1,9 +1,24 @@
 Examples of errors and warnings under v5.38
 
-005/1
-Bareword filehandle "WORDS" not allowed under 'no feature "bareword_filehandles"' at ./adam-russell.pl line 43.
+The quickest fix for a lot of these will be: <no warnings 'deprecated'>
+Then use proper filehandle techniques.
+After that, maybe 3 'interesting' errors remain.
 
-009/2
-given is deprecated at ./lakpatashi.pl line 30.
-when is deprecated at ./lakpatashi.pl line 31.
+005/1/adam-russell.pl
+Bareword filehandle "WORDS" not allowed under 'no feature "bareword_filehandles"' 
 
+009/2/lakpatashi.pl
+given is deprecated
+when is deprecated
+
+051/1/ruben-westerberg.pl
+Smartmatch is deprecated
+
+089/2/perlboy1967.pl
+Odd number of elements in hash assignment at /usr/local/lib/perl5/5.38.0/Memoize.pm line 31.
+
+103/2/e-choroba.pl [this is really a funky name issue: <sub what'playing>]
+Old package separator "'" deprecated at ./e-choroba.pl line 16.
+
+220/2/jaldhar-h-vyas.pl 
+fatal error - Modification of non-creatable array value attempted, subscript -1
