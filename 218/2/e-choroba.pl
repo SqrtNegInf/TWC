@@ -30,7 +30,7 @@ sub matrix_score($m) {
     return $max
 }
 
-sub serialise($m) { join "", map @$_, map @$_, @_ }
+sub serialise(@m) { join "", map @$_, map @$_, @m }
 
 sub flip_col($s, $x, $width, $height) {
     for my $y (0 .. $height - 1) {
