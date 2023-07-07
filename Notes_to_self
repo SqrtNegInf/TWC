@@ -1,3 +1,6 @@
+2023-07-06
+Many tasks have issues with v5.38, but with lots of duplication (e.g. bareword filehandles).
+
 2023-07-05
 Testing v5.38 on iMac.
 
