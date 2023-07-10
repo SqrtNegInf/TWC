@@ -1,9 +1,9 @@
 #!/usr/bin/env perl
+use v5.16;
 
-use v5.16;    # The Weekly Challenge - 2023-07-03
-use utf8;     # Week 224 task 1 - Special notes
-use strict;   # Peter Campbell Smith
-use warnings; # Blog: http://ccgi.campbellsmiths.force9.co.uk/challenge
+use utf8;
+use strict;
+use warnings;
 
 special_notes('abc', 'xyz');
 special_notes('scriptinglanguage', 'perl');

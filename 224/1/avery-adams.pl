@@ -1,7 +1,7 @@
 #!/usr/bin/env perl
+use v5.24;
 
 use strict;
-use v5.24;
 
 my ($source, $target) = @ARGV;
 my %chars;

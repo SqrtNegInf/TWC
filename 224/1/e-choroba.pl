@@ -1,4 +1,5 @@
 #!/usr/bin/env perl
+
 use warnings;
 use strict;
 use experimental qw( signatures );
@@ -17,7 +18,7 @@ sub special_notes_optimised($source, $target) {
     return 1
 }
 
-use Test::More tests => 2 * 3 + 1;
+use Test::More tests => 6;
 
 for my $special_notes (\&special_notes,
                        \&special_notes_optimised
@@ -26,15 +27,3 @@ for my $special_notes (\&special_notes,
     ok $special_notes->('scriptinglanguage', 'perl'), 'Example 2';
     ok $special_notes->('aabbcc', 'abc'), 'Example 3';
 }
-
-use Benchmark qw{ cmpthese };
-my $source = 'pythonicrubylikescriptinglanguage';
-my $target = 'perlrubypython';
-
-is  special_notes($source, $target),
-    special_notes_optimised($source, $target),
-    'same';
-cmpthese(-3, {
-    regex => sub { special_notes($source, $target) },
-    opt   => sub { special_notes_optimised($source, $target) },
-});

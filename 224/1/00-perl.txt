@@ -1,0 +1,101 @@
+ 
+===> 224/1/andreas-voegele.pl <===
+0
+1
+1
+ 
+===> 224/1/ash.pl <===
+'abc' vs. 'xyz' => false
+'scriptinglanguage' vs. 'perl' => true
+'aabbcc' vs. 'abc' => true
+ 
+===> 224/1/avery-adams.pl <===
+true
+ 
+===> 224/1/barroff.pl <===
+# Seeded srand with seed '20230710' from local date.
+1..3
+ok 1 - works for ("abc", "xyz")
+ok 2 - works for ("scriptinglanguage", "perl")
+ok 3 - works for ("aabbcc", "abc")
+ 
+===> 224/1/e-choroba.pl <===
+1..6
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ok 4 - Example 1
+ok 5 - Example 2
+ok 6 - Example 3
+ 
+===> 224/1/laurent-rosenfeld.pl <===
+abc                  - xyz     => false
+scriptinglanguage    - perl    => true
+aabbcc               - abc     => true
+ 
+===> 224/1/lubos-kolouch.pl <===
+false
+true
+true
+ 
+===> 224/1/peter-campbell-smith.pl <===
+
+Input:  $source = 'abc'
+        $target = 'xyz'
+Output: false 
+
+Input:  $source = 'scriptinglanguage'
+        $target = 'perl'
+Output: true
+
+Input:  $source = 'aabbcc'
+        $target = 'abc'
+Output: true
+
+Input:  $source = 'gorge'
+        $target = 'george'
+Output: false 
+
+Input:  $source = 'fornowisthetimeforallgoodpeopletocometotheaidofthebaby'
+        $target = 'hyperbolicparaboloid'
+Output: true
+ 
+===> 224/1/polettix.pl <===
+true
+ 
+===> 224/1/roger-bell-west.pl <===
+1..3
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ 
+===> 224/1/solathian.pl <===
+false
+true
+true
+ 
+===> 224/1/steven-wilson.pl <===
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+1..3
+ 
+===> 224/1/ulrich-rieke.pl <===
+true
+ 
+===> 224/1/wlmb.pl <===
+source: scriptinglanguage, target: pearl -> True
+ 
+===> 224/1/zapwai.pl <===
+Input:  $source = abc
+	$target = xyz
+Output: False
+
+Input:  $source = scriptinglanguage
+	$target = perl
+Output: True
+
+Input:  $source = aabbcc
+	$target = abc
+Output: True
+

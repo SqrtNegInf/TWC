@@ -1,12 +1,6 @@
 #!/usr/bin/env perl
-# Task 1: Special Notes
-
-# You are given two strings, $source and $target.
-
-# Write a script to find out if using the characters (only once) from
-# source, a target string can be created.
-
 use 5.12.0;
+
 use Test::More;
 
 cmp_ok( special_notes( "abc",               "xyz" ),  "==", 0, "Example 1" );

@@ -1,9 +1,10 @@
 #!/usr/bin/env perl
 use v5.24;
+
 use warnings;
 use experimental 'signatures';
 
-say special_notes(@ARGV) ? 'true' : 'false';
+say special_notes("scriptinglanguage", "pearl") ? 'true' : 'false';
 
 sub special_notes_simple ($source, $target) {
    my %available;

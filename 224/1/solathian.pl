@@ -1,11 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
 
-# Challenge 224 - 1 - Special Notes
-
-# You are given two strings, $source and $target.
-# Write a script to find out if using the characters (only once) from source, a target string can be created.
-
 sn("abc", "xyz");                       # false
 sn("scriptinglanguage", "perl");        # true
 sn("aabbcc", "abc");                    # true

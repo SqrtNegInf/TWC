@@ -1,10 +1,7 @@
 #!/usr/bin/env perl
 
-# You are given two strings, $source and $target.  Write a script to find out
-# if using the characters (only once) from source, a target string can be
-# created.
+use v5.36;
 
-use 5.036;
 use utf8;
 
 sub is_special_note ($source, $target) {
