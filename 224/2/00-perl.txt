@@ -1,0 +1,105 @@
+ 
+===> 224/2/andreas-voegele.pl <===
+1
+0
+1
+ 
+===> 224/2/cheok-yin-fung.pl <===
+1..5
+ok 1
+ok 2
+ok 3
+ok 4
+ok 5
+ 
+===> 224/2/e-choroba.pl <===
+1..3
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ 
+===> 224/2/jo-37.pl <===
+# Seeded srand with seed '1' from import arg.
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ok 4 - a bit longer
+ok 5 - leading zero
+1..5
+ 
+===> 224/2/lubos-kolouch.pl <===
+true
+false
+true
+ 
+===> 224/2/peter-campbell-smith.pl <===
+
+Input:  $string = '12354782'
+Output: 12, 35, 47, 82
+
+Input:  $string = '199100199299498'
+Output: 1, 99, 100, 199, 299, 498
+
+Input:  $string = '0030047'
+Output: 003, 004, 7
+
+Input:  $string = '314159'
+Output: false
+
+Input:  $string = '2874102176278454732118619183104502281261314821274344225569690118145814235932381746617678999424'
+Output: 28, 74, 102, 176, 278, 454, 732, 1186, 1918, 3104, 5022, 8126, 13148, 21274, 34422, 55696, 90118, 145814, 235932, 381746, 617678, 999424
+ 
+===> 224/2/roger-bell-west.pl <===
+1..3
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ 
+===> 224/2/wlmb.pl <===
+199100199 -> True
+ 
+===> 224/2/zapwai.pl <===
+Input: $str = 12345
+Output: 0
+Sorry, not additive.
+--------------------
+Input: $str = 112358
+Output: 1
+	1 1 2 3 5 8 is additive!
+--------------------
+Input: $str = 199100199
+Output: 1
+	1 99 100 199 is additive!
+--------------------
+Input: $str = 12364884132
+Output: 1
+	12 36 48 84 132 is additive!
+--------------------
+Input: $str = 28101828
+Output: 1
+	2 8 10 18 28 is additive!
+--------------------
+Input: $str = 7111829
+Output: 1
+	7 11 18 29 is additive!
+--------------------
+Input: $str = 112358132134
+Output: 1
+	1 1 2 3 5 8 13 21 34 is additive!
+--------------------
+Input: $str = 12345657910351614
+Output: 1
+	123 456 579 1035 1614 is additive!
+--------------------
+Input: $str = 102420483072
+Output: 1
+	1024 2048 3072 is additive!
+--------------------
+Input: $str = 21425
+Output: 1
+	21 4 25 is additive!
+--------------------
+Input: $str = 3105108
+Output: 1
+	3 105 108 is additive!
+--------------------

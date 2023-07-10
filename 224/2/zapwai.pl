@@ -1,5 +1,8 @@
 #!/usr/bin/env perl
 use v5.30;
+
+no warnings 'experimental';
+
 my $str1 = "12345";
 my $str2 = "112358";
 my $str3 = "199100199";
@@ -12,6 +15,7 @@ my $str9 = "102420483072";
 my $str10 = "21425";
 my $str11 = "3105108";
 my @S = ($str1, $str2, $str3, $str4, $str5, $str6, $str7, $str8, $str9, $str10, $str11);
+
 for my $i (0 .. $#S) {
     my $str = $S[$i];
     my $outstr = "Sorry, not additive.";

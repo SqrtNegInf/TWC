@@ -1,6 +1,8 @@
 #!/usr/bin/env perl
 use v5.30.0;
+
 use warnings;
+
 use List::Util qw/max/;
 
 sub an {
@@ -23,7 +25,6 @@ sub an {
     }
     return 0;
 }
-
 
 use Test::More tests=>5;
 ok an(112358);

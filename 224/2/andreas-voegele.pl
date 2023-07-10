@@ -1,14 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-# You are given a string containing digits 0-9 only.  Write a script to find
-# out if the given string is additive number.  An additive number is a string
-# whose digits can form an additive sequence.
-#
-# A valid additive sequence should contain at least 3 numbers.  Except the
-# first 2 numbers, each subsequent number in the sequence must be the sum of
-# the preceding two.
-
-use 5.036;
 use utf8;
 
 sub combine_digits ($numeric_string) {
