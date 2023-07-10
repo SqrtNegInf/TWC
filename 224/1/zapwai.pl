@@ -1,5 +1,5 @@
 #!/usr/bin/env perl
-use v5.30;
+use v5.36;
 
 my $src1 = "abc";
 my $tar1 = "xyz";
@@ -18,7 +18,7 @@ for my $i (0 .. 2) {
     my @L = split "", $tar;
     my $fail = 0;
     foreach my $l (@L) {
-	if ($h{$l} > 0) {
+	if (defined $h{$l} and $h{$l} > 0) {
 	    $h{$l}--;
 	} else {
 	    $fail = 1;

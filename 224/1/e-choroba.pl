@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-
-use warnings;
-use strict;
-use experimental qw( signatures );
+use v5.36;
 
 sub special_notes($source, $target) {
     for my $char (split //, $target) {

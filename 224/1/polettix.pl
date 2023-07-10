@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-use v5.24;
-
-use warnings;
-use experimental 'signatures';
+use v5.36;
 
 say special_notes("scriptinglanguage", "pearl") ? 'true' : 'false';
 

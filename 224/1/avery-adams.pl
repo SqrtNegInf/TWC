@@ -1,9 +1,7 @@
 #!/usr/bin/env perl
-use v5.24;
+use v5.36;
 
-use strict;
-
-my ($source, $target) = @ARGV;
+my ($source, $target) = ("scriptinglanguage", "pear");
 my %chars;
 
 foreach (split //, $source) {$chars{$_}++}
