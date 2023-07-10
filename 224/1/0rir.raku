@@ -1,32 +1,6 @@
 #!/usr/bin/env raku
-# :vim ft=raku sw=4 expandtab  # 🦋 ∅∪∩∋∈∉ ≡ ≢ «␤ » ∴
-use v6.d;
+
 use Test;
-
-=begin comment
-224-1: Special Notes        Submitted by: Mohammad S Anwar
-
-Given two strings, $source and $target, find out if using the characters
-(only once) from source, a target string can be created.
-
-Example 1
-Input: $source = "abc"
-       $target = "xyz"
-Output: false
-Example 2
-Input: $source = "scriptinglanguage"
-       $target = "perl"
-Output: true
-Example 3
-Input: $source = "aabbcc"
-       $target = "abc"
-Output: true
-=end comment
-
-=begin consideration
-    It seems that "aabb" would allow 'aab' to be True. Depends on the
-    definition of 'character'.
-=end consideration
 
 my @Test =
     # source                target      set      bag 
@@ -56,10 +30,8 @@ my $source = 'apple';
 my $dest   = 'leap';
 say qq{\n\$source = "$source"\n\$target = "$dest"};
 say "Output: &func($source, $dest)             set required";
-my $dest = 'apple';
+$dest = 'apple';
 say qq{\n\$source = "$source"\n\$target = "$dest"};
 say "Output: &func($source, $dest)             set required";
 say qq{\n\$source = "$source"\n\$target = "$dest"};
 say "Output: &func($source, $dest, :bag)          dupes per source";
-exit;
-

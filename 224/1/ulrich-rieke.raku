@@ -1,10 +1,7 @@
 #!/usr/bin/env raku
-use v6 ;
 
-say "Enter a source string!" ;
-my $source = $*IN.get ;
-say "Enter a target string!" ;
-my $target = $*IN.get ;
+my $source = "scriptinglanguage";
+my $target = "pearl";
 my %sourceHash ;
 my %targetHash ;
 my @targetletters = $target.comb ;

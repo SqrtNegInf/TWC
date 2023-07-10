@@ -1,3 +1,3 @@
 #!/usr/bin/env raku
-use v6;
-sub MAIN ($s, $t) { put(([(-)] ($t, $s)».comb».Bag).elems == 0) }
+
+sub MAIN ($s = "scriptinglanguage", $t = "perl") { put(([(-)] ($t, $s)».comb».Bag).elems == 0) }
