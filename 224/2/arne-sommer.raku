@@ -1,7 +1,7 @@
 #!/usr/bin/env raku
 
-unit sub MAIN ($string where $string.chars > 2 && $string ~~ /^<[0..9]>*$/,
-  :v(:$verbose));
+#unit sub MAIN ($string where $string.chars > 2 && $string ~~ /^<[0..9]>*$/, :v(:$verbose));
+my $string = '199100199';
 
 my $bitmap-length = $string.chars -1;
 
@@ -22,7 +22,7 @@ for 0 .. Inf -> $i
 
   my @array = $new.split("|");
 
-  say ":: $string -> $bitmap2 -> '$bitmap' -> $new" if $verbose;
+#  say ":: $string -> $bitmap2 -> '$bitmap' -> $new" if $verbose;
 
   next unless @array.elems >= 3;
 

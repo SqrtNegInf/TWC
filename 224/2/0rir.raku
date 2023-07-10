@@ -1,46 +1,10 @@
 #!/usr/bin/env raku
-# :vim ft=raku sw=4 expandtab  # 🦋 ∅∪∩∋∈∉ ≡ ≢ «␤ » ∴
-use v6.d;
-use lib $?FILE.IO.cleanup.parent(2).add("lib");
+
+#use lib $?FILE.IO.cleanup.parent(2).add("lib");
 use Test;
-
-=begin comment
-224-2: Additive Number          Submitted by: Mohammad S Anwar
-Given a string containing digits 0-9 only, find if the given string is an
-additive number. An additive number is one whose digits form an additive
-sequence.
-    A valid additive sequence should contain at least 3 numbers. Except the
-first 2 numbers, each subsequent number in the sequence must be the sum of
-the preceding two.
-
-Example 1:
-Input: $string = "112358"
-Output: true
-
-The additive sequence can be created using the given string digits: 1,1,2,3,5,8
-1 + 1 => 2
-1 + 2 => 3
-2 + 3 => 5
-3 + 5 => 8
-Example 2:
-Input: $string = "12345"
-Output: false
-
-No additive sequence can be created using the given string digits.
-Example 3:
-Input: $string = "199100199"
-Output: true
-
-The additive sequence can be created using the given string digits: 1,99,100,199
- 1 +  99 => 100
-99 + 100 => 199
-
-=end comment
 
 my @Test =
             # simple special case
-=begin comment
-=end comment
     "0 0 0",                False,
     "000000000000000000",   False,
     "1",                    False,
@@ -130,6 +94,4 @@ done-testing;
 
 my $string = "2244666901156";
 say "\nInput: \$string = $string\n Output: ", additive( $string);
-
-exit;
 

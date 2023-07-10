@@ -1,6 +1,6 @@
 #!/usr/bin/env raku
-use v6;
-sub MAIN ($string) { put is-additive-number($string) }
+
+sub MAIN ($string = '199100199') { put is-additive-number($string) }
 
 multi sub is-additive-number ($string --> Bool) {
    my $len = $string.chars;

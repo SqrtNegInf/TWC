@@ -1,5 +1,5 @@
 #!/usr/bin/env raku
-use v6 ;
+
 use Math::Combinatorics <partitions> ;
 
 sub isAdditive( @array ) {
@@ -30,8 +30,7 @@ sub extractArray( $string , $seq ) {
   return @array ;
 }
 
-say "Enter a string consisting of digits 0 to 9 only!" ;
-my $line = $*IN.get ;
+my $line = '199100199';
 my $len = $line.chars ;
 my @partitions = partitions( $len ) ;
 for @partitions -> $part {
