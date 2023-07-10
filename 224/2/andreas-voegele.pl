@@ -1,8 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
 
-use utf8;
-
 sub combine_digits ($numeric_string) {
     my @combinations;
     for my $n (1 .. length $numeric_string) {
