@@ -469,8 +469,8 @@ Challenge titles and Rosetta-code correspondences (exact, and otherwise)
 223-2 Box Coins
 224-1 Special Notes
 224-2 Additive Numbers
-225-1
-225-2
+225-1 Max Words
+225-2 Left Right Sum Diff
 226-1
 226-2
 227-1
