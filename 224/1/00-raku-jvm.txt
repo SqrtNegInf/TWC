@@ -1,0 +1,80 @@
+ 
+===> 224/1/0rir.raku <===
+1..14
+ok 1 - abc <- aabbcc (set)
+ok 2 - abc <- aabbcc (bag)
+ok 3 - perl <- scriptinglanguage (set)
+ok 4 - perl <- scriptinglanguage (bag)
+ok 5 - xyz <- abc (set)
+ok 6 - xyz <- abc (bag)
+ok 7 - a <- a (set)
+ok 8 - a <- a (bag)
+ok 9 - a <- aa (set)
+ok 10 - a <- aa (bag)
+ok 11 - aa <- aa (set)
+ok 12 - aa <- aa (bag)
+ok 13 - ab <- aa (set)
+ok 14 - ab <- aa (bag)
+
+$source = "apple"
+$target = "leap"
+Output: True             set required
+
+$source = "apple"
+$target = "apple"
+Output: False             set required
+
+$source = "apple"
+$target = "apple"
+Output: True          dupes per source
+ 
+===> 224/1/arne-sommer.raku <===
+true
+ 
+===> 224/1/barroff.raku <===
+1..3
+ok 1 - works for ("abc", "xyz")
+ok 2 - works for ("scriptinglanguage", "perl")
+ok 3 - works for ("aabbcc", "abc")
+ 
+===> 224/1/laurent-rosenfeld.raku <===
+abc                  - xyz     => False
+scriptinglanguage    - perl    => True
+aabbcc               - abc     => True
+ 
+===> 224/1/mark-anderson.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ 
+===> 224/1/polettix.raku <===
+True
+ 
+===> 224/1/robert-dicicco.raku <===
+Output: true
+ 
+===> 224/1/roger-bell-west.raku <===
+1..3
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ 
+===> 224/1/simon-proctor.raku <===
+true
+ 
+===> 224/1/ulrich-rieke.raku <===
+true
+ 
+===> 224/1/zapwai.raku <===
+Input:  $source = abc
+	$target = xyz
+Output: False
+
+Input:  $source = scriptinglanguage
+	$target = perl
+Output: True
+
+Input:  $source = aabbcc
+	$target = abc
+Output: True
+
