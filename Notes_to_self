@@ -1,3 +1,6 @@
+2023-07-11
+044/1/adam-russell.pl sometimes fails (or at least produces no output)?
+
 2023-07-06
 Many tasks have issues with v5.38, but with lots of duplication (e.g. bareword filehandles).
 
