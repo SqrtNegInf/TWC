@@ -1,9 +1,6 @@
 #!/usr/bin/env perl
-use v5.38;
-##
-# You are given an array of integers, @ints.
-# Write a script to return left right sum difference array.
-##
+use v5.36;
+
 sub left_right_sum{
     return unpack("%32I*", pack("I*", @_));
 }

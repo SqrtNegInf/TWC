@@ -18,4 +18,4 @@ sub main (@n) {
     say join ', ', @solution;
 }
 
-main(@ARGV);
+main(10, 4, 8, 3);

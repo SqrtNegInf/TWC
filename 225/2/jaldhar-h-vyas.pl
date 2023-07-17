@@ -1,6 +1,8 @@
 #!/usr/bin/env perl
-use 5.030;
+
+use strict;
 use warnings;
+use feature 'say';
 
 sub Zminusabs {
     my @a = @{ $_[0] };
@@ -24,7 +26,7 @@ sub sum {
     return $total;
 }
 
-my @ints = @ARGV;
+my @ints = (10, 4, 8, 3);
 my $end = scalar @ints - 1;
 
 my @left = (0);

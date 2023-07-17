@@ -1,11 +1,5 @@
 #!/usr/bin/env perl
-
-# You are given an array of integers.  For each element calculate the the sums
-# of the elements to the left and right.  Return the differences between these
-# sums.
-
-use 5.036;
-use utf8;
+use v5.36;
 
 use experimental qw(builtin for_list);
 

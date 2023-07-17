@@ -1,9 +1,10 @@
 #!/usr/bin/env perl
 use v5.24;
+
 use warnings;
 use experimental 'signatures';
 
-{ local $" = ', '; say "(@{[ left_right_sum_diff(@ARGV) ]})" }
+{ local $" = ', '; say "(@{[ left_right_sum_diff(10, 4, 8, 3) ]})" }
 
 sub left_right_sum_diff (@input) {
    my $sum = 0;

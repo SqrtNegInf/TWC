@@ -1,11 +1,5 @@
 #!/usr/bin/env perl
-=begin comment
----------------------------------------
-AUTHOR: Robert DiCicco
-DATE  : 2023-07-11
-Challenge 225 Task 2 Left Right Sum Diff ( Perl )
----------------------------------------
-=cut
+
 use strict;
 use warnings;
 use feature 'say';

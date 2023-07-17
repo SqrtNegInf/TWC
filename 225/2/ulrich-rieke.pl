@@ -1,4 +1,5 @@
 #!/usr/bin/env perl
+
 use strict ;
 use warnings ;
 use feature 'say' ;
@@ -47,10 +48,7 @@ sub find_right_array {
   return @right_array ;
 }
 
-say "Enter some integers, separated by blanks!" ;
-my $line = <STDIN> ;
-chomp $line ;
-my @numbers = split( /\s/ , $line ) ;
+my @numbers = (10, 4, 8, 3);
 my $len = scalar( @numbers ) ;
 if ( $len == 1 ) {
   say "(0)" ;

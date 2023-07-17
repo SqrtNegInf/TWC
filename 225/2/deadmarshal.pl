@@ -1,6 +1,8 @@
 #!/usr/bin/env perl
+
 use strict;
 use warnings;
+
 use List::Util qw(sum0);
 
 sub left_right_sum_diff
