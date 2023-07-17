@@ -1,8 +1,8 @@
 #!/usr/bin/env perl
-# The Weekly Challenge 225
-# Task 1 Max Words
 use v5.30.0;
+
 use warnings;
+
 use List::Util qw/uniqstr/;
 
 sub mw { 

@@ -1,9 +1,8 @@
 #!/usr/bin/env perl
+use v5.16;
 
-use v5.16;    # The Weekly Challenge - 2023-07-10
-use utf8;     # Week 225 task 1 - Max words
-use strict;   # Peter Campbell Smith
-use warnings; # Blog: http://ccgi.campbellsmiths.force9.co.uk/challenge
+use strict;
+use warnings;
 
 binmode(STDOUT, ':utf8');
 

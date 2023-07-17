@@ -1,9 +1,6 @@
 #!/usr/bin/env perl
-use v5.38;
-##
-# You are given a list of sentences, @list.
-# Write a script to find out the maximum number of words that appear in a single sentence.
-##
+use v5.36;
+
 sub max_sentence_length{
     my(@sentences) = @_;
     my $max_words = -1;

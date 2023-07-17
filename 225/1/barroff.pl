@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
-
 use v5.36;
+
 use List::Util qw( max );
 
 sub max_words (@sentences) {
@@ -9,8 +9,7 @@ sub max_words (@sentences) {
 
 #| Run test cases
 sub MAIN() {
-    use Test2::V0 qw( is plan );
-    plan 2;
+    use Test::More;
 
     is max_words(
         "Perl and Raku belong to the same family.",
@@ -24,6 +23,7 @@ sub MAIN() {
         "Team PWC has over 300 members."
       ),
       7, 'works for second sentence list';
+    done_testing;
 }
 
 MAIN();

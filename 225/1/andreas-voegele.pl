@@ -1,12 +1,5 @@
 #!/usr/bin/env perl
-
-# You are given a list of sentences.  A sentence is a list of words that are
-# separated by a single space with no leading or trailing spaces.  Write a
-# script to find out the maximum number of words that appear in a single
-# sentence.
-
-use 5.036;
-use utf8;
+use v5.36;
 
 use List::Util qw(max);
 
