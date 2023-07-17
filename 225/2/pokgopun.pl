@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
+use v5.36;
 
 my @list = @ARGV ? @ARGV : (10, 4, 8, 3);
 # (1);

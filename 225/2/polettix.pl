@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-use v5.24;
-
-use warnings;
-use experimental 'signatures';
+use v5.36;
 
 { local $" = ', '; say "(@{[ left_right_sum_diff(10, 4, 8, 3) ]})" }
 

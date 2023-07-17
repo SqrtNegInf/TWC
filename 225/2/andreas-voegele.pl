@@ -1,6 +1,8 @@
 #!/usr/bin/env perl
 use v5.36;
 
+use v5.36;
+
 use experimental qw(builtin for_list);
 
 use builtin    qw(indexed);

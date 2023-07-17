@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-
-use strict ;
-use warnings ;
-use feature 'say' ;
+use v5.36;
 
 #to make the examples fit I assume that in order to form the left subarray
 #you go to the element given by the length of the array, integer divided
