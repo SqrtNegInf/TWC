@@ -1,5 +1,5 @@
 #!/usr/bin/env perl
-use v5.24;
+use v5.36;
 
 use List::Util 'max';
 
