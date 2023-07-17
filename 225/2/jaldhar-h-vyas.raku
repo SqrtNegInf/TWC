@@ -1,7 +1,7 @@
 #!/usr/bin/env raku
 
 sub MAIN(
-    *@ints
+    @ints = (10, 4, 8, 3)
 ) {
     my @left = (0);
     for 0 ..^ @ints.end -> $i {

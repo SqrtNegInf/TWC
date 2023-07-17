@@ -1,13 +1,4 @@
 #!/usr/bin/env raku
-=begin comment
----------------------------------------
-AUTHOR: Robert DiCicco
-DATE  : 2023-07-11
-Challenge 225 Task 2 Left Right Sum Diff ( Raku )
----------------------------------------
-=end comment
-
-use v6;
 
 #my @array = (1, 2, 3, 4, 5);
 my @array = (10,4,8,3);

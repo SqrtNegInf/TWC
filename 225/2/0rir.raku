@@ -1,32 +1,6 @@
 #!/usr/bin/env raku
-# :vim ft=raku sw=4 expandtab  # 🦋 ∅∪∩∋∈∉ ≡ ≢ «␤ » ∴
-use v6.d;
-use lib $?FILE.IO.cleanup.parent(2).add("lib");
+
 use Test;
-
-=begin comment
-225-2: Left Right Sum Diff              Submitted by: Mohammad S Anwar
-You are given an array of integers, @ints, return the left right sum diff array as shown below:
-
-@ints = (a, b, c, d, e)
-
-@left  = (0, a, (a+b), (a+b+c))
-@right = ((c+d+e), (d+e), e, 0)
-@left_right_sum_diff = ( | 0 - (c+d+e) |,
-                         | a - (d+e)   |,
-                         | (a+b) - e   |,
-                         | (a+b+c) - 0 | )
-
-Example 1:
-Input: @ints = (10, 4, 8, 3)
-Output: (15, 1, 11, 22)
-
-@left  = (0, 10, 14, 22)
-@right = (15, 11, 3, 0)
-
-@left_right_sum_diff = ( |0-15|, |10-11|, |14-3|, |22-0|)
-                     = (15, 1, 11, 22)
-=end comment
 
 my @int = 10, 4, 8, 3;
 

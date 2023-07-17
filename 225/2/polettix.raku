@@ -1,6 +1,6 @@
 #!/usr/bin/env raku
-use v6;
-sub MAIN (*@inputs) { say left-right-sum-diff(@inputs) }
+
+sub MAIN (@inputs = (10, 4, 8, 3) ) { say left-right-sum-diff(@inputs) }
 
 sub left-right-sum-diff (@inputs) {
    my $sum = 0;

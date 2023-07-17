@@ -1,5 +1,4 @@
 #!/usr/bin/env raku
-use v6.d;
 
 my @INPUT = (10, 4, 8, 3);
 

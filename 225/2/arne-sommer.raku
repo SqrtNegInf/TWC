@@ -1,6 +1,7 @@
 #!/usr/bin/env raku
 
-unit sub MAIN (*@int, :v(:$verbose));
+#unit sub MAIN (*@int, :v(:$verbose));
+my @int = 10, 4, 8, 3;
 
 if @int.elems == 0
 {
@@ -22,6 +23,6 @@ for 0 .. $size -2 -> $i
 
 @right .= reverse;
 
-say ":Left: @left[]\n:Right: @right[]" if $verbose;
+#say ":Left: @left[]\n:Right: @right[]" if $verbose;
 
 say '(', (@left Z @right).map({ ( $_[0] - $_[1] ).abs }).join(", "), ')';

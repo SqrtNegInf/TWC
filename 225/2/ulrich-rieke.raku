@@ -1,5 +1,5 @@
 #!/usr/bin/env raku
-use v6 ;
+
 #to make the examples fit , I assume that in finding the left subarray
 #you go to index given by the length of the array , integer-divided by 2 ,
 #- 1 if the length of the entire array is an odd number, otherwise to index
@@ -45,9 +45,7 @@ sub my_op( $num1 , $num2 ) {
   return abs( $num1 - $num2 ) ;
 }
 
-say "Find some integers, separated by blanks!" ;
-my $line = $*IN.get ;
-my @numbers = $line.words.map( {.Int } ) ;
+my @numbers = (10, 4, 8, 3);
 my $len = @numbers.elems ;
 if ( $len == 1 ) {
   say "(0)" ;

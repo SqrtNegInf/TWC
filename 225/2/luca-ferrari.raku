@@ -1,13 +1,7 @@
 #!/usr/bin/env raku
 
-#
-# Perl Weekly Challenge 225
-# Task 2
-#
-# See <https://perlweeklychallenge.org/blog/perl-weekly-challenge-225/>
-#
-
-sub MAIN( *@numbers where { @numbers.grep( * ~~ Int ).elems == @numbers.elems } ) {
+#sub MAIN( *@numbers where { @numbers.grep( * ~~ Int ).elems == @numbers.elems } ) {
+my @numbers = 10, 4, 8, 3;
     my ( @left, @right );
 
     @left.push: 0;
@@ -20,4 +14,4 @@ sub MAIN( *@numbers where { @numbers.grep( * ~~ Int ).elems == @numbers.elems } 
     say @right;
 
     (@left Z[-] @right).map( { $_.abs } ).say;
-}
+#}
