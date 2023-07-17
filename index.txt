@@ -471,8 +471,8 @@ Challenge titles and Rosetta-code correspondences (exact, and otherwise)
 224-2 Additive Numbers
 225-1 Max Words
 225-2 Left Right Sum Diff
-226-1
-226-2
+226-1 Shuffle String
+226-2 Zero Array
 227-1
 227-2
 228-1
