@@ -1,0 +1,77 @@
+ 
+===> 225/1/0rir.raku <===
+1..3
+ok 1 - 8 <-- @Test[1]
+ok 2 - 7 <-- @Test[3]
+ok 3 - 8 <-- @Test[5]
+
+Input: @list = ("Manwar gets the White Camel in 2023."
+                ",The committee, or whoever decided, chose well."
+                ",Congratulations to Manwar for the well deserved recognition."
+                ",He has my thanks for his service.")
+Output: 8
+ 
+===> 225/1/arne-sommer.raku <===
+8
+ 
+===> 225/1/athanasius.raku <===
+Running the test suite
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Long & short
+1..3
+ 
+===> 225/1/barroff.raku <===
+1..2
+ok 1 - works for first sentence list
+ok 2 - works for second sentence list
+ 
+===> 225/1/bruce-gray.raku <===
+1..4
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ok 4 - 
+ 
+===> 225/1/deadmarshal.raku <===
+8
+7
+ 
+===> 225/1/joelle-maslak.raku <===
+Max words: 8
+ 
+===> 225/1/laurent-rosenfeld.raku <===
+9
+8
+7
+ 
+===> 225/1/luca-ferrari.raku <===
+8
+ 
+===> 225/1/mark-anderson.raku <===
+ok 1 - 
+ok 2 - 
+ 
+===> 225/1/polettix.raku <===
+8
+ 
+===> 225/1/robert-dicicco.raku <===
+Input: @list = (Perl and Raku belong to the same family. I love Perl. The Perl and Raku Conference.)
+Output: 8
+
+Input: @list = (The Weekly Challenge. Python is the most popular guest language. Team PWC has over 300 members.)
+Output: 7
+
+ 
+===> 225/1/roger-bell-west.raku <===
+1..2
+ok 1 - example 1
+ok 2 - example 2
+ 
+===> 225/1/ulrich-rieke.raku <===
+8
+ 
+===> 225/1/wambash.raku <===
+ok 1 - 
+ok 2 - 
+1..2

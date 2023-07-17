@@ -7,8 +7,11 @@
 # See <https://perlweeklychallenge.org/blog/perl-weekly-challenge-225/>
 #
 
-sub MAIN( *@sentences ) {
+#sub MAIN( *@sentences ) {
+my @S = ["Perl and Raku belong to the same family.",
+           "I love Perl.",
+           "The Perl and Raku Conference."];
     my %data;
-    %data{ $_ } = $_.split( /\s/ ).elems for @sentences;
+    %data{ $_ } = $_.split( /\s/ ).elems for @S;
     %data.values.max.say;
-}
+#}

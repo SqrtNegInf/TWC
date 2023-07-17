@@ -6,7 +6,7 @@ sub max-words (+list) {
     andthen .max
 }
 
-multi MAIN (Bool :test($)!) {
+#multi MAIN (Bool :test($)!) {
     use Test;
     is max-words(
         'Perl and Raku belong to the same family.',
@@ -23,8 +23,6 @@ multi MAIN (Bool :test($)!) {
        7
     ;
     done-testing;
-};
+#};
 
-multi MAIN (+list) {
-    say max-words list
-}
+#multi MAIN (+list) { say max-words list }

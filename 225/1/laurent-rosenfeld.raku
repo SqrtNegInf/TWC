@@ -1,4 +1,5 @@
 #!/usr/bin/env raku
+
 sub max-words (@sentences) {
     my $max = 0;
     for @sentences -> $sentence {

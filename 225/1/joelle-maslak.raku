@@ -1,5 +1,4 @@
 #!/usr/bin/env raku
-use v6.d;
 
 my Str:D @INPUT = ("Perl and Raku belong to the same family.",
              "I love Perl.",
