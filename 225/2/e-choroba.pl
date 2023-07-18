@@ -33,15 +33,3 @@ for my $f (*left_right_sum_diff_naive{CODE}, *left_right_sum_diff{CODE}) {
     is $f->(1), [0], 'Example 2';
     is $f->(1, 2, 3, 4, 5), [14, 11, 6, 1, 10], 'Example 3';
 }
-
-use Benchmark qw{ cmpthese };
-my @in = 1 .. 15;
-cmpthese(-3, {
-    naive => sub { left_right_sum_diff_naive(@in) },
-    optimized => sub { left_right_sum_diff(@in) },
-});
-
-__END__
-              Rate     naive optimized
-naive     133552/s        --      -20%
-optimized 167637/s       26%        --

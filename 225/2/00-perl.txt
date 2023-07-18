@@ -56,9 +56,6 @@ ok 3 - Example 3
 ok 4 - Example 1
 ok 5 - Example 2
 ok 6 - Example 3
-             Rate     naive optimized
-naive     76557/s        --      -18%
-optimized 93780/s       22%        --
  
 ===> 225/2/jaldhar-h-vyas.pl <===
 (15, 1, 11, 22)
