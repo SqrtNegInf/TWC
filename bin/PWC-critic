@@ -1,0 +1,43 @@
+#!/usr/local/bin/perl ## quick & dirty critic
+#    2023-07-15
+# perl -e '`rc-critic $_/* > tmp/$_.critic` for "A".."Z"'
+# errors from P::C itself: Can't parse code: Encountered unexpected character '204'
+# https://github.com/Perl-Critic/PPI/issues/226 problem with non-Latin variable/constant names
+
+use v5.36;
+
+use Perl::Critic;
+
+my $exclude = join '|', 
+    'die..used',
+    'Code before',
+    'does not end with',
+    'without a label',
+    'prototypes',
+    'use a real number',
+    'pragma."const',
+    'without ..x',
+    'Always unpack',
+    'Package variable',
+    'Expression form',
+    'Magic variable',
+    'Close filehandles',
+    'Return value of .open',
+    'Ambiguously named',
+    'Multiple "package" declarations',
+;
+
+for my $file (grep { ! /\.(\d)$/ } @ARGV) {
+    my $critic = Perl::Critic->new(-severity => 3);
+    my @violations = grep { ! /$exclude/i } $critic->critique($file);
+    print "\n= $file\n" . join '', @violations if @violations
+}
+print "\n\n";
+
+__END__
+
+new( [ -profile => $FILE, -severity => $N, -theme => $string, -include
+    => \@PATTERNS, -exclude => \@PATTERNS, -top => $N, -only => $B,
+    -profile-strictness => $PROFILE_STRICTNESS_{WARN|FATAL|QUIET}, -force =>
+    $B, -verbose => $N ], -color => $B, -pager => $string, -allow-unsafe =>
+    $B, -criticism-fatal => $B)"
