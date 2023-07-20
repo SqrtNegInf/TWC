@@ -26,13 +26,13 @@ sub MAIN() {
         say special_notes( $ARGV[0], $ARGV[1] ) ? 'true' : 'false';
     }
     else {
-        use Test2::V0 qw( is plan );
-        plan 3;
+        use Test::More;
 
         is special_notes( 'abc', 'xyz' ), undef, 'works for ("abc", "xyz")';
         is special_notes( 'scriptinglanguage', 'perl' ), 1,
           'works for ("scriptinglanguage", "perl")';
         is special_notes( 'aabbcc', 'abc' ), 1, 'works for ("aabbcc", "abc")';
+        done_testing;
     }
 }
 
