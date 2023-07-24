@@ -1,11 +1,5 @@
 #!/usr/bin/env perl
-
-# You are given a string and an integer array of the same length.  The string
-# will be shuffled such that the character at the ith position moves to
-# indices[i] in the shuffled string.  Return the shuffled string.
-
-use 5.036;
-use utf8;
+use v5.36;
 
 use experimental qw(for_list);
 

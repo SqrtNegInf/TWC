@@ -1,7 +1,10 @@
 #!/usr/bin/env perl
-use v5.30;
+
+use feature 'say';
+
 my $string = 'lacelengh';
 my @indices = (3,2,0,5,4,8,6,7,1);
+
 say "Input: \$string = $string, \@indices = (" . join(",",@indices) . ")";
 my @S = split "", $string;
 my @R;

@@ -1,6 +1,7 @@
 #!/usr/bin/env perl
-use warnings;
+
 use strict;
+use warnings;
 use experimental qw( signatures );
 
 sub shuffle_string_substr($string, @indices) {
@@ -28,17 +29,3 @@ for my $shuffle_string (keys %implementation) {
         'perlraku',
         "Example 2 - $shuffle_string";
 }
-
-use Benchmark qw{ cmpthese };
-cmpthese(-3, {
-    substr => sub { shuffle_string_substr(
-        lacelengh => 3, 2, 0, 5, 4, 8, 6, 7, 1) },
-    hash  => sub  { shuffle_string_hash(
-        lacelengh => 3, 2, 0, 5, 4, 8, 6, 7, 1) },
-});
-
-__END__
-
-           Rate   hash substr
-hash   153947/s     --   -66%
-substr 455856/s   196%     --

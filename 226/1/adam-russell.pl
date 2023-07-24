@@ -1,9 +1,6 @@
 #!/usr/bin/env perl
-use v5.38;
-##
-# You are given a string and an array of indices of same length as string.
-# Write a script to return the string after re-arranging the indices in the correct order.
-##
+use v5.36;
+
 sub shuffle_string{
     my($s, $indices) = @_;
     my @s = split(//, $s);

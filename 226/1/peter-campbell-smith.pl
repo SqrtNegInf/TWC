@@ -1,9 +1,8 @@
 #!/usr/bin/env perl
 
-use v5.16;    # The Weekly Challenge - 2023-07-17
-use utf8;     # Week 226 task 1 - Shuffle string
-use strict;   # Peter Campbell Smith
-use warnings; # Blog: http://ccgi.campbellsmiths.force9.co.uk/challenge
+use strict;
+use warnings;
+use feature 'say';
 
 shuffle_string('lacelengh', [3, 2, 0, 5, 4, 8, 6, 7, 1]);
 shuffle_string('rulepark', [4, 7, 3, 1, 0, 5, 2, 6]);

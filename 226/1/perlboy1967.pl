@@ -1,23 +1,5 @@
 #!/usr/bin/env perl
 
-=pod
-
-The Weekly Challenge - 226
-- https://theweeklychallenge.org/blog/perl-weekly-challenge-226
-
-Author: Niels 'PerlBoy' van Dijke
-
-Task 1: Shuffle String
-Submitted by: Mohammad S Anwar
-
-You are given a string and an array of indices of same length as string.
-
-Write a script to return the string after re-arranging the indices in the correct order.
-
-=cut
-
-use v5.16;
-
 use common::sense;
 
 use Test::More;

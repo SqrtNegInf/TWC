@@ -1,7 +1,6 @@
 #!/usr/bin/env perl
-# The Weekly Challenge 226
-# Task 1 Shuffle String
-use v5.30.0;
+
+use strict;
 use warnings;
 
 sub ss {

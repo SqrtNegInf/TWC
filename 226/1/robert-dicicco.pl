@@ -1,11 +1,5 @@
 #!/usr/bin/env perl
-=begin comment
---------------------------------------
-AUTHOR: Robert DiCicco
-DATE  : 2023-07-17
-Challenge 226 Task 1 Shuffle String ( Perl )
---------------------------------------
-=cut
+
 use strict;
 use warnings;
 
@@ -33,18 +27,3 @@ for my $str ( @strings) {
     print("\n\n");
     $offset == scalar @indices ? exit : $offset++;
 }
-
-=begin comment
---------------------------------------
-SAMPLE OUTPUT
-perl ShuffleString.pl
-
-Input: $string = lacelengh, @indices = (3 2 0 5 4 8 6 7 1)
-Output: challenge
-
-Input: $string = rulepark, @indices = (4 7 3 1 0 5 2 6)
-Output: perlraku
---------------------------------------
-=cut
-
-
