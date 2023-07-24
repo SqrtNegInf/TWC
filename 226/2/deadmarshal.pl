@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
+use v5.36;
 
 sub zero_array {
   my %hash = map{$_ => 1} grep {$_} @{$_[0]};

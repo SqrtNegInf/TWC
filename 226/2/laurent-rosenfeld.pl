@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-use feature 'say';
+use v5.36;
 
 sub number_operations {
     my %ints = map { $_ => 1} grep $_ > 0, @_;

@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-use warnings;
-use strict;
-use experimental qw( signatures );
+use v5.36;
 
 # It makes no sense to subtract anything but the minimum (otherwise,
 # we'd have to subtract the remaining quantity in a later step). To

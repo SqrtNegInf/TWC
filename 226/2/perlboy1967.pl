@@ -1,11 +1,9 @@
 #!/usr/bin/env perl
-use v5.16;
-
-use common::sense;
+use v5.36;
 
 use Test::More;
 
-sub zeroArray (@) {
+sub zeroArray {
   @_ = grep {$_ > 0} sort {$a <=> $b} @_;
   my $n = 0;
   while (@_) {

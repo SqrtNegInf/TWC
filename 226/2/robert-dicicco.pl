@@ -1,9 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
 
-use strict;
-use warnings;
-
 my @ints = ([1, 5, 0, 3, 5],[0],[2, 1, 4, 0, 3]);
 my $flag = 1;
 my $cnt;

@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-use feature 'say';
+use v5.36;
 
 while((my $s = <DATA>)) {
 	say "Solution: " . x($s);
