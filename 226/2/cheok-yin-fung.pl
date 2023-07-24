@@ -1,8 +1,8 @@
 #!/usr/bin/env perl
-# The Weekly Challenge 226
-# Task 2 Zero Array
 use v5.30.0;
+
 use warnings;
+
 use List::Util qw/all min/;
 
 sub za {

@@ -1,9 +1,9 @@
 #!/usr/bin/env perl
+
 use strict;
 use warnings;
 
-sub zero_array
-{
+sub zero_array {
   my %hash = map{$_ => 1} grep {$_} @{$_[0]};
   scalar %hash
 }

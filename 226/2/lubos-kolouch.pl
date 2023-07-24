@@ -2,6 +2,7 @@
 
 use strict;
 use warnings;
+
 use List::Util qw/min/;
 
 sub min_zero_operations {

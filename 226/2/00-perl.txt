@@ -1,0 +1,212 @@
+ 
+===> 226/2/adam-russell.pl <===
+3
+0
+4
+ 
+===> 226/2/adriaandens.pl <===
+Solution: 3
+Solution: 0
+Solution: 4
+ 
+===> 226/2/andreas-voegele.pl <===
+Input @ints = (1, 5, 0, 3, 5)
+Output: 3
+operation 1: pick 1 => (0, 4, 0, 2, 4)
+operation 2: pick 2 => (0, 2, 0, 0, 2)
+operation 3: pick 2 => (0, 0, 0, 0, 0)
+
+Input @ints = (0)
+Output: 0
+
+Input @ints = (2, 1, 4, 0, 3)
+Output: 4
+operation 1: pick 1 => (1, 0, 3, 0, 2)
+operation 2: pick 1 => (0, 0, 2, 0, 1)
+operation 3: pick 1 => (0, 0, 1, 0, 0)
+operation 4: pick 1 => (0, 0, 0, 0, 0)
+ 
+===> 226/2/athanasius.pl <===
+Running the test suite
+ok 1 - Example 1: min ops
+ok 2 - Example 1: picks
+ok 3 - Example 2: min ops
+ok 4 - Example 2: picks
+ok 5 - Example 3: min ops
+ok 6 - Example 3: picks
+1..6
+ 
+===> 226/2/barroff.pl <===
+# Seeded srand with seed '20230724' from local date.
+1..3
+ok 1 - works for (1, 5, 0, 3, 5)
+ok 2 - works for (0)
+ok 3 - works for (2, 1, 4, 0, 3)
+ 
+===> 226/2/bob-lied.pl <===
+# Seeded srand with seed '20230724' from local date.
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+1..3
+ 
+===> 226/2/cheok-yin-fung.pl <===
+1..3
+ok 1
+ok 2
+ok 3
+ 
+===> 226/2/dave-jacoby.pl <===
+Input:  @ints = (1,5,0,3,5)
+Output: 3
+
+Input:  @ints = (0)
+Output: 0
+
+Input:  @ints = (2,1,4,0,3)
+Output: 4
+
+ 
+===> 226/2/deadmarshal.pl <===
+3
+0
+4
+ 
+===> 226/2/e-choroba.pl <===
+1..3
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ 
+===> 226/2/jo-37.pl <===
+# Seeded srand with seed '1' from import arg.
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ok 4 - no zero
+1..4
+ 
+===> 226/2/laurent-rosenfeld.pl <===
+1 5 0 3 5  => 3
+0          => 0
+2 1 4 0 3  => 4
+ 
+===> 226/2/lubos-kolouch.pl <===
+0
+3
+0
+4
+ 
+===> 226/2/packy-anderson.pl <===
+Task 2: Zero Array
+
+Example 1
+Input: @ints = (1, 5, 0, 3, 5)
+Output: 3
+
+operation 1: pick 1 => (0, 4, 0, 2, 4)
+operation 2: pick 2 => (0, 2, 0, 0, 2)
+operation 3: pick 2 => (0, 0, 0, 0, 0)
+
+Example 2
+Input: @ints = (0)
+Output: 0
+
+Example 3
+Input: @ints = (2, 1, 4, 0, 3)
+Output: 4
+
+operation 1: pick 1 => (1, 0, 3, 0, 2)
+operation 2: pick 1 => (0, 0, 2, 0, 1)
+operation 3: pick 1 => (0, 0, 1, 0, 0)
+operation 4: pick 1 => (0, 0, 0, 0, 0)
+ 
+===> 226/2/perlboy1967.pl <===
+ok 1
+ok 2
+ok 3
+1..3
+ 
+===> 226/2/peter-campbell-smith.pl <===
+
+Input:  @ints = (1, 5, 0, 3, 5)
+Output: 3
+operation 1: pick 1 => (0, 4, 0, 2, 4)
+operation 2: pick 2 => (0, 2, 0, 0, 2)
+operation 3: pick 2 => (0, 0, 0, 0, 0)
+
+Input:  @ints = (2, 1, 4, 0, 3)
+Output: 4
+operation 1: pick 1 => (1, 0, 3, 0, 2)
+operation 2: pick 1 => (0, 0, 2, 0, 1)
+operation 3: pick 1 => (0, 0, 1, 0, 0)
+operation 4: pick 1 => (0, 0, 0, 0, 0)
+
+Input:  @ints = (0, 9, 16, 6, 11, 0, 3, 19, 15, 7, 7, 11, 2, 1, 19, 3, 11, 4, 16, 2, 12)
+Output: 12
+operation 1: pick 1 => (0, 8, 15, 5, 10, 0, 2, 18, 14, 6, 6, 10, 1, 0, 18, 2, 10, 3, 15, 1, 11)
+operation 2: pick 1 => (0, 7, 14, 4, 9, 0, 1, 17, 13, 5, 5, 9, 0, 0, 17, 1, 9, 2, 14, 0, 10)
+operation 3: pick 1 => (0, 6, 13, 3, 8, 0, 0, 16, 12, 4, 4, 8, 0, 0, 16, 0, 8, 1, 13, 0, 9)
+operation 4: pick 1 => (0, 5, 12, 2, 7, 0, 0, 15, 11, 3, 3, 7, 0, 0, 15, 0, 7, 0, 12, 0, 8)
+operation 5: pick 2 => (0, 3, 10, 0, 5, 0, 0, 13, 9, 1, 1, 5, 0, 0, 13, 0, 5, 0, 10, 0, 6)
+operation 6: pick 1 => (0, 2, 9, 0, 4, 0, 0, 12, 8, 0, 0, 4, 0, 0, 12, 0, 4, 0, 9, 0, 5)
+operation 7: pick 2 => (0, 0, 7, 0, 2, 0, 0, 10, 6, 0, 0, 2, 0, 0, 10, 0, 2, 0, 7, 0, 3)
+operation 8: pick 2 => (0, 0, 5, 0, 0, 0, 0, 8, 4, 0, 0, 0, 0, 0, 8, 0, 0, 0, 5, 0, 1)
+operation 9: pick 1 => (0, 0, 4, 0, 0, 0, 0, 7, 3, 0, 0, 0, 0, 0, 7, 0, 0, 0, 4, 0, 0)
+operation 10: pick 3 => (0, 0, 1, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 0, 4, 0, 0, 0, 1, 0, 0)
+operation 11: pick 1 => (0, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0)
+operation 12: pick 3 => (0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0)
+ 
+===> 226/2/pokgopun.pl <===
+Input: @ints = (1, 5, 0, 3, 5)
+Output: 3
+
+Input: @ints = (0)
+Output: 0
+
+Input: @ints = (2, 1, 4, 0, 3)
+Output: 4
+
+ 
+===> 226/2/polettix.pl <===
+3
+ 
+===> 226/2/robert-dicicco.pl <===
+Input: @ints = (1 5 0 3 5)
+operation 1: pick 1 (0 4 0 2 4)
+operation 2: pick 2 (0 2 0 0 2)
+operation 3: pick 2 (0 0 0 0 0)
+Output: 3
+
+Input: @ints = (0)
+Output: 0
+
+Input: @ints = (2 1 4 0 3)
+operation 1: pick 1 (1 0 3 0 2)
+operation 2: pick 1 (0 0 2 0 1)
+operation 3: pick 1 (0 0 1 0 0)
+operation 4: pick 1 (0 0 0 0 0)
+Output: 4
+
+ 
+===> 226/2/roger-bell-west.pl <===
+1..3
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ 
+===> 226/2/sgreen.pl <===
+3
+ 
+===> 226/2/steven-wilson.pl <===
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+1..3
+ 
+===> 226/2/wlmb.pl <===
+1 5 0 3 5 -> 3
+ 
+===> 226/2/zapwai.pl <===
+Input: @ints = (1,5,0,3,5)
+Output: 3

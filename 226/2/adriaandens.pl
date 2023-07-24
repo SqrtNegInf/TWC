@@ -1,13 +1,12 @@
 #!/usr/bin/env perl
+
 use strict;
 use warnings;
-
 use feature 'say';
 
 while((my $s = <DATA>)) {
 	say "Solution: " . x($s);
 }
-
 
 sub x {
 	my @ints = split /, /, shift;

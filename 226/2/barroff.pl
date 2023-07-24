@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-
-use v5.38;
+use v5.36;
 
 sub zero_array (@ints) {
     use List::Util qw( uniq );

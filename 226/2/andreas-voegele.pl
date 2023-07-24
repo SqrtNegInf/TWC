@@ -1,13 +1,5 @@
 #!/usr/bin/env perl
-
-# You are given an array of non-negative integers.  Write a script to return
-# the minimum number of operations to make every element equal zero.  In each
-# operation, you are required to pick a positive number less than or equal to
-# the smallest element in the array, then subtract that from each positive
-# element in the array.
-
-use 5.036;
-use utf8;
+use v5.36;
 
 use List::Util qw(min uniq);
 

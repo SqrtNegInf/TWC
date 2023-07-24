@@ -1,12 +1,6 @@
 #!/usr/bin/env perl
-=begin comment
---------------------------------------
-AUTHOR: Robert DiCicco
-DATE  : 2023-07-20
-Challenge 226 Task 2 Zero Array ( Perl )
---------------------------------------
-=cut
-use v5.38;
+use v5.36;
+
 use strict;
 use warnings;
 

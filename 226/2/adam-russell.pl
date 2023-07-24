@@ -1,10 +1,6 @@
 #!/usr/bin/env perl
-use v5.38;
-##
-# You are given an array of non-negative integers, @ints.
-# Write a script to return the minimum number of operations to make every element equal 
-# zero.
-##
+use v5.36;
+
 sub zero_array{
     my $operations = 0;
     do{
