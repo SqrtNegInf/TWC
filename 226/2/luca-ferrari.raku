@@ -1,13 +1,7 @@
 #!/usr/bin/env raku
 
-#
-# Perl Weekly Challenge 226
-# Task 2
-#
-# See <https://perlweeklychallenge.org/blog/perl-weekly-challenge-226/>
-#
-
-sub MAIN( *@numbers is copy where { @numbers.grep( * ~~ Int && * >= 0 ).elems == @numbers.elems } ) {
+#sub MAIN( *@numbers is copy where { @numbers.grep( * ~~ Int && * >= 0 ).elems == @numbers.elems } ) {
+    my @numbers = (1, 5, 0, 3, 5);
     my $moves;
 
     while ( @numbers.grep( * == 0 ).elems != @numbers.elems ) {
@@ -20,4 +14,4 @@ sub MAIN( *@numbers is copy where { @numbers.grep( * ~~ Int && * >= 0 ).elems ==
     }
 
     $moves.say;
-}
+#}

@@ -1,7 +1,6 @@
 #!/usr/bin/env raku
 
-sub zero-array(@arr)
-{
+sub zero-array(@arr) {
   my %hash = @arr.grep(* > 0).map({$_ => 1});
   %hash.elems
 }

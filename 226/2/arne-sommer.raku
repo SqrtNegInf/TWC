@@ -1,5 +1,3 @@
 #!/usr/bin/env raku
 
-unit sub MAIN (*@ints where all(@ints) ~~ UInt);
-
-say @ints.grep( * > 0).unique.elems;
+say (1, 5, 0, 3, 5).grep( * > 0).unique.elems;

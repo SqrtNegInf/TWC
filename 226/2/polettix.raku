@@ -1,3 +1,3 @@
 #!/usr/bin/env raku
-use v6;
-sub MAIN (*@ints) { put @ints.unique.grep({$_}).elems }
+
+sub MAIN (@ints = (1, 5, 0, 3, 5)) { put @ints.unique.grep({$_}).elems }

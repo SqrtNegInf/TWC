@@ -1,7 +1,7 @@
 #!/usr/bin/env raku
 
 sub MAIN(
-    *@ints
+    @ints = [1, 5, 0, 3, 5]
 ) {
     my $ops = 0;
 

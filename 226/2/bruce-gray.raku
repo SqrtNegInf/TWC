@@ -1,4 +1,5 @@
 #!/usr/bin/env raku
+
 sub task2 ( Int @ns --> UInt ) {
     my @n = @ns.grep(* != 0).sort.squish;
     # Below this point, @n stays in sorted order,
