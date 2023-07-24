@@ -1,4 +1,5 @@
 #!/usr/bin/env raku
+
 sub task1 ( Str $s, Int @is --> Str ) {
     die "Bad @is: @is[]" unless @is.Bag eqv (^$s.chars).Bag;
 
@@ -22,6 +23,7 @@ my @tests =
     ( 'challenge' , 'lacelengh' , (3,2,0,5,4,8,6,7,1) ),
     ( 'perlraku'  , 'rulepark'  , (4,7,3,1,0,5,2,6)   ),
 ;
+
 use Test;
 plan +@tests;
 for @tests -> ( $expected, $in_str, @in_dexes ) {

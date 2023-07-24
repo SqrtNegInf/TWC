@@ -1,4 +1,5 @@
 #!/usr/bin/env raku
+
 sub shuffle-string ($string, @indice) {
     my @index;
     @index[@indice[$_]]= $_ for 0..@indice.end;

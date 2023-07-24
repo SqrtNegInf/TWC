@@ -1,7 +1,6 @@
 #!/usr/bin/env raku
 
-sub shuffle-string($str,@arr)
-{
+sub shuffle-string($str,@arr) {
   my @ret;
   [0..@arr.end].map({@ret[@arr[$_]] = substr $str,$_,1});
   @ret.join

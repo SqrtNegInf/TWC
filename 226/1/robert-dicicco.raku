@@ -1,12 +1,4 @@
 #!/usr/bin/env raku
-=begin comment
---------------------------------------
-AUTHOR: Robert DiCicco
-DATE  : 2023-07-17
-Challenge 226 Task 1 Shuffle String ( Raku )
---------------------------------------
-=end comment
-use v6;
 
 my @strings = ('lacelengh', 'rulepark');
 my @indices = ([3,2,0,5,4,8,6,7,1],[4,7,3,1,0,5,2,6]);
@@ -31,18 +23,3 @@ for ( @strings) -> $str {
     print("\n\n");
     ($offset == @indices.elems) ?? (exit) !! ($offset++);
 }
-
-=begin comment
---------------------------------------
-SAMPLE OUTPUT
-raku ShuffleString.rk
-
-Input: $string = lacelengh, @indices = (3 2 0 5 4 8 6 7 1)
-Output: challenge
-
-Input: $string = rulepark, @indices = (4 7 3 1 0 5 2 6)
-Output: perlraku
---------------------------------------
-=end comment
-
-

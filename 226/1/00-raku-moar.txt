@@ -1,0 +1,82 @@
+ 
+===> 226/1/0rir.raku <===
+1..2
+ok 1 - challenge <- lacelengh [ 3 2 0 5 4 8 6 7 1 ]
+ok 2 - perlraku <- rulepark [ 4 7 3 1 0 5 2 6 ]
+
+Input: $string = 'lacelengh', @indices = (3,2,0,5,4,8,6,7,1)
+Output: 'challenge'
+ 
+===> 226/1/arne-sommer.raku <===
+challenge
+ 
+===> 226/1/athanasius.raku <===
+Running the test suite
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Wikipedia 1
+ok 4 - Wikipedia 2
+1..4
+ 
+===> 226/1/barroff.raku <===
+1..2
+ok 1 - works for "lacelengh"
+ok 2 - works for "rulepark"
+ 
+===> 226/1/bruce-gray.raku <===
+1..2
+ok 1 - 
+ok 2 - 
+ 
+===> 226/1/deadmarshal.raku <===
+challenge
+perlraku
+ 
+===> 226/1/jaldhar-h-vyas.raku <===
+challenge
+ 
+===> 226/1/laurent-rosenfeld.raku <===
+lacelengh  - 3 2 0 5 4 8 6 7 1    => challenge
+rulepark   - 4 7 3 1 0 5 2 6      => perlraku
+ 
+===> 226/1/luca-ferrari.raku <===
+challenge
+ 
+===> 226/1/mark-anderson.raku <===
+ok 1 - 
+ok 2 - 
+ 
+===> 226/1/packy-anderson.raku <===
+Task 1: Shuffle String
+
+Example 1
+Input: $string = 'lacelengh', @indices = (3,2,0,5,4,8,6,7,1)
+Output: 'challenge'
+
+Example 2
+Input: $string = 'rulepark', @indices = (4,7,3,1,0,5,2,6)
+Output: 'perlraku'
+ 
+===> 226/1/polettix.raku <===
+eclelhnga
+ 
+===> 226/1/robert-dicicco.raku <===
+Input: $string = lacelengh, @indices = (3 2 0 5 4 8 6 7 1)
+Output: challenge
+
+Input: $string = rulepark, @indices = (4 7 3 1 0 5 2 6)
+Output: perlraku
+
+ 
+===> 226/1/roger-bell-west.raku <===
+1..2
+ok 1 - example 1
+ok 2 - example 2
+ 
+===> 226/1/ulrich-rieke.raku <===
+challenge
+ 
+===> 226/1/wambash.raku <===
+ok 1 - 
+ok 2 - 
+1..2

@@ -1,4 +1,5 @@
 #!/usr/bin/env raku
+
 use Test;
 
 is shuffle-string('lacelengh', [3,2,0,5,4,8,6,7,1]), 'challenge';
