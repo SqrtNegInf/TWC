@@ -44,10 +44,10 @@ Output: 'perlraku'
  
 ===> 226/1/e-choroba.pl <===
 1..4
-ok 1 - Example 1 - substr
-ok 2 - Example 2 - substr
-ok 3 - Example 1 - hash
-ok 4 - Example 2 - hash
+ok 1 - Example 1 - hash
+ok 2 - Example 2 - hash
+ok 3 - Example 1 - substr
+ok 4 - Example 2 - substr
  
 ===> 226/1/jo-37.pl <===
 # Seeded srand with seed '1' from import arg.

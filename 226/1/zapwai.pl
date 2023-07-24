@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-
-use feature 'say';
+use v5.36;
 
 my $string = 'lacelengh';
 my @indices = (3,2,0,5,4,8,6,7,1);

@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-use experimental qw( signatures );
+use v5.36;
 
 sub shuffle_string_substr($string, @indices) {
     my $r = ' ' x @indices;

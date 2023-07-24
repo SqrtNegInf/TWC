@@ -1,10 +1,9 @@
 #!/usr/bin/env perl
-
-use common::sense;
+use v5.36;
 
 use Test::More;
 
-sub shuffleString ($@) {
+sub shuffleString {
   my ($i,@c) = (0, split //, shift);
   my @o; map {$o[$_] = $c[$i++]} @_;
   return join '', @o;
