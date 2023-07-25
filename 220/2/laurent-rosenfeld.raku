@@ -11,7 +11,7 @@ sub find-squareful (@in) {
     for @in.permutations -> $perm {
         $result{"($perm)"}++ if is-squareful $perm;
     }
-    return join ", ", $result.keys;
+    return join ", ", $result.keys.sort;
 }
 #for <1 17 8>, <17 1 8>, <2 2 2> -> @test {
 for <1 17 8>, <2 2 2> -> @test {
