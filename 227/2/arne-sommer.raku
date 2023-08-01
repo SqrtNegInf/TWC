@@ -1,10 +1,10 @@
 #!/usr/bin/env raku
 
-use lib "lib";
+use lib ".";
 
 use Number::Roman :to, :from;
 
-unit sub MAIN (Str $first, Str $operator, Str $second);
+unit sub MAIN (Str $first = 'IV', Str $operator = '+', Str $second = 'V');
 
 my $f = from-roman($first);
 my $s = from-roman($second);

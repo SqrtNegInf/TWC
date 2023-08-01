@@ -1,12 +1,5 @@
 #!/usr/bin/env raku
 
-#
-# Perl Weekly Challenge 227
-# Task 2
-#
-# See <https://perlweeklychallenge.org/blog/perl-weekly-challenge-227/>
-#
-
 sub rom-to-num($r) {
     [+] gather $r.uc ~~ /
         ^
@@ -57,7 +50,7 @@ sub arabic-to-roman( $number ) {
 
 }
 
-sub MAIN( *@s where { @s.elems == 3 } ) {
+sub MAIN( @s where { @s.elems == 3 } = ('IV', '+', 'V') ) {
 
     my @operands = rom-to-num( @s[ 0 ] ), rom-to-num( @s[ 2 ] );
     my $result;

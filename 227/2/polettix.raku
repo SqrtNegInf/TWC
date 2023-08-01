@@ -1,6 +1,8 @@
 #!/usr/bin/env raku
-use v6;
-sub MAIN (*@expressions) { put($_, ' => ', roman-maths($_)) for @expressions }
+
+#sub MAIN (@expressions = ('IV', '+', 'V') ) { put($_, ' => ', roman-maths($_)) for @expressions }
+
+say roman-maths('IV + V');
 
 sub roman-maths ($expression) {
    my $match = $expression ~~ /

@@ -1,5 +1,4 @@
 #!/usr/bin/env raku
-use v6d;
 
 ################################################################################
 =begin comment
@@ -58,13 +57,6 @@ my UInt constant $MAX-ROM-NUM  =  3999;
 my      constant @OPERATORS    =  Array[Str].new: < + - * / ** >;
 my Str  constant $ROM-NUM-ZERO = 'nulla';        # Latin "no", Italian "nothing"
 my Str  constant $UNDEFINED    = 'non potest';   # Latin "can not"
-
-#-------------------------------------------------------------------------------
-BEGIN
-#-------------------------------------------------------------------------------
-{
-    "\nChallenge 227, Task #2: Roman Maths (Raku)\n".put;
-}
 
 #===============================================================================
 multi sub MAIN

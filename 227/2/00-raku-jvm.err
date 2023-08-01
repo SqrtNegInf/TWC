@@ -1,0 +1,60 @@
+[31m===[0mSORRY![31m===[0m Error while compiling /Users/dhoekman/PWC/227/2/0rir.raku
+Could not find Math::Roman in:
+    /Users/dhoekman/PWC/227/2/lib
+    /Users/dhoekman/.raku
+    /Users/dhoekman/.rakubrew/versions/jvm-2022.12/install/share/perl6/site
+    /Users/dhoekman/.rakubrew/versions/jvm-2022.12/install/share/perl6/vendor
+    /Users/dhoekman/.rakubrew/versions/jvm-2022.12/install/share/perl6/core
+    CompUnit::Repository::AbsolutePath<1970817830>
+    CompUnit::Repository::NQP<633009620>
+    CompUnit::Repository::Perl5<242168990>
+    CompUnit::Repository::JavaRuntime<1836191105>
+at /Users/dhoekman/PWC/227/2/0rir.raku:9
+[31m===[0mSORRY![31m===[0m Error while compiling /Users/dhoekman/PWC/227/2/athanasius.raku
+Could not find Math::Roman in:
+    /Users/dhoekman/PWC/227/2/lib
+    /Users/dhoekman/.raku
+    /Users/dhoekman/.rakubrew/versions/jvm-2022.12/install/share/perl6/site
+    /Users/dhoekman/.rakubrew/versions/jvm-2022.12/install/share/perl6/vendor
+    /Users/dhoekman/.rakubrew/versions/jvm-2022.12/install/share/perl6/core
+    CompUnit::Repository::AbsolutePath<2097100912>
+    CompUnit::Repository::NQP<333546227>
+    CompUnit::Repository::Perl5<198574220>
+    CompUnit::Repository::JavaRuntime<1300377787>
+at /Users/dhoekman/PWC/227/2/athanasius.raku:53
+[31m===[0mSORRY![31m===[0m Error while compiling /Users/dhoekman/PWC/227/2/bruce-gray.raku
+Could not find Int::polydiv in:
+    /Users/dhoekman/PWC/227/2/lib
+    /Users/dhoekman/.raku
+    /Users/dhoekman/.rakubrew/versions/jvm-2022.12/install/share/perl6/site
+    /Users/dhoekman/.rakubrew/versions/jvm-2022.12/install/share/perl6/vendor
+    /Users/dhoekman/.rakubrew/versions/jvm-2022.12/install/share/perl6/core
+    CompUnit::Repository::AbsolutePath<394532173>
+    CompUnit::Repository::NQP<1192955793>
+    CompUnit::Repository::Perl5<484711243>
+    CompUnit::Repository::JavaRuntime<425129866>
+at /Users/dhoekman/PWC/227/2/bruce-gray.raku:8
+[31m===[0mSORRY![31m===[0m Error while compiling /Users/dhoekman/PWC/227/2/packy-anderson.raku
+Could not find Math::Roman in:
+    /Users/dhoekman/PWC/227/2/lib
+    /Users/dhoekman/.raku
+    /Users/dhoekman/.rakubrew/versions/jvm-2022.12/install/share/perl6/site
+    /Users/dhoekman/.rakubrew/versions/jvm-2022.12/install/share/perl6/vendor
+    /Users/dhoekman/.rakubrew/versions/jvm-2022.12/install/share/perl6/core
+    CompUnit::Repository::AbsolutePath<394532173>
+    CompUnit::Repository::NQP<1192955793>
+    CompUnit::Repository::Perl5<484711243>
+    CompUnit::Repository::JavaRuntime<425129866>
+at /Users/dhoekman/PWC/227/2/packy-anderson.raku:3
+[31m===[0mSORRY![31m===[0m Error while compiling /Users/dhoekman/PWC/227/2/robert-dicicco.raku
+Could not find Math::Roman in:
+    /Users/dhoekman/PWC/227/2/lib
+    /Users/dhoekman/.raku
+    /Users/dhoekman/.rakubrew/versions/jvm-2022.12/install/share/perl6/site
+    /Users/dhoekman/.rakubrew/versions/jvm-2022.12/install/share/perl6/vendor
+    /Users/dhoekman/.rakubrew/versions/jvm-2022.12/install/share/perl6/core
+    CompUnit::Repository::AbsolutePath<394532173>
+    CompUnit::Repository::NQP<1192955793>
+    CompUnit::Repository::Perl5<484711243>
+    CompUnit::Repository::JavaRuntime<425129866>
+at /Users/dhoekman/PWC/227/2/robert-dicicco.raku:3

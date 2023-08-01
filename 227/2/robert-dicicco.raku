@@ -1,22 +1,10 @@
 #!/usr/bin/env raku
-=begin comment
---------------------------------------
-AUTHOR: Robert DiCicco
-DATE  : 2023-07-25
-Challenge 227 Task 2 Roman Maths ( Raku )
---------------------------------------
-=end comment
-use v6;
+
 use Math::Roman;
 
 my ($left,$right, $op);
 
-if @*ARGS == 0 {
-   say "Please enter a math problem using Roman numerals";
-   exit(1);
-}
-
-for @*ARGS -> $problem {
+for 'IV + V' -> $problem {
     my @parts = $problem.split(" ");
     $left = @parts[0];
     $op = @parts[1];

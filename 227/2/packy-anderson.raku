@@ -1,4 +1,5 @@
 #!/usr/bin/env raku
+
 use Math::Roman; # it's v0.0.1, but usable
 
 sub isroman ( $var ) {
@@ -101,6 +102,6 @@ sub do_arithmetic (Str $line) {
 }
 
 # while we have input on STDIN, process the calculations
-for $*IN.lines -> $line {
-  do_arithmetic($line);
-}
+#for $*IN.lines -> $line {
+  do_arithmetic('IV + V');
+#}

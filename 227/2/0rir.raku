@@ -1,6 +1,5 @@
 #!/usr/bin/env raku
-# :vim ft=raku sw=4 expandtab  # 🦋 ∅∪∩∋∈∉ ≡ ≢ «␤ » ∴
-use v6.d;
+
 use Test;
 
 constant \ROMAN-ZERO-MARKER = 'z';

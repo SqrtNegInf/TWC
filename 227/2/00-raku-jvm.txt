@@ -1,0 +1,80 @@
+ 
+===> 227/2/0rir.raku <===
+ 
+===> 227/2/arne-sommer.raku <===
+IX
+ 
+===> 227/2/ash.raku <===
+IV + V => (9) IX
+M - I => (999) CMXCIX
+X / II => (5) V
+XI * VI => (66) LXVI
+VII ** III => (343) CCCXLIII
+V - V => (0) nulla (they knew about zero but didn't have a symbol)
+V / II => (2.5) non potest (they didn't do fractions)
+MMM + M => (4000) non potest (they only went up to 3999)
+V - X => (-5) non potest (they didn't do negative numbers)
+ 
+===> 227/2/athanasius.raku <===
+ 
+===> 227/2/bruce-gray.raku <===
+ 
+===> 227/2/jaldhar-h-vyas.raku <===
+IX
+ 
+===> 227/2/laurent-rosenfeld.raku <===
+IV + V     => IX
+M - I      => CMXCIX
+X / II     => V
+XI * VI    => LXVI
+VII ** III => CCCXLIII
+V - V      => nulla (they didn't have a symbol for 0)
+V / II     => non potest (they didn't do fractions)
+MMM + M    => non potest (they only went up to 3999)
+V - X      => non potest (no negative numbers)
+X - V      => V
+ 
+===> 227/2/luca-ferrari.raku <===
+IX
+ 
+===> 227/2/mark-anderson.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ok 4 - 
+ok 5 - 
+ok 6 - 
+ok 7 - 
+ok 8 - 
+ok 9 - 
+ 
+===> 227/2/packy-anderson.raku <===
+ 
+===> 227/2/polettix.raku <===
+IX
+ 
+===> 227/2/robert-dicicco.raku <===
+ 
+===> 227/2/roger-bell-west.raku <===
+1..21
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ok 4 - example 4
+ok 5 - example 5
+ok 6 - example 6
+ok 7 - example 7
+ok 8 - example 8
+ok 9 - example 9
+ok 10 - example 10
+ok 11 - example 11
+ok 12 - example 12
+ok 13 - example 13
+ok 14 - example 14
+ok 15 - example 15
+ok 16 - example 16
+ok 17 - example 17
+ok 18 - example 18
+ok 19 - example 19
+ok 20 - example 20
+ok 21 - example 21

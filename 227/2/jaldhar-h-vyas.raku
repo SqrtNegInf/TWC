@@ -82,9 +82,9 @@ sub toRoman($num is copy) {
 }
 
 sub MAIN(
-    Str $arg1, #= Number in Roman numerals
-    Str $op,   #= Arithmetic operation (+, -, *, / or **)
-    Str $arg2, #= Number in Roman numerals
+    Str $arg1 = 'IV', #= Number in Roman numerals
+    Str $op = '+',   #= Arithmetic operation (+, -, *, / or **)
+    Str $arg2 = 'V', #= Number in Roman numerals
 ) {
     my $val;
     my $eng1 = toEnglish($arg1);
