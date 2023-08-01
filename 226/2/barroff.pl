@@ -14,12 +14,11 @@ sub MAIN() {
     }
     else {
         #| Run test cases
-        use Test2::V0 qw( is plan );
-        plan 3;
-
+        use Test::More;
         is zero_array( 1, 5, 0, 3, 5 ), 3, 'works for (1, 5, 0, 3, 5)';
         is zero_array(0),               0, 'works for (0)';
         is zero_array( 2, 1, 4, 0, 3 ), 4, 'works for (2, 1, 4, 0, 3)';
+        done_testing;
     }
 }
 
