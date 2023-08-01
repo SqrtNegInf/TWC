@@ -18,4 +18,4 @@ sub main ($year) {
     say $fridays;
 }
 
-main(@ARGV);
+main(2023);

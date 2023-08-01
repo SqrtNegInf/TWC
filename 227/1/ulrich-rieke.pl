@@ -2,11 +2,10 @@
 use strict ;
 use warnings ;
 use feature 'say' ;
+
 use DateTime ;
 
-say "Please enter a year from 1853 to 9999!" ;
-my $year = <STDIN> ;
-chomp $year ;
+my $year = 2023;
 my $sum = 0 ;
 for my $m (1..12) {
    my $dt = DateTime->new(

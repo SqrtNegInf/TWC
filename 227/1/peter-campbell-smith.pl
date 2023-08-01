@@ -1,9 +1,8 @@
 #!/usr/bin/env perl
+use v5.16;
 
-use v5.16;    # The Weekly Challenge - 2023-07-24
-use utf8;     # Week 227 task 1 - Friday 13th
-use strict;   # Peter Campbell Smith
-use warnings; # Blog: http://ccgi.campbellsmiths.force9.co.uk/challenge
+use strict;
+use warnings;
 
 friday_13th(2023);
 friday_13th(1945);

@@ -1,6 +1,8 @@
 #!/usr/bin/env perl
 use v5.30.0;
+
 use warnings;
+
 use List::Util qw/reductions/;
 
 sub is_leap_year {

@@ -1,13 +1,12 @@
 #!/usr/bin/env perl
-use v5.38;
+use v5.36;
 
 # let's use the core modules for date manipulation
 use Time::Piece;
 use Time::Seconds qw( ONE_DAY );
 
 # get the year from the command line
-my $year = shift @ARGV
-  or die "usage: $0 year\n";
+my $year = 2023;
 
 # do bounds checking as specified in the problem
 if ($year < 1753 || $year > 9999) {

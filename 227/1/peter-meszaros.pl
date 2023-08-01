@@ -2,9 +2,9 @@
 
 use strict;
 use warnings;
+
 use Date::Calc qw/Day_of_Week/;
 use Test::More;
-#use Data::Dumper;
 
 my $cases = [
 	1753,
@@ -27,5 +27,3 @@ is(friday13th($cases->[0]),    2, 'year 1753');
 is(friday13th($cases->[1]),    2, 'year 2023');
 is(friday13th($cases->[2]),    1, 'year 9999');
 done_testing();
-
-exit 0;

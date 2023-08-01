@@ -1,13 +1,7 @@
 #!/usr/bin/env perl
 use v5.36;
+
 use DateTime;
-
-# Challenge 227 - 1 - Friday 13th
-# You are given a year number in the range 1753 to 9999.
-# Write a script to find out how many dates in the year are Friday 13th, assume that the current Gregorian calendar applies.
-
-
-
 
 friday(1947);
 friday(2023);

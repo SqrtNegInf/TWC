@@ -1,9 +1,10 @@
 #!/usr/bin/env perl
 use v5.24;
+
 use warnings;
 use experimental 'signatures';
 
-say $_, ' ', friday_13th($_) for @ARGV;
+say $_, ' ', friday_13th($_) for 2023, 2026;
 
 sub friday_13th ($year) {
    return scalar grep { dow($year, $_, 13) == 5 } 1 .. 12;
