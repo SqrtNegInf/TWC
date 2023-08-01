@@ -1,4 +1,5 @@
 #!/usr/bin/env raku
+
 enum DayNames «:Monday(1) Tuesday Wednesday Thursday Friday Saturday Sunday»;
 
 sub task1 ( UInt $year where 1753..9999 --> UInt ) {

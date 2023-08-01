@@ -7,12 +7,10 @@ sub friday-thirteenth ($year) {
     andthen .elems
 }
 
-multi MAIN (Bool :test($)!) {
+#multi MAIN (Bool :test($)!) {
     use Test;
     is friday-thirteenth(2023), 2;
     done-testing;
-}
+#}
 
-multi MAIN ($year) {
-    say friday-thirteenth $year
-}
+#multi MAIN ($year) { say friday-thirteenth $year }

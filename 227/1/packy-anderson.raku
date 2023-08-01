@@ -1,6 +1,6 @@
 #!/usr/bin/env raku
 
-sub MAIN($year) {
+sub MAIN($year = 2023) {
   # do bounds checking as specified in the problem
   if ($year < 1753 || $year > 9999) {
     say "Only years between 1753 to 9999 are allowed ($year is out of range)";

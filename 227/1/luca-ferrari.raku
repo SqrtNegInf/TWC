@@ -1,13 +1,6 @@
 #!/usr/bin/env raku
 
-#
-# Perl Weekly Challenge 227
-# Task 1
-#
-# See <https://perlweeklychallenge.org/blog/perl-weekly-challenge-227/>
-#
-
-sub MAIN( Int $year where { 1753 <= $year <= 9999 }, Bool :$verbose = True ) {
+sub MAIN( Int $year where { 1753 <= $year <= 9999 } = 2023, Bool :$verbose = True ) {
     my @fridays;
     for 1 .. 12 -> $month {
 	my $day = Date.new( year => $year, day => 13, month => $month );

@@ -1,0 +1,89 @@
+ 
+===> 227/1/0rir.raku <===
+Input: $year = 2026
+ Output: 3
+ 
+===> 227/1/arne-sommer.raku <===
+3
+ 
+===> 227/1/ash.raku <===
+There are 2 Fridays the 13th in 2023:
+01-13-2023
+10-13-2023
+ 
+===> 227/1/athanasius.raku <===
+Running the test suite
+ok 1 - Example: count
+ok 2 - Example: months
+ok 3 - Wikipedia 1: count
+ok 4 - Wikipedia 1: months
+ok 5 - Wikipedia 2: count
+ok 6 - Wikipedia 2: months
+ok 7 - Wikipedia 3: count
+ok 8 - Wikipedia 3: months
+ok 9 - Wikipedia 4: count
+ok 10 - Wikipedia 4: months
+1..10
+ 
+===> 227/1/barroff.raku <===
+1..1
+ok 1 - works for 2023
+ 
+===> 227/1/bruce-gray.raku <===
+1..4
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ok 4 - 
+ 
+===> 227/1/jaldhar-h-vyas.raku <===
+2
+ 
+===> 227/1/laurent-rosenfeld.raku <===
+1753 => 2
+2023 => 2
+2024 => 2
+2025 => 1
+2026 => 3
+2027 => 1
+2028 => 1
+2029 => 2
+2030 => 2
+9998 => 3
+ 
+===> 227/1/luca-ferrari.raku <===
+2
+2023-01-13, 2023-10-13
+ 
+===> 227/1/mark-anderson.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ok 4 - 
+ 
+===> 227/1/packy-anderson.raku <===
+Input: $year = 2023
+Output: 2
+ 
+===> 227/1/polettix.raku <===
+2023 2
+2026 3
+ 
+===> 227/1/robert-dicicco.raku <===
+2026 2 13 : was a Friday
+2026 3 13 : was a Friday
+2026 11 13 : was a Friday
+ 
+===> 227/1/roger-bell-west.raku <===
+1..1
+ok 1 - example 1
+ 
+===> 227/1/simon-proctor.raku <===
+2
+ 
+===> 227/1/ulrich-rieke.raku <===
+There are 2 Friday 13th in 2023!
+ 
+===> 227/1/wambash.raku <===
+ok 1 - 
+1..1

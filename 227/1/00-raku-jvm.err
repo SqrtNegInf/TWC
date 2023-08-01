@@ -1,0 +1,7 @@
+[31m===[0mSORRY![31m===[0m Error while compiling /Users/dhoekman/PWC/227/1/athanasius.raku
+Package 'Date::Names' is insufficiently type-like to qualify a
+variable.  Did you mean 'class'?
+at /Users/dhoekman/PWC/227/1/athanasius.raku:93
+------> [32m    my Date::Names $dn[33m⏏[31m = Date::Names.new: :lang< en >, :mset< [0m
+    expecting any of:
+        constraint

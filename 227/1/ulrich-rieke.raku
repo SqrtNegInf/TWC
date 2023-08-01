@@ -1,8 +1,5 @@
 #!/usr/bin/env raku
-use v6 ;
-
-say "Enter a year, best between 1853 and 9999!" ;
-my $year = $*IN.get ;
+my $year = 2023;
 my $sum = 0 ;
 for (1..12) -> $month {
    my $d = Date.new( $year , $month , 13 ) ;

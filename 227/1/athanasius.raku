@@ -1,5 +1,4 @@
 #!/usr/bin/env raku
-use v6d;
 
 ################################################################################
 =begin comment
@@ -58,13 +57,6 @@ my UInt constant $FRIDAY  = 5;    # Date::day-of-week() outputs 1-7, Monday is 1
 my UInt constant $MIN     = 1753;
 my UInt constant $MAX     = 9999;
 my Bool constant $VERBOSE = True;
-
-#-------------------------------------------------------------------------------
-BEGIN
-#-------------------------------------------------------------------------------
-{
-    "\nChallenge 227, Task #1: Friday 13th (Raku)\n".put;
-}
 
 #===============================================================================
 multi sub MAIN
