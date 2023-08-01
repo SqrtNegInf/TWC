@@ -16,7 +16,7 @@ sub shuffle_string_hash($string, @indices) {
 use Test::More tests => 2 * 2;
 my %implementation = (substr => *shuffle_string_substr{CODE},
                       hash   => *shuffle_string_hash{CODE});
-for my $shuffle_string (keys %implementation) {
+for my $shuffle_string (sort keys %implementation) {
     is $implementation{$shuffle_string}
             ->(lacelengh => 3, 2, 0, 5, 4, 8, 6, 7, 1),
         'challenge',
