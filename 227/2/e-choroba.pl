@@ -1,9 +1,11 @@
 #!/usr/bin/env perl
+
 use warnings;
 use strict;
 use experimental qw( signatures );
 
-use lib '../../../challenge-047/e-choroba/perl';
+#use lib '../../../challenge-047/e-choroba/perl';
+use lib '.';
 use MyRoman qw{ from_roman to_roman };
 
 use constant {

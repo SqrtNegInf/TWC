@@ -1,9 +1,8 @@
 #!/usr/bin/env perl
+use v5.16;
 
-use v5.16;    # The Weekly Challenge - 2023-07-24
-use utf8;     # Week 227 task 2 - Roman maths
-use strict;   # Peter Campbell Smith
-use warnings; # Blog: http://ccgi.campbellsmiths.force9.co.uk/challenge
+use strict;
+use warnings;
 
 roman_maths('IV + V');
 roman_maths('M - I');

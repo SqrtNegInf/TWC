@@ -1,9 +1,11 @@
 #!/usr/bin/env perl
 use v5.24;
+
 use warnings;
 use experimental 'signatures';
 
-say $_, ' => ', roman_maths($_) for @ARGV;
+#say $_, ' => ', roman_maths($_) for @ARGV;
+say roman_maths('IV + V');
 
 sub roman_maths ($expression) {
    my ($first, $op, $second) = $expression =~ m{

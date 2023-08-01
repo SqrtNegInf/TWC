@@ -1,5 +1,7 @@
 #!/usr/bin/env perl
 
+use feature 'say';
+
 use Math::Roman qw(roman);
 
 sub roman_maths {
@@ -27,13 +29,13 @@ sub roman_maths {
 }
 
 
-print 'IV+V: ' . &roman_maths('IV+V');
-print 'M-I: ' . &roman_maths('M-I');
-print 'X/II: ' . &roman_maths('X/II');
-print 'XI*VI: ' . &roman_maths('XI*VI');
-print 'VII**III: ' . &roman_maths('VII**III');
-print 'V-V: ' . &roman_maths('V-V');
-print 'V/II: ' . &roman_maths('V/II');
-print 'MMM+M: ' . &roman_maths('MMM+M');
-print 'V-X: ' . &roman_maths('V-X');
+say 'IV+V: ' . &roman_maths('IV+V');
+say 'M-I: ' . &roman_maths('M-I');
+say 'X/II: ' . &roman_maths('X/II');
+say 'XI*VI: ' . &roman_maths('XI*VI');
+say 'VII**III: ' . &roman_maths('VII**III');
+say 'V-V: ' . &roman_maths('V-V');
+say 'V/II: ' . &roman_maths('V/II');
+say 'MMM+M: ' . &roman_maths('MMM+M');
+say 'V-X: ' . &roman_maths('V-X');
 

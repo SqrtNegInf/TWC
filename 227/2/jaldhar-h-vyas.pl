@@ -1,20 +1,8 @@
 #!/usr/bin/env perl
 use 5.030;
+
 use warnings;
 use experimental qw/ switch /;
-use English;
-
-sub usage {
-print STDERR <<"-END-";
-Usage:
-  $PROGRAM_NAME <arg1> <op> <arg2>
-  
-    <arg1>    Number in Roman numerals
-    <op>      Arithmetic operation (+, -, *, / or **)
-    <arg2>    Number in Roman numerals
--END-
-    exit(1);
-}
 
 sub unprefix {
     my ($num) = @_;
@@ -101,11 +89,7 @@ sub toRoman {
 }
 
 
-if (scalar @ARGV != 3) {
-    usage();
-}
-
-my ($arg1, $op, $arg2) = @ARGV;
+my ($arg1, $op, $arg2) = ('IV', '+', 'V');
 
 my $val;
 my $eng1 = toEnglish($arg1);
@@ -117,7 +101,6 @@ given ($op) {
     when ('*')  { $val = $eng1 * $eng2; }
     when ('/')  { $val = $eng1 / $eng2; }
     when ('**') { $val = $eng1 ** $eng2; }
-    default     {  usage; }
 }
 
 given ($val) {

@@ -1,22 +1,16 @@
 #!/usr/bin/env perl
-# Perl weekly challenge 227
-# Task 2:  Roman Maths
-#
-# See https://wlmb.github.io/2023/07/24/PWC227/#task-2-roman-maths
 use v5.36;
+
 use experimental qw(try);
+
 use POSIX qw(floor);
 use List::Util qw(sum);
+
 my %ops=   # generate code for several binary operators
     map{$_ => eval "sub(\$x, \$y){\$x $_ \$y}"}
     qw(+ - * / ** %);
 
-die <<~"FIN" unless @ARGV;
-    Usage: $0 "x1 op1 y1" ["x2 op2 y2"...]
-    to perform operations op_n between pairs numbers x_n and y_n expressed
-    in Roman numerals.
-    FIN
-for(@ARGV){
+for( 'IV + V' ){
     try{say "$_ ->", evaluate($_)}
     catch($e){say "$_ failed: $e"}
 }

@@ -2,6 +2,7 @@
 use strict ; 
 use warnings ;
 use feature 'say' ;
+
 use POSIX ;
 
 sub romanToArab {
@@ -103,9 +104,8 @@ my %arab_To_Roman ;
 while ( my ( $key , $value ) = each( %roman_To_Arab ) ) {
    $arab_To_Roman{ $value } = $key ;
 }
-say "Enter a 2 - term string in Roman numerals!" ;
-my $line = <STDIN> ;
-chomp $line ;
+
+my $line = 'IV + V';
 my $result ;
 my ( $firstExpr , $operator , $secondExpr ) = split( /\s/ , $line ) ;
 my $firstTerm = romanToArab( $firstExpr, \%roman_To_Arab ) ;

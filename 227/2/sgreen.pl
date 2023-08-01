@@ -80,4 +80,4 @@ sub main($roman1, $oper, $roman2) {
     say to_roman($number);
 }
 
-main(@ARGV);
+main( ('IV', '+', 'V') );

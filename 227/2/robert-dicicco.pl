@@ -1,17 +1,11 @@
 #!/usr/bin/env perl
-=begin comment
---------------------------------------
-AUTHOR: Robert DiCicco
-DATE  : 2023-07-25
-Challenge 227 Task 2 Roman Maths ( Perl )
---------------------------------------
-=cut
+
 use strict;
 use warnings;
-use v5.38;
+
 use Math::Roman qw/tokens roman /;
 
-my $problem = $ARGV[0];
+my $problem = 'IV + V';
 
 my @parts = split(" ",$problem);
 

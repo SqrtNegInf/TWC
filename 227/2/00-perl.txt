@@ -1,0 +1,194 @@
+ 
+===> 227/2/andreas-voegele.pl <===
+IX
+CMXCIX
+V
+LXVI
+CCCXLIII
+nulla
+non potest 
+non potest 
+non potest 
+ 
+===> 227/2/athanasius.pl <===
+Running the test suite
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ok 4 - Example 4
+ok 5 - Example 5
+ok 6 - Example 6
+ok 7 - Example 7
+ok 8 - Example 8
+ok 9 - Example 9
+ok 10 - Large division
+1..10
+ 
+===> 227/2/deadmarshal.pl <===
+IX
+CMXCIX
+V
+LXVI
+CCCXLIII
+nulla
+non potest
+non potest
+non potest
+ 
+===> 227/2/e-choroba.pl <===
+1..11
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ok 4 - Example 4
+ok 5 - Example 5
+ok 6 - Zero
+ok 7 - Fraction
+ok 8 - Overflow
+ok 9 - Negative
+ok 10 - Dies
+ok 11 - Exception
+ 
+===> 227/2/jaldhar-h-vyas.pl <===
+IX
+ 
+===> 227/2/jo-37.pl <===
+# Seeded srand with seed '1' from import arg.
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ok 4 - example 4
+ok 5 - example 5
+ok 6 - example 6
+ok 7 - example 7
+ok 8 - example 8
+ok 9 - example 9
+1..9
+ 
+===> 227/2/laurent-rosenfeld.pl <===
+IV + V     => IX
+M - I      => CMXCIX
+X / II     => V
+XI * VI    => LXVI
+VII ** III => CCCXLIII
+V - V      => nulla (they didn't have a symbol for 0)
+V / II     => non potest (they didn't do fractions)
+MMM + M    => non potest (they only went up to 3999)
+V - X      => non potest (no negative numbers)
+X - V      => V
+ 
+===> 227/2/lubos-kolouch.pl <===
+IX
+CMXCIX
+V
+LXVI
+CCCXLIII
+nulla
+II
+non potest
+non potest
+ 
+===> 227/2/peter-campbell-smith.pl <===
+
+Input:  IV + V
+Output: IX
+
+Input:  M - I
+Output: CMXCIX
+
+Input:  X / II
+Output: V
+
+Input:  XI * VI
+Output: LXVI
+
+Input:  VII ** III
+Output: CCCXLIII
+
+Input:  V - V
+Output: nulla
+
+Input:  V / II
+Output: non potest
+
+Input:  V - X
+Output: non potest
+
+Input:  LXXX * L
+Output: non potest
+
+Input:  XLIII * XCIII
+Output: MMMCMXCIX
+ 
+===> 227/2/peter-meszaros.pl <===
+ok 1 - IV + V
+ok 2 - M - I
+ok 3 - X / II
+ok 4 - XI * VI
+ok 5 - VII ** III
+ok 6 - V - V
+ok 7 - V / II
+ok 8 - MMM + M
+ok 9 - V - X
+1..9
+ 
+===> 227/2/polettix.pl <===
+IX
+ 
+===> 227/2/robert-dicicco.pl <===
+IV + V => IX
+ 
+===> 227/2/roger-bell-west.pl <===
+1..21
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ok 4 - example 4
+ok 5 - example 5
+ok 6 - example 6
+ok 7 - example 7
+ok 8 - example 8
+ok 9 - example 9
+ok 10 - example 10
+ok 11 - example 11
+ok 12 - example 12
+ok 13 - example 13
+ok 14 - example 14
+ok 15 - example 15
+ok 16 - example 16
+ok 17 - example 17
+ok 18 - example 18
+ok 19 - example 19
+ok 20 - example 20
+ok 21 - example 21
+ 
+===> 227/2/sgreen.pl <===
+IX
+ 
+===> 227/2/solathian.pl <===
+IV + V       =>  IX
+M - I        =>  CMXCIX
+X / II       =>  V
+XI * VI      =>  LXVI
+VII ** III   =>  CCCXLIII
+V - V        =>  Nulla
+V / II       =>  Non potest
+MMM + M      =>  Non potest
+V - X        =>  Non potest
+ 
+===> 227/2/steve-g-lynn.pl <===
+IV+V: IX
+M-I: CMXCIX
+X/II: V
+XI*VI: LXVI
+VII**III: CCCXLIII
+V-V: nulla
+V/II: non potest
+MMM+M: non potest
+V-X: non potest
+ 
+===> 227/2/ulrich-rieke.pl <===
+IV + V = IX
+ 
+===> 227/2/wlmb.pl <===
+IV + V ->IX

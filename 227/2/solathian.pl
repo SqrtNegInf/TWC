@@ -1,11 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
 
-# Challenge 227 - 2 - Roman Maths
-# Write a script to handle a 2-term arithmetic operation expressed in Roman numeral.
-
-
-
 romanMaths("IV + V      ");     # IX
 romanMaths("M - I       ");     # CMXCIX
 romanMaths("X / II      ");     # V

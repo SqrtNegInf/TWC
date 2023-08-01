@@ -1,23 +1,11 @@
 #!/usr/bin/env perl
 
-# Write a script to handle a 2-term arithmetic operation expressed in Roman numeral.
-# Example
-# 
-# IV + V     => IX
-# M - I      => CMXCIX
-# X / II     => V
-# XI * VI    => LXVI
-# VII ** III => CCCXLIII
-# V - V      => nulla (they knew about zero but didn't have a symbol)
-# V / II     => non potest (they didn't do fractions)
-# MMM + M    => non potest (they only went up to 3999)
-# V - X      => non potest (they didn't do negative numbers)
-
 use strict;
 use warnings;
+
 use POSIX qw/floor/;
 use Test::More;
-use Data::Dumper;
+#use Data::Dumper;
 
 my $cases = [
     ['IV',  '+',  'V'  ], # 0
