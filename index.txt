@@ -475,8 +475,8 @@ Challenge titles and Rosetta-code correspondences (exact, and otherwise)
 226-2 Zero Array
 227-1 Friday the 13th
 227-2 Roman Maths
-228-1
-228-2
+228-1 Unique Sum
+228-2 Empty Array
 229-1
 229-2
 
