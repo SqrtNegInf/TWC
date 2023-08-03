@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-use v5.16;
-
-use strict;
-use warnings;
+use v5.36;
 
 roman_maths('IV + V');
 roman_maths('M - I');

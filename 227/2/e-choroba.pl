@@ -1,10 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use warnings;
-use strict;
-use experimental qw( signatures );
-
-#use lib '../../../challenge-047/e-choroba/perl';
 use lib '.';
 use MyRoman qw{ from_roman to_roman };
 

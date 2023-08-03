@@ -1,7 +1,6 @@
 #!/usr/bin/env perl
-use 5.030;
+use v5.36;
 
-use warnings;
 use experimental qw/ switch /;
 
 sub unprefix {

@@ -1,11 +1,8 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
+use v5.36;
 
 use POSIX qw/floor/;
 use Test::More;
-#use Data::Dumper;
 
 my $cases = [
     ['IV',  '+',  'V'  ], # 0

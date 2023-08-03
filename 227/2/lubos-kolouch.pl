@@ -1,4 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
+
 use Roman;
 
 sub roman_maths {

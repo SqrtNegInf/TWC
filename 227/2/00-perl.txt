@@ -177,14 +177,14 @@ MMM + M      =>  Non potest
 V - X        =>  Non potest
  
 ===> 227/2/steve-g-lynn.pl <===
-IV+V: IX
-M-I: CMXCIX
-X/II: V
-XI*VI: LXVI
-VII**III: CCCXLIII
+IV+V: 
+M-I: 
+X/II: 
+XI*VI: 
+VII**III: 
 V-V: nulla
 V/II: non potest
-MMM+M: non potest
+MMM+M: 
 V-X: non potest
  
 ===> 227/2/ulrich-rieke.pl <===

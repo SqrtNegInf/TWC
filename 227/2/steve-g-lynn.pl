@@ -1,6 +1,7 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use feature 'say';
+no warnings 'uninitialized';
 
 use Math::Roman qw(roman);
 

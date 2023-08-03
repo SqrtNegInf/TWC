@@ -1,9 +1,8 @@
 #!/usr/bin/env perl
-use v5.24;
+use v5.36;
 
-use Test2::V0 -srand => 1;
 use Roman;
-use experimental 'signatures';
+use Test2::V0 -srand => 1;
 
 our ($tests, $examples, $verbose) = (1,1);
 
