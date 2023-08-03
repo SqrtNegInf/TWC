@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-use v5.24;
-
-use warnings;
-use experimental 'signatures';
+use v5.36;
 
 say $_, ' ', friday_13th($_) for 2023, 2026;
 

@@ -1,5 +1,5 @@
 #!/usr/bin/env perl
-use v5.30;
+use v5.36;
 
 my $year = 2023;	    # between 1753 (begins on monday) and 9999
 my $str;

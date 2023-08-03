@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-use 5.030;
-
-use strict;
-use warnings;
+use v5.36;
 
 use DateTime;
 #use English;

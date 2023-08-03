@@ -1,5 +1,5 @@
 #!/usr/bin/env perl
-use 5.12.0;
+use v5.36;
 
 use DateTime;
 use Test::More;

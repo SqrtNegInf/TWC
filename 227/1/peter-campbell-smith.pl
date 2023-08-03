@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-use v5.16;
-
-use strict;
-use warnings;
+use v5.36;
 
 friday_13th(2023);
 friday_13th(1945);
