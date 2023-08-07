@@ -1,0 +1,81 @@
+ 
+===> 228/1/arne-sommer.raku <===
+4
+ 
+===> 228/1/athanasius.raku <===
+Running the test suite
+ok 1 - Example 1: sum
+ok 2 - Example 1: unique
+ok 3 - Example 2: sum
+ok 4 - Example 2: unique
+ok 5 - Example 3: sum
+ok 6 - Example 3: unique
+1..6
+ 
+===> 228/1/bruce-gray.raku <===
+1..12
+ok 1 - task1a : 2 1 3 2
+ok 2 - task1a : 1 1 1 1
+ok 3 - task1a : 2 1 3 4
+ok 4 - task1b : 2 1 3 2
+ok 5 - task1b : 1 1 1 1
+ok 6 - task1b : 2 1 3 4
+ok 7 - task1c : 2 1 3 2
+ok 8 - task1c : 1 1 1 1
+ok 9 - task1c : 2 1 3 4
+ok 10 - task1Z : 2 1 3 2
+ok 11 - task1Z : 1 1 1 1
+ok 12 - task1Z : 2 1 3 4
+ 
+===> 228/1/deadmarshal.raku <===
+4
+0
+10
+ 
+===> 228/1/laurent-rosenfeld.raku <===
+2 1 3 2    => 4
+1 1 1 1    => 0
+2 1 3 4    => 10
+ 
+===> 228/1/luca-ferrari.raku <===
+4
+ 
+===> 228/1/mark-anderson.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ 
+===> 228/1/packy-anderson.raku <===
+Input: @int = (2, 1, 3, 2)
+Output: 4
+
+In the given array we have 2 unique elements (1, 3).
+ 
+===> 228/1/polettix.raku <===
+4
+ 
+===> 228/1/robert-dicicco.raku <===
+Input: @int = [2 1 3 2]
+Output: 4
+
+Input: @int = [1 1 1 1]
+Output: 0
+
+Input: @int = [2 1 3 4]
+Output: 10
+
+ 
+===> 228/1/roger-bell-west.raku <===
+1..3
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ 
+===> 228/1/ulrich-rieke.raku <===
+4
+ 
+===> 228/1/wambash.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+1..3
