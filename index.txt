@@ -477,8 +477,8 @@ Challenge titles and Rosetta-code correspondences (exact, and otherwise)
 227-2 Roman Maths
 228-1 Unique Sum
 228-2 Empty Array
-229-1
-229-2
+229-1 Lexicographic Order
+229-2 Two out of Three
 
 230-1
 230-2
