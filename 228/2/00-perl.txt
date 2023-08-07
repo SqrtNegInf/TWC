@@ -1,0 +1,125 @@
+ 
+===> 228/2/andreas-voegele.pl <===
+5
+3
+ 
+===> 228/2/athanasius.pl <===
+Running the test suite
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Reversed
+ok 4 - Singleton
+ok 5 - Negatives
+1..5
+ 
+===> 228/2/bob-lied.pl <===
+# Seeded srand with seed '20230807' from local date.
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Reverse order
+ok 4 - Singleton
+ok 5 - Empty list
+1..5
+ 
+===> 228/2/dave-jacoby.pl <===
+Input:  @int = (3, 4, 2)
+Output: 5
+
+Input:  @int = (1, 2, 3)
+Output: 3
+
+ 
+===> 228/2/deadmarshal.pl <===
+5
+3
+ 
+===> 228/2/e-choroba.pl <===
+1..4
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 1 min
+ok 4 - Example 2 min
+ 
+===> 228/2/jaldhar-h-vyas.pl <===
+5
+ 
+===> 228/2/jo-37.pl <===
+# Seeded srand with seed '1' from import arg.
+ok 1 - example 1
+ok 2 - example 2
+1..2
+ 
+===> 228/2/laurent-rosenfeld.pl <===
+3 4 2      => 5
+1 2 3      => 3
+3 2 1      => 6
+4 7 2 9 1  => 12
+ 
+===> 228/2/lubos-kolouch.pl <===
+5
+3
+ 
+===> 228/2/mark-anderson.pl <===
+ok 1
+ok 2
+ok 3
+1..3
+ 
+===> 228/2/packy-anderson.pl <===
+Input: @int = ()
+Output: 5
+
+Operation 1: move 3 to the end: (4,2,3)
+Operation 2: move 4 to the end: (2,3,4)
+Operation 3: remove element 2: (3,4)
+Operation 4: remove element 3: (4)
+Operation 5: remove element 4: ()
+ 
+===> 228/2/perlboy1967.pl <===
+ok 1
+ok 2
+1..2
+ 
+===> 228/2/peter-meszaros.pl <===
+ok 1 - [3, 4, 2]
+ok 2 - [1, 2, 3]
+1..2
+ 
+===> 228/2/polettix.pl <===
+5
+ 
+===> 228/2/robert-dicicco.pl <===
+Input: @int = (3 4 2)
+(4 2 3)
+(2 3 4)
+(3 4)
+(4)
+()
+Output: 5
+
+Input: @int = (1 2 3)
+(2 3)
+(3)
+()
+Output: 3
+
+ 
+===> 228/2/roger-bell-west.pl <===
+1..2
+ok 1 - example 1
+ok 2 - example 2
+ 
+===> 228/2/sgreen.pl <===
+5
+ 
+===> 228/2/steve-g-lynn.pl <===
+53 
+===> 228/2/steven-wilson.pl <===
+ok 1 - array out of order
+ok 2 - array accending order
+ok 3 - array empty
+1..3
+ 
+===> 228/2/zapwai.pl <===
+Input: @int = (3,4,2)
+Output: 5

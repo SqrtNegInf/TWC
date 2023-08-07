@@ -1,14 +1,5 @@
 #!/usr/bin/env perl
-
-# You are given an array of integers in which all elements are unique.  Write
-# a script to perform the following operations until the array is empty and
-# return the total count of operations.
-#
-# If the first element is the smallest then remove it otherwise move it to the
-# end.
-
-use 5.036;
-use utf8;
+use v5.36;
 
 sub empty_array (@ints) {
     my $count = 0;

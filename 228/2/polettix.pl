@@ -1,9 +1,10 @@
 #!/usr/bin/env perl
 use v5.24;
+
 use warnings;
 use experimental 'signatures';
 
-say empty_array(@ARGV);
+say empty_array( (3, 4, 2) );
 
 sub empty_array (@ints) {
    my @sorted = sort { $a <=> $b } @ints;

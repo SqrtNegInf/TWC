@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
-
 use 5.12.0;
+
 use List::Util qw / min /;
 use Test::More;
 

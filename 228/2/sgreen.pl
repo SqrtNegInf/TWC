@@ -31,4 +31,4 @@ sub main (@ints) {
     say $moves;
 }
 
-main(@ARGV);
+main( (3, 4, 2) );

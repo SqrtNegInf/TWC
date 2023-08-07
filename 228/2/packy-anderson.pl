@@ -1,10 +1,9 @@
 #!/usr/bin/env perl
-
-use v5.38;
+use v5.36;
 
 use List::Util qw( min );
 
-my @ints = @ARGV; # just accept the list of integers on the command line
+my @ints = (3, 4, 2);
 
 my @operations;
 my $count = 1;

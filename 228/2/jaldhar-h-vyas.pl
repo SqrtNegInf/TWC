@@ -6,7 +6,7 @@ sub min {
     return ( sort { $a <=> $b } @_)[0];
 }
 
-my @ints = @ARGV;
+my @ints = (3, 4, 2);
 my $ops = 0;
 
 while (scalar @ints) {
