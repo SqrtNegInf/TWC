@@ -1,12 +1,5 @@
 #!/usr/bin/env perl
-=begin commnt
------------------------------------------
-AUTHOR: Robert DiCicco
-DATE  : 2023-07-31
-Challenge 228 Task 1 Unique Sum ( Perl )
------------------------------------------
-=cut
-use v5.38;
+use v5.36;
 
 my %hash;
 
@@ -42,21 +35,3 @@ for my $x (@ints) {
     CreateHashValues(\@$x);
     FindUniqueSum;
     }
-
-=begin commnt
------------------------------------------
-SAMPLE OUTPUT
-perl .\UniqueSum.pl
-
-Input: @int = [2 1 3 2]
-Output: 4
-
-Input: @int = [1 1 1 1]
-Output: 0
-
-Input: @int = [2 1 3 4]
-Output: 10
------------------------------------------
-=cut
-
-
