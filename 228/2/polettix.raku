@@ -1,6 +1,6 @@
 #!/usr/bin/env raku
-use v6;
-sub MAIN (*@args) { put empty-array(@args».Int) }
+
+sub MAIN (@args = (3, 4, 2) ) { put empty-array(@args».Int) }
 
 sub empty-array (@ints is copy) {
    my @sorted = @ints.sort;

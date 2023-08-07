@@ -1,8 +1,8 @@
 #!/usr/bin/env raku
 
-sub MAIN(
-    *@ints
-) {
+#sub MAIN(
+my  @ints  = (3, 4, 2);
+#) {
     my $ops = 0;
 
     while @ints.elems {
@@ -15,4 +15,4 @@ sub MAIN(
     }
 
     say $ops;
-}
+#}

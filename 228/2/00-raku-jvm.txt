@@ -1,0 +1,88 @@
+ 
+===> 228/2/arne-sommer.raku <===
+5
+ 
+===> 228/2/athanasius.raku <===
+Running the test suite
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Reversed
+ok 4 - Singleton
+ok 5 - Negatives
+1..5
+ 
+===> 228/2/bruce-gray.raku <===
+1..8
+ok 1 - task2a : 3 4 2
+ok 2 - task2a : 1 2 3
+ok 3 - task2b : 3 4 2
+ok 4 - task2b : 1 2 3
+ok 5 - task2c : 3 4 2
+ok 6 - task2c : 1 2 3
+ok 7 - task2d : 3 4 2
+ok 8 - task2d : 1 2 3
+ 
+===> 228/2/deadmarshal.raku <===
+5
+3
+ 
+===> 228/2/jaldhar-h-vyas.raku <===
+5
+ 
+===> 228/2/laurent-rosenfeld.raku <===
+3 4 2      => 5
+1 2 3      => 3
+3 2 1      => 6
+4 7 2 9 1  => 12
+ 
+===> 228/2/luca-ferrari.raku <===
+5
+ 
+===> 228/2/mark-anderson.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ 
+===> 228/2/packy-anderson.raku <===
+Input: @int = ()
+Output: 5
+
+Operation 1: move 3 to the end: (4, 2, 3)
+Operation 2: move 4 to the end: (2, 3, 4)
+Operation 3: remove element 2: (3, 4)
+Operation 4: remove element 3: (4)
+Operation 5: remove element 4: ()
+ 
+===> 228/2/polettix.raku <===
+5
+ 
+===> 228/2/robert-dicicco.raku <===
+Input: @int = [3 4 2]
+[4 2 3]
+[2 3 4]
+[3 4]
+[4]
+()
+Output: 5
+
+Input: @int = [1 2 3]
+[2 3]
+[3]
+()
+Output: 3
+
+ 
+===> 228/2/roger-bell-west.raku <===
+1..2
+ok 1 - example 1
+ok 2 - example 2
+ 
+===> 228/2/ulrich-rieke.raku <===
+5
+ 
+===> 228/2/wambash.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ok 4 - 
+1..4

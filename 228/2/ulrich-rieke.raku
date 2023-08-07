@@ -1,5 +1,4 @@
 #!/usr/bin/env raku
-use v6 ;
 
 sub findIndex( @array , $needle ) {
    my $pos = 0 ;
@@ -9,9 +8,7 @@ sub findIndex( @array , $needle ) {
    return $pos ;
 }
 
-say "Enter some unique integers, separated by blanks!" ;
-my $line = $*IN.get ;
-my @numbers = $line.words.map( {.Int} ) ;
+my @numbers = (3, 4, 2);
 my $rounds = 0 ;
 while ( @numbers.elems > 0 ) {
    my $mini = @numbers.min( ) ;

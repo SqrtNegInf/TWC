@@ -1,8 +1,6 @@
 #!/usr/bin/env raku
 
-use v6;
-
-my @ints = @*ARGS; # just accept the list of integers on the command line
+my @ints = (3, 4, 2);
 
 my @operations;
 my $count = 1;
