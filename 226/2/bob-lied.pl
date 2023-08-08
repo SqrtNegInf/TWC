@@ -19,7 +19,7 @@ sub zeroArray(@ints)
 
 sub runTest
 {
-    use Test2::V0;
+    use Test::More;
 
     is( zeroArray(1,5,0,3,5), 3, "Example 1");
     is( zeroArray(0),         0, "Example 2");
