@@ -1,10 +1,5 @@
 #!/usr/bin/env perl
-
-# You are given an array of integers.  Write a script to find out the sum of
-# unique elements in the given array.  Non-unique elements are ignored.
-
-use 5.036;
-use utf8;
+use v5.36;
 
 use List::Util qw(sum0);
 

@@ -1,4 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
+
 
 
 print &unique_sum(2,1,3,2); #4

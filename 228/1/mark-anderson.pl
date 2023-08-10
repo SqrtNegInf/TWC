@@ -1,8 +1,8 @@
 #!/usr/bin/env perl
-use v5.32;
+use v5.36;
+
 use List::Util   qw/sum0/;
 use Test::More;
-use experimental qw/signatures/;
 
 is unique_sum(2,1,3,2),  4;
 is unique_sum(1,1,1,1),  0;

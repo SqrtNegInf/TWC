@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use 5.12.0;
 use Test::More;
 
 cmp_ok( sum_unique( ( 2, 1, 3, 2 ) ), '==', 4,  "2 unique elements" );

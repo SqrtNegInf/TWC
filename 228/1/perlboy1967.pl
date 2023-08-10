@@ -1,22 +1,5 @@
 #!/usr/bin/env perl
-
-=pod
-
-The Weekly Challenge - 228
-- https://theweeklychallenge.org/blog/perl-weekly-challenge-228
-
-Author: Niels 'PerlBoy' van Dijke
-
-Task 1: Unique Sum
-Submitted by: Mohammad S Anwar
-
-You are given an array of integers.
-
-Write a script to find out the sum of unique elements in the given array.
-
-=cut
-
-use v5.16;
+use v5.36;
 
 use common::sense;
 
