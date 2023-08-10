@@ -1,4 +1,5 @@
 #!/usr/bin/env perl
+use v5.36;
 
 print &empty_array(3,4,2); #5
 print &empty_array(1,2,3); #3

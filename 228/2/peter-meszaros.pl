@@ -1,10 +1,8 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
+use v5.36;
 
 use List::Util qw/min/;
 use Test::More;
-use Data::Dumper;
 
 my $cases = [
     [3, 4, 2],

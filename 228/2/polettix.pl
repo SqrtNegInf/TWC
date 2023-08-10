@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-use v5.24;
-
-use warnings;
-use experimental 'signatures';
+use v5.36;
 
 say empty_array( (3, 4, 2) );
 

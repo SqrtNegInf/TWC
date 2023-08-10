@@ -1,9 +1,9 @@
 #!/usr/bin/env perl
-use v5.32;
+use v5.36;
+
 use List::Util      qw/min/;
 use List::MoreUtils qw/first_index/;
 use Test::More;
-use experimental    qw/signatures/;
 
 is empty_array(3,4,2),                                                5;
 is empty_array(1,2,3),                                                3;

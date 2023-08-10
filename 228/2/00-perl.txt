@@ -13,7 +13,7 @@ ok 5 - Negatives
 1..5
  
 ===> 228/2/bob-lied.pl <===
-# Seeded srand with seed '20230807' from local date.
+# Seeded srand with seed '20230810' from local date.
 ok 1 - Example 1
 ok 2 - Example 2
 ok 3 - Reverse order
