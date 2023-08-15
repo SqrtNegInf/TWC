@@ -1,0 +1,105 @@
+ 
+===> 229/1/0rir.raku <===
+1..7
+ok 1 - 1 <- ("abc", "bce", "cae")
+ok 2 - 2 <- ("yxz", "cba", "mon")
+ok 3 - 3 <- ("bac", "bcd", "ced", "def", "feg")
+ok 4 - 4 <- ("bac", "cbd", "ced", "def", "feg")
+ok 5 - 5 <- ("bac", "cbd", "ced", "edf", "feg")
+ok 6 - 0 <- ("abc", "bcd", "cde", "def", "efg")
+ok 7 - 0 <- ("A", "Bb", "cCc", "ddDd", "eeeeE")
+
+Input: @str = a b cc ccC aBc cba ab cb
+Output: 0
+ 
+===> 229/1/arne-sommer.raku <===
+1
+ 
+===> 229/1/athanasius.raku <===
+Running the test suite
+ok 1 - Example 1: count
+ok 2 - Example 1: deletions
+ok 3 - Example 2: count
+ok 4 - Example 2: deletions
+ok 5 - Cases 1: count
+ok 6 - Cases 1: deletions
+ok 7 - Cases 2: count
+ok 8 - Cases 2: deletions
+1..8
+ 
+===> 229/1/barroff.raku <===
+1..2
+ok 1 - works for ("abc", "bce", "cae")
+ok 2 - works for ("yxz", "cba", "mon")
+ 
+===> 229/1/bruce-gray.raku <===
+1..10
+ok 1 - non-lex_reduce_or: abc bce cae
+ok 2 - non-lex_reduce_or: yxz cba mon
+ok 3 - non-lex_reduce_and: abc bce cae
+ok 4 - non-lex_reduce_and: yxz cba mon
+ok 5 - non-lex_Set: abc bce cae
+ok 6 - non-lex_Set: yxz cba mon
+ok 7 - non-lex_sort: abc bce cae
+ok 8 - non-lex_sort: yxz cba mon
+ok 9 - non-lex_early_escape: abc bce cae
+ok 10 - non-lex_early_escape: yxz cba mon
+ 
+===> 229/1/deadmarshal.raku <===
+1
+2
+ 
+===> 229/1/laurent-rosenfeld.raku <===
+abc bce cae  => 1
+yxz cba mon  => 2
+ 
+===> 229/1/luca-ferrari.raku <===
+1
+ 
+===> 229/1/mark-anderson.raku <===
+ok 1 - 
+ok 2 - 
+ 
+===> 229/1/packy-anderson.raku <===
+Example 1:
+Input: @str = ("abc", "bce", "cae")
+Output: 1
+
+In the given array "cae" is the only element which is not lexicographically sorted.
+
+Example 2:
+Input: @str = ("yxz", "cba", "mon")
+Output: 2
+
+In the given array "yxz" and "mon" are not lexicographically sorted.
+ 
+===> 229/1/robert-dicicco.raku <===
+Input: @str = [abc bce cae]
+Output: 1
+
+Input: @str = [yxz cba mon]
+Output: 2
+
+ 
+===> 229/1/roger-bell-west.raku <===
+1..2
+ok 1 - example 1
+ok 2 - example 2
+ 
+===> 229/1/ulrich-rieke.raku <===
+1
+ 
+===> 229/1/wambash.raku <===
+ok 1 - The object is-a 'Lexicographic'
+ok 2 - The object is-a 'Lexicographic'
+ok 3 - The object is-a 'Lexicographic'
+ok 4 - The object is-a 'Lexicographic'
+ok 5 - The object is-a 'Lexicographic'
+ok 6 - 
+ok 7 - 
+ok 8 - 
+ok 9 - 
+ok 10 - 
+ok 11 - 
+ok 12 - 
+1..12
