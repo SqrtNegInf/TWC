@@ -21,4 +21,4 @@ New pattern: now runs with no CPU competition, will probably affect numbers
 2023-05-17 001-216 real 39m25s  user 252m01s  sys 31m42s
 2023-06-11 001-219 real 35m53s  user 231m12s  sys 30m43s  have been culling lots of me-too Perl
 2023-07-03 001-223 real 40m36s  user 252m47s  sys 32m24s
-
+2023-08-15 001-229 real 38m17s  user 250m41s  sys 33m33s
