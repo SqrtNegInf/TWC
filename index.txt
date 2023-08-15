@@ -480,8 +480,8 @@ Challenge titles and Rosetta-code correspondences (exact, and otherwise)
 229-1 Lexicographic Order
 229-2 Two out of Three
 
-230-1
-230-2
+230-1 Separate Digits
+230-2 Count Words
 231-1
 231-2
 232-1
