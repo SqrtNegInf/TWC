@@ -1,32 +1,12 @@
 #!/usr/bin/env perl
-# vim:set ts=4 sw=4 sts=4 et ai wm=0 nu:
-#=============================================================================
-# ch-2.pl Perl Weekly Challenge 229 Task 2 Two Out of Three
-#=============================================================================
-# Copyright (c) 2023, Bob Lied
-#=============================================================================
-# You are given three array of integers.
-# Write a script to return all the elements that are present in at least
-# 2 out of 3 given arrays.
-# Example 1 Input: @array1 = (1, 1, 2, 4)
-#                  @array2 = (2, 4)
-#                  @array3 = (4)
-#       Ouput: (2, 4)
-#
-# Example 2 Input: @array1 = (4, 1)
-#                  @array2 = (2, 4)
-#                  @array3 = (1, 2)
-#       Ouput: (1, 2, 4)
-#=============================================================================
-
-use v5.38;
+use v5.36;
 
 use Getopt::Long;
 my $Verbose = 0;
 my $DoTest  = 0;
 
 GetOptions("test" => \$DoTest, "verbose" => \$Verbose);
-exit(!runTest()) if $DoTest;
+runTest(); exit;
 
 sub twoOutOfThree($arrayOfarray)
 {

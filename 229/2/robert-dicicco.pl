@@ -1,12 +1,9 @@
 #!/usr/bin/env perl
-=begin comment
-------------------------------------------------
-AUTHOR: Robert DiCicco
-DATE  : 2023-08-09
-Challenge 229 Two Out Of Three  Task 2 ( Perl )
-------------------------------------------------
-=cut
-use v5.38;
+
+use strict;
+use warnings;
+use feature 'say';
+
 use List::MoreUtils qw(uniq);
 
 #my @arrays = ([1, 1, 2, 4,],[2, 4],[4]);
@@ -16,8 +13,8 @@ my %hash = ();
 my $cnt = 1;
 my (@array1,@array2,@array3) = ();
 
-sub CreateCounts(@a) {
-    for my $i (@a) {
+sub CreateCounts {
+    for my $i (@_) {
         if (exists ($hash{$i})) {
             $hash{$i}++;
         } else {
@@ -55,23 +52,3 @@ for my $key (keys %hash) {
 }
 
 print(" \)");
-
-=begin comment
-------------------------------------------------
-SAMPLE OUTPUT
-perl .\TwoThree.pl
-Input:  @array1 = (1 2 4)
-        @array2 = (2 4)
-        @array3 = (4)
-Output: ( 4 2  )
-
-perl .\TwoThree.pl
-Input:  @array1 = (4 1)
-        @array2 = (2 4)
-        @array3 = (1 2)
-Output: ( 4 1 2  )
-
-------------------------------------------------
-=cut
-
-

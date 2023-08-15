@@ -1,12 +1,7 @@
 #!/usr/bin/env perl
 use v5.36;
 
-no warnings "experimental";     # suppressing the "for my (...) is experimental"  @L40
-
-
-# Challenge 229 - 2 - Two out of Three
-# You are given three array of integers.
-# Write a script to return all the elements that are present in at least 2 out of 3 given arrays.
+no warnings "experimental";
 
 # going for extra points:  it is configurable and can take N arrays
 my $cfg_requiredOcc = 2;    

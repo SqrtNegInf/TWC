@@ -1,24 +1,7 @@
 #!/usr/bin/env perl
+
 use strict;
-use warnings FATAL => qw(all);
-
-=prompt
-You are given three array of integers. Write a script to return all the elements that are present in at least 2 out of 3 given arrays.
-
-Example 1
-Input: @array1 = (1, 1, 2, 4)
-       @array2 = (2, 4)
-       @array3 = (4)
-Ouput: (2, 4)
-
-Example 2
-
-Input: @array1 = (4, 1)
-       @array2 = (2, 4)
-       @array3 = (1, 2)
-Ouput: (1, 2, 4)
-
-=cut
+use warnings;
 
 use Test2::V0 -srand => 1;
 

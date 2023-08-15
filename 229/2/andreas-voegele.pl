@@ -1,10 +1,5 @@
 #!/usr/bin/env perl
-
-# You are given three arrays of integers.  Write a script to return all the
-# elements that are present in at least 2 out of 3 given arrays.
-
-use 5.036;
-use utf8;
+use v5.36;
 
 use experimental qw(builtin for_list);
 

@@ -1,22 +1,5 @@
 #!/usr/bin/env perl
 
-=pod
-
-The Weekly Challenge - 229
-- https://theweeklychallenge.org/blog/perl-weekly-challenge-229
-
-Author: Niels 'PerlBoy' van Dijke
-
-Task 2: Two out of Three
-Submitted by: Mohammad S Anwar
-
-You are given three array of integers.
-
-Write a script to return all the elements that are present in at least 
-2 out of 3 given arrays.
-
-=cut
-
 use v5.16;
 
 use common::sense;

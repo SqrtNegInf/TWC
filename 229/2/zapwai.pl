@@ -1,6 +1,10 @@
 #!/usr/bin/env perl
 use v5.30;
-no warnings;
+
+use strict;
+use warnings;
+no warnings "experimental";
+
 my @array1 = (1, 1, 2, 4);
 my @array2 = (2, 4);
 my @array3 = (4);

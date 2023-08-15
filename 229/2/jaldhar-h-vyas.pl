@@ -1,5 +1,7 @@
 #!/usr/bin/env perl
 use 5.030;
+
+use strict;
 use warnings;
 
 sub unique {
@@ -28,7 +30,8 @@ sub intersection {
     return [ grep { $_ if $count{$_} > 1 } keys %count ];
 }
 
-my ($array1, $array2, $array3) = map { [split / /] } @ARGV;
+#my ($array1, $array2, $array3) = map { [split / /] } @ARGV;
+my $array1 = [4,]; my $array2 = [2, 4]; my $array3 = [1,2,4];
 
 say 
     q{(},
