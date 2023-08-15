@@ -45,7 +45,7 @@ for my $a (@arrays) {
 }
 
 print("Output: ( ");
-for my $key (keys %hash) {
+for my $key (sort keys %hash) {
     if ($hash{$key} >= 2 ){
         print("$key ");
     }

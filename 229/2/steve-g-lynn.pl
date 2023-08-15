@@ -29,6 +29,6 @@ sub two_out_of_three {
     map {( (exists $rh1{$_}) || (exists $rh3{$_}) ) &&
      ($two_out_of_three{$_}=1);} keys %rh2;
 
-    keys %two_out_of_three;
+    sort keys %two_out_of_three;
 }
 
