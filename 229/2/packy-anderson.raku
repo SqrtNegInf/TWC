@@ -24,7 +24,7 @@ sub solution (@array1, @array2, @array3) {
 
   say "Output: " ~ display_array(
     # only include elements that were counted more than once
-    %occurrences.keys().grep: { %occurrences{$_} > 1 } 
+    %occurrences.keys().sort.grep: { %occurrences{$_} > 1 } 
   ).sort; # sort the resulting array of elements numerically
 }
 

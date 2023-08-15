@@ -23,7 +23,6 @@ Input: @array[0] = $(1, 4, 5, 2, 3, 7, 1, 2, 4, 9, 4)
        @array[2] = $(3, 2, 9)
        @array[3] = $(1, 9, 1, 6, 2, 7, 2)
        @array[4] = $(9, 2, 7, 5, 4)
-Ouput: (7 2 9)
  
 ===> 229/2/arne-sommer.raku <===
 2
@@ -65,7 +64,7 @@ ok 9 - task2-set-operations: 4 5 4 5 4 5
 ((4 1) (2 4) (1 2))    => (1 2 4)
  
 ===> 229/2/luca-ferrari.raku <===
-4,2
+2,4
  
 ===> 229/2/mark-anderson.raku <===
 ok 1 - 
@@ -82,13 +81,13 @@ Example 1:
 Input: @array1 = (1, 1, 2, 4)
        @array2 = (2, 4)
        @array3 = (4)
-Output: (4, 2)
+Output: (2, 4)
 
 Example 2:
 Input: @array1 = (4, 1)
        @array2 = (2, 4)
        @array3 = (1, 2)
-Output: (2, 4, 1)
+Output: (1, 2, 4)
  
 ===> 229/2/robert-dicicco.raku <===
 Input:  @array1 = [1 2 4]

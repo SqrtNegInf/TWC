@@ -39,6 +39,4 @@ my @array = [ (1,4,5,2,3,7,1,2,4,9,4), (7,5,1,9,6,3), (3,2,9),
 
 say "\nInput: \@array[0] = @array[0].raku()";
 for 1..^@array { say "       \@array[$_] = @array[$_].raku()" }
-say "Ouput: ", common( @array, :but(1));
-exit;
-
+#say "Ouput: ", common( @array, :but(1));

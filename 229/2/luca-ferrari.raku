@@ -9,4 +9,4 @@
     %bag{ $_ }++ for @array2.unique;
     %bag{ $_ }++ for @array3.unique;
 
-    %bag.keys.grep( { %bag{ $_ } >= 2 } ).join( ',' ).say;
+    %bag.keys.grep( { %bag{ $_ } >= 2 } ).sort.join( ',' ).say;

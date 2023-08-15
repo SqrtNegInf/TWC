@@ -39,10 +39,8 @@ for (@arrays) -> @a {
 }
 
 print("Output: ( ");
-for %hash.kv -> $key, $val {
-    if %hash{$key} >= 2 {
-        print("$key ");
-    }
+for %hash.keys.sort -> $key { if %hash{$key} >= 2 { print("$key "); }
+#or %hash.kv -> $key, $val { if %hash{$key} >= 2 { print("$key "); }
 }
 
 print(" \)");
