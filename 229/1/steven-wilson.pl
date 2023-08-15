@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use 5.12.0;
 use Test2::V0 -srand => 1;
 
 my @ex1 = ( "abc", "bce", "cae" );

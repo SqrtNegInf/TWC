@@ -1,4 +1,5 @@
 #!/usr/bin/env perl
+use v5.36;
 
 print &lexicographic_order('abc', 'bce', 'cae'); #1
 print &lexicographic_order('yxz','cba','mon'); #2
