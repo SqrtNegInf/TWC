@@ -1,4 +1,5 @@
 #!/usr/bin/env perl
+# use v5.36;  # glob not compatible?
 
 print join ',', &two_out_of_three([1,1,2,4],[2,4],[4]); #4,2
 print join ',', &two_out_of_three([4,1],[2,4],[1,2]); #1,2,4

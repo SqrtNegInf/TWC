@@ -1,8 +1,6 @@
 #!/usr/bin/env perl
-use v5.30;
+use v5.36;
 
-use strict;
-use warnings;
 no warnings "experimental";
 
 my @array1 = (1, 1, 2, 4);
