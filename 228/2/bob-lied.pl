@@ -29,7 +29,7 @@ sub emptyArray(@int)
 
 sub runTest
 {
-    use Test2::V0;
+    use Test::More;
 
     is( emptyArray(3,4,2), 5, "Example 1");
     is( emptyArray(1,2,3), 3, "Example 2");
