@@ -1,7 +1,9 @@
 #!/usr/bin/env perl
 use v5.30;
+
 my @str = ("abc", "bce", "cae");
 #my @str = ("yxz", "cba", "mon");
+
 my @unsorted;
 for my $str (@str) {
     my @l = split "", $str;

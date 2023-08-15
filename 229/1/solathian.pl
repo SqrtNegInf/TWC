@@ -1,11 +1,5 @@
 #!/usr/bin/env perl
-use v5.38;
-
-# Challenge 229 - 1 - Lexicographic Order
-# You are given an array of strings.
-# Write a script to delete element which is not lexicographically sorted (forwards or backwards) and return the count of deletions.
-
-# first commit with new strawberry release, neat!
+use v5.36;
 
 countRemovals(["abc", "bce", "cae"]);       # 1
 countRemovals(["yxz", "cba", "mon"]);       # 2

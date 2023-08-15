@@ -1,18 +1,8 @@
 #!/usr/bin/env perl
 use strict;
-use warnings FATAL => qw(all);
+use warnings;
 
-=prompt
-You are given an array of strings. Write a script to delete element which is not lexicographically sorted and return the count of deletions.
-Example 1 Input: @str = ("abc", "bce", "cae") Output: 1
-In the given array "cae" is the only element which is not lexicographically sorted.
-
-Example 2 Input: @str = ("yxz", "cba", "mon") Output: 2
-In the given array "yxz" and "mon" are not lexicographically sorted.
-=cut
-
-
-use Test2::V0 -srand => 1;
+use Test::More;
 
 sub lex_sort_string
 {

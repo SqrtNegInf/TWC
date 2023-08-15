@@ -1,13 +1,5 @@
 #!/usr/bin/env perl
-=begin comment
----------------------------------------
-AUTHOR: Robert DiCicco
-DATE  : 2023-08-07
-Challenge 229 Lexical Order Task 1 ( Perl )
----------------------------------------
-=cut
-
-use v5.38;
+use v5.36;
 
 my @strs = (["abc", "bce", "cae"],["yxz", "cba", "mon"]);
 
@@ -27,18 +19,3 @@ for my $str (@strs) {
     say "Output: $cnt\n";
     $cnt = 0;
 }
-
-=begin comment
----------------------------------------
-SAMPLE OUTPUT
-perl .\LexOrder.pl
-
-Input: @str = (abc bce cae)
-Output: 1
-
-Input: @str = (yxz cba mon)
-Output: 2
----------------------------------------
-=cut
-
-

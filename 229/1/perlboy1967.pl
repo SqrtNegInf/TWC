@@ -1,23 +1,5 @@
 #!/usr/bin/env perl
 
-=pod
-
-The Weekly Challenge - 229
-- https://theweeklychallenge.org/blog/perl-weekly-challenge-229
-
-Author: Niels 'PerlBoy' van Dijke
-
-Task 1: Lexicographic Order
-Submitted by: Mohammad S Anwar
-
-You are given an array of strings.
-
-Write a script to delete element which is not lexicographically sorted 
-(forwards or backwards) and return the count of deletions.
-
-=cut
-
-
 use v5.16;
 
 use common::sense;

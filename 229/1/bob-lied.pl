@@ -1,20 +1,5 @@
 #!/usr/bin/env perl
-# vim:set ts=4 sw=4 sts=4 et ai wm=0 nu:
-#=============================================================================
-# ch-1.pl Perl Weekly Challenge Task 1 Lexicographic Order
-#=============================================================================
-# Copyright (c) 2023, Bob Lied
-#=============================================================================
-# You are given an array of strings.
-# Write a script to delete element which is not lexicographically sorted
-# (forwards or backwards) and return the count of deletions.
-# Example 1 Input: @str = ("abc", "bce", "cae")
-#           Output: 1
-# Example 2 Input: @str = ("yxz", "cba", "mon")
-#           Output: 2
-#=============================================================================
-
-use v5.38;
+use v5.36;
 
 use Getopt::Long;
 my $Verbose = 0;

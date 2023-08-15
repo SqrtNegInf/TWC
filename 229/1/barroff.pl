@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-
-use v5.38;
+use v5.36;
 
 sub is_lexicographic ($word) {
     my $sorted_string = join( '', sort( split( '', $word ) ) );

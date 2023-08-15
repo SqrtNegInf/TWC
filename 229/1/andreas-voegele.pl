@@ -1,11 +1,5 @@
 #!/usr/bin/env perl
-
-# You are given an array of strings.  Write a script to delete elements that
-# are not lexicographically sorted (forwards or backwards) and return the
-# count of deletions.
-
-use 5.036;
-use utf8;
+use v5.36;
 
 sub is_ordered_ascending (@chars) {
     while (@chars >= 2) {

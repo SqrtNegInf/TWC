@@ -10,7 +10,6 @@ sub isSorted {
 	 $compare eq join( '' , sort { $b cmp $a } split( // , $word ) ) ) ;
 }
 
-say "Please enter some words, separated by blanks!" ;
-my $line = <STDIN> ;
+my $line = 'abc bce cae';
 chomp $line ;
 say scalar( grep { not isSorted( $_ ) } split ( /\s/ , $line ) ) ;
