@@ -1,7 +1,6 @@
 #!/usr/bin/env raku
 
-sub two-out-of-three(@arr)
-{
+sub two-out-of-three(@arr) {
   my %hash;
   @arr.map({%hash{$_}++ for $_.unique});
   %hash.keys.grep({%hash{$_} >= 2}).sort()

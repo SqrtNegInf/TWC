@@ -1,15 +1,10 @@
 #!/usr/bin/env raku
-use v6 ;
 
-say "Enter 3 lines of numbers, separated by blanks!" ;
-say "First line!" ;
-my $line = $*IN.get ;
+my $line = '4';
 my $set1 = set( $line.words.map( {.Int} )) ;
-say "Second line!" ;
-$line = $*IN.get ;
+$line = '2 4';
 my $set2 = set( $line.words.map( {.Int} ) ) ;
-say "Third line!" ;
-$line = $*IN.get ;
+$line = '1 2 4';
 my $set3 = set( $line.words.map( {.Int} ) ) ;
 my $first_intersect = $set1 (&) $set2 ;
 my $second_intersect = $set2 (&) $set3 ;

@@ -1,12 +1,5 @@
 #!/usr/bin/env raku
-=begin comment
-------------------------------------------------
-AUTHOR: Robert DiCicco
-DATE  : 2023-08-09
-Challenge 229 Two Out Of Three  Task 2 ( Raku )
-------------------------------------------------
-=end comment
-use v6;
+
 my @arrays = ([1, 1, 2, 4,],[2, 4],[4]);
 #my @arrays = ([4, 1],[2, 4],[1, 2]);
 
@@ -53,22 +46,3 @@ for %hash.kv -> $key, $val {
 }
 
 print(" \)");
-
-=begin comment
-------------------------------------------------
-SAMPLE OUTPUT
-raku .\TwoThree.rk
-Input:  @array1 = [1 2 4]
-        @array2 = [2 4]
-        @array3 = [4]
-Output: ( 2 4  )
-
-raku .\TwoThree.rk
-Input:  @array1 = [4 1]
-        @array2 = [2 4]
-        @array3 = [1 2]
-Output: ( 4 2 1  )
-------------------------------------------------
-=end comment
-
-

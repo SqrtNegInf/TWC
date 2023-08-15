@@ -1,7 +1,5 @@
 #!/usr/bin/env raku
 
-use v6.d;
-
 sub two-out-of-three(@array1, @array2, @array3 --> Set) {
     my Set $set1 = Set(@array1);
     my Set $set2 = Set(@array2);
@@ -10,7 +8,7 @@ sub two-out-of-three(@array1, @array2, @array3 --> Set) {
 }
 
 #| Run test cases
-multi sub MAIN('test') {
+#multi sub MAIN('test') {
     use Test;
     plan 2;
 
@@ -18,4 +16,4 @@ multi sub MAIN('test') {
         'works for (2, 4)';
     is-deeply two-out-of-three((4, 1), (2, 4), (1, 2)), Set(1, 2, 4),
         'works for (1, 2, 4)';
-}
+#}

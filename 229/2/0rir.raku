@@ -1,27 +1,6 @@
 #!/usr/bin/env raku
-# :vim ft=raku sw=4 expandtab  # 🦋 ∅∪∩∋∈∉ ≡ ≢ «␤ » ∴
-use v6.d;
+
 use Test;
-
-=begin comment
-229-2: Two out of Three         Submitted by: Mohammad S Anwar
-
-Given three array of integers, return all the elements that are present in at
-least 2 out of 3 given arrays.
-
-Example 1
-Input: @array1 = (1, 1, 2, 4)
-       @array2 = (2, 4)
-       @array3 = (4)
-Ouput: (2, 4)
-Example 2
-Input: @array1 = (4, 1)
-       @array2 = (2, 4)
-       @array3 = (1, 2)
-Ouput: (1, 2, 4)
-=end comment
-
-#                   Not actually creating the diminished array.
 
 my @Test =
       # results for but = 0…N         input is @e[*-1]
