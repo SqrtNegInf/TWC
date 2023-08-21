@@ -482,8 +482,8 @@ Challenge titles and Rosetta-code correspondences (exact, and otherwise)
 
 230-1 Separate Digits
 230-2 Count Words
-231-1
-231-2
+231-1 Min Max
+231-2 Senior Citizens
 232-1
 232-2
 233-1
