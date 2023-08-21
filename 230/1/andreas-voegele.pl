@@ -1,9 +1,5 @@
 #!/usr/bin/env perl
-
-# Write a script to separate an array of integers into single digits.
-
-use 5.036;
-use utf8;
+use v5.36;
 
 sub separate_digits (@ints) {
     return map { split // } @ints;

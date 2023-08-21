@@ -1,6 +1,8 @@
 #!/usr/bin/env perl
+
 use strict;
 use warnings;
+
 use Test::More tests => 2;
 
 my @ints1   = ( 1, 34, 5, 6 );

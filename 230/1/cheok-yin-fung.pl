@@ -1,8 +1,6 @@
 #!/usr/bin/env perl
-# The Weekly Challenge 230
-# Task 1 Separate Digits
+
 use v5.30.0;
-use warnings;
 
 sub sd {
     my @ints = @_;

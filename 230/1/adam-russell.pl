@@ -1,9 +1,6 @@
 #!/usr/bin/env perl
-use v5.38;
-##
-# You are given an array of positive integers.
-# Write a script to separate the given array into single digits.
-##
+use v5.36;
+
 sub separate_digits{
     return separater([], @_); 
 }

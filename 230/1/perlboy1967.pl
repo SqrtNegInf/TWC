@@ -1,21 +1,4 @@
 #!/usr/bin/env perl
-
-=pod
-
-The Weekly Challenge - 230
-- https://theweeklychallenge.org/blog/perl-weekly-challenge-230
-
-Author: Niels 'PerlBoy' van Dijke
-
-Task 1: Separate Digits
-Submitted by: Mohammad S Anwar
-
-You are given an array of positive integers.
-
-Write a script to separate the given array into single digits.
-
-=cut
-
 use v5.16;
 
 use common::sense;
