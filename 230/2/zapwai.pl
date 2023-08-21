@@ -1,5 +1,6 @@
 #!/usr/bin/env perl
 use v5.30;
+
 my @words = ("pay", "attention", "practice", "attend");
 my $prefix = "at";
 my $len = length $prefix;

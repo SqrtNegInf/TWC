@@ -1,4 +1,5 @@
 #!/usr/bin/env perl
+
 use strict;
 use warnings;
 use feature qw /say/;
@@ -8,6 +9,7 @@ sub count_words {
     return scalar grep { substr($_, 0, length $prefix)
         eq $prefix } @_;
 }
+
 for my $test ( [<at pay attention practice attend>],
                [<ja janet julia java javascript>] ) {
     my @t = @$test;

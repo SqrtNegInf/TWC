@@ -1,5 +1,7 @@
 #!/usr/bin/env perl
-use strict; use warnings;
+
+use strict; 
+use warnings;
 
 sub wwp {
     my($prefix, @words) = @_;

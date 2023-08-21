@@ -1,12 +1,7 @@
 #!/usr/bin/env perl
-use v5.38;
-##
-# You are given an array of words made up of alphabetic characters and a prefix.
-# Write a script to return the count of words that starts with the given prefix.
-##
-sub count_words{
-    return counter(0, @_); 
-}
+use v5.36;
+
+sub count_words{ return counter(0, @_) }
 
 sub counter{
     my $count = shift;

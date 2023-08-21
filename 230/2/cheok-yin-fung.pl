@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-# The Weekly Challenge 230
-# Task 2 Count Words
 use v5.30.0;
-use warnings;
 
 sub cw {
     my @words = $_[0]->@*;

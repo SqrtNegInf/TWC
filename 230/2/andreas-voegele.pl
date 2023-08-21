@@ -1,9 +1,5 @@
 #!/usr/bin/env perl
-
-# Write a script to return the count of words that start with a given prefix.
-
-use 5.036;
-use utf8;
+use v5.36;
 
 sub filter_words ($prefix, @words) {
     my $n = length $prefix;
