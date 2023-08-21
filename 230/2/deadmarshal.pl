@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
+use v5.36;
 
 sub count_words { scalar grep{/^\Q$_[1]/} @{$_[0]} }
 

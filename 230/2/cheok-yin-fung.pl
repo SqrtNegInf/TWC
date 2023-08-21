@@ -1,5 +1,5 @@
 #!/usr/bin/env perl
-use v5.30.0;
+use v5.36;
 
 sub cw {
     my @words = $_[0]->@*;
