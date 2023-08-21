@@ -1,11 +1,7 @@
 #!/usr/bin/env raku
+
 use Test;
 
-#|[
-Task 1: Separate Digits
-- You are given an array of positive integers.
-- Write a script to separate the given array into single digits.
-]
 sub task1(@input) {
 	@input.map( *.comb ).flat;
 }

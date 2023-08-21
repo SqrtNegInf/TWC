@@ -1,5 +1,4 @@
 #!/usr/bin/env raku
-use v6 ;
 
 sub decompose( $number is copy ) {
    my @digits ;
@@ -11,8 +10,7 @@ sub decompose( $number is copy ) {
    return @digits ;
 }
 
-say "Enter some positive integers, separated by blanks!" ;
-my $line = $*IN.get ;
+my $line = '1 34 5 6';
 my @allDigits ;
 my @numbers = $line.words.map( {.Int} ) ;
 for @numbers -> $num {

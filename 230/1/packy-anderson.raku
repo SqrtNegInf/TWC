@@ -1,7 +1,5 @@
 #!/usr/bin/env raku
 
-use v6;
-
 sub display_array (@array) {
   return "(" ~ @array.join(q{, }) ~ ")";
 }

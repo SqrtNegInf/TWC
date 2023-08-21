@@ -1,4 +1,5 @@
 #!/usr/bin/env raku
+
 use Test;
 
 is-deeply separate-digits(<1 34 5 6>),   (1,3,4,5,6);
