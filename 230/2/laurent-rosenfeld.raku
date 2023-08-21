@@ -1,4 +1,5 @@
 #!/usr/bin/env raku
+
 sub count-words (@in is copy) {
     my $prefix = shift @in;
     return (grep { .starts-with($prefix) }, @in).elems;

@@ -1,7 +1,5 @@
 #!/usr/bin/env raku
 
-use v6;
-
 use Lingua::Conjunction;
 use Lingua::EN::Numbers;
 

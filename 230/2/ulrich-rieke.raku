@@ -1,9 +1,5 @@
 #!/usr/bin/env raku
-use v6 ;
 
-say "Enter some words, separated by blanks!" ;
-my $line = $*IN.get ;
-say "Enter a prefix!" ;
-my $prefix = $*IN.get ;
-my @words = $line.words ;
+my $prefix = 'at';
+my @words = ("pay", "attention", "practice", "attend");
 say @words.grep( { $_ ~~ /^$prefix/ } ).elems ;

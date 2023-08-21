@@ -1,0 +1,95 @@
+ 
+===> 230/2/0rir.raku <===
+1..8
+ok 1 - 4 <- ∘	("pay", "attention", "practice", "attend")
+ok 2 - 2 <- at∘	("pay", "attention", "practice", "attend")
+ok 3 - 2 <- at∘	("pay", "attention", "practice", "attend")
+ok 4 - 4 <- j∘	("janet", "julia", "java", "javascript")
+ok 5 - 3 <- ja∘	("janet", "julia", "java", "javascript")
+ok 6 - 2 <- jav∘	("janet", "julia", "java", "javascript")
+ok 7 - 1 <- ju∘	("janet", "julia", "java", "javascript")
+ok 8 - 0 <- je∘	("janet", "julia", "java", "javascript")
+
+Input: @words  = pay attention practice attend
+$prefix = pa
+Ouput: 1
+ 
+===> 230/2/arne-sommer.raku <===
+2
+ 
+===> 230/2/athanasius.raku <===
+Running the test suite
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - No matches
+ok 4 - Non-prefix
+ok 5 - Mixed
+1..5
+ 
+===> 230/2/barroff.raku <===
+1..2
+ok 1 - works for ("pay", "attention", "practice", "attend")
+ok 2 - works for ("janet", "julia", "java", "javascript")
+ 
+===> 230/2/bruce-gray.raku <===
+1..2
+ok 1 - 
+ok 2 - 
+ 
+===> 230/2/deadmarshal.raku <===
+2
+3
+ 
+===> 230/2/laurent-rosenfeld.raku <===
+at  - pay attention practice attend  => 2
+ja  - janet julia java javascript    => 3
+ 
+===> 230/2/luca-ferrari.raku <===
+2
+ 
+===> 230/2/mark-anderson.raku <===
+ok 1 - 
+ok 2 - 
+ 
+===> 230/2/packy-anderson.raku <===
+Example 1:
+Input: @words  = ("pay", "attention", "practice", "attend")
+       $prefix = "at"
+Output: 2
+
+Two words "attention" and "attend" start with the given prefix "at".
+
+Example 2:
+Input: @words  = ("janet", "julia", "java", "javascript")
+       $prefix = "ja"
+Output: 3
+
+Three words "janet", "java", and "javascript" start with the given prefix "ja".
+ 
+===> 230/2/rcmlz.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ 
+===> 230/2/robert-dicicco.raku <===
+Input:  @words = [pay attention practice attend]
+	$prefix = "at"
+Output: 2
+
+Input:  @words = [janet julia java javascript]
+	$prefix = "ja"
+Output: 3
+
+ 
+===> 230/2/roger-bell-west.raku <===
+1..2
+ok 1 - example 1
+ok 2 - example 2
+ 
+===> 230/2/ulrich-rieke.raku <===
+2
+ 
+===> 230/2/wambash.raku <===
+ok 1 - 
+ok 2 - 
+1..2

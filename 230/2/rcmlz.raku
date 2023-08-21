@@ -1,11 +1,6 @@
 #!/usr/bin/env raku
 use Test;
 
-#|[
-Task 2: Count Words
-- You are given an array of words made up of alphabetic characters and a prefix.
-- Write a script to return the count of words that starts with the given prefix.
-]
 sub task2(%input) {
 	my $prefix = %input<prefix>;
 	%input<words>.grep( / ^ $prefix / ).elems;
