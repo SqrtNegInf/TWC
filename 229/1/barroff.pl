@@ -18,12 +18,11 @@ sub MAIN() {
     }
     else {
         #| Run test cases
-        use Test2::V0 qw( is plan );
-        plan 2;
+        use Test::More tests => 2;
 
-        is lexicographic_order( "abc", "bce", "cae" ), 1,
+        is_deeply lexicographic_order( "abc", "bce", "cae" ), 1,
           'works for ("abc", "bce", "cae")';
-        is lexicographic_order( "yxz", "cba", "mon" ), 2,
+        is_deeply lexicographic_order( "yxz", "cba", "mon" ), 2,
           'works for ("yxz", "cba", "mon")';
     }
 }
