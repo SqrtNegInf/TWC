@@ -20,7 +20,6 @@ use v5.36;
 #
 
 use experimental 'signatures';
-use experimental 'lexical_subs';
 
 use integer;
 
