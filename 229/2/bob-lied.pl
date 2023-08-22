@@ -41,13 +41,13 @@ sub twoOutOfThree($arrayOfarray)
 
 sub runTest
 {
-    use Test2::V0;
+    use Test::More;
 
-    is( twoOutOfThree( [ [1,1,2,4], [2,4], [4] ] ), [2, 4],     "Example 1");
-    is( twoOutOfThree( [ [4,1], [2,4], [1,2] ] ),   [1,2,4], "Example 2");
+    is_deeply( twoOutOfThree( [ [1,1,2,4], [2,4], [4] ] ), [2, 4],     "Example 1");
+    is_deeply( twoOutOfThree( [ [4,1], [2,4], [1,2] ] ),   [1,2,4], "Example 2");
 
-    is( twoOutOfThree( [ [1,2,2], [1,3,4], [1,5,6] ] ), [1],   "Twice in one");
-    is( twoOutOfThree( [ [1,2,2], [1,2,4], [1,5,6] ] ), [1,2], "Thrice in two");
+    is_deeply( twoOutOfThree( [ [1,2,2], [1,3,4], [1,5,6] ] ), [1],   "Twice in one");
+    is_deeply( twoOutOfThree( [ [1,2,2], [1,2,4], [1,5,6] ] ), [1,2], "Thrice in two");
 
     done_testing;
 }

@@ -12,13 +12,11 @@ ok 4 - Disjoint
 1..4
  
 ===> 229/2/barroff.pl <===
-# Seeded srand with seed '20230815' from local date.
 1..2
 ok 1 - works for ( [ 1, 1, 2, 4 ], [ 2, 4 ], ( 4, ) )
 ok 2 - works for ( [ 4, 1 ], [ 2, 4 ], ( 1, 2 ) )
  
 ===> 229/2/bob-lied.pl <===
-# Seeded srand with seed '20230815' from local date.
 ok 1 - Example 1
 ok 2 - Example 2
 ok 3 - Twice in one
