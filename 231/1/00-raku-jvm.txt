@@ -1,0 +1,79 @@
+ 
+===> 231/1/ash.raku <===
+(3 2)
+-1
+(2)
+(3 2)
+-1
+(2)
+(3 2)
+()
+(2)
+ 
+===> 231/1/athanasius.raku <===
+Running the test suite
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ok 4 - Negatives 1
+ok 5 - Negatives 2
+1..5
+ 
+===> 231/1/deadmarshal.raku <===
+(3 2)
+()
+(2)
+ 
+===> 231/1/laurent-rosenfeld.raku <===
+3 2 1 4    => [3 2]
+3 1        => [-1]
+2 1 3      => [2]
+ 
+===> 231/1/luca-ferrari.raku <===
+
+ 
+===> 231/1/mark-anderson.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ 
+===> 231/1/packy-anderson.raku <===
+Example 1:
+Input: @ints = (3, 2, 1, 4)
+Output: (3, 2)
+The minimum is 1 and maximum is 4 in the given array. So (3, 2) are neither min nor max.
+
+Example 2:
+Input: @ints = (3, 1)
+Output: -1
+
+Example 3:
+Input: @ints = (2, 1, 3)
+Output: (2)
+The minimum is 1 and maximum is 3 in the given array. So (2) is neither min nor max.
+ 
+===> 231/1/rcmlz.raku <===
+ok 1 - The minimum is 1 and maximum is 4 in the given array. So (3, 2) is neither min nor max.
+ok 2 - to short
+ok 3 - only min and max
+ok 4 - The minimum is 1 and maximum is 3 in the given array. So 2 is neither min nor max.
+ 
+===> 231/1/robert-dicicco.raku <===
+Input: @ints = [3 2 1 4]
+Output: ( 3 2 )
+
+Input: @ints = [3 1]
+Output: -1
+
+Input: @ints = [2 1 3]
+Output: ( 2 )
+
+ 
+===> 231/1/roger-bell-west.raku <===
+1..3
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ 
+===> 231/1/ulrich-rieke.raku <===
+(3,2)

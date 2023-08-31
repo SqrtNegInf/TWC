@@ -1,7 +1,5 @@
 #!/usr/bin/env raku
  
-use v6;
-
 sub neither_min_nor_max (*@ints where {$_.all ~~ Int}) {
   my $min = @ints.min; # find the minimum value
   my $max = @ints.max; # find the maximum value

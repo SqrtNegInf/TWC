@@ -1,4 +1,5 @@
 #!/usr/bin/env raku
+
 sub min-max (@in) {
     my @vals = grep {$_ != @in.min && $_ != @in.max}, @in;
     return @vals ?? @vals !! [-1];

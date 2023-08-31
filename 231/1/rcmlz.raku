@@ -1,12 +1,6 @@
 #!/usr/bin/env raku
 use Test;
 
-#|[Task 1: Min Max
-- You are given an array of distinct integers.
-- Write a script to find all elements that is 
-  - neither minimum nor maximum. 
-  - Return -1 if you can’t.
-]
 multi task1(@input) { -1 }
 multi task1(@input where @input.elems > 2) {
   my $not-min-max = @input.Set ∖ (@input.min, @input.max).Set;
