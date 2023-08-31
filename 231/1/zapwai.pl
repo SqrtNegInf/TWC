@@ -1,5 +1,6 @@
 #!/usr/bin/env perl
 use v5.30;
+
 my @ints = (3, 2, 1, 4);
 my ($min, $max) = (1000000, -1000000);
 for my $i (0 .. $#ints) {

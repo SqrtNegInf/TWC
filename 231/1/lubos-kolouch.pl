@@ -1,6 +1,8 @@
 #!/usr/bin/env perl
+
 use strict;
 use warnings;
+
 use Test::More;
 
 sub find_neither_min_max {

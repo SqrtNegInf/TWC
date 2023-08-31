@@ -1,4 +1,5 @@
 #!/usr/bin/env perl
+
 use List::Util qw(min max);
 
 sub neither {
@@ -13,10 +14,6 @@ sub neither_faster { #faster for large lists, but requires exstra install
 }
 
 
-if(@ARGV){
-    print "@{[ neither_faster(@ARGV) ]}\n";
-}
-else { #run tests
     for(
 	[ [ 3,2,4,5,1] => [3,2,4] ],
 	[ [ 10..19] => [11..18] ]
@@ -26,7 +23,3 @@ else { #run tests
 	print "@got" eq "@$expected" ? 'ok' : '***NOT OK';
 	print "   input: @$input    expected: @$expected    got: @got\n";
     }
-}
-
-__END__
-Return -1 if you can't..............but I can.

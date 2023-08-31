@@ -1,6 +1,8 @@
 #!/usr/bin/env perl
+
 use strict;
 use warnings;
+
 use List::Util qw(min max);
 
 sub min_max

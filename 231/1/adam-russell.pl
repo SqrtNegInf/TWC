@@ -1,10 +1,6 @@
 #!/usr/bin/env perl
-use v5.38;
-##
-# You are given an array of distinct integers.
-# Write a script to find all elements that is neither minimum nor maximum. 
-# Return -1 if you can’t.
-##
+use v5.36;
+
 sub not_min_max{
     my($minimum, $maximum);
     do{

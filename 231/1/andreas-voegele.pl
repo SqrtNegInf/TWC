@@ -1,10 +1,5 @@
 #!/usr/bin/env perl
-
-# Write a script to find all elements that are neither minimum nor maximum in
-# an array of integers.  Print -1 if you can't.
-
-use 5.036;
-use utf8;
+use v5.36;
 
 use List::Util qw(reduce);
 
