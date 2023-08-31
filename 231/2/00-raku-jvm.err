@@ -1,0 +1,12 @@
+[31m===[0mSORRY![31m===[0m Error while compiling /Users/dhoekman/PWC/231/2/packy-anderson.raku
+Could not find Lingua::Conjunction in:
+    /Users/dhoekman/PWC/231/2/lib
+    /Users/dhoekman/.raku
+    /Users/dhoekman/.rakubrew/versions/jvm-2022.12/install/share/perl6/site
+    /Users/dhoekman/.rakubrew/versions/jvm-2022.12/install/share/perl6/vendor
+    /Users/dhoekman/.rakubrew/versions/jvm-2022.12/install/share/perl6/core
+    CompUnit::Repository::AbsolutePath<394532173>
+    CompUnit::Repository::NQP<1192955793>
+    CompUnit::Repository::Perl5<484711243>
+    CompUnit::Repository::JavaRuntime<425129866>
+at /Users/dhoekman/PWC/231/2/packy-anderson.raku:5
