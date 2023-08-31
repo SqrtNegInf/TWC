@@ -1,10 +1,6 @@
 #!/usr/bin/env perl
-use v5.38;
-##
-# You are given a list of passenger details in the form “9999999999A1122”, where 9 denotes 
-# the phone number, A the sex, 1 the age and 2 the seat number.
-# Write a script to return the count of all senior citizens (age >= 60).
-##
+use v5.36;
+
 sub count_senior_citizens{
     my $count = 0;
     do{

@@ -1,12 +1,5 @@
 #!/usr/bin/env perl
-
-# You are given a list of passenger details in the form “9999999999A1122”,
-# where 9 denotes the phone number, A the gender, 1 the age and 2 the seat
-# number.  Write a script to return the count of all senior citizens (age >=
-# 60).
-
-use 5.036;
-use utf8;
+use v5.36;
 
 package Passenger;
 

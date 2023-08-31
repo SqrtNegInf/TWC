@@ -1,9 +1,8 @@
 #!/usr/bin/env perl
+use v5.16;
 
-use v5.16;    # The Weekly Challenge - 2023-08-21
-use utf8;     # Week 231 task 2 - Senior citizens
-use strict;   # Peter Campbell Smith
-use warnings; # Blog: http://ccgi.campbellsmiths.force9.co.uk/challenge
+use strict;
+use warnings;
 
 senior_citizens('7868190130M7522','5303914400F9211','9273338290F4010');
 senior_citizens('1313579440F2036','2921522980M5644');
