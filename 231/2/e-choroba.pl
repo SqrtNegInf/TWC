@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-
-use warnings;
-use strict;
-use experimental qw( signatures );
+use v5.36;
 
 sub senior_citizens(@list) {
     scalar grep +(/(..)..$/)[0] >= 60, @list
