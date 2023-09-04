@@ -484,10 +484,10 @@ Challenge titles and Rosetta-code correspondences (exact, and otherwise)
 230-2 Count Words
 231-1 Min Max
 231-2 Senior Citizens
-232-1
-232-2
-233-1
-233-2
+232-1 n/a
+232-2 n/a
+233-1 Similar Words
+233-2 Frequency Sort
 234-1
 234-2
 235-1
