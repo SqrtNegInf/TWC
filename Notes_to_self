@@ -2,6 +2,7 @@
 Repeated runs of 166* task failed to replicate the 'missing output' problem.
 The 044* task does appear to fail to 'converge' to a solution sometimes (timing varies a lot too).
 Using 'srand' stabilized the program running-time/output.
+p.s. caveat to above: *almost* stable (98/100 runs vs 8/10 before)
 
 2023-09-05
 '166/1/peter-campbell-smith.pl' produced no results yesterday??  What could account for this one-off failure?
