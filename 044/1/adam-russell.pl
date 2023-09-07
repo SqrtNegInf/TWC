@@ -1,6 +1,8 @@
 #!/usr/bin/env perl
 use v5.36;
 
+srand 1;
+
 use boolean;
 use AI::Genetic;
 
