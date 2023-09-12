@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use feature 'say';
+use v5.36;
 
 sub unique_srt {
     my %letters = map { $_ => 0 } split //, $_[0];

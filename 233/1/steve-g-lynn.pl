@@ -1,4 +1,5 @@
 #!/usr/bin/env perl
+use v5.36;
 
 print &similar_words("aba", "aabb", "abcd", "bac", "aabc"); #2
 print &similar_words("aabb", "ab", "ba"); #3
@@ -14,12 +15,12 @@ sub similar_words {
     };
     
     #-- trunk of subroutine
-    local %similar_words;
+    my %similar_words;
     foreach (@_) {
         $similar_words{ &chars($_) }++; 
     } 
     
-    local $similar_words=0; #-- return value
+    my $similar_words=0; #-- return value
     foreach (keys %similar_words) {
         $similar_words += &nC2( $similar_words{$_} );
     } 
@@ -29,7 +30,7 @@ sub similar_words {
 
 sub my_uniq {
     #-- homemade uniq (drop duplicates from an array)
-    local (%my_uniq);
+    my %my_uniq;
     foreach (@_) {$my_uniq{$_}=1}
     keys %my_uniq; 
 }

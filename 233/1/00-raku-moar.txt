@@ -21,8 +21,8 @@ Output: 21
  
 ===> 233/1/ash.raku <===
 Test case: [aba aabb abcd bac aabc]
-ab: [(aba aabb)]
 abc: [(bac aabc)]
+ab: [(aba aabb)]
 Answer: 2 pairs.
 
 Test case: [aabb ab ba]
@@ -86,8 +86,8 @@ Example 1:
 Input: @words = ("aba", "aabb", "abcd", "bac", "aabc")
 Output: 2
 
-Pair 1: similar words ("bac", "aabc")
-Pair 2: similar words ("aba", "aabb")
+Pair 1: similar words ("aba", "aabb")
+Pair 2: similar words ("bac", "aabc")
 
 Example 2:
 Input: @words = ("aabb", "ab", "ba")

@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-use v5.16;
-
-use strict;
-use warnings;
+use v5.36;
 
 similar_words('aba', 'aabb', 'abcd', 'bac', 'aabc');
 similar_words('aabb', 'ab', 'ba');

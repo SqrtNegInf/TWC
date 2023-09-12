@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-use v5.30;
-
-no warnings;
+use v5.36;
 
 my @words = ("aba", "aabb", "abcd", "bac", "aabc");
 
