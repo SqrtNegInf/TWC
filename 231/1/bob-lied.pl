@@ -42,15 +42,15 @@ sub minMax_sort(@list)
 
 sub runTest
 {
-    use Test2::V0;
+    use Test::More;
 
-    is( minMax(3,2,1,4), [3,2], "Example 1");
-    is( minMax(3,1),     [],    "Example 2");
-    is( minMax(2,1,3  ), [2],   "Example 3");
+    is_deeply( minMax(3,2,1,4), [3,2], "Example 1");
+    is_deeply( minMax(3,1),     [],    "Example 2");
+    is_deeply( minMax(2,1,3  ), [2],   "Example 3");
 
-    is( minMax_sort(3,2,1,4), [2,3], "Example 1");
-    is( minMax_sort(3,1),     [],    "Example 2");
-    is( minMax_sort(2,1,3  ), [2],   "Example 3");
+    is_deeply( minMax_sort(3,2,1,4), [2,3], "Example 1");
+    is_deeply( minMax_sort(3,1),     [],    "Example 2");
+    is_deeply( minMax_sort(2,1,3  ), [2],   "Example 3");
 
     done_testing;
 }
