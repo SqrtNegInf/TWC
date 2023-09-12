@@ -12,14 +12,12 @@ sub similar-words (+words) {
     andthen .sum
 }
 
-multi MAIN (Bool :test($)!) {
+#multi MAIN (Bool :test($)!) {
     use Test;
     is similar-words('aba', 'aabb', 'abcd', 'bac', 'aabc'), 2;
     is similar-words(<aabb ab ba>), 3;
     is similar-words(<nba cba dba>), 0;
     done-testing;
-}
+#}
 
-multi MAIN (+words) {
-    say similar-words words
-}
+#multi MAIN (+words) { say similar-words words }

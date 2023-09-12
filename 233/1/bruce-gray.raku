@@ -1,4 +1,5 @@
 #!/usr/bin/env raku
+
 sub task1 ( @words --> UInt ) {
     return @words.classify( *.comb.Set )
                  .values

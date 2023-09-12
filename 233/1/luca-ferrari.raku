@@ -1,13 +1,6 @@
 #!/usr/bin/env raku
 
-#
-# Perl Weekly Challenge 233
-# Task 1
-#
-# See <https://perlweeklychallenge.org/blog/perl-weekly-challenge-233/>
-#
-
-sub MAIN( *@words where { @words.elems > 1  } ) {
+sub MAIN( @words = ("aba", "aabb", "abcd", "bac", "aabc") ) {
     my %similars;
     for @words -> $word {
 	my $key = $word.comb.sort.join;

@@ -1,12 +1,7 @@
 #!/usr/bin/env raku
-=begin comment
-AUTHOR: Robert DiCicco
-DATE  : 2023-09-09
-Challenge 233 Task one Similar Words ( Raku )
-=end comment
 
-#my @words = ("aba", "aabb", "abcd", "bac", "aabc");
-my @words = ("aabb", "ab", "ba");
+my @words = ("aba", "aabb", "abcd", "bac", "aabc");
+#my @words = ("aabb", "ab", "ba");
 
 my $pairs = 0;
 my $cnt = 1;

@@ -1,7 +1,5 @@
 #!/usr/bin/env raku
 
-use v6.d;
-
 sub are-similar(Str:D $word1, Str:D $word2 --> Bool:D) {
     my $characters1 = Set($word1.comb);
     my $characters2 = Set($word2.comb);
@@ -13,7 +11,7 @@ sub similar-words(*@words --> Int:D) {
 }
 
 #| Run test cases
-multi sub MAIN('test') {
+#multi sub MAIN('test') {
     use Test;
     plan 3;
 
@@ -23,10 +21,10 @@ multi sub MAIN('test') {
         'works for ("aabb", "ab", "ba")';
     is similar-words("nba", "cba", "dba"), 0,
         'works for ("nba", "cba", "dba")';
-}
+#}
 
 #| Take user provided list like aba aabb abcd bac aabc
-multi sub MAIN(*@words where @words.elems ≥ 1) {
-    my Str @swords = @words;
-    say similar-words(@swords);
-}
+#multi sub MAIN(*@words where @words.elems ≥ 1) {
+#    my Str @swords = @words;
+#    say similar-words(@swords);
+#}

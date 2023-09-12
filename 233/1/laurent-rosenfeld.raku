@@ -1,4 +1,5 @@
 #!/usr/bin/env raku
+
 sub similar (@in) {
     my %words;
     %words{$_}++ for map { $_.comb.sort.squish.join("")}, @in;

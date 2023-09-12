@@ -1,0 +1,5 @@
+Type check failed in assignment to @words; expected Alpha but got Str ("ABC")
+  in sub run-tests at athanasius.raku line 162
+  in sub MAIN at athanasius.raku line 108
+  in block <unit> at athanasius.raku line 205
+

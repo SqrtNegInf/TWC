@@ -1,5 +1,4 @@
 #!/usr/bin/env raku
-use v6 ;
 
 #how many pairs can be formed if $n is the number of words with the same
 #letters ?
@@ -25,9 +24,7 @@ sub findCombinations( $num is copy ) {
    return $numerator div ( $denom * 2 ) ;
 }
 
-say "Enter some words, separated by blanks!" ;
-my $line = $*IN.get ;
-my @words = $line.words ;
+my @words = ("aba", "aabb", "abcd", "bac", "aabc");
 my @letters_in_word = @words.map( {$_.comb.unique.sort} ) ;#unique letters
 my %frequencies ;
 for @letters_in_word -> $word {
