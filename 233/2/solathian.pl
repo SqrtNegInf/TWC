@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
-use v5.38;
-use Data::Dumper;
+use v5.36;
+
 use experimental "for_list";
 
 # Challenge 233- 2 - Frequency Sort

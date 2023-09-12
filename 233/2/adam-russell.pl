@@ -1,10 +1,6 @@
 #!/usr/bin/env perl
-use v5.38;
-##
-# You are given an array of integers.
-# Write a script to sort the given array in increasing order based on the frequency of the 
-# values. If multiple values have the same frequency then sort them in decreasing order.
-##
+use v5.36;
+
 sub frequency_sort{
     my(@numbers) = @_;
     my %frequency;

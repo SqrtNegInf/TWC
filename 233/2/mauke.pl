@@ -1,7 +1,7 @@
 #!/usr/bin/env perl
 use v5.36;
 
-my @ints = @ARGV;
+my @ints = (1,1,2,2,2,3);
 
 my %seen;
 $seen{$_}++ for @ints;

@@ -22,4 +22,4 @@ sub main (@ints) {
     say '(', join( ',', @solution ), ')';
 }
 
-main(@ARGV);
+main((1,1,2,2,2,3));

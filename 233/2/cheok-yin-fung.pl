@@ -1,8 +1,7 @@
 #!/usr/bin/env perl
-# The Weekly challenge 233
-# Task 2 Frequency Sort
 use v5.30.0;
 use warnings;
+
 use List::MoreUtils qw/frequency/;
 
 sub fs {
