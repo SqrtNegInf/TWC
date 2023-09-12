@@ -1,7 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use strict;
-use warnings FATAL => qw(all);
 
 use Test2::V0 -srand => 1;
 

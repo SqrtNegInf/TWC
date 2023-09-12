@@ -1,5 +1,5 @@
 #!/usr/bin/env perl
-use v5.30;
+use v5.36;
 
 my @ints = (1,1,2,2,2,3);
 @ints = (2,3,1,3,2);
@@ -30,7 +30,7 @@ do {
 for (0 .. $#freq) {
     my $c = 0;
     do {
-	if ($freq[$_] == $freq[$_ + 1]) {
+	if ( defined $freq[$_] && defined $freq[$_+1] && $freq[$_] == $freq[$_ + 1]) {
 	    if ($key[$_] < $key[$_]) {
 		$c++;
 		swap(\@key, $_);

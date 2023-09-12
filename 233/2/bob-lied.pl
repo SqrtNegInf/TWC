@@ -20,11 +20,11 @@ sub frequencySort(@list)
 
 sub runTest
 {
-    use Test2::V0;
+    use Test::More;
 
-    is( frequencySort( 1,1,2,2,2,3 ),          [ 3,1,1,2,2,2 ], "Example 1");
-    is( frequencySort( 2,3,1,3,2   ),          [ 1,3,3,2,2   ], "Example 2");
-    is( frequencySort( -1,1,-6,4,5,-6,1,4,1 ), [ 5,-1,4,4,-6,-6,1,1,1 ], "Example 3");
+    is_deeply( frequencySort( 1,1,2,2,2,3 ),          [ 3,1,1,2,2,2 ], "Example 1");
+    is_deeply( frequencySort( 2,3,1,3,2   ),          [ 1,3,3,2,2   ], "Example 2");
+    is_deeply( frequencySort( -1,1,-6,4,5,-6,1,4,1 ), [ 5,-1,4,4,-6,-6,1,1,1 ], "Example 3");
 
     done_testing;
 }
