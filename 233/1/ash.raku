@@ -10,7 +10,7 @@ for @tests -> @words {
     my %classification = @words.classify(*.comb.unique.sort.join).grep(*.value.elems > 1);
 
     my $pairs = 0;
-    for %classification.kv -> $k, $v {
+    for %classification.kv.sort -> $k, $v {
         my @pairs = $v.combinations(2);
         $pairs += @pairs.elems;
 
