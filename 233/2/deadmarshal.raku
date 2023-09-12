@@ -1,7 +1,6 @@
 #!/usr/bin/env raku
 
-sub frequency-sort(@arr)
-{
+sub frequency-sort(@arr) {
   my %h;
   %h{$_}++ for @arr;
   @arr.sort: {%h{$^a} <=> %h{$^b} || $^b <=> $^a};

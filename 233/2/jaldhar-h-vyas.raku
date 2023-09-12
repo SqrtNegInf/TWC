@@ -1,7 +1,7 @@
 #!/usr/bin/env raku
 
 sub MAIN(
-    *@ints
+    @ints = (1,1,2,2,2,3)
 ) {
     my %freq = @ints.classify({$_});
 

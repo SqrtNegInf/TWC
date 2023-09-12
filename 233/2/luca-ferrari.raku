@@ -1,13 +1,6 @@
 #!/usr/bin/env raku
 
-#
-# Perl Weekly Challenge 233
-# Task 2
-#
-# See <https://perlweeklychallenge.org/blog/perl-weekly-challenge-233/>
-#
-
-sub MAIN( *@nums where { @nums.elems == @nums.grep( * ~~ Int ) } ) {
+sub MAIN( @nums where { @nums.elems == @nums.grep( * ~~ Int ) } = (1,1,2,2,2,3) ) {
     my %sorting;
     for @nums -> $current {
 	my $frequency = @nums.grep( * == $current ).elems;

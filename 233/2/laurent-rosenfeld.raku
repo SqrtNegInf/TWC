@@ -1,4 +1,5 @@
 #!/usr/bin/env raku
+
 sub special-comp {
     return $^b <=> $^a if %*histo{$^a} == %*histo{$^b};
     return %*histo{$^a} <=> %*histo{$^b};

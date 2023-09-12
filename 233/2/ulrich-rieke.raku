@@ -1,13 +1,10 @@
 #!/usr/bin/env raku
-use v6 ;
 
 sub count( @array , $element ) {
    return @array.grep( {$_ == $element} ).elems ;
 }
 
-say "Enter some integers, separated by blanks!" ;
-my $line = $*IN.get ;
-my @numbers = $line.words.map( {.Int} ) ;
+my @numbers = (1,1,2,2,2,3);
 my @uniques = @numbers.unique ;
 my %frequencies ;
 for @uniques -> $num {

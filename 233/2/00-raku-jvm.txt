@@ -1,0 +1,86 @@
+ 
+===> 233/2/0rir.raku <===
+1..3
+ok 1 - 3 1 1 2 2 2 <- 1 1 2 2 2 3
+ok 2 - 1 3 3 2 2 <- 2 3 1 3 2
+ok 3 - 5 -1 4 4 -6 -6 1 1 1 <- -1 1 -6 4 5 -6 1 4 1
+
+
+Input: @int = 5 5 5 5 5 1 -2 -2 -4 -4 -4 -4 4 4 4 4 -5 -5 -5 -5 -5 -1
+Ouput: 1 -1 -2 -2 4 4 4 4 -4 -4 -4 -4 5 5 5 5 5 -5 -5 -5 -5 -5
+ 
+===> 233/2/2colours.raku <===
+(3, 1, 1, 2, 2, 2)
+ 
+===> 233/2/arne-sommer.raku <===
+(3,1,1,2,2,2)
+ 
+===> 233/2/ash.raku <===
+[3 1 1 2 2 2]
+[1 3 3 2 2]
+[5 -1 4 4 -6 -6 1 1 1]
+ 
+===> 233/2/athanasius.raku <===
+Running the test suite
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+1..3
+ 
+===> 233/2/barroff.raku <===
+1..3
+ok 1 - works for (1,1,2,2,2,3)
+ok 2 - works for (2,3,1,3,2)
+ok 3 - works for (-1,1,-6,4,5,-6,1,4,1)
+ 
+===> 233/2/bruce-gray.raku <===
+1..3
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ 
+===> 233/2/deadmarshal.raku <===
+(3 1 1 2 2 2)
+(1 3 3 2 2)
+(5 -1 4 4 -6 -6 1 1 1)
+ 
+===> 233/2/jaldhar-h-vyas.raku <===
+(3,1,1,2,2,2)
+ 
+===> 233/2/laurent-rosenfeld.raku <===
+1 1 2 2 2 3               => [3 1 1 2 2 2]
+2 3 1 3 2                 => [1 3 3 2 2]
+-1 1 -6 4 5 -6 1 4 1      => [5 -1 4 4 -6 -6 1 1 1]
+ 
+===> 233/2/luca-ferrari.raku <===
+3
+1
+2
+ 
+===> 233/2/mark-anderson.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ 
+===> 233/2/massa.raku <===
+1..3
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ 
+===> 233/2/packy-anderson.raku <===
+ 
+===> 233/2/roger-bell-west.raku <===
+1..3
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ 
+===> 233/2/ulrich-rieke.raku <===
+(3,1,1,2,2,2)
+ 
+===> 233/2/wambash.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+1..3

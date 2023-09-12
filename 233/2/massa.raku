@@ -1,6 +1,5 @@
 #!/usr/bin/env raku
 
-use v6.d;
 use Test;
 
 plan 3;

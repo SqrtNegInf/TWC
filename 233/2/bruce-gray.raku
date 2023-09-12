@@ -1,4 +1,5 @@
 #!/usr/bin/env raku
+
 sub task2 ( @ns ) {
     return @ns.Bag.sort({ .value, -.key }).map({ .key xx .value }).flat;
 
