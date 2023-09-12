@@ -4,7 +4,6 @@ print &similar_words("aba", "aabb", "abcd", "bac", "aabc"); #2
 print &similar_words("aabb", "ab", "ba"); #3
 print &similar_words("nba", "cba", "dba"); #0
 
-
 sub similar_words {
 
     #-- helper sub to extract unique chars

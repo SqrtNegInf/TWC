@@ -1,6 +1,8 @@
 #!/usr/bin/env perl
+
 use strict;
 use warnings;
+
 use List::Util qw(uniq sum0);
 
 sub similar_words{

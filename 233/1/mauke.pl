@@ -1,12 +1,13 @@
 #!/usr/bin/env perl
 use v5.36;
+
 use List::Util qw(uniqstr);
 
 sub normalize($word) {
     join '', uniqstr sort split //, $word
 }
 
-my @words = @ARGV;
+my @words = ("aba", "aabb", "abcd", "bac", "aabc");
 
 my $similar = 0;
 

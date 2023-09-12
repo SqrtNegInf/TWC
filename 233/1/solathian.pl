@@ -1,18 +1,9 @@
 #!/usr/bin/env perl
-use v5.38;
-
-# Challenge 233 - 1 - Similar Words
-# You are given an array of words made up of alphabets only.
-# Write a script to find the number of pairs of similar words. Two words are similar if they consist of the same characters.
-
-
-# Input: @words = ("aba", "aabb", "abcd", "bac", "aabc")
-# Output: 2
+use v5.36;
 
 simWords ("aba", "aabb", "abcd", "bac", "aabc");        # 2
 simWords ("aabb", "ab", "ba");                          # 3
 simWords ("nba", "cba", "dba");                         # 0
-
 
 sub simWords(@array)
 {

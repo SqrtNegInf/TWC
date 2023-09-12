@@ -1,9 +1,8 @@
 #!/usr/bin/env perl
+use v5.16;
 
-use v5.16;    # The Weekly Challenge - 2023-09-04
-use utf8;     # Week 233 task 1 - Similar words
-use strict;   # Peter Campbell Smith
-use warnings; # Blog: http://ccgi.campbellsmiths.force9.co.uk/challenge
+use strict;
+use warnings;
 
 similar_words('aba', 'aabb', 'abcd', 'bac', 'aabc');
 similar_words('aabb', 'ab', 'ba');

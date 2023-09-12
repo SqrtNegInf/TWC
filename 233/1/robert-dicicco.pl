@@ -1,16 +1,11 @@
 #!/usr/bin/env perl
-=begin comment
-AUTHOR: Robert DiCicco
-DATE  : 2023-09-09
-Challenge 233 Task one Similar Words ( Perl )
-=cut
+use v5.36;
 
-use v5.38;
 use List::Util qw/uniq/;
 use Algorithm::Combinatorics qw/combinations/;
 
-#my @words = ("aba", "aabb", "abcd", "bac", "aabc");
-my @words = ("aabb", "ab", "ba");
+my @words = ("aba", "aabb", "abcd", "bac", "aabc");
+#my @words = ("aabb", "ab", "ba");
 my $pairs = 0;
 my $cnt = 1;
 
@@ -26,20 +21,3 @@ my $iter = combinations(\@words, 2);
         }
     }
 say("Output: $pairs");
-
-=begin comment
-SAMPLE OUTPUT
-perl .\SimilarWords.pl
-
-Input: @words = [aba aabb abcd bac aabc]
-        pair1 [aba aabb]
-        pair2 [bac aabc]
-Output: 2
-
-perl .\SimilarWords.pl
-Input: @words = [aabb ab ba]
-        pair1 [aabb ab]
-        pair2 [aabb ba]
-        pair3 [ab ba]
-Output: 3
-=cut

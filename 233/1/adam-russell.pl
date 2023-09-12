@@ -1,10 +1,6 @@
 #!/usr/bin/env perl
-use v5.38;
-##
-# You are given an array of words made up of alphabets only. Write a script to find the 
-# number of pairs of similar words. Two words are similar if they consist of the same 
-# characters.
-##
+use v5.36;
+
 use boolean;
 
 sub is_similar{

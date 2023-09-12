@@ -1,22 +1,4 @@
 #!/usr/bin/env perl
-
-=pod
-
-The Weekly Challenge - 233
-- https://theweeklychallenge.org/blog/perl-weekly-challenge-233
-
-Author: Niels 'PerlBoy' van Dijke
-
-Task 1: Similar Words
-Submitted by: Mohammad S Anwar
-
-You are given an array of words made up of alphabets only.
-
-Write a script to find the number of pairs of similar words. 
-Two words are similar if they consist of the same characters.
-
-=cut
-
 use v5.16;
 
 use common::sense;

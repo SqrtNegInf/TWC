@@ -1,9 +1,10 @@
 #!/usr/bin/env perl
 use v5.30;
+
 no warnings;
+
 my @words = ("aba", "aabb", "abcd", "bac", "aabc");
-#@words = ("aabb", "ab", "ba");
-#@words = ("nba", "cba", "dba");
+
 my $count = 0;
 my $output;
 for my $i (0 .. $#words - 1) {

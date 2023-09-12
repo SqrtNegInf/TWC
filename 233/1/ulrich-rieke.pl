@@ -2,6 +2,7 @@
 use strict ;
 use warnings ;
 use feature 'say' ;
+
 use List::Util qw ( product ) ;
 
 #given a number of words with the same numbers, how many pairs can be
@@ -31,9 +32,7 @@ sub myCombinations {
 }
 
 say "Enter some words, separated by blanks!" ;
-my $line = <STDIN> ;
-chomp $line ;
-my @words = split( /\s/ , $line ) ;
+my @words = ("aba", "aabb", "abcd", "bac", "aabc");
 my %uniques ;#unique letters per entered word
 my %lettercombis ; #all different unique letter combinations
 for my $word ( @words ) {
