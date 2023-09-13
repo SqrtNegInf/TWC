@@ -52,17 +52,17 @@ sub similarWords(@wordList)
 
 sub runTest
 {
-    use Test2::V0;
+    use Test::More;
 
-    is(similarWords( qw(aba aabb abcvd bac aabc) ), 2, "Example 1");
-    is(similarWords( qw(aabb ab ba             ) ), 3, "Example 2");
-    is(similarWords( qw(nba cba dba            ) ), 0, "Example 3");
+    is_deeply(similarWords( qw(aba aabb abcvd bac aabc) ), 2, "Example 1");
+    is_deeply(similarWords( qw(aabb ab ba             ) ), 3, "Example 2");
+    is_deeply(similarWords( qw(nba cba dba            ) ), 0, "Example 3");
 
 
-    is(similarWords( "", qw(nba cba dba            ) ), 0, "Zero length word");
-    is(similarWords( "", qw(bba aba dba            ) ), 1, "Zero length word with a pair`");
+    is_deeply(similarWords( "", qw(nba cba dba            ) ), 0, "Zero length word");
+    is_deeply(similarWords( "", qw(bba aba dba            ) ), 1, "Zero length word with a pair`");
 
-    is(similarWords( qw(abc abc abc abc        ) ), 6, "Duplicates");
+    is_deeply(similarWords( qw(abc abc abc abc        ) ), 6, "Duplicates");
 
     done_testing;
 }

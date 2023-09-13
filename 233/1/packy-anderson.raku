@@ -50,7 +50,7 @@ sub solution {
 
   say 'Output: ' ~ @pairs.elems;
   my $count = 0;
-  for @pairs -> $pair {
+  for @pairs.sort -> $pair {
     say "" if $count == 0;
     say 'Pair ' ~ ++$count ~ ': similar words ("'
       ~ $pair.join('", "') ~ '")';

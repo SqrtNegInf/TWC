@@ -21,13 +21,13 @@ Output: 21
  
 ===> 233/1/ash.raku <===
 Test case: [aba aabb abcd bac aabc]
-abc: [(bac aabc)]
 ab: [(aba aabb)]
+abc: [(bac aabc)]
 Answer: 2 pairs.
 
 Test case: [aabb ab ba]
-ab: [(aabb ab) (aabb ba) (ab ba)]
-Answer: 3 pairs.
+aabb ab ba: []
+Answer: 0 pairs.
 
 Test case: [nba cba dba]
 Answer: 0 pairs.
