@@ -12,10 +12,7 @@ sub count {
    return scalar ( grep { $_ eq $letter } split( // , $word ) ) ;
 }
 
-say "Enter some words, separated by blanks!" ;
-my $line = <STDIN> ;
-chomp $line ;
-my @words = split( /\s/ , $line ) ;
+my @words = ("java", "javascript", "julia");
 my $len = scalar( @words ) ;
 my %frequencies ;
 for my $letter( split( // , $words[0] )) {

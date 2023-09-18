@@ -39,7 +39,7 @@ Output: ("p")
 ===> 234/1/deadmarshal.pl <===
 (j,a)
 (l,l,e)
-(o,c)
+(c,o)
  
 ===> 234/1/e-choroba.pl <===
 # Seeded srand with seed '1' from import arg.
@@ -50,14 +50,22 @@ ok 3 - Example 3
 ok 4 - No common chars
  
 ===> 234/1/jo-37.pl <===
+# Seeded srand with seed '1' from import arg.
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ok 4 - no common chars
+ok 5 - single word
+ok 6 - regex meta chars
+1..6
  
 ===> 234/1/laurent-rosenfeld.pl <===
-java javascript julia     => a j
-bella label roller        => e l
-cool lock cook            => o c
+java javascript julia     => j a
+bella label roller        => l e
+cool lock cook            => c o
  
 ===> 234/1/lubos-kolouch.pl <===
-j, a
+a, j
 l, e
 o, c
  
@@ -87,15 +95,15 @@ ok 3 - ["cool", "lock", "cook"]
 ===> 234/1/robert-dicicco.pl <===
 wordnum = 3
 Input: @words = (java javascript julia)
-Output: (a j )
+Output: (j a )
 
 wordnum = 3
 Input: @words = (bella label roller)
-Output: (l l e )
+Output: (e l l )
 
 wordnum = 3
 Input: @words = (cool lock cook)
-Output: (o c )
+Output: (c o )
 
  
 ===> 234/1/roger-bell-west.pl <===
@@ -118,3 +126,7 @@ ell
 co
  
 ===> 234/1/ulrich-rieke.pl <===
+(a,j)
+ 
+===> 234/1/wlmb.pl <===
+java javascript julia -> j a
