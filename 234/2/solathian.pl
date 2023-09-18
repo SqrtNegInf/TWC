@@ -1,14 +1,8 @@
 #!/usr/bin/env perl
-use v5.38;
+use v5.36;
 
 use builtin 'indexed';
 no warnings 'experimental';
-# Challenge 234 - 2 - Unequal Triplets
-
-# You are given an array of positive integers.
-# Write a script to find the number of triplets (i, j, k) 
-# that satisfies num[i] != num[j], num[j] != num[k] and num[k] != num[i].
-
 
 uneqTrip(4, 4, 2, 4, 3);                 # Output 3
 uneqTrip(1, 1, 1, 1, 1);                 # Ouput: 0

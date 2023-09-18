@@ -1,9 +1,9 @@
 #!/usr/bin/env perl
 
-use v5.16;    # The Weekly Challenge - 2023-09-11
-use utf8;     # Week 234 task 2 - Unequal triplets
-use strict;   # Peter Campbell Smith
-use warnings; # Blog: http://ccgi.campbellsmiths.force9.co.uk/challenge
+use v5.16;
+
+use strict;
+use warnings;
 
 srand 1;
 

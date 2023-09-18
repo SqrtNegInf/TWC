@@ -1,11 +1,13 @@
 #!/usr/bin/env perl
 
-#-- sticking to perl 4 syntax
-
+#-- sticking to perl 4 syntax # DH bizarre
 
 print &unequal_triplets(4,4,2,4,3); #3
+print "\n";
 print &unequal_triplets(1,1,1,1,1); #0
+print "\n";
 print &unequal_triplets(4,7,1,10,7,4,1,1); #28
+print "\n";
 
 sub unequal_triplets {
     local (%unequal_triplets, $unequal_triplets);

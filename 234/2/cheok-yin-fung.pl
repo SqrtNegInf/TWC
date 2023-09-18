@@ -1,9 +1,8 @@
 #!/usr/bin/env perl
-# The Weekly Challenge 234
-# Task 2 Unequal Triplets
 
 use v5.30.0;
 use warnings;
+
 use List::MoreUtils qw/frequency/;
 
 sub ut {

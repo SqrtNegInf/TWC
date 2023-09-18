@@ -31,4 +31,4 @@ sub main (@ints) {
     say $solutions;
 }
 
-main(@ARGV);
+main( (4, 4, 2, 4, 3) );

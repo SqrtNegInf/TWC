@@ -1,27 +1,4 @@
 #!/usr/bin/env perl
-# vim:set ts=4 sw=4 sts=4 et ai wm=0 nu:
-#=============================================================================
-# ch-2.pl Perl Weekly Challenge Task 2 Unequal Triplets 
-#=============================================================================
-# Copyright (c) 2023, Bob Lied
-#=============================================================================
-# You are given an array of positive integers.
-# Write a script to find the number of triplets (i, j, k) that satisfies
-# num[i] != num[j], num[j] != num[k] and num[k] != num[i].
-# Example 1 Input: @ints = (4, 4, 2, 4, 3)
-#           Output: 3
-#   (0, 2, 4) because 4 != 2 != 3
-#   (1, 2, 4) because 4 != 2 != 3
-#   (2, 3, 4) because 2 != 4 != 3
-# Example 2 Input: @ints = (1, 1, 1, 1, 1)
-#           Output: 0
-# Example 3 Input: @ints = (4, 7, 1, 10, 7, 4, 1, 1)
-#           Output: 28
-#   triplets of 1, 4, 7  = 3x2×2 = 12 combinations
-#   triplets of 1, 4, 10 = 3×2×1 = 6  combinations
-#   triplets of 4, 7, 10 = 2×2×1 = 4  combinations
-#   triplets of 1, 7, 10 = 3x2x1 = 6 combinations
-#=============================================================================
 
 use v5.36;
 
@@ -30,7 +7,7 @@ my $Verbose = 0;
 my $DoTest  = 0;
 
 GetOptions("test" => \$DoTest, "verbose" => \$Verbose);
-exit(!runTest()) if $DoTest;
+runTest();exit;
 
 sub unequalTriplets(@num)
 {

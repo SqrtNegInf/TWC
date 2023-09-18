@@ -1,12 +1,12 @@
 #!/usr/bin/env perl
-
 use v5.24;
+
 use Test2::V0 -srand => 1;
 use List::Util 'pairvalues';
 use List::MoreUtils 'frequency';
 use Math::Prime::Util qw(vecprod forcomb);
 
-our ($tests, $examples, $k);
+our ($tests, $examples, $k) = (1,1);
 $k //= 3;
 
 run_tests() if $tests || $examples;	# does not return

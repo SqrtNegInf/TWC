@@ -2,12 +2,10 @@
 use strict ;
 use warnings ;
 use feature 'say' ;
+
 use Algorithm::Combinatorics qw ( combinations ) ;
 
-say "Enter some positive integers, separated by spaces!" ;
-my $line = <STDIN> ;
-chomp $line ;
-my @numbers = split( /\s/ , $line ) ;
+my @numbers = (4, 4, 2, 4, 3);
 my %frequencies ;
 for my $n ( @numbers ) {
    $frequencies{ $n }++ ;
