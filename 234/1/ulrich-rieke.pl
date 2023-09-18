@@ -1,7 +1,9 @@
 #!/usr/bin/env perl
+
 use strict ;
 use warnings ;
 use feature 'say' ;
+
 use List::Util qw ( min ) ;
 
 sub count {

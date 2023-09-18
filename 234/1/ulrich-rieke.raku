@@ -1,14 +1,11 @@
 #!/usr/bin/env raku
-use v6 ;
 
 sub count( $word , $letter ) {
    my @letters = $word.comb ;
    return @letters.grep( {$_ eq $letter} ).elems ;
 }
 
-say "Enter some words, separated by spaces!" ;
-my $line = $*IN.get ;
-my @words = $line.words ;
+my @words = ("java", "javascript", "julia");
 my @sets = @words.map( {$_.comb.Set} ) ;#find unique characters in every word
 my $allCommon = [(&)] @sets ;#common letters in all words
 my @result ;

@@ -23,4 +23,4 @@ sub main (@words) {
 
 }
 
-main(@ARGV);
+main( ("java", "javascript", "julia") );

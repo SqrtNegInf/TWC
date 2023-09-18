@@ -1,4 +1,5 @@
 #!/usr/bin/env raku
+
 sub common-characters(@words) {
     # Convert the first word into a set of characters
     my $common-set = @words[0].comb.Set;

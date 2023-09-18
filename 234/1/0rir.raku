@@ -1,27 +1,6 @@
 #!/usr/bin/env raku
-# :vim ft=raku sw=4 expandtab  # 🦋 ∅∪∩∋∈∉ ≡ ≢ «␤ » ;
-use v6.d;
-use lib $?FILE.IO.cleanup.parent(2).add("lib");
+
 use Test;
-
-=begin comment
-234-1: Common Characters
-Submitted by: Mohammad S Anwar
-You are given an array of words made up of alphabetic characters only.
-
-Write a script to return all alphabetic characters that show up in all words including duplicates.
-
-Example 1
-Input: @words = ("java", "javascript", "julia")
-Output: ("j", "a")
-Example 2
-Input: @words = ("bella", "label", "roller")
-Output: ("e", "l", "l")
-Example 3
-Input: @words = ("cool", "lock", "cook")
-Output: ("c", "o")
-
-=end comment
 
 my @Test =
     ("j" => 1, "a" =>1).sort,    ("java", "javascript", "julia"),

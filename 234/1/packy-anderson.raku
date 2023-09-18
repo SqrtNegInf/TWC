@@ -1,7 +1,5 @@
 #!/usr/bin/env raku
 
-use v6;
-
 sub charFrequency(Str $word) {
   my %freq;
   for $word.split('', :skip-empty) -> $c {

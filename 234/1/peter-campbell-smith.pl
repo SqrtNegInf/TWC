@@ -1,9 +1,9 @@
 #!/usr/bin/env perl
 
-use v5.16;    # The Weekly Challenge - 2023-09-11
-use utf8;     # Week 234 task 1 - Common characters
-use strict;   # Peter Campbell Smith
-use warnings; # Blog: http://ccgi.campbellsmiths.force9.co.uk/challenge
+use v5.16;
+
+use strict;
+use warnings;
 
 common_characters('java', 'javascript', 'julia');
 common_characters('bella', 'label', 'roller'); 

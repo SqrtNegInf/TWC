@@ -1,0 +1,103 @@
+ 
+===> 234/1/0rir.raku <===
+1..3
+ok 1 - (:a(1), :j(1)) <- ("java", "javascript", "julia")
+ok 2 - (:e(1), :l(2)) <- ("bella", "label", "roller")
+ok 3 - (:c(1), :o(1)) <- ("cool", "lock", "cook")
+
+Input: @word = ["bella", "label", "roller"]
+Output: e, l, l
+ 
+===> 234/1/arne-sommer.raku <===
+("j", "a")
+ 
+===> 234/1/athanasius.raku <===
+Running the test suite
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ok 4 - Mixed case
+1..4
+ 
+===> 234/1/barroff.raku <===
+1..3
+ok 1 - works for ("java", "javascript", "julia")
+ok 2 - works for ("bella", "label", "roller")
+ok 3 - works for ("cool", "lock", "cook")
+ 
+===> 234/1/bruce-gray.raku <===
+1..3
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ 
+===> 234/1/deadmarshal.raku <===
+( j a)
+(  e ll)
+( o c)
+ 
+===> 234/1/laurent-rosenfeld.raku <===
+java javascript julia     => j a
+bella label roller        => e l
+cool lock cook            => c o
+ 
+===> 234/1/lubos-kolouch.raku <===
+(a j)
+(e l)
+(c o)
+ 
+===> 234/1/luca-ferrari.raku <===
+a
+j
+ 
+===> 234/1/mark-anderson.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ 
+===> 234/1/massa.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ 
+===> 234/1/packy-anderson.raku <===
+Example 1:
+Input: @words = ("java", "javascript", "julia")
+Output: ("j", "a")
+
+Example 2:
+Input: @words = ("bella", "label", "roller")
+Output: ("e", "l", "l")
+
+Example 3:
+Input: @words = ("cool", "lock", "cook")
+Output: ("c", "o")
+ 
+===> 234/1/rcmlz.raku <===
+(j a)
+ 
+===> 234/1/robert-dicicco.raku <===
+Input: @words = [java javascript julia]
+Output: (j a )
+
+Input: @words = [bella label roller]
+Output: (e l l )
+
+Input: @words = [cool lock cook]
+Output: (o c )
+
+ 
+===> 234/1/roger-bell-west.raku <===
+1..3
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ 
+===> 234/1/ulrich-rieke.raku <===
+(a,j)
+ 
+===> 234/1/wambash.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+1..3

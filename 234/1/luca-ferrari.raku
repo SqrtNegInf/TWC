@@ -1,13 +1,6 @@
 #!/usr/bin/env raku
 
-#
-# Perl Weekly Challenge 234
-# Task 1
-#
-# See <https://perlweeklychallenge.org/blog/perl-weekly-challenge-234/>
-#
-
-sub MAIN( *@words ) {
+sub MAIN( @words = ("java", "javascript", "julia") ) {
     my %chars;
     for @words -> $current_word {
 	for $current_word.comb.unique.sort {

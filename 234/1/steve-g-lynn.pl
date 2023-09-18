@@ -1,11 +1,13 @@
 #!/usr/bin/env perl
 
-#-- sticking to perl 4 syntax only
-#
+#-- sticking to perl 4 syntax only # DH bizarre
 
 print &common_characters("java","javascript","julia"); #aj
+print "\n";
 print &common_characters("bella","label","roller");  #ell
+print "\n";
 print &common_characters("cool","lock","cook"); #co
+print "\n";
 
 sub common_characters {
     #-- if just one element return it

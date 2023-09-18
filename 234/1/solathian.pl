@@ -1,10 +1,5 @@
 #!/usr/bin/env perl
-use v5.38;
-
-# Challenge 234 - 1 - Common Characters
-# You are given an array of words made up of alphabetic characters only.
-# Write a script to return all alphabetic characters that show up in all words including duplicates.
-
+use v5.36;
 
 words("cool", "lock", "cook");              # Output: ("c", "o")
 words("bella", "label", "roller");          # Output: ("e", "l", "l")
@@ -41,4 +36,3 @@ OUTER:
     # print result
     say join ",", sort   @result;
 }
-

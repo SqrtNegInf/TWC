@@ -1,32 +1,15 @@
 #!/usr/bin/env perl
-# vim:set ts=4 sw=4 sts=4 et ai wm=0 nu:
-#=============================================================================
-# ch-1.pl Perl Weekly Challenge 234 Task 1 Common Characters 
-#=============================================================================
-# Copyright (c) 2023, Bob Lied
-#=============================================================================
-# You are given an array of words made up of alphabetic characters only.
-# Write a script to return all alphabetic characters that show up in all
-# words including duplicates.
-# Example 1 Input: @words = ("java", "javascript", "julia")
-#           Output: ("j", "a")
-# Example 2 Input: @words = ("bella", "label", "roller")
-#           Output: ("e", "l", "l")
-# Example 3 Input: @words = ("cool", "lock", "cook")
-#           Output: ("c", "o")
-#=============================================================================
 
-use v5.38;
+use v5.36;
 
 use Getopt::Long;
 my $Verbose = 0;
 my $DoTest  = 0;
 
 GetOptions("test" => \$DoTest, "verbose" => \$Verbose);
-exit(!runTest()) if $DoTest;
+runTest(); exit;
 
-sub commonCharacters(@words)
-{
+sub commonCharacters(@words) {
     use List::Util qw/all/;
 
     return [] unless @words;
@@ -55,16 +38,16 @@ sub commonCharacters(@words)
 
 sub runTest
 {
-    use Test2::V0;
+    use Test::More;
 
-    is( commonCharacters("java", "javascript", "julia"), ["j", "a"],      "Example 1");
-    is( commonCharacters("bella", "label", "roller"),    ["e", "l", "l"], "Example 2");
-    is( commonCharacters("cool", "lock", "cook"),        ["c", "o"],      "Example 3");
+    is_deeply( commonCharacters("java", "javascript", "julia"), ["j", "a"],      "Example 1");
+    is_deeply( commonCharacters("bella", "label", "roller"),    ["e", "l", "l"], "Example 2");
+    is_deeply( commonCharacters("cool", "lock", "cook"),        ["c", "o"],      "Example 3");
 
-    is( commonCharacters("abc", "def", "xyz"),        [],       "No common");
-    is( commonCharacters("ghi", "ghi", "ghi"), ["g", "h", "i"], "All common");
-    is( commonCharacters("one"), ["o", "n", "e"], "One word");
-    is( commonCharacters(), [], "Empty list");
+    is_deeply( commonCharacters("abc", "def", "xyz"),        [],       "No common");
+    is_deeply( commonCharacters("ghi", "ghi", "ghi"), ["g", "h", "i"], "All common");
+    is_deeply( commonCharacters("one"), ["o", "n", "e"], "One word");
+    is_deeply( commonCharacters(), [], "Empty list");
 
     done_testing;
 }

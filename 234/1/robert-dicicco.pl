@@ -1,12 +1,5 @@
 #!/usr/bin/env perl
-=begin comment
-------------------------------------------------
-AUTHOR: Robert DiCicco
-DATE  : 2023-09-13
-Challenge 234 Task 1 Common Characters ( Perl )
-------------------------------------------------
-=cut
-use v5.38;
+use v5.36;
 
 my @wordlist = (["java", "javascript", "julia"],["bella", "label", "roller"],["cool", "lock", "cook"]);
 
@@ -35,24 +28,3 @@ for my $wds ( @wordlist) {
     }
     print ")\n\n";
 }
-
-=begin comment
-------------------------------------------------
-SAMPLE OUTPUT
-perl .\CommonCharacters.pl
-
-wordnum = 3
-Input: @words = (java javascript julia)
-Output: (a j )
-
-wordnum = 3
-Input: @words = (bella label roller)
-Output: (e l l )
-
-wordnum = 3
-Input: @words = (cool lock cook)
-Output: (o c )
-------------------------------------------------
-=cut
-
-

@@ -1,7 +1,5 @@
 #!/usr/bin/env raku
 
-use v6.d;
-
 sub common-characters(*@words --> Seq) {
     my $wb = [∩] map({ Bag($_.comb) }, @words);
     my $final-string = [~] map({ $_ x $wb{$_} }, keys $wb);
@@ -9,7 +7,7 @@ sub common-characters(*@words --> Seq) {
 }
 
 #| Run test cases
-multi sub MAIN('test') {
+#multi sub MAIN('test') {
     use Test;
     plan 3;
 
@@ -19,10 +17,10 @@ multi sub MAIN('test') {
         'works for ("bella", "label", "roller")';
     is common-characters("cool", "lock", "cook"), ("c", "o"),
         'works for ("cool", "lock", "cook")';
-}
+#}
 
 #| Take user provided list like aba aabb abcd bac aabc
-multi sub MAIN(*@words where @words.elems ≥ 1) {
-    my Str @swords = @words;
-    say common-characters(@swords);
-}
+#multi sub MAIN(*@words where @words.elems ≥ 1) {
+#    my Str @swords = @words;
+#    say common-characters(@swords);
+#}

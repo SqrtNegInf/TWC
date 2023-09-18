@@ -1,0 +1,120 @@
+ 
+===> 234/1/athanasius.pl <===
+Running the test suite
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ok 4 - Mixed case
+1..4
+ 
+===> 234/1/bob-lied.pl <===
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ok 4 - No common
+ok 5 - All common
+ok 6 - One word
+ok 7 - Empty list
+1..7
+ 
+===> 234/1/cheok-yin-fung.pl <===
+a j
+e l l
+c o
+ 
+===> 234/1/dave-jacoby.pl <===
+Input:  @words = ("java", "javascript", "julia")
+Output: ("a", "j")
+
+Input:  @words = ("bella", "label", "roller")
+Output: ("e", "l", "l")
+
+Input:  @words = ("cool", "lock", "cook")
+Output: ("c", "o")
+
+Input:  @words = ("pizza", "prince", "pepper", "pauper")
+Output: ("p")
+
+ 
+===> 234/1/deadmarshal.pl <===
+(j,a)
+(l,l,e)
+(o,c)
+ 
+===> 234/1/e-choroba.pl <===
+# Seeded srand with seed '1' from import arg.
+1..4
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ok 4 - No common chars
+ 
+===> 234/1/jo-37.pl <===
+ 
+===> 234/1/laurent-rosenfeld.pl <===
+java javascript julia     => a j
+bella label roller        => e l
+cool lock cook            => o c
+ 
+===> 234/1/lubos-kolouch.pl <===
+j, a
+l, e
+o, c
+ 
+===> 234/1/peter-campbell-smith.pl <===
+
+Input:  @words = ('java', 'javascript', 'julia')
+Output: ('a', 'j')
+
+Input:  @words = ('bella', 'label', 'roller')
+Output: ('e', 'l', 'l')
+
+Input:  @words = ('cool', 'lock', 'cook')
+Output: ('c', 'o')
+
+Input:  @words = ('abcdefffffgh', 'deffffxudlge', 'jrwtsiffftmhdeff', 'deffxxxxxxx', 'xxexxxdxfxxxxf')
+Output: ('d', 'e', 'f', 'f')
+
+Input:  @words = ('abc', 'def', 'ghi')
+Output: ('')
+ 
+===> 234/1/peter-meszaros.pl <===
+ok 1 - ["java", "javascript", "julia"]
+ok 2 - ["bella", "label", "roller"]
+ok 3 - ["cool", "lock", "cook"]
+1..3
+ 
+===> 234/1/robert-dicicco.pl <===
+wordnum = 3
+Input: @words = (java javascript julia)
+Output: (a j )
+
+wordnum = 3
+Input: @words = (bella label roller)
+Output: (l l e )
+
+wordnum = 3
+Input: @words = (cool lock cook)
+Output: (o c )
+
+ 
+===> 234/1/roger-bell-west.pl <===
+1..3
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ 
+===> 234/1/sgreen.pl <===
+a, j 
+===> 234/1/solathian.pl <===
+c,o
+e,l,l
+a,j
+a,j
+ 
+===> 234/1/steve-g-lynn.pl <===
+aj
+ell
+co
+ 
+===> 234/1/ulrich-rieke.pl <===
