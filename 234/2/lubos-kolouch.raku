@@ -1,4 +1,5 @@
 #!/usr/bin/env raku
+
 sub unequal-triplets(@ints) {
     # Count the frequency of each number
     my %freq = @ints.Bag;

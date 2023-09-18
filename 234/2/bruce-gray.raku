@@ -1,4 +1,5 @@
 #!/usr/bin/env raku
+
 sub task2 ( @ns ) {
     return @ns.Bag
               .values
@@ -14,6 +15,7 @@ my @tests =
     ( 28, (4, 7, 1, 10, 7, 4, 1, 1) ),
     (  0, (4, 4) ),
 ;
+
 use Test; plan +@tests;
 for @tests -> ( $expected, @in ) {
     is task2(@in), $expected;

@@ -1,13 +1,6 @@
 #!/usr/bin/env raku
 
-#
-# Perl Weekly Challenge 234
-# Task 2
-#
-# See <https://perlweeklychallenge.org/blog/perl-weekly-challenge-234/>
-#
-
-sub MAIN( *@nums where { @nums.grep( * ~~ Int ).elems == @nums.elems } ) {
+sub MAIN( @nums where { @nums.grep( * ~~ Int ).elems == @nums.elems }  = (4, 4, 2, 4, 3) ) {
     my @triples;
 
     #(i, j, k) that satisfies num[i] != num[j], num[j] != num[k] and num[k] != num[i].

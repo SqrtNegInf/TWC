@@ -1,6 +1,7 @@
 #!/usr/bin/env raku
 
-unit sub MAIN (*@ints where all(@ints) ~~ Int && all(@ints) > 0, :v(:$verbose));
+#unit sub MAIN (*@ints where all(@ints) ~~ Int && all(@ints) > 0, :v(:$verbose));
+my @ints = (4, 4, 2, 4, 3);
 
 my $bag          = @ints.Bag;
 my $combinations = 0;
@@ -11,7 +12,7 @@ if $bag.keys >= 3
   for @unique.combinations(3) -> @combination
   {
     my $add = [*] @combination.map({ $bag{$_} });
-    say ": Triplet: ({ @combination.join(",") }) has $add combinations" if $verbose;
+#    say ": Triplet: ({ @combination.join(",") }) has $add combinations" if $verbose;
     $combinations += $add;
   }
 }

@@ -1,11 +1,4 @@
 #!/usr/bin/env raku
-=begin comment
------------------------------------
-AUTHOR: Robert DiCicco
-DATE  : 2023-09-14
-Challenge 234 Task 2 Unequal Triplets ( Raku )
------------------------------------
-=end comment
 
 my @myints = ([4, 4, 2, 4, 3],[1, 1, 1, 1, 1],[4, 7, 1, 10, 7, 4, 1, 1]);
 for (@myints) -> @ints {
@@ -18,22 +11,3 @@ for (@myints) -> @ints {
     }
     say "Output: $cnt\n";
 }
-
-=begin comment
------------------------------------
-SAMPLE OUTPUT
-raku .\UnequalTriplets.rk
-
-Input: @ints = [4 4 2 4 3]
-Output: 3
-
-Input: @ints = [1 1 1 1 1]
-Output: 0
-
-Input: @ints = [4 7 1 10 7 4 1 1]
-Output: 28
------------------------------------
-=end comment
-
-
-

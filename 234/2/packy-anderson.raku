@@ -1,7 +1,5 @@
 #!/usr/bin/env raku
 
-use v6;
-
 sub findTriplets(@ints where ($_.all ~~ Int)) {
   my @solutions;
   for 0 .. @ints.elems - 3 -> $i {
