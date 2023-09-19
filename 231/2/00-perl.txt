@@ -15,7 +15,6 @@ ok 3 - Similar ages
 1..3
  
 ===> 231/2/bob-lied.pl <===
-# Seeded srand with seed '20230912' from local date.
 ok 1 - Example 1
 ok 2 - Example 2
 ok 3 - Example 1
