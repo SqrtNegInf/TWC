@@ -46,14 +46,3 @@ is unequal_triplets_optimized(4, 7, 1, 10, 7, 4, 1, 1), 28,
 my @long = ((1) x 100, (2) x 30, (3) x 20, (4) x 10, 5);
 is unequal_triplets(@long), 123100, 'Long naive';
 is unequal_triplets_optimized(@long), 123100, 'Long optimized';
-
-use Benchmark qw{ cmpthese };
-cmpthese(-3, {
-    naive     => sub { unequal_triplets(@long) },
-    optimized => sub { unequal_triplets_optimized(@long) },
-});
-
-__END__
-             Rate     naive optimized
-naive      13.1/s        --     -100%
-optimized 28171/s   215647%        --
