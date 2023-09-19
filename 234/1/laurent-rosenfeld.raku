@@ -2,7 +2,7 @@
 
 sub common-chars (@in) {
     my @letters = map { .comb }, @in;
-    return ~ [∩] @letters;
+    return ~ ([∩] @letters).keys.sort;
 }
 
 for <java javascript julia>, <bella label roller>, <cool lock cook> -> @test {

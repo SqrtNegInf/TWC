@@ -3,7 +3,7 @@
 sub common-characters(@arr) {
   my @letters;
   @arr.map({my %h; %h{$_}++ for $_.comb; @letters.push(%h)});
-  @letters[0].keys.map({
+  @letters[0].keys.sort.map({
     my $letter = $_;
     my $rep = (0..@letters.end).map({@letters[$_]{$letter} // 0}).min;
     $letter x $rep

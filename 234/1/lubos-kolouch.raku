@@ -9,7 +9,7 @@ sub common-characters(@words) {
         $common-set ∩= $word.comb.Set;
     }
 
-    return $common-set.keys;
+    return $common-set.keys.sort;
 }
 
 # Testing the Raku solution

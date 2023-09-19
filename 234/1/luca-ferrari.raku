@@ -8,7 +8,9 @@ sub MAIN( @words = ("java", "javascript", "julia") ) {
 	}
     }
 
-    for %chars.kv -> $char, $list {
+    #for %chars.kv -> $char, $list {
+    for %chars.keys.sort -> $char {
+    my $list = %chars{$char};
 	say $char if $list.elems == @words.elems;
     }
 
