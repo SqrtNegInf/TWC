@@ -38,7 +38,7 @@ Output: ("p")
  
 ===> 234/1/deadmarshal.pl <===
 (a,j)
-(l,l,e)
+(e,l,l)
 (c,o)
  
 ===> 234/1/e-choroba.pl <===
@@ -60,14 +60,14 @@ ok 6 - regex meta chars
 1..6
  
 ===> 234/1/laurent-rosenfeld.pl <===
-java javascript julia     => j a
-bella label roller        => l e
+java javascript julia     => a j
+bella label roller        => e l
 cool lock cook            => c o
  
 ===> 234/1/lubos-kolouch.pl <===
 j, a
 l, e
-c, o
+o, c
  
 ===> 234/1/peter-campbell-smith.pl <===
 
@@ -103,7 +103,7 @@ Output: (e l l )
 
 wordnum = 3
 Input: @words = (cool lock cook)
-Output: (o c )
+Output: (c o )
 
  
 ===> 234/1/roger-bell-west.pl <===

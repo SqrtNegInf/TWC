@@ -9,7 +9,7 @@ sub common_characters{
   map{my $letter = $_;
       my $rep = min map{$letters[$_]{$letter} // 0} 0..$#letters;
       ($letter) x $rep
-    } keys %{$letters[0]};
+    } sort keys %{$letters[0]};
 }
 
 printf "(%s)\n", join ',',

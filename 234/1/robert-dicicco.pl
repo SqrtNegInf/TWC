@@ -19,7 +19,7 @@ for my $wds ( @wordlist) {
         $seen{$c} += 1;
     }
     print "Output: (";
-    for my $key (keys %seen) {
+    for my $key (sort keys %seen) {
         if ($seen{$key} == ($wordnum * 2)) {
             print "$key $key ";
         } elsif (( $seen{$key} >= $wordnum) && ( $seen{$key} < ($wordnum * 2))) {

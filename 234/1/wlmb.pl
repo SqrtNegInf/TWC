@@ -23,5 +23,5 @@ my @result=map {
 	$letters_of_word[$word_number]{$letter}//0
     } 0..$number_of_words-1;
     ($letter) x $repetition;
-} keys %{$letters_of_word[0]};
+} sort keys %{$letters_of_word[0]};
 say "@A -> @result";

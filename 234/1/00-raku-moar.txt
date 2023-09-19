@@ -33,22 +33,22 @@ ok 3 -
  
 ===> 234/1/deadmarshal.raku <===
 ( j a)
-(  e ll)
-( o c)
+(ll   e)
+( c o)
  
 ===> 234/1/laurent-rosenfeld.raku <===
-java javascript julia     => j a
+java javascript julia     => a j
 bella label roller        => e l
 cool lock cook            => c o
  
 ===> 234/1/lubos-kolouch.raku <===
-(a j)
-(e l)
+(j a)
+(l e)
 (c o)
  
 ===> 234/1/luca-ferrari.raku <===
-a
 j
+a
  
 ===> 234/1/mark-anderson.raku <===
 ok 1 - 
@@ -74,14 +74,14 @@ Input: @words = ("cool", "lock", "cook")
 Output: ("c", "o")
  
 ===> 234/1/rcmlz.raku <===
-(j a)
+(a j)
  
 ===> 234/1/robert-dicicco.raku <===
 Input: @words = [java javascript julia]
 Output: (j a )
 
 Input: @words = [bella label roller]
-Output: (e l l )
+Output: (l l e )
 
 Input: @words = [cool lock cook]
 Output: (o c )
