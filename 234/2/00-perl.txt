@@ -52,8 +52,8 @@ ok 6 - Example 3 optimized
 ok 7 - Long naive
 ok 8 - Long optimized
              Rate     naive optimized
-naive      7.92/s        --     -100%
-optimized 13186/s   166377%        --
+naive      9.06/s        --     -100%
+optimized 13871/s   152974%        --
  
 ===> 234/2/jo-37.pl <===
 # Seeded srand with seed '1' from import arg.
