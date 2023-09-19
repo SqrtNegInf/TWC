@@ -1,9 +1,5 @@
 #!/usr/bin/env perl
-
-use v5.16;
-
-use strict;
-use warnings;
+use v5.36;
 
 common_characters('java', 'javascript', 'julia');
 common_characters('bella', 'label', 'roller'); 

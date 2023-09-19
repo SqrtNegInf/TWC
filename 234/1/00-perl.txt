@@ -37,7 +37,7 @@ Output: ("p")
 
  
 ===> 234/1/deadmarshal.pl <===
-(j,a)
+(a,j)
 (l,l,e)
 (c,o)
  
@@ -65,9 +65,9 @@ bella label roller        => l e
 cool lock cook            => c o
  
 ===> 234/1/lubos-kolouch.pl <===
-a, j
+j, a
 l, e
-o, c
+c, o
  
 ===> 234/1/peter-campbell-smith.pl <===
 
@@ -95,7 +95,7 @@ ok 3 - ["cool", "lock", "cook"]
 ===> 234/1/robert-dicicco.pl <===
 wordnum = 3
 Input: @words = (java javascript julia)
-Output: (j a )
+Output: (a j )
 
 wordnum = 3
 Input: @words = (bella label roller)
@@ -103,7 +103,7 @@ Output: (e l l )
 
 wordnum = 3
 Input: @words = (cool lock cook)
-Output: (c o )
+Output: (o c )
 
  
 ===> 234/1/roger-bell-west.pl <===
@@ -129,4 +129,4 @@ co
 (a,j)
  
 ===> 234/1/wlmb.pl <===
-java javascript julia -> j a
+java javascript julia -> a j

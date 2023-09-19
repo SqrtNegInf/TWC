@@ -1,9 +1,5 @@
 #!/usr/bin/env perl
-# The Weekly Challenge 234
-# Task 1 Common Characters
-
-use v5.30.0;
-use warnings;
+use v5.36;
 
 sub cc {
     my @words = @_;
