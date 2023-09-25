@@ -1,14 +1,12 @@
 #!/usr/bin/env raku
 
-sub is-ascending(@arr)
-{
+sub is-ascending(@arr) {
   my $cursor = 0;
   (0..^@arr.end).map({$cursor++ if @arr[$_] < @arr[$_+1]});
   $cursor == @arr.end;
 }
 
-sub remove-one(@arr)
-{
+sub remove-one(@arr) {
   my $res = False;
   for 0..@arr.end -> $i {
     my @ret = @arr[0..^$i,$i+1..@arr.end].flat;

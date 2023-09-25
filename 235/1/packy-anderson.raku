@@ -1,7 +1,5 @@
 #!/usr/bin/env raku
  
-use v6;
-
 sub isStrictlyIncreasing(*@ints where ($_.all ~~ Int)) {
   # get the first integer from the list
   my $last_int = shift @ints;

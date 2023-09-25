@@ -1,13 +1,6 @@
 #!/usr/bin/env raku
 
-#
-# Perl Weekly Challenge 235
-# Task 1
-#
-# See <https://perlweeklychallenge.org/blog/perl-weekly-challenge-235/>
-#
-
-sub MAIN( *@nums where { @nums.grep( * ~~ Int ).elems == @nums.elems } ) {
+sub MAIN( @nums where { @nums.grep( * ~~ Int ).elems == @nums.elems } = (0, 2, 9, 4, 6) ) {
 
     for 0 ..^ @nums.elems {
 	my @current;

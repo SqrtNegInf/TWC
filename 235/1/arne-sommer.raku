@@ -1,6 +1,6 @@
 #!/usr/bin/env raku
 
-unit sub MAIN (*@ints where all(@ints) ~~ Int, :v(:$verbose));
+unit sub MAIN (@ints where all(@ints) ~~ Int = (0, 2, 9, 4, 6), :v(:$verbose));
 
 # ( say 'true'; exit ) if [<] @ints;
 

@@ -1,4 +1,5 @@
 #!/usr/bin/env raku
+
 sub can-strictly-increase (@in) {
     my $count = 0;
     for 1..@in.end -> $i {

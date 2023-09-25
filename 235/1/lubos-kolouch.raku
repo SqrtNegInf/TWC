@@ -1,4 +1,5 @@
 #!/usr/bin/env raku
+
 sub can-be-made-increasing(@ints) {
     my $count = 0;
     for 1..^@ints.elems -> $i {

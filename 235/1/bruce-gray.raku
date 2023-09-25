@@ -1,4 +1,5 @@
 #!/usr/bin/env raku
+
 sub task1-multi-pass ( @ns --> Bool ) {
     return False if [<] @ns;
 
@@ -33,6 +34,7 @@ my @tests =
     ( (5, 1, 3, 2)    , False ),
     ( (2, 2, 3)       , True  ),
 ;
+
 use Test; plan 2*@tests;
 for @tests -> ( @in , $expected ) {
     is task1-multi-pass( @in), $expected;
