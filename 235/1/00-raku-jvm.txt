@@ -26,6 +26,10 @@ ok 4 -
 ok 5 - 
 ok 6 - 
  
+===> 235/1/david-hoekman.raku <===
+False
+True
+ 
 ===> 235/1/deadmarshal.raku <===
 True
 False
