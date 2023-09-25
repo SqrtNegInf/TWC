@@ -1,4 +1,5 @@
 #!/usr/bin/env perl
+#use v5.36;
 
 #-- perl 4 syntax # DH bizarre
 

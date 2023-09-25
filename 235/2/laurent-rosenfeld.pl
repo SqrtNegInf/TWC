@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-use feature 'say';
+use v5.36;
 
 sub duplicate_zeros {
     my @result = map { $_ == 0 ? (0, 0) : $_ } @_;

@@ -1,9 +1,5 @@
 #!/usr/bin/env perl
-
-use v5.16;
-
-use strict;
-use warnings;
+use v5.36;
 
 duplicate_zeroes(1, 0, 2, 3, 0, 4, 5, 0);
 duplicate_zeroes(1, 2, 3);
