@@ -3,10 +3,7 @@ use strict ;
 use warnings ;
 use feature 'say' ;
 
-say "Enter some integers, separated by spaces!" ;
-my $line = <STDIN> ;
-chomp $line ;
-my @numbers = split( /\s/ , $line ) ;
+my @numbers = (0, 2, 9, 4, 6);
 my $len = scalar( @numbers ) ;
 #we can form $len - 1 pairs of neighbouring pairs. Every one bar one must be strictly
 #increasing!

@@ -27,4 +27,4 @@ sub main (@ints) {
     say 'false';
 }
 
-main(@ARGV);
+main( (0, 2, 9, 4, 6) ) ;

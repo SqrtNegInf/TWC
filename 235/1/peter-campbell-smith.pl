@@ -1,9 +1,8 @@
 #!/usr/bin/env perl
 
-use v5.16;    # The Weekly Challenge - 2023-09-18
-use utf8;     # Week 235 task 1 - Remove one
-use strict;   # Peter Campbell Smith
-use warnings; # Blog: http://ccgi.campbellsmiths.force9.co.uk/challenge
+use strict;
+use warnings;
+use feature 'say';
 
 remove_one(1, 2, 3, 4, 5);
 remove_one(5, 4, 3, 2, 1);

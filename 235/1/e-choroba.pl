@@ -33,7 +33,7 @@ sub remove_one_brute_force(@ints) {
     return
 }
 
-use Test::More tests => 3 + 5;
+use Test::More tests => 3 + 4;
 
 ok remove_one(0, 2, 9, 4, 6), 'Example 1';
 ok ! remove_one(5, 1, 3, 2), 'Example 2';

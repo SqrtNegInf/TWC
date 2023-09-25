@@ -1,7 +1,6 @@
 #!/usr/bin/env perl
-# The Weekly Challenge 235
-# Task 1 Remove One
 use v5.30.0;
+
 use warnings;
 use List::MoreUtils qw/slide/;
 

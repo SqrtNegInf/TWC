@@ -1,23 +1,5 @@
 #!/usr/bin/env perl
 
-=pod
-
-The Weekly Challenge - 235
-- https://theweeklychallenge.org/blog/perl-weekly-challenge-235
-
-Author: Niels 'PerlBoy' van Dijke
-
-Task 1: Remove One
-Submitted by: Mohammad S Anwar
-
-You are given an array of integers.
-
-Write a script to find out if removing ONLY one integer makes it strictly increasing order.
-
-=cut
-
-use v5.16;
-
 use common::sense;
 
 use Test::More;

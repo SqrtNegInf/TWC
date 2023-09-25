@@ -1,8 +1,4 @@
 #!/usr/bin/env perl
-# Perl weekly challenge 235
-# Task 1:  Remove One
-#
-# See https://wlmb.github.io/2023/09/18/PWC235/#task-1-remove-one
 use v5.36;
 
 sub test(@in) {
@@ -27,11 +23,6 @@ sub test(@in) {
 	}
     }return 1;                      # success
 }
-die <<~"FIN" unless @ARGV;
-    Usage: $0 N1 {N2...]
-    to find if the array N1, N2... becomes sorted by removing
-    only one element.
-    FIN
-my @in=@ARGV;
+my @in=(0, 2, 9, 4, 6);
 my $out=test(@in)?"True":"False";
-say "@ARGV -> $out";
+say "@in -> $out";
