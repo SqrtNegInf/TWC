@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-
-use feature 'say';
+use v5.36;
 
 my @myints = ([0, 2, 9, 4, 6],[5, 1, 3, 2],[2, 2, 3]);
 

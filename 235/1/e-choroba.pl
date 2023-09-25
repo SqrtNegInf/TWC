@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-use warnings;
-use strict;
-use experimental qw( signatures );
+use v5.36;
 
 sub remove_one(@ints) {
     my @fails = grep $ints[ $_ - 1 ] >= $ints[$_], 1 .. $#ints;

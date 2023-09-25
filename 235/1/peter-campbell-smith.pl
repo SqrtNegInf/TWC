@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-use feature 'say';
+use v5.36;
 
 remove_one(1, 2, 3, 4, 5);
 remove_one(5, 4, 3, 2, 1);

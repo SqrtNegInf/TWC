@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
+use v5.36;
 
 # Helper function to check if a list is strictly increasing
 sub is_increasing {

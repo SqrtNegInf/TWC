@@ -1,4 +1,5 @@
 #!/usr/bin/env perl
+#use v5.36; # DH Perl 4 compat?
 
 print &remove_one(0,2,9,4,6); #1
 print &remove_one(5,1,3,2); #0
