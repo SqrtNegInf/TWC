@@ -1,7 +1,5 @@
 #!/usr/bin/env raku
  
-use v6;
- 
 sub duplicateZeros(*@ints where ($_.all ~~ Int)) {
   loop (my $i = 0; $i < @ints.elems; $i++) {
     if (@ints[$i] == 0) {

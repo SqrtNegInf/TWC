@@ -1,6 +1,6 @@
 #!/usr/bin/env raku
 
-unit sub MAIN (*@ints where all(@ints) ~~ Int);
+unit sub MAIN (@ints where all(@ints) ~~ Int = (1, 0, 2, 3, 0, 4, 5, 0) );
 
 my $seq := gather
 {

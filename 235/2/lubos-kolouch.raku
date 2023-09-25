@@ -1,4 +1,5 @@
 #!/usr/bin/env raku
+
 sub duplicate-zeros(@ints) {
     my $zeros = @ints.grep(0).elems;
     my $i = @ints.elems - 1;

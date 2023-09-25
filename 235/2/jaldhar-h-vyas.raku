@@ -1,8 +1,6 @@
 #!/usr/bin/env raku
 
-sub MAIN(
-    *@ints
-) {
+sub MAIN( @ints (1, 0, 2, 3, 0, 4, 5, 0)) {
     my @output;
 
     for @ints -> $elem {

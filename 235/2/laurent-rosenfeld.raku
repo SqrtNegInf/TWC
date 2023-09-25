@@ -1,4 +1,5 @@
 #!/usr/bin/env raku
+
 sub duplicate-zeros (@in) {
     my @result = map { $_ == 0 ?? |(0, 0) !! $_ }, @in;
     return @result[0..@in.end];

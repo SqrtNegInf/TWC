@@ -1,9 +1,7 @@
 #!/usr/bin/env raku
-use v6 ;
 
-say "Enter some integers, separated by spaces!" ;
-my $line = $*IN.get ;
-my @numbers = $line.words.map( {.Int} ) ;
+
+my @numbers = (1, 0, 2, 3, 0, 4, 5, 0);
 my @result ;
 for @numbers -> $n {
    if ( $n != 0 ) {

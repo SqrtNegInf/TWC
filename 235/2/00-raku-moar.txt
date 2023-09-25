@@ -1,0 +1,93 @@
+ 
+===> 235/2/arne-sommer.raku <===
+(1, 0, 0, 2, 3, 0, 0, 4)
+ 
+===> 235/2/athanasius.raku <===
+Running the test suite
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ok 4 - Singleton
+ok 5 - Negatives
+1..5
+ 
+===> 235/2/barroff.raku <===
+1..3
+ok 1 - works for (1, 0, 2, 3, 0, 4, 5, 0)
+ok 2 - works for (1, 2, 3)
+ok 3 - works for (0, 3, 0, 4, 5)
+ 
+===> 235/2/bruce-gray.raku <===
+1..3
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ 
+===> 235/2/deadmarshal.raku <===
+[1 0 0 2 3 0 0 4]
+[1 2 3]
+[0 0 3 0 0]
+ 
+===> 235/2/jaldhar-h-vyas.raku <===
+ 
+===> 235/2/laurent-rosenfeld.raku <===
+1 0 2 3 0 4 5 0    => (1 0 0 2 3 0 0 4)
+1 2 3              => (1 2 3)
+0 3 0 4 5          => (0 0 3 0 0)
+ 
+===> 235/2/lubos-kolouch.raku <===
+[1 0 0 2 3 0 0 4]
+[1 2 3]
+[0 0 3 0 0]
+ 
+===> 235/2/luca-ferrari.raku <===
+1,0,0,2,3,0,0,4
+ 
+===> 235/2/mark-anderson.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ 
+===> 235/2/massa.raku <===
+ 
+===> 235/2/packy-anderson.raku <===
+Example 1:
+Input: @ints = (1, 0, 2, 3, 0, 4, 5, 0)
+Output: (1, 0, 0, 2, 3, 0, 0, 4)
+
+Example 2:
+Input: @ints = (1, 2, 3)
+Output: (1, 2, 3)
+
+Example 3:
+Input: @ints = (0, 3, 0, 4, 5)
+Output: (0, 0, 3, 0, 0)
+ 
+===> 235/2/rcmlz.raku <===
+(1 0 0 2 3 0 0 4)
+ 
+===> 235/2/robert-dicicco.raku <===
+Input: @ints = [1 0 2 3 0 4 5 0]
+Output: [1 0 0 2 3 0 0 4]
+
+Input: @ints = [1 2 3]
+Output: [1 2 3]
+
+Input: @ints = [0 3 0 4 5]
+Output: [0 0 3 0 0]
+
+ 
+===> 235/2/roger-bell-west.raku <===
+1..3
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ 
+===> 235/2/ulrich-rieke.raku <===
+(1,0,0,2,3,0,0,4)
+ 
+===> 235/2/wambash.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+1..3
