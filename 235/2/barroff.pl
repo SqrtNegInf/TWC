@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-
-use v5.38;
+use v5.36;
 
 use List::Util qw/sum/;
 
@@ -19,14 +18,14 @@ sub MAIN() {
     }
     else {
         #| Run test cases
-        use Test2::V0 qw( is plan );
-        plan 3;
+        use Test::More;
 
-        is duplicate_zeros( ( 1, 0, 2, 3, 0, 4, 5, 0 ) ),
+        is_deeply duplicate_zeros( ( 1, 0, 2, 3, 0, 4, 5, 0 ) ),
           [ 1, 0, 0, 2, 3, 0, 0, 4 ], 'works for (1, 0, 2, 3, 0, 4, 5, 0)';
-        is duplicate_zeros( ( 1, 2, 3 ) ), [ 1, 2, 3 ], 'works for (1, 2, 3)';
-        is duplicate_zeros( ( 0, 3, 0, 4, 5 ) ), [ 0, 0, 3, 0, 0 ],
+        is_deeply duplicate_zeros( ( 1, 2, 3 ) ), [ 1, 2, 3 ], 'works for (1, 2, 3)';
+        is_deeply duplicate_zeros( ( 0, 3, 0, 4, 5 ) ), [ 0, 0, 3, 0, 0 ],
           'works for (0, 3, 0, 4, 5)';
+        done_testing;
     }
 }
 

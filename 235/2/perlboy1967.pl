@@ -1,22 +1,5 @@
 #!/usr/bin/env perl
 
-=pod
-
-The Weekly Challenge - 235
-- https://theweeklychallenge.org/blog/perl-weekly-challenge-235
-
-Author: Niels 'PerlBoy' van Dijke
-
-Task 2: Duplicate Zeros
-Submitted by: Mohammad S Anwar
-
-You are given an array of integers.
-
-Write a script to duplicate each occurrence of ZERO in the given array and
-shift the remaining to the right but make sure the size of array remain the same.
-
-=cut
-
 use v5.16;
 
 use common::sense;

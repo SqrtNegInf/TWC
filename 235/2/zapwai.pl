@@ -1,5 +1,6 @@
 #!/usr/bin/env perl
 use v5.30;
+
 my @ints = (1, 0, 2, 3, 0, 4, 5, 0);
 say "Input: \@ints = (" .join(", ",@ints).")";
 my $L = $#ints;

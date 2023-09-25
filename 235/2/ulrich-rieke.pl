@@ -3,10 +3,7 @@ use strict ;
 use warnings ;
 use feature 'say' ;
 
-say "Enter some integers, separated by spaces!" ;
-my $line = <STDIN> ;
-chomp $line ;
-my @numbers = split( /\s/ , $line ) ;
+my @numbers = (1, 0, 2, 3, 0, 4, 5, 0);
 my @result ;
 my $len = scalar( @numbers ) ;
 for my $n ( @numbers ) {

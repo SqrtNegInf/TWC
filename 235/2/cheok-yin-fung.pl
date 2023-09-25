@@ -1,7 +1,6 @@
 #!/usr/bin/env perl
-# The Weekly Challenge 235
-# Task 2 Duplicate Zeros
 use v5.30.0;
+
 use warnings;
 
 sub dz {
