@@ -18,7 +18,7 @@ for (@wordlist) -> @wds {
     }
 
     print "Output: (";
-    for %seen.keys -> $k {
+    for %seen.keys.sort -> $k {
         if $k ne ' ' {
             if %seen{$k} >= $wordnum && %seen{$k} < (2 * $wordnum) {
                 print "$k ";

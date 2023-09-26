@@ -81,10 +81,10 @@ Input: @words = [java javascript julia]
 Output: (a j )
 
 Input: @words = [bella label roller]
-Output: (l l e )
+Output: (e l l )
 
 Input: @words = [cool lock cook]
-Output: (o c )
+Output: (c o )
 
  
 ===> 234/1/roger-bell-west.raku <===

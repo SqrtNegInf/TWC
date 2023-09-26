@@ -60,13 +60,13 @@ ok 6 - regex meta chars
 1..6
  
 ===> 234/1/laurent-rosenfeld.pl <===
-java javascript julia     => a j
+java javascript julia     => j a
 bella label roller        => e l
-cool lock cook            => c o
+cool lock cook            => o c
  
 ===> 234/1/lubos-kolouch.pl <===
 j, a
-l, e
+e, l
 o, c
  
 ===> 234/1/peter-campbell-smith.pl <===
