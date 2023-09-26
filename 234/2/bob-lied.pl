@@ -37,17 +37,17 @@ sub unequalTriplets(@num)
 
 sub runTest
 {
-    use Test2::V0;
+    use Test::More;
     
-    is( unequalTriplets(1),     0, "Not enough 1");
-    is( unequalTriplets(1,2,3), 1, "Just 3, but different");
-    is( unequalTriplets(1,2,2), 0, "Just 3, not different a");
-    is( unequalTriplets(1,2,1), 0, "Just 3, not different b");
-    is( unequalTriplets(1,1,2), 0, "Just 3, not different c");
+    is_deeply( unequalTriplets(1),     0, "Not enough 1");
+    is_deeply( unequalTriplets(1,2,3), 1, "Just 3, but different");
+    is_deeply( unequalTriplets(1,2,2), 0, "Just 3, not different a");
+    is_deeply( unequalTriplets(1,2,1), 0, "Just 3, not different b");
+    is_deeply( unequalTriplets(1,1,2), 0, "Just 3, not different c");
 
-    is( unequalTriplets(4,4,2,4,3),         3, "Example 1");
-    is( unequalTriplets(1,1,1,1,1),         0, "Example 2");
-    is( unequalTriplets(4,7,1,10,7,4,1,1), 28, "Example 3");
+    is_deeply( unequalTriplets(4,4,2,4,3),         3, "Example 1");
+    is_deeply( unequalTriplets(1,1,1,1,1),         0, "Example 2");
+    is_deeply( unequalTriplets(4,7,1,10,7,4,1,1), 28, "Example 3");
 
     done_testing;
 }
