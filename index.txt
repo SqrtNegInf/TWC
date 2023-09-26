@@ -492,8 +492,8 @@ Challenge titles and Rosetta-code correspondences (exact, and otherwise)
 234-2 Unequal Triplets
 235-1 Remove One
 235-2 Duplicate Zeros
-236-1
-236-2
+236-1 Exact Change
+236-2 Array Loops
 237-1
 237-2
 238-1
