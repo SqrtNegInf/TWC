@@ -10,7 +10,7 @@ sub common_chars {
         $histo{$_}++ for keys %unique;
     }
     my @result = grep { $histo{$_} == $count } keys %histo;
-    return "@result";
+    return join ' ', sort @result;
 }
 
 for my $test ([<java javascript julia>],

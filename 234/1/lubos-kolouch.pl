@@ -16,13 +16,13 @@ sub common_characters {
 
     # Find common characters
     my @common_chars;
-    for my $char (keys %{$char_counts[0]}) {
+    for my $char (sort keys %{$char_counts[0]}) {
         if (all { exists $_->{$char} } @char_counts) {
             push @common_chars, $char;
         }
     }
 
-    return @common_chars;
+    return join ' ', sort @common_chars;
 }
 
 # Testing the Perl solution
