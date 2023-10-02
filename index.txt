@@ -494,8 +494,8 @@ Challenge titles and Rosetta-code correspondences (exact, and otherwise)
 235-2 Duplicate Zeros
 236-1 Exact Change
 236-2 Array Loops
-237-1
-237-2
+237-1 Sieze the Day
+237-2 Maximize Greatness
 238-1
 238-2
 239-1
