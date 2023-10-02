@@ -1,12 +1,7 @@
 #!/usr/bin/env perl
+
 use v5.36;
-##
-# You are asked to sell juice each costs $5. You are given an array of bills. 
-# You can only sell ONE juice to each customer but make sure you return exact change back. 
-# You only have $5, $10 and $20 notes. You do not have any change in hand at first.
-# Write a script to find out if it is possible to sell to each customers with correct 
-# change.
-##
+
 use boolean;
 use constant COST_JUICE => 5;
 

@@ -1,8 +1,8 @@
 #!/usr/bin/env perl
-# The Weekly Challenge 236
-# Task 1 Excat Change
+
 use v5.30;
 use warnings;
+
 use List::Util qw/all/;
 
 sub ec {

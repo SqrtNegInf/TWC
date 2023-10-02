@@ -1,0 +1,144 @@
+ 
+===> 236/1/adam-russell.pl <===
+1
+0
+1
+ 
+===> 236/1/athanasius.pl <===
+Running the test suite
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+1..3
+ 
+===> 236/1/bob-lied.pl <===
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+1..3
+ 
+===> 236/1/cheok-yin-fung.pl <===
+1..3
+ok 1
+ok 2
+ok 3
+ 
+===> 236/1/dave-jacoby.pl <===
+Input:  @ints = (5, 5, 5, 10, 20)
+Output: true
+
+Input:  @ints = (5, 5, 10, 10, 20)
+Output: false
+
+Input:  @ints = (5, 5, 5, 20)
+Output: true
+
+ 
+===> 236/1/deadmarshal.pl <===
+1
+0
+1
+ 
+===> 236/1/demerphq.pl <===
+ok 1 - exact_change(5 5 5 10 20) == 1
+ok 2 - exact_change(5 5 10 10 20) == 0
+ok 3 - exact_change(5 5 5 20) == 1
+ok 4 - exact_change(5 5 5 5 10 20 10) == 1
+1..4
+ 
+===> 236/1/e-choroba.pl <===
+1..4
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ok 4 - Keep the fives
+ 
+===> 236/1/jaldhar-h-vyas.pl <===
+true
+ 
+===> 236/1/jo-37.pl <===
+# Seeded srand with seed '1' from import arg.
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ok 4 - prefer 1x10 + 1x5 over 3x5
+1..4
+ 
+===> 236/1/laurent-rosenfeld.pl <===
+5 5 5 10 20     => true
+5 5 10 10 20    => false
+5 5 5 20        => true
+ 
+===> 236/1/lubos-kolouch.pl <===
+1
+0
+1
+ 
+===> 236/1/perlboy1967.pl <===
+ok 1
+ok 2
+ok 3
+ok 4
+ok 5
+1..5
+ 
+===> 236/1/peter-campbell-smith.pl <===
+
+Input: @bills = (5, 5, 5, 10, 20)
+Output: true
+   $5 paid, no change due, till now 1 x $5, 0 x $10 0 x $20 = $5
+   $5 paid, no change due, till now 2 x $5, 0 x $10 0 x $20 = $10
+   $5 paid, no change due, till now 3 x $5, 0 x $10 0 x $20 = $15
+   $10 paid, $5 change, till now 2 x $5, 1 x $10 0 x $20 = $20
+   $20 paid, $10 + $5 change, till now 1 x $5, 0 x $10 1 x $20 = $25
+
+Input: @bills = (5, 5, 10, 10, 20)
+Output: false
+   $5 paid, no change due, till now 1 x $5, 0 x $10 0 x $20 = $5
+   $5 paid, no change due, till now 2 x $5, 0 x $10 0 x $20 = $10
+   $10 paid, $5 change, till now 1 x $5, 1 x $10 0 x $20 = $15
+   $10 paid, $5 change, till now 0 x $5, 2 x $10 0 x $20 = $20
+   $20 paid, sorry, I don't have change
+
+Input: @bills = (5, 5, 5, 20)
+Output: true
+   $5 paid, no change due, till now 1 x $5, 0 x $10 0 x $20 = $5
+   $5 paid, no change due, till now 2 x $5, 0 x $10 0 x $20 = $10
+   $5 paid, no change due, till now 3 x $5, 0 x $10 0 x $20 = $15
+   $20 paid, 3 x $5 change, till now 0 x $5, 0 x $10 1 x $20 = $20
+
+Input: @bills = (5, 5, 10, 20)
+Output: true
+   $5 paid, no change due, till now 1 x $5, 0 x $10 0 x $20 = $5
+   $5 paid, no change due, till now 2 x $5, 0 x $10 0 x $20 = $10
+   $10 paid, $5 change, till now 1 x $5, 1 x $10 0 x $20 = $15
+   $20 paid, $10 + $5 change, till now 0 x $5, 0 x $10 1 x $20 = $20
+ 
+===> 236/1/robert-dicicco.pl <===
+Input: @bills = [5 5 5 10 20]
+Output: true
+
+Input: @bills = [5 5 10 10 20]
+Output: false
+
+Input: @bills = [5 5 5 20]
+Output: true
+
+ 
+===> 236/1/roger-bell-west.pl <===
+1..3
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ 
+===> 236/1/sgreen.pl <===
+true
+ 
+===> 236/1/wanderdoc.pl <===
+ok 1 - Example 1
+ok 2 - Example 2
+1..2
+ 
+===> 236/1/zapwai.pl <===
+Input: @bills = (5, 5, 5, 10, 20)
+Output: True

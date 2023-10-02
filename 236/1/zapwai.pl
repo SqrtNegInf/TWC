@@ -1,5 +1,6 @@
 #!/usr/bin/env perl
 use v5.30;
+
 my @bills = (5, 5, 5, 10, 20);
 #@bills = (5,5,10,10,20);
 say "Input: \@bills = (" . join(", ", @bills) . ")";

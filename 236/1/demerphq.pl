@@ -2,24 +2,6 @@
 use strict;
 use warnings;
 
-# You are asked to sell juice each costs $5. You are given an array of
-# notes. You can only sell ONE juice to each customer but make sure you
-# return exact change back. You only have $5, $10 and $20 notes. You do
-# not have any change in hand at first.
-#
-# Write a script to find out if it is possible to sell to each customers
-# with correct change.
-#
-# NOTE: At first blush it might seem like we have to recursively handle
-#       $20 notes, as there may be two possible solutions, 10 + 5 or 5 +
-#       5 + 5. HOWEVER, it turns out that the 10 + 5 solution is always
-#       "correct" in this situation. With the current rules there are no
-#       situations where "saving" the $10 for later would help us
-#       complete a transaction, but there are situations where "saving"
-#       the $5 notes would help us complete a transaction. If there were
-#       other prices involved, or other denominations then the situation
-#       would be different.
-
 sub exact_change {
     my ($notes) = @_;
     my %wallet = ( 5 => 0, 10 => 0, 20 => 0 );

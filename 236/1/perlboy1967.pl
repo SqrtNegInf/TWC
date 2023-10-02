@@ -1,23 +1,4 @@
 #!/usr/bin/env perl
-
-=pod
-
-The Weekly Challenge - 236
-- https://theweeklychallenge.org/blog/perl-weekly-challenge-236
-
-Author: Niels 'PerlBoy' van Dijke
-
-Task 1: Exact Change
-Submitted by: Mohammad S Anwar
-
-You are asked to sell juice each costs $5. You are given an array of bills. You can only 
-sell ONE juice to each customer but make sure you return exact change back. You only have
-$5, $10 and $20 notes. You do not have any change in hand at first.
-
-Write a script to find out if it is possible to sell to each customers with correct change.
-
-=cut
-
 use v5.16;
 
 use common::sense;
