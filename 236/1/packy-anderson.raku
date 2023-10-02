@@ -1,7 +1,5 @@
 #!/usr/bin/env raku
 
-use v6;
-
 sub isExactChangePossible(*@bills where ($_.all ~~ Int)) {
   my %till; # we keep the bills in a "till"
   BILLS: for @bills -> $collected {

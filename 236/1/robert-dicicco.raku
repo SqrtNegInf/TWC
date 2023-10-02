@@ -1,13 +1,4 @@
 #!/usr/bin/env raku
-use v6;
-
-=begin comment
---------------------------------------
-AUTHOR: Robert DiCicco
-DATE  : 2023-09-25
-Challenge 236 Task 01 Exact Change ( Raku )
--------------------------------------
-=end comment
 
 my @bills = ([5, 5, 5, 10, 20], [5, 5, 10, 10, 20],[5, 5, 5, 20]);
 
@@ -35,22 +26,3 @@ for (@bills) -> @chg {
         $cnt++;
     }
 }
-
-=begin comment
---------------------------------------
-SAMPLE OUTPUT
-raku .\ExactChange.rk
-
-Input: @bills = [5 5 5 10 20]
-Output: true
-
-Input: @bills = [5 5 10 10 20]
-Output: false
-
-Input: @bills = [5 5 5 20]
-Output: true
--------------------------------------
-=end comment
-
-
-

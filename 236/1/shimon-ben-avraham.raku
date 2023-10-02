@@ -1,13 +1,5 @@
 #!/usr/bin/env raku
 
-# Perl Weekly Challenge #236 Task 1
-# © 2023 Shimon Bollinger. All rights reserved.
-# Last modified: Sat 30 Sep 2023 11:41:30 PM EDT
-# Version 0.0.1
-
-# always use the latest version of Raku
-use v6.*;
-
 multi sub MAIN (
     #| The bills to be used to make change (5, 10, 20)
     *@input where all(@input) ~~ 5|10|20,
@@ -52,14 +44,14 @@ multi sub MAIN (*@numbers where all(@numbers) ~~ Int,
     exit 1;
 }
 
-multi sub MAIN(*@args,
-               Bool :v(:$verbose)) is hidden-from-USAGE {
-    note "Please provide a list of bills.";
-    exit 1;
-}
+#multi sub MAIN(*@args,
+#               Bool :v(:$verbose)) is hidden-from-USAGE {
+#    note "Please provide a list of bills.";
+#    exit 1;
+#}
 
 #| Use the option '--test' to run the program with the three examples.
-multi MAIN (Bool :$test!) {
+#multi MAIN (Bool :$test!) {
     use Test;
 
     my @tests = [
@@ -75,4 +67,4 @@ multi MAIN (Bool :$test!) {
     for @tests {
         cmp-ok .<got>, .<op>, .<expected>, .<desc>;
     } # end of for @tests
-} # end of multi MAIN (:$test!)
+#} # end of multi MAIN (:$test!)

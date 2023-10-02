@@ -1,4 +1,5 @@
 #!/usr/bin/env raku
+
 sub make_change ( BagHash $bankroll is rw, $change_owed is copy --> Bool ) {
 
     for $bankroll.keys.sort.reverse -> $bill {

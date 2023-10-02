@@ -6,7 +6,7 @@ sub nochange {
 }
 
 sub MAIN(
-    *@bills
+    @bills = (5, 5, 5, 10, 20)
 ) {
     my $fives = 0;
     my $tens = 0;

@@ -1,5 +1,6 @@
 #!/usr/bin/env raku
-unit module rcmlz::raku::task-one:ver<0.0.1>:auth<github:rcmlz>:api<1>;
+
+#unit module rcmlz::raku::task-one:ver<0.0.1>:auth<github:rcmlz>:api<1>;
 
 # run in terminal: raku --optimize=3 -I challenge-nr236/rcmlz/raku/ -- test/challenge-nr236/raku/task-one.rakutest
 # or               raku --optimize=3 -I challenge-nr236 -- test/benchmark-scalabiity.raku --task=task-one --user=rcmlz --max-run-times=1,3,7 --max-problem=10 --v=True --test-before-benchmark=True --out-folder=/tmp nr236; cat /tmp/nr236_task-one.csv
@@ -47,3 +48,5 @@ our sub solution(@input --> Bool) is export {
 
 	(%change.values).all >= 0 ?? True !! False
 }
+
+say solution (5, 5, 5, 10, 20); 

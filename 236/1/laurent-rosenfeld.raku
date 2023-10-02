@@ -1,4 +1,5 @@
 #!/usr/bin/env raku
+
 sub sell-juice (@in) {
     # %change stores the stock of bank notes. No need to
     # count $20 notes but it makes the code more generic

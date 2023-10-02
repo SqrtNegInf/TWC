@@ -1,4 +1,5 @@
 #!/usr/bin/env raku
+
 sub can-sell-with-exact-change(@bills) {
     my $five = 0;
     my $ten = 0;

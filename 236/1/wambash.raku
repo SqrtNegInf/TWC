@@ -24,7 +24,7 @@ sub exact-change (+bills) {
     andthen .tail
 }
 
-multi MAIN (Bool :test($)!) {
+#multi MAIN (Bool :test($)!) {
     use Test;
     is-deeply exact-change-step(\(changes => bag(20,10,10,5,5), :15bill)), \(changes => bag(20,10,5,5),:5bill);
     is-deeply exact-change-step(\(changes => bag(20,10,5,5), :5bill)), \(changes => bag(20,10,5),:0bill);
@@ -37,8 +37,6 @@ multi MAIN (Bool :test($)!) {
     is-deeply exact-change(5,5,5,20),bag(20);
     is-deeply exact-change(5,5,10,5,5,10,20,10), bag(20,10,10);
     done-testing;
-}
+#}
 
-multi MAIN (*@bills) {
-    say ?exact-change @bills
-}
+#multi MAIN (*@bills) { say ?exact-change @bills }

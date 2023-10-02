@@ -1,13 +1,6 @@
 #!/usr/bin/env raku
 
-#
-# Perl Weekly Challenge 236
-# Task 1
-#
-# See <https://perlweeklychallenge.org/blog/perl-weekly-challenge-236/>
-#
-
-sub MAIN( *@cash where { @cash.grep( * % 5 == 0 ).elems == @cash.elems } ) {
+sub MAIN( @cash where { @cash.grep( * % 5 == 0 ).elems == @cash.elems } = (5, 5, 5, 10, 20) ) {
 
     my %remainder;
     %remainder{ $_ } = 0 for 5,10,20;
