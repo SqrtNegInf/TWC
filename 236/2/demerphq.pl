@@ -2,14 +2,6 @@
 use strict;
 use warnings;
 
-# You are given an array of unique integers.
-#
-# Write a script to determine how many loops are in the given array.
-#
-# To determine a loop: Start at an index and take the number at
-# array[index] and then proceed to that index and continue this until
-# you end up at the starting index.
-
 sub compute_index_loops {
     my ($array) = @_;
 

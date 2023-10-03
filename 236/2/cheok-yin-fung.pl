@@ -1,7 +1,6 @@
 #!/usr/bin/env perl
-# The Weekly Challenge 236
-# Task 2 Array Loops
 use v5.30;
+
 use warnings;
 
 sub al {

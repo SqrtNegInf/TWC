@@ -1,24 +1,4 @@
 #!/usr/bin/env perl
-
-=pod
-
-The Weekly Challenge - 236
-- https://theweeklychallenge.org/blog/perl-weekly-challenge-236
-
-Author: Niels 'PerlBoy' van Dijke
-
-Task 2: Array Loops
-Submitted by: Mark Anderson
-
-You are given an array of unique integers.
-
-Write a script to determine how many loops are in the given array.
-
-|| To determine a loop: Start at an index and take the number at array[index]
-|| and then proceed to that index and continue this until you end up at the starting index.
-
-=cut
-
 use v5.16;
 
 use common::sense;
