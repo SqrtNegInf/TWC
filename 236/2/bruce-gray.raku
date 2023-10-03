@@ -1,4 +1,5 @@
 #!/usr/bin/env raku
+
 sub find_loops ( @ns --> Seq ) {
     my @n = @ns;
 

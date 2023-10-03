@@ -7,7 +7,7 @@ sub array-loops (+@ints) {
     andthen .tail
 }
 
-multi MAIN (Bool :test($)!) {
+#multi MAIN (Bool :test($)!) {
     use Test;
     is-deeply(
         array-loops(4,6,3,8,15,0,13,18,7,16,14,19,17,5,11,1,12,2,9,10),
@@ -24,8 +24,6 @@ multi MAIN (Bool :test($)!) {
     is array-loops(0..19).elems,20;
     is array-loops(|(1..19),0).elems,1;
     done-testing;
-}
+#}
 
-multi MAIN (+@ints) {
-    say +array-loops @ints
-}
+#multi MAIN (+@ints) { say +array-loops @ints }

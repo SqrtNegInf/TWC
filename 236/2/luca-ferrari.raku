@@ -1,13 +1,6 @@
 #!/usr/bin/env raku
 
-#
-# Perl Weekly Challenge 236
-# Task 2
-#
-# See <https://perlweeklychallenge.org/blog/perl-weekly-challenge-236/>
-#
-
-sub MAIN( *@nums  where { @nums.grep( * ~~ Int ).elems == @nums.elems } ) {
+sub MAIN( @nums  where { @nums.grep( * ~~ Int ).elems == @nums.elems } = (4,6,3,8,15,0,13,18,7,16,14,19,17,5,11,1,12,2,9,10) ) {
 
     my @loops;
     for 0 ..^ @nums.elems -> $current-start {

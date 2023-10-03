@@ -1,14 +1,5 @@
 #!/usr/bin/env raku
 
-# Perl Weekly Challenge #236 Task 2
-# © 2023 Shimon Bollinger. All rights reserved.
-# Last modified: Sat 30 Sep 2023 10:08:24 PM EDT
-# Version 0.0.1
-
-# always use the latest version of Raku
-use v6.*;
-
-
 multi MAIN (#| A list of unique integers
             *@input where .all ~~ Int &&
                           .unique.elems == .elems,
@@ -101,13 +92,13 @@ multi MAIN (Bool :v(:$verbose) = False) is hidden-from-USAGE {
 } # end of multi MAIN ()
 
 #| Handle the case of a single integer array
-multi MAIN (Int $i!, Bool :v(:$verbose) = False) is hidden-from-USAGE {
-    note "\e[31mFound a single-item loop:\e[0m [$i]" if $verbose;
-    say 1;
-} # end of multi MAIN (Int $i!
+#multi MAIN (Int $i!, Bool :v(:$verbose) = False) is hidden-from-USAGE {
+#    note "\e[31mFound a single-item loop:\e[0m [$i]" if $verbose;
+#    say 1;
+#} # end of multi MAIN (Int $i!
 
 #| Use the option '--test' to run the program with the three examples.
-multi MAIN (Bool :$test!) {
+#multi MAIN (Bool :$test!) {
     use Test;
 
     #TODO Handle edge cases.
@@ -125,4 +116,4 @@ multi MAIN (Bool :$test!) {
     for @tests {
         cmp-ok .<got>, .<op>, .<expected>, .<desc>;
     } # end of for @tests
-} # end of multi MAIN (:$test!)
+#} # end of multi MAIN (:$test!)

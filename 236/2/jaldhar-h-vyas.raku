@@ -1,7 +1,7 @@
 #!/usr/bin/env raku
 
 sub MAIN(
-    *@ints
+    @ints= (4,6,3,8,15,0,13,18,7,16,14,19,17,5,11,1,12,2,9,10)
 ) {
     my %seen;
     my $loops = 1;

@@ -1,7 +1,5 @@
 #!/usr/bin/env raku
 
-use v6;
-
 sub loopExistsAt(:@ints, :$start, :%seen) {
   # bail early if we're in a loop we've seen before
   return [] if %seen{$start}:exists;
