@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-use warnings;
-use strict;
-use experimental qw( signatures );
+use v5.36;
 
 sub exact_change(@bills) {
     my %change = map +($_ => 0), 5, 10;

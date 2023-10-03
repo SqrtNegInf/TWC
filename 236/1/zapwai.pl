@@ -1,5 +1,5 @@
 #!/usr/bin/env perl
-use v5.30;
+use v5.36;
 
 my @bills = (5, 5, 5, 10, 20);
 #@bills = (5,5,10,10,20);
@@ -24,4 +24,6 @@ for my $i (0 .. $#bills) {
     }
     $count{$bills[$i]}++;
 }
-$flag ? { say "True" } : { say "False" };
+
+say $flag ? "True" : "False";
+#$flag ? { say "True" } : { say "False" };
