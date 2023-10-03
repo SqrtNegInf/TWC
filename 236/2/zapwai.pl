@@ -1,7 +1,7 @@
 #!/usr/bin/env perl
-use v5.30;
+use v5.36;
 
-no warnings;
+use experimental qw( smartmatch );
 
 my @ints = (4,6,3,8,15,0,13,18,7,16,14,19,17,5,11,1,12,2,9,10);
 #@ints = (0,1,13,7,6,8,10,11,2,14,16,4,12,9,17,5,3,18,15,19);
@@ -13,9 +13,10 @@ my @used;
 for my $i (0 .. $#ints) {
     next if ($ints[$i] ~~ @used);
     my $ret = cycle($i);
-    if ($ret == -1) {
-	break;
-    } else {
+    #if ($ret == -1) {
+	#break;
+    #} else {
+    if ($ret != -1) {
 	push @used, @$ret;
     }
 }
