@@ -1,5 +1,4 @@
 #!/usr/bin/env raku
-use v6;
 
 sub greatness(@nums, @perm) {
   # determine the "greatness" of a permutation

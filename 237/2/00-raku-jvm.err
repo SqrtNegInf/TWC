@@ -1,0 +1,4 @@
+Method 'snip' not found for invocant of class 'Array'
+  in sub maximise-greatness at wambash.raku line 10
+  in block <unit> at wambash.raku line 17
+

@@ -1,13 +1,8 @@
 #!/usr/bin/env raku
 
-#
-# Perl Weekly Challenge 237
-# Task 2
-#
-# See <https://perlweeklychallenge.org/blog/perl-weekly-challenge-237/>
-#
+# very slow for larger input
 
-sub MAIN( *@nums where { @nums.grep( * ~~Int ).elems == @nums.elems } ) {
+sub MAIN( @nums where { @nums.grep( * ~~Int ).elems == @nums.elems } = (3,2,1) ) {
 
     my %permutations;
 

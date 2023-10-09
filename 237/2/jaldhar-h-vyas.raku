@@ -1,7 +1,7 @@
 #!/usr/bin/env raku
 
 sub MAIN(
-    *@nums
+    @nums = (3,2,1);
 ) {
     my $maxGreatness = 0;
 

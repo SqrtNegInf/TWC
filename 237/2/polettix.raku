@@ -1,6 +1,6 @@
 #!/usr/bin/env raku
-use v6;
-sub MAIN (*@args) { put greatness(@args) }
+
+sub MAIN (@args = (1,3,5,2,1,3,1,5,5,5,4) ) { put greatness(@args) }
 
 sub greatness (@inputs) {
    my %count-for;
