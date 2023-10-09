@@ -8,14 +8,12 @@ sub seize-the-day ($year, $month, $weekday-of-month, $day-of-week) {
     andthen .day
 }
 
-multi MAIN (Bool :test($)!) {
+#multi MAIN (Bool :test($)!) {
     use Test;
     is seize-the-day(2024,4,3,2),16;
     is seize-the-day(2025,10,2,4),9;
     is-deeply seize-the-day(2026,8,5,3),Empty;
     done-testing;
-}
+#}
 
-multi MAIN ($year, $month, $weekday-of-month, $day-of-wee) {
-    say +seize-the-day $year, $month, $weekday-of-month, $day-of-wee
-}
+#multi MAIN ($year, $month, $weekday-of-month, $day-of-wee) { say +seize-the-day $year, $month, $weekday-of-month, $day-of-wee }

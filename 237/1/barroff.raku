@@ -18,16 +18,14 @@ sub size-the-day(UInt:D $year, Month:D $month , WD:D $wd, Dow:D $dow --> Int:D) 
 }
 
 #| Run test cases
-multi sub MAIN('test') {
+#multi sub MAIN('test') {
     use Test;
     plan 3;
 
     is size-the-day(2024,  4, 3, 2), 16, 'works for size-the-day(2024,  4, 3, 2)';
     is size-the-day(2025, 10, 2, 4), 9,  'works for size-the-day(2025, 10, 2, 4)';
     is size-the-day(2026,  8, 5, 3), 0,  'works for size-the-day(2026,  8, 5, 3)';
-}
+#}
 
 #| Take user provided year like 2023 4 3 2
-multi sub MAIN(UInt:D $year, Month:D $month , WD:D $wd, Dow:D $dow) {
-    say size-the-day($year, $month , $wd, $dow);
-}
+#multi sub MAIN(UInt:D $year, Month:D $month , WD:D $wd, Dow:D $dow) { say size-the-day($year, $month , $wd, $dow); }

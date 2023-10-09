@@ -1,5 +1,4 @@
 #!/usr/bin/env raku
-use v6d;
 
 ################################################################################
 =begin comment
@@ -72,13 +71,6 @@ my      constant @MONTHS = Array[Str].new: < January February March April May
                                              November December >;
 my      constant @WKDAYS = Array[Str].new: < Monday Tuesday Wednesday Thursday
                                              Friday Saturday Sunday >;
-
-#-------------------------------------------------------------------------------
-BEGIN
-#-------------------------------------------------------------------------------
-{
-    "\nChallenge 237, Task #1: Seize The Day (Raku)\n".put;
-}
 
 #===============================================================================
 multi sub MAIN

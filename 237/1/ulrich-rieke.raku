@@ -1,10 +1,6 @@
 #!/usr/bin/env raku
-use v6 ;
 
-say "Please enter a year( positive integer ) , a month( integer from 1 to 12)," ;
-say " the index of a given weekday( integer from 1 to 5 ) , and a weekday( 1 to 7 )" ;
-my $line = $*IN.get ;
-my @dateparts = $line.words.map( {.Int} ) ;
+my @dateparts = (2024,4,3,2);
 #construct a date for the first day in the given month of the given year
 my $d = Date.new( @dateparts[ 0 ] , @dateparts[ 1 ] , 1 ) ;
 #add a day until you reach the given weekday

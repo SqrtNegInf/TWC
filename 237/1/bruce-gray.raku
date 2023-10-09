@@ -1,4 +1,5 @@
 #!/usr/bin/env raku
+
 sub task1 ( $year, $month, $weekday_of_month, $day_of_week --> UInt ) {
 
     my Date $day_1 .= new: :$year, :$month;
@@ -23,6 +24,7 @@ my @tests =
     (  2, (2023, 10, 1, 1) ), # To spot `abs` vs `mod` issue.
     ( 31, (2023, 10, 5, 2) ),
 ;
+
 use Test; plan @tests + 1;
 for @tests -> ( $expected, @in ) {
     is task1(|@in), $expected, @in;

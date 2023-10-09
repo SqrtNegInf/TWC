@@ -1,0 +1,5 @@
+You cannot create an instance of this type (null)
+  in sub seizeTheDay at packy-anderson.raku line 24
+  in sub solution at packy-anderson.raku line 73
+  in block <unit> at packy-anderson.raku line 84
+

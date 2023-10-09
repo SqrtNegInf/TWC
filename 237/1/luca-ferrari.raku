@@ -1,13 +1,6 @@
 #!/usr/bin/env raku
 
-#
-# Perl Weekly Challenge 237
-# Task 1
-#
-# See <https://perlweeklychallenge.org/blog/perl-weekly-challenge-237/>
-#
-
-sub MAIN( Int :$y, Int :$m, Int :$d, Int :$w ) {
+sub foo( $y, $m, $d, $w ) {
     my $date = Date.new( year => $y,
 			 month => $m,
 			 day => 1 );
@@ -36,3 +29,5 @@ sub MAIN( Int :$y, Int :$m, Int :$d, Int :$w ) {
 
     'Not found'.say;
 }
+
+foo(2024,4,3,2);

@@ -1,6 +1,6 @@
 #!/usr/bin/env raku
-use v6;
-sub MAIN (Int $year, Int $month, Int $weekday_in_month, Int $weekday) {
+
+sub foo (Int $year, Int $month, Int $weekday_in_month, Int $weekday) {
    my $date = Date.new(year => $year, month => $month, day => 1);
 
    # how much should we advance to find the first occurrence of the
@@ -14,3 +14,5 @@ sub MAIN (Int $year, Int $month, Int $weekday_in_month, Int $weekday) {
    # print the result making sure it's still in the same year & month
    put($date.year == $year && $date.month == $month ?? $date.day !! 0);
 }
+
+foo(2024,4,3,2) ;

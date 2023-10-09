@@ -13,7 +13,7 @@ sub ordinal($day) {
     );
 }
 
-sub MAIN(
+sub foo(
     $year, $month, $weekday, $dayofweek
 ) {
     my $dt = Date.new(year => $year, month => $month, day => 1);
@@ -55,3 +55,5 @@ sub MAIN(
             %m_abbr{$month}, ' ', $year, ' is the ', ordinal($dt.day);
     }
 }
+
+foo(2024,4,3,2);
