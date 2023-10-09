@@ -496,8 +496,8 @@ Challenge titles and Rosetta-code correspondences (exact, and otherwise)
 236-2 Array Loops
 237-1 Sieze the Day
 237-2 Maximize Greatness
-238-1
-238-2
+238-1 Running Sum
+238-2 Persistence Sort
 239-1
 239-2
 
