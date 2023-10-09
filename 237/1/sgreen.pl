@@ -32,4 +32,4 @@ sub main ( $year, $month, $week, $dofw ) {
 
 }
 
-main(@ARGV);
+main( 2024,4,3,2 );

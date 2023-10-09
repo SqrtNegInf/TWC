@@ -1,6 +1,7 @@
 #!/usr/bin/env perl
 use 5.030;
 use warnings;
+
 use English;
 use DateTime;
 
@@ -17,7 +18,7 @@ sub ordinal {
     );
 }
 
-my ($year, $month, $weekday, $dayofweek) = @ARGV;
+my ($year, $month, $weekday, $dayofweek) = (2024,4,3,2);
 
 my $dt = DateTime->new(year => $year, month => $month, day => 1);
 

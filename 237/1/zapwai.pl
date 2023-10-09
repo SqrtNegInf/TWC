@@ -1,5 +1,6 @@
 #!/usr/bin/env perl
 use v5.30;
+
 # Given yr, month, week, day (1 (Mon) .. 7 (Sun)), print date
 my ($year, $month, $week, $day) = (2024, 4, 3, 2);
 #my ($year, $month, $week, $day) = (2025, 10, 2, 4);

@@ -2,13 +2,10 @@
 use strict ;
 use warnings ;
 use feature 'say' ;
+
 use DateTime ;
 
-say "Enter a year ( positive integer ) , a month ( integer from 1 to 12 ) ," ;
-say "a weekday index ( integer from 1 to 5 ) and a weekday( integer from 1 to 7 )!" ;
-my $line = <STDIN> ;
-chomp $line ;
-my @dateParts = split( /\s/ , $line ) ;
+my @dateParts = (2024,4,3,2);
 my $d = DateTime->new( 
       year => $dateParts[ 0 ] ,
       month => $dateParts[ 1 ] , 

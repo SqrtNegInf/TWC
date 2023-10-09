@@ -1,27 +1,5 @@
 #!/usr/bin/env perl
-# vim:set ts=4 sw=4 sts=4 et ai wm=0 nu:
-#=============================================================================
-# ch-1.pl Perl Weekly Challenge 237 Task 1 
-#=============================================================================
-# Copyright (c) 2023, Bob Lied
-#=============================================================================
-# Given a year, a month, a weekday of month, and a day of week
-# (1 (Mon) .. 7 (Sun)), print the day.
-# Example 1
-#   Input: Year = 2024, Month = 4, Weekday of month = 3, day of week = 2
-#   Output: 16
-#   The 3rd Tue of Apr 2024 is the 16th
-# Example 2
-#   Input: Year = 2025, Month = 10, Weekday of month = 2, day of week = 4
-#   Output: 9
-#   The 2nd Thu of Oct 2025 is the 9th
-# Example 3
-#   Input: Year = 2026, Month = 8, Weekday of month = 5, day of week = 3
-#   Output: 0
-#   There isn't a 5th Wed in Aug 2026
-#=============================================================================
-
-use v5.38;
+use v5.36;
 use builtin qw/true false/; no warnings "experimental::builtin";
 
 use DateTime;
@@ -32,7 +10,7 @@ my $Verbose = 0;
 my $DoTest  = 0;
 
 GetOptions("test" => \$DoTest, "verbose" => \$Verbose);
-exit(!runTest()) if $DoTest;
+runTest();  exit;
 
 sub seizeTheDay(%day)
 {
@@ -59,7 +37,7 @@ sub seizeTheDay(%day)
 
 sub runTest
 {
-    use Test2::V0;
+    use Test::More;
 
     is( seizeTheDay( year=>2024, month=> 4, week=>3, dow=>2), 16, "Example 1");
     is( seizeTheDay( year=>2025, month=>10, week=>2, dow=>4),  9, "Example 2");

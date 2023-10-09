@@ -2,9 +2,10 @@
 use v5.24;
 use warnings;
 use experimental 'signatures';
+
 use Time::Local 'timegm_modern';
 
-say seize_the_day(@ARGV);
+say seize_the_day( 2024,4,3,2 );
 
 sub seize_the_day ($year, $month, $weekday_in_month, $weekday) {
    my $date = timegm_modern(0, 0, 12, 1, $month - 1, $year);

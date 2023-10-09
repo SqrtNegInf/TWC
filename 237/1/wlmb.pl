@@ -1,12 +1,12 @@
 #!/usr/bin/env perl
-# Perl weekly challenge 237
-# Task 1:  Seize The Day
-#
-# See https://wlmb.github.io/2023/10/01/PWC237/#task-1-seize-the-day
 use v5.36;
 use experimental qw(for_list);
+
 use POSIX qw(floor);
-die <<~"FIN" unless @ARGV && @ARGV%4==0;
+
+my @A  = (2024,4,3,2);
+
+die <<~"FIN" unless @A && @A%4==0;
     Usage: $0 Y1 M1 W1 D1 [Y2 M2 W2 D2...]
     to find the number corresponding to day Dn of week (1=Monday),
     weekday of month Wn, month Mn, year Yn
@@ -19,7 +19,7 @@ my @ordinal=qw(first second third fourth fifth);
 my @day_name=qw(Sunday Monday Tuesday Wednesday Thursday Friday Saturday);
 my @month_name=qw(January February March April May June
                   July August September October November Dececmber);
-for my($year, $month, $weekday, $day_of_week) (@ARGV){
+for my($year, $month, $weekday, $day_of_week) (@A){
     warn "Weekday should be between 1 and 5: $weekday", next unless 1<=$weekday<=5;
     warn "Day of week should be between 1 (Mon) and 7 (Sun): $day_of_week", next
         unless 1<=$day_of_week<=7;

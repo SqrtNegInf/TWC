@@ -1,5 +1,5 @@
 #!/usr/bin/env perl
-use v5.38;
+use v5.36;
 
 # let's use the core modules for date manipulation
 use Time::Piece;
