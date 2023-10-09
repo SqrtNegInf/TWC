@@ -2,6 +2,7 @@
 use v5.24;
 use warnings;
 use experimental 'signatures';
+
 use JSON::PP;
 
 my ($greatness, $permutation) = great_permutation(@ARGV);

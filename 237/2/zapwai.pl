@@ -1,5 +1,6 @@
 #!/usr/bin/env perl
 use v5.30;
+
 my @nums = (1, 3, 5, 2, 1, 3, 1);
 say "Input: \@nums  = (" . join(", ",@nums) . ")";
 my %loc;

@@ -1,9 +1,7 @@
 #!/usr/bin/env perl
-# Perl weekly challenge 237
-# Task 2:  Maximise Greatness
-#
-# See https://wlmb.github.io/2023/10/01/PWC237/#task-2-maximise-greatness
 use v5.36;
+
+my @ARGV = (1, 3, 5, 2, 1, 3, 1);
 die <<~"FIN" unless @ARGV;
     Usage: $0 N1 [N2...]
     to find the greatness of the array N1 N2...

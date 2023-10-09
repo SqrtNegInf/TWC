@@ -15,7 +15,7 @@ sub permute (&@) {
     }
 }
 
-my @nums = @ARGV;
+my @nums = (1, 3, 5, 2, 1, 3, 1);
 
 my $maxGreatness = 0;
 

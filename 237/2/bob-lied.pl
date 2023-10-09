@@ -1,50 +1,5 @@
 #!/usr/bin/env perl
-# vim:set ts=4 sw=4 sts=4 et ai wm=0 nu:
-#=============================================================================
-# ch-2.pl Perl Weekly Challenge 237 Task 2 Maximise Greatness 
-#=============================================================================
-# Copyright (c) 2023, Bob Lied
-#=============================================================================
-# You are given an array of integers.
-# Write a script to permute the give array such that you get the
-# maximum possible greatness.
-# To determine greatness, nums[i] < perm[i] where 0 <= i < nums.length
-#
-# Example 1 Input: @nums = (1, 3, 5, 2, 1, 3, 1)
-#           Output: 4
-#   One possible permutation: (2, 5, 1, 3, 3, 1, 1) which returns
-#   4 greatness as below:
-#      [1] [3] 5 [2] [1] 3  1
-#       <   <  .  <   <  .  .
-#      [2] [5] 1 [3] [3] 1  1
-#
-# Example 2 Input: @ints = (1, 2, 3, 4)
-#           Output: 3
-#   One possible permutation: (2, 3, 4, 1) which returns 3 greatness as below:
-#       [1] [2] [3]  4
-#        <   <   <   .
-#       [2] [3] [4]  1
-#
-# If we sort the list, we can match the smallest number with the first
-# one that achieves greatness, and then move right 
-#
-#    1    1    1    2    3    3    5
-#    +--------------^
-#         +--------------^
-#              +--------------+
-#                   +--------------^
-#
-#    1    1    1    2    3    3    5    7    8    9
-#    +--------------^
-#         +--------------^
-#              +--------------+
-#                   +--------------^
-#                        +--------------^
-#                             +---------------^
-#                                  +---------------^
-#=============================================================================
-
-use v5.38;
+use v5.36;
 use builtin qw/true false/; no warnings "experimental::builtin";
 
 use Getopt::Long;
@@ -52,7 +7,7 @@ my $Verbose = 0;
 my $DoTest  = 0;
 
 GetOptions("test" => \$DoTest, "verbose" => \$Verbose);
-exit(!runTest()) if $DoTest;
+runTest(); exit;
 
 say maximizeGreatness(@ARGV);
 
@@ -81,7 +36,7 @@ sub maximizeGreatness(@nums)
 
 sub runTest
 {
-    use Test2::V0;
+    use Test::More;
 
     is( maximizeGreatness(1,3,5,2,1,3,1), 4, "Example 1");
     is( maximizeGreatness(1,2,3,4      ), 3, "Example 2");

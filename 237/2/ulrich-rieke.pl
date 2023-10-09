@@ -2,12 +2,10 @@
 use strict ;
 use warnings ;
 use feature 'say' ;
+
 use Algorithm::Combinatorics qw ( permutations ) ;
 
-say "Enter some integers, separated by blanks!" ;
-my $line = <STDIN> ;
-chomp $line ;
-my @numbers = split( /\s/ , $line ) ;
+my @numbers = (1, 3, 5, 2, 1, 3, 1);
 my $len = scalar( @numbers ) ;
 my $max_greatness = 0 ;
 my $iter = permutations( \@numbers ) ;

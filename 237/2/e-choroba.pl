@@ -34,7 +34,7 @@ sub maximise_greatness_brute_force(@nums) {
     return $max_count
 }
 
-use Test::More tests => 2 * (2 + 4) + 1;
+use Test::More;
 
 for my $maximise_greatness (
     \&maximise_greatness, \&maximise_greatness_brute_force
@@ -48,3 +48,5 @@ for my $maximise_greatness (
     is $maximise_greatness->(1, 1, 1, 2, 2), 2, 'More of the less ones';
     is $maximise_greatness->(1, 2, 2, 2, 3), 2, 'More of the middle ones';
 }
+
+done_testing;
