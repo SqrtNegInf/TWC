@@ -96,27 +96,27 @@ described in my analysis.
 
 Input:   @nums  = (1, 3, 5, 2, 1, 3, 1)
 Output1: @perms = (1, 1, 1, 3, 2, 5, 3)
-      greatness = 4 (420 permutations, time 2037Î¼s)
+      greatness = 4 (420 permutations, time 2126Î¼s)
 Output2: @perms = (1, 5, 1, 3, 2, 1, 3)
-      greatness = 4 (time 39Î¼s)
+      greatness = 4 (time 40Î¼s)
 
 Input:   @nums  = (1, 2, 3, 4)
 Output1: @perms = (2, 3, 4, 1)
-      greatness = 3 (10 permutations, time 57Î¼s)
+      greatness = 3 (10 permutations, time 56Î¼s)
 Output2: @perms = (2, 3, 4, 1)
       greatness = 3 (time 16Î¼s)
 
 Input:   @nums  = (9, 6, 3, 5, 1, 0, 8, 4, 14)
 Output1: @perms = (14, 8, 4, 6, 3, 1, 9, 5, 0)
-      greatness = 8 (355500 permutations, time 1517452Î¼s)
+      greatness = 8 (355500 permutations, time 1557737Î¼s)
 Output2: @perms = (14, 8, 4, 6, 3, 1, 9, 5, 0)
-      greatness = 8 (time 66Î¼s)
+      greatness = 8 (time 68Î¼s)
 
 Input:   @nums  = (1, 2, 3, 1, 2, 3, 1, 2, 3)
 Output1: @perms = (2, 3, 1, 2, 3, 1, 2, 3, 1)
-      greatness = 6 (1680 permutations, time 9067Î¼s)
+      greatness = 6 (1680 permutations, time 8821Î¼s)
 Output2: @perms = (2, 3, 1, 2, 3, 1, 2, 3, 1)
-      greatness = 6 (time 60Î¼s)
+      greatness = 6 (time 58Î¼s)
  
 ===> 237/2/peter-meszaros.pl <===
 ok 1 - [1, 3, 5, 2, 1, 3, 1]
