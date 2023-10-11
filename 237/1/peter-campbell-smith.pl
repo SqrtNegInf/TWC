@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-use v5.16;
-
-use strict;   # Peter Campbell Smith
-use warnings; # Blog: http://ccgi.campbellsmiths.force9.co.uk/challenge
+use v5.36;
 
 seize_the_day(2024, 4, 3, 2);
 seize_the_day(2025, 10, 2, 4);

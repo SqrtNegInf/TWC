@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
+use v5.36;
 
 use Date::Calc qw(Nth_Weekday_of_Month_Year);
 
