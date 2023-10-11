@@ -1,11 +1,9 @@
 #!/usr/bin/env perl
-use 5.030;
-use warnings;
+use v5.36;
 
-sub permute (&@) {
-    my $code = shift;
-    my @idx = 0..$#_;
-    while ( $code->(@_[@idx]) ) {
+sub permute ($code, @words) {
+    my @idx = 0..$#words;
+    while ( $code->(@words[@idx]) ) {
         my $p = $#idx;
         --$p while $idx[$p-1] > $idx[$p];
         my $q = $p or return;
@@ -20,7 +18,7 @@ my @nums = (1, 3, 5, 2, 1, 3, 1);
 my $maxGreatness = 0;
 
 my @permutations;
-permute { push @permutations, \@_; } @nums;
+permute sub { push @permutations, \@_ }, @nums;
 
 for my $perm (@permutations) {
     my $greatness = 0;
