@@ -47,10 +47,10 @@ sub maximise_greatness {
         
     } while (NextPermuteNum(@perms) and $greatness != $last);
     
-    $elapsed = int(tv_interval($t0) * 1000000);
+   #$elapsed = int(tv_interval($t0) * 1000000);
     say qq[Output1: \@perms = ($greatness_perm)];
-    say qq[      greatness = $greatness ($k permutations, time ${elapsed}μs)];
-    say qq[      greatness = $greatness ($k permutations, time ${elapsed}μs)];
+    say qq[      greatness = $greatness ($k permutations)];
+    say qq[      greatness = $greatness ($k permutations)];
     
     # PETER'S IMPROVED METHOD
     $t0 = [gettimeofday];
