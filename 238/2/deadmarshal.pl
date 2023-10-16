@@ -1,6 +1,7 @@
 #!/usr/bin/env perl
 use strict;
 use warnings;
+
 use List::Util qw(product);
 
 sub persistence_sort{

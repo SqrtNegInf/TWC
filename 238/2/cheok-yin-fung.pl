@@ -1,8 +1,7 @@
 #!/usr/bin/env perl
-# The Weekly Challenge 238
-# Task 2 Persistence Sort
 use v5.30.0;
 use warnings;
+
 use List::Util qw/product/;
 
 sub psort {

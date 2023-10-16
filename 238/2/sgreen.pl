@@ -26,4 +26,4 @@ sub main (@ints) {
     say '(', join( ', ', @sorted_ints ), ')';
 }
 
-main(@ARGV);
+main((15, 99, 1, 34));

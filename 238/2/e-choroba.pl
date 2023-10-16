@@ -19,8 +19,8 @@ sub steps($n) {
     return $steps
 }
 
-use Test2::V0 -srand => 1;
-plan 2;
+use Test::More;
 
-is persistence_sort(15, 99, 1, 34), [1, 15, 34, 99], 'Example 1';
-is persistence_sort(50, 25, 33, 22), [22, 33, 50, 25], 'Example 2';
+is_deeply persistence_sort(15, 99, 1, 34), [1, 15, 34, 99], 'Example 1';
+is_deeply persistence_sort(50, 25, 33, 22), [22, 33, 50, 25], 'Example 2';
+done_testing;

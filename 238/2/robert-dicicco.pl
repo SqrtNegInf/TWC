@@ -1,12 +1,6 @@
 #!/usr/bin/env perl
-=begin comment
-----------------------------------------
-AUTHOR: Robert DiCicco
-DATE  : 2023-10-10
-Challenge 238 Task 02 Persistence Sort ( Perl )
-----------------------------------------
-=cut
-use v5.38;
+use v5.36;
+
 use List::Util qw/product/;
 
 my @myints = ([15, 99, 1, 34],[50, 25, 33, 22]);

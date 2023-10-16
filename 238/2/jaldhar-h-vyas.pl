@@ -2,7 +2,7 @@
 use 5.030;
 use warnings;
 
-my @ints = @ARGV;
+my @ints = (15, 99, 1, 34);
 my %steps;
 
 for my $int (@ints) {

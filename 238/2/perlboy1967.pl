@@ -1,25 +1,7 @@
 #!/usr/bin/env perl
 
-=pod
-
-The Weekly Challenge - 238
-- https://theweeklychallenge.org/blog/perl-weekly-challenge-238
-
-Author: Niels 'PerlBoy' van Dijke
-
-Task 2: Persistence Sort
-Submitted by: Mohammad S Anwar
-
-You are given an array of positive integers.
-
-Write a script to sort the given array in increasing order with respect
-to the count of steps required to obtain a single-digit number by multiplying
-its digits recursively for each array element. If any two numbers have the
-same count of steps, then print the smaller number first.
-
-=cut
-
 use v5.32;
+
 use common::sense;
 use feature 'signatures';
 

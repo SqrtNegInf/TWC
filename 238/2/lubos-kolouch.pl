@@ -2,6 +2,7 @@
 use strict;
 use warnings;
 use feature 'say';
+
 use List::Util qw(reduce);
 
 # Function to calculate persistence steps

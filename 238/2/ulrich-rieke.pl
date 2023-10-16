@@ -2,6 +2,7 @@
 use strict ;
 use warnings ;
 use feature 'say' ;
+
 use List::Util qw ( product ) ;
 
 sub decompose {
@@ -33,10 +34,7 @@ sub findSteps {
    }
 }
 
-say "Enter some positive integers, separated by blanks!" ;
-my $line = <STDIN> ;
-chomp $line ;
-my @numbers = split( /\s/ , $line ) ;
+my @numbers = (15, 99, 1, 34);
 my @sorted = sort { findSteps( $a ) <=> findSteps( $b ) || $a <=> $b }
  @numbers ;
 say "(" . join( ',' , @sorted ) . ")" ; 
