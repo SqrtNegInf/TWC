@@ -1,4 +1,5 @@
 #!/usr/bin/env raku
+
 use Test;
 
 # Function to calculate the running sum of an array

@@ -1,4 +1,5 @@
 #!/usr/bin/env raku
+
 sub running-sum (@in) {
     return [\+] @in;
 }

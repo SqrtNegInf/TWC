@@ -1,4 +1,5 @@
 #!/usr/bin/env raku
+
 use Test;
 
 is-deeply ([\+] 1,2,3,4,5), (1,3,6,10,15);
