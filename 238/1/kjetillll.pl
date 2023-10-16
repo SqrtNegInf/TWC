@@ -1,5 +1,7 @@
 #!/usr/bin/env perl
-use strict; use warnings;
+
+use strict; 
+use warnings;
 
 sub running_sum {
     my($first,@rest)=@_;

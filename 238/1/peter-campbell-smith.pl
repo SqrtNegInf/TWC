@@ -1,7 +1,6 @@
 #!/usr/bin/env perl
+use v5.16;
 
-use v5.16;    # The Weekly Challenge - 2023-10-09
-use utf8;     # Week 237 task 1 - Running sum
 use strict;   # Peter Campbell Smith
 use warnings; # Blog: http://ccgi.campbellsmiths.force9.co.uk/challenge
 

@@ -9,9 +9,9 @@ sub running_sum(@int) {
     return \@running_sum
 }
 
-use Test2::V0 -srand => 1;
-plan 3;
+use Test::More;
 
-is running_sum(1, 2, 3, 4, 5), [1, 3, 6, 10, 15], 'Example 1';
-is running_sum(1, 1, 1, 1, 1), [1, 2, 3, 4, 5], 'Example 2';
-is running_sum(0, -1, 1, 2), [0, -1, 0, 2], 'Example 3';
+is_deeply running_sum(1, 2, 3, 4, 5), [1, 3, 6, 10, 15], 'Example 1';
+is_deeply running_sum(1, 1, 1, 1, 1), [1, 2, 3, 4, 5], 'Example 2';
+is_deeply running_sum(0, -1, 1, 2), [0, -1, 0, 2], 'Example 3';
+done_testing;

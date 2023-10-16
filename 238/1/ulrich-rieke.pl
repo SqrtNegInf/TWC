@@ -1,12 +1,10 @@
 #!/usr/bin/env perl
+
 use strict ;
 use warnings ;
 use feature 'say' ;
 
-say "Enter some integers, separated by blanks!" ;
-my $line = <STDIN> ;
-chomp $line ;
-my @numbers = split( /\s/ , $line ) ;
+my @numbers = (1, 2, 3, 4, 5);
 my $len = scalar( @numbers ) ;
 my $current_sum = 0 ;
 my @result ;

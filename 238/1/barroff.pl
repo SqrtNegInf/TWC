@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
 
-use v5.38;
+use v5.36;
 
 use List::Util qw/sum/;
 
@@ -11,7 +11,7 @@ sub running_sum ( $rs, @ints ) {
     );
 }
 
-sub MAIN() {
+sub foo() {
     if (@ARGV) {
 
         #| Run command line arguments
@@ -19,8 +19,7 @@ sub MAIN() {
     }
     else {
         #| Run test cases
-        use Test2::V0 qw( is plan );
-        plan 3;
+        use Test::More;
 
         is eval 'join " ", running_sum(0, ( 1, 2, 3, 4, 5 ) )',
           '1 3 6 10 15', 'works for (1, 2, 3, 4, 5)';
@@ -28,7 +27,8 @@ sub MAIN() {
           '1 2 3 4 5', 'works for (1, 1, 1, 1, 1)';
         is eval 'join " ", running_sum(0, ( 0, -1, 1, 2) )',
           '0 -1 0 2', 'works for (0, -1, 1, 2)';
+        done_testing;
     }
 }
 
-MAIN();
+foo();

@@ -24,4 +24,3 @@ foreach my $tuple (
     is( "@$got", "@$want", "Test [@$input]");
 }
 done_testing();
-__END__

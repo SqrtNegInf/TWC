@@ -1,6 +1,7 @@
 #!/usr/bin/env perl
 use strict;
 use warnings;
+
 use Test::More;
 
 # Function to calculate the running sum of an array
