@@ -1,13 +1,6 @@
 #!/usr/bin/env raku
 
-#
-# Perl Weekly Challenge 238
-# Task 2
-#
-# See <https://perlweeklychallenge.org/blog/perl-weekly-challenge-238/>
-#
-
-sub MAIN( *@nums where { @nums.grep( { $_ ~~ Int && $_ > 0 } ).elems == @nums.elems } ) {
+sub MAIN( @nums where { @nums.grep( { $_ ~~ Int && $_ > 0 } ).elems == @nums.elems } =  (15, 99, 1, 34) ) {
     my %steps;
     for @nums {
 	my $step-counter = 0;

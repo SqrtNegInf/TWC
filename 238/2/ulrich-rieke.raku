@@ -1,5 +1,4 @@
 #!/usr/bin/env raku
-use v6 ;
 
 sub decompose( $number is copy ) {
    my @digits ;
@@ -49,8 +48,6 @@ sub my_sorter( $firstNum , $secondNum ) {
    }
 }
 
-say "Enter some positive integers, separated by blanks!" ;
-my $line = $*IN.get ;
-my @numbers = $line.words.map( {.Int} ) ;
+my @numbers = (15, 99, 1, 34);
 my $sorted = @numbers.sort: &my_sorter ;
 say "(" ~ $sorted.join( ',' ) ~ ")" ;

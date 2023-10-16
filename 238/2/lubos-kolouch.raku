@@ -1,4 +1,5 @@
 #!/usr/bin/env raku
+
 # Function to calculate steps to reach a single-digit number
 sub calc_steps(Int $num) {
     my $steps = 0;

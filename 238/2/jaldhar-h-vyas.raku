@@ -1,7 +1,7 @@
 #!/usr/bin/env raku
 
 sub MAIN(
-    *@ints
+    @ints = (15, 99, 1, 34)
 ) {
     my %steps;
 

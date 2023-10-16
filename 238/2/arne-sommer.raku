@@ -1,6 +1,6 @@
 #!/usr/bin/env raku
 
-unit sub MAIN (*@int where all(@int) ~~ UInt && all(@int) > 0 && @int.elems > 0, :v(:$verbose));
+unit sub MAIN (@int where all(@int) ~~ UInt && all(@int) > 0 && @int.elems > 0 = (15, 99, 1, 34) , :v(:$verbose));
 
 my %steps;
 

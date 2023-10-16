@@ -1,7 +1,9 @@
 #!/usr/bin/env raku
+
 sub multiplicative_persistence ( UInt $n --> UInt ) {
     return +( $n, { [*] .comb } …^ * ≤ 9 );
 }
+
 sub task2 ( @ns --> Seq ) {
     return @ns.sort: { .&multiplicative_persistence, +$_ };
 }
@@ -11,6 +13,7 @@ my @tests =
     ( (15, 99,  1, 34), ( 1, 15, 34, 99) ),
     ( (50, 25, 33, 22), (22, 33, 50, 25) ),
 ;
+
 my @extra_mp_tests =
     (  1, 15,  ),
     (  2, 99,  ),
@@ -67,10 +70,12 @@ my @extra_mp_tests =
     ( 11,   2222222222222222222337777779        ),
     ( 11, 22222222222222222223333777777         ),
 ;
+
 use Test; plan +@tests + 1;
 for @tests -> ( @in, @expected ) {
     is-deeply task2(@in), @expected;
 }
+
 {
     my $passed = + @extra_mp_tests.grep: {
         multiplicative_persistence(.[1]) == .[0]

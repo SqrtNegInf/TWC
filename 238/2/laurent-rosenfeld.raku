@@ -1,4 +1,5 @@
 #!/usr/bin/env raku
+
 sub to-single-digit ($in) {
     my $prod = $in;
     my $count = 0;

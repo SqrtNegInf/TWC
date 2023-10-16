@@ -1,0 +1,101 @@
+ 
+===> 238/2/0rir.raku <===
+1..12
+ok 1 - 1 to single digit takes 0 ops
+ok 2 - 10 to single digit takes 1 ops
+ok 3 - 123457890 to single digit takes 1 ops
+ok 4 - 123 to single digit takes 1 ops
+ok 5 - 1234 to single digit takes 2 ops
+ok 6 - 2555 to single digit takes 2 ops
+ok 7 - 1234578912345 to single digit takes 2 ops
+ok 8 - 777 to single digit takes 4 ops
+ok 9 - 999 to single digit takes 4 ops
+ok 10 - 1 15 34 99 <- 15 99 1 34
+ok 11 - 22 33 50 25 <- 50 25 33 22
+ok 12 - 10 123 123457890 <- 123457890 123 10
+
+Input: @int = 1999 707 50 999 777 57 9991
+Output: 50 707 57 777 999 1999 9991
+ 
+===> 238/2/arne-sommer.raku <===
+(1, 15, 34, 99)
+ 
+===> 238/2/athanasius.raku <===
+Running the test suite
+ok 1 - Example 1
+ok 2 - Example 2
+1..2
+ 
+===> 238/2/bruce-gray.raku <===
+1..3
+ok 1 - 
+ok 2 - 
+ok 3 - All 50 multiplicative_persistence tests passed
+ 
+===> 238/2/deadmarshal.raku <===
+(1 15 34 99)
+(22 33 50 25)
+ 
+===> 238/2/jaldhar-h-vyas.raku <===
+(1, 15, 34, 99)
+ 
+===> 238/2/laurent-rosenfeld.raku <===
+15 99 1 34      => 1, 15, 34, 99
+50 25 33 22     => 22, 33, 50, 25
+ 
+===> 238/2/lubos-kolouch.raku <===
+[1 15 99 34]
+[50 33 22 25]
+ 
+===> 238/2/luca-ferrari.raku <===
+1, 15, 34, 99
+ 
+===> 238/2/mark-anderson.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ok 4 - 
+ok 5 - 
+ok 6 - 
+ 
+===> 238/2/massa.raku <===
+ok 1 - 
+ok 2 - 
+ 
+===> 238/2/packy-anderson.raku <===
+Example 1:
+Input: @int = (15, 99, 1, 34)
+Output: (1, 15, 34, 99)
+
+15 => 1 x 5 => 5 (1 step)
+99 => 9 x 9 => 81 => 8 x 1 => 8 (2 steps)
+1 (0 steps)
+34 => 3 x 4 => 12 => 1 x 2 => 2 (2 steps)
+
+Example 2:
+Input: @int = (50, 25, 33, 22)
+Output: (22, 33, 50, 25)
+
+50 => 5 x 0 => 0 (1 step)
+25 => 2 x 5 => 10 => 1 x 0 => 0 (2 steps)
+33 => 3 x 3 => 9 (1 step)
+22 => 2 x 2 => 4 (1 step)
+ 
+===> 238/2/rcmlz.raku <===
+(1 15 34 99)
+ 
+===> 238/2/robert-dicicco.raku <===
+Input: @int = [15 99 1 34]
+Output: [ 1 15 34 99 ]
+
+Input: @int = [50 25 33 22]
+Output: [ 22 33 50 25 ]
+
+ 
+===> 238/2/roger-bell-west.raku <===
+1..2
+ok 1 - example 1
+ok 2 - example 2
+ 
+===> 238/2/ulrich-rieke.raku <===
+(1,15,34,99)
