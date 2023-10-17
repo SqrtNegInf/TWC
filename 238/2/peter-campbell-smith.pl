@@ -1,9 +1,5 @@
 #!/usr/bin/env perl
-
-use v5.16;    # The Weekly Challenge - 2023-10-09
-
-use strict;   # Peter Campbell Smith
-use warnings; # Blog: http://ccgi.campbellsmiths.force9.co.uk/challenge
+use v5.36;
 
 persistence_sort(15, 99, 1, 34);
 persistence_sort(50, 25, 33, 22);

@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-use 5.030;
-use warnings;
+use v5.36;
 
 my @ints = (15, 99, 1, 34);
 my %steps;

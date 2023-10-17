@@ -2,7 +2,6 @@
 use v5.36;
 
 use Test::More;
-use Data::Dumper;
 
 sub persistence_sort (@nums)
 {

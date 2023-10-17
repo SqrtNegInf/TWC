@@ -1,9 +1,5 @@
 #!/usr/bin/env perl
-
-use v5.32;
-
-use common::sense;
-use feature 'signatures';
+use v5.36;
 
 use Test::More;
 use Test::Deep qw(cmp_deeply);

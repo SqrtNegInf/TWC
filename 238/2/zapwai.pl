@@ -1,5 +1,5 @@
 #!/usr/bin/env perl
-use v5.30;
+use v5.36;
 
 my @int = (15,99,1,34);
 @int = (50, 25, 33, 22);
