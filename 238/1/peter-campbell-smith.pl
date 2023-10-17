@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-use v5.16;
-
-use strict;   # Peter Campbell Smith
-use warnings; # Blog: http://ccgi.campbellsmiths.force9.co.uk/challenge
+use v5.36;
 
 running_sum(1, 2, 3, 4, 5);
 running_sum(1, 1, 1, 1, 1);

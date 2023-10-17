@@ -1,14 +1,8 @@
 #!/usr/bin/env perl
-
-use v5.32;
-use feature 'signatures';
-
-use common::sense;
-
+use v5.36;
 
 use Test::More;
 use Test::Deep qw(cmp_deeply);
-
 
 sub runningSum (@numbers) {
   my $s = 0;

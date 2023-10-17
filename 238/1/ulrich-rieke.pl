@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-
-use strict ;
-use warnings ;
-use feature 'say' ;
+use v5.36;
 
 my @numbers = (1, 2, 3, 4, 5);
 my $len = scalar( @numbers ) ;

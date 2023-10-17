@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use 5.36.0;
 use Test::More;
 
 sub running_sum (@nums)
