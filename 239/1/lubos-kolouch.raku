@@ -1,5 +1,4 @@
 #!/usr/bin/env raku
-# Raku code for "Same String" problem
 
 use Test;
 

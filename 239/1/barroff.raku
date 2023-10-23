@@ -1,7 +1,5 @@
 #!/usr/bin/env raku
 
-use v6.d;
-
 sub same-string(@arr1, @arr2) {
     [~](@arr1) eq [~](@arr2);
 }

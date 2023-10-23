@@ -1,4 +1,5 @@
 #!/usr/bin/env raku
+
 sub ch1{([~] $^a)===([~] $^b)}
 
 say ch1(("ab", "c"),("a", "bc")); # true
