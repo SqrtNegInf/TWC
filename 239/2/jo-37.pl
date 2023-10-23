@@ -3,7 +3,7 @@
 use v5.24;
 use Test2::V0 -srand => 1;
 
-our ($tests, $examples, $verbose, $allowed);
+our ($tests, $examples, $verbose, $allowed) = (1,1);
 
 run_tests() if $tests || $examples;	# does not return
 

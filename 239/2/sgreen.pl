@@ -21,4 +21,4 @@ sub main (@words) {
     say $count;
 }
 
-main(@ARGV);
+main( <ad bd aaab baa badab ab> );

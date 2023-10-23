@@ -2,10 +2,6 @@
 use warnings;
 use strict;
 
-# Task 2: Consistent Strings
-# You are given an array of strings and allowed string having distinct characters.
-# A string is consistent if all characters in the string appear in the string allowed.
-
 
 # Example 1
 my @str = ("ad", "bd", "aaab", "baa", "badab");

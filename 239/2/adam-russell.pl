@@ -1,10 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
-##
-# You are given an array of strings and allowed string having distinct characters.
-# A string is consistent if all characters in the string appear in the string allowed.
-# Write a script to return the number of consistent strings in the given array.
-##
+
 sub is_consistent{
     my($s, $allowed) = @_;
     $s =~ s/[$allowed]//g;

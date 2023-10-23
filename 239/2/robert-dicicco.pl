@@ -1,12 +1,5 @@
 #!/usr/bin/env perl
-=begin
----------------------------------------
-AUTHOR : Robert DiCicco
-DATE   : 2023-10-18
-Challenge 239 Task 02 Consistent Strings ( Perl )
---------------------------------------
-=cut
-use v5.38;
+use v5.36;
 
 my @mystr = (["ad", "bd", "aaab", "baa", "badab"],
              ["a", "b", "c", "ab", "ac", "bc", "abc"],

@@ -1,8 +1,7 @@
 #!/usr/bin/env perl
-# The Weekly Challenge 239
-# Task 2 Consistent Strings
 use v5.30.0;
 use warnings;
+
 use Set::Intersection;
 use List::Util qw/uniqstr/;
 sub cs {

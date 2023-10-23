@@ -1,11 +1,13 @@
 #!/usr/bin/env perl
 use v5.30;
+
 my @str = ("ad", "bd", "aaab", "baa", "badab");
 my $allowed = "ab";
 # @str = ("a", "b", "c", "ab", "ac", "bc", "abc");
 # my $allowed = "abc";
 # @str = ("cc", "acd", "b", "ba", "bac", "bad", "ac", "d");
 # my $allowed = "cad";
+
 my $count = 0;
 my @good = split "", $allowed;
 foreach my $word (@str) {

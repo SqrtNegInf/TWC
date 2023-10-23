@@ -1,0 +1,163 @@
+ 
+===> 239/2/adam-russell.pl <===
+2
+7
+4
+ 
+===> 239/2/athanasius.pl <===
+Running the test suite
+ok 1 - Example 1: count
+ok 2 - Example 1: consistent strings
+ok 3 - Example 2: count
+ok 4 - Example 2: consistent strings
+ok 5 - Example 3: count
+ok 6 - Example 3: consistent strings
+1..6
+ 
+===> 239/2/bob-lied.pl <===
+0
+ 
+===> 239/2/cheok-yin-fung.pl <===
+1..3
+ok 1
+ok 2
+ok 3
+ 
+===> 239/2/dave-jacoby.pl <===
+Input:  @str = ("ad", "bd", "aaab", "baa", "badab")
+        $allowed = "ab"
+Output: 2
+
+Input:  @str = ("a", "b", "c", "ab", "ac", "bc", "abc")
+        $allowed = "abc"
+Output: 7
+
+Input:  @str = ("cc", "acd", "b", "ba", "bac", "bad", "ac", "d")
+        $allowed = "cad"
+Output: 4
+
+ 
+===> 239/2/deadmarshal.pl <===
+2
+7
+4
+ 
+===> 239/2/e-choroba.pl <===
+1..5
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ok 4 - Empty strings
+ok 5 - Special characters
+ 
+===> 239/2/ianrifkin.pl <===
+2
+7
+4
+ 
+===> 239/2/jo-37.pl <===
+# Seeded srand with seed '1' from import arg.
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ok 4 - meta chars
+ok 5 - allow empty
+1..5
+ 
+===> 239/2/kjetillll.pl <===
+ok   str: ad bd aaab baa badab   allowed: ab   output: 2   got: 2
+ok   str: a b c ab ac bc abc   allowed: abc   output: 7   got: 7
+ok   str: cc acd b ba bac bad ac d   allowed: cad   output: 4   got: 4
+ 
+===> 239/2/lubos-kolouch.pl <===
+ok 1 - Test Case 1
+ok 2 - Test Case 2
+ok 3 - Test Case 3
+1..3
+ 
+===> 239/2/packy-anderson.pl <===
+Example 1:
+Input: @str = ("ad", "bd", "aaab", "baa", "badab")
+       $allowed = "ab"
+Output: 2
+
+Example 2:
+Input: @str = ("a", "b", "c", "ab", "ac", "bc", "abc")
+       $allowed = "abc"
+Output: 7
+
+Example 3:
+Input: @str = ("cc", "acd", "b", "ba", "bac", "bad", "ac", "d")
+       $allowed = "cad"
+Output: 4
+ 
+===> 239/2/perlboy1967.pl <===
+ok 1
+ok 2
+ok 3
+ok 4
+1..4
+ 
+===> 239/2/peter-campbell-smith.pl <===
+
+Input:  @str = ('ad', 'bd', 'aaab', 'baa', 'badab')
+        $allowed = 'ab'
+Output: 2
+
+Input:  @str = ('a', 'b', 'c', 'ab', 'ac', 'bc', 'abc')
+        $allowed = 'abc'
+Output: 7
+
+Input:  @str = ('cc', 'acd', 'b', 'ba', 'bac', 'bad', 'ac', 'd')
+        $allowed = 'cad'
+Output: 4
+
+Input:  @str = ('perl', 'is', 'an', 'easy', 'language', 'to', 'use')
+        $allowed = 'aegilnoprstuy'
+Output: 7
+
+Input:  @str = ('perl', 'is', 'an', 'easy', 'language', 'to', 'use')
+        $allowed = 'bcdfhjkmqvwxz'
+Output: 0
+ 
+===> 239/2/peter-meszaros.pl <===
+ok 1 - [["ad", "bd", "aaab", "baa", "badab"], "ab"]
+ok 2 - [["a", "b", "c", "ab", "ac", "bc", "abc"], "abc"]
+ok 3 - [["cc", "acd", "b", "ba", "bac", "bad", "ac", "d"], "cad"]
+1..3
+ 
+===> 239/2/robert-dicicco.pl <===
+Input: @str = [ad bd aaab baa badab]
+Allowed = ab
+Output: 2
+
+Input: @str = [a b c ab ac bc abc]
+Allowed = abc
+Output: 7
+
+Input: @str = [cc acd b ba bac bad ac d]
+Allowed = cad
+Output: 4
+
+ 
+===> 239/2/roger-bell-west.pl <===
+1..3
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ 
+===> 239/2/sgreen.pl <===
+2
+ 
+===> 239/2/spadacciniweb.pl <===
+strings (ad, bd, aaab, baa, badab) -> allowed ab 
+Output: 2
+strings (a, b, c, ab, ac, bc, abc) -> allowed abc 
+Output: 7
+strings (cc, acd, b, ba, bac, bad, ac, d) -> allowed cad 
+Output: 4
+ 
+===> 239/2/zapwai.pl <===
+Input:  @str = (ad,bd,aaab,baa,badab)
+	$allowed = ab
+Output: 2

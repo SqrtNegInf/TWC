@@ -1,26 +1,8 @@
 #!/usr/bin/env perl
-
-=pod
-
-The Weekly Challenge - 239
-- https://theweeklychallenge.org/blog/perl-weekly-challenge-239
-
-Author: Niels 'PerlBoy' van Dijke
-
-Task 2: Consistent Strings
-Submitted by: Mohammad S Anwar
-
-You are given an array of strings and allowed string having distinct characters.
-
-|| A string is consistent if all characters in the string appear in the string allowed.
-
-Write a script to return the number of consistent strings in the given array.
-
-=cut
-
 use v5.32;
-use common::sense;
 use feature 'signatures';
+
+use common::sense;
 
 use Test::More;
 

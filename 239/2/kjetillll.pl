@@ -1,7 +1,7 @@
 #!/usr/bin/env perl
-#command line example:  perl ch-2.pl cc acd b ba bac bad ac d   cad
 
-use strict; use warnings; use v5.10;
+use v5.10;
+use strict; use warnings; 
 
 sub count_consistent {
     -1 + grep /^[$_[-1]]+$/, @_
