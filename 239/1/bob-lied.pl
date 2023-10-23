@@ -1,24 +1,7 @@
 #!/usr/bin/env perl
-# vim:set ts=4 sw=4 sts=4 et ai wm=0 nu:
-#=============================================================================
-# ch-1.pl Perl Weekly Challenge 239 Task 1 Same String 
-#=============================================================================
-# Copyright (c) 2023, Bob Lied
-#=============================================================================
-# You are given two arrays of strings.
-# Write a script to find out if the word created by concatenating the array
-# elements is the same.
-# Example 1 Input: @arr1 = ("ab", "c") @arr2 = ("a", "bc")
-#           Output: true
-#   Using @arr1, word1 => "ab" . "c" => "abc"
-#   Using @arr2, word2 => "a" . "bc" => "abc"
-# Example 2 Input: @arr1 = ("ab", "c") @arr2 = ("ac", "b")
-#          Output: false
-# Example 3 Input: @arr1 = ("ab", "cd", "e") @arr2 = ("abcde")
-#          Output: true
-#=============================================================================
 
-use v5.38;
+use v5.36;
+
 use builtin qw/true false/; no warnings "experimental::builtin";
 
 use Getopt::Long;
@@ -26,7 +9,7 @@ my $Verbose = 0;
 my $DoTest  = 0;
 
 GetOptions("test" => \$DoTest, "verbose" => \$Verbose);
-exit(!runTest()) if $DoTest;
+runTest(); exit;
 
 my $arr1 = shift;
 my $arr2 = shift;
@@ -51,7 +34,7 @@ sub ss2($listA, $listB)
 
 sub runTest
 {
-    use Test2::V0;
+    use Test::More;
     no warnings "experimental::builtin";
 
     is( sameString(["ab", "c"], ["a", "bc"]),     true,  "Example 1");

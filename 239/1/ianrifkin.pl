@@ -2,9 +2,6 @@
 use warnings;
 use strict;
 
-# Task 1: Same String
-# Write a script to find out if the word created by concatenating the array elements is the same.
-
 # Example 1
 my @arr1 = ("ab", "c");
 my @arr2 = ("a", "bc");

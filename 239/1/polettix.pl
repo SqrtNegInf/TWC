@@ -2,7 +2,9 @@
 use v5.24;
 use warnings;
 
-my ($s1, $s2) = map { [ split m{,}mxs ]  } @ARGV[0,1];
+my $s1 = ['ab','c'];
+my $s2 = ['a','bc'];
+
 say is_same_string($s1, $s2) ? 'true' : 'false';
 
 sub is_same_string {

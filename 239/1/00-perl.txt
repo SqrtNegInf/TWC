@@ -1,0 +1,182 @@
+ 
+===> 239/1/adam-russell.pl <===
+1
+0
+1
+ 
+===> 239/1/athanasius.pl <===
+Running the test suite
+ok 1 - Example 1: same
+ok 2 - Example 1: word1
+ok 3 - Example 1: word2
+ok 4 - Example 2: same
+ok 5 - Example 2: word1
+ok 6 - Example 2: word2
+ok 7 - Example 3: same
+ok 8 - Example 3: word1
+ok 9 - Example 3: word2
+1..9
+ 
+===> 239/1/barroff.pl <===
+ok 1 - works for ([ "ab", "c" ], [ "a", "bc" ])
+ok 2 - works for ([ "ab", "c" ], [ "ac", "b" ])
+ok 3 - works for ([ "ab", "cd", "e" ], ["abcde"])
+1..3
+ 
+===> 239/1/bob-lied.pl <===
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+1..3
+ 
+===> 239/1/cheok-yin-fung.pl <===
+1..3
+ok 1
+ok 2
+ok 3
+ 
+===> 239/1/dave-jacoby.pl <===
+Input:  @arr1 = ("ab", "c")
+        @arr2 = ("a", "bc")
+Output: true
+
+Input:  @arr1 = ("ab", "c")
+        @arr2 = ("ac", "b")
+Output: false
+
+Input:  @arr1 = ("ab", "cd", "e")
+        @arr2 = ("abcde")
+Output: true
+
+ 
+===> 239/1/deadmarshal.pl <===
+1
+0
+1
+ 
+===> 239/1/e-choroba.pl <===
+1..3
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ 
+===> 239/1/ianrifkin.pl <===
+True
+False
+True
+ 
+===> 239/1/jo-37.pl <===
+# Seeded srand with seed '1' from import arg.
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ok 4 - !all
+ok 5 - all
+ok 6 - !any
+ok 7 - any
+1..7
+ 
+===> 239/1/kjetillll.pl <===
+ok   arr1: ab c   arr2: a bc   output: 1   got: 1
+ok   arr1: ab c   arr2: ac b   output: 0   got: 
+ok   arr1: ab cd e   arr2: abcde   output: 1   got: 1
+ 
+===> 239/1/lacek96.pl <===
+true
+false
+true
+ 
+===> 239/1/lubos-kolouch.pl <===
+ok 1 - Test case 1
+ok 2 - Test case 2
+ok 3 - Test case 3
+1..3
+ 
+===> 239/1/packy-anderson.pl <===
+Example 1:
+Input: @arr1 = ("ab", "c")
+       @arr2 = ("a", "bc")
+Output: true
+
+Using @arr1, word1 => "ab" . "c" => "abc"
+Using @arr2, word2 => "a" . "bc" => "abc"
+
+Example 2:
+Input: @arr1 = ("ab", "c")
+       @arr2 = ("ac", "b")
+Output: false
+
+Using @arr1, word1 => "ab" . "c" => "abc"
+Using @arr2, word2 => "ac" . "b" => "acb"
+
+Example 3:
+Input: @arr1 = ("ab", "cd", "e")
+       @arr2 = ("abcde")
+Output: true
+
+Using @arr1, word1 => "ab" . "cd" . "e" => "abcde"
+Using @arr2, word2 => "abcde" => "abcde"
+ 
+===> 239/1/perlboy1967.pl <===
+# Seeded srand with seed '1' from import arg.
+ok 1
+ok 2
+ok 3
+1..3
+ 
+===> 239/1/peter-campbell-smith.pl <===
+
+Input:  @arr1 = ('ab', 'c')
+        @arr2 = ('a', 'bc')
+Output: true
+
+Input:  @arr1 = ('ac', 'b')
+        @arr2 = ('a', 'bc')
+Output: false
+
+Input:  @arr1 = ('the', 'cat', 'sat', 'on', 'the', 'mat')
+        @arr2 = ('thec', 'atsa', 'tont', 'hema', 't')
+Output: true
+
+Input:  @arr1 = ('the', 'cat', 'sat', 'on', 'the', 'mat')
+        @arr2 = ('the', 'dog', 'sat', 'on', 'the', 'rug')
+Output: false
+ 
+===> 239/1/peter-meszaros.pl <===
+ok 1 - [["ab", "c"], ["a", "bc"]]
+ok 2 - [["ab", "c"], ["ac", "b"]]
+ok 3 - [["ab", "cd", "e"], ["abcde"]]
+1..3
+ 
+===> 239/1/polettix.pl <===
+true
+ 
+===> 239/1/robert-dicicco.pl <===
+Input:  @arr1 = [ab c]
+	@arr2 = [a bc]
+Output: true
+
+Input:  @arr1 = [ab c]
+	@arr2 = [ac b]
+Output: false
+
+Input:  @arr1 = [ab cd e]
+	@arr2 = [abcde]
+Output: true
+
+ 
+===> 239/1/roger-bell-west.pl <===
+1..3
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ 
+===> 239/1/spadacciniweb.pl <===
+["ab", "c"] =? ["a", "bc"] -> true
+["ab", "c"] =? ["ac", "b"] -> false
+["ab", "cd", "e"] =? ["abcde"] -> true
+ 
+===> 239/1/zapwai.pl <===
+Input:	 @arr1 = (ab, c)
+	 @arr2 = (a, bc)
+Output: True

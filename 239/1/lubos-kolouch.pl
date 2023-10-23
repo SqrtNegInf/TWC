@@ -1,8 +1,8 @@
 #!/usr/bin/env perl
-# Perl code for "Same String" problem
 
 use strict;
 use warnings;
+
 use Test::More;
 
 sub same_string {

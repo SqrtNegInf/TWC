@@ -1,7 +1,7 @@
 #!/usr/bin/env perl
-# The Weekly Challenge 239
-# Task 1 Same String
+
 use v5.30.0;
+
 use warnings;
 
 sub ss {

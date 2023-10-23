@@ -1,7 +1,7 @@
 #!/usr/bin/env perl
-#command line example: perl ch-1.pl "a bc d efg" "ab cde f g"
 
-use strict; use warnings; use v5.10;
+use v5.10;
+use strict; use warnings; 
 
 sub same_string {
     my($array1, $array2) = @_;

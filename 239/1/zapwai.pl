@@ -1,5 +1,6 @@
 #!/usr/bin/env perl
 use v5.30;
+
 my @arr1 = ("ab","c");
 my @arr2 = ("a","bc");
 say "Input:\t \@arr1 = (". join(", ", @arr1) . ")";
