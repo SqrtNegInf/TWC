@@ -1,5 +1,5 @@
 #!/usr/bin/env perl
-use v5.30;
+use v5.36;
 
 my @arr1 = ("ab","c");
 my @arr2 = ("a","bc");

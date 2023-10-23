@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
+use v5.36;
 
 sub same_string{
   join('',@{$_[0]}) eq join('',@{$_[1]});

@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-
-use v5.30.0;
-
-use warnings;
+use v5.36;
 
 sub ss {
     return (join "", $_[0]->@*) eq (join "", $_[1]->@*);

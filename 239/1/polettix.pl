@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-use v5.24;
-use warnings;
+use v5.36;
 
 my $s1 = ['ab','c'];
 my $s2 = ['a','bc'];

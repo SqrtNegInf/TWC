@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-
-use v5.10;
-use strict; use warnings; 
+use v5.36;
 
 sub same_string {
     my($array1, $array2) = @_;

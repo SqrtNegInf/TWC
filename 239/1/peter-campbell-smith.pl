@@ -1,9 +1,5 @@
 #!/usr/bin/env perl
-
-use v5.16;    # The Weekly Challenge - 2023-10-16
-
-use strict;   # Peter Campbell Smith
-use warnings; # Blog: http://ccgi.campbellsmiths.force9.co.uk/challenge
+use v5.36;
 
 same_string(['ab', 'c'], ['a', 'bc']);
 same_string(['ac', 'b'], ['a', 'bc']);
