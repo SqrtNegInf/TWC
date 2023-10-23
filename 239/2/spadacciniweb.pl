@@ -1,7 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use strict;
-use warnings;
 no warnings 'experimental::smartmatch';
 
 my @strings = ([ ["ad", "bd", "aaab", "baa", "badab"],
