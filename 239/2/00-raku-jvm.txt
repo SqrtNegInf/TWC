@@ -1,0 +1,108 @@
+ 
+===> 239/2/0rir.raku <===
+1..3
+ok 1 - 2 <= ab  <- ad bd aaab baa badab
+ok 2 - 7 <= abc  <- a b c ab ac bc abc
+ok 3 - 4 <= cad  <- cc acd b ba bac bad ac d
+
+Input: @str = alfhja asdflkj alsdjf salkjf lssksaj
+     $allowed = alsdkfj
+Output: 4
+ 
+===> 239/2/arne-sommer.raku <===
+2
+ 
+===> 239/2/athanasius.raku <===
+Running the test suite
+ok 1 - Example 1: count
+ok 2 - Example 1: consistent strings
+ok 3 - Example 2: count
+ok 4 - Example 2: consistent strings
+ok 5 - Example 3: count
+ok 6 - Example 3: consistent strings
+1..6
+ 
+===> 239/2/barroff.raku <===
+1..3
+ok 1 - works for ("ab", ("ad", "bd", "aaab", "baa", "badab"))
+ok 2 - works for ("abc", ("a", "b", "c", "ab", "ac", "bc", "abc"))
+ok 3 - works for ("cad", ("cc", "acd", "b", "ba", "bac", "bad", "ac", "d"))
+ 
+===> 239/2/bruce-gray.raku <===
+1..6
+ok 1 - task2_via_Set ab
+ok 2 - task2_via_Set abc
+ok 3 - task2_via_Set cad
+ok 4 - task2_via_Regex ab
+ok 5 - task2_via_Regex abc
+ok 6 - task2_via_Regex cad
+ 
+===> 239/2/deadmarshal.raku <===
+2
+7
+4
+ 
+===> 239/2/ianrifkin.raku <===
+2
+7
+4
+ 
+===> 239/2/jaldhar-h-vyas.raku <===
+2
+ 
+===> 239/2/librasteve.raku <===
+ 
+===> 239/2/lubos-kolouch.raku <===
+1..3
+ok 1 - Test Case 1
+ok 2 - Test Case 2
+ok 3 - Test Case 3
+ 
+===> 239/2/luca-ferrari.raku <===
+aaab, baa
+ 
+===> 239/2/mark-anderson.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ 
+===> 239/2/massa.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ 
+===> 239/2/packy-anderson.raku <===
+Example 1:
+Input: @str = ("ad", "bd", "aaab", "baa", "badab")
+       $allowed = "ab"
+Output: 2
+
+Example 2:
+Input: @str = ("a", "b", "c", "ab", "ac", "bc", "abc")
+       $allowed = "abc"
+Output: 7
+
+Example 3:
+Input: @str = ("cc", "acd", "b", "ba", "bac", "bad", "ac", "d")
+       $allowed = "cad"
+Output: 4
+ 
+===> 239/2/polettix.raku <===
+2
+ 
+===> 239/2/razetime.raku <===
+2
+7
+4
+ 
+===> 239/2/rcmlz.raku <===
+2
+ 
+===> 239/2/roger-bell-west.raku <===
+1..3
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ 
+===> 239/2/ulrich-rieke.raku <===
+2

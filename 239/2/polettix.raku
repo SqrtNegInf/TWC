@@ -1,6 +1,6 @@
 #!/usr/bin/env raku
-use v6;
-sub MAIN ($allowed, *@str) { put consistent-string($allowed, @str).elems }
+
+sub MAIN ($allowed = 'ab', @str = <ad bd aaab baa badab>) { put consistent-string($allowed, @str).elems }
 
 sub consistent-string ($allowed, @str) {
    my $al = $allowed.comb.Set;

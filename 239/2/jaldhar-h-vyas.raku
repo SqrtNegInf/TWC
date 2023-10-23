@@ -1,8 +1,8 @@
 #!/usr/bin/env raku
 
 sub MAIN(
-    $allowed,
-    *@str
+    $allowed = 'ab',
+    @str = <ad bd aaab baa badab>
 ) {
     my $class = "<[$allowed]>";
     @str.grep({ /^ <$class>+ $/ }).elems.say;

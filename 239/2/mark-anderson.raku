@@ -1,11 +1,11 @@
 #!/usr/bin/env raku
 use Test;
-use Benchy;
+#use Benchy;
 
 is consistent-strings(<ad bd aaab baa badab>,     'ab'),  2;
 is consistent-strings(<a b c ab ac bc abc>,       'abc'), 7;
 is consistent-strings(<cc acd b ba bac bad ac d>, 'cad'), 4;
-benchmark();
+#benchmark();
 
 sub consistent-strings(@a, $allowed)
 {
@@ -17,6 +17,7 @@ sub consistent-strings-slow(@a, $allowed)
     @a.match(/ <|w> <{"<[$allowed]>"}>+ <|w> /, :global).elems
 }
 
+=finish
 sub benchmark
 {
     b 10,

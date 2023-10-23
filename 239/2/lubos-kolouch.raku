@@ -1,4 +1,5 @@
 #!/usr/bin/env raku
+
 sub count-consistent-strings($allowed, @strings) {
     my $count = 0;
     

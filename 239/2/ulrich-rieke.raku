@@ -1,5 +1,4 @@
 #!/usr/bin/env raku
-use v6 ;
 
 sub myCondition( $aString is copy, $allowedSet ) {
    my $letterSet = $aString.comb.Set ;
@@ -8,11 +7,7 @@ sub myCondition( $aString is copy, $allowedSet ) {
    return $letterSet (<=) $allowedSet ;
 }
 
-say "Enter some strings, separated by blanks!" ;
-my $line = $*IN.get ;
-my @strings = $line.words ;
-say "Enter an allowed string!" ;
-my $allowed = $*IN.get ;
+my $allowed = 'ab';
 my $allowedSet = Set.new( $allowed.comb ) ;
-my @consistent = @strings.grep( { myCondition( $_ , $allowedSet ) } ) ;
+my @consistent = <ad bd aaab baa badab>.grep( { myCondition( $_ , $allowedSet ) } ) ;
 say @consistent.elems ;

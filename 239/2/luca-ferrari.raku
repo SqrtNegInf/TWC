@@ -1,13 +1,6 @@
 #!/usr/bin/env raku
 
-#
-# Perl Weekly Challenge 239
-# Task 2
-#
-# See <https://perlweeklychallenge.org/blog/perl-weekly-challenge-239/>
-#
-
-sub MAIN( Str $allowed, *@words ) {
+sub MAIN( Str $allowed = 'ab', @words = <ad bd aaab baa badab> ) {
     my @allowed;
     for @words -> $current-word {
 	my $found = True;

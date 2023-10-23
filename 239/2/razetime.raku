@@ -1,4 +1,5 @@
 #!/usr/bin/env raku
+
 sub ch2(@a,$b){ 
   my @c=$b.split("",:skip-empty); 
   @a.map({.split("",:skip-empty)}).grep({$_ (<=)@c}).elems  

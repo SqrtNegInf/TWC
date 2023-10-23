@@ -1,6 +1,6 @@
 #!/usr/bin/env raku
 
-unit sub MAIN ($allowed, *@str where @str.elems > 0);
+unit sub MAIN ($allowed = 'ab', @str = <ad bd aaab baa badab>);
 
 my @allow-canonical = $allowed.comb;
 
