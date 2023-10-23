@@ -501,8 +501,8 @@ Challenge titles and Rosetta-code correspondences (exact, and otherwise)
 239-1 Same String
 239-2 Consistent Strings
 
-240-1
-240-2
+240-1 Acronym
+240-2 Build Array
 241-1
 241-2
 242-1
