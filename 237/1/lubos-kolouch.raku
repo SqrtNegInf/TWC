@@ -13,7 +13,7 @@ sub find-day(Int $year, Int $month, Int $weekday-of-month, Int $day-of-week --> 
     my $first-occurrence = $first-day.later(days => $days-diff);
 
     # Find the nth occurrence
-    my $nth-occurrence = $first-occurrence.later(days => ($weekday-of-month - 1) * 7);
+    my $nth-occurrence = $first-occurrence.later(days => ($weekday-of-month - 1) × 7);
 
     # Check if the resulting date is in the same month
     return $nth-occurrence.month == $month ?? $nth-occurrence.day !! 0;

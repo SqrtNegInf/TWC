@@ -9,7 +9,7 @@ sub foo (Int $year, Int $month, Int $weekday_in_month, Int $weekday) {
 
    # advance that much to land on the first, then additional weeks to
    # land on the target $weekday_in_month
-   $date += $delta + ($weekday_in_month - 1) * 7;
+   $date += $delta + ($weekday_in_month - 1) × 7;
 
    # print the result making sure it's still in the same year & month
    put($date.year == $year && $date.month == $month ?? $date.day !! 0);

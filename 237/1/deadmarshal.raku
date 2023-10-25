@@ -4,7 +4,7 @@ sub seize-the-day($y,$m,$mday,$wday)
 {
   my $d = Date.new(year => $y,month => $m,day => 1);
   my $diff = abs($wday - $d.day-of-week);
-  $d += (7 * ($mday - 1)) + $diff;
+  $d += (7 × ($mday - 1)) + $diff;
   $d.month != $m ?? 0 !! $d.day;
 }
 

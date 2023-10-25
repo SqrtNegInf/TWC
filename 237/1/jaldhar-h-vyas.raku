@@ -20,7 +20,7 @@ sub foo(
 
     my $diff = abs($dayofweek -  $dt.day-of-week);
 
-    $dt += (7 * ($weekday - 1)) + $diff;
+    $dt += (7 × ($weekday - 1)) + $diff;
 
     my %d_abbr = (
         1 => 'Mon',

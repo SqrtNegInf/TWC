@@ -12,7 +12,7 @@ sub size-the-day(UInt:D $year, Month:D $month , WD:D $wd, Dow:D $dow --> Int:D) 
     if $wd == 1 {
         return $week-shift == 1 ?? 0 !! 1 + $dow - $day.date-of-week;
     }
-    my UInt $days = 7 - $day.day-of-week + ($wd - $week-shift) * 7 + $dow;
+    my UInt $days = 7 - $day.day-of-week + ($wd - $week-shift) × 7 + $dow;
     my Date $final-day = $day.later(days => $days);
     return $final-day.month == $day.month ?? $final-day.day !! 0;
 }

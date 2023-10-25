@@ -20,7 +20,7 @@ multi method new(:$weekday-of-month!, :$day-of-week!, :$month!, :$year!)
 
     my $day = [1..7].rotate($day-of-week - $dt.day-of-week).head;
 
-    $day += ($weekday-of-month - 1) * 7; 
+    $day += ($weekday-of-month - 1) × 7; 
 
     # Todo: Handle the exception here? 
     Date.new(:$year, :$month, :$day) 

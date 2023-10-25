@@ -8,7 +8,7 @@ sub task1 ( $year, $month, $weekday_of_month, $day_of_week --> UInt ) {
                        + ($day_of_week - $day_1.day-of-week) mod 7;
 
     my Date $nth_dow = $first_dow
-                     + ($weekday_of_month - 1) * 7;
+                     + ($weekday_of_month - 1) × 7;
 
     return $nth_dow.month == $month
         ?? $nth_dow.day

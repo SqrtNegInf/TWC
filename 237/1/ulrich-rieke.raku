@@ -13,7 +13,7 @@ if ( @dateparts[ 2 ] == 1 ) {
 }
 #otherwise, we add as many days as necessary to reach the n'th given weekday
 else {
-   $d .= later( days => ( @dateparts[ 2 ] - 1 ) * 7 ) ;
+   $d .= later( days => ( @dateparts[ 2 ] - 1 ) × 7 ) ;
    if ( $d.month != @dateparts[ 1 ] ) {#a month rollover occurred! we must output 0!
       say 0 ;
    }
