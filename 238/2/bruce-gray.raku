@@ -1,7 +1,7 @@
 #!/usr/bin/env raku
 
 sub multiplicative_persistence ( UInt $n --> UInt ) {
-    return +( $n, { [*] .comb } …^ * ≤ 9 );
+    return +( $n, { [×] .comb } …^ * ≤ 9 );
 }
 
 sub task2 ( @ns --> Seq ) {

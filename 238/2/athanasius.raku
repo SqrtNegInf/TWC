@@ -112,7 +112,7 @@ sub count-steps( UInt:D $num --> UInt:D )
     {
         my UInt @digits = $product.split( '', :skip-empty ).map: { .Int };
 
-        $product = [*] @digits;
+        $product = [×] @digits;
         ++$steps;
     }
 

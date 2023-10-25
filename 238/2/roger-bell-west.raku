@@ -14,7 +14,7 @@ sub persistence($a) {
     $steps++;
     my $p = 1;
     while ($b > 0) {
-      $p *= $b % 10;
+      $p ×= $b % 10;
       $b = ($b / 10).Int;
     }
     $b = $p;

@@ -9,7 +9,7 @@ sub MAIN(
         my $n = $int;
         my $s = 0;
         while $n.chars > 1 {
-            $n = [*] ($n.comb);
+            $n = [×] ($n.comb);
             $s++;
         }
         %steps{$int} = $s;

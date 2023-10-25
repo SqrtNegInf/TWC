@@ -6,7 +6,7 @@ sub calc_steps(Int $num) {
     my $n = $num;
 
     while $n.chars > 1 {
-        $n = [*] $n.comb.map(*.Int);
+        $n = [×] $n.comb.map(*.Int);
         $steps++;
     }
 

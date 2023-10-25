@@ -18,7 +18,7 @@ sub steps (Int $int is copy)
   while $int >= 10
   {
     my @digits = $int.comb;
-    $int = [*] @digits;
+    $int = [×] @digits;
     print " => { @digits.join(' x ') } => $int" if $verbose;
     $steps++;
   }

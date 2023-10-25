@@ -17,11 +17,11 @@ sub find_steps( $number is copy ) {
    else {
       my $steps = 1 ;
       my @digits = decompose( $number ) ;
-      my $product = [*] @digits ;
+      my $product = [×] @digits ;
       while ( $product > 9 ) {
 	 $steps++ ;
 	 @digits = decompose( $product ) ;
-	 $product = [*] @digits ;
+	 $product = [×] @digits ;
       }
       return $steps ;
    }

@@ -3,7 +3,7 @@
 sub helper($n is copy)
 {
   my $sum = 0;
-  $n = do {$sum++; [*] $n.comb} until $n < 10;
+  $n = do {$sum++; [×] $n.comb} until $n < 10;
   $sum
 }
 

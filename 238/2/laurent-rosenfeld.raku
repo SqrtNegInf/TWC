@@ -4,7 +4,7 @@ sub to-single-digit ($in) {
     my $prod = $in;
     my $count = 0;
     while $prod > 9 {
-        $prod = [*] $prod.comb;
+        $prod = [×] $prod.comb;
         $count++;
     }
     return $count;

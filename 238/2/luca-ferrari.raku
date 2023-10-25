@@ -6,7 +6,7 @@ sub MAIN( @nums where { @nums.grep( { $_ ~~ Int && $_ > 0 } ).elems == @nums.ele
 	my $step-counter = 0;
 	my $value = $_;
 	while ( $value > 9 ) {
-	    $value = [*] $value.comb;
+	    $value = [×] $value.comb;
 	    $step-counter++;
 	}
 

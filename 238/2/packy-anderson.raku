@@ -16,7 +16,7 @@ sub persistenceSort(*@int) {
       my @digits = $num_copy.split('', :skip-empty);
 
       # generate a new number by multiplying all the digits
-      $num_copy = [*] @digits;
+      $num_copy = [×] @digits;
 
       # show the multiplication in the steps for this num
       $steps ~= ' => ' ~ @digits.join(' x ');

@@ -1,7 +1,7 @@
 #!/usr/bin/env raku
 
 my sub persistence($_) {
-  .comb.elems > 1 and 1 + persistence([*] .comb)
+  .comb.elems > 1 and 1 + persistence([×] .comb)
 }
 
 sub persistence-sort(@_) {

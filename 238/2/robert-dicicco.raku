@@ -6,7 +6,7 @@ sub Reduce ( $num is copy) {
     if $num < 0 or $num > 99 {return 0;}
     my $steps = 0;
     while $num > 9 {
-        $num = (floor($num/10)) * ($num % 10);
+        $num = (floor($num/10)) × ($num % 10);
         $steps++;
     }
     return $steps;

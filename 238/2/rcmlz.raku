@@ -6,7 +6,7 @@ our sub solution(@input) is export {
 
 sub split-and-multiply(UInt $x --> UInt){
     return 0 if $x < 10;
-    my $r = [*] $x.Str.comb.map: *.UInt;
+    my $r = [×] $x.Str.comb.map: *.UInt;
     1 + samewith($r)
 }
 

@@ -15,5 +15,5 @@ multi persistence(+@a)
 
 multi persistence($_ is copy) 
 {
-    sum do while .chars > 1 { $_ = [*] .comb; 1 }
+    sum do while .chars > 1 { $_ = [×] .comb; 1 }
 }
