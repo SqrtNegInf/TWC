@@ -21,7 +21,7 @@ my @subs =
     :&task2_via_Regex,
 ;
 
-use Test; plan +@tests * +@subs;
+use Test; plan +@tests × +@subs;
 for @subs -> ( :key($sub_name), :value($task2) ) {
     for @tests -> ( UInt $expected, @in ) {
         is $task2.(|@in), $expected, "$sub_name @in[0]";
