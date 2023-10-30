@@ -1,7 +1,6 @@
 #!/usr/bin/env perl
 
 use v5.16;    # The Weekly Challenge - 2023-10-23
-use utf8;     # Week 240 task 1 - Acronym
 use strict;   # Peter Campbell Smith
 use warnings; # Blog: http://ccgi.campbellsmiths.force9.co.uk/challenge
 

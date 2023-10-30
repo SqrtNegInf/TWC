@@ -1,0 +1,136 @@
+ 
+===> 240/1/adam-russell.pl <===
+1
+0
+1
+ 
+===> 240/1/arne-sommer.pl <===
+true
+ 
+===> 240/1/athanasius.pl <===
+Running the test suite
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+1..3
+ 
+===> 240/1/augiedb.pl <===
+True 
+===> 240/1/barroff.pl <===
+# Seeded srand with seed '20231030' from local date.
+1..3
+ok 1 - works for "ppp" and ("Perl", "Python", "Pascal")
+ok 2 - works for "rp"  and ("Perl", "Raku")
+ok 3 - works for "oac" and ("Oracle", "Awk", "C")
+ 
+===> 240/1/bob-lied.pl <===
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+1..3
+ 
+===> 240/1/cheok-yin-fung.pl <===
+1..3
+ok 1
+ok 2
+ok 3
+ 
+===> 240/1/dave-jacoby.pl <===
+Input:  @str = ("Perl", "Python", "Pascal")
+        $chk = "ppp"
+Output: true
+
+Input:  @str = ("Perl", "Raku")
+        $chk = "rp"
+Output: false
+
+Input:  @str = ("Oracle", "Awk", "C")
+        $chk = "oac"
+Output: true
+
+ 
+===> 240/1/deadmarshal.pl <===
+1
+0
+1
+ 
+===> 240/1/e-choroba.pl <===
+1..3
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ 
+===> 240/1/ianrifkin.pl <===
+true
+false
+true
+ 
+===> 240/1/jo-37.pl <===
+# Seeded srand with seed '1' from import arg.
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ok 4 - umlaute
+1..4
+ 
+===> 240/1/kjetillll.pl <===
+✓
+✓
+✓
+ 
+===> 240/1/lubos-kolouch.pl <===
+ok 1 - Test Case 1
+ok 2 - Test Case 2
+ok 3 - Test Case 3
+1..3
+ 
+===> 240/1/peter-campbell-smith.pl <===
+
+Input:  @str = ('Perl', 'Python', 'Pascal')
+        $chk = 'ppp'
+Output: true
+
+Input:  @str = ('hyper', 'text', 'markup', 'language')
+        $chk = 'HTML'
+Output: true
+
+Input:  @str = ('All', 'clients', 'receive', 'our', 'New', 'Year', 'message')
+        $chk = 'acronym'
+Output: true
+
+Input:  @str = ('Once', 'upon', 'a', 'time')
+        $chk = 'tauo'
+Output: false
+ 
+===> 240/1/robert-dicicco.pl <===
+Input: @str = [Perl Python Pascal]
+$chk = "ppp"
+Output: true
+
+Input: @str = [Perl Raku]
+$chk = "rp"
+Output: false
+
+Input: @str = [Oracle Awk C]
+$chk = "oac"
+Output: true
+
+ 
+===> 240/1/roger-bell-west.pl <===
+1..3
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ 
+===> 240/1/sgreen.pl <===
+true
+ 
+===> 240/1/spadacciniweb.pl <===
+["Perl", "Python", "Pascal"] acronym? 'ppp' -> true
+["Perl", "Raku"] acronym? 'rp' -> false
+["Oracle", "Awk", "C"] acronym? 'oac' -> true
+ 
+===> 240/1/zapwai.pl <===
+Input:  @str = Perl Python Pascal 
+	$chk = ppp
+Output: True

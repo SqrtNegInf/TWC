@@ -1,10 +1,6 @@
 #!/usr/bin/env perl
-use v5.38;
-##
-# You are given an array of strings and a check string.
-# Write a script to find out if the check string is the acronym of the words in the given 
-# array.
-##
+use v5.36;
+
 use boolean;
 sub acronym{
     my($strings, $acronym) = @_;

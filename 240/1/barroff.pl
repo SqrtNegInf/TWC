@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
 
-use v5.38;
+use v5.36;
 
 sub acronym ( $chk, @str ) {
     lc($chk) eq join( '', map { substr( lc($_), 0, 1 ) } @str ) ? 1 : 0;

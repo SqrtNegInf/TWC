@@ -1,6 +1,4 @@
 #!/usr/bin/env perl
-# The Weekly Challenge 240
-# Task 1 Acronym
 use v5.30.0;
 use warnings;
 

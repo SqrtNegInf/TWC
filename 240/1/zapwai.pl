@@ -1,5 +1,6 @@
 #!/usr/bin/env perl
 use v5.30;
+
 my @str = ("Perl", "Python", "Pascal");
 my ($acr, $chk) = ("", "ppp");
 foreach my $word (@str) {

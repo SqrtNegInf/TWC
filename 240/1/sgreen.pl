@@ -14,4 +14,4 @@ sub main (@words) {
     say lc($first_letters) eq lc($acronym) ? 'true' : 'false';
 }
 
-main(@ARGV);
+main(("Perl", "Python", "Pascal", 'ppp'));

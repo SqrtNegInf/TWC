@@ -1,5 +1,7 @@
 #!/usr/bin/env perl
-use v5.10; use strict; use warnings;
+use v5.10; 
+use strict; 
+use warnings;
 
 sub is_acronym { lc pop   eq   lc "@_"=~s/(\S)\S*\s*/$1/gr }
 

@@ -2,9 +2,6 @@
 use warnings;
 use strict;
 
-# You are given an array of strings and a check string.
-# Write a script to find out if the check string is the acronym of the words in the given array.
-
 # Example 1
 my @words = ("Perl", "Python", "Pascal");
 my $acronym = "ppp";
