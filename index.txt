@@ -503,8 +503,8 @@ Challenge titles and Rosetta-code correspondences (exact, and otherwise)
 
 240-1 Acronym
 240-2 Build Array
-241-1
-241-2
+241-1 Arithmetic Triplets
+241-2 Prime Order
 242-1
 242-2
 243-1
