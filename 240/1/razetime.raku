@@ -1,5 +1,6 @@
 #!/usr/bin/env raku
 use Test;
+
 sub ch1{([~] @^a.map({.substr(0,1)})).lc===$^b}
 
 plan 3;

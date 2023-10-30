@@ -1,4 +1,7 @@
 #!/usr/bin/env raku
+
+die 'do not run, argumentative';
+
 use Test;
 
 ok  acronym(<Perl Python Pascal>, 'ppp');

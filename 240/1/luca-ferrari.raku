@@ -1,13 +1,6 @@
 #!/usr/bin/env raku
 
-#
-# Perl Weekly Challenge 240
-# Task 1
-#
-# See <https://perlweeklychallenge.org/blog/perl-weekly-challenge-240/>
-#
-
-sub MAIN( $check-string, *@strings ) {
+sub MAIN( $check-string = 'ppp', @strings = ("Perl", "Python", "Pascal") ) {
     # the check string must contain the same
     # exact number of chars of the number of strings
     'False'.say and exit if ( $check-string.comb.elems != @strings.elems );

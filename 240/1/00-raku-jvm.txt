@@ -1,0 +1,85 @@
+ 
+===> 240/1/arne-sommer.raku <===
+true
+ 
+===> 240/1/athanasius.raku <===
+Running the test suite
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+1..3
+ 
+===> 240/1/barroff.raku <===
+1..3
+ok 1 - works for "ppp" and ("Perl", "Python", "Pascal")
+ok 2 - works for "rp" and ("Perl", "Raku")
+ok 3 - works for "oac" and ("Oracle", "Awk", "C")
+ 
+===> 240/1/bruce-gray.raku <===
+1..9
+ok 1 - task1_first_letters : ppp, Perl Python Pascal
+ok 2 - task1_first_letters : rp, Perl Raku
+ok 3 - task1_first_letters : oac, Oracle Awk C
+ok 4 -   task1_starts_with : ppp, Perl Python Pascal
+ok 5 -   task1_starts_with : rp, Perl Raku
+ok 6 -   task1_starts_with : oac, Oracle Awk C
+ok 7 -         task1_regex : ppp, Perl Python Pascal
+ok 8 -         task1_regex : rp, Perl Raku
+ok 9 -         task1_regex : oac, Oracle Awk C
+ 
+===> 240/1/deadmarshal.raku <===
+True
+False
+True
+ 
+===> 240/1/ianrifkin.raku <===
+True
+False
+True
+ 
+===> 240/1/lubos-kolouch.raku <===
+1..3
+ok 1 - Test Case 1
+ok 2 - Test Case 2
+ok 3 - Test Case 3
+ 
+===> 240/1/luca-ferrari.raku <===
+True
+ 
+===> 240/1/mark-anderson.raku <===
+ 
+===> 240/1/razetime.raku <===
+1..3
+ok 1 - Test Case 1
+ok 2 - Test Case 2
+ok 3 - Test Case 3
+ 
+===> 240/1/robert-dicicco.raku <===
+Input: @str = [Perl Python Pascal]
+$chk = "ppp"
+Output: true
+
+Input: @str = [Perl Raku]
+$chk = "rp"
+Output: false
+
+Input: @str = [Oracle Awk C]
+$chk = "oac"
+Output: true
+
+ 
+===> 240/1/roger-bell-west.raku <===
+1..3
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ 
+===> 240/1/ulrich-rieke.raku <===
+True
+ 
+===> 240/1/wambash.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ok 4 - 
+1..4

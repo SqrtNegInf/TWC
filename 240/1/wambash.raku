@@ -6,15 +6,13 @@ sub acronym (+str, :$chk) {
     andthen .join.fc eq $chk
 }
 
-multi MAIN (Bool :test($)!) {
+#multi MAIN (Bool :test($)!) {
     use Test;
     is acronym('Perl','Python','Pascal', :chk<ppp>),True;
     is acronym('Perl','Raku', :chk<rp>), False;
     is acronym('Raku','Perl', :chk<rp>), True;
     is acronym('Oracle','Awk', 'C', :chk<oac>), True;
     done-testing;
-}
+#}
 
-multi MAIN (+str, :$chk) {
-    say acronym str, :$chk
-}
+#multi MAIN (+str, :$chk) { say acronym str, :$chk }
