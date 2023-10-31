@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
+use v5.36;
 
 sub build_array{
   @{$_[0]}[@{$_[0]}];

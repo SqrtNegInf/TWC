@@ -1,5 +1,5 @@
 #!/usr/bin/env perl
-use v5.10; use strict; use warnings;
+use v5.36;
 
 sub build_array { map $_[$_], @_ }
 
