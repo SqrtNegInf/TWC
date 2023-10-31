@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-
-use v5.16;    # The Weekly Challenge - 2023-10-23
-use strict;   # Peter Campbell Smith
-use warnings; # Blog: http://ccgi.campbellsmiths.force9.co.uk/challenge
+use v5.36;
 
 acronym(['Perl', 'Python', 'Pascal'], 'ppp');
 acronym(['hyper', 'text', 'markup', 'language'], 'HTML');

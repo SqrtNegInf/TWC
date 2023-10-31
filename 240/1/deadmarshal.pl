@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
+use v5.36;
 
 sub acronym{
   CORE::fc (join '',map{substr $_,0,1}@{$_[0]}) eq CORE::fc $_[1];

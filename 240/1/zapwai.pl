@@ -1,5 +1,5 @@
 #!/usr/bin/env perl
-use v5.30;
+use v5.36;
 
 my @str = ("Perl", "Python", "Pascal");
 my ($acr, $chk) = ("", "ppp");

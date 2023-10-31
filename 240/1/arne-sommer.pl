@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
+use v5.36;
 
 #die "At least 2 elements required" unless @ARGV > 1;
 
