@@ -1,10 +1,6 @@
 #!/usr/bin/env perl
-use v5.38;
-##
-# You are given an array of integers.
-# Write a script to create an array such that new[i] = old[old[i]] where 
-# 0 <= i < new.length.
-##
+use v5.36;
+
 sub build_array{ 
     push @{$_[0]}, $_[$_[@{$_[0]} + 1] + 1];
     return $_[0] if @{$_[0]} == @_ - 1;

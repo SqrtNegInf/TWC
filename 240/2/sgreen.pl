@@ -10,4 +10,4 @@ sub main (@ints) {
     say join ', ', @solution;
 }
 
-main(@ARGV);
+main((0, 2, 1, 5, 3, 4));

@@ -1,6 +1,4 @@
 #!/usr/bin/env perl
-# The Weekly Challenge 240
-# Task 2 Build Array
 use v5.30.0;
 use warnings;
 

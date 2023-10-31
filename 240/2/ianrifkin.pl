@@ -2,10 +2,6 @@
 use warnings;
 use strict;
 
-# You are given an array of integers.
-# Write a script to create an array such that new[i] = old[old[i]] where 0 <= i < new.length.
-
-
 # Example 1
 my @ints = (0, 2, 1, 5, 3, 4);
 create_new_array(@ints);
