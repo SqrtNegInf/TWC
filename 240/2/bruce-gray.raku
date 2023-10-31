@@ -1,4 +1,5 @@
 #!/usr/bin/env raku
+
 sub task2 ( Int @ns --> List ) {
 
     # if @ns.grep( * !~~ 0..@ns.end ) -> @bad {
