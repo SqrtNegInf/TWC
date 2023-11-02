@@ -13,8 +13,7 @@ sub MAIN() {
     }
     else {
         #| Run test cases
-        use Test2::V0 qw( is plan );
-        plan 3;
+        use Test::More tests => 3;
 
         is acronym( "ppp", ( "Perl", "Python", "Pascal" ) ), 1,
           'works for "ppp" and ("Perl", "Python", "Pascal")';

@@ -17,12 +17,11 @@ sub MAIN() {
     }
     else {
         #| Run test cases
-        use Test2::V0 qw( is plan );
-        plan 2;
+        use Test::More tests =>2;
 
-        is build_array( 0, 2, 1, 5, 3, 4 ), [ 0, 1, 2, 4, 5, 3 ],
+        is_deeply build_array( 0, 2, 1, 5, 3, 4 ), [ 0, 1, 2, 4, 5, 3 ],
           'works for (0, 2, 1, 5, 3, 4)';
-        is build_array( 5, 0, 1, 2, 3, 4 ), [ 4, 5, 0, 1, 2, 3 ],
+        is_deeply build_array( 5, 0, 1, 2, 3, 4 ), [ 4, 5, 0, 1, 2, 3 ],
           'works for (5, 0, 1, 2, 3, 4)';
     }
 }
