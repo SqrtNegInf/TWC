@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-use v5.32;
-use strict;
-use warnings;
+use v5.36;
 
 sub triplets
 {

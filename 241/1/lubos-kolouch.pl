@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
+use v5.36;
 
 sub count_arithmetic_triplets {
     my ($nums_ref, $diff) = @_;

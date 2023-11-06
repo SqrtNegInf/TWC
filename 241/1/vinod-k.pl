@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
+use v5.36;
 
 my @a = (4, 5, 6, 7, 8, 9);
 my %params = map { $_ => 1 } @a;

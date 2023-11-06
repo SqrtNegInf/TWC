@@ -1,5 +1,5 @@
 #!/usr/bin/env perl
-use v5.30;
+use v5.36;
 
 my @nums = (0, 1, 4, 6, 7, 10);
 my $diff = 3;
