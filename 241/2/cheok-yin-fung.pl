@@ -1,8 +1,7 @@
 #!/usr/bin/env perl
-# The Weekly Challenge 241
-# Task 2 Prime Order
 use v5.30.0;
 use warnings;
+
 use Math::Prime::Util qw/factor/;
 
 sub cp_two_same_size_arr {

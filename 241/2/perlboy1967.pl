@@ -1,23 +1,7 @@
 #!/usr/bin/env perl
 
-=pod
-
-The Weekly Challenge - 241
-- https://theweeklychallenge.org/blog/perl-weekly-challenge-241
-
-Author: Niels 'PerlBoy' van Dijke
-
-Task 2: Prime Order
-Submitted by: Mohammad S Anwar
-
-You are given an array of unique positive integers greater than 2.
-
-Write a script to sort them in ascending order of the count of their prime factors, tie-breaking
-by ascending value.
-
-=cut
-
 use v5.32;
+
 use common::sense;
 
 use Math::Prime::Util qw(factor);

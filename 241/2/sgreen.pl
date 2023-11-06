@@ -33,4 +33,4 @@ sub main (@ints) {
 
 }
 
-main(@ARGV);
+main( (11,8,27,4) );

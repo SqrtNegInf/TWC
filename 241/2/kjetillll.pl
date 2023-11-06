@@ -1,5 +1,6 @@
 #!/usr/bin/env perl
-use warnings; use strict;
+use warnings; 
+use strict;
 
 #use Math::Prime::Util 'factor' #...or this simpler but suboptimal one:
 

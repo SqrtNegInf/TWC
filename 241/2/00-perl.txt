@@ -1,0 +1,158 @@
+ 
+===> 241/2/adam-russell.pl <===
+11, 4, 8, 27
+ 
+===> 241/2/athanasius.pl <===
+Running the test suite
+ok 1 - Example 1
+ok 2 - Seq of 200s
+1..2
+ 
+===> 241/2/bob-lied.pl <===
+ok 1 - Example 1
+1..1
+ 
+===> 241/2/cheok-yin-fung.pl <===
+1..1
+ok 1
+ 
+===> 241/2/dave-jacoby.pl <===
+Input:  @int = (11, 8, 27, 4)
+Output: (11, 4, 8, 27)
+
+Input:  @int = (38, 29, 5, 3)
+Output: (3, 5, 29, 38)
+
+Input:  @int = (12, 4, 18)
+Output: (4, 12, 18)
+
+Input:  @int = (4, 29, 33, 31, 37, 37)
+Output: (29, 31, 37, 37, 4, 33)
+
+Input:  @int = (30, 10, 22, 21)
+Output: (10, 21, 22, 30)
+
+Input:  @int = (30, 36, 29, 1, 15, 19, 10)
+Output: (1, 19, 29, 10, 15, 30, 36)
+
+Input:  @int = (3, 20, 7, 36, 26, 39, 1)
+Output: (1, 3, 7, 26, 39, 20, 36)
+
+ 
+===> 241/2/deadmarshal.pl <===
+(11,4,8,27)
+ 
+===> 241/2/e-choroba.pl <===
+# Seeded srand with seed '1' from import arg.
+1..2
+ok 1 - Example 1
+ok 2 - Secondary order
+ 
+===> 241/2/ianrifkin.pl <===
+(11, 4, 8, 27)
+ 
+===> 241/2/jaldhar-h-vyas.pl <===
+()
+ 
+===> 241/2/kjetillll.pl <===
+ok  got: 11 4 8 27
+ok  got: 437 182 231 343 120 256
+ 
+===> 241/2/lubos-kolouch.pl <===
+11, 4, 8, 27
+ 
+===> 241/2/packy-anderson.pl <===
+Example 1:
+Input: @int = (11, 8, 27, 4)
+Output: (11, 4, 8, 27)
+
+Prime factors of 11 => 11
+Prime factors of  4 => 2, 2
+Prime factors of  8 => 2, 2, 2
+Prime factors of 27 => 3, 3, 3
+
+Example 2:
+Input: @int = (2, 4, 8, 12, 11)
+Output: (2, 11, 4, 8, 12)
+
+Prime factors of  2 => 2
+Prime factors of 11 => 11
+Prime factors of  4 => 2, 2
+Prime factors of  8 => 2, 2, 2
+Prime factors of 12 => 2, 2, 3
+
+ 
+===> 241/2/perlboy1967.pl <===
+# Seeded srand with seed '1' from import arg.
+ok 1
+ok 2
+1..2
+ 
+===> 241/2/peter-campbell-smith.pl <===
+
+Input:  @int = (11, 8, 27, 4)
+Output: (11, 4, 8, 27)
+         Prime factors of  11 => 11
+         Prime factors of   4 => 2, 2
+         Prime factors of   8 => 2, 2, 2
+         Prime factors of  27 => 3, 3, 3
+
+Input:  @int = (20, 227, 418, 168, 283, 93, 496, 375, 183, 175, 287, 66, 32, 476, 76, 292, 108, 404, 70, 311, 105, 3, 467, 170, 446, 297, 196, 450, 348, 114)
+Output: (3, 227, 283, 311, 467, 93, 183, 287, 446, 20, 66, 70, 76, 105, 114, 170, 175, 292, 404, 418, 196, 297, 348, 375, 476, 32, 108, 168, 450, 496)
+         Prime factors of   3 => 3
+         Prime factors of 227 => 227
+         Prime factors of 283 => 283
+         Prime factors of 311 => 311
+         Prime factors of 467 => 467
+         Prime factors of  93 => 3, 31
+         Prime factors of 183 => 3, 61
+         Prime factors of 287 => 7, 41
+         Prime factors of 446 => 2, 223
+         Prime factors of  20 => 2, 2, 5
+         Prime factors of  66 => 2, 3, 11
+         Prime factors of  70 => 2, 5, 7
+         Prime factors of  76 => 2, 2, 19
+         Prime factors of 105 => 3, 5, 7
+         Prime factors of 114 => 2, 3, 19
+         Prime factors of 170 => 2, 5, 17
+         Prime factors of 175 => 5, 5, 7
+         Prime factors of 292 => 2, 2, 73
+         Prime factors of 404 => 2, 2, 101
+         Prime factors of 418 => 2, 11, 19
+         Prime factors of 196 => 2, 2, 7, 7
+         Prime factors of 297 => 3, 3, 3, 11
+         Prime factors of 348 => 2, 2, 3, 29
+         Prime factors of 375 => 3, 5, 5, 5
+         Prime factors of 476 => 2, 2, 7, 17
+         Prime factors of  32 => 2, 2, 2, 2, 2
+         Prime factors of 108 => 2, 2, 3, 3, 3
+         Prime factors of 168 => 2, 2, 2, 3, 7
+         Prime factors of 450 => 2, 3, 3, 5, 5
+         Prime factors of 496 => 2, 2, 2, 2, 31
+ 
+===> 241/2/peter-meszaros.pl <===
+ok 1 - [11, 8, 27, 4]
+ok 2 - [110, 3, 14, 6]
+1..2
+ 
+===> 241/2/roger-bell-west.pl <===
+1..1
+ok 1 - example 1
+ 
+===> 241/2/sgreen.pl <===
+(11, 4, 8, 27)
+ 
+===> 241/2/solathian.pl <===
+11, 4, 8, 27
+ 
+===> 241/2/ulrich-rieke.pl <===
+(11,4,8,27)
+ 
+===> 241/2/vinod-k.pl <===
+Prime factors: 11,4,8,27 
+===> 241/2/wlmb.pl <===
+11 8 27 4 -> 11 4 8 27
+ 
+===> 241/2/zapwai.pl <===
+Input: @int = (11, 8, 27, 4)
+Output: (11, 4, 8, 27)

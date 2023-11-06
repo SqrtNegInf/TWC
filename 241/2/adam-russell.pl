@@ -1,11 +1,7 @@
 #!/usr/bin/env perl
-use v5.38;
-##
-# You are given an array of unique positive integers greater than 2.
-# Write a script to sort them in ascending order of the count of their prime factors, 
-# tie-breaking by ascending value.
-##
-sub prime_factor{
+use v5.36;
+
+sub prime_factor {
     my $x = shift(@_); 
     my @factors;    
     for (my $y = 2; $y <= $x; $y++){

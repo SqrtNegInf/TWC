@@ -1,5 +1,6 @@
 #!/usr/bin/env perl
 use v5.30;
+
 my @int = (11, 8, 27, 4);
 say "Input: \@int = (". join(", ", @int) . ")";
 my $max = 0;

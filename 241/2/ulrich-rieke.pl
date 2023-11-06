@@ -3,9 +3,6 @@ use strict ;
 use warnings ;
 use feature 'say' ;
 
-#the smallest divisor always is a prime number. So we have to keep
-#finding the smallest divisors.
-
 sub findSmallest {
    my $number = shift ;
    my $divisor = 2 ;
@@ -26,10 +23,7 @@ sub findPrimeFactors {
    return @primeFactors ;
 }
 
-say "Enter some unique positive integers greater than 2" ;
-my $line = <STDIN> ;
-chomp $line ;
-my @numbers = split( /\s/ , $line ) ;
+my @numbers = (11,8,27,4);
 my @sorted = sort { scalar( findPrimeFactors( $a ) ) <=> 
    scalar( findPrimeFactors( $b ) ) || $a <=> $b } @numbers ;
 say "(" . join( ',' , @sorted ) . ")" ;

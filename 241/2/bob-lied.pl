@@ -1,30 +1,15 @@
 #!/usr/bin/env perl
-# vim:set ts=4 sw=4 sts=4 et ai wm=0 nu:
-#=============================================================================
-# ch-2.pl Perl Weekly Challenge 241 Task 2 Prime Order 
-#=============================================================================
-# Copyright (c) 2023, Bob Lied
-#=============================================================================
-# You are given an array of unique positive integers greater than 2.
-# Write a script to sort them in ascending order of the count of their
-# prime factors, tie-breaking by ascending value.
-# Example 1 Input: @int = (11, 8, 27, 4)
-#           Output: (11, 4, 8, 27))
-#   Prime factors of 11 => 11
-#   Prime factors of  4 => 2, 2
-#   Prime factors of  8 => 2, 2, 2
-#   Prime factors of 27 => 3, 3, 3
-#=============================================================================
 
-use v5.38;
+use v5.36;
 
 use Math::Prime::Util qw/factor/;
 use Getopt::Long;
+
 my $Verbose = 0;
 my $DoTest  = 0;
 
 GetOptions("test" => \$DoTest, "verbose" => \$Verbose);
-exit(!runTest()) if $DoTest;
+runTest(); exit;
 
 say "(", join(", ", primeOrder(@ARGV)->@*), ")";
 
@@ -39,9 +24,9 @@ sub primeOrder(@int)
 
 sub runTest
 {
-    use Test2::V0;
+    use Test::More;
 
-    is( primeOrder(11, 8, 27, 4), [ 11, 4, 8, 27 ], "Example 1");
+    is_deeply( primeOrder(11, 8, 27, 4), [ 11, 4, 8, 27 ], "Example 1");
 
     done_testing;
 }

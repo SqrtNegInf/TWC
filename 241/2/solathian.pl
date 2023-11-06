@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-use v5.38;
-
-# Challenge 241 - 2 - Prime Order
-
+use v5.36;
 
 say primerOrder(11, 8, 27, 4);  # 11, 4, 8, 27
 
