@@ -505,8 +505,8 @@ Challenge titles and Rosetta-code correspondences (exact, and otherwise)
 240-2 Build Array
 241-1 Arithmetic Triplets
 241-2 Prime Order
-242-1
-242-2
+242-1 Missing Members
+242-2 Flip Matrix
 243-1
 243-2
 244-1
