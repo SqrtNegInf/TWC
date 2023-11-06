@@ -1,8 +1,11 @@
 #!/usr/bin/env raku
 
-unit sub MAIN ($diff where $diff ~~ UInt && $diff > 0,
-               *@nums where @nums.elems > 2 && all(@nums) ~~ Int && ( [<] @nums ),
-	       :v(:$verbose));
+#unit sub MAIN ($diff where $diff ~~ UInt && $diff > 0,
+#               *@nums where @nums.elems > 2 && all(@nums) ~~ Int && ( [<] @nums ),
+#	       :v(:$verbose));
+
+my $diff = 3;
+my @nums = (0, 1, 4, 6, 7, 10);
 
 my $end      = @nums.end;
 my $triplets = 0;
@@ -16,12 +19,12 @@ for 0 .. $end -2 -> $i
       if $diff == @nums[$j] - @nums[$i] == @nums[$k] - @nums[$j]
       {
         $triplets++;
-        say ":Indices: $i,$j,$k -> values: @nums[$i],@nums[$j],@nums[$k] [triplet]" if $verbose;
+        #say ":Indices: $i,$j,$k -> values: @nums[$i],@nums[$j],@nums[$k] [triplet]" if $verbose;
       }
-      elsif $verbose
-      {
-        say ":Indices: $i,$j,$k -> values: @nums[$i],@nums[$j],@nums[$k]";
-      }
+      #elsif $verbose
+      #{
+      #  say ":Indices: $i,$j,$k -> values: @nums[$i],@nums[$j],@nums[$k]";
+      #}
     }
   }
 }

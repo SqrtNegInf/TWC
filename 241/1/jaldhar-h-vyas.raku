@@ -1,7 +1,7 @@
 #!/usr/bin/env raku
 
 sub MAIN(
-    $diff, *@nums
+    $diff = 3, @nums = (0, 1, 4, 6, 7, 10)
 ) {
 
     @nums

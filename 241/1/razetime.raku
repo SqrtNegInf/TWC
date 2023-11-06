@@ -1,4 +1,5 @@
 #!/usr/bin/env raku
+
 sub ch1(@n,$d) {
   my $c=0;
 	for 0..^@n.elems -> $i {

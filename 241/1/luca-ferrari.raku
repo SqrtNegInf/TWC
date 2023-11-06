@@ -1,16 +1,12 @@
 #!/usr/bin/env raku
 
-#
-# Perl Weekly Challenge 241
-# Task 1
-#
-# See <https://perlweeklychallenge.org/blog/perl-weekly-challenge-241/>
-#
+#sub MAIN( Int :$diff
+#	  , Bool :$verbose = True
+#	  , *@nums where { @nums.grep( * ~~ Int ).Array.elems == @nums.elems }
+#	) {
 
-sub MAIN( Int :$diff
-	  , Bool :$verbose = True
-	  , *@nums where { @nums.grep( * ~~ Int ).Array.elems == @nums.elems }
-	) {
+my $diff = 3;
+my  @nums = (0, 1, 4, 6, 7, 10);
 
     my @triplets;
     # a) i < j < k
@@ -29,4 +25,4 @@ sub MAIN( Int :$diff
     @triplets.elems.say;
     @triplets.join( "\n" ).say;
 
-}
+#}

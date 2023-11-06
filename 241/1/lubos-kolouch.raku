@@ -1,4 +1,5 @@
 #!/usr/bin/env raku
+
 sub count-arithmetic-triplets(@nums, $diff) {
     my $count = 0;
     my %nums-set = @nums.Set;

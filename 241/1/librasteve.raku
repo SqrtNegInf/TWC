@@ -1,8 +1,7 @@
 #!/usr/bin/env raku
+
 use Data::Dump::Tree;
 use Test;
-
-
 
 my @tests = [
     %(
@@ -33,7 +32,7 @@ sub run( \nums, \diff) {
 
     gather {
         for ^nums .combinations(3) {
-            take if check(|@^a)
+            take @^a if check(|@^a)         # DH added @^a to take
         }
     }
 

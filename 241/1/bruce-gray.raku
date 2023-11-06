@@ -1,14 +1,4 @@
 #!/usr/bin/env raku
-# Six solutions.
-# Timings, in seconds, best to worst:
-#   Rnd50   A1000
-#   -----   -----
-#   0.008   1.210 intersection
-#   0.009   1.699 set_scan
-#   0.017   3.695 all_diffs
-#   0.027   5.721 single_pass
-#   0.229 985.264 comb2
-#   3.942     N/A comb3 (estimated 11.4 days to complete 1..1000 x 0..500)
 
 sub task1_comb3 ( UInt $diff, @ns --> UInt ) {
     die unless [<] @ns;

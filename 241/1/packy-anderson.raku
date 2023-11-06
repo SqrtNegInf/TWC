@@ -1,5 +1,4 @@
 #!/usr/bin/env raku
-use v6;
 
 sub findTriplets($diff, @nums) {
   my $count = 0;

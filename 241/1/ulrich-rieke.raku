@@ -1,11 +1,7 @@
 #!/usr/bin/env raku
-use v6 ;
 
-say "Enter at least 3 integers in ascending order!" ;
-my $line = $*IN.get ;
-my @numbers = $line.words.map( {.Int} ) ;
-say "Enter a positive integer!" ;
-my $diff = $*IN.get ;
+my @numbers = (0, 1, 4, 6, 7, 10);
+my $diff = 3;
 my @indices = (0..@numbers.elems - 1 ) ;
 my $result = 0 ;
 my @combis = @indices.combinations( 3 ) ;
