@@ -1,6 +1,4 @@
 #!/usr/bin/env perl
-# The Weekly Challenge 241
-# Task 1 Arithmetic Triplets
 use v5.30.0;
 use warnings;
 

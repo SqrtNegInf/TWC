@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-use v5.38;
-
-# Challenge 241 - 1 - Arithmetic Triplets
+use v5.36;
 
 say art(3, 0, 1, 4, 6, 7, 10);
 say art(2, 4, 5, 6, 7, 8, 9);

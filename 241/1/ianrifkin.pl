@@ -3,13 +3,6 @@ use v5.30.3;
 use warnings;
 use strict;
 
-# Task 1: Arithmetic Triplets
-# You are given an array (3 or more members) of integers in increasing order and a positive integer.
-# Write a script to find out the number of unique Arithmetic Triplets satisfying the following rules:
-# a) i < j < k
-# b) nums[j] - nums[i] == diff
-# c) nums[k] - nums[j] == diff
-
 # Example 1
 my @nums = (0, 1, 4, 6, 7, 10);
 my $diff = 3;

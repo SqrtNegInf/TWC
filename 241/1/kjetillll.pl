@@ -1,5 +1,6 @@
 #!/usr/bin/env perl
-use warnings; use strict;
+use warnings; 
+use strict;
 
 #use Algorithm::Combinatorics 'combinations'; #...or just use this one:
 
