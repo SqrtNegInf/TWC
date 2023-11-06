@@ -1,9 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-use feature 'say';
-use experimental 'signatures';
+use v5.36;
 
 sub count_primes ($i) {
     # Calculate the number of primes that make up the specified number
