@@ -1,5 +1,4 @@
 #!/usr/bin/env raku
-use v6;
 
 sub findPrimeFactors(Int $number) {
   my @factors;

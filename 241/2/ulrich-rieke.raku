@@ -1,8 +1,4 @@
 #!/usr/bin/env raku
-use v6 ;
-
-#the smallest divisor of a number must be a prime number! So all it takes
-#is to keep finding the smallest divisor of a number until it equals 1
 
 sub findSmallest( $number is copy ) {
    my $divisor = 2 ;
@@ -35,8 +31,6 @@ sub mySorter( $firstNum is copy , $secondNum is copy ) {
    }
 }
 
-say "Enter some unique positive integers greater than 2!" ;
-my $line = $*IN.get ;
-my @numbers = $line.words.map( {.Int} ) ;
+my @numbers = [11,8,27,4];
 my @sorted = @numbers.sort( {&mySorter( $^a , $^b ) } ) ;
 say "(" ~ @sorted.join( ',' ) ~ ")" ;

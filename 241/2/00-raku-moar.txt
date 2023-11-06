@@ -1,0 +1,78 @@
+ 
+===> 241/2/0rir.raku <===
+1..3
+ok 1 - [11, 8, 27, 4] -> [11, 4, 8, 27]
+ok 2 - [8, 27] -> [8, 27]
+ok 3 - [27, 8] -> [8, 27]
+ 
+===> 241/2/arne-sommer.raku <===
+(11 4 27 8)
+ 
+===> 241/2/athanasius.raku <===
+Running the test suite
+ok 1 - Example 1
+ok 2 - Seq of 200s
+1..2
+ 
+===> 241/2/bruce-gray.raku <===
+1..1
+ok 1 - 
+ 
+===> 241/2/deadmarshal.raku <===
+(11 4 8 27)
+ 
+===> 241/2/jaldhar-h-vyas.raku <===
+(11, 4, 8, 27)
+ 
+===> 241/2/librasteve.raku <===
+(11 8 27 4) => (11 4 8 27)
+ 
+===> 241/2/lubos-kolouch.raku <===
+[11 4 8 27]
+ 
+===> 241/2/luca-ferrari.raku <===
+11
+4
+8,27
+ 
+===> 241/2/mark-anderson.raku <===
+ok 1 - 
+ 
+===> 241/2/packy-anderson.raku <===
+Example 1:
+Input: @int = (11, 8, 27, 4)
+Output: (11, 4, 8, 27)
+
+Prime factors of 11 => 11
+Prime factors of  4 => 2, 2
+Prime factors of  8 => 2, 2, 2
+Prime factors of 27 => 3, 3, 3
+
+Example 2:
+Input: @int = (2, 4, 8, 12, 11)
+Output: (2, 11, 4, 8, 12)
+
+Prime factors of  2 => 2
+Prime factors of 11 => 11
+Prime factors of  4 => 2, 2
+Prime factors of  8 => 2, 2, 2
+Prime factors of 12 => 2, 2, 3
+
+ 
+===> 241/2/razetime.raku <===
+(11 4 8 27)
+ 
+===> 241/2/rcmlz.raku <===
+(11 4 8 27)
+ 
+===> 241/2/roger-bell-west.raku <===
+1..1
+ok 1 - example 1
+ 
+===> 241/2/ulrich-rieke.raku <===
+(11,4,8,27)
+ 
+===> 241/2/wambash.raku <===
+ok 1 - 
+ok 2 - 
+1..2

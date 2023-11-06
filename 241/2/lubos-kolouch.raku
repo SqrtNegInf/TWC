@@ -1,5 +1,5 @@
 #!/usr/bin/env raku
-# Function to get the prime factors of a number
+
 sub prime-factors(Int $n is copy) {
     my @factors;
     while $n %% 2 {

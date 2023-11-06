@@ -1,4 +1,5 @@
 #!/usr/bin/env raku
+
 use Prime::Factor;
 
 sub prime-order(@arr)

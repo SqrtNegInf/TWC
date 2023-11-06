@@ -1,6 +1,8 @@
 #!/usr/bin/env raku
 
-unit sub MAIN (*@int where all(@int) ~~ UInt && all(@int) > 0 && @int.elems == @int.unique.elems > 2, :v(:$verbose));
+#unit sub MAIN (*@int where all(@int) ~~ UInt && all(@int) > 0 && @int.elems == @int.unique.elems > 2, :v(:$verbose));
+
+my @int = [11,8,27,4];
 
 my %factor-count;
 
@@ -8,7 +10,7 @@ for @int -> $int
 {
   my @factors = factors($int);
   %factor-count{$int} = @factors.elems;
-  say ":Int $int -> factors: { @factors.join(",") } -> count: { @factors.elems }" if $verbose;
+#  say ":Int $int -> factors: { @factors.join(",") } -> count: { @factors.elems }" if $verbose;
 }
 
 say @int.sort({ %factor-count{$^a} <=> %factor-count{$^b} || $^b <=> $^a });

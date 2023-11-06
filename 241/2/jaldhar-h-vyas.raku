@@ -24,7 +24,7 @@ sub factorize(Int $N) {
 }
 
 sub MAIN(
-    *@int
+    @int  = [11,8,27,4]
 ) {
     say q{(},
     @int.sort({ factorize($^a).elems <=> factorize($^b).elems }).join(q{, }),
