@@ -1,3 +1,7 @@
+2023-11-13
+rm -f jeanluc2020.pl matthias-muth.pl mattneleigh.pl robbie-hatley.pl
+clear; wc -l *pl | sort -rn | g -v total; perl -e 'printf "%.1f\n", `ls -1 *pl | wc -l` / `ls -1 *raku | wc -l`'
+
 2023-09-07
 Repeated runs of 166* task failed to replicate the 'missing output' problem.
 The 044* task does appear to fail to 'converge' to a solution sometimes (timing varies a lot too).
