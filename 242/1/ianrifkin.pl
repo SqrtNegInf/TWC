@@ -2,12 +2,10 @@
 use v5.30.3;
 use warnings;
 use strict;
+
 use Getopt::Long;
 use Pod::Usage;
 use Data::Dumper;
-
-# You are given two arrays of integers.
-# Write a script to find out the missing members in each other arrays.
 
 my $man = 0;
 my $help = 0;
@@ -63,37 +61,3 @@ sub check_if_exists {
     return 1 if grep /$k/, @{$arr};
     return 0;
 }
-
-__END__
-
-=head1 Challenge 242, Task 1, by IanRifkin: Missing Members
-
-Given an input of two arrays, this script will find the missing members from each input array.
-
-Example 1 inputs: (1, 2, 3) and (2, 4, 6)
-
-Example 2 inputs: (1, 2, 3, 3) and (1, 1, 2, 2)
-
-See https://theweeklychallenge.org/blog/perl-weekly-challenge-241/#TASK1 for more information on this challenge
-
-=head1 SYNOPSIS
-
-perl ./ch-1.pl
-
-=head1 OPTIONS
-
-=over 8
-
-=item B<-help>
-
-Print a brief help message and exits.
-
-=item B<-man>
-
-Prints the manual page and exits.
-
-=back
-
-
-
-

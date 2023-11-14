@@ -1,7 +1,8 @@
 #!/usr/bin/env perl
 use strict;
 use warnings;
-use Data::Show;
+
+#use Data::Show;
 use Set::Scalar;
 
 sub missing_members{
@@ -10,6 +11,10 @@ sub missing_members{
   [($s1-$s2)->members],[($s2-$s1)->members]
 }
 
-print show missing_members([1,2,3],[2,4,6]);
-print show missing_members([1,2,3,3],[1,1,2,2]);
+my @a = missing_members([1,2,3],[2,4,6]);
+my @b = missing_members([1,2,3,3],[1,1,2,2]);
+
+print $a[0][0];
+print "\n";
+print $b[0][0];
 

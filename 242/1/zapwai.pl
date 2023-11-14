@@ -1,6 +1,7 @@
 #!/usr/bin/env perl
 use v5.30;
 no warnings;
+
 my @arr1 = (1,2,3);
 my @arr2 = (2,4,6);
 

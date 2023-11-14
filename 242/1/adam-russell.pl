@@ -1,9 +1,6 @@
 #!/usr/bin/env perl
-use v5.38;
-##
-# You are given two arrays of integers.
-# Write a script to find out the missing members in each other arrays.
-##
+use v5.36;
+
 use boolean;
 use Data::Dump q/pp/;
 sub missing_members{

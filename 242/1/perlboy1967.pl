@@ -1,22 +1,6 @@
 #!/usr/bin/env perl
-
-=pod
-
-The Weekly Challenge - 242
-- https://theweeklychallenge.org/blog/perl-weekly-challenge-242
-
-Author: Niels 'PerlBoy' van Dijke
-
-Task 1: Missing Members
-Submitted by: Mohammad S Anwar
-
-You are given two arrays of integers.
-
-Write a script to find out the missing members in each other arrays.
-
-=cut
-
 use v5.32;
+
 use common::sense;
 
 use Test2::V0 -srand => 1;

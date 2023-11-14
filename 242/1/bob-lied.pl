@@ -1,37 +1,15 @@
 #!/usr/bin/env perl
-# vim:set ts=4 sw=4 sts=4 et ai wm=0 nu:
-#=============================================================================
-# ch-1.pl Perl Weekly Challenge 242 Task 1 Missing Members
-#=============================================================================
-# Copyright (c) 2023, Bob Lied
-#=============================================================================
-# You are given two arrays of integers.
-# Write a script to find out the missing members in each other arrays.
-# Example 1 Input: @arr1 = (1, 2, 3) @arr2 = (2, 4, 6)
-#           Output: ([1, 3], [4, 6])
-#   (1, 2, 3) has 2 members (1, 3) missing in the array (2, 4, 6).
-#   (2, 4, 6) has 2 members (4, 6) missing in the array (1, 2, 3).
-#
-# Example 2 Input: @arr1 = (1, 2, 3, 3) @arr2 = (1, 1, 2, 2)
-#           Output: ([3])
-#   (1, 2, 3, 3) has 2 members (3, 3) missing in the array (1, 1, 2, 2).
-#   Since they are same, keep just one.
-#   (1, 1, 2, 2) has 0 member missing in the array (1, 2, 3, 3).
-# -----
-# In example 2, it seems like there should be an empty array to show that
-# the first array has no missing members, but instead the emtpy array is
-# suppressed. Taking that as the requirement.
-#=============================================================================
+use v5.36;
 
-use v5.38;
-use builtin qw/true false/; no warnings "experimental::builtin";
+use builtin qw/true false/; 
+no warnings "experimental::builtin";
 
 use Getopt::Long;
 my $Verbose = 0;
 my $DoTest  = 0;
 
 GetOptions("test" => \$DoTest, "verbose" => \$Verbose);
-exit(!runTest()) if $DoTest;
+runTest();exit;
 
 # Supply two arguments as quoted strings.
 my @Arr1 = split(" ", $ARGV[0]);
@@ -79,18 +57,18 @@ sub missingMembers($arr1, $arr2)
 
 sub runTest
 {
-    use Test2::V0;
+    use Test::More;
 
-    is( toString([[]]), "([])", "a of a one empty");
-    is( toString([[5,6,7]]), "([5, 6, 7])", "a of a not empty");
-    is( toString([[],[]]), "([], [])", "a of a empties");
-    is( toString([[1],[2]]), "([1], [2])", "a of a singles");
-    is( toString([[1,2],[3,4]]), "([1, 2], [3, 4])", "a of a doubles");
+    is_deeply( toString([[]]), "([])", "a of a one empty");
+    is_deeply( toString([[5,6,7]]), "([5, 6, 7])", "a of a not empty");
+    is_deeply( toString([[],[]]), "([], [])", "a of a empties");
+    is_deeply( toString([[1],[2]]), "([1], [2])", "a of a singles");
+    is_deeply( toString([[1,2],[3,4]]), "([1, 2], [3, 4])", "a of a doubles");
 
-    is( missingMembers( [1,2,3], [2,4,6] ), [[1,3],[4,6]], "Example 1");
-    is( missingMembers( [1,2,3,3], [1,1,2,2] ), [[3]], "Example 2");
+    is_deeply( missingMembers( [1,2,3], [2,4,6] ), [[1,3],[4,6]], "Example 1");
+    is_deeply( missingMembers( [1,2,3,3], [1,1,2,2] ), [[3]], "Example 2");
 
-    is( missingMembers( [1,1,2,2],[1,2,3,3] ), [[3]], "First empty");
+    is_deeply( missingMembers( [1,1,2,2],[1,2,3,3] ), [[3]], "First empty");
 
     done_testing;
 }

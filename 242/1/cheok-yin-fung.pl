@@ -1,8 +1,7 @@
 #!/usr/bin/env perl
-# The Weekly Challenge 242
-# Task 1 Missing Members
 use v5.30.0;
 use warnings;
+
 use List::Util qw/uniqint/;
 
 sub mm {
@@ -35,8 +34,9 @@ sub contains {
     return 0;
 }
 
-use Data::Printer;
+#use Data::Printer;
 my $ex1 = mm([1,2,3], [2,4,6]);
-p $ex1;
+print $$ex1[0][0];
 my $ex2 = mm([1,2,3,3], [1,1,2,2]);
-p $ex2;
+print "\n";
+print $$ex2[0][0];

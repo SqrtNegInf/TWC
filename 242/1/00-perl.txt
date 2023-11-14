@@ -1,0 +1,144 @@
+ 
+===> 242/1/adam-russell.pl <===
+([1, 3], [4, 6])
+[3]
+ 
+===> 242/1/athanasius.pl <===
+Running the test suite
+ok 1 - Example 1: array 1
+ok 2 - Example 1: array 2
+ok 3 - Example 2: array 1
+ok 4 - Example 2: array 2
+ok 5 - Example 2a: array 1
+ok 6 - Example 2a: array 2
+ok 7 - Negatives: array 1
+ok 8 - Negatives: array 2
+1..8
+ 
+===> 242/1/augiedb.pl <===
+(1, 2, 3) has 2 members (1, 3) missing in the array (2, 4, 6)
+(2, 4, 6) has 2 members (4, 6) missing in the array (1, 2, 3)
+(1, 2, 3, 3) has 2 members (3, 3) missing in the array (1, 1, 2, 2)
+(1, 1, 2, 2) has 0 members () missing in the array (1, 2, 3, 3)
+ 
+===> 242/1/bob-lied.pl <===
+ok 1 - a of a one empty
+ok 2 - a of a not empty
+ok 3 - a of a empties
+ok 4 - a of a singles
+ok 5 - a of a doubles
+ok 6 - Example 1
+ok 7 - Example 2
+ok 8 - First empty
+1..8
+ 
+===> 242/1/cheok-yin-fung.pl <===
+1
+3 
+===> 242/1/dave-jacoby.pl <===
+Input:  @arr1 = (1, 2, 3)
+        @arr2 = (2, 4, 6)
+Output: ([1, 3], [4, 6])
+
+Input:  @arr1 = (1, 2, 3, 3)
+        @arr2 = (1, 1, 2, 2)
+Output: ([3])
+
+ 
+===> 242/1/deadmarshal.pl <===
+1
+3 
+===> 242/1/e-choroba.pl <===
+# Seeded srand with seed '1' from import arg.
+1..3
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - First empty
+ 
+===> 242/1/ianrifkin.pl <===
+(['3','1'],['6','4'])
+(['3'])
+ 
+===> 242/1/laurent-rosenfeld.pl <===
+1 2 3      - 2 4 6      => (3 1) (6 4)
+1 2 3 3    - 1 1 2 2    => (3) ()
+ 
+===> 242/1/lubos-kolouch.pl <===
+ok 1 - Test 1 - Missing in arr2
+ok 2 - Test 1 - Missing in arr1
+1..2
+ 
+===> 242/1/nelo-tovar.pl <===
+Input : @arr1 = [1, 2, 3]
+        @arr2 = [2, 4, 6]
+Output : [[1, 3], [4, 6]]
+ 
+Input : @arr1 = [1, 2, 3, 3]
+        @arr2 = [1, 1, 2, 2]
+Output : [[3], []]
+ 
+ 
+===> 242/1/packy-anderson.pl <===
+Example 1:
+Input: @arr1 = (1, 2, 3)
+       @arr2 = (2, 4, 6)
+Output: ([1, 3], [4, 6])
+
+(1, 2, 3) has 2 members (1, 3) missing from the array (2, 4, 6)
+(2, 4, 6) has 2 members (4, 6) missing from the array (1, 2, 3)
+Example 2:
+Input: @arr1 = (1, 2, 3, 3)
+       @arr2 = (1, 1, 2, 2)
+Output: ([3])
+
+(1, 2, 3, 3) has 2 members (3, 3) missing from the array (1, 1, 2, 2)
+(1, 1, 2, 2) has 0 members missing from the array (1, 2, 3, 3)
+ 
+===> 242/1/paulo-custodio.pl <===
+([3])
+ 
+===> 242/1/perlboy1967.pl <===
+# Seeded srand with seed '1' from import arg.
+ok 1
+ok 2
+ok 3
+1..3
+ 
+===> 242/1/peter-campbell-smith.pl <===
+
+Input:  ([1, 2, 3], [2, 4, 6])
+Output: ([1, 3], [4, 6])
+
+Input:  ([1, 2, 3, 3], [1, 1, 2, 2])
+Output: ([3], [])
+
+Input:  ([1, 2, 3, 4, 5, 6, 7, 8, 9], [2, 4, 6, 8, 10])
+Output: ([1, 3, 5, 7, 9], [10])
+
+Input:  ([1, 13, 9, 3, 12, 6, 2, 15, 9, 13, 10, 1, 14, 14, 6, 11, 15, 2, 2, 5, 7, 5, 10, 12, 5, 11, 14, 6, 8, 15], [7, 6, 1, 15, 6, 9, 1, 3, 4, 3, 4, 9, 6, 9, 14, 4, 1, 14, 12, 10, 8, 7, 11, 13, 15, 3, 11, 9, 5, 4])
+Output: ([2], [4])
+ 
+===> 242/1/peter-meszaros.pl <===
+ok 1 - [[1, 2, 3], [2, 4, 6]]
+ok 2 - [[1, 2, 3, 3], [1, 1, 2, 2]]
+1..2
+ 
+===> 242/1/roger-bell-west.pl <===
+1..2
+ok 1 - example 1
+ok 2 - example 2
+ 
+===> 242/1/wanderdoc.pl <===
+# Seeded srand with seed '1' from import arg.
+ok 1 - Example 1
+ok 2 - Example 2
+1..2
+ 
+===> 242/1/wlmb.pl <===
+[1 2 3 3],[1 1 2 2] -> [3], []
+ 
+===> 242/1/zapwai.pl <===
+@arr1 = 1 2 3 3
+@arr2 = 1 1 2 2
+Output: (3)
+	()
