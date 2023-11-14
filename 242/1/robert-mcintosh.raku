@@ -1,5 +1,7 @@
 #!/usr/bin/env raku
-sub missing-members(@iarr1, @iarr2) {
+
+#sub missing-members(@iarr1, @iarr2) {
+    my @iarr1 = (1, 2, 3, 3); my @iarr2 = (1, 1, 2, 2);
     my @set-difference12 = (@iarr1 (-) @iarr2).keys;
     my @set-difference21 = (@iarr2 (-) @iarr1).keys;
     my @result;
@@ -9,5 +11,5 @@ sub missing-members(@iarr1, @iarr2) {
     if @set-difference21.elems > 0 {
         @result.push(@set-difference21);
     }
-    return @result;
-}
+    say @result;
+#}

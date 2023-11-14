@@ -1,12 +1,7 @@
 #!/usr/bin/env raku
-use v6 ;
 
-say "Enter some integers , separated by blanks!" ;
-my $line = $*IN.get ;
-my @firstNumbers = $line.words.map( {.Int} ) ;
-say "Enter some more integers, separated by blanks!" ;
-$line = $*IN.get ;
-my @secondNumbers = $line.words.map( {.Int} ) ;
+my @firstNumbers = (1, 2, 3, 3);
+my @secondNumbers = (1, 1, 2, 2);
 my $firstSet = @firstNumbers.Set ;
 my $secondSet = @secondNumbers.Set ;
 my $firstDiff = $firstSet (-) $secondSet ;

@@ -1,0 +1,24 @@
+[31m===[0mSORRY![31m===[0m Error while compiling /Users/dhoekman/PWC/242/1/librasteve.raku
+Could not find Data::Dump::Tree in:
+    /Users/dhoekman/PWC/242/1/lib
+    /Users/dhoekman/.raku
+    /Users/dhoekman/.rakubrew/versions/jvm-2022.07/install/share/perl6/site
+    /Users/dhoekman/.rakubrew/versions/jvm-2022.07/install/share/perl6/vendor
+    /Users/dhoekman/.rakubrew/versions/jvm-2022.07/install/share/perl6/core
+    CompUnit::Repository::AbsolutePath<1298528099>
+    CompUnit::Repository::NQP<1122912802>
+    CompUnit::Repository::Perl5<59369851>
+    CompUnit::Repository::JavaRuntime<1843179147>
+at /Users/dhoekman/PWC/242/1/librasteve.raku:3
+[31m===[0mSORRY![31m===[0m Error while compiling /Users/dhoekman/PWC/242/1/packy-anderson.raku
+Could not find Lingua::Conjunction in:
+    /Users/dhoekman/PWC/242/1/lib
+    /Users/dhoekman/.raku
+    /Users/dhoekman/.rakubrew/versions/jvm-2022.07/install/share/perl6/site
+    /Users/dhoekman/.rakubrew/versions/jvm-2022.07/install/share/perl6/vendor
+    /Users/dhoekman/.rakubrew/versions/jvm-2022.07/install/share/perl6/core
+    CompUnit::Repository::AbsolutePath<1298528099>
+    CompUnit::Repository::NQP<1122912802>
+    CompUnit::Repository::Perl5<59369851>
+    CompUnit::Repository::JavaRuntime<1843179147>
+at /Users/dhoekman/PWC/242/1/packy-anderson.raku:3

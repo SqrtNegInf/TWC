@@ -1,4 +1,5 @@
 #!/usr/bin/env raku
+
 sub diff (@a, @b) {
     return map {.keys}, @a (-) @b, @b (-) @a;
 }

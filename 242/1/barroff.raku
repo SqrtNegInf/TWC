@@ -1,7 +1,5 @@
 #!/usr/bin/env raku
 
-use v6.d;
-
 sub missing-members(Int:D @arr1, Int:D @arr2 --> List:D) {
     my Set[Int] $set1 = Set[Int](@arr1);
     my Set[Int] $set2 = Set[Int](@arr2);

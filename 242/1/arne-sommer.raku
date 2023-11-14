@@ -1,9 +1,9 @@
 #!/usr/bin/env raku
 
-unit sub MAIN (Str $arr1, $arr2);
+#unit sub MAIN (Str $arr1, $arr2);
 
-my @arr1 = $arr1.words>>.Int;
-my @arr2 = $arr2.words>>.Int;
+my @arr1 = (1, 2, 3, 3);
+my @arr2 = (1, 1, 2, 2);
 
 die "@arr1: Must be integers only" unless all(@arr1) ~~ Int;
 die "@arr2: Must be integers only" unless all(@arr2) ~~ Int;
