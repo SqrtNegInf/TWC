@@ -1,4 +1,5 @@
 #!/usr/bin/env raku
+
 use Test;
 
 sub flip-matrix(@matrix) {

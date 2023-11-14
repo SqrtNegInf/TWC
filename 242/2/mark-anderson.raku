@@ -1,6 +1,6 @@
 #!/usr/bin/env raku
 use Test;
-use Benchy;
+#use Benchy;
 
 is-deeply flip-matrix(<1 1 0>, <1 0 1>, <0 0 0>),
     ((1,0,0), (0,1,0), (1,1,1))>>.Seq;

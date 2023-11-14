@@ -1,8 +1,8 @@
 #!/usr/bin/env raku
+
 use Data::Dump::Tree;
 use Math::Matrix :MM;
 use Test;
-
 
 my @tests = [
     %(

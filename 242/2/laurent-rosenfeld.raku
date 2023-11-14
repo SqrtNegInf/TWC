@@ -1,4 +1,5 @@
 #!/usr/bin/env raku
+
 sub flip-matrix (@input) {
     my @in = @input;
     my @out;

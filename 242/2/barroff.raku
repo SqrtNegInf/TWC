@@ -1,7 +1,5 @@
 #!/usr/bin/env raku
 
-use v6.d;
-
 sub flip-matrix(@matrix) {
     map({ map({ $_ == 0 ?? 1 !! 0 }, reverse($_))}, @matrix);
 }
