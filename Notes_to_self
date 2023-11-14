@@ -1,6 +1,11 @@
 2023-11-13
-rm -f jeanluc2020.pl matthias-muth.pl mattneleigh.pl robbie-hatley.pl
+rm -f TestExtractor.pm jeanluc2020.pl matthias-muth.pl mattneleigh.pl robbie-hatley.pl
 clear; wc -l *pl | sort -rn | g -v total; perl -e 'printf "%.1f\n", `ls -1 *pl | wc -l` / `ls -1 *raku | wc -l`'
+# XXX >= 24*,  LANG=raku|perl,  Y=1|2
+PWC-run XXX Y LANG ; wc -l XXX/Y/00* 
+git add XXX; git commit -m 'raw code after tweaks and 1st-pass purge of Perl'
+git add XXX/Y; git commit -m 'challenge XXX task Y: LANG
+v bin/PWC-rerun # increment max for testing
 
 2023-09-07
 Repeated runs of 166* task failed to replicate the 'missing output' problem.
