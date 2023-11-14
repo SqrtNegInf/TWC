@@ -46,7 +46,7 @@ Output: ([3])
 
  
 ===> 242/1/deadmarshal.pl <===
-1
+3
 3 
 ===> 242/1/e-choroba.pl <===
 # Seeded srand with seed '1' from import arg.
