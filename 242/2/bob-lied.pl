@@ -1,24 +1,6 @@
 #!/usr/bin/env perl
-# vim:set ts=4 sw=4 sts=4 et ai wm=0 nu:
-#=============================================================================
-# ch-2.pl Perl Weekly Challenge 242 Task 2 Flip Matrix 
-#=============================================================================
-# Copyright (c) 2023, Bob Lied
-#=============================================================================
-# You are given n x n binary matrix.
-# Write a script to flip the given matrix as below.
-# Original  a) Reverse each row b) Invert each member
-# 1 1 0        0 1 1               1 0 0
-# 0 1 1        1 1 0               0 0 1
-# 0 0 1        1 0 0               0 1 1
-#
-# Example 1 Input: @matrix = ([1, 1, 0], [1, 0, 1], [0, 0, 0])
-#           Output: ([1, 0, 0], [0, 1, 0], [1, 1, 1])
-# Example 2 Input: @matrix = ([1, 1, 0, 0], [1, 0, 0, 1], [0, 1, 1, 1], [1, 0, 1, 0])
-#           Output: ([1, 1, 0, 0], [0, 1, 1, 0], [0, 0, 0, 1], [1, 0, 1, 0])
-#=============================================================================
 
-use v5.38;
+use v5.36;
 use builtin qw/true false/; no warnings "experimental::builtin";
 
 use Getopt::Long;
@@ -27,8 +9,7 @@ my $DoTest  = 0;
 my $DoBenchmark = 0;
 
 GetOptions("test" => \$DoTest, "verbose" => \$Verbose, "benchmark:i" => \$DoBenchmark);
-exit(!runTest()) if $DoTest;
-exit(benchmark($DoBenchmark)) if $DoBenchmark;
+runTest(); exit;
 
 sub flipMatrix($m)
 {

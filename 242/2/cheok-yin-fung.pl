@@ -1,6 +1,4 @@
 #!/usr/bin/env perl
-# The Weekly Challenge 242
-# Task 2 Flip Matrix
 use v5.30.0;
 use warnings;
 
