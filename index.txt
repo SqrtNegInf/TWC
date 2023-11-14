@@ -507,8 +507,8 @@ Challenge titles and Rosetta-code correspondences (exact, and otherwise)
 241-2 Prime Order
 242-1 Missing Members
 242-2 Flip Matrix
-243-1
-243-2
+243-1 Reverse Pairs
+243-2 Floor Sums
 244-1
 244-2
 245-1
