@@ -1,5 +1,5 @@
 #!/usr/bin/env perl
-use v5.30;
+use v5.36;
 
 my @matrix = ([1,1,0], [1,0,1], [0,0,0]);
 my @new;
