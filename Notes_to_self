@@ -5,6 +5,8 @@ clear; wc -l *pl | sort -rn | g -v total; perl -e 'printf "%.1f\n", `ls -1 *pl |
 PWC-run XXX Y LANG ; wc -l XXX/Y/00* 
 git add XXX; git commit -m 'raw code after tweaks and 1st-pass purge of Perl'
 git add XXX/Y; git commit -m 'challenge XXX task Y: LANG
+perl -i -npe 's#env perl#env perl\nuse v5.36;\n#sm' XXX/*/*pl
+git add XXX/Y; test v5.36 compatibility, XXX/Y
 v bin/PWC-rerun # increment max for testing
 
 2023-09-07
