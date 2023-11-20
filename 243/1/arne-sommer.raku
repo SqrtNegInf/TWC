@@ -1,7 +1,7 @@
 #!/usr/bin/env raku
 
-unit sub MAIN (*@nums where @nums.elems > 1 && all(@nums) ~~ Int,
-               :v(:$verbose));
+#unit sub MAIN (*@nums where @nums.elems > 1 && all(@nums) ~~ Int, :v(:$verbose));
+my @nums = (1, 3, 2, 3, 1);
 
 my $count = 0;
 
@@ -11,7 +11,7 @@ for 0 .. @nums.end -1 -> $i
   {
     if @nums[$i] > 2 *@nums[$j]
     {
-      say ": ($i, $j) => nums[$i] = @nums[$i], nums[$j] = @nums[$j], @nums[$i] > 2 * @nums[$j]" if $verbose;
+      #say ": ($i, $j) => nums[$i] = @nums[$i], nums[$j] = @nums[$j], @nums[$i] > 2 * @nums[$j]" if $verbose;
       $count++;
     }
   }

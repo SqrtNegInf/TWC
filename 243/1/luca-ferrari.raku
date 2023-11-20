@@ -1,15 +1,7 @@
 #!/usr/bin/env raku
 
-#
-# Perl Weekly Challenge 243
-# Task 1
-#
-# See <https://perlweeklychallenge.org/blog/perl-weekly-challenge-243/>
-#
-
-sub MAIN( Bool :$verbose = True,
-			   *@nums where { @nums.elems == @nums.grep( { $_ ~~ Int } ).elems } ) {
-
+#sub MAIN( Bool :$verbose = True, *@nums where { @nums.elems == @nums.grep( { $_ ~~ Int } ).elems } ) {
+my @nums  = (1, 3, 2, 3, 1);
 
     # A reverse pair is a pair (i, j) where: a) 0 <= i < j < nums.length and b) nums[i] > 2 * nums[j].
     my @reverse_pairs;
@@ -18,5 +10,5 @@ sub MAIN( Bool :$verbose = True,
     }
 
     @reverse_pairs.elems.say;
-    @reverse_pairs.join( "\n" ).say if $verbose;
-}
+    #@reverse_pairs.join( "\n" ).say if $verbose;
+#}

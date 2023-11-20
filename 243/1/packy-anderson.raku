@@ -1,5 +1,4 @@
 #!/usr/bin/env raku
-use v6;
 
 class ReversePairArray is Array {
   method isReversePair($i, $j) {

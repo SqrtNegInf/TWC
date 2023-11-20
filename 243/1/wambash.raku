@@ -7,13 +7,11 @@ sub reverse-pairs (+nums) {
     andthen .elems
 }
 
-multi MAIN (Bool :test($)!) {
+#multi MAIN (Bool :test($)!) {
     use Test;
     is reverse-pairs(1,3,2,3,1),2;
     is reverse-pairs(2, 4, 3, 5, 1), 3;
     done-testing;
-}
+#}
 
-multi MAIN (+nums) {
-    say reverse-pairs nums
-}
+#multi MAIN (+nums) { say reverse-pairs nums }

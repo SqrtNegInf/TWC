@@ -1,4 +1,5 @@
 #!/usr/bin/env raku
+
 sub count-reverse-pairs(@nums) {
     merge-sort(0, @nums.elems - 1, @nums)
 }
@@ -35,5 +36,5 @@ sub merge-sort($left, $right, @nums) {
 }
 
 # Testing with example inputs
-say count-reverse-pairs(1, 3, 2, 3, 1); # Output: 2
-say count-reverse-pairs(2, 4, 3, 5, 1); # Output: 3
+say count-reverse-pairs([1, 3, 2, 3, 1]); # Output: 2
+say count-reverse-pairs([2, 4, 3, 5, 1]); # Output: 3

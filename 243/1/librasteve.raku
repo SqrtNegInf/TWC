@@ -1,5 +1,6 @@
 #!/usr/bin/env raku
-use Data::Dump::Tree;
+
+#use Data::Dump::Tree;
 use Test;
 
 my @tests = [
