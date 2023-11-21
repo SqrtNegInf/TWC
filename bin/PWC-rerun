@@ -7,7 +7,7 @@ sub MAIN ( *@args ) {
 
    #@args = grep { '165' eq $_ }, @args; # test just one
 
-    @args = grep { $_ le '242' }, @args; # exclude any higher-numbered
+    @args = grep { $_ le '243' }, @args; # exclude any higher-numbered
 
     (@args).race(:8degree, :1batch).map: -> $ch { shell "bin/PWC-run $ch 1 perl ; bin/PWC-run $ch 2 perl" }
     (@args).race(:8degree, :1batch).map: -> $ch { shell "bin/PWC-run $ch 1 moar ; bin/PWC-run $ch 2 moar" }
