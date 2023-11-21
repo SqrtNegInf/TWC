@@ -1,9 +1,6 @@
 #!/usr/bin/env raku
-use v6 ;
 
-say "Enter some integers >= 1, separated by blanks!" ;
-my $line = $*IN.get ;
-my @numbers = $line.words.map( {.Int} ) ;
+my @numbers = (2, 5, 9);
 my $len = @numbers.elems ;
 if ( @numbers.grep( { $_ == @numbers[0] } ).elems == $len ) {
    say ( @numbers[ 0 ] * $len ) ;

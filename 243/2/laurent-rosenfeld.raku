@@ -1,4 +1,5 @@
 #!/usr/bin/env raku
+
 sub floor-sum (@in) {
     my $count = @in.elems;
     for @in.combinations: 2 -> @pair {

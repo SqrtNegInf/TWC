@@ -1,14 +1,6 @@
 #!/usr/bin/env perl
-use v5.38;
-##
-# You are given an array of positive integers (>=1). Write a script to 
-# return the sum of 
-#     floor(nums[i] / nums[j]) 
-# where 
-#     0 <= i,j < nums.length. 
-# We define the floor() function as returning the integer part of the 
-# division.
-##
+use v5.36;
+
 use POSIX;
 sub floor_sum{
     my @integers = @_;

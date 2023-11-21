@@ -1,0 +1,8 @@
+[31m===[0mSORRY![31m===[0m
+Calling floor-sum(Int, Int, Int) will never work with declared signature (@nums)
+at lubos-kolouch.raku:11
+------> [32mis [33m⏏[31mfloor-sum(2, 5, 9), 10, 'Test Example 1'[0m
+Calling floor-sum(Int, Int, Int, Int, Int, Int, Int) will never work with declared signature (@nums)
+at lubos-kolouch.raku:12
+------> [32mis [33m⏏[31mfloor-sum(7, 7, 7, 7, 7, 7, 7), 49, 'Tes[0m
+

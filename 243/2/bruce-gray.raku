@@ -1,5 +1,4 @@
 #!/usr/bin/env raku
-# Note that `div` can take the place of `floor after division`
 # only because the task specifies integers.
 #   https://docs.raku.org/language/operators#infix_div
 #   https://docs.raku.org/language/operators#infix_X
