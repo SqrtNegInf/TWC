@@ -2,10 +2,9 @@
 use v5.30.3;
 use warnings;
 use strict;
+
 use Getopt::Long;
 use Pod::Usage;
-
-# Challenge 243, Task 2: Floor Sum
 
 my $man = 0;
 my $help = 0;

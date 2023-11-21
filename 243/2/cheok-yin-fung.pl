@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-# The Weekly Challenge 243
-# Task 2 Floor Sum
+
 use v5.30.0;
 use warnings;
 

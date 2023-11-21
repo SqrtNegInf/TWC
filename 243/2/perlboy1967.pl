@@ -1,23 +1,7 @@
 #!/usr/bin/env perl
 
-=pod
-
-The Weekly Challenge - 243
-- https://theweeklychallenge.org/blog/perl-weekly-challenge-243
-
-Author: Niels 'PerlBoy' van Dijke
-
-Task 2: Floor Sum
-Submitted by: Mohammad S Anwar
-
-You are given an array of positive integers (>=1).
-
-Write a script to return the sum of floor(nums[i] / nums[j]) where 0 <= i,j < nums.length. 
-The floor() function returns the integer part of the division.
-
-=cut
-
 use v5.32;
+
 use common::sense;
 
 use Test2::V0 -srand => 1;

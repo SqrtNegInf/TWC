@@ -1,0 +1,167 @@
+ 
+===> 243/2/adam-russell.pl <===
+10
+49
+ 
+===> 243/2/athanasius.pl <===
+Running the test suite
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Series
+1..3
+ 
+===> 243/2/bob-lied.pl <===
+# Seeded srand with seed '20231121' from local date.
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - fs Example 1
+ok 4 - fs Example 2
+ok 5 - fs_s Example 1
+ok 6 - fs_s Example 2
+ok 7 - fs_g Example 1
+ok 8 - fs_g Example 2
+ok 9 - fs_m Example 1
+ok 10 - fs_m Example 2
+1..10
+ 
+===> 243/2/cheok-yin-fung.pl <===
+1..2
+ok 1
+ok 2
+ 
+===> 243/2/dave-jacoby.pl <===
+Input:  $input = (2, 5, 9)
+Output:          10
+
+Input:  $input = (7, 7, 7, 7, 7, 7, 7)
+Output:          49
+
+ 
+===> 243/2/deadmarshal.pl <===
+10
+49
+ 
+===> 243/2/e-choroba.pl <===
+1..4
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 1 func
+ok 4 - Example 2 func
+ 
+===> 243/2/ianrifkin.pl <===
+10
+49
+ 
+===> 243/2/kjetillll.pl <===
+ok   input: 2 5 9    expected: 10    got: 10
+ok   input: 7 7 7 7 7 7 7    expected: 49    got: 49
+ 
+===> 243/2/laurent-rosenfeld.pl <===
+2 5 9           => 10
+4 9 3 2         => 17
+7 7 7 7 7 7 7   => 49
+ 
+===> 243/2/lubos-kolouch.pl <===
+1..2
+ok 1 - Test Example 1
+ok 2 - Test Example 2
+ 
+===> 243/2/nelo-tovar.pl <===
+Input : @nums = (2, 5, 9)
+Output : 10
+Input : @nums = (7, 7, 7, 7, 7, 7, 7)
+Output : 49
+ 
+===> 243/2/packy-anderson.pl <===
+Example 1:
+Input: @nums = (2, 5, 9)
+Output: 10
+
+Example 2:
+Input: @nums = (7, 7, 7, 7, 7, 7, 7)
+Output: 49
+ 
+===> 243/2/perlboy1967.pl <===
+# Seeded srand with seed '1' from import arg.
+ok 1
+ok 2
+1..2
+ 
+===> 243/2/peter-campbell-smith.pl <===
+
+Input:  @nums = (2, 5, 9)
+Output: 10
+   floor(2 / 2) = 1      |  floor(5 / 2) = 2     
+   floor(5 / 5) = 1      |  floor(9 / 2) = 4     
+   floor(9 / 5) = 1      |  floor(9 / 9) = 1     
+
+Input:  @nums = (7, 7, 7)
+Output: 9
+   floor(7 / 7) = 1      |  floor(7 / 7) = 1     
+   floor(7 / 7) = 1      |  floor(7 / 7) = 1     
+   floor(7 / 7) = 1      |  floor(7 / 7) = 1     
+   floor(7 / 7) = 1      |  floor(7 / 7) = 1     
+   floor(7 / 7) = 1
+
+Input:  @nums = (5, 46, 84, 34, 57, 1, 19, 100, 76, 37, 36)
+Output: 658
+   floor(1 / 1) = 1      |  floor(5 / 1) = 5     
+   floor(5 / 5) = 1      |  floor(19 / 1) = 19   
+   floor(19 / 5) = 3     |  floor(19 / 19) = 1   
+   floor(34 / 1) = 34    |  floor(34 / 5) = 6    
+   floor(34 / 19) = 1    |  floor(34 / 34) = 1   
+   floor(36 / 1) = 36    |  floor(36 / 5) = 7    
+   floor(36 / 19) = 1    |  floor(36 / 34) = 1   
+   floor(36 / 36) = 1    |  floor(37 / 1) = 37   
+   floor(37 / 5) = 7     |  floor(37 / 19) = 1   
+   floor(37 / 34) = 1    |  floor(37 / 36) = 1   
+   floor(37 / 37) = 1    |  floor(46 / 1) = 46   
+   floor(46 / 5) = 9     |  floor(46 / 19) = 2   
+   floor(46 / 34) = 1    |  floor(46 / 36) = 1   
+   floor(46 / 37) = 1    |  floor(46 / 46) = 1   
+   floor(57 / 1) = 57    |  floor(57 / 5) = 11   
+   floor(57 / 19) = 3    |  floor(57 / 34) = 1   
+   floor(57 / 36) = 1    |  floor(57 / 37) = 1   
+   floor(57 / 46) = 1    |  floor(57 / 57) = 1   
+   floor(76 / 1) = 76    |  floor(76 / 5) = 15   
+   floor(76 / 19) = 4    |  floor(76 / 34) = 2   
+   floor(76 / 36) = 2    |  floor(76 / 37) = 2   
+   floor(76 / 46) = 1    |  floor(76 / 57) = 1   
+   floor(76 / 76) = 1    |  floor(84 / 1) = 84   
+   floor(84 / 5) = 16    |  floor(84 / 19) = 4   
+   floor(84 / 34) = 2    |  floor(84 / 36) = 2   
+   floor(84 / 37) = 2    |  floor(84 / 46) = 1   
+   floor(84 / 57) = 1    |  floor(84 / 76) = 1   
+   floor(84 / 84) = 1    |  floor(100 / 1) = 100 
+   floor(100 / 5) = 20   |  floor(100 / 19) = 5  
+   floor(100 / 34) = 2   |  floor(100 / 36) = 2  
+   floor(100 / 37) = 2   |  floor(100 / 46) = 2  
+   floor(100 / 57) = 1   |  floor(100 / 76) = 1  
+   floor(100 / 84) = 1   |  floor(100 / 100) = 1 
+ 
+===> 243/2/peter-meszaros.pl <===
+ok 1 - [2, 5, 9]
+ok 2 - [7, 7, 7, 7, 7, 7, 7]
+1..2
+ 
+===> 243/2/roger-bell-west.pl <===
+1..2
+ok 1 - example 1
+ok 2 - example 2
+ 
+===> 243/2/sgreen.pl <===
+0
+ 
+===> 243/2/solathian.pl <===
+10
+49
+ 
+===> 243/2/wanderdoc.pl <===
+# Seeded srand with seed '1' from import arg.
+ok 1 - Example 1
+ok 2 - Example 2
+1..2
+ 
+===> 243/2/zapwai.pl <===
+Input: @nums = (2, 5, 9)
+Output: 10
