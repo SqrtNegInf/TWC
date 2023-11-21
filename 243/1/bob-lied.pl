@@ -54,7 +54,7 @@ sub rp_r($nums)
 
 sub runTest
 {
-    use Test2::V0;
+    use Test2::V0 -srand => 1;
 
     is( reversePairs(1,3,2,3,1), 2, "Example 1");
     is( reversePairs(2,4,3,5,1), 3, "Example 2");

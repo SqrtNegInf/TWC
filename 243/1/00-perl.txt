@@ -17,7 +17,7 @@ ok 6 - Negatives: pairs
 1..6
  
 ===> 243/1/bob-lied.pl <===
-# Seeded srand with seed '20231120' from local date.
+# Seeded srand with seed '1' from import arg.
 ok 1 - Example 1
 ok 2 - Example 2
 ok 3 - rp Example 1
