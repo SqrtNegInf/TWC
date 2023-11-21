@@ -1,14 +1,6 @@
 #!/usr/bin/env perl
-use v5.38;
-##
-# You are given an array of integers. Write a script to return the 
-# number of reverse pairs in the given array. A reverse pair is:
-# a pair (i, j) 
-# where: 
-#    a) 0 <= i < j < nums.length 
-# and 
-#    b) nums[i] > 2 * nums[j].
-##
+use v5.36;
+
 sub reverse_pairs{
     my @integers = @_;
     my @reverse_pairs;

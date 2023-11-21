@@ -1,5 +1,6 @@
 #!/usr/bin/env perl
 use v5.30;
+
 my @nums = (1,3,2,3,1);
 #@nums = (2,4,3,5,1);
 my $output;

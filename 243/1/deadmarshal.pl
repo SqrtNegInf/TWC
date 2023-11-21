@@ -1,6 +1,7 @@
 #!/usr/bin/env perl
 use strict;
 use warnings;
+
 use Algorithm::Combinatorics qw(combinations);
 
 sub reverse_pairs{
