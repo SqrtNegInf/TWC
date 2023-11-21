@@ -509,8 +509,8 @@ Challenge titles and Rosetta-code correspondences (exact, and otherwise)
 242-2 Flip Matrix
 243-1 Reverse Pairs
 243-2 Floor Sums
-244-1
-244-2
+244-1 Count Smaller
+244-2 Group Hero
 245-1
 245-2
 246-1
