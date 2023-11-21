@@ -44,7 +44,7 @@ sub flipMatrix_S($m)
 
 sub runTest
 {
-    use Test2::V0;
+    use Test2::V0 -srand => 1;
 
     is( flipMatrix([[1, 1, 0], [1, 0, 1], [0, 0, 0]]),
         [[1, 0, 0], [0, 1, 0], [1, 1, 1]], "Example 1");
@@ -78,6 +78,7 @@ sub runTest
     done_testing;
 }
 
+=finish
 sub benchmark($repeat)
 {
     use Benchmark qw/:all/;
