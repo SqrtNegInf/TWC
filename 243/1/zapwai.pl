@@ -1,5 +1,5 @@
 #!/usr/bin/env perl
-use v5.30;
+use v5.36;
 
 my @nums = (1,3,2,3,1);
 #@nums = (2,4,3,5,1);

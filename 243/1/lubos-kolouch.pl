@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
+use v5.36;
 
 # Perl subroutine to count reverse pairs
 sub count_reverse_pairs {

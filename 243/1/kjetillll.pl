@@ -1,5 +1,5 @@
 #!/usr/bin/env perl
-use strict; use warnings;
+use v5.36;
 
 @ARGV ? run_args(@ARGV)
       : run_tests();
