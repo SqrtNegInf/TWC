@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-use v5.30.3;
-use warnings;
-use strict;
+use v5.36;
 
 use Getopt::Long;
 use Pod::Usage;
