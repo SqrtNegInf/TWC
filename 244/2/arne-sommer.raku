@@ -1,7 +1,8 @@
 #!/usr/bin/env raku
 
-unit sub MAIN (*@nums where @nums.elems > 0 && all(@nums) ~~ Int,
-               :v(:$verbose));
+#unit sub MAIN (*@nums where @nums.elems > 0 && all(@nums) ~~ Int, :v(:$verbose));
+
+my @nums = (2, 0, 1, -10);
 
 my $group = 0;
 my $total = 0;
@@ -14,7 +15,7 @@ for @nums.combinations(1..Inf) -> @candidate
 
   $total += $sum;
 
-  say ": Group { ++$group }: ({ @candidate.join(",") }) => square(max({ @candidate.join(",") })) * min({ @candidate.join(",") }) => { $max ** 2 } * $min => $sum" if $verbose;
+# say ": Group { ++$group }: ({ @candidate.join(",") }) => square(max({ @candidate.join(",") })) * min({ @candidate.join(",") }) => { $max ** 2 } * $min => $sum" if $verbose;
 }
 
 say $total;

@@ -1,4 +1,5 @@
 #!/usr/bin/env raku
+
 sub group-hero (@in) {
     my $sum = 0;
     for @in.combinations: 1..@in.elems -> @comb {

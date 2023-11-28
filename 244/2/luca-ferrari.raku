@@ -1,13 +1,8 @@
 #!/usr/bin/env raku
 
-#
-# Perl Weekly Challenge 244
-# Task 2
-#
-# See <https://perlweeklychallenge.org/blog/perl-weekly-challenge-244/>
-#
+#sub MAIN( *@nums where { @nums.elems == @nums.grep( * ~~ Int ).elems } ) {
 
-sub MAIN( *@nums where { @nums.elems == @nums.grep( * ~~ Int ).elems } ) {
+    my @nums = (2, 0, 1, -10);
 
     my $power = 0;
     for @nums.combinations {
@@ -16,4 +11,4 @@ sub MAIN( *@nums where { @nums.elems == @nums.grep( * ~~ Int ).elems } ) {
     }
 
     $power.say;
-}
+#}

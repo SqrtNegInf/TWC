@@ -1,10 +1,10 @@
 #!/usr/bin/env raku
 use Test;
-use Benchy;
+#use Benchy;
 
 is group-hero(2,1,4), 141;
 
-benchmark();
+#benchmark();
 
 # say group-hero((1..20).roll(10000));
 # takes about 1 minute and 40 seconds on my computer.
@@ -23,6 +23,7 @@ sub group-hero-slow(*@a)
     sum @a.combinations.skip.map({ .max² * .min })
 }
 
+=finish
 sub benchmark
 {
     my @a = 5,5,5,9,4,4,2,2,2,2,7,7,7,7,7,8,9,2,2,1;

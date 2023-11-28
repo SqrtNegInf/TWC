@@ -1,5 +1,4 @@
 #!/usr/bin/env raku
-use v6;
 
 sub power(@nums) {
   return( (@nums.max ** 2) * @nums.min );

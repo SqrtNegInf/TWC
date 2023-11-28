@@ -8,12 +8,10 @@ sub group-hero (+nums) {
     andthen .sum
 }
 
-multi MAIN (Bool :test($)!) {
+#multi MAIN (Bool :test($)!) {
     use Test;
     is group-hero(2,1,4),141;
     done-testing;
-}
+#}
 
-multi MAIN (+nums) {
-    say group-hero nums
-}
+#multi MAIN (+nums) { say group-hero nums }

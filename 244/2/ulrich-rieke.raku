@@ -1,9 +1,6 @@
 #!/usr/bin/env raku
-use v6 ;
 
-say "Enter some integers, separated by blanks!" ;
-my $line = $*IN.get ;
-my @numbers = $line.words.map( {.Int} ) ;
+my @numbers = (2, 0, 1, -10);
 my $len = @numbers.elems ;
 my $sum = 0 ;
 for ( @numbers ) -> $num {
