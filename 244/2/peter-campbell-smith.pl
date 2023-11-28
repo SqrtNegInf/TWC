@@ -1,7 +1,6 @@
 #!/usr/bin/env perl
 
 use v5.26;    # The Weekly Challenge - 2023-11-20
-use utf8;     # Week 244 task 2 - Group hero
 use strict;   # Peter Campbell Smith
 use warnings; # Blog: http://ccgi.campbellsmiths.force9.co.uk/challenge
 

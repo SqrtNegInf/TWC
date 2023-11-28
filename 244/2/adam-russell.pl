@@ -1,11 +1,6 @@
 #!/usr/bin/env perl
-use v5.38;
-##
-# You are given an array of integers representing the strength.
-# Write a script to return the sum of the powers of all possible 
-# combinations; power is defined as the square of the largest number in 
-# a sequence, multiplied by the smallest.
-##
+use v5.36;
+
 sub group_hero{
     my @group = @_;
     my $group_hero = 0;

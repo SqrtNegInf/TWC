@@ -1,0 +1,105 @@
+ 
+===> 244/2/adam-russell.pl <===
+141
+ 
+===> 244/2/athanasius.pl <===
+Running the test suite
+ok 1 - Example 1
+ok 2 - Multiples 1
+ok 3 - Multiples 2
+1..3
+ 
+===> 244/2/bob-lied.pl <===
+ok 1 - Power empty
+ok 2 - Power 1 number
+ok 3 - Power 2 numbers
+ok 4 - Power 3 numbers
+ok 5 - Power 4 numbers
+ok 6 - Example 1
+1..6
+ 
+===> 244/2/cheok-yin-fung.pl <===
+1..1
+ok 1
+ 
+===> 244/2/dave-jacoby.pl <===
+Input:  $input = (2, 1, 4)
+Output:          141
+
+ 
+===> 244/2/deadmarshal.pl <===
+141
+ 
+===> 244/2/e-choroba.pl <===
+1..1
+ok 1 - Example 1
+ 
+===> 244/2/ianrifkin.pl <===
+141
+ 
+===> 244/2/jo-37.pl <===
+# Seeded srand with seed '1' from import arg.
+ok 1 - example 1
+ok 2 - example from blog
+ok 3 - 147573952589676412920
+1..3
+ 
+===> 244/2/laurent-rosenfeld.pl <===
+2 1 4      => 141
+ 
+===> 244/2/lubos-kolouch.pl <===
+1..1
+ok 1 - Test Case 1
+ 
+===> 244/2/nelo-tovar.pl <===
+Input : @nums = (2, 1, 4)
+Output : 141
+ 
+ 
+===> 244/2/packy-anderson.pl <===
+Example 1:
+Input: @int = (2, 1, 4)
+Output: 141
+ 
+===> 244/2/perlboy1967.pl <===
+# Seeded srand with seed '1' from import arg.
+ok 1
+1..1
+ 
+===> 244/2/peter-campbell-smith.pl <===
+
+Input:  @nums = (2, 1, 4)
+Output: 141
+   (2) => 4 * 2 = 8
+   (1) => 1 * 1 = 1
+   (4) => 16 * 4 = 64
+   (2, 1) => 4 * 1 = 4
+   (2, 4) => 16 * 2 = 32
+   (1, 4) => 16 * 1 = 16
+   (2, 1, 4) => 16 * 1 = 16
+
+Input:  @nums = (6, 8, 10)
+Output: 4112
+   (6) => 36 * 6 = 216
+   (8) => 64 * 8 = 512
+   (10) => 100 * 10 = 1000
+   (6, 8) => 64 * 6 = 384
+   (6, 10) => 100 * 6 = 600
+   (8, 10) => 100 * 8 = 800
+   (6, 8, 10) => 100 * 6 = 600
+
+Input:  @nums = (1, 2, 4, 5, 7, 9, 11, 15, 19, 23, 30, 31, 39, 41, 47)
+Output: 143239195
+
+ 
+===> 244/2/peter-meszaros.pl <===
+ok 1 - [2, 1, 4]
+1..1
+ 
+===> 244/2/roger-bell-west.pl <===
+1..1
+ok 1 - example 1
+ 
+===> 244/2/zapwai.pl <===
+Input : @nums = (2, 1, 4)
+Output: 141

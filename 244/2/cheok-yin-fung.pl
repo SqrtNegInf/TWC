@@ -1,9 +1,10 @@
 #!/usr/bin/env perl
-# The Weekly Challenge 244
-# Task 2 Group Hero
+
 use v5.30.0;
 use warnings;
+
 use List::Util qw/max min/;
+
 sub gh {
     my $ans = 0;
     my @nums = @_;
