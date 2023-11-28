@@ -511,8 +511,8 @@ Challenge titles and Rosetta-code correspondences (exact, and otherwise)
 243-2 Floor Sums
 244-1 Count Smaller
 244-2 Group Hero
-245-1
-245-2
+245-1 Sort Language
+245-2 Largest of Three
 246-1
 246-2
 247-1

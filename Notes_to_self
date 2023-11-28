@@ -1,3 +1,6 @@
+2023-11-28
+List::Rank needed for 243/1/jo-37.pl
+
 2023-11-13
 rm -f TestExtractor.pm jeanluc2020.pl matthias-muth.pl mattneleigh.pl robbie-hatley.pl
 clear; wc -l *pl | sort -rn | g -v total; perl -e 'printf "%.1f\n", `ls -1 *pl | wc -l` / `ls -1 *raku | wc -l`'
