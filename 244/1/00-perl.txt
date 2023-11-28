@@ -1,0 +1,148 @@
+ 
+===> 244/1/adam-russell.pl <===
+4, 0, 1, 1, 3
+2, 1, 0, 3
+0, 0, 0
+ 
+===> 244/1/athanasius.pl <===
+Running the test suite
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+1..3
+ 
+===> 244/1/barroff.pl <===
+# Seeded srand with seed '20231128' from local date.
+1..3
+ok 1 - works for (8, 1, 2, 2, 3)
+ok 2 - works for (6, 5, 4, 8)
+ok 3 - works for (2, 2, 2)
+ 
+===> 244/1/bob-lied.pl <===
+ok 1 - A Example 1
+ok 2 - A Example 2
+ok 3 - A Example 3
+ok 4 - B Example 1
+ok 5 - B Example 2
+ok 6 - B Example 3
+ok 7 - C Example 1
+ok 8 - C Example 2
+ok 9 - C Example 3
+ok 10 - C Example x
+1..10
+ 
+===> 244/1/cheok-yin-fung.pl <===
+1..3
+ok 1
+ok 2
+ok 3
+ 
+===> 244/1/dave-jacoby.pl <===
+Input:  @int = (8, 1, 2, 2, 3)
+Output: (4, 0, 1, 1, 3)
+
+Input:  @int = (6, 5, 4, 8)
+Output: (2, 1, 0, 3)
+
+Input:  @int = (2, 2, 2)
+Output: (0, 0, 0)
+
+ 
+===> 244/1/deadmarshal.pl <===
+(4,0,1,1,3)
+(2,1,0,3)
+(0,0,0)
+ 
+===> 244/1/e-choroba.pl <===
+# Seeded srand with seed '1' from import arg.
+1..6
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ok 4 - Example 1
+ok 5 - Example 2
+ok 6 - Example 3
+ 
+===> 244/1/ianrifkin.pl <===
+(4,0,1,1,3)
+(2,1,0,3)
+(0,0,0)
+ 
+===> 244/1/jo-37.pl <===
+# Seeded srand with seed '1' from import arg.
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+1..3
+ 
+===> 244/1/laurent-rosenfeld.pl <===
+8 1 2 2 3    => 4 0 1 1 3
+6 5 4 8      => 2 1 0 3
+2 2 2        => 0 0 0
+ 
+===> 244/1/lubos-kolouch.pl <===
+1..3
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ 
+===> 244/1/nelo-tovar.pl <===
+Input : @nums = (8, 1, 2, 2, 3)
+Output : (4, 0, 1, 1, 3)
+ 
+Input : @nums = (6, 5, 4, 8)
+Output : (2, 1, 0, 3)
+ 
+Input : @nums = (2, 2, 2)
+Output : (0, 0, 0)
+ 
+ 
+===> 244/1/packy-anderson.pl <===
+Example 1:
+Input: @arr = (8, 1, 2, 2, 3)
+Output: (4, 0, 1, 1, 3)
+
+Example 2:
+Input: @arr = (6, 5, 4, 8)
+Output: (2, 1, 0, 3)
+
+Example 3:
+Input: @arr = (2, 2, 2)
+Output: (0, 0, 0)
+ 
+===> 244/1/perlboy1967.pl <===
+# Seeded srand with seed '1' from import arg.
+ok 1
+ok 2
+ok 3
+1..3
+ 
+===> 244/1/peter-campbell-smith.pl <===
+
+Input:  @ints = (8, 1, 2, 2, 3)
+Output:         (4, 0, 1, 1, 3)
+
+Input:  @ints = (0, 6, 5, 4, 8)
+Output:         (0, 3, 2, 1, 4)
+
+Input:  @ints = (5, 46, 84, 34, 57, 1, 19, 100, 76, 37, 36, 58, 14, 7, 96, 16, 59, 22, 81, 15, 63, 22, 1, 58, 94, 35, 90, 60, 40, 90, 70, 23, 97, 2, 12, 89, 12, 76, 30, 65, 43, 51, 32, 44, 67, 71, 78, 82, 32, 99, 68, 16, 88, 70, 38, 57, 48, 28, 94, 26, 55, 65, 57, 51, 21, 9, 29, 71, 76, 68, 61, 38, 52, 56, 66, 94, 20, 60, 9, 57, 27, 96, 23, 81, 34, 59, 95, 65, 91, 37, 25, 49, 92, 33, 83, 32, 94, 60, 99, 39)
+Output:         (3, 42, 82, 30, 50, 0, 13, 99, 74, 34, 33, 54, 9, 4, 94, 11, 56, 16, 78, 10, 62, 16, 0, 54, 89, 32, 85, 58, 39, 85, 70, 18, 96, 2, 7, 84, 7, 74, 25, 63, 40, 45, 26, 41, 67, 72, 77, 80, 26, 97, 68, 11, 83, 70, 36, 50, 43, 23, 89, 21, 48, 63, 50, 45, 15, 5, 24, 72, 74, 68, 61, 36, 47, 49, 66, 89, 14, 58, 5, 50, 22, 94, 18, 78, 30, 56, 93, 63, 87, 34, 20, 44, 88, 29, 81, 26, 89, 58, 97, 38)
+ 
+===> 244/1/peter-meszaros.pl <===
+ok 1 - [8, 1, 2, 2, 3]
+ok 2 - [6, 5, 4, 8]
+ok 3 - [2, 2, 2]
+1..3
+ 
+===> 244/1/roger-bell-west.pl <===
+1..3
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ 
+===> 244/1/sgreen.pl <===
+
+ 
+===> 244/1/zapwai.pl <===
+Input : @int = (8, 1, 2, 2, 3)
+Output: @ans = (4, 0, 1, 1, 3)

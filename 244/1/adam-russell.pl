@@ -1,10 +1,6 @@
 #!/usr/bin/env perl
-use v5.38;
-##
-# You are given an array of integers.
-# Write a script to calculate the number of integers smaller than the 
-# integer at each index.
-##
+use v5.36;
+
 sub count_smaller{
     my @integers = @_;
     my @integers_sorted = sort {$a <=> $b} @integers;

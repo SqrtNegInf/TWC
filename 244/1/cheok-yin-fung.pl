@@ -1,6 +1,4 @@
 #!/usr/bin/env perl
-# The Weekly Challenge 244
-# Task 1 Count Smaller
 use v5.30.0;
 use warnings;
 

@@ -1,22 +1,7 @@
 #!/usr/bin/env perl
 
-=pod
-
-The Weekly Challenge - 244
-- https://theweeklychallenge.org/blog/perl-weekly-challenge-244
-
-Author: Niels 'PerlBoy' van Dijke
-
-Task 1: Count Smaller
-Submitted by: Mohammad S Anwar
-
-You are given an array of integers.
-
-Write a script to calculate the number of integers smaller than the integer at each index.
-
-=cut
-
 use v5.32;
+
 use common::sense;
 use feature 'signatures';
 
