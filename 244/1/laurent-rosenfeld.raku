@@ -1,4 +1,5 @@
 #!/usr/bin/env raku
+
 sub count-smaller (@in) {
     my @result;
     my @sorted = @in.sort;

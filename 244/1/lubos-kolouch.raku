@@ -8,8 +8,8 @@ sub count-smaller(@nums) {
 }
 
 # Tests
-is-deeply count-smaller(8, 1, 2, 2, 3), [4, 0, 1, 1, 3], 'Example 1';
-is-deeply count-smaller(6, 5, 4, 8), [2, 1, 0, 3], 'Example 2';
-is-deeply count-smaller(2, 2, 2), [0, 0, 0], 'Example 3';
+is count-smaller((8, 1, 2, 2, 3)), [4, 0, 1, 1, 3], 'Example 1';
+is count-smaller((6, 5, 4, 8)), [2, 1, 0, 3], 'Example 2';
+is count-smaller((2, 2, 2)), [0, 0, 0], 'Example 3';
 
 done-testing;

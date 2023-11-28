@@ -1,9 +1,6 @@
 #!/usr/bin/env raku
-use v6 ;
 
-say "Enter some integers, separated my blanks!" ;
-my $line = $*IN.get ;
-my @numbers = $line.words.map( {.Int} ) ;
+my @numbers = (8, 1, 2, 2, 3);
 my $len = @numbers.elems ;
 my @solution ;
 for (0..$len - 1 ) -> $index {
