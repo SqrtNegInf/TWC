@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-
-use v5.26;    # The Weekly Challenge - 2023-11-20
-use strict;   # Peter Campbell Smith
-use warnings; # Blog: http://ccgi.campbellsmiths.force9.co.uk/challenge
+use v5.36;
 
 use Algorithm::Combinatorics 'combinations';
 my $details = 1;

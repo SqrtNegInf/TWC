@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use feature 'say';
+use v5.36;
 
 sub group_hero {
     # Caution: this works only with input arrays of 3 items
