@@ -1,9 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-use feature 'say';
-use experimental 'signatures';
+use v5.36;
 
 sub less_than ( $i, $ints ) {
     # Return the number of items in the array less than $i
