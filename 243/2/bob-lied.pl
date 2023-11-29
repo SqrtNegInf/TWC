@@ -87,22 +87,22 @@ sub fs_m(@nums)
 
 sub runTest
 {
-    use Test2::V0;
+    use Test::More;
 
-    is( floorSum(2,5,9),         10, "Example 1");
-    is( floorSum(7,7,7,7,7,7,7), 49, "Example 2");
+    is_deeply( floorSum(2,5,9),         10, "Example 1");
+    is_deeply( floorSum(7,7,7,7,7,7,7), 49, "Example 2");
 
-    is( fs(2,5,9),         10, "fs Example 1");
-    is( fs(7,7,7,7,7,7,7), 49, "fs Example 2");
+    is_deeply( fs(2,5,9),         10, "fs Example 1");
+    is_deeply( fs(7,7,7,7,7,7,7), 49, "fs Example 2");
 
     is( fs_s(2,5,9),         10, "fs_s Example 1");
-    is( fs_s(7,7,7,7,7,7,7), 49, "fs_s Example 2");
+    is_deeply( fs_s(7,7,7,7,7,7,7), 49, "fs_s Example 2");
 
-    is( fs_g(2,5,9),         10, "fs_g Example 1");
-    is( fs_g(7,7,7,7,7,7,7), 49, "fs_g Example 2");
+    is_deeply( fs_g(2,5,9),         10, "fs_g Example 1");
+    is_deeply( fs_g(7,7,7,7,7,7,7), 49, "fs_g Example 2");
 
-    is( fs_m(2,5,9),         10, "fs_m Example 1");
-    is( fs_m(7,7,7,7,7,7,7), 49, "fs_m Example 2");
+    is_deeply( fs_m(2,5,9),         10, "fs_m Example 1");
+    is_deeply( fs_m(7,7,7,7,7,7,7), 49, "fs_m Example 2");
 
     done_testing;
 }
