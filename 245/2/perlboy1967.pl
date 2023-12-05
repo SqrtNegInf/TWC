@@ -1,23 +1,7 @@
 #!/usr/bin/env perl
 
-=pod
-
-The Weekly Challenge - 245
-- https://theweeklychallenge.org/blog/perl-weekly-challenge-245
-
-Author: Niels 'PerlBoy' van Dijke
-
-Task 2: Largest of Three
-Submitted by: Mohammad S Anwar
-
-You are given an array of integers >= 0.
-
-Write a script to return the largest number formed by concatenating some of the given
-integers in any order which is also multiple of 3. Return -1 if none found.
-
-=cut
-
 use v5.32;
+
 use common::sense;
 
 use Test2::V0 -srand => 1;

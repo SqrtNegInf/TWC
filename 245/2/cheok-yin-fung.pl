@@ -1,8 +1,7 @@
 #!/usr/bin/env perl
-# The Weekly Challenge 245
-# Task 2 Largest of Three
 use v5.30.0;
 use warnings;
+
 use List::Util qw/sum min/;
 
 sub lot {

@@ -1,0 +1,163 @@
+ 
+===> 245/2/adam-russell.pl <===
+981
+8760
+-1
+ 
+===> 245/2/athanasius.pl <===
+Running the test suite
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ok 4 - Multiples
+ok 5 - Small
+ok 6 - Tens
+ok 7 - Hundreds
+1..7
+ 
+===> 245/2/bob-lied.pl <===
+# Seeded srand with seed '20231205' from local date.
+ok 1 - is3 0
+ok 2 - is3 8
+ok 3 - is3 9
+ok 4 - is3 47
+ok 5 - is3 48
+ok 6 - is3 143
+ok 7 - is3 144
+ok 8 - is3 1434
+ok 9 - Example 1
+ok 10 - Example 2
+ok 11 - Example 3
+1..11
+ 
+===> 245/2/cheok-yin-fung.pl <===
+1..7
+ok 1
+ok 2
+ok 3
+ok 4
+ok 5
+ok 6
+ok 7
+ 
+===> 245/2/dave-jacoby.pl <===
+Input:  $input = (8, 1, 9)
+Output:          981
+
+Input:  $input = (8, 6, 7, 1, 0)
+Output:          8760
+
+Input:  $input = (1)
+Output:          -1
+
+Input:  $input = (9, 0, 1, 2, 5)
+Output:          9510
+
+ 
+===> 245/2/deadmarshal.pl <===
+981
+8760
+-1
+ 
+===> 245/2/e-choroba.pl <===
+1..9
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ok 4 - Zero
+ok 5 - n>9
+ok 6 - n>9
+ok 7 - n>9
+ok 8 - n>9
+ok 9 - n>9
+ 
+===> 245/2/ianrifkin.pl <===
+981
+8760
+-1
+ 
+===> 245/2/jo-37.pl <===
+# Seeded srand with seed '1' from import arg.
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ok 4 - single 1 mod 3
+ok 5 - single 2 mod 3
+ok 6 - double 1 mod 3
+ok 7 - double 2 mod 3
+ok 8 - 0 mod 3
+ok 9 - double 1
+ok 10 - double 2
+ok 11 - like example 3
+ok 12 - zero
+ok 13 - remove the largest digit
+1..13
+ 
+===> 245/2/lubos-kolouch.pl <===
+1..3
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ 
+===> 245/2/nelo-tovar.pl <===
+Input : @ints = (8, 1, 9)
+Output : 981
+ 
+Input : @ints = (8, 6, 7, 1, 0)
+Output : 8760
+ 
+Input : @ints = 1
+Output : -1
+ 
+ 
+===> 245/2/packy-anderson.pl <===
+Example 1:
+Input: @ints = (8, 1, 9)
+Output: 981
+
+Example 2:
+Input: @ints = (8, 6, 7, 1, 0)
+Output: 8760
+
+Example 3:
+Input: @ints = (1)
+Output: -1
+ 
+===> 245/2/perlboy1967.pl <===
+# Seeded srand with seed '1' from import arg.
+ok 1
+ok 2
+ok 3
+1..3
+ 
+===> 245/2/peter-campbell-smith.pl <===
+
+Input:  @digits = (8, 6, 7, 1, 0)
+Output: 8760
+
+Input:  @digits = (0)
+Output: 0
+
+Input:  @digits = (18446744073709551614, 3)
+Output: 3
+
+Input:  @digits = (333, 666, 1, 4, 7)
+Output: 766643331
+
+Input:  @digits = (13, 14, 1, 102)
+Output: 1413102
+ 
+===> 245/2/peter-meszaros.pl <===
+ok 1 - [8, 1, 9]
+ok 2 - [8, 6, 7, 1, 0]
+ok 3 - [1]
+1..3
+ 
+===> 245/2/roger-bell-west.pl <===
+1..2
+ok 1 - example 1
+ok 2 - example 2
+ 
+===> 245/2/zapwai.pl <===
+Input : @digits = (8, 6, 7, 1, 0)
+Output: 8760

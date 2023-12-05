@@ -1,12 +1,8 @@
 #!/usr/bin/env perl
 use v5.36;
-##
-# You are given an array of integers >= 0.
-# Write a script to return the largest number formed by concatenating 
-# some of the given integers in any order which is also multiple of 3. 
-# Return -1 if none found.
-##
+
 use Algorithm::Permute;
+
 sub largest_of_three{
     my @digits = @_;
     my $largest = -1;

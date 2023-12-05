@@ -2,6 +2,7 @@
 use v5.30.3;
 use warnings;
 use strict;
+
 use Getopt::Long;
 use Pod::Usage;
 use Algorithm::Permute;

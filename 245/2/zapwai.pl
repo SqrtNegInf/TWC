@@ -1,8 +1,10 @@
 #!/usr/bin/env perl
 use v5.30;
+
 use Math::Combinatorics;
 use Algorithm::Permute;
 use List::Util;
+
 my @digits = (8,1,9);
 @digits = (8,6,7,1,0);
 my @poss;

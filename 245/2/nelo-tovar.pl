@@ -1,15 +1,8 @@
 #!/usr/bin/env perl
-
-# The Weekly Challenge 245 - By Nelo Tovar
-#
-# https://theweeklychallenge.org/blog/perl-weekly-challenge-245/
-#
-# Task 2 - Largest of Three
-#
-
+use v5.28;
 use strict;
 use warnings;
-use v5.28;
+
 use Algorithm::Combinatorics qw(variations);
 use Data::Dump qw(dump);
 
