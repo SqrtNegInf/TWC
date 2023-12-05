@@ -1,9 +1,6 @@
 #!/usr/bin/env perl
-use v5.38;
-##
-# You are given two array of languages and its popularity.
-# Write a script to sort the language based on popularity.
-##
+use v5.36;
+
 use Thread;
 sub sort_language{
     my @language = @{$_[0]};

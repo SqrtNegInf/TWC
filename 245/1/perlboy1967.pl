@@ -1,22 +1,7 @@
 #!/usr/bin/env perl
 
-=pod
-
-The Weekly Challenge - 245
-- https://theweeklychallenge.org/blog/perl-weekly-challenge-245
-
-Author: Niels 'PerlBoy' van Dijke
-
-Task 1: Sort Language
-Submitted by: Mohammad S Anwar
-
-You are given two array of languages and its popularity.
-
-Write a script to sort the language based on popularity.
-
-=cut
-
 use v5.32;
+
 use common::sense;
 
 use Test2::V0 -srand => 1;

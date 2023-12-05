@@ -1,5 +1,6 @@
 #!/usr/bin/env perl
 use v5.30;
+
 my @lang = ('perl', 'c', 'python');
 my @pop = (2, 1, 3);
 my @ans;

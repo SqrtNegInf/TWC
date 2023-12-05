@@ -1,37 +1,6 @@
 #!/usr/bin/env perl
-# vim:set ts=4 sw=4 sts=4 et ai wm=0 nu:
-#=============================================================================
-# ch-1.pl Perl Weekly Challenge 245 Task 1 Language Sort
-#=============================================================================
-# Copyright (c) 2023, Bob Lied
-#=============================================================================
-# You are given two array of languages and its popularity.
-# Write a script to sort the language based on popularity.
-# Example 1 Input: @lang = ('perl', 'c', 'python')
-#                  @popularity = (2, 1, 3)
-#           Output: ('c', 'perl', 'python')
-# Example 2 Input: @lang = ('c++', 'haskell', 'java')
-#                  @popularity = (1, 3, 2)
-#           Output: ('c++', 'java', 'haskell')
-# ---------
-# The @popularity array tells us where to move things.  For example 1,
-# it tells us that the language in position 1 should move to position 2,
-# the language in position 2 should move to position 1, and the language in
-# position 3 should move to position 3.
-#
-# @lang       perl    c       python
-#             [1]     [2]     [3]
-#               \      /       |            
-#              --\-----        |
-#             /   +___         |
-#             |       \        |
-# @popularity [1]=2   [2]=1   [3]=3
-#             |        |       |
-# @output     c       perl    python
-#             [1]     [2]     [3]
-# =============================================================================
 
-use v5.38;
+use v5.36;
 
 use Getopt::Long;
 my $Verbose = 0;
@@ -39,8 +8,8 @@ my $DoTest  = 0;
 my $DoBenchmark = 0;
 
 GetOptions("test" => \$DoTest, "verbose" => \$Verbose, "benchmark:i" => \$DoBenchmark);
-exit(!runTest()) if $DoTest;
-exit( runBenchmark($DoBenchmark) );
+runTest();
+exit;
 
 sub langSort_M($lang, $popularity)
 {

@@ -1,7 +1,6 @@
 #!/usr/bin/env perl
 
 use v5.26;    # The Weekly Challenge - 2023-11-27
-use utf8;     # Week 245 task 1 - Sort language
 use strict;   # Peter Campbell Smith
 use warnings; # Blog: http://ccgi.campbellsmiths.force9.co.uk/challenge
 

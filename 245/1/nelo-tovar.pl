@@ -1,15 +1,9 @@
 #!/usr/bin/env perl
 
-# The Weekly Challenge 245 - By Nelo Tovar
-#
-# https://theweeklychallenge.org/blog/perl-weekly-challenge-245/
-#
-# Task 1 - Sort Language
-#
-
+use v5.28;
 use strict;
 use warnings;
-use v5.28;
+
 use Data::Dump qw(dump);
 
 my @examples_l = (

@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-# The Weekly Challenge 245
-# Task 1 Sort Language
+
 use v5.30.0;
 use warnings;
 
