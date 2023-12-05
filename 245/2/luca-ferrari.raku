@@ -1,14 +1,9 @@
 #!/usr/bin/env raku
 
-#
-# Perl Weekly Challenge 245
-# Task 2
-#
-# See <https://perlweeklychallenge.org/blog/perl-weekly-challenge-245/>
-#
+# DH result??
 
-sub MAIN( *@nums where { @nums.elems == @nums.grep( * ~~ Int ).elems
-					 && @nums.grep( 0 <= * <= 9 ).elems } ) {
+sub MAIN( @nums where { @nums.elems == @nums.grep( * ~~ Int ).elems
+					 && @nums.grep( 0 <= * <= 9 ).elems } = (8,6,7,1,0) ) {
 
     my $largest = -1;
     for @nums.permutations {

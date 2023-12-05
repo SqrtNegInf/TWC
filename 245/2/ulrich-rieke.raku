@@ -1,5 +1,5 @@
 #!/usr/bin/env raku
-use v6 ;
+
 #concatenate by gluing the digits together to a string and by converting
 #them to an int afterwards
 sub concatenate( $aSequence ) {
@@ -11,9 +11,7 @@ sub concatenate( $aSequence ) {
    return $total.Int ;
 }
 
-say "Enter some integers greater than 0 , separated by blanks!" ;
-my $line = $*IN.get ;
-my @numbers = $line.words.map( {.Int} ) ;
+my @numbers = (8,6,7,1,0);
 my @permuted ; #for the concatenated permutations
 my @permutations = @numbers.permutations( ) ;
 for @permutations -> $permu {
