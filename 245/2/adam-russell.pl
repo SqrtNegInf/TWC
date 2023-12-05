@@ -1,5 +1,5 @@
 #!/usr/bin/env perl
-use v5.38;
+use v5.36;
 ##
 # You are given an array of integers >= 0.
 # Write a script to return the largest number formed by concatenating 
