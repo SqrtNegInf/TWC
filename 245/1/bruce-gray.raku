@@ -1,4 +1,5 @@
 #!/usr/bin/env raku
+
 sub task1 (@language,   @popularity) {
     die if @language != @popularity;
 

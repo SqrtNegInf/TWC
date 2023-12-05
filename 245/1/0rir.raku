@@ -1,23 +1,5 @@
 #!/usr/bin/env raku
-# :vim ft=raku sw=4 expandtab  # 🦋 ∅∪∩∋∈∉ ≡ ≢ «␤ » ∴
-use v6.d;
 use Test;
-
-=begin comment
-245-1: Sort Language            Submitted by: Mohammad S Anwar
-
-You are given two array of languages and its popularity.
-Write a script to sort the language based on popularity.
-
-Example 1
-Input: @lang = ('perl', 'c', 'python')
-       @popularity = (2, 1, 3)
-Output: ('c', 'perl', 'python')
-Example 2
-Input: @lang = ('c++', 'haskell', 'java')
-       @popularity = (1, 3, 2)
-Output: ('c++', 'java', 'haskell')
-=end comment
 
 my @Test =
     ('perl', 'c', 'python'), (2, 1, 3), ('c', 'perl', 'python'),
@@ -44,5 +26,3 @@ my @popularity = 29, 35, 19, 2,  9,   18,  3, 20,  31;
 say "\nInput: @lang = @lang.raku()\n"
   ~ "       @popularity = @popularity[].raku()\nOutput: "
   ~ sort-n-format-names-by-rank( @lang, @popularity);
-exit;
-

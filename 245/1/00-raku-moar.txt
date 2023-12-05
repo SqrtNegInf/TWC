@@ -1,0 +1,74 @@
+ 
+===> 245/1/0rir.raku <===
+1..3
+ok 1 - 
+ok 2 - 
+ok 3 - 
+
+Input: @lang = ["Perl", "Lisp", "R", "C", "SQL", "Ruby", "C++", "Rust", "Lua"]
+       @popularity = [29, 35, 19, 2, 9, 18, 3, 20, 31]
+Output: (C, C++, SQL, Ruby, R, Rust, Perl, Lua, Lisp)
+ 
+===> 245/1/arne-sommer.raku <===
+('C', 'C++', 'SQL', 'Ruby', 'R', 'Rust', 'Perl', 'Lua', 'Lisp')
+ 
+===> 245/1/athanasius.raku <===
+Running the test suite
+ok 1 - Example 1
+ok 2 - Example 2
+1..2
+ 
+===> 245/1/barroff.raku <===
+1..2
+ok 1 - Works for first example
+ok 2 - Works for second example
+ 
+===> 245/1/bruce-gray.raku <===
+1..2
+ok 1 - 
+ok 2 - 
+ 
+===> 245/1/laurent-rosenfeld.raku <===
+perl c python =>    c perl python
+c++ haskell java => c++ java haskell
+ 
+===> 245/1/lubos-kolouch.raku <===
+ok 1 - Example 1
+ok 2 - Example 2
+1..2
+ 
+===> 245/1/luca-ferrari.raku <===
+Lisp, Lua, Perl, Rust, R, Ruby, SQL, C++, C
+ 
+===> 245/1/mark-anderson.raku <===
+ok 1 - 
+ok 2 - 
+ 
+===> 245/1/massa.raku <===
+ok 1 - 
+ok 2 - 
+ 
+===> 245/1/packy-anderson.raku <===
+Example 1:
+Input: @lang = ('perl', 'c', 'python')
+       @popularity = (2, 1, 3)
+Output: ('c', 'perl', 'python')
+
+Example 2:
+Input: @lang = ('c++', 'haskell', 'java')
+       @popularity = (1, 3, 2)
+Output: ('c++', 'java', 'haskell')
+ 
+===> 245/1/roger-bell-west.raku <===
+1..2
+ok 1 - example 1
+ok 2 - example 2
+ 
+===> 245/1/ulrich-rieke.raku <===
+(C,C++,SQL,Ruby,R,Rust,Perl,Lua,Lisp)
+ 
+===> 245/1/wambash.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+1..3

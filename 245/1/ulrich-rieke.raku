@@ -1,12 +1,9 @@
 #!/usr/bin/env raku
-use v6 ;
 
-say "Enter some computer languages, separated by blanks!" ;
-my $line = $*IN.get ;
-my @languages = $line.words ;
-say "Enter some popularity indices for these languages!" ;
-$line = $*IN.get ;
-my @popularity = $line.words.map( {.Int} ) ;
+
+my @languages = <Perl Lisp R  C  SQL Ruby C++ Rust Lua >;
+my @popularity = 29, 35, 19, 2,  9,   18,  3, 20,  31;
+
 my @pairs ;
 for (0..@languages.elems - 1) -> $index {
    @pairs.push( (@popularity[ $index ] , @languages[ $index ] ) ) ;

@@ -1,5 +1,4 @@
 #!/usr/bin/env raku
-use v6;
 
 sub sortLanguage(@lang, @popularity) {
   # build a hash associating @popularity with @lang
