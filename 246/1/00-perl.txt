@@ -1461,7 +1461,7 @@ ok 1400 - unique
 42
  
 ===> 246/1/laurent-rosenfeld.pl <===
-23 28 17 3 41 1
+1 17 23 28 3 41
  
 ===> 246/1/lubos-kolouch.pl <===
 1..1

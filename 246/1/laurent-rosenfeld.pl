@@ -12,4 +12,4 @@ while (%result < 6) {
     # discard duplicates
     $result{$rand} = 1 unless exists $result{$rand};
 }
-say join " ", keys %result;
+say join " ", sort keys %result;
