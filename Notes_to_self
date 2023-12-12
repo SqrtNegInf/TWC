@@ -1,3 +1,6 @@
+2023-12-12
+Ugh, random; use 'srand', but have to watch out for changes to Raku output.
+
 2023-11-28
 List::Rank needed for 243/1/jo-37.pl
 
