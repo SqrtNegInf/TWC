@@ -1,5 +1,7 @@
 #!/usr/bin/env perl
 
+srand 1;
+
 my %six;
 
 while (keys %six < 6)

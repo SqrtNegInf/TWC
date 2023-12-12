@@ -4,6 +4,8 @@ use strict;
 use warnings;
 use experimental 'signatures';
 
+srand 1;
+
 sixoffortynine();
 
 use List::Util qw(shuffle);

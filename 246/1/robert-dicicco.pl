@@ -1,13 +1,7 @@
 #!/usr/bin/env perl
-=bein pod
--------------------------------------
-AUTHOR: Robert DiCicco
-DATE  : 2023-12-05
-Challenge 246 6 Out of 49  ( Perl )
--------------------------------------
-=cut
+use v5.36;
 
-use v5.38;
+srand 1;
 
 my %seen = ();
 my @sorted = ();
@@ -26,12 +20,3 @@ while(1) {
 }
 @sorted = sort { $a <=> $b } @unsorted;
 say "@sorted";
-
-#-------------------------------------
-#SAMPLE OUTPUT
-#perl Sixoutof49.pl
-
-# 3 8 17 23 30 31
-#-------------------------------------
-
-

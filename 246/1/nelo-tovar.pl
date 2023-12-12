@@ -1,15 +1,11 @@
 #!/usr/bin/env perl
 
-# The Weekly Challenge 246 - By Nelo Tovar
-#
-# https://theweeklychallenge.org/blog/perl-weekly-challenge-246/
-#
-# Task 1 - 6 out of 49 
-#
-
+use v5.28;
 use strict;
 use warnings;
-use v5.28;
+
+srand 1;
+
 use Data::Dump qw(dump);
 
 

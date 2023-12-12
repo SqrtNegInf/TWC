@@ -1,5 +1,6 @@
 #!/usr/bin/env perl
 
+srand 1;
 
 local *six_out_of_49 = sub {
     local @six_out_of_49 = map {rand} 0 .. 48;
@@ -8,5 +9,3 @@ local *six_out_of_49 = sub {
 
 local @six_out_of_49=&six_out_of_49;
 print "@six_out_of_49";
-
-1;

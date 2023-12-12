@@ -1,6 +1,8 @@
 #!/usr/bin/env perl
 
-use v5.38;
+use v5.36;
+
+srand 1;
 
 sub six_out_of_fortynine ( $count = 6 ) {
     my %numbers;

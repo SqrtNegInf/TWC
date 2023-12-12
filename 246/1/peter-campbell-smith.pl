@@ -1,9 +1,10 @@
 #!/usr/bin/env perl
 
 use v5.26;    # The Weekly Challenge - 2023-12-04
-use utf8;     # Week 246 task 1 - 6 out of 49
 use strict;   # Peter Campbell Smith
 use warnings; # Blog: http://ccgi.campbellsmiths.force9.co.uk/challenge
+
+srand 1;
 
 six_from_49();
 six_from_49();

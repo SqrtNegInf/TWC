@@ -1,8 +1,9 @@
 #!/usr/bin/env perl
-# The Weekly Challenge 246
-# Task 1  6 out of 49
+
 use v5.30.0;
 use warnings;
+
+srand 1;
 
 my @ans;
 my @arr = (1..49);

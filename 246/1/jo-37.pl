@@ -1,12 +1,9 @@
 #!/usr/bin/env perl
 
-use v5.11;
-use warnings;
+use v5.36;
 
+srand 1;
 
-### Input and Output
-
-srand time;
 say for sixoutoffortynine();
 
 

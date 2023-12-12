@@ -1,6 +1,9 @@
 #!/usr/bin/env perl
 use strict;
 use warnings;
+
+srand 1;
+
 use List::Util 'shuffle';
 
 sub pick_lotto_numbers {

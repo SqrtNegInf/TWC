@@ -1,0 +1,1530 @@
+ 
+===> 246/1/arne-sommer.pl <===
+1
+2
+17
+22
+28
+41
+ 
+===> 246/1/athanasius.pl <===
+Output
+
+   8
+  12
+  23
+  28
+  29
+  46
+ 
+===> 246/1/barroff.pl <===
+6
+23
+34
+1
+14
+35
+ 
+===> 246/1/bob-lied.pl <===
+1
+3
+17
+23
+28
+41
+ 
+===> 246/1/cheok-yin-fung.pl <===
+1
+3
+17
+23
+29
+42
+ 
+===> 246/1/dave-jacoby.pl <===
+1
+3
+17
+23
+28
+41
+ 
+===> 246/1/e-choroba.pl <===
+1..1400
+ok 1 - upper bound
+ok 2 - lower bound
+ok 3 - upper bound
+ok 4 - lower bound
+ok 5 - upper bound
+ok 6 - lower bound
+ok 7 - upper bound
+ok 8 - lower bound
+ok 9 - upper bound
+ok 10 - lower bound
+ok 11 - upper bound
+ok 12 - lower bound
+ok 13
+ok 14 - unique
+ok 15 - upper bound
+ok 16 - lower bound
+ok 17 - upper bound
+ok 18 - lower bound
+ok 19 - upper bound
+ok 20 - lower bound
+ok 21 - upper bound
+ok 22 - lower bound
+ok 23 - upper bound
+ok 24 - lower bound
+ok 25 - upper bound
+ok 26 - lower bound
+ok 27
+ok 28 - unique
+ok 29 - upper bound
+ok 30 - lower bound
+ok 31 - upper bound
+ok 32 - lower bound
+ok 33 - upper bound
+ok 34 - lower bound
+ok 35 - upper bound
+ok 36 - lower bound
+ok 37 - upper bound
+ok 38 - lower bound
+ok 39 - upper bound
+ok 40 - lower bound
+ok 41
+ok 42 - unique
+ok 43 - upper bound
+ok 44 - lower bound
+ok 45 - upper bound
+ok 46 - lower bound
+ok 47 - upper bound
+ok 48 - lower bound
+ok 49 - upper bound
+ok 50 - lower bound
+ok 51 - upper bound
+ok 52 - lower bound
+ok 53 - upper bound
+ok 54 - lower bound
+ok 55
+ok 56 - unique
+ok 57 - upper bound
+ok 58 - lower bound
+ok 59 - upper bound
+ok 60 - lower bound
+ok 61 - upper bound
+ok 62 - lower bound
+ok 63 - upper bound
+ok 64 - lower bound
+ok 65 - upper bound
+ok 66 - lower bound
+ok 67 - upper bound
+ok 68 - lower bound
+ok 69
+ok 70 - unique
+ok 71 - upper bound
+ok 72 - lower bound
+ok 73 - upper bound
+ok 74 - lower bound
+ok 75 - upper bound
+ok 76 - lower bound
+ok 77 - upper bound
+ok 78 - lower bound
+ok 79 - upper bound
+ok 80 - lower bound
+ok 81 - upper bound
+ok 82 - lower bound
+ok 83
+ok 84 - unique
+ok 85 - upper bound
+ok 86 - lower bound
+ok 87 - upper bound
+ok 88 - lower bound
+ok 89 - upper bound
+ok 90 - lower bound
+ok 91 - upper bound
+ok 92 - lower bound
+ok 93 - upper bound
+ok 94 - lower bound
+ok 95 - upper bound
+ok 96 - lower bound
+ok 97
+ok 98 - unique
+ok 99 - upper bound
+ok 100 - lower bound
+ok 101 - upper bound
+ok 102 - lower bound
+ok 103 - upper bound
+ok 104 - lower bound
+ok 105 - upper bound
+ok 106 - lower bound
+ok 107 - upper bound
+ok 108 - lower bound
+ok 109 - upper bound
+ok 110 - lower bound
+ok 111
+ok 112 - unique
+ok 113 - upper bound
+ok 114 - lower bound
+ok 115 - upper bound
+ok 116 - lower bound
+ok 117 - upper bound
+ok 118 - lower bound
+ok 119 - upper bound
+ok 120 - lower bound
+ok 121 - upper bound
+ok 122 - lower bound
+ok 123 - upper bound
+ok 124 - lower bound
+ok 125
+ok 126 - unique
+ok 127 - upper bound
+ok 128 - lower bound
+ok 129 - upper bound
+ok 130 - lower bound
+ok 131 - upper bound
+ok 132 - lower bound
+ok 133 - upper bound
+ok 134 - lower bound
+ok 135 - upper bound
+ok 136 - lower bound
+ok 137 - upper bound
+ok 138 - lower bound
+ok 139
+ok 140 - unique
+ok 141 - upper bound
+ok 142 - lower bound
+ok 143 - upper bound
+ok 144 - lower bound
+ok 145 - upper bound
+ok 146 - lower bound
+ok 147 - upper bound
+ok 148 - lower bound
+ok 149 - upper bound
+ok 150 - lower bound
+ok 151 - upper bound
+ok 152 - lower bound
+ok 153
+ok 154 - unique
+ok 155 - upper bound
+ok 156 - lower bound
+ok 157 - upper bound
+ok 158 - lower bound
+ok 159 - upper bound
+ok 160 - lower bound
+ok 161 - upper bound
+ok 162 - lower bound
+ok 163 - upper bound
+ok 164 - lower bound
+ok 165 - upper bound
+ok 166 - lower bound
+ok 167
+ok 168 - unique
+ok 169 - upper bound
+ok 170 - lower bound
+ok 171 - upper bound
+ok 172 - lower bound
+ok 173 - upper bound
+ok 174 - lower bound
+ok 175 - upper bound
+ok 176 - lower bound
+ok 177 - upper bound
+ok 178 - lower bound
+ok 179 - upper bound
+ok 180 - lower bound
+ok 181
+ok 182 - unique
+ok 183 - upper bound
+ok 184 - lower bound
+ok 185 - upper bound
+ok 186 - lower bound
+ok 187 - upper bound
+ok 188 - lower bound
+ok 189 - upper bound
+ok 190 - lower bound
+ok 191 - upper bound
+ok 192 - lower bound
+ok 193 - upper bound
+ok 194 - lower bound
+ok 195
+ok 196 - unique
+ok 197 - upper bound
+ok 198 - lower bound
+ok 199 - upper bound
+ok 200 - lower bound
+ok 201 - upper bound
+ok 202 - lower bound
+ok 203 - upper bound
+ok 204 - lower bound
+ok 205 - upper bound
+ok 206 - lower bound
+ok 207 - upper bound
+ok 208 - lower bound
+ok 209
+ok 210 - unique
+ok 211 - upper bound
+ok 212 - lower bound
+ok 213 - upper bound
+ok 214 - lower bound
+ok 215 - upper bound
+ok 216 - lower bound
+ok 217 - upper bound
+ok 218 - lower bound
+ok 219 - upper bound
+ok 220 - lower bound
+ok 221 - upper bound
+ok 222 - lower bound
+ok 223
+ok 224 - unique
+ok 225 - upper bound
+ok 226 - lower bound
+ok 227 - upper bound
+ok 228 - lower bound
+ok 229 - upper bound
+ok 230 - lower bound
+ok 231 - upper bound
+ok 232 - lower bound
+ok 233 - upper bound
+ok 234 - lower bound
+ok 235 - upper bound
+ok 236 - lower bound
+ok 237
+ok 238 - unique
+ok 239 - upper bound
+ok 240 - lower bound
+ok 241 - upper bound
+ok 242 - lower bound
+ok 243 - upper bound
+ok 244 - lower bound
+ok 245 - upper bound
+ok 246 - lower bound
+ok 247 - upper bound
+ok 248 - lower bound
+ok 249 - upper bound
+ok 250 - lower bound
+ok 251
+ok 252 - unique
+ok 253 - upper bound
+ok 254 - lower bound
+ok 255 - upper bound
+ok 256 - lower bound
+ok 257 - upper bound
+ok 258 - lower bound
+ok 259 - upper bound
+ok 260 - lower bound
+ok 261 - upper bound
+ok 262 - lower bound
+ok 263 - upper bound
+ok 264 - lower bound
+ok 265
+ok 266 - unique
+ok 267 - upper bound
+ok 268 - lower bound
+ok 269 - upper bound
+ok 270 - lower bound
+ok 271 - upper bound
+ok 272 - lower bound
+ok 273 - upper bound
+ok 274 - lower bound
+ok 275 - upper bound
+ok 276 - lower bound
+ok 277 - upper bound
+ok 278 - lower bound
+ok 279
+ok 280 - unique
+ok 281 - upper bound
+ok 282 - lower bound
+ok 283 - upper bound
+ok 284 - lower bound
+ok 285 - upper bound
+ok 286 - lower bound
+ok 287 - upper bound
+ok 288 - lower bound
+ok 289 - upper bound
+ok 290 - lower bound
+ok 291 - upper bound
+ok 292 - lower bound
+ok 293
+ok 294 - unique
+ok 295 - upper bound
+ok 296 - lower bound
+ok 297 - upper bound
+ok 298 - lower bound
+ok 299 - upper bound
+ok 300 - lower bound
+ok 301 - upper bound
+ok 302 - lower bound
+ok 303 - upper bound
+ok 304 - lower bound
+ok 305 - upper bound
+ok 306 - lower bound
+ok 307
+ok 308 - unique
+ok 309 - upper bound
+ok 310 - lower bound
+ok 311 - upper bound
+ok 312 - lower bound
+ok 313 - upper bound
+ok 314 - lower bound
+ok 315 - upper bound
+ok 316 - lower bound
+ok 317 - upper bound
+ok 318 - lower bound
+ok 319 - upper bound
+ok 320 - lower bound
+ok 321
+ok 322 - unique
+ok 323 - upper bound
+ok 324 - lower bound
+ok 325 - upper bound
+ok 326 - lower bound
+ok 327 - upper bound
+ok 328 - lower bound
+ok 329 - upper bound
+ok 330 - lower bound
+ok 331 - upper bound
+ok 332 - lower bound
+ok 333 - upper bound
+ok 334 - lower bound
+ok 335
+ok 336 - unique
+ok 337 - upper bound
+ok 338 - lower bound
+ok 339 - upper bound
+ok 340 - lower bound
+ok 341 - upper bound
+ok 342 - lower bound
+ok 343 - upper bound
+ok 344 - lower bound
+ok 345 - upper bound
+ok 346 - lower bound
+ok 347 - upper bound
+ok 348 - lower bound
+ok 349
+ok 350 - unique
+ok 351 - upper bound
+ok 352 - lower bound
+ok 353 - upper bound
+ok 354 - lower bound
+ok 355 - upper bound
+ok 356 - lower bound
+ok 357 - upper bound
+ok 358 - lower bound
+ok 359 - upper bound
+ok 360 - lower bound
+ok 361 - upper bound
+ok 362 - lower bound
+ok 363
+ok 364 - unique
+ok 365 - upper bound
+ok 366 - lower bound
+ok 367 - upper bound
+ok 368 - lower bound
+ok 369 - upper bound
+ok 370 - lower bound
+ok 371 - upper bound
+ok 372 - lower bound
+ok 373 - upper bound
+ok 374 - lower bound
+ok 375 - upper bound
+ok 376 - lower bound
+ok 377
+ok 378 - unique
+ok 379 - upper bound
+ok 380 - lower bound
+ok 381 - upper bound
+ok 382 - lower bound
+ok 383 - upper bound
+ok 384 - lower bound
+ok 385 - upper bound
+ok 386 - lower bound
+ok 387 - upper bound
+ok 388 - lower bound
+ok 389 - upper bound
+ok 390 - lower bound
+ok 391
+ok 392 - unique
+ok 393 - upper bound
+ok 394 - lower bound
+ok 395 - upper bound
+ok 396 - lower bound
+ok 397 - upper bound
+ok 398 - lower bound
+ok 399 - upper bound
+ok 400 - lower bound
+ok 401 - upper bound
+ok 402 - lower bound
+ok 403 - upper bound
+ok 404 - lower bound
+ok 405
+ok 406 - unique
+ok 407 - upper bound
+ok 408 - lower bound
+ok 409 - upper bound
+ok 410 - lower bound
+ok 411 - upper bound
+ok 412 - lower bound
+ok 413 - upper bound
+ok 414 - lower bound
+ok 415 - upper bound
+ok 416 - lower bound
+ok 417 - upper bound
+ok 418 - lower bound
+ok 419
+ok 420 - unique
+ok 421 - upper bound
+ok 422 - lower bound
+ok 423 - upper bound
+ok 424 - lower bound
+ok 425 - upper bound
+ok 426 - lower bound
+ok 427 - upper bound
+ok 428 - lower bound
+ok 429 - upper bound
+ok 430 - lower bound
+ok 431 - upper bound
+ok 432 - lower bound
+ok 433
+ok 434 - unique
+ok 435 - upper bound
+ok 436 - lower bound
+ok 437 - upper bound
+ok 438 - lower bound
+ok 439 - upper bound
+ok 440 - lower bound
+ok 441 - upper bound
+ok 442 - lower bound
+ok 443 - upper bound
+ok 444 - lower bound
+ok 445 - upper bound
+ok 446 - lower bound
+ok 447
+ok 448 - unique
+ok 449 - upper bound
+ok 450 - lower bound
+ok 451 - upper bound
+ok 452 - lower bound
+ok 453 - upper bound
+ok 454 - lower bound
+ok 455 - upper bound
+ok 456 - lower bound
+ok 457 - upper bound
+ok 458 - lower bound
+ok 459 - upper bound
+ok 460 - lower bound
+ok 461
+ok 462 - unique
+ok 463 - upper bound
+ok 464 - lower bound
+ok 465 - upper bound
+ok 466 - lower bound
+ok 467 - upper bound
+ok 468 - lower bound
+ok 469 - upper bound
+ok 470 - lower bound
+ok 471 - upper bound
+ok 472 - lower bound
+ok 473 - upper bound
+ok 474 - lower bound
+ok 475
+ok 476 - unique
+ok 477 - upper bound
+ok 478 - lower bound
+ok 479 - upper bound
+ok 480 - lower bound
+ok 481 - upper bound
+ok 482 - lower bound
+ok 483 - upper bound
+ok 484 - lower bound
+ok 485 - upper bound
+ok 486 - lower bound
+ok 487 - upper bound
+ok 488 - lower bound
+ok 489
+ok 490 - unique
+ok 491 - upper bound
+ok 492 - lower bound
+ok 493 - upper bound
+ok 494 - lower bound
+ok 495 - upper bound
+ok 496 - lower bound
+ok 497 - upper bound
+ok 498 - lower bound
+ok 499 - upper bound
+ok 500 - lower bound
+ok 501 - upper bound
+ok 502 - lower bound
+ok 503
+ok 504 - unique
+ok 505 - upper bound
+ok 506 - lower bound
+ok 507 - upper bound
+ok 508 - lower bound
+ok 509 - upper bound
+ok 510 - lower bound
+ok 511 - upper bound
+ok 512 - lower bound
+ok 513 - upper bound
+ok 514 - lower bound
+ok 515 - upper bound
+ok 516 - lower bound
+ok 517
+ok 518 - unique
+ok 519 - upper bound
+ok 520 - lower bound
+ok 521 - upper bound
+ok 522 - lower bound
+ok 523 - upper bound
+ok 524 - lower bound
+ok 525 - upper bound
+ok 526 - lower bound
+ok 527 - upper bound
+ok 528 - lower bound
+ok 529 - upper bound
+ok 530 - lower bound
+ok 531
+ok 532 - unique
+ok 533 - upper bound
+ok 534 - lower bound
+ok 535 - upper bound
+ok 536 - lower bound
+ok 537 - upper bound
+ok 538 - lower bound
+ok 539 - upper bound
+ok 540 - lower bound
+ok 541 - upper bound
+ok 542 - lower bound
+ok 543 - upper bound
+ok 544 - lower bound
+ok 545
+ok 546 - unique
+ok 547 - upper bound
+ok 548 - lower bound
+ok 549 - upper bound
+ok 550 - lower bound
+ok 551 - upper bound
+ok 552 - lower bound
+ok 553 - upper bound
+ok 554 - lower bound
+ok 555 - upper bound
+ok 556 - lower bound
+ok 557 - upper bound
+ok 558 - lower bound
+ok 559
+ok 560 - unique
+ok 561 - upper bound
+ok 562 - lower bound
+ok 563 - upper bound
+ok 564 - lower bound
+ok 565 - upper bound
+ok 566 - lower bound
+ok 567 - upper bound
+ok 568 - lower bound
+ok 569 - upper bound
+ok 570 - lower bound
+ok 571 - upper bound
+ok 572 - lower bound
+ok 573
+ok 574 - unique
+ok 575 - upper bound
+ok 576 - lower bound
+ok 577 - upper bound
+ok 578 - lower bound
+ok 579 - upper bound
+ok 580 - lower bound
+ok 581 - upper bound
+ok 582 - lower bound
+ok 583 - upper bound
+ok 584 - lower bound
+ok 585 - upper bound
+ok 586 - lower bound
+ok 587
+ok 588 - unique
+ok 589 - upper bound
+ok 590 - lower bound
+ok 591 - upper bound
+ok 592 - lower bound
+ok 593 - upper bound
+ok 594 - lower bound
+ok 595 - upper bound
+ok 596 - lower bound
+ok 597 - upper bound
+ok 598 - lower bound
+ok 599 - upper bound
+ok 600 - lower bound
+ok 601
+ok 602 - unique
+ok 603 - upper bound
+ok 604 - lower bound
+ok 605 - upper bound
+ok 606 - lower bound
+ok 607 - upper bound
+ok 608 - lower bound
+ok 609 - upper bound
+ok 610 - lower bound
+ok 611 - upper bound
+ok 612 - lower bound
+ok 613 - upper bound
+ok 614 - lower bound
+ok 615
+ok 616 - unique
+ok 617 - upper bound
+ok 618 - lower bound
+ok 619 - upper bound
+ok 620 - lower bound
+ok 621 - upper bound
+ok 622 - lower bound
+ok 623 - upper bound
+ok 624 - lower bound
+ok 625 - upper bound
+ok 626 - lower bound
+ok 627 - upper bound
+ok 628 - lower bound
+ok 629
+ok 630 - unique
+ok 631 - upper bound
+ok 632 - lower bound
+ok 633 - upper bound
+ok 634 - lower bound
+ok 635 - upper bound
+ok 636 - lower bound
+ok 637 - upper bound
+ok 638 - lower bound
+ok 639 - upper bound
+ok 640 - lower bound
+ok 641 - upper bound
+ok 642 - lower bound
+ok 643
+ok 644 - unique
+ok 645 - upper bound
+ok 646 - lower bound
+ok 647 - upper bound
+ok 648 - lower bound
+ok 649 - upper bound
+ok 650 - lower bound
+ok 651 - upper bound
+ok 652 - lower bound
+ok 653 - upper bound
+ok 654 - lower bound
+ok 655 - upper bound
+ok 656 - lower bound
+ok 657
+ok 658 - unique
+ok 659 - upper bound
+ok 660 - lower bound
+ok 661 - upper bound
+ok 662 - lower bound
+ok 663 - upper bound
+ok 664 - lower bound
+ok 665 - upper bound
+ok 666 - lower bound
+ok 667 - upper bound
+ok 668 - lower bound
+ok 669 - upper bound
+ok 670 - lower bound
+ok 671
+ok 672 - unique
+ok 673 - upper bound
+ok 674 - lower bound
+ok 675 - upper bound
+ok 676 - lower bound
+ok 677 - upper bound
+ok 678 - lower bound
+ok 679 - upper bound
+ok 680 - lower bound
+ok 681 - upper bound
+ok 682 - lower bound
+ok 683 - upper bound
+ok 684 - lower bound
+ok 685
+ok 686 - unique
+ok 687 - upper bound
+ok 688 - lower bound
+ok 689 - upper bound
+ok 690 - lower bound
+ok 691 - upper bound
+ok 692 - lower bound
+ok 693 - upper bound
+ok 694 - lower bound
+ok 695 - upper bound
+ok 696 - lower bound
+ok 697 - upper bound
+ok 698 - lower bound
+ok 699
+ok 700 - unique
+ok 701 - upper bound
+ok 702 - lower bound
+ok 703 - upper bound
+ok 704 - lower bound
+ok 705 - upper bound
+ok 706 - lower bound
+ok 707 - upper bound
+ok 708 - lower bound
+ok 709 - upper bound
+ok 710 - lower bound
+ok 711 - upper bound
+ok 712 - lower bound
+ok 713
+ok 714 - unique
+ok 715 - upper bound
+ok 716 - lower bound
+ok 717 - upper bound
+ok 718 - lower bound
+ok 719 - upper bound
+ok 720 - lower bound
+ok 721 - upper bound
+ok 722 - lower bound
+ok 723 - upper bound
+ok 724 - lower bound
+ok 725 - upper bound
+ok 726 - lower bound
+ok 727
+ok 728 - unique
+ok 729 - upper bound
+ok 730 - lower bound
+ok 731 - upper bound
+ok 732 - lower bound
+ok 733 - upper bound
+ok 734 - lower bound
+ok 735 - upper bound
+ok 736 - lower bound
+ok 737 - upper bound
+ok 738 - lower bound
+ok 739 - upper bound
+ok 740 - lower bound
+ok 741
+ok 742 - unique
+ok 743 - upper bound
+ok 744 - lower bound
+ok 745 - upper bound
+ok 746 - lower bound
+ok 747 - upper bound
+ok 748 - lower bound
+ok 749 - upper bound
+ok 750 - lower bound
+ok 751 - upper bound
+ok 752 - lower bound
+ok 753 - upper bound
+ok 754 - lower bound
+ok 755
+ok 756 - unique
+ok 757 - upper bound
+ok 758 - lower bound
+ok 759 - upper bound
+ok 760 - lower bound
+ok 761 - upper bound
+ok 762 - lower bound
+ok 763 - upper bound
+ok 764 - lower bound
+ok 765 - upper bound
+ok 766 - lower bound
+ok 767 - upper bound
+ok 768 - lower bound
+ok 769
+ok 770 - unique
+ok 771 - upper bound
+ok 772 - lower bound
+ok 773 - upper bound
+ok 774 - lower bound
+ok 775 - upper bound
+ok 776 - lower bound
+ok 777 - upper bound
+ok 778 - lower bound
+ok 779 - upper bound
+ok 780 - lower bound
+ok 781 - upper bound
+ok 782 - lower bound
+ok 783
+ok 784 - unique
+ok 785 - upper bound
+ok 786 - lower bound
+ok 787 - upper bound
+ok 788 - lower bound
+ok 789 - upper bound
+ok 790 - lower bound
+ok 791 - upper bound
+ok 792 - lower bound
+ok 793 - upper bound
+ok 794 - lower bound
+ok 795 - upper bound
+ok 796 - lower bound
+ok 797
+ok 798 - unique
+ok 799 - upper bound
+ok 800 - lower bound
+ok 801 - upper bound
+ok 802 - lower bound
+ok 803 - upper bound
+ok 804 - lower bound
+ok 805 - upper bound
+ok 806 - lower bound
+ok 807 - upper bound
+ok 808 - lower bound
+ok 809 - upper bound
+ok 810 - lower bound
+ok 811
+ok 812 - unique
+ok 813 - upper bound
+ok 814 - lower bound
+ok 815 - upper bound
+ok 816 - lower bound
+ok 817 - upper bound
+ok 818 - lower bound
+ok 819 - upper bound
+ok 820 - lower bound
+ok 821 - upper bound
+ok 822 - lower bound
+ok 823 - upper bound
+ok 824 - lower bound
+ok 825
+ok 826 - unique
+ok 827 - upper bound
+ok 828 - lower bound
+ok 829 - upper bound
+ok 830 - lower bound
+ok 831 - upper bound
+ok 832 - lower bound
+ok 833 - upper bound
+ok 834 - lower bound
+ok 835 - upper bound
+ok 836 - lower bound
+ok 837 - upper bound
+ok 838 - lower bound
+ok 839
+ok 840 - unique
+ok 841 - upper bound
+ok 842 - lower bound
+ok 843 - upper bound
+ok 844 - lower bound
+ok 845 - upper bound
+ok 846 - lower bound
+ok 847 - upper bound
+ok 848 - lower bound
+ok 849 - upper bound
+ok 850 - lower bound
+ok 851 - upper bound
+ok 852 - lower bound
+ok 853
+ok 854 - unique
+ok 855 - upper bound
+ok 856 - lower bound
+ok 857 - upper bound
+ok 858 - lower bound
+ok 859 - upper bound
+ok 860 - lower bound
+ok 861 - upper bound
+ok 862 - lower bound
+ok 863 - upper bound
+ok 864 - lower bound
+ok 865 - upper bound
+ok 866 - lower bound
+ok 867
+ok 868 - unique
+ok 869 - upper bound
+ok 870 - lower bound
+ok 871 - upper bound
+ok 872 - lower bound
+ok 873 - upper bound
+ok 874 - lower bound
+ok 875 - upper bound
+ok 876 - lower bound
+ok 877 - upper bound
+ok 878 - lower bound
+ok 879 - upper bound
+ok 880 - lower bound
+ok 881
+ok 882 - unique
+ok 883 - upper bound
+ok 884 - lower bound
+ok 885 - upper bound
+ok 886 - lower bound
+ok 887 - upper bound
+ok 888 - lower bound
+ok 889 - upper bound
+ok 890 - lower bound
+ok 891 - upper bound
+ok 892 - lower bound
+ok 893 - upper bound
+ok 894 - lower bound
+ok 895
+ok 896 - unique
+ok 897 - upper bound
+ok 898 - lower bound
+ok 899 - upper bound
+ok 900 - lower bound
+ok 901 - upper bound
+ok 902 - lower bound
+ok 903 - upper bound
+ok 904 - lower bound
+ok 905 - upper bound
+ok 906 - lower bound
+ok 907 - upper bound
+ok 908 - lower bound
+ok 909
+ok 910 - unique
+ok 911 - upper bound
+ok 912 - lower bound
+ok 913 - upper bound
+ok 914 - lower bound
+ok 915 - upper bound
+ok 916 - lower bound
+ok 917 - upper bound
+ok 918 - lower bound
+ok 919 - upper bound
+ok 920 - lower bound
+ok 921 - upper bound
+ok 922 - lower bound
+ok 923
+ok 924 - unique
+ok 925 - upper bound
+ok 926 - lower bound
+ok 927 - upper bound
+ok 928 - lower bound
+ok 929 - upper bound
+ok 930 - lower bound
+ok 931 - upper bound
+ok 932 - lower bound
+ok 933 - upper bound
+ok 934 - lower bound
+ok 935 - upper bound
+ok 936 - lower bound
+ok 937
+ok 938 - unique
+ok 939 - upper bound
+ok 940 - lower bound
+ok 941 - upper bound
+ok 942 - lower bound
+ok 943 - upper bound
+ok 944 - lower bound
+ok 945 - upper bound
+ok 946 - lower bound
+ok 947 - upper bound
+ok 948 - lower bound
+ok 949 - upper bound
+ok 950 - lower bound
+ok 951
+ok 952 - unique
+ok 953 - upper bound
+ok 954 - lower bound
+ok 955 - upper bound
+ok 956 - lower bound
+ok 957 - upper bound
+ok 958 - lower bound
+ok 959 - upper bound
+ok 960 - lower bound
+ok 961 - upper bound
+ok 962 - lower bound
+ok 963 - upper bound
+ok 964 - lower bound
+ok 965
+ok 966 - unique
+ok 967 - upper bound
+ok 968 - lower bound
+ok 969 - upper bound
+ok 970 - lower bound
+ok 971 - upper bound
+ok 972 - lower bound
+ok 973 - upper bound
+ok 974 - lower bound
+ok 975 - upper bound
+ok 976 - lower bound
+ok 977 - upper bound
+ok 978 - lower bound
+ok 979
+ok 980 - unique
+ok 981 - upper bound
+ok 982 - lower bound
+ok 983 - upper bound
+ok 984 - lower bound
+ok 985 - upper bound
+ok 986 - lower bound
+ok 987 - upper bound
+ok 988 - lower bound
+ok 989 - upper bound
+ok 990 - lower bound
+ok 991 - upper bound
+ok 992 - lower bound
+ok 993
+ok 994 - unique
+ok 995 - upper bound
+ok 996 - lower bound
+ok 997 - upper bound
+ok 998 - lower bound
+ok 999 - upper bound
+ok 1000 - lower bound
+ok 1001 - upper bound
+ok 1002 - lower bound
+ok 1003 - upper bound
+ok 1004 - lower bound
+ok 1005 - upper bound
+ok 1006 - lower bound
+ok 1007
+ok 1008 - unique
+ok 1009 - upper bound
+ok 1010 - lower bound
+ok 1011 - upper bound
+ok 1012 - lower bound
+ok 1013 - upper bound
+ok 1014 - lower bound
+ok 1015 - upper bound
+ok 1016 - lower bound
+ok 1017 - upper bound
+ok 1018 - lower bound
+ok 1019 - upper bound
+ok 1020 - lower bound
+ok 1021
+ok 1022 - unique
+ok 1023 - upper bound
+ok 1024 - lower bound
+ok 1025 - upper bound
+ok 1026 - lower bound
+ok 1027 - upper bound
+ok 1028 - lower bound
+ok 1029 - upper bound
+ok 1030 - lower bound
+ok 1031 - upper bound
+ok 1032 - lower bound
+ok 1033 - upper bound
+ok 1034 - lower bound
+ok 1035
+ok 1036 - unique
+ok 1037 - upper bound
+ok 1038 - lower bound
+ok 1039 - upper bound
+ok 1040 - lower bound
+ok 1041 - upper bound
+ok 1042 - lower bound
+ok 1043 - upper bound
+ok 1044 - lower bound
+ok 1045 - upper bound
+ok 1046 - lower bound
+ok 1047 - upper bound
+ok 1048 - lower bound
+ok 1049
+ok 1050 - unique
+ok 1051 - upper bound
+ok 1052 - lower bound
+ok 1053 - upper bound
+ok 1054 - lower bound
+ok 1055 - upper bound
+ok 1056 - lower bound
+ok 1057 - upper bound
+ok 1058 - lower bound
+ok 1059 - upper bound
+ok 1060 - lower bound
+ok 1061 - upper bound
+ok 1062 - lower bound
+ok 1063
+ok 1064 - unique
+ok 1065 - upper bound
+ok 1066 - lower bound
+ok 1067 - upper bound
+ok 1068 - lower bound
+ok 1069 - upper bound
+ok 1070 - lower bound
+ok 1071 - upper bound
+ok 1072 - lower bound
+ok 1073 - upper bound
+ok 1074 - lower bound
+ok 1075 - upper bound
+ok 1076 - lower bound
+ok 1077
+ok 1078 - unique
+ok 1079 - upper bound
+ok 1080 - lower bound
+ok 1081 - upper bound
+ok 1082 - lower bound
+ok 1083 - upper bound
+ok 1084 - lower bound
+ok 1085 - upper bound
+ok 1086 - lower bound
+ok 1087 - upper bound
+ok 1088 - lower bound
+ok 1089 - upper bound
+ok 1090 - lower bound
+ok 1091
+ok 1092 - unique
+ok 1093 - upper bound
+ok 1094 - lower bound
+ok 1095 - upper bound
+ok 1096 - lower bound
+ok 1097 - upper bound
+ok 1098 - lower bound
+ok 1099 - upper bound
+ok 1100 - lower bound
+ok 1101 - upper bound
+ok 1102 - lower bound
+ok 1103 - upper bound
+ok 1104 - lower bound
+ok 1105
+ok 1106 - unique
+ok 1107 - upper bound
+ok 1108 - lower bound
+ok 1109 - upper bound
+ok 1110 - lower bound
+ok 1111 - upper bound
+ok 1112 - lower bound
+ok 1113 - upper bound
+ok 1114 - lower bound
+ok 1115 - upper bound
+ok 1116 - lower bound
+ok 1117 - upper bound
+ok 1118 - lower bound
+ok 1119
+ok 1120 - unique
+ok 1121 - upper bound
+ok 1122 - lower bound
+ok 1123 - upper bound
+ok 1124 - lower bound
+ok 1125 - upper bound
+ok 1126 - lower bound
+ok 1127 - upper bound
+ok 1128 - lower bound
+ok 1129 - upper bound
+ok 1130 - lower bound
+ok 1131 - upper bound
+ok 1132 - lower bound
+ok 1133
+ok 1134 - unique
+ok 1135 - upper bound
+ok 1136 - lower bound
+ok 1137 - upper bound
+ok 1138 - lower bound
+ok 1139 - upper bound
+ok 1140 - lower bound
+ok 1141 - upper bound
+ok 1142 - lower bound
+ok 1143 - upper bound
+ok 1144 - lower bound
+ok 1145 - upper bound
+ok 1146 - lower bound
+ok 1147
+ok 1148 - unique
+ok 1149 - upper bound
+ok 1150 - lower bound
+ok 1151 - upper bound
+ok 1152 - lower bound
+ok 1153 - upper bound
+ok 1154 - lower bound
+ok 1155 - upper bound
+ok 1156 - lower bound
+ok 1157 - upper bound
+ok 1158 - lower bound
+ok 1159 - upper bound
+ok 1160 - lower bound
+ok 1161
+ok 1162 - unique
+ok 1163 - upper bound
+ok 1164 - lower bound
+ok 1165 - upper bound
+ok 1166 - lower bound
+ok 1167 - upper bound
+ok 1168 - lower bound
+ok 1169 - upper bound
+ok 1170 - lower bound
+ok 1171 - upper bound
+ok 1172 - lower bound
+ok 1173 - upper bound
+ok 1174 - lower bound
+ok 1175
+ok 1176 - unique
+ok 1177 - upper bound
+ok 1178 - lower bound
+ok 1179 - upper bound
+ok 1180 - lower bound
+ok 1181 - upper bound
+ok 1182 - lower bound
+ok 1183 - upper bound
+ok 1184 - lower bound
+ok 1185 - upper bound
+ok 1186 - lower bound
+ok 1187 - upper bound
+ok 1188 - lower bound
+ok 1189
+ok 1190 - unique
+ok 1191 - upper bound
+ok 1192 - lower bound
+ok 1193 - upper bound
+ok 1194 - lower bound
+ok 1195 - upper bound
+ok 1196 - lower bound
+ok 1197 - upper bound
+ok 1198 - lower bound
+ok 1199 - upper bound
+ok 1200 - lower bound
+ok 1201 - upper bound
+ok 1202 - lower bound
+ok 1203
+ok 1204 - unique
+ok 1205 - upper bound
+ok 1206 - lower bound
+ok 1207 - upper bound
+ok 1208 - lower bound
+ok 1209 - upper bound
+ok 1210 - lower bound
+ok 1211 - upper bound
+ok 1212 - lower bound
+ok 1213 - upper bound
+ok 1214 - lower bound
+ok 1215 - upper bound
+ok 1216 - lower bound
+ok 1217
+ok 1218 - unique
+ok 1219 - upper bound
+ok 1220 - lower bound
+ok 1221 - upper bound
+ok 1222 - lower bound
+ok 1223 - upper bound
+ok 1224 - lower bound
+ok 1225 - upper bound
+ok 1226 - lower bound
+ok 1227 - upper bound
+ok 1228 - lower bound
+ok 1229 - upper bound
+ok 1230 - lower bound
+ok 1231
+ok 1232 - unique
+ok 1233 - upper bound
+ok 1234 - lower bound
+ok 1235 - upper bound
+ok 1236 - lower bound
+ok 1237 - upper bound
+ok 1238 - lower bound
+ok 1239 - upper bound
+ok 1240 - lower bound
+ok 1241 - upper bound
+ok 1242 - lower bound
+ok 1243 - upper bound
+ok 1244 - lower bound
+ok 1245
+ok 1246 - unique
+ok 1247 - upper bound
+ok 1248 - lower bound
+ok 1249 - upper bound
+ok 1250 - lower bound
+ok 1251 - upper bound
+ok 1252 - lower bound
+ok 1253 - upper bound
+ok 1254 - lower bound
+ok 1255 - upper bound
+ok 1256 - lower bound
+ok 1257 - upper bound
+ok 1258 - lower bound
+ok 1259
+ok 1260 - unique
+ok 1261 - upper bound
+ok 1262 - lower bound
+ok 1263 - upper bound
+ok 1264 - lower bound
+ok 1265 - upper bound
+ok 1266 - lower bound
+ok 1267 - upper bound
+ok 1268 - lower bound
+ok 1269 - upper bound
+ok 1270 - lower bound
+ok 1271 - upper bound
+ok 1272 - lower bound
+ok 1273
+ok 1274 - unique
+ok 1275 - upper bound
+ok 1276 - lower bound
+ok 1277 - upper bound
+ok 1278 - lower bound
+ok 1279 - upper bound
+ok 1280 - lower bound
+ok 1281 - upper bound
+ok 1282 - lower bound
+ok 1283 - upper bound
+ok 1284 - lower bound
+ok 1285 - upper bound
+ok 1286 - lower bound
+ok 1287
+ok 1288 - unique
+ok 1289 - upper bound
+ok 1290 - lower bound
+ok 1291 - upper bound
+ok 1292 - lower bound
+ok 1293 - upper bound
+ok 1294 - lower bound
+ok 1295 - upper bound
+ok 1296 - lower bound
+ok 1297 - upper bound
+ok 1298 - lower bound
+ok 1299 - upper bound
+ok 1300 - lower bound
+ok 1301
+ok 1302 - unique
+ok 1303 - upper bound
+ok 1304 - lower bound
+ok 1305 - upper bound
+ok 1306 - lower bound
+ok 1307 - upper bound
+ok 1308 - lower bound
+ok 1309 - upper bound
+ok 1310 - lower bound
+ok 1311 - upper bound
+ok 1312 - lower bound
+ok 1313 - upper bound
+ok 1314 - lower bound
+ok 1315
+ok 1316 - unique
+ok 1317 - upper bound
+ok 1318 - lower bound
+ok 1319 - upper bound
+ok 1320 - lower bound
+ok 1321 - upper bound
+ok 1322 - lower bound
+ok 1323 - upper bound
+ok 1324 - lower bound
+ok 1325 - upper bound
+ok 1326 - lower bound
+ok 1327 - upper bound
+ok 1328 - lower bound
+ok 1329
+ok 1330 - unique
+ok 1331 - upper bound
+ok 1332 - lower bound
+ok 1333 - upper bound
+ok 1334 - lower bound
+ok 1335 - upper bound
+ok 1336 - lower bound
+ok 1337 - upper bound
+ok 1338 - lower bound
+ok 1339 - upper bound
+ok 1340 - lower bound
+ok 1341 - upper bound
+ok 1342 - lower bound
+ok 1343
+ok 1344 - unique
+ok 1345 - upper bound
+ok 1346 - lower bound
+ok 1347 - upper bound
+ok 1348 - lower bound
+ok 1349 - upper bound
+ok 1350 - lower bound
+ok 1351 - upper bound
+ok 1352 - lower bound
+ok 1353 - upper bound
+ok 1354 - lower bound
+ok 1355 - upper bound
+ok 1356 - lower bound
+ok 1357
+ok 1358 - unique
+ok 1359 - upper bound
+ok 1360 - lower bound
+ok 1361 - upper bound
+ok 1362 - lower bound
+ok 1363 - upper bound
+ok 1364 - lower bound
+ok 1365 - upper bound
+ok 1366 - lower bound
+ok 1367 - upper bound
+ok 1368 - lower bound
+ok 1369 - upper bound
+ok 1370 - lower bound
+ok 1371
+ok 1372 - unique
+ok 1373 - upper bound
+ok 1374 - lower bound
+ok 1375 - upper bound
+ok 1376 - lower bound
+ok 1377 - upper bound
+ok 1378 - lower bound
+ok 1379 - upper bound
+ok 1380 - lower bound
+ok 1381 - upper bound
+ok 1382 - lower bound
+ok 1383 - upper bound
+ok 1384 - lower bound
+ok 1385
+ok 1386 - unique
+ok 1387 - upper bound
+ok 1388 - lower bound
+ok 1389 - upper bound
+ok 1390 - lower bound
+ok 1391 - upper bound
+ok 1392 - lower bound
+ok 1393 - upper bound
+ok 1394 - lower bound
+ok 1395 - upper bound
+ok 1396 - lower bound
+ok 1397 - upper bound
+ok 1398 - lower bound
+ok 1399
+ok 1400 - unique
+ 
+===> 246/1/jo-37.pl <===
+1
+3
+17
+23
+29
+42
+ 
+===> 246/1/laurent-rosenfeld.pl <===
+23 28 17 3 41 1
+ 
+===> 246/1/lubos-kolouch.pl <===
+1..1
+ok 1 - Six numbers are picked
+1
+6
+15
+25
+26
+36
+ 
+===> 246/1/nelo-tovar.pl <===
+6
+7
+20
+25
+30
+42
+ 
+===> 246/1/oliver-oviedo.pl <===
+22
+22 41
+22 41 16
+22 41 16 28
+22 41 16 28
+22 41 16 28 9
+22 41 16 28 9 49
+ 
+===> 246/1/packy-anderson.pl <===
+Output:
+8
+12
+23
+28
+29
+46
+ 
+===> 246/1/peter-campbell-smith.pl <===
+Output: 3, 23, 41, 17, 28, 1
+Output: 10, 49, 37, 18, 29, 7
+Output: 4, 47, 8, 29, 11, 40
+Output: 7, 31, 11, 1, 29, 46
+Output: 17, 44, 30, 20, 45, 35
+ 
+===> 246/1/peter-meszaros.pl <===
+ 1  1- 2-17-22-28-41
+ 2 10-17-18-28-37-48
+ 3  4- 7- 8-11-29-46
+ 4  1- 7-11-28-30-39
+ 5 17-19-29-43-44-45
+ 6  1- 6-11-34-43-47
+ 7  6-15-21-25-32-37
+ 8 16-21-32-34-38-40
+ 9  8-16-33-34-43-48
+10 13-14-19-23-28-46
+ 
+===> 246/1/robert-dicicco.pl <===
+4 18 33 35 36 45
+ 
+===> 246/1/roger-bell-west.pl <===
+8, 12, 23, 28, 29, 46
+ 
+===> 246/1/steve-g-lynn.pl <===
+6 23 34 1 14 35 
+===> 246/1/zapwai.pl <===
+3, 10, 17, 23, 28, 41

@@ -3,6 +3,8 @@ use warnings;
 use strict;
 use experimental qw( signatures );
 
+srand 1;
+
 use List::Util qw{ shuffle uniq };
 
 sub six_out_of_49() {
