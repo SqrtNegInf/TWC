@@ -1,0 +1,97 @@
+ 
+===> 246/1/0rir.raku <===
+Output:
+36
+20
+10
+16
+44
+1
+ 
+===> 246/1/arne-sommer.raku <===
+19
+25
+30
+38
+48
+49
+ 
+===> 246/1/athanasius.raku <===
+Output
+
+  19
+  25
+  30
+  38
+  48
+  49
+ 
+===> 246/1/barroff.raku <===
+36
+20
+10
+16
+44
+1
+ 
+===> 246/1/bruce-gray.raku <===
+1..2
+ok 1 - In 1000 draws, all balls 1..49 were drawn at least once.
+ok 2 - In 1000 draws, no faults were found.
+ 
+===> 246/1/laurent-rosenfeld.raku <===
+(25 48 19 49 38 30)
+ 
+===> 246/1/lubos-kolouch.raku <===
+1..1
+ok 1 - Six numbers are picked
+2
+19
+22
+37
+41
+42
+ 
+===> 246/1/luca-ferrari.raku <===
+35
+20
+10
+16
+47
+0
+ 
+===> 246/1/mark-anderson.raku <===
+19
+25
+30
+38
+48
+49
+ 
+===> 246/1/massa.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ok 4 - 
+ok 5 - 
+ok 6 - 
+ 
+===> 246/1/packy-anderson.raku <===
+Output:
+19
+25
+30
+38
+48
+49
+ 
+===> 246/1/robert-dicicco.raku <===
+(10 16 20 35 47 47)
+ 
+===> 246/1/roger-bell-west.raku <===
+1, 10, 16, 20, 36, 44
+ 
+===> 246/1/wambash.raku <===
+ok 1 - 
+ok 2 - 
+1..2

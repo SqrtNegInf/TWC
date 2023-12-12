@@ -1,4 +1,7 @@
 #!/usr/bin/env raku
+
+srand 1;
+
 sub pick-lotto-numbers() {
     return (1..49).roll(*).unique.head(6);
 }

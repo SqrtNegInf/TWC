@@ -1,11 +1,6 @@
 #!/usr/bin/env raku
 
-#
-# Perl Weekly Challenge 246
-# Task 1
-#
-# See <https://perlweeklychallenge.org/blog/perl-weekly-challenge-246/>
-#
+srand 1;
 
 sub MAIN() {
 

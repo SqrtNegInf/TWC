@@ -1,5 +1,6 @@
 #!/usr/bin/env raku
-use v6;
+
+srand 1;
 
 sub sixOutOfFourtyNine {
   return (1 .. 49).pick(6).sort;

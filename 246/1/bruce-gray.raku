@@ -1,11 +1,10 @@
 #!/usr/bin/env raku
-# One-line solution:
-#
-#   raku -e 'put (1..49).pick(6)'
-#
-# Example output: 42 18 15 6 49 47
 
-# Oh, you want tests as well? Here you go!
+# One-line solution:
+#   raku -e 'put (1..49).pick(6)'
+
+srand 1;
+
 constant $lottery_balls = 6;
 constant $lottery_range = 1..49; 
 

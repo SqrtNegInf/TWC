@@ -1,5 +1,7 @@
 #!/usr/bin/env raku
 
+srand 1;
+
 sub six-out-of-fortynine(Int $count where $count ∈ Set(1..49) = 6) {
     .say for pick($count, 1 .. 49);
 }
