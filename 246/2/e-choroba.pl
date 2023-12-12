@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-use warnings;
-use strict;
-use feature qw{ say };
-use experimental qw( signatures );
+use v5.36;
 
 sub linear_recurrence_of_2nd_order(@a) {
     my ($p, $q);

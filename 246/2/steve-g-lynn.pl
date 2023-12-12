@@ -1,4 +1,5 @@
 #!/usr/bin/env perl
+#use v5.36; # incompatible with sub name set directly via symbol table
 
 use List::Util qw(sum);
 use Math::Utils qw(hcf);

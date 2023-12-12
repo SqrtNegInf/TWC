@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-use v5.30.0;
-use warnings;
+use v5.36;
 
 sub ex_euc_alg {
     my @r = ($_[0], $_[1]);
