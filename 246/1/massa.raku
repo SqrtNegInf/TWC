@@ -9,7 +9,7 @@ sub SOLUTION() {
 #multi MAIN (Bool :$test!) {
     use Test;
 
-    SOLUTION.&{ .note; $_ }.&{ is .elems, 6; ok .combinations(2).map({[==] $_}).none.so } for ^3;
+    SOLUTION.&{ $_ }.&{ is .elems, 6; ok .combinations(2).map({[==] $_}).none.so } for ^3;
 #}
 
 
