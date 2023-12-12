@@ -1,15 +1,9 @@
 #!/usr/bin/env perl
 
-# The Weekly Challenge 246- By Nelo Tovar
-#
-# https://theweeklychallenge.org/blog/perl-weekly-challenge-246/
-#
-# Task 2 - Linear Recurrence of Second Order 
-#
-
+use v5.28;
 use strict;
 use warnings;
-use v5.28;
+
 use List::Util qw (min max);
 use Data::Dump qw(dump);
 

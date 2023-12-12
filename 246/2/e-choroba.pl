@@ -67,6 +67,7 @@ ok ! linear_recurrence_of_2nd_order(qw( 0 -4 0 5 0 ));
 ok ! linear_recurrence_of_2nd_order(qw( 0 8 8 6 4 ));
 ok ! linear_recurrence_of_2nd_order(qw( 1 -1 1 -1 7 ));
 
+__END__
 #
 # Extended testing.
 #

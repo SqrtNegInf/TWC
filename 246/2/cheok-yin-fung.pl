@@ -1,11 +1,6 @@
 #!/usr/bin/env perl
-# The Weekly Challenge 246
-# Task 2 Linear Recurrence of Second Order
-# a[n] = p * a[n-2] + q * a[n-1] with n > 1
-# where p and q must be integers.
 use v5.30.0;
 use warnings;
-
 
 sub ex_euc_alg {
     my @r = ($_[0], $_[1]);

@@ -1,7 +1,6 @@
 #!/usr/bin/env perl
 
 use v5.26;    # The Weekly Challenge - 2023-12-04
-use utf8;     # Week 246 task 2 - Linear recurrence of second order
 use strict;   # Peter Campbell Smith
 use warnings; # Blog: http://ccgi.campbellsmiths.force9.co.uk/challenge
 

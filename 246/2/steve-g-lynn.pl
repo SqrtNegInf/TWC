@@ -1,10 +1,5 @@
 #!/usr/bin/env perl
 
-#real	0m23.427s
-#user	0m23.300s
-#sys	0m0.015s
-
-
 use List::Util qw(sum);
 use Math::Utils qw(hcf);
 
@@ -70,6 +65,7 @@ local *linear_recurrence_2 = sub {
     
     ($p*$_[2]+$q*$_[3]==$_[4]) || return 0;
     print "p: ",$p," q: ",$q;
+print "\n";
     return 1;
     }
     
@@ -77,12 +73,15 @@ local *linear_recurrence_2 = sub {
 };
 
 print "Ex1 1,1,2,3,5: ", &linear_recurrence_2(1,1,2,3,5); #1
+print "\n";
 print "Ex2 4,2,4,5,7: ", &linear_recurrence_2(4,2,4,5,7); #0
+print "\n";
 print "Ex3 4,1,2,-3,8: ", &linear_recurrence_2(4,1,2,-3,8); #1
+print "\n";
 print "(1,0,0,0,0): ",&linear_recurrence_2(1,0,0,0,0); #1 [p=q=0]
-print "--------------";
-print "";
+print "\n";
 
+__END__
 local *test_lr2 = sub {
 #-- Test &linear_recurrence_2 further:
 #-- create 1 nillion 5-element integer vectors
