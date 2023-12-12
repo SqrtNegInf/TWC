@@ -515,8 +515,8 @@ Challenge titles and Rosetta-code correspondences (exact, and otherwise)
 245-2 Largest of Three
 246-1 6 Out of 49
 246-2 Linear Recurrence of Second Order
-247-1
-247-2
+247-1 Secret Santa
+247-2 Most Frequent Letter Pair
 248-1
 248-2
 249-1
