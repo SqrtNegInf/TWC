@@ -1,13 +1,7 @@
 #!/usr/bin/env raku
 
-#
-# Perl Weekly Challenge 246
-# Task 2
-#
-# See <https://perlweeklychallenge.org/blog/perl-weekly-challenge-246/>
-#
-
-sub MAIN( *@nums where { @nums.elems == 5 && @nums.grep( * ~~ Int ).elems == @nums.elems }  ) {
+#sub MAIN( *@nums where { @nums.elems == 5 && @nums.grep( * ~~ Int ).elems == @nums.elems }  ) {
+my @nums = (1, 1, 2, 3, 5);
 
     for 2 ..^ @nums.elems {
 	# a[n] = p * a[n-2] + q * a[n-1] with n > 1
@@ -32,4 +26,4 @@ sub MAIN( *@nums where { @nums.elems == 5 && @nums.grep( * ~~ Int ).elems == @nu
     }
 
     'True'.say;
-}
+#}

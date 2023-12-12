@@ -1,6 +1,8 @@
 #!/usr/bin/env raku
 
-unit sub MAIN (*@a where @a.elems == 5 && all(@a) ~~ Int, :v(:$verbose));
+#unit sub MAIN (*@a where @a.elems == 5 && all(@a) ~~ Int, :v(:$verbose));
+
+my @a = (1, 1, 2, 3, 5);
 
 for -10 .. 10 -> $p
 {
@@ -27,7 +29,7 @@ sub is-lroso (@a is copy, $p, $q)
     $second = $target;
   }
 
-  say ": p:$p, q:$q" if $verbose;
+ #say ": p:$p, q:$q" if $verbose;
   say 'true';
   exit;
 }

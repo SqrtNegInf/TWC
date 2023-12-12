@@ -9,7 +9,7 @@ sub linear-recurrence-of-second-order (+@a) {
     andthen  %(:$p, :$q) but $_
 }
 
-multi MAIN (Bool :test($)!) {
+#multi MAIN (Bool :test($)!) {
     use Test;
     is linear-recurrence-of-second-order(1, 1, 2,  3, 5)<p q>,(1,1);
     is linear-recurrence-of-second-order(1, 1, 2,  3, 5).so,True;
@@ -20,8 +20,8 @@ multi MAIN (Bool :test($)!) {
     is linear-recurrence-of-second-order(5, 4, -2, 14)<p q>, (2,-3);
     is linear-recurrence-of-second-order(5, 4, -2, 14).so, True;
     done-testing;
-}
+#}
 
-multi MAIN (+a) {
-    say so linear-recurrence-of-second-order a».Int
-}
+#multi MAIN (+a) {
+#    say so linear-recurrence-of-second-order a».Int
+#}

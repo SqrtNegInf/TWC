@@ -1,8 +1,6 @@
 #!/usr/bin/env raku
-# :vim ft=raku sw=4 expandtab  # 🦋 ∅∪∩∋∈∉ ≡ ≢ «␤ » ∴
-use v6;
 
-sub MAIN( *@in ) {
+sub MAIN( @in = (1, 1, 2, 3, 5) ) {
     my ($p, $q, @a) = @in».Int;
 
     for ^3 {

@@ -1,5 +1,4 @@
 #!/usr/bin/env raku
-use v6;
 
 sub findPandQ(@a) {
   my $p = (@a[2] * @a[2] - @a[1] * @a[3])
