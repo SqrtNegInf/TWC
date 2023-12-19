@@ -1,12 +1,13 @@
 #!/usr/bin/env perl
 
 use v5.25;
+use experimental 'signatures';
+
 use Test2::V0 -srand => 1;
 use Graph::Matching 'max_weight_matching';
 use Math::Prime::Util 'forcomb';
-use experimental 'signatures';
 
-our ($tests, $examples);
+our ($tests, $examples) = (1,1);
 
 run_tests() if $tests || $examples;	# does not return
 

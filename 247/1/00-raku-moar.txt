@@ -1,49 +1,49 @@
  
 ===> 247/1/arne-sommer.raku <===
-Mr. Anwar -> Mr. Cross
-Mr. Cross -> Mrs. Anwar
-Mrs. Anwar -> Mr. Wall
 Mr. Wall -> Mr. Conway
 Mr. Conway -> Mrs. Wall
-Mrs. Wall -> Mr. Anwar
+Mrs. Wall -> Mrs. Anwar
+Mrs. Anwar -> Mr. Cross
+Mr. Cross -> Mr. Anwar
+Mr. Anwar -> Mr. Wall
  
 ===> 247/1/bruce-gray.raku <===
 
-Mrs. Anwar => Mr. Wall
-Mr. Wall => Mr. Anwar
-Mr. Anwar => Mrs. Wall
-Mrs. Wall => Mr. Conway
-Mr. Conway => Mr. Cross
+Mr. Conway => Mr. Wall
+Mr. Wall => Mr. Cross
 Mr. Cross => Mrs. Anwar
+Mrs. Anwar => Mrs. Wall
+Mrs. Wall => Mr. Anwar
+Mr. Anwar => Mr. Conway
 
 Mr. Wall => Mrs. Wall
 Mrs. Wall => Mr. Anwar
 Mr. Anwar => Mr. Wall
 
-Rudolph Reindeer => Vixen Reindeer
-Vixen Reindeer => Donner Reindeer
-Donner Reindeer => Comet Reindeer
-Comet Reindeer => Dasher Reindeer
-Dasher Reindeer => Cupid Reindeer
+Comet Reindeer => Blitzen Reindeer
+Blitzen Reindeer => Prancer Reindeer
+Prancer Reindeer => Cupid Reindeer
 Cupid Reindeer => Dancer Reindeer
-Dancer Reindeer => Mrs. Claus
-Mrs. Claus => Blitzen Reindeer
-Blitzen Reindeer => Subordinate Claus
-Subordinate Claus => Prancer Reindeer
-Prancer Reindeer => Santa Claus
-Santa Claus => Rudolph Reindeer
+Dancer Reindeer => Dasher Reindeer
+Dasher Reindeer => Vixen Reindeer
+Vixen Reindeer => Mrs. Claus
+Mrs. Claus => Rudolph Reindeer
+Rudolph Reindeer => Subordinate Claus
+Subordinate Claus => Donner Reindeer
+Donner Reindeer => Santa Claus
+Santa Claus => Comet Reindeer
  
 ===> 247/1/lubos-kolouch.raku <===
-Mr. Anwar -> Mr. Cross
+Mrs. Wall -> Mr. Cross
 Mrs. Anwar -> Mrs. Wall
 Mr. Cross -> Mr. Wall
-Mr. Conway -> Mrs. Anwar
-Mr. Wall -> Mr. Conway
-Mrs. Wall -> Mr. Anwar
+Mr. Anwar -> Mr. Conway
+Mr. Wall -> Mrs. Anwar
+Mr. Conway -> Mr. Anwar
  
 ===> 247/1/luca-ferrari.raku <===
-Mr. Wall -> Mr. Anwar
 Mr. Anwar -> Mr. Wall
+Mr. Wall -> Mr. Anwar
  
 ===> 247/1/mark-anderson.raku <===
 ok 1 - 
@@ -59,12 +59,12 @@ Input: @names = ('Mr. Wall',
                  'Mr. Conway',
                  'Mr. Cross')
 Output:
-    Mr. Wall -> Mr. Anwar
+    Mr. Wall -> Mrs. Anwar
     Mrs. Wall -> Mr. Conway
     Mr. Anwar -> Mr. Cross
-    Mrs. Anwar -> Mr. Wall
-    Mr. Conway -> Mrs. Wall
-    Mr. Cross -> Mrs. Anwar
+    Mrs. Anwar -> Mrs. Wall
+    Mr. Conway -> Mr. Wall
+    Mr. Cross -> Mr. Anwar
 
 Example 2:
 Input: @names = ('Mr. Wall',
@@ -77,11 +77,11 @@ Output:
  
 ===> 247/1/roger-bell-west.raku <===
 1..2
-Mr. Wall -> Mr. Cross
-Mrs. Wall -> Mr. Anwar
-Mr. Anwar -> Mrs. Wall
-Mrs. Anwar -> Mr. Wall
-Mr. Conway -> Mrs. Anwar
+Mr. Wall -> Mr. Anwar
+Mrs. Wall -> Mrs. Anwar
+Mr. Anwar -> Mr. Wall
+Mrs. Anwar -> Mr. Cross
+Mr. Conway -> Mrs. Wall
 Mr. Cross -> Mr. Conway
 
 ok 1 - example 1
@@ -92,6 +92,6 @@ Mr. Anwar -> Mrs. Wall
 ok 2 - example 2
  
 ===> 247/1/ulrich-rieke.raku <===
-Mr. Anwar -> Mr. Wall
-Mr. Wall -> Mrs. Wall
-Mrs. Wall -> Mr. Anwar
+Mr. Wall -> Mr. Anwar
+Mr. Anwar -> Mrs. Wall
+Mrs. Wall -> Mr. Wall

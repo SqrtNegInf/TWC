@@ -1,28 +1,11 @@
 #!/usr/bin/env perl
 
-=pod
-
-The Weekly Challenge - 247
-- https://theweeklychallenge.org/blog/perl-weekly-challenge-247
-
-Author: Niels 'PerlBoy' van Dijke
-
-Task 1: Secret Santa
-Submitted by: Andreas Voegele
-
-Secret Santa is a Christmas tradition in which members of a group are randomly
-assigned a person to whom they give a gift.
-
-You are given a list of names. Write a script that tries to team persons from
-different families.
-
-=cut
-
 use v5.32;
-use common::sense;
 use feature qw(signatures);
 
-use Test2::V0 -srand => 247 -srand => 1;
+use common::sense;
+
+use Test2::V0 -srand => 247;
 
 use List::Util qw(shuffle);
 

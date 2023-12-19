@@ -2,8 +2,8 @@
 
 use strict;
 use warnings;
+
 use Test::More;
-use Data::Dumper;
 use Algorithm::Combinatorics qw/combinations/;
 
 my $cases = [

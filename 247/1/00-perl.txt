@@ -1,0 +1,278 @@
+ 
+===> 247/1/bob-lied.pl <===
+ 
+===> 247/1/e-choroba.pl <===
+# Seeded srand with seed '1' from import arg.
+ok 1 - Example 1 {
+    ok 1 - keys
+    ok 2 - values
+    ok 3 - no self
+    ok 4 - same family 0
+    1..4
+}
+ok 2 - Example 2 {
+    ok 1 - keys
+    ok 2 - values
+    ok 3 - no self
+    ok 4 - same family 1
+    1..4
+}
+ok 3 - random 1 {
+    ok 1 - keys
+    ok 2 - values
+    ok 3 - no self
+    ok 4 - same family 3
+    1..4
+}
+ok 4 - random 2 {
+    ok 1 - keys
+    ok 2 - values
+    ok 3 - no self
+    ok 4 - same family 0
+    1..4
+}
+ok 5 - random 3 {
+    ok 1 - keys
+    ok 2 - values
+    ok 3 - no self
+    ok 4 - same family 0
+    1..4
+}
+ok 6 - random 4 {
+    ok 1 - keys
+    ok 2 - values
+    ok 3 - no self
+    ok 4 - same family 0
+    1..4
+}
+ok 7 - random 5 {
+    ok 1 - keys
+    ok 2 - values
+    ok 3 - no self
+    ok 4 - same family 0
+    1..4
+}
+ok 8 - random 6 {
+    ok 1 - keys
+    ok 2 - values
+    ok 3 - no self
+    ok 4 - same family 0
+    1..4
+}
+ok 9 - random 7 {
+    ok 1 - keys
+    ok 2 - values
+    ok 3 - no self
+    ok 4 - same family 0
+    1..4
+}
+ok 10 - random 8 {
+    ok 1 - keys
+    ok 2 - values
+    ok 3 - no self
+    ok 4 - same family 0
+    1..4
+}
+ok 11 - random 9 {
+    ok 1 - keys
+    ok 2 - values
+    ok 3 - no self
+    ok 4 - same family 0
+    1..4
+}
+ok 12 - random 10 {
+    ok 1 - keys
+    ok 2 - values
+    ok 3 - no self
+    ok 4 - same family 0
+    1..4
+}
+1..12
+ 
+===> 247/1/jo-37.pl <===
+# Seeded srand with seed '1' from import arg.
+ok 1 - example 1 {
+    1..6
+    ok 1 - different families
+    ok 2 - different families
+    ok 3 - different families
+    ok 4 - different families
+    ok 5 - different families
+    ok 6 - different families
+}
+Mrs. Wall -> Mrs. Anwar
+Mrs. Anwar -> Mrs. Wall
+Mr. Conway -> Mr. Cross
+Mr. Cross -> Mr. Conway
+Mr. Wall -> Mr. Anwar
+Mr. Anwar -> Mr. Wall
+ok 2 - failed example 2
+ok 3 - modified example 2 {
+    1..3
+    ok 1 - count
+    ok 2 - different families
+    ok 3 - different families
+}
+Mr. Anwar -> Mrs. Wall
+Mr. Wall -> A. Wall
+A. Wall -> Mr. Wall
+Mrs. Wall -> Mr. Anwar
+ok 4 - non-trivial case {
+    1..10
+    ok 1 - different families
+    ok 2 - different families
+    ok 3 - different families
+    ok 4 - different families
+    ok 5 - different families
+    ok 6 - different families
+    ok 7 - different families
+    ok 8 - different families
+    ok 9 - different families
+    ok 10 - different families
+}
+3 A -> 1 D
+3 C -> 2 A
+2 C -> 3 B
+1 B -> 1 A
+2 A -> 3 C
+3 B -> 2 C
+1 D -> 3 A
+2 B -> 1 C
+1 A -> 1 B
+1 C -> 2 B
+1..4
+ 
+===> 247/1/lubos-kolouch.pl <===
+Mr. Wall -> Mr. Anwar
+Mr. Anwar -> Mr. Conway
+Mr. Conway -> Mrs. Wall
+Mrs. Wall -> Mrs. Anwar
+Mr. Cross -> Mr. Cross
+Mrs. Anwar -> Mr. Wall
+ 
+===> 247/1/nelo-tovar.pl <===
+Input : @lang = (
+  "Mr. Wall",
+  "Mrs. Wall",
+  "Mr. Anwar",
+  "Mrs. Anwar",
+  "Mr. Conway",
+  "Mr. Cross",
+)
+Output : (
+  { "Mrs. Anwar" => "Mrs. Wall" },
+  { "Mr. Conway" => "Mrs. Anwar" },
+  { "Mr. Cross" => "Mr. Conway" },
+  { "Mr. Wall" => "Mr. Cross" },
+  { "Mrs. Wall" => "Mr. Anwar" },
+  { "Mr. Anwar" => "Mr. Wall" },
+)
+ 
+Input : @lang = ("Mr. Wall", "Mrs. Wall", "Mr. Anwar")
+Output : (
+  { "Mr. Anwar" => "Mrs. Wall" },
+  { "Mr. Wall" => "Mr. Anwar" },
+  { "Mrs. Wall" => "Mr. Wall" },
+)
+ 
+ 
+===> 247/1/packy-anderson.pl <===
+Example 1:
+Input: @names = ('Mr. Wall',
+                 'Mrs. Wall',
+                 'Mr. Anwar',
+                 'Mrs. Anwar',
+                 'Mr. Conway',
+                 'Mr. Cross')
+Output:
+    Mr. Wall -> Mrs. Anwar
+    Mrs. Wall -> Mr. Cross
+    Mr. Anwar -> Mr. Wall
+    Mrs. Anwar -> Mr. Conway
+    Mr. Conway -> Mr. Anwar
+    Mr. Cross -> Mrs. Wall
+
+Example 2:
+Input: @names = ('Mr. Wall',
+                 'Mrs. Wall',
+                 'Mr. Anwar')
+Output:
+    Mr. Wall -> Mr. Anwar
+    Mrs. Wall -> Mr. Wall
+    Mr. Anwar -> Mrs. Wall
+ 
+===> 247/1/perlboy1967.pl <===
+# Seeded srand with seed '247' from import arg.
+ok 1
+ok 2
+1..2
+ 
+===> 247/1/peter-campbell-smith.pl <===
+
+Input:
+   Mr. Cross, Mr. Wall, Miss Anwar,
+   Mrs. Anwar, Mrs. Wall, Mr. Conway,
+   Lord Anwar, Mr. Anwar, Dr Anwar
+Output:
+   Mr. Cross -> Dr Anwar
+   Mr. Wall -> Mr. Anwar
+   Miss Anwar -> Mr. Conway
+   Mrs. Anwar -> Mrs. Wall
+   Mrs. Wall -> Lord Anwar
+   Mr. Conway -> Mrs. Anwar
+   Lord Anwar -> Mr. Wall
+   Mr. Anwar -> Mr. Cross
+   Dr Anwar -> Miss Anwar
+
+Input:
+   Vixen Reindeer, Prancer Reindeer, Mrs Claus,
+   Cupid Reindeer, Blitzen Reindeer, Dasher Reindeer,
+   Rudolph Reindeer, Dancer Reindeer, Donner Reindeer,
+   Subordinate Claus, Santa Claus, Comet Reindeer
+Output:
+   Vixen Reindeer -> Santa Claus
+   Prancer Reindeer -> Subordinate Claus
+   Mrs Claus -> Comet Reindeer
+   Cupid Reindeer -> Mrs Claus
+   Blitzen Reindeer -> Vixen Reindeer
+   Dasher Reindeer -> Prancer Reindeer
+   Rudolph Reindeer -> Cupid Reindeer
+   Dancer Reindeer -> Blitzen Reindeer
+   Donner Reindeer -> Dasher Reindeer
+   Subordinate Claus -> Donner Reindeer
+   Santa Claus -> Dancer Reindeer
+   Comet Reindeer -> Rudolph Reindeer
+ 
+===> 247/1/peter-meszaros.pl <===
+Mr. Wall -> Mr. Anwar
+Mrs. Wall -> Mrs. Anwar
+Mr. Anwar -> Mr. Wall
+Mrs. Anwar -> Mrs. Wall
+Mr. Conway -> Mr. Cross
+Mr. Cross -> Mr. Conway
+ok 1 - big set
+ok 2 - small set
+1..2
+ 
+===> 247/1/roger-bell-west.pl <===
+1..2
+Mr. Wall -> Mrs. Anwar
+Mrs. Wall -> Mr. Anwar
+Mr. Anwar -> Mrs. Wall
+Mrs. Anwar -> Mr. Wall
+Mr. Conway -> Mr. Cross
+Mr. Cross -> Mr. Conway
+
+ok 1 - example 1
+Mr. Wall -> Mr. Anwar
+Mrs. Wall -> Mr. Wall
+Mr. Anwar -> Mrs. Wall
+
+ok 2 - example 2
+ 
+===> 247/1/steve-g-lynn.pl <===
+Anwar_1 => Wall_2Anwar_2 => Wall_1Conway_1 => Cross_1Cross_1 => Conway_1Wall_1 => Anwar_2Wall_2 => Anwar_1Anwar_1 => Wall_2Wall_1 => Wall_1Wall_2 => Anwar_1 
+===> 247/1/zapwai.pl <===
+Input: @names = (Mr. Wall, Mrs. Wall, Mr. Anwar, Mrs. Anwar, Mr. Conway, Mr. Cross)
+Output: 
+Mrs. Anwar --> Mrs. Wall --> Mr. Conway --> Mr. Cross --> Mr. Anwar --> Mr. Wall

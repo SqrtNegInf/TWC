@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
 
-#--modified a bit from the examples
-#-- input contains surnames only.
-
 local *secret_santa=sub {
     local (%secret_santa,@secret_santa);
     foreach (@_) {

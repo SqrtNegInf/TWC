@@ -30,7 +30,7 @@ sub family($name) {
     ( $name =~ /(\w+)$/ )[0]
 }
 
-use Test2::V0 -srand => srand -srand => 1;
+use Test2::V0 -srand => 1;
 use experimental qw( signatures );
 
 sub is_correct($names, $label) {

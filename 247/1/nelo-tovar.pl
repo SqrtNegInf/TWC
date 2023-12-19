@@ -1,15 +1,9 @@
 #!/usr/bin/env perl
 
-# The Weekly Challenge 247 - By Nelo Tovar
-#
-# https://theweeklychallenge.org/blog/perl-weekly-challenge-247/
-#
-# Task 1 - Secret Santa 
-#
-
-use strict;
-use warnings;
 use v5.28;
+use strict;
+no warnings;
+
 use List::Util qw /shuffle/;
 use Data::Dump qw(dump);
 

@@ -1,32 +1,6 @@
 #!/usr/bin/env perl
-# vim:set ts=4 sw=4 sts=4 et ai wm=0 nu:
-#=============================================================================
-# Copyright (c) 2023, Bob Lied
-#=============================================================================
-# part1.pl Perl Weekly Challenge 247 Task 1 Secret Santa
-#=============================================================================
-# Secret Santa is a Christmas tradition in which members of a group are
-# randomly assigned a person to whom they give a gift.
-# You are given a list of names. Write a script that tries to team persons
-# from different families. The givers are randomly chosen but don't share
-# family names with the receivers.
-# Example 1 Input: @names = (
-#       'Mr. Wall', 'Mrs. Wall', 'Mr. Anwar', 'Mrs. Anwar',
-#       'Mr. Conway', 'Mr. Cross',);
-#           Output: Mr. Conway -> Mr. Wall
-#                   Mr. Anwar -> Mrs. Wall
-#                   Mrs. Wall -> Mr. Anwar
-#                   Mr. Cross -> Mrs. Anwar
-#                   Mr. Wall -> Mr. Conway
-#                   Mrs. Anwar -> Mr. Cross
-# Example 2 One gift is given to a family member.
-#           Input: @names = ('Mr. Wall', 'Mrs. Wall', 'Mr. Anwar',);
-#           Output: Mr. Anwar -> Mr. Wall
-#                   Mr. Wall -> Mrs. Wall
-#                   Mrs. Wall -> Mr. Anwar
-#=============================================================================
 
-use v5.38;
+use v5.36;
 use builtin qw/true false/; no warnings "experimental::builtin";
 
 use List::Util qw/all sample/;
