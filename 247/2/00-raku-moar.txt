@@ -1,0 +1,72 @@
+ 
+===> 247/2/arne-sommer.raku <===
+bc
+ 
+===> 247/2/athanasius.raku <===
+Running the test suite
+ok 1 - Example 1: output
+ok 2 - Example 1: max frequency
+ok 3 - Example 1: max freq pairs
+ok 4 - Example 2: output
+ok 5 - Example 2: max frequency
+ok 6 - Example 2: max freq pairs
+ok 7 - Alternating: output
+ok 8 - Alternating: max frequency
+ok 9 - Alternating: max freq pairs
+ok 10 - Singletons: output
+ok 11 - Singletons: max frequency
+ok 12 - Singletons: max freq pairs
+ok 13 - Block: output
+ok 14 - Block: max frequency
+ok 15 - Block: max freq pairs
+1..15
+ 
+===> 247/2/barroff.raku <===
+1..2
+ok 1 - works for "bc" in ("abcdbca")
+ok 2 - works for "ab" in ("cdeabeabfcdfabgcd")
+ 
+===> 247/2/bruce-gray.raku <===
+1..bc abcdbca ab cdeabeabfcdfabgcd
+ok 1 - abcdbca
+ok 2 - cdeabeabfcdfabgcd
+ 
+===> 247/2/laurent-rosenfeld.raku <===
+abcdbca              => bc
+cdeabeabfcdfabgcd    => ab
+bcabbc               => bc
+ 
+===> 247/2/luca-ferrari.raku <===
+bc
+ 
+===> 247/2/mark-anderson.raku <===
+ok 1 - 
+ok 2 - 
+lu
+ 
+===> 247/2/packy-anderson.raku <===
+Example 1:
+Input: $s = 'abcdbca'
+Output: 'bc'
+
+'bc' appears twice in $s
+
+Example 2:
+Input: $s = 'cdeabeabfcdfabgcd'
+Output: 'ab'
+
+'ab' and 'cd' appear three times in $s and 'ab' is lexicographically smallest.
+
+Example 3:
+Input: $s = 'abcdeabcde'
+Output: 'ab'
+
+'ab', 'bc', 'cd', and 'de' appear twice in $s and 'ab' is lexicographically smallest.
+ 
+===> 247/2/roger-bell-west.raku <===
+1..2
+ok 1 - example 1
+ok 2 - example 2
+ 
+===> 247/2/ulrich-rieke.raku <===
+bc
