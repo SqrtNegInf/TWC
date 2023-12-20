@@ -1,3 +1,6 @@
+2023-12-20
+'Secret Santa' (247/1) is hopeless for testing, gzip'ed the code
+
 2023-12-12
 Ugh, random; use 'srand', but have to watch out for changes to Raku output.
 

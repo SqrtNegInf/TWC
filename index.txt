@@ -517,7 +517,7 @@ Challenge titles and Rosetta-code correspondences (exact, and otherwise)
 246-2 Linear Recurrence of Second Order
 247-1 Secret Santa
 247-2 Most Frequent Letter Pair
-248-1
-248-2
+248-1 Shortest Distance
+248-2 Sub-Matrix Sum
 249-1
 249-2
