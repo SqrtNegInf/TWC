@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-use warnings;
-use strict;
-use experimental qw( signatures );
+use v5.36;
 
 my $PAIR = join '|', map $_ . chr(1 + ord), 'a' .. 'y';
 $PAIR = qr/(?=($PAIR))/;

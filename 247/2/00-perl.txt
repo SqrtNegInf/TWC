@@ -110,5 +110,5 @@ ok 1 - example 1
 ok 2 - example 2
  
 ===> 247/2/zapwai.pl <===
-Input: $s = cdeabeabfcdfabgcd
-Output: ab
+Input: $s = abcdbca
+Output: bc

@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-
-use v5.28;
-use strict;
-use warnings;
+use v5.36;
 
 use Algorithm::Combinatorics qw(variations);
 use Data::Dump qw(dump);

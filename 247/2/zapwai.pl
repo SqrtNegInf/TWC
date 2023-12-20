@@ -1,8 +1,8 @@
 #!/usr/bin/env perl
-use v5.30;
+use v5.36;
 
 my $s = "abcdbca";
-my $s = "cdeabeabfcdfabgcd";
+#my $s = "cdeabeabfcdfabgcd";
 my %h;
 my @pairs;
 my $max = 0;
