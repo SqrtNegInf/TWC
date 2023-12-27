@@ -1,15 +1,9 @@
 #!/usr/bin/env perl
 
-# The Weekly Challenge 248 - By Nelo Tovar
-#
-# https://theweeklychallenge.org/blog/perl-weekly-challenge-248/
-#
-# Task 1 - Shortest Distance
-#
-
+use v5.28;
 use strict;
 use warnings;
-use v5.28;
+
 use List::MoreUtils qw(indexes minmax);
 use List::Util qw(min);
 use Data::Dump qw(dump);

@@ -1,0 +1,117 @@
+ 
+===> 248/1/athanasius.pl <===
+Running the test suite
+ok 1 - Example 1
+ok 2 - Example 2
+1..2
+ 
+===> 248/1/barroff.pl <===
+ok 1 - works for ('loveleetcode', 'e')
+ok 2 - works for ('aaab', 'b')
+1..2
+ 
+===> 248/1/bob-lied.pl <===
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - no x in str
+ok 4 - empty string
+ok 5 - sd2 Example 1
+ok 6 - sd2 Example 2
+ok 7 - sd2 no x in str
+ok 8 - sd2 empty string
+ok 9 - sd3 Example 1
+ok 10 - sd3 Example 2
+ok 11 - sd3 no x in str
+ok 12 - sd3 empty string
+1..12
+ 
+===> 248/1/cheok-yin-fung.pl <===
+# Seeded srand with seed '1' from import arg.
+ok 1
+ok 2
+ok 3
+1..3
+ 
+===> 248/1/dave-jacoby.pl <===
+Input:  $str = "loveleetcode", $char = "e"
+Output: (3,2,1,0,1,0,0,1,2,2,1,0)
+
+Input:  $str = "aaab", $char = "b"
+Output: (3,2,1,0)
+
+ 
+===> 248/1/deadmarshal.pl <===
+(3,2,1,0,1,0,0,1,2,2,1,0)
+(3,2,1,0)
+ 
+===> 248/1/e-choroba.pl <===
+# Seeded srand with seed '1' from import arg.
+1..2
+ok 1 - Example 1
+ok 2 - Example 2
+ 
+===> 248/1/laurent-rosenfeld.pl <===
+e -  loveleetcode    => 3 2 1 0 1 0 0 1 2 2 1 0
+b -  aaab            => 3 2 1 0
+ 
+===> 248/1/lubos-kolouch.pl <===
+1..2
+ok 1
+ok 2
+ 
+===> 248/1/nelo-tovar.pl <===
+Input : str = "loveleetcode", char = "e"
+Output : (3, 2, 1, 0, 1, 0, 0, 1, 2, 2, 1, 0)
+ 
+Input : str = "aaab", char = "b"
+Output : (3, 2, 1, 0)
+ 
+ 
+===> 248/1/packy-anderson.pl <===
+Example 1:
+Input: $str = "loveleetcode", $char = "e"
+Output: (3,2,1,0,1,0,0,1,2,2,1,0)
+
+Example 2:
+Input: $str = "aaab", $char = "b"
+Output: (3,2,1,0)
+ 
+===> 248/1/perlboy1967.pl <===
+# Seeded srand with seed '1' from import arg.
+ok 1
+ok 2
+1..2
+ 
+===> 248/1/peter-campbell-smith.pl <===
+
+Input:  @string = 'loveleetcode', $char = 'e'
+Output: 3, 2, 1, 0, 1, 0, 0, 1, 2, 2, 1, 0
+
+Input:  @string = 'We wish you a merry christmas and a happy new year!', $char = 'a'
+Output: 12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1, 0, 1, 2, 3, 4, 5, 6, 7, 7, 6, 5, 4, 3, 2, 1, 0, 1, 1, 0, 1, 2, 1, 0, 1, 1, 0, 1, 2, 3, 4, 5, 5, 4, 3, 2, 1, 0, 1, 2
+
+Input:  @string = 'zoos contain animals', $char = 'z'
+Output: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19
+
+Input:  @string = 'tornadoes have a vortex', $char = 'x'
+Output: 22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1, 0
+
+Input:  @string = 'xylophones and zithers', $char = 'q'
+Output: 'q' does not occur in 'xylophones and zithers'
+ 
+===> 248/1/peter-meszaros.pl <===
+ok 1 - [ "loveleetcode", "e"]
+ok 2 - [ "aaab",         "b"]
+1..2
+ 
+===> 248/1/roger-bell-west.pl <===
+1..2
+ok 1 - example 1
+ok 2 - example 2
+ 
+===> 248/1/ulrich-rieke.pl <===
+(3,2,1,0,1,0,0,1,2,2,1,0)
+ 
+===> 248/1/zapwai.pl <===
+Input: @ints = (3, 2, 1, 4)
+Output: 3, 2

@@ -2,10 +2,10 @@
 use strict ;
 use warnings ;
 use feature 'say' ;
+
 use List::Util qw ( min ) ;
 
-say "Enter a string and a letter from this string , separated by a blank!" ;
-my $line = <STDIN> ;
+my $line = "loveleetcode e";
 chomp $line ;
 my @parts = split( /\s+/ , $line ) ;
 my $string = $parts[0] ;

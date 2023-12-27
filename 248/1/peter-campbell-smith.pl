@@ -1,7 +1,6 @@
 #!/usr/bin/env perl
 
 use v5.26;    # The Weekly Challenge - 2023-12-18
-use utf8;     # Week 248 task 1 - Shortest distance
 use strict;   # Peter Campbell Smith
 use warnings; # Blog: http://ccgi.campbellsmiths.force9.co.uk/challenge
 

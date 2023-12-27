@@ -1,8 +1,7 @@
 #!/usr/bin/env perl
-# The Weekly Challenge 248
-# Task 1 Shortest Distance
 use v5.30.0;
 use warnings;
+
 use List::Util qw/min/;
 
 sub sd {

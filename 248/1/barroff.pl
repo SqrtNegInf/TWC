@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
 
-use v5.38;
+use v5.36;
 
 sub minimal_distance ( $start, @positions ) {
     use List::Util qw / min /;
@@ -26,14 +26,14 @@ sub MAIN() {
     }
     else {
         #| Run test cases
-        use Test2::V0 qw( is plan );
-        plan 2;
+        use Test::More;
 
-        is shortest_distance( 'loveleetcode', 'e' ),
+        is_deeply shortest_distance( 'loveleetcode', 'e' ),
           [ 3, 2, 1, 0, 1, 0, 0, 1, 2, 2, 1, 0 ],
           "works for ('loveleetcode', 'e')";
-        is shortest_distance( 'aaab', 'b' ), [ 3, 2, 1, 0 ],
+        is_deeply shortest_distance( 'aaab', 'b' ), [ 3, 2, 1, 0 ],
           "works for ('aaab', 'b')";
+        done_testing;
     }
 }
 

@@ -1,32 +1,6 @@
 #!/usr/bin/env perl
-# vim:set ts=4 sw=4 sts=4 et ai wm=0 nu:
-#=============================================================================
-# Copyright (c) 2023, Bob Lied
-#=============================================================================
-# ch-1.pl Perl Weekly Challenge 248 Task 1 Shortest Distance
-#=============================================================================
-# You are given a string and a character in the given string.
-# Write a script to return an array of integers of size same as length of
-# the given string such that:
-# distance[i] is the distance from index i to the closest occurence of
-# the given character in the given string.
-# The distance between two indices i and j is abs(i - j).
-# Example 1 Input: $str = "loveleetcode", $char = "e"
-#           Output: (3,2,1,0,1,0,0,1,2,2,1,0)
-#   The character 'e' appears at indices 3, 5, 6, and 11 (0-indexed).
-#   The closest occurrence of 'e' for index 0 is at index 3,
-#   so the distance is abs(0 - 3) = 3.
-#   The closest occurrence of 'e' for index 1 is at index 3,
-#   so the distance is abs(1 - 3) = 2.
-#   For index 4, there is a tie between the 'e' at index 3 and 'e' at index 5,
-#   but the distance is still the same: abs(4 - 3) == abs(4 - 5) = 1.
-#   The closest occurrence of 'e' for index 8 is at index 6,
-#   so the distance is abs(8 - 6) = 2.
-# Example 2 Input: $str = "aaab", $char = "b"
-#           Output: (3,2,1,0)
-#=============================================================================
 
-use v5.38;
+use v5.36;
 
 use builtin qw/true false ceil floor/; no warnings "experimental::builtin";
 
@@ -37,9 +11,9 @@ my $Verbose = 0;
 my $DoTest  = 0;
 
 GetOptions("test" => \$DoTest, "verbose" => \$Verbose);
-exit(!runTest()) if $DoTest;
+runTest(); exit;
 
-say "(", join(",", shortest(@ARGV)->@*), ")";
+#say "(", join(",", shortest(@ARGV)->@*), ")";
 
 sub shortest($str, $char)
 {
@@ -117,25 +91,25 @@ sub sd3($str, $char)
 
 sub runTest
 {
-    use Test2::V0;
+    use Test::More;
 
-    is( shortest("loveleetcode", 'e'), [3,2,1,0,1,0,0,1,2,2,1,0], "Example 1");
-    is( shortest("aaab", 'b'), [3,2,1,0], "Example 2");
+    is_deeply( shortest("loveleetcode", 'e'), [3,2,1,0,1,0,0,1,2,2,1,0], "Example 1");
+    is_deeply( shortest("aaab", 'b'), [3,2,1,0], "Example 2");
 
-    is( shortest("ab", 'x'), [undef, undef], "no x in str");
-    is( shortest("", 'x'), [], "empty string");
+    is_deeply( shortest("ab", 'x'), [undef, undef], "no x in str");
+    is_deeply( shortest("", 'x'), [], "empty string");
 
-    is( sd2("loveleetcode", 'e'), [3,2,1,0,1,0,0,1,2,2,1,0], "sd2 Example 1");
-    is( sd2("aaab", 'b'), [3,2,1,0], "sd2 Example 2");
+    is_deeply( sd2("loveleetcode", 'e'), [3,2,1,0,1,0,0,1,2,2,1,0], "sd2 Example 1");
+    is_deeply( sd2("aaab", 'b'), [3,2,1,0], "sd2 Example 2");
 
-    is( sd2("ab", 'x'), [undef, undef], "sd2 no x in str");
-    is( sd2("", 'x'), [], "sd2 empty string");
+    is_deeply( sd2("ab", 'x'), [undef, undef], "sd2 no x in str");
+    is_deeply( sd2("", 'x'), [], "sd2 empty string");
 
-    is( sd3("loveleetcode", 'e'), [3,2,1,0,1,0,0,1,2,2,1,0], "sd3 Example 1");
-    is( sd3("aaab", 'b'), [3,2,1,0], "sd3 Example 2");
+    is_deeply( sd3("loveleetcode", 'e'), [3,2,1,0,1,0,0,1,2,2,1,0], "sd3 Example 1");
+    is_deeply( sd3("aaab", 'b'), [3,2,1,0], "sd3 Example 2");
 
-    is( sd3("ab", 'x'), [undef, undef], "sd3 no x in str");
-    is( sd3("", 'x'), [], "sd3 empty string");
+    is_deeply( sd3("ab", 'x'), [undef, undef], "sd3 no x in str");
+    is_deeply( sd3("", 'x'), [], "sd3 empty string");
 
     done_testing;
 }
