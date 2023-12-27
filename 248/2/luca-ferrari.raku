@@ -1,12 +1,5 @@
 #!/usr/bin/env raku
 
-#
-# Perl Weekly Challenge 248
-# Task 2
-#
-# See <https://perlweeklychallenge.org/blog/perl-weekly-challenge-248/>
-#
-
 sub MAIN() {
     my $a = [
               [1,  2,  3,  4],

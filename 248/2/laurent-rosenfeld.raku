@@ -1,4 +1,5 @@
 #!/usr/bin/env raku
+
 sub submatrix-sum (@in) {
     my $max-row = @in.end;
     my $max-col = @in[0].end;

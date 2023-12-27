@@ -1,12 +1,8 @@
 #!/usr/bin/env raku
-use v6.d;
 
-#
-# Copyright © 2023 Joelle Maslak
-# All Rights Reserved - See License
-#
+#sub MAIN(*@rows) {
+my @rows = ((1,2,3,4),(5,6,7,8),(9,10,11,12));
 
-sub MAIN(*@rows) {
     my @a = gather {
         if @rows.elems {
             for @rows<> -> $row {
@@ -33,5 +29,5 @@ sub MAIN(*@rows) {
         }
         say join " ", @b[*-1].map: { sprintf("%4d", $^a) };
     }
-}
+#}
 

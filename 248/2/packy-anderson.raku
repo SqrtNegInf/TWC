@@ -1,5 +1,4 @@
 #!/usr/bin/env raku
-use v6;
 
 sub submatrixSum(@a) {
   # subtract 1 because we're 0-indexed

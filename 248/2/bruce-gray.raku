@@ -1,4 +1,5 @@
 #!/usr/bin/env raku
+
 sub task2_semicolon ( @m ) {
     return @m.keys.skip.map: -> \r {
         @m[0].keys.skip.map: -> \c {
