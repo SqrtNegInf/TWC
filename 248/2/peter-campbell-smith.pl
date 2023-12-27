@@ -1,7 +1,6 @@
 #!/usr/bin/env perl
 
 use v5.16;    # The Weekly Challenge - 2023-12-18
-use utf8;     # Week 242 task 2 - Submatrix sum
 use strict;   # Peter Campbell Smith
 use warnings; # Blog: http://ccgi.campbellsmiths.force9.co.uk/challenge
 

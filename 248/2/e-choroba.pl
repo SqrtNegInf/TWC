@@ -1,7 +1,6 @@
 #!/usr/bin/env perl
-use warnings;
-use strict;
-use experimental qw( signatures );
+
+use v5.36;
 
 sub submatrix_sum($m) {
     my @r;
@@ -17,10 +16,9 @@ sub submatrix_sum($m) {
     return \@r
 }
 
-use Test2::V0 qw{ is plan } -srand => 1;
-plan 2;
+use Test::More;
 
-is submatrix_sum([[1,  2,  3,  4],
+is_deeply submatrix_sum([[1,  2,  3,  4],
                   [5,  6,  7,  8],
                   [9, 10, 11, 12]]),
     [[14, 18, 22],
@@ -28,7 +26,7 @@ is submatrix_sum([[1,  2,  3,  4],
     'Example 1';
 
 
-is submatrix_sum([[1, 0, 0, 0],
+is_deeply submatrix_sum([[1, 0, 0, 0],
                   [0, 1, 0, 0],
                   [0, 0, 1, 0],
                   [0, 0, 0, 1]]),
@@ -36,3 +34,5 @@ is submatrix_sum([[1, 0, 0, 0],
      [1, 2, 1],
      [0, 1, 2]],
     'Example 2';
+
+done_testing;
