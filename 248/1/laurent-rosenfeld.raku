@@ -1,4 +1,5 @@
 #!/usr/bin/env raku
+
 sub shortest-distance ($char, $str) {
     my @result;
     for 0..^$str.chars -> $i {

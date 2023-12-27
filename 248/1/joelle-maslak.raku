@@ -1,10 +1,4 @@
 #!/usr/bin/env raku
-use v6.d;
-
-#
-# Copyright © 2023 Joelle Maslak
-# All Rights Reserved - See License
-#
 
 sub MAIN(Str:D $str = "loveleetcode", Str:D $char = "e") {
     if $char.chars ≠ 1 {

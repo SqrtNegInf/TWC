@@ -1,6 +1,7 @@
 #!/usr/bin/env raku
 # Distance from nearest Left, from nearest Right, minimum of the two.
 # O(3N), but something about it is slowing it down.
+
 sub task1_three_linear_scans ( Str $letter, Str $s ) {
     my @sc = $s.comb;
 
@@ -91,6 +92,8 @@ for @subs -> ( :key($sub_name), :value(&task1) ) {
         is-deeply @got, @expected, "$sub_name - $in_letter, {$in_str.substr(0,4)}";
     }
 }
+
+=finish
 
 my $huge = $hamlet x 10_000;
 for @subs -> ( :key($sub_name), :value(&task1) ) {

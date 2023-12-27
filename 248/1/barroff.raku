@@ -1,7 +1,5 @@
 #!/usr/bin/env raku
 
-use v6.d;
-
 sub minimal-distance(Int:D $start, @positions --> Int:D) {
     min(map({ abs($start - $_) }, @positions));
 }
@@ -18,7 +16,7 @@ sub sd(Str:D $str, Str:D $char where $char.chars == 1 --> List) {
 }
 
 #| Run test cases
-multi sub MAIN('test') {
+#multi sub MAIN('test') {
     use Test;
     plan 2;
 
@@ -26,9 +24,7 @@ multi sub MAIN('test') {
         'works for "e" in "loveleetcode"';
     is sd('aaab', 'b'), [3, 2, 1, 0],
         'works for "b" in "aaab"';
-}
+#}
 
 #| Take user provided list like aba aabb abcd bac aabc
-multi sub MAIN(Str:D $str, Str:D $char) {
-    say sd($str, $char);
-}
+#multi sub MAIN(Str:D $str, Str:D $char) { say sd($str, $char); }

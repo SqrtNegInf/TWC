@@ -1,13 +1,6 @@
 #!/usr/bin/env raku
 
-#
-# Perl Weekly Challenge 248
-# Task 1
-#
-# See <https://perlweeklychallenge.org/blog/perl-weekly-challenge-248/>
-#
-
-sub MAIN( Str :$string, Str :$char where { $char.chars == 1 } ) {
+sub MAIN( Str :$string = "loveleetcode", Str :$char where { $char.chars == 1 } = 'e' ) {
 
     my @distances;
     my @matching;

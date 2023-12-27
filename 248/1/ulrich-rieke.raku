@@ -1,8 +1,6 @@
 #!/usr/bin/env raku
-use v6 ;
 
-say "Enter a string and a letter from this string, separated by a blank!" ;
-my $line = $*IN.get ;
+my $line = "loveleetcode e";
 my @parts = $line.words ;
 my $string = @parts[ 0 ] ;
 my $letter = @parts[ 1 ] ;

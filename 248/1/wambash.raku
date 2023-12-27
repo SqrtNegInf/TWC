@@ -13,7 +13,7 @@ sub shortest-distance ($str, $char) {
     ^$length .map: *.&shortest-distance-index: $str, $char
 }
 
-multi MAIN (Bool :test($)!) {
+#multi MAIN (Bool :test($)!) {
     use Test;
     is shortest-distance-index(3,'loveleetcode','l'), 1;
     is shortest-distance-index(1,'loveleetcode','l'), 1;
@@ -22,8 +22,6 @@ multi MAIN (Bool :test($)!) {
     is shortest-distance('loveleetcode','e'), (3,2,1,0,1,0,0,1,2,2,1,0);
     is shortest-distance('aaab','b'), (3,2,1,0);
     done-testing;
-}
+#}
 
-multi MAIN ($str, $char) {
-    say shortest-distance $str, $char
-}
+#multi MAIN ($str, $char) { say shortest-distance $str, $char }

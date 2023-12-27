@@ -1,0 +1,113 @@
+ 
+===> 248/1/arne-sommer.raku <===
+(3,2,1,0,1,0,0,1,2,2,1,0)
+ 
+===> 248/1/athanasius.raku <===
+Running the test suite
+ok 1 - Example 1
+ok 2 - Example 2
+1..2
+ 
+===> 248/1/barroff.raku <===
+1..2
+ok 1 - works for "e" in "loveleetcode"
+ok 2 - works for "b" in "aaab"
+ 
+===> 248/1/bruce-gray.raku <===
+1..54
+ok 1 - task1_three_linear_scans - e, love
+ok 2 - task1_three_linear_scans - b, aaab
+ok 3 - task1_three_linear_scans - c, aaab
+ok 4 - task1_three_linear_scans - e, eabc
+ok 5 - task1_three_linear_scans - e, eabc
+ok 6 - task1_three_linear_scans - e, abec
+ok 7 - task1_three_linear_scans - e, abce
+ok 8 - task1_three_linear_scans - e, eeea
+ok 9 - task1_three_linear_scans - a, What
+ok 10 - task1_three_linear_scans - e, What
+ok 11 - task1_three_linear_scans - i, What
+ok 12 - task1_three_linear_scans - o, What
+ok 13 - task1_three_linear_scans - u, What
+ok 14 - task1_three_linear_scans - W, What
+ok 15 - task1_three_linear_scans - h, What
+ok 16 - task1_three_linear_scans - s, What
+ok 17 - task1_three_linear_scans - !, What
+ok 18 - task1_three_linear_scans -  , What
+ok 19 - task1_compare_to_all - e, love
+ok 20 - task1_compare_to_all - b, aaab
+ok 21 - task1_compare_to_all - c, aaab
+ok 22 - task1_compare_to_all - e, eabc
+ok 23 - task1_compare_to_all - e, eabc
+ok 24 - task1_compare_to_all - e, abec
+ok 25 - task1_compare_to_all - e, abce
+ok 26 - task1_compare_to_all - e, eeea
+ok 27 - task1_compare_to_all - a, What
+ok 28 - task1_compare_to_all - e, What
+ok 29 - task1_compare_to_all - i, What
+ok 30 - task1_compare_to_all - o, What
+ok 31 - task1_compare_to_all - u, What
+ok 32 - task1_compare_to_all - W, What
+ok 33 - task1_compare_to_all - h, What
+ok 34 - task1_compare_to_all - s, What
+ok 35 - task1_compare_to_all - !, What
+ok 36 - task1_compare_to_all -  , What
+ok 37 - task1_pyramid - e, love
+ok 38 - task1_pyramid - b, aaab
+ok 39 - task1_pyramid - c, aaab
+ok 40 - task1_pyramid - e, eabc
+ok 41 - task1_pyramid - e, eabc
+ok 42 - task1_pyramid - e, abec
+ok 43 - task1_pyramid - e, abce
+ok 44 - task1_pyramid - e, eeea
+ok 45 - task1_pyramid - a, What
+ok 46 - task1_pyramid - e, What
+ok 47 - task1_pyramid - i, What
+ok 48 - task1_pyramid - o, What
+ok 49 - task1_pyramid - u, What
+ok 50 - task1_pyramid - W, What
+ok 51 - task1_pyramid - h, What
+ok 52 - task1_pyramid - s, What
+ok 53 - task1_pyramid - !, What
+ok 54 - task1_pyramid -  , What
+ 
+===> 248/1/deadmarshal.raku <===
+(3 2 1 0 1 0 0 1 2 2 1 0)
+(3 2 1 0)
+ 
+===> 248/1/joelle-maslak.raku <===
+(3,2,1,0,1,0,0,1,2,2,1,0)
+ 
+===> 248/1/laurent-rosenfeld.raku <===
+e - loveleetcode    => 3 2 1 0 1 0 0 1 2 2 1 0
+b - aaab            => 3 2 1 0
+ 
+===> 248/1/luca-ferrari.raku <===
+3, 2, 1, 0, 1, 0, 0, 1, 2, 2, 1, 0
+ 
+===> 248/1/mark-anderson.raku <===
+ 
+===> 248/1/packy-anderson.raku <===
+Example 1:
+Input: $str = "loveleetcode", $char = "e"
+Output: (3,2,1,0,1,0,0,1,2,2,1,0)
+
+Example 2:
+Input: $str = "aaab", $char = "b"
+Output: (3,2,1,0)
+ 
+===> 248/1/roger-bell-west.raku <===
+1..2
+ok 1 - example 1
+ok 2 - example 2
+ 
+===> 248/1/ulrich-rieke.raku <===
+(3,2,1,0,1,0,0,1,2,2,1,0)
+ 
+===> 248/1/wambash.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ok 4 - 
+ok 5 - 
+ok 6 - 
+1..6
