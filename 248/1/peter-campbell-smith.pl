@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-
-use v5.26;    # The Weekly Challenge - 2023-12-18
-use strict;   # Peter Campbell Smith
-use warnings; # Blog: http://ccgi.campbellsmiths.force9.co.uk/challenge
+use v5.36;
 
 shortest_distance('loveleetcode', 'e');
 shortest_distance('We wish you a merry christmas and a happy new year!', 'a');
