@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-
-use v5.16;    # The Weekly Challenge - 2023-12-18
-use strict;   # Peter Campbell Smith
-use warnings; # Blog: http://ccgi.campbellsmiths.force9.co.uk/challenge
+use v5.36;
 
 submatrix_sum([1,  2,  3,  4],
               [5,  6,  7,  8],
