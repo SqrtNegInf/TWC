@@ -1,10 +1,7 @@
 #!/usr/bin/env perl
-use warnings;
-use strict;
-use feature qw{ say };
+use v5.36;
 
 use Test2::V0 -srand => 1;
-use experimental qw( signatures );
 
 sub DI_string_match($str) {
     my @p = (0);

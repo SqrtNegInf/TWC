@@ -1,9 +1,6 @@
 #!/usr/bin/env perl
-
-use v5.26;    # The Weekly Challenge - 2023-12-25
-use strict;   # Peter Campbell Smith
-use warnings; # Blog: http://ccgi.campbellsmiths.force9.co.uk/challenge
-no warnings 'recursion';
+use v5.36;
+#no warnings 'recursion';
 
 my (@di);
 

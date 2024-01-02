@@ -1,10 +1,7 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
+use v5.36;
 
 use Test::More;
-#use Data::Dumper;
 use Algorithm::Combinatorics qw/permutations/;
 
 my $cases = [

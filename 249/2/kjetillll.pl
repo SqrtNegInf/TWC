@@ -1,8 +1,6 @@
 #!/usr/bin/env perl
-use v5.10;
-use strict; 
-use warnings; 
-no warnings 'recursion'; 
+use v5.36;
+#no warnings 'recursion'; 
 
 sub DI_perm {
     my($str, $i, $d) = @_ == 3 ? @_ : ( $_[0] =~ s/.$/$&$&/r, 0, length $_[0] );

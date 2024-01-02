@@ -1,9 +1,5 @@
 #!/usr/bin/env perl
 use v5.36;
-use strict;
-use warnings;
-
-#use Data::Show;
 
 sub di_string_match{
   my ($i,$j) = (0,length $_[0]);
