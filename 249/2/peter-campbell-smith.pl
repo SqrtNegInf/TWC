@@ -1,7 +1,6 @@
 #!/usr/bin/env perl
 
 use v5.26;    # The Weekly Challenge - 2023-12-25
-use utf8;     # Week 249 task 2 - DI string match
 use strict;   # Peter Campbell Smith
 use warnings; # Blog: http://ccgi.campbellsmiths.force9.co.uk/challenge
 no warnings 'recursion';

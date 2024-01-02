@@ -1,33 +1,10 @@
 #!/usr/bin/env perl
-#
-# You are given a string s, consisting of only the characters "D" and "I".
-# 
-# Find a permutation of the integers [0 .. length(s)] such that for each
-# character s[i] in the string:
-# 
-# s[i] == 'I' ⇒ perm[i] < perm[i + 1]
-# s[i] == 'D' ⇒ perm[i] > perm[i + 1]
-# 
-# Example 1
-# 
-# Input: $str = "IDID"
-# Output: (0, 4, 1, 3, 2)
-# 
-# Example 2
-# 
-# Input: $str = "III"
-# Output: (0, 1, 2, 3)
-# 
-# Example 3
-# 
-# Input: $str = "DDI"
-# Output: (3, 2, 0, 1)
-# 
 
 use strict;
 use warnings;
+
 use Test::More;
-use Data::Dumper;
+#use Data::Dumper;
 use Algorithm::Combinatorics qw/permutations/;
 
 my $cases = [

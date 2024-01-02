@@ -1,15 +1,9 @@
 #!/usr/bin/env perl
 
-# The Weekly Challenge 249 - By Nelo Tovar
-#
-# https://theweeklychallenge.org/blog/perl-weekly-challenge-249/
-#
-# Task 2 - DI String Match
-#
-
+use v5.28;
 use strict;
 use warnings;
-use v5.28;
+
 use Algorithm::Combinatorics qw(permutations);
 use Data::Dump qw(dump);
 

@@ -1,0 +1,164 @@
+ 
+===> 249/2/athanasius.pl <===
+
+Challenge 249, Task #2: DI String Match (Perl)
+
+Running the test suite
+ok 1 - Example 1: expected
+ok 2 - Example 1: verified
+ok 3 - Example 2: expected
+ok 4 - Example 2: verified
+ok 5 - Example 3: expected
+ok 6 - Example 3: verified
+ok 7 - Long str 1: expected
+ok 8 - Long str 1: verified
+ok 9 - All Ds: expected
+ok 10 - All Ds: verified
+ok 11 - Single D: expected
+ok 12 - Single D: verified
+ok 13 - Long str 2: expected
+ok 14 - Long str 2: verified
+ok 15 - Alternates: expected
+ok 16 - Alternates: verified
+1..16
+ 
+===> 249/2/bob-lied.pl <===
+ 
+===> 249/2/cheok-yin-fung.pl <===
+1..3
+String IDID, generate '2 3 1 4 0'
+ok 1
+String III, generate '0 1 2 3'
+ok 2
+String DDI, generate '2 1 0 3'
+ok 3
+ 
+===> 249/2/dave-jacoby.pl <===
+Input:  $str = IDID
+
+Output: (0, 2, 1, 4, 3)
+        (0, 3, 1, 4, 2)
+        (0, 3, 2, 4, 1)
+        (0, 4, 1, 3, 2)
+        (0, 4, 2, 3, 1)
+        (1, 2, 0, 4, 3)
+        (1, 3, 0, 4, 2)
+        (1, 3, 2, 4, 0)
+        (1, 4, 0, 3, 2)
+        (1, 4, 2, 3, 0)
+        (2, 3, 0, 4, 1)
+        (2, 3, 1, 4, 0)
+        (2, 4, 0, 3, 1)
+        (2, 4, 1, 3, 0)
+        (3, 4, 0, 2, 1)
+        (3, 4, 1, 2, 0)
+
+Input:  $str = III
+
+Output: (0, 1, 2, 3)
+
+Input:  $str = DDI
+
+Output: (2, 1, 0, 3)
+        (3, 1, 0, 2)
+        (3, 2, 0, 1)
+
+ 
+===> 249/2/deadmarshal.pl <===
+04132
+0123
+3201
+ 
+===> 249/2/e-choroba.pl <===
+# Seeded srand with seed '1' from import arg.
+1..11
+ok 1 - matches() correct for Example 1
+ok 2 - matches() correct for Example 2
+ok 3 - matches() correct for Example 3
+ok 4 - matches() detects wrong order
+ok 5 - matches() detects wrong order
+ok 6 - matches() checks the range
+ok 7 - matches() rejects shorter
+ok 8 - matches() rejects longer
+ok 9 - Example 1
+ok 10 - Example 2
+ok 11 - Example 3
+ 
+===> 249/2/jo-37.pl <===
+# Seeded srand with seed '1' from import arg.
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+1..3
+ 
+===> 249/2/kjetillll.pl <===
+ok   input: IDID   got: 0 4 1 3 2   expected: 0 4 1 3 2
+ok   check: IDID     => 0 4 1 3 2
+ok   input: III   got: 0 1 2 3   expected: 0 1 2 3
+ok   check: III     => 0 1 2 3
+ok   input: DDI   got: 3 2 0 1   expected: 3 2 0 1
+ok   check: DDI     => 3 2 0 1
+ok   check: IDIIDDIIDDDDIIIIDDDIIIIIDIIIII     => 0 30 1 2 29 28 3 4 27 26 25 24 5 6 7 8 23 22 21 9 10 11 12 13 20 14 15 16 17 18 19
+ 
+===> 249/2/lubos-kolouch.pl <===
+1..3
+ok 1 - Test IDID
+ok 2 - Test III
+ok 3 - Test DDI
+ 
+===> 249/2/nelo-tovar.pl <===
+Input : @str = IDID
+Output : (0, 2, 1, 4, 3)
+ 
+Input : @str = III
+Output : (0 .. 3)
+ 
+Input : @str = DDI
+Output : (2, 1, 0, 3)
+ 
+ 
+===> 249/2/packy-anderson.pl <===
+Example 1:
+Input: $str = 'IDID'
+Output: (0, 4, 1, 3, 2)
+
+Example 2:
+Input: $str = 'III'
+Output: (0, 1, 2, 3)
+
+Example 3:
+Input: $str = 'DDI'
+Output: (3, 2, 0, 1)
+ 
+===> 249/2/peter-campbell-smith.pl <===
+
+Input:  $str = 'IDID'
+Output: (0, 2, 1, 4, 3)
+
+Input:  $str = 'III'
+Output: (0, 1, 2, 3)
+
+Input:  $str = 'DDI'
+Output: (2, 1, 0, 3)
+
+Input:  $str = 'DDIIDIDDIIIDDIDIIDIIIIDD'
+Output: (2, 1, 0, 3, 5, 4, 8, 7, 6, 9, 10, 13, 12, 11, 15, 14, 16, 18, 17, 19, 20, 21, 24, 23, 22)
+
+Input:  $str = 'DIDIDIDIDI'
+Output: (1, 0, 3, 2, 5, 4, 7, 6, 9, 8, 10)
+ 
+===> 249/2/peter-meszaros.pl <===
+ok 1 - IDID
+ok 2 - III
+ok 3 - DDI
+1..3
+ 
+===> 249/2/roger-bell-west.pl <===
+1..3
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ 
+===> 249/2/zapwai.pl <===
+Input: $str = IDID
+Output: 0 2 1 4 3

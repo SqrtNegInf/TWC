@@ -1,8 +1,7 @@
 #!/usr/bin/env perl
-# The Weekly Challenge 249
-# Task 2 DI String Match
 use v5.30.0;
 use warnings;
+
 use List::Util qw/first/;
 
 sub check_DI {
