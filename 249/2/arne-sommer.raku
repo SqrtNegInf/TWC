@@ -1,6 +1,6 @@
 #!/usr/bin/env raku
 
-unit sub MAIN ($s where $s ~~ /^<[ID]>+$/, :v(:$verbose));
+unit sub MAIN ($s where $s ~~ /^<[ID]>+$/  = "IDID", :v(:$verbose));
 
 my @output;
 my @integers = (0 .. $s.chars);

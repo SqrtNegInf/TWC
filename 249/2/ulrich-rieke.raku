@@ -1,5 +1,4 @@
 #!/usr/bin/env raku
-use v6 ;
 
 sub is_valid( $permu , @theIs , @theDs ) {
    for @theIs -> $pos {
@@ -15,8 +14,7 @@ sub is_valid( $permu , @theIs , @theDs ) {
    return True ;
 }
 
-say "Enter a string consisting of capital D and I only!" ;
-my $line = $*IN.get ;
+my $line = "IDID";
 my @is ;
 my @ds ;
 my $len = $line.chars ;

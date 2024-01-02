@@ -1,13 +1,7 @@
 #!/usr/bin/env raku
 
-#
-# Perl Weekly Challenge 249
-# Task 2
-#
-# See <https://perlweeklychallenge.org/blog/perl-weekly-challenge-249/>
-#
-
-sub MAIN( $string  ) {
+#sub MAIN( $string  ) {
+my $string = "IDID";
 
     my @chars = $string.comb;
     for ( 0 .. @chars.elems ).permutations -> $perm {
@@ -20,4 +14,4 @@ sub MAIN( $string  ) {
 
 	$perm.join(", ").say and last if $ok;
     }
-}
+#}

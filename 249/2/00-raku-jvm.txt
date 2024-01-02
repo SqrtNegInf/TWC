@@ -1,0 +1,128 @@
+ 
+===> 249/2/0rir.raku <===
+1..6
+ok 1 - IDID -> (0, 4, 1, 3, 2)
+ok 2 - III -> (0, 1, 2, 3)
+ok 3 - DDI -> (3, 2, 0, 1)
+ok 4 - I -> (0, 1)
+ok 5 - D -> (1, 0)
+ok 6 - DDDDDDDIIIIIIIIII -> (17, 16, 15, 14, 13, 12, 11, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
+
+Input: $str = DDDDDDDIIIIIIIIII
+Output: 17 16 15 14 13 12 11 0 1 2 3 4 5 6 7 8 9 10
+ 
+===> 249/2/arne-sommer.raku <===
+(0, 4, 1, 3, 2)
+ 
+===> 249/2/athanasius.raku <===
+
+Challenge 249, Task #2: DI String Match (Raku)
+
+Running the test suite
+ok 1 - Example 1: expected
+ok 2 - Example 1: verified
+ok 3 - Example 2: expected
+ok 4 - Example 2: verified
+ok 5 - Example 3: expected
+ok 6 - Example 3: verified
+ok 7 - Long str 1: expected
+ok 8 - Long str 1: verified
+ok 9 - All Ds: expected
+ok 10 - All Ds: verified
+ok 11 - Single D: expected
+ok 12 - Single D: verified
+ok 13 - Long str 2: expected
+ok 14 - Long str 2: verified
+ok 15 - Alternates: expected
+ok 16 - Alternates: verified
+1..16
+ 
+===> 249/2/bruce-gray.raku <===
+1..36
+ok 1 - task2b: IDID
+ok 2 - task2b: IDID round-trip
+ok 3 - task2b: III
+ok 4 - task2b: III round-trip
+ok 5 - task2b: DDI
+ok 6 - task2b: DDI round-trip
+ok 7 - task2c: IDID
+ok 8 - task2c: IDID round-trip
+ok 9 - task2c: III
+ok 10 - task2c: III round-trip
+ok 11 - task2c: DDI
+ok 12 - task2c: DDI round-trip
+ok 13 - task2d: IDID
+ok 14 - task2d: IDID round-trip
+ok 15 - task2d: III
+ok 16 - task2d: III round-trip
+ok 17 - task2d: DDI
+ok 18 - task2d: DDI round-trip
+ok 19 - task2e: IDID
+ok 20 - task2e: IDID round-trip
+ok 21 - task2e: III
+ok 22 - task2e: III round-trip
+ok 23 - task2e: DDI
+ok 24 - task2e: DDI round-trip
+ok 25 - task2f: IDID
+ok 26 - task2f: IDID round-trip
+ok 27 - task2f: III
+ok 28 - task2f: III round-trip
+ok 29 - task2f: DDI
+ok 30 - task2f: DDI round-trip
+ok 31 - task2g: IDID
+ok 32 - task2g: IDID round-trip
+ok 33 - task2g: III
+ok 34 - task2g: III round-trip
+ok 35 - task2g: DDI
+ok 36 - task2g: DDI round-trip
+ 
+===> 249/2/lubos-kolouch.raku <===
+ok 1 - Test IDID
+ok 2 - Test III
+ok 3 - Test DDI
+1..3
+ 
+===> 249/2/luca-ferrari.raku <===
+0, 2, 1, 4, 3
+ 
+===> 249/2/mark-anderson.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ok 4 - 
+ok 5 - 
+ok 6 - 
+ok 7 - 
+ 
+===> 249/2/packy-anderson.raku <===
+Example 1:
+Input: $str = 'IDID'
+Output: (0, 4, 1, 3, 2)
+
+Example 2:
+Input: $str = 'III'
+Output: (0, 1, 2, 3)
+
+Example 3:
+Input: $str = 'DDI'
+Output: (3, 2, 0, 1)
+ 
+===> 249/2/roger-bell-west.raku <===
+1..3
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ 
+===> 249/2/ulrich-rieke.raku <===
+(0 2 1 4 3)
+ 
+===> 249/2/wambash.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ok 4 - 
+ok 5 - 
+ok 6 - 
+ok 7 - 
+ok 8 - 
+1..8

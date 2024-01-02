@@ -90,7 +90,7 @@ my @tests =
     ( 'DDI'  , (3, 2, 0, 1) ),
 ;
 constant @subs =
-    :&task2_many
+#   :&task2_many # unstable output
     :&task2b,
     :&task2c,
     :&task2d,

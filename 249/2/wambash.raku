@@ -18,7 +18,7 @@ sub DI-string-match ($s) {
     gather { reduce &DI-reducer, ^@si, |@si }
 }
 
-multi MAIN (Bool :test($)!) {
+#multi MAIN (Bool :test($)!) {
     use Test;
     is-deeply DI-reducer((0,1,2,3), I, :f(&item)), (1,2,3);
     is-deeply DI-reducer((0,1,2,3), D, :f(&item)), (0,1,2);
@@ -29,8 +29,6 @@ multi MAIN (Bool :test($)!) {
     is-deeply DI-string-match('DDI'), (3,2,0,1);
     is-deeply DI-string-match('ID' x 100).head(2), (0,200);
     done-testing;
-}
+#}
 
-multi MAIN ($s) {
-    say DI-string-match $s
-}
+#multi MAIN ($s) { say DI-string-match $s }
