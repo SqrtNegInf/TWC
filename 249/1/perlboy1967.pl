@@ -1,27 +1,10 @@
 #!/usr/bin/env perl
 
-=pod
-
-The Weekly Challenge - 249
-- https://theweeklychallenge.org/blog/perl-weekly-challenge-249
-
-Author: Niels 'PerlBoy' van Dijke
-
-Task 1: Equal Pairs
-Submitted by: Mohammad S Anwar
-
-You are given an array of integers with even number of elements.
-
-Write a script to divide the given array into equal pairs such that:
-
-a) Each element belongs to exactly one pair.
-b) The elements present in a pair are equal.
-
-=cut
-
 use v5.32;
-use common::sense;
 use feature qw(signatures);
+
+use common::sense;
+
 
 use Test2::V0 -srand => 1;
 

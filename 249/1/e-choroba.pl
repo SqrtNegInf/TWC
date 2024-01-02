@@ -26,7 +26,7 @@ sub equal_pairs_odd(@ints) {
 }
 
 
-use Test2::V0 -srand => srand -srand => 1;
+use Test2::V0 -srand => 1;
 plan 2 + 1;
 
 my $type = 'count';
@@ -59,17 +59,3 @@ for (1, 2) {
     $type = 'odd';
     *equal_pairs = *equal_pairs_odd{CODE};
 }
-
-use Benchmark qw{ cmpthese };
-
-my @l = map int rand 1000, 1 .. 100_000;
-is equal_pairs_odd(@l), equal_pairs_count(@l), 'same';
-cmpthese(-3, {
-    odd   => sub { equal_pairs_odd(@l) },
-    count => sub { equal_pairs_count(@l) },
-});
-
-__END__
-        Rate   odd count
-odd   9.97/s    --  -82%
-count 55.5/s  456%    --

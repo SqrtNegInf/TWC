@@ -1,6 +1,8 @@
 #!/usr/bin/env perl
-#https://theweeklychallenge.org/blog/perl-weekly-challenge-249/
-use strict; use warnings; use v5.10;
+
+use v5.10;
+use strict; 
+use warnings; 
 
 if( @ARGV ) { say "@$_" for equal_pairs( @ARGV ) }
 else        { run_tests() }
