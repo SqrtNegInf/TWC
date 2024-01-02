@@ -211,18 +211,18 @@ November: 21
 December: 22
  
 ===> 037/1/ryan-thompson.pl <===
-Jan: 22 days
-Feb: 20 days
-Mar: 23 days
-Apr: 20 days
+Jan: 23 days
+Feb: 21 days
+Mar: 21 days
+Apr: 22 days
 May: 23 days
-Jun: 22 days
-Jul: 21 days
-Aug: 23 days
+Jun: 20 days
+Jul: 23 days
+Aug: 22 days
 Sep: 21 days
-Oct: 22 days
-Nov: 22 days
-Dec: 21 days
+Oct: 23 days
+Nov: 21 days
+Dec: 22 days
  
 ===> 037/1/saiftynet.pl <===
 Answer to 1st Challenge of week 37
