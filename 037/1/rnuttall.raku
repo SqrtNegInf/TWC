@@ -2,7 +2,8 @@
 
 use DateTime::Format;
 
-sub MAIN(Int() $year = Date.today().year()) {
+#sub MAIN(Int() $year = Date.today().year()) {
+    my $year = 2023;
     for 1..12 -> $month {
         my $d    = DateTime.new(year => $year, month => $month, day => 1);
         say strftime('%b', $d) ~ ": " ~
@@ -10,4 +11,4 @@ sub MAIN(Int() $year = Date.today().year()) {
                 .grep({$_ <= 5})
                 .elems;
     }
-}
+#}
