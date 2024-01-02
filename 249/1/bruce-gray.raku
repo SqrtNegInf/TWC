@@ -1,4 +1,5 @@
 #!/usr/bin/env raku
+
 # By storing @a in a Bag, we have all we need to both
 # check for an even count of each input number,
 # and dish them back out in pairs.

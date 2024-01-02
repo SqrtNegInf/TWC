@@ -1,11 +1,12 @@
 #!/usr/bin/env raku
 
-unit sub MAIN (*@ints where @ints.elems %% 2 && @ints.elems > 0 && all(@ints) ~~ Int, :v(:$verbose));
+#unit sub MAIN (*@ints where @ints.elems %% 2 && @ints.elems > 0 && all(@ints) ~~ Int, :v(:$verbose));
+my @ints = (3,2,3,2,2,2);
 
 my @output;
 my @sorted = @ints>>.Int.sort;
 
-say ":Sorted: { @sorted.join(",") }" if $verbose;
+#say ":Sorted: { @sorted.join(",") }" if $verbose;
 
 while @sorted
 {
@@ -15,11 +16,11 @@ while @sorted
   if $first == $second
   {
     @output.push: ($first, $second);
-    say ":Pair: $first,$second" if $verbose;
+    #say ":Pair: $first,$second" if $verbose;
   }
   else
   {
-    say ":Non-pair: $first,$second" if $verbose;
+    #say ":Non-pair: $first,$second" if $verbose;
     say "()";
     exit;
   }

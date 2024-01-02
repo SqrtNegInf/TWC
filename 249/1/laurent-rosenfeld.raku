@@ -1,4 +1,5 @@
 #!/usr/bin/env raku
+
 sub equal-pairs (@in) {
     my @pairs;
     for @in.sort -> $a, $b {

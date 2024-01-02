@@ -1,23 +1,6 @@
 #!/usr/bin/env raku
-# :vim ft=raku sw=4 expandtab  # 🦋 ∅∪∩∋∈∉ ≡ ≢ «␤ » ∴
-use v6;
+
 use Test;
-
-=begin comment
-249-1: Equal Pairs              Submitted by: Mohammad S Anwar
-You are given an array of integers with even number of elements.
-Write a script to divide the given array into equal pairs such that:
-a) Each element belongs to exactly one pair.
-b) The elements present in a pair are equal.
-
-Example 1
-Input: @ints = (3, 2, 3, 2, 2, 2)
-Output: (2, 2), (3, 3), (2, 2)
-
-Example 2
-Input: @ints = (1, 2, 3, 4)
-Output: ()
-=end comment
 
 my @Test =
     (3,2,3,2,2,2),  ((2,2), (3,3), (2,2)),
@@ -55,6 +38,3 @@ done-testing;
 
 my  @int = (1,1,2,2,2,2,3,3,3,3,3,3,4,4);
 say "\nInput: @int = (@int[])\nOutput: &equal-sets( @int)<>.raku()";
-
-exit;
-

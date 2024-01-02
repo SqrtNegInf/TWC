@@ -1,4 +1,5 @@
 #!/usr/bin/env raku
+
 use Test;
 
 is-deeply equal-pairs(3,2,3,2,2,2), ((2,2),(2,2),(3,3));

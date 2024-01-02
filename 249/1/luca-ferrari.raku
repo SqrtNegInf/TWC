@@ -1,13 +1,7 @@
 #!/usr/bin/env raku
 
-#
-# Perl Weekly Challenge 249
-# Task 1
-#
-# See <https://perlweeklychallenge.org/blog/perl-weekly-challenge-249/>
-#
-
-sub MAIN( *@nums where { @nums.elems %% 2 && @nums.grep( * ~~ Int ).elems == @nums.elems } ) {
+#sub MAIN( *@nums where { @nums.elems %% 2 && @nums.grep( * ~~ Int ).elems == @nums.elems } ) {
+my @nums = (3,2,3,2,2,2);
 
     my %pair-elements;
     %pair-elements{ $_ }++ for @nums;
@@ -19,4 +13,4 @@ sub MAIN( *@nums where { @nums.elems %% 2 && @nums.grep( * ~~ Int ).elems == @nu
     }
 
     @pairs.join( ", " ).say;
-}
+#}

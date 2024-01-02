@@ -8,15 +8,13 @@ sub equal-pairs(@nums --> List) {
 }
 
 #| Run test cases
-multi sub MAIN('test') {
+#multi sub MAIN('test') {
     use Test;
     plan 2;
 
     is sort(equal-pairs([3, 2, 3, 2, 2, 2])), ((2, 2), (2, 2), (3, 3)), 'Works for (3, 2, 3, 2, 2, 2)';
     is equal-pairs([1, 2, 3, 4]), (), 'Works for (1, 2, 3, 4)';
-}
+#}
 
 #| Take user provided list like 1 1 2 2 2 3
-multi sub MAIN(*@ints) {
-    say equal-pairs(@ints);
-}
+#multi sub MAIN(*@ints) { say equal-pairs(@ints); }

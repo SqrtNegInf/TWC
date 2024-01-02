@@ -1,14 +1,7 @@
 #!/usr/bin/env raku
-use v6 ;
 
-say "Enter an even number of integers, separated by blanks!" ;
-my $line = $*IN.get ;
-my @numbers = $line.words.map( {.Int} ) ;
-while (not @numbers.elems %% 2 ) {
-   say "Enter an even number of integers!" ;
-   $line = $*IN.get ;
-   @numbers = $line.words.map( {.Int} ) ;
-}
+my @numbers = (3,2,3,2,2,2);
+
 my %frequencies ;
 for @numbers -> $num {
    %frequencies{ $num }++ ;
