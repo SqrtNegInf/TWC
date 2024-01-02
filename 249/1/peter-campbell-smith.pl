@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-
-use v5.26;    # The Weekly Challenge - 2023-12-25
-use strict;   # Peter Campbell Smith
-use warnings; # Blog: http://ccgi.campbellsmiths.force9.co.uk/challenge
+use v5.36;
 
 equal_pairs(1, 2, 3, 4, 1, 2, 3, 4);
 equal_pairs(1, 2, 3, 4, 1, 2, 3);

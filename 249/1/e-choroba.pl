@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-use warnings;
-use strict;
-use experimental qw( signatures );
+use v5.36;
 
 sub equal_pairs_count(@ints) {
     my %seen;
@@ -27,7 +25,7 @@ sub equal_pairs_odd(@ints) {
 
 
 use Test2::V0 -srand => 1;
-plan 2 + 1;
+plan 2;
 
 my $type = 'count';
 *equal_pairs = *equal_pairs_count{CODE};

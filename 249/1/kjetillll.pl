@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-
-use v5.10;
-use strict; 
-use warnings; 
+use v5.36;
 
 if( @ARGV ) { say "@$_" for equal_pairs( @ARGV ) }
 else        { run_tests() }
