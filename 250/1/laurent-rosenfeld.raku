@@ -1,4 +1,5 @@
 #!/usr/bin/env raku
+
 sub smallest_index (@in) {
     for 0..@in.end -> $i {
         return $i if $i % 10 == @in[$i];

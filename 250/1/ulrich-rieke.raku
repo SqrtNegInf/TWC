@@ -1,9 +1,6 @@
 #!/usr/bin/env raku
-use v6 ;
 
-say "Enter some integers, separated by blanks!" ;
-my $line = $*IN.get ;
-my @numbers = $line.words.map( {.Int} ) ;
+my @numbers = (0, 1, 2);
 my @selected ;
 for (0..@numbers.elems - 1 ) -> $pos {
    if ( $pos % 10 == @numbers[ $pos ] ) {

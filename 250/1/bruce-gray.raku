@@ -1,4 +1,5 @@
 #!/usr/bin/env raku
+
 sub task1 ( @ns --> Int ) {
     return @ns.keys.first({ ($_ mod 10) == @ns[$_] }) // -1;
 }
@@ -11,6 +12,7 @@ constant @tests =
 
     ( 11, (1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1) ),
 ;
+
 use Test; plan +@tests;
 for @tests -> ( $expected, @in ) {
     is task1(@in), $expected;

@@ -6,7 +6,7 @@ sub smallest-index(@ints --> Int:D) {
 }
 
 #| Run test cases
-multi sub MAIN('test') {
+#multi sub MAIN('test') {
     use Test;
     plan 3;
 
@@ -14,9 +14,7 @@ multi sub MAIN('test') {
     is smallest-index([4, 3, 2, 1]), 2, 'Works for (4, 3, 2, 1)';
     is smallest-index([1, 2, 3, 4, 5, 6, 7, 8, 9, 0]), -1,
         'Works for (1, 2, 3, 4, 5, 6, 7, 8, 9, 0)';
-}
+#}
 
 #| Take user provided list like 1 1 2 2 2 3
-multi sub MAIN(*@ints) {
-    say smallest-index(@ints);
-}
+#multi sub MAIN(*@ints) { say smallest-index(@ints); }

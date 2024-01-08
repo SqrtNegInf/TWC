@@ -1,5 +1,4 @@
 #!/usr/bin/env raku
-use v6;
 
 sub smallestIndex(@ints) {
   for 0 .. @ints.end -> $i {

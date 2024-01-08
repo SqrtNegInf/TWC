@@ -1,7 +1,7 @@
 #!/usr/bin/env raku
 
 sub MAIN(
-    *@ints
+    @ints = (0, 1, 2)
 ) {
     my $result = -1;
 
