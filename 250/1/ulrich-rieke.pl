@@ -2,12 +2,10 @@
 use strict ;
 use warnings ;
 use feature 'say' ;
+
 use List::Util qw ( min ) ;
 
-say "Enter some integers separated by blanks!" ;
-my $line = <STDIN> ;
-chomp $line ;
-my @numbers = split( /\s/ , $line ) ;
+my @numbers = (0, 1, 2);
 my @selected ;
 for my $pos ( 0..scalar( @numbers ) - 1 ) {
    if ( $pos % 10 == $numbers[ $pos ] ) {

@@ -1,24 +1,8 @@
 #!/usr/bin/env perl
 
-=pod
+use v5.36;
 
-The Weekly Challenge - 250
-- https://theweeklychallenge.org/blog/perl-weekly-challenge-250
-
-Author: Niels 'PerlBoy' van Dijke
-
-Task 1: Smallest Index
-Submitted by: Mohammad S Anwar
-
-You are given an array of integers, @ints.
-
-Write a script to find the smallest index i such that i mod 10 == $ints[i] otherwise return -1.
-
-=cut
-
-use v5.32;
-use feature qw(signatures);
-use common::sense;
+#use common::sense;
 
 use Test2::V0 -srand => 1;
 

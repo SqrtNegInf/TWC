@@ -1,6 +1,4 @@
 #!/usr/bin/env perl
-# The Weekly Challenge 250
-# Task 1 Smallest Index
 use v5.30.0;
 use warnings;
 

@@ -1,11 +1,10 @@
 #!/usr/bin/env perl
 
 use v5.16;    # The Weekly Challenge - 2024-01-01
-use utf8;     # Week 250 task 1 - Smallest index
 use strict;   # Peter Campbell Smith
 use warnings; # Blog: http://ccgi.campbellsmiths.force9.co.uk/challenge
 
-binmode STDOUT, ':utf8';
+#binmode STDOUT, ':utf8';
 
 smallest_index(4, 3, 2, 1);
 smallest_index(2, 4, 6, 7, 3, 9, 1, 0, 2, 4, 7, 8, 2, 3);
