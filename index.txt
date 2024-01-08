@@ -524,8 +524,8 @@ Challenge titles and Rosetta-code correspondences (exact, and otherwise)
 
 250-1 Smallest Index
 250-2 Alphanumeric String Value
-251-1
-251-2
+251-1 Concatenation Value
+251-2 Lucky Numbers
 252-1
 252-2
 253-1
