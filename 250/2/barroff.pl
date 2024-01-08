@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
 
-use v5.38;
+use v5.36;
 
 sub alphanumeric_string_value (@alphanumstring) {
     use List::Util qw( max );

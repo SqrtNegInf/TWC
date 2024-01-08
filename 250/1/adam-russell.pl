@@ -1,11 +1,6 @@
 #!/usr/bin/env perl
-use v5.38;
-##
-# You are given an array of integers, @ints.
-# Write a script to find the smallest index i such that 
-#     i mod 10 == $ints[i] 
-# otherwise return -1.
-##   
+use v5.36;
+
 sub smallest_index{
     do{
         return $_ if $_ % 10 == $_[$_];  

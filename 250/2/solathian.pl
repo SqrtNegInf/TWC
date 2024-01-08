@@ -1,5 +1,5 @@
 #!/usr/bin/env perl
-use v5.38;
+use v5.36;
 
 # Challenge 250 - 2 - Alphanumeric String Value
 # You are given an array of alphanumeric strings.

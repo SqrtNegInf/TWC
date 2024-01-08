@@ -1,5 +1,5 @@
 #!/usr/bin/env perl
-use v5.38;
+use v5.36;
 
 sub smallestIndex(@ints) {
   foreach my $i ( 0 .. $#ints ) {
