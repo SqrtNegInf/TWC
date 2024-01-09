@@ -1,38 +1,38 @@
  
 ===> 246/1/0rir.raku <===
 Output:
-17
-36
-31
-10
-32
+11
+4
+45
 24
+22
+48
  
 ===> 246/1/arne-sommer.raku <===
-4
-31
-44
+10
+17
+22
+32
+38
 46
-47
-48
  
 ===> 246/1/athanasius.raku <===
 Output
 
-   3
+   2
   11
-  22
-  34
-  35
+  19
+  33
+  41
   48
  
 ===> 246/1/barroff.raku <===
-1
-12
-25
-15
-9
-17
+20
+39
+41
+19
+2
+48
  
 ===> 246/1/bruce-gray.raku <===
 1..2
@@ -40,17 +40,17 @@ ok 1 - In 1000 draws, all balls 1..49 were drawn at least once.
 ok 2 - In 1000 draws, no faults were found.
  
 ===> 246/1/laurent-rosenfeld.raku <===
-(34 9 22 45 35 38)
+(4 8 45 35 9 10)
  
 ===> 246/1/lubos-kolouch.raku <===
 1..1
 ok 1 - Six numbers are picked
-4
-12
-27
+9
+15
+32
 34
-36
-49
+42
+46
  
 ===> 246/1/luca-ferrari.raku <===
 22
@@ -61,12 +61,12 @@ ok 1 - Six numbers are picked
 48
  
 ===> 246/1/mark-anderson.raku <===
-4
-31
-44
+10
+17
+22
+32
+38
 46
-47
-48
  
 ===> 246/1/massa.raku <===
 ok 1 - 
@@ -78,18 +78,18 @@ ok 6 -
  
 ===> 246/1/packy-anderson.raku <===
 Output:
-8
-18
-19
-20
+23
+37
+39
+41
 42
-45
+43
  
 ===> 246/1/robert-dicicco.raku <===
 (5 7 15 29 32 47)
  
 ===> 246/1/roger-bell-west.raku <===
-7, 10, 11, 37, 40, 45
+4, 8, 30, 40, 45, 47
  
 ===> 246/1/wambash.raku <===
 ok 1 - 

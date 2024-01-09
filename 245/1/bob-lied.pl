@@ -31,17 +31,17 @@ sub langSort_S($lang, $popularity)
 
 sub runTest
 {
-    use Test2::V0;
+    use Test::More;
 
     for my $version ( \&langSort_M, \&langSort_S )
     {
 
-    is( $version->( [<perl c python >],   [2,1,3] ), [<c perl python   >], "Example 1");
-    is( $version->( ['c++', 'haskell', 'java'], [1,3,2] ), ['c++', 'java', 'haskell'], "Example 2");
+    is_deeply( $version->( [<perl c python >],   [2,1,3] ), [<c perl python   >], "Example 1");
+    is_deeply( $version->( ['c++', 'haskell', 'java'], [1,3,2] ), ['c++', 'java', 'haskell'], "Example 2");
 
-    is( $version->( [qw(a b c d e)], [1..5] ), [qw(a b c d e)], "More than 3");
-    is( $version->( [qw(a b c d e)], [5,4,3,2,1] ), [qw(e d c b a)], "More than 3 backwards");
-    is( $version->( [qw(a b c d e)], [5,1,3,2,4] ), [qw(b d c e a)], "More than 3 shuffled");
+    is_deeply( $version->( [qw(a b c d e)], [1..5] ), [qw(a b c d e)], "More than 3");
+    is_deeply( $version->( [qw(a b c d e)], [5,4,3,2,1] ), [qw(e d c b a)], "More than 3 backwards");
+    is_deeply( $version->( [qw(a b c d e)], [5,1,3,2,4] ), [qw(b d c e a)], "More than 3 shuffled");
 
     }
 

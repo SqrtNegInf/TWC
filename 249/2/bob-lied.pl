@@ -31,7 +31,7 @@ sub di($s)
 
 sub runTest
 {
-    use Test2::V0;
+    use Test2::V0 -srand => 1;
 
     is(di("IDID"), [0,4,1,3,2], "Example 1");
     is(di("III"),  [0,1,2,3  ], "Example 2");

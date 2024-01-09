@@ -21,12 +21,12 @@ sub MAIN() {
     }
     else {
         #| Run test cases
-        use Test2::V0 qw( is plan );
-        plan 2;
+        use Test::More;
 
         is most_frequent_letter_pair('abcdbca'), 'bc', "works for ('abcdbca')";
         is most_frequent_letter_pair('cdeabeabfcdfabgcd'), 'ab',
           "works for ('cdeabeabfcdfabgcd')";
+        done_testing;
     }
 }
 

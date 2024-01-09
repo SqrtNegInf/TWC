@@ -67,7 +67,7 @@ sub big3(@ints)
 
 sub runTest
 {
-    use Test2::V0;
+    use Test2::V0 -srand => 1;
     use builtin qw/true false/; no warnings "experimental::builtin";
 
     is( is3([    0]), true,  "is3 0");

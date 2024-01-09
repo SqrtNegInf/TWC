@@ -12,15 +12,15 @@ sub sort_language ( $lang, @positions ) {
 sub MAIN() {
 
     #| Run test cases
-    use Test2::V0 qw( is plan );
-    plan 2;
+    use Test::More;
 
-    is sort_language( [ 'perl', 'c', 'python' ], 2, 1, 3 ),
+    is_deeply sort_language( [ 'perl', 'c', 'python' ], 2, 1, 3 ),
       [ 'c', 'perl', 'python' ],
       "works for ('c', 'perl', 'python')";
-    is sort_language( [ 'c++', 'haskell', 'java' ], 1, 3, 2 ),
+    is_deeply sort_language( [ 'c++', 'haskell', 'java' ], 1, 3, 2 ),
       [ 'c++', 'java', 'haskell' ],
       "works for ('c++', 'java', 'haskell')";
+    done_testing;
 }
 
 MAIN();

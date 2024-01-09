@@ -98,7 +98,7 @@ ok   input: III   got: 0 1 2 3   expected: 0 1 2 3
 ok   check: III     => 0 1 2 3
 ok   input: DDI   got: 3 2 0 1   expected: 3 2 0 1
 ok   check: DDI     => 3 2 0 1
-ok   check: IIDIDDIDDIDIDIIIDDIIIDDIDDDIDI     => 0 1 30 2 29 28 3 27 26 4 25 5 24 6 7 8 23 22 9 10 11 21 20 12 19 18 17 13 16 14 15
+ok   check: DIDDIDIDIIIIIDIDIIDDIDDIDDDIII     => 30 0 29 28 1 27 2 26 3 4 5 6 7 25 8 24 9 10 23 22 11 21 20 12 19 18 17 13 14 15 16
  
 ===> 249/2/lubos-kolouch.pl <===
 1..3

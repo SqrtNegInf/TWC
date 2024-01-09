@@ -16,7 +16,7 @@ ok 7 - Hundreds
 1..7
  
 ===> 245/2/bob-lied.pl <===
-# Seeded srand with seed '20231205' from local date.
+# Seeded srand with seed '1' from import arg.
 ok 1 - is3 0
 ok 2 - is3 8
 ok 3 - is3 9
