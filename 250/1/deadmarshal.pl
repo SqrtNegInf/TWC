@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
+use v5.36;
 
 sub smallest_index{
   map{return $_ if $_ % 10 == $_[0]->[$_]}0..$#{$_[0]};

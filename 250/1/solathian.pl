@@ -1,13 +1,8 @@
 #!/usr/bin/env perl
 use v5.36;
+
 use builtin qw(indexed);
 no warnings "experimental";
-
-
-# Challenge 250 - 1 - Smallest Index
-# You are given an array of integers, @ints.
-# Write a script to find the smallest index i such that i mod 10 == $ints[i] otherwise return -1.
-
 
 small(0,1,2);                           # 0
 small(4, 3, 2, 1);                      # 2

@@ -1,4 +1,5 @@
 #!/usr/bin/env perl
+use v5.36;
 
 my $smallest_index = sub {
     my $retval=
