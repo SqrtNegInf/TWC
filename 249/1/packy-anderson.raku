@@ -31,7 +31,7 @@ sub solution(@ints) {
   }
   else {
     @pairs = @pairs.map({ qq{($_[0], $_[1])} });
-    say 'Output: ' ~ @pairs.join(', ');
+    say 'Output: ' ~ @pairs.sort.join(', ');
   }
 }
 

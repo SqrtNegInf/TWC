@@ -4,7 +4,7 @@ use Test;
 is most-freq-pair("abcdbca"),           "bc";
 is most-freq-pair("cdeabeabfcdfabgcd"), "ab";
 
-say most-freq-pair([~] ("a".."z").roll(100_000));
+#say most-freq-pair([~] ("a".."z").roll(100_000));
 
 multi most-freq-pair($str where .chars < 100_000)
 {

@@ -42,7 +42,7 @@ bc
 ===> 247/2/mark-anderson.raku <===
 ok 1 - 
 ok 2 - 
-er
+lx
  
 ===> 247/2/packy-anderson.raku <===
 Example 1:
