@@ -1,6 +1,6 @@
 #!/usr/bin/env raku
 
-multi sub MAIN('test') {
+#multi sub MAIN('test') {
     use Test;
     is alpha-string("perl"), 4;
     is alpha-string("2"),2;
@@ -14,11 +14,9 @@ multi sub MAIN('test') {
     is max-alpha("perl", "2", "000", "python", "r4ku"),6;
     is max-alpha("001", "1", "000", "0001"), 1;
     done-testing;
-}
+#}
 
-multi sub MAIN(*@vals) {
-    max-alpha(|@vals).say;
-}
+#multi sub MAIN(*@vals) { max-alpha(|@vals).say; }
 
 sub alpha-string($v) {
     $v ~~ /^ \d+ $/ ?? $v.Int !! $v.codes;

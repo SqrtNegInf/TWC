@@ -1,7 +1,7 @@
 #!/usr/bin/env raku
 
 sub MAIN(
-    *@alphanumstr
+    @alphanumstr = ('perl', 2, 'r4ku')
 ) {
     my $maxvalue = -∞;
 

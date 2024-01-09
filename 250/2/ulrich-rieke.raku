@@ -1,5 +1,4 @@
 #!/usr/bin/env raku
-use v6 ;
 
 sub convert( $aString ) {
    if ( $aString ~~ /\D/ ) {
@@ -10,9 +9,7 @@ sub convert( $aString ) {
    }
 }
 
-say "Enter some strings, separated by blanks!" ;
-my $line = $*IN.get ;
-my @strings = $line.words ;
+my @strings = <perl r4ku>;
 my @converted ;
 @strings.map( { @converted.push( convert( $_ ) ) } ) ;
 say @converted.max ;
