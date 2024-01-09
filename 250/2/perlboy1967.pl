@@ -1,31 +1,8 @@
 #!/usr/bin/env perl
+use v5.36;
+no warnings;
 
-=pod
-
-The Weekly Challenge - 250
-- https://theweeklychallenge.org/blog/perl-weekly-challenge-250
-
-Author: Niels 'PerlBoy' van Dijke
-
-Task 2: Alphanumeric String Value
-Submitted by: Mohammad S Anwar
-
-You are given an array of alphanumeric strings.
-
-Write a script to return the maximum value of alphanumeric string in the given array.
-
-The value of alphanumeric string can be defined as
-
-a) The numeric representation of the string in base 10 if it is made up of digits only.
-b) otherwise the length of the string
-
-=cut
-
-use v5.32;
-use feature qw(signatures);
-use common::sense;
-
-use Test2::V0 -srand => 1;
+use Test::More;
 
 use List::Util qw(max);
 

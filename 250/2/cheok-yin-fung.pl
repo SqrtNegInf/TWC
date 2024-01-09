@@ -1,8 +1,7 @@
 #!/usr/bin/env perl
-# The Weekly Challenge 250
-# Task 2 Alphanumeric String Value
 use v5.30.0;
 use warnings;
+
 use List::Util qw/max/;
 
 sub asv {

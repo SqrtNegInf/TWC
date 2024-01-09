@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-
 use v5.16;    # The Weekly Challenge - 2024-01-01
-use utf8;     # Week 250 task 2 - Alphanumeric string value
 use strict;   # Peter Campbell Smith
 use warnings; # Blog: http://ccgi.campbellsmiths.force9.co.uk/challenge
 

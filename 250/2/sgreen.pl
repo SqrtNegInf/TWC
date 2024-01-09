@@ -16,4 +16,4 @@ sub main (@values) {
     say max( map { calculate_value($_) } @values );
 }
 
-main(@ARGV);
+main(<perl 2 r4ku>);

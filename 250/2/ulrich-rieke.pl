@@ -14,10 +14,7 @@ sub convert {
    }
 }
 
-say "Enter some strings, separated by blanks!" ;
-my $line = <STDIN> ;
-chomp $line ;
-my @strings = split( /\s/ , $line ) ;
+my @strings = <perl 2 r4ku>;
 my @converted ;
 for my $s ( @strings ) {
    push @converted , convert( $s ) ;

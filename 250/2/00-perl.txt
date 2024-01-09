@@ -1,0 +1,126 @@
+ 
+===> 250/2/adam-russell.pl <===
+6
+1
+ 
+===> 250/2/athanasius.pl <===
+
+Challenge 250, Task #2: Alphanumeric String Value (Perl)
+
+Running the test suite
+ok 1 - Example 1
+ok 2 - Example 2
+1..2
+ 
+===> 250/2/barroff.pl <===
+# Seeded srand with seed '20240109' from local date.
+1..2
+ok 1 - works for ("perl", "2", "000", "python", "r4ku")
+ok 2 - works for ("001", "1", "000", "0001")
+ 
+===> 250/2/bob-lied.pl <===
+ok 1 - Example 1
+ok 2 - Example 1
+ok 3 - Octal?
+ok 4 - Hex
+1..4
+ 
+===> 250/2/cheok-yin-fung.pl <===
+# Seeded srand with seed '1' from import arg.
+ok 1
+ok 2
+1..2
+ 
+===> 250/2/dave-jacoby.pl <===
+Input:  @alphanumstr = ("perl", "2", "000", "python", "r4ku")
+Output: 6
+
+Input:  @alphanumstr = ("001", "1", "000", "0001")
+Output: 1
+
+ 
+===> 250/2/deadmarshal.pl <===
+6
+1
+ 
+===> 250/2/e-choroba.pl <===
+1..2
+ok 1 - Example 1
+ok 2 - Example 2
+ 
+===> 250/2/jaldhar-h-vyas.pl <===
+-Inf
+ 
+===> 250/2/jo-37.pl <===
+# Seeded srand with seed '1' from import arg.
+ok 1 - example 1
+ok 2 - example 2
+1..2
+ 
+===> 250/2/lubos-kolouch.pl <===
+1..5
+ok 1 - Test Example 1
+ok 2 - Test Example 2
+ok 3 - Test Empty Array
+ok 4 - Test All Digits
+ok 5 - Test All Letters
+ 
+===> 250/2/nelo-tovar.pl <===
+Input : @alphanumstr = ("perl", 2, "000", "python", "r4ku")
+Output : 6
+ 
+Input : @alphanumstr = ("001", 1, "000", "0001")
+Output : 1
+ 
+ 
+===> 250/2/packy-anderson.pl <===
+Example 1:
+Input: @alphanumstr = ("perl", "2", "000", "python", "r4ku")
+Output: 6
+
+Example 2:
+Input: @alphanumstr = ("001", "1", "000", "0001")
+Output: 1
+ 
+===> 250/2/perlboy1967.pl <===
+ok 1
+ok 2
+1..2
+ 
+===> 250/2/peter-campbell-smith.pl <===
+
+Input:  @alphanumstr = ('perl', '2', '000', 'python', 'r4ku')
+Output: 6
+
+Input:  @alphanumstr = ('001', '1', '000', '0001')
+Output: 1
+
+Input:  @alphanumstr = ('3', 'blind', 'mice', 'and', '10', 'green', 'bottles')
+Output: 10
+ 
+===> 250/2/peter-meszaros.pl <===
+ok 1 - Example 1
+ok 2 - Example 2
+1..2
+ 
+===> 250/2/roger-bell-west.pl <===
+1..2
+ok 1 - example 1
+ok 2 - example 2
+ 
+===> 250/2/sgreen.pl <===
+4
+ 
+===> 250/2/solathian.pl <===
+6
+7
+ 
+===> 250/2/ulrich-rieke.pl <===
+4
+ 
+===> 250/2/wlmb.pl <===
+perl 2 r4ku -> 4
+ 
+===> 250/2/zapwai.pl <===
+Input: @alphanumstr = 001 1 000 0001
+Output: 0001
