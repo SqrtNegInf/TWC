@@ -7,7 +7,7 @@ use Getopt::Long;
 my $DoTest  = 0;
 
 GetOptions("test" => \$DoTest);
-exit(!runTest()) if $DoTest;
+runTest(); exit;
 
 say smallestIndex(@ARGV);
 
@@ -18,7 +18,7 @@ sub smallestIndex(@ints)
 
 sub runTest
 {
-    use Test2::V0;
+    use Test::More;
 
     is( smallestIndex(0,1,2  ),  0, "Example 1");
     is( smallestIndex(4,3,2,1),  2, "Example 2");

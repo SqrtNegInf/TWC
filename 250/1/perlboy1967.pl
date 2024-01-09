@@ -1,10 +1,8 @@
 #!/usr/bin/env perl
-
 use v5.36;
+no warnings;
 
-#use common::sense;
-
-use Test2::V0 -srand => 1;
+use Test::More;
 
 use List::MoreUtils qw(first_index);
 
