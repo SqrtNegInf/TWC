@@ -1,10 +1,10 @@
 #!/usr/bin/env perl
-use v5.30;
+use v5.36;
 
 use List::Util qw( max );
 
 my @alphanumstr = ("perl", "2", "000", "python", "r4ku");
-my @alphanumstr = ("001", "1", "000", "0001");
+#my @alphanumstr = ("001", "1", "000", "0001");
 my @nums = map {length $_} @alphanumstr;
 for my $i (0 .. $#alphanumstr) {
     if ($alphanumstr[$i] =~ /^(\d+)$/) {

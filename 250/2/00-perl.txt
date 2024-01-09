@@ -122,5 +122,5 @@ ok 2 - example 2
 perl 2 r4ku -> 4
  
 ===> 250/2/zapwai.pl <===
-Input: @alphanumstr = 001 1 000 0001
-Output: 0001
+Input: @alphanumstr = perl 2 000 python r4ku
+Output: 6

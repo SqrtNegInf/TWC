@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-use v5.16;    # The Weekly Challenge - 2024-01-01
-use strict;   # Peter Campbell Smith
-use warnings; # Blog: http://ccgi.campbellsmiths.force9.co.uk/challenge
+use v5.36;
 
 alpha_string_value('perl', '2', '000', 'python', 'r4ku');
 alpha_string_value('001', '1', '000', '0001');
