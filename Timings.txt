@@ -25,3 +25,5 @@ New pattern: now runs with no CPU competition, will probably affect numbers
 2023-09-12 001-233 real 38m25s  user 252m57s  sys 35m52s
 2023-10-09 001-237 real 41m09s  user 241m17s  sys 38m38s
 2023-11-14 001-242 real 36m41s  user 244m02s  sys 32m43s  faster after a reboot?
+2024-01-09 001-250 real 40m23s  user 255m49s  sys 35m41s
+
