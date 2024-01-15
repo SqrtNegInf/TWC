@@ -1,9 +1,6 @@
 #!/usr/bin/env raku
-use v6 ;
 
-say "Enter some integers, separated by blanks!" ;
-my $line = $*IN.get ;
-my @numbers = $line.words ;
+my @numbers = (10, 7, 31, 5, 2, 2);
 my $sum = 0 ;
 while ( @numbers.elems > 0 ) {
    if ( @numbers.elems > 1 ) {

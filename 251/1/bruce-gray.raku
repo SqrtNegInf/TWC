@@ -1,4 +1,5 @@
 #!/usr/bin/env raku
+
 sub task1a ( @ns --> Numeric ) {
     my $half = +@ns div 2;
     my $odd  = +@ns !%% 2;
@@ -9,6 +10,7 @@ sub task1a ( @ns --> Numeric ) {
 
     return (@left »~« @right.reverse).sum + ($middle // 0);
 }
+
 sub task1b ( @ns --> Numeric ) {
     my @r = @ns;
     my @l = @r.splice(0, * div 2);
@@ -19,10 +21,12 @@ sub task1b ( @ns --> Numeric ) {
     return (@l »~« @r.reverse).sum
          + ($m // 0);
 }
+
 sub task1c ( @ns --> Numeric ) {
     return (@ns.head(@ns/2) »~« @ns.tail(@ns/2).reverse).sum
          + (@ns.skip(@ns/2)[0] if @ns % 2);
 }
+
 sub task1d ( @ns_in --> Numeric ) {
     my @ns = @ns_in;
 
@@ -32,6 +36,7 @@ sub task1d ( @ns_in --> Numeric ) {
 
     return $ret;
 }
+
 sub task1e ( @ns --> Numeric ) {
     my ($i, $j) = 0, @ns.end;
 
@@ -55,6 +60,7 @@ my @tests =
     (  112, (  1,  2, 10 ) ),
     (    0, [] ),
 ;
+
 use Test; plan +@tests * @subs;
 for @subs -> ( :key($sub_name), :value(&task1) ) {
     for @tests -> ( $expected, @in ) {

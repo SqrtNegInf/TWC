@@ -1,8 +1,8 @@
 #!/usr/bin/env raku
 
-sub MAIN(
-    *@ints
-) {
+#sub MAIN(
+  my  @ints  = (10, 7, 31, 5, 2, 2);
+#) {
     my $total = 0;
 
     while @ints.elems > 1 {
@@ -14,4 +14,4 @@ sub MAIN(
     }
 
     say $total;
-}
+#}

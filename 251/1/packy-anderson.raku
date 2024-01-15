@@ -1,5 +1,4 @@
 #!/usr/bin/env raku
-use v6;
 
 sub concatenationValue(@ints) {
   return 0        if @ints.elems == 0; # no elements

@@ -8,14 +8,12 @@ sub concatenation-value (+@ints) {
     andthen .sum + ($is-odd && @ints[$hl])
 }
 
-multi MAIN (Bool :test($)!) {
+#multi MAIN (Bool :test($)!) {
     use Test;
     is concatenation-value( 1,  2, 10), 112;
     is concatenation-value( 6, 12, 25, 1), 1286;
     is concatenation-value(10,  7, 31, 5, 2, 2), 489;
     done-testing;
-}
+#}
 
-multi MAIN (*@ints) {
-    say concatenation-value @ints
-}
+#multi MAIN (*@ints) { say concatenation-value @ints }
