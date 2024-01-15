@@ -1,5 +1,5 @@
 #!/usr/bin/env perl
-use v5.38;
+use v5.36;
 use Data::Dump q/pp/;
 sub lucky_number{
     my $matrix = shift;
