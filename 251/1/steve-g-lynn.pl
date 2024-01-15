@@ -1,5 +1,4 @@
 #!/usr/bin/env perl
-# Perl 4.019 on DOSBOX
 
 sub concatenation_value {
   local(@ints)=@_;

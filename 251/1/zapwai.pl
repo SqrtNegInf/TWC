@@ -1,5 +1,6 @@
 #!/usr/bin/env perl
 use v5.30;
+
 my @ints = (6, 12, 25, 1);
 say "Input: \@ints = (" . join(", ", @ints) . ")";
 my $sum = 0;

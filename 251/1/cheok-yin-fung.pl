@@ -1,8 +1,7 @@
 #!/usr/bin/env perl
-# The Weekly Challenge 251
-# Task 1 Concatenation Value
 use v5.30.0;
 use warnings;
+
 use List::Util qw/sum/;
 use List::MoreUtils qw/pairwise/;
 

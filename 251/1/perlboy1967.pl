@@ -1,24 +1,5 @@
 #!/usr/bin/env perl
 
-=pod
-
-The Weekly Challenge - 251
-- https://theweeklychallenge.org/blog/perl-weekly-challenge-251
-
-Author: Niels 'PerlBoy' van Dijke
-
-Task 1: Concatenation Value
-Submitted by: Mohammad S Anwar
-
-You are given an array of integers, @ints.
-
-Write a script to find the concatenation value of the given array.
-
-The concatenation of two numbers is the number formed by concatenating
-their numerals.
-
-=cut
-
 use v5.32;
 use feature qw(signatures);
 use common::sense;

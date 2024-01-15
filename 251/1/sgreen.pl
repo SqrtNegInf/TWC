@@ -23,4 +23,4 @@ sub main (@ints) {
     say $solution;
 }
 
-main(@ARGV);
+main( (10, 7, 31, 5, 2, 2) );
