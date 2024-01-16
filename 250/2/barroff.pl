@@ -14,14 +14,14 @@ sub MAIN() {
     }
     else {
         #| Run test cases
-        use Test2::V0 qw( is plan );
-        plan 2;
+        use Test::More;
 
         is alphanumeric_string_value(
             ( "perl", "2", "000", "python", "r4ku" ) ), 6,
           'works for ("perl", "2", "000", "python", "r4ku")';
         is alphanumeric_string_value( ( "001", "1", "000", "0001" ) ), 1,
           'works for ("001", "1", "000", "0001")';
+        done_testing;
     }
 }
 
