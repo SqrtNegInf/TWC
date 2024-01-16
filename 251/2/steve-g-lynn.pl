@@ -1,5 +1,4 @@
 #!/usr/bin/env perl
-#perl 4.019 on DOSBOX
 
 sub matrix {
  local ($nrow, $ncol, @data)=@_;

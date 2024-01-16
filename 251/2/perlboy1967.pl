@@ -1,26 +1,8 @@
 #!/usr/bin/env perl
 
-=pod
-
-The Weekly Challenge - 251
-- https://theweeklychallenge.org/blog/perl-weekly-challenge-251
-
-Author: Niels 'PerlBoy' van Dijke
-
-Task 2: Lucky Numbers
-Submitted by: Mohammad S Anwar
-
-You are given a m x n matrix of distinct numbers.
-
-Write a script to return the lucky number, if there is one, or -1 if not.
-
-A lucky number is an element of the matrix such that it is
-the minimum element in its row and maximum in its column.
-
-=cut
-
 use v5.32;
 use feature qw(signatures);
+
 use common::sense;
 
 use Test2::V0 -srand => 1;

@@ -1,7 +1,6 @@
 #!/usr/bin/env perl
 
 use v5.16;    # The Weekly Challenge - 2024-01-08
-use utf8;     # Week 251 task 2 - Lucky numbers
 use strict;   # Peter Campbell Smith
 use warnings; # Blog: http://ccgi.campbellsmiths.force9.co.uk/challenge
 

@@ -6,6 +6,7 @@ use experimental qw{ say postderef signatures state };
 
 use List::Util qw{ min max };
 use JSON;
+
 my $j = JSON->new->pretty;
 
 my @examples = (

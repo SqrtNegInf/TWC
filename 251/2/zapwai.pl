@@ -1,6 +1,8 @@
 #!/usr/bin/env perl
 use v5.30;
+
 use List::Util qw( max min );
+
 my $matrix = [ [ 3,  7,  8],
 	       [ 9, 11, 13],
 	       [15, 16, 17],

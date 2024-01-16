@@ -1,15 +1,9 @@
 #!/usr/bin/env perl
 
-# The Weekly Challenge 251 - By Nelo Tovar
-#
-# https://theweeklychallenge.org/blog/perl-weekly-challenge-251/
-#
-# Task 2 - Lucky Numbers
-#
-
+use v5.28;
 use strict;
 use warnings;
-use v5.28;
+
 use List::Util qw (min max);
 use Data::Dump qw(dump);
 

@@ -1,8 +1,7 @@
 #!/usr/bin/env perl
-# The Weekly Challenge 251
-# Task 2 Lucky Number
 use v5.30.0;
 use warnings;
+
 use List::Util qw/min max first/;
 
 sub ln {
