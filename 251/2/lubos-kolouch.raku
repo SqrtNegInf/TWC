@@ -1,4 +1,5 @@
 #!/usr/bin/env raku
+
 sub lucky-number(@matrix) {
     for @matrix.kv -> $i, @row {
         my $min-row = @row.min;

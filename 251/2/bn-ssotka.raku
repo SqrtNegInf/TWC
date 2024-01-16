@@ -1,12 +1,5 @@
 #!/usr/bin/env raku
 
-# You are given a m x n matrix of distinct numbers.
-
-# Write a script to return the lucky number, if there is one, or -1 if not.
-
-# A lucky number is an element of the matrix such that it is
-# the minimum element in its row and maximum in its column.
-
 sub get-lucky (@matrix) {
     my @row_mins = @matrix.map: *.min; # get the mins of each row
     my @rotated_matrix = [Z] @matrix;  # rotate the matrix

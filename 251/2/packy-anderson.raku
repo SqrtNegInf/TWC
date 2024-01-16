@@ -1,5 +1,4 @@
 #!/usr/bin/env raku
-use v6;
 
 sub maxCols(@matrix) {
   my @rotated; # rotate cols to rows

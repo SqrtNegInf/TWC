@@ -1,16 +1,6 @@
 #!/usr/bin/env raku
-use v6 ;
-
-say "Enter m lines of n integers, separated by blanks on every line!" ;
-say "Enter <return> to end!" ;
-my @matrix ;
-my $lucky = -1 ;
-my $line = $*IN.get ;
-while ( $line ) {
-   my @numbers = $line.words.map( {.Int} ) ;
-   @matrix.push( @numbers ) ;
-   $line = $*IN.get ;
-}
+my $lucky;
+my @matrix  = ([3, 7, 8], [9, 11, 13], [15, 16, 17]);
 my @rowminima ;
 my @colmaxima ;
 my @columns ;

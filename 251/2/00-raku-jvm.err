@@ -1,0 +1,10 @@
+Potential difficulties:
+    Use of uninitialized value of type Any in string context.
+    Methods .^name, .raku, .gist, or .say can be used to stringify it to something meaningful.
+    at /Users/dhoekman/PWC/251/2/lib/Math/Matrix.rakumod (Math::Matrix):930
+    ------> [32mrefix:<MM>(List  $m --> Math::Matrix:D) [33m⏏[31mis tighter(&postcircumfix:<[ ]>) is expo[0m
+The iterator of this Seq is already in use/consumed by another Seq (you
+might solve this by adding .cache on usages of the Seq, or by assigning
+the Seq into an array)
+  in block <unit> at ulrich-rieke.raku line 26
+

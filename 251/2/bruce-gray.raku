@@ -1,4 +1,5 @@
 #!/usr/bin/env raku
+
 sub task2 ( @in --> Numeric ) {
     # Prevents recalculation inside `.first`
     my @column_maxes = @in[0].keys.map({ @in».[$_].max });

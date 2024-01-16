@@ -17,7 +17,7 @@ sub lucky-number (+@matrix) {
     $mm == max-min(@matrix) ?? $mm !! -1
 }
 
-multi MAIN (Bool :test($)!) {
+#multi MAIN (Bool :test($)!) {
     use Test;
     subtest 'matrix 3x3' ,{
         my @matrix := (
@@ -58,8 +58,8 @@ multi MAIN (Bool :test($)!) {
         is lucky-number(@matrix),-1;
     }
     done-testing;
-}
+#}
 
-multi MAIN (+matrix) {
-    say lucky-number matrix.map: *.split(',').cache
-}
+#multi MAIN (+matrix) {
+#    say lucky-number matrix.map: *.split(',').cache
+#}

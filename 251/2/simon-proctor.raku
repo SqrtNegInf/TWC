@@ -1,7 +1,7 @@
 #!/usr/bin/env raku
 
 #| Run the Test Suite
-multi sub MAIN('test') {
+#multi sub MAIN('test') {
     use Test;
     is-deeply rot-matrix([[1,2],[3,4]]), [[1,3],[2,4]];
     is lucky( [[3,7,8],[9,11,13],[15,16,17]] ), 15;
@@ -9,17 +9,7 @@ multi sub MAIN('test') {
     is lucky( [[7,8],[1,2]] ), 7;
     is lucky( [[1,2],[3,4]] ), 3;
     done-testing;
-}
-
-multi sub MAIN(
-    Int $width, #= Matrix width
-    *@vals where @vals.unique.elems == @vals.elems #= Matrix values
-                 && all(@vals) ~~ IntStr
-                 && @vals.elems %% $width, 
-) {
-    my @matrix = @vals.rotor($width);
-    lucky(@matrix).say;
-}
+#}
 
 sub rot-matrix( @matrix ) {
     my @out;

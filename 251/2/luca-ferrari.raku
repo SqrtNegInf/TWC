@@ -1,12 +1,5 @@
 #!/usr/bin/env raku
 
-#
-# Perl Weekly Challenge 251
-# Task 2
-#
-# See <https://perlweeklychallenge.org/blog/perl-weekly-challenge-251/>
-#
-
 sub MAIN() {
 
     my $matrix = [ [ 3,  7,  8],
