@@ -24,13 +24,13 @@ sub MAIN() {
     }
     else {
         #| Run test cases
-        use Test2::V0 qw( is plan );
-        plan 3;
+        use Test::More;
         is concatenation_value( ( 6, 12, 25, 1 ) ), 1286,
           'works for (6, 12, 25, 1)';
         is concatenation_value( ( 10, 7, 31, 5, 2, 2 ) ), 489,
           'works for (10, 7, 31, 5, 2, 2)';
         is concatenation_value( ( 1, 2, 10 ) ), 112, 'works for (1, 2, 10)';
+        done_testing;
     }
 }
 
