@@ -36,5 +36,5 @@ for @Triplet -> $in, $exp {
 }
 done-testing;
 
-my  @int = (1,1,2,2,2,2,3,3,3,3,3,3,4,4);
-say "\nInput: @int = (@int[])\nOutput: &equal-sets( @int)<>.raku()";
+#my  @int = (1,1,2,2,2,2,3,3,3,3,3,3,4,4);
+#say "\nInput: @int = (@int[])\nOutput: &equal-sets( @int)<>.raku()";

@@ -19,7 +19,7 @@ sub equal-pairs(@ints) {
 
 # Tests
 #plan 2;
-say equal-pairs(  [3, 2, 3, 2, 2, 2] );
+say sort equal-pairs(  [3, 2, 3, 2, 2, 2] );
 say equal-pairs(  [1, 2, 3, 4] );
 
 #done-testing;

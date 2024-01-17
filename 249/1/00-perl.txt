@@ -62,7 +62,7 @@ ok   input: 7 2 2 4 4   got:    expected_pairs:
 ok   input: 1 2 3 4 1 2 3 4   got: 1+1 2+2 3+3 4+4   expected_pairs: 1+1 2+2 3+3 4+4
  
 ===> 249/1/laurent-rosenfeld.pl <===
-3 2 3 2 2 2     => (2 2) (2 2) (3 3) 
+3 2 3 2 2 2     => (3 3) (2 2) (2 2) 
 1 2 3 4         => ()
  
 ===> 249/1/lubos-kolouch.pl <===
@@ -92,7 +92,7 @@ Output: ()
 
 Example 3:
 Input: @ints = (1, 2, 3, 4, 4, 3, 2, 1)
-Output: (3, 3), (1, 1), (2, 2), (4, 4)
+Output: (1, 1), (2, 2), (3, 3), (4, 4)
  
 ===> 249/1/perlboy1967.pl <===
 # Seeded srand with seed '1' from import arg.
