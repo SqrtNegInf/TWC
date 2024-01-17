@@ -2,6 +2,8 @@
 use v5.36;
 #no warnings 'recursion'; 
 
+srand 1;
+
 sub DI_perm {
     my($str, $i, $d) = @_ == 3 ? @_ : ( $_[0] =~ s/.$/$&$&/r, 0, length $_[0] );
     $str =~ /./ ? ( $& eq 'I' ? $i++ : $d--, DI_perm( $', $i, $d ) ) : ()
