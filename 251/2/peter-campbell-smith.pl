@@ -1,10 +1,5 @@
 #!/usr/bin/env perl
-
-use v5.16;    # The Weekly Challenge - 2024-01-08
-use strict;   # Peter Campbell Smith
-use warnings; # Blog: http://ccgi.campbellsmiths.force9.co.uk/challenge
-
-binmode STDOUT, ':utf8';
+use v5.36;
 
 lucky_numbers([[ 3,  7,  8],
                [ 9, 11, 13],

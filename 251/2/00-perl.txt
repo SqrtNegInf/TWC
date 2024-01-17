@@ -127,7 +127,6 @@ Input: $matrix = [
 Output: 7
  
 ===> 251/2/perlboy1967.pl <===
-# Seeded srand with seed '1' from import arg.
 ok 1
 ok 2
 ok 3
