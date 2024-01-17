@@ -1,8 +1,8 @@
 #!/usr/bin/env perl
+use v5.36;
 
-sub concatenation_value {
-  local(@ints)=@_;
-  local($x,$retval)=(0,0);
+sub concatenation_value(@ints) {
+  my($x,$retval)=(0,0);
   foreach $x (0 .. @ints/2-1) {
    $retval += $ints[$x] . $ints[$#ints-$x]; 
   }

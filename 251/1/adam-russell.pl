@@ -1,7 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
 
-
 sub concatenation_value{
     return concatenation_value_r(0, @_);  
 }

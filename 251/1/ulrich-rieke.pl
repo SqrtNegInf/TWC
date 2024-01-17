@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-use strict ;
-use warnings ;
-use feature 'say' ;
+use v5.36;
 
 my @numbers = (10, 7, 31, 5, 2, 2);
 my $sum = 0 ;

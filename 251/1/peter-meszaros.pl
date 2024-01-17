@@ -1,9 +1,7 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use strict;
-use warnings;
-use Test2::V0 -no_srand => 1;
-#use Data::Dumper;
+use Test::More;
 
 my $cases = [
     [6, 12, 25, 1],
