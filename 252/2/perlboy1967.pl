@@ -1,24 +1,9 @@
 #!/usr/bin/env perl
 
-=pod
-
-The Weekly Challenge - 252
-- https://theweeklychallenge.org/blog/perl-weekly-challenge-252
-
-Author: Niels 'PerlBoy' van Dijke
-
-Task 2: Unique Sum Zero
-Submitted by: Mohammad S Anwar
-
-You are given an integer, $n.
-
-Write a script to find an array containing $n unique integers such that they add up to zero.
-
-=cut
-
 use v5.32;
-use common::sense;
 use feature qw(signatures);
+
+#use common::sense;
 
 use Test2::V0 -srand => 1;
 

@@ -18,13 +18,13 @@ sub MAIN() {
     }
     else {
         #| Run test cases
-        use Test2::V0 qw( is plan );
-        plan 4;
+        use Test::More;
 
-        is unique_sum_zero(5), [ -2, -1, 0, 1, 2 ], 'works for 5';
-        is unique_sum_zero(3), [ -1, 0, 1 ],        'works for 3';
-        is unique_sum_zero(1), [0],                 'works for 1';
-        is unique_sum_zero(0), [],                  'works for 0';
+        is_deeply unique_sum_zero(5), [ -2, -1, 0, 1, 2 ], 'works for 5';
+        is_deeply unique_sum_zero(3), [ -1, 0, 1 ],        'works for 3';
+        is_deeply unique_sum_zero(1), [0],                 'works for 1';
+        is_deeply unique_sum_zero(0), [],                  'works for 0';
+        done_testing
     }
 }
 

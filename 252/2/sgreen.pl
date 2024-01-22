@@ -23,4 +23,4 @@ sub main ($n) {
     say join ', ', @solution;
 }
 
-main($ARGV[0]);
+main(5);

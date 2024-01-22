@@ -1,10 +1,8 @@
 #!/usr/bin/env perl
 use v5.36;
-##
-# Given an integer, $n, write a script to find an array containing $n 
-# unique integers such that they add up to zero.
-##
+
 srand(ord q/TWC/);
+
 sub rand_sum_zero{
     my $n = shift; 
     my @r;
@@ -41,5 +39,3 @@ sub unique_sum_zero{
 say join q/,/, unique_sum_zero 1; 
 say join q/,/, unique_sum_zero 3; 
 say join q/,/, unique_sum_zero 5; 
-
-

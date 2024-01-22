@@ -91,10 +91,7 @@ BEGIN
 MAIN:
 #===============================================================================
 {
-    my $argc = scalar @ARGV;
-       $argc == 1 or error( "Expected 1 command-line argument, found $argc" );
-
-    my $n = $ARGV[ 0 ];
+    my $n = $ARGV[ 0 ] || 5;
        $n =~ / ^ $RE{num}{int} $ /x or error( qq["$n" is not a valid integer] );
        $n > 0                       or error( qq["$n" is too small] );
 

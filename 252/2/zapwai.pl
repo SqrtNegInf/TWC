@@ -1,5 +1,6 @@
 #!/usr/bin/env perl
 use v5.30;
+
 my $n = 5;
 say "Input: \$n = $n";
 print "Output: ";

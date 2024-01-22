@@ -1,10 +1,8 @@
 #!/usr/bin/env perl
-# The Weekly Challenge 252
-# Task 2 Unique Sum Zero
-# Generate all combinations sum to zero, 
-# [optionally] given a lower bound and an upper bound 
+
 use v5.30.0;
 use warnings;
+
 use List::Util qw/sum/;
 use Algorithm::Combinatorics qw/combinations/;
 

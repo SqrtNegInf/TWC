@@ -1,10 +1,8 @@
 #!/usr/bin/env perl
 
 use v5.26;    # The Weekly Challenge - 2024-01-15
-use utf8;     # Week 252 task 2 - Unique sum zero
 use strict;   # Peter Campbell Smith
 use warnings; # Blog: http://ccgi.campbellsmiths.force9.co.uk/challenge
-binmode STDOUT, ':utf8';
 
 unique_sum_zero(1);
 unique_sum_zero(5);

@@ -2,7 +2,7 @@
 use 5.030;
 use warnings;
 
-my $n = shift; 
+my $n = shift || 5; 
 my @results = map { $_, -$_ } (1 .. $n / 2);
 
 unless ($n % 2 == 0) {

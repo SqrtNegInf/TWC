@@ -1,21 +1,4 @@
 #!/usr/bin/env perl
-# vim:set ts=4 sw=4 sts=4 et ai wm=0 nu:
-#=============================================================================
-# Copyright (c) 2024, Bob Lied
-#=============================================================================
-# ch-2.pl Perl Weekly Challenge 252 Task 2 Unique Sum Zero
-#=============================================================================
-# You are given an integer, $n.  Write a script to find an array containing
-# $n unique integers such that they add up to zero.
-# Example 1 Input: $n = 5
-#           Output: (-7, -1, 1, 3, 4)
-#   Two other possible solutions could be as below:
-#   (-5, -1, 1, 2, 3) and (-3, -1, 2, -2, 4).
-# Example 2 Input: $n = 3
-#           Output: (-1, 0, 1)
-# Example 3 Input: $n = 1
-#           Output: (0)
-#=============================================================================
 
 use v5.36;
 
@@ -26,7 +9,7 @@ my $Verbose = 0;
 my $DoTest  = 0;
 
 GetOptions("test" => \$DoTest, "verbose" => \$Verbose);
-exit(!runTest()) if $DoTest;
+runTest(); exit;
 
 sub usz($n)
 {
@@ -62,7 +45,7 @@ sub usz2($n)
 
 sub runTest
 {
-    use Test2::V0;
+    use Test::More;
     use List::Util qw/sum0 uniqint/;
 
     my @usz;

@@ -2,11 +2,10 @@
 use strict ;
 use warnings ;
 use feature 'say' ;
+
 use List::Util qw ( sum ) ;
 
-say "Enter a positive integer!" ;
-my $number = <STDIN> ;
-chomp $number ;
+my $number = 5;
 my @solution ;
 my $limit = int( $number / 2 ) ;
 my $neg_limit = -$limit ;

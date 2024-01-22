@@ -1,31 +1,10 @@
 #!/usr/bin/env perl
-#
-# You are given an integer, $n.
-# 
-# Write a script to find an array containing $n unique integers such that they add up to zero.
-# Example 1
-# 
-# Input: $n = 5
-# Output: (-7, -1, 1, 3, 4)
-# 
-# Two other possible solutions could be as below:
-# (-5, -1, 1, 2, 3) and (-3, -1, 2, -2, 4).
-# 
-# Example 2
-# 
-# Input: $n = 3
-# Output: (-1, 0, 1)
-# 
-# Example 3
-# 
-# Input: $n = 1
-# Output: (0)
-# 
 
 use strict;
 use warnings;
-use Test2::V0 -no_srand => 1 -srand => 1;
-use Data::Dumper;
+
+use Test2::V0 -srand => 1;
+#use Data::Dumper;
 
 my $cases = [
     5,
