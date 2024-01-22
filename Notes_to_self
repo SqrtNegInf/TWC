@@ -1,3 +1,8 @@
+2024-01-21
+Now this is strange, '171/1/steve-g-lynn.raku':
+Segmentation fault: 11  /usr/local/bin/raku -c /perl/sym-tree/Users/dhoekman/PWC/171/1/steve-g-lynn.raku
+Runs fine 'by hand'...
+
 2024-01-09
 '044/1/adam-russell.pl can fail? (maybe 'srand' issue?)
 '017/2/noud.raku' can fail?
