@@ -1,5 +1,4 @@
 #!/usr/bin/env raku
-use v6;
 
 sub specialElementIndices($n) {
   return (1 .. $n).grep({ $n % $_ == 0 });

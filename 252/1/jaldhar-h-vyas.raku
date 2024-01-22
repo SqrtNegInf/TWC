@@ -5,7 +5,7 @@ sub factors(Int $n) {
 }
 
 sub MAIN(
-    *@ints
+    @ints = [1, 2, 3, 4]
 ) {
     factors(@ints.elems).map({ @ints[$_ - 1] ** 2 }).sum.say;
 }

@@ -20,15 +20,13 @@ sub specal-numbers-pf (+@ints) {
     andthen .sum
 }
 
-multi MAIN (Bool :test($)!) {
+#multi MAIN (Bool :test($)!) {
     use Test;
     is specal-numbers(1..4),21;
     is specal-numbers(2, 7, 1, 19, 18, 3),63;
     is specal-numbers-pf(1..4),21;
     is specal-numbers-pf(2, 7, 1, 19, 18, 3),63;
     done-testing;
-}
+#}
 
-multi MAIN (+@ints) {
-    say specal-numbers @ints
-}
+#multi MAIN (+@ints) { say specal-numbers @ints }

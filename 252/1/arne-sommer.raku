@@ -1,6 +1,8 @@
 #!/usr/bin/env raku
 
-unit sub MAIN (*@ints where @ints.elems > 0 && all(@ints) ~~ Int, :v(:$verbose));
+#unit sub MAIN (*@ints where @ints.elems > 0 && all(@ints) ~~ Int, :v(:$verbose));
+
+my @ints = [1, 2, 3, 4];
 
 my $sum = 0;
 my $n   = @ints.elems;
@@ -13,7 +15,7 @@ for 1 .. $n -> $i
     my $squared = $val ** 2;
 
     $sum += $squared;
-    say ": Index $i is special -> value:$val -> squared:$squared -> sum:$sum" if $verbose;
+    #say ": Index $i is special -> value:$val -> squared:$squared -> sum:$sum" if $verbose;
   }
 }
 
