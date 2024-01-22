@@ -1,5 +1,5 @@
 #!/usr/bin/env perl
-use v5.38;
+use v5.36;
 ##
 # Given an integer, $n, write a script to find an array containing $n 
 # unique integers such that they add up to zero.

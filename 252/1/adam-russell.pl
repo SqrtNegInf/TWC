@@ -1,5 +1,5 @@
 #!/usr/bin/env perl
-use v5.38;
+use v5.36;
 ##
 # Given an array of integers, @ints write a script to find the sum of 
 # the squares of all special elements of the given array.
