@@ -1,0 +1,126 @@
+ 
+===> 252/1/adam-russell.pl <===
+21
+63
+ 
+===> 252/1/athanasius.pl <===
+
+Challenge 252, Task #1: Special Numbers (Perl)
+
+Running the test suite
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Negatives
+ok 4 - Singleton
+1..4
+ 
+===> 252/1/barroff.pl <===
+ok 1 - Works for (1, 2, 3, 4)
+ok 2 - Works for (2, 7, 1, 19, 18, 3)
+1..2
+ 
+===> 252/1/bob-lied.pl <===
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Singleton
+ok 4 - Empty list
+ok 5 - sn2 Example 1
+ok 6 - sn2 Example 2
+ok 7 - sn2 Singleton
+ok 8 - sn2 Empty list
+ok 9 - factorsOf 6
+ok 10 - factorsOf 36
+1..10
+ 
+===> 252/1/cheok-yin-fung.pl <===
+1..2
+ok 1
+ok 2
+ 
+===> 252/1/deadmarshal.pl <===
+21
+63
+ 
+===> 252/1/e-choroba.pl <===
+1..2
+ok 1 - Example 1
+ok 2 - Example 2
+ 
+===> 252/1/jaldhar-h-vyas.pl <===
+21
+ 
+===> 252/1/laurent-rosenfeld.pl <===
+1 2 3 4         => 21
+2 7 1 19 18 3   => 63
+ 
+===> 252/1/nelo-tovar.pl <===
+Input : @ints = (1 .. 4)
+Output : 21
+ 
+Input : @ints = (2, 7, 1, 19, 18, 3)
+Output : 14
+ 
+ 
+===> 252/1/packy-anderson.pl <===
+Example 1:
+Input: @ints = (1, 2, 3, 4)
+Output: 21
+
+There are exactly 3 special elements in the given array:
+$ints[1] since 1 divides 4,
+$ints[2] since 2 divides 4, and
+$ints[4] since 4 divides 4
+Hence, the sum of the squares of all special elements of given array:
+1 * 1 + 2 * 2 + 4 * 4 = 21
+
+Example 2:
+Input: @ints = (2, 7, 1, 19, 18, 3)
+Output: 63
+
+There are exactly 4 special elements in the given array:
+$ints[1] since 1 divides 6,
+$ints[2] since 2 divides 6,
+$ints[3] since 3 divides 6, and
+$ints[6] since 6 divides 6
+Hence, the sum of the squares of all special elements of given array:
+2 * 2 + 7 * 7 + 1 * 1 + 3 * 3 = 63
+ 
+===> 252/1/perlboy1967.pl <===
+# Seeded srand with seed '1' from import arg.
+ok 1
+ok 2
+1..2
+ 
+===> 252/1/peter-campbell-smith.pl <===
+
+Input:  @ints = (1, 2, 3, 4)
+Output: 21 ∵ @specials: 1, 2, 4
+
+Input:  @ints = (2, 7, 1, 19, 18, 3)
+Output: 63 ∵ @specials: 1, 2, 3, 6
+
+Input:  @ints = (7, 7, 7, 7, 11)
+Output: 170 ∵ @specials: 1, 5
+
+Input:  @ints = (9, 11, 7, 8, 3, 11, 11, 5, 12, 16, 15, 12, 19, 3, 12, 9, 5, 7, 8, 12, 5, 13, 19, 13, 15, 1, 5, 14, 5, 16, 19, 13)
+Output: 541 ∵ @specials: 1, 2, 4, 8, 16, 32
+ 
+===> 252/1/peter-meszaros.pl <===
+ok 1 - Example 1
+ok 2 - Example 2
+1..2
+ 
+===> 252/1/roger-bell-west.pl <===
+1..2
+ok 1 - example 1
+ok 2 - example 2
+ 
+===> 252/1/sgreen.pl <===
+21
+ 
+===> 252/1/ulrich-rieke.pl <===
+21
+ 
+===> 252/1/zapwai.pl <===
+Input: @ints = 1 2 3 4
+Output: 21

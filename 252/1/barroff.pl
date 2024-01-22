@@ -16,11 +16,11 @@ sub MAIN() {
     }
     else {
         #| Run test cases
-        use Test2::V0 qw( is plan );
-        plan 2;
+        use Test::More;
         is special_numbers( ( 1, 2, 3, 4 ) ), 21, 'Works for (1, 2, 3, 4)';
         is special_numbers( ( 2, 7, 1, 19, 18, 3 ) ), 63,
           'Works for (2, 7, 1, 19, 18, 3)';
+        done_testing;
     }
 }
 

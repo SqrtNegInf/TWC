@@ -1,24 +1,5 @@
 #!/usr/bin/env perl
 
-=pod
-
-The Weekly Challenge - 252
-- https://theweeklychallenge.org/blog/perl-weekly-challenge-252
-
-Author: Niels 'PerlBoy' van Dijke
-
-Task 1: Special Numbers
-Submitted by: Mohammad S Anwar
-
-You are given an array of integers, @ints.
-
-Write a script to find the sum of the squares of all special elements of the given array.
-
-|| An element $int[i] of @ints is called special if i divides n, i.e. n % i == 0.
-|| Where n is the length of the given array. Also the array is 1-indexed for the task.
-
-=cut
-
 use v5.32;
 use common::sense;
 use feature qw(signatures);

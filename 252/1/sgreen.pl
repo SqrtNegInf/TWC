@@ -19,4 +19,4 @@ sub main (@ints) {
     say $solution;
 }
 
-main(@ARGV);
+main( (1, 2, 3, 4) );

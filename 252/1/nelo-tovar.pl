@@ -1,15 +1,9 @@
 #!/usr/bin/env perl
 
-# The Weekly Challenge 252 - By Nelo Tovar
-#
-# https://theweeklychallenge.org/blog/perl-weekly-challenge-252/
-#
-# Task 1 - Special Numbers
-#
-
 use strict;
 use warnings;
 use v5.28;
+
 use Data::Dump qw(dump);
 
 my @examples = (

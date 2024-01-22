@@ -3,10 +3,7 @@ use strict ;
 use warnings ;
 use feature 'say' ;
 
-say "Enter some integers, separated by blanks!" ;
-my $line = <STDIN> ;
-chomp $line ;
-my @numbers = split( /\s/ , $line ) ;
+my @numbers = (1, 2, 3, 4);
 my $len = scalar( @numbers ) ;
 my $sum = 0 ;
 for my $i (0..$len - 1 ) {

@@ -1,8 +1,7 @@
 #!/usr/bin/env perl
-# The Weekly Challenge 252
-# Task 1 Special Numbers
 use v5.30.0;
 use warnings;
+
 use Math::Prime::Util qw/divisors/;
 
 sub sn {

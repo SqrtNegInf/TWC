@@ -1,12 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
-##
-# Given an array of integers, @ints write a script to find the sum of 
-# the squares of all special elements of the given array.
-# An element $int[i] of @ints is called special if i divides n, 
-# where n is the length of the given array. Consider the array to be 
-# 1-indexed for this task. 
-## 
+
 sub special_numbers{
     my $r;  
     do{

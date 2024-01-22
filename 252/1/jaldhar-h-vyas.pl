@@ -17,4 +17,5 @@ sub sum {
     return $total;
 }
 
+my @ARGV = (1, 2, 3, 4);
 say sum(map { $ARGV[$_ - 1] ** 2 } factors(scalar @ARGV));
