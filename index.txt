@@ -528,8 +528,8 @@ Challenge titles and Rosetta-code correspondences (exact, and otherwise)
 251-2 Lucky Numbers
 252-1 Special Numbers
 252-2 Unique Sum Zero
-253-1
-253-2
+253-1 Split Strings
+253-2 Weakest Row
 254-1
 254-2
 255-1
