@@ -1,13 +1,6 @@
 #!/usr/bin/env raku
 
-#
-# Perl Weekly Challenge 252
-# Task 2
-#
-# See <https://perlweeklychallenge.org/blog/perl-weekly-challenge-252/>
-#
-
-sub MAIN( $n where { $n >= 3 && $n ~~ Int  } ) {
+sub MAIN( $n where { $n >= 3 && $n ~~ Int  } = 5 ) {
     my @nums;
 
     if $n %% 2 {

@@ -1,0 +1,107 @@
+ 
+===> 252/2/0rir.raku <===
+1..9
+ok 1 - Array size
+ok 2 - Array values
+ok 3 - Array size
+ok 4 - Array values
+ok 5 - Array size
+ok 6 - Array values
+ok 7 - 500 is invalid ($range is -10..10)
+ok 8 - -6 is invalid ($range is -10..10)
+ok 9 - 0 is invalid ($range is -10..10)
+
+Input: $n = 99
+Output: [42568 -48695 41610 -41170 -5866 -42759 -88587 -51215 -27147 93407 96722 2854 68058 94115 3372 41274 -16893 19699 68244 35877 14903 -45591 86226 -12892 -92899 18890 -35466 -43587 -96700 -26888 -2642 -36594 41603 -45257 -71176 90855 -24110 -88713 -79345 -8132 -73630 90098 -2856 42074 30840 14077 -87944 -80336 -81183 -80830 95756 8239 73701 -37900 -10192 77835 -23806 46246 -6293 -70434 -92493 76198 48187 -85565 -67631 89411 11913 54661 21823 -74940 78303 43529 25167 -71824 23917 -70112 -28445 -82113 6171 10191 8182 16251 -98930 6102 -77210 54375 91840 70591 50759 -21862 28124 -12385 -16003 -88745 -95084 8704 -42404 -39452 489384]
+ 
+===> 252/2/arne-sommer.raku <===
+(-2, -1, 0, 1, 2)
+ 
+===> 252/2/athanasius.raku <===
+ 
+===> 252/2/barroff.raku <===
+1..4
+ok 1 - works for 5
+ok 2 - works for 3
+ok 3 - works for 1
+ok 4 - works for 0
+ 
+===> 252/2/bn-ssotka.raku <===
+[2 0 1 -2 -1]
+ 
+===> 252/2/bruce-gray.raku <===
+1..1
+ok 1 - No failures when testing 1..1000
+ 
+===> 252/2/deadmarshal.raku <===
+[1 -1 2 -2 0]
+[1 -1 0]
+[0]
+ 
+===> 252/2/jaldhar-h-vyas.raku <===
+(-2, -1, 0, 1, 2)
+ 
+===> 252/2/laurent-rosenfeld.raku <===
+3 => [6 -6 0]
+4 => [6 -6 1 -1]
+5 => [6 -6 7 -7 0]
+1 => [0]
+ 
+===> 252/2/lubos-kolouch.raku <===
+Test 1 (5): [1 2 -1 -2 0]
+Test 2 (3): [1 -1 0]
+Test 3 (1): [0]
+ 
+===> 252/2/luca-ferrari.raku <===
+1,-1,2,3,-5
+ 
+===> 252/2/mark-anderson.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ok 4 - 
+ok 5 - 
+ok 6 - 
+ok 7 - 
+ 
+===> 252/2/packy-anderson.raku <===
+Example 1:
+Input: $n = 5
+Output: (-2, -1, 0, 1, 2)
+
+Example 2:
+Input: $n = 3
+Output: (-1, 0, 1)
+
+Example 3:
+Input: $n = 1
+Output: (0)
+ 
+===> 252/2/roger-bell-west.raku <===
+1..3
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ 
+===> 252/2/simon-proctor.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ok 4 - 
+ok 5 - 
+ok 6 - 
+ok 7 - 
+ok 8 - 
+ok 9 - 
+ok 10 - 
+ok 11 - 
+1..11
+ 
+===> 252/2/ulrich-rieke.raku <===
+(-2,-1,0,1,2)
+ 
+===> 252/2/witawayar.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+1..3

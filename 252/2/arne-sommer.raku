@@ -1,6 +1,6 @@
 #!/usr/bin/env raku
 
-unit sub MAIN (UInt $n is copy, :v(:$verbose));
+unit sub MAIN (UInt $n is copy = 5, :v(:$verbose));
 
 my @array;
 

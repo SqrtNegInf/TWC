@@ -1,7 +1,7 @@
 #!/usr/bin/env raku
 
 sub MAIN(
-    Int $n
+    Int $n  = 5
 ) {
     my @results = (1 .. $n div 2).map({ | ($_, -$_) });
 

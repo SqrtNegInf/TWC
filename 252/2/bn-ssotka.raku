@@ -1,10 +1,6 @@
 #!/usr/bin/env raku
 
-#You are given an integer, $n.
-#
-#Write a script to find an array containing $n unique integers such that they add up to zero.
-
-multi MAIN (Int $n where * > 0) {
+multi MAIN (Int $n where * > 0 = 5) {
     my @array;
 
     my $n-items = ($n * 2) + 1; # we'll make sure we can't run out of numbers

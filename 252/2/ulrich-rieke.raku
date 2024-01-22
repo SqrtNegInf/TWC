@@ -1,9 +1,6 @@
 #!/usr/bin/env raku
-use v6 ;
 
-say "Enter a positive integer!" ;
-my $line = $*IN.get ;
-my $number = $line.Int ;
+my $number = 5;
 my @solution ;
 my $limit = $number div 2 ;
 my $neg_limit = $limit * (-1) ;
