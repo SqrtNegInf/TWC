@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-use warnings;
-use strict;
-use experimental qw( signatures );
+use v5.36;
 
 sub unique_sum_zero($n) {
     return [(0) x ($n % 2), map { $_, -$_ } 1 .. $n / 2]
