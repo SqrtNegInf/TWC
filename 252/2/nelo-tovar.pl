@@ -4,6 +4,8 @@ use v5.28;
 use strict;
 use warnings;
 
+srand 1;
+
 use List::Util qw (min max);
 use Data::Dump qw(dump);
 
