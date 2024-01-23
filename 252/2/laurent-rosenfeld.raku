@@ -1,4 +1,7 @@
 #!/usr/bin/env raku
+
+srand 1;
+
 sub zero-sum ($n) {
     my @result;
     for (1..$n*2).pick(($n/2).Int) -> $i {

@@ -1,5 +1,7 @@
 #!/usr/bin/env raku
 
+srand 1;
+
 multi MAIN (Int $n where * > 0 = 5) {
     my @array;
 

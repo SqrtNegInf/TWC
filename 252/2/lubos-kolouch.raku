@@ -1,4 +1,5 @@
 #!/usr/bin/env raku
+
 sub unique-sum-zero(Int $n --> Array) {
     # Generate an array of `n` unique integers that sum to zero.
 

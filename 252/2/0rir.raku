@@ -1,5 +1,7 @@
 #!/usr/bin/env raku
 
+srand 1;
+
 use Test;
 
 my @Test =   5, [-2..2],
