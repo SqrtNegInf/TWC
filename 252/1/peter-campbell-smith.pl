@@ -4,6 +4,8 @@ use v5.26;    # The Weekly Challenge - 2024-01-15
 use strict;   # Peter Campbell Smith
 use warnings; # Blog: http://ccgi.campbellsmiths.force9.co.uk/challenge
 
+srand 1;
+
 my ($j, @ints);
 
 special_numbers(1, 2, 3, 4);
