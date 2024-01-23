@@ -1,4 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
+
 
 my $cases = [
     [1, 2, 3, 4],

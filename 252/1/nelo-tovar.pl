@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
-use v5.28;
+use v5.36;
 
 use Data::Dump qw(dump);
 
