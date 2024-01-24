@@ -63,6 +63,8 @@ Interface
 =end comment
 #===============================================================================
 
+srand 1;
+
 use List::Util < shuffle >;
 
 subset Pos of Int where * > 0;

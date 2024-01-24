@@ -34,6 +34,5 @@ for @Die -> $n {
 }
 done-testing;
 
-my $n = 99;
-say "\nInput: \$n = $n\nOutput: ", func( $n );
-
+#my $n = 99;
+#say "\nInput: \$n = $n\nOutput: ", func( $n );
