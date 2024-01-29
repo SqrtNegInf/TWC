@@ -10,6 +10,7 @@
 use strict;
 use warnings;
 use v5.28;
+
 use Data::Dump qw(dump);
 
 my @examples_words = (

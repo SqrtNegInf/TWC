@@ -2,24 +2,6 @@
 use strict;
 use warnings FATAL => qw(all);
 
-=prompt
-You are given an array of strings and a character separator.
-Write a script to return all words separated by the given character excluding empty string.
-Example 1
-
-Input: @words = ("one.two.three","four.five","six")
-       $separator = "."
-Output: "one","two","three","four","five","six"
-
-Example 2
-
-Input: @words = ("$perl$$", "$$raku$")
-       $separator = "$"
-Output: "perl","raku"
-
-=cut
-
-
 use Test2::V0 -srand => 1;
 
 

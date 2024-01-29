@@ -1,12 +1,8 @@
 #!/usr/bin/env perl
 
-# Blog: http://ccgi.campbellsmiths.force9.co.uk/challenge
-
 use v5.26;    # The Weekly Challenge - 2024-01-22
-use utf8;     # Week 253 task 1 - Split strings
 use strict;   # Peter Campbell Smith
 use warnings; 
-binmode STDOUT, ':utf8';
 
 split_strings(['one.two.three','four.five','six'], '.');
 split_strings(['$perl$$', '$$raku$'], '$');
@@ -15,7 +11,7 @@ split_strings(['xonex', 'xtwox'], 'x');
 # some edge cases
 split_strings([',,,,,'], ',');
 split_strings(['\\three\\blind\\', '\\mice\\'], '\\');
-split_strings(['ŐőŕŒœŔŕŖ', 'ŗŘřŚŕ'], 'ŕ');
+#split_strings(['ŐőŕŒœŔŕŖ', 'ŗŘřŚŕ'], 'ŕ');
 
 sub split_strings {
 	

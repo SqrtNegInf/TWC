@@ -1,23 +1,8 @@
 #!/usr/bin/env perl
 
-=pod
-
-The Weekly Challenge - 253
-- https://theweeklychallenge.org/blog/perl-weekly-challenge-253
-
-Author: Niels 'PerlBoy' van Dijke
-
-Task 1: Split Strings
-Submitted by: Mohammad S Anwar
-
-You are given an array of strings and a character separator.
-
-Write a script to return all words separated by the given character excluding empty string.
-
-=cut
-
 use v5.32;
 use feature qw(signatures);
+
 use common::sense;
 
 use Test2::V0 -srand => 1;

@@ -1,5 +1,6 @@
 #!/usr/bin/env perl
 use v5.30;
+
 my @words = ("one.two.three","four.five","six");
 my $separator = '.';
 #my @words = ('$perl$$', '$$raku$');

@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-# The Weekly Challenge 253
-# Task 1 Split Strings
+
 use v5.30.0;
 use warnings;
 
