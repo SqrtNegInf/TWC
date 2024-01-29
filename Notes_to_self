@@ -1,3 +1,6 @@
+2024-01-29
+Some Raku tasks in 252/2 are flapping, can it be stopped?
+
 2024-01-21
 Now this is strange, '171/1/steve-g-lynn.raku':
 Segmentation fault: 11  /usr/local/bin/raku -c /perl/sym-tree/Users/dhoekman/PWC/171/1/steve-g-lynn.raku
