@@ -24,7 +24,7 @@
 #       Output: (0, 2, 3, 1)
 #=============================================================================
 
-use v5.38;
+use v5.36;
 
 use builtin qw/trim/; no warnings "experimental::builtin";
 use List::Util qw/sum/;

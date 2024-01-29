@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
 
-use v5.38;
+use v5.36;
 
 sub split_strings ( $separator, @words ) {
     my @res = grep( { length($_) > 0 }
