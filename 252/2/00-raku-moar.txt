@@ -19,7 +19,7 @@ ok 9 - 0 is invalid ($range is -10..10)
 Challenge 252, Task #2: Unique Sum Zero (Raku)
 
 Input:  $n = 5
-Output: (-9, 6, 4, 10, -11)
+Output: (-5, -10, 10, -6, 11)
  
 ===> 252/2/barroff.raku <===
 1..4
@@ -29,7 +29,7 @@ ok 3 - works for 1
 ok 4 - works for 0
  
 ===> 252/2/bn-ssotka.raku <===
-[0 4 -3 3 -4]
+[5 2 -3 3 -7]
  
 ===> 252/2/bruce-gray.raku <===
 1..1
@@ -44,9 +44,9 @@ ok 1 - No failures when testing 1..1000
 (-2, -1, 0, 1, 2)
  
 ===> 252/2/laurent-rosenfeld.raku <===
-3 => [5 -5 0]
-4 => [4 -4 7 -7]
-5 => [7 -7 9 -9 0]
+3 => [2 -2 0]
+4 => [2 -2 6 -6]
+5 => [8 -8 9 -9 0]
 1 => [0]
  
 ===> 252/2/lubos-kolouch.raku <===
