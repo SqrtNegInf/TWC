@@ -1,0 +1,88 @@
+ 
+===> 253/1/0rir.raku <===
+1..12
+ok 1 - "one","two","three","four$five","six" <- @ <- one@@two@three four$five six
+ok 2 - "one","two","three","four","five","six" <- : <- one:two:three four:five six
+ok 3 - "one","two","three","four","five","six" <- . <- one.two.three four.five six
+ok 4 - "perl","raku" <- $ <- $perl$$ $$raku$
+ok 5 - "one","two","three","four$five","six" <-  \# <- one \# \#two \#three four$five six
+ok 6 - "one","two","three","four$five","six" <- % <- one%%two%three four$five six
+ok 7 - "one","two","three","four$five","six" <- ^ <- one^^two^three four$five six
+ok 8 - "one","two","three","four$five","six" <- & <- one&&two&three four$five six
+ok 9 - "one","two","three","four$five","six" <- * <- one**two*three four$five six
+ok 10 - "one","two","three","four$five","six" <- ( <- one((two((three four$five six
+ok 11 - "one","two","three","four$five","six" <- ) <- one))two)three four$five six
+ok 12 - "one","two","three","four$five","six" <- ? <- one??two?three four$five six
+
+Input: @word = ( ??xxx!!x##X#@@x^ ^x&x*x(x)x-x+x=[x;]'x/x\x|x<x>x_x )
+       $separator = x
+Output: "??","!!","##X#@@","^","^","&","*","(",")","-","+","=[",";]'","/","\","|","<",">","_" 
+===> 253/1/arne-sommer.raku <===
+"one","two","three","cat","dog","pig"
+ 
+===> 253/1/athanasius.raku <===
+
+Challenge 253, Task #1: Split Strings (Raku)
+
+Running the test suite
+ok 1 - Example 1
+ok 2 - Example 2
+1..2
+ 
+===> 253/1/barroff.raku <===
+1..2
+ok 1 - works for ("one.two.three","four.five","six")
+ok 2 - works for ("$perl$$", "$$raku$")
+ 
+===> 253/1/bruce-gray.raku <===
+1..2
+ok 1 - 
+ok 2 - 
+ 
+===> 253/1/laurent-rosenfeld.raku <===
+one.two.three four.five six    => [one two three four five six]
+$perl$$ $$raku$                => [perl raku]
+ 
+===> 253/1/lubos-kolouch.raku <===
+ok 1 - 
+ok 2 - 
+one,two,three,four,five,six
+perl,raku
+ 
+===> 253/1/mark-anderson.raku <===
+ok 1 - 
+ok 2 - 
+ 
+===> 253/1/packy-anderson.raku <===
+Example 1:
+Input: @words = ("one.two.three', 'four.five', 'six")
+       $separator = "."
+Output: "one", "two", "three", "four", "five", "six"
+
+Example 2:
+Input: @words = ("$perl$$', '$$raku$")
+       $separator = "$"
+Output: "perl", "raku"
+ 
+===> 253/1/roger-bell-west.raku <===
+1..2
+ok 1 - example 1
+ok 2 - example 2
+ 
+===> 253/1/simon-proctor.raku <===
+ok 1 - 
+ok 2 - 
+1..2
+ 
+===> 253/1/ulrich-rieke.raku <===
+(one two three)
+ 
+===> 253/1/wambash.raku <===
+ok 1 - 
+ok 2 - 
+1..2
+ 
+===> 253/1/witawayar.raku <===
+ok 1 - 
+ok 2 - 
+1..2
