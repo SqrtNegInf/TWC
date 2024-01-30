@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-
-use v5.26;    # The Weekly Challenge - 2024-01-22
-use strict;   # Peter Campbell Smith
-use warnings; 
+use v5.36;
 
 weakest_row([[1, 1, 0, 0, 0],
              [1, 1, 1, 1, 0],
