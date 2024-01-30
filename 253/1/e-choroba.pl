@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-use warnings;
-use strict;
-use experimental qw( signatures );
+use v5.36;
 
 sub split_strings($separator, @words) {
     return [grep length, map split(/\Q$separator/), @words]

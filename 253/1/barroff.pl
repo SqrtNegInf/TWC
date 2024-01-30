@@ -1,5 +1,4 @@
 #!/usr/bin/env perl
-
 use v5.36;
 
 sub split_strings ( $separator, @words ) {

@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-
-use v5.26;    # The Weekly Challenge - 2024-01-22
-use strict;   # Peter Campbell Smith
-use warnings; 
+use v5.36;
 
 split_strings(['one.two.three','four.five','six'], '.');
 split_strings(['$perl$$', '$$raku$'], '$');
