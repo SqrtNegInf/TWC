@@ -1,4 +1,5 @@
 #!/usr/bin/env raku
+
 sub weakest-row (@matrix) {
     # Schwartzian transform
     return map { $_[0] },

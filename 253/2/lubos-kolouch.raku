@@ -1,7 +1,8 @@
 #!/usr/bin/env raku
+
 sub weakest-row(@matrix) {
     # Count the number of 1s in each row and keep track of the row index
-    my @row-strength = @matrix.kv.map({ (.grep(* == 1).elems, .key) });
+    my @row-strength = @matrix.kv.map({ (.grep(* == 1).elems, .keys) });
 
     # Sort based on the number of 1s and then by row index
     @row-strength.sort({$^a[0] <=> $^b[0] || $^a[1] <=> $^b[1]}).map(*[1])

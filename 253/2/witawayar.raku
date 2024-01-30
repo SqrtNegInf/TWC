@@ -1,12 +1,6 @@
 #!/usr/bin/env raku
 my &fun =  { @^matrix.map({ $++ => $_ }).sort(-> $a, $b { $a.value.sum <=> $b.value.sum || $a.key <=> $b.key })>>.key };
 
-#`{
-- Take the positional matrix parameter implicitly
-- Decorate it with the indexes (a Schwartzian transform)
-- Sort over the number of 1s first, then the indexes
-- Undecorate to get the indexes that would sort
-}
 use Test;
 my @tests of Pair =
     [

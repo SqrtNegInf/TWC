@@ -7,7 +7,7 @@ sub weekest-row (+matrix) {
     andthen .map: *.value
 }
 
-multi MAIN (Bool :test($)!) {
+#multi MAIN (Bool :test($)!) {
     use Test;
     my @matrix := [
                    [1, 1, 0, 0, 0],
@@ -25,8 +25,6 @@ multi MAIN (Bool :test($)!) {
                  ];
     is weekest-row(@matrix2), (0,2,3,1);
     done-testing;
-}
+#}
 
-multi MAIN (+matrix) {
-    put weekest-row matrix».comb: /\d/;
-}
+#multi MAIN (+matrix) { put weekest-row matrix».comb: /\d/; }
