@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-# The Weekly Challenge 253
-# Task 2 Weakest Row
+
 use v5.30.0;
 use warnings;
 

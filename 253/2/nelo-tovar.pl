@@ -1,15 +1,8 @@
 #!/usr/bin/env perl
-
-# The Weekly Challenge 253 - By Nelo Tovar
-#
-# https://theweeklychallenge.org/blog/perl-weekly-challenge-253/
-#
-# Task 2 - Weakest Row
-#
-
+use v5.28;
 use strict;
 use warnings;
-use v5.28;
+
 use Data::Dump qw(dump);
 use List::Util qw/sum0/;
 

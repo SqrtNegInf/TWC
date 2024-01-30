@@ -1,12 +1,8 @@
 #!/usr/bin/env perl
 
-# Blog: http://ccgi.campbellsmiths.force9.co.uk/challenge
-
 use v5.26;    # The Weekly Challenge - 2024-01-22
-use utf8;     # Week 253 task 2 - Weakest row
 use strict;   # Peter Campbell Smith
 use warnings; 
-binmode STDOUT, ':utf8';
 
 weakest_row([[1, 1, 0, 0, 0],
              [1, 1, 1, 1, 0],
