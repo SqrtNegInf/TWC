@@ -63,18 +63,3 @@ for my $f (\&weakest_row,
 
     is $f->($m), weakest_row_grep($m), 'same';
 }
-
-use Benchmark qw{ cmpthese };
-
-cmpthese(-5, {
-    schwartzian    => sub { weakest_row($m) },
-    grep           => sub { weakest_row_grep($m) },
-    first_schwartz => sub { weakest_row_first_schwartzian($m) }
-});
-
-
-__END__
-                 Rate           grep first_schwartz    schwartzian
-grep           9.22/s             --           -89%           -93%
-first_schwartz 84.3/s           814%             --           -34%
-schwartzian     128/s          1284%            51%             --

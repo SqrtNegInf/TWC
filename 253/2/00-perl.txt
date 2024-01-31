@@ -54,10 +54,6 @@ ok 6 - same
 ok 7 - Example 1
 ok 8 - Example 2
 ok 9 - same
-                 Rate           grep first_schwartz    schwartzian
-grep           4.51/s             --           -87%           -92%
-first_schwartz 34.6/s           667%             --           -40%
-schwartzian    57.5/s          1176%            66%             --
  
 ===> 253/2/laurent-rosenfeld.pl <===
 1 1 0 0 0  ... 1 1 1 1 1  => 2 0 3 1 4 
