@@ -530,8 +530,8 @@ Challenge titles and Rosetta-code correspondences (exact, and otherwise)
 252-2 Unique Sum Zero
 253-1 Split Strings
 253-2 Weakest Row
-254-1
-254-2
+254-1 Three Power
+254-2 Reverse Vowels
 255-1
 255-2
 256-1
