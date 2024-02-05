@@ -1,0 +1,5 @@
+#!/bin/sh
+## raku/perl ratio
+#    2024-02-05
+
+clear; wc -l *pl | sort -rn | grep -v total; perl -e 'printf "%.1f\n", `ls -1 *pl | wc -l` / `ls -1 *raku | wc -l`'
