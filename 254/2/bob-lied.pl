@@ -14,7 +14,7 @@
 # Example 4 Input: $s = "Uiua"  Output: "Auiu"
 #=============================================================================
 
-use v5.38;
+use v5.36;
 
 use Getopt::Long;
 my $Verbose = 0;

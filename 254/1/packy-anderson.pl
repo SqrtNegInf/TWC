@@ -1,5 +1,5 @@
 #!/usr/bin/env perl
-use v5.38;
+use v5.36;
 
 sub isAPowerOfThree($n, $pow = 0) {
   if ($n == $pow ** 3) {
