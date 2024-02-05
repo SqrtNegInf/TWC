@@ -6,7 +6,7 @@ sub three-power (UInt $n) {
     andthen $_ == $n
 }
 
-multi MAIN (Bool :test($)!) {
+#multi MAIN (Bool :test($)!) {
     use Test;
     is three-power(27), True;
     is three-power( 1), True;
@@ -16,8 +16,6 @@ multi MAIN (Bool :test($)!) {
     is three-power(3⁵⁶+1), False;
     is three-power(3⁵⁶-3), False;
     done-testing;
-}
+#}
 
-multi MAIN (UInt $n) {
-    say three-power $n
-}
+#multi MAIN (UInt $n) { say three-power $n }

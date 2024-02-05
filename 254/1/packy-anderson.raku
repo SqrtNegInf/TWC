@@ -1,5 +1,4 @@
 #!/usr/bin/env raku
-use v6;
 
 sub isAPowerOfThree($n, $pow = 0) {
   if ($n == $pow ** 3) {

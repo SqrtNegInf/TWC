@@ -1,4 +1,5 @@
 #!/usr/bin/env raku
+
 sub exp-three ($in) {
     return True if $in == 0;
     my $exp = (log $in, 3).Int;

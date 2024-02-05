@@ -1,11 +1,6 @@
 #!/usr/bin/env raku
-sub is-power-of-three(Int $n --> Bool) {
-    # Documentation
-    # Determines if the given number is a power of three.
-    # Params:
-    #   n (Int): A positive integer
-    # Returns:
-    #   Bool: True if n is a power of three, False otherwise
+
+sub is-power-of-three(Int $n is copy --> Bool) {
 
     return True if $n == 0;
     while $n %% 3 {

@@ -1,12 +1,14 @@
 #!/usr/bin/env raku
 
-unit sub MAIN ($n is copy where $n ~~ UInt, :v($verbose));
+#unit sub MAIN ($n is copy where $n ~~ UInt, :v($verbose));
+
+my $n = 27;
 
 while $n > 3
 {
-  print ": $n / 3 -> " if $verbose;
+#  print ": $n / 3 -> " if $verbose;
   $n /= 3;
-  say $n if $verbose;
+#  say $n if $verbose;
   last if $n != $n.Int;
 }
 

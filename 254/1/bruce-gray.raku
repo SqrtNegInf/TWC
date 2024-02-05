@@ -1,4 +1,5 @@
 #!/usr/bin/env raku
+
 multi sub task1_Cubes ( UInt $n --> Bool ) {  $n == (   $n  ** ⅓ ).round³ }
 multi sub task1_Cubes (  Int $n --> Bool ) { -$n == ( (-$n) ** ⅓ ).round³ }
 

@@ -1,0 +1,1454 @@
+ 
+===> 254/1/0rir.raku <===
+1..400
+ok 1 - True <- power3( 3)
+ok 2 - True <- power3( 9)
+ok 3 - True <- power3( 27)
+ok 4 - True <- power3( 81)
+ok 5 - True <- power3( 243)
+ok 6 - True <- power3( 729)
+ok 7 - True <- power3( 2187)
+ok 8 - True <- power3( 6561)
+ok 9 - True <- power3( 19683)
+ok 10 - True <- power3( 59049)
+ok 11 - True <- power3( 177147)
+ok 12 - True <- power3( 531441)
+ok 13 - True <- power3( 1594323)
+ok 14 - True <- power3( 4782969)
+ok 15 - True <- power3( 14348907)
+ok 16 - True <- power3( 43046721)
+ok 17 - True <- power3( 129140163)
+ok 18 - True <- power3( 387420489)
+ok 19 - True <- power3( 1162261467)
+ok 20 - True <- power3( 3486784401)
+ok 21 - True <- power3( 10460353203)
+ok 22 - True <- power3( 31381059609)
+ok 23 - True <- power3( 94143178827)
+ok 24 - True <- power3( 282429536481)
+ok 25 - True <- power3( 847288609443)
+ok 26 - True <- power3( 2541865828329)
+ok 27 - True <- power3( 7625597484987)
+ok 28 - True <- power3( 22876792454961)
+ok 29 - True <- power3( 68630377364883)
+ok 30 - True <- power3( 205891132094649)
+ok 31 - True <- power3( 617673396283947)
+ok 32 - True <- power3( 1853020188851841)
+ok 33 - True <- power3( 5559060566555523)
+ok 34 - True <- power3( 16677181699666569)
+ok 35 - True <- power3( 50031545098999707)
+ok 36 - True <- power3( 150094635296999121)
+ok 37 - True <- power3( 450283905890997363)
+ok 38 - True <- power3( 1350851717672992089)
+ok 39 - True <- power3( 4052555153018976267)
+ok 40 - True <- power3( 12157665459056928801)
+ok 41 - True <- power3( 36472996377170786403)
+ok 42 - True <- power3( 109418989131512359209)
+ok 43 - True <- power3( 328256967394537077627)
+ok 44 - True <- power3( 984770902183611232881)
+ok 45 - True <- power3( 2954312706550833698643)
+ok 46 - True <- power3( 8862938119652501095929)
+ok 47 - True <- power3( 26588814358957503287787)
+ok 48 - True <- power3( 79766443076872509863361)
+ok 49 - True <- power3( 239299329230617529590083)
+ok 50 - True <- power3( 717897987691852588770249)
+ok 51 - True <- power3( 2153693963075557766310747)
+ok 52 - True <- power3( 6461081889226673298932241)
+ok 53 - True <- power3( 19383245667680019896796723)
+ok 54 - True <- power3( 58149737003040059690390169)
+ok 55 - True <- power3( 174449211009120179071170507)
+ok 56 - True <- power3( 523347633027360537213511521)
+ok 57 - True <- power3( 1570042899082081611640534563)
+ok 58 - True <- power3( 4710128697246244834921603689)
+ok 59 - True <- power3( 14130386091738734504764811067)
+ok 60 - True <- power3( 42391158275216203514294433201)
+ok 61 - True <- power3( 127173474825648610542883299603)
+ok 62 - True <- power3( 381520424476945831628649898809)
+ok 63 - True <- power3( 1144561273430837494885949696427)
+ok 64 - True <- power3( 3433683820292512484657849089281)
+ok 65 - True <- power3( 10301051460877537453973547267843)
+ok 66 - True <- power3( 30903154382632612361920641803529)
+ok 67 - True <- power3( 92709463147897837085761925410587)
+ok 68 - True <- power3( 278128389443693511257285776231761)
+ok 69 - True <- power3( 834385168331080533771857328695283)
+ok 70 - True <- power3( 2503155504993241601315571986085849)
+ok 71 - True <- power3( 7509466514979724803946715958257547)
+ok 72 - True <- power3( 22528399544939174411840147874772641)
+ok 73 - True <- power3( 67585198634817523235520443624317923)
+ok 74 - True <- power3( 202755595904452569706561330872953769)
+ok 75 - True <- power3( 608266787713357709119683992618861307)
+ok 76 - True <- power3( 1824800363140073127359051977856583921)
+ok 77 - True <- power3( 5474401089420219382077155933569751763)
+ok 78 - True <- power3( 16423203268260658146231467800709255289)
+ok 79 - True <- power3( 49269609804781974438694403402127765867)
+ok 80 - True <- power3( 147808829414345923316083210206383297601)
+ok 81 - True <- power3( 443426488243037769948249630619149892803)
+ok 82 - True <- power3( 1330279464729113309844748891857449678409)
+ok 83 - True <- power3( 3990838394187339929534246675572349035227)
+ok 84 - True <- power3( 11972515182562019788602740026717047105681)
+ok 85 - True <- power3( 35917545547686059365808220080151141317043)
+ok 86 - True <- power3( 107752636643058178097424660240453423951129)
+ok 87 - True <- power3( 323257909929174534292273980721360271853387)
+ok 88 - True <- power3( 969773729787523602876821942164080815560161)
+ok 89 - True <- power3( 2909321189362570808630465826492242446680483)
+ok 90 - True <- power3( 8727963568087712425891397479476727340041449)
+ok 91 - True <- power3( 26183890704263137277674192438430182020124347)
+ok 92 - True <- power3( 78551672112789411833022577315290546060373041)
+ok 93 - True <- power3( 235655016338368235499067731945871638181119123)
+ok 94 - True <- power3( 706965049015104706497203195837614914543357369)
+ok 95 - True <- power3( 2120895147045314119491609587512844743630072107)
+ok 96 - True <- power3( 6362685441135942358474828762538534230890216321)
+ok 97 - True <- power3( 19088056323407827075424486287615602692670648963)
+ok 98 - True <- power3( 57264168970223481226273458862846808078011946889)
+ok 99 - True <- power3( 171792506910670443678820376588540424234035840667)
+ok 100 - True <- power3( 515377520732011331036461129765621272702107522001)
+ok 101 - False <- power3( 4)
+ok 102 - False <- power3( 10)
+ok 103 - False <- power3( 28)
+ok 104 - False <- power3( 82)
+ok 105 - False <- power3( 244)
+ok 106 - False <- power3( 730)
+ok 107 - False <- power3( 2188)
+ok 108 - False <- power3( 6562)
+ok 109 - False <- power3( 19684)
+ok 110 - False <- power3( 59050)
+ok 111 - False <- power3( 177148)
+ok 112 - False <- power3( 531442)
+ok 113 - False <- power3( 1594324)
+ok 114 - False <- power3( 4782970)
+ok 115 - False <- power3( 14348908)
+ok 116 - False <- power3( 43046722)
+ok 117 - False <- power3( 129140164)
+ok 118 - False <- power3( 387420490)
+ok 119 - False <- power3( 1162261468)
+ok 120 - False <- power3( 3486784402)
+ok 121 - False <- power3( 10460353204)
+ok 122 - False <- power3( 31381059610)
+ok 123 - False <- power3( 94143178828)
+ok 124 - False <- power3( 282429536482)
+ok 125 - False <- power3( 847288609444)
+ok 126 - False <- power3( 2541865828330)
+ok 127 - False <- power3( 7625597484988)
+ok 128 - False <- power3( 22876792454962)
+ok 129 - False <- power3( 68630377364884)
+ok 130 - False <- power3( 205891132094650)
+ok 131 - False <- power3( 617673396283948)
+ok 132 - False <- power3( 1853020188851842)
+ok 133 - False <- power3( 5559060566555524)
+ok 134 - False <- power3( 16677181699666570)
+ok 135 - False <- power3( 50031545098999708)
+ok 136 - False <- power3( 150094635296999122)
+ok 137 - False <- power3( 450283905890997364)
+ok 138 - False <- power3( 1350851717672992090)
+ok 139 - False <- power3( 4052555153018976268)
+ok 140 - False <- power3( 12157665459056928802)
+ok 141 - False <- power3( 36472996377170786404)
+ok 142 - False <- power3( 109418989131512359210)
+ok 143 - False <- power3( 328256967394537077628)
+ok 144 - False <- power3( 984770902183611232882)
+ok 145 - False <- power3( 2954312706550833698644)
+ok 146 - False <- power3( 8862938119652501095930)
+ok 147 - False <- power3( 26588814358957503287788)
+ok 148 - False <- power3( 79766443076872509863362)
+ok 149 - False <- power3( 239299329230617529590084)
+ok 150 - False <- power3( 717897987691852588770250)
+ok 151 - False <- power3( 2153693963075557766310748)
+ok 152 - False <- power3( 6461081889226673298932242)
+ok 153 - False <- power3( 19383245667680019896796724)
+ok 154 - False <- power3( 58149737003040059690390170)
+ok 155 - False <- power3( 174449211009120179071170508)
+ok 156 - False <- power3( 523347633027360537213511522)
+ok 157 - False <- power3( 1570042899082081611640534564)
+ok 158 - False <- power3( 4710128697246244834921603690)
+ok 159 - False <- power3( 14130386091738734504764811068)
+ok 160 - False <- power3( 42391158275216203514294433202)
+ok 161 - False <- power3( 127173474825648610542883299604)
+ok 162 - False <- power3( 381520424476945831628649898810)
+ok 163 - False <- power3( 1144561273430837494885949696428)
+ok 164 - False <- power3( 3433683820292512484657849089282)
+ok 165 - False <- power3( 10301051460877537453973547267844)
+ok 166 - False <- power3( 30903154382632612361920641803530)
+ok 167 - False <- power3( 92709463147897837085761925410588)
+ok 168 - False <- power3( 278128389443693511257285776231762)
+ok 169 - False <- power3( 834385168331080533771857328695284)
+ok 170 - False <- power3( 2503155504993241601315571986085850)
+ok 171 - False <- power3( 7509466514979724803946715958257548)
+ok 172 - False <- power3( 22528399544939174411840147874772642)
+ok 173 - False <- power3( 67585198634817523235520443624317924)
+ok 174 - False <- power3( 202755595904452569706561330872953770)
+ok 175 - False <- power3( 608266787713357709119683992618861308)
+ok 176 - False <- power3( 1824800363140073127359051977856583922)
+ok 177 - False <- power3( 5474401089420219382077155933569751764)
+ok 178 - False <- power3( 16423203268260658146231467800709255290)
+ok 179 - False <- power3( 49269609804781974438694403402127765868)
+ok 180 - False <- power3( 147808829414345923316083210206383297602)
+ok 181 - False <- power3( 443426488243037769948249630619149892804)
+ok 182 - False <- power3( 1330279464729113309844748891857449678410)
+ok 183 - False <- power3( 3990838394187339929534246675572349035228)
+ok 184 - False <- power3( 11972515182562019788602740026717047105682)
+ok 185 - False <- power3( 35917545547686059365808220080151141317044)
+ok 186 - False <- power3( 107752636643058178097424660240453423951130)
+ok 187 - False <- power3( 323257909929174534292273980721360271853388)
+ok 188 - False <- power3( 969773729787523602876821942164080815560162)
+ok 189 - False <- power3( 2909321189362570808630465826492242446680484)
+ok 190 - False <- power3( 8727963568087712425891397479476727340041450)
+ok 191 - False <- power3( 26183890704263137277674192438430182020124348)
+ok 192 - False <- power3( 78551672112789411833022577315290546060373042)
+ok 193 - False <- power3( 235655016338368235499067731945871638181119124)
+ok 194 - False <- power3( 706965049015104706497203195837614914543357370)
+ok 195 - False <- power3( 2120895147045314119491609587512844743630072108)
+ok 196 - False <- power3( 6362685441135942358474828762538534230890216322)
+ok 197 - False <- power3( 19088056323407827075424486287615602692670648964)
+ok 198 - False <- power3( 57264168970223481226273458862846808078011946890)
+ok 199 - False <- power3( 171792506910670443678820376588540424234035840668)
+ok 200 - False <- power3( 515377520732011331036461129765621272702107522002)
+ok 201 - False <- power3( 5)
+ok 202 - False <- power3( 11)
+ok 203 - False <- power3( 29)
+ok 204 - False <- power3( 83)
+ok 205 - False <- power3( 245)
+ok 206 - False <- power3( 731)
+ok 207 - False <- power3( 2189)
+ok 208 - False <- power3( 6563)
+ok 209 - False <- power3( 19685)
+ok 210 - False <- power3( 59051)
+ok 211 - False <- power3( 177149)
+ok 212 - False <- power3( 531443)
+ok 213 - False <- power3( 1594325)
+ok 214 - False <- power3( 4782971)
+ok 215 - False <- power3( 14348909)
+ok 216 - False <- power3( 43046723)
+ok 217 - False <- power3( 129140165)
+ok 218 - False <- power3( 387420491)
+ok 219 - False <- power3( 1162261469)
+ok 220 - False <- power3( 3486784403)
+ok 221 - False <- power3( 10460353205)
+ok 222 - False <- power3( 31381059611)
+ok 223 - False <- power3( 94143178829)
+ok 224 - False <- power3( 282429536483)
+ok 225 - False <- power3( 847288609445)
+ok 226 - False <- power3( 2541865828331)
+ok 227 - False <- power3( 7625597484989)
+ok 228 - False <- power3( 22876792454963)
+ok 229 - False <- power3( 68630377364885)
+ok 230 - False <- power3( 205891132094651)
+ok 231 - False <- power3( 617673396283949)
+ok 232 - False <- power3( 1853020188851843)
+ok 233 - False <- power3( 5559060566555525)
+ok 234 - False <- power3( 16677181699666571)
+ok 235 - False <- power3( 50031545098999709)
+ok 236 - False <- power3( 150094635296999123)
+ok 237 - False <- power3( 450283905890997365)
+ok 238 - False <- power3( 1350851717672992091)
+ok 239 - False <- power3( 4052555153018976269)
+ok 240 - False <- power3( 12157665459056928803)
+ok 241 - False <- power3( 36472996377170786405)
+ok 242 - False <- power3( 109418989131512359211)
+ok 243 - False <- power3( 328256967394537077629)
+ok 244 - False <- power3( 984770902183611232883)
+ok 245 - False <- power3( 2954312706550833698645)
+ok 246 - False <- power3( 8862938119652501095931)
+ok 247 - False <- power3( 26588814358957503287789)
+ok 248 - False <- power3( 79766443076872509863363)
+ok 249 - False <- power3( 239299329230617529590085)
+ok 250 - False <- power3( 717897987691852588770251)
+ok 251 - False <- power3( 2153693963075557766310749)
+ok 252 - False <- power3( 6461081889226673298932243)
+ok 253 - False <- power3( 19383245667680019896796725)
+ok 254 - False <- power3( 58149737003040059690390171)
+ok 255 - False <- power3( 174449211009120179071170509)
+ok 256 - False <- power3( 523347633027360537213511523)
+ok 257 - False <- power3( 1570042899082081611640534565)
+ok 258 - False <- power3( 4710128697246244834921603691)
+ok 259 - False <- power3( 14130386091738734504764811069)
+ok 260 - False <- power3( 42391158275216203514294433203)
+ok 261 - False <- power3( 127173474825648610542883299605)
+ok 262 - False <- power3( 381520424476945831628649898811)
+ok 263 - False <- power3( 1144561273430837494885949696429)
+ok 264 - False <- power3( 3433683820292512484657849089283)
+ok 265 - False <- power3( 10301051460877537453973547267845)
+ok 266 - False <- power3( 30903154382632612361920641803531)
+ok 267 - False <- power3( 92709463147897837085761925410589)
+ok 268 - False <- power3( 278128389443693511257285776231763)
+ok 269 - False <- power3( 834385168331080533771857328695285)
+ok 270 - False <- power3( 2503155504993241601315571986085851)
+ok 271 - False <- power3( 7509466514979724803946715958257549)
+ok 272 - False <- power3( 22528399544939174411840147874772643)
+ok 273 - False <- power3( 67585198634817523235520443624317925)
+ok 274 - False <- power3( 202755595904452569706561330872953771)
+ok 275 - False <- power3( 608266787713357709119683992618861309)
+ok 276 - False <- power3( 1824800363140073127359051977856583923)
+ok 277 - False <- power3( 5474401089420219382077155933569751765)
+ok 278 - False <- power3( 16423203268260658146231467800709255291)
+ok 279 - False <- power3( 49269609804781974438694403402127765869)
+ok 280 - False <- power3( 147808829414345923316083210206383297603)
+ok 281 - False <- power3( 443426488243037769948249630619149892805)
+ok 282 - False <- power3( 1330279464729113309844748891857449678411)
+ok 283 - False <- power3( 3990838394187339929534246675572349035229)
+ok 284 - False <- power3( 11972515182562019788602740026717047105683)
+ok 285 - False <- power3( 35917545547686059365808220080151141317045)
+ok 286 - False <- power3( 107752636643058178097424660240453423951131)
+ok 287 - False <- power3( 323257909929174534292273980721360271853389)
+ok 288 - False <- power3( 969773729787523602876821942164080815560163)
+ok 289 - False <- power3( 2909321189362570808630465826492242446680485)
+ok 290 - False <- power3( 8727963568087712425891397479476727340041451)
+ok 291 - False <- power3( 26183890704263137277674192438430182020124349)
+ok 292 - False <- power3( 78551672112789411833022577315290546060373043)
+ok 293 - False <- power3( 235655016338368235499067731945871638181119125)
+ok 294 - False <- power3( 706965049015104706497203195837614914543357371)
+ok 295 - False <- power3( 2120895147045314119491609587512844743630072109)
+ok 296 - False <- power3( 6362685441135942358474828762538534230890216323)
+ok 297 - False <- power3( 19088056323407827075424486287615602692670648965)
+ok 298 - False <- power3( 57264168970223481226273458862846808078011946891)
+ok 299 - False <- power3( 171792506910670443678820376588540424234035840669)
+ok 300 - False <- power3( 515377520732011331036461129765621272702107522003)
+ok 301 - False <- power3( 6)
+ok 302 - False <- power3( 12)
+ok 303 - False <- power3( 30)
+ok 304 - False <- power3( 84)
+ok 305 - False <- power3( 246)
+ok 306 - False <- power3( 732)
+ok 307 - False <- power3( 2190)
+ok 308 - False <- power3( 6564)
+ok 309 - False <- power3( 19686)
+ok 310 - False <- power3( 59052)
+ok 311 - False <- power3( 177150)
+ok 312 - False <- power3( 531444)
+ok 313 - False <- power3( 1594326)
+ok 314 - False <- power3( 4782972)
+ok 315 - False <- power3( 14348910)
+ok 316 - False <- power3( 43046724)
+ok 317 - False <- power3( 129140166)
+ok 318 - False <- power3( 387420492)
+ok 319 - False <- power3( 1162261470)
+ok 320 - False <- power3( 3486784404)
+ok 321 - False <- power3( 10460353206)
+ok 322 - False <- power3( 31381059612)
+ok 323 - False <- power3( 94143178830)
+ok 324 - False <- power3( 282429536484)
+ok 325 - False <- power3( 847288609446)
+ok 326 - False <- power3( 2541865828332)
+ok 327 - False <- power3( 7625597484990)
+ok 328 - False <- power3( 22876792454964)
+ok 329 - False <- power3( 68630377364886)
+ok 330 - False <- power3( 205891132094652)
+ok 331 - False <- power3( 617673396283950)
+ok 332 - False <- power3( 1853020188851844)
+ok 333 - False <- power3( 5559060566555526)
+ok 334 - False <- power3( 16677181699666572)
+ok 335 - False <- power3( 50031545098999710)
+ok 336 - False <- power3( 150094635296999124)
+ok 337 - False <- power3( 450283905890997366)
+ok 338 - False <- power3( 1350851717672992092)
+ok 339 - False <- power3( 4052555153018976270)
+ok 340 - False <- power3( 12157665459056928804)
+ok 341 - False <- power3( 36472996377170786406)
+ok 342 - False <- power3( 109418989131512359212)
+ok 343 - False <- power3( 328256967394537077630)
+ok 344 - False <- power3( 984770902183611232884)
+ok 345 - False <- power3( 2954312706550833698646)
+ok 346 - False <- power3( 8862938119652501095932)
+ok 347 - False <- power3( 26588814358957503287790)
+ok 348 - False <- power3( 79766443076872509863364)
+ok 349 - False <- power3( 239299329230617529590086)
+ok 350 - False <- power3( 717897987691852588770252)
+ok 351 - False <- power3( 2153693963075557766310750)
+ok 352 - False <- power3( 6461081889226673298932244)
+ok 353 - False <- power3( 19383245667680019896796726)
+ok 354 - False <- power3( 58149737003040059690390172)
+ok 355 - False <- power3( 174449211009120179071170510)
+ok 356 - False <- power3( 523347633027360537213511524)
+ok 357 - False <- power3( 1570042899082081611640534566)
+ok 358 - False <- power3( 4710128697246244834921603692)
+ok 359 - False <- power3( 14130386091738734504764811070)
+ok 360 - False <- power3( 42391158275216203514294433204)
+ok 361 - False <- power3( 127173474825648610542883299606)
+ok 362 - False <- power3( 381520424476945831628649898812)
+ok 363 - False <- power3( 1144561273430837494885949696430)
+ok 364 - False <- power3( 3433683820292512484657849089284)
+ok 365 - False <- power3( 10301051460877537453973547267846)
+ok 366 - False <- power3( 30903154382632612361920641803532)
+ok 367 - False <- power3( 92709463147897837085761925410590)
+ok 368 - False <- power3( 278128389443693511257285776231764)
+ok 369 - False <- power3( 834385168331080533771857328695286)
+ok 370 - False <- power3( 2503155504993241601315571986085852)
+ok 371 - False <- power3( 7509466514979724803946715958257550)
+ok 372 - False <- power3( 22528399544939174411840147874772644)
+ok 373 - False <- power3( 67585198634817523235520443624317926)
+ok 374 - False <- power3( 202755595904452569706561330872953772)
+ok 375 - False <- power3( 608266787713357709119683992618861310)
+ok 376 - False <- power3( 1824800363140073127359051977856583924)
+ok 377 - False <- power3( 5474401089420219382077155933569751766)
+ok 378 - False <- power3( 16423203268260658146231467800709255292)
+ok 379 - False <- power3( 49269609804781974438694403402127765870)
+ok 380 - False <- power3( 147808829414345923316083210206383297604)
+ok 381 - False <- power3( 443426488243037769948249630619149892806)
+ok 382 - False <- power3( 1330279464729113309844748891857449678412)
+ok 383 - False <- power3( 3990838394187339929534246675572349035230)
+ok 384 - False <- power3( 11972515182562019788602740026717047105684)
+ok 385 - False <- power3( 35917545547686059365808220080151141317046)
+ok 386 - False <- power3( 107752636643058178097424660240453423951132)
+ok 387 - False <- power3( 323257909929174534292273980721360271853390)
+ok 388 - False <- power3( 969773729787523602876821942164080815560164)
+ok 389 - False <- power3( 2909321189362570808630465826492242446680486)
+ok 390 - False <- power3( 8727963568087712425891397479476727340041452)
+ok 391 - False <- power3( 26183890704263137277674192438430182020124350)
+ok 392 - False <- power3( 78551672112789411833022577315290546060373044)
+ok 393 - False <- power3( 235655016338368235499067731945871638181119126)
+ok 394 - False <- power3( 706965049015104706497203195837614914543357372)
+ok 395 - False <- power3( 2120895147045314119491609587512844743630072110)
+ok 396 - False <- power3( 6362685441135942358474828762538534230890216324)
+ok 397 - False <- power3( 19088056323407827075424486287615602692670648966)
+ok 398 - False <- power3( 57264168970223481226273458862846808078011946892)
+ok 399 - False <- power3( 171792506910670443678820376588540424234035840670)
+ok 400 - False <- power3( 515377520732011331036461129765621272702107522004)
+
+Input: $n = 32555901798901548909805710196339512937746699577819896733148166770939695761169591944716601596994047496568127875799192752976237996755436903334188287507777175935660487440069694050477274463831460865601047390883693080692799039812797643298885450588115499564368371233954218933447232955328956485392359902357978491559428411516395754415712792562746343348472052389659902634987367099013358962804272598983282205424074050527063893537720650005163128512648149446920031773269795759236869951137497914586850733546363900415941951853841810071133223586824885279174129551439868222635856750227250886093423756048039188286678378587
+Output: true
+
+Input: $n = 32555901798901548909805710196339512937746699577819896733148166770939695761169591944716601596994047496568127875799192752976237996755436903334188287507777175935660487440069694050477274463831460865601047390883693080692799039812797643298885450588115499564368371233954218933447232955328956485392359902357978491559428411516395754415712792562746343348472052389659902634987367099013358962804272598983282205424074050527063893537720650005163128512648149446920031773269795759236869951137497914586850733546363900415941951853841810071133223586824885279174129551439868222635856750227250886093423756048039188286678378596
+Output: false
+ 
+===> 254/1/arne-sommer.raku <===
+true
+ 
+===> 254/1/athanasius.raku <===
+
+Challenge 254, Task #1: Three Power (Raku)
+
+Running the test suite
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ok 4 - Large power
+ok 5 - One under
+ok 6 - One over
+1..6
+ 
+===> 254/1/bruce-gray.raku <===
+1..963
+ok 1 - PO3   : task1_PO3_log 27 -> True
+ok 2 - PO3   : task1_PO3_log 0 -> False
+ok 3 - PO3   : task1_PO3_log 6 -> False
+ok 4 - PO3   : task1_PO3_log 8 -> False
+ok 5 - PO3   : task1_PO3_log 9 -> True
+ok 6 - PO3   : task1_PO3_log 10 -> False
+ok 7 - PO3   : task1_PO3_log 26 -> False
+ok 8 - PO3   : task1_PO3_log 27 -> True
+ok 9 - PO3   : task1_PO3_log 28 -> False
+ok 10 - PO3   : task1_PO3_log 80 -> False
+ok 11 - PO3   : task1_PO3_log 81 -> True
+ok 12 - PO3   : task1_PO3_log 82 -> False
+ok 13 - PO3   : task1_PO3_log 242 -> False
+ok 14 - PO3   : task1_PO3_log 243 -> True
+ok 15 - PO3   : task1_PO3_log 244 -> False
+ok 16 - PO3   : task1_PO3_log 728 -> False
+ok 17 - PO3   : task1_PO3_log 729 -> True
+ok 18 - PO3   : task1_PO3_log 730 -> False
+ok 19 - PO3   : task1_PO3_log 2186 -> False
+ok 20 - PO3   : task1_PO3_log 2187 -> True
+ok 21 - PO3   : task1_PO3_log 2188 -> False
+ok 22 - PO3   : task1_PO3_log 6560 -> False
+ok 23 - PO3   : task1_PO3_log 6561 -> True
+ok 24 - PO3   : task1_PO3_log 6562 -> False
+ok 25 - PO3   : task1_PO3_log 19682 -> False
+ok 26 - PO3   : task1_PO3_log 19683 -> True
+ok 27 - PO3   : task1_PO3_log 19684 -> False
+ok 28 - PO3   : task1_PO3_log 59048 -> False
+ok 29 - PO3   : task1_PO3_log 59049 -> True
+ok 30 - PO3   : task1_PO3_log 59050 -> False
+ok 31 - PO3   : task1_PO3_log 177146 -> False
+ok 32 - PO3   : task1_PO3_log 177147 -> True
+ok 33 - PO3   : task1_PO3_log 177148 -> False
+ok 34 - PO3   : task1_PO3_log 531440 -> False
+ok 35 - PO3   : task1_PO3_log 531441 -> True
+ok 36 - PO3   : task1_PO3_log 531442 -> False
+ok 37 - PO3   : task1_PO3_log 1594322 -> False
+ok 38 - PO3   : task1_PO3_log 1594323 -> True
+ok 39 - PO3   : task1_PO3_log 1594324 -> False
+ok 40 - PO3   : task1_PO3_log 4782968 -> False
+ok 41 - PO3   : task1_PO3_log 4782969 -> True
+ok 42 - PO3   : task1_PO3_log 4782970 -> False
+ok 43 - PO3   : task1_PO3_log 14348906 -> False
+ok 44 - PO3   : task1_PO3_log 14348907 -> True
+ok 45 - PO3   : task1_PO3_log 14348908 -> False
+ok 46 - PO3   : task1_PO3_log 43046720 -> False
+ok 47 - PO3   : task1_PO3_log 43046721 -> True
+ok 48 - PO3   : task1_PO3_log 43046722 -> False
+ok 49 - PO3   : task1_PO3_log 129140162 -> False
+ok 50 - PO3   : task1_PO3_log 129140163 -> True
+ok 51 - PO3   : task1_PO3_log 129140164 -> False
+ok 52 - PO3   : task1_PO3_log 387420488 -> False
+ok 53 - PO3   : task1_PO3_log 387420489 -> True
+ok 54 - PO3   : task1_PO3_log 387420490 -> False
+ok 55 - PO3   : task1_PO3_log 1162261466 -> False
+ok 56 - PO3   : task1_PO3_log 1162261467 -> True
+ok 57 - PO3   : task1_PO3_log 1162261468 -> False
+ok 58 - PO3   : task1_PO3_log 3486784400 -> False
+ok 59 - PO3   : task1_PO3_log 3486784401 -> True
+ok 60 - PO3   : task1_PO3_log 3486784402 -> False
+ok 61 - PO3   : task1_PO3_log 10460353202 -> False
+ok 62 - PO3   : task1_PO3_log 10460353203 -> True
+ok 63 - PO3   : task1_PO3_log 10460353204 -> False
+ok 64 - PO3   : task1_PO3_log 31381059608 -> False
+ok 65 - PO3   : task1_PO3_log 31381059609 -> True
+ok 66 - PO3   : task1_PO3_log 31381059610 -> False
+ok 67 - PO3   : task1_PO3_log 94143178826 -> False
+ok 68 - PO3   : task1_PO3_log 94143178827 -> True
+ok 69 - PO3   : task1_PO3_log 94143178828 -> False
+ok 70 - PO3   : task1_PO3_log 282429536480 -> False
+ok 71 - PO3   : task1_PO3_log 282429536481 -> True
+ok 72 - PO3   : task1_PO3_log 282429536482 -> False
+ok 73 - PO3   : task1_PO3_log 847288609442 -> False
+ok 74 - PO3   : task1_PO3_log 847288609443 -> True
+ok 75 - PO3   : task1_PO3_log 847288609444 -> False
+ok 76 - PO3   : task1_PO3_log 2541865828328 -> False
+ok 77 - PO3   : task1_PO3_log 2541865828329 -> True
+ok 78 - PO3   : task1_PO3_log 2541865828330 -> False
+ok 79 - PO3   : task1_PO3_log 7625597484986 -> False
+ok 80 - PO3   : task1_PO3_log 7625597484987 -> True
+ok 81 - PO3   : task1_PO3_log 7625597484988 -> False
+ok 82 - PO3   : task1_PO3_log 22876792454960 -> False
+ok 83 - PO3   : task1_PO3_log 22876792454961 -> True
+ok 84 - PO3   : task1_PO3_log 22876792454962 -> False
+ok 85 - PO3   : task1_PO3_log 68630377364882 -> False
+ok 86 - PO3   : task1_PO3_log 68630377364883 -> True
+ok 87 - PO3   : task1_PO3_log 68630377364884 -> False
+ok 88 - PO3   : task1_PO3_log 205891132094648 -> False
+ok 89 - PO3   : task1_PO3_log 205891132094649 -> True
+ok 90 - PO3   : task1_PO3_log 205891132094650 -> False
+ok 91 - PO3   : task1_PO3_log 617673396283946 -> False
+ok 92 - PO3   : task1_PO3_log 617673396283947 -> True
+ok 93 - PO3   : task1_PO3_log 617673396283948 -> False
+ok 94 - PO3   : task1_PO3_log 1853020188851840 -> False
+ok 95 - PO3   : task1_PO3_log 1853020188851841 -> True
+ok 96 - PO3   : task1_PO3_log 1853020188851842 -> False
+ok 97 - PO3   : task1_PO3_log 5559060566555522 -> False
+ok 98 - PO3   : task1_PO3_log 5559060566555523 -> True
+ok 99 - PO3   : task1_PO3_log 5559060566555524 -> False
+ok 100 - PO3   : task1_PO3_log 16677181699666568 -> False
+ok 101 - PO3   : task1_PO3_log 16677181699666569 -> True
+ok 102 - PO3   : task1_PO3_log 16677181699666570 -> False
+ok 103 - PO3   : task1_PO3_log 50031545098999706 -> False
+ok 104 - PO3   : task1_PO3_log 50031545098999707 -> True
+ok 105 - PO3   : task1_PO3_log 50031545098999708 -> False
+ok 106 - PO3   : task1_PO3_log 150094635296999120 -> False
+ok 107 - PO3   : task1_PO3_log 150094635296999121 -> True
+ok 108 - PO3   : task1_PO3_log 150094635296999122 -> False
+ok 109 - PO3   : task1_PO3_log 450283905890997362 -> False
+ok 110 - PO3   : task1_PO3_log 450283905890997363 -> True
+ok 111 - PO3   : task1_PO3_log 450283905890997364 -> False
+ok 112 - PO3   : task1_PO3_log 1350851717672992088 -> False
+ok 113 - PO3   : task1_PO3_log 1350851717672992089 -> True
+ok 114 - PO3   : task1_PO3_log 1350851717672992090 -> False
+ok 115 - PO3   : task1_PO3_log 4052555153018976266 -> False
+ok 116 - PO3   : task1_PO3_log 4052555153018976267 -> True
+ok 117 - PO3   : task1_PO3_log 4052555153018976268 -> False
+ok 118 - PO3   : task1_PO3_div 27 -> True
+ok 119 - PO3   : task1_PO3_div 0 -> False
+ok 120 - PO3   : task1_PO3_div 6 -> False
+ok 121 - PO3   : task1_PO3_div 8 -> False
+ok 122 - PO3   : task1_PO3_div 9 -> True
+ok 123 - PO3   : task1_PO3_div 10 -> False
+ok 124 - PO3   : task1_PO3_div 26 -> False
+ok 125 - PO3   : task1_PO3_div 27 -> True
+ok 126 - PO3   : task1_PO3_div 28 -> False
+ok 127 - PO3   : task1_PO3_div 80 -> False
+ok 128 - PO3   : task1_PO3_div 81 -> True
+ok 129 - PO3   : task1_PO3_div 82 -> False
+ok 130 - PO3   : task1_PO3_div 242 -> False
+ok 131 - PO3   : task1_PO3_div 243 -> True
+ok 132 - PO3   : task1_PO3_div 244 -> False
+ok 133 - PO3   : task1_PO3_div 728 -> False
+ok 134 - PO3   : task1_PO3_div 729 -> True
+ok 135 - PO3   : task1_PO3_div 730 -> False
+ok 136 - PO3   : task1_PO3_div 2186 -> False
+ok 137 - PO3   : task1_PO3_div 2187 -> True
+ok 138 - PO3   : task1_PO3_div 2188 -> False
+ok 139 - PO3   : task1_PO3_div 6560 -> False
+ok 140 - PO3   : task1_PO3_div 6561 -> True
+ok 141 - PO3   : task1_PO3_div 6562 -> False
+ok 142 - PO3   : task1_PO3_div 19682 -> False
+ok 143 - PO3   : task1_PO3_div 19683 -> True
+ok 144 - PO3   : task1_PO3_div 19684 -> False
+ok 145 - PO3   : task1_PO3_div 59048 -> False
+ok 146 - PO3   : task1_PO3_div 59049 -> True
+ok 147 - PO3   : task1_PO3_div 59050 -> False
+ok 148 - PO3   : task1_PO3_div 177146 -> False
+ok 149 - PO3   : task1_PO3_div 177147 -> True
+ok 150 - PO3   : task1_PO3_div 177148 -> False
+ok 151 - PO3   : task1_PO3_div 531440 -> False
+ok 152 - PO3   : task1_PO3_div 531441 -> True
+ok 153 - PO3   : task1_PO3_div 531442 -> False
+ok 154 - PO3   : task1_PO3_div 1594322 -> False
+ok 155 - PO3   : task1_PO3_div 1594323 -> True
+ok 156 - PO3   : task1_PO3_div 1594324 -> False
+ok 157 - PO3   : task1_PO3_div 4782968 -> False
+ok 158 - PO3   : task1_PO3_div 4782969 -> True
+ok 159 - PO3   : task1_PO3_div 4782970 -> False
+ok 160 - PO3   : task1_PO3_div 14348906 -> False
+ok 161 - PO3   : task1_PO3_div 14348907 -> True
+ok 162 - PO3   : task1_PO3_div 14348908 -> False
+ok 163 - PO3   : task1_PO3_div 43046720 -> False
+ok 164 - PO3   : task1_PO3_div 43046721 -> True
+ok 165 - PO3   : task1_PO3_div 43046722 -> False
+ok 166 - PO3   : task1_PO3_div 129140162 -> False
+ok 167 - PO3   : task1_PO3_div 129140163 -> True
+ok 168 - PO3   : task1_PO3_div 129140164 -> False
+ok 169 - PO3   : task1_PO3_div 387420488 -> False
+ok 170 - PO3   : task1_PO3_div 387420489 -> True
+ok 171 - PO3   : task1_PO3_div 387420490 -> False
+ok 172 - PO3   : task1_PO3_div 1162261466 -> False
+ok 173 - PO3   : task1_PO3_div 1162261467 -> True
+ok 174 - PO3   : task1_PO3_div 1162261468 -> False
+ok 175 - PO3   : task1_PO3_div 3486784400 -> False
+ok 176 - PO3   : task1_PO3_div 3486784401 -> True
+ok 177 - PO3   : task1_PO3_div 3486784402 -> False
+ok 178 - PO3   : task1_PO3_div 10460353202 -> False
+ok 179 - PO3   : task1_PO3_div 10460353203 -> True
+ok 180 - PO3   : task1_PO3_div 10460353204 -> False
+ok 181 - PO3   : task1_PO3_div 31381059608 -> False
+ok 182 - PO3   : task1_PO3_div 31381059609 -> True
+ok 183 - PO3   : task1_PO3_div 31381059610 -> False
+ok 184 - PO3   : task1_PO3_div 94143178826 -> False
+ok 185 - PO3   : task1_PO3_div 94143178827 -> True
+ok 186 - PO3   : task1_PO3_div 94143178828 -> False
+ok 187 - PO3   : task1_PO3_div 282429536480 -> False
+ok 188 - PO3   : task1_PO3_div 282429536481 -> True
+ok 189 - PO3   : task1_PO3_div 282429536482 -> False
+ok 190 - PO3   : task1_PO3_div 847288609442 -> False
+ok 191 - PO3   : task1_PO3_div 847288609443 -> True
+ok 192 - PO3   : task1_PO3_div 847288609444 -> False
+ok 193 - PO3   : task1_PO3_div 2541865828328 -> False
+ok 194 - PO3   : task1_PO3_div 2541865828329 -> True
+ok 195 - PO3   : task1_PO3_div 2541865828330 -> False
+ok 196 - PO3   : task1_PO3_div 7625597484986 -> False
+ok 197 - PO3   : task1_PO3_div 7625597484987 -> True
+ok 198 - PO3   : task1_PO3_div 7625597484988 -> False
+ok 199 - PO3   : task1_PO3_div 22876792454960 -> False
+ok 200 - PO3   : task1_PO3_div 22876792454961 -> True
+ok 201 - PO3   : task1_PO3_div 22876792454962 -> False
+ok 202 - PO3   : task1_PO3_div 68630377364882 -> False
+ok 203 - PO3   : task1_PO3_div 68630377364883 -> True
+ok 204 - PO3   : task1_PO3_div 68630377364884 -> False
+ok 205 - PO3   : task1_PO3_div 205891132094648 -> False
+ok 206 - PO3   : task1_PO3_div 205891132094649 -> True
+ok 207 - PO3   : task1_PO3_div 205891132094650 -> False
+ok 208 - PO3   : task1_PO3_div 617673396283946 -> False
+ok 209 - PO3   : task1_PO3_div 617673396283947 -> True
+ok 210 - PO3   : task1_PO3_div 617673396283948 -> False
+ok 211 - PO3   : task1_PO3_div 1853020188851840 -> False
+ok 212 - PO3   : task1_PO3_div 1853020188851841 -> True
+ok 213 - PO3   : task1_PO3_div 1853020188851842 -> False
+ok 214 - PO3   : task1_PO3_div 5559060566555522 -> False
+ok 215 - PO3   : task1_PO3_div 5559060566555523 -> True
+ok 216 - PO3   : task1_PO3_div 5559060566555524 -> False
+ok 217 - PO3   : task1_PO3_div 16677181699666568 -> False
+ok 218 - PO3   : task1_PO3_div 16677181699666569 -> True
+ok 219 - PO3   : task1_PO3_div 16677181699666570 -> False
+ok 220 - PO3   : task1_PO3_div 50031545098999706 -> False
+ok 221 - PO3   : task1_PO3_div 50031545098999707 -> True
+ok 222 - PO3   : task1_PO3_div 50031545098999708 -> False
+ok 223 - PO3   : task1_PO3_div 150094635296999120 -> False
+ok 224 - PO3   : task1_PO3_div 150094635296999121 -> True
+ok 225 - PO3   : task1_PO3_div 150094635296999122 -> False
+ok 226 - PO3   : task1_PO3_div 450283905890997362 -> False
+ok 227 - PO3   : task1_PO3_div 450283905890997363 -> True
+ok 228 - PO3   : task1_PO3_div 450283905890997364 -> False
+ok 229 - PO3   : task1_PO3_div 1350851717672992088 -> False
+ok 230 - PO3   : task1_PO3_div 1350851717672992089 -> True
+ok 231 - PO3   : task1_PO3_div 1350851717672992090 -> False
+ok 232 - PO3   : task1_PO3_div 4052555153018976266 -> False
+ok 233 - PO3   : task1_PO3_div 4052555153018976267 -> True
+ok 234 - PO3   : task1_PO3_div 4052555153018976268 -> False
+ok 235 - PO3   : task1_Perl_PO3 27 -> True
+ok 236 - PO3   : task1_Perl_PO3 0 -> False
+ok 237 - PO3   : task1_Perl_PO3 6 -> False
+ok 238 - PO3   : task1_Perl_PO3 8 -> False
+ok 239 - PO3   : task1_Perl_PO3 9 -> True
+ok 240 - PO3   : task1_Perl_PO3 10 -> False
+ok 241 - PO3   : task1_Perl_PO3 26 -> False
+ok 242 - PO3   : task1_Perl_PO3 27 -> True
+ok 243 - PO3   : task1_Perl_PO3 28 -> False
+ok 244 - PO3   : task1_Perl_PO3 80 -> False
+ok 245 - PO3   : task1_Perl_PO3 81 -> True
+ok 246 - PO3   : task1_Perl_PO3 82 -> False
+ok 247 - PO3   : task1_Perl_PO3 242 -> False
+ok 248 - PO3   : task1_Perl_PO3 243 -> True
+ok 249 - PO3   : task1_Perl_PO3 244 -> False
+ok 250 - PO3   : task1_Perl_PO3 728 -> False
+ok 251 - PO3   : task1_Perl_PO3 729 -> True
+ok 252 - PO3   : task1_Perl_PO3 730 -> False
+ok 253 - PO3   : task1_Perl_PO3 2186 -> False
+ok 254 - PO3   : task1_Perl_PO3 2187 -> True
+ok 255 - PO3   : task1_Perl_PO3 2188 -> False
+ok 256 - PO3   : task1_Perl_PO3 6560 -> False
+ok 257 - PO3   : task1_Perl_PO3 6561 -> True
+ok 258 - PO3   : task1_Perl_PO3 6562 -> False
+ok 259 - PO3   : task1_Perl_PO3 19682 -> False
+ok 260 - PO3   : task1_Perl_PO3 19683 -> True
+ok 261 - PO3   : task1_Perl_PO3 19684 -> False
+ok 262 - PO3   : task1_Perl_PO3 59048 -> False
+ok 263 - PO3   : task1_Perl_PO3 59049 -> True
+ok 264 - PO3   : task1_Perl_PO3 59050 -> False
+ok 265 - PO3   : task1_Perl_PO3 177146 -> False
+ok 266 - PO3   : task1_Perl_PO3 177147 -> True
+ok 267 - PO3   : task1_Perl_PO3 177148 -> False
+ok 268 - PO3   : task1_Perl_PO3 531440 -> False
+ok 269 - PO3   : task1_Perl_PO3 531441 -> True
+ok 270 - PO3   : task1_Perl_PO3 531442 -> False
+ok 271 - PO3   : task1_Perl_PO3 1594322 -> False
+ok 272 - PO3   : task1_Perl_PO3 1594323 -> True
+ok 273 - PO3   : task1_Perl_PO3 1594324 -> False
+ok 274 - PO3   : task1_Perl_PO3 4782968 -> False
+ok 275 - PO3   : task1_Perl_PO3 4782969 -> True
+ok 276 - PO3   : task1_Perl_PO3 4782970 -> False
+ok 277 - PO3   : task1_Perl_PO3 14348906 -> False
+ok 278 - PO3   : task1_Perl_PO3 14348907 -> True
+ok 279 - PO3   : task1_Perl_PO3 14348908 -> False
+ok 280 - PO3   : task1_Perl_PO3 43046720 -> False
+ok 281 - PO3   : task1_Perl_PO3 43046721 -> True
+ok 282 - PO3   : task1_Perl_PO3 43046722 -> False
+ok 283 - PO3   : task1_Perl_PO3 129140162 -> False
+ok 284 - PO3   : task1_Perl_PO3 129140163 -> True
+ok 285 - PO3   : task1_Perl_PO3 129140164 -> False
+ok 286 - PO3   : task1_Perl_PO3 387420488 -> False
+ok 287 - PO3   : task1_Perl_PO3 387420489 -> True
+ok 288 - PO3   : task1_Perl_PO3 387420490 -> False
+ok 289 - PO3   : task1_Perl_PO3 1162261466 -> False
+ok 290 - PO3   : task1_Perl_PO3 1162261467 -> True
+ok 291 - PO3   : task1_Perl_PO3 1162261468 -> False
+ok 292 - PO3   : task1_Perl_PO3 3486784400 -> False
+ok 293 - PO3   : task1_Perl_PO3 3486784401 -> True
+ok 294 - PO3   : task1_Perl_PO3 3486784402 -> False
+ok 295 - PO3   : task1_Perl_PO3 10460353202 -> False
+ok 296 - PO3   : task1_Perl_PO3 10460353203 -> True
+ok 297 - PO3   : task1_Perl_PO3 10460353204 -> False
+ok 298 - PO3   : task1_Perl_PO3 31381059608 -> False
+ok 299 - PO3   : task1_Perl_PO3 31381059609 -> True
+ok 300 - PO3   : task1_Perl_PO3 31381059610 -> False
+ok 301 - PO3   : task1_Perl_PO3 94143178826 -> False
+ok 302 - PO3   : task1_Perl_PO3 94143178827 -> True
+ok 303 - PO3   : task1_Perl_PO3 94143178828 -> False
+ok 304 - PO3   : task1_Perl_PO3 282429536480 -> False
+ok 305 - PO3   : task1_Perl_PO3 282429536481 -> True
+ok 306 - PO3   : task1_Perl_PO3 282429536482 -> False
+ok 307 - PO3   : task1_Perl_PO3 847288609442 -> False
+ok 308 - PO3   : task1_Perl_PO3 847288609443 -> True
+ok 309 - PO3   : task1_Perl_PO3 847288609444 -> False
+ok 310 - PO3   : task1_Perl_PO3 2541865828328 -> False
+ok 311 - PO3   : task1_Perl_PO3 2541865828329 -> True
+ok 312 - PO3   : task1_Perl_PO3 2541865828330 -> False
+ok 313 - PO3   : task1_Perl_PO3 7625597484986 -> False
+ok 314 - PO3   : task1_Perl_PO3 7625597484987 -> True
+ok 315 - PO3   : task1_Perl_PO3 7625597484988 -> False
+ok 316 - PO3   : task1_Perl_PO3 22876792454960 -> False
+ok 317 - PO3   : task1_Perl_PO3 22876792454961 -> True
+ok 318 - PO3   : task1_Perl_PO3 22876792454962 -> False
+ok 319 - PO3   : task1_Perl_PO3 68630377364882 -> False
+ok 320 - PO3   : task1_Perl_PO3 68630377364883 -> True
+ok 321 - PO3   : task1_Perl_PO3 68630377364884 -> False
+ok 322 - PO3   : task1_Perl_PO3 205891132094648 -> False
+ok 323 - PO3   : task1_Perl_PO3 205891132094649 -> True
+ok 324 - PO3   : task1_Perl_PO3 205891132094650 -> False
+ok 325 - PO3   : task1_Perl_PO3 617673396283946 -> False
+ok 326 - PO3   : task1_Perl_PO3 617673396283947 -> True
+ok 327 - PO3   : task1_Perl_PO3 617673396283948 -> False
+ok 328 - PO3   : task1_Perl_PO3 1853020188851840 -> False
+ok 329 - PO3   : task1_Perl_PO3 1853020188851841 -> True
+ok 330 - PO3   : task1_Perl_PO3 1853020188851842 -> False
+ok 331 - PO3   : task1_Perl_PO3 5559060566555522 -> False
+ok 332 - PO3   : task1_Perl_PO3 5559060566555523 -> True
+ok 333 - PO3   : task1_Perl_PO3 5559060566555524 -> False
+ok 334 - PO3   : task1_Perl_PO3 16677181699666568 -> False
+ok 335 - PO3   : task1_Perl_PO3 16677181699666569 -> True
+ok 336 - PO3   : task1_Perl_PO3 16677181699666570 -> False
+ok 337 - PO3   : task1_Perl_PO3 50031545098999706 -> False
+ok 338 - PO3   : task1_Perl_PO3 50031545098999707 -> True
+ok 339 - PO3   : task1_Perl_PO3 50031545098999708 -> False
+ok 340 - PO3   : task1_Perl_PO3 150094635296999120 -> False
+ok 341 - PO3   : task1_Perl_PO3 150094635296999121 -> True
+ok 342 - PO3   : task1_Perl_PO3 150094635296999122 -> False
+ok 343 - PO3   : task1_Perl_PO3 450283905890997362 -> False
+ok 344 - PO3   : task1_Perl_PO3 450283905890997363 -> True
+ok 345 - PO3   : task1_Perl_PO3 450283905890997364 -> False
+ok 346 - PO3   : task1_Perl_PO3 1350851717672992088 -> False
+ok 347 - PO3   : task1_Perl_PO3 1350851717672992089 -> True
+ok 348 - PO3   : task1_Perl_PO3 1350851717672992090 -> False
+ok 349 - PO3   : task1_Perl_PO3 4052555153018976266 -> False
+ok 350 - PO3   : task1_Perl_PO3 4052555153018976267 -> True
+ok 351 - PO3   : task1_Perl_PO3 4052555153018976268 -> False
+ok 352 - Cubes : task1_Cubes 27 -> True
+ok 353 - Cubes : task1_Cubes 0 -> True
+ok 354 - Cubes : task1_Cubes 6 -> False
+ok 355 - Cubes : task1_Cubes -6 -> False
+ok 356 - Cubes : task1_Cubes -9 -> False
+ok 357 - Cubes : task1_Cubes -27 -> True
+ok 358 - Cubes : task1_Cubes 7 -> False
+ok 359 - Cubes : task1_Cubes 8 -> True
+ok 360 - Cubes : task1_Cubes 9 -> False
+ok 361 - Cubes : task1_Cubes 26 -> False
+ok 362 - Cubes : task1_Cubes 27 -> True
+ok 363 - Cubes : task1_Cubes 28 -> False
+ok 364 - Cubes : task1_Cubes 63 -> False
+ok 365 - Cubes : task1_Cubes 64 -> True
+ok 366 - Cubes : task1_Cubes 65 -> False
+ok 367 - Cubes : task1_Cubes 124 -> False
+ok 368 - Cubes : task1_Cubes 125 -> True
+ok 369 - Cubes : task1_Cubes 126 -> False
+ok 370 - Cubes : task1_Cubes 215 -> False
+ok 371 - Cubes : task1_Cubes 216 -> True
+ok 372 - Cubes : task1_Cubes 217 -> False
+ok 373 - Cubes : task1_Cubes 342 -> False
+ok 374 - Cubes : task1_Cubes 343 -> True
+ok 375 - Cubes : task1_Cubes 344 -> False
+ok 376 - Cubes : task1_Cubes 511 -> False
+ok 377 - Cubes : task1_Cubes 512 -> True
+ok 378 - Cubes : task1_Cubes 513 -> False
+ok 379 - Cubes : task1_Cubes 728 -> False
+ok 380 - Cubes : task1_Cubes 729 -> True
+ok 381 - Cubes : task1_Cubes 730 -> False
+ok 382 - Cubes : task1_Cubes 999 -> False
+ok 383 - Cubes : task1_Cubes 1000 -> True
+ok 384 - Cubes : task1_Cubes 1001 -> False
+ok 385 - Cubes : task1_Cubes 1330 -> False
+ok 386 - Cubes : task1_Cubes 1331 -> True
+ok 387 - Cubes : task1_Cubes 1332 -> False
+ok 388 - Cubes : task1_Cubes 1727 -> False
+ok 389 - Cubes : task1_Cubes 1728 -> True
+ok 390 - Cubes : task1_Cubes 1729 -> False
+ok 391 - Cubes : task1_Cubes 2196 -> False
+ok 392 - Cubes : task1_Cubes 2197 -> True
+ok 393 - Cubes : task1_Cubes 2198 -> False
+ok 394 - Cubes : task1_Cubes 2743 -> False
+ok 395 - Cubes : task1_Cubes 2744 -> True
+ok 396 - Cubes : task1_Cubes 2745 -> False
+ok 397 - Cubes : task1_Cubes 3374 -> False
+ok 398 - Cubes : task1_Cubes 3375 -> True
+ok 399 - Cubes : task1_Cubes 3376 -> False
+ok 400 - Cubes : task1_Cubes 4095 -> False
+ok 401 - Cubes : task1_Cubes 4096 -> True
+ok 402 - Cubes : task1_Cubes 4097 -> False
+ok 403 - Cubes : task1_Cubes 4912 -> False
+ok 404 - Cubes : task1_Cubes 4913 -> True
+ok 405 - Cubes : task1_Cubes 4914 -> False
+ok 406 - Cubes : task1_Cubes 5831 -> False
+ok 407 - Cubes : task1_Cubes 5832 -> True
+ok 408 - Cubes : task1_Cubes 5833 -> False
+ok 409 - Cubes : task1_Cubes 6858 -> False
+ok 410 - Cubes : task1_Cubes 6859 -> True
+ok 411 - Cubes : task1_Cubes 6860 -> False
+ok 412 - Cubes : task1_Cubes 7999 -> False
+ok 413 - Cubes : task1_Cubes 8000 -> True
+ok 414 - Cubes : task1_Cubes 8001 -> False
+ok 415 - Cubes : task1_Cubes 9260 -> False
+ok 416 - Cubes : task1_Cubes 9261 -> True
+ok 417 - Cubes : task1_Cubes 9262 -> False
+ok 418 - Cubes : task1_Cubes 10647 -> False
+ok 419 - Cubes : task1_Cubes 10648 -> True
+ok 420 - Cubes : task1_Cubes 10649 -> False
+ok 421 - Cubes : task1_Cubes 12166 -> False
+ok 422 - Cubes : task1_Cubes 12167 -> True
+ok 423 - Cubes : task1_Cubes 12168 -> False
+ok 424 - Cubes : task1_Cubes 13823 -> False
+ok 425 - Cubes : task1_Cubes 13824 -> True
+ok 426 - Cubes : task1_Cubes 13825 -> False
+ok 427 - Cubes : task1_Cubes 15624 -> False
+ok 428 - Cubes : task1_Cubes 15625 -> True
+ok 429 - Cubes : task1_Cubes 15626 -> False
+ok 430 - Cubes : task1_Cubes 17575 -> False
+ok 431 - Cubes : task1_Cubes 17576 -> True
+ok 432 - Cubes : task1_Cubes 17577 -> False
+ok 433 - Cubes : task1_Cubes 19682 -> False
+ok 434 - Cubes : task1_Cubes 19683 -> True
+ok 435 - Cubes : task1_Cubes 19684 -> False
+ok 436 - Cubes : task1_Cubes 21951 -> False
+ok 437 - Cubes : task1_Cubes 21952 -> True
+ok 438 - Cubes : task1_Cubes 21953 -> False
+ok 439 - Cubes : task1_Cubes 24388 -> False
+ok 440 - Cubes : task1_Cubes 24389 -> True
+ok 441 - Cubes : task1_Cubes 24390 -> False
+ok 442 - Cubes : task1_Cubes 26999 -> False
+ok 443 - Cubes : task1_Cubes 27000 -> True
+ok 444 - Cubes : task1_Cubes 27001 -> False
+ok 445 - Cubes : task1_Cubes 29790 -> False
+ok 446 - Cubes : task1_Cubes 29791 -> True
+ok 447 - Cubes : task1_Cubes 29792 -> False
+ok 448 - Cubes : task1_Cubes 32767 -> False
+ok 449 - Cubes : task1_Cubes 32768 -> True
+ok 450 - Cubes : task1_Cubes 32769 -> False
+ok 451 - Cubes : task1_Cubes 35936 -> False
+ok 452 - Cubes : task1_Cubes 35937 -> True
+ok 453 - Cubes : task1_Cubes 35938 -> False
+ok 454 - Cubes : task1_Cubes 39303 -> False
+ok 455 - Cubes : task1_Cubes 39304 -> True
+ok 456 - Cubes : task1_Cubes 39305 -> False
+ok 457 - Cubes : task1_Cubes 42874 -> False
+ok 458 - Cubes : task1_Cubes 42875 -> True
+ok 459 - Cubes : task1_Cubes 42876 -> False
+ok 460 - Cubes : task1_Cubes 46655 -> False
+ok 461 - Cubes : task1_Cubes 46656 -> True
+ok 462 - Cubes : task1_Cubes 46657 -> False
+ok 463 - Cubes : task1_Cubes 50652 -> False
+ok 464 - Cubes : task1_Cubes 50653 -> True
+ok 465 - Cubes : task1_Cubes 50654 -> False
+ok 466 - Cubes : task1_Cubes 54871 -> False
+ok 467 - Cubes : task1_Cubes 54872 -> True
+ok 468 - Cubes : task1_Cubes 54873 -> False
+ok 469 - Cubes : task1_Cubes 59318 -> False
+ok 470 - Cubes : task1_Cubes 59319 -> True
+ok 471 - Cubes : task1_Cubes 59320 -> False
+ok 472 - Cubes : task1_Cubes 63999 -> False
+ok 473 - Cubes : task1_Cubes 64000 -> True
+ok 474 - Cubes : task1_Cubes 64001 -> False
+ok 475 - Cubes : task1_Cubes 68920 -> False
+ok 476 - Cubes : task1_Cubes 68921 -> True
+ok 477 - Cubes : task1_Cubes 68922 -> False
+ok 478 - Cubes : task1_Cubes 74087 -> False
+ok 479 - Cubes : task1_Cubes 74088 -> True
+ok 480 - Cubes : task1_Cubes 74089 -> False
+ok 481 - Cubes : task1_Cubes 79506 -> False
+ok 482 - Cubes : task1_Cubes 79507 -> True
+ok 483 - Cubes : task1_Cubes 79508 -> False
+ok 484 - Cubes : task1_Cubes 85183 -> False
+ok 485 - Cubes : task1_Cubes 85184 -> True
+ok 486 - Cubes : task1_Cubes 85185 -> False
+ok 487 - Cubes : task1_Cubes 91124 -> False
+ok 488 - Cubes : task1_Cubes 91125 -> True
+ok 489 - Cubes : task1_Cubes 91126 -> False
+ok 490 - Cubes : task1_Cubes 97335 -> False
+ok 491 - Cubes : task1_Cubes 97336 -> True
+ok 492 - Cubes : task1_Cubes 97337 -> False
+ok 493 - Cubes : task1_Cubes 103822 -> False
+ok 494 - Cubes : task1_Cubes 103823 -> True
+ok 495 - Cubes : task1_Cubes 103824 -> False
+ok 496 - Cubes : task1_Cubes 110591 -> False
+ok 497 - Cubes : task1_Cubes 110592 -> True
+ok 498 - Cubes : task1_Cubes 110593 -> False
+ok 499 - Cubes : task1_Cubes 117648 -> False
+ok 500 - Cubes : task1_Cubes 117649 -> True
+ok 501 - Cubes : task1_Cubes 117650 -> False
+ok 502 - Cubes : task1_Cubes 124999 -> False
+ok 503 - Cubes : task1_Cubes 125000 -> True
+ok 504 - Cubes : task1_Cubes 125001 -> False
+ok 505 - Cubes : task1_Cubes 132650 -> False
+ok 506 - Cubes : task1_Cubes 132651 -> True
+ok 507 - Cubes : task1_Cubes 132652 -> False
+ok 508 - Cubes : task1_Cubes 140607 -> False
+ok 509 - Cubes : task1_Cubes 140608 -> True
+ok 510 - Cubes : task1_Cubes 140609 -> False
+ok 511 - Cubes : task1_Cubes 148876 -> False
+ok 512 - Cubes : task1_Cubes 148877 -> True
+ok 513 - Cubes : task1_Cubes 148878 -> False
+ok 514 - Cubes : task1_Cubes 157463 -> False
+ok 515 - Cubes : task1_Cubes 157464 -> True
+ok 516 - Cubes : task1_Cubes 157465 -> False
+ok 517 - Cubes : task1_Cubes 166374 -> False
+ok 518 - Cubes : task1_Cubes 166375 -> True
+ok 519 - Cubes : task1_Cubes 166376 -> False
+ok 520 - Cubes : task1_Cubes 175615 -> False
+ok 521 - Cubes : task1_Cubes 175616 -> True
+ok 522 - Cubes : task1_Cubes 175617 -> False
+ok 523 - Cubes : task1_Cubes 185192 -> False
+ok 524 - Cubes : task1_Cubes 185193 -> True
+ok 525 - Cubes : task1_Cubes 185194 -> False
+ok 526 - Cubes : task1_Cubes 195111 -> False
+ok 527 - Cubes : task1_Cubes 195112 -> True
+ok 528 - Cubes : task1_Cubes 195113 -> False
+ok 529 - Cubes : task1_Cubes 205378 -> False
+ok 530 - Cubes : task1_Cubes 205379 -> True
+ok 531 - Cubes : task1_Cubes 205380 -> False
+ok 532 - Cubes : task1_Cubes 215999 -> False
+ok 533 - Cubes : task1_Cubes 216000 -> True
+ok 534 - Cubes : task1_Cubes 216001 -> False
+ok 535 - Cubes : task1_Cubes 226980 -> False
+ok 536 - Cubes : task1_Cubes 226981 -> True
+ok 537 - Cubes : task1_Cubes 226982 -> False
+ok 538 - Cubes : task1_Cubes 238327 -> False
+ok 539 - Cubes : task1_Cubes 238328 -> True
+ok 540 - Cubes : task1_Cubes 238329 -> False
+ok 541 - Cubes : task1_Cubes 250046 -> False
+ok 542 - Cubes : task1_Cubes 250047 -> True
+ok 543 - Cubes : task1_Cubes 250048 -> False
+ok 544 - Cubes : task1_Cubes 262143 -> False
+ok 545 - Cubes : task1_Cubes 262144 -> True
+ok 546 - Cubes : task1_Cubes 262145 -> False
+ok 547 - Cubes : task1_Cubes 274624 -> False
+ok 548 - Cubes : task1_Cubes 274625 -> True
+ok 549 - Cubes : task1_Cubes 274626 -> False
+ok 550 - Cubes : task1_Cubes 287495 -> False
+ok 551 - Cubes : task1_Cubes 287496 -> True
+ok 552 - Cubes : task1_Cubes 287497 -> False
+ok 553 - Cubes : task1_Cubes 300762 -> False
+ok 554 - Cubes : task1_Cubes 300763 -> True
+ok 555 - Cubes : task1_Cubes 300764 -> False
+ok 556 - Cubes : task1_Cubes 314431 -> False
+ok 557 - Cubes : task1_Cubes 314432 -> True
+ok 558 - Cubes : task1_Cubes 314433 -> False
+ok 559 - Cubes : task1_Cubes 328508 -> False
+ok 560 - Cubes : task1_Cubes 328509 -> True
+ok 561 - Cubes : task1_Cubes 328510 -> False
+ok 562 - Cubes : task1_Cubes 342999 -> False
+ok 563 - Cubes : task1_Cubes 343000 -> True
+ok 564 - Cubes : task1_Cubes 343001 -> False
+ok 565 - Cubes : task1_Cubes 357910 -> False
+ok 566 - Cubes : task1_Cubes 357911 -> True
+ok 567 - Cubes : task1_Cubes 357912 -> False
+ok 568 - Cubes : task1_Cubes 373247 -> False
+ok 569 - Cubes : task1_Cubes 373248 -> True
+ok 570 - Cubes : task1_Cubes 373249 -> False
+ok 571 - Cubes : task1_Cubes 389016 -> False
+ok 572 - Cubes : task1_Cubes 389017 -> True
+ok 573 - Cubes : task1_Cubes 389018 -> False
+ok 574 - Cubes : task1_Cubes 405223 -> False
+ok 575 - Cubes : task1_Cubes 405224 -> True
+ok 576 - Cubes : task1_Cubes 405225 -> False
+ok 577 - Cubes : task1_Cubes 421874 -> False
+ok 578 - Cubes : task1_Cubes 421875 -> True
+ok 579 - Cubes : task1_Cubes 421876 -> False
+ok 580 - Cubes : task1_Cubes 438975 -> False
+ok 581 - Cubes : task1_Cubes 438976 -> True
+ok 582 - Cubes : task1_Cubes 438977 -> False
+ok 583 - Cubes : task1_Cubes 456532 -> False
+ok 584 - Cubes : task1_Cubes 456533 -> True
+ok 585 - Cubes : task1_Cubes 456534 -> False
+ok 586 - Cubes : task1_Cubes 474551 -> False
+ok 587 - Cubes : task1_Cubes 474552 -> True
+ok 588 - Cubes : task1_Cubes 474553 -> False
+ok 589 - Cubes : task1_Cubes 493038 -> False
+ok 590 - Cubes : task1_Cubes 493039 -> True
+ok 591 - Cubes : task1_Cubes 493040 -> False
+ok 592 - Cubes : task1_Cubes 511999 -> False
+ok 593 - Cubes : task1_Cubes 512000 -> True
+ok 594 - Cubes : task1_Cubes 512001 -> False
+ok 595 - Cubes : task1_Cubes 531440 -> False
+ok 596 - Cubes : task1_Cubes 531441 -> True
+ok 597 - Cubes : task1_Cubes 531442 -> False
+ok 598 - Cubes : task1_Cubes 551367 -> False
+ok 599 - Cubes : task1_Cubes 551368 -> True
+ok 600 - Cubes : task1_Cubes 551369 -> False
+ok 601 - Cubes : task1_Cubes 571786 -> False
+ok 602 - Cubes : task1_Cubes 571787 -> True
+ok 603 - Cubes : task1_Cubes 571788 -> False
+ok 604 - Cubes : task1_Cubes 592703 -> False
+ok 605 - Cubes : task1_Cubes 592704 -> True
+ok 606 - Cubes : task1_Cubes 592705 -> False
+ok 607 - Cubes : task1_Cubes 614124 -> False
+ok 608 - Cubes : task1_Cubes 614125 -> True
+ok 609 - Cubes : task1_Cubes 614126 -> False
+ok 610 - Cubes : task1_Cubes 636055 -> False
+ok 611 - Cubes : task1_Cubes 636056 -> True
+ok 612 - Cubes : task1_Cubes 636057 -> False
+ok 613 - Cubes : task1_Cubes 658502 -> False
+ok 614 - Cubes : task1_Cubes 658503 -> True
+ok 615 - Cubes : task1_Cubes 658504 -> False
+ok 616 - Cubes : task1_Cubes 681471 -> False
+ok 617 - Cubes : task1_Cubes 681472 -> True
+ok 618 - Cubes : task1_Cubes 681473 -> False
+ok 619 - Cubes : task1_Cubes 704968 -> False
+ok 620 - Cubes : task1_Cubes 704969 -> True
+ok 621 - Cubes : task1_Cubes 704970 -> False
+ok 622 - Cubes : task1_Cubes 728999 -> False
+ok 623 - Cubes : task1_Cubes 729000 -> True
+ok 624 - Cubes : task1_Cubes 729001 -> False
+ok 625 - Cubes : task1_Cubes 753570 -> False
+ok 626 - Cubes : task1_Cubes 753571 -> True
+ok 627 - Cubes : task1_Cubes 753572 -> False
+ok 628 - Cubes : task1_Cubes 778687 -> False
+ok 629 - Cubes : task1_Cubes 778688 -> True
+ok 630 - Cubes : task1_Cubes 778689 -> False
+ok 631 - Cubes : task1_Cubes 804356 -> False
+ok 632 - Cubes : task1_Cubes 804357 -> True
+ok 633 - Cubes : task1_Cubes 804358 -> False
+ok 634 - Cubes : task1_Cubes 830583 -> False
+ok 635 - Cubes : task1_Cubes 830584 -> True
+ok 636 - Cubes : task1_Cubes 830585 -> False
+ok 637 - Cubes : task1_Cubes 857374 -> False
+ok 638 - Cubes : task1_Cubes 857375 -> True
+ok 639 - Cubes : task1_Cubes 857376 -> False
+ok 640 - Cubes : task1_Cubes 884735 -> False
+ok 641 - Cubes : task1_Cubes 884736 -> True
+ok 642 - Cubes : task1_Cubes 884737 -> False
+ok 643 - Cubes : task1_Cubes 912672 -> False
+ok 644 - Cubes : task1_Cubes 912673 -> True
+ok 645 - Cubes : task1_Cubes 912674 -> False
+ok 646 - Cubes : task1_Cubes 941191 -> False
+ok 647 - Cubes : task1_Cubes 941192 -> True
+ok 648 - Cubes : task1_Cubes 941193 -> False
+ok 649 - Cubes : task1_Cubes 970298 -> False
+ok 650 - Cubes : task1_Cubes 970299 -> True
+ok 651 - Cubes : task1_Cubes 970300 -> False
+ok 652 - Cubes : task1_Cubes 999999 -> False
+ok 653 - Cubes : task1_Cubes 1000000 -> True
+ok 654 - Cubes : task1_Cubes 1000001 -> False
+ok 655 - Cubes : task1_Cubes 1152921504606846975 -> False
+ok 656 - Cubes : task1_Cubes 1152921504606846976 -> True
+ok 657 - Cubes : task1_Cubes 1152921504606846977 -> False
+ok 658 - Cubes : task1_Perl_Cube 27 -> True
+ok 659 - Cubes : task1_Perl_Cube 0 -> True
+ok 660 - Cubes : task1_Perl_Cube 6 -> False
+ok 661 - Cubes : task1_Perl_Cube -6 -> False
+ok 662 - Cubes : task1_Perl_Cube -9 -> False
+ok 663 - Cubes : task1_Perl_Cube -27 -> True
+ok 664 - Cubes : task1_Perl_Cube 7 -> False
+ok 665 - Cubes : task1_Perl_Cube 8 -> True
+ok 666 - Cubes : task1_Perl_Cube 9 -> False
+ok 667 - Cubes : task1_Perl_Cube 26 -> False
+ok 668 - Cubes : task1_Perl_Cube 27 -> True
+ok 669 - Cubes : task1_Perl_Cube 28 -> False
+ok 670 - Cubes : task1_Perl_Cube 63 -> False
+ok 671 - Cubes : task1_Perl_Cube 64 -> True
+ok 672 - Cubes : task1_Perl_Cube 65 -> False
+ok 673 - Cubes : task1_Perl_Cube 124 -> False
+ok 674 - Cubes : task1_Perl_Cube 125 -> True
+ok 675 - Cubes : task1_Perl_Cube 126 -> False
+ok 676 - Cubes : task1_Perl_Cube 215 -> False
+ok 677 - Cubes : task1_Perl_Cube 216 -> True
+ok 678 - Cubes : task1_Perl_Cube 217 -> False
+ok 679 - Cubes : task1_Perl_Cube 342 -> False
+ok 680 - Cubes : task1_Perl_Cube 343 -> True
+ok 681 - Cubes : task1_Perl_Cube 344 -> False
+ok 682 - Cubes : task1_Perl_Cube 511 -> False
+ok 683 - Cubes : task1_Perl_Cube 512 -> True
+ok 684 - Cubes : task1_Perl_Cube 513 -> False
+ok 685 - Cubes : task1_Perl_Cube 728 -> False
+ok 686 - Cubes : task1_Perl_Cube 729 -> True
+ok 687 - Cubes : task1_Perl_Cube 730 -> False
+ok 688 - Cubes : task1_Perl_Cube 999 -> False
+ok 689 - Cubes : task1_Perl_Cube 1000 -> True
+ok 690 - Cubes : task1_Perl_Cube 1001 -> False
+ok 691 - Cubes : task1_Perl_Cube 1330 -> False
+ok 692 - Cubes : task1_Perl_Cube 1331 -> True
+ok 693 - Cubes : task1_Perl_Cube 1332 -> False
+ok 694 - Cubes : task1_Perl_Cube 1727 -> False
+ok 695 - Cubes : task1_Perl_Cube 1728 -> True
+ok 696 - Cubes : task1_Perl_Cube 1729 -> False
+ok 697 - Cubes : task1_Perl_Cube 2196 -> False
+ok 698 - Cubes : task1_Perl_Cube 2197 -> True
+ok 699 - Cubes : task1_Perl_Cube 2198 -> False
+ok 700 - Cubes : task1_Perl_Cube 2743 -> False
+ok 701 - Cubes : task1_Perl_Cube 2744 -> True
+ok 702 - Cubes : task1_Perl_Cube 2745 -> False
+ok 703 - Cubes : task1_Perl_Cube 3374 -> False
+ok 704 - Cubes : task1_Perl_Cube 3375 -> True
+ok 705 - Cubes : task1_Perl_Cube 3376 -> False
+ok 706 - Cubes : task1_Perl_Cube 4095 -> False
+ok 707 - Cubes : task1_Perl_Cube 4096 -> True
+ok 708 - Cubes : task1_Perl_Cube 4097 -> False
+ok 709 - Cubes : task1_Perl_Cube 4912 -> False
+ok 710 - Cubes : task1_Perl_Cube 4913 -> True
+ok 711 - Cubes : task1_Perl_Cube 4914 -> False
+ok 712 - Cubes : task1_Perl_Cube 5831 -> False
+ok 713 - Cubes : task1_Perl_Cube 5832 -> True
+ok 714 - Cubes : task1_Perl_Cube 5833 -> False
+ok 715 - Cubes : task1_Perl_Cube 6858 -> False
+ok 716 - Cubes : task1_Perl_Cube 6859 -> True
+ok 717 - Cubes : task1_Perl_Cube 6860 -> False
+ok 718 - Cubes : task1_Perl_Cube 7999 -> False
+ok 719 - Cubes : task1_Perl_Cube 8000 -> True
+ok 720 - Cubes : task1_Perl_Cube 8001 -> False
+ok 721 - Cubes : task1_Perl_Cube 9260 -> False
+ok 722 - Cubes : task1_Perl_Cube 9261 -> True
+ok 723 - Cubes : task1_Perl_Cube 9262 -> False
+ok 724 - Cubes : task1_Perl_Cube 10647 -> False
+ok 725 - Cubes : task1_Perl_Cube 10648 -> True
+ok 726 - Cubes : task1_Perl_Cube 10649 -> False
+ok 727 - Cubes : task1_Perl_Cube 12166 -> False
+ok 728 - Cubes : task1_Perl_Cube 12167 -> True
+ok 729 - Cubes : task1_Perl_Cube 12168 -> False
+ok 730 - Cubes : task1_Perl_Cube 13823 -> False
+ok 731 - Cubes : task1_Perl_Cube 13824 -> True
+ok 732 - Cubes : task1_Perl_Cube 13825 -> False
+ok 733 - Cubes : task1_Perl_Cube 15624 -> False
+ok 734 - Cubes : task1_Perl_Cube 15625 -> True
+ok 735 - Cubes : task1_Perl_Cube 15626 -> False
+ok 736 - Cubes : task1_Perl_Cube 17575 -> False
+ok 737 - Cubes : task1_Perl_Cube 17576 -> True
+ok 738 - Cubes : task1_Perl_Cube 17577 -> False
+ok 739 - Cubes : task1_Perl_Cube 19682 -> False
+ok 740 - Cubes : task1_Perl_Cube 19683 -> True
+ok 741 - Cubes : task1_Perl_Cube 19684 -> False
+ok 742 - Cubes : task1_Perl_Cube 21951 -> False
+ok 743 - Cubes : task1_Perl_Cube 21952 -> True
+ok 744 - Cubes : task1_Perl_Cube 21953 -> False
+ok 745 - Cubes : task1_Perl_Cube 24388 -> False
+ok 746 - Cubes : task1_Perl_Cube 24389 -> True
+ok 747 - Cubes : task1_Perl_Cube 24390 -> False
+ok 748 - Cubes : task1_Perl_Cube 26999 -> False
+ok 749 - Cubes : task1_Perl_Cube 27000 -> True
+ok 750 - Cubes : task1_Perl_Cube 27001 -> False
+ok 751 - Cubes : task1_Perl_Cube 29790 -> False
+ok 752 - Cubes : task1_Perl_Cube 29791 -> True
+ok 753 - Cubes : task1_Perl_Cube 29792 -> False
+ok 754 - Cubes : task1_Perl_Cube 32767 -> False
+ok 755 - Cubes : task1_Perl_Cube 32768 -> True
+ok 756 - Cubes : task1_Perl_Cube 32769 -> False
+ok 757 - Cubes : task1_Perl_Cube 35936 -> False
+ok 758 - Cubes : task1_Perl_Cube 35937 -> True
+ok 759 - Cubes : task1_Perl_Cube 35938 -> False
+ok 760 - Cubes : task1_Perl_Cube 39303 -> False
+ok 761 - Cubes : task1_Perl_Cube 39304 -> True
+ok 762 - Cubes : task1_Perl_Cube 39305 -> False
+ok 763 - Cubes : task1_Perl_Cube 42874 -> False
+ok 764 - Cubes : task1_Perl_Cube 42875 -> True
+ok 765 - Cubes : task1_Perl_Cube 42876 -> False
+ok 766 - Cubes : task1_Perl_Cube 46655 -> False
+ok 767 - Cubes : task1_Perl_Cube 46656 -> True
+ok 768 - Cubes : task1_Perl_Cube 46657 -> False
+ok 769 - Cubes : task1_Perl_Cube 50652 -> False
+ok 770 - Cubes : task1_Perl_Cube 50653 -> True
+ok 771 - Cubes : task1_Perl_Cube 50654 -> False
+ok 772 - Cubes : task1_Perl_Cube 54871 -> False
+ok 773 - Cubes : task1_Perl_Cube 54872 -> True
+ok 774 - Cubes : task1_Perl_Cube 54873 -> False
+ok 775 - Cubes : task1_Perl_Cube 59318 -> False
+ok 776 - Cubes : task1_Perl_Cube 59319 -> True
+ok 777 - Cubes : task1_Perl_Cube 59320 -> False
+ok 778 - Cubes : task1_Perl_Cube 63999 -> False
+ok 779 - Cubes : task1_Perl_Cube 64000 -> True
+ok 780 - Cubes : task1_Perl_Cube 64001 -> False
+ok 781 - Cubes : task1_Perl_Cube 68920 -> False
+ok 782 - Cubes : task1_Perl_Cube 68921 -> True
+ok 783 - Cubes : task1_Perl_Cube 68922 -> False
+ok 784 - Cubes : task1_Perl_Cube 74087 -> False
+ok 785 - Cubes : task1_Perl_Cube 74088 -> True
+ok 786 - Cubes : task1_Perl_Cube 74089 -> False
+ok 787 - Cubes : task1_Perl_Cube 79506 -> False
+ok 788 - Cubes : task1_Perl_Cube 79507 -> True
+ok 789 - Cubes : task1_Perl_Cube 79508 -> False
+ok 790 - Cubes : task1_Perl_Cube 85183 -> False
+ok 791 - Cubes : task1_Perl_Cube 85184 -> True
+ok 792 - Cubes : task1_Perl_Cube 85185 -> False
+ok 793 - Cubes : task1_Perl_Cube 91124 -> False
+ok 794 - Cubes : task1_Perl_Cube 91125 -> True
+ok 795 - Cubes : task1_Perl_Cube 91126 -> False
+ok 796 - Cubes : task1_Perl_Cube 97335 -> False
+ok 797 - Cubes : task1_Perl_Cube 97336 -> True
+ok 798 - Cubes : task1_Perl_Cube 97337 -> False
+ok 799 - Cubes : task1_Perl_Cube 103822 -> False
+ok 800 - Cubes : task1_Perl_Cube 103823 -> True
+ok 801 - Cubes : task1_Perl_Cube 103824 -> False
+ok 802 - Cubes : task1_Perl_Cube 110591 -> False
+ok 803 - Cubes : task1_Perl_Cube 110592 -> True
+ok 804 - Cubes : task1_Perl_Cube 110593 -> False
+ok 805 - Cubes : task1_Perl_Cube 117648 -> False
+ok 806 - Cubes : task1_Perl_Cube 117649 -> True
+ok 807 - Cubes : task1_Perl_Cube 117650 -> False
+ok 808 - Cubes : task1_Perl_Cube 124999 -> False
+ok 809 - Cubes : task1_Perl_Cube 125000 -> True
+ok 810 - Cubes : task1_Perl_Cube 125001 -> False
+ok 811 - Cubes : task1_Perl_Cube 132650 -> False
+ok 812 - Cubes : task1_Perl_Cube 132651 -> True
+ok 813 - Cubes : task1_Perl_Cube 132652 -> False
+ok 814 - Cubes : task1_Perl_Cube 140607 -> False
+ok 815 - Cubes : task1_Perl_Cube 140608 -> True
+ok 816 - Cubes : task1_Perl_Cube 140609 -> False
+ok 817 - Cubes : task1_Perl_Cube 148876 -> False
+ok 818 - Cubes : task1_Perl_Cube 148877 -> True
+ok 819 - Cubes : task1_Perl_Cube 148878 -> False
+ok 820 - Cubes : task1_Perl_Cube 157463 -> False
+ok 821 - Cubes : task1_Perl_Cube 157464 -> True
+ok 822 - Cubes : task1_Perl_Cube 157465 -> False
+ok 823 - Cubes : task1_Perl_Cube 166374 -> False
+ok 824 - Cubes : task1_Perl_Cube 166375 -> True
+ok 825 - Cubes : task1_Perl_Cube 166376 -> False
+ok 826 - Cubes : task1_Perl_Cube 175615 -> False
+ok 827 - Cubes : task1_Perl_Cube 175616 -> True
+ok 828 - Cubes : task1_Perl_Cube 175617 -> False
+ok 829 - Cubes : task1_Perl_Cube 185192 -> False
+ok 830 - Cubes : task1_Perl_Cube 185193 -> True
+ok 831 - Cubes : task1_Perl_Cube 185194 -> False
+ok 832 - Cubes : task1_Perl_Cube 195111 -> False
+ok 833 - Cubes : task1_Perl_Cube 195112 -> True
+ok 834 - Cubes : task1_Perl_Cube 195113 -> False
+ok 835 - Cubes : task1_Perl_Cube 205378 -> False
+ok 836 - Cubes : task1_Perl_Cube 205379 -> True
+ok 837 - Cubes : task1_Perl_Cube 205380 -> False
+ok 838 - Cubes : task1_Perl_Cube 215999 -> False
+ok 839 - Cubes : task1_Perl_Cube 216000 -> True
+ok 840 - Cubes : task1_Perl_Cube 216001 -> False
+ok 841 - Cubes : task1_Perl_Cube 226980 -> False
+ok 842 - Cubes : task1_Perl_Cube 226981 -> True
+ok 843 - Cubes : task1_Perl_Cube 226982 -> False
+ok 844 - Cubes : task1_Perl_Cube 238327 -> False
+ok 845 - Cubes : task1_Perl_Cube 238328 -> True
+ok 846 - Cubes : task1_Perl_Cube 238329 -> False
+ok 847 - Cubes : task1_Perl_Cube 250046 -> False
+ok 848 - Cubes : task1_Perl_Cube 250047 -> True
+ok 849 - Cubes : task1_Perl_Cube 250048 -> False
+ok 850 - Cubes : task1_Perl_Cube 262143 -> False
+ok 851 - Cubes : task1_Perl_Cube 262144 -> True
+ok 852 - Cubes : task1_Perl_Cube 262145 -> False
+ok 853 - Cubes : task1_Perl_Cube 274624 -> False
+ok 854 - Cubes : task1_Perl_Cube 274625 -> True
+ok 855 - Cubes : task1_Perl_Cube 274626 -> False
+ok 856 - Cubes : task1_Perl_Cube 287495 -> False
+ok 857 - Cubes : task1_Perl_Cube 287496 -> True
+ok 858 - Cubes : task1_Perl_Cube 287497 -> False
+ok 859 - Cubes : task1_Perl_Cube 300762 -> False
+ok 860 - Cubes : task1_Perl_Cube 300763 -> True
+ok 861 - Cubes : task1_Perl_Cube 300764 -> False
+ok 862 - Cubes : task1_Perl_Cube 314431 -> False
+ok 863 - Cubes : task1_Perl_Cube 314432 -> True
+ok 864 - Cubes : task1_Perl_Cube 314433 -> False
+ok 865 - Cubes : task1_Perl_Cube 328508 -> False
+ok 866 - Cubes : task1_Perl_Cube 328509 -> True
+ok 867 - Cubes : task1_Perl_Cube 328510 -> False
+ok 868 - Cubes : task1_Perl_Cube 342999 -> False
+ok 869 - Cubes : task1_Perl_Cube 343000 -> True
+ok 870 - Cubes : task1_Perl_Cube 343001 -> False
+ok 871 - Cubes : task1_Perl_Cube 357910 -> False
+ok 872 - Cubes : task1_Perl_Cube 357911 -> True
+ok 873 - Cubes : task1_Perl_Cube 357912 -> False
+ok 874 - Cubes : task1_Perl_Cube 373247 -> False
+ok 875 - Cubes : task1_Perl_Cube 373248 -> True
+ok 876 - Cubes : task1_Perl_Cube 373249 -> False
+ok 877 - Cubes : task1_Perl_Cube 389016 -> False
+ok 878 - Cubes : task1_Perl_Cube 389017 -> True
+ok 879 - Cubes : task1_Perl_Cube 389018 -> False
+ok 880 - Cubes : task1_Perl_Cube 405223 -> False
+ok 881 - Cubes : task1_Perl_Cube 405224 -> True
+ok 882 - Cubes : task1_Perl_Cube 405225 -> False
+ok 883 - Cubes : task1_Perl_Cube 421874 -> False
+ok 884 - Cubes : task1_Perl_Cube 421875 -> True
+ok 885 - Cubes : task1_Perl_Cube 421876 -> False
+ok 886 - Cubes : task1_Perl_Cube 438975 -> False
+ok 887 - Cubes : task1_Perl_Cube 438976 -> True
+ok 888 - Cubes : task1_Perl_Cube 438977 -> False
+ok 889 - Cubes : task1_Perl_Cube 456532 -> False
+ok 890 - Cubes : task1_Perl_Cube 456533 -> True
+ok 891 - Cubes : task1_Perl_Cube 456534 -> False
+ok 892 - Cubes : task1_Perl_Cube 474551 -> False
+ok 893 - Cubes : task1_Perl_Cube 474552 -> True
+ok 894 - Cubes : task1_Perl_Cube 474553 -> False
+ok 895 - Cubes : task1_Perl_Cube 493038 -> False
+ok 896 - Cubes : task1_Perl_Cube 493039 -> True
+ok 897 - Cubes : task1_Perl_Cube 493040 -> False
+ok 898 - Cubes : task1_Perl_Cube 511999 -> False
+ok 899 - Cubes : task1_Perl_Cube 512000 -> True
+ok 900 - Cubes : task1_Perl_Cube 512001 -> False
+ok 901 - Cubes : task1_Perl_Cube 531440 -> False
+ok 902 - Cubes : task1_Perl_Cube 531441 -> True
+ok 903 - Cubes : task1_Perl_Cube 531442 -> False
+ok 904 - Cubes : task1_Perl_Cube 551367 -> False
+ok 905 - Cubes : task1_Perl_Cube 551368 -> True
+ok 906 - Cubes : task1_Perl_Cube 551369 -> False
+ok 907 - Cubes : task1_Perl_Cube 571786 -> False
+ok 908 - Cubes : task1_Perl_Cube 571787 -> True
+ok 909 - Cubes : task1_Perl_Cube 571788 -> False
+ok 910 - Cubes : task1_Perl_Cube 592703 -> False
+ok 911 - Cubes : task1_Perl_Cube 592704 -> True
+ok 912 - Cubes : task1_Perl_Cube 592705 -> False
+ok 913 - Cubes : task1_Perl_Cube 614124 -> False
+ok 914 - Cubes : task1_Perl_Cube 614125 -> True
+ok 915 - Cubes : task1_Perl_Cube 614126 -> False
+ok 916 - Cubes : task1_Perl_Cube 636055 -> False
+ok 917 - Cubes : task1_Perl_Cube 636056 -> True
+ok 918 - Cubes : task1_Perl_Cube 636057 -> False
+ok 919 - Cubes : task1_Perl_Cube 658502 -> False
+ok 920 - Cubes : task1_Perl_Cube 658503 -> True
+ok 921 - Cubes : task1_Perl_Cube 658504 -> False
+ok 922 - Cubes : task1_Perl_Cube 681471 -> False
+ok 923 - Cubes : task1_Perl_Cube 681472 -> True
+ok 924 - Cubes : task1_Perl_Cube 681473 -> False
+ok 925 - Cubes : task1_Perl_Cube 704968 -> False
+ok 926 - Cubes : task1_Perl_Cube 704969 -> True
+ok 927 - Cubes : task1_Perl_Cube 704970 -> False
+ok 928 - Cubes : task1_Perl_Cube 728999 -> False
+ok 929 - Cubes : task1_Perl_Cube 729000 -> True
+ok 930 - Cubes : task1_Perl_Cube 729001 -> False
+ok 931 - Cubes : task1_Perl_Cube 753570 -> False
+ok 932 - Cubes : task1_Perl_Cube 753571 -> True
+ok 933 - Cubes : task1_Perl_Cube 753572 -> False
+ok 934 - Cubes : task1_Perl_Cube 778687 -> False
+ok 935 - Cubes : task1_Perl_Cube 778688 -> True
+ok 936 - Cubes : task1_Perl_Cube 778689 -> False
+ok 937 - Cubes : task1_Perl_Cube 804356 -> False
+ok 938 - Cubes : task1_Perl_Cube 804357 -> True
+ok 939 - Cubes : task1_Perl_Cube 804358 -> False
+ok 940 - Cubes : task1_Perl_Cube 830583 -> False
+ok 941 - Cubes : task1_Perl_Cube 830584 -> True
+ok 942 - Cubes : task1_Perl_Cube 830585 -> False
+ok 943 - Cubes : task1_Perl_Cube 857374 -> False
+ok 944 - Cubes : task1_Perl_Cube 857375 -> True
+ok 945 - Cubes : task1_Perl_Cube 857376 -> False
+ok 946 - Cubes : task1_Perl_Cube 884735 -> False
+ok 947 - Cubes : task1_Perl_Cube 884736 -> True
+ok 948 - Cubes : task1_Perl_Cube 884737 -> False
+ok 949 - Cubes : task1_Perl_Cube 912672 -> False
+ok 950 - Cubes : task1_Perl_Cube 912673 -> True
+ok 951 - Cubes : task1_Perl_Cube 912674 -> False
+ok 952 - Cubes : task1_Perl_Cube 941191 -> False
+ok 953 - Cubes : task1_Perl_Cube 941192 -> True
+ok 954 - Cubes : task1_Perl_Cube 941193 -> False
+ok 955 - Cubes : task1_Perl_Cube 970298 -> False
+ok 956 - Cubes : task1_Perl_Cube 970299 -> True
+ok 957 - Cubes : task1_Perl_Cube 970300 -> False
+ok 958 - Cubes : task1_Perl_Cube 999999 -> False
+ok 959 - Cubes : task1_Perl_Cube 1000000 -> True
+ok 960 - Cubes : task1_Perl_Cube 1000001 -> False
+ok 961 - Cubes : task1_Perl_Cube 1152921504606846975 -> False
+ok 962 - Cubes : task1_Perl_Cube 1152921504606846976 -> True
+ok 963 - Cubes : task1_Perl_Cube 1152921504606846977 -> False
+ 
+===> 254/1/laurent-rosenfeld.raku <===
+27 	=> True
+26 	=> False
+0 	=> True
+6 	=> False
+ 
+===> 254/1/lubos-kolouch.raku <===
+All tests passed!
+ 
+===> 254/1/luca-ferrari.raku <===
+true
+ 
+===> 254/1/mark-anderson.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ok 4 - 
+ok 5 - 
+ok 6 - 
+ok 7 - 
+ 
+===> 254/1/packy-anderson.raku <===
+Example 1:
+Input: $n = 27
+Output: true
+
+Example 2:
+Input: $n = 0
+Output: true
+
+Example 3:
+Input: $n = 6
+Output: false
+ 
+===> 254/1/roger-bell-west.raku <===
+1..3
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ 
+===> 254/1/ulrich-rieke.raku <===
+True
+ 
+===> 254/1/wambash.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ok 4 - 
+ok 5 - 
+ok 6 - 
+ok 7 - 
+1..7
+ 
+===> 254/1/witawayar.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ok 4 - 
+ok 5 - 
+ok 6 - 
+ok 7 - 
+1..7
