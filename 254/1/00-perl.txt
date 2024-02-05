@@ -1,0 +1,626 @@
+ 
+===> 254/1/athanasius.pl <===
+
+Challenge 254, Task #1: Three Power (Perl)
+
+Running the test suite
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ok 4 - Large power
+ok 5 - One under
+ok 6 - One over
+1..6
+ 
+===> 254/1/bob-lied.pl <===
+ 
+===> 254/1/bruce-gray.pl <===
+1..399
+ok 1 - Cubes : 27 -> 1
+ok 2 - Cubes : 0 -> 1
+ok 3 - Cubes : 6 -> 0
+ok 4 - Cubes : 7 -> 0
+ok 5 - Cubes : 8 -> 1
+ok 6 - Cubes : 9 -> 0
+ok 7 - Cubes : 26 -> 0
+ok 8 - Cubes : 27 -> 1
+ok 9 - Cubes : 28 -> 0
+ok 10 - Cubes : 63 -> 0
+ok 11 - Cubes : 64 -> 1
+ok 12 - Cubes : 65 -> 0
+ok 13 - Cubes : 124 -> 0
+ok 14 - Cubes : 125 -> 1
+ok 15 - Cubes : 126 -> 0
+ok 16 - Cubes : 215 -> 0
+ok 17 - Cubes : 216 -> 1
+ok 18 - Cubes : 217 -> 0
+ok 19 - Cubes : 342 -> 0
+ok 20 - Cubes : 343 -> 1
+ok 21 - Cubes : 344 -> 0
+ok 22 - Cubes : 511 -> 0
+ok 23 - Cubes : 512 -> 1
+ok 24 - Cubes : 513 -> 0
+ok 25 - Cubes : 728 -> 0
+ok 26 - Cubes : 729 -> 1
+ok 27 - Cubes : 730 -> 0
+ok 28 - Cubes : 999 -> 0
+ok 29 - Cubes : 1000 -> 1
+ok 30 - Cubes : 1001 -> 0
+ok 31 - Cubes : 1330 -> 0
+ok 32 - Cubes : 1331 -> 1
+ok 33 - Cubes : 1332 -> 0
+ok 34 - Cubes : 1727 -> 0
+ok 35 - Cubes : 1728 -> 1
+ok 36 - Cubes : 1729 -> 0
+ok 37 - Cubes : 2196 -> 0
+ok 38 - Cubes : 2197 -> 1
+ok 39 - Cubes : 2198 -> 0
+ok 40 - Cubes : 2743 -> 0
+ok 41 - Cubes : 2744 -> 1
+ok 42 - Cubes : 2745 -> 0
+ok 43 - Cubes : 3374 -> 0
+ok 44 - Cubes : 3375 -> 1
+ok 45 - Cubes : 3376 -> 0
+ok 46 - Cubes : 4095 -> 0
+ok 47 - Cubes : 4096 -> 1
+ok 48 - Cubes : 4097 -> 0
+ok 49 - Cubes : 4912 -> 0
+ok 50 - Cubes : 4913 -> 1
+ok 51 - Cubes : 4914 -> 0
+ok 52 - Cubes : 5831 -> 0
+ok 53 - Cubes : 5832 -> 1
+ok 54 - Cubes : 5833 -> 0
+ok 55 - Cubes : 6858 -> 0
+ok 56 - Cubes : 6859 -> 1
+ok 57 - Cubes : 6860 -> 0
+ok 58 - Cubes : 7999 -> 0
+ok 59 - Cubes : 8000 -> 1
+ok 60 - Cubes : 8001 -> 0
+ok 61 - Cubes : 9260 -> 0
+ok 62 - Cubes : 9261 -> 1
+ok 63 - Cubes : 9262 -> 0
+ok 64 - Cubes : 10647 -> 0
+ok 65 - Cubes : 10648 -> 1
+ok 66 - Cubes : 10649 -> 0
+ok 67 - Cubes : 12166 -> 0
+ok 68 - Cubes : 12167 -> 1
+ok 69 - Cubes : 12168 -> 0
+ok 70 - Cubes : 13823 -> 0
+ok 71 - Cubes : 13824 -> 1
+ok 72 - Cubes : 13825 -> 0
+ok 73 - Cubes : 15624 -> 0
+ok 74 - Cubes : 15625 -> 1
+ok 75 - Cubes : 15626 -> 0
+ok 76 - Cubes : 17575 -> 0
+ok 77 - Cubes : 17576 -> 1
+ok 78 - Cubes : 17577 -> 0
+ok 79 - Cubes : 19682 -> 0
+ok 80 - Cubes : 19683 -> 1
+ok 81 - Cubes : 19684 -> 0
+ok 82 - Cubes : 21951 -> 0
+ok 83 - Cubes : 21952 -> 1
+ok 84 - Cubes : 21953 -> 0
+ok 85 - Cubes : 24388 -> 0
+ok 86 - Cubes : 24389 -> 1
+ok 87 - Cubes : 24390 -> 0
+ok 88 - Cubes : 26999 -> 0
+ok 89 - Cubes : 27000 -> 1
+ok 90 - Cubes : 27001 -> 0
+ok 91 - Cubes : 29790 -> 0
+ok 92 - Cubes : 29791 -> 1
+ok 93 - Cubes : 29792 -> 0
+ok 94 - Cubes : 32767 -> 0
+ok 95 - Cubes : 32768 -> 1
+ok 96 - Cubes : 32769 -> 0
+ok 97 - Cubes : 35936 -> 0
+ok 98 - Cubes : 35937 -> 1
+ok 99 - Cubes : 35938 -> 0
+ok 100 - Cubes : 39303 -> 0
+ok 101 - Cubes : 39304 -> 1
+ok 102 - Cubes : 39305 -> 0
+ok 103 - Cubes : 42874 -> 0
+ok 104 - Cubes : 42875 -> 1
+ok 105 - Cubes : 42876 -> 0
+ok 106 - Cubes : 46655 -> 0
+ok 107 - Cubes : 46656 -> 1
+ok 108 - Cubes : 46657 -> 0
+ok 109 - Cubes : 50652 -> 0
+ok 110 - Cubes : 50653 -> 1
+ok 111 - Cubes : 50654 -> 0
+ok 112 - Cubes : 54871 -> 0
+ok 113 - Cubes : 54872 -> 1
+ok 114 - Cubes : 54873 -> 0
+ok 115 - Cubes : 59318 -> 0
+ok 116 - Cubes : 59319 -> 1
+ok 117 - Cubes : 59320 -> 0
+ok 118 - Cubes : 63999 -> 0
+ok 119 - Cubes : 64000 -> 1
+ok 120 - Cubes : 64001 -> 0
+ok 121 - Cubes : 68920 -> 0
+ok 122 - Cubes : 68921 -> 1
+ok 123 - Cubes : 68922 -> 0
+ok 124 - Cubes : 74087 -> 0
+ok 125 - Cubes : 74088 -> 1
+ok 126 - Cubes : 74089 -> 0
+ok 127 - Cubes : 79506 -> 0
+ok 128 - Cubes : 79507 -> 1
+ok 129 - Cubes : 79508 -> 0
+ok 130 - Cubes : 85183 -> 0
+ok 131 - Cubes : 85184 -> 1
+ok 132 - Cubes : 85185 -> 0
+ok 133 - Cubes : 91124 -> 0
+ok 134 - Cubes : 91125 -> 1
+ok 135 - Cubes : 91126 -> 0
+ok 136 - Cubes : 97335 -> 0
+ok 137 - Cubes : 97336 -> 1
+ok 138 - Cubes : 97337 -> 0
+ok 139 - Cubes : 103822 -> 0
+ok 140 - Cubes : 103823 -> 1
+ok 141 - Cubes : 103824 -> 0
+ok 142 - Cubes : 110591 -> 0
+ok 143 - Cubes : 110592 -> 1
+ok 144 - Cubes : 110593 -> 0
+ok 145 - Cubes : 117648 -> 0
+ok 146 - Cubes : 117649 -> 1
+ok 147 - Cubes : 117650 -> 0
+ok 148 - Cubes : 124999 -> 0
+ok 149 - Cubes : 125000 -> 1
+ok 150 - Cubes : 125001 -> 0
+ok 151 - Cubes : 132650 -> 0
+ok 152 - Cubes : 132651 -> 1
+ok 153 - Cubes : 132652 -> 0
+ok 154 - Cubes : 140607 -> 0
+ok 155 - Cubes : 140608 -> 1
+ok 156 - Cubes : 140609 -> 0
+ok 157 - Cubes : 148876 -> 0
+ok 158 - Cubes : 148877 -> 1
+ok 159 - Cubes : 148878 -> 0
+ok 160 - Cubes : 157463 -> 0
+ok 161 - Cubes : 157464 -> 1
+ok 162 - Cubes : 157465 -> 0
+ok 163 - Cubes : 166374 -> 0
+ok 164 - Cubes : 166375 -> 1
+ok 165 - Cubes : 166376 -> 0
+ok 166 - Cubes : 175615 -> 0
+ok 167 - Cubes : 175616 -> 1
+ok 168 - Cubes : 175617 -> 0
+ok 169 - Cubes : 185192 -> 0
+ok 170 - Cubes : 185193 -> 1
+ok 171 - Cubes : 185194 -> 0
+ok 172 - Cubes : 195111 -> 0
+ok 173 - Cubes : 195112 -> 1
+ok 174 - Cubes : 195113 -> 0
+ok 175 - Cubes : 205378 -> 0
+ok 176 - Cubes : 205379 -> 1
+ok 177 - Cubes : 205380 -> 0
+ok 178 - Cubes : 215999 -> 0
+ok 179 - Cubes : 216000 -> 1
+ok 180 - Cubes : 216001 -> 0
+ok 181 - Cubes : 226980 -> 0
+ok 182 - Cubes : 226981 -> 1
+ok 183 - Cubes : 226982 -> 0
+ok 184 - Cubes : 238327 -> 0
+ok 185 - Cubes : 238328 -> 1
+ok 186 - Cubes : 238329 -> 0
+ok 187 - Cubes : 250046 -> 0
+ok 188 - Cubes : 250047 -> 1
+ok 189 - Cubes : 250048 -> 0
+ok 190 - Cubes : 262143 -> 0
+ok 191 - Cubes : 262144 -> 1
+ok 192 - Cubes : 262145 -> 0
+ok 193 - Cubes : 274624 -> 0
+ok 194 - Cubes : 274625 -> 1
+ok 195 - Cubes : 274626 -> 0
+ok 196 - Cubes : 287495 -> 0
+ok 197 - Cubes : 287496 -> 1
+ok 198 - Cubes : 287497 -> 0
+ok 199 - Cubes : 300762 -> 0
+ok 200 - Cubes : 300763 -> 1
+ok 201 - Cubes : 300764 -> 0
+ok 202 - Cubes : 314431 -> 0
+ok 203 - Cubes : 314432 -> 1
+ok 204 - Cubes : 314433 -> 0
+ok 205 - Cubes : 328508 -> 0
+ok 206 - Cubes : 328509 -> 1
+ok 207 - Cubes : 328510 -> 0
+ok 208 - Cubes : 342999 -> 0
+ok 209 - Cubes : 343000 -> 1
+ok 210 - Cubes : 343001 -> 0
+ok 211 - Cubes : 357910 -> 0
+ok 212 - Cubes : 357911 -> 1
+ok 213 - Cubes : 357912 -> 0
+ok 214 - Cubes : 373247 -> 0
+ok 215 - Cubes : 373248 -> 1
+ok 216 - Cubes : 373249 -> 0
+ok 217 - Cubes : 389016 -> 0
+ok 218 - Cubes : 389017 -> 1
+ok 219 - Cubes : 389018 -> 0
+ok 220 - Cubes : 405223 -> 0
+ok 221 - Cubes : 405224 -> 1
+ok 222 - Cubes : 405225 -> 0
+ok 223 - Cubes : 421874 -> 0
+ok 224 - Cubes : 421875 -> 1
+ok 225 - Cubes : 421876 -> 0
+ok 226 - Cubes : 438975 -> 0
+ok 227 - Cubes : 438976 -> 1
+ok 228 - Cubes : 438977 -> 0
+ok 229 - Cubes : 456532 -> 0
+ok 230 - Cubes : 456533 -> 1
+ok 231 - Cubes : 456534 -> 0
+ok 232 - Cubes : 474551 -> 0
+ok 233 - Cubes : 474552 -> 1
+ok 234 - Cubes : 474553 -> 0
+ok 235 - Cubes : 493038 -> 0
+ok 236 - Cubes : 493039 -> 1
+ok 237 - Cubes : 493040 -> 0
+ok 238 - Cubes : 511999 -> 0
+ok 239 - Cubes : 512000 -> 1
+ok 240 - Cubes : 512001 -> 0
+ok 241 - Cubes : 531440 -> 0
+ok 242 - Cubes : 531441 -> 1
+ok 243 - Cubes : 531442 -> 0
+ok 244 - Cubes : 551367 -> 0
+ok 245 - Cubes : 551368 -> 1
+ok 246 - Cubes : 551369 -> 0
+ok 247 - Cubes : 571786 -> 0
+ok 248 - Cubes : 571787 -> 1
+ok 249 - Cubes : 571788 -> 0
+ok 250 - Cubes : 592703 -> 0
+ok 251 - Cubes : 592704 -> 1
+ok 252 - Cubes : 592705 -> 0
+ok 253 - Cubes : 614124 -> 0
+ok 254 - Cubes : 614125 -> 1
+ok 255 - Cubes : 614126 -> 0
+ok 256 - Cubes : 636055 -> 0
+ok 257 - Cubes : 636056 -> 1
+ok 258 - Cubes : 636057 -> 0
+ok 259 - Cubes : 658502 -> 0
+ok 260 - Cubes : 658503 -> 1
+ok 261 - Cubes : 658504 -> 0
+ok 262 - Cubes : 681471 -> 0
+ok 263 - Cubes : 681472 -> 1
+ok 264 - Cubes : 681473 -> 0
+ok 265 - Cubes : 704968 -> 0
+ok 266 - Cubes : 704969 -> 1
+ok 267 - Cubes : 704970 -> 0
+ok 268 - Cubes : 728999 -> 0
+ok 269 - Cubes : 729000 -> 1
+ok 270 - Cubes : 729001 -> 0
+ok 271 - Cubes : 753570 -> 0
+ok 272 - Cubes : 753571 -> 1
+ok 273 - Cubes : 753572 -> 0
+ok 274 - Cubes : 778687 -> 0
+ok 275 - Cubes : 778688 -> 1
+ok 276 - Cubes : 778689 -> 0
+ok 277 - Cubes : 804356 -> 0
+ok 278 - Cubes : 804357 -> 1
+ok 279 - Cubes : 804358 -> 0
+ok 280 - Cubes : 830583 -> 0
+ok 281 - Cubes : 830584 -> 1
+ok 282 - Cubes : 830585 -> 0
+ok 283 - Cubes : 857374 -> 0
+ok 284 - Cubes : 857375 -> 1
+ok 285 - Cubes : 857376 -> 0
+ok 286 - Cubes : 884735 -> 0
+ok 287 - Cubes : 884736 -> 1
+ok 288 - Cubes : 884737 -> 0
+ok 289 - Cubes : 912672 -> 0
+ok 290 - Cubes : 912673 -> 1
+ok 291 - Cubes : 912674 -> 0
+ok 292 - Cubes : 941191 -> 0
+ok 293 - Cubes : 941192 -> 1
+ok 294 - Cubes : 941193 -> 0
+ok 295 - Cubes : 970298 -> 0
+ok 296 - Cubes : 970299 -> 1
+ok 297 - Cubes : 970300 -> 0
+ok 298 - Cubes : 999999 -> 0
+ok 299 - Cubes : 1000000 -> 1
+ok 300 - Cubes : 1000001 -> 0
+ok 301 - Cubes : 281474976710655 -> 0
+ok 302 - Cubes : 281474976710656 -> 1
+ok 303 - Cubes : 281474976710657 -> 0
+ok 304 - PO3   : 27 -> 1
+ok 305 - PO3   : 0 -> 0
+ok 306 - PO3   : 6 -> 0
+ok 307 - PO3   : 8 -> 0
+ok 308 - PO3   : 9 -> 1
+ok 309 - PO3   : 10 -> 0
+ok 310 - PO3   : 26 -> 0
+ok 311 - PO3   : 27 -> 1
+ok 312 - PO3   : 28 -> 0
+ok 313 - PO3   : 80 -> 0
+ok 314 - PO3   : 81 -> 1
+ok 315 - PO3   : 82 -> 0
+ok 316 - PO3   : 242 -> 0
+ok 317 - PO3   : 243 -> 1
+ok 318 - PO3   : 244 -> 0
+ok 319 - PO3   : 728 -> 0
+ok 320 - PO3   : 729 -> 1
+ok 321 - PO3   : 730 -> 0
+ok 322 - PO3   : 2186 -> 0
+ok 323 - PO3   : 2187 -> 1
+ok 324 - PO3   : 2188 -> 0
+ok 325 - PO3   : 6560 -> 0
+ok 326 - PO3   : 6561 -> 1
+ok 327 - PO3   : 6562 -> 0
+ok 328 - PO3   : 19682 -> 0
+ok 329 - PO3   : 19683 -> 1
+ok 330 - PO3   : 19684 -> 0
+ok 331 - PO3   : 59048 -> 0
+ok 332 - PO3   : 59049 -> 1
+ok 333 - PO3   : 59050 -> 0
+ok 334 - PO3   : 177146 -> 0
+ok 335 - PO3   : 177147 -> 1
+ok 336 - PO3   : 177148 -> 0
+ok 337 - PO3   : 531440 -> 0
+ok 338 - PO3   : 531441 -> 1
+ok 339 - PO3   : 531442 -> 0
+ok 340 - PO3   : 1594322 -> 0
+ok 341 - PO3   : 1594323 -> 1
+ok 342 - PO3   : 1594324 -> 0
+ok 343 - PO3   : 4782968 -> 0
+ok 344 - PO3   : 4782969 -> 1
+ok 345 - PO3   : 4782970 -> 0
+ok 346 - PO3   : 14348906 -> 0
+ok 347 - PO3   : 14348907 -> 1
+ok 348 - PO3   : 14348908 -> 0
+ok 349 - PO3   : 43046720 -> 0
+ok 350 - PO3   : 43046721 -> 1
+ok 351 - PO3   : 43046722 -> 0
+ok 352 - PO3   : 129140162 -> 0
+ok 353 - PO3   : 129140163 -> 1
+ok 354 - PO3   : 129140164 -> 0
+ok 355 - PO3   : 387420488 -> 0
+ok 356 - PO3   : 387420489 -> 1
+ok 357 - PO3   : 387420490 -> 0
+ok 358 - PO3   : 1162261466 -> 0
+ok 359 - PO3   : 1162261467 -> 1
+ok 360 - PO3   : 1162261468 -> 0
+ok 361 - PO3   : 3486784400 -> 0
+ok 362 - PO3   : 3486784401 -> 1
+ok 363 - PO3   : 3486784402 -> 0
+ok 364 - PO3   : 10460353202 -> 0
+ok 365 - PO3   : 10460353203 -> 1
+ok 366 - PO3   : 10460353204 -> 0
+ok 367 - PO3   : 31381059608 -> 0
+ok 368 - PO3   : 31381059609 -> 1
+ok 369 - PO3   : 31381059610 -> 0
+ok 370 - PO3   : 94143178826 -> 0
+ok 371 - PO3   : 94143178827 -> 1
+ok 372 - PO3   : 94143178828 -> 0
+ok 373 - PO3   : 282429536480 -> 0
+ok 374 - PO3   : 282429536481 -> 1
+ok 375 - PO3   : 282429536482 -> 0
+ok 376 - PO3   : 847288609442 -> 0
+ok 377 - PO3   : 847288609443 -> 1
+ok 378 - PO3   : 847288609444 -> 0
+ok 379 - PO3   : 2541865828328 -> 0
+ok 380 - PO3   : 2541865828329 -> 1
+ok 381 - PO3   : 2541865828330 -> 0
+ok 382 - PO3   : 7625597484986 -> 0
+ok 383 - PO3   : 7625597484987 -> 1
+ok 384 - PO3   : 7625597484988 -> 0
+ok 385 - PO3   : 22876792454960 -> 0
+ok 386 - PO3   : 22876792454961 -> 1
+ok 387 - PO3   : 22876792454962 -> 0
+ok 388 - PO3   : 68630377364882 -> 0
+ok 389 - PO3   : 68630377364883 -> 1
+ok 390 - PO3   : 68630377364884 -> 0
+ok 391 - PO3   : 205891132094648 -> 0
+ok 392 - PO3   : 205891132094649 -> 1
+ok 393 - PO3   : 205891132094650 -> 0
+ok 394 - PO3   : 617673396283946 -> 0
+ok 395 - PO3   : 617673396283947 -> 1
+ok 396 - PO3   : 617673396283948 -> 0
+ok 397 - PO3   : 1853020188851840 -> 0
+ok 398 - PO3   : 1853020188851841 -> 1
+ok 399 - PO3   : 1853020188851842 -> 0
+ 
+===> 254/1/dave-jacoby.pl <===
+true
+Input:  $n = 27
+Output: true
+
+true
+Input:  $n = 0
+Output: true
+
+false
+Input:  $n = 6
+Output: false
+
+ 
+===> 254/1/deadmarshal.pl <===
+1
+1
+0
+ 
+===> 254/1/e-choroba.pl <===
+1..5
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ok 4 - Large true
+ok 5 - Large false
+ 
+===> 254/1/jo-37.pl <===
+# Seeded srand with seed '1' from import arg.
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ok 4 - 1
+ok 5 - 4
+ok 6 - 3
+ok 7 - 6
+ok 8 - 9
+ok 9 - 12
+ok 10 - 27
+ok 11 - 30
+ok 12 - 81
+ok 13 - 84
+ok 14 - 243
+ok 15 - 246
+ok 16 - 729
+ok 17 - 732
+ok 18 - 2187
+ok 19 - 2190
+ok 20 - 6561
+ok 21 - 6564
+ok 22 - 19683
+ok 23 - 19686
+ok 24 - 59049
+ok 25 - 59052
+ok 26 - 177147
+ok 27 - 177150
+ok 28 - 531441
+ok 29 - 531444
+ok 30 - 1594323
+ok 31 - 1594326
+ok 32 - 4782969
+ok 33 - 4782972
+ok 34 - 14348907
+ok 35 - 14348910
+ok 36 - 43046721
+ok 37 - 43046724
+ok 38 - 129140163
+ok 39 - 129140166
+ok 40 - 387420489
+ok 41 - 387420492
+ok 42 - 1162261467
+ok 43 - 1162261470
+ok 44 - 3486784401
+ok 45 - 3486784404
+ok 46 - 10460353203
+ok 47 - 10460353206
+ok 48 - 31381059609
+ok 49 - 31381059612
+ok 50 - 94143178827
+ok 51 - 94143178830
+ok 52 - 282429536481
+ok 53 - 282429536484
+ok 54 - 847288609443
+ok 55 - 847288609446
+1..55
+ 
+===> 254/1/laurent-rosenfeld.pl <===
+27 	=> true
+26 	=> false
+0 	=> true
+6 	=> false
+ 
+===> 254/1/lubos-kolouch.pl <===
+All tests passed!
+ 
+===> 254/1/nelo-tovar.pl <===
+Input : $n = 27
+Output : true
+ 
+Input : $n = 0
+Output : true
+ 
+Input : $n = 6
+Output : false
+ 
+ 
+===> 254/1/packy-anderson.pl <===
+Example 1:
+Input: $n = 27
+Output: true
+
+Example 2:
+Input: $n = 0
+Output: true
+
+Example 3:
+Input: $n = 6
+Output: false
+ 
+===> 254/1/perlboy1967.pl <===
+# Seeded srand with seed '1' from import arg.
+ok 1 - isPowerN(0,3) == 1
+ok 2 - isPowerN(1,3) == 1
+ok 3 - isPowerN(8,3) == 1
+ok 4 - isPowerN(27,3) == 1
+ok 5 - isPowerN(64,3) == 1
+ok 6 - isPowerN(2,3) == 0
+ok 7 - isPowerN(7,3) == 0
+ok 8 - isPowerN(9,3) == 0
+ok 9 - isPowerN(26,3) == 0
+ok 10 - isPowerN(28,3) == 0
+ok 11 - isPowerN(63,3) == 0
+ok 12 - isPowerN(65,3) == 0
+ok 13 - isPowerN(1,5) == 1
+ok 14 - isPowerN(32,5) == 1
+ok 15 - isPowerN(243,5) == 1
+1..15
+ 
+===> 254/1/peter-campbell-smith.pl <===
+
+Input:  27
+Output: true,  27 is 3 ** 3
+        true,  27 is 3 ** 3
+
+Input:  0
+Output: false, 0 is not a power of 3
+        true,  0 is 0 ** 3
+
+Input:  6
+Output: false, 6 is not a power of 3
+        false, 6 is not a perfect cube
+
+Input:  1
+Output: true,  1 is 3 ** 0
+        true,  1 is 1 ** 3
+
+Input:  1853020188851840
+Output: false, 1853020188851840 is not a power of 3
+        false, 1853020188851840 is not a perfect cube
+
+Input:  1853020188851841
+Output: true,  1853020188851841 is 3 ** 32
+        false, 1853020188851841 is not a perfect cube
+
+Input:  2197000000000000
+Output: false, 2197000000000000 is not a power of 3
+        true,  2197000000000000 is 130000 ** 3
+
+Input:  205891132094649
+Output: true,  205891132094649 is 3 ** 30
+        true,  205891132094649 is 59049 ** 3
+ 
+===> 254/1/peter-meszaros.pl <===
+# Seeded srand with seed '1' from import arg.
+ok 1 - Example 1 27
+ok 2 - Example 2 0
+ok 3 - Example 3 6
+ok 4 - Example 4 1
+ok 5 - Example 5 3
+ok 6 - Example 6 4
+1..6
+ 
+===> 254/1/roger-bell-west.pl <===
+1..3
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ 
+===> 254/1/sgreen.pl <===
+true
+ 
+===> 254/1/ulrich-rieke.pl <===
+true
+ 
+===> 254/1/wanderdoc.pl <===
+# Seeded srand with seed '1' from import arg.
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+1..3
+ 
+===> 254/1/wlmb.pl <===
+27 -> True
+33 -> False
+ 
+===> 254/1/zapwai.pl <===
+Input: $n = 27
+Output: True, 27 = 3^3

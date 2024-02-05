@@ -1,17 +1,8 @@
 #!/usr/bin/env perl
-# vim:set ts=4 sw=4 sts=4 et ai wm=0 nu:
-#=============================================================================
-# Copyright (c) 2024, Bob Lied
-#=============================================================================
-# ch-1.pl Perl Weekly Challenge 254 Task 1 Three Power
-#=============================================================================
-# You are given a positive integer, $n. Write a script to return true if
-# the given integer is a power of three otherwise return false.
-# Example 1 Input: $n = 27 Output: true
-# Example 2 Input: $n = 0 Output: true
-# Example 3 Input: $n = 6 Output: false
-#=============================================================================
 
+# require 5.38
+
+__END__
 use v5.36;
 
 use builtin qw/true false/; no warnings "experimental::builtin";
@@ -21,7 +12,7 @@ my $Verbose = 0;
 my $DoTest  = 0;
 
 GetOptions("test" => \$DoTest, "verbose" => \$Verbose);
-exit(!runTest()) if $DoTest;
+runTest();exit;
 
 say isPof3(shift) ? "true" : "false";
 
@@ -36,7 +27,7 @@ sub isPof3($n)
 
 sub runTest
 {
-    use Test2::V0;
+    use Test::More;
     use builtin qw/true false/; no warnings "experimental::builtin";
 
     is( isPof3(27), true,  "Example 1");

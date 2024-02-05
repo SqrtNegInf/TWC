@@ -1,15 +1,9 @@
 #!/usr/bin/env perl
 
-# The Weekly Challenge 254 - By Nelo Tovar
-#
-# https://theweeklychallenge.org/blog/perl-weekly-challenge-254/
-#
-# Task 1 - Three Power
-#
-
+use v5.28;
 use strict;
 use warnings;
-use v5.28;
+
 use Data::Dump qw(dump);
 
 my @examples = (27, 0, 6);

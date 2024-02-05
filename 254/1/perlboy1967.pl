@@ -1,23 +1,8 @@
 #!/usr/bin/env perl
 
-=pod
-
-The Weekly Challenge - 254
-- https://theweeklychallenge.org/blog/perl-weekly-challenge-254
-
-Author: Niels 'PerlBoy' van Dijke
-
-Task 1: Three Power
-Submitted by: Mohammad S Anwar
-
-You are given a positive integer, $n.
-
-Write a script to return true if the given integer is a power of three otherwise return false.
-
-=cut
-
 use v5.32;
 use feature qw(signatures);
+
 use common::sense;
 
 use Test2::V0 -srand => 1;

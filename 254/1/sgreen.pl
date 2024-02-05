@@ -15,5 +15,5 @@ sub three_power ($n) {
     return $i ** 3 == abs($n);
 }
 
-my $r = three_power($ARGV[0]);
+my $r = three_power(27);
 say $r ? 'true' : 'false';

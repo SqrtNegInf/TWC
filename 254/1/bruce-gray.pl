@@ -1,5 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
+
 use ntheory qw<rootint logint>;
 
 sub task1_Cube ($n) { $n==0 ? 1 : $n ==      rootint($n, 3) ** 3 }

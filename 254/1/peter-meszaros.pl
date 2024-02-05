@@ -1,33 +1,9 @@
 #!/usr/bin/env perl
-#
-# You are given a positive integer, $n.
-# 
-# Write a script to return true if the given integer is a power of three
-# otherwise return false.
-# Example 1
-# 
-# Input: $n = 27
-# Output: true
-# 
-# 27 = 3 ^ 3
-# 
-# Example 2
-# 
-# Input: $n = 0
-# Output: true
-# 
-# 0 = 0 ^ 3
-# 
-# Example 3
-# 
-# Input: $n = 6
-# Output: false
-# 
 
 use strict;
 use warnings;
-use Test2::V0 -no_srand => 1 -srand => 1;
-use Data::Dumper;
+
+use Test2::V0 -srand => 1;
 
 my $cases = [
     [27],

@@ -1,8 +1,7 @@
 #!/usr/bin/env perl
 use v5.30;
+
 my $n = 27;
-#$n = 0;
-#$n = 6;
 
 
     say "Input: \$n = $n";

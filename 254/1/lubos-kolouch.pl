@@ -6,13 +6,6 @@ use feature 'say';
 sub is_power_of_three {
     my ($n) = @_;
 
-    # Documentation
-    # Determines if the given number is a power of three.
-    # Params:
-    #   n (Integer): A positive integer
-    # Returns:
-    #   A boolean value: True if n is a power of three, False otherwise
-
     if ( $n == 0 ) {
         return 1;
     }

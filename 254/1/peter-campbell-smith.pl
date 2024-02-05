@@ -1,12 +1,8 @@
 #!/usr/bin/env perl
 
-# Blog: http://ccgi.campbellsmiths.force9.co.uk/challenge
-
 use v5.26;    # The Weekly Challenge - 2024-01-29
-use utf8;     # Week 254 task 1 - Three power
 use strict;   # Peter Campbell Smith
 use warnings; 
-binmode STDOUT, ':utf8';
 
 three_power(27);
 three_power(0);
