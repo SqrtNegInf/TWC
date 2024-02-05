@@ -1,3 +1,15 @@
 [31m===[0mSORRY![31m===[0m Error while compiling /Users/dhoekman/PWC/254/1/bruce-gray.raku
 Please install Inline::Perl5 for Perl 5 support. 
 at /Users/dhoekman/PWC/254/1/bruce-gray.raku:15
+[31m===[0mSORRY![31m===[0m Error while compiling /Users/dhoekman/PWC/254/1/massa.raku
+Could not find Testo in:
+    /Users/dhoekman/PWC/254/1/lib
+    /Users/dhoekman/.raku
+    /Users/dhoekman/.rakubrew/versions/jvm-2022.12/install/share/perl6/site
+    /Users/dhoekman/.rakubrew/versions/jvm-2022.12/install/share/perl6/vendor
+    /Users/dhoekman/.rakubrew/versions/jvm-2022.12/install/share/perl6/core
+    CompUnit::Repository::AbsolutePath<324685912>
+    CompUnit::Repository::NQP<1964038627>
+    CompUnit::Repository::Perl5<1664449549>
+    CompUnit::Repository::JavaRuntime<1641601869>
+at /Users/dhoekman/PWC/254/1/massa.raku:8

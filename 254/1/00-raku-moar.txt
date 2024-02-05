@@ -1411,6 +1411,11 @@ ok 5 -
 ok 6 - 
 ok 7 - 
  
+===> 254/1/massa.raku <===
+ok 1 - Bool::True is equivalent to Bool::True
+ok 2 - Bool::False is equivalent to Bool::False
+ok 3 - Bool::False is equivalent to Bool::False
+ 
 ===> 254/1/packy-anderson.raku <===
 Example 1:
 Input: $n = 27
