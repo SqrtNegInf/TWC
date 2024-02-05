@@ -16,14 +16,14 @@ sub MAIN() {
     }
     else {
         #| Run test cases
-        use Test2::V0 qw( is plan );
-        plan 2;
+        use Test::More;
 
-        is split_strings( ".", ( "one.two.three", "four.five", "six" ) ),
+        is_deeply split_strings( ".", ( "one.two.three", "four.five", "six" ) ),
           [ "one", "two", "three", "four", "five", "six" ],
           'works for ("one.two.three","four.five","six")';
-        is split_strings( '$', ( '$perl$$', '$$raku$' ) ), [ "perl", "raku" ],
+        is_deeply split_strings( '$', ( '$perl$$', '$$raku$' ) ), [ "perl", "raku" ],
           'works for ("$perl$$", "$$raku$")';
+        done_testing
     }
 }
 
