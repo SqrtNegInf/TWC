@@ -1,18 +1,6 @@
 #!/usr/bin/env perl
 use strict;
-use warnings FATAL => qw(all);
-
-=prompt
-You are given a string, $s.Write a script to reverse all the vowels (a, e, i, o, u) in the given string.
-Example 1 Input: $s = "Raku"  Output: "Ruka"
-Example 2 Input: $s = "Perl"  Output: "Perl"
-Example 3 Input: $s = "Julia" Output: "Jaliu""
-=cut
-
-
-
-
-
+use warnings;
 
 use Test2::V0 -srand => 1;
 

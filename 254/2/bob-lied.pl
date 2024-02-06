@@ -1,18 +1,4 @@
 #!/usr/bin/env perl
-# vim:set ts=4 sw=4 sts=4 et ai wm=0 nu:
-#=============================================================================
-# Copyright (c) 2024, Bob Lied
-#=============================================================================
-#  
-# ch-2.pl Perl Weekly Challenge 254 Task 2 Reverse Vowels
-#=============================================================================
-# You are given a string, $s.  Write a script to reverse all the vowels
-# (a, e, i, o, u) in the given string.
-# Example 1 Input: $s = "Raku"  Output: "Ruka"
-# Example 2 Input: $s = "Perl"  Output: "Perl"
-# Example 3 Input: $s = "Julia" Output: "Jaliu"
-# Example 4 Input: $s = "Uiua"  Output: "Auiu"
-#=============================================================================
 
 use v5.36;
 
@@ -21,7 +7,7 @@ my $Verbose = 0;
 my $DoTest  = 0;
 
 GetOptions("test" => \$DoTest, "verbose" => \$Verbose);
-exit(!runTest()) if $DoTest;
+runTest(); exit;
 
 say revVow($_) for @ARGV;
 
@@ -41,7 +27,7 @@ sub revVow($s)
 
 sub runTest
 {
-    use Test2::V0;
+    use Test::More;
 
     is( revVow("Raku"),  "Ruka",  "Example 1");
     is( revVow("Perl"),  "Perl",  "Example 2");

@@ -1,5 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
+
 sub task2 ( $word ) {
     my @c = split '', $word;
 

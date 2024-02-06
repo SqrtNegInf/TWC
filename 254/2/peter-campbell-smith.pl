@@ -1,12 +1,8 @@
 #!/usr/bin/env perl
 
-# Blog: http://ccgi.campbellsmiths.force9.co.uk/challenge
-
 use v5.26;    # The Weekly Challenge - 2024-01-29
-use utf8;     # Week 254 task 2 - Reverse vowels
 use strict;   # Peter Campbell Smith
 use warnings; 
-binmode STDOUT, ':utf8';
 
 reverse_vowels('triumvirate');
 reverse_vowels('bcdf');
