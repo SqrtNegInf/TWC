@@ -1,9 +1,10 @@
 #!/usr/bin/env perl
 
-# require 5.38
+# requires 5.38
 
 __END__
-use v5.36;
+
+use v5.38;
 
 use builtin qw/true false/; no warnings "experimental::builtin";
 
