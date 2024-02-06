@@ -1,26 +1,6 @@
 #!/usr/bin/env raku
-# :vim ft=raku sw=4 expandtab  # 🦋 ∅∪∩∋∈∉ ≡ ≢ «␤ » ∴
-use v6;
+
 use Test;
-
-=begin comment
-254-2: Reverse Vowels       Submitted by: Mohammad S Anwar
-You are given a string, $s, reverse all the vowels (a, e, i, o, u) in
-the given string.
-
-Example 1
-Input: $s = "Raku"
-Output: "Ruka"
-Example 2
-Input: $s = "Perl"
-Output: "Perl"
-Example 3
-Input: $s = "Julia"
-Output: "Jaliu"
-Example 4
-Input: $s = "Uiua"
-Output: "Auiu"
-=end comment
 
 my @Test = [
     "",         "",

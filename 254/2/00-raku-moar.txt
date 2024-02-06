@@ -1,0 +1,130 @@
+ 
+===> 254/2/0rir.raku <===
+1..12
+ok 1 -  -> 
+ok 2 - ' ' -> ' '
+ok 3 - Url -> Url
+ok 4 - url -> url
+ok 5 - Raku -> Ruka
+ok 6 - RAku -> RUka
+ok 7 - RAkU -> RUkA
+ok 8 - RakU -> RukA
+ok 9 - Perl -> Perl
+ok 10 - Julia -> Jaliu
+ok 11 - Uiua -> Auiu
+ok 12 - Juniper tea -> Janeper tiu
+
+Input: $s = Et's nit POERL at's Paarl, but that wes tikan se ot's Pirl.
+Output: It's not PEARL it's Pearl, but that was taken so it's Perl.
+ 
+===> 254/2/arne-sommer.raku <===
+:Letters: J,u,n,i,p,e,r
+:Vovels: u,i,e
+:Reverse: e,i,u
+Jenipur
+ 
+===> 254/2/athanasius.raku <===
+
+Challenge 254, Task #2: Reverse Vowels (Raku)
+
+Running the test suite
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ok 4 - Example 4
+ok 5 - No vowels
+ok 6 - Two words
+1..6
+ 
+===> 254/2/bruce-gray.raku <===
+1..21
+ok 1 - task2_substr Raku -> Ruka
+ok 2 - task2_substr Perl -> Perl
+ok 3 - task2_substr Julia -> Jaliu
+ok 4 - task2_substr Uiua -> Auiu
+ok 5 - task2_substr Bcdf -> Bcdf
+ok 6 - task2_substr Alphabet -> Elphabat
+ok 7 - task2_substr Zoologicoarchaeologist -> Ziologecaarchoiologost
+ok 8 - task2_array Raku -> Ruka
+ok 9 - task2_array Perl -> Perl
+ok 10 - task2_array Julia -> Jaliu
+ok 11 - task2_array Uiua -> Auiu
+ok 12 - task2_array Bcdf -> Bcdf
+ok 13 - task2_array Alphabet -> Elphabat
+ok 14 - task2_array Zoologicoarchaeologist -> Ziologecaarchoiologost
+ok 15 - task2_split Raku -> Ruka
+ok 16 - task2_split Perl -> Perl
+ok 17 - task2_split Julia -> Jaliu
+ok 18 - task2_split Uiua -> Auiu
+ok 19 - task2_split Bcdf -> Bcdf
+ok 20 - task2_split Alphabet -> Elphabat
+ok 21 - task2_split Zoologicoarchaeologist -> Ziologecaarchoiologost
+ 
+===> 254/2/jaldhar-h-vyas.raku <===
+Jenipur
+ 
+===> 254/2/laurent-rosenfeld.raku <===
+Raku 	 => Ruka
+Perl 	 => Perl
+Julia 	 => Jaliu
+Uiua 	 => Auiu
+Juniper 	 => Jenipur
+ 
+===> 254/2/lubos-kolouch.raku <===
+ 
+===> 254/2/luca-ferrari.raku <===
+Jenipur
+ 
+===> 254/2/mark-anderson.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ok 4 - 
+ok 5 - 
+ 
+===> 254/2/massa.raku <===
+ok 1 - "Ruka" is equivalent to "Ruka"
+ok 2 - "Perl" is equivalent to "Perl"
+ok 3 - "Jaliu" is equivalent to "Jaliu"
+ok 4 - "Auiu" is equivalent to "Auiu"
+ 
+===> 254/2/packy-anderson.raku <===
+Example 1:
+Input: $s = "Raku"
+Output: "Ruka"
+
+Example 2:
+Input: $s = "Perl"
+Output: "Perl"
+
+Example 3:
+Input: $s = "Julia"
+Output: "Jaliu"
+
+Example 4:
+Input: $s = "Uiua"
+Output: "Auiu"
+ 
+===> 254/2/roger-bell-west.raku <===
+1..4
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ok 4 - example 4
+ 
+===> 254/2/ulrich-rieke.raku <===
+Jenipur
+ 
+===> 254/2/wambash.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ok 4 - 
+1..4
+ 
+===> 254/2/witawayar.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ok 4 - 
+1..4

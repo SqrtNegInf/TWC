@@ -1,5 +1,10 @@
 #!/usr/bin/env raku
-sub reverse-vowels(Str $s) returns Str {
+
+# DH - regex replacement block not understood?  Lubos has a history of not-quite-right code...
+
+=finish
+
+sub reverse-vowels(Str $s  is copy) returns Str {
     my @vowels = $s.comb(/<[aeiouAEIOU]>/).reverse;
     my $vowel-index = 0;
 

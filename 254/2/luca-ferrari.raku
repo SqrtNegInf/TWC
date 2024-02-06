@@ -1,13 +1,6 @@
 #!/usr/bin/env raku
 
-#
-# Perl Weekly Challenge 254
-# Task 2
-#
-# See <https://perlweeklychallenge.org/blog/perl-weekly-challenge-254>
-#
-
-sub MAIN( Str $word ) {
+sub MAIN( Str $word = 'Juniper') {
     my @reversed;
     my @vowels.push: |$word.lc.comb.grep( * ~~ / <[aeiou]> / ).reverse;
 

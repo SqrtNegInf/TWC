@@ -1,7 +1,7 @@
 #!/usr/bin/env raku
 
 sub MAIN(
-    Str $s
+    Str $s = 'Juniper'
 ) {
     my @chars = $s.comb;
     my @vowels;

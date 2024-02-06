@@ -1,4 +1,5 @@
 #!/usr/bin/env raku
+
 sub task2_substr ( Str $word is copy --> Str ) {
     my @fs = $word.match(:g, /:i <[aeiou]>/)
                   .map({ .from, .Str });

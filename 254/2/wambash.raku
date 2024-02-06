@@ -10,15 +10,13 @@ sub reverse-vowels ($s) {
     andthen .reduce: -> $s, $ch { $s.subst: /<vowels>/, $ch.value, :ii, nth => $ch.key + 1 }
 }
 
-multi MAIN (Bool :test($)!) {
+#multi MAIN (Bool :test($)!) {
     use Test;
     is reverse-vowels('Raku'),'Ruka';
     is reverse-vowels('Uiua'),'Auiu';
     is reverse-vowels('Perl'),'Perl';
     is reverse-vowels('Julia'),'Jaliu';
     done-testing;
-}
+#}
 
-multi MAIN ($s) {
-    say reverse-vowels $s
-}
+#multi MAIN ($s) { say reverse-vowels $s }

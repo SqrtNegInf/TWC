@@ -1,8 +1,6 @@
 #!/usr/bin/env raku
-use v6 ;
 
-say "Enter a word!" ;
-my $word = $*IN.get ;
+my $word = 'Juniper';
 my @vowels_contained ;
 for $word.comb -> $letter {
    if ( $letter ~~ /<[aeiouAEIOU]>/ ) {
