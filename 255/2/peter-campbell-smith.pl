@@ -1,12 +1,8 @@
 #!/usr/bin/env perl
 
-# Blog: http://ccgi.campbellsmiths.force9.co.uk/challenge
-
 use v5.26;    # The Weekly Challenge - 2024-02-05
-use utf8;     # Week 255 task 2 - Most frequent word
 use strict;   # Peter Campbell Smith
 use warnings; 
-binmode STDOUT, ':utf8';
 
 most_frequent_word('Joe hit a ball, the hit ball flew far 
 	after it was hit by Joe.', 'hit');

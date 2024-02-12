@@ -1,15 +1,9 @@
 #!/usr/bin/env perl
-
-# The Weekly Challenge 255 - By Nelo Tovar
-#
-# https://theweeklychallenge.org/blog/perl-weekly-challenge-255/
-#
-# Task 2 - Most Frequent Word
-#
+use v5.28;
 
 use strict;
 use warnings;
-use v5.28;
+
 use List::MoreUtils qw(frequency);
 use Data::Dump qw(dump);
 

@@ -1,24 +1,8 @@
 #!/usr/bin/env perl
-
-=pod
-
-The Weekly Challenge - 255
-- https://theweeklychallenge.org/blog/perl-weekly-challenge-255
-
-Author: Niels 'PerlBoy' van Dijke
-
-Task 2: Most Frequent Word
-Submitted by: Mohammad Sajid Anwar
-
-You are given a paragraph $p and a banned word $w.
-
-Write a script to return the most frequent word that is not banned.
-
-=cut
-
 use v5.32;
 use feature qw(signatures);
-use common::sense;
+
+#use common::sense;
 
 use Test2::V0 -srand => 1;
 

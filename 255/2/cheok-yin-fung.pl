@@ -1,8 +1,7 @@
 #!/usr/bin/env perl
-# The Weekly Challenge 255
-# Task 2 Most Frequent Word
 use v5.30.0;
 use warnings;
+
 use List::Util qw/max/;
 use List::MoreUtils qw/frequency/;
 
