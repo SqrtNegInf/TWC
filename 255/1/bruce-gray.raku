@@ -1,4 +1,5 @@
 #!/usr/bin/env raku
+
 subset Char of Str where *.chars == 1;
 
 sub task1 ( Str $s, Str $t --> Char ) {

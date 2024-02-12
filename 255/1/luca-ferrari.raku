@@ -1,13 +1,7 @@
 #!/usr/bin/env raku
 
-#
-# Perl Weekly Challenge 255
-# Task 1
-#
-# See <https://perlweeklychallenge.org/blog/perl-weekly-challenge-255>
-#
-
-sub MAIN( Str :$a, Str :$b where { $b.chars == $a.chars + 1 } ) {
+#sub MAIN( Str :$a, Str :$b where { $b.chars == $a.chars + 1 } ) {
+my $a = "Perl"; my $b = "Preel";
     my $classification = BagHash.new: $b.comb;
     for $a.comb {
 	$classification{ $_ }--;
@@ -15,4 +9,4 @@ sub MAIN( Str :$a, Str :$b where { $b.chars == $a.chars + 1 } ) {
     }
 
     $classification.keys.head.say;
-}
+#}

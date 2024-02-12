@@ -1,10 +1,8 @@
 #!/usr/bin/env raku
-use v6 ;
 
-say "Enter a word!" ;
-my $firstWord = $*IN.get ;
-say "Enter a second word as a permutation of the first + 1 letter!" ;
-my $secondWord = $*IN.get ;
+my $firstWord = "Perl"; 
+my $secondWord = "Preel";
+
 my %firstFreq ;
 my %secondFreq ;
 for $firstWord.comb -> $letter {

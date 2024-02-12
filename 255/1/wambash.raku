@@ -6,14 +6,12 @@ sub odd-charakter ($s,$t) {
     letters( $t ) ∖ letters( $s )
 }
 
-multi MAIN (Bool :test($)!) {
+#multi MAIN (Bool :test($)!) {
     use Test;
     is odd-charakter('Perl','Peerl'),'e';
     is odd-charakter('Weekly','Weeakly'),'a';
     is odd-charakter('Box','Boxy'),'y';
     done-testing;
-}
+#}
 
-multi MAIN ($s,$t) {
-    put odd-charakter $s,$t
-}
+#multi MAIN ($s,$t) { put odd-charakter $s,$t }

@@ -1,4 +1,5 @@
 #!/usr/bin/env raku
+
 sub find-odd-character(Str $s, Str $t --> Str) {
     my %count;
     %count{$_}++ for $s.comb;

@@ -1,0 +1,94 @@
+ 
+===> 255/1/0rir.raku <===
+1..6
+ok 1 - e <- Preel,  Perl
+ok 2 - a <- Weeakly,  Weekly
+ok 3 - y <- Boxy,  Box
+ok 4 - Bad data
+ok 5 - Bad data
+ok 6 - Bad data
+
+Input: $s = "abcdefghijjk" $t = "abcdefghijjjk"
+Output: j
+ 
+===> 255/1/arne-sommer.raku <===
+:s: ("l"=>1,"e"=>1,"P"=>1,"r"=>1).Bag
+:t: ("l"=>1,"e"=>2,"P"=>1,"r"=>1).Bag
+:addition: ("e"=>1).Bag
+e
+ 
+===> 255/1/athanasius.raku <===
+
+Challenge 255, Task #1: Odd Character (Raku)
+
+Running the test suite
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ok 4 - Empty
+1..4
+ 
+===> 255/1/barroff.raku <===
+1..3
+ok 1 - works for "Perl"
+ok 2 - works for "Weekly"
+ok 3 - works for "Box"
+ 
+===> 255/1/bruce-gray.raku <===
+1..3
+ok 1 - Perl Preel
+ok 2 - Weekly Weeakly
+ok 3 - Box Boxy
+ 
+===> 255/1/laurent-rosenfeld.raku <===
+Perl     Preel    => e
+Weekly   Weeakly  => a
+Box      Boxy     => y
+ 
+===> 255/1/lubos-kolouch.raku <===
+1..3
+ok 1 - Test Example 1
+ok 2 - Test Example 2
+ok 3 - Test Example 3
+ 
+===> 255/1/luca-ferrari.raku <===
+e
+ 
+===> 255/1/mark-anderson.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ 
+===> 255/1/packy-anderson.raku <===
+Example 1:
+Input: $s = "Perl" $t = "Preel"
+Output: "e"
+
+Example 2:
+Input: $s = "Weekly" $t = "Weeakly"
+Output: "a"
+
+Example 3:
+Input: $s = "Box" $t = "Boxy"
+Output: "y"
+ 
+===> 255/1/roger-bell-west.raku <===
+1..3
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ 
+===> 255/1/simon-proctor.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+1..3
+ 
+===> 255/1/ulrich-rieke.raku <===
+e
+ 
+===> 255/1/wambash.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+1..3

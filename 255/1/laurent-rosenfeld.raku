@@ -1,4 +1,5 @@
 #!/usr/bin/env raku
+
 sub odd-char ($s, $t) {
     return ~ ($t.comb.Bag (-) $s.comb.Bag);
 }
