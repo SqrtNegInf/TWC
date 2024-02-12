@@ -1,4 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
+
 sub odd_char {
     my (%s, %t);
     %s = map { $_ => ++$s{$_} } split //, $_[0];

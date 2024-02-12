@@ -21,7 +21,7 @@ sub MAIN() {
     }
     else {
         #| Run test cases
-        use Test2::V0 qw( is plan );
+        use Test2::V0 -srand => 1;
         plan 3;
 
         is odd_character( 'Perl',   'Peerl' ),   'e', 'works for "Perl"';

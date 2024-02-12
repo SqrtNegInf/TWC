@@ -1,12 +1,7 @@
 #!/usr/bin/env perl
-
-# Blog: http://ccgi.campbellsmiths.force9.co.uk/challenge
-
 use v5.26;    # The Weekly Challenge - 2024-02-05
-use utf8;     # Week 255 task 1 - Odd character
 use strict;   # Peter Campbell Smith
 use warnings; 
-binmode STDOUT, ':utf8';
 
 odd_character('Weekly', 'Weeakly');
 odd_character('Perl', 'Preal');

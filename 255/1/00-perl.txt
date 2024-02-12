@@ -1,0 +1,173 @@
+ 
+===> 255/1/athanasius.pl <===
+
+Challenge 255, Task #1: Odd Character (Perl)
+
+Running the test suite
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ok 4 - Empty
+1..4
+ 
+===> 255/1/barroff.pl <===
+# Seeded srand with seed '1' from import arg.
+1..3
+ok 1 - works for "Perl"
+ok 2 - works for "Weekly"
+ok 3 - works for "Box"
+ 
+===> 255/1/bob-lied.pl <===
+# Seeded srand with seed '1' from import arg.
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ok 4 - Dies if no difference
+ok 5 - Dies if too many differences
+ok 6 - Dies if more than one of diff
+1..6
+ 
+===> 255/1/cheok-yin-fung.pl <===
+1..3
+ok 1
+ok 2
+ok 3
+ 
+===> 255/1/dave-jacoby.pl <===
+P, e, l, r
+P, e, e, l, r
+Input:  $s = "Perl" $t = "Preel" 
+Output: 7
+
+W, e, e, k, l, y
+W, a, e, e, k, l, y
+Input:  $s = "Weekly" $t = "Weeakly" 
+Output: 7
+
+B, o, x
+B, o, x, y
+Input:  $s = "Box" $t = "Boxy" 
+Output: 7
+
+ 
+===> 255/1/deadmarshal.pl <===
+e
+a
+y
+ 
+===> 255/1/e-choroba.pl <===
+1..8
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ok 4 - Long
+ok 5 - Example 1
+ok 6 - Example 2
+ok 7 - Example 3
+ok 8 - Long
+       Rate loop hash
+loop 1297/s   -- -53%
+hash 2770/s 114%   --
+ 
+===> 255/1/jo-37.pl <===
+# Seeded srand with seed '1' from import arg.
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ok 4 - more than one
+1..4
+ 
+===> 255/1/kjetillll.pl <===
+ok 1
+ok 2
+ok 3
+1..3
+ 
+===> 255/1/laurent-rosenfeld.pl <===
+Perl     Preel    => e
+Weekly   Weeakly  => a
+Box      Boxy     => y
+ 
+===> 255/1/lubos-kolouch.pl <===
+1..3
+ok 1 - Test Example 1
+ok 2 - Test Example 2
+ok 3 - Test Example 3
+ 
+===> 255/1/nelo-tovar.pl <===
+Input : $s = "Perl" $t = "Preel"
+Output : e
+ 
+Input : $s = "Weekly" $t = "Weeakly"
+Output : a
+ 
+Input : $s = "Box" $t = "Boxy"
+Output : y
+ 
+ 
+===> 255/1/packy-anderson.pl <===
+Example 1:
+Input: $s = "Perl" $t = "Preel"
+Output: "e"
+
+Example 2:
+Input: $s = "Weekly" $t = "Weeakly"
+Output: "a"
+
+Example 3:
+Input: $s = "Box" $t = "Boxy"
+Output: "y"
+ 
+===> 255/1/perlboy1967.pl <===
+# Seeded srand with seed '1' from import arg.
+ok 1
+ok 2
+ok 3
+1..3
+ 
+===> 255/1/peter-campbell-smith.pl <===
+
+Input:  $s = 'Weekly', $t = 'Weeakly'
+Output: 'a'
+
+Input:  $s = 'Perl', $t = 'Preal'
+Output: 'a'
+
+Input:  $s = 'Box', $t = 'Boxy'
+Output: 'y'
+
+Input:  $s = 'Five red baskets', $t = 'abdee ezfik rsstv'
+Output: 'z'
+ 
+===> 255/1/peter-meszaros.pl <===
+# Seeded srand with seed '1' from import arg.
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+1..3
+ 
+===> 255/1/roger-bell-west.pl <===
+1..3
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ 
+===> 255/1/spadacciniweb.pl <===
+Perl | Preel -> e
+Weekly | Weeakly -> a
+Box | Boxy -> y
+ 
+===> 255/1/wanderdoc.pl <===
+# Seeded srand with seed '1' from import arg.
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+1..3
+ 
+===> 255/1/zapwai.pl <===
+Input: $s = Perl, $t = Preel
+Output: e
+Input: $s = Weekly, $t = Weeakly
+Output: a
+Input: $s = Box, $t = Boxy
+Output: y

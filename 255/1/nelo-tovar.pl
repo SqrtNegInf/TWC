@@ -1,15 +1,8 @@
 #!/usr/bin/env perl
-
-# The Weekly Challenge 255 - By Nelo Tovar
-#
-# https://theweeklychallenge.org/blog/perl-weekly-challenge-255/
-#
-# Task 1 - Odd Character
-#
-
+use v5.28;
 use strict;
 use warnings;
-use v5.28;
+
 use Data::Dump qw(dump);
 
 my @examples = (

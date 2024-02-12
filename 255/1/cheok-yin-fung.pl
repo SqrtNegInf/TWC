@@ -1,8 +1,7 @@
 #!/usr/bin/env perl
-# The Weekly Challenge 255
-# Task 1 Odd Character
 use v5.30.0;
 use warnings;
+
 use List::MoreUtils qw/frequency/;
 
 sub oc {
