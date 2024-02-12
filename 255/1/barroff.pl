@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
 
-use v5.38;
+use v5.36;
 
 sub odd_character ( $s, $t ) {
     my @sorted_s = sort( split( //, $s ) );

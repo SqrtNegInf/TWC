@@ -1,5 +1,5 @@
 #!/usr/bin/env perl
-use v5.38;
+use v5.36;
 
 sub frequentWord($p, $w) {
   # first, remove punctuation from the paragraph
