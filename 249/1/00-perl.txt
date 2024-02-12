@@ -98,4 +98,4 @@ ok 2 - example 2
  
 ===> 249/1/zapwai.pl <===
 Input: 3 2 3 2 2 2
-Output: (3, 3) (2, 2) (2, 2) 
+Output: (2, 2) (2, 2) (3, 3) 

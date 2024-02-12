@@ -17,7 +17,7 @@ for my $k ( values %h ) {
     }
 }
 if ($cnt == scalar keys %h) {
-    foreach my $k ( keys %h ) {
+    foreach my $k ( sort keys %h ) {
 	my $d = $h{$k} / 2;
 	print "($k, $k) " x $d;
     }
