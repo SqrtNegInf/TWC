@@ -1,7 +1,5 @@
 #!/usr/bin/env raku
 
-use v6.d;
-
 sub most-frequent-word(Str:D $p, Str:D $w --> Str:D) {
     my $frequencies = Bag(
         grep(
@@ -19,7 +17,7 @@ sub most-frequent-word(Str:D $p, Str:D $w --> Str:D) {
 }
 
 #| Run test cases
-multi sub MAIN('test') {
+#multi sub MAIN('test') {
     use Test;
     plan 2;
 
@@ -31,9 +29,7 @@ multi sub MAIN('test') {
         " Perl is the most popular language in the weekly challenge.",
         "the"
     ), "Perl", 'works for "Perl"';
-}
+#}
 
 #| Take user provided word like aba
-multi sub MAIN(Str:D $p, Str:D $w) {
-    say most-frequent-word($p, $w);
-}
+#multi sub MAIN(Str:D $p, Str:D $w) { say most-frequent-word($p, $w); }

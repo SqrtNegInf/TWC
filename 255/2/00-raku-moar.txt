@@ -1,0 +1,97 @@
+ 
+===> 255/2/0rir.raku <===
+1..7
+ok 1 - ball <- hit <-Joe hit a ball, the hit ball flew far after it was hit.
+ok 2 - Perl <- the <-Perl and Raku belong to the same family. Perl is the most popular language in the weekly challenge.
+ok 3 - like <- Dogs <-Dogs like cats, cats like mice, mice like cheese.
+ok 4 - a <- seafood <-Pearl bought a pearl at a seafood shop.
+ok 5 - like <- cheese <-Dogs like cats, cats like mice, mice like cheese.
+ok 6 - a <- e <-a a a  b b c d e
+ok 7 - DIES <- like <-Dogs like cats, cats like mice, mice like cheese.
+
+Input: $p = "Joe hit a ball, the hit ball flew far after it was hit."
+       $w = "hit"
+Output: "ball"
+ 
+===> 255/2/arne-sommer.raku <===
+:p: 'Joe hit a ball, the hit ball flew far after it was hit.'
+:p: 'Joe hit a ball  the hit ball flew far after it was hit ' (modified)
+:word 'hit' found 3 times
+:Words: ("the"=>1,"flew"=>1,"far"=>1,"after"=>1,"ball"=>2,"Joe"=>1,"a"=>1,"it"=>1,"hit"=>3,"was"=>1).Bag
+:Without: ("was"=>1,"a"=>1,"Joe"=>1,"flew"=>1,"far"=>1,"it"=>1,"after"=>1,"the"=>1,"ball"=>2).Bag
+:Sorted: [:ball(2), :was(1), :a(1), :Joe(1), :flew(1), :far(1), :it(1), :after(1), :the(1)]
+ball
+ 
+===> 255/2/athanasius.raku <===
+
+Challenge 255, Task #2: Most Frequent Word (Raku)
+
+Running the test suite
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Gettysburg
+ok 4 - Case 1
+ok 5 - Case 2
+1..5
+ 
+===> 255/2/barroff.raku <===
+1..2
+ok 1 - works for "hit"
+ok 2 - works for "Perl"
+ 
+===> 255/2/bruce-gray.raku <===
+1..4
+ok 1 - task2_BagHash	hit
+ok 2 - task2_BagHash	the
+ok 3 - task2_Grep	hit
+ok 4 - task2_Grep	the
+ 
+===> 255/2/jaldhar-h-vyas.raku <===
+ball
+ 
+===> 255/2/laurent-rosenfeld.raku <===
+Joe hit a ball, the hit ball  ... => ball
+Perl and Raku belong to the   ... => Perl
+ 
+===> 255/2/lubos-kolouch.raku <===
+ball
+perl
+ 
+===> 255/2/luca-ferrari.raku <===
+ball
+ 
+===> 255/2/mark-anderson.raku <===
+ok 1 - 
+ok 2 - 
+ 
+===> 255/2/packy-anderson.raku <===
+Example 1:
+Input: $p = "Joe hit a ball, the hit ball flew far after it was hit."
+       $w = "hit"
+Output: "ball"
+
+The banned word "hit" occurs 3 times.
+The other word "ball" occurs 2 times.
+
+Example 2:
+Input: $p = "Perl and Raku belong to the same family. Perl is the most popular language in the weekly challenge."
+       $w = "the"
+Output: "perl"
+
+The banned word "the" occurs 3 times.
+The other word "perl" occurs 2 times.
+ 
+===> 255/2/roger-bell-west.raku <===
+1..2
+ok 1 - example 1
+ok 2 - example 2
+ 
+===> 255/2/simon-proctor.raku <===
+ok 1 - 
+ok 2 - 
+1..2
+ 
+===> 255/2/wambash.raku <===
+ok 1 - 
+ok 2 - 
+1..2

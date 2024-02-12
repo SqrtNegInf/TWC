@@ -1,5 +1,5 @@
 #!/usr/bin/env raku
-use v6.e.PREVIEW;
+#use v6.e.PREVIEW;
 
 sub most-frequent-word ($p,$w) {
     $p
@@ -10,7 +10,7 @@ sub most-frequent-word ($p,$w) {
     andthen .key
 }
 
-multi MAIN (Bool :test($)!) {
+#multi MAIN (Bool :test($)!) {
     use Test;
     is most-frequent-word('Joe hit a ball, the hit ball flew far after it was hit.', 'hit'), 'ball';
     is most-frequent-word(
@@ -18,8 +18,6 @@ multi MAIN (Bool :test($)!) {
         'the',
     ), 'Perl';
     done-testing;
-}
+#}
 
-multi MAIN ($p,$w) {
-    say most-frequent-word $p,$w
-}
+#multi MAIN ($p,$w) { say most-frequent-word $p,$w }

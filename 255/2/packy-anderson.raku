@@ -1,5 +1,4 @@
 #!/usr/bin/env raku
-use v6;
 
 sub frequentWord($p, $w) {
   # assign the value to a container so we can modify it

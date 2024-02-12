@@ -1,8 +1,8 @@
 #!/usr/bin/env raku
 
 sub MAIN(
-    Str $p,  #= a paragraph
-    Str $w   #= a banned word
+    Str $p = "Joe hit a ball, the hit ball flew far after it was hit.",
+    Str $w = 'hit'
 ) {
     my %count;
     my @words = $p.split(/<[\s \, \.]>+/);
