@@ -1,4 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
+
 sub odd_char {
     my %toggle;
     $toggle{$_}++ and delete $toggle{$_} for "@_ "=~/./gs;

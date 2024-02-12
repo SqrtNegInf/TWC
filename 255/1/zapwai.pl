@@ -1,5 +1,5 @@
 #!/usr/bin/env perl
-use v5.30;
+use v5.36;
 
 my $s0 = "Perl";
 my $t0 = "Preel";
@@ -16,8 +16,7 @@ do {
     proc($s,$t);
 } until (!@L);
     
-sub proc() {
-    my ($s, $t) = @_;
+sub proc($s, $t) {
     say "Input: \$s = $s, \$t = $t";
     my @S = split "", $s;
     my @T = split "", $t;

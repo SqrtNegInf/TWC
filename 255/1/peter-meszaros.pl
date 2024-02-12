@@ -1,9 +1,7 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
+use v5.36;
 
 use Test2::V0 -srand => 1;
-use Data::Dumper;
 
 my $cases = [
     ['Perl',   'Preel'],

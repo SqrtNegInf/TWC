@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-use v5.26;    # The Weekly Challenge - 2024-02-05
-use strict;   # Peter Campbell Smith
-use warnings; 
+use v5.36;
 
 odd_character('Weekly', 'Weeakly');
 odd_character('Perl', 'Preal');

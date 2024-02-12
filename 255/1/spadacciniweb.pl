@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
+use v5.36;
 
 my $s = "Perl"; my $t = "Preel";
 odd_character($s, $t);
