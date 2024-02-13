@@ -38,14 +38,3 @@ for my $odd_character (\&odd_character_loop, \&odd_character_hash) {
     is $odd_character->('Box', 'Boxy'),       'y', 'Example 3';
     is $odd_character->($s, $t),              '!', 'Long';
 }
-
-use Benchmark qw{ cmpthese };
-cmpthese(-3, {
-    loop => sub { odd_character_loop($s, $t) },
-    hash => sub { odd_character_hash($s, $t) },
-});
-
-__END__
-       Rate loop hash
-loop 4057/s   -- -56%
-hash 9133/s 125%   --

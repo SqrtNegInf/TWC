@@ -10,9 +10,9 @@ my $add   = $t-bag (^) $s-bag;
 
 #if $verbose
 #{
-  say ":s: { $s-bag.raku }";
-  say ":t: { $t-bag.raku }";
-  say ":addition: { $add.raku }";
+#  say ":s: { $s-bag.raku }";
+#  say ":t: { $t-bag.raku }";
+#  say ":addition: { $add.raku }";
 #}
 
 die "Not one additional letter, but { $add.elems } ({ $add.keys.join(",") })" unless $add.elems == 1;

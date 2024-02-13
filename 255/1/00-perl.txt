@@ -65,9 +65,6 @@ ok 5 - Example 1
 ok 6 - Example 2
 ok 7 - Example 3
 ok 8 - Long
-       Rate loop hash
-loop 1312/s   -- -53%
-hash 2807/s 114%   --
  
 ===> 255/1/jo-37.pl <===
 # Seeded srand with seed '1' from import arg.
