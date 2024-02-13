@@ -532,10 +532,10 @@ Challenge titles and Rosetta-code correspondences (exact, and otherwise)
 253-2 Weakest Row
 254-1 Three Power
 254-2 Reverse Vowels
-255-1
-255-2
-256-1
-256-2
+255-1 Odd Character
+255-2 Most Frequent Word
+256-1 Maximum Pairs
+256-2 Merge Strings
 257-1
 257-2
 258-1
