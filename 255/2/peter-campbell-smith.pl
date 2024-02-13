@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-
-use v5.26;    # The Weekly Challenge - 2024-02-05
-use strict;   # Peter Campbell Smith
-use warnings; 
+use v5.36;
 
 most_frequent_word('Joe hit a ball, the hit ball flew far 
 	after it was hit by Joe.', 'hit');

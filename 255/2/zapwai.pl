@@ -1,5 +1,5 @@
 #!/usr/bin/env perl
-use v5.30;
+use v5.36;
 
 my $p0 = "Joe hit a ball, the hit ball flew far after it was hit.";
 my $w0 = "hit";
@@ -14,8 +14,7 @@ do {
     proc($p, $w);
 } until (!@L);
 
-sub proc(){
-    my ($p, $w) = @_;
+sub proc($p, $w) {
     say "Input: \$p = $p\n\t\$w = $w";
     $p =~ s/\.//g;
     $p =~ s/,//g;

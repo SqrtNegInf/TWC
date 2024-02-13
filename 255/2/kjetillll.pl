@@ -1,4 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
+
 sub most_frequent_unbanned_word {
     my($paragraph,$banned)=@_;
     my %frequency;

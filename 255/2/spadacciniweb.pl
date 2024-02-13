@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
+use v5.36;
 
 my $paragraph = "Joe hit a ball, the hit ball flew far after it was hit.";
 my $banned = "hit";

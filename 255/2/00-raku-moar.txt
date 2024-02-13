@@ -17,9 +17,9 @@ Output: "ball"
 :p: 'Joe hit a ball, the hit ball flew far after it was hit.'
 :p: 'Joe hit a ball  the hit ball flew far after it was hit ' (modified)
 :word 'hit' found 3 times
-:Words: ("the"=>1,"flew"=>1,"far"=>1,"after"=>1,"ball"=>2,"Joe"=>1,"a"=>1,"it"=>1,"hit"=>3,"was"=>1).Bag
-:Without: ("was"=>1,"a"=>1,"Joe"=>1,"flew"=>1,"far"=>1,"it"=>1,"after"=>1,"the"=>1,"ball"=>2).Bag
-:Sorted: [:ball(2), :was(1), :a(1), :Joe(1), :flew(1), :far(1), :it(1), :after(1), :the(1)]
+:Words: ("was"=>1,"ball"=>2,"it"=>1,"a"=>1,"after"=>1,"the"=>1,"flew"=>1,"far"=>1,"Joe"=>1,"hit"=>3).Bag
+:Without: ("a"=>1,"it"=>1,"flew"=>1,"Joe"=>1,"far"=>1,"the"=>1,"ball"=>2,"was"=>1,"after"=>1).Bag
+:Sorted: [:ball(2), :a(1), :it(1), :flew(1), :Joe(1), :far(1), :the(1), :was(1), :after(1)]
 ball
  
 ===> 255/2/athanasius.raku <===
