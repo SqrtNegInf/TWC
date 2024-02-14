@@ -12,9 +12,6 @@ Input: $s = "abcdefghijjk" $t = "abcdefghijjjk"
 Output: j
  
 ===> 255/1/arne-sommer.raku <===
-:s: ("e"=>1,"l"=>1,"P"=>1,"r"=>1).Bag
-:t: ("e"=>2,"l"=>1,"r"=>1,"P"=>1).Bag
-:addition: ("e"=>1).Bag
 e
  
 ===> 255/1/athanasius.raku <===

@@ -13,12 +13,12 @@ my @sorted  = $without.sort({ $^b.value <=> $^a.value });
 
 #if $verbose
 #{
-  say ":p: '$p'";
-  say ":p: '$p2' (modified)";
-  say ":word '$w' found $count times";
-  say ":Words: { $words.raku }";
-  say ":Without: { $without.raku }";
-  say ":Sorted: { @sorted.raku }";
+#  say ":p: '$p'";
+#  say ":p: '$p2' (modified)";
+#  say ":word '$w' found $count times";
+#  say ":Words: { $words.raku }";
+#  say ":Without: { $without.raku }";
+#  say ":Sorted: { @sorted.raku }";
 #}
 
 say @sorted.first.key;
