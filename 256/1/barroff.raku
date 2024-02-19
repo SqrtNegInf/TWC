@@ -1,13 +1,11 @@
 #!/usr/bin/env raku
 
-use v6.d;
-
 sub maximum-pairs(@words --> Int:D) {
    grep({ $_[0] eq $_[1].flip }, combinations(@words, 2)).elems; 
 }
 
 #| Run test cases
-multi sub MAIN('test') {
+#multi sub MAIN('test') {
     use Test;
     plan 3;
 
@@ -17,9 +15,7 @@ multi sub MAIN('test') {
         'works for ("aa", "ba", "cd", "ed")';
     is maximum-pairs(["uv", "qp", "st", "vu", "mn", "pq"]), 2,
         'works for ("uv", "qp", "st", "vu", "mn", "pq")';
-}
+#}
 
 #| Take user provided word like aba
-multi sub MAIN(@*words) {
-    say maximum-pairs(@*words);
-}
+#multi sub MAIN(@*words) { say maximum-pairs(@*words); }

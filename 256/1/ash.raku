@@ -1,12 +1,4 @@
 #!/usr/bin/env raku
-# Solution to the Task 1 of the Weekly Challenge #256
-# https://theweeklychallenge.org/blog/perl-weekly-challenge-256/#TASK1
-
-# Test run:
-# % raku ch-1.raku
-# 1
-# 0
-# 2
 
 my @tests =
     ('ab', 'de', 'ed', 'bc'),

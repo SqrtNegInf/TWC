@@ -1,0 +1,86 @@
+ 
+===> 256/1/arne-sommer.raku <===
+1
+ 
+===> 256/1/ash.raku <===
+1
+0
+2
+ 
+===> 256/1/athanasius.raku <===
+
+Challenge 256, Task #1: Maximum Pairs (Raku)
+
+Running the test suite
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ok 4 - Palindromes 1
+ok 5 - Palindromes 2
+ok 6 - Case 1
+ok 7 - Case 2
+1..7
+ 
+===> 256/1/barroff.raku <===
+1..3
+ok 1 - works for ("ab", "de", "ed", "bc")
+ok 2 - works for ("aa", "ba", "cd", "ed")
+ok 3 - works for ("uv", "qp", "st", "vu", "mn", "pq")
+ 
+===> 256/1/bruce-gray.raku <===
+1..3
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ 
+===> 256/1/clifton-wood.raku <===
+1
+0
+2
+ 
+===> 256/1/laurent-rosenfeld.raku <===
+ab de ed bc          => 1
+aa ba cd ed          => 0
+uv qp st vu mn pq    => 2
+ 
+===> 256/1/lubos-kolouch.raku <===
+ok 1 - Test 1
+ok 2 - Test 2
+ok 3 - Test 3
+1..3
+ 
+===> 256/1/luca-ferrari.raku <===
+1
+ 
+===> 256/1/mark-anderson.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ 
+===> 256/1/packy-anderson.raku <===
+Example 1:
+Input: @words = ("ab", "de", "ed", "bc")
+Output: 1
+
+Example 2:
+Input: @words = ("aa", "ba", "cd", "ed")
+Output: 0
+
+Example 3:
+Input: @words = ("uv", "qp", "st", "vu", "mn", "pq")
+Output: 2
+ 
+===> 256/1/roger-bell-west.raku <===
+1..3
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ 
+===> 256/1/ulrich-rieke.raku <===
+1
+ 
+===> 256/1/wambash.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+1..3

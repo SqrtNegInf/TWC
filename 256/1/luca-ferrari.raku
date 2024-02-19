@@ -1,13 +1,6 @@
 #!/usr/bin/env raku
 
-#
-# Perl Weekly Challenge 256
-# Task 1
-#
-# See <https://perlweeklychallenge.org/blog/perl-weekly-challenge-256>
-#
-
-sub MAIN( *@words ) {
+sub MAIN( @words = <ab de ed bc>) {
     my %counting;
     for @words -> $current-word {
 	%counting{ $current-word } = @words.grep( { $_ ~~ $current-word.flip } ).elems;

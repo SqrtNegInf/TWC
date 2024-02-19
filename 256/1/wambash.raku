@@ -7,14 +7,12 @@ sub maximum-pairs (+words) {
     andthen .sum
 }
 
-multi MAIN (Bool :test($)!) {
+#multi MAIN (Bool :test($)!) {
     use Test;
     is maximum-pairs(<ab de ed bc>),1;
     is maximum-pairs(<aa ba cd ed>),0;
     is maximum-pairs(<uv qp st vu mn pq>),2;
     done-testing;
-}
+#}
 
-multi MAIN (+words) {
-    say maximum-pairs words
-}
+#multi MAIN (+words) { say maximum-pairs words }

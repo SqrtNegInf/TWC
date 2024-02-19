@@ -1,0 +1,5 @@
+java.lang.RuntimeException: No such attribute '$!elems' for this object
+  in code  at mark-anderson.raku line 17
+  in sub max-pairs at mark-anderson.raku line 14
+  in block <unit> at mark-anderson.raku line 4
+
