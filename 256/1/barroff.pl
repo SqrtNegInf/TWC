@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
 
-use v5.38;
+use v5.36;
 
 sub maximum_pairs (@words) {
     use List::Util qw/any/;

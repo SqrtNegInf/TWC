@@ -1,5 +1,5 @@
 #!/usr/bin/env perl
-use v5.38;
+use v5.36;
 
 sub mergeStrings($str1, $str2) {
   my @chars1 = split(//, $str1);
