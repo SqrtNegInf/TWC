@@ -1,29 +1,8 @@
 #!/usr/bin/env perl
-#
-# You are given two strings, $str1 and $str2.
-# 
-# Write a script to merge the given strings by adding in alternative order
-# starting with the first string. If a string is longer than the other then
-# append the remaining at the end.
-# Example 1
-# 
-# Input: $str1 = "abcd", $str2 = "1234"
-# Output: "a1b2c3d4"
-# 
-# Example 2
-# 
-# Input: $str1 = "abc", $str2 = "12345"
-# Output: "a1b2c345"
-# 
-# Example 3
-# 
-# Input: $str1 = "abcde", $str2 = "123"
-# Output: "a1b2c3de"
-# 
 
 use strict;
 use warnings;
-use Test2::V0 -no_srand => 1 -srand => 1;
+use Test2::V0 -srand => 1;
 use Data::Dumper;
 
 my $cases = [

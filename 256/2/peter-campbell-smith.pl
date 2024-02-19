@@ -1,11 +1,7 @@
 #!/usr/bin/env perl
 
-# Blog: http://ccgi.campbellsmiths.force9.co.uk/challenge
-
 use v5.26;    # The Weekly Challenge - 2024-02-12
-use utf8;     # Week 256 - task 2 - Merge strings
 use warnings; # Peter Campbell Smith
-binmode STDOUT, ':utf8';
 
 merge_strings('abcdefg', 'zyxwvut');
 merge_strings('abcde', 'DEFGHIJK');

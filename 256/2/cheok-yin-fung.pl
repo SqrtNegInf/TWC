@@ -1,9 +1,9 @@
 #!/usr/bin/env perl
-# The Weekly Challenge 256
-# Task 2 Merge Strings
 use v5.30.0;
 use warnings;
+
 use List::MoreUtils qw/zip/;
+
 sub ms {
     my $str1 = $_[0];
     my $str2 = $_[1];

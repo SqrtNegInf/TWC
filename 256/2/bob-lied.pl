@@ -1,22 +1,4 @@
 #!/usr/bin/env perl
-# vim:set ts=4 sw=4 sts=4 et ai wm=0 nu:
-#=============================================================================
-# Copyright (c) 2024, Bob Lied
-#=============================================================================
-#  
-# ch-2.pl Perl Weekly Challenge 256 Task 2 Merge Strings
-#=============================================================================
-# You are given two strings, $str1 and $str2.
-# Write a script to merge the given strings by adding in alternative order
-# starting with the first string. If a string is longer than the other then
-# append the remaining at the end.
-# Example 1 Input: $str1 = "abcd", $str2 = "1234"
-#           Output: "a1b2c3d4"
-# Example 2 Input: $str1 = "abc", $str2 = "12345"
-#           Output: "a1b2c345"
-# Example 3 Input: $str1 = "abcde", $str2 = "123"
-#           Output: "a1b2c3de"
-#=============================================================================
 
 use v5.36;
 
@@ -27,7 +9,7 @@ my $Verbose = 0;
 my $DoTest  = 0;
 
 GetOptions("test" => \$DoTest, "verbose" => \$Verbose);
-exit(!runTest()) if $DoTest;
+runTest();exit;
 
 sub mrgstr_mesh($str1, $str2)
 {

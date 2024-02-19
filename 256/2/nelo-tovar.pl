@@ -1,15 +1,9 @@
 #!/usr/bin/env perl
 
-# The Weekly Challenge 256 - By Nelo Tovar
-#
-# https://theweeklychallenge.org/blog/perl-weekly-challenge-256/
-#
-# Task 2 - Merge Strings
-#
-
+use v5.28;
 use strict;
 use warnings;
-use v5.28;
+
 use List::MoreUtils qw (mesh);
 
 my @examples = (

@@ -1,25 +1,8 @@
 #!/usr/bin/env perl
 
-=pod
-
-The Weekly Challenge - 256
-- https://theweeklychallenge.org/blog/perl-weekly-challenge-256
-
-Author: Niels 'PerlBoy' van Dijke
-
-Task 2: Merge Strings
-Submitted by: Mohammad Sajid Anwar
-
-You are given two strings, $str1 and $str2.
-
-Write a script to merge the given strings by adding in alternative order
-starting with the first string. If a string is longer than the other then
-append the remaining at the end.
-
-=cut
-
 use v5.32;
 use feature qw(signatures);
+
 use common::sense;
 
 use Test2::V0 -srand => 1;

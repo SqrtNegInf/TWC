@@ -1,10 +1,7 @@
 #!/usr/bin/env perl
-use v5.36.0 ;
+use v5.36;
 
-say "Enter two words, separated by blanks!" ;
-my $line = <STDIN> ;
-chomp $line ;
-my ($firstString , $secondString) = split( /\s+/ , $line ) ;
+my ($firstString , $secondString) = ('abcd', '1234');
 my $len1 = length $firstString ;
 my $len2 = length $secondString ;
 my $merged ;
