@@ -1,4 +1,5 @@
 #!/usr/bin/env raku
+
 sub task2 { [~] roundrobin :slip, ($^a, $^b)».comb }
 
 sub task2_before_slip_in_roundrobin_2022_02 ( Str $a, Str $b --> Str ) {

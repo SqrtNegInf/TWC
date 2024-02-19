@@ -1,9 +1,6 @@
 #!/usr/bin/env raku
-use v6 ;
 
-say "Enter two strings, separated by blanks!" ;
-my $line = $*IN.get ;
-my @strings = $line.words ;
+my @strings = ('abcd', '1234');
 #create zip-wise combinations of letters of the two words, stopping
 #when the shorter of the 2 words runs out of characters
 my @merged = @strings[0].comb Z~ @strings[1].comb ;

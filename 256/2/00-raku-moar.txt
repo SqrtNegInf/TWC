@@ -1,0 +1,82 @@
+ 
+===> 256/2/arne-sommer.raku <===
+a1b2c3d4
+ 
+===> 256/2/ash.raku <===
+a1b2c3d4
+a1b2c345
+a1b2c3de
+ 
+===> 256/2/athanasius.raku <===
+
+Challenge 256, Task #2: Merge Strings (Raku)
+
+Running the test suite
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+1..3
+ 
+===> 256/2/barroff.raku <===
+1..3
+ok 1 - works for ("abcd", "1234")
+ok 2 - works for ("abc", "12345")
+ok 3 - works for ("abcd𝑒", "123")
+ 
+===> 256/2/bruce-gray.raku <===
+1..3
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ 
+===> 256/2/clifton-wood.raku <===
+a1b2c3d4
+a1b2c345
+a1b2c3de
+ 
+===> 256/2/jaldhar-h-vyas.raku <===
+a1b2c3d4
+ 
+===> 256/2/laurent-rosenfeld.raku <===
+abcd 1234    => a1b2c3d4
+abc 12345    => a1b2c345
+abcde 123    => a1b2c3de
+ 
+===> 256/2/lubos-kolouch.raku <===
+ok 1 - Test 1
+ok 2 - Test 2
+ok 3 - Test 3
+1..3
+ 
+===> 256/2/luca-ferrari.raku <===
+a1b2c3d4
+ 
+===> 256/2/mark-anderson.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ 
+===> 256/2/packy-anderson.raku <===
+Example 1:
+Input: $str1 = "abcd", $str2 = "1234"
+Output: "a1b2c3d4"
+
+Example 2:
+Input: $str1 = "abc", $str2 = "12345"
+Output: "a1b2c345"
+ 
+===> 256/2/roger-bell-west.raku <===
+1..3
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ 
+===> 256/2/ulrich-rieke.raku <===
+a1b2c3d4
+ 
+===> 256/2/wambash.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ok 4 - 
+1..4

@@ -1,9 +1,7 @@
 #!/usr/bin/env raku
 
-sub MAIN(
-    Str $str1,
-    Str $str2
-) {
+    my $str1 = 'abcd';
+    my $str2 = '1234';
     my $remainder = '';
 
     if $str1.chars < $str2.chars {
@@ -12,4 +10,3 @@ sub MAIN(
         $remainder = $str1.comb.Array.splice($str2.chars, *).join;
     }
     say ($str1.comb Z~ $str2.comb).join ~ $remainder;
-}

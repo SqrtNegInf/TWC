@@ -1,5 +1,4 @@
 #!/usr/bin/env raku
-use v6;
 
 sub mergeStrings($str1, $str2) {
   my @chars1 = $str1.split('', :skip-empty);

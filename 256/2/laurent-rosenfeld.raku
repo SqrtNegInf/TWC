@@ -1,4 +1,5 @@
 #!/usr/bin/env raku
+
 sub merge-strings ($str1, $str2) {
     my $res = join "", roundrobin $str1.comb, $str2.comb, :slip;
     return $res;
