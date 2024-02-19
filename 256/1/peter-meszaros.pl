@@ -1,31 +1,9 @@
 #!/usr/bin/env perl
-#
-# You are given an array of distinct words, @words.
-# 
-# Write a script to find the maximum pairs in the given array. The words
-# $words[i] and $words[j] can be a pair one is reverse of the other.
-# Example 1
-# 
-# Input: @words = ("ab", "de", "ed", "bc")
-# Output: 1
-# 
-# There is one pair in the given array: "de" and "ed"
-# 
-# Example 2
-# 
-# Input: @words = ("aa", "ba", "cd", "ed")
-# Output: 0
-# 
-# Example 3
-# 
-# Input: @words = ("uv", "qp", "st", "vu", "mn", "pq"))
-# Output: 2
-# 
 
 use strict;
 use warnings;
-use Test2::V0 -no_srand => 1 -srand => 1;
-use Data::Dumper;
+
+use Test2::V0 -srand => 1;
 
 my $cases = [
 	["ab", "de", "ed", "bc"],

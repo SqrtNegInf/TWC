@@ -1,6 +1,4 @@
 #!/usr/bin/env perl
-# The Weekly Challenge 256
-# Task 1 Maximum Pairs
 use v5.30.0;
 use warnings;
 

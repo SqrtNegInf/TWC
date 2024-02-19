@@ -1,22 +1,5 @@
 #!/usr/bin/env perl
 
-=pod
-
-The Weekly Challenge - 256
-- https://theweeklychallenge.org/blog/perl-weekly-challenge-256
-
-Author: Niels 'PerlBoy' van Dijke
-
-Task 1: Maximum Pairs
-Submitted by: Mohammad Sajid Anwar
-
-You are given an array of distinct words, @words.
-
-Write a script to find the maximum pairs in the given array. The words $words[i]
-and $words[j] can be a pair one is reverse of the other.
-
-=cut
-
 use v5.32;
 use feature qw(signatures);
 use common::sense;

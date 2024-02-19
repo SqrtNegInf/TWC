@@ -1,10 +1,7 @@
 #!/usr/bin/env perl
 use v5.36.0 ;
 
-say "Enter some words, separated by blanks!" ;
-my $line = <STDIN> ;
-chomp $line ;
-my @strings = split( /\s+/ , $line ) ;
+my @strings = <ab de ed bc>;
 my @reversed = map { join( '' , reverse split( // , $_ ) ) } @strings ;
 my %ortho ;
 my %rev ;

@@ -1,0 +1,158 @@
+ 
+===> 256/1/athanasius.pl <===
+
+Challenge 256, Task #1: Maximum Pairs (Perl)
+
+Running the test suite
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ok 4 - Palindromes 1
+ok 5 - Palindromes 2
+ok 6 - Case 1
+ok 7 - Case 2
+1..7
+ 
+===> 256/1/barroff.pl <===
+# Seeded srand with seed '20240219' from local date.
+1..3
+ok 1 - works for "ab", "de", "ed", "bc"
+ok 2 - works for "aa", "ba", "cd", "ed"
+ok 3 - works for "uv", "qp", "st", "vu", "mn", "pq"
+ 
+===> 256/1/bob-lied.pl <===
+# Seeded srand with seed '20240219' from local date.
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+1..3
+ 
+===> 256/1/cheok-yin-fung.pl <===
+1..3
+ok 1
+ok 2
+ok 3
+ 
+===> 256/1/deadmarshal.pl <===
+1
+0
+2
+ 
+===> 256/1/e-choroba.pl <===
+1..3
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ 
+===> 256/1/jaldhar-h-vyas.pl <===
+0
+ 
+===> 256/1/jo-37.pl <===
+# Seeded srand with seed '1' from import arg.
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+1..3
+ 
+===> 256/1/kjetillll.pl <===
+ok 1
+ok 2
+ok 3
+ok 4
+ok 5
+1..5
+ 
+===> 256/1/laurent-rosenfeld.pl <===
+ab de ed bc          => 1
+aa ba cd ed          => 0
+uv qp st vu mn pq    => 2
+ 
+===> 256/1/lubos-kolouch.pl <===
+ok 1
+ok 2
+ok 3
+1..3
+ 
+===> 256/1/nelo-tovar.pl <===
+Input : @words = ("ab", "de", "ed", "bc")
+Output : 1
+ 
+Input : @words = ("aa", "ba", "cd", "ed")
+Output : 0
+ 
+Input : @words = ("uv", "qp", "st", "vu", "mn", "pq")
+Output : 2
+ 
+ 
+===> 256/1/packy-anderson.pl <===
+Example 1:
+Input: @words = ("ab", "de", "ed", "bc")
+Output: 1
+
+Example 2:
+Input: @words = ("aa", "ba", "cd", "ed")
+Output: 0
+
+Example 3:
+Input: @words = ("uv", "qp", "st", "vu", "mn", "pq")
+Output: 2
+ 
+===> 256/1/perlboy1967.pl <===
+# Seeded srand with seed '1' from import arg.
+ok 1
+ok 2
+ok 3
+1..3
+ 
+===> 256/1/peter-campbell-smith.pl <===
+
+Input:  @words = ('ab', 'de', 'ed', 'bc', 'ed')
+Output: 1
+        'de' and 'ed'
+
+Input:  @words = ('rotagilla', 'cat', 'dog', 'mouse', 'hen', 'tac', 'alligator', 'esuom')
+Output: 3
+        'rotagilla' and 'alligator', 'cat' and 'tac', 'mouse' and 'esuom'
+
+Input:  @words = ('cat', 'cat', 'tac', 'mouse', 'esuom')
+Output: 2
+        'cat' and 'tac', 'mouse' and 'esuom'
+ 
+===> 256/1/peter-meszaros.pl <===
+# Seeded srand with seed '1' from import arg.
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+1..3
+ 
+===> 256/1/roger-bell-west.pl <===
+1..3
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ 
+===> 256/1/spadacciniweb.pl <===
+ab de ed bc -> 1
+aa ba cd ed -> 0
+uv qp st vu mn pq -> 2
+ 
+===> 256/1/ulrich-rieke.pl <===
+1
+ 
+===> 256/1/wanderdoc.pl <===
+# Seeded srand with seed '1' from import arg.
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+1..3
+ 
+===> 256/1/wlmb.pl <===
+blah -> 1
+ 
+===> 256/1/zapwai.pl <===
+Input: @words = (ab, de, ed, bc)
+Output: 1
+Input: @words = (aa, ba, cd, ed)
+Output: 0
+Input: @words = (uv, qp, st, vu, mn, pq)
+Output: 2

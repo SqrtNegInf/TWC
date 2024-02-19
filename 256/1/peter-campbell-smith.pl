@@ -1,11 +1,8 @@
 #!/usr/bin/env perl
 
-# Blog: http://ccgi.campbellsmiths.force9.co.uk/challenge
-
 use v5.26;    # The Weekly Challenge - 2024-02-12
-use utf8;     # Week 256 - task 1 - Maximum pairs
 use warnings; # Peter Campbell Smith
-binmode STDOUT, ':utf8';
+
 use List::Uniq 'uniq';
 
 my (@words, $file);
@@ -13,14 +10,14 @@ my (@words, $file);
 maximum_pairs('ab', 'de', 'ed', 'bc', 'ed');
 maximum_pairs('rotagilla', 'cat', 'dog', 'mouse', 'hen', 'tac', 'alligator', 'esuom');
 maximum_pairs('cat', 'cat', 'tac', 'mouse', 'ESUOM');
-maximum_pairs('Kätze', 'fünf', 'café', 'crème', 'éfac', 'fnüf');
+#maximum_pairs('Kätze', 'fünf', 'café', 'crème', 'éfac', 'fnüf');
 
 # lots of words
-open $file, '<:utf8', '../data/lots_of_words.txt';
-push @words, $_ while <$file>;
-close $file;
-chop @words;
-maximum_pairs(uniq(@words));
+#open $file, '<:utf8', '../data/lots_of_words.txt';
+#push @words, $_ while <$file>;
+##close $file;
+#chop @words;
+#maximum_pairs(uniq(@words));
 
 sub maximum_pairs {
 	
