@@ -536,8 +536,8 @@ Challenge titles and Rosetta-code correspondences (exact, and otherwise)
 255-2 Most Frequent Word
 256-1 Maximum Pairs
 256-2 Merge Strings
-257-1
-257-2
+257-1 Smaller Than Current
+257-2 Reduced Row Echelon
 258-1
 258-2
 259-1
