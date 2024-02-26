@@ -1,0 +1,4 @@
+Method 'snip' not found for invocant of class 'Array'
+  in sub RREF at mark-anderson.raku line 100
+  in block <unit> at mark-anderson.raku line 5
+

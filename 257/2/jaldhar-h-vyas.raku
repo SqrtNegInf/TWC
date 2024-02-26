@@ -40,10 +40,7 @@ sub isRREF(@matrix) {
     return True;
 }
 
-sub MAIN(
-    *@args
-) {
-    my @matrix = @args.map({ [ $_.words.map({ .Int }) ] });
+    my @matrix = ([1, 0, 0, 1], [0, 1, 0, 2], [0, 0, 1, 3]);
+    say @matrix.gist;
 
     say isRREF(@matrix) ?? 1 !! 0;
-}

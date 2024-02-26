@@ -1,12 +1,5 @@
 #!/usr/bin/env raku
 
-#
-# Perl Weekly Challenge 257
-# Task 2
-#
-# See <https://perlweeklychallenge.org/blog/perl-weekly-challenge-257>
-#
-
 sub MAIN() {
 # 1. If a row does not consist entirely of zeros, then the first
 #    nonzero number in the row is a 1. We call this the leading 1.
