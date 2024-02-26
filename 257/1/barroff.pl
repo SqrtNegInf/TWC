@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
 
-use v5.38;
+use v5.36;
 
 sub smaller_than_n( $n, @ints ) {
     scalar grep { $_ < $n } @ints;
