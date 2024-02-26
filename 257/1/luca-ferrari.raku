@@ -1,12 +1,6 @@
 #!/usr/bin/env raku
 
-#
-# Perl Weekly Challenge 257
-# Task 1
-#
-# See <https://perlweeklychallenge.org/blog/perl-weekly-challenge-257>
-#
-
-sub MAIN( *@numbers where { @numbers.elems == @numbers.grep( * ~~ Int ).elems } ) {
+#sub MAIN( *@numbers where { @numbers.elems == @numbers.grep( * ~~ Int ).elems } ) {
+my @numbers = (5, 2, 1, 6);
     @numbers.map( -> $current { @numbers.grep( * < $current ).elems } ).join( ', ' ).say;
-}
+#}

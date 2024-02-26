@@ -1,0 +1,71 @@
+ 
+===> 257/1/arne-sommer.raku <===
+(2, 1, 0, 3)
+ 
+===> 257/1/athanasius.raku <===
+
+Challenge 257, Task #1: Smaller than Current (Raku)
+
+Running the test suite
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ok 4 - Example 4
+ok 5 - Negatives
+1..5
+ 
+===> 257/1/barroff.raku <===
+1..4
+ok 1 - works for (5, 2, 1, 6)
+ok 2 - works for (1, 2, 0, 3)
+ok 3 - works for (0, 1)
+ok 4 - works for (9, 4, 9, 2)
+ 
+===> 257/1/bruce-gray.raku <===
+1..5
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ok 4 - 
+ok 5 - 
+ 
+===> 257/1/jaldhar-h-vyas.raku <===
+(2, 1, 0, 3)
+ 
+===> 257/1/laurent-rosenfeld.raku <===
+5 2 1 6      => [2 1 0 3]
+1 2 0 3      => [1 2 0 3]
+0 1          => [0 1]
+9 4 9 2      => [2 1 2 0]
+ 
+===> 257/1/lubos-kolouch.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ok 4 - 
+ 
+===> 257/1/luca-ferrari.raku <===
+2, 1, 0, 3
+ 
+===> 257/1/mark-anderson.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ok 4 - 
+ 
+===> 257/1/roger-bell-west.raku <===
+1..4
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ok 4 - example 4
+ 
+===> 257/1/ulrich-rieke.raku <===
+(2,1,0,3)
+ 
+===> 257/1/wambash.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ok 4 - 
+1..4

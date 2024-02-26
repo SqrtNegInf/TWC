@@ -1,9 +1,8 @@
 #!/usr/bin/env raku
-use v6 ;
 
-say "Enter some integers, separated by blanks!" ;
-my $line = $*IN.get ;
-my @numbers = $line.words.map( {.Int} ) ;
+#say "Enter some integers, separated by blanks!" ;
+#my $line = $*IN.get ;
+my @numbers = (5, 2, 1, 6);
 my @result ;
 for @numbers -> $num {
    @result.push( @numbers.grep( { $_ < $num } ).elems ) ;
