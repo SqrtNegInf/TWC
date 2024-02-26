@@ -1,26 +1,4 @@
 #!/usr/bin/env perl
-# vim:set ts=4 sw=4 sts=4 et ai wm=0 nu:
-#=============================================================================
-# Copyright (c) 2024, Bob Lied
-#=============================================================================
-# ch-2.pl Perl Weekly Challenge 257 Task 2 Reduced Row Echelon
-#=============================================================================
-# Given a matrix M, check whether the matrix is in reduced row echelon form.
-# A matrix must have the following properties to be in reduced row echelon form:
-# 1. If a row does not consist entirely of zeros, then the first
-#    nonzero number in the row is a 1. We call this the leading 1.
-# 2. If there are any rows that consist entirely of zeros, then
-#    they are grouped together at the bottom of the matrix.
-# 3. In any two successive rows that do not consist entirely of zeros,
-#    the leading 1 in the lower row occurs farther to the right than
-#    the leading 1 in the higher row.
-# 4. Each column that contains a leading 1 has zeros everywhere else
-#    in that column.
-# For more information check out this wikipedia article.
-# https://en.wikipedia.org/wiki/Row_echelon_form
-
-#=============================================================================
-
 use v5.36;
 use builtin qw/true false/; no warnings "experimental::builtin";
 
@@ -32,7 +10,7 @@ my $Verbose = 0;
 my $DoTest  = 0;
 
 GetOptions("test" => \$DoTest, "verbose" => \$Verbose);
-exit(!runTest()) if $DoTest;
+runTest(); exit;
 
 sub rre($m)
 {
@@ -73,7 +51,7 @@ sub rre($m)
 
 sub runTest
 {
-    use Test2::V0;
+    use Test2::V0 -srand => 1;
     use builtin qw/true false/; no warnings "experimental::builtin";
     my $matrix = [
                    [1,0,0,1],

@@ -1,11 +1,7 @@
 #!/usr/bin/env perl
 
-# Blog: http://ccgi.campbellsmiths.force9.co.uk/challenge
-
 use v5.26;    # The Weekly Challenge - 2024-02-19
-use utf8;     # Week 257 - task 2 - Reduced row echelon
 use warnings; # Peter Campbell Smith
-binmode STDOUT, ':utf8';
 
 reduced_row_echelon([[1, 1, 0],
                      [0, 1, 0],

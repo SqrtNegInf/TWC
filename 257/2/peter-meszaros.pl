@@ -1,93 +1,9 @@
 #!/usr/bin/env perl
-#
-# Given a matrix M, check whether the matrix is in reduced row echelon form.
-# 
-# A matrix must have the following properties to be in reduced row echelon form:
-# 
-# 1. If a row does not consist entirely of zeros, then the first
-#    nonzero number in the row is a 1. We call this the leading 1.
-# 2. If there are any rows that consist entirely of zeros, then
-#    they are grouped together at the bottom of the matrix.
-# 3. In any two successive rows that do not consist entirely of zeros,
-#    the leading 1 in the lower row occurs farther to the right than
-#    the leading 1 in the higher row.
-# 4. Each column that contains a leading 1 has zeros everywhere else
-#    in that column.
-# 
-# For example:
-# 
-# [
-#    [1,0,0,1],
-#    [0,1,0,2],
-#    [0,0,1,3]
-# ]
-# 
-# The above matrix is in reduced row echelon form since the first nonzero
-# number in each row is a 1, leading 1s in each successive row are farther to the
-# right, and above and below each leading 1 there are only zeros.
-# 
-# For more information check out this wikipedia article.
-# 
-# Example 1
-# 
-#     Input: $M = [
-#                   [1, 1, 0],
-#                   [0, 1, 0],
-#                   [0, 0, 0]
-#                 ]
-#     Output: 0
-# 
-# Example 2
-# 
-#     Input: $M = [
-#                   [0, 1,-2, 0, 1],
-#                   [0, 0, 0, 1, 3],
-#                   [0, 0, 0, 0, 0],
-#                   [0, 0, 0, 0, 0]
-#                 ]
-#     Output: 1
-# 
-# Example 3
-# 
-#     Input: $M = [
-#                   [1, 0, 0, 4],
-#                   [0, 1, 0, 7],
-#                   [0, 0, 1,-1]
-#                 ]
-#     Output: 1
-# 
-# Example 4
-# 
-#     Input: $M = [
-#                   [0, 1,-2, 0, 1],
-#                   [0, 0, 0, 0, 0],
-#                   [0, 0, 0, 1, 3],
-#                   [0, 0, 0, 0, 0]
-#                 ]
-#     Output: 0
-# 
-# Example 5
-# 
-#     Input: $M = [
-#                   [0, 1, 0],
-#                   [1, 0, 0],
-#                   [0, 0, 0]
-#                 ]
-#     Output: 0
-# 
-# Example 6
-# 
-#     Input: $M = [
-#                   [4, 0, 0, 0],
-#                   [0, 1, 0, 7],
-#                   [0, 0, 1,-1]
-#                 ]
-#     Output: 0
-# 
 
 use strict;
 use warnings;
-use Test2::V0 -no_srand => 1 -srand => 1;
+
+use Test2::V0 -srand => 1;
 use Data::Dumper;
 
 my $cases = [
