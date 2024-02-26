@@ -20,8 +20,7 @@ sub MAIN() {
     }
     else {
         #| Run test cases
-        use Test2::V0 qw( is plan );
-        plan 3;
+        use Test::More;
 
         is maximum_pairs( "ab", "de", "ed", "bc" ), 1,
           'works for "ab", "de", "ed", "bc"';
@@ -29,6 +28,7 @@ sub MAIN() {
           'works for "aa", "ba", "cd", "ed"';
         is maximum_pairs( "uv", "qp", "st", "vu", "mn", "pq" ), 2,
           'works for "uv", "qp", "st", "vu", "mn", "pq"';
+        done_testing;
     }
 }
 

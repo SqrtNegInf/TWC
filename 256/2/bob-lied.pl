@@ -58,7 +58,7 @@ sub mrgstr($str1, $str2)
 
 sub runTest
 {
-    use Test2::V0;
+    use Test::More;
 
     is( mrgstr_mesh("abcd", "1234"), "a1b2c3d4", "Example 1 mesh");
     is( mrgstr_mesh("abc", "12345"), "a1b2c345", "Example 2 mesh");
