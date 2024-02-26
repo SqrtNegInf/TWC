@@ -19,7 +19,7 @@ sub MAIN() {
     }
     else {
         #| Run test cases
-        use Test::More;
+        use Test2::V0 -srand => 1;
         is smaller_than_current( 5, 2, 1, 6 ), [ 2, 1, 0, 3 ],
           'works for (5, 2, 1, 6)';
         is smaller_than_current( 1, 2, 0, 3 ), [ 1, 2, 0, 3 ],

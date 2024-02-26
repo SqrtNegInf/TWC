@@ -1,11 +1,7 @@
 #!/usr/bin/env perl
 
-# Blog: http://ccgi.campbellsmiths.force9.co.uk/challenge
-
 use v5.26;    # The Weekly Challenge - 2024-02-19
-use utf8;     # Week 257 - task 1 - Smaller than current
 use warnings; # Peter Campbell Smith
-binmode STDOUT, ':utf8';
 
 smaller_than_current(5, 2, 1, 6);
 smaller_than_current(1, 2, 0, 3);

@@ -15,4 +15,4 @@ sub main (@ints) {
     say '(', join( ', ', @results ), ')';
 }
 
-main(@ARGV);
+main(  (5, 2, 1, 6) );

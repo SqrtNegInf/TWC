@@ -2,6 +2,7 @@
 
 use strict;
 use warnings;
+
 use Test2::V0 -srand => 1;
 
 my $cases = [

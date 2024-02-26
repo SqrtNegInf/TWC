@@ -1,5 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
+
 sub proc(@a) {
     my @f = (0) x @a;
     for my $i (0 .. $#a) {

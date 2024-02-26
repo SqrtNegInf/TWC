@@ -26,11 +26,11 @@ sub stc(@ints)
 }
 
 GetOptions("test" => \$DoTest, "verbose" => \$Verbose);
-exit(!runTest()) if $DoTest;
+runTest(); exit;
 
 sub runTest
 {
-    use Test::More;
+    use Test2::V0 -srand => 1;;
 
     is( stc(5,2,1,6), [2,1,0,3], "Example 1");
     is( stc(1,2,0,3), [1,2,0,3], "Example 2");

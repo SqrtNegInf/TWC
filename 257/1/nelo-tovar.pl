@@ -1,15 +1,9 @@
 #!/usr/bin/env perl
-
-# The Weekly Challenge 257 - By Nelo Tovar
-#
-# https://theweeklychallenge.org/blog/perl-weekly-challenge-257/
-#
-# Task 1 - Smaller Than Current
-#
+use v5.28;
 
 use strict;
 use warnings;
-use v5.28;
+
 use Data::Dump qw(dump);
 
 my @examples = (

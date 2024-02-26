@@ -1,8 +1,9 @@
 #!/usr/bin/env perl
 use 5.030;
+
 use warnings;
 
-my @ints = @ARGV;
+my @ints = (5, 2, 1, 6);
 my $n = scalar @ints - 1;
 my %sorted = map { $_ => $n-- } reverse sort { $a <=> $b } @ints;
 

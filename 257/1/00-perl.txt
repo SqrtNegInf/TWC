@@ -1,0 +1,133 @@
+ 
+===> 257/1/athanasius.pl <===
+
+Challenge 257, Task #1: Smaller than Current (Perl)
+
+Running the test suite
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ok 4 - Example 4
+ok 5 - Negatives
+1..5
+ 
+===> 257/1/barroff.pl <===
+# Seeded srand with seed '1' from import arg.
+ok 1 - works for (5, 2, 1, 6)
+ok 2 - works for (1, 2, 0, 3)
+ok 3 - works for (0, 1)
+ok 4 - works for (9, 4, 9, 2)
+1..4
+ 
+===> 257/1/bob-lied.pl <===
+()
+# Seeded srand with seed '1' from import arg.
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ok 4 - Example 4
+ok 5 - All same
+1..5
+ 
+===> 257/1/dave-jacoby.pl <===
+Input:  @ints = (5, 2, 1, 6)
+Output: (2, 1, 0, 3)
+
+Input:  @ints = (1, 2, 0, 3)
+Output: (1, 2, 0, 3)
+
+Input:  @ints = (0, 1)
+Output: (0, 1)
+
+Input:  @ints = (9, 4, 9, 2)
+Output: (2, 1, 2, 0)
+
+ 
+===> 257/1/e-choroba.pl <===
+# Seeded srand with seed '1' from import arg.
+1..6
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ok 4 - Example 4
+ok 5 - Duplicate at the beginning
+ok 6 - Duplicate in the middle
+ 
+===> 257/1/jaldhar-h-vyas.pl <===
+(2, 1, 0, 3)
+ 
+===> 257/1/laurent-rosenfeld.pl <===
+5 2 1 6      => 2 1 0 3
+1 2 0 3      => 1 2 0 3
+0 1          => 0 1
+9 4 9 2      => 2 1 2 0
+ 
+===> 257/1/lubos-kolouch.pl <===
+1..4
+ok 1
+ok 2
+ok 3
+ok 4
+ 
+===> 257/1/nelo-tovar.pl <===
+Input : @ints = (5, 2, 1, 6)
+Output : (2, 1, 0, 3)
+ 
+Input : @ints = (1, 2, 0, 3)
+Output : (1, 2, 0, 3)
+ 
+Input : @ints = (0, 1)
+Output : (0, 1)
+ 
+Input : @ints = (9, 4, 9, 2)
+Output : (2, 1, 2, 0)
+ 
+ 
+===> 257/1/peter-campbell-smith.pl <===
+
+Input:  @ints = (5, 2, 1, 6)
+Output:         (2, 1, 0, 3)
+
+Input:  @ints = (1, 2, 0, 3)
+Output:         (1, 2, 0, 3)
+
+Input:  @ints = (158, 183, 309, 369, 314, 461, 235, 464, 474, 116, 432, 323, 287, 445, 444, 345, 86, 218, 261, 386, 470, 292, 91, 86, 472, 242, 134, 316, 244, 369, 288, 207, 237, 406, 449, 377, 464, 346, 175, 302, 464, 27, 276, 268, 409, 199, 206, 201, 106, 225, 323, 148, 306, 104, 481, 1, 476, 143, 147, 206, 50, 97, 379, 478, 380, 73, 321, 122, 290, 489, 120, 351, 175, 318, 448, 357, 44, 46, 458, 259, 409, 313, 341, 118, 461, 358, 222, 336, 371, 296, 72, 478, 286, 97, 137, 167, 163, 264, 169, 74, 386, 82, 70, 478, 447, 6, 235, 451, 84)
+Output:         (28, 34, 61, 76, 63, 95, 43, 97, 102, 19, 87, 67, 54, 89, 88, 71, 12, 40, 49, 82, 100, 57, 14, 12, 101, 46, 23, 64, 47, 76, 55, 39, 45, 84, 92, 79, 97, 72, 32, 59, 97, 2, 52, 51, 85, 35, 37, 36, 18, 42, 67, 27, 60, 17, 107, 0, 103, 25, 26, 37, 5, 15, 80, 104, 81, 8, 66, 22, 56, 108, 21, 73, 32, 65, 91, 74, 3, 4, 94, 48, 85, 62, 70, 20, 95, 75, 41, 69, 78, 58, 7, 104, 53, 15, 24, 30, 29, 50, 31, 9, 82, 10, 6, 104, 90, 1, 43, 93, 11)
+ 
+===> 257/1/peter-meszaros.pl <===
+# Seeded srand with seed '1' from import arg.
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ok 4 - Example 4
+1..4
+ 
+===> 257/1/roger-bell-west.pl <===
+1..4
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ok 4 - example 4
+ 
+===> 257/1/sgreen.pl <===
+(2, 1, 0, 3)
+ 
+===> 257/1/spadacciniweb.pl <===
+(5, 2, 1, 6) -> (2, 1, 0, 3)
+(1, 2, 0, 3) -> (1, 2, 0, 3)
+(0, 1) -> (0, 1)
+(9, 4, 9, 2) -> (2, 1, 2, 0)
+ 
+===> 257/1/ulrich-rieke.pl <===
+(2,1,0,3)
+ 
+===> 257/1/wlmb.pl <===
+5 2 1 6 -> 2 1 0 3
+ 
+===> 257/1/zapwai.pl <===
+Input: @a = (5, 2, 1, 6)
+Output: @f = (2, 1, 0, 3)
+Input: @a = (1, 2, 0, 3)
+Output: @f = (1, 2, 0, 3)
+Input: @a = (0, 1)
+Output: @f = (0, 1)

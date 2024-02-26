@@ -1,10 +1,7 @@
 #!/usr/bin/env perl
-use v5.36.0 ;
+use v5.36;
 
-say "Enter some integers, separated by blanks!" ;
-my $line = <STDIN> ;
-chomp $line ;
-my @numbers = split( /\s+/ , $line ) ;
+my @numbers = (5, 2, 1, 6);
 my @result ;
 for my $num( @numbers ) {
    push @result , scalar( grep { $_ < $num } @numbers ) ;
