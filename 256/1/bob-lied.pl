@@ -28,7 +28,7 @@ sub maxPair(@words)
 
 sub runTest
 {
-    use Test2::V0;
+    use Test::More;
 
     is( maxPair( qw(ab de ed  bc     ) ), 1, "Example 1");
     is( maxPair( qw(aa ba cd ed      ) ), 0, "Example 2");
