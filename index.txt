@@ -538,8 +538,8 @@ Challenge titles and Rosetta-code correspondences (exact, and otherwise)
 256-2 Merge Strings
 257-1 Smaller Than Current
 257-2 Reduced Row Echelon
-258-1
-258-2
+258-1 Count Even Digits Number
+258-2 Sum of Values
 259-1
 259-2
 
