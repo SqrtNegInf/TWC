@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
+use v5.36;
 
 my @ints = (5, 2, 1, 6);
 smaller_than_current(\@ints);

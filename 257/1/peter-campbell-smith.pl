@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-
-use v5.26;    # The Weekly Challenge - 2024-02-19
-use warnings; # Peter Campbell Smith
+use v5.36;
 
 smaller_than_current(5, 2, 1, 6);
 smaller_than_current(1, 2, 0, 3);
