@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-
-use v5.26;    # The Weekly Challenge - 2024-02-19
-use warnings; # Peter Campbell Smith
+use v5.36;
 
 reduced_row_echelon([[1, 1, 0],
                      [0, 1, 0],

@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
+use v5.36;
 
 sub is_reduced_row_echelon {
     my ($matrix_ref)         = @_;
