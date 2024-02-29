@@ -1,6 +1,8 @@
 #!/usr/bin/env perl
 use v5.36;
 
+# doesn't work on leap day!
+
 use DateTime;
 
 my @examples = (
