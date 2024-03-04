@@ -23,7 +23,7 @@
 #           Output: 2
 #=============================================================================
 
-use v5.38;
+use v5.36;
 
 use builtin qw/true false/; no warnings "experimental::builtin";
 
