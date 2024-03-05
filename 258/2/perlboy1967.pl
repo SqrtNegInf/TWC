@@ -1,25 +1,8 @@
 #!/usr/bin/env perl
-
-=pod
-
-The Weekly Challenge - 258
-- https://theweeklychallenge.org/blog/perl-weekly-challenge-258
-
-Author: Niels 'PerlBoy' van Dijke
-
-Task 2: Sum of Values
-Submitted by: Mohammad Sajid Anwar
-
-You are given an array of integers, @int and an integer $k.
-
-Write a script to find the sum of values whose index binary representation has exactly
-$k number of 1-bit set.
-
-=cut
-
 use v5.32;
 use feature qw(signatures);
-use common::sense;
+
+#use common::sense;
 
 use Test2::V0 -srand => 1;
 

@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-
-  
 use v5.36;
-
   
 sub count_bits{
   my($x) = @_;

@@ -1,6 +1,7 @@
 #!/usr/bin/env perl
 use strict;
 use warnings;
+
 use ntheory qw(hammingweight);
 use List::Util qw(sum0);
 

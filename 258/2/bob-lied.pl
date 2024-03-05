@@ -1,27 +1,4 @@
 #!/usr/bin/env perl
-# vim:set ts=4 sw=4 sts=4 et ai wm=0 nu:
-#=============================================================================
-# Copyright (c) 2024, Bob Lied
-#=============================================================================
-# ch-2.pl Perl Weekly Challenge 258 Task 2 Sum of Values
-#=============================================================================
-# You are given an array of integers, @int and an integer $k.
-# Write a script to find the sum of values whose index binary
-# representation has exactly $k number of 1-bit set.
-# Example 1 Input: @ints = (2, 5, 9, 11, 3), $k = 1
-#           Output: 17
-#   Binary representation of index 0 = 0
-#   Binary representation of index 1 = 1
-#   Binary representation of index 2 = 10
-#   Binary representation of index 3 = 11
-#   Binary representation of index 4 = 100
-#   So the indices 1, 2 and 4 have total one 1-bit sets.
-#   Therefore the sum, $ints[1] + $ints[2] + $ints[4] = 17
-# Example 2 Input: @ints = (2, 5, 9, 11, 3), $k = 2
-#           Output: 11
-# Example 3 Input: @ints = (2, 5, 9, 11, 3), $k = 0
-#           Output: 2
-#=============================================================================
 
 use v5.36;
 
@@ -32,7 +9,7 @@ my $K = 0;
 my $DoTest  = 0;
 
 GetOptions("test" => \$DoTest, "k:i" => \$K);
-exit(!runTest()) if $DoTest;
+runTest();exit;
 
 say sumOfVal($K, @ARGV);
 
@@ -50,7 +27,7 @@ sub sumOfVal($k, @ints)
 
 sub runTest
 {
-    use Test2::V0;
+    use Test::More;
     use builtin qw/true false/; no warnings "experimental::builtin";
 
     is( hasKones(1, 0), false, "k ones 1 0");

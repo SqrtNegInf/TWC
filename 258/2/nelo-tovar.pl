@@ -1,15 +1,9 @@
 #!/usr/bin/env perl
-
-# The Weekly Challenge 258 - By Nelo Tovar
-#
-# https://theweeklychallenge.org/blog/perl-weekly-challenge-258/
-#
-# Task 2 - Sum of Values
-#
+use v5.28;
 
 use strict;
 use warnings;
-use v5.28;
+
 use Data::Dump qw(dump);
 
 my @examples = (

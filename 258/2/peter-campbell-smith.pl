@@ -1,11 +1,7 @@
 #!/usr/bin/env perl
 
-# Blog: http://ccgi.campbellsmiths.force9.co.uk/challenge
-
 use v5.26;    # The Weekly Challenge - 2024-02-26
-use utf8;     # Week 258 - task 2 - Sum of values
 use warnings; # Peter Campbell Smith
-binmode STDOUT, ':utf8';
 
 sum_of_values([2, 5, 9, 11, 3], 1);
 sum_of_values([2, 5, 9, 11, 3], 2);

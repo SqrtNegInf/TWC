@@ -1,5 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
+
 use List::Util qw( sum );
 
 my @ints1 = (2, 5, 9, 11, 3); my $k1 = 1;

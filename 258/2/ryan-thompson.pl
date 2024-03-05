@@ -1,5 +1,4 @@
 #!/usr/bin/env perl
-# Ryan Thompson <rjt@cpan.org>
 
 use List::Util qw< sum >;
 
