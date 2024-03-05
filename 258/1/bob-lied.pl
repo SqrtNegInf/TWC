@@ -9,7 +9,7 @@ my $Verbose = 0;
 my $DoTest  = 0;
 
 GetOptions("test" => \$DoTest, "verbose" => \$Verbose);
-exit(!runTest()) if $DoTest;
+runTest();exit;
 
 say cedn( map { s/[^0-9]//gr } @ARGV);
 
@@ -20,7 +20,7 @@ sub cedn(@ints)
 
 sub runTest
 {
-    use Test2::V0;
+    use Test::More;
 
     is(cedn(10, 1, 111, 24, 1000), 3, "Example 1");
     is(cedn(111, 1, 11111),        0, "Example 2");

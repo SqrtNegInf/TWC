@@ -15,7 +15,10 @@ ok 3 - Example 3
 1..3
  
 ===> 258/1/bob-lied.pl <===
-0
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+1..3
  
 ===> 258/1/bruce-gray.pl <===
 1..3
