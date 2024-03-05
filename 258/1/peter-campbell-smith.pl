@@ -1,11 +1,7 @@
 #!/usr/bin/env perl
 
-# Blog: http://ccgi.campbellsmiths.force9.co.uk/challenge
-
 use v5.26;    # The Weekly Challenge - 2024-02-26
-use utf8;     # Week 258 - task 1 - Count even digits number
 use warnings; # Peter Campbell Smith
-binmode STDOUT, ':utf8';
 
 count_even_digits_number (10, 1, 111, 24, 1000);
 count_even_digits_number (111, 1, 11111);

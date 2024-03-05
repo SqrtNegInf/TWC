@@ -1,24 +1,9 @@
 #!/usr/bin/env perl
 
-=pod
-
-The Weekly Challenge - 258
-- https://theweeklychallenge.org/blog/perl-weekly-challenge-258
-
-Author: Niels 'PerlBoy' van Dijke
-
-Task 1: Count Even Digits Number
-Submitted by: Mohammad Sajid Anwar
-
-You are given a array of positive integers, @ints.
-
-Write a script to find out how many integers have even number of digits.
-
-=cut
-
 use v5.32;
 use feature qw(signatures);
-use common::sense;
+
+#use common::sense;
 
 use Test2::V0 -srand => 1;
 

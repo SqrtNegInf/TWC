@@ -1,10 +1,11 @@
 #!/usr/bin/env perl
 
 use v5.24;
+
 use Test2::V0 -srand => 1;
 use Math::Prime::Util 'todigits';
 
-our ($tests, $examples, $base);
+our ($tests, $examples, $base) = (1,1);
 $base ||= 10;
 
 run_tests() if $tests || $examples;	# does not return

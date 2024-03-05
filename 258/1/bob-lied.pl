@@ -1,19 +1,4 @@
 #!/usr/bin/env perl
-# vim:set ts=4 sw=4 sts=4 et ai wm=0 nu:
-#=============================================================================
-# Copyright (c) 2024, Bob Lied
-#=============================================================================
-# ch-1.pl Perl Weekly Challenge 258 Task 1 Count Even Digits Number
-#=============================================================================
-# You are given a array of positive integers, @ints.
-# Write a script to find out how many integers have even number of digits.
-# Example 1 Input: @ints = (10, 1, 111, 24, 1000)
-#           Output: 3
-# Example 2 Input: @ints = (111, 1, 11111)
-#           Output: 0
-# Example 3 Input: @ints = (2, 8, 1024, 256)
-#           Output: 1
-#=============================================================================
 
 use v5.36;
 
