@@ -1,5 +1,4 @@
 #!/usr/bin/env raku
-use v6;
 
 sub evenDigitCount(@ints) {
   my $count = 0; # in case there are no even digit ints

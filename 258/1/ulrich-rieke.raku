@@ -1,7 +1,3 @@
 #!/usr/bin/env raku
-use v6 ;
 
-say "Enter some integers, separated by spaces!" ;
-my $line = $*IN.get ;
-my @numbers = $line.words ;
-say @numbers.grep( {$_.chars %% 2}  ).elems ;
+say (10, 1, 111, 24, 1000).grep( {$_.chars %% 2}  ).elems ;
