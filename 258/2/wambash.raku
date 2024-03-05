@@ -8,14 +8,12 @@ sub sum-of-values (+ints, :$k!) {
     andthen .sum
 }
 
-multi MAIN (Bool :test($)!) {
+#multi MAIN (Bool :test($)!) {
     use Test;
     is sum-of-values(2,5,9,11,3):k(1),17;
     is sum-of-values(2,5,9,11,3):k(2),11;
     is sum-of-values(2,5,9,11,3):k(0), 2;
     done-testing;
-}
+#}
 
-multi MAIN (+ints, Int :$k!) {
-    say sum-of-values ints, :$k
-}
+#multi MAIN (+ints, Int :$k!) { say sum-of-values ints, :$k }

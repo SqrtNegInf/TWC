@@ -1,8 +1,8 @@
 #!/usr/bin/env raku
 
 sub MAIN(
-    $k,
-    *@ints
+    $k = 1,
+    @ints = (2, 5, 9, 11, 3)
 ) {
     @ints
     .keys

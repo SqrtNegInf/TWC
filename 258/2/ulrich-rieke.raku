@@ -1,12 +1,6 @@
 #!/usr/bin/env raku
-use v6 ;
-
-say "Enter some integers , separated by spaces!" ;
-my $line = $*IN.get ;
-my @numbers = $line.words.map( {.Int} ) ;
-say "Enter another integer!" ;
-$line = $*IN.get ;
-my $k = $line.Int ;
+my @numbers = (2, 5, 9, 11, 3);
+my $k = 1;
 my $sum = 0 ;
 my $len = @numbers.elems ;
 for (0..$len - 1 ) -> $i {

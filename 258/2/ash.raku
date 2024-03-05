@@ -1,10 +1,4 @@
 #!/usr/bin/env raku
-# Solution to the Task 2 of the Weekly Challenge #258
-# https://theweeklychallenge.org/blog/perl-weekly-challenge-258/#TASK2
-
-# Test run:
-# $ raku ch-2.raku 
-# 17
 
 my @ints = 2, 5, 9, 11, 3;
 my $k = 1; # 17
