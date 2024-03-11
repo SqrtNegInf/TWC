@@ -543,8 +543,8 @@ Challenge titles and Rosetta-code correspondences (exact, and otherwise)
 259-1 Banking Day Offset
 259-2 Line Parser
 
-260-1
-260-2
+260-1 Unique Occurences
+260-2 Dictionary Rank
 261-1
 261-2
 262-1
