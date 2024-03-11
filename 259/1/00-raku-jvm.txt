@@ -1,0 +1,72 @@
+ 
+===> 259/1/arne-sommer.raku <===
+2018-06-29
+ 
+===> 259/1/athanasius.raku <===
+
+Challenge 259, Task #1: Banking Day Offset (Raku)
+
+Running the test suite
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - 2 holidays
+ok 4 - Zero offset 1
+ok 5 - Zero offset 2
+ok 6 - Zero offset 3
+ok 7 - Weekend start
+ok 8 - Holiday start
+1..8
+ 
+===> 259/1/barroff.raku <===
+1..2
+ok 1 - works for 2018-07-04
+ok 2 - works for 2018-07-03
+ 
+===> 259/1/bruce-gray.raku <===
+1..8
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Land in the middle of holidays
+ok 4 - Holidays on a weekend
+ok 5 - Whole year
+ok 6 - Holidays wrap a weekend
+ok 7 - Start on a holiday
+ok 8 - Huge set of holidays
+ 
+===> 259/1/feng-chang.raku <===
+2018-06-29
+ 
+===> 259/1/luca-ferrari.raku <===
+2018-06-29
+ 
+===> 259/1/mark-anderson.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ok 4 - 
+ok 5 - 
+ok 6 - 
+ok 7 - Land in the middle of holidays
+ok 8 - Holidays on a weekend
+ok 9 - Whole year
+ok 10 - Holidays wrap a weekend
+ok 11 - Start on a holiday
+ok 12 - 
+ 
+===> 259/1/packy-anderson.raku <===
+Example 1:
+Input: $start_date = '2018-06-28', $offset = 3,
+       $bank_holidays = ['2018-07-03']
+ 
+===> 259/1/roger-bell-west.raku <===
+1..2
+ok 1 - example 1
+ok 2 - example 2
+ 
+===> 259/1/ulrich-rieke.raku <===
+2018-06-29
+ 
+===> 259/1/wambash.raku <===
+ok 1 - 
+ok 2 - 
+1..2

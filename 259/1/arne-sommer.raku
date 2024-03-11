@@ -1,9 +1,13 @@
 #!/usr/bin/env raku
 
-unit sub MAIN (:s(:$start),
-               Int :o(:$offset) where $offset > 0 = 1,
-	       :b(:$bank) = "",
-               :v(:$verbose));
+#unit sub MAIN (:s(:$start),
+#               Int :o(:$offset) where $offset > 0 = 1,
+#	       :b(:$bank) = "",
+#               :v(:$verbose));
+
+my $start = '2018-06-28';
+my $bank = ['2018-07-03'];
+my $offset = 1;
 
 my $date = Date.new($start);
 
@@ -21,19 +25,19 @@ loop
 {
   if $date.day-of-week == 6|7
   {
-    say ": Date $date ({ $date.day-of-week == 6 ?? 'Saturday' !! 'Sunday' }) Add 1" if $verbose;
+#    say ": Date $date ({ $date.day-of-week == 6 ?? 'Saturday' !! 'Sunday' }) Add 1" if $verbose;
     $date++;
     $added++;
   }
   elsif %is-bank{$date.Str}
   {
-    say ": Date $date (Bank Holiday) Add 1" if $verbose;
+#    say ": Date $date (Bank Holiday) Add 1" if $verbose;
     $date++;
     $added++;
   }
   elsif $todo
   {
-    say ": Date $date (Todo { $todo }) Add 1" if $verbose;
+#    say ": Date $date (Todo { $todo }) Add 1" if $verbose;
     $date++;
     $added++;
     $todo--;
@@ -44,6 +48,6 @@ loop
   }
 }
 
-say ": Added a total of $added days" if $verbose;
+#say ": Added a total of $added days" if $verbose;
 
 say $date.Str;

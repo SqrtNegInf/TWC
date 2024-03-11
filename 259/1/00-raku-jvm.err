@@ -1,0 +1,5 @@
+You cannot create an instance of this type (null)
+  in sub bankingDayOffset at packy-anderson.raku line 14
+  in sub solution at packy-anderson.raku line 49
+  in block <unit> at packy-anderson.raku line 55
+

@@ -1,16 +1,12 @@
 #!/usr/bin/env raku
 
-#
-# Perl Weekly Challenge 259
-# Task 1
-#
-# See <https://perlweeklychallenge.org/blog/perl-weekly-challenge-259>
-#
+#sub MAIN( $date,
+#	  Int $offset is copy,
+#	  *@holidays
+#				where { $date ~~ / ^ \d ** 4 <[-]>\d ** 2 <[-]> \d ** 2 $ / and $offset > 0 } ) {
 
-sub MAIN( $date,
-	  Int $offset is copy,
-	  *@holidays
-				where { $date ~~ / ^ \d ** 4 <[-]>\d ** 2 <[-]> \d ** 2 $ / and $offset > 0 } ) {
+my $date = '2018-06-28';
+my $offset = 1;
 
     my $day = DateTime.new( $date, formatter => { sprintf "%04d-%02d-%02d", .year, .month, .day } );
 
@@ -23,9 +19,9 @@ sub MAIN( $date,
 	    $day .= later( days => 1 );
 	}
 
-	while ( @holidays.elems > 0 && @holidays.grep( * ~~ $day.Str ) ) {
-	    $day .= later( days => 1 );
-	}
+	#while ( @holidays.elems > 0 && @holidays.grep( * ~~ $day.Str ) ) {
+	#    $day .= later( days => 1 );
+	#}
 
 
 	$offset--;
@@ -33,4 +29,4 @@ sub MAIN( $date,
 
     $day.say;
 
-}
+#}
