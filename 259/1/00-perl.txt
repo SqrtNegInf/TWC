@@ -1,0 +1,165 @@
+ 
+===> 259/1/adam-russell.pl <===
+2018-07-04
+2018-07-03
+ 
+===> 259/1/athanasius.pl <===
+
+Challenge 259, Task #1: Banking Day Offset (Perl)
+
+Running the test suite
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - 2 holidays
+ok 4 - Zero offset 1
+ok 5 - Zero offset 2
+ok 6 - Zero offset 3
+ok 7 - Weekend start
+ok 8 - Holiday start
+1..8
+ 
+===> 259/1/bob-lied.pl <===
+ok 1 - Example 1
+ok 2 - Example 1
+1..2
+ 
+===> 259/1/cheok-yin-fung.pl <===
+1..2
+ok 1
+ok 2
+ 
+===> 259/1/dave-jacoby.pl <===
+Input:  $startdate = 2018-06-28, $offset = 3, $bank_holidays = ['2018-07-03']
+Output: 2018-07-04
+
+Input:  $startdate = 2018-06-28, $offset = 3
+Output: 2018-07-03
+
+Input:  $startdate = 2019-11-01, $offset = 3
+Output: 2019-11-06
+
+ 
+===> 259/1/e-choroba.pl <===
+1..3
+# Subtest: slow
+    ok 1 - Example 1
+    ok 2 - Example 2
+    ok 3 - Land in the middle of holidays
+    ok 4 - Holidays on a weekend
+    ok 5 - Whole year
+    ok 6 - Holidays wrap a weekend
+    ok 7 - Start on a holiday
+    1..7
+ok 1 - slow
+# Subtest: fast
+    ok 1 - Example 1
+    ok 2 - Example 2
+    ok 3 - Land in the middle of holidays
+    ok 4 - Holidays on a weekend
+    ok 5 - Whole year
+    ok 6 - Holidays wrap a weekend
+    ok 7 - Start on a holiday
+    1..7
+ok 2 - fast
+ok 3 - long
+ 
+===> 259/1/jo-37.pl <===
+# Seeded srand with seed '1' from import arg.
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - start on weekend
+ok 4 - multiple holidays
+1..4
+ 
+===> 259/1/nelo-tovar.pl <===
+Input : $start_date = 2018-06-28, $offset = 3, $bank_holidays = "2018-07-03"
+Output : 2018-07-04
+ 
+Input : $start_date = 2018-06-28, $offset = 3
+Output : 2018-07-03
+ 
+ 
+===> 259/1/packy-anderson.pl <===
+Example 1:
+Input: $start_date = '2018-06-28', $offset = 3,
+       $bank_holidays = ['2018-07-03']
+Output: '2018-07-04'
+
+Thursday bumped to Friday (offset 1)
+Saturday skipped because it's a weekend
+Sunday skipped because it's a weekend
+Friday bumped to Monday (offset 2)
+Tuesday skipped because it's a holiday
+Monday bumped to Wednesday (offset 3)
+
+Example 2:
+Input: $start_date = '2018-06-28', $offset = 3
+Output: '2018-07-03'
+
+Thursday bumped to Friday (offset 1)
+Saturday skipped because it's a weekend
+Sunday skipped because it's a weekend
+Friday bumped to Monday (offset 2)
+Monday bumped to Tuesday (offset 3)
+
+Example 3:
+Input: $start_date = '2023-12-29', $offset = 5,
+       $bank_holidays = ['2024-01-01']
+Output: '2024-01-08'
+
+Saturday skipped because it's a weekend
+Sunday skipped because it's a weekend
+Monday skipped because it's a holiday
+Friday bumped to Tuesday (offset 1)
+Tuesday bumped to Wednesday (offset 2)
+Wednesday bumped to Thursday (offset 3)
+Thursday bumped to Friday (offset 4)
+Saturday skipped because it's a weekend
+Sunday skipped because it's a weekend
+Friday bumped to Monday (offset 5)
+ 
+===> 259/1/peter-campbell-smith.pl <===
+
+Input:  $start_date = '2024-03-04', $offset = 5
+Output: '2024-03-11'
+
+Input:  $start_date = '2024-03-28', $offset = 1
+Output: '2024-04-02'
+
+Input:  $start_date = '2024-01-02', $offset = 254
+Output: '2025-01-02'
+
+Input:  $start_date = '1970-01-01', $offset = 10000
+Output: '2109-07-18'
+ 
+===> 259/1/peter-meszaros.pl <===
+# Seeded srand with seed '1' from import arg.
+ok 1 - Example 1
+ok 2 - Example 2
+1..2
+ 
+===> 259/1/roger-bell-west.pl <===
+1..2
+ok 1 - example 1
+ok 2 - example 2
+ 
+===> 259/1/ryan-thompson.pl <===
+2018-07-03
+2018-07-04
+ 
+===> 259/1/spadacciniweb.pl <===
+(start 2018-06-28 offset 3 Bank holidays [2018-07-03]) -> 2018-07-04
+(start 2018-06-28 offset 3 Bank holidays []) -> 2018-07-03
+ 
+===> 259/1/wanderdoc.pl <===
+# Seeded srand with seed '1' from import arg.
+ok 1 - Example 1
+ok 2 - Example 2
+1..2
+ 
+===> 259/1/wlmb.pl <===
+Start: 2018-06-28. Offset 1. Holidays:  -> 2018-06-29
+ 
+===> 259/1/zapwai.pl <===
+Input: 2018-06-28, offset: 3, holidays: 2018-07-03
+Output: 2018-07-04

@@ -1,10 +1,8 @@
 #!/usr/bin/env perl
-
-  
 use v5.36;
+
 use Time::Piece;
 use Time::Seconds;
-
   
 sub count_days{
     my($start, $offset, $holidays) = @_;

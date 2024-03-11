@@ -143,13 +143,3 @@ my @h = qw[ 2001-10-08 2005-02-20 2000-01-07 2003-09-26 2000-08-14
 is banking_day_offset($start, $offset, [@h]),
     banking_day_offset_slow($start, $offset, [@h]),
     'long';
-
-cmpthese(-3, {
-    slow => sub { banking_day_offset_slow($start, $offset, [@h]) },
-    fast => sub { banking_day_offset($start, $offset, [@h]) },
-})
-
-__END__
-       Rate slow fast
-slow 84.1/s   -- -80%
-fast  431/s 412%   --

@@ -1,11 +1,6 @@
 #!/usr/bin/env perl
-
-# Blog: http://ccgi.campbellsmiths.force9.co.uk/challenge
-
 use v5.26;    # The Weekly Challenge - 2024-03-04
-use utf8;     # Week 259 - task 1 - Banking day offset
 use warnings; # Peter Campbell Smith
-binmode STDOUT, ':utf8';
 
 use Time::Local;
 

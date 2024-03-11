@@ -1,15 +1,8 @@
 #!/usr/bin/env perl
-
-# The Weekly Challenge 259 - By Nelo Tovar
-#
-# https://theweeklychallenge.org/blog/perl-weekly-challenge-259/
-#
-# Task 1 - Banking Day Offset
-#
-
+use v5.28;
 use strict;
 use warnings;
-use v5.28;
+
 use List::Util qw/any/;
 use DateTime;
 use Data::Dump qw(dump);

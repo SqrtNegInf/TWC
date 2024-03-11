@@ -1,19 +1,12 @@
 #!/usr/bin/env perl
-# Perl weekly challenge 259
-# Task 1:  Banking Day Offset
-#
-# See https://wlmb.github.io/2024/03/04/PWC259/#task-1-banking-day-offset
 use v5.36;
+
 use DateTime;
 use DateTime::Format::DateParse qw(parse_datetime);
 use List::AllUtils qw(uniq_by);
 use POSIX qw(floor);
-die <<~"FIN" unless @ARGV >= 2;
-    Usage ch-1.pl S D [B1 B2...]
-    to bump daye S by D days skipping weekends and
-    the (optional) bank holidays B1 B2...
-    FIN
-my ($start_str, $offset, @bank_str)=@ARGV;
+
+my ($start_str, $offset, @bank_str)= ('2018-06-28', 1);
 my ($start, @bank)=  # convert to dates
     map
     {DateTime::Format::DateParse->parse_datetime($_)->truncate(to=>'day')}

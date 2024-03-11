@@ -1,12 +1,12 @@
 #!/usr/bin/env perl
-
 use v5.24;
+use experimental 'signatures';
+
 use Test2::V0 -srand => 1;
 use File::Temp 'tempfile';
 use Date::Manip::Date;
-use experimental 'signatures';
 
-our ($tests, $examples, $verbose);
+our ($tests, $examples, $verbose) =  (1,1);
 
 run_tests() if $tests || $examples;	# does not return
 
