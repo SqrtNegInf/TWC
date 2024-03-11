@@ -1,0 +1,60 @@
+ 
+===> 259/2/arne-sommer.raku <===
+ 
+===> 259/2/bruce-gray.raku <===
+1..3
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ 
+===> 259/2/feng-chang.raku <===
+ok 1 - "abc" parsed as Chars
+ok 2 - "ab c " parsed as Chars
+ok 3 - "ab \"c " parsed as Chars
+ok 4 - {% id field1="value1" field2="value2" field3=42 %} => {name => id, fields => {field1 => value1, field2 => value2, field3 => 42}}
+ok 5 - {% youtube title="Title \"quoted\" done" %} => {name => youtube, fields => {title => Title \"quoted\" done}}
+ok 6 - ... => {name => id, fields => {field1 => value1, field2 => value2}, text => LINES}
+1..6
+ 
+===> 259/2/lubos-kolouch.raku <===
+ 
+===> 259/2/luca-ferrari.raku <===
+[｢video=foobar｣
+ name => ｢video｣
+ value => ｢foobar｣ ｢password=xyz｣
+ name => ｢password｣
+ value => ｢xyz｣ ｢abc=def｣
+ name => ｢abc｣
+ value => ｢def｣ ｢donald="duck here \"escaped\" "｣
+ name => ｢donald｣
+ value => ｢"duck here \"escaped\" "｣]
+{fields => {abc => def, donald => "duck here \"escaped\" ", password => xyz, video => foobar}, name => ｢youtube｣}
+ 
+===> 259/2/packy-anderson.raku <===
+{
+  name => id,
+  fields => {
+    field1 => value1,
+    field2 => value2,
+    field3 => 42,
+  }
+}
+ 
+===> 259/2/wambash.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ok 4 - 
+ok 5 - 
+ok 6 - 
+ok 7 - 
+ok 8 - 
+ok 9 - 
+ok 10 - 
+ok 11 - 
+ok 12 - 
+ok 13 - 
+ok 14 - 
+ok 15 - 
+ok 16 - 
+1..16

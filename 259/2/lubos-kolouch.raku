@@ -1,4 +1,7 @@
 #!/usr/bin/env raku
+
+die 'no data';  # and '@directions' not properly defined
+
 sub load-grid(Str $file-path) {
     my @grid = $file-path.IO.lines.map(*.comb);
     return @grid;
@@ -11,7 +14,7 @@ sub load-words(Str $file-path) {
 
 sub find-words-in-grid(@grid, %words) {
     my @found-words;
-    my @directions = (-1, 0, 1) X (-1, 0, 1) ->> grep { $_.head != 0 || $_.tail != 0 };
+    my @directions;   # = (-1, 0, 1) X (-1, 0, 1) ->> grep { $_.head != 0 || $_.tail != 0 };
     my $rows = @grid.elems;
     my $cols = @grid[0].elems;
 

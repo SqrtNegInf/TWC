@@ -30,7 +30,7 @@ class LineActions {
     method Text($/)  { make (~$/).trim }
 }
 
-multi sub MAIN('test') {
+#multi sub MAIN('test') {
     use Test;
 
     is Line.parse('abc', :rule<Chars>, :actions(LineActions)).made, 'abc', '"abc" parsed as Chars';
@@ -55,8 +55,6 @@ multi sub MAIN('test') {
         "... => \{name => id, fields => \{field1 => value1, field2 => value2\}, text => LINES\}";
 
     done-testing;
-}
+#}
 
-multi sub MAIN(Str:D $line) {
-    put Line.parse($line, :actions(LineActions)).made.gist;
-}
+#multi sub MAIN(Str:D $line) { put Line.parse($line, :actions(LineActions)).made.gist; }

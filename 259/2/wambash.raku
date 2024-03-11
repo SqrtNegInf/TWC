@@ -29,7 +29,7 @@ sub line-parser ($string) {
     andthen .made
 }
 
-multi MAIN (Bool :test($)!) {
+#multi MAIN (Bool :test($)!) {
     use Test;
 
     is LineParser.parse( 'field1 = "value1"', :rule<field>).<name>, 'field1';
@@ -65,8 +65,6 @@ multi MAIN (Bool :test($)!) {
           {% endid %}
     '), %parsed;
     done-testing;
-}
+#}
 
-multi MAIN ($string) {
-    say line-parser $string
-}
+#multi MAIN ($string) { say line-parser $string }

@@ -1,12 +1,5 @@
 #!/usr/bin/env raku
 
-#
-# Perl Weekly Challenge 259
-# Task 2
-#
-# See <https://perlweeklychallenge.org/blog/perl-weekly-challenge-259>
-#
-
 
 # {%  id   field1="value1"    field2="value2"  field3=42 %}
 

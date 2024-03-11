@@ -1,0 +1,12 @@
+[31m===[0mSORRY![31m===[0m Error while compiling /Users/dhoekman/PWC/259/2/arne-sommer.raku
+[31m===[0mSORRY![31m===[0m Error while compiling /Users/dhoekman/PWC/259/2/lib/JSON/Fast.rakumod (JSON::Fast)
+Invalid typename 'Uni' in parameter declaration.
+at /Users/dhoekman/PWC/259/2/lib/JSON/Fast.rakumod (JSON::Fast):478
+------> [32m    my sub unjsonify-string(Uni:D[33m⏏[31m \codes, int $pos) {[0m
+    expecting any of:
+        pair value
+
+at /Users/dhoekman/PWC/259/2/arne-sommer.raku:3
+no data
+  in block <unit> at lubos-kolouch.raku line 3
+

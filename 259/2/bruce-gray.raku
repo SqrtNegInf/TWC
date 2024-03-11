@@ -1,4 +1,5 @@
 #!/usr/bin/env raku
+
 grammar Task2_Record {
     rule  TOP         { ^ '{%' <id> <field>* '%}' $ }
     rule  field       { <field_name> '=' <field_value> }

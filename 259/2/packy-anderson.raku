@@ -1,5 +1,4 @@
 #!/usr/bin/env raku
-use v6;
 
 grammar Parser {
   rule TOP { [ <line> | <text> ] }
@@ -28,7 +27,7 @@ grammar Parser {
   rule field-value { <field> '=' [<number> | <quoted-string>] }
 }
 
-sub MAIN($file) {
+sub MAIN($file = 'example1.txt') {
   my %data;
   my @ids;
   my $in_id = '';
