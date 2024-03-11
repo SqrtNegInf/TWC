@@ -1,7 +1,7 @@
 #!/usr/bin/env perl
 
   
-use v5.38;
+use v5.36;
 
 use Ch2;
 use constant TEST0 => q/{%  id    field1="value1"    field2="value2"    field3=42 %}/;

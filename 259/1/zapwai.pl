@@ -1,5 +1,5 @@
 #!/usr/bin/env perl
-use v5.38;
+use v5.36;
 my $first_year = 2000; # If you change this, change the first day in @day to match jan 1st
 my %days_in_month = qw( 01 31 02 28 03 31 04 30 05 31 06 30 07 31 08 31 09 30 10 31 11 30 12 31 );
 my @day = qw( sat sun mon tue wed thu fri );
