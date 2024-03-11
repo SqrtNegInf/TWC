@@ -1,15 +1,9 @@
 #!/usr/bin/env perl
 
-# The Weekly Challenge 259 - By Nelo Tovar
-#
-# https://theweeklychallenge.org/blog/perl-weekly-challenge-259/
-#
-# Task 2 - Line Parser 
-#
-
 use strict;
 use warnings;
 use feature qw/say/;
+
 use Data::Dump qw/dump/;
 
 my @examples = (

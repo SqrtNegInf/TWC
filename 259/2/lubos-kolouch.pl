@@ -2,6 +2,8 @@
 use strict;
 use warnings;
 
+die 'no data';
+
 sub load_grid {
     my ($file_path) = @_;
     open my $fh, '<', $file_path or die "Could not open file: $!";

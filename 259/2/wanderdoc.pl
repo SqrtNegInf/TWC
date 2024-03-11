@@ -1,46 +1,6 @@
 #!/usr/bin/env perl
 use strict;
-use warnings FATAL => qw(all);
-
-=prompt
-You are given a line like below: {%  id   field1="value1"    field2="value2"  field3=42 %}
-Where
-a) "id" can be \w+.
-b) There can be 0  or more field-value pairs.
-c) The name of the fields are \w+.
-b) The values are either number in which case we don't need parentheses or string in 
-   which case we need parentheses around them.
-
-The line parser should return structure like below:
-{
-       name => id,
-       fields => {
-           field1 => value1,
-           field2 => value2,
-           field3 => value3,
-       }
-}
-
-It should be able to parse the following edge cases too:
-{%  youtube title="Title \"quoted\" done" %}
-and
-{%  youtube title="Title with escaped backslash \\" %}
-BONUS: Extend it to be able to handle multiline tags:
-{% id  filed1="value1" ... %}
-LINES
-{% endid %}
-You should expect the following structure from your line parser:
-{
-   	name => id,
-   	fields => {
-       	field1 => value1,
-       	field2 => value2,
-       	field3 => value3,
-   	}
-   	text => LINES
-}
-=cut
-
+use warnings;
 
 use Test2::V0 -srand => 1;
 

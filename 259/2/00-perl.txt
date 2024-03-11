@@ -1,0 +1,262 @@
+ 
+===> 259/2/adam-russell.pl <===
+{%  id    field1="value1"    field2="value2"    field3=42 %}
+{
+	name => id
+	fields => {
+		field1 =>  value1
+		field2 =>  value2
+		field3 =>  42
+	}
+}
+{%  youtube title="Title \"quoted\" done" %}
+{
+	name => youtube
+	fields => {
+		field1 =>  value1
+		field2 =>  value2
+		field3 =>  42
+		title =>  Title
+	}
+}
+{%  youtube title="Title with escaped backslash \\" %}
+{
+	name => youtube
+	fields => {
+		field1 =>  value1
+		field2 =>  value2
+		field3 =>  42
+		title =>  Title
+	}
+}
+ 
+===> 259/2/athanasius.pl <===
+
+Challenge 259, Task #2: Line Parser (Perl)
+
+Running the test suite
+ok 1 - Test 1
+ok 2 - Test 2
+ok 3 - Test 3
+ok 4 - Test 4
+ok 5 - Test 5
+ok 6 - Test 6
+1..6
+ 
+===> 259/2/bob-lied.pl <===
+# Seeded srand with seed '1' from import arg.
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ok 4 - Bonus test
+1..4
+ 
+===> 259/2/cheok-yin-fung.pl <===
+# Seeded srand with seed '1' from import arg.
+ok 1
+ok 2
+ok 3
+1..3
+ 
+===> 259/2/dave-jacoby.pl <===
+Input:  $line = '{%  youtube title="Title with escaped backslash \" %}'
+
+Output: 
+    {
+   "field" : {
+      "title" : "Title with escaped backslash \\"
+   },
+   "name" : "youtube"
+}
+
+
+Input:  $line = '{%  id   field1="value1"    field2="value2"  field3=42 %}'
+
+Output: 
+    {
+   "field" : {
+      "field1" : "value1",
+      "field2" : "value2",
+      "field3" : "42"
+   },
+   "name" : "id"
+}
+
+
+Input:  $line = '{%  jacoby language1="perl" language2="javascript" hobby="guitar" %}'
+
+Output: 
+    {
+   "field" : {
+      "hobby" : "guitar",
+      "language1" : "perl",
+      "language2" : "javascript"
+   },
+   "name" : "jacoby"
+}
+
+
+Input:  $line = '{%  hansolo ship="falcon"    friend="wookie"  love="leia" %}'
+
+Output: 
+    {
+   "field" : {
+      "friend" : "wookie",
+      "love" : "leia",
+      "ship" : "falcon"
+   },
+   "name" : "hansolo"
+}
+
+
+Input:  $line = '{%  linkedin jobs="multiple words in one line" %}'
+
+Output: 
+    {
+   "field" : {
+      "jobs" : "multiple words in one line"
+   },
+   "name" : "linkedin"
+}
+
+
+Input:  $line = '{%  youtube answer=42       title="Title \"quoted\" done" %}'
+
+Output: 
+    {
+   "field" : {
+      "answer" : "42",
+      "title" : "Title \\\"quoted\\\" done"
+   },
+   "name" : "youtube"
+}
+
+
+ 
+===> 259/2/e-choroba.pl <===
+# Seeded srand with seed '1' from import arg.
+1..5
+ok 1 - Example 1
+ok 2 - Double quotes
+ok 3 - Backslash
+ok 4 - bonus
+ok 5 - Fails
+ 
+===> 259/2/jo-37.pl <===
+# Seeded srand with seed '1' from import arg.
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ok 4 - example 4
+ok 5 - no fields
+ok 6 - incomplete
+ok 7 - unquoted string
+ok 8 - numbers
+ok 9 - single quote
+1..9
+ 
+===> 259/2/lubos-kolouch.pl <===
+ 
+===> 259/2/nelo-tovar.pl <===
+{ fields => { title => "Title \"quoted\" done" }, name => "youtube" }
+ 
+{
+  fields => { title => "Title with escaped backslash \" " },
+  name   => "youtube",
+}
+ 
+ 
+===> 259/2/peter-campbell-smith.pl <===
+
+Input: {% id field1="value1" field2="value2" field3=42 %}
+Output: {
+    name => id,
+    fields => {
+        field1 => value1,
+        field2 => value2,
+        field3 => 42,
+    }
+}
+
+
+Input: % youtube title="Title \"quoted\" done" %}
+Output: {
+    name => youtube,
+    fields => {
+        title => Title "quoted" done,
+    }
+}
+
+
+Input: {% youtube title="Title with escaped backslash \\" %}
+Output: {
+    name => youtube,
+    fields => {
+        title => Title with escaped backslash \,
+    }
+}
+
+
+Input: {% id field1="value1" field2="value2" %}
+LINES
+{% endid %}
+Output: {
+    name => id,
+    fields => {
+        field1 => value1,
+        field2 => value2,
+    }
+    text => LINES
+}
+
+ 
+===> 259/2/peter-meszaros.pl <===
+# Seeded srand with seed '1' from import arg.
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+1..3
+ 
+===> 259/2/wanderdoc.pl <===
+# Seeded srand with seed '1' from import arg.
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ok 4 - Example Multiline
+1..4
+ 
+===> 259/2/zapwai.pl <===
+Name => id
+Fields => {
+	field1 => "value1" 
+	field2 => "value2" 
+	field3 => 42
+}
+
+Name => youtube
+Fields => {
+	title => "Title \"quoted\" done" 
+	foo => "bar" 
+	baz => 31
+}
+
+Name => youtube
+Fields => {
+	title => "Title with escaped backslash \"
+}
+
+Name => id
+Fields => {
+	field => "val1" 
+	field2 => "val2"
+}
+
+Name => test
+Fields => {
+	filed1 => "value1" 
+	df => 42
+}
+
+Text => LINES
+More Lines
+

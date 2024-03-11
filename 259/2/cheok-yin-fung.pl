@@ -1,6 +1,4 @@
 #!/usr/bin/env perl
-# The Weekly Challenge 259
-# Task 2 Line Parser
 use v5.30.0;
 use warnings;
 
