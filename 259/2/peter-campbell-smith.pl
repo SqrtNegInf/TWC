@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-
-use v5.26;    # The Weekly Challenge - 2024-03-04
-use warnings; # Peter Campbell Smith
+use v5.36;
 
 line_parser('{% id field1="value1" field2="value2" field3=42 %}');
 line_parser('% youtube title="Title \"quoted\" done" %}');
