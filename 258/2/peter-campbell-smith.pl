@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-
-use v5.26;    # The Weekly Challenge - 2024-02-26
-use warnings; # Peter Campbell Smith
+use v5.36;
 
 sum_of_values([2, 5, 9, 11, 3], 1);
 sum_of_values([2, 5, 9, 11, 3], 2);

@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
-
 use v5.36;
+
 use List::Util qw(sum0);
 
 my $k = 1;

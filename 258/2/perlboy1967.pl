@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-use v5.32;
-use feature qw(signatures);
-
-#use common::sense;
+use v5.36;
 
 use Test2::V0 -srand => 1;
 

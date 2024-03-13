@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
+use v5.36;
 
 sub sum_of_values_with_k_ones {
     my ( $arr_ref, $k ) = @_;

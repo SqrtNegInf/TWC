@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
+use v5.36;
 
 use ntheory qw(hammingweight);
 use List::Util qw(sum0);
