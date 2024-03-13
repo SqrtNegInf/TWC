@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
+use v5.36;
 
 my @ints = (10, 1, 111, 24, 1000);
 even_digits_number(\@ints);

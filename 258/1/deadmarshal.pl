@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
+use v5.36;
 
 sub count_even_digits_number{
   scalar grep{(split'',$_)%2==0}@{$_[0]}

@@ -1,4 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
+
 
 use v5.26;    # The Weekly Challenge - 2024-02-26
 use warnings; # Peter Campbell Smith

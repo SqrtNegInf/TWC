@@ -1,15 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-# The Weekly Challenge 258 - By Nelo Tovar
-#
-# https://theweeklychallenge.org/blog/perl-weekly-challenge-258/
-#
-# Task 1 Count Even Digits Number
-#
-
-use strict;
-use warnings;
-use v5.28;
 use Data::Dump qw(dump);
 
 my @examples = (

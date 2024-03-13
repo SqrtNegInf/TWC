@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use feature 'say';
+use v5.36;
 
 sub count_even_digits_ints {
     scalar grep { ! (length($_) % 2) } @_;
