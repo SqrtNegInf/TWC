@@ -1,5 +1,5 @@
 #!/usr/bin/env perl
-use v5.36;
+#use v5.36; # doesn't work: Multidimensional hash lookup is disabled at 259/2/jo-37.pl line 59, near "q{'"}}"
 
 use Test2::V0 -srand => 1;
 use Regexp::Common qw(number delimited);
