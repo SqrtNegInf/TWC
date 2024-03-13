@@ -1,5 +1,5 @@
 #!/usr/bin/env perl
-use 5.010;
+use v5.36;
 
 use Time::Piece; # Easy weekday + math
 
