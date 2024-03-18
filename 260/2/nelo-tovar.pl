@@ -1,15 +1,9 @@
 #!/usr/bin/env perl
 
-# The Weekly Challenge 260 - By Nelo Tovar
-#
-# https://theweeklychallenge.org/blog/perl-weekly-challenge-260/
-#
-# Task 2 - Dictionary Rank
-#
-
+use v5.28;
 use strict;
 use warnings;
-use v5.28;
+
 use List::MoreUtils qw (bsearch_index);
 use Algorithm::Combinatorics qw(permutations);
 

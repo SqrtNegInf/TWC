@@ -1,6 +1,7 @@
 #!/usr/bin/env perl
 use strict;
 use warnings;
+
 use Algorithm::Combinatorics qw(permutations);
 use List::MoreUtils qw(onlyidx uniq);
 

@@ -1,9 +1,7 @@
 #!/usr/bin/env perl
-
   
 use v5.36;
 use boolean;
-
   
 sub permutations{
   my($a, $k, $permutations) = @_;

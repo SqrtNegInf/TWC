@@ -28,4 +28,4 @@ sub main ($word) {
     say $count;
 }
 
-main(@ARGV);
+main( ('CAT') );

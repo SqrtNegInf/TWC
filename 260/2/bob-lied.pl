@@ -1,27 +1,4 @@
 #!/usr/bin/env perl
-# vim:set ts=4 sw=4 sts=4 et ai wm=0 nu:
-#=============================================================================
-# Copyright (c) 2024, Bob Lied
-#=============================================================================
-# ch-2.pl Perl Weekly Challenge 260 Task 2 Dictionary Rank
-#=============================================================================
-# You are given a word, $word.
-# Write a script to compute the dictionary rank of the given word.
-# Example 1 Input: $word = 'CAT'
-#           Output: 3
-#   All possible combinations of the letters:
-#   CAT, CTA, ATC, TCA, ACT, TAC
-#   Arrange them in alphabetical order:
-#   ACT, ATC, CAT, CTA, TAC, TCA
-#   CAT is the 3rd in the list.
-#   Therefore the dictionary rank of CAT is 3.
-#
-# Example 2 Input: $word = 'GOOGLE'
-#           Output: 88
-# Example 3 Input: $word = 'SECRET'
-#           Output: 255
-#=============================================================================
-
 use v5.36;
 
 use builtin qw/true false/; no warnings "experimental::builtin";

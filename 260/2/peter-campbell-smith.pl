@@ -1,11 +1,7 @@
 #!/usr/bin/env perl
 
-# Blog: http://ccgi.campbellsmiths.force9.co.uk/challenge
-
 use v5.26;    # The Weekly Challenge - 2024-03-11
-use utf8;     # Week 260 - task 2 - Dictionary rank
 use warnings; # Peter Campbell Smith
-binmode STDOUT, ':utf8';
 
 use Algorithm::Combinatorics 'permutations';
 use Time::HiRes 'time';
@@ -18,7 +14,7 @@ dictionary_rank('ZYMURGY');
 dictionary_rank('PENGUINS');
 dictionary_rank('CAMBRIDGE');
 dictionary_rank('DICTIONARY');
-dictionary_rank('FABRICATING');
+#dictionary_rank('FABRICATING');
 
 sub dictionary_rank {
 	

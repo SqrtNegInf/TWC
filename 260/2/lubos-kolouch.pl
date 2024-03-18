@@ -1,7 +1,9 @@
 #!/usr/bin/env perl
-package ch2;
+#package ch2;
+
 use strict;
 use warnings;
+
 use List::Util qw(reduce);
 
 sub factorial {

@@ -1,24 +1,8 @@
 #!/usr/bin/env perl
 
-=pod
-
-The Weekly Challenge - 260
-- https://theweeklychallenge.org/blog/perl-weekly-challenge-260
-
-Author: Niels 'PerlBoy' van Dijke
-
-Task 2: Dictionary Rank
-Submitted by: Mark Anderson
-
-You are given a word, $word.
-
-Write a script to compute the dictionary rank of the given word.
-(out of n combinations using its individual characters)
-
-=cut
-
 use v5.32;
 use feature q(signatures);
+
 use common::sense;
 
 use Test2::V0 -srand => 1;
