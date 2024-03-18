@@ -1,13 +1,7 @@
 #!/usr/bin/env raku
 
-#
-# Perl Weekly Challenge 260
-# Task 1
-#
-# See <https://perlweeklychallenge.org/blog/perl-weekly-challenge-260>
-#
-
-sub MAIN( *@nums where { @nums.grep( * ~~ Int ).elems == @nums.elems } ) {
+#sub MAIN( *@nums where { @nums.grep( * ~~ Int ).elems == @nums.elems } ) {
+my @nums = (1,2,2,1,1,3);
     my $bag = Bag.new( @nums );
 
     for $bag.values -> $current {
@@ -16,4 +10,4 @@ sub MAIN( *@nums where { @nums.grep( * ~~ Int ).elems == @nums.elems } ) {
 
     '1'.say;
 
-}
+#}

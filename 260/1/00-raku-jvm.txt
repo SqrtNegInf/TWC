@@ -1,0 +1,84 @@
+ 
+===> 260/1/0rir.raku <===
+1..6
+ok 1 - 0
+ok 2 - 1
+ok 3 - 2
+ok 4 - 3
+ok 5 - 4
+ok 6 - 5
+
+Input: @int = 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5
+Output: 1
+ 
+===> 260/1/arne-sommer.raku <===
+1
+ 
+===> 260/1/athanasius.raku <===
+
+Challenge 259, Task #1: Unique Occurrences (Raku)
+
+Running the test suite
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+1..3
+ 
+===> 260/1/barroff.raku <===
+1..3
+ok 1 - works for (1,2,2,1,1,3)
+ok 2 - works for (1,2,3)
+ok 3 - works for (-2,0,1,-2,1,1,0,1,-2,9)
+ 
+===> 260/1/bruce-gray.raku <===
+1..3
+ok 1 - 1 2 2 1 1 3
+ok 2 - 1 2 3
+ok 3 - -2 0 1 -2 1 1 0 1 -2 9
+ 
+===> 260/1/jaldhar-h-vyas.raku <===
+1
+ 
+===> 260/1/lubos-kolouch.raku <===
+Example 1: 1
+Example 2: 0
+Example 3: 1
+ 
+===> 260/1/luca-ferrari.raku <===
+1
+ 
+===> 260/1/mark-anderson.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ 
+===> 260/1/packy-anderson.raku <===
+Example 1:
+Input: @ints = (1, 2, 2, 1, 1, 3)
+Output: 1
+
+Example 2:
+Input: @ints = (1, 2, 3)
+Output: 0
+
+Example 3:
+Input: @ints = (-2, 0, 1, -2, 1, 1, 0, 1, -2, 9)
+Output: 1
+ 
+===> 260/1/rick-bychowski.raku <===
+1
+ 
+===> 260/1/roger-bell-west.raku <===
+1..3
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ 
+===> 260/1/ulrich-rieke.raku <===
+1
+ 
+===> 260/1/wambash.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+1..3

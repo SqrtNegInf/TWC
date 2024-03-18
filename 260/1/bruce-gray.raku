@@ -1,6 +1,6 @@
 #!/usr/bin/env raku
-my &task1 = *.Bag.values.repeated.not;
 
+my &task1 = *.Bag.values.repeated.not;
 
 use Test; plan +constant @tests =
     ( 1, (1,2,2,1,1,3) ),

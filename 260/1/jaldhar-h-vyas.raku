@@ -1,7 +1,7 @@
 #!/usr/bin/env raku
 
 sub MAIN(
-    *@ints
+    @ints  = (1,2,2,1,1,3)
 ) {
     my %count;
     @ints.map({ %count{$_}++ });
