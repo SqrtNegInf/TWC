@@ -1,5 +1,4 @@
 #!/usr/bin/env raku
-use v6;
 
 sub dictionaryRank($word) {
   # split the string into an array of characters

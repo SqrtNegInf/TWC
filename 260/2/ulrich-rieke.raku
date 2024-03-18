@@ -1,8 +1,6 @@
 #!/usr/bin/env raku
-use v6 ;
 
-say "Enter a word, preferably in capital letters only!" ;
-my $word = $*IN.get ;
+my $word = 'CAT';
 my %permuHash ;
 for $word.comb.permutations -> $permu {
    %permuHash{ $permu.join( '' )}++ ;

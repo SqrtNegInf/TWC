@@ -1,0 +1,127 @@
+ 
+===> 260/2/0rir.raku <===
+1..10
+ok 1 - Int <- Str
+ok 2 - Int <- ""
+ok 3 - 1 <- "XYZ"
+ok 4 - 1 <- "ooO"
+ok 5 - 1 <- "Deet"
+ok 6 - 3 <- "CAT"
+ok 7 - 19 <- "TADE"
+ok 8 - 3 <- "Cat"
+ok 9 - 88 <- "GOOGLE"
+ok 10 - 255 <- "SECRET"
+
+Input: $word = Supercad
+Output: 35133
+ 
+===> 260/2/arne-sommer.raku <===
+3
+ 
+===> 260/2/barroff.raku <===
+1..3
+ok 1 - works for "CAT"
+ok 2 - works for "GOOGLE"
+ok 3 - works for "SECRET"
+ 
+===> 260/2/bruce-gray.raku <===
+1..54
+ok 1 - task2_simple - CAT
+ok 2 - task2_simple - GOOGLE
+ok 3 - task2_simple - SECRET
+ok 4 - task2_simple - A
+ok 5 - task2_simple - ABCD
+ok 6 - task2_simple - BAA
+ok 7 - task2_simple - BLESS
+ok 8 - task2_simple - EARTH
+ok 9 - task2_simple - INDIA
+ok 10 - task2_simple - MOHAN
+ok 11 - task2_simple - BRONZE
+ok 12 - task2_simple - SUPER
+ok 13 - task2_simple - PRIME
+ok 14 - task2_simple - COCHIN
+ok 15 - task2_simple - BOMBAY
+ok 16 - task2_simple - SUCCESS
+ok 17 - task2_simple - SPEECH
+ok 18 - task2_simple - UTAH
+ok 19 - task2_simple - TEXAS
+ok 20 - task2_simple - OREGON
+ok 21 - task2_simple - WYOMING
+ok 22 - task2_simple - VIRGINIA
+ok 23 - task2_simple - WISCONSIN
+ok 24 - task2_fast - CAT
+ok 25 - task2_fast - GOOGLE
+ok 26 - task2_fast - SECRET
+ok 27 - task2_fast - A
+ok 28 - task2_fast - ABCD
+ok 29 - task2_fast - BAA
+ok 30 - task2_fast - BLESS
+ok 31 - task2_fast - EARTH
+ok 32 - task2_fast - INDIA
+ok 33 - task2_fast - MOHAN
+ok 34 - task2_fast - BRONZE
+ok 35 - task2_fast - SUPER
+ok 36 - task2_fast - PRIME
+ok 37 - task2_fast - COCHIN
+ok 38 - task2_fast - BOMBAY
+ok 39 - task2_fast - SUCCESS
+ok 40 - task2_fast - SPEECH
+ok 41 - task2_fast - UTAH
+ok 42 - task2_fast - TEXAS
+ok 43 - task2_fast - OREGON
+ok 44 - task2_fast - WYOMING
+ok 45 - task2_fast - VIRGINIA
+ok 46 - task2_fast - WISCONSIN
+ok 47 - task2_fast - WASHINGTON
+ok 48 - task2_fast - MISSISSIPPI
+ok 49 - task2_fast - PENNSYLVANIA
+ok 50 - task2_fast - MASSACHUSETTS
+ok 51 - task2_fast - ABCCDDDEEEEEFFFFFFFFGGGGGGGGGGGGG
+ok 52 - task2_fast - GGGGGGGGGGGGGFFFFFFFFEEEEEDDDCCBA
+ok 53 - task2_fast - 1100010001100001111100000010101010001101111111111100101
+ok 54 - task2_fast - 1100010001100001111100000010101010001101111111111100101011100001
+ 
+===> 260/2/lubos-kolouch.raku <===
+3
+88
+255
+ 
+===> 260/2/luca-ferrari.raku <===
+3
+ 
+===> 260/2/mark-anderson.raku <===
+ok 1 - cat
+ok 2 - secret
+ok 3 - google
+ok 4 - mississippi
+ 
+===> 260/2/packy-anderson.raku <===
+Example 1:
+Input: $word = 'CAT'
+Output: 3
+
+Example 2:
+Input: $word = 'GOOGLE'
+Output: 88
+
+Example 3:
+Input: $word = 'SECRET'
+Output: 255
+ 
+===> 260/2/roger-bell-west.raku <===
+1..3
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ 
+===> 260/2/ulrich-rieke.raku <===
+3
+ 
+===> 260/2/wambash.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ok 4 - 
+ok 5 - 
+ok 6 - 
+1..6

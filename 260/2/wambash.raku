@@ -18,7 +18,7 @@ sub dictionary-rank ($word) {
     andthen $_ + 1
 }
 
-multi MAIN (Bool :test($)!) {
+#multi MAIN (Bool :test($)!) {
     use Test;
     is dr-iter('c', bag <a a b> ), <ca cb>;
     is dictionary-rank('CAT'),3;
@@ -27,8 +27,6 @@ multi MAIN (Bool :test($)!) {
     is dictionary-rank('Mississippi'), 1137;
     is dictionary-rank('MISSISSIPPI'), 13737;
     done-testing;
-}
+#}
 
-multi MAIN ($word) {
-    say dictionary-rank $word
-}
+#multi MAIN ($word) { say dictionary-rank $word }
