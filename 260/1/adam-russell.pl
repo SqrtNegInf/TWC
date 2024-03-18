@@ -1,9 +1,7 @@
 #!/usr/bin/env perl
-
-  
 use v5.36;
-use boolean;
 
+use boolean;
   
 sub unique_occurrences{
   my %occurrences;

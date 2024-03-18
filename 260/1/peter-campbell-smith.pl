@@ -1,11 +1,7 @@
 #!/usr/bin/env perl
 
-# Blog: http://ccgi.campbellsmiths.force9.co.uk/challenge
-
 use v5.26;    # The Weekly Challenge - 2024-03-11
-use utf8;     # Week 260 - task 1 - Unique occurrences
 use warnings; # Peter Campbell Smith
-binmode STDOUT, ':utf8';
 
 unique_occurrences(1, 2, 2, 3, 3, 3, 4, 4, 4, 4, 5, 5, 5, 5, 5);
 unique_occurrences(1, 2, 2, 3, 3, 3, 4, 4, 4, 4, 4, 5, 5, 5, 5, 5);

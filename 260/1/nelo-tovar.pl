@@ -1,15 +1,8 @@
 #!/usr/bin/env perl
-
-# The Weekly Challenge 260 - By Nelo Tovar
-#
-# https://theweeklychallenge.org/blog/perl-weekly-challenge-260/
-#
-# Task 1 - Unique Occurrences
-#
-
+use v5.28;
 use strict;
 use warnings;
-use v5.28;
+
 use List::Util qw/uniqint/;
 use Data::Dump qw(dump);
 

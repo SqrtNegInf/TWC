@@ -1,22 +1,4 @@
 #!/usr/bin/env perl
-
-=pod
-
-The Weekly Challenge - 260
-- https://theweeklychallenge.org/blog/perl-weekly-challenge-260
-
-Author: Niels 'PerlBoy' van Dijke
-
-Task 1: Unique Occurrences
-Submitted by: Mohammad Sajid Anwar
-
-You are given an array of integers, @ints.
-
-Write a script to return 1 if the number of occurrences of each value
-in the given array is unique or 0 otherwise.
-
-=cut
-
 use v5.32;
 use feature q(signatures);
 use common::sense;

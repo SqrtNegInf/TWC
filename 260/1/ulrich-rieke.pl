@@ -3,9 +3,7 @@ use strict ;
 use warnings ;
 use feature 'say' ;
 
-say "Enter some integers, separated by blanks!" ;
-my $line = <STDIN> ;
-chomp $line ;
+my $line = '1 2 2 1 1 3';
 my %uniques ;
 my %frequencies ;
 my @numbers = split( /\s+/ , $line ) ;

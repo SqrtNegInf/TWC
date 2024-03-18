@@ -1,5 +1,4 @@
 #!/usr/bin/env perl
-package  ch1;
 use strict;
 use warnings;
 
