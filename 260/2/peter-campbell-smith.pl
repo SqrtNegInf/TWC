@@ -4,7 +4,7 @@ use v5.26;    # The Weekly Challenge - 2024-03-11
 use warnings; # Peter Campbell Smith
 
 use Algorithm::Combinatorics 'permutations';
-use Time::HiRes 'time';
+#use Time::HiRes 'time';
 
 dictionary_rank('CAT');
 dictionary_rank('GOOGLE');;
@@ -21,7 +21,7 @@ sub dictionary_rank {
 	my ($word, @letters, $iter, $test, $count, $this, %seen, $start);
 	
 	# initialise
-	$start = time;
+#	$start = time;
 	$word = uc($_[0]);
 	@letters = split('', $word);
 	@letters = sort @letters;
@@ -41,5 +41,5 @@ sub dictionary_rank {
 	}
 	
 	say qq[\nInput:  \$word = '$word'];
-	say sprintf(qq[Output: $count (%.2f seconds)], time - $start);
+#	say sprintf(qq[Output: $count (%.2f seconds)], time - $start);
 }
