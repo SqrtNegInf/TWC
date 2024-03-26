@@ -5,7 +5,7 @@ use Test2::V0 -srand => 1234;
 use Math::Prime::Util 'divisor_sum';
 use Coro::Generator;
 
-our ($tests, $examples, $count);
+our ($tests, $examples, $count) = (1,1);
 $count ||= 8;
 
 run_tests();# if $tests || $examples;	# does not return

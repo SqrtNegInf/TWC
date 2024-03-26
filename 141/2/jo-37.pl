@@ -5,7 +5,7 @@ use Test2::V0 -srand => 1234;
 use Math::Prime::Util qw(todigits fromdigits);
 use List::MoreUtils 'indexes';
 
-our ($tests, $examples, $verbose);
+our ($tests, $examples, $verbose) = (1,1);
 
 run_tests(); # if $tests || $examples;	# does not return
 

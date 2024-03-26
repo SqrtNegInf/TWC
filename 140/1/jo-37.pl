@@ -3,7 +3,7 @@ use v5.36;
 
 use Test2::V0 -srand => 1234;
 
-our ($tests, $examples);
+our ($tests, $examples) = (1,1);
 
 run_tests();# if $tests || $examples;	# does not return
 
