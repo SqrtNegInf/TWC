@@ -1,5 +1,5 @@
 #!/usr/bin/env perl
-use v5.38;
+use v5.36;
 
 sub multiplyByTwo($start, @ints) {
   my %ints = map { $_ => 1 } @ints;

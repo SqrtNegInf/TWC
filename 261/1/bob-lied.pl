@@ -23,7 +23,7 @@
 # Example 4 Input: @ints = (236, 416, 336, 350) Output: 1296
 #=============================================================================
 
-use v5.38;
+use v5.36;
 
 use builtin qw/true false/; no warnings "experimental::builtin";
 

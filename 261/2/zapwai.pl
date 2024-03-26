@@ -1,5 +1,5 @@
 #!/usr/bin/env perl
-use v5.38;
+use v5.36;
 my @ints = (5,3,6,1,12);
 my $start = 3;
 doubles_scan(@ints);
