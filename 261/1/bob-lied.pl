@@ -8,7 +8,7 @@ my $Verbose = 0;
 my $DoTest  = 0;
 
 GetOptions("test" => \$DoTest, "verbose" => \$Verbose);
-exit(!runTest()) if $DoTest;
+runTest(); exit;
 
 say elementDigitSum(@ARGV);
 
@@ -21,7 +21,7 @@ sub elementDigitSum(@ints)
 
 sub runTest
 {
-    use Test2::V0;
+    use Test::More;
 
     is( elementDigitSum(1,2,3,45       ),   36, "Example 1");
     is( elementDigitSum(1,12,3         ),    9, "Example 2");

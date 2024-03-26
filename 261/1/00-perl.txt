@@ -18,7 +18,12 @@ ok 5 - Signed
 1..5
  
 ===> 261/1/bob-lied.pl <===
-0
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ok 4 - Example 4
+ok 5 - Empty list
+1..5
  
 ===> 261/1/dave-jacoby.pl <===
     Input:  @ints = (1,2,3,45)
