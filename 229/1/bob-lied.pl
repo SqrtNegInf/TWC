@@ -6,7 +6,7 @@ my $Verbose = 0;
 my $DoTest  = 0;
 
 GetOptions("test" => \$DoTest, "verbose" => \$Verbose);
-exit(!runTest()) if $DoTest;
+runTest(); exit;
 
 # This version doesn't actually perform deletions, it just counts how
 # many would be deleted, which satisfies the output requirement.

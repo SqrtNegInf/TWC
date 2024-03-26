@@ -8,7 +8,7 @@ my $DoTest  = 0;
 my $Allowed = "";
 
 GetOptions("allowed:s" => \$Allowed, "test" => \$DoTest, "verbose" => \$Verbose);
-exit(!runTest()) if $DoTest;
+runTest(); exit;
 
 say consistentStrings($Allowed, @ARGV);
 

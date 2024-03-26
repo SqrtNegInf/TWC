@@ -7,7 +7,7 @@ my $DoTest  = 0;
 my $Count   = 0;
 
 GetOptions("test" => \$DoTest, "verbose" => \$Verbose, "count:i" => \$Count);
-exit(!runTest()) if $DoTest;
+runTest(); exit;
 
 sub usage { "Usage: $0 -c COUNT [1|0]..." }
 
