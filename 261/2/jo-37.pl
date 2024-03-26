@@ -4,7 +4,7 @@ use v5.24;
 use Test2::V0 -srand => 1;
 use experimental 'signatures';
 
-our ($tests, $examples);
+our ($tests, $examples) = (1,1);
 
 run_tests() if $tests || $examples;	# does not return
 

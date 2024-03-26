@@ -1,11 +1,7 @@
 #!/usr/bin/env perl
 
-# Blog: http://ccgi.campbellsmiths.force9.co.uk/challenge
-
 use v5.26;    # The Weekly Challenge - 2024-03-18
-use utf8;     # Week 261 - task 2 - Multiply by 2
 use warnings; # Peter Campbell Smith
-binmode STDOUT, ':utf8';
 
 multiply_by_2([5, 3, 6, 1, 12], 3);
 multiply_by_2([1, 2, 4, 3], 1);

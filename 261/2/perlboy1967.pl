@@ -1,28 +1,7 @@
 #!/usr/bin/env perl
-
-=pod
-
-The Weekly Challenge - 261
-- https://theweeklychallenge.org/blog/perl-weekly-challenge-261
-
-Author: Niels 'PerlBoy' van Dijke
-
-Task 2: Multiply by Two
-Submitted by: Mohammad Sajid Anwar
-
-You are given an array of integers, @ints and an integer $start..
-
-Write a script to do the followings:
-
-a) Look for $start in the array @ints, if found multiply the number by 2
-b) If not found stop the process otherwise repeat
-
-In the end return the final value.
-
-=cut
-
 use v5.32;
 use feature qw(signatures);
+
 use common::sense;
 
 use Test2::V0 -srand => 1;

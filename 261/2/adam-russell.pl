@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-
-  
 use v5.36;
-
   
 sub search_multiply{
   my($start) = shift;
