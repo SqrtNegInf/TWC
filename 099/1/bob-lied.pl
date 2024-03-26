@@ -4,7 +4,7 @@ use v5.36;
 use Getopt::Long;
 my $doTest =1;
 GetOptions("test" => \$doTest);
-exit(!runTest()) if $doTest;
+runTest(); exit;
 
 sub Usage { "$0 'string' 'pattern'" }
 

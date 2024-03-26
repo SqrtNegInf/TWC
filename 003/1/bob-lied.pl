@@ -24,7 +24,7 @@ sub fiveSmooth($max)
     }
     return \@smoothNumbers;
 }
-exit(!runTest()) if $DoTest;
+runTest(); exit;
 my $smoothList = fiveSmooth($Max);
 say $_ foreach sort { $a <=> $b} @$smoothList;
 

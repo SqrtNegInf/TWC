@@ -121,7 +121,7 @@ sub Usage { "Usage: ch-2.pl 'x->y->z' N\n\t'x->y->z' is a linked list\n\tN > 1\n
 my $doTest;
 GetOptions("test!" => \$doTest);
 
-exit(!runTest());
+runTest(); exit;
 
 die Usage unless @ARGV == 2;
 

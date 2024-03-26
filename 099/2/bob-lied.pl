@@ -5,7 +5,7 @@ use Getopt::Long;
 my $doTest=1;
 my $verbose;
 GetOptions("test" => \$doTest, "verbose" => \$verbose);
-exit(!runTest()) if $doTest;
+runTest(); exit;
 
 sub Usage { "$0 'string' 'str'" }
 
