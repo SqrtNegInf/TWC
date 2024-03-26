@@ -7,7 +7,7 @@ my $Verbose = 0;
 my $DoTest  = 1;
 
 GetOptions("test" => \$DoTest, "verbose" => \$Verbose);
-exit(!runTest()) if $DoTest;
+runTest(); exit;
 
 sub wiggleSort(@list)
 {

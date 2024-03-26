@@ -9,7 +9,7 @@ my $MaxIter = 500;
 my $MaxSum  = 10_000_000;
 
 #GetOptions("test" => \$DoTest, "verbose" => \$Verbose);
-exit(!runTest()); # if $DoTest;
+runTest(); exit;
 
 sub isPalindrome($n)
 {
