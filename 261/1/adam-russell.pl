@@ -1,9 +1,6 @@
 #!/usr/bin/env perl
-
-  
 use v5.36;
 
-  
 sub element_digit_sum{
     my($integers) = [@_];
     

@@ -1,15 +1,8 @@
 #!/usr/bin/env perl
-
-# The Weekly Challenge 261 - By Nelo Tovar
-#
-# https://theweeklychallenge.org/blog/perl-weekly-challenge-261/
-#
-# Task 1 - Element Digit Sum
-#
-
+use v5.28;
 use strict;
 use warnings;
-use v5.28;
+
 use List::Util qw/sum0/;
 use Data::Dump qw(dump);
 

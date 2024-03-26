@@ -1,24 +1,8 @@
 #!/usr/bin/env perl
 
-=pod
-
-The Weekly Challenge - 261
-- https://theweeklychallenge.org/blog/perl-weekly-challenge-261
-
-Author: Niels 'PerlBoy' van Dijke
-
-Task 1: Element Digit Sum
-Submitted by: Mohammad Sajid Anwar
-
-You are given an array of integers, @ints.
-
-Write a script to evaluate the absolute difference between element
-and digit sum of the given array.
-
-=cut
-
 use v5.32;
 use feature qw(signatures);
+
 use common::sense;
 
 use Test2::V0 -srand => 1;

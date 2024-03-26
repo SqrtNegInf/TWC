@@ -1,13 +1,13 @@
 #!/usr/bin/env perl
-
 use v5.24;
-use Test2::V0 -srand => 1;
 use warnings FATAL => 'all';
-use Math::Prime::Util qw(vecreduce vecsum todigits);
-use Data::Dump qw(dd pp);
 use experimental 'signatures';
 
-our ($tests, $examples, $base);
+use Test2::V0 -srand => 1;
+use Math::Prime::Util qw(vecreduce vecsum todigits);
+use Data::Dump qw(dd pp);
+
+our ($tests, $examples, $base) = (1,1);
 $base ||= 10;
 
 run_tests() if $tests || $examples;	# does not return

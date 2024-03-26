@@ -1,0 +1,178 @@
+ 
+===> 261/1/adam-russell.pl <===
+36
+9
+0
+1296
+ 
+===> 261/1/athanasius.pl <===
+
+Challenge 261, Task #1: Element Digit Sum (Perl)
+
+Running the test suite
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ok 4 - Example 4
+ok 5 - Signed
+1..5
+ 
+===> 261/1/bob-lied.pl <===
+0
+ 
+===> 261/1/dave-jacoby.pl <===
+    Input:  @ints = (1,2,3,45)
+    Output: 36
+
+    Input:  @ints = (1,12,3)
+    Output: 9
+
+    Input:  @ints = (1,2,3,4)
+    Output: 0
+
+    Input:  @ints = (236,416,336,350)
+    Output: 1296
+
+ 
+===> 261/1/deadmarshal.pl <===
+36
+9
+0
+1296
+ 
+===> 261/1/e-choroba.pl <===
+1..4
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ok 4 - Example 4
+ 
+===> 261/1/jo-37.pl <===
+# Seeded srand with seed '1' from import arg.
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ok 4 - example 4
+ok 5 - 0b11, 0b100
+1..5
+ 
+===> 261/1/laurent-rosenfeld.pl <===
+1 2 3 45             => 36
+1 12 3               => 9
+1 2 3 4              => 0
+236 416 336 350      => 1296
+ 
+===> 261/1/lubos-kolouch.pl <===
+1..4
+ok 1 - Test Case 1
+ok 2 - Test Case 2
+ok 3 - Test Case 3
+ok 4 - Test Case 4
+ 
+===> 261/1/nelo-tovar.pl <===
+Input : @ints = (1, 2, 3, 45)
+Output : 36
+ 
+Input : @ints = (1, 12, 3)
+Output : 9
+ 
+Input : @ints = (1 .. 4)
+Output : 0
+ 
+Input : @ints = (236, 416, 336, 350)
+Output : 1296
+ 
+ 
+===> 261/1/packy-anderson.pl <===
+Example 1:
+Input: @ints = (1, 2, 3, 45)
+Output: 36
+
+Element Sum: 1 + 2 + 3 + 45 = 51
+Digit Sum: 1 + 2 + 3 + 4 + 5 = 15
+Absolute Difference: | 51 - 15 | = 36
+
+Example 2:
+Input: @ints = (1, 12, 3)
+Output: 9
+
+Element Sum: 1 + 12 + 3 = 16
+Digit Sum: 1 + 1 + 2 + 3 = 7
+Absolute Difference: | 16 - 7 | = 9
+
+Example 3:
+Input: @ints = (1, 2, 3, 4)
+Output: 0
+
+Element Sum: 1 + 2 + 3 + 4 = 10
+Digit Sum: 1 + 2 + 3 + 4 = 10
+Absolute Difference: | 10 - 10 | = 0
+
+Example 4:
+Input: @ints = (236, 416, 336, 350)
+Output: 1296
+
+Element Sum: 236 + 416 + 336 + 350 = 1338
+Digit Sum: 2 + 3 + 6 + 4 + 1 + 6 + 3 + 3 + 6 + 3 + 5 + 0 = 42
+Absolute Difference: | 1338 - 42 | = 1296
+ 
+===> 261/1/perlboy1967.pl <===
+# Seeded srand with seed '1' from import arg.
+ok 1
+ok 2
+ok 3
+ok 4
+1..4
+ 
+===> 261/1/peter-campbell-smith.pl <===
+
+Input:  @ints = (1, 2, 3, 45)
+Output: 36 (element sum = 51, digit sum = 15)
+
+Input:  @ints = (1, 12, 3)
+Output: 9 (element sum = 16, digit sum = 7)
+
+Input:  @ints = (1, 2, 3, 4)
+Output: 0 (element sum = 10, digit sum = 10)
+
+Input:  @ints = (236, 416, 336, 350)
+Output: 1296 (element sum = 1338, digit sum = 42)
+
+Input:  @ints = (41, 454, 834, 335, 565, 1, 187, 990, 750, 366, 351, 573, 132, 64, 950, 153, 584, 216, 806, 140, 622, 210, 6, 573, 932, 340, 891, 593, 392, 899, 694, 228, 962, 12, 110, 884, 116, 750, 296, 646, 426, 500, 314, 436, 660, 702, 774, 813, 319, 982)
+Output: 23967 (element sum = 24574, digit sum = 607)
+ 
+===> 261/1/peter-meszaros.pl <===
+# Seeded srand with seed '1' from import arg.
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ok 4 - Example 4
+1..4
+ 
+===> 261/1/roger-bell-west.pl <===
+1..4
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ok 4 - example 4
+ 
+===> 261/1/spadacciniweb.pl <===
+(1,2,3,45) -> 36
+(1,12,3) -> 9
+(1,2,3,4) -> 0
+(236,416,336,350) -> 1296
+ 
+===> 261/1/wanderdoc.pl <===
+# Seeded srand with seed '1' from import arg.
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ok 4 - Example 4
+1..4
+ 
+===> 261/1/wlmb.pl <===
+1 2 3 45 -> 36
+ 
+===> 261/1/zapwai.pl <===
+Input: 1 2 3 45
+Output: 36
