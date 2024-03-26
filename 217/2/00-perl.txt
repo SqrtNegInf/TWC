@@ -3,6 +3,16 @@
 Output: 65341511320
  
 ===> 217/2/bob-lied.pl <===
+# Seeded srand with seed '20240326' from local date.
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ok 4 - Example 4
+ok 5 - Example 5
+ok 6 - Example 6
+ok 7 - With a 0
+ok 8 - All zero
+1..8
  
 ===> 217/2/bruce-gray.pl <===
 1..10

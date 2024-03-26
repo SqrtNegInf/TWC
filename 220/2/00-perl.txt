@@ -12,6 +12,13 @@ ok 5 - Out-of-order
 1..5
  
 ===> 220/2/bob-lied.pl <===
+# Seeded srand with seed '20240326' from local date.
+ok 1 - isSquare no
+ok 2 - isSquare yes
+ok 3 - pairSum
+ok 4 - Example 1
+ok 5 - Example 2
+1..5
  
 ===> 220/2/bruce-gray.pl <===
 1..14

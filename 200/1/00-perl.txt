@@ -28,7 +28,6 @@ ok 4 - No runs of 3
 ok 5 - Non-monotonic
 ok 6 - Negative difference
 1..6
-
  
 ===> 200/1/cheok-yin-fung.pl <===
 1,2,3

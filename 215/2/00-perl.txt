@@ -22,7 +22,18 @@ ok 3 - works for 3, (1,0,0,0,0,0,0,0,1)
 ok 4 - works for 4, (1,0,0,0,0,0,0,0,1,0,0,0,1)
  
 ===> 215/2/bob-lied.pl <===
-Usage: ./bob-lied.pl -c COUNT [1|0]...
+# Seeded srand with seed '20240326' from local date.
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ok 4 - Small fail
+ok 5 - Small success
+ok 6 - Too small
+ok 7 - No cigar
+ok 8 - Two cigars
+ok 9 - Four cigars
+ok 10 - Don't get greedy
+1..10
  
 ===> 215/2/carlos-oliveira.pl <===
 ok 1

@@ -7,8 +7,21 @@ Array: [ 2, 23, 42, 18, 30, 5, 14, 49, 39, 24, 9, 33, 17, 15, 48, 20, 35, 10, 43
 Peak:  [ 42, 30, 49, 33, 48, 35, 43 ]
  
 ===> 071/1/bob-lied.pl <===
-Array: 3,24,43,17,30,1,11,50,38,20,19,31,8,5,48,10,32,14,41,9
-Peaks: 43,30,50,31,48,32,41
+ok 1 - Make random array size  10
+ok 2 - Random array unique elements
+ok 3 - two elements, left
+ok 4 - two elements, right
+ok 5 - three elements, first
+ok 6 - three elements, middle
+ok 7 - three elements, last
+ok 8 - three elements, both ends
+ok 9 - even \# elements, middle peak 
+ok 10 - even \# elements, both ends 
+ok 11 - odd \# elements, both ends 
+ok 12 - odd \# elements, middle peaks
+ok 13 - example 1
+ok 14 - example 2
+1..14
  
 ===> 071/1/cheok-yin-fung.pl <===
 Array: [ 3, 23, 42, 17, 29, 1, 10, 50, 38, 19]

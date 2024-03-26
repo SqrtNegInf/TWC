@@ -15,7 +15,12 @@ ok 6 - Example 3: consistent strings
 1..6
  
 ===> 239/2/bob-lied.pl <===
-0
+# Seeded srand with seed '20240326' from local date.
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ok 4 - Nothing allowed
+1..4
  
 ===> 239/2/cheok-yin-fung.pl <===
 1..3

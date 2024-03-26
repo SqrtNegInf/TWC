@@ -15,7 +15,11 @@ ok 3 - Example 3
 1..3
  
 ===> 260/1/bob-lied.pl <===
-1
+# Seeded srand with seed '20240326' from local date.
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+1..3
  
 ===> 260/1/dave-jacoby.pl <===
     Input:  $ints = (1,2,2,1,1,3)
