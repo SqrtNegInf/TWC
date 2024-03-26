@@ -1,8 +1,9 @@
 #!/usr/bin/env raku
+
 multi sub task2 (      0, @ns --> Int ) {
     return 0 if 0 ∉ @ns;
 
-    warn "Infinite loop avoided; no doubling of startpoint (0) will ever fall outside of the given @ns: ({@ns})";
+    say "Infinite loop avoided; no doubling of startpoint (0) will ever fall outside of the given @ns: ({@ns})";
     return Nil;
 }
 multi sub task2 ( $start, @ns --> Int ) {

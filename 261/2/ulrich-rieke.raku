@@ -1,11 +1,7 @@
 #!/usr/bin/env raku
-use v6 ;
 
-say "Enter some integers, separated by blanks!" ;
-my $line = $*IN.get ;
-my @numbers = $line.words.map( {.Int} ) ;
-say "Enter a start number!" ;
-my $startn = $*IN.get ;
+my @numbers = (5, 3, 6, 1, 12);
+my $startn = 3;
 my $start = +$startn ;
 my $found = $start ;
 while ( so $found == @numbers.any ) {

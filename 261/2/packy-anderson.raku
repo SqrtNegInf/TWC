@@ -1,5 +1,4 @@
 #!/usr/bin/env raku
-use v6;
 
 sub multiplyByTwo(@ints, $s) {
   my $start = $s; # so we can modify the value

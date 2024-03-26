@@ -1,12 +1,4 @@
 #!/usr/bin/env raku
-# Solution to the Task 2 of The Weekly Challenge 261
-# https://theweeklychallenge.org/blog/perl-weekly-challenge-261/#TASK2
-
-# Test run:
-# $ raku ch-2.raku
-# 24
-# 8
-# 2
 
 my @tests = 
     ((5,3,6,1,12), 3),
