@@ -1,4 +1,5 @@
 #!/usr/bin/env raku
+
 sub element-digit-sum (@in) {
     return (@in.sum - @in.map({.comb}).flat.sum).abs;
 }

@@ -1,0 +1,120 @@
+ 
+===> 261/1/0rir.raku <===
+1..20
+ok 1 - 0	<- 1 2 3 4
+ok 2 - 0	<- 0 1 2 3 4
+ok 3 - 9	<- 1 12 3
+ok 4 - 36	<- 1 2 3 45
+ok 5 - 1296	<- 236 416 336 350
+ok 6 - 9	<- 1 2 3 15
+ok 7 - -9	<- -1 -2 -3 -15
+ok 8 - -9	<- 1 2 3 -15
+ok 9 - -9	<- 0 1 2 3 -15
+ok 10 - 648	<- 236 416 -336 350
+
+Input: $ints = $(1, 2, 3, -15)
+Output: -21
+ 
+===> 261/1/arne-sommer.raku <===
+36
+ 
+===> 261/1/ash.raku <===
+36
+9
+0
+ 
+===> 261/1/asherbhs.raku <===
+36
+9
+0
+1296
+ 
+===> 261/1/athanasius.raku <===
+
+Challenge 261, Task #1: Element Digit Sum (Raku)
+
+Running the test suite
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ok 4 - Example 4
+ok 5 - Signed
+1..5
+ 
+===> 261/1/barroff.raku <===
+0
+ 
+===> 261/1/bruce-gray.raku <===
+1..4
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ok 4 - 
+ 
+===> 261/1/feng-chang.raku <===
+36
+ 
+===> 261/1/laurent-rosenfeld.raku <===
+1 2 3 45             => 36
+1 12 3               => 9
+1 2 3 4              => 0
+236 416 336 350      => 1296
+ 
+===> 261/1/luca-ferrari.raku <===
+36
+ 
+===> 261/1/mark-anderson.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ok 4 - 
+ 
+===> 261/1/packy-anderson.raku <===
+Example 1:
+Input: @ints = (1, 2, 3, 45)
+Output: 36
+
+Element Sum: 1 + 2 + 3 + 45 = 51
+Digit Sum: 1 + 2 + 3 + 4 + 5 = 15
+Absolute Difference: | 51 - 15 | = 36
+
+Example 2:
+Input: @ints = (1, 12, 3)
+Output: 9
+
+Element Sum: 1 + 12 + 3 = 16
+Digit Sum: 1 + 1 + 2 + 3 = 7
+Absolute Difference: | 16 - 7 | = 9
+
+Example 3:
+Input: @ints = (1, 2, 3, 4)
+Output: 0
+
+Element Sum: 1 + 2 + 3 + 4 = 10
+Digit Sum: 1 + 2 + 3 + 4 = 10
+Absolute Difference: | 10 - 10 | = 0
+
+Example 4:
+Input: @ints = (236, 416, 336, 350)
+Output: 1296
+
+Element Sum: 236 + 416 + 336 + 350 = 1338
+Digit Sum: 2 + 3 + 6 + 4 + 1 + 6 + 3 + 3 + 6 + 3 + 5 + 0 = 42
+Absolute Difference: | 1338 - 42 | = 1296
+ 
+===> 261/1/roger-bell-west.raku <===
+1..4
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ok 4 - example 4
+ 
+===> 261/1/ulrich-rieke.raku <===
+36
+ 
+===> 261/1/wambash.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ok 4 - 
+1..4

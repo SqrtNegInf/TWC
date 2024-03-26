@@ -1,7 +1,5 @@
 #!/usr/bin/env raku
 
-use v6.d;
-
 sub element-digit-sum(@ints --> Int:D) {
     sum(@ints) - sum(map({ sum($_.Str.comb.map: -> $x { $x.Int}) }, @ints))
 }

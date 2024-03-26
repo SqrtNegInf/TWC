@@ -1,4 +1,5 @@
 #!/usr/bin/env raku
+
 multi sub task1 ( @ns where @ns.all >= 0 --> UInt ) { 
     return abs( @ns.sum - @ns.join.comb.sum );
 }

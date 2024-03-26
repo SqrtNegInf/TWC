@@ -1,5 +1,4 @@
 #!/usr/bin/env raku
-use v6;
 
 sub elementDigitSum(@ints) {
   # [+] sums all the elements of @ints
