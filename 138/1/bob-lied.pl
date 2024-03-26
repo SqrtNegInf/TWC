@@ -38,7 +38,7 @@ my @extraDays = (
 );
 
 #GetOptions("test" => \$DoTest, "verbose" => \$Verbose);
-exit(!runTest()); #if $DoTest;
+runTest(); exit;
 
 my $Year = shift;
 die "Usage: $0 YYYY" unless $Year;

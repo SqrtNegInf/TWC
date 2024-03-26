@@ -6,7 +6,7 @@ my $doTest = 1;
 my $verbose = 0;
 GetOptions("test" => \$doTest, "verbose" => \$verbose);
 
-exit(!runTest()) if $doTest;
+runTest(); exit;
 
 # Take list from command line args
 sub Usage() { "$0 n1 n2 n3 ..." };
