@@ -9,7 +9,7 @@ my $Verbose = 0;
 my $DoTest  = 1;
 
 GetOptions("test" => \$DoTest, "verbose" => \$Verbose);
-runTest() if $DoTest;
+runTest();exit;
 
 sub isMonotonic($array)
 {

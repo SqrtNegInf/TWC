@@ -3,7 +3,7 @@ use v5.36;
 
 use Getopt::Long;
 
-sub runTests
+sub runTest
 {
     use Test::More;
 
@@ -47,7 +47,7 @@ GetOptions('test!' => \$doTest);
 
 my $infh;
 
-exit(!runTests()); # if $doTest;
+runTest(); exit;
 
 my ($File, $A, $B) = @ARGV;
 

@@ -29,7 +29,7 @@ sub factorial
     return _fact($n, $n-1);
 }
 
-sub runTests
+sub runTest
 {
     use Test::More;
 
@@ -69,7 +69,7 @@ sub runTests
 my $doTest;
 GetOptions('test!' => \$doTest);
 
-exit(!runTests());
+exit(!runTest());
 
 die Usage unless scalar(@ARGV) == 1;
 

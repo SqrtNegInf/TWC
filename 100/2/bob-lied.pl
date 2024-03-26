@@ -8,7 +8,7 @@ GetOptions('test' => \$DoTest, 'verbose' => \$Verbose);
 
 use List::Util qw(min);
 
-runTest() if $DoTest;
+runTest();exit;
 
 my $minSum;
 sub walk($tree, $lastRow, $row, $col, $sum)

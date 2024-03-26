@@ -55,7 +55,7 @@ sub checkUniq
     return $notUnique == 0;
 }
 
-sub runTests
+sub runTest
 {
     use Test::More;
     is( scalar(makeArray(1, 50, 10)), 10, "Make random array size  10");
@@ -85,7 +85,7 @@ sub runTests
 my $doTest;
 GetOptions('test!' => \$doTest);
 
-exit(!runTests()) if $doTest;
+runTest(); exit;
 
 my $N = $ARGV[0] // 20;
 die Usage() unless $N > 1;

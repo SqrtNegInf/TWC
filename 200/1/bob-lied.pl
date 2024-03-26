@@ -10,7 +10,7 @@ my $DoTest  = 1;
 use constant MINLENGTH => 3;
 
 GetOptions("test" => \$DoTest, "verbose" => \$Verbose);
-runTest() if $DoTest;
+runTest(); exit;
 
 die "All args should be numeric" unless all { $_ =~ m/-?\d+/ } @ARGV;
 
