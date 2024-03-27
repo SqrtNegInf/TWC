@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-use v5.28;
-use strict;
-use warnings;
+use v5.36;
 
 use List::Util qw/uniqint/;
 use Data::Dump qw(dump);
