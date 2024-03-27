@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-#package ch2;
-
-use strict;
-use warnings;
+use v5.36;
 
 use List::Util qw(reduce);
 

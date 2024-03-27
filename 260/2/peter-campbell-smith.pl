@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-
-use v5.26;    # The Weekly Challenge - 2024-03-11
-use warnings; # Peter Campbell Smith
+use v5.36;
 
 use Algorithm::Combinatorics 'permutations';
 #use Time::HiRes 'time';
