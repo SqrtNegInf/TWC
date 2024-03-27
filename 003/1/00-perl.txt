@@ -53,11 +53,8 @@
  
 ===> 003/1/bob-lied.pl <===
 ok 1 - max = 2
-not ok 2 - max = 3
-not ok 3 - max = 5
-not ok 4 - max = 10
-not ok 5 - max = 20
-1..5
+ok 2 - max = 3
+1..2
  
 ===> 003/1/daniel-mantovani.pl <===
 1	1
