@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-use v5.24;
-use warnings FATAL => 'all';
-use experimental 'signatures';
+use v5.36;
 
 use Test2::V0 -srand => 1;
 use Math::Prime::Util qw(vecreduce vecsum todigits);
