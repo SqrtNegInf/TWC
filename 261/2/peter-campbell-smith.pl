@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-
-use v5.26;    # The Weekly Challenge - 2024-03-18
-use warnings; # Peter Campbell Smith
+use v5.36;
 
 multiply_by_2([5, 3, 6, 1, 12], 3);
 multiply_by_2([1, 2, 4, 3], 1);
