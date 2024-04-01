@@ -25,7 +25,7 @@ sub commonCharacters($list)
 
 sub runTest
 {
-    use Test2::V0;
+    use Test2::V0 -srand => 1;
 
     is(commonCharacters( [ qw(Perl Rust Raku) ] ), [ qw(r) ], "Example 1");
     is(commonCharacters( [ qw(love live leave)] ), [ qw(e l v) ], "Example 1");

@@ -43,7 +43,7 @@ sub numberPlacement($list, $count)
 
 sub runTest
 {
-    use Test2::V0;
+    use Test2::V0 -srand => 1;
 
     is(numberPlacement([1,0,0,0,1],         1), 1, "Example 1");
     is(numberPlacement([1,0,0,0,1],         2), 0, "Example 2");

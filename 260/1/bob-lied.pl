@@ -24,7 +24,7 @@ sub uniqOcc(@ints)
 
 sub runTest
 {
-    use Test2::V0;
+    use Test2::V0 -srand => 1;
 
     is( uniqOcc(1,2,2,1,1,3),            1, "Example 1");
     is( uniqOcc(1,2,3)      ,            0, "Example 2");

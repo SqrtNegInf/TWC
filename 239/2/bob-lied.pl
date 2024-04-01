@@ -23,7 +23,7 @@ sub consistentStrings($allowed, @str)
 
 sub runTest
 {
-    use Test2::V0;
+    use Test2::V0  -srand => 1;
 
     is( consistentStrings("ab",  qw(ad bd aaab baa badab")   ), 2, "Example 1");
     is( consistentStrings("abc", qw(a b c ab ac bc abc)      ), 7, "Example 2");

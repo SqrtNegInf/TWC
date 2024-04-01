@@ -43,7 +43,7 @@ sub lexicographicOrder(@str)
 
 sub runTest
 {
-    use Test2::V0;
+    use Test2::V0 -srand => 1;
 
     is( lexicographicOrderCount("abc", "bce", "cae"), 1, "Example 1 count only");
     is( lexicographicOrderCount("yxz", "cba", "mon"), 2, "Example 2 count only");

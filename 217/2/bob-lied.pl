@@ -17,7 +17,7 @@ sub maxNumber(@list)
 
 sub runTest
 {
-    use Test2::V0;
+    use Test2::V0  -srand => 1;
 
     is( maxNumber(1, 23         ),    231, 'Example 1');
     is( maxNumber(10, 3, 2      ),   3210, 'Example 2');

@@ -32,7 +32,7 @@ sub dictOrder($word)
 
 sub runTest
 {
-    use Test2::V0;
+    use Test2::V0  -srand => 1;
 
     is( dictOrder("CAT"),      3, "Example 1");
     is( dictOrder("GOOGLE"),  88, "Example 2");

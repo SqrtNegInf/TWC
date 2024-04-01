@@ -40,7 +40,7 @@ sub arrayLoops(@ints)
 
 sub runTest
 {
-    use Test2::V0;
+    use Test2::V0  -srand => 1;
 
     is( arrayLoops( 4,6,3,8,15,0,13,18,7,16,14,19,17,5,11,1,12,2,9,10),
         3, "Example 1");

@@ -47,7 +47,7 @@ sub squareful(@ints)
 
 sub runTest
 {
-    use Test2::V0;
+    use Test2::V0  -srand => 1;
 
     is( isSquare(6), '', "isSquare no");
     is( isSquare(16), 1, "isSquare yes");
