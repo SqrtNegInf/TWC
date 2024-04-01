@@ -1,9 +1,8 @@
 #!/usr/bin/env perl
-
-srand 1;
-
 use v5.26;    # The Weekly Challenge - 2024-03-25
 use warnings; # Peter Campbell Smith
+
+srand 1;
 
 my (@ints, $j, $num);
 

@@ -1,0 +1,171 @@
+ 
+===> 262/1/adam-russell.pl <===
+Count of positive integers: 4
+Count of negative integers: 3
+Maximum of count of positive and negative integers: 4
+
+Count of positive integers: 1
+Count of negative integers: 3
+Maximum of count of positive and negative integers: 3
+
+Count of positive integers: 2
+Count of negative integers: 0
+Maximum of count of positive and negative integers: 2
+ 
+===> 262/1/athanasius.pl <===
+
+Challenge 262, Task #1: Max Positive Negative (Perl)
+
+Running the test suite
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ok 4 - Duplicates 1
+ok 5 - Duplicates 2
+ok 6 - Zeros 1
+ok 7 - Zeros 2
+1..7
+ 
+===> 262/1/barroff.pl <===
+# Seeded srand with seed '20240401' from local date.
+1..3
+ok 1 - works for (-3, 1, 2, -1, 3, -2, 4)
+ok 2 - works for (-1, -2, -3, 1)
+ok 3 - works for (1, 2)
+ 
+===> 262/1/cheok-yin-fung.pl <===
+1..4
+ok 1
+ok 2
+ok 3
+ok 4
+ 
+===> 262/1/dave-jacoby.pl <===
+    Input:  @ints = (-3,1,2,-1,3,-2,4)
+    Output: 4
+
+    Input:  @ints = (-1,-2,-3,1)
+    Output: 3
+
+    Input:  @ints = (1,2)
+    Output: 2
+
+ 
+===> 262/1/deadmarshal.pl <===
+4
+3
+2
+ 
+===> 262/1/e-choroba.pl <===
+1..4
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ok 4 - Zeros not counted
+ 
+===> 262/1/jo-37.pl <===
+# Seeded srand with seed '1' from import arg.
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+1..3
+ 
+===> 262/1/laurent-rosenfeld.pl <===
+-3 1 2 -1 3 -2 4     => 4
+-1 -2 -3 1           => 3
+1 2                  => 2
+ 
+===> 262/1/lubos-kolouch.pl <===
+ 
+===> 262/1/nelo-tovar.pl <===
+Input : @ints = (-3, 1, 2, -1, 3, -2, 4)
+Output : 4
+ 
+Input : @ints = (-1, -2, -3, 1)
+Output : 3
+ 
+Input : @ints = (1, 2)
+Output : 2
+ 
+ 
+===> 262/1/packy-anderson.pl <===
+Example 1:
+Input: @arr = (-3, 1, 2, -1, 3, -2, 4)
+Output: 4
+
+Count of positive integers: 4
+Count of negative integers: 3
+Maximum of count of positive and negative integers: 4
+
+Example 2:
+Input: @arr = (-1, -2, -3, 1)
+Output: 3
+
+Count of positive integers: 1
+Count of negative integers: 3
+Maximum of count of positive and negative integers: 3
+
+Example 3:
+Input: @arr = (1, 2)
+Output: 2
+
+Count of positive integers: 2
+Count of negative integers: 0
+Maximum of count of positive and negative integers: 2
+ 
+===> 262/1/peter-campbell-smith.pl <===
+
+Input:  @ints = (-3, 1, 2, -1, 3, -2, 4)
+Output: 4 (3 negative, 4 positive)
+
+Input:  @ints = (-1, -2, -3, 1)
+Output: 3 (3 negative, 1 positive)
+
+Input:  @ints = (1, 2)
+Output: 2 (0 negative, 2 positive)
+
+Input:  @ints = (-46, -5, 33, -17, 6, -50, -32, 49, 25, -14, -15, 7, -37, -44, 45, -35, 8, -29, 30, -36, 12, -29, -50, 7, 43, -16, 39, 9, -11, 39, 19, -28, 46, -49, -39, 38, -39, 25, -21, 14, -8, -19, -7, 16, 20, 27, 31, -19, 48, 17, -35, 37, 19, -13, 6, -3, -23, 43, -25, 4, 14, 6, -30, -42, -22, 20, 25, 17, 10, -13, 1, 5, 15, 43, -31, 9, -42, 6, -24, 45, -28, 30, -17, 8, 44, 14, 40, -14, -26, -2, 41, -18, 32, -19, 43, 9, 48, -12, -31, 4)
+Output: 54 (46 negative, 54 positive)
+ 
+===> 262/1/peter-meszaros.pl <===
+# Seeded srand with seed '1' from import arg.
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+1..3
+ 
+===> 262/1/reinier-maliepaard.pl <===
+max positive integers: 4
+max negative integers: 3
+max positive integers: 2
+ 
+===> 262/1/roger-bell-west.pl <===
+1..3
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ 
+===> 262/1/sgreen.pl <===
+0
+ 
+===> 262/1/spadacciniweb.pl <===
+(-3,1,2,-1,3,-2,4) -> 4
+(-1,-2,-3,1) -> 3
+(1,2) -> 2
+ 
+===> 262/1/ulrich-rieke.pl <===
+4
+ 
+===> 262/1/wanderdoc.pl <===
+# Seeded srand with seed '1' from import arg.
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+1..3
+ 
+===> 262/1/wlmb.pl <===
+-3 1 2 -1 3 -2 4 -> 4
+ 
+===> 262/1/zapwai.pl <===
+Input: (-3, 1, 2, -1, 3, -2, 4)
+Output: 4

@@ -1,6 +1,8 @@
 #!/usr/bin/env perl
-use v5.38;
+use v5.36;
+
 use List::Util qw( max );
+
 my @ints = (-3, 1, 2, -1, 3, -2, 4);
 say "Input: (" . join(", ", @ints) . ")";
 my ($neg, $pos) = (0, 0);
