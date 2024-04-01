@@ -1,4 +1,5 @@
 #!/usr/bin/env raku
+
 use Test;
 
 is max-pos-int(-3,1,2,-1,3,-2,4), 4;

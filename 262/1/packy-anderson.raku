@@ -1,5 +1,4 @@
 #!/usr/bin/env raku
-use v6;
 
 sub maxPosNeg(@ints) {
   my $pos = [+] @ints.map({ $_ > 0 ?? 1 !! 0 });

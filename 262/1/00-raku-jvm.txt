@@ -1,0 +1,113 @@
+ 
+===> 262/1/0rir.raku <===
+1..11
+ok 1 - 4 <- -3 -2 -1 1 2 3 4
+ok 2 - 3 <- -3 -2 -1 1
+ok 3 - 2 <- 1 2
+ok 4 - 1 <- -2 2
+ok 5 - 1 <- -2
+ok 6 - 1 <- 2
+ok 7 - 2 <- 0 1 1
+ok 8 - 1 <- -1 0 0 0 1
+ok 9 - 2 <- 0 0 0 1 1
+ok 10 - 0 <- 0 0 0 0 0
+ok 11 - 0 <- 
+
+Input: @in = [-3, 1, 2, -1, 3, -2, 4]
+Output: 4
+ 
+===> 262/1/arne-sommer.raku <===
+4
+ 
+===> 262/1/ash.raku <===
+4
+3
+2
+ 
+===> 262/1/asherbhs.raku <===
+4
+3
+2
+ 
+===> 262/1/athanasius.raku <===
+
+Challenge 262, Task #1: Max Positive Negative (Raku)
+
+Running the test suite
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ok 4 - Duplicates 1
+ok 5 - Duplicates 2
+ok 6 - Zeros 1
+ok 7 - Zeros 2
+1..7
+ 
+===> 262/1/barroff.raku <===
+1..3
+ok 1 - works for (-3, 1, 2, -1, 3, -2, 4)
+ok 2 - works for (-1, -2, -3, 1)
+ok 3 - works for (1, 2)
+ 
+===> 262/1/bruce-gray.raku <===
+1..3
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ 
+===> 262/1/feng-chang.raku <===
+4
+ 
+===> 262/1/laurent-rosenfeld.raku <===
+-3 1 2 -1 3 -2 4     => 4
+-1 -2 -3 1           => 3
+1 2                  => 2
+ 
+===> 262/1/luca-ferrari.raku <===
+4
+ 
+===> 262/1/mark-anderson.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ok 4 - 
+ 
+===> 262/1/packy-anderson.raku <===
+Example 1:
+Input: @arr = (-3, 1, 2, -1, 3, -2, 4)
+Output: 4
+
+Count of positive integers: 4
+Count of negative integers: 3
+Maximum of count of positive and negative integers: 4
+
+Example 2:
+Input: @arr = (-1, -2, -3, 1)
+Output: 3
+
+Count of positive integers: 1
+Count of negative integers: 3
+Maximum of count of positive and negative integers: 3
+
+Example 3:
+Input: @arr = (1, 2)
+Output: 2
+
+Count of positive integers: 2
+Count of negative integers: 0
+Maximum of count of positive and negative integers: 2
+ 
+===> 262/1/roger-bell-west.raku <===
+1..3
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ 
+===> 262/1/ulrich-rieke.raku <===
+4
+ 
+===> 262/1/wambash.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+1..3

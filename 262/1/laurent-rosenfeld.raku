@@ -1,4 +1,5 @@
 #!/usr/bin/env raku
+
 sub max-pos-neg (@in) {
     (@in.grep({$_ > 0}).elems, @in.grep({$_ < 0}).elems).max;
 }
