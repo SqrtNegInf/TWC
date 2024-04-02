@@ -22,7 +22,7 @@ ok 3 - works for 3, (1,0,0,0,0,0,0,0,1)
 ok 4 - works for 4, (1,0,0,0,0,0,0,0,1,0,0,0,1)
  
 ===> 215/2/bob-lied.pl <===
-# Seeded srand with seed '20240326' from local date.
+# Seeded srand with seed '1' from import arg.
 ok 1 - Example 1
 ok 2 - Example 2
 ok 3 - Example 3

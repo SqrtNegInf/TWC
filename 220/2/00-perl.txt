@@ -12,7 +12,7 @@ ok 5 - Out-of-order
 1..5
  
 ===> 220/2/bob-lied.pl <===
-# Seeded srand with seed '20240326' from local date.
+# Seeded srand with seed '1' from import arg.
 ok 1 - isSquare no
 ok 2 - isSquare yes
 ok 3 - pairSum

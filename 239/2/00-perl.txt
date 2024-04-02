@@ -15,7 +15,7 @@ ok 6 - Example 3: consistent strings
 1..6
  
 ===> 239/2/bob-lied.pl <===
-# Seeded srand with seed '20240326' from local date.
+# Seeded srand with seed '1' from import arg.
 ok 1 - Example 1
 ok 2 - Example 2
 ok 3 - Example 3

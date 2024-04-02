@@ -21,7 +21,7 @@ ok 1 - works for ("abc", "bce", "cae")
 ok 2 - works for ("yxz", "cba", "mon")
  
 ===> 229/1/bob-lied.pl <===
-# Seeded srand with seed '20240326' from local date.
+# Seeded srand with seed '1' from import arg.
 ok 1 - Example 1 count only
 ok 2 - Example 2 count only
 ok 3 - Example 1 count
