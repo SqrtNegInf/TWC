@@ -10,13 +10,11 @@ sub count-equal-divisible (+ints,:$k) {
     andthen .elems
 }
 
-multi MAIN (Bool :test($)!) {
+#multi MAIN (Bool :test($)!) {
     use Test;
     is count-equal-divisible(3,1,2,2,2,1,3):2k,4;
     is count-equal-divisible(1,2,3):1k,0;
     done-testing;
-}
+#}
 
-multi MAIN (+ints,Int :$k) {
-    say count-equal-divisible ints,:$k
-}
+#multi MAIN (+ints,Int :$k) { say count-equal-divisible ints,:$k }

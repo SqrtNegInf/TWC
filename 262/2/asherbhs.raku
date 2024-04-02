@@ -1,4 +1,5 @@
 #!/usr/bin/env raku
+
 sub count-equal-divisible(Int:D @ints, Int:D $k --> Int:D) {
 	my $n = 0;
 	for 0 ..^ @ints -> $i {

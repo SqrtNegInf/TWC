@@ -1,4 +1,5 @@
 #!/usr/bin/env raku
+
 sub count-equal-div ($divisor where * != 0, @in) {
     my $count = 0;
     for 0..^@in.end -> $i {

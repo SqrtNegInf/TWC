@@ -1,14 +1,9 @@
 #!/usr/bin/env raku
 
-#
-# Perl Weekly Challenge 262
-# Task 2
-#
-# See <https://perlweeklychallenge.org/blog/perl-weekly-challenge-262>
-#
-
-sub MAIN( Int $k where { $k != 0 },
-	  *@nums where { @nums.grep( * ~~ Int ).elems == @nums.elems } ) {
+#sub MAIN( Int $k where { $k != 0 },
+#	  *@nums where { @nums.grep( * ~~ Int ).elems == @nums.elems } ) {
+my $k = 2;
+my @nums = (3,1,2,2,2,1,3);
 
     my @pairs;
 
@@ -21,4 +16,4 @@ sub MAIN( Int $k where { $k != 0 },
     }
 
     @pairs.elems.say;
-}
+#}

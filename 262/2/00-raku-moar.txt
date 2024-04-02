@@ -1,0 +1,91 @@
+ 
+===> 262/2/0rir.raku <===
+1..5
+ok 1 - 4 <- 2 «- (3, 1, 2, 2, 2, 1, 3)
+ok 2 - 0 <- 1 «- (1, 2, 3)
+ok 3 - 0 <- 1 «- ()
+ok 4 - 0 <- 0 «- (1,)
+ok 5 - 3 <- 1 «- (0, 0, 0)
+Input: @ints = 1 1 1 1 1 3 3 3 and $k = 3
+ Output: 9
+ 
+===> 262/2/arne-sommer.raku <===
+3
+ 
+===> 262/2/ash.raku <===
+4
+ 
+===> 262/2/asherbhs.raku <===
+4
+0
+ 
+===> 262/2/athanasius.raku <===
+
+Challenge 262, Task #2: Count Equal Divisible (Raku)
+
+Running the test suite
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Negative $k 1
+ok 4 - Negative $k 2
+ok 5 - Negative ints 1
+ok 6 - Negative ints 2
+1..6
+ 
+===> 262/2/barroff.raku <===
+1..2
+ok 1 - works for 2 and (3, 1, 2, 2, 2, 1, 3)
+ok 2 - works for 1 and (1,2,3)
+ 
+===> 262/2/bruce-gray.raku <===
+1..7
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ok 4 - 
+ok 5 - 
+ok 6 - 
+ok 7 - 
+ 
+===> 262/2/feng-chang.raku <===
+2
+ 
+===> 262/2/laurent-rosenfeld.raku <===
+2 - 3 1 2 2 2 1 3   => 4
+1 - 1 2 3           => 0
+ 
+===> 262/2/luca-ferrari.raku <===
+4
+ 
+===> 262/2/mark-anderson.raku <===
+ok 1 - 
+ok 2 - 
+ 
+===> 262/2/packy-anderson.raku <===
+Example 1:
+Input: @arr = (3, 1, 2, 2, 2, 1, 3) and $k = 2
+Output: 4
+
+(0, 6) => ints[0] == ints[6] and 0 x 6 is divisible by 2
+(2, 3) => ints[2] == ints[3] and 2 x 3 is divisible by 2
+(2, 4) => ints[2] == ints[4] and 2 x 4 is divisible by 2
+(3, 4) => ints[3] == ints[4] and 3 x 4 is divisible by 2
+
+Example 2:
+Input: @arr = (1, 2, 3) and $k = 1
+Output: 0
+
+
+ 
+===> 262/2/roger-bell-west.raku <===
+1..2
+ok 1 - example 1
+ok 2 - example 2
+ 
+===> 262/2/ulrich-rieke.raku <===
+4
+ 
+===> 262/2/wambash.raku <===
+ok 1 - 
+ok 2 - 
+1..2
