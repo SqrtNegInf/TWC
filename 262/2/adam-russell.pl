@@ -1,5 +1,5 @@
 #!/usr/bin/env perl
-use v5.38;
+use v5.36;
 
 sub count_equal_divisible{
     my($integers, $k, $i, $j, $equal_divisible) = @_;
