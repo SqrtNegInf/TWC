@@ -1,15 +1,8 @@
 #!/usr/bin/env perl
-
-# The Weekly Challenge 262 - By Nelo Tovar
-#
-# https://theweeklychallenge.org/blog/perl-weekly-challenge-262/
-#
-# Task 2 - Count Equal Divisible
-#
-
+use v5.28;
 use strict;
 use warnings;
-use v5.28;
+
 use Data::Dump qw(dump);
 
 my @examples = (

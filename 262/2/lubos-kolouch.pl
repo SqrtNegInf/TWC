@@ -1,9 +1,9 @@
 #!/usr/bin/env perl
+use v5.36;
 use strict;
 use warnings;
 
-
-package Ch2;
+#package Ch2;
 use Carp;
 
 sub count_equal_divisible {
@@ -22,8 +22,5 @@ sub count_equal_divisible {
     return $count;
 }
 
-# Assert tests
-croak "Test failed!" unless count_equal_divisible([3, 1, 2, 2, 2, 1, 3], 2) == 4;
-croak "Test failed!" unless count_equal_divisible([1, 2, 3], 1) == 0;
-
-1;
+say count_equal_divisible([3, 1, 2, 2, 2, 1, 3], 2);
+say count_equal_divisible([1, 2, 3], 1);

@@ -1,0 +1,117 @@
+ 
+===> 262/2/adam-russell.pl <===
+4:  [0, 6] [2, 3] [2, 4] [3, 4]
+ 
+===> 262/2/athanasius.pl <===
+
+Challenge 262, Task #2: Count Equal Divisible (Perl)
+
+Running the test suite
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Negative $k 1
+ok 4 - Negative $k 2
+ok 5 - Negative ints 1
+ok 6 - Negative ints 2
+1..6
+ 
+===> 262/2/bob-lied.pl <===
+ok 1 - Example 1
+ok 2 - Example 2
+1..2
+ 
+===> 262/2/cheok-yin-fung.pl <===
+1..3
+ok 1
+ok 2
+ok 3
+ 
+===> 262/2/dave-jacoby.pl <===
+    Input: @ints = (3,1,2,2,2,1,3) and $k = 2
+    Output: 4
+
+    Input: @ints = (1,2,3) and $k = 1
+    Output: 0
+
+ 
+===> 262/2/deadmarshal.pl <===
+4
+0
+ 
+===> 262/2/e-choroba.pl <===
+1..2
+ok 1 - Example 1
+ok 2 - Example 2
+ 
+===> 262/2/laurent-rosenfeld.pl <===
+2 - 3 1 2 2 2 1 3   => 4
+1 - 1 2 3           => 0
+ 
+===> 262/2/lubos-kolouch.pl <===
+4
+0
+ 
+===> 262/2/nelo-tovar.pl <===
+Input : @ints = [3, 1, 2, 2, 2, 1, 3] and K = 2
+Output : 4
+ 
+Input : @ints = [1, 2, 3] and K = 1
+Output : 0
+ 
+ 
+===> 262/2/packy-anderson.pl <===
+Example 1:
+Input: @arr = (3, 1, 2, 2, 2, 1, 3) and $k = 2
+Output: 4
+
+(0, 6) => ints[0] == ints[6] and 0 x 6 is divisible by 2
+(2, 3) => ints[2] == ints[3] and 2 x 3 is divisible by 2
+(2, 4) => ints[2] == ints[4] and 2 x 4 is divisible by 2
+(3, 4) => ints[3] == ints[4] and 3 x 4 is divisible by 2
+
+Example 2:
+Input: @arr = (1, 2, 3) and $k = 1
+Output: 0
+
+
+ 
+===> 262/2/peter-campbell-smith.pl <===
+
+Input:  @ints = (3, 1, 2, 2, 2, 1, 3), $k = 2
+Output: 4 (0 * 6 = 0, 2 * 3 = 6, 2 * 4 = 8, 3 * 4 = 12)
+
+Input:  @ints = (1, 2, 3), $k = 1
+Output: 0 
+
+Input:  @ints = (47, 14, 41, 21, 30, 28, 24, 46, 39, 50, 13, 20, 10, 39, 21, 47, 34, 23, 49, 30, 45, 40, 12, 25, 12, 38, 4, 49, 19, 35, 33, 29, 14, 45, 36, 32, 24, 47, 23, 26, 37, 14, 13, 31, 31, 47, 22, 44, 19, 16, 2, 47, 23, 34, 20, 42, 1, 5, 28, 34, 48, 38, 40, 33, 42, 40, 37, 47, 6, 43, 6, 24, 27, 38, 38, 14, 42, 44, 38, 48, 41, 40, 15, 38, 49, 19, 13, 35, 22, 44, 21, 1, 45, 42, 24, 38, 31, 10, 42, 33), $k = 23
+Output: 8 (0 * 15 = 0, 0 * 37 = 0, 0 * 45 = 0, 0 * 51 = 0, 0 * 67 = 0, 20 * 92 = 1840, 33 * 92 = 3036, 46 * 88 = 4048)
+ 
+===> 262/2/peter-meszaros.pl <===
+# Seeded srand with seed '1' from import arg.
+ok 1 - Example 1
+ok 2 - Example 2
+1..2
+ 
+===> 262/2/reinier-maliepaard.pl <===
+The number of equal divisible pairs (i, j): 4
+The number of equal divisible pairs (i, j): 0
+ 
+===> 262/2/roger-bell-west.pl <===
+1..2
+ok 1 - example 1
+ok 2 - example 2
+ 
+===> 262/2/ulrich-rieke.pl <===
+4
+ 
+===> 262/2/wanderdoc.pl <===
+ok 1 - Example 1
+ok 2 - Example 2
+1..2
+ 
+===> 262/2/wlmb.pl <===
+k=2, ints=3 1 2 2 2 1 3 -> 4
+ 
+===> 262/2/zapwai.pl <===
+Input: @ints = (3,1,2,2,2,1,3), $k = 2
+Output: 4

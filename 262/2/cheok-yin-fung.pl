@@ -1,6 +1,4 @@
 #!/usr/bin/env perl
-# The Weekly Challenge 262
-# Task 2 Count Equal Divisible
 use v5.30.0;
 use warnings;
 

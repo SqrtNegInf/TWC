@@ -1,11 +1,7 @@
 #!/usr/bin/env perl
 
-# Blog: http://ccgi.campbellsmiths.force9.co.uk/challenge
-
 use v5.26;    # The Weekly Challenge - 2024-03-25
-use utf8;     # Week 262 - task 2 - Count equal divisible
 use warnings; # Peter Campbell Smith
-binmode STDOUT, ':utf8';
 
 my (@ints, $j);
 

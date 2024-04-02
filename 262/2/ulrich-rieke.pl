@@ -2,14 +2,11 @@
 use strict ;
 use warnings ;
 use feature 'say' ;
+
 use Algorithm::Combinatorics qw ( combinations ) ;
 
-say "Enter some integers, separated by whitespace!" ;
-my $line = <STDIN> ;
-chomp $line ;
-my @numbers = split( /\s+/ , $line ) ;
-say "Enter another integer!" ;
-my $k = <STDIN> ;
+my @numbers = (3,1,2,2,2,1,3);
+my $k = 2;
 chomp $k ;
 my $len = scalar( @numbers ) ;
 my $sum = 0 ;
