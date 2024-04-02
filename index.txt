@@ -549,8 +549,8 @@ Challenge titles and Rosetta-code correspondences (exact, and otherwise)
 261-2 Multiply By Two
 262-1 Max Positive Negative
 262-2 Count Equal Divisible
-263-1
-263-2
+263-1 Target Index
+263-2 Merge Items
 264-1
 264-2
 265-1
