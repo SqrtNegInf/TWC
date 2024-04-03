@@ -18,13 +18,13 @@ sub MAIN() {
     }
     else {
         #| Run test cases
-        use Test2::V0 qw( is plan );
-        plan 3;
+        use Test2::V0 -srand => 1; 
         is max_positive_negative( -3, 1, 2, -1, 3, -2, 4 ), 4,
           'works for (-3, 1, 2, -1, 3, -2, 4)';
         is max_positive_negative( -1, -2, -3, 1 ), 3,
           'works for (-1, -2, -3, 1)';
         is max_positive_negative( 1, 2 ), 2, 'works for (1, 2)';
+        done_testing;
     }
 }
 

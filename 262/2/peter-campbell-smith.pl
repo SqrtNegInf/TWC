@@ -42,8 +42,9 @@ sub count_equal_divisible {
 	}
 	
 	# show results	
-	say qq[\nInput:  \@ints = (] . join(', ', @ints) .
-		qq[), \$k = $k];
-	$explain =~ s|(.*)..$|($1)|;
-	say qq[Output: $count $explain];
+	#say qq[\nInput:  \@ints = (] . join(', ', @ints) .
+	#	qq[), \$k = $k];
+	#$explain =~ s|(.*)..$|($1)|;
+	#say qq[Output: $count $explain];
+	say qq[Output: $count ];
 }
