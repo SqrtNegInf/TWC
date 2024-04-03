@@ -1,15 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-# The Weekly Challenge 262 - By Nelo Tovar
-#
-# https://theweeklychallenge.org/blog/perl-weekly-challenge-262/
-#
-# Task 1 - Max Positive Negative
-#
-
-use strict;
-use warnings;
-use v5.28;
 use Data::Dump qw(dump);
 
 my @examples = (

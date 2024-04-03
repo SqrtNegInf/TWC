@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
+use v5.36;
 
 my @ints = (-3, 1, 2, -1, 3, -2, 4);
 maximum_of_positive_and_negative(\@ints);

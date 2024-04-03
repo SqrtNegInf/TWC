@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use feature 'say';
+use v5.36;
 
 sub max_pos_neg {
     my $pos_count = scalar grep {$_ > 0} @_;
