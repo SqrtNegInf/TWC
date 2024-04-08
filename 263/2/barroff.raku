@@ -1,7 +1,5 @@
 #!/usr/bin/env raku
 
-use v6.d;
-
 sub merge-items(@items1, @items2 --> Positional) {
     my %dict;
     my @res;

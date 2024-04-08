@@ -1,15 +1,9 @@
 #!/usr/bin/env raku
 
-unit sub MAIN ($items1, $items2, :v(:$verbose));
+#unit sub MAIN ($items1, $items2, :v(:$verbose));
 
-my @items1 = $items1.split("|")>>.words>>.Int;
-my @items2 = $items2.split("|")>>.words>>.Int;
-
-if $verbose
-{
-  say ": items1: { @items1.raku }";
-  say ": items2: { @items2.raku }";
-}
+my @items1 = [[1, 1], [2, 1], [3, 2]];
+my @items2 = [[2, 2], [1, 3]];
 
 my %count;
 

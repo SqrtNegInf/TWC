@@ -1,4 +1,5 @@
 #!/usr/bin/env raku
+
 sub merge-items($items1, $items2) {
 	$items1.append(|$items2)
 		.classify(*[0], as => *[1])

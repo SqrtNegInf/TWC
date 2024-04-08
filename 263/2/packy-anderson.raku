@@ -1,5 +1,4 @@
 #!/usr/bin/env raku
-use v6;
 
 sub mergeItems(@items1, @items2) {
   my %merged;

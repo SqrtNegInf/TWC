@@ -1,0 +1,102 @@
+ 
+===> 263/2/0rir.raku <===
+1..4
+ok 1 - []
+#     <- []  ∪  []
+ok 2 - [[1 4] [2 3] [3 2]]
+#     <- [[1 1] [2 1] [3 2] [2 2] [1 3]]  ∪  [[2 2] [1 3]]
+ok 3 - [[1 8] [2 3] [3 3]]
+#     <- [[1 2] [2 3] [1 3] [3 2] [3 1] [1 3]]  ∪  [[3 1] [1 3]]
+ok 4 - [[1 1] [2 9] [3 3]]
+#     <- [[1 1] [2 2] [3 3] [2 3] [2 4]]  ∪  [[2 3] [2 4]]
+
+Input: $items1 = [[1 1] [1 2] [1 90] [3 1000] [5 4]]
+       $items2 = [[1 10] [10 2] [1 980] [6 1000] [5 5]]
+Output: ([1 1083] [3 1000] [5 9] [6 1000] [10 2])
+ 
+===> 263/2/arne-sommer.raku <===
+: item1 ID 1 with frequency 1
+: item1 ID 2 with frequency 1
+: item1 ID 3 with frequency 2
+: item2 ID 2 with frequency 2
+: item2 ID 1 with frequency 3
+[(1, 4), (2, 3), (3, 2)]
+ 
+===> 263/2/ash.raku <===
+[(1 4) (2 3) (3 2)]
+ 
+===> 263/2/asherbhs.raku <===
+[[1 4] [2 3] [3 2]]
+[[1 8] [2 3] [3 3]]
+[[1 1] [2 9] [3 3]]
+ 
+===> 263/2/athanasius.raku <===
+
+Challenge 263, Task #2: Merge Items (Raku)
+
+Running the test suite
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+1..3
+ 
+===> 263/2/barroff.raku <===
+1..3
+ok 1 - works for [ [1,4], [2,3], [3,2] ]
+ok 2 - works for [ [1,8], [2,3], [3,3] ]
+ok 3 - works for [ [1,1], [2,9], [3,3] ]
+ 
+===> 263/2/bruce-gray.raku <===
+1..6
+ok 1 - task2_via_classify : 1 1 2 1 3 2
+ok 2 - task2_via_classify : 1 2 2 3 1 3 3 2
+ok 3 - task2_via_classify : 1 1 2 2 3 3
+ok 4 - task2_via_Bag : 1 1 2 1 3 2
+ok 5 - task2_via_Bag : 1 2 2 3 1 3 3 2
+ok 6 - task2_via_Bag : 1 1 2 2 3 3
+ 
+===> 263/2/laurent-rosenfeld.raku <===
+1 1 2 1 3 2     - 2 2 1 3    => ((1 4) (2 3) (3 2))
+1 2 2 3 1 3 3 2 - 3 1 1 3    => ((1 8) (2 3) (3 3))
+1 1 2 2 3 3     - 2 3 2 4    => ((1 1) (2 9) (3 3))
+ 
+===> 263/2/luca-ferrari.raku <===
+[1 => 4 2 => 3 3 => 2]
+ 
+===> 263/2/mark-anderson.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ 
+===> 263/2/massa.raku <===
+ok 1 - $(((1, 4).Seq, (2, 3).Seq, (3,… is $((1, 4), (2, 3), (3, 2))
+ok 2 - $(((1, 8).Seq, (2, 3).Seq, (3,… is $((1, 8), (2, 3), (3, 3))
+ok 3 - $(((1, 1).Seq, (2, 9).Seq, (3,… is $((1, 1), (2, 9), (3, 3))
+ 
+===> 263/2/packy-anderson.raku <===
+Example 1:
+Input: $items1 = [ [1,1], [2,1], [3,2] ]
+       $items2 = [ [2,2], [1,3] ]
+Output: [ [1,4], [2,3], [3,2] ]
+
+Example 2:
+Input: $items1 = [ [1,2], [2,3], [1,3], [3,2] ]
+       $items2 = [ [3,1], [1,3] ]
+Output: [ [1,8], [2,3], [3,3] ]
+
+Example 3:
+Input: $items1 = [ [1,1], [2,2], [3,3] ]
+       $items2 = [ [2,3], [2,4] ]
+Output: [ [1,1], [2,9], [3,3] ]
+ 
+===> 263/2/roger-bell-west.raku <===
+1..3
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ 
+===> 263/2/wambash.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+1..3
