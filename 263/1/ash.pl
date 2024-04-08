@@ -1,11 +1,4 @@
 #!/usr/bin/env perl
-# Solution to Task 1 of The Weekly Challenge 263
-# https://theweeklychallenge.org/blog/perl-weekly-challenge-263/#TASK1
-
-# $ perl ch-1.pl
-# (1, 2)
-# ()
-# (4)
 
 use v5.20;
 use experimental 'signatures';

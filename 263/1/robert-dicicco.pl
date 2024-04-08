@@ -1,13 +1,4 @@
 #!/usr/bin/env perl
-=begin
-------------------------------------
-AUTHOR: Robert DiCicco
-DATE  : 2024-04-04
-Challenge 263 Task 01 Target Index ( Perl )
-------------------------------------
-=cut
-
-
 use v5.36;
 
 my @myints = ([1, 5, 3, 2, 4, 2],[1, 2, 4, 3, 5],[5, 3, 2, 4, 2, 1]);
@@ -32,20 +23,3 @@ while ($cnt < $ln){
     @fnd = ();
     $cnt++;
 }
-
-=begin
-------------------------------------
-SAMPLE OUTPUT
-
-perl TargetIndex.pl
-Input: 1 5 3 2 4 2
-Output: (1 2)
-
-Input: 1 2 4 3 5
-Output: ()
-
-Input: 5 3 2 4 2 1
-Output: (4)
-
-------------------------------------
-=cut

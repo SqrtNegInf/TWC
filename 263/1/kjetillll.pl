@@ -1,5 +1,9 @@
 #!/usr/bin/env perl
-use strict; use warnings; use Test::More;
+
+use strict; 
+use warnings; 
+
+use Test::More;
 
 sub target_index { my $k = pop; my @s = sort {$a<=>$b} @_; grep $s[$_]==$k, 0..$#s }
 

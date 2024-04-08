@@ -1,14 +1,9 @@
 #!/usr/bin/env perl
 
-
 srand 1;
 
-# Blog: http://ccgi.campbellsmiths.force9.co.uk/challenge
-
 use v5.26;    # The Weekly Challenge - 2024-04-01
-use utf8;     # Week 263 - task 1 - Target index
 use warnings; # Peter Campbell Smith
-binmode STDOUT, ':utf8';
 
 my (@ints, $j);
 
