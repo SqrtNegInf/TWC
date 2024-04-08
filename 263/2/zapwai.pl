@@ -1,5 +1,5 @@
 #!/usr/bin/env perl
-use v5.38;
+use v5.36;
 my $items1c = [ [1,1], [2,1], [3,2] ];
 my $items2c = [ [2,2], [1,3] ];
 my $items1a = [ [1,2], [2,3], [1,3], [3,2] ];

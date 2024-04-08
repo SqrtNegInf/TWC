@@ -8,7 +8,7 @@ Challenge 263 Task 01 Target Index ( Perl )
 =cut
 
 
-use v5.38;
+use v5.36;
 
 my @myints = ([1, 5, 3, 2, 4, 2],[1, 2, 4, 3, 5],[5, 3, 2, 4, 2, 1]);
 my @idx = (2,6,4);

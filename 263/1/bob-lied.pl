@@ -21,7 +21,7 @@
 #   Target index: (4) as $ints[4] = 4
 #=============================================================================
 
-use v5.38;
+use v5.36;
 
 use builtin qw/true false/; no warnings "experimental::builtin";
 

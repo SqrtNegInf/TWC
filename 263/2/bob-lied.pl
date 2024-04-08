@@ -6,7 +6,7 @@
 # PWC 263 Task 2 Alternative using SQLite 
 #=============================================================================
 
-use v5.38;
+use v5.36;
 use DBI;
 use DBD::SQLite;
 
