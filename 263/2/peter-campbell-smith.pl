@@ -1,7 +1,7 @@
 #!/usr/bin/env perl
 
-use v5.26;    # The Weekly Challenge - 2024-04-01
-use warnings; # Peter Campbell Smith
+use v5.26;
+use warnings;
 
 srand 1;
 

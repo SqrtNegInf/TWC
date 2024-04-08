@@ -1,5 +1,8 @@
 #!/usr/bin/env perl
-use strict; use warnings; use Test::More;
+use strict; 
+use warnings; 
+
+use Test::More;
 
 sub merge_items {
     my %idsum;
@@ -24,6 +27,7 @@ my @tests = (
         want   => [ [1,1], [2,9], [3,3] ]
     }
 );
+
 for my $test (@tests) {
     my $got = merge_items( @$test{'items1', 'items2'} );
     is_deeply( $got, $$test{want} );

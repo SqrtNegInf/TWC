@@ -1,4 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
+
 sub merge_items {
     my %total;
     for my $in (@_) {
