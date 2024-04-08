@@ -1,12 +1,7 @@
 #!/usr/bin/env raku
-use v6 ;
 
-say "Enter some integers, separated by blanks!" ;
-my $line = $*IN.get ;
-my @numbers = $line.words.map( {.Int} ) ;
-say "Enter a target integer!" ;
-$line = $*IN.get ;
-my $k = +$line ;
+my @numbers = (1, 5, 3, 2, 4, 2);
+my $k = 2;
 my @sorted = @numbers.sort( { $^a <=> $^b} ) ;
 my @indices = (0..@numbers.elems -1).grep( { @sorted[ $_] == $k } ) ;
 print "(" ;

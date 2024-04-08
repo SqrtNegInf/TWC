@@ -1,5 +1,4 @@
 #!/usr/bin/env raku
-use v6;
 
 sub targetIndex($k, @ints) {
   my @sorted = @ints.sort;

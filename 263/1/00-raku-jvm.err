@@ -1,0 +1,12 @@
+[31m===[0mSORRY![31m===[0m Error while compiling /Users/dhoekman/PWC/263/1/massa.raku
+Could not find Testo in:
+    /Users/dhoekman/PWC/263/1/lib
+    /Users/dhoekman/.raku
+    /Users/dhoekman/.rakubrew/versions/jvm-2022.07/install/share/perl6/site
+    /Users/dhoekman/.rakubrew/versions/jvm-2022.07/install/share/perl6/vendor
+    /Users/dhoekman/.rakubrew/versions/jvm-2022.07/install/share/perl6/core
+    CompUnit::Repository::AbsolutePath<751680166>
+    CompUnit::Repository::NQP<1946252008>
+    CompUnit::Repository::Perl5<839139601>
+    CompUnit::Repository::JavaRuntime<360323675>
+at /Users/dhoekman/PWC/263/1/massa.raku:8
