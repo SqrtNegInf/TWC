@@ -1,6 +1,8 @@
 #!/usr/bin/env perl
 use v5.36;
 
+srand 1;
+
 my (@ints, $j);
 
 count_equal_divisible([3, 1, 2, 2, 2, 1, 3], 2);
