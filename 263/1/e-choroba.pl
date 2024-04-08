@@ -5,7 +5,6 @@ use experimental qw( signatures );
 
 srand 1;
 
-
 sub target_index_naive($target, @ints) {
     my @sorted = sort { $a <=> $b } @ints;
     return grep $sorted[$_] == $target, 0 .. $#sorted
@@ -52,14 +51,3 @@ my $target = 123;
 is  [target_index_binsearch($target, @large)],
     [target_index_naive($target, @large)],
     'same';
-
-use Benchmark qw{ cmpthese };
-cmpthese(-3, {
-    naive     => sub { target_index_naive($target, @large) },
-    binsearch => sub { target_index_binsearch($target, @large) },
-});
-
-__END__
-            Rate     naive binsearch
-naive     2021/s        --      -26%
-binsearch 2728/s       35%        --
