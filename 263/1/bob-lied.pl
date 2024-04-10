@@ -28,7 +28,7 @@ sub targetIndex($k, @ints)
 
 sub runTest
 {
-    use Test2::V0;
+    use Test2::V0 -srand => 1;
 
     is( targetIndex(2, (1, 5, 3, 2, 4, 2) ), [1, 2], "Example 1");
     is( targetIndex(6, (1, 2, 4, 3, 5   ) ), [    ], "Example 2");
