@@ -1,5 +1,5 @@
 #!/usr/bin/env perl
-use v5.38;
+use v5.36;
 my @source  = (0, 1, 2, 3, 4);
 my @indices = (0, 1, 2, 2, 1);
 proc(\@source, \@indices);

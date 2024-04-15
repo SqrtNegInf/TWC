@@ -1,5 +1,5 @@
 #!/usr/bin/env perl
-use v5.38;
+use v5.36;
 my $str = 'PeRlwEKLy';
 say "Input: \$str = $str";
 say "Output: " . proc($str);
