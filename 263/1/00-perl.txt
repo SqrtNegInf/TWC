@@ -16,7 +16,7 @@ ok 4 - Negatives
 1..4
  
 ===> 263/1/bob-lied.pl <===
-# Seeded srand with seed '20240409' from local date.
+# Seeded srand with seed '1' from import arg.
 ok 1 - Example 1
 ok 2 - Example 2
 ok 3 - Example 3
