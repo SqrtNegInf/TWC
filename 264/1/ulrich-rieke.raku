@@ -1,8 +1,6 @@
 #!/usr/bin/env raku
-use v6 ;
 
-say "Enter a word!" ;
-my $word = $*IN.get ;
+my $word = 'PeRlwEeKLy';
 my @uppers = $word.comb.grep( { $_ ~~ /<upper>/ } ) ;
 my @selected ;
 for @uppers -> $aChar {

@@ -1,13 +1,9 @@
 #!/usr/bin/env raku
 
-#
-# Perl Weekly Challenge 264
-# Task 1
-#
-# See <https://perlweeklychallenge.org/blog/perl-weekly-challenge-264>
-#
+# differrent answer?
 
-sub MAIN( Str $string where { $string ~~ / ^ <[a..zA..Z]>+ $ / } ) {
+#sub MAIN( Str $string where { $string ~~ / ^ <[a..zA..Z]>+ $ / } ) {
+my $string = 'PeRlwEeKLy';
     my @letters;
 
     for $string.comb.grep( * ~~ / <[A..Z]> / ) -> $letter {
@@ -16,4 +12,4 @@ sub MAIN( Str $string where { $string ~~ / ^ <[a..zA..Z]>+ $ / } ) {
     }
 
     @letters.sort[ * - 1 ].say if ( @letters );
-}
+#}

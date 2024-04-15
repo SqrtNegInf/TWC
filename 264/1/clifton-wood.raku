@@ -1,4 +1,5 @@
 #!/usr/bin/env raku
+
 sub greatest ($str) {
   my @uc = ('A'...'Z');
   my @lc = ('a'...'z');

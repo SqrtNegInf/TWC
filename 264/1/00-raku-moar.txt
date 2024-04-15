@@ -1,0 +1,100 @@
+ 
+===> 264/1/0rir.raku <===
+1..4
+ok 1 - Str <- 
+ok 2 - "L" <- PeRlwEeKLy
+ok 3 - "L" <- ChaLlenge
+ok 4 - Str <- The
+ 
+===> 264/1/arne-sommer.raku <===
+L
+ 
+===> 264/1/asherbhs.raku <===
+L
+L
+
+ 
+===> 264/1/athanasius.raku <===
+
+Challenge 264, Task #1: Greatest English Letter (Raku)
+
+Running the test suite
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+1..3
+ 
+===> 264/1/barroff.raku <===
+1..3
+ok 1 - works for "PeRlwEeKLy"
+ok 2 - works for "ChaLlenge"
+ok 3 - works for "The"
+ 
+===> 264/1/bruce-gray.raku <===
+1..12
+ok 1 - task1_paired PeRlwEeKLy
+ok 2 - task1_paired ChaLlenge
+ok 3 - task1_paired The
+ok 4 - task1_bitmap PeRlwEeKLy
+ok 5 - task1_bitmap ChaLlenge
+ok 6 - task1_bitmap The
+ok 7 - task1_combed_regex_sets PeRlwEeKLy
+ok 8 - task1_combed_regex_sets ChaLlenge
+ok 9 - task1_combed_regex_sets The
+ok 10 - task1_comb_hash PeRlwEeKLy
+ok 11 - task1_comb_hash ChaLlenge
+ok 12 - task1_comb_hash The
+ 
+===> 264/1/clifton-wood.raku <===
+There are 2 letters that are both upper and lower: E, L
+The greatest letter is then: L
+There are 1 letters that are both upper and lower: L
+The greatest letter is then: L
+There is no greatest letter.
+ 
+===> 264/1/feng-chang.raku <===
+L
+ 
+===> 264/1/jaldhar-h-vyas.raku <===
+L
+ 
+===> 264/1/laurent-rosenfeld.raku <===
+PeRlwEeKLy      => L
+ChaLlenge       => L
+The             => ''
+ 
+===> 264/1/luca-ferrari.raku <===
+R
+ 
+===> 264/1/mark-anderson.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ 
+===> 264/1/packy-anderson.raku <===
+Example 1:
+Input: $str = 'PeRlwEeKLy'
+Output: L
+
+Example 2:
+Input: $str = 'ChaLlenge'
+Output: L
+
+Example 3:
+Input: $str = 'The'
+Output: ''
+ 
+===> 264/1/roger-bell-west.raku <===
+1..3
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ 
+===> 264/1/ulrich-rieke.raku <===
+L
+ 
+===> 264/1/wambash.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+1..3

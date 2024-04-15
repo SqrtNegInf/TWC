@@ -8,14 +8,12 @@ sub greatest-english-letter ($str) {
     andthen .max
 }
 
-multi MAIN (Bool :test($)!) {
+#multi MAIN (Bool :test($)!) {
     use Test;
     is greatest-english-letter('PeRlwEeKLy'),'L';
     is greatest-english-letter('ChaLlenge'),'L';
     is greatest-english-letter('The'), -Inf;
     done-testing;
-}
+#}
 
-multi MAIN ($str) {
-    say greatest-english-letter $str
-}
+#multi MAIN ($str) { say greatest-english-letter $str }

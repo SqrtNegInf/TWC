@@ -1,9 +1,11 @@
 #!/usr/bin/env raku
+
 sub task1_paired ( Str $s --> Str ) {
     my @great = $s.comb.classify(*.uc).grep(*.value.unique > 1)».key;
 
     return @great ?? @great.max !! '';
 }
+
 sub task1_bitmap ( Str $s --> Str ) {
     my %h;
     %h{ .uc } +|= (.uc eq $_ ?? 2 !! 1) for $s.comb;
