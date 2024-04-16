@@ -9,7 +9,7 @@ my $Verbose = 0;
 my $DoTest  = 0;
 
 GetOptions("test" => \$DoTest, "verbose" => \$Verbose);
-exit(!runTest()) if $DoTest;
+runTest(); exit;
 
 sub gle($str)
 {
@@ -28,7 +28,7 @@ sub gle($str)
 
 sub runTest
 {
-    use Test2::V0;
+    use Test2::V0 -srand => 1;
 
     is( gle("PeRlwEeKLy"), 'L', "Example 1");
     is( gle("ChaLlenge" ), 'L', "Example 2");

@@ -23,7 +23,7 @@ sub targArr($source, $indices)
 
 sub runTest
 {
-    use Test2::V0;
+    use Test2::V0 -srand => 1;
 
     is( targArr([0,1,2,3,4],[0,1,2,2,1]), [0,4,1,3,2], "Example 1");
 
