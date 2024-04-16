@@ -10,7 +10,7 @@ multi target-array (@source,@indices) {
     andthen .reduce: &target-array-reducer
 }
 
-multi MAIN (Bool :test($)!) {
+#multi MAIN (Bool :test($)!) {
     use Test;
     is target-array-reducer((), 0 => 1),(1,);
     is target-array-reducer((0, 1, 3, 2), 1 => 4), (0, 4, 1, 3, 2) ;
@@ -18,8 +18,6 @@ multi MAIN (Bool :test($)!) {
     is target-array((1,2,3,4,0), (0, 1, 2, 3, 0)),0..4;
     is target-array((1,), (0,)), (1,);
     done-testing;
-}
+#}
 
-multi MAIN ($source,$indices) {
-    put target-array $source.split(q{,}),$indices.split(q{,})
-}
+#multi MAIN ($source,$indices) { put target-array $source.split(q{,}),$indices.split(q{,}) }

@@ -1,4 +1,5 @@
 #!/usr/bin/env raku
+
 sub task2 ( @source, @indices ) {
     my @r;
     @r.splice(.[0], 0, .[1]) for @indices Z @source;

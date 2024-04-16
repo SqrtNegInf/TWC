@@ -1,5 +1,7 @@
 #!/usr/bin/env raku
+
 use Adverb::Eject;
+
 use Test;
 
 is-deeply target-array([0,1,2,3,4], [0,1,2,2,1]), [0,4,1,3,2];

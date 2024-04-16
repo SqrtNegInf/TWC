@@ -1,4 +1,5 @@
 #!/usr/bin/env raku
+
 sub target-array ($s, $i) {
   my $t = [];
   for $i.kv -> $k, $v {

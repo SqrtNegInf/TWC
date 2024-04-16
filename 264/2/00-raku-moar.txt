@@ -1,0 +1,110 @@
+ 
+===> 264/2/0rir.raku <===
+1..17
+ok 1 - 0 4 1 3 2 <- 0 1 2 3 4 « 0 1 2 2 1
+ok 2 - 0 4 1 3 2 <- $(0, 1, 2, 3, 4) « $(0, 1, 2, 2, 1) shaped
+ok 3 - 0 1 2 3 4 <- 1 2 3 4 0 « 0 1 2 3 0
+ok 4 - 0 1 2 3 4 <- $(1, 2, 3, 4, 0) « $(0, 1, 2, 3, 0) shaped
+ok 5 - 1 <- 1 « 0
+ok 6 - 1 <- $(1,) « $(0,) shaped
+ok 7 - 1 2 3 4 <- 4 3 2 1 « 0 0 0 0
+ok 8 - 1 2 3 4 <- $(4, 3, 2, 1) « $(0, 0, 0, 0) shaped
+ok 9 - 2 1 3 4 <- 4 3 2 1 « 0 0 0 1
+ok 10 - 2 1 3 4 <- $(4, 3, 2, 1) « $(0, 0, 0, 1) shaped
+ok 11 - 1 3 2 4 <- 4 3 2 1 « 0 0 1 0
+ok 12 - 1 3 2 4 <- $(4, 3, 2, 1) « $(0, 0, 1, 0) shaped
+ok 13 - 1 2 3 4 <- $(4, 3, 2, 1) « $(1, 0, 0, 0) shaped
+ok 14 - 1 2 3 4 <- $(4, 3, 2, 1) « $(2, 0, 0, 0) shaped
+ok 15 - 1 2 3 4 <- $(4, 3, 2, 1) « $(3, 0, 0, 0) shaped
+ok 16 - 1 2 3 4 <- $(4, 3, 2, 1) « $(3, 2, 0, 0) shaped
+ok 17 - 1 3 4 2 <- $(4, 3, 2, 1) « $(2, 0, 3, 0) shaped
+ 
+===> 264/2/asherbhs.raku <===
+[0 4 1 3 2]
+[0 1 2 3 4]
+[1]
+ 
+===> 264/2/athanasius.raku <===
+
+Challenge 264, Task #2: Target Array (Raku)
+
+Running the test suite
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+1..3
+ 
+===> 264/2/barroff.raku <===
+1..3
+ok 1 - works for [0, 4, 1, 3, 2]
+ok 2 - works for [0, 1, 2, 3, 4]
+ok 3 - works for [1]
+ 
+===> 264/2/bruce-gray.raku <===
+1..3
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ 
+===> 264/2/clifton-wood.raku <===
+[0 4 1 3 2]
+[0 1 2 3 4]
+ 
+===> 264/2/laurent-rosenfeld.raku <===
+0 1 2 3 4  - 0 1 2 2 1  => [0 4 1 3 2]
+1 2 3 4 0  - 0 1 2 3 0  => [0 1 2 3 4]
+1          - 0          => [1]
+ 
+===> 264/2/mark-anderson.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ok 4 - 
+ok 5 - 
+ 
+===> 264/2/packy-anderson.raku <===
+Example 1:
+Input: @source  = (0, 1, 2, 3, 4)
+       @indices = (0, 1, 2, 2, 1)
+Output: (0, 4, 1, 3, 2)
+
+@source @indices @target
+0       0        (0)
+1       1        (0, 1)
+2       2        (0, 1, 2)
+3       2        (0, 1, 3, 2)
+4       1        (0, 4, 1, 3, 2)
+
+Example 2:
+Input: @source  = (1, 2, 3, 4, 0)
+       @indices = (0, 1, 2, 3, 0)
+Output: (0, 1, 2, 3, 4)
+
+@source @indices @target
+1       0        (1)
+2       1        (1, 2)
+3       2        (1, 2, 3)
+4       3        (1, 2, 3, 4)
+0       0        (0, 1, 2, 3, 4)
+
+Example 3:
+Input: @source  = (1)
+       @indices = (0)
+Output: (1)
+
+@source @indices @target
+1       0        (1)
+ 
+===> 264/2/roger-bell-west.raku <===
+1..3
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ 
+===> 264/2/wambash.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ok 4 - 
+ok 5 - 
+1..5

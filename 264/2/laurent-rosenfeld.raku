@@ -1,4 +1,5 @@
 #!/usr/bin/env raku
+
 sub target-array (@source, @indices) {
     my @target;
     for 0..@source.end -> $i {
