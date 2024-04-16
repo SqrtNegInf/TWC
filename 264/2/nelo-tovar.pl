@@ -1,15 +1,9 @@
 #!/usr/bin/env perl
-
-# The Weekly Challenge 264 - By Nelo Tovar
-#
-# https://theweeklychallenge.org/blog/perl-weekly-challenge-264/
-#
-# Task 2 - Target Array
-#
+use v5.28;
 
 use strict;
 use warnings;
-use v5.28;
+
 use Data::Dump qw(dump);
 
 my @examples = (

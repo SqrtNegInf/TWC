@@ -1,7 +1,7 @@
 #!/usr/bin/env perl
 use strict;
 use warnings;
-use Data::Show;
+use feature 'say';
 
 sub target_array{
   my @ret;
@@ -9,7 +9,7 @@ sub target_array{
   @ret
 }
 
-print show target_array([0,1,2,3,4],[0,1,2,2,1]);
-print show target_array([1,2,3,4,0],[0,1,2,3,0]);
-print show target_array([1],[0]);
+say target_array([0,1,2,3,4],[0,1,2,2,1]);
+say target_array([1,2,3,4,0],[0,1,2,3,0]);
+say target_array([1],[0]);
 

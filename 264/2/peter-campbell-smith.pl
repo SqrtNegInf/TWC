@@ -1,11 +1,6 @@
 #!/usr/bin/env perl
 
-# Blog: http://ccgi.campbellsmiths.force9.co.uk/challenge
-
-use v5.26;    # The Weekly Challenge - 2024-04-08
-use utf8;     # Week 264 - task 2 - Target array
-use warnings; # Peter Campbell Smith
-binmode STDOUT, ':utf8';
+use v5.36;
 
 target_array([0, 1, 2, 3, 4], [0, 1, 2, 2, 1]);
 target_array([1, 2, 3, 4, 0], [0, 1, 2, 3, 0]);
