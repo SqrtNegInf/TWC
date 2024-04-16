@@ -1,17 +1,6 @@
 #!/usr/bin/env perl
 use strict;
-use warnings FATAL => qw(all);
-
-=prompt
-You are given a string, $str, made up of only alphabetic characters [a..zA..Z]. Write a script to return the greatest english letter in the given string.
-    A letter is greatest if it occurs as lower and upper case. Also letter 'b' is greater than 'a' if 'b' appears after 'a' in the English alphabet.
-Example 1 Input: $str = 'PeRlwEeKLy' Output: L
-There are two letters E and L that appears as lower and upper.
-The letter L appears after E, so the L is the greatest english letter.
-Example 2 Input: $str = 'ChaLlenge' Output: L
-Example 3 Input: $str = 'The' Output: ''
-
-=cut
+use warnings;
 
 use List::Util qw(uniq);
 use Test2::V0 -srand => 1;

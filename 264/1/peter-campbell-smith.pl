@@ -1,11 +1,5 @@
 #!/usr/bin/env perl
-
-# Blog: http://ccgi.campbellsmiths.force9.co.uk/challenge
-
 use v5.26;    # The Weekly Challenge - 2024-04-08
-use utf8;     # Week 264 - task 1 - Greatest English letter
-use warnings; # Peter Campbell Smith
-binmode STDOUT, ':utf8';
 
 greatest_english_letter('PeRlwEeKLy');
 greatest_english_letter('zebras live in London Zoo');

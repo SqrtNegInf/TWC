@@ -1,0 +1,130 @@
+ 
+===> 264/1/athanasius.pl <===
+
+Challenge 264, Task #1: Greatest English Letter (Perl)
+
+Running the test suite
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+1..3
+ 
+===> 264/1/bob-lied.pl <===
+ 
+===> 264/1/dave-jacoby.pl <===
+    Input:  $str = "PeRlwEeKLy"
+    Output: "L"
+
+    Input:  $str = "ChaLlenge"
+    Output: "L"
+
+    Input:  $str = "The"
+    Output: ""
+
+ 
+===> 264/1/deadmarshal.pl <===
+L
+L
+
+ 
+===> 264/1/e-choroba.pl <===
+1..3
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ 
+===> 264/1/jo-37.pl <===
+# Seeded srand with seed '1' from import arg.
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ok 4 - umlaut
+ok 5 - ignore non-letters
+1..5
+ 
+===> 264/1/laurent-rosenfeld.pl <===
+PeRlwEeKLy      => L
+ChaLlenge       => L
+The             => ''
+ 
+===> 264/1/lubos-kolouch.pl <===
+ 
+===> 264/1/nelo-tovar.pl <===
+Input : @str = PeRlwEeKLy
+Output : L
+ 
+Input : @str = ChaLlenge
+Output : L
+ 
+Input : @str = The
+Output : 
+ 
+ 
+===> 264/1/packy-anderson.pl <===
+Example 1:
+Input: $str = 'PeRlwEeKLy'
+Output: L
+
+Example 2:
+Input: $str = 'ChaLlenge'
+Output: L
+
+Example 3:
+Input: $str = 'The'
+Output: ''
+ 
+===> 264/1/perlboy1967.pl <===
+# Seeded srand with seed '1' from import arg.
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+1..3
+ 
+===> 264/1/peter-campbell-smith.pl <===
+
+Input:  $str = 'PeRlwEeKLy'
+Output: 'L'
+
+Input:  $str = 'zebras live in London Zoo'
+Output: 'Z'
+
+Input:  $str = 'Antelopes like chocolate'
+Output: 'A'
+
+Input:  $str = 'all lower case gives a null result'
+Output: ''
+
+Input:  $str = 'the lower case can come fiRst'
+Output: 'R'
+
+Input:  $str = 'maybe harder - yAaBbcCdDY'
+Output: 'Y'
+ 
+===> 264/1/peter-meszaros.pl <===
+# Seeded srand with seed '1' from import arg.
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+1..3
+ 
+===> 264/1/reinier-maliepaard.pl <===
+L
+L
+No match
+ 
+===> 264/1/roger-bell-west.pl <===
+1..3
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ 
+===> 264/1/wanderdoc.pl <===
+# Seeded srand with seed '1' from import arg.
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+1..3
+ 
+===> 264/1/zapwai.pl <===
+Input: $str = PeRlwEKLy
+Output: L

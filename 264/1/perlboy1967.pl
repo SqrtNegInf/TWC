@@ -1,26 +1,7 @@
 #!/usr/bin/env perl
-
-=pod
-
-The Weekly Challenge - 264
-- https://theweeklychallenge.org/blog/perl-weekly-challenge-264
-
-Author: Niels 'PerlBoy' van Dijke
-
-Task 1: Greatest English Letter
-Submitted by: Mohammad Sajid Anwar
-
-You are given a string, $str, made up of only alphabetic characters [a..zA..Z].
-
-Write a script to return the greatest english letter in the given string.
-
-|| A letter is greatest if it occurs as lower and upper case. Also letter ‘b’ is
-|| greater than ‘a’ if ‘b’ appears after ‘a’ in the English alphabet.
-
-=cut
-
 use v5.32;
 use feature qw(signatures);
+
 use common::sense;
 
 use Test2::V0 -srand => 1;

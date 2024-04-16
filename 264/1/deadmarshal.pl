@@ -1,6 +1,7 @@
 #!/usr/bin/env perl
 use strict;
 use warnings;
+
 use Set::Scalar;
 use List::Util qw(maxstr);
 
