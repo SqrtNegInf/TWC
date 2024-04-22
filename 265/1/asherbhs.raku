@@ -1,4 +1,5 @@
 #!/usr/bin/env raku
+
 sub appearance(Int:D @ints --> Int) {
 	my $len = 0.33 × @ints;
 	my @keys = @ints.Bag.grep(*.value ≥ $len)».key;

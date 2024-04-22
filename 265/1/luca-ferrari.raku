@@ -1,13 +1,7 @@
 #!/usr/bin/env raku
 
-#
-# Perl Weekly Challenge 265
-# Task 1
-#
-# See <https://perlweeklychallenge.org/blog/perl-weekly-challenge-265>
-#
-
-sub MAIN( *@nums where { @nums.elems == @nums.grep( * ~~ Int ).elems } ) {
+#sub MAIN( *@nums where { @nums.elems == @nums.grep( * ~~ Int ).elems } ) {
+my @nums = (1,2,3,3,3,3,4,2);
     my %pct;
     %pct{ $_ } += 1 / @nums.elems for @nums;
 
@@ -16,4 +10,4 @@ sub MAIN( *@nums where { @nums.elems == @nums.grep( * ~~ Int ).elems } ) {
 
     @good_ones.map( { $_[ 0 ] } ).sort.head.say;
 
-}
+#}

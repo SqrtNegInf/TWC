@@ -1,5 +1,4 @@
 #!/usr/bin/env raku
-use v6.e.PREVIEW;
 
 sub appearance (+ints, :$p=1/3) {
     ints
@@ -10,7 +9,7 @@ sub appearance (+ints, :$p=1/3) {
     andthen .?key
 }
 
-multi MAIN (Bool :test($)!) {
+#multi MAIN (Bool :test($)!) {
     use Test;
     is appearance(1,2,3,3,3,3,4,2),3;
     is appearance(1,1),1;
@@ -19,8 +18,6 @@ multi MAIN (Bool :test($)!) {
     is appearance(1,2,3,4):p(1/4),1;
     is appearance(3,4,5,5),5;
     done-testing;
-}
+#}
 
-multi MAIN (+ints, :$p=1/3) {
-    say appearance ints, :$p
-}
+#multi MAIN (+ints, :$p=1/3) { say appearance ints, :$p }

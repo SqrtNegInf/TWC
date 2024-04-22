@@ -1,9 +1,11 @@
 #!/usr/bin/env raku
+
 sub task1 ( @ns --> UInt:_ ) {
     my $limit = +@ns * 0.33;
 
     return @ns.Bag.grep( *.value >= $limit ).min.?key;
 }
+
 # Credit: After reading wambash's code, I changed from `or return Nil`
 # to in-line the `.min.?key` using the `.?` trick, which I had not
 # known worked on the -Inf that `.min` returns on an empty list.

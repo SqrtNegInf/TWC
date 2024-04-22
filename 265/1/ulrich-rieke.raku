@@ -1,9 +1,8 @@
 #!/usr/bin/env raku
-use v6 ;
 
-say "Enter some integers, separated by blanks!" ;
-my $line = $*IN.get ;
-my @numbers = $line.words.map( {.Int} ) ;
+#say "Enter some integers, separated by blanks!" ;
+#my $line = $*IN.get ;
+my @numbers = (1,2,3,3,3,3,4,2);
 my @uniques = @numbers.unique ;
 my $len = @numbers.elems ;
 my @selected ;

@@ -1,6 +1,6 @@
 #!/usr/bin/env raku
-sub thirty_three_percent_appearance(@arr)
-{
+
+sub thirty_three_percent_appearance(@arr) {
   my %h;
   %h{$_}++ for @arr;
   (%h.keys.grep: {%h{$_} if %h{$_} >= @arr.elems / 3}).min

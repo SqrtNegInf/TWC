@@ -1,5 +1,4 @@
 #!/usr/bin/env raku
-use v6;
 
 sub oneThirdAppearance(@ints) {
   my Int $smallest;

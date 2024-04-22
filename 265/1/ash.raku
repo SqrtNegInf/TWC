@@ -1,13 +1,4 @@
 #!/usr/bin/env raku
-# Task 1 from
-# https://perlweeklychallenge.org/blog/perl-weekly-challenge-265/
-
-# Test run:
-# $ raku ch-1.raku
-# 3
-# 1
-# Nil
-# 4
 
 my @tests =
     (1, 2, 3, 3, 3, 3, 4, 2),
