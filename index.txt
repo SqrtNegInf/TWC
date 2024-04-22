@@ -553,8 +553,8 @@ Challenge titles and Rosetta-code correspondences (exact, and otherwise)
 263-2 Merge Items
 264-1 Greatest English Letter
 264-2 Target Array
-265-1
-265-2
+265-1 33% Appearance
+265-2 Completing Word
 266-1
 266-2
 267-1
