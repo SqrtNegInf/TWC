@@ -2,7 +2,7 @@
 use 5.030;
 use warnings;
 
-my @ints = @ARGV;
+my @ints = (1,2,3,3,3,3,4,2);
 
 my %count;
 for my $i (@ints) {

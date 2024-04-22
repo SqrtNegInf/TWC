@@ -1,5 +1,7 @@
 #!/usr/bin/env perl
-use strict; use warnings; use Test::More;
+use strict; use warnings; 
+
+use Test::More;
 
 sub a33 {
     my %times;

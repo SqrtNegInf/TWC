@@ -1,6 +1,7 @@
 #!/usr/bin/env perl
 use strict;
 use warnings;
+
 use List::Util qw(min);
 
 sub thirty_three_percent_appearance{

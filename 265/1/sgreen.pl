@@ -29,4 +29,4 @@ sub main (@ints) {
     say undef;
 }
 
-main(@ARGV);
+main( (1,2,3,3,3,3,4,2) ) ;

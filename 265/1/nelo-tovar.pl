@@ -1,15 +1,9 @@
 #!/usr/bin/env perl
 
-# The Weekly Challenge 265 - By Nelo Tovar
-#
-# https://theweeklychallenge.org/blog/perl-weekly-challenge-265/
-#
-# Task 1 - 33% Appearance
-#
-
+use v5.28;
 use strict;
 use warnings;
-use v5.28;
+
 use Data::Dump qw(dump);
 use POSIX qw(ceil);
 

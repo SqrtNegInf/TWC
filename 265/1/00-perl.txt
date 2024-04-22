@@ -1,0 +1,167 @@
+ 
+===> 265/1/athanasius.pl <===
+
+Challenge 265, Task #1: 33% Appearance (Perl)
+
+Running the test suite
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ok 4 - None
+ok 5 - Negatives
+1..5
+ 
+===> 265/1/dave-jacoby.pl <===
+    Input:  $ints = (1,2,3,3,3,3,4,2)
+    Output: 3
+
+    Input:  $ints = (1,1)
+    Output: 1
+
+    Input:  $ints = (1,2,3)
+    Output: 1
+
+    Input:  $ints = (1,2,3,5)
+    Output: undef
+
+ 
+===> 265/1/deadmarshal.pl <===
+3
+1
+1
+ 
+===> 265/1/e-choroba.pl <===
+1..4
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ok 4 - Nothing
+ 
+===> 265/1/jaldhar-h-vyas.pl <===
+3
+ 
+===> 265/1/james-smith.pl <===
+3
+ 
+===> 265/1/jo-37.pl <===
+# Seeded srand with seed '1' from import arg.
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ok 4 - exactly 33%
+ok 5 - nothing found
+1..5
+ 
+===> 265/1/kjetillll.pl <===
+ok 1
+ok 2
+ok 3
+1..3
+ 
+===> 265/1/laurent-rosenfeld.pl <===
+1 2 3 3 3 3 4 2    => 3
+1 2                => 1
+1 2 3              => 1
+1 2 1 2 1 2 1 2    => 1
+1 2 3 4 1 2 3 4    => Undef
+ 
+===> 265/1/lubos-kolouch.pl <===
+1..4
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ok 4 - Empty list
+ 
+===> 265/1/nelo-tovar.pl <===
+Input : @ints = (1, 2, 3, 3, 3, 3, 4, 2)
+Output : 3
+ 
+Input : @ints = (1, 1)
+Output : 1
+ 
+Input : @ints = (1, 2, 3)
+Output : 1
+ 
+ 
+===> 265/1/packy-anderson.pl <===
+Example 1:
+Input: @ints = (1, 2, 3, 3, 3, 3, 4, 2)
+Output: 3
+
+Example 2:
+Input: @ints = (1, 1)
+Output: 1
+
+Example 3:
+Input: @ints = (1, 2, 3)
+Output: 1
+ 
+===> 265/1/perlboy1967.pl <===
+# Seeded srand with seed '1' from import arg.
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ok 4 - Own test
+1..4
+ 
+===> 265/1/peter-campbell-smith.pl <===
+
+Input:  @ints = (1, 2, 3, 3, 3, 3, 4, 2)
+Output: 3 (50%)
+
+Input:  @ints = (1, 1)
+Output: 1 (100%)
+
+Input:  @ints = (1, 2, 3)
+Output: 1 (33%)
+
+Input:  @ints = (1, 2, 3, 4)
+Output: undef
+
+Input:  @ints = (8, 8, 8, 9, 9, 9, 7, 7, 7)
+Output: 7 (33%)
+
+Input:  @ints = (1, 2, 3, 2, 2, 1, 1, 3, 3, 2, 2, 2, 1, 1, 3, 1, 2, 1, 3, 1, 2, 1, 1, 2, 3, 2, 3, 2, 2, 3, 3, 1, 3, 1, 1, 3, 1, 3, 1, 2, 2, 2, 1, 2, 2, 3, 3, 3, 1, 3, 3, 1, 3, 3, 2, 2, 2, 1, 3, 1, 2, 2, 2, 2, 1, 1, 1, 3, 3, 3, 2, 2, 2, 2, 2, 3, 1, 2, 1, 2, 1, 3, 1, 3, 2, 2, 3, 2, 3, 2, 1, 2, 3, 1, 3, 1, 3, 2, 3, 2)
+Output: 2 (38%)
+ 
+===> 265/1/peter-meszaros.pl <===
+# Seeded srand with seed '1' from import arg.
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ok 4 - Example 4
+1..4
+ 
+===> 265/1/reinier-maliepaard.pl <===
+Result: 3
+Result: 1
+Result: 1
+ 
+===> 265/1/roger-bell-west.pl <===
+1..3
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ 
+===> 265/1/sgreen.pl <===
+3
+ 
+===> 265/1/spadacciniweb.pl <===
+(1,2,3,3,3,3,4,2) -> 3
+(1,1) -> 1
+(1,2,3) -> 1
+ 
+===> 265/1/wanderdoc.pl <===
+# Seeded srand with seed '1' from import arg.
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+1..3
+ 
+===> 265/1/zapwai.pl <===
+Input: @ints = (1, 2, 3, 3, 3, 3, 4, 2)
+Output: 3
+Input: @ints = (1, 1)
+Output: 1
+Input: @ints = (1, 2, 3)
+Output: 1
