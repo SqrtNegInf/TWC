@@ -1,13 +1,6 @@
 #!/usr/bin/env raku
 
-#
-# Perl Weekly Challenge 265
-# Task 2
-#
-# See <https://perlweeklychallenge.org/blog/perl-weekly-challenge-265>
-#
-
-sub MAIN( Str $needle, *@strings ) {
+sub MAIN( Str $needle = 'JB 007', @strings = ['jj', 'bb', 'bjb'] ) {
 
     my %letters;
     %letters{ $_.lc }++ if ( $_ !~~ / <[0..9]> | \s / ) for $needle.comb;

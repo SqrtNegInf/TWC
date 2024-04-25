@@ -1,4 +1,5 @@
 #!/usr/bin/env raku
+
 sub completing_word($str, @strs)
 {
   my $b = $str.lc.comb(/<lower>/).Bag;

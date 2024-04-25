@@ -2,6 +2,7 @@
 # I point out:
 #   * You can directly `.comb(/.../)`, instead of `.comb.grep(/.../)`.
 #   * You can `.lc` the whole word/string, instead of each letter.
+
 sub task2 ( Str $s, @ss --> Str ) {
     my &letter_bag = *.lc.comb(/<.alpha>/).Bag;
 
@@ -12,6 +13,7 @@ sub task2 ( Str $s, @ss --> Str ) {
 
     return @completing_words.min(*.chars);
 }
+
 # Credit: I changed original `(-)` to `(<=)` after reading arne-sommer's code,
 # then flipped the args and changed to Unicode `⊇`.
 

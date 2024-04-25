@@ -1,4 +1,5 @@
 #!/usr/bin/env raku
+
 sub complete-word  ($in-str, @in-words) {
     my $letters = $in-str.comb.map({ .lc}).grep( /<[a..z]>/).Bag;
     my @result;

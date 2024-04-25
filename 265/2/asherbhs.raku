@@ -1,4 +1,5 @@
 #!/usr/bin/env raku
+
 sub completing-word(Str:D $str, Str:D @str --> Str:D) {
 	my $str-bag = $str.lc.comb.grep(/<[a..z]>/).Bag;
 	my @completing = @str.grep($str-bag ⊆ *.comb.Bag);

@@ -1,11 +1,7 @@
 #!/usr/bin/env raku
-use v6 ;
 
-say "Enter an alphanumeric string!" ;
-my $word = $*IN.get ;
-say "Enter some alphabetic strings!" ;
-my $line = $*IN.get ;
-my @strings = $line.words ;
+my $word = 'JB 007';
+my @strings = ['jj', 'bb', 'bjb'];
 my $all_small ;
 for $word.comb -> $letter {
    if ( $letter ~~ /<upper>/ ) {

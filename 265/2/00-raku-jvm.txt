@@ -1,0 +1,96 @@
+ 
+===> 265/2/0rir.raku <===
+1..8
+ok 1 - bjb      <- JB 007   <- jj bb bjb           
+ok 2 - baacd    <- Da2 abc  <- abcm baacd abaadc   
+ok 3 - accbbb   <- aBc 11c  <- accbbb abc abbc     
+ok 4 -          <- abb cDE  <- abcDE abcde abcdde  
+ok 5 - ABcbde   <- abb cDE  <- abcDE abcde ABcbde  
+ok 6 - abcdbe   <- abb cDE  <- abBCDEE abcde abcdbe
+ok 7 - abcdbe   <- abb cDE  <- abcde abcdbe abBCDEE
+ok 8 - ABc      <- ab       <- abcde ABc abB       
+
+Input: $str = abb cDE
+       @str = abcDE abcde ABcbde
+Output: ABcbde
+ 
+===> 265/2/arne-sommer.raku <===
+bjb
+ 
+===> 265/2/asherbhs.raku <===
+accbbb
+baacd
+bjb
+
+ 
+===> 265/2/athanasius.raku <===
+
+Challenge 265, Task #2: Completing Word (Raku)
+
+Running the test suite
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ok 4 - Sort
+ok 5 - None
+1..5
+ 
+===> 265/2/bruce-gray.raku <===
+1..4
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ok 4 - 
+ 
+===> 265/2/deadmarshal.raku <===
+accbbb
+baacd
+bjb
+ 
+===> 265/2/feng-chang.raku <===
+bjb
+ 
+===> 265/2/laurent-rosenfeld.raku <===
+aBc 11c  - accbbb abc abbc      => accbbb
+Da2 abc  - abcm baacd abaadc    => baacd
+JB 007   - jj bb bjb            => bjb
+ 
+===> 265/2/luca-ferrari.raku <===
+bjb
+ 
+===> 265/2/mark-anderson.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ok 4 - 
+ 
+===> 265/2/packy-anderson.raku <===
+Example 1:
+Input: $str = 'aBc 11c'
+       @str = ('accbbb', 'abc', 'abbc')
+Output: 'accbbb'
+
+Example 2:
+Input: $str = 'Da2 abc'
+       @str = ('abcm', 'baacd', 'abaadc')
+Output: 'baacd'
+
+Example 3:
+Input: $str = 'JB 007'
+       @str = ('jj', 'bb', 'bjb')
+Output: 'bjb'
+ 
+===> 265/2/roger-bell-west.raku <===
+1..3
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ 
+===> 265/2/ulrich-rieke.raku <===
+bjb
+ 
+===> 265/2/wambash.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+1..3
