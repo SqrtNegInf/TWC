@@ -1,19 +1,8 @@
 #!/usr/bin/env perl
 use strict;
 use warnings;
+
 use Statistics::Frequency;
-
-=begin
-In this task, you need to answer two questions:
-1. Does each letter of the given string ($given_str) occur in an element ($element) of the word array (@str)?
-2. Is the frequency of a letter in the given string ($given_str) Less Than or Equal To the frequency in an element ($element) of the word array (@str)?
-
-To put it another way:
-
-if( (index($element, $char_given_str) == -1) || $f1->frequency($char_given_str) > $f2->frequency($char_given_str)) -> no success
-
-where $f1 refers to $given_str and $f2 to an element of @str
-=cut
 
 sub completing_word {
 

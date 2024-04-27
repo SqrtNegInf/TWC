@@ -1,29 +1,8 @@
 #!/usr/bin/env perl
-
-=pod
-
-The Weekly Challenge - 265
-- https://theweeklychallenge.org/blog/perl-weekly-challenge-265
-
-Author: Niels 'PerlBoy' van Dijke
-
-Task 2: Completing Word
-Submitted by: Mohammad Sajid Anwar
-
-You are given a string, $str containing alphnumeric characters and array of strings 
-(alphabetic characters only), @str.
-
-Write a script to find the shortest completing word. If none found return empty string.
-
-|| A completing word is a word that contains all the letters in the given string,
-|| ignoring space and number. If a letter appeared more than once in the given string
-|| then it must appear the same number or more in the word.
-
-=cut
-
 use v5.32;
 use feature qw(signatures);
-use common::sense;
+
+#use common::sense;
 
 use Test2::V0 -srand => 1;
 

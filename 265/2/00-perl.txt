@@ -50,6 +50,11 @@ ok 6 - long string count
 ===> 265/2/james-smith.pl <===
  
 ===> 265/2/jo-37.pl <===
+# Seeded srand with seed '1' from import arg.
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+1..3
  
 ===> 265/2/kjetillll.pl <===
 ok 1
@@ -126,6 +131,11 @@ Input:  $str = 'zz', @str = ('the', 'weekly', 'challenge', 'is', 'a', 'puzzle')
 Output: 'puzzle'
  
 ===> 265/2/peter-meszaros.pl <===
+# Seeded srand with seed '1' from import arg.
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+1..3
  
 ===> 265/2/reinier-maliepaard.pl <===
 Result: accbbb
@@ -147,11 +157,6 @@ No solution found!
 'Da2 abc' ('abcm', 'baacd', 'abaadc') -> baacd
 'JB 007' ('jj', 'bb', 'bjb') -> bjb
  
-===> 265/2/ulrich-rieke.pl <===
-Enter an alphanumeric string!
-Enter some alphabetic strings!
- 
- 
 ===> 265/2/wanderdoc.pl <===
 # Seeded srand with seed '1' from import arg.
 ok 1 - Example 1
@@ -159,8 +164,6 @@ ok 2 - Example 2
 ok 3 - Example 3
 ok 4 - Example Empty
 1..4
- 
-===> 265/2/wlmb.pl <===
  
 ===> 265/2/zapwai.pl <===
 Input:  $str = aBc 11c

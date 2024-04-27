@@ -1,5 +1,7 @@
 #!/usr/bin/env perl
 use v5.36;
+no warnings 'uninitialized';
+
 my $str = 'aBc 11c';
 my @str = ('accbbb', 'abc', 'abbc');
 proc($str, @str);

@@ -1,4 +1,5 @@
 #!/usr/bin/env perl
+
 sub completed_word {
   my ( %needle, $shortest );
 

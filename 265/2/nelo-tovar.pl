@@ -1,15 +1,8 @@
 #!/usr/bin/env perl
-
-# The Weekly Challenge 265 - By Nelo Tovar
-#
-# https://theweeklychallenge.org/blog/perl-weekly-challenge-265/
-#
-# Task 2 - Completing Word
-#
-
+use v5.28;
 use strict;
 use warnings;
-use v5.28;
+
 use List::Util qw (min max);
 use Algorithm::Combinatorics qw(combinations);
 use Data::Dump qw(dump);

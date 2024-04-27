@@ -1,7 +1,7 @@
 #!/usr/bin/env perl
-package Ch2;
 use strict;
 use warnings;
+
 use List::Util qw(min);
 
 sub shortest_completing_word {

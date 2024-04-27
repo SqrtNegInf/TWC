@@ -1,11 +1,5 @@
 #!/usr/bin/env perl
-
-# Blog: http://ccgi.campbellsmiths.force9.co.uk/challenge
-
-use v5.26;    # The Weekly Challenge - 2024-04-15
-use utf8;     # Week 265 - task 2 - Completing word
-use warnings; # Peter Campbell Smith
-binmode STDOUT, ':utf8';
+use v5.36;
 
 completing_word('aBc 11c', ['accbbb', 'abc', 'abbc']);
 completing_word('Da2 abc', ['abcm', 'baacd', 'abaadc']);
