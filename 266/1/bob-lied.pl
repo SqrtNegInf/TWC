@@ -21,7 +21,7 @@
 #           Output: ('')
 #=============================================================================
 
-use v5.38;
+use v5.36;
 
 use builtin qw/true false trim/; no warnings "experimental::builtin";
 

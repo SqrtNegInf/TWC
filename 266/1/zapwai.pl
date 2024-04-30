@@ -1,5 +1,5 @@
 #!/usr/bin/env perl
-use v5.38;
+use v5.36;
 
 my $line1 = 'Mango is sweet';
 my $line2 = 'Mango is sour';
