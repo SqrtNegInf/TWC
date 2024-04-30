@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use Data::Show;
+use v5.36;
 
 sub uncommon_words{
   my %h;
@@ -9,7 +7,7 @@ sub uncommon_words{
   sort grep{$h{$_} == 1} keys %h;
 }
 
-print show uncommon_words('Mango is sweet','Mango is sour');
-print show uncommon_words('Mango Mango','Orange');
-print show uncommon_words('Mango is Mango','Orange is Orange');
+say join ' ', uncommon_words('Mango is sweet','Mango is sour');
+say uncommon_words('Mango Mango','Orange');
+say uncommon_words('Mango is Mango','Orange is Orange');
 

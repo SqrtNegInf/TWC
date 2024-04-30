@@ -1,6 +1,4 @@
 #!/usr/bin/env perl
-# The Weekly Challenge 266
-# Task 1 Uncommon Words
 use v5.30.0;
 use warnings;
 

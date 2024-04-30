@@ -1,0 +1,178 @@
+ 
+===> 266/1/athanasius.pl <===
+
+Challenge 266, Task #1: Uncommon Words (Perl)
+
+Running the test suite
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ok 4 - Case
+ok 5 - Plurals
+ok 6 - Possessives
+ok 7 - Dash
+ok 8 - Hyphen
+ok 9 - Punctuation
+ok 10 - Quotes
+1..10
+ 
+===> 266/1/bob-lied.pl <===
+# Seeded srand with seed '1' from import arg.
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+1..3
+ 
+===> 266/1/cheok-yin-fung.pl <===
+# Seeded srand with seed '1' from import arg.
+ok 1
+ok 2
+ok 3
+1..3
+ 
+===> 266/1/dave-jacoby.pl <===
+    Input:  $line1 = 'Mango is sweet'
+            $line2 = 'Mango is sour'
+    Output: ('sweet', 'sour')
+
+    Input:  $line1 = 'Mango Mango'
+            $line2 = 'Orange'
+    Output: ('Orange')
+
+    Input:  $line1 = 'Mango is Mango'
+            $line2 = 'Orange is Orange'
+    Output: ('')
+
+    Input:  $line1 = 'Mango is not Orange'
+            $line2 = 'Orange isn't Mango'
+    Output: ('is', 'not', 'isn\'t')
+
+ 
+===> 266/1/deadmarshal.pl <===
+sour sweet
+orange
+
+ 
+===> 266/1/e-choroba.pl <===
+# Seeded srand with seed '1' from import arg.
+1..3
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ 
+===> 266/1/james-smith.pl <===
+sour sweet
+ 
+===> 266/1/jo-37.pl <===
+# Seeded srand with seed '1' from import arg.
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ok 4 - ignore non-alpha
+1..4
+ 
+===> 266/1/laurent-rosenfeld.pl <===
+Mango is sweet     - Mango is sour      => sour sweet
+Mango Mango        - Orange             => Orange
+Mango is Mango     - Orange is Orange   => ''
+ 
+===> 266/1/lubos-kolouch.pl <===
+1..3
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ 
+===> 266/1/nelo-tovar.pl <===
+Input : line1 = Mango is sweet
+        line2 = Mango is sour
+Output : ("sweet", "sour")
+ 
+Input : line1 = Mango Mango
+        line2 = Orange
+Output : "orange"
+ 
+Input : line1 = Mango is Mango
+        line2 = Orange is Orange
+Output : ()
+ 
+ 
+===> 266/1/packy-anderson.pl <===
+Example 1:
+Input: $line1 = 'Mango is sweet'
+       $line2 = 'Mango is sour'
+Output: ('sweet', 'sour')
+
+Example 2:
+Input: $line1 = 'Mango Mango'
+       $line2 = 'Orange'
+Output: ('Orange')
+
+Example 3:
+Input: $line1 = 'Mango is Mango'
+       $line2 = 'Orange is Orange'
+Output: ('')
+ 
+===> 266/1/perlboy1967.pl <===
+# Seeded srand with seed '1' from import arg.
+ok 1
+ok 2
+ok 3
+1..3
+ 
+===> 266/1/peter-campbell-smith.pl <===
+
+Input:  $line1 = 'Mango is sweet'
+        $line2 = 'Mango is sour'
+Output: ('sour', 'sweet')
+
+Input:  $line1 = 'Roses are red'
+        $line2 = 'Violets are blue'
+Output: ('blue', 'red', 'roses', 'violets')
+
+Input:  $line1 = 'Red red roses are sweet'
+        $line2 = 'Roses are sweet'
+Output: ('')
+
+Input:  $line1 = 'London is the capital of the UK'
+        $line2 = 'The capital of the UK is London'
+Output: ('')
+
+Input:  $line1 = 'Alpha Bravo Charlie Delta Echo'
+        $line2 = 'Foxtrot Golf Hotel India Juliett'
+Output: ('alpha', 'bravo', 'charlie', 'delta', 'echo', 'foxtrot', 'golf', 'hotel', 'india', 'juliett')
+ 
+===> 266/1/peter-meszaros.pl <===
+# Seeded srand with seed '1' from import arg.
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+1..3
+ 
+===> 266/1/reinier-maliepaard.pl <===
+('sour', 'sweet')
+('Orange')
+()
+ 
+===> 266/1/roger-bell-west.pl <===
+1..3
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ 
+===> 266/1/sgreen.pl <===
+('')
+ 
+===> 266/1/wanderdoc.pl <===
+# Seeded srand with seed '1' from import arg.
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+1..3
+ 
+===> 266/1/zapwai.pl <===
+Input: $line1 = Mango is sweet; $line2 = Mango is sour
+Output: sour sweet
+Input: $line1 = Mango Mango; $line2 = Orange
+Output: Orange
+Input: $line1 = Mango is Mango; $line2 = Orange is Orange
+Output: 
