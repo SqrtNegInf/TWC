@@ -1,29 +1,6 @@
 #!/usr/bin/env raku
-# :vim ft=raku sw=4 expandtab  # 🦋 ∅∪∩∋∈∉⊆ ≡ ≢ «␤ » ∴
-use v6.d;
+
 use Test;
-
-=begin comment
-266-1: Uncommon Words           Submitted by: Mohammad Sajid Anwar
-You are given two sentences, $line1 and $line2.
-
-Write a script to find all uncommmon words in any order in the given two sentences. Return ('') if none found.
-
-A word is uncommon if it appears exactly once in one of the sentences and doesn’t appear in other sentence.
-
-Example 1
-Input: $line1 = 'Mango is sweet'
-       $line2 = 'Mango is sour'
-Output: ('sweet', 'sour')
-Example 2
-Input: $line1 = 'Mango Mango'
-       $line2 = 'Orange'
-Output: ('Orange')
-Example 3
-Input: $line1 = 'Mango is Mango'
-       $line2 = 'Orange is Orange'
-Output: ('')
-=end comment
 
 my @Test =
     #  in-a           in-b                result             result-lc

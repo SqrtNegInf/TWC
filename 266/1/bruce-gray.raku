@@ -1,5 +1,4 @@
 #!/usr/bin/env raku
-# Just as easy to solve this task for any number of lines, instead of just two.
 
 # Common code for "list elements occuring only once".
 constant &non-dups = *.Bag.grep( *.value == 1 )».key;

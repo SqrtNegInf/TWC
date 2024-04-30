@@ -1,13 +1,6 @@
 #!/usr/bin/env raku
 
-#
-# Perl Weekly Challenge 266
-# Task 1
-#
-# See <https://perlweeklychallenge.org/blog/perl-weekly-challenge-266>
-#
-
-sub MAIN( Str $left, Str $right ) {
+sub MAIN( Str $left = 'Mango is sweet', Str $right = 'Mango is sour') {
     my $bag-left  = Bag.new( $left.split( / \W+ / ).map( { .lc } ) );
     my $bag-right = Bag.new( $right.split( / \W+ / ).map( { .lc } ) );
 

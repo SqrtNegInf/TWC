@@ -1,0 +1,105 @@
+ 
+===> 266/1/0rir.raku <===
+1..8
+ok 1 - sweet sour <- Mango is sweet / Mango is sour
+ok 2 - sweet sour <- Mango is sweet / Mango is sour
+ok 3 - Orange <- Mango Mango / Orange
+ok 4 - orange <- Mango Mango / Orange
+ok 5 -  <- Mango is Mango / Orange is Orange
+ok 6 -  <- Mango is Mango / Orange is Orange
+ok 7 -  <-  / 
+ok 8 -  <-  / 
+
+Input: $line1 = 'Ripe mango is sweet'
+       $line2 = 'New mango is sour'
+Output: ('sweet' 'sour' 'Ripe' 'New')
+ 
+===> 266/1/arne-sommer.raku <===
+('sweet', 'sour')
+ 
+===> 266/1/athanasius.raku <===
+
+Challenge 266, Task #1: Uncommon Words (Raku)
+
+Running the test suite
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ok 4 - Case
+ok 5 - Plurals
+ok 6 - Possessives
+ok 7 - Dash
+ok 8 - Hyphen
+ok 9 - Punctuation
+ok 10 - Quotes
+1..10
+ 
+===> 266/1/barroff.raku <===
+1..3
+ok 1 - works for "Mango is sweet"
+ok 2 - works for "Mango Mango"
+ok 3 - works for "Mango is Mango"
+ 
+===> 266/1/bruce-gray.raku <===
+1..9
+ok 1 - task1_reduce : Mango is sweet
+ok 2 - task1_reduce : Mango Mango
+ok 3 - task1_reduce : Mango is Mango
+ok 4 - task1_rethought : Mango is sweet
+ok 5 - task1_rethought : Mango Mango
+ok 6 - task1_rethought : Mango is Mango
+ok 7 - task1_set_subtraction : Mango is sweet
+ok 8 - task1_set_subtraction : Mango Mango
+ok 9 - task1_set_subtraction : Mango is Mango
+ 
+===> 266/1/deadmarshal.raku <===
+(sour sweet)
+(orange)
+()
+ 
+===> 266/1/feng-chang.raku <===
+sour sweet
+ 
+===> 266/1/jaldhar-h-vyas.raku <===
+('sour', 'sweet')
+ 
+===> 266/1/laurent-rosenfeld.raku <===
+Mango is sweet     - Mango is sour      => (sweet sour)
+Mango Mango        - Orange             => (Orange)
+Mango is Mango     - Orange is Orange   => ()
+ 
+===> 266/1/luca-ferrari.raku <===
+sweet, sour
+ 
+===> 266/1/mark-anderson.raku <===
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ 
+===> 266/1/packy-anderson.raku <===
+Example 1:
+Input: $line1 = 'Mango is sweet'
+       $line2 = 'Mango is sour'
+Output: ('sour', 'sweet')
+
+Example 2:
+Input: $line1 = 'Mango Mango'
+       $line2 = 'Orange'
+Output: ('Orange')
+
+Example 3:
+Input: $line1 = 'Mango is Mango'
+       $line2 = 'Orange is Orange'
+Output: ('')
+ 
+===> 266/1/roger-bell-west.raku <===
+1..3
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ 
+===> 266/1/wambash.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+1..3
