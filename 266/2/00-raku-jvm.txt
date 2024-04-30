@@ -1,0 +1,149 @@
+ 
+===> 266/2/0rir.raku <===
+1..10
+ok 1 - True <- [[1],]
+ok 2 - False <- [[0],]
+ok 3 - True <- [[1, 1], [2, 2]]
+ok 4 - False <- [[1, 0], [2, 2]]
+ok 5 - False <- [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+ok 6 - True <- [[1, 0, 3], [0, 5, 0], [7, 0, 9]]
+ok 7 - True <- [[1, 0, 2], [0, 3, 0], [4, 0, 5]]
+ok 8 - True <- [[1, 0, 0, 2], [0, 3, 4, 0], [0, 5, 6, 0], [7, 0, 0, 1]]
+ok 9 - [] No numbers
+ok 10 - [(),] No numbers
+
+Input: @matrix =  [
+                     [1, 0, 0, 2]
+                     [0, 3, 4, 0]
+                     [0, 5, 6, 0]
+                     [7, 0, 0, 1]
+                  ]
+
+Output: True
+ 
+===> 266/2/arne-sommer.raku <===
+true
+ 
+===> 266/2/athanasius.raku <===
+
+Challenge 266, Task #2: X Matrix (Raku)
+
+Running the test suite
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+1..3
+ 
+===> 266/2/barroff.raku <===
+1..3
+ok 1 - works for matrix 1
+ok 2 - works for matrix 2
+ok 3 - works for matrix 3
+ 
+===> 266/2/bruce-gray.raku <===
+1..9
+ok 1 - task2_efficient : Task example 1
+ok 2 - task2_efficient : Task example 2
+ok 3 - task2_efficient : Task example 3
+ok 4 - task2_concise : Task example 1
+ok 5 - task2_concise : Task example 2
+ok 6 - task2_concise : Task example 3
+ok 7 - task2_copy : Task example 1
+ok 8 - task2_copy : Task example 2
+ok 9 - task2_copy : Task example 3
+ 
+===> 266/2/deadmarshal.raku <===
+True
+False
+True
+ 
+===> 266/2/laurent-rosenfeld.raku <===
+[1 0 0 2   ...] => True
+[1 2 3     ...] => False
+[1 0 2     ...] => True
+ 
+===> 266/2/luca-ferrari.raku <===
+True
+ 
+===> 266/2/mark-anderson.raku <===
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ok 4 - 20 X 20
+ok 5 - 20 X 20 diagonal zero
+ok 6 - 20 X 20 non-diagonal non-zero
+ok 7 - 21 X 21
+ok 8 - 21 X 21 diagonal zero
+ok 9 - 21 X 21 non-diagonal non-zero
+ 
+===> 266/2/packy-anderson.raku <===
+Example 1:
+Input: $matrix = [
+                   [1, 0, 0, 2],
+                   [0, 3, 4, 0],
+                   [0, 5, 6, 0],
+                   [7, 0, 0, 1]
+                 ]
+Output: True
+
+Example 2:
+Input: $matrix = [
+                   [1, 2, 3],
+                   [4, 5, 6],
+                   [7, 8, 9]
+                 ]
+Output: False
+
+Example 3:
+Input: $matrix = [
+                   [1, 0, 2],
+                   [0, 3, 0],
+                   [4, 0, 5]
+                 ]
+Output: True
+
+Example 4:
+Input: $matrix = [
+                   [1, 0, 0, 0, 1],
+                   [0, 1, 0, 1, 0],
+                   [0, 0, 1, 0, 0],
+                   [0, 1, 0, 1, 0],
+                   [1, 0, 0, 0, 1]
+                 ]
+Output: True
+
+Example 5:
+Input: $matrix = [
+                   [1, 0, 1, 0, 1],
+                   [0, 1, 0, 1, 0],
+                   [0, 0, 1, 0, 0],
+                   [0, 1, 0, 1, 0],
+                   [1, 0, 0, 0, 1]
+                 ]
+Output: False
+
+Example 6:
+Input: $matrix = [
+                   [1, 1],
+                   [1, 1]
+                 ]
+Output: True
+
+Example 7:
+Input: $matrix = [
+                   [1, 0],
+                   [1, 1]
+                 ]
+Output: False
+ 
+===> 266/2/roger-bell-west.raku <===
+1..3
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ 
+===> 266/2/wambash.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+1..3

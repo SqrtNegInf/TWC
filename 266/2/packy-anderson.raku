@@ -1,5 +1,4 @@
 #!/usr/bin/env raku
-use v6;
 
 sub isDiagonal($x, $y, $N) {
   return (

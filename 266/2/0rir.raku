@@ -1,25 +1,6 @@
 #!/usr/bin/env raku
-# :vim ft=raku sw=4 expandtab  # 🦋 ∅∪∩∋∈∉⊆ ≡ ≢ «␤ » ∴
-use v6.d;
+
 use Test;
-
-=begin comment
-266-2: X Matrix         Submitted by: Mohammad Sajid Anwar
-You are given a square matrix, $matrix.
-
-Write a script to find if the given matrix is X Matrix.
-
-A square matrix is an X Matrix if all the elements on the main diagonal and antidiagonal are non-zero and everything else are zero.
-
-Example 1
-Input: $matrix = [ [1, 0, 0, 2],
-                   [0, 3, 4, 0],
-                   [0, 5, 6, 0],
-                   [7, 0, 0, 1],
-                 ]
-Output: true
-
-=end comment
 
 my @Dead =  [],     [[,],] ;
 

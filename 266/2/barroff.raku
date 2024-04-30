@@ -1,7 +1,5 @@
 #!/usr/bin/env raku
 
-use v6.d;
-
 sub x-matrix(@matrix --> Bool:D) {
    so True == map(
        { ($_[0] + $_[1] == @matrix.elems - 1) or ($_[0] == $_[1])
@@ -13,7 +11,7 @@ sub x-matrix(@matrix --> Bool:D) {
 }
 
 #| Run test cases
-multi sub MAIN('test') {
+#multi sub MAIN('test') {
     use Test;
     plan 3;
 
@@ -30,4 +28,4 @@ multi sub MAIN('test') {
                   [0, 3, 0],
                   [4, 0, 5],
                  ]), True, 'works for matrix 3';
-}
+#}

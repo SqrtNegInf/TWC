@@ -1,4 +1,5 @@
 #!/usr/bin/env raku
+
 sub is-x-matrix (@m) {
     my $end = @m.end; # end = size - 1
     for 0..$end -> $i {

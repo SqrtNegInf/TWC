@@ -11,7 +11,7 @@ sub x-matrix (+matrix) {
     andthen .all
 }
 
-multi MAIN (Bool :test($)!) {
+#multi MAIN (Bool :test($)!) {
     use Test;
 
     is x-matrix(
@@ -34,8 +34,6 @@ multi MAIN (Bool :test($)!) {
     ), True;
 
     done-testing;
-}
+#}
 
-multi MAIN (+matrix) {
-    say ?x-matrix matrix.map: *.comb: /\d+/
-}
+#multi MAIN (+matrix) { say ?x-matrix matrix.map: *.comb: /\d+/ }

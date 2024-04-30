@@ -2,6 +2,7 @@
 # Walk the matrix once, noting by coordinate whether the cell
 # is on either of the diagonals.
 # Early return on first cell containing the wrong (zero/non-zero) value.
+
 sub task2_efficient ( @mat --> Bool ) {
     die "Ill-defined for matrix of size zero" unless @mat.elems;
     die "Not square" unless @mat.elems == @mat».elems.all;
