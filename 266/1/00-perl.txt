@@ -100,7 +100,7 @@ Output : ()
 Example 1:
 Input: $line1 = 'Mango is sweet'
        $line2 = 'Mango is sour'
-Output: ('sweet', 'sour')
+Output: ('sour', 'sweet')
 
 Example 2:
 Input: $line1 = 'Mango Mango'

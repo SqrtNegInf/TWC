@@ -2,7 +2,7 @@
 use strict;
 use warnings;
 
-use Test2::V0 -srand => 1;
+use Test2::V0 -no_srand => 1;
 
 my $mtr_1 = [ [1, 0, 0, 2],
               [0, 3, 4, 0],

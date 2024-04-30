@@ -3,7 +3,7 @@ use v5.36;
 
 #use common::sense;
 
-use Test2::V0 -srand => 1;
+use Test2::V0 -no_srand => 1;
 
 sub isXmatrix ($ar) {
   my $d = scalar @$ar-1;

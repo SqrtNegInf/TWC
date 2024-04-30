@@ -45,7 +45,7 @@ sub xmatrix($matrix)
 
 sub runTest
 {
-    use Test2::V0 -srand => 1;
+    use Test2::V0 -no_srand => 1;
 use builtin qw/true false/; no warnings "experimental::builtin";
 
     my $matrix;
