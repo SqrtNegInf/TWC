@@ -1,42 +1,8 @@
 #!/usr/bin/env perl
 use strict;
-use warnings FATAL => qw(all);
-
-=prompt
-You are given a square matrix, $matrix.
-
-Write a script to find if the given matrix is X Matrix.
-
-    A square matrix is an X Matrix if all the elements on the main diagonal and antidiagonal are non-zero and everything else are zero.
-
-Example 1
-
-Input: $matrix = [ [1, 0, 0, 2],
-                   [0, 3, 4, 0],
-                   [0, 5, 6, 0],
-                   [7, 0, 0, 1],
-                 ]
-Output: true
-
-Example 2
-
-Input: $matrix = [ [1, 2, 3],
-                   [4, 5, 6],
-                   [7, 8, 9],
-                 ]
-Output: false
-
-Example 3
-
-Input: $matrix = [ [1, 0, 2],
-                   [0, 3, 0],
-                   [4, 0, 5],
-                 ]
-Output: true
-=cut
+use warnings;
 
 use Test2::V0 -srand => 1;
-
 
 my $mtr_1 = [ [1, 0, 0, 2],
               [0, 3, 4, 0],

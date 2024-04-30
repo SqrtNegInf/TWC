@@ -1,15 +1,9 @@
 #!/usr/bin/env perl
-
-# The Weekly Challenge 266 - By Nelo Tovar
-#
-# https://theweeklychallenge.org/blog/perl-weekly-challenge-266/
-#
-# Task 2 - X Matrix
-#
+use v5.28;
 
 use strict;
 use warnings;
-use v5.28;
+
 use List::Util qw (min max);
 use Algorithm::Combinatorics qw(combinations);
 use Data::Dump qw(dump);

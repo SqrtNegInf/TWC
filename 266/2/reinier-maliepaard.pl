@@ -1,7 +1,6 @@
 #!/usr/bin/env perl
 use strict;
 use warnings;
-#-------------------------------------------
 
 sub is_x_matrix {
     my $matrix = shift;

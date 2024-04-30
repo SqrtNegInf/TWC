@@ -1,11 +1,7 @@
 #!/usr/bin/env perl
 
-# Blog: http://ccgi.campbellsmiths.force9.co.uk/challenge
-
 use v5.26;    # The Weekly Challenge - 2024-04-22
-use utf8;     # Week 266 - task 2 - X matrix
 use warnings; # Peter Campbell Smith
-binmode STDOUT, ':utf8';
 
 x_matrix([ [1, 0, 0, 2],
            [0, 3, 4, 0],

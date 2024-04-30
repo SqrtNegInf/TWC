@@ -1,27 +1,7 @@
 #!/usr/bin/env perl
+use v5.36;
 
-=pod
-
-The Weekly Challenge - 266
-- https://theweeklychallenge.org/blog/perl-weekly-challenge-266
-
-Author: Niels 'PerlBoy' van Dijke
-
-Task 2: X Matrix
-Submitted by: Mohammad Sajid Anwar
-
-You are given a square matrix, $matrix.
-
-Write a script to find if the given matrix is X Matrix.
-
-|| A square matrix is an X Matrix if all the elements on the main diagonal
-|| and antidiagonal are non-zero and everything else are zero.
-
-=cut
-
-use v5.32;
-use feature qw(signatures);
-use common::sense;
+#use common::sense;
 
 use Test2::V0 -srand => 1;
 

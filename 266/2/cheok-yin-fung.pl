@@ -1,6 +1,4 @@
 #!/usr/bin/env perl
-# The Weekly Challenge 266
-# Task 2 X Matrix
 use v5.30.0;
 use warnings;
 

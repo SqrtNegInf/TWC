@@ -1,30 +1,4 @@
 #!/usr/bin/env perl
-# vim:set ts=4 sw=4 sts=4 et ai wm=0 nu:
-#=============================================================================
-# Copyright (c) 2024, Bob Lied
-#=============================================================================
-# ch-2.pl Perl Weekly Challenge 266 Task 2 X Matrix
-#=============================================================================
-# You are given a square matrix, $matrix.
-# Write a script to find if the given matrix is X Matrix.
-# A square matrix is an X Matrix if all the elements on the main diagonal
-# and antidiagonal are non-zero and everything else are zero.
-#
-# Example 1 Input: $matrix = [ [1, 0, 0, 2],
-#                              [0, 3, 4, 0],
-#                              [0, 5, 6, 0],
-#                              [7, 0, 0, 1], ]
-#           Output: true
-# Example 2 Input: $matrix = [ [1, 2, 3],
-#                              [4, 5, 6],
-#                              [7, 8, 9], ]
-#           Output: false
-# Example 3 Input: $matrix = [ [1, 0, 2],
-#                              [0, 3, 0],
-#                              [4, 0, 5], ]
-#           Output: true
-#=============================================================================
-
 use v5.36;
 
 use builtin qw/true false/; no warnings "experimental::builtin";
@@ -34,7 +8,7 @@ my $Verbose = 0;
 my $DoTest  = 0;
 
 GetOptions("test" => \$DoTest, "verbose" => \$Verbose);
-exit(!runTest()) if $DoTest;
+runTest();exit;
 
 use List::Util qw/all/;
 sub isZero(@elem)    { return all { $_ == 0 } @elem; }
@@ -71,7 +45,7 @@ sub xmatrix($matrix)
 
 sub runTest
 {
-    use Test2::V0;
+    use Test2::V0 -srand => 1;
 use builtin qw/true false/; no warnings "experimental::builtin";
 
     my $matrix;
