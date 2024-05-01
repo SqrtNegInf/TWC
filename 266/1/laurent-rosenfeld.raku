@@ -9,5 +9,5 @@ my @tests = ('Mango is sweet', 'Mango is sour'),
             ('Mango is Mango', 'Orange is Orange');
 for @tests -> @test {
     printf "%-18s - %-18s => ", @test[0], @test[1];
-    say uncommon @test[0], @test[1];
+    say sort uncommon @test[0], @test[1];
 }

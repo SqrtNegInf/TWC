@@ -60,7 +60,7 @@ sour sweet
 ('sour', 'sweet')
  
 ===> 266/1/laurent-rosenfeld.raku <===
-Mango is sweet     - Mango is sour      => (sweet sour)
+Mango is sweet     - Mango is sour      => (sour sweet)
 Mango Mango        - Orange             => (Orange)
 Mango is Mango     - Orange is Orange   => ()
  
@@ -76,7 +76,7 @@ ok 3 - example 3
 Example 1:
 Input: $line1 = 'Mango is sweet'
        $line2 = 'Mango is sour'
-Output: ('sweet', 'sour')
+Output: ('sour', 'sweet')
 
 Example 2:
 Input: $line1 = 'Mango Mango'
