@@ -1,8 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
 
-#use common::sense;
-
 use Test2::V0 -no_srand => 1;
 
 sub isXmatrix ($ar) {
