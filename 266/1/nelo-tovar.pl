@@ -1,17 +1,7 @@
 #!/usr/bin/env perl
+use v5.36;
 
-# The Weekly Challenge 266 - By Nelo Tovar
-#
-# https://theweeklychallenge.org/blog/perl-weekly-challenge-266/
-#
-# Task 1 - Uncommon Words
-#
-
-use strict;
-use warnings;
-use v5.28;
 use List::MoreUtils qw(none singleton);
-#use Data::Dump qw(dump);
 
 my @examples = (
     {line1 => 'Mango is sweet', line2 => 'Mango is sour' },

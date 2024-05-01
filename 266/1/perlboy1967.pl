@@ -1,28 +1,5 @@
 #!/usr/bin/env perl
-
-=pod
-
-The Weekly Challenge - 266
-- https://theweeklychallenge.org/blog/perl-weekly-challenge-266
-
-Author: Niels 'PerlBoy' van Dijke
-
-Task 1: Uncommon Words
-Submitted by: Mohammad Sajid Anwar
-
-You are given two sentences, $line1 and $line2.
-
-Write a script to find all uncommmon words in any order in the given two sentences.
-Return ('') if none found.
-
-|| A word is uncommon if it appears exactly once in one of the sentences and doesn’t
-appear in other sentence.
-
-=cut
-
-use v5.32;
-use feature qw(signatures);
-use common::sense;
+use v5.36;
 
 use Test2::V0 -srand => 1;
 

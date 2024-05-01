@@ -1,11 +1,5 @@
 #!/usr/bin/env perl
-
-# Blog: http://ccgi.campbellsmiths.force9.co.uk/challenge
-
-use v5.26;    # The Weekly Challenge - 2024-04-22
-use utf8;     # Week 266 - task 1 - Uncommon words
-use warnings; # Peter Campbell Smith
-binmode STDOUT, ':utf8';
+use v5.36;
 
 uncommon_words('Mango is sweet', 'Mango is sour');
 uncommon_words('Roses are red', 'Violets are blue');

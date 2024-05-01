@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-use warnings;
-use strict;
-use experimental qw( signatures );
+use v5.36;
 
 sub uncommon_words($line1, $line2) {
     my %seen;
