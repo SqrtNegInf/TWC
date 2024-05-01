@@ -7,7 +7,7 @@ sub uncommon {
     my %histo;
     $histo{$_}++ for map { split /\s+/ } @_;
     my @result = grep {$histo{$_} == 1} keys %histo;
-    return @result ? join " ", @result : "''";
+    return @result ? join " ", sort { $a cmp $b } @result : "''";
 }
 
 my @tests = ( ['Mango is sweet', 'Mango is sour'],

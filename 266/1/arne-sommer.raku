@@ -14,4 +14,4 @@ for @lines -> $line
 #  say ": Bag: { $bag.raku }" if $verbose;
 }
 
-say '(' ~ $bag.grep({ $_.value == 1 }).map({ "'" ~ $_.key ~ "'" }).join(", ")  ~ ')';
+say '(' ~ $bag.grep({ $_.value == 1 }).map({ "'" ~ $_.key ~ "'" }).sort.join(", ")  ~ ')';

@@ -7,7 +7,7 @@ sub uncommon_words {
     	$counts{$_}++ for split /\W+/, lc
     }
     my @solo = grep { $counts{$_}==1 } keys %counts;
-    @solo ? @solo : '';
+    @solo ? sort { $a cmp $b} @solo : '';
 }
 
 say join ' ', uncommon_words('Mango is sweet', 'Mango is sour')

@@ -27,11 +27,10 @@ for @Test -> $l1, $l2, @exp, @lc {
 
 done-testing;
 
-my $line1 = 'Ripe mango is sweet';
-my $line2 = 'New mango is sour';
-say "\nInput: \$line1 = '$line1'\n"
-    ~ "       \$line2 = '$line2'\nOutput: ", 
-  $ =  (once-words( $line1, $line2)».&( "'" ~ * ~ "'")) ~~ Empty
-    ?? "('')"
-    !! (once-words( $line1, $line2)».&( "'" ~ * ~ "'"));
-
+#my $line1 = 'Ripe mango is sweet';
+#my $line2 = 'New mango is sour';
+#say "\nInput: \$line1 = '$line1'\n"
+#    ~ "       \$line2 = '$line2'\nOutput: ", 
+#  $ =  (once-words( $line1, $line2)».&( "'" ~ * ~ "'")) ~~ Empty
+#    ?? "('')"
+#    !! (once-words( $line1, $line2)».&( "'" ~ * ~ "'"));

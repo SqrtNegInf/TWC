@@ -9,13 +9,9 @@ ok 5 -  <- Mango is Mango / Orange is Orange
 ok 6 -  <- Mango is Mango / Orange is Orange
 ok 7 -  <-  / 
 ok 8 -  <-  / 
-
-Input: $line1 = 'Ripe mango is sweet'
-       $line2 = 'New mango is sour'
-Output: ('sweet' 'sour' 'Ripe' 'New')
  
 ===> 266/1/arne-sommer.raku <===
-('sweet', 'sour')
+('sour', 'sweet')
  
 ===> 266/1/athanasius.raku <===
 
@@ -80,7 +76,7 @@ ok 3 - example 3
 Example 1:
 Input: $line1 = 'Mango is sweet'
        $line2 = 'Mango is sour'
-Output: ('sour', 'sweet')
+Output: ('sweet', 'sour')
 
 Example 2:
 Input: $line1 = 'Mango Mango'

@@ -15,7 +15,7 @@ sub uncommon_word {
     foreach my $k (keys(%freq)) {
       push(@result, "'$k'") if($freq{$k} == 1);
     }
-    print("(", join(", ", @result),")", "\n");
+    print("(", join(", ", sort { $a cmp $b} @result),")", "\n");
 }
 
 my ($s1, $s2);

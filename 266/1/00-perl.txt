@@ -61,7 +61,7 @@ ok 2 - Example 2
 ok 3 - Example 3
  
 ===> 266/1/james-smith.pl <===
-sour sweet
+sweet sour
  
 ===> 266/1/jo-37.pl <===
 # Seeded srand with seed '1' from import arg.
@@ -85,22 +85,22 @@ ok 3 - Example 3
 ===> 266/1/nelo-tovar.pl <===
 Input : line1 = Mango is sweet
         line2 = Mango is sour
-Output : ("sweet", "sour")
+Output : sour sweet
  
 Input : line1 = Mango Mango
         line2 = Orange
-Output : "orange"
+Output : orange
  
 Input : line1 = Mango is Mango
         line2 = Orange is Orange
-Output : ()
+Output : 
  
  
 ===> 266/1/packy-anderson.pl <===
 Example 1:
 Input: $line1 = 'Mango is sweet'
        $line2 = 'Mango is sour'
-Output: ('sour', 'sweet')
+Output: ('sweet', 'sour')
 
 Example 2:
 Input: $line1 = 'Mango Mango'
@@ -149,7 +149,7 @@ ok 3 - Example 3
 1..3
  
 ===> 266/1/reinier-maliepaard.pl <===
-('sour', 'sweet')
+('sweet', 'sour')
 ('Orange')
 ()
  

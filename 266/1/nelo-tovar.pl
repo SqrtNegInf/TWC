@@ -11,7 +11,7 @@ use strict;
 use warnings;
 use v5.28;
 use List::MoreUtils qw(none singleton);
-use Data::Dump qw(dump);
+#use Data::Dump qw(dump);
 
 my @examples = (
     {line1 => 'Mango is sweet', line2 => 'Mango is sour' },
@@ -41,6 +41,6 @@ for my $elements (@examples) {
 
     say 'Input : line1 = ', $elements->{line1};
     say '        line2 = ', $elements->{line2};
-    say 'Output : ', dump(@$uw);
+    say 'Output : ', join ' ', sort { $a cmp $b } (@$uw);
     say ' ';
 }
