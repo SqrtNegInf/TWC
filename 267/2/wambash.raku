@@ -16,15 +16,13 @@ sub line-counts ($str, +widths) {
     andthen .<line sum>
 }
 
-multi MAIN (Bool :test($)!) {
+#multi MAIN (Bool :test($)!) {
     use Test;
     is-deeply join-sum((:str('ab'),:20sum,  :3line), 'c' => 5), \(:str('abc'), :25sum, :3line);
     is-deeply join-sum((:str('abc'),:95sum, :3line), 'd' => 10), \(:str('d'),  :10sum, :4line);
     is-deeply line-counts(([~] 'a'..'z'), 10 xx 26), (3,60);
     is-deeply line-counts('bbbcccdddaaa', 4,slip 10 xx 26), (2,4);
     done-testing;
-}
+#}
 
-multi MAIN ($str, +widths) {
-    put line-counts $str, widths
-}
+#multi MAIN ($str, +widths) { put line-counts $str, widths }

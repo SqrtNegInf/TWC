@@ -1,5 +1,4 @@
 #!/usr/bin/env raku
-use v6;
 
 sub lineCounts($str, @widths) {
   my ($lines, $last_line, $last_width, $explain) =

@@ -1,4 +1,5 @@
 #!/usr/bin/env raku
+
 sub task2 ( Str $s, UInt $print_limit, @character_widths ) {
     my %w = 'a'..'z' Z=> @character_widths;
 

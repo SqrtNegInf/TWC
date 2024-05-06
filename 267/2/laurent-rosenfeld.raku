@@ -1,4 +1,5 @@
 #!/usr/bin/env raku
+
 sub line-count(@in_widths, $in_str) {
     my $i = 0;
     my %widths;
