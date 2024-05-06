@@ -18,7 +18,7 @@ sub solution($line1, $line2) {
   say "Input: \$line1 = '$line1'";
   say "       \$line2 = '$line2'";
   my @results = uncommonWords($line1, $line2);
-  say "Output: ('" ~ @results.join("', '") ~ "')";
+  say "Output: ('" ~ @results.sort.join("', '") ~ "')";
 }
 
 say "Example 1:";
