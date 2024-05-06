@@ -1,5 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
+
 my @ints = (-1, -2, -3, -4, 3, 2, 1);
 proc(@ints);
 @ints = (1, 2, 0, -2, -1);

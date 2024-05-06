@@ -1,7 +1,7 @@
 #!/usr/bin/env perl
 use strict;
 use warnings;
-#-------------------------------------------
+
 sub product_sign {
 	
     foreach (@_) {

@@ -2,12 +2,10 @@
 use strict ;
 use warnings ;
 use feature 'say' ;
+
 use List::Util qw ( product ) ;
 
-say "Enter some integers, separated by ',' !" ;
-my $line = <STDIN> ;
-chomp $line ;
-my @numbers = split( ',' , $line ) ;
+my @numbers = (-1, -2, -3, -4,  3,  2,  1);
 my $prod = product( @numbers ) ;
 my $result ;
 if ( $prod < 0 ) {

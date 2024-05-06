@@ -1,11 +1,7 @@
 #!/usr/bin/env perl
 
-# Blog: http://ccgi.campbellsmiths.force9.co.uk/challenge
-
 use v5.26;    # The Weekly Challenge - 2024-04-292
-use utf8;     # Week 267 - task 1 - Product sign
 use warnings; # Peter Campbell Smith
-binmode STDOUT, ':utf8';
 
 product_sign(-1, -2, -3, -4, 3, 2, 1);
 product_sign(-1, -2, -3, 4, 3, 2, 1);

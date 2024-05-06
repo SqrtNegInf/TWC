@@ -10,11 +10,6 @@ sub product_sign{
     return 1; 
 }
 
-
-
-
-
-
 my @ints;
 @ints = (-1, -2, -3, -4, 3, 2, 1);  
 say product_sign @ints;

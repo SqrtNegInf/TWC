@@ -1,5 +1,5 @@
 #!/usr/bin/env perl
-# Function to find the sign of the product of all integers in the array
+
 sub sign_of_product {
   my @numbers = @_;
   my $product = 1;

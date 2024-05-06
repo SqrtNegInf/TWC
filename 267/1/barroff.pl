@@ -1,5 +1,4 @@
 #!/usr/bin/env perl
-
 use v5.36;
 
 sub product_sign (@ints) {
