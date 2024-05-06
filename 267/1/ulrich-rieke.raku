@@ -1,9 +1,6 @@
 #!/usr/bin/env raku
-use v6 ;
 
-say "Enter some integers, separated by ',' !" ;
-my $line = $*IN.get ;
-my @numbers = $line.split( ',').map( {.Int} ) ;
+my @numbers = (-1, -2, -3, -4,  3,  2,  1);
 my $prod = [*] @numbers ;
 my $result ;
 if ( $prod > 0 ) {
