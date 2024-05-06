@@ -1,7 +1,7 @@
 #!/usr/bin/env perl
 use strict;
 use warnings;
-#-------------------------------------------
+
 sub line_counts {
 
     my ($str, @widths) = @_;

@@ -1,15 +1,8 @@
 #!/usr/bin/env perl
-
-# The Weekly Challenge 267 - By Nelo Tovar
-#
-# https://theweeklychallenge.org/blog/perl-weekly-challenge-267/
-#
-# Task 2 - Line Counts
-#
-
+use v5.28;
 use strict;
 use warnings;
-use v5.28;
+
 use Data::Dump qw(dump);
 
 my @example_lines = ("abcdefghijklmnopqrstuvwxyz", "bbbcccdddaaa");

@@ -1,0 +1,105 @@
+ 
+===> 267/2/adam-russell.pl <===
+3 60
+2 4
+ 
+===> 267/2/athanasius.pl <===
+
+Challenge 267, Task #2: Line Counts (Perl)
+
+Running the test suite
+ok 1 - Example 1: total lines
+ok 2 - Example 1: width of last line
+ok 3 - Example 2: total lines
+ok 4 - Example 2: width of last line
+ok 5 - Empty string: total lines
+ok 6 - Empty string: width of last line
+ok 7 - Wide chars: total lines
+ok 8 - Wide chars: width of last line
+ok 9 - Narrow chars: total lines
+ok 10 - Narrow chars: width of last line
+1..10
+ 
+===> 267/2/bob-lied.pl <===
+ok 1 - Example 1
+ok 2 - Example 2
+1..2
+ 
+===> 267/2/dave-jacoby.pl <===
+        Input:  $str = "abcdefghijklmnopqrstuvwxyz"
+                @widths = (10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10) 
+        Output: (3, 60)
+
+        Input:  $str = "bbbcccdddaaa"
+                @widths = (4,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10) 
+        Output: (2, 4)
+
+ 
+===> 267/2/e-choroba.pl <===
+# Seeded srand with seed '1' from import arg.
+1..2
+ok 1 - Example 1
+ok 2 - Example 2
+ 
+===> 267/2/laurent-rosenfeld.pl <===
+abcdefghijklmnopqrstuvwxyz   => (3, 60)
+bbbcccdddaaa                 => (2, 4)
+ 
+===> 267/2/nelo-tovar.pl <===
+Input : @str = abcdefghijklmnopqrstuvwxyz
+     @widths = (10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10)
+Output : (3, 60)
+ 
+Input : @str = bbbcccdddaaa
+     @widths = (4, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10)
+Output : (2, 4)
+ 
+ 
+===> 267/2/packy-anderson.pl <===
+Example 1:
+Input: $str = "abcdefghijklmnopqrstuvwxyz"
+       @widths = (10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10)
+Output: (3, 60)
+Line 1: abcdefghij (100 pixels)
+Line 2: klmnopqrst (100 pixels)
+Line 3: uvwxyz (60 pixels)
+
+Example 2:
+Input: $str = "bbbcccdddaaa"
+       @widths = (4, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10)
+Output: (2, 4)
+Line 1: bbbcccdddaa (98 pixels)
+Line 2: a (4 pixels)
+
+Example 3:
+Input: $str = "thequickbrownfoxjumpedoverthelazydog"
+       @widths = (7, 8, 7, 8, 7, 5, 8, 8, 4, 4, 8, 4, 12, 8, 8, 8, 8, 5, 6, 4, 8, 8, 12, 8, 8, 7)
+Output: (3, 65)
+Line 1: thequickbrownf (100 pixels)
+Line 2: oxjumpedovert (95 pixels)
+Line 3: helazydog (65 pixels)
+ 
+===> 267/2/peter-meszaros.pl <===
+ok 1
+ok 2
+1..2
+ 
+===> 267/2/reinier-maliepaard.pl <===
+(3, 60)
+(2, 4)
+ 
+===> 267/2/roger-bell-west.pl <===
+1..2
+ok 1 - example 1
+ok 2 - example 2
+ 
+===> 267/2/wanderdoc.pl <===
+ok 1 - Example 1
+ok 2 - Example 2
+1..2
+ 
+===> 267/2/zapwai.pl <===
+Input: abcdefghijklmnopqrstuvwxyz
+Output: (3, 60)
+Input: bbbcccdddaaa
+Output: (2, 4)
