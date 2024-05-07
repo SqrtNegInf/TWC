@@ -555,12 +555,12 @@ Challenge titles and Rosetta-code correspondences (exact, and otherwise)
 264-2 Target Array
 265-1 33% Appearance
 265-2 Completing Word
-266-1
-266-2
-267-1
-267-2
-268-1
-268-2
+266-1 Uncommon Words
+266-2 X Matrix
+267-1 Product Sign
+267-2 Line Count
+268-1 Magic Number
+268-2 Number Game
 269-1
 269-2
 
