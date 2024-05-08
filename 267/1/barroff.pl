@@ -16,11 +16,11 @@ sub MAIN() {
     }
     else {
         #| Run test cases
-        use Test2::V0 qw( is plan );
-        plan 3;
+        use Test::More;
         is product_sign(-1, -2, -3, -4, 3, 2, 1), 1, 'works for (-1, -2, -3, -4, 3, 2, 1)';
         is product_sign(1, 2, 0, -2, -1), 0, 'works for (1, 2, 0, -2, -1)';
         is product_sign(-1, -1, 1, -1, 2), -1, 'works for (-1, -1, 1, -1, 2)';
+        done_testing;
     }
 }
 

@@ -24,7 +24,7 @@ sub prodSign(@ints)
 
 sub runTest
 {
-    use Test2::V0;
+    use Test::More;
 
     is( prodSign(-1, -2, -3, -4,  3, 2, 1),  1, "Example 1");
     is( prodSign( 1,  2,  0, -2, -1      ),  0, "Example 2");
