@@ -561,8 +561,8 @@ Challenge titles and Rosetta-code correspondences (exact, and otherwise)
 267-2 Line Count
 268-1 Magic Number
 268-2 Number Game
-269-1
-269-2
+269-1 Bitwise OR
+269-2 Distribute Elements
 
 270-1
 270-2
