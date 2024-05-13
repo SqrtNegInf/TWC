@@ -1,15 +1,8 @@
 #!/usr/bin/env perl
-
-# The Weekly Challenge 268 - By Nelo Tovar
-#
-# https://theweeklychallenge.org/blog/perl-weekly-challenge-268/
-#
-# Task 1 - Magic Number
-#
+use v5.28;
 
 use strict;
 use warnings;
-use v5.28;
 use Data::Dump qw(dump);
 
 my @examples = (

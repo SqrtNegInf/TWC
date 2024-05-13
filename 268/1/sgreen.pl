@@ -6,6 +6,7 @@ use feature 'say';
 use experimental 'signatures';
 
 sub main (@ints) {
+
     # Check we an even number of items
     if ( $#ints % 2 == 0 ) {
         die "Please provide an even number of items!\n";
@@ -35,4 +36,4 @@ sub main (@ints) {
     say $diff;
 }
 
-main(@ARGV);
+main( <3 7 5 9 5 7> );

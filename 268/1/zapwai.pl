@@ -1,5 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
+
 my @x = (3, 7, 5);
 my @y = (9, 5, 7);
 proc(\@x, \@y);

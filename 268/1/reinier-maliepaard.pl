@@ -1,10 +1,12 @@
 #!/usr/bin/env perl
+use v5.36;
+
 use strict;
 use warnings;
 
-I tried to find a solution without using the obvious 'sort'.
-The solution below is not efficient, but easy to understand and it
-does the job well
+# I tried to find a solution without using the obvious 'sort'.
+# The solution below is not efficient, but easy to understand and it
+# does the job well
 
 sub magic_number {
 
@@ -28,13 +30,11 @@ sub magic_number {
 
                for my $y (0 .. $#arr_2) {
 
-                   # calculate the difference between elements
-                       of the two arrays
+                   # calculate the difference between elements of the two arrays
 
                    my $diff = $arr_2[$y] - $arr_1[$i];
 
-                   # if there is a magic number, then its frequency
-                        must equal the size of @arr_1 (= length @arr_2)
+                   # if there is a magic number, then its frequency must equal the size of @arr_1 (= length @arr_2)
 
                    if (++$differences{$diff} == scalar(@arr_1)) {
                        $magic_number = $diff;

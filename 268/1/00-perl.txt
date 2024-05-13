@@ -1,0 +1,157 @@
+ 
+===> 268/1/athanasius.pl <===
+
+Challenge 268, Task #1: Magic Number (Perl)
+
+Running the test suite
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ok 4 - None
+ok 5 - Zero
+ok 6 - Negative 1
+ok 7 - Negative 2
+1..7
+ 
+===> 268/1/bob-lied.pl <===
+x: (1,2)
+y: (3,4)
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ok 4 - Different lengths
+ok 5 - No magic
+ok 6 - With repeats
+1..6
+ 
+===> 268/1/dave-jacoby.pl <===
+    Input:  @x = (3,7,5)
+            @y = (9,5,7)
+    Output: 2
+
+    Input:  @x = (1,2,1)
+            @y = (5,4,4)
+    Output: 3
+
+    Input:  @x = (2)
+            @y = (5)
+    Output: 3
+
+ 
+===> 268/1/deadmarshal.pl <===
+2
+3
+3
+ 
+===> 268/1/e-choroba.pl <===
+1..3
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ 
+===> 268/1/laurent-rosenfeld.pl <===
+3 7 5  - 9 5 7  => 2
+1 2 1  - 5 4 4  => 3
+2      - 5      => 3
+3 7 5  - 6 5 7  => undef
+ 
+===> 268/1/nelo-tovar.pl <===
+Input : @x = [3, 7, 5]
+        @y = [9, 5, 7]
+Output : 2
+ 
+Input : @x = [1, 2, 1]
+        @y = [5, 4, 4]
+Output : 3
+ 
+Input : @x = [2]
+        @y = [5]
+Output : 3
+ 
+ 
+===> 268/1/packy-anderson.pl <===
+Example 1:
+Input: @x = (3, 7, 5)
+       @y = (9, 5, 7)
+Output: 2
+
+The magic number is 2.
+@x = (3, 7, 5)
+   +  2  2  2
+@y = (5, 9, 7)
+
+Example 2:
+Input: @x = (1, 2, 1)
+       @y = (5, 4, 4)
+Output: 3
+
+The magic number is 3.
+@x = (1, 2, 1)
+   +  3  3  3
+@y = (4, 5, 4)
+
+Example 3:
+Input: @x = (2)
+       @y = (5)
+Output: 3
+
+The magic number is 3.
+@x = (2)
+   +  3
+@y = (5)
+
+Example 4:
+Input: @x = (1, 2)
+       @y = (4, 2)
+Output: no magic number
+ 
+===> 268/1/perlboy1967.pl <===
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ok 4 - Own test
+1..4
+ 
+===> 268/1/peter-campbell-smith.pl <===
+
+Input: @x = (3, 7, 5), @y = (9, 5, 7)
+Output: 2
+
+Input: @x = (1, 2, 1), @y = (5, 4, 4)
+Output: 3
+
+Input: @x = (2), @y = (5)
+Output: 3
+
+Input: @x = (9, 10, 11, 12), @y = (2, 1, 0, -1)
+Output: -10
+ 
+===> 268/1/peter-meszaros.pl <===
+ok 1
+ok 2
+ok 3
+1..3
+ 
+===> 268/1/reinier-maliepaard.pl <===
+The magic number is: 2
+The magic number is: -2
+The magic number is: 3
+The magic number is: -3
+The magic number is: 3
+The magic number is: -3
+No magic number found
+No magic number found
+ 
+===> 268/1/roger-bell-west.pl <===
+1..3
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ 
+===> 268/1/sgreen.pl <===
+2
+ 
+===> 268/1/zapwai.pl <===
+Input:  @x = 3 7 5
+	@y = 9 5 7
+Output: 2

@@ -1,28 +1,10 @@
 #!/usr/bin/env perl
-
-=pod
-
-The Weekly Challenge - 268
-- https://theweeklychallenge.org/blog/perl-weekly-challenge-268
-
-Author: Niels 'PerlBoy' van Dijke
-
-Task 1: Magic Number
-Submitted by: Mohammad Sajid Anwar
-
-You are given two arrays of integers of same size, @x and @y.
-
-Write a script to find the magic number that when added to each 
-elements of one of the array gives the second array. Elements order
-is not important.
-
-=cut
-
 use v5.32;
+
 use feature qw(signatures);
 use common::sense;
 
-use Test2::V0 -srand => 1;
+use Test2::V0 -no_srand;
 
 use List::AllUtils qw(pairwise uniq);
 
