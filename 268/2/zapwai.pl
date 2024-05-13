@@ -1,5 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
+
 my @ints = (2, 5, 3, 4);
 proc(@ints);
 

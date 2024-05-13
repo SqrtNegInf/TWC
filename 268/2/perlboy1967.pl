@@ -1,29 +1,10 @@
 #!/usr/bin/env perl
-
-=pod
-
-The Weekly Challenge - 268
-- https://theweeklychallenge.org/blog/perl-weekly-challenge-268
-
-Author: Niels 'PerlBoy' van Dijke
-
-Task 2: Number Game
-Submitted by: Mohammad Sajid Anwar
-
-You are given an array of integers, @ints, with even number of elements.
-
-Write a script to create a new array made up of elements of the given
-array. Pick the two smallest integers and add it to new array in
-decreasing order i.e. high to low. Keep doing until the given array is
-empty.
-
-=cut
-
 use v5.32;
+
 use feature qw(signatures);
 use common::sense;
 
-use Test2::V0 -srand => 1;
+use Test2::V0 -no_srand;
 
 use List::AllUtils qw(all pairs pairwise);
 

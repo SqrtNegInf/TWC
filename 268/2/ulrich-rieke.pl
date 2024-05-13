@@ -3,10 +3,7 @@ use strict ;
 use warnings ;
 use feature 'say' ;
 
-say "Enter an even number of integers, separated by blanks!" ;
-my $line = <STDIN> ;
-chomp $line ;
-my @numbers = split ( /\s+/ , $line ) ;
+my @numbers = (2, 5, 3, 4);
 my @sorted = sort { $a <=> $b } @numbers ;
 my @target ;
 while ( @sorted ) {

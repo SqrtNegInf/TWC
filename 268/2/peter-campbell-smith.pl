@@ -1,11 +1,7 @@
 #!/usr/bin/env perl
 
-# Blog: http://ccgi.campbellsmiths.force9.co.uk/challenge
-
 use v5.26;    # The Weekly Challenge - 2024-05-06
-use utf8;     # Week 268 - task 2 - Number game
 use warnings; # Peter Campbell Smith
-binmode STDOUT, ':utf8';
 
 number_game(2, 5, 3, 4);
 number_game(9, 4, 1, 3, 6, 4, 6, 1);

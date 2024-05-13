@@ -8,7 +8,7 @@ sub number_game(@ints) {
     return [map { @sorted[$_ * 2 + 1, $_ * 2] } 0 .. $#sorted / 2]
 }
 
-use Test2::V0 -srand => 1;
+use Test2::V0 -no_srand;
 plan(3);
 
 is number_game(2, 5, 3, 4), [3, 2, 5, 4], 'Example 1';

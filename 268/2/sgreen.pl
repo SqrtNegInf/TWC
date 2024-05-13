@@ -23,4 +23,4 @@ sub main (@ints) {
     say '(', join( ', ', @ints ), ')';
 }
 
-main(@ARGV);
+main( (2, 5, 3, 4) );

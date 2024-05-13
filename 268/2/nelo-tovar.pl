@@ -1,15 +1,9 @@
 #!/usr/bin/env perl
-
-# The Weekly Challenge 268 - By Nelo Tovar
-#
-# https://theweeklychallenge.org/blog/perl-weekly-challenge-268/
-#
-# Task 2 - Number Game
-#
+use v5.28;
 
 use strict;
 use warnings;
-use v5.28;
+
 use List::Util qw (min max);
 use Algorithm::Combinatorics qw(combinations);
 use Data::Dump qw(dump);
