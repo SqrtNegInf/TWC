@@ -1,18 +1,19 @@
 #!/usr/bin/env raku
 
-unit sub MAIN (*@ints where @ints.elems > 1 && @ints.elems %% 2 && all(@ints) ~~ Int, :v(:$verbose));
+#unit sub MAIN (*@ints where @ints.elems > 1 && @ints.elems %% 2 && all(@ints) ~~ Int, :v(:$verbose));
+my @ints = (2, 5, 3, 4);
 
 my @sorted = @ints.sort;
 my @new;
 
 while @sorted
 {
-  print ":Sorted: { @sorted.join(",")}" if $verbose;
+#  print ":Sorted: { @sorted.join(",")}" if $verbose;
 
   my $a = @sorted.shift;
   my $b = @sorted.shift;
 
-  say " -> pick $a,$b -> add $b,$a" if $verbose;
+#  say " -> pick $a,$b -> add $b,$a" if $verbose;
 
   @new.append: $b, $a;
 }

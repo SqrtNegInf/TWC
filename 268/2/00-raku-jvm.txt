@@ -1,0 +1,85 @@
+ 
+===> 268/2/0rir.raku <===
+1..9
+ok 1 - 3 2 5 4 <- 2 3 4 5
+ok 2 - 1 1 4 3 6 4 9 6 <- 1 1 3 4 4 6 6 9
+ok 3 - 2 1 3 2 <- 1 2 2 3
+ok 4 -  <- 
+ok 5 - 0 <- 0
+ok 6 - 0 0 <- 0 0
+ok 7 - 0 0 0 <- 0 0 0
+ok 8 - 1 0 3 1 4 4 6 6 9 <- 0 1 1 3 4 4 6 6 9
+ok 9 - 0 0 1 1 4 3 6 4 9 6 <- 0 0 1 1 3 4 4 6 6 9
+ 
+===> 268/2/arne-sommer.raku <===
+(3, 2, 5, 4)
+ 
+===> 268/2/ash.raku <===
+[3 2 5 4]
+[1 1 4 3 6 4 9 6]
+[2 1 3 2]
+ 
+===> 268/2/asherbhs.raku <===
+[3 2 5 4]
+[1 1 4 3 6 4 9 6]
+[2 1 3 2]
+ 
+===> 268/2/athanasius.raku <===
+
+Challenge 268, Task #2: Number Game (Raku)
+
+Running the test suite
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+1..3
+ 
+===> 268/2/bruce-gray.raku <===
+1..6
+ok 1 - task2_also_works_with_odd : 2 5 3 4
+ok 2 - task2_also_works_with_odd : 9 4 1 3 6 4 6 1
+ok 3 - task2_also_works_with_odd : 1 2 2 3
+ok 4 - task2_does_not_need_flat : 2 5 3 4
+ok 5 - task2_does_not_need_flat : 9 4 1 3 6 4 6 1
+ok 6 - task2_does_not_need_flat : 1 2 2 3
+ 
+===> 268/2/feng-chang.raku <===
+3 2 5 4
+ 
+===> 268/2/laurent-rosenfeld.raku <===
+2 5 3 4          => [3 2 5 4]
+1 1 4 3 6 4 9 6  => [1 1 4 3 6 4 9 6]
+1 2 2 3          => [2 1 3 2]
+ 
+===> 268/2/luca-ferrari.raku <===
+3 2 5 4
+ 
+===> 268/2/mark-anderson.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ 
+===> 268/2/packy-anderson.raku <===
+Example 1:
+Input: @ints = (2, 5, 3, 4)
+Output: (3, 2, 5, 4)
+
+Example 2:
+Input: @ints = (9, 4, 1, 3, 6, 4, 6, 1)
+Output: (1, 1, 4, 3, 6, 4, 9, 6)
+
+Example 3:
+Input: @ints = (1, 2, 2, 3)
+Output: (2, 1, 3, 2)
+ 
+===> 268/2/roger-bell-west.raku <===
+1..3
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ 
+===> 268/2/wambash.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+1..3

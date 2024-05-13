@@ -1,4 +1,5 @@
 #!/usr/bin/env raku
+
 sub number-game (@in) {
     my @result;
     for @in.sort -> $i, $j {
