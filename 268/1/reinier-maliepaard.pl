@@ -1,13 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
 
-use strict;
-use warnings;
-
-# I tried to find a solution without using the obvious 'sort'.
-# The solution below is not efficient, but easy to understand and it
-# does the job well
-
 sub magic_number {
 
     # define two arrays

@@ -1,10 +1,7 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use strict;
-use warnings;
 use Test2::V0 -no_srand;
-
-#use Data::Dumper;
 
 my $cases = [
 	[[[3, 7, 5], [9, 5, 7]], 2],

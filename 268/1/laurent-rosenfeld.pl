@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use feature 'say';
+use v5.36;
 
 sub magic_nr  {
     my @in1 = sort {$a<=>$b} @{$_[0]};

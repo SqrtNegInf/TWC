@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-
-use v5.26;    # The Weekly Challenge - 2024-05-06
-use warnings; # Peter Campbell Smith
+use v5.36;
 
 magic_number([3, 7, 5], [9, 5, 7]);
 magic_number([1, 2, 1], [5, 4, 4]);
