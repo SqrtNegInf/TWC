@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-
-use v5.26;    # The Weekly Challenge - 2024-05-06
-use warnings; # Peter Campbell Smith
+use v5.36;
 
 number_game(2, 5, 3, 4);
 number_game(9, 4, 1, 3, 6, 4, 6, 1);
