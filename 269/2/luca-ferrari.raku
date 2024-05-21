@@ -1,15 +1,9 @@
 #!/usr/bin/env raku
 
-#
-# Perl Weekly Challenge 269
-# Task 2
-#
-# See <https://perlweeklychallenge.org/blog/perl-weekly-challenge-269>
-#
-
-sub MAIN( *@nums
-	  where { @nums.elems == @nums.grep( { $_ ~~ Int && $_ > 0 } ).elems
-				  && @nums.elems > 2 } ) {
+#sub MAIN( *@nums
+#	  where { @nums.elems == @nums.grep( { $_ ~~ Int && $_ > 0 } ).elems
+#				  && @nums.elems > 2 } ) {
+my @nums = [5, 4, 3, 8];
 
     my @array1;
     my @array2;
@@ -29,4 +23,4 @@ sub MAIN( *@nums
 
     ( @array1, @array2 ).flat.join( ', ' ).say;
 
-}
+#}

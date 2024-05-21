@@ -13,7 +13,7 @@ sub distributive-elements (+ints) {
   andthen |.head,|.skip.head
 }
 
-multi MAIN (Bool :test($)!) {
+#multi MAIN (Bool :test($)!) {
     use Test;
     is-deeply distributive-reducer(((),()),1), ((1,),());
     is-deeply distributive-reducer(((1,),()),2), ((1,),(2,));
@@ -23,8 +23,6 @@ multi MAIN (Bool :test($)!) {
     is distributive-elements(3, 2, 4), (3, 4, 2);
     is distributive-elements(5, 4, 3, 8), (5, 3, 4, 8);
     done-testing;
-}
+#}
 
-multi MAIN (+ints) {
-    put distributive-elements ints
-}
+#multi MAIN (+ints) { put distributive-elements ints }

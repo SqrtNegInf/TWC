@@ -1,6 +1,7 @@
 #!/usr/bin/env raku
 
-unit sub MAIN(*@ints where +@ints ≥ 2);
+#unit sub MAIN(*@ints where +@ints ≥ 2);
+my @ints = [5, 4, 3, 8];
 
 my (@a, @b);
 @a.push(@ints.shift);

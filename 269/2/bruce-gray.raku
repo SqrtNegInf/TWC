@@ -1,4 +1,5 @@
 #!/usr/bin/env raku
+
 sub task2_basic ( @ns ) {
     my ( $a, $b, @rest ) = @ns;
     my @arr1 = $a;

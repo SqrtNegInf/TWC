@@ -1,7 +1,7 @@
 #!/usr/bin/env raku
 
 sub MAIN(
-    *@ints
+    @ints = [5, 4, 3, 8]
 ) {
     my @arr1 = @ints.shift;
     my @arr2 = @ints.shift;

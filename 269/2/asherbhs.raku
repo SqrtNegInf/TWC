@@ -1,4 +1,5 @@
 #!/usr/bin/env raku
+
 sub distribute-elements(Int:D @ints --> Array:D[Int:D]) {
 	my @arr1 = @ints[0];
 	my @arr2 = @ints[1];
