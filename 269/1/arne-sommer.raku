@@ -1,6 +1,7 @@
 #!/usr/bin/env raku
 
-unit sub MAIN (*@ints where @ints.elems > 1 && all(@ints) ~~ UInt && all(@ints) > 0, :v(:$verbose));
+#unit sub MAIN (*@ints where @ints.elems > 1 && all(@ints) ~~ UInt && all(@ints) > 0, :v(:$verbose));
+my @ints = 1, 2, 3, 4, 5;
 
 for @ints.combinations(2..*) -> @combination
 {
@@ -8,7 +9,7 @@ for @ints.combinations(2..*) -> @combination
   my $binary   = $or.fmt('%b');
   my $trailing = so ($binary ~~ /.0$/);
 
-  say ": Combination: { @combination.join(",") } -> or: $or -> binary: $binary | trailing 0: $trailing" if $verbose;
+  say ": Combination: { @combination.join(",") } -> or: $or -> binary: $binary | trailing 0: $trailing"; # if $verbose;
 
   if $trailing
   {

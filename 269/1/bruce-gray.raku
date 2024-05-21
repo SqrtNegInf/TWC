@@ -1,4 +1,5 @@
 #!/usr/bin/env raku
+
 sub task1_combinations_bit-twiddling ( @ns --> Bool ) {
     return so @ns.grep(* != 0).combinations(2).map({ [+|] .list }).any +& 1 == 0;
 }

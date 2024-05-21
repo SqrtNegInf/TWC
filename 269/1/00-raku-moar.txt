@@ -1,0 +1,118 @@
+ 
+===> 269/1/0rir.raku <===
+1..24
+ok 1 - False <- ()
+ok 2 - False <- ()
+ok 3 - False <- (1)
+ok 4 - False <- (1)
+ok 5 - False <- (2)
+ok 6 - False <- (2)
+ok 7 - True <- (2 10)
+ok 8 - True <- (2 10)
+ok 9 - False <- (2 1)
+ok 10 - False <- (2 1)
+ok 11 - True <- (2 4 8 16 32)
+ok 12 - True <- (2 4 8 16 32)
+ok 13 - True <- (1 3 7 16 32)
+ok 14 - True <- (1 3 7 16 32)
+ok 15 - True <- (1 2 3 4 5)
+ok 16 - True <- (1 2 3 4 5)
+ok 17 - True <- (2 3 8 16)
+ok 18 - True <- (2 3 8 16)
+ok 19 - False <- (1 2 5 7 9)
+ok 20 - False <- (1 2 5 7 9)
+ok 21 - False <- (1 3 5 7 9 11 13 15 17 19…
+ok 22 - False <- (1 3 5 7 9 11 13 15 17 19…
+ok 23 - False <- (2 1 3 5 7 9 11 13 15 17…
+ok 24 - False <- (2 1 3 5 7 9 11 13 15 17…
+
+Input: @int = 1 2 5 7 9 11 13 15 2000000
+Output: True
+ 
+===> 269/1/arne-sommer.raku <===
+: Combination: 1,2 -> or: 3 -> binary: 11 | trailing 0: False
+: Combination: 1,3 -> or: 3 -> binary: 11 | trailing 0: False
+: Combination: 1,4 -> or: 5 -> binary: 101 | trailing 0: False
+: Combination: 1,5 -> or: 5 -> binary: 101 | trailing 0: False
+: Combination: 2,3 -> or: 3 -> binary: 11 | trailing 0: False
+: Combination: 2,4 -> or: 6 -> binary: 110 | trailing 0: True
+True
+ 
+===> 269/1/asherbhs.raku <===
+True
+True
+False
+ 
+===> 269/1/athanasius.raku <===
+
+Challenge 269, Task #1: Bitwise OR (Raku)
+
+Running the test suite
+ok 1 - Example 1: Bool
+ok 2 - Example 1: Op 1
+ok 3 - Example 1: Op 2
+ok 4 - Example 2: Bool
+ok 5 - Example 2: Op 1
+ok 6 - Example 2: Op 2
+ok 7 - Example 3: Bool
+ok 8 - Singleton: Bool
+1..8
+ 
+===> 269/1/bruce-gray.raku <===
+1..9
+ok 1 - task1_combinations_bit-twiddling : 1 2 3 4 5
+ok 2 - task1_combinations_bit-twiddling : 2 3 8 16
+ok 3 - task1_combinations_bit-twiddling : 1 2 5 7 9
+ok 4 - task1_reduced_count : 1 2 3 4 5
+ok 5 - task1_reduced_count : 2 3 8 16
+ok 6 - task1_reduced_count : 1 2 5 7 9
+ok 7 - task1_reduced_head : 1 2 3 4 5
+ok 8 - task1_reduced_head : 2 3 8 16
+ok 9 - task1_reduced_head : 1 2 5 7 9
+ 
+===> 269/1/deadmarshal.raku <===
+True
+True
+False
+ 
+===> 269/1/feng-chang.raku <===
+True
+ 
+===> 269/1/laurent-rosenfeld.raku <===
+1 2 3 4 5    => True
+2 3 8 16     => True
+1 2 5 7 9    => False
+ 
+===> 269/1/luca-ferrari.raku <===
+2 4
+ 
+===> 269/1/mark-anderson.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ 
+===> 269/1/packy-anderson.raku <===
+Example 1:
+Input: @ints = (1, 2, 3, 4, 5)
+Output: True
+
+Example 2:
+Input: @ints = (2, 3, 8, 16)
+Output: True
+
+Example 3:
+Input: @ints = (1, 2, 5, 7, 9)
+Output: False
+ 
+===> 269/1/roger-bell-west.raku <===
+1..3
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ 
+===> 269/1/wambash.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ok 4 - 
+1..4
