@@ -49,7 +49,7 @@
 #   Concatenate the two arrays and return the final array: (5, 3, 4, 8).
 #=============================================================================
 
-use v5.38;
+use v5.36;
 
 use builtin qw/true false/; no warnings "experimental::builtin";
 
