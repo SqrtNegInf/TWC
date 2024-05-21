@@ -12,7 +12,7 @@ sub distribute_elements(@ints) {
     return @arr1, @arr2
 }
 
-use Test2::V0 -srand => 1;
+use Test2::V0 -no_srand;
 plan(3);
 
 is [distribute_elements(2, 1, 3, 4, 5)], [2, 3, 4, 5, 1], 'Example 1';

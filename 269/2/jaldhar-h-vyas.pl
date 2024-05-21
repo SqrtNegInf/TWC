@@ -1,7 +1,7 @@
 #!/usr/bin/env perl
 use v5.36;
 
-my @ints = @ARGV;
+my @ints = (5, 4, 3, 8);
 my @arr1 = shift @ints;
 my @arr2 = shift @ints;
 for my $k (keys @ints) {

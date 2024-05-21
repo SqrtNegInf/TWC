@@ -28,4 +28,4 @@ sub main (@ints) {
     say '(', join( ', ', @arr1, @arr2 ), ')';
 }
 
-main(@ARGV);
+main( (5, 4, 3, 8) );
