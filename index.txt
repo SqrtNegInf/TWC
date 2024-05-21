@@ -564,8 +564,8 @@ Challenge titles and Rosetta-code correspondences (exact, and otherwise)
 269-1 Bitwise OR
 269-2 Distribute Elements
 
-270-1
-270-2
+270-1 Special Positions
+270-2 Distribute Elements
 271-1
 271-2
 272-1
