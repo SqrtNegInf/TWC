@@ -13,4 +13,4 @@ sub main (@ints) {
     say $even_count >= 2 ? 'true' : 'false';
 }
 
-main(@ARGV);
+main( (1,2,3,4,5) );

@@ -1,15 +1,8 @@
 #!/usr/bin/env perl
-
-# The Weekly Challenge 269 - By Nelo Tovar
-#
-# https://theweeklychallenge.org/blog/perl-weekly-challenge-269/
-#
-# Task 1 - Bitwise OR
-#
-
+use v5.28;
 use strict;
 use warnings;
-use v5.28;
+
 use Data::Dump qw(dump);
 
 my @examples = (

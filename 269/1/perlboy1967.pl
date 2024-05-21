@@ -1,24 +1,6 @@
 #!/usr/bin/env perl
-
-=pod
-
-The Weekly Challenge - 269
-- https://theweeklychallenge.org/blog/perl-weekly-challenge-269
-
-Author: Niels 'PerlBoy' van Dijke
-
-Task 1: Bitwise OR
-Submitted by: Mohammad Sajid Anwar
-
-You are given an array of positive integers, @ints.
-
-Write a script to find out if it is possible to select two or more elements of 
-the given array such that the bitwise OR of the selected elements has atlest one 
-trailing zero in its binary representation.
-
-=cut
-
 use v5.32;
+
 use feature qw(signatures);
 use common::sense;
 
