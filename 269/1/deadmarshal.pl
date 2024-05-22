@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
+use v5.36;
 
 sub bitwise_or{
   (grep{($_ & 1) == 0} @{$_[0]}) > 1

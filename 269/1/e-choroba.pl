@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-use warnings;
-use strict;
-use experimental qw( signatures );
+use v5.36;
 
 sub bitwise_or(@ints) {
     return 1 < grep 0 == $_ % 2, @ints

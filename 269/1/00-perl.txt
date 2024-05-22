@@ -92,7 +92,6 @@ Input: @ints = (1, 2, 5, 7, 9)
 Output: False
  
 ===> 269/1/perlboy1967.pl <===
-# Seeded srand with seed '1' from import arg.
 ok 1 - Example 1.1
 ok 2 - Example 1.2
 ok 3 - Example 1.3
