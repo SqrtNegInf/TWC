@@ -1,5 +1,4 @@
 #!/usr/bin/env raku
-use v6;
 
 sub fmtInts(@ints) {
   return '@ints = (' ~ @ints.join(', ') ~ ')';

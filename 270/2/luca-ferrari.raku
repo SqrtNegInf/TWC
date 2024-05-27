@@ -1,15 +1,8 @@
 #!/usr/bin/env raku
-
-#
-# Perl Weekly Challenge 270
-# Task 2
-#
-# See <https://perlweeklychallenge.org/blog/perl-weekly-challenge-270>
-#
-
-sub MAIN( Int $single,
-	  Int $double,
-	  *@nums is copy where { @nums.elems == @nums.grep( * ~~ Int ).elems } ) {
+#  (2,3,3,3,5)
+sub MAIN( Int $single = 2,
+	  Int $double = 3,
+	  @nums is copy = (3,3,5) ) {
 
     my $current_max = @nums.max;
     my @need_operation = @nums.grep( * < $current_max, :k );

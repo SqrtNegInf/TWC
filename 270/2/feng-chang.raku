@@ -1,6 +1,6 @@
 #!/usr/bin/env raku
 
-unit sub MAIN(*@ints);
+my @ints = (2,3,3,3,5);
 
 my \y = @ints.pop;
 my \x = @ints.pop;
