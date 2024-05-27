@@ -1,11 +1,7 @@
 #!/usr/bin/env perl
 
-# Blog: http://ccgi.campbellsmiths.force9.co.uk/challenge
-
 use v5.26;    # The Weekly Challenge - 2024-05-20
-use utf8;     # Week 270 - task 1 - Special positions
 use warnings; # Peter Campbell Smith
-binmode STDOUT, ':utf8';
 
 special_positions([[1, 0, 0],
                    [0, 0, 1],

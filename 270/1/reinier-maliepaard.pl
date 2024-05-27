@@ -1,6 +1,7 @@
 #!/usr/bin/env perl
 use strict;
 use warnings;
+
 use Math::Matrix;
 
 # the function 'sum_rows_and_columns' is invoked in the function 'find_special_positions' below

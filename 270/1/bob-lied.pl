@@ -1,26 +1,4 @@
 #!/usr/bin/env perl
-# vim:set ts=4 sw=4 sts=4 et ai wm=0 nu:
-#=============================================================================
-# Copyright (c) 2024, Bob Lied
-#=============================================================================
-#  
-# ch-1.pl Perl Weekly Challenge 270 Task 1 Special Positions
-#=============================================================================
-# You are given a m x n binary matrix.
-# Write a script to return the number of special positions in the given
-# binary matrix.  A position (i, j) is called special if
-# $matrix[i][j] == 1 and all other elements in the row i and column j are 0.
-# Example 1 Input: $matrix = [ [1, 0, 0],
-#                              [0, 0, 1],
-#                              [1, 0, 0], ]
-#           Output: 1
-#   There is only one special position (1, 2) as $matrix[1][2] == 1
-#   and all other elements in row 1 and column 2 are 0.
-# Example 2 Input: $matrix = [ [1, 0, 0],
-#                              [0, 1, 0],
-#                              [0, 0, 1], ]
-#           Output: 3
-#=============================================================================
 
 use v5.36;
 
@@ -31,7 +9,7 @@ my $Verbose = 0;
 my $DoTest  = 0;
 
 GetOptions("test" => \$DoTest, "verbose" => \$Verbose);
-exit(!runTest()) if $DoTest;
+runTest();  exit;
 
 # Extract a column from a matrix
 sub columnOf($matrix, $col)
@@ -72,7 +50,7 @@ sub specialPos($matrix)
 
 sub runTest
 {
-    use Test2::V0;
+    use Test2::V0 -no_srand;
 
     my $matrix = [ [1,0,0], [0,0,1], [1,0,0] ];
     is( [ above($matrix, 0, 0) ], [], "Above 0,0");

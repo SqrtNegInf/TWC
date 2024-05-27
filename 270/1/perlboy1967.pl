@@ -1,29 +1,11 @@
 #!/usr/bin/env perl
 
-=pod
-
-The Weekly Challenge - 270
-- https://theweeklychallenge.org/blog/perl-weekly-challenge-270
-
-Author: Niels 'PerlBoy' van Dijke
-
-Task 1: Special Positions
-Submitted by: Mohammad Sajid Anwar
-
-You are given a m x n binary matrix.
-
-Write a script to return the number of special positions in the given binary matrix.
-
-|| A position (i, j) is called special if $matrix[i][j] == 1 and all other elements
-|| in the row i and column j are 0.
-
-=cut
-
 use v5.32;
+
 use feature qw(signatures);
 use common::sense;
 
-use Test2::V0; -no_srand;
+use Test2::V0 -no_srand;
 
 # Task 1
 sub specialPositions ($ar) {

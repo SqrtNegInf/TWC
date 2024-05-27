@@ -1,15 +1,9 @@
 #!/usr/bin/env perl
-
-# The Weekly Challenge 270 - By Nelo Tovar
-#
-# https://theweeklychallenge.org/blog/perl-weekly-challenge-270/
-#
-# Task 1 - Special Positions
-#
+use v5.28;
 
 use strict;
 use warnings;
-use v5.28;
+
 use List::MoreUtils qw(one_u);
 use Data::Dump qw(dump);
 
