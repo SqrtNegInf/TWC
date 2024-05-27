@@ -1,34 +1,7 @@
 #!/usr/bin/env perl
 
-=pod
-
-The Weekly Challenge - 270
-- https://theweeklychallenge.org/blog/perl-weekly-challenge-270
-
-Author: Niels 'PerlBoy' van Dijke
-
-ask 2: Distribute Elements
-Submitted by: Mohammad Sajid Anwar
-
-You are give an array of integers, @ints and two integers, $x and $y.
-
-Write a script to execute one of the two options:
-
-Level 1:
-Pick an index i of the given array and do $ints[i] += 1
-
-Level 2:
-Pick two different indices i,j and do $ints[i] +=1 and $ints[j] += 1.
-
-You are allowed to perform as many levels as you want to make every elements in
-the given array equal. There is cost attach for each level, for Level 1, the
-cost is $x and $y for Level 2.
-
-In the end return the minimum cost to get the work done.
-
-=cut
-
 use v5.32;
+
 use feature qw(signatures);
 use common::sense;
 

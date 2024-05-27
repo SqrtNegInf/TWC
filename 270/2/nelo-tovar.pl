@@ -1,15 +1,9 @@
 #!/usr/bin/env perl
-
-# The Weekly Challenge 270 - By Nelo Tovar
-#
-# https://theweeklychallenge.org/blog/perl-weekly-challenge-270/
-#
-# Task 2 - Equalize Array
-#
+use v5.28;
 
 use strict;
 use warnings;
-use v5.28;
+
 use List::Util qw (min max sum);
 use Data::Dump qw(dump);
 

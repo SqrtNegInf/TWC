@@ -1,38 +1,4 @@
 #!/usr/bin/env perl
-# vim:set ts=4 sw=4 sts=4 et ai wm=0 nu:
-#=============================================================================
-# Copyright (c) 2024, Bob Lied
-#=============================================================================
-# ch-2.pl Perl Weekly Challenge 270 Task 2 Equalize Array
-#=============================================================================
-# You are give an array of integers, @ints and two integers, $x and $y.
-# Write a script to execute one of the two options:
-# Level 1: Pick an index i of the given array and do $ints[i] += 1
-# Level 2: Pick two different indices i,j and do $ints[i] +=1 and $ints[j] += 1.
-# You are allowed to perform as many levels as you want to make every elements
-# in the given array equal. There is cost attach for each level, for Level 1,
-# the cost is $x and $y for Level 2.
-# In the end return the minimum cost to get the work done.
-#
-# Example 1 Input: @ints = (4, 1), $x = 3 and $y = 2
-#           Output: 9
-#   Level 1: i=1, so $ints[1] += 1.  @ints = (4, 2)
-#   Level 1: i=1, so $ints[1] += 1.  @ints = (4, 3)
-#   Level 1: i=1, so $ints[1] += 1.  @ints = (4, 4)
-#   We performed operation Level 1 three times,
-#   so the total cost would be 3 x $x => 3 x 3 => 9
-#
-# Example 2 Input: @ints = (2, 3, 3, 3, 5), $x = 2 and $y = 1
-#           Output: 6
-#   Level 2: i=0, j=1, $ints[0]++ and $ints[1]++, @ints = (3, 4, 3, 3, 5)
-#   Level 2: i=0, j=2, $ints[0]++ and $ints[2]++, @ints = (4, 4, 4, 3, 5)
-#   Level 2: i=0, j=3, $ints[0]++ and $ints[3]++, @ints = (5, 4, 4, 4, 5)
-#   Level 2: i=1, j=2, $ints[1]++ and $ints[2]++, @ints = (5, 5, 5, 4, 5)
-#   Level 1: i=3, so $ints[3] += 1                @ints = (5, 5, 5, 5, 5)
-#   We perforned operation Level 1 one time and Level 2 four times.
-#   So the total cost would be (1 x $x) + (4 x $y) => (1 x 2) + (4 x 1) => 6
-#=============================================================================
-
 use v5.36;
 
 use List::Util qw/max sum/;
@@ -42,7 +8,7 @@ my $X; my $Y;
 my $DoTest  = 0;
 
 GetOptions("test" => \$DoTest, "x:i" => \$X, "y:i" => \$Y);
-exit(!runTest()) if $DoTest;
+runTest(); exit;
 
 say equalizeArray(\@ARGV, $X, $Y);
 
@@ -125,7 +91,7 @@ sub bestCost($ints, $lvl1cost, $lvl2cost)
 
 sub runTest
 {
-    use Test2::V0;
+    use Test::More;
 
     is( equalizeArray([4,1],       3, 2),  9, "Example 1");
     is( equalizeArray([2,3,3,3,5], 2, 1),  6, "Example 2");

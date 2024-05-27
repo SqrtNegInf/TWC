@@ -1,11 +1,7 @@
 #!/usr/bin/env perl
 
-# Blog: http://ccgi.campbellsmiths.force9.co.uk/challenge
-
 use v5.26;    # The Weekly Challenge - 2024-05-20
-use utf8;     # Week 270 - task 2 - Distribute elements
 use warnings; # Peter Campbell Smith
-binmode STDOUT, ':utf8';
 
 distribute_elements([4, 1], 3, 2);
 distribute_elements([2, 3, 3, 3, 5], 2, 1);
