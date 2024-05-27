@@ -1,0 +1,78 @@
+ 
+===> 270/1/0rir.raku <===
+1..11
+ok 1 - 1 <- [[1, 0, 0], [0, 0, 1], [1, 0, 0]]
+ok 2 - 3 <- [[1, 0, 0], [0, 1, 0], [0, 0, 1]]
+ok 3 - 1 <- [[1],]
+ok 4 - 1 <- [[1, 0],]
+ok 5 - 0 <- [[1, 1],]
+ok 6 - 0 <- [[1, 2],]
+ok 7 - 0 <- [[2, 2],]
+ok 8 - 0 <- [[0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0]]
+ok 9 - 1 <- [[0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 1, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0]]
+ok 10 - 5 <- [[1, 0, 0, 0, 0], [0, 1, 0, 0, 0], [0, 0, 1, 0, 0], [0, 0, 0, 1, 0], [0, 0, 0, 0, 1]]
+ok 11 - 3 <- [[1, 0, 0, 0, 0], [0, 1, 0, 0, 2], [0, 0, 1, 0, 0], [0, 0, 0, 1, 0], [0, 0, 0, 0, 1]]
+ 
+===> 270/1/arne-sommer.raku <===
+1
+ 
+===> 270/1/athanasius.raku <===
+
+Challenge 270, Task #1: Special Positions (Raku)
+
+Running the test suite
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - 4x5
+ok 4 - None
+ok 5 - Singleton 0
+ok 6 - Singleton 1
+ok 7 - Same column
+ok 8 - Same row
+1..8
+ 
+===> 270/1/barroff.raku <===
+1..2
+ok 1 - works for first matrix
+ok 2 - works for second matrix
+ 
+===> 270/1/bruce-gray.raku <===
+1..14
+ok 1 - task1_single_expression : 1 0 0 0 0 1 1 0 0
+ok 2 - task1_single_expression : 1 0 0 0 1 0 0 0 1
+ok 3 - task1_original : 1 0 0 0 0 1 1 0 0
+ok 4 - task1_original : 1 0 0 0 1 0 0 0 1
+ok 5 - task1_original_reduced_1 : 1 0 0 0 0 1 1 0 0
+ok 6 - task1_original_reduced_1 : 1 0 0 0 1 0 0 0 1
+ok 7 - task1_original_reduced_2 : 1 0 0 0 0 1 1 0 0
+ok 8 - task1_original_reduced_2 : 1 0 0 0 1 0 0 0 1
+ok 9 - task1_original_reduced_3 : 1 0 0 0 0 1 1 0 0
+ok 10 - task1_original_reduced_3 : 1 0 0 0 1 0 0 0 1
+ok 11 - task1_original_reduced_4 : 1 0 0 0 0 1 1 0 0
+ok 12 - task1_original_reduced_4 : 1 0 0 0 1 0 0 0 1
+ok 13 - task1_original_reduced_5 : 1 0 0 0 0 1 1 0 0
+ok 14 - task1_original_reduced_5 : 1 0 0 0 1 0 0 0 1
+ 
+===> 270/1/laurent-rosenfeld.raku <===
+1 0 0    0 0 1    ... => 1
+1 0 0    0 1 0    ... => 3
+ 
+===> 270/1/luca-ferrari.raku <===
+1,2
+ 
+===> 270/1/mark-anderson.raku <===
+ok 1 - 
+ok 2 - 
+ 
+===> 270/1/packy-anderson.raku <===
+ 
+===> 270/1/roger-bell-west.raku <===
+1..2
+ok 1 - example 1
+ok 2 - example 2
+ 
+===> 270/1/wambash.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+1..3

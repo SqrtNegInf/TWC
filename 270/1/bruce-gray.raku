@@ -1,4 +1,5 @@
 #!/usr/bin/env raku
+
 sub task1_single_expression (@matrix) {
     return @matrix».grep( :k, 1 )
                    .grep( *.elems == 1 )
@@ -7,6 +8,7 @@ sub task1_single_expression (@matrix) {
                    .grep( *.value == 1 )
                    .elems;
 }
+
 sub task1_original (@matrix) {
     my BagHash $bh .= new;
     for  @matrix.kv -> $row_num, @row  {
@@ -26,6 +28,7 @@ sub task1_original (@matrix) {
     }
     return $bh.grep(*.value == 1).elems;
 }
+
 # Reducing by step-wise refactoring until we reach the single-expression version
 sub task1_original_reduced_1 (@matrix) {
     my BagHash $bh .= new;

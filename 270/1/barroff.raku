@@ -1,7 +1,5 @@
 #!/usr/bin/env raku
 
-use v6.d;
-
 sub special-positions(@ints --> Int) {
     my @special-rows = grep({ sum(@ints[$_]) == 1 }, 0..@ints.elems - 1);
     my &special-columns = sub ($i) {
@@ -12,7 +10,7 @@ sub special-positions(@ints --> Int) {
 }
 
 #| Run test cases
-multi sub MAIN('test') {
+#multi sub MAIN('test') {
     use Test;
     plan 2;
 
@@ -24,4 +22,4 @@ multi sub MAIN('test') {
                            [0, 1, 0],
                            [0, 0, 1],
                          ]), 3, 'works for second matrix';
-}
+#}

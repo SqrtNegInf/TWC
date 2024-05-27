@@ -1,7 +1,6 @@
 #!/usr/bin/env raku
 
-unit sub MAIN ($string = "1 0 0 | 0 0 1 | 1 0 0",
-               :v(:$verbose));
+unit sub MAIN ($string = "1 0 0 | 0 0 1 | 1 0 0", :v(:$verbose));
 
 my $matrix = $string.split("|")>>.words>>.Int>>.Array;
 
@@ -13,7 +12,7 @@ my $rows  = $matrix.elems;
 my $cols  = $matrix[0].elems;
 my $count = 0;
 
-say ": matrix: $matrix" if $verbose;
+#say ": matrix: $matrix" if $verbose;
 
 for ^$rows -> $row
 {
@@ -23,7 +22,7 @@ for ^$rows -> $row
     my $row_sum = $matrix[$row;*].sum;
     my $col_sum = $matrix[*;$col].sum;
 
-    say ": r: $row c: $col v: $val row: $matrix[$row;*] -> $row_sum col: $matrix[*;$col] -> $col_sum" if $verbose;
+#    say ": r: $row c: $col v: $val row: $matrix[$row;*] -> $row_sum col: $matrix[*;$col] -> $col_sum" if $verbose;
 
     next unless $val     == 1;
     next unless $row_sum == 1;
@@ -31,7 +30,7 @@ for ^$rows -> $row
 
     $count++;
  
-    say ": - is Special #$count" if $verbose;
+#    say ": - is Special #$count" if $verbose;
   }
 }
 

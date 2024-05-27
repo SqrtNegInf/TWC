@@ -1,12 +1,5 @@
 #!/usr/bin/env raku
 
-#
-# Perl Weekly Challenge 270
-# Task 1
-#
-# See <https://perlweeklychallenge.org/blog/perl-weekly-challenge-270>
-#
-
 sub MAIN() {
     my @matrix =  [1, 0, 0],
                   [0, 0, 1],

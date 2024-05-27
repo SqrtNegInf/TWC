@@ -1,5 +1,4 @@
 #!/usr/bin/env raku
-use v6.*;
 
 sub special-position (+@matrix) {
     my $columns := ([Z^] @matrix).grep: *.so,:k;
@@ -10,14 +9,12 @@ sub special-position (+@matrix) {
     andthen .elems
 }
 
-multi MAIN (Bool :test($)!) {
+#multi MAIN (Bool :test($)!) {
     use Test;
     is-deeply special-position(<1 1 0>,<0 0 1>,<1 0 0>),1;
     is-deeply special-position(<1 0 0>,<0 0 1>,<1 0 0>),1;
     is-deeply special-position(<1 0 0>,<0 1 0>,<0 0 1>),3;
     done-testing;
-}
+#}
 
-multi MAIN (+@matrix) {
-    say special-position @matrix.map( *.comb».Int)
-}
+#multi MAIN (+@matrix) { say special-position @matrix.map( *.comb».Int) }

@@ -1,9 +1,10 @@
 #!/usr/bin/env raku
+
 sub special-positions (@mat) {
     my $row-max = @mat[0].end;
     my $count = 0;
     IND_I: for 0..$row-max -> $i {
-        for 0..@mat.end -> $j {                            `
+        for 0..@mat.end -> $j {                            
             next if @mat[$i][$j] != 1;
             next unless
                 (@mat[$i][0..^$j, $j^..$row-max]).any != 0;
