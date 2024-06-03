@@ -1,11 +1,5 @@
 #!/usr/bin/env raku
-use v6.c;
-# :vim ft=raku sw=4 expandtab  # 🦋 ∅∪∩∋∈∉⊆ ≡ ≢ «␤ » ∴
 use Test;
-
-=begin comment
-271-1
-=end comment
 
 my @Test =
      [ [0, 1], [1, 0], ], 1,

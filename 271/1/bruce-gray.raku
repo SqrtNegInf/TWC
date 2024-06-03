@@ -1,8 +1,8 @@
 #!/usr/bin/env raku
+
 sub task1 ( @matrix --> UInt ) {
     return 1 + @matrix».sum.maxpairs.head.key;
 }
-
 
 use Test; plan +constant @tests1 =
     ( 1, ( (0, 1), (1, 0) ) ),

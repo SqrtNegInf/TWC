@@ -1,4 +1,5 @@
 #!/usr/bin/env raku
+
 sub maximum-ones (@mat) {
     my $max = 0;
     my $max-i;

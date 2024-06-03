@@ -1,5 +1,4 @@
 #!/usr/bin/env raku
-use v6;
 
 sub maximumOnes(@matrix) {
   my ($maxCount, $maxRow) = (-1, -1);

@@ -1,4 +1,7 @@
 #!/usr/bin/env raku
+
+say 'Mac-Pro version too old'; exit;
+
 use Test;
 
 is max-ones([ 

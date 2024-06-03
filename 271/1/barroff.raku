@@ -1,14 +1,11 @@
 #!/usr/bin/env raku
 
-use v6.d;
-
 sub maximum-ones(@matrix --> Int) {
     my @sums = map({ .sum }, @matrix);
     1 + @sums.first: * == max(@sums), :k;
 }
 
-#| Run test cases
-multi sub MAIN('test') {
+#multi sub MAIN('test') {
     use Test;
     plan 3;
 
@@ -22,4 +19,4 @@ multi sub MAIN('test') {
                       [1, 1],
                       [0, 0],
                     ]), 2, 'works for matrix three';
-}
+#}
