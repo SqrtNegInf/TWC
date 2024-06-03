@@ -15,7 +15,7 @@
 #           Output: (64, 128, 256, 512, 1024)
 #=============================================================================
 
-use v5.38;
+use v5.36;
 
 use builtin qw/true false/; no warnings "experimental::builtin";
 
