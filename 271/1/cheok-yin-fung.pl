@@ -1,9 +1,5 @@
 #!/usr/bin/env perl
-# The Weekly Challenge 271
-# Task 1 Maximum Ones
-
-use v5.30.0;
-use warnings;
+use v5.36;
 
 sub mo {
     my $mat = $_[0];

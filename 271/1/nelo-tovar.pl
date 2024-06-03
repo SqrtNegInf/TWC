@@ -1,15 +1,9 @@
 #!/usr/bin/env perl
-
-# The Weekly Challenge 271 - By Nelo Tovar
-#
-# https://theweeklychallenge.org/blog/perl-weekly-challenge-271/
-#
-# Task 1 - Maximum Ones
-#
+use v5.28;
 
 use strict;
 use warnings;
-use v5.28;
+
 use List::Util qw(max sum0);
 use List::MoreUtils qw(first_index);
 use Data::Dump qw(dump);

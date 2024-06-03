@@ -1,0 +1,179 @@
+ 
+===> 271/1/athanasius.pl <===
+
+Challenge 271, Task #1: Maximum Ones (Perl)
+
+Running the test suite
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ok 4 - Singleton
+ok 5 - 1st of 2
+ok 6 - Last
+1..6
+ 
+===> 271/1/atschneid.pl <===
+[ 0, 1 ],
+[ 1, 0 ]
+max row :: 1
+[ 0, 0, 0 ],
+[ 1, 0, 1 ]
+max row :: 2
+[ 0, 0 ],
+[ 1, 1 ],
+[ 0, 0 ]
+max row :: 2
+ 
+===> 271/1/bob-lied.pl <===
+# Seeded srand with seed '20240603' from local date.
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+1..3
+ 
+===> 271/1/cheok-yin-fung.pl <===
+1..3
+ok 1
+ok 2
+ok 3
+ 
+===> 271/1/dave-jacoby.pl <===
+    Input:  $matrix = 
+        [ [ 0, 1 ],
+          [ 1, 0 ] ]
+    Output: 1
+
+    Input:  $matrix = 
+        [ [ 0, 0, 0 ],
+          [ 1, 0, 1 ] ]
+    Output: 2
+
+    Input:  $matrix = 
+        [ [ 0, 0 ],
+          [ 1, 1 ],
+          [ 0, 0 ] ]
+    Output: 2
+
+ 
+===> 271/1/deadmarshal.pl <===
+1
+2
+2
+ 
+===> 271/1/laurent-rosenfeld.pl <===
+[0 1]   , [1 0]   , ... => 1
+[0 0 0] , [1 0 1] , ... => 2
+[0 0]   , [1 1]   , ... => 2
+ 
+===> 271/1/nelo-tovar.pl <===
+Input : $matrix = ([0, 1], [1, 0])
+Output : 1
+ 
+Input : $matrix = ([0, 0, 0], [1, 0, 1])
+Output : 2
+ 
+Input : $matrix = ([0, 0], [1, 1], [0, 0])
+Output : 2
+ 
+ 
+===> 271/1/packy-anderson.pl <===
+Example 1:
+Input: $matrix = [
+                   [0, 1],
+                   [1, 0]
+                 ]
+Output: 1
+
+Example 2:
+Input: $matrix = [
+                   [0, 0, 0],
+                   [1, 0, 1]
+                 ]
+Output: 2
+
+Example 3:
+Input: $matrix = [
+                   [0, 0],
+                   [1, 1],
+                   [0, 0]
+                 ]
+Output: 2
+ 
+===> 271/1/perlboy1967.pl <===
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+1..3
+ 
+===> 271/1/peter-campbell-smith.pl <===
+
+Input:  [0, 1]
+        [1, 0]
+Output: row 1 (1 one)
+
+Input:  [0, 0, 0]
+        [1, 0, 1]
+Output: row 2 (2 ones)
+
+Input:  [0, 0]
+        [1, 1]
+        [0, 0]
+Output: row 2 (2 ones)
+
+Input:  [2, 3]
+        [4, 1]
+        [5, 6]
+        [7, 1]
+Output: row 2 (1 one)
+
+Input:  [3, 3, 3]
+        [4, 4, 4]
+        [0, 0, 0]
+Output: no ones in matrix
+ 
+===> 271/1/peter-meszaros.pl <===
+ok 1
+ok 2
+ok 3
+ok 4
+1..4
+ 
+===> 271/1/reinier-maliepaard.pl <===
+Row maximum ones: 1
+Row maximum ones: 2
+Row maximum ones: 2
+Row maximum ones: 1
+Row maximum ones: 3
+Row maximum ones: 2
+ 
+===> 271/1/roger-bell-west.pl <===
+1..3
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ 
+===> 271/1/spadacciniweb.pl <===
+row 1
+row 2
+row 2
+ 
+===> 271/1/wanderdoc.pl <===
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+1..3
+ 
+===> 271/1/zapwai.pl <===
+Input: $m = 
+	 0 1
+	 1 0
+Output: row 1 (count is 1)
+Input: $m = 
+	 0 0 0
+	 1 0 1
+Output: row 2 (count is 2)
+Input: $m = 
+	 0 0
+	 1 1
+	 0 0
+Output: row 2 (count is 2)
