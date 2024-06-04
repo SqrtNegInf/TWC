@@ -1,6 +1,4 @@
 #!/usr/bin/env perl
-# The Weekly Challenge 271
-# Task 2 Sort by 1 Bits
 
 use v5.30.0;
 use warnings;
