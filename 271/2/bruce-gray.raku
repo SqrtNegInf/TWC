@@ -1,4 +1,5 @@
 #!/usr/bin/env raku
+
 sub pop-count { $^number.base(2).comb('1').elems } # From challenge-258; could also have done any of:
                             #   .comb(/1+/)».chars.sum
                             #   .comb(/1+/).join.chars

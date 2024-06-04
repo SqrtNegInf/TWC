@@ -1,7 +1,5 @@
 #!/usr/bin/env raku
 
-use v6.d;
-
 sub sort-by_1-bits(@ints --> Positional) {
     my (%bc, @res);
     map({ push(%bc{$_.base(2).comb.sum}, $_) }, @ints);

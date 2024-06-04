@@ -1,7 +1,7 @@
 #!/usr/bin/env raku
 
 sub MAIN(
-    *@ints
+    @ints= [1024, 512, 256, 128, 64]
 ) {
     my %ones;
 
