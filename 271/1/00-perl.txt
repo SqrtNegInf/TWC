@@ -25,7 +25,6 @@ max row :: 2
 max row :: 2
  
 ===> 271/1/bob-lied.pl <===
-# Seeded srand with seed '20240603' from local date.
 ok 1 - Example 1
 ok 2 - Example 2
 ok 3 - Example 3

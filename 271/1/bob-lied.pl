@@ -28,7 +28,7 @@ sub maxOnes($matrix)
 
 sub runTest
 {
-    use Test2::V0;
+    use Test2::V0 -no_srand;
 
     is( maxOnes([ [0,1], [1,0] ]), 1, "Example 1");
     is( maxOnes([ [0,0,0], [1,0,1] ]), 2, "Example 2");
