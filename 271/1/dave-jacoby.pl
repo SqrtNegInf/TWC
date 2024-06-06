@@ -1,7 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use strict;
-use warnings;
 use experimental qw{ bitwise fc postderef say signatures state };
 
 use List::Util qw{max};
