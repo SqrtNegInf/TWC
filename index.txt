@@ -568,8 +568,8 @@ Challenge titles and Rosetta-code correspondences (exact, and otherwise)
 270-2 Distribute Elements
 271-1 Maximum Ones
 271-2 Sort by 1 Bits
-272-1
-272-2
+272-1 Defang IP Address
+272-2 String Score
 273-1
 273-2
 274-1
