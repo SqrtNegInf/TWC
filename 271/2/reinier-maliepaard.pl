@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
+use v5.36;
 
 # function to count the number of 1 bits in the binary representation
 sub count_ones {
