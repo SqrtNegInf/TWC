@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-
-use v5.26;    # The Weekly Challenge - 2024-05-20
-use warnings; # Peter Campbell Smith
+use v5.36;
 
 special_positions([[1, 0, 0],
                    [0, 0, 1],
