@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-use warnings;
-use strict;
-use experimental qw( signatures );
+use v5.36;
 
 sub distribute_elements($x, $y, $ints) {
     my @agenda = ([0, [sort { $a <=> $b } @$ints]]);

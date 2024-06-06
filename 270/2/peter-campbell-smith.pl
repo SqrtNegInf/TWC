@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-
-use v5.26;    # The Weekly Challenge - 2024-05-20
-use warnings; # Peter Campbell Smith
+use v5.36;
 
 distribute_elements([4, 1], 3, 2);
 distribute_elements([2, 3, 3, 3, 5], 2, 1);
