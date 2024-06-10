@@ -1,7 +1,5 @@
 #!/usr/bin/env raku
-use v6 ;
 
-say "Enter a valid IPv4 address!" ;
-my $address = $*IN.get ;
+my $address = "1.1.1.1";
 $address ~~ s:g['.'] = "[.]" ;
 say $address ;

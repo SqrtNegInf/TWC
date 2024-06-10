@@ -1,4 +1,5 @@
 #!/usr/bin/env raku
+
 # Notice the use of the plain dot as a string, instead of the escaped dot in a regex that Perl's `s/\./[.]/g` would need.
 sub task1 ( Str $fanged --> Str ) {
     return $fanged.subst: :g, '.', '[.]';

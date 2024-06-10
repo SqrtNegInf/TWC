@@ -1,5 +1,4 @@
 #!/usr/bin/env raku
-use v6;
 
 sub defang($ip) {
   $ip ~~ / (\d+) '.' (\d+) '.' (\d+) '.' (\d+) /;

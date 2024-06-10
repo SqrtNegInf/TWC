@@ -1,0 +1,68 @@
+ 
+===> 272/1/0rir.raku <===
+1..2
+ok 1 - 1[.]1[.]1[.]1 <- 1.1.1.1
+ok 2 - 255[.]101[.]1[.]0 <- 255.101.1.0
+ 
+===> 272/1/arne-sommer.raku <===
+1[.]1[.]1[.]1
+ 
+===> 272/1/athanasius.raku <===
+
+Challenge 272, Task #1: Defang IP Address (Raku)
+
+Running the test suite
+ok 1 - Example 1
+ok 2 - Example 2
+1..2
+ 
+===> 272/1/barroff.raku <===
+1..2
+ok 1 - works for 1.1.1.1
+ok 2 - works for 255.101.1.0
+ 
+===> 272/1/bruce-gray.raku <===
+1..2
+ok 1 - 1.1.1.1
+ok 2 - 255.101.1.0
+ 
+===> 272/1/deadmarshal.raku <===
+1[.]1[.]1[.]1
+255[.]101[.]1[.]0
+ 
+===> 272/1/feng-chang.raku <===
+1[.]1[.]1[.]1
+ 
+===> 272/1/laurent-rosenfeld.raku <===
+1.1.1.1          => 1[.]1[.]1[.]1
+255.101.1.0      => 255[.]101[.]1[.]0
+255.255.255.255  => 255[.]255[.]255[.]255
+ 
+===> 272/1/luca-ferrari.raku <===
+1[.]1[.]1[.]1
+ 
+===> 272/1/mark-anderson.raku <===
+ok 1 - 
+ok 2 - 
+ 
+===> 272/1/packy-anderson.raku <===
+Example 1:
+Input: $ip = "1.1.1.1"
+Output: "1[.]1[.]1[.]1"
+
+Example 2:
+Input: $ip = "255.101.1.0"
+Output: "255[.]101[.]1[.]0"
+ 
+===> 272/1/roger-bell-west.raku <===
+1..2
+ok 1 - example 1
+ok 2 - example 2
+ 
+===> 272/1/ulrich-rieke.raku <===
+1[.]1[.]1[.]1
+ 
+===> 272/1/wambash.raku <===
+ok 1 - 
+ok 2 - 
+1..2

@@ -1,5 +1,5 @@
 #!/usr/bin/env raku
 
-unit sub MAIN(Str:D $s);
+#unit sub MAIN(Str:D $s);
 
-put $s.subst('.', '[.]', :g);
+put "1.1.1.1".subst('.', '[.]', :g);
