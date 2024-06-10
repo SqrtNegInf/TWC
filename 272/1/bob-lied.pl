@@ -12,7 +12,7 @@
 # Example 2 Input: $ip = "255.101.1.0" Output: "255[.]101[.]1[.]0"
 #=============================================================================
 
-use v5.38;
+use v5.36;
 
 use builtin qw/true false/; no warnings "experimental::builtin";
 
