@@ -3,8 +3,6 @@ use strict ;
 use warnings ;
 use feature 'say' ;
 
-say "Enter a valid IPv4 address!" ;
-my $address = <STDIN> ;
-chomp $address ;
+my $address = "1.1.1.1";
 $address =~ s/\./\[\.\]/g ;
 say $address ;

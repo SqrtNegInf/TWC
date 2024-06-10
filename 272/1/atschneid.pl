@@ -1,10 +1,9 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
 
 use v5.36;
 
-my @test_inputs = @ARGV;
+my @test_inputs = ["1.1.1.1"];
+
 if (scalar @ARGV == 0) {
     @test_inputs = (
 	"1.1.1.1",

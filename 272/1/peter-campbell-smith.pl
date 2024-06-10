@@ -1,11 +1,7 @@
 #!/usr/bin/env perl
 
-# Blog: http://ccgi.campbellsmiths.force9.co.uk/challenge
-
 use v5.26;    # The Weekly Challenge - 3 June 2024
-use utf8;     # Week 272 - task 1 - Defang IP address
 use warnings; # Peter Campbell Smith
-binmode STDOUT, ':utf8';
 
 defang_ip_address('192.168.1.245');
 defang_ip_address('0.0.0.0');

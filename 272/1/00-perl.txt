@@ -1,0 +1,115 @@
+ 
+===> 272/1/adam-russell.pl <===
+1[.]1[.]1[.]1
+255[.]101[.]1[.]0
+ 
+===> 272/1/athanasius.pl <===
+
+Challenge 272, Task #1: Defang IP Address (Perl)
+
+Running the test suite
+ok 1 - Example 1
+ok 2 - Example 2
+1..2
+ 
+===> 272/1/atschneid.pl <===
+1.1.1.1 => 1[.]1[.]1[.]1
+255.101.1.0 => 255[.]101[.]1[.]0
+ 
+===> 272/1/bob-lied.pl <===
+ok 1 - Example 1
+ok 2 - Example 2
+1..2
+ 
+===> 272/1/dave-jacoby.pl <===
+    Input:  $ip = "1.1.1.1"
+    Output: "1[.]1[.]1[.]1"
+
+    Input:  $ip = "255.101.1.0"
+    Output: "255[.]101[.]1[.]0"
+
+ 
+===> 272/1/deadmarshal.pl <===
+1[.]1[.]1[.]1
+255[.]101[.]1[.]0
+ 
+===> 272/1/e-choroba.pl <===
+1..2
+ok 1 - Example 1
+ok 2 - Example 2
+ 
+===> 272/1/jo-37.pl <===
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - invalid address
+ok 4 - invalid address
+1..4
+ 
+===> 272/1/laurent-rosenfeld.pl <===
+1.1.1.1          => 1[.]1[.]1[.]1
+255.101.1.0      => 255[.]101[.]1[.]0
+255.255.255.255  => 255[.]255[.]255[.]255
+ 
+===> 272/1/nelo-tovar.pl <===
+Input : $ip = 1.1.1.1
+Output : 1[.]1[.]1[.]1
+ 
+Input : $ip = 255.101.1.0
+Output : 255[.]101[.]1[.]0
+ 
+ 
+===> 272/1/packy-anderson.pl <===
+Example 1:
+Input: $ip = "1.1.1.1"
+Output: "1[.]1[.]1[.]1"
+
+Example 2:
+Input: $ip = "255.101.1.0"
+Output: "255[.]101[.]1[.]0"
+ 
+===> 272/1/peter-campbell-smith.pl <===
+
+Input:  $ip = "192.168.1.245"
+Output: "192[.]168[.]1[.]245"
+
+Input:  $ip = "0.0.0.0"
+Output: "0[.]0[.]0[.]0"
+
+Input:  $ip = "255.255.255.255"
+Output: "255[.]255[.]255[.]255"
+
+Input:  $ip = "192.168.1.20"
+Output: "192[.]168[.]1[.]20"
+ 
+===> 272/1/peter-meszaros.pl <===
+ok 1 - Example 1
+ok 2 - Example 2
+1..2
+ 
+===> 272/1/roger-bell-west.pl <===
+1..2
+ok 1 - example 1
+ok 2 - example 2
+ 
+===> 272/1/santiago-leyva.pl <===
+1.1.1.1 
+  1[.]1[.]1[.]1 
+255.101.1.0 
+  255[.]101[.]1[.]0 
+ 
+===> 272/1/ulrich-rieke.pl <===
+1[.]1[.]1[.]1
+ 
+===> 272/1/wanderdoc.pl <===
+ok 1 - Example 1
+ok 2 - Example 2
+1..2
+ 
+===> 272/1/wlmb.pl <===
+1.1.1.1 -> 1[.]1[.]1[.]1
+ 
+===> 272/1/zapwai.pl <===
+Input: 1.1.1.1
+Output: 1[.]1[.]1[.]1
+Input: 255.101.1.0
+Output: 255[.]101[.]1[.]0

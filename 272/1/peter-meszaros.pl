@@ -1,27 +1,9 @@
 #!/usr/bin/env perl
-#
-=head1 Task 1: Defang IP Address
-
-You are given a valid IPv4 address.
-
-Write a script to return the defanged version of the given IP address.
-
-    A defanged IP address replaces every period "." with "[.]".
-
-=head2 Example 1
-
-	Input: $ip = "1.1.1.1"
-	Output: "1[.]1[.]1[.]1"
-
-=head2 Example 2
-
-	Input: $ip = "255.101.1.0"
-	Output: "255[.]101[.]1[.]0"
-=cut
 
 use strict;
 use warnings;
-use Test2::V0 -no_srand => 1 -no_srand;
+
+use Test2::V0 -no_srand;
 use Data::Dumper;
 
 my $cases = [

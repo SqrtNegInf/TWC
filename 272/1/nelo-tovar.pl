@@ -1,15 +1,8 @@
 #!/usr/bin/env perl
-
-# The Weekly Challenge 272 - By Nelo Tovar
-#
-# https://theweeklychallenge.org/blog/perl-weekly-challenge-272/
-#
-# Task 1 - Defang IP Address
-#
+use v5.28;
 
 use strict;
 use warnings;
-use v5.28;
 
 my @examples = ('1.1.1.1', '255.101.1.0');
 
