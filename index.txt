@@ -570,8 +570,8 @@ Challenge titles and Rosetta-code correspondences (exact, and otherwise)
 271-2 Sort by 1 Bits
 272-1 Defang IP Address
 272-2 String Score
-273-1
-273-2
+273-1 Percentage of Character
+273-2 B After A
 274-1
 274-2
 275-1
