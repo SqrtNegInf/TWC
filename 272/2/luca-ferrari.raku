@@ -1,13 +1,6 @@
 #!/usr/bin/env raku
 
-#
-# Perl Weekly Challenge 272
-# Task 2
-#
-# See <https://perlweeklychallenge.org/blog/perl-weekly-challenge-272>
-#
-
-sub MAIN( Str $string where { $string.elems > 0  } ) {
+sub MAIN( Str $string where { $string.elems > 0  } = 'perl' ) {
     my $score = 0;
     my @letters = $string.comb;
 

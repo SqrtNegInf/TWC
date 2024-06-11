@@ -1,5 +1,5 @@
 #!/usr/bin/env raku
 
-unit sub MAIN(Str:D $s);
+#unit sub MAIN(Str:D $s);
 
-put $s.comb».ord.rotor(2 => -1).map({ [-] $_ })».abs.sum;
+put 'perl'.comb».ord.rotor(2 => -1).map({ [-] $_ })».abs.sum;

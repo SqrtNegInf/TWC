@@ -1,6 +1,8 @@
 #!/usr/bin/env raku
 
-unit sub MAIN ($str where $str.chars > 1, :v(:$verbose));
+
+#unit sub MAIN ($str where $str.chars > 1, :v(:$verbose));
+my $str = "perl";
 
 my $adjacents := gather
 {
@@ -31,7 +33,7 @@ for $adjacents -> @pair
 
   $score += $difference;
 
-  say ": Adjacents: '$first' ($first_code) - '$second' ($second_code) = $difference -> $score" if $verbose;
+#  say ": Adjacents: '$first' ($first_code) - '$second' ($second_code) = $difference -> $score" if $verbose;
 }
 
 say $score;

@@ -1,7 +1,7 @@
 #!/usr/bin/env raku
 
 sub MAIN(
-    $str
+    $str = 'perl'
 ) {
     my @chars = $str.comb;
     my $score;

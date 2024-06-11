@@ -1,8 +1,6 @@
 #!/usr/bin/env raku
-use v6 ;
 
-say "Enter a word!" ;
-my $word = $*IN.get ;
+my $word = 'perl';
 my @numbers = $word.comb.map( {.ord} ) ;
 my $sum = 0 ;
 for @numbers.rotor( 2 => -1 ) -> $seq {

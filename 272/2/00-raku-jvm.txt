@@ -1,0 +1,114 @@
+ 
+===> 272/2/0rir.raku <===
+1..3
+ok 1 - 30 <- perl
+ok 2 - 13 <- hello
+ok 3 - 37 <- raku
+ 
+===> 272/2/arne-sommer.raku <===
+30
+ 
+===> 272/2/athanasius.raku <===
+
+Challenge 272, Task #2: String Score (Raku)
+
+Running the test suite
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+1..3
+ 
+===> 272/2/barroff.raku <===
+1..3
+ok 1 - works for "hello"
+ok 2 - works for "perl"
+ok 3 - works for "raku"
+ 
+===> 272/2/bruce-gray.raku <===
+1..6
+ok 1 - task2_rotor : hello
+ok 2 - task2_rotor : perl
+ok 3 - task2_rotor : raku
+ok 4 - task2_Z_skip : hello
+ok 5 - task2_Z_skip : perl
+ok 6 - task2_Z_skip : raku
+ 
+===> 272/2/deadmarshal.raku <===
+13
+30
+37
+ 
+===> 272/2/feng-chang.raku <===
+30
+ 
+===> 272/2/jaldhar-h-vyas.raku <===
+30
+ 
+===> 272/2/laurent-rosenfeld.raku <===
+hello    => 13
+perl     => 30
+raku     => 37
+ 
+===> 272/2/luca-ferrari.raku <===
+30
+ 
+===> 272/2/mark-anderson.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ 
+===> 272/2/packy-anderson.raku <===
+Example 1:
+Input: $str = "hello"
+Output: 13
+
+ASCII values of characters:
+h = 104
+e = 101
+l = 108
+l = 108
+o = 111
+Score => | 104 - 101 | + | 101 - 108 | + | 108 - 108 | + | 108 - 111 |
+      => 3 + 7 + 0 + 3
+      => 13
+
+Example 2:
+Input: $str = "perl"
+Output: 30
+
+ASCII values of characters:
+p = 112
+e = 101
+r = 114
+l = 108
+Score => | 112 - 101 | + | 101 - 114 | + | 114 - 108 |
+      => 11 + 13 + 6
+      => 30
+
+Example 3:
+Input: $str = "raku"
+Output: 37
+
+ASCII values of characters:
+r = 114
+a = 97
+k = 107
+u = 117
+Score => | 114 - 97 | + | 97 - 107 | + | 107 - 117 |
+      => 17 + 10 + 10
+      => 37
+ 
+===> 272/2/roger-bell-west.raku <===
+1..3
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ 
+===> 272/2/ulrich-rieke.raku <===
+30
+ 
+===> 272/2/wambash.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+1..3

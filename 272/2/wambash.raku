@@ -8,14 +8,12 @@ sub string-score ($str) {
     andthen .sum
 }
 
-multi MAIN (Bool :test($)!) {
+#multi MAIN (Bool :test($)!) {
     use Test;
     is string-score('hello'),13;
     is string-score('perl'), 30;
     is string-score('raku'), 37;
     done-testing;
-}
+#}
 
-multi MAIN ($str) {
-    say string-score $str
-}
+#multi MAIN ($str) { say string-score $str }
