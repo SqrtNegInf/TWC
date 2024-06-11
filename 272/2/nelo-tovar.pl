@@ -1,15 +1,8 @@
 #!/usr/bin/env perl
-
-# The Weekly Challenge 272 - By Nelo Tovar
-#
-# https://theweeklychallenge.org/blog/perl-weekly-challenge-272/
-#
-# Task 2 - String Score
-#
+use v5.28;
 
 use strict;
 use warnings;
-use v5.28;
 
 my @examples = ('hello', 'perl', 'raku');
 

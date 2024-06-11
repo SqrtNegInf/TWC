@@ -1,7 +1,7 @@
 #!/usr/bin/env perl
 use v5.36;
 
-my $str = shift;
+my $str = 'perl';
 my @chars = split //, $str;
 my $score;
 

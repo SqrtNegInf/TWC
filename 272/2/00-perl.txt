@@ -1,0 +1,172 @@
+ 
+===> 272/2/adam-russell.pl <===
+13
+30
+37
+ 
+===> 272/2/athanasius.pl <===
+
+Challenge 272, Task #2: String Score (Perl)
+
+Running the test suite
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+1..3
+ 
+===> 272/2/atschneid.pl <===
+hello : 13
+perl : 30
+raku : 37
+ 
+===> 272/2/bob-lied.pl <===
+ 
+===> 272/2/dave-jacoby.pl <===
+        Input:  $str = "hello"
+        Output: 13
+
+        Input:  $str = "perl"
+        Output: 30
+
+        Input:  $str = "raku"
+        Output: 37
+
+        Input:  $str = "weekly"
+        Output: 38
+
+        Input:  $str = "linux"
+        Output: 18
+
+        Input:  $str = "Perl"
+        Output: 40
+
+        Input:  $str = "PERL"
+        Output: 30
+
+ 
+===> 272/2/deadmarshal.pl <===
+13
+30
+37
+ 
+===> 272/2/e-choroba.pl <===
+1..5
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ok 4 - Empty
+ok 5 - Single character
+ 
+===> 272/2/jaldhar-h-vyas.pl <===
+30
+ 
+===> 272/2/laurent-rosenfeld.pl <===
+hello    => 13
+perl     => 30
+raku     => 37
+ 
+===> 272/2/nelo-tovar.pl <===
+Input : $str = hello
+Output : 13
+ 
+Input : $str = perl
+Output : 30
+ 
+Input : $str = raku
+Output : 37
+ 
+ 
+===> 272/2/packy-anderson.pl <===
+Example 1:
+Input: $str = "hello"
+Output: 13
+
+ASCII values of characters:
+h = 104
+e = 101
+l = 108
+l = 108
+o = 111
+Score => | 104 - 101 | + | 101 - 108 | + | 108 - 108 | + | 108 - 111 |
+      => 3 + 7 + 0 + 3
+      => 13
+
+Example 2:
+Input: $str = "perl"
+Output: 30
+
+ASCII values of characters:
+p = 112
+e = 101
+r = 114
+l = 108
+Score => | 112 - 101 | + | 101 - 114 | + | 114 - 108 |
+      => 11 + 13 + 6
+      => 30
+
+Example 3:
+Input: $str = "raku"
+Output: 37
+
+ASCII values of characters:
+r = 114
+a = 97
+k = 107
+u = 117
+Score => | 114 - 97 | + | 97 - 107 | + | 107 - 117 |
+      => 17 + 10 + 10
+      => 37
+ 
+===> 272/2/perlboy1967.pl <===
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+1..3
+ 
+===> 272/2/peter-campbell-smith.pl <===
+
+Input:  hello
+Output: 13
+
+Input:  supercalifragilisticexpialidocious
+Output: 242
+
+Input:  The Weekly Challenge
+Output: 385
+
+Input:  aĐbđcĒeēfĔgĕh🞱
+Output: 1382
+ 
+===> 272/2/peter-meszaros.pl <===
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ok 4 - Example 4
+ok 5 - Example 5
+1..5
+ 
+===> 272/2/roger-bell-west.pl <===
+1..3
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ 
+===> 272/2/sgreen.pl <===
+30
+ 
+===> 272/2/ulrich-rieke.pl <===
+30
+ 
+===> 272/2/wanderdoc.pl <===
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+1..3
+ 
+===> 272/2/zapwai.pl <===
+Input: hello
+Output: 13
+Input: perl
+Output: 30
+Input: raku
+Output: 37

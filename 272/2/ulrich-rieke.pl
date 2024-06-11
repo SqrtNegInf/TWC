@@ -3,9 +3,7 @@ use strict ;
 use warnings ;
 use feature 'say' ;
 
-say "Enter a word!" ;
-my $word = <STDIN> ;
-chomp $word ;
+my $word  = 'perl';
 my @numbers = map { ord $_ } split( // , $word ) ;
 my $len = scalar( @numbers ) ;
 my $sum = 0 ;

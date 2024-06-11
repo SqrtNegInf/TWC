@@ -1,10 +1,11 @@
 #!/usr/bin/env perl
+use v5.36;
+
 use strict;
 use warnings;
 
-use v5.36;
 
-my @test_inputs = @ARGV;
+my @test_inputs = ("perl", "hello", "raku");
 if (scalar @ARGV == 0) {
     @test_inputs = (
 	"hello",

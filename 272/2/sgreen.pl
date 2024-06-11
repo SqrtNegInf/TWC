@@ -19,4 +19,4 @@ sub main ($str) {
     say $score;
 }
 
-main( $ARGV[0] );
+main( 'perl' );
