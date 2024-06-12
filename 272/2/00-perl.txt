@@ -20,6 +20,13 @@ perl : 30
 raku : 37
  
 ===> 272/2/bob-lied.pl <===
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ok 4 - Empty string
+ok 5 - length 1 string
+ok 6 - repeated letters
+1..6
  
 ===> 272/2/dave-jacoby.pl <===
         Input:  $str = "hello"

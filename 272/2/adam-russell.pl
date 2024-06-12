@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
-  
+
 sub string_score{
   my($s) = shift;
   my $score = 0;

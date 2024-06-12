@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-
-use v5.26;    # The Weekly Challenge - 3 June 2024
-use warnings; # Peter Campbell Smith
+use v5.36;
 
 string_score('hello');
 string_score('supercalifragilisticexpialidocious');
