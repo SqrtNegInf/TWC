@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-
-  
 use v5.36;
-
   
 sub defang{
     my($c, $defanged) = @_;

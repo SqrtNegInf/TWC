@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
+use v5.36;
 
 sub defrag_ip_address{
   $_[0] =~ s/\./\[\.\]/gr

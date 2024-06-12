@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
+use v5.36;
+
 use Data::Dumper;
 
 my $ip1 = "1.1.1.1";

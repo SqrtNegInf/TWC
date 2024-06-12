@@ -1,5 +1,4 @@
 #!/usr/bin/env perl
-
 use v5.36;
 
 my @test_inputs = ["1.1.1.1"];
