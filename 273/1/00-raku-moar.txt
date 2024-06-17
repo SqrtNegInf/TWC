@@ -1,0 +1,140 @@
+ 
+===> 273/1/0rir.raku <===
+1..13
+ok 1 - 25 <- (e) perl
+ok 2 - 50 <- (a) java
+ok 3 - 0 <- (m) python
+ok 4 - 67 <- (a) ada
+ok 5 - 22 <- (l) ballerina
+ok 6 - 13 <- (k) analitik
+ok 7 - 100 <- (a) a
+ok 8 - 99 <- (a) aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaab
+ok 9 - 1 <- (b) aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaab
+ok 10 - 100 <- (a) aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaab
+ok 11 - 0 <- (b) aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaab
+ok 12 - 100 <- (a) aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaab
+ok 13 - 1 <- (b) aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaab
+ 
+===> 273/1/arne-sommer.raku <===
+11
+ 
+===> 273/1/ash.raku <===
+25
+50
+0
+67
+22
+13
+ 
+===> 273/1/athanasius.raku <===
+
+Challenge 273, Task #1: Percentage of Character (Raku)
+
+Running the test suite
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ok 4 - Example 4
+ok 5 - Example 5
+ok 6 - Example 6
+ok 7 - Empty string
+ok 8 - Same chars
+ok 9 - Ignore case 1
+ok 10 - Ignore case 2
+ok 11 - Use case 1
+ok 12 - Use case 2
+1..12
+ 
+===> 273/1/barroff.raku <===
+1..6
+ok 1 - works for "perl" and "e"
+ok 2 - works for "perl" and "a"
+ok 3 - works for "python" and "m"
+ok 4 - works for "ada" and "a"
+ok 5 - works for "ballerina" and "l"
+ok 6 - works for "analitik" and "k"
+ 
+===> 273/1/bruce-gray.raku <===
+1..6
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ok 4 - 
+ok 5 - 
+ok 6 - 
+ 
+===> 273/1/deadmarshal.raku <===
+25
+50
+0
+67
+22
+13
+ 
+===> 273/1/jaldhar-h-vyas.raku <===
+11
+ 
+===> 273/1/joelle-maslak.raku <===
+Percentage of times character apears in string 11%
+ 
+===> 273/1/laurent-rosenfeld.raku <===
+perl       - e  => 25
+java       - a  => 50
+python     - m  => 0
+ada        - a  => 67
+ballerina  - l  => 22
+analitik   - k  => 13
+ 
+===> 273/1/luca-ferrari.raku <===
+11
+ 
+===> 273/1/mark-anderson.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ok 4 - 
+ok 5 - 
+ok 6 - 
+ 
+===> 273/1/packy-anderson.raku <===
+Example 1:
+Input: $str = "perl", $char = "e"
+Output: 25
+
+Example 2:
+Input: $str = "java", $char = "a"
+Output: 50
+
+Example 3:
+Input: $str = "python", $char = "m"
+Output: 0
+
+Example 4:
+Input: $str = "ada", $char = "a"
+Output: 67
+
+Example 5:
+Input: $str = "ballerina", $char = "l"
+Output: 22
+
+Example 6:
+Input: $str = "analitik", $char = "k"
+Output: 13
+ 
+===> 273/1/roger-bell-west.raku <===
+1..6
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ok 4 - example 4
+ok 5 - example 5
+ok 6 - example 6
+ 
+===> 273/1/wambash.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ok 4 - 
+ok 5 - 
+ok 6 - 
+1..6

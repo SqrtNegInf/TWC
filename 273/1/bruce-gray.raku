@@ -1,4 +1,5 @@
 #!/usr/bin/env raku
+
 sub task1 ( $str, $char --> UInt ) {
     my UInt $count = +$str.comb($char);
     # Alternatives:

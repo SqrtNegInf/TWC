@@ -1,5 +1,4 @@
 #!/usr/bin/env raku
-use v6;
 
 sub charPercent($str, $char) {
   return round(( $str.comb($char).elems / $str.chars ) * 100);

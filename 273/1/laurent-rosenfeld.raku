@@ -1,4 +1,5 @@
 #!/usr/bin/env raku
+
 sub percent ($str, $char) {
     my $count = 0;
     for $str.comb -> $ch {

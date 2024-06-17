@@ -8,7 +8,7 @@ sub  percentage-of-character ($str,:$char) {
     andthen .round
 }
 
-multi MAIN (Bool :test($)!) {
+#multi MAIN (Bool :test($)!) {
     use Test;
     is  percentage-of-character('perl',:char<e>), 25;
     is  percentage-of-character('java',:char<a>), 50;
@@ -17,8 +17,6 @@ multi MAIN (Bool :test($)!) {
     is  percentage-of-character('ballerina',:char<l>), 22;
     is  percentage-of-character('analitik',:char<k>), 13;
     done-testing;
-}
+#}
 
-multi MAIN ($str,:$char) {
-    say  percentage-of-character $str,:$char
-}
+#multi MAIN ($str,:$char) { say  percentage-of-character $str,:$char }
