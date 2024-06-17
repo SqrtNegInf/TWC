@@ -1,5 +1,8 @@
 #!/usr/bin/env perl
-use v5.36;
+use v5.40;
+
+#use experimental qw( for_list );
+
 use POSIX qw<lround>;
 
 sub task1 ($str, $char) {

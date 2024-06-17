@@ -1,5 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
+
 my $str = "perl"; my $char = "e";
 proc($str, $char);
 $str = "java"; $char = "a";

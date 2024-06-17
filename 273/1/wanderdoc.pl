@@ -2,42 +2,6 @@
 use strict;
 use warnings FATAL => qw(all);
 
-=prompt
-You are given a string, $str and a character $char.
-
-Write a script to return the percentage, nearest whole, of given character in the given string.
-Example 1
-
-Input: $str = "perl", $char = "e"
-Output: 25
-
-Example 2
-
-Input: $str = "java", $char = "a"
-Output: 50
-
-Example 3
-
-Input: $str = "python", $char = "m"
-Output: 0
-
-Example 4
-
-Input: $str = "ada", $char = "a"
-Output: 67
-
-Example 5
-
-Input: $str = "ballerina", $char = "l"
-Output: 22
-
-Example 6
-
-Input: $str = "analitik", $char = "k"
-Output: 13
-=cut
-
-
 use List::Util qw(sum);
 # use Math::Round;
 use Test2::V0 -no_srand;

@@ -1,6 +1,7 @@
 #!/usr/bin/env perl
 use strict;
 use warnings;
+
 use POSIX qw(round);
 
 sub percentage_of_character{

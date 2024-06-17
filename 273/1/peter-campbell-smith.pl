@@ -1,11 +1,7 @@
 #!/usr/bin/env perl
 
-# Blog: http://ccgi.campbellsmiths.force9.co.uk/challenge
-
 use v5.26;    # The Weekly Challenge - 2024-06-10
-use utf8;     # Week 273 - task 1 - Percentage of character
 use warnings; # Peter Campbell Smith
-binmode STDOUT, ':utf8';
 
 percentage_of_character('the cat sat on the mat', 'a');
 percentage_of_character('percentage of character', 'g');

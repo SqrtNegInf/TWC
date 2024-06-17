@@ -1,8 +1,8 @@
 #!/usr/bin/env perl
-# The Weekly Challenge 273
-# Task 1 Percentage of Character
+
 use v5.30.0;
 use warnings;
+
 use Math::Round qw/round/;
 
 sub sc {
