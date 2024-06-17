@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
 
-use v5.38;
+use v5.36;
 
 sub b_after_a ($str) {
     return $str =~ /^a*b+$/ ? 1 : 0;

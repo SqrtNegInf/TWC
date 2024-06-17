@@ -6,7 +6,7 @@ DATE  : 2024-06-15
 Challenge 273 Percentage of Character ( Perl )
 -----------------------------------------
 =cut
-use v5.38;
+use v5.36;
 use strict;
 use warnings;
 use Math::Round;
