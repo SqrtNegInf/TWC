@@ -33,7 +33,7 @@ List::Rank needed for 243/1/jo-37.pl
 
 2023-11-13
 cd ~/PWC;  binin bin
-rm -f TestExtractor.pm jeanluc2020.pl matthias-muth.pl mattneleigh.pl robbie-hatley.pl steve-g-lynn.pl; PWC-ratio
+(cd 273/1; rm -f TestExtractor.pm jeanluc2020.pl matthias-muth.pl mattneleigh.pl robbie-hatley.pl steve-g-lynn.pl; PWC-ratio )
 # XXX >= 24*,  LANG=raku|perl,  Y=1|2
 git add XXX; git commit -m 'raw code after tweaks and 1st-pass purge of Perl'
 perl -i -npe 's#v5.38#v5.36#' XXX/*/*pl; git add XXX; git commit -m 'downgrade 5.38 to 5.36'
