@@ -1,28 +1,6 @@
 #!/usr/bin/env raku
-# :vim ft=raku sw=4 expandtab  # 🦋 ∅∪∩∋∈∉⊆ ≡ ≢ «␤ » ∴
-use v6.d;
+
 use Test;
-
-=begin comment
-273-2: B After A            Submitted by: Mohammad Sajid Anwar
-You are given a string, $str.
-
-Write a script to return true if there is at least one b, and no a appears after the first b.
-
-Example 1
-Input: $str = "aabb"
-Output: true
-Example 2
-Input: $str = "abab"
-Output: false
-Example 3
-Input: $str = "aaa"
-Output: false
-Example 4
-Input: $str = "bbb"
-Output: true
-
-=end comment
 
 my @Test =
     "aabb",     True,

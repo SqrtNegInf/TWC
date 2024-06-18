@@ -1,6 +1,7 @@
 #!/usr/bin/env raku
 
-unit sub MAIN ($str where $str.chars > 0);
+#unit sub MAIN ($str where $str.chars > 0);
+my $str = "aabb";
 
 if $str ~~ /b/
 {

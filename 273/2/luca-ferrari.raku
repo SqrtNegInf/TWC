@@ -1,14 +1,8 @@
 #!/usr/bin/env raku
 
-#
-# Perl Weekly Challenge 273
-# Task 2
-#
-# See <https://perlweeklychallenge.org/blog/perl-weekly-challenge-273>
-#
-
-sub MAIN( Str $string where { $string.chars > 0 } ) {
+#sub MAIN( Str $string where { $string.chars > 0 } ) {
+my $string = 'aabb';
     'True'.say and exit if ( $string ~~ / b / && $string !~~ / b .* a / );
     'False'.say;
 
-}
+#}

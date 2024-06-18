@@ -1,5 +1,4 @@
 #!/usr/bin/env raku
-use v6;
 
 sub bAfterA($str) {
   my $seen_b = False;

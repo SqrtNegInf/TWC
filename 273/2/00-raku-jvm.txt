@@ -1,0 +1,141 @@
+ 
+===> 273/2/0rir.raku <===
+1..8
+ok 1 - True	<- aabb
+ok 2 - False	<- abab
+ok 3 - False	<- aaa
+ok 4 - True	<- bbb
+ok 5 - False	<- ccc
+ok 6 - True	<- cbc
+ok 7 - False	<- cac
+ok 8 - True	<- cab
+ 
+===> 273/2/arne-sommer.raku <===
+true
+ 
+===> 273/2/ash.raku <===
+true
+false
+false
+true
+ 
+===> 273/2/athanasius.raku <===
+
+Challenge 273, Task #2: B After A (Raku)
+
+Running the test suite
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ok 4 - Example 4
+ok 5 - Uppercase 1
+ok 6 - Uppercase 2
+ok 7 - Uppercase 3
+ok 8 - Uppercase 4
+ok 9 - First B
+ok 10 - Second B
+1..10
+ 
+===> 273/2/barroff.raku <===
+1..4
+ok 1 - works for "aabb"
+ok 2 - works for "abab"
+ok 3 - works for "aaa"
+ok 4 - works for "bbb"
+ 
+===> 273/2/bruce-gray.raku <===
+1..16
+ok 1 - task2_cont_regex_ladder : aabb
+ok 2 - task2_cont_regex_ladder : abab
+ok 3 - task2_cont_regex_ladder : aaa
+ok 4 - task2_cont_regex_ladder : bbb
+ok 5 - task2_cont_regex : aabb
+ok 6 - task2_cont_regex : abab
+ok 7 - task2_cont_regex : aaa
+ok 8 - task2_cont_regex : bbb
+ok 9 - task2_index_substr_cont : aabb
+ok 10 - task2_index_substr_cont : abab
+ok 11 - task2_index_substr_cont : aaa
+ok 12 - task2_index_substr_cont : bbb
+ok 13 - task2_single_regex : aabb
+ok 14 - task2_single_regex : abab
+ok 15 - task2_single_regex : aaa
+ok 16 - task2_single_regex : bbb
+ 
+===> 273/2/deadmarshal.raku <===
+True
+False
+False
+True
+ 
+===> 273/2/joelle-maslak.raku <===
+Output: true
+ 
+===> 273/2/laurent-rosenfeld.raku <===
+aabb  => True
+abab  => False
+aaa   => False
+bbb   => True
+ 
+===> 273/2/luca-ferrari.raku <===
+True
+ 
+===> 273/2/mark-anderson.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ok 4 - 
+ok 5 - 
+ok 6 - 
+ok 7 - 
+ok 8 - 
+ok 9 - 
+ok 10 - 
+ok 11 - 
+ok 12 - 
+ok 13 - 
+ok 14 - 
+ok 15 - 
+ok 16 - 
+ok 17 - 
+ok 18 - 
+ok 19 - 
+ok 20 - 
+ok 21 - 
+ok 22 - 
+ok 23 - 
+ok 24 - 
+ 
+===> 273/2/packy-anderson.raku <===
+Example 1:
+Input: $str = "aabb"
+Output: True
+
+Example 2:
+Input: $str = "abab"
+Output: False
+
+Example 3:
+Input: $str = "aaa"
+Output: False
+
+Example 4:
+Input: $str = "bbb"
+Output: True
+ 
+===> 273/2/roger-bell-west.raku <===
+1..4
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ok 4 - example 4
+ 
+===> 273/2/ulrich-rieke.raku <===
+True
+ 
+===> 273/2/wambash.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ok 4 - 
+1..4

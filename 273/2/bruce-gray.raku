@@ -1,5 +1,6 @@
 #!/usr/bin/env raku
 # At least one b, and no a appears after the first b.
+
 sub task2_cont_regex_ladder ( $str --> Bool ) {
     return False unless $str.contains('b');
     return False if $str ~~ / b .* a /;

@@ -1,8 +1,7 @@
 #!/usr/bin/env raku
-use v6 ;
 
-say "Enter a word!" ;
-my $word = $*IN.get ;
+#say "Enter a word!" ;
+my $word = 'aabb';
 my $result = False ;
 if ( $word ~~ /b/ ) {
    my $pos = $word.index( 'b' ) ;
