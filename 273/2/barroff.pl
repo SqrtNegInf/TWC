@@ -1,5 +1,4 @@
 #!/usr/bin/env perl
-
 use v5.36;
 
 sub b_after_a ($str) {

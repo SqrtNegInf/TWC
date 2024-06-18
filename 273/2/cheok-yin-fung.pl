@@ -1,7 +1,7 @@
 #!/usr/bin/env perl
-# The Weekly Challenge 273
-# Task 2 B After A
+
 use v5.30.0;
+
 use warnings;
 
 sub ab {

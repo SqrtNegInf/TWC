@@ -1,11 +1,7 @@
 #!/usr/bin/env perl
 
-# Blog: http://ccgi.campbellsmiths.force9.co.uk/challenge
-
 use v5.26;    # The Weekly Challenge - 2024-06-10
-use utf8;     # Week 273 - task 2 - B after a
 use warnings; # Peter Campbell Smith
-binmode STDOUT, ':utf8';
 
 b_after_a('aabb');
 b_after_a('abab');

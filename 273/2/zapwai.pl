@@ -1,5 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
+
 my $str = "aabb";
 proc($str);
 $str = "abab";

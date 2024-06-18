@@ -2,31 +2,6 @@
 use strict;
 use warnings FATAL => qw(all);
 
-=prompt
-You are given a string, $str.
-
-Write a script to return true if there is at least one b, and no a appears after the first b.
-Example 1
-
-Input: $str = "aabb"
-Output: true
-
-Example 2
-
-Input: $str = "abab"
-Output: false
-
-Example 3
-
-Input: $str = "aaa"
-Output: false
-
-Example 4
-
-Input: $str = "bbb"
-Output: true
-=cut
-
 use constant false => 0;
 use constant true  => 1;
 

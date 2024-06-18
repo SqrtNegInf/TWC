@@ -1,27 +1,9 @@
 #!/usr/bin/env perl
-
-=pod
-
-The Weekly Challenge - 273
-- https://theweeklychallenge.org/blog/perl-weekly-challenge-273
-
-Author: Niels 'PerlBoy' van Dijke
-
-Task 2: B After A
-Submitted by: Mohammad Sajid Anwar
-
-You are given a string, $str.
-
-Write a script to return true if there is at least one 'b', and
-no 'a' appears after the first 'b'.
-
-=cut
-
 use v5.32;
 use feature qw(signatures);
 use common::sense;
 
-use Data::Printer;
+#use Data::Printer;
 
 use Test2::V0 -no_srand;
 

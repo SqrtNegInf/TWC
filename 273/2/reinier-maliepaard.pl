@@ -2,26 +2,6 @@
 use strict;
 use warnings;
 
-=begin
- I prefer not to replicate the interesting regex solutions of others.
- Therefore, I chose a different approach using the 'index' method.
-
-    Postulate 1: The string must contain at least one 'b'. Strings like
-                 'b', 'bb', 'bbb', etc., are also valid.
-    Postulate 2: If a string contains the characters 'a' and 'b', then
-                 'a' is not allowed to follow the first 'b'. There are
-                 two cases to consider:
-                 1. If 'ba' appears at the beginning of a string, it
-                    should be evaluated as 'false'.
-                 2. If 'ba' appears elsewhere in the string, it must be
-                    preceded by another 'b' to be evaluated as 'true'.
-                    For instance, 'aaba' is 'false' but 'aabba' is 'true'.
-
- Performance: benchmarking my solution against several regex solutions I
- found on GitHub showed that it performs adequately. It is neither the
- fastest nor the slowest.
-=cut
-
 sub BafterA {
 
  # 'b' in $_[0]?
