@@ -1,0 +1,264 @@
+ 
+===> 273/1/athanasius.pl <===
+
+Challenge 273, Task #1: Percentage of Character (Perl)
+
+Running the test suite
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ok 4 - Example 4
+ok 5 - Example 5
+ok 6 - Example 6
+ok 7 - Empty string
+ok 8 - Same chars
+ok 9 - Ignore case 1
+ok 10 - Ignore case 2
+ok 11 - Use case 1
+ok 12 - Use case 2
+1..12
+ 
+===> 273/1/atschneid.pl <===
+char:e, string:perl => 25
+char:a, string:java => 50
+char:m, string:python => 0
+char:a, string:ada => 67
+char:d, string:ada => 33
+char:l, string:ballerina => 22
+char:k, string:analitik => 13
+char:a, string:aaabb => 60
+char:b, string:aaabb => 40
+char:a, string:aaaabbb => 57
+char:b, string:aaaabbb => 43
+ 
+===> 273/1/bob-lied.pl <===
+ok 1 - Example 1 perl e delete
+ok 2 - Example 2 java a delete
+ok 3 - Example 3 python m delete
+ok 4 - Example 4 ada a delete
+ok 5 - Example 5 ballerina l delete
+ok 6 - Example 6 analitik k delete
+ok 7 - 100% delete
+ok 8 - Example 1 perl e grepcmp
+ok 9 - Example 2 java a grepcmp
+ok 10 - Example 3 python m grepcmp
+ok 11 - Example 4 ada a grepcmp
+ok 12 - Example 5 ballerina l grepcmp
+ok 13 - Example 6 analitik k grepcmp
+ok 14 - 100% grepcmp
+ok 15 - Example 1 perl e match
+ok 16 - Example 2 java a match
+ok 17 - Example 3 python m match
+ok 18 - Example 4 ada a match
+ok 19 - Example 5 ballerina l match
+ok 20 - Example 6 analitik k match
+ok 21 - 100% match
+ok 22 - Example 1 perl e saturn
+ok 23 - Example 2 java a saturn
+ok 24 - Example 3 python m saturn
+ok 25 - Example 4 ada a saturn
+ok 26 - Example 5 ballerina l saturn
+ok 27 - Example 6 analitik k saturn
+ok 28 - 100% saturn
+ok 29 - Example 1 perl e splitgrep
+ok 30 - Example 2 java a splitgrep
+ok 31 - Example 3 python m splitgrep
+ok 32 - Example 4 ada a splitgrep
+ok 33 - Example 5 ballerina l splitgrep
+ok 34 - Example 6 analitik k splitgrep
+ok 35 - 100% splitgrep
+ok 36 - Example 1 perl e treval
+ok 37 - Example 2 java a treval
+ok 38 - Example 3 python m treval
+ok 39 - Example 4 ada a treval
+ok 40 - Example 5 ballerina l treval
+ok 41 - Example 6 analitik k treval
+ok 42 - 100% treval
+1..42
+ 
+===> 273/1/bruce-gray.pl <===
+ 
+===> 273/1/cheok-yin-fung.pl <===
+1..6
+ok 1
+ok 2
+ok 3
+ok 4
+ok 5
+ok 6
+ 
+===> 273/1/dave-jacoby.pl <===
+Input:  $str = "perl", $char = "e"
+Output: "25"
+
+Input:  $str = "java", $char = "a"
+Output: "50"
+
+Input:  $str = "python", $char = "m"
+Output: "0"
+
+Input:  $str = "ada", $char = "a"
+Output: "67"
+
+Input:  $str = "ballerina", $char = "l"
+Output: "22"
+
+Input:  $str = "analitik", $char = "k"
+Output: "13"
+
+ 
+===> 273/1/deadmarshal.pl <===
+25
+50
+0
+67
+22
+13
+ 
+===> 273/1/e-choroba.pl <===
+1..6
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ok 4 - Example 4
+ok 5 - Example 5
+ok 6 - Example 6
+ 
+===> 273/1/jo-37.pl <===
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ok 4 - example 4
+ok 5 - example 5
+ok 6 - example 6
+ok 7 - not a single character
+ok 8 - meta characters
+1..8
+ 
+===> 273/1/laurent-rosenfeld.pl <===
+perl       - e  => 25
+java       - a  => 50
+python     - m  => 0
+ada        - a  => 67
+ballerina  - l  => 22
+analitik   - k  => 13
+ 
+===> 273/1/nelo-tovar.pl <===
+Input  : str = 'perl', chr = 'e'
+Output : 25
+
+Input  : str = 'java', chr = 'a'
+Output : 50
+
+Input  : str = 'python', chr = 'm'
+Output : 0
+
+Input  : str = 'ada', chr = 'a'
+Output : 67
+
+Input  : str = 'ballerina', chr = 'l'
+Output : 22
+
+Input  : str = 'analitik', chr = 'k'
+Output : 13
+
+ 
+===> 273/1/packy-anderson.pl <===
+Example 1:
+Input: $str = "perl", $char = "e"
+Output: 25
+
+Example 2:
+Input: $str = "java", $char = "a"
+Output: 50
+
+Example 3:
+Input: $str = "python", $char = "m"
+Output: 0
+
+Example 4:
+Input: $str = "ada", $char = "a"
+Output: 67
+
+Example 5:
+Input: $str = "ballerina", $char = "l"
+Output: 22
+
+Example 6:
+Input: $str = "analitik", $char = "k"
+Output: 13
+ 
+===> 273/1/perlboy1967.pl <===
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ok 4 - Example 4
+1..4
+ 
+===> 273/1/peter-campbell-smith.pl <===
+
+Input:  $str = 'the cat sat on the mat', $char = 'a'
+Output: 14
+
+Input:  $str = 'percentage of character', $char = 'g'
+Output: 4
+
+Input:  $str = 'the weekly challenge', $char = 'z'
+Output: 0
+
+Input:  $str = 'zzzzzzzzzzzzzzzzzz', $char = 'z'
+Output: 100
+ 
+===> 273/1/peter-meszaros.pl <===
+ok 1
+ok 2
+ok 3
+ok 4
+ok 5
+ok 6
+1..6
+ 
+===> 273/1/reinier-maliepaard.pl <===
+ 
+===> 273/1/roger-bell-west.pl <===
+1..6
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ok 4 - example 4
+ok 5 - example 5
+ok 6 - example 6
+ 
+===> 273/1/spadacciniweb.pl <===
+str perl char e -> perc 25
+str java char a -> perc 50
+str python char m -> perc 0
+str ada char a -> perc 67
+str ballerina char l -> perc 22
+str analitik char k -> perc 12
+ 
+===> 273/1/wanderdoc.pl <===
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ok 4 - Example 4
+ok 5 - Example 5
+ok 6 - Example 6
+1..6
+ 
+===> 273/1/wlmb.pl <===
+str=ballerina, chr=e -> 11
+ 
+===> 273/1/zapwai.pl <===
+Input: $str = perl, $char = e
+Output: 25
+Input: $str = java, $char = a
+Output: 50
+Input: $str = python, $char = m
+Output: 0
+Input: $str = ada, $char = a
+Output: 67
+Input: $str = ballerina, $char = l
+Output: 22
+Input: $str = analitik, $char = k
+Output: 13
