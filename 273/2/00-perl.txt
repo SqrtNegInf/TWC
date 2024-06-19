@@ -24,12 +24,11 @@ bbb :: true
 aaaffeoioijlkfjoihslkjhfb :: true
  
 ===> 273/2/barroff.pl <===
-# Seeded srand with seed '20240617' from local date.
-1..4
 ok 1 - works for "aabb
 ok 2 - works for "abab
 ok 3 - works for "aaa
 ok 4 - works for "bbb
+1..4
  
 ===> 273/2/bruce-gray.pl <===
 1..4

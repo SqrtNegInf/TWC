@@ -13,12 +13,12 @@ sub MAIN() {
     }
     else {
         #| Run test cases
-        use Test2::V0 qw( is plan );
-        plan 4;
+        use Test2::V0 -no_srand;
         is b_after_a('aabb'), 1, 'works for "aabb';
         is b_after_a('abab'), 0, 'works for "abab';
         is b_after_a('aaa'),  0, 'works for "aaa';
         is b_after_a('bbb'),  1, 'works for "bbb';
+        done_testing();
     }
 }
 
