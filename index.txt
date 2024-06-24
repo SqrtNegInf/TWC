@@ -574,8 +574,8 @@ Challenge titles and Rosetta-code correspondences (exact, and otherwise)
 273-2 B After A
 274-1 Goat Latin
 274-2 Bus Route
-275-1
-275-2
+275-1 Broken Keys
+275-2 Replace Digits
 276-1
 276-2
 277-1
