@@ -1,5 +1,5 @@
 #!/usr/bin/env perl
-use v5.38;
+use v5.36;
 my @inp = ( [12, 11, 41], [15, 5, 35] );
 my $MAX = 60;
 my @R;
