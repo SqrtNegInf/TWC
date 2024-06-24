@@ -1,15 +1,8 @@
 #!/usr/bin/env perl
-
-# The Weekly Challenge 274 - By Nelo Tovar
-#
-# https://theweeklychallenge.org/blog/perl-weekly-challenge-274/
-#
-# Task 1 - Goat Latin
-#
+use v5.28;
 
 use strict;
 use warnings;
-use v5.28;
 
 my @examples = ('I love Perl', 'Perl and Raku are friends', 'The Weekly Challenge');
 

@@ -1,9 +1,10 @@
 #!/usr/bin/env perl
 
-use JTM::Boilerplate 'script';
+#use JTM::Boilerplate 'script';
+use v5.36;
 
 MAIN: {
-    my $sentence = join ' ', @ARGV;
+    my $sentence = join ' ', ("Perl and Raku are friends");
     $sentence =~ s/(?<!\S)([aeiou])([^\s]*)/${1}${2}ma/igs;
     $sentence =~ s/(?<!\S)([^aeiou])([^\s]*)/${2}${1}ma/igs;
 

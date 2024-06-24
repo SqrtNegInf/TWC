@@ -16,8 +16,7 @@ sub convert {
    return $word ;
 }
 
-say "Enter a sentence!" ;
-my $line = <STDIN> ;
+my $line = "Perl and Raku are friends";
 chomp $line ;
 my @words = split( /\s+/ , $line ) ;
 my @wordIndices ;

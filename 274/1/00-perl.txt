@@ -1,0 +1,135 @@
+ 
+===> 274/1/athanasius.pl <===
+
+Challenge 274, Task #1: Goat Latin (Perl)
+
+Running the test suite
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+1..3
+ 
+===> 274/1/atschneid.pl <===
+Imaa ovelmaaa erlPmaaaa
+erlPmaa andmaaa akuRmaaaa aremaaaaa riendsfmaaaaaa
+heTmaa eeklyWmaaa hallengeCmaaaa
+erlPmaa! andmaaa akuRmaaaa?     aremaaaaa... riendsfmaaaaaa>
+ 
+===> 274/1/bob-lied.pl <===
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+1..3
+ 
+===> 274/1/cheok-yin-fung.pl <===
+1..3
+ok 1
+ok 2
+ok 3
+ 
+===> 274/1/dave-jacoby.pl <===
+    Input:  $sentence = "I love Perl"
+    Output: "Imaa ovelmaaa erlPmaaaa"
+
+    Input:  $sentence = "Perl and Raku are friends"
+    Output: "erlPmaa andmaaa akuRmaaaa aremaaaaa riendsfmaaaaaa"
+
+    Input:  $sentence = "The Weekly Challenge"
+    Output: "heTmaa eeklyWmaaa hallengeCmaaaa"
+
+ 
+===> 274/1/e-choroba.pl <===
+1..3
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ 
+===> 274/1/jo-37.pl <===
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+1..3
+ 
+===> 274/1/joelle-maslak.pl <===
+erlPmaa andmaaa akuRmaaaa aremaaaaa riendsfmaaaaaa
+ 
+===> 274/1/laurent-rosenfeld.pl <===
+English: I love Perl
+Goat Latin: Imaa ovelmaaa erlPmaaaa
+-----
+English: Perl and Raku are friends
+Goat Latin: erlPmaa andmaaa akuRmaaaa aremaaaaa riendsfmaaaaaa
+-----
+English: The Weekly Challenge
+Goat Latin: heTmaa eeklyWmaaa hallengeCmaaaa
+-----
+ 
+===> 274/1/nelo-tovar.pl <===
+Input : sentence ='I love Perl'
+Output : 'Imaa ovelmaaa erlPmaaaa '
+
+Input : sentence ='Perl and Raku are friends'
+Output : 'erlPmaa andmaaa akuRmaaaa aremaaaaa riendsfmaaaaaa '
+
+Input : sentence ='The Weekly Challenge'
+Output : 'heTmaa eeklyWmaaa hallengeCmaaaa '
+
+ 
+===> 274/1/packy-anderson.pl <===
+Example 1:
+Input: $sentence = "I love Perl"
+Output: "Imaa ovelmaaa erlPmaaaa"
+
+Example 2:
+Input: $sentence = "Perl and Raku are friends"
+Output: "erlPmaa andmaaa akuRmaaaa aremaaaaa riendsfmaaaaaa"
+
+Example 3:
+Input: $sentence = "The Weekly Challenge"
+Output: "heTmaa eeklyWmaaa hallengeCmaaaa"
+
+Example 4:
+Input: $sentence = "Bus stop Bus goes She stays Love grows Under my umbrella"
+Output: "usBmaa topsmaaa usBmaaaa oesgmaaaaa heSmaaaaaa tayssmaaaaaaa oveLmaaaaaaaa rowsgmaaaaaaaaa Undermaaaaaaaaaa ymmaaaaaaaaaaa umbrellamaaaaaaaaaaaa"
+ 
+===> 274/1/peter-campbell-smith.pl <===
+
+Input:  $sentence = "I love Perl"
+Output: "Imaa ovelmaaa erlPmaaaa"
+
+Input:  $sentence = "Perl and Raku are friends"
+Output: "erlPmaa andmaaa akuRmaaaa aremaaaaa riendsfmaaaaaa"
+
+Input:  $sentence = "The Weekly Challenge"
+Output: "heTmaa eeklyWmaaa hallengeCmaaaa"
+
+Input:  $sentence = "Can't you say 'Hello!' to my mother-in-law?"
+Output: "an'tCmaa ouymaaa aysmaaaa 'elloHmaaaaa!' otmaaaaaa ymmaaaaaaa other-in-lawmmaaaaaaaa?"
+ 
+===> 274/1/peter-meszaros.pl <===
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+1..3
+ 
+===> 274/1/roger-bell-west.pl <===
+1..3
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ 
+===> 274/1/spadacciniweb.pl <===
+sentence 'I love Perl' -> 'Imaa ovelmaaa erlPmaaaa'
+sentence 'Perl and Raku are friends' -> 'erlPmaa andmaaa akuRmaaaa aremaaaaa riendsfmaaaaaa'
+sentence 'The Weekly Challenge' -> 'heTmaa eeklyWmaaa hallengeCmaaaa'
+ 
+===> 274/1/ulrich-rieke.pl <===
+erlPmaa andmaaa akuRmaaaa aremaaaaa riendsfmaaaaaa
+ 
+===> 274/1/zapwai.pl <===
+Input: I love Perl
+Output: Imaa ovelmaaa erlPmaaaa 
+Input: Perl and Raku are friends
+Output: erlPmaa andmaaa akuRmaaaa aremaaaaa riendsfmaaaaaa 
+Input: The Weekly Challenge
+Output: heTmaa eeklyWmaaa hallengeCmaaaa 

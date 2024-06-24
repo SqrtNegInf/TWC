@@ -1,11 +1,5 @@
 #!/usr/bin/env perl
-
-# Blog: http://ccgi.campbellsmiths.force9.co.uk/challenge
-
-use v5.26;    # The Weekly Challenge - 2024-06-17
-use utf8;     # Week 274 - task 1 - Goat latin
-use warnings; # Peter Campbell Smith
-binmode STDOUT, ':utf8';
+use v5.36;
 
 goat_latin("I love Perl");
 goat_latin("Perl and Raku are friends");

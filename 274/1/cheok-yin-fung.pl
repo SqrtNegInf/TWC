@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-# The Weekly Challenge 274
-# Task 1 Goat Latin
-use v5.30.0;
-use warnings;
+use v5.36;
 
 sub gl {
     my $sent = $_[0];
