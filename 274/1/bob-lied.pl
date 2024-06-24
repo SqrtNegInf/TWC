@@ -24,7 +24,7 @@
 #           Output: "heTmaa eeklyWmaaa hallengeCmaaaa"
 #=============================================================================
 
-use v5.40;
+use v5.36;
 
 use Getopt::Long;
 my $Verbose = 0;
