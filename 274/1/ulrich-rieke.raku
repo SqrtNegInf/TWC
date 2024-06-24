@@ -1,5 +1,4 @@
 #!/usr/bin/env raku
-use v6 ;
 
 sub convert( ($index , $word is copy) ) {
    my $vowels = ('A' , 'E' , 'I' , 'O' , 'U' , 'a' , 'e' , 'i' , 'o' , 'u').Set ;
@@ -14,8 +13,7 @@ sub convert( ($index , $word is copy) ) {
    return $word ;
 }
 
-say "Enter a sentence!" ;
-my $line = $*IN.get ;
+my $line = "Perl and Raku are friends";
 my @words = $line.words ;
 my @word_indices ;
 for (0..@words.elems - 1 ) -> $pos {

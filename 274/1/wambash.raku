@@ -14,7 +14,7 @@ sub goat-latin ($sentance) {
     $sentance.wordcase:  filter => {  .&rot-word ~ 'ma' ~ 'a' x ++$ }
 }
 
-multi MAIN (Bool :test($)!) {
+#multi MAIN (Bool :test($)!) {
     use Test;
     is rot-word('love'), 'ovel';
     is rot-word('and'),  'and';
@@ -22,8 +22,6 @@ multi MAIN (Bool :test($)!) {
     is goat-latin('Perl and Raku are friends'), 'erlPmaa andmaaa akuRmaaaa aremaaaaa riendsfmaaaaaa';
     is goat-latin('The Weekly Challenge'), 'heTmaa eeklyWmaaa hallengeCmaaaa';
     done-testing;
-}
+#}
 
-multi MAIN ($sentance) {
-    say goat-latin $sentance
-}
+#multi MAIN ($sentance) { say goat-latin $sentance }

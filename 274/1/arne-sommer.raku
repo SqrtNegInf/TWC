@@ -1,6 +1,6 @@
 #!/usr/bin/env raku
 
-unit sub MAIN ($sentence where $sentence.chars > 0);
+unit sub MAIN ($sentence where $sentence.chars > 0 = "Perl and Raku are friends");
 
 say $sentence.words.map( *.&goatify-word ).join(" ");
 

@@ -1,13 +1,6 @@
 #!/usr/bin/env raku
 
-#
-# Perl Weekly Challenge 274
-# Task 1
-#
-# See <https://perlweeklychallenge.org/blog/perl-weekly-challenge-274>
-#
-
-sub MAIN( Str $sentence ) {
+sub MAIN( Str $sentence = "Perl and Raku are friends") {
 # 1) If a word begins with a vowel ("a", "e", "i", "o", "u"), append
 #    "ma" to the end of the word.
 # 2) If a word begins with consonant i.e. not a vowel, remove first

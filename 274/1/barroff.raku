@@ -1,7 +1,5 @@
 #!/usr/bin/env raku
 
-use v6.d;
-
 sub goat-latin(Str $str --> Str) {
     my $vowels = Set(['a', 'e', 'i', 'o', 'u']);
     my $as = "";
@@ -14,9 +12,9 @@ sub goat-latin(Str $str --> Str) {
 }
 
 #| Run test cases
-multi sub MAIN('test') {
+#multi sub MAIN('test') {
     use Test;
-    plan 4;
+    plan 3;
 
     is goat-latin("I love Perl"), "Imaa ovelmaaa erlPmaaaa",
         'works for "I love Perl"';
@@ -25,9 +23,7 @@ multi sub MAIN('test') {
         'works for "Perl and Raku are friends"';
     is goat-latin("The Weekly Challenge"), "heTmaa eeklyWmaaa hallengeCmaaaa",
         'works for "The Weekly Challenge"';
-}
+#}
 
 #| Take user provided number like 10 1 111 24 1000
-multi sub MAIN(Str $str) {
-    say goat-latin($str);
-}
+#multi sub MAIN(Str $str) { say goat-latin($str); }

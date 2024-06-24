@@ -1,5 +1,4 @@
 #!/usr/bin/env raku
-use v6;
 
 my $startsWithVowel = rx/ :i ^<[aeiou]> /;
 

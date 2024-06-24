@@ -1,7 +1,6 @@
 #!/usr/bin/env raku
-use v6.d;
 
-my $sentence = @*ARGS.join(" ");
+my $sentence = "Perl and Raku are friends";
 $sentence ~~ s:i:g/<!after \S> ( <[aeiou]>   \S*)/{$0}ma/;
 $sentence ~~ s:i:g/<!after \S> (<-[aeiou]>) (\S*)/{$1}{$0}ma/;
 

@@ -1,4 +1,5 @@
 #!/usr/bin/env raku
+
 sub goat-latin ($in) {
     my $consonants = (('a'..'z').Set ∪ ('A'..'Z').Set)
         (-) <a e i o u A E I O U>.Set;
@@ -16,8 +17,10 @@ sub goat-latin ($in) {
     }
     return join " ", @out;
 }
+
 my @tests = "I love Perl", "Perl and Raku are friends",
     "The Weekly Challenge";
+
 for @tests -> $test {
     say "English: $test";
     say "Goat Latin: ", goat-latin $test;

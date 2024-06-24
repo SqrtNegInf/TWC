@@ -1,6 +1,6 @@
 #!/usr/bin/env raku
 
-unit sub MAIN(Str:D $snt);
+unit sub MAIN(Str:D $snt = "Perl and Raku are friends");
 
 put $snt.words.map({
     my ($h, $t) = .substr(0, 1), .substr(1);
