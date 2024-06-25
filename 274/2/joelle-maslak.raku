@@ -13,7 +13,7 @@ class Best {
     has $.skip is rw;
 }
 
-my $input = @*ARGS.join("");
+my $input = '[ [12, 11, 41], [15, 5, 35] ]'; #@*ARGS.join("");
 $input ~~ s:g/\s+//;
 $input ~~ s/^\[\[//;
 $input ~~ s/\]\]$//;

@@ -1,5 +1,4 @@
 #!/usr/bin/env raku
-use v6;
 
 sub routeTimes(@route) {
   my ($interval, $start, $duration) = @route;

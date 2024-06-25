@@ -1,9 +1,9 @@
 #!/usr/bin/env raku
 
-unit sub MAIN(Str:D $s);
+#unit sub MAIN(Str:D $s);
 
-use MONKEY-SEE-NO-EVAL;
-my @routes = EVAL $s;
+#use MONKEY-SEE-NO-EVAL;
+my @routes =  [ [12, 11, 41], [15, 5, 35] ];  #EVAL $s;
 
 my (@start-schedules, @arrival-schedules);
 for @routes -> ($interval, $start, $duration) {

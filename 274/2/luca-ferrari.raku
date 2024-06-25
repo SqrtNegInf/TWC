@@ -1,12 +1,5 @@
 #!/usr/bin/env raku
 
-#
-# Perl Weekly Challenge 274
-# Task 2
-#
-# See <https://perlweeklychallenge.org/blog/perl-weekly-challenge-274>
-#
-
 sub MAIN() {
 
     my @routes = [ [12, 11, 41], [15, 5, 35] ];

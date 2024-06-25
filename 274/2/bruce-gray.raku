@@ -1,5 +1,4 @@
 #!/usr/bin/env raku
-# No time this week to find a more clever approach; Packing for https://tprc.us/ !
 
 sub task2 ( @timetable --> Seq ) {
     for @timetable -> ( $service_interval, $offset, $duration ) {

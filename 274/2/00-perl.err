@@ -1,0 +1,141 @@
+usage: ./jo-37.pl [-examples] [-tests] [I,D,A ...]
+
+-examples
+    run the examples from the challenge
+ 
+-tests
+    run some tests
+
+-verbose
+    enable trace output
+
+I,D,A ...
+    Triplets of service interval, departure minute and arrival minute
+
+Can't locate JTM/Boilerplate.pm in @INC (you may need to install the JTM::Boilerplate module) (@INC contains: /usr/local/lib/perl5/site_perl/5.36.0/darwin-thread-multi-2level /usr/local/lib/perl5/site_perl/5.36.0 /usr/local/lib/perl5/5.36.0/darwin-thread-multi-2level /usr/local/lib/perl5/5.36.0 /usr/local/lib/perl5/site_perl/5.32.1 /usr/local/lib/perl5/site_perl/5.32.0 /usr/local/lib/perl5/site_perl) at ./joelle-maslak.pl line 3.
+BEGIN failed--compilation aborted at ./joelle-maslak.pl line 3.
+for my (...) is experimental at ./packy-anderson.pl line 20.
+for my (...) is experimental at ./packy-anderson.pl line 37.
+Bareword "no_srand" not allowed while "strict subs" in use at ./peter-meszaros.pl line 38.
+BEGIN not safe after errors--compilation aborted at ./peter-meszaros.pl line 38.
+Use of uninitialized value $line in scalar chomp at ./ulrich-rieke.pl line 54.
+Use of uninitialized value in numeric ne (!=) at ./ulrich-rieke.pl line 42.
+Use of uninitialized value in numeric ne (!=) at ./ulrich-rieke.pl line 42.
+Use of uninitialized value in numeric ne (!=) at ./ulrich-rieke.pl line 42.
+Use of uninitialized value in numeric ne (!=) at ./ulrich-rieke.pl line 42.
+Use of uninitialized value in numeric ne (!=) at ./ulrich-rieke.pl line 42.
+Use of uninitialized value in numeric ne (!=) at ./ulrich-rieke.pl line 42.
+Use of uninitialized value in numeric ne (!=) at ./ulrich-rieke.pl line 42.
+Use of uninitialized value in numeric ne (!=) at ./ulrich-rieke.pl line 42.
+Use of uninitialized value in numeric ne (!=) at ./ulrich-rieke.pl line 42.
+Use of uninitialized value in numeric ne (!=) at ./ulrich-rieke.pl line 42.
+Use of uninitialized value in numeric ne (!=) at ./ulrich-rieke.pl line 42.
+Use of uninitialized value in numeric ne (!=) at ./ulrich-rieke.pl line 42.
+Use of uninitialized value in numeric ne (!=) at ./ulrich-rieke.pl line 42.
+Use of uninitialized value in numeric ne (!=) at ./ulrich-rieke.pl line 42.
+Use of uninitialized value in numeric ne (!=) at ./ulrich-rieke.pl line 42.
+Use of uninitialized value in numeric ne (!=) at ./ulrich-rieke.pl line 42.
+Use of uninitialized value in numeric ne (!=) at ./ulrich-rieke.pl line 42.
+Use of uninitialized value in numeric ne (!=) at ./ulrich-rieke.pl line 42.
+Use of uninitialized value in numeric ne (!=) at ./ulrich-rieke.pl line 42.
+Use of uninitialized value in numeric ne (!=) at ./ulrich-rieke.pl line 42.
+Use of uninitialized value in numeric ne (!=) at ./ulrich-rieke.pl line 42.
+Use of uninitialized value in numeric ne (!=) at ./ulrich-rieke.pl line 42.
+Use of uninitialized value in numeric ne (!=) at ./ulrich-rieke.pl line 42.
+Use of uninitialized value in numeric ne (!=) at ./ulrich-rieke.pl line 42.
+Use of uninitialized value in numeric ne (!=) at ./ulrich-rieke.pl line 42.
+Use of uninitialized value in numeric ne (!=) at ./ulrich-rieke.pl line 42.
+Use of uninitialized value in numeric ne (!=) at ./ulrich-rieke.pl line 42.
+Use of uninitialized value in numeric ne (!=) at ./ulrich-rieke.pl line 42.
+Use of uninitialized value in numeric ne (!=) at ./ulrich-rieke.pl line 42.
+Use of uninitialized value in numeric ne (!=) at ./ulrich-rieke.pl line 42.
+Use of uninitialized value in numeric ne (!=) at ./ulrich-rieke.pl line 42.
+Use of uninitialized value in numeric ne (!=) at ./ulrich-rieke.pl line 42.
+Use of uninitialized value in numeric ne (!=) at ./ulrich-rieke.pl line 42.
+Use of uninitialized value in numeric ne (!=) at ./ulrich-rieke.pl line 42.
+Use of uninitialized value in numeric ne (!=) at ./ulrich-rieke.pl line 42.
+Use of uninitialized value in numeric ne (!=) at ./ulrich-rieke.pl line 42.
+Use of uninitialized value in numeric ne (!=) at ./ulrich-rieke.pl line 42.
+Use of uninitialized value in numeric ne (!=) at ./ulrich-rieke.pl line 42.
+Use of uninitialized value in numeric ne (!=) at ./ulrich-rieke.pl line 42.
+Use of uninitialized value in numeric ne (!=) at ./ulrich-rieke.pl line 42.
+Use of uninitialized value in numeric ne (!=) at ./ulrich-rieke.pl line 42.
+Use of uninitialized value in numeric ne (!=) at ./ulrich-rieke.pl line 42.
+Use of uninitialized value in numeric ne (!=) at ./ulrich-rieke.pl line 42.
+Use of uninitialized value in numeric ne (!=) at ./ulrich-rieke.pl line 42.
+Use of uninitialized value in numeric ne (!=) at ./ulrich-rieke.pl line 42.
+Use of uninitialized value in numeric ne (!=) at ./ulrich-rieke.pl line 42.
+Use of uninitialized value in numeric ne (!=) at ./ulrich-rieke.pl line 42.
+Use of uninitialized value in numeric ne (!=) at ./ulrich-rieke.pl line 42.
+Use of uninitialized value in numeric ne (!=) at ./ulrich-rieke.pl line 42.
+Use of uninitialized value in numeric ne (!=) at ./ulrich-rieke.pl line 42.
+Use of uninitialized value in numeric ne (!=) at ./ulrich-rieke.pl line 42.
+Use of uninitialized value in numeric ne (!=) at ./ulrich-rieke.pl line 42.
+Use of uninitialized value in numeric ne (!=) at ./ulrich-rieke.pl line 42.
+Use of uninitialized value in numeric ne (!=) at ./ulrich-rieke.pl line 42.
+Use of uninitialized value in numeric ne (!=) at ./ulrich-rieke.pl line 42.
+Use of uninitialized value in numeric ne (!=) at ./ulrich-rieke.pl line 42.
+Use of uninitialized value in numeric ne (!=) at ./ulrich-rieke.pl line 42.
+Use of uninitialized value in numeric ne (!=) at ./ulrich-rieke.pl line 42.
+Use of uninitialized value in numeric ne (!=) at ./ulrich-rieke.pl line 42.
+Use of uninitialized value in numeric ne (!=) at ./ulrich-rieke.pl line 42.
+Use of uninitialized value in numeric ne (!=) at ./ulrich-rieke.pl line 42.
+Use of uninitialized value in numeric ne (!=) at ./ulrich-rieke.pl line 42.
+Use of uninitialized value in numeric ne (!=) at ./ulrich-rieke.pl line 42.
+Use of uninitialized value in numeric ne (!=) at ./ulrich-rieke.pl line 42.
+Use of uninitialized value in numeric ne (!=) at ./ulrich-rieke.pl line 42.
+Use of uninitialized value in numeric ne (!=) at ./ulrich-rieke.pl line 42.
+Use of uninitialized value in numeric ne (!=) at ./ulrich-rieke.pl line 42.
+Use of uninitialized value in numeric ne (!=) at ./ulrich-rieke.pl line 42.
+Use of uninitialized value in numeric ne (!=) at ./ulrich-rieke.pl line 42.
+Use of uninitialized value in numeric ne (!=) at ./ulrich-rieke.pl line 42.
+Use of uninitialized value in numeric ne (!=) at ./ulrich-rieke.pl line 42.
+Use of uninitialized value in numeric ne (!=) at ./ulrich-rieke.pl line 42.
+Use of uninitialized value in numeric ne (!=) at ./ulrich-rieke.pl line 42.
+Use of uninitialized value in numeric ne (!=) at ./ulrich-rieke.pl line 42.
+Use of uninitialized value in numeric ne (!=) at ./ulrich-rieke.pl line 42.
+Use of uninitialized value in numeric ne (!=) at ./ulrich-rieke.pl line 42.
+Use of uninitialized value in numeric ne (!=) at ./ulrich-rieke.pl line 42.
+Use of uninitialized value in numeric ne (!=) at ./ulrich-rieke.pl line 42.
+Use of uninitialized value in numeric ne (!=) at ./ulrich-rieke.pl line 42.
+Use of uninitialized value in numeric ne (!=) at ./ulrich-rieke.pl line 42.
+Use of uninitialized value in numeric ne (!=) at ./ulrich-rieke.pl line 42.
+Use of uninitialized value in numeric ne (!=) at ./ulrich-rieke.pl line 42.
+Use of uninitialized value in numeric ne (!=) at ./ulrich-rieke.pl line 42.
+Use of uninitialized value in numeric ne (!=) at ./ulrich-rieke.pl line 42.
+Use of uninitialized value in numeric ne (!=) at ./ulrich-rieke.pl line 42.
+Use of uninitialized value in numeric ne (!=) at ./ulrich-rieke.pl line 42.
+Use of uninitialized value in numeric ne (!=) at ./ulrich-rieke.pl line 42.
+Use of uninitialized value in numeric ne (!=) at ./ulrich-rieke.pl line 42.
+Use of uninitialized value in numeric ne (!=) at ./ulrich-rieke.pl line 42.
+Use of uninitialized value in numeric ne (!=) at ./ulrich-rieke.pl line 42.
+Use of uninitialized value in numeric ne (!=) at ./ulrich-rieke.pl line 42.
+Use of uninitialized value in numeric ne (!=) at ./ulrich-rieke.pl line 42.
+Use of uninitialized value in numeric ne (!=) at ./ulrich-rieke.pl line 42.
+Use of uninitialized value in numeric ne (!=) at ./ulrich-rieke.pl line 42.
+Use of uninitialized value in numeric ne (!=) at ./ulrich-rieke.pl line 42.
+Use of uninitialized value in numeric ne (!=) at ./ulrich-rieke.pl line 42.
+Use of uninitialized value in numeric ne (!=) at ./ulrich-rieke.pl line 42.
+Use of uninitialized value in numeric ne (!=) at ./ulrich-rieke.pl line 42.
+Use of uninitialized value in numeric ne (!=) at ./ulrich-rieke.pl line 42.
+Use of uninitialized value in numeric ne (!=) at ./ulrich-rieke.pl line 42.
+Use of uninitialized value in numeric ne (!=) at ./ulrich-rieke.pl line 42.
+Use of uninitialized value in numeric ne (!=) at ./ulrich-rieke.pl line 42.
+Use of uninitialized value in numeric ne (!=) at ./ulrich-rieke.pl line 42.
+Use of uninitialized value in numeric ne (!=) at ./ulrich-rieke.pl line 42.
+Use of uninitialized value in numeric ne (!=) at ./ulrich-rieke.pl line 42.
+Use of uninitialized value in numeric ne (!=) at ./ulrich-rieke.pl line 42.
+Use of uninitialized value in numeric ne (!=) at ./ulrich-rieke.pl line 42.
+Use of uninitialized value in numeric ne (!=) at ./ulrich-rieke.pl line 42.
+Use of uninitialized value in numeric ne (!=) at ./ulrich-rieke.pl line 42.
+Use of uninitialized value in numeric ne (!=) at ./ulrich-rieke.pl line 42.
+Use of uninitialized value in numeric ne (!=) at ./ulrich-rieke.pl line 42.
+Use of uninitialized value in numeric ne (!=) at ./ulrich-rieke.pl line 42.
+Use of uninitialized value in numeric ne (!=) at ./ulrich-rieke.pl line 42.
+Use of uninitialized value in numeric ne (!=) at ./ulrich-rieke.pl line 42.
+Use of uninitialized value in numeric ne (!=) at ./ulrich-rieke.pl line 42.
+Use of uninitialized value in numeric ne (!=) at ./ulrich-rieke.pl line 42.
+Use of uninitialized value in numeric ne (!=) at ./ulrich-rieke.pl line 42.
+Use of uninitialized value in numeric ne (!=) at ./ulrich-rieke.pl line 42.
+Use of uninitialized value in numeric ne (!=) at ./ulrich-rieke.pl line 42.
+Use of uninitialized value in numeric ne (!=) at ./ulrich-rieke.pl line 42.

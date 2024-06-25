@@ -1,0 +1,2 @@
+service_interval '31' does not evenly divide into 60, so results will only be correct for the first hour.
+  in block  at bruce-gray.raku line 6
