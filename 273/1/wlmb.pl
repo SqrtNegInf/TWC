@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
-
 use v5.36;
+
 use experimental "for_list";
 
     my ($str,$chr) = ('ballerina','e');

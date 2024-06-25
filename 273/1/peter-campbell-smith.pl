@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-
-use v5.26;    # The Weekly Challenge - 2024-06-10
-use warnings; # Peter Campbell Smith
+use v5.36;
 
 percentage_of_character('the cat sat on the mat', 'a');
 percentage_of_character('percentage of character', 'g');

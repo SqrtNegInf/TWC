@@ -1,5 +1,5 @@
 #!/usr/bin/env perl
-use v5.40;
+use v5.36;
 
 #use experimental qw( for_list );
 
@@ -27,7 +27,7 @@ my @tests = qw<
     ballerina l 22
     analitik  k 13
 >;
-use Test2::V0 -no_srand => 1; plan @tests/3 -no_srand;
+use Test2::V0 -no_srand; plan @tests/3;
 for my ( $str, $char, $expected ) (@tests) {
     is task1( $str, $char ), $expected;
 }

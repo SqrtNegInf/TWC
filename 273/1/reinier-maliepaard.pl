@@ -1,6 +1,8 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
+use v5.36;
+no warnings;
+
+use Statistics::Frequency;
 
 sub percentage_of_character {
 

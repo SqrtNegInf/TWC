@@ -1,3 +1,1 @@
-Perl v5.40.0 required--this is only v5.36.0, stopped at ./bruce-gray.pl line 2.
-BEGIN failed--compilation aborted at ./bruce-gray.pl line 2.
-Can't locate object method "new" via package "Statistics::Frequency" (perhaps you forgot to load "Statistics::Frequency"?) at ./reinier-maliepaard.pl line 10.
+for my (...) is experimental at ./bruce-gray.pl line 31.
