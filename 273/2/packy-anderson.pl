@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
 use v5.36;
-#use v5.40;
 
 use builtin qw/true false/; no warnings "experimental::builtin";
 #use builtin ':5.40';

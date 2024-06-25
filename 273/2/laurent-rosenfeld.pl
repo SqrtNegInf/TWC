@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-use feature 'say';
+use v5.36;
 
 sub b_after_a {
     return shift =~ /^[^b]*b[^a]*$/ ? "true" : "false";

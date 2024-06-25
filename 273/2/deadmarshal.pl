@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
+use v5.36;
 
 sub b_after_a{
   (-1 != index($_[0],'b')) >= rindex($_[0],'a')

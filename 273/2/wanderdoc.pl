@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings FATAL => qw(all);
+use v5.36;
 
 use constant false => 0;
 use constant true  => 1;
