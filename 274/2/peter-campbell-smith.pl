@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-
-use v5.26;    # The Weekly Challenge - 2024-06-17
-use warnings; # Peter Campbell Smith
+use v5.36;
 
 bus_route([12, 11, 41], [15, 5, 35]);
 bus_route([12, 3, 41], [15, 9, 35], [30, 5, 25]);
