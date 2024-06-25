@@ -1,5 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
+
 my $sent = "I love Perl";
 proc($sent);
 $sent = "Perl and Raku are friends";

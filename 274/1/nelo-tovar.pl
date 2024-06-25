@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-use v5.28;
-
-use strict;
-use warnings;
+use v5.36;
 
 my @examples = ('I love Perl', 'Perl and Raku are friends', 'The Weekly Challenge');
 

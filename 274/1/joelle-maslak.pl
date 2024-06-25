@@ -1,6 +1,4 @@
 #!/usr/bin/env perl
-
-#use JTM::Boilerplate 'script';
 use v5.36;
 
 MAIN: {
