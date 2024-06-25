@@ -1,12 +1,13 @@
 #!/usr/bin/env perl
-
 use v5.24;
-use Test2::V0 -no_srand;
-use List::Gather;
-use List::Util 'min';
 use experimental 'signatures';
 
-our ($tests, $examples);
+use Test2::V0 -no_srand;
+
+use List::Gather;
+use List::Util 'min';
+
+our ($tests, $examples) = (1,1);
 
 run_tests() if $tests || $examples;	# does not return
 

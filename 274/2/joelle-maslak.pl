@@ -1,9 +1,10 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use JTM::Boilerplate 'script';
+#use JTM::Boilerplate 'script';
 
 MAIN: {
-    my $input = join '', @ARGV;
+    my $input = '[ [12, 11, 41], [15, 5, 35] ]';
     $input =~ s/\s+//g;
     $input =~ s/^\[\[//;
     $input =~ s/\]\]$//;

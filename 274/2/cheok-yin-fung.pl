@@ -1,10 +1,9 @@
 #!/usr/bin/env perl
-# The Weekly Challenge 274
-# Task 2 Bus Route
-# Example 1 Calculation only, too lazy
 use v5.30.0;
 use warnings;
+
 use List::Util qw/first/;
+
 my $r1 = [12, 11, 41];
 my $r2 = [15,  5, 35];
 
