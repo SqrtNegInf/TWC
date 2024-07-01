@@ -2,7 +2,7 @@
 use strict;
 use warnings;
 
-use v5.38;
+use v5.36;
 
 sub check_broken_key( $string, @broken_keys ) {
     my $keys = join '', @broken_keys;

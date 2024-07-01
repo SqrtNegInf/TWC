@@ -2,7 +2,7 @@
 use strict;
 use warnings;
 
-use v5.38;
+use v5.36;
 
 my @inputs = (
     'a1c1e1',
