@@ -1,14 +1,7 @@
 #!/usr/bin/env perl
+use v5.36;
 
-use v5.34;
-use strict;
-use warnings;
-
-MAIN: {
-    my $sentence = $ARGV[0];
-    my $badkeys = $ARGV[1];
-
-    my $count = scalar grep {! /[$badkeys]/i} split /\s+/, $sentence;
-
-    say $count;
-}
+my $sentence = 'Perl Weekly Challenge';
+my $badkeys = ('l');
+my $count = scalar grep {! /[$badkeys]/i} split /\s+/, $sentence;
+say $count;

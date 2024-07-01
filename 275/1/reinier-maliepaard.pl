@@ -5,9 +5,7 @@ use warnings;
 sub broken_keys {
 
     my ($regex) = "[@_[1 .. $#_]]";
-    print( scalar( grep { ! /$regex/i } split(/ /, @_[0]) ), "\n" );
-    @_[0] is aesthetically pleasing, scalar(@_[0]) is more precise, but normally
-    you should use $_[0]
+    print( scalar( grep { ! /$regex/i } split(/ /, $_[0]) ), "\n" );
 
 }
 

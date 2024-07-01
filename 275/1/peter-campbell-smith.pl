@@ -1,14 +1,5 @@
 #!/usr/bin/env perl
-
-# Blog: http://ccgi.campbellsmiths.force9.co.uk/challenge
-
-use v5.26;    # The Weekly Challenge - 2024-06-24
-use utf8;     # Week 275 - task 1 - Broken keys
-use warnings; # Peter Campbell Smith
-binmode STDOUT, ':utf8';
-
-# You are given a sentence !!$sentence!! and list of broken keys !!@keys!!.
-# Write a script to find out how many words can be typed fully.
+use v5.36;
 
 my ($sentence, @keys);
 

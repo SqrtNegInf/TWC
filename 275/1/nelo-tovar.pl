@@ -1,15 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
 
-# The Weekly Challenge 275 - By Nelo Tovar
-#
-# https://theweeklychallenge.org/blog/perl-weekly-challenge-275/
-#
-# Task 1 - Broken Keys
-#
-
-use strict;
-use warnings;
-use v5.28;
 use Data::Dump qw(dump);
 
 my @examples = (

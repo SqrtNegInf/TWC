@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-# The Weekly Challenge 275
-# Task 1 Broken Keys
-use v5.30.0;
-use warnings;
+use v5.36;
 
 sub bro_k {
     my $sentence = $_[0];

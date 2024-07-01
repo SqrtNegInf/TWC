@@ -1,7 +1,4 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
-
 use v5.36;
 
 sub check_broken_key( $string, @broken_keys ) {

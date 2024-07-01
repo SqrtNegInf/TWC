@@ -1,9 +1,9 @@
 #!/usr/bin/env perl
-
 use v5.26;
+
 use Test2::V0 -no_srand;
 
-our ($tests, $examples, $verbose, $broken);
+our ($tests, $examples, $verbose, $broken)=  (1,1);
 
 run_tests() if $tests || $examples;	# does not return
 
