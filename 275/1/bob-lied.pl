@@ -2,7 +2,7 @@
 use v5.36;
 
 use Getopt::Long;
-my $DoTest  = 0;
+my $DoTest  = 1;
 my $Benchmark = 0;
 
 GetOptions("test" => \$DoTest, "benchmark:i" => \$Benchmark);
