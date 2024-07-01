@@ -1,0 +1,73 @@
+ 
+===> 275/2/arne-sommer.raku <===
+abcdef abcdef
+ 
+===> 275/2/athanasius.raku <===
+
+Challenge 275, Task #2: Replace Digits (Raku)
+
+Running the test suite
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ok 4 - Example 4
+ok 5 - Digit zero
+ok 6 - Wrap uc
+ok 7 - Wrap lc
+1..7
+ 
+===> 275/2/bruce-gray.raku <===
+1..4
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ok 4 - 
+ 
+===> 275/2/feng-chang.raku <===
+abcdefeabcdef
+ 
+===> 275/2/jaldhar-h-vyas.raku <===
+abcdef abcdef
+ 
+===> 275/2/joelle-maslak.raku <===
+abcdef abcdef
+ 
+===> 275/2/laurent-rosenfeld.raku <===
+a1c1e1     => abcdef
+a1b2c3d4   => abbdcfdh
+b2b        => bdb
+a16z       => abhz
+ 
+===> 275/2/luca-ferrari.raku <===
+abcdefeabcdef
+ 
+===> 275/2/packy-anderson.raku <===
+Example 1:
+Input: $str = 'a1c1e1'
+Output: 'abcdef'
+
+Example 2:
+Input: $str = 'a1b2c3d4'
+Output: 'abbdcfdh'
+
+Example 3:
+Input: $str = 'b2b'
+Output: 'bdb'
+
+Example 4:
+Input: $str = 'a16z'
+Output: 'abgz'
+ 
+===> 275/2/roger-bell-west.raku <===
+1..4
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ok 4 - example 4
+ 
+===> 275/2/wambash.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ok 4 - 
+1..4

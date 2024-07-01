@@ -1,7 +1,7 @@
 #!/usr/bin/env raku
 
 sub MAIN(
-    Str $str,
+    Str $str  = 'a1c1e1 abcdef',
  ) {
     my @input = $str.comb;
     my $output;

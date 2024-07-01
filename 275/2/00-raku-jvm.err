@@ -1,0 +1,6 @@
+Constraint type check failed in binding to parameter '$str'; expected anonymous constraint to be met but got Str ("W57")
+  in sub replace-digits at athanasius.raku line 123
+  in sub run-tests at athanasius.raku line 159
+  in sub MAIN at athanasius.raku line 109
+  in block <unit> at athanasius.raku line 179
+

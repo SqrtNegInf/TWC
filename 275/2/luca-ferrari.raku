@@ -1,13 +1,7 @@
 #!/usr/bin/env raku
 
-#
-# Perl Weekly Challenge 275
-# Task 2
-#
-# See <https://perlweeklychallenge.org/blog/perl-weekly-challenge-275>
-#
-
-sub MAIN( Str $string where { $string ~~ / ^ <[a..zA..Z]> <[a..zA..Z0..9]>+ $ / } ) {
+#sub MAIN( Str $string where { $string ~~ / ^ <[a..zA..Z]> <[a..zA..Z0..9]>+ $ / } ) {
+my $string = 'a1c1e1 abcdef';
     my $previous;
     my @result;
 
@@ -32,4 +26,4 @@ sub MAIN( Str $string where { $string ~~ / ^ <[a..zA..Z]> <[a..zA..Z0..9]>+ $ / 
 
 
     @result.join.say;
-}
+#}

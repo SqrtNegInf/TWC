@@ -1,6 +1,7 @@
 #!/usr/bin/env raku
 
-unit sub MAIN ($str where $str ~~ /^<[a..z]> <[a..z 0..9]>*$/ && $str.chars > 0);
+#unit sub MAIN ($str where $str ~~ /^<[a..z]> <[a..z 0..9]>*$/ && $str.chars > 0);
+my $str = 'a1c1e1 abcdef';
 
 $str.comb.map( *.&do-magic ).join.say;
 

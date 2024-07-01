@@ -1,7 +1,6 @@
 #!/usr/bin/env raku
-use v6.d;
 
-sub MAIN($input) {
+sub MAIN($input = 'a1c1e1 abcdef') {
     my $letter = "a";
     for $input.comb() -> $current {
         if ($current ~~ /^\d$/) {

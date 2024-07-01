@@ -1,6 +1,7 @@
 #!/usr/bin/env raku
 
-unit sub MAIN(Str:D $s);
+#unit sub MAIN(Str:D $s);
+my $s = <a1c1e1 abcdef>;
 
 my $c;
 for $s.comb {
