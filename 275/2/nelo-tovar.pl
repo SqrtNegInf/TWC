@@ -1,15 +1,8 @@
 #!/usr/bin/env perl
-
-# The Weekly Challenge 275 - By Nelo Tovar
-#
-# https://theweeklychallenge.org/blog/perl-weekly-challenge-275/
-#
-# Task 2 - Replace Digits
-#
+use v5.28;
 
 use strict;
 use warnings;
-use v5.28;
 
 my @examples = ('a1c1e1', 'a1b2c3d4', 'b2b', 'a16z');
 

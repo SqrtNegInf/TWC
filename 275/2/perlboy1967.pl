@@ -1,28 +1,11 @@
 #!/usr/bin/env perl
 
-=pod
+use v5.36;
 
-The Weekly Challenge - 275
-- https://theweeklychallenge.org/blog/perl-weekly-challenge-275
+#use feature qw(signatures);
+#use common::sense;
 
-Author: Niels 'PerlBoy' van Dijke
-
-Task 2: Replace Digits
-Submitted by: Mohammad Sajid Anwar
-
-You are given an alphanumeric string, $str, where each character
-is either a letter or a digit.
-
-Write a script to replace each digit in the given string with the
-value of the previous letter plus (digit) places.
-
-=cut
-
-use v5.32;
-use feature qw(signatures);
-use common::sense;
-
-use Test2::V0 qw(-no_srand) -no_srand;
+use Test2::V0 -no_srand;
 
 sub replaceDigits ($str) {
   my $r;

@@ -1,9 +1,12 @@
 #!/usr/bin/env perl
 
-use JTM::Boilerplate 'script';
+use v5.36;
+
+#use JTM::Boilerplate 'script';
+
 
 MAIN: {
-    my $input = $ARGV[0];
+    my $input = 'a1c1e1 abcdef';
 
     my $letter = "a";
     for my $current (split //, $input) {

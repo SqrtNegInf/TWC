@@ -1,11 +1,7 @@
 #!/usr/bin/env perl
 
-# Blog: http://ccgi.campbellsmiths.force9.co.uk/challenge
-
 use v5.26;    # The Weekly Challenge - 2024-06-24
-use utf8;     # Week 275 - task 2 - Replace digits
 use warnings; # Peter Campbell Smith
-binmode STDOUT, ':utf8';
 
 replace_digits('a9c9e9');
 replace_digits('a1b2c3d4');

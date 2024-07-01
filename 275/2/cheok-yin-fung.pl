@@ -1,6 +1,4 @@
 #!/usr/bin/env perl
-# The Weekly Challenge 275
-# Task 2 Replace Digits
 use v5.30.0;
 use warnings;
 
