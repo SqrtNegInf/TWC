@@ -1,6 +1,5 @@
 #!/usr/bin/env raku
-use v6.d;
 
-sub MAIN($sentence, $badkeys) {
+sub MAIN($sentence = 'Perl Weekly Challenge', $badkeys  = 'l') {
     say $sentence.fc.words.grep({!(.comb ∩ $badkeys.fc.comb)}).elems;
 }

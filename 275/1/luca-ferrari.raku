@@ -1,14 +1,8 @@
 #!/usr/bin/env raku
 
-#
-# Perl Weekly Challenge 275
-# Task 1
-#
-# See <https://perlweeklychallenge.org/blog/perl-weekly-challenge-275>
-#
-
-sub MAIN( Str $sentence, *@keys ) {
-    my @ok-words;
+my $sentence = 'Perl Weekly Challenge';
+my @keys = ('l');
+my @ok-words;
 
     for $sentence.lc.split( / \s+ / ) -> $word {
 	my $ok = True;
@@ -22,4 +16,3 @@ sub MAIN( Str $sentence, *@keys ) {
     }
 
     @ok-words.elems.say;
-}

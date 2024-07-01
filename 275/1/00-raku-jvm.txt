@@ -1,0 +1,89 @@
+ 
+===> 275/1/0rir.raku <===
+1..5
+ok 1 - 1 <- Perl and Raku [ a]
+ok 2 - 0 <- Perl Weekly Challenge [ l a]
+ok 3 - 2 <- Well done Team PWC [ l o]
+ok 4 - 2 <- The joys of polyglottism [ T]
+ok 5 - 4 <- The horrors of babel [ ]
+
+Input: $sentence = "Perl and Raku", @keys = p
+Output: 2
+ 
+===> 275/1/arne-sommer.raku <===
+0
+ 
+===> 275/1/athanasius.raku <===
+
+Challenge 275, Task #1: Broken Keys (Raku)
+
+Running the test suite
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ok 4 - Example 4
+ok 5 - Twin keys 1
+ok 6 - Twin keys 2
+1..6
+ 
+===> 275/1/barroff.raku <===
+1..4
+ok 1 - works for "Perl Weekly Challenge"
+ok 2 - works for "Perl and Raku"
+ok 3 - works for "Well done Team PWC"
+ok 4 - works for "The joys of polyglottism"
+ 
+===> 275/1/bruce-gray.raku <===
+1..4
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ok 4 - 
+ 
+===> 275/1/feng-chang.raku <===
+0
+ 
+===> 275/1/jaldhar-h-vyas.raku <===
+0
+ 
+===> 275/1/joelle-maslak.raku <===
+0
+ 
+===> 275/1/luca-ferrari.raku <===
+0
+ 
+===> 275/1/mark-anderson.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ok 4 - 
+ 
+===> 275/1/packy-anderson.raku <===
+Example 1:
+Input: $sentence = "Perl Weekly Challenge", @keys = ('l', 'a')
+Output: 0
+
+Example 2:
+Input: $sentence = "Perl and Raku", @keys = ('a')
+Output: 1
+
+Example 3:
+Input: $sentence = "Well done Team PWC", @keys = ('l', 'o')
+Output: 2
+
+Example 4:
+Input: $sentence = "The joys of polyglottism", @keys = ('T')
+Output: 2
+ 
+===> 275/1/roger-bell-west.raku <===
+1..3
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ 
+===> 275/1/wambash.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ok 4 - 
+1..4

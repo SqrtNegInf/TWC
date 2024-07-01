@@ -1,6 +1,6 @@
 #!/usr/bin/env raku
 
-unit sub MAIN(*@words);
+my @words = 'Perl Weekly Challenge';
 
 my @broken = @words.tail.lc.comb;
 put +@words.grep(*.lc.comb.any ne @broken.any);

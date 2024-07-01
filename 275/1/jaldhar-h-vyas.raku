@@ -1,10 +1,7 @@
 #!/usr/bin/env raku
 
-sub MAIN(
-    Str $str,
-    *@keys
- ) {
+my $str = 'Perl Weekly Challenge';
+my @keys = ('l');
 
-    my $keys = [~] '<[', @keys, ']>';
-    $str.words.grep({ $_ !~~ m:i/ <$keys> / }).elems.say;
-}
+my $keys = [~] '<[', @keys, ']>';
+$str.words.grep({ $_ !~~ m:i/ <$keys> / }).elems.say;

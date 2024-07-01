@@ -1,4 +1,5 @@
 #!/usr/bin/env raku
+
 sub task1 ( @broken_keys, Str $sentence --> UInt ) {
     my @w  = $sentence.lc.words;
 
@@ -14,6 +15,7 @@ use Test; plan +my @tests =
     ( 2, 'lo' , 'Well done Team PWC' ),
     ( 2, 'T'  , 'The joys of polyglottism' ),
 ;
+
 for @tests -> ( $expected, $in_keys, $in_sentence ) {
     is task1($in_keys.comb, $in_sentence), $expected;
 }
