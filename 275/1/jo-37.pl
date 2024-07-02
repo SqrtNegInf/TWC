@@ -1,5 +1,5 @@
 #!/usr/bin/env perl
-use v5.26;
+use v5.36;
 
 use Test2::V0 -no_srand;
 
