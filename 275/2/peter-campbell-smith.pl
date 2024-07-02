@@ -1,7 +1,5 @@
 #!/usr/bin/env perl
-
-use v5.26;    # The Weekly Challenge - 2024-06-24
-use warnings; # Peter Campbell Smith
+use v5.36;
 
 replace_digits('a9c9e9');
 replace_digits('a1b2c3d4');

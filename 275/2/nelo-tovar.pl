@@ -1,8 +1,5 @@
 #!/usr/bin/env perl
-use v5.28;
-
-use strict;
-use warnings;
+use v5.36;
 
 my @examples = ('a1c1e1', 'a1b2c3d4', 'b2b', 'a16z');
 
