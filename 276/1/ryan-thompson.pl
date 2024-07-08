@@ -1,13 +1,10 @@
 #!/usr/bin/env perl
-#
-# ch-1.pl - Complete Day
-#
-# 2024 Ryan Thompson <rjt@cpan.org>
-
 use 5.010;
+
 use warnings;
 use strict;
 no warnings 'uninitialized';
+
 use List::Util qw< sum0 reduce>;
 
 # If any pair of numbers is a multiple of 24, return the count of

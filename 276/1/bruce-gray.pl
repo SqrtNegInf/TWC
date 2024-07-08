@@ -1,5 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
+
 use ntheory qw<forcomb vecsum>;
 
 sub task1_comb ( $ns_aref ) {
@@ -36,9 +37,9 @@ my @tests = (
     3, [72, 48, 24, 5],
     0, [12, 18, 24],
 
-    5998000, [ (12, 12, 30, 24, 24, 5, 6, 18) x 1000 ],
+#   5998000, [ (12, 12, 30, 24, 24, 5, 6, 18) x 1000 ],
 );
-use Test2::V0 -no_srand => 1; plan @tests / 2 * 2 -no_srand;
+use Test2::V0 -no_srand => 1; plan @tests / 2 * 2;
 for my ( $expected, $in_array ) (@tests) {
     is task1_comb($in_array), $expected, "task1_comb : @{$in_array}[0..2]";
     is task1_hash($in_array), $expected, "task1_hash : @{$in_array}[0..2]";

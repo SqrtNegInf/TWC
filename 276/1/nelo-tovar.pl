@@ -1,15 +1,9 @@
 #!/usr/bin/env perl
-
-# The Weekly Challenge 276 - By Nelo Tovar
-#
-# https://theweeklychallenge.org/blog/perl-weekly-challenge-276/
-#
-# Task 1 - Complete Day
-#
+use v5.28;
 
 use strict;
 use warnings;
-use v5.28;
+
 use Data::Dump qw(dump);
 
 my @examples = (

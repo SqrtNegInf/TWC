@@ -1,29 +1,10 @@
 #!/usr/bin/env perl
-
-=pod
-
-The Weekly Challenge - 276
-- https://theweeklychallenge.org/blog/perl-weekly-challenge-276
-
-Author: Niels 'PerlBoy' van Dijke
-
-Task 1: Complete Day
-Submitted by: Mohammad Sajid Anwar
-
-You are given an array of integers, @hours.
-
-Write a script to return the number of pairs that forms a complete day.
-
-|| A complete day is defined as a time duration that is an exact multiple
-|| of 24 hours.
-
-=cut
-
 use v5.32;
+
 use feature qw(signatures);
 use common::sense;
 
-use Test2::V0 qw(-no_srand) -no_srand;
+use Test2::V0 -no_srand;
 use DDP;
 
 use Algorithm::Combinatorics qw(combinations);

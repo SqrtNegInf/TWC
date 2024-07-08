@@ -19,4 +19,4 @@ sub main (@hours) {
     say $count;
 }
 
-main(@ARGV);
+main( (12, 12, 30, 24, 24) );

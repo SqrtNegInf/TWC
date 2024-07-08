@@ -1,7 +1,7 @@
 #!/usr/bin/env perl
 
-#@hours = (12, 12, 30, 24, 24);
-@hours = (72, 48, 24, 5);
+@hours = (12, 12, 30, 24, 24);
+#@hours = (72, 48, 24, 5);
 
 my $paircounter = 0;;
 my $i = 0;

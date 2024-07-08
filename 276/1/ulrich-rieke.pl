@@ -4,10 +4,7 @@ use warnings ;
 use feature 'say' ;
 use Algorithm::Combinatorics qw ( combinations ) ;
 
-say "Enter some positive integers , separated by blanks!" ;
-my $line = <STDIN> ;
-chomp $line ;
-my @numbers = split( /\s+/ , $line ) ;
+my @numbers = (12, 12, 30, 24, 24);
 my $total = 0 ;
 my $iter = combinations( \@numbers , 2 ) ;
 while ( my $c = $iter->next ) {
