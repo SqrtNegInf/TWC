@@ -1,0 +1,112 @@
+ 
+===> 276/1/0rir.raku <===
+1..8
+ok 1 - Int <- ()
+ok 2 - 0 <- (1,)
+ok 3 - 2 <- (12, 12, 24, 24, 30)
+ok 4 - 3 <- (72, 48, 24, 5)
+ok 5 - 0 <- (72, 5, 3)
+ok 6 - 0 <- (12, 24, 18)
+ok 7 - 6 <- (12, 12, 12, 12, 24, 7, 4, 1)
+ok 8 - 9 <- (2, 2, 2, 2, 0, 24, 24, 7, 4, 1)
+
+Input: @hour = 12 12 12 12 36 60 0 24 24 48 7 4 1
+Output: 21
+ 
+===> 276/1/arne-sommer.raku <===
+2
+ 
+===> 276/1/athanasius.raku <===
+
+Challenge 276, Task #1: Complete Day (Raku)
+
+Running the test suite
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ok 4 - 1-off
+ok 5 - 7-off
+ok 6 - Combined
+1..6
+ 
+===> 276/1/barroff.raku <===
+1..3
+ok 1 - works for [12, 12, 30, 24, 24]
+ok 2 - works for [72, 48, 24, 5]
+ok 3 - works for [12, 18, 24]
+ 
+===> 276/1/bruce-gray.raku <===
+1..12
+ok 1 - task1_combinations : 12 12 30 24 24
+ok 2 - task1_combinations : 72 48 24 5
+ok 3 - task1_combinations : 12 18 24
+ok 4 - # SKIP Too slow: task1_combinations : 12 12 30 24 24 5 6 18 12...
+ok 5 - task1_classify_X : 12 12 30 24 24
+ok 6 - task1_classify_X : 72 48 24 5
+ok 7 - task1_classify_X : 12 18 24
+ok 8 - task1_classify_X : 12 12 30 24 24 5 6 18 12...
+ok 9 - task1_hash_partner : 12 12 30 24 24
+ok 10 - task1_hash_partner : 72 48 24 5
+ok 11 - task1_hash_partner : 12 18 24
+ok 12 - task1_hash_partner : 12 12 30 24 24 5 6 18 12...
+ 
+===> 276/1/deadmarshal.raku <===
+2
+3
+0
+ 
+===> 276/1/feng-chang.raku <===
+2
+ 
+===> 276/1/joelle-maslak.raku <===
+2
+ 
+===> 276/1/laurent-rosenfeld.raku <===
+12 12 30 24 24  => 2
+72 48 24 5      => 3
+12 18 24        => 0
+ 
+===> 276/1/luca-ferrari.raku <===
+((12 12) (24 24))
+ 
+===> 276/1/mark-anderson.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ 
+===> 276/1/packy-anderson.raku <===
+Example 1:
+Input: @hours = (12, 12, 30, 24, 24)
+Output: 2
+
+Pair 1: (12, 12)
+Pair 2: (24, 24)
+
+Example 2:
+Input: @hours = (72, 48, 24, 5)
+Output: 3
+
+Pair 1: (72, 48)
+Pair 2: (72, 24)
+Pair 3: (48, 24)
+
+Example 3:
+Input: @hours = (12, 18, 24)
+Output: 0
+
+ 
+===> 276/1/roger-bell-west.raku <===
+1..3
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ 
+===> 276/1/ulrich-rieke.raku <===
+2
+ 
+===> 276/1/wambash.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ok 4 - 
+1..4

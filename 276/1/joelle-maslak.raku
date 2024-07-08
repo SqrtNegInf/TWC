@@ -1,10 +1,7 @@
 #!/usr/bin/env raku
-use v6.d;
 
-sub MAIN(Str:D $numberstr is copy) {
-    $numberstr ~~ s:g/<[(),]>/ /;
-    $numberstr ~~ s/^ \s+ (.*) \s+ $/$0/;
-    my @hours = $numberstr.split(/\s+/);
+#sub MAIN(Str:D $numberstr is copy) {
+    my @hours = (12, 12, 24, 24,         30);
 
     say @hours.combinations(2).grep(*.sum %% 24).elems;
-}
+#}
