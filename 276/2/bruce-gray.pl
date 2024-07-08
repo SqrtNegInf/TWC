@@ -1,5 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
+
 use List::Util qw<sum0 pairvalues>;
 use Statistics::Frequency;
 
@@ -21,7 +22,7 @@ my @tests = (
     4, [1, 2, 2, 4, 1, 5],
     5, [1, 2, 3, 4, 5],
 );
-use Test2::V0 -no_srand => 1; plan @tests/2 -no_srand;
+use Test2::V0 -no_srand => 1; plan @tests/2;
 for my ( $expected, $in_array ) (@tests) {
     is task2($in_array), $expected;
 }

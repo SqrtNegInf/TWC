@@ -23,4 +23,4 @@ sub main (@ints) {
     say $elements * $max_freq;
 }
 
-main(@ARGV);
+main( (1, 2, 2, 4, 1, 5) );

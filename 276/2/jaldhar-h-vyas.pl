@@ -1,7 +1,7 @@
 #!/usr/bin/env perl
 use v5.36;
 
-my @ints = @ARGV;
+my @ints = [1, 2, 2, 4, 1, 5];
 
 my %freq;
 

@@ -1,13 +1,10 @@
 #!/usr/bin/env perl
-#
-# ch-2.pl - Maximum Frequency
-#
-# 2024 Ryan Thompson <rjt@cpan.org>
-
 use 5.010;
+
 use warnings;
 use strict;
 no warnings 'uninitialized';
+
 use List::Util qw< sum0 max >;
 
 # First identify which number(s) appear most often in the list,

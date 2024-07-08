@@ -2,12 +2,10 @@
 use strict ;
 use warnings ;
 use feature 'say' ;
+
 use List::Util qw ( max ) ;
 
-say "Enter some integers, separated by blanks!" ;
-my $line = <STDIN> ;
-chomp $line ;
-my @numbers = split( /\s+/ , $line ) ;
+my @numbers =[1, 2, 2, 4, 1, 5];
 my %frequencies ;
 map { $frequencies{$_}++ } @numbers ;
 my $maximum = max( values( %frequencies ) ) ;

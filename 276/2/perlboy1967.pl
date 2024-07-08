@@ -1,27 +1,10 @@
 #!/usr/bin/env perl
-
-=pod
-
-The Weekly Challenge - 276
-- https://theweeklychallenge.org/blog/perl-weekly-challenge-276
-
-Author: Niels 'PerlBoy' van Dijke
-
-Task 2: Maximum Frequency
-Submitted by: Mohammad Sajid Anwar
-
-You are given an array of positive integers, @ints.
-
-Write a script to return the total number of elements in the given
-array which have the highest frequency.
-
-=cut
-
 use v5.32;
+
 use feature qw(signatures);
 use common::sense;
 
-use Test2::V0 qw(-no_srand) -no_srand;
+use Test2::V0 -no_srand;
 
 use List::AllUtils qw(sum0);
 
