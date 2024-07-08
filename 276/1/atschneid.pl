@@ -2,7 +2,7 @@
 use strict;
 use warnings;
 
-use v5.38;
+use v5.36;
 
 my @inputs = (
     [12, 12, 30, 24, 24],

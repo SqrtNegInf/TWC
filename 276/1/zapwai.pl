@@ -1,5 +1,5 @@
 #!/usr/bin/env perl
-use v5.38;
+use v5.36;
 my @hours = (12, 12, 30, 24, 24);
 proc(@hours);
 @hours = (72, 48, 24, 5);

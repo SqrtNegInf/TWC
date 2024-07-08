@@ -1,5 +1,5 @@
 #!/usr/bin/env perl
-use v5.38;
+use v5.36;
 my $MAX_LENGTH = 20;
 my @ints = (1, 2, 2, 4, 1, 5);
 proc(@ints);
