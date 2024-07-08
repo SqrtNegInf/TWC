@@ -18,7 +18,7 @@
 #   The elements 1, 2, 3, 4 and 5 has the maximum frequency.
 #=============================================================================
 
-use v5.40;
+use v5.36;
 
 
 use Getopt::Long;
