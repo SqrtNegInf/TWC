@@ -1,9 +1,6 @@
 #!/usr/bin/env raku
-use v6 ;
 
-say "Enter some integers, separated by blanks!" ;
-my $line = $*IN.get ;
-my @numbers = $line.words.map( {.Int} ) ;
+my @numbers = [1, 2, 2, 4, 1, 5];
 my %frequencies ;
 @numbers.map( {%frequencies{$_}++} ) ;
 my $maximum = %frequencies.values.max ;

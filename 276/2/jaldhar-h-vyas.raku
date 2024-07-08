@@ -1,7 +1,7 @@
 #!/usr/bin/env raku
 
 sub MAIN(
-    *@ints
+    @ints = [1, 2, 2, 4, 1, 5]
 ) {
     my %freq;
 

@@ -1,4 +1,5 @@
 #!/usr/bin/env raku
+
 sub max-frequency (@in) {
     my $frequencies = @in.Bag;
     my $max = $frequencies.values.max;
