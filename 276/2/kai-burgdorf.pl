@@ -21,7 +21,7 @@ foreach (@ints) {
 }
 
 for(keys %frequencies){
-  print("frequ for value $_ is $frequencies{$_}\n");
+#  print("frequ for value $_ is $frequencies{$_}\n");
   if($frequencies{$_} == $highest) {
     $total += $frequencies{$_};
   }

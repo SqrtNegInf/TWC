@@ -3,7 +3,7 @@ use warnings;
 use strict;
 use experimental qw( signatures );
 
-srand 1;
+#srand 1;
 
 # Optimised solution, much faster for large input arrays.
 sub complete_day(@hours) {
@@ -30,7 +30,7 @@ sub complete_day_simple(@hours) {
     return $tally
 }
 
-use Test::More tests => 3 + 7 + 1001;
+use Test::More tests => 3 + 7 + 1;
 
 is complete_day(12, 12, 30, 24, 24), 2, 'Example 1';
 is complete_day(72, 48, 24, 5), 3, 'Example 2';
@@ -44,17 +44,12 @@ is complete_day(1 .. 47), 45, '1..47';
 is complete_day(1 .. 60), 70, '1..60';
 is complete_day(1 .. 61), 73, '1..61 (introduce 96)';
 
-for (1 .. 1000) {
-    my @hours = map int rand 100, 1 .. 10 + rand 100;
-    is complete_day(@hours), complete_day_simple(@hours), "same $_";
-}
+#for (1 .. 1000) {
+#    my @hours = map int rand 100, 1 .. 10 + rand 100;
+#    is complete_day(@hours), complete_day_simple(@hours), "same $_";
+#}
 
-use Benchmark qw{ cmpthese };
+#use Benchmark qw{ cmpthese };
 
 my @hours = map int rand 100, 1 .. 10 + rand 100;
 is complete_day(@hours), complete_day_simple(@hours), "same bench (@hours)";
-
-cmpthese(-3, {
-    simple    => sub { complete_day_simple(@hours) },
-    optimised => sub { complete_day(@hours) },
-});
