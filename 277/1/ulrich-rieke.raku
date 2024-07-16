@@ -1,11 +1,8 @@
 #!/usr/bin/env raku
-use v6 ;
 
-say "Enter some words, separated by blanks!" ;
-my $firstLine = $*IN.get ;
+my $firstLine = 'my red dog';
 my @firstWords = $firstLine.words ;
-say "Enter more words, separated by blanks!" ;
-my $secondLine = $*IN.get ;
+my $secondLine = 'red flag warning';
 my @secondWords = $secondLine.words ;
 my $common = @firstWords.Set (&) @secondWords.Set ;
 my %firstFreq ;

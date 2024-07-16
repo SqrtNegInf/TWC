@@ -1,4 +1,5 @@
 #!/usr/bin/env raku
+
 sub task1 ( @LoLists --> UInt ) {
 
     return +[∩] map { .Set (-) .repeated }, @LoLists;

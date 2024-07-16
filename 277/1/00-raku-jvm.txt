@@ -1,0 +1,101 @@
+ 
+===> 277/1/0rir.raku <===
+1..6
+ok 1 - 0 <-  +/+ 
+ok 2 - 0 <-  +/+ Pi is positive and is long
+ok 3 - 1 <- red +/+ Red dog
+ok 4 - 2 <- Perl is my friend +/+ Perl and Raku are friend
+ok 5 - 1 <- Perl and Python are very similar +/+ Python is top in guest languages
+ok 6 - 0 <- Perl is imperative Lisp is functional +/+ Crystal is similar to Ruby
+
+Input: @words1 = ("I", "am", "positive")
+       @words2 = ("Pi", "is", "positive")
+ Output: 1
+ 
+===> 277/1/arne-sommer.raku <===
+2
+ 
+===> 277/1/athanasius.raku <===
+
+Challenge 277, Task #1: Count Common (Raku)
+
+Running the test suite
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+1..3
+ 
+===> 277/1/barroff.raku <===
+1..3
+ok 1 - works for ("Perl", "is", "my", "friend") and ("Perl", "and", "Raku", "are", "friend")
+ok 2 - works for ("Perl", "and", "Python", "are", "very", "similar") and ("Python", "is", "top", "in", "guest", "languages")
+ok 3 - works for ("Perl", "is", "imperative", "Lisp", "is", "functional") and ("Crystal", "is", "similar", "to", "Ruby")
+ 
+===> 277/1/bruce-gray.raku <===
+1..4
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ok 4 - 
+ 
+===> 277/1/deadmarshal.raku <===
+2
+1
+0
+ 
+===> 277/1/feng-chang.raku <===
+1
+ 
+===> 277/1/laurent-rosenfeld.raku <===
+(Perl is my friend)
+(Perl and Raku are friend)
+2
+
+(Perl is my friend)
+(Raku is friend of my friend Perl)
+3
+
+(Perl and Python are very similar)
+(Python is top in guest languages)
+1
+
+(Perl is imperative Lisp is functional)
+(Crystal is similar to Ruby)
+0
+
+ 
+===> 277/1/mark-anderson.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+ 
+===> 277/1/packy-anderson.raku <===
+Example 1:
+Input: @words1 = ("Perl", "is", "my", "friend")
+       @words2 = ("Perl", "and", "Raku", "are", "friend")
+Output: 2
+
+Example 2:
+Input: @words1 = ("Perl", "and", "Python", "are", "very", "similar")
+       @words2 = ("Python", "is", "top", "in", "guest", "languages")
+Output: 1
+
+Example 3:
+Input: @words1 = ("Perl", "is", "imperative", "Lisp", "is", "functional")
+       @words2 = ("Crystal", "is", "similar", "to", "Ruby")
+Output: 0
+ 
+===> 277/1/roger-bell-west.raku <===
+1..3
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ 
+===> 277/1/ulrich-rieke.raku <===
+1
+ 
+===> 277/1/wambash.raku <===
+ok 1 - 
+ok 2 - 
+ok 3 - 
+1..3

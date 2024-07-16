@@ -1,5 +1,4 @@
 #!/usr/bin/env raku
-use v6;
 
 sub countCommon(@words1, @words2) {
   # make Bags that count the words

@@ -1,7 +1,5 @@
 #!/usr/bin/env raku
 
-use v6.d;
-
 sub count-common(@words1, @words2 --> Int) {
     my $words1-bag = Bag(@words1);
     my $words2-bag = Bag(@words2);

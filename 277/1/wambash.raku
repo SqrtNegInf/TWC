@@ -8,14 +8,12 @@ sub count-common (+words) {
     andthen .elems
 }
 
-multi MAIN (Bool :test($)!) {
+#multi MAIN (Bool :test($)!) {
     use Test;
     is count-common(<Perl is my friend>, <Perl and Raku are friend>), 2;
     is count-common(<Perl and Python are very similar>, <Python is top in guest languages>), 1;
     is count-common(<Perl is imperative Lisp is functional>, <Crystal is Similar to Ruby>), 0;
     done-testing;
-}
+#}
 
-multi MAIN (+words) {
-    say count-common words».words
-}
+#multi MAIN (+words) { say count-common words».words }

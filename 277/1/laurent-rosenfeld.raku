@@ -2,7 +2,7 @@
 sub count-common (@in1, @in2) {
     my $bag-in1 = @in1.Bag;
     my $bag-in2 = @in2.Bag;
-    my $unique1 = grep {$bag-in1{$_} == 1}, $bag-in1.keys;  .
+    my $unique1 = grep {$bag-in1{$_} == 1}, $bag-in1.keys; 
     my $unique2 = grep {$bag-in2{$_} == 1}, $bag-in2.keys;
     return ($unique1 ∩ $unique2).elems;
 }
