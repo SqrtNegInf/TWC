@@ -1,8 +1,7 @@
 #!/usr/bin/env perl
-# The Weekly Challenge 277
-# Task 2 Strong Pair
 use v5.30.0;
 use warnings;
+
 use List::Util qw/uniqnum min/;
 
 sub sp {

@@ -1,4 +1,6 @@
 #!/usr/bin/env perl
+use v5.36;
+
 sub strong_pairs {
     my %input = map { $_ => 1 } @_; # remove duplicates
     my @in = keys %input;

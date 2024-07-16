@@ -1,15 +1,9 @@
 #!/usr/bin/env perl
-
-# The Weekly Challenge 277 - By Nelo Tovar
-#
-# https://theweeklychallenge.org/blog/perl-weekly-challenge-277/
-#
-# Task 2 - Strong Pair
-#
+use v5.28;
 
 use strict;
 use warnings;
-use v5.28;
+
 use List::Util qw /min uniq/;
 use Data::Dump qw(dump);
 

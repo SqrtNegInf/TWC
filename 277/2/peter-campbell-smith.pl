@@ -1,11 +1,7 @@
 #!/usr/bin/env perl
 
-# Blog: http://ccgi.campbellsmiths.force9.co.uk/challenge
-
 use v5.26;    # The Weekly Challenge - 2024-07-08
-use utf8;     # Week 277 - task 2 - Strong pair
 use warnings; # Peter Campbell Smith
-binmode STDOUT, ':utf8';
 
 my @ints;
 

@@ -1,0 +1,151 @@
+ 
+===> 277/2/alexander-karelas.pl <===
+Strong pairs: (2, 3), (3, 4), (3, 5), (4, 5)
+ 
+===> 277/2/athanasius.pl <===
+
+Challenge 277, Task #2: Strong Pair (Perl)
+
+Running the test suite
+ok 1 - Example 1
+ok 2 - Example 2
+1..2
+ 
+===> 277/2/atschneid.pl <===
+1, 2, 3, 4, 5 :: 4
+5, 7, 1, 7 :: 1
+ 
+===> 277/2/bob-lied.pl <===
+ok 1 - Example 1
+ok 2 - Example 2
+1..2
+ 
+===> 277/2/bruce-gray.pl <===
+1..10
+ok 1
+ok 2
+ok 3
+ok 4
+ok 5
+ok 6
+ok 7
+ok 8
+ok 9
+ok 10
+ 
+===> 277/2/cheok-yin-fung.pl <===
+1..2
+ok 1
+ok 2
+ 
+===> 277/2/dave-jacoby.pl <===
+        Input:  @ints = (1, 2, 3, 4, 5)
+        Output: 4
+
+        Strong Pairs: (2, 3), (3, 4), (3, 5), (4, 5)
+
+        Input:  @ints = (5, 7, 1, 7)
+        Output: 1
+
+        Strong Pairs: (5, 7)
+
+ 
+===> 277/2/deadmarshal.pl <===
+4
+1
+ 
+===> 277/2/e-choroba.pl <===
+1..2
+ok 1 - Example 1
+ok 2 - Example 2
+ 
+===> 277/2/jo-37.pl <===
+ok 1 - example 1
+ok 2 - example  2
+ok 3 - no strong pairs
+ok 4 - neighbors are strong pairs
+ok 5 - all pairs are strong
+1..5
+ 
+===> 277/2/laurent-rosenfeld.pl <===
+1 2 3 4 5  => 4
+5 7 1 7    => 1
+ 
+===> 277/2/nelo-tovar.pl <===
+Input : @ints = (1 .. 5)
+Output : 4
+ 
+Input : @ints = (5, 7, 1, 7)
+Output : 1
+ 
+ 
+===> 277/2/packy-anderson.pl <===
+Example 1:
+Input: @ints = (5)
+Output: 4
+
+Strong Pairs: (2, 3), (3, 4), (3, 5), (4, 5)
+
+Example 2:
+Input: @ints = (4)
+Output: 1
+
+Strong Pairs: (5, 7)
+ 
+===> 277/2/perlboy1967.pl <===
+ok 1
+ok 2
+1..2
+ 
+===> 277/2/peter-campbell-smith.pl <===
+
+Input: @ints = 1, 2, 3, 4, 5
+Output1: 4 - (2, 3), (3, 4), (3, 5), (4, 5)
+Output2: 4 - (2, 3), (3, 4), (3, 5), (4, 5)
+
+Input: @ints = 5, 7, 1, 7
+Output1: 1 - (5, 7)
+Output2: 1 - (5, 7)
+ 
+===> 277/2/peter-meszaros.pl <===
+ok 1
+ok 2
+1..2
+ 
+===> 277/2/reinier-maliepaard.pl <===
+4
+1
+ 
+===> 277/2/roger-bell-west.pl <===
+1..2
+ok 1 - example 1
+ok 2 - example 2
+ 
+===> 277/2/santiago-leyva.pl <===
+$VAR1 = [
+          2,
+          3
+        ];
+$VAR1 = [
+          3,
+          4
+        ];
+$VAR1 = [
+          3,
+          5
+        ];
+$VAR1 = [
+          4,
+          5
+        ];
+ 
+===> 277/2/wanderdoc.pl <===
+ok 1 - Example 1
+ok 2 - Example 2
+1..2
+ 
+===> 277/2/zapwai.pl <===
+Input: (1 2 3 4 5)
+Output: 4
+Input: (5 7 1 7)
+Output: 2

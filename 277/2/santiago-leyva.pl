@@ -1,15 +1,11 @@
 #!/usr/bin/env perl
 use strict;
+
 use Data::Dumper;
 use List::Util qw(min);
 
 
-#You are given an array of integers, @ints.
-
-#Write a script to return the count of all strong pairs in the given array.
-#A pair of integers x and y is called strong pair if it satisfies: 0 < |x - y| < min(x, y)
 my @ints = (1, 2, 3, 4, 5);
-#my @ints = (5, 7, 1, 7);
 my @pairs;
 my %seen;
 my $key;

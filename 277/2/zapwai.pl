@@ -1,6 +1,8 @@
 #!/usr/bin/env perl
 use v5.36;
+
 use List::Util qw(min);
+
 my @ints = (1, 2, 3, 4, 5);
 proc(@ints);
 @ints = (5, 7, 1, 7);
