@@ -1,6 +1,7 @@
 #!/usr/bin/env perl
 use warnings;
 use feature 'say';
+
 use Data::Dumper;
 
 sub count_common {

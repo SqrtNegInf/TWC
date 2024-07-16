@@ -1,5 +1,6 @@
 #!/usr/bin/env perl
 use strict;
+
 use Data::Dumper;
 
 my @words1 = ("Perl", "is", "my", "friend");

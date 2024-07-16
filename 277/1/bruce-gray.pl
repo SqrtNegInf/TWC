@@ -1,5 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
+
 use Set::Bag;
 
 package Set::Bag { # Extending the class with methods I wish were already included.

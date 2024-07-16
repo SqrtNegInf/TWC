@@ -1,5 +1,6 @@
 #!/usr/bin/env perl
 use v5.36;
+
 my @words1 = ("Perl", "is", "my", "friend");
 my @words2 = ("Perl", "and", "Raku", "are", "friend");
 proc(\@words1, \@words2);

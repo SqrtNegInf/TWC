@@ -1,15 +1,9 @@
 #!/usr/bin/env perl
-
-# The Weekly Challenge 277 - By Nelo Tovar
-#
-# https://theweeklychallenge.org/blog/perl-weekly-challenge-277/
-#
-# Task 1 - Count Common
-#
+use v5.28;
 
 use strict;
 use warnings;
-use v5.28;
+
 use List::MoreUtils qw /singleton one/;
 use Data::Dump qw(dump);
 

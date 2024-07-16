@@ -1,11 +1,6 @@
 #!/usr/bin/env perl
 
-# Blog: http://ccgi.campbellsmiths.force9.co.uk/challenge
-
-use v5.26;    # The Weekly Challenge - 2024-07-08
-use utf8;     # Week 277 - task 1 - Count common
-use warnings; # Peter Campbell Smith
-binmode STDOUT, ':utf8';
+use v5.36;
 
 count_common([qw(the fat cat sat on the mat)], [qw(the loud dog ran on the grass)]);
 count_common([qw(You are given two arrays of strings)], [qw(Write a script to return the count)]);

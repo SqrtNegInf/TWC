@@ -1,0 +1,171 @@
+ 
+===> 277/1/athanasius.pl <===
+
+Challenge 277, Task #1: Count Common (Perl)
+
+Running the test suite
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+1..3
+ 
+===> 277/1/atschneid.pl <===
+Perl, is, my, friend cf. Perl, and, Raku, are, friend :: 2
+Perl, and, Python, are, very, similar cf. Python, is, top, in, guest, languages :: 1
+Perl, is, imperative, Lisp, is, functional cf. Crystal, is, similar, to, Ruby :: 0
+ 
+===> 277/1/bob-lied.pl <===
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+1..3
+ 
+===> 277/1/bruce-gray.pl <===
+1..4
+ok 1
+ok 2
+ok 3
+ok 4
+ 
+===> 277/1/cheok-yin-fung.pl <===
+1..3
+ok 1
+ok 2
+ok 3
+ 
+===> 277/1/dave-jacoby.pl <===
+    Input:  @words1 = ("Perl", "is", "my", "friend"), 
+            @words2 = ("Perl", "and", "Raku", "are", "friend")
+    Output: 2
+
+    Input:  @words1 = ("Perl", "and", "Python", "are", "very", "similar"), 
+            @words2 = ("Python", "is", "top", "in", "guest", "languages")
+    Output: 1
+
+    Input:  @words1 = ("Perl", "is", "imperative", "Lisp", "is", "functional"), 
+            @words2 = ("Crystal", "is", "similar", "to", "Ruby")
+    Output: 0
+
+ 
+===> 277/1/deadmarshal.pl <===
+2
+1
+0
+ 
+===> 277/1/e-choroba.pl <===
+1..3
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ 
+===> 277/1/jo-37.pl <===
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ok 4 - three arrays with one common word
+1..4
+ 
+===> 277/1/kjetillll.pl <===
+1..3
+ok 1
+ok 2
+ok 3
+ 
+===> 277/1/laurent-rosenfeld.pl <===
+Perl is my friend
+Perl and Raku are friend
+2
+
+Perl is my friend
+Raku is friend of my friend Perl
+3
+
+Perl and Python are very similar
+Python is top in guest languages
+1
+
+Perl is imperative Lisp is functional
+Crystal is similar to Ruby
+0
+
+ 
+===> 277/1/nelo-tovar.pl <===
+Input : @words1 = ["Perl", "is", "my", "friend"]
+        @words2 = ["Perl", "and", "Raku", "are", "friend"]
+Output : 2
+ 
+Input : @words1 = ["Perl", "and", "Python", "are", "very", "similar"]
+        @words2 = ["Python", "is", "top", "in", "guest", "languages"]
+Output : 1
+ 
+Input : @words1 = ["Perl", "is", "imperative", "Lisp", "is", "functional"]
+        @words2 = ["Crystal", "is", "similar", "to", "Ruby"]
+Output : 0
+ 
+ 
+===> 277/1/packy-anderson.pl <===
+Example 1:
+Input: @words1 = ("Perl", "is", "my", "friend")
+       @words2 = ("Perl", "and", "Raku", "are", "friend")
+Output: 2
+
+Example 2:
+Input: @words1 = ("Perl", "and", "Python", "are", "very", "similar")
+       @words2 = ("Python", "is", "top", "in", "guest", "languages")
+Output: 1
+
+Example 3:
+Input: @words1 = ("Perl", "is", "imperative", "Lisp", "is", "functional")
+       @words2 = ("Crystal", "is", "similar", "to", "Ruby")
+Output: 0
+ 
+===> 277/1/perlboy1967.pl <===
+ok 1
+ok 2
+ok 3
+1..3
+ 
+===> 277/1/peter-campbell-smith.pl <===
+
+Input:  @words1 = 'the', 'fat', 'cat', 'sat', 'on', 'the', 'mat'
+        @words2 = 'the', 'loud', 'dog', 'ran', 'on', 'the', 'grass'
+Output: 1
+
+Input:  @words1 = 'You', 'are', 'given', 'two', 'arrays', 'of', 'strings'
+        @words2 = 'Write', 'a', 'script', 'to', 'return', 'the', 'count'
+Output: 0
+
+Input:  @words1 = 'all', 'good', 'things', 'come', 'to', 'an', 'end'
+        @words2 = 'end', 'an', 'to', 'come', 'things', 'good', 'all'
+Output: 7
+
+Input:  @words1 = 'one', 'three'
+        @words2 = 'ONE', 'TWO'
+Output: 0
+ 
+===> 277/1/peter-meszaros.pl <===
+ok 1
+ok 2
+ok 3
+1..3
+ 
+===> 277/1/roger-bell-west.pl <===
+1..3
+ok 1 - example 1
+ok 2 - example 2
+ok 3 - example 3
+ 
+===> 277/1/santiago-leyva.pl <===
+2 
+===> 277/1/wanderdoc.pl <===
+ok 1 - Example 1
+ok 2 - Example 2
+ok 3 - Example 3
+ok 4 - Example Yoda
+1..4
+ 
+===> 277/1/zapwai.pl <===
+Input: Perl is my friend, Perl and Raku are friend
+Output: 2
+Input: Perl and Python are very similar, Python is top in guest languages
+Output: 1

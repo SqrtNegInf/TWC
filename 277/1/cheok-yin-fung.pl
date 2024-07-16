@@ -1,8 +1,8 @@
 #!/usr/bin/env perl
-# The Weekly Challenge 277
-# Task 1 Count Common
 use v5.30.0;
+
 use warnings;
+
 use List::MoreUtils qw/singleton duplicates/;
 
 sub cc {

@@ -1,37 +1,9 @@
 #!/usr/bin/env perl
-#
-=head1 Task 1: Count Common
-
-You are given two array of strings, @words1 and @words2.
-
-Write a script to return the count of words that appears in both arrays exactly
-once.
-
-=head2 Example 1
-
-    Input: @words1 = ("Perl", "is", "my", "friend")
-           @words2 = ("Perl", "and", "Raku", "are", "friend")
-    Output: 2
-
-The words "Perl" and "friend" appear once in each array.
-
-=head2 Example 2
-
-    Input: @words1 = ("Perl", "and", "Python", "are", "very", "similar")
-           @words2 = ("Python", "is", "top", "in", "guest", "languages")
-    Output: 1
-
-=head2 Example 3
-
-    Input: @words1 = ("Perl", "is", "imperative", "Lisp", "is", "functional")
-           @words2 = ("Crystal", "is", "similar", "to", "Ruby")
-    Output: 0
-
-=cut
 
 use strict;
 use warnings;
-use Test2::V0 -no_srand => 1 -no_srand;
+
+use Test2::V0 -no_srand;
 use Data::Dumper;
 
 my $cases = [

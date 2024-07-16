@@ -1,27 +1,11 @@
 #!/usr/bin/env perl
 
-=pod
+use v5.36;
 
-The Weekly Challenge - 277
-- https://theweeklychallenge.org/blog/perl-weekly-challenge-277
+#use feature qw(signatures);
+#use common::sense;
 
-Author: Niels 'PerlBoy' van Dijke
-
-Task 1: Count Common
-Submitted by: Mohammad Sajid Anwar
-
-You are given two array of strings, @words1 and @words2.
-
-Write a script to return the count of words that appears in both
-arrays exactly once.
-
-=cut
-
-use v5.32;
-use feature qw(signatures);
-use common::sense;
-
-use Test2::V0 qw(-no_srand) -no_srand;
+use Test2::V0 -no_srand;
 
 use List::AllUtils qw(singleton);
 
