@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-use warnings;
-use feature 'say';
+use v5.36;
 
 use Data::Dumper;
 

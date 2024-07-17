@@ -1,5 +1,4 @@
 #!/usr/bin/env perl
-
 use v5.36;
 
 count_common([qw(the fat cat sat on the mat)], [qw(the loud dog ran on the grass)]);
