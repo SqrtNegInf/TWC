@@ -8,13 +8,11 @@ sub strong-pair (+ints) {
     andthen .elems
 }
 
-multi MAIN (Bool :test($)!) {
+#multi MAIN (Bool :test($)!) {
     use Test;
     is strong-pair(1..5), 4;
     is strong-pair(5,7,1,7), 1;
     done-testing;
-}
+#}
 
-multi MAIN (+ints) {
-    say strong-pair ints
-}
+#multi MAIN (+ints) { say strong-pair ints }

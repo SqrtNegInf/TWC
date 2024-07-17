@@ -1,5 +1,4 @@
 #!/usr/bin/env raku
-# See blog post for detailed commentary.
 
 sub Triangle       ( UInt $n --> UInt ) { $n * ($n-1) div 2   }  # https://oeis.org/A000217 , [+]1..$n
 sub Quarter-square ( UInt $n --> UInt ) { $n *  $n    div 4   }  # https://oeis.org/A002620

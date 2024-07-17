@@ -1,9 +1,5 @@
 #!/usr/bin/env raku
-use v6 ;
-
-say "Enter some integers, separated by blanks!" ;
-my $line = $*IN.get ;
-my @numbers = $line.words.map( {.Int} ) ;
+my @numbers = (5, 7, 1, 7);
 my @valid_pairs ;
 for @numbers.combinations( 2 ) -> $combi {
    my $difference = ($combi[0] - $combi[1]).abs ;

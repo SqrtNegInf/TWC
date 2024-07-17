@@ -1,6 +1,7 @@
 #!/usr/bin/env raku
+
 sub strong-pairs (@in) {
-    my` $count = 0;
+    my $count = 0;
     for @in.unique.combinations: 2 -> @pair {
         $count++ if 0 < (@pair[0] - @pair[1]).abs < @pair.min;
     }

@@ -1,5 +1,4 @@
 #!/usr/bin/env raku
-use v6;
 
 sub isStrongPair($x, $y) {
   return 0 < abs($x - $y) < min($x, $y);
