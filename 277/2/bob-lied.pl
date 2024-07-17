@@ -3,7 +3,7 @@ use v5.36;
 
 use Getopt::Long;
 my $Verbose = 0;
-my $DoTest  = 0;
+my $DoTest  = 1;
 my $Benchmark = 0;
 
 GetOptions("test" => \$DoTest, "verbose" => \$Verbose, "benchmark:i" => \$Benchmark);
@@ -43,13 +43,4 @@ sub runTest
     is( strongPair(5,7,1,7  ), 1, "Example 2");
 
     done_testing;
-}
-
-sub runBenchmark($repeat)
-{
-    use Benchmark qw/cmpthese/;
-
-    cmpthese($repeat, {
-            label => sub { },
-        });
 }
